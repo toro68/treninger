@@ -1,6 +1,17 @@
 import { useSessionStore } from "@/store/sessionStore";
 import { useEffect, useMemo, useState } from "react";
 
+const EQUIPMENT_LABELS: Record<string, string> = {
+  vester: "Vester",
+  markør: "Markører (Bob)",
+  kjegler: "Kjegler",
+  baller: "Baller",
+  mål: "Mål",
+  småmål: "Småmål",
+  stenger: "Stenger",
+  stiger: "Stiger",
+};
+
 export const EquipmentList = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
@@ -8,8 +19,11 @@ export const EquipmentList = () => {
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => setHydrated(true), []);
 
-  // Samle alt utstyr som trengs
-  const equipmentSet = new Set<string>();
+  // Fast utstyr som alltid trengs
+  const ALWAYS_NEEDED = ["vester", "markør"];
+
+  // Samle utstyr fra øvelser
+  const equipmentSet = new Set<string>(ALWAYS_NEEDED);
   sessionBlocks.forEach((block) => {
     block.exercise.equipment.forEach((item) => {
       equipmentSet.add(item.toLowerCase());
@@ -70,7 +84,7 @@ export const EquipmentList = () => {
                   onChange={() => toggleChecked(item)}
                   className="h-5 w-5 accent-black"
                 />
-                <span className="capitalize">{item}</span>
+                <span>{EQUIPMENT_LABELS[item] ?? item}</span>
               </label>
             </li>
           );

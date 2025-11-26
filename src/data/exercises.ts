@@ -27,7 +27,7 @@ export const exercises: Exercise[] = [
     playersMax: 30,
     theme: "mobilitet",
     injuryTags: ["skadefri", "begrenset", "rehab"],
-    equipment: ["kjegler", "markør"],
+    equipment: ["kjegler"],
     description:
       "Dynamisk mobilitet inspirert av Skadefri-programmet. Legg inn kontrollerte bevegelser gjennom kjegler og leddutslag.",
     coachingPoints: [
@@ -46,7 +46,7 @@ export const exercises: Exercise[] = [
     playersMax: 16,
     theme: "pasning",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "baller", "vester"],
+    equipment: ["kjegler", "baller"],
     description: "Rondo i kvadrat, korte touch, fokus på vinkler og støtte.",
     coachingPoints: [
       "Åpne kropp mot neste pasning",
@@ -63,7 +63,7 @@ export const exercises: Exercise[] = [
     playersMax: 18,
     theme: "press",
     injuryTags: ["skadefri"],
-    equipment: ["kjegler", "baller", "vester"],
+    equipment: ["kjegler", "baller"],
     description: "Lag to lag som bytter på å presse i firkant. Fokus på kollektivt trykk.",
     coachingPoints: ["Sett første press raskt", "Sikring fra bakre spiller"],
     variations: ["Spill med touch-begrensing", "Legg inn scoring på koner"],
@@ -107,7 +107,7 @@ export const exercises: Exercise[] = [
     playersMax: 18,
     theme: "possession",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "baller", "vester"],
+    equipment: ["kjegler", "baller"],
     description:
       "Fire mot fire med tre nøytrale spillere for overtal. Fokus på spillbarhet og støtte.",
     coachingPoints: ["Skap trekanter", "Hurtig spill over nøytrale"],
@@ -122,7 +122,7 @@ export const exercises: Exercise[] = [
     playersMax: 20,
     theme: "spill",
     injuryTags: ["skadefri"],
-    equipment: ["mål", "baller", "vester"],
+    equipment: ["mål", "baller"],
     description: "Vanlig 7v7 på halv bane. Fokus på tydelige roller og trykk.",
     coachingPoints: ["Gjenkjenne overtall", "Spill gjennom ledd"],
     variations: ["Maks tre touch", "Bonusscoring etter 10 pasninger"],
@@ -151,7 +151,7 @@ export const exercises: Exercise[] = [
     playersMax: 25,
     theme: "hurtighet",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "markør"],
+    equipment: ["kjegler"],
     description:
       "Serier med retningsendringer, finter og lett fotarbeid uten ball for å få kroppen varm.",
     coachingPoints: [
@@ -184,7 +184,7 @@ export const exercises: Exercise[] = [
     playersMax: 20,
     theme: "finter",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "markør"],
+    equipment: ["kjegler"],
     description:
       "Teknisk løype inspirert av Coerver: oversteg, to-stegsfinte og eksplosiv akselerasjon rundt kjegler.",
     coachingPoints: ["Kutt tett på kjeglen", "Eksploder ut etter finte"],
@@ -319,7 +319,7 @@ export const exercises: Exercise[] = [
     playersMax: 18,
     theme: "gjennombrudd",
     injuryTags: ["skadefri"],
-    equipment: ["kjegler", "baller", "mål", "vester"],
+    equipment: ["kjegler", "baller", "mål"],
     description:
       "6v6 delt i soner hvor laget må spille gjennom midtsone før de kan score.",
     coachingPoints: ["Skap linjebrudd", "Jobb mellomrom"],
@@ -334,7 +334,7 @@ export const exercises: Exercise[] = [
     playersMax: 12,
     theme: "konkurranse",
     injuryTags: ["skadefri"],
-    equipment: ["småmål", "baller", "vester"],
+    equipment: ["småmål", "baller"],
     description:
       "Småbanespill 3v3 der scoring avslutter kampen og begge lag bytter ut.",
     coachingPoints: ["Start aggressivt", "Ta raske beslutninger"],
@@ -349,7 +349,7 @@ export const exercises: Exercise[] = [
     playersMax: 20,
     theme: "konkurranse",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["baller", "småmål", "vester"],
+    equipment: ["baller", "småmål"],
     description:
       "Lag rykker opp ved seier og ned ved tap. Uavgjort avgjøres med stein-saks-papir.",
     coachingPoints: ["Hold intensiteten hele tiden", "Bytt raskt mellom kamper"],
@@ -364,7 +364,7 @@ export const exercises: Exercise[] = [
     playersMax: 18,
     theme: "konkurranse",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "markør", "vester"],
+    equipment: ["kjegler"],
     description:
       "Spillere løper med ball til rutenett, legger kjegle og prøver å få tre på rad.",
     coachingPoints: ["Hold kontroll på ballen", "Tenk strategi"],
@@ -394,7 +394,7 @@ export const exercises: Exercise[] = [
     playersMax: 20,
     theme: "ballkontroll",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["kjegler", "stiger", "markør"],
+    equipment: ["kjegler", "stiger"],
     description:
       "Spillerne beveger seg gjennom dribleporter, sjonglering og vendinger med egen ball i strøm.",
     coachingPoints: ["Ha mange små berøringer", "Se opp mellom hver del"],
@@ -454,7 +454,7 @@ export const exercises: Exercise[] = [
     playersMax: 18,
     theme: "angrep",
     injuryTags: ["skadefri"],
-    equipment: ["mål", "baller", "kjegler", "vester"],
+    equipment: ["mål", "baller", "kjegler"],
     description:
       "6v6 + keepere på 50x65 m, med frisoner på kantene for innlegg og avslutning.",
     coachingPoints: ["Angrip boksen med løp", "Slå tidlig fra frisonen"],
@@ -469,7 +469,7 @@ export const exercises: Exercise[] = [
     playersMax: 22,
     theme: "spill",
     injuryTags: ["skadefri"],
-    equipment: ["mål", "baller", "vester"],
+    equipment: ["mål", "baller"],
     description:
       "8v8 + keepere på 80x60 m, fritt spill eller to touch i perioder.",
     coachingPoints: ["Hold bredde i angrep", "Trykk samlet når ball tapes"],
@@ -484,7 +484,7 @@ export const exercises: Exercise[] = [
     playersMax: 16,
     theme: "pasning",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["baller", "kjegler", "vester"],
+    equipment: ["baller", "kjegler"],
     description:
       "4v4 + keepere hvor laget må spille gjennom midtsonen før avslutning.",
     coachingPoints: ["Bruk støtte før gjennomspill", "Skap trekanter rundt sonen"],
@@ -499,7 +499,7 @@ export const exercises: Exercise[] = [
     playersMax: 16,
     theme: "restitusjon",
     injuryTags: ["skadefri", "begrenset"],
-    equipment: ["småmål", "baller", "vester"],
+    equipment: ["småmål", "baller"],
     description:
       "5v5 på små mål, moderat intensitet og fokus på å holde ballen i laget.",
     coachingPoints: ["Flytt ball før du flytter deg", "Ta vare på ballen"],
