@@ -48,16 +48,13 @@ export const SessionTimeline = () => {
   const sharePayload = `Treningsøkt (${totalMinutes} min)\n${planSummary}`;
 
   const handleShare = async () => {
+    const nav = typeof navigator !== "undefined" ? navigator : undefined;
     try {
-      if (typeof navigator !== "undefined" && "share" in navigator) {
-        await navigator.share({ title: "Treningsøkt", text: sharePayload });
+      if (nav && "share" in nav && typeof nav.share === "function") {
+        await nav.share({ title: "Treningsøkt", text: sharePayload });
         setShareStatus("shared");
-      } else if (
-        typeof navigator !== "undefined" &&
-        navigator.clipboard &&
-        navigator.clipboard.writeText
-      ) {
-        await navigator.clipboard.writeText(sharePayload);
+      } else if (nav?.clipboard?.writeText) {
+        await nav.clipboard.writeText(sharePayload);
         setShareStatus("copied");
       } else {
         setShareStatus("error");
