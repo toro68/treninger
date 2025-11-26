@@ -16,31 +16,29 @@ export const PlayerSetup = () => {
   };
 
   return (
-    <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
+    <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
       <h2 className="text-lg font-semibold text-zinc-900">Oppsett</h2>
-      <div className="mt-4 space-y-4">
+      <div className="mt-3 grid grid-cols-2 gap-3 sm:gap-4">
         <label className="flex flex-col gap-1">
-          <span className="text-sm text-zinc-600">Antall spillere</span>
+          <span className="text-sm text-zinc-600">Spillere</span>
           <input
             type="number"
             min={4}
             max={30}
             value={playerCount}
             onChange={handlePlayerChange}
-            className="rounded-xl border border-zinc-200 px-4 py-2 text-zinc-900 focus:border-black focus:outline-none"
+            className="rounded-xl border border-zinc-200 px-3 py-2 text-zinc-900 focus:border-black focus:outline-none"
           />
         </label>
         <label className="flex flex-col gap-1">
-          <span className="text-sm text-zinc-600">Antall stasjoner</span>
+          <span className="text-sm text-zinc-600">Stasjoner</span>
           <select
             value={stationCount}
             onChange={handleStationChange}
-            className="rounded-xl border border-zinc-200 px-4 py-2 text-zinc-900 focus:border-black focus:outline-none"
+            className="rounded-xl border border-zinc-200 px-3 py-2 text-zinc-900 focus:border-black focus:outline-none"
           >
             {[1, 2, 3, 4].map((value) => (
-              <option key={value} value={value}>{`${value} stasjon${
-                value > 1 ? "er" : ""
-              }`}</option>
+              <option key={value} value={value}>{value}</option>
             ))}
           </select>
         </label>

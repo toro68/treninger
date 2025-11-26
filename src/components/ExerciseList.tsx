@@ -12,7 +12,8 @@ interface ExerciseListProps {
 export const ExerciseList = ({ category, title, theme }: ExerciseListProps) => {
   const playerCount = useSessionStore((state) => state.playerCount);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
-  const exercises = filterExercises(exerciseLibrary, playerCount, category, theme);
+  const favoriteIds = useSessionStore((state) => state.favoriteIds);
+  const exercises = filterExercises(exerciseLibrary, playerCount, category, theme, favoriteIds);
   const [open, setOpen] = useState(true);
 
   return (

@@ -28,18 +28,18 @@ export const Filters = ({
   }, [playerCount]);
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-1.5 sm:gap-2">
       {["alle", ...availableThemes].map((theme) => (
         <button
           key={theme}
           onClick={() => onThemeChange(theme as ThemeFilter)}
-          className={`rounded-full border px-4 py-1 text-sm transition ${
+          className={`rounded-full border px-3 py-1 text-xs sm:text-sm transition active:scale-95 ${
             activeTheme === theme
               ? "border-black bg-black text-white"
               : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400"
           }`}
         >
-          {theme === "alle" ? "Alle tema" : theme}
+          {theme === "alle" ? "Alle" : theme}
         </button>
       ))}
     </div>
