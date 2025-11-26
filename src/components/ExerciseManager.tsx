@@ -32,6 +32,7 @@ export const ExerciseManager = () => {
   const addExercise = useSessionStore((state) => state.addExercise);
   const updateExercise = useSessionStore((state) => state.updateExercise);
 
+  const [isOpen, setIsOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [editing, setEditing] = useState<Exercise | null>(null);
 
@@ -86,31 +87,37 @@ export const ExerciseManager = () => {
   };
 
   return (
-    <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
-      <div className="flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <h2 className="text-lg font-semibold text-zinc-900">Administrer øvelser</h2>
-          <p className="text-sm text-zinc-500">
-            Opprett, rediger eller søk etter øvelser. Listen er sortert alfabetisk.
+    <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex w-full items-center justify-between"
+      >
+        <h2 className="text-lg font-semibold text-zinc-900">Administrer øvelser</h2>
+        <span className="text-sm text-zinc-500">{isOpen ? "Skjul" : "Vis"}</span>
+      </button>
+
+      {isOpen && (
+        <>
+          <p className="mt-2 text-sm text-zinc-500">
+            Opprett, rediger eller søk etter øvelser.
           </p>
-        </div>
-        <div className="flex gap-2">
-          <input
-            type="search"
-            placeholder="Søk etter øvelse"
-            className="rounded-full border border-zinc-200 px-4 py-2 text-sm"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-          />
-          <button
-            onClick={handleCreate}
-            className="rounded-full bg-black px-4 py-2 text-sm text-white"
-          >
-            Ny øvelse
-          </button>
-        </div>
-      </div>
-      <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100">
+          <div className="mt-4 flex flex-wrap gap-2">
+            <input
+              type="search"
+              placeholder="Søk etter øvelse"
+              className="flex-1 min-w-[150px] rounded-full border border-zinc-200 px-4 py-2 text-sm"
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+            />
+            <button
+              onClick={handleCreate}
+              className="rounded-full bg-black px-4 py-2 text-sm text-white"
+            >
+              Ny øvelse
+            </button>
+          </div>
+          <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100">
         <table className="w-full text-sm">
           <thead className="bg-zinc-50 text-left text-xs uppercase text-zinc-500">
             <tr>
@@ -155,9 +162,9 @@ export const ExerciseManager = () => {
             )}
           </tbody>
         </table>
-      </div>
-      {editing && (
-        <div className="mt-6 space-y-4 rounded-2xl border border-zinc-100 bg-zinc-50 p-4">
+          </div>
+          {editing && (
+            <div className="mt-6 space-y-4 rounded-2xl border border-zinc-100 bg-zinc-50 p-4">
           <h3 className="text-base font-semibold text-zinc-900">
             {exercises.some((ex) => ex.id === editing.id)
               ? "Rediger øvelse"
@@ -311,8 +318,10 @@ export const ExerciseManager = () => {
             >
               Lagre
             </button>
+            </div>
           </div>
-        </div>
+          )}
+        </>
       )}
     </section>
   );

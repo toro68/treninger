@@ -7,6 +7,7 @@ import { EquipmentList } from "@/components/EquipmentList";
 import { useState } from "react";
 import { Filters, ThemeFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
+import { CoachingTips } from "@/components/CoachingTips";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
@@ -49,6 +50,7 @@ export default function Home() {
           <div className="space-y-6">
             <SessionTimeline />
             <EquipmentList />
+            <CoachingTips />
           </div>
         </div>
 
@@ -83,6 +85,7 @@ export default function Home() {
           {/* Øktplan nederst på mobil */}
           <SessionTimeline />
           <EquipmentList />
+          <CoachingTips />
         </div>
       </div>
     </div>
