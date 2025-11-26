@@ -1,6 +1,10 @@
 import { recommendedDuration, useSessionStore } from "@/store/sessionStore";
 import { useState } from "react";
 
+type ClipboardCapableNavigator = Navigator & {
+  clipboard?: Pick<Clipboard, "writeText">;
+};
+
 export const SessionTimeline = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = generateSession();
@@ -48,7 +52,10 @@ export const SessionTimeline = () => {
   const sharePayload = `Treningsøkt (${totalMinutes} min)\n${planSummary}`;
 
   const handleShare = async () => {
-    const nav = typeof navigator !== "undefined" ? navigator : undefined;
+    const nav =
+      typeof navigator !== "undefined"
+        ? (navigator as ClipboardCapableNavigator)
+        : undefined;
     try {
       if (nav && "share" in nav && typeof nav.share === "function") {
         await nav.share({ title: "Treningsøkt", text: sharePayload });
