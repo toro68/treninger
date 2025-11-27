@@ -208,9 +208,16 @@ export const SessionTimeline = () => {
   return (
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className="text-lg font-semibold text-zinc-900">Øktplan</h2>
+        <div className="flex items-center gap-3">
+          <h2 className="text-lg font-semibold text-zinc-900">Øktplan</h2>
+          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-1 text-sm font-semibold text-emerald-700">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+              <path fillRule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-13a.75.75 0 0 0-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 0 0 0-1.5h-3.25V5Z" clipRule="evenodd" />
+            </svg>
+            {totalMinutes} min
+          </span>
+        </div>
         <div className="flex flex-wrap items-center gap-2 text-sm text-zinc-500">
-          <span className="font-medium" aria-live="polite">{totalMinutes} min</span>
           <div className="relative">
             <button
               onClick={() => setShowShareOptions(!showShareOptions)}
