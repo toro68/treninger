@@ -11,11 +11,9 @@ export type SessionBlock = {
 type SessionState = {
   exerciseLibrary: Exercise[];
   playerCount: number;
-  stationCount: number;
   selectedExerciseIds: Set<string>;
   favoriteIds: Set<string>;
   setPlayerCount: (count: number) => void;
-  setStationCount: (count: number) => void;
   toggleExercise: (id: string) => void;
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
@@ -68,11 +66,9 @@ export const useSessionStore = create<SessionState>()(
     (set, get) => ({
       exerciseLibrary: [...exercises],
       playerCount: 12,
-      stationCount: 2,
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
-      setStationCount: (count) => set({ stationCount: count }),
       toggleExercise: (id) =>
         set((state) => {
           const next = new Set(state.selectedExerciseIds);

@@ -4,7 +4,7 @@ import { useSessionStore } from "@/store/sessionStore";
 import { useState } from "react";
 
 interface ExerciseListProps {
-  category?: "warmup" | "station" | "game";
+  category?: "warmup" | "station" | "game" | "cooldown";
   title: string;
   theme?: string;
 }

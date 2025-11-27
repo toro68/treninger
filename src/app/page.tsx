@@ -8,6 +8,10 @@ import { useState } from "react";
 import { Filters, ThemeFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
 import { CoachingTips } from "@/components/CoachingTips";
+import { MatchPrep } from "@/components/MatchPrep";
+import { Roles } from "@/components/Roles";
+import { CornerOrganization } from "@/components/CornerOrganization";
+import { TeamOrganization } from "@/components/TeamOrganization";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
@@ -42,6 +46,10 @@ export default function Home() {
                   category="game"
                   theme={themeFilter === "alle" ? undefined : themeFilter}
                 />
+                <ExerciseList
+                  title="Avslutning"
+                  category="cooldown"
+                />
               </div>
             </section>
           </div>
@@ -51,6 +59,10 @@ export default function Home() {
             <SessionTimeline />
             <EquipmentList />
             <CoachingTips />
+            <MatchPrep />
+            <Roles />
+            <TeamOrganization />
+            <CornerOrganization />
           </div>
         </div>
 
@@ -79,6 +91,10 @@ export default function Home() {
                 category="game"
                 theme={themeFilter === "alle" ? undefined : themeFilter}
               />
+              <ExerciseList
+                title="Avslutning"
+                category="cooldown"
+              />
             </div>
           </section>
 
@@ -86,6 +102,10 @@ export default function Home() {
           <SessionTimeline />
           <EquipmentList />
           <CoachingTips />
+          <MatchPrep />
+          <Roles />
+          <TeamOrganization />
+          <CornerOrganization />
         </div>
       </div>
     </div>

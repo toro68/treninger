@@ -15,6 +15,7 @@ type SessionPart = {
 export const SessionTimeline = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = generateSession();
+  const playerCount = useSessionStore((state) => state.playerCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
 
@@ -26,8 +27,9 @@ export const SessionTimeline = () => {
     "idle" | "copied" | "shared" | "error"
   >("idle");
   const [showShareOptions, setShowShareOptions] = useState(false);
+  const [showCooldown, setShowCooldown] = useState(true);
 
-  // Grupper blokker i 4 deler
+  // Grupper blokker i 5 deler
   const parts: SessionPart[] = [
     {
       key: "skadefri",
@@ -53,6 +55,12 @@ export const SessionTimeline = () => {
       subtitle: "",
       blocks: [],
     },
+    {
+      key: "avslutning",
+      title: "5. Avslutning",
+      subtitle: "Utstrekking og styrke",
+      blocks: [],
+    },
   ];
 
   sessionBlocks.forEach((block, index) => {
@@ -65,13 +73,16 @@ export const SessionTimeline = () => {
       parts[2].blocks.push({ block, globalIndex: index });
     } else if (cat === "game") {
       parts[3].blocks.push({ block, globalIndex: index });
+    } else if (cat === "cooldown") {
+      parts[4].blocks.push({ block, globalIndex: index });
     }
   });
 
   // Oppdater stasjon-subtitle
   const stationCount = parts[2].blocks.length;
   if (stationCount > 0) {
-    parts[2].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""}`;
+    const playersPerStation = Math.floor(playerCount / stationCount);
+    parts[2].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
   }
 
   const totalMinutes = sessionBlocks.reduce(
@@ -124,7 +135,7 @@ export const SessionTimeline = () => {
   };
 
   const buildFullSummary = () => {
-    const partNames = ["SKADEFRI", "OPPVARMING", "STASJONER", "SPILL"];
+    const partNames = ["SKADEFRI", "OPPVARMING", "STASJONER", "SPILL", "AVSLUTNING"];
     let result = "";
 
     parts.forEach((part, partIndex) => {
@@ -250,80 +261,104 @@ export const SessionTimeline = () => {
         <p className="mt-4 text-sm text-zinc-500">Velg øvelser for å bygge økten</p>
       ) : (
         <div className="mt-4 space-y-4">
-          {parts.map((part) => (
-            <div key={part.key}>
-              <div className="flex items-baseline gap-2 mb-2">
-                <h3 className="text-sm font-medium text-zinc-700">{part.title}</h3>
-                {part.subtitle && (
-                  <span className="text-xs text-zinc-400">{part.subtitle}</span>
+          {parts.map((part) => {
+            const isCollapsible = part.key === "avslutning";
+            const isVisible = !isCollapsible || showCooldown;
+
+            return (
+              <div key={part.key}>
+                {isCollapsible ? (
+                  <button
+                    onClick={() => setShowCooldown(!showCooldown)}
+                    className="flex items-baseline gap-2 mb-2 w-full text-left"
+                  >
+                    <h3 className="text-sm font-medium text-zinc-700">{part.title}</h3>
+                    {part.subtitle && (
+                      <span className="text-xs text-zinc-400">{part.subtitle}</span>
+                    )}
+                    <span className="ml-auto text-xs text-zinc-400">
+                      {showCooldown ? "▼" : "▶"}
+                    </span>
+                  </button>
+                ) : (
+                  <div className="flex items-baseline gap-2 mb-2">
+                    <h3 className="text-sm font-medium text-zinc-700">{part.title}</h3>
+                    {part.subtitle && (
+                      <span className="text-xs text-zinc-400">{part.subtitle}</span>
+                    )}
+                  </div>
+                )}
+
+                {isVisible && (
+                  <>
+                    {part.blocks.length === 0 ? (
+                      <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
+                    ) : (
+                      <div className="space-y-1.5">
+                        {part.blocks.map(({ block, globalIndex }) => (
+                          <div
+                            key={block.id}
+                            draggable
+                            onDragStart={() => handleDragStart(globalIndex)}
+                            onDragOver={handleDragOver}
+                            onDrop={() => handleDrop(globalIndex)}
+                            className={`flex items-center gap-2 rounded-lg border bg-zinc-50 px-3 py-2 transition ${
+                              dragIndex === globalIndex ? "border-black" : "border-zinc-100"
+                            }`}
+                          >
+                            {/* Flytt-knapper for mobil */}
+                            <div className="flex flex-col gap-0.5 sm:hidden">
+                              <button
+                                onClick={() => moveBlock(globalIndex, "up")}
+                                disabled={globalIndex === 0}
+                                className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
+                              >
+                                ↑
+                              </button>
+                              <button
+                                onClick={() => moveBlock(globalIndex, "down")}
+                                disabled={globalIndex === sessionBlocks.length - 1}
+                                className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
+                              >
+                                ↓
+                              </button>
+                            </div>
+
+                            <p className="flex-1 text-sm text-zinc-900 truncate">
+                              {block.exercise.name}
+                            </p>
+
+                            <div className="flex items-center gap-1.5 shrink-0">
+                              <input
+                                type="number"
+                                min={1}
+                                max={60}
+                                value={recommendedDuration(block)}
+                                onChange={(event) =>
+                                  handleDurationChange(globalIndex, Number(event.target.value))
+                                }
+                                className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
+                              />
+                              <span className="text-xs text-zinc-400">min</span>
+                              {!block.exercise.alwaysIncluded && (
+                                <button
+                                  onClick={() => removeBlock(globalIndex)}
+                                  className="rounded p-1 text-zinc-400 hover:bg-zinc-200 hover:text-zinc-600"
+                                  title="Fjern"
+                                >
+                                  ×
+                                </button>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
-
-              {part.blocks.length === 0 ? (
-                <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
-              ) : (
-                <div className="space-y-1.5">
-                  {part.blocks.map(({ block, globalIndex }) => (
-                    <div
-                      key={block.id}
-                      draggable
-                      onDragStart={() => handleDragStart(globalIndex)}
-                      onDragOver={handleDragOver}
-                      onDrop={() => handleDrop(globalIndex)}
-                      className={`flex items-center gap-2 rounded-lg border bg-zinc-50 px-3 py-2 transition ${
-                        dragIndex === globalIndex ? "border-black" : "border-zinc-100"
-                      }`}
-                    >
-                      {/* Flytt-knapper for mobil */}
-                      <div className="flex flex-col gap-0.5 sm:hidden">
-                        <button
-                          onClick={() => moveBlock(globalIndex, "up")}
-                          disabled={globalIndex === 0}
-                          className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                        >
-                          ↑
-                        </button>
-                        <button
-                          onClick={() => moveBlock(globalIndex, "down")}
-                          disabled={globalIndex === sessionBlocks.length - 1}
-                          className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                        >
-                          ↓
-                        </button>
-                      </div>
-
-                      <p className="flex-1 text-sm text-zinc-900 truncate">
-                        {block.exercise.name}
-                      </p>
-
-                      <div className="flex items-center gap-1.5 shrink-0">
-                        <input
-                          type="number"
-                          min={1}
-                          max={60}
-                          value={recommendedDuration(block)}
-                          onChange={(event) =>
-                            handleDurationChange(globalIndex, Number(event.target.value))
-                          }
-                          className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
-                        />
-                        <span className="text-xs text-zinc-400">min</span>
-                        {!block.exercise.alwaysIncluded && (
-                          <button
-                            onClick={() => removeBlock(globalIndex)}
-                            className="rounded p-1 text-zinc-400 hover:bg-zinc-200 hover:text-zinc-600"
-                            title="Fjern"
-                          >
-                            ×
-                          </button>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </section>

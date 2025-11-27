@@ -23,6 +23,7 @@ const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   warmup: "Oppvarming",
   station: "Stasjoner",
   game: "Spill",
+  cooldown: "Avslutning",
 };
 
 const INJURY_OPTIONS: InjuryStatus[] = ["skadefri", "begrenset", "rehab"];
