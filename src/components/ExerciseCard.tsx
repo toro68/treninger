@@ -39,9 +39,11 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
 
   return (
     <label
-      className={`flex cursor-pointer items-start gap-3 rounded-xl border p-3 sm:p-4 transition active:bg-zinc-50 ${
-        selected ? "border-black bg-zinc-50" : "border-zinc-200"
-      } ${disabled ? "cursor-not-allowed bg-zinc-100" : ""}`}
+      className={`group flex cursor-pointer items-start gap-3 rounded-xl border p-3 sm:p-4 transition-all duration-200 hover:shadow-md ${
+        selected
+          ? "border-black bg-zinc-50 ring-1 ring-black/5"
+          : "border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50/50"
+      } ${disabled ? "cursor-not-allowed bg-zinc-100 opacity-75" : ""}`}
     >
       <input
         type="checkbox"
@@ -72,11 +74,23 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
             <StarIcon filled={isFavorite} />
           </button>
         </div>
-        <p className="mt-1 text-sm text-zinc-600 line-clamp-2">{exercise.description}</p>
-        <div className="mt-2 flex flex-wrap gap-2 text-xs text-zinc-500">
-          <span className="rounded bg-zinc-100 px-2 py-0.5">{exercise.duration} min</span>
-          <span className="rounded bg-zinc-100 px-2 py-0.5">{exercise.playersMin}-{exercise.playersMax} sp</span>
-          <span className="rounded bg-zinc-100 px-2 py-0.5">{exercise.theme}</span>
+        <p className="mt-1 text-sm text-zinc-600 line-clamp-2 group-hover:text-zinc-700">{exercise.description}</p>
+        <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
+          <span className="inline-flex items-center gap-1 rounded-md bg-zinc-100 px-2 py-0.5 font-medium text-zinc-600">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
+              <path fillRule="evenodd" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Zm7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5v-3.5Z" clipRule="evenodd" />
+            </svg>
+            {exercise.duration} min
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-md bg-zinc-100 px-2 py-0.5 font-medium text-zinc-600">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
+              <path d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3.156 11.763c.16-.629.44-1.21.813-1.72a2.5 2.5 0 0 1 2.015-1.043h4.032a2.5 2.5 0 0 1 2.015 1.043c.373.51.653 1.091.813 1.72A6.968 6.968 0 0 1 8 15a6.968 6.968 0 0 1-4.844-1.237Z" />
+            </svg>
+            {exercise.playersMin}-{exercise.playersMax}
+          </span>
+          <span className="rounded-md bg-zinc-100 px-2 py-0.5 font-medium capitalize text-zinc-600">
+            {exercise.theme}
+          </span>
         </div>
         {!exercise.alwaysIncluded && (exercise.coachingPoints.length > 0 || exercise.variations.length > 0) && (
           <button

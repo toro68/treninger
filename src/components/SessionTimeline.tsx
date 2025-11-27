@@ -264,7 +264,15 @@ export const SessionTimeline = () => {
       )}
 
       {!hasContent ? (
-        <p className="mt-4 text-sm text-zinc-500">Velg øvelser for å bygge økten</p>
+        <div className="mt-6 flex flex-col items-center justify-center py-8 text-center">
+          <div className="mb-3 rounded-full bg-zinc-100 p-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8 text-zinc-400">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+          </div>
+          <p className="text-sm font-medium text-zinc-600">Ingen øvelser valgt</p>
+          <p className="mt-1 text-xs text-zinc-400">Velg øvelser fra listen for å bygge økten</p>
+        </div>
       ) : (
         <div className="mt-4 space-y-4">
           {parts.map((part) => {
