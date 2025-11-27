@@ -10,10 +10,21 @@ export const CornerOrganization = () => {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between"
+        aria-expanded={isOpen}
+        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
+          isOpen
+            ? "border-orange-200/70 bg-gradient-to-r from-orange-50 to-amber-50"
+            : "border-zinc-200 bg-white"
+        }`}
       >
-        <h2 className="text-lg font-semibold text-zinc-900">Corner-organisering</h2>
-        <span className="text-sm text-zinc-500">{isOpen ? "Skjul" : "Vis"}</span>
+        <div>
+          <h2 className="text-lg font-semibold text-zinc-900">Corner-organisering</h2>
+          <p className="text-xs text-zinc-500">Keeperens script for dødballer</p>
+        </div>
+        <span className="flex items-center gap-1 text-sm text-zinc-700">
+          {isOpen ? "Skjul" : "Vis"}
+          <span className="text-lg leading-none">{isOpen ? "−" : "+"}</span>
+        </span>
       </button>
 
       {isOpen && (
@@ -41,7 +52,7 @@ export const CornerOrganization = () => {
                   Pek ut en tøff hodespiller til å stå på hjørnet av 5-meteren nærmest cornerflagget.
                 </p>
                 <p className="text-xs text-zinc-600 italic">
-                  Beskjed: "Stå på hjørnet! Du skal stange unna alt som kommer i din sone!"
+                  Beskjed: &quot;Stå på hjørnet! Du skal stange unna alt som kommer i din sone!&quot;
                 </p>
               </div>
 
@@ -54,7 +65,7 @@ export const CornerOrganization = () => {
                   Plasser midtstopperne pluss én sterk spiller til på linje langs 5-meteren (parallelt med mållinjen).
                 </p>
                 <p className="text-xs text-zinc-600 italic">
-                  Beskjed: "Dere tre er frie! Dere skal ikke markere, men angripe ballen og heade den langt vekk."
+                  Beskjed: &quot;Dere tre er frie! Dere skal ikke markere, men angripe ballen og heade den langt vekk.&quot;
                 </p>
               </div>
 
@@ -67,7 +78,7 @@ export const CornerOrganization = () => {
                   Sjekk at resten av laget har hver sin motstander.
                 </p>
                 <p className="text-xs text-zinc-600 italic">
-                  Beskjed: "Ta ut hver sin spiller! Ingen står alene!"
+                  Beskjed: &quot;Ta ut hver sin spiller! Ingen står alene!&quot;
                 </p>
               </div>
             </div>
@@ -86,13 +97,13 @@ export const CornerOrganization = () => {
 
               <div className="rounded-lg border border-zinc-100 bg-white p-3">
                 <p className="text-xs text-zinc-700 mb-1">
-                  <span className="font-semibold">"KEEPER!":</span> Hvis du går ut for å ta den, rop høyt og tidlig. Da må de andre flytte seg. Vær tøff i duellen – bruk gjerne kneet opp for beskyttelse.
+                  <span className="font-semibold">&quot;KEEPER!&quot;:</span> Hvis du går ut for å ta den, rop høyt og tidlig. Da må de andre flytte seg. Vær tøff i duellen – bruk gjerne kneet opp for beskyttelse.
                 </p>
               </div>
 
               <div className="rounded-lg border border-zinc-100 bg-white p-3">
                 <p className="text-xs text-zinc-700 mb-1">
-                  <span className="font-semibold">"UT!" eller "VEKK!":</span> Hvis du blir stående på streken, rop at forsvaret skal få ballen unna.
+                  <span className="font-semibold">&quot;UT!&quot; eller &quot;VEKK!&quot;:</span> Hvis du blir stående på streken, rop at forsvaret skal få ballen unna.
                 </p>
               </div>
 

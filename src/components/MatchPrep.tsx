@@ -105,23 +105,21 @@ const checklistItems = [
 ];
 
 export const MatchPrep = () => {
-  const [checked, setChecked] = useState<Set<string>>(new Set());
-  const [hydrated, setHydrated] = useState(false);
+  const [checked, setChecked] = useState<Set<string>>(() => {
+    if (typeof window === "undefined") {
+      return new Set();
+    }
+    const stored = window.localStorage.getItem("match-prep-checked");
+    return stored ? new Set(JSON.parse(stored)) : new Set();
+  });
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("match-prep-checked");
-    if (stored) {
-      setChecked(new Set(JSON.parse(stored)));
+    if (typeof window === "undefined") {
+      return;
     }
-    setHydrated(true);
-  }, []);
-
-  useEffect(() => {
-    if (hydrated) {
-      localStorage.setItem("match-prep-checked", JSON.stringify([...checked]));
-    }
-  }, [checked, hydrated]);
+    window.localStorage.setItem("match-prep-checked", JSON.stringify([...checked]));
+  }, [checked]);
 
   const toggleChecked = (id: string) => {
     const next = new Set(checked);
@@ -133,19 +131,26 @@ export const MatchPrep = () => {
     setChecked(next);
   };
 
-  if (!hydrated) {
-    return null;
-  }
-
   return (
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between"
+        aria-expanded={isOpen}
+        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
+          isOpen
+            ? "border-sky-200/70 bg-gradient-to-r from-sky-50 to-blue-50"
+            : "border-zinc-200 bg-white"
+        }`}
       >
-        <h2 className="text-lg font-semibold text-zinc-900">Kamp</h2>
-        <span className="text-sm text-zinc-500">{isOpen ? "Skjul" : "Vis"}</span>
+        <div>
+          <h2 className="text-lg font-semibold text-zinc-900">Kamp</h2>
+          <p className="text-xs text-zinc-500">Fokus og huskeliste før avspark</p>
+        </div>
+        <span className="flex items-center gap-1 text-sm text-zinc-700">
+          {isOpen ? "Skjul" : "Vis"}
+          <span className="text-lg leading-none">{isOpen ? "−" : "+"}</span>
+        </span>
       </button>
 
       {isOpen && (

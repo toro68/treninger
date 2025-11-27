@@ -1,5 +1,5 @@
 import { useSessionStore } from "@/store/sessionStore";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 const EQUIPMENT_LABELS: Record<string, string> = {
   vester: "Vester",
@@ -16,8 +16,6 @@ export const EquipmentList = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
   const [checked, setChecked] = useState<Set<string>>(new Set());
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => setHydrated(true), []);
 
   // Fast utstyr som alltid trengs
   const ALWAYS_NEEDED = ["vester", "markør"];
@@ -31,10 +29,6 @@ export const EquipmentList = () => {
   });
 
   const equipmentList = [...equipmentSet].sort((a, b) => a.localeCompare(b, "nb"));
-
-  if (!hydrated) {
-    return null;
-  }
 
   if (equipmentList.length === 0) {
     return null;

@@ -9,11 +9,22 @@ export const TeamOrganization = () => {
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
       <button
         type="button"
+        aria-expanded={isOpen}
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between"
+        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
+          isOpen
+            ? "border-slate-200/70 bg-gradient-to-r from-slate-50 to-zinc-50"
+            : "border-zinc-200 bg-white"
+        }`}
       >
-        <h2 className="text-lg font-semibold text-zinc-900">Organisering</h2>
-        <span className="text-sm text-zinc-500">{isOpen ? "Skjul" : "Vis"}</span>
+        <div>
+          <h2 className="text-lg font-semibold text-zinc-900">Organisering</h2>
+          <p className="text-xs text-zinc-500">Gameplan for hele laget</p>
+        </div>
+        <span className="flex items-center gap-1 text-sm text-zinc-700">
+          {isOpen ? "Skjul" : "Vis"}
+          <span className="text-lg leading-none">{isOpen ? "−" : "+"}</span>
+        </span>
       </button>
 
       {isOpen && (
@@ -137,7 +148,7 @@ export const TeamOrganization = () => {
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
                 <h4 className="text-xs font-semibold text-zinc-800 mb-1">Dueller</h4>
                 <p className="text-xs text-zinc-700">
-                  Vær først på ball, vis offervilje. "Ta duellen før duellen" - gå i kroppen for å fjerne fart og timing.
+                  Vær først på ball, vis offervilje. &quot;Ta duellen før duellen&quot; - gå i kroppen for å fjerne fart og timing.
                 </p>
               </div>
 
@@ -151,7 +162,7 @@ export const TeamOrganization = () => {
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
                 <h4 className="text-xs font-semibold text-zinc-800 mb-1">Returberedskap</h4>
                 <p className="text-xs text-zinc-700">
-                  Mange mål scores på returer. Unngå "ball watching", fortsett markering til situasjonen er avklart.
+                  Mange mål scores på returer. Unngå &quot;ball watching&quot;, fortsett markering til situasjonen er avklart.
                 </p>
               </div>
             </div>

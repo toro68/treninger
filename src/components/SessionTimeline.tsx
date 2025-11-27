@@ -1,5 +1,5 @@
 import { recommendedDuration, useSessionStore, SessionBlock } from "@/store/sessionStore";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -19,8 +19,7 @@ export const SessionTimeline = () => {
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
 
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => setHydrated(true), []);
+  const [hydrated] = useState(() => typeof window !== "undefined");
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState<
@@ -211,7 +210,7 @@ export const SessionTimeline = () => {
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <h2 className="text-lg font-semibold text-zinc-900">Øktplan</h2>
         <div className="flex flex-wrap items-center gap-2 text-sm text-zinc-500">
-          <span className="font-medium">{totalMinutes} min</span>
+          <span className="font-medium" aria-live="polite">{totalMinutes} min</span>
           <div className="relative">
             <button
               onClick={() => setShowShareOptions(!showShareOptions)}
@@ -270,19 +269,28 @@ export const SessionTimeline = () => {
                 {isCollapsible ? (
                   <button
                     onClick={() => setShowCooldown(!showCooldown)}
-                    className="flex items-baseline gap-2 mb-2 w-full text-left"
+                    className={`flex items-center gap-3 mb-2 w-full rounded-xl border px-3 py-2 text-left transition ${
+                      showCooldown
+                        ? "border-rose-200/70 bg-gradient-to-r from-rose-50 to-pink-50"
+                        : "border-rose-100 bg-white"
+                    }`}
                   >
-                    <h3 className="text-sm font-medium text-zinc-700">{part.title}</h3>
+                    <div>
+                      <h3 className="text-sm font-semibold text-zinc-800">{part.title}</h3>
+                      {part.subtitle && (
+                        <span className="text-xs text-zinc-500">{part.subtitle}</span>
+                      )}
+                    </div>
                     {part.subtitle && (
-                      <span className="text-xs text-zinc-400">{part.subtitle}</span>
+                      <span className="sr-only">{part.subtitle}</span>
                     )}
-                    <span className="ml-auto text-xs text-zinc-400">
-                      {showCooldown ? "▼" : "▶"}
+                    <span className={`ml-auto text-sm font-semibold transition ${showCooldown ? "text-rose-500" : "text-zinc-400"}`}>
+                      {showCooldown ? "Skjul" : "Vis"}
                     </span>
                   </button>
                 ) : (
                   <div className="flex items-baseline gap-2 mb-2">
-                    <h3 className="text-sm font-medium text-zinc-700">{part.title}</h3>
+                    <h3 className="text-sm font-semibold text-zinc-800">{part.title}</h3>
                     {part.subtitle && (
                       <span className="text-xs text-zinc-400">{part.subtitle}</span>
                     )}
@@ -298,7 +306,9 @@ export const SessionTimeline = () => {
                         {part.blocks.map(({ block, globalIndex }) => (
                           <div
                             key={block.id}
+                            role="group"
                             draggable
+                            aria-label={`${block.exercise.name} blokk`}
                             onDragStart={() => handleDragStart(globalIndex)}
                             onDragOver={handleDragOver}
                             onDrop={() => handleDrop(globalIndex)}

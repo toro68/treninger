@@ -84,10 +84,21 @@ export const Roles = () => {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between"
+        aria-expanded={isOpen}
+        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
+          isOpen
+            ? "border-violet-200/70 bg-gradient-to-r from-violet-50 to-indigo-50"
+            : "border-zinc-200 bg-white"
+        }`}
       >
-        <h2 className="text-lg font-semibold text-zinc-900">Roller (4-3-3)</h2>
-        <span className="text-sm text-zinc-500">{isOpen ? "Skjul" : "Vis"}</span>
+        <div>
+          <h2 className="text-lg font-semibold text-zinc-900">Roller (4-3-3)</h2>
+          <p className="text-xs text-zinc-500">Oppgaver per posisjon</p>
+        </div>
+        <span className="flex items-center gap-1 text-sm text-zinc-700">
+          {isOpen ? "Skjul" : "Vis"}
+          <span className="text-lg leading-none">{isOpen ? "−" : "+"}</span>
+        </span>
       </button>
 
       {isOpen && (
