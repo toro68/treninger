@@ -17,8 +17,19 @@ export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
 
   return (
-    <div className="min-h-screen bg-zinc-50 py-6 sm:py-10">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <div className="min-h-screen bg-zinc-50">
+      {/* App Header */}
+      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">⚽</span>
+            <h1 className="text-lg font-bold text-zinc-900">Treningsplanlegger</h1>
+          </div>
+          <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">J16</span>
+        </div>
+      </header>
+
+      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
         {/* Desktop: 2-kolonner side ved side */}
         <div className="hidden lg:grid lg:grid-cols-[1.4fr_1fr] lg:gap-8">
           {/* Venstre kolonne - Velg øvelser */}

@@ -27,19 +27,21 @@ export const Filters = ({
     return Object.keys(themeCounts);
   }, [playerCount]);
 
+  const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
+
   return (
     <div className="flex flex-wrap gap-1.5 sm:gap-2">
       {["alle", ...availableThemes].map((theme) => (
         <button
           key={theme}
           onClick={() => onThemeChange(theme as ThemeFilter)}
-          className={`rounded-full border px-3 py-1 text-xs sm:text-sm transition active:scale-95 ${
+          className={`rounded-full border px-3 py-1.5 text-xs sm:text-sm font-medium transition active:scale-95 ${
             activeTheme === theme
-              ? "border-black bg-black text-white"
-              : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400"
+              ? "border-black bg-black text-white shadow-sm"
+              : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400 hover:bg-zinc-50"
           }`}
         >
-          {theme === "alle" ? "Alle" : theme}
+          {capitalize(theme)}
         </button>
       ))}
     </div>
