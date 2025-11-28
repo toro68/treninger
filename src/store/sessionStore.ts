@@ -292,10 +292,10 @@ export const filterExercises = (
   sourceFilter?: ExerciseSource | "egen" | null,
   filterByPlayerCount?: boolean
 ) => {
-  // Beregn spillere per stasjon for stasjonskategorien
+  // Beregn spillere per stasjon - brukes for alle kategorier når filter er aktivt
   const playersPerStation = stationCount && stationCount > 0 
     ? Math.floor(playerCount / stationCount) 
-    : undefined;
+    : playerCount;
 
   return exerciseLibrary
     .filter((exercise) => {
@@ -303,14 +303,10 @@ export const filterExercises = (
       const categoryMatch = category ? exercise.category === category : true;
       const themeMatch = theme ? exercise.theme === theme : true;
       
-      // Filtrer på spillerantall hvis aktivert
+      // Filtrer på spillerantall hvis aktivert - bruk alltid spillere per stasjon
       let playerCountMatch = true;
       if (filterByPlayerCount) {
-        // For stasjoner: bruk spillere per stasjon
-        const targetCount = category === "station" && playersPerStation 
-          ? playersPerStation 
-          : playerCount;
-        playerCountMatch = targetCount >= exercise.playersMin && targetCount <= exercise.playersMax;
+        playerCountMatch = playersPerStation >= exercise.playersMin && playersPerStation <= exercise.playersMax;
       }
       
       // Filtrer på kilde

@@ -103,6 +103,10 @@ export const Filters = ({
   onFilterByPlayerCountChange: (value: boolean) => void;
 }) => {
   const playerCount = useSessionStore((state) => state.playerCount);
+  const stationCount = useSessionStore((state) => state.stationCount);
+  
+  // Beregn spillere per stasjon
+  const playersPerStation = Math.floor(playerCount / stationCount);
 
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
@@ -208,11 +212,11 @@ export const Filters = ({
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
             <path d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3.156 11.763c.16-.629.44-1.21.813-1.72a2.5 2.5 0 0 1 2.015-1.043h4.032a2.5 2.5 0 0 1 2.015 1.043c.373.51.653 1.091.813 1.72A6.968 6.968 0 0 1 8 15a6.968 6.968 0 0 1-4.844-1.237Z" />
           </svg>
-          Kun for {playerCount} spillere
+          Kun for {playersPerStation} spillere per stasjon
         </button>
         {filterByPlayerCount && (
           <span className="text-xs text-zinc-500">
-            Viser kun øvelser som passer for nøyaktig {playerCount} spillere
+            ({playerCount} spillere ÷ {stationCount} stasjoner = {playersPerStation} per stasjon)
           </span>
         )}
       </div>

@@ -19,14 +19,14 @@ export const ExerciseList = ({ category, title, theme, sourceFilter, filterByPla
   const stationCount = useSessionStore((state) => state.stationCount);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
   const favoriteIds = useSessionStore((state) => state.favoriteIds);
-  // For station exercises, pass stationCount to enable smart sorting
+  // Pass stationCount for spillere per stasjon-beregning
   const exercises = filterExercises(
     exerciseLibrary, 
     playerCount, 
     category, 
     theme, 
     favoriteIds, 
-    category === "station" ? stationCount : undefined,
+    stationCount,
     sourceFilter,
     filterByPlayerCount
   );
