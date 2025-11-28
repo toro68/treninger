@@ -1,17 +1,17 @@
 import { useExercises } from "@/hooks/useExercises";
 import { useSessionStore } from "@/store/sessionStore";
-import type { Exercise, ExerciseCategory, InjuryStatus } from "@/data/exercises";
+import type { Exercise, ExerciseCategory } from "@/data/exercises";
 import { useMemo, useState } from "react";
 
 const emptyExercise: Exercise = {
   id: "",
+  exerciseNumber: 0, // Settes automatisk ved lagring
   name: "",
   category: "warmup",
   duration: 10,
   playersMin: 4,
   playersMax: 16,
   theme: "",
-  injuryTags: ["skadefri"],
   equipment: [],
   description: "",
   coachingPoints: [],
@@ -25,8 +25,6 @@ const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   game: "Spill",
   cooldown: "Avslutning",
 };
-
-const INJURY_OPTIONS: InjuryStatus[] = ["skadefri", "begrenset", "rehab"];
 
 export const ExerciseManager = () => {
   const exercises = useExercises();
@@ -235,33 +233,6 @@ export const ExerciseManager = () => {
                 className="rounded-lg border border-zinc-200 px-3 py-2"
               />
             </label>
-          </div>
-          <div className="flex flex-col gap-2 text-sm text-zinc-700">
-            <span>Skade-tags</span>
-            <div className="flex flex-wrap gap-2">
-              {INJURY_OPTIONS.map((tag) => {
-                const active = editing.injuryTags.includes(tag);
-                return (
-                  <button
-                    key={tag}
-                    type="button"
-                    onClick={() => {
-                      const next = active
-                        ? editing.injuryTags.filter((item) => item !== tag)
-                        : [...editing.injuryTags, tag];
-                      handleChange("injuryTags", next);
-                    }}
-                    className={`rounded-full border px-3 py-1 text-xs ${
-                      active
-                        ? "border-black bg-black text-white"
-                        : "border-zinc-300 text-zinc-600"
-                    }`}
-                  >
-                    {tag}
-                  </button>
-                );
-              })}
-            </div>
           </div>
           <label className="flex flex-col gap-1 text-sm text-zinc-700">
             Beskrivelse

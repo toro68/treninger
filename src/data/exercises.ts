@@ -1,32 +1,51 @@
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "station" | "game" | "cooldown";
-export type InjuryStatus = "skadefri" | "begrenset" | "rehab";
+export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass";
 
 export interface Exercise {
   id: string;
+  exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
   category: ExerciseCategory;
   duration: number; // minutes
   playersMin: number;
   playersMax: number;
   theme: string;
-  injuryTags: InjuryStatus[];
   equipment: string[];
   description: string;
   coachingPoints: string[];
   variations: string[];
   alwaysIncluded?: boolean;
+  scalable?: boolean; // true = kan kjøres i parallell med mange grupper (f.eks. 1v1, 2v2)
+  imageUrl?: string; // URL til bilde/diagram av øvelsen
+  source?: ExerciseSource; // Kilde: egen eller tiim
+  sourceUrl?: string; // Lenke til original øvelse
+  sourceRef?: string; // Referanse til bok/side (vises ikke i utskrift)
 }
+
+// Hjelpefunksjon for å få formatert øvelseskode med kategori-prefiks
+export const getExerciseCode = (exercise: Exercise): string => {
+  const prefixMap: Record<ExerciseCategory, string> = {
+    "fixed-warmup": "F",
+    warmup: "O",
+    station: "S",
+    game: "K",
+    cooldown: "A",
+  };
+  const prefix = prefixMap[exercise.category] || "?";
+  const number = exercise.exerciseNumber ?? 0;
+  return `${prefix}${number}`;
+};
 
 export const exercises: Exercise[] = [
   {
     id: "skadefri-oppvarming",
+    exerciseNumber: 1,
     name: "Skadefri oppvarming",
     category: "fixed-warmup",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "mobilitet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: ["kjegler"],
     description:
       "Dynamisk mobilitet inspirert av Skadefri-programmet. Legg inn kontrollerte bevegelser gjennom kjegler og leddutslag.",
@@ -39,13 +58,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "rondo-5v2",
+    exerciseNumber: 2,
     name: "Rondo 5v2",
     category: "warmup",
     duration: 10,
     playersMin: 7,
     playersMax: 16,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler", "baller"],
     description: "Rondo i kvadrat, korte touch, fokus på vinkler og støtte.",
     coachingPoints: [
@@ -56,13 +75,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "firkant-press",
+    exerciseNumber: 3,
     name: "Firkant med press",
     category: "warmup",
     duration: 8,
     playersMin: 8,
     playersMax: 18,
     theme: "press",
-    injuryTags: ["skadefri"],
     equipment: ["kjegler", "baller"],
     description: "Lag to lag som bytter på å presse i firkant. Fokus på kollektivt trykk.",
     coachingPoints: ["Sett første press raskt", "Sikring fra bakre spiller"],
@@ -70,13 +89,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "pasningstrio",
+    exerciseNumber: 4,
     name: "Pasningstrio med vending",
     category: "station",
     duration: 12,
     playersMin: 6,
     playersMax: 15,
     theme: "vendingsspill",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler", "baller"],
     description:
       "Tre spillere i trekant jobber med pasning, mottak og vending. Rotasjon hvert minutt.",
@@ -85,13 +104,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "overlapp-stasjon",
+    exerciseNumber: 5,
     name: "Overlapp og innlegg",
     category: "station",
     duration: 12,
     playersMin: 8,
     playersMax: 20,
     theme: "innlegg",
-    injuryTags: ["skadefri"],
     equipment: ["baller", "mål", "stenger"],
     description:
       "Ytre og indre løper kombinerer før innlegg. Avslutning i boks med 2 angripere.",
@@ -100,13 +119,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "possession-4v4+3",
+    exerciseNumber: 6,
     name: "4v4+3 possession",
     category: "station",
     duration: 12,
     playersMin: 11,
     playersMax: 18,
     theme: "possession",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler", "baller"],
     description:
       "Fire mot fire med tre nøytrale spillere for overtal. Fokus på spillbarhet og støtte.",
@@ -115,13 +134,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "kamp-7v7",
+    exerciseNumber: 7,
     name: "Spill 7v7",
     category: "game",
     duration: 20,
     playersMin: 12,
     playersMax: 20,
     theme: "spill",
-    injuryTags: ["skadefri"],
     equipment: ["mål", "baller"],
     description: "Vanlig 7v7 på halv bane. Fokus på tydelige roller og trykk.",
     coachingPoints: ["Gjenkjenne overtall", "Spill gjennom ledd"],
@@ -129,13 +148,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "avslutningstrekk",
+    exerciseNumber: 8,
     name: "Avslutningskonkurranse",
     category: "game",
     duration: 15,
     playersMin: 10,
     playersMax: 22,
     theme: "avslutning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["mål", "baller", "kjegler"],
     description:
       "To rekker starter med pasning mot veggspiller og avslutter fra kant. Tell mål for konkurranse.",
@@ -144,13 +163,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "o1-fotballbevegelser",
+    exerciseNumber: 9,
     name: "O1 Fotballbevegelser",
     category: "warmup",
     duration: 10,
     playersMin: 8,
     playersMax: 25,
     theme: "hurtighet",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler"],
     description:
       "Serier med retningsendringer, finter og lett fotarbeid uten ball for å få kroppen varm.",
@@ -159,31 +178,35 @@ export const exercises: Exercise[] = [
       "Hold balanse gjennom alle endringer",
     ],
     variations: ["Legg inn koordinasjonsstige", "Avslutt med korte spurter"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "o2a-teknisk-5",
+    exerciseNumber: 10,
     name: "O2a Teknisk 5-gruppe",
     category: "warmup",
     duration: 12,
     playersMin: 5,
     playersMax: 15,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller"],
     description:
       "Fem spillere jobber i sirkel med pasning og bevegelse, ulike kombinasjoner og touchbegrensninger.",
     coachingPoints: ["Skap vinkler før du mottar", "Tredje spiller i bevegelse"],
     variations: ["Kun én berøring", "Bytt retning på signal"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "coerver-finter",
+    exerciseNumber: 11,
     name: "Coerver-finter",
     category: "warmup",
     duration: 12,
     playersMin: 4,
     playersMax: 20,
     theme: "finter",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler"],
     description:
       "Teknisk løype inspirert av Coerver: oversteg, to-stegsfinte og eksplosiv akselerasjon rundt kjegler.",
@@ -192,13 +215,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "kort-kort-lang",
+    exerciseNumber: 12,
     name: "Kort-kort-lang",
     category: "station",
     duration: 12,
     playersMin: 6,
     playersMax: 18,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "To korte kombinasjoner før en langpasning i mønster. Rotasjon etter hver pasning.",
@@ -207,13 +230,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "instagram-pasning",
+    exerciseNumber: 13,
     name: "Instagram-pasningen",
     category: "station",
     duration: 10,
     playersMin: 6,
     playersMax: 14,
     theme: "pasning",
-    injuryTags: ["skadefri"],
     equipment: ["baller", "kjegler"],
     description:
       "Kjapt pasningsmønster med vegg og bevegelse i trekant, populært fra sosiale medier.",
@@ -222,13 +245,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "chelsea-overlapp",
+    exerciseNumber: 14,
     name: "Chelsea overlapp",
     category: "station",
     duration: 12,
     playersMin: 8,
     playersMax: 20,
     theme: "overlapp",
-    injuryTags: ["skadefri"],
     equipment: ["baller", "kjegler"],
     description:
       "Kombinasjonsspill med indreløper og kant som overlapper før innlegg.",
@@ -237,13 +260,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "ajax-pasning",
+    exerciseNumber: 15,
     name: "Ajax-pasning",
     category: "station",
     duration: 12,
     playersMin: 8,
     playersMax: 18,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "Hurtig kombinasjon i diamant med bevegelser inspirert av Ajax-akademiet.",
@@ -252,58 +275,61 @@ export const exercises: Exercise[] = [
   },
   {
     id: "prepp15-1v1",
-    name: "Prepp’n 15 – 1v1",
+    exerciseNumber: 16,
+    name: "Prepp'n 15 – 1v1",
     category: "station",
     duration: 10,
-    playersMin: 4,
-    playersMax: 12,
+    playersMin: 2,
+    playersMax: 2,
     theme: "1v1",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler", "baller"],
     description:
       "1v1-oppgjør i midtsirkel der spiller må føre ball over linje for poeng.",
     coachingPoints: ["Beskytt ballen", "Skift tempo"],
     variations: ["Legg inn småmål", "Første til tre poeng"],
+    scalable: true,
   },
   {
     id: "1v1-intens",
+    exerciseNumber: 17,
     name: "1v1 intensiv",
     category: "station",
     duration: 12,
-    playersMin: 4,
-    playersMax: 12,
+    playersMin: 2,
+    playersMax: 2,
     theme: "1v1",
-    injuryTags: ["skadefri"],
     equipment: ["kjegler", "baller"],
     description:
       "Intens 1v1 der spillerne jobber i korte drag med høy belastning og bytte hvert minutt.",
     coachingPoints: ["Gå rett på", "Bruk kroppen i duell"],
     variations: ["Legg inn støttepassning", "Bruk to baller samtidig"],
+    scalable: true,
   },
   {
     id: "2touch-triangle",
+    exerciseNumber: 18,
     name: "2 Touch Triangle",
     category: "station",
     duration: 10,
-    playersMin: 6,
-    playersMax: 12,
+    playersMin: 3,
+    playersMax: 3,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "Trekanter med maks to touch og rotering gjennom posisjonene.",
     coachingPoints: ["Kontrollert første touch", "Spill på bevegelse"],
     variations: ["Kun én berøring", "Avslutt med veggspill"],
+    scalable: true,
   },
   {
     id: "rondo-3lag",
+    exerciseNumber: 19,
     name: "Rondo 3 lag",
     category: "station",
     duration: 15,
     playersMin: 9,
     playersMax: 18,
     theme: "rondo",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "Tre lag i firkant, ett i midten som presser og to på utsiden som holder ballen.",
@@ -312,13 +338,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "sone-6v6",
+    exerciseNumber: 20,
     name: "Sonespill 6v6",
     category: "game",
     duration: 18,
     playersMin: 10,
     playersMax: 18,
     theme: "gjennombrudd",
-    injuryTags: ["skadefri"],
     equipment: ["kjegler", "baller", "mål"],
     description:
       "6v6 delt i soner hvor laget må spille gjennom midtsone før de kan score.",
@@ -327,28 +353,29 @@ export const exercises: Exercise[] = [
   },
   {
     id: "3v3-golden-goal",
+    exerciseNumber: 21,
     name: "3v3 Golden Goal",
     category: "game",
     duration: 12,
     playersMin: 6,
-    playersMax: 12,
+    playersMax: 6,
     theme: "konkurranse",
-    injuryTags: ["skadefri"],
     equipment: ["småmål", "baller"],
     description:
       "Småbanespill 3v3 der scoring avslutter kampen og begge lag bytter ut.",
     coachingPoints: ["Start aggressivt", "Ta raske beslutninger"],
     variations: ["4v4", "Kun scoring etter 5 pasninger"],
+    scalable: true,
   },
   {
     id: "king-of-hill",
+    exerciseNumber: 22,
     name: "King of the hill",
     category: "game",
     duration: 15,
     playersMin: 8,
     playersMax: 20,
     theme: "konkurranse",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "småmål"],
     description:
       "Lag rykker opp ved seier og ned ved tap. Uavgjort avgjøres med stein-saks-papir.",
@@ -357,13 +384,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "tic-tac-stafett",
+    exerciseNumber: 23,
     name: "Tic tac toe-stafett",
     category: "warmup",
     duration: 8,
     playersMin: 6,
     playersMax: 18,
     theme: "konkurranse",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler"],
     description:
       "Spillere løper med ball til rutenett, legger kjegle og prøver å få tre på rad.",
@@ -372,13 +399,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "ball-knockout",
+    exerciseNumber: 24,
     name: "Ball-knockout",
     category: "warmup",
     duration: 10,
     playersMin: 6,
     playersMax: 20,
     theme: "koordinasjon",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller"],
     description:
       "Alle har ball innenfor 16-meter og prøver å sparke ut andres ball mens de beskytter sin egen.",
@@ -387,133 +414,149 @@ export const exercises: Exercise[] = [
   },
   {
     id: "o4-teknisk-loype",
+    exerciseNumber: 25,
     name: "O4 Teknisk løype",
     category: "warmup",
     duration: 12,
     playersMin: 6,
     playersMax: 20,
     theme: "ballkontroll",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["kjegler", "stiger"],
     description:
       "Spillerne beveger seg gjennom dribleporter, sjonglering og vendinger med egen ball i strøm.",
     coachingPoints: ["Ha mange små berøringer", "Se opp mellom hver del"],
     variations: ["Legg inn veggpasning", "Avslutt hver runde med skudd"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "t1-skuddaktivitet",
+    exerciseNumber: 26,
     name: "T1 Skuddaktivitet",
     category: "station",
     duration: 15,
     playersMin: 6,
     playersMax: 14,
     theme: "avslutning",
-    injuryTags: ["skadefri"],
     equipment: ["baller", "mål", "kjegler"],
     description:
       "Keeper + 6-8 spillere jobber i to rekker med oppspill, mottak og rask avslutning.",
     coachingPoints: ["Første touch mot mål", "Treff vinkelen tidlig"],
     variations: ["Legg på pressende forsvarer", "Skyt på første touch"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "t7-foring-vegg",
+    exerciseNumber: 27,
     name: "T7 Føring og vegg",
     category: "station",
     duration: 12,
     playersMin: 6,
     playersMax: 16,
     theme: "dribling",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "Spillere fører ball over kortlinje, spiller vegg og vender tilbake i tempo.",
     coachingPoints: ["Ta fart etter vegg", "Kontroller tyngdepunktet"],
     variations: ["Legg til finte før vegg", "Avslutt med skudd"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "t9a-cavanagh-press",
+    exerciseNumber: 28,
     name: "T9a Cavanagh-press",
     category: "station",
     duration: 14,
     playersMin: 9,
     playersMax: 14,
     theme: "press",
-    injuryTags: ["skadefri"],
     equipment: ["kjegler", "baller"],
     description:
       "Spill 5 mot 4 i firkant, fokus på press og gjenvinning når laget mister ballen.",
     coachingPoints: ["Styr spill inn i fellen", "Støtt hverandre i press"],
     variations: ["Begrens berøringer på overtallslaget", "Poeng for å vinne ball før midtlinje"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "s2-angrepsavslutning",
+    exerciseNumber: 29,
     name: "S2 Angrepsavslutning",
     category: "game",
     duration: 18,
     playersMin: 12,
     playersMax: 18,
     theme: "angrep",
-    injuryTags: ["skadefri"],
     equipment: ["mål", "baller", "kjegler"],
     description:
       "6v6 + keepere på 50x65 m, med frisoner på kantene for innlegg og avslutning.",
     coachingPoints: ["Angrip boksen med løp", "Slå tidlig fra frisonen"],
     variations: ["Gi ekstra poeng for innlegg", "Legg inn touchbegrensing"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "s4-spill-treingskamp",
+    exerciseNumber: 30,
     name: "S4 Spill mot to mål",
     category: "game",
     duration: 24,
     playersMin: 14,
     playersMax: 22,
     theme: "spill",
-    injuryTags: ["skadefri"],
     equipment: ["mål", "baller"],
     description:
       "8v8 + keepere på 80x60 m, fritt spill eller to touch i perioder.",
     coachingPoints: ["Hold bredde i angrep", "Trykk samlet når ball tapes"],
     variations: ["Bytt betingelser hver 5. min", "Legg til jokerspiller"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "s8-pasningsforbindelse",
+    exerciseNumber: 31,
     name: "S8 Pasningsforbindelse",
     category: "game",
     duration: 16,
     playersMin: 10,
     playersMax: 16,
     theme: "pasning",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["baller", "kjegler"],
     description:
       "4v4 + keepere hvor laget må spille gjennom midtsonen før avslutning.",
     coachingPoints: ["Bruk støtte før gjennomspill", "Skap trekanter rundt sonen"],
     variations: ["Kun to touch på egen halvdel", "Legg inn nøytral i midtsonen"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "s15-five-a-side",
+    exerciseNumber: 32,
     name: "S15 Five-a-side",
     category: "game",
     duration: 15,
     playersMin: 10,
     playersMax: 16,
     theme: "restitusjon",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: ["småmål", "baller"],
     description:
       "5v5 på små mål, moderat intensitet og fokus på å holde ballen i laget.",
     coachingPoints: ["Flytt ball før du flytter deg", "Ta vare på ballen"],
     variations: ["Begrens berøringer", "Gi ekstra poeng for veggspill"],
+    source: "eggen",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "planken",
+    exerciseNumber: 33,
     name: "Planken",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Statisk kjerneøvelse der spillerne holder plankestilling i intervaller. Fokus på god teknikk og rett rygg.",
@@ -530,13 +573,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "armheving",
+    exerciseNumber: 34,
     name: "Armheving",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: [],
     description:
       "Klassisk armhevingsøvelse for overkroppsstyrke. Tilpass nivå med knær i bakken for nybegynnere.",
@@ -553,13 +596,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "burpees",
+    exerciseNumber: 35,
     name: "Burpees",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri"],
     equipment: [],
     description:
       "Helkroppsøvelse som kombinerer armheving og hopp. Høy intensitet for å avslutte treningen.",
@@ -576,13 +619,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "knebøy",
+    exerciseNumber: 36,
     name: "Knebøy",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: [],
     description:
       "Beinstyrke gjennom dype knebøy. Fokus på full bevegelsesutslag og kontroll.",
@@ -599,13 +642,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "utfall",
+    exerciseNumber: 37,
     name: "Utfall",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri", "begrenset"],
     equipment: [],
     description:
       "Ensidig beinstyrke med utfall fremover eller på stedet. Bygger balanse og stabilitet.",
@@ -622,13 +665,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "ab-workout",
+    exerciseNumber: 38,
     name: "Magekjernen",
     category: "cooldown",
     duration: 6,
     playersMin: 1,
     playersMax: 30,
     theme: "styrke",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Kjernestyrke-sirkuit med sit-ups, sykkelbevegelse og beinhev. Roter gjennom øvelsene.",
@@ -645,13 +688,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "stretch-lar",
+    exerciseNumber: 39,
     name: "Tøyning lår",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Statisk tøyning av lårets fremside (quadriceps) og bakside (hamstrings). Hold hver stilling i 20-30 sekunder.",
@@ -668,13 +711,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "stretch-legger",
+    exerciseNumber: 40,
     name: "Tøyning legger",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Tøyning av leggmuskulatur (gastrocnemius og soleus). Viktig for å forebygge cramper og skader.",
@@ -691,13 +734,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "stretch-lysk",
+    exerciseNumber: 41,
     name: "Tøyning lysk",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Tøyning av lyske og hoftemuskulatur. Viktig område for fotballspillere som ofte er stram.",
@@ -714,13 +757,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "stretch-helkropp",
+    exerciseNumber: 42,
     name: "Helkropps-stretch",
     category: "cooldown",
     duration: 8,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Komplett tøyerutine som går gjennom alle store muskelgrupper. Ideell avslutning på treningen.",
@@ -737,13 +780,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "mobility-circuit",
+    exerciseNumber: 43,
     name: "Mobilitets-sirkuit",
     category: "cooldown",
     duration: 6,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Dynamisk mobilitet gjennom hofter, ankler og skuldre. Fokus på bevegelseskvalitet.",
@@ -760,13 +803,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "foam-rolling",
+    exerciseNumber: 44,
     name: "Foam rolling",
     category: "cooldown",
     duration: 6,
     playersMin: 1,
     playersMax: 30,
     theme: "bevegelighet",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: ["foam roller"],
     description:
       "Selvmassasje med foam roller for restitusjon. Fokus på IT-bånd, quads, hamstrings og legger.",
@@ -783,13 +826,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "evaluering-kort",
+    exerciseNumber: 45,
     name: "Rask evaluering",
     category: "cooldown",
     duration: 5,
     playersMin: 1,
     playersMax: 30,
     theme: "evaluering",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Kort evalueringsrunde der spillere og trenere deler umiddelbare tanker om økten. Fokus på læring.",
@@ -806,13 +849,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "evaluering-detaljert",
+    exerciseNumber: 46,
     name: "Grundig evaluering",
     category: "cooldown",
     duration: 10,
     playersMin: 1,
     playersMax: 30,
     theme: "evaluering",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Strukturert gjennomgang av treningsøkten med fokus på hva som fungerte og hva som kan forbedres.",
@@ -829,13 +872,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "evaluering-spillere",
+    exerciseNumber: 47,
     name: "Spillerevaluering",
     category: "cooldown",
     duration: 8,
     playersMin: 5,
     playersMax: 30,
     theme: "evaluering",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Spillerne diskuterer treninga i grupper og presenterer synspunkter. Trener lytter og noterer.",
@@ -852,13 +895,13 @@ export const exercises: Exercise[] = [
   },
   {
     id: "evaluering-teambuilding",
+    exerciseNumber: 48,
     name: "Evaluering og lagbygging",
     category: "cooldown",
     duration: 10,
     playersMin: 8,
     playersMax: 30,
     theme: "evaluering",
-    injuryTags: ["skadefri", "begrenset", "rehab"],
     equipment: [],
     description:
       "Kombinerer evaluering med lagbyggende elementer. Spillere roser hverandres innsats og deler læring.",
@@ -874,3 +917,21 @@ export const exercises: Exercise[] = [
     ],
   },
 ];
+
+// Importer tiim-øvelser
+import { tiimExercises } from './tiim-converted';
+// Importer DBU-øvelser
+import { dbuExercises } from './dbu-exercises';
+// Importer Rondo-øvelser fra DiBernardo
+import { rondoExercises } from './rondo-exercises';
+// Importer Hyballa-øvelser
+import { hyballaExercises } from './hyballa-exercises';
+// Importer Bangsbo-øvelser (Forsvar)
+import { bangsboExercises } from './bangsbo-exercises';
+// Importer Dugger-øvelser (World Class Defense)
+import { duggerExercises } from './dugger-exercises';
+// Importer Smålagsspill-øvelser (Prickett, 101 Youth, Seeger)
+import { smallsidedExercises } from './smallsided-exercises';
+
+// Kombiner egne øvelser med tiim-øvelser, DBU-øvelser, Rondo-øvelser, Hyballa-øvelser, Bangsbo-øvelser, Dugger-øvelser og Smålagsspill
+export const allExercises: Exercise[] = [...exercises, ...tiimExercises, ...dbuExercises, ...rondoExercises, ...hyballaExercises, ...bangsboExercises, ...duggerExercises, ...smallsidedExercises];

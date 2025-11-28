@@ -5,16 +5,15 @@ import { ExerciseList } from "@/components/ExerciseList";
 import { SessionTimeline } from "@/components/SessionTimeline";
 import { EquipmentList } from "@/components/EquipmentList";
 import { useState } from "react";
-import { Filters, ThemeFilter } from "@/components/Filters";
+import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
-import { CoachingTips } from "@/components/CoachingTips";
-import { MatchPrep } from "@/components/MatchPrep";
-import { Roles } from "@/components/Roles";
-import { CornerOrganization } from "@/components/CornerOrganization";
-import { TeamOrganization } from "@/components/TeamOrganization";
+import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
+import Link from "next/link";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
+  const [sourceFilter, setSourceFilter] = useState<SourceFilter>(null);
+  const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
 
   return (
     <div className="min-h-screen bg-zinc-50">
@@ -27,6 +26,29 @@ export default function Home() {
           </div>
           <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">J16</span>
         </div>
+        {/* Navigation */}
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <nav className="flex gap-1 -mb-px">
+            <Link
+              href="/"
+              className="rounded-t-lg border-b-2 border-black px-4 py-2 text-sm font-medium text-zinc-900"
+            >
+              Trening
+            </Link>
+            <Link
+              href="/kamp"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
+            >
+              Kamp
+            </Link>
+            <Link
+              href="/ordliste"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
+            >
+              📖 Ordliste
+            </Link>
+          </nav>
+        </div>
       </header>
 
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
@@ -38,28 +60,46 @@ export default function Home() {
             <ExerciseManager />
             <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
               <div className="flex flex-col gap-3">
-                <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
-                <Filters activeTheme={themeFilter} onThemeChange={setThemeFilter} />
+                <div className="flex items-center justify-between">
+                  <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
+                  <ExerciseCodeLegend />
+                </div>
+                <Filters 
+                  activeTheme={themeFilter} 
+                  onThemeChange={setThemeFilter}
+                  sourceFilter={sourceFilter}
+                  onSourceFilterChange={setSourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
+                  onFilterByPlayerCountChange={setFilterByPlayerCount}
+                />
               </div>
               <div className="mt-6 space-y-8">
                 <ExerciseList
                   title="Oppvarming"
                   category="warmup"
                   theme={themeFilter === "alle" ? undefined : themeFilter}
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
                 />
                 <ExerciseList
                   title="Stasjoner"
                   category="station"
                   theme={themeFilter === "alle" ? undefined : themeFilter}
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
                 />
                 <ExerciseList
                   title="Spill"
                   category="game"
                   theme={themeFilter === "alle" ? undefined : themeFilter}
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
                 />
                 <ExerciseList
                   title="Avslutning"
                   category="cooldown"
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
                 />
               </div>
             </section>
@@ -69,11 +109,6 @@ export default function Home() {
           <div className="space-y-6">
             <SessionTimeline />
             <EquipmentList />
-            <CoachingTips />
-            <MatchPrep />
-            <Roles />
-            <TeamOrganization />
-            <CornerOrganization />
           </div>
         </div>
 
@@ -83,28 +118,46 @@ export default function Home() {
           <ExerciseManager />
           <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
             <div className="flex flex-col gap-3">
-              <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
-              <Filters activeTheme={themeFilter} onThemeChange={setThemeFilter} />
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
+                <ExerciseCodeLegend />
+              </div>
+              <Filters 
+                activeTheme={themeFilter} 
+                onThemeChange={setThemeFilter}
+                sourceFilter={sourceFilter}
+                onSourceFilterChange={setSourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
+                onFilterByPlayerCountChange={setFilterByPlayerCount}
+              />
             </div>
             <div className="mt-4 space-y-6">
               <ExerciseList
                 title="Oppvarming"
                 category="warmup"
                 theme={themeFilter === "alle" ? undefined : themeFilter}
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
               />
               <ExerciseList
                 title="Stasjoner"
                 category="station"
                 theme={themeFilter === "alle" ? undefined : themeFilter}
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
               />
               <ExerciseList
                 title="Spill"
                 category="game"
                 theme={themeFilter === "alle" ? undefined : themeFilter}
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
               />
               <ExerciseList
                 title="Avslutning"
                 category="cooldown"
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
               />
             </div>
           </section>
@@ -112,11 +165,6 @@ export default function Home() {
           {/* Øktplan nederst på mobil */}
           <SessionTimeline />
           <EquipmentList />
-          <CoachingTips />
-          <MatchPrep />
-          <Roles />
-          <TeamOrganization />
-          <CornerOrganization />
         </div>
       </div>
     </div>

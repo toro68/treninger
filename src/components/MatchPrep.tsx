@@ -8,6 +8,7 @@ type FocusItem = {
 };
 
 const focusItems: FocusItem[] = [
+  // === GENERELT ===
   {
     id: "kampplan",
     text: "Ha en klar kampplan",
@@ -15,14 +16,6 @@ const focusItems: FocusItem[] = [
   {
     id: "forsvartillangrep",
     text: "Godt forsvar starter effektive angrep - behersk begge deler",
-  },
-  {
-    id: "spillbarhet",
-    text: "Gjør deg spillbar - juster avstand og vinkel",
-  },
-  {
-    id: "sla-og-ga",
-    text: "Slå og gå: Ikke stå i ro etter pasning. Kom ut av pasningsskygge",
   },
   {
     id: "kommunikasjon",
@@ -35,6 +28,15 @@ const focusItems: FocusItem[] = [
   {
     id: "kampenballen",
     text: "Kampen om ballen: Vinn dueller, bruk kraft, vær først på ball",
+  },
+  // === ANGREP ===
+  {
+    id: "spillbarhet",
+    text: "Gjør deg spillbar - juster avstand og vinkel",
+  },
+  {
+    id: "sla-og-ga",
+    text: "Slå og gå: Ikke stå i ro etter pasning. Kom ut av pasningsskygge",
   },
   {
     id: "bevegelse",
@@ -56,33 +58,80 @@ const focusItems: FocusItem[] = [
     id: "innlegg",
     text: "Innlegg: Blindsideløp, time løpet, slå tidlig mellom keeper og forsvar",
   },
+  // === FORSVAR (Bangsbo + Dugger) ===
   {
-    id: "genpress",
-    text: "Gjenvinning: Aggressivt i sekundene etter balltap",
+    id: "sikringskjede",
+    text: "Sikringskjede: Første mann presser, andre sikrer, tredje balanserer - flytt som én enhet",
+  },
+  {
+    id: "presspåpasning",
+    text: "Press på pasning: Start bevegelsen idet pasningen spilles - nærm deg i kurve for å stenge én side",
+  },
+  {
+    id: "retningsbestemmelse",
+    text: "Retningsbestemmelse: Tving motstanderen dit DU vil - mot sidelinje, bakover, eller på svak fot",
+  },
+  {
+    id: "stapabeina",
+    text: "Stå på beina: Hold lavt tyngdepunkt, vent på dårlig touch - selg deg ikke på finter",
+  },
+  {
+    id: "blokkering",
+    text: "Blokkering: Steng skuddvinkel, bruk kroppen aktivt nær mål - ikke vend deg bort",
+  },
+  {
+    id: "takling",
+    text: "Takling: Blokktakling med fastlåst ankel og kroppsvekt. Glidende kun som siste utvei",
+  },
+  {
+    id: "soneforsvar",
+    text: "Soneforsvar: Kompakt/smalt, når én duellerer faller andre et hakk ned - steng sentralt rom",
+  },
+  {
+    id: "leddavstand",
+    text: "Leddavstand: Hold 10-15m mellom linjene. Hele linjen flytter seg mot ballen",
   },
   {
     id: "pumping",
     text: "Pumping: Juster ledd raskt opp/ned for å holde kontroll på rom",
   },
   {
-    id: "leddavstand",
-    text: "Leddavstand: Hold 12-15m mellom midtbane og forsvar. Flytt dere likt for å holde kompakt",
+    id: "innleggsforsvar",
+    text: "Innleggsforsvar: Første stolpe dekkes, sentralt heading-klar, bakre stolpe sikres - keeper kommanderer",
   },
   {
     id: "duellforduellen",
-    text: "Duell før duellen: Gå i kroppen før innlegg, fjern fart og timing",
+    text: "Duell før duellen: Gå i kroppen FØR innlegget, fjern fart og timing på motstanderens løp",
   },
   {
-    id: "stapabeina",
-    text: "Stå på beina: I press, ikke selg deg på finter, hold kontroll",
+    id: "undertall",
+    text: "Undertall: Forsinke er viktigere enn å vinne ball. Dekk sentralt, tving bredt, kjøp tid",
   },
   {
-    id: "forsvar",
-    text: "Forsvar: Krymp tid og rom, fall av ved høyt press fra motstander",
+    id: "farlighetsgrader",
+    text: "Farlighetsgrader: Langt fra mål = forsinke rolig. Nær mål = blokkér alt, klarér høyt/bredt",
   },
   {
-    id: "soneforsvar",
-    text: "Soneforsvar: Kompakt/smalt, når én duellerer faller andre et hakk ned",
+    id: "offsidelinje",
+    text: "Offsidelinje: Alle opp samtidig på signal fra midtstopper - én som er sen ødelegger fellen",
+  },
+  // === DØDBALL FORSVAR (Dugger) ===
+  {
+    id: "hjornespark",
+    text: "Hjørnespark: Sone eller mann - eig din sone, angrip ballen, klarér høyt og bredt",
+  },
+  {
+    id: "murfrispark",
+    text: "Mur ved frispark: Keeper plasserer muren, stå i ro til skuddet, dekk keeperens blinde side",
+  },
+  // === OVERGANGER ===
+  {
+    id: "genpress",
+    text: "Gjenvinning: Aggressivt i 5-6 sekunder etter balltap - hele laget presser som én enhet",
+  },
+  {
+    id: "kontring",
+    text: "Kontring: Ved ballvinning - første touch fremover, kontringsspillere starter løpet umiddelbart",
   },
   {
     id: "bakrom",
@@ -91,6 +140,11 @@ const focusItems: FocusItem[] = [
   {
     id: "mellomrom",
     text: "Mellomrom: Kort bakrom = angrip mellomrom mellom forsvar og midtbane",
+  },
+  // === OPPBYGGING ===
+  {
+    id: "spilleutbakfra",
+    text: "Spille ut bakfra: Keeper/stopper som startpunkt - hold roen, spill på rett side av press",
   },
 ];
 

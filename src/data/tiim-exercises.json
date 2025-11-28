@@ -1,0 +1,165 @@
+{
+  "source": "Norges Fotballforbund - tiim.no",
+  "sourceUrl": "https://tiim.no/okter-og-ovelser",
+  "fetchedAt": "2025-11-27",
+  "exercises": [
+    {
+      "name": "1 mot 1 - gjenvinningskamp",
+      "sourceUrl": "https://tiim.no/ovelse/ny-1-mot-1-gjenvinningskamp",
+      "tema": ["Score mål", "Hindre mål"],
+      "type": ["Oppvarming", "Fotballek"],
+      "alder": ["6-7 år", "8-9 år"],
+      "organisering": "8-16 spillere, halvparten med ball innenfor en firkant, avpass størrelse etter antall spillere. Spillere uten ball finner en partner med ball, hvor de skal presse og forsøke å vinne ball fra. Hvis forsvarsspiller vinner ball, byttes rollene med samme to spillere. Når trener blåser i fløyta, må alle finne ny partner og øvelsen fortsetter.",
+      "variasjoner": ["Banestørrelse", "Antall spillere", "Konkurranse på tid"]
+    },
+    {
+      "name": "1 mot 1 – forsvarer i ulike posisjoner",
+      "sourceUrl": "https://tiim.no/ovelse/1-mot-1-forsvarer-i-ulike-posisjoner",
+      "tema": ["Vinne ball – hindre motstander å spille forbi oss", "Hindre avslutning - hindre mål"],
+      "type": ["Oppvarming"],
+      "alder": ["8-9 år"],
+      "organisering": "1 mot 1 øvelse på flere små baner. Trener/ekstra spiller server i gang øvelsen og 1A skal føre over linje. Spillerne rullerer fra angrep til forsvar. 1F starter i ulike posisjoner, både på rett side og feil side.",
+      "variasjoner": ["Utgangsposisjon 1F", "Serv fra trener, med forskjellig kraft, vinkel og høyde", "Antall spillere (eks. 2v2, 1v2, 2v1)"]
+    },
+    {
+      "name": "1 mot 1 – scoring gjennom porter på sidene",
+      "sourceUrl": "https://tiim.no/ovelse/1-mot-1-scoring-gjennom-porter-pa-sidene",
+      "tema": ["Komme til avslutning – score mål", "Hindre avslutning - hindre mål", "Vinne ball – hindre motstander å spille forbi oss", "Score mål", "Hindre mål"],
+      "type": ["Oppvarming", "Sjef over ballen"],
+      "alder": ["6-7 år", "8-9 år", "10-12 år"],
+      "organisering": "Vi jobber innenfor et rektangel på ca 10x15 meter. 1A starter med ball og skal passere 1F. Scoring ved å føre ballen kontrollert gjennom port.",
+      "variasjoner": ["Tilpass banestørrelse i forhold til utfordringer - lag både større og mindre", "Trener kan serve og dermed sette større krav til 1A sine valg og handlinger", "Igangsetting med forskjellig kraft, vinkel og høyde", "Forsvarende lag/spiller kan score på motsatt side ved å føre over linje eller på småmål"],
+      "laeringsmomenter": {
+        "forsvar": ["Velg pressretning (lede innover/utover)", "Beregn avstand og tidspunkt for press", "Kombiner sidevendt kroppsstilling med lavt tyngdepunkt", "Bruk armer til balanse og romfølelse uten å lage frispark", "Tørre å vinne ball – snappe, takle eller bryte"]
+      }
+    },
+    {
+      "name": "1v1 - score/hindre mål",
+      "sourceUrl": "https://tiim.no/ovelse/1v1-score-hindre-mal",
+      "tema": ["Presse – Lede - Styre", "Komme til avslutning – score mål", "Hindre mål"],
+      "type": ["Oppvarming", "Sjef over ballen"],
+      "alder": ["8-9 år", "10-12 år"],
+      "organisering": "Sett opp to baner for 1v1 mot et småmål i ene enden. Angrepsspiller spiller opp til trener/ledig spiller, som avgjør hvilken side/bane som skal angripes. Vinner forsvarer ballen, spilles den tilbake til trener/ledig spiller. Bytt roller regelmessig.",
+      "variasjoner": ["Banestørrelse", "Flere baner og konkurranse på tid"],
+      "laeringsmomenter": {
+        "angrep": ["Bestem om du skal drible rett inn i et ledig rom eller om du må utfordre direkte mot en forsvarsspiller for å trekke på deg press først", "Utfør finten med store, troverdige bevegelser og tempo for å passere", "Kombiner blikk opp før skudd med fokus på ball i tilslaget"],
+        "forsvar": ["Velg pressretning (lede innover/utover)", "Beregn avstand og tidspunkt for press", "Kombiner sidevendt kroppsstilling med lavt tyngdepunkt", "Bruk armer til balanse og romfølelse uten å lage frispark", "Tørre å vinne ball – snappe, takle eller bryte"]
+      }
+    },
+    {
+      "name": "2 mot 1 – mot ett mål",
+      "sourceUrl": "https://tiim.no/ovelse/2-mot-1-mot-ett-mal",
+      "tema": ["Komme til avslutning – score mål", "Score mål", "Hindre avslutning - hindre mål", "Hindre mål"],
+      "type": ["Oppvarming", "Deløvelse", "Avslutning på mål"],
+      "alder": ["6-7 år", "8-9 år"],
+      "organisering": "En spiller server til 2 angripere som skal spille seg forbi en forelder og score. 2 nye kommer inn med en gang det scores eller ballen går ut av spill.",
+      "variasjoner": ["Varier igangsetting ved bak angrepsspillerne eller fra keeper", "Igangsetting med forskjellig kraft, vinkel og høyde", "Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmål"],
+      "laeringsmomenter": {
+        "angrep": ["1A: Gå selv eller slå?", "2A: Hvordan beveger jeg meg for å kunne få ball?"]
+      }
+    },
+    {
+      "name": "2 mot 1 – Waves",
+      "sourceUrl": "https://tiim.no/ovelse/2-mot-1-waves",
+      "tema": ["Spille oss fremover i banen"],
+      "type": ["Deløvelse"],
+      "alder": ["8-9 år"],
+      "organisering": "6-8 spillere, 15x20m bane, 2 små mål. To mot en mot ett mål. Angripere bytter ved avsluttet angrep. Forsvarer blir første angriper (1A) med ny 2A og 1F andre retning.",
+      "variasjoner": ["1 mot 1/2 mot 2", "Spill med store mål og keepere", "Igangsetting med forskjellig kraft, vinkel og høyde"]
+    },
+    {
+      "name": "2 mot 1 i boks",
+      "sourceUrl": "https://tiim.no/ovelse/to-mot-en-i-boks",
+      "tema": ["Spille oss fremover i banen"],
+      "type": ["Deløvelse"],
+      "alder": ["8-9 år"],
+      "organisering": "En relativt lang bane (rektangel). Minimum seks angrepsspillere som deler seg i par. 1-2 forsvarsspillere. To angrepspillere skal forsøke å levere ballen til paret på motsatt side. En forsvarsspiller i midten som primært skal forsøke å stenge rom. Det nye paret kommer da inn i firkanten, mens det forrige stiller seg «bak i køen» på den siden de spilte pasning til. Trener setter i gang ny ball til motsatt par ved brudd eller ball ute av spill.",
+      "variasjoner": ["Droppe forsvarssone", "Flere forsvarsspillere", "Touchbegrensninger"]
+    },
+    {
+      "name": "2 mot 2 i boks",
+      "sourceUrl": "https://tiim.no/ovelse/to-mot-to-i-boks",
+      "tema": ["Spille oss fremover i banen"],
+      "type": ["Deløvelse"],
+      "alder": ["8-9 år", "10-12 år"],
+      "organisering": "To angrepspillere innenfor rektangelet, skal forsøke å levere ballen til paret på motsatt side. To forsvarsspillere i midten som primært skal forsøke å stenge rom. Det nye paret kommer da inn i rektangelet, mens det forrige stiller seg «bak i køen». Hvis blått lag vinner ball, skal de føre kontrollert ut av rektangelet før rødt gjenvinner.",
+      "variasjoner": ["Eventuelt starte med kun én forsvarsspiller", "Flere spillere", "Utfordre på banestørrelse"]
+    },
+    {
+      "name": "2v2 + keepere - Overgangsspill",
+      "sourceUrl": "https://tiim.no/ovelse/ny-2v2-keepere-overgangsspill",
+      "tema": ["Komme til avslutning – score mål", "Hindre avslutning - hindre mål"],
+      "type": ["Oppvarming", "Deløvelse"],
+      "alder": ["10-12 år"],
+      "organisering": "Sett opp en bane, f.eks 16-meter feltet, med to store mål med keeper på ene siden. To angripere mot to forsvarer + keepere. Nye angriper og forsvarspar står klare på hver side, og starter når ballen er ute av spill for gruppen foran. Angrepslaget skal forsøke å score på store mål. Hvis forsvarende lag vinner ball, kan de «score» ved å føre ball over linja på motsatt side. Ved redning av keeper og ball fortsatt i spill, kan de sette i gang sine spillere for rask føring over linja.",
+      "variasjoner": ["Banestørrelse", "Antall spillere, overtall/undertall (eks. 3v2 + keepere)", "Offside"]
+    },
+    {
+      "name": "3 mot 3 pluss joker",
+      "sourceUrl": "https://tiim.no/ovelse/3-mot-3-pluss-joker",
+      "tema": ["Komme til avslutning – score mål", "Hindre avslutning - hindre mål", "Score mål", "Hindre mål"],
+      "type": ["Spill", "Deløvelse"],
+      "alder": ["6-7 år", "8-9 år"],
+      "organisering": "Spill 3 mot 3 og joker med 2 mål (keepere).",
+      "variasjoner": ["Varier banestørrelsen", "Minske/øke antall spillere"],
+      "kommentar": "Ta en pause underveis hvor dere kan gi instruksjoner, bytte om på lag, justere banestørrelse eller andre justeringer dere måtte ønske."
+    },
+    {
+      "name": "3 mot 3 sonespill",
+      "sourceUrl": "https://tiim.no/ovelse/3-mot-3-sonespill",
+      "tema": ["Spille oss fremover i banen"],
+      "type": ["Deløvelse"],
+      "alder": ["10-12 år"],
+      "organisering": "Trener spiller opp rødt angrepslag. Tre spillere skal så forsøke å få en kontrollert avslutning på en av de tre små målene. Hvis forsvarslaget vinner ball, får de poeng om de greier å føre ballen kontrollert inn i den minste sonen. Etter endt situasjon kommer det inn en ny forsvars og angrepstrio.",
+      "variasjoner": ["Antall spillere, type serv fra trener"]
+    },
+    {
+      "name": "4 mot 4 – liten bane",
+      "sourceUrl": "https://tiim.no/ovelse/4-mot-4-liten-bane",
+      "tema": ["Komme til avslutning – score mål"],
+      "type": ["Spill"],
+      "alder": ["10-12 år"],
+      "organisering": "Bane med to like store soner med mål (keeper) i hver ende. To lag som når de har ballen skal forsøke å skyte og score fra sin sone på målet i motsatt sone. Det laget som ikke har ball kan eventuelt sende opp en spiller som presser i motstanderes sone.",
+      "variasjoner": ["Antall spillere", "Banestørrelse"]
+    },
+    {
+      "name": "4 mot 4 med vegger",
+      "sourceUrl": "https://tiim.no/ovelse/4-mot-4-med-vegger",
+      "tema": ["Spille oss fremover i banen", "Komme til avslutning – score mål", "Hindre avslutning - hindre mål"],
+      "type": ["Spill", "Deløvelse"],
+      "alder": ["8-9 år"],
+      "organisering": "Spill 4 mot 4 (3 mot 3 + keepere) med to mål. Bruk 4 stasjonere «vegger» som er på lag med det angripende laget.",
+      "variasjoner": ["Flytt på veggene", "Legg inn en joker", "Varier banestørrelse"]
+    },
+    {
+      "name": "5 mot 5 + vegger",
+      "sourceUrl": "https://tiim.no/ovelse/5-mot-5-vegger",
+      "tema": ["Komme til avslutning – score mål", "Hindre avslutning - hindre mål", "Spille oss fremover i banen", "Hindre mål"],
+      "type": ["Spill", "Deløvelse", "Spille med og mot"],
+      "alder": ["10-12 år"],
+      "organisering": "Spill fem mot fem opp til åtte mot åtte. Sett opp innleggssoner med to spillere i hver. Vanlig spill, hvor man i tillegg kan benytte «freda» spillere i innleggssonene. De har maks to touch. Når ballen er ute av spill, får man spillerne «på plass», før ny ball settes i gang.",
+      "variasjoner": ["Spillere i korridor kan ta med seg ballen ut av korridoren og sette opp «45-graderssituasjoner»", "Antall spillere og formasjoner"],
+      "laeringsmomenter": {
+        "forsvar": ["Sidestilt kroppsstilling så man ser ball og motstandere", "Hurtig i posisjon mellom eget mål og motstander", "Ta kontroll foran eget mål gjennom posisjonering innenfor stolpene", "Spillere på feil side skal komme seg på rett side", "Offervilje – først på ball", "«Ta duellen før duellen» - gå i kropp for å ta bort timing og fart hos motspiller", "Det må markeres og kontroll på farlige rom helt til situasjonen er avklart"]
+      }
+    },
+    {
+      "name": "5 mot 5 med keeper - sonespill",
+      "sourceUrl": "https://tiim.no/ovelse/5-mot-5-med-keeper-sonespill",
+      "tema": ["Spille oss fremover i banen", "Vinne ball – hindre motstander å spille forbi oss"],
+      "type": ["Spill"],
+      "alder": ["10-12 år"],
+      "organisering": "Spill 4 mot 4 med en frisone midt på banen. I frisonen er det ikke lov til å gå på ballfører. To faste spillere i hver sone. En av spillerne i forsvarssonen kan bli med over nå vi er i angrep! Spiller i angrepssone kan komme i frisonen for oppspill.",
+      "variasjoner": ["Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivå", "Varier med joker", "Antall spillere"]
+    },
+    {
+      "name": "6 mot 6 - scoring i endesoner",
+      "sourceUrl": "https://tiim.no/ovelse/6-mot-6-scoring-i-endesoner",
+      "tema": ["Spille oss fremover i banen", "Vinne ball – hindre motstander å spille forbi oss"],
+      "type": ["Deløvelse"],
+      "alder": ["10-12 år"],
+      "organisering": "Spill 6 mot 6 med scoring i endesonene. Godkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen.",
+      "variasjoner": ["Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivå", "Ved scoring i en endesone snur man retningen på spillet", "Varier med joker", "Keepere brukes i endesonen"]
+    }
+  ]
+}

@@ -2,19 +2,34 @@ import { filterExercises } from "@/store/sessionStore";
 import { ExerciseCard } from "./ExerciseCard";
 import { useSessionStore } from "@/store/sessionStore";
 import { useMemo, useState } from "react";
-import type { ExerciseCategory } from "@/data/exercises";
+import type { ExerciseCategory, ExerciseSource } from "@/data/exercises";
+
+type SourceFilter = ExerciseSource | "egen" | null;
 
 interface ExerciseListProps {
   category?: ExerciseCategory;
   title: string;
   theme?: string;
+  sourceFilter?: SourceFilter;
+  filterByPlayerCount?: boolean;
 }
 
-export const ExerciseList = ({ category, title, theme }: ExerciseListProps) => {
+export const ExerciseList = ({ category, title, theme, sourceFilter, filterByPlayerCount = false }: ExerciseListProps) => {
   const playerCount = useSessionStore((state) => state.playerCount);
+  const stationCount = useSessionStore((state) => state.stationCount);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
   const favoriteIds = useSessionStore((state) => state.favoriteIds);
-  const exercises = filterExercises(exerciseLibrary, playerCount, category, theme, favoriteIds);
+  // For station exercises, pass stationCount to enable smart sorting
+  const exercises = filterExercises(
+    exerciseLibrary, 
+    playerCount, 
+    category, 
+    theme, 
+    favoriteIds, 
+    category === "station" ? stationCount : undefined,
+    sourceFilter,
+    filterByPlayerCount
+  );
   const [open, setOpen] = useState(true);
   const sectionAccent = useMemo(() => {
     const styles: Record<NonNullable<ExerciseListProps["category"]> | "default", string> = {
@@ -55,7 +70,7 @@ export const ExerciseList = ({ category, title, theme }: ExerciseListProps) => {
           ))}
           {exercises.length === 0 && (
             <p className="text-sm text-zinc-500">
-              Ingen øvelser tilgjengelig for dette antallet spillere.
+              Ingen øvelser i denne kategorien.
             </p>
           )}
         </div>

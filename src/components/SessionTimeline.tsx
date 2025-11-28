@@ -1,5 +1,6 @@
-import { recommendedDuration, useSessionStore, SessionBlock } from "@/store/sessionStore";
-import { useState } from "react";
+import { recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
+import { getExerciseCode } from "@/data/exercises";
+import { useState, useEffect, useMemo } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -13,13 +14,25 @@ type SessionPart = {
 };
 
 export const SessionTimeline = () => {
+  // Abonner på alle relevante state-endringer for å trigge rerender
+  const selectedExerciseIds = useSessionStore((state) => state.selectedExerciseIds);
+  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
+  const plannedBlocks = useSessionStore((state) => state.plannedBlocks);
   const generateSession = useSessionStore((state) => state.generateSession);
-  const sessionBlocks = generateSession();
   const playerCount = useSessionStore((state) => state.playerCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
 
-  const [hydrated] = useState(() => typeof window !== "undefined");
+  // Generer sessionBlocks når avhengighetene endres
+  const sessionBlocks = useMemo(() => {
+    return generateSession();
+  }, [generateSession, selectedExerciseIds, exerciseLibrary, plannedBlocks]);
+
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState<
@@ -97,6 +110,13 @@ export const SessionTimeline = () => {
     setPlannedBlocks(updated);
   };
 
+  const handleUnitChange = (index: number, unit: DurationUnit) => {
+    const updated = sessionBlocks.map((block, idx) =>
+      idx === index ? { ...block, customUnit: unit } : block
+    );
+    setPlannedBlocks(updated);
+  };
+
   const handleDragStart = (index: number) => setDragIndex(index);
   const handleDragOver = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
@@ -128,7 +148,7 @@ export const SessionTimeline = () => {
     return sessionBlocks
       .map(
         (block, index) =>
-          `${index + 1}. ${block.exercise.name} – ${recommendedDuration(block)} min`
+          `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}`
       )
       .join("\n");
   };
@@ -145,7 +165,8 @@ export const SessionTimeline = () => {
 
       part.blocks.forEach(({ block }) => {
         const duration = recommendedDuration(block);
-        result += `\n${block.exercise.name} (${duration} min)\n`;
+        const unit = getUnit(block);
+        result += `\n[${getExerciseCode(block.exercise)}] ${block.exercise.name} (${duration} ${unit})\n`;
         result += `${block.exercise.description}\n`;
 
         if (block.exercise.coachingPoints.length > 0) {
@@ -167,7 +188,7 @@ export const SessionTimeline = () => {
     return result;
   };
 
-  const handleShare = async (full: boolean) => {
+  const handleCopy = async (full: boolean) => {
     const summary = full ? buildFullSummary() : buildShortSummary();
     const sharePayload = `Treningsøkt (${totalMinutes} min)\n${summary}`;
 
@@ -176,22 +197,83 @@ export const SessionTimeline = () => {
         ? (navigator as ClipboardCapableNavigator)
         : undefined;
     try {
-      if (nav && "share" in nav && typeof nav.share === "function") {
-        await nav.share({ title: "Treningsøkt", text: sharePayload });
-        setShareStatus("shared");
-      } else if (nav?.clipboard?.writeText) {
+      if (nav?.clipboard?.writeText) {
         await nav.clipboard.writeText(sharePayload);
         setShareStatus("copied");
       } else {
         setShareStatus("error");
       }
     } catch (error) {
-      console.error("Share failed", error);
+      console.error("Copy failed", error);
       setShareStatus("error");
     }
 
     setShowShareOptions(false);
     setTimeout(() => setShareStatus("idle"), 2500);
+  };
+
+  const handlePrint = () => {
+    setShowShareOptions(false);
+    
+    const partNames = ["Skadefri", "Oppvarming", "Stasjoner", "Spill", "Avslutning"];
+    
+    const printContent = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Treningsøkt</title>
+        <style>
+          body { font-family: system-ui, -apple-system, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
+          h1 { font-size: 24px; margin-bottom: 8px; }
+          .meta { color: #666; font-size: 14px; margin-bottom: 24px; }
+          .section { margin-bottom: 24px; }
+          .section-title { font-size: 16px; font-weight: 600; color: #333; margin-bottom: 12px; padding-bottom: 4px; border-bottom: 2px solid #eee; }
+          .exercise { background: #f9f9f9; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
+          .exercise-name { font-weight: 600; margin-bottom: 4px; }
+          .exercise-meta { font-size: 12px; color: #666; margin-bottom: 6px; }
+          .exercise-desc { font-size: 13px; color: #444; }
+          .coaching { margin-top: 8px; font-size: 12px; }
+          .coaching-title { font-weight: 600; color: #555; }
+          .coaching-list { margin: 4px 0 0 16px; padding: 0; }
+          .coaching-list li { margin-bottom: 2px; }
+          @media print { body { padding: 20px; } }
+        </style>
+      </head>
+      <body>
+        <h1>Treningsøkt</h1>
+        <div class="meta">${totalMinutes} minutter • ${sessionBlocks.length} øvelser • ${playerCount} spillere</div>
+        ${parts.map((part, idx) => part.blocks.length > 0 ? `
+          <div class="section">
+            <div class="section-title">${partNames[idx]}</div>
+            ${part.blocks.map(({ block }) => `
+              <div class="exercise">
+                <div class="exercise-name"><span style="display:inline-block;background:#e5e7eb;border-radius:4px;padding:2px 6px;font-size:11px;margin-right:6px;">${getExerciseCode(block.exercise)}</span>${block.exercise.name}</div>
+                <div class="exercise-meta">${recommendedDuration(block)} ${getUnit(block)} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${block.exercise.theme}</div>
+                <div class="exercise-desc">${block.exercise.description}</div>
+                ${block.exercise.coachingPoints.length > 0 ? `
+                  <div class="coaching">
+                    <span class="coaching-title">Coaching:</span>
+                    <ul class="coaching-list">
+                      ${block.exercise.coachingPoints.map(p => `<li>${p}</li>`).join('')}
+                    </ul>
+                  </div>
+                ` : ''}
+              </div>
+            `).join('')}
+          </div>
+        ` : '').join('')}
+      </body>
+      </html>
+    `;
+
+    const printWindow = window.open('', '_blank');
+    if (printWindow) {
+      printWindow.document.write(printContent);
+      printWindow.document.close();
+      printWindow.onload = () => {
+        printWindow.print();
+      };
+    }
   };
 
   const hasContent = sessionBlocks.length > 0;
@@ -223,21 +305,41 @@ export const SessionTimeline = () => {
               onClick={() => setShowShareOptions(!showShareOptions)}
               className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
             >
-              Del
+              Del økt
             </button>
             {showShareOptions && (
-              <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-zinc-200 rounded-lg shadow-lg py-1 min-w-[140px]">
+              <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-zinc-200 rounded-lg shadow-lg py-1 min-w-[160px]">
+                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Kopier tekst</div>
                 <button
-                  onClick={() => handleShare(false)}
-                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
+                  onClick={() => handleCopy(false)}
+                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
                 >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
+                    <path d="M5.5 3.5A1.5 1.5 0 0 1 7 2h2.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V9.5A1.5 1.5 0 0 1 12 11V8.621a3 3 0 0 0-.879-2.121L9 4.379A3 3 0 0 0 6.879 3.5H5.5Z" />
+                    <path d="M4 5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 4 14h5a1.5 1.5 0 0 0 1.5-1.5V8.621a1.5 1.5 0 0 0-.44-1.06L7.94 5.439A1.5 1.5 0 0 0 6.878 5H4Z" />
+                  </svg>
                   Kort versjon
                 </button>
                 <button
-                  onClick={() => handleShare(true)}
-                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
+                  onClick={() => handleCopy(true)}
+                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
                 >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
+                    <path d="M5.5 3.5A1.5 1.5 0 0 1 7 2h2.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V9.5A1.5 1.5 0 0 1 12 11V8.621a3 3 0 0 0-.879-2.121L9 4.379A3 3 0 0 0 6.879 3.5H5.5Z" />
+                    <path d="M4 5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 4 14h5a1.5 1.5 0 0 0 1.5-1.5V8.621a1.5 1.5 0 0 0-.44-1.06L7.94 5.439A1.5 1.5 0 0 0 6.878 5H4Z" />
+                  </svg>
                   Full versjon
+                </button>
+                <hr className="my-1 border-zinc-100" />
+                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Eksporter</div>
+                <button
+                  onClick={handlePrint}
+                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
+                    <path fillRule="evenodd" d="M4 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v.5h.5A1.5 1.5 0 0 1 14 6v4a1.5 1.5 0 0 1-1.5 1.5H12v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1h-.5A1.5 1.5 0 0 1 2 10V6a1.5 1.5 0 0 1 1.5-1.5H4V4Zm1.5 6v2.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5V10h-5Zm5-5.5V4a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0-.5.5v.5h5Z" clipRule="evenodd" />
+                  </svg>
+                  Skriv ut / PDF
                 </button>
               </div>
             )}
@@ -270,8 +372,8 @@ export const SessionTimeline = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
           </div>
-          <p className="text-sm font-medium text-zinc-600">Ingen øvelser valgt</p>
-          <p className="mt-1 text-xs text-zinc-400">Velg øvelser fra listen for å bygge økten</p>
+          <p className="text-sm font-medium text-zinc-600">Start med å velge øvelser</p>
+          <p className="mt-1 text-xs text-zinc-400">Marker øvelser fra listen til venstre</p>
         </div>
       ) : (
         <div className="mt-4 space-y-4">
@@ -350,6 +452,9 @@ export const SessionTimeline = () => {
                             </div>
 
                             <p className="flex-1 text-sm text-zinc-900 truncate">
+                              <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
+                                {getExerciseCode(block.exercise)}
+                              </span>
                               {block.exercise.name}
                             </p>
 
@@ -357,14 +462,21 @@ export const SessionTimeline = () => {
                               <input
                                 type="number"
                                 min={1}
-                                max={60}
+                                max={99}
                                 value={recommendedDuration(block)}
                                 onChange={(event) =>
                                   handleDurationChange(globalIndex, Number(event.target.value))
                                 }
                                 className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
                               />
-                              <span className="text-xs text-zinc-400">min</span>
+                              <select
+                                value={getUnit(block)}
+                                onChange={(e) => handleUnitChange(globalIndex, e.target.value as DurationUnit)}
+                                className="rounded border border-zinc-200 px-1 py-1 text-xs text-zinc-600 focus:border-black focus:outline-none bg-white cursor-pointer"
+                              >
+                                <option value="min">min</option>
+                                <option value="reps">reps</option>
+                              </select>
                               {!block.exercise.alwaysIncluded && (
                                 <button
                                   onClick={() => removeBlock(globalIndex)}
