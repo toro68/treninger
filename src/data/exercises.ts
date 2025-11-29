@@ -1,4 +1,4 @@
-export type ExerciseCategory = "fixed-warmup" | "warmup" | "station" | "game" | "cooldown";
+export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
 export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass";
 
 export interface Exercise {
@@ -27,6 +27,8 @@ export const getExerciseCode = (exercise: Exercise): string => {
   const prefixMap: Record<ExerciseCategory, string> = {
     "fixed-warmup": "F",
     warmup: "O",
+    aktivisering: "AK",
+    rondo: "R",
     station: "S",
     game: "K",
     cooldown: "A",

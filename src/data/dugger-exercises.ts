@@ -7,7 +7,7 @@ export const duggerExercises: Exercise[] = [
   // === GRUNNLEGGENDE FORSVARSØVELSER ===
   {
     id: "dugger-deny-space",
-    exerciseNumber: 1,
+    exerciseNumber: 400,
     name: "Nekte Rom",
     category: "station",
     duration: 12,
@@ -31,7 +31,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-pressure-pass",
-    exerciseNumber: 2,
+    exerciseNumber: 403,
     name: "Press på Pasning",
     category: "station",
     duration: 12,
@@ -55,7 +55,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-hold-up",
-    exerciseNumber: 3,
+    exerciseNumber: 406,
     name: "Holde Opp Angriper",
     category: "station",
     duration: 10,
@@ -79,7 +79,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-block-shots",
-    exerciseNumber: 4,
+    exerciseNumber: 476,
     name: "Blokkere Skudd og Pasninger",
     category: "station",
     duration: 12,
@@ -103,7 +103,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-weak-foot",
-    exerciseNumber: 5,
+    exerciseNumber: 410,
     name: "Tvinge på Svak Fot",
     category: "station",
     duration: 12,
@@ -127,7 +127,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-cover-space",
-    exerciseNumber: 6,
+    exerciseNumber: 414,
     name: "Dekke Rom",
     category: "station",
     duration: 12,
@@ -151,7 +151,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-block-tackle",
-    exerciseNumber: 7,
+    exerciseNumber: 416,
     name: "Blokktakling",
     category: "station",
     duration: 10,
@@ -175,7 +175,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-sliding-tackle",
-    exerciseNumber: 8,
+    exerciseNumber: 419,
     name: "Glidende Takling",
     category: "station",
     duration: 10,
@@ -201,7 +201,7 @@ export const duggerExercises: Exercise[] = [
   // === MANNDEKNING OG SONEFORSVAR ===
   {
     id: "dugger-man-mark-zone",
-    exerciseNumber: 9,
+    exerciseNumber: 422,
     name: "Manndekning i Sone",
     category: "station",
     duration: 15,
@@ -275,7 +275,7 @@ export const duggerExercises: Exercise[] = [
   // === FORSVAR MOT DØDBALL ===
   {
     id: "dugger-defend-near-post",
-    exerciseNumber: 12,
+    exerciseNumber: 424,
     name: "Forsvar Første Stolpe",
     category: "station",
     duration: 12,
@@ -299,7 +299,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-defend-deep-corner",
-    exerciseNumber: 13,
+    exerciseNumber: 426,
     name: "Forsvar Dyp Hjørnespark",
     category: "station",
     duration: 12,
@@ -323,7 +323,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-defend-throw",
-    exerciseNumber: 14,
+    exerciseNumber: 431,
     name: "Forsvar ved Innkast",
     category: "station",
     duration: 10,
@@ -347,7 +347,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-defend-wall",
-    exerciseNumber: 15,
+    exerciseNumber: 434,
     name: "Mur ved Frispark",
     category: "station",
     duration: 12,
@@ -373,7 +373,7 @@ export const duggerExercises: Exercise[] = [
   // === FORMASJONSSPESIFIKKE ØVELSER ===
   {
     id: "dugger-442-defense",
-    exerciseNumber: 16,
+    exerciseNumber: 267,
     name: "4-4-2 Forsvarsspill",
     category: "game",
     duration: 20,
@@ -397,7 +397,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-433-defense",
-    exerciseNumber: 17,
+    exerciseNumber: 270,
     name: "4-3-3 Forsvarsspill",
     category: "game",
     duration: 20,
@@ -421,7 +421,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-offside-trap",
-    exerciseNumber: 18,
+    exerciseNumber: 441,
     name: "Offsidefelle",
     category: "station",
     duration: 15,
@@ -447,7 +447,7 @@ export const duggerExercises: Exercise[] = [
   // === 3v2 FORSVAR ===
   {
     id: "dugger-3v2-slow",
-    exerciseNumber: 19,
+    exerciseNumber: 443,
     name: "3v2 Forsinke",
     category: "station",
     duration: 15,
@@ -471,7 +471,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-3v2-cover",
-    exerciseNumber: 20,
+    exerciseNumber: 444,
     name: "3v2 med Sikring",
     category: "station",
     duration: 15,
@@ -495,7 +495,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-3v2-keeper",
-    exerciseNumber: 21,
+    exerciseNumber: 279,
     name: "3v2 med Keeper",
     category: "game",
     duration: 15,
@@ -544,7 +544,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-rondo-2v1",
-    exerciseNumber: 23,
+    exerciseNumber: 446,
     name: "Rondo 2v1 i Boks",
     category: "station",
     duration: 10,
@@ -570,7 +570,7 @@ export const duggerExercises: Exercise[] = [
   // === KEEPERØVELSER ===
   {
     id: "dugger-keeper-position",
-    exerciseNumber: 24,
+    exerciseNumber: 449,
     name: "Keeper Posisjonering",
     category: "station",
     duration: 12,
@@ -594,7 +594,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-keeper-reactions",
-    exerciseNumber: 25,
+    exerciseNumber: 209,
     name: "Keeper Reaksjoner",
     category: "warmup",
     duration: 8,
@@ -618,7 +618,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-keeper-1v1",
-    exerciseNumber: 26,
+    exerciseNumber: 454,
     name: "Keeper 1v1 Redning",
     category: "station",
     duration: 12,
@@ -642,7 +642,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-keeper-crosses",
-    exerciseNumber: 27,
+    exerciseNumber: 459,
     name: "Keeper Innlegg",
     category: "station",
     duration: 15,
@@ -668,7 +668,7 @@ export const duggerExercises: Exercise[] = [
   // === SPILLE UT FRA KEEPER ===
   {
     id: "dugger-play-out-1",
-    exerciseNumber: 28,
+    exerciseNumber: 462,
     name: "Spille Ut Bakfra (1)",
     category: "station",
     duration: 15,
@@ -692,7 +692,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-play-out-2",
-    exerciseNumber: 29,
+    exerciseNumber: 291,
     name: "Spille Ut Bakfra (2)",
     category: "game",
     duration: 18,
@@ -718,7 +718,7 @@ export const duggerExercises: Exercise[] = [
   // === SPILLØVELSER ===
   {
     id: "dugger-3v2-game",
-    exerciseNumber: 30,
+    exerciseNumber: 294,
     name: "3v2 Rotasjonsspill",
     category: "game",
     duration: 20,
@@ -744,7 +744,7 @@ export const duggerExercises: Exercise[] = [
   // === HØYT PRESS OG FRONTPRESS ===
   {
     id: "dugger-high-press",
-    exerciseNumber: 31,
+    exerciseNumber: 298,
     name: "Høyt Press",
     category: "game",
     duration: 20,
@@ -768,7 +768,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-front-press",
-    exerciseNumber: 32,
+    exerciseNumber: 302,
     name: "Frontpress 4-3-3",
     category: "game",
     duration: 20,
@@ -794,7 +794,7 @@ export const duggerExercises: Exercise[] = [
   // === TRACKING OG LØPSDEKNING ===
   {
     id: "dugger-tracking-runs",
-    exerciseNumber: 33,
+    exerciseNumber: 465,
     name: "Tracking Midtbaneløp",
     category: "station",
     duration: 15,
@@ -818,7 +818,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-5v4-tracking",
-    exerciseNumber: 34,
+    exerciseNumber: 306,
     name: "5v4 med Tracking",
     category: "game",
     duration: 15,
@@ -844,7 +844,7 @@ export const duggerExercises: Exercise[] = [
   // === FORMASJONSFORSVAR: DIAMANT OG SWEEPER ===
   {
     id: "dugger-diamond-defense",
-    exerciseNumber: 35,
+    exerciseNumber: 309,
     name: "Diamant Midtbaneforsvar",
     category: "game",
     duration: 20,
@@ -944,7 +944,7 @@ export const duggerExercises: Exercise[] = [
   // === POKE TACKLE OG RECOVERY ===
   {
     id: "dugger-poke-tackle",
-    exerciseNumber: 39,
+    exerciseNumber: 469,
     name: "Poke Tackle",
     category: "station",
     duration: 10,
@@ -994,7 +994,7 @@ export const duggerExercises: Exercise[] = [
   // === FLERE KEEPER-ØVELSER ===
   {
     id: "dugger-gk-punching",
-    exerciseNumber: 41,
+    exerciseNumber: 470,
     name: "Keeper Boksing",
     category: "station",
     duration: 12,
@@ -1018,7 +1018,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-gk-communication",
-    exerciseNumber: 42,
+    exerciseNumber: 471,
     name: "Keeper Kommunikasjon",
     category: "station",
     duration: 15,
@@ -1044,7 +1044,7 @@ export const duggerExercises: Exercise[] = [
   // === MENTAL ROBUSTHET ===
   {
     id: "dugger-resilience",
-    exerciseNumber: 43,
+    exerciseNumber: 319,
     name: "Mental Robusthet",
     category: "game",
     duration: 20,
@@ -1070,7 +1070,7 @@ export const duggerExercises: Exercise[] = [
   // === IDENTIFISERE FORSVARSSPILLERE ===
   {
     id: "dugger-defender-trial",
-    exerciseNumber: 44,
+    exerciseNumber: 322,
     name: "Forsvarsprøver",
     category: "game",
     duration: 25,

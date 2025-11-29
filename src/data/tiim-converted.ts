@@ -1,12 +1,10 @@
 // Auto-generert fra tiim.no - 2025-11-27
-// Kilde: https://tiim.no/okter-og-ovelser
-
-import type { Exercise } from './exercises';
+import { Exercise } from './exercises';
 
 export const tiimExercises: Exercise[] = [
   {
     "id": "tiim-1",
-    "exerciseNumber": 1,
+    "exerciseNumber": 124,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -26,7 +24,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-2",
-    "exerciseNumber": 2,
+    "exerciseNumber": 209,
     "name": "1 mot 1 - gjenvinningskamp",
     "category": "station",
     "duration": 12,
@@ -46,7 +44,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-3",
-    "exerciseNumber": 3,
+    "exerciseNumber": 307,
     "name": "1 mot 1 – forsvarer i ulike posisjoner",
     "category": "station",
     "duration": 12,
@@ -66,7 +64,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-4",
-    "exerciseNumber": 4,
+    "exerciseNumber": 342,
     "name": "1 mot 1 – scoring gjennom porter på sidene",
     "category": "station",
     "duration": 12,
@@ -88,7 +86,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-5",
-    "exerciseNumber": 5,
+    "exerciseNumber": 352,
     "name": "1v1 - score/hindre mål",
     "category": "station",
     "duration": 12,
@@ -110,7 +108,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-6",
-    "exerciseNumber": 6,
+    "exerciseNumber": 359,
     "name": "2 mot 1 – mot ett mål",
     "category": "station",
     "duration": 12,
@@ -133,7 +131,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-7",
-    "exerciseNumber": 7,
+    "exerciseNumber": 368,
     "name": "2 mot 1 – Waves",
     "category": "station",
     "duration": 12,
@@ -153,7 +151,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-8",
-    "exerciseNumber": 8,
+    "exerciseNumber": 376,
     "name": "2 mot 1 i boks",
     "category": "station",
     "duration": 12,
@@ -173,7 +171,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-9",
-    "exerciseNumber": 9,
+    "exerciseNumber": 387,
     "name": "2 mot 2 i boks",
     "category": "station",
     "duration": 12,
@@ -193,7 +191,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-10",
-    "exerciseNumber": 10,
+    "exerciseNumber": 125,
     "name": "2 mot 2 med fire mål – trener som joker",
     "category": "station",
     "duration": 12,
@@ -213,7 +211,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-11",
-    "exerciseNumber": 11,
+    "exerciseNumber": 135,
     "name": "2 mot 2 med tre mål",
     "category": "station",
     "duration": 12,
@@ -233,7 +231,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-12",
-    "exerciseNumber": 12,
+    "exerciseNumber": 140,
     "name": "2v1 og 2v2 på lite og stort mål",
     "category": "station",
     "duration": 12,
@@ -253,7 +251,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-13",
-    "exerciseNumber": 13,
+    "exerciseNumber": 220,
     "name": "2v2 + keepere - Overgangsspill",
     "category": "game",
     "duration": 12,
@@ -273,7 +271,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-14",
-    "exerciseNumber": 14,
+    "exerciseNumber": 156,
     "name": "2v3 - angrep og forsvar i boksen",
     "category": "station",
     "duration": 12,
@@ -295,7 +293,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-15",
-    "exerciseNumber": 15,
+    "exerciseNumber": 166,
     "name": "3 mot 2 i mot ett mål",
     "category": "station",
     "duration": 12,
@@ -315,7 +313,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-16",
-    "exerciseNumber": 16,
+    "exerciseNumber": 176,
     "name": "3 mot 2 mot ett mål (16m feltet)",
     "category": "station",
     "duration": 12,
@@ -335,7 +333,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-17",
-    "exerciseNumber": 17,
+    "exerciseNumber": 186,
     "name": "3 mot 3 + keeper i boks",
     "category": "station",
     "duration": 12,
@@ -355,7 +353,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-18",
-    "exerciseNumber": 18,
+    "exerciseNumber": 223,
     "name": "3 mot 3 i ulike spillformer",
     "category": "game",
     "duration": 12,
@@ -375,7 +373,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-19",
-    "exerciseNumber": 19,
+    "exerciseNumber": 201,
     "name": "3 mot 3 pluss joker",
     "category": "station",
     "duration": 12,
@@ -395,7 +393,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-20",
-    "exerciseNumber": 20,
+    "exerciseNumber": 230,
     "name": "3 mot 3 sonespill",
     "category": "game",
     "duration": 12,
@@ -415,7 +413,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-21",
-    "exerciseNumber": 21,
+    "exerciseNumber": 215,
     "name": "3-2-3 og 3-3-3 med to endesoner",
     "category": "station",
     "duration": 12,
@@ -437,7 +435,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-22",
-    "exerciseNumber": 22,
+    "exerciseNumber": 233,
     "name": "3-2-3 spill med to endesoner",
     "category": "game",
     "duration": 12,
@@ -457,7 +455,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-23",
-    "exerciseNumber": 23,
+    "exerciseNumber": 231,
     "name": "3v2 i \"boksen\"",
     "category": "station",
     "duration": 12,
@@ -477,7 +475,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-24",
-    "exerciseNumber": 24,
+    "exerciseNumber": 242,
     "name": "3v3 mot tre mål",
     "category": "station",
     "duration": 12,
@@ -497,7 +495,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-25",
-    "exerciseNumber": 25,
+    "exerciseNumber": 253,
     "name": "4 mot 4 – liten bane",
     "category": "station",
     "duration": 12,
@@ -517,7 +515,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-26",
-    "exerciseNumber": 26,
+    "exerciseNumber": 264,
     "name": "4 mot 4 med vegger",
     "category": "station",
     "duration": 12,
@@ -537,7 +535,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-27",
-    "exerciseNumber": 27,
+    "exerciseNumber": 275,
     "name": "4v1 - \"blokkere skudd\"",
     "category": "station",
     "duration": 12,
@@ -559,7 +557,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-28",
-    "exerciseNumber": 28,
+    "exerciseNumber": 286,
     "name": "4v4 - Skudd fra distanse, først på retur",
     "category": "station",
     "duration": 12,
@@ -579,7 +577,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-29",
-    "exerciseNumber": 29,
+    "exerciseNumber": 237,
     "name": "4v4 med 2 jokere, tredjemannsspill",
     "category": "game",
     "duration": 12,
@@ -601,7 +599,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-30",
-    "exerciseNumber": 30,
+    "exerciseNumber": 308,
     "name": "5 mot 5 + vegger",
     "category": "station",
     "duration": 12,
@@ -624,7 +622,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-31",
-    "exerciseNumber": 31,
+    "exerciseNumber": 319,
     "name": "5 mot 5 med fire små mål",
     "category": "station",
     "duration": 12,
@@ -644,7 +642,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-32",
-    "exerciseNumber": 32,
+    "exerciseNumber": 330,
     "name": "5 mot 5 med fire små mål",
     "category": "station",
     "duration": 12,
@@ -664,7 +662,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-33",
-    "exerciseNumber": 33,
+    "exerciseNumber": 238,
     "name": "5 mot 5 med keeper - sonespill",
     "category": "game",
     "duration": 12,
@@ -684,7 +682,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-34",
-    "exerciseNumber": 34,
+    "exerciseNumber": 336,
     "name": "5 mot 5 med vegger",
     "category": "station",
     "duration": 12,
@@ -704,7 +702,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-35",
-    "exerciseNumber": 35,
+    "exerciseNumber": 337,
     "name": "5 mot 5 mot ett mål",
     "category": "station",
     "duration": 12,
@@ -724,7 +722,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-36",
-    "exerciseNumber": 36,
+    "exerciseNumber": 338,
     "name": "5 mot 5 mot to mål – liten bane",
     "category": "station",
     "duration": 12,
@@ -744,7 +742,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-37",
-    "exerciseNumber": 37,
+    "exerciseNumber": 339,
     "name": "5 mot 5 mot to mål – større bane",
     "category": "station",
     "duration": 12,
@@ -764,7 +762,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-38",
-    "exerciseNumber": 38,
+    "exerciseNumber": 340,
     "name": "5v5 - \"Break out game\"",
     "category": "station",
     "duration": 12,
@@ -784,7 +782,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-39",
-    "exerciseNumber": 39,
+    "exerciseNumber": 341,
     "name": "6 mot 6 - scoring i endesoner",
     "category": "station",
     "duration": 12,
@@ -803,28 +801,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/6-mot-6-scoring-i-endesoner"
   },
   {
-    "id": "tiim-40",
-    "exerciseNumber": 40,
-    "name": "6 mot 6 - scoring over linje",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 12,
-    "playersMax": 28,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Spill 6 mot 6 med scoring i endesoneneGodkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/6-mot-6-scoring-over-linje"
-  },
-  {
     "id": "tiim-41",
-    "exerciseNumber": 41,
+    "exerciseNumber": 343,
     "name": "6 mot 6 – pluss keepere – på kvart bane",
     "category": "station",
     "duration": 12,
@@ -844,7 +822,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-42",
-    "exerciseNumber": 42,
+    "exerciseNumber": 344,
     "name": "6v6 + 2 + keepere, overtall i boks",
     "category": "station",
     "duration": 12,
@@ -864,7 +842,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-43",
-    "exerciseNumber": 43,
+    "exerciseNumber": 345,
     "name": "7 mot 7 – hindre gjennombrudd",
     "category": "station",
     "duration": 12,
@@ -886,7 +864,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-44",
-    "exerciseNumber": 44,
+    "exerciseNumber": 346,
     "name": "7 mot 7 med forsvars og angrepssone",
     "category": "station",
     "duration": 12,
@@ -906,7 +884,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-45",
-    "exerciseNumber": 45,
+    "exerciseNumber": 347,
     "name": "7 mot 7 på kvart bane",
     "category": "station",
     "duration": 12,
@@ -926,7 +904,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-46",
-    "exerciseNumber": 46,
+    "exerciseNumber": 348,
     "name": "A1-A2 Situasjonsøvelse - 19",
     "category": "station",
     "duration": 12,
@@ -946,7 +924,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-47",
-    "exerciseNumber": 47,
+    "exerciseNumber": 349,
     "name": "A1-A2 Situasjonsøvelse - 20",
     "category": "station",
     "duration": 12,
@@ -966,7 +944,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-48",
-    "exerciseNumber": 48,
+    "exerciseNumber": 350,
     "name": "A1-A2 Situasjonsøvelse - 21",
     "category": "station",
     "duration": 12,
@@ -986,7 +964,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-49",
-    "exerciseNumber": 49,
+    "exerciseNumber": 351,
     "name": "A1-A2 Situasjonsøvelse - 22",
     "category": "station",
     "duration": 12,
@@ -1006,7 +984,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-50",
-    "exerciseNumber": 50,
+    "exerciseNumber": 353,
     "name": "A1-A2 Situasjonsøvelse - 23",
     "category": "station",
     "duration": 12,
@@ -1026,7 +1004,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-51",
-    "exerciseNumber": 51,
+    "exerciseNumber": 354,
     "name": "A1-A2 Situasjonsøvelse - 24",
     "category": "station",
     "duration": 12,
@@ -1046,7 +1024,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-52",
-    "exerciseNumber": 52,
+    "exerciseNumber": 355,
     "name": "A1-A2 Situasjonsøvelse - 25",
     "category": "station",
     "duration": 12,
@@ -1066,7 +1044,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-53",
-    "exerciseNumber": 53,
+    "exerciseNumber": 356,
     "name": "A1-A2 Situasjonsøvelse - 26",
     "category": "station",
     "duration": 12,
@@ -1086,7 +1064,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-54",
-    "exerciseNumber": 54,
+    "exerciseNumber": 357,
     "name": "A1-A2 Situasjonsøvelse - 27",
     "category": "station",
     "duration": 12,
@@ -1106,7 +1084,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-55",
-    "exerciseNumber": 55,
+    "exerciseNumber": 239,
     "name": "A1-A2 Spill - 29",
     "category": "game",
     "duration": 12,
@@ -1126,7 +1104,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-56",
-    "exerciseNumber": 56,
+    "exerciseNumber": 240,
     "name": "A1-A2 Spill - 30",
     "category": "game",
     "duration": 12,
@@ -1146,7 +1124,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-57",
-    "exerciseNumber": 57,
+    "exerciseNumber": 241,
     "name": "A1-A2 Spill - 31",
     "category": "game",
     "duration": 12,
@@ -1166,7 +1144,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-58",
-    "exerciseNumber": 58,
+    "exerciseNumber": 242,
     "name": "A2 Spill - 50",
     "category": "game",
     "duration": 12,
@@ -1186,7 +1164,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-59",
-    "exerciseNumber": 59,
+    "exerciseNumber": 358,
     "name": "A2-A3 Situasjonsøvelse - 34",
     "category": "station",
     "duration": 12,
@@ -1206,7 +1184,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-60",
-    "exerciseNumber": 60,
+    "exerciseNumber": 360,
     "name": "A2-A3 Situasjonsøvelse - 35",
     "category": "station",
     "duration": 12,
@@ -1226,7 +1204,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-61",
-    "exerciseNumber": 61,
+    "exerciseNumber": 361,
     "name": "A2-A3 Situasjonsøvelse - 36",
     "category": "station",
     "duration": 12,
@@ -1246,7 +1224,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-62",
-    "exerciseNumber": 62,
+    "exerciseNumber": 362,
     "name": "A2-A3 Situasjonsøvelse - 37",
     "category": "station",
     "duration": 12,
@@ -1266,7 +1244,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-63",
-    "exerciseNumber": 63,
+    "exerciseNumber": 363,
     "name": "A2-A3 Situasjonsøvelse - 38",
     "category": "station",
     "duration": 12,
@@ -1286,7 +1264,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-64",
-    "exerciseNumber": 64,
+    "exerciseNumber": 364,
     "name": "A2-A3 Situasjonsøvelse - 40",
     "category": "station",
     "duration": 12,
@@ -1305,28 +1283,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-40"
   },
   {
-    "id": "tiim-65",
-    "exerciseNumber": 65,
-    "name": "A2-A3 Situasjonsøvelse - 41",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "avslutning",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "11 vs 11.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-41"
-  },
-  {
     "id": "tiim-66",
-    "exerciseNumber": 66,
+    "exerciseNumber": 365,
     "name": "A2-A3 Situasjonsøvelse - 42",
     "category": "station",
     "duration": 12,
@@ -1346,7 +1304,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-67",
-    "exerciseNumber": 67,
+    "exerciseNumber": 366,
     "name": "A2-A3 Situasjonsøvelse - 43",
     "category": "station",
     "duration": 12,
@@ -1366,7 +1324,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-68",
-    "exerciseNumber": 68,
+    "exerciseNumber": 367,
     "name": "A2-A3 Situasjonsøvelse - 44",
     "category": "station",
     "duration": 12,
@@ -1386,7 +1344,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-69",
-    "exerciseNumber": 69,
+    "exerciseNumber": 243,
     "name": "A2-A3 Spill - 51",
     "category": "game",
     "duration": 12,
@@ -1406,7 +1364,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-70",
-    "exerciseNumber": 70,
+    "exerciseNumber": 244,
     "name": "A2-A3 Spill - 52",
     "category": "game",
     "duration": 12,
@@ -1426,7 +1384,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-71",
-    "exerciseNumber": 71,
+    "exerciseNumber": 245,
     "name": "A2-A3 Spill - 53",
     "category": "game",
     "duration": 12,
@@ -1446,7 +1404,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-72",
-    "exerciseNumber": 72,
+    "exerciseNumber": 369,
     "name": "A3 Situasjonsøvelse - 45",
     "category": "station",
     "duration": 12,
@@ -1466,7 +1424,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-73",
-    "exerciseNumber": 73,
+    "exerciseNumber": 370,
     "name": "A3 Situasjonsøvelse - 46",
     "category": "station",
     "duration": 12,
@@ -1486,7 +1444,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-74",
-    "exerciseNumber": 74,
+    "exerciseNumber": 371,
     "name": "A3 Situasjonsøvelse - 47",
     "category": "station",
     "duration": 12,
@@ -1506,7 +1464,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-75",
-    "exerciseNumber": 75,
+    "exerciseNumber": 372,
     "name": "A3 Situasjonsøvelse - 48",
     "category": "station",
     "duration": 12,
@@ -1526,7 +1484,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-76",
-    "exerciseNumber": 76,
+    "exerciseNumber": 373,
     "name": "A3 Situasjonsøvelse - 49",
     "category": "station",
     "duration": 12,
@@ -1546,7 +1504,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-77",
-    "exerciseNumber": 77,
+    "exerciseNumber": 246,
     "name": "A3 Spill - 54",
     "category": "game",
     "duration": 12,
@@ -1566,7 +1524,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-78",
-    "exerciseNumber": 78,
+    "exerciseNumber": 374,
     "name": "Ada H - \"overtall i boksen\"",
     "category": "station",
     "duration": 12,
@@ -1586,7 +1544,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-79",
-    "exerciseNumber": 79,
+    "exerciseNumber": 375,
     "name": "Angrep undertall 1v2",
     "category": "station",
     "duration": 12,
@@ -1608,7 +1566,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-80",
-    "exerciseNumber": 80,
+    "exerciseNumber": 377,
     "name": "Arsenal - Flest skudd på mål",
     "category": "station",
     "duration": 12,
@@ -1628,7 +1586,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-81",
-    "exerciseNumber": 81,
+    "exerciseNumber": 378,
     "name": "Atletico Madrid - avslutninger mot to mål",
     "category": "station",
     "duration": 12,
@@ -1648,7 +1606,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-82",
-    "exerciseNumber": 82,
+    "exerciseNumber": 379,
     "name": "Avslutning fra avstand",
     "category": "station",
     "duration": 12,
@@ -1668,7 +1626,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-83",
-    "exerciseNumber": 83,
+    "exerciseNumber": 380,
     "name": "Avslutninger 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -1688,7 +1646,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-84",
-    "exerciseNumber": 84,
+    "exerciseNumber": 381,
     "name": "Avslutninger mot to mål",
     "category": "station",
     "duration": 12,
@@ -1708,7 +1666,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-85",
-    "exerciseNumber": 85,
+    "exerciseNumber": 382,
     "name": "Avslutningskonkurranse",
     "category": "station",
     "duration": 12,
@@ -1728,7 +1686,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-86",
-    "exerciseNumber": 86,
+    "exerciseNumber": 383,
     "name": "Avslutningstrening",
     "category": "station",
     "duration": 12,
@@ -1748,7 +1706,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-87",
-    "exerciseNumber": 87,
+    "exerciseNumber": 384,
     "name": "Barcelona 1v1 - skudd eller føring",
     "category": "station",
     "duration": 12,
@@ -1770,7 +1728,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-88",
-    "exerciseNumber": 88,
+    "exerciseNumber": 385,
     "name": "Bayer Leverkusen dribleøvelse",
     "category": "station",
     "duration": 12,
@@ -1790,7 +1748,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-89",
-    "exerciseNumber": 89,
+    "exerciseNumber": 386,
     "name": "Borgen",
     "category": "station",
     "duration": 12,
@@ -1810,7 +1768,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-90",
-    "exerciseNumber": 90,
+    "exerciseNumber": 388,
     "name": "Caro - innlegg og avslutning i boks",
     "category": "station",
     "duration": 12,
@@ -1830,7 +1788,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-91",
-    "exerciseNumber": 91,
+    "exerciseNumber": 389,
     "name": "Dribling gjennom boksen",
     "category": "station",
     "duration": 12,
@@ -1850,7 +1808,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-92",
-    "exerciseNumber": 92,
+    "exerciseNumber": 390,
     "name": "Dribling gjennom porter",
     "category": "station",
     "duration": 12,
@@ -1870,7 +1828,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-93",
-    "exerciseNumber": 93,
+    "exerciseNumber": 391,
     "name": "Eden Hazard - 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -1892,7 +1850,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-94",
-    "exerciseNumber": 94,
+    "exerciseNumber": 392,
     "name": "Eggs Transition Game - 4v4 til 4v3",
     "category": "station",
     "duration": 12,
@@ -1917,7 +1875,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-95",
-    "exerciseNumber": 95,
+    "exerciseNumber": 393,
     "name": "Everton 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -1937,7 +1895,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-96",
-    "exerciseNumber": 96,
+    "exerciseNumber": 394,
     "name": "F1-F2 Situasjonsøvelse - 57",
     "category": "station",
     "duration": 12,
@@ -1957,7 +1915,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-97",
-    "exerciseNumber": 97,
+    "exerciseNumber": 395,
     "name": "F1-F2 Situasjonsøvelse - 58",
     "category": "station",
     "duration": 12,
@@ -1977,7 +1935,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-98",
-    "exerciseNumber": 98,
+    "exerciseNumber": 396,
     "name": "F1-F2 Situasjonsøvelse - 59",
     "category": "station",
     "duration": 12,
@@ -1997,7 +1955,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-99",
-    "exerciseNumber": 99,
+    "exerciseNumber": 397,
     "name": "F1-F2 Situasjonsøvelse - 60",
     "category": "station",
     "duration": 12,
@@ -2017,7 +1975,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-100",
-    "exerciseNumber": 100,
+    "exerciseNumber": 126,
     "name": "F1-F2 Situasjonsøvelse - 61",
     "category": "station",
     "duration": 12,
@@ -2037,7 +1995,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-101",
-    "exerciseNumber": 101,
+    "exerciseNumber": 127,
     "name": "F1-F2 Situasjonsøvelse - 62",
     "category": "station",
     "duration": 12,
@@ -2057,7 +2015,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-102",
-    "exerciseNumber": 102,
+    "exerciseNumber": 128,
     "name": "F1-F2 Situasjonsøvelse - 63",
     "category": "station",
     "duration": 12,
@@ -2077,7 +2035,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-103",
-    "exerciseNumber": 103,
+    "exerciseNumber": 129,
     "name": "F1-F2 Situasjonsøvelse - 65",
     "category": "station",
     "duration": 12,
@@ -2097,7 +2055,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-104",
-    "exerciseNumber": 104,
+    "exerciseNumber": 130,
     "name": "F1-F2 Situasjonsøvelse - 66",
     "category": "station",
     "duration": 12,
@@ -2117,7 +2075,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-105",
-    "exerciseNumber": 105,
+    "exerciseNumber": 131,
     "name": "F1-F2 Situasjonsøvelse - 67",
     "category": "station",
     "duration": 12,
@@ -2137,7 +2095,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-106",
-    "exerciseNumber": 106,
+    "exerciseNumber": 132,
     "name": "F1-F2 Situasjonsøvelse - 69",
     "category": "station",
     "duration": 12,
@@ -2157,7 +2115,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-107",
-    "exerciseNumber": 107,
+    "exerciseNumber": 133,
     "name": "F1-F2 Situasjonsøvelse - 70",
     "category": "station",
     "duration": 12,
@@ -2177,7 +2135,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-108",
-    "exerciseNumber": 108,
+    "exerciseNumber": 134,
     "name": "F2-F3 Situasjonsøvelse - 72",
     "category": "station",
     "duration": 12,
@@ -2196,68 +2154,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-72"
   },
   {
-    "id": "tiim-109",
-    "exerciseNumber": 109,
-    "name": "F2-F3 Situasjonsøvelse - 73",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Forsvarende lag i K-4-2-1. Angripende lag i 2-3-1.To sidesoner med en forsvarsspiller og en angrepsspiller.16 metersone med Keeper, to forsvarsspillere og en angriper.Spillere i sonene skal kun oppholde seg i sin sone. Angripende spillere utenfor sonene kan gå inn i en av sonene med ball.Hvis forsvarende lag vinner ballen, skal de forsøke å score i en av småmålene.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-73"
-  },
-  {
-    "id": "tiim-110",
-    "exerciseNumber": 110,
-    "name": "F2-F3 Situasjonsøvelse - 74",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Midtsone hvor man spiller fire mot fire.To endesoner med keeper og mål.Man skal fra midtsone forsøke å komme seg kontrollert igjennom en av de to portene. Greier man dette kan man avslutte på mål.Forsvarende lag kan jakte med en spiller etter at angripende lag har ført igjennom en av portene.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-74"
-  },
-  {
-    "id": "tiim-111",
-    "exerciseNumber": 111,
-    "name": "F2-F3 Situasjonsøvelse - 75",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "3 vs 3 inne i firkanten. Trener kaster inn ball på duell eller spiller mer kontrollert til et av lagene.Det laget i midten som «eier ball» kan etter tre trekk spille opp egen spiss eller kantspiller i angresonen.Deretter en 3vs2+K situasjon.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-75"
-  },
-  {
     "id": "tiim-112",
-    "exerciseNumber": 112,
+    "exerciseNumber": 136,
     "name": "F2-F3 Situasjonsøvelse - 76",
     "category": "station",
     "duration": 12,
@@ -2276,48 +2174,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-76"
   },
   {
-    "id": "tiim-113",
-    "exerciseNumber": 113,
-    "name": "F2-F3 Spill - 83",
-    "category": "game",
-    "duration": 12,
-    "playersMin": 20,
-    "playersMax": 30,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Spill 10 mot 10.Rødt lag i K-3-4-2-formasjon.Blått lag i K-4-2-3-formasjon.Blått lag tar alle dødballer i form av kort målspark.Rødt lag tar alle dødballer i form av langt målspark.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f2-f3-spill-83"
-  },
-  {
-    "id": "tiim-114",
-    "exerciseNumber": 114,
-    "name": "F2-F3 Spill - 84",
-    "category": "game",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Spill fem mot fem opp til åtte mot åtte.Innleggssoner med to spillere i hver.Vanlig spill, hvor man i tillegg kan benytte «freda» spillere i innleggssonene. De har maks to touch.Når ballen er ute av spill, får man spillerne «på plass», før ny ball settes i gang.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f2-f3-spill-84"
-  },
-  {
     "id": "tiim-115",
-    "exerciseNumber": 115,
+    "exerciseNumber": 218,
     "name": "F2-F3 Spill - 85",
     "category": "game",
     "duration": 12,
@@ -2337,7 +2195,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-116",
-    "exerciseNumber": 116,
+    "exerciseNumber": 137,
     "name": "F3 Situasjonsøvelse - 77",
     "category": "station",
     "duration": 12,
@@ -2357,7 +2215,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-117",
-    "exerciseNumber": 117,
+    "exerciseNumber": 138,
     "name": "F3 Situasjonsøvelse - 78",
     "category": "station",
     "duration": 12,
@@ -2376,28 +2234,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-78"
   },
   {
-    "id": "tiim-118",
-    "exerciseNumber": 118,
-    "name": "F3 Situasjonsøvelse - 79",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Blått lag i K-4-1. Rødt lag i 4-1.Blått lag skal forsøke å score på en av de tre småmålene.Hvis rødt vinner ballen, skal de score på det store målet.Striplet linje kan ikke passeres før ball er spilt.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-79"
-  },
-  {
     "id": "tiim-119",
-    "exerciseNumber": 119,
+    "exerciseNumber": 139,
     "name": "F3 Situasjonsøvelse - 80",
     "category": "station",
     "duration": 12,
@@ -2416,68 +2254,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-80"
   },
   {
-    "id": "tiim-120",
-    "exerciseNumber": 120,
-    "name": "F3 Situasjonsøvelse - 81",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 16,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Trener eller spiller setter i gang fra ballmagasin.3 mot 3 eller lignende inne i boksen.Rødt lag skal score, blått skal forsvare seg primært, og spille kontrollert inn i mål hvis de vinner ballen.Fri spillere i sidekorridor som kan brukes til å slå innlegg.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-81"
-  },
-  {
-    "id": "tiim-121",
-    "exerciseNumber": 121,
-    "name": "F3 Spill - 86",
-    "category": "game",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Blått lag organisert i 2-2-2.Rødt lag organisert i 4-1-1.Her spiller lagdelene mot hverandre, men spillet er fritt.Alle dødballer tas som vanlig.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f3-spill-86"
-  },
-  {
-    "id": "tiim-122",
-    "exerciseNumber": 122,
-    "name": "F3 Spill - 87",
-    "category": "game",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Dobbel 16-meter.Tre til fire spillere i hver.Det skal avsluttes fra egen boks på motsatt mål - Distanseskudd.Forsvarende lag kan sende en spiller opp i «skyggepress».",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f3-spill-87"
-  },
-  {
     "id": "tiim-123",
-    "exerciseNumber": 123,
+    "exerciseNumber": 141,
     "name": "Ferdighetssirkel",
     "category": "station",
     "duration": 12,
@@ -2497,7 +2275,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-124",
-    "exerciseNumber": 124,
+    "exerciseNumber": 142,
     "name": "Firkant – pasning over to linjer",
     "category": "station",
     "duration": 12,
@@ -2517,7 +2295,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-125",
-    "exerciseNumber": 125,
+    "exerciseNumber": 219,
     "name": "Forsvarspill 3v3",
     "category": "game",
     "duration": 12,
@@ -2539,7 +2317,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-126",
-    "exerciseNumber": 126,
+    "exerciseNumber": 143,
     "name": "Four corners-kombinasjoner",
     "category": "station",
     "duration": 12,
@@ -2562,7 +2340,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-127",
-    "exerciseNumber": 127,
+    "exerciseNumber": 144,
     "name": "Frankrike-øvelsen",
     "category": "station",
     "duration": 12,
@@ -2582,7 +2360,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-128",
-    "exerciseNumber": 128,
+    "exerciseNumber": 145,
     "name": "Føring - passering",
     "category": "station",
     "duration": 12,
@@ -2608,7 +2386,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-129",
-    "exerciseNumber": 129,
+    "exerciseNumber": 146,
     "name": "Føring i ulikt tempo og retning i firkant",
     "category": "station",
     "duration": 12,
@@ -2627,28 +2405,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/foring-i-ulikt-tempo-og-retning-i-firkant"
   },
   {
-    "id": "tiim-130",
-    "exerciseNumber": 130,
-    "name": "Hindre avslutninger mot to mål",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasinTrener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/hindre-avslutninger-mot-to-mal"
-  },
-  {
     "id": "tiim-131",
-    "exerciseNumber": 131,
+    "exerciseNumber": 147,
     "name": "Hindre gjennombrudd i sone",
     "category": "station",
     "duration": 12,
@@ -2668,7 +2426,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-132",
-    "exerciseNumber": 132,
+    "exerciseNumber": 148,
     "name": "Hindre gjennombrudd mot dødlinja",
     "category": "station",
     "duration": 12,
@@ -2688,7 +2446,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-133",
-    "exerciseNumber": 133,
+    "exerciseNumber": 149,
     "name": "Innlegg - avslutning",
     "category": "station",
     "duration": 12,
@@ -2708,7 +2466,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-134",
-    "exerciseNumber": 134,
+    "exerciseNumber": 150,
     "name": "Italia – forsvarsdrill",
     "category": "station",
     "duration": 12,
@@ -2728,7 +2486,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-135",
-    "exerciseNumber": 135,
+    "exerciseNumber": 151,
     "name": "Katt og mus",
     "category": "station",
     "duration": 12,
@@ -2748,7 +2506,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-136",
-    "exerciseNumber": 136,
+    "exerciseNumber": 152,
     "name": "Kontroll på egen ball – jakte motstanderens",
     "category": "station",
     "duration": 12,
@@ -2768,7 +2526,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-137",
-    "exerciseNumber": 137,
+    "exerciseNumber": 153,
     "name": "Krabba",
     "category": "station",
     "duration": 12,
@@ -2788,7 +2546,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-138",
-    "exerciseNumber": 138,
+    "exerciseNumber": 154,
     "name": "Liverpool - Overtallsspill",
     "category": "station",
     "duration": 12,
@@ -2808,7 +2566,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-139",
-    "exerciseNumber": 139,
+    "exerciseNumber": 155,
     "name": "Man U - 3v3 mot mål begge veier",
     "category": "station",
     "duration": 12,
@@ -2828,7 +2586,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-140",
-    "exerciseNumber": 140,
+    "exerciseNumber": 157,
     "name": "Motangrep 4v4",
     "category": "station",
     "duration": 12,
@@ -2853,7 +2611,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-141",
-    "exerciseNumber": 141,
+    "exerciseNumber": 221,
     "name": "Napoli – spill gjennom sone",
     "category": "game",
     "duration": 12,
@@ -2873,7 +2631,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-142",
-    "exerciseNumber": 142,
+    "exerciseNumber": 158,
     "name": "Nappe hale",
     "category": "station",
     "duration": 12,
@@ -2893,7 +2651,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-143",
-    "exerciseNumber": 143,
+    "exerciseNumber": 159,
     "name": "Neymar – 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -2913,7 +2671,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-144",
-    "exerciseNumber": 144,
+    "exerciseNumber": 160,
     "name": "NY: \"Beskytt ballen\"",
     "category": "station",
     "duration": 12,
@@ -2933,7 +2691,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-145",
-    "exerciseNumber": 145,
+    "exerciseNumber": 161,
     "name": "NY: \"Braut´n\" - først til å score",
     "category": "station",
     "duration": 12,
@@ -2953,7 +2711,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-146",
-    "exerciseNumber": 146,
+    "exerciseNumber": 162,
     "name": "NY: 1 mot 1 i sirkel",
     "category": "station",
     "duration": 12,
@@ -2973,7 +2731,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-147",
-    "exerciseNumber": 147,
+    "exerciseNumber": 163,
     "name": "NY: 1 mot 1 med fire mål",
     "category": "station",
     "duration": 12,
@@ -2993,7 +2751,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-148",
-    "exerciseNumber": 148,
+    "exerciseNumber": 164,
     "name": "NY: 1v1 - overgang angrep/forsvar",
     "category": "station",
     "duration": 12,
@@ -3013,7 +2771,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-149",
-    "exerciseNumber": 149,
+    "exerciseNumber": 165,
     "name": "NY: 1v1 og 2v2 - Score mål-hindre mål",
     "category": "station",
     "duration": 12,
@@ -3033,7 +2791,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-150",
-    "exerciseNumber": 150,
+    "exerciseNumber": 167,
     "name": "2v2 - Komme til avslutning, score mål",
     "category": "station",
     "duration": 12,
@@ -3053,7 +2811,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-151",
-    "exerciseNumber": 151,
+    "exerciseNumber": 168,
     "name": "NY: 3v1 - firkant med småmål",
     "category": "station",
     "duration": 12,
@@ -3073,7 +2831,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-152",
-    "exerciseNumber": 152,
+    "exerciseNumber": 169,
     "name": "Først til hjørnet",
     "category": "station",
     "duration": 12,
@@ -3093,7 +2851,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-153",
-    "exerciseNumber": 153,
+    "exerciseNumber": 170,
     "name": "NY: Scoringsduell",
     "category": "station",
     "duration": 12,
@@ -3113,7 +2871,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-154",
-    "exerciseNumber": 154,
+    "exerciseNumber": 222,
     "name": "NY: Spille oss fremover i banen - 2v1, 2v2 og 2v3",
     "category": "game",
     "duration": 12,
@@ -3133,7 +2891,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-155",
-    "exerciseNumber": 155,
+    "exerciseNumber": 171,
     "name": "NY: Ødegård - Overblikk og overgang",
     "category": "station",
     "duration": 12,
@@ -3153,7 +2911,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-156",
-    "exerciseNumber": 156,
+    "exerciseNumber": 172,
     "name": "Overgangspill med overtall 4v2 og 4v3 med keeper",
     "category": "station",
     "duration": 12,
@@ -3175,7 +2933,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-157",
-    "exerciseNumber": 157,
+    "exerciseNumber": 173,
     "name": "Overtallsspill ved hjelp av en joker",
     "category": "station",
     "duration": 12,
@@ -3197,7 +2955,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-158",
-    "exerciseNumber": 158,
+    "exerciseNumber": 174,
     "name": "Pasningsøvelse - Vennlig hilsen",
     "category": "station",
     "duration": 12,
@@ -3217,8 +2975,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-159",
-    "exerciseNumber": 159,
-    "name": "Prepp‘n - 1",
+    "exerciseNumber": 175,
+    "name": "Prepp'n - 1",
     "category": "station",
     "duration": 12,
     "playersMin": 3,
@@ -3240,8 +2998,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-160",
-    "exerciseNumber": 160,
-    "name": "Prepp‘n - 2",
+    "exerciseNumber": 177,
+    "name": "Prepp'n - 2",
     "category": "station",
     "duration": 12,
     "playersMin": 3,
@@ -3262,8 +3020,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-161",
-    "exerciseNumber": 161,
-    "name": "Prepp‘n - 3",
+    "exerciseNumber": 178,
+    "name": "Prepp'n - 3",
     "category": "station",
     "duration": 12,
     "playersMin": 3,
@@ -3285,8 +3043,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-162",
-    "exerciseNumber": 162,
-    "name": "Prepp‘n - 4",
+    "exerciseNumber": 179,
+    "name": "Prepp'n - 4",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3308,9 +3066,9 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-163",
-    "exerciseNumber": 163,
-    "name": "Prepp‘n - 5",
-    "category": "station",
+    "exerciseNumber": 1,
+    "name": "Prepp'n - 5",
+    "category": "rondo",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -3331,8 +3089,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-164",
-    "exerciseNumber": 164,
-    "name": "Prepp‘n - 6",
+    "exerciseNumber": 180,
+    "name": "Prepp'n - 6",
     "category": "station",
     "duration": 12,
     "playersMin": 2,
@@ -3353,8 +3111,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-165",
-    "exerciseNumber": 165,
-    "name": "Prepp‘n - 7",
+    "exerciseNumber": 181,
+    "name": "Prepp'n - 7",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3375,8 +3133,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-166",
-    "exerciseNumber": 166,
-    "name": "Prepp‘n - 8",
+    "exerciseNumber": 182,
+    "name": "Prepp'n - 8",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3397,8 +3155,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-167",
-    "exerciseNumber": 167,
-    "name": "Prepp‘n - 9",
+    "exerciseNumber": 183,
+    "name": "Prepp'n - 9",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3419,8 +3177,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-168",
-    "exerciseNumber": 168,
-    "name": "Prepp‘n - 10",
+    "exerciseNumber": 184,
+    "name": "Prepp'n - 10",
     "category": "station",
     "duration": 12,
     "playersMin": 5,
@@ -3442,8 +3200,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-169",
-    "exerciseNumber": 169,
-    "name": "Prepp‘n - 11",
+    "exerciseNumber": 185,
+    "name": "Prepp'n - 11",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3464,8 +3222,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-170",
-    "exerciseNumber": 170,
-    "name": "Prepp‘n - 12",
+    "exerciseNumber": 187,
+    "name": "Prepp'n - 12",
     "category": "station",
     "duration": 12,
     "playersMin": 5,
@@ -3489,8 +3247,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-171",
-    "exerciseNumber": 171,
-    "name": "Prepp‘n - 13",
+    "exerciseNumber": 188,
+    "name": "Prepp'n - 13",
     "category": "station",
     "duration": 12,
     "playersMin": 5,
@@ -3513,9 +3271,9 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-172",
-    "exerciseNumber": 172,
-    "name": "Prepp‘n - 14",
-    "category": "station",
+    "exerciseNumber": 2,
+    "name": "Prepp'n - 14",
+    "category": "rondo",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -3536,8 +3294,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-173",
-    "exerciseNumber": 173,
-    "name": "Prepp‘n - 15",
+    "exerciseNumber": 189,
+    "name": "Prepp'n - 15",
     "category": "station",
     "duration": 12,
     "playersMin": 2,
@@ -3558,8 +3316,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-174",
-    "exerciseNumber": 174,
-    "name": "Prepp‘n - 16",
+    "exerciseNumber": 190,
+    "name": "Prepp'n - 16",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3580,8 +3338,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-175",
-    "exerciseNumber": 175,
-    "name": "Prepp‘n - 17",
+    "exerciseNumber": 191,
+    "name": "Prepp'n - 17",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3602,8 +3360,8 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-176",
-    "exerciseNumber": 176,
-    "name": "Prepp‘n - 18",
+    "exerciseNumber": 192,
+    "name": "Prepp'n - 18",
     "category": "station",
     "duration": 12,
     "playersMin": 6,
@@ -3624,7 +3382,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-177",
-    "exerciseNumber": 177,
+    "exerciseNumber": 193,
     "name": "Presse – dekke rom",
     "category": "station",
     "duration": 12,
@@ -3644,7 +3402,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-178",
-    "exerciseNumber": 178,
+    "exerciseNumber": 194,
     "name": "Racerbilen",
     "category": "station",
     "duration": 12,
@@ -3664,7 +3422,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-179",
-    "exerciseNumber": 179,
+    "exerciseNumber": 195,
     "name": "Rappeleiken",
     "category": "station",
     "duration": 12,
@@ -3684,7 +3442,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-180",
-    "exerciseNumber": 180,
+    "exerciseNumber": 196,
     "name": "Robin Hood",
     "category": "station",
     "duration": 12,
@@ -3704,7 +3462,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-181",
-    "exerciseNumber": 181,
+    "exerciseNumber": 224,
     "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, lav funksjonalitet",
     "category": "game",
     "duration": 12,
@@ -3729,7 +3487,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-182",
-    "exerciseNumber": 182,
+    "exerciseNumber": 225,
     "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, nøkkelsituasjon",
     "category": "game",
     "duration": 12,
@@ -3749,7 +3507,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-183",
-    "exerciseNumber": 183,
+    "exerciseNumber": 226,
     "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, situasjonsøvelse",
     "category": "game",
     "duration": 12,
@@ -3774,7 +3532,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-184",
-    "exerciseNumber": 184,
+    "exerciseNumber": 227,
     "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, spill",
     "category": "game",
     "duration": 12,
@@ -3799,7 +3557,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-185",
-    "exerciseNumber": 185,
+    "exerciseNumber": 197,
     "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - lav kompleksitet",
     "category": "station",
     "duration": 12,
@@ -3825,7 +3583,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-186",
-    "exerciseNumber": 186,
+    "exerciseNumber": 198,
     "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - nøkkelsituasjon",
     "category": "station",
     "duration": 12,
@@ -3851,7 +3609,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-187",
-    "exerciseNumber": 187,
+    "exerciseNumber": 199,
     "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - situasjonsøvelse",
     "category": "station",
     "duration": 12,
@@ -3877,7 +3635,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-188",
-    "exerciseNumber": 188,
+    "exerciseNumber": 228,
     "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - spill",
     "category": "game",
     "duration": 12,
@@ -3903,7 +3661,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-189",
-    "exerciseNumber": 189,
+    "exerciseNumber": 200,
     "name": "Rømmeleiken",
     "category": "station",
     "duration": 12,
@@ -3923,7 +3681,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-190",
-    "exerciseNumber": 190,
+    "exerciseNumber": 202,
     "name": "Score mål med overtall, 3v2 + keeper",
     "category": "station",
     "duration": 12,
@@ -3945,7 +3703,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-191",
-    "exerciseNumber": 191,
+    "exerciseNumber": 203,
     "name": "Skudd fra distanse",
     "category": "station",
     "duration": 12,
@@ -3965,7 +3723,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-192",
-    "exerciseNumber": 192,
+    "exerciseNumber": 229,
     "name": "Sonespill 6v6",
     "category": "game",
     "duration": 12,
@@ -3987,7 +3745,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-193",
-    "exerciseNumber": 193,
+    "exerciseNumber": 204,
     "name": "Southampton driblesone",
     "category": "station",
     "duration": 12,
@@ -4007,7 +3765,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-194",
-    "exerciseNumber": 194,
+    "exerciseNumber": 205,
     "name": "Stiv heks",
     "category": "station",
     "duration": 12,
@@ -4018,7 +3776,7 @@ export const tiimExercises: Exercise[] = [
       "kjegler",
       "baller"
     ],
-    "description": "Alle spillerne har en ball hver og fører rundt i et avgrenset område. Størrelse i forhold til antall. Start med eksempelvis to spillere som har’n (disse har ikke ball).Blir du tatt blir du stiv som ei heks og blir befridd ved at noen slår en pasning mellom beina dine og tar den igjen på andre siden. Da fortsetter man å føre ballen rundt.",
+    "description": "Alle spillerne har en ball hver og fører rundt i et avgrenset område. Størrelse i forhold til antall. Start med eksempelvis to spillere som har'n (disse har ikke ball).Blir du tatt blir du stiv som ei heks og blir befridd ved at noen slår en pasning mellom beina dine og tar den igjen på andre siden. Da fortsetter man å føre ballen rundt.",
     "coachingPoints": [],
     "variations": [],
     "scalable": false,
@@ -4027,7 +3785,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-195",
-    "exerciseNumber": 195,
+    "exerciseNumber": 206,
     "name": "Telenor Xtra - «Nord-Sør-Øst-Vest»",
     "category": "station",
     "duration": 12,
@@ -4050,7 +3808,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-196",
-    "exerciseNumber": 196,
+    "exerciseNumber": 207,
     "name": "Telenor Xtra - 1v1 fra siden",
     "category": "station",
     "duration": 12,
@@ -4071,30 +3829,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-fra-siden"
   },
   {
-    "id": "tiim-197",
-    "exerciseNumber": 197,
-    "name": "Telenor Xtra - 1v1 fra siden (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 2,
-    "playersMax": 8,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Øvelsen fungerer med 6-12 spillere, optimalt 8-10 spillere.Trener kaster ut en ball og 2-6 stk løper ut for å vinne ball (trener bestemmer antall, fast eller fra situasjon til situasjon). Spillerne scorer på det målet som er lengst unna der de startet fra.",
-    "coachingPoints": [
-      "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, scoreSpille sammen, i angrep og forsvar"
-    ],
-    "variations": [],
-    "scalable": true,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-fra-siden-m-veiledning"
-  },
-  {
     "id": "tiim-198",
-    "exerciseNumber": 198,
+    "exerciseNumber": 208,
     "name": "Telenor Xtra - 1v1, score på linja de kommer fra",
     "category": "station",
     "duration": 12,
@@ -4115,30 +3851,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-score-pa-linja-de-kommer-fra"
   },
   {
-    "id": "tiim-199",
-    "exerciseNumber": 199,
-    "name": "Telenor Xtra - 1v1, score på linja de kommer fra (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 2,
-    "playersMax": 8,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Øvelsen fungerer med 6-12 spillere, optimalt 8-10 spillere.Trener kaster ut en ball og 2 stk løper ut for å vinne ball. Den som har ball scorer på det målet de vil på linjen de kommer fra.Sett i gang baller fortløpende, det går fint med både 2 og 3 par samtidig ute på banen.",
-    "coachingPoints": [
-      "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, score"
-    ],
-    "variations": [],
-    "scalable": true,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-score-pa-linja-de-kommer-fra-m-veiledning"
-  },
-  {
     "id": "tiim-200",
-    "exerciseNumber": 200,
+    "exerciseNumber": 210,
     "name": "Telenor Xtra - 3 er 1 for mye",
     "category": "station",
     "duration": 12,
@@ -4159,30 +3873,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-3-er-1-for-mye"
   },
   {
-    "id": "tiim-201",
-    "exerciseNumber": 201,
-    "name": "Telenor Xtra - 3 er 1 for mye (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 14,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "- Antall spillere = 6-10 spillere pr bane- Antall kjegler = 4 pr bane- Antall baller = 1 pr spiller- Banestørrelse: Etter behov",
-    "coachingPoints": [
-      "Overblikkhvor er motstander og hvor er det ledig rom.Forsvar/angrepHurtighetUndermomenter:Korte steg for hurtig forflytningHele tiden se hvor motstander/ledig rom erAlltid i bevegelse"
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-3-er-1-for-mye-m-veiledning"
-  },
-  {
     "id": "tiim-202",
-    "exerciseNumber": 202,
+    "exerciseNumber": 211,
     "name": "Telenor Xtra - 5v3 overtallsspill",
     "category": "station",
     "duration": 12,
@@ -4205,32 +3897,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-5v3-overtallsspill"
   },
   {
-    "id": "tiim-203",
-    "exerciseNumber": 203,
-    "name": "Telenor Xtra - 5v3 overtallsspill (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 8,
-    "playersMax": 20,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "5 angripere mot 3 forsvarere.Banestørrelse: B12xL15 meter.Antall spillere: 8 per bane.Utstyr: 4 kjegler, 1-2 baller per bane.5 angripere skal forsøke å holde ballen i laget og spille seg fra den ene kortsiden over til den andre - uten at 3 forsvarere klarer å ta den. Da får angripende lag 1 poeng.Vinner forsvarende lag ballen, skal de forsøke å føre ballen over en av kortsidene. Klarer de det får de 1 poeng.Øvelsen utføres med fri touch - men man kan også kjøre den med 2 touch og 1 touch.1-3 min omganger – bytte av forsvarere mellom hver omgang.",
-    "coachingPoints": [
-      "For angrepsspillerne:Sikre at man alltid er i posisjon til å motta ballen.Posisjonere seg slik at hele banen er synlig.Spillere og ball skal være i bevegelse hele tiden.Når man mister ballen",
-      "gjenvinn ved å ligge trangt rundt ballen før forsvarer rekker å spille ballen til sitt lag",
-      "og bruke hele firkanten når man har ballen.Spill ballen med mening (i rom eller på rett fot).Alltid spør etter ballen når man er riktig posisjonert.Coache på pasningskvaliteten (hard, langs bakken, sikte og treffe).Bevegelse av spillere og ball til enhver tid.Gjenvinning av ball ved balltap.Pasningskvalitet: hard, langs bakken, presist.For forsvarsspillerne:Ha et sterkt press på ballfører hele tiden slik at de mister ballen.Alltid ha kontroll på begge motstanderne.Isoler ballfører mot en side.Bakerste spiller dirigerer spilleren i press.Press og isolering fra forsvarerne."
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-5v3-overtallsspill-m-veiledning"
-  },
-  {
     "id": "tiim-204",
-    "exerciseNumber": 204,
+    "exerciseNumber": 212,
     "name": "Telenor Xtra - 6v4 overtallsspill",
     "category": "station",
     "duration": 12,
@@ -4253,7 +3921,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-205",
-    "exerciseNumber": 205,
+    "exerciseNumber": 213,
     "name": "Telenor Xtra - 8v4 overtallsspill",
     "category": "station",
     "duration": 12,
@@ -4276,7 +3944,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-206",
-    "exerciseNumber": 206,
+    "exerciseNumber": 214,
     "name": "Telenor Xtra - Ajax sirkel",
     "category": "station",
     "duration": 12,
@@ -4300,7 +3968,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-207",
-    "exerciseNumber": 207,
+    "exerciseNumber": 231,
     "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+4v3 og K+4v4 (5v5)",
     "category": "game",
     "duration": 12,
@@ -4321,30 +3989,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-bearbeiding-spille-oss-fremover-k-4v3-og-k-4v4"
   },
   {
-    "id": "tiim-208",
-    "exerciseNumber": 208,
-    "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+4v3 og K+4v4 (5v5) (m/veiledning)",
-    "category": "game",
-    "duration": 12,
-    "playersMin": 7,
-    "playersMax": 18,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Spillform:Keeper starter med ballen og skal sammen med fire utespillere spille seg ut mot henholdsvis tre eller fire motspillere for å score i de små målene.Hvis motstander vinner ballen, forsøker de å score på keeper og forsvarere.Hvis forsvarerne vinner ballen tilbake, stoppes øvelsen og startes på nytt fra keeper.Formasjoner:Offensiv formasjon: 2-1-1Defensiv formasjon: 1-2-1 (K+4vs3) / 2-1 (K+4vs4)Utstyr:Antall spillere: 8-9 spillere per baneAntall kjegler: 4 per baneAntall baller: Så mange som muligAntall mål: 1 stort mål og 2-3 små målBanestørrelse:U9-U10: 20x25mU11-U12: 25x30m",
-    "coachingPoints": [
-      "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Angripere:Spre laget for bredde og dybde i angrep.Spilleren i midten (3) er nøkkelspilleren som styrer spillet.Se opp før ballmottak og spill i den retningen man ser.Utfordre ledig rom med ball – enten ved å drible eller spille fremover.Alltid være forberedt på å miste ballen og omstille til forsvar.Forsvarere:Ligge smalt og kompakt – diriger hverandre.Presse ballfører raskt og aggressivt.Sikre hverandre defensivt på grunn av undertallet.Isolere angriperen ut mot sidene.Være bevisst på hvordan laget kan komme i angrep ved gjenvinning."
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-bearbeiding-spille-oss-fremover-k-4v3-og-k-4v4-5v5-m-veiledning"
-  },
-  {
     "id": "tiim-209",
-    "exerciseNumber": 209,
+    "exerciseNumber": 232,
     "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+6v5 og K+6v6 (7v7)",
     "category": "game",
     "duration": 12,
@@ -4366,7 +4012,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-210",
-    "exerciseNumber": 210,
+    "exerciseNumber": 216,
     "name": "Telenor Xtra - Dosisten",
     "category": "station",
     "duration": 12,
@@ -4388,7 +4034,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-211",
-    "exerciseNumber": 211,
+    "exerciseNumber": 217,
     "name": "Telenor Xtra - Gladiator",
     "category": "station",
     "duration": 12,
@@ -4410,7 +4056,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-212",
-    "exerciseNumber": 212,
+    "exerciseNumber": 218,
     "name": "Telenor Xtra - Klubb og land, ball på fot på linja",
     "category": "station",
     "duration": 12,
@@ -4432,7 +4078,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-213",
-    "exerciseNumber": 213,
+    "exerciseNumber": 219,
     "name": "Telenor Xtra - Klubb og land, sikte på mål",
     "category": "station",
     "duration": 12,
@@ -4458,7 +4104,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-214",
-    "exerciseNumber": 214,
+    "exerciseNumber": 220,
     "name": "Telenor Xtra - Pyramide, 1v0 til 3v3",
     "category": "station",
     "duration": 12,
@@ -4479,30 +4125,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v0-til-3v3"
   },
   {
-    "id": "tiim-215",
-    "exerciseNumber": 215,
-    "name": "Telenor Xtra - Pyramide, 1v0 til 3v3 (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 2,
-    "playersMax": 6,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Ballstart annenhver side.1 spiller med ball, må skyte før midtstreken (1v0)1 spiller mot den spilleren som hadde ball i forrige aksjon (1v1)2 spillere mot den spilleren som startet med ball i forrige aksjon (2v1)2 spillere mot de som startet med ball i forrige aksjon (2v2)3 spillere mot de som startet med ball i forrige aksjon (3v2)3 spillere mot de som startet med ball i forrige aksjon (3v3)",
-    "coachingPoints": [
-      "FøreDribleAvslutteSpille sammen medVinne ballOmstilling"
-    ],
-    "variations": [],
-    "scalable": true,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-pyramide-1v0-til-3v3-m-veiledning"
-  },
-  {
     "id": "tiim-216",
-    "exerciseNumber": 216,
+    "exerciseNumber": 221,
     "name": "Telenor Xtra - Siste 1/3-del, 4v3+k/4v4+k (score mål)",
     "category": "station",
     "duration": 12,
@@ -4523,30 +4147,8 @@ export const tiimExercises: Exercise[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-4v3-k-4v4-k-score-mal"
   },
   {
-    "id": "tiim-217",
-    "exerciseNumber": 217,
-    "name": "Telenor Xtra - Siste 1/3-del, 4v3+k/4v4+k (score mål) (m/veiledning)",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 7,
-    "playersMax": 18,
-    "theme": "teknikk",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Spillform:Sentral får pasning fra trener og starter med ballen - og skal sammen med Angrepsspillerne spille seg forbi og gjennom et lavtliggende forsvar for å score mål.Hvis forsvarerne vinner ballen, forsøker de å score på de små målene.Hvis angriperne vinner ballen tilbake, stoppes øvelsen og startes på nytt fra trener og sentral midtbane.Formasjoner:Angrep: K-1-2-1Forsvar: K-2-1-1 (4v4+K) / 2-1 (4v3+K)Utstyr:Antall spillere: 10 spillere per bane (4 angripere vs Keeper + 3-4 forsvarere)Antall kjegler: 4 per baneAntall baller: Så mange som muligAntall mål: 1 stort mål og 2-3 små målBanestørrelse:U8-9: 15x18 meterU10-11: 20x25 meterU12-13: 25x30 meter",
-    "coachingPoints": [
-      "Angrep:Utfordre motstandere og komme forbi dem.Utnytte bredde og dybde i angrepet.Forsvar:Vinne ballen gjennom aggressivt press.Sikre og støtte hverandre i undertallssituasjoner.Overgangsspill:Rask overgang fra forsvar til angrep, inkludert kontringsmuligheter.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre dere for å skape bredde og dybde.Midtbanespilleren (10ér) styrer spillet.Kantspillere (7 og 11) skal alltid utfordre mot mål først.Spill den veien du ser – slå eller gå i ledig rom.Vær forberedt på å miste ballen og gå direkte i forsvar.Forsvarere:Hold en smal formasjon – diriger hverandre.Beskytt målet ved innlegg og skudd.Høyt press på ballfører, isoler angripere til sidene.Vær klar for raske overganger til angrep."
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-4v3-k-4v4-k-score-mal-m-veiledning"
-  },
-  {
     "id": "tiim-218",
-    "exerciseNumber": 218,
+    "exerciseNumber": 222,
     "name": "Telenor Xtra - Siste 1/3-del, 4v4+k (hindre mål)",
     "category": "station",
     "duration": 12,
@@ -4569,7 +4171,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-219",
-    "exerciseNumber": 219,
+    "exerciseNumber": 223,
     "name": "Telenor Xtra - Siste 1/3-del, 6v5+k/6v6+k (score mål)",
     "category": "station",
     "duration": 12,
@@ -4591,7 +4193,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-220",
-    "exerciseNumber": 220,
+    "exerciseNumber": 224,
     "name": "Telenor Xtra - Siste 1/3-del, 6v6+k (hindre mål)",
     "category": "station",
     "duration": 12,
@@ -4614,7 +4216,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-221",
-    "exerciseNumber": 221,
+    "exerciseNumber": 225,
     "name": "Telenor Xtra - Utfordre når motstander er bak – 1v1 – 2v1 – 2v2",
     "category": "station",
     "duration": 12,
@@ -4636,7 +4238,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-222",
-    "exerciseNumber": 222,
+    "exerciseNumber": 226,
     "name": "Telenor Xtra - Utfordre når motstander er bak – 2v2 - 2v3 - 3v3",
     "category": "station",
     "duration": 12,
@@ -4658,7 +4260,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-223",
-    "exerciseNumber": 223,
+    "exerciseNumber": 227,
     "name": "Telenor Xtra - Utfordre når motstander er foran – 1v1 – 2v1 – 2v2",
     "category": "station",
     "duration": 12,
@@ -4680,7 +4282,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-224",
-    "exerciseNumber": 224,
+    "exerciseNumber": 228,
     "name": "Telenor Xtra - Utfordre når motstander er foran – 2v2 – 3v2 – 3v3",
     "category": "station",
     "duration": 12,
@@ -4704,7 +4306,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-225",
-    "exerciseNumber": 225,
+    "exerciseNumber": 229,
     "name": "Telenor Xtra - Utfordre når motstander kommer inn fra siden – 1v1 – 2v1 – 2v2",
     "category": "station",
     "duration": 12,
@@ -4726,7 +4328,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-226",
-    "exerciseNumber": 226,
+    "exerciseNumber": 230,
     "name": "Telenor Xtra - Utfordre når motstander kommer inn fra siden – 2v2 – 3v2 – 3v3",
     "category": "station",
     "duration": 12,
@@ -4748,7 +4350,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-227",
-    "exerciseNumber": 227,
+    "exerciseNumber": 234,
     "name": "Telenor Xtra - Vinne ball - hindre motstander å spille fremover, 4v4+k",
     "category": "game",
     "duration": 12,
@@ -4770,7 +4372,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-228",
-    "exerciseNumber": 228,
+    "exerciseNumber": 235,
     "name": "Telenor Xtra - Vinne ball - hindre motstander å spille fremover, 6v6+k",
     "category": "game",
     "duration": 12,
@@ -4792,7 +4394,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-229",
-    "exerciseNumber": 229,
+    "exerciseNumber": 236,
     "name": "Tre lags overgangsspill",
     "category": "game",
     "duration": 12,
@@ -4812,7 +4414,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-230",
-    "exerciseNumber": 230,
+    "exerciseNumber": 232,
     "name": "Trekant – pasning over to linjer",
     "category": "station",
     "duration": 12,
@@ -4832,7 +4434,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-231",
-    "exerciseNumber": 231,
+    "exerciseNumber": 233,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 1, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -4852,7 +4454,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-232",
-    "exerciseNumber": 232,
+    "exerciseNumber": 234,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 1, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -4872,7 +4474,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-233",
-    "exerciseNumber": 233,
+    "exerciseNumber": 235,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -4892,7 +4494,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-234",
-    "exerciseNumber": 234,
+    "exerciseNumber": 236,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -4912,7 +4514,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-235",
-    "exerciseNumber": 235,
+    "exerciseNumber": 237,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -4932,7 +4534,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-236",
-    "exerciseNumber": 236,
+    "exerciseNumber": 238,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -4952,7 +4554,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-237",
-    "exerciseNumber": 237,
+    "exerciseNumber": 239,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -4972,7 +4574,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-238",
-    "exerciseNumber": 238,
+    "exerciseNumber": 240,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -4992,7 +4594,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-239",
-    "exerciseNumber": 239,
+    "exerciseNumber": 241,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 4, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5012,7 +4614,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-240",
-    "exerciseNumber": 240,
+    "exerciseNumber": 243,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 4, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5032,7 +4634,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-241",
-    "exerciseNumber": 241,
+    "exerciseNumber": 244,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5052,7 +4654,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-242",
-    "exerciseNumber": 242,
+    "exerciseNumber": 245,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5072,7 +4674,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-243",
-    "exerciseNumber": 243,
+    "exerciseNumber": 246,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5092,7 +4694,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-244",
-    "exerciseNumber": 244,
+    "exerciseNumber": 247,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 6, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5112,7 +4714,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-245",
-    "exerciseNumber": 245,
+    "exerciseNumber": 248,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 6, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5123,7 +4725,7 @@ export const tiimExercises: Exercise[] = [
       "kjegler",
       "baller"
     ],
-    "description": "Lag 2 mål i motsatt ende av trenerens kontor.Fortsett som forrige øvelse – men denne gangen må Rileys’ene score et mål etter at de har samlet en kjegle.Øvelsen bør vare ca.15 minutterBruk kodeordet når øvelsen er ferdig for å samle barna og gi ny beskjed!",
+    "description": "Lag 2 mål i motsatt ende av trenerens kontor.Fortsett som forrige øvelse – men denne gangen må Rileys'ene score et mål etter at de har samlet en kjegle.Øvelsen bør vare ca.15 minutterBruk kodeordet når øvelsen er ferdig for å samle barna og gi ny beskjed!",
     "coachingPoints": [],
     "variations": [],
     "scalable": false,
@@ -5132,7 +4734,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-246",
-    "exerciseNumber": 246,
+    "exerciseNumber": 249,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5152,7 +4754,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-247",
-    "exerciseNumber": 247,
+    "exerciseNumber": 250,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5172,7 +4774,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-248",
-    "exerciseNumber": 248,
+    "exerciseNumber": 251,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5192,7 +4794,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-249",
-    "exerciseNumber": 249,
+    "exerciseNumber": 252,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 8, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5212,7 +4814,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-250",
-    "exerciseNumber": 250,
+    "exerciseNumber": 254,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 8, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5232,7 +4834,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-251",
-    "exerciseNumber": 251,
+    "exerciseNumber": 255,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5252,7 +4854,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-252",
-    "exerciseNumber": 252,
+    "exerciseNumber": 256,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5272,7 +4874,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-253",
-    "exerciseNumber": 253,
+    "exerciseNumber": 257,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5292,7 +4894,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-254",
-    "exerciseNumber": 254,
+    "exerciseNumber": 258,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5312,7 +4914,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-255",
-    "exerciseNumber": 255,
+    "exerciseNumber": 259,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5332,7 +4934,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-256",
-    "exerciseNumber": 256,
+    "exerciseNumber": 260,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5352,7 +4954,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-257",
-    "exerciseNumber": 257,
+    "exerciseNumber": 261,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5372,7 +4974,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-258",
-    "exerciseNumber": 258,
+    "exerciseNumber": 262,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5392,7 +4994,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-259",
-    "exerciseNumber": 259,
+    "exerciseNumber": 263,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5412,7 +5014,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-260",
-    "exerciseNumber": 260,
+    "exerciseNumber": 265,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5432,7 +5034,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-261",
-    "exerciseNumber": 261,
+    "exerciseNumber": 266,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5452,7 +5054,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-262",
-    "exerciseNumber": 262,
+    "exerciseNumber": 267,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5472,7 +5074,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-263",
-    "exerciseNumber": 263,
+    "exerciseNumber": 268,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5492,7 +5094,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-264",
-    "exerciseNumber": 264,
+    "exerciseNumber": 269,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5512,7 +5114,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-265",
-    "exerciseNumber": 265,
+    "exerciseNumber": 270,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5532,7 +5134,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-266",
-    "exerciseNumber": 266,
+    "exerciseNumber": 271,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5552,7 +5154,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-267",
-    "exerciseNumber": 267,
+    "exerciseNumber": 272,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5572,7 +5174,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-268",
-    "exerciseNumber": 268,
+    "exerciseNumber": 273,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5592,7 +5194,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-269",
-    "exerciseNumber": 269,
+    "exerciseNumber": 274,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5612,7 +5214,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-270",
-    "exerciseNumber": 270,
+    "exerciseNumber": 276,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5632,7 +5234,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-271",
-    "exerciseNumber": 271,
+    "exerciseNumber": 277,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5652,7 +5254,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-272",
-    "exerciseNumber": 272,
+    "exerciseNumber": 278,
     "name": "UEFA PlayMakers – Encanto, kapittel 8, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5672,7 +5274,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-273",
-    "exerciseNumber": 273,
+    "exerciseNumber": 279,
     "name": "UEFA PlayMakers – Encanto, kapittel 8, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5692,7 +5294,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-274",
-    "exerciseNumber": 274,
+    "exerciseNumber": 280,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5712,7 +5314,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-275",
-    "exerciseNumber": 275,
+    "exerciseNumber": 281,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5732,7 +5334,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-276",
-    "exerciseNumber": 276,
+    "exerciseNumber": 282,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5752,7 +5354,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-277",
-    "exerciseNumber": 277,
+    "exerciseNumber": 283,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5772,7 +5374,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-278",
-    "exerciseNumber": 278,
+    "exerciseNumber": 284,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5792,7 +5394,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-279",
-    "exerciseNumber": 279,
+    "exerciseNumber": 285,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5812,7 +5414,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-280",
-    "exerciseNumber": 280,
+    "exerciseNumber": 287,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5832,7 +5434,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-281",
-    "exerciseNumber": 281,
+    "exerciseNumber": 288,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5852,7 +5454,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-282",
-    "exerciseNumber": 282,
+    "exerciseNumber": 289,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5872,7 +5474,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-283",
-    "exerciseNumber": 283,
+    "exerciseNumber": 290,
     "name": "UEFA PlayMakers – Frost  2, kapittel 4, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5892,7 +5494,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-284",
-    "exerciseNumber": 284,
+    "exerciseNumber": 291,
     "name": "UEFA PlayMakers – Frost  2, kapittel 4, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5912,7 +5514,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-285",
-    "exerciseNumber": 285,
+    "exerciseNumber": 292,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5932,7 +5534,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-286",
-    "exerciseNumber": 286,
+    "exerciseNumber": 293,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -5952,7 +5554,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-287",
-    "exerciseNumber": 287,
+    "exerciseNumber": 294,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -5972,7 +5574,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-288",
-    "exerciseNumber": 288,
+    "exerciseNumber": 295,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -5992,7 +5594,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-289",
-    "exerciseNumber": 289,
+    "exerciseNumber": 296,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6012,7 +5614,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-290",
-    "exerciseNumber": 290,
+    "exerciseNumber": 297,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6032,7 +5634,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-291",
-    "exerciseNumber": 291,
+    "exerciseNumber": 298,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6052,7 +5654,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-292",
-    "exerciseNumber": 292,
+    "exerciseNumber": 299,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6072,7 +5674,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-293",
-    "exerciseNumber": 293,
+    "exerciseNumber": 300,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6092,7 +5694,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-294",
-    "exerciseNumber": 294,
+    "exerciseNumber": 301,
     "name": "UEFA PlayMakers – Frost  2, kapittel 8, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6112,7 +5714,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-295",
-    "exerciseNumber": 295,
+    "exerciseNumber": 302,
     "name": "UEFA PlayMakers – Frost  2, kapittel 8, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6132,7 +5734,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-296",
-    "exerciseNumber": 296,
+    "exerciseNumber": 303,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6152,7 +5754,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-297",
-    "exerciseNumber": 297,
+    "exerciseNumber": 304,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6172,7 +5774,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-298",
-    "exerciseNumber": 298,
+    "exerciseNumber": 305,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6192,7 +5794,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-299",
-    "exerciseNumber": 299,
+    "exerciseNumber": 306,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 4",
     "category": "station",
     "duration": 12,
@@ -6212,7 +5814,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-300",
-    "exerciseNumber": 300,
+    "exerciseNumber": 309,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6232,7 +5834,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-301",
-    "exerciseNumber": 301,
+    "exerciseNumber": 310,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6252,7 +5854,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-302",
-    "exerciseNumber": 302,
+    "exerciseNumber": 311,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6272,7 +5874,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-303",
-    "exerciseNumber": 303,
+    "exerciseNumber": 312,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 4",
     "category": "station",
     "duration": 12,
@@ -6292,7 +5894,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-304",
-    "exerciseNumber": 304,
+    "exerciseNumber": 313,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6312,7 +5914,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-305",
-    "exerciseNumber": 305,
+    "exerciseNumber": 314,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6332,7 +5934,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-306",
-    "exerciseNumber": 306,
+    "exerciseNumber": 315,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6352,7 +5954,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-307",
-    "exerciseNumber": 307,
+    "exerciseNumber": 316,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 4",
     "category": "station",
     "duration": 12,
@@ -6372,7 +5974,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-308",
-    "exerciseNumber": 308,
+    "exerciseNumber": 317,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6392,7 +5994,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-309",
-    "exerciseNumber": 309,
+    "exerciseNumber": 318,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6412,7 +6014,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-310",
-    "exerciseNumber": 310,
+    "exerciseNumber": 320,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6432,7 +6034,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-311",
-    "exerciseNumber": 311,
+    "exerciseNumber": 321,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6452,7 +6054,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-312",
-    "exerciseNumber": 312,
+    "exerciseNumber": 322,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6472,7 +6074,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-313",
-    "exerciseNumber": 313,
+    "exerciseNumber": 323,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6492,7 +6094,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-314",
-    "exerciseNumber": 314,
+    "exerciseNumber": 324,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6512,7 +6114,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-315",
-    "exerciseNumber": 315,
+    "exerciseNumber": 325,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6532,7 +6134,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-316",
-    "exerciseNumber": 316,
+    "exerciseNumber": 326,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6552,7 +6154,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-317",
-    "exerciseNumber": 317,
+    "exerciseNumber": 327,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6572,7 +6174,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-318",
-    "exerciseNumber": 318,
+    "exerciseNumber": 328,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6592,7 +6194,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-319",
-    "exerciseNumber": 319,
+    "exerciseNumber": 329,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 4",
     "category": "station",
     "duration": 12,
@@ -6612,7 +6214,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-320",
-    "exerciseNumber": 320,
+    "exerciseNumber": 331,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 1",
     "category": "station",
     "duration": 12,
@@ -6632,7 +6234,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-321",
-    "exerciseNumber": 321,
+    "exerciseNumber": 332,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 2",
     "category": "station",
     "duration": 12,
@@ -6652,7 +6254,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-322",
-    "exerciseNumber": 322,
+    "exerciseNumber": 333,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 3",
     "category": "station",
     "duration": 12,
@@ -6672,7 +6274,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-323",
-    "exerciseNumber": 323,
+    "exerciseNumber": 334,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 4",
     "category": "station",
     "duration": 12,
@@ -6692,7 +6294,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-324",
-    "exerciseNumber": 324,
+    "exerciseNumber": 335,
     "name": "Valencia – 1 mot 1: hindre mål",
     "category": "station",
     "duration": 12,

@@ -1,7 +1,8 @@
 import { useExercises } from "@/hooks/useExercises";
 import { useSessionStore } from "@/store/sessionStore";
 import type { Exercise, ExerciseCategory } from "@/data/exercises";
-import { useMemo, useState } from "react";
+import { getExerciseCode } from "@/data/exercises";
+import { useMemo, useState, useEffect } from "react";
 
 const emptyExercise: Exercise = {
   id: "",
@@ -21,6 +22,8 @@ const emptyExercise: Exercise = {
 const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   "fixed-warmup": "Skadefri oppvarming",
   warmup: "Oppvarming",
+  aktivisering: "Aktivisering",
+  rondo: "Rondo",
   station: "Stasjoner",
   game: "Spill",
   cooldown: "Avslutning",
@@ -32,14 +35,38 @@ export const ExerciseManager = () => {
   const updateExercise = useSessionStore((state) => state.updateExercise);
 
   const [isOpen, setIsOpen] = useState(false);
-  const [search, setSearch] = useState("");
+  const searchQuery = useSessionStore((state) => state.searchQuery);
+  const setSearchQuery = useSessionStore((state) => state.setSearchQuery);
   const [editing, setEditing] = useState<Exercise | null>(null);
 
   const filtered = useMemo(() => {
-    return exercises.filter((exercise) =>
-      exercise.name.toLowerCase().includes(search.toLowerCase())
-    );
-  }, [exercises, search]);
+    if (!searchQuery.trim()) return exercises;
+    const needle = searchQuery.toLowerCase();
+    return exercises.filter((exercise) => {
+      // Søk i navn
+      if (exercise.name.toLowerCase().includes(needle)) return true;
+      // Søk i øvelseskode (f.eks. "S12", "K45", "R3")
+      const code = getExerciseCode(exercise).toLowerCase();
+      if (code.includes(needle)) return true;
+      return false;
+    });
+  }, [exercises, searchQuery]);
+
+  // DEBUG: Logg søkeresultater
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      console.log('[DEBUG] Søk:', searchQuery);
+      console.log('[DEBUG] Antall øvelser i bibliotek:', exercises.length);
+      console.log('[DEBUG] Antall treff:', filtered.length);
+      // Vis de første 5 treffene
+      filtered.slice(0, 5).forEach(e => {
+        console.log(`  - ${getExerciseCode(e)}: ${e.name}`);
+      });
+      // Sjekk om S45 finnes i biblioteket
+      const s45 = exercises.find(e => getExerciseCode(e) === 'S45');
+      console.log('[DEBUG] S45 i bibliotek:', s45 ? `${s45.name} (id: ${s45.id})` : 'IKKE FUNNET');
+    }
+  }, [searchQuery, exercises, filtered]);
 
   const handleEdit = (exercise: Exercise) => {
     setEditing(exercise);
@@ -106,8 +133,8 @@ export const ExerciseManager = () => {
               type="search"
               placeholder="Søk etter øvelse"
               className="flex-1 min-w-[150px] rounded-full border border-zinc-200 px-4 py-2 text-sm"
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
             />
             <button
               onClick={handleCreate}

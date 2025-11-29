@@ -105,7 +105,7 @@ export const dbuExercises: Exercise[] = [
   // === BALLBESITTELSESSPILL ===
   {
     id: "dbu-4v4-3-possession",
-    exerciseNumber: 4,
+    exerciseNumber: 472,
     name: "4v4+3 ballbesittelse",
     category: "station",
     duration: 15,
@@ -130,7 +130,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-4v4-4-possession",
-    exerciseNumber: 5,
+    exerciseNumber: 407,
     name: "4v4+4 ballbesittelse",
     category: "station",
     duration: 15,
@@ -155,7 +155,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-3v3-2-possession",
-    exerciseNumber: 6,
+    exerciseNumber: 411,
     name: "3v3+2 ballbesittelse",
     category: "station",
     duration: 12,
@@ -309,7 +309,7 @@ export const dbuExercises: Exercise[] = [
   // === CITY-SPILL OG GJENVINNSPRESSING ===
   {
     id: "dbu-city-spill",
-    exerciseNumber: 12,
+    exerciseNumber: 423,
     name: "City-spill (gegenpressing)",
     category: "station",
     duration: 15,
@@ -337,7 +337,7 @@ export const dbuExercises: Exercise[] = [
   // === VENDESPILL ===
   {
     id: "dbu-vendespill-6v2",
-    exerciseNumber: 13,
+    exerciseNumber: 425,
     name: "Vendespill 6v2",
     category: "station",
     duration: 15,
@@ -364,7 +364,7 @@ export const dbuExercises: Exercise[] = [
   // === LINJESPILL ===
   {
     id: "dbu-linjespill-4v2",
-    exerciseNumber: 14,
+    exerciseNumber: 427,
     name: "Linjespill 4v2",
     category: "station",
     duration: 12,
@@ -441,7 +441,7 @@ export const dbuExercises: Exercise[] = [
   // === AVSLUTNINGSØVELSER ===
   {
     id: "dbu-enkelt-y-avslutning",
-    exerciseNumber: 17,
+    exerciseNumber: 437,
     name: "Enkelt Y til avslutning",
     category: "station",
     duration: 15,
@@ -466,7 +466,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-lop-i-feltet",
-    exerciseNumber: 18,
+    exerciseNumber: 439,
     name: "Løp i feltet",
     category: "station",
     duration: 15,
@@ -491,7 +491,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-dype-lop-1",
-    exerciseNumber: 19,
+    exerciseNumber: 442,
     name: "Dype løp mot backrekke 1",
     category: "station",
     duration: 15,
@@ -568,7 +568,7 @@ export const dbuExercises: Exercise[] = [
   // === OVERGANGSSPILLØVELSER ===
   {
     id: "dbu-omstilling-de-vi-1",
-    exerciseNumber: 22,
+    exerciseNumber: 281,
     name: "Overgang de/vi (øvelse 1)",
     category: "game",
     duration: 18,
@@ -672,7 +672,7 @@ export const dbuExercises: Exercise[] = [
   // === 1V1 ØVELSER ===
   {
     id: "dbu-1v1-retvendt",
-    exerciseNumber: 26,
+    exerciseNumber: 451,
     name: "1v1 vendt mot mål",
     category: "station",
     duration: 10,
@@ -698,7 +698,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-1v1-rygvendt",
-    exerciseNumber: 27,
+    exerciseNumber: 455,
     name: "1v1 vendt fra mål",
     category: "station",
     duration: 10,
@@ -724,7 +724,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-1v1-sidevendt",
-    exerciseNumber: 28,
+    exerciseNumber: 460,
     name: "1v1 sidevendt",
     category: "station",
     duration: 10,
@@ -778,7 +778,7 @@ export const dbuExercises: Exercise[] = [
   // === FORSVARSSPILL ===
   {
     id: "dbu-6v8-forsvarsspill",
-    exerciseNumber: 30,
+    exerciseNumber: 293,
     name: "6+1v8 forsvarsspill",
     category: "game",
     duration: 20,
@@ -805,7 +805,7 @@ export const dbuExercises: Exercise[] = [
   // === OVERGANGSSPILL (fra Aldersrelateret Træning 2) ===
   {
     id: "dbu-genpres-oevelse",
-    exerciseNumber: 31,
+    exerciseNumber: 296,
     name: "Gjenvinnspressing 9v5",
     category: "game",
     duration: 15,
@@ -830,7 +830,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-klassisk-kontra",
-    exerciseNumber: 32,
+    exerciseNumber: 300,
     name: "Klassisk kontraangrep",
     category: "game",
     duration: 15,

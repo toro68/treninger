@@ -1,6 +1,7 @@
-import { useMemo } from "react";
 import { useSessionStore } from "@/store/sessionStore";
 import { allExercises, ExerciseSource } from "@/data/exercises";
+import { useMemo } from "react";
+import { SearchField } from "@/components/SearchField";
 
 export type ThemeFilter = string | "alle";
 export type SourceFilter = ExerciseSource | "egen" | null; // null = vis alle
@@ -80,7 +81,7 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     dotClass: "bg-teal-500"
   },
   worldclass: {
-    label: "World Class",
+    label: "50 Games",
     description: "50 Small-Sided Games",
     activeClass: "border-sky-500 bg-sky-50 text-sky-700",
     dotClass: "bg-sky-500"
@@ -168,6 +169,9 @@ export const Filters = ({
 
   return (
     <div className="space-y-3">
+      {/* Søk */}
+      <SearchField />
+
       {/* Kildefilter */}
       <div className="flex flex-wrap items-center gap-2">
         {availableSources.map(({ key, label, activeClass, dotClass, count }) => {

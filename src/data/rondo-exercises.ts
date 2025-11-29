@@ -34,7 +34,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-breaking-lines",
-    exerciseNumber: 2,
+    exerciseNumber: 201,
     name: "Breaking The Lines Rondo",
     category: "warmup",
     duration: 12,
@@ -59,7 +59,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-moving",
-    exerciseNumber: 3,
+    exerciseNumber: 202,
     name: "Moving Rondo",
     category: "warmup",
     duration: 12,
@@ -84,7 +84,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-two-team-color",
-    exerciseNumber: 4,
+    exerciseNumber: 473,
     name: "Two Team Color Coded Rondo",
     category: "station",
     duration: 12,
@@ -134,7 +134,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-line-passing",
-    exerciseNumber: 6,
+    exerciseNumber: 412,
     name: "Line Passing Rondo",
     category: "station",
     duration: 12,
@@ -159,7 +159,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-to-possession",
-    exerciseNumber: 7,
+    exerciseNumber: 415,
     name: "Rondo to Possession",
     category: "station",
     duration: 15,
@@ -184,7 +184,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-transitions",
-    exerciseNumber: 8,
+    exerciseNumber: 417,
     name: "Rondo Transitions",
     category: "station",
     duration: 15,
@@ -209,7 +209,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-sliding-player",
-    exerciseNumber: 9,
+    exerciseNumber: 420,
     name: "Sliding Player Rondo",
     category: "station",
     duration: 12,
@@ -236,7 +236,7 @@ export const rondoExercises: Exercise[] = [
   // === RONDO VARIASJONER ===
   {
     id: "rondo-follow-pass",
-    exerciseNumber: 10,
+    exerciseNumber: 203,
     name: "Follow Your Pass Rondo",
     category: "warmup",
     duration: 10,
@@ -261,7 +261,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-pushup",
-    exerciseNumber: 11,
+    exerciseNumber: 204,
     name: "Push-Up Rondo",
     category: "warmup",
     duration: 10,
@@ -336,7 +336,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-air",
-    exerciseNumber: 14,
+    exerciseNumber: 428,
     name: "Air Rondo",
     category: "station",
     duration: 10,
@@ -363,7 +363,7 @@ export const rondoExercises: Exercise[] = [
   // === AVANSERTE RONDO-ØVELSER ===
   {
     id: "rondo-9v4",
-    exerciseNumber: 15,
+    exerciseNumber: 432,
     name: "9v4 Rondo",
     category: "station",
     duration: 15,
@@ -388,7 +388,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-cognitive-ball-toss",
-    exerciseNumber: 16,
+    exerciseNumber: 435,
     name: "Cognitive Rondo: Ball Toss",
     category: "station",
     duration: 12,
@@ -413,7 +413,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-cognitive-no-same-color",
-    exerciseNumber: 17,
+    exerciseNumber: 438,
     name: "Cognitive Rondo: No Same Color",
     category: "station",
     duration: 12,
@@ -438,7 +438,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-10v2-one-touch",
-    exerciseNumber: 18,
+    exerciseNumber: 440,
     name: "10v2 One Touch",
     category: "station",
     duration: 12,
@@ -646,7 +646,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "hyballa-tiqui-7",
-    exerciseNumber: 26,
+    exerciseNumber: 452,
     name: "Tiqui-Taca Rondo: Kommunikasjon",
     category: "station",
     duration: 12,
@@ -672,7 +672,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "hyballa-tiqui-8",
-    exerciseNumber: 27,
+    exerciseNumber: 456,
     name: "Tiqui-Taca Rondo: Overgang",
     category: "station",
     duration: 15,
@@ -698,7 +698,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "hyballa-tiqui-9",
-    exerciseNumber: 28,
+    exerciseNumber: 461,
     name: "Tiqui-Taca Rondo: Kondisjon",
     category: "station",
     duration: 15,
@@ -724,7 +724,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "hyballa-tiqui-10",
-    exerciseNumber: 29,
+    exerciseNumber: 290,
     name: "Tiqui-Taca Rondo: Spilleder",
     category: "game",
     duration: 15,

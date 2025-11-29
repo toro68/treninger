@@ -19,6 +19,7 @@ export const ExerciseList = ({ category, title, theme, sourceFilter, filterByPla
   const stationCount = useSessionStore((state) => state.stationCount);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
   const favoriteIds = useSessionStore((state) => state.favoriteIds);
+  const searchQuery = useSessionStore((state) => state.searchQuery);
   // Pass stationCount for spillere per stasjon-beregning
   const exercises = filterExercises(
     exerciseLibrary, 
@@ -28,12 +29,15 @@ export const ExerciseList = ({ category, title, theme, sourceFilter, filterByPla
     favoriteIds, 
     stationCount,
     sourceFilter,
-    filterByPlayerCount
+    filterByPlayerCount,
+    searchQuery
   );
   const [open, setOpen] = useState(true);
   const sectionAccent = useMemo(() => {
     const styles: Record<NonNullable<ExerciseListProps["category"]> | "default", string> = {
       warmup: "border-amber-200/70 bg-gradient-to-r from-amber-50 to-orange-50 text-amber-950 shadow-sm",
+      aktivisering: "border-orange-200/70 bg-gradient-to-r from-orange-50 to-amber-50 text-orange-900 shadow-sm",
+      rondo: "border-purple-200/70 bg-gradient-to-r from-purple-50 to-fuchsia-50 text-purple-900 shadow-sm",
       station: "border-sky-200/70 bg-gradient-to-r from-sky-50 to-cyan-50 text-sky-900 shadow-sm",
       game: "border-emerald-200/70 bg-gradient-to-r from-emerald-50 to-lime-50 text-emerald-900 shadow-sm",
       cooldown: "border-rose-200/70 bg-gradient-to-r from-rose-50 to-pink-50 text-rose-900 shadow-sm",

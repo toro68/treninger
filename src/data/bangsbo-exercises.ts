@@ -7,7 +7,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 1: INDIVIDUELT FORSVARSSPILL ===
   {
     id: "bangsbo-ind-1",
-    exerciseNumber: 1,
+    exerciseNumber: 399,
     name: "Passiv Pressing på Pasning",
     category: "station",
     duration: 10,
@@ -31,7 +31,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-ind-2",
-    exerciseNumber: 2,
+    exerciseNumber: 402,
     name: "Pressing med Retningsbestemmelse",
     category: "station",
     duration: 12,
@@ -55,7 +55,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-ind-3",
-    exerciseNumber: 3,
+    exerciseNumber: 405,
     name: "Individuell Takling",
     category: "station",
     duration: 12,
@@ -81,7 +81,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 2: SIKRING OG STØTTE ===
   {
     id: "bangsbo-sikring-1",
-    exerciseNumber: 4,
+    exerciseNumber: 475,
     name: "Sikring i 2v1",
     category: "station",
     duration: 12,
@@ -105,7 +105,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-sikring-2",
-    exerciseNumber: 5,
+    exerciseNumber: 409,
     name: "Sikringskjede i 3v2",
     category: "station",
     duration: 15,
@@ -129,7 +129,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-sikring-3",
-    exerciseNumber: 6,
+    exerciseNumber: 413,
     name: "Støtte ved Ballvinning",
     category: "station",
     duration: 12,
@@ -155,7 +155,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 3: SONEFORSVAR OG MANNDEKNING ===
   {
     id: "bangsbo-sone-1",
-    exerciseNumber: 7,
+    exerciseNumber: 249,
     name: "4-manns Soneforsvarslinje",
     category: "game",
     duration: 20,
@@ -179,7 +179,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-sone-2",
-    exerciseNumber: 8,
+    exerciseNumber: 251,
     name: "Soneforsvar i Firkant",
     category: "game",
     duration: 20,
@@ -227,7 +227,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-kombinert-1",
-    exerciseNumber: 10,
+    exerciseNumber: 255,
     name: "Kombinert Sone- og Manndekning",
     category: "game",
     duration: 20,
@@ -253,7 +253,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 4: PRESSING ===
   {
     id: "bangsbo-pressing-1",
-    exerciseNumber: 11,
+    exerciseNumber: 258,
     name: "Høyt Press i 3v3",
     category: "game",
     duration: 15,
@@ -277,7 +277,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-pressing-2",
-    exerciseNumber: 12,
+    exerciseNumber: 260,
     name: "Mellomromspressing",
     category: "game",
     duration: 18,
@@ -301,7 +301,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-pressing-3",
-    exerciseNumber: 13,
+    exerciseNumber: 262,
     name: "Lavt Forsvar med Kontringsutløsning",
     category: "game",
     duration: 20,
@@ -327,7 +327,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 4.2: OFFSIDEFELLEN ===
   {
     id: "bangsbo-offside-1",
-    exerciseNumber: 14,
+    exerciseNumber: 430,
     name: "Koordinert Offside-linje",
     category: "station",
     duration: 15,
@@ -351,7 +351,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-offside-2",
-    exerciseNumber: 15,
+    exerciseNumber: 433,
     name: "Offsidelinje med Dybdeforsvarer",
     category: "station",
     duration: 15,
@@ -377,7 +377,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 5: FORSVARSSPILL I ULIKE SONER ===
   {
     id: "bangsbo-formsone-1",
-    exerciseNumber: 16,
+    exerciseNumber: 266,
     name: "Forsvar i Farlighetsgrad 1-sone",
     category: "game",
     duration: 18,
@@ -401,7 +401,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-formsone-2",
-    exerciseNumber: 17,
+    exerciseNumber: 269,
     name: "Forsvar i Farlighetsgrad 3-sone",
     category: "game",
     duration: 20,
@@ -427,7 +427,7 @@ export const bangsboExercises: Exercise[] = [
   // === SPILLØVELSER (STØRRE FORMAT) ===
   {
     id: "bangsbo-spill-1",
-    exerciseNumber: 18,
+    exerciseNumber: 272,
     name: "6v6 Soneforsvarsspill",
     category: "game",
     duration: 25,
@@ -451,7 +451,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spill-2",
-    exerciseNumber: 19,
+    exerciseNumber: 274,
     name: "8v8 med Pressingssoner",
     category: "game",
     duration: 30,
@@ -475,7 +475,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spill-3",
-    exerciseNumber: 20,
+    exerciseNumber: 276,
     name: "Catenaccio-øvelse: 5-4-1 Lavblokk",
     category: "game",
     duration: 25,
@@ -499,7 +499,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spill-4",
-    exerciseNumber: 21,
+    exerciseNumber: 278,
     name: "Forsvar mot Innlegg",
     category: "game",
     duration: 20,
@@ -523,7 +523,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spill-5",
-    exerciseNumber: 22,
+    exerciseNumber: 282,
     name: "Forsvar i Undertall",
     category: "game",
     duration: 18,
@@ -549,7 +549,7 @@ export const bangsboExercises: Exercise[] = [
   // === SPESIALISERINGØVELSER ===
   {
     id: "bangsbo-spesiell-1",
-    exerciseNumber: 23,
+    exerciseNumber: 445,
     name: "Midtstopperens Leserskap",
     category: "station",
     duration: 15,
@@ -573,7 +573,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spesiell-2",
-    exerciseNumber: 24,
+    exerciseNumber: 448,
     name: "Backs som Går Ut",
     category: "station",
     duration: 15,
@@ -597,7 +597,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-spesiell-3",
-    exerciseNumber: 25,
+    exerciseNumber: 450,
     name: "Defensiv Midtbanes Skjerming",
     category: "station",
     duration: 15,
@@ -623,7 +623,7 @@ export const bangsboExercises: Exercise[] = [
   // === DØDBALL-FORSVAR ===
   {
     id: "bangsbo-dodball-1",
-    exerciseNumber: 26,
+    exerciseNumber: 453,
     name: "Forsvar ved Hjørnespark",
     category: "station",
     duration: 15,
@@ -647,7 +647,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-dodball-2",
-    exerciseNumber: 27,
+    exerciseNumber: 458,
     name: "Forsvar ved Frispark Sentralt",
     category: "station",
     duration: 15,
@@ -795,7 +795,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-dekning-3",
-    exerciseNumber: 33,
+    exerciseNumber: 464,
     name: "Forsvarsposisjon og Kroppsstilling",
     category: "station",
     duration: 10,
@@ -869,7 +869,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-stotte-6",
-    exerciseNumber: 36,
+    exerciseNumber: 466,
     name: "Forsinke ved Dribbling",
     category: "station",
     duration: 12,
@@ -895,7 +895,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 3: RETNINGSBESTEMMELSE (FLERE) ===
   {
     id: "bangsbo-retning-3",
-    exerciseNumber: 37,
+    exerciseNumber: 467,
     name: "Åpne og Lukke",
     category: "station",
     duration: 12,
@@ -919,7 +919,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-retning-4",
-    exerciseNumber: 38,
+    exerciseNumber: 468,
     name: "Parpress med Retningsbestemmelse",
     category: "station",
     duration: 15,
@@ -969,7 +969,7 @@ export const bangsboExercises: Exercise[] = [
   // === KAPITTEL 4: FORSVARSSTIL (FLERE) ===
   {
     id: "bangsbo-stil-1",
-    exerciseNumber: 40,
+    exerciseNumber: 315,
     name: "Lavt Forsvar med Kontring",
     category: "game",
     duration: 20,
@@ -1067,7 +1067,7 @@ export const bangsboExercises: Exercise[] = [
   },
   {
     id: "bangsbo-taktisk-3",
-    exerciseNumber: 44,
+    exerciseNumber: 321,
     name: "Forsinke Motangrep",
     category: "game",
     duration: 15,

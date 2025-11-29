@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { allExercises, Exercise, ExerciseSource } from "@/data/exercises";
+import { allExercises, Exercise, ExerciseSource, getExerciseCode } from "@/data/exercises";
 
 export type DurationUnit = "min" | "reps";
 
@@ -17,8 +17,10 @@ type SessionState = {
   stationCount: number;
   selectedExerciseIds: Set<string>;
   favoriteIds: Set<string>;
+  searchQuery: string;
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
+  setSearchQuery: (query: string) => void;
   toggleExercise: (id: string) => void;
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
@@ -30,6 +32,7 @@ type SessionState = {
 };
 
 const warmupTarget = 10;
+const activationTarget = 8;
 const stationDuration = 12;
 const gameTarget = 20;
 const cooldownDuration = 1;
@@ -50,6 +53,8 @@ const buildTimeline = ({
 
   const fixed = chosen.filter((ex) => ex.category === "fixed-warmup");
   const warmups = chosen.filter((ex) => ex.category === "warmup");
+  const activation = chosen.filter((ex) => ex.category === "aktivisering");
+  const rondos = chosen.filter((ex) => ex.category === "rondo");
   const stations = chosen.filter((ex) => ex.category === "station");
   const games = chosen.filter((ex) => ex.category === "game");
   const cooldowns = chosen.filter((ex) => ex.category === "cooldown");
@@ -58,6 +63,10 @@ const buildTimeline = ({
   fixed.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
 
   warmups.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
+
+  activation.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
+
+  rondos.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
 
   stations.forEach((exercise) =>
     timeline.push({ id: exercise.id, exercise })
@@ -76,10 +85,12 @@ export const useSessionStore = create<SessionState>()(
       exerciseLibrary: [...allExercises],
       playerCount: 12,
       stationCount: 3,
+      searchQuery: '',
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
       setStationCount: (count) => set({ stationCount: count }),
+      setSearchQuery: (query) => set({ searchQuery: query }),
       toggleExercise: (id) =>
         set((state) => {
           const next = new Set(state.selectedExerciseIds);
@@ -161,6 +172,7 @@ export const useSessionStore = create<SessionState>()(
         selectedExerciseIds: state.selectedExerciseIds,
         favoriteIds: state.favoriteIds,
         plannedBlocks: state.plannedBlocks,
+        searchQuery: state.searchQuery,
       }),
       storage: {
         getItem: (name) => {
@@ -193,6 +205,7 @@ export const useSessionStore = create<SessionState>()(
               plannedBlocks: updatedPlannedBlocks,
               selectedExerciseIds: new Set(parsed.state.selectedExerciseIds || []),
               favoriteIds: new Set(parsed.state.favoriteIds || []),
+              searchQuery: parsed.state.searchQuery ?? '',
             },
           };
         },
@@ -203,6 +216,7 @@ export const useSessionStore = create<SessionState>()(
               ...value.state,
               selectedExerciseIds: Array.from(value.state.selectedExerciseIds || []),
               favoriteIds: Array.from(value.state.favoriteIds || []),
+              searchQuery: value.state.searchQuery ?? '',
             },
           };
           localStorage.setItem(name, JSON.stringify(toStore));
@@ -219,6 +233,12 @@ export const recommendedDuration = (block: SessionBlock) => {
   }
   if (block.exercise.category === "warmup" && !block.exercise.alwaysIncluded) {
     return warmupTarget;
+  }
+  if (block.exercise.category === "aktivisering") {
+    return activationTarget;
+  }
+  if (block.exercise.category === "rondo") {
+    return stationDuration;
   }
   if (block.exercise.category === "station") {
     return stationDuration;
@@ -290,12 +310,14 @@ export const filterExercises = (
   favoriteIds?: Set<string>,
   stationCount?: number,
   sourceFilter?: ExerciseSource | "egen" | null,
-  filterByPlayerCount?: boolean
+  filterByPlayerCount?: boolean,
+  searchQuery?: string
 ) => {
   // Beregn spillere per stasjon - brukes for alle kategorier når filter er aktivt
   const playersPerStation = stationCount && stationCount > 0 
     ? Math.floor(playerCount / stationCount) 
     : playerCount;
+  const normalizedSearch = searchQuery?.trim().toLowerCase();
 
   return exerciseLibrary
     .filter((exercise) => {
@@ -320,8 +342,28 @@ export const filterExercises = (
           sourceMatch = exerciseSource === sourceFilter;
         }
       }
+
+      let searchMatch = true;
+      if (normalizedSearch) {
+        // Inkluder øvelseskode i søket (f.eks. "S45", "K12", "R3")
+        const exerciseCode = getExerciseCode(exercise).toLowerCase();
+        const haystack = [
+          exercise.name,
+          exercise.description,
+          exercise.theme,
+          exercise.equipment?.join(" "),
+          exercise.coachingPoints?.join(" "),
+          exercise.variations?.join(" "),
+          exercise.source,
+          exerciseCode,
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+        searchMatch = haystack.includes(normalizedSearch);
+      }
       
-      return categoryMatch && themeMatch && sourceMatch && playerCountMatch;
+      return categoryMatch && themeMatch && sourceMatch && playerCountMatch && searchMatch;
     })
     .sort((a, b) => {
       // 1. Favoritter først
@@ -330,13 +372,14 @@ export const filterExercises = (
       if (aFav !== bFav) return aFav - bFav;
 
       // 2. For stasjoner: Bruk spillere per stasjon, ellers totalt antall
-      const targetCount = category === "station" && playersPerStation 
+      const targetCount = (category === "station" || category === "rondo") && playersPerStation 
         ? playersPerStation 
         : playerCount;
 
       // 3. Sorter etter hvor godt øvelsen passer
-      const aScore = getExerciseFitScore(a, playerCount, category === "station" ? playersPerStation : undefined);
-      const bScore = getExerciseFitScore(b, playerCount, category === "station" ? playersPerStation : undefined);
+      const relevantPlayersPerStation = (category === "station" || category === "rondo") ? playersPerStation : undefined;
+      const aScore = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
+      const bScore = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
       if (aScore !== bScore) return aScore - bScore;
 
       // 4. Alfabetisk

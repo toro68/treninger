@@ -7,7 +7,7 @@ export const hyballaExercises: Exercise[] = [
   // === LOB PASS ØVELSER ===
   {
     id: "hyballa-lob-1",
-    exerciseNumber: 1,
+    exerciseNumber: 398,
     name: "Lob Pass i Femkant",
     category: "station",
     duration: 12,
@@ -30,7 +30,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-lob-2",
-    exerciseNumber: 2,
+    exerciseNumber: 401,
     name: "Lob Pass med Posisjonsbytte",
     category: "station",
     duration: 12,
@@ -52,7 +52,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-lob-3",
-    exerciseNumber: 3,
+    exerciseNumber: 404,
     name: "Lob Pass eller 1v1",
     category: "station",
     duration: 15,
@@ -76,7 +76,7 @@ export const hyballaExercises: Exercise[] = [
   // === TRIANGLE PASS ØVELSER ===
   {
     id: "hyballa-triangle-1",
-    exerciseNumber: 4,
+    exerciseNumber: 474,
     name: "Trekantpasninger i Sekskant",
     category: "station",
     duration: 12,
@@ -99,7 +99,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-triangle-2",
-    exerciseNumber: 5,
+    exerciseNumber: 408,
     name: "Grid med 7 Spillere - Sentral Vending",
     category: "station",
     duration: 15,
@@ -144,7 +144,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-triangle-4",
-    exerciseNumber: 7,
+    exerciseNumber: 248,
     name: "8v4 med Ett-Touch og Trekantpasninger",
     category: "game",
     duration: 15,
@@ -168,7 +168,7 @@ export const hyballaExercises: Exercise[] = [
   // === SWITCH PASS (SIDESKIFTE) ØVELSER ===
   {
     id: "hyballa-switch-1",
-    exerciseNumber: 8,
+    exerciseNumber: 418,
     name: "Sideskifte i Bredt Grid",
     category: "station",
     duration: 12,
@@ -191,7 +191,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-switch-2",
-    exerciseNumber: 9,
+    exerciseNumber: 421,
     name: "Grid med Fire - Vending Ut",
     category: "station",
     duration: 12,
@@ -214,7 +214,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-switch-3",
-    exerciseNumber: 10,
+    exerciseNumber: 254,
     name: "7v7 med Obligatoriske Sideskifter",
     category: "game",
     duration: 20,
@@ -237,7 +237,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-switch-4",
-    exerciseNumber: 11,
+    exerciseNumber: 257,
     name: "6v6 + 4 Veggspillere med Sideskifte",
     category: "game",
     duration: 20,
@@ -310,7 +310,7 @@ export const hyballaExercises: Exercise[] = [
   // === ANGLED PASS (VINKLET PASNING) ØVELSER ===
   {
     id: "hyballa-angled-1",
-    exerciseNumber: 14,
+    exerciseNumber: 429,
     name: "Grid 3:3:3 - Vinklede Pasninger",
     category: "station",
     duration: 12,
@@ -333,7 +333,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-angled-2",
-    exerciseNumber: 15,
+    exerciseNumber: 264,
     name: "8v8 på Tre Store Mål",
     category: "game",
     duration: 20,
@@ -358,7 +358,7 @@ export const hyballaExercises: Exercise[] = [
   // === ONE-TOUCH PASS ØVELSER ===
   {
     id: "hyballa-onetouch-1",
-    exerciseNumber: 16,
+    exerciseNumber: 436,
     name: "Ett-Touch i Firkanter",
     category: "station",
     duration: 15,
@@ -451,7 +451,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-rondo-2",
-    exerciseNumber: 20,
+    exerciseNumber: 205,
     name: "Rondo med Ballhastighet",
     category: "warmup",
     duration: 10,
@@ -473,7 +473,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-rondo-3",
-    exerciseNumber: 21,
+    exerciseNumber: 206,
     name: "Rondo med Åpent Rom og Lang Pasning",
     category: "warmup",
     duration: 10,
@@ -494,7 +494,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-rondo-4",
-    exerciseNumber: 22,
+    exerciseNumber: 207,
     name: "Rondo 9v3 med Defensive Trekanter",
     category: "warmup",
     duration: 12,
@@ -517,7 +517,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-rondo-5",
-    exerciseNumber: 23,
+    exerciseNumber: 208,
     name: "Rondo med Kommunikasjonsformer",
     category: "warmup",
     duration: 12,
@@ -543,7 +543,7 @@ export const hyballaExercises: Exercise[] = [
   // === PASSING INTO SPACE (DYBDEPASNING) ØVELSER ===
   {
     id: "hyballa-space-1",
-    exerciseNumber: 24,
+    exerciseNumber: 447,
     name: "Ball i Rom - Løp i Rom",
     category: "station",
     duration: 15,
@@ -566,7 +566,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-space-2",
-    exerciseNumber: 25,
+    exerciseNumber: 286,
     name: "Følge Ballen",
     category: "game",
     duration: 20,
@@ -614,7 +614,7 @@ export const hyballaExercises: Exercise[] = [
   // === GIVE-AND-GO (DOBBELTPASNING) ØVELSER ===
   {
     id: "hyballa-giveandgo-1",
-    exerciseNumber: 27,
+    exerciseNumber: 457,
     name: "Dobbeltpasning til Mål",
     category: "station",
     duration: 15,
@@ -662,7 +662,7 @@ export const hyballaExercises: Exercise[] = [
   // === VOLLEY PASS ØVELSER ===
   {
     id: "hyballa-volley-1",
-    exerciseNumber: 29,
+    exerciseNumber: 463,
     name: "Volley-pasning i Trekant",
     category: "station",
     duration: 10,
@@ -710,7 +710,7 @@ export const hyballaExercises: Exercise[] = [
   // === KILLER PASS ØVELSER ===
   {
     id: "hyballa-killer-1",
-    exerciseNumber: 31,
+    exerciseNumber: 297,
     name: "Gjennombruddspasning i 4v3",
     category: "game",
     duration: 15,
@@ -733,7 +733,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-killer-2",
-    exerciseNumber: 32,
+    exerciseNumber: 301,
     name: "8v6 med Gjennombrudds-soner",
     category: "game",
     duration: 20,
@@ -781,7 +781,7 @@ export const hyballaExercises: Exercise[] = [
   },
   {
     id: "hyballa-throwin-2",
-    exerciseNumber: 34,
+    exerciseNumber: 305,
     name: "8v8 med Taktisk Innkast",
     category: "game",
     duration: 20,
@@ -806,7 +806,7 @@ export const hyballaExercises: Exercise[] = [
   // === PRESSING MOT ETT-TOUCH ===
   {
     id: "hyballa-pressing-1",
-    exerciseNumber: 35,
+    exerciseNumber: 308,
     name: "3v2 x 2 - Ett-Touch mot Aggressivt Press",
     category: "game",
     duration: 15,
