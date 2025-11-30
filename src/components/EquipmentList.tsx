@@ -12,6 +12,15 @@ const EQUIPMENT_LABELS: Record<string, string> = {
   stiger: "Stiger",
 };
 
+const EQUIPMENT_ALIASES: Record<string, string> = {
+  "små mål": "småmål",
+};
+
+const normalizeEquipment = (raw: string) => {
+  const item = raw.toLowerCase().trim();
+  return EQUIPMENT_ALIASES[item] ?? item;
+};
+
 export const EquipmentList = () => {
   const [hydrated, setHydrated] = useState(false);
   const generateSession = useSessionStore((state) => state.generateSession);
@@ -23,13 +32,14 @@ export const EquipmentList = () => {
   }, []);
 
   // Fast utstyr som alltid trengs
-  const ALWAYS_NEEDED = ["vester", "markør"];
+  const ALWAYS_NEEDED = ["baller", "kjegler", "markør", "vester", "småmål"];
 
   // Samle utstyr fra øvelser
-  const equipmentSet = new Set<string>(ALWAYS_NEEDED);
+  const equipmentSet = new Set<string>();
+  ALWAYS_NEEDED.forEach((item) => equipmentSet.add(normalizeEquipment(item)));
   sessionBlocks.forEach((block) => {
     block.exercise.equipment.forEach((item) => {
-      equipmentSet.add(item.toLowerCase());
+      equipmentSet.add(normalizeEquipment(item));
     });
   });
 
