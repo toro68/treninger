@@ -1,0 +1,2163 @@
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+«En analyse av Juventus’ spillestil»
+- hvordan anvende 3-5-2 formasjonen som et
+virkemiddel i utøvelsen av eget lags spillestil?
+Uefa A-lisens 2013/2014
+Even Ødegaard
+
+1
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Forord
+«Å tape er å dø!»
+Ordene kommer fra Juventus’ trener Antoni Conte. Dette er naturligvis en uttalelse som bør
+forstås billedlig, men den sier også noe om kravene og kulturen som kjennetegner Juventus,
+og er en slags videreføring av klubblegenden Giampiero Bonipertis uttaleser: «Å vinne er ikke
+viktig. Det er det eneste som betyr noe.»
+Selv har jeg tilbrakt et relativt langt fotballiv i brytningen mellom det å være amatør og
+profesjonell i norsk 2. divisjon, og de siste fire årene har dette vært som trener. Likevel er det
+å vinne stort sett overordnet alt. Selv om det estetiske også er av betydning for en del av oss.
+Fotball for meg handler om samtidighet. Om felles forståelse. Om å våge og å tørre. Det
+handler om å bli gode sammen, samtidig som man skal dyrke enere. Jeg elsker å jobbe med
+spillere på feltet og jeg elsker å vinne. Min visjon er å utvikle spillere som evner å lese
+situasjoner og klima i kamper, og som ut ifra en felles forståelse løser dette til beste for eget
+lag. Er det noen grep jeg som trener kan gjøre for å optimalisere mulighetene for å nå den noe
+hårete og ambisiøse visjonen?
+Fotball handler om å bli gode sammen, og som Eggen sier i Godfoten: Samhandling – veien
+til suksess (1999): Du er god eller dårlig sammen med noen. Det å være dyktig er ingen
+soloprestasjon.
+I så måte ønsker jeg å takke de som hjelper meg å bli så god som mulig, og som lar meg få lov
+til å holde på med denne lidenskapen. Takk til Rakel, Julius og Jenny som gir meg den ene
+gode pasningen etter den andre. Uten dere hadde det ikke gått.
+Takk også til alle gode samtalepartnere og bidragsytere underveis, særlig Igor Aase, Andre
+Bergdølmo, Torjus Hansen og Tommy Svindal Larsen. Takk også til Dag Oppjordsmoen som
+har motivert og utfordret, delt og fortalt underveis, det har jeg satt stor pris på.
+Det er viktig å stoppe opp, ta seg god tid og tenke over egen praksis og trenergjerning selv i
+en hektisk hverdag. Det har arbeidet med denne oppgaven påtvunget meg til å gjøre. Det har
+vært både lærerikt og utviklende og bidratt til å gi meg større innsikt i det å være trener og
+leder.
+Even, Drøbak 2014
+
+2
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Sammendrag
+I denne oppgaven vil jeg først gi en historisk oversikt over formasjonsutviklingen i fotballen,
+da med et ekstra blikk på hvordan 3-5-2 formasjonen har blitt praktisert til ulike tider av ulike
+lag.
+Med dette som bakteppe vil jeg ta utgangspunkt i hvordan Antonio Conte og Juventus har
+rendyrket 3-5-2 formasjonen, herunder hvilke retningslinjer som gjelder i forsvars – og
+angrepsspillet til Juventus og komme med en arbeidskravsanalyse for de ulike rollene.
+Utgangspunktet for dette vil primært være kamper fra Champions League sesongen
+2012/2013, men også utvalgte kamper fra Serie A samme år og inneværende sesong. Som en
+forlengelse av dette vil jeg kartlegge alle Juventus’ scoringer i sesongen 2012/2013 og knytte
+dette opp mot retningslinjene i angrepsspillet. Det samme vil jeg gjøre med scoringene i mot,
+men da naturligvis opp mot retningslinjene i forsvarsspillet. Som et hjelpemiddel her vil jeg
+bruke et analyseskjema som jeg mener gir et helhetlig og oversiktlig bildet av Juventus
+scoringer for og i mot.
+Det er ulike måter å organisere et lag ved hjelp av 3-5-2 systemet på. Med utgangspunkt i
+bøkene «Soccer strategies – defensive and attacking tactics» og «Coaching the European 3-52» har jeg sett på de mest vanlige formene og vist det jeg mener er sentrale forskjeller og
+viktige nyanser.
+Jeg har også intervjuet Torjus Hansen og Tommy Svindal Larsen, begge sentrale på et Odd
+lag som siste halvdel av 2005-sesongen gikk over til å bruke denne formasjonen, og gikk fra å
+være bunnlaget til å bli det laget som tok flest poeng den høsten, sammen med Rosenborg.
+Deres betraktninger vil jeg bruke i min egen refleksjon omkring denne formasjonen kan være
+noe jeg ønsker å bruke i eget lag kommende sesong, og i så fall hvorfor. Bakgrunnen for
+denne vurderingen vil naturligvis være gjort med utgangspunkt i det jeg har sett av Juventus
+og deres retningslinjer, samt funnene som ble gjort i analysen av scorede og innslupne mål og
+rollekravene som er formulert.
+
+3
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Innhold
+Forord ...................................................................................................................................................... 2
+Sammendrag ........................................................................................................................................... 3
+Innledning ................................................................................................................................................ 6
+Bakgrunn og formasjonsutvikling ............................................................................................................ 6
+WM-systemet ...................................................................................................................................... 8
+3-5-2 med sweeper og to markeringsstoppere ................................................................................... 8
+The Norwegian Style – The computer style ...................................................................................... 10
+3-5-2 i Italia........................................................................................................................................ 12
+Spillestil ................................................................................................................................................. 13
+Soneforsvar eller markeringsforsvar ................................................................................................. 14
+Ulike måter å organisere forsvarsleddet i 3-5-2 på ........................................................................... 16
+Det ortodokse mannsmarkering systemet: ................................................................................... 16
+Sonebasert mannsmarkering system. ........................................................................................... 17
+Sonebasert tre-manns forsvar ....................................................................................................... 17
+Ulike måter å organisere midtbaneleddet på ................................................................................... 18
+Metode: ................................................................................................................................................. 19
+Analyse av alle scoringer for – og i mot Juventus sesongen 2012/2013............................................... 20
+Om kampanalyse: .............................................................................................................................. 20
+Kvantitativ metode: ........................................................................................................................... 20
+Kvalitativ metode: ............................................................................................................................. 21
+Juventus’ spillestil.................................................................................................................................. 22
+Juventus i forsvar............................................................................................................................... 22
+Kommentarer til funnene: ............................................................................................................. 23
+«Catenaccio» ................................................................................................................................. 24
+Presshøyde .................................................................................................................................... 25
+Juventus i lavt press .......................................................................................................................... 26
+Juventus ved innlegg i mot ............................................................................................................ 29
+Oppsummering av Juventus i lavt press: ....................................................................................... 30
+Utfordringer i det lave presset: ..................................................................................................... 31
+Juventus i høyt press: ........................................................................................................................ 32
+Oppsummering av Juventus i høyt press: ..................................................................................... 35
+4
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Utfordringer i det høye presset: .................................................................................................... 36
+Juventus og overganger i mot: .......................................................................................................... 37
+Oppsummering av overganger i mot: ........................................................................................... 38
+Juventus i angrep – lagets retningslinjer – en strukturell dimensjon ............................................... 39
+Oppspill fra midtbackene sentralt i banen: ................................................................................... 40
+Utnytte bredde for å skape rom sentralt: ..................................................................................... 42
+Vingback, spiss og indreløper: ....................................................................................................... 43
+Spiss-spiss relasjon: ....................................................................................................................... 46
+Juventus’ posisjonering ved innlegg: ............................................................................................. 48
+Gjenvinningsangrep:...................................................................................................................... 49
+Juventus’ overgangsspill: ............................................................................................................... 52
+Oppsummering av Juventus i angrep: ........................................................................................... 53
+Posisjonsbeskrivelse og rollekrav .......................................................................................................... 54
+Keeper: .............................................................................................................................................. 55
+Høyre midtback/venstre midtback: .................................................................................................. 55
+Sentral midtback: .............................................................................................................................. 56
+Høyre vingback/venstre vingback ..................................................................................................... 56
+Sentral midtbane: .............................................................................................................................. 57
+Høyre/venstre indreløper: ................................................................................................................ 57
+Spiss: .................................................................................................................................................. 58
+Anvendelse i eget lag – noen refleksjoner ............................................................................................ 58
+DFI 2014............................................................................................................................................. 59
+DFIs’ spillestil ..................................................................................................................................... 60
+Hvorfor 3-5-2 ..................................................................................................................................... 62
+Defensivt........................................................................................................................................ 62
+Offensivt ........................................................................................................................................ 63
+Veien videre....................................................................................................................................... 65
+Litteratur: .............................................................................................................................................. 66
+
+5
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Innledning
+Jeg har i denne oppgaven valgt å fordype meg i temaer og problemstillinger som jeg har vært
+nysgjerrig på og som jeg tenker at vil gi meg en gevinst i mitt daglige møte med spillerne.
+Min hovedproblemstilling har vært å analysere Juventus’ spillestil med tanke på anvendelse
+og overføringsverdi til eget lag. Jeg mener at deres bruk av formasjonen 3-5-2 er et viktig
+redskap i utførelsen av deres spillestil og har sett etter de strukturelle retningslinjene i
+forsvars- og angrepsspillet.
+Når jeg anser bruken av 3-5-2 formasjonen som et viktig element opplever jeg det som nyttig
+og kontekstuelt å se nærmere på formasjonsutvikling opp gjennom historien, da med et særlig
+blikk på hvordan ulike lag har praktisert denne formasjonen til ulike tider. Jeg har også sett
+nærmere på ulike måter å organisere laget på i denne formasjonen.
+Som en videreføring av dette har jeg analysert alle Juventus sine scoringer for og i mot i løpet
+av sesongen 2012/2013og forsøkt å knytte dette opp mot det jeg opplever er de strukturelle
+retningslinjene i deres spillestil.
+Videre har jeg på bakgrunn av funnene og all informasjonen jeg har tilegnet meg laget en
+rollekravsanalyse som peker på kvaliteter og ferdigheter spillerne i de ulike rollene må besitte
+både i forsvarsspillet og angrepsspillet.
+Avslutningsvis diskuterer jeg hvorfor 3-5-2 formasjonen kan være et redskap eller verktøy i
+utøvelsen vår spillestil. Disse refleksjonene blir supplert med betraktninger fra de tidligere
+Odd Grenland-spillerne Torjus Hansén og Tommy Svindal Larsen som har god kjennskap til
+denne formasjonen.
+
+Bakgrunn og formasjonsutvikling
+Som mye annet her i livet så går også fotballen gjennom ulike sykluser og hva som er trender
+vil variere. Her er det et årsak-virknings forhold som gjør at fotballen hele tiden utvikler seg
+og er i stadig endring. Jeg vil gi en historisk oversikt over formasjonsutviklingen og samtidig
+vise hvordan 3-5-2 systemet har blitt brukt til ulike tider av ulike lag.
+Formasjon betegner spillernes statiske utgangsposisjon på banen(Olsen, 1973), og kan
+referere til så vel lagdelsinformasjon som lagets formasjon(Olsen, 1981). En del litteratur
+6
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+opererer likevel med en sifferkombinasjon på fire tall, da enten for å markere at laget spiller
+med libero eller for å splitte midtbane- eller frontleddet. Larsen(1992) understreker at
+begrepet system ofte har blitt brukt synonymt med formasjon i en del litteratur, og at det er
+uheldig og forvirrende. Formasjonen gir en statisk beskrivelse av spillernes utgangsformasjon
+på banen, brukes system som en betegnelse på så vel spillernes utgangsposisjon og hvordan
+formasjonen anvendes i spillet(Olsen, 1973).
+Midt på 1800-tallet ble trolig den første fotballkampen med elleve spillere på hvert lag
+spilt(Gray, 1999). Lagenes 1-9 formasjon indikerer at utviklingen siden den gang har vært
+omfattende og har medført et langt mer komplekst spill. Formasjonene har vært sentrale i
+utviklingen og endringene i disse gir oss et visst innblikk i hvordan forholdet mellom forsvar
+og angrepsspillet har vært ulikt vektlagt gjennom årenes forløp.
+Moderne fotball kan vi datere til 1863 i forbindelse med stiftelsen av FA (English Football
+Association). FA utformet tidlig et sett med regler som fikk felles støtte overalt hvor det ble
+spilt fotball. En viktig regel som tidlig hadde stor innflytelse på valg av formasjon er
+offsideregelen. Den første forbød ballen i å bli spilt fremover, noe som medførte få pasninger
+og mye driblinger (Bangsbo og Peitersen, 2000). I 1868 ble denne regelen endret, det måtte
+være minst tre forsvarsspillere mellom fremste angriper og forsvarende lags dødlinje når
+ballen ble spilt. Regelendringen medførte et to-back-system som dominerte hele
+fotballverdenen i mange år. To-back- systemet, en 2-3-5-formasjon, ble benyttet i store deler
+av fotballverdenen frem til offside- regelen på ny ble endret i 1925 (Bangsbo og Peitersen,
+2000). 2-3-5- formasjonen var for øvrig en videreutvikling av Skottlands 2-2-6 formasjon,
+som regnes som den første formasjonen som varte over tid(Wilson, 2008).
+Foranledningen til den nye offsideregelen i 1925 var at forholdet mellom angrep og forsvar
+var blitt skjevt. Offsideregelen, og utnyttelsen av denne, ble en sentral del av forsvarsspillet,
+noe som medførte mange offsideavblåsninger og etter hvert ”måltørke”. Offside- regelen av
+1925 er i grove trekk den samme som benyttes i dagens fotball, det vil si at det nå måtte være
+minst to forsvarsspillere mellom den fremste angriperen og forsvarende lags dødlinje for at
+det ikke skulle bli blåst for offside (Bangsbo og Peitersen, 2000). Denne regelendringen økte
+på kort sikt antall mål med 50 prosent (ibid)og den skulle vise seg å få betydelige
+konsekvenser for hvordan spillet skulle komme til å utvikle seg.
+
+7
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+WM-systemet
+På bakgrunn av dette, ble det endring fra 2-3-5 til 3-4-3/3-2-2-3 formasjon. Skaperen av dette
+”WM-systemet”, var den legendariske Arsenal-manageren Herbert Chapman. Rundt 1930, 5
+år etter at WM- systemet så dagens lys, hadde nesten alle britiske lag på ulike nivåer kopiert
+Chapmans nyvinning. Først på 1950-tallet, med Ungarns ”superlag” som slo England 6-3 på
+Wembley i 1956 og Brasils triumf i verdensmesterskapet i 1958, skulle WM-systemet virkelig
+bli utfordret (Bangsbo og Peitersen, 2000). Nyvinningen bestod av igjen å trekke en spiller
+bakover i banen, slik at man nå hadde fire spillere i bakre ledd. I VM i 1958 ble på mange
+måter karakterisert som et trendbrudd og en milepæl i fotballens evolusjon da Brasil med sin
+4-2-4 formasjon beseiret alle som fortsatt spilte etter WM systemet. På slutten av 1950-tallet
+spilte et stort antall lag i en 4-2-4 formasjon. Den neste perioden mellom VM-sluttspillene i
+1958 og 1962 fikk vi en reduksjon på 25 prosent i antall mål, en indikasjon på at
+forsvarsspillet da ble prioritert(Hughes, 1981). En motsats til både Chapmans WM-system og
+Brasils 4-2-4 formasjon stod mange italienske lag for både før og etter VM i 1958 med deres
+«Catenaggio». Dette var en defensiv taktikk som plasserte en ekstra forsvarsspiller i bakre
+ledd som en sweeper, og man trakk også ned vingbackene slik at man opererte i en 5-3-2
+formasjon (Wilson, 2008).
+England vant til sin hittil eneste VM- tittel på hjemmebane i 1966 med først en 4-3-3
+formasjon for så å legge om til 4-4-2. 4-3-3- formasjonen var en videreutvikling av 4-2-4
+formasjonen. Ved å trekke ned en spiller i midtbaneleddet fikk man også et numerisk overtall
+på midtbanen mot de lagene som på denne tiden spilte en 4-2-4 formasjon. I Norge er det
+Rosenborg som i den senere tid har vært en ”rollemodell” for andre norske lag i utførelsen av
+4-3-3 formasjon. Også Nederlands «total fotball» som vant mange fotballhjerter på 70- tallet,
+og som nostalgikere til stadighet drømmer seg tilbake til, var på papiret en 4-3-3 formasjon.
+
+3-5-2 med sweeper og to markeringsstoppere
+Vi må gå helt frem til 1986 før vi igjen finner en verdensmester med tre forsvarsspillere.
+Carlos Billardo slet i 1984 med svake resultater som trener for Argentina. Med Diego
+Armando Maradona på laget var forventningene skyhøye. På en turné i Europa prøvde
+Billardo ut en 3-5-2 formasjon, som ga gode resultater. Formasjonen var defensivt basert på
+en sweeper, to markeringsstoppere, to vingbacker og tre sentrale midtbanespillere. I tillegg
+fikk Maradona lov til å gå ned i banen for å hente ballen. Argentina vant VM i Mexico med
+sin 3-5-1-1 formasjon. Formasjonen spredde seg raskt, og Tyskland vant VM i 1990, Brasil
+8
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+VM 1994 og Tyskland EM i 1996 med varianter av samme 3-5-2 formasjon (Wilson, 2008). I
+denne sammenhengen må vi også nevne det suksessfulle danske landslaget ledet av Sepp
+Piontek som gjennom 80-tallet tilpasset seg og anvendte 3-5-2 systemet (Bangsbo og
+Peitersen, 2000). Dette var et dansk landslag som begeistret fotball-europa og som spilte
+underholdene og morsom fotball med Michael Laudrup i spissen. De tapte en dramatisk
+semifinale i Euro 84 på straffer mot Spania, kvalifiserte seg til VM i 86 og vant gruppe E i
+konkurranse mot Vest Tyskland, Skottland og Uruguay, før det ble bråstopp mot Spania i
+første utslagsrunde.
+Suksessen med tre forsvarsspillere på 80- og 90-tallet kan sees i sammenheng med den da
+rådende spillestilen. Mannsmarkering, spill med to spisser, lite offensivt kantspill og mye
+ballbesittelse var datidens dominerende spillestil. Med to markeringsstoppere kunne man
+markere motstanderens to spisser, og i tillegg ha en spiller som sikring. I nåtidens lys kan man
+si at lagene hadde relativt god tid til omstilling fra tre til fem spillere bak om så var
+nødvendig. Ved å benytte tre spillere i stedet for fire kunne man utvide midtbanen med en
+ekstra spiller. 3-5-2 sto seg ikke på langt nær like lenge som WM-formasjonen, Brasil vant
+riktignok VM så seint som i 2002 med en 3-4-1-2 variant (Wilson, 2008). Edmilson opererte
+da som regel som sweeper, og hadde frihet til å gå fremover med ballen. Med Cafu og
+Roberto Carlos som vingbacker hadde de offensiv kraft på sidene. Den fremste trioen besto av
+Rivaldo, Ronaldinho og Ronaldo – ikke akkurat hvem som helst.
+På slutten av 80-tallet og begynnelsen av 90-tallet ble det i en stor grad, taktisk sett, en kamp
+mellom en 4-4-2 formasjon og 3-5-2 formasjon (sistnevnte formasjon ble noen ganger
+forandret til en 5-3-2 formasjon avhengig av plasseringen til kanspiller/vingback).
+Soneorientert forsvarsspill og 4-4-2 ble praktisert lenge før 3-5-2 ble populært. De kanskje
+mest spektakulære resultatene oppnådde Bob Houghton som tok Malmö FF til finalen i
+Serievinnercupen i 1979 – basert på sonespill og 4-4-2. George Curtis innførte forøvrig 4-4-2
+og soneprinsipper i Rosenborg i 1969. I debutsesongen ble det seriegull, året etter ble
+trønderne nummer to med 15-5 i målforskjell på 18 kamper! Arrigo Sacchi gjorde med andre
+ord ikke noe nytt da han innførte 4-4-2 og soneforsvar i AC Milan. At han preget fotballen på
+slutten av 80- og begynnelsen av 90-tallet er derimot riktig. Et sonespill basert på flate
+forsvarsfirere, offsidefelle og tydelig og aggressivt press på ballfører. Spillerne var plassert i
+forhold til medspillerne istedenfor å markere motspillerne. Lykkes ikke det første presset på
+ballfører, har man i teorien alltid en ny spiller i sikring – ikke bare i bakerste ledd. Med
+9
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+spillere som Gullit, Van Basten, Ancelotti, Baresi, Rijkaard og Maldini vant AC Milan både
+Serie A og den gjeveste europacupen i 4-4-2 formasjon – med stramt soneorganisert
+forsvarsspill og tydelig press på ballfører.
+Man gikk nå inn i en tid hvor bruken av tre forsvarsspillere igjen ble lite brukt, men det har
+vært unntak. Johan Cruyffs Barcelona praktiserte en 3-5-2 variant i 1994 og vant La liga, men
+de tapte mot Fabio Capello og hans AC Milan i finalen i Serievinnercupen (Champions
+League) samme år. AC Milan vant også scudettoen med Alberto Zaccheroni som trener og
+med systemet i 98/99 sesongen, Roma og Fabio Capello gjorde det samme i 2000/2001 med
+3-4-1-2. Mange lot seg og fascinere av inspirere av hvordan Barcelona under Josep
+Guardiolas ledelse praktiserte en 3-1-3-3 formasjon.
+
+The Norwegian Style – The computer style
+I Norge på 1980-tallet var det 4-4-2 formasjonen som gjorde seg mest gjeldende(Holm et
+al.1998). Likevel ble 4-5-1 formasjonen for første gang introdusert i 1982 av daværende Ulandslagstrener Egil Olsen. Denne formasjonen skulle møte mye kritikk. Den ble særlig
+kritisert for å være for defensiv. Denne type kritikk historisk sett har også blitt sett når denne
+type endringer har blitt gjort. 4-5-1 formasjonen har klare likhetstrekk med 4-3-3
+formasjonen i praksis. I VM i 1982 benyttet Brasil en 4-5-1 formasjon, men når Brasil hadde
+ballen ble to mann flyttet frem i en 4-3-3 formasjon.
+Egil Olsen ble norsk landslagstrener i 1990, og fikk raskt oppsiktsvekkende resultater med sitt
+velorganiserte og gjennombruddshissige sonespill. Størst suksess hadde han i 4-5-1, men når
+de presset høyt ble denne omgjort til en 4-3-3 formasjon. Det offensive mønsteret mot etablert
+forsvar var basert på å slå lange oppspill på kant, den såkalte «Flo-pasningen» (Bangsbo og
+Peitersen, 2000). Drillo førte Norge til VM i både 1994 og 1998. Riktignok eksperimenterte
+han et par kamper med tre bak i et soneorientert system, men forsøket ble raskt skrinlagt. Det
+ble for store rom å dekke i bredden. Det er også verdt å nevne at Nils Arne Eggen testet 3back med Rosenborg, men med samme erfaring som Drillo. Også internasjonalt fant man
+soneforsvar med tre bak som for vanskelig og risikabelt.
+I dagens fotball blir den til tider utskjelte 4-5-1 formasjonen stadig mer vanlig å se både i
+norsk og internasjonal fotball. 4-2-3-1 formasjonene som mange lag benytter seg av, blant
+annet dagens norske landslag ledet av Per Matias Høgmo, er jo en videreutvikling av denne
+
+10
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+formasjonen hvor man operer med to «sittende» midtbanespillere i stedet for et anker, og har
+tydeligere definerte mellomromsspillere.
+2000 – tallet
+
+I EM 2000 spilte Italia med en flat bakre 3-er med Iuliano, Nesta og Cannavaro, relativt lave
+vingbacker i Maldini og Zambrotta, Fiore, Albertini og Conte (dagens Juventus trener)
+utgjorde den sentrale midbanetrioen med Totti (noe dypere) og Del Piero på topp. Korte
+avstander, konsentrering og stor kontringskraft tok dette laget helt til finalen der de på
+dramatisk vis (golden goal) tapte mot Frankrike.
+Italia var i dette mesterskapet en motvekt med sin måte å spille på, da de aller fleste lag
+benyttet en 4-4-2 formasjon, noe som også var trenden i VM 2002. Under EM 2000 så vi
+likevel klare tegn på at 4-2-3-1 var i ferd med å etablere seg som en ny trend. Tre (Nederland,
+Frankrike og Portugal) av fire lag i semifinalen benyttet denne formasjonen og formasjonen
+ble enda oftere benyttet i samme mesterskap åtte år senere. Ved å bruke denne formasjonen
+kunne man bruke tre kreative spillere til å bryte ned motstandernes defensive blokk. Disse
+spillerne var ofte «fritatt» tunge defensive oppgaver, men sørget for at Frankrike fikk plass til
+Djorkaeff, Zidane og Dugarry bak Thierry Henry, Portugal brukte Figo, Ruis Costa og
+Conceicão bak Nuno Gomes og Nederland plasserte Zenden, Bergkamp og Overmars bak
+Patrick Kluivert (Wilson, 2008).
+Den anerkjente fotballskribenten Jonathan Wilson hevder nå at denne formasjonen har
+erstattet 4-4-2 som fotballens mest benyttede formasjon (Wilson til «Josimar» – 2013).
+Egypt og Hassan Shehata vant tre påfølgende afrikamesterskap i 2006, 2008 og 2010 – med
+det som ble regnet som en gammeldags 3-5-2 variant. En viktig forklaring på Egypts suksess i
+Afrika er at de aller fleste andre afrikanske lagene spilte relativt lite avanserte 4-4-2
+formasjoner (Wilson, 2008). Med 3 stoppere som hadde overtall mot to spisser, var Egypts 34-1-2 formasjon godt egnet til å demme opp mot 4-4-2. I årets Afrikamesterskap spilte de
+aller fleste lagene 4-2-3-1, mens Egypt ikke var kvalifisert til å delta.
+Vi har også sett bruken av tre forsvarsspillere leve på andre kontinenter helt frem til i dag. I
+Sør-Amerika har for eksempel Mexico og Uruguay spilt med tre bak i utvalgte kamper. Ikke
+minst ble vi imponert over Chile i VM 2010. Med Marcelo Bielsa som trener praktiserte de en
+offensiv og høyt pressende 3-3-1-3. De tre bakerste som stoppere, det neste leddet besto av en
+dyp midtbanespiller og to vingbacker. Fremst plasserte Bielsa en playmaker som opererte litt
+11
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+bak en spiss og to vinger. Bielsa har jo tatt med seg dette til Spania og Atletic Bilbao også,
+noe Manchester United ikke fant ut av i Europa League i 2012.
+Sør-Korea må også nevnes. Under Guus Hiddink tok de seg til semifinalen i VM i 2002 basert
+på mye løping i en 3-5-2.
+De siste årene har vi igjen sett en oppblomstring av lag som spiller med tre stoppere. Bortimot
+halvparten av lagene i Serie A har spilt eller spiller med tre bak inneværende sesong (20132014).
+
+3-5-2 i Italia
+For å forstå renessansen av bruken av tre forsvarsspillere i Serie A, er det nødvendig og først
+se litt på hvordan majoriteten av lagene der har spilt de siste årene. Italia har aldri hatt et stort
+utvalg av typiske kantspillere, i støvellandet handler mye om å spille med flest mulig sentrale
+midtbanespillere. I forrige sesong spilte en rekke lag i formasjonen 4-3-1-2/4-1-2-1-2. AC
+Milan er kanskje det mest typiske laget i denne diamantformasjonen. Kun backene har som
+primæroppgave å skape bredde offensivt. Under Carlo Ancelotti praktiserte Milan også
+«juletreformasjonen» 4-3-2-1 – altså med fem sentrale midtbanespillere.
+Fotball har for mange trenere handlet mye om ballbesittelse de siste årene, og derfor kampen
+om å dominere den sentrale midtbanen. Har man mange og gode alternativer sentralt, øker
+sannsynligheten for å finne medspillere som pasningsalternativer. Dermed øker også
+muligheten for å klare å holde ballen i laget. Mange ønsker å velge de rette øyeblikkene for
+gjennombrudd. En spillestil preget av for mange forsøk på gjennombrudd fører fort til for
+mange balltap, som Drillo sier i sin siste bok Spill effektiv fotball: «Siste VM handlet i stor
+grad om å unngå overganger imot.»
+For å forsvare seg mot de mange smale lagene i Italia må man nødvendigvis dekke mye rom
+sentralt. Offensivt er det rom for å angripe bredt imot dem. Et godt eksempel her er Arsenals
+møte med AC Milan Champions League 2012. Arsène Wenger er selv en manager som liker å
+ha mange spillere sentralt i banen. På San Siro ble dette deres bane. Gang på gang forsøkte de
+å spille seg gjennom sentralt, resultatet ble altfor mange balltap i den italienske sentrale
+gryten, overganger imot – og tap 4-0. Hjemme på Emirates stilte Arsenal med begge de to
+raske vingene Walcott og Gervinho, angrep bredere – og var nær ved å klare det umulige. AC
+Milan hadde større problemer med å forsvare seg bredt, men gikk videre på 0-3.
+12
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Trenden med tre forsvarsspillere i Serie A bærer preg av tydelig innrømmelse til
+mannsmarkering. Ofte følger den ene stopperen en spiss når denne møter, og ofte kan man se
+at en av stopperne går opp i mellomrom og markerer en trequartista hos motstanderen. Det
+store innslaget av lag som spiller med tre stoppere i Italia må altså sees i sammenheng, og
+som et mottrekk til det store innslaget av smalt spill og mange sentrale midtbanespillere hos
+motstanderen. Lag som Napoli, Udinese og til en viss grad Juventus (mange har hatt høyere
+forventninger) har oppnådd svært gode resultater ved å kombinere det å forsvare seg med
+mange spillere sentralt, samtidig som man kan angripe bredt. Napoli (før Benitez tok over) i
+3-4-2-1, Udinese i 3-5-1-1 – og Juventus i 3-5-2/5-3-2.
+
+Spillestil
+«Spillestil er hvordan laget opptrer på banen», sier Egil Olsen. Lars Tjærnås kom med
+følgende betraktning i sin spalte i Aftenposten: «spillestilen forteller om hvordan et lag spiller
+fotball. System og formasjon er redskaper. Noen få ganger kan det imidlertid være helt
+avgjørende redskaper»
+Bangsbo og Peitersen omtaler begrepet spillestil på følgende måte: «En spillestil er den
+karakteristiske måde et hold anvender et spillesystem på» ( «Det gode hold», 1997)
+Hvilken type spillestil som anvendes av et lag vil i følge Bangsbo være avhengig av
+spillermateriellets offensive potensial, «all round» basis, fysisk kapasitet, teknisk fundament,
+taktisk nivå og psykisk balanse. Videre hevder Bangsbo at valg av spillestil dreier seg om en
+vekting av offensivt og defensivt spill. (Bangsbo, 1997)
+Jeg mener det er viktig å forankre spillestil i en kulturell kontekst – i Norge er Nils Arne
+Eggen og Egil Olsen de som har preget spillestildebatten i størst grad. Vår (Norges)
+fotballfilosofi må plasseres i en kulturell kontekst, det samme gjelder den italienske, latinske,
+britiske osv. Er fotball estetikk eller rasjonalisme? Skal den være kreativ og underholdene, er
+det lønnsomhet eller risikovurderinger som gjelder? Er vi ballbesittende eller mer direkte? Å
+diskutere spillestil uten å ta hensyn til konteksten blir vanskelig og etter mitt skjønn lite
+konstruktivt.
+Spillestil handler altså om hvordan et lag opptrer i angrep og i forsvar. Formasjonen er en del
+av lagets spillestil, og en spillestil er noe som er varig og gjenkjennbar – altså hvordan laget
+13
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+opptrer i ulike situasjoner i kamper. Vi kan grovt sett skille mellom spillestil i angrep og
+forsvar. Generelt sett kan vi si at spillsituasjoner i forsvar som regel gir færre
+handlingsalternativer enn spillsituasjoner i angrep (Ferdighetsutvikling i fotball, 2008). Noen
+lag har en fotballfilosofi og en sterk identitet som gjør at de svært sjeldent tilpasser spillestilen
+avhengig av motstander, skadesituasjon, baneforhold, mens andre er mer pragmatiske og
+endrer spillestil avhengig av overnevnte faktorer for å optimalisere mulighetene for å ta tre
+poeng i kampen.
+
+Soneforsvar eller markeringsforsvar
+Det eksisterer ulike oppfatninger om hvordan forsvarsspillet skal organiseres. Larsen(2000)
+skiller mellom soneforsvar, mannsmarkering og kombinasjonsforsvar i sin beskrivelse av
+ulike forsvarstyper. Larsen beskriver de ulike forsvarstypene som gjengitt nedenfor:
+«Soneforsvar legger vekt på tett press på ballfører og gode sikringsforhold. Spillerne
+forholder seg til hverandre. Markeringsforsvaret legger stor vekt på markering. Spillerne
+forholder seg til motstanderne. Kombinasjonsforsvar er en blanding av soneforsvar og
+markeringsforsvar» (Larsen, 2000, s. 6-7).
+I motsetning til Larsen er det flere som gir uttrykk for at det prinsipielt sett bare eksisterer to
+måter å organisere et forsvar på; sone og markering. Ved å kombinere sone- og
+markeringsprinsipper vil vi kunne se ulike «forsvarsstiler», men det er de to hovedformene
+som ligger til grunn(Olsen et al.1994).
+
+Figur 1: sone og markeringsforsvar
+
+En sammenlikning mellom sone – og markeringsforsvar konkluderer med at soneforsvaret
+legger vektlegger press på førsteangriper, sikring og dekking av rom, mens
+markeringsforsvaret prioriterer press og markering. Dette betyr for markeringsforsvaret at
+14
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+sikringsoppgavene gjerne overlates til en bestem spiller som i gitte situasjoner har ansvaret for
+å sikre de øvrige forsvarsspillerne. Fordi forsvarsoppgavene er helt spesielle for denne
+spilleren, omtales hun eller han ofte som fjerdeforsvarer eller sweeper. ( Ferdighetsutvikling i
+fotball, s. 177)
+I all hovedsak ser vi at den grunnleggende forskjellen mellom de to måtene å organisere et
+forsvar på ligger i soneforsvarets medspillerorientering og markeringsforsvarets orientering
+mot motspillere. Det vil også være ulike prioriteringer i et sone og markeringsforsvar, noe
+figur 2 nedenfor viser.
+Soneforsvar
+
+Markeringsforsvar
+
+1. Press
+
+1. Markering
+
+2. Sikring
+
+2. Press
+
+3. Dekke rom
+
+3. Dekke rom
+
+4. Markering
+
+4. Sikring
+
+Figur 2: ulike prioriteringer i sone- og markeringsforsvar
+
+Olsen(1994) mener at soneforsvarets fordeler ligger i en ryddig arbeidsfordeling og at det er
+lettere å skjule individuelle svakheter fordi sikringsforholdene er bedre enn i
+markeringsforsvaret. Gode sikringsforhold gjør det lettere å «reparere» feil av førsteforsvarer.
+I forhold til presshøyde er fleksibiliteten stor. Han nevner også en psykologisk fordel ved å
+være mindre avhengig av motstanderens løp og aktivitet. Dette skaper større grad av
+forutsigbarhet i eget forsvarsspill enn hva tilfellet er i et markeringsforsvar, og gir
+treningsmessige fordeler ved at man kan fokusere på elementer som man vet vil prege
+forsvarsspillet også i kampsituasjon.
+Pensgård (2001) påpeker betydningen av klare retningslinjer for hvordan et fotballag skal
+opptre i konkurransesituasjoner for å klare å holde rett fokus i stressede situasjoner.
+Medspillerorientert soneforsvar vil man med større grad av uavhengighet til motstander kunne
+ha fokus på egne arbeidsoppgaver. I et markeringsforsvar vil en spillers handlinger i mye
+større grad påvirkes av motstander, og dermed vil prinsippene for hvordan du skal opptre
+kunne variere fra kamp til kamp (Larsen, 2000).
+I norsk fotball er soneforsvaret svært dominerende i forhold til markeringsforsvaret. Egil
+Olsen hevdet i forbindelse med sin tankesmia høsten 2009, at mange tippeligalag hadde større
+innrømmelser til markering, spesielt i midtbaneleddet enn på 90 tallet. Han nevnte også en
+15
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+tendens om at det var mye dårlig førsteforsvarsarbeid i norsk tippeliga. Han uttrykte misnøye
+og mente fortsatt det finnes få argumenter for å gjøre nettopp dette.
+
+Ulike måter å organisere forsvarsleddet i 3-5-2 på
+Jeg vil kort gå igjennom ulike måter å organisere seg på i denne formasjonen uten å diskutere
+fordeler og ulemper. Denne diskusjonen vil jeg komme nærmere inn på når jeg presenterer
+retningslinjene i Juventus’ spillestil og hvorfor jeg eventuelt vil bruke dette i eget lag. Jeg vil
+bruke boken «Soccer strategies – defensive and attacking tactisk» av Robyn Jones og Tom
+Tranter som utgangspunkt i denne presentasjonen.
+Det ortodokse mannsmarkering systemet:
+
+I dette systemet så er det to markeringsstoppere som opererer foran en sweeper.
+Markeringsspillerne vil da ta ut motstanders (to) angripere gjennom hele kampen. Det betyr at
+en markeringsstopper har ansvaret for en spiss og den andre for motstanderens andre spiss.
+Uavhengig av bevegelsene skal spissen fotfølges. Markeringsstopperens bidrag i denne
+kampen er at hans spiss ikke scorer.
+Den tredje forsvarsspilleren, sweeperen eller «libero» er oftest fritatt markeringsansvar og
+opererer som en sikringsspiller bak markeringsstopperne. I motsetning til
+markeringsstopperne, som stort sett bare bidrar defensivt, vil sweeperen eller liberoen ha
+frihet til å bidra offensivt og.
+16
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Sonebasert mannsmarkering system.
+
+Dette systemet baserer seg på mange av de samme prinsippene som ble presenter over, en
+markeringsstopper har ansvaret for en angriper. Forskjellen ligger hovedsakelig i at
+markeringsspillerne ikke følger «sin» spiller overalt på banen, men opererer som høyre og
+venstre markeringsstopper. Det vil si at hvis en motstander beveger over på motsatt side så
+bytter man spiller å markere i stedet for å følge han.
+Sweeperens rolle i begge disse systemene vil primært handle om å være en sikringsspiller og
+for å sørge for og ha bakromskontroll. Sweeperen vil stort sett alltid vil ha spillet foran seg og
+være en «fri-spiller», dette gjør at han har god oversikt og kan justere presshøyde og andre
+taktiske grep underveis. På mange måter er han sjefen på banen, særlig når det kommer til den
+defensive delen av spillet.
+Sonebasert tre-manns forsvar
+
+Sonebasert tre-manns forsvar benytter seg av de samme prinsippene som i en firebacks-linje. I
+motsetning til det ortodokse mannsmarkeringsforsvaret og sonebaserte
+mannsmarkeringssystemet, så er ingen fritatt markeringsansvar. Alle markerer i sin sone og
+17
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+hvis en motspiller gjør en diagonal bevegelse blir han «sendt videre» til forsvarspilleren i den
+sonen han entrer. Her blir altså prioriteringen press, sikring, dekke rom. I dette systemet vil
+man da også være mer medspillerorientert og forholde seg til førsteforsvarer som er i press,
+enn motspillerorientert.
+
+Ulike måter å organisere midtbaneleddet på
+Interessante spørsmål når man praktiserer er form for 3-5-2 er hvordan man organiserer den
+sentrale midtbanetrioen og hvor høyt man plasserer de to vingbackene. Jeg ønsker ikke å
+problematisere og diskuterer fordeler og ulemper her, mer bare å presentere noen av de mest
+vanlige måtene å gjøre det på.
+Noen velger å bruke et anker på midten med offensive indreløpere og relativt høye
+vingbacker. Ankeret vil da falle ned i forsvarsleddet hvis en av de tre bak blir dratt ut mot
+sidekorridor. Offensivt vil han ofte søke dypt for å hente ball og sette i gang angrepene,
+samtidig som indreløperne da vil ha mer offensiv frihet.
+
+Her ser vi et eksempel på hvordan Italia framstod i EM 2012. Her ligger i utgangspunktet
+vingbackene på høyde med ankeret, og indreløpere og de to spissene er de som skal stå for de
+fleste offensive bidragene.
+18
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Det går også an å spille med to sittende midtbanespillere og en trequartista som opererer
+mellom midtbaneleddet og frontleddet.
+
+Selv om en formasjon gir en statisk beskrivelse og viser til spillernes utgangsposisjon i
+motsetning til å snakke om et system som viser hvordan formasjonen brukes i spillet, mener
+jeg likevel forskjellene jeg beskriver her er av en slik art at det da også vil ha stor betydning
+for systemet og strukturen. Nyanseforskjeller vil hele tiden opptre i løpet av kampen, hvor
+høyt plasserer man trequartistaen, hvor høyt i banen er utgangsposisjonen til vingbackene og
+hvordan er rollefordeling mellom de to spissene? Dette er spennende og viktige nyanser som
+er med på å definere et lags struktur både offensivt og defensivt.
+Jeg vil i det neste nå konsentrere meg om Juventus og deres spillestil, altså hvordan Juventus
+opptrer både i forsvar og angrep.
+
+Metode:
+Metode kan defineres på flere måter. På den ene siden kan metode beskrive læren om hvordan
+en kan samle inn informasjon:
+”Metode er snevert definert som den håndverksmessige siden av vitenskaplig virksomhet,
+eller mer presist læren om de verktøy som kan benyttes for å innsamle informasjon”
+(Halvorsen, 1993)
+På den annen side kan også metoden være selve formålet med arbeidet, og noe vi bevisst
+bruker for å få ny kunnskap og svar på de spørsmål vi har stilt oss.
+
+19
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+”En metode er en fremgangsmåte, et middel til å løse problemer og komme fram til ny
+kunnskap. Et hvilket som helst middel som tjener dette formålet, hører med i arsenalet av
+metoder”
+(Halvorsen, 1993)
+Sagt med andre ord så er det altså fornuftig å benytte seg av den metoden som passer best for
+den aktuelle problemstilling.
+
+Analyse av alle scoringer for – og i mot Juventus sesongen 2012/2013
+I denne oppgaven benytter jeg meg både av en kvantitativ - og en kvalitativ metode, begge
+gjennom bruk av kampanalyse.
+
+Om kampanalyse:
+I Norge kom kampanalysen for alvor på kartet gjennom Egil Olsen. I boka «Effektiv Fotball»,
+1994 (Larsen, Olsen og Semb) er temaet viet et eget kapittel. Boka poengterer for øvrig at en
+god analyse krever både kvalitative og kvantitative data. Tall alene er ikke nok. Målet er å få
+mer kunnskap om hvordan laget kan fremstå best mulig ut i fra fotballens ide om å score flere
+mål enn motstanderen.
+Som trener har jeg selv opplevd hvor nyttig dette verktøyet kan være, både for trenerteamet,
+men også for laget, lagdeler og enkeltspilleren. I min hverdag som er norsk 2. divisjon tror jeg
+dette er et område som mange lag, inkludert mitt eget, har mye å gå på. Hvis vi benytter dette
+systematisk inn mot spillergruppa og velger ut fokusområder mener jeg det vil være til stor
+hjelp, kanskje særlig når det handler om å etablere en spillestil med overordnede prinsipper
+for så å bryte ned disse og se på virkemidler i de ulike fasene i spillet.
+
+Kvantitativ metode:
+Det som kjennetegner den kvantitative metoden er at det er en systematisert og strukturert
+tilnærming som tar sikte på å formidle forklaringer (Dalland, 2012). I denne oppgaven har jeg
+valgt å bruke et analyseskjema (se vedlegg 1) som verktøy for å systematisere og kategorisere
+alle målene for og i mot Juventus. På den måten får jeg et godt og helhetlig bilde som gjør det
+lettere for meg å se styrker, muligheter og svakheter i deres spillestil gjennom en strukturert
+observasjon.
+Det som gjør dette verktøyet noe sårbart er at noen kanskje vil vurdere enkelte angrep for eller
+i mot Juventus som noe annet enn det jeg har gjort. Hvor går for eksempel grensen mellom et
+20
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+gjenvinningsangrep og det vi definerer som etablert angrep? Når går et angrep fra å være en
+overgang til å være spill mot etablert? Når er Juventus i posisjonell ubalanse? Det vil være
+flere slike nyanseforskjeller andre vil kunne tolke annerledes, likevel mener jeg at
+analyseoversikten gir et helhetlig og godt bilde som har gjort det lettere å finne de strukturelle
+retningslinjene i laget.
+
+Kvalitativ metode:
+Ved bruk av en kvalitativ metode søker man å finne dybdekunnskap kontra bredde. Kvalitativ
+metode har som hensikt å fange opp mening og opplevelse som ikke lar seg tallfeste eller
+måle. Den kvalitative tilnærmingen går i dybden og har som formål å få fram sammenheng og
+helhet. Den tar sikte på å formidle forståelse. (Dalland, 2012)
+I denne oppgaven har jeg sett et utall av Juventus sine kamper både i sesongen 2012/2013,
+men også inneværende år. Jeg har vært opptatt av å se dem mot ulike lag og i kamper av ulik
+betydning eller der man kan forvente en annen inngang til kampen. Jeg har også sett alle
+kampene deres i Champions League både i årets sesong, men også i sesongen 2012/2013.
+På bakgrunn av dette mener jeg at jeg har gode forutsetninger for å forholde meg til funnene i
+den kvantitative metoden. Disse funnene blir behandlet og sett i sammenheng med det jeg har
+«sett» av Juventus. Stort sett har dataen forsterket det inntrykket jeg har dannet meg, men i
+enkelte tilfeller har det både justert og endret min oppfatning. Jeg opplever selv at bruken av
+disse to metodene har gitt meg økt forståelse og innsyn i Juventus måte å spille på.
+En åpenbar svakhet ved denne metoden er at andre muligens vil «se» kampene annerledes enn
+meg og heller velge å vektlegge andre elementer eller finne andre karakteristika i Juventus
+spillestil som jeg ikke har sett eller nødvendigvis er enig i.
+Vi snakker også om uformelle/ustrukturerte intervjuer som samtaleintervju og dybdeintervju,
+gjerne i tilknytning til observasjon. Dybdeintervjuet («det kvalitative intervju») benytter vi når
+vi er ute etter en dypere forståelse av folks atferd, motiver og personlighet – og innebærer en
+konversasjon der intervjuer oppmuntrer undersøkelsesobjektet til å formulere i egne ord
+erfaringer, følelser og holdninger som er relevante for problemstillinga (Dalland, 2012).
+En slik form ønsket jeg å benytte i min fotball-prat med Tommy Svindal Larsen og Torjus
+Hansén. Jeg hadde lagd et oppsett med problemstillinger og spørsmål jeg ønsket å komme
+
+21
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+innom i løpet av samtalen, men denne ble ikke fulgt slavisk, da jeg får mer opptatt av å få en
+god flyt og en «levende» samtale.
+
+Juventus’ spillestil
+Juventus i forsvar
+«Dette laget har kommet på syvende plass to ganger nå. Jeg har ikke kommet her for dette. Vi
+kan ikke lenger være så elendige.»
+Ordene tilhører Juventus trener Antonio Conte som var nokså tydelig i sitt første møte med
+spillergruppa etter at han tok over. Resultatene har ikke latt vente på seg med to strake
+seriegull og skrivende stund leder de Serie A med 8 poeng på Roma etter 18 serierunder.
+Noe av det mest oppsiktsvekkende med Juventus under Contes ledelse er at de nesten ikke
+slipper inn mål. Sesongen 2011/2012 tapte de sågar ikke en kamp, men hadde til gjengjeld 15
+uavgjorte kamper. Under ser vi resultatene i den påfølgende sesongen og inneværende sesong.
+Lag
+Juventus
+2011/12
+Juventus
+2012/13
+Juventus
+2013/14
+
+kamper
+38
+
+vunnet
+23
+
+uavgjort
+15
+
+tap
+0
+
++ mål
+68
+
+-mål
+20
+
++/+48
+
+poeng
+84
+
+38
+
+27
+
+7
+
+4
+
+69
+
+21
+
++48
+
+88
+
+18
+
+16
+
+1
+
+1
+
+42
+
+11
+
++31
+
+49
+
+Tallene over viser at Juventus slipper inn 0,55 mål i snitt per kamp. Hvis vi gjør samme
+utregning for serievinner i de tre andre av de fire store ligaene i verden, og starter med
+Premier League (Arsenal leder serien i skrivende stund etter 20 spilte kamper) ser vi at de
+slipper inn 0, 94 mål i snitt. De samme tallene fra Primera Division viser at serievinnerne de
+tre siste sesongen slipper inn 0,89 mål i snitt. Juventus slipper altså inn vesentlig færre mål
+enn serievinnerne i disse to ligaene. Nærmest kommer vinnerne av Bundesliga de tre siste
+årene med 0,6 innslupne mål i snitt.
+Hvis vi ser nærmere på hvordan vi Juventus slipper inn mål og bryter opp dette kan vi
+presentere følgende tall for alle turneringer 2012/2013:
+-
+
+Totalt slipper Juventus inn 36 mål, dette inkluderer Serie A, den nasjonale cupen og
+Champions League.
+22
+
+Uefa a-lisens 2013/2014
+
+-
+
+Even Ødegaard
+
+13 av målene (36 %) kommer når Juventus spiller etablert forsvar, og 12 av målene
+kommer når Juventus opptrer i lavt press.
+
+-
+
+Kun ett – 1 – mål kommer etter at Juventus har presset høyt.
+
+-
+
+12 mål (33,33 %) kommer etter en overgang i mot.
+
+-
+
+11 mål (30, 5 %) kommer på dødball og av disse er 5 på straffe, 3 etter corner, 2 etter
+korridor frispark og 1 mål etter direkte skudd fra frispark.
+
+Hvis vi ser bort ifra målene som kommer etter dødballsituasjoner, kan vi se nærmere på
+hvordan målene i spill kommer.
+-
+
+13 mål kommer når Juventus spiller etablert forsvar. Av disser scores åtte mål fra
+mellomrommet (skudd), 3 mål kommer etter vellykket gjennombrudd i bakrom og 3
+mål etter innlegg.
+
+-
+
+12 mål kommer etter overgang i mot. Av disse kommer 8 mål etter vellykket
+gjennombrudd i bakrom, 3 mål kommer fra skudd i mellomrommet og 1 mål kommer
+etter innlegg.
+
+Kommentarer til funnene:
+
+Nå er det jo for så vidt et funn i seg selv at Juventus slipper inn lite mål. Hvorfor kommer jeg
+tilbake til når jeg viser bilder og forklarer hvordan Juventus opptrer i forsvar. At så mange
+som 11 mål kommer etter gjennombrudd i bakrom, 8 av disse etter en overgang i mot, viser at
+Juventus sliter noe med tempo i den bakre 3’eren. Det betyr at de svært sjeldent er i numerisk
+ubalanse, men at de rett og slett ikke har bakromskontroll og blir løpt fra. Et vellykket
+gjennombrudd i bakrom med påfølgende scoring kan også være et resultat av at man har gjort
+en for dårlig jobb som førsteforsvarer og har blitt passert i en mot en-situasjoner. Som nevnt
+slet den bakre 3’eren med tempo og det blir avdekket ved flere av scoringene.
+11 mål kommer etter skudd fra mellomrommet. Her er det en kombinasjon av at
+førsteforsvarer ikke støter godt nok i ballfører og at noen av skuddene rett og slett er
+fantastiske prestasjoner. Generelt vil jeg si at Juventus er flinke til å ha kontroll på dette
+rommet, noe jeg kommer tilbake til litt senere i oppgaven.
+Kun 4 mål kommer etter innlegg, noe som viser hvilken styrke de har til å forsvare eget mål i
+farlige soner. Dette henger sammen med hvordan de er organisert og hvilke retningslinjer som
+gjelder i forsvarsspillet, også dette noe jeg vil komme nærmere inn på.
+23
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+10 mål kommer etter dødball, noe som utgjør 27 %. Det er lite som er oppsiktsvekkende med
+dette da «Toppfotballsenteret» operer med litt over 25% fra Champions League i 2012/2013.
+Det jeg finner mest interessant er at Juventus slipper inn få mål og svært sjeldent er i numerisk
+ubalanse, noe som igjen indikerer at de ofte har gode forutsetninger for å løse krisesituasjoner.
+Samtid er det for meg tydelig at Juventus har manglet litt fart i bakre ledd noe som har gjort
+de mer sårbare på kontringer i mot enn balanseforholdene egentlig skulle tilsi.
+Når jeg videre snakker om ulike rom i min presentasjon av Juventus i angrep og forsvar, vil
+jeg forholde meg til den skjematiske fremstillingen av rom i forhold til angrepsretningen og
+forsvarsspillernes posisjoner som vi finner i «Ferdighetsutvikling i fotball» av Bergo,
+Johansen, Larsen og Morisbak (2008).
+
+Figur 3: rom i forhold til angrepsretningen
+
+«Catenaccio»
+
+«Catenaccio», som på 60- tallet ble praktisert av begge Milan-lagene, ble slags italiensk skole
+for hvordan man kunne spille forsvar. Dette var en reaksjon på dominansen til Real Madrid og
+Benfica i Europa, og det første de italienske storlagene gjorde var å posisjonere en spiller bak
+4-backs linjen som en sikringsspiller. Catenaccio betyr «bolt» eller «lås» på italiensk og
+
+24
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+fungerte også som det i praksis. Både Inter og AC Milan spilte i en 1-4-3-2 formasjon, hvor
+de fire spillerne bak praktiserte et blandingsforsvar mellom sone og markering (Wilson, 2008)
+Det italienske laget som kom helt til finalen i EM 2000 hadde adaptert en moderne
+catenaccio-stil med en flat 3-backs linje som trakk seg helt tilbake til egen 16 meter og fikk
+støtte av to lave vingbacker. Korte avstander mellom lagdelene og spillere gjorde Italia
+vanskelig å bryte ned samtidig som det ga dem mange gunstige kontringer. («Coaching the
+european 3-5-2», 2005)
+Et av arbeidsjernene på midtbanen til Italia i dette mesterskapet var nåværende Juventus
+trener Antonio Conte. At han har blitt inspirert og påvirket av denne måten å organisere
+forsvarsspillet på er det liten tvil om, og etter og ha testet ut ulike formasjoner i starten av
+Juventus-karrieren brukte han 3-5-2 som en måte å stoppe motstander i 3-5-2 på. Etterhvert i
+sesongen 2011/2012 utviklet dette seg til å bli den formasjonen Juventus falt ned på, og som
+de i dag mer eller mindre har rendyrket.
+Presshøyde
+
+Forsvarsspillet består hos de fleste lag av en del klare og faste prinsipper som er stabile fra
+kamp til kamp. Velger du først å spille sone så vil prinsippene, strukturen, retningslinjene og
+prioriteringene forbli de samme, uansett kamp og motstander. Presshøyden derimot er en
+mindre stabil faktor i et soneforsvar. Avgjørelsen om å spille lavt til høyt press blir først og
+fremst tatt på bakgrunn av en vurdering av motstanderlagets kvaliteter og eget lags styrke.
+Andre forhold kan være baneforhold, klimatiske forhold og stillingen i kampen. Presshøyden
+til ett lag er altså fleksibel, også innenfor en og samme kamp (Bangsbo og Peitersen, 2000).
+Som en del av ett godt forsvarsspill ser jeg på det som en nødvendighet å se konsekvensene
+lavt og høyt press vil medføre for ett fotballag i kampsituasjon. Med presshøyde menes hvor
+på banen et lag velger å sette inn kreftene på å vinne ballen tilbake(Olsen, 1985). I hovedsak
+skiller vi mellom høyt og lavt press. Dette er likevel bare ytterpunktene på kontinuum, og
+mange lag befinner seg et sted midt i mellom.
+Lavt press
+
+Høyt press
+
+Olsen(1994) mener det er vanskelig å si noe om, om det er bedre å spille lavt enn høyt. Han
+understreker at begge er forbundet med både fordeler og ulemper, noe som har medført at
+mange lag ofte velger å sette inn presset et sted mellom høyt og lavt. De beste lagene i verden
+
+25
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+spiller mer eller mindre lavt, men få lag befinner seg helt ytterst på kontinuumet mot lavt
+press. Det er få lag som har høyt press som en permanent del av sin spillestil.
+
+Juventus i lavt press
+
+Her er en vanlig brukt oppstilling fra sesongen 2012/2013. I etablert forsvar ligger Juventus
+ofte lavt og etablerer en form for 5-backs linje med to lave vingbacker. Foran ligger en
+midtbanetrio med Pirlo i dypet og to indreløpere foran seg, og helt på topp har vi to spisser.
+Retningslinjene er klare og Juventus ønsker å skape overtallssituasjoner defensivt, da ofte i
+området rundt vingback eller ytterste midtback. Her får vi ofte 3 mot 2 eller 4 mot 3
+situasjoner fordel Juventus. Juventus opererer med en flat bakre 3’er (5’er) og benytter
+soneprinsipper i forsvarsspillet sitt, men tenderer til markering i lavt press med midtstopper
+når motstander legger en spiller i rom 2. Begge spissene ligger på egen halvdel og tar ut
+motstanders sentrale midtbanespiller eller midtstoppere.
+
+26
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her har vi et godt bilde på Juventus i lavt press. Samtlige spillere fra eget lag på egen halvdel.
+Her har det akkurat vært en spillvending fra venstre mot høyre som Juventus’ høyre vingback
+leser. Han går da i press på motstanderlagets venstreback og tvinger han til å spille inn i
+banen. I dette tilfellet ligger det ingen motstander utvendig og høyre midtback har kontroll på
+motstander i rom 2 og har sikring hos midtback. Ideelt sett rekker høre indreløper å
+sideforskyve nok til å hindre den pasningen, men høyre midtback (Barzagli i dette tilfellet) vet
+at han har ansvar for å støte dersom pasningen kommer fram. I disse tilfellene tenderer
+Juventus til markering da Barzagli følger motstanders bevegelse til han ser han ikke får
+ballen.
+
+27
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Over har vi en lignende situasjon hvor motstanders venstreback kommer fram i banen. I dette
+tilfellet velger ikke Juventus høyre vingback å gå i press da han må forholde seg til
+kantspilleren. I disse situasjonene er det indreløper som har ansvar for å gå i press på back,
+høyre vingback tar ut venstre kant og høyre midtback tar ut spiss. Vi ser også at sikringsspiller
+er på plass i den sentrale midtbacken. Dette er klare mønstre som vi ser går igjen og både
+vingback, indreløper og de ytterste midtbackene er flinke til å identifisere hva slags situasjon
+som oppstår og handler deretter. Det er også tydelig at det er fra disse områdene Juventus
+ønsker at motstander starter angrepene sine. Den sentrale midtbanetrioen ligger alltid tett og
+søker å hindre at det blir spilt inn bak- og gjennom dem. Når vending skjer eller back eller
+stopper blir frispilt ledes alltid spillet mot rom 1 og 2. På denne måten har Juventus god
+balanse både posisjonelt og numerisk.
+
+Her har vi et oversiktsbilde som gir oss et godt innblikk i avstander mellom lagdelene og
+romforhold. Den sentrale midtbacken (Bonucci) er den som styrer linja og den som oftest har
+et sikringsansvar. Det betyr at både høyre og venstre midtback samt høyre og venstre
+vingback kan spille motstander offside når de ser hele linja. I tilfellet vet alle i bakre ledd at
+motstander vil være offside når han passerer midtbacken (Bonucci). Ellers ser vi at det er
+korte avstander mellom lagdelene og at begge spissene tar betydelig defensivt ansvar, noe
+som gjør det vanskelig for motstanders sentrale midtbane og involvere seg i framrom 1 og
+mellomrom. Konsekvensen blir ofte at sentral midtbanespiller hos motstander faller ned og tar
+over oppspillsansvar fra midtstopper, noe som fører til dårligere betingelser i
+gjenvinningsfasen.
+28
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Over ser vi igjen hvordan midtback Bonucci spiller motstander offside. Han vet at han alltid
+er den bakerste spilleren, og på den måten har han full kontroll på situasjonen.
+Juventus ved innlegg i mot
+
+Juventus ønsker så ofte som mulig å beholde de tre midtbackene sentralt i egen boks ved
+innlegg i mot. I så måte har de ofte gunstige betingelser for å være i overtall ved innlegg,
+samtidig som de presumptivt beste hodespillerne er posisjonert slik at de får tatt unna innlegg
+som kommer i farlig sone. Som vi ser av dette bildet så har Juventus et 4 mot 2 overtall i egen
+boks. Venstre midtback og høyre vingback er sonespillere, mens den sentrale midtbacken og
+29
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+høyre midtback markerer. Ved innleggs-situasjoner markerer Juventus i sone. Dette er noe
+Juventus behersker ekstremt godt. Av 21 innslupne seriemål i 2012/2013 sesongen kom kun 4
+mål etter innlegg.
+
+Over har vi en litt annen situasjon hvor venstre midtback er ute av posisjon. Likevel er klima i
+egen boks gunstig da Juventus har et klart overtall. I dette tilfellet har motsatt vingback
+kommet inn og har kontroll på motstander på bakre stolpe, høyre midtback er fri og kan gå på
+ball, mens sentral midtback har kontroll i forkant av fremre stolpe. I tillegg er både sentral
+midtbane og indreløper i god posisjon slik at de ville hatt gode forutsetninger for å ta ut løp
+fra motstanders midtbanespillere.
+Oppsummering av Juventus i lavt press:
+
+-
+
+De spiller soneforsvar, men tenderer til markering i lavt press, da med høyre og
+venstre midtback som markerer ut motstander i rom 2 og mellomrom (ønsker primært
+at sentral midt tar ut dette rommet).
+
+-
+
+De etablerer en bakre 5’er med lave vingbacker med tre sentrale midtbanespillere
+foran seg organisert med et anker, to indreløpere og to spisser som legger seg 10-15
+meter inn på egen halvdel.
+
+-
+
+De ønsker ikke å bli spilt gjennom sentral, men dersom rettvendt motstander i
+framrom eller rom i midtbaneleddet er det prinsippene press og sikring som gjelder.
+
+30
+
+Uefa a-lisens 2013/2014
+
+-
+
+Even Ødegaard
+
+Indreløpere viser seg som oftest i back og leder spillet mot rom 1 og 2. Vingback og
+ytre midtbacker er da tett i henholdsvis kant og spiss og er klare til å støte for
+ballerobring her. Sentral midtback vil da ha et sikringsansvar.
+
+-
+
+Dersom vingback går i press på motstanders back ledes spillet innover mot indreløper
+og ytre og sentral midtback. Dette skjer oftere når Juventus presser høyt, noe jeg
+kommer tilbake til senere.
+
+-
+
+Juventus prioriterer altså sterkt å ha kontroll på bakrom og mellomrom og oppnår
+mange brudd i rom 2.
+
+-
+
+Juventus har «alltid» mye folk i egen boks og konsentrer veldig sentralt. Det betyr
+korte avstander og gode sikringsforhold noe som er gunstig dersom førsteforsvarer blir
+passert.
+
+-
+
+Juventus har god kontroll i egen boks og har ofte de tre midtbackene på plass slik at de
+tar ut første sone, midtsone og bakre sone. Er en av disse dratt ut så faller vingback inn
+og overtar bakre sone.
+
+-
+
+Juventus tar lite eller tilnærmet ingen hensyn til motstander når de spiller etablert
+forsvar med lavt press. Soneforsvarets medspillerorientering, noe som gjør det
+uavhengig av motstander ble jo trukket fram som en av soneforsvarets fordeler av Egil
+Olsen.
+
+Utfordringer i det lave presset:
+
+-
+
+Det er muligheter for å slå mange innlegg fra dypt i banen. Da bør du ha spillere som
+håndterer dette.
+
+-
+
+De tre sentrale midtbane spillerne må ha stor løpskraft og må ofte vise seg bredt på
+motstanders back. Dersom motstander klarer å vende spillet kan de lage et overtall
+utenfor motsatt indreløper og sette opp kombinasjoner rundt ytre og sentrale midtback.
+
+-
+
+Det kan være krevende for indreløper og vingback å identifisere situasjoner og vurdere
+hvem som skal gå i press når. Og dersom vingback går i press og har kantspiller
+utvendig så må ytre midtback sideforskyve og operere som back. Dette er en vanskelig
+øvelse.
+
+-
+
+Bruddene kommer ofte lavt i banen noe som gjør at det er langt fram til mål. Dette
+krever rask omstilling og løpskraft, særlig fra indreløpere og vingbacker (dette
+kommer jeg nærmere tilbake til når jeg skal ta for meg overgangsspillet til Juventus).
+
+31
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Juventus i høyt press:
+De gangene Juventus går høyt endrer retningslinjene seg noe. Der hvor spissene tidligere lå
+sentralt og lavt i banen og tok ut et anker eller motstanders sentrale midtbanespillere, presser
+de nå tøft i hver sin stopper. Vingback leser dette og går i press på back og leder spillet inn i
+banen mot indreløper og sentral midtbanespiller. Når vingback går i press sideforskyver ytre
+midtback og operer som en back. De to andre midtstopperne sideforskyver og, og motsatt
+vingback faller inn og ned.
+
+Her ser vi hvordan den ene spissen setter inn et sidepress på motstanders venstre midtstopper.
+Høyre vingback er tett oppi venstre back og høyre indreløper skjærer av pasnings langs
+bakken samtidig som han kan støte i spiller i framrom 1.
+
+32
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her ser vi neste sekvens hvor sentral midtbanespiller (Pirlo) ligger i rommet foran den
+sentrale midtbacken (Bonucci) som markerer ut motstanders spiss. Høyre midtback (Barzagli)
+har sideforskøvet og opererer som en vanlig back, mens motsatt vingback har falt ned og inn
+og tar ut motstanders kantspiller. I dette tilfellet fungerer venstre midtback som en
+sikringsspiller. Som vi også ser av bildet får Juventus betalt for sitt høye press når Pirlo
+kontrollert nikker ballen ned til Barzagli og Juventus kan gå i angrep.
+
+Her ser vi et nytt eksempel på Juventus i (relativt) høyt press. Venstre vingback presser
+motstanders høyreback, venstre midtback har sideforskjøvet og operer som venstreback og
+33
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+den sentrale midtbacken er her på vei opp i motstanders sentrale midtbanespiller. Ideelt sett
+burde Juventus sentrale midtbanespiller (Pirlo) sideforskøvet mer, slik at midtback ikke hadde
+trengt å støte oppi. I dette tilfellet blir Juventus mer mannsorienterte enn det jeg liker, noe
+som gjør de sårbare hvis man er litt på etterskudd. Høyre midtback og høyre vingback trekker
+inn i banen og fungerer som sikringsspillere, og sånn sett bør Juventus likevel ha god kontroll.
+
+Her ser vi neste sekvens hvor oppspillet har gått til den sentrale midtbanespilleren som igjen
+slipper på en berøring til høyre kant (Robben). Juventus venstre midtback (som nå oprerer
+som venstre back) leser situasjonen og setter inn en vellykket takling og Juventus erobrer
+igjen ballen.
+
+34
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Over har vi en ny situasjon hvor venstre indreløper har vært i press på motstanders høyreback.
+Den ene spissen ligger på høyre stopper og den andre spissen har da falt ned og tar ut sentral
+midtbane hos motstander. Høyreback frispiller venstre midtstopper, noe Juventus’ høyre
+indreløper leser, går når ballen går og opprettholder det høye presset. Dersom indreløper ikke
+hadde gått ville ikke spissen klart å forflytte seg fort nok og motstander ville ha spilt av det
+høye presset.
+
+I stedet ender det med en dårlig klarering (som vi ser over) og en duell hvor Juventus vinner
+en 2. ball høyt i banen og kan starte et nytt angrep derfra.
+Oppsummering av Juventus i høyt press:
+
+-
+
+Som oftest opptrer Juventus i lavt press, men de evner å slå om og presse høyt på
+«gode signaler», som hele laget oppfatter. Det være seg en forsvarsspiller med ball
+som har nesa mot eget mål, en tversoverpasning som tar lang tid, et dårlig førstetouch
+eller en dårlig klarering.
+
+-
+
+Juventus to spisser har ansvaret for å presse motstanders midtstopper (avhenger litt av
+motspillet og hvor mange spillere motstander har sentralt), men så fort midtstopper
+spiller ut til back, faller spissen som ligger på motsatt stopper ned og tar ut en sentral
+midtbanespiller. Er ikke dette nødvendig og Juventus har overtall sentralt så
+opprettholder spissene presset på begge stoppere.
+
+-
+
+Som oftest er det indreløper som setter inn presset på motstanders back og da ledes
+spillet utover mot rom 1 og rom 2, akkurat som når de er i lavt press.
+
+35
+
+Uefa a-lisens 2013/2014
+
+-
+
+Even Ødegaard
+
+Ved vending av spill mot motsatt back leser motsatt vingback dette og setter inn et tøft
+press og leder innover mot sentral midtbane og ytre midtback, som da tar ut disse
+rommene.
+
+-
+
+I høyt press tenderer Juventus mer til markering enn de gjør i et lavt press.
+Soneprinsippene må vike i tilfeller og da er det press på ballfører, markering og
+sikring som gjelder. På denne måten blir ikke belastningen på de tre sentrale
+midtbanespillerne så stor som den ville ha blitt hvis de skulle ha forsøkt å dekke rom i
+stedet for å ta ut spiller i sin sone.
+
+Utfordringer i det høye presset:
+
+-
+
+For å lykkes i det høye presset er Juventus avhengig av å ha en felles forståelse av hva
+«gode signaler» er. Dersom man agerer ulikt eller ikke er samtidige her så vil det være
+lett for motstander å spille seg ut av dette presset og skape overtall et annet sted på
+banen.
+
+-
+
+Dersom laget leser pressituasjonen ulikt, vil man få en konflikt over hvilke rom man
+skal prioritere. Et tenkt scenario kan være at spissene mener at det er muligheter for å
+gå, midtbaneleddet blir med, mens det bakre leddet tviler og vil heller ha
+bakromskontroll enn å stå etter. Da oppstår det strekk i laget og motstander vil kunne
+utnytte rommet mellom bakre ledd og midtre ledd. Alternativt kan spissene gå når
+midtbanen ikke er klar, noe som medfører at motstander vil kunne utnytte framrom 1
+eller rom i midtbaneleddet.
+
+-
+
+Ulike oppfatninger av om det er gunstig å sette inn et høyt press kan altså føre til ulike
+prioritereringer når det gjelder hvilke rom som oppleves som mest farlige. Da vil man
+få strekk i laget og lettere bli utspilt.
+
+-
+
+I høyt press etterlater man seg (som oftest, hvis ikke laget har stor strekk og gir bort
+mellomrom) mye bakrom. Dersom presset ikke er godt nok og mislykkes er man
+sårbare for å få gjennombrudd mot seg i bakrom.
+
+-
+
+Når Juventus tenderer mer til markering enn rene soneprinsipper som press, sikring og
+dekke rom, betyr det at det stilles store krav til førsteforsvarerferdighetene. Hvis man
+ikke klarer seg en mot en eller er på etterskudd, vil motstander ha skapt overtall og
+ubalanse som senere kan føre til gjennombrudd og mål eller målsjanse i mot.
+
+36
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Juventus og overganger i mot:
+Det som er påfallende med Juventus og deres forsvarsspill er at de svært sjeldent blir tatt i
+numerisk ubalanse. I boka «Ferdighetsutvikling i fotball» blir balanse begrepet beskrevet slik:
+Balanse beskriver hvorvidt laget i forsvar har god kontroll over situasjonen eller ikke. Et
+forsvar i god balanse er et forsvar med god kontroll, noe som betyr at alle forsvarsoppgavene
+er ivaretatt. Det må være press på ballføreren, og spilleren som er i press, må sikres veda at
+rommet bak denne dekkes. I tillegg må alle farlige rom være dekket. Dersom disse oppgavene
+er ivaretatt er, er laget i posisjonell balanse. Dette medfører som oftest at det forsvarende
+laget må ha et tilstrekkelig antall spillere mellom ballen og eget mål. I en gitt situasjon må det
+være minst like mange forsvarsspillere som angrepsspillere på riktig side av ballen. Dette
+kalles numerisk balanse (s. 84).
+Likevel kan Juventus være sårbare på overganger i mot, og jeg slik jeg ser det kan det skje på
+to måter:
+1. Når en av de tre midtbackene går fram i banen og tar oppspillsansvar og mister ballen
+står Juventus kun igjen med to spillere (noen ganger tre hvis den sentrale
+midtbanespilleren rekke å falle ned og dekke rommet) da begge vingbackene står
+relativt høyt og bredt. Her må risikovurdering og kvalitet i pasningen være på plass.
+Balltap på egen halvdel her er sårbart.
+2. Juventus bakre 3’er (spiller med det når de angriper) mangler fart og blir for ofte gått
+av i en mot en-situasjoner. Det betyr at strukturen i mange tilfeller er god, men at de
+individuelle defensive kvalitetene ikke er gode nok i førsteforsvarer jobben.
+Hvis vi nå ser nærmere på hvordan målene mot Juventus etter overgang i mot kommer finner
+vi at:
+-
+
+8 av målene kommer etter gjennombrudd i bakrom. Som oftest skjer dette ved at
+en eller flere i det bakre leddet blir fraløpt eller driblet. Med unntak av ett (1) tilfelle er
+Juventus i numerisk balanse ved alle overganger i mot. Derimot er ikke alltid den
+posisjonelle balanse like god, og det skjer individuelle feil i form av for dårlig
+førsteforsvarerarbeid.
+
+37
+
+Uefa a-lisens 2013/2014
+
+-
+
+Even Ødegaard
+
+3 av målene kommer etter skudd fra mellomrommet. Ved disse tilfellene burde det
+nok blitt støta hardere i ballfører, men når det er sagt så er det noen fantastiske skudd
+som det og er vanskelig å forsvare seg mot.
+
+-
+
+1 av målene kommer etter innlegg. Her blir førsteforsvarer passert og 2. forsvareren
+klarer ikke å ta ut angrepsspiller i boks som får servert ballen på tvers.
+
+Over ser vi et bilde av Juventus etter en overgang i mot. Numerisk og posisjonelt er de i
+balanse, samtidig som indreløper gjør en god jobb som førsteforsvarer som forsøker å ta igjen
+en ballfører som ligger foran seg.
+Oppsummering av overganger i mot:
+
+-
+
+Dette er krisesituasjoner som Juventus behersker bra – i alle fall strukturelt.
+
+-
+
+Disse situasjonene oppstår når Juventus ikke klarer å vinne ballen raskt nok tilbake
+slik at det ikke blir et gjenvinningsangrep, men en overgang i mot.
+
+-
+
+Juventus er svært sjeldent (kun én gang i mine funn) i numerisk ubalanse ved
+overgang i mot.
+
+-
+
+Posisjonelt og individuelt er det imidlertid noe å gå på. Særlig savner jeg mer fart i
+Juventus sin bakre 3’er – de blir løpt fra ved flere av målene.
+
+-
+
+Juventus sine midtbanespiller har god holdning når det kommer til viljen til returløp,
+noe som hjelper den bakre 3’eren og gir dem bedre betingelser.
+
+38
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Juventus i angrep – lagets retningslinjer – en strukturell dimensjon
+Skeptikerne var nok mange da Antonio Conte overtok Juventus etter klubblegenden Ciro
+Ferrara. To opprykk fra Serie B med henholdsvis Bari og Siena samt sparken i Serie Bklubben Arezzo var det han hadde å skilte med. Skulle Juventus være et speilbilde av spilleren
+Conte, hardtarbeidende, iherdig og kompromissløs eller ville han representerer noe nytt?
+Med fasit i hånden kan vi vel si at signeringen har vært en suksess og seiersmaskinen
+Juventus er oppe og går igjen. Og som Andrea Pirlo skriver i sin selvbiografi: «Hvis Arrigo
+Sacchi var et geni, hva er da Antonio Conte?» Dette er jo en fin attest fra en spiller som selv
+er genierklært av mange.
+Troen på at lagets samlede kraft er langt større enn summen av lagets individuelle ferdigheter,
+er stor i vår fotballtradisjon. Det er sikkert derfor det florerer mange begreper knyttet til
+hvordan laget opptrer sammen på banen og jeg ønsker ikke å ordne begrepene hierarkisk.
+Lagorganisering, lagets retningslinjer, lagets struktur, lagstrategi, lagtaktikk, lagsystem,
+lagformasjon og spillestil har alle et beslektet begrepsinnhold. Dog kan vi slå fast at strategi
+innebærer en overordnet langsiktig plan for hvordan laget skal opptre på banen. Taktikk kan
+være knyttet til den spesielle kampen og planen man har i forkant av en kamp og under
+kampen. (Ferdighetsutvikling i fotball, 2008)
+Juventus er som sagt det laget som slipper inn minst mål i de store ligaene (England, Spania,
+Tyskland og Frankrike), men de er også blant lagene som scorer mest. I Serie A har de, under
+Contes’ ledelse hatt et snitt på 1,92 mål per kamp, og er på det nåværende tidspunkt (46 mål
+på 19 kamper i sesongen 2013/2014, noe som gir et snitt på 2,42 scoringer/kamp) det laget
+som scorer mest og slipper inn minst i Italia. Jeg finner det også interessant at Juventus i all
+hovedsak er det laget som har mest possession i nær sagt samtlige kamper. Det er kun i 5
+kamper fra sesongen 2012/2013 at motstanderen har ballen mer enn Juventus. Vil det si at 35-2 systemet kan være et godt utgangspunkt for å bryte ned en motstander i etablert forsvar
+med lavt press?
+I sesongen 2012/2013 scoret Juventus totalt 87 mål i alle turneringer. Hvis vi ser nærmere på
+dette tallet finner vi at:
+-
+
+35 av målene kommer når Juventus er i etablert angrep
+
+-
+
+18 av målene kommer i etablert angrep med gjenvinning (gjenvinningsangrep)
+39
+
+Uefa a-lisens 2013/2014
+
+-
+
+10 av målene kommer på overgang
+
+-
+
+24 av målene kommer på dødball
+
+Even Ødegaard
+
+Hvis vi videre ser på hvor på banen de ulike målene (ser her bort ifra målene som kommer
+etter dødball) kommer ser vi følgende:
+-
+
+34 av målene kommer etter vellykket gjennombrudd i bakrom
+
+-
+
+12 av målene kommer etter skudd fra mellomrommet
+
+-
+
+17 av målene kommer etter innlegg
+
+Et annet interessesant poeng er at Juventus toppscorer dette året var spissen Mirko Vucinic
+med 10 mål. Nå skal det og sies at Juventus hadde tre andre spisser som scoret henholdsvis 9,
+8 og 7 mål. Likevel forteller dette at i Juventus laget er det mange spillere som kan lage mål,
+og særlig indreløperne er mye involvert. Vidal med 10 mål, Marchisio med 6 og Pogba med 5
+mål viser dette.
+Jeg vil nå trekke fram det jeg finner som overordnede retningslinjer i Juventus angrepsspill og
+kommentere disse.
+Oppspill fra midtbackene sentralt i banen:
+
+Dette er et klassisk bilde på Juventus i frispillingsfasen bakfra. I dette tilfellet er det den
+sentrale midtbacken som tar oppspillsansvar og trer opp en spiss som møter i mellomrom.
+Dette rommet blir skapt ved at indreløper på ballsiden strekker og lager rom for spissen å
+
+40
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+møte i. Altså en motsatt bevegelse. Motstander kommer her i en 4-2-3-1 formasjon og prøver
+seg på et høyt press, men klarer ikke å hindre oppspillet, ei heller er de godt nok posisjonert
+slik at de kommer i undertall sentralt i banen. Legg og merke til at begge Juventus vingbacker
+står veldig bredt slik Juventus truer både i bredden og sentralt og motstander klarer ikke å
+dekke rommene sentralt godt nok. Denne pasningen ser vi ofte bakfra hos Juventus, enten fra
+den sentrale midtbacken eller fra enten høyre eller venstre midtback.
+
+Neste fase i angriper viser oss hvilke muligheter som byr seg. Nå skal det sies at dersom spiss
+er orientert da han mottar ballen, eller pasningen kommuniserer bedre og spiller inn riktig fot,
+kan han rettvende seg og sette fart mot motstanders bakre ledd. Her velger han imidlertid en
+pasning ut på høyre vingback som ligger helt bredt og ganske høyt i banen. Juventus legger
+alltid vingbackene helt bredt, på den måten bruker de bredde for å få rom sentralt.
+
+41
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her ser vi at høyre vingback har avansert i banen og tatt med seg indreløper som upresset for
+slå et innlegg. Her har Juventus fylt på med begge spissene og motsatt vingback slik at vi får
+en 3 mot 3 situasjon i motstanders boks. Venstre indreløper har posisjonert seg i returrom og
+sørger for god balanse dersom innlegget klareres. Dette angrepet ender med en gjenvinning
+etter at innlegget blir stoppet, nytt innlegg og påfølgende scoring.
+Utnytte bredde for å skape rom sentralt:
+
+Svært ofte, nesten uavhengig av hva motstander velger å gjøre, får Juventus frispilt en av de
+tre midtbackene. Da strekker indreløper opp i mellomrom og vingbackene går helt bredt,
+mens den sentrale midtbanespilleren tilbyr seg sentralt.
+
+42
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+I bilde over er høyre indreløper relativt bred, mens høyre vingback er noe lavere og helt ute
+ved linja. Den ene spissen har falt ned og møter i mellomrom. I dette tilfellet velger høyre
+midtback og bruke høyre vingback bredt.
+
+Når dette skjer tilbyr alltid den sentrale midtbanespilleren (Pirlo) seg inne sentralt, en spiss
+møter og en strekker, samt indreløper på ballsiden som ofte legger seg i rom 2. På denne
+måten har vingbacken flere alternativer. Over velger han å spille inn sentralt på Pirlo som da
+på en berøring slipper ballen inn i bakrom på spiss som har startet og er alene med keeper.
+Her er det god timing og tydelige retningslinjer. Dette er klassisk Juventus og de ønsker ofte
+gjennombruddene sentralt i banen. Er det ikke mulighet i bakrom, kommer ofte denne
+pasningen fra Pirlo i kropp på spiss.
+Vingback, spiss og indreløper:
+
+Som sagt ønsker som oftest Juventus gjennombruddene sentralt i banen. Det er sjeldent vi ser
+dobling på kant, men vi ser ofte vingbacker som er involvert høyt i banen. Da kommer det
+alltid en bevegelse i mot fra nærmeste spiss, og ofte kommer det et gjennomløp fra indreløper.
+
+43
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her ser vi venstre vingback med ballen. Øverste spiller i bildet er spissen som møter, noe som
+utløser et godt timet gjennomløp fra venstre indreløper som sender han alene med keeper.
+
+Igjen ser vi hvor god timing det er mellom bevegelsene og pasningene det utløser. Legg
+merke til indreløperen som vet han kommer til å få den på en berøring fra spissen som møter.
+
+44
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her har vi en lignende situasjon hvor venstre vingback spiller inn på spiss som møter. Venstre
+indreløper er på vei inn i bakrom, men blir i dette tilfellet ikke brukt. Her ender det med et
+overhopp og at den andre spissen rettvender seg i mellomrom og skyter i mål fra 22 meter.
+Men igjen ser vi hvor tydelige Juventus er i bevegelsene sine på siste tredjedel og hvor de
+ønsker gjennombruddene. Disse relasjonene sentralt med bakromstrussel fra spiss og
+indreløper er noe av nøkkelen i Juventus offensive spill, og 34 av 87 mål (39 %) kommer etter
+gjennombrudd i bakrom, og da som oftest av spiss eller indreløper. Det forekommer også
+bakromstrusler fra vingback, men det er mer sjeldent, da disse som oftest blir satt opp en mot
+en bredt i banen.
+Vingbackene i angrep:
+
+En av nøkkelposisjonene i 3-5-2 systemet som Juventus praktiserer er vingbackene. De faller
+ned og etablerer en 5’er i bakre ledd når Juventus spiller etablert forsvar i lavt press, de er
+høyt i banen og presser motstanders back ved høyt press og de skal være et vendingspunkt,
+men også en kant som kan true bakrom eller gå av motstandere en mot en på siste tredjedel.
+Samtidig er det en forventning om at motsatt vingback fyller på ved innlegg på bakre stolpe.
+Derfor ser vi svært ofte at vingbackene er involvert i mye av det som skjer i Juventus
+offensive spill. Backer som angrepsvåpen er for så vidt ikke noe revolusjonerende, men denne
+rollene skiller seg fra andre backroller siden de i utgangspunktet ikke har noen kantspillere
+foran seg hverken defensivt eller offensivt.
+
+45
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Her har vi et godt oversiktsbilde som viser at venstre midtback er frispilt høyt i banen. Legg
+merke til hvordan spissene har splitta opp, noe som gjør det vanskelig å ta ut spissen som
+møter som legger seg på ballsiden av den sentrale midtbanespilleren hos motstanderlaget.
+Pasningen er perfekt slått inn på riktig fot (høyre) som gjør at spissen kan rettvende seg. Dette
+utløser en bevegelse i bakrom fra høyre vingback som spissen bruker og som sender han alene
+med keeper. Strålende angrep og flott mål og et godt bilde på hvor og hvordan Juventus
+angriper.
+Spiss-spiss relasjon:
+
+Retningslinjene innad i laget kan være både stramme og løse. Dels er dette situasjonsbetinget,
+dels kan antall handlingsalternativer bli styrt av trenerens, spillerens og/eller klubbens syn på
+hvordan fotball skal spilles (Ferdighetsutvikling i fotball, 2008).
+I boka «Lagspill, læring og ledelse» forklarer Lars Tore Rongland relasjonelle ferdigheter
+som noe som karakteriserer samspillet. Relasjonelle ferdigheter handler om gjensidig å
+tilpasse og koordinere sine handlinger til en flytende og helhetlig samhandling (Rongland,
+2008).
+
+46
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Min påstand er at retningslinjene for spiss relasjonene i Juventus i stor grad er styrt.
+Uavhengig av hva slags spisspar Juventus har, ser vi de samme relasjonene. Dette er da et
+tilfelle på at både den strukturelle og relasjonelle ferdighetsdimensjonen opptrer samtidig.
+Som vi har sett av tidligere bilder så jobber alltid spissene tett sammen, som oftest med at en
+møter og en stikker i bakrom, men også møte – flikke – for så å tre igjennom indreløper er
+vanlig å se fra Juventus.
+
+Her har vi et bilde som viser hvordan spissparet ofte jobber med motsatte bevegelser.
+Nærmeste spiss møter og den andre spissen truer bakrom. Dette er de sentrale
+midtbanespillerne til Juventus naturligvis klar over, og evner ofte å bruke den bevegelsen som
+er mest gunstig (fotballferdighet). Over er bakrommet åpent, pasningen er perfekt vekta og
+spiss kommer alene med keeper og scorer.
+
+47
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Igjen ser vi det samme. Indreløper er frispilt høyt i banen, nærmeste spiss møter og drar med
+seg stopperen, dette leser den andre spissen og truer rommet som møte-spissen har skapt. Nok
+en god pasning som sender spiss alene med keeper og ender med scoring. Strålende relasjoner
+og presisjon på siste tredjedel.
+Juventus’ posisjonering ved innlegg:
+
+17 av Juventus totalt 87 mål (19,5 %) kommer etter innlegg. Som jeg var inne på stilles det
+store krav til vingbackene i dette systemet, og de er også involvert i 11 av 17 mål etter
+innlegg, herav 4 mål og 8 assist – ett av tilfellene har vingback målgivende til vingback.
+Ellers er det klare retningslinjer for hvordan Juventus skal «fylle boksen», og de evner ofte å
+få tre eller fire spillere i posisjon ved innlegg.
+
+48
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Over ser vi hvordan Juventus «fyller boksen» boksen ved innlegg: to spisser, motsatt
+indreløper og motsatt vingback er alltid «på plass». Her ender det med scoring fra venstre
+indreløper. Legg også merke til at indreløper på ballsiden og sentral midtbanespiller ligger i
+returrom og sørger for gode balanseforhold og er godt posisjonert for å vinne en eventuell
+klarering. Venstre midtback er også posisjonert høyt og smalt i banen for å vinne eventuelle
+klareringer.
+
+Igjen ser vi det samme på bilde over. Innlegg fra høyre vingback, Juventus fyller på med to
+spisser og motsatt indreløper og vingback (ikke kommet inn i bilde ennå). Her er det spissen
+som frigjør seg og setter ballen i mål etter et perfekt slått innlegg mellom bakre ledd og
+keeper hos motstander. Balanseforholdene og posisjonering i returrom er de samme som i
+eksempelet ovenfor.
+Gjenvinningsangrep:
+
+Som jeg tidligere har presisert gir som oftest Juventus motstandere i Serie A fra seg initiativet,
+og overlater til Juventus å styre kampen. Dette gir seg nok utslag i min analyse av all mål for
+og i mot da dette naturlig nok sier mye om kampdimensjonen og det vi betegner som spill –
+motspill.
+I min analyse av alle Juventus mål for og i mot sesongen 2012/2013 (Vedlegg 1) har jeg valgt
+å definere noe som gjenvinningsangrep. Det er angrep der Juventus først har benyttet flere
+trekk mot en motstander som er i numerisk og posisjonell balanse (angrep mot etablert
+forsvar), for at de så mister ballen, og gjenvinner den innen 5 sekunder, og angriper på nytt.
+49
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Derfor ser jeg foranledningen til angrepet som vesentlig faktor for at Juventus kan gjenvinne
+ballen.
+I boka «Ferdighetsutvikling i fotball – handlingsvalg og handling» blir gjenvinning forklart på
+følgende måte:
+Det kan være vanskelig å avgjøre hvilket lag som er i angrep eller forsvar i tette dueller eller
+når ballen er høyt oppe i lufta. Dette gjør at laget som i utgangspunktet var i angrep, i mange
+situasjoner vil ha som oppgave å vinne ballen, og gjerne etter at laget for et øyeblikk har
+mistet ballkontroll. Skulle en spiller på laget i angrep vinne ballen tilbake etter en slik
+situasjon omtales det ofte som en gjenvinning (s. 203).
+Dette sier altså noe om balanseforhold og det å tenke forsvar når man er i angrep, slik at man
+hurtig kan vinne ballen tilbake når man mister den. Kjært barn har mange navn og noen
+klubber opererer med begreper som kontradekning og def i off (vil si at man er forberedt
+dersom/når man mister ballen).
+For Juventus sin del så scores 18 av 87 mål (20 %) etter gjenvinningsangrep. Det vil si at
+Juventus har spilt etablert angrep, mistet ballen og vunnet den raskt tilbake igjen, for så å
+score. Helt avgjørende for å vinne ballen kjapt tilbake er Juventus-spillerne sin posisjonering
+og hvordan de agerer når de får balltap.
+
+Her ser vi et eksempel hvor Juventus (i svarte drakter) har spilt mot etablert forsvar, men ikke
+lykkes med gjennombruddspasningen. Umiddelbart setter spillerne nærmest ballfører inn et
+press for å vinne tilbake ballen.
+50
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Videre ser vi at midtstopper mister både oversikt og kontroll over ballen og Juventus vinner
+den hurtig tilbake og går på nytt i angrep.
+
+Her ser vi bruddet og i neste trekk spiller han som erobret ballen igjennom spissen som alene
+med keeper scorer. Merk også at i disse type angrep endrer ofte balanseforholdet hos
+motstander seg dramatisk. Fra å være i god balanse og ligge i etablert forsvar, er de ofte mer
+sårbare og enten i posisjonell eller numerisk ubalanse. Motstanderlaget rekker ikke å etablere
+et eget angrep før Juventus vinner tilbake ballen og er da mer sårbare.
+Det er nok flere årsaker til at 20 % av Juventus mål scores på denne måten, men det er to
+åpenbare grunner jeg vil peke på:
+1. Juventus spiller ofte etablert angrep mot lag som ligger i lavt press. Dette er vanskelig
+å bryte igjennom og det er ikke lett å lykkes med gjennombruddspasningen eller
+innlegget. Ofte resulterer dette i en klarering og en påfølgende 2. ball (laget som
+forsvarte seg, klarte heller ikke å oppnå ballkontroll i spillsituasjonen).
+51
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+2. Juventus ønsker ofte gjennombruddene sentralt og har også mye folk sentralt i banen.
+Det betyr at de har mye folk i området hvor de mister ballen, noe som er gunstig for å
+vinne den kjapt tilbake. Som vi så tidligere så posisjonerer de seg klokt ved innlegg
+slik at de har både to og tre spillere i returrom for å plukke opp andreballer/klareringer
+i dette området.
+Juventus’ overgangsspill:
+
+Angrep som starter med en ballerobring i spill der ubalansen i motstanderlaget skapes og/eller
+utnyttes under angrepets gang, kjenner vi som breakdown-angrep (Ferdighetsutvikling i
+fotball, 2008). I Effektiv fotball (1994) sier forfatterne at vi i en ballerobringssituasjon
+befinner oss midt i selve konfrontasjonen mellom lagene, og det er situasjonen der og da, med
+valg knyttet til denne, som er avgjørende for utfallet av angrepet.
+10 (3/12 mål i Champions league) av Juventus totalt 87 mål (8,7 %) i sesongen 2012/2013
+scores etter en overgang. Dette er ikke veldig høyt, noe som kan forklares med at Juventus
+som oftest har initiativet i kamper i den hjemlige serien og at motstander spiller med lav
+risiko. Et annet poeng er at Juventus ofte forsvarer seg lavt i banen, og således har lang vei
+fram til motstanders mål etter en ballerobring.
+
+Her ser vi Juventus høyre vingback bryter en lang cross-pasning og header den ned til
+nærmeste indreløper. Det er ofte i disse posisjonene (rom 2 – ref. retningslinjer for Juventus i
+52
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+lavt press) Juventus’ kontringer starter. De viktigste kontringsspillerne er vingbacker,
+indreløpere og spisser.
+
+Følger vi dette angrepet videre ser vi at begge spissene og høyre vingback er med og blir et
+alternativ for ballfører (høyre indreløper). Her velger ballfører å stikke nærmeste spiss
+igjennom i bakrom, noe som gjør at han kommer alene med keeper og scorer. Det går fort
+framover når sjansen først byr seg, og dette er også et spill jeg vil si Juventus behersker godt.
+I kamper i Champions League (Celtic, Chelsea og Nordskjælland) virker det også som om det
+har vært en del av kampplanen og bevisst i perioder, overlate initiativet til motstander for så å
+kontre på dem, som vist over. 3 av 12 mål (25 %) i Champions League dette året kom etter en
+kontring.
+Oppsummering av Juventus i angrep:
+
+Jeg har over prøvd å trekke ut det jeg mener er de store og mest karakteristiske trekkene i
+Juventus sitt angrepsspill. Retningslinjene i laget er relativt stramme og vi ser igjen klare
+mønstre fra kamp til kamp. Når det er sagt så er det naturligvis rom for individene til å utfolde
+seg, men det er innenfor visse kjøreregler. Spillerne vandrer i mindre grad inn og ut av
+posisjoner, selv om indreløpere periodevis går bredt eller spisser faller langt ned for å hente
+ball eller involvere seg i det oppbyggende spillet. I denne oppsummeringen har jeg ikke tatt
+høyde for motspillet eller kampdimensjonen i særlig grad, annet enn at jeg har skrevet ned
+noen refleksjoner knyttet til dette. Juventus taktikk endrer seg etter motstander, men lagets
+strategi og de strukturelle retningslinjene opplever jeg som varige og overordnet i en
+53
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+langsiktig plan for hvordan laget skal opptre på banen, og det er disse jeg har søkt å peke på
+her:
+-
+
+Juventus ønsker gjennombruddene sentralt i banen, aller helst i bakrom, dernest i rom
+2 og mellomrom.
+
+-
+
+De fleste oppspillene kommer fra de ytre midtbackene, men også sentral midtback og
+sentral midtbanespiller står for mange av gjennombruddsforsøkene.
+
+-
+
+Juventus organiserer midtbaneleddet med en 5’er med to breie vingbacker som operer
+mellom motstanders kant og back, to indreløpere som strekker i mellomrom og et
+anker som ligger noe dypere og som av og til faller ned i forsvarsleddet for å hente
+ball.
+
+-
+
+Juventus har tydelige og gode relasjoner på siste tredjedel, og disse involverer som
+oftest begge spissene og en indreløper.
+
+-
+
+Spissene jobber som oftest med motsatte bevegelser hvor en møter og en strekker,
+samtidig som indreløper også truer bakrom.
+
+-
+
+Vingbackene opererer som vendingsspillere og ser ofte etter spiss, enten som møter
+eller truer i bakrom, men også indreløper i mellomrom. Alternativt vender de på nytt
+gjennom sentral midtbanespiller eller en i bakre 3’er for å frigjøre vingback eller
+indreløper motsatt. Er Juventus etablert høyt i banen truer også vingbackene bakrom.
+
+-
+
+Det er et klart virkemiddel for å få gjennombrudd sentralt å strekke motstander i
+bredden.
+
+-
+
+Juventus prioriterer å doble på kant i liten grad, men søker heller innlegg i boks fra
+vingback høyt i banen.
+
+Posisjonsbeskrivelse og rollekrav
+Både funnene og retningslinjene i Juventus’ spillestil jeg har forsøkt å avdekke har gitt meg
+klare oppfatninger av hva som kreves i de ulike rollene.
+Jeg har gitt de ulike rollene følgende navn ut ifra en 3-5-2 formasjon fra høyre mot venstre:
+
+54
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Keeper:
+Offensivt:
+Er ofte førsteangriper og bør være en god igangsetter både med hender og føtter. God
+posisjonering i forhold til forsvarsspillere, avstand og vinkel i oppbygningsfasen og
+possessionfasen . Må være god til å lese spillet og kunne fungere som en sweeper når det
+kommer gjennomspill i bakrom.
+Defensivt:
+Viktig å ha være en god kommunikator slik at samspillet med – og organiseringen i det bakre
+leddet fungerer. I tillegg til å være en god skuddstopper bør han være offensiv og modig i
+feltarbeidet i og med at Juventus’ forsvarsspill kan åpne opp for mange innlegg. Må være
+flink i posisjonsspillet slik at han kan lese forholdet mellom ballen og motstander og fungere
+som en sweeper.
+
+Høyre midtback/venstre midtback:
+Offensivt:
+Begge ytterbackene blir ofte brukt og er de som blir frispilt bakfra. Viktig å være trygg med
+ballen, kunne bruke begge føtter og ha en god pasningsfot med stort repertoar. Klok i valgene
+slik at man unngår balltap, men heller er skapende offensivt. Må kunne vende spill og være
+flink til å transportere ball slik at han kan utnytte rom og skape to mot en situasjoner. Smart i
+posisjonsspillet slik at han leser spillet og posisjonerer seg riktig i forhold til ball og
+medspiller. Venstre midtback bør være venstrebeint.
+Defensivt:
+Må være en god duellspiller både langs bakken og i lufta, da Juventus leder spillet inn i rom 2
+som disse operer i. Som førsteforsvarer handler det om å vinne ballen og helst med et
+kontrollert brudd eller en pasning. God til å vinne dueller i egen boks ved innlegg i mot.
+Smart i posisjoneringen og flink til å lese spillet slik at han kan være en god
+55
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+gjenvinningsspiller. Bør være temposterk og klok slik at det er gode vurderinger som gjøres
+når det kommer til markering og støting kontra falle av og dekke rom. I tillegg er det viktig å
+være flink til å prate og være en god organisator.
+
+Sentral midtback:
+Offensivt:
+Ikke den som oftest blir frispilt, men når han blir det må han kunne bruke begge bein og spille
+både mot høyre og venstre, samtidig som Juventus ofte ønsker å tre opp spiss og indreløper.
+Er ofte i støtteposisjon og må være flink til å vurdere avstand slik at de kan opprettholde eller
+drive opp balltempo gjennom å bruke han. Også her er bør han være god til å transportere ball
+og ta den med seg inn i ledige rom for å skape to mot en situasjoner eller fremtvinge ubalanse
+hos motstander. I den bakre 3’eren til Juventus er ingen fritatt oppspillsansvar, og sånn sett
+bør alle søke å bidra i dette og være «skapende» med ball.
+Defensivt:
+Den sentrale midtbacken er «Sjefen» og den som styrer det bakre leddet og setter offsidelinja. Han må være en tydelige leder både gjennom handling, tilstedeværelse og verbalt. Må
+lese klima i kampen og være organisatoren som får de rundt seg på plass. Har ofte
+sikringsansvar og bør ha bra tempo. Like fullt må han være en god duellspiller og lese spillet
+slik at også han kan ta ut motstander i offensiv markering og bryte ut og vinne ball når det
+trengs. Må være god i luftrommet, både ved oppspill og innlegg.
+
+Høyre vingback/venstre vingback
+Offensivt:
+Det er en forutsetning at vingbackene har solide bidrag i Juventus’ offensive spill, og i så
+måte må de være trygge med ball og ha et stort pasningsrepertoar; innlegg,
+gjennombruddspasninger og spill inn i rom i midtbaneleddet. Samtidig må de være taktisk
+kloke og gjøre gode valg ut ifra situasjonen de er i. Hurtighet og løpskraft er nødvendig da de
+har hele banens lengde som arbeidsområde, og de bør klare å gå av motstander en mot en og i
+så måte være flinke til å transportere ball. Smart i posisjoneringen og flinke til å lese
+romforholdene noe som vil skape konfliktsituasjoner hos motstanderen.
+
+56
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Defensivt:
+God i en mot en situasjoner og en holdning om å vinne ball som førsteforsvarer. Må være
+flink til å lese spillet og vurdere når han skal gå i press og når han skal avvente. Tøff i egen
+boks og dekke bakre sone ved innlegg. God i posisjonsspillet å forstå dynamikken i det
+defensive arbeidet. Kommunikasjonen med spillerne foran seg slik at de sammen løser ulike
+situasjoner til lagets beste.
+
+Sentral midtbane:
+Offensivt:
+Dette er hjernen og hjertet i Juventus, og skiller seg fra den tidligere så populære «Makelerollen» ved å være mer kreativ og skapende. Er svært ofte tredjesist på scoringer og må ha
+«hovmesterblikket» og være flink til å orientere seg. Viktig å kunne løse opp i trange
+situasjoner, bruke begge bein og ha et stort pasningsrepertoar slik at han kan vende spillet
+begge veier hurtig og slå gjennombruddspasninger, både i bakrom, men vel så viktig, små
+stikkere inn i mellomrom som rettvender indreløpere eller spiss. Smart i posisjoneringer slik
+at han alltid er et pasningsalternativ og styrer på mange måter rytmen i det offensive spillet
+gjennom kloke valg og vurderinger.
+Defensivt:
+Stor løpskraft og smartness. Dekke rom, lese spillet og være i forkant av situasjoner. God i 2.
+ballspillet og god i kontradekking og gjenvinningsfasen. Denne spilleren er ikke en utpreget
+ballvinner og taklingsspiller slik som for eksempel Makele var det i sin tid, men mer elegant
+om jeg får lov å bruke det uttrykket. Er blant de spillerne som løper mest gjennom en kamp og
+er lojal og oppofrende i returløp. Flink til å ta ut en «nummer 10-spiller» hos motstanderlaget.
+
+Høyre/venstre indreløper:
+Offensivt:
+Det hviler et stort offensivt ansvar hos indreløperne i dette systemet. De må ha stor løpskraft
+og løpsvilje og være flink til å lese hvilke rom de skal true til hvilken tid. God til å rettvende
+seg med ball og utfordre motstanders bakre ledd og skape ubalanse. De må kunne bruke
+begge bein og løse trange situasjoner og være flinke på siste tredjedel, da det forventes
+57
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+sluttprodukt i form av mål eller målgivende. God skuddfot slik at de er en trussel fra
+mellomrommet og flinke til å «fylle i boks» ved innlegg. Bør ha et bredt avslutningsrepertoar
+og være flinke i omstillingen fra forsvar til angrep da de er viktige kontringsspillere.
+Defensivt:
+Stor løpskapasitet, løpsvilje og hurtighet da de dekker store rom. Må være gode en mot en og
+flinke i duell – og 2. ballspillet, slik at de blir ballvinnere. Rask i omstillingen fra angrep til
+forsvar og flinke til å posisjonere seg slik at balansen i laget opprettholdes. Må klare å lese når
+det er gunstig å justere presshøyden i og med at indreløper ofte opptrer som førsteforsvarer.
+Må følge midtbaneløp inn i egen boks og være flinke til å forsvare ved innlegg i mot.
+
+Spiss:
+Offensivt:
+I tillegg til å være en målscorer må spissene være flinke relasjonelt. Mye av angrepsspillet
+handler om spissrelasjoner. Det betyr at de både må beherske og være et oppspillspunkt,
+samtidig som de kan true bakrom. Spissene jobber hele tiden med motsatte bevegelser og
+ønsker å skape og utnytte rom for hverandre. Må ha stort avslutningsrepertoar, velge rett og
+ha god utførelse. Må kunne score flere typer mål: med begge ben, volley, halv-volley, på
+hodet, på en berøring og skudd fra distanse. Må være bevegelig og ha flere bevegelser og
+jakte i de rommene som oppstår.
+Defensivt:
+Lojal, oppofrende og aggressiv. Er en signalspiller ved presshøydejustering og i
+gjenvinningsfasen, må i så måte lese ulike press-situasjoner. Være en god førsteforsvar og
+hele tiden tvinge fram feil hos motstander. Ta returløp når andre spillere er ute av posisjon.
+
+Anvendelse i eget lag – noen refleksjoner
+Hele bakgrunnen for oppgaven min har handlet om at jeg har vært nysgjerrig på denne
+formasjonen og om den kan være et virkemiddel for den spillestilen jeg ønsker skal
+kjennetegne mitt lag. Samtidig har jeg vært opptatt av at det skal kunne ha en direkte
+overføringsverdi til mitt praksisfelt og fotballøkta. Det har vært spennende og interessant å se
+58
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+hvordan Juventus knytter de ulike ferdighetsdimensjonene sammen og setter det i en struktur
+med klare retningslinjer som gjør individene – og ikke minst kollektivet bedre.
+
+Figur 4: ulike dimensjoner ved fotballferdighet og sammenhengen mellom faktorer som påvirker
+spillernes fotballferdighet
+
+DFI 2014
+Etter fire år som trener for a-laget til Nesodden hvorav to av årene var i 2. divisjon, og ett år i
+DFI (Drøbak/Frogn) også det i 2. divisjon, er dette blitt en arena jeg kjenner godt. Jeg har
+også mange år bak meg som spiller på dette nivået, så jeg mener selv, selv om mine inntrykk
+er subjektive, at de er godt forankret i virkeligheten.
+Jeg ønsker å være en utviklingsorientert trener som har mest fokus på mitt eget lag, og at vi
+sammen skal bli mer samtidige i det vi gjør, både med ball og uten ball. Det overordna er
+selvfølgelig å vinne kampen, men samtidig så er det – i mine øyne ikke like utviklende å
+vinne kampen hvis den eneste måten vi kan klare det på er å ødelegge for motstanderen.
+Ronny Deila har kommentert det flere ganger: «Jeg rykker heller ned enn å spille rævvafotball». Dette opplever jeg som noe som er lett å si i medgang, men likevel er det hold i det
+han sier, da Strømsgodset hele tiden har hatt fokus på prestasjonsutvikling og på å utvikle
+59
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+ferdigheter som gjør at man kan avgjøre kamper gjennom egen dyktighet og ikke gjennom
+tilfeldigheter og feil hos motstander.
+Det er naturligvis opplagt at man skal straffe motstanderens feil, men min opplevelse av svært
+mange av lagene i 2. divisjon mener at kompakt forsvarsspill, kontringsspill og sette opp alle
+dødballer er veien til fornyet kontrakt og i så måte et suksessfullt år. Alle disse elementene
+bør man jo være god til, det er ingen uenige i, men etter min mening er det for få lag som
+kommer til kamp og «byr opp til dans». Stram struktur og ødelegge for motstander kombinert
+med minimal risiko og en veldig direkte stil er gjennomgangsmelodien.
+Min personlige mening er at dette (2. divisjon) er en arena hvor vi må våge å feile og jobbe
+mer med å utvikle angrepsspillet mot etablert forsvar, og på den måten få fram spennende
+typer med gode individuelle og relasjonelle ferdigheter for toppfotballen i framtiden og.
+
+DFIs’ spillestil
+Klubbens ambisjon er å etablere seg i toppen (topp 5) av 2. divisjon. Nå har jo vi trenere fått
+relativt frie tøyler med tanke på hvordan vi tenker å nå målsettingen i praksis. Sammen har vi
+da utarbeidet noen retningslinjer som skal kjennetegne vår spillestil, og det er som et
+virkemiddel for å utøve vår spillestil jeg finner det interessant å innføre bruk av 3-5-2
+formasjonen i vårt lag.
+Kort fortalt ønsker vi å vinne fotballkamper gjennom å kontrollere kamper og ikke være
+avhengig av tilfeldigheter. Å kontrollere kamper vil si å ha herredømme over eller beherske,
+først og fremst over mål og sjanseskapingen imot, deretter for. Ved å dominere kamper er vi
+herre over mulighetene i kampen eller rettere sagt dominant i forhold de sentrale
+konfliktsituasjonene mellom oss og motstander. Spillet foregår på våre premisser og våre
+muligheter er i langt større grad fremtredende enn begrensende. Vi ønsker å være bedre enn
+motstanderen både på strategi, prinsipp og virkemiddel, som dermed fører til økt trykk på
+motstanderen som gir oss gode muligheter til økt sjanseskaping og til å score flere mål. Med
+andre ord så må motstander forholde seg til oss og vår ”ramme” med de betingelser det
+medfører. Ved å arbeide for og prioritere å ha kontroll, vil vi ha gode forutsetninger for
+deretter å kunne dominere kampen. Effekten vil være å slite ut motstanderen, dette øker
+mulighetene og begrenser motstanderens motspill. Dette betyr at vi ønsker å ha ballen mest
+mulig, noe som da krever at spillerne individuelt, relasjonelt og strukturelt har en
+
+60
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+ferdighetsbase som behersker en slik stil. Samtidig ønsker vi å kunne kontrollere kampen
+gjennom et godt forsvarsspill når vi ser nødvendigheten av det. Et godt forsvarsspill er noe
+som er fundamentet i mye av angrepsspillet vårt.
+Strateginivået handler om den overordnede planen, det helhetlige bildet, for å vinne kampen.
+Strateginivået uttrykker hvordan oppnå gjennombrudd, hvordan vinne ballen, hvordan hindre
+gjennombrudd. En strategi er noe som varer over tid og angrepsmessig knytter det seg til grad
+av gjennombruddshissighet. Ytterpunktene her vil være å utnytte en hver form for ubalanse
+hos motstanderlag eller ”å styre kamper” for å avvente gjennombruddsmulighetene. I
+forsvarsspillet knytter det seg til valg av forsvarsform for å kunne operere samlet med håp om
+tilgang til gunstige ballerobringer på bestemte områder.
+Vi startet i fjor en spillestildebatt i Drøbak og ble enige om at vi ønsker å være «kontrollert
+framoverrettet» i vårt angrepsspill og at dette er vårt overordnede prinsipp. Dette betyr at vi
+ønsker å gå framover så ofte som mulig, men da med kontroll og ikke for en hver pris. Ordet
+prinsipp i seg selv kommer fra latin principium, som betyr «opprinnelse» eller «første årsak».
+Prinsipp brukes i betydningen grunnsetning, som i en overordnet eller grunnleggende setning
+for tenkning eller handling. I forsvarsspillet så er det mer kjente begrepet ”soneorientert” som
+blir benyttet, dog med noen innrømmelser til markering av motstanders mellomromsspillere
+når sikringsspiller er på plass og balanseforholdene er gode.
+Taktikknivået knytter seg til sentrale rammeforhold som skal gi grobunn for å lykkes med
+strategien. Taktikknivået uttrykker konkret hvordan opprette og opprettholde fremdrift,
+hvordan opprette og opprettholde balanse. Det taktiske nivået springer ut i forlengelsen av
+strategien og vil kunne variere fra kamp til kamp og gjerne endres i løpet av kampen.
+Virkemiddelnivået ses som en forlengelse av strategi- og taktikknivået og peker på de
+konkrete midlene lag og spillere benytter i ulike situasjoner for å realisere strategien og
+taktikken. I angrepsspillet kan det være bestemte ballbaner, type bevegelser, spille opp
+enkelte spillere i spesifikke situasjoner, alt dette i samspill med spillernes kreativitet, frihet og
+klimaforståelse. I forsvarsspillet kan det være snakk om konsentrere sterkere på en side, låse
+av spesifikke ballbaner, markere bestemte spillere og lignende.
+Jeg mener dette er en ambisiøs og visjonær måte å tenke på, krevende å få til, sårbar i praksis
+dersom risikoen blir for stor, men utrolig morsom og utviklende når det lykkes. Og fotball
+handler jo i bunn og grunn om å ha det gøy, og på det nivå vi er handler det etter mitt syn om
+61
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+å prøve og utvikle spillere med et ferdighetsregister som kan ta dem videre inn i
+toppfotballen.
+
+Hvorfor 3-5-2
+Denne formasjonen er veldig aktuell av flere årsaker. Disse vil jeg gjennomgå her, samtidig
+som jeg ønsker å trekke fram sentrale innholdsmomenter som kom fram etter en lang
+fotballsamtale med Tommy Svindal Larsen og Torjus Hansen som jeg hadde i Skien. De
+hadde mange spennende og interessante betraktninger rundt dette, og var også en sentral del
+av Odd-laget som høsten 2005 la om til 3-5-2, og som da gikk fra å være en soleklar
+nedrykkskandidat til å være det laget som tok flest poeng, sammen med Rosenborg og til slutt
+endte på 9. plass i Tippeligaen.
+Defensivt
+
+Defensivt opplever jeg det som en formasjon som i lavt press gjør det lettere å hindre spill i
+mellomrommet og bakrom, og som sørger for gode balanseforhold og korte avstander mellom
+1F, 2F og 3F. Rollefordelingen i det bakre leddet er veldig klar, og dette kombinert med
+tydelige retningslinjer for hvilke spillere som leder motstander mot hvilke rom er med på å
+gjøre forsvarsarbeidet veldig forutsigbart. Soneprinsippet er gjeldene selv om vi kan være noe
+mer markeringsorientert i mellomrom når sikringsspiller er på plass og presset er godt. Det gir
+oss en ekstra trygghet å 5 i det bakre leddet og vi blir ikke så sårbare for individuelle feil.
+Ved lavt press trenger man ikke å ta særlig hensyn til motspillet da man bør ha god kontroll
+på de rommene man prioriterer å gi bort. Jeg tror denne forutsigbarheten knyttet til
+romprioriteringer og bruk av soneforsvar selv om vi spiller med 5 bak vil gi laget en ekstra
+trygghet. Forutsetningene for å ha de presumptivt beste hodespillerne godt posisjonert i egen
+boks gjør også at man bør være godt rustet når motstander slår innlegg. Vurderinger vi må
+gjøre som kan skille seg fra det som er mer vanlig handler om hvor mannsorienterte de ytre
+midtbackene skal være. Her ønsker jeg at vi åpner opp for å være noe mer
+markeringsorientere, men da i sone og fortrinnsvis rom 2, alternativt mellomrom hvis den
+sentrale midtbanespilleren ikke er på plass.
+Dette er også en dynamisk formasjon som kan gi stor gevinst når man ønsker å justere
+presshøyden. Det er krevende, men effektivt å konvertere fra lavt til høyt press. Her handler
+
+62
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+det om å sammen identifisere og handle på avtalte signaler. I tillegg krever det stor
+forflytningsevne og at man har gode individuelle ferdigheter i førsteforsvarerjobben.
+Både Tommy Svindal Larsen (TSL) og Torjus Hansen (TH) var samstemte om at dette hadde
+hatt en meget positiv effekt på Odd Grenland og antall innslupne mål. Noe av
+suksesskriteriene for det mente de var kloke vingbacker som klarte å lese når de skulle støte
+og når de skulle falle og at man fikk gode betingelser sentralt i banen og kunne være «råere» i
+støtinga i mellomrommet, uten at man gikk bort ifra soneprinsippene. Begge pekte også på at
+det var mange kloke fotballhoder i laget som kom bedre til sin rett i dette systemet. TSL var
+også veldig tydelig i sitt syn på at vi her i Norge er for rigide og for opptatt av
+soneprinsippene, mens man ute i Europa er mer opptatt av å flytte beina og dybdeforhold.
+Noe av diskusjonen gikk også på om man må ha spesielle typer for å bruke dette systemet
+eller om man kunne forme og støpe spillere inn i det. Her kom vi ikke fram til noen klare
+konklusjoner, men vi var samstemte på at det er noen nøkkelferdigheter som er avgjørende i
+de mest sentrale posisjonene (se rollekrav). Jeg mener at vi i DFI har typene som kan
+tilfredsstille disse rollekravene og i så måte komme enda bedre til sin rett og få brukt
+«godfoten» oftere.
+Offensivt
+
+I de aller fleste kampene i våre i 2. divisjon mener jeg vi er det laget som har ballen mest, og
+ofte opplever jeg at motstanders strategi er å ta oss på kontringer og dødballer. Dette er
+subjektive betraktninger som jeg har som mål å forankre med tallmateriale og data kommende
+sesong. Likevel vil disse betraktningene være styrende for hvordan jeg ønsker at mitt lag skal
+opptre og hvilke virkemidler vi skal benytte oss av for å bryte ned motstander.
+Det er ikke så mange paralleller mellom Seiersten Stadion og Juventus Stadium, men dersom
+mine betraktninger stemmer, er vi det førende laget, i alle fall hvis vi tar utgangspunkt i
+ballbesittelse. Vi ønsker å videreføre mye av arbeidet vi la ned i fjor med å prøve og utvikle
+spillere som løser situasjonene til fordel for eget lag, og da hadde vi i det offensive spillet
+særlig fokus på å kommunisere med pasninger. Jo bedre vi ble på dette, jo flinkere ble vi til å
+løse motspillet fra motstander. I år ønsker jeg å forsterke dette med å være noe mer (fortsatt
+kontrollert) framoverretta særlig etter kontrollerte brudd og når bakrommet er tilgjengelig, og
+ha flere tydelige avtaler i det offensive spillet. Jeg vil med andre ord stramme noe inn på
+retningslinjene innad i laget, uten at jeg ser det som begrensende for kreativitet og individuelt
+63
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+handlingsrom. Jeg tror kombinasjonen av pasning på – og med riktig fot kombinert med et
+noe mer strukturert angrepsspill kan gjøre oss enda bedre og skape flere målsjanser og mere
+mål, samtidig som det kan øke sannsynligheten med tanke på vårt spillestilprinsipp om å være
+«kontrollert framoverrettet».
+TSL og TH mente at det offensive spillet i Odd var nøkkelen for et godt forsvarsspill. Etter
+deres mening tok Odd initiativet i kampene i større grad og motstander måtte forholde seg til
+dem. Det ble lettere å få et overtall sentralt i banen og de sto også gunstig med tanke på
+gjenvinning. For Juventus sin del kommer som nevnt 20 % av målene etter et såkalt
+gjenvinningsangrep, og da ofte som en konsekvens av å ha mye folk i nærheten av ballen og å
+være godt befolket sentralt i banen. Et annet poeng de trakk fram var at når du i stor grad
+styrer kampen og har mest ball så er du selv sjeldent ute av posisjon og i så måte blir du
+mindre utfordret og opplever færre krisesituasjoner.
+Vi ønsker gjennombruddene primært sentralt i banen og da helst i bakrom eller i mellomrom.
+Vi vil ofte få frispilt en av de tre midtbackene som kan ta med seg ballen mot motstanders
+midtbaneledd og søke å skape ubalanse sentralt i banen, enten ved å spille direkte igjennom,
+eller ved å bruke vingback for å skape rom sentralt i neste fase. Vi har mye folk sentralt i
+banen og dette vil gi oss gode betingelser for å hurtig vinne ballen tilbake dersom spillerne
+agerer raskt nok etter balltap.
+Igjen var TSL opptatt av å utvikle kloke fotballspillere med god spilleforståelse. Hans
+opplevelse var at dette systemet kunne være en del av et hele, som var med på å stimulere til
+dette. På nytt var han opptatt av at dette ikke var et system som var så rigid, altså at ikke alle
+handlingsvalg var styrt, men at individet i større grad kunne utfolde seg. Begge trakk fram at
+det var gode muligheter for frispilling bakfra og at man fikk flere pasningsalternativer og
+bedre vinkler, god dybde og fine avstander. Overtallet sentralt i banen så de på som en
+forutsetning for å ha mest ballinnehav. Et annet suksesskriterie de også trakk fram var at det
+var fokus på å slå tidlig innlegg mot to spisser i boks når muligheten var der.
+Jeg mener også at noe av gevinsten ligger i at dette er et system man sjeldent møter. Det å
+komme med noe nytt - i alle fall på dette nivået, kan være et poeng i seg selv. Motstanderne
+vil møte spillere i litt andre posisjoner enn de er vant til og vi har mange spillpunkter sentralt i
+banen, samtidig som vi kan strekke dem i bredde gjennom to breie vingbacker. I tillegg har
+jeg en opplevelse av at det stimulerer til mer fotballprat blant spillerne. Vi prøvde dette en del
+64
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+på trening og i kamper i fjor og, uten å rendyrke det godt nok. Det har kommet fram gjennom
+spillersamtaler at dette var noe de likte. Det var noe annerledes og spennende og utfordrende
+og morsomt, noe som er et godt utgangspunkt for motiverte og lærevillige spillere.
+
+Veien videre
+På bakgrunn av de funnene jeg har gjort gjennom å analysere Juventus og alle kampene jeg
+har sett så er det klart for meg at dette er noe jeg ønsker å gå videre med. Jeg har også som
+ambisjon at vi i større grad kan gjøre grep som kan være med å endre kampbildet underveis
+og ha flere strenger å spille på og på den måten bli mer uforutsigbare. Jeg ønsker at vi jobber
+ut ifra felles prinsipper og retningslinjer, men ser ikke at muligheten til å endre formasjoner
+begrenser dette. Snarere håper og tror jeg det blir tvert i mot, at dette kan være grep som gjør
+at vi kan utvikle vår spillestil og vårt repertoar. Tiden vil vise om jeg får rett i mine
+antakelser, men jeg gleder meg i alle fall stort til å gå ut og iverksette dette og se hvor det
+fører oss.
+
+65
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+Litteratur:
+Bangsbo, Jens og Peitersen, Birger: Defensive soccer tactics, Human Kinetics, 2002
+Bangsbo, Jens og Peitersen, Birger: Soccer system and strategies, Human Kinetics, 2000
+Bergo A, Johansen PA, Larsen Ø, Morisbak A, Ferdighetsutvikling i fotball, Akilles 2002
+Dalland, Olav: Metode og oppgaveskriving, Gyldendal norsk forlag, 2012
+Eggen, Nils Arne: Godfoten: Samhandling veien til suksess, Aschehoug 1999
+Jones, Robyn og Tranter, Tom: Soccer strategies – defensive and attacking tactics, Redswain,
+1999
+Olsen, Egil, Larsen, Øyvind og Semb, Nils Johan: Effektiv fotball, Gyldendal norsk forlag,
+1994
+Ronglan, Lars Tore: Om lagspillenes didaktikk, Akilles, 2008
+Thelwell, Kevin: Coaching the European 3-5-2, World Class Coaching, 2005
+Wilson, Jonathan: Inverting the pyramid – the history of football tactics, Orion, 2008
+Wymer, Phil: Coaching soccer tactics, 2005
+
+Nettressurser:
+For statistikk om aktuelle kamper: www.fourfourtwo.com
+For statistikk om tabeller og ligaer: www.altomfotball.no
+
+66
+
+Uefa a-lisens 2013/2014
+
+Even Ødegaard
+
+67
+
+

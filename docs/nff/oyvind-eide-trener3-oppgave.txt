@@ -1,0 +1,2991 @@
+Innledning og valg av problemstilling
+
+Med denne oppgaven ønsker jeg å fordype meg i treningsmetodikk. Jeg vil belyse hvordan man kan
+trene mest mulig optimalt og komme med konkrete eksempler underveis. Så vil jeg ta tak i denne
+metodikken og vise hvordan man kan benytte seg av den med et spesifikt tema.
+Oppgaven består av en teoridel, der jeg har gjort et omfattende litteraturstudie. Denne litteraturen
+blir diskutert i oppgavens neste del. Jeg vil ha en rød tråd i oppgaven gjennom en hva, hvordan og
+hvorfor form. Dette er hjelpemidler for å holde oppgaven mest mulig praktisk rettet. Oppgaven
+bygger på min egen masteroppgave fra idrettshøgskolen i 2007. Endringer er blitt gjort gjennom
+egen praktisk erfaring og relevans for nye problemstillinger.
+
+
+Problemstillingene blir som følger:
+
+
+   1. Hva bør ligge til grunn for optimal ferdighetstrening i fotball?
+   2. Hvordan kan vi benytte denne metodikken spesifikt i treningsarbeidet innenfor et tema?
+
+
+Problemstillingene vil bli besvart underveis uten noen spesiell form for konklusjon, til det er
+problemstillingene altfor omfattende.
+
+Jeg føler også at det bør klargjøres at det er forskjell på innlæring og utvikling. En spiller som er i
+startgropa i sin spillerkarriere vil kanskje ha problemer med å tilegne seg ulike ferdigheter i en
+setting med motspillere og andre signifikante omgivelser. Likevel går det an å tilrettelegge
+tilpassede spillsituasjoner hvor man kan få mange repetisjoner på ulike ferdigheter. (Ronglan, 2003).
+I denne oppgaven vil jeg i siste delen, den praktisk metodiske delen, vise eksempler på både
+innlæring og utvikling innenfor et spesifikt tema.
+Temaet jeg vil gå i dydben på er inn læring og utvikling av indreløper rollen i 4-3-3.
+
+
+
+
+                                                                                                  1
+Sammendrag
+Hensikten med oppgaven er å optimalisere praksisen med tanke på treningsmetodikkg i fotball, og
+hvordan dette kan se ut innenfor et spesifikt tema. Oppgaven bygger på min egen masteroppgave
+der jeg benyttet meg av en metodetriangulering; Litteraturstudie, kvalitativt intervju og feltstudiet.
+Her gjengis bare litteratustudie. Oppgavens røde tråd er i form av hva, hvordan og hvorfor. Dette
+gjenspeiles i alle deler av oppgaven. Første del er systematisering av forskning og faglitteratur
+knyttet opp mot fotballspillet og ferdighetsutvikling spesielt. Andre delen av oppgaven har jeg kalt;
+praksisfeltet. Jeg tar til sikte på å være mest mulig praktisk rettet, derfor gir jeg diskusjonsdelen i
+oppgaven det utradisjonelle navnet, praksisfeltet. Den delen inneholder også en praktisk-metodisk
+del.
+
+Hvorfor delen av oppgaven ser på sentrale forhold inn mot spillet som utgangspunkt, den tar til
+sikte på å beskrive hvorfor kampen er utgangspunktet for læring i fotball. Denne delen viser at
+trening i fotball har innslag av både en kognitiv og økologisk læringsteori. Med kampen som
+utgangspunkt på treningsfeltet så står spillerne bedre rustet når de kommer i kamp. Ved å ta
+utgangspunkt i individets naturlige omgivelser og oppgaver fra kamp, så vil spilleren kjenne igjen
+situasjonen.
+
+Hva delen beskriver hva som bør være prioriterings områder på treningsfeltet. Jeg tar til ordet for at
+rolle ferdigheter bør sitte i høysetet. Hver ferdighet i fotball er spesifikk for den enkelte rolle.
+Kampen fortoner seg annerledes for en side back enn en spiss. Dette bør være utgangspunktet.
+Spillerne lærer spesielt, ikke generelt. Derfor bør vi ta utgangspunkt i den enkelte rolle, og
+operasjonalisere denne. Tradisjonelle arbeidskravsanalyser egner seg ikke for lagballspill. Derfor
+kan vi ved hjelp av kampanalyse se på hvilke ferdigheter som er sentrale for de enkelte rollene, og
+ikke minst hva slags spillsituasjoner som ofte går igjen.
+
+Hvordan delen av oppgaven viser konsekvensene for trening. Dette er den mest praktiske delen av
+oppgaven. Her ser jeg på sentrale forhold rundt tilretteleggingen av trening. Spesifisitet innebærer at
+vi som trenere legger til rette for ferdighetsutvikling gjennom induktive, funksjonelle og
+spillsentrerte aktiviteter.
+
+
+
+
+                                                                                                       2
+2.0 Metode
+
+
+ 2.1 Generelt om kvalitativ og kvantitativ metode
+Skillet mellom de som mener det går an å skaffe objektiv kunnskap og de som mener at dette ikke er
+mulig, gir også to ulike metodiske tilnærminger i form av kvalitative og kvantitative metoder.
+Bruken av begrepene kvalitativ og kvantitativ metode referer i første rekke til egenskapene ved de
+dataene som samles inn og analyseres. Det er ofte brukt fire typer ”verktøy” for å fremskaffe data:
+metode, begreper, teorier og teoretiske perspektiver. (Wadel, 1991). Kvalitativ og kvantitativ metode
+er preget av grunnleggende motsetninger. De vektlegger ulike teoretiske perspektiver, teorier og
+metoder, samt retter seg mot å utvikle ulike begrepsapparater. Kvantitative metoder er ment å gi
+harde data som gir tallmessige resultat. (Sisjord, 2003). Fokuset for kvantitativ forskning har altså
+vært på utbredelse, antall og mengde. Disse resultatene kan forklare årsakssammenhenger. (Salling
+Larsen og Vejleskov, 2002). Enkelte mener data som uttrykkes i form av rene tall eller andre
+mengdetermer er kvantitative, mens de som ikke uttrykkes på denne måten er de kvalitative.
+(Grønmo, 1996). Andre hevder at den kvalitative og den kvantitative dimensjonen står i et
+komplementært forhold til hverandre og bør dermed brukes sammen. (Kalleberg, 1982). Grønmo
+(1996) viser til at noen går lengre og hevder at en metodetriangulering med begge de to metodene
+gir det beste resultatet. Mens kvalitativt orientert forskning er stilt på innhold, beskaffenhet og
+betydning. (Wadel, 1991). Her er det mer myke data som skal tjene til å oppnå forståelse av andre
+mennesker og kulturer. (Sisjord, 2003., Salling Larsen og Vejleskov, 2002).
+Kvalitativ forskning skal gi forstående kunnskap, den åpner for å forstå problemområdet. (Salling
+Larsen og Vejleskov, 2002). Utprøving av fenomenet gjennom observasjoner, er i virkeligheten
+målet. Den kvalitative tilnærmingen har sitt utgangspunkt i det fenomenet som den vil skaffe seg et
+begrep om. Det grunnleggende er de observasjonene man gjør og har gjort om fenomenet. Målet er
+å samle og ordne disse observasjonene til noe begripelig, nemlig å skape et begrep om fenomenet.
+Starten for undersøkelsen er møtet med fenomenet, mens verifisering av kvalitetene er målet. Her
+begynner man med visse observasjoner av et fenomen som fører til at man slutter seg til særskilte
+kvaliteter som videre gir oss et begrep om fenomenet. Et skille mellom de to er at kvalitative
+analyser har klare begrensninger når det gjelder å vurdere hvorvidt de hypotesene og teoriene som
+utvikles, er holdbare i mer omfattende sammenhenger i motsetning til den kvantitative dataanalysen
+som ofte brukes i forbindelse med testing av nettopp hypoteser og teorier.
+Valget mellom de to formene kan være preget av en strategisk karakter, i den forstand at drøftingen
+
+                                                                                                  3
+av metodespørsmålet i størst mulig grad bør knyttes til konkrete problemstillinger. Litteraturstudiet i
+denne oppgaven, er i høyeste grad kvalitativt. Da jeg som leser av stoffet, sitter med min subjektive
+oppfatning av fenomenet. Og kan gjøre mine egne tolkninger ned i min egen teoridel.
+
+
+
+
+ 2.2Litteraturstudie
+For å få oversikt på deler av det som er skrevet på feltet om fotball, så gjennomførte jeg et
+litteraturstudie. Dette ble delt i flere faser. Først på lista sto innhenting av relevant litteratur. Så
+gjorde jeg en gjennomgang av litteraturen, før jeg systematiserte den. Tilslutt brukte jeg denne
+litteraturen til å komme med egne betraktninger rundt temaet. Det ikke er noen bestemt anvisning på
+hvordan en systematisk litteraturanalyse skal gjennomføres. (Goodman, 1993).Validiteten av
+litteratur analysen er knyttet til hvorvidt en systematisk tilnærming er brukt eller ikke (ibid). Dette
+kan deles opp i to grupper; søk i ulike databaser og manuelle søk. Litteratursøk kan gjøres gjennom
+en bok man allerede har og bruker de referansene som forfatterne bruker. Her ble tidligere
+hovedfagsoppgaver brukt flittig, spesielt oppgaver som berører temaer som er relevant for oppgaven
+min. Slik fant jeg mye relevant stoff.Manuelle søk er å gå i hyllene på biblioteker, men den mest
+effektive måten å søke på er å søke i litteratur baser. (Salling Larsen og Vejleskov, 2002). Her har
+forskjellige biblioteker tilgang på ulike databaser. Jeg benyttet meg også av referanselister av kjent
+litteratur, tips fra veileder og andre fagpersoner, for å finne primærkildene som er brukt tidligere.
+Ved søk i databaser så må man først avgrense sitt emne, formulere og definere ord og begreper så
+presist som mulig. De fleste databaser er engelsk språklig, og det kan således by på vanskeligheter
+med en del av terminologien. Databasen som ble brukt var Bibsys. Bibsys dekker nasjonal og
+internasjonal litteratur. Søkeordene som ble brukt var ”fotball”(856 treff), ”lagspill”(17 treff),
+”lagballspill”(4treff), ”football”(171 treff), ”spillerutvikling”(4 treff), ”ferdighetsutvikling”(4 treff),
+”læring”(699 treff), ”soccer”(154 treff), ”decision making”(51 treff), ”training”(795 treff) og
+”practice”(330 treff). Målet var å innhente relevant litteratur for spillets egenart, de ulike
+dimensjonene og praksis. Emneordene ble brukt under tittel, nøkkelord og abstract i databasene.
+Over halvparten av treffene ble ekskludert, disse omhandlet skader, ledelse, anlegg osv. Videre så
+gjorde jeg en ”skum” lesing av de treffene som ble igjen, slik kom jeg frem til litteratur som jeg
+følte var valid for oppgaven min. Ca 30% av all litteratur jeg fant og anså som relevant, kom fra
+database søk. Resten hentet jeg fra en gjennomgang av referanselister av tidligere kjent litteratur
+eller tips fra veileder og signifikante andre.
+
+
+                                                                                                      4
+2.3 Konteksterfaring
+Det er betydningsfullt for troverdigheten at forskeren redegjør for sin erfaring med
+forskningsområdet. 1 (Teigen, 2005., Isberg, 2001). Slik blir leseren kjent med forutsetningene for
+oppgaven, og at andre fagpersoner kan videreutvikle eller etterprøve den. Min bakgrunn kan
+grupperes i disse områdene; Spillerfaring, trenererfaring og formell utdannelse.
+Jeg startet opp med fotball, som de fleste andre, i min barndom. Som 15 åring gikk turen opp i 3.
+divisjon, i samspill med klubbens 1. divisjonsspillere fra klubbens A-lag. Videre så har jeg spilt
+treningskamper på 1. divisjonsnivå. Som spiller har jeg opplevd flere trenere og fått med meg
+påvirkning derfra. I en periode spilte jeg for Hønefoss BK og var stadig med på A laget der. Trenere
+jeg fikk oppleve der var; Lars Tjernås (2000 og 2002-2003), Per Brogeland (2001) og Kenneth
+Rosèn (2001). Gjennom tiltak med klubb, skole , høyskole og krets har jeg også blitt trent av Bjørn
+Hansen (1997), Dag Eiliv Fagermo (1997), Terje Liknes (1997-1998), Einar Sigmundstad (2003),
+Rolf Teigen (2004) og Egil Olsen (2004).
+Gjennom 4 år som trener i Skeid og 1 år i Oslo fotball krets, hvorav 3 av disse årene har jeg vært
+trener for Norges beste guttelag, så har jeg prøvet å være reflektert og evaluert min egen praksis. I
+disse årene har jeg også stadig blitt utfordret av det faglige miljøet i klubben gjennom samtaler og
+observasjoner av mine økter av Ronny Holmedal (2003-2007) og Kjell Sverre Hansen Wold (2003-
+2005). I Oslo fotballkrets var Torgeir Lind (2004) den som utfordret meg på det faglige innholdet og
+metodikken i økta. Gjennom min utdannelse på Norges idrettshøgskole så avholdes det praksisøkter
+hvor hver student har ansvaret en gang i blant. Tilbakemeldinger blir da gitt etter økta. I den senere
+tid har det her blitt benyttet videofeedback. Her har personer som Einar Sigmundstad (2003-2005),
+Rolf Teigen (2004-2005), Egil Olsen (2003-2005) og Nils Johan Semb (2004-2005) hatt ansvaret
+for feedbacken.
+Temaer rundt disse øktene har ofte vært planlegging, gjennomføring, øvelsesutvalg og evaluering av
+økta.
+Siden 2007 har jeg vært Toppspillerutvikler (2007-2008), Assistent (2008-2009) og Hovedtrener
+(2009) for Kongsvinger Toppfotball. Og jeg er nå tilbake i Assistent rollen i denne klubben. Her har
+jeg jobbet sammen med Thomas Berntsen (2007-2008), Tom Nordlie (2008-2009) og Trond
+Amundsen (2010).
+
+
+
+
+1
+    Dette anses som en vesentlig forutsetning, når oppgaven tar utgangspunkt i praksisfeltet. (Teigen, 2005).
+
+                                                                                                                5
+Teoridel
+
+
+
+
+           6
+3.0 Utviklingsarbeid og tidligere forskning
+
+Teorien som jeg har med i denne oppgaven er rettet inn mot spillet fotball. En hver idrett må ta
+utgangspunkt for hva som er typisk for idretten, det er her kapittelet om fotballens egenart kommer
+inn. De beskriver spillet og spillesituasjonen. Spillesituasjonen inneholder alle ting som selve spillet
+har. Teorien jeg omhandler begrunner hvorfor spillesituasjonen og høy grad av spesifisitet blir
+utgangspunktet for ferdighetsutvikling, og den økologiske tilnærmingen er naturlig siden det
+inneholder spillets dynamikk og omgivelser. Men jeg vil også prøve å bygge en bro mellom den
+kognitive og økologiske tilnærmingen, siden ingen av dem er enerådige. For å strukturere
+ferdighetsutviklingen så vil de tre dimensjonene benyttes; individuell, relasjonell og strukturell. Det
+er viktig å ta disse dimensjonene i betraktning siden læringen foregår på forskjellige nivåer
+(Individuell, relasjonell og strukturell).
+Jeg vil bruke det tradisjonelle pedagogiske prinsippet hva, hvordan og hvorfor for å strukturere
+teoridelen. Vanligvis kommer hvorfor tilslutt, her kommer det først. De første kapitlene vil beskrive
+hvorfor den tilnærmingen til ferdighetsutvikling som velges kan se ut til å være optimal. Så vil jeg
+komme inn på hva som skal trenes, og hvordan dette gjøres.
+
+
+3.1 Hvorfor trener vi slik?
+
+3.1.1 Læringsteorier: kognitiv eller økologisk tilnærming?
+
+Hvordan lærer spillere ferdigheter? Den mest utbredte teorien har hatt sitt utspring fra kognitiv
+psykologi. (Summers, 2004). Antagelsen har vært at gjennom trening så generaliseres det motoriske
+programmet, og lager en ”kognitiv kopi” av hver ferdighet. (Schmidt og Lee, 1999). Disse
+”kopiene” blir lagret i hjernen og ryggmargen. Erfaringen og kunnskapen en spiller har tilegnet seg
+gjennom trening og kamper, må reproduseres og anvendes ved hjelp av informasjonen lagret i
+hukommelsen. (Svensson, 1994).
+
+Utgangspunktet i en økologisk læringsteori er individet i relasjon med omgivelser og oppgaver.
+(Mateus, 2005). Kontekstualiseringen innebærer en fokusering på individets muligheter i en naturlig
+realisme, der omgivelsenes informasjon eksisterer og er meningsfull slik den faktisk er. (Jordet,
+2004). Som figur 2 viser (s. 21), så er individet, omgivelsene og oppgavene det som styrer
+bevegelsesoppgaven.
+
+
+
+
+                                                                                                7
+Figur 2: viser sammenhengen og betydning av koordinasjon og kontroll for ulike
+bevegelsesoppgaver spesifisert gjennom individ, oppgaver og omgivelser. (Newell, 1986).
+
+
+
+Dette kommer fra modellen som Newell (1986) presenterte, der en studie av bevegelse og
+koordinasjon viste at oppgaver, omgivelser og individet styrer bevegelsesoppgaven. Det legges
+spesielt vekt på koblingen mellom persepsjon og handling for å produsere stabile koordinative
+tilstander. (Abernthny, Burgess-Limerick og Parks, 1994). Dette betyr at ferdigheter, bevegelse og
+prestasjon er et resultat av den dynamiske interaksjonen mellom oppgavens mål, omgivelsene og
+individuelle forutsetninger.
+
+Altså at den enkeltes handling må sees i sammenheng med klimaet rundt individet (omgivelse), og
+taktiske retningslinjer som ligger til grunn (oppgaver).
+
+“A common dynamical systems approach definition of skill is based on Newells (1986) modell. Skill
+is reflected in the pattern of coordination and control, determined by interaction and organismic,
+environmental and task constraints.” (Jordet, 2001).
+
+I en kognitiv tilnærming forklares altså ferdigheter ut fra en prosess i ulike stadier, der individet
+gjenkjenner situasjoner, tar opp informasjon og bearbeider denne som resulterer i en handling.
+Denne prosessen er altså at spillerne persiperer hendelser på banen, så går informasjonen gjennom
+en prosess som innebærer at de prøver å gjenkjenne spesielle trekk ved situasjonen, deretter må de
+velge en løsning og programmere denne løsningen. Denne teorien sier at individet styres mindre av
+omgivelsene, men at en spillers handling er basert på lagring av informasjon. (Svensson, 1994).
+
+Det en kan slå fast er at den økologiske og kognitive tilnærmingen til læring av ferdigheter er
+motsigende, men på praksisfeltet vil en kunne se igjen noe fra begge teoriene. ”Hukommelse,
+erfaring, evnen til å gjenkjenne ulike situasjoner og repetere disse, er nøkkelord som er sentrale på
+
+
+                                                                                                  8
+praksisfeltet.” (Dahl, 2002). Likevel er situasjonen utgangspunktet når treneren gir spillerne
+tilbakemeldinger, og da er omgivelser og oppgaver viktige hjelpelinjer i læringsprosessen. Treneren
+utnytter omgivelsenes begrensninger eller muligheter i situasjonen. I aktiviteter på treningsfeltet har
+kunnskap, gjenkjenning, automatisering og gjentagelse vært sentrale pedagogiske prinsipper. ”Disse
+blir knyttet både mot omgivelser og oppgaver i form av spillets dynamikk.” (Dahl, 2002). Slik sett
+bør det være en læringsmetodikk hvor medspillere og motspillere inkluderes i læringen. I tilegg
+anvendes ulike læringsprinsipper som setter utøveren i relasjon til både omgivelser og oppgaver.
+Modellen beskriver fotballferdighet i forhold til hvilke begrensninger og muligheter omgivelsene,
+oppgaver og individet gir. Dette medfører at persepsjon av miljøets muligheter og affordanser2 blir
+sentralt. (Jordet, 1998). Gjennom aktiv perseptuell atferd fanges muligheter opp. Spillere må trenes
+til å oppdage og utnytte dynamikken som ligger i omgivelser som spillerne befinner seg i.
+
+Hovedfokuset blir rettet mot handlingsvalg, altså resultatet av handlingen. Og i liten grad rettet mot
+tekniske momenter. Under trening kan dette bety at å hele tiden variere miljøet og gi spillerne
+skiftende situasjoner de må handle ut fra, med mange repetisjoner, vil være viktig.
+
+
+
+
+3.1.2 Fotballferdighet
+
+    Ferdighet i lagballspill defineres slik: ”Hensiktsmessige bevegelser for å skape og utnytte
+spillesituasjoner til fordel for eget lag.” (Ronglan og Larsen, 2003). Videre kan de enkelte
+elementene deles opp og presiseres. Jo mer hensiktsmessige handlinger, desto bedre ferdighet.
+(Ronglan og Larsen, 2003). Hva som er hensiktsmessig må sees i sammenheng med den enkelte
+situasjon. Bevegelser omfatter de spillerne som ikke har ballen, altså en enkelthandling eller en
+samhandling. (Ronglan og Larsen, 2003). Spillerne på begge lag forsøker å skape gode betingelser
+for eget lag gjennom sine handlinger. Dette skaper en spillsituasjon gjennom brytningen av spill-
+motspill som en helhet. (Ronglan og Larsen, 2003., Teigen 2005., Ronglan, 2000). Ferdigheten i seg
+selv kommer til uttrykk gjennom løsningen av den konkrete spillesituasjonen. ”Ferdigheten måles i
+spillesituasjonen, og kan derfor vanskelig løsrives fra motspillet og motstanden i situasjonen.
+(…)stabilt god ferdighet tilsier at spillere og lag over tid er i stand til å mestre de spillesituasjonene
+som konfrontasjonen med motstanderen skaper.” (Ronglan og Larsen, 2003). Begrepet ferdighet3
+referer altså til en handling som utføres og som har et bestemt mål eller hensikt. (Sigmundsson og
+2
+      Affordanse beskriver en situasjons mulighet for handling. (Jordet, 2003).
+3
+       Prestasjon omtales ofte som ferdighet, forskjellen mellom disse ligger på treffprosent. En prestasjon er en handling
+      der og da, mens en ferdighet krever stabile handlinger over tid, altså treffprosent. (Teigen, 2005., Bergo et al, 2002).
+
+                                                                                                                      9
+Haga, 2005). Sigmundsson og Haga (2005) skriver videre at utvikling av ferdigheter kan skje som
+følge av kvantitative eller kvalitative endringer. Med kvantitativt menes det å tilegne seg nye
+ferdigheter, mens kvalitativt menes å forbedre de ferdighetene en innehar.
+
+3.1.3 Fotballferdighet i et historisk perspektiv
+
+Wades spillprinsippsmodell ble brukt for å strukturere fotballkurs i Norge. (Dahl, 2002). Denne
+modellen ble brukt i hans bok fra 1967, ”Lær fotball”. Her mente han at kampen var basisen for all
+læring, og introduserte Hel-Del-Hel metoden i læringsprosessen. (Larsen, 2003). Denne går ut på at
+spillerne først blir presentert helheten, også bryte ned i ulike deler, før det avsluttes med helheten.
+Videre nevnte han disse faktorene som retningslinjer for god ferdighetstrening (Wade, 1967):
+
+   -   variasjon i mottak – få ballen på forskjellige måter
+   -   retningsbestemte øvelser med mål
+   -   minst en medspiller som en kan utvikle ferdigheter sammen med
+   -   motstander er også en viktig del av treningssituasjonen – trene på å ta de rette valgene
+   -   påfølgende handling må være åpen
+
+
+
+Det er utfra dette perspektivet hel-del-hel metoden kom til livet.
+
+I 1978 kom ”fotballforståelse”. Fokuset ble rettet mot valg spillerne gjør i kampen og det taktiske
+aspektet av ferdigheten. (Larsen, 2003). Ferdighetsbegrepet skulle her dreies mer mot vurdering av
+spillerens handling i situasjoner, mens tidligere var evnen til å behandle ballen grunnlaget for
+vurdering av ferdigheten. (Bergo, et al. 2002).
+
+”God fotballferdighet” kom i 1986. (Dreier et al, 1986). Den setter fokus på individuell opplæring
+av teknikk, og i den praktiske hverdagen innebærer det at vi går ned på funksjonalitetsskalaen. Her
+ble fokuset rettet mot utviklingen av tekniske ferdigheter, før de blir brukt i en mer funksjonell
+kontekst. (Larsen, 2003). Denne boken vektlegger den individuelle dimensjonen. Boka har lenge
+vært en del av pensum i fotballtrenerutdanningen i Norge.
+
+
+
+
+                                                                                                   10
+Figur 3: Fotballferdighetsmodell. (Morisbak, Dreier og Skarsfjord, 1986).
+
+
+Denne modellen er å finne i ”God fotball ferdighet”, (Dreier et al , 1986), og her kan man se at dette
+er i hovedsak en kognitiv modell. Ordene å oppfatte, vurdere, bestemme og handle ligger godt
+forankret innenfor den kognitive tilnærmingen til ferdighet. (Tyriberget, 2004). Fokuset i boka har
+også et kognitivt preg, da det vektlegges sterk fokusering på tekniske momenter og at gjenkjennelse
+og gjentakingsprinsippene står sterkt. Til høyre i denne modellen ligger det økologiske, nemlig
+situasjonen. Så fokuset er ikke ensidig på den kognitive læringsteorien.
+
+I 1994 kom ”Effektiv fotball” , (Olsen, Larsen og Semb, 1994), hvor forfatterne har en revidert
+utgave av spilleprinsippmodellen til Wade. Denne boken går inn på hvordan en effektiv spillestil
+skal utøves, systematisert gjennom de ulike angrepsstypene. (Breakdown, Dødball og lengre
+angrep). Her blir den strukturelle dimensjonen av ferdighetsbegrepet presentert, og har påvirket
+norske trenere mye på måten de trener fotball på. (Larsen, 2003).
+
+Den relasjonelle dimensjonen ble presentert i 1989 av Schou Andreassen og Wadel. (Ledelse,
+teamarbeid og teamutvikling i fotball og arbeidsliv, 1989). Denne dimensjonen grep Eggen fast i
+med ”Godfoten” fra 1999. Her sier han at man i praksis er gode eller dårlige sammen med noen.
+(Dahl, 2002). Komplimentære ferdigheter blir også trukket frem, altså spillertyper som skal utfylle
+hverandre. Relasjonelle ferdigheter kan komme til uttrykk på tre forskjellige nivåer: (Tyriberget,
+2004) Individuelt, to eller flere spillere sammen og laget. For den enkelte er det slik at f.eks
+psykiske ferdigheter gjør at spilleren klarer å få ut hele potensialet av sine tekniske ferdigheter. For
+to eller flere kan det være godt samspill, gjennom spillere som er dyktige på forskjellige ferdigheter.
+Laget danner grunnlaget for samhandlingsmønsteret.
+
+
+
+
+                                                                                                   11
+Figur 4: Sosiologiske ferdigheter i er relasjonelt perspektiv. (Wadel og Schou Andreassen, 1989).
+
+
+Ferdigheter i et relasjonelt perspektiv har i seg individuelle ferdigheter i form av delferdigheter og
+disse er en forutsetning for de relasjonelle ferdighetene. (Wadel og Schou Andreassen, 1989).
+
+Det påpekes at ferdigheter som pasning, 1.forsvarer osv. kun er delferdigheter og kan ikke stå alene
+når vi spiller fotball, siden de er gjensidige avhengig av hverandre. Den minste enhet vi opererer
+med innen fotballspillet er ikke enkeltspillere, men to spillere, siden dette er et lagspill. (Schou
+Andreassen og Wadel, 1989).
+
+Eggen (1999) har også en tilnærming til ferdighetsbegrepet. Han vurderer psyko-sosiale ferdigheter
+som vilje, motivasjon osv for å være viktige ferdigheter for at spillerne skal kunne utnytte sine
+tekniske og taktiske ferdigheter. Koordinasjon og rytme blir nevnt som viktig for de tekniske
+ferdighetene. Eggen inkluderer altså det psyko-sosiale og det fysiske i ferdighetsbegrepet. Videre
+trekker han pedagogiske ferdigheter som en av de viktigste ferdighetene i fotball.
+
+I 2002 kom boken ”Ferdighetsutvikling i fotball”, (Bergo et al, 2002), den satte fokus på handling
+og handlingsvalg. Her forklares teorier bak handlingene og det hele ender i en øvelsesbank hvor
+gjenkjennelsen til spillsituasjoner skal være stor. Her bringes det inn en flerdimensjonal tilnærming
+av fotballferdighet, som også tar med seg ting fra de foregående tilnærmingene. Her presenterer
+også forfatterne en modell som ligger til grunn for handlingsvalgene.
+
+
+
+
+                                                                                                    12
+Figur 5: sammenhengen mellom fotballferdighet og fotballspilletsegenart. (Bergo, et al. 2002).
+
+
+Ferdigheter utvikles gjennom den individuelle, relasjonelle og strukturelle dimensjonen. En
+spillesituasjon innehar alle disse dimensjonene. (Ronglan og Larsen, 2003). En spiller dømmes etter
+hvor gode ferdigheter han har, og det måles utfra hvordan han løser den enkelte spillesituasjon. Her
+er det sånn at ulike spillere på et lag kan ha ulike ferdigheter, som også kan utfylle hverandre. Dette
+kan være viktig i et lag, nemlig å ha komplementære ferdigheter. (Bergo, et al. 2002., Ronglan og
+Larsen, 2003). Gode relasjoner synes gjennom at flere spillere leser og tolker spillesituasjonen på
+samme måte. Slik snakkes det om flyt eller rytme i spillet, altså betegnelsen på samhandlingen i et
+lag. (Ronglan og Larsen, 2003., Ronglan, 2000).
+
+Retningslinjene i et lag er med på å avgjøre valgene til spillerne. Disse kan være stramme eller løse
+og kan forandres fra kamp til kamp. (Bergo, et al. 2002., Bangsbo og Peitersen, 2000). Dette er altså
+en plan for hvordan spillerne skal opptre på banen. En viss struktur bør det være for at spillerne skal
+få brukt sine ferdigheter til fulle.
+
+Disse dimensjonene er knyttet sammen. Det er disse dimensjonene som skal bidra til å utnytte
+spillsituasjonen. (Bergo, et al. 2002). Slik som figuren under viser.
+
+
+
+
+                                                                                                 13
+Figur 6: Sammenhengen mellom individuell ferdighetsdimensjonen, relasjonell ferdighetsdimensjon og kollektiv
+spillstruktur. (Bergo, et al. 2002).
+
+
+
+
+”Denne modellen favner de dimensjonene som har representert ferdighetsutviklingen opp gjennom
+fotballhistorien og frem til i dag.” (Tyriberget, 2004). Kampen er det sentrale for spillere og lag.
+Det har den alltid vært. Men det er ikke alltid den har vært i sentrum, slik den er her. Her stod den
+individuelle dimensjonen på 80 tallet, gjennom 90 tallet var det strukturelle dimensjonene som
+hadde plass her. Da overtok Egil Olsen landslaget og innførte strategi og struktur som sentrale
+begreper. Mot slutten av 90 tallet overtok den relasjonelle dimensjonen, med Wadel og Schou
+Andreassen (1989) og praktisk rotfeste gjennom Nils Arne Eggen (1999) og Rosenborg. Først med
+den nye boka til Bergo et al. (2002) har Wade sin spillsituasjon inntatt sentrum.
+Fokuset har gradvis forskyvet seg fra den individuelle dimensjonen og til spillsituasjonen (kampen).
+
+
+3.1.4 handlingsvalg og handling
+”Å gjøre x i stedet for y i en gitt situasjon.” (Giske, 2001). Giske (2001) skriver at dette er det
+grunnleggende av å velge. F.eks at en spiller velger å skyte i stedet for å slå en pasning. Ett
+alternativ velges fremfor et annet. Uavhengig om valget er bevisst eller ubevisst, så oppfattes det
+som et handlingsvalg. (Bergo, et al. 2002). Ubevisste valg kan være et resultat av mange
+repetisjoner i likeartede spillsituasjoner, hvor valget har tilsynelatende blitt automatisert. (Giske,
+2001). Spilleren trenger heller ikke veie flere alternativer opp mot hverandre. Hvis spilleren kun
+oppfatter et alternativ, så er også det et handlingsvalg. Pedagogisk er det snakk om hva som er mest
+hensiktsmessig for den enkelte spilleren i den enkelte situasjon.
+Måten å utføre en handling på, er også et handlingsvalg. F.eks å velge avslutningsteknikk foran mål.
+
+
+                                                                                                           14
+Spilleren må også velge tidspunkt for utførelsen av handlingen. Begrepet handling består av to
+dimensjoner. (Bergo et al, 2002). Den ene er valg av teknikk, den andre viser til den observerbare
+utførelsen av teknikken. Dette gjør at de hele er pedagogisk veldig oversiktelig. Gjennom begrepene
+handlingsvalg og handling kan man velge å fokusere på selve valget eller utførelsen.
+
+
+
+
+Figur 7: fotballferdighet og sammenhengen mellom fotballferdighet, handlingsvalg og handling, og hva som avgjøt
+handlingsvalgene. (Bergo, et al. 2002).
+
+
+
+
+Begrepene dekker hva spillere ønsker å gjøre og gjør i spillsituasjonen.
+
+Som vi ser i modellen over, så er Bergo et al. (2002) sin definisjon på fotballferdighet slik:
+Hensiktsmessige handlingsvalg og handlinger for å skape og utnytte spillsituasjoner til fordel for
+eget lag.
+
+
+
+Som tidligere forklart så har Ronglan og Larsen (2003) modifisert ferdighetsbegrepet ved å bytte ut
+”handlingsvalg og handling” med ”bevegelser”. Modellen til Bergo et al. (2002) har styrker inn mot
+pedagogikken, ved bruk av begrepene ”handlingsvalg og handling” så er det muligheter for å
+veilede på valget og utførelsen. (Teigen, 2005). ”Bevegelser” knytter til seg både enkelthandlinger
+og samhandlinger veiledet av lagets spillstruktur. ”Bevegelser” ekskluderer ikke verken bevisste
+eller ”ubevisste” handlinger. (Ronglan og Larsen, 2003).
+
+Det gjennomgående kravet da, til handlingsvalg i fotball, er så ofte som mulig å utnytte, eventuelt
+skape og utnytte, spillsituasjoner til fordel for eget lag. (Teigen, 2005). For å oppnå dette, så må den
+
+
+                                                                                                            15
+enkelte spiller ha full oversikt i enhver situasjon som er aktuell for den enkelte spilleren, og klare å
+tilpasse seg omgivelsene, identifisere oppgaven, og forme situasjonen slik at man får brukt de
+individuelle forutsetningene en spiller har.
+
+Å utnytte, eventuelt å skape og utnytte, spillsituasjoner til fordel for eget lag er overordnet, da stilles
+det krav til gode handlingsvalg hos flere spillere samtidig. Og når en spiller skal gjøre valg i fotball,
+er det tre faktorer som påvirker valget(se forrige side):
+
+
+
+Omgivelser innvirker selvfølgelig på en spillers handlingsvalg. Spillets dynamikk , gjennom med og
+motspillere, tid og rom samt ytre forhold virker inn på hva en spiller velger å gjøre. Så det gjelder å
+tilpasse seg omgivelsene, vite hvor med og motspillere er på banen, hvor det er ledig rom og hvor
+god tid de har dersom de får ballen.
+
+Oppgaven i en gitt situasjon avgjøres av spillets idè (score mål – hindre mål), spilleprinsippene og
+de retningslinjer og føringer som ligger i eget lag. Under spillets gang vil omgivelsene forandre seg,
+noe som gjør at det oppstår nye oppgaver som trenger en løsning. (Bergo et al. 2002). Spillerens
+kjennskap til lagets retningslinjer vil være med å bestemme hvilke oppgaver som synes
+framtredende i en bestemt situasjon.
+
+Individet. Hvilke ferdigheter spilleren innehar vil selvfølgelig spille inn på valget. Spillere med
+forskjellig repertoar vil velge forskjellige løsninger i en gitt situasjon. (Olafsen et al, 2003.,
+Luxbacher, 1996., Petrucelli, 2004).
+
+Flere hevder at et bredt teknisk repertoar betyr mye. (Sigmundstad, 1991., Grebstad, 2005.,
+Peitersen, 1993., Giske, 2001., Meulensteen, 2001). Giske (2001) skriver at spillere med et
+omfattende ballteknisk repertoar har flere fordeler enn spillere med et begrenset ballteknisk
+repertoar4. Gjennom å ha et bredt repertoar av ferdigheter så vil spilleren kunne velge mellom flere
+forskjellige alternativer. Spilleren vil også ha bedre tid, siden han får raskt kontroll på ball i riktig
+rom, og vil også kunne utnytte rommene bedre. (Grebstad, 2005., Petrucelli, 2004). Samt at
+sannsynligheten for å miste ballen blir mindre. Dog skriver Bergo et al. (2002) at et velutviklet
+teknisk repertoar ikke nødvendigvis betyr å kunne en masse teknikker. Men det er like viktig å
+kunne en teknikk svært godt, og i en rekke ulike situasjoner som stiller forskjellige krav til timing,
+kraft og retning.
+
+
+4
+    Giske (2001) velger å kalle det ballteknisk repertoar, mens Bergo et al. (2002) vil kalle det for teknisk repertoar.
+    Dette på grunn av at spillerne kan benytte seg av ulike teknikker uten ball for å skape og utnytte spillsituasjoner.
+
+                                                                                                                   16
+Individuell handlingskompetanse med og uten ball, var et alternativ til begrepet individuell ferdighet
+som Giske (2001) introduserte. ”Spillerens evne til målrettet tilpasning til spillsituasjonen når
+vedkommende er i besittelse av ballen.” (Giske, 2001). Dette kan betraktes som definisjonen på
+handlingskompetanse.
+
+
+
+
+    Figur 8: eksempler på sammenhengen mellom spillerens handlingskompetanse med ballen,
+   grunnleggende ressurser, ballteknisk repertoar, handlingskamuflasje og handlingsfleksibilitet.
+                                            (Giske, 2001).
+
+
+
+Handlingskompetansen bestemmes altså av disse faktorene som modellen viser. Grunnleggende
+ressurser kan være hurtighet og utholdenhet. Ballteknisk repertoar har vært forklart tidligere. Å vise
+”falske” signaler, skjule handlingsforløpet og avsløre hensikten så sent som mulig er måter en
+spiller kan kamuflere sin hensikt på.
+
+Handlingsfleksibilitet har med tidspunktet av handlingen å gjøre, altså om handlingen utsettes,
+fremskyndes eller en eller annen endring i handlingsforløpet.
+
+
+
+Som tidligere forklart så er omgivelser, oppgaver og individ faktorer som hører til den økologiske
+læringsteorien. Martens (2004) har laget et ”taktisk triangel”, der nevnes faktorer som påvirker en
+spillers evne til å identifisere og løse problemer (problemløsning).
+
+“Tactical skills require that athletes have the cognitive skills to ”read the situation” to know what
+is happening during the contest.” (Martens, 2004).
+
+
+
+
+                                                                                                17
+                             Figur 9: Tactical triangle. (Martens, 2004).
+
+
+
+Dette hører til det som tradisjonelt ligger under den kognitive læringsteorien, å gjenkjenne
+situasjoner. Dette gjøres gjennom kognitive ferdigheter som persepsjon, oppmerksomhet og
+konsentrasjon. (Martens, 2004). Dette gjøres mye gjennom erfaring, altså at en har vært i samme
+situasjon før. Gjenkjennelses prinsippet er et læringsprinsipp som er mye brukt. (Tyriberget, 2004.,
+Eggen, 1999).Martens (2004) mener altså at en stor del av de valg som taes i idrett, gjøres på
+bakgrunn av kognitive ferdigheter. Sentrale kognitive forutsetninger for handlingsvalgene kan blant
+annet være kjennskap til egne ferdigheter, med og motspilleres ferdigheter, kollektiv organisering og
+regler. (Giske, 2001).
+
+Det andre hjørnet av triangelet, ”acquiring knowledge”, er det samme som ”oppgaver” i den
+økologiske modellen. Den inneholder spillprinsipper, strategi for kampen osv. Denne er altså
+påvirket av den økologiske modellen.
+
+”Decision making” er det siste hjørnet, og den avgjørende biten. Etter at spilleren har samlet
+informasjon gjennom å oppfatte situasjonen og oppgavene knyttet til den, så skal det handles. Dette
+er ikke ulikt det som er blitt forklart tidligere. Martens (2004) beskriver også hel-del-hel metoden
+som et godt undervisningsprinsipp med tanke på trening av handlingsvalg.
+
+Men det som skiller denne modellen er altså de kognitive prosessene som er viet en stor plass i
+triangelet til Martens.
+
+Et av målene med spillerutvikling, slik jeg ser det, er å bedre handlingsvalgene til spillerne. Og for å
+vite hva som er det riktige til enhver tid, så må en se på hva de beste fotballspillerne gjør. Norges
+toppidrettsgymnas har gjort akkurat dette, og systematisert det på en fin måte. De oppsummerer
+
+
+                                                                                                 18
+med at de beste spillerne velger løsning så sent som mulig, er flinke til å ombestemme seg og
+kamuflerer hensikten sin. (Olafsen et al, 2003). Forfatterne deler taktiske krav opp i 3 faser: hva
+skjer før involvering, under selve involveringen og etter involvering.
+
+         •   Fase 1: Før involvering:
+
+
+
+
+Figur 10: viser taktisk handlingskompetanse for spilleren før involvering. (Olafsen et al, 2003).
+
+Spilleren er i utgangspunktet 2A/F eller 3A/F5 og forbereder seg på å bli 1A eller 1F. F.eks gjøres
+dette ved at spilleren observerer med lange og korte søk i nærrom og fjernrom med blikket. Da får
+de et oppdatert bilde av rom og tids forholdene, som de så benytter når de beveger seg i riktig
+posisjon med god bevegelseskvalitet. De beste er dyktige på tempo, timing, vinkel og avstand.
+(Olafsen et al, 2003., Bangsbo og Peitersen, 2004). Gjennom god kroppstilling, så har de best mulig
+oversikt og er klar til ny situasjon.
+         •   Fase 2: involvering med ball:
+
+
+
+
+Figur 11: viser taktisk handlingskompetanse for spilleren under involveringen. (Olafsen et al, 2003).
+Spilleren har orientert seg godt i forkant, og er i stand til å oppdatere ”bildet” mens ballen er på vei
+til seg selv. Så kommer aksjonsstillingen, at han er fysisk klar til å gjennomføre den handlingen han
+5
+     1A er betegnelsen på den spilleren som ha ballen. 1F er den forsvarsspilleren som er nærmest ballfører. 2A/2F er
+    spillerne som er nærmest 1A/1F. 3A/3F er alle de andre spillerne. (Olsen et al, 1994).
+
+                                                                                                                19
+har tenkt å gjøre. Det er her de beste spillerne er flinke til å velge sent, ombestemme seg og
+kamuflere hensikten. Valg av riktig handling og riktig teknikk er viktig her.
+         •    Fase 3: etter involvering:
+
+
+
+
+Figur 12: viser taktisk handlingskompetanse for spilleren etter involveringen. (Olafsen et al, 2003).
+Denne fasen er ganske lik første fase. Men den tas med av pedagogiske hensyn. Grunnen er at etter
+involvering, så skjer det noe. ”Det skjer noe, og det skjer som regel veldig bevisst og ofte med høy
+intensitet.” (Olafsen et al, 2003).
+
+
+Så kommer handlingene til de spillerne som er lenger unna ballen, eller i nærheten men får ikke
+ballen i umiddelbar fremtid. Dette er spillerne som kanskje skaper rom for ballfører med sine
+bevegelser.
+
+
+
+
+Figur 13: viser taktisk handlingskompetanse for spillerne rundt en involveringen. (Olafsen et al, 2003).
+Bakgrunnen for å ta med disse modellene har vært for å skape en helhetlig forståelse omkring
+hvordan prosessen er når en spiller gjør sine handlingsvalg.
+
+
+
+
+                                                                                                           20
+3.1.5 Spilleforståelse
+
+Spilleforståelse er et vidt begrep. Noen kaller det taktisk forståelse, spillkompetanse osv.
+Spilleforståelse innebærer å kunne lese og løse ulike spillsituasjoner. (Wisløff et al, 1998., Sæther,
+2004., Bjurwill, Lagerström og Nilsson, 1996). Kompetansen til spillerne med god spilleforståelse
+inneholder kunnskap om dynamikken i spillet, i forsvar og angrep. (Bjurwill. Et al. 1996). Disse
+forbindes ofte med kreative spillere. (Wisløff et al, 1998). Kreative spillere kan være de som gjør
+ting enkelt og genialt. (Teigen, 2005., Bjurwill, 1991). Denne kompetansen er avgjørende for en god
+spiller og lagprestasjon i fotball. (Sæther, 2004). Bjurwill (1991) mener også at hurtig
+ballbehandling ligger inne i begrepet spilleforståelse. Wadel og Schou Andreassen (1989)skriver at
+spilleforståelse handler om evnen for ballfører å velge ut de spillerne som er best plassert i neste
+situasjon. Nettopp det å ligge i forkant av neste situasjon synes som en betegnelse på god
+spilleforståelse. (Bjurwill, 1991., Bjurwill et al, 1996., Olafsen et al, 2003). Ronglan (2003) skriver
+om lagspill som en problemsløsningsprosess. Dette på grunn av begge lags motstridende interesser.
+(Teigen, 2005). Det kalles et problem, fordi det er èn løsning av flere mulige som velges. (Ronglan,
+2003). Og det er denne evnen til problemløsning som Ronglan (2003) definerer som
+spillkompetanse. Spillkompetansen utvikles gjennom bruk av spillsituasjoner på praksisfeltet, altså
+en spillsentrert tilnærming. En spillsentrert tilnærming har spilleforståelsen som hovedmål. (Wisløff
+et al, 1998., Micthell, S., Oslin, J., Griffin, L, 2006., Martens, 2004).
+
+
+
+
+Figur 9: Tactical triangle. (Martens, 2004).
+
+
+Spilleforståelse er dels avhengig av spillerens kognitive evner. (Martens, 2004., Sæther, 2004). Som
+tidligere forklart gjennom modellen til Martens (2004), så er spillforståelsen kognitiv gjennom at
+situasjonen må leses og gjenkjennes. Dette er en kognitiv ferdighet. (Martens, 2004., Capanna,
+
+                                                                                                21
+Oneto og Ferrera, 2003., Williams, Ward, Herron og Smeeton, 2005). Gjennom persepsjon,
+oppmerksomhet og konsentrasjon oppfattes situasjoner. En spiller med god spilleforståelse bør ha
+blikk for mange relasjoner, men ikke for mange. (Jordet, 2004., Wadel og Schou Andreassen, 1989).
+I praksis vil dette bety at å spille angrep mot forsvar ofte på trening vil gjøre at spillerne vil oppfatte
+og gjenkjenne situasjonen raskt. (Martens, 2004., Eggen, 1999., Tyriberget, 2004., Del Freo, 1999).
+Nettopp blikket er en avgjørende faktor for å ligge i forkant av neste situasjon, og uten informasjon
+kan det vanskelig gjøres å ta de rette valgene. (Petrucelli, 2004). Manglende spillerforståelse kan
+henge sammen med at spillerne blir for fokusert på ballen. (Bjurwill, 1990). Dette gjør at de mister
+oversikten, det samme gjelder hvis spillerne fokuserer for mye på det som foregår i spillernes
+umiddelbare nærhet, altså fokus på nærrom og utelukker fjernrom helt6. (Bjurwill, 1990).
+
+Gjennom kamp og spilleranalyse så vil også spilleforståelsen utvikles. (Bjurwill et al, 1996). En ting
+er å se seg selv i en spillsituasjon, men også å kunne observere antatt bedre spillere vil være
+utviklende. Dette er den kognitive delen av spilleforståelse. Tilbake til modellen til Martens (2004),
+så er selve spillsituasjonen innenfor det økologiske feltet. En spillsituasjon inneholder nødvendigvis
+alt en kamp vil inneholde. (Ronglan, 2003). Og spill med få eller ingen betingelser vil være en god
+måte å trene spillforståelsen på. (Wisløff et al, 1998., Michels, 2001). Fokus i disse spillsekvensene
+kan være på generelle spillprinsipper, eller mer spesifikt på lagdel om lagdel osv. Spillets idè bør
+uansett være lett synlig for spillerne. (Bjurwill et al, 1996., Sæther, 2004).
+
+Jeg har tidligere skrevet at tegn på god fotballferdighet er en spillerens evne til gjentatte ganger å
+gjøre en hensiktmessig handling i en gitt situasjon. (Ronglan og Larsen, 2003., Bergo et al, 2002).
+Dette kan vel også være en definisjon på god spilleforståelse.(Dreier et al, 1986., Bjurwill, 1991).
+
+
+3.2 Spillsituasjonen
+
+
+    3.2.1 Fotballens egenart
+
+Fotball er en lagidrett som spilles 11:11 innenfor et avgrenset område og med klare regler. Spillet er
+primært styrt av regler. Men areal begrensninger regulerer også forholdet mellom spillerne. I fotball
+har spillerne ca 9000m2 (110 x 90m) til disposisjon. (Giske, 2001).
+Den grunnleggende ideen ved fotball er at det laget som scorer flest mål har vunnet kampen. Som vi
+
+6
+      Bjurwill (1990) bruker begrepene ”bollblind” og ”spelblind” når spilleren har en ”brist” i spillerforståelsen. Dette er
+     enten når spilleren er for fokusert på ballen eller bare ser de situasjoner som er nærmest spilleren.
+
+                                                                                                                    22
+ser utfra modellen under er spillets idè å score mål og hindre mål7. Laget som har ballen er i angrep,
+og da er det overordnede målet å score mål. Det overordnede målet med forsvarsspillet er å hindre
+mål.
+
+
+
+
+Figur 14: en modell for systematisering av spillet og spillets idè i spillesituasjoner, og systematisert i ulike nivåer.
+(Teigen, 2005, modifisert etter Olsen, Larsen og Semb, 1994).
+
+Det er tydelig at det er mange uklare situasjoner i en kamp, hvor det er vanskelig å definere hvem
+som er laget i angrep. En kamp inneholder ca 360 angrep, ballen skifter eier 4 ganger i minuttet.
+(Larsen, 1992). Det er naturlig da at mange uoversiktlige situasjoner oppstår som absolutt ikke er
+med på å skape skillet helt uproblematisk. Dette er dynamikken8 i spillet; stadig veksling mellom
+angrep og forsvar. Dette gjør spillet uforutsigbart. Men noen retningslinjer gjør at spiller blir
+enklere. Som tidligere skrevet så er hensikten med angrepsspill å score mål, og dette oppnås ved
+gjennombrudd. Dette skjer gjennom å skape og utnytte rom. Og prinsippene for å få til dette er
+bevegelse, bredde og dybde. Defensivt gjelder det å hindre mål, men også å vinne ball. Dette oppnås
+ved å hindre gjennombrudd og nekte rom. Dette igjen gjøres gjennom prinsippene balanse,
+konsentrering og dybde.
+
+Modellen Figur 14, beskriver de motstridene interessene i angrep og forsvar9 ved å ha
+
+7
+     Egenarten er viktig å ha kjennskap til for å skille ut det viktigste i spillet og ivareta spesifisteten. (Bergo et al. 2002).
+8
+     Dynamikk stammer fra mekanikken, overført til fotballspillets dynamikk, sier noe om aktiviteten og de bevegelser
+    som kjennetegner fotballspillet. (Bergo et al. 2002).
+9
+     Det laget som til enhver tid har ballen er i angrep og vise versa. (Olsen et al. 1994).
+
+                                                                                                                        23
+komplementære spilleprinsipper. Det betyr at for ett angrepsprinsipp, finnes det ett forsvarsprinsipp.
+
+Denne modellen er delt opp i ulike nivåer, denne inndelingen er det Teigen (2005) som har gjort et
+forsøk på å videreutvikle etter Wade, 1967 og Olsen et al, 1994. Øverste nivå er mål nivå. Denne er
+da knyttet opp mot det å score mål og det å hindre mål, samt å vinne ball. Strategi handler om
+hvordan skape gjennombrudd, hvordan vinne ball, hvordan hindre gjennombrudd gjennom å utnytte
+rom, å skape og utnytte rom, å hindre rom, å redusere og hindre rom. Taktikk dreier seg om forhold
+som gjør at en kan lykkes med strategien. Den viser hvordan en kan opprettholde fremdrift, hvordan
+opprette og opprettholde fremdrift, hvordan opprettholde balanse, hvordan opprette og opprettholde
+balanse. Virkemiddelnivå er de midlene som lag og spillere benytter seg i situasjoner for å realisere
+strategien og taktikken. Lokaliseringsnivået viser hvordan de øvrige nivåene gir seg utslag på
+detaljnivå.
+
+Som modellen viser så er utgangspunktet for kampen at to lag står ovenfor hverandre, i angrep og
+forsvar, med motstridende interesser. Slik skapes en spillsituasjon; gjennom begge lags samtidige
+handlinger i ”spill-motspill”. (Teigen, 2005., Ronglan, 2000 og 2003). Begge lag søker samtidig å
+aktivt forme spillesituasjoner. Spillere prøver å skape og utnytte spillesituasjoner til fordel for eget
+lag. ”Spillesituasjoner er spillet.” (Teigen, 2005). De 3 dimensjonene10 fremtrer samtidig og
+samvirker i utviklingen av spillet. De bidrar alle til å forme spillsituasjonen, samtidig som de
+anvendes for å løse situasjonene som oppstår. Kampen kan deles inn i spillesituasjoner av lengre
+eller kortere sekvenser. Dette gjør det mulig å tilrettelegge spilleutvikling uten å miste egenarten av
+synet. ”Læringssituasjoner som tar utgangspunkt i en konkret spillesituasjon av spill-motspill,
+utfordrer spillernes forståelse og valg.” (Ronglan, 2003). Siden det er både teknikk og taktikk i
+disse spillerhandlingene, er det vi kaller spilltrening og teknikk trening et naturlig element i
+ballspillæring. En må både vite hva en skal gjøre, og ikke minst utføre det.
+
+3.2.2 Spillernes opplevelse av spillesituasjonen
+
+”Alt” kan skje - til enhver tid.” (Ronglan, 2003). En spillsituasjon byr på muligheter med et utall
+tenkelige forløp. Spillerne kan bevege seg fritt og spille ballen i mange retninger, men alt begrenses
+av de konstitutive regler11, som både skaper og begrenser handlingsrom. (Ronglan, 2003). Her stilles
+spillerne overfor en mengde valg muligheter. Spillets åpenhet gjør at spillerne blir nødt til å velge,
+rett og slett fordi spillets åpenhet gir en rekke alternativer. Implisitt så velges en løsning/løsninger
+10
+     De 3 dimensjonene; individuell, relasjonell og strukturell forklares nærmere lenger bak i oppgaven.
+11
+     Fotball konstitueres av en bestemt spillflate og et spesifikt regelverk.
+
+                                                                                                           24
+bort, for å løse den konkrete situasjonen. (Giske, 2001). Som observatør åpnes det et ytre perspektiv
+på hva som synes hensiktsmessig i en gitt situasjon. (Teigen, 2005). Men spillerne kan oppleve det
+annerledes, deres indre perspektiv trenger ikke nødvendigvis sammenfalle med et ytre perspektiv.
+(Teigen, 2005). Åpenbare muligheter for en observatør kan oppleves utilgjengelig for spilleren.
+Synsvinklene er forskjellige. Observatøren følger aktiviteten fra en annen posisjon, der muligheten
+kan være mer fremtredende. ”I ettertid er det mulig å reflektere over handlingsstrømmen sammen
+med deltakerne, som dermed lettere kan oppdage de ubrukte mulighetene.” (Ronglan, 2003).
+Gjennom dette skriver Ronglan (2003) videre at spillsituasjoner karakteriseres som
+problemløsningssituasjoner. Dette fordi spillerne kan opptre på ulike måter i en hver situasjon, og
+spilleren utfordres til å velge en hensiktsmessig løsning. (David, Araujo og Shuttleworth, 2005).
+Problemet forsterkes ved at spilleren møter motstand, motstand som prøver å hindre
+hensiktsmessige valg. Møte med motstanden kan være både muliggjørende og begrensende.
+(Teigen, 2005., Ronglan, 2003). Dette er spill-motspill, spillere som stadig prøver å løse situasjonen
+til sin fordel. Noen muligheter kan være mer fremtredende enn andre, og således ta et bevisst valg.
+Spilleren kan også oppleve at spillet går for fort, at det ikke er noen annen løsning enn ”å handle”.
+(Teigen, 2005., Ronglan, 2003). Det som opplevdes som naturlig der og da, men på grunn av
+tidsklemmen ikke var i stand til å se andre alternativer. ”I ettertid er det rom for å reflektere sammen
+med spillerne over både landskapet av ubrukte muligheter og de foretatte handlingene, gjennom å
+koble spillernes opplevelse og oppfattelse av situasjonene med observatørperspektivet.” (Teigen,
+2005).
+
+
+
+
+3.2.3 Fotballspillets dialektikk
+
+Gjennom spill-motspill møtes lagenes handlinger og samhandling, og det er gjennom denne
+brytningen spillsituasjonen skapes. (Teigen, 2005). I denne konfrontasjonen så er det lagets og
+spillerens dyktighet i de 3 dimensjonene(individuell, relasjonell og strukturell) som avgjør
+resultatet. (Dahl, 2002). Gjennom trekk-mottrekk så kan spillet være skapende eller destruktivt.
+(Larsen, 1994). Med hele tiden det for øyet å skape og utnytte denne situasjonen til fordel for eget
+lag. Konflikten mellom disse lagene, den stadige vekslingen mellom angrep og forsvar, eller
+gråsoner der ”ingen” har ballen, kan også kalles spillets dialektikk. (Teigen, 2005., Dahl, 2002).
+
+
+
+
+                                                                                                25
+Figur 15: spillutvikling gjennom en strøm av spillsituasjoner som lagene samtidig aktiv skaper og utnytter. (Teigen,
+2005).
+
+
+Modellen beskriver denne konflikten. ”Lagets” aktive forming og forsøk på løsning av en
+spillesituasjon (ii) kan betraktes som en ”tese”. Motstanderlagets samtidige aktive forming av og
+forsøk på løsning av spillesituasjoner (iii) kan betraktes som ”en antitese”. Motsetningen kommer
+til uttrykk gjennom den spesifikke konfrontasjonen (iv). Utviklingen i situasjonen vil kunne betraktes
+som syntesen (v).” (Teigen, 2005). Gjennom denne konfrontasjonen prøver begge lag å gjøre
+hverandre dårlige, slik at de kan få utnyttet sin egen dyktighet. (Teigen, 2005., Jordet, 2003). Teigen
+(2005) skriver videre at nettopp dette gjør spillet uforutsigbart. At lagene forbereder seg på den
+aktuelle motstanden, og slik vil prøve å forutsi motstanden de møter. Slik prøver begge lag å styre
+kampen. ”Kampen lar seg ikke styre, nettopp fordi begge lagene ønsker å styre den.” (Teigen,
+2005)12.
+
+
+
+
+ 3.2.4 Tid og rom
+
+Spillere med velutviklet teknisk repertoar har ofte bedre tid i kamp. (Giske, 2001). Spillernes
+ferdigheter har en innvirkning på tiden og hvilke rom som blir brukt. Individets ferdigheter i
+forbindelse med tid og rom vil ikke berøres nærmere her, da det blir dekket andre steder i oppgaven.
+Gjennom spillets dynamikk skapes det rom13. Rom skapes gjennom motstandernes forlytninger og
+eget lags bevegelser. (Riisnæs, 2006., Teigen, 2005). Avstanden mellom ballfører og motspillere vil
+påvirke hvilke gjennombruddsmuligheter som er mulige, og den tiden spilleren har til disposisjon
+12
+      Dette er ikke helt uproblematisk. Et lag bestående av 11 klart bedre spillere enn motstanderlaget, vil , i alle fall i
+     perioder, etter all sannsynlighet ha hegemoniet i kampen.
+13
+       De fleste lag organiserer seg i 3 ledd, og det er motstandernes posisjoner som viser hvor store rom som oppstår.
+     Bakrom er bak motstandernes bakre ledd, mellomrom er mellom midt og bakre ledd, fremrom 1 er mellom midtre og
+     front ledd, mens fremrom 2 er foran front leddet. (NFF, 2004).
+
+
+                                                                                                                   26
+for å gjøre det. (Bergo et al, 2002).                                                        Teigen (2005) har
+systematisert romprioriteringer frem mot scoring. Denne modellen viser hva som bør prioriteres.
+Hvis motstanderne lager et bakrom, så bør dette utnyttes. Hvis de faller av og stenger bakrom, men
+frigjør mellomrom, så bør dette benyttes. Målet er å utnytte de rom som finnes, og finnes det lite
+rom, så må rommet skapes. Det å kunne tolke rom og forutsi romutviklingen er en avgjørende faktor
+i fotball. (Riisnæs, 2006., Teigen, 2005). Både i angrep og forsvar, gjennom å utnytte, eventuelt
+skape og utnytte rom.
+
+
+
+
+Figur 16: Romutnyttelse i angrep. (Teigen, 2005).
+
+
+Ved å fokusere på romutnyttelse utfordres spillernes evne til å oppfatte, vurdere og bestemme
+romutnyttelsen. ”Vi kan tegne en utvikling hvor det fremgår hvordan noen rom vil endre seg, hvilke
+åpnes og hvilke er vanskeligere tilgjengelig.” (Teigen, 2005). Gjennom eget lags bevegelser og
+motstandernes forflytninger, så kan motstander brukes som utløsende signal ved å bestemme
+mulighetene. (Teigen, 2005).
+
+
+
+3.3 Hva skal det trenes på?
+
+
+ 3.3.1 kravsanalyser
+Hva skal trenes på? Dette er ofte et vanskelig spørsmål for trenere. En arbeidskravsanalyse kan
+benyttes. Den har som oftest utgangspunkt i individuelle idretter, f.eks friidrett, og kan vanskelig
+generalisere fotball på samme måten14. Men en slik analyse sier noe om hva som er sentralt for
+prestasjonsevnen i den enkelte idrett. (Sæterdal, Erlandsen og Madsen, 2001., Ingvaldsen, 1993).
+”I fotball er det avgjørende å kartlegge:
+14
+      Ronglan og Larsen (2003) skriver at tradisjonelle arbeidskravsanalyser ikke strekker til i en analyse av ballspill,
+     dette på grunn av at ; den har kun et individuelt perspektiv, den søker å bestemme entydig og felles krav, den tar
+     utgangspunkt i lukkede idretter og den overser motstanden og spillsituasjonens dialektikk.
+
+                                                                                                                    27
+1. hvilke egenskaper og ferdigheter som har betydning for den komplekse prestasjonen, avhengig
+     av spillerposisjon og
+2. viktigheten av egenskapene i prioritert rekkefølge.”
+(Sæterdal, et al, 2001).
+Denne analysen tar for seg fysiske, tekniske, taktiske, mentale og antropometriske15 krav i idretten.
+(Tønnesen., Gjerset, 1992). Det er ulike metoder for å gjøre en slik analyse, en analyse av dette
+slaget kan se slik ut:
+
+
+
+
+Figur 17: En arbeidskravsanalyse i fotball. (Olafsen et al. 2003).
+
+
+
+Det stilles en rekke krav til fotballspilleren, og dette er bare en ramme modell som viser hvilke felt
+som er sentrale og hva som kjennetegner ”verdens beste” fotballspillere innenfor disse kategoriene.
+En slik analyse kan fungere som ”triggere” på treningsfeltet. På denne måten vil en blant annet
+kunne finne ut hvilke ferdigheter det er viktig å beherske for å spille fotball på ulike ferdighetsnivå
+og identifisere de viktigste aspektene som bør utvikles for å komme på et høyere nivå.
+Utfra slike krav kan en lage en kapasitetsanalyse. En kapasitetsanalyse sier noe om spillerens sterke
+og svake sider i idretten. (Tønnesen., Ingvaldsen, 1993). Deretter kan det settes prioriteringer på
+feltet for den enkelte spiller. ”Det er viktig å vite arbeidskravet for rollen innenfor de ulike
+utviklingsarenaene, slik at man på den måten arbeider med en kapasitetsanalyse og oppfølging av
+spilleren som er i samsvar med de kravene som spilleren blir stilt ovenfor.” (Hansen Wold, 2002).
+Den tradisjonelle treningslæren generaliserer kravene til utøveren. I lagspill er dette annerledes.
+Siden lagspill har flere ulike roller, så bør et lag ha spillere som utfyller hverandre dersom
+samhandlingen skal bli slagkraftig. (Ronglan og Larsen, 2003). Det stilles ulike krav til ulike roller.
+15
+      De fleste idretter kan en drive nesten uansett kroppsbygning. Men i noen idretter er høyde, vekt, muskeltyper osv
+     avgjørende for prestasjonen. (Gjerset, 1992).
+
+                                                                                                                 28
+Og gjennom det å være en ”åpen idrett” så er det stor grad av kompleksitet og uforutsigbarhet i
+bevegelsesforløpene gjennom kampen. (Giske, 2001., Ronglan, 2000).
+Ronglan og Larsen (2003) trekker også inn motstanderen som en avgjørende forskjell mellom
+lagidretter og individuelle idretter. Videre skriver forfatterne at det i lagspill eksisterer så mange
+arbeidskrav i spillene at de ikke kan nåes av den enkelte spiller alene. ”Spillerne må sammen mestre
+de kravene som de konkrete spillsituasjonene stiller.” (Ronglan og Larsen, 2003).
+Modellen over (s. 41) er utformet etter generelle krav til fotballspillet. Slik kan en analyse gjøres,
+men dette er en ufullstendig modell, og slik må det nødvendigvis også være i fotball. (Ronglan og
+Larsen, 2003).
+Men en analyse viser oss at ferdighetsutvikling foregår på forskjellige nivåer. Gjennom en
+spillsituasjon kommer spillets krav til synet. (Bergo et al, 2002).
+
+
+
+
+Figur 6: Sammenhengen mellom individuell ferdighetsdimensjonen, relasjonell ferdighetsdimensjon og kollektiv
+spillstruktur. (Bergo, et al. 2002).
+
+
+
+3.3.2 Den individuelle, relasjonelle, strukturelle og kamp dimensjonen
+Etter en arbeidskravsanalyse så kan en velge fokusområder for trening. Her må en ta hensyn til om
+det er den individuelle, relasjonelle eller den strukturelle dimensjonen som er hovedfokuset.
+Spillsituasjonen inneholder alle disse dimensjonene. (Rognlan, 2003). Men det er like fullt mulig å
+fokusere på de enkelte dimensjonene (Bergo, et al, 2002).
+Den individuelle dimensjonen:
+Lagspill er avhengig av den enkelte spillers ytelser på banen. (Ronglan, 2000). Som vist på figuren
+side 41, så blir det stilt komplekse krav til spilleren. For å skape et spill sammen, så må trening
+utvikle spillerens individuelle forutsetninger. (Ronglan, 2000., Wisløf et al, 1998., Coerver, 1984.,
+
+                                                                                                           29
+Dreier et al, 1986., Borgersen, 2006., Luxbacher, 1996., Muelensteen, 2001). Hvis disse
+ferdighetene utvikles, så betyr det at laget kan bli bedre til å spille fotball. (Hareide, 2004). I
+utvikling av spillernes ferdigheter så er det ofte snakk om sterke/svake sider. Utvikling av
+individuell spisskompetanse handler om optimal utnyttelse og utvikling av sterke sider hos
+spilleren. (Ronglan og Larsen, 2003., Teigen, 2005., Eggen, 1999., NFF, 2001., Møller, 2006).
+Ronglan og Larsen (2003) skriver om komplementære ferdigheter, altså verdien av å ha spillere med
+ulike ferdigheter som utfyller hverandre. Slik blir samhandlingen i laget slagkraftig. (Ronglan og
+Larsen, 2003., Teigen, 2005., Tjernås, 1996., Tyriberget, 2004., Eggen, 1999., Bangsbo og Peitersen,
+2000., Luxbacher, 1996., NFF, 2001., Isberg, 2001). Dette har jo også med at det stilles ulike krav til
+de forskjellige rollene i laget (Morisbak, 2006).
+”Hvorvidt en fotballspiller mestrer den aktuelle situasjonen, avhenger blant annet av individets
+evne til å velge og gjennomføre en hensiktsmessig løsning.” (Bergo et al, 2002). Så spilleren som
+velger og utfører stabile gode handlinger over tid, innehar gode fotballferdigheter. Dette forutsetter
+et stabilt repertoar av flere delferdigheter. Pasning-medtak, drible, takling og avslutningsferdigheter
+er såkalte basisferdigheter for fotballspilleren. (Bergo et al, 2002). Videre så kan spørsmålet stilles;
+må en god spiller beherske alle disse delferdighetene? Utfra den arbeidskravsanalysen som er
+presentert her, så må spilleren ha et bredt basis repertoar. (Olafsen et al, 2003., Morisbak, 2006.,
+Bergo et al, 2002., Muelensteen, 2001). Men den gode spiller kan også ha et mindre eller annerledes
+spekter av delferdigheter. (Bergo et al, 2002). Rollene i et lag gir grobunn for dette. Nettopp at
+spillerne kan være annerledes, og utfyllende av andre roller i laget. Dette vil være komplementære
+ferdigheter, og vil således være mer uforutsigbart for motstanderne. (Bergo et al, 2002). De
+individuelle ferdighetene til spilleren avgjør prestasjonen til laget. (Teigen, 2005., Borgersen, 2006).
+Den relasjonelle og den strukturelle dimensjonen:
+Gode relasjoner synes gjennom at flere spillere leser og tolker spillesituasjonen på samme måte.
+(Ronglan og Larsen, 2003., Ronglan, 2000., Morisbak, 2006., Luxbacher, 1996., Møller, 2006.,
+Haugaasen, 2006). ”Den relasjonelle dimensjonen er flere spilleres evne til å lese spillet på samme
+måte og handle samtidig og samstemt.” (Bergo et al, 2002). Denne dimensjonen sier altså noe om
+de enkeltes spillernes evne til å samarbeide med hverandre og en felles ramme for forståelsen av
+samtidige valg. Dette kan også uttrykkes som samhandling. (Eggen, 1999). Bergo et al (2002)
+skriver at samhandling er å få spillerne til å bruke seg selv best mulig i samspill med medspillere og
+å gi medspillerne mulighet til å bruke sine beste evner og ferdigheter. Gjennom å vite og utnytte
+hverandres spisskompetanser så kan vi ”gjøre hverandre gode”. Ved å utvikle optimal utnyttelse av
+hverandres gode sider, kan gi rom for utvikling av spesifikke relasjoner. (Ronglan og Larsen, 2003.,
+
+                                                                                                      30
+Eggen, 1999., Morisbak, 2006., Luxbacher, 1996). Et eksempel fra fotball: en innlegger og en
+avslutter. Hvis innleggeren slår ballen langt over hodet på avslutteren kan en si at det skyldes for
+dårlige relasjoner eller timing. Disse to må på en måte oppnå kontakt med hverandre, f.eks
+øyekontakt. I det øyekontakten brytes så kan løpet foran mål starte, for da kommer innlegget kort tid
+etter. Innlegg – avslutning er derfor en ferdighet som disse to besitter sammen. Er innlegget for
+dårlig så blir det ikke noe avslutning, kommer ikke løpet så blir det ikke noe innlegg. Innlegg og
+avslutning er også en individuell ferdighet, men da snakker vi om delferdigheter. (Bergo et al.
+2002). Men sammen blir det en relasjonell ferdighet. En kan også involvere flere spillere knyttet til
+det relasjonelle. F. Eks en bakre firer som setter motstanderens spisser i offside innehar gode
+relasjonelle ferdigheter eller samhandling. (Bangsbo og Peitersen, 2002). Samhandling er høyeste
+form for samarbeid. (Eggen, 1999). Det fremhever altså relasjonene i en lagdel. Så kan vi dra inn
+avstandene mellom lagdeler, hvis den er optimal så klarer ikke motstander laget å utnytte det
+rommet. Da snakker vi om broallianser, altså ferdigheter mellom lagdeler. (Schou Andreassen og
+Wadel, 1989). I et lag så er spillets relasjonelle aspekt en slags syntese mellom det individuelle og
+det strukturelle aspektet. (Ronglan, 2000., Morisbak, 2006). Det forutsettes altså en struktur, og det
+forutsettes individuelle bidrag. ”flyt” og ”rytme” i spillet kan være betegnelser på god samhandling.
+(Ronglan, 2000., Ronglan og Larsen, 2003). Men en spiller kan ikke skape flyten alene, likeledes
+kan ikke en angrepsformasjon skape rytme. Spillprinsipper er bare rammer, som spillerne anvender
+for å skape et spill. Medspillernes samtidige handling er med på å gjøre en handling genial, eller
+mislykket. (Teigen, 2005., Luxbacher, 1996). Enkelthandlingene er integrert i samhandlingen, og får
+ofte betydningen sin gjennom samhandlingen. ”Spillernes evne til å løse oppgaver i fellesskap vil
+avgjøre om laget lykkes i å mestre ulike situasjoner i en kamp.” (Teigen, 2005). Gjennom en
+definert arena og spesifikt regelverk så dannes det en ytre struktur som fotball kan skapes innenfor.
+(Ronglan, 2000). I tillegg, for å lette samhandlingen på banen, så kan det lages en lagsintern
+struktur16. De individuelle bidragene må samordnes, og det er dette denne dimensjonen beskriver,
+altså retningslinjer for å samordne lagets individuelle ferdigheter. (Teigen, 2005., Michels, 2001.,
+Eriksson og Railo, 2000., Luxbacher, 1996., Marziali og Mora, 1997).
+Rolledyrking kan bli viktig i fremtiden. ”Vi må dyrke roller og vi må øve på delferdigheter den
+enkelte spiller kan nyttiggjøre seg av i en kamp situasjon så ofte som mulig.” (Riisnæs, 2006).
+Internasjonalt har man sett viktigheten av dette, da ungdomsspillere i store klubber trener mye på
+egenarten til den enkelte rolle. (Juliussen, 2006., Muelensteen, 2001., Isberg, 2001). Altså der hvor
+
+16
+      Lagsstruktur brukes gjennom flere ulike begreper; spillefilosofi, spillstrategi, spillestil, lagets kollektive spill,
+     lagtaktikk, system, formasjoner osv. (Olsen et al, 1994., Ronglan og Larsen, 2003., Teigen, 2005).
+
+                                                                                                                         31
+det jobbes konkret med det den enkelte spilleren ofte møter i kamp. Det er 2 ting som er viktig for
+rolleutførelsen. Rolleklarhet og rolleaksept. (Høigaard og Lidbom, 1999., Eggen, 1999., Giske,
+2001., Hollingen og Pensgaard, 1999., NFF, 2001., Isberg, 2001).
+Det som beskrives her, er at det må bringes klarhet i hva slags forventninger det stilles til dem.
+Videre må spilleren akseptere disse forventningene. Hvis spilleren ikke aksepterer det, vil han
+ødelegge for seg selv og for andre. (Eggen og Eggen, 2005) Eggen og Eggen (2005) skriver videre
+at det kan være lurt å tilpasse rollene til de spillerne en har. Da vil en kunne få komplementære
+ferdigheter i laget. Det betyr å ha utfyllende roller i laget. (Ronglan og Larsen, 2003., Teigen, 2005.,
+Tjernås, 1996., Tyriberget, 2004., Eggen, 1999., Bangsbo og Peitersen, 2000., Luxbacher, 1996.,
+NFF, 2001., Isberg, 2001., Møller, 2006., Haugaasen, 2006 og 2007). Det kan f. Eks være 2 spisser
+som spiller sammen, hvor 1 er veldig rask og den andre er stor, sterk og veldig god på hodet.
+Jeg har tidligere forklart hvordan en arbeidskravsanalyse i fotball kan benyttes i
+treningssammenheng. Noe tilsvarende kan gjøres innen rollekrav også, det kan se slik ut:
+
+Sidebackenes rolle
+
+TAKTISKE/TEKNISKE FERDIGHETER
+   - ballsikker, god til medtak
+   - god pasningsspiller: velge riktig løsning og ha et bredt repertoar; korte lange fremspill,
+      innlegg, crossballer, chip, pasning med utsiden og vristspark.
+   - Hurtig og sikker ballføring
+   - Pasningsteknikk med begge ben
+   - Gode dribleegenskaper
+   - Godt hodespill: vinne dueller, rydde unna, klareringer
+
+DEFENSIVE FERDIGHETER
+  - plasseringssikker, forholde seg riktig til linjen, se farer tidlig, våken
+  - dyktig 1.Forsvarer; presse lede, oppholde, takle og bryte foran
+  - aggressiv og sterk i duellspill langs bakken og i lufta
+
+FYSISKE FERDIGHETER
+   - hurtighet: korte og lange løp
+   - stor løpskapasitet og løpsvilje
+   - styrke :duelkraft
+
+MENTALE FERDIGHETER
+  - mot: våge å utfordre 1 mot 1 i angrepssone
+  - konsentrasjon: initaiativ, gjøre seg tidlig spillbar, skape overtall på kanten, 2:1
+
+(Hareide, 2004).
+Slik kan en arbeidskravsanalyse for sidebacken se ut. Ut fra denne modellen kan en lage en
+
+
+                                                                                                 32
+kapasitetsanalyse av spilleren og velge hvilke områder som skal prioriteres.
+Felles retningslinjer for laget bidrar til å redusere alle de inntrykk en spiller blir utsatt for under
+kamp, og slik sett gjøre det lettere for spilleren å velge hensiktsmessige løsninger i en gitt situasjon.
+(Bergo et al, 2002., Luxbacher, 1996). Videre skriver forfatterne at dette vil påvirke kvaliteten på
+handlingene i laget, f.eks løp, innlegg eller pasninger. Spillerne blir mer sikre på valget sitt, og
+således klarer å gjennomføre handlingene med høyere intensitet. (Beck, F., Holtan, E., Svindal
+Larsen, T., Nordlie, T., Apeland, KT., Næss, S., Ròsen, K, 2001., Morisbak, 2006). ”En viss
+forutsigbarhet innad i laget gjennom felles kjøreregler er en nødvendighet for at ferdighetene skal
+blomstre.” (Bergo et al, 2002). Klare retningslinjer for spillestilen til laget kan være
+ferdighetsutviklende for spilleren. (Michels, 2001, Nilsen og Winsnes, 2004). Og spillestil vil være
+av stor betydning for utvikling av rolleferdigheter. (Tyriberget, 2004). Samt at klare retningslinjer vil
+gjøre ”oppgaven” i forsvar eller angrep lettere. (Bergo et al, 2002).
+Retningslinjene for laget er opp til den enkelte trener å bestemme, de kan være faste eller de kan
+være mer løse. Som regel så er det lettere å systematisere laget defensivt, siden spillsituasjoner i
+angrep som regel gir flere handlingsalternativer. (Bergo et al, 2002).
+Teigen (2005) skiller mellom deskriptivt og hypotetisk mønster for å fange opp et lags kollektive
+handlingsmønster. Forskjellen mellom deskriptiv og hypotetisk ligger i det som er planlagt å gjøre
+(hypotetisk) og det som faktisk skjer (deskriptiv).
+Lagstruktur kan være muliggjørende og begrensende for spillerne. (Tjernås, 1996., Teigen, 2005.,
+Ronglan og Larsen, 2003., Morisbak, 2006., Luxbacher, 1996). Forenklet på den måten jeg har
+forklart tidligere, at spillerne får klare signaler å se etter i spillsituasjonen. Begrensende fordi ulike
+situasjoner kan ha et ferdig opptegnet mønster, noe som begrenser valgmulighetene.
+Kamp dimensjonen:
+Kamp dimensjonen kan forståes som møte med motstanderen17. (Holm et al, 1998., Hughes, 1990.,
+Olsen et al, 1994). ”Kampen beskrives som en konfrontasjon mellom to lag som ønsker å skaffe seg
+overtaket i de ulike situasjonene for å vinne.” (Teigen, 2005). Denne konfrontasjonen skaper
+kampen. Motstanderne er altså i høyeste grad med på å bestemme om laget lykkes eller ikke. (Bergo
+et al, 2002). Motspillere virker på den ene siden begrensende gjennom sine defensive handlinger,
+men samtidig også muliggjørende gjennom sine reaksjoner på angrepslagets handlinger. (Teigen,
+2005., Bergo et al, 2002., Morisbak, 2006). Dette uttrykkes ofte som spill-motspill, eller trekk –
+mottrekk osv. (Ronglan, 2003., Teigen, 2005).
+Dette påvirker lag på måten de vil angripe den enkelte kampen på, gjennom spesifikke strategier
+17
+     En spillsituasjon vil ha stor likhet til kampdimensjonen. (Teigen, 2005).
+
+                                                                                                    33
+eller virkemidler mot en spesiell type motstander. Balanseforhold i eget lag og grad av
+gjennombruddhissighet er eksempler på dette.
+
+
+
+
+3.3.3 Den individuelle, relasjonelle, strukturelle og kamp dimensjonen – en oppsummering
+Modellen som jeg har brukt tidligere ser vi sammenhengeren mellom dimensjonene og dens
+innvirkning på spillsituasjonen.
+
+
+
+
+Figur 6: Sammenhengen mellom individuell ferdighetsdimensjonen, relasjonell ferdighetsdimensjon og kollektiv
+spillstruktur. (Bergo, et al. 2002).
+
+
+Dimensjonene er koplet sammen på ulike måter (Morisbak, 2006). Pilene kan gå alle veier. En
+bestemt strategi kan være med å fremheve bestemte individuelle kvaliteter, og dermed påvirke hva
+som anses som god individuell ferdighet. Dette kan også gå motsatt vei; at individuelle ferdigheter i
+et lag kan gjøre bestemte spillstrategier hensiktsmessige, for å utnytte spillerens spisskompetanse.
+Det er derfor mulig å ta utgangspunkt i både den individuelle, relasjonelle og strukturelle
+dimensjonen når en skal komponere lag.
+
+Alle dimensjonene er viktige. Mange lag arbeider med de ulike dimensjonene parallelt. (Teigen,
+2005., Bergo et al, 2002). Teigen (2005) skriver om kampanalyse for å avdekke oppbyggingen av
+spillet og tid og rom. (Grèhaigne et al, 1995, 1997). I angrepsspillet har man brukt kampanalyse for
+å finne ut av hvilke angrep som fører til mål, og hvordan disse gjennomføres. (Hughes, 1990.,
+Larsen, 1992., Olsen, et al, 1994., Olafsen og Hiim, 1996). De dynamiske forholdende i en kamp
+gjør sitt til at en trener kanskje kun observerer noen aspekter ved spillet. (Moen, 2003). Dette
+
+
+
+                                                                                                           34
+medfører at sentrale hendelser kan gå i glemmeboken. Videomaterial vil således kunne by på
+pålitelig og objektiv informasjon. Slike analyser har fått betydning for praksisfeltet gjennom
+tilrettelegging av aktiviteter og momenter som skal prioriteres i veiledningen (Petrucelli, 2004).
+Man kartlegger de situasjonene som ofte går igjen, finner ut hva gode løsninger innebærer, og
+utarbeider taktiske arbeidskrav som kan fungere som samhandlingsrammer for spillerne og laget.
+(Olafsen og Hiim, 1996). Slik kan også gjøres gjennom analyse av en spesifikk motstander, og på
+den måten avsløre eventuelle styrker og svakheter, som igjen kan føre til en bestemt strategi og
+taktikk.
+
+Dagens videokamera kan avspille hendelser gjennom en liten skjerm festet på kamera. Dette gjør at
+en kan filme treninger og fokusere på sentrale momenter eller teknikker med direkte avspilling før,
+under eller rett etter økten. (Moen, 2003). ”Slik informasjon sammen med kampanalysedata kan
+over en periode sørge for at man kan skaffe seg en bedre oversikt på utviklingen til en spiller på
+ulike ferdigheter.” (Moen, 2003).
+
+Ved vurdering av individuelle ferdigheter er også kampanalyse brukt. (olsen et al, 1994). Sånn kan
+lag operere med individuelle analyser i etterkant av kamp. Dette kan således benyttes som et ledd i
+ferdighetsutviklingen. ”Dompf” analysen18 er et eksempel på en slik analyse. (Holm et al, 1998.,
+Olsen et al, 1994).
+
+
+
+
+3.4 Hvordan skal det trenes?
+
+3.4.1 Spesifisitetsprinsippet og Funksjonalitetsskalaen
+”Spesifisitetsprinsippet innebærer at det må være størst mulig likhet mellom treningen og den
+idretten man trener for.” (Bergo et al, 2002). Spesifisitetsprinsippet sier altså at likheten mellom
+trening og kamp bør være størst mulig. (Gjerset, 1992, Morisbak, 2006., Sigmundsson og Haga,
+2005). Dette betyr at fotballkampen er utgangspunktet for læringen, og vi må tilstrebe å lage
+treningene mest mulig lik kampen. Dette anses som et av de viktigste prinsippene innen
+spillerutvikling. (Sæther, 2004., Wade, 1997., Del Freo, 1999., Moen, 2006). Som tidligere forklart
+er det 3 ting som påvirker handlingsvalgene til spillerne; Omgivelser, individ og oppgaver. Alle
+disse tingene må være med på treningsfeltet. Michels (2001) skriver at det å simulere omgivelsene
+
+18
+      DOMPF analysen gir både kvalitative og kvantitative data. Den gjør det mulig å registrere både individuelle og lags
+     registreringer, både positive og negative. (Olsen og Larsen, 1995).
+
+                                                                                                                 35
+fra kamp er viktig, men det er like viktig at øvelsene har et naturlig utgangspunkt. Med det menes f.
+eks at i spill angrep mot forsvar, så startes det hele med et oppspill. Dette er med på å øke
+spesifisiteten ytterligere. (Michels, 2001). Øvelse gjør mester er et ordtak, men det er spesifikk
+øving som gjør mester. (Sigmundsson og Haga, 2005). Det er ikke nok å øve på hvilken som helst
+ferdighet, men man må øve på akkurat den ferdigheten en vil forbedre. Tidligere undersøkelser sier
+at man må trene mye og spesifikt for å oppnå god ferdighet. (Sigmundsson og Haga, 2005).
+Ferdigheten måles i spillsituasjonen, og da må det øves i spillsituasjonen. (Moen, 2006). Problemer
+som kan oppstå er at fotball er vanskelig å standardisere, en situasjon oppstår sjelden eller aldri
+igjen. (Bergo et al, 2002). Fotball krever nøyaktighet og kontroll av ballen i situasjoner der en kan
+være under hardt press fra motspillere. Valgene må kanskje tas hurtig, og de skal også gjerne være
+riktig utfra den enkelte situasjon. Dette gjelder for både spiller med ball og de uten ball. Ferdigheten
+kommer vel så mye til synet hos de spillerne uten ball.
+De ulike idrettene befinner seg på en slags kontinuerlig skala fra det vi kaller lukket ferdighet til
+åpen ferdighet. (Gjerset, 1992., Morisbak, 2006., Bate, 1996). Individuelle idretter som skøyter,
+langrenn osv ligger i den ene enden av skalaen, mens fotball ligger ytterst på den andre enden. (NFF,
+2001., Morisbak, 2006). Dette har selvfølgelig konsekvenser for hvordan vi trener fotball, altså hva
+som blir sentrale aktiviteter i treningssammenheng. De fleste som teoriserer rundt dette har sin
+bakgrunn fra lukkede idretter, og har således manglende forståelse for hvordan fotball bør trenes og
+hvordan prioriteringen bør være på feltet. (NFF, 2001). Det sies at 300-500 repetisjoner under
+nøyaktig like ytre forhold er nødvendig dersom teknikker skal kunne automatiseres. (Bergo et al,
+2002). Dette er riktignok undersøkelser som er gjort i lukkede idretter, i en åpen idrett vil
+sannsynligvis antall repetisjoner måtte økes for å oppnå samme effekt. (Giske, 2003., NFF, 2001.,
+Petrucelli, 2004).
+
+
+
+
+Figur 18: lukket og åpen idrett vist på et kontiniuum. (NFF, 2001).
+
+
+
+Slik sett blir det vanskelig å forbrede spilleren på alt som kan skje i en kamp.
+Fotball spilles 11 mot 11. Da sier det seg selv at størst mulig kamplikhet vil være å spille 11 mot 11
+på trening. Her kan vi ta i bruk funksjonalitetsskalaen, den går fra 1:1 via undertall og overtall til
+11:11. Funksjonalitetsskalaen sier altså noe om hvor bra samsvar det er mellom trening og kamp.
+
+
+
+                                                                                                  36
+(Bergo et al, 2002., Morisbak, 2006., Bate, 1996).
+
+
+
+
+Figur 19: Funksjonalitetsskalaen. (Wisløff, Salveson og Sigmundstad, 1998).
+
+
+
+Når det gjelder hva slags trinn på funksjonalitetsskalaen en skal benytte seg av så er det ingen
+forskjell i utviklinga av teknikk på lav kontra høy funksjonalitet. (Sørensen, 1996). Det som en
+derimot kan si, er at desto høyere funksjonalitet, desto flere elementer fra spillet blir med. Og da
+økes også kompleksiteten for spillerne, og graden av handlingsvalg blir tydeligere. Flere hevder at
+trening på lav funksjonalitet er lite motiverende, og at spillerne faktisk opplever den formen som en
+dårligere treningsform. (Worthington, 1975., Sørensen, 1996., Bergo et al, 2002., Ronglan, 2003).
+Det må her presiseres at det er snakk om øvelser lavt på skalaen og bruk av en formell tilnærming til
+teknikk treningen.
+Hvilket nivå en skal bruke på denne skalaen kan ha sammenheng med modning. (Fiskestrand,
+2006). En må se an utviklingen til spillerne. En økende grad på funksjonalitetsskalaen, øker også
+kompleksiteten for spillerne.
+”Hel-del-hel” metoden er en pedagogisk grep en kan gjøre med oppbygging av treningen for å gjøre
+det lettere for spilleren å se sammenhengen fra øvelser til spill. (Martens, 2004., Reed, 2004.,
+Mitchell et al, 2006., Wade, 1967). Kampen er utgangspunktet, og spillerne ser situasjoner innenfor
+øktas tema. Dette brytes ned til deløvelser, før det settes sammen til spill igjen. Deløvelsen skal
+gjøre at spillerne kjenner igjen situasjonen fra kamp, og får nok repetisjoner i situasjonen.
+(Tyriberget, 2004., Reed, 2004). Det kan være en situasjon hvor det kreves en bestemt ferdighet,
+også kan den bestemte ferdigheten øves i en annen sammenheng før den igjen settes inn i spill.
+(Mitchell et al, 2006). ”Hel” byr på mye kamplikhet, mens ”del” har mindre kamplikhet.
+(Worthington, 1975). Det økologiske og spillsituasjonen har en sentral plass i denne modellen.
+
+3.4.2 Funksjonell og formell arbeidsform og teknikksentrert og spillsentrert tilnærming
+
+i) Teknikksentrert og spillsentrert tilnærming
+
+I valg av tilnærming til spillerutviklingen så er det spesielt en dimensjon som er viktig;
+
+
+                                                                                                   37
+tekknikksentrert vs spillsentrert tilnærming. Den teknikksentrerte tilnærmingen tilsier at mestring av
+teknikker går foran utøvelsen av spillet. Teknikkene gjør spillutviklingen mulig. (Ronglan, 2003.,
+Bate, 1996). Å jobbe med tekniske bevegelsesløsninger er derfor det primære læringsmålet innenfor
+denne tilnærmingen. (Rink, French og Tjeerdsma, 1996). Spillsentrert tilnærming er da det motsatte,
+altså at forståelsen av spillet er det viktigste. (Martens, 2004., Bate, 1996)). Siden spillet er så
+komplekst så må det lages tilpassede spillsituasjoner så spillerne ikke overlesses med
+valgmuligheter. (Reed, 2004). Eksempler på dette kan være angrep mot forsvar, 3:2 osv. Jo færre
+spillere det er, desto lettere blir det for spilleren å overskue situasjonen. (Ronglan, 2003., Giske,
+2003., Wade, 1997). I overtallsspill er det naturligvis det laget i overtall som har lettest oppgave,
+slik kan vi legge opp til at de lykkes oftere med sine valg også. Spillsituasjoner setter ingen
+begrensninger på læringen av teknikker, det kan vi få til ved å sette opp spillsekvenser der det ofte
+forekommer finter, taklinger, skudd osv. (Ronglan, 2003., Capanna, Oneto og Ferrera, 2003.,
+Riisnæs, 2007). Tilpassede spillsituasjoner prøver å skape en sammenheng mellom teknikk og
+forståelse. I slike spillsituasjoner kan det lønne seg å vise ønsket løsning i forkant, da dette kan være
+med på å øke læringen. (Giske, 2003., NFF, 2001 og 2004., Reed, 2004., Bergo et al, 2002.,
+Bangsbo og Peitersen, 2004., Wade, 1997., Williams, Horn og Hodges, 2003). Dette er kun aktuelt
+hvis spillerne som demonstrerer innehar ferdigheter på et visst nivå. Desto bedre øvingsbilde, desto
+større læring. (Franks, Hodges og More, 2002., Williams et al, 2003). Gjennom å se en annen spiller
+utføre bevegelser så lages det en slags ”kognitiv kopi” hos spillerne. (Williams et al, 2003).
+Gjennom å velge en god spiller til å utføre bevegelsesløsningen så vil andre spillere følge bedre
+med. En kort verbal instruksjon sammen med øvelsesbilde vil øke læringseffekten ytterligere.
+(Williams et al, 2003). Her kan en bruke spillere fra eget lag, eller vise sekvenser på video med
+spillere med bedre ferdigheter for å få ”ideal” bildet. (NFF, 2004., Olafsen et al, 2003).
+
+Denne typen tilrettelegging av spillsituasjoner ligner det som kalles ”situativ læring”. Lave og
+Wenger (1991 i Stelter, 2002) skriver at læring og utvikling er en aktivitet som oppstår og utformer
+seg i de situasjoner som individet befinner seg i. Det dreier seg altså om å skape handlingsrom som
+fremmer bestemte typer spillererfaringer og bestemte former for samhandling. (Teigen, 2005). I
+tilpassede spillsituasjoner settes fokus på erfaringer i konkrete situasjoner, der spillets logikk og
+egenart legges til grunn for problemløsningen. (Ronglan, 2003., Teigen, 2005). Tilpassede
+spillsituasjoner trener også flere ferdigheter samtidig, dette hevder flere er viktig. (Williams et al,
+2003., Bergo et al, 2002., Capanna, Oneto og Ferrera, 2003).
+
+
+
+
+                                                                                                   38
+ii) Funksjonell og formell arbeidsform
+
+Her er det også et skille på formell og funksjonell arbeidsform på feltet. Den funksjonelle formen tar
+utgangspunkt i spillesituasjonen og skal ha med alle elementer som den innehar. Mens en formell
+form lar seg vanskelig overføre alle elementene fra spillet. (Ronglan, 2003., Worthington, 1975). I
+den formelle arbeidsformen så trenes spillets elementer isolert fra den sammenhengen i spillet hvor
+elementene inngår. (Andersen, et al, 1997). Disse formene er altså en beskrivelse av arbeidsformen
+som fullstendig løsrevet fra spillet (Formel arbeidsform) eller utøvelse av det ferdige spill i kamp
+(Funksjonell arbeidsform). Det er en glidende overgang mellom den ekstreme formelle
+arbeidsmåten og den mest ekstreme funksjonelle formen. Ronglan (2003) skriver at et skille mellom
+disse formene kan være graden av motstand i spillsituasjonen.
+
+Uansett hvordan man bryter ned spillet til mindre sekvenser eller øvelser så bør det inneholde
+muligheter både for valg av teknikk og valg av handling19. (Bergo et al. 2002., Bate, 1996). En
+spillsituasjon innebærer at en spiller må implisitt velge bort andre muligheter for å løse den
+konkrete situasjonen. I en slik spillesituasjon så vil spillerne få øyeblikkelig tilbakemelding på
+valget sitt. (Bergo et al. 2002). Giske (2001) skriver at spilleren bør ha et velutviklet teknisk
+repertoar for at flest mulig valgmuligheter skal komme til synet for spilleren. Spillere med stort
+teknisk repertoar trenger lite tid og rom, og kan samtidig utnytte disse rommene.
+
+Flere lag kjører sine tekniske øvelser med innslag av taktiske komponenter, f.eks avslutningsøvelser
+som inneholder 3.mannsbevegelser20. (Fagermo, 2000). Øvelsene kjøres mest mulig lik spillestilen.
+Videre brukes mye 4:4 med vegger og touch begrensninger på treninger. Flere hevder at bruk av
+touch begrensninger er utviklende for spilleren. (NFT, 2005., NFF, 2004). Dette stiller jo større krav
+til spilleren da han blir tvunget til å orientere seg i forkant, ha retningsbestemt mottak og for andre
+medspillere å ha tydelige bevegelser i forkant. (Riisnæs, 2005, Jordet, 1998., Høgtun, 1993., NFF,
+2001 og 2004., Reed, 2004). Spill med ett touch vil også være god ferdighetstrening; “the more a
+team practises their one-touch play, the more they will improve their vision – the ability to
+recognize situations quickley, their decision-making – the ability to choose the best pass quickley
+before the ball arrives, and finally their confidence – confidences comes with accuracy and
+
+19
+      Dersom det legges opp til aktiviteter hvor mulighetene for å velge ikke er tilstede, så drives ikke ferdighetsutvikling
+     slik begrepet oppfattes. Øvelser hvor kun det samme gjentas, er riktigere å omtale som teknisk trening. (Bergo et al,
+     2002., Bate, 1996).
+20
+      Første bevegelsen gjøres av 2A og er den første bevegelsen i en gitt situasjon. Det kan også være to
+     førstebevegelser. Andrebevegelse utføres av 3A og kommer i rommet som 2A har etterlatt seg. 3.mannsbevegelsen er
+     spilleren som utfører et løp mens ballen er på vei mellom to spillere. (Bergo et al, 2002).
+
+                                                                                                                    39
+accuracy comes with correct practice.” (Hughes, 1990). Betingelser kan være med på å styre
+utviklingen av spillet. (Bergo et al, 2002., Teigen, 2005., Worthington, 1975). Ulike betingelser kan
+være:
+
+
+        •   Antall spillere på hvert lag
+        •   Banestørrelse
+        •   Spillets varighet
+        •   Antall berøringer
+        •   Måter å lage mål på
+
+
+
+(Bergo et al, 2002., Peitersen, 1993., Bangsbo og Peitersen, 2000., Worthington, 1975.,
+Muelensteen, 2001).
+
+Ulike økter kan ha ulike mål, og gjennom å variere betingelser for spillet så kan målet for økta
+oppnåes lettere og synes mer begripelig for spillerne. En kort og bred bane vil by på spill i
+bredderetningen av banen og det vil automatisk oppstå mange innleggssituasjoner. (Peitersen,
+1993). Videre vil en avlang bane stimulere spill i lengderetning og det vil være naturlig og holde
+fokus på dybde prinsippet. (Teigen, 2005., Peitersen, 1993., Bjurwill et al, 1996). Med antall spillere
+kan en variere om et lag skal være i undertall eller overtall, og således forenkle arbeidsoppgaver for
+det ene laget. (Ronglan, 2003). En slik organisering er med på å begrense handlingsalternativene for
+den enkelte spilleren. (Giske, 2001).
+
+En motsetning til den spillsentrerte tilnærmingen er såkalt ”Coerver coaching”. Her har hver spiller
+en ball som de skal bruke til å drille forskjellige teknikker. Her jobbes det veldig lavt på
+funksjonalitetsskalaen og hver spiller får masse repetisjoner med ball. Begrunnelsen for denne
+tilnærmingen er at det er over 300 1:1 situasjoner i kamp, og at spillet egentlig ikke er 11:11. (NFT,
+2005). Derfor spilles det mye 1:1 og spill i små grupper på Coerver coaching. De har en pyramide
+som de bruker i tilnærmingen. Den bygges fra bunnen med pasning – mottak, 1:1, hurtighet (mental
+og fysisk), avslutninger og gruppespill. Her varieres også motstanden fra ingen, via passiv til full
+motstand. Coerver (1986) mener at angrepstrening bør prioriteres(trening med ball), siden spillerne
+bør være i stand til å beholde ballen når de først får tak i den. Han skriver videre at hver teknikk bør
+mestres fullstendig før en går videre til neste. Dette minner mye om det Gjerset (1993) skriver om
+koordinasjons og teknikk trening, et nivå bør mestres før en kan gå videre til neste. Dette er
+
+
+                                                                                                 40
+riktignok tidkrevende, og kan bli kjedelig for spillerne å stadig gjenta det samme. (Worthington,
+1975). Ved å forandre øvelsene hyppig så vil en holde på spillernes oppmerksomhet lenger. (Giske,
+2003). Giske skriver videre at en kan lage flere øvelser hvor de samme ferdighetene koopereres. Det
+som har vært kritikken mot Coerver trening er at øvelsene er løsrevet fra spillet, altså en veldig
+formell arbeidsform. Coerver (1986) skriver selv at det hjelper ikke å ha veldig bra tekniske
+løsninger, hvis valgene er gale. Men han kommer ikke noe mer inn på temaet.
+
+Martens (2004) beskriver noe han kaller for ”variable practice”. Hvis en spiller kjører avslutninger
+hvor han blir bedt om å skyte med innsiden av foten, fra samme sted på samme pasning hver gang.
+Så vil den spilleren ha mindre fremgang, enn en spiller som ikke vet hvor pasningen kommer fra,
+eller hvordan han skal avslutte. Så ”variable practice” som er kamplik gir bedre fremgang enn en
+formell tilnærming. (Stratton., Reilly., Williams og Richardson, 2004). Martens (2004) skiver at
+spillerne skal ha muligheten til å velge teknikk i alle situasjoner. Men er ikke valg muligheten til
+stede i en aktivitet, så regnes det ikke som ferdighetstrening, men heller teknikk trening. (Bergo et
+al, 2002).
+
+
+
+
+3.4.3 Grunnspillet
+
+Når det gjelder utvikling av teknikk, så har NFF de siste årene lagt om til femmerfotball blant de
+yngste og også oppmuntrer til bruk av denne spillformen i trening i alle aldrer. Femmerfotball
+spilles 4 mot 4 pluss målvakter. ”Femmerfotball er tettere, kjappere og morsommere.” (NFF, 2003).
+Dette spillet gir mange ballberøringer, og samtidig hurtig teknikk siden banen er liten. (Wisløff et al.
+1998., Bergo et al, 2002., Pellerud, 2005., Muelensteen, 2001., Ulseth, 2007., Morisbak, 2007). I
+forbindelse med VM som ble arrangert sommeren 2006, så var det mange artikler i avisene om de
+tekniske begavete spillerne fra Brasil. ”Det er ingen tvil om at det var gjennom futsal jeg
+opparbeidet mine ferdigheter. Hver eneste liten gutt i Brasil som vil spille fotball, bruker five-a-
+side-fotball til å bedre teknikken og utvikle de kvaliteter som skal til i vanlig fotball.” (Ronaldinho
+til VG, 4.juni 2006). Futsal er et spill som spilles som femmerfotballen. Flere av de Brasiliansk
+spillerne i VM har vært innom denne typen fotball. Det er da sterke argumenter for å benytte dette
+spillet i treningshverdagen.
+
+Grunnspillet er 4 mot 4 pluss målvakter, samme som femmerfotball. Dette er en aktivitet som gjør
+
+
+                                                                                                 41
+at spillerne får mange ballberøringer. Samtidig ivaretar grunnspillet fotballens ide, gjennom
+dynamikken med mot og medspillere og tids og romforholdene. (Bergo et al. 2002., Wade, 1997.,
+Peitersen, 1993., Bjurwill et al, 1996., Pellerud, 2005). Banen er ofte liten, noe som gjør at spillerne
+blir utfordret på hurtig ballbehandling. I tillegg kan spillerne organiseres i ledd, f.eks 2-2, og da vil
+oppgavene i angrep og forsvar bli tydeligere. Individuelt får spillerne mange repetisjoner både som
+angrepsspiller og forsvarsspiller, relasjonelt gjennom samarbeidet med spiller i samme ledd og
+strukturelt gjennom organiseringen av ledd. (Worthington, 1975., Bjurwill et al, 1996., Pellerud,
+2005). “Samtidig stiller aktiviteten krav til spillernes tekniske repertoar og fysiologiske,
+psykologiske og sosiale ressurser.” (Bergo et al. 2002). Denne aktiviteten stimulerer altså alle sider
+av ferdighetsbegrepet, ikke minst er den gunstig fordi den gir mange gjentakelser på handlingsvalg,
+både med og uten ball (Høgtun, 1993., Wade, 1997., Pellerud, 2005., Morisbak, 2007). Antall
+spillere kan selvfølgelig varieres, alt fra 1:1 til 5:5, men da skiftes også fokus litt underveis. Wadel
+og Schou Andreassen (1989) skriver at den minste enheten vi bør jobbe med er 2 mot 2. Dette er det
+flere som påpeker (Wade, 1967., Williams, 2003), at det alltid bør være minst 1 medspiller med i
+aktiviteten. Spill med færre spillere enn 4 mot 4 gjør også at det blir mindre fokus på den
+strukturelle dimensjonen. (Bergo et al. 2002).
+
+Fagermo (2000) skriver at Rosenborg bruker touch begrensninger i denne type spill. Det bekreftes
+også fra andre hold at effekten av dette spillet blir større ved bruk av touch begrensninger. (NFF,
+2006., Høgtun, 1993., Hughes, 1990). Ved bruk av touch begrensninger så øker også intensiteten.
+(Bangsbo, 1994).
+
+Størrelsen på banen avgjør hva som blir fokuset. Er banen liten, så settes det store krav til
+handlingsvalgene og ballbehandlingen. Liten bane stiller også store krav til bevegelseskvaliteten
+uten ball. (Hansen Wold, 2002). Større bane setter mer fokus på utholdenhet, økt banestørrelse fører
+til økt pulsfrekvens. (Lunov, 2006., Bangsbo, 1994., Raastad og Theting, 2003., Bergo et al. 2002.,
+Peitersen, 1993). Og denne type spill er ofte brukt av lag for å ha størst mulig spesifisitet på
+utholdenhets treningen. (Juliussen, 2006., Eggen, 1999., Peitersen, 1993., Ulseth, 2007). Sassi,
+Reilly og Immpellizzeri (2005) skriver at siste undersøkelser sier at spill av denne typen er like bra,
+og i noen tilfeller bedre utholdenhetstrening enn ren intervalltrening uten ball. Dette støttes også av
+andre. (se bla Reilley og White, 2005).
+
+
+
+
+                                                                                                   42
+3.4.4 Teaching games for understanding
+Bunker og Thorpe utviklet Teaching Games For Understanding gjennom noen år på 80 tallet, og
+svarer til den spillsentrerte tilnærmingen beskrevet tidligere. (Ronglan, 2003). Modellen er blitt
+videreutviklet senere, men kjernen er den samme: Å lære spillet ved å spille spillet.
+Den utbedte teknikktilnærmingen førte til hverken økt mestring, kunnskap eller evne til å foreta
+handlingsvalg i spill. Dette var baktanken med modellen. Og videre at den tekniske tilnærmingen
+utvikler ”trener avhengige” spillere, og at den tradisjonelle tilnærmingen skaper misfornøyde og
+umotiverte spillere, da de ikke opplevde mestring i selve spillet. (Ronglan, 2003). Undersøkelser
+viser at spillere som utmerker seg i den tekniske treningen ofte faller igjennom i spill, de er ikke i
+stand til å bruke teknikken sin. (Turner og Martinek, 1995)
+Som beskrevet tildeligere så er ballspill problemløsning, og for å ta gode valg trenger man
+persepsjon og kunnskaper. (Turner og Martinek, 1995., Ronglan, 2003). Slik sett blir det viktig å
+skille ut de mindre viktige elementene, og kunne prioritere valgmulighetene. For å utvikle denne
+kompetansen, synes spillsentrert tilnærming som sentral. (Ronglan, 2003).
+Chandler (1996) mener at TGFU i realiteten dreier seg om UFL. (Understanding For Learning). Og
+beskriver motivasjonseffekten den har på utøverne som modellens største styrke.
+TGFU tilnærmingen ,som spillsentrert læring, setter hvorfor foran hvordan i læringen. (Hopper,
+1998). Man skal lære hvorfor en teknikk behøves, før man lærer hvordan den skal utføres.
+Modellen Teaching games for understanding, tar utgangspunkt i selve spillet, og at læringen foregår
+i ulike stadier. I dette tilfellet vil da fotballspillet og fotballens egenart være utgangspunktet.
+
+
+
+
+Figur 20: The games for understanding model.(Bunker og Thorpe 1982, sett i Turner og Martinek,
+1995)
+
+
+
+
+                                                                                                      43
+3.4.5 Hvordan tilnærme seg spillerne?
+
+Innenfor pedagogikken så er det på samme måte som i fotball, forskjellige stiler. Man kan variere
+mellom det å stille åpne spørsmål og å komme med svar. Her blir det presentert en modell som viser
+dette forholdet mellom stilene.
+
+
+
+
+Figur 21: fire ulike pedagogiske tilnærmingsmåter og forholdet mellom dem framstilt som et
+kontinuum. (Bergo, et al. 2002).
+
+
+
+Når en trener skal velge hvilken stil han vil bruke, så må han ta hensyn til situasjonen i laget,
+spillergruppa og trenerens personlighet. (Bergo, et al. 2002., Borrie, 2005). Fordelen med å komme
+med svar er at ting faller raskt på plass, men å stille spørsmål vil være med på å stimulere og
+engasjere spillerne siden de får være med å utforme løsninger selv. (Bergo et al, 2002., Allpress,
+2007). Kommer treneren med svarene så vil ikke spillerne være like engasjerte og vil ikke stå på
+like mye for å vise løsningene. Derfor kan en si at like viktig som å finne løsninger er det å få
+utøverne til å erverve seg kunnskaper rundt problemet. (Hemmestad, 2003., Davids et al, 2005). En
+spillsituasjon i fotball kan betegnes som problemsituasjon. (Ronglan, 2003). Og som coach er
+oppgaven å bevisstgjøre spillerne på hva som kjennetegner situasjonen21. (Hemmestad, 2003). Dette
+bør i hovedsak dreie seg om hvilke prinsipper og forklaringer som kan bidra til å bedre forståelsen.
+Og å gi hjelp til selvhjelp, altså å høyne spillernes evne til oppmerksomhet og bevissthet omkring
+sine egne prestasjoner er et av hovedmålene ved coaching. (Stelter, 2002). Dette betyr at coachen er
+aktiv deltaker i prosessen, og både mellom utøver-utøver og trener-utøver, vil forhandlinger om
+meninger være sentralt. (Hemmestad, 2003). ”Coachens hovedoppgave er å vekke nysgjerrighet,
+fremme forståelse og samspill og utvikle beredskapen for å løse de utfordringene som dukker opp,
+både hos utøverne og seg selv.” (Hemmestad, 2003).
+
+Åpne spørsmål og entydige svar er ytterpunktene, imellom finnes veiledende spørsmål og
+begrunnede svar. Veiledende spørsmål vil sette spillerne på sporet av ønsket løsning. Mens
+begrunnede svar vil treneren begrunne hvorfor spilleren skal velge A i stedet for B.
+21
+      ”Coaching bygger på en humanistisk og informel ledelsesfilosofi, hvor det satses på menneskets lyst til læring og
+     udvikling, og hvor man anser mennesket som potentielt ansvarlig nok til å kunne løse de opgaver, der frivillig har
+     påtaget sig. ” (Stelter, 2002).
+
+                                                                                                                 44
+Videre skriver forfatterne at en kan variere mellom å gi feedback og feedforward. Feedback brukes
+når en stopper spillet og ser på en situasjon som har vært, mens feedforward stoppes situasjonen i
+forkant og en ser på løsningene.
+
+Denne modellen beskriver den glidende overgangen mellom de deduktive og induktive
+undervisningsprinsippene. Ved bruk av den deduktive metoden så får spillerne demonstrert og
+forklart elementene i spillet. (Ronglan, 2003). Spillerne ”får” viten, i motsetning til ”finner” ved
+bruk av dette prinsippet. (Andersen, Andersen og Nedregaard, 1997). Med bruk av det induktive
+undervisningsprinsippet så taes det utgangspunkt i et bestemt problem, som spillerne selv skal finne
+en løsning på. (Ronglan, 2003). For å benytte seg av denne metoden, så bør spillerne på forhånd
+inneha nok kunnskap til å løse den aktuelle problemstillingen. (Andersen, et al., 1997). De to
+læringsperspektivene fører frem til ulike undervisningsmetoder. Eksplisitt kunnskap er grunnlaget
+for instruksjonsmetoden, mens opplevelser, erfaring og den intuitive forståelse av situasjonen er
+grunnlaget for den implisitte kunnskapsdimensjonen. (Hemmestad, 2003).
+
+Stelter (2002) mener at ved å stille de riktige spørsmålene på trening, så vil man utvikle divergent,
+eller kreativ tenking. Dette kan føre til nye og overraskende løsninger frem for å finne den ”riktige”
+løsningen.
+
+Tilnærmingene er mulige å benytte innenfor både teknikk og spilltrening.
+
+Treneren som veileder og coach må altså utvikle spillerens beredskap mentalt, kognitivt og
+emosjonelt. (Hemmestad, 2003). Sentralt i en slik prosess står coaching som læringsstrategi.
+
+
+”Det er coachens oppgave å initiere til refleksjonsprosessen via spørsmål og oppfølginger, mens
+utøverens oppgave er å reflektere og komme med løsningsforslag.” (Hemmestad, 2003).
+
+
+
+
+3.5 Oppsummering
+
+Innen litteraturen så er det en klar trend i retning av den økologiske læringsteori. Utfra det som har
+kommet frem under denne delen så kan man skape en forståelse for at både tanken (kognitive) og
+miljøet (økologiske) er viktige brikker i målet for å fremme læring. Det kan se ut som om dette vil
+føre til enda mer lærings effektive tilnærminger. Teorien tar mer utgangspunkt i den praktiske
+hverdagen, og ikke omvendt. Dette fører til at teori og praksis har tatt steg nærmere hverandre. Et
+kognitivt utgangspunkt på treningsfeltet vil bygges rundt prinsippene om gjentakelse og
+
+
+                                                                                                 45
+gjenkjennelse. Dette kan være et mindre utvalg øvelser, men mange gjentagelser på den ferdigheten
+som ønskes utviklet. Tilbakemeldingene kan ligge på den tekniske utførelsen, altså at veien mot
+resultatet er viktig. På den andre siden (økologiske), så vil det settes større fokus på resultatet av
+handlingen, og hvor hensiktsmessig den er. Det bør uansett være en læringsmetodikk hvor
+medspillere og motspillere inkluderes i læringen. Og i tillegg anvende ulike læringsprinsipper som
+setter utøveren i relasjon til både omgivelser og oppgaver.
+Fotballens egenart sier noe om hva som er viktig i fotball. Den stadige konfrontasjonen mellom to
+lag som utøver motstridende interesser skaper spillets dialektikk. En konflikt som ingen kan styre.
+Dette skjer gjennom at begge lag forbereder seg på å møte hverandres styrker og utnytte hverandres
+svakheter. Et lag prøver å gjøre det andre dårlig, for å bringe frem sine egne styrker. Dette blir
+”spill-motspill”. Og gjennom en slik dynamikk, så oppstår det rom. Disse rommene bør utnyttes,
+eventuelt skapes og utnyttes. Dette er muligheter som spillets dialektikk gir oss. Og slik skapes en
+spillsituasjon, gjennom begge lags samtidige handlinger. Spillsituasjoner er spillet, og den kan deles
+inn i lengre eller kortere sekvenser. I en spillsituasjon fremtrer de 3 dimensjonene (individuell,
+relasjonell og strukturell) samtidig, og samvirker i utviklingen av spillet. De former situasjonen,
+men samtidig anvendes de for å løse den. Det kan synes som om en spillsituasjon overført til
+treningsfeltet vil være god ferdighetsutvikling. Med en spillsituasjon som utgangspunkt, utfordres
+spillerne på forståelse og valg. Spillets ide og egenart trer klart frem i slike spillsituasjoner.
+Spillsituasjonens åpenhet gjør at spillerne blir nødt til å velge, rett og slett fordi spillets åpenhet gir
+en rekke alternativer. Pedagogisk er dette viktig for veiledere. Da en veileder, som har en annen
+synsvinkel, kan se åpenbare valg for spilleren. Mens spilleren kanskje bare ser ett åpenbart
+alternativ pga tidsklemmen han er i. Spillerens indre perspektiv og veileders ytre perspektiv kan i
+etterkant kombineres og reflekteres over for å finne en hensiktsmessig løsning i situasjonen.
+Den nyeste definisjonen av ferdighet, har med ordet ”hensiktsmessig”. Dette stiller større krav til
+spillere og trenere. For spillerne betyr det at en løsning er ikke nødvendigvis bra nok, den må være
+hensiktsmessig også. Hva som er hensiktsmessig kommer an på den enkelte situasjon, og en av
+hovedoppgavene for treneren er å hjelpe spillerne med dette. Videre så er fokuset på handling og
+resultatet av handlingen sentralt. Dette kan synes som er et steg i riktig retning. Teknikk er veldig
+individuelt og vanskelig å standardisere. Et resultat av en stabil handling over tid, vil være et tegn
+på god ferdighet. Uansett er målet for ferdigheten å utnytte, eventuelt å skape og utnytte,
+spillsituasjoner til fordel for eget lag
+Å gjøre x i stedet for y i en gitt situasjon er definisjonen på å velge. Man velger noe fremfor noe
+annet. Man velger ikke bare noe, men man velger bort noe også. Dette er uavhengig av om valget er
+
+                                                                                                     46
+bevisst eller ikke. Valg av teknikk er også et handlingsvalg, altså måten man utfører en handling på.
+Omgivelser, individ og oppgaver er med på å avgjøre handlingsvalget. Spillets dynamikk, gjennom
+med og motspillere, tid og rom samt ytre forhold påvirker valget. Individets ferdigheter vil være
+avgjørende. En spiller med et bredt teknisk repertoar vil ha flere valgmuligheter enn en spiller med
+begrenset repertoar. En spiller med bra utviklet repertoar vil også være i stand til å skaffe seg bedre
+tid med ballen for å foreta valget sitt. Oppgaven i den enkelte situasjon avgjøres av spillets idè
+(score mål-hindre mål). Spillprinsipper og lagets retningslinjer vil være en faktor for
+handlingsvalget. Pedagogisk kan handlingsforløpet deles opp i 3 faser; Hva skjer før involvering,
+under selve innvolveringen og etter involveringen. Bevisstgjøring omkring disse fasene kan skape
+en helhetlig forståelse omkring forløpet til et handlingsvalg.
+En treningssituasjon bør være så lik som mulig en kampsituasjon. Dette er kjernen i
+spesifisitetsprinsippet. Nettopp at trening blir så kamplik som mulig. Gjennom en åpen idrett som
+fotball, så kan spillsituasjoner vanskelig standardiseres. Gjennom analyser av spillet kan en finne
+avgjørende ferdigheter og situasjoner i spillet. Tradisjonelle arbeidskravsanalyser er ikke på langt
+nær godt nok for fotball. Gjennom analyser kan man komme frem til forskjellige læringsnivåer; den
+individuelle dimensjonen, den relasjonelle dimensjonen og den strukturelle dimensjonen. Disse kan
+trenes parallelt, eller hver for seg. Gjennom funksjonalitetsskalaen kan man variere fokus fra gang
+til gang. Den individuelle dimensjonen sier noe om kapasiteten til den enkelte spilleren. Her
+beskrives den enkeltes spillers tekniske repertoar, psykologiske, sosiologiske og fysiologiske
+ferdigheter. Den relasjonelle dimensjonen er samspillet mellom to eller flere spillere. Samtidighet
+eller flyt i spillet er en betegnelse på god samhandling. Samhandling er den øverste form for
+samarbeid. Dette er en guide for å få ut det beste av individet, og utnytte hverandres beste sider. Den
+strukturelle dimensjonen er lagets retningslinjer og spillestil. Altså hvordan laget ønsker å spille – i
+forsvar og angrep. Dette er guiden for å få ut det beste av individet og relasjonene i laget. Tilslutt
+kommer kamp dimensjonen. Dette er møtet med motstanderne, hvor spillets dialektikk kommer inn.
+Dimensjonene kan som sagt vektes ulikt. Problemløsningens hva og hvordan, gir ulike innganger til
+læring. Læring av taktiske/tekniske elementer kan tilrettelegges på ulike måter. Bruken av
+spillsituasjoner i trening, innebærer at tilnærmingen i praksis er spillsentrert. Spillerforståelsen er
+det primære læringsmålet i en spillsentrert tilnærming. Gjennom tilpassede spillsituasjoner får
+spillerne avgrenset problemområdet, og sjansen for måloppnåelse vil øke. Utfra en slik tilnærming
+så vil spillets ide og prinsipper trenes først, dernest vil det trekkes frem hva slags tekniske
+ferdigheter som må øves. I en teknikksentrert tilnærming så er øving av tekniske
+bevegelsesløsninger hovedfokus, det er disse teknikkene som muliggjør spillutviklingen. Gjennom
+
+                                                                                                  47
+benyttelse av spesifisitetsprinsippet så kan det se ut til at en spillsentrert tilnærming vil være mest
+hensiktsmessig. Og ved å benytte en funksjonell arbeidsform så trenes spillets elementer i den
+sammenheng de skal anvendes i. Denne metoden forutsetter at en definert spillsituasjon utgjør
+læringskonteksten. Ved bruk av en formell form så trenes elementene isolert fra sammenhengen
+hvor elementene inngår. Dette kan synes som en mindre god variant. Gjennom å lage betingelser for
+aktiviteten, f.eks banestørrelse, antall berøringer, kan det tilrettelegges for overskuelige
+læringssituasjoner. Slike betingelser kan understreke øktas tema. Grunnspillet inneholder alle
+spillets elementer, i en fortettet form. Spillet går raskere, og hver spiller får flere involveringer enn
+spill med flere spillere. Denne aktivitet stiller krav til spillernes tekniske repertoar og fysiologiske,
+psykologiske og sosiale ressurser. Grunnspillet stimulerer alle sider ved ferdighetsbegrepet.
+Gjennom rolle trening så øves spilleren i de ferdighetene den enkeltes rolle krever. Dette vil være å
+utnytte spesifisitetsprinsippet til det fulle, nettopp ved at hver spiller øver på de ferdighetene som er
+avgjørende for nettopp den spilleren i kamp. Rolleklarhet og rolleaksept er viktig for å få effektiv
+rolletrening. Spilleren må selvfølgelig akseptere og forstå rollen sin. Med rolleklarhet menes det at
+spilleren settes nøye inn i hva den konkrete rollen krever. Spillstilen til et lag kan være både
+muliggjørende og begrensende på ferdighetsutviklingen. En klar og tydelig spillestil, og klare
+rollekrav kan se ut til å bli viktig i fremtiden. Spesialisering i den enkelte rollen vil gjøre at
+spesifisitetsprinsippet blir maksimalt utnyttet. Og hver ferdighet er spesifikk, og må øves spesifikt.
+
+
+
+
+                                                                                                     48
+Praksisfeltet
+
+
+
+
+                49
+4.0 Læringsteorier og praksisfeltet
+
+Utfra det som har kommet frem under teoridelen så kan man skape en forståelse for at både tanken
+(kognitive) og miljøet (økologiske) er viktige brikker i målet for å fremme læring. Det kan se ut som
+om dette vil føre til enda mer effektive lærings tilnærminger. Teorien tar mer utgangspunkt i den
+praktiske hverdagen, og ikke omvendt. Dette fører til at teori og praksis har kommet nærmere
+hverandre.
+Hel-del-hel metoden har jeg beskrevet tidligere som en lærings metode. Denne kom på bakgrunn av
+Wade (1967) sine tanker om at kampen var basisen for all læring. Flere hevder at kamplikhet er
+viktig. (se bla Dreier et al, 1986., Bergo et al, 2002., Eggen, 1999). Denne organiseringen av
+aktiviteter kan sees i sammenheng med økologiske teorier, der ferdigheter læres i en naturlig
+realisme med fokus på høy kontekstualitet. Selve aktiviteten gir ingen føringer for hvordan spillerne
+skal tilegne seg ferdigheter, og derfor kan aktiviteten betegnes som ”økologisk”. (Mateus, 2005). I
+form av omgivelsenes påvirkning gjennom med og mot spillere og tid og rom så trenes handling og
+handlingsvalg i en naturlig setting. (Bergo et al, 2002). Newell (1986) skriver om individet,
+oppgaver og omgivelser, i en ”økologisk” aktivitet blir læringen preget av nettopp dette. Videre så
+blir også handlingsvalgene påvirket av omgivelser, oppgaver og individ. De kognitive prosesser vil
+virke styrende i spillvurderingen. (Martens, 2004). Dette dreier seg i all hovedsak om persepsjon,
+konsentrasjon, antesipasjon og tenkning. Konzag (1981) deler prosessen inn i to hovedprosesser:
+Informasjonsinnhenting og informasjonsbearbeiding. Persepsjon dreier seg om forarbeidet og
+oppfatning av sanseinntrykk. Konsentrasjon om oppmerksomhetsregulering, antesipasjon om
+foregriping av en situasjon og tenkning om avgjørelsestakning (Svenson, 1994). Martens (2004)
+mener altså at en stor del av de valg som tas i idrett, gjøres på bakgrunn av kognitive ferdigheter.
+Sentrale kognitive forutsetninger for handlingsvalgene kan blant annet være kjennskap til egne
+ferdigheter, med og motspilleres ferdigheter, kollektiv organisering og regler. (Giske, 2001). Jeg tror
+erfaringer spiller en rolle her. En spiller som har erfart situasjoner ofte på trening eller i kamp
+(gjentakelse), vil ha lettere for å foreta hensiktsmessige handlingsvalg i liknende situasjoner
+(gjenkjennelse) senere.
+
+Spillsituasjonen er utgangspunktet når treneren gir tilbakemeldinger. (Wade, 1967). I et slikt
+læringsmiljø har omgivelser og oppgaver vært viktige hjelpemidler. (Newel, 1986). Omgivelsenes
+muligheter og begrensninger blir viktig i læringen. (Dreier et al, 1986). Likevel er det to prinsipper
+som står sentralt i læringen, gjentakelsesprinsippet og gjenkjennelsesprinsippet. (Tyriberget, 2004.,
+
+
+                                                                                                      50
+Eggen, 1999). Dette er et kognitivt innslag. Hukommelse, erfaring, evnen til å gjenkjenne ulike
+situasjoner og repetere disse ansees som viktig. Dette kan være et mindre utvalg øvelser der det gis
+mange repetisjoner på det man ønsker å trene på. Her vil veien mot resultatet bli viktig, mens en
+mer økologisk tilnærming har større fokus på resultat av handling. (Tyriberget, 2004). Da bygges
+treningene opp slik at det gis muligheter til å løse oppgaver på mange forskjellige måter.
+
+ 4.1 Læringsteorier og praksisfeltet: oppsummering
+
+Praksisfeltet i forhold til læringsteoriene er vanskelig å plassere, det er nok innslag av begge deler22.
+Det bør være en sterk fokusering på kamplike aktiviteter som inkluderer fokus på høy funksjonalitet
+og kontekstualitet. Prinsippene om gjenkjenning og gjentakelse blir knyttet opp mot både
+omgivelser og oppgaver gjennom spillets dynamikk. Dette fører til at medspillere og motspillere
+inkluderes i læringen. Ferdigheten måles i spillsituasjonen. (Ronglan, 2003., Teigen, 2005). Derfor
+bør også trening ta utgangspunkt i nettopp dette. Eide (2007) viser til at det legges mye opp til
+aktiviteter hvor gjentakelse og gjenkjennelse er sentrale momenter ute blant trenere. Motspillere er
+ikke i like stor grad involvert. (Dette gjelder pasningsøvelser eller deler av økta der deler av den
+individuelle dimensjonen øves). Eide (2007) påpeker at graden av gjenkjennelse øker dersom
+motspillere i større grad hadde vært involvert. Eide (2007) lister opp noen momenter som bør være
+sentrale i valg av aktiviteter:
+
+     -Omgivelsene i en øvelse bør gjenskape situasjonen fra kamp, det betyr retningsbestemt øvelse i
+          form av mål og et klart avgrenset område å spille innenfor. Samt at spillets konstitutive
+          regler ivaretas.
+     -Den bør inneholde medspillere, for å utvikle ferdigheten sammen med noen. Og den bør også
+          inneholde motspillere, som virker både muliggjørende og begrensende på spillutviklingen.
+     -Den bør inneholde vekslingen mellom angrep og forsvar, dynamikken i spillet.
+     -Tid og rom bør gjenskape de tids – og romforhold som faktisk er i kamp. (fremrom 1 og 2,
+          mellomrom osv).
+     -Kampsituasjonens naturlige oppgaver bør også gjenskapes på praksisfeltet. Spillerne bør ofte få
+          muligheten til å score mål/hindre mål.
+     -Det bør skapes aktiviteter hvor spillets oppgaver på målnivå, strateginivå, taktikknivå,
+
+
+
+22
+      Dette hevder Jordet også (2004), da han skriver at det har oppstått en misoppfatning om at den økologiske
+     tilnærmingen avskriver interne prosesseer som hukommelse og kognisjon.
+
+                                                                                                                  51
+          virkemiddel og lokaliseringsnivå kan øves naturlig. (se bla Teigen, 2005).
+
+     -Spillerne må få tilpasset aktiviteter hvor de sentrale ferdighetene23 i spillet går ofte igjen.
+     Samtidig bør spillerne få øve i aktiviteter som ligner hverandre, for stadig og nå et høyere nivå
+     ferdighetsmessig.
+
+
+
+ 4.2 Spillet som utgangspunkt
+Fotball er et spill der mange spillere er involvert og hvor dynamikken i spillet bidrar til at
+situasjonene stadig endrer seg. I treningsarbeidet vil det, for å skape bedre læringsbetingelser, ofte
+være hensiktsmessig å ta ut enkelte spillsituasjoner fra det ferdige spillet. Når man velger aktivitet
+gjelder det å skape maksimal likhet i betingelser, og å gjenskape de omgivelsene og oppgavene
+individet møter i kamp. (Ronglan, 2003). Det man øver på, skal før eller siden inn i en
+kampsituasjon, derfor bør miljøet fra kampen gjenskapes best mulig på treningsfeltet. (Grèhaigne,
+Bouthier og David, 1997). Bergo et al (2002) har gjort et forsøk på å systematisere typiske faser i
+spillet og ulike spillsituasjoner. Her er spillsituasjoner fra det de kaller ferdighetsnivå 1 (Bergo et al,
+2002; s.310-325):
+     -Pasning – avslutning
+     -To pasninger og avslutning
+     -Veggspill og avslutning
+     -To mot en situasjon
+     -To mot en situasjon med feilvendt angriper
+     -Innlegg avslutning
+     -Vinklet pasningspill
+Enkelte av inndelingene er svært generelle. Veggspill – avslutning f. eks viser ikke til noen spesifikk
+kampsituasjon, men kan heller sees på som et virkemiddel i visse situasjoner. I dette tilfellet i
+forbindelse med avslutning på mål. To mot en situasjonen blir svært generell. Denne situasjonen kan
+oppstå hvor som helst på banen, men klimaet og situasjonskarakteristikaene vil være ulike. Dette
+kan være en grei aktivitet som innledning på et tema eller i starten av en økt, men blir for generell til
+å være hovedinnslaget i økter. Dette kommer jeg tilbake til senere.
+Spillsituasjoner på treningsfeltet byr på mange fordeler. Spillsituasjoner betraktes som
+problemløsningssituasjoner. (Ronglan, 2003). Fordi spillerne konfronteres med stadige valg, og de
+
+23
+      Bergo et al (2002) skriver om Pasning-medtaks ferdighet, avslutningsferdighet og 1.Forsvarsferdighet som sentrale
+     ferdigheter.
+
+                                                                                                                52
+møter motstand. Dette skaper en problemløsningsprosess. (Teigen, 2005). Spillsituasjoner bidrar til
+utvikling av det Ronglan (2003) kaller spillkompetanse. Tilpassede spillsituasjoner setter fokus på
+erfaringer i konkrete situasjoner, der problemløsning av spillets egenart og logikk er grunnlaget. Her
+kommer hva foran hvordan, det må først gjenkjennes hva som er problemet, dette er avgjørende for
+hvordan spillerne forsøker å løse problemet. (Teigen, 2005., Ronglan, 2003). Det blir altså to
+hovedspørsmål; hva skal jeg gjøre? Og hvordan skal jeg gjøre det? Her mener jeg vi også bør ta
+hensyn til når og hvor. Spilleren må få kjennskap til hvilke situasjoner det er hensiktsmessig med de
+ulike løsningene, det er her hvor kommer inn. Samtidig som når ligger på timing av utførelsen.
+Dette mener jeg er sentrale ting som må tas hensyn til ved ferdighetsutvikling.
+
+
+Avhengig av modning og ferdighetsnivå på gruppen, så vil det ferdige spillet bli for kompleks for
+veldig mange. (se bla Ronglan, 2003). Derfor kan tilpassede spillsituasjoner av kortere eller lengre
+varighet være med å forenkle lætingen. Her er det kanskje bare trenerens fantasi som setter
+begrensninger. ”Rent generelt kan vi si at tilrettelegging av spillsituasjoner dreier seg om å skape
+handlingsrom som fremmer bestemte typer av spillerfaringer.” (Ronglan, 2003). Her kan vi benytte
+funksjonalitetsskalaen, flere spillere øker ofte kompleksiteten i spillsituasjonen. (Sørensen, 1996).
+Større flate gir mer plass til spillerne, og mer tid. Jeg vil tørre å påstå at alle ferdigheter kan trenes i
+spillsituasjoner. Å lære å spille spillet innebærer å håndtere den motstanden som gis. Dette mener
+jeg bør underbygge alle aktiviteter. Motstanden som gis kan få ulike begrensninger for å muliggjøre
+spesifikke handlinger. De spillsituasjoner som jeg tok utfra Bergo et al (2002) tidligere, kunne vært
+slike tilpassede spillsituasjoner hvis motstand hadde vært involvert på alle øvelsene. Som tidligere
+forklart, er det ikke bare hvordan spillerne skal løse spillsituasjonen, men også hva. Det å
+gjenkjenne hva og hvordan i veggspill situasjonen, ville vært lettere hadde hele situasjonen vært
+mer spesifikk24. Med det mener jeg at aktiviteten hadde hatt sitt utspring i en konkret del av banen,
+utført fra sin egen rolle på banen mot motstand. En spesifikt tilpasset spillsituasjon innebærer
+tilrettelegging og forsøk på løsning på en spesifikk forsvarsorganisering eller ulike
+forsvarsorganiseringer. (Teigen, 2005). Da vil overførbarheten fra trening til kamp bli størst.
+(Teigen, 2005). En spesifikt tilpasset spillsituasjon tar til sikte for å forberede laget mot en aktuell
+motstander.
+En spesifikt tilpasset spillsituasjon inviterer til en rekke handlingsrefleksjoner og involverer visse
+roller i laget mer enn andre. Her kommer jeg inn på en rolletenking. For å utvikle dyktige spillere
+kan det være fornuftig å ta rollene i laget som utgangspunkt i ferdighetsutviklingen. Det betyr at
+24
+     Øvelsen er tatt fra Bergo et al, 2002. S.314.
+
+                                                                                                     53
+spillerne bør få øve seg i sin rolle, under kamplike situasjoner med mange repetisjoner på trening.
+Det sier seg jo selv at en spiss vil møte helt andre situasjoner i en kamp enn en sideback. Offensivt
+kan sidebacken ha en sentral rolle i angrepsoppbyggingen, mens spissen ofte vil være involvert i
+avslutningsfasen. Et slikt utgangspunkt for treningsplanleggingen skaper noen begrensninger og
+utfordringer. Som trener må man reflektere over hvilke situasjoner de ulike rollene møter i kamp, og
+hvordan en skal legge opp øvelser for dette under trening. Ved å trekke ut en spesifikk
+kampsituasjon og øve på den, vil neppe alle rollene være direkte involvert. I en spillsituasjon i 11:11
+vil selvfølgelig alle 22 spillerne være med på å forme spillsituasjonen, men ved å trekke ut en del av
+helheten, er konsekvensen at visse roller ”forsvinner”. Allikevel vil en spesifisering og øving på
+enkeltsituasjoner virke utviklende for den helhetlige forståelsen, som de fleste spillere, uavhengig
+av rolle kan dra nytte av. Jeg mener det er viktig at vi tenker roller i alle spillsituasjoner. Eides
+(2007) studium viser generelt at deler av øktene til de lagene som ble obesrvert var rolle relatert
+gjennom oppspillsvarianter eller struktur trening. Resten av økta var for generell med tanke på
+roller. Her er det enkle grep som kan gjøres for å øke spesifisiteten. Jeg kommer med praktisk
+eksempler senere. Ved å sette opp en spillsekvens i forhold til roller, så kan vi også sette de spillerne
+som spiller sammen i kamp ved siden av hverandre på trening. Her kan vi sette en venstre side
+sammen, eller et spiss par sammen. På den måten vil spillerne få naturlige relasjoner, og utvikle et
+tett og bra samarbeid der spillerne kjenner hverandre ut og inn. Jeg er av den mening at vi kan få
+mye ”gratis” ved å organisere spillet på denne måten.
+
+
+4.2.1 Spillet som utgangspunkt: en oppsummering
+Nybegynnere i spillet forstår ikke fullt ut det spillet de blir møtt med. (Bate, 1996). Spill 11:11 kan
+overlesse spillerne med et utall av muligheter, og spilleren kan ”drukne” i inntrykk, og dette gjelder
+ikke bare nybegynnere. Spillet er så kompleks at det kan være vanskelig både for en hver å forholde
+seg til alt som skjer. (Ronglan, 2003). Trenerens kunnskap, forståelse og ferdigheter er så absolutt
+relevant for utviklingen til spilleren. Jeg mener trenerens ansvar overfor spillerne er å gjenskape
+situasjoner fra, og ikke minst øve på løsninger og ferdigheter som de kan bruke i kamp. Som Bate
+(1996) skriver; “Players will react and perform in a competitive game situation relative to what and
+how they have been practicing. The more closely you simulate game situation in practice the better
+game performance is likely to be.” Jeg mener alt kan øves i spillsituasjoner. I tilegg til at
+spillsituasjonen ikke setter noen demper på utviklingen av teknikker, så øves også spilleforståelsen i
+slike aktiviteter. (Ronglan, 2003).
+Her kan vi dele det inn i en generell og spesiell tilnærming. Vi kan tilrettelegge aktiviteter som kan
+
+                                                                                                    54
+ha en generell eller en mer spesifikk form. Innholdet fra kampen er der uansett. Altså deler innen
+lagets strategi og taktikk som øves innen rammer som ikke er spesifikt overførbare. Dette er
+tilrettelagte spillsituasjoner som bør og kan supplere for å optimalisere prestasjoner. (Teigen, 2005).
+
+
+
+
+Figur 25 og 26: Til venstre er en generell form med en øvelse hvor 2 spillere utfordrer motspiller og setter i gang ny
+gruppe når motspiller er passert. Til høyre er den spesifikke spillsituasjonen med en kantspiller som utfordrer
+motstanders sideback, og får overlapp fra sin egen sideback. Øvelsen kan avsluttes med innlegg.
+
+
+Dette er bare to enkle eksempler, men den viser forskjellene på tilnærmingene. En generell
+tilnærming kan brukes i begynnelsen av en økt eller fordi ytre forhold gjør sitt til at den spesifikke
+formen ikke kan brukes. Dette kan være antall spillere, hvilke spillere som er tilgjengelig og
+tilgjengelig banestørrelse.
+
+
+
+4.3 Hvordan vet vi hva vi skal trenes på?
+4.3.1 Krav, analyser og roller
+Jeg vil ikke komme med svar eller ”fasit” på hvordan man finner ut hva det skal trenes på. Jeg vil
+derimot komme med det jeg mener bør være sentralt i den prosessen det er å velge ut disse
+fokusområdene. I Eide (2007) så kom det frem at pasning-medtak blir høyt prioritert hos mange lag.
+Dette er greit nok i seg selv, men jeg mener allikevel at dette blir en litt for generell fremstilling av
+fokusområde. Jeg ønsker at tanken skal rettes mot pasning-medtaks ferdighet sett utfra rollen til den
+enkelte. Her må vi inn på arbeidskrav for den enkelte rollen. En midtstopper slår antakeligvis flere
+langpasninger enn en spiss. Medtaksferdigheten hos de enkelte vil også ha sammenheng med roller.
+En spiss får kanskje fler pasninger med mann i rygg enn det en sideback gjør. På denne måten mener
+jeg at det bør operasjonaliseres innenfor alle de enkelte rollene. Sigmundsson og Haga (2005)
+skriver at ferdigheter er spesifikke, og således må øves spesifikt. Her mener jeg at en spesifikk
+ferdighet må sees i sammenheng med rollen til de enkelte, slik som jeg prøvde å eksemplifisere med
+en midtstopper og en spiss. Slik blir øvingen spesifikk, hvis vi kan finne de ferdighetene som kreves
+av hver enkelt rolle. En kravsanalyse av den enkelte rolle kan ikke bare listes opp en masse
+ferdigheter, slik som den jeg presenterte i teoridelen. (Hareide, 2004. S 192). Dette blir uskrevne
+
+
+                                                                                                                  55
+regler om et sett av forventninger som skal opptre og gjentas når spillsituasjoner oppstår. Man bør
+heller ta utgangspunkt i de kampsituasjoner som ofte oppstår for den enkelte. Det er riktignok
+vanskelig å generalisere alle de ulike situasjoner en spiller møter i kamp. Man kan allikevel si at
+noen situasjoner oppstår oftere enn andre. (Bergo et al, 2002). Det er disse en må ta tak i. Ved å
+operasjonalisere ulike situasjoner i spillet, kan vi få en funksjonell arbeidskravsanalyse av hver
+enkelt rolle. For en kantspiller i 4-4-2 så kan den belyse hvor og når innlegg blir slått oftest fra. Et
+utdrag fra en kravsanalyse;– kunne slå presise innlegg. (Hareide, 2004). Denne beskrivelsen blir en
+for generell fremstilling, og bør operasjonaliseres i større grad. Slik kan det gjøres med alle
+ferdigheter i alle rollene. Dette har med rolleklarhet og gjøre. (Høigaard og Lidbom, 1999., Eggen,
+1999., Giske, 2001., Hollingen og Pensgaard, 1999., NFF, 2001., Isberg, 2001). Jo tydeligere rollen
+blir beskrevet, desto større sjanse vil det være for at spilleren mestrer den. (Eggen, 1999).
+Her vil noen kanskje si at; jeg som trener ønsker ikke at det skal være lagt så strenge føringer til en
+rolle. Jeg beskriver ikke hvordan en rolle skal utføres eller hvor strenge krav det skal være til den
+enkelte. Uansett om spillere skal opptre som ”roboter” eller fremstå mer fritt, så er det
+spillsituasjoner som ofte går igjen. Og det er gjennom disse vi kan spesifisere kravene til rollen.
+Dette kan gjøres uansett spillestil eller føringer lagt til den enkelte. Rollekravene har tradisjonelt
+blitt styrt av ulike dimensjoner i henhold til lagets kultur, tradisjon og spillestil. (Dahl, 2002). Jeg
+mener at kravene bør ta en retning av hva selve spillet byr på, med spillsituasjonen som analytisk
+enhet.
+Kampanalyse er en viktig del av hverdagen i utvikling av lag og spillere. Den kan brukes til
+operasjonalisering av de ulike rollene som jeg har beskrevet tideligere. Kampanalysen kan være et
+viktig verktøy for analyse av egne prestasjoner og være retningsgivende for prioriteringer i
+treningsarbeidet. (Teigen, 2005). Det kan også brukes i forbindelse med vurdering av individuelle
+ferdigheter. Dette kan være som et ledd i evaluering av kamp eller som et ledd i ferdighetsutvikling.
+DOMPF analysen har jeg beskrevet i teoridelen, som er en analyse med kvalitativ karaktersetting.
+Variabler tilknyttet spillerutvikling mener jeg bør være langt flere, slik får man muligheten til å være
+svært konkret i analysen av spilleren. Nå skal ikke jeg komme med et slikt oppsett, til det er
+omfanget for stort. Det kan være operasjonalisert gjennom rollekrav, f.eks for en sideback; skape
+2:1 på kant med vår egen kantspiller. Slik kan situasjoner fra kamp gripes tak i og evalueres. Her er
+det manglende initiativ eller fantasi som virker begrensende på valg av observasjonsvariabler.
+Videre så kan den enkelte spiller få en cd med sine involveringer på. Slik kan de selv gå gjennom
+kampen. Dette ble benyttet med god erfaring av en av trenerne i Eides (2007) studium. Jeg mener
+møte med motstanden (kampdimensjonen) må tas hensyn til her også. Vi kan utfra analyser se om
+
+                                                                                                   56
+laget har forbedret seg. Hvordan vet vi om vi har forbedret oss, når vi måler fremgang i en
+spillsituasjon i samspill med motstander som også kanskje har forbedret seg? Med grunnlag i en
+kontekstuell forankring så vil presisjonen i analyser forbedres. (Ronglan, 2000). Flere hevder dette
+er viktig, at ved å ta hensyn til motstanders påvirkning på eget lag så vil treningshverdagen bli enda
+mer effektfull. (se bla Teigen, 2005).
+Jeg tror filming av trening kan være gunstig. Hvis vi tar utgangspunkt i problemstillingen over,
+sidebacken. Så kan den spilleren sammen med en trener se på situasjoner umiddelbart etter at de har
+oppstått. Dagens kameraer gir også nettopp de mulighetene. (Moen 2003). F.eks se på timingen i 2:1
+situasjonen. Slik kan en også vise ønsket løsninger i forkant av en trening, og ha en gjennomgang av
+økta etter en trening. Dette mener jeg også kan hjelpe treneren i å avdekke forhold han ikke var klar
+over underveis i økten, og kan forbedre det til neste gang.
+
+
+4.3.2 Handlingsvalg og handling
+Giske (2001) mener at å gjøre X istedenfor Y er den grunnleggende betydningen av begrepet å
+velge. Ettersom spillerne har dannet seg et klart bilde av situasjonens karakteristika og hvordan den
+kan løses, er det på tide å se på handlingsvalget.
+
+Det å foreta handlingsvalg i fotball er en komplisert prosess. Svenson (1994) hevder at
+problemløsning alltid bygger på persepsjon, og at persepsjon er en erfaringsrelatert primærprosess.
+Gode fotballspillere har en god persepsjon og er ofte i forkant av situasjoner. (Olafsen et al, 2003).
+Prosessen med å oppfatte, vurdere, bestemme og velge foregår meget hurtig. Den evnen er blitt
+utviklet gjennom utallige situasjonstolkninger og innhøstet erfaring. (Bangsbo, 1997).
+Olafsen et al (2003) skriver om det de kaller det ”store bildet” og det ”siste bildet”. Det store bildet
+er lange søk i nær- og fjernrom for å være i forkant av situasjonen. Det siste bildet er hyppige søk
+mens ballen er på vei til spilleren, altså persepsjon så tett opp til involvering som mulig for å
+innhente siste bildet. Imellom finnes et ”lite bildet”, hvor spilleren oppdaterer seg på detaljer i
+omgivelsene rundt ballfører.
+Gode fotballspillere er ofte tolkningseksperter. De er i forkant av en spillsituasjon. Dette oppnås
+gjennom utallige situasjonstolkninger og læres dermed over tid. (Svenson, 1994).
+Det er blitt gjort en sammenligning av gode og mindre gode spillere. (Williams og Davids, 1995).
+Spillerne skulle via film simulere kampsituasjoner. Testen viste at de gode spillerne var raskere til å
+kjenne igjen situasjoner. De var bedre til å antesipere motstanders handling og forutse hvordan
+spillsituasjonen kom til å utvikle seg. Her mener jeg at en slik evne krever mye spilltrening og
+
+
+
+                                                                                                57
+problemløsning i forhold til spesifikke spillsituasjoner.
+Slik jeg ser det, så er det spillere som i altfor stor grad tar et valg på bakgrunn av ”første bilde”. De
+er rett og slett for dårlige til å gjøre en siste oppdatering før selve handlingen. Eksempel på det kan
+være at spillern ofte bruker 1. bevegelse. Her kan man som trener veilede spillerne. Ved å følge
+spesielt med på et færre antall spillere, kan man fort lese av hvor i valgforløpet spilleren feiler.
+Den mest utbredte læringsteorien har hatt sitt utspring fra kognitiv psykologi. (Wisløff et al, 1998.,
+Stratton et al, 2004., Summers, 2004). Tidligere valg og handlinger danner en slags ”ramme” for
+kommende informasjonstolking. Man antar at spillere med gode ferdigheter gjennom erfaring har
+samlet seg opp en omfattende kunnskapsbase, som gjør de i stand til å handle effektivt i den
+komplekse situasjonen. (Williams et al, 2003). Dette mener jeg krever mye øving med kampen som
+utgangspunkt.
+
+
+Vi må finne aktiviteter som utfordrer spillerne på hva og hvordan som må gjøres. Dette betyr at
+øvelser som er ”ferdigvalgte” eller øvelser uten valg bør unngås. Dette hevder også flere. (se bla
+Bergo et al, 2002., Olafsen et al, 2003). Jeg mener det må legges opp til øvelser hvor spilleren gis
+anledning til å velge på egenhånd. Igjen er møte med motstander viktig, denne både muliggjør og
+begrenser muligheter.
+
+
+Som jeg beskrev tidligere i, så er hvor og når med på å løse problemløsningsprosessen. Når
+representerer timing. Når skal jeg skyte, når skal jeg starte 1. bevegelsen, når skal jeg slå
+gjennombruddet? Her snakker vi i aller høyeste grad om den relasjonelle dimensjonen. For å finne
+den gode rytmen mener jeg at spillaktiviteter vil være avgjørende. Jo større spillmengde spillerne
+har, jo bedre vil forutsetningene være for å handle med timing og rytme. Motstander mener jeg også
+her vil spille stor rolle. Hvis en øver på timing i ulike sammenhenger uten motspiller, så øver man
+bare en del av timingen. Motstander med sitt motspill vil by på en annen dimensjon av timingen.
+
+
+I problemløsningssituasjonen så kommer ”hvordan skal jeg gjøre det” etter ”hva skal jeg gjøre”.
+Dette kan være at spilleren bestemmer seg for type teknikk umiddelbart etter valget av hva som skal
+gjøres. Spillerens tekniske repertoar virker inn på valget. (Bergo et al, 2002., Giske, 2001). Jeg vil
+tro det er lite sannsynlig at spilleren som har svært begrenset tilslag, allikevel prøver seg på
+langskudd fra 35 meter. Spillerens valg vil også avhenge av hans mentale tilstand. Dette gjelder
+både i forhold til hva og hvordan. En spiller med godt tilpasset spenningsnivå vil ha muligheter til å
+persipere ting som andre spillere med for høyt spenningsnivå ikke vil få med seg. (Pensgaard og
+
+                                                                                                   58
+Høgmo, 2004., McMorris og Graydon, 1997).
+En kan spørre seg om hva og hvordan er et bevisst valg. Ubevisste valg kjennetegnes ved
+umiddelbare reaksjoner, mens middelbare reaksjoner karakteriseres ved et bevisst forløp. (Giske,
+2001). Tiden spilleren har til rådighet, vil være avgjørende for om et valg er bevisst eller ubevisst.
+Noen ganger er det kanskje ”bare tid til å handle”. (Teigen, 2005). Dette mener jeg en kan utnytte
+ved å spille på mindre områder enn man vanligvis gjør, f.eks 11:11 på halv bane. Dette hevder flere
+er viktig. (Hansen Wold, 2002., Eggen og Eggen, 2005). Giske (2001) hevder videre at det blir galt å
+karakterisere et valg som enten bevisst eller ubevisst. En kan heller danne et kontinuum som
+strekker seg fra bevisst til ubevisst.
+Et ubevisst valg ligger også tett opptil automatisering. Giske (2001) beskriver dette som valg som
+tidligere er blitt gjort bevisst. Jeg mener at gjennom treningsstimulering har vi muligheten til at
+spillere gjør et betydelig antall valg i spillesituasjoner som er tilnærmet like. Bevisst refleksjon kan
+ha gått over til ubevisste valg.
+Ved å sette spillerne i sine roller i spillsituasjoner på trening så vil utøverne få gode referanser på
+aktuelle teknikker og egne begrensninger i forhold til dette. Slik kan spilleren finne ut hvilke
+teknikker som er hensiktsmessig i hvilke situasjoner. Hva er jeg god på? Hva kan jeg utvikle videre?
+
+
+
+
+Figur 27 og 28: Teknisk trening med spillsituasjonen som utgangspunkt.
+Eksemplene på figur 27 og 28 viser sentrale midtbanespillere som har erfart at sin posisjon byr på
+muligheter for å slå lange baller enten på fot eller i rom på kant. Kantspillerne vet at de mottar slike
+baller, enten på fot eller i rom. Videre så vil kantspilleren slå innlegg både fra dødlinja eller lenger
+ute på banen med press foran seg, da er det viktig at motspiller er inkludert i øvingen fordi denne
+motspilleren muliggjør noen løsninger og begrenser andre (tid og rom). Samtidig står spisser og
+venter på innlegg fra ulike posisjoner. Øvelsen kan organiseres på denne måten, eller øves i deler
+hvor en kan isolere øvelsen mer. F.eks kan man ha en som slår inn på spisser, hvor motspillerne bare
+oppholder seg i 16M. En kan alltid organisere øvelser slik at man holder et høyt nivå på antall
+repetisjoner. Et høyt antall repetisjoner er argumenter trenere ofte bruker for å bruke en formel og
+teknikksentrert tilnærming på feltet, og mener at dette kun blir oppnådd gjennom en slik tilnærming.
+
+                                                                                                   59
+(Eide, 2007). Videre viser Eide (2007) at ca 40 % av øvelser som blir brukt er teknikksentrerte, og
+av disse var kun 2 av øvelsene induktive. Det ble riktig nok brukt mer tid på den spillsentrerte
+tilnærmingen. Samtidig skriver Eide (2007) at trenerne gav uttrykk for at de ikke hadde tenkt nok
+over hvordan man kan gjøre slike øvelser mer funksjonelle. Jeg mener altså at det er kun trenerens
+fantasi som setter begrensningene i forhold til å lage mer funksjonelle øvelser.
+
+
+Ved å strukturere øvelsene, kan en øke kvantiteten. En av fordelene med spillsituasjonen som øving,
+er at spilleforståelsen også øves. (se bla Ronglan, 2003). Og dette mener jeg er viktig. Det hjelper
+lite å kunne teknikken, hvis man ikke kan plassere den ut i spillet. Derfor mener jeg man bør
+organisere trening med utgangspunkt i spillet. Dette vil alltid la seg gjøre, og i en spillsituasjon får
+spillerne også svar med en gang om hele handlingsforløpet var hensiktmessig. (se bla Bergo et al,
+2002). Spillsituasjonen som utgangspunkt er altså noe en bør etterstrebe, selv om det nå er
+teknikken som er i fokus. Rink (1998) påpeker at det er en stor forskjell på evne til å gjennomføre
+en teknikk, og det å gjennomføre en teknikk i spillsituasjon. Teknikk – taktikk står hverandre så
+nærme, da en alltid må justere den tekniske utførelsen i forhold til motstandere som forsøker å
+ødelegge med sitt motspill. (Grèhaigne og Godbout, 1995). Fler hevder at spillsituasjonen ikke går
+utover teknikkutviklingen. (se bla Ronglan, 2003., Sørensen, 1996). Derfor bør vi benytte
+spillsituasjoner på treningsfeltet, nettopp for ikke å ”isolere bort” sentrale ting i ferdigheten.
+
+
+4.4 Hvordan skal det trenes?
+4.4.1 Spesifisitet, funksjonell og spillsentrert trening
+Jeg mener at trenerens utgangspunkt når treningen skal legges opp, bør være hva som gir mest
+fotballæring, og følgelig ferdighetsutvikling, samt hva som virker mest motiverende på spillerne.
+Tilnærmingen til læring i lagspill vil avhenge av trenerens og klubbens kunnskaper og forståelse av
+fotballferdighet og læring samt kultur og trender.
+Martens (2004) skriver om The Traditional approach. Dette går ut på at treningsøkten starter med
+øving av ulike teknikker, for så å avslutte med det ferdige spillet. Tanken er at spillerne skal få øve
+på selve handlingen i fred og ro, uten motstand, for så å prøve det ut i spill. I The Traditional
+approach følger treneren opp med øvingsbilder og feilretting. Her snakker vi om en deduktiv
+undervisningsmetode i en formell arbeidsform. Ronglan (2003) hevder at den teknikksentrerte
+tilnærmingen ikke er uvanlig her til lands heller. Eide (2007) viser også at en slik tilnærming til
+teknikk utvikling er tradisjonell.
+Ifølge Martens (2004), vil spillerne gjennom teknisk trening automatisere teknikkene godt, men få
+
+                                                                                                     60
+problemer med teknikkene i en spillkontekst. Spillere vil ofte ha problemer med å trekke en rød tråd
+fra teknikktreningen til selve spillet. Både implisitt og eksplisitt. Dette hevder også Ronglan (2003):
+”Det viser seg ofte vanskelig for deltagerne å holde motivasjonen oppe dersom de over tid skal
+arbeide med enkeltteknikker løsrevet fra spillkonteksten.” Dette oppleves også som en mindre
+motiverende metode. (Martens, 2004., Sørensen, 1996).
+Å overføre teknikker ervervet ved teknisk trening til det helhetlige spillet, kan synes som vanskelig.
+(Martens, 2004., Ronglan, 2003). Ronglan (2003) påpeker også faren ved at teknikken kun
+forbedres som isolerte kroppslige ferdigheter. Man får med andre ord problemer med å anvende
+teknikken som et hjelpemiddel for å utnytte og skape spillsituasjoner til fordel for eget lag. Så hva
+kan være grunnen til at denne metoden er mye brukt? For en trener vil den teknikksentrerte
+tilnærmingen være en takknemlig oppgave. Alle kan tilegne seg kunnskaper om de ulike
+momentene som utgjør grunnteknikkene, samt ha et øye for når handlingen er godt utført eller
+mindre godt utført. En slik tilnærming gir treneren en følelse av mestring. Han vet jo hvordan det
+skal gjøres, og evner å se og korrigere. Dette hevder flere kan være en årsak. (Bergo et al, 2002). I
+coaching på valg i spill så stilles det høyere krav til treneren. Men da er jeg av den oppfatning, at
+uansett hvor dårlig jeg er som trener, så får spillerne mer igjen av å spille i ulike spillformer enn å
+drive med isolert teknisk trening. Isberg (2001) skriver at ”det gode øyet” som ser hva og hvorfor
+det skjer, er et av kjennetegnene til ”supercoachen”. Videre så skriver Teigen (2005) at dette øyet
+kan trenes gjennom å beholde egenarten som utgangspunkt på treningsfeltet. Altså ikke bare spillere
+som nyter godt av en spillsentrert tilnærming. Men må vi alltid øve i spill? Det kan være ulike
+årsaker til at spill ikke lar seg bruke. (F.eks fysiologiske eller psykologiske årsaker, Bergo et al,
+2002). Jeg har tatt til ordet for at man bør prioritere en spillsentrert tilnærming, men på enkelte økter
+f.eks lav intensitets økter eller økter på dagen før kamp, så kan en bruke den teknikksentrerte
+tilnærmingen. Intensitetsstyring kan være styrende for tilnærmingen. Hvis man først benytter en
+teknikksentrert tilnærming, så mener jeg man bør benytte et induktivt undervisningsprinsipp, og
+gjøre øvelsen så funksjonell som mulig. Alternativt kan man lage spillsentrerte øvelser med lav
+intensitet. Uansett; utgangspunktet er det samme, nemlig spillet.
+Gjennom spillsentrete aktiviteter så beholder man spesifisiteten i øvelsen. Dette er det viktigste
+prinsippet med tanke på læring. (Gjerset, 1993). Ferdighetene måles i spillsituasjonen. (se bla
+Ronglan, 2003). Derfor bør all læring ta utgangspunkt i spillet. Noen vil kanskje spørre seg; hvorfor
+bruker vi ikke bare spillsituasjoner hvis det er det som er mest spesifikt? Svaret er ikke entydig slik
+jeg ser det. Spillsituasjonen fanger nødvendigvis opp alt en kampsituasjon inneholder. Men samtidig
+så kan ikke alle situasjoner standardiseres. Det finnes et utall situasjoner som er uforutsigbare, og
+
+                                                                                                   61
+det kan således være vanskelig å finne en god øvingssituasjon. (Bergo et al, 2002). Derfor mener jeg
+man bør spille 7:7 eller 8:8 store deler av tiden. Man kan allikevel bruke spesifikke rammer. Hvis
+målet med økta er gjennombrudd på øverste tredjedel, med utgangspunkt i en 4-3-3 formasjon. Så
+kan det ene laget stille i en 2-3-3 og det andre i 4-1-3. Det ene laget med 4 bak, jobber med
+frispilling pluss oppspill. Mens det andre jobber med 2 fulltallige ledd høyt i banen og får således
+mange repetisjoner på gjennombruddet de ønsker.
+Jeg kan vise gjennom et eksempel hvordan man kan ivareta spesifisitets prinsippet på best måte.
+Som Sigmundsson og Haga (2005) har skrevet, så er en ferdighet spesifikk. Samtidig så vil jeg
+begrunne hvorfor aktiviteter bør inneholde minst 1 medspiller og ofte 2 motspillere. Utgangspunktet
+er å øve ferdigheten i å passere motspiller 1:1.
+
+
+
+
+Figur 29 og 30: En øvelse 1:1 med mål. Og en spillsituasjon som viser hva som påvirker en 1:1 situasjon.
+Øvelsen på figur 29 er tatt fra Dreier et al (1986) side 75. Den øvelsen skal øve 1:1 ferdigheten.
+Men når den samme spilleren, som viser seg å spille kant, kommer i kamp. Så ser han at spilleren
+han møter har sikring, samtidig kan han ikke gå til venstre, der er sidelinjen. I tillegg er målet 50
+meter unna, og skrått til høyre. Og i tillegg er det medspillere som samtidig kan muliggjøre
+handlinger, ved å bevege seg. Her er spesifisitets prinsippet lite ivaretatt. Jeg mener at alle
+aktiviteter må inneholde minst 1 medspiller. Det er veldig lite ute på en bane som skjer upåvirket av
+minst 1 medspiller og minst 1 motspiller. Den relasjonelle dimensjonen må vi alltid ta hensyn til.
+Det er 11:11 på en bane, og det blir derfor vanskelig å utelate alle 10 medspillere eller alle 11
+motspillere. Jeg kan benytte et nytt eksempel for å vise at dette gjelder også for broallianser.
+
+
+
+
+                                                                                                           62
+Figur: 31 og 32: En øvelse 4:2 med fokus på frispilling. Bildet til høyre viser en kampsituasjon med samme
+utgangspunkt.
+Her spiller vi 4:2 i en øvelse med vekt på frispilling av sideback. Når denne sidebacken kommer i
+kamp, så opplever han at det kommer en kantspiller i tett press på han. Denne overraskelsen kunne
+vært unngått ved å trent 2 ledd mot 2 ledd. Jeg mener det blir kunstig å drive lagdel mot lagdels
+trening. Vi bør heller strebe etter å ha lagdeler mot lagdeler som øving. Da vil noen kanskje spørre
+seg om; må vi jobbe så høyt på funksjonalitetsskalaen hele tiden? Nei. Det kan være greit å bruke
+øvelsen på figur 31, men da sett i sammenheng med en progresjon, hvor man først øver timing
+mellom stopper og sideback. Før man bygger det videre opp. Jeg vil da komme med følgende
+retningslinjer:
+     -Øving bør sees i sammenheng med minst 1 medspiller og minst 1 motspiller25
+     -Aktiviteten bør være rollerelatert, for å øve på spesifikke ferdigheter
+     -Det bør øves lagdeler mot lagdeler for å se sammenhengen i spillet.
+Da vil noen kanskje spørre seg; hvordan kan jeg med en slik organisering ha fokus på individuelle
+ferdigheter? Medspillere kan være muliggjørende og begrensende. En bevegelse av 2. Angriper kan
+være nok til å trekke 1. Forsvarer den ene halvmeteren til siden som ballfører trenger. Dette mener
+jeg er viktig å ta med i betraktning. At relasjonen mellom ballfører og andre angripere påvirker
+ballførers hva og hvordan i situasjonen. Fotball er et lagspill, der alle 11 hjelper til med å lage mål.
+Og motspillere mener jeg bør være et naturlig innhold i alle deler av økta. Det å trene uten
+motspillere mener jeg blir som å trene på direkte frispark uten mur. Akkurat som muren er
+muliggjørende og begrensende, så er alle motspillere det også ellers på banen. Og de påvirker nesten
+alle avgjørelser spillerne gjør. Både med og uten ball.
+
+
+
+25
+      “(…) An invasion game is defined by having at least one defender, and that the activity develops technique in the
+     context of chaos and changing time and space. Players will therefore develop game-related techniques `in situ`.”
+     (Stratton et al, 2004).
+
+                                                                                                                 63
+4.4.2 Handlingsforløpet
+Olafsen et al (2003) har delt opp handlingsforløpet i 3 faser. Hva skjer før involvering, hva skjer
+under selve involveringen og hva skjer etter involveringen. Her mener jeg vi kan gå i dybden på den
+enkelte rolle. Vi kan bruke eksempelet på figur 32 (forrige side). Sidebacken plasserer seg helt ute
+på sidelinjen i det ballen er på vei til stopperen. Spillerne kan innhente informasjon ved å bevege
+øynene, bevege hode fra side til side, rotere overkroppen rundt lengdeaksen, endre kroppsretting ved
+fotbevegelser (Giske, 2001). Dette må igjen kobles opp mot spillernes rolle i laget. Ved å samtale
+individuelt med enkeltspillere, kan man finne visuelle verktøy for å hente inn informasjon. Som
+trener bør en være klar over arbeidet spillerne gjør forut for f. eks mottaket. Ser han kun på ball,
+eller orienterer han seg, og skaffer seg et oppdatert bilde av omgivelsene? Bruker man for mye
+fokus på selve ballen vil omgivelsene ha endret seg så mye i mellomtiden, at det kan bli vanskelig å
+foreta hensiktsmessig valg. Man får rett og slett dårlig tid. Spilleren må utfordres på å stadig
+oppdatere seg på bildene rundt i omgivelsene. På den måten får sidebacken med seg at han kan løpe
+innover i samme vinkel som ballfører, når han da får ballen vil han ha et bedre utgangspunkt enn om
+han løp langs linjen. Her kan man coache på hvilke ting spilleren bør være oppmerksom på.
+Gjennom å operasjonalisere rollen så vil slike elementer i spillet komme frem. Stopperen, som
+ballfører, fører innover for å ha bedre vinkler når han skal slippe ballen fra seg. Han ser at backen
+får press fra kanten, samtidig oppfatter han at motstander etterlater seg et rom som eget lags kant
+står i. Ballføreren velger å spille på kanten i mellomrommet. Etter handlingen posisjonerer han seg
+slik at han kan markere ut motstanders spiss hvis angrepet skulle ende med brudd. Sidebacken ser at
+kanten har ballen, og kommer på overlapp. Under hele dette forløpet så kan vi dele opp i før, under
+og etter involvering, samtidig som vi kan se på de spillerne som er lenger unna ballen. Som trener
+kan vi følge med på få spillere, og se hva de gjør i forkant eller rett etter en involvering. Eller bare
+konsentrere seg om selve involveringen med ball.
+En kan også legge betingelser for å øke bevisstheten rundt disse tingene. Ved å legge touch
+begrensninger inn i aktiviteten så øves handlingsvalg før, under og etter involvering implisitt.
+Gjennom dette blir spilleren tvunget til å orientere seg i forkant, ha retningsbestemt mottak og for
+andre medspillere, å ha tydelige bevegelser i forkant. (Riisnæs, 2005, Jordet, 1998., Høgtun, 1993.,
+NFF, 2001 og 2004., Reed, 2004). Spillet går så hurtig at spillerne fort vil oppleve viktigheten av å
+mestre de 3 fasene. (før, under og etter involvering). Slik kan en sette naturlig fokus på disse fasene,
+her kan treneren veilede på enkle prinsipper (Kroppstilling, aktive søk, ny bevegelse, osv). Jeg vil
+tro at spill med 1 touch er bra med tanke på å utvikle spillere som er flinke til å velge løsning sent,
+og som er dyktige til å ombestemme seg og kamuflere hensikten. En spiller har omtrent 1000
+
+
+                                                                                                   64
+involveringer i en kamp, rundt halvparten av disse involveringene foregår på 1 eller 2 touch.
+(Wymer, 2004). Dette vil selvfølgelig være en sterk søknad for å bruke det mye på trening. Eide
+(2007) viser også at touch begrensinger var den viktigste betingelsen trenerne i undersøkelsen
+brukte i spillet. Betyr det at man skal bruke halve treningen til å spille 1 eller 2 touch? Selv om 30-
+50% av alle scoringer kommer på dødball, så bruker vel ikke lag 50% av treningen til å øve på
+innkast og frispark? (Olsen et al, 1994). Dette er naturligvis et valg som den enkelte trener får gjøre,
+men jeg mener man med fordel kan benytte det ofte. Dette kan gi en generell inngang på øvingen i
+disse 3 fasene, eller om man vil jobbe med det tekniske i pasningsspillet. Empiri støtter dette. (se
+bla Riisnæs, 2005, Jordet, 1998., Høgtun, 1993., NFF, 2001 og 2004., Reed, 2004., Hughes, 1990.,
+Wymer, 2004., Eide, 2007). Man må se på hvilken effekt touch begrensingene har på spillerne, det
+kan hende at spillerne ”overdriver” og bruker få touch når de med fordel kan benytte seg av flere.
+Dette er opp til den enkelte trener å tyde.
+
+
+4.4.3 Hvordan tilnærme seg spillerne?
+Ferdighetsbegrepet definert av Bergo et al, (2002), har sin styrke i pedagogikken gjennom begrepet
+hensiktsmessig. Treneren kan vurdere hvor hensiktsmessig selve handlingen eller utførelsen er. Som
+beskrevet i teoridelen så er det ulike stiler, representert gjennom en glidende overgang mellom et
+induktivt og et deduktivt undervisningsprinsipp. Når vi setter opp spillsituasjoner, så mener jeg
+spillerne bør få anledning til å prøve å feile selv. Som trener kan vi med fordel bevisstgjøre spillerne
+på hva som kjennetegner situasjonen. Dette støttes av flere. (Hemmestad, 2003). Videre så kan
+nettopp det å påpeke viktige faktorer i en situasjon fremme kreativ tenking. (Stelter, 2002).
+
+
+Samtidig kan vi utnytte vår egen posisjon som veileder på banen. Spillernes opplevelse av en
+spillsituasjon kan fremtone seg noe annerledes enn et ytre perspektiv. (se bla Ronglan, 2003.,
+Teigen, 2005). Dette gjør at veileder sammen med utøver, kan finne frem til hensiktsmessige
+løsninger i ulike situasjoner. Løsninger som er åpenbare for veileder, kan være vanskelig for
+spilleren å se. Her kan vi ved hjelp av coaching, hjelpe spilleren til å fokusere på de riktige tingene.
+Denne refleksjonen kan spiller og trener gjøre sammen. Her mener jeg det vil være like
+hensiktsmessig å fryse spillet rett før en situasjon oppstår, som å fryse etter at valget er gjort. På den
+måten kan man gå igjennom signaler som utløser visse løsninger. Vi kan sammen med spilleren
+finne ut hva som kjennetegner hensiktmessige valg i ulike situasjoner, og hva som er muliggjørende
+og begrensende for disse valgene. På denne måten tror jeg man kan oppleve overraskende og like
+
+
+
+                                                                                                   65
+hensiktsmessige løsninger som det som skal være ”rett” løsning26.
+Man bør også ta til sikte på å ha øvelser som er induktive, altså øvelser som gir spillerne mulighet
+til å velge løsning selv. Ved å legge opp til øvelser hvor spillerne kan velge løsning selv så blir det
+hele mer kamplikt. Ved ferdigvalgte øvelser så øves bare en isolert teknikk, og ikke ferdigheten slik
+som begrepet er definert. (Bergo et al, 2002). I kampen kan spillerne velge løsninger selv, denne
+induktive faktoren bør vi ta hensyn til på treningsfeltet også. Stratton et al (2004) skriver at
+teknikker utøvet gjennom en deduktiv form har større sjanse til å ”bryte sammen” i kampen.
+
+
+
+
+26
+      ”Rett” løsning kan være et bilde som treneren har i hodet på hvordan ting skal se ut. Da mener jeg man ikke skal
+     tvinge frem denne løsningen, men heller prøve å veilede spillerne i retning av den.
+
+                                                                                                                 66
+4.5 Praktisk metodisk del
+
+Jeg har tatt til ordet for hvordan en treningsmetodikk bør se ut. Jeg vil i denne delen se på hvordan
+denne metodikken kan benyttes innenfor ett spesifikt tema, både under innlæring og utvikling.
+Jeg har valgt tema indreløper rollen i angrep innenfor et 4-3-3 system.
+
+
+4.5.1 Hva skal det trenes på?
+
+
+For å komme frem til denne analysen av hva som skal øves i indreløper rollen så må vi gjøre en
+grundig analyse og vurdering. Innenfor 3 punkter er dette viktig:
+1.analyse av eget lagsspillere som er aktuelle for rollen
+2.analyse av motstander, og evt mottrekk som er vanlig (kan avgjøre valg av egen spilletype)
+3.analysere kamper for å se hva slags situasjoner en indreløper oftest kommer opp i, som setter
+retning for treningsarbeidet
+
+
+Ved å studere gamle kamper på video, se spillerne på trening og ha samtaler med enekltspillere så
+vil man danne seg ett bilde av hvilke spillere som er aktuelle for denne rollen. Ved å lage kapasitets
+analyser så kan en finne objektive krav som en indreløper bør oppfylle. Men dette mener jeg blir for
+generelt, en bør gå mye mer spesfikt til verks. Her må det lages kvalitative beskrivelser av den
+enkelte spiller. Man må huske på relasjonene som bygges ute på banen også, et lag med for like
+spillere vil sannsynligvis ikke lykkes. (Eggen, 1999). Det må fremheves spisskompetanse og lage en
+balanse mellom ulike spillertyper. Ved å tenke på denne måten vil en objektiv analyse av en rolles
+ferdigheter komme til kort.
+
+
+Ved å studere motstander så kan man danne seg et bilde av deres forsvarsorganisering. Dette bør
+være med på å sette retning for treningsarbeidet for å få en spesifikk overføring fra kamp til trening.
+Ved å ha informasjon om motstander så vil vi kunne vite hvordan de forsvarer seg generelt, og ikke
+minst, hvordan de spesisfikt forsvarer seg mot 4-3-3. Noen lag tar store hensyn til motstander, ved
+f.eks markere ut indreløper i 4-3-3, mens andre forsvarer seg på vanlig måte uansett motstander.
+Dette skaper ulike handlingsrom for spillerne og er viktige momenter i treningsarbeidet.
+
+
+Det siste punktet har jeg skrevet en del om tidligere i oppgaven. Ved å se på kommenede
+motstander, og spillestilen til 4-3-3 generelt, så vil man danne seg noen bilder på spesifikke
+
+
+                                                                                                 67
+situasjoner som går igjen for den rollen. Hvis man da analyserer egne spillere nøye, så vil en kunne
+se åpenbart hvilke spillere som vil kunne takle en indreløper rolle best. Dette kan også variere fra
+motstander til motstander. Noen lag spillere kanskje på en slik måte at det favoriserer en type
+indreløper, mens et annet lag spiller kanskje slik at det lønner seg å benytte en annen type. Dette
+kan også være på individ nivå hos motstander. Kanskje er det spillere i de enkelte leddene hos
+motstander som gjør at vi velger en indreløper foran en annen. Kanskje også er det såpass svak
+relasjon mellom stopper og back at vi bør bruke en indreløper som er god på dybdeløp?
+
+
+Ved å være nøye på alle disse punktene kommer man tilslutt frem til dette:
+1.Hvilke spillere bruker vi? Eller ønsker vi å se i rollen?
+2.Hvilke mottrekk forventer vi at motstander gjør? Hvilke situasjoner ønsker vi å øve på?
+
+
+På denne måten får vi klare momenter å jobbe etter, med spesifikke spillere i de ønskete posisjoner.
+Jeg vil videre i denne delen si litt på generelt grunnlag hvordan man kan trene indreløperrollen med
+denne tilnærmingen, både i en innlæringsfase og en utviklingsfase. Jeg vil komme med eksempler
+på hele økter med dette temaet.
+
+
+
+
+                                                                                                  68
+4.5.2 Hvordan trener vi?
+
+
+Spillestilen i 4-3-3, og en komplett rollebeskrivelse er omfattende og jeg vil ikke gå mer i dybden på
+det her. Men gir her en kjapp oversikt over rollene i en vanlig 1-4-3-3.
+Dette er heller ingen komplett øvelsesbank, til det er omfanget for stort. De er delt inn i en generell
+del, en spesifikk del og en del med ”hele” spill. Alle øvelsene er spillsentrerte, induktive og
+funksjonelle. Det er dette jeg har prøvd å argumentere for i denne delen, og her kommer
+overføringen til praksisfeltet. Samtidig vil alle øvelsene øve flere delferdigheter samtidig.
+Jeg har også lagt opp øvelser kun for å stimulere angrepsspill. Pga omfanget prioriterer jeg på denne
+måten. Den oppvakte leser vil allikevel legge merke til at flere av øvelsene kan benyttes selv om
+fokuset er forsvarsspill.
+
+
+
+
+                                                                                                  69
+Innlæring
+En generell tilnærming
+
+
+
+
+Her er en øvelse 11 mot ingen. Kun trening for å øve bevegelser og rytme i eget lag. Dette bryter litt
+medprisnippene jeg har omtalt tidligere, men kan være lurt i en innlæringsfase.
+
+
+
+
+Her en øvelse der vi øver relasjonen back-indreløper mot motstand. Her vil motstanders press
+avgjøre bevegelsen til indreløperen. Her kan vi kjøre høyre side på en halvdel av banen og andre
+siden på andre halvdelen.
+
+Her er det øvelser som viser både helhet og på detaljnivå. Her er det bare fantasien som setter
+grenser for hvilke deler av spiller vi skal øve på.
+
+
+
+
+                                                                                               70
+En spesifikk tilnærming
+
+
+
+
+Her spiller to lag mot hverandre, med felles midtledd. Dette leddet spiller bare i angrep, og lagene
+øver på omstilling, ankomst fasen på etablert bakre 4r og gjennombruddsfasen på bakre 4r. En
+motspiller opererer midt på banen for å sette et naturlig ”første” press. Her får indreløper mange
+repetisjoner ved opprulling på midten og angrep mot et etablert ledd.
+
+
+
+
+Her begynner en av side backene med ballen, og vinkler den inn i banen. Motstander laget kan
+redusere motstanden, men stiller i 4-1 pluss en forsinket forsvarsspiller for å stresse fremdrift.Her er
+det to eksempler som byr på utfordringer rundt motstanders bakre ledd. Her kan vi gjøre enkle
+endringer for å øve andre faser av spillet.
+
+
+
+
+                                                                                                71
+Hele spill
+
+
+
+
+Valg av formasjon bør ta sikte på å ha overførbarhet av rammer for lagene. Her i 4-3-3. Rødt i 2-3-3
+for å jobbe med gjennombruddsfasen fremme på banen for indreløper. Blått i 4-1-3 for å jobbe med
+frispilling og oppspillsfase i andre deler av spillet.
+
+
+
+
+Her spiller vi 3:3 i hver sone. Banen deles i 3 soner i lengderetning. Ballen må spilles over streken,
+enten til neste sone eller sonen lengst bort. En spiller fra hver sone kan flytte fremover. Det betyr at i
+øverste sonen kan det bli 5:3 i overtall.
+
+Hele spill bør ta sikte på å ha mest mulig overførbare rammer for hvordan laget ønsker å spille.
+Underveis i disse spillene så kan man bryte inn underveis, eller bare ha fortløpende tilbakemldinger.
+
+
+
+
+                                                                                                  72
+Utvikling
+En generell tilnærming
+
+
+
+
+Her er en funksjonell pasningsøvelse tilpasset lagets spillestil. Løsninger velges utfra motstanders
+bevegelser. Her kan man kjøre venstre og høyre annenhver gang og lage konkurranse mellom
+sidene.
+
+
+
+
+Her øver vi spesifikke relasjoner med utgangspunkt i roller. I dette eksempelet så spiller midtback,
+side back og bred indreløper sammen mot 2 forsvarsspillere. Og indreløper sammen med et front
+ledd spiller mot et bakre ledd i undertall.
+
+
+
+
+                                                                                               73
+En Spesifikk tlinærming
+
+
+
+
+Her spiller vi 11 mot 8, alle ledd i undertall, for å forenkle relasjonene med indreløper.
+
+
+
+
+Her spiller vi 11:10. Motstanden kan reduseres. Vi ser på hvilke rom indreløperen bør bevege seg i,
+her er motstander utløsende faktor for valgene våre.
+
+
+Dette er nesten to identiske øvelser, men det er forenkling via redusert motstand til nesten fullt spill
+der vi har fokus på 1 lag.
+
+
+
+
+                                                                                                 74
+Hele spill
+
+
+
+
+Her spiller vi 11 mot 11 i fortettet form for å sette relasjonene under sterkt press. Man kan også ha
+full banebredde og kortere lengde på banen, alt etter hva man ønsker å stimulere. Her stimulerer vi
+fart og presisjon i lengderetning.
+
+
+
+
+Her spiller vi 10 mot 10 uten keeper med scoring ved å føre over i en sone innenfor 16m. Her øver
+vi på ale relasjoner bortsett fra selve avslutningsfasen. Vi kan legge på en keeper i hvert mål hvor
+lagene kan score etter vellyket gjennombrudd i en av sonene.
+
+
+
+
+                                                                                               75
+4.6 Avsluttende kommentar
+Jeg hadde ambisjoner om å gjøre oppgaven mest mulig praktisk rettet. Hva, Hvordan og Hvorfor
+inndelingen har vært hjelpemidler for å få til dette. Jeg vil påstå at det er få eller ingen fasit svar i
+fotball, men allikevel kan vi si at noe er mer riktig enn annet. Gjennom en spillsentrert tilnærming,
+bruk av et induktivt undervisningsprinsipp og en funksjonell arbeidsform så mener jeg vi kommer
+nærmest spillet. Det spillet ferdigheten blir målt i, det er kampen vi øver til, og da må trening ta
+sikte på å gjenskape de reelle forholdene fra kampen. Å lære å spille spillet innebærer å håndtere
+den motstanden som gis. Vi kan ikke unngå å ta med motstander i planleggingen av trening. Dette
+føler jeg er et av de viktigste funnene i dette studiet. Nettopp å få med motspillere på alt som skjer
+på treningsfeltet. Dette er mulig, det er bare trenerens fantasi og faglige begrensinger som setter
+grenser. Det betyr ikke at det er kun gjennom å spille at spillerne utvikler seg. En trener som
+planlegger en økt, bør derimot alltid ha kampen som utgangspunkt. Og derfra kan man drive både
+spillsentrert og teknikksentrert. Noen vil kanskje si; kamplikhet vet vi jo om, er dette noe nytt?
+Tidligere studier (Eide 2007) viser at spillsituasjonen er sentral i ferdighetsutviklingen. Allikevel
+driver lagene for mye med generelle ting. Som jeg skrev i forordet så kan man ikke lenger
+revolusjonere fotballen, men man må ta prosenter der man kan. Og det er dette jeg sikter til. Ved å
+lage tekniske øvelser mer funksjonelle, og tenker mer roller, så tror jeg vi kan optimalisere
+praksisen ytterligere. Fotball er ikke enten eller, men både og. Ferdigvalgte øvelser kan brukes, men
+størstedelen av øktene bør ta sikte på å inneholde valg. Her kan vi også variiere bruk av motstand,
+man må ikke bruke motstand hele tiden. Men valgfrihet innenfor gitte rammer bår ferkomme ofte,
+fotball er en åpen idrett.
+Så hvordan kan vi legge opp en økt? Vi kan starte med en eller flere varianter av den generelle
+tilnærmingen, for så å gå videre til mer spesifikke varianter. Og tilslutt bruke en spillvariant. Vi kan
+lage en tredeling hvor hver tilnærming blir vektet likt, eller noen områder kan prioriteres mer.
+Problemstillingene har blitt besvart underveis. Problemstilling nr 1 er blitt besvart gjennom
+oppgavens hva og hvorfor deler. Mens hvordan besvarer problemstilling nr 2.
+
+
+
+
+                                                                                                    76
+Referanseliste
+
+
+Abernthny, B., Burgess-Limerick, R., Parks, S. (1994). Constasting approaches to the study of
+
+motor expertice. Quest, 46: 186-198.
+
+Allpress, J. (2007) Spillerutvikling – kunsten å være voksen. Fotballtreneren nr. 2: 14
+
+Anderson, B., Anderson, M, Nedergaard, o. (1997). Holdbold. Om spillenes historie, udvikling,
+
+kvaliteter og pædagogik. Forlaget Systime A/S. Århus.
+
+Bangsbo, J. (1994). Fitness training in football – a scientific approach. University of Copenhagen.
+
+Danmark
+
+Bangsbo, J (1997) Det gode hold. Fodboldspilletstaktik 2. DHL/Hovedland. Danmark.
+
+Bangsbo, J., Peitersen, B. (2000) Soccer systems and strategies. Human Kinetics. USA
+
+Bangsbo, J., Peitersen, B. (2002) Defensive soccer tactics. Human kinetics. USA
+
+Bangsbo, J., Peitersen, B. (2004) Offensive soccer tactics. Human kinetics. USA
+
+Bate, D. (1996) Soccer skills practice. I T.Reilly (red) Science and soccer: 121-134, E og FN Spon,
+
+London.
+
+Beck, F., Holtan, E., Svindal Larsen, T., Nordlie, T., Apeland, KT., Næss, S., Ròsen, K. (2001)
+
+Ingen blir gode alene – hvordan bygge vinnerlag. Pantagruel forlag. Oslo
+
+Bergo, A., Morisbak, A., Johansen, PA., Larsen, Ø. (2002) Ferdighetsutvikling i fotball. Akilles.
+
+Oslo
+
+Borgersen, B. (2006) Bli en bedre fotballspiller. Akilles. Oslo
+
+Borrie, A (2005) Coaching science. . I T.Reilly (red) Science and soccer: 243-258, E og FN Spon,
+
+London
+
+
+
+                                                                                            77
+Bjurwill, C., Lagerström, L., Nilsson, J (1996) Tränare om spelförståelse i fotball. Høgskolen i
+
+Halmstad. Sverige
+
+Bjurwill, C. (1991). Lagbollspelets didaktikk: samordnad tränerutbildning, inlärning til
+
+spelforståelse. Lunds universitet. Sverige.
+
+Bjurwill, C. (1990) Lagbollspelets didaktikk: om spelforståelse och split-vision. Lunds universitet.
+
+Sverige.
+
+Capanna, R., Oneto, M., Ferrera, G (2003). Total soccer coaching, combining physical, technical
+
+and tactical training. Reedswain. England
+
+Coerver, W. (1986). Soccer fundamentals for players and caoches. Prentice Hall. USA
+
+Dahl, G. (2002). Rolleferdigheter: et casestudie av sideback og indreløper i angrep.
+
+Hovedfagsoppgave, NIH. Oslo
+
+David, K., Araujo, D., Shuttleworth, R (2005) Applications of dynamic systems theory to football.
+
+. I T.Reilly (red) Science and soccer V: 537-550, Routledge, London
+
+Del Freo, A. (1999). 248 Drills for attacking soccer. Reedswain. USA
+
+Dreier, S., Morisbak, A., Skarsfjord, T. (1986). God fotballferdighet. AD Notam Gyldendal.
+
+Eide, Ø (2007) Spillerutvikling i fotball.Masteroppgave Norges idrettshøgskole.
+
+Eggen, NA. (1999) Godfoten, Samhandling – veien til suksess. Aschehoug. Oslo
+
+Eggen, KT., Eggen, NA., Simensen, JO. (2005) Godfot arven. Aschehoug. Oslo
+
+Eriksson, SG., Railo, W. (2000). Sven-Gôran Eriksson on soccer. Reedswain. England
+
+Fagermo, D.E. (2000) spillerutvikling med utgangspunkt i en valgt offensiv spillestil. Trener III-
+
+oppgave, NFF. Oslo
+
+Franks, I., Hodges, N., More, K. (2002). Analysis of coaching behaviour. Journal of sports
+
+                                                                                              78
+sciences.
+
+Føllesdal, Dagfinn, Lars Walløe, Jon Elster.(1996). Argumentasjonsteori, språk og
+
+vitenskapsfilosofi, 6.utgave, universitetsforlaget, Oslo
+
+Gjerset, A (red) (1992). Idrettens treningslære. Universitetsforlaget. Oslo
+
+Goodman, C (1993). Literature searching and evidence interpretation for assesing health care
+
+practices. The swedish counsil on technology in health care. Stockholm
+
+Giske, R. (2001). Individuelle handlingsvalg i lagballspill. En teoretisk og empirisk analyse.
+
+Dr.scient avhandling, NIH, Oslo
+
+Giske, R. (2003). Refleksjoner omkring ballspillopplæring. Moving bodies, vol,1, 2:113-131
+
+Giske, R., Hollingen, E., Pensgård, AM. (1999) Gruppe og konkurransepsykologi.
+
+Universitetsforlaget. Oslo
+
+Grebstad, O (2005). Bli en bedre fotballspiller. Grebstad international trading. Oslo
+
+Grèhaigne, J.F., Bouthier, D., David, B. (1997). Amethod to analyse attacking moves in soccer. I
+
+T.Reilly, J. Bangsbo, M. Hughes (red) Science and football III: 258-266. E. & F. N Spon. London
+
+Grèhaigne, J.F., Godbout, P. (1995). Tactical knowledge in team sports from a constructivist and
+
+cognitivist perspective. Quest; 47: 490-505
+
+Grèhaigne, JF., Bouthier, D., David, B (1997) Dynamic-system analysis of opponent relationships
+
+in collective actions in soccer. Journal of sport sciences, vol. 15: 137-149.
+
+Grønmo, S. (1996). Forholdet mellom kvalitative og kvantitative tilnærminger i
+
+samfunnsforskningen. I kvalitative metoder i samfunnsforskningen (av Holter, H og Kalleberg, R)
+
+Haugaasen, M. (2006) Samspillsrelasjoner i fotball: relasjonell ferdighet i et økologisk paradigme.
+
+Masteroppgave. NIH. Oslo
+
+
+                                                                                                 79
+Haugaasen, M. (2007) Relasjonsbygging og –utvikling i fotball. Fotballtreneren nr. 2: 11-13
+
+Hareide, Å. (2004) Fotball, fornuft og følelser. Gyldendal. Gjøvik
+
+Hansen Wold, K S. (2002)”Hvordan legge forholdene til rette for utvikling av juniorspillere for å
+
+ta steget opp til å bli A-spillere i norsk toppfotball?” Trener III-oppgave, NFF. Oslo
+
+Hellevik, O.(2002). Forskningsmetode i sosiologi og statsvitenskap. Universitetsforlaget. Oslo
+
+Hemmestad, L. (2003) En kontekstuell tilnærming til coaching. Moving bodies, nr. 2, vol 1:73-90
+
+Hughes, C. (1990). The winning formula. Collins. London.
+
+Holm, J., Olsen, E., Larsen, Ø., Natvig, S., Sigmundstad, E. (1998). Eventyret drillos. Schibsted
+
+forlag. Oslo
+
+Holmedal, R (2007). Muntlige samtaler April 2007.
+
+Høgtun, S. (1993). Trening av individuelle ferdigheter. Fotballtreneren nr. 2, 1993: 16-19
+
+Høigaard, R., Lidbom, PA. (1999) Gruppepsykologi i idrett. Høyskoleforlaget. Kristainsand
+
+Ingvaldsen, RP. (1993). Prestasjonsutvikling i fotball, tradisjoner vs vitenskap? Fotballtreneren nr.
+
+2: 13-15
+
+Isberg, L (2001). Supercoach på internationell toppnivå i fotball. Örebro universitet. Sverige
+
+Jordet, G. (2001). An ecological approach to skill in team ball sport. Upublisert
+
+Jordet, G. (2003). Læring av perseptuell ekspertise i fotball. Moving bodies, nr 2:133-147
+
+Jordet, G. (2004). Perceptual expertise in dynamic and complex competitive team contexts.
+
+Dr.scient, avhandling, NIH. Oslo
+
+Juliussen, E. (2006). Fra Skeid til Liverpool FC – i et talentutviklingsperspektiv. Fotballtreneren,
+
+nr. 2. 2006: 8-9
+
+
+
+                                                                                               80
+Kalleberg, R. (1982). Kvalitative metoder i sosiologisk forskning. I Hariet Holter og Ragnvald
+
+Kalleberg (red.) Kvalitative metoder i samfunnsforskning (1.utgave). Universitetsforlaget. Oslo
+
+Kvale, Steinar (2001) Det kvalitative forskningsintervju. Gyldendal. Oslo
+
+Kvale, Steinar (1997) Det kvalitative forskningsintervju. Gyldendal. Oslo
+
+Kvale, Steinar (1979) Det kvalitative forskningsintervju – ansatser til en fenomenologisk –
+
+hermeneutisk forståelsesform. Oslo
+
+Konzag, I (1981) Kognitive funktionen in der psychischen regulation sportlicher spielhandlungen
+
+und folgerungen fur den ausbilungsprozess. I Schellenberger (red) Psychologie im sportspiel.
+
+Sportsverlag, Berlin.
+
+Larsen, Ø (2003). The influence of caoaches and textbooks in Norwegian football 1960-2002. from
+
+a one-dimensional to a multi-dimensional understanding of football. Moving bodies, vol.1, 1:116-
+
+132.
+
+Larsen, Ø. (1998). Spillestil og ferdigheter. Fotballtreneren nr. 1, 1998:26-28
+
+Larsen, Ø. (1992). Angrep og effektivitet. Hovedfagsoppgave, NIH
+
+Larsen, Ø. (1994). Fotball kampen – den kontrollerte konflikten. Fotballtreneren, nr.8: 32-38
+
+Lunov, H. (2006). Fysiologisk effekt av variasjon i banestørrelse og antall spillere. Fotballtreneren,
+
+nr 3. 2006:24
+
+Lund, Thorleif, (2002). innføring i forskningsmetodologi, unipub forlag
+
+Luxbacher, JA. (1996) Soccer. Steps to success. Human kinetics. USA
+
+Mateus, J. (2005) In pursuit of an ecological and fractal approach to soccer coaching. I T.Reilly
+
+(red) Science and soccer V: 561-573, Routledge, London
+
+Martens, R. (2004). Successful coaching. Human kinetics. USA
+
+                                                                                               81
+Markovski, T (2007) Scoringsferdigheten. Trener III oppgave. NFF.
+
+Marziali, F., Mora, V. (1997). Coaching the 4-4-2. Reedswain. England
+
+McMorris, T., Graydon, J. (1997) Effect of exercise on the decision making of soccer players. I
+
+T.Reilly., J.Bangsbo., M. Hughes (red) science and football III: 279-284. E og FN Spon, London
+
+Morisbak, A. (2006) Foredrag om ferdighetsutvikling. Færøyene
+
+Morisbak, A. (2007) Spill mest mulig smålagsspill. Fotballtreneren, nr. 2:18-19
+
+Morisbak, A. (1990) Fotball er gøy. NFF. N.W. Damm og Søn. Oslo
+
+Michels, R. (2001) Teambuilding – the road to success. Reedswain. Nederland
+
+Micthell, S., Oslin, J., Griffin, L. (2006) Teaching sport concepts and skills – a tactical games
+
+approach. Human kinetics. USA
+
+Muelensteen, R. (2001) Manchester United practical session. Manchester United for samarbeid
+
+med Oslo Øst
+
+Moen, T. (2006) Fotballferdighet – kjernen i fotballspillet!. Fotballtreneren, nr. 3: 14-15.
+
+Moen, T. (2003) Bruk av video i trening og coaching. Fotballtreneren, nr. 4: 22-23.
+
+Møller, L. (2006) Kjennetegn og utviklingstrekk ved gode relasjoner i norsk toppfotball. En
+
+intervjustudie. Hovedfag, NIH
+
+Newell, K.M (1986). Constraints on the development of coordination. In M. Wade and H.T.A
+
+Whiting (eds.), Motor development in children: aspects of coordination and controll (pp.341-360).
+
+Dordrecht, Netherlands: Marius Nijhoff
+
+NFT (2006) cupfinaleseminaret – rapport, 2005. Kristiansand
+
+NFF. (2003). Femmerfotball. Tettere, kjappere, morsommere!. Oslo
+
+
+
+                                                                                               82
+NFF. (2001). Tema: Ferdighetsutvikling. Oslo
+
+NFF. (2006). Toppspillerutviklerns favorittøvelser. Oslo
+
+NFF. (2004) NFFs modulkurs: modul 1; ”pasningsstolthet”. NFF. Oslo
+
+NFF. (2004) NFFs modulkurs: modul 2; ”gå i angrep”. NFF. Oslo
+
+NFF. (2004) NFFs modulkurs: modul 3; ”mååål”. NFF. Oslo
+
+NFF. (2004) NFFs modulkurs: modul 4; ”gå i press”. NFF. Oslo
+
+Nilsen, Ø., Winsnes, S. (2004). Gjennom sesongen. En beskrivelse og drøfting av
+
+utviklingsarbeidet med G16 og G17 landslaget i 2004. Fotballtreneren, nr. 6. 2004: 28-33
+
+Olafsen, E., Knutsen, H., Walstad, RM., Sokolowski, K., Barannik, D., Johansen, PA. (2003).
+
+Hva kjennetegner verdens beste spillere. Fotballtreneren, nr 3. 2003: 22-26
+
+Olafsen, E., Hiim, SA. (1996). Hva kjennetegner innlegget som fører til mål. Fotballtreneren, nr: 4.
+
+1996: 18-20
+
+Olsen, E., Larsen, Ø., Semb, NJ. (1994). Effektiv fotball. Gyldendal. Oslo
+
+Olsen, E., Larsen, Ø. (1995) Use of match analysis by coaches. I T.Reilly, J. Bangsbo, M. Hughes
+
+(red) Science and football III: 209-220. E. & F. N Spon. London
+
+Peitersen, B. (1993) Fodbold teknikk. Systime/DHL. Danmark
+
+Pellerud, E. (2005) Even Pellerud on coaching and leadership in women`s soccer. Reedswain.
+
+USA
+
+Pensgaard, AM., Høgmo, P (2004) Mental trening i football. Akilles forlag
+
+Petrucelli, C. (2004) Developing responsible decision-makers. The soccer coaching bible, 2004.
+
+S:241-250. National soccer coaches association of America. Human Kintetics.
+
+
+
+                                                                                             83
+Raastad, T., Theting, S. (2003). Muskulær tretthet og restitusjon i fotball. Moving Bodies, nr. 2.
+
+2003, vol1: 62-71
+
+Reed, L. (2004) Basic team coaching. The FA Learning. London
+
+Reilly, T., White, C. (2005) Small-sided games as an alternative to interval-training for soccer
+
+players. I T.Reilly (red) Science and soccer V: 344-347, Routledge, London
+
+Ringdal, K. (2001). Enhet og mangfold. Fagbokforlaget.
+
+Rink, J. E., French, K.E., Tjeerdsma, B.L. (1996). Foundations for the learning and instruction
+
+of sport and games. Journal of teaching in physical education, 15: 399-417
+
+Riisnæs, D. (2006). Hvor er midtstopperne? Fotballtreneren, nr. 3: 22
+
+Riisnæs, D. (2005). En bedre ungdomsfotball! Fotballtreneren, nr. 5: 14-15
+
+Riisnæs, D. (2006) Angrepsspill – om romidentifisering og romutnyttelse. Fotballtreneren nr. 5: 19
+
+Riisnæs, D. (2007) Spillerutvikling i Argentina. Fotballtreneren nr. 2:20-21
+
+Ronglan, L.T. (2003) Ballspill er problemløsning. Hvilke didaktiske implikasjoner har det?
+
+Moving bodies, vol. 1, 2: 91-111.
+
+Ronglan, L.T., Larsen, Ø. (2003). Ballspillanalyse – mer enn arbeidskravsanalyse. Moving
+
+bodies, vol.1, 2: 11-27.
+
+Ronglan, L.T. (2000) Gjennom sesongen. En sosiologisk studie av det norske kvinnelandslaget i
+
+håndball på og utenfor banen. Dr. Scient avhandling. NIH. Oslo
+
+Sassi, R., Reilly, T., Imperllizzeri, F (2005) A comparison of small-sided games and interval
+
+training in elite professional soccer players I T.Reilly (red) Science and soccer V: 344-347,
+
+Routledge, London
+
+Sigmundsson, H., Haga, M. (2005) Ferdighetsutvikling. Utvikling av grunnleggende ferdigheter
+
+                                                                                                84
+hos barn. Oslo
+
+Sigmundsson, H., Haga, M. (2005) Ferdighetsutvikling. Gymnos, Tema, nr 2.2005: 3-6
+
+Stelter, R. (2002). Coaching og læringsteorier. I R. Stelter (red) Coaching-læring og udvikling:
+
+149-177. Psykologisk forlag A/S, Danmark
+
+Sørensen, A. (1996). Hvordan er læringseffekten av teknikktrening med lav vs. Høg funksjonalitet, i
+
+deler av treninga, for et utvalg av seniorspillere i fotball. Hovedfagsoppgave, NIH. Oslo
+
+Salling Larsen, A.L., Vejleskov, H. (2002) videnskab og forskning. Gads forlag. København
+
+Schmidt, RA., Lee, TA (1999) Motor control and learning: A behavioral emphasis. Human
+
+Kinetics. USA.
+
+Sisjord, MK. (2003). Metodeforelsninger VMS 200, NIH. NIH trykkeri. Oslo
+
+Stratton, G., Reilly, T., Williams, AM., Richardson, D. (2004) Youth soccer. From science to
+
+performance. Routledge, London.
+
+Sigmundstad, E. (1991) Teknikk og teknikkutvikling i fotball – treningsmetoder, ytre og indre
+
+feedback. Hovedfagsoppgave. NIH
+
+Svensson, T. (1994) Taktisk – teknisk handlingskompetanse i fotball. Hovedfagsoppgave. NIH
+
+Summer, J. (2004) A historical perspective on skill acquisition. I Williams og Hogdes (red) Skill
+
+acquisition in sport: Research, theory and practice. Routledge. London.
+
+Sæterdal, R., Erlandsen, A., Madsen, Ø. (2001). Trening og utvikling av fysiske ressurser i
+
+fotball. NFF og Olympiatoppen
+
+Sæther, SA. (2004). Fotball og talent. En studie av norske eliteserietrenere sin forståelse av talent i
+
+fotball. Hovedfagsoppgave, NTNU. Trondheim
+
+Thaagard, T. (1998). Systematikk og innlevelse. En innføring i kvalitativ metode. Fagbokforlaget.
+
+                                                                                               85
+Bergen
+
+Tyriberget, L. (2004) Rolleferdighetsutvikling. Trener III-oppgave, NFF. Oslo
+
+Teigen, R. (2005). Fra tung filosofi til enkel metodikk. – en studie av fotballspillets emergente
+
+egenart og betydningen for arbeidet på praksisfeltet med laget som prestasjonsenhet.
+
+Hovedfagsoppgave, NIH. Oslo
+
+Tjernås, L. (1996). Yngre landslag: best med ball. Fotballtreneren, nr.3 1996: 4-5
+
+Turner, A., Martinek, T. (1995) Teaching for understanding: A model for improving decision
+
+making during game play. Quest; 47: 44-63
+
+Tønnesen, E. (ukjent). Arbeidskrav i idretten. Kompendium, NIH
+
+Ulseth, O. (2007) Favorittøvelsen. Fotballtreneren, nr. 1: 30
+
+VG. 4.juni. (2006). Av Ole Kristian Strøm. Oslo
+
+Wisløff, U., Salveson, R., Sigmundstad, E. (1998). Prestasjonsutvikling i fotball.
+
+Universitetsforlaget. Oslo
+
+Wadel, C.(1991). Feltarbeid i egen kultur. SEEK AS, Flekkefjord
+
+Wade, A. (1967). Lær fotball. Gyldendal Norsk forlag. Oslo
+
+Wade, A. (1997) Principles of teaching soccer. Reedswain. London
+
+Williams, A. M., Horn, R., Hodges, N. (2003) skill acquisition. Science and soccer. Routledge.
+
+England
+
+Williams, A.M., Ward, P., Herron, K., Smeeton, N. (2005) Using situational probabilities to train
+
+perceptual and cognitive skill in novice soccer players. I T.Reilly (red) Science and soccer V: 337-
+
+340, Routledge, London
+
+Williams, D. (2003) Coaching the English premier league 4-4-2. World class coaching. England
+
+                                                                                                86
+Worthington (1975). Teaching soccer skill. Lepus books. England
+
+Wymer, P (2004) Coaching soccer tactics. Phil Wymer, Sheffield
+
+
+
+
+                                      Referanser fra internett
+
+Chandler, T. (1996). Teaching games for understanding: Reflections and further questions.
+
+JOPERD, 67(4), 49-51. Http://www.educ.uvic.ca/Faculty/thopper/tactic/articles/Reflections.htm
+
+Hopper. (1998). Teaching games for understanding using progressive principles of play. CAHPER,
+
+27(1), 1-5. http://www.educ.uvic.ca/Faculty/thopper/WEB/articles/Cahperd/principle.pdf
+
+Fiskestrand, Å. (2006) Utviklingstrapper for unge utøvere.
+
+http://www.olympiatoppen.no/ungeutovere/utviklingstrapper/generelt_om/page451.html
+
+Rink, J. (1998). Teaching concepts and content-specific pedagogy, Teaching Physical Education
+
+for Learning (pp. 281-292). Boston: WCB McGraw-Hill.
+
+http://www.educ.uvic.ca/Faculty/thopper/tactic/articles/Conceptst.htm
+
+
+
+
+www.brandmind.no/cda/zonepg.aspx
+
+http://www.educ.uvic.ca/Faculty/thopper/tactic/articles/Reflections.htm
+
+
+
+
+                                                                                            87
+

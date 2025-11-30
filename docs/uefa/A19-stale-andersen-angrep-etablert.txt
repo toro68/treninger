@@ -1,0 +1,1357 @@
+Trener III-oppgave
+Våren 2011
+
+Av Ståle Andersen
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+1) Innholdsfortegnelse
+1) Innholdsfortegnelse ...................................................................................................... 0
+2) Forord .......................................................................................................................... 2
+3) Innledning og bakgrunn for oppgaven ........................................................................... 3
+4) Sammendrag ................................................................................................................ 4
+5) Metode......................................................................................................................... 5
+5.1 Kvantitativ metode .................................................................................................................... 5
+5.2 Primær og sekundærdata .......................................................................................................... 5
+5.3 Kvalitativmetode ....................................................................................................................... 5
+5.4 Kildekritikk ................................................................................................................................. 6
+5.5 Feilkilder .................................................................................................................................... 6
+
+6) Problemstilling og undersøkelsesspørsmål: ................................................................... 7
+6.1 Definisjoner og begrepsavklaring: ............................................................................................. 7
+6.2 Avgrensning: .............................................................................................................................. 8
+
+7) Datainnsamling og analyse ............................................................................................ 9
+1. Hvordan utøves angrep mot etablert forsvar for de to fotballagene?...................................... 9
+7.1 Tilnærming til angrep mot etablert forsvar i KFUM .................................................................. 9
+7.2 Igangsetting bakfra: ................................................................................................................. 10
+7.3 Kampdimensjon: ...................................................................................................................... 12
+7.4 Gjennombrudd. ....................................................................................................................... 13
+7.5 Vending av spillet. ................................................................................................................... 15
+7.6 Gjenvinning:............................................................................................................................. 16
+7.7 I faglitereturen......................................................................................................................... 17
+7.8 VIF: ........................................................................................................................................... 19
+2. Hva gjøres i treningsarbeidet for å mestre angrep mot etablert forsvar? . ............................. 22
+3. Hvilke resultater har angrep mot etablert forsvar gitt for de to fotballagene? ....................... 28
+
+8) Diskusjon .................................................................................................................... 33
+9) Feilkilder..................................................................................................................... 35
+9) Konklusjon .................................................................................................................. 36
+10) Litteraturliste ............................................................................................................ 38
+11) Vedlegg..................................................................................................................... 39
+
+1
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+2) Forord
+Jeg vil rette en takk til alle trenere og medspillere jeg har hatt igjennom årenes løp. Mange
+faglige diskusjoner, opplevelser og krangler har vært fruktbare for mitt fotballsyn og dette
+arbeidet. Jeg vil særlig trekke fram spillerutvikler i Malmö FF Bo Augustson som den som har
+betydd mest for mitt fotballsyn.
+Stor takk til KFUM som har latt meg få lov å utvikle unggutter til å bli gode 2.divisjonsspillere.
+Det er en fin forståelse for kontinuitet og fotballkultur i den klubben. Takk også til Andrea
+Loberto som har stilt villig opp på intervju og gitt meg tilgang til VIFs tanker og data.
+Ståle Andersen
+Oslo 23/1 2011
+
+2
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+3) Innledning og bakgrunn for oppgaven
+I denne oppgaven vil jeg rette søkelyset på ferdighetsutviklingen som kreves for å mestre
+spill mot etablert forsvar. Denne delen av angrepsspillet har opptatt meg siden jeg spilte
+juniorfotball i Malmö FF på slutten av 1980-tallet under en trener inspirert av nederlandsk
+fotball. To tiår etter, etter en karriere som spiller i norsk og svensk eliteserie, og trener de
+siste årene, er jeg like nysgjerrig på temaet. Det på tross av mange år med ulike trenere med
+forskjellige tilnærminger til fotball. Ikke minst ble 1990-tallet en epoke som ga meg mitt
+nåværende fotballsyn, og standpunkt i forhold til hvilke begrensninger mangel på mestring
+mot etablert forsvar ga i angrepsspillet og hvilke muligheter det ga om vi fikk det til. Hvilke
+ferdigheter var det som skulle til? Dette spørsmålet opptok meg tidlig i fotballkarrieren og
+opptar meg like sterkt ennå.
+I Norge spesielt oppfattet jeg som spiller en tendering mot å ikke ta risiko i spillet. Spill mot
+etablert forsvar ved å være ballbesittende, eller spille for mye igjennom midtbanen, har for
+mange av mine trenere jeg vært forbundet med for høy risiko. Jeg vil presisere at utrykket
+ballbesittelse som er beslektet med spill mot etablert forsvar ikke nødvendigvis er en effektiv
+måte å spille fotball på hvis det gir noen verdi og effektivitet. Om det gir verdi og effektivitet
+har en stor sammenheng med visse type ferdigheter som blir belyst i denne oppgaven.
+Utrykket ballbesittelse er heller ikke brukt under mine fire år som KFUM trener for å hvile
+med ballen i laget. Betydningen av fotball som en helhet er viktig å poengtere og spill mot
+etablert forsvar er kun en av flere faser i spillets helhet som jeg mener er viktig å mestre. Kan
+det gjøres noe med ferdighetene for å få til dette og kan det bringe resultater? Mine tanker
+dreier seg altså ikke om å være ballbesittende eller ikke men om å være
+gjennombruddsdyktig. Da må lag holde på ballen i gitte tilfeller med virkemidler som
+beskrives i oppgaven. Jeg har som trener forsøkt å tilnærme meg en stil hvor det ikke er
+motsetningsforhold mellom spillets faser, men at vi som lag kan mestre flest mulig av dem.
+Jeg anser denne fasen av spillet mot etablert forsvar som mer og mer viktig å mestre i
+dagens fotball. Hva er trenden internasjonalt? Internasjonalt fotball generelt og VM spesielt
+viser hvor god den defensive balansen og strukturen er i mange lag. Bør vi i lys av dette
+tilegne oss ferdigheter som kan møte den sterke defensive balansen? Dette mener jeg bør
+være et viktig tema under ferdighetsutvikling i alle norske fotballklubber. Det er et godt
+middel for å skape flere målsjanser, som du gjerne også vil skape på overganger/kontringer
+og dødballer.
+Jeg har gjennom fire år hatt gleden av å trene KFUMs A-lag. Det har under disse årene vært
+en sterk prioritet å opparbeide seg så gode individuelle og relasjonelle ferdigheter som mulig
+i en god lagstruktur for å kunne mestre spill mot etablert forsvar. Målet mitt for denne
+oppgaven er fortsatt på sikt å kunne bruke dette i videre treningsarbeid samt å belyse temaet
+så relevant som mulig så flere i min klubb kan få nytte av oppgaven på en enklest mulig
+måte.
+
+3
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+4) Sammendrag
+I spill mot etablert og delvis etablert forsvar, som er tema for denne oppgaven, vil jeg sette
+fokus på denne fasen av spillett og hva som har blitt vektlagt for å lykkes i den. Jeg forteller
+hvordan vi har gjort dette i KFUM fra 2007-2010 og gjort noen sammenlikninger med VIF
+som også har hatt dette på agendaen spesielt i 2010. Hva har dette gitt av resultater?
+Formålet med oppgaven er å få fram viktigheten av denne delen av spillet og ferdighetene
+som kreves. Resultatet av å få ferdighetene beskrevet i oppgaven muliggjør at man kan
+lykkes i denne spillfasen. Ferdighetene som beskrives er de individuelle ferdighetene, mann
+mot mann-egenskaper, og pasningsferdigheter. Det er relasjonelle ferdigheter som gjør at
+det blir et samspill og man må selvsagt også ha en struktur i laget samtidig som man tar
+hensyn til kampdimensjonen du blir utsatt for. Formålet med å utvikle spillere har vært at vi
+skal beherske flest mulig spillfaser. Vi skal ha best mulige ferdigheter selv slik at vi gjennom
+det kan få størst mulig påvirkningskraft på resultatet.
+I mine tre undersøkelsesspørsmål blir det beskrevet hvordan spill mot etablert og delvis
+etablert forsvar ser ut i praksis for KFUM og Vålerenga IF (VIF). Hvordan man bør tilegne
+seg ferdighetene og hvilke resultater dette har gitt. Ut i fra dette er det brukt både kvantitative
+metoder for å tallfeste data funnet spesielt gjennom videoanalyse og det er brukt kvalitative
+metoder ved observasjoner og egne erfaringer fra min tid som KFUM trener. Det er også
+benyttet dybdeintervju med VIFs hjelpetrener Andrea Loberto.
+Hvis du som trener ønsker å utvikle fotballag må det vurderes om dette skal få plass i
+trenerhverdagen din. Vil det gi treneren og laget flere muligheter i angrepsspillet? Det er flere
+veier til resultater og tilnærminger til spillet, men i utviklingsøyemed i Norge og i en
+breddeklubb som jeg representerte er jeg klar på at dette har vært framtidsrettet, effektivt og
+en utviklende stil for oss som klubb.
+
+4
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+5) Metode
+Tranøy (1985: 196) definerer metode som ”en fremgangsmåte for å frembringe kunnskap
+eller etterprøve påstander som fremsettes med krav om å være sanne, gyldige eller
+holdbare.” Vilhelm Aubert blir sitert i mange sammenhenger der det er spørsmål om hva
+metode er, og han formulerer det slik:” En metode er en fremgangsmåte, et middel til å løse
+problemer og komme frem til ny kunnskap. Et hvilket som helst middel som tjener dette
+formålet, hører med i arsenalet av metoder” (Aubert i Tranøy, 1985: 196).
+I denne oppgaven brukes en kombinasjon av både kvantitative og kvalitative metoder.
+5.1 Kvantitativ metode
+”Kvantitativ metode tar sikte på å forme informasjonen om til målbare enheter som i sin tur
+gir muligheter til å foreta regneoperasjoner, som det å finne gjennomsnitt og prosenter av en
+større mengde” (Dalland, 2007: 84). I denne oppgaven blir det vist til tallmateriale for
+hvordan mål har blitt scoret innenfor kategorien mot etablert forsvar, og prosentandelen av
+dette for både KFUM og VIF (primærdata). Det er også hentet inn tall fra FIFAs VM-analyse
+og ”Verdens beste-prosjektet” i regi av Toppfotballsenteret for å vise noen trender i VM
+(sekundærdata). Data som er samlet inn kvantitativt i denne oppgaven er med på å tallfeste
+hovedproblemstillingen, og jeg finner det relevant å bringe det på banen.
+5.2 Primær og sekundærdata
+Et annet grunnleggende skille
+går mellom primær- og
+sekundærdata. Primærdata er
+informasjon som vi samler inn
+selv. Markedsundersøkelser,
+eget regnskap, salgsstatistikker,
+rapporter, observasjoner eller
+intervjuer er eksempler på
+primærdata. Sekundærdata er
+informasjon som andre har
+samlet inn, som regel til andre
+formål. (Kunnskapssenteret: Kjetil Sander)
+5.3 Kvalitativmetode
+”Kvalitativ metode tar i større grad sikte på å fange opp mening og opplevelse som ikke lar
+seg tallfeste eller måle” (ibid: 84).
+I denne oppgaven er den kvalitative metoden data samlet i kontakt med feltet, i dette tilfelle
+KFUMs A-lag. Det er observasjoner av treninger, under og etter kamper (gjennom
+videoanalyse) over fire år. Dette er gjort som spillende trener de to første årene og som
+trener på sidelinja de to siste og er bygget på mine erfaringer. Med denne erfaringen vil jeg
+vise en sammenheng og helhet som gjør at fremstillingene i oppgaven vil bringe en
+forståelse rundt temaet. Jeg har også foretatt intervju med VIFs hjelpetrener Andrea Loberto.
+Intervjuet er foretatt uten faste svaralternativer.
+For utvelgelsen av data har det vært naturlig for meg å velge mitt eget lag ettersom
+kunnskapen ligger i første rekke der. Jeg ønsket også et sammenligningsgrunnlag, og valgte
+
+5
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+VIF til dette formålet. VIF har hatt mye av samme tilnærmingen til spill mot etablert forsvar i
+2010-sesongen. Det er et naturlig og strategisk utvalg av data som ikke har til hensikt å
+påvirke resultatet av oppgaven. Med strategisk utvalg menes: ”at en velger ut de personene
+som en tror har noe å fortelle om akkurat det fenomenet en er ute etter” (ibid: 91). Andrea
+Loberto er informant vedrørende data samlet inn hos VIF. En informant i denne
+sammenheng er: ”Vanlig betegnelse på den utforskede”(Heggem og Fjell 1998).
+Informasjonen er både spesifikk i den forstand at informanten beskriver spesifikke
+situasjoner og hendelser på en nyansert måte. Dette bør forstås som ikke-generelle
+meninger(ibid: 137).
+Av sekundærdata innenfor litteraturen har jeg benyttet meg av bøkene ”Effektiv fotball”
+(Olsen, Semb og Larsen, 1994) og ”Ferdighetsutvikling i fotball” (Bergo, Johansen, Larsen
+og Morisbak, 2002). Tall fra FIFAs VM-analyse og ”Verdens besteprosjektet”(Toppfotballsenteret 2010). For undersøkelsesspørsmål vedrørende trening har
+jeg brukt Trener III-oppgaven: ”1.angriperens ferdigheter” av Roger Finjord.
+5.4 Kildekritikk
+Vedrørende sekundærdata fra litteraturen fant jeg dette begrenset på området. ”Effektiv
+fotball” av Olsen, Larsen og Semb ble skrevet om hva som var effektivt for Norge fram til
+1994, og dreier seg for det meste om hvordan det norske landslaget opptrådte med noen
+sammenligninger til hva som var vanlig internasjonalt da. Prosentandelen scorede mål mot
+etablert forsvar ligger høyere i dag fra internasjonale mesterskap enn det gjorde 1994.
+Toppfotballsenterets ”Verdens beste-prosjekt” fant jeg relevant kun for å peke på noen
+trender i dagens internasjonale fotball. Boken om ferdighetsutvikling i fotball (Bergo,
+Johansen, Larsen og Morisbak 2002) skriver heller ikke mye om spill mot etablert forsvar
+men boken har til gjengjeld blitt brukt i oppgaven for å beskrive relevante begreper innen
+ferdighetsutvikling som var nødvendig for tema og oppgaven.
+5.5 Feilkilder
+Jeg har forsøkt etter beste evne å være så objektiv som mulig med denne oppgaven. I
+kommunikasjonen med Andre Loberto fikk jeg svar på det jeg ville undersøke og forutsetter
+at jeg har vært nøyaktig med notater gjort under og etter intervjuet. I videoanalysen av
+KFUMs mål i årene 2009 og 2010 er det analysert og observert flere ganger for å finne riktig
+kategori for målet som skal utgjøre en prosentandel. Utfordringen har gått på å skille hva
+som har vært spill mot delvis etablert forsvar etter ballerobring eller om har vært en
+overgang/kontring. Dette er gjort så objektivt som mulig.
+
+6
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+6) Problemstilling og undersøkelsesspørsmål:
+Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?
+
+For å belyse ovenstående problemstilling vil jeg i løpet av oppgaven besvare følgende
+undersøkelsesspørsmål. To casestudier, henholdsvis to fotballag, vil bli brukt som underlag
+for besvarelsen. Oppgaven belyser ikke bare spill mot etablert men også mot delvis etablert
+forsvar.
+
+1. Hvordan utarter angrep mot etablert forsvar seg for de to fotballagene?
+2. Hva gjøres i treningsarbeidet for å mestre angrep mot etablert forsvar?
+3. Hvilke resultater har angrep mot etablert forsvar gitt for de to fotballagene?
+
+6.1 Definisjoner og begrepsavklaring:
+Med ”spill mot etablert forsvar” menes spill satt i gang bakfra hvor motstanderlaget har alle
+spillerne på rett side av ball.
+Med ”spill mot delvis etablert forsvar” i denne oppgaven menes ball satt i gang etter
+ballerobring forutsatt at motstander ligger i balanse med midtbaneledd og forsvarsfirer og
+ikke nødvendigvis 11 mann, altså to pressledd. Begrepet balanse beskriver hvorvidt laget i
+forsvar har kontroll over situasjonen eller ikke. Det kan være grader av hvor god balansen er,
+og jeg har i undersøkelsen satt to krav. Motstander må ha sine to pressledd i riktige
+posisjoner på rett side av ball og de må være i numerisk balanse. Numerisk balanse betyr at
+det i en gitt situasjon må være minst like mange forsvarsspillere som angrepsspillere på riktig
+side av ballen. Det kan være små nyanse forskjeller på om det er spill mot delvis etablert
+forsvar eller om det er en overgang. Med overgang i mine data menes ubalanse hos
+motstander enten numerisk eller posisjonelt som utnyttes. Tas ikke overgangen vare på fordi
+spilleren har gjort et annet valg enn å utnytte denne og motstanderen har fått på plass
+forsvarsfirer og midtbaneledd har overgangen opphørt. Det er da i mine talldata spill mot
+delvis etablert forsvar. Spill mot delvis etablert kan også være igangsettinger ved innkast
+eller faste situasjoner hvor motstander ligger med to pressledd i balanse. Dødballer slått inn i
+boks som medfører scoring mot lag i balanse telles selvsagt som dødballmål.
+Når det gjelder casestudiene er det KFUMs A-lag jeg bruker som hovedunderlag for
+undersøkelsen. Det er fra mine fire år der som hovedtrener jeg sitter med mest informasjon,
+observasjoner og data. Jeg velger også å bruke VIF som en sammenlikning. Jeg er
+nysgjerrig på om det er en råd tråd i mellom VIF og KFUM ettersom VIF har hatt noe av den
+samme tilnærmingen til spill mot etablert forsvar i 2010.
+
+7
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+6.2 Avgrensning:
+Hovedfokuset er på denne spillfasen og hva som bør vektlegges for å lykkes. Innenfor
+treningsarbeidet vil det legges vekt på å beskrive ferdigheter som kreves og prioriteres.
+Individuelle og relasjonelle ferdigheter samt struktur og kampdimensjon. De individuelle
+ferdighetene som spesielt belyses er gode mann mot mann-ferdigheter offensivt og
+defensivt, og pasningsferdigheter. Det pekes også på noen internasjonale trender
+vedrørende temaet som ligger utenfor KFUM og VIF. Det har relevans for oppgaven å se hva
+de beste gjør i denne spillfasen for å se om det er noe å lære av dette.
+
+8
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+7) Datainnsamling og analyse
+I kapittel syv svares det på de tre undersøkelsesspørsmålene.
+1. Hvordan utøves angrep mot etablert forsvar for de to fotballagene? Jeg ønsker å
+dele det opp i noen kapitler for å belyse noen av spillsituasjonene.
+7.1 Tilnærming til angrep mot etablert forsvar i KFUM
+I KFUM har vi lagt spesielt vekt på å mestre spill mot etablert og delvis etablert forsvar. Vi
+mener det sier noe om ferdighetsnivået i laget og det gir oss større variasjon i angrepsspillet
+ved å også beherske denne fasen. Vi har i de fleste treningskamper under mine fire år møtt
+lag som er antatt sterkere enn oss eller som i utgangspunktet har hatt en høyere plassering i
+seriesystemet. Et bevisst valg for å få best mulig motstand når denne spillfasen skulle
+innøves. Det var god øving og det var ikke alltid dette gikk enkelt i starten. Jeg tok over
+spillere som hadde hatt en annen tilnærming til fotball de siste årene og i tillegg kom det opp
+mange nye unggutter fra juniorstallen som ikke var vant med dette nivået. De hadde derimot
+en ting til felles og det var at de var habile innendørsspillere. Det har alltid vært en kultur for å
+spille innendørsfotball i KFUM og de hadde snev av noen ferdigheter jeg mente var nyttig: de
+var ganske gode individuelt mann mot mann. Mange av disse spillerne har vokst opp rundt
+KFUM-hallen og hadde spilt mye fire mot fire siden barneårene. De hadde vært mye
+1.angriper og 1.forsvarer. I KFUM har det alltid vært spill mann mot mann i denne formen for
+aktivitet og aldri noen sonetilnærming. Her var det altså en kultur for noe. Jeg solgte inn mine
+ideer og tanker rundt trening og hvordan vi skulle få resultater også ute. Vi brukte
+innendørsfotballen hvor de allerede var gode som et fortsatt verktøy i treningen og i
+byggingen av en ny kultur, som også skulle slå til ute.
+Vi har under mine fire år hatt fire treninger i uken pluss en kamp i oppkjøringsperioden.
+Under sesong har vi trent 3-4 ganger i uka avhengig av når kampen falt på ukedagene.
+Treningshverdagen kommer jeg tilbake til.
+Vi har konsekvent spilt 4-3-3. Innimellom har vi hatt en annen konstellasjon på midtbanen
+hvor trekanten er snudd med to ”sittende” midtbanespillere i framfor en, men stort sett med
+ett anker og to indreløpere. Vårt mål fra første stund var å styre kampene på våre premisser.
+Det er vi som skal skape og ha dirigentpinnen når vi har ball. Og dette har etter min mening
+ikke noe motsetningsforhold mot også å kunne straffe motstander i ubalanse i en overgang.
+Noe de var godt vant med på forhånd.
+Isolerte metoder jeg kommer inn på i oppgaven er kun fastsatte rammebetingelser(vi kaller
+det knagger) i spillet hvor vi opptrer i ulike roller. Det interessante er når disse knaggene
+opphører eller rollene og mønsteret ikke fungerer lenger. Da har tilnærmingen fortsatt gått på
+å utvikle individuelle ferdigheter om og om igjen satt i et system med relasjoner. Man kan i
+prinsippet forsvare seg mot alt og man vil alltid møte lag som byr på problemer. Da har vi
+fortsatt med å strebe etter de ferdighetene som gjør at vi lykkes så ofte som mulig i spill mot
+etablert og delvis etablert forsvar. Ved å være individuelt god avgjør det også ofte kamper
+når pasningskollektivet ikke sitter og terreng ikke vinnes.
+
+9
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+7.2 Igangsetting bakfra:
+Vi har hatt to keepere under disse to årene som begge har vært i besittelse av et godt
+pasningsbein. Det har gått utmerket å bruke keeperne som vendingsspillere og de har vært
+delaktige i vårt spill.
+Ved igangsetting bakfra har vi gått ut bredt med begge stopperne og skyvet backene fram på
+begge sider. På den måten trekker de med seg, forhåpentligvis, motstanderens kanter. Når
+vi har spilt hjemme på Ekeberg har de fleste av våre motstanderlag spilt med en spiss. Da
+blir jobben for tung å skulle løpe mellom to stoppere med god avstand. På den måten vil en
+av stopperne bli frispilt for å vinne terreng framover i banen. Vårt anker ligger godt plassert
+mellom stopperne som både en sikring og spillpunkt. Stopper som nå er ballholder vil se
+etter følgende punkter:
+1. Overtallssituasjon med vår back. Motstanders første press etter å ha kommet forbi første
+pressledd(spiss) er ofte kantspiller. Denne kommer i et dilemma om han skal bli ved sin kant
+eller prøve å vise seg mot vår stopper. Stopper oppsøker motstanders kant. Pasning(gjerne
+ytterside) til back og vi vil være inne i mellomrommet på siden.
+2. Fot på motsatt indreløper(motsatt av ballside)som krysser inn i mellomrom hvor indreløper
+på ballside har tatt motsatt bevegelse. Motsatte bevegelser inn i mellomrom.
+3. Opp på spiss som kommer over på ballside for så å distribuere til rettvente
+midtbanespillere.
+4. Stopper slår direkte i bakrom enten på spiss eller indreløper. Særlig aktuelt når enten
+midtbanespiller eller spiss kommer i rommet foran stopper på ballside. En av de nevnte
+oppsøker bakrom på ballside. Det er en første- og en andrebevegelse som gjør denne
+gunstig. Og som regel velger vi andrebevegelsen. Dette avhenger av den enkelte spillers
+valg.
+5. Inn på anker for vending av spillet eller i verste fall vender vi hjem og starter på nytt til
+åpningen kommer. (Avventende) Illustrasjon 7.1 for nevnte fem punkter.
+Sjelden eller aldri slår stoppere direkte i bakrom kant på sin side eller lang ball motsatt.
+Grunner til det: Langpasning motsatt bruker for lang tid når stopper er så bred. Motstander
+rekker både å skyve laget etter og å lese pasningen. På kant samme side blir pasningsvinkel
+for dårlig.
+
+10
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.1. Igangsetting bakfra mot etablert forsvar. Ballfører merket sort og alternativer
+i blått.
+
+Illustrasjon 7.2 Igangsetting bakfra mot motstander som benytter to
+spisser.
+
+Midtstopper på ballside merket i sort. Involverte alternativer merket blått med forklaring
+under:
+Illustrasjon 7.2: Opptrer motstanderlaget med to spisser gjør vi det samme med stopperne
+som mot en spiss: Ut bredt med stoppere for å lage størst mulig avstand for de to spissene å
+løpe på og vårt anker slipper seg ned for å bli spillbar. Back på ballside går ikke like høyt for
+å dra med seg motstanders kant. Vi har prioritert en større balanse i laget ved et eventuelt
+
+11
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+balltap og holder backen noe lavere. Midtstopper(merket sort) skaper pasningsvinkel med
+back og anker. Går ikke kort variant ser vi etter alternativer lenger fram i banen hvor motsatt
+indreløper eller spiss involveres. Keeper blir også mer delaktig for eventuell vending av
+spillet. Den korte varianten kan være mer risikofylt men lykkes denne første fasen ved å
+passere første pressledd(de to spissene) kan gevinsten ved å møte en midtbane firer i stedet
+for en femmer være gunstigere med tanke på å komme seg forbi neste
+pressledd(midtbanen). Klima i kampen avgjør hva valgene blir mht igangsetting mot to
+spisser. Vi bruker ofte langpasningen på utspill hvis vi føler motstander ikke tillater oss å
+sette i gang. Vi utnytter vår midtspiss` spisskompetanse i luftrommet og i mottaksfasen. Å
+bruke langpasningen har mange fordeler. Jeg mener dette gir større variasjon å benytte seg
+av både langpasningen og spill gjennom midtbane. Avgjørende er hva som lønner seg og
+hva som kan være hensiktsmessig i kampdimensjonen. Jeg var mer tilhenger av det lange
+oppspillet enn mine spillere av den enkle grunn at jeg mente etableringen på motstanders
+halvdel kunne skje hurtigere når klima rundt ballen gikk til vår fordel. Vi har vunnet både
+mark og spart tid. Dette avhenger selvfølgelig at 2.ball jages og at man har fylt opp i riktige
+soner. Man vil alltid møte en kampdimensjon hvor oppspillmønsteret ikke lykkes. Hva er det
+da som skjer i den såkalte kampdimensjonen:
+7.3 Kampdimensjon:
+”Forholdet til spillere på motstanderlaget er like karakteristiske for fotballspillet som forholdet
+til med spillerne. Motstanderne virker på den ene siden begrensende på de muligheter vårt
+lag har, men samtidig kan motstanderlagets reaksjoner gi oss nye muligheter.” ( Bergo,
+Johansen, Larsen og Morisbak, 2002: 100.)
+Poenget for oss har vært å strebe så mye etter individuelle og relasjonelle ferdigheter slik at
+motstanderen i minst mulig grad klarer å begrense mulighetene for vårt lag. Beskrivelse av
+individuelle og relasjonelle ferdigheter blir beskrevet under undersøkelsesspørsmål to.
+Det er spillsituasjoner i kamp som oppstår når kampdimensjonen hindrer oss i opptegnede
+igangsettinger. ”En spillsituasjon omfatter en spillsekvens som kan betraktes som en enhet
+ut fra vår forståelse av spillet, og som i hvert enkelt tilfelle kan avgrense ut fra funksjonelle
+hensyn.” (Rognlan 2008) Dette har for KFUM i stor grad blitt løst av lagets midtbane som
+definitivt har vært lagets beste lagdel og største styrke. Midtbanespillerne har vært individuelt
+veldig gode fotballspillere i norsk 2.divisjon. Disse tre har spesielt gode relasjoner til
+hverandre. Christoffer Dahl med Tippeliga-erfaring, Erik Jonvik har nylig gått til Sarpsborg 08
+for spill i Tippeligaen, og Stian Sortevik, som er goalgetteren og lagets nummer 10. Alle er
+KFUM-produkter. Det blir i disse spillsituasjonene spilt mye på fot hvor de tre nevnte
+spillerne er involvert med stor bevegelse. Vi har et mål om å ”slite” i motstanderen, og få
+motstander til å løpe etter for at vi skal kunne utnytte rom i deres ubalanse og dermed få et
+gjennombrudd. Når pasningsforbindelser opphører og du er satt under press er det en
+individuell ferdighet som har vært viktig for oss, og det er å være en god 1.angriper. Eller
+”god mann mot mann offensivt” er utrykket vi bruker. Her handler det om en ferdighet i spillet
+som dreier seg om å ta av press. Når vi blir overlatt til oss selv og satt under press ønsker vi
+å komme i en bedre spillsituasjon.
+Illustrasjon 7.3: Sort ballfører er satt under press. Vi vil skape en ny spillsituasjon til fordel
+for laget. Dette kan skje ved en dribling eller et retningsbestemt første mottak hvor sort kan
+ta med ball ut i ledig rom eller skjerme ball til pasningsforbindelse gjenopprettes. Ved en
+
+12
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+dribling er det ofte 1.angriper i disse situasjonene som selv har valgt å oppsøke 1
+forsvareren.
+
+Situasjonen i illustrasjon 7.3 kan også oppstå etter ballerobring på midten hvor vi har to
+pressledd(midtbane og forvar hos motstander)) igjen i balanse i en 4-5 formasjon. Spissen
+på motstanderlaget utøver ikke press mens motstanders midtbanespiller støter. Vårt anker er
+satt under press og som venstrebeint anker er det et ønske om å skaffe seg nok tid og rom
+for både å slå motsatt eller kort på fot. Vi våger å spille på markert midtbanespiller. Vi har
+trent på det og er komfortable med det. Det er forskjell på press som utøves mot dette. Det
+er derfor situasjonsavhengig press som avgjør om vi tar risikoen. Gevinsten for oss har vært
+større enn hva vi har fått i mot oss på overganger under disse fire årene. Vi har hatt svært få
+balltap på sentrale midtbanespillere som har ført til store målsjanser for motstanderen.
+
+7.4 Gjennombrudd.
+”Et gjennombrudd oppnås når det ene laget spiller ballen forbi en eller flere motspillere i
+banens lengderetning. Dersom ballen går til en medspiller som får kontroll, er
+gjennombruddet vellykket. Gjennombruddet blir dermed en forutsetning for scoring, og
+scoringen er det totale gjennombruddet.” (Bergo et.al., 2002: 54)
+Vi har hele tiden et ønske om å vinne mark for å komme til gjennombrudd.
+I begrepet gjennombrudd er tålmodighet en vesentlig faktor for KFUM. Vi er alle enige om:
+”For at laget skal oppnå et vellykket gjennombrudd må flere faktorer være til stede samtidig.
+Angrepslaget er avhengig av gode posisjoner, god bevegelse og spillere med
+hensiktsmessig teknisk repertoar. I tillegg er laget avhengig av at verken motstander,
+misforståelser, manglende initiativ eller tilfeldigheter ødelegger gjennombruddet.” ( Bergo
+et.al., 2002: 54.)
+Jeg har en subjektiv oppfattelse av at vi i Norge har tendert til en gjennombruddshissig
+spillestil og at ballen skal i lengderetningen fort og ofte. I KFUM er det lov å spille på tvers og
+
+13
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+bakover hvis dette kan gi oss gjennombrudd i neste eller senere spillsituasjoner. På tvers og
+i støtte er mye brukt hos oss med tanke på hva som kan skje i en senere fase av spillet. Det
+er definitivt brukt for å avvente gjennombrudd. Vi må ikke bryte igjennom hvis situasjonen
+ikke anses som god nok, og velger da å bevare ballen. Vi ønsker å holde gjennombruddet til
+det er en oppstått ubalanse hos motstander. Dette er hele tiden en kamp om å finne gunstige
+rom. For meg er det å være gjennombruddshissig ikke det samme som å være
+gjennombruddsdyktig. Vi benytter oss av gjennombrudd når muligheten er til stedet og
+ansees som god nok. Tålmodighet er en nøkkel for oss og kan være problematisk å forklare
+utenforstående som ikke er en del av kulturen i KFUM. Vi må bruke tid på nye spillere som
+kommer til klubben før dette blir adoptert. De har vært vant med en hissigere tilnærming til
+gjennombruddet og har tatt andre valg tidligere. Det hører med til fakta at også gode
+overganger kan gå til spille fordi det har blitt tatt feil valg på lik linje med en som er for hissig
+på gjennombruddet og slår ballen til motstander.
+I et tålmodig spill brukes mye vending av spillet for å kunne utnytte overtallssituasjoner, eller
+komme seg inn i gunstige rom for å få til gjennombruddet. Er kampdimensjonen kommet dit
+at motstanders balanse og forsvarsspill er relativt sterk har vi tre innøvde trekk som vi prøver
+å falle tilbake på når vi stanger. Når motstanderen ligger lavt med to ledd i god balanse(mot
+delvis etablert) og med god forflytningsevne kan det være stengt i et mellomrom. Vår spiss
+kan være godt pakket inn og bakrommet mulig for snaut å slå i eller dette kan være halt
+ettersom nesten alt av kamper går på kunstgress. Visse typer kunstgress er hurtigere enn
+andre og det må tas hensyn til om det har regnet. Våger vi bakrommet allikevel?
+1. Variant en(illustrasjon 7.4) er litt avhengig av spillertyper vi har brukt. Vi har
+konsekvent brukt varianten mot venstrekant og noen ganger også mot høyrekant
+avhengig av hvem vi har hatt til disposisjon. Venstre kant har ekstrem fart og to
+sentrale midtbanespillere har gode pasningsbein. Kun de to midtbanespillerne skal
+slå disse gjennombruddsballene. Christoffer Dahl og Erik Jonvik er merket i sort. Er
+løp timet sikter våre to pasningsleggere bak stopper. Den pasningen bør mottas på
+kropp av kant Cato Valøy og har vist seg å være et godt våpen for oss. Er den for
+lang sklir det inn til keeper. Vi må her regne med at firer faller så timingen er vesentlig
+på løp, pasning og medtak. Det bryter opp mønsteret litt i spillet og alt foregår ikke
+foran motstander pressledd.
+2. Variant to(illustrasjon 7.4) går på det samme mot høyre men på back som kommer
+bakfra. Kant trekker med seg (forhåpentligvis) motstander back inn og åpner opp for
+vår back som også har stor fart. Kant høyre side er innleggskant som får ball mye på
+fot og vedkommende har heller ikke samme fart og brukes derfor ikke for denne
+innøvde rollen. Dette forutsetter en kampdimensjon som tillater dette. Kun Christoffer
+Dahl og Erik Jonvik som slår pasningene i dette tilfellet også. Uansett om det leses av
+motstander og ikke lykkes hver gang for KFUM blir det ubehaglig å forsvare seg ved
+at du får spill bak motstanders forsvarsfirer. Og vi skaper variasjon som er mindre
+forutsigbart i tillegg til at du kan få gunstige gjenvinninger.
+
+14
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.4: Spill mot delvis etablert forsvar med innøvde trekk. Pasningsleggere merket
+sort.
+7.5 Vending av spillet.
+(Illustrasjon 7.5) Back vender inn på midtbanespiller som i dette tilfelle er den venstrebeinte.
+Dårlig situasjon på høyre side for oss da motstander dekker rom og er i god balanse.
+Ballsentral(sort)skaffer seg plass til å slå motsatt. Alternativene er kant eller back motsatt
+eller eventuelt et mellomspill på neste midtbanespiller sentralt i banen. Spiller avgjør hva
+som er hensiktsmessig. Vi ser vår venstre back kan både overlappe eller gå mellom back og
+stopper på motstanderlaget. Indreløper motsatt går også inn i farlig rom for alternativ etter at
+kant/ breddeholder har mottatt ball. Mange bevegelser samtidig. Back på ballside etter
+vending ser vi kryper hjem for å opprettholde bedre balanse i laget. Å velge rett tidspunkt er
+avgjørende for utfall og mulighet for gjennombrudd. Uten overtall og motstander i god
+balanse vender vi på nytt. Kommer vi i en situasjon hvor vi kan spille en mot en på kant kan
+vi allikevel ta sjansen spesielt om vi er i fart. Da blir det 1.angripers ferdigheter som avgjør
+utfallet.
+
+15
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.5: Skape overtall og utnyttelse av rom ved hjelp av hurtige spillvendinger.
+
+Denne fasen i spillet vårt har vært meget effektiv. Mange mål og sjanser har kommet etter
+spillvending mot delvis etablert forsvar. Merk da at det kommer flere mål mot delvis etablert
+enn etablert (se tallmateriale i undersøkelsesspørsmål tre). Igangsetting bakfra får ikke like
+gode statistikker som ballerobringer på banen. Ballerobring på banen forutsetter at
+motstander er i balanse med to pressledd og har lagt igjen en eller to spisser i det defensive
+arbeidet da erobringen eller angrepet starter. I de situasjonene hvor erobringer fører til
+utnyttelse av ubalanse enten numerisk eller posisjonelt og gir gjennombrudd og scoring, er
+dette talt som overgang.
+
+7.6 Gjenvinning:
+Det finnes i litteraturen ingen god definisjon på dette. For oss i KFUM handler gjennvinning
+om å vinne tilbake ballen så hurtig som mulig etter balltap. Det kan i utgangspunktet gjøres
+over hele banen men har hatt et ekstra fokus høyt i banen ettersom vi oftere har balltap der
+og er nærmere motstanders mål. På egen halvdel spilles det på større sikkerhet og inntreffer
+sjeldnere, men har selvsagt like stor betydning for oss. Vi kan ha holdt ballen en periode for
+så å miste den. Vi jager så hurtig som mulig for å vinne ball raskt tilbake. Hvis vi har hatt
+mange rundt ball når balltapet inntreffer har det vært enklere å vinne igjen ballen. Vi har ofte
+etter vellykkede gjenvinninger korte avstander mellom spillerne. Det skyldes at vi er godt
+representert med spillere i det nærområdet vi spiller og mister ballen i. Dette er en
+ustrukturert form for forsvarspill som har betydning for fortsatt angrepsspill. Ser vi at det ikke
+vil lykkes med gjenvinning kommer vi så hurtig som mulig inn i formasjon og får flest mulig
+spillere hjem på rett side av ball inn i en strukturert form.
+I vår første sesong i 2.divisjon fryktet vi problemer defensivt spesielt på bortebane. Dette
+som følge av treningsresultater spesielt på bortebane. Vi satte fokus på å etablere oss på
+motstanders halvdel og med et voldsomt fokus på gjenvinning. Vi ønsket ikke motstander inn
+på vår halvdel med dødballer, lange innkast i boksen og ville eliminere dette så tidlig som
+mulig. Vi ble det laget i 2.divisjon i 2009(delt første plass) som slapp inn færrest mål på
+
+16
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+bortebane og vant like mye borte som hjemme. Gjenvinning får en del av æren for dette for å
+kunne fortsette lengre angrep. Vi kunne forsette angrepene våre og mange mål som ble
+scoret for oss i 09/10 kommer som følge av gjenvinning. Noen som en tellende overgang
+hvis det øyeblikkelig straffet en ubalanse og førte til scoring. Ballvinningene kunne også bety
+fortsatt spill eller scoring mot delvis etablert forsvar hvis ubalansen oppsto på et senere
+tidspunkt etter gjenvinning. Da var vi avventende og holdt ball til ubalanse inntraff.
+
+7.7 I faglitereturen.
+”Et angrep mot etablert forsvar har som utgangspunkt at laget kontrollerer ballen fortrinnsvis i
+eget bakre ledd eller i midtbaneleddet. Angrepet kan enten starte med en dødball i
+forsvarssonen eller midtsonen eller ved at ballen vinnes i spill og vi får kontroll i bakre leddkeeper inkludert. Motstander vil i slike situasjoner nesten alltid være i balanse- både
+posisjonsmessig og tallmessig.” (Olsen, Semb og Larsen, 1994: 49)
+I “Effektiv fotball” skrives det noe om spill mot etablert forsvar. Det formidles hvordan Norge
+spilte mot etablert forsvar på 90-tallet og det formidles subjektive inntrykk av trender fra VM
+1994 (Olsen et. al., 1994: 117) bortsett fra det som er tallfestet av hvordan mål scores
+statistisk i store turneringer. Scoringer ved ulike typer angrep i ”breakdown”, dødball og
+lengre angrep. I boken har ”breakdown” en overvekt av scorede mål på over 40 prosent i de
+fire siste store internasjonale mesterskapene før VM i 1994. Mens mål etter lange angrep lå
+helt nede i 17,6 prosent på det laveste i EM 1988. Med breakdown menes angrep som
+starter med en ballerobring i spill der vi utnytter eller skaper ubalanse under angrepets
+gang.(Olsen et. al., 1994: 91) I boken nevnes noen årsaker til hvorfor ikke langeangrep
+benyttes så hyppig i Norge:
+1. Krever store individuelle ferdigheter i nærrom spesielt mot balansert forsvar. Ingen tvil
+om at vi har et stykke igjen til topp internasjonalt nivå på slike ferdigheter.
+2. Soneforsvar og ulikt press gjør det vanskelig å være ballbesittende over tid.
+3. Kvaliteten på norske fotballbaner er ujevn i deler av sesong.
+4. Soneforsvar kan øke antall ballerobringer i gunstige posisjoner på banen.
+Boken ble skrevet i 1994 og punkt tre kan for KFUMs del forkastes. Grunnen til det er at flere
+og flere lag går over til å spille på kunstgress. Vi har i 2.divisjon på våre to sesonger nesten
+85 prosent av kampene på kunstgress. Da blir kvaliteten på banene heller unntaket hvis vi
+skal legge opp stil etter forholdene.
+Hvilke ferdigheter i nærrom siktes det til? Dette belyses under treningsarbeid i
+undersøkelsesspørsmål 3 i denne oppgaven.
+Tallmateriale fra sist VM utgjør andre data enn da ”Effektiv fotball” ble skrevet når det gjelder
+hvilke type mål som scores, og balansen i forsvarsspillet har en sterk trend i dagens
+internasjonale fotball.
+Nedenfor vises et par trender fra sist VM i Sør Afrika.
+
+17
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+• Overgang
+40 mål (27,6%)
+• Etablert angrep 62 mål (42,8%)
+• Dødball
+43 mål (29,6%)
+
+Tallene har forandret seg siden 1994 og analysen viser overvekt av mål i etablerte angrep.
+
+18000
+
+16000
+
+14000
+
+12000
+
+10000
+
+8000
+
+6000
+
+4000
+
+2000
+
+0
+God balanse
+
+Viss ubalanse
+
+Ubalanse
+
+Lagene er i god balanse ved brudd i mot. Tankene fra 90-tallet om at lange angrep fikk
+mindre oppmerksomhet i framtiden grunnet godt soneforsvar og ulikt press har utviklet enda
+bedre ferdigheter til å møte god balanse i dag. Balansen og forsvarsspillet er høyt prioritert i
+dagens internasjonale fotball og ubalanse må skapes mot lag i balanse og da lønner det seg
+å ha ballen i følge FIFA. (VM-analysen, FIFA.)
+
+18
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+I KFUM har angrepsspillet vært forbundet med å være gode i forsvarsspillet i spillfasen mot
+etablert forsvar og delvis etablert forsvar. Det å utvikle gode 1.forsvarere som ordner opp en
+mot en og som mestrer hurtige gjenvinninger er vesentlig for å kunne angripe på nytt.
+Effektivt forsvarsspill er grunnlaget for gode angrep(Olsen et. al.,1994: 99). 1.forsvarer blir
+stadig dyktigere er et utviklingstrekk i 1994 og i følge forfatterne blir de hyppigere 1.angriper i
+påfølgende angrep. En tendens som fortsatt har stor relevans for KFUM sitt spill og filosofi.
+Ved å utvikle gode 1.forsvareere muliggjør du som lag å kunne angripe oftere. Trenden fra
+1994 er vedvarende og har relevans også for dagens toppnivå, og for KFUM.
+”Effektiv fotball” kategoriserer lange angrep og sier følgende: ”Vi bør nevne at ikke alle lange
+angrep starter med igangsetting i forsvar eller midtsonen. Noen angrep kan naturligvis starte
+i angrepssonen, enten ved at ballen vinnes i spill eller ved dødball” (Olsen et. al.,1994: 50).
+Denne type angrep går altså under kategorien lange angrep eller spill mot etablert forsvar
+som en helhet i boken ”Effektiv fotball”. Det ble gjort interessante funn fra 1994 hvordan mål
+ble scoret. ”De fleste scoringer kommer etter 0-3 trekk, og bare noen få etter 5 pasninger
+eller mer. Det er grunnlag for å hevde at jo flere pasninger, desto mindre sannsynlighet for å
+score”(Olsen et. al.,1994: 51). ”Effektiv fotball” oppsumerer slik: ”De fleste scoringer kommer
+etter svært få trekk, kun en liten andel inneholder 5 trekk eller mer. Perioden forut for
+scoringsperioden har også få trekk” (Olsen et. al.,1994: 53). ”Tar vi hensyn til dette så bør vi
+prioritere en angrepsoppbygging basert på gjennombruddshissighet”(Olsen et. al.,1994: 53).
+Hva sier disse dataene i dag, data funnet hos KFUM, VIF og trender internasjonalt? Dette
+belyses under undersøkelsesspørsmål tre.
+
+7.8 VIF:
+Etter dybdeintervju med Andrea Loberto (hjelpetrener VIFs A-lag) og tilgang på VIF sine
+ressurser og data fra 2010 sesongen finner vi mange likhetstrekk mellom VIF og KFUM
+foruten at begge havnet på 2.plass i 2010.
+Hva gjorde VIF annerledes kontra 2009 sesongen? I 2009 hadde VIF prøvd gjennom
+vinteren på dårlig treningsmotstand å mestre spill mot etablert forsvar og lyktes med dette.
+Dette ga en falsk trygghet. Da sesongen endelig startet viste det seg at de ikke mestret
+denne fasen allikevel og forandret formasjon og kampstrategi umiddelbart. De innså at de
+ikke hadde nok ferdigheter i laget og et noe for svakt spillermateriell. VIF gikk over til en
+taktisk variant som de da mente ville bringe bedre resultater. De gikk over til en 4-5-1
+formasjon med lavt press og satset på kontringer og dødballsituasjoner som fremste våpen.
+Hva skjedde så inn mot 2010 sesongen?
+Det hele startet med treningsarbeidet. Hovedtrekkene som nevnes er følgende:
+-
+
+-
+
+Alle ballbesittelses-øvelser ble gjort på smalere/mindre baner. De skulle lære seg og
+hanskes med et høyere tempo i forhold til tid og rom. De skulle bli mer forberedt i
+trange situasjoner og skulle oftere forvente å motta ball.
+Alltid struktur i smålagsspill hvis antallet var fem eller flere. Trenerne ønsket å innføre
+formasjoner av dette for å bygge relasjoner mellom spillerne.
+Powerplay/spill mot etablert forsvar som struktur trening ble mer vektlagt i 2010.
+I strukturtreningen mot etablert forsvar har trenerne hatt større fokus på rolletrening
+for å bygge bedre relasjoner mellom spillerne og å rive i motstanderen(få de til å løpe
+
+19
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+etter) for å skape overtallssituasjoner og utnytte ubalansen som oppstår som følge av
+dette.
+
+Andrea Loberto peker også på kontinuitet som en viktig faktor. På grunn av
+rammebetingelsene i klubben ble det ikke gjort store utskiftninger før 2010. Det viste seg å
+være et smart trekk fra klubben i følge Loberto, selv om trenerteamet i utgangspunktet ville
+forsterke laget.
+De fikk kjøre med nesten samme 11er i en 4-2-3-1 formasjon. Stefan Strandberg kom tilbake
+fra utlån og forsterket laget.
+De spillerne som tok mest utvikling av treningen og gjorde store framskritt for VIF nevnes
+blant annet Andre Muri, Stefan Strandberg og Luton Shelton. I tillegg ble Harmet Singh mer
+stabil. Kristofer Hæstad fant formen og holdt seg skadefri, det samme gjorde Mohammed
+Fellah som spilte sin første hele sesong etter beinbruddet.
+Hva gjør VIF mot etablert forsvar eller delvis etablert forsvar? Har de retningslinjer i spillet
+eller går det mye på individuell frihet? De har et helt klart syn på sin igangsetting bakfra og
+dette er nøye opptegnet på forhånd.(Illustrasjon 7.6) Jeg bemerker at det er for dem som for
+oss at kampdimensjonen ikke alltid tillater denne igangsettingen og at man da må ty til andre
+hensiktsmessige valg og benytter da langpasningen mot etablert forsvar.
+Mot delvis etablert har VIF til hensikt å rive opp motstander for å bruke deres uttrykk. Det
+betyr at de vil at motstander skal jage ball uten å oppnå ballerobring og VIF ønsker å utnytte
+ubalansen som oppstår.
+VIF har et fast grunnspill de søker om kampdimensjonen blir for tøff og de ikke lykkes
+sentralt i banen eller med å skape ubalanse. Deres tre kjernepunkter er:
+-
+
+-
+
+Finne overtallsituasjoner ved hjelp av hurtig spillvendinger.
+Luton Shelton. Illustrasjon 7.7. Shelton skjærer inn selv om bakrommet er begrenset
+for å motta ball bak stopper på ballside. Da skal pasningen slås på kropp. Dette er
+akkurat det samme som KFUM gjør mot sin hurtige venstre kant. Ulikheten er at vi
+har to faste spillere som slår disse gjennombruddsballene, hos VIF er det ingen
+begrensninger. Alle kan slå dette gjennombruddet. Av personlig erfaring er jeg ikke
+tilhenger av det. Så mange gode pasningsleggere på halvt liggende vrist finnes ikke i
+KFUM og muligens heller ikke VIF, og du får forsøk av spillere som er bedre på noe
+annet og strengt tatt ikke bør slå.(Subjektivt observert)
+Mange samtidige bevegelser og framfor alt å lete etter 3.manns bevegelse i bakrom
+gjort av indreløper. Illustrasjon 7.8.
+
+20
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.6: VIF igangsetting mot etablert forsvar.
+
+Midtstopper merket sort (Illustrasjon 7.6)slår mot back. Motsatt stopper følger inn i rommet
+mellom motstanders spisser og midtbaneledd for å motta pasning og delta i et overtallsspill
+på midtbanen. Back motsatt skyver for en tettere backtreer. Denne varianten syntes trenerne
+har fungert bra og de er ikke så komfortable med varianten vi bruker i KFUM med høye
+backer og to brede stoppere. Den har vært forsøkt i VIF også uten helt og lykkes med den.
+VIF-varianten krever god timing fra midtstopper når denne skal gå og pasning må være
+avpasset etter løpet. En av stopperne til VIF kan også komme opp i en senere fase av spillet
+når midtbanespillerne har skaffet seg ballkontroll. De fyller da på med en ekstra spiller
+sentralt for å oppnå overtallssituasjoner.
+
+21
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.7: Venstrekant Shelton har startet. Midtbanespiller slår
+gjennombruddspasningen. Det kan være lite bakrom å slå i her hvis ikke pasning er nøyaktig
+og helst på kropp. For langt slått vil keeper kunne lese. Dette er et godt trekk med ekstrem
+fart på kant når bakrom tilsynelatende ikke er tilstede.
+
+Illustrasjon 7.8: 3.mansbevegelse. Indreløper har oppsøkt bakrom. Flere bevegelser
+samtidig hvor både spiss og kant kan ha gjort bevegelser i forkant. Denne langpasningen har
+sin begrensning hvis mottaker(indreløper) skal motta pasning uten at dette fører til duell eller
+at motstanders forsvarsfirer leser pasningen. En forutsetning blir at langpasningen ikke kan
+bruke for lang tid i lufta. Ergo vil denne varianten være gunstigere fra en midtbanespiller enn
+fra bakre firer.
+Spillernes valg går mye på å følge strukturen de har lagt opp til spesielt ved vending av spill
+for å lete etter gunstige rom og overtallsituasjoner. Det tas selvsagt også mange
+selvstendige valg utenfor et mønster. Mohammed Fellah er kanskje den største eksponenten
+for det.
+2. Hva gjøres i treningsarbeidet for å mestre angrep mot etablert forsvar? I dette
+undersøkelsesspørsmålet beskrives det hvordan vi har trent i KFUM for å bli bedre
+mot etablert forsvar.
+I ”Effektiv fotball” står det følgende vedrørende lange angrep eller spill mot etablert forsvar:
+”Krever store individuelle ferdigheter i nærrom spesielt mot balansert forsvar. Ingen tvil om at
+vi har et stykke igjen til topp internasjonalt nivå på slike ferdigheter”. (Olsen et. al.,1994:
+)Dette er en erkjennelse fra forfatterne. Jeg som trener i en breddeklubb med tilgang kun
+stort sett til egenproduserte spillere har et litt annet utgangspunkt og har mulighet til å utvikle
+egenskaper som gjør oss skikket til å mestre spillestilen på vårt nivå. Vi kan og bør utvikle
+gode fotballferdigheter. Et landslag som Norge har et litt annet utgangspunkt og må ta det
+som er ferdig utviklet og vil ikke rekke å utvikle spillere i samme omfang. Dette må skje i
+klubbene.
+
+22
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Med fotballferdigheter menes: ”Fotballferdighet er hensiktsmessige handlingsvalg og
+handlinger for å skape og utnytte spillsituasjoner til fordel for eget lag.” ( Bergo et.al.,
+2002:50.)
+Treningshverdagen og spillerne er en avgjørende faktor for hvor mye du vil klare å oppnå
+vedrørende denne fasen av spillet. Du må råde over gode spillere og du må utvikle spillere til
+å bli så gode som mulig individuelt og relasjonelt for å beherske dette. Er de ikke gode nok i
+utgangspunktet vil du som trener stå overfor et dilemma om du skal være kortsiktig
+resultatorientert eller om du skal være utviklingsorientert over tid, som på sikt vil kunne gi
+enda bedre resultater. I KFUM så vi at stilen var krevende det første året i forhold til at du
+trenger en hvis type av ferdigheter. Jeg var i en klubb som ikke var bortskjemt med resultater
+og fikk derfor velge en utviklingsorientert vei i fred og ro. Dette handlet om variasjon for meg
+som trener og å ha flest mulig strenger å spille på når du skal ut å konkurrere. Av erfaring fra
+egen spillerkarriere var de fleste trenere jeg hadde livredde for å ta risiko. Da
+poengsankingen begynte (eller uteble) på våren, ble det vi trente på om vinteren plutselig
+glemt og systemer ble skiftet til en mer defensiv tilnærming. Overganger, dødballer, 4-5-1 og
+stramt soneforsvar ble dyrket. Mulig vi rykket ned, berget plassen eller til og med rykket opp.
+Må det være enten eller? Ble vi bedre individuelt av frykten for å feile og heller straffe
+motstanderen samtidig som vi elegant dekket over våre egne mangler.
+Den viktigste årsaken for vår utvikling har vært spesifisitetsprinsippet. ”Spesifisitetsprinsippet
+innebærer at det må være størst mulig likhet mellom treningen og den idretten man trener
+for. For fotball betyr det at fotballkampen er grunnlaget, og ferdighetsutvikling må ta
+utgangspunkt i den. Fotballtrening som ivaretar alle de fire dimensjonene ved
+fotballferdigheten, vil således være en god måte å drive ferdighetsutvikling på.” ( Bergo et.
+al.,2002: 79) Vi har vært kyniske og på ingen måte gått igjennom hele læreboka. Vi har trent
+på de samme tingene over en periode på fire år med en variasjon, men med samme formål.
+Så kan man naturligvis diskutere hvor mye av de fire ferdighetsdimensjonene man skal
+vektlegge i hvilken grad. Hva får størst plass hos KFUM?
+Vi begynner med den viktigste: Den individuelle ferdighetsdimensjonen. ”En fotballkamp
+består av en mengde situasjoner som hele tiden tvinger hver enkelt spiller til å løse nye
+oppgaver. Den individuelle ferdighetsdimensjonen blir derfor et karakteristisk trekk ved
+fotballkampen”. ( Bergo, et. al., 2002: 94.)
+Jeg har vært helt klar på at om vi skal utvikle oss som spillere og som lag, må hver enkelt
+spiller bli bedre individuelt. Hvilke egenskaper skulle jeg vektlegge? Tiden vi har sammen
+som amatører er begrenset. Fire ganger pr uke + en kamp på det meste. Det er seks timer
+med felles trening. Når du i tillegg vet at de fleste er minst en dag fraværende grunnet jobb
+eller utdanning ser jeg på tiden som knapp. Jeg valgte å vektlegge følgende tre ting:
+1. Være en god 1.angriper
+2. Være en god 1.forsvarer
+3. Gode pasningsferdigheter
+Det betydde at all form for isolert fysisk trening ble bortprioritert. De som manglet noe
+spesielt eller burde videreutvikle en fysiologisk spisskompetanse fikk gjøre det på egenhånd.
+De testene og stikkprøvene jeg gjorde utenom fellestreningene på kondisjon viste seg å bli
+bedre fra halvår til halvår på alle som ble testet under en fireårsperiode. Også på de som
+ikke trente på egenhånd. Øvelsene senere beskrevet må ha skylden for det. Vi hadde ikke
+23
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+isolert løpetrening på fire år. Får man det man trenger av kondisjon ved å spille mye fotball i
+ulike former? Jeg mener at det stemte for oss, men det er ikke tema for videre analyse i
+denne oppgaven. I KFUM hadde jeg en ukeplan som ble fulgt slavisk med variasjoner innen
+samme tema. Vi har hatt gode treningsforhold til en hver tid.
+Mandag
+20-25 min
+
+Hva
+Oppvarming
+Del øvelse, spill
+intervall
+Spill 3x12
+
+Tema
+Pasningsspill
+
+Tema
+Pasningsspill
+
+30-35 min
+35-40 min
+
+Hva
+Oppvarming
+Del øvelse,
+possession
+Spill 4x9
+
+Torsdag
+20-25 min
+60 min
+
+Hva
+Tema
+Oppvarming
+Fritt valg
+Futsal kamper a 4 min. mann/mann spill
+
+Fredag
+20-25 min
+30-35 min
+
+Hva
+Oppvarming
+Del øvelse, struktur
+Spill stor bane 3x10
+min
+
+30-35 min
+35-40 min
+
+Onsdag
+20-25 min
+
+35-40 min
+
+Individuell ferd.
+Relasjoner
+
+Individuell ferd.
+Relasjoner
+
+Tema
+Pasningsspill
+Relasjoner/mønster
+Struktur/realasjoner
+
+Lørdag eller søndag: Kamp.
+
+24
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.9.
+
+Treningen starter 17.15. Da har de fleste vært ute og rørt på seg i fem-ti minutter før
+fellestreningen starter. Oppvarmingen har alltid vært den samme. Vi gikk tidlig vekk fra den
+tradisjonelle pasningsfirkanten med 4-5 mot 2. Vi lagde større firkant med tre i midten som
+jager og med 6-10 spillere rundt som kan bevege seg fritt. Da bruker man spillere inne i
+firkanten som kan vende spill og man får en større ingrediens av med og motspill i trange
+områder. (Illustrasjon 7.9) Oppvarming i dette tilfelle 8 mot tre. Med flere enn 18 på trening
+ble det to slike pasningsfirkanter.
+I de andre tre firkantene spilles det tre mot tre i del 2 av treningen.(Illustrasjon 7.9) Noen
+ganger tre mot fire hvor det er en fri mann som er på begge lag. Avgrenset området uten
+mål. En av KFUM sine hovedøvelser. Brukes i intervaller fra 1-3 minutter. Hva gjør øvelsen
+bra? Tre mot tre er tett, fartsfylt og intensivt. Du er hyppig 1.angriper og 1.forsvarer og det er
+akkurat nok til at du kan få i gang et kortpasningsspill. Spill når du kan og beveg deg mest
+mulig for å få ball. Denne øvelsen blir så tett at det tvinger deg ofte til å ta av press. Dette er
+en av de beste øvelsene og vår favoritt ut i fra formålet og hva det gir av ferdigheter i et
+nærspill. Den er også kondisjonskrevende og er en av flere øvelser som kan ha bedret
+kondisjonen til KFUM spillerne framfor isolert løpetrening. Variasjonen i øvelsen har gått på
+antall spillere. Fra en mot en til fire mot fire. Denne øvelsen kan også kjøres med spill i
+lengderetning med poeng for å føre over kortlinja. Alltid med og motspill med relativt god
+intensitet. Intensitetsstyrte treninger er for oss å ta de pausene man trenger for å holde
+intensiteten oppe. Vi har tatt sjansen på å kjøre relativt tøft ettersom vi har med breddegutter
+å gjøre, som definitivt ikke trener hver dag.
+
+Illustrasjon 7.10: Del 3 mandag eller onsdag: Spill fra 16 meter til 16 meter med smalere
+bredde. I dette tilfelle med 18 mann på trening. Så langt det lar seg gjøre for spillerne være
+mest mulig i sine roller. Eksempelet her spiller den faste backfirer mot angrepstreer og
+
+25
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+midtbanetreer som normalt er i startellever. Det hender vi varierer banestørrelse og gjør den
+enda smalere slik at det skal bli vanskeligere å spille igjennom pressledd.
+Økt onsdager: Oppvarming 20 min pasningsfirkant som er den samme hver økt. 2.del,
+ballbesittende spill(Illustrasjon 7.11). Er vi 18-20 mann på trening inklusive keepere, kjører
+keepere eget program. Ballbesittende øvelse er på avgrenset området uten mål. 8 mot 8 + to
+frie. Vi har ulike kriterier for hver intervallrunde. 4-5 ganger av 2-4 minutter.(Avhengig av
+trøkk og intensitet.) Det kan variere med størrelse, touchbegrensninger, baller kan kun spilles
+under knehøyde eller helt frie betingelser. Poeng for antall pasninger eller for gjenvinning
+innen 5 sekunder. Denne øvelsen kan varieres med tre lag av seks spillere. Laget som
+mister ball må jage eller det kan gå på intervaller av 1-4 min. og balljagende lag får poeng på
+antall brudd. Da blir jagingen bedre og spillerne vil nødig miste ball. Tid 20-25 minutter.
+Dette er også en kondisjonskrevende øvelse dette med høy intensitet. Del 3: Spill større
+bane. 3x12 min. Bane tilpasset etter antall spillere.
+Torsdager: Futsal 60 min.(Egen oppvarming 20-30 min. først) Spill 4 mot 4 på håndballbane.
+Mann mot mann orientert som et bevisst valg. Hyppig 1. forsvarer og 1.angriper.
+Pasningsspill foregår her nesten konsekvent bare langs gulvet på grunn av ballene som
+brukes(baller uten sprett) og plassmangel. God trening for å oppnå mann mot mann
+ferdigheter og pasningsspill på små flater. KFUM ble Norgesmestere i futsal 2010 og bruker
+dette bevisst i aldersbestemt ferdighetsutvikling.
+
+Illustrasjon 7.11: Ballbesittende øvelser. 7 mot 7 + to frie eller 3 lag av seks spillere.
+Økt fredager: Strukturtrening og vektlegging av relasjoner. Samme oppvarming som tidligere
+og spill mot delvis etablert forsvar 30-35 min som ren formasjonsøkt. (Illustrasjon 7.12) De
+seks fremste på banen + to backer(spillerne som er i startoppstillingen til helgen) møter to
+pressledd enten 4-4 eller 4-3 formasjon. Målvakt har baller i sitt mål og slår ut til
+midtbaneanker. Angrepet starter der. Hovedvekt legges på romutnyttelse og vending av spill.
+Vi øver inn alternativer som vist i spillsekvensene under kapittelet om gjennombrudd og
+relasjoner mellom spillerne, spesielt de som spiller nært hverandre. Hvilke spillere truer de
+ulike rommene og hvilke spillere slår de avgjørende gjennombruddsballene sentralt i banen.
+
+26
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Vi terper også innløp i boks når det er gode innleggsmuligheter. Denne sekvensen av
+treningen er den økten med mest instruksjon, og instruksjonen dreier seg mye om når tar vi
+sjansen på gjennombrudd og når skal vi være tålmodig i spillet for vente på en bedre
+gjennombruddsmulighet. Øvelsen måtte ofte korrigeres i starten. I dag går det mer på
+skinner fordi spillerne har en felles forståelse av hvordan vi ønsker å spille, en filosofi.
+Vi avslutter med å spille 11 mot 11 stor bane. På fredager trener vårt juniorlag på banen ved
+siden av og vi henter inn spillere der for å fylle opp. Kjører da førsteellever mot B-laget. Blir
+noe frysing og instruksjon av og til i spillet hvis det er alvorlig nok eller godt nok. Jeg gir for
+det meste mye av instruksjonen mens vi spiller. Jeg er ikke tilhenger av trenere som stykker
+for mye opp i spillet fordi de har lyst å høre sin egen stemme og fortrefflighet. (Subjektivt
+erfart.) Oppsummert er dette en økt blandet av struktur og relasjonstrening. Den relasjonelle
+ferdighetsdimensjonen, samhandling mellom spillere, er karakteristisk for fotballspillet. Hvilke
+spillere som samhandler, varierer under spillets gang. Vi kan likevel si spillere som ofte er i
+nærheten av hverandre som følge av lagets struktur, oftere samhandler med hverandre enn
+med spillere lenger unna i lagstrukturen. På denne måten vil også den strukturelle
+dimensjonen ved ferdighetsbegrepet være en del av fotballspillets egenart. ( Bergo et. al.,
+55.)
+Vedrørende relasjoner opplever jeg det som av og til vanskelig å formidle. Jeg har fått noe
+gratis i KFUM fordi flesteparten av disse spillerne har spilt sammen siden de var unge og har
+fulgt hverandre på og utenfor banen i en årrekke. Vi kan instruere på valg til det
+kjedsommelige, men jeg mener mange av de gode relasjonene oppstår spillere i mellom uten
+at man nødvendigvis har fortalt dem alt. Spillere med spesielle kvaliteter har en ”linkfunksjon”, som gir et signal til involverte i nærområdet. Det kan være vår hurtige venstrekant
+som har bakrom å løpe i. Er muligheten der da for et gjennombrudd skal ballen komme. I de
+situasjonene er samhandlingen bra. Er samme venstrekant involvert tidligere i en
+oppspillsfase er det ikke sikkert vedkommende fungerer like godt. Det går på valg. Å
+instruere valg som er fruktbart flere steder på banen er noe av det vanskeligste jeg opplever
+som trener. Jeg er heldig som har hatt mange nok gode ”velgere”, men det er alltid to-tre du
+må slite med på godt og vondt. Vår beste individualist(nr.10) er ikke den beste spilleren vår,
+mest fordi han har best relasjon med seg selv. Hans høyeste nivå derimot er til nytte for laget
+og han gjør ting ofte på egenhånd til fordel for resultatet. Relasjonene mellom spillerne har
+vært KFUMs største styrke sammen med de individuelle ferdighetene. Det har tre årsaker.
+Spillerne kjenner hverandre godt og har spilt sammen over tid, terping på å bli bedre
+individuelt så du får løst oppgaver, (klarer du ikke å ta av presset eller å slå en pasning blir
+det vanskelig å finne noen å samhandle med), og instruksjon. Spillerne har tatt ulik læring av
+dette men med felles tanker og filosofi blir hovedbildet klarere og budskapet lettere å
+adoptere.
+
+27
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Illustrasjon 7.12: Strukturtrening på spill mot delvis etablert forsvar. Variasjonen i denne
+øvelsen og strukturøkten kan også starte med at motstanderlaget får sette i gang bakfra og
+vi får da trent på høyt press. Vi har også fokus på gjenvinning ved et eventuelt balltap i
+spillet. Vi kan med andre ord legge inn flere momenter i øvelsen men stort sett brukes den til
+å spille mot delvis etablert forsvar.
+
+3. Hvilke resultater har angrep mot etablert forsvar gitt for de to fotballagene?
+For KFUM som klubb og de involverte har dette vært et lite eventyr. Fra 3.divisjon i 2008 til
+noen få poeng fra Adeccoliga-spill i 2011 med 100 prosent KFUM-produserte spillere i
+førsteoppstillingen. Stallen besto av 22 spillere, 18 av disse har gått gradene og kommer fra
+klubben. VIF har også hatt en god 2010 sesong hvor de en stund tok innpå i gullkampen mot
+Rosenborg.
+For VIF sin del utgjorde målene i spill mot etablert forsvar og delvis etablert forsvar 47
+prosent, overganger 28 prosent, og dødballer 25 prosent (VIF og Loberto). VIF har en litt
+annen inndeling og måte å regne dette på enn KFUM. De putter gjenvinningsangrep inn
+under kategorien etablerte angrep. Med det menes der de har benyttet flere trekk mot en
+motstander som er i numerisk og posisjonell balanse i forkant av et balltap. Gjenvinner de
+ballen innen 5 sekunder og angriper på nytt er det fortsatt etablert angrep. Det knyttes da til
+gjenvinningsangrep fordi oppbyggingen før balltapet var flere trekk/langt angrep (Loberto).
+
+Av statistikk som følger for 2009 og 2010 ser vi alle typer scoringer for KFUM og hvilken
+kategori det tilhører. Vi ser det er en overvekt av scoringer mot delvis etablert. Det skyldes at
+de angrepene starter i gunstigere posisjoner på banen og nærmere motstanders mål. Som
+lag har du da ofte to pressledd igjen å spille mot, i stedet for tre pressledd og mulige korte
+igangsettinger bakfra med spill gjennom midtbanen. I KFUM har vi scoret 58 mål på to år i
+seriesystemet mot etablert og delvis etablert forsvar. Det er nesten halvparten av målene.
+Det var interessant å se om de målene kom etter få trekk eller om det lå flere trekk bak
+
+28
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+målene. ”Det er grunnlag for å hevde at jo flere pasninger, desto mindre sannsynlighet for å
+score.” (Olsen et. al., 54:1994). I KFUM kom målene mot etablert og delvis etablert forsvar
+slik:
+0 trekk
+1 trekk
+2 trekk
+3 trekk
+4 trekk
+5 trekk
+6 eller mer
+
+5 mål
+8 mål
+5 mål
+11 mål
+13 mål
+9 mål
+7 mål
+
+Vi scoret flest mål etter fire trekk, dette er trekk fram til selve avslutningen. Avslutningen er
+ikke talt som trekk og merk også at vi scoret flere mål etter seks trekk eller mer enn 0 trekk.
+De fleste scorede mål for oss i denne fasen kommer etter 3-5 trekk. Hva så med scorede
+mål på null og ett trekk? Det er fem scorede mål etter null trekk, og bak disse fem målene
+ligger det også flere trekk. Har det vært fire trekk og en avslutning som har ført til en retur
+som blir satt i mål er det talt som null trekk på grunn av at ball har skiftet eier da keeper
+reddet den første avslutningen. 4 av disse fem scoringene inneholder fra 3-4 trekk i forkant
+av målet. Typisk for 1 trekk er spill direkte i bakrom fra backfirer eller midtbanespiller etter
+ballerobring eller det kan være etter gjenvinning hvor det også har vært flere trekk i forkant
+av avslutningen. Oppsummert er det likt antall mål mellom 0-3 trekk og fire trekk eller mer.
+
+For VIF som nevnt tidligere i oppgaven scoret de 47 prosent av sine mål mot etablert forsvar
+og i sine gjenvinningsangrep. VIF scoret 70 mål under sesongen 2010 og skapte 195 sjanser
+inklusive mål scoret. Det betyr at dette sto for litt over 49 prosent av det VIF foretok seg
+vedrørende sjanseskaping og mål scoret i 2010. De mest oppsiktsvekkende dataene for VIF
+var antall pasninger i forkant av mål og sjanser. 0-5 pasninger står for 45 prosent mens 55
+prosent står for 6 eller flere (Loberto). Data vedlagt som vedlegg i slutten av oppgaven.
+
+29
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+KFUMs mål 2009:
+
+30
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+KFUMs mål
+2010:
+
+Av litteratur på området og grundige undersøkelser gjort på hvordan mål scores er det laget
+statistikker fra VM i 82,86 og 90. De fleste scoringer kommer etter 0-3 trekk i disse
+mesterskapene, og lange angrep er nede i 27,9 prosent i VM 1990. I VM 90 kommer 68,7
+prosent av målene etter 0-3 trekk og forutgående angrep av disse målene inneholder også få
+
+31
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+trekk, også der med tre pasninger eller mindre. (Olsen et. al.,1994: 51) Det nevnes ikke i
+”Effektiv fotball” hvor mange trekk som gjøres i de lange angrepene. For KFUM har de lange
+angrepene en dominans og scorede mål er på nesten 50 prosent over to år. Vi har hatt en
+tydelig spillestil som skilte seg klart fra motstander ved at vi var mer
+gjennombruddsavventende enn gjennombruddshissighissig. I 2010 for alle
+2.divisjonsavdeligene var det fire lag som scoret flere mål enn oss, kun to lag scoret flere mål
+på hjemmebane. Det betyr ikke annet enn at det er produsert mange målsjanser og scoret
+mye mål på dette nivået og det har vært mange bakenforliggende angrepshandlinger. Stilen
+har gitt et resultat, om vi kunne gjort noe annerledes for og fått et enda bedre resultat
+kommer jeg inn på under konklusjon.
+Når vi ser på dagens trender og tall fra VM i 2010 ser vi Spania som ble verdensmestere
+hadde ballen mest under turneringen. De hadde en prosentvis ballbesittelse per kamp på
+57,9 prosent. Nord Korea som kom sist, hadde ballen minst med et snitt pr. kamp på 40,7
+prosent. Spania var også det laget med flest gjennombruddshandlinger og vellykkede
+gjennombruddshandlinger pr. kamp. Hva sier så dataene om Spanias tilnærming til å være
+gjennombruddsavventende eller gjennombruddshissig? Mot lag i god balanse var Spania
+blant de som var minst gjennombruddshissig i VM. Sveits, Japan og Nord Korea var mest
+gjennombruddshissig i VM mot lag i god balanse. Spania var allikevel det laget med flest
+gjennombruddshandlinger per kamp, også vellykkede.(FIFA-analysen) Dette sier noe om å
+være dyktig i sine gjennombrudd og å velge rett tidspunkt for gjennombruddene. Det ligger
+naturligvis en forklaring i at Spania rådet over gode fotballspillere og store individualister,
+men det er også et samspilt kollektiv som lykkes med sin stil. Noen forklaringer med relevans
+fra intervju med Rolf Teigen:
+1. Gjennombruddshissighet uttrykt i prosent sier følgende:
+Antall gjennombruddshandlinger med ball totalt, delt på antall angrepshandlinger med
+ball totalt, ganger 100.
+Alle handlinger med ball ble registrert uavhengig av når i handlingssekvensen det var
+og uavhengig av motstanders balanseforhold i den gitte situasjonen.
+2. Hva kategoriseres som vellykket gjennombruddshandlinger?
+Gjennombrudd er definert som en handling med ball som passerer en eller flere
+motstandere i banens lengderetning.
+Vellykket er definert ved at eget lag opprettholder ballkontroll (ballbesittelse) enten
+gjennom vellykket handling med ball i rom eller på fot, eller gjennom handling med
+ball med gjenvinning (ren 2.ball). I tillegg er noen av avslutningene regnet som
+vellykket.
+Vellykket gjennombruddshandlinger vil da i praksis si alle angrepshandlinger med ball
+som faller inn under følgende kategorier, gjennombrudd på fot, gjennombrudd i rom,
+gjennombrudd med gjenvinning, vellykket innlegg (vi vet at ikke alle innlegg strengt
+tatt følger definisjonen), innlegg med gjenvinning, avslutning på mål og avslutning
+utenfor. 7 er kategorier regnet som vellykket gjennombrudd.
+3. Hva kategoriseres som antall gjennombruddshandlinger pr. kamp? Antall
+gjennombruddshandlinger pr. kamp er det totale antallet gjennombruddshandlinger
+for laget i VM (uavhengig av vellykket eller mislykket) delt på antall spilte
+kamper.(Verdens beste prosjektet, Rolf Teigen.)
+
+32
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+8) Diskusjon
+I dette kapittelet vil jeg drøfte det jeg har funnet av data kombinert med min kunnskap, og
+sette det opp mot det som ligger av kunnskap og erfaringer på området fra før. Det jeg har
+lært i treneryrket og erfart i min spillkarriere er at det er mange veier for å oppnå resultater.
+Vedrørende denne oppgaven har det vist seg betydningsfullt å svare på problemstillingen og
+det har vært nyttig å erfare problemstillingen over tid. Farget av fotballkulturen i Norge har
+jeg alltid hatt i bakhodet om man får godt nok betalt for denne måten å spille fotball på. Kan
+vi gjøre noe annerledes og hadde vi tjent på å være mer gjennombruddshissig?
+KFUM skal ikke møte lag som er ekstremt ballbesittende og som behersker denne stilen til
+fulle. Jeg ser på oss som en breddeklubb som bør strebe mest mulig etter egen utvikling. For
+å eksemplifisere det kan det sammenliknes med Norges landslag som skal ut å møte de
+beste fotballnasjonene. På 1990-tallet, og i dag, kan ikke Norge spille som Spania. Vi finner
+vår taktiske metode som gjør at dårligere lag kan slå i utgangspunktet bedre motstand. Jeg
+ser ikke noe galt i en slik tilnærming men for oss i norsk fotball som har mulighet til å påvirke
+en utvikling, har vi bedre utbytte av å få best mulig fotballferdigheter som gjør at vi kan
+mestre flest mulig faser av spillet. Det vil norsk fotball være tjent med på sikt, og vil være en
+god måte å nærme seg bedre lag på. Norge som landslag på sikt kan fortsatt holde på sin
+stil, men får i tillegg noen ferdigheter som gjør at vi ikke blir fullt så forutsigbare, som gjør oss
+gode i flere spillfaser.
+I undersøkelsesspørsmålet hvordan vi har trent på å mestre spill mot etablert forsvar ligger
+mye av forklaringen på hvorfor akkurat vi har lykkes med det. Vi har ikke viket en tomme på
+måten å trene og spille på,og har fått de ferdighetene på vårt nivå som har gjort at vi kunne
+lykkes:
+1. God 1.angriper
+2. God 1.forsvarer
+3. God pasningsspiller
+Dette har vært grunnlaget og de kriteriene som jeg mener har vært viktigst. Å få til dette flere
+steder på banen når tempoet er høyt og rommene trange trenger vi ferdighetene som kreves.
+”Lengre angrep krever store individuelle ferdigheter i nærrom, spesielt når en møter et
+balansert forsvar”(Olsen et. al.,1994: 93). Relasjonene spillere i mellom tar tid å bygge og
+har forbedret seg i takt med de individuelle ferdighetene. Sammenhengen mellom trening og
+resultater er selvsagt ikke all forklaring men har en stor del av æren. Alle trenere må se på
+hva de har av materiell og jeg har fått lov å jobbe med gode fotballspillere som tok nivået i
+2.divisjon veldig fort. Det er spillerne selv som skal ha en stor del av den æren mens klubber
+liker å se på det som produkter av klubben. Disse spillerne er i stor grad produkter av seg
+selv og det er all egenaktivitet de har med på treningsfeltet som har gjort disse til Alagsspillere. Klubben skal derimot ha en stor del av æren for miljøet de skaper og at de
+beholder mange utøvere i klubben gjennom tenårene. Klubben har derimot begynt satsingen
+på bevisst ferdighetsutvikling som følge av A-lagets prestasjoner. Kontinuitet med samme lag
+over år er også en faktor som er vanskelig å måle betydningen av.
+Det som kommer fram av data samlet inn på tre nivåer, KFUM,VIF og Spania fra VM peker i
+retning lengre angrep og et ballbesittende spill eller spill mot etablert forsvar, som jeg bruker
+som benevning i oppgaven. Spania har gjort det lenge med en Barcelona-preget stil, KFUM
+har praktisert dette i fire sesonger og VIF har gjort det først og fremst i 2010 sesongen.
+
+33
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+I ”Effektivfotball” ville ”breakdown” bli framtiden, på grunn av gode soneforsvar. Dette er
+snudd litt opp ned. Ferdighetene ser ut til å være så gode hos de beste at de evner å løse
+opp i gode soneforsvar og sterk balanse og at det er de lange angrepene som har fått en
+dominans hos de beste på høyt internasjonalt nivå (og for KFUM i 2.divisjon.) Så kan jeg
+undre meg over de tre(egentlig to, ble fratrukket ett)poengene som vi ble slått med i 2010.
+Kunne det vært gjort noe annerledes? Det kunne sikkert vært gjort andre grep underveis som
+kunne gjort taktiske utslag men i forhold til stil er jeg klar på at vi har gjort det rette. Stilen i
+seg selv er ferdighetsutviklende ved at du trener på det som kreves i stilen og det er
+utviklende å konkurrere på denne måten når du har ferdighetene til det. Det gir også en
+psykisk god følelse å kunne dominere sin motstander, som egentlig er et tema du aldri hører
+forbundet diskutere innen fotball. Hva er mest behaglig, å bli jaget eller å måtte jage mest
+selv? Jeg skal ikke gå noe mer inn på dette da det finnes for lite grunnlag for å hevde dette
+kontra noe annet, men det er en selvopplevd opplevelse som både spiller og trener. Vår stil
+var særegen og den mest ekstreme i vår avdelig i 2010. Og er det to lag med samme
+tilnærming til spillestil i fotball vinner som regel det laget med best spillere. (Olsen et.
+al.,1994:) Det ligger mye sannhet i det utsagnet og vår spillestil med gode spillere har vunnet
+over ulike tilnærminger men klarte ikke Ham Kam som sto for annen stil enn oss. Blir kun
+spekulasjoner på hvorfor de vant og ikke vi. I de tapte kamper hadde ikke vi med de beste
+spillerne grunnet eksamen, jobb eller bryllup. Slik er det i breddeklubben KFUM når man ikke
+har midler til å godtgjøre spillerne. Men slike problemer eller andre eventualiteter har også
+motstanderen. Men det viser er at stilen var avhengig av de beste ferdighetene.
+Av data benyttet i oppgaven bygger mye på empiri. Empiri betyr kunnskap som er bygd på
+erfaring(Dalland 2010: 89). Dataene benyttet, er valgt ut for å belyse temaet mest mulig
+nøyaktig og kvantitative metoder brukt er kontrollerbart. Jeg ønsket også å sammenligne
+med det som fantes av litteratur og undersøkelser som er tilgjengelig på området. Dette er
+funn med blandet relevans. Interessant er det som kom fra VIF og VM-analysen til FIFA, der
+det er mye gjenkjennelse og man får de svarene man håper på, og er ute etter. ”Effektiv
+fotball” og ”Ferdighetsutvikling i fotball” har gitt noen definisjoner. Men som stoff for å
+underbygge noe tema var ”Effektiv fotball” mye av et motsetningsforhold til oppgaven, selv
+om det der også nevnes viktige aspekter for en trener å ta hensyn til i denne spillfasen. Mye
+nyttig stoff i boken men som nevnt tidligere er det mye av det som ble skrevet i 1994 som ser
+annerledes ut i dag og Norge som landslag er heller ikke helt sammenlignbart med noe som
+skal være utviklingsorientert i norsk 2.divisjon.
+Jeg har søkt etter litteratur på dette feltet og skulle gjerne sett at det var mer tilgjengelig
+litteratur på norsk. Det kan være jeg har oversett noe her, eller at det finnes flere treneroppgaver som kunne hatt relevans for temaet. Jeg mangler også data på KFUM og VIF da
+resultatene var mindre bra, mulig det også kunne vært en relevant sammenligning.
+
+34
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+9) Feilkilder
+Av data brukt er kvantitative metoder det som gir noe fast. Jeg håper å ha vært objektivt i
+mine vurderinger i videoanalysen. Der det er tvil lar jeg ikke det komme problemstillingen til
+gode, minner det om spill mot delvis etablert men er i tvil fordi dette kan virke som en
+overgang har jeg talt det som en overgang. Der hvor det er usikkerhet vedrørende antall
+trekk er det talt fra der det er bevismateriale. Jeg vet at noen av målene sannsynligvis
+innehar noen flere trekk enn oppgitt fordi klippene fra min analysesjef i KFUM har startet
+redigeringen litt for sent. Det er kun små nyanser. Det ligger også spor av feilkilder
+vedrørende målingene gjort i ”Effektiv fotball” og VIFs data. Når det gjelder mål analysert
+under ”breakdown” i ”Effektiv fotball” kan dette sees på med andre øyne vedrørende om
+dette er en reell ubalanse som utnyttes eller om ubalansen skapes underveis i angrepet. Det
+er en nyanseforskjell her med mine målinger. Har vi en ballerobring på banen men møter to
+pressledd i balanse er det spill mot delvis etablert forsvar, er det ubalanse må denne utnyttes
+for at dette skal bli overgang. Skaper vi den underveis i angrepet mot et lag i balanse er det
+fortsatt spill mot delvis etablert selv om det har vært en ballerobring midt på banen.
+Jeg stiller også spørsmålstegn til målingene gjort av VIF som de kaller gjenvinningsangrep.
+De putter gjenvinningen inn under etablerte angrep hvis dette inntreffer innen fem sekunder.
+Utnytter de da en ubalanse kategoriserer de det som spill mot etablert hvis det har vært et
+lengre angrep i forkant av balltapet. Det kan diskuteres om det skal inn under overgang, eller
+spill mot noe som er etablert og i balanse. Jeg har ikke sett alle disse målene men det må
+sås tvil hvorvidt det er helt rett. Jeg vil anta at jeg hadde puttet noen av disse målene under
+overgang fordi det direkte straffer en ubalanse etter ballerobringen.
+Sett under ett synes jeg mine kvantitative data peker på en problemstilling og trend, mine
+kvalitative data gjort under fire års observasjon er også betydningsfulle for mine synspunkter.
+Jeg håper og tror at jeg ikke har vært for nærsynt, jeg ser på dette som en ren
+utviklingsarena for meg som trener.
+
+35
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+9) Konklusjon
+
+Hva har dette laget lært meg? Laget som rykket opp i 2008 er det samme som i 2011,
+bortsett fra en spiller som har gått til Sarpsborg 08 for Tippeligaspill. Det har vært en
+kontinuitet i treningsarbeidet og vi har stått fast på vår stil. I troppen på 16 mann som dro
+for å spille kvalifisering i 2008 var 14 mann fra KFUM, som hadde spilt aldersbestemt
+fotball i klubben. KFUM har vist at stilen har vært med på å påvirke resultatene i positiv
+forstand. Ferdighetsutviklingen har gjort at vi gradvis har mestret spill mot etablert forsvar
+bedre og bedre for hver sesong. Spillerne har tatt utvikling og har utviklet seg med stilen.
+For å presisere er det ikke stilen i seg selv som utvikler spillerne, men spillerne som
+utvikler stilen. Når man først har kommet dit med ferdighetene som kreves mener jeg
+også stilen i seg selv er utviklende i den forstand at du hele tiden må bruke ditt
+ferdighetsregister. Det er ingen tvil som det har blitt nevnt tidligere i oppgaven at
+ferdighetene for å mestre denne spillfasen må være til stede. Vi ser av de kampene som
+er tapt at man ikke har kunnet stille de beste spillerne.
+Av sammenligningen med VIF ser vi også der mange likhetstrekk både i treningsarbeidet
+og i måte å spille på. Kontinuitet i spillergruppa ble også nevnt der og de har fått fram
+spillere med aldersbestemt erfaring i klubben som for eksempel Harmeet Singh og
+Mohammed Fellah. Disse er begge flotte ambassadører for ”nye VIF”, og har de
+ferdighetene i nærrom man behøver på sitt nivå. Jeg er meget spent på å følge disse to
+lagene videre i 2011 for å se om de kan ta ytterligere steg.
+
+36
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+Jeg vil poengtere at det finnes mange veier til resultater. Selv om dette har vært rett for
+KFUM og VIF er det ikke sikkert andre lag og trenere med kortsiktig resultatjag og press
+fra ledelse, media og publikum rundt i fotball Norge må eller bør gjøre det samme. Det er
+definitivt flere måter å oppnå resultater på. Jeg har opplevd det som tidkrevende men
+effektivt når man først mestrer det. Under del II av trenerkurset som het mitt lag i trening
+og kamp, fikk jeg et spørsmål av min veileder Peter Engelbregtsson: ”Ville du spilt slik
+uansett hvem du trente og ville du gjort det samme hvis du ble hentet til en klubb som lå
+for nedrykk”? Jeg skjønte hvor han ville med spørsmålet og mitt svar til det er at det
+kunne vært smart der og da med en litt annen inngang til kamper og tilnærming til spillet.
+Jeg vil nødig kalle det resultatorientert, for det å være resultatorientert har for oss en
+sammenheng med å være utviklingsorientert. Så svaret på spørsmålet ville mest
+sannsynlig vært nei og at jeg ikke var rett mann for trenerjobben.
+Oppsummert må du ha gode fotballspillere som har evne til å ta utvikling.
+Du trenger kontinuitet i spillergruppa.
+Treningsarbeid med rette treningsmetoder som er rettet mot
+spesifisitetsprinsippet.
+Det du ønsker å oppnå må du øve på.
+I hovedsak for oss har det vært mann mot mann ferdigheter begge veier og
+pasningsferdigheter som har blitt vektlagt.
+Jeg har funnet min plattform som trener og har klokketro på at spill mot etablert forsvar
+med ferdighetene som kreves er framtidsrettet og utviklende for norsk fotball.
+
+37
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+10) Litteraturliste
+Bøker
+-
+
+Bergo, Aksel, Johansen, Pål Arne, Larsen, Øyvind, og Morisbak, Andreas (2002),
+Ferdighetsutvikling i fotball- handlingsvalg og handling. Oslo: Norges Fotballforbund
+Olsen, Egil, Larsen, Øyvind og Semb, Nils Johan (1994), Effektiv fotball. Oslo: Gyldendal
+Dalland, Olav (2007), Metode og oppgaveskriving for studenter (4.utgave)(Olav Dalland)
+Ronglan, Lars Tore (2008), Lagspill, læring og ledelse. Oslo: Akilles
+
+Fagartikler
+- Fagartikkel, Angrepstyper og gjennombruddet publisert 8.juni 2009.(Dag Riisnæs)
+- Fagartikkel, Kunnskapssenteret og Kjetil Sander.
+- Trener III-oppgave av Roger Finjord.
+Intervjuer
+- Intervju Andrea Loberto, desember 2010.
+- Telefonintervju Rolf Teigen, desember 2010.
+- Analysesjef KFUM Guttorm Lende.
+Andre kilder
+- Statistikk Andrea Loberto
+- Videoanalyse/ Video alle KFUM mål 2009 og 2010 ligger tilgjengelig på: www.a-laget.com
+- ”Verdens beste-prosjekt” og VM analyse FIFA 2010.
+
+38
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+11) Vedlegg
+Vedlegg VIF 2010: Gjenvinningsangrep: Det er angrep der vi har benyttet flere trekk mot en
+motstander som er i nummerisk og posisjonell balanse(angrep mot etablert), for at vi så
+mister ballen, og gjenvinner den innen 5 sekunder, og angriper på nytt.
+
+39
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+40
+
+Trener III-oppgave: ”Hva bør vektlegges for å lykkes i angrep mot etablert forsvar?” av Ståle Andersen, 2011
+
+41
+
+

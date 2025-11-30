@@ -77,7 +77,7 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
             <StarIcon filled={isFavorite} />
           </button>
         </div>
-        <p className="mt-1 text-sm text-zinc-600 line-clamp-2 group-hover:text-zinc-700">{exercise.description}</p>
+        <p className="mt-1 text-sm text-zinc-600 group-hover:text-zinc-700">{exercise.description}</p>
         <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
           <span className="inline-flex items-center gap-1 rounded-md bg-zinc-100 px-2 py-0.5 font-medium text-zinc-600">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">

@@ -16,28 +16,95 @@ interface Category {
 
 const glossaryData: Category[] = [
   {
-    name: "NFF Terminologi (Forsvar)",
+    name: "NFF Soneforsvar",
     terms: [
       {
-        term: "1F (Førsteforsvarer)",
-        definition: "Den forsvarsspilleren som er nærmest ballfører. Jobben er å gå i press, lede spillet eller vinne ball.",
-        example: "Når du er 1F, rop: 'Jeg støter!' eller 'Gå!'"
+        term: "Etasjer (banedeling)",
+        definition:
+          "Banen deles horisontalt i fire \"etasjer\": 1. etasje = egen bakre tredel, 2. etasje = midtre defensiv, 3. etasje = midtre offensiv, 4. etasje = siste tredel mot motstanders mål. Brukes når vi beskriver hvor vi vil vinne ball eller bryte linjer.",
+        example: "Brudd i 2./3. etasje betyr at vi vinner ballen i de to midterste sonene og kan true bakrom raskt."
+      },
+
+      {
+        term: "Førsteforsvarer (Signalspiller)",
+        definition: "Spilleren nærmest ballfører - den viktigste i soneforsvaret. Din handling definerer hva de andre ti spillerne gjør. Oppgaver: Vinn ball, opphold/led ballfører, hindre gjennombrudd, tving spill bakover.",
+        example: "Når du er førsteforsvarer, rop: 'Jeg støter!' eller 'Gå!' - du er lagets signalspiller."
       },
       {
-        term: "2F (Andreforsvarer)",
-        definition: "Sikring. Spilleren som ligger bak 1F for å stoppe motstanderen hvis 1F blir driblet eller spilt forbi.",
-        example: "Når backen støter (1F), må stopperen falle av som 2F og rope 'Jeg sikrer!'"
+        term: "Andreforsvarer (Sikring)",
+        definition: "Nærmeste spiller til førsteforsvarer. Sikrer på rett side eller dekker rom. Hvem sikrer hvem: Midtbane sikrer kant/midtbane, stopper sikrer stopper/back.",
+        example: "Når backen støter (førsteforsvarer), må stopperen falle av som andreforsvarer og rope 'Jeg sikrer!'"
       },
       {
-        term: "3F (Tredjeforsvarer)",
-        definition: "Resten av forsvaret. Deres jobb er dekning (passe på rom) og markering (passe på spillere) lengre unna ballen.",
-        example: "Vingen på motsatt side trekker inn som 3F for å holde laget kompakt."
+        term: "Tredjeforsvarer (Romkontroll)",
+        definition: "Alle andre spillere på forsvarslaget. Dekker rom og/eller tar ut definerte angrepsspillere. Kommuniserer pasningslinjer.",
+        example: "Vingen på motsatt side trekker inn som tredjeforsvarer. Rop 'Dekk venstre' for å stenge pasningslinje."
+      },
+      {
+        term: "Leding",
+        definition: "Å styre ballfører i ønsket retning. Hovedregel: Led ut mot sidelinje - der er det trangest. Bruk bueløp for å stenge rom du vil beskytte.",
+        example: "Førsteforsvarer leder innover når han har sikring på innsiden, utover når han er alene."
+      },
+      {
+        term: "Bueløp",
+        definition: "Kurvet løp mot ballfører for å stenge et bestemt rom, i stedet for å løpe rett på.",
+        example: "Bruk bueløp for å stenge pasningslinjen til kanten - ikke løp rett på ballfører."
+      },
+      {
+        term: "Pumping (Push-out)",
+        definition: "Dynamisk justering av leddenes posisjon opp og ned. Når førsteforsvarer presser, pumper laget etter.",
+        example: "Når spissen presser høyt, må hele laget pumpe opp - hold kompaktheten!"
+      },
+      {
+        term: "Sideforskyvning",
+        definition: "Kollektiv forflytning mot ballsiden. Hele midtbane- og forsvarsledd flytter seg som én enhet.",
+        example: "Ball på venstre kant = hele laget forskyver mot venstre, stenger sentralt."
+      },
+      {
+        term: "Konsentrering",
+        definition: "Kort og smalt forsvar som krymper motstanderens tid og rom. Jo tettere, desto vanskeligere å spille gjennom.",
+        example: "Hold konsentrering sentralt - tving motstanderen ut på kantene."
+      },
+      {
+        term: "Presshøyde",
+        definition: "Hvor på banen laget starter aktivt press. Høyt press = kort vei til mål, lavt press = bedre struktur og overgangspotensial.",
+        example: "Vi presser høyt i 1. omgang, faller lavere når vi leder."
+      },
+      {
+        term: "Signalspiller på tokt",
+        definition: "Når en spiller sendes frem alene for å forstyrre pasningsrytme eller få laget til å pumpe etter - planlagt uten sikring.",
+        example: "Sentral midtbane går på 'tokt' for å ødelegge motstanderens oppbygging."
+      },
+      {
+        term: "Romforhold (Bakrom/Mellomrom/Framrom)",
+        definition: "NFFs inndeling av banen: Bakrom (bak forsvar), Mellomrom (mellom ledd), Framrom (foran motstanderens forsvar). Prioritering: Bakrom → Mellomrom sentralt → Framrom.",
+        example: "Kontrollen prioriterte rom: Først steng bakrom, så mellomrom sentralt."
+      },
+      {
+        term: "Begge veier-spiller",
+        definition: "Spiller som behersker både angreps- og forsvarsferdigheter på høyt nivå. Moderne fotball krever dette.",
+        example: "Spissen gjør en fenomenal jobb i det fremste forsvarsleddet - en ekte begge veier-spiller."
       }
     ]
   },
   {
     name: "Angrepsspill",
     terms: [
+      {
+        term: "Tredjemann",
+        definition: "Spilleren som mottar pasningen etter at to medspillere allerede har kombinert. Kritisk for å bryte linjer og opprettholde tempo (A02).",
+        example: "Tredjemann starter løpet idet pasning #2 slås og kommer rettvendt i mellomrommet."
+      },
+      {
+        term: "3+2-sikring",
+        definition: "Balanseprinsipp: minst tre spillere bak ball + to sentrale sikringer før laget sender mange i angrep. Hindrer kontring på kontring (A12).",
+        example: "Indreløper må bli igjen til vi har 3+2, ellers blir vi sårbare ved balltap."
+      },
+      {
+        term: "Frys–se–slå",
+        definition: "Mentalt cue: Etter ballvinning – frys ballen, løft blikket og slå først når rommet er definert (tempo-kontroll).",
+        example: "Ballvinner frys-se-slår: tar et øyeblikk for å lese bakrom før pasningen går."
+      },
       {
         term: "Possession",
         definition: "Kontrollert ballbesittelse for å flytte motstanderen, trekke ut markeringer og skape rom før gjennombrudd.",
@@ -280,7 +347,7 @@ export default function OrdlistePage() {
             ))
           ) : (
             <div className="text-center py-12 text-gray-500">
-              <p className="text-xl">Ingen treff på "{searchTerm}" 🤷‍♂️</p>
+              <p className="text-xl">Ingen treff på &quot;{searchTerm}&quot; 🤷‍♂️</p>
               <p className="text-sm mt-2">Prøv et annet ord eller sjekk stavingen.</p>
             </div>
           )}

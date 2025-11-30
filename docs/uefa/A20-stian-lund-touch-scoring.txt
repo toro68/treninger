@@ -1,0 +1,1742 @@
+Trener III-oppgave 2010/2011
+Stian Lund
+
+Sammenhengen mellom antall touch ved scoring og sjanser, og om sjansen for
+scoring øker, jo færre touch spilleren bruker?
+
+En analyse av angrepsspillet til Strømsgodset TF
+Sesongen 2010 – Tippeligaen
+
+Drammen, 30. januar 2011
+
+Trener – III oppgave 2011 – Stian Lund
+
+Forord
+Jeg startet på oppgaven høsten 2010. Jeg kom forholdsvis seint i gang og problemstillingen
+min endret seg noe underveis. Det tok lang tid å bestemme seg for tema da det var flere
+fotballfaglige ting jeg ønsket å undersøke og belyse. Jeg har noe erfaring med
+oppgaveskriving fra skoleverket og vet at både tema og problemstilling kan endres i starten på
+en slik prosess.
+Sommeren 2010, da jeg var på første samling av UEFA – lisenskurset i Porsgrunn var Reidar
+Vågnes min veileder. Ved evalueringssamtalen med Vågnes oppsummerte han at jeg har
+sterke pedagogiske evner samtidig som jeg er god til å formidle et budskap. Han mente
+samtidig at for min utvikling som trener så burde jeg velge en fotballfaglig problemstilling,
+som var et av mine utviklingsmål. Jeg synes derfor at valget av dette temaet og
+problemstilling er relevant i forhold til min videre utvikling som trener.
+
+Jeg hadde en diskusjon med Ronny Deila om hva som kunne være hensiktsmessig for klubben
+å få økt kompetanse om, i tillegg til mine interesser som fotballtrener. Denne samtalen
+inspirerte meg og jeg kom inn på temaet jeg har belyst. Jeg føler jeg har lært veldig mye
+underveis og arbeidet har vært spennende og interessant. Spesielt innsamlingsdelen, hvor jeg
+så samtlige av Strømsgodsets Tippeligakamper om igjen var spennende, selv om til og med
+jeg må innrømme at jeg ble litt lei på slutten når jeg spolte frem og tilbake på sjanser og
+scoringer. Målet for denne oppgaven har vært læring, og jeg har alltid vært åpen og ”sulten”
+på å øke kompetansen min.
+
+Jeg har forsøkt å ikke være forutinntatt og subjektiv i oppgaven. Dette er ikke alltid like enkelt
+fordi man kanskje ønsker å finne data som underbygger sine påstander og antakelser. Dette
+har jeg har tatt for meg nærmere i metodedelen.
+
+Det har vært en utfordring å ferdigstille oppgaven i tide, da klubbens analyse PC ble stjålet fra
+klubbens lokaler høsten 2010, og mange av mine registreringer ble borte. Jeg måtte da gjøre
+deler av datainnsamlingen på nytt, noe som bød på store motivasjonsmessige utfordringer. Da
+jeg først kom i gang på nytt, gikk det dog unna.
+
+2
+
+Trener – III oppgave 2011 – Stian Lund
+
+Jeg vil gjerne takke trenerteamet rundt A-laget til Strømsgodset med Ronny Deila, Bjørn
+Petter Ingebretsen og Håkon Lunov i spissen, i tillegg til Sportssjef Jostein Flo. Jon Røgeberg
+og Harald Johannessen som jobber med spillerutvikling har også bidratt til gode diskusjoner
+og kommet med gode innspill. Til slutt vil jeg også takke min samboer Astrid Nagelhus for
+støttende samtaler, oppmuntrende ord og ikke minst korrekturlesing.
+
+Drammen, januar 2011
+Stian Lund
+
+3
+
+Trener – III oppgave 2011 – Stian Lund
+
+Innholdsfortegnelse
+1 INNLEDNING.............................................................................................................................. 5
+1.1 BAKGRUNN FOR OPPGAVEN .................................................................................................................5
+2 PROBLEMSTILLINGER ................................................................................................................. 7
+2.1 TEMA ...............................................................................................................................................7
+2.2 PROBLEMSTILLING.........................................................................................................................7
+2.3 UNDERPROBLEMSTILLINGER .................................................................................................................7
+2.4 OPERASJONALISERING AV SENTRALE BEGREPER I PROBLEMSTILLINGENE ..................................7
+2.5 SENTRALE BEGREPER I OPPGAVEN ................................................................................................8
+3 TEORI ........................................................................................................................................ 9
+3.1 FOTBALLENS EGENART .........................................................................................................................9
+3.2 FOTBALLFERDIGHET ......................................................................................................................9
+3.3 DIMENSJONENE AVHENGIGE AV HVERANDRE ........................................................................... 12
+3.3.1 DEN INDIVIDUELLE DIMENSJON........................................................................................................................13
+3.3.2DEN RELASJONELLE DIMENSJON .......................................................................................................................13
+3.3.3DEN STRUKTURELLE DIMENSJON .......................................................................................................................13
+3.3.4 KAMPDIMENSJON .............................................................................................................................................14
+
+4 METODE ...................................................................................................................................16
+4.1 KAMPANALYSE............................................................................................................................ 16
+4.2 KVANTITATIV ANALYSE ............................................................................................................... 17
+4.3 KVALITATIV ANALYSE .................................................................................................................. 18
+4.4 FEILKILDER .................................................................................................................................. 19
+4.5 DEFINISJON AV SJANSE............................................................................................................... 20
+5 RESULTATER / DISKUSJON.........................................................................................................21
+5.1 HVORDAN SPILTE STRØMSGODSET? .......................................................................................... 21
+5.2 KATEGORISERING AV DE 51 SCORINGENE ................................................................................. 22
+5.3 KVANTITATIV ANALYSE AV SCORINGER OG SJANSER ................................................................. 22
+5.4 STRØMSGODSET STATISTIKK 2010 – DEL 1 ................................................................................. 23
+5.5 SEVILLA STATISTIKK – DEL 1 ........................................................................................................ 25
+5.6 STRØMSGODSET STATISTIKK 2010 – DEL 2 ................................................................................. 25
+5.7 STRØMSGODSET STATISTIKK 2010 – DEL 3 ................................................................................. 26
+5.8 FEM UTVALGTE SCORINGER ....................................................................................................... 27
+5.8.1 ANALYSE 1 .........................................................................................................................................................28
+5.8.2 ANALYSE 2 .........................................................................................................................................................31
+5.8.3 ANALYSE 3 .........................................................................................................................................................34
+5.8.4 ANALYSE 4 .........................................................................................................................................................37
+5.8.5 ANALYSE 5 .........................................................................................................................................................40
+
+6 KONKLUSJON – OPPSUMMERING AV ANALYSEN .......................................................................43
+6.1 KJENNETEGN............................................................................................................................... 44
+7 LITTERATURLISTE ......................................................................................................................46
+8 SAMMENDRAG .........................................................................................................................47
+4
+
+Trener – III oppgave 2011 – Stian Lund
+
+1
+
+Innledning
+
+I startfasen på oppgaven hadde jeg en samtale med Jostein Flo som i dag jobber som
+sportssjef i Strømsgodset. Han uttalte følgende på spørsmål om antall touch ved
+avslutningene.
+”Jeg øvde alltid på å sette ballen i mål på 1 touch. Det var det eneste som gjaldt. Om
+jeg ikke benyttet 1 touch var det for seint og sjansen spolert”.
+Jostein Flo, tidligere Stryn, Molde, Lierse, Sogndal, Sheffield United og Strømsgodset. (53
+landskamper og 11 mål, på spørsmål om antall berøringer når han skulle avslutte).
+
+1.1 Bakgrunn for oppgaven
+Antall touch i angrepsspill er temaet i denne oppgaven. Dette er noe mange er opptatt av i
+dagens fotball, hvor man ofte forventer at man skal spille offensiv og underholdende fotball
+med få touch for å utvikle ferdigheter. Når jeg snakker om angrepsspill mener jeg først og
+fremst når laget har ballen. Jeg har valgt å konsentrere meg om de 3 siste involveringene før
+enten en scoring eller sjanse, både fordi jeg synes det er mest spennende, men også fordi det
+er lett målbart.
+
+Angrepsspillet i seg selv er en essensiell del av fotballen, noe jeg har blitt mer og mer opptatt
+av etter at jeg kom til Strømsgodset for over 4 år siden. Fotball for meg handler om å score
+mål (selv om det lønner seg å unngå å slippe inn mål også). Enten så har laget ditt ballen, eller
+så har motstanderlaget ballen. Målet for oppgaven er å få en bedre oversikt over emnet, først
+og fremst for å optimalisere min egen tilnærming til spillerne ute på feltet. I hverdagen har jeg
+ansvar for å følge opp spillerne i G-19 troppen både i trening og kamp, og når de hospiterer
+med A-laget, noe som stort sett skjer daglig. Jeg er også med på Drammen Toppidretts
+treninger når fotballinja har økter. Dette er for å følge opp spillerne som er i G-19 troppen til
+Strømsgodset.
+Det er ingen hemmelig trylleformel eller snarveier for å bli god til noe i dag, man må rett og
+slett øve på det, noe som er opplest og vedtatt i dagens toppidrettskultur. Skal vi utvikle
+offensive spillere med gode ferdigheter så må vi jo legge forholdene til rette og jobbe med å
+utvikle slike typer.
+Som spillerutvikler rundt vårt A-lag har jeg fulgt opp unggutter som har lykkes i stor grad
+med å greie seg på seniornivået i Tippeligaen. Men jeg har også opplevd unggutter som sliter
+veldig med å ta nivået. Dette er selvfølgelig en meget sammensatt utfordring jeg trekker opp
+5
+
+Trener – III oppgave 2011 – Stian Lund
+
+her nå, men jeg synes at de spillerne som evner å bruke få touch, har betraktelig større
+forutsetninger for å lykkes på det nivået. Hva må de mestre, hvor mange touch er
+hensiktsmessig i hvilke situasjoner, osv. Disse utfordringene er ting jeg håper å få økt
+kompetanse om. Hva betyr dette for utviklingen av de unge guttene i Strømsgodset? Hvilke
+krav stiller Tippeligaen til ungguttene når det gjelder antall touch i angrepsspillet? Dette vil ha
+stor betydning for måten vi jobber med guttene på i det daglige treningsarbeidet. Hvilke
+situasjoner skal vi sette guttene i for å stimulere til best mulig utvikling og best mulig
+forberedelse til det som kommer i fremtiden? I denne oppgaven handler det da om de 3 siste
+involveringene før sjanse / scoring.
+Jeg er av den oppfatning at våre unggutter skal beherske ferdigheten det er å bruke så få touch
+som mulig, men ikke om det går på bekostning av presisjon i valget.
+
+Viktigheten av å bruke få touch og kort tid med ball ble understreket av Tysklands trener
+Joachim Löw før VM i Sør – Afrika 2010 hvor han ble spurt om hva som er den største
+forskjellen på spillestil mellom Tyskland nå og tidligere. Svaret var, ”de hadde gått ned fra
+2,8 sekunder pr. spiller i 2005 til 1,8 sekunder i EM 2008”. Dette var hans forklaring på
+endringene i spillestilen til det tyske landslaget. Tallene fra VM - sesongen 2010 forteller til
+og med at tallene til det tyske landslaget er helt nede i 1,1 sekunder pr spiller. (intervju i
+nettavisen www.sport1.de)
+
+6
+
+Trener – III oppgave 2011 – Stian Lund
+
+2 Problemstillinger
+Med utgangspunkt i problemfeltet utformes det en problemstilling ut i fra forskerens
+forestillinger, egne erfaringer og tidligere forskning (O. Hellevik, 2002). Jeg vil forklare en
+problemstilling ut fra spørsmål om faktiske forhold som jeg ønsker å belyse. Jeg har valgt 1
+hovedproblemstilling og 3 underproblemstillinger.
+2.1 Tema
+En analyse av sjanser og scoringer til Strømsgodset TF, sesongen 2010 i Tippeligaen.
+Utgangspunktet er antall berøringer hos spilleren som scorer, antall berøringer hos han som
+slår den målgivende pasningen og antall berøringer hos han som slår pasningen til spilleren
+som slår den målgivende pasningen (kalt tredjepasset i oppgaven).
+2.2 Problemstilling
+Sammenhengen mellom antall touch ved scoringer og sjanser, og om sjansen for
+scoring øker, jo færre touch spilleren bruker.
+2.3 Underproblemstillinger
+Hva kreves av spillerne som er involvert i sjanser og scoringer, både i scoringsfasen, og i
+”målgivende” og ”tredjepasset”.
+
+
+Hva kjennetegner antallet touch hos spilleren som scorer.
+
+
+
+Hva kjennetegner antallet touch hos spilleren som slår den målgivende pasningen
+
+
+
+Hva kjennetegner antallet touch hos spilleren som har ballen før den målgivende
+pasningen.
+
+2.4 Operasjonalisering av sentrale begreper i problemstillingene
+Med sammenhengen, mener jeg å se på likheter og eventuelle forskjeller når jeg har
+kategorisert scoringene og sjansene. Er prosentandelen hvor målscoreren benytter 1 touch
+høyere enn der avslutteren bruker 1 touch ved sjansene?
+
+Ved kjennetegn ser jeg etter fellestrekk eller mønstre ved spilleren som scorer målene, i
+forhold til antallet touch han bruker. Jeg vil også se på kjennetegn i forhold til de 4
+dimensjonene både ved scoringen, målgivende og tredjepasset.
+
+7
+
+Trener – III oppgave 2011 – Stian Lund
+
+2.5
+
+Sentrale begreper i oppgaven:
+Scoringen:
+-
+
+Spilleren som er involvert i selve scoringen. Spilleren som er sist på ballen
+før den ligger i nettet.
+
+Målgivende:
+-
+
+Spilleren som slår den målgivende pasningen, før scoring.
+
+”Tredjepasset”
+-
+
+Spilleren som er involvert før den målgivende pasningen.
+
+Jeg har valgt å ikke ta med konsekvenser studien fører til ute på treningsfeltet i etterkant.
+Hvordan det bør trenes, hvilke øvelser osv, selv om jeg delvis kommer innom viktige
+momenter underveis i diskusjonsdelen.
+
+8
+
+Trener – III oppgave 2011 – Stian Lund
+
+3.
+
+Teori
+
+3.1 Fotballens egenart
+På slutten av 1800 tallet ble denne leken (fotball) plukket opp i ulike institusjoner og etter
+hvert satt i system og videreutviklet. Spillflate, antall spillere på banen, hvordan vi forholder
+oss til ballen, samt medspiller og motspillere definerer rammene for aktiviteten. Spillerne vil
+således i en gitt spillsituasjon forme ulike formasjoner (Ronglan, 2008). Spillet er stadig i
+bevegelse og spillerne vil bevege seg i forhold til hverandre på ulike måter og med ulik
+hensikt.
+
+Å score mål / hindre mål er den grunnleggende motsetningen, og kommer til uttrykk som
+iboende spenninger mellom angrepslag og forsvarende lag i spillets gang. I tillegg til
+delmålene underveis, som er: å skape gjennombrudd / hindre gjennombrudd, skape eller
+utnytte rom / nekte å dekke rom, skape / utnytte ubalanse (overtall i angrep) og opprettholde
+balanse (kontradekning i angrep) / opprettholde balanse (i forsvar) samt skape overtall (i
+forsvar), spillbarhet / hindre spillbarhet (Ronglan, 2003).
+
+Fotballkampen kan beskrives som en kontrollert konflikt, preget av stadig nye situasjoner i
+angrep eller forsvar, eller i gråsonen mellom disse, der ingen av lagene har kontroll.
+Interessekonflikten og de stadige situasjonsendringene i spillet, er drivkraften for
+formasjonsendringen av lagene og kalles spillsituasjoner (Larsen, 1992).
+
+3.2 Fotballferdighet
+Fotball i dag kan sammenlignes med skoleverket. Uansett hvem man snakker med så har de
+en mening om skolen eller fotballspillet. Dette er stort sett basert på erfaring, da de fleste som
+vokser opp i dag har en eller annen erfaring med både skole og fotball, og derfor ønsker de å
+framstå som om de har greie på det. Det virker som om mange fortsatt forbinder
+fotballferdighet med teknikk. Dette er selvfølgelig bare en liten del av sannheten.
+
+Når jeg skal skrive en oppgave om fotball og om antall touch ved scoringer og sjanser er det
+naturlig å ta utgangspunkt i begrepet fotballferdighet. Jeg velger derfor å ta utgangspunkt i
+Morisbak, Dreier og Skarsfjords ”God fotballferdighet”. ”Lær taktikk – teknikk” fra 1986. I
+boka er forfatterne opptatt av at spillerens muligheter til å mestre de ulike situasjonene i
+kamp, avhenger av spillerens fotballferdighet, den taktisk-tekniske helhetssammenhengen:
+oppfatte – vurdere – bestemme – handle.
+9
+
+Trener – III oppgave 2011 – Stian Lund
+
+I boka representerer begrepet taktikk spillerens handlingsvalg eller det spilleren velger å gjøre
+i den enkelte situasjon. Handlingsvalget spilleren gjør, avhenger da av evnen til å oppfatte,
+vurdere og bestemme. Teknikk i denne forståelsen knyttes da til selve handlingen, eller måten
+spilleren løser oppgaven på. ”God fotballferdighet” framstiller sammenhengen på følgende
+skjematiske måte:
+
+Figur 1: Fotballferdighet framstilt som den taktisk-tekniske helhetssammenhengen (fra
+Morisbak, Dreier, og Skarsfjord, 1986 s. 11)
+
+I fremstillingen til Morisbak, Dreier og Skarsfjord er det enkeltspilleren som er i sentrum i
+tillegg til spillerens evne til å utføre en løsning i situasjonen som avgjør om han lykkes eller
+ikke. Fremstillingen i seg selv er ikke nok når vi skal omtale begrepet fotballferdighet.
+
+Når vi diskuterer eller drøfter begrepet fotballferdighet hører vi ofte om underbegreper som f.
+eks pasningsferdighet. Dette er forholdsvis vanlige begreper i dagens fotball, og vi kan si at
+spilleren skaper og utnytter spillsituasjoner til lagets fordel ved å velge å utføre en pasning til
+en medspiller. Vi kan kalle denne pasningsferdigheten for en delferdighet.
+Pasningsferdigheten hos spilleren er da en del av denne spillerens totale fotballferdighet.
+
+Allerede i 1967 kom briten Alan Wade ut med en bok som fikk stor innflytelse på utviklingen
+av norsk fotball. Boka het ”F.A Guide for Training and Coaching”. Britiske Wade
+systematiserte en modell for angreps- og forsvarsspill. Wade hadde i tillegg et fokus på valget
+en spiller må ta i ulike situasjoner. Summen av valg og utførelse er det vi i dag kaller
+fotballferdighet.
+
+10
+
+Trener – III oppgave 2011 – Stian Lund
+
+Figur 2: Definisjon på fotballferdighet (Fra Bergo, Johansen, Larsen, Morisbak, 2003)
+Wades spilleprinsipper kan illustreres på denne måten:
+ Angrep: Gjennombrudd, bredde, bevegelse, improvisasjon, skape rom
+ Forsvar: Oppholde, konsentrere, balanse, tålmodighet, nekte rom.
+Wades spilleprinsipper ser ut til å ha inspirert mange sentrale aktører i norsk fotball. Han var
+bl.a. opptatt av å skape og utnytte rom i angrepsspillet, noe jeg mener er svært sentralt i denne
+oppgaven, hvor det handler om angrepsspill, og ikke minst skape og utnytte rom. Fotball
+handler jo ikke minst om å skape sjanser for å få scoringer, hvor motpolen selvfølgelig er å
+hindre scoring.
+
+11
+
+Trener – III oppgave 2011 – Stian Lund
+
+I nyere litteratur har Wades spilleprinsipper blitt modifisert av Larsen, Olsen, Semb, 1994.
+
+Figur 3: Wades spillerprinsipper, modifisert av Larsen, Olsen og Semb, 1994 (Fra Bergo,
+Johansen, Larsen, Morisbak, 2003).
+Denne spilleprinsippmodellen deler spillet i to deler, angrep og forsvar men det er også (som
+tidligere nevnt) deler av spillet hvor det er vanskelig å definere hvem som angriper og hvem
+som forsvarer seg, f.eks når ballen er høyt oppe i været eller i tette dueller på midtbanen.
+Nils Arne Eggen kom i 1999 ut med boka ”Godfoten”. Essensen i denne boka var
+betydningen av den relasjonelle dimensjonen og om å være gode sammen. Rosenborg er uten
+tvil det mest suksessrike norske klubblaget, selv om den relasjonelle dimensjonen alene ikke
+er forklaringen på suksessen. Eggen er som meg, utdannet pedagog, og han var veldig opptatt
+av å bevisstgjøre og påvirke gjennom læringsteori. I tillegg var han opptatt av helheten og
+ikke minst å dyrke de ulike rollene i laget.
+3.3 Dimensjonene er avhengige av hverandre
+Min erfaring med barn og unge, både fra skoleverket og fotballen, tilsier at man ofte opplever
+at de er ekstremt opptatt av egne handlinger. Etter hvert som de blir eldre utvikler de seg til å
+være i stand til å inkludere både medspillere og motspillere. Når spillerne når et juniornivå, vil
+de forhåpentligvis mestre å inkludere flere medspillere og motspillere i sine handlinger, ved å
+slå på andrebevegelser osv. Vi kan derfor slå fast at jo høyere utviklingsnivå man befinner seg
+på, jo dyktigere blir man til å utnytte sine delferdigheter i forhold til både motstanderen og
+medspillere. Den helhetlige og flerdimensjonale fotballforståelsen blir presentert i boka
+”Ferdighetsutvikling i fotball - handlingsvalg og handling”, 2003.
+12
+
+Trener – III oppgave 2011 – Stian Lund
+
+Figur 4: Ulike dimensjoner ved fotballferdighet og sammenhengen mellom faktorer som
+påvirker spillerens fotballferdighet (Fra Bergo, Johansen, Larsen, Morisbak, 2003).
+3.3.1 Den individuelle dimensjon i forhold til fotballferdigheten handler om enkeltspillerens
+evne til å ta gode valg og deretter å utføre handlingen så godt som mulig til fordel for eget lag.
+I denne oppgaven handler det om å skape og utnytte rom, i tillegg til å se muligheter og ikke
+minst sette ballen i mål på det antallet touch som er hensiktsmessig for å overliste motspillere
+og keeper.
+3.3.2 Den relasjonelle dimensjon handler om å være gode sammen. Det å gjøre medspillerne
+gode er essensielt i et lag. Det handler om å sette hverandre i situasjoner de er gode i så ofte
+som mulig. Vi snakker om å ha relasjonelle ferdigheter, og da spesielt i forhold til posisjoner i
+nærheten av hverandre på banen. En back og en kant for eksempel kan ha relasjonelle
+ferdigheter når de skaper og utnytter hverandres rom slik at de ofte kommer til innlegg. Vi
+kan si at de utnytter hverandres styrker, og er gode sammen i tillegg til å skape situasjoner til
+fordel for eget lag.
+
+13
+
+Trener – III oppgave 2011 – Stian Lund
+
+3.3.3 Den strukturelle dimensjon handler om hvordan laget opptrer samlet. Det er viktig med
+klare retningslinjer både i angreps- og forsvarsspillet, først og fremst for å forenkle spillernes
+valgmuligheter og for lettere å kunne utnytte feil og svakheter hos motstanderen. Det er også
+viktig i forhold til å nekte motstanderen sjanser og mål. Om man ikke har noen retningslinjer
+for angrepsspillet kan det fort bli kaos og lite effektivt angrepsspill. Diskusjonen vil alltid
+være der når det gjelder hvor faste slike rammer skal være.
+3.3.4 Kampdimensjonen er det de fleste forbinder med fotballferdigheten, men det er viktig å
+huske på at de ulike dimensjonene henger nøye sammen for å forstå begrepet fotballferdighet.
+Det må trenes på individuelle, relasjonelle og ikke minst strukturelle ferdigheter. Samtidig må
+vi huske på at det er kampen vi øver for, vi trener på å mestre de ulike ferdighetene i kamp.
+Disse forskjellige ferdighetene henger derfor nøye sammen. Vi må trene på å skape og utnytte
+rom, og derfor tror jeg vi vil mestre å bruke de ulike rommene i løpet av kampen. Det kan
+være bakrommet, mellomrommet, frispilling, vending av spill osv. Vi kommer derfor ikke
+utenom kampdimensjonen når vi skal diskutere fotballferdighet. Ved spill og motspill handler
+det selvfølgelig også om det motsatte, nemlig å nekte rom, hindre mål, takle, markere osv.
+Det er stor forskjell på hvordan trenere utvikler sine lag. Noen tar f.eks. utgangspunkt i lagets
+felles retningslinjer for å forbedre prestasjonene. Disse trenerne prioriterer de strukturelle
+dimensjonene ved fotballferdighet, mens andre er mindre opptatt av dette. Jeg mener i aller
+høyeste grad at de fire dimensjonene er avhengig av hverandre. Det er fotballkampen vi øver
+til, og derfor er det viktig at vi øver på spill og motspill så ofte som mulig. I tillegg må de
+ulike spillerne få øve seg i de rollene de har på laget. Dette for å øve mest mulig på det de skal
+mestre i kamp, ref. spesifisitetsprinsippet.(Bergo, Johansen, Larsen og Morisbak, s.79 –
+Ferdighetsutvikling i fotball)
+Vi kan på bakgrunn av de ulike figurene nevnt over, tydelig presisere at den individuelle
+dimensjon, den relasjonelle dimensjon, den strukturelle dimensjon i tillegg til selve
+kampdimensjon er viktig i forhold til å utvikle fotballferdigheten. I forhold til
+kampdimensjonen er det en ting jeg ikke synes vi i Norge er så opptatt av, nemlig de ulike
+fasene i spillet. I den portugisiske trenerutdanningen f.eks. er en stor del av utdanningen viet
+til faser i spillet (i følge den portugisiske G-19 treneren – La Manga 2010). Hvilke
+handlingsvalg gjør spilleren i de ulike fasene? Med fase menes både tidspunktet i kampen og
+hva stillingen er, i tillegg til om det ene laget f.eks. er redusert til 10 mann. Endrer f.eks.
+antallet touch seg om det er det første kvarteret eller om det er det siste kvarteret? Dette er
+14
+
+Trener – III oppgave 2011 – Stian Lund
+
+interessante spørsmål jeg har valgt å ikke ta med i oppgaven, men det kunne vært interessant
+og sett på mine problemstillinger i forhold til fasene i spillet.
+Andre faktorer som påvirker spillet, som psykologiske, fysiologiske og sosiale ressurser har
+jeg valgt å ikke ta med i denne oppgaven, da jeg har valgt å begrense meg innenfor det temaet
+jeg skriver om.
+
+15
+
+Trener – III oppgave 2011 – Stian Lund
+
+4.
+
+Metode
+
+Metodekapittelet har til hensikt å vise hvordan jeg som forsker kommer fram til de data som
+foreligger i undersøkelsen. På denne måten skal en annen forsker kunne gå inn å undersøke
+omtalte fenomen med samme framgangsmåte. I tillegg vil metodekapittelet vise
+troverdigheten ved undersøkelsen, altså om den er valid.
+Med kvantitativ metode menes i følge Hellevik (1991):
+"Framgangsmåter der forskeren først systematisk skaffer seg sammenlignbare
+opplysninger om flere undersøkelsesobjekter av et visst slag, så uttrykker disse
+opplysningene i form av tall, og til slutt foretar en analyse av mønsteret i dette tallmaterialet."
+
+4.1
+
+Kampanalyse
+
+Det var i ulike idretter i USA hvor man begynte å bruke objektiv kampanalyse. De brukte
+datateknologi allerede på -60 tallet til å tallfeste prestasjoner i idretter som basketball,
+ishockey og amerikansk fotball. I Europa gjorde engelskmannen Charles Reep i perioden
+1953 - 1968 et pionerarbeid innen kampanalyse hvor han analyserte 3213 kamper for bl.a. å
+identifisere hvor effektive angrep startet; hvilke rom som var sentrale for å oppnå avslutning,
+målsjanse og scoring.
+I Norge var det Egil Roger Olsen som virkelig systematiserte kampanalysen. Temaet er viet et
+eget kapittel i boka ”Effektiv fotball”, 1994 (Larsen, Olsen og Semb). Egil var en frontfigur i
+Norge som brukte systematisk kampanalyse som et viktig virkemiddel i sin evaluering og
+planlegging av eget lag og motstandere. Boka anbefaler dog en kombinasjon av kampanalysen
+i videoformat og ikke minst den ”live” kampanalysen hos fotballtreneren selv. I samtaler med
+Nils Arne Eggen (trenerteamet i Strømsgodset) på La Manga i februar 2010, var han
+klokkeklar på at videoanalyse må være et supplement, men at en fotballtreners viktigste
+verktøy er hans øyne på sidelinjen.
+Som fotballtrener har jeg alltid vært tilhenger av kampanalyse på video/DVD. Gjerne i
+samband med et analyseverktøy som for eksempel Interplay. Det gjør det enklere å
+systematisere, noe som igjen gjør bruken betraktelig enklere. Trenerteamet jeg er en del av
+har god nytte av det, men også for bruk inn mot lagdeler eller enkeltspillere. Det utfordrende
+her er selvfølgelig bruken av det overfor spillerne. Hvor mye skal man vise? Hvor ofte skal
+man gjøre det? Hvor stor del skal være ”gode bilder” eller bare bilder av dårlige
+16
+
+Trener – III oppgave 2011 – Stian Lund
+
+handlingsvalg? Dette synes jeg er den store utfordringen rundt bruken av
+videoanalyseverktøyet, selv om ikke dette er noe stort tema i selve oppgaven.
+I min oppgave har jeg valgt data fra Strømsgodset sin sesong i Tippeligaen 2010. Dette i
+forhold til at det er relevant for min jobb som trener i Strømsgodset, men også fordi
+Tippeligaen er det høyeste konkurransenivået i norsk fotball.
+4. 2 Kvantitativ analyse
+Ut i fra min problemstilling, mener jeg at en kvantitativ måling med registreringsskjemaer av
+tilstrekkelig mange variabler, ville være en gunstig metode for en vitenskapelig undersøkelse.
+Ved bruk av den kvantitative metoden er det en klar styrke at jeg til enhver tid vet hva jeg
+måler når jeg gjør registreringer. Man kan si at registreringene er veldig målbare.
+Når et visst antall scoringer kommer på 1 touch er det ganske sannsynlig at laget også
+produserer sjanser på samme måte som ikke omsettes i mål. Norges A-landslag scorer
+eksempelvis på 1 av 5 sjanser (Kilde: Ø. Larsen) mens Strømsgodset i sesongen 2010 scorer
+på ca 1 av 3 målsjanser. En viktig ting å huske på her er at dette er tall både fra nasjonalt nivå
+og tall fra internasjonalt nivå. Jeg har valgt å bruke en kvantitativ metode når jeg har
+analysert alle scoringene til Strømsgodset, 51 i tallet på 30 Tippeligakamper. Hensikten er å
+systematisere antall touch hos spillerne som er involvert i scoringene. Jeg vil også ta for meg
+spilleren som er involvert i den målgivende pasningen og spilleren som er involvert før den
+målgivende pasningen, kalt tredjepasset i oppgaven.
+Den kvantitative analysen i denne oppgaven er å finne ut hvor stor prosentandel av scoringene
+og sjansene hvor spilleren bruker 1, 2 og flere berøringer. Denne analysen viser derfor på
+bredt grunnlag samtlige scoringer og sjanser (se definisjonen på sjanse), og antall berøringer i
+forkant av scoringen. Jeg har derfor sett samtlige av Strømsgodsets kamper i Tippeligaen om
+igjen og registrert sjanser og scoringer i et eget registreringsskjema i papirformat. Jeg har
+periodevis måttet stoppe og spole frem og tilbake gjentatte ganger for nøyaktig å registrere
+antall touch i de ulike situasjonene. Kildene jeg har brukt er først og fremst TV2’s Livesenter
+både på nett og via Altibox sine TV tjenester, i tillegg til klubbens DVD’er mottatt av TV2.
+Når det gjelder scoringene fra La Liga har jeg brukt nettsider med TV bilder for å registrere
+scoringene.
+
+17
+
+Trener – III oppgave 2011 – Stian Lund
+
+Når det gjelder scoringene til Sevilla og La Liga har jeg brukt nettadresser som ”youtube” og
+”footytube”. Det har vært vanskelig å analysere de 3 siste involveringene da en del av
+scoringene kun har vist selve avslutningen. Derfor har jeg ikke fått sammenlignet i det to
+fasene før scoring.
+
+4.3 Kvalitativ analyse
+Jeg har også valgt å bruke en kvalitativ metode i oppgaven. Her har jeg har sett på kjennetegn
+ved selve involveringen, i tillegg til ferdigheten den enkelte spilleren bruker i de ulike fasene,
+men dog ikke i samme omfang som i den kvantitative metoden. Jeg har plukket ut 5 scoringer
+i den kvalitative delen av oppgaven.
+1. Strømsgodset – Viking (2-1) 1-1 scoringen på Marienlyst, 28.03.2010. Jo Inge Berget
+scorer etter veggspill med Markus Pedersen.
+2. Strømsgodset – Start (3-1) 2-1 scoringen på Marienlyst, 18.04.2010. Fredrik Nordkvelle
+scorer etter en dribling gjennom forsvaret.
+3. Strømsgodset – Vålerenga (1-0) 1-0 scoringen på Marienlyst, 01.05.2010. Markus
+Pedersen scorer etter en overgang, hvor Jo Inge Berget spiller han alene med keeper.
+4. Kongsvinger – Strømsgodset (0-2) 0-1 scoringen på Gjemselund, 11.07.2010. Petar
+Rnkovic scorer etter en overgang på bakre stolpe.
+5. Sandefjord – Strømsgodset (0-3) 0-1 scoringen på Komplett.no Arena, 29.08.2010.
+Krister Aunan scorer etter et flott angrep mot etablert.
+Ved disse 5 scoringene har jeg sett på hva som skjer i forhold til de 4 dimensjonene, og da
+spesielt i forhold til antall touch som en del av den totale fotballferdigheten.
+Jeg tar for meg disse 5 scoringene og beskriver hva som skjedde, gjennom en kvalitativ
+analyse av de 3 siste involveringene. Fokuset vil her være på antallet touch spilleren bruker i
+forhold til fordel for eget lag. Hvorfor jeg har valgt ut disse scoringene er først og fremst fordi
+målene er veldig forskjellige og representerer ulike dimensjoner, i tillegg til at de er scoret av
+forskjellige målscorere.
+
+18
+
+Trener – III oppgave 2011 – Stian Lund
+
+4.4 Feilkilder
+Når det brukes mange variabler og gjøres mange registreringer kan en fort gjøre
+feiltolkninger. Når man skal registrere og tolke stilles det store krav til konsentrasjon i kontakt
+og omgang med mange data (Holme & Solvang, 1991). Ved registreringer og overføringer av
+data fra TV bildene og ned på skjemaet kan jeg ha notert feil eller lagt riktig data inn i feil
+kolonne (antall touch). Det er nesten umulig å måle omfanget av slike feilregistreringer, selv
+om jeg var nøye med å skille mellom kampene. I etterkant var jeg også inne og sjekket
+registreringene enda en gang. Selv om jeg ikke gjorde det på hver eneste kamp tror jeg dette
+kan ha redusert faren for feilkilder.
+
+I den kvantitative undersøkelsen er det fare for feilkilder. Dette er uavhengig av om det er
+scoringen, målgivende og tredjepasset. Ved en av scoringene har jeg et eksempel på en
+feilkilde slik jeg ser det. Noen ganger er det litt vrient å se antallet berøringer når spilleren
+fører ballen i veldig høy fart, har ballen tett inntil kroppen og det kanskje i tillegg er en eller
+flere motspillere i nærheten. Et eksempel her er scoringen til Mohammed Keita borte mot
+Hønefoss. (se under)
+
+Keita mottar ballen ute på vår venstreside, drar seg forbi backen med en tunnel, vinner en
+duell med stopperen, og
+skyter hurtig i det
+lengste hjørnet. Her er
+det to situasjoner som er
+diskutable i forhold til
+feilkilder. I den første
+situasjonen ser det ut til
+at han treffer
+forsvarsspilleren,
+Figur 5: Keitas 1 – 0 mål borte mot Hønefoss BK 04.07.10.
+mens ballen spretter opp i kneet hans. Er det registrert som touch eller ei? Det samme skjer i
+neste situasjon hvor det ser ut som en duell, hvor begge er likt på ballen og Mohammed får
+den med seg videre. Spørsmålet er derfor om han bruker 5, 6 eller 7 touch. Allikevel er det
+kanskje ikke det viktigste (i oppgaven) om han bruker nettopp 5, 6 eller 7 touch, men at han
+19
+
+Trener – III oppgave 2011 – Stian Lund
+
+bruker flere enn 5. Her er altså feilkilden i forhold til TV bildene og ikke i forhold til min
+registrering.
+
+Når det gjelder sjansene kan det også forekomme feilkilder. Jeg ser bl.a. at VG opererer med
+139 sjanser til Strømsgodset, mens jeg har registrert 96. Dødballene er som tidligere nevnt i
+oppgaven ikke tatt med i regnestykket. Når jeg har sett på kampene og registrert målsjanser
+jeg gått ut fra følgende definisjon av målsjanse.
+
+4.5 Definisjon av sjanse
+En spillsituasjon hvor spilleren etter en kvalitativ vurdering er i en avslutningsposisjon hvor
+sannsynligheten for mål er stor i avslutningsøyeblikket (Ø. Larsen og E. Sigmundstad 1998)
+
+Her er det viktig å ta hensyn til følgende variabler:
+1. Avstand og vinkel til mål
+2. Alternative muligheter
+3. Motstanders press, sikring og markering / dekking av rom (balanse)
+4. Vinkel / posisjon i forhold til ball
+5. 1. angriper må ikke nødvendigvis avslutte
+
+Dobbeltsjanse teller som 2 sjanser i oppgaven.
+Det kan selvfølgelig være subjektive vurderinger i forhold til sjansene som gjør at en annen
+person ville kommet fram til et annet tall. Kategoriseringen i forhold til hva som er sjanse og
+hva som bare blir sett på som en avslutning har vært vrien. Jeg har forholdt meg til
+definisjonen nevnt over, men det vil alltid være tvilstilfeller i forhold til dette.
+
+20
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.
+
+Resultater / diskusjon
+
+5.1 Hvordan spilte Strømsgodset?
+Før jeg presenterer tallene i analysen vil jeg gi en kort redegjørelse for de viktigste
+retningslinjene i det offensive spillet til Strømsgodset 2010. Strømsgodset spilte mye 4-2-3-1
+gjennom størstedelen av sesongen, men var også innom 4-3-3 og 4-4-2 formasjonen. 4-3-3
+formasjonen ble først og fremst brukt i noen av hjemmekampene hvor man ønsket et enda
+mer offensivt lag, ettersom man regnet med å styre mange av kampene. I tillegg ble denne
+formasjonen noen ganger valgt når vi møtte 4 – 3 – 3 lag. Her kan man se en mye brukt 4-2-31oppstilling fra sesongen 2010.
+
+Figur 6: En vanlig lagoppstilling for Strømsgodset, sesongen 2010.
+
+Mot etablert ønsker man å oppnå gjennombrudd ved hjelp av tempo i pasningsspillet.
+Virkemidlene skulle være vending av spill, ”spille” bort deres frontledd i form av frispilling
+slik at en av stopperne ble ballfører framover i banen. Deretter skulle man utfordre deres
+sentrale midtbanespiller for å skape et overtall mot en av sidene. Videre derfra var det
+ønskelig å dyrke de relasjonelle ferdighetene mellom back, kant, indreløper variert med gode
+spissbevegelser. Dette skulle også varieres med tidlig bakrom og vinklede pasninger i
+bakrommet ut mot kantspillerne som ofte skal starte. I overgangsfasen ønsker man å bruke få
+berøringer i lengderetningen, og da helst beholde ballen sentralt i banen så lenge som mulig
+
+21
+
+Trener – III oppgave 2011 – Stian Lund
+
+for å ha muligheter å få gjennombruddet både til høyre og venstre. Her har jeg skissert de
+offensive retningslinjene og valgt å utelate de defensive da de ikke er relevante i oppgaven.
+
+5.2 Kategorisering av de 51 scoringene:
+Når man skal analysere scoringene kan det være vrient å vurdere hva som er overgang og hva
+som er angrep mot etablert forsvar. Jeg har valgt og ikke benytte meg av Dag Riisnæs sin
+definisjon med delvis etablert forsvar, ettersom jeg mener dette ikke er essensielt i
+problemstillingen. Det kan hende at noen andre ville kommet fram til andre resultater, men
+jeg har gjort dette i tett samarbeid med trenerteamet og analyseansvarlig for 2010 Bjørn Petter
+Ingebretsen. Det skal også sies at jeg hadde gjort jobben på slutten av sesongen, men analyse
+PC’en ble stjålet fra Strømsgodset sine lokaler og jeg måtte derfor gjøre jobben på nytt.
+
+I etablert angrep
+
+22 mål = 43,1 prosent
+
+Etter overgang:
+
+13 mål= 25,6 prosent
+
+Etter dødball:
+
+16 mål= 31,3 prosent
+
+Om jeg skal sammenligne tallene til Strømsgodset opp mot internasjonalt nivå har jeg tallene
+fra siste VM-sluttspill i Sør-Afrika (Kilde: VM prosjektet til NTS v / Mathias Haugaasen).
+
+Her er tallene fra siste VM i 2010:
+I etablert angrep
+
+62 mål = 42,8 prosent
+
+Etter overganger
+
+40 mål = 27,6 prosent
+
+Etter dødball
+
+43 mål = 29,6 prosent
+
+Tallene ser ut til å være bemerkelsesverdig like og ser ut til å være i samsvar med annet
+tallmateriale. Jeg synes personlig det er gledelig at Strømsgodset ligger helt oppe på 43 % av
+målene mot etablert, noe som kan tyde på at laget har klart å styre mange av kampene,
+samtidig som kanskje flere av motstanderne har lagt seg lavere i etablert forsvar.
+
+22
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.3 Kvantitativ analyse av scoringer og sjanser
+Denne analysen vil gi svar på problemstillingen i oppgaven og det vil si:
+
+Sammenhengen mellom antall berøringer ved scoringer og sjanser, og om sjansen for
+scoring øker, jo færre berøringer spilleren bruker?
+Strømsgodset scoret 51 mål denne sesongen, hvor 22 var mot etablert, 13 etter overgang og 16
+etter dødball. Dette er ikke knyttet direkte til hovedproblemstillingen, men jeg synes det er
+relevant i forhold til temaet angrepspill.
+
+I tillegg var Strømsgodset et av Norges mestscorende lag sesongen 2010. Kun Vålerenga med
+69, Rosenborg med 58 og Start med 57 scoret flere enn Strømsgodset.
+
+Når det gjelder scoringene og målsjansene har jeg tatt bort dødballene, da de skiller seg mye
+fra de andre når det gjelder antall berøringer. I venstre kolonne nedover finner man scoringene
+og i den høyre kolonnen finner man sjansene helt ned til tredjesistepasset.
+
+5.4 Strømsgodset statistikk 2010 (del I):
+
+SCORINGER
+Scoringer mot etablert og på overgang 35:
+
+MÅLSJANSER
+Målsjanser mot etablert og på overgang 96:
+
+1 touch = 57 % (20 ganger)
+
+1
+
+touch = 56 % (54 ganger)
+
+2 touch = 14 %
+
+2
+
+touch = 25 %
+
+3 touch = 9 %
+
+3
+
+touch = 8 %
+
+4 touch = 6 %
+
+4
+
+touch = 4 %
+
+5 touch eller flere 14 %
+
+5
+
+touch eller mer = 7 %
+
+Det første man legger merke til når man ser på tallene og problemstillingen er at tallene for
+scoringene og sjansene er bemerkelsesverdig like. Forskjellene når det gjelder tallene for
+scoring og sjanser kan derfor se ut til å være ubetydelige. Det er derfor ikke sikkert at antall
+touch er avgjørende for om spilleren scorer eller ei, derimot ser det ut til at spilleren må
+beherske ferdigheten det er å bruke få touch. For å få en større uttelling må man i aller høyeste
+grad øve mye på den tekniske avslutningsteknikken på 1 og 2 touch.
+23
+
+Trener – III oppgave 2011 – Stian Lund
+
+Konklusjon nummer 1:
+Jo nærmere mål man kommer, jo færre touch må man bruke for å score mål.
+
+Når man ser på tallene for 2 touch på sjansene er den på 25 %, mens for scoringene er den på
+14 %. Jeg har et klart blide av at enkeltspillere og da spesielt Ola Kamara har flere sjanser
+hvor han benytter 2 touch. Hadde han i noen av disse situasjonene mestret å avslutte på 1
+touch ville han garantert ha scoret flere mål. Dette vil være et utviklingsmål for Ola framover.
+Dette er altså et eksempel hvor spilleren ikke mestrer å avslutte på få nok touch. En viktig
+presisering her er at dette kun er mine antakelser utifra de TV bildene på noen av sjansene.
+Jeg har ikke gjort noen grundig undersøkelse her.
+
+Av sjansene som ikke ble mål, var 56 % av avslutningene gjort ved 1 touch, mens 25 % var
+utført på 2 touch. Til sammen en prosent ved 1 og 2 berøringer på hele 81 %, noe som virker
+veldig høyt. Hvorfor denne er 10 % høyere enn ved scoringene har jeg vanskeligheter med å
+forklare.
+
+Det som kan være interessant her, er de 25 % hvor det er brukt 2 touch. Dette kan virke noe
+høyt og kan kanskje forklare hvorfor ikke flere av disse har endt i scoringer. Spesielt hos Ola
+Kamara (som nevnt over) har jeg registrert flere slike situasjoner, hvor han faktisk mest
+sannsynlig hadde scoret om han hadde brukt 1 touch i stedet for 2.
+
+Det virker som det først og fremst er den individuelle dimensjon som er viktig i forhold til
+antall touch spilleren bruker, og om han mestrer delferdigheten med å sette ballen i mål på 1,
+2 eller 3 touch.
+
+I forhold til den målgivende pasningen til scoringen og pasningen til sjansene, kan det se ut til
+at det er brukt litt for mange touch i enkelte faser ettersom det varierer fra 23 % på 2 touch,
+mens det går fra 11 % på 3 touch via 16 % på 4 touch opp til 17 % på 5 touch og mer. Etter å
+ha sett på tallene en stund ser det ut til at noen av sjansene ikke har lykkes fordi det er brukt
+for mange touch i fasen før, noe som igjen har gjort avslutningen vanskeligere. Som sagt er
+dette ingen konklusjon, men mulige antakelser i forhold til tallmaterialet.
+Jeg føler meg dog trygg på å konkludere med følgende:
+Konklusjon nummer 2:
+Skal man score mål må du beherske delferdigheten med å sette ballen i mål på få touch.
+24
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.5 Sevilla statistikk 2010 / 11 (La Liga)
+Scoring:
+Scoringer: 30 hvor 11 på dødball = 19
+1. touch = 42 %
+2. touch = 32 %
+3. touch = 21 %
+4. touch = 5 %
+5. touch eller flere = 0 %
+
+Tallene for Sevilla var litt lavere når det gjelder scoring på 1 touch, men det er vanskelig å
+konkludere med noe annet enn det som er over. Hvorfor prosenten for scoring på 1 touch er
+på 42, mens den i Strømsgodset ligger på 57 kan ha mange årsaker, det kan handle om
+spisstyper og måten å spille fotball på, eller tilfeldigheter. Andelen hvor de bruker 2 og 3
+touch er jo betraktelig større igjen. Sevilla har ikke scoret mål hvor de bruker flere enn 4
+touch. Tallene kan da tyde på at om man skal score mål i den spanske ligaen kontra den
+norske, er man avhengig av å bruke færre touch. Dette er jeg dog usikker på, og de
+målbare tallene er et tynt grunnlag og definitivt ingen garanti for at dette faktisk er tilfelle.
+Men allikevel, det kan være en tendens.
+
+En annen ting man legger merke til, er om man legger sammen 1 og 2 touch og ser på
+prosenten av scoringer. Hos Strømsgodset ligger den på 71 % mens den hos Sevilla ligger
+på 74 %. Dette er så å si like tall som kan tyde på at det å sette ballen i mål på 1 og 2
+touch er essensielt uavhengig av hvilken liga du spiller i og omfatter ca 2/3 av
+scoringene.
+
+25
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.6 Strømsgodset statistikk 2010 (del II):
+MÅLGIVENDE
+Målgivende til scoring:
+
+”MÅLGIVENDE” (TIL SJANSE)
+Målgivende til målsjanser:
+
+1 touch = 28 %
+
+1
+
+touch = 31 %
+
+2 touch = 28 %
+
+2
+
+touch = 23 %
+
+3 touch = 16 %
+
+3
+
+touch = 11 %
+
+4 touch = 10 %
+
+4
+
+touch = 16 %
+
+5 touch eller flere 9 %
+
+5
+
+touch eller mer = 17 %
+
+gj.vinning før scoring = 9 %
+
+gj.vinning før sjanse = 2 %
+
+Ved målgivende og tredjepasset er det ikke essensielt å bruke så få touch som mulig, men mer
+riktig antall touch for å oppnå et gjennombrudd og dernest en sjanse eller mål. Her spiller
+også de ulike dimensjonene inn i forhold til om man lykkes eller ikke. De individuelle og
+relasjonelle ferdighetene er viktig i den målgivende fasen, mens i tredjepasset er i tillegg den
+strukturelle og kampdimensjonen viktig for hvilke situasjoner som oppstår.
+
+5.7 Strømsgodset statistikk 2010 (del III)
+”TREDJESISTEPASSET”
+Tredjesistepasset før scoring:
+
+”TREDJESISTEPASSET” (sjanse)
+Tredjesistepasset før målsjanser:
+
+1 touch = 25 %
+
+1
+
+touch = 24 %
+
+2 touch = 14 %
+
+2
+
+touch = 21 %
+
+3 touch = 14 %
+
+3
+
+touch = 9 %
+
+4 touch = 7 %
+
+4
+
+touch = 6 %
+
+5 touch eller flere 22 %
+
+5
+
+touch eller mer = 11 %
+
+gj.vinning før målgivende = 14 %
+
+gj.vinning før sjanse = 13 %
+
+igangsetting fra keeper = 4 %
+
+igangsetting = 1 %
+dødball (kun hurtig frispark/kast) =14 %
+
+26
+
+Trener – III oppgave 2011 – Stian Lund
+
+En gledelig ting ved analysen rundt tredjepasset er at vi har tatt noen raske frispark og innkast
+som har ført til sjanser, i tillegg til en scoring etter et raskt frispark (hjemme mot SK Brann).
+Dette er et effektivt virkemiddel for å overraske motstandere som er sene i omstillingen.
+
+Tallene viser at min hovedproblemstilling; sammenhengen mellom antall touch ved scoring
+og sjanser, er tilnærmet lik. Det er altså ingen merkbar forskjell på antall touch ved sjanser og
+scoringer. Man vil derfor ikke nødvendigvis få et høyere antall scoringer om man avslutter
+oftere på 1 touch. Det er dog essensielt (som tidligere nevnt) å beherske ferdigheten av å
+avslutte på 1 og 2 touch. Det som blir viktigere er jo kvaliteten på de avslutningene man har.
+Spissene må mestre enda bedre delferdigetene av å avslutte på få touch, hvor det er viktig å
+øve på det tekniske repertoaret (teknikken), hurtigheten (tidsperspektivet) og stabiliteten (hvor
+ofte) man kan avslutte med kvalitet.
+
+5.8 Fem utvalgte scoringer
+Utgangspunktet for denne analysen er de fire dimensjonene som påvirker fotballferdigheten.
+Denne analysen vil gi svar på de tre underproblemstillingene i oppgaven.
+
+Hva kreves av fotballferdighet i de ulike situasjonene som fører til gjennombrudd og scoring?
+Hva kjennetegner målscoreren, spilleren som slår den målgivende pasningen, i tillegg til
+spilleren som slår ”tredjepasset” når gjennombruddet er et faktum.
+-
+
+Hva kreves individuelt?
+
+-
+
+Hva kreves relasjonelt?
+
+-
+
+Hva kreves strukturelt?
+
+-
+
+På hvilken måte spiller kampdimensjonen inn?
+
+Jeg har valgt å konsentrere meg om 5 scoringer og situasjonene som oppstår før scoring. Jeg
+har ikke tatt med hele angrepet fra enten gjenvinning, frispilling eller starten på det etablerte
+angrepet, da dette ikke er essensielt for oppgaven.
+
+27
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.8.1 Analyse 1:
+
+Figur 7: Strømsgodsets (i rødt) 1 – 1 scoring mot Viking på Marienlyst 28.03.10.
+
+Beskrivelse
+Strømsgodset spiller mot etablert og Viking ligger godt inne på egen halvdel. Komlan
+Amewou spiller en pasning med høy risiko over til høyre stopper Sætra. Han tar av press i
+mottaket og avanserer inn på Vikings halvdel. Et vinklet oppspill til Markus Pedersen som
+bruker to berøringer og legger igjen ballen til Jo Inge Berget. Berget utfordrer og spiller opp
+Markus igjen på et veggspill. Jo Inge stikker og får ballen tilbake på en touch av Markus.
+Berget rykker og mellom to stoppere, delvis alene med Jarstein får han med seg ballen på en,
+før han med utsiden av foten slår tunnel på keeper til 1 – 1.
+
+Individuelt
+Sætras evne til å ta av press med et kamuflert mottak fremover i banen. Hans evne til å føre
+ballen fremover. Et godt valg av Markus som legger igjen til Jo Inge. Hans vurdering tilsier at
+han har mann i rygg og er presset. Markus vurderer også at Jo Inge har bedre tid enn han selv,
+derfor velger han 1 touch.
+
+28
+
+Trener – III oppgave 2011 – Stian Lund
+
+Jo Inge Bergets ferdighet i form av å komme først inn i rommet etter pasning, hans medtak og
+oppfattelsen av at han her kun har en mulighet og det er å sette den mellom beina på keeper.
+
+Noen ville valgt å forsøke et vanskelig skudd på direkten etter veggspillet, men Jo Inge
+vurderer også at ved å ta med meg ballen passerer han forsvarsspillerne.
+
+Relasjonelt
+Vurderingen til Markus og Jo Inge som oppfatter at det her er klima for gjennombrudd med
+virkemiddelet veggspill. Det er også et stort rom mellom deres stopper og back på den siden,
+noe Jo Inge oppfatter. Han ser straks at det her er rom bak stopperen for gjennombrudd. Han
+venter dog på riktig tidspunkt til han får ”lurt” ut den ene spilleren som er i nærheten av å
+dekke rommet. Når han kommer i press er tiden inne for veggen og temposkiftet.
+Samhandlinga er god og timing og presisjon i veggspillet er perfekt. Markus sin evne til å lese
+veggspillet og forståelse for den relasjonelle dimensjonen for å utnytte rommet som skapes
+bak stopperen.
+
+Strukturelt
+Formasjonen til Strømsgodset tilsier at relasjoner mellom spiss og hengespiss / offensiv midt
+er viktige faktorer i angrepsspillet. Her vil det ofte være dybde i angrepsspillet slik at både
+kombinasjoner mellom disse og vinkler mot kantspillerne vil være mulig. Her er det
+retningslinjer med kanter som starter (gjør seg spillbare), i tillegg til vinkler og avstander som
+gjør slike kombinasjoner mulig. Backene hos motstanderen må alltid forholde seg til både
+kantene (bredde) og kombinasjonsspill inne i banen som ved scoringen. I tillegg ønsker
+Strømsgodset å angripe med både 1 og 2 ”indreløpere”, som i dette tilfellet. Balansespilleren
+er en av de sentrale i tillegg til 3 stk. i den bakre firer. Her har venstrebacken kommet høyt i
+banen, men det er en brukbar balanse allikevel, da Viking forsvarer seg med mange på rett
+side. Det skal dog sies at Komlan Amewou spiller et sjansespill med sin pasning til Sætra,
+som med sine individuelle ferdigheter tar av press. I den situasjonen er balansen dårlig.
+
+Kampdimensjonen
+I denne perioden etter pause (målet kommer i det 56. minutt) har Strømsgodset spilt Viking
+lavt og spillet foregår stort sett inne på banehalvdelen til Stavangerlaget. Viking leder på dette
+tidspunktet 1 – 0 på bortebane. Viking har nok folk på rett side av ballen, men de kommer
+ikke skikkelig oppi som 1F. I tillegg er det for store avstander i deres B4 som gjør at det er
+29
+
+Trener – III oppgave 2011 – Stian Lund
+
+mulig å få gjennombruddet mellom back og stopper. Strømsgodset er flinke og utnytter dog
+rommet Viking etterlater seg bak midtstopperen. Det må også nevnes at Strømsgodset ofte
+angriper på kantene, noe som kanskje kan være årsaken til at høyrebacken ligger bredere enn
+han burde. Det gode presset på Godsetspillerne lar vente på seg og det virker som Viking
+spillerne frykter bakrommet mot kantene og Markus Pedersen. Godset klarer da ved hjelp av
+god utførelse av 1A i tillegg til gode valg og bevegelse å utligne stillingen til 1-1.
+
+Antall touch
+
+
+Målscorer Jo Inge Berget bruker 2 touch. Hans evne til å ta med seg ballen med
+innsiden, og sette den mellom beina på keeper med en kjapp touch med utsiden av
+foten.
+
+
+
+Målgivende Markus Pedersen bruker 1 touch – Hans evne til å oppfatte rommet og
+bevegelsen, samtidig som han skjønner at om de skal utnytte rommet må han bruke 1
+touch.
+
+
+
+Tredjepasset Jo Inge Berget hvor han bruker 2 touch – Hans evne til å utfordre,
+oppfatte muligheten og ikke minst slå en presis ball til Markus som får ballen på riktig
+fot i forhold til veggspillet.
+
+30
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.8.2 Analyse 2
+
+Figur 8: Strømsgodset (i rødt) scorer 2-1 målet på Marienlyst mot IK Start. 18.04.10.
+
+Beskrivelse
+Strømsgodset spiller mot etablert når André Hanssen spiller tilbake til Adam Larsen. Han slår
+på direkten over midten mot høyre hvor Ola Kamara taper hodeduellen. André Hanssen
+vinner andreballen, spiller tilbake til Kamara. Han fører oppover, vender hjemover igjen og
+finner Hanssen på nytt i støtte. (Der kommer illustrasjonen inn ovenfor). Hanssen spiller så
+inn i banen til Fredrik Nordkvelle som er god og heldig med 1. touchen sin, og lurer både
+Owello og Bolanös med 1 touch. Så går han rett på stopperne Borgersen og Goodson hvor
+ingen er tydelig 1F og lar seg lett passere med gode driblinger. Touchen ut av driblingen er
+perfekt og han kan skyte direkte på neste touch. Høyrebacken Freeman kommer inn fra siden,
+men han rekker ikke å blokkere. Keeper Høie kommer ut på 6 meter, men har ingen mulighet
+til å redde skuddet som går nede i det venstre hjørnet.
+
+31
+
+Trener – III oppgave 2011 – Stian Lund
+
+Individuelt
+André Hanssens evne til å ta ned andreballen uten å miste den. Ola Kamaras evne til å holde
+på ballen, selv om han kunne brukt backen Aunan som kommer på overlapp. Mottaket og
+pasningen til André Hanssen som ligger i støtteposisjon. André har holdt av rommet og
+kommer ikke for tidlig fram. Fredrik Nordkvelle er god på persepsjon og søker etter
+informasjon flere ganger, posisjonerer seg der hvor mellomrommet er før han mottar ballen.
+Hans evne til å ta av press i første berøringen, i tillegg til selve driblingen. ”Kvelles” evne til å
+utfordre i tillegg til å bruke begge bein i driblingen, hvor han avslutter med en klinisk
+avslutning med høyrefoten. Balansen i selve driblingen er også perfekt samtidig som han
+utnytter antall touch maksimalt til fordel for eget lag.
+
+Relasjonelt
+Isolert sett er dette en klar enkeltmannsprestasjon, men jeg mener at etter den første
+dragningen hvor Fredrik Nordkvelle utfordrer Goodson og Haraldsen kan det se ut som han
+skal slå en vegg med Jim Johansen som har en fin posisjon for et veggspill. Måten Goodson
+også går inn på kan virke som om han forventer et veggspill. Sånn sett tror jeg den
+relasjonelle dimensjonen bidrar til at Nordkvelle lykkes med gjennombruddet. Når det gjelder
+antall touch hos Nordkvelle er han veldig heldig på den første touchen. Han får den med seg
+rundt Owello på 1. touchen, men selve finta i etterkant er trenger han å bruke det antallet
+touch han gjør. Fredrik velger å gå for gjennombruddet på egen hånd, og derfor bruker han
+det antallet han må, for å klare gjennombruddet.
+
+Strukturelt
+Nordkvelle har posisjonert seg som Jo Inge Berget gjorde på det første målet jeg har
+analysert. Når spissen er flink til å strekke blir det ofte et rom foran, noe Nordkvelle her
+utnytter. Han bekler den offensive midtbaneposisjonen (også kalt hengespiss) hvor han meget
+aktivt posisjonerer seg riktig i rommet. Det er god bredde på høyrekanten, men venstrekanten
+kunne kanskje med fordel ha ligget enda lengre ut for å skape enda mer rom sentralt.
+
+Kampdimensjonen
+Stillingen var 1 – 1 til pause hjemme på Marienlyst. Strømsgodset hadde styrt det meste i
+førsteomgang og start utlignet på sitt første skudd på mål. Kampbildet fortsetter med at
+Strømsgodset styrer spillet og presser Start lave. Start har mer enn nok folk på riktig side, selv
+om de har sideforskyvet vel mye i denne situasjonen. Strømsgodset har mange folk i angrep,
+32
+
+Trener – III oppgave 2011 – Stian Lund
+
+men på tross av dette synes jeg Godset angriper med balanse ettersom begge stopperne, André
+Hanssen og Joel Riddez balanserer på hver sin side. Startlaget er svake i presset sitt, noe som
+gjør at Godset får spilt ballen inn i rommet foran stopperne uten særlig press på ballfører.
+Godset har posisjonert backene sine høyt i banen, noe som skaper mer rom mellom Start
+spillerne inne i banen da de ikke har komprimert spesielt godt. Dette bidrar også til å skape et
+trykk mot Start, som de ikke klarer å stå i mot. Når det gjelder antallet touch skiller dette
+målet seg litt ut, da både scoreren, målgivende og tredjepasset bruker forholdsvis mange
+touch.
+
+
+Målscorer Fredrik Nordkvelle bruker 7 touch – Hans evne til å ta av press, drible med
+kvikke touch mellom motspillere i tillegg til tyngdeoverføring, balanse og finter. Når
+jeg spurte Nordkvelle om hva som skjedde, kunne han ikke forklare det, ”det bare
+skjedde”. I tillegg til å kunne avslutte kontant når muligheten er der.
+
+
+
+Målgivende pasning fra André Hanssen hvor han bruker 3 touch – Hans evne til å
+oppfatte rommet til Nordkvelle og slå en presis pasning på fot inn i rommet.
+
+
+
+Tredjepasset til Ola Kamara hvor han bruker 10 touch – Forsøker seg på et angrep på
+høyre, men ser at det blir trangt og vender hjem og velger en enklere løsning. Ser ut til
+å være et klokt valg, selv om det ser mer tilfeldig ut.
+
+33
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.8.3 Analyse 3:
+
+Figur 9: Strømsgodset (i rødt) scorer 1 – 0 mot VIF hjemme på Marienlyst. 01.05.10.
+
+Beskrivelse
+Det starter med at Lars Sætra bryter et VIF oppspill og slår opp Fredrik Nordkvelle. Han
+forsøker å finne Berget i den offensive midtbanerollen, men mislykkes. Litt heldig får han
+tilbake ballen i beina og bruker farta si og stikker fra André Muri hos VIF på tvers av banen
+mot Godsets høyrekant. Der passer han til Øyvind Storflor som på direkten med venstrefoten
+trer ballen opp i banen til Berget (der kommer illustrasjonen inn). Med den ene pasningen
+spiller Godset av 5 mann hos VIF inkludert midtbanen og venstrebacken som forsøker å støte
+i Øyvind. Dog for seint ute.
+
+Dermed oppstår en klar 3 mot 2 situasjon ettersom Mohammed Keita ligger på venstre, og
+Markus Pedersen på høyre mot to forsvarsspillere i Birger Madsen og Amin Nouri. Berget
+venter helt til Madsen støter og spiller fri Pedersen med utsiden av høyrefoten. Pedersen har et
+godt mottak og legger til rette for avslutningen før han skyter kontant over keepers høyre
+skulder til 1 – 0.
+34
+
+Trener – III oppgave 2011 – Stian Lund
+
+Individuelt
+Øyvinds Stoflors evne til å oppfatte rommet bak VIF’s midtbane. Valg og utførelse på 1 touch
+av høy klasse. Så Jo Inge Bergets evne til å oppsøke Birger Madsen for så å droppe pasningen
+kamuflert med utsiden av sin høyrefot til Markus Pedersen. Berget har i tillegg sett
+muligheten, sett rommet og posisjonert seg riktig i rommet for å motta ballen i overgangen.
+Når pasningen fra Øyvind blir slått har Jo Inge også evnen til å orientere seg fram i banen, for
+å se om han har tid til bare å la ballen rulle i lengderetningen. Markus Pedersen sitt perfekte
+mottak i forhold til å avslutte på neste touchen. Og avslutningen i seg selv. Hardt og plassert
+like over skuldra til keeper til 1 – 0. Markus har også en evne i denne situasjonen til tålmodig
+å ligge bredt og ikke starte inn bak Birger Madsen. Pedersen ser muligheten om Berget
+utfordrer og dropper pasningen. Markus Pedersen ”holder av” rommet. Både Pedersen og
+Berget viser prov på raske touch og ekstrem god tilrettelegging for neste trekk.
+
+Relasjonelt
+Når ballen kommer ut til Øyvind Storflor er det tydelig at han er bevisst på at
+mellomromsspilleren ligger bak VIF’s midtbane. Det er tydelig at han er vant til å spille
+ballen inn i rommet mot den offensive midtbanespilleren. I stedet for å se på det som en 3 mot
+2, kan man også se på det som en 2 mot 1 med Markus og Jo Inge mot Birger Madsen. Berget
+er veldig tydelig på å utfordre Madsen, samtidig som han vet at på et eller annet tidspunkt gjør
+han et utfall, og da er timingen riktig for å spille fri Pedersen med en kjapp touch med utsiden
+av foten. Relasjonen mellom Berget og Pedersen er tydelig god og timingen passer perfekt.
+Slike situasjoner virker naturlig for de to og de løser overgangen helt perfekt.
+
+Strukturelt
+Strømsgodset spiller fortsatt 4-2-3-1 og igjen er den offensive midtbanespilleren sentral hvor
+Berget ”detter” rett opp i mellomrommet, når Godset vinner ballen. Dette skjer automatisk og
+når ballen kommer dit har plutselig VIF dårlig balanse, da det oppstår en overtallsituasjon for
+Godset. VIF spiller mot etablert ved å splitte stopperne. Derfor er André Muri veldig høyt i
+banen når balltapet kommer. Amin Nouri på høyre back tar returløpet og hadde han ikke gjort
+det ville det vært 3 mot 1. Venstrebacken forsøker å støte på Øyvind men er for seint ute og
+”selger seg” i stedet for å komme hjem på rett side. Et annet aspekt er at Godset ønsker ballen
+sentralt i banen så lenge som mulig i overgangsspillet, noe som kommer tydelig fram her.
+Berget kunne spilt Pedersen med en gang, men da hadde ikke Markus kommet til den gode
+scoringssjansen han faktisk kommer til.
+35
+
+Trener – III oppgave 2011 – Stian Lund
+
+Kampdimensjon
+VIF kommer fra 6 – 1 hjemme mot Odd, mens Godset tapte 0 – 4 i Bergen mot Brann.
+Kampen er forholdsvis jevn selv om Godset skaper de største sjansene i første omgang. VIF
+skaper også noen gode muligheter i starten fordi Shelton ofte bruker farta og kommer rundt på
+venstrekanten. Målet kommer i det 39. minutt på en overgang etter at Godset hadde presset
+lavt noen minutter. Jeg mener at VIF blir overivrige og har dårlig balanse i laget. De angriper
+med for mange spillere og pga godt overgangsspill scorer Godset. Om VIF’s venstreback
+Nordvik ikke hadde gått opp i Storflor ville de vært i numerisk balanse og kanskje forhindret
+baklengsmålet.
+
+
+
+Målscorer Markus Pedersen bruker 2 touch – Hans evne til å avslutte raskt med et
+hardt raskt skudd. Mottaket og tilrettelegginga er perfekt, noe som gjør at skuddet blir
+enklere, og slik at han bare trenger å bruke 2 touch.
+
+
+
+Målgivende pasning fra Jo Inge Berget som bruker 3 touch – Hans evne til å oppfatte
+overtallet, bruke akkurat passe touch i forhold til avstand til forsvarsspilleren og ikke
+minst den raske utsiden av foten som spiller Markus alene med keeper.
+
+
+
+Tredjepasset til Øyvind Storflor som bruker 1 touch – Oppfattelsen av mellomrommet
+og evnen til å bruke 1 touch raskt nok til at forsvareren ikke kommer oppi. Denne
+raske touchen skaper selve overtallet.
+
+36
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.8.4 Analyse 4:
+
+Figur 8: Godset (i rødt) scorer på en overgang 0 – 1 målet mot Kongsvinger på
+Gjemselund 11.07.10.
+
+Beskrivelse
+Et KIL innlegg i Godset boksen blir headet ut av venstreback Riddez. André Hanssen står på
+17 meter og avklarer med et en hel volley ut i midtsirkelen (se illustrasjon over). Der står
+spiss Petar Rnkovic og tar ned ballen feilvendt. Han vender opp og slår ut på venstrekanten
+hvor Øyvind Storflor kommer løpende. Han fører ballen inn i 16-meteren til KIL og vender
+opp. Han ser opp og slår et presist innlegg på bakre stolpe hvor Petar setter ballen i mål på hel
+volley via bakken og hendene til keeper Thomas Myhre. Dermed 0 – 1 til Godset på en
+strålende overgang.
+
+Individuelt
+Først Petars evne til å ta ned ballen. Han er orientert og vet han kan vende opp. Han kunne
+også lagt i støtte til Alfred Sankoh, men velger klokt og bringer ballen bredt ettersom KIL har
+4 mann sentralt i banen. Øyvinds evne til å føre ballen i stor fart, utfordre og skaffe seg nok
+37
+
+Trener – III oppgave 2011 – Stian Lund
+
+rom til å slå innlegget. Petars evne til å holde av rommet, vente lenge nok til at Øyvind er klar
+for å slå innlegget, før han angriper rommet på bakre stolpe. Det er lang vei fram for Petar, og
+han ser tidlig muligheten for scoring ved å løfte armen i været og signalisere til Øyvind at her
+er det rom.
+
+Relasjonelt
+Petar er en klassisk boksspiller og målscorer. Så fort han har slått ballen ut på kanten vet han
+at det kommer et innlegg. Petar vet også at Øyvind ”jukser” litt defensivt og at han starter
+tidlig på kanten. En av Øyvinds Storflors andre sterke sider er nettopp innlegget, så Petar
+setter full fart fremover etter at han har slått ballen ut på kant. Markus Pedersen ser også at
+Petar rekker på bakre stolpe, så han ”buer” løpet sitt og starter mot første stolpe når klimaet
+for innlegget er der. Han skaper rommet for Petar som utnytter dette perfekt. Det blir en enkel
+jobb å sette ballen i det tomme buret. Muhammed Keita som ikke er så god relasjonelt, holder
+på å ødelegge rommet og ikke minst komme i veien for scoring. Han bør i denne situasjonen
+ligge igjen i retur mellom straffe og 16-meter.
+
+Strukturelt
+Ved å spille 4-2-3-1 vil Godset ha kanter som noen ganger ”jukser” litt defensivt og være
+mulige oppspillpunkter i overgangene. Jeg mener KIL her er feige i kontradekninga da de
+ikke tør å støte på Petar, som får vende. Her ligger spissen Markus Pedersen på høyde med
+Petar som spiller ”hengespiss”, i tillegg til Øyvind som stikker tidlig på kant, nesten som en
+ving i håndball. KIL har riktignok numerisk balanse i situasjonen, men ved hjelp av meget
+god ”ballwatching” klarer de ikke å unngå baklengsmål. KIL spiller Torp løper fra midten og
+inn i egen boks uten å se seg rundt en eneste gang, noe Strømsgodset utnytter.
+
+Kampdimensjon
+Godset stod uten borteseier før denne kampen og så en god mulighet for å få den første.
+Scoringen kom i det 29. minutt og før dette hadde bortelaget hatt 3 muligheter mens
+hjemmelaget hadde hatt 1. Godset ønsket i aller høyeste grad en borteseier mens det begynte å
+spøke litt for Kongsvinger. Mot et bortesvakt Godset var nok dette en av kampene de måtte ha
+vunnet for å klare seg i Tippeligaen. Kongsvinger burde stått tettere opp i Petar når
+avklaringen kommer. Petar er ingen dribler og har verken farten eller teknikken til å passere
+motstandere med ballen. Han gjør ting enkelt, så her burde det vært mulig og stått opp. Når
+ballen først havner utpå venstrekanten hos Øyvind og KIL spiller Risholt går i press, er det
+38
+
+Trener – III oppgave 2011 – Stian Lund
+
+altfor svakt forsvarsspill og for dårlig press. Nesten ingen tegn til å nekte innlegget, bortsett
+fra at han løfter beinet litt. Scoringen er litt annerledes enn den forrige, hvor overgangen
+utnytter rommet på siden og ikke i midten. Samtidig som KIL ikke makter å nekte rommet på
+bakre stolpe. Petar gjør det rette med å avslutte på 1 touch, mens han vender opp og setter
+Øyvind tidlig i gang med 3 touch i midtsirkelen. Øyvind bruker riktig antall touch når han
+utfordrer Risholt og skaffer seg rom til å slå innlegget.
+
+
+Målscorer Petar Rnkovic bruker 1 touch – Hans evne til å avslutte direkte på volley
+med innsiden av foten i stedet for å bruke kraft. Litt heldig, men dog ettersom han ikke
+treffer den reint, men presist allikevel. Også hans evne til å posisjonere seg riktig i
+rommet KIL skaper på bakre stolpe.
+
+
+
+Målgivende pasning fra Øyvind Storflor som bruker 6 touch – Hans evne til å føre ball
+i høy fart, utfordre, orientere seg på fjernrommet og presist droppe ballen inn i
+rommet, nesten ferdigscoret.
+
+
+
+Tredjepasset fra Petar Rnkovic som bruker 3 touch – Hans evne til å være orientert i
+mottaket, vende opp og enkelt på tredje touchen slå i rommet foran Øyvind ute på
+kanten, i stedet for å føre ball selv, noe han ikke behersker spesielt godt på det nivået.
+
+39
+
+Trener – III oppgave 2011 – Stian Lund
+
+5.8.5 Analyse 5
+
+Figur 9: Godset (i rødt) scorer 0 – 1 målet mot Sandefjord på Komplett.no Arena
+29.08.2010.
+
+Beskrivelse
+Strømsgodset tar et raskt frispark på venstre side rundt midtstreken. Muhammed Keita mottar
+ballen ute på den venstre siden på høyde med 16-meter streken. Keita utfordrer og går rett på
+Zanetti som spiller høyre back hos Sandefjord. Keita pådrar seg press fra 3 spillere før han
+vinkler en pasning tilbake og innover i banen til Øyvind Storflor. Øyvind bruker 2 touch,
+vender opp på første og får press fra to spillere. Han dytter så ballen videre til Sankoh på 16meter streken midt foran målet. Sankoh sentrer så videre på 1 touch til høyreback Aunan som
+har kommet opp på utsiden av deres back. Aunan skyter på direkten fra ca 11 meter, hardt i
+det nærmeste hjørnet til keeper Heier til 0 – 1 til Godset.
+
+40
+
+Trener – III oppgave 2011 – Stian Lund
+
+Individuelt
+Keitas evne til å utfordre Zanetti selv om to mann rekker inn i sikring. Keita slår med innsiden
+av høyrefoten i steget som gjør det vanskelig for Zanetti å lese. Øyvinds herlige vending på 1
+touch hvor han bruker akkurat nok tid før han blir taklet. Alfred Sankohs flotte en touch
+pasning, akkurat vektet slik at Aunan kan skyte på direkten. Aunans skudd må jo også tas
+med, selv om jeg mener keeper Heier bør redde. Skuddet med strak vrist er hardt og
+velplassert i nærmeste hjørne fra ca. 11 meter.
+
+Relasjonelt
+Det er tydelig at backene til Strømsgodset er vant til å posisjonere seg høyt i banen når de
+angriper mot etablert. Når Sandefjord lager frisparket er det en god relasjon mellom
+venstreback Riddez og venstrekant Keita som tidlig posisjonerer seg høyt og bredt for å motta
+ballen. Han er god 1 v 1, noe Riddez er klar over og ”gir” Keita ballen så tidlig og så ofte som
+mulig. Jeg vil si at det er en klar rollefordeling. Relasjonen mellom Sankoh som dytter ballen
+videre på 1 touch til Aunan som kommer på utsiden, er en god relasjonell ferdighet. Hvis
+Sankoh hadde benyttet flere touch ville Aunan ha ”brukt opp” rommet sitt. Jeg vil ikke si at
+det er en spesiell relasjon mellom midtbanespiller Sankoh og Aunan, men i forhold til
+situasjoner som dette vet Alfred at backen kommer på løp.
+
+Strukturelt
+Angrepet i seg selv minner mye om et håndballangrep hvor man ruller opp mot den ene siden
+ved å utfordre, for så å sentre ballen videre. Jeg vil si at Strømsgodset angriper med god
+balanse, hvor begge stopperne og en av de sentrale ligger foran og har kontroll på de to
+angrepsspillerne til SF. Sandefjord har 8 mann i og rundt egen 16-meter, så det burde i aller
+høyeste grad være mulig å hindre baklengsmål. Med å ha kantspillere så ønsker man å sette de
+opp 1 v 1 på sidene for så enten å få backen rundt på overlapp eller at kanten dribler av sin
+back. Her representerer Keita den typiske vingen som gjør nettopp dette. Øyvind Storflor som
+spiller høyre kant har trukket inn sentralt i banen og skaffer seg rom utenfor 16-meteren.
+Dette fordi det er såpass kort avstand til målet. Det å ligge helt ute på høyre side ville kanskje
+ikke vært gunstig for laget. Derimot å komme inn som en ”mellomromsspiller” og være med å
+avslutte, evt. kombinere rundt 16-meteren er ønskelig. Dette strukturelle momentet i spillet
+ble Strømsgodset mer og mer opptatt av utover i sesongen, og jeg vil jeg si de lykkes med det
+her.
+
+41
+
+Trener – III oppgave 2011 – Stian Lund
+
+Strømsgodset angriper med 6 – 7 spillere. Venstreback Riddez ligger i støtteposisjon for Keita
+og høyreback Aunan kommer utvendig på høyre når Sankoh mottar ballen på 17 meter.
+
+Kampdimensjon
+Sandefjord hadde 8 poeng på 21 runder før denne kampen, og var på desperat jakt etter en
+seier ettersom det var en av de siste sjansene for fortsatt eksistens i Tippeligaen. Godset
+hjemme er en kamp de burde ha en god sjanse for å vinne, ettersom Godset ikke var noe godt
+bortelag. Sandefjord spiller 4 – 4 – 2, selv om det bare er en spiss i denne situasjonen. Det var
+en forholdsvis jevn første halvtime og 0 – 1 scoringen kommer i det 30. minutt. Det ser ut til
+at Sandefjord har jobbet med det defensive da de forsvarer seg med 8 mann innenfor egen 16meter. På tross av dette makter de allikevel ikke å unngå baklengs. Den hurtige vendinga via
+spillere som drar på seg press takler de dårlig og de har ikke evnen til strukturelt å jobbe i
+forsvar. De ser engstelige og redde ut, uten selvtillit og de er ekstreme i forhold til å bare se på
+ball (ballwatching). Det ser ikke som om de orienterer seg i forhold til hverandre og støter
+ukritisk. Strømsgodset utnytter bredden i angrep og får rom på høyre etter at ballen har vært
+på venstre. Sandefjord ligger lavt i banen men er ikke dyktige nok i presset sitt.
+
+
+Målscorer Krister Aunan bruker 1 touch – Hans evne til å holde av rommet, ”time” og
+komme på riktig tidspunkt, i tillegg til selve skuddet med strak vrist i nærmeste hjørne
+på direkten.
+
+
+
+Målgivende fra Alfred Sankoh som bruker 1 touch – Hans evne til å se løpet til Aunan
+og time pasningen perfekt på 1 touch, slik at Krister kan skyte direkte.
+
+
+
+Tredjepasset fra Øyvind Storflor som bruker 2 touch – Hans evne til å vende hurtig og
+presist opp på 1 touch samtidig som han legger ballen til rette for neste pasning, evnen
+til å ”time” riktig tidspunkt, spille på seg press og ”dytte” videre til en bedre plassert
+spiller.
+
+Underproblemstillingene:
+Individuelt: krever at spilleren behersker ferdigheten av å avslutte på 1 og 2 touch. Gjerne
+med et bredt teknisk repertoar.
+Relasjonelt: krever at spilleren er i stand til å skape og utnytte rom, i tillegg til å benytte det
+riktige antallet touch for å utnytte det skapte rommet, i form av gode relasjoner til
+medspillerne.
+
+42
+
+Trener – III oppgave 2011 – Stian Lund
+
+Strukturelt: Utnytte rom, med kvikke touch, gode relasjonelle ferdigheter og klare
+retningslinjer på hvordan du ønsker å angripe. Gjerne en formasjon som utnytter rom hos
+motstanderen.
+Kampdimensjonen: Krever at du mestrer helheten, stresset og ikke minst gjør kloke valg i
+kampens ulike faser. At laget makter å styre kampene, tenkte offensivt og angripe
+motstanderen. Evnen til å utnytte feil motstanderen gjør.
+
+6
+
+Oppsummering av analysen - Konklusjon
+
+Jeg har i dette kapitlet analysert data på to ulike måter:
+
+
+Kvantitativ kampanalyse gjennom å se på samtlige scoringer og sjanser Strømsgodset
+hadde i Tippeligaen, sesongen 2010.
+
+
+
+Kvalitativ kampanalyse gjennom å se på fem utvalgte scoringer i lys av antallet
+berøringer og de fire dimensjonene.
+
+Den kvantitative scoringsanalysen har vist at mange av scoringene til Strømsgodset denne
+sesongen kom på 1 touch. Hele 57 % av målene ble scoret på 1 touch, enten med hode eller
+beina. Når det gjelder sjansene ble 56 % av disse avsluttet på 1 touch. Det vil si tilnærmet helt
+likt i forhold til avslutninger på 1 touch. Dette gjelder uavhengig om det er mot etablert
+forsvar eller i overgangsspillet. Tallene er bemerkelsesverdig like og jeg forstår det slik hen at
+skal man få større uttelling handler det ikke først og fremst om hvor mange touch man bruker
+men heller at man trener og utvikler den tekniske avslutningsferdigheten uavhengig av hvor
+mange touch man bruker.
+
+57 % er et høyt tall synes jeg og beviser i aller høyeste grad at det lønner seg å utvikle
+ferdigheter som tilsier at man setter ballen i mål med 1 touch. Prosenten for 2 touch ligger på
+beskjedne 14 % men totalt sett da med 1 og 2 touch er prosentandelen på scoringer 71%. Av
+Marcus Pedersen sine 7 scoringer i fjor kom en av de på retur etter dødball, og 6 av målene
+ble utført på 1 touch. Den syvende scoringen var mot VIF og der brukte han 2 touch. 6 av de
+20 målene som ble scoret på 1 berøring var det altså Marcus som stod bak. Han er en typisk
+målscorer og trenger sjelden mer en 1 touch for å sette ballen i mål. Derfor er det overveiende
+logisk at ethvert lag i Tippeligaen trenger en spiss som har disse ferdighetene for å score
+tilstrekkelig med antall mål.
+
+43
+
+Trener – III oppgave 2011 – Stian Lund
+
+Samtidig er det jo tydelig at de fleste scoringene og sjansene avsluttes på 1 touch. Jeg kan
+derfor konkludere at sjansen for scoring er større om spilleren bruker 1 touch, kontra flere
+touch i forhold til statistikken. Det er dog essensielt at spilleren behersker den ferdigheten.
+Det hjelper lite om spilleren bruker 1 touch hver gang om han sjelden treffer målet.
+Det er også tydelig at enkeltspillere går igjen når det gjelder å bruke flere berøringer på selve
+scoringen, og det er Muhammed Keita og Fredrik Nordkvelle som begge bruker flere enn 1
+berøring på sine 7 mål til sammen denne sesongen. Dette skyldes nok at ingen av dem regnes
+som spisser selv om begge karakteriseres som offensive spillere og at de sjelden er mye i
+boksen. Begge har dog meget gode individuelle ferdigheter som gjør at de kan dra seg forbi
+sin oppasser og skaffe seg rom og tid til å avslutte. For at disse skal utvikle seg som
+målscorere er det en forutsetning mener jeg at de utvikler ferdigheten med å avslutte på færre
+touch.
+
+6.1 Kjennetegn
+Jeg har gjennom kvalitative analyser av fem scoringer vist hvordan alle de fire dimensjonene
+har stor innvirkning på angrepene som ga scoring.
+
+Jeg har sett på hvilke individuelle ferdigheter som går igjen i de tre siste involveringene før
+scoring og sjanse. Her har jeg vært gjennom både valg og utførelse i de ulike delferdighetene.
+
+Konklusjonen er at laget trenger gode individuelle ferdigheter både når det gjelder valg
+og utførelse. Spillerne kan dog utfylle hverandre med komplimentere ferdigheter og
+tydelige rolleavklaringer.
+
+Et eksempel er når backen Joel Riddez tidlig gir Muhammed Keita ballen i 1 v 1 situasjoner
+fordi Keita behersker dette godt. Det er dog alltid en fordel å utfylle hverandre og beherske
+ulike delferdigheter. Funnene viser tydelig at i de avgjørende situasjonene handler det om
+å bruke det riktige antallet berøringer, samtidig med gode bevegelser for å skape og
+utnytte rom motstanderen gir fra seg. Det er skudd med vrista, plassering av ballen med
+innsiden av foten, kamuflerte kvikke avslutninger med utsiden av foten, headinger og
+avslutninger på volley. Dette er dog underordnet da jeg har hatt fokus på antallet berøringer i
+stedet for selve avslutningsteknikken. De fleste av involveringene har også raske touch på
+ballen, kvikke avslutninger og målgivende som ofte overrasker motstanderen.
+
+44
+
+Trener – III oppgave 2011 – Stian Lund
+
+For spilleren som slår den målgivende pasningen vil jeg si evnen til å oppfatte, vurdere og
+handle raskt nok for å utnytte ubalanse eller feil hos motstanderen og for å sette opp
+medspilleren til en klar målsjanse. Her er antallet berøringer ofte litt flere enn på selve
+scoringen og det handler også mer om den relasjonelle ferdigheten. En annen viktig faktor her
+er tidspunktet for pasningen, som må slås på akkurat riktig tidspunkt for at medspilleren skal
+kunne score. Analysen for de målgivende pasningene ligger på 28 % for 1 touch og 28 % for
+2 touch. Dette betyr at både den individuelle dimensjonen og den relasjonelle er enda
+viktigere enn det er å bruke 1 kontra 2 touch. Dette er ganske tydelig på flere av målene, hvor
+individualister som Keita og Pedersen er involvert sammen med spillere som også er gode
+relasjonelt som Berget og Nordkvelle.
+
+Samtidig er det jo veldig tydelig at om du ønsker å score mange mål er det essensielt å
+beherske ferdigheten med å slå den målgivende pasningen både 1 og 2 touch.
+
+Når vi ser på det såkalte tredjesistepasset er prosentandelen for antall berøringer lavere og mer
+sprett fra 25 % på 1 touch til 7 % for 4 touch. I denne kategorien synes jeg det er få forskjeller
+og at antallet berøringer her handler mer om individuelle, relasjonelle og strukturelle
+ferdigheter enn selve antallet touch. Jeg vil ikke si her at få touch i denne fasen er avgjørende
+for om det blir scoring til slutt (selv om det kan være det, ref. Storflors involvering før 1-0
+målet mot VIF). Det handler mer om riktig antall i hver enkelt situasjon.
+
+Det er også tydelig at jo lenger unna selve scoringen (eller målet) vi beveger oss, jo flere
+berøringer bruker spilleren. Dette tyder på at jo nærmere målet du er til motstanderen jo
+viktigere er det å bruke få touch.
+
+45
+
+Trener – III oppgave 2011 – Stian Lund
+
+6
+
+Litteraturliste
+-
+
+Carlsen, Kristian Holm: Ballbesittelse og effektivitet. Fordypningsoppgave
+trenerstudiet 2. år, 2000.
+
+-
+
+Eggen, Nils Arne: Godfoten 1999
+
+-
+
+Fredrik Nordkvelle, samtale om scoringen hjemme mot IK Start, 2010.
+
+-
+
+Hellevik, O: Forskningsmetode i sosiologi og statsvitenskap, 5. opplag, 1991.
+
+-
+
+Hellevik, O: Forskningsmetode i sosiologi og statsvitenskap, 2002.
+
+-
+
+Holme, I.M. og Solvang B.K: Metodevalg og metodebruk, 1991.
+
+-
+
+Holmedal, Ronny: Hva kjennetegner spissen ved scoring? Et
+forskningsprosjekt med analyse av spillere i Tippeligaen 2007.
+
+-
+
+Larsen, Johansen, Bergo, Morisbak: Ferdighetsutvikling i fotball, 2003
+
+-
+
+Larsen, Olsen, Semb: Effektiv fotball, 1994
+
+-
+
+Larsen og Sigmundstad: VM – analyse -98. 1998.
+
+-
+
+Livesenter TV2, Strømsgodsets kamper i Tippeligaen 2010.
+
+-
+
+Morisbak, Dreier, Skarsfjord: God fotballferdighet, 1986
+
+-
+
+Riisnæs, Dag: Sidebacken høyt i banen – det nye angrepsvåpenet. Hva kreves i
+så måte av backen og resten av laget? Trener III – oppgave 2006 / 2007.
+
+-
+
+Ronglan, Lars Tore: Ballspill er problemløsning. Hvilke didaktiske
+implikasjoner har det,? 2003.
+
+-
+
+Ronglan, Lars Tore: Lagspill, læring og ledelse 2008
+
+-
+
+Ronglan, Lars Tore og Ø. Larsen: Ballspillanalyse - mer enn
+arbeidskravsanalyse: Om spillenes egenart og krav, 2003.
+
+-
+
+Stavrum, Arild: Hvordan score mål? I samtiden. Utgave 4.
+
+-
+
+TV2 DVD – Hønefoss – Strømsgodset fra 04.07.2010.
+
+-
+
+VM – prosjektet v/ Mathias Haugaasen.
+
+-
+
+Wade, Allan: The FA Guide for Training and coaching, 1967.
+
+-
+
+www.footytube.com
+
+-
+
+www.youtube.com
+
+-
+
+www.sport1.de (intervju med Joachim Löw, publisert 24.12.2010)
+
+46
+
+Trener – III oppgave 2011 – Stian Lund
+
+Sammendrag
+Tittel:
+En analyse av angrepsspillet til Strømsgodset TF - Sesongen 2010, Tippeligaen
+
+Sammenhengen mellom antall touch ved scoring og sjanser, og om sjansen for scoring øker,
+jo færre touch spilleren bruker?
+
+Bakgrunn for oppgaven
+I dagens fotball er mange inkludert meg selv opptatt av å spille underholdende offensiv fotball
+og da helst med få touch på ballen. Toppfotballen blir stadig raskere og det stilles større krav
+til delferdigheter og da spesielt når det handler om å score mål. Både målscoreren og han som
+slår den målgivende pasningen bør mestre ulike ferdigheter som å bruke få touch. Dette for å
+skape gjennombrudd som igjen skaper sjanser og mål. Jeg var interessert i å se på antallet
+touch spillerne brukte i de siste fasene (involveringene) før sjanse og scoring. Er det noen
+forskjell i antall touch? Ville spilleren som avslutter uten å score mål scoret flere om han
+brukte færre touch? Dette var interessante spørsmål jeg ønsket å se nærmere på i oppgaven.
+Jeg jobber til daglig med unge spillere og var interessert i forhåpentligvis å finne noen
+arbeidskrav til de offensive spillerne som ønsker å spille i Tippeligaen. Hvilke kjennetegn kan
+man finne hos de involverte spillerne og hvilke individuelle og relasjonelle ferdigheter har de?
+
+Problemstilling
+Sammenhengen mellom antall touch ved scoring og sjanser, og om sjansen for scoring øker
+med jo færre touch spilleren bruker?
+
+Med sammenhengen mener jeg å se på likheter og eventuelle forskjeller når jeg har
+kategorisert scoringene og sjansene. Er prosentandelen hvor målscoreren benytter 1 touch
+høyere enn der avslutteren bruker 1 touch ved sjansene?
+
+Ved kjennetegn ser jeg etter fellestrekk eller mønstre ved spilleren som scorer målene, i
+forhold til antallet touch han bruker. Jeg vil også se på kjennetegn i forhold til de 4
+dimensjonene både ved scoringen, målgivende og tredjepasset.
+
+47
+
+Trener – III oppgave 2011 – Stian Lund
+
+Underproblemstillinger
+Hva kreves av spillerne som er involvert i sjanser og scoringer, både i scoringsfasen, og i
+”målgivende” og ”tredjepasset”.
+
+
+Hva kjennetegner antallet touch hos spilleren som scorer.
+
+
+
+Hva kjennetegner antallet touch hos spilleren som slår den målgivende pasningen
+
+
+
+Hva kjennetegner antallet touch hos spilleren som har ballen før den målgivende
+pasningen.
+
+Teori
+I teorikapittelet starter jeg med litt historikk rundt spillet fotball og utviklingen av hvordan vi
+ser på motsetningene i kampen. Hva handler fotball om? Fotballferdighet er et essensielt
+begrep som går igjen i kapittelet og jeg tar utgangspunkt i boka til Morisbak, Dreier og
+Skarsfjord ”God fotballferdighet – lær taktikk – teknikk” fra 1986. I boka representerer
+begrepet taktikk spillerens handlingsvalg eller det spilleren velger å gjøre i den enkelte
+situasjon. Teknikk i denne forståelsen knyttes da til selve handlingen eller måten spilleren
+løser oppgaven på. Jeg ser også litt historisk på utviklingen av norsk fotball og hvordan synet
+på fotball har endret seg fra Wade til Eggen og Ø. Larsen, E. Olsen og N.J. Semb.
+
+I kapittelet beskriver jeg også hvordan de fire dimensjonene er avhengig av hverandre. Alle
+fire spiller en viktig rolle i utviklingen av enkeltspillere og lag. Vi som trenere må ta hensyn
+til de fire dimensjonene når vi skal forstå og utvikle den helhetlige fotballferdigheten.
+
+Metode
+Jeg valgte i metodedelen å skissere de viktigste momentene innen kampanalyse. Hvordan den
+har utviklet seg ettersom analyse av videobilder var den viktigste metoden jeg brukte for å
+samle inn data.
+Jeg benyttet meg av både en kvantitativ analyse og en kvalitativ analyse. Den kvantitative
+analysen brukte jeg for å belyse hovedproblemstillingen, Jeg valgte å analysere de 51
+scoringene og de 96 sjansene (definisjon av sjanse) til Strømsgodset i Tippeligaen 2010. Jeg
+valgte å ta bort dødballer da de skiller seg veldig ut i forhold til antall touch før sjanse /
+scoring. Ved å finne ut hvor mange scoringer som kom på 1 touch, 2 touch osv, fikk jeg
+kunnskap om lagets ferdigheter i forhold til de 3 siste involveringene før sjanse / scoring.
+Dette ble gjort i lyset av de fire dimensjonene.
+
+48
+
+Trener – III oppgave 2011 – Stian Lund
+
+I den kvalitative analysen brukte jeg også videoanalyse for å belyse de 3
+underproblemstillingene. Jeg plukket ut 5 scoringer for å belyse disse nærmere og for å se i
+dybden på selve scoringene og hvilke ferdigheter man er avhengig trenger. Jeg ville belyse de
+fire dimensjonenes innvirkning på disse angrepene og finne ut hva som kjennetegnet disse
+scoringene. Scoringene ble analysert ut fra de fire dimensjoner og et helhetlig
+fotballperspektiv.
+
+Resultater / diskusjon
+I dette kapittelet presenteres og drøftes resultatene. Jeg tar først for meg de viktigste
+retningslinjene for Strømsgodsets angrepsspill noe jeg synes er hensiktsmessig før selve
+analysen. Videre så kategoriserer jeg scoringene og hvor 22 mål ble scoret mot etablert, 13
+mål etter overgang og 16 mål etter dødballer.
+Strømsgodset var et av Norges mestscorende lag i fjorårssesongen. Kun Vålerenga med 69,
+Rosenborg med 58 og Start med 57 scoret flere enn Strømsgodset. Tallene gir få klokkeklare
+svar men ut i fra funnene kan jeg konkludere med følgende:
+
+Hovedproblemstillingen:
+
+
+Det er ikke gjort funn som beviser at det er benyttet færre touch på scoringene
+enn sjansene. Det viktigste vil være å beherske ferdigheten det er å avslutte på 1,
+2 og 3 touch.
+
+Underproblemstillingene:
+
+
+Det er essensielt å beherske ferdigheten med å sette ballen i mål på 1 og 2 touch.
+
+
+
+Jo nærmere motstanderens mål man kommer, jo færre touch må man bruke for
+å score mål. Kjennetegnene er derfor at det brukes færre touch hos målscoreren
+enn hos han som slår den målgivende pasningen. Det brukes også færre touch hos
+han som slår den målgivende kontra han som er involvert i ”tredjepasset”.
+
+
+
+I de avgjørende situasjonene handler det om å bruke det riktige antallet
+berøringer. Det brukes ofte raske og kvikke berøringer i tillegg til kamuflerte
+teknikker som er vanskelig å lese for forsvareren. Det virker også essensielt å ha
+et bredt teknisk repertoar.
+
+Jeg oppsummerer videre funnene i analysen, før jeg avslutter med å konkludere og skissere de
+ulike kjennetegnene jeg har funnet. (se over)
+
+49
+
+

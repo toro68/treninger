@@ -18,9 +18,11 @@ type SessionState = {
   selectedExerciseIds: Set<string>;
   favoriteIds: Set<string>;
   searchQuery: string;
+  highlightExerciseId: string | null;
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
   setSearchQuery: (query: string) => void;
+  setHighlightExercise: (id: string | null) => void;
   toggleExercise: (id: string) => void;
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
@@ -86,11 +88,13 @@ export const useSessionStore = create<SessionState>()(
       playerCount: 12,
       stationCount: 3,
       searchQuery: '',
+      highlightExerciseId: null,
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
       setStationCount: (count) => set({ stationCount: count }),
       setSearchQuery: (query) => set({ searchQuery: query }),
+      setHighlightExercise: (id) => set({ highlightExerciseId: id }),
       toggleExercise: (id) =>
         set((state) => {
           const next = new Set(state.selectedExerciseIds);

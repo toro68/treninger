@@ -1,0 +1,1682 @@
+Skriftlig oppgave UEFA A-lisens 2012
+For
+Frode Fagermo
+
+”Spillerutvikling sett i et lokalt perspektiv gjennom Aafk – Molde og Hødd”
+”Hvem blir toppspillere og hvorfor”?
+
+Innhold
+Innhold
+
+1
+
+Forord
+
+3
+
+Sammendrag
+
+4
+
+1: Innledning
+1,1: Bakgrunn for oppgave
+
+6
+
+1,2: Problemstilling
+
+6
+
+2: Metode
+2,1: Hva er metode?
+
+7
+
+2,2: Hvilke metoder benyttes?
+
+7
+
+3: Historikk og tolkning
+3,1: Min egen historie
+
+8
+
+3,2: Definisjon talent
+
+10
+
+3.3: Utvikling av ”Talentbegreps-tenking” i egen klubb.
+
+11
+
+3,4: Påvirkning i lokalmiljøet, tiltak.
+
+14
+
+3,5: Spillerutvikling sett innenfra vs utenfra.
+
+16
+
+4: Spørreundersøkelse
+4,1: Bakgrunn for undersøkelse
+
+21
+
+4,2: Spørsmål i undersøkelsen
+
+22
+
+4,3: Bearbeiding av svar
+
+23
+
+4,3,1: Resultater av svar.
+
+23
+
+4,3,2 Konklusjon av undersøkelse.
+
+30
+
+5: Intervju
+5,1: Bakgrunn for intervju
+
+31
+
+5,2: Intervju Molde ved Thomas Mork, spillerutvikler Aker Akademiet
+
+32
+
+5,3: Intervju Hødd, Spillerutvikler Einar Magne Skeide
+
+33
+
+5,4: Intervju Geir Hansen, Sunnmøre fotballkrets
+
+36
+
+5,5: Intervju breddeklubb, Herd ved Eirik Hoseth
+
+37
+
+6: Diskusjon
+6,1: Sammenfatning undersøkelse
+
+39
+
+6,2: Sammenfatning intervju
+
+39
+
+7: Konklusjon
+7,1: Fasit spillerutvikling i toppklubbene Molde og Aafk. Har vi den? Veien videre….
+
+41
+
+7,2, Hvem blir Toppspiller og hvorfor?
+
+42
+
+Forord:
+Det å skrive denne oppgaven så jeg på med respekt og en viss grad av frykt. Skulle man klare å ta alt
+det vettuge man tror man har i sitt eget fotballhode å få det ned på papir på en saklig, strukturert og
+godt gjennomført måte. Og attpåtil på en slik måte at det både er interessant og innholdsmessig
+relevant for leseren?
+Jeg håper og tror jeg har klart nettopp det Det har vært et veldig krevende arbeid som har måttet
+blitt balansert mellom trenergjerningen, sivil jobb og familie. Ingen lett kombinasjon! Men arbeidet
+har gitt meg større innsikt i et felt jeg fra før av var veldig opptatt av, og gir kanskje noen flere
+fotballsjeler en glede og påfyll av vårt tankesett her på nordvestlandet når det gjelder
+spiller/talentutvikling.
+Jeg takker for god hjelp og støtte til følgende personer i forbindelse med det endelige resultatet av
+denne oppgaven:
+Min kjærlighet og barn som alltid støtter meg
+Min meget dyktige veileder Steinar Høgthun, for alle gode råd og væremåte.
+Reidar Vågnes for innspill og for lære meg å ”skarpstille” bildet.
+Geir Hansen som har lært meg mye, og kommer til å lære meg mer.
+Jan Erik Sørnes, min sjef og innomhusveileder.
+Spillere og trenere som har tatt seg tid til å svare på spørsmål.
+
+Sammendrag
+I valg av oppgave ønsket jeg å fokusere på de områder som jeg virkelig brenner for, og som jeg har
+utøvet mitt virke i de seneste 8 årene. Nemlig spillerutvikling. Oppgaven har jeg valgt å begrense til
+mitt eget hjemmeområde da vi har 3 representanter i norsk Toppfotball gjennom Aalesunds FK,
+Molde FK, og Hødd.
+Etter endt spillerkarriere i 2005 gikk jeg umiddelbart over i en trenerrolle i klubben. Denne var todelt,
+med sprikende kravsform. 50% av stillingen var som hovedtrener Junior Elite og kampleder for
+klubbens 2`er lag i 3 divisjon, mens den øvrige halvdelen var Sportslig Leder Aafk yngres, eller bredde
+om man vil. På den ene siden et knallhardt fokus på å tilrettelegge for de beste 16-19 åringene i
+Ålesund, og et krav fra egen klubb om årlig å levere minimum en` spiller opp til klubbens A-tropp, og
+på den andre siden å tilrettelegge for et sunt og godt læringsmiljø for alle våre unge spillere der alle
+skal få delta uansett ferdighet.
+Som leder Sportslig leder for yngres var det også min oppgave å forme en sportsplan som stipulerte
+antall ønskede økter per aldersgruppe, en grovskissert innholdsplan for trening, en øvelsesbank, og
+selvsagt et overordnet mål for avdelingens utvikling. Det var også min oppgave å ansette trenere, da
+spesielt på G 16 som lå nærmest klubbens toppavdeling.
+Når man ser på denne kombinasjonen i stillingsbeskrivelsen sitter man på et toegget sverd.
+Spiller/talentutvikling/krav i en hånd og bredde og tilhørighetsbegrep i den andre. Dette gjorde at jeg
+måtte reflektere veldig over hvordan vi som klubb skulle tenke og opptre i forhold til å fostre frem
+egne toppspillere, og hvordan jeg som trener/leder skulle balansere overgangen mellom de to
+fraksjonene. I min periode i denne stillingen (2005 – 2007) ble dette gjenstand for debatt utallige
+ganger. Når skal man rekruttere, hvor langt ned i aldersklassene skal vi intensivere og strukturere
+treningsarbeidet, og skal vi ha yngres avdeling? Hva har vi igjen for det?
+Dette er bakteppet for hvordan jeg angrep oppgaven. Det å se på hvordan våre 3 fremste
+eksponenter for toppfotball i regionen angriper talentutviklingen og hvordan de forvalter de mange
+spillerne som kommer og går. Jeg prøvde også å fremprovosere det at man bør/skal hente spillere
+tidligst mulig kanskje ikke er verken rett eller nødvendig. Tillegger vi oss selv en for stor grad av
+dyktighet og viktighet kontra de mange dyktige fotballmennesker som har sitt virke i breddeklubbene
+rundt?
+Målet var å lande en slags konklusjon som på ingen måte er en fasit, men en vurdering av det arbeid
+som blir gjort i de klubber som er omtalt og finne noen sammenfattende suksessfaktorer, eller
+brister.
+Oppgaven starter med et tilbakeblikk på min egen historie, og hvordan min utvikling og karriere tok
+form. Denne blir sett i lys av de seneste 8-9 årene jeg har tilbrakt i Aafk og det arbeidet som vi gjør
+her. Disse to hverdagene har en relevant forskjell som gjør et blikk på spillerutvikling svært
+interessant. Som jeg forsøker å belyse, hva er viktigst for å drive god spillerutvikling, og hva kreves?
+Og ikke minst har jeg sett på hvordan ting har endret seg opp gjennom årene, da spesielt i egen
+klubb.
+
+Jeg har sendt ut spørreskjema til 25 spillere innenfor kategorier som jeg betegner som ”lykkes” og
+ikke ”lykkes”, dette i egen klubb. Definisjonen er enten spillere som har tatt steg gjennom systemet
+og spiller eller har spilt på klubbens toppnivå, eller spillere som ikke nådde opp og fant seg en annen
+hverdag. Her håpet jeg å avdekke både styrker og svakheter i vår måte å tenke og drive utvikling på,
+samt å finne fellesnevnere som gikk igjen, for å kanskje finne svar på suksess, ikke suksess.
+Parallelt med dette intervjuet jeg trenere/ledere i Aafk-Molde og Hødd som har lengre fartstid lokalt,
+og innenfor feltet spillerutvikling. Dette for å avdekke om det er fellesnevnere mellom spillere og
+ledere som i utgangspunktet jobbet mot samme mål; å bli eller skape fremtidige toppspillere. Og ikke
+minst fellesnevnere og forskjeller mellom klubbene.
+Til slutt hadde jeg en tilnærming til et par av våre naboklubber på breddesiden for å få et innblikk i
+hvordan de ser på vår måte å jobbe på, og om de ser en utvikling i tråd med det jeg selv hevder som
+progresjon og fremskritt.
+Spørreundelsøkelsen
+Undersøkelse ble sendt ut til spillere som alle ble rekruttert til Aafk i relativt tidlig alder, dvs
+gutte,junioralder (13-17 år). 25 spillere deltok i undersøkelsen der ca halvparten går i kategorien
+”lykkes”, og den andre halvdelen i kategorien ”ikke lykkes”. Definisjonene her kommer jeg tilbake til i
+selve undersøkelsen, men går i korte trekk på hvem nådde opp på A-lagsnivå i Aafk og hvem gjorde
+det ikke. Og ikke minst hvorfor.
+
+Intervju trenere
+Her intervjuet jeg trenere/ledere i utviklingsavdelingene til Aafk, Molde og Hødd. Bakgrunnen for
+intervjuet var å få kartlagt hvordan de forskjellige jobber med utviklingen av spillere frem mot eget
+A-lag. Hvordan vurderer de hvorvidt de lykkes/ikke lykkes, og hva er suksessformlene kontra
+utfordringene. Til sist intervjuet jeg noen representanter fra større breddeklubber i
+Ålesundsregionen for å få deres oppfatning av den jobben som blir gjort i toppklubben, samt deres
+forståelse av samarbeidet mellom de som breddeklubb og Aafk.
+
+I konklusjonen prøver jeg å samle all den informasjon jeg har skaffet meg fra de forskjellige aktørene
+og sette dette opp mot mine egne tolkninger og erfaringer, og de synspunkt og tanker jeg har rundt
+temaet.
+
+1: Innledning
+1,1: Bakgrunn for oppgave
+Hovedgrunnen til at jeg har valgt nettopp dette temaet for min skriftlige oppgave er
+hovedsakelig at dette er noe som jeg interesserer meg voldsomt for. Videre selvsagt at jeg
+gjennom min foreløpig relativt korte trenerkarriere har jobbet primært innen dette feltet
+som nevnt i innledningen. Jeg har bekledd flere hatter i Aafk-systemet, men gjennom alle er
+dette et tema som jeg blir konfrontert med. Vi som klubb har ingen stolt tradisjon i det å
+drive godt barne og ungdomsarbeid, men har med jevne mellomrom levert både
+enkeltresultat og enkeltspillere på nasjonalt toppnivå.
+Der nevner jeg at Aafk ble NM mestere JR i 1991, og en gang før det i atten hundre og
+brødmangel, 1964. Så har vi levert John Arne Riise til omverdenen, en ære som riktignok bør
+tillegges J.A i aller største grad!
+Poenget er at disse resultatene har kommet mer som en tilfeldighet, enn som konsekvens av
+god, langvarig og strukturert spillerutvikling. I Molde har man hatt generasjoner med spillere
+som har kommet gjennom systemet og som har preget norsk toppfotball, for mange til å
+nevne, og Hødd har alltid ”levert” varene selv. I tilfellet Aafk og Molde har
+spillerinnkjøpspolitikken vært sterkt pregende siste 5-10 år, mens Hødd med sine begrensede
+ressurser har fortsatt på den sanne sti.
+Etter at LUS, Lokalt Utviklede Spillere, ble innført av Forbundsstyret i 2008, ble klubbene
+tvunget til å fokusere på godt eget-arbeid. Etter dette har vi sett en relativt stor endring i
+måten det blir jobbet på i Aafk, noe jeg ser nærmere på i i pkt 3,2, ”Talentbegreps-tenking” i
+egen klubb, opp mot hvordan de 2 andre nevnte gjør sitt arbeid.
+Gjennom oppgaven fikk jeg mulighet til å gå dypere inn i problemstillingen rundt dette med
+hvordan vi skal klare å utvikle flere talentfulle fotballspillere. Svarene som til slutt
+presenteres må ikke betraktes som fasit, men kanskje en interessant innfallsvinkel og noe
+som kan være interessant for de som jobber lokalt innenfor dette feltet.
+
+1,2: Problemstilling
+Oppgavetekst:
+”Spillerutvikling i et lokalt perspektiv gjennom Aafk, Molde og Hødd. Suksessformler og
+forskjeller”.
+Spørsmål: ”Hvem blir Toppspillere og hvorfor”?
+
+2. Metode
+2,1: Hva er metode?
+-
+
+Metode er i følge kunnskapssenteret en systematisk måte å undersøke virkeligheten på.
+
+"Metode er læren om de verktøy som kan benyttes for å samle inn
+informasjon" (Halvorsen 1993)
+2,2: Hvilke metoder benyttes?
+Som sagt i definisjonen handler metode om hvilke verktøy man bruker i søken etter
+sannheten, eller den relative sannheten i forhold til det man ønsker å avdekke.
+Det jeg forsøker å avdekke gjennom oppgaven er hvilke strategiske grep klubbene i mitt
+distrikt, Aafk, Molde og Hødd har eller tar i forhold til det å utvikle egne spillere. Likeså å se
+på hva som har blitt gjort gjennom de siste 5-10 årene, og om de spillere vi har sett lokalt
+utviklet de seneste år er et resultat av god og velfundert jobbing, eller gjenstand for
+tilfeldigheter og ytre omstendigheter (les andre enn Toppklubb). Må vi utvikle de?
+Vesentlig er det også å se på relevante forskjeller mellom klubbene i måten å tenke og jobbe
+på, så også likheter.
+De valg jeg tok i forhold til å belyse temaet er svært tradisjonelle og etter
+kokebokoppskriften Men de har vist seg å være effektive i forhold til å skaffe mest mulig
+informasjon.
+1: Spørreundersøkelse.
+Her har jeg formulert 12 spørsmål der spilleren skal vurdere forskjellige kriterier i forhold til
+det å ta steget fra bredde til toppklubb (forbundet til Aafk) Noen av spillerene har lykkes i
+form av at man enten har fått proffkontrakt med klubben, er i ferd med det, eller i beste
+innstans , spiller/har spilt på A-laget.
+Den andre kategorien går mot spillere som kom til Aafk i Gutte/JR alder og som enten
+befinner seg i lavere divisjoner, eller rett og slett har sluttet. Det er i denne kategorien vi
+selvsagt finner et veldig overtall. Kanskje gir de et mest mulig rett lys på hvordan
+toppklubbene opererer inn mot unge spillere?
+
+2: Intervju
+Jeg har utført intervju eller samtaler med 6 forskjellige instanser, en representant fra hver av
+klubbene Aafk, Molde og Hødd, samt 2 breddeklubber for å få Deres syn på oss i forhold til
+måten vi jobber, og Geir Hansen som i dag sitter som klubbutvikler i Sunnmøre Fotballkrets,
+men som har bakgrunn som Toppspillerutvikler i Aafk samt bred erfaring både fra krets,
+region og Landslag.
+
+3: Historikk
+3,1 Min egen historie
+
+Jeg vokste opp i Mo i Rana og trådte mange par fotballsko i Bossmo og Ytteren idrettslag. Et
+lokalt 3 divisjonslag med en stolt historie innen ski, fotball og friidrett. Flaggskipet A-laget
+begrenset seg med å være et lag tilhørende i 3 divisjonen som sagt, ofte på øvre halvdel, men
+aldri opp en etasje. Det som klubben var dyktige på var miljø og trygge rammevilkår. Jeg
+husker med glede tilbake på utallige treningstimer med fotballedere som hadde entusiasme
+og glede, og et brennende ønske om å få meg til å bli en best mulig fotballspiller. Det de
+manglet i kompetanse og erfaring fra høyere nivå, kompenserte de med glød og innlevelse.
+Veien gikk naturlig videre til Stålkameratene som hadde rykket opp i 1 divisjon et par år
+senere. I Stål tilbrakte jeg mesteparten av mitt voksne fotballiv i perioden 1995-2000, 6
+sesonger hvorav to i 1 div og fire i 2 divisjon. Etter å ha tapt kvalik mot Hødd for opprykk til 1
+divisjon i 2000 gikk veien videre til Aafk, der jeg fortsatt har mitt virke. Riktignok ikke som
+spiller, men som de fleste andre aldrende fotballsjeler, fotballtrener
+Gjennom alle år med voksenfotball i hjembyen levde drømmen om en gang å få spille i Bodø
+Glimt. Meget nært ved et par anledninger men drømmen gikk aldri i oppfyllelse. Desto større
+var gleden da jeg fikk tilbud fra intet mindre en 4 klubber etter sesongen 00. Aafk, Hødd,
+Sogndal og Lyn. Valget falt på Aafk og Ivar Morten Normark, og det angrer jeg ikke på.
+Bakgrunnen for å fortelle dette er verken for å ”skryte” av min egen relativt beskjedne
+karriere, eller et iboende behov for å fortelle om meg selv, men å bruke det som bakgrunn i
+
+et for meg meget interessant perspektiv. Hvordan kom jeg til denne muligheten? Hva var den
+avgjørende faktoren som førte til at jeg fikk 8 år i norsk Toppfotball?
+Svarene på det er 3 delt slik jeg ser:
+
+1: et enormt egentreningstalent. Jeg satte meg et klart mål om at jeg en dag skulle bli en
+veldig god fotballspiller. Det målet ble delvis innfridd Men det betød ekstremt mange timer
+på egenhånd med ball, og en veldig hunger etter å lære. I mindre grad fotballfaglige trenere
+gjennom barne og ungdomsårene, med hospiteringsordninger og kretstiltak for å nevne noe.
+2: tålmodighet/ærgjerrighet. Gjennom alle årene i 1 og 2 div med Stål levde stadig ønsket
+om å oppleve mer. Selv om jeg ikke lengre var veldig ung eller veldig lovende jobbet jeg på
+hver trening for å bli litt bedre, og sørget for å være godt trent slik at jeg sjeldent eller aldri
+var skadet.
+3: pre-import tiden. Mitt peak som fotballspiller med overgangen til Aafk kom i en tid da de
+to øverste ligaene ikke enda hadde rukket å bli fullstendig oversvømt av import-spillere, og
+prisen på innenlandske spillere hadde et fornuftig nivå. Noe rett hadde jeg selvsagt gjort for å
+bli lagt merke til, men saken er den at sånne som meg kunne ha en plass i en toppklubb i
+Norge på tross at jeg ”bare” kom fra 2 div på denne tiden. Og vi skal ikke lengre tilbake i tid
+enn 12 år.
+Jeg ble altså hentet til Aafk fra en brukbar liga 3 klubb i en alder av 27 år!! Hvor mange
+spillere fra det nivået ser vi i dag gå den veien? Den er ikke mange, om noen!
+Går toppklubbene glipp av mange gode spillere i beste alder tilhørende de lavere divisjoner?
+Nå har heldigvis importen stagnert litt , hovedsaklig på grunn av statuttene fra Forbundet i
+forhold til LUS (lokalt utviklede spillere), og de økonomiske utfordringene klubbene har, og
+har hatt. Mye av dette vil jeg berøre i løpet av oppgaven, så jeg velger å stoppe her
+Mitt virke som trener har jo begrenset seg til å jobbe innenfor det feltet jeg skriver om,
+nemlig spiller/talentutvikling. Først gjennom 3 år som Hovedtrener for G19, og så de seneste
+3 årene som hovedtrener for G16. Alle disse årene i Aafk.
+I tillegg har jeg vært ansvarlig for kretslaget til Sunnmøre G16, og hatt noe ansvar inn mot
+klubbens A-lag.
+
+3,2 Definisjon talent
+1: ”Talent er en medfødt kapasitet som gir individet en eksepsjonell mulighet til høyt
+prestasjonsnivå på et bestemt område, og som krever spesielle ferdigheter og intensiv
+trening” (Sloboda)
+2: ”Medfødt begavelse av intellektuell eller kunstnerisk art, anlegg, evne, gudegitt gave”
+(Bibelen, Matt: 25. 14-30)
+3: ”Talent er medfødte begavelser” (Wikipedia)
+4: ”Du må elske det du gjør over alt for å bli virkelig god til noe” (Kjetil Andre Aamodt)
+
+Valgte å ta med 4 forskjellige definisjoner på talent, ikke for å vise ekstreme
+definisjonsdifferanser, men for å sette lys på variasjonen og vanskelighetsgraden det setter
+på oss som fagpersoner i det vi skal bedømme om hvem som er det og ikke.
+I følge Wikipedia, Bibelen og Sloboda handler det om medfødte evner som i stor grad er
+overført rent genetisk ved fødselen. Mellom linjene leser vi selvsagt også at et talent forblir
+nettopp det uten mengder med øving og studier.
+Mens Aamodt som kanskje er vår tids største idrettsperson velger å fokusere på noe helt
+annet, det å elske det du gjør. Mellom linjene her leser vi at det å trene, trene, trene med
+stort pågangsmot og dedikasjon er hans definisjon på talent.
+Det sier seg selv at man må ha et visst iboende talent for å i hele tatt kunne nå hele veien
+frem. Men det viser seg igjen og igjen at treningstalentet alltid slår fotballtalentet. Så hva er
+det vi ser etter når vi rekrutterer ? Hvilke kriterier legger vi til grunn når vi henter spillere?
+
+3,3: Utvikling av ”Talentbegreps-tenking” i egen klubb.
+Aalesund`s Fotballklubb har som mange andre modnet med tiden. Etter hvert som vi har bitt
+oss fast i den øverste elite i Norge har man også suksessivt endret måten å jobbe på under
+klubbens hovedprodukt A-laget. Det har etter undertegnedes påstand vært en meget
+fruktbar og meget betimelig utvikling i måten å tenke utvikling på, og det begynner å sette
+seg i ryggraden på klubben. Aafk er i dag i nærheten av de beste på et G16 og G19 nivå, noe
+vi ikke har vært tidligere.
+Kritikken fra lokalfotballsamfunnet mot de tilstedeværende toppklubbene vil alltid vedvare i
+forskjellig styrke og grad. Så også på Summøre. De ting som går igjen er at klubben(e) blir
+beskyldt for å støvsuge markedet for de beste spillerne, hente spillere altfor tidlig, og
+ødelegger gode treningsgrupper i breddeklubbene ved å gjøre nettopp dette.
+Her har man mange eksempler på nettopp dette. I 2004 ble det bestemt at Aafk for første
+gang skulle ha Junior Elite. I det lå det at kun de beste skulle få et tilbud etter guttealder. Var
+der ikke nok gode objekt i egen klubb skulle det tilføres fra klubbene rundt. Dette medførte
+et rabalder uten sidestykke blant foreldrene. At sønnen som hadde ikledd seg den oransje
+drakta fra han var 7 ikke skulle få fullføre ut JR alder! At han ikke var god nok for klubbens Alag var greit nok, men de måtte da for guds skyld få fullføre ”barne og ungdomsfotballen”.
+Klubben gjennomførte sin strategi da man så behov for å få frem flere egenrekrutterte
+spillere. I og med rabalderet inngikk man et forlik om å stille et JR 2. Dette smuldret bort i
+løpet av kort tid. Da undertegnede tok over som trener for denne gruppa var det høyst
+nødvendig å få tilført flere spillere, både pga avgang, men også tilførsel av kvalitet. Det var 27
+spillere som ble kretsmestere 2006 (både fra JR og guttetroppen). 15 som kom fra klubbens
+egne rekker, og 12 som var hentet før eller i løpet av sesongen. Spørsmålet jeg kan stille meg
+selv i ettertid er følgende; regnet vi alle som så store ”talenter” at de hadde mulighet til å bli
+fremtidige Toppspillere? Var det nødvendig å hente alle disse kontra å la de fortsette sin
+hverdag i sine moderklubber?
+Svaret på det er udelt nei! De aller fleste av disse var lovende gutter med et ok potensial,
+men som åpenbart ikke var i nærheten av kravene til topp-fotballen. Men vi måtte starte et
+sted, og som nevnt ovenfor da må det nødvendigvis bli noen lik i lasten. Hva oppnådde vi på
+vegne av spillerne? Jo det vi fikk var en god treningsgruppe med jevnt høyt nivå, en arena der
+de som faktisk hadde det rette potensialet fikk utvikle seg, og ei positiv utvikling på resten
+(med noen unntak selvsagt) Dette førte til at den gemene hop som ble loset ut av
+stadionporten et par år etter forhåpentligvis var bedre spillere enn da de kom og styrket de
+lokale lagene i 3 og 2 divisjonen. 7 av spillerne endte opp med å spille regelmessig fast på SIF
+(Skarbøvik) i 2 divisjon fra 2008/09. De øvrige fortsatte samtlige i 3 eller 4 divisjonen lokalt,
+og svært mange er aktiv ennå.
+Tilføyer også at de spillerne som ble hentet holdt Gutte-alder slik at målet var å jobbe
+langsiktig. Nevner også at troppen ble holdt inntakt i 2007 da vi kun hentet 1 ny spiller.
+
+Hvilken gevinst ga dette?
+3 av spillerne er i dag på klubbens Tippeligalag. Sten Grytebust er en av Ligaens beste
+keepere, Jonathan Tollås en av landets mest lovende stoppere, Ole Christian Rørvik er andre
+keeper i klubben.
+Uten å dra noen form for konklusjon ser man at vi var relativt heldige, og forhåpentligvis
+dyktige på noen punkter i denne fasen. Nå skal det legges til grunn at samtlige av disse
+spillerne hadde med seg en veldig god ballast fra sine moderklubber som vi bearbeidet og
+jobbet med. Dette kullet er sjelden vare i Aafk sammenheng. Den siste som før dette tok
+steget var Trond Fredriksen som på slutten av 90 tallet etablerte seg som A-lagsspiller fra
+egen juniorstall. Så her hadde vi på ingen måte en fasit, men god timing på henting av disse
+gode objektene.
+Påfølgende periode fortsatte i samme spor både på JR og Gutt. Det ble hentet voldsomt
+mange spillere og man kunne nesten få inntrykk av at de forskjellige trenerne mente at det
+var ”job well done” hvis man hentet det ene Kretsmesterskapet etter det andre. Dette
+medførte misfornøyde samarbeidsklubber/naboklubber rundt oss, og det med rette. Det var
+ingen klar strategi rundt den jobben som ble gjort, selv om alt og alle gjorde det de gjorde i
+beste mening. Den røde tråden manglet.
+Denne strategien om man vil førte for så vidt frem. Den neste som tok steget opp var Didrik
+Fløtre. Debuterte i en alder av 17 og scoret i denne debuten mot Rosenborg. Per i dag
+fortsatt under kontrakt med Aafk, men utleid til KBK (Kristiansund Ballklubb)
+I kjølvannet av disse kom Fredrik Ulvestad, i dag en sentral spiller på Aafk og på Norges U 21
+landslag. Christian Myklebust kom i samme generasjon, dog etter å ha vokst opp på
+Østlandet med sine Sunnmørske foreldre. Christian kom til oss som guttespiller og fikk 3 år i
+systemet før han tok det endelige steget opp.
+Ser man utelukkende på antall spillere de seneste årene som har gått hele veien har vi lykkes
+veldig. Men ser man bak tallene vil man avdekke det jeg har vært innom tidligere i oppgaven,
+at det kan skyldes vel så mye på tilfeldigheter og på enkeltindividets dyktighet, så vel som
+klubbens bevisste jobbing. Kritisk kan man si at hvis man bare henter nok mange spillere vil
+det alltid dukke opp en og annen som lykkes. Er det slik vi ville fremstå? Er dette rette veien å
+gå? Og er det for fotballfelleskapets beste?
+Nei var svaret vi kom frem til! Min nåværende sjef Jan Erik Sørnes ble ansatt som Sportslig
+Leder, med ansvar for utvikling under A-laget. Det betyr i klartekst for spillerutviklere, Junior
+og gutt. Yngres avdeling er selvdrevent med et eget styre og utvalg. Kort fortalt ble hans jobb
+å få på plass en ramme for utvikling av egne spillere. Her starter den for meg viktige
+endringen av retning i vår klubbs strategi når det gjelder spillerutvikling. 2 stk heltidsansatte
+spillerutviklere kom på plass, heltidsansatt JR og 2`er lags ansvarlig, jeg kom tilbake etter 2 år
+i eksil og ble ansatt som hovedtrener Gutt i 50 % stilling, samt at gutt og Jr hadde
+assistenttrenere i 30 % stilling. Klubben mente alvor denne gangen.
+Rollene ble fylt av personer med tung toppfotballerfaring, Sture Fladmark, Trond Fredriksen,
+Karl Oscar Fjørtoft, Erling Ytterland, Rune Sunde og undertegnede. Det første vi fikk i
+oppgave fra vår ledelse var å fatte felles retningslinjer for hvordan vi skulle jobbe med felles
+målsetting og på tvers av gruppene. Dette gikk både på strategi i forhold til hvilke typer
+spillere vi skulle hente, treningsinnhold, hospiteringsordninger internt og eksternt, og en del
+andre vesentlige momenter.
+
+Dette skulle danne den røde tråden vi tidligere hadde manglet. Videre innbefattet det at vi
+ukentlig hadde trenerforum (fredag 08.00 – 09.00) der vi går gjennom uka som har gått, og
+uka som sto foran oss. Her debatterer vi diverse problemstillinger i forhold til fag, lagdeler,
+enkeltspillere, spillerlogistikk (3 lag som driftes med 2 divisjon, junior og gutt) og nye
+utviklingsmål vi etter hvert setter oss. Dette viste seg å bli en meget fruktbar og viktig del i
+klubbens talentutviklingsmodell. Det var med ett skapt et bedre miljø for spillerutvikling.
+Talentbegrepet som jeg omtaler det i headingen endret seg med vår måte å tenke på. Vi
+satte ned klare statutter om hvilke spillere som skulle/kunne hentes. Det gikk på alder, talent
+selvsagt, vilje og evne til å trene mye og dedikert, mentalitet og holdninger, og i noen tilfeller
+bestemte roller. Alle de spillere som var aktuelle var nøye diskutert og vurdert i et felles
+trenerforum før man gikk aktivt ut, og alle henvendelser gikk fra klubben i form av Sportslig
+Leder Jan E. Sørnes.
+Det som i stor grad gjorde vår offensive satsing spiselig blant lokale klubber var måten dette
+ble/blir gjort på. De aller fleste av spillerne som kom til klubben på enten junior eller gutt
+hadde inngått i en hospiteringsordning i lengre tid. Dette var svært viktig å få på plass
+særskilt på gutt gitt spillernes unge alder. Jeg har eksempler på spillere som har hospitert
+med oss i ett år før de ble Aafk spillere på papiret. De har deltatt på Elite-turneringer og
+andre tiltak. De har hospitert 1-2 treninger per uke, mens de hele tiden samtidig har trent og
+spilt kamper for sin moderklubb.
+Konsekvensen av tydeligheten i måten det jobbes på sørget for en annen viktig endring ut
+mot klubbene rundt oss. Vi henter kun de få vi har stor tro på skal lykkes! Det vil si at den tid
+man hentet rubb og rake er heldigvis over. Derfor opplever ikke våre gode naboer rundt oss
+at kullene blir rasert som tidligere omtalt, der 3-4 spillere på samme lag forsvant. Det vi nå
+ser er en stor grad av forståelse (om enn ikke med glede) at vi henvender oss på en enkelt
+spiller i en bestemt klubb. Vi er relativt tydelige også i forhold til hva som skal skje hvis denne
+spilleren ikke lykkes. Da skal han på beste måte føres tilbake til klubben eller andre på en god
+og ryddig måte.
+Suksess er viktig for å opprettholde dette! Det at vi får spillere opp på klubbens to`er lag, Alag eller sågar spillere inn på landslag er vesentlige parametere for å opprettholde godviljen
+og samarbeidsviljen til våre samarbeidsklubber. Vi kan heldigvis vise til flere spillere som
+etter 1-2 år i vårt system har tatt steget inn på aldersbestemte landslag. Nå skal verken jeg
+eller andre i teamet ta all kreditt for dette, mye god jobb er gjort før de i hele tatt ender opp
+her hos oss.
+
+Hvem spiller hvor?
+I arbeidet med å få frem de aller beste la vi ned en grunnmur i forhold til spillerlogostikk. For
+det første betød det at gruppene var ekstremt unge. G 16 som jeg har ansvaret for er naturlig
+født 96 – 97. Men troppen min i år på 17 spillere (15 + 2) besto av 13 stk født 97 og 4 stk født
+98. Juniortroppen hadde 3 stk født 97, 6 stk født 96, 7 stk født 95, 5 stk født 94 og ingen 3`je
+års. Det betød at de beste yngste skulle spille på høyest mulige nivå så lang det var fornuftig
+og forsvarlig. Dette ble satt på trenerforum fredager slik at alle lag var satt frem mot ny uke
+og kampprestasjon. 2 divisjonslaget besto primært av junior og guttespillere. Juniorlaget av
+de juniorspillerne som ikke var involvert i 2`er kamp + de beste fra min tropp, mens jeg rådde
+over de resterende 97 og 98 modellene.
+
+Dette gjorde at spillerne i vår mening fikk bryne seg på rett nivå og et tilnærmet optimalt
+utviklingsmiljø. Det betydde også at vi gjorde en erkjennelse av konsekvensene. Det ble tøft å
+holde seg i 2 div, (endte med klart nedrykk) og at jr og gutt dermed ikke nødvendigvis vant
+KM. Juniorlaget endte som nr 3 i 1 div Sunnmøre, mens gutt ble krets og fylkesmestere (ikke
+uventet gitt treneren)
+Denne positive hospiteringen med spillere opp aldersgrupper tror vi er mye av nøkkelen til
+den utviklingen vi har sett på våre spillere. Mange har også fått sjansen til å trene med
+klubbens A-lag på gitte treninger og fått inspirasjon derfra. På den andre siden har vi hentet
+spillere ned fra nivået over når det har vært nødvendig. Både for å gi spilleren er følelse av
+mestring og flyt, men også for å dra opp nivået i den aktuelle treningsgruppa og gi en
+referanse til de nest beste i forhold til hva som kreves på neste nivå.
+
+3,4: Påvirkning på lokalmiljøet, tiltak
+
+”Talentsamlingene er for alderen 12 – 13 år”.
+”Dette er et tiltak som er tiltenkt å gi inspirasjon til spiller- og trenerutvikling i breddeklubbene.
+Her har vi en del å ta tak i og vi håper at dette tiltaket stadig vil bli bedre i forhold til hva som er
+intensjonen, nemlig spiller- og trenerutvikling”.
+Bildet og teksten er hentet fra Aafk`s sider!!
+
+Aafk som Toppklubb er i tett samarbeid med krets i forhold til talent/spillerutviklingstiltak.
+Dette har utviklet seg over tid men fremstår nå mer omfattende og strukturert enn det har
+gjort tidligere. Her er også Hødd på sin side av fjorden en like stor bidragsyter. Men for å
+fokusere på Aafk, dette innebærer at Aafk som klubb drifter alle tiltak på By og Sonelag.
+Samlingene er spredt rundt på Sunnmøre og i forskjellige klubber, men med trenere
+tilhørende vår organisasjon som ansvarlige for samlingen. Dette gir både klubbene en flott
+eksponering og også trenerne i disse lokalmiljøene et nødvendig påfyll i forhold til
+kompetanse og innspill. Ikke minst får de beste spillerne et ekstra tilbud med kvalifisert
+trening sammen med likesinnede om du vil.
+Veien til by og sone er en lengre prosess gjennom vinteren. Det starter med eks antall
+samlinger som tradisjonelt blir avholdt på CLS eller inne i hallen for gitte årsklasser. De
+objektene vi starter med er alle innmeldt av sine respektive trenere og antallet er stort og
+kvaliteten mildt sagt varierende. Alle får sjansen til å vise seg fram gjennom noen samlinger
+før en utvelgelsesprosess starter. Man ender til slutt på et ønsket antall spillere som har
+jevnlige samlinger gjennom vår, sommer og høst. Noe kamprelatert aktivitet er det også da
+man spiller mot andre By-lag (som Ulsteinvik eks .vis)
+Inn mot klubbene har vi i år også startet med rene trenerutviklingstiltak. Dette skjer ved at
+klubbene tilhørende i samme geografiske område kaller inn 15-20 spillere som objekter. I
+forkant av første aktivitet har vi hatt et møte med trenerne og gjennomgått en del prinsipp i
+forhold til det vi og dem ønsker å fokusere på. Med trenerne som aktive bivånere kjører vi
+økta i forhold til de momenter vi har lagt opp. I etterkant evaluerer vi sammen. Neste økt
+kjører vi i utgangspunktet samme modell, men da med en vesentlig forskjell. Da er det
+trenerne tilhørende breddeklubbene som skal kjøre økta, og vi vurderer. Vi har på forhånd
+satt en agenda for økta som de planlegger og gjennomfører. Etter endt økt evaluerer vi igjen
+og gir råd og tips i forhold til forbedring, samt ros for ting som er bra.
+Erfaringer gjort i år er meget positive, klubbene er positive, og spillerne får ekstra påvirkning.
+Det vi har konkludert med er at neste år øker vi med ei økt, totalt 3 inn mot hver region. Vi
+kjører den første, klubbtrenerne 2.
+Avslutningsvis fikk vi i år i stand et trenerkurs i regi Ajax som vi har et samarbeid med. Dette
+kurset var tilrettelagt trener i barne og ungdomsfotballen og samlet vel 100 påmeldte
+trenere fra de forskjellige klubbene. Dette ble tatt veldig godt i mot. Slike tiltak ser klubben
+på som viktige bidrag inn mot lokalfotballen, og noe vi søker å gjøre mer av.
+
+Sammenfatning:
+Hva er grunnen til at Aafk nå i senere tid legger så mye i dette? Har gjennom denne
+foregående delen av oppgaven forsøkt å belyse både positive og negative elementer ved
+både Aafk`s måte å tenke utvikling på. Hva som tidligere har blitt gjort, og hvilke endringer
+som har skjedd.
+Hvis jeg så tidlig i oppgaven skal begi meg utpå en form for sammenfatning som i stor grad
+gjelder her i regionen, men kanskje generelt er det følgende; man er fullstendig avhengig av
+et godt samarbeidsklima med omgivelsene for å lykkes på dette feltet. Føler breddeklubbene
+seg overkjørte eller nedvurdert vil man ikke oppleve annet enn motstand. Vi må erkjenne og
+berømme de mange dyktige fotballtrenere og ledere som har sin hverdag i mindre klubber.
+Ved å investere i disse trenerne rundt om sørger vi forhåpentligvis til å bidra til enda flere
+godt skolerte spillere som kan bidra lengre i sine respektive klubber før de evt ender opp i
+Toppklubben.
+Til slutt vil jeg ta med hospitering som et viktig element for å lykkes med denne delen. Da
+snakker jeg her om hospiteringsordninger på spillere tilhørende andre klubber som pågår
+over enn viss tid. Intern hospitering har jeg også berørt, og vil komme tilbake til i neste
+avsnitt.
+
+3,5: Spillerutvikling sett innenifra vs utenfra.
+I min egen problematisering og debatt om talentutvikling har jeg fokusert på flere elementer.
+Disse skal jeg unngå å ramse opp igjen men fokusere på noe jeg tok tak i under segmentet
+min egen historie. Dette går på i hvilken alder og på hvilke kriterier unge spillere blir hentet,
+og om det er forskjeller hos de 3 klubbene her i regionen.
+Retningen det har gått i Aafk er at vi i større grad enn tidligere henter spillere tidlig. Da det
+ble vedtatt å legge til G16 til klubbens Eliteavdeling foran 2011 sesongen ga dette visse
+premisser. Tidligere har G16 vært underlagt yngres avdeling og vært driftet derfra. Når man
+så ”flyttet” dette opp i Topp-avdelingen måtte man gjøre innrømmelser i forhold til
+spillermateriell. På lik linje med oppgjøret fra Junior, var vi nå kommet til et veiskille der
+spillere i vår klubb potensielt sto uten tilbud fra 15-årsalderen. Vi foretok en kartlegging av
+spillere og et uttak av stall i januar 2011. I likhet med prosessen på Junior noen år tidligere
+ble ikke dette nødvendigvis veldig godt mottatt, men i større grad akseptert. Man fortsatte
+med et Aafk Gutt bredde som lå under Yngres. Dette laget er fortsatt i aktivitet og gir et godt
+tilbud til de som ikke ønsker å ofre, satse så mye tid på fotball.
+At man valgte å selektere og intensivere spillerutviklingen ved å legge G 16 opp til Elite
+gjorde jo at grensen for rekruttering av spillere ble flyttet ned. Og i og med klubbens policy
+med å ha unge lag så betød det i klartekst at vi hentet spillere tilhørende andre års smågutt
+(G13, 14 år) Dette må gjøres med andektighet og varsomhet både ovenfor spiller, foreldre
+og spillerens klubb. Her kommer hospiteringsordningene inn, viktig med en glidende
+overgang på et tidspunkt der alle berørte føler det er riktig.
+
+Så ergo kan jeg konkludere med at Aafk som klubb starter rekrutteringen ned i 13-14 års
+alder. Bakgrunnen for dette er at man som toppklubb ønsker å forme spilleren i størst og
+tidligst mulig grad. Det er 2 hovedgrunner for dette.
+1: Klubben anser seg som ledende både på kompetanse rent faglig og sportslig.
+2: Dette er ansett å være rett tidspunkt i forhold til at objektet ikke skal ha tilegnet seg så
+mange ”unoter/uvaner” som vil ta lang til å rette på. Eller blir spist opp gjennom å måtte
+spille på 2-3 forskjellige lag i sin klubb, hvilket vi stadig ser eksempel på. Spilleren er så god at
+han bekler trøya til både smågutt, gutt og junior.
+Nok et ergo; det indikerer at vi ikke tror naboklubbene rundt oss har kompetanse nok til å
+forvalte sine egne fotballtalent på en tilfredsstillende måte. I hvert fall etter en viss alder. Er
+nok bevisst provokativ her, men med forventning om en viss ettertanke!
+
+Hødd
+Derfor endrer jeg noe retning og vender blikket mot vår naboklubb og årets Cup-finalist,
+Hødd. De må erkjenne å være lille-bror i vår region, mens vi samtidig må erkjenne at de har
+fått til ting på spillerutviklingssiden som vi må se langt etter. Det er en lang og stolt tradisjon
+med egenutviklede spillere et bevis på. Nå er ikke Hødd av samme størrelse eller samme
+sportslige kaliber som Aafk, men en klubb som stort sett har hatt sin tilværelse i landets nest
+høyeste divisjon.
+
+liten - men stor
+”Hødd er klubben i norsk fotball som har vist at ein med små ressursar kan kome inn i
+toppfotballen og vere der over lang tid. ”Hødd-ånda”, ”mykje ut av lite” og ”gull av gråstein” – ingen
+tvil om at spelarutvikling har vore og blir ein viktig suksessfaktor også i framtida.
+Hødd skal famne både topp og breidde, og vere ein samfunnsutviklar i Ulstein og regionen, samt vere
+ein del av Norsk toppfotball”.
+Dette er Hødd`s verdigrunnlag, liten – men stor. Nå har jeg uthevet noe av teksten, det for å
+poengtere. I sine klubbstatutter har de nedfelt en strategi og et mål om å drive god
+spillerutvikling. Og det gjør de. Dette har jeg sagt om Aafk også, at vi etter hvert har blitt
+flinke på dette feltet. Hva er forskjellen?
+Hødd henter nok noen yngre spillere til sine lag de også, men hovedforskjellen er at de har
+flyttet utviklingsfokuset både ned og opp. Det jeg mener å si er at Hødd som klubb jobber
+helt ned på de minste lagene med frivillig baserte trenere som jobber mot samme mål, å se
+lokale spille på klubbens A-lag i fremtiden. Og de er flinke! Antallet spillere på dagens og
+mange Hødd lag tilbake i tid kommer fra egen stall. Mens Aafk starter sitt fokus på utvikling
+på G16 nivå, og det som skjer under er mer lemfeldig.
+
+At de flytter fokuset opp forklarer jeg med at de henter relativt unge spillere fra
+lokalområdet inn til A-laget og lar de få tid til utvikling der. Noen tar steget med en eneste
+gang som type Fredrik Aursnes (16). Han kom fra naboklubben i Ulstein kommune, Hareid, og
+4 divisjon. Kom inn som en komet og scoret i Hødd`s semifinaletriumf mot Brann.
+Andre bruker noe lengre tid, mens det er noen som selvsagt ikke svarer til forventningene og
+forsvinner. Jeg har tatt et blikk på dagens Hødd-stall og sammensetningen de har i forhold til
+spillerlogistikk. Troppen består totalt av 26 spillere og har følgende fordeling;
+
+
+
+
+
+
+
+9 spillere fra egen klubb/stall som har gått hele veien.
+4 spillere fra Hareid (4 div), naboklubb og 10 min unna.
+8 spillere fra lokale klubber i nærområdet (Ørsta, Skarbøvik, Larsnes/Gursken, Volda)
+3 importer med afrikansk opprinnelse, Nigeria (Ahmed, Lala, Latifu)
+1 innleid fra Aafk
+1 spiller fra annen toppklubb (Helland, Rosenborg/Ranheim)
+
+I tall gjør dette følgende resultat:
+-
+
+81% lokale spillere fra egen stall eller fra det umiddelbare området rundt.
+11% importerte spillere
+9% innleide eller hentet fra annen toppklubb.
+Nå finnes sikkert lignende eller semi-lignende resultat i andre klubber tilhørende
+Adeccoligaen, men dog, dette er imponerende tall. At Hødd som i fjor var et topplag i 1 div,
+og som i år spiller cupfinale, har en stall med 21 av 26 spillere med lokal opprinnelse.
+Senere i oppgaven, under intervju, vil jeg gjøre rede for deres ”yrkeshemlighet” fortalt av
+daglig leder Andre Nevstad.
+Ser man på stallene til Aafk og Molde finner vi helt andre tall. Til dels urettferdig å
+sammenligne da det tross alt er stor forskjell, men like fullt interessant:
+Aafk:
+
+
+
+
+
+5 spillere fra egen klubb/stall (minimum vært her fra guttealder)
+6 spillere fra lokale klubber, region
+5 spillere fra Norge, andre Toppklubber
+8 importer fra kontinentet.
+
+I tall:
+-
+
+46% lokale spillere eller fra det regionale området.
+21% fra annen toppklubb
+33% hentet utenfor landets grenser
+
+Molde:
+
+
+
+
+
+4 spillere fra egen klubb/stall (minimum fra guttealder)
+8 spillere hentet regionalt ( 4 stk Trøndelag)
+8 spillere fra Norge, andre toppklubber
+8 importer fra kontinentet
+
+I tall:
+-
+
+42% lokal eller regional
+29% fra annen toppklubb
+29% hentet utenfor landets grenser.
+Skal man gjøre et forsøk på å sammenfatte kan vi prøve å konkludere på følgende måte: - for
+Aafk og Molde er tallene påfallende like. Det er relativt lik fordeling i antallet utenlandske,
+lokale og nasjonale spillere. Mens det for Hødd på nivået under er en soleklar overvekt av
+lokalt utviklede og anskaffede spillere.
+Kanskje sier dette noe om kravet i forhold til henting og utvikling av spillere? For en lokalt
+orientert klubb som Hødd vil man i stor grad kunne være selvforsynt med spillere for å
+opprettholde statusen som et lag i nest øverste divisjon. Dette setter nok også begrensninger
+i forhold til ytterlig sportslig fremgang. Det de gjør er beundringsverdig, men vil ikke verken
+på kort eller lang sikt klare å føre klubben opp i det fornemste selskap, Tippeligaen.
+Ut fra deres egne verdier har man heller ikke noe uttalt mål om dette.
+For regionens to Tippeligalag må man gå utover både regionens og landets grenser skal man
+kunne henge med i den ypperste elite. Dette synes opplagt. Derfor kan man også forstå at
+man henter spillere på et tidlig stadium da kravet, eller nåløyet om du vil, for å nå frem er
+vanvittig trangt. Spillere som befinner seg på det lokale eller regionale planet i en alder av 20
+blir rett og slett definert som ikke god nok! Men er det alltid slik?
+Motsigelsen finner du 3 eksempler av i MFK. Vegard Forren, Magnus Stamnestrø, og Pål Erik
+Ulvestad. Forren var 19 og Stamnestrø 18 da de ble hentet fra Kil/Hemne. Forrens karriere
+snakker for seg selv, men også Stamnestrø har hatt et godt år i Molde. Ulvestad har deler av
+året vært utleid, men har også en del kamper for klubben. Han kom fra Herd i 3 divisjon i en
+alder av 21. Dette viser i grunn at det skal være mulig å nå relativt langt selv om man ikke tar
+steget til toppklubben i en alder av 13 eller 14 år. Om dog sjeldnere!
+Hva har så klubbene oppnådd gjennom sin spillerutvikling? Dette kan vi se på som todelt i
+mitt hode, enten er spillerne hentet på et tidlig stadium og brukt mye tid på, eller så er de
+hentet noe senere som i tilfellet Forren osv. Et annet aspekt er om de er hentet lokalt eller i
+et større regionalt perspektiv. Her ser vi klare forskjeller mellom Molde og Aafk. Mens Molde
+har vært tydeligere på å hente spillere utenfor fylkesgrensa har Aafk jobbet mer i
+nærområdet.
+Ser vi på de siste årene i de to klubbene kan man egentlig konkludere med at Aafk har lykkes
+best i å få frem egne spillere. Trekker ingen sammenligning til resultater, der MFK har vært
+fabelaktig med to strake seriegull, mens Aafk har 2 cup-gull på 3 sesonger.
+
+Molde har litt provokativt knapt hatt en lokal profil etter de to gamle ringrevene Berg Hestad
+og Magne Hoseth. Vi tar med Magnus Wolff Eikrem i slengen på tross av at mye av
+utviklingsarbeidet var i Man U. Men altså, disse to distingverte herrene har i lang tid vært de
+eneste egenproduserte spillerne på MFK`s lag. Her er det et mangeårig gap som kan være
+interessant å finne ut av. Jeg er rimelig trygg på at Molde gjennom sitt Aker akademi jobber
+godt med utvikling. Men hvor blir de av? Dette skal intervjuet avdekke og kanskje gi en
+løsning/svar på.
+Aafk på sin side har gjennom flere år hatt lokale profiler. På årets mannskap finner vi 4
+spillere som har spilt mer eller mindre fast over lang tid. Sten Grytebust, Jonathan Tollås
+Nation, Fredrik Ulvestad og Christian Myklebust. Alle 4 er lokale spillere og alle 4 ble hentet
+til klubben i guttealder. I tidsepoken før dette preget spillere som Tor Hogne Aarøy, Trond
+Fredriksen, Frank Mathisen og Amund Skiri scenen på Kråmyra og CLS.
+Så hvis kravet er og skal være egenproduserte spillere vil man kunne betrakte Aafk som en
+relativt dyktig klubb i så henseende. Logistikken med lokale, nasjonale og utenlandske
+spillere har i alle fall tatt klubben noen steg opp i hierarkiet. Om denne miksen er
+ingrediensen til å føre klubben videre får tiden vise.
+Avslutningsvis i denne bolken vil jeg komme med noen betraktninger om hvorfor Aafk ser ut
+til å lykkes med dette.
+1: Økonomi. Selv om klubben er veldreven i forhold til økonomi og budsjettet er blant øvre
+halvdel i Tippeligaen, så finnes det ikke midler til høyt prisede spillere som igjen krever høy
+lønn. Her må vi være dyktige til å finne de rette objektene til riktig pris. Det vil i så måte være
+en rimeligere løsning å bruke eks antall millioner på et godt spillerutviklingsapparat, selvsagt
+gitt at det gir resultater.
+2: Lokal tilhørighet. Aafk ønsker og vil være Sunnmøres stolthet. Og det både forplikter og
+innbefatter lokale spillere. Vi ønsker å være annerledes og er veldig tro mot vår egen måte å
+drive på. Klubbens mantra er ”Aafk gjør noe med deg”. Det skal engasjere, glede, utfordre og
+fascinere. I dette ligger også at klubben må ha spillere som publikum kjenner. Noen kjenner
+spilleren, noen kjenner foreldrene, noen var læreren hans etc…
+3: Treneren. Som leder av hovedproduktet må vi ha en trener som passer inn i klubbens
+profil. Vi skal alltid bestå, mens trenere og spillere for den saks skyld er på ”låns”. I min
+periode har vi hatt en trener i Kjetil Rekdal som har turt å la de unge spillerne slippe frem i
+lyset. Jonathan, Fredrik, Sten og Christian er alle et produkt av dette. I tillegg har vi hatt 2
+første års juniorer på banen i Tippeligakamp i år gjennom Torbjørn Grytten og Thomas
+Marthinussen. Vi må ha en trener som tørr å gå disse veiene.
+4: Utviklingsavdelingen. Denne har jeg omtalt tidligere i oppgaven og utdyper ikke noe mer
+enn at denne må være velfungerende og bestå av kompetent personell som jobber etter
+samme lest og med samme mål. Denne avdelingen har som sagt tatt store steg i riktig retning
+gjennom siste 3-4 år.
+
+4: Spørreundersøkelse
+4,1: Bakgrunn for undersøkelsen
+I forbindelse med denne delen av oppgaven har jeg fokusert på et antall av spillere (25) som
+alle ble hentet til Aafk i ungdomsalder. Hovedsakelig kom de i Guttealder, dvs ca 13-16 år
+gamle. Dette i perioden 2001 – 2007. Denne perioden er valgt av flere grunner. For det første
+var det en ”aktiv” hentepolitikk i den perioden samt at jeg på det tidspunktet var veldig
+involvert i denne prosessen både som trener for JR og som Sportslig leder.
+Alle fikk de muligheter gjennom vårt utdanningssystem, noen lykkes andre ikke. Det som er
+interessant å se på er hvilke tanker de har om dette. Var det rett å gå til Aafk, fikk man de
+rette mulighetene, og hva var årsaken til at nettopp de lykkes/ikke lykkes. Her håper man å
+finne relevante forskjeller og forhåpentligvis en forklaring eller et svar på de grunnleggende
+årsakene til at den blir som det blir. Og ikke minst å se om kartet stemmer overens med
+terrenget i forhold til de påstander jeg har kommet med når det til klubbens
+utviklingsstrategi, og mine tanker i forhold til samarbeid og bidrag Aafk må yte ovenfor
+naboklubbene.
+
+Definisjon på ”lykkes”
+Talent som er hentet til klubben og som gjennom systemet til Aafk har gått hele veien til
+klubbens A-lag og har spilt på høyeste nivå, altså i tippeligaen. Dette er spillere som har
+befestet sin plass i troppen/på laget, eller har gått videre til andre toppklubber. Har ikke tatt
+med spillere som i en kort periode var innom klubbens A-lag.
+
+Definisjon på ”ikke lykkes”
+Talent som har blitt hentet til klubben uten å nå opp gjennom nåløyet som enten har gått til
+lokale klubber i 2, 3 og 4 divisjonen eller som rett og slett har valgt en annen vei, eksempelvis
+studier. Felles for de alle er at de var på kretslagsnivå og således regnet som talenter i lokal
+målestokk.
+
+Av de 25 aktuelle spillerne som gjennomførte undersøkelsen finner vi at 9 stk går inn under
+betegnelsen ”lykkes” mens 14 faller inn under ”ikke lykkes”.
+Dvs at 36% hadde/har suksess mens 64% ikke hadde suksess i sin Aafk periode slik jeg har
+valgt å definere det. Av de som lyktes har flere gjort det til gangs. 4 av de 9 spiller/har spilt på
+landslag. 3 stk på aldersbestemte og nå på U21, mens en har kamper på Norges A-landslag.
+
+Faktatabell/oversikt over spillere etter Gutt/Jr Aafk
+
+-
+
+Tippeliga
+
+1 Divisjon
+
+2 divisjon
+
+3 divisjon 4 divisjon Sluttet
+
+9 stk
+
+2 stk
+
+6 stk
+
+4 stk
+
+2 stk
+
+2 stk
+
+Dette er tallene som viser hva de forskjellige gjorde etter endt tid, eller i løpet av tida de var i
+min tid i Aafk. 6 mann gikk til SIF (Skarbøvik IF) og andre divisjonen. De rykket senere ned til 3
+men er nå opp igjen i andre. Av de seks er ingen igjen i SIF men er spredt rundt i Norge i
+andre klubber og studier. De fire som endte opp i diverse 3 divisjonsklubber er der fortsatt og
+er aktive. Det samme gjelder de to som gikk tilbake til sine lokale 4 divisjonsklubber. De to
+under fanen sluttet har gjort dette i senere år. Begge gikk til Herd i 3 divisjonen, men har
+valgt å satse på studier i etterkant. Men oppsummert viser det altså at 23 av 25 spillere
+fortsatt er aktive på forskjellige nivå.
+
+4,2: Spørsmål i undersøkelsen
+
+1: Drev du med andre idretter samtidig med fotballen?
+Hvis ja, hvilke og hvor lenge?
+
+2: Trente du mye fotball utenfor organisert fotballtrening?
+Hvis ja, hvor ofte/mye?
+
+3: Hvor gammel var du da du gikk til Aafk?
+
+4: Vil du si det er riktig for unge talent å dra til Toppklubb (eks.vis Aafk) så tidlig som mulig?
+Ved både ja og nei; i hvilken alder mener du det er rett og hvorfor?
+
+5: Hva er i din mening de viktigste kriteriene for at et talent skal utvikle seg til å bli en god
+fotballspiller?
+6: Hvordan skal vi klare å utvikle flere talenter fra ”lokalfotballen” til Tippeligaspillere?
+
+7: Hvor viktig er treneren i yngres lag i forhold til utvikling av spilleren?
+
+8: Var/er din erfaring at trenerne i Aafk var/er bedre skolerte enn de du hadde i
+breddeklubben?
+
+9: Fikk du en positiv utvikling og erfaring gjennom å gå til Aafk?
+Hvis nei, hvorfor?
+
+10: Var det rett for deg å gå til Aafk sett i ettertid?
+Ved både ja og nei, hvorfor?
+
+11: Føler du at du fikk nok, eller gode nok muligheter til å nå helt opp?
+
+12: Hva er hovedårsakene til at du ikke nådde helt opp (A-lagsnivå Aafk) (ikke lykkes)
+
+12: Hva er hovedårsakene til at du ble så god (A-lagsspiller Aafk)
+
+4,3: Bearbeidelse av svar, resultater av undersøkelsen.
+Etter å ha gjennomgått de mange forskjellige svarene fra objektene var det interessant å se
+relativt mange likheter, og også tankegang med utspring i hva som er ”riktig” å gjøre for og i
+forhold til et talent og dets utvikling. Som nevnt er det en 40/60 (drøyt) fordeling mellom de
+som lykkes i forhold til toppnivå, og de som ikke gjorde det.
+Jeg ønsker nå i den neste delen å gjennomgå spørsmål for spørsmål med en kjapp
+oppsummering, og kanskje lande en form for konklusjon sett fra spillernes ståsted, og opp i
+mot min egne vurderinger som er gjort tidligere i oppgaven.
+4,3,1: Svaranalyse
+1: Mitt første spørsmål gikk i forhold til allsidighet og hvem som har drevet med andre
+idretter aktivt ved siden av forballen. Dette for å avdekke om det er en eller annen
+sammenheng mellom det å tidlig spesialisere seg, evt bedrive allsidig noe lengre.
+Resultat ”Lykkes”
+
+
+
+37,5% av de spurte har drevet aktivt med andre idretter ved siden av fotballen. Dette
+gjelder alt fra håndball, volleyball, ski, alpint.
+62,5% av de som lykkes har aldri drevet med noe annet enn fotball!!
+
+Resultat ”ikke lykkes”
+
+
+
+-
+
+-
+
+64% av de spurte drev annen aktiv idrett ved siden av fotballen. Ofte samme idrettene
+som den andre kategorien.
+36% av de spurte har kun drevet med fotball.
+
+Konklusjon; her skal man være forsiktig med å være kategorisk men ut fra målgruppa, eller
+objektene kan man i alle fall fastslå følgende;
+Det er ingen sammenheng mellom det å bedrive flere idretter når man vokser opp, og det å
+lykkes fullt ut i en av dem, eksempelvis fotball. Utvilsomt bra å drive med flere aktiviteter,
+men ut fra min studie er det heller større sjanse for å mislykkes enn å lykkes når man sprer
+aktiviteten over flere flater.
+
+Sammenligner vi de to gruppene så ser vi at tallene er forholdsvis like, men reversert!!
+I gruppen lykkes ser vi at 62,5% har kun bedrevet fotball, mens i gruppen ikke lykkes har 64%
+drevet med flere idretter samtidig. For meg er dette interessante tall og innspill i en debatt
+om tidlig spesialisering av barn og unge. Resten av Europa (og verden for den saks skyld) har
+et helt annet syn på dette enn vi gjør. Men det er en annen diskusjon!!
+
+2: Trener du mye utenom organisert trening (les egentrening)?
+Her vil jeg se om det er en vesens forskjell mellom gruppene, eller om vi kan ta dette vekk
+som faktor.
+Resultat ”lykkes”
+
+
+100% av de spurte svarte at de trente minimum 5 ganger per uke, dvs hver dag, gjennom
+stort sett hele oppveksten. Dette gikk på organisert egentrening med arbeidsmål i stor
+grad, men også lett egentrening sammen med andre.
+
+Resultat ”ikke lykkes”
+
+
+
+
+55 % sier de trente hver dag, dvs minimum 5 ganger per uke utenom org. trening.
+10% sier de trente ca 2-3 ganger i uka ekstra.
+45% sier at de ikke trente noe særlig utenom vanlig fotballtrening.
+
+Skal man dra en konklusjon ut av dette, og det mener jeg definitivt at vi kan, så er det
+følgende; unge gutter eller jenter som er bevisste i forhold til egentrening og egenutvikling
+
+har en mye større sjanse for å lykkes med å nå helt opp. Tallene bekrefter i grunn det mange
+av oss tenker og sier; skal man som en av ekstremt mange håpefulle ha noe håp om å lykkes
+krever det en enorm vilje og evne til forsaking for å få dette til. Å gjøre ting halvveis er
+sjelden eller aldri nok!
+
+3: Når gikk du til Aafk?
+Spørsmål med tanke på å avdekke om det er spesielt gunstig å gå til toppklubb tidlig eller
+ikke.
+Resultat ” lykkes”
+
+
+Gjennomsnittlig alder ved overgang til Aafk: 16,7 år.
+
+Resultat ”ikke lykkes”
+
+
+Gjennomsnittlig alder ved overgang til Aafk: 15,9 år.
+
+Her bare konstaterer jeg at den gjennomsnittlige alderen på samtlige objekter er ca 16 år ved
+overgang til Toppklubben. En viss interesse er det i at den gruppen som ikke lykkes ser ut til å
+å ha kommet ett år før i snitt. Hvordan det vil se ut i fremtiden i og med at klubben nå
+rekrutterer ned i 13 års-alderen vil ta noen år å se resultater av. Kanskje er det lurt, kanskje
+ikke! Neste spørsmål vil avdekke objektenes mening om det.
+
+4: Er det viktig å gå tidligst mulig til Toppklubb? Evt når mener du?
+I konklusjonen slår jeg her sammen svarene fra begge grupper. De færreste tror eller mener
+at det er vesentlig at talentene drar tidligst mulig. Det som vektlegges er individets
+modenhet, breddeklubbens kvalitet på både trener og treningsopplegg, og ikke spillerens
+kamptilbud. Det som er interessant her er at flertallet av objektene fremholder at en god nok
+treningshverdag er viktigere enn kamparena. Hvis ikke breddeklubben kan sørge for en god
+nok hverdag ser flere av objektene for seg at man går til toppklubb helt ned i 10 års alderen.
+Noen hevder dog at det å gå til Aafk tidlig ga dem et dårligere kamptilbud enn det de hadde i
+utgangspunktet.
+Alder? Gjennomsnittsalderen i forhold til det gruppa har svart er 14 år. Her varierer det fra
+7-8 årsalderen til 20.
+
+5: Hva er de viktigste kriteriene for at et talent skal utvikle seg til å bli en god fotballspiller?
+Her er gruppene relativt samstemte og sees derfor under ett. Det som jeg ønsker å belyse er i
+hvor stor grad objektene mener de selv innehar de viktigste kriteriene eller om de ser på
+dette som noen klubb/trener skal bistå eller levere. For meg er svaret åpenbart, man må ville
+det enormt mye, man må ofre, jobbe, og elske det man gjør.
+
+Gjennomgående svar individ:
+-
+
+Treningsvilje og hardt arbeid.
+Gode holdninger og disiplin
+Indre motivasjon
+Elske fotball
+
+VS
+
+Ytre påvirkning:
+– God treningshverdag, god trener
+- Tillit
+- Klubb med fokus på ferdigheter
+- Gode hospiteringsordninger.
+
+De aller fleste nevner vilje, holdninger, disiplin og motivasjon som de viktigste formlene for å
+lykkes. Det nevnes også gleden, det å ha det gøy, som en viktig faktor. Ellers mister man
+potensielt mange på veien. Noen få toucher også innom temaet 24 timers utøveren med
+søvn, hvile og kosthold.
+
+6: Hvordan skal vi utvikle flere talenter fra lokalfotballen til Tippeligaspillere?
+Alle de spurte har på ett eller annet tidspunkt kommet fra en lokal breddeklubb. De har
+gjennom sin erfaring i begge leire skaffet noen referanser på hva de mener er viktige
+virkemidler for å skape flere toppspillere.
+Den største fellesnevneren som går igjen er kvalitet på trenerne i breddeklubbene. Spillerne
+ser på dette som kanskje den viktigste faktoren for å utvikle flere talent. Noe vågalt kan vi da
+si at breddeklubbene er viktigere en toppklubben i den store sammenhengen i referanse til
+tidligere debatt i oppgaven! Her ligger flere aspekt selvsagt. Topp og bredde må øke sitt
+samarbeid der spesielt toppklubben sørger for kompetanseoverføring på trenersiden.
+Gjennom å styrke trenerkorpset lokalt vil Aafk som toppklubb få enda flere emner å jobbe
+med i fremtiden. Dette mener i alle fall gruppa som er spurt.
+Av andre ting nevnes gode hospiteringsordninger fra relativt ung alder, god matching og
+referanseinnhenting gjennom spill mot kvalifisert motstand, gjerne utenlandsk.
+Tilrettelegging mellom skole/fotball, mer ferdighetstenking, og god oppfølging av
+enkeltindividene sees også på som viktige faktorer.
+
+7: Hvor viktig er treneren i yngres lag forhold til utviklingen av spilleren?
+Det jeg her ønsket å lokke frem er objektenes tanker i forhold til hvor viktig lederen/treneren
+er i den tidlige utviklingen kontra individenes egen determinasjon i forhold til å nå et mål.
+Selvsagt var/er vi alle avhengig av å ha en ansvarsperson rundt oss som ivaretar alt fra det
+sosiale til det rent læringsmessige. Men kanskje ville enkelte svare at man selv var viktigere?
+Konklusjonen etter gjenomgang av svarene er at en relativt samlet gruppe fremhever at en
+dyktig trener i oppveksten er utrolig viktig. Med trykk på dyktig! Veldig mange er inne på at
+treneren må inneha en viss kompetanse, og at det er viktig å øke denne kompetansen i de
+mange breddeklubbene rundt omkring i større grad.
+I tillegg til dyktighet sees det også på som viktig at den som trener lag i yngres må være en
+dyktig pedagog og mestre gruppedynamikk. Det antydes av flere at selv om
+fotballkompetanse er viktig er det vel så viktig med en flink motivator og som viser
+engasjement og glød.
+Noe overraskende svarer bare 15% av de spurte at de mener spilleren selv er desidert viktigst
+og at treneren i så måte mer er en bidragsyter og støttespiller. Av de som svarer dette sees
+det opp mot et ultimat mål om å lykkes. Da må enkeltindividet være veldig bevisst i forhold
+til egen trening, og ”lese” bildet tidlig i forhold til hva som trengs og hva man trenger å øve
+mer på. Av de som svarer dette tilhører flertallet til gruppen ”lykkes”.
+
+8: Var din erfaring at trenerne i Aafk er bedre skolerte enn de du hadde i breddeklubben?
+
+Jeg hadde en viss spenning og forventning til dette svaret. Som toppklubb er det lett å se seg
+selv som førende på kompetansesiden, og at vi naturlig skal kunne tilføre spillerne noe de
+ikke får i sin moderklubb. Interessant å se da hva objektene mener om dette.
+Svar: Ja helt klart, definitivt og utvilsomt sier 95% av svarene. Det er jo selvsagt gledelig for
+oss som har jobbet i organisasjonen, noe annet hadde vært kjedelig. Mange fremhever at
+man hadde veldig flinke trenere også i sine respektive klubber, men erfaring fra høyere nivå,
+mer spesifikk og systemrettet trening gjør at Aafk i sum har et apparat som er bedre rustet.
+Det nevnes også at individuell oppfølging og individuelle arbeidsoppgaver i større grad er
+vektlagt i toppklubben. Det skulle også bare mangle for øvrig.
+Et interessant poeng i dette spørsmålet var at flere påpekte at en stor hemsko for mange
+trenere rundt om er at de prioriterer resultat i større omfang enn utvikling av enkeltspillere.
+Her er vi i en materie som vi har jobbet hardt med over en viss tid i vår klubb. At målet må
+være å fremskaffe fremtidige tippeligaspillere og ikke ha fokus på diverse krets og
+
+regionsmesterskap. Som nevnt tidligere vil jeg påstå at vi har kommet et godt stykke på vei
+her!!
+
+9: Fikk du en positiv utvikling av å gå til Aafk? Hvis nei hvorfor?
+
+Det å skifte beite er ingen garanti for utvikling og suksess. Fasiten viser at ca 64% av de
+spurte i undersøkelsen IKKE lykkes. Men vil de allikevel vurdere det som positiv utvikling? Det
+vil i så fall si at vi lykkes i en viss grad. Alle blir ikke toppspillere, men målet må være at de
+som ikke når opp drar tilbake til sine respektive klubber, eller andre lokale for den saks skyld,
+som bedre spillere enn da de kom!
+Resultat: Med ekstrem glede kan jeg konstatere at alle minus 1 svarte at de utvilsomt hadde
+en god utvikling og gjorde gode erfaringer gjennom sin periode i Aafk. Den ene som svarte
+nei skyldte i stor grad på seg selv. Veien var for lang opp og han valgte andre ting som venner
+og mer sosiale tilstelninger
+Det som gjør meg mest glad er at flere av de spurte konstaterer at de i tillegg til god utvikling
+fotballmessig vokste mye som menneske i sin periode her. Det med lojalitet, disiplin,
+medmenneskelighet og toleranse nevnes. En annen gledelig ting er at samtlige som faller inn
+under kategorien ikke lykkes fortsatt spiller fotball. De fleste i lokal 4 og 3 divisjon, men også
+noen i 1 og 2 divisjonen.
+
+10: I ettertid; var det ”rett” for deg å gå til Aafk.
+
+Sett i ettertid vil kanskje spillerne ha en annen oppfatning enn den de hadde ved
+overgangstidspunktet. Dette gjelder selvsagt i større grad de som ikke lykkes. Ved
+gjennomgang av svarene kom dette frem:
+Lykkes: 100% mener det var rett. Ingen bombe akkurat!
+Ikke lykkes: 80% mener det var helt riktig, 20% mener de gjorde en feil.
+Som man ser av resultatene er de aller fleste veldig klar på at det var et riktig valg å gå når de
+gjorde. Dette må jo sees i lys av forrige spørsmål der alle bekrefter at de fikk god utvikling av
+å ta det valget. Hvis variansen mellom disse to spørsmålene hadde vært stor ville jeg virkelig
+stusset! Hva er så årsaken til at de som mener det var feil å gå til Aafk? De ser i ettertid at de
+burde blitt noe lengre i sin klubb der de hadde en ok treningshverdag, men bedre
+
+kamptilbud. En påstår sågar at han hadde nådd langt hvis han ikke hadde gjort dette valget.
+Beklagelig hvis det skulle vist seg å stemme.
+
+11: Ble du gitt nok muligheter i forhold til å nå opp (A-lagsnivå Aafk)?
+
+Det er relativt forutsigbart i forhold til å tippe resultat på dette emnet. Normalt vil en tro at
+de fleste av de som lykkes vil si at de fikk gode nok muligheter, mens det motsatte viser seg
+på de som ikke lykkes.
+Lykkes: 85% ja, 15% nei. De som svarer nei mener de ikke hadde nok tillit hos treneren og at
+det dermed gjorde at de fikk mindre spilletid enn det de selv mente de fortjente. Når det er
+sagt var de spillerne det gjelder spillere som har flere år bak seg på tippeliganivå så man kan
+vel si at de nådde helt opp!!
+Ikke lykkes: 50% ja og 50% nei. Normalfordeling om man vil Hadde egentlig forventet at
+antallet nei ville være større. Men halvparten av de spurte mente altså at de fikk gode og
+mange nok muligheter, men at konkurransen rett og slett var for tøff og at de summa
+summarium ikke var gode nok.
+
+12: Hva var årsaken til at du ble så god (tippeliganivå?
+12: Hva var årsaken til at du ikke nådde helt opp (A-lagsnivå Aafk)?
+
+Her berører de to gruppene mange årsaker til hvorfor det har gått slik som det har gått. Den
+som er spennende for meg er å se om den kryssreferansen jeg har prøvd på gjennom alle
+spørsmålene viser seg gjennom den siste besvarelsen. Gjennom flere av de foregående
+spørsmålene blir objektene bedt om å svare i forhold til trenere i breddeklubben,
+toppklubben, hva som skal til for at et talent skal lykkes, og hvordan vi skal klare å utvikle
+flere fremtidige toppspillere. Hvordan ser de dette opp mot sin egen utvikling og
+hovedårsakene til at man er der man er?
+Lykkes:
+- Talent + treningsvilje (fremkommer ofte)
+- Gode trenere
+- Godt treningsmiljø
+- Tillit fra trenere og støtte fra foreldre.
+
+Svært mange av de spurte i denne kategorien fremhever mye og bevisst trening, mange
+egentreningstimer. Samtidig at de hadde dyktige trenere som bevisstgjorde de i forhold til
+utviklingskrav og at de opplevde stor tillit. Dette stemmer relativt godt overens med de svar
+som er gjort tidligere i oppgaven fra denne gruppen.
+
+Ikke lykkes:
+- Fikk ikke nok tillit
+- Jobbet ikke hardt nok
+- Svak mentalitet, tåler ikke motgang godt nok
+- Skader/sykdom
+- Ikke god nok
+Det er lett å skylde på omgivelsene når man ikke lykkes med det man har satt seg fore.
+Vikarierende motiver fremkommer også her i en del besvarelser, men jeg vil allikevel påstå at
+gruppen svarer med en stor grad av selvinnsikt. Vi ser en relativt klar todeling av objektene
+dog. Ca halvparten mener at tillit fra trenere og skader/sykdom er hovedårsakene til at de
+ikke slo helt an.
+Den andre halvparten sier rett ut at de ikke var gode nok, eller at de ikke jobbet hardt nok.
+Disse tallene stemmer også veldig godt overens med forrige spørsmål som avklarte om
+objektene føler de hadde fått nok muligheter. Der også en ca 50/50 fordeling.
+
+4,3,2: Konklusjon av undersøkelse
+Så langt i oppgaven har jeg tatt utgangspunkt i 3 plattformer; Aafk`s måte å tenke utvikling
+på, min egen vurdering og debatt rundt dette i forhold til spiller/talent utvikling. Nå er altså
+et tredje element tatt inn, toppspillere og tidligere aspirerende toppspillere.
+Hvordan samsvarer så disse elementene?
+Konklusjonen av spørreundersøkelsen/svarene objektene gir velger jeg å se 3-delt.
+
+1: Spilleren. Her besvares i stor grad at spilleren selv er ansvarlig for sin egen utvikling. Man
+må trene mye og bevisst, og inneha gode holdninger. I tillegg til å jobbe godt og lytte til de
+råd og veiledninger treneren gir, må man legge mye egentrening til grunn skal man nå langt.
+For hver trening man sluntrer unna er det tusenvis som utnytter den! Objektene er klare på
+dette punktet.
+
+2: Breddeklubben vs Toppklubben. Her er det svært viktig med et godt samarbeid mellom
+disse. Man må sørge for best mulig utviklingsvilkår enten det gjelder overgang eller gode
+hospiteringsordninger. I noen tilfeller vil det være bedre for talentet å spille for sin lokale
+klubb samtidig at han får påfyll gjennom hospitering hos eks.vis Aafk.
+I tillegg at toppklubben bidrar med sin kompetanse på trenerutvikling samtidig med at
+breddeklubben er enda mer bevisste på å utdanne stadig dyktigere trenere. Dette til felles
+beste.
+
+3: Kravs-spesifisitet, hva skal til? Her ligger svaret i de to foregående. Det som oftest
+fremkommer av svarene er at individet må ha en sterk treningsvilje, gode holdninger og
+mentalitet, og de må formelig elske det de gjør og ha et brennende ønske om å lykkes.
+Samtidig må det være grunnlag for et godt samarbeid mellom de forskjellige klubbene slik at
+man setter enkeltspilleren i fokus og ikke laget. Breddetrenere får kritikk for å dyrke gode
+resultat fremfor utvikling av enkeltspillere, mens toppklubben får kritikk for å hente for
+mange spillere som sannsynligvis ikke er gode nok. Her må man samkjøre gjennom gode
+hospiteringsordninger frem til spilleren er moden nok eller klar til å gjøre en permanent
+overgang til toppklubben. Her må det også være lagt til rette for et godt nok kamptilbud. Det
+er mest sannsynlig en bedre treningsarena å trene sammen med likesinnede (like gode) men
+det er vel så viktig at man sørger for nok utfordring i konkurransesituasjonen også.
+
+5: Intervju.
+5,1: Bakgrunn for intervju
+Som nevnt i innledningen av oppgaven ønsker jeg gjennom intervjufasen og avdekke likheter
+og forskjeller mellom toppklubbene i måten å tenke spillerutvikling på. Hvordan mener de
+selv de har lykkes og hvilke utfordringer har de stått ovenfor og evt blir å møte i fremtiden.
+Spørsmålsformuleringen er forholdsvis lik; - hva er hovedpunktene i klubbens måte å
+tenke/jobbe med spillerutvikling på? Hva er hovedarenaen? Og hvordan ser de på hvordan
+de har lykkes med dette arbeidet, og hvilke utfordringer har de støtt på/ støter de på?
+Aafk sin fremgangsmåte har jeg gitt et relativt klart bilde på. Fra røsk og stjel mentalitet noen
+år tilbake, til et større fokus på samarbeid med naboklubbene og en økende
+kompetansebygging på lokale trenere gjennom klubbtiltak. Man er tydeligere på hvilke
+spillere som hentes og med en større enighet med moderklubben i fremgangsmåten.
+Når ? Hvordan? Og ofte etter lengre hospitering. Samtidig har man gjort en erkjennelse på at
+man nå rekrutterer ned i 13 års-alder. Dette er det ”akseptable” nedre grense i forhold til å
+hente spillere til klubbens G16 lag.
+Molde jobber veldig godt gjennom sitt Aker Akademi. Der opplever de en stor grad av
+toleranse og forståelse i måten de jobber på, da det er et tilbud for alle i Molde og omegn.
+
+Ikke i den forstand at alle kan få delta, men at spillere fra alle de mange klubbene i
+nærområdet kan kvalifisere seg til dette ekstra tilbudet. I intervjuet med Thomas som
+redegjøres under, følger dette til at aksepten for at de beste havner i Molde FK er 100%
+tilstede.
+Likeledes ser vi at Hødd arbeider. Dette kommer vi tilbake til i intervjuet, men jeg konstaterer
+at de også ”overvåker” spillere i lengre tid i sitt hjemme-miljø og tilbyr hospitering og
+ekstratiltak før de beste evt melder overgang.
+I tillegg til intervjuet med Molde og Hødd har jeg snakket med to store representanter for
+breddefotballen i Ålesund, Herd og Spjelkavik. Dette for å få et bilde på hvordan de ser på
+Aafk som nestor for spillerutvikling i byen. Hva inntrykk de har om måten Aafk jobber på og
+om det har vært en positiv, evt negativ utvikling på nettopp dette. Intervjuet avdekker også
+hvordan de ser på samarbeidet mellom seg selv og Toppklubben og hva de evt etterlyser.
+
+5,2: Intervju med Thomas Mork, ansvarlig spillerutvikler Aker Akademiet
+Thomas Mork er hovedansvarlig for Aker Akademiet og den spillerutviklingen som skjer der i
+regi Molde. Givetvis betyr det også rekrutteringsansvarlig for det som tilfaller Molde FK
+gjennom dette tiltaket. Selvsagt sammen med et trenerkorps.
+Akademiet er Molde FK`s er rekrutteringsanstalt. Det er gjennom dette systemet de henter
+sine fremtidige Toppspillere. Nå har A.A er relativt kort historie, noe som gjør at vi ikke helt
+ennå har sett konturene av hva dette kan tilby. Undertegnede bemerket Molde`s manglende
+evne til å produsere lokale spillere de senere år. Har vel ikke vært noen av betydelig grad
+siden Hoseth og Berg. Men dette har Molde tatt grep om gjennom A.A og vi vil nok i følge
+Thomas se flere spillere med lokal bakgrunn i årene som kommer. De startet opp dette
+tiltaket i 2007. Med spillere ned i 7-8 års alderen. Det betyr i klartekst av vi først nå kan se
+noen av disse prospektene inn mot klubbens A-lag.
+Hva er Aker Akadamiet?
+
+
+” Tilbudet som gis gjennom AkerAkademiet er uavhengig av klubbtilhørighet.
+AkerAkademiet er en rekke tiltak innen spiller-, trener-, leder- og klubbutvikling. Tanken
+er at AkerAkademiet skal være et helhetstenkende. fotballutviklende prosjekt.
+AkerAkademiet gjennomfører ukentlige spillerutviklingsgrupper i Romsdal, trenertiltak
+og fotballskoler. Etter hvert er målet å ha et tilbud i hele kretsen.. AkerAkademiet blir
+også fotballkretsen forlengede arm og vil ha ansvar for Molde sitt byserielag på
+guttesiden."
+
+Dette er den offisielle beskrivelsen av hva A.A er. Thomas tilføyer også noen spesifikke
+punkter på deres innhold:
+Aktiviteter/tiltak i regi av Akerakademiet:
+
+
+
+
+
+
+
+
+-FFO-fotballfritidsordning-4 dager i uken
+-Fotballskoler- i alle skoleferier
+-Spillerutviklingsgrupper og bylag-ukentlig trening på tvers av klubbtilhørighet
+-Trenerutdanning- arrangerer årlig UEFA- C lisens
+-Klubbesøk i distriktet
+-Akademiet drifter også MFK`s 3 satsningsgrupper under A-lag, G19, G16, og G14.
+Overordna mål er selvsagt å utvikle lokale spillere gode nok til A-laget. Veien dit mener vi
+går gjennom helhetstenkning, å styrke klubbene rundt oss, inspirere til økt aktivitet med
+stadig bedre kvalitet på alle nivåer, samtidig som vi hele tiden utvikler oss selv.
+
+Det vesentlige som blir nevnt i intervjuet med Thomas er deres gode samarbeid med
+naboklubbene. For det første er det svært mange spillere som får et veldig godt tilbud og
+som styrker sine lokale klubber gjennom ferdighet, og som ikke ender opp i MFK. For det
+andre at de som faktisk ender i MFK gjør det med velsignelse fra sin klubb nettopp på grunn
+av bidraget akademiet gjør for de mange andre.
+I tillegg fremhever Thomas at de er relativt flinke på klubbesøk og dermed ivaretar det gode
+samarbeidet på tvers av klubbgrensene. At de styrker trenerstabene i området rundt seg gir
+en tosidig effekt, bedre skolerte trener gir bedre oppvekstvilkår for helheten, og større
+mulighet for fremtidige topp-evner som ender i Toppklubben.
+Hvilke lag driftes av Akademiet, alder?
+Akademiet drifter MFK`s 3 satsningsgrupper under A-laget, G19, G16 og G14. Det vil i
+klartekst si at MFK på samme vis som Aafk rekrutterer spillere til klubben i 13 årsalder, men
+det er en vesentlig forskjell! Aafk`s satsningsgruppe er begrenset til kun G16 og G19. Molde
+starter altså ennå litt tidligere.
+Videre svarer Thomas på følgende måte i forhold til hva som er målet og tankegangen bak
+metodene de har valgt seg:
+
+
+Overordna mål er selvsagt å utvikle lokale spillere gode nok til A-laget. Veien dit mener vi
+går gjennom helhetstenkning, å styrke klubbene rundt oss, inspirere til økt aktivitet med
+stadig bedre kvalitet på alle nivåer, samtidig som vi hele tiden utvikler oss selv.
+
+Avslutningsvis kan vi da si at MFK i stor grad satser på å styrke klubbene rundt seg med sin
+kompetanse for gjennom dette instrumentet sørge for å avle flere toppspillere som Molde
+kan nyte godt av. Denne måten å tenke og agere på gjør som nevnt at disse mange klubbene
+har en stor grad av aksept for at enkeltspillere tar steget inn i MFK når de er modne for det.
+
+5,3 Intervju med Einar Magne Skeide, Spillerutvikler Hødd IL
+Einar Magne har gjennom veldig mange år vært en skapende kraft i Hødd, Ulsteinvik og
+området søre Sunnmøre. Alt fra A-lagstrener til småguttetrener og kretsmann. Men
+gjennomgående for Skeide er hans arbeid med å utvikle gode lokale spillere i regionen, noe vi
+har svært mange eksempler på gjennom årene i Hødd, men også spillere som har slått til på
+enda større arena. Her har E.M. Skeide vært svært delaktig. Som han selv sier beskjedent,
+”jeg har vel vært med på en del spilleres utvikling opp gjennom årene”.
+Som tidligere nevnt har Aafk, Molde og Hødd ulike utgangspunkt, krav og kriterier for sitt
+arbeide. Aafk og Molde er gjengangere blant ”store-gutta” i Tippeligaen, mens Hødd stort
+sett har sin tilværelse på nest øverste nivå, men noen hvileskjær innimellom i 2 divisjonen.
+Men de har som klubb vært svært flinke til å utvikle egne spillere og det er svært interessant
+å se på hva de gjør, og hvordan de lykkes best.
+
+Mine spørsmål til Skeide var som følger:
+1: Redegjør for måten Hødd tenker utvikling på, både innad i klubben, men også ut mot
+talent i naboklubbene. Hva er essensen i Deres måte å jobbe på? Er dere spesifikke på i
+hvilken alder dere evt henter spillere/talent inn i klubben?
+2: I hvor stor grad anser dere at dere lykkes på dette området og hvorfor? Og hvilke
+utfordringer møter dere/ligger til hinder?
+Som del av svaret på første spørsmål kan vi referere til et dokument fattet av Hødd i 2007
+som heter ”Korleis gjer ei beste bedre”? Dette bruker Hødd i stor grad som mal i dag også.
+-
+
+Stikkord her er mer trening og bedre treningsvilkår spesielt på G14 og oppover. Høy
+kompetanse og kontinuitet på trenersiden på G14, G16 og JR. Stor bruk av hospitering fra 12
+år og oppover. De 3-5 beste spillerne på hvert årskull trener mye og får tilbud om mye
+trening, og spiller alltid kamper for gruppa/årsklassen over.
+
+-
+
+Hødd har nedfelt at de til en hver tid skal ha et klart prioritert fokus på enkeltspillerne kontra
+fokus på lag. Dette betyr gjerne nedprioritering av eksempelvis kretsmesterskap og lignende.
+Det ligger en større verdi i enkeltindividets utvikling enn gode lags-resultater! Apropos lag
+har Hødd stort sett flyttet hele lag opp en årsklasse for ytterligere påvirkning. Klubbens G98
+og G99 har gjort dette i årevis i følge Skeide.
+
+-
+
+Videre har klubben siden 2007 hatt spillerutviklere ansatt i de forskjellige årsklassene i
+størrelse på 20-40%. Disse bidrar både gjennom ekstraordinære tiltak og i oppfølging
+gjennom treningsuka. Her blir spillerne utfordret på treningskultur, tøft å trene mye, og
+konkretisering av utviklingsmål. Dette blir også tatt opp i spillersamtaler som teamet
+gjennomfører 2-3 ganger årlig med de enkelte spillerne.
+
+-
+
+Målsettingen er at lagene i 14, 16 og 19 årsklassene skal reise ut på 2-3 Eliteturneringer i
+året.
+
+-
+
+Til slutt Team Søre som er By-laget i Ulsteinvik og området rundt. Dette er deres variant av
+akademi på samme måte som Aafk kjører sitt løp over fjorden. Dette innbærer samlinger
+annenhver tirsdag for spillerne som er plukket ut, samt 4-6 rene trenersamlinger per år. Alt i
+regi Hødd.
+Andre del av spørsmål 1 gikk på i hvilken alder de mener det er hensiktsmessig å hente
+spillere, og hvordan de da evt gjør det?
+
+-
+
+Hødd henter sjeldent eller aldri en spiller inn til klubben før fylte 16 år. De har et godt
+samarbeid med klubbene rundt seg og forsterker heller dette samarbeidet ved å følge opp de
+mest lovende spillerne i sine lokale klubber. Fredrik Aursnes er et nylig og godt eksempel på
+dette. Einar Magne fulgte spilleren relativt tett i 2 år før de mente han var moden for
+overgang. Og når han kom gav de han umiddelbart tillit. For en debutsesong av 16 åringen.
+Her ligger en annen nøkkel, klubben har som statutt å satse på unge spillere. Punktum!!
+
+-
+
+Og som den viktigste suksessfaktoren nevner Skeide Deres samarbeid med Ulstein VGS med
+sine ca 70 fotballelever, der 20 inngår i den beste praksisgruppa. Denne gruppa kalles
+”Høddprosjektet” og er av svært god kvalitet både på spillere og personell.
+
+-
+
+Her blir de tilført kvalitativ trening, mulighet for basistrening i skoletida, og faglig påfyll
+gjennom treningslære og fysiologi.
+
+Spørsmål 2, hva er utfordringer og hindringer?
+-
+
+Her sier Einar Magne at det primært går på å være i stand til å tilføre Team Søre (13-15 år)
+nok kvalitet. Han ser det som mer hensiktsmessig at klubben på sikt får i stand et akademi
+som gir en enda bedre spissing og påvirkning på de aller beste. Og ikke mist på hyppigere
+basis.
+
+-
+
+Klubben er langt på nær dyktig nok i de yngre klassene, 7-12 år der man ser en stor grad av
+foreldrestyrt aktivitet, og en del av det er av dårlig kvalitet. Her ser man at man bør legge seg
+i større grad mot et klubbstyrt opplegg.
+
+-
+
+Utfordring med at klubben skal være både topp og bredde. Blant annet har de ca 50 spillere i
+småguttealder og 40 spillere på G16 nivå. Tidskrevende og vanskelig å spille på to hester
+samtidig, og å holde alle fornøyde.
+
+-
+
+Det har vært en gryende misnøye lokalt at klubben i senere tid har hentet en del spillere fra
+lokale 3 og 4 divisjonsklubber. Misnøyen fra naboklubbene tiltar når spillerne evt ikke får
+spilletid/ eller lykkes i Hødd. Hvorfor hente de da?
+Oppsummert kan man si at Hødd som alle andre klubber både har styrker og utfordringer.
+Men det er hevet under enhver tvil at de gjennom sitt systematiske arbeid fra aldersgruppa
+G14 og oppover har lykkes godt i forhold til Deres målsetting. Nemlig å skape fremtidige
+lokale spillere til sitt A-lag og jobbe godt for å gi de beste i regionen en god læringsarene i
+forhold til egenutvikling.
+
+I likhet med Aafk, Molde med flere, konkluderer vi med at heller ikke de er dyktige nok i
+arbeidet med de yngste elevene frem til 12-13 års alderen. Her må vi nok erkjenne at vi som
+stor-region har et stykke å gå.
+
+5,4 Intervju med Geir Hansen, klubbutvikler Sunnmøre Fotballkrets.
+Geir Hansen er en meget kunnskapsrik fotballmann med stor erfaring fra mange nivå. Alt fra
+breddeklubber til Aafk, krets og landslag. Gjennom sine mange roller og sterke personlige
+engasjement i fotballen var Geir en interessant sparringspartner i så henseende. Mitt intervju
+med Geir ble gjort i kraft av hans nåværende kretsengasjement og gikk i stor grad på hvordan
+han ser på Toppklubbens rolle i spillerutvikling i et bredere perspektiv, og hvordan han ser på
+Aafk sitt virke innen samme tematikk i et lokalt syn.
+
+-
+
+-
+
+Toppklubbens rolle:
+
+Geir er tydelig på at Toppklubben er kjempeviktig for spillerutviklingen i nærområdet.
+Toppklubben skal være en motor og vise vei for alle andre og det gjennom mange forskjellige
+parametere. Med sine menneskelige og økonomiske ressurser vil Toppklubben kunne
+samarbeide tett med krets og breddeklubber for gjennom dette å sørge for svært god
+påvirkning av de beste spillerne mellom 12 og 19 år. Per nå deltar eksempelvis Aafk og Molde
+med trenerkrefter på bylag og kretslag samt andre talenttiltak. Dette mener Geir er både
+kjempebra og veldig viktig.
+Toppklubben må også være dyktig til å lage gode hospiteringsordninger på sine G16 og G19
+lag, slik at de beste spillerne som av forskjellige grunner tilhører breddeklubber, får tilbud om
+treninger og Eliteturneringer. Toppklubbenes måte å trene og spille på smitter over på
+bredden og dette er positivt. I dette ligger også spillernes måte å tenke på, forberede seg på
+og utvikle seg på. Det kan være store forskjeller i mentalitet i forhold til trening fra bredde til
+topp. Dette læringsaspektet vil også påvirkes gjennom at spillere fra bredde hospiterer med
+topp og får erfare det gjennom trening og kamp. Her vil man også få referanser i forhold til
+hva som kreves i større grad, noe de forskjellige spillerne sprer i sitt miljø.
+Disse punktene mener Geir er de mest vesentlige i forhold til Toppklubbenes rolle inn mot
+nærmiljøet. Vi går litt dypere da vi er inne på Aafk spesifikt:
+
+
+-
+
+Aafk, storebror og oppdrager.
+
+Alt det som nevnes ovenfor er gjeldene for Aafk. Men Aafk har en større rolle som også må
+bekles! I tillegg til å sørge for de største talentene vil de som storebror ha en klar forpliktelse
+ovenfor de mange breddeklubbene i forhold til kompetanseoverføring, inspirasjon og
+tilstedeværelse. Her uttaler Geir uten noen form for kritikk, men kun om hva Aafk som klubb
+må være flink på. Så kan vi spekulere på i hvor stor grad de er det?
+Det aller viktigste for Aafk som klubb er at de bidrar til barnefotballen i nesten like stor grad.
+Klubben må ut i lokalmiljøet og bidra til klubbutvikling, inspirasjon og motivasjon. De må
+både overføre kunnskap til de miljøene som skal skape fremtidige toppspilleremner, men
+også respektere og sette seg inn i disse miljøene. Klubben må hyppigere ut og vise sin
+
+tilstedeværelse og spre det glade budskap for si det litt løselig. Eller tilby utdanning for å si
+det mer presist! Gjennom å styrke disse miljøene vil Aafk få bedre spillere å jobbe med når
+guttene kommer til Aafk i 15 års alderen.
+I spørsmål om i hvilken alder Geir mener det er rett eller fornuftig å hente spillere til
+Toppklubben er svaret som følger:
+-
+
+kanskje kan det være en ide at for eksempel Aafk kutter ut egen yngres avdeling under G16
+nivå og heller bruker mer ressurser på utdanning og bidrag til breddeklubbene. Mer bidrag
+inn mot barnefotballen og å være en sterkere kraft i påvirkningen av gode utviklingsmiljøer.
+Når det gjelder alder? Ikke hente spillere før de helt klart er gode nok eller at de har vokst ut
+av sitt miljø!
+
+5,5 Intervju Eirik Hoseth, daglig/sportslig leder Herd.
+Et viktig ledd i en god spillerutviklingsmodell for toppklubbene er et nødvendig og godt
+samarbeid med klubbene rundt oss. I så måte er Herd en klubb som er viktig å pleie dette
+med. Vi snakker om en svært stor lokal breddeklubb som driver veldig godt, og som på
+mange måter sammenligner seg med Aafk i forhold til talentutvikling. De har gjennom årene
+levert eks antall spillere inn til Aafk på gutt, Jr og sågar A-lagsnivå.
+Mitt (todelte) spørsmål til Eirik var følgende:
+1: Hvordan ser du på Aafk som aktør i den lokale fotball/spillerutviklingen?
+-
+
+Hvilken rolle ser du at de har/bør inneha og har det endret seg i positiv retning i forhold til
+Aafk`s måte å operere på både når det gjelder lokale spillere, men også samarbeidet med
+klubbene rundt?
+Det første som Eirik bemerker at at klubben Herd ser seg selv først og fremst som en
+konkurrent til Aafk når det gjelder spillerutvikling fremfor samarbeidspartnere. Dette sier jo
+noe om klubbens ambisjonsnivå. Kanskje kan vi kalle det noget storsinnet, men vi kan også
+velge å se det som bra at en breddeklubb som Herd jobber bevisst og hardt med å fremskaffe
+lokale profiler. Men av de ting som nevnes av Hoseth i forhold til Aafk`s påvirkning og
+deltakelse er oftere klubbesøk og generelt mer involvering. De skulle gjerne hatt besøk av
+kvalifisert personell som stiller spørsmål som:
+
+-
+
+Hvilke tiltak kjører dere på barnefotballen?
+Hva gjør dere spesifikt for de beste i ungdomsfotballen?
+Hvilken påvirkning har dere for trenerne i klubben?
+Har dere egne spillerutviklere?
+Hvilken sportsplan har dere i forhold til spillerutvikling?
+
+Disse spørsmålene ville Eirik gjerne ha debattert med toppklubben for å utveksle ideer og
+tanker og gjennom dette lagt en slags strategi sammen om hvordan man best mulig kan
+legge til rette for optimal utvikling lokalt. Gjennom 5 år i Herd sier Hoseth at dette har vært
+etterlyst gjentatte ganger og at deres største ankepunkt som sagt er mer involvering av
+Aafk.Hans syn er at klubben mangler visjoner på hvordan man best mulig skal angripe dette.
+Hovedfokuset fra Toppklubben blir gjerne å kartlegge hvilke spillere som til en hver tid kan
+hentes inn. Alle er enige i at de beste må få påvirkning av Aafk, men man må altså legge mye
+i å utvikle de mange gode klubbmiljøene som finnes ute i klubbene rundt!
+I positiv retning sier Eirik at det har vært en veldig god utvikling siste 2 år, der det virker som
+Aafk har tatt et større grep og fått en bedre fasong på måten de arbeider på. Minuset var at
+det planlagte Akademiet ikke kom i havn. Det skulle være et samarbeid mellom flere klubber
+og spillere skulle få et godt tilleggstilbud uavhengig av klubbgrenser. Her er man kritisk til at
+en såpass stor klubb som Aafk ikke kunne ”ofre” 1,5 million for å få dette på bena.
+Da vil jeg gjerne tilføye at kravet er at Aafk skal skaffe dette til veie, men alle skal nyte godt
+av det. Er ikke et samarbeid gjeldende også på det økonomiske plan? Man skal forvente mye
+av Toppklubben på generell basis, men dog!!
+Ellers sier Hoseth at det har foregått mye positivt i forhold til trenerutvikling. Både i form av
+Ajax trenerkurs som Aafk inviterte til, men også diverse trenersamlinger undt om på
+Sunnmøre. Dette gir de mange unge håpefulle rundt om en bedre treningshverdag sier
+Hoseth.
+Til slutt er Hoseth inne på et tema som synes å gå igjen både i Toppklubben og i
+breddeklubbene; barnefotball i alderen 6 – 12 år!! Her jobbes det alt for dårlig. Man skal
+gjerne ha talenter fra 13 år og oppover. Og for all del, de finnes. Men hvilke muligheter har vi
+ikke om vi intensiverer arbeidet fra 6-7 år og oppover. Da vil sannsynligheten for at vi får opp
+mange flere øke betraktelig. Og her er Eirik inne på noe vesentlig som oppgaven min har
+avdekket, Aafk, Molde og Hødd sier alle at her er det en stor jobb å gjøre. Disse
+aldersgruppene er i stor grad foreldrestyrt og lever sitt eget liv! Man må systematisere
+arbeidet i større grad og tilføre gode trenerkrefter på de yngste. I referanse ser vi at en
+fotballstormakt som Spania gjerne setter sine mest rutinerte og garvede trenere på de
+yngste spillerne. Så vidt meg bekjent har eksempelvis landslagene G16, G19 i Spania trenere
+som holder Nils Arne Eggens alder!! En liten avsporing der altså, men et vesentlig poeng i
+mott hode.
+For å avrunde intervjuet med Herd`s daglige leder og tidligere spiller i Aafk; Toppklubben må
+vise et mer ”ekte” engasjement og interesse for naboklubbene. Man må i større grad tenke
+samarbeid og utvikling til det beste for alle parter. Den største vinneren med en slik strategi i
+følge Hoseth er utvilsomt Aafk, både med tanke på spillere, men også omdømme, salg av
+sesongkort og lignende. Da er det vel greit om alle parter tenker samarbeid istedenfor å se
+seg selv som konkurenter!! Da er vi vel like langt?
+
+6, Diskusjon
+6,1 Sammenfatning av undersøkelser
+Som undersøkelsene viste ser man et forholdstall på 36 – 64 når det gjelder å lykkes eller å
+ikke lykkes. Av 25 spurte lykkes altså 9 stk relativt sett. I punkt 4,3,2 hadde jeg en analyse
+som jeg ikke skal gjenta her, men sammenfatte noen vesentlige punkter.
+
+Noen ting gikk igjen hos flertallet av de spurte:
+
+- mye av ønsket utvikling kommer an på spilleren selv. På tross av viktigheten av en god
+trener/leder vil mye avgjøres av enkeltindividets evne til å trene mye, godt og bevisst i
+forhold til kravsspesifisitet. Vi ser at 100% av de som lykkes sier at de trente hver eneste dag
+uavhengig om det var fellestrening eller ikke. De ville bli god og trente deretter. Interessant
+nok viser undersøkelsen også at våre tanker om allsidighet i tidlig alder ikke nødvendigvis
+viser seg og stemme. 62,5% av de spurte i kategorien lykkes har aldri bedrevet noe annet enn
+fotball, mens 64% av de spurte i kategorien ”ikke lykkes” hadde drevet med fleridrett i tidlig
+alder.
+-
+
+Samarbeid mellom topp og bredde nevnes hyppig og sees av spillerne som svært viktig og en
+vesentlig bidragsyter. Både når det gjelder hospitering, men også Toppklubbens evne til å
+bidra i diverse læringsmiljøer, og ikke minst bidra til trenerutvikling i breddeklubbene.
+
+-
+
+Det er ikke sikkert at det er av så stor betydning at unge spillere drar tidligst mulig til
+Toppklubben. De spurte sier at det kan være fornuftig å bli noe lengre i sin moderklubb så
+lenge treningstilbudet er godt nok. Kamptilbud på høyere nivå kan tilføres gjennom
+hospitering til Toppklubben i type Eliteturneringer og lignende.
+
+6,2 Sammenfatning Intervju
+
+Intervjufasen dekket 3 toppklubber og regionens desidert største breddeklubb Herd, samt
+Geir Hansen, klubbutvikler Sunnmøre Fotballkrets. For meg var det ekstremt interessant å se
+på hvordan toppklubbene tenker om sine egne modelltanker, mot hvordan krets og bredde
+vurderer det samme. Felles for alle involverte betrakter de også hvordan man best mulig kan
+legge til rette for fremtiden, og for fremtidig god utvikling mellom klubbene samt spillere.
+
+Ser vi på regionens 2 Tippeligalag jobbes det relativt likt. Forskjellen ligger primært i at Molde
+har sitt Aker Akademi, mens Aafk må gjøre tilnærmet samme jobben gjennom andre tiltak
+som jevnlige talentsamlinger i de forskjellige aldertrinnene. Begge arenaene er utvilsomt en
+rekrutteringsanstalt for de to klubbene. De beste blir hentet inn gjerne i en alder av 13-14 år,
+men også selvsagt senere. Begge klubber kjører en Elitemodell på G16 og G19, men Molde
+har i tillegg G14 i sitt utviklingsregime. Molde fastholder at deres måte å jobbe på har en stor
+grad av aksept hos naboklubbene. Noen unntak fines også der. Det er en relativt stor klubb i
+samme by som ikke alltid har de samme varme tankene om sin storebror, på lik linje med
+situasjonen i Ålesund by. Men konklusjonen må allikevel bli at begge har tilnærmet seg
+lokalfotballen i langt større grad enn tidligere, spesielt i form av bidrag til trenerutvikling,
+men også i form av et bredere tilbud til de mange i form av samlinger. Man kan driste seg til
+å si at man er på rett vei, men det gjenstår fortsatt en del selvsagt før alle, om mulig, blir
+fornøyde.
+Hødd på sin side har en annen tilnærming. De er mer avventende til å hente spillere, gjerne
+til de er 16-17 år gamle. Deres sterkeste utviklingsarena er Toppidrettslinja ved Ulstein VGS
+der de har en satsningsgruppe og en breddegruppe. Dette samarbeidet skryter Einar Magne
+Skeide veldig av. De bidrar på lik linje med Aafk med bylag og talentsamlinger i sitt
+geografiske område. Men også her fremholdes det viktigheten av å få et Akademi opp å gå
+for ytterligere påvirkning og spissing.
+Til slutt kan det nevnes av fellesnevneren for alle 3 er en manglende satsning på
+barnefotballen. Man har ikke sterkt nok fokus på aldersgruppene mellom 7 og 12 år. Der har
+man et stort uutnyttet potensiale. Men leser jeg riktig mellom linjene har ikke klubbene
+kapasitet verken økonomisk eller personelt til å håndtere dette godt nok. Løsningen blir da
+som jeg gjentatte ganger har fremhevet, å sørge for en kraftig kompetanseheving på lokale
+trenere og stole på at de kan gjøre en mer en god nok jobb i sine klubbmiljø. Geir Hansen
+sier dog at kanskje Aafk som klubb burde avskaffet yngres og kun konsentrert seg om 16 år
+og opp! De burde heller satse sterkere på å fremme barnefotballen i breddeklubbene.
+På det siste punktet er det en klar overstemmelse med det Geir sier og det Eirik Hoseth i
+Herd sier de mangler fra Aafk. Mer engasjement, bidrag og tilstedeværelse.
+
+7 Konklusjon
+7,1, Fasit spillerutvikling i Toppklubbene Aafk, Molde og Hødd. Har vi den? Veien videre…
+Sett ut fra et globalt, kulturelt og geografisk perspektiv vil vi i Norge alltid vurdere og
+spekulere om vi gjør ting rett i forhold til spillerutvikling. Det er kanskje ikke fair å
+sammenligne oss med Spania og England osv. Det er mer nærliggende å se til Island og
+Sverige på dette området. Vår storhetstid som leverandør av spillere til store europeiske
+ligaer er for lengst forbi, mens våre naboer stadig kommer frem med store talent som preger
+fotballkartet. Det drypper fra oss også for all del, men ikke i samme grad.
+Skal vi være mer navlebeskuende og utelukkende se på Norge som utviklingsarena vil vi
+måtte se de tre hovedeksponentene i vårt distrikt, Aafk, Molde og Hødd opp mot dette.
+Har vi på noen måte fasiten målt opp mot våre konkurrenter? Nærmest umulig å svare på, så
+derfor la oss konkludere med det vi gjør bra og det vi ikke gjør fullt så bra. Vi har langt færre
+spillere å ta av målt med Oslo, Bergen, Trondheim og Stavanger for eksempel. Det gjør at vi
+må være veldig dyktig i tilretteleggingen for de vi har. Er vi det?
+Isolerer vi ut de to som tilhører øverste sjikt i Norge så må vi si at begge er på rett vei! Molde
+har gjennom de siste 5 år lagt mye økonomi og energi i å få sitt Aker Akademi til å fungere.
+Hvilke frukter det har båret så langt står vi på terskelen til å finne ut av. De første objektene
+som trådte inn i dette systemet er nå i en alder som tilsier at de bør nærme seg et A-lagsnivå.
+Disse prosessene tar tid og MFK har vært tålmodig så langt, la oss håpe det lønner seg…..
+Aafk på sin side mangler et Akademi men har gjort bot ved å innføre nye måter å jobbe på.
+Fra en tidsalder der man hentet inn spillere, rått og røte, har man endret tenkemåte i forhold
+til både fremgangsmetode, men også innsett at man kanskje må starte lengre ute i
+provinsene og ikke bare jobbe i eget hus. Med dette mener jeg et økende bidrag på
+kompetanseheving av lokale trenere, tiltak for spillerutvikling gjennom samlinger gjennom
+året, økende bidrag til by/sone lag, og et tettere samarbeid med klubbene rundt.
+Etter samtaler med langt flere klubber enn det jeg synliggjør i oppgaven går det klart frem at
+Aafk som klubb viser en mye større vilje til å gi noe ”tilbake” til klubbene rundt seg. Man er
+mer profesjonelle og aktsomme i forhold til ervervelsen av unge spillere, og mer i takt med
+det moderklubben ønsker seg. Ser man rent statistisk på det så viser tallene at Aafk de
+senere år har lykkes godt i arbeidet med å få frem Tippeligaspillere. Men skal det vedvare så
+må vi intensivere dette berømmelige samarbeidet med klubbene rundt oss, det synes å
+fremgå som en avgjørende faktor for alle involverte i min oppgave.
+Så har vi fasiten? I lokal målestokk så nærmer man seg gradvis tror jeg. Steg for steg blir
+bevisstheten stadig sterkere og man jobber etter bedre parametere enn tidligere. Fortsatt er
+det en mørk flekk i spillerutviklingmodellen; det er det arbeidet som blir gjort for de yngste
+elevene. Man neglisjerer i stor grad det som skjer under G14 nivå. Her må man gjøre noen
+kraftløft i forhold til å tilrettelegge bedre, og tilføre en mer strategisk trening og tenking med
+bedre skolerte trenere. Da dette synes å være en uriaspost i et klubbsystem ser vi
+
+utelukkende frivillige foreldre som tar på seg den oppgaven. Graden av påvirkning som er
+oppnåelig på et menneske vet vi fra et fysiologisk standpunkt er på et høydepunkt i alderen
+fra 3 til 8-9 år. På hvilket grunnlag velger vi i Norge å ikke utnytte dette med kvalitativ
+påvirkning? Man beveger seg rundt et punkt der vi i fotballen er redde for å bli for seriøse,
+for gravalvorlige og for opptatte av å ikke trå over visse grenser! Men man kan kombinere lek
+og moro, andre idretter og god trening. Her ligger svakheten slik jeg ser det i vår region, og
+som de jeg har intervjuet etterlyser. Vi må øke kvaliteten på trenerne i yngres avdeling og
+jobbe mer målrettet. Gode trenere med gode pedagogiske evner klarer å tilrettelegge et
+tilbud slik at alle fra Kong Salomo til Jørgen Hattemaker får et tilpasset opplegg i de kanskje 2
+treningene de har per uke.
+Som en digresjon kan jeg nevne at jeg har en fortid som kombinertløper. Denne idretten
+bedrev jeg med ved siden av fotballen til jeg var 15 år. Som 8-10 åringer hadde vi spesifikk
+teknikk og styrketrening. Vi hadde langkjøringsøkter på 2-3 timer i 12 års alderen. Helt
+akseptabelt i vår nasjonalidrett, men vi må for all del være veldig forsiktig med å spesialisere i
+fotballen!! Snakk om paradoks!
+For å dreie det hele tilbake til hva dette handler om. Nøkkelen til å lykkes, som jeg mener vi
+er i retning av, er et godt tilpasset opplegg som ivaretar de beste fra tidlig alder av uavhengig
+av klubbtilhørighet. Dette gjennom Aker Akademi, jevnlige talentsamlinger og by-tiltak for å
+nevne noen. Et godt utviklet samarbeid mellom Topp og bredde der man både har
+meningsutvekslinger og i stor grad sørger for kompetanseoverføring fra topp til bredde på
+trenernivå. Gjennom å dyrke bredden i større grad får vi frem de største toppene.
+Fasiten for oss tror jeg ligger her.
+
+7,2 Hvem blir toppspillere og hvorfor?
+Siste punkt på agendaen og det som runder av min oppgave er å prøve å konkludere med hva
+som avgjør om man når helt frem eller ei. Min konklusjon vil utelukkende basere seg på de
+svar og tolkninger jeg har fått ut av mine spørsmål til målgruppa. Jeg stilte altså 12 relativt
+spredte spørsmål til 25 kandidater. Alle var de talenter på kretslagsnivå (noen landslag), alle
+var de lokale og alle ville de bli tippeligaspillere i Aafk. 9 greide å nå dette målet, 14 greide
+det ikke. Hva skilte de 9 fra de 14?
+I en viss grad kan man påregne noe flaks, noen tilfeldigheter og i noen tilfeller etterspørselen
+etter en bestemt rolletype. Men ser man bort fra dette er det ganske klare tegn på hva som
+skiller de to gruppene.
+
+Den som blir en toppspiller besitter følgende kvaliteter:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fotballtalent
+Treningstalent
+Målrettet og bevisst
+Har et sterkt og brennende ønske om å lykkes
+Elsker fotball og vil spille hele tiden
+Har i stor grad hovedsakelig bare bedrevet denne idretten (7 av 10)
+Er selvstendig, strukturert og liker å trene mye på egenhånd (egentrening hver dag)
+Har sterk mentalitet, tåler kortsiktig motgang uten å bukke under.
+Fysisk godt utrustet, unngått skader/lange skadeperioder.
+Evne til å lytte, korrigere egen adferd.
+Evne til å velge vekk det som gir unødvendig energitap på tross av at man går glipp av
+mye morsomt (fester osv)
+Er nøye med kosthold, hvile og det å holde seg frisk (påkledning etc)
+
+Felles for de som lykkes er at de var dyktige på de fleste av disse punktene. Det finnes
+selvsagt rom for utskeielser og moro, men i stor grad er man nødt til å tenke 24 timersutøveren hvis man skal gå gjennom et trangt nåløye. Spørsmålet blir forholdsvis enkelt; hvor
+mye vil man dette? Vil man det nok gjør man alt i sin makt for å lykkes. Det gir ingen garanti,
+men åpenbart et bedre grunnlag for å lykkes.
+Jeg kjenner alle de 25 kandidatene relativt godt. Mange av de som ikke nådde opp innehar
+mange av disse kvalitetene, men mangler noen vesentlige. Som eksempel kan jeg nevne en
+som trente mer enn noen andre, ekstremt opptatt av å spise rett, sove nok og å ha lue på seg
+når det var kaldt:) Men det han manglet var tøffheten, mentaliteten. Gikk rett i kjelleren når
+det ikke gikk veien. På tross av et stort fotballtalent som gav han landskamper på G15 nivå
+ble dette altså tuen som veltet lasset.
+Så konklusjonen min lander da altså på de overnevnte grunner. Det finnes så ekstremt
+mange i dag som vil opp og frem. Det medfører at man må være villige til å ofre nærmest alt
+på veien mot å lykkes. Faren er da at man forsaker en hel del og likevel ikke lykkes. Men
+dette ser ut til å være en nødvendighet.
+Helt til slutt håper jeg min oppgave kan være av interesse og kanskje belyse noen sentrale
+punkt i et spillerutviklingsøyemed. Håpet er at vi på Sunnmøre skal videreføre den prosessen
+vi har startet på og vil være i stand til å lever toppspillere på aller høyeste nivå i fremtiden:)
+
+Frode Fagermo, Ålesund 2012/2013.
+
+

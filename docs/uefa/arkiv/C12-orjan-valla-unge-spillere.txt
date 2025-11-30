@@ -1,0 +1,2346 @@
+"Fotballtrenerens rolle i utviklingen av unge
+spillere"
+av Ørjan Valla
+
+UEFA A-lisens
+01.02.2016
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Forord
+A-lisenskurset i regi av NFF har vært som en vitamininnsprøytning for meg. Godt planlagte
+samlinger og et flott faglig innhold som har vært inspirerende, lærerikt og utfordrende. I løpet
+av de tre delsamlingene har jeg stadig vekk havnet utenfor komfortsonen. Det har ført til at
+jeg på en helt annen måte enn tidligere har måtte reflektert over egen praksis som
+fotballtrener.
+Jeg må få takke informantene mine som velvillig stilte opp og ga mye av seg selv. Det var
+givende og interessante samtaler med spillere som, tross ung alder, har opplevd mye både på
+og utenfor fotballbanen. Deres svar har jeg, etter beste evne, prøvd å knytte opp mot relevant
+teori for så å knytte det i sammenheng med problemstillingen min.
+Trenere og spillere i Mo Idrettslag, Strømsgodset TF og Skeid har også bidratt til gode
+innspill og fine diskusjoner rundt tema som blir drøftet i denne oppgaven.
+Til slutt vil jeg takke NFF og spesielt min veileder, Børje Sørensen, som har vært en dyktig
+veileder underveis i kurset og som også hjulpet meg med å bygge opp strukturen på
+oppgaven. Jeg vil også benytte anledningen til å takke Even, Bo og Bjarne, for at vi sammen
+skapte trygge rammer for god læring underveis i kurset.
+
+Ørjan Valla
+Oslo, 1.februar 2016
+
+1
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Innhold
+Forord ................................................................................................................... 1
+1.0
+
+Innledning ................................................................................................... 4
+
+1.1 Problemstilling ............................................................................................. 4
+2.0 Metode - Bakgrunn for valg av metode .......................................................... 5
+2.1 Forskningsintervjuet ..................................................................................... 6
+2.2 Utvalg ........................................................................................................... 7
+3.0 Teoretisk rammeverk .................................................................................... 8
+3.1 Trenerrollen ..................................................................................................... 9
+3.1.1 Trenerrollens betydning ....................................................................... 10
+3.1.2 Treneren som omsorgsperson .............................................................. 11
+3.1.3 Treneren som forbilde .......................................................................... 12
+3.1.4 Treneren som miljøskaper.................................................................... 13
+3.1.5 Treneren som prestasjonsutvikler ........................................................ 14
+3.1.6 Trenerens som kompetanseperson ....................................................... 15
+3.1.7 Treneren som leder og veileder............................................................ 16
+3.2 Læring og utvikling ..................................................................................... 17
+3.3 Selvregulering av læring ............................................................................ 18
+3.4 Motivasjon.................................................................................................. 21
+3.5 Selvrealisering ............................................................................................ 22
+3.6 Uorganisert trening..................................................................................... 23
+3.7 Målsettinger................................................................................................ 24
+4.0 Intervjuobjektene ........................................................................................ 25
+4.1 Spørsmålsmal ............................................................................................. 25
+4.2 Utstyr .......................................................................................................... 26
+5.0 Resultater ..................................................................................................... 27
+5.1 Transkripsjon Vebjørn Vinje – Bodø/Glimt .............................................. 27
+5.2 Transkripsjon Lisa Marie Karlseng Utland - Trondheim/Ørn ................... 31
+
+2
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+5.3 Transkripsjon Abdul Basit Agouda – Strømsgodset TF ............................ 35
+5.4 Transkripsjon Adrian Møller – Vålerenga IF ............................................ 38
+5.5 Transkripsjon Haitam Aleesami – IFK Gøteborg ...................................... 42
+6.0 Metodediskusjon .......................................................................................... 46
+7.0 Diskusjon ...................................................................................................... 47
+7.1 Bevissthet rundt egen utvikling – sett i lys med trenerens funksjon i barneog tidlig ungdomsalder ..................................................................................... 47
+7.2 Målsetninger knyttet til utvikling – trenerens påvirkning og rolle i dette
+arbeidet ............................................................................................................. 50
+7.3 Fokus på 24 timersutøveren ....................................................................... 53
+7.4 Egentrening som en del av utviklingen – Trene eller bli trent? ................. 54
+7.5 Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens
+påvirkning i utviklingen ................................................................................... 56
+8.0 Konklusjon ................................................................................................... 58
+9.0 Referanseliste ............................................................................................... 61
+Vedlegg: Sammendrag
+
+3
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+1.0 Innledning
+Å få være med å utvikle morgendagens fotballspillere har gjennom flere år gitt meg mange
+gleder, opplevelser og erfaringer jeg ikke ville vært foruten. Å se gløden i blikket til en sulten
+og utviklingsorientert fotballspiller, gjør noe med deg som trener. Du vil gi noe tilbake, du vil
+bruke tid på spilleren, du vil gjøre ditt for å legge til rette for god utvikling.
+Det å være en del av et fotballag handler ikke bare om fotballferdighet, lagstrukturer og om å
+vinne eller tape. Det handler om samhold, vennskap for livet og minner som blir skapt.
+Treneren som tilrettelegger og voksenperson bidrar ofte til at gode opplevelser for mange
+mennesker blir knyttet til opplevelser du hadde i dine barne- og ungdomsår i idretten. «Lukten
+av kamferoljen fra garderoben, slipper aldri taket. Den sitter i nesa hele livet.» (Bergo et al
+2002:14).
+Mitt møte med mange unike og ulike ungdommer har også gjort meg ydmyk. Ydmyk på hvor
+forskjellige mennesker som man treffer er og hvor ulik inngang man bør ha som trener for å
+tilfredsstille alle behov som er i en spillergruppe. Spørsmålet blir da: i hvor stor grad kan man
+greie å optimalisere og tilrettelegge for utvikling hos alle i en spillergruppe på 25 spillere?
+I denne oppgaven har jeg sett på trenerens rolle i forhold til utvikling av enkeltspilleren.
+Treneren har selvfølgelig også andre oppgaver, som å utvikle kollektivet i et lag. Dette er ikke
+belyst i denne oppgaven og det må antageligvis også være en balanse mellom de to områdene
+for å ha suksess som trener.
+
+1.1 Problemstilling
+
+"Fotballtrenerens rolle - i utviklingen av unge spillere"
+I løpet av de siste årene har vi sett en endring rundt fokuset på talentutvikling i norsk fotball.
+Både topp- og breddeklubber har satset på heltidsansatte trenere for å optimalisere
+mulighetene til å utvikle spillere til fordel for egen klubb og norsk fotball. Både klubber og
+NFF har satt i gang diverse tiltak for at vi som nasjon skal kunne produsere flere og bedre
+spillere i framtiden. I den forbindelse ønsker jeg å stille spørsmålet:
+
+4
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Hvilken rolle innehar fotballtreneren i utviklingen av en fotballspiller?
+-
+
+Hvilke kvaliteter og egenskaper er viktig i trenerrollen?
+
+-
+
+Og i hvilken grad påvirkeres spillere av treneren i sin utvikling?
+
+-
+
+Selvregulering av læring er viktig, men hvilken rolle har treneren her?
+
+2.0 Metode - Bakgrunn for valg av metode
+Innenfor samfunnsforskningen framstår kvalitativ og kvantitativ forskning som to vesentlige
+tenkemåter eller paradigmer når det kommer til hvordan man kan framskaffe eller generere
+informasjon om samfunnet, for deretter å analysere dette (Tjora, 2012).
+Når man tenker på kvalitativ forskning, er det vanlig å fokusere på hvordan slik forskning
+skiller seg fra kvantitativ forskning. Forhold som vektlegges er forståelse snarere enn
+forklaring, nærhet til dem man forsker på, en åpen interaksjon mellom forsker og informant
+heller enn avstand til sine respondenter, data i form av tekst og ikke tall, og en induktiv
+(eksplorerende og empiridrevet) framgangsmåte heller en deduktiv (teori- og hypotesedrevet)
+(Tjora, 2012). I tillegg er det viktig å nevne at kvalitativ forskning forholder seg til et
+fortolkende paradigme og derfor ofte har fokus og interesse av informantenes opplevelser og
+meningsdanning. Med bakgrunn i dette har jeg valgt Interpretative Phenomenological
+Analysis (IPA, Smith & Osborn, 2008) som metodisk tilnærming i denne studien.
+Målet med IPA er i detalj å utforske hvordan deltakerne ser på et gitt tema, for videre å finne
+ut hvordan respondentenes meninger påvirker deres opplevelser og handlinger (Smith &
+Osborn, 2008) Inngangen og tilnærmingen til IPA er fenomenologisk, ved at den gjør
+detaljerte undersøkelser av informantens opplevde erfaring. Den forsøker å utforske
+personlige erfaringer og er opptatt av individets personlige oppfatning av et objekt eller en
+hendelse (Smith & Osborn, 2008). Til tross for den nevnte fenomenologiske inngangen vil
+IPA kreve en kombinasjon mellom fenomenologisk og hermeneutisk tilnærming. (Smith,
+Flowers & Larkin, 2009). Med utgangspunkt i denne beskrivelsen vil oppgaven benytte seg av
+IPA, siden den skal belyse trenerens rolle i utviklingen av unge spillere.
+
+5
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+2.1 Forskningsintervjuet
+”Den mest utbredte datagenereringsmetoden innenfor kvalitativ forskning er ulike former for
+intervjuing. Særlig er såkalte semi-strukturerte intervjuer eller dybdeintervjuer populære”
+(Tjora 2012, s. 104).
+Formålet med et intervju er å få rikelig og betydelig informasjon om hvordan andre
+mennesker opplever sin livssituasjon, og hvilke synspunkter og perspektiver personene som
+intervjues har på de temaene som blir tatt opp i intervjusituasjonen (Thagaard, 2013). Et annet
+mål med dybdeintervju er i hovedsak å skape en situasjon der man kan ha en relativt fri
+samtale som kretser rundt noen spesifikke temaer som forskeren har bestemt på forhånd
+(Tjora, 2012). En vesentlig forutsetning for å lage et godt intervjuprosjekt er at emnet for
+intervjuet er noe som intervjueren selv og andre trenger å vite noe mer om (Tanggaard &
+Brinkmann, 2012). I og med at jeg har valgt å se på trenerens rolle i utvikling av unge spillere,
+var et semi-strukturert dybdeintervju et naturlig valg som metode. ”Intervjuet er den mest
+utbredte tilnærmingen til kvalitativ forskning, og på noen fagområder er intervjuet blitt den
+viktigste empiriske metode” (Tanggaard & Brinkmann, s. 17, 2012). Som hovedregel kan vi
+si at man bruker dybdeintervjuer der man vil studere meninger, holdninger og erfaringer
+(Tjora, 2012). I boken til Tjora (2012) forklarer han at dybdeintervjuets kvalitet hviler på
+opparbeidet tillit mellom forsker og informant. Det er viktig å bruke litt tid på å få
+informanten komfortabel med situasjonen. Ved å snakke litt vidt til å begynne med, kan føre
+til en mer avslappet situasjon som informanten er fortrolig med. Det er også viktig å ha klare
+roller under intervjuet. Forskeren er selv ansvarlig for å styre intervjuet i riktig retning. Ofte
+har informantene forventninger om at intervjueren driver det hele fremover (Tjora, 2012).
+Intervjuene i denne studien startet ofte med litt lett prat rundt fotball, slik at både informanten
+og jeg som intervjuer skulle bli mest mulig komfortabel med situasjonen, samt at erfaring
+viser at gjennom en slik tilnærming vil kommunikasjonen vil bli bedre, rammen er trygg og
+informanten åpner seg mer opp. I valg av informanter var det både kjente og ukjente. Da er
+det nødvendig å poengtere at i min atferd var det viktig å opprettholde en mest mulig
+subjektiv og profesjonell rolle ovenfor informanten underveis i intervjuet.
+Kunnskap til det temaet intervjuet handler om er essensielt for å få et best mulig resultat. Din
+evne til å oppfatte svarene, ta vare på dem, forstå dem og tolke dem er avgjørende for om det
+du får ut av intervjuet, er til å stole på (Dalland, 2007).
+6
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Det var derfor viktig for meg å ha gjort en grundig jobb på forhånd, slik at jeg var forberedt
+på flest mulige vinklinger og responser fra informanten.
+En intervjuguide ble utarbeidet på forhånd, slik at jeg hele tiden hadde noen faste spørsmål
+klare, og enklere kunne styre informanten tilbake på temaet, hvis han begynte å spore av.
+Tanggaard & Brinkmann (2012) beskriver at et semi-strukturert intervju vanligvis utføres på
+grunnlag av en intervjuguide. En intervjuguide kan være mer eller mindre styrende for selve
+intervjuet og mer eller mindre detaljert og teoristyrt. Dette avhenger av hvor stor forståelse
+man som forsker har av temaet intervjuet skal omhandle, og hvilke metodologiske rammer
+intervjuet skal foregå innenfor. Gjennom et semi-strukturert intervju i en IPA metode, vil
+intervjueren ha en rekke spørsmål og intervjuet vil bli ledet av intervjuguiden, men på ingen
+måte styrt (Smith & Osborn, 2008). Intervjuguiden inneholder hovedspørsmål,
+oppfølgingsspørsmål og prober (Thagaard, 2013). Intervjuguiden ble bygget opp kategorisk
+med spørsmål fra temaene i studiet. Oppbyggingen av en intervjuguide i en IPA studie, vil
+kreve at vi tenker over hva vi tror/håper at intervjuet vil dekke (Smith & Osborn 2008). Mer
+spesifikt vil det tvinge oss til å tenke over eventuelle problemer som kan oppstå. Ved å tenke
+gjennom hvilke veier intervjuet kan ta, gir oss muligheten til å kunne konsentrere oss bedre og
+mer selvsikkert om hva informanten faktisk forteller. Intervjuguiden var et meget nyttig
+hjelpemiddel i prosessen, men det var også av interesse å få informantene til å snakke mest
+mulig fritt om temaene vi var inne på. Smith & Osborn (2008) sier at man prøver å komme så
+nære som mulig om hva informanten tenker om temaet, uten at de blir ledet for mye av
+spørsmålene dine.
+
+2.2 Utvalg
+”Kvalitative studier baserer seg på strategiske utvalg, det vil si at vi velger deltakere som har
+egenskaper eller kvalifikasjoner som er strategiske i forhold til problemstillingen og
+undersøkelsens teoretiske perspektiver” (Thagaard, 2013, s. 60).
+Ved bruk av IPA som metode prøver man vanligvis å finne et homogent utvalg (Smith &
+Osborn, 2008). Valget av intervjupersoner avhenger av hva vi ønsker å vite (Dalland 2007). I
+min oppgave var jeg ute etter å finne informanter som kunne fortelle meg noe om hvordan de
+opplever trenerens rolle i sin egen utvikling som fotballspillere. Det falt derfor naturlig for
+meg å finne deltakere gjennom et målrettet utvalg. IPA beskriver at man gjennom et målrettet
+utvalg (purposive sampling) finner en gruppe mennesker som kan fortelle noe om
+
+7
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+forskningsspørsmålet som undersøkes. Hvor spesifikt utvalget er, vil avhenge av studien
+(Smith & Osborn 2008). Denne utvalgsmetoden er på mange måter helt lik som et strategisk
+utvalg. Et strategisk utvalg er i følge Dalland (2007), en måte å se etter personer som det er
+grunn til å regne med har noe å bidra med til problemstillingen. Thagaard (2013) bekrefter
+også dette ved å hevde at en målsetting med strategiske utvalg kan innebære å velge ut
+deltakere som er typiske i forhold til de fenomenene som studeres.
+Antall informanter man skal velge er avhengig både av problemstillingens karakter og den
+tiden en har til rådighet (Dalland 2007). Kjennetegnet ved det kvalitative intervjuet er nettopp
+utfordringen ved å gå nok i dybden. Med dette i bakhodet, var det avgjørende for denne
+oppgaven at antall informanter ikke var for omfattende. Balansegangen mellom dybde og et
+tilstrekkelig antall informanter er vanskelig når man vet hvor tidkrevende transkribering og
+analyse av data er. Jeg valgte derfor å ta utgangspunkt i et strategisk utvalg av fem
+informanter som jeg visste satt på informasjon om området det skulle forskes på. Litteraturen
+forteller oss at et utvalg på fem eller seks personer er å anbefale for et prosjekt som benytter
+seg av IPA (Smith & Osborn 2008).
+
+3.0 Teoretisk rammeverk
+I følge boka «flest mulig, lengst mulig, best mulig» av Øyvind Larsen et alt, slås det fast, at
+treneren, sett fra en spilles perspektiv, er av avgjørende betydning for landslagsspilleres
+framgang i ungdomsårene. Det påstås også at svarene i undersøkelsen de refererer til viser at
+det ikke nødvendigvis det fotballfaglige knyttet til veiledning som har betydd mest, men andre
+forhold som er direkte knyttet til verdispørsmål.
+
+8
+
+
+
+Trygghet og stabilitet
+
+
+
+Forutsigbarhet og rettferdighet
+
+
+
+Trenerne bidro til kameratskap og samhold
+
+
+
+Treningene var lagt opp morsomme
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+3.1 Trenerrollen
+Trenerrollen inneholder flere dimensjoner enn bare å planlegge å sette i gang fotballaktivitet
+(Bergo et al, s.248). Treneren kan i noen tilfeller være en betydelig voksenperson i
+ungdommenes hverdag og må være sin rolle bevisst på flere områder.
+I boka ferdighetsutvikling i fotball presenterer man tre hovedområder en trener bør kunne noe
+om.
+
+Refleksjon er viktig. Du som trener må også sette deg mål og samtidig se på styrker og
+svakheter man har innenfor disse tre områdene. Hva er jeg god på? Hva kan jeg utvikle? Mål
+man setter seg må evalueres. Kanskje kan man knytte til seg en medtrener eller en mentor som
+man kan ha som diskusjonspartner?
+«En fotballtrener bør ha som mål å utvikle sin kompetanse kontinuerlig.» ( Bergo et al, s .280)
+
+9
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+3.1.1 Trenerrollens betydning
+I boka «Trenerens rolle som barne- og ungdomsoppdrager og talentutvikler», belyser Eystein
+Enoksen det komplekse ved å være en god trener. En god trener må inne ha ulike kvaliteter i
+møte med utøverne. I en gruppe møter du unike individ som alle er forskjellige. Det stiller
+også krav til deg som trener. Trenerrollens betydning i utviklingsprosessen kan dermed ha
+flere betydninger som gir mening. Jeg vil i denne delen av oppgaven fokusere på trenerrollens
+kompleksitet og vil belyse ulike ferdigheter og egenskaper innenfor rollen, sett i sammenheng
+med å være deltakende og betydningsfulle voksne i utviklingen av unge fotballspillere.
+Kjørmo (1994) definerer trenerrollen ut fra et utviklingsorientert perspektiv. Han mener at
+trenerens viktigste oppgave er å sørge for å legge forholdene best mulig til rette for utøvernes
+idrettslige utvikling. Kjørmo understreker at denne rollen også innbefatter planlegging.
+Heinemann (1988) definerer treneren ut fra et sosiologisk perspektiv og retter
+oppmerksomheten mot trenerens ansvar for optimering av utøvernes idrettsprestasjoner. Han
+presiserer at ansvaret gjelder både i forbindelse med trenings- og konkurranseforberedelser.
+Kolnes (1992) hevder at trenerrollen også inkluderer både trener- og lederoppgaver og at
+treneren skal forholde seg til mange arenaer.
+Den franske sosiologen Bourdieus termer (1978, 1986) handler det om ervervelsen av «stor
+kapital» eller kompetanse for å:
+
+
+forstå og vurdere spesielle mestringskrav som stilles til unge idrettstalenter og
+eliteutøvere
+
+
+
+gi kvalifisert trenerveiledning når det gjelder tilrettelegging, treningsplanlegging og
+karriereutvikling
+
+
+
+sette seg inn i og vurdere aktuell faglitteratur og forskning på en kritisk måte
+
+I Fagnytt 1, 2003, ble det gjort rede for ulike egenskaper knyttet til trenerrollen. Jeg skal
+presentere noen av dem i denne oppgaven. I tillegg har jeg lagt til flere egenskaper jeg synes
+er viktig å belyse rundt trenerrollen.
+
+10
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+3.1.2 Treneren som omsorgsperson
+Lars Tore Ronglan (2008) skriver at trenerens rolle i arbeidet med idrett for barn og unge først
+og fremst er en faglærer i didaktisk-metodisk forstand, og sosialpedagog med en omfattende
+omsorgsfunksjon. Treneren er en tydelig voksen med en kameratslig, tillatende og
+omsorgsfull framtreden. For noen oppleves treneren å være en signifikant andre. De nevnte
+kvalitetene sørger for at treneren kan framstå som en god rollefigur i treningsmiljøet og
+klubben han er en del av. For å bli karakterisert som en omsorgsperson handler det først og
+fremst om å bry seg om og ta vare på utøverne, uavhengig av alder. De fleste mennesker har
+behov for å bli sett og det må man som trener være oppmerksom og bevisst på. Treneren som
+omsorgsperson kan legge vekt på nærhet, omsorg og sosial støtte slik at de individuelle
+behovene kan tilfredsstilles. Erfaring viser at både barn, unge og topputøvere trenger mye
+oppmerksomhet av treneren sin og de må hele tiden oppmuntres for sin treningsinnsats og
+roses for sine fremganger på idrettsbanen.
+Resultatene fra MMIs barne- og ungdomsundersøkelse i Norge i 2002 (MMI, 2002)
+underbygger påstanden og viktigheten rundt at treneren har stor betydning som
+omsorgsperson i idrettslaget.
+
+
+61 % av barn og unge var godt fornøyd med treneren fordi han: «skaper et godt
+treningsmiljø gjennom trivsel og humør på trening»
+
+
+
+59 % mente at treneren som læremester var viktig for dem
+
+
+
+44 % mente at treneres ferdigheter i idretten var sentralt
+
+
+
+44 % uttalte at de var tilfredse med trenere fordi de «brydde seg om alle og var
+inkluderende, både med de flinke og mindre flinke».
+
+Carlsons (1991) retrospektive studie av konkurranseutøvere i syv ulike idretter understreker
+også at de utøverne som var med i undersøkelsen hadde gode erfaringer med sine
+klubbtrenere allerede i ung alder. En fellesnevner for alle de suksessfulle trenere var evnen til
+å være en omsorgsfull trener med gode personlige egenskaper. Utøverne opplevde en tett
+oppfølging, at trenerne var til å stole på. Det ble også nevnt at kontinuitet over tid også skapte
+en ekstra trygghet for utøverne gjennom hele deres karriere.
+
+11
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+3.1.3 Treneren som forbilde
+Gode holdninger, et smittende humør, imøtekommenhet og rettferdig behandling av alle vil
+være begrep som er sentrale når man skal reflektere rundt treneren som et forbilde for barn og
+ungdom. Gjensidig respekt og respektfull atferd vil være sentralt på alle nivå, om du jobber
+med barn og ungdom eller med idrettsutøvere på toppnivå. Grunnholdningen fra treneren kan
+føre til at barn og topputøvere føler seg viktige og betydningsfulle. En slik atferd i form av
+verdier og personlige egenskaper kan føre til at treneren blir et forbilde for dem han trener.
+Idretten gjenspeiler ofte samfunnet og hverdagen preges av et dynamisk samspill mellom
+barn, unge og omgivelsene hele tiden. Et idrettslag med trenere og ledere er et eksempel på et
+sted der læring kan skje. I idretten er det viktig at barn stimuleres til læring og får delta i
+samhandling med og eksponeres for et stort rollerepertoar. Trenere i idrettsmiljøet blir her
+sentrale rollefigurer og tilretteleggere for sosial påvirkning og læring av idrettslige
+ferdigheter. Dersom relasjonen mellom trener og utøver er god, man har en nær relasjon og
+hyppig kontakt trener-utøver, øker ytterligere mulighetene for påvirkning. I oppveksten
+foregår dette samspillet ifølge Bronfenbrenner (1979) gradvis i flere system samtidig. De
+ulike miljøene som barn kommer i kontakt med, er imidlertid uavhengige av hverandre, men
+det utvikles gjerne visse relasjoner dem imellom. Relasjonene man skaper i situasjoner i hjem,
+nærmiljø, skole- og studiesammenheng, i vennekrets og i idrettslag hvor barn og unge er til
+stede og aktivt deltar eller påvirkes ofte av ulike mennesker eller under ulike forhold.
+Den aktivitet som foregår i idrettslagene innebærer ifølge Engström (1998) for mange barn en
+mulighet til å styrke sitt selvbilde ved å utvikle sin individualitet og kunne identifisere seg
+som for eksempel en fotballspiller. Idretten kan i tillegg tilby barn og ungdom muligheten til å
+være sammen med jevnaldrende i et stimulerende miljø der man kan være del av et stort
+sosialt fellesskap. Slike faktorer kan være en avgjørende for mange som driver idrett. Desto
+eldre utøverne blir, desto mer tar skole og idrett vesentlige deler av tiden til ungdommene.
+Dette gjør at de relasjoner som utvikles på disse arenaene naturlig vil svekke noe av den
+innflytelse familien har. Treneren blir en signifikant skikkelse i livet for mange.
+Bloom (1985) har gjort en studie på utviklingen til idrettsutøvere som har nådd et
+internasjonalt elitenivå i tennis, svømming og på andre områder som for eksempel
+
+12
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+matematikk og musikk. Han har sett nærmere på tre faser i deres utvikling; startfasen,
+utviklingsfasen og perfeksjoneringsfasen og undersøkt hva som kjennetegner de forskjellige
+individene i disse fasene. Resultatene tyder på at relasjonen barn-topputøver-trener er svært
+betydningsfull gjennom alle faser i karrieren. I startfasen pekes det på betydningen av at
+trenere er snille, oppmuntrende omsorgsfulle og prosessorienterte, mens de er mer suksess- og
+prestasjonsorienterte og knytter sterkere emosjonelle bånd til utøverne i toppidrettsfasen.
+
+3.1.4 Treneren som miljøskaper
+Skaalvik og Skaalvik (1996) presenterer undersøkelser fra skolemiljø der resultatene av et
+inkluderende sosialt miljø ga bedre trivsel, økt selvtillit og større interesse for lærestoffet og
+oppgaveorientering. Undersøkelsen underbygger viktigheten av at trenere for barn og unge
+prøver å skape en inkluderende treningsgruppe med mye sosial støtte. Et inkluderende og
+aksepterende miljø kjennetegnes ved et sted der barna blir godtatt uansett idrettslig nivå. Her
+vil begrep som differensiering, jevnbyrdighet, spesifisitet være begrep som er viktig, uten at
+vi kommer nærmere inn på det i denne oppgaven. Det vil være essensielt å forstå og akseptere
+de individuelle forskjellene både i forhold til evner og motivasjon hos de du trener. Derfor bør
+treneren være god til å fordele sin oppmerksomhet på en rettferdig måte, sett i sammenheng
+med at alle mennesker har behov for å bli sett. Dette gjør også at man må behandle hvert
+enkelt individ i den tanken at de får den oppmerksomheten de fortjener. Det vil selvsagt være
+ulikt fra spiller til spiller om hva de forventer og trenger. Det blir viktig å etablere tydelige
+rammer og gode rutiner for frammøte og organisering av aktivitet. Treneren har også en viktig
+oppgave når det kommer til miljøskapende samarbeidsformer, lære dem om regler rundt
+spillets ide` og forståelse for fair-play.
+For å underbygge dette ytterligere har Eriksson (1988) undersøkt oppfatninger blant 805
+aktive i 14 forskjellige idretter om sin sosiale og idrettslige utvikling. I tillegg har han sett på
+hvordan utøverne har ulik påvirkning fra trenere. Trenerrollen knyttes i dette studiet mest til
+treningsutforming og prestasjonsrettet arbeid. Det påpekes at det sosiale utbyttet av
+deltakelsen i en aktivitet først og fremst en gevinst av samværet med jevnaldrende. Samtidig
+nevnes trenere og foreldre som spesielt viktige for de aktive. Flere av informantene mente
+også at treneren hadde stor innvirkning på det som skjedde utenom den idrettslige
+virksomheten. Denne undersøkelsen har blitt kritisert på bakgrunn av at utvalget begrenser
+seg til et spesifikt idrettsdistrikt. Likevel kan det relativt store datagrunnlaget være med på å
+antyde at trenerens rolle både som sosial miljøskaper og idrettslig veileder, være av
+
+13
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+omfattende karakter. Det betyr også at trenerens handlinger kan knyttes til at han har en høy
+moralsk og etisk standard i sitt virke.
+Carlson (1996) har også presentert en retrospektiv studie innen barnesvømming.
+Undersøkelsen belyser blant annet rundt faktorer som trenerens humør, entusiasme og evne til
+å skape et sosialt felleskap. Dette sammen med å gi opplevelsen av varierte og trivelige
+treningssituasjoner. Dette var egenskaper som utøverne mente var viktige i relasjonen mellom
+idrettsutøver og trener.
+Carlsons (1991) undersøkelse av internasjonale topputøvere i syv idretter peker på trenerens
+evne til å skape et tillatende, stimulerende og offensivt treningsmiljø som en svært
+betydningsfull faktor for resultatutviklingen på internasjonalt toppnivå. Han fremhevet at
+landslagsutøverne trivdes bedre i klubbmiljøet der de som oftest hadde kameratene sine. De
+hadde også en personlig trener som hadde hatt spesiell stor innflytelse på deres karriere. De
+fleste utøvere nevnte samhørighet og trygghet som viktige komponenter i klubbmiljøet. Det
+verdigrunnlaget en trener bygger sin virksomhet på kan imidlertid ha mange av de samme
+elementene i seg uavhengig om en er trener for en gruppe barn eller topputøvere. Enoksen
+hevder at hans grunnleggende verdiforankring er den samme uansett om han trener barn eller
+toppidrettsutøvere, men ulike elementer vil skifte karakter og bli sterkere vektlagt avhengig av
+alder, utviklingsnivå, målsetting, personlighet og lignende.
+
+3.1.5 Treneren som prestasjonsutvikler
+I en dansk undersøkelse om Børn og Eliteidrett i tal (Jensen, 1999) rettes fokus på resultater
+rundt trenerens rolle for elitebarn. Elitebarn karakteriseres som ungdom som er målrettet i sin
+idrettssatsing fra 11 års alderen. Nedenfor kan vi lese noen eksempler på nyttige uttalelser
+som karakteriserer barns forventninger til treneren sett i lys av betydningen av kunnskap,
+oppgavefokus og evne til å motivere ungdommen, som selv er i en fase der de satser mye tid
+og krefter for å bli best.
+Kunnskapsnivået hos treneren er viktig: «At man ikke får en amatørtræner, som ikke vet
+noget, men bare skriver program ned…at de har en mening med det…hvorfor man gjør det,
+og hvis man spørger dem om det, så forklarer de hva som er målsetningen med treningen».
+Oppgavefokus i treningsøkta: «Og når man er til trening, så tænker man kun på håndbold og
+ikke andet. Alt andet må man tage efter træning. Så hvis en træner bare lader stå til, så føler
+jeg ikke, at man lærer at spille håndbold. Så er det jo bare ligesom at gå i skole».
+14
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Motivering fra trenernes side: «Kunne lære sin utøver noe…gjøre at vi holder gejsten oppe.
+Stå å klappe, og give oss ros og ris. Træneren skal være der for en, og han skal føle et ansvar
+for oss».
+Noe som er interessant og verdt å nevne er at undersøkelsen avkrefter en del av myten om at
+elitebarn ensidig søker idretten for å vinne eller oppnå personlig gevinst. Trenerens rolle blir å
+gi større muligheter for dannelse av nye former for sosiale felleskaper (kraftfelt) og utvikle
+nye medmenneskelige kompetanser.
+
+3.1.6 Trenerens som kompetanseperson
+Kompetanse er en viktig forutsetning å ha for en trener. Samtidig er det viktig å påpeke at
+kompetanse er noe en erverver seg kontinuerlig. Dette gjør at en trener, i samspill med sine
+utøvere, stadig må være sulten og nysgjerrig i søken etter prestasjonsmessige fremskritt. Det
+vil si at utvikling og idrettsprestasjoner også vil være en del av trenerens ansvar med tanke på
+den innflytelse han kan ha på sine utøvere. Sammen skal de lage en plan og gå en vei som
+fører til utvikling på et nivå om de ønsker. Det er derfor essensielt at trenere bestreber å
+oppdatere sine kunnskaper om trening og «coaching». Det kan være evnen til å planlegge
+aktiviteter, formidle, styre og lede trenings- og konkurranseprosesser mot et internasjonalt
+toppnivå. Referanser på hva som kreves for å bli best vil også være nyttig i dette arbeidet.
+I en undersøkelse, The ideal Coach (Moser 1992), ble det utviklet en evaluerings- og
+rangeringsskala bestående av 18 identiske utsagn som skulle gi informasjon om viktige
+aspekter ved en god trener. 46 landslagsutøvere i orientering ble bedt om å rangere de
+forskjellige utsagnene. Dette resulterte i følgende rangering:
+1. Kunnskap om idretten en er trener i
+2. Evne til å planlegge og gjennomføre trening
+3. Evne til å få til en god atmosfære/kjemi i treningsgruppen
+4. Være en god psykolog
+5. Evne til å tilpasse treneratferd etter kritikk
+6. Ha en naturlig autoritet og realiseringsevne
+Carlsons (1991) undersøkelse av internasjonale toppidrettsutøvere i syv idretter peker på at en
+ikke nødvendigvis trenger trenere med fagspesifikk utdanning i begynnelsen av karrieren,
+15
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+men på et eller annet tidspunkt bør utøvere få en trener med høy faglig kompetanse og god
+erfaringsbakgrunn. Skjer dette på et for sent tidspunkt, kan karriereløpet i verste fall være
+spolert. Carlson fremhever treneren som den viktigste enkeltfaktor for topputøvernes
+karriereutvikling.
+For å få informasjon om hvilke egenskaper som kjennetegner en trener med suksess i fotball,
+gjennomførte Bjørkman en undersøkelse av 50 elitetrenere i fotball (Bjørkman, 1995).
+Undersøkelsen var delvis basert på subjektive vurderinger av trenernes kvalifikasjoner og
+delvis på grunnlag av deres klubbers plassering i serien innenfor en 2-års periode. På
+bakgrunn av disse faktorene ble trenerne delt inn i gruppene «trenere med suksess» og
+«trenere uten suksess». Undersøkelsen peker på at suksessrike trenere er meget informative og
+kjennetegnes forøvrig ved at de ikke er særlig bekymrede. Dette skyldes kanskje at de både
+har evne til å delegere og samtidig ha kontroll over det som må gjøres. Det går videre fram av
+denne oversikten at de er flinke til å samarbeide og svært gruppeorienterte i treningsarbeidet,
+samtidig som de er lite konkurranseinnstilte. Suksesstrenere er ifølge denne undersøkelsen
+personer som er utrolig nysgjerrige overfor alt. Det betyr også at de har en fin evne til å ta i
+bruk det nyttige og skille ut det unyttige. Denne form for nysgjerrighet finnes ikke hos
+treneren som er full av selvtillit – «jeg alene vite» typen. Denne trenertypen har ikke bruk for
+ytterligere informasjon. Den suksessrike treneren er interessert i andres adferd og er langt fra
+noen særegen egoist, ifølge undersøkelsen.
+
+3.1.7 Treneren som leder og veileder
+Treneren som tilrettelegger, veileder og leder vil selvsagt henge sammen med begrep som
+læring og utvikling. Det å ta ledelse handler i stor grad om å ta ansvar for hvordan læring skal
+skje på en best mulig måte. «På alle stadier i utviklingen kan veilederen spille viktige roller.
+Hun kan hjelpe den lærende både i oppdagelsen av problemet, i forankringen av det, og i
+arbeidet med det… genuin læring skjer gjennom de erfaringer du får fra dine handlinger og
+din egen tenkning» (Ronglan, 2008, s. 82). Dette gjør at veilederen, eller fotballtreneren, bør
+være bevisst og drøfte utfordringer som dukker opp eller problemer som hindrer videre
+utvikling. Hvordan løse dette og komme seg videre.
+I Ronglans bok «Lagspill, læring og ledelse» (2008) presenteres to ulike måter å lære på;
+eksplisitt og implisitt læring. Implisitt læring skjer i situasjoner uten bestemte regler,
+situasjoner der utøveren prøver og feiler og finner løsninger. I en fotball-sammenheng kan
+
+16
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+dette være å finne løsninger på hvordan man skal få tak i ballen eller hva man skal gjøre med
+foten for å kunne sparke den opp i lufta. «I henhold til idrettspsykologen Reinhard Stelter,
+kjennetegnes implisitt læring av at den skjer uten detaljerte instruksjoner og handlingsregler
+for bevegelsene som skal læres» (Ronglan, 2008, s. 96). Ronglan viser til at for eksempel i
+skolen har implisitt læring i stor grad måtte vike for eksplisitt læring. Denne typen læring
+skjer i mer organiserte former og med flere regler. Ronglan forklarer at denne formen for
+læring en den tradisjonelle innenfor idrett, for eksempel når nye teknikker skal læres.
+«Eksplisitt læring kjennetegnes av at vi ikke bare konfronteres med en situasjon, men også
+med noen instruksjoner fra en som underviser, som skal hjelpe oss å takle situasjonen»
+(Ronglan, 2008, s. 96-97). Dette gjør at det balansen mellom implisitt og eksplisitt læring
+forgår om hverandre i idrettssituasjoner, og Ronglan mener at det er viktig for en trener å ha
+et bevisst forhold og kunnskaper til de to læringsformene. «Fordelene med implisitt lærte
+bevegelser bør ha betydning for vår tenkning omkring veilederrollen i lagspill. Vi må likevel
+ikke trekke dette så langt at vi forkaster eksplisitt læring som metode…» (Ronglan, 2008, s.
+99) Ronglan hevder at en balanse mellom de to læringsmåtene vil være det beste. Han sier at
+uansett vil den implisitte delen av læringen være størst, i form av at det i lagspill er så
+komplekst at det vil være umulig å løse disse eksplisitt. Samtidig vil en eksplisitt læring være
+spesielt viktig i form av utvikling av teknikker og ikke minst i en endring av vaner, som
+gjerne er lært implisitt. For en leder av et fotballag blir dermed den gode treneren betegnet av
+Ronglan som en som klarer å tilrettelegge for en god balanse mellom implisitt og eksplisitt
+læring. «Blant annet viser den britiske idrettspsykologen Rich Masters at «eksperter» som har
+mislyktes under press, ofte rapporterer at de er for oppmerksomme på hva de gjør, med andre
+ord at de reflekterer for mye over sin eksplisitte kunnskap underveis i handlingsforløpet».
+(Ronglan, 2008, s. 96) Tilsvarende hører vi ofte fra utøvere som har skuffet i sine prestasjoner
+i intervjuer i etterkant si at de «begynte å tenke for mye».
+
+3.2 Læring og utvikling
+I boka «lagspill, læring og ledelse» (2008) forklarer Lars Tore Ronglan at læring kan
+karakteriseres som «et vidt begrep.» Læring kan ha mange ulike definisjoner og forklaringer.
+Det vil si at sjansen er stor for at mennesker vil forstå og forklare begrep ulikt avhengig av
+konteksten de er i. Eksempler på opplevd læring kan være at man har pugget til en prøve på
+skolen. En annen kan forstå det som noe man har tilegnet seg ved en del praktisk øving, men
+andre igjen kan forklare læring som en prosess som har godt over lengre tid.
+
+17
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+«Læring handler om utvikling, og er derfor ikke noe som kun skjer på bestemte arenaer eller
+til bestemte tider. Læring er kort og godt en dimensjon ved vår væren i verden», ifølge
+Ronglan. (Ronglan, 2008, s. 78)
+Rongland spesifiserer også begrepet knyttet til lagidrettene i sin bok. «Læring i lagspill dreier
+seg derfor i bunn og grunn om å lære å gjøre; om å handle og samhandle i praksis» (Ronglan,
+2008, s. 87)
+I den forbindelse viser han til at mange i dagens samfunn ser på læring som noe teoretisk, og
+påpeker at denne tilnærming til forståelse rundt læringsbegrepet blir for snever og upresis når
+det kommer til praktiske fagområder som idrett, kunst, håndverk og musikk. Læring innenfor
+disse ulike fagområdene handler om noe mer enn å kunne beherske ulike teorier. Det handler
+samtidig også i stor grad om å kunne praktisere og anvende det man lærer. Innen idrett er det
+ofte slik at man kan få umiddelbare reaksjoner på om vi har lykkes eller ikke, spesielt i
+konkurransesituasjon. Det å få testet ut det man har øvd på og lært er noe som er svært viktig
+for utvikling av ferdigheter. Igjen kan vi underbygge dette med å vise til Ronglan. «Den
+viktigste formen for tilbakemelding på våre idrettslige bevegelser får vi fra kroppen selv»
+(Ronglan, 2008, s. 100). Dermed kan man si at læring innen idretten sannsynligvis må forstås
+som noe mer enn i teoretisk forstand. I tillegg til den teoretiske læringen, vil også utøverne og
+trenerne søke etter kunnskap om hva som kan gi optimale løsninger for å kunne utvikle seg
+videre og prestere. Da må en idrettsutøvers erfaring med det praktiske, gjennomføringen av en
+handling være sentrale virkemidler for å lære og å utvikle seg videre.
+
+3.3 Selvregulering av læring
+Fotball består av flere dimensjoner. Den enkelte spiller, beskrevet som den individuelle
+dimensjonen av fotballferdigheten (Bergo et al, s.24), er kompleks. Utøverne blir kontinuerlig
+testet mentalt. Selvregulering er en viktig del av dette psykologiske bildet. Selvregulering er i
+stor grad hvordan hvert enkelt individ er satt sammen, hvordan hver enkelt formes til å bli den
+de er. I boken «Handbook of self-regulation (2004)» beskriver Baumeister m. fl at
+selvregulering er prosesser der individet har kontroll over egne tanker, følelser, impulser og
+handlinger. Her blir det beskrevet to sider ved selvregulering; en teoretisk og en praktisk del.
+Sammenhengen mellom disse to delene kan være med å forklare de handlingene vi gjør.
+Målet må hele tiden være å optimalisere situasjoner for seg selv under trening og konkurranse.
+Dette gjør at individet må kunne styre og justere sine egne følelser i møte med ulike
+
+18
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+situasjoner. Dette gjør at individet må lære seg og vite hva som er passende handling i teori og
+så kunne handle ut fra hva man har lært på en hensiktsmessig måte i praksis. Eksempler i et
+bredt perspektiv som gjengis i boken, kan være at overvekt kan forklares ved at et individ ikke
+kan kontrollere appetitten, og at vold kan forklares ved at individet ikke kan kontrollere egne
+følelser og impulser. Disse eksemplene beskriver en mindre god balanse mellom hva man har
+lært i teorien og hvordan man klarer å regulere egen atferd i praksis. Det vil si hva mennesket
+er lært opp til av normer og regler i samfunnet, som man ikke klarer å følge. Selvregulering er
+noe et menneske må være i kontakt med hele tiden, og blir også en viktig del av utviklingen
+som idrettsutøver og fotballspiller.
+Kitsantas m. fl skriver i en artikkel fra 2011 om viktigheten av selvregulering i alle
+læringsprosesser. Hvis man ser på utvikling som idrettsutøver vises det til eksempler rundt
+sentrale begrep som målsetning, selvkontroll, selvevaluering og oppgavestrategier. Det vil i
+praksis si at en utøver som har et bevisst forhold til de nevnte begrepene, vil ha større
+grunnlag til å påvirke treningskvaliteten, involveringen og prestasjonene på en positiv måte.
+Det forklares også hvor viktig det er å ta ansvar for egen læring for en optimal utvikling. I
+skolen har «ansvar for egen læring» vært et kjent begrep for utvikling i de siste læreplanene. I
+grunnskoleutdanningen, skal elevene lære å medvirke i alt fra planlegging, gjennomføring og
+evaluering. Dette i streben etter en god utvikling av ulike ferdigheter. Det å være lærer i
+skolen har mange likhetstrekk med det å være trener for et lag og enkeltutøvere. Man kan si at
+overføringsverdien mellom idrett og skole er stor. Det å ha pedagogiske evner som voksen
+kan gjøre det lettere å hjelpe ungdommen til å utvikle seg å nå mål de har satt seg.
+Toering m. fl (2009) har gjort studier på selvregulering i fotball, basert på fotballspillere i
+nederlandsk fotball. Grunnlaget for dette studiet var en gruppe på 444 spillere i alderen 11 til
+17 år. Spillerne deltok i en spørreundersøkelse som tok for seg seks hovedområder innen
+selvregulering; planlegging, selvkontroll, evaluering, refleksjon, innsats og tro på egne
+ferdigheter. I studien ble det sammenlignet spillere som var definert i to kategorier; elitespillere og ikke-elitespillere. Elite-spillerne var tilknyttet profesjonelle klubber som spilte på
+det høyeste nivået i nederlandsk fotball. Ikke-elitespillerne var tilknyttet klubber som spilte på
+lavere nivå. Målet ved dette studiet var å se sammenhengen mellom selvregulering og
+prestasjoner mellom de to gruppene av spillere. Undersøkelsen ble foretatt ved et
+spørreskjema, der spillerne skulle gi svar på en skala fra 1-4 eller 1-5. Spillerne skulle til
+diverse påstander rundt disse seks områdene svare på om de var sterkt enig (1) eller sterkt
+
+19
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+uenig (4/5). Resultatet viste at elite-spillerne scoret høyest på selvregulering på alle de seks
+områdene som ble undersøkt.
+
+Ikke-elite-spillerne var altså mindre bevisste på sine egne sterke og svake sider og mindre
+bevisste på prosessen rundt egen utvikling. Spesielt viste resultatene til Toering store
+forskjeller rundt refleksjon og innsats.
+
+Tabellen viser at nær halvparten av alle elite-spillerne i undersøkelsen ga seg selv full score
+på både refleksjon og innsats, mens tilsvarende score fra ikke-elitespillerne kun var 22,5 og
+18,5 % på disse kategoriene. Toering m. fl antar etter undersøkelsen at spillerne med høyere
+grad av selvregulering har et bedre grunnlag for å lykkes. Disse spillerne er mer klar over sine
+individuelle forutsetninger, og vet mer om hvordan dette skal brukes i sin egen utvikling.
+
+20
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Eierskapet til egen utvikling kommer også klart fram i Viggo Strømmes bok «Fotballguiden»
+(2014): «På veien til å bli en toppfotballspiller finner du raskt ut hvem som er den viktigste
+aktøren i ditt eget fotballiv. Det er ikke treneren eller foreldrene dine. Det er du selv»
+(Strømme, 2014, s. 276)
+
+3.4 Motivasjon
+Hvilken motivasjon og hva som er grunnlaget for et individs deltakelse i et idrettslag vil
+variere veldig. Erfaring tilsier at det i lagspill vil det være svært store forskjeller i
+motivasjonen. Noen er med for å bli best, andre er med for å få tilfredsstilt sine sosiale behov.
+Hvor motivert du er til trening og utvikling vil være et grunnlag for om man lykkes eller ikke.
+En nøkkelfaktor for å få utvikling vil dermed være å få trigget maksimal motivasjon hos hver
+enkelt utøver. Alle som har praktisert som trenere vet at det kan være en utfordring. Spesielt
+vanskelig er det nok i jobben med utøvere som er på et høyt nivå. Dette fordi utøvere på et
+lavere nivå vil man kunne anta at intensjonen med å delta i en lagidrett vil variere mye innad i
+en gruppe. Her kan man anta at det sosiale aspektet vil være det viktigste for flere. Jobber man
+derimot med spillere på et høyt nivå vil det forventes en høy grad av motivasjon fra hver
+utøver, og oppgaven med å trigge og finne fram til denne er veldig individuell. Å tilrettelegge
+et opplegg der treneren får hver enkelt utøver til å være fullt motivert til enhver tid, vil være et
+svært godt grunnlag for gode prestasjoner.
+«Motivation can be defined simply as the direction and intensity of one’s effort» (Sage, 1977)
+(Weinberg m. fl, 2007, s. 52) Weinberg m. fl skriver i boken « Foundations of sports and
+exercise psychology» (2007) om tre vanlige tilnærminger til motivasjon (s. 53-54). Trekk/deltager-sentrert syn («trait-/participant centered view») som baserer motivasjonen på
+personlige faktorer som personlighet, behov, interesse og mål. Alt basert kun på individet, og
+egne behov. Dette synet på motivasjon, som utelukker miljøet/situasjonen, blir av forfatterne
+tillagt lite tiltro i en idrettslig sammenheng. Situasjons-sentrert syn («situation-centered
+view») settes i direkte kontrast til det deltagersentrerte synet. Her tillegges situasjonen og
+omgivelsene man er i som den viktigste faktoren for motivasjon. Heller ikke dette synet blir
+av forfatterne foretrukket som viktigst innen idretten. Derimot vil en kombinasjon av disse, en
+samhandling («interactional view») gi det beste grunnlaget for motivasjon. Altså
+kombinasjonen av det individuelle, som egne behov, kombinert med situasjonen, som en
+treners væremåte eller press i forhold til vinn/tap. «The best way to understand motivation is
+
+21
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+to consider both the person and the situation and how the two interact» (Weinberg m. fl, 2007,
+s. 54)
+
+3.5 Selvrealisering
+Den russisk-amerikanske psykologen Abraham Maslow utviklet i boken «A theory of human
+motivation» (1943) sin teori om grunnleggende behov som forklaring på adferd og
+motivasjon. I sin behovspyramide, forklarer han at menneskets behov må tilfredsstilles
+nedenfra for å utløse nye behov høyere opp i pyramiden.
+
+22
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+De tre nederste nivåene karakteriseres som «mangelbehov»; fysiske behov som vann, mat og
+søvn, trygghet som sikkerhet og stabilitet og sosiale behov som fellesskap, kjærlighet og
+vennskap. Disse mangelbehovene må i følge Maslow være tilfredsstilt for at de neste to
+behovene, «vekstbehovene» skal kunne realiseres. «Abraham Maslow hevder at mennesket
+streber etter vekst og utvikling og etter å realisere sine evner og anlegg» (Håkonsen, 2009, s.
+90) Anerkjennelse viser til behovet for status, selvtillit og respekt, mens det øverste nivået i
+pyramiden er selvrealisering, som innebærer å oppnå sine målsetninger, det å utnytte sine
+personlige egenskaper til det fulle og strekke seg så langt som mulig.
+
+3.6 Uorganisert trening
+«Spillet bør være utgangspunktet for alle aktiviteter du gjør for å bli god. Legg bort Ipaden og
+ta løkka tilbake! Uorganisert lek og spill kombinert med vanlige treninger i klubben din eller
+på et akademi er oppskriften!» (Strømme, 2013, s. 8)
+Hva skal til for å bli best? Ekspertene er mange og det er et hav av folk som hevder de har
+svaret. 10.000 treningstimer mener Olympiatoppen at en spiller må legge ned av jobb for å
+bli «ekspert.» Det finnes ulik forskning rundt nødvendigheten av mye uorganisert aktivitet og
+resultatene viser at egentrening er viktig, om ikke en forutsetning for å lykkes som
+fotballspiller. «Det ligger mye god trening bak de beste spillerne i verden. Det finnes en god
+del studier som viser at de beste i voksen alder skiller seg fra de nest beste når det gjelder
+antall treningstimer. Belgiske forskere har for eksempel vist at det er antall timer egentrening i
+ung alder som skiller de beste fra de andre, mens forskere fra England har identifisert antall
+timer på løkka som avgjørende for at spillere mellom 6 og 12 år skal ta steget opp når de blir
+eldre» (NFF, «Flest mulig, lengst mulig, best mulig», 2013, s. 286).
+I boken «Lagspill, læring og ledelse» (2008), skriver Ronglan om problematikken,
+utfordringene og mulighetene ved uorganisert trening. På slutten av 1900-tallet har det vært
+en stor anleggsutvikling i Norge, noe som paradoksalt nok har ført til færre muligheter for
+uorganisert aktivitet. Flere anlegg har ført til mer aktivitet, men i større grad er denne nå
+«voksenstyrt» via klubber og de som disponerer anleggene. Et eksempel fra flere fotballhaller
+i Nord-Norge underbygger denne bekymringen. Man opplever at spillere jages ut av hallen,
+fordi dyre driftsutgifter presser utleier til å kun ha betalt aktivitet hallen. Det vil i praksis si
+kun idrettslag som leier og betaler for trening kan benytte hallen, ungdommen får ikke innpass
+utover lagets betalte treningsøkter.
+
+23
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+«Det føres en pågående diskusjon om hvorvidt dagens utvikling, der barn og unges fritid i
+økende grad blir institusjonalisert og voksenstyrt, er heldig eller ei. Flere blir oppmerksomme
+på uheldige virkninger av at den oppvoksende slekt organiseres i hjel» (Ronglan, 2008, s.
+24).Ronglan viser til viktigheten av at tid og muligheter til fri lek er avgjørende for barn og
+unges helhetlige utvikling. Han mener at læring og utvikling innen en idrett ikke er avhengig
+av at aktiviteten foregår i organiserte former. «Tvert i mot, kan barn og unge lære like mye
+gjennom den selvorganiserte løkkeaktiviteten som gjennom den voksenstyrte lagsaktiviteten»
+(Ronglan, 2008, s. 26).
+Ballen har av historikerne blitt betegnet som «lekens konge,» i følge Ronglan. Den triller og
+den spretter på et nesten uforklarlig vis avhengig av hvordan den som leker med ballen
+berører den. For mange enkeltspillere er det å ha et ekstra godt forhold til ballen noe som gir
+mening. Vi elsker spillere som media kaller for kunstnere. De som behersker ballen, de som
+opp gjennom årene har lekt med den time etter time, sovet med den i senga, og utviklet en
+forståelse og interesse for den. Uansett om du er på løkka eller på landslagstrening ser du det
+samme. Den genuine leken før treningen starter.
+En av verdens aller beste spillere, svensken Zlatan Ibrahimovic, forteller i sin biografi om sine
+erfaringer og minner fra oppveksten på løkka i Rosengård i Malmø. «Likevel var ikke det
+viktigste å vinne. Det var fintene og de kule greiene. Det var mye: «Oi oi! Wow! Se på den!»
+Man skulle imponere gutta med triks og dragninger, og man skulle øve til man kunne dem
+best av alle, og ofte ropte muttern fra vinduet: «Det er seint. Maten er klar. Kom inn nå.»
+«Snart, snart,», sa vi og spilte videre, og det kunne bli seint og regnvær og generelt kaos. Men
+vi bare spilte videre. Vi var helt utrettelige, og det var små flater å spille på. Det gjaldt å være
+kjapp i huet og beina, særlig for meg som var liten og tynn og lett å ta i taklinger, og jeg lærte
+meg triks hele tida. Jeg var pent nødt. Ellers fikk jeg ingen «wow»»
+(Ibrahimovic/Lagercrantz, 2011, s. 73).
+
+3.7 Målsettinger
+«All samlet erfaring fra Olympiatoppen viser tydelig at å være god på resultatmål og
+treningsmål er en systematikk som kjennetegner de utøvere som lykkes» (Tore Fredlund).
+«Først former vi målet, så former målet oss; etter at resultatmål er satt, er det treningsmålene
+som former organiseringen av trening» (Børge Stensbøl) Her vises det til følgende definisjon
+på resultatmål og treningsmål (Kaggestad, 2007): «Resultatmålene er konkrete størrelser som
+
+24
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+økonomi (kroner og øre eller kvalitet), avkastning, markedsandel, omdømme eller medaljer,
+tider, poeng og plasseringer. Når vi følger opp resultatmål, så sekunderer vi. Treningsmålene
+er faglige og / eller organisatoriske (både lagmål og personlige mål). I prestasjonskulturer
+følger vi kontinuerlig opp treningsmålene for å nå resultatmålene. Det betyr at for å lykkes
+med et konkret resultatmål, fokuserer vi på forutsetningene for å lykkes. Når vi følger opp
+treningsmålene, så coacher vi.
+
+4.0 Intervjuobjektene
+De fem deltakerne i studien besto av fire menn og en kvinne. For meg var det viktig å ha en
+viss bredde og i tillegg ha med en kvinne i studie.
+
+
+Vebjørn Vinje (20 år) - Bodø/Glimt
+Debuterte i tippeligaen for Bodø/Glimt i slutten av sesongen
+
+
+
+Lisa Marie Karlseng Utland (24 år) – Trondheims/Ørn
+Har spilt i Toppserien siden 2009 og scoret 26 mål.
+Fikk sin debut på kvinnelandslaget og spilte VM for Norge, som ble arrangert i
+Canada i 2015.
+
+
+
+Adrian J. Møller (19 år) – Vålerenga Idrettsforening
+Er keeper i Vålerenga IF sin A-stall. Fikk innhopp i treningskamp mot Real Madrid i
+sommer.
+
+
+
+Abdul Basit Agouda (16 år) – Strømsgodset Toppfotball
+Spiller på rekruttlaget i 2.div. Trener fast med A-laget.
+Har spilt 26 aldersbestemte landskamper for Norge og scoret 9 mål.
+
+
+
+Haitam Aleesami (25 år) – IFK Gøteborg
+3 A-landskamper for Norge. Debuterte i sesongen 2015 på det norske A-landslaget i
+EM-kvalifiseringen.
+
+4.1 Spørsmålsmal
+Etter å ha funnet relevant teori ut fra problemstillingen min var det neste steget å utarbeide
+spørsmål til intervjuene. Det var viktig for meg å stille spørsmål som informantene kunne
+reflektere rundt.
+
+25
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+1. Bevissthet rundt egen utvikling – sett i lys med trenerens funksjon i barne- og
+tidlig ungdomsalder.
+Hvor bevisst var du på dine egne ferdigheter som spiller i barne- og ungdomsårene?
+Hvor viktig var treneren i denne perioden av fotballivet?
+Var det andre bidragsyter som gjorde at utvikling av ferdigheter ble satt i system?
+2. Målsetninger knyttet til utvikling - trenerens påvirkning og rolle i dette arbeidet
+Har du noen gang benyttet deg av mål i utviklingsarbeidet? Hvordan bruker du målene bevisst
+for å fremme egen utvikling?
+Hvilken påvirkning og rolle har trenere i dette arbeidet?
+3. Fokus på 24 timersutøveren - Planlegging i forhold til belastning
+Treningskultur og hverdagen din – 24.timersutøveren. Var det en bevisst plan fra klubben og
+treneren? Hvor bevisst har du vært dette i ditt utviklingsløp?
+Hvordan legger du planer i forhold til belastning, i forhold til lagstreninger, egentreninger og
+andre typer trening/aktiviteter
+4. Egentrening som en del av utviklingen – trene eller bli trent?
+Hva slags rolle har treneren i strukturering av egenaktivitet utenom fotballøkta?
+5. Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens
+påvirkning i utviklingen Hvilke kvaliteter mener du en trener må ha for å bidra
+til å optimalisere din utvikling som fotballspiller?
+Hvordan ønsker du at en trener skal hjelpe deg best mulig i din utviklingsprosess?
+
+4.2 Utstyr
+Bærbar PC: Acer Aspire E-1
+Telefon for lydopptak: Iphone 4s
+
+26
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+5.0 Resultater
+5.1 Transkripsjon Vebjørn Vinje – Bodø/Glimt
+
+Bevissthet rundt egne ferdigheter i din utviklingsprosess sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder.
+Å dra på treninger som barn var gøy. Det var trygge rammer. Godt miljø og voksenpersoner
+rundt laget som motiverte og var gode forbilder.
+I barne- og ungdomsfotballen var jeg ikke veldig bevisst på egne ferdigheter. Det var ikke det
+som var hovedfokus hos trenerne jeg hadde. Det var lite fokus på dette fram til jeg flyttet ned
+til Bærum og startet på NTG. Der ble vi bevisstgjort på og vi måtte sette ord på styrker og
+svakheter vi hadde som fotballspiller.
+Det skal sies at jeg spilte mye sammen med eldre spillere på Nesna. Jeg var mye rundt min
+fire år eldre bror og var så heldig å få være med han og kompisene hans på spill. Dette kan ha
+vært en medvirkende faktor for at jeg følte at jeg var et steg foran i forhold til det å tenke
+fotball. I ungdomsårene hadde jeg ikke spesielt bra fysikk eller tempo. Sett i ettertid skulle jeg
+ønske at jeg visste hvor viktig det er å tenke og handle raskt i fotball. Bli presset på tid og
+rom.
+Sett i ettertid var nok min største styrke duellspillet. Selv om jeg ikke var fysisk overlegen
+hadde jeg en uredd inngang til det meste. Det gjorde nok at jeg grep alle utfordringer som
+kom i min vei og som følge av det vært i stadig utvikling.
+
+27
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Spesielt etter å ha startet på NTG Bærum viste det seg at løpshurtighet og tempo var noe jeg
+måtte utvikle. Jeg oppdaget tidlig at de andre hadde spilt fotball i grupper der de tenke mye
+raskere, løpe hurtigere. De hadde vært en del av en jevnere treningsgruppe gjennom flere år.
+Målsetninger knyttet til utvikling - trenerens rolle og betydning i dette arbeidet
+I starten på Nesna, som 12-13 åring, opplevde jeg at trenerne strukturerte treningene bra og
+satte ting i system. Treneren hadde D-kurs i regi av NFF og var en dyktig fagmann. Vi hadde
+samtaler og jeg skrev ned tre punkter jeg følte jeg ville bli bedre på og tre punkter man følte
+man var bra på og ville utvikle videre. Dette ble strukturert i en treningsdagbok. Likevel føler
+jeg ikke at jeg var bevisst nok på at dette kunne benyttes som et virkemiddel for å fremme
+utviklingen. Det var enkelt å sette seg mål, men på den tiden var jeg nok ikke like bevisst på
+fokuset.
+Dette vil seg si endret seg drastisk sa jeg valgte å reise ned til Bærum å starte på NTG. Her
+var jeg så heldig å ha heltidsansatte lærere/trenere som gjorde oppfølgingen mer strukturert.
+Vi satte oss kortsiktige og langsiktige mål, både alene og i samråd med lærer/trener. Disse ble
+fulgt opp i praksis, evaluert og nye mål ble satt. På den tiden satte jeg vel mest ferdighetsmål.
+Disse målene ble spesielt evaluert på treningsleir. Der hadde i også videoanalyse. Her kunne
+vi se på spesielle ferdigheter som man ønsket å forbedre eller spesielle utfordringer man
+ønsket å finne en løsning på.
+Nå er det mer rollemål som er i fokus. Eksempel kan være, hvordan jeg posisjonerer meg i
+boks ved innlegg fra korridor. Prioriteringer bunner ut i ønsket om å perfeksjonere hva jeg
+kan bli bedre på i min rolle. I Glimt har vi samtaler med spillerutvikler, og etter dette setter
+jeg selv individuelle mål.
+Jeg ser helt klart nytten av å sette meg mål. Du får et eierskap til egen utvikling og kan hele
+tiden være utviklingsorientert.
+Fokus på 24 timersutøveren
+Fra jeg var liten har jeg alltid trent mye og det gjør at jeg stadig har taklet økt treningsmengde
+uten å bli skadet. Faktorer som økt treningsmengde, bedre kompetanse på trenerne, større
+kvalitet hos medspillerne og mer fokus på den hele utøveren gjorde at jeg søkte til NTG som
+junior. Ønsket seg til NTG fordi en eldre bror hadde gått der. Hadde gode erfaringer han
+delte.
+
+28
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Der var det et krav om at vi skrev treningsdagbok. I den rangerte hvordan humør vi var i, hva
+vi hadde spist og når vi hadde sovet. I tillegg beskrev vi treningene med innhold, intensitet og
+kvalitet. Dette ble analysert og trenerne fulgte opp. Spesielt var det ei utfordring rundt
+kostholdet når du bor alene. Hverdagen er hektisk og det er mye aktivitet og lite dødtid. Man
+måtte gjøre unna mange måltider og det krevde mye planlegging. Dette førte til at det ble en
+utfordring med å spise nok og spise riktig. Her var det ikke så mye oppfølging. Det var mye
+opp til deg selv.
+På det sportslige var det godt samarbeid mellom skole-klubb. Det ble utarbeidet mikro- og
+makroplaner. Sammen så plottet vi inn kamper, treninger og andre relevante aktiviteter.
+Skadeforebyggende økter, med en egen fysisk trener. En gang i uka. Trening som gikk på
+kjernemuskulatur. Man bestemte mye selv i stor grad når man skulle legge inn av annen
+trening. Jeg vil si at det var lite utenomsportslig oppfølging i Bærum. Klubbtrenerne fokuserte
+på den sportslige utviklingen og mente kanskje at NTG skulle ta seg av det utenomsportslig.
+For meg var ikke dette noe savn. Jeg var strukturert, voksen og klar for oppgavene.
+Egentrening som en del av utviklingen – Trene eller bli trent?
+Jeg har en bror som er fire år eldre, og har alltid jaget etter å bli like god. Det har gitt meg
+motivasjon til å stå på ekstra. Har alltid vært en motivasjon for meg. Vi har vært mye ute på
+løkka og på sommeren så bodde vi nærmest på banen. Vi har alltid gått ut i all slags vær og
+gjør det fortsatt.
+Trenere på NTG ga meg tilbakemelding på det du måtte bli bedre på og dette påvirket meg.
+På grunn av mye aktivitet ble det mindre egentrening i sesong, men på skolen ble det alltid
+tilrettelagt for ferdighetsøkter der man kunne legge opp til å øve på egne ferdighetsmål. Da
+satte jeg meg også fysiske mål, som for eksempel å bli hurtigere. Jeg føler at erfaring ved å bli
+bevisst på treningsplanlegging, som jeg kan ta med meg i videre karriere.
+Nå har det blitt for lite rollespesifikke treninger – dette møtte jeg i større grad i Bærum og på
+NTG. Jeg ser på det som en stor fordel hvis treningene i perioder kan være mer rollespesifikt.
+Det tror jeg vil gjøre meg til en bedre spiller, og vil gjøre at det jeg møter i kamp øver vi også
+på i treningssammenheng. Det vil gjøre at man sannsynligvis kan ta ytterligere steg.
+Kynismen i måten å legge opp trening på kan føre til at man kun tenker på hvordan man
+vinner neste kamp. Dette kan kanskje gå utover utviklingen? Kortsiktig gevinst vs langsiktig
+gevinst. Kan dette gå utover unge spillere i en utviklingsprosess? Ingen type utviklingsmål,
+som er strukturert. Ingen struktur i forhold til det jeg opplevde på NTG. I Glimt har man
+29
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+heller ikke prioritert en toppspillerutvikler. Det er et tankekors at man ikke blir fulgt opp
+bedre.
+Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens påvirkning i
+utviklingen
+Jeg ønsker selv en ærlig trener som gir konkrete tilbakemeldinger på hva jeg kan gjøre for å
+bli bedre og utvikle meg videre. Jeg mener helt klart at trenerens evne til å kommunisere er
+viktig. Hva er neste steg? Hvordan kan man bidra til at jeg tar det neste steget? Hva skal til for
+at jeg skal spille mer? Tydelige tilbakemeldinger. Ha en trener tett på hele veien, som også
+motiverer. Både i medgang og i motgang.
+I perioder der man ikke har blitt prioritert har det også vært tyngre. Man graver seg litt ned, og
+i denne periode hadde det vært bra og bli sett, fått en klapp på skuldra og fått flere konkrete
+tilbakemeldinger. Det skal ikke så mye til for å bli mer lett til sinns. Det må ikke gå fem
+måneder mellom hver gang man kommuniserer med treneren. Alle fortjener å bli sett og har
+behov for å bli sett. Dette skaper en følelse av å bli verdsatt, selv om man kanskje har en
+downperiode i karrieren.
+Som ung, hadde jeg trenere som jeg selv følte ikke prioriterte meg. Dette har vært en faktor
+som har motivert til å stå på hardt. Jeg følte at de ikke ville at jeg skulle lykkes. Kjente at det
+var en seier da jeg debuterte i tippeligaen. Janteloven er sterk der ute. Du skulle ikke slå deg
+på brystet og si at du vil opp og fram. Jeg var tidlig målbevisst og visste hva jeg ville. Var
+også villig til å legge ned den jobben som krevdes av egenaktivitet, for å kunne nå de målene.
+Jeg vil likevel si at trenerne jeg hadde i barne- og ungdomsårene hadde bra fotballfaglig
+kompetanse. Likevel har jeg alltid hatt en drøm om å spille tippeliga. Dette gjorde at jeg søkte
+et bedre miljø. I periode jeg gikk på NTG Bærum, opplevde jeg også at flere av de på skolen
+fikk spille tippeligafotball. Det ga en ekstra motivasjon. På NTG møtte jeg også trenere som
+både var fotballfaglig sterke, men som også hadde evnen til å differensiere, se hver enkelt som
+et individ og som var gode til å kommunisere med oss. Jeg er nok ikke veldig komplisert og
+stiller store krav til trenerne. Det at han er en god fagmann viktigst for meg. Det fotballfaglige
+er det viktigste. For meg er dette givende og det holder. Samtidig mener jeg nøkkelfaktoren
+for god utvikling er at trenerne er gode motivatorer og gir deg mange tilbakemeldinger.
+Spesielt på hva jeg kan bli bedre på i min spesifikke rolle. Vektlegger man mye av det bra
+man gjør, vil det hos meg skape positiv inngang til videre utvikling. Motsatt tilbakemeldinger
+
+30
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+der alt bare er negativt skaper frykt for å gjøre de nevnte feilene. Her har jeg prøvd å jobbe
+knalltøft med meg selv for å endre tankegangen.
+De bruker tid på å støtte meg i forhold til det å sette seg nye mål. Det er ofte sånn at det kan
+være flere veier som fører frem. Å skape en trygg ramme i en knallhard konkurransesituasjon
+vil være viktig for å ta nye steg i utviklingen. Føler du deg ikke trygg på treneren, gjør det at
+ikke kan blomstre. Da vil du sannsynligvis kun være redd for å gjøre de feilene som gjør at
+han ikke kan bruke deg mer.
+I perioder der man sliter kan man kanskje begrunne og foreslå at man må spille ned et nivå,
+for å fortsette utviklingen. Jeg står litt bak i køen nå, og det gjør at jeg fortsatt per i dag har en
+motivasjon til å stå på videre. Jeg har mye å utvikle og mye å bevise fortsatt.
+
+5.2 Transkripsjon Lisa Marie Karlseng Utland - Trondheim/Ørn
+
+Bevissthet rundt egne ferdigheter i din utviklingsprosess sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder.
+Jeg husker med glede tilbake til de første årene mine som fotballspiller. Vi var en fantastisk
+gjeng med spillere, foreldre og trenere som gjorde mye gøy sammen. Det var det god var gode
+miljøet som var grunn til at mange dro på trening. Det var her du møtte venninnene dine. De
+voksne rundt laget var trygge og de hadde alltid en kjapp replikk på lur.
+Det var lite fokus på det fotballfaglige i tiden da jeg spilte i moderklubben. Når jeg ser tilbake
+har alltid hatt gode fysiske forutsetninger. Råskap, hurtighet og pågangsmot som spiller
+allerede fra tidlig alder. I tillegg har jeg alltid vært nysgjerrig. Dette gjør nok at jeg som
+fotballspiller kan bli satt inn i kategorien som en lærevillig spiller. Da som nå har jeg hele
+tiden søkt etter utfordringer. Før jeg ble hentet til Tromsø var jeg egentlig ikke så bevisst på
+
+31
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+hva som skulle til og hvor mye strukturert arbeid som må legges ned for å utvikle seg som
+fotballspiller. Det var mye lek og moro sammen med jevnaldrende på løkka.
+Noe mer påvirkning ble det da jeg kom inn i kretslagssystemet og begynte å trene med et
+småguttelag i 13 årsalderen. Der ble jeg blant annet bevisst på at jeg måtte jobbe med
+teknikken min. I tillegg har jeg hatt en del utfordringer rundt spilleforståelse. Den er under
+stadig utvikling. Jeg opplevde nok treneren som dyktigere fotballfaglig enn det jeg hadde vært
+borti tidligere. De stilte strengere krav det var en annen helhetstankegang rundt
+gjennomføring av økter.
+Målsetninger knyttet til utvikling - trenerens rolle og betydning i dette arbeidet
+På idrettsfag ble jeg for første gang introdusert for hvordan og hvorfor man skulle sette seg
+utviklingsmål. At det kunne være nyttig for å fremme utvikling, ved å arbeide langsiktig og
+strukturert. Det var lite samarbeid mellom skole og klubb og jeg var vel ikke bevisst nok og
+skjønte vel ikke helt nyttet av å sette seg mål i denne perioden av livet. Dette endret seg
+drastisk da jeg flyttet til Tromsø som 16 åring.
+Jeg kom til en helt ny verden i forhold til det jeg hadde opplevd i egen hverdag. Vi
+strukturerte mål, ble bevisste på egen utvikling og fikk eierskap til egen utvikling. Treneren
+hadde mye fokus på gruppeprosesser der vi kunne lære mye av hverandre. Vi fikk ta del i
+hverandres mål og ble kjent med hva de andre spillerne satte seg som mål. Gruppene ble også
+ansvarliggjort for å gi hverandre tilbakemelding på feltet også. Dette gjorde at jeg fikk enda
+mer feedback og ble sett ofte under treningene. I denne tiden lærte jeg veldig mye og ble
+svært bevisst på hvordan jeg satte meg utviklingsmål, evaluerte dem og satte meg nye mål.
+Det er vel den klubben jeg har vært i til nå, som har vært best og strukturert rundt dette.
+Selvsagt mye takket være at hovedtreneren mente at det var en vesentlig faktor for å kunne
+utvikle seg og at hun brukte mye tid på det. Jenter er vel også spesielle fordi man aldri får nok
+tilbakemeldinger.
+I dag har jeg en bevisst plan for målsettinger gjennom strukturerte planer. Dette gjelder både
+fysiske ferdigheter og fotballferdigheter. Dette skjer i samråd med hovedtrener i klubben. I
+min nåværende klubb har vi hyppige spillersamtaler rundt mål vi har satt oss og jobber
+strukturert videre med det.
+
+32
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+På landslagssamling benytter man seg ofte av video i samtaler med spilleren. Ofte ser vi på
+bevegelser i forhold til det strukturelle og samhandlinger i lagdeler. Det er svært gode og
+lærerike sekvenser.
+Fokus på 24 timersutøveren
+Fram til jeg flyttet til Tromsø og startet på NTG var ikke dette noe jeg kan huske vi hadde så
+mye fokus på. Hjemme var de påpasselig med å lage sunn mat og jeg har alltid trengt mye
+søvn. Likevel var ikke dette noe vi snakket om knyttet til prestasjonsrettet aktivitet.
+På NTG/Fløya var det svært profesjonelt, og vi lærte en del om kosthold på skolen. Likevel
+ser jeg tilbake til den tiden som vanskelig. Vi var unge, flyttet på hybel og mye var nytt. Det
+gikk i billig mat og vi hadde dårlig tid. Dagene var fulle og man måtte planlegge godt.
+Treneren vår, og foreldre til andre jenter, ga oss svært god oppfølging utenfor banen. Det var
+praktisk hjelp, og mye omsorg i trygge rammer, selv om alt var nytt og litt skummelt.
+I dag studerer jeg. Det er en balansegang på hvor mye jeg kan studere med tanke på hvor mye
+jeg kan trene og på restitusjon og overskudd jeg må ha for å kunne prestere. Jeg er veldig
+bevisst på restitusjon, søvn og kosthold. Spesielt de to siste årene har dette vært noe jeg har
+prioritert høyt for å kunne ta nye steg i utviklingen min.
+Egentrening som en del av utviklingen – Trene eller bli trent?
+Jeg har alltid hatt en ekstra drive i forhold til trening. Fra jeg var lita jente var vi mye på løkka
+sammen med guttene. Jeg har vokst opp med en tvillingsøster og vi har konkurrert, presset
+hverandre og hatt det mye moro sammen på fotballbanen. Jeg har også hatt ei tante som har
+landskamper og det å bli like god som henne har alltid vært en drøm. Fra 14 årsalderen fikk vi
+også muligheten til å trene med et av byens guttelag. Det ga økt utvikling. Jeg husker også at
+treneren i kretssystemet introduserte meg for begrepet strukturert egentrening. Dette ble jeg
+veldig nysgjerrig på og det har gjort at jeg ble mer strukturert i forhold til å jobbe med for
+eksempel tekniske detaljer i egentreninga.
+På NTG Tromsø ble dette videreført og det ble satt av tid i skoleøktene til å jobbe individuelt
+med utviklingsmål. Trenerne var dyktige til å veilede og skape en ramme der trygghet og
+utvikling gikk hånd i hånd.
+Som toppspiller har jeg økt treningsmengde og legger inn flere egenøkter enn tidligere. Jeg
+har erfart at jeg må legge ekstra innsats i treningsarbeidet for å ta nye steg.
+
+33
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Rolletrening er viktig for meg. Her kan jeg i større grad jobbe egne utviklingsmål i egen
+utvikling. Dette er ei utfordring rundt at jeg synes det er for lite. På landslagssamlinger er det
+en betydelig del av ei samling. Det liker jeg veldig godt.
+Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens påvirkning i
+utviklingen
+Jeg har hatt mange trener både i klubb- og landslag. Det har vært ulike typer, med ulike
+kvaliteter. For meg er det viktig at treneren skaper trygge rammer. Forutsigbarhet gjør at jeg
+er så trygg at utvikling skjer. Felles for de beste trenerne jeg har hatt er at de er tydelig. De er
+tydelig på krav. De er tydelig på hvordan jeg best kan opptre på banen. De er tydelig på hva
+jeg skal gjøre for å utvikle meg videre. Dette gjennom en god dialog med meg som utøver.
+For å kunne bidra til utvikling bør treneren være fotballfaglig dyktig.
+Jeg setter jeg stor pris på struktur. I Fløya opplevde jeg å ha en trener som ar rå på
+planlegging. Alt det vi gjorde føltes gjennomtenkt og tilpasset enkeltindividet og laget. Det
+gjorde at jeg som spiller følte en ekstrem lojalitet til trenerens opplegg. Dette optimaliserte
+min utvikling og det ble etablert en god prestasjonskultur.
+Tilbakemeldinger er svært viktig for meg i min utvikling. Hva kan jeg utvikle, hva gjør jeg
+bra? At treneren bevisstgjør deg på hvordan du kan utvikle deg videre.
+Det betyr mye for meg at treneren utrykker at han har trua. Da får jeg en ekstra «boost» til å
+stå på og jeg utvikler meg i takt med den oppfølgingen. Dette har vel gjort at jeg i
+Trondheims/Ørn har hatt en formidabel utvikling den siste sesongen. Min relasjon til treneren
+her gjorde meg ekstra trygg og førte til en meget god relasjon, både på feltet og utenfor feltet.
+Dette ser jeg på som en fordel i og med at vi tilbringer så mye tid sammen. Samtidig forstår
+jeg at treneren må se alle. Dette kan bli en utfordring hvis man kun får tett relasjon til få
+enkeltspillere på laget. Da kan det bli uro i gruppa. Alle har behov for å bli sett. Alle har
+behov for oppfølging og tilbakemeldinger. Jeg fikk små tilbakemeldinger hele tiden og
+oppfattet dette som suksessfaktorer. Hvis noen lærer meg noe blir jeg glad i dem.
+På landslaget har vi fått en sjef som er fotballfaglig god, inkluderende, motiverende, god på
+analyse og er en fantastisk inspirerende type. Jeg mener det er viktig at treneren er en god
+inspirator og det er Roger Finnjord i aller høyeste grad. Det er jo vi spillere som skal ut å
+gjøre jobben ute på banen. Miljøet på landslaget gjør at prestasjonsgruppa drar hverandre
+videre.
+
+34
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Å ha en trener som er trygg og ser deg er helt klart viktigst for meg. Å veilede meg videre til å
+nå de målene jeg har selv har satt meg. Samtidig er jeg bevisst på at jeg må legge ned
+hovedjobben selv samtidig som jeg har folk rundt meg som både kan og vil hjelpe meg videre.
+Jeg har i de to siste årene også vært mer bevisst på å vite hva jeg vil ha hjelp til, noe som
+skaper en trygghet for meg selv i min egen utvikling. Treneren legger til rette for utvikling,
+men det er jeg selv som må gjøre jobben.
+
+5.3 Transkripsjon Abdul Basit Agouda – Strømsgodset TF
+
+Bevissthet rundt egne ferdigheter i din utviklingsprosess sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder.
+Da jeg startet med fotball i Gruner som seksåring hadde jeg klare fysiske fordeler. Jeg hadde
+allerede da en god fysikk, sammenlignet med jevnaldrende spillere. Jeg løp raskere enn dem,
+var sterkere enn de fleste og dette gjorde nok at jeg tidlig startet med å spille organisert med
+gutter som var eldre enn meg selv. Dette vil jeg gi skryt til Gruner for. De la til rette for meg
+og ønsket at jeg var tidlig alder skulle få utfordringer tilpasset mitt nivå. Dette er noe jeg har
+sett i ettertid. Der og da var jeg bare fornøyd med å spille. Trenerne opp til mye lekpregede
+aktiviteter. Terpet mye på teknikk. Føre ballen. Småspill. Relasjoner. Jeg fikk score mange
+mål og det ga glede og motivasjon til å stå på ekstra.
+I denne perioden og fram til tidlig ungdom har jeg nok alltid vært litt svakere enn det trenerne
+har ønsket på relasjonelle ferdigheter. Samspillet var nok ikke min sterkeste side. Samtidig
+følte jeg at de dyrket mine individuelle egenskaper og det gjorde at jeg stadig vekk tok nye
+steg.
+Trenerne ga meg mye tilbakemeldinger og det gjorde at jeg både ble sett og fulgt opp. Det var
+trygge rammer og vi var gode kamerater som spilte på laget. Et fantastisk miljø i og rundt
+lagene på Gruner.
+
+35
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Målsetninger knyttet til utvikling - trenerens rolle og betydning i dette arbeidet
+Det var først da jeg gikk til Skeid som 13 åring at jeg ble introdusert for hvordan man satte
+seg mål i treningsarbeidet. Jeg ble da med i en spillerutviklingsgruppe som hadde jevnlige
+økter og møter. Vi ble fulgt opp individuelt under lagstreninger og hadde også egne
+rolletreninger med spillerutviklere i Skeid. Vi satte oss ferdighetsmål, som ble evaluert etter
+endt periode. Samtalene var fine og jeg ble mer bevisst på hvor nyttig det er å jobbe mot mål
+du selv setter deg. Treneren var i dette tilfelle en fin samtalepartner og veileder på hva jeg
+skulle jobbe med for å utvikle meg videre. Vi jobbet mye med avslutningsferdigheten og flere
+av øvelsene vi gjorde har jeg benyttet meg av senere i karrieren. Spesielt i de fasene av
+sesongen der jeg har slitt litt er det nyttig å gå tilbake til enkle avslutningsøvelser for å kjenne
+på det å score enkle mål igjen.
+Både i klubb og landslag nå setter vi oss mål. Både i Strømsgodset og på landslaget har jeg
+hatt individuelle spillersamtaler der treneren har benyttet video i evalueringen. Dette gjør at
+læringen også blir optimal. I tillegg til samtaler, der man blir veiledet, får man også sett seg
+selv. Dette gjør at jeg i større grad blir bevisst på hva må jobbe videre med og punktene til
+treneren blir mer konkrete ved at jeg kan se det selv.
+
+Fokus på 24 timersutøveren
+Fra jeg var liten har jeg trent mye. Jeg bodde på Grunerbanen og det var der jeg følte
+tilhørighet. Kosthold og søvn var noe jeg ikke var veldig bevisst på, men jeg har hatt foreldre
+som har vært opptatt av sunn mat og søvn. Dette gjorde nok at jeg var tidlig alder, gjennom
+dem, levde et sunt liv.
+
+Det var i mitt møte med kretslaget at jeg fikk min første «a-ha» opplevelse. Der ble det satt at
+tid, ved jevne mellomrom, til innleide foredragsholdere rundt tema kosthold, søvn, restitusjon
+og lignende. Disse foredragene gjorde at jeg ble mer bevisst på hva som måtte til og hvor
+viktige faktorer dette er i min egen utvikling. Det var også viktig for meg at andre fagpersoner
+kom inn og fortalte dette. Tidligere hadde jeg bare hørt det hjemme. Det ble mer alvor for
+meg når kretstrenere og andre fagfolk poengterte det samme.
+
+Etter at jeg flyttet til Drammen fikk jeg selv erfare hvor stor avstand det kan være mellom
+teori og praksis. Nå var ikke lenger mamma der. En del vanlige oppgaver ble da vanskelig i
+
+36
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+starten. Nå måtte jeg gjøre alt selv. Lage mat, tenke på matpakke, vaske klær, organisere
+hverdagen. Etter litt tilvenning, så går det bedre nå, men jeg har nok fortsatt litt å gå på når det
+gjelder 24 timerutøveren. Vi har en husmor som er der for oss og hjelper oss med praktiske
+ting. Vi må vel egentlig styre det meste selv uten veldig stor påvirkning fra klubben og
+trenerne. De er derimot flinke til å samarbeide med skolen rundt belastning og struktur i
+hverdagen min. De passer på at jeg skal trene riktig, ha balanse mellom fotballtreninger,
+skadeforebyggende og restitusjon. Her vil jeg si at jeg opplever det veldig profesjonelt.
+
+Også på landslaget er det mye fokus på 24 timersutøveren. Vi har foredrag og fokus på å spise
+sunt. Hva som er fordel ved søvn og restitusjon. Så de er med på å bevisstgjøre meg. Det er
+vel til slutt opp til meg selv å planlegge bedre. Her har jeg litt å gå på fortsatt, men det er i
+stadig utvikling.
+
+Egentrening som en del av utviklingen – Trene eller bli trent?
+Som ung gutt var jeg som sagt på fotballbanen så mye som jeg kunne. Det var mitt andre hjem
+kan du si. Jeg husker tilbake til det med stor glede. Vi hadde det utrolig morsomt sammen.
+Det gikk i spill og skuddkonkurranser. I disse årene var det lite fokus på strukturert
+egentrening.
+
+Da jeg kom til Skeid ble jeg introdusert for hvordan man kunne jobbe strukturert med
+ferdighetsutvikling. Spillerutvikleren jobbet med individuelle ferdigheter sammen med meg.
+Jeg følte at han både motiverte, veiledet og strukturerte egentreningen for meg på en veldig
+fin måte.
+
+Nå føler jeg at det i sesong er vanskelig å få prioritert tid til å jobbe med utviklingsmål i
+egentreningen. I «preaseason» hjelper skole og klubb meg til å legge opp til program tilpasset
+hva jeg skal bli bedre på. I vinter har jeg fokus på avslutninger og hurtighet. I tillegg har jeg
+fått et program fra fysisk trener der jeg i skoletiden får prioritert å trene skadeforebyggende
+tre ganger i uka i forbindelse med skoletrening.
+
+Drammen toppidrett og Strømsgodset samarbeider meget tett og godt, noe som kommer oss
+spillere til gode. De optimaliserer mulighetene for å ta nye steg og er viktige samtalepartnere
+som gjør at jeg kan utvikle meg på best mulig måte.
+
+37
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens påvirkning i
+utviklingen
+For min del kan jeg ikke få nok av gode tilbakemeldinger. Det gjør at jeg føler meg sett av
+treneren. Han veileder meg godt i forhold til hva jeg skal bli bedre på og hva kan jeg kan
+gjøre annerledes. I mine år som ungdomsspiller har jeg møtt mange trenere som har vært
+faglig sterk. Likevel vil jeg skille på hovedtreneren og spillerutvikleren. For meg er det viktig
+at hovedtreneren har en naturlig autoritet. Legger opp til en strukturert plan for hvordan laget
+skal spille. Utvikle relasjonelle ferdigheter i laget. I tillegg er han med å motivere og inspirere
+i garderoben.
+Spillerutvikleren er viktig for meg. De tar seg tid til individuelle samtaler. De setter seg ned
+og bruker tid på meg og min utvikling. Backer meg opp når jeg har svakere perioder og viser
+en interesse for å bidra i min utvikling. Jeg føler jeg har vært heldig. Har alltid blitt tatt godt
+vare på og trenerne rundt meg har alle villet hjelpe meg videre i min utvikling. Det tror jeg har
+gitt meg mye. Spesielt rundt bevisstheten hvor viktig det er å strukturere tankene og
+planleggingen min. Hva som skal til for å bli best mulig. Gi meg god veiledning og være en
+samtalepartner. De viser en interesse og et pågangsmot som smitter over på meg.
+Det vil si at trenerne er viktige bidragsytere til at jeg selv kan trene og utvikle meg optimalt.
+Det er til syvende og sist jeg selv som må gjøre jobben. Jeg er sjefen i min egen utvikling,
+men gode støttespillere er essensielt får å kunne bli best.
+
+5.4 Transkripsjon Adrian Møller – Vålerenga IF
+
+Bevissthet rundt egne ferdigheter i din utviklingsprosess sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder.
+
+38
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Det ble tidlig klart for meg at jeg ville bli keeper. Vi hadde en voksenperson der som var
+veldig ivrig og tok oss med i gymsalen nesten hver gang. Det var lekpregede aktiviteter som
+jeg ser tilbake på med enorm glede. Han ga meg tips om at jeg burde satse på å stå i mål. Han
+var sa det var fordi jeg var tøff og uredd i møte med ballen. Trenerne jeg hadde i barneårene
+var viktig for meg. Det var voksenpersoner jeg så opp til og som motiverte til god aktivitet.
+De var trygg og skapte god stemning på trening.
+
+Det var først som 13-14 åring at ble ting satt i system. Vi fikk oppfølging av en keepertrener
+en dag i uka. Keepertreneren spilte selv i klubben og var noen år eldre enn meg. Vi lærte
+grunnleggende teknikktrening. Denne oppfølgingen ga ekstra motivasjon, i og med at han
+også spilte i klubben. Han ble et forbilde for meg. Flink til å forklare og brukte tid på oss.
+
+Målsetninger knyttet til utvikling - trenerens rolle og betydning i dette arbeidet
+Da jeg ble G14 husker jeg at vi hadde et foredrag om målsettinger og satsing. Dette gjorde
+betydelig inntrykk på meg og fra da ble jeg mer bevisst på at dette kunne være et verktøy å
+benytte for å utvikle seg som fotballspiller.
+
+Den virkelige satsingen startet på slutten i 14 årsalderen. Jeg trente sammen med en annen
+keeper som var ett år eldre enn meg. Han var nok også på den tiden en bedre keeper enn meg
+selv og det var stort for meg at han ville ha meg med på treninger i starten. Han var veldig
+inspirert av tyske toppkeepere. Vi bruke youtube mye som mesterlære og studerte dem nøye.
+Han hadde også flere biografier, og i dem fikk vi mange tips om hvordan de trente, forberedte
+seg og hvilke mål de hadde satt seg tidlig i karrieren. Dette ble en inspirasjonsfaktor for oss.
+Læreviljen var stor på den tiden. Vi pushet hverandre hver dag. Satte oss mål og jobbet
+strukturert med dem. Vi evaluerte hverandre etter øktene. Vi fikk låne en tavle inne på
+utstyrsrommet og klubben stilte utstyr til disposisjon. Vi trente uansett vær og dag. Jeg husker
+at jeg en julaften så vidt rakk middagen fordi vi ikke ville gå hjem. Hvis han ene tok en ekstra
+repetisjon på en øvelse, så ble en fast tradisjon at da gjorde den andre en ekstra. Ingen av oss
+ville gi seg.
+
+Vi var vår egen trener. Jeg savnet egentlig å ha en egen keepertrener. Dette kunne
+optimalisert. Likevel følte vi at vi pushet hverandre. Kanskje ville en trener gitt oss det lille
+ekstra, med erfaring og tyngde. Sparring med detaljer. Vi la opp til mange og varierte øvelser.
+
+39
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+I tillegg satte vi oss mål i forhold til spenst og høyde. Vi satte oss som mål om å ha x antall
+redninger. Det gir en ekstra mestringsfølelse å stoppe baller for en keeper.
+
+Nå er tankegangen mer kompleks. Andre viktige faktorer spiller inn hvis du skal utvikle deg
+videre og hele totalbildet er viktig nå. I dag setter jeg meg både langsiktig og kortsiktig mål.
+Foran hver trening setter jeg meg små mål. Nå er det mer strukturert og jeg føler at
+ungdomstida og bevisstgjøring rundt det å sette seg mål hjelper meg i dag.
+
+I min nåværende klubb får jeg tett oppfølging rundt utviklingsmålmål jeg setter meg. Vi
+evaluerer hyppig. I tillegg er det jevnlige tester spesielt tilrettelagt for keeper, som for
+eksempel Grodåstesten. Keepertreneren spiller en stor rolle i min utvikling nå. Han gir stadige
+tilbakemeldinger og benytter seg av skjemaer for å bli optimalisere utviklingen min.
+
+Fokus på 24 timersutøveren
+Jeg har bodd hjemme hele tiden og fra jeg var liten hadde vi et svært bevisst forhold til
+kosthold og søvn. Jeg hadde alltid med meg store matpakker på skolen og der andre dro på
+butikken for å kjøpe boller, spiste jeg sunt. Jeg husker at både på kretssamlinger og i egen
+klubb fokuserte på dette med næring, søvn og restitusjon. Trenerne er flinke til å bevisstgjøre
+spillerne og det blir mer alvor når det kommer fra andre enn foreldrene dine. Likevel er det jo
+sånn for de fleste at etter et foredrag har vi det i minne i 2 uker, så sklir det ut. Derfor er jeg
+glad for at jeg har med meg gode holdninger og verdier rundt dette fra barndommen. Jeg er
+opptatt av å legge meg til riktig tid for å kunne prester i hverdagen. Bevisstheten rundt dette er
+viktigst for min del og i min nåværende klubb har vi eksperter inne som kan hjelpe og veilede
+oss ved behov. Klubben prioriterer også å lage individuelle planer for spillerne der
+belastningen styres tilpasset hver enkelt spiller. Vi blir tatt på alvor og dette skal bidra til å
+optimalisere hverdagen, som igjen øker mulighetene for utvikling.
+Egentrening som en del av utviklingen – Trene eller bli trent?
+Jeg har som sagt alltid trent mye og har ment at en «dag uten trening er en dag uten mening.»
+Likevel var det jeg selv, sammen med min treningskompis som la planer for egentreningen
+som ungdom. Dette var uten spesiell påvirkning fra keepertrenere. Vi snakket om det en del
+på den tiden. At hadde vi hatt en voksen trener som kunne veiledet oss og strukturert
+egentreningen ville det blitt enda bedre, men det blir kanskje bare spekulasjoner?
+
+40
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+I dag trener jeg fortsatt mye på egenhånd. Spiller man ikke A-kamp trener man den dagen. I
+tillegg avtaler jeg egenaktivitet sammen med spissene i klubben. Jeg jobber også med øvelser
+for å bli bedre med begge beina og i igangsettinger. Fysisk trener er også inne og har laget
+program til meg i forhold til styrketrening. Fysio i VIF følger opp styrke spenst/hurtighet. I
+tillegg har de yngste to økter i uka med core.
+
+Trenerne følger nok opp utespillerne mer enn keeperne rundt dette og det blir litt opp til deg
+selv å lage program, men de er selvsagt med å veilede hvis man har behov.
+
+Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens påvirkning i
+utviklingen
+Jeg mener at en trener må være en god motivator for spillere som skal utvikle seg og prestere.
+Han må ha klare tanker rundt hvordan han kan utvikle meg som spiller, individuelt. I tillegg
+ha en plan på hvordan laget best mulig hele tiden kan være i utvikling. Jeg har hatt mange
+trenere, men en av trenerne jeg hadde var så dyktig til å motivere at jeg alltid, selv etter ei
+hard økt, var like motivert og kunne trent i timesvis.
+Hvor god du er til å selge inn det du ønsker at spillerne skal lære er også viktig. En god
+formidler setter også preg på hvordan enkeltspillere i spillergruppa utvikler seg. Jeg liker
+autoritære trenere, som samtidig har glimt i øyet. Dette er kanskje noe de fleste sier, men for å
+kunne utvikle seg bra må man også ha rammer og regler. Forutsigbarhet tror jeg blir
+nøkkelordet. Stram struktur, men godt humør.
+Jeg har også hatt en trener som har vært god til å involvere spillerne sine. Det tror jeg er viktig
+når du er ung, men kanskje enda viktigere for spillere som har opplevd en del og har fått
+erfaring. De har mye bra å bidra med og det kan alle trenere dra nytte av.
+I nåværende klubb opplever jeg svært gode trenere som er tydelig på det de vil ha frem. Det
+skaper også utvikling og trygghet.
+Likevel er det ordet veiledning, som jeg ville prioritert om jeg måtte velge. Det å bli veiledet
+enten på feltet eller via videoklipp, føler jeg er trenerens viktigste bidrag i min egen utvikling.
+Det kan være små detaljer i ferdighetsutviklingen som gjør at jeg kan ta store steg. Tar
+treneren seg tid til å veilede deg føler jeg han også viser i praksis at han bryr seg. Han er
+
+41
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+interessert. Han bruker tid på deg. Så vil det i hovedsak være opp til meg selv om jeg tar nye
+steg og utvikler meg i takt med mine egne forventinger.
+
+5.5 Transkripsjon Haitam Aleesami – IFK Gøteborg
+
+Bevissthet rundt egne ferdigheter i din utviklingsprosess sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder.
+Jeg startet med å spille fotball som 4-5 åring. Da spilte jeg sammen med jevnaldrende spillere
+på løkka. Faren min var alltid med og sørget for glede, lek og spill. Det året jeg fylte 6 år
+startet han et lag og ble den første treneren min. På Holmlia var det vanlig å dele i klasselag.
+Jeg husker at det alltid ble spilt fotball i alle friminutt. Det handlet tidlig om å være best.
+Vinne kamper på banen utenfor skolen. Det var en enorm konkurransementalitet på banen
+allerede fra 1.klasse. De som tapte kamper fikk straff, som ble avtalt på forhånd. Selv om det
+var kriging på banen, var vi bestevenner med en gang kampen var over. Jeg kan ikke huske at
+vi dro med oss uenigheter inn i klasserommet.
+
+Treneren, som var min far, var veldig opptatt av at vi tidlig skulle bli gode ferdighetsmessig.
+Alt vi gjorde på trening var med ball. Det handlet om å utvikle ferdigheter. Han har alltid
+ment at fotball er kunst og vi ble oppdratt til å skulle bli kunstnere med ball. Individuelt
+ferdighetsfokus. Terping på detaljer med fokus på tempo i alt vi gjorde. God veiledning fra
+treneren på dette. Det var ikke noe prat om taktikk. I løpet av hele barneskolen fortsatte vi
+med å fighte på trening, men var fortsatt kompiser utenfor banen. Vinnerkulturen og
+mentaliteten var sterk. Det var stor aktivitet hele denne perioden.
+
+Da i startet på ungdomskolen ble det et veiskille for mange. Man blir eldre og nye faktorer
+blir viktig i livet for ungdommen. Holmlia var på denne tiden preget av etterdønningene etter
+
+42
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+drapet på Benjamin Hermansen. På fotballaget ble det påpekt at du måtte oppføre deg på
+skolen for å få være med. Fotballen skulle være samlende for miljøet og trenerne våre ble
+forbilder på hvordan man skulle være som mennesker. I tillegg hadde vi en fantastisk
+foreldregruppe. De stilte opp som trenere, lagledere, dugnadsansvarlige og støttespillere for
+oss gutta. Det sosiale miljøet var trygt, vennskapelig og godt. Det var en flerkulturell gjeng av
+foreldre, trenere og spillere som knyttet tette bånd. Kulturen var så sterk og faren min ønsket å
+bidra til å produsere helhetsmennesker, som også fikk gode verdier utenfor fotballbanen. Han
+fikk med seg foreldre og spillere til å ha fokus på skolen. De fleste av spillerne fra det laget
+har i dag tung utdannelse og vi nevner i ny og ne suksessfaktoren som vi lærte hos treneren på
+Holmlia G91.
+
+Målsetninger knyttet til utvikling - trenerens rolle og betydning i dette arbeidet
+Jeg har alltid vært målbevisst og moden for alderen. Likevel var det ikke før sisteåret på
+videregående skole at jeg begynte å benytte meg av mål i treningsarbeidet. Tidligere hadde
+jeg selvsagt mål for hver trening og tenkte utvikling hele tiden, men nå fikk vi en oppgave på
+skolen. Vi skulle ha en treningsdagbok over tre måneder. I den plottet jeg inn hva jeg gjorde,
+hva som fungerte og hvorfor jeg utførte aktiviteten. Dette ble starten på en periode der jeg
+strukturerte treningshverdagen min mye bedre.
+
+På skolen ble jeg fulgt opp av ass.trener på A-laget til Skeid. Han var også ansatt på Bjerke
+videregående skole. Vi hadde spillersamtaler der mål ble satt og evaluert. Jeg var også opptatt
+av å ha en god dialog med juniortreneren. Han fungerte også som en samtalepartner og en
+veileder. Jeg søkte hele tiden etter forbedring og stilte ofte følgende spørsmål til trenerne: Hva
+forventer du av meg? Hva er bra? Hva er veien videre?
+
+Fra jeg var liten har faren min vært min mentor. Som spiller møter du også motgang og
+opplever tøffe perioder. Du kan ha verdens beste trenere, gode mål du sikter mot og
+strukturert i arbeidet ditt. Han sa til meg tidlig at det var i hodet det meste satt. Det som sitter i
+hodet er viktigst. Selvtillit er viktig og en forutsetning for å utvikle seg. Før treningene stilte
+jeg meg selv noen spørsmål: Hvor god har du lyst til å bli? Hva vil du ofre? Det var
+overordnende spørsmål som ble stilt. Derfor brukte jeg også å skrive opp kvalitet på søvn,
+mat, humør og selvtillit i treningsdagboka mi. Da kunne jeg selv gå inn å evaluere gode og
+dårlige dager. Var det noe sammenheng mellom gode prestasjoner og grundig arbeid?
+
+43
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+I mitt møte med toppfotballen ble mål todelt:
+
+Lagsmål
+Individuelle mål
+
+Disse ble kontinuerlig evaluert i laget eller individuelt, i samtale med trener.
+Eksempel fra tiden i Fredrikstad. Individuelt mål var å holde seg skadefri og spille hver eneste
+kamp. Det må til for å utvikle seg.
+I tillegg satte jeg meg ferdighetsmål. 1vs1defensivt. Min daværende trener, Håkon W Lund
+fulgte meg opp tett. Han startet alltid med å fortelle meg om potensialet mitt og påpekte at
+hvis samtalene skulle føre til utvikling måtte jeg stole på han. Jeg opplevde han som rå på
+oppfølging. Avgjørende for min utvikling i det defensive arbeidet. Han så et potensiale i meg
+som venstre back. Han analyserte alle matcher og vi gikk systematisk gjennom klipp.
+Posisjonering. Kroppsposisjon. Innleggsituasjoner. For stor avstand innad i ledd. Han kunne
+jeg sitte med etter hver match i 1 ½ time etter hver kamp. Det var gode samtaler og mye
+læring. Dette tok jeg med meg ut på feltet og jobbet strukturert rundt forbedringer jeg måtte
+gjøre i spillet mitt for å bli bedre.
+
+Fokus på 24 timersutøveren
+Jeg har alltid trent mye. Vært aktiv og hatt mange jern i ilden. Jeg startet på Bjerke
+videregående skole. Det ble da fire fotballøkter ekstra i uka. På den tiden var det svært godt
+samarbeid skole-fotball. På skolen jobbet vi med teknisk repertoar. Ferdighetsutvikling
+individuelt. Mange berøringer med ball. Rollespesifikke oppgaver. Det første året kunne jeg
+trene så mye jeg ville uten å kjenne noe på kroppen. Da jeg kom i 2.klasse begynte kroppen å
+merke litt slitasje. Jeg mangla referanser og begynte selv å søke voksenpersoner med
+kompetanse på hva jeg kunne gjøre. Tiltak som kunne settes i gang. En ernæringsfysiolog ga
+meg et kostholdsprogram. Han sa at jeg måtte kutte ut sukker, spise sunt, sove 10 timer. Hans
+kostholdsprogram følger jeg fortsatt, i og med at det fungerer godt for min kropp. I og med at
+det miljøet jeg var i ikke hadde topp referanser på dette, følte jeg at jeg selv måtte ta tak i det.
+Jeg mangla rett og slett referanser på hva som måtte til for å best mulig kunne ta vare på min
+egen kropp. For som jeg har sagt tidligere. En skadefri kropp er avgjørende for å ta nye steg i
+utviklingen.
+
+44
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Jeg har tidligere nevnt at skole har vært noe de hjemme har vært opptatt av. Det kommer også
+en dag etter at fotballkarrieren er over. Det har gjort at jeg nå er ferdig med en bachelorgrad i
+økonomi. Det er nå jeg er ung og har mye energi. Det handler om å skape en holdning og
+dette har jeg med meg hjemmefra. Dagen er lagt opp til at du kan studere som toppspiller. Jeg
+ville sikre framtida. Det ga meg energi. Lese 6-8 timer etter trening var ikke noe problem,
+bare man strukturerer og planlegger hverdagen.
+
+Egentrening som en del av utviklingen – Trene eller bli trent?
+Før jul har jeg de siste årene dratt til en fagperson som har gått gjennom kroppen min og
+analysert den i forhold til styrker og mangler fysisk. Han analyserer data og optimaliserer et
+program tilpasset det jeg må jobbe med. Et eksempel er muskulaturen i hamstring, som må
+styrkes, for å få maks ut av farten min. Jeg søker hele tiden etter fagpersoner som kan bidra
+til å hjelpe meg i min utvikling som fotballspiller. Jeg mener bestemt at hvis klubber hadde
+tatt seg mer tid til å individualisere kunne enkeltspillere blitt bedre. Vi er alle anatomisk ulike,
+men for ofte må vi trene på det samme. Her er jeg nysgjerrig og det tror jeg har vært en viktig
+faktor for meg i egen utvikling. Spesifikke råd rundt trening, som jeg følger opp i praksis ved
+egentrening. Jeg har alltid tålt mye trening, men er ekstra nøye på å gjennomføre
+skadeforebyggende tiltak både før og etter øktene.
+
+Treningsdagboken som hjelpemiddel er noe jeg fortsatt benytter meg av for å strukturere
+treningsmengde og innhold. Det har blitt et verktøy for å kontrollere mengde og kvalitet i
+treningsarbeidet. I og med at jeg også skriver om søvn og humør i boka, kan jeg se om dette
+slår ut i dårligere kvalitet over tid. Erfaring ha med egentrening er at kroppen tilpasser seg
+mengden. Men før og etter trening må det optimaliseres.
+
+I tillegg til å pleie det fysiske bruker jeg i dag nesten like mye tid på egentrening på feltet som
+da jeg var ung. Som ung voksen har jeg brukt mye tid på å slå innlegg fra ulike posisjoner. Alt
+må gjøres med tempo. Du må være rå på at når du er på feltet for å terpe på detaljer, må du
+jage etter å gjøre det med tempo. Da kommer også utviklingen.
+
+Informantenes refleksjoner rundt oppfattelse av trenerrollen - trenerens påvirkning i
+utviklingen
+
+45
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+I tidlige barneår er det viktig med trygghet. Trygge trenere får også trygge spillere. Faren min
+ble et forbilde for alle gutta, inkludert meg. Tydelig, og med et klart budskap som ble solgt
+inn. Han skapte et miljø der konkurranse var bra, men utenfor banen var det gode
+kameratskapet den viktigste faktoren i laget.
+For å få spillere til å utvikle seg mener jeg det er helt essensielt at fotballtreneren har autoritet.
+Det vil si en naturlig autoritet. Han er et medmenneske, og ikke en diktator, men har en
+tydelig filosofi og en plan bak arbeidet sitt. En fagmann med en genuin interesse for å bidra til
+utvikling hos spillerne sine. Han formidler sine tanker og retningslinjer på en så sterk måte at
+spillerne føler en tilhørighet og lojalitet til det de skal gjennomføre i kamp.
+Treneren er så strukturert og klar at han inviterer spillerne til å være deltakende i diskusjoner,
+men til syvende og sist vet alle at han har det siste ordet. Han involverer i prosess for å gjøre
+hver enkelt spiller bedre. Hjelpe både enkeltindivid og lag i sin utvikling.
+Alle mennesker ønsker å bli sett og verdsatt. Den gode samtalen er viktig i trener-spiller
+relasjonen. Jeg har satt pris på alle trenerne som opp gjennom årene har tatt seg tid til å
+veilede meg. Svare på spørsmål. Vise meg videoklipp. Dette har gjort at jeg hele tiden har
+vært i utvikling. Min nysgjerrighet i sammenheng med god veiledning fra treneren sin side.
+
+6.0 Metodediskusjon
+Med et utvalg på fem spillere er det vanskelig å kunne generalisere funnene som er gjort.
+Dette til tross, så er det et utvalg med spillere med ulikt kjønn, bakgrunn og alder, noe som
+styrker studien (Smith et al., 2009). Innenfor IPA-analysen av intervjuene som ble
+gjennomført har jeg kunnet tolke det som spillerne beskriver i en teoretisk retning. Dette gjør
+at både det fenomenologiske og det hermeneutiske er tatt hensyn til. Dette blir blant annet
+beskrevet av Smith (2011b) som et av kriteriene for god IPA. Likevel kan man aldri vite
+hvorvidt de fortolkningene som er gjort stemmer helt overens med virkeligheten i de aktuelle
+spillernes sin praksis, enten det er forklaringer om det som har skjedd i barne- og ungdomsår,
+opplevelse av trenere og erfaringer de har gjort seg som spillere. Når det er sagt, så kan man
+ved enkelte anledninger kjenne igjen utsagn fra informant til informant som blir beskrevet av
+blant annet Smith (2011a) vil en studie gjennomført med IPA være av individuell karakter og
+det er enkeltspillerne sine opplevelser som vil være hovedfokuset i denne studien. Svarene
+informantene har gitt, kan i tillegg settes i relasjon med tidligere forskning og litteratur, noe
+det er gjort i denne oppgaven. Dette har nok vært den største styrken i denne studien, det at
+46
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+fortolkningsprosessen har vært tett knyttet opp mot eksisterende litteratur, samt at det
+metodiske utgangspunktet har vært nøye planlagt og gjennomført deretter. Blant de nevnte
+kriteriene for god IPA, beskriver Smith (2011b) også hvordan prosessen bør være nøye
+beskrevet som den er i metodekapittelet i denne studien. Videre nevnes det at studier med 4-8
+informanter bør det presenteres funn fra minimum tre av informantene innenfor hvert tema. I
+denne studien med fem informanter presenteres det funn fra samtlige respondenter innenfor
+hvert tema. Analysen bør være sammenhengende, sannsynlig og interessant lesing for leserne.
+Det gjør det hele oversiktlig og lett å lese. Det er likevel et valg som er tatt og innenfor en
+IPA-analyse, så er det støtte for å ha et homogent utvalg (Smith et al., 2009).
+
+7.0 Diskusjon
+7.1 Bevissthet rundt egen utvikling – sett i lys med trenerens
+funksjon i barne- og tidlig ungdomsalder
+Felles for alle informantene er at de ser tilbake på sitt første møte med fotballen på en positiv
+måte. Trygge rammer og voksne som skaper et godt miljø sier de har vært en suksessfaktor.
+Alle påpeker at aktiviteten var viktigst. Det å ha et miljø som fremmer samholdet i et
+fotballag.
+Det er likevel to spillere som har opplevd at det bevisst ble tilrettelagt for deres utvikling i
+alder før 12 år. Abdul Basit Agouda forteller at han tidlig fikk muligheten til å spille med
+lagkamerater som var tre-fire år eldre enn seg selv fra åtteårsalderen. Dette som en bevisst
+strategi for å gi han mest mulig utvikling fra tidlig alder. Han fikk tidlig tett oppfølging fra
+trenere, som ga gode fotballfaglige tilbakemeldinger og ønsket å bidra til utvikling på en
+bevisst måte. Agouda forteller videre at han på den tiden ble oppfordret til å være
+individualist og de hadde minimalt med fokus på det relasjonelle i barneårene. Han skulle
+score så mange mål som mulig. Ved å dyrke såkalte individualister på et tidligere tidspunkt,
+vil vi da kunne produsere flere spillere med unike ferdigheter? Mange av dem som preger
+yngre landslag har spilt sammen med lagkamerater som har vært flere år eldre enn dem selv.
+Er dette en suksessfaktor for alle? Sannsynligvis vil spillerens fysikk avgjøre om dette er
+gunstig eller ikke. Agouda var storvokst for sin alder og hadde stor fordel av det i barneårene.
+For spillere uten slike fysiske forutsetninger kunne kanskje denne tilretteleggingen vært gal
+og tatt bort viktige aspekter som glede, mestring og motivasjon i tidlig alder.
+
+47
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Haitam Aleesami forteller om at det ble skapt en kultur for individuell ferdighetsutvikling på
+treningene i Holmlia fra tidlig alder. Treneren, som også var hans far, var opptatt av å
+produsere fotballspillere som var kunstnere. Det var fokus på teknikk, de hadde masse touch
+med ball og dette førte til at de ble venn med ballen tidlig. I vennegjengen hans konkurrerte
+de også om alt og i alle friminutt. Dette første til høy intensitet og krav til og måtte mestre
+tekniske elementer i spill fra tidlig alder. Så vil spørsmålet være om tidlig fokus på
+konkurranse kan være gunstig sett i lys av utvikling? Hva vil være fordelen for en spiller ved
+å vokse opp i et nærmiljø preget av konkurranse? Det kan være at du får spillere som hele
+tiden hjelper hverandre og er sultne på å bli bedre. Det diskuteres stadig vekk i media om barn
+og konkurranse. På tv har man program der barn ned i 8-9 års alderen konkurrerer og blir
+stemt videre. I fotballen starter man med organisert konkurranse, det vil si seriespill i 12
+årsalderen. Legitimt vil det da være å spørre om norsk fotball og talentutvikling ville vært
+bedre hvis barn fikk konkurrere i tidligere alder. Jeg er usikker og det er flere sider ved denne
+saken, som kunne vært belyst. Vil man for eksempel få økt frafall tidligere enn i dag ved å
+innføre konkurranse også nedover i barneklassene? Til refleksjon og ettertanke. Jeg er
+usikker, og har ikke noe klart svar på det, men for Aleesami sin utvikling var det viktig at
+fotballen, både organisert og uorganisert var konkurransepreget.
+Motivasjonen drev guttene på Holmlia og dette gjorde at de brukte hver eneste mulighet til å
+spille uorganisert fotball. Dette kan knyttes til at nærmiljøet og treneren på Holmlia var også
+opptatt av et godt samarbeid med skolen og dette førte til trygge og gode rammer i
+oppveksten. Her kan vi støtte oss på teorien til Bronfenbrenner (1979) Skole-fotball-nærmiljø,
+som sentrale faktorer i hans oppvekst.
+På samme måte ser vi også at Vebjørn Vinje har dratt nytte av å spille med eldre spillere, dog
+uten noe spesiell struktur bak tankegangen rundt utvikling fra trenerens side. Han stod alltid
+og trippet på sidelinja da brorens lag hadde lagstrening, i håp om å få bidra. Vinje fikk stadig
+vekk være med og spilte også en del sammen med dem på løkka. I motsetning til Agouda sitt
+tilfelle var ikke dette noe strukturert og planlagt, men utfallet for dem begge, var nok positiv
+sett i lys av egen utvikling. Miljøet var trygt og utviklende. Dette gjorde også at Vinje søkte
+disse utfordringene selv. Erfaringen min som trener forteller meg at de ivrigste og de som
+søker ny utvikling også ofte utvikler seg best og i takt med egne ambisjoner. De ble presset
+på tid og rom og i og med at de var mye yngre enn de andre var både trenere og medspillere
+bevisste på dem. De ble forbilder som de to ungguttene så opp til og begge ble behandlet godt,
+
+48
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+noe som har vært med på å gjøre dem til den de er i dag. Dermed kan man anta at de dro
+fordeler med å få muligheten til å spille med eldre gutter.
+A-landslagsspiller, Lisa Marie Karlseng Utland, forteller at hun i tidlig ungdomsår fikk
+innpass på treninger sammen med et småguttelag. Trenerne vurderte at dette ville gi henne økt
+utvikling og hun hadde en fysikk som ikke stod tilbake for jevnaldrende gutter på den tiden.
+Hun ser likevel tilbake på tiden i barne-og ungdomsfotballen som en trygghet i hverdagen.
+Treneren var en trygg voksen og ble et forbilde for jentene på laget. Møte med kretslaget ga
+henne en inspirasjon og motivasjon for utvikling. Her møtte hun trenertyper som var
+annerledes enn i egen klubb. Det ble snakket om individuell ferdighetsutvikling og
+samhandlingsferdigheter. Treneren ble plutselig også en kompetanseperson, noe som ga
+motivasjon til økt satsing. Tilbudene utenfor egen klubb gjorde at Utland fikk flere referanser
+og impulser til å kunne fortsette egen utvikling.
+Flere spillere opplever ulike utviklingsstadier der man som spiller må søke nye utfordringer
+og miljø. Dette for å få utfordringer og en kvalitativt bedre treningshverdag. Her tror jeg vi
+kan bli bedre som trenere. Være flinke til å innse når spillerne våre er modne for noe nytt.
+Ofte har vi den klassiske, «vi må beholde laget,» mentaliteten. Resultatene i Norway cup blir
+viktigere enn å utvikle spillere. For mange spillere blir for lenge i sitt gamle miljø, for å
+tilfredsstille trenere, medspillere og foreldre. Jeg mener at treneren da alltid må sette
+enkeltspilleren i fokus og hjelpe til å søke nye miljø som kan bidra til at utvikling og
+ambisjoner kan gå hånd i hånd. Et skrekkeksempel kan være: en spiller, som både er moden
+og klar for et nytt steg i karrieren mottar trusler fra trener om at laget blir ødelagt hvis han går
+eller sitat som: «farfaren din ville snudd seg i grava om han hadde opplevd at du hadde byttet
+klubb.» Et tredje eksempel kan være at hvis du ikke signerer i kveld får du ikke spille
+treningskamp mot tippeligalaget i ettermiddag. Felles for informantene er at de naturlig i løpet
+av sine karrierer har søkt nye utfordringer i takt med egne ambisjoner, og at de har hatt trenere
+som har syntes at dette har vært naturlig. Dette har etter min menig bidratt til at mine
+informanter har lyktes i å utvikle seg og er på et høyt nasjonalt nivå i sin aldersgruppe.
+Adrian Møller underbygger viktigheten av treneren som et forbilde. Hans første trener var en
+voksenperson han støttet seg på og så opp til, som kan knyttes til Carlsons (1991). En
+fellesnevner for alle de suksessfulle trenere var evnen til å være en omsorgsfull trener med
+gode personlige egenskaper. I alle hans år i barnefotballen trekker han fram trygghet og
+forutsigbarhet som viktige faktorer hos treneren. Han ble også tidlig sett på SFO og dette
+gjorde at han fikk trygghet i den rollen og ble motivert og inspirert til å bruke sine sterke sider
+49
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+som spiller i denne perioden. Det var ikke noe strukturert plan, men gode motivatorer gjorde
+at dette ble interessant og morsomt. Det var først i tidlig ungdomsalder at ferdighetsutvikling
+ble satt i system. En av klubbens egne keepere fikk ansvaret for de yngre. Dette ble en
+voldsom «motivasjons-boost» og han ble et forbilde for Adrian.
+
+7.2 Målsetninger knyttet til utvikling – trenerens påvirkning og
+rolle i dette arbeidet
+«All samlet erfaring fra Olympiatoppen viser tydelig at å være god på resultatmål og
+treningsmål er en systematikk som kjennetegner de utøvere som lykkes» (Tore Fredlund).
+I overgangen fra barn til ungdom opplever flere av informantene en endring i struktur. De
+kommer i kontakt med trenere som har en annen kompetanse enn de de har møtt tidligere. De
+skifter klubb og fokuset på å prestere øker i takt med egne forventinger. Treneren de møter
+har også fokus på laget som en prestasjonsgruppe og optimaliserer treninger og opplegg ut fra
+det. Moser (1992) viser i sin undersøkelse at treneren med kompetanse i sin idrett vektlegges
+høyest av informantene i sin undersøkelse. Læring og utvikling går hånd i hånd. Det å sette
+seg mål blir en faktor de lærer seg å benytte for å utvikle seg videre som spillere.
+Vebjørn Vinje forteller at han relativt tidlig i ungdomsårene fikk en trener som hadde D-kurs i
+fotball (nåværende A-lisens). Treneren introduserte spillersamtaler og treningsdagbøker i
+hverdagen. Han stiller likevel spørsmålstegn rundt om sin egen bevissthet rundt dette arbeidet,
+som i utgangspunktet skulle være et strålende verktøy i sitt arbeid for økt utvikling som
+fotballspiller. Kan dette ha noe med kultur å gjøre? I langrennssporten ser vi at utøvere enda
+tidligere enn 12-13 år starter med treningsdagbøker. I fotball har ikke dette vært så vanlig, og
+det gjør at bevisstheten og nytteverdien rundt dette ikke sees på som relevant? Vinje som
+senere dro for å gå på NTG Bærum opplevde at kulturen der påvirket han til å ta dette på
+alvor. Samarbeidet skole-fotball, profesjonaliteten fra trenerne og tydelige samtaler rundt mål
+gjorde at han tok nye steg som spiller. Da, som på Nesna, var målene først og fremst knyttet
+til fotballferdighet. Som en konsekvens av strukturert arbeid trener-spiller på NTG, ser Vinje
+det som naturlig og fortsatt benytte seg av mål i treningsarbeidet for å utvikle seg videre. Nå
+er det også fysiske mål, målsettinger knyttet til posisjon, som det jobbes strukturert med.
+Kulturen som møtte han på NTG Bærum, gjorde han bevisst på at dette var nyttig. Han så
+hvordan strukturert arbeid førte til at flere i klassens hans utviklet seg i takt med seriøsiteten
+og fikk debut i tippeligaen.
+
+50
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Abdul Basit Agouda forteller at det var da han ble en del av Skeid SUP
+(spillerutviklingsprogram) at han for første gang ble introdusert for mål og målsettinger.
+Spillerutviklingsprogrammet var sydd sammen slik at spillerne både ble fulgt opp i egne
+lagstreninger og i form av rollespesifikke økter. Treneren ble nå en veileder for han i
+utviklingen. I starten var det først og fremst ferdighetsmål som ble satt. Dette ble fulgt opp,
+evaluert og nye mål ble satt. Tett og nært samarbeid, med god individuell oppfølging fra
+spillerutvikleren. Han forteller videre at det gjennom ungdomslandslag og nåværende klubb
+(Strømsgodset TF) er struktur rundt dette å sette seg mål. Det er hyppige samtaler og også her
+fungerer trenerne som veiledere. Ofte er videoanalyse et verktøy for å evaluere. For han er det
+viktig at treneren tar seg tid, lytter og gir tilbakemelding. Nye mål settes, man evaluerer og
+jobber strukturert. For at han skal kunne utvikle seg å kunne prestere på et høyere nivå er
+trenerens kompetanse og veiledning viktig for å ta nye steg. Disse samtalene der målsetninger
+blir satt gir økt motivasjon og tettere relasjon mellom spiller og trener, i følge Basit selv.
+Treneren som veileder og kompetanseperson har også vært viktig for Lisa Marie Karlseng
+Utland. Da hun som 16-åring dro til Fløya møtte hun en trener som hadde mye kompetanse
+rundt hvordan å jobbe strukturert og hvordan man kunne benytte mål i treningsarbeidet som et
+verktøy for å bli bedre. Det som er interessant er at spillergruppa her ble involvert i
+hverandres individuelle målsetningsarbeid. Det ble satt sammen grupper, der de hadde
+samtaler, lyttet og ga hverandre gode tips. Spillerne ble i større grad ansvarliggjort og
+inkludert i hverandres utvikling. På en side kan dette gjøre treneren mindre viktig, men
+samtidig ansvarliggjøres hvert enkelt individ til å ta tak. Være nysgjerrig i egen utvikling.
+Være en del av lagkameratenes utvikling. Gi tilbakemeldinger og få tilbakemeldinger. Utland
+forteller at Trine Lise Andersen i Fløya ble oppfattet som sterk faglig, men samtidig hadde
+hun omsorg for alle. Kompetansen hun satt på ønsket hun å overføre til spillergruppa slik at
+de fikk eierskap til egen utvikling. Utland sier at denne lærdommen er noen hun har tatt med
+seg videre i karrieren og gjør henne bedre rustet til å benytte seg av målsetninger i sin
+utvikling som spiller i dag. Dette er vel arven etter Marit Breiviks måte å utfordre spillerne i
+egen utvikling. Jeg tror denne bevisstgjøring kan føre til en bedre helhetstenkning i
+spillerutviklingen. Og som følge av dette bevissthet rundt selvregulering som en viktig faktor
+i utviklingsløpet hos unge spillere.
+Haitam Aleesami har egentlig hele livet satt seg mål. Han har alltid vært nysgjerrig og
+lærevillig og stilt spørsmål til trenerne for å kunne utvikle seg i takt med egne forventinger og
+drømmer. Likevel var ikke før han ble 17 år at dette ble strukturert fordi de hadde en oppgave
+
+51
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+på skolen der de i sammenheng med målsetninger begynte på en treningsdagbok. Han er i dag
+svært opptatt av å benytte seg av fagfolk i sin egen utvikling. Setter seg alltid både kortsiktige
+og langsiktige mål, som blir evaluert sammen med treneren. For han er det viktig at treneren
+som fagmann og omsorgsperson tar seg tid til å bidra rundt hans utvikling. Hans erfaring fra
+FFK viser at det å sette av tid også kan være avgjørende for ytterlige utvikling som
+fotballspiller. Hvor hadde Haitam vært i dag, uten de samtalene og den veiledningen som ble
+gitt av trener, Håkon Wibe-Lund? Han så potensialet i spilleren. Var villig til å bruke mye tid
+på han, hvis han selv ville og var åpen for det. Som et godt grunnlag lå det hele veien en
+gjensidig respekt og et mål om utvikling til det beste for spilleren, noe som kan underbygges
+ved Ronglans syn på treneren som veileder. «På alle stadier i utviklingen kan veilederen spille
+viktige roller. Hun kan hjelpe den lærende både i oppdagelsen av problemet, i forankringen av
+det, og i arbeidet med det… genuin læring skjer gjennom de erfaringer du får fra dine
+handlinger og din egen tenkning» (Ronglan, 2008, s. 82). Dette gjør at veilederen, eller
+fotballtreneren, bør være bevisst og drøfte utfordringer som dukker opp eller problemer som
+hindrer videre utvikling. Hvordan løse dette og komme seg videre.
+Selv om Adrian Møller fikk keepertrening en gang i uka en periode i overgangen til
+ungdomsfotballen, stoppet tilbudet opp og bestemte seg for å ta sakene i egne hender som 14
+åring. Han ble en del av en duo som tok ansvar for egen utvikling. Fordelen med dette var at
+de ble gode på planlegging, selvkontroll, evaluering, refleksjon, innsats og tro på egne
+ferdigheter som var seks hovedområder Toering nevner i sin undersøkelse rundt
+selvregulering i studiet fra 2009. Tidligere dette året hadde han vært på foredrag i forbindelse
+med en kretssamling. Der var tema målsetninger. Kameraten til Adrian fungerte tidvis som en
+trener for dem begge. De hadde en egen tavle der de skrev opp mål. Det var både
+ferdighetsmål og fysiske mål. De ble evaluert sammen og de satte seg nye mål. De hentet
+inspirasjon fra video og biografier. Adrian har senere påpekt at de stadig vekk på denne tiden
+savnet en voksen veileder. Selv om de var svært strukturerte hadde det kunne blitt enda mer
+utvikling med en kompetanseperson som fulgte opp akkurat dem i denne perioden. En som
+hadde stilt kritiske spørsmål, en som hadde sett dem, gitt dem ros, korrigert på detaljer og
+vært en å kunne støtte seg på. Dette sett i sammenheng med Aleesami sin utvikling sammen
+med sin veileder i FFK. I perioder trenger man voksne som er inne og gir tips. Det kan være
+små detaljer i dette arbeidet som kan føre til enorm utvikling hos en spiller. Det å bli sett som
+spiller, kan også i følge Møller være avgjørende.
+
+52
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+7.3 Fokus på 24 timersutøveren
+Alle informantene kombinerer skole og fotball i sin drøm om å bli best. «Olympiatoppen har
+som mål å skape aksept, forståelse og konsekvens for toppidrettsutøveres helhetlige utvikling
+som omfatter toppidrettsutøvelse kombinert med studier/utdanning». Dette har gjort at Utland,
+Vinje og Agouda alle flyttet fra mor og far for å være i et utviklingsmiljø som på papiret
+skulle hjelpe dem til å ta flere steg i deres utvikling når de skulle over til videregående skole.
+Flere og flere velger å gjøre det samme. Dette er et tema som er diskutert.
+Totalbelastningen blir så høy at den hindrer utviklingen av talentet, og mange detter av lasset
+før de i det hele tatt når seniorfotballen.
+– Trening som i utgangspunktet skal gi dem en fordel, blir i stedet en hindring. Dette kan
+ødelegge utviklingen av framtidens fotballspillere, sier Stig Arve Sæther, universitetslektor i
+idrettsvitenskap ved NTNU til forskning.no.
+Marcus Walfridson, utviklingssjef i Mjøndalen sier:
+Vårt nåværende system med toppidrettsgymnas resulterer i:
+• Survival of the fittest: Det er kun de fysiske unikum som tåler denne mengden trening. Tenk
+hvor mange talenter som blitt sløst bort grunnet konstant overbelastning, og skadene som ofte
+følger med.
+Noe som også er interessant er at flere unge fotballspillere velger å flytte hjemmefra for å
+kombinere skole og fotball på toppidrettslinjer. Utland, Vinje og Agouda forteller om
+utfordringer knyttet til det å bo på hybel. Det krever selvdisiplin og god planlegging for å
+kunne optimalisere hverdagen. Vinje forteller at det var vanskelig nok å få i seg god og mye
+nok næring i løpet av en dag. Det gikk slag i slag fra morgen til kveld. God planlegging måtte
+til. Det er en stor overgang for talentene å flytte hjemmefra. Nå må de plutselig ta vare på seg
+selv og strukturere egen hverdag. De påpeker hvor vanskelig det kunne være å spise sunt nok.
+Legge opp en plan for hvordan dagen skulle se ut. Toppidrettslinjene har ofte et svært godt
+sportslig tilbud, som de bruker mye ressurser på. Spørsmålet man da kan stille seg er om det
+kunne vært gunstig å ha mer fokus på talentenes helhetlige hverdag. Vinje og Agouda
+forteller at trenerne sjeldent eller aldri involverer seg i spillerne utenfor feltet. Agouda
+påpeker at de har en husmor der de bor nå, og at hun er innom for å hjelpe dem med praktiske
+utfordringer. Utland forteller at i Tromsø var det familie til de andre jentene som ga dem
+ekstra oppmerksomhet utenfor treningsarenaen.
+
+53
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Kampen om de største talentene er skarp. Sammenligner vi med utenlandske akademi kan vi i
+Norge ikke konkurrere rundt tilbudet de gir spillerne. Den helthetlige oppfølgingen er på et
+annet nivå. Så kan man spørre seg om man kunne optimalisert utviklingen til enkeltspillere
+ved å ha større fokus på helheten. Det vil si spilleren også utenfor treningsarenaen. Jeg mener
+bestemt at det kan ligge en stor gevinst for trenere og klubber her.
+Møller, som har bodd hjemme, mener at han har hatt en stor fordel av det. Det har alltid vært
+tilrettelagt med mat, klesvask og foreldrene har lagt til rette for han hele livet. Ja, man må ofre
+mye for å utvikle seg og bli best. Spørsmålet er da om vi overser noe viktig. Spesielt sett i lys
+av forskning, som viser at totalbelastningen til disse spillerne er på grensen til hva som er
+forsvarlig.
+
+
+Tross dette har de lyktes
+
+
+
+Disse er «fittest.» Hadde man gått på de nest beste kunne resultatene vært annerledes.
+
+Fotballspillere er også mennesker med følelser. Alle informantene ofrer mye for å bli best.
+Både Utland, Agouda, Vinje og Møller sier at de liker å bli sett. De ser på tilbakemeldinger
+som bra. Så vil det selvsagt være individuelle forskjeller på hva man trenger. Fra Utland som
+også har behov for en nær relasjon med treneren utenfor banen, til Vinje som ikke har det
+store behovet for en nær mellommenneskelig relasjon med sin trener.
+For Aleesami har dette vært enkelt. En stram struktur fra han gikk på videregående skole. Han
+har søkt kompetanse og referanse hos fagpersoner rundt områder som fysisk trening, ernæring
+og restitusjon i ønske om å optimalisere sine egne muligheter og utvikling. Som profesjonell
+spiller har han også studert og er ferdig med en bachelorgrad i økonomi. Han er klar på at
+skole og utdanning er viktig for han og er så strukturert at det ikke er noe hinder i hans
+hverdag som fotballspiller.
+Kitsantas (2011) med flere forklares også hvor viktig det er å ta ansvar for egen læring for en
+optimal utvikling. Det har alle informantene gjort i stor grad.
+
+7.4 Egentrening som en del av utviklingen – Trene eller bli trent?
+For alle informantene har det å være på løkka vært viktig i deres utvikling fra de var barn. Det
+er her de har vært sammen med venner. Det er på løkka deres sosiale liv var på sommeren.
+Her var de så lenge de fikk lov. Alle har en barndom preget av mye aktivitetsglede.
+
+54
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Ronglan viser til viktigheten av at tid og muligheter til fri lek er avgjørende for barn og unges
+helhetlige utvikling. Han mener at læring og utvikling innen en idrett ikke er avhengig av at
+aktiviteten foregår i organiserte former. «Tvert i mot, kan barn og unge lære like mye
+gjennom den selvorganiserte løkkeaktiviteten som gjennom den voksenstyrte lagsaktiviteten»
+(Ronglan, 2008, s. 26).
+Etter hvert som informantene har blitt eldre har mengden rundt lagstreninger økt. I sesong er
+det flere som sliter med å få nok tid til egenaktivitet. Agouda, Vinje og Utland har alle vært
+elever ved toppidrettsgymnas. De forteller at skoleøkter ofte er tilpasset slik at man kan
+prioriterer aktiviteter man selv planlegger. Dette kommer på toppen av lagstreninger, som i
+denne alderen er en betydelig del av hverdagen. Eksempler på dette er nå ferdighetsutvikling
+med ball, spesifikke rollekrav og fysiske forbedringer som må gjøres. Egentreningen i voksen
+alder er annerledes strukturert enn i tidlig barndom, der lek, det sosiale og aktivitet sto i
+sentrum. Agouda mener at noe av grunnen til at han scorer mye mål er den
+avslutningstreningen han har gjennomført på egenhånd siden han var liten. Møller hevder
+også at fokuset på egentrening i tidlig ungdom gjør at han i dag allierer seg med spissene og
+jevnlig står igjen etter at formiddagsøkta er over.
+Toering m. fl (2009) viser i sin undersøkelse at planlegging av sin trening, herunder
+egentrening er viktig for en best mulig utvikling, og det henger tett sammen med foregående
+punkter om målsetninger, evaluering og belastning, og også i forhold til sine ferdigheter
+knyttet til rolle.
+Utland forteller at i nåværende klubb, Trondheims/Ørn har man lagt opp til morgenøkter der
+man kan, ved hjelp fra trener, gjennomfører egenaktivitet som er planlagt for å jobbe med
+rollespesifikke ferdigheter/individuelle ferdighetsmål. Hun skryter av dette tilbudet om en
+ekstra formiddagsøkt og føler at dette er trening som optimaliserer muligheten for hennes
+utvikling som fotballspiller.
+Felles for fire av dem er at de i voksen aldrer prioriterer egentrening i større grad utenom
+kampsesong. Belastningen blir styrt av andre fagpersoner og det er en strengere struktur lagt
+fra klubbenes side i sesong gjør at de nå føler at mye av aktivitetene blir styrt fra
+trener/klubbhold. Alle informantene forteller om strukturerte egentreningsopplegg utenfor
+sesong for å styrke fysiske ferdigheter. Dette er hurtighet-, styrke-, spenstprogram tilpasset
+dem som spillere.
+
+55
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+For Aleesami er det litt annerledes. Han får tid til like mye egentrening nå, som da han var
+yngre. Suksessfaktoren hans er likevel den strukturerte planleggingen. Han er særs nøye med
+hva han gjør før og etter aktivitet. Han har et individualisert skadeforebyggende program der
+han tøyer, får massasje og tenker helhet. Kanskje har han et godt poeng når han mener at man
+individualiserer for lite i fotballen, spesielt rundt fysisk-, mental trening og restitusjon. Vi har
+spillergrupper på 25 individer, men er vi flinke nok til å tilpasse treningene og utviklingen sett
+ut fra hvert enkelt behov? Det blir som i skolen. Tilpasset opplæring er lovfestet og alle synes
+det er viktig. Likevel er det mange trenere som legger seg på gjennomsnittet i sitt virke.
+Kanskje er det dette som skiller de gode trenerne? Trenerne blir veiledere i disse
+sammenhengene, men Aleesami selv kjenner sin egen kropp så godt at det er han som må
+styre det. Han påpeker at for å utvikle seg må du trene mye, men samtidig er du nødt til å
+unngå skader. Han allierer seg stadig vekk med lagkamerater og kjører rollespesifikke
+fotballøvelser som egentrening, som for eksempel innlegg fra ulike posisjoner.
+Felles for informantene er at de har en indre motivasjon som driver dem i treningsarbeidet. I
+noen tilfeller, spesielt rundt spesialfelt som styrke, utholdenhet og hurtighet, har treneren vært
+med å utarbeide forslag, men i de aller fleste tilfellene drives dette av spilleren selv. Så kan
+man jo spørre om ferdighet og rolletreninger i større grad bør bli en del av toppklubbers
+hverdag? Hvor strukturert og tilrettelagt er det i toppklubber for individuell utvikling. Er det
+slik at på desto høyere nivå, desto mindre tenker man på ferdighet og rolle som en del av
+fellestreningen? Er det et tankekors at det i en klubb som Bodø/Glimt ikke prioriterer å ha
+toppspillerutvikler til å følge opp de yngste spillerne på A-laget. Blir oppfølgningen da tett
+nok på de yngste, som kanskje trenger ekstra veiledningen for at de skal ta nye steg i sin
+utvikling? Vil man få økt kvalitet på egentreningen ved at man tilrettelegger rundt områder
+som ferdighetsutvikling og roller ved å ha en trener tett på seg? En som gir veiledning,
+tilrettelegger og evaluerer resultatene av egentreningen som oppleves av spilleren.
+Spørsmålene er mange og det finnes ikke noe fasitsvar, men informantenes svar tyder på at
+god og nær veiledning gir resultater, som i Aleesami og Utlands eksempler.
+
+7.5 Informantenes refleksjoner rundt oppfattelse av trenerrollen trenerens påvirkning i utviklingen
+Det å ha trygge voksne rundt seg er en verdi som står sterkt hos små barn. Treneren som
+omsorgsperson var noe alle informantene pekte på som en viktig faktor da de startet å spille
+fotball. Trygge rammer, mye aktivitet og et godt sosialt miljø. Treneren bidro til det gode
+
+56
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+miljø ved å ha personlige egenskaper. Møller forteller om treneren som et forbilde. En han så
+opp til. En trygghet i hverdagen. Han ble en signifikant andre, som han kunne støtte seg til.
+Selv om man blir eldre har man behov for å bli sett. Det er som Vinje påpeker. Det kan være
+lite som skal til i perioder man er nede. Det kan være en klapp på skuldra eller et
+oppmuntrende ord fra treneren. Spesielt i overgangen fra juniorfotball til A-fotball kan det
+være perioder der man ikke spiller like mye som tidligere. Små detaljer, som kan bety enormt
+mye for spilleren. Hva som er grunnen til at flere klubber overser denne faktoren kan man
+bare spekulere i. Man har ofte 2-3 heltidsansatte trenere og jevnlige samtaler burde være
+mulig å få til. Jeg tror det handler om planlegging og struktur.
+Utland forteller om sin nære relasjon til treneren sin i Trondheims/Ørn. Han ble i 2015
+sesongen en støttespiller for henne både på og utenfor banen. Hun mener at denne tette
+oppfølgingen gjorde at hun fikk sitt definitive gjennombrudd som kulminerte i at hun ble tatt
+ut til VM for kvinner i Canada. Haitam Aleesami trekker fram sin far som et godt forbilde og
+en viktig mentor. I tillegg forteller han at Håkon Wibe Lund satte fart i karrieren hans i FFK.
+Etter hver kamp brukte de å se på individuelle videoklipp. Treneren utfordret Aleesami hele
+tiden, men tross tøffe krav, var det hele tiden er forståelse hos spilleren at dette var noe
+treneren gjorde for å hjelpe han til å utvikle seg ytterligere som spiller. Treneren var uten tvil
+en fagmann, men viste også omsorg og en forbilledlig måte å være på i sin kommunikasjon
+med spillerne sine. Dette viser at trenerens rolle som forbilde, omsorgsperson og miljøskaper,
+for mange fortsatt er viktig som ung voksen. Likevel må man huske på at i en spillergruppe
+vil en trener møte på individ der alle er unike og ulike på hver sin måte. Historien viser også
+at man ikke kan konkludere med at dette er essensielt. Det finnes trenere som ikke har disse
+egenskapene, men som likevel har bidratt til å utvikle spillere og fått resultater i fotballen. Så
+kan man spørre seg om det er samfunnet og våre barns opplevelser i oppveksten, som styrer
+våre behov som enkeltindivid i idretten. Samtidig viser historien også at autoritære kvaliteter
+er verdsatt.
+Aleesami, Vinje og Utland er en del av et lag som skal prestere på øverste seniornivå. På
+lagsnivå kan man oppleve at resultater er overordnet alt annet. Her kan man se litt på om
+trenere er prestasjonsutviklere eller blir trenere automatisk preget av trykket rundt resultatet?
+Resultatene vil hos mange være det man blir målt på som trener. Resultatene kan være
+overordnet alt annet for klubben. Dette fordi det er mange ulike faktorer som styrer og
+bestemmer en klubbs skjebne. Medias påvirkning, økonomi, tradisjoner og lignende. Så kan
+man spørre seg om dette kan gå ut over tankegangen om hvor viktig det er med
+
+57
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+spillerutvikling. Vil en trener som er prestasjonsutvikler legge opp til annerledes treningsøkter
+enn en trener som kun tenker resultatet? Kan det være at struktur og spillestil er viktigere å
+terpe på for en trener som skal ha et lag til å prestere? Ta tre poeng i neste kamp. Dette i
+kontrast til han som skal utvikle spillerne i sine roller? I toppfotballen kan det kanskje skje at
+klubber velger eldre spillere i jaget etter å overleve? I årets Obosliga var snittalderen 29.8 år.
+Personlig synes jeg det er fantastisk at Bjørn Petter Ingebrigtsen går ut i media og fronter
+Strømsgodset som en utviklingsklubb. Historien viser vel også at en klubb som har dette som
+fokus også lykkes med å utvikle og produsere spillere til større ligaer. Det kan i enkelte år gå
+utover de umiddelbare resultatene, men i og med at det er forankret i klubben, kan treneren
+lene seg på det.
+Felles for informantene er at alle verdsetter treneren som en god veileder. Alle informantene
+påpeker at det er dem selv til syvende og sist som må gjøre hovedjobben når de skal utvikle
+seg videre, men treneren som veileder og samtalepartner vil være en betydelig faktor for deres
+utvikling. Det kan være små tips rundt detaljer, som gjør at de får en «a-ha» opplevelse på
+feltet. I sin ungdom forteller Møller at han savnet en veileder på treningene og tror en jevnlig
+oppfølging kunne ha ført til enda bedre utvikling for hans del.
+
+8.0 Konklusjon
+I denne oppgaven har jeg sett på trenerens rolle i forhold til utvikling av enkeltspilleren.
+Treneren har selvfølgelig også andre oppgaver, som å utvikle kollektivet i et lag. Dette er ikke
+belyst i denne oppgaven. Det må antageligvis være en balanse mellom de to områdene for å
+ha suksess som trener.
+Det har vært svært interessant å være i samtale med informantene i denne oppgaven. De har
+åpnet seg og det har vært gode samtaler der jeg har fått et godt innblikk i deres egne tanker
+rundt utvikling. Dette i samspill med trenere de har hatt i løpet av sitt fotballiv. Hva som er
+årsaken til at de har lyktes som fotballspillere er komplekst og trenerens rolle og innvirkning i
+dette er kun en av flere faktorer som har hatt betydning i deres utvikling. Jeg har søkt svar og
+informantene har reflektert godt og kommet med sine betraktninger rundt trenerrollens
+innvirkning i utviklingen av unge spillere.
+Alle mennesker er, som tidligere nevnt, både unike og ulike. Dette vil også gjøre at spillerne
+både oppfatter og har behov for forskjellige egenskaper hos sin trener i sin i løpet av sitt
+utviklingsløp. Som trener har man ofte spillergrupper på over 20 personer man skal lede.
+58
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Hvor viktig vil det være å behandle alle likt? Dette er selvsagt et spørsmål som til stadighet
+kommer opp i en garderobe. Jeg tror at trenere som er trygge på seg selv kan drive «tilpasset
+opplæring» også i et fotballag, for å få det beste ut av hver enkelt spiller i laget.
+
+I sitt første møte med fotballen er det viktig å ha en trygg og omsorgsfull trener, som gjerne
+også er et godt forbilde for spillerne. Treneren legger opp til mye og god aktivitet. Gjennom
+sin trygge atferd, bidrar han til å skape et godt miljø der du møter jevnaldrende med samme
+interesse som deg selv. Treneren skaper en interesse for de mest ivrige gjennom å
+differensiere, motivere og oppmuntre til aktivitet og læring. Spillerne oppfordres til mye
+uorganisert aktivitet, de lærer av hverandre, prøver og feiler, utvikler seg i takt med gleden av
+å være i aktivitet. Her legger man grunnlaget, og man spiller VM-finaler, cupfinaler og
+Champions League finaler hver eneste dag, sammen med klassekamerater og venner.
+Etter hvert som man blir eldre og ønsker å få noe ut av fotballen, blir det viktig at treneren
+innehar kompetanse. Dette for å veilede, være tydelig og ha klare tanker og struktur til det
+beste for å utvikle spilleren videre. De gode samtalene, videoppfølging, gode økter på feltet
+kan være sentrale virkemidler for at spillerne skal ta nye steg. En trener med autoritet trenger
+nødvendigvis ikke være autoritær, slik vi kjenner det fra gamle Øst-Europa. Autoritet kan du
+få i en spillergruppe ved at du er faglig sterk, har tydelige rammer og struktur i ditt arbeid og
+fremstår som trygg.
+Den indre motivasjonen styrer ofte spillernes valg. Flere velger å starte på toppidrettsgymnas
+som 16-åringer. De flytter hjemmefra for å søke gode fotballfaglige miljø med trenere som
+har erfaring og kunnskaper om det å utvikle gode fotballspillere. Her møter de likesinnede
+med samme ambisjoner og drømmer som dem selv og blir fulgt opp fotballfaglig via tett
+samarbeid mellom skole og klubb. Noen vil kanskje slite med praktiske gjøremål og spørsmål.
+Er de flinke nok med mat, restitusjon og søvn? I denne alderen vil evnen til selvregulering
+være essensiell hvis de skal kunne ta nye steg. I Norge har vi vel ikke kommet langt nok i
+tanken om å følge opp 24 timer i døgnet. Trenerens rolle vil ha hovedfokus på det
+fotballfaglig og klubbene bruker ikke mye ressurser på det utenomsportslige. Så kan man
+spørre seg om dette er et hinder for mange av dem som søker slike miljøer? Den fotballfaglige
+kompetansen hos trenerne er stor, men kunne man fått en enda bedre gevinst hvis man
+involverte seg mer rundt de som bodde på hybel? At man som trener så hele mennesket i noe
+
+59
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+som for mange kan oppleves som en sårbar periode i livet? Et spørsmål som er vanskelig å
+svare på fordi det vil være individuelt betinget.
+Hvor tette relasjoner man ønsker å ha med sin trener vil alltid variere etter behov. Noen
+spillere blomstrer og tar kvantesprang i sin utvikling ved å ha treneren sin tett på seg. I bunn
+ligger deres felles ønske om å nå målsetninger man har satt seg. For andre spillere holder det
+kanskje med et par oppmuntrende ord etter en kamp eller en klapp på skuldra i tyngre
+perioder. Likevel er det viktig at treneren ser alle. Alle har på en eller annen måte et behov for
+annerkjennelse, trygge rammer og generelt det å bli sett. Dette forandrer seg ikke og er like
+viktig for mennesket uansett om man er 6 år og nybegynner eller 24 år og profesjonell
+fotballspiller.
+De beste spillerne benytter treneren som en veileder. En støttespiller i deres egen utvikling og
+en som gir spillerne jevnlig med tilbakemelding og oppfølging. Først og fremst er det dem
+selv som må legge ned en hel del jobb på egenhånd. De som blir best har en indre motivasjon
+til hele tiden å finne nye stier, være sultne på ny suksess og har en evne til å ta vare på seg
+selv og sin kropp i jakten på ny utvikling. De elsker det de gjør, setter seg kortsiktige og
+langsiktige mål og er villig til å ta valg som er bra og relevant for deres egen utvikling som
+fotballspiller. De er nysgjerrig og søker nye og spennende utviklingsmiljøer der trenere er
+gode og opptatt av å utvikle dem videre. Treneren er flinke til å gi spillerne selv eierskap til
+egen utvikling og de blir gode på selvregulering. Det vil si at treneren som kompetanseperson
+blir en tilrettelegger og veileder for spillerne i jobben de selv må legge ned for å utvikle seg
+videre som fotballspillere.
+
+60
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+9.0 Referanseliste
+Baumeister, R., Vohs, K. (2004) Handbook of self-regulation The Guildford press, New York,
+USA
+Bergo A., Johansen P. A., Larsen Ø., Morisbak A. (2003) Ferdighetsutvikling i fotball –
+handlingsvalg og handling Akilles, Oslo
+Bjørgen, I. (2008). Ansvar for egen læring. Tidsskrift for Norsk Psykologiforening. Nedlastet
+18.12.2014 fra: http://www.psykologtidsskriftet.no/index.php?seks_id=65795&a=3
+Brinkmann, S., & Tanggaard, L. (2012). Intervjuet. I: S. Brinkmann & L. Tanggaard (Eds.),
+Kvalitative metoder, Empiri og teoriutvikling (pp. 17-45). Oslo: Gyldendal Norsk Forlag AS.
+Dalland, O. (2007). Metode og oppgaveskriving for studenter (Vol. 4). Oslo: Gyldendal Norsk
+Forlag AS.
+Engeström, Y. (1987). Learning by expanding: An activity-theortical approach to
+developmental research. Helsinki: Orienta-Konsultit.
+Engeström, R. (1995). Voice as communicative action. Publikasjon: Mind, culture and
+activity, 2, p. 192-214.
+Enoksen, E. (2001). Trenerens rolle som barne- og ungdomsoppdrager og talentutvikler: Hva
+sier forskningen og hvilke teoretiske perspektiver bygger den på? Oslo: E. Enoksen
+Handal G, Vaage S. (1986). Læreres yrkeskultur og yrkeskunnskap. I Vaage, Handal, Jordel
+(red.): Hvordan lærere blir til. Oslo: Universitetsforlaget
+Ibrahimovic, Z., Lagercrantz, D. (2011) Jeg er Zlatan Albert Bonniers forlag, Stockholm,
+Sverige Norsk oversettelse Sverre Knudsen, Font forlag
+Imsen, G. (2005) Elevens verden. Innføring i pedagogisk psykologi. Oslo:
+Universitetsforlaget Imsen, G. (2005) Lærerens verden: indføring i almen didaktik. Oslo:
+Nordisk forlag A/S.
+Kitsantas, A., Kavussanu, M. Artikkel: Acquisition of sport knowledge and skill Zimmerman,
+B. J., Schunk, D. H (red) (2011) Handbook of self-regulation of learning and performance
+Routeledge, New york, USA
+Norges fotballforbund (2013) Flest mulig, lengst mulig, best mulig Akilles, Oslo
+61
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+http://www.olympiatoppen.no/fagomraader/ungeutovere/utviklingsfilosofi/utviklingsfilosofi_
+gammel/page524.html Lest 19.01.2016
+Olympiatoppen (2013). Den norske toppidrettsmodellen – norsk toppidrett fram mot 2022.
+Presentasjon. Nedlastet 10.01.2015 fra:
+http://www.idrett.no/nyheter/Documents/Toppidrettsrapporten_2022.pdf
+Ronglan, L.T. (2008): Lagspill, læring og ledelse, Oslo, Akilles
+Ronglan, L. T. (2014). Læring og formidling i fotball. Presentasjon Uefa A-lisens kurs.
+Porsgrunn.
+Smith, J. A. (1996). Beyond the divide between cognition and discourse: Using interpretative
+phenomenological analysis in health psychology. Psychology and Health, 11, 261–271.
+Smith, J.A. & Osborn, M. (2008). Interpretative phenomenological analysis. I: Smith, J.A.
+(Ed.), Qualitative psychology: A practical guide to research methods (s. 53- 80). London:
+Sage publications ltd.
+Smith, J.A., Flower, P. & Larkin, M. (2009). Interpretative Phenomenological Analysis:
+Theory, Method and Research. London: Sage.
+Smith, J.A. (2011a). Evaluating the contribution of interpretative phenomenological analysis:
+a reply to the commentaries and further development of criteria. Health psychology review, 5,
+55-61.
+Smith, J.A. (2011b). Evaluating the contribution of interpretative phenomenological analysis.
+Health Psychology Review, 5, 9-27. 71
+Smith, J.A. & Eatough, V. (2012). Interpretative phenomenological analysis. I: Breakwell,
+G.M., Smith, J.A. & Wright, D.B. (Eds.), Research methods in psychology (s. 439-461).
+London: Sage publications ltd.
+Smith, R.E. (2010). A Positive Approach to Coaching Effectiveness and Performance
+Enhancement. . I: Williams, J. M. (Ed.), Applied sport psychology: Personal growth to peak
+performance (s. 42-58). Mountain View, CA: Mayfield.
+Strømme, V. (2013) Fotballmagi Kagge forlag, Oslo
+Strømme, V. (2014) Fotballguiden Kagge forlag, Oslo
+
+62
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+http://www.fotballtreneren.no/spillerutvikling/for-mye-trening-tar-knekken-pa-mange Lest
+17.01.2016
+http://www.fotballtreneren.no/spillerutvikling/slik-odelegges-de-unge-fotballtalentene Lest
+17.01.2016
+Toering, T., Elferink-Gemser, M. Jordet, G, Visscher, C. Artikkel: Self-regulation and
+performance level of elite and non-elite youth soccer players Fra Journal of Sports Sciences,
+Desember 2009, s. 1509-1517 (2009) Routeledge, New York, USA
+Thagaard, T. (2009). Systematikk og innlevelse: En innføring i kvalitativ metode. Bergen:
+Fagbokforlaget.
+Tjora, A. (2012). Kvalitative forskningsmetoder i praksis (Vol. 2). Oslo: Gyldendal Norsk
+Forlag AS.
+Vaage, S. (2000). Learning by Dewey: child, school and new pedxagogy. Gyldendal,
+Uddannelse.
+Weinberg, R., Gould, D. (2007) Foundations of Sport and Exercise Psychology Human
+Kinetics, Illinois, USA
+UEFA A-lisensoppgaver:
+http://www.fotball.no/Documents/Bilder/NFF/2015/Trener/UEFA%20A%202015%20oppgav
+e%20Sverre%20Nordby.pdf
+http://www.fotball.no/Documents/Bilder/NFF/2015/Trener/UEFA%20A%202015%20rett%2
+0oppgave%20Igor%20Aase.pdf
+http://www.fotball.no/Documents/PDF/2011/Trener/UEFAA_oppgave_%C3%98rjanChristia
+nsen.pdf
+
+63
+
+UEFA A-LISENS 2016
+
+Ørjan Valla
+
+Vedlegg: Sammendrag
+"Fotballtrenerens rolle - i utviklingen av unge spillere" av Ørjan Valla
+Denne oppgaven handler om treneren og hans egenskaper som er sentrale i møte med spillere
+i et fotballag.
+I denne oppgaven har jeg stilt følgende spørsmål:
+Hvilken rolle innehar fotballtreneren i utviklingen av en fotballspiller?
+-
+
+Hvilke kvaliteter og egenskaper er viktig i trenerrollen?
+
+-
+
+Og i hvilken grad påvirkeres spillere av treneren i sin utvikling?
+
+-
+
+Selvregulering av læring er viktig, men hvilken rolle har treneren her?
+
+Jeg har benyttet meg av en kvalitativ metode og har intervjuet fem spillere. Dette er Vebjørn
+Vinje, Lisa Marie Karlsen Utland, Abdul Basit Agouda, Adrian Møller og Haitam Aleesami.
+Felles for dem alle er at de har hatt en enorm indre motivasjon til å trene og utvikle seg fra
+tidlig alder. De har hele tiden søkt nye og spennende utviklingsmiljøer og har møtt mange
+ulike trenertyper i løpet av sitt unge fotballiv.
+Sett i lys av spillernes egne opplevelser og erfaringer har jeg spurt dem om hva slags
+egenskaper i trenerrollen de verdsetter og ser på som sentrale i ulike utviklingsstadier som
+fotballspillere. Jeg har i tillegg knyttet deres betraktninger og refleksjoner til sentrale begreper
+som læring, selvregulering, motivasjon, målsetninger og uorganisert trening.
+Jeg har sett på relevant litteratur, intervjuet ulike typer fotballspillere og drøftet dette ut fra
+egne tanker, som jeg har forsøkt å belyse og besvare mine problemstillinger ut fra.
+Det er alltid en kunst i seg selv å avgrense en oppgave. Tema er i utgangspunktet vidt og jeg
+kunne vinklet det på flere måter. Jeg er også veldig tydelig på at oppgaven ikke gir noe
+tydelig fasit på det jeg har undersøkt. Til det er utvalget for lite, men det kan være en god start
+til å kunne forske mer rundt tema. Jeg tror at vi i større grad, som fotballtrenere, kan bidra til
+et sterkere fokus på individene i et fotballag. Jeg tror ikke det vil skade den nødvendige
+kollektive tankegangen som preger lagidretter generelt. Ulike spillere har ulike behov. Så får
+det være treneren, i samspill med spilleren, som må finne riktig vei å gå for at spilleren kan
+utvikle seg i takt med egne forutsetninger, motivasjon og ambisjon.
+
+64
+
+

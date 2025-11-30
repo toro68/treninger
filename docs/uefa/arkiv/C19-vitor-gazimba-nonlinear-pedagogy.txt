@@ -1,0 +1,1305 @@
+Norwegian Football Federation
+
+UEFA A Licence - Final Report
+
+Learning in Football: The Role of Nonlinear Pedagogy in Skill Acquisition
+
+Vítor Gazimba
+January 2016
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Index
+Summary
+
+3
+
+I. Introduction
+
+5
+
+II. On the Road to the Top: The Importance of Practice
+
+7
+
+III. Conceptual Framework
+
+9
+
+IV. Nonlinear Pedagogy
+
+11
+
+V. Manipulation of Constraints and Skill Acquisition
+
+13
+
+Performer Constraints
+
+13
+
+Environmental Constraints
+
+14
+
+Task Constraints
+
+14
+
+Interacting Constraints
+
+15
+
+VI. Repetition without Repetition: The Functional Role of Variability
+
+16
+
+VII. Practice Structure: Task Simplification vs. Task Decomposition
+
+19
+
+Practice Design
+
+20
+
+Small-sided and Conditioned Games
+
+21
+
+Achievement Goal Theory
+
+23
+
+VIII. Augmented Information and Skill Acquisition
+
+24
+
+Internal Focus of Attention vs. External Focus of Attention
+
+24
+
+Frequency of Feedback
+
+26
+
+Demonstration vs. Guided Discovery
+
+29
+
+IX. Conclusions/ Take Home Messages
+
+33
+
+X. References
+
+35
+
+VÍTOR GAZIMBA
+
+2
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Summary
+Based on the dynamical system theory and ecological psychology, in this
+report we explore the potential of a nonlinear pedagogical framework and his
+effectiveness to teach football. This was a report essentially conceived for
+coaches and where we intended to clarify some issues related with the most
+efficient way to teach football. The report is divided into 7 different chapters
+and is the result of a long revision of scientific literature. The discussions
+undertaken throughout the different chapters were always based on scientific
+evidence that have been produced in the motor learning area over the last
+years. All the report was based in how players learn and in what we coaches
+can do in order to promote efficient learning.
+During the report we argue that coaches shall consider the development of
+motor skills as nonlinear, because variability is part of the learning process
+and people/ players learn in a nonlinear way. The nonlinear pedagogy
+provides a foundation to explain how game skills might be taught by football
+coaches. More specifically, the principles of nonlinear pedagogy inform
+coaches about how to structure their practices, and how to deliver instructions
+and provide feedback. A nonlinear pedagogy is a teaching method that
+involves the manipulation of different types of constraints (performer,
+environment, and task constraints) to make emerge the desired behaviour,
+and that puts the emphasis on exploratory learning within “gamelike”
+situations like small-sided and conditioned games.
+According to the nonlinear pedagogy, one of the main tasks of the coaches is
+that they need to identify and adjust key task constraints of small-sided and
+conditioned games in order to promote the acquisition of specific game skills
+or tactical behaviour.
+The present report highlights also that, in order to promote efficient learning,
+coaches shall: a) structure their practices in accordance with the principles of
+task simplification, rather than task decomposition; b) induce with their
+instructions and feedback an external focus of attention on their players; c) be
+careful with the amount of feedback provided to their players, because it’s
+proven that more feedback is not better than less; and d) use guided
+VÍTOR GAZIMBA
+
+3
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+discovery as a teaching method, because it presents several advantages
+when compared with teaching methods based on the prescription of
+behaviours.
+
+VÍTOR GAZIMBA
+
+4
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+I. Introduction
+The present report is a result of a long revision of scientific literature. The
+work produced over the last years by the research groups of the professors
+Keith Davids and Duarte Araújo, is the main influence of this report. Among all
+the insightful papers published by both groups of research, the paper that
+probably more influenced this report, was a paper published by both, Davids
+and Araújo, as leading authors and that is entitled “Acquiring Skills in Sport: A
+Constraint-Led Perspective”. This report is also inspired in the previous work
+of J. J. Gibson, the father of the ecological psychology, and Karl Newell, the
+creator of the model of constraints.
+Professor Duarte Araújo was my supervisor, while I was doing my PhD in the
+Faculty of Human Kinetics, in Lisbon. During the execution of my PhD
+program, I had the opportunity to study in depth many of the issues presented
+throughout the report, and that is why the revision of literature is so extensive.
+In fact, during all the report is made a concrete reference in the text to 69
+different studies.
+The report is divided into 7 different chapters. We begin the report
+emphasizing the importance of practice on the road to achieve excellence in
+football. Then, in the chapter 2 we do a brief presentation of the conceptual
+framework of the report. The chapters 3 and 4 can be seen as an extension of
+the conceptual framework, but each one of them is dedicated to a specific
+issue. In that sense, the chapter 3 is dedicated to expose the main features of
+the nonlinear pedagogy, and the 4th chapter is centred in the model of
+constraints of Newell. In this chapter we will use the model of Newell to
+explain how skill acquisition emerge as result of the interaction of different
+constraints.
+The role of variability is investigated in the chapter 5, as well as the role of
+repetition in football practices. The last 2 chapters will provide many important
+and concrete practical implications for the coaches. Among other things, in
+these 2 chapters, the principles of nonlinear pedagogy will inform the coaches
+VÍTOR GAZIMBA
+
+5
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+about how best structure their practices, deliver instructions, provide feedback
+and design their practices, in order to promote efficient learning.
+The main aim of this report is to answer to the following questions of research:
+Main Question: “Is a nonlinear pedagogy an effective method to teach
+football?”
+Other questions that emerge as a product of the main question. From the
+learning point of view:
+2) “What is the role of variability in skill acquisition?”
+3) “What is the best way to structure the football practice?”
+4) “What type of focus of attention shall the coaches induce in their
+players?”
+5) “Is more feedback better than less?”
+6) “Prescription of movements vs. guided discovery, what is the best
+method to promote learning?”
+
+All the questions will be answered in accordance with the principles of the
+nonlinear pedagogy and based on scientific evidence that has been produced
+in the motor learning area, over the last years.
+
+VÍTOR GAZIMBA
+
+6
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+II. On the Road to the Top: The Importance of Practice
+To achieve excellence in any domain, individuals have to spend a
+considerable amount of time trying to improve performance through practicerelated activities (Ericsson, Krampe, & Tesch-Römer, 1993; Howe, Davidson,
+& Slaboda, 1998). A significant amount of research has been undertaken in
+recent years to identify the important factors underpinning elite sports
+performance. This increase in research activity has been particularly evident
+in football, where the importance of sports science research and applied work
+is now more accepted (Reilly & Williams, 2003).
+Players who are offered full-time employment contracts by English Premier
+League Academies at the age of 16 years are likely to have devoted more
+than 10 years to the sport, investing an average of around 15 hours per week,
+700 hours per year, and a total of 7000 hours in specific practice activities
+designed to enhance performance (Ward, Hodges, Williams, & Starkes,
+2004). By the time a player makes his debut in the Premier League, the
+amount of accumulated practice is likely to exceed 10,000 hours.
+The crucial point for coaches is that while hereditary factors are likely to play a
+role in shaping an individual’s response to practice and training, skills are
+highly modifiable and adaptable to training and every player will need to
+practise for many hours to develop and refine these skills. For example, the
+study of Ward and colleagues (2004) revealed that when compared with subelite players, the elite players spent twice the number of hours per week in
+team practice.
+The main aim of this section was to emphasize the big amount of time that the
+players spend in training activities with the intention to improve their skills and
+become top players. Researches who have documented the practice profiles
+of elite performers have contributed to our awareness of the significant
+investment of time and effort required to reach elite levels of performance.
+Therefore, knowing that the training activities are crucial for the development
+of players on the road to excellence, and that the players spend a huge
+VÍTOR GAZIMBA
+
+7
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+amount of time training, the question now is what can we coaches do to
+promote learning in a most efficient way? In order to answer to this question,
+during the next chapters we will analyse the literature produced in the motor
+control area and we will, based on evidence, clarify what is the most efficient
+way to teach football.
+
+VÍTOR GAZIMBA
+
+8
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+III. Conceptual Framework
+In the last years, the football game (and football teams) has been
+characterized has a complex system (Gréhaigne, Bouthier, & David, 1997).
+This assumption that the football game is a complex system it seems today
+widely accepted by the football community. However to fully understand what
+this exactly means, it is important to go deep down in the analysis of the
+concept of complexity.
+First its important to notice that it doesn’t exist in science, until the present
+date, a formal and consensual definition of complexity. What is consensual, is
+that in nature a system is considered complex, when is composed by many
+component parts that interact in numerous forms (Nicolis & Prigogine, 1989).
+In this sense, we have in nature many other examples of complex systems.
+An ant colony is one of those examples. The question is then, what are the
+common existent points between an ant colony and a football team? All the
+different complex systems have some common characteristics: 1) they are
+composed by many interacting parts; 2) they exhibit a nonlinear behaviour
+(similar system outputs being achieved in different ways); 3) they exhibit
+inherent tendencies for self-organization; and 4) the behaviour of the system
+is emergent.
+The complexity of interactions between individuals in team sports, like
+football, makes them a rich context to study nonlinear phenomena such as the
+players’ behaviour. In the last 30 years, ideas from scientific paradigms such
+as chaos theory and the sciences of complexity have been integrated with
+concepts and tools from dynamical systems theory to re-shape our
+understanding of movement behaviour (Beek & Meijer, 1988; Davids, Button,
+& Bennett, 2003). Dynamical systems theory has been successfully applied to
+the study of movement development (Thelen & Smith, 1994; Newell, Liu, &
+Mayer-Kress, 2001; Piek, 2002), and skill acquisition (Davids, Button, et al.,
+2003; Newell, 1996). Moreover, applications of nonlinear dynamics to the
+study of skilled performance and learning, are beginning to provide useful
+
+VÍTOR GAZIMBA
+
+9
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+insights into processes of motor skill acquisition for players and coaches
+(Davids, Araújo, Shuttleworth, & Button, 2003).
+Based on the dynamical systems theory and ecological psychology, in this
+report we will explore the potential of a nonlinear pedagogical framework and
+his effectiveness to teach football.
+
+VÍTOR GAZIMBA
+
+10
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+IV. Nonlinear Pedagogy
+What then is nonlinear pedagogy and why should we consider the
+development of motor skills as being nonlinear? Nonlinear pedagogy is
+predicated on the concepts and ideas of ecological psychology and dynamical
+systems theory and can be defined as the “application of the concepts and
+tools of nonlinear dynamics” to teaching and coaching practice (Chow et al.
+2006, 72). Coaches shall consider the development of motor skills as
+nonlinear, because variability is part of the learning process and people learn
+in a nonlinear way. In the words of Milner the development of a skill can be a
+process of “moving one step backwards for every two step forwards” (cit. by
+Adolph and Berger 2006, 173).
+As we saw in the previous chapter, research coming from the motor learning
+area has advanced our knowledge about the processes involved in the
+acquisition of movement skills (Handford, Davids, Bennett, & Button, 1997;
+Magill, 2006; Schmidt & Lee, 2006). In fact, is now taken for granted the need
+of use nonlinear models to explain the development of motor skills. Following
+this idea, Adolph and Berger (2006) highlighted the complementarity and
+compatibility of ideas and methods that exists between the two most
+prominent nonlinear models to study skill acquisition, the dynamical system
+theory and the ecological psychology. In fact the ideas from dynamical
+systems theory have been allied to concepts of ecological psychology
+(Gibson, 1979) to understand how movements are coordinated and controlled
+in dynamic environments such as sports (Chow et al., 2007).
+In summary, nonlinear pedagogy is a learner-centered method to teach sports
+(football), because is a method that is based in “how players learn” and not
+“how coaches teach”. Nonlinear pedagogy provides a foundation to explain
+how game play skills might be taught by sports practitioners (Chow et al.,
+2006). More Specifically, nonlinear pedagogy informs the coaches about how
+to structure their practices, and how to deliver instructions and provide
+feedback (Chow et al., 2006).
+
+VÍTOR GAZIMBA
+
+11
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+As we will see in the next chapters, a nonlinear pedagogy is a teaching
+method that involves the manipulation of different types of constraints to make
+emerge the desired behaviour, and that puts the emphasis on exploratory
+learning within “gamelike” situations like small-sided and conditioned games.
+
+VÍTOR GAZIMBA
+
+12
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+V. Manipulation of Constraints and Skill Acquisition
+A powerful framework for explaining how nonlinear pedagogy can be used to
+develop movement coordination and decision making skills in game play is
+captured by the constraints-led perspective with its basis in nonlinear
+dynamics (Araújo, Davids, Bennett, Button, & Chapman, 2004; Davids,
+Araújo, et al., 2003; Handford et al., 1997). Constraints have been defined as
+boundaries or features that shape the emergence of behaviour (Newell, 1986)
+and in a nonlinear dynamical interpretation of skill acquisition, constraints are
+influential factors within the practice environment. According to Newell (1986),
+constraints can be classified into three distinct categories to provide a
+coherent framework for understanding how coordination patterns emerge
+during task performance. The three categories of constraints are: performer,
+environment and task (see Figure 1).
+
+Figure 1: Emergence of movement behaviour from the interactions of key
+performer, environmental, and task constraints on the learner, as modelled by
+Newell (1986).
+
+Performer Constraints
+The performer constraints refer to the unique structural and functional
+characteristics of learners and include factors related to their physical,
+VÍTOR GAZIMBA
+
+13
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+physiological, cognitive and emotional make up. The height, weight and body
+composition of an individual, or his motivations, emotions and intentions, are
+some concrete examples of performer constraints. In sports, one of the most
+important performer constraints is the skill level of a certain individual.
+These person-related factors provide affordances (possibilities) for action and
+play a significant role in determining the performance style adopted by
+individuals. In other words, the fact that the players are all different, because
+they all possess different individual characteristics, gives them also different
+possibilities for act and solve task problems.
+
+Environmental Constraints
+Environmental constraints refer to the surroundings of learners and include
+features such as the ambient light, temperature, or altitude. In any movement
+task, gravity is a key environmental constraint that influences how movement
+coordination may be adjusted. Other environmental constraints are social,
+including factors such as peer groups, social norms, and cultural
+expectations.
+
+Task Constraints
+From the coaches point of view the task constraints are perhaps the most
+important category of constraints in developing football skills, since they
+include the rules of the game, equipment used, playing areas and markings,
+the number of players involved or the goal of a specific training task. One of
+the most important task constraints to consider is the information available in
+specific performance contexts that learners can use to coordinate their
+actions.
+It’s crucial for the football coaches understand the need to keep key
+information sources and movements coupled together during their practices.
+As a pedagogical principle, information-movement coupling certainly mitigates
+against traditional approaches of teaching football such as task decomposition
+VÍTOR GAZIMBA
+
+14
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+and the isolation of movement skills from game contexts for practice
+execution (Davids, Button, & Bennett, 2007). The practical implication of
+theses ideas is that the coaches need to make sure that the information
+present in the football game is made available also during the training. This
+means that, in order to facilitate learning, the coaches shall design training
+tasks that are representatives.
+Knowing that the football drill is the main tool of the coach to change
+behaviour and promote learning, is extremely important that the football
+coaches full understand how to manipulate the task constraints in a most
+efficient way. The use of small sided and conditioned games is a good way to
+maintain the representativeness of the training tasks and avoid the traditional
+method of teaching football skills in isolation from the game context.
+
+Interacting Constraints
+To summarise, Newell’s (1986) constraints model provides an excellent
+conceptualisation to guide nonlinear pedagogical practice because it
+adequately captures the rich range of diverse constraints acting on learners
+during skills learning in team sports. It’s important to note that each of these
+categories of constraints does not act by itself to shape behaviour since
+behaviour self-organizes from the interaction of performer, environment and
+task constraints. Movement skill acquisition occurs, in that sense, as a
+consequence of the interplay of numerous interacting constraints, which need
+to be considered in pedagogical practice (Davids, Chow, & Shuttleworth,
+2005).
+According to this model, the main role of the coach is the identification and
+manipulation of the key constraints to facilitate the emergence of functional
+movement repertoires. Evidence shows that the manipulation of constraints
+by educators/ coaches can lead to the production of successful motor
+patterns, decision-making behaviour, and intentions that guide to the
+achievement of task goals (Chow et al., 2006).
+
+VÍTOR GAZIMBA
+
+15
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+VI. Repetition without Repetition: The Functional Role of Variability
+Movement pattern variability has traditionally been viewed as dysfunctional
+and a reflection of “noise” in the central nervous system (Slifkin & Newell,
+1998). This vision of variability as something negative that should be avoided,
+conducted the cognitive and behaviour sciences to search for motor
+invariance, what led to a narrow interpretation of variability in motor
+behaviour. From a dynamical systems theoretical perspective, variability in
+movement systems is considered to be a central theoretical issue. In recent
+years, concepts and tools from dynamical systems theory have been
+successfully applied to the study of movement systems, contradicting the
+traditional views of variability as noise or error. From this perspective, it is
+apparent that variability in movement systems is omnipresent and
+unavoidable due to the different constraints that shape each individual’s
+behaviour. This new vision of movement variability has important practical
+implications for all the areas that are in somehow related with the study of
+behaviour. Especially for areas like teaching/ coaching that attempt to
+modulate behaviour, these implications are huge. Instead of dysfunctional,
+movement variability is now seen as an intrinsic feature of skilled motor
+performance that provides the flexibility required to adapt to complex dynamic
+sport environments (Williams, Davids, & Williams, 1999).
+In resume, variability in motor performance is now seen as functional. This
+means that players can seek to achieve skilfulness and develop consistency
+of outcomes through movement variability, which emerges from the
+interacting constraints of performance. This emergent characteristic of
+movement coordination suggests that the existence of a common optimal
+motor pattern for performing a skill is a fallacy attributable to the variability
+often observed in human motor performance (Brisson & Alain, 1996). Different
+players can in that sense, use the great abundance of movement possibilities
+offered by the human musculoskeletal apparatus to vary the ways in which
+they solve movement problems, and an optimal movement pattern for one
+individual may not be optimal for another in relation to a specific task goal.
+VÍTOR GAZIMBA
+
+16
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+This ideas contradict many of the traditional approaches to teaching motor
+skills predicated on the notion of an idealized, common optimal motor pattern
+toward which all learners may aspire (often presented by demonstrations from
+an expert model).
+As Werner, Thorpe, and Bunker (1996) pointed out, traditional approaches to
+teach football were viewed as being technique dominated, following a series
+of highly structured practices in which a list of movement skills was
+sequentially taught to groups of learners. Such pedagogical approaches have
+tended to overemphasize (a) the isolation of movement skills from
+performance contexts during practice, (b) task decomposition during learning,
+and (c) the role of repetition in skill practices to allow learners to transfer
+acquired technical skills into game situations (Rink, 2005).
+Although similar movement patterns can be adapted and refined, detailed
+analysis of movement kinematics are revealing that the specific movement
+patterns used by different individuals to achieve similar outcomes are not the
+same (Davids, Shuttleworth, Araújo, & Renshaw, 2003). In fact, individuals
+find it extremely challenging to repeat a movement pattern identically across
+trials (Davids, Button, & Bennett, 2008). Even though it is important for a
+player to consistently repeat a performance outcome during a football match,
+the movement pattern used to achieve this outcome may not be repeated in
+an identical way every time. This feature of “repetition without repetition”
+(Bernstein, 1967) in human movement systems provides learners with the
+capacity to invent novel adaptations to solve typical motor problems. As a
+matter of fact, research has revealed that expert performers are more
+consistent in their performances, and that they achieve that consistency
+through more variable ways of performing.
+From the learning point of view, the take home message of this chapter is that
+coaches shall definitely rethink the role of repetition in their own practices. As
+we saw, the use of teaching methods that are based in the teaching of the
+“perfect technical skills” is something that doesn’t take into consideration how
+people learn. Instead of educate the players for the predictability, through the
+use of repetitive technical drills in closed environments, the coaches shall
+VÍTOR GAZIMBA
+
+17
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+induce variability in their practices and promote the learning of football skills in
+game contexts, where the players can train/ repeat different skills in many
+different ways (repetition without repetition). The functional role that variability
+assumes in skill acquisition encourages also the use of exploratory learning
+methods, because functional movement solutions may be founded through
+exploratory behaviour during performance. However, this is not to say that
+coaches should simply allow “free play” and hope that the players “solve” the
+different game situations in whatever way they deem appropriate. Instead, the
+coaches shall be able to manipulate the different task constraints to promote
+the emergence of the desired learning outcomes planned for the session. In
+other words, the coach shall be able to guide the discovery of the players.
+
+VÍTOR GAZIMBA
+
+18
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+VII. Practice Structure: Task Simplification vs. Task Decomposition
+An important question for the coaches is how best structure practice for
+effective learning. A common belief in sports coaching is that there are
+benefits for learners in the strategy of breaking down complex skills. Task
+decomposition techniques include, part-task training programmes and
+adaptive instruction. Part-task training involves practising some subset of task
+components as a precursor to practice or performance of the whole task.
+Adaptive training is a technique in which task difficulty is progressively
+increased as its performance is mastered. This coaching strategy, where
+practice routines start at an easy level and then increase in movement
+demands and time pressure, is used in teaching many complex skills in sport.
+As we already saw in previous chapters, traditional approaches to teaching
+games skills are centred on acquiring relevant movement patterns in isolation
+of a game context, before using these skills in adult versions of a particular
+game (Turner & Martinek, 1995). In many team games, not only in football,
+teaching movement skills by decomposing the task into manageable
+components is commonly used with the intention of manage the information
+load on learners. However, this traditional approach of task decomposition
+may decouple the relevant information–movement coupling so that it becomes
+quite challenging for learners to perform the action in game context
+(Handford, 2006). An example of task decomposition in football that is often
+used by many coaches with the intention of improve the dribble capabilities of
+their own players, is the use of training tasks where the players have to
+dribble around cones.
+Instead, task simplification is a method which allows different components of
+complex coordination patterns to be learned in tandem, allowing information
+and movements to remain coupled throughout. Task simplification refers to
+the process whereby scaled-down versions of tasks are created in practice
+with the aim of simplify the process of information pickup by the players
+(Davids, Shuttleworth, et al., 2003). The use of modified versions of games,
+
+VÍTOR GAZIMBA
+
+19
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+like small-sided and conditioned games during the football practice is an
+example of task simplification.
+Literature has provided a significant amount of knowledge about structuring
+practices and the provision of learning opportunities (Siedentop & Tannehill,
+1999; Metzler, 2000). This applied research has informed teachers and
+coaches about the “art” of helping learners acquire game skills. The
+implication from these theoretical and empirical findings is that, in order to
+promote learning, practice structure should emphasize task simplification
+rather than the more traditional technique of task decomposition, because a
+decoupling of the demands on the perceptual and motor-systems during
+practice prevents learners from developing the cortical neural pathways
+underlying perception-for-action (Davids, Araújo, et al., 2003).
+
+Practice Design
+As we saw also in the previous chapters, traditional utilization of practice drills
+has been criticized because, among other things, they neglect the active role
+of the performance environment in shaping movement behaviour and
+decision-making (Davids, Araújo, Hristovski, Passos, & Chow, 2012),
+sustaining a dysfunctional rupture in the performer-environment relationship.
+In that sense, training task design in team sports needs to represent the key
+informational variables from a competitive performance environment that
+individuals use to regulate actions and make decisions. These findings imply
+that coaches need to design dynamic training simulations that capture the
+inherent variability of the competitive performance environment, leading
+performers to use information that is relevant (Pinder, Renshaw, & Davids,
+2009; Pinder, Davids, Renshaw, & Araújo, 2011).
+The work of Davids and colleagues (2012) suggest that training needs to be
+refocused on the performer-environment relationship. To exemplify, tasks are
+often designed for performance without opponents or with passive opposition
+to simplify decision-making during repetitive drill practice under conditions of
+reduced uncertainty (Passos, Araújo, Davids, & Shuttleworth, 2008).
+VÍTOR GAZIMBA
+
+20
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+However, these types of drills, designed to improve physiological or technique
+performance, tend to isolate an action from the performance context and may
+not allow functional performance behaviours to emerge during interpersonal
+interactions of players in more open environments (Passos, Araújo, et al.,
+2008).
+To summarize, attempting to prepare for team games performance through
+repetitive practice of isolated and discrete movement patterns is a reductionist
+approach that is only an adequate preparation for producing consistent
+movement patterns in closed predictable performance environments.
+However, competitive team games are complex, dynamic and unpredictable
+environments in which information sources are rarely assured in advance and
+emergent actions are highly context dependent (Travassos, Duarte, Vilar,
+Araújo, & Davids, 2012; Vilar, Araújo, Davids, & Button, 2012). What means
+that training should in that case mainly consist of recreating simulations of the
+game by not only, manipulating practice areas (e. g., width and length of
+fields) but also the objectives and rules of play (through conditioned games).
+Training in small-sided and conditioned games can result in more functional
+acquisition of performance behaviours (Davids et al., 2012; Passos, Cordovil,
+Fernandes, & Barreiros, 2012; Vilar, Araújo, Davids, & Renshaw, 2010),
+because players can learn how to guide their actions according to the
+informational specificity of their performance context. The work produced by
+Pinder,
+
+Davids,
+
+Renshaw
+
+and
+
+Araújo
+
+(2011)
+
+highlights
+
+this
+
+point
+
+demonstrating that, when participants are required to perform actions under
+controlled laboratory conditions, in which possibilities to act differed from his
+performance environment, observed patterns of movement coordination
+significantly differed.
+
+Small-sided and Conditioned Games
+The importance of use small-sided and conditioned games as a training
+method in football has been highlighted by many different studies. For
+example, in a report related with the use of small-sided and conditioned
+VÍTOR GAZIMBA
+
+21
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+games at the Manchester United academy, Fenoglio (2003) showed that by
+playing 4 vs. 4 rather than 8 vs. 8 games, players made 135% more passes,
+had 260% more scoring attempts and scored 500% more goals. In addition,
+the number of 1 vs. 1 encounters between attackers and defenders increased
+by 225% while the number of dribbling tricks demonstrated by learners
+increased by 280%. The increased frequency of these important sub-phases
+of football during practice tasks clearly allows learners greater opportunities to
+practice basic skills and to gain more experience of tactical requirements in
+game contexts. The advantages of small-sided and conditioned games for
+physical conditioning have also been demonstrated. A study conducted by
+Impellizzeri and colleagues (2006) found that using small-sided and
+conditioned games, compared to interval training for example, resulted in
+similar levels of improvement in aerobic fitness and match performance for
+junior soccer players.
+As Fenoglio (2003) and Davids and colleagues (2013) demonstrated with their
+studies, an important strategy to promote skill acquisition and learning in team
+games is the use of small-sided and conditioned games. From the learning
+point of view, two of the main “strengths” of the small-sided and conditioned
+games is that they contain functional levels of contextual variability, and they
+amplify information for action by promoting increased frequency of
+opportunities for interpersonal interactions to occur. In that sense, small-sided
+and conditioned games can be used to help learners gaining experience in
+picking up functionally relevant information for continuously regulating
+interpersonal interactions with teammates and opponents during performance
+(Fenoglio, 2003).
+According to the nonlinear pedagogical principles, one of the main tasks of
+the coaches is that they need to identify and adjust key task constraints of
+small-sided and conditioned games in order to promote the acquisition of
+specific game skills or tactical behaviours. Therefore, instead of learners
+practicing static drills or playing only in full-sided games, manipulation of
+objectives and/ or rules in small-sided and conditioned games made by the
+coaches can increase opportunities for common attacking and defensive
+subphases to emerge frequently. The structure and organization of smallVÍTOR GAZIMBA
+
+22
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+sided and conditioned games need to be designed by coaches, specifically for
+individual learners to practice exploring different performance solutions as
+performance environment contexts change, rather than practicing the same
+actions repetitively. Following this principles, rather than encouraging learners
+to dribble a ball around cones, pass in straight lines to each other, or shoot a
+stationary ball in drills, the coaches shall manipulate task constraints of smallsided and conditioned games to encourage adaptive movement behaviours
+through facilitating continuous interpersonal interactions of learners with
+teammates (Araújo, Davids, & Hristovski, 2006; Passos, Araújo, Davids,
+Gouveia et al., 2008; Passos et al., 2009), opponents (Correia et al., 2012),
+and key field markings (Esteves et al., 2012).
+
+Achievement Goal Theory
+The use of small-sided and conditioned games as a teaching method has also
+other advantages such as, increase the amount of time spent in playful and
+enjoyable activities by allowing learners to experience simulations of
+competitive team games (Davids et al., 2013). In that sense, its important to
+note that studies conducted in the domain of the achievement goal theory
+have demonstrated that when the goal is to develop an individual’s ability
+through learning a task (task mastery), game related practices provide the
+relevant opportunities to increase students’ motivation. Such an observation is
+based on the report that games provide increase situational interest because
+they have structure and outcomes that are meaningful to performance (Griffin,
+Brooker, & Patton, 2005). From a psychological and affective perspective,
+achievement goal theory provides also a relevant theoretical evidence to
+support the efficacy of task simplification methods such as the use of smallsided and conditioned games.
+
+VÍTOR GAZIMBA
+
+23
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+VIII. Augmented Information and Skill Acquisition
+An important aspect of pedagogical practice its related with the provision of
+augmented information to learners. The provision of verbal instructions,
+feedback, and the use of demonstrations are examples of augmented
+information given by the coaches to the learners with the intention of promote
+learning. The delivery of augmented information to the learners has been a
+primary concern for motor learning theorists for many years (Newell,
+Broderick, Deutsch, & Slifkin, 2003). From a nonlinear pedagogical
+perspective, the transmission of verbal instructions and visual demonstrations
+during practice are seen as important instructional constraints (Newell, 1986).
+The literature produced in this area tells us that an important task for coaches
+is to provide learners with feedback so that they can improve performance on
+subsequent practice attempts. The provision of feedback helps to promote
+efficient learning, ensures correct development of the skills, and influences
+the learner’s motivation to persist with practice. However, while learners
+require feedback to refine and develop their skills, it is important to realize that
+this information can be acquired through many different routes and methods,
+not all of which are as effective as each other. In that sense, coaches need to
+be aware of how these different sources of feedback work, because this
+knowledge is essential so that coaches can determine when and how
+augmented information should be provided to best encourage learning.
+In the next sections we will analyse several studies produced in the area of
+motor learning, and based on evidence we will discuss, if coaches shall with
+their instructions induce an internal or an external focus of attention on their
+players; if more feedback is better than less; and in the last section of this
+chapter we will discuss the role of demonstrations in skill acquisition and the
+use of guided discovery as a teaching method.
+
+Internal Focus of Attention vs. External Focus of Attention
+
+VÍTOR GAZIMBA
+
+24
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Withing and Brinker (1982) proposed that during skill acquisition learners can
+be concerned with information about the “image of the act” (focus on
+movement dynamics) or the “image of achievement” (focus on the movement
+effects to be achieved). This means that during practice, the coach can with
+his instructions and feedback direct the attention of the players for internal or
+external aspects. In other words, if a coach provides information related with
+the “image of the act”, he is inducing an internal focus of attention on the
+players. As an example, when the coaches centre their intervention in the
+correction/ prescription of technical aspects like “how to position the feet to
+perform a long pass” or “how and where to quick the ball”, they are inducing
+an internal focus of attention on the players.
+In the other hand, if a coach provides information related with the “image of
+achievement”, he is inducing an external focus of attention on the players. For
+example, if instead of give instructions about how to perform a long pass, the
+coach says to the player something like “your task is to perform a long pass
+for the chest of your colleague”, then the coach is inducing an external focus
+of attention on his player.
+
+Figure 2: Accuracy scores of the experiment 1 conducted by Wulf, McConnel,
+Gartner and Schwarz (2002).
+VÍTOR GAZIMBA
+
+25
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+The figure 2 was taken from a study conducted by Wulf et al., (2002). In this
+study Wulf and colleagues used 4 different groups of learners with identical
+tasks. The differences between groups are that, Adv-Ext: group composed by
+advanced players that performed the task through the use of an external
+focus of attention; Adv-Int: group composed by advanced players that
+performed the task through the use of an internal focus of attention; Nov-Ext:
+group composed by novice players that performed the task through the use of
+an external focus of attention; and Nov-Int: group composed by novice
+players that performed the task through the use of an internal focus of
+attention.
+The results of this study reveals that an external focus that directed
+performers’ attention toward the movement effects, yield better learning and
+performance of complex skills (see figure 2). They proposed that an external
+focus of attention did not distract learners from the movements required but
+instead allowed the implicit regulation of task performance and learning.
+Davids, Button and Bennett (2004) argued also that the efficiency of the use
+of an external focus of attention is related with the fact that this attention focus
+doesn’t interfere with self-organization processes of the movement dynamics
+as performers explore the task. Instructional constraints that direct a learners
+search to movement dynamics (internal focus) may deprive them of the
+opportunity to discover and satisfy the multiple task constraints unique to each
+individual.
+The current research supports also the idea that the use of an external focus
+of attention, rather than a prescriptive internal focus of attention, allows
+learners to use discovery learning processes during skill acquisition.
+
+Frequency of Feedback
+Another important instructional constraint it’s related with the frequency of
+feedback to be provided for effective skill learning. Traditionally, coaches have
+tended to provide copious amounts of feedback in the belief that ‘‘more is
+VÍTOR GAZIMBA
+
+26
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+better’’ for the effective acquisition of football skills. According to the guidance
+hypothesis proposed by Salmoni, Schmidt and Walter (1984), providing
+augmented feedback on every trial has a beneficial effect on performance but
+a detrimental effect on skill learning. Providing feedback on every practice
+attempt can lead to an ‘‘overload’’ of information, result in over-reliance on
+augmented feedback, and prevent the learner from becoming adequately
+involved in the problem-solving process.
+
+Figure 3: Accuracy scores of the experiment 2 conducted by Wulf et al.,
+(2002). Meaning of the abbreviations of the different groups:
+Ext-100 = external focus induced + feedback provided in 100% of the trials;
+Ext-33 = external focus induced + feedback provided in 33% of the trials;
+Int-100 = internal focus induced + feedback provided in 100% of the trials;
+Int-33 = internal focus induced + feedback provided in 33% of the trials.
+
+VÍTOR GAZIMBA
+
+27
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Wulf and colleagues (2002, experiment 2) studied the effects of the frequency
+of feedback in relation with the focus of attention induced (external or internal)
+on the learning of a lofted pass in football. These data indicated that receiving
+external focus feedback once in every three trials is as functional for learning
+as receiving external focus feedback on every trial. The findings highlight
+once again the detrimental effect that directing search to movement dynamic
+and body parts (internal focus) has on learning and performance in complex
+skills.
+It seems difficult to determine what is the ideal quantity/ frequency of
+feedback that we coaches should provide to the learners. However if we
+analyse the figure 3, we understand that the worse thing that a coach can do
+is to provide a big amount of feedback while inducing an internal focus of
+attention. In other words, the worse thing that a coach can do to promote the
+acquisition of skills, is giving a big amount of feedback related with technical
+prescriptions of movement. This is a very powerful and important message
+that definitely goes against the most traditional ways to teach football.
+In resume, it is proven that provide more feedback is not better than provide
+less. In that sense, it is crucial for the coaches to achieve the correct balance
+between providing feedback often enough to facilitate learning, while at the
+same time not providing feedback too frequently so that the learner fails to
+become adequately involved in the problem-solving process.
+Although a decrement in performance may be observed during practice as a
+result of the reduction in feedback frequency, performance is likely to be
+enhanced during retention and in competition. Following this idea, we decided
+to include in this report a table where are highlighted some methods that may
+be employed by the coaches to decrease learners’ reliance on augmented
+feedback (see table 1).
+
+VÍTOR GAZIMBA
+
+28
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+Summary Feedback
+
+Bandwidth Feedback
+
+Feedback provided as summary of performance on the
+preceding block of practice attempts
+Provision of feedback only when performance falls outside
+some agreed upon criterion or bandwidth
+
+Descriptive vs.
+
+Provision of descriptive feedback rather than prescriptive
+
+Prescriptive Feedback
+
+guidance encourages learners to find their own solutions
+Asking learners to come up with their own solution through a
+
+Question and Answer style
+
+question and answer approach (e.g. “What could you have
+done better on that attempt?”
+
+Table 1: Techniques that can be employed by coaches to decrease learners’
+reliance on prescriptive feedback (table adapted from Williams & Hodges
+2005).
+
+Demonstration vs. Guided Discovery
+A demonstration is the most common method used by coaches to convey
+information to the players. The main reason for using a demonstration is to
+provide the learner with a visual template or criterion model for the desired
+movement pattern (Hodges & Franks, 2002; Swinnen, 1996). Coaches use
+the demonstrations based in the assumption that a demonstration is essential
+to inform players about how best to performer a skill. However, the role and
+effectiveness of demonstrations have been examined in the motor learning
+literature and as Horn and Williams (2004) pointed out, the use of
+demonstrations might not be the most effective method when the aim is to
+improve a technical skill. The argument in the basis of this claim is that
+demonstrations are overly constraining, forcing the learner to adopt a
+movement pattern that may not be the most effective for that individual (i.e. a
+‘‘one size fits all’’ assumption).
+When the method chosen by the coach to provide information to the players is
+based in demonstrations, the coach is directing the attention of players to the
+VÍTOR GAZIMBA
+
+29
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+“image of the act”, what means that he is inducing an internal focus of
+attention on the players. However as we already saw in the previous sections
+of this chapter, the use of instructions that induce an external focus of
+attention are more beneficial for learning since it does not constrain the
+learner to reproduce an inappropriate movement pattern (Wulf, Lauterbach, &
+Toole, 1999; Wulf & Prinz, 2001).
+The key issue here is that from the nonlinear pedagogy perspective, there
+may be many different ways to achieve the same end result (repetition without
+repetition) and learners should be encouraged to explore these opportunities
+with the intention to develop flexible and adaptable movement patterns. In that
+sense, the widespread acceptance of demonstrations as an essential method
+of conveying information to the learner shall be questioned, because although
+demonstrations usually facilitate the instruction process, they are not the best
+method to promote learning. The most important message for the coaches is
+then, that players shall be viewed as active problem-solvers rather than
+‘‘empty vessels’’ or passive recipients of information.
+A common idea that has been presented along the different chapters of this
+report is that teaching methods that are overly prescriptive may be detrimental
+to skill acquisition. This idea is also supported by evidence that suggests that
+skills taught using such approaches are less resistant to the effects of
+psychological stress and more prone to forgetting over time than skills learnt
+through guided discovery (Abrams & Reber, 1988; Masters, 1992). Moreover,
+while prescriptive instructional approaches are likely to produce faster
+performance gains initially, they may result in less efficient and reliable
+performance in the long term. The advantages of less prescriptive approaches
+such as guided discovery have been advocated by many scientists and
+practitioners (Araújo et al., 2004; Davids, Williams, Button, & Court, 2001).
+The emphasis when learning by guided discovery is on players finding unique
+solutions to movement problems through exploration and discovery. This
+approach may be more effective in developing ‘‘smart’’ players who are able
+to apply their skills in a variety of performance situations (Williams & Hodges,
+2005). As Holyoak (1991) highlighted, teaching through guided discovery
+VÍTOR GAZIMBA
+
+30
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+methods conduct the players to “adaptive” expertise, rather than “routine”
+expertise.
+In resume, the use of guided discovery methods is in accordance with
+principles of nonlinear pedagogy. According to a nonlinear way to teach
+football, the main task of the coaches is to manipulate constraints (especially
+task constraints) in order to make emerge the desired behaviour through
+guided discovery and self-exploration, rather than via prescriptive instructions.
+It’s important to note that, the use of guided discovery as a teaching method
+doesn’t imply that the importance of coaching is diminished, merely that the
+coach need to have greater awareness of how shape and guide the behaviour
+of his players. In that sense, in the table 2 are presented some concrete
+examples of how task constraints may be manipulated in order to make
+emerge behaviour through guided discovery and thus promote effective
+learning in football.
+
+VÍTOR GAZIMBA
+
+31
+
+VÍTOR GAZIMBA
+
+the study conducted by Williams and Hodges (2005).
+
+32
+
+Table 2: Examples of how behaviours can be encouraged during practice by manipulating different constraints. Table taken from
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+IX. Conclusions/ Take Home Messages
+This was a report essentially conceived for coaches and where we intended to
+clarify some issues related with the most efficient way to teach football. The
+discussions undertaken throughout the different chapters of the present report
+were always based on scientific evidence that have been produced in the
+motor learning area and that form the basis of a nonlinear pedagogy
+framework. All the report was based in how players learn and in what we
+coaches can do in order to promote efficient learning.
+With the aim of make this last section the most clear and accessible possible
+for the coaches, we decided to synthesize the conclusions of this report in
+brief “take home messages”. In that sense, coaches should know, that:
+1) A nonlinear pedagogy is an efficient method to teach football that is
+based in how players learn;
+2) The principles of nonlinear pedagogy inform the coaches about how
+best structure their practices, deliver instructions, provide feedback,
+and design their practices, in order to promote effective learning;
+3) Nonlinear pedagogy involves the manipulation of different types of
+constraints to make emerge the desired behaviour;
+4) Movement variability has a functional role in learning, because is an
+intrinsic feature of skilled motor performance that provides the flexibility
+required to adapt to complex dynamic sport environments;
+
+5) In order to promote learning, the coaches shall structure their practices
+in accordance with the principles of task simplification, rather than task
+decomposition;
+
+VÍTOR GAZIMBA
+
+33
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+6) The training tasks designed by the coaches need to represent the key
+informational variables from a competitive performance environment
+that players use to regulate their actions and make decisions;
+7) Coaches need to design dynamic training simulations that capture the
+inherent variability of the competitive performance environment;
+8) Training shall mainly consist in recreating simulations of the game,
+through small-sided and conditioned games;
+9) Nonlinear pedagogy puts the emphasis on exploratory learning within
+small-sided and conditioned games
+10) One of the main tasks of the coaches is that they need to identify and
+adjust key task constraints of small-sided and conditioned games in
+order to promote the acquisition of specific game skills or tactical
+behaviours;
+11) Coaches shall with their instructions and feedback induce an external
+focus of attention on their players;
+12) It is proven that more feedback is not better than less;
+13) It is crucial for the coaches to achieve the correct balance between
+providing feedback often enough to facilitate learning, while at the
+same time not providing feedback too frequently so that the learner
+fails to become adequately involved in the problem-solving process;
+14) Skills learnt through guided discovery are more resistant to the effects
+of psychological stress and less prone to forgetting over time;
+15) Guided discovery may be a more effective approach in developing
+“smart” players, who are able to apply their skills in a variety of
+performance situations.
+VÍTOR GAZIMBA
+
+34
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+
+X. References
+Abrams, M., & Reber, A. S. (1988). Implicit learning: Robustness in the face of
+psychiatric disorder. Journal of Psycholinguistic Research, 17(5), 425-39.
+Adolph, K. E., & Berger, S. A. (2006). Motor development. In W. Damon & R.
+Lerner (Eds.), Handbook of child psychology: Cognition, perception, and
+language (pp. 161-213). New York: Wiley.
+Araújo, D., Davids, K., Bennett, S., Button, C., & Chapman, G. (2004).
+Emergence of sport skills under constraint. In A. M. W. N. J. Hodges (Ed.),
+Skill acquisition in sport: Research, theory and practice (pp. 409-433).
+London: Taylor & Francis.
+Araújo, D., Davids, K., & Hristovski, R. (2006). The ecological dynamics of
+decision making in sport. Psychology of Sport and Exercise , 7(6), 653-76.
+Beek, P. J., & Meijer, O. G. (1988). On the Nature of "the" motor-action
+controversy. In O. C. Meijer & K. Roth (Eds.), Complex movement behaviour:
+the motor-action controversy (pp. 157-185). Amsterdam: Elsevier Science.
+Bernstein, N. (1967). The co-ordination and regulation of movement:
+Elmsford, NY: Pergamon Press.
+Brisson, T. A., & Alain, C. (1996). Should common optimal movement patterns
+be identified as the criterion to be achieved?. Journal of Motor Behavior,
+28(3), 211-223.
+Chow, J. Y., Davids, K., Button, C., Shuttleworth, R., Renshaw, I., & Araújo,
+D. (2007). The Role of Nonlinear Pedagogy in Physical Education. Review of
+Educational Research, 77(3), 251-278.
+Chow, J. Y., Davids, K., Button, C., Shuttleworth, R., Renshaw, I., & Araújo,
+D.
+
+(2006).
+
+Nonlinear
+
+Pedagogy:
+
+A
+
+Constraints-Led
+
+Framework
+
+for
+
+Understanding Emergence of Game Play and Movement Skills. Nonlinear
+Dynamics, Psychology, and Life Sciences, 10(1), 71-103.
+
+VÍTOR GAZIMBA
+
+35
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Correia, V., Araújo, D., Duarte, R., Travassos, B., Passos, P., & Davids, K.
+(2012). Changes in practice task constraints shape decision-making
+behaviours of team games players. Journal of Science and Medicine in Sport/
+Sports Medicine Australia, 15(3), 244-9.
+Davids, K., Araújo, D., Correia, V., & Vilar, L. (2013). How small-sided and
+conditioned games enhance acquisition of movement and decision-making
+skills. Exercise and Sport Sciences Reviews, 41(3), 154-61.
+Davids, K., Araújo, D., Hristovski, R., Passos, P., & Chow, J. Y. (2012).
+Ecological dynamics and motor learning design in sport. In A. M. Williams &
+N. Hodges (Eds.), Skill Acquisition in Sport: Research, Theory and Practice
+(pp. 112-30). London: Routledge.
+Davids, K., Araújo, D., Shuttleworth, R., & Button, C. (2003). Acquiring Skill in
+Sport: A Constraints-Led Perspective. International Journal of Computer
+Science in Sport, 2(2), 31-39.
+Davids, K., Button, C., & Bennett, S. (2008). Dynamics of skill acquisition: A
+constraints-led approach. Champaign, IL: Human Kinetics.
+Davids, K., Button, C., & Bennett, S. J. (2007). Acquiring movement skill: A
+constraints-led perspective. Champaign, IL: Human Kinetics.
+Davids, K., Button, C., & Bennett, S. J. (2004). Coordination and Control of
+Movement in Sport: An Ecological Approach. Champaign, IL: Human Kinetics.
+Davids, K., Button, C., & Bennett, S. J. (2003). Coordination and control of
+movement in sport: an ecological approach. Champaign: Human Kinetics.
+Davids, K., Chow, J. Y., & Shuttleworth, R. (2005). A constraints-led
+framework for nonlinear pedagogy in physical education. Journal of Physical
+Education New Zealand, 38, 17-29.
+Davids, K., Shuttleworth, R., Araújo, D., & Renshaw, I. (2003). Understanding
+constraints on physical activity: Implications for motor learning theory. In R.
+Arellano & A. Oria (Eds.), Proceedings of Second World Congress on Science
+
+VÍTOR GAZIMBA
+
+36
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+of Physical Activity and Sports (pp. 56-77). Granada, Spain: University of
+Granada Press.
+Davids, K., Williams, A. M., Button, C., & Court, M. (2001). An integrative
+modeling approach to the study of intentional movement behavior. In R. N.
+Singer, H. A. Hausenblan, & C. M. Janelle (Eds.), Handbook of sport
+psychology (pp. 144-73). New York: Wiley.
+Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of
+deliberate practice in the acquisition of expert performance. Psychological
+Review, 100(3), 363-406.
+Esteves, P., Araújo, D., Davids, K., Vilar, L., Travassos, B., & Esteves, C.
+(2012). Inter- personal dynamics and relative positioning to scoring target of
+performers in 1 vs 1 sub-phases of team sports. Journal of Sports Sciences,
+30(12), 1285-93.
+Fenoglio, R. (2003). The Manchester United 4 v 4 pilot scheme for U-9’s part
+two: The analysis. Insight – FA Coaches’ Association Journal, 21-4.
+Gibson, J. J. (1979). An ecological approach to visual perception. Boston:
+Houghton-Mifflin.
+Gréhaigne, J. F., Bouthier, D., & David, B. (1997). Dynamic-system analysis
+of opponent relationshis in collective actions in soccer. Journal of Sports
+Sciences, 15, 137-149.
+Griffin, L. L., Brooker, R., & Patton, K. (2005). Working towards legitimacy:
+Two decades of Teaching Games for Understanding. Physical Education and
+Sport Pedagogy, 10(3), 213-223.
+Handford, C. H. (2006). Serving up variability and stability. In K. Davids, C.
+Button & K. Newell (Eds.), Movement system variability (pp. 73-83).
+Champaign, IL: Human Kinetics.
+Handford, C. H., Davids, K., Bennett, S., & Button, C. (1997). Skill acquisition
+in sport: Some applications of an evolving practice ecology. Journal of Sports
+Sciences, 15(6), 621-40.
+VÍTOR GAZIMBA
+
+37
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Hodges, N. J., & Franks, I. M. (2002). Modelling coaching practice: The role of
+instruction and demonstration. Journal of Sports Sciences, 20(10), 793-811.
+Holyoak, K. (1991). Symbolic connectionism: Toward third- generation
+theories of expertise. In K. A. Ericsson & J. Smith (Eds.), Toward a general
+theory of expertise (pp. 301-36). Cambridge: Cambridge University Press.
+Horn, R. R., & Williams, A. M. (2004). Observational learning: Is it time we
+took another look?. In A. M. Williams & N. J. Hodges (Eds.), Skill acquisition
+in sport: Research, theory and practice (pp. 175-206). London: Routledge.
+Howe, M. J. A., Davidson, J. W., & Sloboda, J. A. (1998). Innate talents:
+Reality or myth?. Behavioral and Brain Sciences, 21(3), 399-442.
+Impellizzeri, F. M., Marcora, S. M., Castagna, C., Reilly, T., Sassi, A., Iaia, F.
+M., & Rampinini, E. (2006). Physiological and performance effects of generic
+versus specific aerobic training in soccer players. International Journal of
+Sports Medicine, 27(6), 483-92.
+Magill, R. A. (2006). Motor learning and control: Concepts and applications
+(7th ed.). Boston, MA: McGraw Hill.
+Masters, R. S. W. (1992). Knowledge, knerves, and know-how. British Journal
+of Psychology, 83, 343-58.
+Metzler, M. W. (2000). International models for physical education. Boston,
+MA: Allyn and Bacon.
+Newell, K. M. (1996). Change in movement and skill: learning, retention and
+transfer. In M. L. Latash & M. T. Turvey (Eds.), Dexterity and its development
+(pp. 393-430). Mahwah (NJ): Erlbaum.
+Newell, K. M. (1986). Constraints on the development of coordination. In M.
+G. W. H. T. A. Whiting (Ed.), Motor Development in Children: Aspects of
+Coordination and Control (pp. 341-360). Dordrecht: Martinus Nijhoff.
+Newell, K. M., Broderick, M. P., Deutsch, K. M., & Slifkin, A. B. (2003). Task
+goals and change in dynamical degrees of freedom with motor learning.
+
+VÍTOR GAZIMBA
+
+38
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Journal of Experimental Psychology: Human Perception and Performance,
+29(2), 379–87.
+Newell, K. M., Liu, Y. T., & Mayer-Kress, G. (2001). Times scales in motor
+learning and development. Psychological Review, 108(1), 57-82.
+Nicolis, G., & Prigogine, I. (1989). Exploring Complexity. New York: W.H.
+Freeman and Company.
+Passos, P., Araújo, D., Davids, K., Gouveia, L., Milho, J., & Serpa, S. (2008).
+Information- governing dynamics of attacker-defender interactions in youth
+rugby union. Journal of Sports Sciences, 26(13), 1421-9.
+Passos, P., Araújo, D., Davids, K., Gouveia, L., Serpa, S., Milho, J., &
+Fonseca, S. (2009). Interpersonal pattern dynamics and adaptive behavior in
+multiagent neurobiological systems: conceptual model and data. Journal of
+Motor Behavior, 41(5), 445-59.
+Passos, P., Araújo, D., Davids, K., & Shuttleworth, R. (2008). Manipulating
+constraints to train decision making in rugby union. International Journal of
+Sports Science and Coaching, 3(1), 125-40.
+Passos, P., Cordovil, R., Fernandes, O., & Barreiros, J. (2012). Perceiving
+affordances in rugby union. Journal of Sports Science, 30(11), 1175-82.
+Piek, J. P. (2002). The Role of variability in early motor development. Infant
+Behavior and Development, 25(4), 452-65.
+Pinder, R., Davids, K., Renshaw, I., & Araújo, D. (2011). Representative
+learning design and functionality of research and practice in sport. Journal of
+Sport and Exercise Psychology, 33(1), 146-55.
+Pinder, R., Davids, K., Renshaw, I., & Araújo, D. (2011). Manipulating
+informational constraints shapes movement reorganization in interceptive
+actions. Attention, Perception and Psychophysics, 73(4), 1242-54.
+Pinder, R., Renshaw, I., & Davids, K. (2009). Information-movement coupling
+in developing cricketers under changing ecological practice constraints.
+Human Movement Science, 28(4), 468-79.
+VÍTOR GAZIMBA
+
+39
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+Reilly, T., & Williams, A. M. (2003). Science and soccer (2nd ed.). London:
+Routledge.
+Rink, J. E. (2005). Teaching physical education for learning (5th ed.). Boston:
+McGraw-Hill.
+Salmoni, A. W., Schmidt, R. A., & Walter, C. B. (1984). Knowledge of results
+and motor learning: A review and critical reappraisal. Psychological Bulletin,
+95(3), 355-86.
+Schmidt, R. A., & Lee, T. D. (2006). Motor learning and control: A behavioural
+emphasis (2nd ed.). Champaign, IL: Human Kinetics.
+Siedentop, D., & Tannehill, D. (1999). Developing teaching skills in physical
+education (4th ed.). Mountain View, CA: Mayfield Publishing Company.
+Slifkin, A. B., & Newell, K. M. (1998). Is variability in human performance a
+reflection of system noise?. American Psychological Society, 7(6), 170-77.
+Swinnen, S. P. (1996). Information feedback for motor skill learning: A review.
+In H. N. Zelaznik (Eds.), Advances in motor learning and control (pp. 37-66).
+Champaign, IL: Human Kinetics.
+Thelen, E., & Smith, L. B. (1994). A dynamic systems approach to the
+development of cognition and action. Cambridge (MA): MIT Press.
+Travassos, B., Duarte, R., Viar, L., Araújo, D., & Davids, K. (2012). Practice
+task design in team sports: Representativeness enhanced by increasing
+opportunities for action. Journal of Sports Science, 30(13), 144-54.
+Turner, A., & Martinek, T. J. (1995). Teaching for understanding: A model for
+improving decision making during game play. Quest, 47, 44-63.
+Vilar, L., Araújo, D., Davids, K., & Button, C. (2012). The Role of Ecological
+Dynamics in Analysing Performance in Team Sports. Sports Medicine, 42(1),
+1-10.
+Vilar, L., Araújo, D., Davids, K., & Renshaw, I. (2012). The need for
+‘‘representative task designs’’ in evaluating efficacy of skills tests in sport: a
+VÍTOR GAZIMBA
+
+40
+
+The Role of Nonlinear Pedagogy in Skill Acquisition
+comment on Russell, Benton and Kingsley (2010). Journal of Sports Science,
+30(16), 1727-30.
+Ward, P., Hodges, N. J., Williams, A. M., & Starkes, J. L. (2004). Deliberate
+practice and expert performance: Defining the path to excellence. In A. M.
+Williams & N. J. Hodges (Eds.), Skill acquisition in sport: Research, theory
+and practice (pp. 231-258). London: Routledge.
+Werner, P., Thorpe, R., & Bunker, D. (1996). Teaching games for
+understanding: Evolution of a model. The Journal of Physical Education,
+Recreation & Dance, 67, 28-33.
+Whiting, H. T. A., & Brinker, B. P. L. M. (1982). Image of the act. In J. P. Das,
+R. F. Mulcahy & A. E. Wall (Eds.), Theory in research and learning disabilities
+(pp. 217-235). NY: Plenum.
+Williams, A. M., Davids, K., & Williams, J. G. (1999). Visual perception and
+action in sport. London: Routledge.
+Williams, A. M., & Hodges, N. J. (2005). Practice, instruction and skill
+acquisition in soccer: Challenging tradition. Journal of Sports Sciences, 23(6),
+637-50.
+Wulf, G., Lauterbach, B., & Toole, T. (1999). Learning advantages of an
+external focus of attention in golf. Research Quarterly for Exercise and Sport,
+70(2), 120-6.
+Wulf, G., McConnel, N., Gartner, M., & Schwarz, A. (2002). Enhancing the
+Learning of Sport Skills Through External-Focus Feedback. Journal of Motor
+Behavior, 34(2), 171-182.
+Wulf, G., & Prinz, W. (2001). Directing attention to movement effects
+enhances learning: A review. Psychonomic Bulletin and Review, 8(4), 648-60.
+
+VÍTOR GAZIMBA
+
+41
+
+

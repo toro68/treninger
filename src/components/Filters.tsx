@@ -85,6 +85,12 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     description: "50 Small-Sided Games",
     activeClass: "border-sky-500 bg-sky-50 text-sky-700",
     dotClass: "bg-sky-500"
+  },
+  uefa: {
+    label: "UEFA",
+    description: "UEFA A-analyser",
+    activeClass: "border-blue-600 bg-blue-50 text-blue-700",
+    dotClass: "bg-blue-600"
   }
 };
 

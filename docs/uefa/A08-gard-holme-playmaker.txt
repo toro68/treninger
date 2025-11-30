@@ -1,0 +1,2382 @@
+Kompetansekrav i rolle
+
+En studie av den høye playmakeren
+og dens evne til å forløse spillet.
+
+01.02.14
+
+Gard Holme
+Teoretisk Oppgave UEFA A-lisens
+Norges Fotballforbund
+
+2
+
+Forord:
+Jeg vil gjerne benytte anledningen til å takke alle som har bidratt til denne oppgaven.
+Først av alt vil jeg takke gutta i Norsk Toppfotballsenter som har latt meg få være med dem
+på deres store fagprosjekt, og ikke minst for all den kunnskapen det har gitt meg ved å få være
+til stede i deres fagmiljø. Spesielt Rolf Teigen har velvillig delt av sin kunnskap mens jeg har
+påført ham meterlange telefonregninger. Aksel Bergo likeså. Og Kenneth Wilsgaard og Espen
+Andersen har med sine trollmannsegenskaper gitt meg uvurderlig hjelp med innhenting av
+data. Ellers har både Espen Olafsen, Dag Opjordsmoen, Sigmund Aasen og Geir Jordet bidratt
+med sine råd, erfaring og faglige ekspertise underveis.
+En stor takk også til mine nærmeste medarbeidere i Tromsø IL, Thomas Hafstad, Lars Petter
+Andressen, Igor Aase, Merete Johansen, Calum McFarlane og Svein Morten Johansen, for
+alle deres innspill i prosessen, og ikke minst for at dere har skapt ett fagmiljø der hvor det er
+mulig å være kreativ, utfordrende og stadig på jakt etter ny kunnskap om spillet.
+Takk til de andre deltagerne på UEFA A-lisenskurset, og da spesielt mine tre
+gruppekompanjonger, Torkild Veraas, Petter Olsen og Arild Sundgot. Det er i diskusjonene
+med dere det meste av det jeg har lært på dette kurset ligger.
+Takk til spillerne mine som er overbærende med meg når jeg kommer med rare nye øvelser de
+aldri har sett før, og for at de gir meg fortsatt tillit når jeg kommer med enda fler øvelser når
+de første ikke fungerte.
+Takk til Securitas-vakta på NTG, som nesten aldri kaster meg ut av kontoret selv om jeg sitter
+der til langt over midnatt, og til de andre ansatte som godtar at jeg er litt trøtt når jeg kommer
+på jobb igjen morgenen etter.
+Og sist, men ikke minst, takk til min veileder Reidar Vaagnes, som har geleidet meg gjennom
+dette kurset på en fremragende måte. Hans evne til å stille de rette spørsmålene, trykke på de
+rette knappene, og lede meg frem på en måte som gjør at jeg tror jeg har kommet med svarene
+selv, er i seg selv forbilledlig og til stor inspirasjon for alt pedagogisk virke.
+
+Tromsø, 1. Feb, 2013
+Gard Holme
+
+3
+
+Sammendrag
+Denne studien er en mindre del av en større helhet satt sammen i Toppfotballsenterets
+prosjekt «Spilleren i spillet», som ønsker å belyse hvilke kompetansekrav dagens spill stiller
+til de ulike rollene i laget. Prosjektet tar for seg ulike sentrale spillsituasjoner for hver enkelt
+rolle, og er en grundig analyse av hvordan de beste spillerne i verden løser disse situasjonene.
+Denne oppgaven tar for seg rollen «Høy Playmaker», og viser til dens evne til å forløse
+spillet. Dette gjøres ved å studere åtte av de beste Høye playmakerne i verden, hvordan deres
+pasningsspill har fortonet seg, og alle deres assister i sesongen 2012/2013.
+Utvalget av spillere har kommet til gjennom følgende kriterier. Ett utvalg på de 137 spillerne
+som har blitt nominert til årets lag i verden de siste 3 sesongene er gjort som utgangspunkt.
+Disse er i utgangspunktet delt inn i ulike roller som keepere, forsvarsspillere, midtbanespillere
+og angrepsspillere, og vi har ytterligere nyansert dette til å gjelde alle posisjoner i et lag, og
+ulike allment oppfattede rollestereotypier. For denne oppgaven har det vært relevant å sjekke
+av hvilke spillere som faktisk er Høy Playmaker, noe vi har gjort gjennom å se på pasningsog posisjonstall fra Amisco-Prozone. Videre har jeg sett hvilke spillere som har hatt flest
+assist i Europa de siste 3 sesongene. De spillerne som tilhører utvalget av de 137, som er blant
+de 5 med flest assist totalt i en topp-5 liga, og som i tillegg kan kategoriseres som en høy
+Playmaker er plukket ut til å delta i studien. Dette gjelder Mesut Øzil, Lionel Messi, Xavi
+Hernandes, Juan Mata, Cesc Fabregas, Marek Hamsik, David Silva og Andres Iniesta.
+I analysen av assistsituasjonene har jeg brukt en metodisk tilnærming som deler situasjonen
+inn i 3 faser. Den første fasen handler om det spilleren gjør i forkant av situasjonen. Hvilken
+informasjon som hentes inn og hvilke bevegelser og posisjonering spillerne har er sentralt her.
+Fase 2 prøver å fange det ikke alltid opplagte, men som gjør deg i stand til å vinne situasjonen
+i møte med motstanderen. Fase 3 handler om selve effektueringen av den handlingen
+situasjonen krever, i dette tilfellet pasningen som fører til scoring.
+Alle situasjonene er analysert med ett variabelsett på over 50 unike variabler knyttet til
+akkurat denne situasjonen. Noen av variablene har latt seg telle kvantitativt, mens andre
+variabler har krevd en mer kvalitativ vurdering. Funnene som er gjort i studien omhandler
+hvilke løsninger spillerne i utvalget har gjort i de ulike fasene når det kommer til
+informasjonsinnhenting, posisjonering ift rom, kroppstilling og teknikk både i form av
+repertoar, fleksibilitet, kamuflasje og utførelse.
+Til slutt i oppgaven har jeg presentert noen læringspunkter for hvordan denne typen ferdighet
+kan trenes, for å få en overføringsverdi fra analyserommet til praktisk anvendbar informasjon
+til bruk på treningsfeltet.
+
+Nøkkelord: Verdens beste, Rolle, Kompetansekrav, Fotball, Individuell spillerutvikling,
+Assist, Analyse, Fotballferdighet
+
+4
+
+Innhold:
+Forord
+Sammendrag
+Innhold
+
+1.0
+
+Innledning …………………………………………………………………….... 7
+
+2.0
+
+Teori …………………………………………………………………………….. 9
+2.1
+Fotballferdighet ...………………………………………………………... 9
+2.1.1 De fire ferdighetsdimensjoner …………………………………… 9
+2.1.2 Sammenhengen mellom ferdighet og fotballspillets egenart ……. 10
+2.2
+Scoringer i fotball ………………………………………………………... 13
+2.3
+Taktikk og rolleutvikling i ett historisk perspektiv ...….………………… 15
+2.4
+Utvikling av ekspertise i fotball ...……………………………………….. 17
+2.4.1 Prestasjon og Læring …………………………………………….. 17
+2.4.2 10.000 timer med kvalitet ………………………………………... 18
+2.4.3 Selvregulering av læring ………………………………………… 19
+2.4.4 Spesifisitet og Funksjonalitet ……………………………………. 20
+2.5
+Tidligere studier av rollekrav i fotball …………………………………… 21
+
+3.0
+
+Problemstilling …………………………………………………………………. 22
+
+4.0
+
+Metode ………………………………………………………………………….. 23
+4.1
+Valg av metode, Strategi og tilnærming ………………………………… 23
+4.2
+Utvalg og gruppestørrelse ……………………………………………….. 24
+4.3
+Oppgavedesign …………………………………………………………... 25
+4.3.1 Statistisk analyse ………………………………………………… 25
+4.3.2 Kvantitativ observasjon (indirekte observasjon) ………………... 25
+4.3.3 Kvalitativ observasjon …………………………………………... 25
+4.4
+Situasjonsavgrensning …………………………………………………... 25
+4.5
+Analyseprosessen ……………………………………………………….. 26
+4.5.1 Variabelsett med operasjonalisering ……………………………. 26
+4.6
+Utstyr ……………………………………………………………………. 30
+4.7
+Evaluering av metoden ………………………………………………….. 31
+4.7.1 Validitet …………………………………………………………. 31
+4.7.2 Reliabilitet ………………………………………………………. 31
+
+5.0
+
+Resultater………………………………………………………………………... 32
+5.1
+Hvem er den høye playmakeren ……………………………………….... 32
+5.1.1 Pasningsdata …………………………………………………….. 32
+5.1.2 Hvor i pasningsrekka er den høye playmakeren representert …… 33
+5
+
+5.2
+
+5.3
+
+5.4
+
+5.5
+
+6.0
+
+5.1.3 Hvor i banen er de høye playmakerne involvert ………………... 33
+Hvor kommer assistene fra i fotball …………………………………….. 35
+5.2.1 Fra hvor i banen kommer det flest assist ……………………….. 35
+5.2.2 Hvilke roller står for flest assist i laget …………………………. 35
+5.2.3 Hvilke spillere har flest assist …………………………………… 36
+Assistens fase 1: Hvordan komme på ball ………………………………. 37
+5.3.1 Bevegelse i forkant ……………………………………………… 37
+5.3.2 Høyde i mellomrommet …………………………………………. 38
+5.3.3 Kroppsvinkel …………………………………………………….. 38
+Assistens fase 2: Fra mulighet til realitet ………………………………... 40
+5.4.1 Tid på ball ……………………………………………………….. 40
+5.4.2 Antall touch ……………………………………………………… 41
+5.4.3 Type involvering ………………………………………………… 41
+5.4.4 Pressavstand ……………………………………………………... 42
+Assistens fase 3: Den avgjørende pasningen ……………………………. 43
+5.5.1 Fra hvor i banen slås assistene i min studie ……………………... 43
+5.5.2 Hvor havner assisten …………………………………………….. 44
+5.5.3 Pasningstype mot rom …………………………………………… 45
+5.5.4 Valg av teknikk ………………………………………………….. 45
+
+Diskusjon………………………………………………………………………... 46
+6.1
+Hovedproblemstilling 1: Hva kjennetegner de beste høye playmakerne
+i verden og deres evne til å forløse spillet? ……………………………… 46
+6.1.1 Hvem er de beste spillerne i verden i rollen Høy Playmaker
+og hva kjennetegner denne rollen? ………………………………. 46
+6.1.2 Er det hensiksmessig å dele spillernes ferdighet i en
+spillsituasjon inn i ulike faser? ………………………………….. 47
+6.1.3 Hva er kvaliteten innenfor hver enkelt fase?
+Assistens fase 1: Komme på ball ………………………………... 48
+6.1.4 Assistens fase 2: Fra mulighet til realitet ……………………….. 49
+6.1.5 Assistens fase 3: Den avgjørende pasningen ……………………. 50
+6.2
+Hovedproblemstilling 2: Hvordan kan mine funn omdannes til læringspunkter
+brukt i spillerutvikling? …………………………………………………. 51
+6.2.1 Læringspunkter for fase 1: Komme på ball ……………………... 51
+6.2.2 Læringspunkter for fase 2: Fra mulighet til realitet …………….. 52
+6.2.3 Læringspunkter for fase 3: Den avgjørende pasningen …………. 52
+6.2.4 Hvordan øve dette i hverdagen ………………………………….. 53
+
+Litteratur
+Figur og tabelloversikt
+Vedlegg
+
+6
+
+1.0
+
+Innledning
+
+Denne oppgaven er laget i samarbeid med Norsk Toppfotballsenter. Toppfotballsenteret er for
+de som ikke kjenner til det ett nasjonalt kompetansesenter som i samarbeid med toppklubbene
+skal sikre topp internasjonal kvalitet på norsk spillerutvikling (TFS, One-pager,
+Virksomhetside, 2013). Ett av toppfotballsenterets flaggskipsprosjekter går ut på å identifisere
+og kartlegge suksesskriteriene ved verdens beste spill og spillerutviklingsmiljøer. I ett større
+prosjekt knyttet til å studere verdens beste spill, har man i stort omfang analysert alle
+kampene i VM 2010 og Champions League 2011 (TFS, VM prosjektet 2011 og CL-prosjektet
+2012, Pål Arne Johansen, Verdens beste spill - Forskjellen som utgjør en forskjell, 2011).
+Dette har ført til en rekke nye funn knyttet til spillet som helhet og de ulike taktiske
+disposisjoner som ligger i det. Som en forlengelse av dette prosjektet var det derfor naturlig å
+gå nærmere inn på verdens beste spillere, og hva som kjennetegner de.
+Så med utgangspunkt i kravene til dagens spill på toppnivå, ønsket vi altså å belyse hva som
+var kravene til verdens beste spillere. Disse kravene er selvfølgelig i kontinuerlig forandring,
+og både taktiske disposisjoner og individuelle ferdigheter og ressurser utvikles i stor fart.
+Dette må derfor ikke ses som en fasit på hvordan spillet alltid vil være, men som ett avtrykk
+av hvordan det fortoner seg i dag. Arbeidet med dette prosjektet startet opprinnelig for nesten
+halvannet år siden. Dette prosjektet skulle være med å belyse hvilke ferdigheter som var de
+mest avgjørende for de ulike rollene i ett fotballag, og hva som kjennetegnet de som blir
+regnet som aller best i sin rolle i verden i dag. Målet vårt er at dette kan brukes som kilde til
+inspirasjon, refleksjon, og utvikling i egen praksis. Oppgaven viser til hvordan de beste
+spillerne, i de beste lagene, i verden utfører denne rollen, og det kan jo være stor forskjell på
+de kravene spillet stiller der, til det som er kravene i vår hverdag på ulike nivåer her hjemme.
+Det er derfor opp til leseren å ta dette til seg som referanse, og deretter tilpasse det til de
+preferanser man selv har i egen praksis.
+Denne oppgaven her viser bare til en liten del av det totale bildet på prosjektet, men kan stå
+som eksempel på hvordan resten av prosjektet er bygd opp og hvilken metodikk som ligger til
+grunn. Oppgaven omhandler fagområdet spillerutvikling fremfor lagsutvikling, taktikk, eller
+andre felt innenfor fotballen. Den er svært spisset inn mot en svært liten, men sentral, del av
+spillet, og den omhandler i utgangspunktet bare en av rollene i laget, nemlig den «høye
+playmakeren». Denne rollestereotypien refererer til en forståelse av at enkelte spillere er mer
+sentrale i ett lags oppbyggende angrepsspill enn andre, derfor navnet Playmaker. Den skiller
+også fra andre playmakere ved at den viser til at dette gjelder de playmakerne som ligger
+høyere i banen, og er sentrale i spillet i de siste fasene av ett angrep. I ett komplekst fortettet
+spill som fotball er denne rollen interessant da mye av dens dyktighet blir forklart gjennom
+dens evne til å forløse spillet i stengte situasjoner, ved å se løsninger i spillet som andre ikke
+ser. Dette danner også utgangspunkt for denne studien, som tar mål av seg å kartlegge nettopp
+denne ferdigheten.
+
+7
+
+Det er blitt gjort mange forsøk på å identifisere og generalisere ut ulike delferdigheter knyttet
+til rolle. Det å forsøke å forklare ett komplekst spill ved å dele opp kompleksiteten og sette det
+i forskjellige bokser er dog problematisk, da det gjerne fjerner mye av den kompleksiteten
+som i utgangspunktet ligger i samspillet mellom de ulike elementene (Morin). Overført til
+fotball kan dette brukes som en analogi på at det å ta ut delferdigheter i spillet også begrenser
+ferdighetene i seg selv. Om man skal være en god pasningsspiller så holder det ikke å ha god
+pasningsteknikk. Prosjektet vårt har derfor satt seg som mål å finne en ny mer helhetlig måte å
+se rolleferdighet på. Det er derfor helt naturlig å begynne med å se på selve
+ferdighetsbegrepet, og hva som ligger i det når man skal belyse kravene til de ulike rollene i
+spillet.
+
+8
+
+2.0
+
+Teori
+
+2.1
+
+Fotballferdighet
+
+I boka Ferdighetsutvikling i fotball – handlingsvalg og handling, er fotballferdighet definert
+som følger: ”Fotballferdighet er hensiktsmessige handlingsvalg og handlinger for å skape og
+utnytte spillsituasjoner til fordel for eget lag” (Bergo, Johansen, Larsen, Morisbak, 2002).
+Dette betyr at fotballferdigheten dekker alle de valg man gjør på banen, og den inneholder alle
+de ulike handlingene man utfører. Den sier også at dette skal være hensiktsmessig, og til
+fordel for eget lag. Man kan for eksempel være en god pasningsspiller individuelt sett, og
+f.eks være svært stabil på innsidepasninger med begge bein, men om man til stadighet
+benytter den feil i forhold til lagets retningslinjer, og for eksempel alltid spiller i støtte der
+hvor laget dit ønsker at man skal gå fremover, så bryter man med prinsippene for god
+fotballferdighet.
+I boka God fotballferdighet fra Morisbak, Dreier og Skarsfjord (1986), så ses
+fotballferdigheten utifra en helhet mellom taktikk og teknikk. De refererer til taktikk som
+spillerens handlingsvalg det spilleren velger å gjøre i situasjonen, mens teknikk knyttes til
+selve handlingen og beskriver måten spilleren løser en bestemt oppgave på. I følge denne
+tankegangen har man en handlingsrekke hvor man; Oppfatter, vurderer og bestemmer seg, før
+man utfører handlingen. Dette vises det også til i Bergo, Johansen, Larsen og Morisbaks bok.
+(2002).
+
+2.1.1 De fire ferdighetsdimensjoner
+Som man kan lese over handler ikke bare god fotballferdighet om hvilke individuelle
+forutsetninger man rår over. Kompleksiteten i spillsituasjonene gjør at det kan være fornuftig
+å bryte ned fotballferdigheten til fire dimensjoner. En individuell dimensjon, en relasjonell
+dimensjon, en strukturell dimensjon, og til slutt kampdimensjonen. (Bergo, Johansen, Larsen,
+Morisbak, 2002). Alle disse er uløselig bundet sammen og gjensidig avhengig av hverandre
+(Ronglan og Larsen, 2003). En spiller med god fotballferdighet må beherske alle de ulike
+sidene eller dimensjonene ved spillet, og det er mange eksempler på spillere med for
+eksempel gode tekniske ferdigheter som aldri utvikles til gode fotballspillere fordi de ikke har
+evnen til å bruke ferdighetene sine i en relasjonell og strukturell sammenheng og/eller fordi de
+ikke mestrer de utfordringene møtet med motstanderen og dens motspill gir deg.
+
+9
+
+Ulike dimensjoner ved fotballferdighet og sammenhengen mellom faktorer som påvirker spillerens fotballferdighet. (Bergo, Johansen,
+Larsen, Morisbak, 2002, s.33)
+
+2.1.2 Sammenhengen mellom fotballferdighet og fotballspillets egenart
+I boka til Bergo, Johansen, Larsen og Morisbak presenteres også en modell som i større grad
+setter ferdighetsbegrepet inn i kontekst for å forklare hele fotballspillet. Ferdigheten i spillet
+deles opp i tre områder; Omgivelser, Oppgave og Individ. I denne studien skal vi i hovedsak
+snakke om Individet, men for å forstå individet, så er det viktig å vite at individet alltid må
+handle utifra en helhetlig tanke knyttet til laget og spillet.
+Det er også sånn at ett lag kan ha spillere med ulike ferdigheter som kan utfylle hverandre. Og
+det kan være viktig i et lag å ha slike komplementære ferdigheter, siden alle spillere ikke har
+de samme fysiologiske, psykologiske og sosiale ressursene, og derfor heller ikke kan besitte
+ett komplett sett av fotballferdigheter. (Bergo, et. al. 2002., Ronglan og Larsen, 2003). På
+denne måten kan også oppgavene innad i laget være knyttet opp mot ulike roller, slik at
+rollene sammen kan utnytte sine ressurser og ferdigheter, og til sammen danne grunnlag for at
+lagets oppgaver løses på en hensiktsmessig måte.
+
+10
+
+Sammenhengen mellom fotballferdighet og fotballspillets egenart. (Bergo, et al. 2002).
+
+Denne oppgaven handler i stor grad om utvikling av fotballferdighet, og utvikling av individet
+i spillet. Det blir lett slik at om man snakker om individets ferdighet, så snakker man
+utelukkende om den individuelle dimensjonen. Om man med denne forståelsen skal kunne
+sette ned krav til individet blir de ferdighetene som vektlegges for endimensjonale. Ett
+eksempel på dette kan være spissrollen og dens krav til avslutningsferdigheter. I ett
+endimensjonalt syn, kan dette øves ved å gå ut på feltet å øve på skuddteknikk fra ulike
+vinkler og posisjoner.
+Om man legger hele ferdighetsbegrepet til grunn ser man at god avslutningsferdighet for en
+spiss også krever noe mer. Jeg har derfor valgt å se individets krav til ferdighet som en evne
+til å løse en gitt spillsituasjon til fordel for eget lag.
+En spillsituasjon omfatter en spillsekvens som kan betraktes som en enhet ut fra vår forståelse
+av spillet, og som i hvert enkelt tilfelle kan avgrenses ut fra funksjonelle hensyn. (Bergo,
+Johansen, Larsen og Morisbak, 2002, s.51).
+På denne måten kan man ved eksempelet for spissen over se på hans ferdighet i for eksempel
+Innleggssituasjoner. Da gir det seg selv at han for å inneha god fotballferdighet også må ha ett
+forhold til motstanderen i situasjonen, at han må forholde seg til lagets kollektive
+11
+
+retningslinjer, og ikke bevege seg ut på kant dersom laget ønsker han i slottet, og at han må ha
+en god relasjon til kantspilleren som skal slå innlegget i forhold til hvor og når innlegget slås.
+Dette krever innsamling av en stor mengde informasjon for å løse situasjonen man er inne i.
+Dette har igjen satt oss på sporet av at mye av denne informasjonen er nødt til å hentes inn på
+forhånd (Jordet, Læring av perseptuell ekspertise, 2003). En modell for situasjonsløsning
+inndelt i tre faser har derfor blitt utviklet i miljøet rundt Norges Toppidrettsgymnas i Bærum.
+Denne modellen viser til en forarbeidsfase som inkluderer innhenting av en rekke informasjon
+og å anskaffe seg den rette utgangsposisjonen for å best mulig kunne mestre den situasjonen
+som er i ferd med å oppstå. Fase 2 er en slags mellomfase som prøver å fange en del av den
+kvaliteten som gjør deg i stand til å vinne situasjonen i møte med motstanderen, mens Fase 3
+omhandler selve effektueringen av den handlingen situasjonen krever.
+
+Trefase-modell for situasjonsløsning eksemplifisert ved scoringssekvensen (Olafsen, 2012)
+
+På samme måte kan man også tenke i andre deler og situasjoner i spillet. Hvem har for
+eksempel ikke øvd 1.forsvarerferdighet med en sideback, og kun jobbet individuelt i en boks
+og hvordan 1.forsvareren sidestiller, leder, takler osv. Med en situasjonstekning rundt
+1.forsvarerrollen og 1v1 ferdigheten, så vil ett sentralt element være hvordan backen
+posisjonerer seg i forkant. Kanskje han unngår hele situasjonen, eller ligger klar til å bryte
+foran i det pasningen går.
+En ferdighet i fotball kan ved bruk av denne modelleringen inneholde flere elementer fra en
+spillers tekniske repertoar, eller flere ulike elementer av spillerens fysiske, og andre ressurser.
+For spissen i eksempelet over, må han for eksempel kunne være både rask nok til å komme
+først på ballen, sterk nok til å vinne duellen, og kanskje han må ha både ett godt medtak og ett
+godt skudd for å score dersom innlegget tilsier det. Dette viser mitt syn på ferdighet og dens
+nære tilknytting til den situasjonen ferdigheten er ment å løse.
+
+12
+
+2.2
+
+Scoringer i fotball
+
+En av de kanskje vanligste studiene gjort i fotball er ulike studier på hvordan mål scores og
+ulike effektivitetsparametere basert på det. Dette er jo i og for seg helt naturlig, i og med at
+det å score mål er selve grunntanken i spillets ide. Derfor er slike studier er gjort av trenere i
+store deler av fotballhistorien, både for å studere egne lag, motstandere og for å se på
+fotballspillet som i en større kontekst. Antageligvis er det også trenere på dette kurset som nå
+leverer inn oppgaver på dette temaet, og sånn sett kan man jo si at denne teoridelen allerede er
+utgått på dato før den er levert inn. Det er selvfølgelig ikke slik at spillet er i full forandring
+hele tiden, men det kan være fornuftig å ha i bakhodet at scoringssyntaksen nok vil utvikle seg
+også fremover. Like fullt er det en vis mann som en gang sa at dersom man ønsker å vite noe
+om fremtiden, så bør man se på fortiden, og hvordan denne har utviklet seg.
+Den første virkelige store studien av scoringer i fotball kom fra Charles Reep og stammer fra
+1950- og 60 tallet. Reep studerte alle scoringer gjort i engelsk fotball i mellom 1953 og 1967,
+og mente gjennom dette å kunne bevise hvilke pasningssyntakser som var mest effektive for å
+score mål i fotball. (Reep & Benjamin, Journal of the Royal Statistical Society, 1968). Dette
+arbeidet har senere inspirert en rekke trenere, deriblant Egil Olsen, og kan sies å være
+grunnleggende for mye av den teoretiske forståelsen vi har for spillet her i landet. Dette vises
+der i blant gjennom Olsen, Semb og Larsens bok Effektiv fotball (1994), hvor mange av de
+samme metodiske tankene er lagt til grunn for hvordan scoringssyntaksen er analysert.
+Av nyere arbeider gjort her i landet står Toppfotballsenterets analyser av VM sluttspillet i
+2010, og hele gruppe-, og sluttspillet i Champions League 2011, som de største arbeidene på
+generelle trekk ved scoring. Her vises det blant annet til at trenden internasjonalt er at det
+scores oftere etter lengre angrep enn tidligere, og dermed noe sjeldnere etter dødball og
+kontringer. Det vises også til at det er færre angrep enn tidligere, at de varer lengre, men at
+tempoet er høyere i spillet, og at de angrepene som fører til scoring også inneholder flere
+pasningstrekk enn tidligere (Teigen, et.al, Verdens beste spill, 2011).
+
+Utdrag fra TFS analyse av VM 2010, CL 2011 og Norges herrelandslag i 2010/11.
+
+Videre viser de til at dette henger sammen med bedre balanseforhold i lagene som
+konkurrerer på høyeste nivå internasjonalt, og ett mer seriøst forhold til dødballsituasjoner fra
+13
+
+alle lag, både offensivt og defensivt. Dette gjøres av alle lagene, men det mener også å kunne
+bevise at den store forskjellen på de beste og nest beste ikke ligger i forsvarsspillet, men i
+angrepsspillet. Ved å vise til sammenhenger mellom gjennombruddshissighet og ballbesittelse
+viser ser man at ingen av de to alene gir noen forskjell ift hvem lag som vinner oftest, men at
+forskjellen ligger i antall gjennombrudd som er utført. Man må altså søke gjennombrudd ofte,
+men samtidig å være gode på å velge ut hvilke gjennombrudd man går for. Man kan dermed
+anta at de beste lagene evner å bryte ned motstanderens balanseforhold bedre enn de andre
+lagene i turneringene de har analysert. (Teigen, et.al, Verdens beste spill, 2011). De er dermed
+avhengige av å inneha ett raffinert utviklet ferdighetsrepertoar, med stort krav til forståelse for
+spill/motspills-dimensjonen, for å møte de stadig vanskeligere romforholdene som møter dem
+i dagens spill.
+Ett annet perspektiv på hvordan scoringen i fotball kommer, er å se hvor den kommer fra,
+hvem som scorer den og mer nyanserte bilder omkring dette. Figuren under viser alle
+scoringer gjort i Premier League fra sesongene 2007-12, og hvor de kommer fra i banen. Som
+vi er det en kraftig konsentrering i området midt i sekstenmeteren. Dette danner utgangspunkt
+i benevnelsen «slottet», som sier noe om hvilket område det scores mest fra i fotball. Området
+dekker hele 5-meteren, og området innenfor en tenkt linje fra hjørnet på 5-meteren til hjørnet
+av 16 meteren. Faktisk scores så mye som 77 % av alle mål i fotball herfra.
+
+Studie av hvor målene i premier league kommer fra i banelegemet for sesongene 2007-2012.
+
+Toppfotballsenteret har også gått nærmere inn på å sett hvilke roller som står for de flest
+scoringer i dagens toppfotball. Som vi ser av modellen på neste side er det spissen, og da den
+fremste og midterste av spissene dersom man spiller med 2 eller flere, som scorer flest mål.
+Denne rollen alene står for nesten halvparten av alle scoringer i internasjonal toppfotball i
+dag, og dette setter jo dermed også ett stort krav til rollespesifik ferdighetstrening.
+
+14
+
+Alle scoringer fra VM 2010, CL 2011 og 12, EM 2012 og PL 2012.
+
+2.3
+
+Taktikk- og rolleutvikling i fotball i ett historisk perspektiv
+
+Spillets taktiske utvikling og hvordan lags strategi forandres er en naturlig og kontinuerlig
+pendel som går i fotballspillet. Når nye gode angrepsstrategier blir rådende kreves det nye
+grep i forsvarsspillet og vice versa. Den som kanskje er aller mest kjent for å studere dette er
+journalisten Jonathan Wilson, som har utgitt en rekke bøker og artikler om taktikktrender og
+utvikling. Dette arbeidet er langt fra vitenskapelig rettet og baserer seg mye på
+gjenfortellinger av gamle aviser, bøker og andre artikler om spillet fra tiden før tv-bildene
+kom. Det snakkes ofte om formasjoner som utgangspunkt for ett lags strategi i disse
+arbeidene, og det kan være en stor feilkilde i at datidens mediers oppfattelse av spillet blir
+gjeldende for å beskrive ett lags taktikk. Ett eksempel som kan beskrive dette er om man ser
+på omtalen av 4-4-2 formasjonen og den mer moderne 4-2-3-1 formasjonen. Om man leser
+artikler fra perioden før 2005, så ble de fleste lag omtalt som 4-4-2 dersom de hadde en såkalt
+mellomromsspiss i tillegg til en spiller helt på topp. Mange av disse lagene har man i ettertid
+sett at spilte ganske likt det man i dag kaller 4-2-3-1. Arsenal sitt «uovervinnelige» lag fra
+2003-04 sesongen er ett eksempel på dette. De benyttet gjerne Henry helt på topp, og
+Bergkamp i rommet bak, med Pires og Ljungberg på hver sin kant, og to dypere sentrale
+midtbanespillere i Vieira og Silva. Ett lag som i dag hadde hatt ett slikt uttrykk ville kanskje
+bli satt opp i 4-2-3-1 av mediene. Uten å studere lagene nøye og ha klare defineringer for hva
+man legger som utgangspunkt for en formasjon er det vanskelig å sette nøyaktige beskrivelser
+av dette. Det er også ulike definisjoner på dette både med ett defensivt og ett offensivt
+utgangspunkt, og i moderne tid med utgangspunkt i spillernes posisjonering i banen gjennom
+15
+
+kampen. Wilson er dog klar over dette, og gir heller aldri inntrykk av noe annet, og det er
+fortsatt nyttig å kunne bruke de kildene man har for å se spillets utvikling i en tidsperiode
+hvor video og andre kilder ikke er tilgjengelig. Dette arbeidet er like fullt langt ifra fullendt,
+og det kommer stadig nye artikler hvor han både går grundigere til verks og lengre tilbake i
+tid.
+Han (Wilson) viser gjennom sin bok Inverting the pyramid (2009) til de ulike populistiske
+trendene innenfor taktikk, og til hvilke taktikker som opp igjennom årene har hatt mest
+suksess i form av å vinne store titler og trofeer. En gjennomgående trend fra dette er at det
+stadig flyttes spillere bakover i leddene, og man har gjennom 1900-tallet gått fra å stille opp
+laget med 5 og 6 mann i fremste ledd, til i dag og oftest spille med 1. Om man ser nærmere på
+de faktiske oppgavene til spillerne så er jeg dog usikker på om f.eks Barcelonas sidebacker i
+4-6-0 er mer defensive enn de opprinnelig var i den rådende 2-3-5 fra perioden før 1925, men
+det er nok mer en måte å beskrive spillernes oppgaver utifra datidens forståelse av spillet. En
+annen viktig faktor for hvorfor taktikker forandrer seg er regelendringer i spillet.
+Offsideregelen har f.eks radikalt forandret seg siden spillet, slik vi kjenner det i dag, startet på
+midten av 1800-tallet. I starten var det ikke lov til å spille ballen fremover, og behovet for
+flere ledd var ikke tilstede i like stor grad. Dette ser man jo fortsatt i dag i f.eks rugby, som
+fotballens regelverk har sitt utspring fra. Etter hvert ble det lov å spille pasninger fremover,
+men det var offside på tilnærmet samme måte som i dag, med unntak av at 3 spillere
+(2+keeper) hos det forsvarende lag kunne ligge innenfor uten å oppheve offsiden. Senere ble
+dette forandret til 2 spillere, før det ble som i dag, hvor bare en forsvarsspiller kan ligge
+innenfor (Wilson, Inverting the pyramid, 2008). Dette har selvfølgelig hatt store konsekvenser
+for valg av taktikk og strategi. Tidligere kunne man altså sette en høy offsidelinje, men
+samtidig ha 2 sweepere som sikret deg dersom offsidelinjen ikke fungerte.
+På samme måte som lagets formasjon har forandret seg har det også vært tatt i bruk ulike
+rollebeskrivelser opp igjennom årene. Det interessante her er at mange av de rollene vi i dag
+ser på som moderne nyskapninger ofte har vært benyttet langt tilbake i historien. Kanskje ikke
+på nøyaktig samme måte, men hvor grunnideen omkring rollen er den samme. Ett eksempel
+på dette er rollen som i dag ofte blir kalt falsk 9’er, og som mange forbinder med Fransesco
+Totti i Roma, eller Lionel Messi og Cesc Fabregas i Barcelona. Faktum er at den samme
+typen rolle, hvor man benytter er spiller i en klassisk toppspiss-posisjon som faller ned og
+skaper overtall i midtbaneleddet, har vært brukt mange ganger opp igjennom historien. Mest
+kjent er kanskje Mathias Sindelaar fra Østerrikes gode lag på midten av 1930-tallet, men mye
+kan tyde på at rollen også er tatt i bruk allerede på 1890-tallet, og kanskje tidligere også
+(Wilson, 2009).
+I dagens fotball er det ett generelt ønske om å kontrollere og dominere rom sentralt i banen,
+og mange lag overbefolker spesielt sentral midtbane (Lilleshall 2009). Lagene på toppnivå
+spiller gjerne svært dynamiske formasjoner hvor spillerne ofte bytter posisjoner, eller i det
+minste drar seg ut sine opprinnelige posisjoner i laget. Jonathan Wilson gir i slutten av hvert
+år ut en artikkel for å peke på de taktiske trendene som har vært mest rådene i året som har
+gått. Han peker på at kantspillere som går innover i banen, og falske 9’ere fortsatt er blant de
+16
+
+klareste trendene, men nevner også at det å spille med kun 3 spillere i bakre ledd er på vei
+tilbake i fotballen med full kraft. Kanskje dette er en av mottrekkene mot de andre trendene
+han nevner? Om lag spiller med falske 9’ere og kanter som vandrer innover i banen, så er det
+kanskje ikke ett like stort behov for å ha 4 mann i det bakre leddet, og lag ofrer det for å
+kunne ha en ekstra sentral midtbanespiller for eksempel.
+
+2.4
+
+Utvikling av ekspertise i fotball
+
+Det er gjort en rekke studier på ekspertiseutvikling i ballsport og fotball spesielt. Mange av
+studiene som er gjort i ballsport er blitt utført i laberatorium hvor video brukes som et av
+hovedverktøyene. Med ett økologisk syn på fotballspillet, kreves det likevel at å se spillerne i
+deres naturlige omgivelser for å fullt ut fange den kvaliteten som ligger i aktiviteten
+(Bekkelund & Holme, 2009). Jeg ønsker her å presentere de studiene som gir ett best mulig
+bilde på hva som er gjort innenfor fotball, og hva som er mest relevant for denne oppgaven.
+
+2.4.1 Prestasjon og Læring
+Prestasjon er ganske enkelt observert atferd. Det vi si, det er den atferden vist av en spiller
+gjennom en trening eller en kamp (Stratton, Reilly, Williams and Richardson, 2004). Læring
+kan defineres som «En relativt varig endring (eller potensiell endring) i atferd som følge av
+erfaring» (Svartdal & Flaten, 1998). Læring resulterer derfor i en permanent endring i atferd
+og en økt evne til gode prestasjoner. Mange teorier har vært foreslått gjennom årene for å
+forklare hvordan spillerne lærer bevegelsesferdigheter. Den mest vanlige teoretiske
+tilnærmingen oppstod fra kognitiv psykologi. Antagelsen er at gjennom øvelse utvikler eleven
+et generelt motorisk program eller skjema for hver ferdighet (Schmidt and Lee, 199; Schmidt
+and Wrisberg, 2000). Treneren spiller en fundamental rolle i å hjelpe spilleren tilegne seg
+fotballferdigheter, da han sørger først for at spilleren får informasjon om de ferdighetene som
+skal presteres (normalt ved hjelp av visuelle demonstrasjoner og/eller verbale forklaringer),
+spilleren får så en mulighet til å lære ferdigheten gjennom organiserte treninger, dette følges
+så opp av tilbakemeldinger om hvordan prestasjonene kan forbedres i neste treningsøkt.
+Ronglan (2008) kommenterer at implisitt læring skjer når barn / unge spiller ball på løkka,
+hvor de ikke er primært opptatt av å lære, men å leke og ha det gøy. Læring skjer gjennom
+bevegelseserfaringene leken gir dem. Ved å prøve og feile, observere hverandre, prøve på nytt
+og nytt, kan spesifikke situasjoner gradvis mestres. Forskning viser at bevegelser som er lært
+implisitt kan være mer stabile, særlig når man skal prestere under press. Williams (1998) sier
+at trenere bør sikre at de varierer øvelsene ved å manipulere faktorer som avstand, hurtighet,
+retning og at treningsøkten reflekterer de variasjonene som finner sted i en kamp. Med andre
+ord, øve til kamp hver eneste gang. På samme måte viser Bunker and Thorpe (1982) gjennom
+sin modell “teaching games for understanding” at treneren bør sørge for en alternativ
+17
+
+tilnærming til tradisjonell kampinnlæring, og viser til at fotball deler de vanlige
+karakteristikkene med andre såkalte «invasion-games». Mesteparten av treningen brukes her
+til kamplignende situasjoner og mindre tid til tradisjonell, spesifikk ferdighetstrening lavt på
+funksjonalitetsskalaen. Ronglan (2008) påpeker at spesifisitetsprinsippet viser at du blir god
+til det du øver mye på. Skal du utvikle din evne til å løse spillsituasjoner kan det derfor være
+fornuftig å trene mye som mulig så likt som mulig de spillsituasjonene som skal løses.
+
+2.4.2 10 000 timer med Kvalitet
+Ericsson, Krampe og Tesch-Rømer (1993) har utviklet en modell som forklarer utvikling av
+ekspertise. Her menes det at det kreves minimum 10 år eller 10 000 timer med trening for å
+oppnå ekspertise. Disse studiene er gjort innenfor flere felt, blant annet på leger,
+idrettsutøvere og musikere. Helsen, Starkes og Hodges (1998) kommer frem til mye av det
+samme i sin studie av is hockey og fotball, der det var en sammenheng mellom hvor mange
+timer spillerne hadde lagt ned, og hvilket nivå de spilte på. Ericsson, et.al, viser også til at det
+ikke bare handler om antall treningstimer, men at det må være såkalt deliberat practice. Med
+dette menes at treningen må være effektiv og at den må være spesifikt rettet mot de
+ferdighetene man ønsker å oppnå med treningen.
+Geir Jordet ved Norges Idrettshøgskole er en av de som har studert dette grundigst i Norge,
+blant annet med en doktorgrad på utviklingen av perseptuell ekspertise, og i senere tid som
+leder for en rekke studier knyttet mot treningshistorikken hos de spillerne som i dag er
+elitespillere i Norge (Jordet, 14-21 prosjektet, 2012). De peker på at norske spillere
+antageligvis har opparbeidet seg en høyere treningsmengde enn spillere i tilsvarende studier
+fra land som Tyskland, Frankrike og England. Dette underbygger Ericsson, et.al, sin påstand
+om at det ikke bare handler om treningsmengde, men at det må være trening tilpasset den
+aktiviteten som skal læres.
+Selv om trening alene ikke nødvendigvis garanterer suksess, finnes det ikke noe alternativ til
+dette. Noen spillere har en fordel i å være bedre genetisk predisponert, men ingen spillere har
+oppnådd et elitenivå uten en unik treningsmengde. Ward og kolleger (2004) viste at de som
+ble rekruttert av Akademiene til engelske Premier League klubber som 16 åringer startet å
+spille fotball da de var 6 år og i løpet av de neste 10 årene trente de fotballrelaterte aktiviteter i
+gjennomsnitt 15 timer i uka, 700 timer i året, og over 7000 timer totalt. Det er sannsynlig at
+disse dermed kom opp i de angitte 10000 timer trening før de var klare for sin a-lags debut.
+Det er ikke bare viktig for dyktige spillere å trene, det er minst like viktig å gjøre de riktige
+øvelsene og få de riktige instruksene underveis. Øvelse alene er altså ikke nok, man må trene
+effektivt og tilpasset den aktiviteten som skal læres, og Ericsson (1993) påpeker også at slik
+trening ikke nødvendigvis alltid er gøy.
+
+18
+
+2.4.3 Selvregulering av læring
+I forlengelse av arbeidet knyttet til effektiv læring og «deliberate practice», så har det kommet
+frem modeller for hvordan slik type læring kan skje på en effektiv måte. Toering (2011)
+presenterer i sin doktoravhandling en modell for selvreguleringsprosessen, og hvilke
+elementer den består av. Som vi ser av modellen under er selvregulerende læring en
+kontinuerlig prosess mellom Planlegging, Trening med maksimal innsats, Monitorering
+underveis, Evaluering i etterkant, og så ny planlegging og trening osv. Underveis gjennom
+hele prosessen foregår det en kontinuerlig refleksjonsprosess for å vurdere prestasjon,
+ferdigheter og hvordan effektiviteten som spiller kan økes.
+
+Tynke Toerings modell for Selvregulerende læring i fotball.
+
+Toering (2011) viste at det var forskjeller mellom elite-spillere og ikke-elite spillere når det
+kom til de ulike ferdighetene tilknyttet selvregulerende læring. Refleksjonskraft og innsats var
+de variablene som viste størst forskjell og best sammenheng med hvem som var blitt spillere
+på øverste nivå. Denne modellen har vært med å danne utgangspunktet for et måleinstrument
+for måling av selvregulerende læring, presentert av Ripegutu i sin masteroppgave ved Norges
+idrettshøgskole (2011). Han uttaler at trenere bør vurdere pedagogiske metodiske grep som
+gjør at spillere utvikler bedre ferdigheter i selvregulering. Det å jobbe med å få spillere til å
+planlegge, evaluere og reflektere i forkant, under og etter trening kan medføre at spillere lærer
+mer effektivt og øker dermed mulighet til å bli virkelig gode fotballspillere (Ripegutu, 2011).
+
+19
+
+2.4.4 Spesifisitet og funksjonalitet
+Spesifisitet er et grunnleggende prinsipp for trening og læring, og går i hovedsak ut på at de
+krav som spillerne stilles ovenfor på trening bør ligge tett opp mot de utfordringer som de
+møter i kamp. Det er hensiktsmessig å velge aktiviteter som i størst mulig grad gjenskaper
+situasjoner og omgivelser som spillerne møter i kamp, og treneren bør derfor streve etter å
+skape mest mulig reelle situasjoner, der alle mulige varianter av impulser og signaler fra ball,
+samt med- og motspiller inngår. Hovedaktiviteten med hensyn på ferdighetsutvikling bør
+derfor være forskjellige varianter av kamplike øvelser. (Lexerød, 2010). Prinsippet om
+spesifisitet i treningen utelukker imidlertid ikke trening av tekniske detaljer i mer isolerte
+aktiviteter, men understreker betydningen av at detaljene sees og øves i en sammenheng, og i
+vekselvirkning med mer kamplike aktiviteter (Bergo et al. 2002). Det er derfor viktig å variere
+aktivitetene slik at spillerne lærer å ta hensyn til, og beherske de inntrykk og signaler som er
+knyttet til ulike kampsituasjoner, og som påvirker både handlingsvalg og handling. Dette
+bringer oss over i prinsippet om funksjonalitet i treningen.
+Siden både praktisk erfaring, treningslære og læringsteori tilsier at læring stimuleres best
+gjennom flere former for påvirkning, vil de færrest tilrå å spille kamp hele tiden (Rongland
+2008). En veksling mellom ulike grader av funksjonalitet er derfor viktig med hensyn på å
+automatisere tekniske detaljer, og for å få dem til å fungere i kamplike situasjoner. Morisbak
+(1990) viser at vi kan skille mellom fire funksjonalitetskategorier:
+1. Aktiviteter med hovedvekt på individuell ballbehandling
+2. Aktiviteter med hovedvekt på ”å spille sammen med”
+3. Aktiviteter med hovedvekt på ”å spille mot”
+4. Blandingskategori med diverse spill og lekformer
+Funksjonalitetskategoriene beskriver blant annet hvor godt samsvar det er mellom aktiviteten
+på trening og i kampen. Høy grad av funksjonalitet betyr at de fleste forhold som spilleren
+opplever i kamp er til stede i treningsaktiviteten. Det kan være hensiktsmessig å bruke relativt
+mye tid på lav funksjonalitet dersom teknikken er dårlig, eller man ønsker å automatisere eller
+perfeksjonere spesielle detaljer. Utover dette prioriteres trening på høyere funksjonalitet
+(Lexerød, 2010). Som vi ser er det viktig å variere mellom aktiviteter med
+forskjellig funksjonalitet for å oppnå en helhetlig påvirkning av fotballferdigheten, og et
+viktig prinsipp for god ferdighetsutvikling er derfor at man stadig beveger seg opp og ned på
+funksjonalitetsskalaen, og ikke betrakter den som en progresjonsskala der man starter i den
+nedre enden og bygger seg sakte med sikkert oppover (Lexerød, 2010).
+
+20
+
+2.5
+
+Tidligere studier på rollekrav i fotball
+
+De fleste studier innenfor rollekrav og kompetansekrav i sentrale spillsituasjoner i fotball
+omhandler spisser og deres ferdigheter knyttet til å score mål, eller til keeperrollen. En rekke
+arbeider er gjort for å dekke dette feltet, og masteroppgaver som (Holmedal, 2008, Grøttland,
+2008), Trenerlisens oppgaver som (Rushfeldt, 2011) og TFS sin presentasjon fra La Manga
+seminaret 2013 er eksempler på dette. Mange klubber har i tillegg utarbeidet egne vurderinger
+av hvilke ferdigheter de ønsker å se etter når de scouter spillere i ulike posisjoner. Disse kan
+virke noe endimensjonale, og om vi ønsker å se nærmere på flerdimensjonale
+rollebeskrivelser er feltet noe mangelfullt dekket her i landet. Spesielt når det kommer til
+midtbanespillere og ulike rollebeskrivelser her.
+Ett eksempel på en slik fremstilling er hentet fra Hareide (2004):
+Sidebackenes rolle
+TAKTISKE/TEKNISKE FERDIGHETER
+- ballsikker, god til medtak
+- god pasningsspiller: velge riktig løsning og ha et bredt repertoar; korte lange fremspill,
+innlegg, crossballer, chip, pasning med utsiden og vristspark.
+- Hurtig og sikker ballføring
+- Pasningsteknikk med begge ben
+- Gode dribleegenskaper
+- Godt hodespill: vinne dueller, rydde unna, klareringer
+DEFENSIVE FERDIGHETER
+- plasseringssikker, forholde seg riktig til linjen, se farer tidlig, våken
+- dyktig 1.Forsvarer; presse lede, oppholde, takle og bryte foran
+- aggressiv og sterk i duellspill langs bakken og i lufta
+FYSISKE FERDIGHETER
+- hurtighet: korte og lange løp
+- stor løpskapasitet og løpsvilje
+- styrke :duelkraft
+MENTALE FERDIGHETER
+- mot: våge å utfordre 1 mot 1 i angrepssone
+- konsentrasjon: initaiativ, gjøre seg tidlig spillbar, skape overtall på kanten, 2:1
+
+Ronglan og Larsen (2003) skriver at tradisjonelle arbeidskravsanalyser ikke strekker til i en
+analyse av ballspill, dette på grunn av at den har kun et individuelt perspektiv, den søker å
+bestemme entydig og felles krav, den tar utgangspunkt i lukkede idretter og den overser
+motstanden og spillsituasjonens dialektikk. Det er likevel gjort flere forsøk på slike
+arbeidskravsanalyser i fotball, blant annet av Olafsen, et.al (2003).
+Øyvind Eide leverte i 2007 en masteroppgave ved Norges idrettshøgskole hvor han tar for seg
+trenermetodikk og optimal utvikling av ferdighet i fotball. Denne er videreført i hans
+treneroppgave fra 2010, hvor han går i dybden på indreløperrollen i 4-3-3. Denne bygger
+blant annet på G. Dahls hovedfagsoppgave fra 2002 om Rolleferdigheter. Denne oppgaven tar
+spesifikt for seg sideback og indreløperrollen i angrep. Teigens hovedfagsoppgave fra 2005
+tar også for seg noe knyttet til rolleferdighet, men ikke i tilstrekkelig grad for det omfanget vi
+ønsker. Trond Fredriksen (2011) skrev sin A-lisensoppgave om Michael Barrantes rolle i
+Aalesund, som vel er det nærmeste man kommer den rollen jeg ønsker å se nærmere på i
+denne studien. Denne tar for seg hans rolle i laget på flere måter enn bare det spill
+kontekstuelle, og kan være ett fint supplement til min oppgave om man ønsker en bredere
+forståelse for rollen.
+
+21
+
+3.0
+
+Problemstilling
+
+Formålet med denne studien er først og fremst å gå i detalj på en enkelt spillsituasjon, og
+bruke den som eksempel på en analytisk tilnærming til metodikk og fremgangsmåte ift andre
+lignende spillsituasjoner. Jeg ønsket å se hva som kjennetegner de beste spillerne i verden, og
+jeg ønsket å grave så dypt som mulig for å finne frem til den kvaliteten som ligger i
+situasjonen. Dette har vært gjort tidligere ved andre spillsituasjoner for andre roller i laget, og
+jeg ønsket at denne studien skulle være med å komplimentere andre lignende studier ift å
+belyse kvaliteten ved de mest sentrale og avgjørende situasjonene i spillet vårt. Dette er igjen
+tenkt skal kunne være ett verktøy til bruk i utviklingen av neste generasjons fotballspillere,
+slik at resultatene i studien bør kunne formes til pedagogiske læringspunkter for hva som er
+hensiktsmessig i en slik type situasjon. Mine problemstillinger lyder dermed som følger:
+
+1. Hva kjennetegner de beste høye playmakerne i verden og deres evne
+til å forløse spillet?
+
+2. Hvordan kan denne kvaliteten omdannes til læringspunkter brukt i
+spillerutvikling?
+Utifra disse problemstillingene melder det seg også en del andre underliggende spørsmål som
+jeg ønsker å svare på. Dette gjelder først og fremst disse:
+-
+
+Hvem er de beste spillerne i verden i rollen «Høy Playmaker»
+Hva kjennetegner denne rollen og hva gjør den annerledes enn andre
+midtbanespillere?
+Er det hensiktsmessig å dele inn spillernes ferdighet i en spillsituasjon i ulike
+faser?
+Hva ligger eventuelt innenfor vær enkelt fase?
+
+22
+
+4.0
+
+Metode
+
+Den metodiske tilnærmingen i denne oppgaven er laget i samarbeid med Norsk
+Toppfotballsenter, og tilpasset deres krav, slik at den passer sammen med andre lignende
+prosjekter som er gjort innenfor samme fagfelt på andre roller i laget. Formålet med studien
+har vært å se hva som kjennetegner de beste spillerne i verden i sentrale og avgjørende
+spillsituasjoner for sin rolle i laget. Studien bygger derfor på både kvantitative og kvalitative
+metoder, hvorav de kvantitative metodene benyttes for å vise hvilke spillere som er med i
+utvalget, hvilke situasjoner som er valgt ut, og det er i tillegg gjort ett større analysearbeid
+med ett rikt variabelsett i hver enkelt situasjon som er analysert. I tillegg har det vært
+nødvendig å benytte seg av mer kvalitativ metodikk for å vise frem den detaljrikdommen som
+ligger innenfor det området jeg ønsker å belyse, og som ses på som avgjørende for å få frem
+den kvaliteten som ligger der. En mer nøyaktig beskrivelse av metodikken og hvilke
+potensielle problemer denne har ført med seg vil bli beskrevet nærmere i dette kapitelet.
+
+4.1
+
+Valg av metode, strategi og tilnærming
+
+Som nevnt i innledningen har mitt ønske vært å studere de beste spillerne i verden, hvordan de
+løser sin rolle i laget, og hva som er den virkelige kvaliteten i de mest sentrale
+spillsituasjonene for nettopp den rollen de spiller. Denne oppgaven omhandler først og fremst
+en rolle, «Den høye playmakeren», men oppgaven inngår samtidig i ett større arbeid utført av
+Norsk Toppfotballsenter (heretter kalt TFS), som omhandler alle rollene i laget. Oppgavens
+metodiske oppbygning vil derfor samsvare med metoden som er brukt i TFS sine andre
+prosjekter av samme format. Dette omhandler ett grundig kartleggingsarbeid for å identifisere
+de beste spillerne i verden, kvantitative og kvalitative analyser for å kunne si noe om hvilke
+ferdigheter og spillsituasjoner som fremstår som sentrale i ulike roller, og til slutt en grundig
+kvantitativ og kvalitativ analyse av de utvalgte spillerne i de aktuelle spillsituasjonene.
+Det er samtidig viktig å merke seg at studien er gjort på ett lite knippe spillere, og at dette
+ikke er en studie som prøver å finne resultater som representerer fotball som helhet, a’la
+studiene til Charles Reep på scoringer i fotball. Dette er først og fremst ment som en kvalitativ
+studie hvor man kan gå veldig detaljert til verks på noen utvalgte av de aller beste spillerne.
+Resultatene her må således også tolkes i forhold til den konteksten de kommer fra. Disse
+spillerne spiller i noen av verdens beste lag, de har fantastiske medspillere rundt seg, og de er
+overlegne sine motstandere i nesten alle kampene de spiller. Resultatene indikerer således
+bare hvordan de aller beste spillerne agerer i slike situasjoner, og bør brukes som
+inspirasjonskilde til refleksjon rundt egen praksis, mer enn en fasit for hvordan dette skal se ut
+i din egen kontekst.
+
+23
+
+4.2
+
+Utvalg og gruppestørrelse
+
+Når man ønsker å se på de beste spillerne i verden, så er det normalt sett vanskelig å komme
+tett nok innpå spillerne. Intervjuer og andre mer dyptgående metoder innenfor fagfelt som
+psykologi osv, er vanskelige å gjennomføre i stor skala. Når det gjelder deres kvaliteter som
+fotballspillere er det derimot mye enklere. Moderne teknologi gjør de fleste kamper på
+profesjonelt nivå tilgjengelige, og med de analyseverktøyene og statistikkprogrammene man
+har i dag er det enkelt å studere de beste spillernes ferdigheter på banen.
+Spillerne i mitt utvalg er plukket ut fra TFS sine utvalgte 137 spillere (Vedlegg), som er en
+liste over de antatt beste spillerne i verden i hver enkelt posisjon. Disse 137 spillerne er valgt
+på bakgrunn av følgende kriterier. Spillerne må spille på øverste eller nest øverste liganivå i
+Europa (TFS, Sportslig målverktøy), eller tilsvarende på andre kontinenter. De må være
+nominert til FIFA’s kåring av årets lag i verden i løpet av de siste tre årene. Her nomineres ett
+antall spillere i hver enkelt posisjon hvert år, og over tre år kommer man opp i mellom 10-20
+spillere i hver posisjon. Man kan i utgangspunktet anta at dette er de beste spillerne, men
+enkelte kan ha blitt forbigått, så man har valgt å legge på ett par filtre til. Bl.a. har man
+benyttet de norske landslagstrenerne på herresiden for å gjøre en kvalitativ vurdering av de
+beste spillerne i hver enkelt av spillertroppene i forrige fotball-VM. Og man har brukt
+kåringer av de beste unge spillerne for å supplere med spillere som kanskje står for vel så godt
+spill, men som kanskje ikke enda er anerkjent i like stor grad.
+De spillerne jeg var på jakt etter skulle altså utføre rollen «Høy Playmaker». Denne
+stereotypien kan være vanskelig å fange inn, og kan stamme fra ulike posisjoner i laget. Etter
+diskusjon med og innblikk i TFS arbeid med rollestereotypier, kom det frem at denne typen
+spiller kan opptre som en klassisk mellomromsspiller (Nr.10/Trequartista/m.fl.), men den kan
+også komme vandrende fra kantposisjon, drivende fremover fra sentral midtbane, eller han
+kan droppe ned fra en spissposisjon som det man populært kaller en «falsk 9’er». Felles for
+dem alle er at de oppsøker og befinner seg i stor grad mellom motstandernes ledd, er sentralt i
+banen, og at de spiller en viktig rolle i de senere fasene av lagets mål og sjanseskaping.
+For å finne mitt utvalg måtte jeg derfor finne hvilke av de 137 spillerne som faktisk opptrådde
+i disse rommene. Alle sentrale midtbanespillere, offensive midtbanespillere, kantspillere og
+spisser ble derfor sjekket av i Amisco-Prozone sin enorme database for statistisk analyse av
+individuelle handlinger i fotball. Dermed har vi kommet frem til hvilke spillere som har vært
+involvert i ett lags scoringer og sjanser, ikke bare gjennom mål og assist, men hele veien i
+pasningsrekka. Mine spillere skulle skille seg ut både gjennom å være sentrale
+pasningsspillere, med ett høyt antall pasninger (Playmakere), antall assister, men også ved å
+være 3, 4, og 5. sist ved scoringene. I så måte kan man si at de er sentrale i forløsningen av
+spillet. Amisco-Prozone benytter også ulike trackingsystemer, som gjør det mulig å finne hvor
+spillerne faktisk befinner seg på banen i løpet av en kamp. Slik kan man skille de «høye
+playmakerne» fra playmakerne som ligger lavere i banen og dikterer angrepsoppbygningen,
+men også fra kantspillere og andre som naturlig er involvert sent i scoringssyntaksen.
+
+24
+
+Utifra denne kvantitative analysen kom jeg frem til følgende 8 spillere, som jeg ønsket å
+studere nærmere: Mesut Øzil – Real Madrid, Juan Mata – Chelsea, Andres Iniesta –
+Barcelona, Xavi Hernandez – Barcelona, David Silva – Manchester City, Francesc Fabregas –
+Barcelona, Marek Hamsik – Napoli, Lionel Messi – Barcelona.
+
+4.3
+
+Oppgavedesign
+
+4.3.1 Statistisk analyse
+Som beskrevet over foregikk første del av studien som en statistisk og analyse av allerede
+fremlagte data fra bl.a. Amisco-Prozone og TFS for å finne frem til utvalget av spillere og til
+de situasjonene som skulle analyseres. Designet kan legges under kategorien lengdesnitts
+undersøkelse, hvor en gruppe undersøkes på flere tidspunkt for å kartlegge endring (NIH,
+metodeforelesning VMS200, 2004). Det er også brukt visse kvalitative filtre for å
+kvalitetssikre at de kvantitative funnene samstemmer med den mer allmenne oppfatning.
+4.3.2 Kvantitativ observasjon (indirekte observasjon)
+Andre del av studien, som omhandler selve analysearbeidet av de sentrale spillsituasjonene i
+rollen, har foregått ved at jeg har sett på video av spillerne i alle de scoringssituasjonene de
+har vært involvert i gjennom hele sesongen 2012/2013. Dette gjelder både serie, cup og
+europacupkamper. Det er brukt 52 grunnvariabler, som igjen kan krysskobles til over 100
+variabler som er notert og sjekket av i ett registreringsskjema (vedlegg) utviklet i samarbeid
+med Rolf Teigen, Kenneth Wilsgård, Espen Andersen og Aksel Bergo i TFS.
+4.3.3 Kvalitativ observasjon
+I tillegg til de tallfestede målbare dataene jeg har kunnet skaffe gjennom analysen fremgår det
+som nødvendig å i tillegg legge til en kvalitativ vurdering av de ferdighetene man kan se i
+situasjonene. Dette fordi ferdighetsrepertoarene man finner i slike situasjoner er såpass
+raffinerte og detaljrike at de ikke lar seg innkapsle godt nok gjennom tall. (Repstad, 1993)
+
+4.4
+
+Situasjonsavgrensning
+
+Den høye playmakeren ses som sentral i de senere fasene av angrepet. Den har fått sin
+rolletittel fordi den ligger høyt i banen, og skal være delaktig i selve forløsningen av spillet,
+og da gjerne gjennom gjennombruddspasninger eller avdriblinger forbi siste ledd i
+motstanderlaget. Jeg har derfor valgt å se spesielt på disse spillernes assister, da disse er de
+mest elementære og avgjørende spillsituasjonene disse spillerne er involvert i, kanskje bortsett
+fra de gangene de selv scorer selvfølgelig.
+Årsaken til at jeg kun har valgt å se på assistene, og ikke tatt med 3.assister, 4.assister, osv,
+skyldes rett og slett omfanget av situasjoner som skulle analyseres. Disse spillerne er
+involvert i såpass mange scoringssekvenser gjennom sesongen, at ett økt antall situasjoner
+ville begrenset muligheten til å gå like dypt og detaljert til verks på vær enkelt situasjon. På
+samme måte kunne jeg også tatt med alle såkalte «key-passes», som er assister på sjanser som
+ikke ble scoring. Disse er jo for den høye playmakerens del i stor grad like situasjoner, men er
+
+25
+
+eliminert bort også for å kvalitetssjekke at det ikke var pasningen i seg selv som førte til den
+misbrukte sjansen.
+Assisten som spillsituasjon har jeg igjen delt inn i tre faser.
+Fase 1: Tilgang på ball – Kan beskrives gjennom de bevegelser og den posisjonering som gir
+gir deg muligheten til å få ball i ønsket posisjon. Ofte omtalt som utgangsposisjonering.
+Fase 2: Fra mulighet til realitet – De handlingsvalg og handlinger som åpner mulighet til å slå
+den avgjørende pasningen. Når du først er i posisjon og du mottar ball så er det fortsatt en del
+detaljer som skiller slik at dette kan bli en avgjørende pasning.
+Fase 3: Siste pasningen – Handling og handlingsvalg for siste berøring ved den avgjørende
+pasningen før scoring. Kvalitet i utførelse er alltid sentralt i en avgjørende situasjon.
+Denne tredelingen er nøye diskutert med fagfolk fra TFS, NFF og klubben min Tromsø IL, og
+viser seg å stå seg godt både her og for å forklare andre lignende spillsituasjoner. Modellen er
+hentet fra ett tidligere arbeid av Espen Olafsen for å lage ett pedagogisk verktøy til bruk på
+Norges Toppidrettsgymnas (NTG). Selv om modellen står seg godt, så er det viktig å merke
+seg at slike modeller aldri fullstendig klarer å forenkle og forklare den kompleksiteten den i
+utgangspunktet er satt til uten at den tar bort noe av kompleksiteten (Morin, On Complexity,
+2008). Med det menes her at man lett mister noe av essensen i den kompleksiteten om man
+forsøker å forenkle den ved en modell. Dette må alltid kalkuleres med når man bruker slike
+eller andre modeller for å forenkle ett bilde.
+
+4.5
+
+Analyseprosessen
+
+Analysen ble utført gjennom videomateriale hentet fra det nettbaserte programmet Wyscout.
+Dette er en database designet for scouting av profesjonelle fotballspillere over hele verden, og
+gav meg enkel tilgang til alle scoringssituasjonene til de lagene og spillerne jeg ønsket å
+analysere nærmere. Jeg så på alle scoringssituasjoner spillerne var involvert i på klubbnivå, da
+de ofte opererer i andre roller, stiler og systemer for sine landslag. Kampene jeg benyttet
+inkluderte nasjonal serie og cup, samt Champions League kamper fra hele sesongen
+2012/2013. Alle spillerne var involvert i gruppespillet i Champions League dette året.
+Hver scoringssekvens ble grundig analysert gjennom ett variabelsett utarbeidet i samarbeid
+med TFS, og notert ned i excel (Vedlegg), før det ble utarbeidet en Pivot-tabell slik at jeg
+kunne krysskoble variabler og dermed øke variabelomfanget kraftig, samt effektiviteten i
+arbeidet. De fleste av variablene er designet for å kvantitativt kunne telle hvor mange ganger
+fenomenet inntreffer, mens andre er laget for å mer kvalitativt kunne vurdere ferdigheten og
+kvaliteten i utførelsen.
+
+4.5.1 Variabelsett med operasjonalisering
+Situasjonsbeskrivende variabler:
+- Spiller – Navn på spiller som blir analysert
+- Kamp – Fra hvilken kamp er spillsituasjonen hentet.
+- Resultat – Hva ble resultatet i kampen.
+- Situasjon – Hva slags type situasjon er det snakk om. Med underkategorier for hvor i
+pasningsrekka spilleren er involvert.
+
+26
+
+-
+
+-
+
+Type angrep – Hva slags type angrep er det snakk om. Med underkategoriene Etablert
+angrep, Overgang offensivt, Gjenvinning, og dødballene Corner, Frispark skudd,
+Frispark innlegg, Innkast, Straffe og Andrebølge innlegg. Denne siste er kanskje ikke
+operasjonalisert inn under dødballangrep av andre, men jeg kategoriserte det som en
+forlengelse av en dødballsituasjon så lenge dødballsstrukturen til motstanderlaget
+fortsatt var rådende. Ift å skille mellom overganger og lengre angrep, så jeg på
+motstanderens balanseforhold, og eget lags evne til å opprettholde fremdriften som
+følge av ubalansen skapt ved bruddet.
+Tidspunkt – Spilleminutt i kampen.
+Stilling – Hvilket lag ledet når situasjonen inntraff.
+
+Eget lags struktur:
+- Eget lags formasjon – Formasjoner i angrep kan være litt problematisk å kategorisere,
+da disse er flytende i møte med motstanderen. Jeg har derfor sett delvis på hvordan
+laget opptrer i forsvar, samt at formasjonen nærmest må ses som en beskrivelse av de
+ulike rollenes funksjon i laget, mer enn en nøyaktig posisjonsbeskrivelse i
+banelegemet. F.eks vil en 4-2-3-1 kunne tyde på at kantspillerne er mer dynamiske i
+bevegelsesmønstret sitt, enn den lignende 4-2-1-3 som har tydelige høye
+bakromssøkende kantspillere i angrep, selv om lagene i praksis opptrer relativt likt i
+mange situasjoner i forsvar. På samme måte vil en formasjon oppført med en bakre
+firer kunne ha offensive sidebacker, men skiller ikke på om det i hovedsak er 1 eller
+begge som går. En bakre 3’er kjennetegnes som ett lag med 3 utpregede midtstoppere,
+og er ikke ett lag som går med en sideback og står igjen med 2 stoppere og en back.
+- Struktur sentral midtbane – Hvordan er laget strukturert opp sentralt på midtbanen.
+Skiller mellom lag som spiller med såkalt «A», med to dype og en offensiv, og såkalt
+«V» med en dyp og to mer dynamiske, samt lag som spiller med bare to sentrale og
+lag som spiller med 4 sentrale i en diamantformasjon.
+- Rolle – Hvilken av de fire mellomromsrollene spiller den aktuelle spilleren. Skiller
+mellom klassisk nr.10, Fra kant, Drivende bakfra, og Falsk 9’er.
+- Antall mellomromspunkter – Hvor mange spillere har laget i mellomrom når
+situasjonen inntreffer. Inkluderer også de spillerne som er på vei mot bakrom, men
+ikke de som allerede er i offsideposisjon når pasningen til vår man slås.
+Posisjon for mottak:
+- Rom i lengderetningen – i hvilket rom starter involveringen. Skiller mellom Bakrom,
+Mellomrom og Fremrom, samt Rom i bakre ledd, midtre ledd og Fremre ledd hos
+motstanderen. Fremrom er kun kategorisert som en variabel, uavhengig av om det
+skjer i fremrom 1 eller 2.
+- Rom i bredderetningen – Fortsatt rom basert på motstanderens posisjon. Nå
+kategorisert som Rom 1, 2 og 3.
+- Posisjon i banen – Hvor i banelegemet mottok han ballen. Banen er delt inn i sonene
+1-24, og starter på sone 1 nede i venstre hjørne og avsluttes på sone 24 oppe i høyre
+hjørne.
+- Etasje – Banens geografi delt horisontalt inn i 4 soner. 1.etasje nærmest eget mål, 2.
+etasje fra midt på egen halvdel og opp til midten, 3. etasje fra midten til midt på
+motstanderens halvdel, og 4. etasje derfra og frem til motstanderens mål. Ved å dele
+opp banen på flere måter kan man i ettertid krysskoble disse variablene og få ett enda
+mer raffinert bilde av hvor i banen handlingen skjedde.
+
+27
+
+Motspillet:
+- Motstanders formasjon – Grunnstruktur i forsvarsspillet hos motstanderlaget i
+spillsituasjonen. Ved uklar struktur benyttet jeg dominerende struktur fra resten av
+kampen.
+- Struktur Sentral midtbane – Hvordan er laget strukturert opp sentralt på midtbanen.
+Skiller mellom lag som spiller med såkalt «A», med to dype og en offensiv, og såkalt
+«V» med en dyp og to mer dynamiske, samt lag som spiller med bare to sentrale og
+lag som spiller med 4 sentrale i en diamantformasjon.
+- Grad av konsentrering – Hvor tett står motstanderen i forhold til banens bredderetning.
+Baserer seg på en normal konsentreringsgrad på 39m bredde i laget og 21m lengde fra
+bakerste til fremste forsvarsspiller. Denne vil selvfølgelig minske jo nærmere målet
+man kommer, da det er normalt og konsentrere tettere jo farligere situasjonene
+oppstår. Utifra dette har jeg gjort en vurdering på om laget har liten eller stor grad av
+konsentrering, og om denne evt er gradvis økende gjennom situasjonen.
+- Bakre ledds posisjonering – Hvordan oppfører bakre ledd seg og hvordan påvirker
+dette rommene i banen. Står bakre leddet høyt, faller det av, pusher det ut eller står det
+lavt i hele situasjonen.
+- Størrelse mellomrom – Hvor mange meter er størrelsen på mellomrommet i det
+situasjonen oppstår. Siden mellomrommet vil ha ulik størrelse utifra hvor i rommet du
+står, har jeg valgt å måle dette ved nærmeste midtbanespiller fra «min spiller» til
+nærmeste spiller i bakre ledd.
+- Størrelse bakrom – Hvor mange meter er bakrommet. Samme metode. Den spilleren
+som er nærmest min spiller blir benyttet til å måle avstanden til dødlinjen.
+- Numerisk balanse – Antall spillere på rett side av ballen når «min spiller» mottar ball.
+Den posisjonelle balansen er vanskeligere å kategorisere gjennom en enkeltstående
+variabel. De foregående motspills variablene vil derfor samlet kunne si noe om den
+posisjonelle balansen.
+Tilgang på ball:
+- Fra hvilken spiller –Hvem får han ballen av
+- Fra hvilken rolle i laget – Fra hvilken rolle får han ballen. Underkategorier: Kee, HB,
+HVB, VB, VVB, HMB(Høyre midtback), SMB, VMB, DSM, SM(Sentral midtbane),
+SOM, HK, VK, SP
+- Fra hvilken posisjon i banen – Posisjon i banen – Fra hvor i banelegemet slåes
+pasningen. Banen er delt inn i sonene 1-24, og starter på sone 1 nede i venstre hjørne
+og avsluttes på sone 24 oppe i høyre hjørne.
+- Bevegelse i forkant – Hvilken type bevegelse gjør han i forkant av ballmottaket for å
+gjøre seg tilgjengelig. Undervariabler: Trekker bredt, Fra-imot/imot-fra, Dropper dypt
+i banen, Justerer seg midt i rommet, bevegelse fremover.
+- Kroppstilling ved mottak – Rettvendt, sidevendt eller feilvendt
+- Søk før ballmottak – Hvor mange ganger ser han seg om de siste 5 sekundene før
+ballmottak. Denne kategorien lot seg ikke telle skikkelig, pga videobildene. Jeg
+diskuterte dette en del med prosjektleder i TFS, og valgte etter dette å utelukke denne
+og de andre orienteringsvariablene som en kvantitativ variabel, men benyttet den mer
+som en kvalitativ kilde, for å lete etter gode referansebilder på orientering.
+Begrunnelsen for dette valget skyldes at dette er en godt dokumentert kilde til kvalitet
+også i denne rollen, vist gjennom andre studier (Jordet, 2004), men ses samtidig som
+såpass relevant at den vil være gunstig å studere nærmere de bildene som tydelig viser
+denne delen av ferdigheten.
+
+28
+
+-
+
+-
+
+Type søk – Også kun benyttet for innhenting av referansebilder. Viser til en inndeling
+gjennom korte søk, sekvensielle søk, og lange søk (Jordet, 2003).
+Hva ser han etter – Er det spesielle spillere eller elementer i spillet som man kan anta
+at spilleren bestemt ser etter. Kvalitativ vurdering også her. Vist gjennom
+referansebilder.
+Søk ball på vei – Søker han spesifikt mens ballen er på vei. Referansebilder.
+Søk etter ballmottak – Hvor mye og hvordan søkes det etter ballen er mottat.
+Referansebilder.
+Koordinative bilder – Er det spesielle koordinative elementer i bevegelser og
+ballbehandling som er sentrale? Kvalitativ vurdering gjennom videobilder.
+Annet – Er det andre ting jeg føler jeg må notere ned som ikke naturlig faller inn under
+de andre kategoriene.
+
+Vinne forløsningsøyeblikk:
+- Tid med ball – Hvor mange sekunder har spilleren ballen. Undervariabler: 0-1sek, 12sek. 2-3sek, osv.
+- Antall touch – Hvor mange berøringer benyttes.
+- Type aksjon – Dette gir antall touch enn mer teknisk kvalitativ beskrivelse.
+Underkategorier: ett touch, Medtak-pasning, Vending-pasning, medtak-touch-pasning,
+vending-touch-pasning, Føring-pasning, Drible. Alle situasjoner på mer enn 3 touch
+ble lagt under føring eller dribling. En dribling er da igjen de situasjonene hvor man
+passerer en motstander ved beviste handlinger med ball og kropp(Altså ikke de hvor
+man bare fører ballen forbi).
+- Kombinasjonsspill – Situasjoner hvor det er flere spillere involvert i hurtig ett touch
+spill, som i seg selv er den forløsende faktoren, eller gir tilgang til den forløsende
+pasningsmuligheten. Målt gjennom antall spillere involvert.
+- Handlingskamuflasje – Kvalitativ variabel. Hva gjør spilleren for å skjule intensjon og
+handling for motstanderen.
+- Handlingsfleksibilitet – Kvalitativ variabel. Skal vise rikdommen i de ulike
+løsningsvariantene som situasjonene krever i forhold til teknisk utførelse. En
+innsidepasning kan for eksempel tilpasses og justeres til å bli hundrevis av ulike
+teknikkløsninger i møte med motstanderen.
+- Annet – Andre ting jeg føler jeg må notere ned som ikke naturlig faller inn under de
+andre kategoriene.
+Selve forløsningen:
+- Type pasning – Hva slags type handling er assisten. Innlegg, Bakromspasning,
+Pasning til rom i B4, Støttepasning, Pasning inn i mellomrom, Corner, Frispark, eller
+Annet.
+- Type touch – Valg av teknikk. Innside bakken, Innside i lufta, Halvtliggende vrist,
+Flytpasning, osv. 13 ulike teknikkvariabler til sammen. Utover dette benyttes det
+kvalitative øyet til å se rikdommen i hver enkelt teknikk.
+- Kroppsdel – Hvilken kroppsdel brukes til pasningen. Venstre fot, høyre fot, hodet,
+Annet. Man kan selvfølgelig dele kroppen opp i flere deler enn dette, men da det var
+ytterst få tilfeller hvor andre deler som f.eks lår ble benyttet, så samlet jeg disse i en
+annet kategori.
+- Press-avstand – Antall meter til nærmeste motstander. Undervariabler: 0-1m, 1-2m,
+osv.
+
+29
+
+-
+
+-
+
+-
+
+Fra hvilken posisjon i banen – Fra hvor i banelegemet slåes assisten. Banen er delt inn
+i sonene 1-24, og starter på sone 1 nede i venstre hjørne og avsluttes på sone 24 oppe i
+høyre hjørne.
+Fra hvilket rom i banen – Her har jeg kombinert rom i banens lengderetning(bakrom,
+mellomrom, osv), med mer posisjonelle størrelser for bredderetningen. Dvs at jeg har
+delt den i en sentral sone (5meteren i bredde), en midtre korridor fra 5m til 16m i
+bredde) og en sidekorridor (utenfor 16m i bredde). Jeg benyttet både dette og klassisk
+rominndeling (Rom 1, 2 og 3) til å begynne med, men det ga her klart mer gevisnt å
+snakke om faktisk posisjon i banen enn om antallet forsvarspillere på utsiden.
+Til hvilken spiller – Hvem mottar pasningen og scorer målet.
+Til hvilken rolle – Hvilken rolle spiller målscoreren i.
+Til hvilken posisjon i banen - Hvor i banelegemet mottar målscoreren ballen. Banen er
+delt inn i sonene 1-24, og starter på sone 1 nede i venstre hjørne og avsluttes på sone
+24 oppe i høyre hjørne.
+
+Arbeidet med analysen har i all hovedsak godt veldig bra, noe som i stor grad skyldes ett
+grundig arbeid i forkant med analyseskjemaet. Om jeg skal være kritisk til noe i utførelsen av
+analyseprosessen, så må det være at jeg ikke i tilstrekkelig grad fikk sett på spillernes evne til
+å orientere seg i omgivelsene. Samtidig som man gjerne skulle gått grundigere inn i
+orienteringslandskapet, så er dette ett felt som de senere årene er vel dokumentert gjennom
+andre studier både her til lands og internasjonalt (Jordet, 2004). Noen av disse studiene blir
+presentert i teorikapittelet i denne oppgaven, og ved å se nærmere på dem finner man også
+referanser der som gjør det mulig å sette seg grundig inn i denne delen av ferdigheten om
+ønskelig. For å gå grundigere inn på spillernes orienteringsevne, så er man avhengig av ett
+videomateriale som følger hver enkelt spiller tett gjennom hele kampen, eller i hvert fall en
+lengre periode. Dette er vanskelig å få til pga TV-rettigheter osv, og det lot seg ikke gjøre
+innenfor rammene til dette prosjektet. Hvordan dette påvirker resultatene, og forståelsen av
+spillernes ferdigheter i situasjonen, kommer jeg tilbake til i diskusjonskapitellet senere.
+
+4.6
+
+Utstyr
+
+Gjennom denne studien har jeg benyttet en rekke utstyr og programvare til analyse og
+innhenting av data.
+Til analyse av spillsituasjonene har jeg benyttet følgende utstyr:
+- Bærbar PC – HP ProBook 6460b
+-
+
+Ekstern Harddisk til lagring av datamateriale: Western Digital WD2500
+
+-
+
+Wyscout – Nettbasert videodatabase hvor alle videofilene ble hentet fra og brukt som
+avspiller i analysearbeidet
+
+-
+
+Microsoft Excel – Programvare for føring av statistikk – Brukt til analyseskjema og til
+utarbeidelse av Pivot-tabell i etterkant av analysejobben.
+Windows Movie-Maker – Redigeringsprogram for video brukt til finstillelse av de
+videokildene jeg har benyttet i arbeidet og presentasjonen.
+
+-
+
+30
+
+-
+
+Microsoft Powerpoint og Word – Benyttet til fremvisning både i form av oppgave og
+presentasjonsform av oppgaven.
+
+4.7
+
+Evaluering av metoden
+
+4.7.1 Validitet
+En god måling er presis, pålitelig, objektiv, sensitiv og valid. Begrepet validitet knyttes til
+begrepene gyldighet og relevans. Selve utfordringen blir å samle inn data som er relevant for
+den problemstillingen vi har utarbeidet, men også at du måler det du ønsker å måle (Sisjord &
+Tomten, 2004). Validitet kan bare vurderes subjektivt nettopp fordi det ikke finnes noen mål
+på innholdsvaliditet (Bjørnerud, 2007).
+I løpet av analysearbeidet møtte jeg på lite uforutsette problemer, noe som tyder på relativt
+god planlegging erfaring, og samarbeid med folk som hadde kunnskap om denne typen
+studier. Jeg mistet litt dybde ift orienteringsvariablene, da jeg ikke kunne måle disse
+kvantitativt, men jeg har nok situasjoner som viser denne delen av ferdighetsbildet, og kan
+således bekrefte gjennom en mer subjektiv vurdering av de gitte situasjonene at de stemmer i
+hop med den forskning som tidligere er gjort på feltet (Jordet, 2004).
+Jeg har diskutert med fagfolk innenfor statistikk og analyse som har kvalitetssikret metoden
+min, slik at feilkildene skal være minimale. Det vil alltid kunne være feilkilder når man sitter
+og observerer og teller utifra hva man ser på en video, men så lenge man både dobbelt og
+trippelsjekker dataene man får inn ville likevel denne feilkilden være marginal og ikke noen
+trussel for validiteten til resultatene man får inn.
+Det vil også være en trussel for validiteten når utvalget er plukket fra en veldig liten del av en
+større populasjon, men her er det viktig å presisere at de funnene jeg har gjort representerer
+kun de spillerne som har deltatt i undersøkelsen. Det er ikke nødvendigvis representativt for
+alle fotballspillere. Andre dimensjoner som for eksempel eget lags styrke kontra de lagene de
+møter vil jo være med å gi ett litt skjevt bilde av fotballspillet, og er derfor med å underbygge
+det faktum at disse dataene representerer kun de beste. Så må man selv som leser av oppgaven
+vurdere hvordan dette bildet ville se ut i egen kontekst.
+
+4.7.2 Reliabilitet
+Sentrale begreper som er knyttet til reliabilitet er nøyaktighet og reproduserbarhet. Høy
+reliabilitet betyr at uavhengige målinger skal gi nærmest identiske resultater, det vil si at
+målene har små målefeil (Bjørnerud, 2007: s.36).
+Ved at reliabiliteten er høy er det med på å sikre at dataene er pålitelige, og gjør dem egnet til
+å belyse en vitenskapelig problemstilling (Bjørnerud, 2007). For å unngå feil i analysen har
+jeg derfor benyttet meg av en kollega i Tromsø IL, som har gått inn å analysert enkelte av de
+samme situasjonene som jeg har gjort. Ved å sammenligne registreringene vi har gjort kunne
+jeg se at vi hadde kommet til de samme resultatene.
+
+31
+
+5.0
+
+Resultat
+
+Min studie baserer seg på et analysearbeid gjort utifra 3 ulike nivåer. Først en utvelgelse av
+hvem som er identifisert som de beste spillerne i verden og en kategorisering innenfor hvilken
+rollestereotypi de tilhører. Så en utvelgelse av hva som er de mest sentrale spillsituasjonene i
+hver enkelt rolle. Før den siste og mest omfattende delen, som er analysen av en utvalgt
+spillsituasjon i den rollen jeg har valgt. Jeg vil i det neste kapitelet presentere de viktigste
+resultatene fra hvordan man kom frem til hva en høy playmaker er. Resultatene som
+omhandler spillerutvalg er allerede beskrevet i Metode-kapitelet.
+
+5.1
+
+Hvem er den høye playmakeren?
+
+5.1.1 Pasningsdata
+For å skille ut de høye playmakerne fra de andre midtbanespillerne benyttet jeg tre ulike
+målinger. Den første viser de mest generelle pasningsdataene summert opp for de spillerne
+som ble kategorisert under Høy Playmaker, sett opp i mot andre spillere kategorisert som
+playmakere, og ett gj.snitt av midtbanespillere. Som man ser av figuren så har alle
+playmakerne flere pasninger og et høyere antall involveringer enn de andre midtbanespillerne.
+Sånn sett kan man anta at de styrer mye av spilloppbygningen til sine lag, og er dermed
+såkalte playmakere. Videre ser man at de høye playmakerne oftere er involvert i å sette opp
+scoringer gjennom assister og de er mer involvert rundt sjanseskapingen til laget. Man kan
+dermed anta at de er playmakere høyere posisjonert i banen, og dermed såkalte høye
+playmakere.
+Type handling
+Pasninger
+Pasninger suksess i %
+Pasninger mot siste 1/3
+Pasninger på 1.Touch
+Individual Possession
+Possession (min)
+Berøring pr involvering
+Tid pr involvering (min)
+Assist
+Chances
+
+Høy
+Playmaker
+70,8
+85,65
+9,56
+29,06
+84,35
+1,90
+3,01
+0,03
+0,35
+0,45
+
+Lav
+Midtbane Gj.
+Playmaker
+79,24
+48,41
+74,85
+80,96
+12,16
+7,20
+33,06
+25,03
+89,40
+1,88
+2,55
+2,55
+0,02
+0,02
+0,19
+0,12
+0,13
+0,12
+
+Figur 1: Viser ulike pasningsdata for spillerne kategorisert som høye playmakere, lave playmakere
+og ett gj.snitt for alle midtbanespillere.
+
+32
+
+5.1.2 Hvor i pasningsrekka er den høye playmakeren representert
+Pasningssyntaksen før scoring er ett godt mål for å se hvorvidt en spiller er med på å forløse
+spillet i de siste og avgjørende fasene, eller om han er mer sentral i en tidligere fase av
+angrepsoppbygningen. Som vi ser av figuren nedenfor er de spillerne jeg har valgt ut tydelig
+oftere representert jo nærmere scoringen man kommer, og da spesielt i siste pasningen før
+scoring. Kategorien andre midtbanespillere viser til de resterende midtbanespillerne som har
+vært nominert til årets lag i verden, og som ofte blir kategorisert som playmakere. Disse igjen
+har høye pasningstall både ift antall og treffprosent per kamp, men viser seg å ligge litt dypere
+i banen og deltar altså tidligere i angrepsoppbygningen.
+0,40
+0,35
+0,30
+0,25
+0,20
+0,15
+0,10
+0,05
+0,00
+
+Høy playmaker
+Andre
+midtbanespillere
+
+Figur 2: Viser pasningssyntaksen før scoring, og forskjellene mellom hvor i pasningsrekka de høye
+playmakerne er, og hvor i rekka de andre midtbanespillerne er
+
+5.1.3 Hvor i banen er de høye playmakerne involvert?
+Ett siste mål for å vise stereotypien av en høy playmaker, blir vist gjennom å se på hvor i
+banen spillerne er oftest involvert. Som man kan se av figurene nedenfor skiller den høye
+playmakeren seg fra den lave playmakeren ved at han oftest er involvert høyere i banen. Ett
+viktig moment i oppgaven er å vise at den høye playmakeren ikke nødvendigvis er satt opp
+som en klassisk mellomromsspiller (nr.10), i laguttaket, men kan komme fra flere andre
+innganger. Om man sammenligner hvor i banen David Silva er involvert, med hvor Jesus
+Navas (som spiller på samme lag) er involvert, ser vi at Man City benytter to ulike typer
+kantspillere. Selv om David Silva opptrer som kantspiller i lagets formasjon, vandrer han hele
+tiden inn i banen og spiller i realiteten i samme rolle offensivt som en sentral høy playmaker.
+På samme måte kan vi se at Spissen Lionel Messi har ett betydelig forskjellig mønster fra
+eksempelet vist av Alvaro Negredo. Messi dropper ned i rollen som høy playmaker, og er
+sånn sett masse involvert, mens Negredo fremstår som en mer klassisk toppspiss, som ikke er
+like mye involvert i de samme fasene av angrepet. Det er viktig å merke seg at de eksemplene
+som er vist her, også er gjort på alle de aktuelle spillerne, og for spillere i alle nærliggende
+
+33
+
+roller. Her i oppgaven er det bare vist noen få utvalgte eksempler, for ikke å vie unødvendig
+mye plass i oppgaven til en relativt liten del av resultatene.
+Eksempler på typiske lave playmakere:
+
+Figur 3: Viser vellykkede pasninger fra en typisk kamp av Xabi Alonso og Andrea Pirlo.
+
+Eksempler på ulike typer høye playmakere:
+
+Figur 4: Viser vellykkede pasninger fra en typisk kamp av Mesut Özil, David Silva og Lionel Messi.
+
+Eksempler på andre typer spillere – En klassisk Kant og en klassisk Spiss:
+
+Figur 5: Viser vellykkede pasninger fra en typisk kamp for Jesus Navas og Alvaro Negredo.
+
+34
+
+5.2
+
+Hvor kommer assistene i fotball fra?
+
+5.2.1 Fra hvor i banen kommer det flest assist?
+På figur 6 ser vi hvor i banelegemet det kommer flest assist fra. Som vi ser av figuren er det
+en klar overvekt av assist fra området sentralt i banen utenfor sekstenmeteren. Ofte det
+området hvor den høye playmakeren opererer.
+
+Figur 6: Viser en prosentvis oversikt over hvor i banelegemet det kommer flest assist. Tallene er hentet fra de øverste 5
+ligaene i Europa, Champions League og Euro-League.
+
+5.2.2 Hvilke roller står for flest assist i laget?
+Min påstand var at den høye playmakeren var sentral i sjanseskapingen til laget. Dette viser
+også pasningsdataene i kapitel 5.1. For å tydeligere vise dette, og at den høye playmakeren
+kan spille i ulike posisjoner i laget, viser jeg nå noen statistikker for hvem som har flest assist
+og hvor i banen de kommer fra. Av bildet på Figur 7 ser vi at 81,6 % av assistene kommer fra
+de 6 øverste spillerne i laget. Flest fra kantspillerne, nest flest fra spissene og tredje flest fra de
+sentrale midtbanespillerne. Dette er tall hentet fra Amisco-Prozone sin database, og gjelder
+for alle de 5 store ligaene i Europa. Det interessante her er hvis vi ser på figur 6 og 7 sammen.
+Det er altså kantspillere og spisser som har flest assist, men det kommer flest fra sentral sone
+utenfor sekstenmeteren.
+
+Figur 7: Viser hvor mange assist per kamp hver rolle står for, og hvor mange prosent av alle
+assistene til ett lag de ulike rollene har.
+
+35
+
+5.2.3 Hvilke spillere har flest assist?
+Tallene over viste tydelig at assistene kom fra ulike roller i laget, men ofte fra samme posisjon
+i banen. Ett siste mål for å kvalitetssikre at jeg hadde plukket ut rett spillere var å sjekke av
+hvilke spillere som hadde flest assist i de største ligaene, og i hvilken rolle de spilte. Som man
+ser er det en sterk overvekt av spillere under kategorien høy playmaker på listen, men de
+figurerer i ulike roller i laget. Mata og Silva er eksempler på kanter som vandrer innover,
+Messi, Fabregas og Totti er eksempler på falske 9’ere, Øzil og Hamsik er eksempler på
+klassiske mellomromsspillere (nr.10), og Andres Iniesta er ett eksempel på den litt annerledes
+rollen drivende sentral (Roaming). Det bør kanskje nevnes her at årsaken til at jeg valgte
+Marek Hamsik og Xavi (24 assist i samme periode) i mitt utvalg istedenfor f.eks Francesco
+Totti skyldes at mine spillere også skulle være blant de spillerne som var nominert til årets lag
+i verden i minst ett av de siste tre årene (Verdens 137 beste spillere, TFS).
+England
+39 Juan Mata
+32 David Silva
+31 Robin van Persie
+29 Nani
+28 Wayne Rooney
+
+Spania
+47 Mesut Özil
+46 Lionel Messi
+34 Cesc Fàbregas
+32 Cristiano Ronaldo
+29 Andrés Iniesta
+
+Italia
+28 Francesco Totti
+27 Marek Hamsik
+26 Antonio Cassano
+23 Fabrizio Miccoli
+22 Andrea Pirlo
+
+Tyskland
+43 Franck Ribery
+35 Thomas Muller
+27 Mario Gotze
+26 Marco Reus
+22 Jefferson Farfan
+
+Figur 8: Viser de spillerne med flest assist de siste 3 sesongene fordelt på
+de 4 største ligaene. Høye playmakere markert med rød skrift.
+
+36
+
+5.3
+
+Assistens fase 1 – Hvordan komme på ball?
+
+Den siste, og klart største, fasen av studien min, omhandler hvordan mine utvalgte høye
+playmakere løser den mest sentrale spillsituasjonen i deres spill. Som man kan lese av de
+foregående kapitlene er den sentrale playmakeren oftest involvert av samtlige spillere i
+trekkene før en målsjanse og en scoring. Aller klarest er dette på siste pasningen (Assisten),
+og det er derfor naturlig å se nærmere på nettopp denne siste forløsende pasningen, og hva
+som er kvaliteten i utførelsen av denne hos mine spillere. Jeg har derfor sett på alle deres
+assist fra sesongen 2012/2013. I dette, og de neste to kapitlene, vil jeg vise de viktigste
+funnene fra den studien.
+Jeg har valgt å dele assisten opp i tre faser, etter modell fra TFS (Kompetansekrav i rolle,
+Presentasjon TFS, La Manga 2013). Fase 1, Hvordan komme på ball, handler om hva de beste
+gjør i forkant av situasjonen, som gjør de i stand til å komme i rett posisjon til rett tid. Dette
+handler om bevegelser, posisjonering, kroppstilling, og orienteringsevne.
+5.3.1 Bevegelse i forkant:
+Av grunnleggende bevegelser i forkant av situasjonen ble det helt klart oftest benyttet en
+justering av posisjonen slik at man befant seg midt i det rommet man befant seg i. Rettere sagt
+er det en justering som gjør det mulig å mota ballen midt i rommet, noe jeg kommer tilbake til
+i kapitel 5.3.2. Denne kategorien forekom uansett oftest mot forsvar i god balanse.
+Kategorien «Beveger seg fremover» ble hyppigst brukt under overganger, eller i situasjoner
+med klar ubalanse i motstanderlaget. Det var også en god del situasjoner mot god balanse, noe
+som tyder på at spillerne i utvalget ikke bare holdt seg i sine prioriterte rom og områder, men
+også hadde oversikt og forståelse nok til å lese av i spillet når det var hensiktsmessig å true
+neste rom.
+Kategorien «Dropper dypt» er ment å betegne spillere som faller ned i banen for å skaffe seg
+rom og tilgang på ball. Denne kategorien var klart hyppigst brukt av de spillerne som ble
+kategorisert som falske 9’ere.
+«Trekker bredt» hendte oftest av de spillerne som lå naturlig inne sentralt i banen, men som
+pga motstanderens romprioritering i forsvar ikke fant tilstrekkelig rom inne sentralt. Ett
+eksempel på dette er Mesut Özil, som ofte drifter ut mot høyre side i banen for å finne seg den
+plassen han trenger.
+Verdt å merke seg er det også at doble bevegelser a’la «Fra imot» eller «Imot-fra» nesten aldri
+forekom. Det er ganske vanlig å trene på slike typer bevegelser, men det viser seg i hvert fall
+hos disse spillerne at det mer er snakk om å posisjonere seg midt i rommet uten forsvarerens
+oppmerksomhet, enn å rykke seg fri med to motsatte bevegelser.
+
+Bevegelse i forkant:
+Justerer seg midt i rommet
+Beveger seg fremover
+Dropper dypt
+Trekker bredt
+Fra-imot/Imot-fra
+
+35,4%
+22,8%
+22,8%
+17,7%
+1,3%
+
+Figur 9: Viser hvilke grunnleggende bevegelser som ble gjort i forkant av
+assist-situasjonene jeg har analysert.
+
+37
+
+5.3.2 Høyde i mellomrommet
+Om man ser på hvor i rommet spilleren er plassert, får man ett mer nyansert bilde på
+bevegelse i forkant også. Spillerne står oftest ganske sentralt i rommet, men også ganske ofte
+lavt i rommet. Med dette mener man at man har posisjon nærmere motstanderens
+midtbaneledd enn forsvarsledd. Disse to kategoriene samlet utgjør 88,3 % av situasjonene.
+Dermed har man større del av rommet foran seg i banen, noe som gjør det lettere å kunne
+angripe videre fremover. Man ser også at man sjeldent er posisjonert i nærheten av
+motstanderens forsvarsledd, og får dermed ikke på seg oppmerksomheten herfra i like stor
+grad.
+
+50,0
+
+60
+50
+
+38,3
+
+40
+30
+
+11,7
+
+20
+10
+0
+
+Lavt i rommet Midt i rommet Høyt i rommet
+Figur 10: Viser en prosentvis fordeling av de situasjonene hvor spilleren er i mellomrom,
+og hvilken høyde i rommet han da har.
+
+5.3.3 Kroppsvinkel
+Spillerne evne til å være fremover rettet blir ytterligere forsterket av den neste kategorien som
+omhandler spillernes kroppsvinkel ved ballmottak. Som man ser av figur 11, så er spillerne
+allerede rettvendt, eller i det minste sidevendt, i til sammen 80,3 % av situasjonene som fører
+til assist.
+
+Kroppsvinkel
+19,8%
+
+31,3%
+
+49,0%
+
+Rettvendt
+Sidevendt
+Feilvendt
+
+Figur 11: Viser en en prosentvis fordeling på hvilken kroppstilling spillerne hadde ved ballmottak.
+
+38
+
+Om man ser de to siste parameterne i forhold til hverandre finner man også at de gangene man
+er feilvendt, ofte sammenfaller med de gangene man befinner seg høyt i rommet (figur 12),
+altså i nærheten av motstanderens forsvarsledd. Man kan kanskje anta at dette skyldes ett
+behov for å verne om ballen i slike situasjoner. Videre er det påfallende hvor dyktige spillerne
+er til hele tiden å variere høyden sin ift situasjonen rundt seg og hvordan romforholdene
+konstant endres.
+
+60
+Rettvendt
+
+40
+
+Sidevendt
+20
+
+Feilvendt
+
+0
+Lavt i
+Midt i
+Høyt i
+rommet rommet rommet
+Figur 12: Viser spillernes kroppsstilling ift hvilken høyde i rommet de hadde.
+
+39
+
+5.4
+
+Assistens fase 2: Fra mulighet til realitet
+
+Den andre fasen av assistsituasjonen kaller jeg «Fra mulighet til realitet». Den handler i stor
+grad om spillernes oversikt, om å lese romforholdene, om å plukke opp signaler i spillet ift
+kjente mønstre, og om spillernes evne til å kontrollere ballen under pressede tid og
+romforhold. Det vil selvfølgelig være en del informasjon som allerede er hentet inn i forkant
+av ballbehandlingen, og sånn sett overlappe den forrige fasen. Dette kapitelet viser de
+viktigste kvantitative funnene som kun omhandler denne fasen spesifikt.
+
+5.4.1 Tid på ball:
+Som vi ser av figur 13, så har man i denne type situasjoner ikke spesielt god tid. 59,8% av
+involveringene varer i fra 0-2 sekunder, noe som tyder på at mye av informasjonen som
+kreves må være hentet inn allerede før involveringen starter, slik at man kan handle raskt når
+man først får ballen.
+
+Tid på ball
+35,0
+
+32,0
+27,8
+
+30,0
+25,0
+
+18,6
+
+20,0
+15,0
+
+11,3
+
+10,3
+
+3-4 sek
+
+4+ sek
+
+10,0
+5,0
+0,0
+0-1 sek
+
+1-2 sek
+
+2-3 sek
+
+Figur 13: Viser en prosentvis oversikt over hvor mange sekunder spillerne brukte per assist-involvering
+
+40
+
+5.4.2 Antall touch:
+Når det gjelder antall touch spillerne brukte ser vi av figur 14 at det oftest ble benyttet
+1.touch, men at det generelt varierer mye. 3 touch ble ofte benyttet i situasjoner som krevde
+vendinger eller at spillerne holdt igjen pasningen for å finne rett timing. 5+ touch ble ofte
+brukt av spillere som utfordret og driblet, eller dro på seg press for så å spille. Iniesta og
+Messi er fremtredende her.
+
+Antall touch
+27,8
+
+30
+
+24,7
+19,6
+
+17,6
+
+20
+
+10,3
+10
+0
+1 touch 2 touch 3 touch 4 touch 5+ touch
+Figur 14: Viser antallet touch spillerne i undersøkelsen hadde på ballen per involvering.
+
+5.4.3 Type involvering:
+I sammenheng med antall touch har jeg også sett på hva slags type involvering dette handler
+om. Ett touch gir seg kanskje selv, og er jo den største kategorien (figur 15), men om vi ser på
+de andre kategoriene, så blir bildet mer raffinert. En kategori som ikke har kommet med i
+grafen er «vending-pasning». Det skyldes at det ikke skjedde overhodet, og resultatet er
+dermed 0 %. Det vendes altså sjeldent opp før assistene, og de gangene det skjer er man nødt
+til å bruke flere touch. Alle involveringer som hadde flere enn 3 touch ble lagt under
+kategorien «føring-pasning», eller «drible-pasning» dersom den også involverte en passering
+av motstander underveis.
+
+Type involvering
+
+13,4% 27,8%
+16,5%
+10,3%
+
+16,5%
+
+15,5%
+
+Ett Touch
+Medtakpasning
+Medtak-touchpasning
+Vendingtouch-pasning
+Føring-pasning
+Drible-pasning
+
+Figur 15: Viser prosentvis fordeling av de ulike handlingskategoriene som forekom i forkant
+av assistene.
+
+41
+
+5.4.4 Pressavstand
+Denne variabelen handler om antall meter til nærmeste motstander ved 1. berøring. Som vi ser
+av figur 16, så har man sjeldent god plass, og man må kunne mestre svært pressede rom og
+tidsforhold. Kategorien 0-1 meter omhandler de situasjonene hvor presset er så tett at man har
+kroppskontakt eller kan ha det om man ønsker. Dette samt de to neste kategoriene, gjør at
+samlet vil 0-3 meter stå for 84,5 % av situasjonene.
+
+4m+
+7,2%
+3-4m
+8,2%
+2-3m
+24,7%
+1-2m
+33,0%
+
+0-1m
+26,8%
+Press
+
+Figur 17: Viser prosentvis fordeling av antall meter fra ballfører til presset ved 1.touch i situasjonen.
+
+42
+
+5.5
+
+Assistens fase 3 – den avgjørende pasningen
+
+Den siste fasen av en assistsituasjon handler selvfølgelig om selve pasningen – assisten. Hvor
+slåes pasningen fra i banen? Hvor slår man ballen til? Hvordan type pasning er det snakk om.
+Med hvilken teknikk, osv. Alle tallene som blir presentert her er jo kvantitative størrelser
+basert på en kvalitativ observasjon, telt opp i forhold til utvalgte generaliserbare størrelser. En
+av de viktigste observasjonene her handler likevel om at det er rikdommen innenfor det
+generaliserbare som virkelig viser til kvaliteten. En innsidepasning kan utføres på 1000
+forskjellige måter, og det er nettopp spillernes evne til å tilpasse de standardiserte teknikkene
+sine til situasjonene som blir avgjørende for om de er hensiktsmessige og effektive.
+
+5.5.1 Fra hvor i banen slås assistene i min studie
+Når det kommer til hvor i banen assistene kommer fra, sammenfaller tallene fra de beste høye
+playmakerne (Figur 18) godt med tallene fra det store bildet av alle assistene i fotball (figur
+7). Trenden er bare enda sterkere på at de fleste assist kommer fra sentral sone rett utenfor
+sekstenmeteren til motstanderen.
+
+Figur 18: Viser prosentvis fordeling av alle assistene ift hvor i banen de kom ifra.
+
+Om vi ser på romforholdene, og hvilke rom i motstanderlaget assisten slås fra ser dette ut som
+vist på figur 19. Bakrom, mellomrom og framrom er beregnet etter klassisk norsk metodikk.
+Jeg gjorde også målinger på hvilke rom i bredderetningen (Rom 1, 2 og 3), assisten kom fra,
+men det ga da mer mening og snakke om konkret posisjon i banen ift bredderetningen. Jeg har
+da delt banen inn slik at sentral sone viser til området på innsiden av 5 meteren i banens
+bredderetning. Som vi ser her er dette det området det slås klart mest fra, og spesielt da i
+mellomrom. Midtre korridor er målt fra 5 meteren til 16 meteren i bredderetningen, og
+sidekorridorene på yttersiden av 16 meteren.
+
+50,0
+40,0
+
+Sentralt
+
+30,0
+
+Midtre korr.
+
+20,0
+
+Sidekorr.
+
+10,0
+0,0
+Bakrom
+
+Mellomrom
+
+Framrom
+
+Figur 19: Viser oversikten over hvilke rom assistene ble slått i fra. Det er også kategorisert
+utifra hvor bredt i rommet assisten ble slått ifra.
+
+43
+
+5.5.2 Hvor havner assisten
+Dette parameteret har jeg målt på tre måter; Hvor i banen havner assisten, hvilken rolle i laget
+er det som mottar assisten, og hvem spiller er det som mottar ballen.
+For å ta det siste først, så sjekket jeg hvorvidt det var noen enkeltspillere som utpreget seg
+med spesielt god relasjon til den høye playmakeren, i såkalte radarpar. Jeg fant ingen
+signifikante funn her. Den eneste som hadde en klar overvekt mot en spiller, var Mesut Øzil,
+som hadde 42,9 % av sine assist (uten dødballer) mot Cristiano Ronaldo. Litt enkel research
+på Real Madrid viser dog at de fleste spillerne til Real Madrid hadde flest assist rettet mot
+Ronaldo.
+Når det kommer til hvor i banen assisten slåes til er det ikke overraskende at den slås oftest
+inn i slottet/boksen (Figur 19). Dette sammenfaller godt med data fra hvor scoringene i fotball
+kommer fra (Kompetansekrav i rolle - Spissrollen, TFS, La Manga 2013). En årsak til hvorfor
+antallet er noe lavere for området «slottet», skyldes at målscoreren jo ofte kan motta ballen
+utenfor slottet, altså blir den registrert utenfor, før han tar den med seg og avslutter inne i
+slottet.
+0%
+
+70,4 %
+
+0%
+
+0%
+
+28,6 %
+
+0%
+
+1,0 %
+Figur 20: Prosentvis fordeling av hvor assisten havner i banen.
+
+De samme tallene finner vi når vi ser på hvilken rolle assisten går til. Spissen scorer mest mål
+i fotball, og mottar også dermed flest assist. Kantene nest flest og deretter sentral midtbane.
+Vær dog klar over at dette er tall kun basert på mine utvalgte høye playmakere. Dette gjør at
+tallene forandres litt fra totaltallene for all fotball. Det er f.eks vanskelig for Lionel Messi og
+spille igjennom en spiss (nr.9) når han selv spiller i den rollen.
+
+Figur 21: Viser hvilke roller i laget som mottar flest assist fra mine spillere.
+
+44
+
+5.5.3 Pasningstype mot rom
+Det er mange ulike handlingstyper som utløser scoring. Jeg har valgt å kategorisere dem inn i
+slik som fremstilt i figur 21. Som man ser av figuren er det klart flest bakromspasninger og
+innlegg. Dette er jo trenden også fra andre roller, men man skulle kanskje ikke tro at den høye
+playmakeren slo såpass mange innlegg. Dette tyder på at han er fleksibel ift hvilke rom han
+posisjonerer seg i, og at han ikke bare opererer i sentral sone. Kategorien «Rom i bakre ledd»
+står for pasninger på fot til en spiller som bevist har posisjonert seg i rommene i motstanders
+bakre ledd. Herfra kan han angripe bakrommet med 1.touch, ta den med seg ut i mellomrom,
+eller skyte direkte.
+
+40
+35
+30
+25
+20
+15
+10
+5
+0
+
+37
+
+Pasningstype mot rom
+24
+14
+8
+
+10
+
+7
+
+Figur 22: Viser prosentvis fordeling av hvilke handlingstype assisten er ift kjente klassifiseringer av en pasning.
+
+5.5.4 Valg av teknikk:
+Den siste kategorien her går på valg av teknikk. Her har jeg kategorisert det opp på i fem
+hovedgrupper, samt forsøkt å dele dette igjen opp i underkategorier, f.eks med ulike teknikker
+innenfor innside, osv. Dette viste seg å være vanskelig, da variasjonsbredden innenfor hver
+enkelt teknikkgruppe var for stor til at noen kvantitativ telling var hensiktsmessig. Den eneste
+inndeling jeg derfor viser til er den i figur 22, også vil jeg heller forsøke å vise mangfoldet her
+gjennom videobilder fra studien for de som måtte ønske det. Som man ser er det klart flest
+varianter av innsidepasning, noe som tyder på at spillerne her ønsker å være svært presise og
+opererer med stor grad av kontroll.
+
+Teknikk
+8,2%
+
+6,2%
+
+10,3%
+
+73,2%
+
+Innside
+Utside
+Vrist
+Heading
+Annet
+
+Figur 23: Viser en prosentvis fordeling av hovedkategoriene innenfor teknikk.
+
+45
+
+6.0
+
+Diskusjon
+6.1
+
+Hovedproblemstilling 1:
+
+Hva kjennetegner de beste høye playmakerne i verden i deres evne til å
+forløse spillet?
+Etter å ha identifisert de antatt beste spillerne i verden og gjort en relativt grundig
+bakgrunnsanalyse av midtbanespillerne der, har Toppfotballsenteret kommet frem til en
+inndeling av spillerne i ulike rollestereotypier. Slike inndelinger kan alltids diskuteres, både i
+forhold til validitet og hvor hensiktsmessig det er å generalisere og sette spillerne i bås, men
+også i forhold til at man da lett kan begrense ferdighetsbegrepet ved å isolere individet fra de
+andre dimensjonene av spillet. Vår hensikt med dette har vært å finne ut hvorvidt det er
+ferdigheter som er mer sentrale enn andre hos de forskjellige enkeltspillerne i ett lag, og om
+det eventuelt er deler av kvaliteten ved disse vi går glipp av ved å studere spillet i ett mer
+helhetlig perspektiv. For å unngå at individet kun handler om den individuelle dimensjon, så
+har vi derfor valgt å rette analysene mot individets rolle i en sentral spillsituasjon (TFS,
+Kompetansekrav i rolle, La Manga 2013). Dermed ivaretas alle ferdighetsdimensjonene. Det
+er som det fremgår av kapitel 5.1 og 5.2 gjort grundige analyser på hver enkelt rolle ift hvilke
+situasjoner som fremstår som sentrale. Her har jeg bare vist til resultatene som berører denne
+rollen, men det er laget tilsvarende arbeid også ift de andre rollene (TFS, Kompetansekrav i
+rolle, La Manga 2013). Dette arbeidet innebærer en rekke kvalitative og kvantitative målinger
+av spillet, men man kan aldri være helt sikker på om man har kommet frem til rett spillere
+eller de situasjonene som er aller mest sentrale for en rolle. Dette må derimot leses som en av
+flere sentrale situasjoner, også må man vurdere dette ift hvordan man selv bruker denne rollen
+i sitt lag. På samme måte er vi aldri sikre på om vi har fått med alle de spillerne som er best
+akkurat nå, og det vil alltid være meninger om spillere som burde vært med, men så lenge vi
+har det omfanget av spillere vi har, så vil det kunne gi ett bilde på bestepraksis, og en kilde til
+refleksjon.
+
+6.1.1
+
+Hvem er de beste spillerne i verden i rollen «Høy playmaker» og hva
+kjennetegner denne rollen?
+Som man ser i kapitel 5.1 så har vi kommet frem til hvem som er den høye playmakeren i
+hovedsak ved hjelp av tre ulike målinger. Dvs fire. Først gjorde vi en kvalitativ vurdering av
+alle midtbanespillerne ift hva de normalt ble omtalt som i media og av ulike typer eksperter.
+Dermed hadde vi ett utgangspunkt å jobbe etter. Så benyttet vi pasnings og posisjonsdata til å
+sjekke av hvorvidt disse antagelsene stemmer. Som vi ser av figur 5.1.1 så skiller den høye
+playmakeren seg ut fra den gjennomsnittlige midtbanespilleren ved at han er mye involvert,
+men noe mindre involvert enn den litt dypere playmakeren. Samtidig er han mye mer
+46
+
+involvert jo nærmere man kommer mål og sjanser. Dette blir også understreket i figur 5.1.2.
+hvor vi ser at den høye playmakeren er mye involvert i forkant av scoringen. For å
+understreke dette ytterligere, har vi også brukt posisjonsdata for å se på forskjeller i hvor i
+banen spillerne opererer (figur 5.1.3). Dette har også vært med på å underbygge vår påstand
+om at den høye playmakeren ikke bare spiller sentralt i banen, men at han kan ha innganger
+fra forskjellige posisjoner i laget.
+Deretter har jeg tatt de spillerne som kom ut som de høye playmakerne og sett på hvem av de
+som har gjort det best de siste årene når det kommer til å forløse spillet. Her har jeg sett på det
+enkleste målet å sjekke av, nemlig hvem som har flest assist. Grunnen til at jeg kun brukte
+assisten, og ikke hvem som hadde flest 2. assist osv, går rett og slett på omfang av oppgaven
+og tilgjengelighet på datamateriale. Vi hadde gjennom TFS tilgang på datamateriale fra
+Amisco-prozone fra en sesong, men jeg ønsket å sjekke av hvem som hadde vært de beste
+over flere år. Her var det vanskelig å finne data på 2. assist osv, og jeg ønsket ikke å bruke
+mer tid av oppgaven på å analysere dette selv. Hensikten var tross alt å finne kvaliteten i
+situasjonene jeg valgte ut, og jeg ville ikke bruke for mye tid på forarbeidet.
+Jeg ønsket heller ikke for mange spillere, men heller gå grundigere inn på hver enkelt spiller,
+og jeg valgte derfor etter samråd med TFS å finne frem til 8 spillere jeg skulle gå nærmere inn
+på. Disse ble dermed valgt etter kriteriene flest assist siste tre år, med en hovedtyngde på siste
+sesong, samt de til sammen skulle vise mangfoldet i rollen ved å være ulike spillertyper, med
+ulik kulturell bakgrunn. Likevel vil sikkert noen spørre seg hvorfor halve utvalget mitt er fra
+Barcelona. Det skyldes rett og slett at for å dekke de aller beste playmakerne i ulike roller, så
+fant jeg det vanskelig å komme utenom Messi og Fabregas som eksempler på falsk 9’er, eller
+Iniesta og Xavi som de kanskje beste drivende playmakerne i verden. Det var heller ikke
+mange typer som dette i utvalget av de beste spillerne i verden, så derfor valgte jeg slik.
+6.1.2
+
+Er det hensiktsmessig å dele inn spillernes ferdighet i en spillsituasjon i
+ulike faser?
+Som en pedagogisk inngang til analysen av en spillsituasjon har jeg benyttet TFS sin trefasemodell for hvordan en spillsituasjon kan analyseres utifra ett individuelt perspektiv. Dette gir
+en god oppbygningen av situasjonen ved at den viser til at situasjonsløsningen har ett
+forarbeid og en faktisk handling, samt at den også fanger det litt spesielle som gjør at man
+«vinner» situasjonen i møte med motstanderen.
+Denne type fasetenkning er benyttet tidligere av Espen Olafsen m.fl. ved Norges
+Toppidrettsgymnas i deres arbeid omkring scoringsferdigheten (Olafsen, 2007), og vi ønsket å
+sjekke av om denne fremgangsmåten var hensiktsmessig også i andre spillsituasjoner. TFS har
+nå benyttet denne metodikken ved analyser av flere ulike spillsituasjoner, og det fremstår for
+oss som en svært god metodisk inngang som også kan anbefales til andre ved senere arbeider.
+
+47
+
+6.1.3
+
+Hva er kvaliteten innenfor hver enkelt fase?
+– Assistens Fase 1: Komme på ball
+Den første fasen – Komme på ball – viser til forarbeidet spilleren gjør for å få tilgang på den
+situasjonen man ønsker. Hele analyseskjemaet ligger som vedlegg, og er også nærmere
+beskrevet i metodedelen, men de mest interessante funnene ligger i hva slags type bevegelser
+spillerne gjør i forkant, en mer detaljert beskrivelse av hvor i rommet spillerne står og hva
+slags type kroppsvinkel de har ved mottak av ballen. I tillegg har jeg gjort en større
+situasjonsbeskrivelse ved å se på eget lags formasjon, struktur, og system, samt hvilket
+motspill man møter i hver enkelt situasjon. Her har jeg sett på formasjon, hvilken type
+midtbane man møter, hvordan er balanseforholdene numerisk og posisjonelt, hvor stort er
+mellom- og bakrommet, samt hvordan romutviklingen går gjennom situasjon. Det siste er
+gjort ved å måle bevegelse i motstanderens bakre ledd. De viktigste funnene på motspillet
+viser at man ofte møter lag som ligger lavt og kompakt, med stor prioritering rundt å
+kontrollere rom sentralt i banen. De spillerne jeg har sett på spiller jo også på noen av verdens
+beste lag, og det er jo sånn sett ikke spesielt unaturlig at de møter lag som ligger litt lavere.
+Samtidig viser Pål Arne Johansen, Rolf Teigen, m.fl. i sin analyse av VM 2010 at de beste
+lagene i verden også forsvarer seg med en tydelig romprioritering, og et svært godt
+balanseforhold. Det er altså ikke her forskjellen ligger, men det gir ett bilde på hva som møter
+deg på det øverste nivået.
+Når det kommer til bevegelse i forkant (figur 9), så har det vært vanskelig å definere tydelige
+definerbare variabler, siden bevegelsesbildet i fotballspillet er såpass komplekst. De
+kategoriseringene jeg har kommet frem til har gradvis blitt til underveis i studien, og kan
+således være oppe til diskusjon. Jeg har dog ikke funnet bedre løsningsforslag til dette, og
+føler heller ikke at det ga mening å dele inn dette i andre kategorier. Funnene jeg har gjort
+viser at så lenge balanseforholdet i motstanderlaget er godt, så handler det oftere om å justere
+sin egen posisjon slik at man står midt i rommet, med rett vinkel ift hva man ønsker videre i
+spillet, enn å gjøre konkrete bevegelser som å droppe ned, gå på løp, møte opp tydelig, osv.
+Vi coacher jo ofte spillerne våre på bevegelser, og da spesielt i lavfunksjonelle øvelser uten
+motstand. For disse spillerne virker det derimot som evnen til å identifisere rommet og
+posisjonere seg ift den romutviklingen man møter er det sentrale elementet i denne delen av
+ferdigheten.
+I sammenheng med dette er det også interessant å se på hvilken høyde i rommet spillerne
+oppsøker oftest. I fotballspillets egenart ligger det implisitt at det er ett ønske om å spille
+ballen fremover, og erobre rom nærmere og nærmere motstanderens mål. Spillerne jeg har sett
+nærmere på virker å oppsøke en høyde i rommet som gir dem tilgang på mest mulig rom foran
+seg i situasjonen (figur 10). Dette gir de mulighet til å avansere videre fremover og gir bedre
+betingelser i forhold til å bryte igjennom neste ledd.
+På samme måte har spillerne en kroppsvinkel ved mottak som gir gunstige betingelser for å
+spille videre fremover. Det er en klar overvekt av situasjoner med rettvendte og eller
+sidevendte spillere (figur 11), mens man nesten bare så feilvendte spillere i de situasjonene
+hvor man var posisjonert høyt i rommet, dvs opp mot neste ledd i motstanderen (figur 12).
+48
+
+Alle disse trekkene tyder på at spillerne har ett bevist forhold til egen posisjonering, noe som
+igjen indikerer god oversikt. At de beste spillerne har bedre oversikt og såkalte perseptuelle
+ferdigheter er en kjent sak, og begynner å bli vel dokumentert. Spesielt Geir Jordet, og andre i
+hans miljø ved Norges idrettshøgskole har vist til dette gjennom flere studier på ulike nivåer
+(Jordet, 2004, Bryntesen, 2009, Bekkelund & Holme, 2008). Dette virker å være ett sentralt
+element også hos mine spillere, og selv om jeg ikke har analysert antall søk i forkant osv, så
+føler jeg de resultatene jeg fremlegger tydelig indikerer at spillerne fremviser gode visuelle
+ferdigheter, god prospektiv kontroll og har god forståelse for hvordan utnytte egne ferdigheter
+i forhold til den gitte situasjon de er inne i. Vi ser også en del eksempler på
+mønstergjenkjennelse og andre sentrale begreper som ofte blir summert opp under
+spilleforståelse eller da gjerne fotballforståelse.
+
+6.1.4
+
+Hva er kvaliteten innenfor hver enkelt fase?
+– Assistens Fase 2: Fra mulighet til realitet
+I denne fasen snakker vi om spillernes evne til å gå fra gode forberedelser til faktisk å vinne
+muligheten til å slå den avgjørende pasningen. På samme måte som når spissen smetter foran
+midtstopperen og vinner scoringsrommet, så er det elementer i situasjonen for den høye
+playmakeren som handler om timing, det å gjøre rett handling i rett rom til rett tid, og som
+kanskje er den største kvaliteten ved hele ferdigheten, og som det kan være vanskelig å få tak
+på. Noen situasjonsvariabler er det hensiktsmessig å analysere, mens andre heller blir forsøkt
+forklart med en subjektiv og kvalitativ årsaksforklaring. De mest interessante funnene jeg har
+gjort går på hvor lang tid spillerne er på ball, hvor mange touch spillerne bruker, hva slags
+type involvering det er snakk om, og hvordan presset til motstanderen er gjennom situasjonen.
+Tiden på ball virker å være relativt kort. I 32 % av situasjonene bruker spillerne under 1
+sekund på å gjennomføre hele situasjonen (figur 13). Om man legger på de 27,8 % som går
+fra 1-2 sekunder, så ser vi at ca 60 % av situasjonene er utført på under 2 sekunder. Dette er jo
+med å underbygge at mye av den kognitive prosessen må være utført allerede i forkant av
+situasjonen. I tillegg setter det krav til hurtig ballbehandling, kort tid mellom 1. og 2. touch,
+eller evt at situasjonen gjøres på bare ett touch. Dette er også den aller vanligste
+situasjonssekvensen om man ser på touchbruk (figur 14 og 15). Det interessante her er at det
+ofte brukes fler touch, og det er for eksempel nesten like mange situasjoner på 3 touch som på
+1. Min oppfattelse av dette når jeg så igjennom videoen, er at dette handler mye om timing i
+forhold til å kunne slippe pasningen til rett tid, og at man på grunn av de pressede rom og
+tidsforholdene (figur 16) ofte var avhengig av å ha ballen tett mot foten og dermed ofte var
+avhengig av ett eller to mellom-touch før de kunne slippe den endelige pasningen. Dette var
+også med på å ha en maskerende effekt og gjøre det mer uforutsigbart for forsvarerne. Dette
+er ett godt eksempel på at ferdigheten for ett individ er avhengig av å inneholde alle de fire
+ferdighetsdimensjonene for å være dekkende. Spilleren som skal slå den avgjørende
+pasningen må ha tekniske ferdigheter nok til å mestre de trange romforholdene han møter.
+Samtidig som han må kunne lese de signalene som ligger i spillet og handle utifra ett
+kollektivt ønske om hvorvidt man skal handle i slike situasjoner, og man må finne rett timing
+49
+
+ift den eller de medspillerne man ønsker å samhandle med, og det tidskravet som ligger i
+møtet med motstanderen.
+
+6.1.5
+
+Hva er kvaliteten innenfor hver enkelt fase?
+– Assistens Fase 3: Den avgjørende pasningen
+Den avgjørende pasningen er jo det som ofte blir sett på som hele ferdigheten, og er
+selvfølgelig også en viktig del av det litt større helhetsbilde som jeg forsøker å tegne opp. Her
+snakker vi mer om teknikk og pasningstyper, men det handler også om fra hvor og til hvor
+slås pasningen. Assistene i fotball slås oftest fra sentral sone utenfor sekstenmeteren, men
+også ofte fra kant og inne i sekstenmeteren (figur 7). Dette forsterkes og tydeliggjøres også av
+disse spillerne (figur 17). Jeg har da sett bort fra dødballer, og bare tatt for meg assister utført
+i åpent spill. Om vi ser mer på rom enn på posisjon i banen, slik som vist i figur 18, så ser vi
+at den oftest slåes fra mellomrom, og at den de gangene ble slått fra bakrom ofte ble slått fra
+området mellom sekstenmeteren og femmeteren i banens bredderetning, kalt midtre korridor.
+Dette er de samme funnene som ved TFSs scoringsanalyse (TFS, Spilleren i spillet, La Manga
+2013), som indikerer at innlegg oftere slås fra midtre korridor enn fra sidekorridor i dagens
+fotball på topp europeisk nivå. Sammenheng med denne studien er det også når det kommer
+til hvor assisten slås til. Figur 20 og 21 indikerer at assisten oftest slåes inn i slottet, og at den
+oftest er rettet mot spissen.
+Om vi ser på handlingstypene klassifisert gjennom hva slags type pasning assisten er, så ser vi
+av figur 22 at det oftest er bakromspasninger som blir brukt, fulgt av innlegg og den litt mer
+nyanserte kategorien «pasning til rom i bakre ledd» Som er en slags bakromspasning, men
+hvor spilleren spilles på fot i ett av rommene mellom spillerne i det bakre leddet til
+motstanderen. Derfra bruker han sitt 1. touch til å ta med seg ballen inn i bakrom. Alle disse
+kategoriene underbygger jo også forrige påstand.
+Når vi ser på valg av teknikk er det soleklart oftest blitt brukt innsiden av foten (figur 23).
+Hele 73,2 % er med innsiden, om da ser samlet på de ballene som slås i lufta og langs bakken.
+Det mest interessante her er at en inndeling i pasningsteknikk nesten er uhensiktsmessig
+uansett hvor detaljert man går til verks. Jeg benyttet meg av inndelingen til TFS for
+tilslagsteknikk (Førsteangripers møte med ball, La Manga 2010), og så på både hvordan
+ballen oppførte seg ift skru/ballbane, og på hvilken del av foten som ble brukt. Dette var dog
+ikke nok til å dekke over den detaljrikdommen som lå i spillernes evne til å tilpasse
+teknikkene til den eksakte situasjonen som møtte dem. Denne handlingsfleksibiliteten, samt
+spillernes evne til å kamuflere handlingen sin for forsvarsspillerne samtidig som de klarte å
+dele den rette informasjonen med spilleren de ønsket å nå, er nok den største delen av
+ferdigheten i denne fasen. Når jeg har diskutert dette med ulike fagfolk er den kanskje beste
+forklaringen jeg har notert meg at dette krever ett stort grunnleggende teknisk repertoar. Dette
+må ha både bredde, stabilitet og holde ett høyt nivå. Utover dette handler det om spillernes
+evne til å være kreative og tilpasse de ulike teknikkene, nesten som en jazzmusikker leker seg
+med de ulike faste akkordene som danner grunnlaget for deres musikalske kreativitet. Man
+50
+
+har altså noe fast og standardisert, som danner grunnlaget for den kreativiteten og
+handlingsfleksibiliteten som situasjonen krever.
+På samme måte vil den relasjonelle delen av ferdighetsbildet med spillerens evne til å lese, se,
+dele og skjule de signaler og den informasjon som ligger i situasjonen være vanskelig å finne
+gode målinger på, men som man heller må forsøke å forklare mer kvalitativt. Det finnes noen
+ting som man kan finne bevis for at er rådende i situasjonen, noe jeg har forsøkt å gjøre i
+denne studien, mens spillernes evne til å lykkes i situasjonen krever prøving og feiling i ett
+situasjonsbasert klima som inkluderer innslag av alle de fire ferdighetsdimensjonene gjennom
+bruk av ulike deler av funksjonalitetsskalaen. Hvordan de funnene jeg her har presentert kan
+gjøres om til læringspunkter til bruk i egen treningshverdag skal jeg forsøke å forklare i neste
+del av oppgaven.
+
+6.2 Hvordan kan mine funn omdannes til læringspunkter brukt i
+spillerutvikling?
+For å oppsummere studien har jeg valgt sette opp noen læringspunkter som kan brukes i
+praksis på feltet. Her har jeg videreført tanken om en tredelt spillsituasjon, og satt opp
+læringspunkter basert på de funnene jeg har gjort i hver enkelt spillfase, samt de ulike mer
+uhåndterlige kvalitetene som ligger i situasjonen. Videre vil jeg forklare ett eksempel for
+hvordan dette benyttes i min praksishverdag. Tanken bak dette er egentlig å vise at selv om
+dette er en relativt spisset oppgave som kun baserer seg på en spillsituasjon for en enkelt rolle
+i laget, så kan den samme metodikken benyttes også i andre situasjoner og roller, og fungerer
+godt som utgangspunkt for en pedagogisk inngang til hvordan en ferdighet kan læres.
+
+6.2.1 Læringspunkter for Fase 1 – Komme på ball:
+ Finn timing for å komme inn i rom til riktig tid:
+Dette krever god orienteringsevne slik at man kan identifisere motstanderens press og
+formasjon, de rommene det er mest hensiktsmessig å true, samt hvilke signaler i spillet man
+skal benytte for å utløse at man benytter rommet.
+ Juster posisjonen din i rommet for hele tiden å ha en optimal ”høyde” i rommet:
+Det er ikke de nødvendigvis de store bevegelsene som kreves, men også her handler det mye
+om å orientere seg, lese rommene man er inne i, og hvilke rom man ønsker å true videre
+dersom man skulle bli involvert.
+ Søk rettvendt kroppsposisjon før første berøring
+Dersom du ønsker å spille videre fremover i banen bør du oppsøke en posisjon hvor du er
+rettvendt eller i det minste sidevendt, og kan ta med deg ballen fremover på 1.touch. Dette
+gjør det også lettere å identifisere rom du kan ta med ballen inn, og om spillere i
+motstanderens bakre ledd støter ut på deg eller gir deg mulighet til å ta med ball fremover.
+
+51
+
+ Søk posisjoner for å utnytte kompetanse (egen, med- og mot - spiller)
+Hva er du god på? Har du en veldig god vektet bakromspasning, eller er god til å bende ballen
+rundt bakre firer? Hva er medspillerne dine gode på? Har du en rask bakromsspiss, eller en
+stor hodesterk spiller på topp? Hva med motstanderen din? Har de en tung og treg midtstopper
+som sliter med raskt kombinasjonsspill langs bakken? Eller har de andre svakheter det går an
+å utnytte? Ha ett forhold til dette, og oppsøk rom og situasjoner som gir tilgang på dine
+styrker.
+6.2.2 Læringspunkter for Fase 2 – Fra mulighet til realitet:
+ Vær oppdatert på mulige rom og medspiller(e) før første berøring
+Orienter deg i forkant. Vit hvilke spillere du skal se etter i hvilke rom. Vær klar for at dette
+må kunne løses på kun en berøring.
+ Evne å plukke opp riktig signal og kjenne igjen mønster i spillet/hva skjer, og når
+Hvilke bevegelser skal jeg benytte? Er det noen ting i forsvarslaget som sier at NÅ skal vi slå
+til? Står de for høyt? Er det en som har brutt ut av ledd? Hvilke slike signaler er det verdt å
+benytte og hvem skal vi la gå videre?
+ Evne å kontrollere ballen under ekstremt pressede rom- og tidsforhold
+Jobb opp ett bredt ballrepertoar som gjør deg i stand til å mestre press fra alle kanter. Dette
+krever en god ballkoordinativ og motorisk base, og mye øving på skjerming av ball, ulike
+ballkontrolløvelser, medtaksferdighet med begge føtter og alle deler av foten, samt gode evner
+til å føre/drible med ball i trange situasjoner.
+o Kort avstand mellom ball og kropp; være beredt til å gripe ”rett rom til rett
+tid”
+Trange rom krever kort avstand til ballen, og korte touch. Tiden mellom 1. og
+2. touch bør være så liten som mulig. Sørg for at ballen til en vær tid er
+tilgjengelig dersom timingen tilsier at det er nå man må slå til. Juster med
+mellomtouch dersom man må.
+ Finn optimal timing (tid/rom i samhandling)
+Timingen er essensiell. Jobb med situasjoner hvor du må velge når du skal slippe ballen ift
+den bevegelsen som kommer.
+
+6.2.3 Læringspunkter for Fase 3 – Den avgjørende pasningen:
+ Ha bredt tilslagsrepertoar med tyngdepunkt på innsidepasning
+Å kunne forløse spillet krever en rekke forskjellige teknikker. Jobb med å utvikle ett repertoar
+som gjør deg i stand til mestre alle typer skruer, volleyer osv. Men det handler mye om
+presisjon og nøyaktighet. Innsidepasningen bør prioriteres.
+ Ha et kamuflerende element
+Evnen til å skjule informasjon for motstanderen kan være nøkkelen til å bryte igjennom.
+Skjulte pasninger, avvent bevegelsen, avbrekk med foten i ny retning, se en annen vei,
+direktetouch etter medtak, er eksempler på måter og lure motstanderen vekk fra å lese
+pasningen som kommer. Øv inn dette i repertoaret, og vær bevist på hva i kroppsspråket ditt
+som kan avsløre deg.
+52
+
+ Presisjon og optimal vekting av pasningen
+Innsidepasningen er sentral. Det holder ikke at pasningen kommer frem. Den må legges på
+sølvfat slik at den er enklest mulig å score på. Vekting og type skru i ballen kan være
+avgjørende for resultatet. Hvilken fot legger du den på hos medspilleren din? Hvor i forhold
+til forsvareren som passer på han?
+
+6.2.4 Hvordan øve dette i hverdagen:
+I sammendraget over har jeg vist til noen læringspunkter som virker sentrale for denne
+ferdigheten. Hvordan spillerutvikling skal drives, og hvilke teorier som skal ligge til grunn for
+den didaktiske inngangen vi velger er det stor diskusjon rundt og mange meninger om. Jeg
+skal ikke på noen som helst måte fortelle hva som er rett og galt her, men skal forsøke og
+innkapsle oppgaven min til en helhetlig tanke ved å knytte analysene og det teoretiske
+arbeidet sammen med vår hverdag på feltet. Derfor vil jeg i dette kapitelet si noe videre om
+hvilke elementer vi legger til grunn når vi øver dette med våre spillere.
+Først og fremst legger vi til rette for en spillsentrert tilnærming. Dette gjelder også når det
+kommer til utvikling av enkeltspilleren. Ett av de viktige elementene i denne studien har vært
+å se ferdigheten til individet gjennom alle de fire ferdighetsdimensjonene, og dermed blir det
+naturlig å legge til rette slik at ferdighetene øves så spesifikt og nærme det ferdige spillet som
+mulig. Vi tror at en spillers ferdighet først og fremst handler om å forstå hvilken spillsituasjon
+man er oppe i, og hvordan dette skal løses til fordel for eget lag. Mange kaller det
+fotballforståelse. Når vi jobber individuelt med spillerne øver vi derfor så mye som mulig i
+det ferdige spillet. Vi kan derfor ha 4-5 trenere som aktivt jobber i en spillsekvens, med
+ansvar for ulike spillere.
+En annen fordel med å øve mye i det ferdige spillet er at du naturlig får satt det i en struktur.
+Vår oppfatning og erfaring er at det er mye lettere både å identifisere og jobbe med detaljer
+hos individet dersom man har en form for struktur i spillet. Dersom ett spill virker kaotisk, så
+starter vi derfor alltid med å få på plass strukturen først, før vi begynner å jobbe med de ulike
+detaljene hos vær enkelt. Når det er sagt, så er det viktig å påpeke at struktur kan være så
+mangt. Alder, tema, læringsmål, og øvelser vil være med å gi ulike krav til hvor avansert en
+struktur er, og dermed også hvor mye tid vi trenger å bruke på den. Vi sier ikke at vi ønsker å
+bruke mest tid på strukturen, men at det kan være hensiktsmessig å få denne på plass først.
+Også når det gjelder spillerutvikling.
+Ett annet viktig element er at man må søke å bruke hele funksjonalitetsskalaen. Vi ønsker som
+nevnt å ha ett stort fokus på å mestre ferdighetene i det det ferdige spillet, men dette har også
+sine begrensninger. Man tjener mye i form av forståelse i situasjonen ved en slik tilnærming,
+men man får samtidig ett lite antall repetisjoner både når det gjelder det tekniske repertoaret
+og den relasjonelle samhandlingen med andre. Det er derfor viktig å bruke øvelsesspekteret
+som funksjonalitetskalaen gir deg, men samtidig ta utgangspunkt i spillsituasjonen i det
+
+53
+
+ferdige spillet, slik at spillerne skjønner hvilke typer ferdigheter de faktisk øver og hvor i
+spillet disse kan benyttes.
+Din rolle som trener og læremester er selvfølgelig sentral i møtet med spilleren og hans
+utvikling. Det er ulike måter å utøve sitt yrke på som trener, og basert på sin egen erfaring,
+kultur og den oppgaven man står ovenfor, må man skape sin egen identitet som trener. Vi
+søker litt uavhengig av dette å fremstå som trenere med en grunnleggende spørrende
+tilnærming til våre spillere. Vår utviklingsleder Thomas Hafstad skrev i 2012 en tilsvarende
+A-lisens oppgave som denne hvor han drøfter en del punkter knyttet til dette feltet. Denne
+oppgaven brukes mye som en ledesnor i vårt arbeid, og tanken om at vi må få spillerne til å ha
+ett mer bevist forhold til sin egen utvikling er derfor sentral. Ronglan (2008) peker på at
+læring er en aktiv og konstruktiv prosess som forutsetter at den som skal lære noe (her
+spilleren) bearbeider inntrykk og selv skaper mening og forståelse. Vi tror at spillernes
+mentale ressurser knyttet til evnen til å ta til seg læring er elementært for å utvikle gode
+fotballferdigheter, og vi søker derfor å stimulere deres egen refleksjon over de løsningene de
+utfører i spillet.
+På samme måte som vi tror det kan være hensiktsmessig å ha ett bevist forhold til de
+oppgavene som møter en i spillet, så tror vi det kan være smart og noen ganger se seg selv litt
+utenfra, eller studere andre som har de ferdighetene i situasjonen man ønsker å øve på. Vi ser
+derfor mye video med våre spillere gjennom ulike typer medier, og bruker dette både med
+laget som helhet, i grupper som for eksempel en lagdel eller spillerne på en side av banen, og
+vi bruker det individuelt med hver enkelt spiller. Gjennom studier som denne og andre
+lignende studier, har vi tilgang på løsningsforslag på utvalgte spillsituasjoner fra noen av de
+beste spillerne i verden. Det er glimrende referanser å ta med seg, og enkelt og overbevise
+spillerne med. Vi har også i dagens samfunn tilgang på utallige mer eller mindre godt
+videomateriell gjennom tjenester som Fotballab.no, YouTube, m.fl. Dette gir oss muligheten
+til å la spillerne selv komme frem til gode referanser som vi kan diskutere, og på den måten
+stimulere dem ytterligere ift forståelsen av en situasjon. I tillegg ser vi selvfølgelig video av
+spillerne selv i både kamp og treningssituasjon. Dette sammenlignes med de beste, diskuteres
+ift egne erfaringer, og brukes til å justere detaljer i alle deler av ferdigheten. Ett viktig element
+her er å legge vekt på å forsterke gode situasjoner i større grav enn å vise dårlige bilder.
+Spillerne må etter hvert forstå at en kamp med spill/motspill kontekst naturlig vil inneholde
+både gode og dårlige situasjoner, men dette krever modning fra spilleren, og må innføres
+progressivt slik at ikke videobildene virker mot sin hensikt.
+
+54
+
+Litteratur
+Bekkelund, F. & Holme, G. (2009). Perseptuell utvikling i fotball – En intervensjonsstudie på
+treningseffekten av visuelle søk hos en gruppe unge fotballspillere. Norges Idrettshøgskole. Oslo.
+Bergo, A., Johansen, P.A., Larsen, Ø og Morisbak, (2002) A. Ferdighetsutvikling i fotball –
+handlingsvalg og handling Oslo: Akilles
+Bryntesen, S. (2009). Intervensjonsstudie av norske talentfulle fotballspilleres overblikk og
+visuelle søk – en økologisk tilnærming. Norges Idrettshøgskole. Oslo.
+Bunker, D. and Thorpe, R. (1982) A model for the teaching of games in the secondary school.
+Bulletin of Physical education, 10, s.9-16
+Carling, C., Williams, M og Reilly, T. (2005) Handbook of soccer match analysis Oxon:
+Routledge
+Dahl, G. (2002). Rolleferdigheter: et casestudie av sideback og indreløper i angrep.
+Hovedfagsoppgave, NIH. Oslo
+Dreier, S., Morisbak, A., Skarsfjord, T. (1986). God fotballferdighet. AD Notam Gyldendal
+Eggen, N. A. (1999) Godfoten. Samhandling – veien til suksess. Oslo: Ashehoug
+
+Eide, Ø. (2007) Spillerutvikling i fotball. Masteroppgave Norges idrettshøgskole.
+Eide, Ø. (2010) Treningsmetodikk. UEFA A-lisens oppave, NFF. Oslo
+Ericsson, K. A., Krampe, R. & Tesch-Römer, C. (1993). The role of deliberate practice in
+the acquisition of expert performance. Psychological Review, 100, 363-406.
+Fagermo, D.E. (2000) spillerutvikling med utgangspunkt i en valgt offensiv spillestil. Trener IIIoppgave, NFF. Oslo
+Giske, R. (2001). Individuelle handlingsvalg i lagballspill. En teoretisk og empirisk analyse.
+Dr.scient avhandling, NIH, Oslo
+Grøttland, H. (2010) Keeperen. En analyse av keeperrollen i situasjoner hvor den primære
+arbeidsoppgaven er å hindre mål. Trener III-oppgave. NFF. Oslo
+Hareide, Å. (2004) Fotball, fornuft og følelser. Gyldendal. Gjøvik
+Helsen, W.F., Starkes, J.L., & Hodges, N. J. (1998). Team sports and the theory of deliberate
+practice. Journal of sport exercice psychology, 20, 13-35.
+Holme, I.M. & Solvang, B.K. (1993): Metodevalg og metodebruk (2.utg) Oslo, TANO.
+
+55
+
+Holmedal, R. (2008) Hva kjennetegner spissen ved scoring? Hvordan legge til rette for spissen
+på treningsfeltet? Masteroppgave. Norges idrettshøgskole. Oslo.
+Horncastle, James, The next big things. Champions, issue 43, October/November 2010
+
+Høgtun, S. (1993). Trening av individuelle ferdigheter. Fotballtreneren nr. 2, 1993: 16-19
+Johansen, P. A. (2011). Verdens beste spill. Forskjellen som utgjør en forskjell. Norges
+Idrettshøgskole. Oslo.
+Jordet, G. (2001). An ecological approach to skill in team ball sport. Upublisert
+Jordet, G. (2003). Læring av perseptuell ekspertise i fotball. Moving bodies, nr 2:133-147
+Jordet, G. (2004). Perceptual expertise in dynamic and complex competitive team contexts.
+Dr.scient, avhandling, NIH. Oslo
+Jordet, G. (2012). Presentasjon av 14-21 prosjektet. Powerpoint presentasjon
+Toppfotballsenteret. Oslo.
+Larsen, Ø. (1998). Spillestil og ferdigheter. Fotballtreneren nr. 1, 1998:26-28
+Lexerød, N. (2010) Hvordan gjøre de beste best – eksempler på læringsprinsipper,
+virkemidler og metoder for påvirkning av fotballferdighet for spillere i alderen 16-21 år. NFF.
+UEFA A-lisens oppgave.
+Loberto, A. (2011) Hvordan kan den moderne fotballen påvirke vår tilnærming til utvikling
+av unge spillere? NFF. UEFA A-lisens-oppgave.
+Morin, E. (2008) On Complexity. Hampton press.
+Newell, K.M. (1985) Coordination, control and skill. In D. Goodman, R.B. Wilberg and I.M.
+Franks (eds) Differing Perspectives in Motor Learning, Memory, and Control. Amsterdam:
+Elsevier Science Publishing, 295-317
+
+Tomten, S. (2004) NIH, metodeforelesning VMS200
+Toppfotballsenteret (2011). Verdens beste spill, VM-Analysen. Powerpoint Presentasjon.
+Oslo
+Toppfotballsenteret (2012). Verdens beste spill, Champions League Analysen. Powerpoint
+Presentasjon. Oslo
+Toppfotballsenteret (2012). Sportslig Målverktøy, Powerpoint Presentasjon. Oslo
+
+56
+
+Toppfotballsenteret (2013). One Pager, Virksomhetside, Powerpoint Presentasjon. Oslo
+Olafsen, E., Knutsen, H., Walstad, RM., Sokolowski, K., Barannik, D., Johansen, PA.
+(2003). Hva kjennetegner verdens beste spillere. Fotballtreneren, nr 3. 2003: 22-26
+Olafsen, E. (2008). Scoringsferdigheten. Powerpoint-presentasjon. NTG
+Olsen, E., Larsen, Ø. Og Semb, N.J. (2000) Effektiv Fotball. Tangen: Gyldendal
+Reep, C. & Benjamin, J. (1968) Skill and Chance in Association Football, Journal of the Royal
+Statistical Society.
+
+Reilly,T., Williams, A.M., Neville, A., Franks, A. A multidisciplinary approach to talent
+identification. Journal of sports science, 18. 2000.
+Repstad, P. (1993): Kvalitative metoder i samfunnsfag (2.utg.). Oslo, Universitetsforlaget
+Ripegutu, A. (2011) Kunsten og lære effektivt. Selvregulering i fotball: Utviklingen av ett
+måleinstrument. Masteroppgave i Idrettsvitenskap. Norges Idrettshøgskole. Oslo.
+Ronglan, L.T., Larsen, Ø. (2003). Ballspillanalyse – mer enn arbeidskravsanalyse. Moving
+bodies, vol.1, 2: 11-27.
+Ronglan, L.T. (2008) Lagspill, læring og ledelse. Oslo: Akilles
+Sigmundstad, E. (1991) Teknikk og teknikkutvikling i fotball – treningsmetoder, ytre og indre
+feedback. Hovedfagsoppgave. NIH
+Schmidt, R.A. and Lee T.A. (1999) Motor Control and Learning: A Behavioral Emphasis.
+Champaign, IL: Human Kinetics
+Schmidt, R.A. and Wrisberg, C.A. (2000) Motor Learning and performance: from Principles to
+Practice. Champaign, IL: Human Kinetics
+Stratton, G., Reilly, T., Williams, A.M. and Richardson, D. (2004) Youth Soccer: from science
+to performance. London: Routledge
+Svartdal, F. & Flaten, M.A. (1998). Læringspsykologi. Oslo: Gyldendal akademisk.
+Sørensen, A. (1996). Hvordan er læringseffekten av teknikktrening med lav vs. Høg
+funksjonalitet, i
+deler av treninga, for et utvalg av seniorspillere i fotball. Hovedfagsoppgave, NIH. Oslo
+Teigen, R. (2005). Fra tung filosofi til enkel metodikk. – en studie av fotballspillets emergente
+egenart og betydningen for arbeidet på praksisfeltet med laget som prestasjonsenhet.
+Hovedfagsoppgave, NIH. Oslo
+
+57
+
+Taylor, S., Ensum, J. and Williams, M. (2002) A Quantitative analysis of goals scored. The FA
+Coaches Association Journal, 4 (5), s.28-31
+Toering, T. T. (2011). Self-regulation of learning and the performance level of youth soccer
+players. Doctoral thesis. Univeristy of Groningen. The Nederlands.
+Wilson, Jonathan, Inverting the pyramid. A history of football tactics (Orion Books, 2008)
+Ward, P., Hodges, N.J., Williams, A.M. and Starkes, J.L. (2004) Deliberate practice and
+expert performance: defining the path to excellence. In A.M. Williams and N.J. Hodges (eds) Skill
+acquisition in Sport: Research, Theory and Practice. London: Routledge, 231-258
+Williams, A.M. (2003) Learning football skills effectively: challenging tradition. Insight – The
+F.A. Coaches Association Journal, 2 (6), 37-39
+Williams, A.M. and Grant, A. (1999) Training perceptual skill in sport. International journal of
+Sport and Exercise Psychology, 30, 194-220
+Ward, P. and Williams, A.M. (2003) Perceptual and cognitive skill development in soccer: the
+multidimensional nature of expert performance. International journal of Sport and Exercise
+Psychology, 25, 1, 93-111
+Wade, A. (1967) The FA – guide to training and coaching. London: The Football Association /
+Heinemann
+
+58
+
+Figuroversikt:
+Figur 1: Pasningsdata for verdens beste midtbanespillere.
+Figur 2: Pasningssyntaksen før scoring.
+Figur 3: Vellykkede pasninger fra en typisk kamp av X. Alonso og A. Pirlo.
+Figur 4: Vellykkede pasninger fra en typisk kamp av M. Özil, D. Silva og L. Messi.
+Figur 5: Vellykkede pasninger fra en typisk kamp for J. Navas og A. Negredo.
+Figur 6: Hvor i banelegemet kommer det flest assist.
+Figur 7: Hvor mange assist per kamp har hver rolle.
+Figur 8: De spillerne med flest assist de siste 3 sesongene.
+Figur 9: Grunnleggende bevegelser gjort i forkant av assist-situasjonene.
+Figur 10: Høyde i mellomrommet ved ballmottak.
+Figur 11: Kroppstilling spillerne hadde ved ballmottak.
+Figur 12: Kroppsstilling ift hvilken høyde i rommet de hadde.
+Figur 13: Hvor mange sekunder spillerne brukte per assist-involvering
+Figur 14: Antallet på ballen per involvering.
+Figur 15: De ulike handlingskategoriene som forekom i forkant av assistene.
+Figur 17: Antall meter fra ballfører til presset ved 1.touch i situasjonen.
+Figur 18: Hvor i banen kom assistene i min studie ifra.
+Figur 19: Hvilke rom assistene ble slått i fra.
+Figur 20: Hvor assisten slås til.
+Figur 21: Hvilke roller i laget som mottar flest assist fra mine spillere.
+Figur 22: Hvilke handlingstype assisten er ift kjente klassifiseringer av en pasning.
+Figur 23: Fordelingen av situasjoner innenfor hovedkategoriene av teknikk.
+
+s.32
+s.33
+s.34
+s.34
+s.34
+s.35
+s.35
+s.36
+s.37
+s.38
+s.38
+s.39
+s.40
+s.41
+s.41
+s.42
+s.43
+s.43
+s.44
+s.44
+s.45
+s.45
+
+59
+
+Vedlegg
+-
+
+Vedlegg 1: Liste over de beste spillerne i verden (TFS).
+
+-
+
+Vedlegg 2: Statistikkskjema for analysen
+
+60
+
+

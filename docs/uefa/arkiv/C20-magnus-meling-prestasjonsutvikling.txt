@@ -1,0 +1,1848 @@
+Effektiv
+prestasjonsutvikling
+UEFA A-lisens oppgave 2015/2016
+Hvordan henger ulike typer treneratferd og øvelser sammen med fotballspilleres
+selvregulering under aktivitet? Hvordan kan en få 1 times utbytte av 10 minutters trening?.
+
+Magnus Espeland Meling – Fredrikstad FK
+
+UEFA A-lisens 2016
+
+Innholdsfortegnelse
+1.
+
+Innledning ....................................................................................................................................... 3
+
+2.
+
+Problemstilling ................................................................................................................................ 5
+
+3.
+
+Teori ................................................................................................................................................ 6
+3.1.
+
+3.1.1.
+
+Selvregulering sett i et læringsperspektiv ....................................................................... 6
+
+3.1.2.
+
+Selvregulering og fotball.................................................................................................. 7
+
+3.2.
+4.
+
+Generell selvregulering ........................................................................................................... 6
+
+3.1.2.1.
+
+Planlegging .............................................................................................................. 9
+
+3.1.2.2.
+
+Selvobservasjon ....................................................................................................... 9
+
+3.1.2.3.
+
+Evaluering................................................................................................................ 9
+
+3.1.2.4.
+
+Refleksjon .............................................................................................................. 10
+
+3.1.2.5.
+
+Innsats og selvtillit ................................................................................................. 10
+
+Motstand og vanskeligheter .................................................................................................. 11
+
+Metode .......................................................................................................................................... 13
+4.1.
+
+Deltakere ............................................................................................................................... 13
+
+4.2.
+
+Utvikling av måleinstrumenter .............................................................................................. 13
+
+4.2.1.
+
+Selvregulering ................................................................................................................ 14
+
+4.2.2.
+
+Treneratferd .................................................................................................................. 15
+
+4.2.3.
+
+Type aktivitet ................................................................................................................. 16
+
+4.3.
+
+Innsamling av data................................................................................................................. 16
+
+4.3.1.
+5.
+
+Bearbeiding av data ....................................................................................................... 17
+
+Resultat ......................................................................................................................................... 19
+5.1.
+
+Sammenhengen mellom fotballøvelser og spillernes selvregulering. .................................. 20
+
+5.2.
+
+Sammenheng mellom treneratferd og spilleres selvregulering ............................................ 23
+
+6.
+
+Diskusjon ....................................................................................................................................... 24
+
+6.1.
+
+Planlegging ............................................................................................................................... 24
+
+6.2.
+
+Selvobservasjon ........................................................................................................................ 25
+
+6.3.
+
+Evaluering og refleksjon ........................................................................................................... 26
+
+6.4.
+
+Treneratferds sammenheng på selvregulering ........................................................................ 27
+
+7.
+
+Konklusjon og praktiske implikasjoner ........................................................................................ 28
+
+7.1.
+
+Finn «the sweet spot» .............................................................................................................. 30
+
+7.2.
+
+Kast klokka ................................................................................................................................ 31
+
+7.3.
+
+Oppmerksomhet på feil............................................................................................................ 31
+
+7.4.
+
+Tips til effektiv coaching ........................................................................................................... 32
+
+1
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+8.
+
+Litteraturliste ................................................................................................................................ 35
+
+9.
+
+Sammendrag ................................................................................................................................. 39
+
+Vedlegg 1: Spørreskjema for selvregulering.......................................................................................... 40
+
+2
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+1. Innledning
+Talent er et hyppig brukt begrep i fotball, og samfunnet generelt. Order blir ofte brukt som en
+betegnelse på medfødte begavelser og egenskaper. Helt siden de første olympiske lekene hos
+grekerne har talent blitt brukt som en forklaring på gode idrettsprestasjoner. Av en eller annen
+grunn så er det flere i dag som bruker dette begrepet for å forklare hvorfor noen blir bedre enn
+andre. Populære og hyppig brukte ord i dagens samfunn som «talentidenfisering» og
+«talentutvikling» er med på å bekreftet dette. Men er medfødte begavelser og egenskaper
+svarer på hvorfor noen mennesker oppnår ekstreme prestasjoner i en idrett?
+
+Europa og verdemester i fotball, Pepe Reina, stiller også dette spørsmålet i sin selvbiografi.
+Han kommer med utallige eksempler på spillere som gjerne ble sett på som den neste
+Maradonna, men som det aldri ble det :”There were so many players with unbelievable talent
+who appeared to be destined to be a success for Barcelona, but for some reason it didn’t turn
+out that way” (Reina, s.26, 2011)
+Forskningslitteratur de siste ti årene viser at utviklingen av ekspertise1 ikke er avhengig av et
+såkalt talent. Den anerkjente 10 000 timer teorien til til Ericsson, Krampe og Römer (1993) er
+et eksempel på dette. I følge teorien er det i gjennomsnitt nødvendig med 10 000 timer av
+deliberate practice2 for å nå ekspertise nivå i en gitt gren (Ericsson, m.fl, 1993).
+
+Studier innenfor ekspertise utvikling i fotball viser at det ikke bare er mengden treningstimer
+som er avgjørende. Det finnes flere eksempler på at det er mulig å oppnå ekspertise nivå før
+man når 10 000 timer, dette spesielt innenfor komplekse idretter som fotball (Helsen, Starkes,
+og Hodges, 1998). Spillere på profesjonelt nivå kjennetegnes ved at de tok mer fordel ut av
+samme treningsmengde enn de andre. I tillegg er de flinkere til å kontinuerlig forbedre sine
+prestasjoner og utvikle seg effektivt (Gemser, Jordet, Silva og Visscher 2012). Årsaken til
+dette er psykologiske forskjeller. Spillere som når profesjonell status er mer psykologisk
+bundet til deres mål, noen som gjør at lysten til å legge ned den innsatsen som kreves er større
+enn dem som ikke når profesjonelt nivå (Van Yperen, 2009)
+
+1
+
+Ekspertise kan defineres som karakteristika ferdighet og kunnskap som skiller eksperter fra nybegynnere og
+mindre erfarne mennesker (Ercisson, 2006)
+2
+Deliberate practice kan defineres som full fokusert trening med konstant søking etter kritisk feedback ved hjelp
+av prøving og feiling for å forbedre konkrete ferdigheter (Ericsson, 2008).
+
+3
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Med dette som utgangspunkt har det blitt rettet mer og mer fokus på kvaliteten av trening når
+det gjelder utviklingen av ekspertise. Kvalitet kan i treningssammenheng defineres som
+«..optimal endring av de forutsetninger som ligger til grunn for god prestasjon som følge av
+systematisk påvirkning over en gitt tid» (Haugaasen, 2012, s.25). Kvalitet sørger for at man
+kan dra større fordel ut av treningen, noe som ser ut til å være er en avgjørende faktor i
+utviklingen av ekspertise (Haugaasen & Jordet, 2012).
+
+For å utøve trening med god kvalitet kan selvregulering være nøkkelen (Toering, Gemser,
+Jordet og Visscher, 2009; Haugaasen & Jordet, 2012). Selvregulering handler om prosessene
+som gjør det mulig å være proaktiv i sin egen utvikling (Zimmerman, 2006). Det viser seg at
+fotballspillere som er på et høyt nivå er flinkere med de ulike selvregulerings aspektene enn
+de spillerne som ikke er på et høyt nivå. (Toering, 2011).
+
+I tillegg så ser man at motstand og ønskelig vanskeligheter også er en avgjørende faktor for
+kvaliteten i treningen. Både psykologisk og motorisk motstand skal være svært avgjørende for
+effektiv prestasjons utvikling. Det viser seg at kapasiteten til å suksessfull tilpasse seg selv i
+møte med utfordrende situasjoner (resilience), er en av de viktigste egenskapene for å
+ekspertise nivå. Både fordi man holder motivasjonen oppe ved tunge perioder og fordi man er
+i stand til å gjennomføre handlinger som er motorisk krevende å utføre (Collins &
+MacNamara, 2012). Trening som er motorisk krevende viser seg å være svært effektiv på
+prestasjonsutviklingen (Kantak, Sullivan, Fisher, Knowwlton og Winstein, 2010)
+
+4
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+2. Problemstilling
+Med teorien som er nevnt innledningsvis kan det tenkes av selvregulering og ønsket motstand
+er en av nøkkelfaktorene for utøve trening med god kvalitet. Kunnskap om hvordan
+selvregulering og motstand kan utøves og påvirkes i praksis, vil derfor være med å heve
+kvalitet i treningsarbeidet. Dette vil igjen effektivisere prestasjonsutviklingen til
+fotballspillere. Denne oppgaven tar for seg nettopp dette. Den ser på hvordan ulike
+fotballøvelser, og treneratferd henger sammen med selvregulering under aktivitet. En bedre
+forståelse av dette kan være med å optimalisere forholdene for en mer effektiv
+spillerutvikling. Det samme vil en dypere forståelse av hvilken innvirkning motstand og
+vanskeligheter har på prestasjonsutviklingen. Med dette som utgangspunkt blir
+problemstillingen for denne oppgaven :
+
+«Hvordan henger ulike typer treneratferd og øvelser sammen med fotballspilleres
+selvregulering under aktivitet?
+
+Og
+
+«Hvordan kan en få 1 times utbytte av 10 minutters trening».
+
+5
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+3. Teori
+I teoridelen vil det bli gjennomgått litteratur som tar for seg hva som er avgjørende for at
+spillere skal kunne lære og utvikle seg mest mulig effektivt. Først vil generell selvregulering
+teori bli presentert, før det snevres inn mot selvregulering sett i et læringsperspektiv. Til slutt
+rettes temaet spesifikt inn mot fotball og hvilke prosesser som kan være avgjørende for
+effektiv læring. Teoridelen avsluttes med nyere litteratur om hvor avgjørende motstand og
+vanskeligheter kan være i utviklingen av ekspertise.
+
+3.1. Generell selvregulering
+Selvregulering defineres som individets evne til å kontrollere og endre tanker, følelser og
+atferd (Baumeister & Vohs, 2011). Selvregulering er det man aktivt gjør for å oppnå ønsket
+tilstand. Prosessen består av følgende faser: 1) sette seg et mål, 2) utøve den innsatsen som
+kreves for å nå målet og 3) evaluere prosessen underveis. (Baumeister & Vohs, 2011). En slik
+prosess er fult mulig å gjennomføre med bevisst intervensjon og veiledning, og det er en
+avgjørende faktor for læring og prestasjon (Baumeister, 1998). Oppsummert handler
+selvregulering om individets kapasitet til å guide seg selv mot viktige mål.
+
+3.1.1. Selvregulering sett i et læringsperspektiv
+Sett i et læringsperspektiv dreier selvregulering seg om hvordan et individ deltar i sin egen
+læringsprosess. Den læringsprosessen består av ulike elementer: personlige prosesser,
+atferdsmessige handlinger og miljøomgivelser (Zimmerman, 2006). Disse må kunnes
+reguleres og koordineres på en fleksibel måte for å lære mest mulig effektivt. Siden disse tre
+elementene varierer, må de overvåkes og evalueres ved hjelp av en egen selvorientert
+feedback syklus (Zimmerman, 1989).
+
+Det som igjen påvirker effekten av selvorientert feedback syklus er nøyaktigheten og
+utholdenheten i ens egen selvovervåking og selvtillit. Til sammen vil resultere i en
+selvforbedrende syklus av læring (Zimmerman, 2006). Den selvforbedrende syklus av læring
+består av en selvmotiverende tro gjennom en syklus av tre faser: forethought-, performanceog self-reflection phase (se figur 1). Det viser seg at eksperter ofte er flinkere i de ulike fasene
+av selvregulering og dette kan resultere i mer effektiv trening og raskere fremgang (se figur 1)
+(Zimmerman, 2006).
+
+6
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Figur 1 Viser ulike faser og subprosesser av selvregulering (Zimmermann og
+Campillo,2003, s. 239)
+
+3.1.2. Selvregulering og fotball
+Med utgangspunkt selvregulering sett i læringsperspektiv har det blitt gjennomført studier på
+selvregulering i fotball. I en av studiene så en på forholdet mellom prestasjon og
+selvregulering hos unge elitespillere og ikke-elitespillere (Toering, Gemser, Jordet &
+Visscher, 2009). Unge spillere fylte ut et spørreskjema som vurderte planlegging, selvobservasjon, evaluering, refleksjon, innsats og selvtillit. Studien viste at elitespillere scoret
+høyere på alle selvreguleringsaspektene enn ikke-elitespillere. Spesielt var refleksjon og
+innsats assosiert med god prestasjon (Toering m.fl., 2009).
+
+Konklusjonen i studien var at elitespillere var mer bevisste over deres sterke og svake sider,
+flinkere til å overføre kunnskap til handling, og mer villige til å yte stor innsats under trening
+og kamp. Altså, grunnen til at elitespillerne spilte på et høyere nivå kan være fordi de var
+flinkere til å reflektere over tidligere handlinger og at de prøvde hardere for å oppnå suksess.
+På den måten ble treningen deres mer effektiv (Toering, m.fl., 2009).
+
+7
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+For å finne ute hvilken type atferd som var assosiert med god selvregulering, har det blitt
+gjennomført en studie der formålet var å få en beskrivelse av selvregulerende atferd i fotball
+(Toering, Gemser, Jordet, Joma, Pepping & Visscher, 2011)3. Konklusjonen fra studien viste
+at gode selvregulerende fotballspillere kan defineres som:
+”These are the players who: are good at time-management, think about what they need to do to perform
+successfully at practice and competition, seek feedback of their progress, are willing to expend effort, and are
+self-efficacious. They reflect upon what they have learnt and upon their strengths and weaknesses. These players
+practice behaviors are best suited to benefit from practice. However, these players are not necessarily the ones
+who perform best.” (Toering m.fl., 2009, s. 119)
+
+Basert på ulike selvreguleringsteorier har det blitt utviklet en selvreguleringsmodell innenfor
+læring og utvikling i fotball. Hovedbudskapet til modellen er at spillere som vil utvikle seg,
+må vite hvilke aspekter fra egen prestasjon som må forbedres og hvordan det bør gjøres.
+Modellen tar utgangspunkt i seks aspekter (planlegging, observasjon, evaluering, refleksjon,
+selvtillit og innsats) og viser et konkret eksempel på hvordan selvreguleringsprosessen kan se
+ut i fotballsammenheng (Toering, 2011).
+
+Figur 2 Viser selvreguleringsprosessen i ulike faser knyttet til fotball. (Toering, 2011, s. 15)
+
+3
+
+Den første delen av studien bestod av intervjuer av trenere der de ble bedt om å beskrive gode og dårlige
+handlinger innenfor selvregulering. Den andre delen bestod av å bruke film som et måleinstrument og
+sammenligne atferd med resultatet fra spørreskjemaet som ble brukt i studien til Toering og kollegaer (2009)
+
+8
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+3.1.2.1.
+
+Planlegging
+
+For å gjøre fremskritt bør spillere ha fokus på å identifisere styrker og svakheter, og sette seg
+mål og strategi i henhold til dette for å gjøre fremskritt (Toering, 2011). En effektiv
+planleggingsprosess bør inneholde følgende (Kitsantas & Kavussanu, 2011; Zimmerman,
+2006):
+
+Målsetting: En kan skille mellom prosessmål (fokus på detaljene og teknikken som skal til for
+å klare prestasjonen) og resultatmål (fokus på sluttresultater av prestasjonen). En kan også
+skille mellom kortidsmål og langtidsmål. Måloppnåelse avhengig av målets nærhet,
+spesifisitet og vanskelighet (Kitsanta & Kavussanu, 2011). Det kan se ut som at korttidsmål er
+mer effektiv enn langtidsmål, og at et mål bør være så detaljert og konkret som mulig. På den
+måten blir målsettingen mer effektiv og motiverende fordi en ser at målene er oppnåelige
+(Bandura, 1989; Zimmerman, 1989).
+
+Strategi: Strategi handler om taktiske metoder man bruker for å oppnå et forhåndsbestemt mål
+eller prestasjon (Zimmerman, 2006; Zimmerman & Campillo, 2003). Dette innebærer en
+reflektert overvåkenhet over hva som må forbedres og hvordan det kan forbedres
+(Zimmerman, 2006). I tillegg må man i lys av tidligere erfaringer, evaluering og
+oppgaveanalyse legge en strategi på hvordan en kan forbedre sine prestasjoner (Zimmerman
+& Campillo, 2003).
+
+3.1.2.2.
+
+Selvobservasjon
+
+Selvobservasjon handler om hvordan spillere kontrollerer sin prosess under selve prestasjonen
+(Toering m.fl., 2011). Nærmere forklart betyr dette at selvobservasjon involverer prosesser
+som overvåker hva en selv gjør, som gir en forståelse over av hva som bør gjøres videre.
+Enkelt forklart handler det om at man sjekker ”hva gjør jeg nå?” (Ertmer & Newby, 1996).
+Det vil si evnen til å observere sin egen forståelse av hva man gjør og hvorfor man gjør det
+(Weinstein & Van Mater Stone, 1993).
+
+3.1.2.3.
+
+Evaluering
+
+Evaluering er tankegangen om i hvilken grad målet ble nådd og tankeprosessen i etterkant.
+Årsaksforklaringer er en faktor ved evaluering som er med å påvirke senere prestasjoner.
+
+9
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+En spillers årsaksforklaringer påvirker spillerrens tankegang og tro på egen mestringsevne
+(Zimmerman, 2006). Indre og kontrollerende årsaksforklaringer (f.eks. dårlig innsats, feil
+strategi o.l) gir en mer positiv læringseffekt og reaksjon enn ytre og ukontrollerende
+årsaksforklaringer (f.eks. uflaks, dårlige medspillere o.l) (Zimmerman, 1989: 2006). Det skal
+være svært fordelaktig å attribuere til indre og kontrollerende faktorer. Fordi individer som
+tror de feilet på grunn av dårlig innsats, vil sannsynligvis arbeide enda hardere for å få det til.
+Individer som imidlertid tror at de feilet på grunn av manglende evne, vil kunne komme til å
+redusere innsatsen og miste motet (Bandura, 1991).
+
+3.1.2.4.
+
+Refleksjon
+
+Det er individets refleksjonsevne som styrer og starter selvreguleringsprosessen (Toering,
+2011). Refleksjon i læringsprosessen kan lede til endringer i fremtidige prosesser og forbedre
+den metakognitive kunnskapen om læring. Refleksjon er en link mellom tanker og handlinger
+som resulterer i at man kan oppnå strategisk kunnskap ut fra spesifikke læringssituasjoner.
+Man lærer mer fra refleksjonen av opplevelsen enn selve opplevelsen i seg selv. Gjennom
+refleksjon kan en forbedre kunnskapen om seg selv, oppgaven og strategier. På denne måten
+kan refleksjon være nøkkelen til effektiv læring og intelligens (Ertmer & Newby,1996).
+
+3.1.2.5.
+
+Innsats og selvtillit
+
+For at selvreguleringsprosessen skal være effektiv og føre til fremgang, er det nødvendig at
+innsats og selvtillit er til stede gjennom hele syklusen (Toering, 2011). Innsats handler om
+hvor mye tid og krefter en utøver er villig til å ofre for å oppnå sine mål. Studier som har sett
+på unge fotballspillere, viser at unge elite-spillere bruker mer tid og krefter på å nå sine mål
+enn ikke-elite spillere (Toering m.fl., 2011). Og at spillere på internasjonalt nivå scorer høyere
+på refleksjon sammenlignet med spillere på nasjonalt nivå (Toering, Gemser, Jordet, Pepping,
+og Visscher, 2012). Dette kan tyde på at det å bruke tid og krefter på rekfleksjon er en
+avgjørende faktor for å nå toppen. (Toering m.fl., 2012).
+
+Selvtillit, er i tillegg til innsats, er også en avgjørende faktor i selvreguleringsprosessen.
+Selvtillit handler i denne sammenheng om hvor stor tro spilleren har på å forbedre seg og nå
+sine mål (Toering m.fl., 2011). Studier fra volleyball (Zimmerman, 2002) og basketball
+(Clearly & Zimmerman, 2001) viser at eksperter oftere har høyere tro på egen mestringsevne
+enn ikke-eksperter. En høy tro på seg selv kan føre til høyere målsetting og større innsats for å
+klare målet (Clearly & Zimmerman, 2001: Zimmerman, 2002).
+10
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+3.2. Motstand og vanskeligheter
+
+«Bak enhver nevneverdig stor prestasjon ligger det motstand på veien og selvregulering og innsikt har vært
+avgjørende. Bak de aller største ligger det direkte kompromissløse holdninger til seg selv og egen utvikling»
+(Bjørnebye, 2014 s. 26)
+
+Veien for å nå toppen i fotballer er både ubehagelig, vanskelig og ensom. Som sitatet ovenfor
+beskriver er felles kjennetegn for topprestasjoner innenfor næringsliv, kultur, og idrett er
+motstand (Bjørnebye, 2012). I tillegg til selvregulering, ser det ut til at motstand og opplevde
+vanskeligheter også er avgjørende for effektivt prestasjon utvikling.
+
+For å oppnå effektiv prestasjonsutvikling er det nødvendig å skape ønsket vanskeligheter for
+seg selv (Bjork & Bjork, 2011). I tillegg er det viktig at man er klar over at det er forskjell på
+prestasjon og læring. Betydelig forbedring i prestasjon kan forekomme uten vesentlig læring,
+og læring kan forekomme uten at prestasjonen der og da er bra. Læring kan defineres som
+varig endring av atferd og for å få til det er motstand (ønsket vanskeligheter) en avgjørende
+faktor (Bjork & Bjork, 2011).
+
+Grunnen til at trening med motstand kan gi mer effektiv trening, er at under slike forhold må
+en være fullstendig tilstede for å klare å løse oppgavene (Kantak m.fl., 2010). Man må ha fult
+fokus og refleksjon, noe som fører til at større deler av hjernen aktiveres. Dette vil kunne gi en
+langtids læringseffekt (Kantak m.fl., 2010). Det er viktig å huske på at ved øvelser som er
+vanskelige merker man ikke alltid en umiddelbar fremgang, men fremgang kommer som en
+forsinket prestasjonsfremgang etter en tid (Shea & Morgan, 1979). Et konkret eksempel på
+dette kan være forholdet mellom blokk og randomisert trening. Ved blokk trening øver man
+isolerte på ferdigheter som for eksempel pasning, skudd og heading. Ved randomisert trening
+øver man på forskjellige ferdigheter i et tilfeldig mønster. Blokk trening er best for
+prestasjonen der og da, mens randomisert trening er best for læringseffekten og
+langtidsutviklingen (Stratton, Reilly, Williams og Richardson, 2004).
+
+I tillegg til motorisk motstand finnes også psykologisk motstand. En slik type motstand er
+også helt nødvendig for å nå toppen. Det handler ikke om man møter motstand på veien eller
+ei, men hva man gjør når man møter motstand. Alle opplever å ha det ubehagelig. Forskjellen
+på de beste og nest beste er hva de gjør når de opplever motstand, og ikke om de opplever det
+11
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+eller ikke. Man må ta fordel av små traumatiske opplevelser for å oppnå ekspertise nivå
+(Collins & MacNamara, 2012). Det viser seg at det å overkomme utfordringer og ubehag i
+tidlige alder er fordelaktig for å nå toppnivå.. Årsaken til detter er at det vil utvikle en evne og
+kapasitet til å suksessfullt tilpasse seg møte med utfordrende situasjoner. En slik kapasitet
+utvikles gjennom å håndtere og respondere konstruktivt på motgang og utfordringer (Collins
+& MacNamara, 2012).
+
+En slik kapasitet snakket også Arsenal`s manager Arsene Wenger om under konferansen
+«Leaders in Performance» i oktober 2010. Han mente at en toppspiller er en utilfreds person,
+ikke en lykkelig person. Nesten masochistisk. Toppspillere beskriver han som individer med
+en utilfredsstillelse og en frustrasjon i seg, og med et indre behov for å gjøre noe spesielt. De
+har en intens utholdenhet i sin motivasjon, og selv når det ikke går bra forbli de på toget.
+Spillere på toppnivå står i motstanden i stedet for å flykte fra det hevder han.
+
+12
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+4. Metode
+I denne oppgaven ble en blanding av kvalitativ og kvantitativ metode brukt for å finne svar på
+problemstillingene. I tillegg har også litteraturstudie blitt brukt som fremgangsmåte. For å
+finne svar på den første problemstillingen ble data samlet inn gjennom strukturert observasjon
+og spørreskjemaer med faste svaralternativ. Mens datainnsamling for å besvare den andre
+problemstillingen ble gjort gjennom litteraturstudie av bøker og artikler som omhandler
+utviklingen av ekspertise.
+
+Som nevnt tidligere så var formålet å finne ut hvordan selvregulering til spillere hang sammen
+med ulik treneratferd og øvelser. For å få et bilde på selvreguleringen ble det utarbeidet et
+spørreskjema som deltakerne svart på etter hver øvelse under treninger. Hvert spørsmål kunne
+besvares med et gradert tall. På den måten kom man fram til en sevlreguleringsscore for hvert
+besvart spørsmål. Øvelsene ble kategorisert i ulike grupper og den verbale atferden til
+trenerne ble registrert under treningene (den ble registrert med frekvensbruk av ulik type
+verbale utsagn).
+
+For å besvare den andre problemstillingen ble det gjennomført litteraturstudie. Bøker og
+artikler som tok for seg effektiv trening eller handlet om ekspertiseutvikling ble lest. Notater
+fra relevant fagstoff som kunne være hjelp til praktiske implikasjoner ble notert underveis.
+
+4.1. Deltakere
+Deltakerne i oppgaven var tre senior fotballspillere fra norsk 1. divisjon og fem junior spiller
+fra norsk 3.divisjon. Fire av spillerne hadde internasjonal erfaring fra aldersbestemte landslag,
+og en av dem fra spill i en utenlandsk klubb.
+
+4.2. Utvikling av måleinstrumenter
+Et av formålene med denne oppgaven var som nevnt å se sammenhengen mellom
+selvregulering og type øvelser å treneratferd. Derfor ble det utviklet et eget måleinstrument
+for selvregulering (planlegging, observasjon, refleksjon og evaluering), treneratferd (type
+kommunikasjon) og type øvelser (fotballøvelser). Nedenfor kommer en beskrivelse av
+hvordan disse måleinstrumentene ble formet.
+13
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+.
+
+4.2.1. Selvregulering
+Spørreskjema ble brukt som måleinstrument for å måle selvreguleringen til spillere. I fotball
+har det blitt utviklet et egne spørsmål som måleinstrument for selvregulering (Toering, 2011;,
+Toering m.fl., 2013). Studiene som har utviklet disse spørsmålene har testet raliabliteten og
+validiteten på spørsmålene, og kommet fram til en faktor loading score for hvert spørsmål.
+Spørsmålene med høyest faktor loading fra disse studiene ble brukt som utgangspunkt for å
+finne de «beste» spørsmålene for de ulike selvreguleringsaspektene (planlegging,
+selvobservasjon, refleksjon og evaluering). Tabell 1 viser en oversikt over som ble brukt som
+utgangspunkt.
+Tabell 1. Spørsmålene som ble brukt som utgangspunkt før omformulering (Toering m.fl, 2013)
+
+Tema
+
+Spørsmål
+
+Factor
+loading
+
+Explained
+variances (R2)
+
+Planlegging
+
+I have a clear goal for each practice session
+
+0.70
+
+0.48
+
+Selvobservasjon While I doing a task I ask myself, how well I
+am doing
+
+0.62
+
+0.39
+
+Refleksjon
+
+During each practice session I check what I still
+have to do to reach my practice goal
+
+0.77
+
+0.60
+
+Evaluering
+
+I look back and check if what I did was right or
+wrong
+
+0.73
+
+0.53
+
+Disse spørsmålene ble igjen omformulert og oversatt slik at de kunne besvares rett etter en
+øvelse uten lang betenkingstid. Tabell 2 viser en for endelig oversikt over spørsmålene som
+ble brukt for å kartlegge selvreguleringen i denne studien.
+
+Tabell 2 Oversikt over de endelige spørsmålene som spillerne svarte på etter hver øvelse
+
+Tema
+
+Ferdig omformulert spørsmål
+
+Planlegging
+
+I hvilken grad hadde du et klart individuelt mål før øvelsen startet?
+
+Selvobservasjon
+
+I hvilken grad sjekket du hvor korrekt du gjorde øvelsen?
+
+Refleksjon
+
+Da du ikke var i aktivitet, i hvilken grad tenkte du over dine prestasjoner for
+å finne ut hva du måtte gjøre for å forbedre dem?
+
+Evaluering
+
+Da øvelsen var ferdig i hvilken grad tenkte du over hva du hadde gjort rett
+og galt?
+
+14
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Spørsmålene ble besvart ved å sette ring rundt er tall fra 1- 10. Se vedlegg 1 for eksempel på
+hvordan spørreskjemaet så ut.
+4.2.2. Treneratferd
+For å måle treneratferden ble et observasjonsinstrument kalt The Arizona State University
+Observation Instrument (ASUOI) (Darst, Zakrajsek, og Mancini, 1989) brukt som
+måleinstrument. ASUOI er et observasjonsinstrument som har delt treneratferd inn i 14 ulike
+atferds typer. Disse 14 atferdstypene har igjen blitt revidert til 11 atferdstyper som er mer
+relevant for fotball. (Ford, Yates og Williams, 2010). Det er denne reviderte utgaven som har
+blitt brukt som utgangspunkt i denne oppgaven. Fra den reviderte ASOUI ( se Ford m.fl.,
+2010) var det bare åtte kategorier som ble sett på som relevant for oppgaven4. For å gjøre
+registreringen av atferd mindre avansert, ble disse åtte kategoriene slått sammen til fire
+hovedkategorier (se tabell 4).
+
+Tabell 3 Tabellen viser hvordan Ford og kollegaer (2010) sine definisjoner og kategorier for treneratferd ble
+slått sammen til 4 kategorier.
+
+Atferd
+Instruction
+Pre-instruction
+
+Concurrent instruction
+
+Post-instruction
+
+Modelling
+
+Questioning
+
+Support and encouragement
+Praise
+
+Hustle
+
+Definisjon
+
+Ny kategori
+
+Initial information given to a player(s)
+preceding the desired action to be
+executed. Used to explain how to
+execute a skill, play, assignment, strategy,
+and so forth
+Cues or reminders given to a player(s)
+during the actual execution of the skill or
+play
+Correction, re-explanation or
+instructional feedback given after the
+execution of a skill or play
+Provision of a demonstration of correct or
+incorrect performance of a skill or playing
+technique.
+Any question to a player(s) concerning
+strategies, techniques, assignments,
+and so forth
+
+INSTRUKSJON
+
+Verbal or non-verbal compliments,
+statements or signs of displeasure
+expressed towards the player(s)
+Verbal or non-verbal statements intended
+
+“HUSTLE/PRAISE”
+
+SPØRSMÅL
+
+4
+
+Kategoriene “Management” (Verbal statements related to theorganizational details of practicesessions, not
+referring to strategiesor skills), “Uncoded” (Any behaviour that cannot be seen or heard or does not ﬁt into the
+above categories) ble ikke sett på som relevant og nødvendig å registrere i denne studien.
+
+15
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+to intensify the efforts of the player(s)
+Deliberate period of time when the coach
+is not talking. Deliberate period
+constitutes a period of silence
+for 5 s
+
+Silence
+
+“STILLHET”
+
+4.2.3. Type aktivitet
+Det finnes flere studier som har prøvd å kategorisere idrettsaktiviteter. Fra studier som tar for
+seg øvelser i fotball (Ford m.fl., 2010) og øvelser i cricket (Low, Williams, McRobert, og
+Ford, 2013) er fellestrekkene at de skiller mellom teknisk øvelser, taktiske øvelser og ulike
+type spillformer. Dette har blitt brukt som utgangspunkt ved kategorisering av ulik type
+aktivitet:
+
+-
+
+Tekniske øvelser: Isolert ferdighetstrening med ball uten aktive motstandere. Dette kan
+gjennomføres individuelt (f.eks en føre-øvelse) eller i grupper (f.eks pasningsøvelse)
+
+-
+
+Taktiske øvelser: Isolert taktisk trening med styrt motstand. Dette kan gjennomføres
+med en bestemt lagdel, der hovedfokuset er rettet mot en bestemt lagdel, eller med
+hele laget der fokuset er rettet mot alle.
+
+-
+
+Spill uten retning: Spilløvelser som ikke har en bestemt retning.
+
+-
+
+Spill: Spill med retning der det avsluttes på mål.
+
+I tillegg til disse hovedkategoriene ble det også aktivitetene registrert i underkategorier:
+
+-
+
+Spill på liten bane: fem eller færre spillere på hvert lag
+
+-
+
+Spill på stor bane: seks eller flere spillere på vært lag
+
+-
+
+Kort spillsekvens: mindre enn fire minutter
+
+-
+
+Lang spillsekvens: lengre enn fire minutter
+
+4.3. Innsamling av data
+Innsamlingen av data foregikk på 12 treninger. Gjennomføringen kan deles i tre deler; før,
+under og etter trening.
+
+Før trening ble spørreskjemaene lagt tilgjengelig i nærheten av der øvelsen foregikk.
+Trenerne fikk påsatt en liten mikrofon som var koblet til en diktafon for å ta opp hva de sa.
+16
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Det ble også satt opp et videokamera som gjorde opptak av treningene. Hensikten med lyd og
+videoopptak var at man i ettertid kunne gjøre nye registreringer hvis man gikk glipp av noe
+underveis.
+
+Under trening ble følgende registrert på et observasjonsskjema: type øvelse (hvilken
+kategori), trenernes frekvens av bruken på instruksjon, spørsmål og «hustle/praise», hvor
+lenge øvelsen varte i antall minutter (tidtaking med stoppeklokke startet når øvelsen begynte
+og avsluttet når øvelsen var ferdig), og hvor mange minutter trenerne snakket i løpet av
+øvelsen (tidtaking med stoppeklokke som ble startet og stoppet alt ettersom trenerne snakket
+eller ei).
+
+Etter en avsluttet øvelse besvarte deltakerne på spørreskjemaet om selvregulering. Etter at alle
+spillerne hadde svart, ble et nytt spørreskjema lagt tilgjengelig på samme plass slik at
+deltakerne slapp å finne fram nytt spørreskjema selv. Dette ble gjort for å effektivisere
+gjennomføringen.
+
+Etter trening ble lydopptak og videobilder synkronisert for å kunne dobbelkontrollere
+registreringen. På spørreskjema som var besvart ble det notert dato, hvilken spiller det gjaldt,
+hvilken type øvelse, antall instruksjon, spørsmål, og «hustle/praise» fra trenerne, og hvor
+mange prosent av tiden under øvelsen som var stillhet5. Dette ble ført inn i analyse
+programmet IBM SPSS Statistics for videre analyse. I SPSS ble det for hver spiller ført inn
+selvreguleringsscore og frekvens av type treneratferd under de øvelsene som de deltok i.
+
+Innsamling av data til å besvare den andre problemstilling forgikk ved at diverse bøker og
+artikler om effektiv læring og motstand ble lest. Det ble registrert notater underveis som ble
+sett på som relevante for å besvare problemstillingen
+
+4.3.1. Bearbeiding av data
+I bearbeidelsen av dataene som var samlet inn ble det regnet ut en gjennomsnittscore for hvert
+enkelt selvreguleringsaspekt (planlegging, observasjon, evaluering og refleksjon) under de
+ulike hovedkategoriene av øvelsene (teknikk, taktikk, spill uten retning og spill med retning).
+
+5
+
+Formel på å finne prosent på stillhet: 100-((antall minutt med prating / total antall minutt på øvelsen) *100)
+
+17
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Det samme ble også gjort med underkategori av spilløvelsene (spill på stor bane, spill på liten
+bane, spill med kort spillsekvens og spill med lang spillsekvens).
+
+Spearmans korrelasjonsberegninger ble brukt for å finne ut om det var sammenheng mellom
+selvreguleringsscoren og type treneratferd. I tillegg ble det også gjennomført paret t-test
+(signifikansnivå på 0.05) for å finne ut om forskjellen på selvreguleringsscorene under ulike
+øvelsene var signifikant. Testen ble gjennomført ved at gjennomsnittsscoren på et
+selvreguleringsaspekt under en øvelse, ble sammenlignet med gjennomsnittsscoren på samme
+selvreguleringsaspekt bare under en annen øvelse. En slik parvis sammenlignet ble gjort for
+alle de ulike selvreguleringsaspektene. Resultatene av denne testen ble ikke riktig fordi det
+var for lite data til å gjennomføre det, men det var et forsøk på å vise til litt mer enn bare
+deskriptiv data.
+
+Bearbeidingen av dataene fra litteraturstudiene foregikk ved at notater fra relevant fagstoff ble
+gjennomgått og sortert etter hvor relevant de var for praktiske implikasjoner for effektiv
+trening innenfor fotball.
+
+.
+
+18
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+5. Resultat
+Den totale gjennomsnittscoren på hver enkelt selvreguleringsaspekt var ganske lik:
+planlegging 7,2 (SD=1,1), observasjon 7,6 (SD=1,2), refleksjon 7,3 (SD=1,9), og evaluering
+7,1 (SD=1,9). I følge svaralternativene på spørreskjemaet (se vedlegg 1) kan man tolke dette
+som at spillerne ofte var bevisst på de ulike aspektene, men at de ikke tenkte over det hele
+tiden.6 For å få en generell oversikt over hvordan de ulike selvreguleringsaspektene hang
+sammen med hverandre, ble de gjort korrelasjonstester (se tabell 4).
+Tabell 4 Tabellen viser r-verdiene mellom de ulike selvreguleringsaspektene. Med 0.05 som signifikant level og
+df på 6 ble den kritiske korrelasjons koeffisienten på 0.70 (Thomas m.fl., 2008).
+
+Planlegging Observasjon Evaluering
+
+Refleksjon
+
+Planlegging
+Observasjon
+
+0.26
+
+Evaluering
+
+0.67
+
+0.69
+
+Refleksjon
+
+0.77
+
+0.69
+
+0.61
+
+Tabellen over viser en signifikant sammenheng mellom refleksjon og planlegging. Det kan
+tyde på at god planlegging vil sannsynligvis sørge for en god refleksjon i etterkant av en
+øvelse. Selv om resultatet ikke er signifikant ser det ut som det er en positiv sammenheng
+mellom evaluering og observasjon, refleksjon og observasjon, og evaluering og planlegging.
+Lavest korrelasjonsscore er det mellom observasjon og planlegging, og refleksjon og
+evaluering.
+
+Videre i denne resultatdelen vil det først bli presentert en oversikt over hvordan ulike
+fotballøvelser henger sammen med selvregulering. Deretter vil sammenhengen mellom
+treneratferd og selvreguleringen til fotballspillere bli presentert. Besvarelse på den andre
+problemstillingen kommer ikke til å bli presentert i denne resultatdelen av oppgaven. Den vil
+istedenfor bli besvart ved å komme med direkte konkrete implikasjoner på hva spillere og
+trenere kan gjøre i treningshverdagen for å effektivisere treningsutbytte.
+6
+
+Svaralternativ 5 var som regel definert som «tenkte over det noen ganger», mens svar alternativ 10 var ofte
+«tenkte over det hele tiden»
+
+19
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+5.1. Sammenhengen mellom fotballøvelser og spillernes selvregulering.
+For å undersøke hvilken sammenhengen ulike fotballøvelser har på spilleres selvregulering,
+ble gjennomsnittscoren for hvert selvreguleringsaspekt under hver øvelseskategori regnet ut.
+Figur 3 gir en oversikt over gjennomsnittscoren på de ulike selvreguleringsaspektene under
+teknisk, taktisk, spilløvelser med og uten retning og.
+
+10
+9
+8
+7
+6
+
+Teknisk
+
+5
+
+Taktisk
+
+4
+
+Spill uten retning
+
+3
+
+Spill med retning
+
+2
+1
+0
+Planlegging
+
+Observasjon
+
+Refleksjon
+
+Evaluering
+
+Figur 3 Oversikt over gjennomsnittsscoren på selvregulering under ulike øvelser.
+
+Gjennomsnittscoren på observasjon og planlegging er høyest under tekniske øvelser. Mens
+refleksjon og evaluering har høyest gjennomsnittscore under spilløvelser uten retning. Ved
+spilløvelser med retning er scoren på de ulike selvreguleringsaspektene ganske lik.
+
+I tillegg til de fire hovedkategoriene for ulike øvelser (teknisk, taktisk, spill med retning og
+spill uten retning), ble det også utarbeidet underkategorier av de spillrelaterte øvelsene. Disse
+underkategoriene var spill på liten bane, spill på stor bane, spill med lang spillsekvens og spill
+med kort spillsekvens. Formålet med dette var å få en grundigere oversikt over
+sammenhengen ulike spill øvelser kan på selvreguleringen til fotballspillere.
+
+20
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+10
+9
+8
+7
+6
+
+Spill på liten bane
+
+5
+
+Spill på stor bane
+
+4
+
+Lang spill sekvens
+
+3
+
+Kort spill sekvens
+
+2
+1
+0
+Planlegging Observasjon
+
+Refleksjon
+
+Evaluering
+
+Figur 4 Viser en oversikt over gjennomsnittsscoren på selvregulering under ulike spill øvelser (underkategorier).
+
+Diagrammet over viser at under spill på stor bane og spill med lang spillsekvens er
+gjennomsnittscoren på selvregulering for de ulike aspektene ganske like, men under spill på
+liten bane og spill med kort spillsekvens er det en litt større forskjell. Under spill på liten bane
+og spill med kort spillsekvens er gjennomsnittscoren på refleksjon og evaluering høyere enn
+de andre spilløvelsene. Når det gjelder selvreguleringsaspektet planlegging kan man se en
+lignende sammenheng. Planleggingsscoren er høyest under spilløvelser på liten bane, det vil
+si når det er få spillere på hvert lag. Observasjonsscoren er nesten lik under alle spillformer.
+
+For å se teste om resultatene nevnt ovenfor er signifikant, ble det gjennomført paret t-test
+(signifikansnivå 0.05) mellom gjennomsnittet på selvreguleringsaspekteneunder de ulike
+øvelsene. I utgangspunktet er det ikke nok datamateriale til å gjennomføre en slik test, men
+det var et forsøkt på å få litt mer fyldig informasjon om forskjellene mellom
+selvreguleringsscoren under de ulike type øvelsene.
+
+21
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Tabell 3 Oversikt over p-verdien fra paret t-test som sammenlignet gjennomsnittscoren på
+selvreguleringsaspektene under ulike øvelser, for finne ut som forskjellene var signifikant.
+
+Type selvreguleringsaspekt
+
+Parvis sammenligning av øvelse
+
+P-verdi
+
+Planlegging
+
+Teknisk og taktisk
+
+0.55
+
+Teknisk og spill med retning
+
+0.10
+
+Teknisk og spill uten retning
+
+0,44
+
+Taktisk og spill med retning
+
+0.91
+
+Taktisk og spill uten retning
+
+0.20
+
+Spill med retning og spill uten retning
+
+0.60
+
+Teknisk og taktisk
+
+0.37
+
+Teknisk og spill med retning
+
+0.02
+
+Teknisk og spill uten retning
+
+0.46
+
+Taktisk og spill med retning
+
+0.59
+
+Taktisk og spill uten retning
+
+0.59
+
+Spill med retning og spill uten retning
+
+0.70
+
+Teknisk og taktisk
+
+0.04
+
+Teknisk og spill med retning
+
+0.11
+
+Teknisk og spill uten retning
+
+0.13
+
+Taktisk og spill med retning
+
+0.49
+
+Taktisk og spill uten retning
+
+0.50
+
+Spill med retning og spill uten retning
+
+0.23
+
+Teknisk og taktisk
+
+0.01
+
+Teknisk og spill med retning
+
+0.21
+
+Teknisk og spill uten retning
+
+0.94
+
+Taktisk og spill med retning
+
+0.18
+
+Taktisk og spill uten retning
+
+0.50
+
+Spill med retning og spill uten retning
+
+0.97
+
+Selvobservasjon
+
+Refleksjon
+
+Evaluering
+
+For at forskjellene mellom gjennomsnittscorene skal være statistisk signifikant må p-verdien
+være lavere en 0.05 t. Tabellen over viser at dette bare er tilfelle mellom selvobservasjon
+under tekniske øvelser og spill med retning, refleksjon under tekniske og taktiske øvelser, og
+evaluering under tekniske og taktiske øvelser. Som nevnt kan man ikke stole blindt på
+resultatene i fra tabellen over, men det kan gi en liten pekepinn på hvordan forskjellene
+kanskje er.
+22
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+5.2. Sammenheng mellom treneratferd og spilleres selvregulering
+I denne oppgaven var det også et ønske om å undersøke sammenhengen mellom spillernes
+selvregulering og treneratferd.. Treneratferden ble kategorisert etter fire typer atferd:
+instruksjon, spørsmål, stillhet og hustle/praise. Atferden til treneren ble målt etter
+frekvensbruken av de ulike kategoriene. For å finne ut om det var noen sammenheng mellom
+de ulike variablene ble det gjort en korrelasjonstester.
+
+Tabell 6 Tabellen viser r-verdiene (two-tailed test) mellom trener atferd og selvregulering. Med 0.05 som
+signifikant level og df på 6 ble den kritiske korrelasjons koeffisienten på 0.70 (Thomas m.fl., 2008).
+
+Trener atferd
+
+Planlegging
+
+Observasjon
+
+Evaluering
+
+Refleksjon
+
+Instruksjon
+
+-0.14
+
+-0.70
+
+-0.60
+
+Spørsmål
+
+-0.23
+
+-0.31
+
+-0.31
+
+Stillhet
+
+0.14
+
+0.77
+
+0.56
+
+Hustle/Praise
+
+-0.22
+
+-0.63
+
+-0.55
+
+På tabellen over kan man se at det bare er signifikant sammenheng mellom instruksjon og
+evaluering, og stillhet og evaluering. Det er en negativ korrelasjon mellom instruksjon og
+evaluering. Det vil si at jo flere instrukser trenerne hadde under trening jo lavere ble scoren på
+evaluering. Motsatt forholdet ser man mellom stillhet og evaluering. Der ser du ut som at jo
+mer stillhet det var jo oftere evaluerte spillerne seg selv.
+
+Selv om korrelasjonen er lav (og dermed ikke signifikant) mellom de andre faktorene, er
+treneratferd stillhet den eneste atferden som ser ut til å ha en positiv sammenheng på
+selvregulering. Dette kan tyde på at jo mer stillhet der er, jo mer selvregulering er det på
+spillerne. Alle de andre treneratferdene ser ut til å ha en negativ innvirkning på selvregulering,
+men denne sammenhengen er ikke signifikant.
+
+23
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+6. Diskusjon
+Formålet med denne oppgaven var å få en bedre forståelse av hvordan treneratferd og ulike
+øvelser henger sammen med selvreguleringen til fotballspillere under aktivitet. I tillegg var
+det også et ønske å få en dypere innsikt i hvordan man kan trene og tenke for å få størst mulig
+læringseffekt av treningen. En bedre forståelse av dette kan være med å hjelpe trenere til å
+legge forholdene til rette for en mer effektiv spillerutvikling.
+
+På grunn av for lite data var det ikke mange av resultatene i denne oppgaven som var
+signifikante. Allikevel kan de det gi en litt bedre forståelse og oppmerksomhet på hvordan
+selvregulering henger sammen med ulike øvelser og treneratferd.
+
+Diskusjonen fra resultatene vil først starte med en gjennomgang av hvert enkelt
+selvreguleringsaspekt for å se hvordan de blir påvirket av ulike type øvelser og hvordan de
+påvirker hverandre, og deretter sammenhengen den har med ulik type treneratferd.
+
+6.1. Planlegging
+Planlegging kan dels inn i målsetting og strategier. I en selvreguleringsprosessen handler
+målsetting om å spesifisere tiltenkte handlinger eller resultater (Kitstantas & Kavussanu,
+2011), mens strategi er taktiske metoder man bruker for å oppnå det forhåndsbestemte målet
+(zommerman & Campillo, 2003). Deltakerne i denne oppgaven ble spurt om de hadde en
+målsetting og ikke om hvordan strategien var. Mål kan igjen skilles mellom prosessmål og
+resultatmål (Zimmerman & Kitsantas, 1996). En slik skilnad ble ikke tatt hensyn til i
+spørsmålet om planlegging. Dette kan være en årsak til at planleggingsscoren er høyest under
+tekniske øvelser. Fordi de fleste tekniske øvelser foregår isolert og uten motstand, da blir det
+ofte naturlig å ha fokus på sine personlige utførelser. Det kan resultere i at det er lettere og
+mer naturlig for en spiller å ha et konkret individuelt mål før øvelsen starter fordi man ofte
+jobber alene og dermed har et indre fokus. Ved taktiske øvelser skjer det motsatte: man
+arbeider med flere og prestasjonen avhenger også av relasjonen med andre og ikke bare seg
+selv. Da er det ikke sikkert at det faller så naturlig å ha et konkret mål fordi prestasjonen
+avhenger lenger ikke bare av deg selv.
+
+24
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Tar man utgangspunkt i forholdet mellom underkategoriene spill med retning og spill uten
+retning, så er planlegging-scoren høyest under spill uten retning. Det samme gjelder mellom
+forholdet på spill på store bane med lang spilltid, og spill på liten bane med kort spilltid. Den
+mest vanligste praktiske forskjellen mellom disse spilløvelsene er at spill med retning og spill
+på stor bane ofte er øvelser med mål, og at det dermed kåres et vinnerlag. Da kan det som
+spiller være fort gjort å ha et mål om å vinne og glemme å ha konkrete prosessmål for å
+forbedre prestasjonene, fordi man er for opptatt med å vinne.
+
+Når det gjaldt forholdet mellom planlegging og de andre selvreguleringsaspektene, viste
+resultatet at det er signifikant korrelasjon mellom planlegging og refleksjon. Korrelasjonen er
+også høyere mellom planlegging og evaluering enn planlegging og observasjon, selv om den
+ikke er signifikant. At det er en sammenheng mellom god planlegging, refleksjon og
+evaluering er konkludert i også andre studier (Toering m.fl, 2013). Årsaken til en sannsynlig
+sammenheng mellom planlegging og refleksjon kan være på grunn av at det å ha et klart mål
+før en øvelse gjør det lettere å reflektere i etterkant, fordi da man har noe konkret og bevisst å
+forholde seg til. En annen årsak kan være at god refleksjon fører til god planlegging, fordi ved
+å reflektere over sine egne prestasjoner kommer man frem til hva man bør gjøre for å forbedre
+seg.
+
+6.2. Selvobservasjon
+Selvobservasjon handler om hvordan spillere kontrollerer sin prosess under selve prestasjonen
+(Toering m.fl., 2011). Resultatet (se figur 3) viser selvobservasjon er høyest under tekniske
+øvelser, og det bare er signifikant forskjell mellom selvobservasjon under tekniske øvelser og
+spilløvelser med retning (se tabell 5). Årsaken til dette kan være som det samme som nevnt
+ovenfor: Tekniske øvelser er som regel individuell tilrettelagt og dermed faller det naturlig å
+bare ha fokus på sin egen prestasjon. Mens mer spillrelaterte øvelser kan inneholder flere
+distraksjoner som kan endre fokuset til ytre faktorer som kan være avgjørende for prestasjoner
+(medspillere, «dommer», regler, resultat o.l).
+
+En annen årsak kan være at mer spillrelaterte øvelser gjør at spillerne blir mer opptatt av
+spillet fordi de har så stor lidenskap og innlevelse at de ikke får tid til å gå i sine egne tanker.
+De spiller bare på instinkt. En slik type lidenskap og innlevelse er nemlig helt nødvendig for å
+prestere på høyt nivå (Coyle, 2009). I sin selvbiografi forteller fotballstjernen Zlatan
+25
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Ibrahimovic at «..du må aldri tenke for mye på banen. Du skal bare spille» (Ibrahimovic,
+2011, s.112). En slik lidenskapelig innlevelse kan være en årsak til at scoren for
+selvobservasjon er lavere på spillrelaterte øvelser enn tekniske øvelser.
+Når det gjelder ulik type spillformer er det ingen forskjeller på observasjonsscoren. En
+forklaring på at observasjonen ikke blir påvirket så mye av type spillform, kan være fordi
+spillerne går inn i «spillmodus» uansett hvordan spillformen er.
+
+6.3. Evaluering og refleksjon
+Å evaluere sin prestasjon etter handling virker å ha en gunstig effekt for individets utvikling.
+Evaluering handler om hvilken grad målet ble nådd og prosessen bak. En slik
+evalueringsprosess etter handlinger ser ut til å ha en kunstig effekt for effektiv utvikling.
+Refleksjon fungerer mer som en link mellom tanke og handling. Denne linken gjør det mulig
+oppnå strategisk kunnskap ut i fra spesifikke læringssituasjoner (Ertmer & Newby, 1996).
+
+Evaluering og refleksjon blir nesten påvirket likt av de ulike øvelser. Det ser ut til å være en
+signifikant forskjell på scoren under ved tekniske øvelser og taktiske øvelser. Grunnen kan
+være som nevnt tidligere, at det ikke er sikkert at det er like naturlig å evaluere og reflektere
+over sine egne prestasjoner når man presterer/samarbeider med andre fordi man retter fokuset
+på ytre faktorer.
+
+Evaluering og refleksjon hadde en høyere gjennomsnittscore under spill uten retning enn
+under spill med retning. Grunnen kan være at spill med retning ofte er mer «kjente» øvelser
+for spillerne, og at de derfor gjør valg og utførelser mer på autopilot.
+
+Ved korte spillsekvenser og spillformer med få spillere på hvert lag, rapporterer spillerne en
+bedre evaluering og refleksjon enn ved lengre spillsekvenser og spillformer med flere spillere
+på hvert lag. Disse spillformene ofte preges av intenst spill med mye balltouch per enkelt
+spillere. Derfor kan en grunn til at evaluering og refleksjonsscoren er høyere under slike
+forhold være fordi at spillerne må være mer tilstede for å henge med. En slik nødvendig
+tilstedeværelse kan resultere i at spillerne evaluerer og reflektere mer under lignende
+spillformer.
+
+26
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+6.4. Treneratferds sammenheng på selvregulering
+Selv om ikke resultatene var signifikante ser man et tydelig mønster mellom treneratferd og
+spillernes selvregulering. Stillhet er den eneste treneratferden som viser tendenser til en
+positiv sammenheng på selvregulering. Dette kan høres logisk ut fordi da for spillerne tid og
+mulighet til tenke selv og gjøre egne valg.
+
+Noe annet som ikke er like logisk er at hyppig bruk av spørsmål, ser ut å ha negativ
+sammenheng på selvreguleringen. Dette kan virke overraskende fordi en skulle tro at
+spørsmål fra trenere resulterte i en reflekterende tankeprosess hos spillere. En forklaring til
+denne negative sammenhengen kan være at det ikke ble registrert hvilken type spørsmål
+trenerne spurte, men bare hvor ofte det ble stilt spørsmål. Derfor kan man ikke konkludere
+med at det er en negativ sammenheng mellom antall spørsmål og selvregulering. Kanskje er
+type spørsmål mer avgjørende enn antall spørsmål? Uansett, resultatene fra dette kan tyde på
+at jo mer stillhet jo høyere grad av observasjon, refleksjon og evaluering forekommer hos
+spillere.
+
+Kunnskapen om viktigheten av stillhet har blitt mer og mer anerkjent de siste årene.
+Topptrenere er ofte svært bevisst på å bruke stillhet som en del av treneratferden sin. Ikke på
+grunn av inkompetanse, men på grunn av at spillerne skal få tid og mulighet til å tenke selv.
+Fordi fotballspillet i seg selv stiller alle spørsmål og gir alle svar (Smith & Cushion, 2006).
+Dette kan være en forklaring på hvorfor det ser ut som at selvreguleringen blir høyere desto
+mer stillhet det er.
+
+27
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+7. Konklusjon og praktiske implikasjoner
+Formålet med denne oppgaven var å se på sammenhengen ulike øvelser og treneratferd har på
+selvregulering til fotballspillere under aktivitet. I tillegg var det ønskelige å få en dypere
+forståelse av hvordan man kan trene for å få størst mulig prestasjonsutvikling.
+
+Svaret til den første problemstillingen kan være at tekniske øvelser kan sørge for en god
+planlegging og observasjon, fordi under slike øvelser jobber spillerne stort sett individuelt og
+da blir naturlig å rette fokus på sine egne prestasjoner og handlinger. Spill uten retning kan
+resultere i en bedre evaluering og refleksjon fordi «spill uten retning»- øvelser ofte er intense,
+noe som gjør at spillerne er nødt til å være mentalt tilstede for å henge med. Årsaken til dette
+kan være på grunn av tilpasningseffekten som selvregulering har (Converse & Desjon, 2009).
+I tillegg kan det hende at spill uten retning oftere er nye og ukjente øvelser. Det kan sørge for
+at spillerne blir mer skjerpet og dermed mer bevisst på sine egne prestasjoner. Under spill med
+retning var scoren på de ulike selvreguleringsaspektene nesten lik. Grunnen kan være fordi
+under slike spillformer er spillerne mest opptatt av å vinne og «glemmer» derfor å være
+bevisst over sin egen progresjon. En annen årsak kan være at øvelsene ofte er så kjente, at
+spillerne spiller mer på «autopilot».
+
+De praktiske implikasjonene kan være at som trener er viktig å være bevisst over hva man
+ønsker å påvirke av de ulike selvreguleringsaspektene når man velger ut øvelser. Det å lage et
+klima med høy grad av mental anstrengelses, kan forbedre selvreguleringen, som igjen kan
+sørge for effektiv prestasjons utvikling. Fordi selvregulering har en tilpasningsevne, akkurat
+som en muskel. (Converse & Deshon, 2009) Men i likhet med en muskel, kan også kraften og
+funksjonen selvreguleringen reduserer ved energikrevende anstrengelse overtid (Baumetister
+mfl., 1998). Derfor er det som trener også viktig å ta hensyn til den mentale belastning i valg
+av øvelser og intensitet.
+
+For å hjelpe spillerne til å bli bevisst over sin egen selvreguleringsprosessen under «vanlige»
+spill øvelser (der da scorene var lavest), kan man som trener sørge for at spillerne har
+personlige mål før spillsekvensen og legge inn «stillepauser» under spillet slik at spillerne før
+mulighet til tenke gjennom sine egne prestasjoner. Teoretisk sett så kan slike konkrete tiltak
+
+28
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+være meget gunstig, men det er viktig å være klar over når det er lurt å ha en direkte
+bevisstgjøring og når det er lurt hå ha en mer automatisk tilnærming til sine prestasjoner.
+Forfatter og journalisten Daniel Coyle skriver på sin blogg om viktigheten av å kunne skille
+mellom ulike tankeprosesser:
+”During practice, thinking and planning are your friends. During performance, however, thinking and planning
+are your enemies. You can’t avoid this paradox; you need to build a routine that embraces both sides. You
+essentially have two brains, the conscious and unconscious; so the best way to improve is to give one zone to
+each.”(thetalentcode.com, sitert 14. november, 2011)
+
+Det er også viktig å ta hensyn til at spillerne har forskjellig tilnærming til sin egen
+tankeprosess. Noen spillere liker å være veldig bevisst over hva de gjør, mens andre tenker
+mindre over det. De bare «spiller» og reflekterer underbevisst på grunn av sin store lidenskap
+til spillet. Zlatan Ibrahimovic (2011) påpeker også viktigheten av dette i sin selvbiografi: ”
+Fotball er jo ikke noe man tenker ut. Fotball bare skjer…” (s. 112)
+
+Når det gjelder sammenhengen mellom treneratferd og selvregulering, blir konklusjonen fra
+denne oppgaven at stillhet er gunstig for selvregulering under aktivitet. Det kan tenkes at økt
+stillhet hos trener sørger for bedre selvregulering, selv om resultatene fra denne oppgaven
+ikke var signifikante. Uansett så kan de praktiske konsekvensene av dette kan være at trenere
+bør være bevisst over hvor mye man prater. Det kan være lurt å se hvordan spillere løsere
+ulike situasjoner i stedet for å fortelle dem hvordan de skal løse det. Da er det ikke sikkert
+prestasjonen blir bedre der og da, men på lang sikt kan en slik tilnærming ha stor effekt på
+utviklingen. Fordi det kan føre til større mengde av implisitt læring. Det som kjennetegner
+implisitt læring er at det skjer uten detaljerte instrukser, veiledning og regler i forhold til det
+som skal læres (Rongland, 2008). En slik innlæringsmetode er mer suksessrike og stabile,
+spesielt ved prestasjon under press (Masters, 2000).
+
+Konklusjonen fra den andre problemstillingen blir, at for å få 1 times utbytte av 10 minutters
+trening handler det om å skape ønskelige vanskeligheter for seg selv. Det er viktig å poengtere
+at vanskeligheten skal være ønskelig, fordi man må ha en trygghet i bånd for at man skal
+kunne lære mest mulig effektiv, og ha motivasjon til å gjøre slik type trening (Smerud, 2008).
+Nedenfor kommer konkrete praktiske implikasjoner. Først på hvordan tankesettet til spillerne
+bør være og deretter treneren sin tilnærming til spillerne.
+
+29
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+7.1. Finn «the sweet spot»
+Det første en spiller må sørge for når han trener er å være i den rette « mentale sonen». Under
+trening kan man være i ulike mentale soner (Coyle, 2012):
+-
+
+Komfortsonen: Det føles lett og komfortabelt. Du jobber, men du strever ikke for å få
+det til. Du klarer å utføre handlingene og bevegelsene nesten hver gang.
+
+-
+
+«The sweet spot: Det føles frustrerende og vanskelig. Du er har oppmerksomhet på
+feil. Ved fult fokus og innlevelse klarer perfekt utførelsene mellom 50-80 % av
+gangene. Det er denne sonen som gir størst utvikling
+
+-
+
+Overlevelsessonen: Det føles deprimerende og håpløst. Du prøver og gjette deg frem
+til rett løsning/utførelse. De gangene du klarer det er det flaks. Du klarer å utføre
+handlingen mindre en halvparten av forsøkene.
+
+For å forklare hvordan «the sweet spot» ser ut i praksis kan man ta utgangspunkt i når en
+spiller skal øve på en finte; Hver gang spilleren gjør en feil, stopper han/hun opp og
+gjennomfører bevegelsen korrekt før han/hun prøver igjen. Dette gjør spilleren gang på gang
+med høyre og høyere tempo. Poenget er at hver gang det gjøres en feil, skal man stoppe opp,
+fikse det og gjenta det på nye. På den måten forsterkes nervebananen mellom hjernen og
+musklene som utføre bevegelsen. Å trene slik sørger for at man bygger effektive forbindelser i
+hjernen (Coyle, 2012).
+
+For å finne denne sonen handler det om søke mulighet til å utfordre deg selv. Det kan være alt
+i fra å spille med spillere som er bedre enn deg selv eller å utføre bevegelser som er vanskelig
+å gjennomføre. Det mest naturlige for oss mennesker er å gjøre det som er behagelig, derfor er
+det ikke alltid så gøy å trene i denne sonen. Fordi man strever etter for å få det til, man lykkes
+ikke alltid og man må ha fokus på feil (noe som de fleste ikke liker). Derfor er det de
+spillerne som klarer å gå utenfor komfortsonen som vil utvikle seg mest. Arsenal sin manager
+Arsene Wenger bekrefter dette under «Leaders in Performance» i 2010. I et intevjue under
+konferansen sier han at toppidrettens største fiende er komfortsonen og at for å blir best må du
+tørre å være utenfor komfortsonen. Du må elske utfordringer og usikkerheten, du må alltid
+ønske om å bli bedre». Den verdenskjente teoretikeren Alebert Einstein har vært inne på det
+samme og uttalt følgende:
+
+30
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+«Man skal ikke forfølge mål som er lett å oppnå. Man må utvikle et instinkt for hva man kan
+så vidt oppnå gjennom ens største innsats»
+Det er viktig å huske på at det sjeldent er gøy å være utenfor komfortsonen. Derfor er det
+viktig som trener å være bevisst over hvilken sone spilleren bør være i det gitte tidspunktet.
+En spiller som har prestert dårlig og har lav selvtillit har kanskje mer utbytte av å trene i
+komfortsonen og kjenne på mestringsfølelsene, og på den måten få ny giv til å trenere videre i
+riktig sone, «the sweet spot»
+
+7.2. Kast klokka
+For å trene opp evnen til å selvregulere og bevisstheten om hvordan man trener, bør ikke alltid
+treningen bli målt i antall timer og minutter. Den bør måles etter antall perfekte utførelser og
+repetisjoner. Trening hanlder om hvor mange nye forbindelser en klarer å forme i hjernen,
+ikke hvor lenge man holder på. Rent praktisk vil det si at istedenfor å øve på skudd i en time,
+øver man på skudd til man ha klart 20 perfekte utførelser. Om det tar 10 minutter eller time
+spiller ingen rolle, det som betyr noe er antall perfekte utførelser og repetisjoner. Ved å ha
+fokus på antall utførelser vil man øke bevisstheten på selvreguleringsprosessen under
+utførelsen (Coyle, 2015).
+
+7.3. Oppmerksomhet på feil
+De fleste mennesker er allergisk mot feil. Hver gang man gjør en feil er instinktet vårt å
+overse det, ignorere og late som det aldri har skjedd. Dette er en ugunstig reaksjon fordi feil
+kan være en veiledning for hva som må forbedres. Hjernestudier viser at personer som retter
+fokuset på feil rett etter at det har inntruffet, lærer mer enn de som ignorerer det. Derfor ser
+det ut som det er fordelaktig å ha en vane om å ha fokus på feilen og ikke overse dem. Se rett
+på hva du gjorde galt og spør deg selv hva du må gjøre neste gang for å forbedre deg. Ta feil
+seriøst, men ikke personlig! (Coyle, 2012)
+
+Det å ha fokus på feil gir ingen effekt eller progresjon hvis man ikke prøver å gjøre noe for
+unngå at feil skjer igjen. For å sørge for at det å ha oppmerksomhet på feil gir god progresjon,
+kan man først sørge for at man gjøre utførelsen korrekt, deretter gjør man utførelsen ukorrekt
+(det vil si at man gjør det i så høyt tempo at man feiler), og til slutt gjør man utførelsen
+korrekt igjen. Målet med å gjøre det på denne måten er å forsterke den korrekte utførelsen
+31
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+samtidig som man kaster et lys på feilen. Slik sørger man for at feil forbli uoppdaget samtidig
+som den blir koblet inn til å forsterke den riktige utførelsen (Coyle, 2014).
+
+7.4. Tips til effektiv coaching
+”Expertise (teaching) implies a superordinate capability to gett he best student outcomes-time
+after time, with all kinds of students, under strongly constrasting conditions, all day long,
+across many school years” (Dodds,1994 s.155)
+
+For at spillere skal være i stand til å kunne trene med den mentaliteten som er nevnt ovenfor,
+kreves det en riktig tilnærming fra en trener. Det er treneren som skaper miljøet, derfor er
+hans/hennes coaching svært avgjørende om en spiller får mulighet til å være selvregulerende
+og øke bevisstheten under trening. Trenerens evne til å formidle et budskap avhenger også av
+hvordan han/hun er og hvilken tilnærming man har til spilleren. Det viser seg at bare sju
+prosent av virkningen av budskapet fra en trener kommer fra det verbale. 38 prosent kom fra
+hvordan treneren sa ordene og hele 55 prosent av innvirkningen kom fra kroppsspråket. Dette
+tyder på at kommunikasjon er mye mer enn ord (Beswick, 2010). Væremåten er også svært
+avgjørende.
+
+Nedenfor kommer konkrete tips for hvordan en trener kan være for å legge rammer for en
+effektiv prestasjonsutvikling
+
+Lag et emosjonelt øyeblikk: Hvis man tenker tilbake på den beste treneren eller læreren man
+har hatt, handler minnene mer om hva personen fikk deg til å føle enn hva personen gjorde.
+Som trener handler det ikke alltid om hva du gjør, men måten du gjør det på (Becker,
+2009).Det handler om å skape tillit:
+”Unless people are willing to listen to you, unless you are prepared to listen to them and
+understand them as people, the best coaching book in the world isn’t going to help you. It all
+comes back to the relationship that you have with your players and the trust that exists
+between you. That’s just life” ( Jones et al., 2004, s. 28)
+
+32
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Mennesker flest bestemmer seg for å stole på noen i løpet av de første sekundene av
+kontakten. Gode trenere er derfor flinke til å forbinde et emosjonelt øyeblikk, spesielt på det
+første møte. Det kan være øyekontakt, kroppsspråk, empati, og humor (Coyle, 2011)
+
+Trenere prater ofte uten at spillere får det meg seg. En vanlig årsak til dette kan være at trener
+ikke er i ”kontakt” med spilleren (Coyle, 2011). De beste lærerne og trenerne bruker mest tid
+på å se og høre, og når de først kommuniserer starter de ikke med å snakke. Først kjenner de
+på det emosjonelle nivået og prøver å få en forståelse av spillerens situasjon (konteksten).
+Deretter sørger de for at de har fått spillerens oppmerksomhet, før de så kommuniserer med få
+og effektive ord som mulig. En studie av profesjonelle ungdomstrenere fra England viser at
+gode trenere er flinke til dette. De bruker ofte mer tid på å analysere og observere. Når de
+først sier noe, er det konstruktiv og positivt rettet. Årsaken til dette er at spillerne selv skal
+lære og forstå fotballspillet, og for de skal kunne være tilgjengelig for støtte og oppmuntring
+(Smith & Cushion, 2006). De skaper altså kontakt før de gjør noe annet: «Before you can
+teach, you have to show that you care» (Coyle 2014, s.86).
+
+Ha et konkret og visuelt språkbruk: En av de mest vanlige feilene trenere gjør er å instruere
+for mye, gjerne med et upresist språk (Smith & Cushion, 2006). I steder for å si «orienter deg
+bedre», kan man si: «se over skulderen din etter motspillere». Poenget er at man bør
+kommunisere med presise substantiver som man kan se og måle, og unngå adjektiver og verb
+som ikke forteller hva man presist skal gjøre.
+
+Et annet tips er å gjøre instruksjonen visuell. Det gjør det lettere å huske for spillerne. For
+eksempel; i stedet for å si «berør ballen mer forsiktig», kan en si: «kyss ballen». Eller ved
+øving på volleyskudd, i stedet for å si: «du må løfte foten din høyere» kan man si «sving foten
+din som om du skulle sparke til en ball som ligger på et bord». En slik billedlig beskrivelse er
+enklere å forstå, huske og utføre. Dette fordi hjernen registrer bilder mer levende og
+minneverdig enn abstrakte ideer. Det trenger ikke å være veldig detaljert, så lenge det er lett å
+se og føle (Coyle, 2014).
+
+Oppsummert; for å legge forholdene til rette for en effektiv prestasjonsutvikling bør målet til
+en trener være å forbedre læringsevnen til spillerne slik at de ikke trenger en trener; De blir
+sin egen beste trener. For å skape slike forutsetninger bør man som trener unngå å være i
+
+33
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+sentrum, men heller skape et miljø der de jobber etter å strekke seg selv, av selv. Ta et skritt
+tilbake, og skap et kreativt og effektiv læringsmiljø!
+
+34
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+8. Litteraturliste
+Bandura A. (1991). Self-regulation of motivation through anticipatory and self-reactive
+mechanisms I Dienstbier, R. A. (Reds). Perspectives on motivation: Nebraska synsposium on
+motivation. (s. 69 – 164). Lincoln: University of Nebraska Press
+Baumeister, R. F. og Vohs, K.D. (2007). Self-Regulataion, Ego depletion and Motivation.
+Social and Personality Psychology Compass, 1, s.1-15
+Baumeister, R. F., Vohs, K. D. & Tice, D. M. (2007). The strength model of Self-control.
+Current directions in psychological science, 16, s. 251 – 354
+Baumeister, R. F., Bratslavsky E., Muraven M., & Tice, D. M. (1998). Ego depletion: Is the
+active Self a limited resource?. Journal of Personality and Social Psychology, 74, s. 1252 –
+1265.
+Baumeister, R.F. og Vohs, K. D. (2011). Self-Regulation and the executive function of the
+self i Leary, M.R & Tengney, J.P (Reds). Handbook of self-regulation: Research, theory and
+applications. (s. 197 – 217). The Guildford Press: New York
+
+Bayer, B.K. (1987). Practical strategies for the teaching of thinking . Allyn and Bacon:
+Boston
+Becker, A. J., (2009). It`s not what thye do, it`s how they do it: Athlete experience of great
+coaching. Journal of Sports Sciences and Coaching, 4, s.93-119.
+
+Beswick, B. (2010). Focused for Soccer: How to win the mental game. Human Kinetics
+Bjork L. G., og Bjork A. R. (2011). Making things hard on yourself, but in a good way:
+Creating desirable difficulties to enhance learning, i Gernhansbacher, A. M., Pew, W. R.,
+Hough, M. L., Pomerantz, R. J. (Reds). Psychology and the Real World (s.56-64). Worth
+Publishers: New York
+Bjørnebye, I. S. (2014). Refleksjoner ved årets slutt. Fotballtreneren, 1. s. 26-27
+Cleary, T.J., og Zimmerman, B.J. (2001). Self-regulation differences during athletic practice
+by experts, non—experts and novice. Journal of Applied Sport Psychology. 13, 185-206
+Collins, D., og MacNamara Aine. (2012). The rocky road to the top – Why talents need
+Trauma. Sports Med, 42, s.1-8
+Coyle, D. (2009). The Talent Code. New York: Arrow Books.
+Coyle, D. (2012). The little book of Talent. RH Books.
+Converse, P. D., & Deshon, R. P. (2009). A Tale of two tasks: reversing the Self-Regulatory
+Resource Depletion Effect. Journal of Applied Psychology, 24, s. 1318 - 1324
+35
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Cushion, C. J., & Jones, R. L. (2001). A systematic observation of professional top-level
+youth soccer coaches. Journal of Sport Behaviour, 24, 354–376
+
+Ericcson, K. A., Krampe, T, R., og Römer, T. C. (1993). The role of deliberate practice in the
+acquisition of expert performance. Psychological Review. 3, 363-406.
+Ertmer, P. A., og Newby, T. J. (1996). The expert learner: Strategic, self-regulated, and
+reflective. Instructional Science. 24, s.1-24
+Ford, R. P., Yates, I., Williams A. M., (2010). An analysis of practice activites and
+instructional behaviours used by youth soccer coaches during practice: Exploring the link
+between science and application. Journal of Sport Sciences. 28, s.483-495
+Foster, C., Florhaug, A. J., Franklin, J., Gottschall, L., Hrovatin, A. L., Parker, S., Doleshal,
+P., og Dodge, C. (2001). A new approach to monitoring exercise training. Journal of Strength
+and Conditioning Research. 15, s.109-115.
+Gemser, M. T., Jordet, G., Silva, M. J. C., og Visscher, C. (2012). The marvel of elite sports:
+how to get there? Br J Sports Med, 45, s. 683-684
+Haugaasen, M. (2012). Treningskvalitet og ekspertiseutvikling i fotball. UEFA A-lisens
+oppgave, Norges fotballforbund.
+Haugaasen, M, og Jordet, G. (2012). Developing fottbal expertise: a football-spesific research
+review. International Review of Sport and Exercise Psychology, 5, s. 177-201.
+Helsen, F. W., Starkes, L. J., og Hodges, J. N. (1998). Team sports and the theory of
+deliberate practice. Journal of sports and exercise psychology, 20, s.12-34
+Impellizzeri, M. F., Rampinini, E., Coutts, A. J., Sassi, A., og Marcora M. S. (2004). Use of
+RPE-Based traning load in soccer. Medicine & Science in Sports & Exercise. 36, s.1042-1047
+Kahneman, D. (2011). Thinking, fast and slow. Allen Lane: New York
+Jones, R.L., Armour, K. A., & Potrac, P. (2004). Sports Coaching Cultures: From Practice to
+Theory. London: Routledge
+Kantak, S.S., Sullivan, K.J., Fisher, B.E., Knowlton, B.J., & Winstein, C.J. (2010). Neural
+substrates of motor memory consolidation depend on practice structure. Nat Neurosci 13, s.
+923–925
+Kitsantas, A., og Zimmerman, B.J. (2002). Comparing self-regulatory processes among
+novice, non-expert, and expert volleyball players: A microanalytic study. Journal of Applied
+Sport Psychology. 14, s. 91-105
+Kitsanta, A., & Kavussanu. (2011). Acquisition of Sport Knowledge and Skill. The role of
+self-regulatory processes, i Zimmerman B.J, & Schunk, D. H. (Reds). Handbook of selfregulation of learning and performance. (s. 217 – 233). Routledge. New York
+
+36
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Masters, R. S. W. (2000). Theoretical aspects of implisitt learning in sport. International
+Journal of Psychology, 31, s.530-541
+
+Muraven M., Tice, D. M., og Baumeister, R.F. (1998). Self-control as a limited resiurce:
+Regulatory depletion patterns. Journal of Personality and social psychology, 74 s.774-789
+Reina, P. (2011). Pepe – My Autobiography. Sport Media.
+Rongland, L. T. (2008). Lagspill, læring og ledelse. Om lagspillenes didaktikk. Akilles forlarg
+Shea, J.B., & Morgan, R.L. (1979). Contextual interference effects on the acquisition,
+retention, and transfer of a motor skill. Journal of Experimental Psychology: Human Learning
+and memory, 5, s. 179 – 187
+Smith, M, F. (2010). Research Methods in Sport. Learning Matters Ltd: Cornwall
+Smith, M., & Cushion, C.J. (2006). An investigation of the in-game behaviours of
+professional, top-level youth soccer coaches. Journal of Sports Sciences, 24, 355-366
+Smerud, L. G. (2008). Jeg og du I 4-4-2? – Om relasjoner og den mentaliserende treneren.
+Stratton, G., Reilly, T., Williams, M. A., Richardson, D. (2004). Youth Soccer – From
+Sciences to performance. Routledge
+Toering, T. (2011). Self-regulation of learning and the performance level of youth soccer
+players. (Doctoral dissertation). Gronningen: Rekladruk Gytsjerk.
+Toering, T., Jordet G, Ripegutu A. (2013). Effective learning among elite football players:
+The development of a football-specific self-regulated learning questionnaire. Journal of Sport
+Science. 1, s.1-9
+Toering, T. T., Elferink-Gemser, M., T., Jordet, G., og Visscher, C. (2009). Self-regulation
+and performance level of elite and non-elite youth soccer players. Journal of Sports Sciences.
+27, s. 1509-1517
+Toering, T, T., Elferink-Gemser, M, T., Jordet, G., Jorna, C., Pepping, G, J., Visscher, C.
+(2011). Self-regulation of practice behavior among elite youth soccer player: An exploratory
+study. Journal of Applied Sports psychology. 23, s.110-128.
+Toering, T., T., Elferink-Gemser, M, T., Jordet, G., Pepping, G, J., Visscher, C. (2012). Selfregulatio learning and performance level of elite youth soccer players. International journal of
+sport psychology, 43, s.1-14
+
+37
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+Van Yperen, N.W. (2009). Why some make it and others do not: Identifying psychological
+factors that predict career success in professional adult soccer. Sport Psychologist, 23, s. 317329
+Weinstein, C. E., & Van Mater Stone, G. (1993). Broadening our conception of general
+education: The self-regulated learner. New directions for community colleges, 21, s. 31-39
+Zimmerman, B. J. (1989). A social cognitiv view of self-regulated academic learning. Journal
+of Educational Psychology. 81, s.329-339
+Zimmerman, B. J. (2002). Comparing Self-regulation processes among novice, non-expert,
+anf expert volleyball players: A microanalytic study. Journal of Applied Sport Psychology,
+14, s. 91-105.
+Zimmerman, B. J. & Kitsantas, A.,(1996). Self-regulated learning of motoric skill: The role of
+goal setting and self-monitoring. Journal of Applied Sport Psychology, 8, 60-75.
+Zimmerman, B. J., & Kitsantas, A. (1997). Developmental phases in self-regulation: Shifitng
+from process goals to outcome goals. Journal of Educational Psychology, 89, 29-36
+Zimmerman, B. J. (2006). Development and adaptation of expertise: The role of
+selfregulatory process and beliefs i Ericsson, K. A., Charness, N., Feltovich, P.J og Hoffmann
+R.R. (Reds). The cambrigde handbook of expertise and expert performance. (s. 705-722).
+Cambridge University Press. New York
+Zimmerman, B. J., og Campillo, M. (2003). Motivating Self-Regulated Problem Solvers i
+Davidson, J. E., og Sternber, R. J. (Reds). The Psychology of Problem Solving. Cambridge
+University Press: New York
+Ibrahimovic, Z., (2011). Jeg er Zlatan. Font Forlag
+
+38
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+9. Sammendrag
+Studier fra ekspertiseutvikling de siste årene viser at det ikke bare er antall treningstimer som
+er avgjørende for god man blir, men at læringsutbytte fra hver treningsøkt også er en
+avgjørende faktor. Dette vil altså si at evnen til å lære er en av di, om ikke den viktigste
+egenskapen, man må ha for å kunne spille på toppnivå i fotball. Evnen til å lære avhenger av
+individets selvreguleringsprosess. Derfor vil en økt forståelse av hvordan man som trener kan
+påvirke selvreguleringsprosessen til spillerne, være svært fordelaktig i utviklingen gode
+fotballspillere. Det samme vil det være å kunne svare på hvordan man kan få 1 times utbytte
+av 10 minutters trening.
+
+Formålet med denne oppgaven var derfor å se på sammenhengen mellom type øvelser og
+treneratferd har på selvregulering til spillere under aktivitet. I tillegg var det et ønske å finne
+ut hvordan man som spiller og trener kan sørge for å få mest mulig utbytte av en trening. Til
+sammen vil forhåpentligvis dette gi en økt forståelse for hvordan man kan sørge for en
+effektiv prestasjonsutvikling.
+
+For få finne svar på de to problemstillingene svarte åtte fotballspillere på et spørreskjema etter
+hver øvelse under ulike treninger i en måneds periode. Spørreskjemaet kartla
+selvreguleringsscoren til spilleren, som igjen ble sammenlignet med type treneratferd og
+øvelse. I tillegg ble deg gjort en litteraturstudie på ekspertiseutvikling for å få en dypere
+forståelse av hvordan man kan utøve treninger mest mulig effektive, sett i et
+læringsperspektiv.
+
+Resultatene viste at under tekniske øvelser var det høyest score på planlegging og
+selvobservasjon, mens spilløvelser som var intense ga høyest score på evaluering og
+refleksjon. Når det gjelder trener atferden var det atferden stillhet som viste tendens til mest
+positiv sammenheng med selvregulering-scoren. Litteraturen fra ekspertiseutvikling viser at
+motstand og ønskelig vanskeligheter (både psykisk og motorisk) ser ut til å være viktige
+faktorer for å gi en best mulig lærings effekt og dermed kunne utøve effektiv
+prestasjonsutvikling.
+
+39
+Magnus Espeland Meling
+
+UEFA A-lisens 2016
+
+Vedlegg 1: Spørreskjema for selvregulering
+I hvilken grad hadde du et klart individuelt mål før øvelsen startet?
+
+0
+Hadde
+IKKE et
+mål
+
+1
+
+2
+
+3
+
+4
+
+5
+Hadde et
+noenlunde
+klart mål
+
+6
+
+7
+
+8
+
+9
+
+10
+Hadde et
+SVÆRT
+tydelig mål
+
+9
+
+10
+Sjekket det
+hele tiden
+
+I hvilken grad sjekket du hvor korrekt du gjorde øvelsen?
+
+0
+Sjekket
+ikke i det
+hele tatt
+
+1
+
+2
+
+3
+
+4
+
+5
+Sjekket
+noen
+ganger
+
+6
+
+7
+
+8
+
+Da du ikke var i aktivitet, i hvilken grad tenkte du over dine prestasjoner for å finne ut
+hva du måtte gjøre for å forbedre dem?
+
+0
+Tenkte
+ikke i det
+hele tatt
+
+1
+
+2
+
+3
+
+4
+
+5
+Tenkte
+noen
+ganger
+
+6
+
+7
+
+8
+
+9
+
+10
+Tenkte over
+det hele
+tiden
+
+Da øvelsen var ferdig i hvilken grad tenkte du over hva du hadde gjort rett og galt?
+
+0
+Tenkte
+ikke i det
+hele tatt
+
+1
+
+2
+
+3
+
+4
+
+5
+Tenkte
+litt over
+det
+
+6
+
+7
+
+8
+
+9
+
+10
+Tenkte
+svært mye
+over det
+
+40
+Magnus Espeland Meling
+
+

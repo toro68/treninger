@@ -1,5 +1,5 @@
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
-export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass";
+export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
 
 export interface Exercise {
   id: string;
@@ -934,6 +934,18 @@ import { bangsboExercises } from './bangsbo-exercises';
 import { duggerExercises } from './dugger-exercises';
 // Importer Smålagsspill-øvelser (Prickett, 101 Youth, Seeger)
 import { smallsidedExercises } from './smallsided-exercises';
+// Importer UEFA-øvelser (fra UEFA A-analyser)
+import { uefaExercises } from './uefa-exercises';
 
-// Kombiner egne øvelser med tiim-øvelser, DBU-øvelser, Rondo-øvelser, Hyballa-øvelser, Bangsbo-øvelser, Dugger-øvelser og Smålagsspill
-export const allExercises: Exercise[] = [...exercises, ...tiimExercises, ...dbuExercises, ...rondoExercises, ...hyballaExercises, ...bangsboExercises, ...duggerExercises, ...smallsidedExercises];
+// Kombiner alle øvelseskilder
+export const allExercises: Exercise[] = [
+  ...exercises,
+  ...tiimExercises,
+  ...dbuExercises,
+  ...rondoExercises,
+  ...hyballaExercises,
+  ...bangsboExercises,
+  ...duggerExercises,
+  ...smallsidedExercises,
+  ...uefaExercises,
+];

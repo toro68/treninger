@@ -1,0 +1,1359 @@
+Spillerutvikling i en breddeklubb
+
+AV: Morten Tandberg
+
+1
+
+1. Forord
+Denne oppgaven er skriftlig oppgave på UEFA-A lisens kurset 2012 og jeg skal se
+nærmere på hvordan vi driver spillerutvikling i Norge og spesielt rette fokus på
+den jobben som blir gjort i breddeklubbene. Mitt mål med oppgaven er å belyse
+hvilken fantastisk jobb som blir gjort i breddeklubbene og lage en motpol til de
+som mener at ”alle” spillere må være i en toppklubb fra de er 12 år for å bli gode.
+Jeg har henvendt meg til personer som kjenner fotball Norge godt, det være seg
+spillerutviklere i krets, spillerutviklere i breddeklubber og ikke minst spillere
+som var lenge i sin moderklubb før de tok steget over til en toppklubb. Med
+deres og min egen erfaring vil jeg belyse verdien av jobben som blir gjort ute i
+vårt langstrakte land og jeg håper oppgaven vil føre til diskusjoner til det beste
+for norsk fotball og spillerutvikling spesielt.
+Jeg kommer til å se litt på teorien bak spillet fotball og spillerutvikling spesielt
+før jeg går litt i gjennom arenamodellen. Jeg mener kombinasjonen av å utvikle
+fotballferdigheter og ta vare på hele mennesket er en ufravikelig kombinasjon
+for å lykkes. Jeg vil så ta dere gjennom intervjuene mine og se om det finnes noen
+likheter og klare styrker på tvers av breddeklubbene og dens brukere.
+En stor takk rettes til alle som har bidratt til denne oppgaven, uten deres innsats
+hadde det ikke vært mulig.
+
+Morten Tandberg
+
+2
+
+Innhold
+1.
+
+Forord ............................................................................................................................................................................. 2
+
+2.
+
+Sammendrag ................................................................................................................................................................ 4
+
+3.
+
+Problemstilling ........................................................................................................................................................... 5
+
+4.
+
+Metodikk ........................................................................................................................................................................ 7
+4.1 Hva er metode? ......................................................................................................................................................... 7
+4.2 Hva er kvalitativ metode?..................................................................................................................................... 7
+
+5.
+
+Talent/Spillerutvikling- Hvorfor har dette blitt viktig? ........................................................................... 8
+
+6.
+
+Hva er fotballferdighet? .......................................................................................................................................... 9
+6.1 Individuell dimensjon: ........................................................................................................................................... 9
+6.2 Den relasjonelle dimensjonen: ........................................................................................................................... 9
+6.3 Den strukturelle dimensjon: ............................................................................................................................ 10
+6.4 Kampdimensjonen: .............................................................................................................................................. 11
+
+7.
+
+Arenamodellen ........................................................................................................................................................ 14
+
+8.
+
+Den norske spillerutviklingsmodellen .......................................................................................................... 15
+
+9.
+
+Undersøkelse ............................................................................................................................................................ 16
+9.1 Klubbene ................................................................................................................................................................... 16
+9.1.1 Florø .................................................................................................................................................................. 16
+9.1.2 Egersund ......................................................................................................................................................... 21
+9.1.3 Bærum .............................................................................................................................................................. 24
+9.2 Breddeklubbene sin spisskompetanse:....................................................................................................... 28
+9.3 Fellestrekk for breddeklubbene: .................................................................................................................... 29
+9.4 Fotballkretsene ...................................................................................................................................................... 30
+9.4.1 Svar fra Sogn og Fjordane Fotballkrets ............................................................................................. 30
+9.4.2 Svar Fra Rogaland Fotballkrets ............................................................................................................. 33
+9.4.3 SVAR FRA OSLO FOTBALLKRETS ........................................................................................................ 36
+9.5 Spillerutvikler i krets sitt syn på spillerutvikling i breddeklubbene: ............................................ 40
+9.6 Fellestrekk for fotballkretsene: ...................................................................................................................... 41
+9.7 SPILLERE .................................................................................................................................................................. 42
+9.7.1 Spiller 1 ............................................................................................................................................................ 42
+9.7.2 Spiller 2 ............................................................................................................................................................ 45
+9.7.3 Spiller 3 ............................................................................................................................................................ 47
+9.8 Spillernes vei til toppen: .................................................................................................................................... 50
+9.9 Fellestrekk for spillerne: .................................................................................................................................... 50
+
+10.
+
+Konklusjon ............................................................................................................................................................ 51
+
+10.1 ”Timing is everything” ..................................................................................................................................... 52
+10.2 Hva kan toppklubbene bidra med til sine lokale klubber? .............................................................. 52
+11.
+
+Referanser ............................................................................................................................................................. 54
+
+3
+
+2. Sammendrag
+I denne oppgaven har jeg sett nærmere på spillerutvikling i en breddeklubb og
+hvilke suksess kriterier vi finner. Jeg har brukt egen erfaring samt intervju med
+informanter fra breddeklubber, spillerutvikler i krets og spillere som har gått
+gradene i en breddeklubb.
+Jeg ønsker også og rette et lys på hva toppklubbene kan bidra med ut til oss på
+grasrota slik at vi kan optimalisere spillerutviklingen over det ganske land.
+Dette er ikke et absolutt med to streker under svaret, men gjennom oppgaven så
+kommer det frem en klar tendens. Breddeklubbene har opparbeidet seg en god
+spillerutviklings kultur med gode ordninger for å ta vare på alle, også de beste.
+Det er en bred enighet om at verdien av å få være ”best” i sitt lokal miljø kontra
+det å være en i mengden er av stor verdi.
+I et større perspektiv vil lokale utviklingsmiljøer bli lidende om toppklubbene
+henter de beste spillerne i ung alder (10-12 år) og med det kan fremtidige
+toppspillere glippe da de ikke lenger har noe godt miljø og trene i.
+En klar og tydelig tilbakemelding fra spillerne er at mye trening på egenhånd
+samt kyndig veiledning av dyktige trenere var en av hovedgrunnene til at de til
+slutt tok steget opp til toppfotballen. Det at de alle hadde A-lags erfaring i trygge
+omgivelser og ikke gikk før de var ”klare” for det selv, peker de også på som
+viktig.
+Spillerutviklere i krets retter mye av sitt fokus på samarbeidet mellom
+toppklubb og breddeklubb. De ønsker en tydeligere toppklubb som kan bidra
+med kompetanse heving ut til distriktene både til spillere, trenere og klubb. Det
+er også en bred enighet om at så lenge det er lagt til rette for god spillerutvikling
+så vil en ung gutt/jente ha best av og utvikle seg i trygge omgivelser.
+
+4
+
+3. Problemstilling
+Spillerutvikling i fotball er et området mange har klare meninger om, og jeg
+oppfatter en holdning ute blant toppklubbene at de er de eneste som klarer å
+forvalte et stort fotball talent. Ett av målene med denne oppgaven er å få frem
+informasjon, kunnskap og ikke minst bidra til debatten rundt spillerutvikling i en
+breddeklubb. For det jobbes veldig bra der ute. For å få belyst problemstillingen
+best mulig så har jeg prøvd å favne bredt. Jeg har snakket med spillere som var
+lenge i en breddeklubb (moderklubb) før de tok steget ut i en toppklubb. Disse
+spillerne er kanskje de beste eksemplene på at jobben som gjøres der ute holder
+høyt nivå og de er også et meget godt eksempel på at ”driven” til å bli god må
+komme innenfra, disse gutta trente mye i ung alder. Jeg har snakket med
+spillerutviklere i krets og ikke minst spillerutvikler/sentrale personer i noen
+breddeklubber som gjør en fantastisk jobb der ute hver eneste dag.
+Gjennom samtaler og spørreskjemaer med spillere og sentrale personer ute i
+fotball Norge ønsker jeg å få frem deres opplevelser av det
+spillerutviklingsarbeidet og de tiltak breddeklubbene har gjennomført alene og
+med støtte fra den lokale toppklubben de siste 10 årene.
+Jeg ønsker å sette lys på hva spillerutvikler i krets og breddeklubbene mener om
+den jobben den lokale toppklubb yter ut mot sitt nærområdet. Føler de at den
+lokale toppklubben hjelper inn mot deres spillerutviklingsprogram eller om de
+primært har en følelse av at den lokale toppklubben vil ha de beste spillerne i så
+ung alder som mulig.
+Oppgaven belyser og vinkler også spillerutvikling fra et spillerperspektiv. Jeg har
+intervjuet 3 spillere som har gått gradene i en breddeklubb for å få et godt
+inntrykk av hva deres opplevelse og hva de mener har vært en vesentlig faktor
+for at de til slutt lykkes som toppspiller og kan deres kunnskap og erfaring hjelpe
+oss med å forsterke vårt arbeid slik at vi får frem enda flere spillere.
+
+5
+
+Jeg har følgende 3 problemstillinger i denne oppgaven:
+1. Er det noen felles suksesskriterier på tvers av breddeklubbene?
+2. Hva var suksesskriteriene for de spillerne jeg har snakket med?
+3. Hva kan toppklubbene bidra med for å bedre spillerutviklingen i sitt
+nærmiljø?
+
+6
+
+4. Metodikk
+4.1 Hva er metode?
+Metode er en systematisk måte å undersøke virkeligheten på. Det er mer presist
+lære om de verktøy som kan benyttes for å samle inn informasjon (Halvorsen,
+1993).
+
+4.2 Hva er kvalitativ metode?
+Kvalitative metoder bygger på fortolkning og menneskelige erfaringer. Metodene
+omfatter ulike former for systematisk innsamling, bearbeiding og analyse av
+materiale fra samtale, observasjon eller skriftlig tekst. Meningen er å utforske
+meningsinnholdet, slik det oppleves for de involverte selv.
+I denne oppgaven var jeg veldig klar fra start av at jeg ønsket å gå i dybden hos
+noen enkelt personer som på ulik måte har påvirket/opplevd norsk
+spillerutvikling fra en breddeklubb sitt perspektiv.
+Jeg valgte en semi-strukturert metode i denne oppgaven i form av skriftlig
+dybdeintervju samt noen samtaler over telefon. De 3 gruppene jeg har intervjuet
+er spillere som har gått gradene i en breddeklubb og tatt steget til toppen av
+norsk fotball, spillerutviklere i krets og spillerutviklere/sentrale personer i
+breddeklubber jeg selv oppfatter som meget dyktig. Innad i de 3 gruppene har
+informanten fått de samme spørsmålene.
+Mitt valg av metode gir ikke rom for noen bombastiske påstander ei heller noen
+konklusjoner som er absolutte, dog er utvalget av informanter plukket ut med
+største nøyaktighet så jeg vil våge og påstå at vi i hvert fall kan se en tendens.
+
+7
+
+5. Talent/Spillerutvikling- Hvorfor har dette blitt viktig?
+Det har de siste årene vært en sterk fokusering på dette med
+spillerutvikling/talentutvikling. Dette har en klar sammenheng med
+forbundsstyrets vedtak om LUS bestemmelsene (Lokalt utviklede spillere), som
+ble endelig vedtatt 8.januar 2008, som sier at i en stall på 25 spillere skal 14 av
+dem være lokalt utviklede. Tar man også i betraktning kostnaden det er på og
+hente en `ferdig utviklet `Tippeliga spiller så har man 2 hovedgrunner til at
+mange toppklubber henter mange talentfulle spillere i ung alder.
+Det er dog en relativt stor forskjell i praksis. Ser man på modellen til VIF og
+Stabæk så saumfarer de sitt lokal miljø for gode spillere helt ned i 10-11 års
+alderen, mens f.eks RBK og Godset ikke henter de inn til sine lag før de når gutte
+alder.
+Dette er 2 vidt forskjellige måter og drive spillerutvikling i sitt nærmiljø og uten
+å mene for mye om dette så er det gøy og se at Godset og RBK hevder seg helt i
+toppen av norsk fotball.
+
+8
+
+6. Hva er fotballferdighet?
+Fotball er en veldig sammensatt idrett og det kan være greit å bryte dette ned
+slik at man får en tydelig struktur og forståelse av begrepet. Fotballferdighet kan
+derfor ses på i en individuell, en relasjonell, en strukturell og kamp dimensjonen.
+
+6.1 Individuell dimensjon:
+Fotballspillet stiller bestemte krav til enkeltspillere over hele banen til en hver
+tid. Spillerens evne til å velge hensiktsmessig løsninger og ikke minst ha evnen til
+å gjennomføre disse på en effektiv måte er avhengig av spillerens individuelle
+fotballferdighet. En spiller med gode individuelle ferdigheter vil også kunne
+utføre bestemte valg på et stabilt høyt nivå over tid med ulike ytre forhold.
+
+6.2 Den relasjonelle dimensjonen:
+I tillegg til å besitte gode individuell ferdigheter må fotballspilleren vite å kunne
+utnytte sine ferdigheter til det beste for laget sammen med andre.
+
+9
+
+6.3 Den strukturelle dimensjon:
+Evnen til samhandling vil utvikles betydelig raskere dersom alle spilleren på
+laget har en felles forståelse av hvordan ulike situasjoner som oppstår på banen
+skal løses. I Norge er det en klar oppfatning om at lagets totale slagkraft er langt
+større en summen av de individuelle ferdighetene. Det må ikke på noen måte
+misforståes og ei heller bli sett ned på viktigheten av bedre individuelle
+ferdigheter da det er summen av den individuelle, relasjonelle og den
+strukturelle dimensjonen som avgjør hvor gode vi er når det kommer til kamp
+dimensjonen.
+En tydelig struktur og klare retningslinjer gjør at spillerne opplever en større
+grad forutsigbarhet, noe som kan gjøre det enklere å velge en hensiktsmessig
+løsning i forhold til de individuelle ferdighetene som den enkelte spiller besitter.
+Klare retningslinjer vil dermed bidra til bedre samhandling i laget, og gjøre det
+lettere for spillerne å bruke sine ferdigheter på en best mulig måte.
+
+10
+
+Det er dog viktig å legge til at en tydelig og god struktur på spillet ikke må
+forveksles med lite kreativitet. Man kan fint ha en stram struktur og samtidig
+være kreative/uforutsigbare, det er f.eks Barcelona et godt eksempel på.
+
+6.4 Kampdimensjonen:
+I en åpen idrett som fotball så er kampdimensjonen et spill – motspill. Det vil si
+at det til en hver tid er et lag som angriper og et lag som forsvarer seg og
+kampbildet til en hver tid forandre seg ettersom spillet glider frem. Det laget som
+innehar de beste ferdighetene individuelt, relasjonelt og strukturelt vil ha et klart
+fortrinn i forhold til utfallet av kampen.
+Begge lagene skaper et ubegrenset antall situasjoner som spillerne må forholde
+seg til. I tillegg er fotballspillet til dels uberegnelig idet mange situasjoner er
+vanskelig å forutse. Spillerens evne til raskt å lese og utnytte ulike
+kampdimensjoner er derfor en meget sentral del av fotballferdigheten.
+I tillegg til de 4 omtalte dimensjonen over så vil en spiller sin evne til å prestere
+være påvirket av fysiologiske ressurser, psykologiske ressurser og sosiale
+ressurser. Spesielt de to siste dimensjonene her finner jeg meget interesante i
+forhold til min oppgave da jeg mener at dette er ferdigheter som er meget viktig
+for å ha en stabil utvikling over tid og som en breddeklubb (moderklubb) fort
+kan ha mye større evne til å ivareta.
+
+Fysiologiske ressurser:
+1. Utholdenhet
+2. Styrke
+3. Spenst
+4. Hurtighet
+5. Bevegelighet
+En fotballkamp stiller spesifikke krav til spillerens fysiologiske ressurser. De
+fysiologiske ressursene begrenses av organsystemets muskulatur, hjerte og
+kretsløp (Hallen 2008) som delvis er genetisk betinget og utvikles gjennom vekst
+11
+
+og modning, men som også kan påvirkes gjennom systematisk og spesifikk
+trening. Den fysiologiske kapasiteten bestemmer hvor raskt man kan løpe, hvor
+høyt man kan hoppe og hvor utholdene man er.
+
+Psykologiske ressurser:
+1. Glede
+2. Motivasjon
+3. Konsentrasjon
+4. Vilje
+5. Spenningsnivå
+6. Selvtillit
+Fotballkampen stiller store krav til de psykologiske ressursene (Pengaard og
+Høgmo, 2004). Spillerens psykologiske ressurser vil være avgjørende for deres
+evne til ¨utvikle seg gjennom mye trening som krever motivasjon, viljestyrke og
+ikke minst en genuin glede over å spille fotball. En annen faktor er evnen til å
+styre sitt eget spenningsnivå, en ferdighet som viser seg å være meget vanskelig
+for mange spillere.
+
+Sosiale ressurser:
+1. Lojalitet
+2. Tilhørighet
+3. Sosial kjemi
+4. Trivsel
+5. Trygghet
+6. Samarbeid
+Sosiale ressurser/ferdigheter er vesentlig for å lykkes som fotballspiller over tid.
+En spiller som trives og er trygg i sitt miljø vil ha mye større sjanse for utvikling.
+Det sosiale aspektet ved det og utvikle gode fotballspillere er noe nedprioritert
+og noe en breddeklubb har større evner til å gjøre enn en toppklubb hvor man
+fort kan være en i mengden og ikke blir sett på samme måte.
+
+12
+
+Når man da skal prøve og definere begrepet fotballferdighet så må man ta
+hensyn til at fotball er en åpen ferdighetsidrett som består av 4 forskjellige
+dimensjoner som alle er like viktige (den individuelle, den relasjonelle, den
+strukturelle og kampdimensjonen). En definisjon på fotballferdighet kan for
+eksempel ikke utelukkende baseres på den individuelle dimensjonen uten å ta
+hensyn til betydningen av de handlingsvalg som spilleren må ta (den
+relasjonelle) og lagets retningslinjer (den strukturelle).
+Den definisjonen som best beskriver fotballferdighet er Bergo, Johansen, Larsen
+og Morisbak (2002) som definerer fotballferdighet som hensiktsmessig
+handlingsvalg og handlinger for å skape og utnytte spillsituasjoner til fordel for
+eget lag. SE FIGUR
+
+13
+
+7. Arenamodellen
+Trening, både i mengde og kvalitet er selvsagt den viktigste enkeltfaktoren for å
+utvikle gode fotballferdigheter. Det er dog veldig viktig at en trener eller
+spillerutvikler klarer å se helheten for spilleren. Med helhet så mener jeg andre
+arenaer en spiller må forholde seg til og som er meget avgjørende for en optimal
+utvikling, dette kan man se på gjennom arenamodellen.
+Arenamodellen er et fint verktøy for at spillere og trenere skal kunne forstå det
+komplekse samspillet mellom spillerens prestasjon å banen og livet utenfor
+fotballbanen. Se figur,
+
+Pensgard og Hægmo (2004) viser til hvordan de forskjellige arenaer smitter over
+på hverandre. God spillerutvikling tar utgangspunktet i en kartlegging av
+spillerens ulike arenaer, og hvordan de ulike arenaer må samkjøres for at den
+enkelte spiller skal kunne få en optimal utvikling. Man må som spillerutvikler ta
+inn over seg og legge til rette for at spilleren har en optimal skolehverdag, en
+optimal familiesituasjon (ofte krevende) , er det mulig i ung alder og kombinere
+fotball med andre idretter og forstå viktigheten av at en spiller må få tid til
+venner og evt. kjæreste på fritiden.
+
+14
+
+I tillegg til de nevnte faktorene over så er total belastningen og ikke minst
+muligheten for restitusjon meget viktig og da må man se på reisevei (Hvor mye
+tid bruker spilleren på reise til og fra trening) og man må få de til å skjønne
+viktigheten av søvn og kosthold. Klubbene må passe på at spillerne er i balanse,
+at de har et bra liv utenfor fotballen slik at de kan fokusere 100% på spillet og ha
+glede med ballen hver eneste dag. Sammen med spilleren så er det vår jobb å få
+dem inn i ”flytsonen” og da må det settes av mye tid til hver eneste en av dem.
+
+8. Den norske spillerutviklingsmodellen
+Den norske spillerutviklingsmodellen, slik den er skissert av NFF bygger på tre
+grunn prinsipper.
+1. Toppspillerutvikler i toppklubbene
+2. Aldersbestemte landslag
+3. Spillerutviklere i krets
+Etter denne modellen skal toppklubbene ivareta de beste spillerne på guttesiden
+i alderen 17-21 år. I tillegg til ekstra oppfølging fra klubben så får de beste
+spilleren som regel være involvert i aldersbestemt landslagsfotball. På denne
+måten sikrer NFF at våre største talenter får internasjonal erfaring og ikke minst
+referanser de kan ta med seg inn i treningshverdagen i egen klubb. For å sikre
+oppfølging av spillere fra de mange små og store breddeklubbene over vårt
+langstrakte land har NFF engasjert 18 spillerutviklere i kretsene. Disse har
+ansvar for spillere i alderen 13-16 år. Spillerutvikler i krets har ansvar for den
+aktiviteten som skjer på sone og krets nivå.
+Som nevnt i avsnittet over så er det en klar tendens i norsk fotball i dag at
+toppklubbene rekrutterer spillere fra breddeklubbene i stadig yngre alder og i
+større omfang en tidligere. Det spørsmålet man da skal stille seg er om detter er
+riktig fremgangsmåte for den enkelte spiller, de lokale klubbene og ikke minst
+for toppklubben selv. Det kan diskuteres om det er mangel på ressurser i
+toppklubbene til å ta vare på ”alle”.
+15
+
+9. Undersøkelse
+Jeg har som tidligere nevnt benyttet meg av intervjuer som metode og har
+intervjuet representanter innenfor breddeklubbene, fotballkretsene samt
+spillere.
+
+9.1 Klubbene
+Klubbene som er intervjuet er Florø, Egersund og Bærum.
+9.1.1 Florø
+1, Kan du gi meg ditt syn på spillerutviklingsplanen i din klubb de siste 10 årene?
+Svar: Undertegnede tok over ansvaret i klubben i 2007. Før det var det meste
+tilfeldig, veldig mye var styrt av foreldre og det var ingen rød tråd i det arbeidet
+som ble gjort i klubben. Seniorlaget vårt lå på nedre halvdel av 3 div.
+Fra 2007 ble det ferdigstilt en innendørshall 40`60, og undertegnede satt i gang
+et akademi. I løpet av de siste årene har jeg integrert dette i et system som for en
+breddeklubb har vært ganske unikt. I utgangspunktet gikk klubben fra å være
+foreldre styrt til kanskje mer ”diktatur” hvor undertegnede fikk alt ansvar for
+aldersbestemt i klubben. Fra og med November 2009 ble seniorfotballen også
+med i systemet.
+I all hovedsak ble fokuset følgende:
+1. Enkeltspilleren i fokus
+2. Treningsinnhold ble temabasert
+3. Hospitering ble satt i system
+4. Ingen trenere hadde ”sitt” lag fra smågutt og oppover
+5. Trenerutdannelse. Trener 2 ble et krav for trenere fra smågutt. Trener 1
+for alle som hadde noe med trening å gjøre.
+6. Turneringsspill, tidligere var dette noe som ofte
+trenere/Ledere/foreldre/styrte. Nå var det undertegnede som satt opp
+hva vi skulle være med på og lagde en årsplan for alle lagene.
+2, Hva har dette arbeidet betydd og hva er de viktigste
+erfaringene/resultatene du tar med deg videre?
+16
+
+Svar: Vi har fått resultat på enkeltspillere. Fra å være en klubb som aldri
+hadde levert landslagsspillere og ingen til topp nivå i norsk fotball, har vi
+nå levert 6 spillere til aldersbestemtlandslag, 15 spillere til regionale
+tiltak, 3 spillere er solgt til TL og vi både tror og håper det kommer flere.
+På lagsiden har vi vært toneangivende nasjonalt i enkelte kull, spilt finaler på
+store turneringer i Norden og USA.
+Seniorlaget har vært ungt, kanskje det yngste i Norge i 3 div. I 2012 slo vi ut
+Sogndal av NM med 9 av 13 benyttede spillere som var under 18 år.
+Erfaringene fra vårt opplegg er gode, men ser at dette er avhengig av noen
+”nyttig idioter” som bruker ekstremt mye tid på dette. Klubben vår har ingen
+ansatte og dette tærer veldig på.
+Når vi startet opplegget i 2007, hadde vi en gjeld på nesten Nok 2.mill. Når års
+budsjettet er på 3 mill for hele klubben så var fokuset å få vekk gjeld. Dette har vi
+lykkes med, hovedgrunnen til det er ingen ansatte.
+3, Kan du fortelle litt om spillerutvikling satsingen i klubben din år i dag?
+Svar: Undertegnede har i dag hovedansvaret fra gutt og oppover. Dessverre har
+modellen som har gitt suksess vært vanskelig å opprettholde da vi ikke har
+mulighet til å ansette trenere, men er avhengig av frivillighet. Da har mange
+meninger, og ingen har kapasitet til å holde på med systemet vi hadde med
+omfattende hospitering (40 spillere) som var en betydelig årsak til vår suksess. I
+tillegg så har vi for mange i klubben som er opptatt av resultat. Dette tror jeg
+skyldes tidligere suksess, og vi har fortsatt mange som føler at dette bestemte
+laget er ”mitt”.
+Når det gjelder 15 år og oppover så satses det mye, og modellen er som tidligere
+og det er hele tiden enkeltspilleren som er i fokus. Utfordringen for oss er å få en
+god nok kamparena for våre Jr spillere. I vårt området så er ikke jr serien god
+
+17
+
+nok og når det blir mer og mer av invitasjonsturneringer hvor Tippeligalagene
+inviterer hverandre så blir det for dårlig matching for oss og ikke minst en
+mangel på referanser både for spillere og trenere.
+Vi mister også mange spillere hver høst da vi ikke har noe høyskole tilbud. 14 stk
+forsvant i august 2012 og vi står i fare for samme antall denne sesongen.
+Vi har et godt samarbeid med idrettslinja. Undertegnede har ansvaret for
+opplegget til våre spillere der. Dette har vært en lang prosess men denne
+sesongen føler jeg at dette tilbudet er veldig bra. Sammenlignet med andre
+klubber og skoler så føler jeg at vi er langt fremme her.
+Vi har en veldig god treningskultur. Denne kulturen er innarbeidet gjennom flere
+år.
+4, Hva er ditt inntrykk av samarbeidet med deres lokale toppklubb? Hva kan evt
+bli bedre?
+Svar: Vår lokale toppklubb er Sogndal. Vi har solgt 2 spillere til Sogndal og vi har
+etter hvert fått et bra forhold til de og dette gjelder både på ledelse og sport. Vi
+har også andre spillere som har vært med på A-laget på treningsleir etc. Men
+fortsatt er det mye som kan bli bedre.
+1. Sogndal må kjenne spillerne bedre, de har ikke god nok oversikt
+2. Kunnskap om nivå
+3. De må i større grad bidra med sin kompetanse ut i de mindre klubbene.
+4. De må ha en langsiktig plan på rekrutering. Slik det er i dag så er det uttak
+til G15 og G16 landslag som brukes som mal. Når en vet at det er ulik
+utviklingskurve (spesielt fysisk) blant yngre spillere må en ha en lengere
+horisont og et bredere spekter på hva de leter etter.
+
+18
+
+5, Ditt syn på samarbeidet med deres fotballkrets?
+Svar: samarbeidet har etter at undertegnede tok over bare blitt bedre og bedre.
+Både fotball faglig og tilrettelegging har hatt en fin utvikling. Utfordringene går
+på manglende ressurser til dette i krets, og NFF sin reduksjon i midler på
+utviklingstiltak i regi av krets går feil vei.
+6, Har din klubb etterspurt kompetanse fra den lokale toppklubb? Evt på hvilket
+områder?
+Svar:
+1. Testing, vi har fått til en avtale foran denne sesongen.
+2. Hospitering, blitt brukt som virkemiddel for utvikling i noen år.
+Dette har gitt begrenset suksess da spillerne som har vært innom
+ikke har følt at dette ga noe særlig utbytte. Dette skyldes trolig
+begrensinger i ressurser hos Sogndal også.
+3. Analyseverktøy. Et nytt system som vi er invitert til å delta på
+Ellers er det liten dialog noe som sikkert også er mye vår skyld.
+7, Hva mener du om tidlig utvelgelse av spillere internt i egen klubb og fra en
+lokal breddeklubb til toppklubb? Fordeler og ulemper?
+Svar: Vi har ingen utvelgelse, alle får tilbud om det samme. Vi har dog skilt klubb
+og akademi men kun for å gi tilbud til de som vil være med litt samt de som vil
+være med mye. Dette er helt opp til spilleren selv.
+Når en er ferdig med gutt så velger spilleren enten senior satsning eller senior
+bredde.
+Sogndal velger kun spillere som er inne på G15 og G16 landslaget, etter min
+mening så mister de mange emner på dette.
+
+19
+
+8, Har dere samarbeid med en ungdomsskole eller VGS?
+Svar: Vi har ingen samarbeid med ungdomsskole. VGS har som nevnt blitt
+gradvis bedre og undertegnede styrer innhold og intensitet på skoletreningene,
+noe som gjør ettermiddagsøktene lettere å planlegg og spillerne for en
+tilrettelagt hverdag. Som nevnt så er vi veldig fornøyd med årets modell.
+9, Hvor mye fokus har dere på kvaliteten på trenerne deres? Og hva legger du i
+en trener med kvalitet?
+Svar: Dette er et kjempe spennende tema og når jeg holder foredrag er dette noe
+av det som ”trigger” meg mest. Det snakkes mye om kvalitet, men mitt inntrykk
+er at nesten alle trener og spillere ser på kvalitet i økter med stort tempo, innsats
+og trøkk!!! Basis økter, gjerne med lav intensitet, blir sjelden oppfattet med
+kvalitet her i Norge og her skiller vi oss veldig fra de beste utlendingene.
+
+20
+
+9.1.2 Egersund
+1, Kan du gi meg ditt syn på spillerutviklingsplanen i din klubb de siste 10 årene?
+Svar: I klubben vår EIK har vi de siste årene satt mye av vår utvikling i et bedre
+system. Vi har hatt en god kultur i klubben, men ikke vært flinke nok til å
+forankre det skriftlig. Nå foreligger det en bedre og definert plan som alle trenere
+forholder seg til. Vi har vært dynamiske gjennom min rolle i
+spillerutviklingskomiteen i RFK til å tilnærme oss nye ting.
+2, Hva har dette arbeidet betydd og hva er de viktigste erfaringene/resultatene
+du tar med deg videre?
+Svar: Etter at jeg reiste til Chelsea i 2006 med Valon Berisha fikk vi et løft og jeg
+tok tak i mye nye ting. Det var det store vendepunktet for den jobben vi gjør i dag
+i klubben. Vi ble mer oppmerksomme på HVORFOR vi lykkes, og HVILKET midler
+vi tidligere hadde brukt. Når vi ble bedt om å være med på Cupfinaleseminaret i
+2009 for breddeklubbene og fortelle hvorfor vi har produsert så mange spillere
+til toppen var det en bekreftelse på at vi gjorde mye riktig.
+3, Kan du fortelle litt om spillerutvikling satsingen i klubben din pr i dag?
+Svar: I dag har vi på guttesiden Telenor X-tra FFO som vi driver mer som en
+akademi modell. Mandag og Fredag har vi 30 gutter av de som har kommet
+lengst. Tirsdag og Torsdag har vi 30 gutter som ikke har nådd like langt enda. På
+jentesiden starter vi opp nå 16.januar med 17 jenter. Videre har vi Tiger – lørdag
+som er et tiltak for de som vil litt mer. Vi har også økter tilrettelagt på kryss av
+alder og kjønn utenom. Vi er også en partner i Sunday League og vil starte opp
+med turneringer på søndager med oppblåsbare binger der en spiller 3v3. Utover
+dette har vi Viking akademiet på guttesiden der vi er i samarbeid med RFK og
+
+21
+
+Viking som samler de beste spillerne fra Flekkefjord i sør til Nærbø i nord. På
+jentesiden har vi et lignende samarbeid med Klepp.
+4, Hva er ditt inntrykk av samarbeide med dere lokale toppklubb? Hva kan evt bli
+bedre?
+Svar: Vi har siden 1.1.2008 vært en satellitt – klubb for Viking på guttesiden og
+vi føler det er et fruktbart samarbeid.
+1. Viking ønsket å etablere, i første omgang 3 regionale ”satelitter” i
+regionen Sør Rogaland. En i sørfylket, en i Ryfylke samt Vikings egen i
+Stavanger.
+2. Der ville Viking avholde ukentlig treninger for 20-25 av de ivrigste og
+beste spillerne i denne regionen, i alderen 12-16 år.
+3. Instruktørene på disse samlingene skulle være Viking sine egne elite
+trenere, i samarbeid med trenerne fra breddeklubbene i regionen.
+4. Spillernes trenere fra de ulike klubbene ble invitert til å observere/delta
+på øktene, dersom det var interesse for dette.
+5. Det skulle avholdes trenerseminar/ledeseminar i de samme ”satelittene”
+da et av Vikings klareste mål var å høyne trenerkompetansen, høyne
+statusen på det å være trener på aldersbestemte lag. God trenerutvikling
+er god spillerutvikling.
+5, Kan du fortelle litt om ditt syn på samarbeidet med dere fotballkrets?
+Svar: Gjennom mine år i SUK (spillerutviklingskomiteen) har vi også pleiet dette
+forholdet bra. Samlingene på satelitten er også et samarbeid med RFK og
+erstatter det som tidligere var sonesamlinger.
+6, Har din klubb etterspurt kompetanse fra den lokale toppklubb? Evt på hvilket
+områder?
+
+22
+
+Svar: Jeg er jevnlig innom Viking og høster erfaringer på fysisk trening,
+skadebehandling, nye trender, nye tanker osv osv.
+7, Hva mener du om tidlig utvelgelse av spillere internt i egen klubb og fra dere
+til deres lokale toppklubb? Fordeler og ulemper?
+Svar: Vi selekterer ikke i vår klubb i tidlig alder. Vi føler spillerne sin utvikling
+over tid. Dette er også en av hoved hensiktene med vårt satellitt – samarbeid at
+spillere er i vår klubb til vi evt ikke kan tilby de gode nok utfordringer. Da vil
+Viking overta spilleren, men ikke før tidligst når de starter på videregående
+skole.
+8, Har dere et samarbeid med en ungdomsskole eller vgs? Kan du evt utdype
+hvordan samarbeidet er?
+Svar: Vi har prøvd å etablere et samarbeid, men vi møter ikke den helt store
+begeistringen hos utgått – på – dato lærere
+9, Hvor mye fokus har dere på kvaliteten på deres trenere? Hvordan sikrer dere
+en god trenerstab?
+Svar: Vi har stor fokus på dette og vi har et motto at god trenerutvikling gir god
+spillerutvikling. Derfor holder jeg ofte NFF C-lisens kurs lokalt hos EIK, samt at vi
+har laget en intern trenerutdannelse som vi har kalt EIK – modulen. Modul E er
+obligatorisk for alle trenere og tar for seg holdninger og verdier som er basis i
+utdannelsen.
+
+23
+
+9.1.3 Bærum
+1, Kan du gi meg ditt syn på spillerutviklingsplanen i din klubb de siste 10 årene?
+Svar: Vi tok tak i vår spillerutvikling i 2008. Vi hadde hatt et problem over tid
+hvor de beste 14-15 åringene forlot klubben da vi ikke hadde noe system som
+ivaretok dem. Vi fikk et samarbeid med en videregående skole og vi fikk ryddet
+opp på A-laget slik at det ble plass til unge spillere fra junior avdelingen.
+Vi klarte raskt og lage et av Norges beste junior lag og vi var flinke til å flytte dem
+opp på A-laget for å gi de utfordringer. I 2011 så rykket vi opp fra 2 div med en
+stall som var 20.8 år i snitt og hvor 75% var produsert i egen klubb.
+Vi satte enkelt spilleren i fokus og bestemte oss for hvilket ferdigheter vi skulle
+ha ekstra fokus på. I dag har vi også klart og ansette 2 spillerutviklere så vi
+prøver hele tiden og forbedre oss
+I tillegg til dette så er vi veldig opptatt av hele mennesket og vi bruker mye tid og
+ressurser på at gutta våre skal ha et godt og balansert liv. Vi har ikke råd til å
+miste et eneste talent så de blir tatt godt vare på.
+I all hovedsak ble fokuset følgene:
+1. Enkeltspilleren i fokus
+2. Bestemte ferdigheter vi skulle BLI best på f.eks 1v1 off og def og
+pasningsspill.
+3. Hospitering ble satt i system
+4. Vi har fått økonomi til å ansette 2 spillerutviklere
+5. Trenerutdannelse. Trener 2 ble et krav for trenere fra smågutt. Trener 1
+for alle som hadde noe med trening å gjøre.
+
+24
+
+2, Hva har dette arbeidet betydd og hva er de viktigste erfaringene/resultatene
+du tar med deg videre?
+Svar: Vi har fått gode resultater på enkeltspillere og på lags nivå. Vi har siden
+oppstart produsert frem 5 landslagsspillere, vi har etablert et junior lag som er
+topp 10 i Norge og vi har et A-lag hvor 15 av spillerne er født på 90 tallet og
+produsert i egen klubb.
+Vi har en ”regel” innad i egen klubb som lyder som følger: man får ikke bedre
+spillere enn de man lager selv. Vi har ingen mulighet økonomisk til å hente
+spillere på det nivået som kreves for å etablere seg i Adeccoligaen, men vi har
+alle muligheter til å lage de selv.
+Dønski VGS med primus motor Bjørnar Sund har vært en meget viktig faktor til
+vår suksess da vi får en bedre oversikt og mulighet til å gi gutta våre en best
+mulig helhet i utviklingen sin.
+3, Kan du fortelle litt om spillerutvikling satsingen i klubben din år i dag?
+Svar: Vi ønsker en GUL tråd som alle jobber etter og for at ikke trenere i junior
+avdelingen skal føle at alt blir tredd nedover hodene deres så har vi staket ut
+noen absolutter som alle skal fokusere på. Vi SKAL lage de beste spillerne med
+1v1 ferdigheter i Norge, vi skal lage de BESTE pasningsspillerne i Norge og vi
+SKAL lage de beste spillerne i Norge i forhold til gjenvinning..Vi jobber
+selvfølgelig med resten av fotballspilleren også, men disse ferdighetene skal
+være vår spisskompetanse.
+I forhold til modellen på vårt arbeid så har vi et akademi som trener fra 14001600 på kadda. Her tar vi i mot barn både gutter og jenter fra 1.klasse til 5.klasse.
+Akademiet vårt er åpent for både Bærum SK spillere og spillere fra andre
+klubber.
+
+25
+
+Fra 1 års 11ér deler vi lagene våre i sats og bredde og de trener 5 økter i uken. Et
+sats lag har 1 hovedtrener, i assistent trener + en spillerutvikler.
+Som nevnt litt tidligere så er Dønski VGS en meget viktig faktor i vårt arbeid og vi
+jobber pr i dag med å få samme opplegg med en ungdomsskole.
+Vi er flinke til å hospitere, vi er flinke til å ta vare på hele menneske og vi er
+flinke til å gi unge spillere tillitt og tid når de blir flyttet oppover i systemet, noe
+vårt A-lag er et veldig godt bilde på.
+4, Hva er ditt inntrykk av samarbeidet med deres lokale toppklubb? Hva kan evt
+bli bedre?
+Svar: Vi har ikke noe samarbeid med vår lokale toppklubb som er Stabæk. Det
+har vært gjort flere forsøk på å få til et samarbeid uten at dette har lykkes.
+Stabæk sitt syn på samarbeid er at de skal ha spillerne i så ung alder som mulig
+og de mener at de er de eneste som kan ta seg av de beste. De har gjort et forsøk
+på å ”samle” Bærum noe som i disse dager også slår sprekker, men vi har stått på
+egne ben.
+
+5, Ditt syn på samarbeidet med deres fotballkrets?
+Svar: Samarbeidet med krets kan bli bedre. Vi har sone og krets tiltak men
+dialogen inn mot klubbene kunne vært bedre. I tillegg til dialog så ønsker jeg å se
+flere krets trenere ute i klubber spesielt for å se kamper slik at de får en bedre
+oversikt over spillerne der ute.
+6, Har din klubb etterspurt kompetanse fra den lokale toppklubb? Evt på hvilket
+områder?
+
+26
+
+Svar: Som nevnt er det ingen form for samarbeid så fra vår lokale toppklubb har
+vi ikke fått noe!!
+7, Hva mener du om tidlig utvelgelse av spillere internt i egen klubb og fra en
+lokal breddeklubb til toppklubb? Fordeler og ulemper?
+Svar: Tidlig utvelgelse er uheldig og noe vi ikke gjør. Alle spillerne får en god
+”grunnpakke”. De spillerne som utmerker seg på og utenfor banen trenger
+hospitering for å få den utviklingen man ønsker og der er vi gode i klubben min.
+Det er ytterst få spillere som blir flyttet opp permanent.
+8, Har dere samarbeid med en ungdomsskole eller VGS?
+Svar: Vi har samarbeid med Dønski videregående skole og dette er et meget
+fruktbart samarbeid. Primus motor er Bjørnar Sund og han er både trener og
+lærer på skolen. I tillegg til Bjørnar så jobber undertegnede der og vi har knyttet
+til oss en fysisk trener som heter Per Ivar Jaksland.
+Det er de samme trenerne som jobber med gutta fra kl 0800-1000 og på
+ettermiddagen. Dette gjør at vi får lagt et løp for gutta som individuelt passer for
+hver eneste en av de. I tillegg til dette så har vi full kontroll på hva de leverer og
+av og til ikke leverer på skolen. Vi er veldig opptatt av helheten til spilleren,
+fotball, skole, venner, familie osv ref 24 timers modellen og med Dønski VGS så
+får vi meget god kontroll på gutta våre.
+9, Hvor mye fokus har dere på kvaliteten på trenerne deres? Og hva legger du i
+en trener med kvalitet?
+Svar: Det å ha god kvalitet på våre trenere er noe vi har blitt mer og mer bevisst
+på de siste årene. Det er en kontinuerlig prosess å styrke vårt trener apparat og i
+januar 2013 var vi så heldig at vi kunne presentere 2 spillerutviklere til spillerne
+våre som jeg er helt sikker vil være med å heve kvaliteten på den jobben vi gjør
+ytterligere.
+
+27
+
+9.2 Breddeklubbene sin spisskompetanse:
+Breddeklubbene viser en imponerende stolthet i den jobben de gjør og det er en
+arbeidsvilje og arbeidsglede som er overveldene. De har ikke ressurser til å
+ansette veldig mange, men de er veldig dyktige til å ansette personer med den
+riktige kompetansen og ikke minst dyktig til å få folk til å bidra på frivillig basis.
+Breddeklubbene har satt spillerutvikling i system og det er ingenting som er
+overlatt til tilfeldigheter. Det er en meget grundig jobb som ligger i bunn hos alle
+klubbene.
+Med et så godt system og en så god struktur i sin spillerutviklingsplan så viser
+disse breddeklubbene at man fint kan lage toppspillere selv om A-laget ligger i 23 divisjon.
+Klubbene er veldig opptatt av å gi alle spillere den samme muligheten, de
+selekterer ikke i ung alder og de er meget forsiktig med å kalle noe permanent
+oppflytting. Dog, er hospitering flittig brukt i alle de 3 klubbene, noe som sier
+meg at de også er opptatt av å gi de beste utfordringer hele tiden. En felles
+utfordring er økonomi, dette er til en viss grad begrensende i deres arbeid. Når
+det er sagt så finnes det en kreativitet og stå på vilje som kompenserer dette i
+stor grad.
+Tar vi også innover oss at det er mennesker vi har med å gjøre, unge gutter som i
+tillegg til fotball skal finne sin plass her i verden så blir jobben som gjøres i
+breddeklubbene enda viktigere.
+Ved å få utfordringer i sitt lokale miljø tar man vare på de sosiale og /psyko
+sosiale ressursene hos spilleren som trygghet og trivsel. Dette er to faktorer som
+er viktig å ha med seg for å tørre å by på seg selv i en hver anledning. Det å få lov
+til å være den beste, prøve på ting som ikke helt sitter er en viktig faktor for god
+utvikling.
+28
+
+Når spilleren når en alder hvor klubbene føler det er riktig å løfte han opp på Alaget så vil en spiller som deltar på et 1 lag få meget nyttig erfaring i forhold til
+det å takle press, forventninger og krav i større grad enn det å delta på 2 laget til
+et Tippeliga lag hvor resultatet er mindre viktig. Det å få denne læringen i ung
+alder ser jeg på som meget nyttig og noe de vil få godt betalt for den dagen de tar
+steget opp i toppfotballen.
+
+9.3 Fellestrekk for breddeklubbene:
+1. Det er enkeltpersoner som legger ned en ekstrem mengde timer for at
+spillerne og klubben skal lykkes.
+2. Klubbene har veldig dyktige personer ”ansatt” i klubben
+3. Spillerutvikling er satt i system
+4. Alle klubbene er dyktige på hospitering, men meget forsiktige med
+permanent oppflytting.
+5. Ingen av klubbene selekterer i ung alder.
+6. Begrensede økonomiske ressurser.
+
+29
+
+9.4 Fotballkretsene
+9.4.1 Svar fra Sogn og Fjordane Fotballkrets
+1, Etter mange år som spillerutvikler, ser du noen trend de siste årene der unge
+spillere går tidligere til toppklubb i dag enn før? Hva er dine synspunkter på det?
+Svar: Det er mitt soleklare inntrykk at toppklubber henter spillere tidligere nå
+enn hva de gjorde for noen år siden. Jeg mener å se dette blant annet på uttak til
+Statoil akademiet og ikke minst aldersbestemte landslag der vi ser at på G15 og
+G16 så tilhører flere og flere av spillerne en toppklubb allerede.
+Mitt syn er at dette er en uheldig utvikling. For det første så utarmer det
+breddeklubbene slik at det blir færre gode utviklingsmiljø og dermed færre
+spillere og velge mellom når de blir eldre.
+2, Hva er din mening om tidlig utvelgelse (10-12 år) internt i en breddeklubb og
+fra breddeklubb til toppklubb?
+Svar: Dette er uheldig på alle måter. Det er ingenting som tyder på at det er
+samsvar mellom tidlig utvelgelse og de som ender opp som gode når de blir
+eldre. Den norske modellen bør være brest mulig så lenge som mulig – men med
+åpenbare differensieringsmuligheter innenfor dette. De beste/ivrigeste må få
+muligheten til å trene masse og ikke minst hospitere. Det å selektere så tidlig
+som 10-12 år er umulig. Som spillerutvikler i krets ville jeg aldri vurdert seriøst å
+selektere spillere i den alderen. Dette gjelder både internt i en breddeklubb og
+fra en breddeklubb til en toppklubb.
+3, Hva er ditt syn på hospitering internt i egen klubb? Når bør man begynne? Bør
+man være forsiktig med å kalle noe permanent oppflytting?
+Svar: Hospitering mener jeg kan benyttes mye oftere både i trening og i kamp, og
+det er et fantastisk virkemiddel i utviklingen av unge spillere. Det kreves dog god
+
+30
+
+kunnskap for å bli god på hospitering. Altfor mange hospiterer for
+hospiteringens skyld, og det er ender ofte med en permanent oppflytting uten at
+man har gjort en god nok vurdering av helheten. Permanent oppflytting er det
+samme som seleksjon og har ofte en motvirkende hensikt og bør bare unntaksvis
+brukes.
+Samtidig som det er viktig å få øvd seg på nivået over for de beste spillerne så er
+det også veldig viktig at de får øvd med jevnaldrene spillere. Dette ser jeg på som
+veldig viktig og selv jobber jeg utfra følgene modell. En spiller skal være 50% av
+tiden på det nivået han/hun hører hjemme ferdighetsmessig og
+modningsmessig, 25% av tiden skal han/hun være i et miljø der de er utenfor
+flytsonen – altså på nivået over – mens 25% av tiden skal tilbringes på et nivå
+der han/hun får være helt ”sjef”. Dette er en fin tommelfinger regel for å
+illustrere dynamikken i hospiteringstanken.
+Hospitering må brukes mye, men for de yngste tenker jeg at mengde er mye
+viktigere enn nivå.
+4, Hva er ditt syn på hospitering fra breddeklubb til toppklubb kontra permanent
+overgang i alderen 12-16 år?
+Svar: Denne type hospitering er LANGT å foretrekke fremfor permanent
+overgang. Begrunnelse: Vi beholder breddemiljøet lenger.
+5, Ser du noen fordeler av å være ”den beste” i en breddeklubb i forhold til
+oppfølging (det å bli satt) kontra det å være ”en i mengden” i en toppklubb?
+Svar: Ja, mange. Er du ”den beste” i en breddeklubb må du yte 110% i hver
+eneste kamp for at laget i det hele tatt skal ha en sjanse til å henge sammen. Er
+du ”en i mengden” på et elitelag på et elitelag i regi av en toppklubb, kan du
+kanskje slippe unna med å yte 70-80% og likevel vinner laget. Skjer det hyppig
+blir utviklingen deretter. Det er ingen dokumentasjon som tyder på at det å spille
+på ”gode” elitelag nødvendigvis fører til gode spillere. Tvert om.
+
+31
+
+6, Gjøres det tiltak internt hos dere (NFF) som jobber for at breddeklubbene skal
+få bedre kompetanse slik at spillerne skal kunne være lengst mulig i trygge
+omgivelser i egen klubb?
+Svar: Vi jobber kontinuerlig med kompetansetiltak rettet mot breddeklubbene,
+formell trenerutdanning, trenerforum, impulssamlinger osv osv.
+7, Når mener du at en spiller bør søke seg over til en toppklubb?
+Svar: To kriterier bør oppfylles:
+A, Når han er god nok for A-stallen
+B, At toppklubben har en plan for at han skal være i 11érn i løpert av 2 år. Er ikke
+disse kriterier på plass syntes jeg ikke spilleren skal hentes til en toppklubb.
+8, Føler du at toppklubbene i Norge verdsetter breddeklubbene (Ønsker å bidra
+med kompetanse og ressurser) eller føler du primært er opptatt av å få tak i
+spillerne så tidlig som mulig?
+Svar: Jeg føler ikke at de bidrar tilstrekkelig ut mot breddeklubbene – spesielt på
+kompetanse og referansebiten. Noen unntak er det men på et generelt grunnlag
+så har toppklubbene mye å gå på her.
+
+32
+
+9.4.2 Svar Fra Rogaland Fotballkrets
+1, Etter mange år som spillerutvikler, ser du noen trend de siste årene der unge
+spillere går tidligere til toppklubb i dag enn før? Hva er dine synspunkter på det?
+Svar: Jeg kan ikke si at jeg ser noen spesiell trend de siste årene på dette. Jeg
+føler at det er på en måte slik det alltid har vært. Spillerne går til toppklubb i ulik
+alder altså pga tilbud i egen klubb - nærhet til toppklubb. For min egen del så
+syntes jeg at spillerne kan være i sin klubb så lenge tilbudet er godt nok. Det er
+ingen hast med å gå til en toppklubb, spesielt vist reise/skole gjør dette
+komplisert og øker den totale belastningen betydelig.
+2, Hva er din mening om tidlig utvelgelse (10-12 år) internt i en breddeklubb og
+fra breddeklubb til toppklubb?
+Svar: Tidlig utvelgelse er en uting som gjør at de med størst potensiale på sikt
+kan falle utenom det å få muligheten til å nå toppen. Det finnes mange
+undersøkelser som viser at utviklingen skjer individuelt til ulik alder og at mange
+av de beste spillerne på toppnivå utviklet seg i en senere alder. Er det noe jeg har
+lært over tid så er det at det er umulig å se i 10-12 års alderen hvem som blir
+best til slutt.
+3, Hva er ditt syn på hospitering internt i egen klubb? Når bør man begynne? Bør
+man være forsiktig med å kalle noe permanent oppflytting?
+Svar: Hospitering er en viktig utviklingsarena for de spillerne som er kommet
+lengst til enhver tid/har potensiale/kan takle å trene med eldre spillere. Dette er
+det ikke noe problem å begynne med i tidlig alder (8-9 år).
+Permanent oppflytting er en større sak der en river opp miljø og spillere som bør
+trene/spille med sine kamerater spesielt i barnefotballen.
+
+33
+
+4, Hva er ditt syn på hospitering fra breddeklubb til toppklubb kontra permanent
+overgang i alderen 12-16 år?
+Svar: Hospitering til toppklubb kan være et godt tilbud for noen som ikke har
+godt nok tilbud i egen klubb – for å kjenne på nivået/trene med bedre spillere
+over tid, og det er en langt bedre løsning for mange enn å ta en permanent
+overgang.
+5, Ser du noen fordeler av å være ”den beste” i en breddeklubb i forhold til
+oppfølging (det å bli satt) kontra det å være ”en i mengden” i en toppklubb?
+Svar: Jeg har sett mange eksempler på at det å være best i en breddeklubb
+utvikler spillerne langt mer i 13-16 årsalderen enn det å bli en av mange i en
+toppklubb. Mulighetene og utfordringene er større i en breddeklubb og du må ta
+langt større ansvar på trening og kamp. Dette er utviklende både som spiller og
+menneske.
+6, Gjøres det tiltak internt hos dere (NFF) som jobber for at breddeklubbene skal
+få bedre kompetanse slik at spillerne skal kunne være lengst mulig i trygge
+omgivelser i egen klubb?
+Svar: Det gjøres mange tiltak på denne siden nå. Barnefotballkveld, utviklet
+bedre formelle trenerkurs samt treneruviklingskurs. Klubben som sjef som er et
+satsningsområdet for NFF skal gjøre klubbene bedre rustet til å ta vare på alle
+spillerne.
+7, Når mener du at en spiller bør søke seg over til en toppklubb?
+Svar: Individuelt basert på tilbud i klubb, men i de fleste tilfeller er det et
+naturlig veiskille ved overgang til videregående skole.
+
+34
+
+9, Føler du at toppklubbene i Norge verdsetter breddeklubbene (Ønsker å bidra
+med kompetanse og ressurser) eller føler du primært er opptatt av å få tak i
+spillerne så tidlig som mulig?
+Svar: Jeg føler at våre toppklubber (Rogaland) er genuint interessert i å
+samarbeide med breddeklubbene til det beste for fotballen i vårt distrikt. De gjør
+mye for å overføre kompetanse til breddeklubbene i samarbeid med fotballkrets.
+
+35
+
+9.4.3 SVAR FRA OSLO FOTBALLKRETS
+1, Etter mange år som spillerutvikler, ser du noen trend de siste årene der unge
+spillere går tidligere til toppklubb i dag enn før? Hva er dine synspunkter på det?
+Svar: Jeg startet i jobben i 2001. Hovedsakelig er det slik at tidspunkt for når
+spillere melder overgang fra breddeklubb til toppklubb, er helt individuelt (både
+i 2001 og i dag). Likevel har nok situasjon endret seg noe. I 2001 gikk mange
+spillere til toppklubb i 15-16 års alderen. På den tiden var ungdomsavdelingene
+til toppklubb ikke like godt strukturert som i dag. Toppklubbene kartlegger
+spillere mye tidligere enn i 2001, ned i 11-12års alderen. En del spillere går til
+toppklubb allerede i 12-13års alderen, men dette er avhengig av egen
+klubbhverdag. Spillere som spiller for et godt breddelag går ofte til toppklubb i
+14-15 års alder og noen spillere også senere.
+Det er naturlig at en del spillere går tidlig til toppklubb fordi oppleggene er langt
+bedre enn i klubben de spiller for. For de fleste spillerne vil det ikke være
+nødvendig eller lurt å gå tidlig (12-13 års alder) til toppklubb. Hvis de spiller i en
+breddeklubb som er bra drevet med godt utviklingsmiljø og gode
+hospiteringsordninger, kan dette i mange sammenhenger være bedre enn å gå til
+toppklubb. Min mening er at toppklubb henter for mange spillere i ung alder i
+forhold til hva de greier å ivareta. En del spillere vil bli en i mengden i toppklubb,
+mens i breddeklubben vil han bli prioritert og flyttet oppover. F.eks har vi nå en
+spiller som snart er 15 år som er i 2. div klubb (senior). Han spiller på juniorlaget
+og har en god trenings- og kamparena. Spilleren vil til tippeligaklubb.
+Utfordringen der er at han vil kun spille guttefotball og dermed få en både
+dårligere trenings- og kamparena, men kanskje noen flere organiserte treninger
+per uke.
+2, Hva er din mening om tidlig utvelgelse (10-12 år) internt i en breddeklubb og
+fra breddeklubb til toppklubb?
+Svar: Det er mange faktorer som spiller inn i forhold til overgang fra bredde- til
+toppklubb.
+
+36
+
+Totalbelastning, sosiale faktorer, geografi osv. er faktorer som må vurderes. Man
+må også vurdere om spilleren har optimale muligheter for utvikling i den
+klubben han er eller om toppklubben vil gi bedre utviklingsmuligheter. Mitt
+generelle svar er at toppklubb ikke aktivt burde rekruttere spillere i 10-12 års
+alder, men kan finnes unntak fra dette.
+Internt i breddeklubb er differensiering viktig allerede fra spillerne begynner
+med fotball. Dette bør hovedsakelig gjøres internt på trening (som heter
+pedagogisk differensiering) med forskjellig vanskelighetsgrad på øvelser,
+spillere deles inn etter ferdigheter i øvelser eller spill. MEN dette skal ikke være
+statiske grupper. Og spillerne bør så langt det er mulig trene sammen på banen.
+
+3, Hva er ditt syn på hospitering internt i egen klubb? Når bør man begynne? Bør
+man være forsiktig med å kalle noe permanent oppflytting?
+Svar: Hospitering internt i klubb er svært viktig og en viktig forutsetning for å gi
+spillerne best mulig utviklingsmuligheter. Jeg mener vi i Norge tar for mye
+utgangspunkt i alder og burde heller legge mer til rette ut fra spillerens
+biologiske alder. Dette innebærer å ta hensyn til spillerens utvikling både fysisk
+og mentalt. Dette innebærer bedre individuell til pasning for hva den enkelte
+spilleren skal trene på og på hvilket nivå (hvilke spillere) dette bør foregå
+sammen med. Hospitering kan begynne tidlig, men må vurderes ut fra det jeg har
+skrevet tidligere (biologisk alder, sosiale faktorer, modning…osv),
+
+Hvorvidt spillere skal flyttes permanent opp i alder må vurderes i de enkelte
+tilfelle ut fra samme kriterier som nevnt i forrige avsnitt. Det vil nok være
+unntaksvis at spillere bør flyttes opp permanent, men for noen vil det være riktig
+både ferdighetsmessig, modningsmessig og sosialt. For de fleste vil det ikke være
+riktig.
+
+37
+
+4, Hva er ditt syn på hospitering fra breddeklubb til toppklubb kontra permanent
+overgang i alderen 12-16 år?
+Svar: Dette spørsmålet finnes det ikke noe entydig svar på. De beste spillerne (de
+man tror blir best på sikt) skal havne i toppklubb. Om dette er når spillerne er 12
+år, 15 år eller 21 år er veldig individuelt og vil også variere fra sted til sted, klubb
+til klubb. Toppklubb burde nok i langt større grad få til hospiteringsordninger
+med breddeklubb enn hva som er tilfelle. I mange tilfeller vil det gi spilleren gode
+utviklingsmuligheter samtidig som den kan fortsette å spille i lokalmiljøet med
+de fordeler det har.
+5, Ser du noen fordeler av å være ”den beste” i en breddeklubb i forhold til
+oppfølging (det å bli satt) kontra det å være ”en i mengden” i en toppklubb?
+Svar: Ledende spørsmål, men likevel viktig. Dette er et av de områdene vi prøver
+å få toppklubb til å bli mer bevisste på. I mange tilfeller blir spillere en i mengde i
+toppklubb. Mange av disse spillerne kunne vært mer prioriterte spillere i en
+breddeklubb hvor de fikk bedre muligheter til hospitering og dermed bedre
+trenings- og kamparena. Det krever en godt organisert breddeklubb med god
+oppfølging fra trenere. Svaret er likevel ikke så enkelt. De spillerne som bli
+prioriterte i toppklubb vil en overgang dit være bra. Er også stor forskjell på
+kvalitet i breddeklubber (gjerne også mellom årganger). Er du på et dårlig lag
+med kanskje dårlig trener i breddeklubb, er det ganske sikkert best å skifte
+klubb.
+
+6, Gjøres det tiltak internt hos dere (NFF) som jobber for at breddeklubbene skal
+få bedre kompetanse slik at spillerne skal kunne være lengst mulig i trygge
+omgivelser i egen klubb?
+Svar: Det gjøres en del tiltak. Det viktigste er utdanningstiltak med blant annet
+utdanningspakker. Alle klubber bør ha trenerutvikler/koordninator både i
+
+38
+
+barne- og ungdomsfotballen. Alle trenere i barnefotball bør ha trenerkurs, noe vi
+kjører mye av.
+For et år hadde vi møte med alle 2. og 3. div. klubber i Oslo Fotballkrets hvor vi
+ønsket å følge opp disse for å skape bedre kvalitet i barne- og ungdomsfotballen.
+I ettertid var det ingen klubber som responderte. Det vitner om at interessen
+eller det å legge ned innsats for å utvikle seg videre, ikke er veldig tilstede hos
+breddeklubbene.
+Gjennom kretslag og oppfølging av de beste spillerne, prøver vi å hjelpe spillerne
+i sitt klubbmiljø. Dette vil i noen sammenhenger bidra til at spillerne kan være
+lenger i breddeklubben.
+
+8, Når mener du at en spiller bør søke seg over til en toppklubb?
+Svar: Dette er helt individuelt og kan variere fra tidlig alder til spilleren er over
+20 år.. Spillere bør gå til toppklubb (eller annen breddeklubb) hvis
+utviklingsmulighetene vil være bedre der og totalbelastningen (reise, sosiale
+osv) ikke blir vesentlig høyere. Før spillere går til toppklubb bør det være
+utprøvd hvordan mulighetene er i egen klubb for hospitering eller ekstern
+hospitering.
+
+9, Føler du at toppklubbene i Norge verdsetter breddeklubbene (Ønsker å bidra
+med kompetanse og ressurser) eller føler du primært er opptatt av å få tak i
+spillerne så tidlig som mulig?
+Svar: Dette varierer nok mye rundt om i landet. Klubbene i Oslo-området har
+bidratt noe til breddeklubbene med trenerforum, kurs og liknende.
+Jeg mener uansett at toppklubbene burde brukt mye mer ressurser på å bidra
+med kompetanse til breddeklubbene. Toppklubb har mulighet gjennom penger
+fra norsk toppfotball å sette av midler til stilling som kunne jobbet ut mot
+
+39
+
+breddeklubb. De velger å bruke disse pengene internt. På lang sikt vil en tett
+jobbing med breddeklubbene trolig gitt bedre spillere i området, men det virker
+ikke som toppklubb tenker så langsiktig. Slik sett kan jeg vel svare at de
+prioriterer heller å få spillere inn til seg enn å jobbe aktivt ut mot breddeklubb.
+Jeg mener de burde gjøre begge deler med mye mer bidrag ut mot breddeklubb
+enn hva tilfelle er nå.
+
+9.5 Spillerutvikler i krets sitt syn på spillerutvikling i breddeklubbene:
+Spillerutviklere i krets er opptatt av at breddeklubbene legger til rette for god
+utvikling innad i egen klubb, at spillerutvikling er satt i system og at de til en
+hver tid er opptatt av å gi spillerne utfordringer på riktig nivå. Dette mener
+spillerutviklerne vil gjøre at de beste spillerne blir lenger i sin egen klubb noe
+som gir dem mulighet til å utvikle seg i trygge rammer samt at det holder gode
+utviklingsmiljøer gående lenger. Det og holde gode lokale miljøer gående er helt
+essensielt for å gi resten av gruppen muligheten til å utvikle seg. Som jeg skrev
+om tidligere i oppgaven så vil den fysiologiske utviklingen på spillere i vekst
+variere veldig og blir de lokale miljøene ødelagt så kan vi med stor sannsynlighet
+gå glipp av kommende toppspillere.
+Spillerutvikler i krets er veldig opptatt av samarbeidet mellom toppklubben og
+breddeklubbene rundt. De ønsker mer involvering fra toppklubb i form av
+kompetanse overføring, hospitering, samling av de beste spillerne i regionen til
+trening med trenere fra toppklubb og trenerutveksling som gode eksempler.
+Det er en enighet blant spillerutviklere i krets at det viktigste ved overgang til
+toppklubb er timing. Dette vil være litt individuelt, men en liten regel kan være
+når spilleren er god nok for A-stallen til toppklubben.
+Gjennom mitt arbeid med denne oppgaven så har jeg blitt spesielt imponert over
+Rogaland som jeg oppfatter som en foregangskrets/region med Viking som
+flaggskip. Det er ingen tvil om hvor de beste spillerne skal ende opp til slutt, men
+40
+
+mye av spillerutviklingen skjer ute i breddeklubbene med en stram regi fra
+Viking og god hjelp fra satelittklubbene.
+
+9.6 Fellestrekk for fotballkretsene:
+1. Alle 3 kretsene mener at unge spillere skal holde seg i breddeklubbene så
+lenge det er lagt til rette for god utvikling
+2. Alle 3 mener at en god hospiteringsordning innad i egen klubb er et viktig
+element for god utvikling
+3. Alle 3 er i mot selektering i ung alder
+4. Alle 3 mener at hospitering med en toppklubb er bedre enn en permanent
+flytting
+5. Alle 3 mener det er en unik læring av å være best i egen klubb kontra det
+å hele tiden være en i mengden
+
+41
+
+9.7 SPILLERE
+9.7.1 Spiller 1
+1, Hvor mye fotball spilte du i barnefotballen (5-11 år)
+Svar: MYE! Jeg ”misbrukte” bingen i Torshovdalen, ved alle
+anledninger/friminutt på skolen og ofte til 10 på kvelden etter skolen. Mamma
+og Pappa måtte ofte rope meg inn for at jeg i det hele tatt skulle få i meg
+middag
+2, Hvor gammel var du når du bestemte deg/skjønte at du ville bli toppspiller?
+Svar: Det ble et skille i 15-16 års alderen. Litt mer seriøst og det ble litt mer
+konkurranse preg over fotballen. Enten så satset du fordi du skjønte eller du
+hadde trua på å bli god, eller så fikk du deg dame og dro på fjellet i helgene. I
+helgene fikk vi trent 2 økter i -10 mens gutta koste seg på hytta
+3, Hvor gammel var du når det ble mer fokus på spesifikke ferdigheter enn bare
+lek med ball når du drev egentrening?
+Svar: Egentlig aldri, bingen har alltid vært lek. Men når jeg tenker meg godt om
+så var det ekstremt mye 2v2, 3v3 både Off og Def. I tillegg til det var det mye 1v1
+og skudd trening, en øvelse hvor du får øvd masse på avslutninger. Hold på
+masse med denne typen trening opp gjennom ungdomsårene.
+4, Hvordan var hospiteringsordningen i din klubb?
+Svar: Meget bra. Skeid var aldri redde for å gi deg sjansen på neste nivå. Jeg gikk
+fra Jr2 til A-laget i løpet av 1 år. Mye av æren for det skal filosofien til Alagstrener ha. Kjell Sverre var aldri redd for å gi deg sjansen, du fikk tid og tillitt.
+5, Var det et godt samarbeid mellom din lokale klubb og den lokale toppklubb.
+
+42
+
+Svar: Nei, ikke i det hele tatt. Det eksisterte ikke noe samarbeid mellom Skeid og
+VIF. Det virket som alle unggutta ville til skeid på den tiden, og at VIF ikke fulgte
+med i timen. De hadde ikke oversikten over lokale talenter men de hadde gjerne
+god kontroll på U-landslagsspillere.
+6, Hva mener du må til for at breddeklubbene skal kunne produsere flere spillere
+som når TL/internasjonalt nivå?
+Svar: Igjen, litt på økonomi men vel så mye på prioriteringer. Jeg syntes første
+bud er at man må ha gode trenere på alle nivåer. Foreldre gjør absolutt ingen
+dårlig jobb, men det vil hjelpe veldig med kompetente og gode trenere som har
+gått en god skole. At klubben har en visjon og plan om at de skal hele tiden slippe
+til unge spillere.
+7, Husker du noen spesielle skader du hadde i alderen 10-18 år. Visst ja, hvordan
+påvirket dette din utvikling?
+Svar: Jeg hadde en veldig kjip kneskade som 17 åring. Jeg var ute lenge, og jeg
+føler vel at den satt meg litt tilbake. På den andre siden så var det en viktig
+mental test for meg så jeg føler jeg kom styrket ut av det også.
+8, Hva har hatt størst betydning for deg for at du tok steget inn på
+aldersbestemte landslag.
+Svar: Det var vel egentlig ganske tilfeldig. Jeg har aldri vært noen gjenganger på
+kretslag. Det var mer at jeg spilte noen kamper i 1.div og noen kontakter pushet
+litt på for å få deg inn. For min del føltes det mer tilfeldig enn planlagt.
+9, Hva har deltagelse på aldersbestemte landslag hatt å si for din utvikling?
+
+43
+
+Svar: I veldig liten grad. Jeg har kun 8-9 U-landskamper. Jeg fikk kjenne litt på
+annen motstand og en annen type fotball, men det har ikke hatt noe nevneverdig
+betydning for utviklingen min.
+10, Etter x antall landskamper, er det noen ferdigheter du ser at norske spillere
+mangler kontra de beste ute i Europa?
+Svar: Først og fremst orienteringsevne og ballbehandling. De beste i Europa har
+veldig god touch på ballen, de spiller på 1 og 2 og de har alltid orientert seg før
+de får ballen.
+11, Hvordan oppfølging har du fått opp i gjennom årene av mor og far?
+Svar: Jeg vil si at det har vært en nøytral oppfølging. De har hele tiden skjønt at
+fotball var ”alt for meg” og jeg har fått drive med det så mye jeg vil. De har vært
+positive hele veien uten at de har langt seg opp i hvordan jeg har spilt, hvor
+mange mål jeg har scoret osv.
+12, Hvor gammel var du når du gikk fra din lokale klubb og over til en
+toppklubb?
+Svar: Jeg gikk fra Skeid til VIF januar 2008, da var jeg 22 år gammel.
+
+44
+
+9.7.2 Spiller 2
+1, Hvor mye fotball spilte du i barnefotballen (5-11 år)
+Svar: Jeg spilte så mye som over hode mulig, hver eneste dag.
+2, Hvor gammel var du når du bestemte deg/skjønte at du ville bli toppspiller?
+Svar: Jeg var vel rundt 11-12 år når jeg skjønte at jeg hadde et talent og vilje til å
+bli god som gikk litt utenpå de fleste av mine lagkamerater.
+3, Hvor gammel var du når det ble mer fokus på spesifikke ferdigheter enn bare
+lek med ball når du drev egentrening?
+Svar: Jeg var vel rundt 13 år nåe jeg ble mer bevisst på hvilket ferdigheter jeg
+burde trene på når jeg drev egntrening.
+4, Hvordan var hospiteringsordningen i din klubb?
+Svar: Den var ganske bra, fra jeg var 14 år så fikk jeg hospitere med A-laget til
+Jotun, noe som gjorde at jeg fikk mange nye utfordringer og utviklet med som
+fotballspiller
+5, Var det et godt samarbeid mellom din lokale klubb og den lokale toppklubb.
+Svar: Samarbeidet mellom Jotun og Sogndal var totalt fraværende når jeg vokste
+opp. Slik jeg skjønner det nå så har dette bedret seg en god del.
+6, Hva mener du må til for at breddeklubbene skal kunne produsere flere spillere
+som når TL/internasjonalt nivå?
+Svar: Vi må trene mer og det må være mulighet til å trene mer (banekapasitet).
+Dette kan f.eks gjøres med å organisere morgenøkter før barn og unge skal på
+skolen. Der bør fokus være på individuelle ferdigheter.
+45
+
+7, Husker du noen spesielle skader du hadde i alderen 10-18 år. Visst ja, hvordan
+påvirket dette din utvikling?
+Svar: Jeg har vært veldig heldig og jeg har ikke hatt noen skadr av betydning i
+oppveksten
+8, Hva har hatt størst betydning for deg for at du tok steget inn på
+aldersbestemte landslag.
+Svar: At jeg ble satset på i egen klubb i ung alder og fikk spille 2 div fra jeg var 17
+år.
+9, Hva har deltagelse på aldersbestemte landslag hatt å si for din utvikling?
+Svar: Det har vært en veldig viktig motivasjon for meg. Det at jeg var en del av
+aldersbestemte landslag fikk meg til å jobbe enda hardere og være enda mer
+fokusert.
+10, Etter x antall landskamper, er det noen ferdigheter du ser at norske spillere
+mangler kontra de beste ute i Europa?
+Svar: Individuelle ferdigheter
+11, Hvordan oppfølging har du fått opp i gjennom årene av mor og far?
+Svar: De har alltid støttet meg og hvert med på nesten alt jeg har spilt siden jeg
+var 6 år.
+12, Hvor gammel var du når du gikk fra din lokale klubb og over til en
+toppklubb?
+Svar: Jeg var 19 år
+
+46
+
+9.7.3 Spiller 3
+1, Hvor mye fotball spilte du i barnefotballen (5-11 år)
+Svar: Hver eneste dag, fotball var det jeg drev med.
+2, Hvor gammel var du når du bestemte deg/skjønte at du ville bli toppspiller?
+Svar: Jeg hadde vel en drøm om å bli toppspiller siden jeg var en liten gutt, men
+jeg forstod det vel ikke helt før Molde kom på banen når jeg var 19 år.
+3, Hvor gammel var du når det ble mer fokus på spesifikke ferdigheter enn bare
+lek med ball når du drev egentrening?
+Svar: Det var stort sett lek med ball med og uten kompiser veldig lenge. Jeg ble
+dog litt mer bevisst på hva jeg burde trene på når jeg ble tatt opp i A-stallen til
+Kil/Hemne som 16 åring.
+4, Hvordan var hospiteringsordningen i din klubb?
+Svar: Den var bra. Vi hadde ikke egne spillerutviklere som styrte dette men det
+ble bare en naturlig ordning at man spilte for de som var eldre så lenge man var
+god nok. Dett gjorde at jeg fikk mange nye utfordringer og utviklet med som
+fotballspiller
+
+5, Var det et godt samarbeid mellom din lokale klubb og den lokale toppklubb?
+Svar: Ja, samarbeidet var veldig bra, noe det fortsatt er. RBK som er den lokale
+toppklubben holder fortsatt fotballskoler og treninger sammen med Kil/Hemne.
+Etter som årene har gått så har også Molde knyttet et tett samarbeid så unge
+spillere i Kil/Hemne har alle muligheter til å bli gode.
+
+47
+
+6, Hva mener du må til for at breddeklubbene skal kunne produsere flere spillere
+som når TL/internasjonalt nivå?
+Svar: Det viktigste er å ha anlegg/bane tilgjengelig for alle barn som måtte ønske
+å spille fotball. Små fotball binger er også et meget godt tilskudd.
+Kunstgressbanen på Kil/Hemne var mitt andre hjem og har hjulpet meg langt på
+veien til å nå fotballdrømmen. UTDYP!!!!
+7, Husker du noen spesielle skader du hadde i alderen 10-18 år. Visst ja, hvordan
+påvirket dette din utvikling?
+Svar: Jeg har vært heldig med skader, men jeg har hatt en kneskade som holdt
+meg utenfor fotballen i 2-3 måneder. Utenom dette har det bare vært noen små
+overtråkk og andre småting. Med så lite skader i denne alderen så vil jeg ikke si
+at skader har satt noen hindringer i veien for min utvikling.
+
+8, Hva har hatt størst betydning for deg for at du tok steget inn på
+aldersbestemte landslag.
+Svar: Uten tvil overgangen til Molde. Der har jeg fått vist at jeg holder et godt
+nivå og det er selvfølgelig mye enklere å bli lagt merke til. I tillegg så kom jeg inn
+i en helt ny treningshverdag som løftet spillet mitt veldig.
+9, Hva har deltagelse på aldersbestemte landslag hatt å si for din utvikling?
+Svar: Jeg har fått kjent på nivået i Europa og møtt de beste spillerne i samme
+aldersgruppe. Møter man de beste over tid både hjemme i Molde og ute i Europa
+med landslaget så får du den beste utviklingsarena og dette har hjulpet meg mye.
+10, Etter x antall landskamper, er det noen ferdigheter du ser at norske spillere
+mangler kontra de beste ute i Europa?
+
+48
+
+Svar: Nei, egentlig ikke. Jeg har spilt U21 og på A-landslaget og jeg føler vi gir alle
+lag veldig god motstand. Mulig vi henger litt etter på den tekniske biten men jeg
+føler vi som nasjon stadig tar steg i riktig retning der også.
+11, Hvordan oppfølging har du fått opp i gjennom årene av mor og far?
+Svar: Jeg har alltid fått veldig god støtte av begge. Far er veldig ivrig og må få
+med seg alt men dette har stort sett bare vært positivt. Han har aldri stilt noen
+krav, bare latt meg ha det gøy å spille fotball til sent på kveld
+12, Hvor gammel var du når du gikk fra din lokale klubb og over til en
+toppklubb?
+Svar: Jeg var 19 år gammel.
+
+49
+
+9.8 Spillernes vei til toppen:
+Det er ett fellestrekk ved disse spillerne som ikke er til å komme bort i fra. Det
+viktigste punktet som jeg tror alle som leser denne oppgaven er enig med meg i
+og som ikke har noe med hvor i landet du vokser opp eller hvilken klubb du
+kommer fra er at alle sammen har spilt ekstremt mye fotball i sine barne og
+ungdomsår. Fotball har vært livet og de har trent veldig mye mer enn det som er
+lagt opp av fellestreninger.
+Spillerne i denne oppgaven har alle vært i breddeklubben sin frem til de var gode
+nok for A-stallen til den lokale toppklubben og har i så måte fått det meste av sin
+fotballutdanning lokalt.
+De har blitt tatt godt vare på, de har til en hver tid fått gode utfordringer som er
+tilpasset deres nivå gjennom strukturert og litt mer tilfeldig hospitering.
+Spillerne har følt at de har vært viktig, at de har blitt tatt godt vare på både
+sosialt og sportslig.
+Om det har vært en trener ansatt av klubben eller om det har vært en dyktig
+pappa som har jobbet på frivillig basis så har alle tre fått god veiledning og god
+trening i barne og ungdomsårene. Det med å bruke ressurser på gode trenere
+peker alle tre på som helt essensielt for at man skal klare og utvikle gode spillere.
+
+9.9 Fellestrekk for spillerne:
+1. De spilte veldig mye fotball når de var i barne og ungdomsårene
+2. De var lenge i breddeklubb før de tok steget videre
+3. Når de tok steget til en toppklubb så gikk de rett inn i A-stallen
+4. Alle 3 mener at banekapasitet og tilrettelegging (Gode trenere) er viktig
+for at man skal kunne utvikle seg til toppspiller i en breddeklubb.
+5. Det var en god struktur for hospitering, spillerne fikk delta på et tilpasset
+nivå uavhengig av alder.
+50
+
+10.
+
+Konklusjon
+
+I denne oppgaven så har breddeklubbene vært i fokus og jeg har sett nærmere på
+deres evner som en spillerutviklerklubb. Jeg har sett det fra breddeklubbene sin
+side, spillerne sin side og fra spillerutvikler i krets sin side.
+Det som kommer tydelig frem som suksesskriterier er at de valgte klubber har
+satt spillerutvikling i et godt system. Klubbene er dyktige til å favne over alle,
+ingen selektering i ung alder. Dog er det gode hospiteringsordninger noe som
+alle informanter mener er en viktig faktor i den norske
+spillerutviklingsmodellen.
+Hospitering ut i toppklubb kontra permanent overgang blir også sett på som den
+beste formen for påfyll både fra breddeklubbene og spillerutvikler i krets. Dette
+vil gavne den gitte spiller, men også resten av hans breddemiljø med de
+referanser han kommer tilbake med.
+Breddeklubbene er dyktige på og ”ansette” trenere som legger hele sjela si for at
+spillerne skal lykkes. De er dyktig fotballfaglig og de er dyktig til å ta vare på hele
+mennesket. Breddeklubbene har ingen talenter ”å miste” og gjør alt de kan for å
+tilrettelegge for en best mulig utvikling.
+Det er en felles utfordring på økonomi, men som nevnt tidligere i oppgaven så
+kompenseres dette i stor grad på kreativitet og frivillighet.
+Både spillere og spillerutviklere i krets ser en stor fordel av å få lov til å være
+best i en breddeklubb. Du lærer deg tidlig og ta ansvar for deg selv og de rundt
+deg
+Ved å gå gradene i en breddeklubb hvor du da til slutt i relativt ung alder spiller
+på A-laget (1.laget), er en unik erfaring i forhold til det å lære seg å takle press,
+viktigheten av poeng, det betyr noe for et helt lokalsamfunn kontra det å delta på
+et 2.lag til en tippeligaklubb.
+
+51
+
+Hovedpoenget vi skal ta med oss fra de spillerne jeg har snakket med i denne
+oppgaven er at antall timer trening i ung alder er særdeles viktig. Lek med ball,
+uorganisert spill på ”løkka” og kjærligheten til spillet er hovedgrunnen til deres
+suksess. For å gjøre dette mulig så peker de på anlegg, dette trenger ikke å være
+store kunstgressbaner, det kan like gjerne være en liten ”binge” på Oslo´s
+østkant.
+Spillerne peker også på verdien av gode trenere og tett oppfølging samt
+muligheten til å få utfordringer på det ”riktige” nivået.
+
+10.1 ”Timing is everything”
+Det er stor enighet om at de beste til slutt skal ende opp i den lokale toppklubb
+og alle er enig om det er viktig med god timing. Når er riktig tidspunkt er det vel
+ingen eksakt viten om, men når du er god nok for A-stallen til den lokale
+toppklubb og de har en mening med å hente deg virker som å være riktig
+tidspunkt.
+
+10.2 Hva kan toppklubbene bidra med til sine lokale klubber?
+Toppklubbene kan bidra med kompetanse ut til breddeklubbene. Med
+kompetanse så mener jeg trener kompetanse både i form av å holde egne
+treninger på feltet men like mye overføre kompetanse til breddeklubbene. De
+bør være åpne for hospitering mellom toppklubb og breddeklubb og ikke minst
+holde felles treninger for de beste/ivrigste i sitt lokalmiljø. Nok en gang ønsker
+jeg å nevne Rogaland hvor Viking er toppklubben som et eksempel jeg har funnet
+veldig interessant og som jeg personlig ønsker å lære mer om.
+I tillegg så etterspør breddeklubbene kompetanse på fysisk trening/behandling
+og videoanalyse.
+
+52
+
+Jeg vet at det ikke er rom for noe bombastiske slutninger her da utvalget av
+informanter blir for lite men jeg føler jeg ser en klar tendens. Hadde
+toppklubbene og breddeklubbene satt seg ned sammen og det hadde vært rom
+for en felles meningsutveksling for hva som er best for vårt lokalmiljø i forhold til
+spillerutvikling så tror jeg alle hadde tjent på dette. Dette være seg spillerne,
+toppklubbene og breddeklubbene og til slutt Norge som fotball nasjon.
+
+53
+
+11.
+
+Referanser
+
+Halvorsen, Knut, 1993: Å forske på samfunnet – en innføring i
+samfunnsvitenskapelig metode, Bedriftsøkonomens forlag A/S, Oslo
+Dalland, Olav, 2000: Metode og oppgaveskriving for studenter
+Pensgaard, A.M& Høgmo, P – M 2004. Mental trening I football
+Bergo, A., Johansen, P.A., Larsen, Ø. & Morisbak, A. 2002. Ferdighetsutvikling i
+fotball – handlingsvalg og handling. Akilles
+
+Hallén, J. (red). 2008. Fysisk trening i toppfotballen. Akilles
+
+Norges Fotballforbund (2009) ”Bestemmelse vedrørende lokalt utviklede spillere
+(LUS) Rundskriv nr. 02/08
+
+NFF- Temahefte ”Spillerutvikling i et helhetlig perspektiv”
+
+Johansen, Pål Arne og Espen Olafsen 2010: verdens beste spillerutviklingsmiljøer,Fotballtreneren nr.4
+
+Handlingsplan, Norges Fotball Forbund 2012-2015:
+http://www.fotball.no/Documents/PDF/2012/NFF/Handlingsplan20122015_WEB_enkel.pdf
+
+NFF svikter ikke barnefotballen: http://www.fotball.no/Utdanning-ogkompetanse/Fagartikler/Barn-og-ungdom/2009/NFF-svikter-ikke-barnefotballen/
+
+Norges Fotballforbund Spillerutvikling
+http://www.fotball.no/Landslag_og_toppfotball/spillerutvikling/
+
+54
+
+

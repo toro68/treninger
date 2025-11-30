@@ -1,0 +1,2833 @@
+NORWEGIAN FOOTBALL FEDERATION
+
+U E FA A L I C E N C E
+THE ROLE OF THE WINGER - FROM THE
+NUMBERS TO THE TRAIN ING GROUND
+
+HUGO CARLOS PEREIRA
+O S L O, 2 0 1 4 - 2 0 1 5
+
+Summary
+There is a different level of reflection that arises from the study of the numbers. As the football game
+structure becomes clearer and more defined in a theoretical point of view (will we ever understand
+its complexity?), the quest for the algorithms that could give us a better control over the outcome
+becomes more intense. The Norwegian Centre of Football Excellence has been working in the report
+Kompetansekrav i Rolle. Such report has been providing the clubs and coaches’ with an insight on top
+team and top players performances in the most high rated football competitions (Champions League,
+World Cup and European Championship). A large amount of match videos have been analyzed,
+discussed and dissected into the most pragmatic information possible. In Kompetansekrav i Rolle a
+vast and multi-faceted set of resources and references are integrated in an overview of each player
+position on the pitch, their role definition and specific competence. We decided to have the winger
+as the object of our study and analysis. The wingers are a cultural trait in Portuguese football. There
+are some characteristics in the role of the winger that provide that immediate rush of emotion when
+they are in the center of the game, reason why the role of the winger is one of the most exciting
+objects of study that we can choose in the modern football context. To add up, the playing style from
+Rosenborg has been established particularly during the ninety’s when the club knew his best period
+in national and international competitions. The system of play hasn’t met any considerable changes
+since then. At the moment, the club has adopted a bak til røttene trend and this has repercussions at
+all the levels in the club. Naturally, it goes through the development of players in the youth system
+as well as player recruitment. Our expectation was that this report could have a contribution to
+strengthen the concepts and the practices designed for the development and recruitment of the
+young players that not only perform the role of the winger, but as to many other positions and roles.
+There is a time and place for different learning styles. Many factors such as the players’ level of
+expertise, their training age, playing level will affect the approach taken. Still, the methods used in
+every coaching course and coaching sessions rely deeply in the explicit learning style and at first, this
+appears the logical approach as it provides a methodical approach to teaching and subsequently
+checking for understanding or learning by the player. Giving rules to follow prior to and during
+practices or games and questioning afterwards are explicit methods that we regularly have
+acknowledged. There are an increasing number of coaching methods being developed to use implicit
+learning techniques such as Constraints Based Coaching and Teaching Games for Understanding, but
+coaches need to understand the reasoning behind these methods. We include the theme of implicit
+learning and non-linear pedagogy to attempt to present a way to approach training apart from the
+“conventional way”.
+This report is divided in five chapters. To better define the limits of this study it was important to
+approach the concepts that were going to be discussed. Therefore, at first we have worked on the
+concepts of implicit and explicit learning, non-linear pedagogy, as well as which elements should we
+consider when we are designing and planning games or exercises in football. Secondly we have
+focused on our problem definition and research questions. Two objectives were defined for this
+report: a) to translate the information provided by NCFE to a pragmatic training approach on the
+pitch; b) through the processing of the previous point, create and organize conditioned games that
+could enhance incidental (implicit) learning in the wingers. We have focused on the information that
+has been collected and analyzed by TFS in reference to the project Kompetansekrav i rolle, and we
+dissected it and created a matrix of conditioned games to achieve the reference attributes for the
+winger. To conclude this report we discussed its end product and reviewed the limitations of this
+study. We concluded with the evaluation of the whole process of its writing and we have drawn our
+expectations on the impact of this study for the coaches’ practice.
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Table of Contents
+I.
+
+Introduction.................................................................................................................................................... 4
+A)
+
+Why should we look for (and to) the numbers in football? ....................................................................... 5
+
+B)
+
+The Winger ................................................................................................................................................. 6
+
+C)
+
+Data collection and the Norwegian Centre of Football Excellence ............................................................ 6
+
+D)
+
+Implicit learning and non-linear pedagogy ................................................................................................ 7
+
+E)
+
+The objectives and the structure of the report ......................................................................................... 8
+
+II.
+
+Conceptual framework ................................................................................................................................... 9
+A)
+
+Implicit and explicit learning .................................................................................................................... 10
+
+B)
+
+Non-linear pedagogy and Teaching Games for Understanding ............................................................... 12
+
+C)
+
+The structure of exercises and games in football .................................................................................... 15
+
+III.
+
+Problem definition ................................................................................................................................... 18
+
+IV.
+
+Methodology ............................................................................................................................................ 19
+
+V.
+
+Data Analysis ................................................................................................................................................ 22
+A)
+
+Wingers’ goal assists ................................................................................................................................ 23
+Phase 1 – Movement before the ball ........................................................................................................... 23
+Phase 2 – From the opportunity to reality ................................................................................................... 25
+Phase 3 – The decisive passing ..................................................................................................................... 26
+
+B)
+
+Wingers’ crossing situations .................................................................................................................... 28
+Phase 1 – Movement before the ball ........................................................................................................... 28
+Phase 2 – From the opportunity to reality ................................................................................................... 30
+Phase 3 – The decisive passing ..................................................................................................................... 31
+
+C)
+
+Wingers’ scoring sequence ...................................................................................................................... 33
+Phase 1 – Finding the scoring space ............................................................................................................. 33
+Phase 2 – Conquering the scoring space ...................................................................................................... 35
+Phase 3 – Finishing ....................................................................................................................................... 36
+
+VI.
+
+Discussion ................................................................................................................................................ 38
+A)
+
+Matching the report objective(s) ............................................................................................................. 38
+
+B)
+
+Difficulties, challenges and limitations .................................................................................................... 41
+
+VII.
+
+Conclusion ................................................................................................................................................ 42
+
+A)
+
+The report End Product ............................................................................................................................ 42
+
+B)
+
+Personal reflection ................................................................................................................................... 43
+
+VIII.
+
+References ............................................................................................................................................... 44
+
+Endnotes ............................................................................................................................................................... 46
+
+3
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+I.
+
+2014-2015
+
+Introduction
+
+Football is a cultural phenomenon. Is the only sport that we can actually call truly global1. Working
+professionally in football has become more and more demanding in the last decades. But football is
+not only a cultural phenomenon; it has become an industry with broader proportions. Football is a
+business: transfers, sponsorships, TV rights, merchandising, stakeholders and owners. As this football
+business environment gets more complex outside the pitch, inside the pitch - and particularly on the
+training ground - the demands are higher. We are now dealing more and more with numbers. It is a
+permeable process between the suits and tie and the tracksuit. As the data collection and analysis
+around the teams’ and players’ performance become more detailed, the scrutiny is faster and more
+judgmental. The numbers chemistry from the suit and tie side are shifting and are more and more
+concentrated on the tracksuit side. And the head coaches are Maxwell’s demon2 in this process,
+controlling the opening of the door that makes this shifting possible.
+Football coaches are prisoners of numbers. Three points, one point, zero points. Three goals, two
+goals, zero goals. The numbers for points on the championship table are the sum of many other
+equations that lead to the sound of victory or the silence of defeat. The large numbers after ninety
+minutes are the result of the inter-dynamic of many others that took place during every second of
+the match and every second of the training, matches and seasons previous to that. And we are more
+aware of that. Things are, therefore, more complex. Still, this complexity that the numbers express
+involves so many variables that it becomes hard to cope with such delude of information.3 Naturally,
+some of us chose to ignore the existence of such variables and become resistant to all type of new
+information. The decision making remains intuitive and based on feelings of previous experience.
+Research on the intuitive thinking has been showing us on the last decades that it is not as linear and
+simple has once thought, and definitely not as complete as a decisional process has we tend – or
+want – to believe4. Using arguments like my experience tells me, or we have always done it like this,
+hidden in I am a kind of an intuitive coach, are just not enough anymore. It does not mean that we
+should not rely on our intuition – we have to! –, but instead that we should be aware that: a)
+deliberate thought is needed whenever there is time for that; b) using only our intuition (I feel like…)
+always in our decision making can lead us to errors that we could avoid if the chosen mode of
+thought was another. Intuition is not a shield to use against the fact that we do not need to study
+anymore nor reflect deeply about the situations. It is a powerful mind tool to use at the right time in
+the right place.
+We believe that is important to close the gap between what science knows and what we do in
+football5. Engaging in the task that we purpose here serves that belief. However, what we want to
+discuss in this report is only a fraction of the immensity of scientific evidence provided by academic
+or institutional research in football. It’s not our intention either to serve a dichotomy of right or
+wrong, good or bad. In education and learning there are space and time for different approaches and
+styles. The most important message from our report is to show that everything should be considered
+and that better decisions – on an off the field – are drawn with more and better information,
+independently from the source (conscious or nonconscious).
+We will also be encouraged by new advancements in learning theory, supported by neurobiology,
+neuroscience, educational sciences and psychology and challenge the conventional coaches practices
+on the training ground. The product of our work will be shaped by matching the reference numbers
+of the football elite level concerning the wingers and an approach to training through an implicit
+perspective, taking into account the theoretical arguments of non-linear pedagogy.
+
+4
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+A) Why should we look for (and to) the numbers in football?
+There is a different level of reflection that arises from the study of the numbers. As the football game
+structure becomes clearer and more defined in a theoretical point of view (will we ever understand
+its complexity?), the quest for the algorithms that could give us a better control over the outcome
+becomes more intense. There are conceptual mainframes on how to divide the game into its playing
+moments (offensive organization, defensive organization, offensive transition, defensive transition,
+set pieces6), phases of play and dynamic (critical points of change like time of play, scoring or
+numerical advantage). Using and applying this knowledge, each coach, club or team, can create their
+own principles of play (what to prioritize, when and how) and shape a playing style so that the
+outcome could better serve their objectives. This playing style can then be operationalized in the
+season planning of the training cycles, sessions and exercises, so that the players can experience
+more frequently what is expected from them. The numbers analysis can feed and serve this process
+in different moments. In the three last seasons of the UEFA Champions League (2011/2012,
+2012/2013, 2013/2014) 38.9% of the goals were scored after a moment of offensive organization,
+32.8% were scored after an offensive transition (counter-attack or fast break) and 25.7% were scored
+after a set piece (corner or free kicks)7. If we are preparing our team to play in such competition in
+the 2014/2015 season, what can we take from this information? Should we prioritize the offensive
+organization or the offensive transition of our team? How to prepare the team to defend more
+efficiently? How much should we focus on set pieces, both offensive and defensive? These are few of
+the many possible questions that are coming from the data collection above. This type of information
+is one drop in a vast ocean.
+It’s important to refer as well that the numbers that we study need a clear definition of the context
+that it serves. This means that the numbers that we use as reference should be applied in the
+regularity of the situation from which they were extracted. It doesn’t seem logical to us that the
+numbers that we get from a certain level or a specific competition are used as a reference for
+different levels or competitions. When we decide to use the World Cup numbers we turn our level of
+analyze, as well as possible inputs, back to the level where the numbers are coming from. If we want
+to develop the winger for Tippeliga, then we need the reference numbers from such level of
+competition.
+Therefore, it is not the purpose of this report to dive into all the data collection or to analyze every
+significant aspect of modern football. It would be a too long and to dense task and one that, at its
+end point, would be already obsolete. Modern football is tomorrow. Still, the numbers are there. The
+main question is what to see, why and for what end. The challenge that we purpose ourselves is to
+how to translate all the information available into practical and pragmatic inputs in our tasks of
+planning, delivery and evaluation of the training cycles, sessions or exercises. It is in this direction
+that we chose to drive into. Even so, there are different pathways that are going to be defined as
+long as we go further with our intentions. There are many possible ways to engage in this translation
+from numbers to practice and we are choosing one of them. It’s probably “less conventional”
+pathway.
+Still, the process is the most important and that is the legacy that we hope to establish. It’s not about
+what we are attempting to do, but how we are doing it. We also hope that further attempts to follow
+our path can make the process better and more consistent. At the end of our report we hope to
+extend further our expectations.
+
+5
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+B) The Winger
+António Simões, José Alberto Costa, António Oliveira, Fernando Chalana, Diamantino Miranda, Paulo
+Futre, Luis Figo, Ricardo Quaresma, Simão Sabrosa, Nani, Cristiano Ronaldo. Half of these names are
+strange to Norwegian ears, but they are so present in the memory of football fans in Portugal. They
+were or are all wide players (mainly wingers). The wingers are part of our national football legacy.
+They are natural one-on-oners’ with magical tricks and a starving desire of beating several players in
+the same play. I’ve grown with some these names in my imagination. There are not that many
+situations when the people in the stands leave the comfort of their seats for brief moments. When a
+goal is scored or when the eminence of it is perceived (1 v GK) are two of those situations. It is
+logical, as the goal is the ultimate explosion of emotions in a game (for both sides). Still, there is also
+something happening when a winger gets the ball on his flank. Suddenly we can feel glimpses of
+hope - and fear - in the stands. Almost as powerful as an imminent goal chance. The crowd knows
+that the game can change in those next seconds. Magical things are about to happen. A flamboyant
+dribble, a lightning change of speed or a clean-cut crossing can take the crowd to ecstasy. The story
+of the wingers in Portuguese football begins long before Luis Figo or Cristiano Ronaldo. The wingers
+are a cultural trait in Portuguese football. They are fast and flamboyant dribblers that passionate the
+crowd. Watching a winger getting the ball in a football match it’s almost like love at first sight. You
+love unconditionally from that moment, but you can quite explain why. There are some
+characteristics in the role of the winger that provide that immediate rush of emotion when they are
+in the center of the game, reason why the role of the winger is one of the most exciting objects of
+study that we can choose in the modern football context.
+Studying the winger has also a practical reason and an immediate output in my own coaching
+professional development, as Rosenborg BK formation has high demands from the winger role. The
+playing style from Rosenborg has been established particularly during the ninety’s when the club
+knew his best period in national and international competitions. The system of play hasn’t met any
+considerable changes since then. At the moment, the club has adopted a bak til røttene trend and
+this has repercussions at all the levels in the club. Naturally, it goes through the development of
+players in the youth system as well as player recruitment. Our expectation is that this report can
+have a contribution to strengthen the concepts and the practices designed for the development and
+recruitment of the young players that not only perform the role of the winger, but as to many other
+positions and roles.
+Yet, the wingers are a type of player that have something that it’s uncoachable. They all share a
+glimpse of creativity and imagination that it’s easier to recognize that to teach. As coaches, we can
+have an idea of what is important for a certain position on the pitch when it comes to the frequent
+actions or specific attributes. We can also have a direct instruction or an if-then rule to better
+exemplify what to expect from the player(s). But it’s more difficult to train and coach those seconds
+when something unexpected happen and changes the game. The numbers might help us to clarify
+what is important, but the ultimate creation comes from the player.
+
+C) Data collection and the Norwegian Centre of Football Excellence
+The Norwegian Centre of Football Excellence (or TFS Norsk Toppfotballsenter) has been working for
+some time now in two main topics: Spillet som Referanse and Kompetansekrav i Rolle. Both reports
+have been providing the clubs and coaches’ with an insight on top team and top players
+performances in the most high rated football competitions (Champions League, World Cup and
+European Championship). A large amount of match videos have been analyzed, discussed and
+dissected into the most pragmatic information possible. In Kompetansekrav i Rolle a vast and multi-
+
+6
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+faceted set of resources and references8 are integrated in an overview of each player position on the
+pitch, their role definition and specific competence. We deal with very specific information about a
+very specific topic that we want to convert in a very specific approach to the practice.
+Some of the UEFA A written reports at the Norwegian Football Federation have been approaching
+similar topics (Holme, 2014; Iversen, 2013; Rushfeldt, 2013; Riisnæs, 2010). However, our intention is
+to go further on its repercussions in the training ground. More than having a must-do-list or a set of
+prominent actions, we look for a direct input through the way that the games can be organized so
+that we can maximize the players learning in this specific role. The main objective in this report is to
+develop a mainframe that can guide the coaches on the training ground when they are aiming to
+work on or develop a specific role. In particular when it comes to games and play. The process behind
+this objective is the most important, but the consequence of this task has to be clear and pragmatic.
+Only this way it can reach the coaching community. How to go from the reference numbers about
+the wingers to the input on the training ground?
+
+D) Implicit learning and non-linear pedagogy
+There is a time and place for different learning styles. Many factors such as the players’ level of
+expertise, their training age, playing level will affect the approach taken. Still, the methods used in
+every coaching course and coaching sessions rely deeply in the explicit learning style and at first, this
+appears the logical approach as it provides a methodical approach to teaching and subsequently
+checking for understanding or learning by the player. Giving rules to follow prior to and during
+practices or games and questioning afterwards are explicit methods that we regularly have
+acknowledged. There are an increasing number of coaching methods being developed to use implicit
+learning techniques such as Constraints Based Coaching and Teaching Games for Understanding, but
+coaches need to understand the reasoning behind these methods. We include the theme of implicit
+learning and non-linear pedagogy to attempt to present a way to approach training apart from the
+“conventional way”. Both themes are studied in the conceptual framework part of this report and an
+attempt to organize and create games for the wingers’ training and skill acquisition is the core of our
+report.
+
+7
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+E) The objectives and the structure of the report
+When the previous subjects are studied and linked with the context of this report, two main
+objectives are drawn:
+a) To translate the information provided by NCFE to a pragmatic training approach on the pitch;
+b) Through the processing of the previous point, create and organize conditioned games that
+could enhance incidental (implicit) learning in the wingers.
+The problem definition is defined according to our intentions above. We are capable to preview
+before we start this report that the translation of the numbers will be possible, as it’s a regular
+practice in professional and top level coaching environments. The challenge is that normally such
+translation is applied to a specific playing style or game approach and in consequence to the players
+involved in such dynamic. We want to do it for one specific role. The second challenge is to achieve
+this translation in a pragmatic way. We will look for a matrix design that can capture the coaches
+enthusiasm instead of pushing them way. The second objective is far more complicated to achieve.
+Traditionally the coaches rely on their direct instruction to enhance the players’ behavior in a set of
+game situations. Even in training game situations (7v7, 8v8, undertall or overtall), the coach directive
+approach is seen as strictly necessary for the decision making of the players to be adjusted to what is
+happening on the pitch. There is no reason for us to believe that in the case of a specific role
+development it would happen otherwise (go here, do that, cross now). What we believe and is
+reflected in our second objective is that the efficiency of the actions of the winger (according to the
+NCFE numbers) can be accomplished with specific game constraints that will enhance the frequency
+of the desired actions, in an implicit way, and therefore increase the chances of memory retention.
+This report is divided in five chapters. To better define the limits of this study it’s important to
+approach the concepts that are going to be discussed. Therefore, at first we will work on the
+concepts of implicit and explicit learning, non-linear pedagogy, as well as which elements should we
+consider when we are designing and planning games or exercises in football. Secondly we focus on
+our problem definition and research questions. The following two parts are reserved for the
+methodology presentation and data collection and discussion. We will describe how the research
+method of the report is and how this process is organized. Then we will focus on the information that
+has been collected and analyzed through video by TFS in reference to the project Kompetansekrav i
+rolle, and we will dissect it and attempt to transfer it to practical inputs on the training ground. To
+conclude this report we will review the limitations of this study as we evaluate the whole process of
+its writing, we will draw our expectations on the impact of this study for the coaches’ practice and
+finally, attempt to propose new questions and new angles of research to add more depth to the
+theme.
+
+8
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+II.
+
+2014-2015
+
+Conceptual framework
+
+In research-oriented reports and projects is important to clarify the theoretical background which it
+has reference to for two main reasons: a) to define the context in which the research is placed and
+narrowing the angle of approach; b) to provide a conceptual platform to discuss the results and to
+draw the conclusions. It’s in this framework that we will engage through this chapter. We have
+selected three main subjects in which our conceptual framework will be based on: the discussion
+around the dichotomy of implicit and explicit learning, the concepts and challenges of non-linear
+pedagogy and the nature and structure of the exercises and games in football. It’s important to refer
+that one of the goals goal of our approach is - as referred in the introduction concerning the numbers
+and the football world – to close the gap between what science knows and what we do in football. It
+is also our intention to provoke the alchemy between what science knows in the learning field of
+study (more particularly in physical education and team and ball sports) and what we do in football.
+We will make reference to what recent research in psychology, educational sciences and
+neurobiology has been showing us recently and its repercussion on the training ground. We will use
+this conceptual framework to somehow justify why we chose to have a transfer from the numbers to
+the training ground based on conditioned games or games with constraints. For each theoretical
+approach we will highlight the key aspects for further discussion.
+Coaches need to understand how people learn, because coaching and teaching are only effective if they engage
+learning. If you think that all you have to do is warm them up, tell them, show them and correct them, you
+won’t be very effective. Learning is more complicated – and more interesting – than that.
+Claxton and Allpress (2008)
+
+Fig. 1 - Problem solving… (Football by Mordillo, 2012)
+
+9
+
+Fig. 2 – Dribbling skills … (Football by Mordillo, 2012)
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+A) Implicit and explicit learning
+In the past ten years, the educational field has learned more about how the brain works than in the
+previous ninety years. Largely due to the convergence of neuro-science, cognitive psychology and
+technology, new information is possible, information that for many of us verifies the effectiveness
+we’ve enjoyed with students and at the same time radically shifts our models of instruction
+(Reardon, 1999). One of the areas of research that have received much attention from the field of
+neuroscience is the study of emotion and memory as well as their relationship to the cognitive
+processes of the human brain. This is an important area for us coaches to invest our study time into
+not only because it can guide the way we relate and connect to our players, but also because - as
+Connolly9 argues - the experts are the coaches not the data collectors, so information needs to be
+relayed quickly and in a manner they can understand. Some of the revelations of research are that
+emotions are indispensable for rationality, such that one cannot reason without emotions or feelings
+(Damásio 1994). In addition, research on memory, particularly implicit memory, which deals with
+nonconscious cognitive processing of past experience, reveals that a great deal of learning takes
+place outside our working memory and has a tremendous influence on how we look and act in the
+world (Greenwald & Banji, 1995; Schacter, 1996). Such statements are frequent in the field of
+neurobiology and psychology which bring to light an explanation of the interdependent relationship
+that exists between reason and emotions and how decision making can occur outside ones’
+conscious awareness. Reason has been traditionally perceived as a high order function located in the
+neocortical area of the brain (grey matter) operating as a single system, a process based on valid
+rules of inference like rules of grammar (Johnson-Laird & Oatley, 1992). In contrast, emotions have
+been viewed as low order functions, separate from reason, located in the subcortical structures (inner
+layer), apart of the limbic system of the brain. When discussing cognitive processes, emotions are
+often omitted, considered too elusive, despite their qualifying nature in the process of reason
+(Damásio, 1994).
+In adult learning, Taylor argued in his approach that transformative learning is purported to be highly
+dependent upon the centrality of experience, rational discourse and critical reflection. However,
+recent research reveals a process of transformation independent of critical reflection, whereby there
+is a nonconscious development of thoughts and actions such that meaning structures may become
+altered outside the participants’ focal awareness (Taylor, 1997). This learning that takes place
+implicitly provides insight into transformative learning theory, revealing a process less dependent
+upon the conscious act of reasoning and logic, and similar to understanding the role of feelings and
+emotions. The author continues in categorizing three ways of implicit memory, naming procedural
+knowledge has equal to skills and habits, inclusive of perceptual and cognitive abilities, which
+research has shown can be learned and improved upon outside one focal awareness. Existing neural
+evidence suggests that skills and habit learning are less dependent on declarative memory and don’t
+involve the same brain structures. A second form of implicit memory is category-level knowledge,
+which is the ability to classify information based in natural categories. A third form of implicit
+memory is conditioning, learning a simple conditioned response, which is best understood in relation
+to emotions such as fear, where people’s actions in dangerous situations are often based on nondeclarative thought (Taylor, 2001). The Annual Review of Psychology has noted that there has been a
+swing from interest in deliberate strategies to interest in automatic, unconscious processes,
+reflecting an appreciation that certain situations (e.g. recognition, frequency judgments, savings in
+indirect task, aspects of skill acquisition, etc.) seem not to depend much on the products of strategic,
+effortful or reflective processes.
+
+10
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+(…) The truly ridiculous thing is that there are two proven learning styles that every coach should
+be made aware of, yet hardly any coaching courses makes reference to it despite the fact that the
+coaching methods they teach rely heavily on one of these methods in particular (Taylor, 2001).
+From both authors contributions is important to retain two key ideas: the non-exclusive dependence
+of learning from consciousness and the role of the emotions in reasoning processes. Such
+information will be important to relate to the nature of the games that we will purpose for the
+wingers training and skill acquisition. There are an increasing number of coaching methods being
+developed to use implicit learning techniques such as Constraints Based Coaching and Teaching
+Games for Understanding, but coaches need to understand the reasoning behind these methods.
+There is no point creating a practice that aims for implicit learning and then use explicit cues during
+the process. It can be a frustrating process for the coach as the explicit methods are so ingrained in
+our sporting culture and it often takes athletes longer to acquire a skill this way. Once acquired
+though, the skill is much more stable and resilient to pressure.
+We tend to forget actions came before words in our evolutionary history that implicit motor
+learning is the most natural way for humans to learn motor skills (Reber, 1993).
+Coaches cannot play the game for the players and due to their personal differences the way they
+perform a skill will vary. As a result coaches need to allow players to find their own way of solving
+the puzzles of how to achieve the sporting outcome required of them. An example of implicit
+learning would be an athlete performing hill sprints or jumping backwards prior to a sprint which will
+naturally put them into an inclined body position suitable for accelerations rather than telling them
+what to do. There is a time and place for everything and an implicit shouldn´t be the only approach.
+Many factors such as the players’ level of expertise, their training age, playing level will affect the
+approach taken. Still, the methods used in every coaching course and coaching sessions rely deeply in
+the explicit learning style and at first, this appears the logical approach as it provides a methodical
+approach to teaching and subsequently checking for understanding or learning by the athlete. Giving
+rules to follow prior to and during practices or games and questioning afterwards are explicit
+methods that we regularly have acknowledged. Approaching training (and coaches education) based
+on an implicit learning perspective requires critical and creative thinking to shape the training
+environment and structure the sessions and the exercises in order to produce the desired movement
+or playing outcome. It also makes it hard for the coach to assess how much the athlete has learnt due
+to the unclear lines between motor performance and motor learning as We do not directly observe
+learning; we directly observe behavior (…) we must make inferences about learning from the behavior
+we observe (Magill, 1993). Another issue that creates some resistance from coaches and coacheseducators in adopting a practice based on implicit learning is because the retroaction from our
+actions (as coaches) is very slow and it compromises our perspective of how effective training
+actually is. We don’t know how effective a different approach can be, so we keep having the same
+practice routine.
+
+11
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Fig. 3 – Long term memory pathways (http://blogs.ubc.ca/cognophilia/)
+
+B) Non-linear pedagogy and Teaching Games for Understanding
+Quantity and quality of practice are crucial to the development of expertise. Teachers and coaches
+carefully consider the micro-structure of practical sessions to maximize learning opportunities.
+Recent evidence suggests that children in physical education classes on average spend only 25% of
+the time actually engaged in physical activity (Chow J. , Davids, Button, Renshaw, Shuttlework, &
+Uehara, 2008). Dividing practice sessions into warm-ups, drills, games and cool downs can limit
+learning opportunities even more, since only undertaking practice activities that are representative
+of performance demands will lead to transfer of skills between practice and performance
+environments. An established concept from ecological psychology, associated with a Nonlinear
+Pedagogy, is that behaviors of individuals cannot be understood without reference to their specific
+environments (Chow J. , Davids, Button, Renshaw, Shuttlework, & Uehara, 2008). Actions are
+supported by perceptual information from the environment and, in turn, perception of high quality
+information is acquired by acting. This assumption has implications for games teachers and highlights
+the need to ensure congruence of practice environments with dynamic performance environments.
+In Teaching Games for Understanding (TGfU), as in Nonlinear Pedagogy, there are no universal rights
+or wrongs in terms of techniques used or decisions made. That is, there is no emphasis on learners’
+acquisition of perceived “optimal movement patterns” for success in team games. The functionality
+of a particular decision or action is determined by how well it satisfies the constraints of the game.
+Providing performers with multiple opportunities to explore and work out problems for themselves
+is in line with Bernstein’s10 definition of practice as repetition without repetition, a key feature in
+Nonlinear Pedagogy. Creating variability in practice is essential to learners’ exploratory activities
+during game play and produces flexible and adaptive individuals who can create new solutions to
+solve typical motor problems. (Chow J.Y., 2008).
+Although most discussions on the validity of TGfU have been focused on the development of game
+awareness and tactical understanding, its authors did not neglect technical development in their
+
+12
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+model. They specified that when students see the need for a particular kind of skill and are ready for
+these skills within the context of a game, technical instruction is given (Werner, Thorpe & Bunker,
+1996, cited by Chow J.Y., 2008).
+As we stated before, high levels of explicit verbal instruction and directive feedback are the norm in
+conventional coaching, since beginners in sport are believed to be reliant on conscious control
+processes in movement. However, Bernstein’s insights on the control of action suggest that most
+movement behaviors are typically regulated by subconscious processes. Explicit instructions force
+learners to switch to higher levels of action control and that can lead to performance disruption. In
+Nonlinear Pedagogy, verbal information is seen as a temporarily imposed informational constraint
+provided by teachers that can have positive or negative effects on performance. Using explicit
+instruction directed at conscious control processes in a skill remark might have a negative effect on
+learning since it is unlikely to direct learners to the regulatory information flows available during
+games performance. Conversely, more positive instructions might be those that do not specifically
+prescribe a movement solution but guide exploration and use of implicit learning strategies to allow
+intrinsic self-organization processes to be enhanced during learning. Forcing learners to attend to
+inappropriate information sources should be avoided and good practice could constrain individuals
+to search for the most useful information to underpin their actions and decisions. A useful strategy
+could be to constrain learners to focus their attention externally on outcomes of movements rather
+than on internal control processes (Chow J. , Davids, Button, Renshaw, Shuttlework, & Uehara, 2008).
+The use of questioning to guide this search process has been considered an important strategy for
+developing autonomous, intelligent performers who understand their own performance and can
+comment verbally on their intentions. In games, learners need to express intentions through actions
+and providing feedback that is inherent within learning tasks might avoid an over-reliance on
+extended verbal feedback (Chow J. , Davids, Button, Renshaw, Shuttlework, & Uehara, 2008).
+The use of spatial task constraints may be helpful in this regard, where inherent anchoring can be
+used to shape behavior. In invasion games, the use of spatial markers to create channels through
+which play must flow can constrain players to create width in attacking play. (Chow J. , Davids,
+Button, Renshaw, Shuttlework, & Uehara, 2008).
+A key skill for pedagogists is to identify the most important performance aspect that an individual or
+a team needs to work on as they progress through the stages of learning. In our view, different
+teaching strategies such as tactic-to-skill and skill-to-tactic approaches can each be delivered
+effectively by adopting a student-centered approach (Hopper, 2002, cited by Chow J.Y., 2008). Whilst
+these approaches have sometimes been proposed as contrasting strategies, in Nonlinear Pedagogy
+either may be viable as long as the learner is implicitly challenged within practice to understand the
+what to do and how to do it in relation to particular motor skills. For example, in football, learning to
+dribble a ball around a set of cones does little to help learners adapt their movement patterns to an
+active, moving opponent or the actions of their team-mates. Instead skill execution should occur
+within more dynamic scenarios which either represents task simplifications of actual game skills (i.e.,
+dribbling around initially passive defenders) or that enhance the frequency of such actions (i.e., extra
+points for a goal after a dribbling). An important point is that the skills first approach need not
+necessarily imply endless skill repetition within drills that have no tactical context. Skills practice
+must occur within a tactical conceptual setting in representative, constrained small games in a TGfU
+approach, in a game-like context and not simply through repetition of a movement pattern (Chow J. ,
+Davids, Button, Renshaw, Shuttlework, & Uehara, 2008).
+
+13
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+During the coordination and control stages of learning, the emphasis in Nonlinear Pedagogy is for
+learners to be provided with plenty of opportunities to explore and discover important information
+sources available in the environment to support skill performance and tactical decision making.
+This search process is important to promote awareness and enhance functional movement
+variability. (Chow J. , Davids, Button, Shuttleworth, Renshaw, & Araújo, 2006).
+Importantly, individual differences amongst learners are embraced by a student-centered approach
+as opposed to the traditional one-way-fits-all philosophy. As learners advance to the control stage
+they become increasingly able to demonstrate flexible, adaptive behaviors in different performance
+scenarios. At this time more emphasis may be placed on skill acquisition to satisfy more specific task
+constraints during performance. Due to subtle changes in feedback and modifications to coordination
+patterns that are required, the learner now requires opportunities to explore a narrower bandwidth
+of movement solutions and, in this context, repetition of achieving specific movement outcomes
+becomes more valuable (Chow J. , Davids, Button, Shuttleworth, Renshaw, & Araújo, 2006). In
+practice, a more pertinent focus is on exploring successful movement solutions with flexibility and
+variation in the process to achieve a desired outcome.
+For example, if a team is making too many mistakes in exploiting scoring opportunities such as
+rushing shooting opportunities, not moving into space to support the ball carrier or not exploiting
+width in attack, an important exercise could be to practice small-sided attacking scenarios.
+Simplified task constraints could provide opportunities for attackers to practice and improve
+scoring skills involved in shooting the ball. (…) In a football example, one such game would
+involving playing 5 attackers vs 3 defenders with all players restricted to the middle third of the
+practice pitch until an offensive passing option presents itself on either flank to open the game up
+into the attacking third of the pitch, allowing attacking runs, spreading of play from one end of the
+field to the other or even pulling the defense away from goal area. In the skill stage, it is important
+that practice provides opportunities for learners to stabilize effective movement solutions in high
+intensity, game-like situations. (Chow J. , Davids, Button, Renshaw, Shuttlework, & Uehara, 2008)
+Designing representative task constraints that guide learners to understand key principles of game
+playing are key features of TGfU, which are emphasized in Nonlinear Pedagogy. Bunker and Thorpe
+(1982) suggested that this principle could be implemented by using modification through
+representation or by modification through exaggeration. In Nonlinear Pedagogy it is proposed that
+task modifications could be based on an understanding of the key constraints acting on learners in
+specific games. There is clearly a need for continued applied pedagogical research as principles of
+Nonlinear Pedagogy will be further refined and developed in the coming years, with growing
+empirical support from the motor learning literature and beyond. The challenge for researchers is to
+extend understanding of how practitioners can explore application of Nonlinear Pedagogy theoretical
+concepts in TGfU and game skill learning in physical education, focusing on individual player’s
+performance as well as the understanding of game play as a team (Chow J. , Davids, Button,
+Renshaw, Shuttlework, & Uehara, 2008).
+
+14
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+C) The structure of exercises and games in football
+According to Castelo (2003), the training exercises for football can be classified through a taxonomy
+that divides them in exercises either oriented for the development of conditional capacities or
+oriented for the development of tactical-technical general or specific requirements.
+
+Football Exercises and Games Taxonomy (Castelo, 2003)
+
+Development of conditioning capacities
+
+Specific training exercises
+
+Without the ball
+
+Enhancing the relation with the ball
+
+Ehancing the relation with the game
+
+a ) Progres s i on on the i nforma ti on
+proces s i ng.
+
+1. Offens i ve a cti ons wi thout oppos i ti on.
+Us i ng one goa l i n 1v0, 2v0 or 3v0, ...
+s i tua ti ons .
+
+b) Anti ci pa ti on of the s peci fi c
+a cti ons .
+
+2. Offens i ve a cti ons wi th oppos i ti on
+(wi thout defens i ve tra ns i ti on). Us i ng
+one goa l i n 1v1, 2v1, 3v1, 3v2, ...
+s i tua ti ons .
+
+b) Prepa re the pl a yer for the s es s i on.
+c) Acti va te recovery.
+d) Enha nce mi ni mum orga ni c functi ona l i ty.
+e) Crea te pos i ti ve condi ti ons for i ntermi tent
+tra i ni ng exerci s es .
+
+Endurance
+Strength
+
+c) Us i ng the di fferent energy
+s ources .
+
+Objectives
+
+Specific exercises of general training
+
+3. Ga me (four moments of the ga me).
+Us i ng two goa l s i n Gk+1v1+Gk,
+Gk+2v2+Gk, Gk+3v3+Gk, ... s i tua ti ons .
+
+d) Enha nci ng s peci fi c emoti ona l
+di s tres s .
+
+Speed
+Flexibility
+
+Fig. 5 - (Adapted from Castelo, 2003)
+
+The conceptual framework for the football exercises and games organization should always be
+supported by the game situations and the internal logic of the game should be reproduced or
+simplified so that its fundamental nature could be kept. Such conceptual framework includes five
+fundaments: a) reference to real game situations; b) relation to its logical parameters; c)
+identification of its objectives; d) inter-relation between activity-player-team; e) competitive
+perspective (Castelo, 2003).
+Only the exercises and games for the development of the tactical-technical factors can establish
+game situations of attack and defense and related transitions, from which the coaches can
+manipulate its structural conditions (or constraining the game). The objective of such manipulation is
+to adjust the desired player performance (short term and long term) and their attributes in different
+levels of development, to the internal logic and complexity of the game (Castelo, 2003). In this
+dimension, six main structural conditions or constraints can be used: specific rules, playing space,
+technical constraints, time constraints (physiological and decisional), number (players, actions,
+touches) and instrumental (training resources).
+Designing specific rules for the games and exercises has three main paths: we can simplify the rules
+of the game and eliminate some prescriptions (such as offside for example), in a way that we can
+create advantages for pre-determined actions to happen (should our central defenders check their
+shoulder for information on what is happening in their back?); we can maintain the rules of the
+game to better consolidate the players behavior according to the competitive pattern; or we can
+
+15
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+Complexity
+
+Exercises of general training
+
+a ) Is ol a te a s peci fi c condi ti oni ng ca pa ci ty.
+
+Objectives
+
+Development of Tactical-Technical factors
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+have the rules augmented to enhance the frequency of certain actions and behaviors from the
+players (i.e. not allowing sliding tackles to make the players stay on their feet in one-on-one duels)
+(Castelo, 2003).
+The playing space can be manipulated in four main aspects: the pitch dimensions (reduced,
+approximate or similar, from the competition standard dimension); geometry (using rectangles,
+squares, triangles, circles, according to the desired decision making or tactical action); utilization
+(independent - the players are confined to their own space; common – the players can use all the
+available space; mixed – only some of the players can use all the space available; interdict –
+unavailable spaces for some players in independent, common or mixed pre-existing conditions);
+parceling (using only central corridor, as this area creates the better conditions to vary the angle of
+attack or defense – it can be divided in sectors according to the team internal organization:
+defensive, middle, offensive sectors; using the side corridors, to force the players to use more
+frequently the side angles of attack or defense) (Castelo, 2003).
+The games and exercises manipulations concerning the technical constraints can be also be divided in
+four main aspects: using one, two or more goals (the number and goals position can enhance certain
+actions more than others, particularly when it comes to parceling the play in specific moments, add
+a specific direction of play and the optimizing finishing angles); using non-dominant foot (optimizing
+the technical execution with both feet can benefit the players’ decision making as he can achieve a
+higher level of confidence to play in different angles and situations); establishing privileged
+interactions (optimizing sectorial players interactions – the back four – or vertical players
+interactions – full-back, winger, striker – independently of the organization of the game or exercise);
+forcing the direction of the actions (interrupting a certain dynamic of the game and change the
+direction of the game or start a new dynamic – interrupting an offensive organization and set up a
+counter-attack to test the teams balance) (Castelo, 2003).
+To manage the time constraints serves three main purposes: energy production (physiological
+purpose), tactical strategy and tactical decision. In the first one, the management of the time of the
+game or exercise is related to which energy source we intend our players to use (anaerobic alactic <12’’; anaerobic lactic - <3’; aerobic – longer duration; mixed – intermittent use of energy production
+processes). In a strategic perspective, the time management should value the intermediate or final
+objectives of the exercise so that the strategical thinking of the players can be modified (scoring on
+the early or final seconds of the game, for example). To influence the tactical decision, we can
+reduce or augment the time in which a particular game situation should be solved. With this purpose
+we can have a constraint on the number of touches per action (less touches=less time), on the team
+passing play (less passes=direct approach=less time) or on the time provided for the building up
+phases of the play (rush the play into the offensive half or close to the goal).
+When we use the numbers as a game constraint we can refer to three particular aspects: the number
+of players taking part on the game, the number of touches on the ball per player or the number of
+player interactions. Defining the number of players can happen in even, inferiority or superiority
+relations between the teams that are taking part of the game (5v5, 5v3, 3v5, 4v4+1). The superiority
+or the inferiority relations might be total (5v3 game) or partial (7v7+1 or superiority or inferiority
+relations in certain areas of the pitch – side corridors, 16m box, etc.). The manipulation of the
+number of the players can have a strong link with the pitch dimensions when we pretend to
+influence the time of the actions. We can also enhance a limitation on the number of touches on the
+ball for each player taking part of the game. The last constraint about the numbers refers to
+enhancing some interactions in favor of others.
+
+16
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Castelo (2003) go further in his conceptualization about the numbers manipulation in games and
+exercises, stating that there are some predictable consequences when we introduce these
+constraints in its organization. Reducing the number of touches on the ball (1-2 touches) can have
+the following effects:
+a) Increment of the players’ information processing and decision making;
+b) Enhancement of the anticipation attributes and makes the players have a solution before
+they receive the ball;
+c) Optimization of the technical execution (speed);
+d) Enhancement of some tactical-technical patterns in favor of others (passing, receiving, first
+touch);
+e) Creation of a similar training environment to the logic of the competition level (speed of
+decisions and actions);
+f) Increment of the rhythm of the game (individually and collectively);
+g) Introduction of an emotional distress to the exercises (reason why we shouldn’t keep it for a
+long period of time, risking to turning it into a negative aspect);
+h) Inhibition of the optimal solution for the perceived game situation;
+i) Higher propensity to losing the ball and regaining it as well as to individual mistakes.
+The limitation on the number of touches can also be fixed or variable. Each one of these constraints
+can bring different consequences. When the limitation of the number of touches is fixed (3 touches):
+a)
+b)
+c)
+d)
+
+Increases the technical execution when the defensive pressing is high;
+Decrease the technical execution when the defensive pressing is low;
+Forces the players to learn time management with the ball (and before receiving the ball);
+Gives more opportunity for the players to express themselves (in relation to reducing the
+number of touches);
+e) Gives the opportunity to the players to develop their individual responsibility of retaining the
+ball.
+When the limitation of the number of touches is variable (1 or 4 touches):
+I.
+II.
+III.
+IV.
+
+Adaptation and adjustment from the tactical-technical behavior according to the game
+situation;
+Optimization of the players’ initiative and element of surprise;
+Difficulty of the defenders reading of the situation and anticipation;
+Enhances the time management and the optimal decision making from the attackers;
+
+When there is no limitation on the numbers of touches the players can express more individual
+initiative and responsibility, use all their technical attributes freely. There is also more room for
+players’ imagination and creative solutions for the problems that the game brings on each moment.
+Finally, Castelo (2003) also includes the manipulation of the interactions between the players and for
+the teams. It is also possible and effective to have the same limitation prescription for the number of
+passes that a team is allowed to perform: if we limit the number of passes for each play, normally we
+accelerate the collective patterns of the team and turn the game more direct. On the other hand, if
+we increase the number of passes, we turn the game more indirect and focused on the moments of
+possession. One of the most important aspects of these constraints is that we should always keep
+the intern logic of the game intact (why should a player pass the ball to a teammate if he is on the
+goal line one second away from scoring a goal?).
+
+17
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+III.
+
+2014-2015
+
+Problem definition
+
+The problem definition is defined according to the objectives that we defined in the introduction
+chapter. With our report we aim to:
+a) To translate the information provided by NCFE to a pragmatic training approach on the pitch;
+b) Through the processing of the previous point, create and organize conditioned games that
+could enhance incidental (implicit) learning in the wingers.
+The starting questions are mostly related with what and how we intend to achieve such aims:
+-
+
+How can we translate the data collection about the specific role of a winger into a set of
+considerations about how to prepare the players for such role?
+What kind of games we believe can maximize the wingers’ development?
+
+We are capable to preview before we start this report that the translation of the numbers will be
+possible, as it’s a regular practice in professional and top level coaching environments. Still, there are
+some challenges that we can anticipate concerning the first question:
+a) Usually such translation from the numbers (or stats) to the training ground is applied to a
+specific playing style or game approach and in consequence to the players involved in such
+dynamic. Can we do it for one specific role?
+b) The translation should be done in a pragmatic way. How can we design a matrix that can
+capture the coaches enthusiasm instead of pushing them way?
+The second objective is far more complicated to achieve. Traditionally the coaches rely on their direct
+instruction to enhance the players’ behavior in a set of game situations. Even in training game
+situations (7v7, 8v8, undertall or overtall), the coach directive approach is seen as strictly necessary
+for the decision making of the players to be adjusted to what is happening on the pitch. There is no
+reason for us to believe that in the case of a specific role development it would happen otherwise (go
+here, do that, cross now). What we believe and is reflected in our second objective is that the
+efficiency of the actions of the winger (according to the NCFE numbers) can be accomplished with
+specific game constraints that will enhance the frequency of the desired actions, in an implicit way,
+and therefore increase the chances of memory retention. As to the previous objective, some
+challenges can be anticipated:
+a) How can we control (and evaluate) the impact of the game constraints on the development
+of the players?
+b) How can we decrease the high level of retroaction - time between our input and the desired
+outcome (the impact of the game constraints is not as immediate as the direct instruction
+and feedback)?
+At the end of our report our expectations are to achieve possible answers to our research questions
+and to our challenges, or, at least, to provide more sophisticated questions for further research or
+critical reflection.
+
+18
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+IV.
+
+2014-2015
+
+Methodology
+
+The Norwegian Centre of Football Excellence (NFCE) or Norsk Toppfotballsenter (TFS) was launched
+by the Norwegian Football Association and the Norwegian Professional Football League in 2009 as a
+knowledge-, competency-, and expertise hub that will ensure top international quality on Norwegian
+elite player development. Since January 2013, the league took over as the sole owner of the Centre,
+shifting the primary focus towards the development of players in Norway's 32 elite clubs. Hence, the
+current result ambition is to establish the Norwegian Professional League among the top-12 in the
+UEFA club ranking. A detailed look on the NCFE purpose is presented below.
+
+Strategically, NCFE strives towards this aim through four distinct modes of
+operation:
+1)
+
+Collaboration
+
+Acknowledging that Norway is a small country competing with giants,
+NCFE aims to find and utilize productive relationships and collaborations,
+professionally and politically, with national institutions (e.g., the top
+clubs, the Norwegian FA, and universities) and international institutions
+(e.g., UEFA, FIFA, international top clubs, and universities).;
+2)
+
+Research and documentation
+
+NCFE leads a long series of innovative scientific projects aimed at
+producing cutting-edge empirical documentation of what international
+top class players, teams, and coaches, as well as the Norwegian
+equivalents, are doing.
+3)
+
+Competence development
+
+NCFE is constantly, systematically, and creatively searching to learn from
+international best practice on player and performance development,
+predominantly from top European football clubs, but also from other
+sports and performance domains.
+4)
+
+Competence exchange
+
+NCFE translates, communicates and exchanges competence with
+Norwegian elite football players, teams, and coaches – with the purpose
+of turning data, information, and knowledge into actual player and
+performance development. Specifically, NCFE assists all the Norwegian
+top clubs directly with player development and runs a series of coach
+development workshops and courses, and NCFE supports more specific
+match preparation for the clubs participating in the European cups.
+(Jordet, 2014)
+
+The NCFE report Kompetansekrav i Rolle has a decisive impact on how we chose to approach our
+theme. In such report, information has been collected through video analysis about top players’
+performances in the World Cup 2014 in Brazil. A large amount of match videos have been observed,
+discussed and dissected into the most pragmatic information possible. A vast and multi-faceted set of
+resources and references11 are integrated in an overview of each player position on the pitch, their
+role definition and specific competence. The player roles that this report refers to includes the
+Goalkeeper, the Central Defender, the Full-Back, The Central Midfielder (and its stereotypes), the
+Playmaker, the Winger and the Striker. In our report we decided to have a closer look on the role of
+the winger. As for all the other role analysis, the structure of the report comprehends different (yet
+
+19
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+complemental) angles of analysis. Both offensive and defensive attributes for each position are
+described, as well as specific game situations and the nature and the type of actions. It’s this last
+aspect that is more important for the methodology of our report. We believe that an in depth study
+of this set of actions can provide a reference for the organization of exercises and games in training.
+Video support is set to clarify the phases on the trefase modell that we present below.
+
+Assist/setter opp trussel mot/i slottet
+
+
+Stor handlingsfleksibilitet med ball
+
+
+
+Repertoar for å håndtere ballen på pressede rom- og
+
+Scorer mål/utnytter trussel mot/i slottet
+
+
+Utgangsposisjonering, vinne scoringsrom,
+scoringen
+
+tidsforhold
+
+
+Spillsituasjon
+
+«1v1»
+
+
+
+Etter innlegg
+
+
+
+Repertoar for å nå ulike rom ved innlegg
+
+
+
+Bakrom lite rom
+
+
+
+Bakrom
+
+
+
+Rom mellom spillere
+
+
+
+Vinkel/avstand til keeper og grad av press
+
+
+
+Rom foran bakre «ledd»
+
+
+
+Bakrom stort rom
+
+
+
+Scoringstrussel
+
+
+
+Vinkel/avstand til keeper og grad av press
+
+
+
+Evne til å sette opp og inngå i kombinasjonsspill
+
+
+
+The magic pass
+
+
+
+Retur/2.ball
+
+
+
+Skape trusselbilde gjennom bevegelse uten ball (2A/3A)
+
+
+
+Skudd etter føring/dribling
+
+
+
+Utnytte/skape og utnytte rom sentralt/korridor,
+
+
+
+Skudd etter pasning i ledd/foran ledd
+
+
+
+Dødball siste 1/3-del
+
+
+
+Sette opp «rikt» trusselbilde med ball i samhandling
+
+
+
+bakrom/rom i bakre ledd/mellomrom
+
+
+Timing: samtidige bevegelser, åpne/lukke rom, motsatte
+bevegelser, posisjonsbytte, tredjemanns bevegelser
+
+20
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+The main attributes described by NCFE for the winger are presented above. Our task of translating
+the numbers for the training ground will only be focus on the offensive moment, more particularly
+when the winger assists or scores. We reproduced the attributes for that specific moment of the
+game. Additional information on profiling refers to the different type of wingers. In Kantstereotypi,
+seven types of wingers are presented: The Speedster, Raumdeuter, 1v1, Roaming Playmaker, The
+Killer Crosser, The Trickster and The Worker. It is not our intention to study with depth this aspect of
+our theme, as it depends from variables which description would make our report to dense and away
+from its main purpose (individual specific attributes, team playing style, team formation, game
+strategies, etc.). However, this is still information that we can use as a discussion further on. Our
+methodology is, therefore, based in documentation analysis, literature study that can result in a
+research-oriented product to use in the coaching practice. For that matter we purpose the
+construction of the following matrixes of analysis.
+
+The specific information of each phase
+of analysis is presented through charts
+and graphics. Such information is
+reproduced (in Norwegian as its
+original version) on the top of the
+matrix.
+To make the matrix complete, we
+will also provide a visual help, to
+better preview the game
+organization on the pitch. The
+games were designed with a free
+uploaded exercise planning software
+(SoccerSketch).
+
+There are three points of analysis on each matrix: a) our
+own numbers interpretation (guidelines for the previous
+two points); b) the criteria that will be followed to define
+the games objectives; and c) the game constraints or
+conditions that are designed to achieve such objectives
+(in grey background).
+
+The NCFE designed a three phase model for each
+particular action. Such model comprehends the moments
+before, during and at the end of each tactical-technical
+execution. Such phases are the title of each matrix.
+
+It was our concern that these matrixes could be designed in a way that all the information analyzed
+could be concentrated in one single sheet (according to each specific phase or angle). It pretends to
+offer clear and pragmatic information and a visual help to better exemplify the game organization on
+the pitch. We will also provide a portfolio attached to our report where all the matrixes – as well as a
+general overview – will be organized. A digital version of the Excel file will also be one of the
+attachments.
+
+21
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+V.
+
+2014-2015
+
+Data Analysis
+
+The NTCE Kompetansekrav i rolle – Kantspillere was presented in the 25th Cupfinaleseminar in Oslo
+last November. The report includes 60 slides with statistical information about type of actions,
+patterns and specific characteristics of the wingers. We have selected the information that is more
+relevant for the purpose of translating the numbers into the training ground. As we referred before
+we will only focus on the offensive moments, more particularly when the winger assists or scores.
+The elements of analysis are presented below.
+Movement before
+the ball
+Assists - Phases 1-3
+
+From opportunity to
+reality
+The decisive pass
+
+Assists
+Movement before
+the ball
+Crosses - Phases 1-3
+
+Winger
+
+From opportunity to
+reality
+The decisive pass
+Finding the starting
+position
+
+Goals
+
+Goals - Phases 1-3
+
+Conquering the space
+
+Finishing
+
+The wingers’ Assists and the Goals are analyzed through a Trefase modell which aims to divide the
+wingers’ actions before receiving the ball, with the ball and his last action (passing or shooting). For
+the Assists analysis the Phase 1 – Movement before the ball comprehends two angles of approach:
+where is the opposition and where does the winger go for the ball; In Phase 2 – From opportunity
+to reality, the analysis comprehends four elements: distance to pressing, type of action, time with
+the ball and number of touches; In Phase 3 – The decisive pass, the distance to pressing, the type of
+passing, from where is the pass coming and who is receiving the pass (and where) are the elements
+of analysis. For the Assists through Crosses analysis, the Phase 1 comprehends the elements where is
+the opposition and where does the winger go for the ball; In Phase 2 – From opportunity to reality
+the elements of analysis are the distance to pressing, type of action, time with the ball and number
+of touches; In Phase 3 – The decisive pass the analysis focuses on the pressing distance, the type of
+touch and from where is coming the crossing. For the wingers’ Goals analysis Phase 1 – Finding the
+starting position the following elements are analyzed: where is the opposition, starting position in
+relation to the closest defender, to the area of the pitch and to the space in the opposition
+structure. In Phase 2 – Conquering the space, we analyze how the winger wins the space and in the
+Phase 3 we analyze the type of finishing and its areas and target zones.
+
+22
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+A) Wingers’ goal assists
+Phase 1 – Movement before the ball
+Attributes description
+1.
+2.
+3.
+4.
+
+Finn timing for å komme inn i rom på riktig tid, reposisjoner om nødvendig;
+Finn optimal ”høyde” i rommet og posisjon som skaper tvil hos motstander ift hvem 1.F
+Søk rettvendt kroppsposisjon før første berøring
+Søk posisjoner for å utnytte kompetanse (egen, med- og mot - spiller)
+Kompetansekrav i roller – Kantspillere (TFS, 2014)
+
+In relation to the opponent
+
+KANT - ASSIST ETTER TREFASE MODELL - FASE 1: KOMME PÅ BALL
+
+Numbers
+interpretation
+
+Games
+constraints or
+conditions
+
+23
+
+When the winger is coming
+A minimum of 5m space
+The wingers' movement
+for the ball to perform an
+The wingers' movement
+The winger is putting
+between the two last
+before an assist is coming
+assist, half of the times 10before an assist is coming himself into congestioned
+defensive lines is needed
+mostly when the
+20m separates the
+mostly when the opposite areas before he receives
+to trigger the wingers'
+opposition is balanced
+defensive line from the
+defense is falling back.
+the ball (68,2%)
+appeal for the ball (85%).
+(numerical).
+goal line (52%).
+Each team needs a
+The counter-attack
+The pitch dimension for
+sufficient number of
+moments should be
+The B4 should be
+The area where the ball is
+the game has to consider a players to form a system
+prevented to happen so
+organized and moving
+should concentrate the
+minimum of 10m space in
+with two lines (for the
+that the established
+close to their own goal.
+majority of the players.
+bakrom during the play.
+winger to explore
+attacks are more frequent.
+mellomrom ).
+Pitch dimensions: 45x35m Tactical technical
+use the box for better
+constraint for the teams: 3
+Game form: Gk+7v7+Gk
+attacking reference.
+players locked in own half
+Formation 1-4-3 or 1-4-1-2.
+Playing against two 11-awhen in possession of the
+side goals.
+ball.
+
+Dutch rule: the game
+always re-start from the
+goalkeeper.
+
+Tactical-technical
+constraint for the teams:
+Positional defending only
+allowed in two corridors.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Where the winger receives the ball
+
+KANT - ASSIST ETTER TREFASE MODELL - FASE 1: KOMME PÅ BALL
+
+Numbers
+interpretation
+
+Games
+constraints or
+conditions
+
+24
+
+When the winger comes to the ball, he is most of the times towards the The movement of the winger before he receives
+goal. His wide positioning can be one of the factors that has a big
+the ball to assist varys between a forward run, a
+contribution to this observation. Still, 45% of the areas where the winger wide movement or an inside run. The higher
+move into are in the central corridor (with variable distances to the goal).
+incidence is in the first two movements.
+The majority of the wingers' movements are in the offensive half. The
+Dropping down to receive the ball is also an
+mellomrom is the only sector with all the areas covered on the moment option, but with less frequency than the three
+that the winger gets the ball.
+previous.
+The games should enhance the frequency of the situations where the
+winger can receive the ball towards the goal (games with direction).
+The pitch dimensions should allow the winger
+Using an extra player for the team in possession of the ball can prevent
+to vary his movements in length and width. Each
+the defending team from man marking giving more opportunities for the
+team needs a sufficient number of players to
+winger to receive the ball facing the goal. The wingers' actions should
+form a system with two lines (for the winger to
+happen with higher frequency in the offensive half, spread through
+be able to explore mellomrom ).
+every area, but with higher incidence in bothcorridors and in
+mellomrom.
+Tactical-technical
+Pitch dimensions:
+constraint for the
+Tactical-technical constraint for the wingers:
+45x35m - use the box
+Game form: Gk+7v7+Gk
+winger: one touch in right foot winger on the left and left foot winger for better attacking
++ Jk. Formation: 1-4-3 or
+the defensive half, free
+on the right (enabling the winger to use
+reference. Playing
+1-4-1-2.
+touches in the
+mellomrom).
+against two 11-a-side
+offensive half.
+goals.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 2 – From the opportunity to reality
+Attributes description
+1.
+2.
+
+Vær oppdatert på mulige rom og medspiller(e) før første berøring.
+Evne å kontrollere ballen under ekstremt pressede rom- og tidsforhold:
+a. Kort avstand mellom ball og kropp; være beredt til å gripe ”rett rom til rett tid”
+b. Kort tid mellom første og andre berøring
+c. Ro å plukke opp riktig signal og kjenne igjen mønster i spillet/hva skjer, og når.
+Finn optimal timing (tid/rom i samhandling)
+Kompetansekrav i roller – Kantspillere (TFS, 2014)
+
+3.
+
+Opponents’ pressing, type of actions, time with the ball and number of touches
+
+KANT - ASSIST ETTER TREFASE MODELL - FASE 2: FRA MULIGHET TIL REALITET
+
+Numbers
+interpretation
+
+Games
+constraints or
+conditions
+
+The type of actions are diverse.
+75% of the situations when the
+1-4 seconds is the amount of time
+Turning and passing are the less
+winger aims to assist, the distance
+that the winger uses with the ball
+60,7% in the assists situations the
+frequent actions of the winger with
+from the pressing defender is 1-3m.
+when assisting to goal (77,7%). This winger has 1-3 touches on the ball.
+the ball just before the assist (due to
+However, in 14% of the situations the
+can reveal a tactical decision (what to Still the numbers of touches on the
+the receiving body angle towards the
+defender is 6m away (Fast variation
+do) before he receives the ball or a
+ball are diverse (from 1-9).
+goal). The two touch type of actions
+of the center of the game?)
+tigh distance from the defender(s).
+are the more frequent ones (67%).
+The game should enhance a higher
+The game should enhance all the
+concentration of players around the
+types of actions from the winger. The game should enhance less time and less touches for each player. Quick
+ball carrier and the winger, but still
+Some actions can be encourage more decision making is required. Smaller pitch dimension and fewer players can
+provide the opportunity to allow
+than others depending on the player
+provide such type of actions.
+enough space between 1A and 1F in
+characteristics.
+some occasions.
+Game form: Gk+5v5+Gk.
+
+25
+
+Tactical-technical constraints for the players: 1) positional defending only
+allowed in two corridors; 2) have to use both feet in all actions with more
+than one touch 3) touch limitation: 1 or 3 touches.
+
+Pitch dimensions: 35x25m. Playing
+against two 11-a-side goals.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 3 – The decisive passing
+Attributes description
+1.
+2.
+3.
+4.
+
+Evne å forløse riktig rom til riktig tid
+Ha bredt tilslagsrepertoar med tyngdepunkt på innsidepasning
+Ha et kamuflerende element
+Presisjon og optimal vekting av pasningen
+Kompetansekrav i roller – Kantspillere (TFS, 2014)
+
+Opponents’ pressing, type of passing and from where the winger assists
+
+KANT - ASSIST ETTER TREFASE MODELL - FASE 3: DEN AVGJORENDE PASNING
+
+Numbers
+interpretation
+
+Games constraints
+or conditions
+
+26
+
+In the decisive pass moment the
+closest opposition is between 12m in 89% of the situations. This
+numbers can be related with the
+areas of the pitch where the
+pass is coming from (last third).
+
+The passing with the inside foot in the most used
+type of passing used by the wingers when
+assisting. Half of the decisice passes are
+The decisive pass is made from the last third in the
+camuflaged and its relation with the type of
+majority of the situations (91%). The left and central
+passing becomes logical if we consider the best corridors are the most covered areas in this situation.
+body angle for its execution (inside foot camuflage).
+
+The game should enhance an
+intense defensive pressing on
+the ball carrier. Higher pressing
+means less time and space for
+the ball carrier to perform the
+better passing.
+
+The wingers should be incentivated to use the
+side corridors. Using side positions as attack
+starting points can be used as a tool to enhance
+the use of inside foot for assisting (opposite side
+as well).
+
+A formation with 2 or 3 lines is needed in a way that
+the ball carrier has lees time and space. It's also
+important that each line has enough number of
+players to cover a higher width (midline with 3
+players).
+
+Extra points for first touch
+finishing in the box (first touch
+finishing is dependent of top
+class assist).
+
+Tactical-technical constraints for the wingers
+team: attack 11-a-side goal and defend two 5-aside goals in the corners (if the wingers have to
+defend the sides, then the offensive transition
+starts with the whole pitch in front of them).
+
+Pitch dimensions: 40x60m
+Game form: Gk+8v8. (or full width). Use the box
+Suggested formation: (1)as reference. Playing
+4-3-1.
+against one 11-a-side and
+ywo 5-a-side goals.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Who scores after the assist and from where
+
+KANT - ASSIST ETTER TREFASE MODELL - FASE 3: DEN AVGJORENDE PASNING
+
+Numbers
+interpretation
+
+Conditions and rules
+for games (frequency
+
+The striker is the player that scores the most when the winger is
+assisting. The opposite wingers, the midfielders are other players that
+also have some proeminence on scoring when the winger is assisting. A
+relation between the type of assist and who is scoring would be a
+variable that could contribute more for a pattern recognition.
+
+Independently from who is scoring, the
+finishing areas when the assist is coming from
+the wingers are mainly inside the box and
+within a privileged finishing angle towards the
+goal.
+
+The interaction between the winger and the striker should be prioritized
+in the game.
+
+The finishing inside the 16m box should be
+prioritized in the game, particularly when the
+winger is assisting.
+
+of actions and suggested Game form: Gk+6v6+Gk Tactical-technical constraints: 1) First touch
+conditions)
+finishing goal inside the 16m box=extra points;
++ 2 jkrs. Suggested
+formation: (1)-2-3-1.
+
+27
+
+2) wingers are used as jokers;
+
+Pitch dimensions: 50x40m using box as
+reference. Playing against two 11-a-side goals.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+B) Wingers’ crossing situations
+Phase 1 – Movement before the ball
+Attributes
+1.
+2.
+3.
+4.
+
+Finn timing for å komme inn i rom på riktig tid, reposisjoner om nødvendig;
+Finn optimal ”høyde” i rommet og posisjon som skaper tvil hos motstander ifht. hvem 1.F;
+Søk rettvendt kroppsposisjon før første berøring;
+Søk posisjoner for å utnytte kompetanse (egen, med- og mot - spiller).
+Kompetansekrav i roller – Kantspillere (TFS, 2014)
+
+In relation to the opponent
+
+KANT - INNLEGG ETTER TREFASE MODELL - FASE 1: KOMME PÅ BALL
+
+Numbers
+interpretation
+
+The distance in mellomrom
+Before the crossing the
+In the majority of the
+is in most situations 5-10m The distance behind the
+winger is moving into
+When the winger is
+situations when the
+(higher than observed for defensive line is mostly
+areas were there is a
+moving into a crossing
+winger is moving before
+the assists). Potentially,
+between 10 to 20m. This
+normal or small
+position the opposite team
+crossing the ball the B4 are
+when the crossing is
+distance gives the winger
+concentration of players (is is balanced in the majority
+falling towards their own
+coming the distance
+opportunity to vary the
+the small concentration
+of the situations.
+goal.
+between lines (b4 and
+type of crossing.
+due to switch of play?).
+midline is 5-10m).
+
+The counter-attack
+The game should enhance
+The defensive
+situations should be
+fast breaks (fast transition
+The game should provide
+concentration on the
+avoided in the game (fast moments against balanced The games' playing area
+the opportunity for the
+center of the game should
+transitions against
+and organized opposition).
+should provide the
+winger to explore the
+vary so that the winger can unbalanced opposition), so
+The defensive line is
+opportunity for the winger
+Conditions and rules defensive lines vertical
+experience different
+that the winger can
+organized, but the
+to take advantage of a 10movements (push up/fall
+for games (frequency
+relations of time and
+experience playing against
+remaining lines are
+20m distance in bakrom .
+down).
+space.
+established and balanced unstructured (more space i
+of actions and suggested
+defensive structures.
+mellomrom ?)
+conditions)
+Tactical-technical constraints: 1) Dutch Rule adaptation - the game re-starts with
+coaches ball on the sideline; 2) delimited side corridors; 3) Defending team can
+only play in two corridors; 4) Game
+
+28
+
+Pitch dimensions: 40x40m
+Game form: Gk+6v6+Gk.
+using box as reference.
+Suggested formation: 1-3-3
+Playing against two 11-aor 1-2-3-1.
+side goals.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Where the winger receives the ball and movement before the ball
+
+KANT - INNLEGG ETTER TREFASE MODELL - FASE 1: KOMME PÅ BALL
+
+When the winger is moving into crossing positions he is always facing the The movments of the winger are mostly to create
+goal. His movements are mostly close to the sidelines and on the last
+width and to move forward on the pitch. The
+third. The movements to get the ball on the inside left areas of the pitch relation between the areas to where the winger
+are observed in 16% of the situations. The inside right areas have no
+is moving and the type of movement is
+observed situations.
+coincident (width=sidelines).
+
+Numbers
+interpretation
+
+Conditions and
+rules for games
+(frequency of
+actions and
+suggested
+conditions)
+
+29
+
+The game should enhance the situations where the winger can receive
+the ball towards the goal. His movements on the last third and in the side
+corridors should be prioritized.
+
+The game should have adjusted dimensions to
+provide a high frequency of two type of
+movements from the winger (verticality and
+width).
+
+Tactical-technical constraints: 1) Dutch Rule - the
+Game form: Gk+2v2+Gk Playing against two 11- game re-starts with Gks' ball; 2) delimited side
+corridors; 3) wingers as the jokers on the sidelines;
++ 2 Jk.
+a-side goals.
+4) touch limitation for the wingers (1-3).
+
+Pitch dimensions:
+20x45m using box as
+reference.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 2 – From the opportunity to reality
+Attributes
+1.
+2.
+3.
+
+4.
+
+Vær oppdatert på mulige rom og medspiller(e) før første berøring;
+Evne å plukke opp riktig signal og kjenne igjen mønster i spillet/hva skjer, og når;
+Evne å kontrollere ballen under ekstremt pressede rom- og tidsforhold:
+a. Kort avstand mellom ball og kropp; være beredt til å gripe ”rett rom til rett tid”
+b. Kort tid mellom første og andre berøring
+c. Ro
+Finn optimal timing (tid/rom i samhandling)
+Kompetansekrav i rolle – Kantspillere (TFS, 2014)
+
+Pressing, type of actions, time with the ball and number of touches
+
+KANT - INNLEGG ETTER TREFASE MODELL - FASE 2: FRA MULIGHET TIL REALITET
+
+Numbers
+interpretation
+
+There are not many observed
+76% of the observed situations the
+When the winger receives the ball The type of actions is diverse and situations where the winger has
+winger is using four or less touches
+for the crossing the defensive
+variable, but with particular
+the ball more than 5''. The 1'' and
+on the ball before the crossing. Do
+pressing is most of the times 2-3m incidence on one touch crossing or
+2'' situatons can favor the one
+other situations mean individual
+away (67%).
+crossing after dribbling (56%).
+touch crossing and receiveactions before the crossing?
+crossing.
+
+Conditions and
+rules for games
+
+The game should enhance a
+defensive pressing on the winger
+in the moment of the crossing.
+
+The game should provide the
+opportunity for the winger to use
+different actions before the
+crossing.
+
+Pitch dimensions: 60x45m using
+box as reference. Playing against
+two 11-a-side goals.
+
+Game form: Gk+7v7+Gk.
+Formations: 1-4-3 or 1-3-1-3.
+
+(frequency of
+actions and
+suggested
+conditions)
+
+30
+
+The game should increase the
+speed of the wingers' decision
+making in the crossing situation
+(how and when to cross?).
+
+The game should provide the
+opportunity for the winger to link
+the number of touches to the type
+of crossing (early perception of the
+finishing opportunities?)
+
+Tactical-technical constraints: 1) delimited side corridors; 2) goal after a
+backwards crossing=extra points; 2) Dutch Rule - the game re-starts
+with Gks' ball; 4) touch limitation for side corridors=1 touch.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 3 – The decisive passing
+Attributes
+1.
+2.
+3.
+4.
+
+Evne å forløse riktig rom til riktig tid;
+Ha bredt tilslagsrepertoar med tyngdepunkt på innsidepasning;
+Ha et kamuflerende element;
+Presisjon og optimal vekting av pasningen.
+Kompetansekrav i rolle – Kantspillere (TFS, 2014)
+
+From where on the pitch, pressing and type of crossing
+
+KANT - INNLEGG ETTER TREFASE MODELL - FASE 3: DEN AVGJORENDE PASNING
+
+In the crossing moment the
+defensive pressing towards
+the winger is at 1-3m distance,
+with more incidence on 1m
+(44%) and 2m (38%) distances.
+
+Numbers
+interpretation
+
+Conditions and rules
+for games (frequency
+
+The winger is crossing with higher incidence on
+the last third. Ca. 30% of the crossing is inside
+the 16m box. The area with more incidence is
+outside the box within an horizontal line from
+the penalty mark.
+
+The wingers should have the opportunity to roam into
+The goals after a crossing
+both corridors to take advantage of the best
+The game should enhance the wingers' crossing
+should be prioritized in the
+positioning to cross with the inside foot. The number
+from pre-defined zones (and to pre-defined
+game. Such condition can
+of finishing options should also be enhanced so that target zones?). A variation of early/late crosses
+increase the defensive
+the winger can add a camuflage element to his
+and outside/inside 16m box.
+pressing in a crossing attempt.
+crossing.
+
+of actions and suggested
+conditions)
+Pitch dimensions: 30x45m
+using box as reference.
+
+31
+
+The inside foot is the type of touch more used in the
+crossing moment. 44% is crossing on the ground and
+38% is crossing with… In 40% of the situations the
+crossing has a camuflage element.
+
+Tactical-technical constraints: 1) 2 delimited side
+corridors where only the jokers can play at maximum 2 Playing against two 11- Game form: Gk+4v4+Gk
+touches; 2) Dutch Rule - the game re-starts with Gks'
+a-side goals.
++ 2 Jkrs (winger).
+ball; 3) first touch goals=extra points;
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+2014-2015
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+Where the crossing is going, who is scoring and where
+
+KANT - INNLEGG ETTER TREFASE MODELL - FASE 3: DEN AVGJORENDE PASNING
+
+The winger uses the last defensive line as a
+In 56% of the crossing
+reference for where to place the crossing. 44%
+situations from the winger, the
+When the winger is crossing the goals are scored
+of the crossing is to use the space between the
+striker is the player that is
+inside the 5m box (ca. 44%) and in the central
+defenders in the line, 44% of the crossing is
+scoring. The opposite wingers
+area of the 16m box (50%). 6,3 % of the goals
+betweeen the Gk and the defensive line and
+represent 31% of the situations
+scored after crossing are outside the box.
+13% of the crossing goes in front of the
+and the midfielders 12%.
+defensive line.
+
+Numbers
+interpretation
+
+The interaction between the
+winger and the striker should
+be prioritized in the game.
+
+Conditions and rules
+for games (frequency
+of actions and suggested
+conditions)
+
+32
+
+The game should provide the opportunity for
+the wingers to cross from different areas. Early
+or late crosses can enhance its direction and
+vary the target zone.
+
+The game should prioritize the finishing inside
+the 16m box after a crossing, but still provide
+the possibility for finishing outside of the box.
+
+Tactical-technical constraints: 1) 2 delimited
+side corridors where only the wingers can play
+Pitch dimensions: 30x50m using at maximum 2 touches in the attacking phase; 2) Playing against two 11Dutch Rule - the game re-starts with Gks' ball; 3)
+box as reference.
+a-side goals.
+goal in the 5m box=extra points; 4) goal outside
+the 16m box=extra points.
+
+Game form:
+Gk+5v5+Gk.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+C) Wingers’ scoring sequence
+Phase 1 – Finding the scoring space
+Attributes
+1.
+2.
+3.
+4.
+
+Søk posisjon som gir deg tilgang til scoringsrommet;
+Søk posisjon som kamuflerer inngang til scoringsrom;
+Reposisjoner deg - når situasjonsbildet endres;
+Søk posisjoner for å utnytte kompetanse (egen, med- og mot - spiller).
+Kompetansekrav i rolle – Kantspillere (TFS, 2014)
+
+In relation to the opponent
+
+KANT - SCORINGSSEKVENSE ETTER TREFASE MODELL - FASE 1: FINNE UTGANGSPOSISJON
+
+Numbers
+interpretation
+
+When the winger is
+starting to move to his
+scoring position, the last
+defensive line is falling
+back towards their own
+goal (71%).
+
+When the winger is starting to move into a scoring
+The winger starts his movement to score mostly when position, the distance between the defensive line and
+there are low concentration of players (42%). Still, 52% the midfielders line is variable, although there is more
+of the times the area around the ball is congestioned. incidence on a 5-10m distance. In 50% of the times the
+In 25% of the times the winger takes advantage of the
+winger is moving into scoring position, the space
+unbalance in the opposition when moving into scoring
+behind the defenders has between 10 to 20m.
+positions. Still, for 75% of the times the other team is However there is also a large incidence of the wingers'
+numerical balanced.
+movements when the bakrom has more than a 30m
+distance to the goal line.
+
+The playing area should be
+The winger should have the opportunity to explore the
+adjusted to the presence
+The game should provide the opportunity for the
+space between and behind defensive lines. The
+of a defensive line with 3-4
+winger to explore different levels of defensive
+distance to the goal should be adjusted to the fact that
+defenders and enough
+concentration.
+However,
+in
+both
+situations
+achieving
+a
+Conditions and rules
+exploring both spaces are rewarded with a finishing
+length for defensive
+finishing position should be the main focus.
+for games (frequency movements (push up and
+opportunity.
+of actions and suggested
+fall down).
+
+conditions)
+Pitch dimensions: 30x40m
+using box as reference.
+
+33
+
+Tactical-technical constraints: 1) Dutch Rule - the game
+re-starts with Gks' ball; 2) Zonal surplus (opposition
+Playing against two 11-ateam from the winger has one more player in
+side goals.
+defensive half).
+
+Game form: Gk+6v5+Gk.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Direct opponent and from where the winger finds the finishing space
+
+KANT - SCORINGSSEKVENSE ETTER TREFASE MODELL - FASE 1: FINNE UTGANGSPOSISJON
+
+Numbers
+interpretation
+
+Conditions and
+rules for games
+(frequency of
+actions and
+suggested
+conditions)
+
+34
+
+In the wingers' starting position to scoring the
+The wingers' scoring
+The wingers' starting position before scoring has
+closest players are the wide players (fullbacks, starting position is mostly
+diverse incidence (6 areas). However, the higher
+wingbacks, wingers). Still in 18% of the times on the offensive half with
+incidence is in the space in the last defensive line
+the closest player is the central midfielder (is
+a high incidence in the
+(34%) and in mellomrom (55%).
+the winger starting from inside?).
+central corridor (89%).
+The game should enhance the opposition
+relation between the winger and the opposite The game should give the The winger should have the opportunity to explore
+wide player, particularly the fullback. It's
+different spaces in the game, but with intention to
+opportunity ffor the
+important that the winger can have a similar
+og to the goal whenever possible. Two defensive
+winger to prioritize the
+type of resistance in training as he has in the play in the offensive half.
+lines should be organized.
+match.
+Tactical-technical constraint: 1) Man marking
+Pitch dimensions: 30x40m Playing against two 11- Game form: Gk+5v5+Gk.
+zones - offensive half or defensive half (mixed
+using box as reference.
+a-side goals.
+Formations: 1-2-3 or 1-3-2.
+defensive method);
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 2 – Conquering the scoring space
+Attributes
+1.
+2.
+3.
+
+Kamufler inngangen til scoringsrom;
+Finn optimal timing (tid/rom i samhandling);
+Lese ballbanen og justere bevegelse underveis.
+Kompetansekrav i rolle – Kantspillere (TFS, 2014)
+
+Type of actions
+
+KANT - SCORINGSSEKVENSE ETTER TREFASE MODELL - FASE 2: VINNE SCORINGSROM
+
+Numbers
+interpretation
+
+To conquer the scoring space the winger uses 6 diffferent type of actions with a significant incidence in almost all of them.
+The ones that are more frequent are a high intensity run , a change of rythm and pace , his accurate positioning in the space
+and multidirectional movements .
+
+Conditions and
+rules for games
+
+The game should provide the opportunity for the winger to focus on different ways to conquer the space and to use his
+different attributes. The area of play should have an adjusted dimensions to the type of actions that are required. Such
+actions have different physical and tactical-technical demands.
+
+(frequency of
+actions and
+suggested
+conditions)
+
+35
+
+Pitch dimensions:
+20x40m (whole box
+width).
+
+Game form:
+Gk+2v2+Gk.
+
+Tactical-technical constraints: 1) the game rePlaying against two 11starts from diagonal angles; 2) touch limitation a-side goals.
+max 3 touch.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Phase 3 – Finishing
+Attributes
+1.
+
+Handling & handlingsvalg for siste berøring(er) ved scoring.
+Kompetansekrav i rolle – Kantspillere (TFS, 2014)
+
+Pressing, repertoire, number of touches
+
+KANT - SCORINGSSEKVENSE ETTER TREFASE MODELL - FASE 3: SCORINGEN
+
+Numbers
+interpretation
+
+Conditions and rules
+for games (frequency
+of actions and suggested
+conditions)
+
+36
+
+When the winger is
+scoring the defensive
+pressing on the
+moment of the first
+touch is mostly
+between 1-2m (84%)
+
+The winger is scoring more on first touch as the distance to the goal gets
+The winger is scoring
+closer (80%-56%-25%). On the opposite hand, the scoring after two
+more often with his touches happen more often as the distance to the goal gets further (20%inside foot (47%) and 30%-37,5%). Only between 5-16m and outside the 16m box the winger is
+with his instep (31%). using three touches to score (11%, 12,5%). Four or more touches are used
+with high incidence outside the 16m.
+
+The game should
+The game should provide a higher frequency of
+The game should provide the opportunity to
+provide an intense
+positions roaming so that the winger can look adjust the type of finishing (and the number of
+defensive pressing on
+for the best area to finish with his inside foot or
+touches) to specific areas on and around the
+the moment of
+instep.
+16m box.
+finishing.
+
+Pitch dimensions:
+30x20m using the box
+as reference.
+
+Game form:
+Gk+4v4+Gk.
+
+Playing against two 11a-side goals.
+
+Technical constraints for the winger: one touch
+finishing inside 16m box=extra points; 2) Long
+shot finishing (outside 16m box)=extra points.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Zones of finishing and targeting
+
+KANT - SCORINGSSEKVENSE ETTER TREFASE MODELL - FASE 3: SCORINGEN
+
+Numbers
+interpretation
+
+Conditions and rules
+for games (frequency
+of actions and suggested
+conditions)
+
+37
+
+The wingers are placing their shots in every area of the goal. However
+The wingers are scoring 82% of their goals inside
+the highest incidence is in low placed shots (64%). The right low corner is
+the box. 74% of this goals are in privileged
+the area with higher incidence. We have no information if it is the close
+finishing angles towards the goal.
+or the far corner from the shooting position.
+The game should provide the opportunity for
+The winger should be incentivated to shot and hit the target, as the
+the winger to attempt finishing inside the box in
+incidence of the area where the shots are placed is broad. However, the
+every possible angle. However, the area of play
+low corners and the low placed shots should be prioritized (play safe
+should consider also the area on the edge of the
+finishing?)
+box.
+Pitch dimensions:
+20x20m using the box
+as reference.
+
+Game form:
+Gk+3v3+Gk.
+
+Technical constraints for the winger (and for all
+Playing against two 11players?): 1) shots out of target=10''suspension;
+a-side goals.
+2) goal with non-dominant foot=extra points.
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+VI.
+
+2014-2015
+
+Discussion
+
+A) Matching the report objective(s)
+When we started our report two objectives where defined: a) to translate the information provided
+by NCFE to a pragmatic training approach on the pitch; b) in the processing of the previous point,
+create and organize conditioned games that could engage the wingers in a process of implicit
+learning. The NCFE report refers to the game situations observed in the World Cup 2014. It’s very
+important to define this context. Within this information we can read the more frequent actions
+from elite level wingers performed in one of the highest levels of competition in the football world.
+Reading this type of information provides a reference for the development of a role that we expect
+can decide a football match. Our initial thoughts about the translation of this information to the
+training ground guided us to create a game centered approach that could enhance the type of
+actions that are more effective at top level. Several points of discussion emerge from this starting
+point. We want to underline two of them that are useful to approach in our discussion:
+a) Why not read the wingers’ references and create a training approach where the attributes are
+trained isolated, hoping that the sum of such isolated parts could create the necessary “package”
+for the matches?
+We could more pragmatically observe where in the pitch the crossing is more frequent and/or
+effective and organize an exercise that can promote a certain amount of repetitions that can
+enhance its reproduction in a game situation. We could also observe how is the winger scoring more
+often and where and, like the previous example, promote another exercise that could engage the
+winger in such repetitive action. The game, however, is made of players’ decisions that, once
+occurring in a chain of events, will permanently influence one another and result in the game play.
+When we isolate the training from such chain of events and only attempt to reproduce its isolated
+parts, we put at risk the development of a repertoire that can be used effectively in the game, when
+the game has its various demands. The picture from Mordillos’ football skills can be a good
+illustration of this skill isolation. Therefore, our intention was to invest our energy in creating game
+constraints that could enhance the frequency of the actions that we pretended to use as references
+for the wingers. Nonetheless, because individual differences amongst learners are embraced by a
+student-centered approach as opposed to the traditional one-way-fits-all philosophy, it’s important
+that the individual execution that rates the performance can remain open and adjustable to the
+players’ particular motor patterns. As learners advance to the control stage they become increasingly
+able to demonstrate flexible, adaptive behaviors in different performance scenarios.
+The second angle in this discussion is the emotional distress that we need to add to the training. Has
+we already stated in our conceptual framework definition, the game is the situation in training that
+we know the players will be emotionally involved. The level of engagement in training can be
+achieved in various and different ways, but playing a game will more naturally add an emotional
+distress that is necessary to experience when we prepare the players for a formal competition. A
+game centered approach to training is the logical way to embrace Damásios’ lessons on reason and
+emotion. We need our emotions to decide better and more effectively. The high variability of the
+games and exercises are, therefore, a tool to achieve a more effective decision making in our players.
+Although Castelo (2003) acknowledges different types of exercises in his taxonomy, when it comes to
+the development of tactical-technical factors and the relation to the game, his suggestions are based
+mostly in how we can manipulate the game to achieve the objectives that we define. Finally, is also
+important to underline that a game centered approach to training has also the openness of letting
+
+38
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+something happening that was not previously under prediction. The game situation that we aim to
+train can be reinvented by the players. As stated by Chow (2008), creating variability in practice is
+essential to learners’ exploratory activities during game play and produces flexible and adaptive
+individuals who can create new solutions to solve typical motor problems. One of the advantages that
+we have by organizing games in an implicit perspective with the goal of developing the winger is that
+we allow that something new and unexpected solution can be created. The numbers that we
+analyzed towards the balance of the opposition and the level of organization (concentration and
+distance of the defensive line to the goal) both when the winger is assisting and scoring, have shown
+us that in most of the situations the teams are balanced. We have observed a normal or high
+concentration around the ball and a defensive line falling towards their own goal. This level of
+defensive challenge sometimes can only be broken by some magic element that is taken from the
+wingers’ own repertoire. This is valid for the assists and for the goals. Therefore, a low demand on
+explicit instruction on how things should be done and a higher focus on this is the game, play it, can,
+in fact, enhance the desired creative outcome. We aim to develop in the winger the same problem
+solving capacity as the Mordillos’ Goalkeeper… but within the rules of the game.
+b) Why not use the wingers’ references to create a check list of what to do, how to do it, when and
+where, engage the players in its practice during training and evaluate their performance from
+that process?
+A large number of football players are educated to being told what to do. If-then rules are, in fact,
+what the majority of the football coaches recognize has their main responsibility (no research data
+on this matter, but an own intuition). Therefore, it’s quite normal that the players like the coaches
+that are clear in the message of what, how and when to do a certain action. The circle is closed when
+we acknowledge that our energy investment is this type of messages and information is higher than
+for any other coaching tool. There is nothing wrong in this assumption. Our belief is that it’s not
+complete and it shouldn’t be exclusive in our work. As we become more proficient in a certain task
+our energy demands decrease. Research in neurobiology has shown that the activity pattern
+associated to a task changes as the capacity increases, with less brain areas involved (Kahneman,
+2012). This would justify if-then rules and the check list method. However, Kahneman (2012)
+continues, the more intelligent individuals have less energy needs to solve the same problems (…) the
+general law of minimum effort applies either as to cognitive as to physical engagement. This law
+states that if there is various ways of achieving the same objective, people will take the less
+demanding action. Then the question becomes more sophisticated. What kind of proficiency to we
+want to develop in the winger (and in the players)? Where do we want the players to use less
+energy? In the actions that they already know but, due to the unpredictability of the game, might not
+be necessary? Or in the routine of reading a situation and, according to it, chose the most effective
+(and economical from the energy point of view) action to solve the problem? We believe that players
+like Pirlo (2013) to whom I think therefore I play and everything is about geometry, an approach such
+as ours would be the most effective.
+
+39
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+When it comes to our second objective for this report is important to refer that it’s very difficult to
+draw the line from what is explicit and implicit in terms of coaching input. Even in the situation that
+we put ourselves into: we are organizing games so that we can get what we want from it without
+showing explicit evidence of it. How much of that process is implicit if the outcome that we want
+from our game is somehow pre-defined? The players can learn in an implicit way (hopefully with A-A!
+moments), but the object of learning is manipulated beforehand. Are we organizing a game with
+explicit pre-defined outcomes to be learned in an implicit way? 1) We want the winger to move into
+mellomrom and take advantage of that space when it’s large enough for him to assist to goal – an
+explicit input; 2) we organize a game where that situation has a higher probability to happen – an
+explicit input; 3) the inside cut actually happens often during the conditioned game – implicit
+learning; 4) The movement to use mellomrom becomes automatic and a playing habit – job done?
+The second challenge of translating the numbers to the training ground in a game centered approach
+is that, once our input has an implicit nature we have to be persistent and consistent in its pursue
+over time. This resilience is essential for two main reasons: a) because the outcome of the game
+might not be coincident to the outcome that we predicted; b) because the outcome is not
+immediate. The games are not exclusive from its starting objectives. There are other capacities that
+are developed alongside the ones – we expect – could become more frequent. The situation might
+occur that the frequency of the actions that the game enhances is different from the planned ones.
+It’s important to recognize when this happens and readjust the constraints of the game. We have to
+be both flexible and humble through this process. Flexible enough to change, adapt and adjust, and
+humble to recognize our mistakes. We will fail a certain amount of times until we get the most
+approximated version to realize our intentions. The interesting part of coaching is once you get it you
+have to adjust it again, as the only constant in the game is the change itself. That said, it’s important
+to underline that some of the game constraints that we suggest are not “tested” yet. Even the ones
+that are more or less usual in our practice might not achieve the desired outcomes in some
+situations. The matrix of games that we suggest is, therefore, just the beginning.
+The practice delivery that includes the games in our matrix should also consider that there are
+variables that can be added and that were not object of our planning. Training delivery variables like
+the games placement in the session (Del 1? Del 2? Hoveddel?), sequence of progressions and training
+elements such as the types of energy production that the coach is aiming to are some of the
+examples. The variables that we manipulated can, therefore, be adjusted to the intentions of each
+coach. The pitch dimensions and the number of players can have a big impact on the energy
+production processes, for example. A couple of meters added to the width or length can produce
+significant different outcomes. The numbers and the pitch dimensions that we have defined for each
+game were focused almost exclusively on the tactical technical outcomes.
+In Rosenborg BK, the game centered approach is not something new. Nils Arne Eggens’ methodology
+was strongly based in game play. Although the session themes had a technical nature, the games
+were organized in a similar way that we suggest that some of the games in our matrix are organized
+(particularly the games with side corridors and extra players)12. However, what we provide with our
+matrix is a fundament more around why that about what. The main focus is more on why do we
+organize the games the way that we do, with the constraints that we create, and less on what games
+do we do. The variability is present is both cases, but the propensity principle13 is more present on
+the first than in the second.
+
+40
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+B) Difficulties, challenges and limitations
+In our problem definition we anticipated two main challenges: a) how could we control (and
+evaluate) the impact of the game constraints on the development of the players; and b) how could
+we decrease the high level of retroaction - time between our input and the desired outcome (the
+impact of the game constraints is not as immediate as the direct instruction and feedback). We have
+no answer to such challenges. However, the level of reflection provided by our work on the matrixes
+can enhance the answer to such challenges. When such games are delivered in training we can have
+a clearer idea on its efficiency, but we will only see the big picture when we use such a training
+approach over time. Then, the possible adjustments and (re)adaptations of each game will improve
+its utility and contribute for a better assessment of the development of the players and particularly
+the ones who perform the role of the winger.
+Some of the challenges that we can suggest for the future are positioned in two different levels:
+analytical and practical. The games that were created could benefit with a process of correlative
+analysis of the information: what are the differences in each phase according to the winger
+intentions (scoring and assist)? What are the similarities? How is the analyzed game situations
+created? What is happening for those structural distances and positioning to occur? Which
+interdependent relations are created (is the mellomrom 10m when the winger is assisting because
+the striker had a diagonal movement?)? The analyzed situations are isolated from these elements.
+With information about what happens before or after each action from the winger we could take the
+step further of designing games and exercises that deal with a higher complexity due to the players’
+interactions variable. On the practical level an interesting challenge would be how do we articulate
+the development of the role of the winger with other specific roles’ development? How much do we
+focus on the game organization particularly for wingers, when the teams’ playing style is the most
+important aspect to prioritize? How can we achieve such balance? This last challenge can also be
+understood as one of the limitations of our matrix. It refers exclusively to the wingers or is it attached
+to the reference attributes? Some of the attributes of the winger are similar to the ones of a full-back
+or to an offensive midfielder. Can the games be used to serve the reference attributes,
+independently from the role?
+At which level these games should be introduced? Which progressions should be used? Is it
+important that the role of the winger is developed in early ages? If we want to develop a winger that
+is playing in Tippeliga can we use the same references? The number of questions can be multiplied
+by how much curiosity and interest we have in this theme. Is the main limitation of this study the
+higher number of questions it raises than the answers it provides?
+
+41
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+VII.
+
+2014-2015
+
+Conclusion
+
+A) The report End Product
+Changing is difficult. Particularly in the situations when we tasted some success by doing what we
+have always have done. When it comes to coaching, this change has an extra challenge not only
+because we experience the unknown, but also because we have no guarantees that what we are
+changing is going to makes us better and, more particularly, to have a positive influence our results.
+The consequence of changing is drawn every weekend in 90 minutes. As we presented in the
+conceptual framework chapter, the conventional way of coaching engages mostly in an explicit
+perspective, with rigid recommendations about how everything should be done and what exactly
+should happen… from the technical demands to the tactical outcomes. It’s not our intention, neither
+from our report, to affirm that this is wrong, but to state instead that it’s not all completely right.
+What we try to show is that there is other way – and with more impact on learning – that should not
+only be acknowledged, but actually used. During this UEFA A course we had the chance to listen to
+education experts such as Lars Tore Ronglan stating that we should use different ways to reach our
+players and to maximize learning. It was also very clear along the course that we should use mostly
+the game and playing situations to influence our players. The amount of practical sessions that we
+engage into is a good example of that. Still, the demands that we all have had during those practical
+sessions were underlined exclusively by an explicit approach to learning. Situations as stopping the
+play, directive instruction or questioning about the solutions that we already had were the most
+incentivized and rewarded type of coaching. What we attempt to achieve with these matrixes that
+are the end product of our work is to present an alternative way of approaching the practice. We can
+influence the players’ development and the team way of playing just by manipulating the variables of
+the exercises and games and by creating specific constraints. The number of players or of specific
+actions, the pitch dimensions and its geometry, technical constraints or rules and scoring are
+elements of the games and exercises organization that can take out for the training the situations
+that we need to see more often.
+A part of the games that we suggest are recognizable for some coaches and new to others, and we
+don’t presume that we have created something really original in this task. What we think that is
+consistent is that we managed to connect intentions into a product and pre-defined objectives to a
+way to realize them on the pitch. Just as we all coaches do in our session planning. A large part of the
+rules, conditions and constraints of the games that are suggested have been part of previous sessions
+in different teams, for different levels of competition and various age groups (with the adjusted level
+of complexity). Some of them work really good, some of them don’t. Some of them are easy to
+recognize by the players, some of them take some time. It’s certain that the winger as not been the
+object of such conditions and constraints. Usually, such games manipulation is used to achieve a
+certain playing style or a way to interpret a moment or phase of the game. Yet, we have no reason
+not to trust how effective it can be.
+We are not sure of how much the coaches are going to find our matrix a good working tool. Even so,
+we design it for them. One of our intrinsic goals in this report was to have a contribution for the
+coaches’ practice. We believe that we were able to create a consistent tool, with fundament and a
+theoretic background. It has, of course, its limitations and it can be improved. The fact that it will at
+least reach the UEFA A coaching license candidates is a guarantee that the matrix will be better from
+the moment that will be under their scrutiny. Critical minds improve the quality of any process or end
+product.
+
+42
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+B) Personal reflection
+It was challenging to write a report with this nature in a second language. Although the use of the
+English language in day-to-day work, it’s still difficult to express fluently. It’s an extra challenge for
+the Norwegian readers of this report, to who, of course, will be required an extra effort. The
+flexibility shown by NFF and the coach-educators team in this matter is something to deeply
+appreciate. Therefore, in some occasions it’s possible that the meaning or the shared ideas can be
+misunderstood or difficult to understand. It’s more probable that the cause of such situation is on
+behind the hands of its writer that in the perception of its reader. The lack of control of the English
+language semantic or correct sentence construction and extended vocabulary is not as vast as
+desired. The trap of using some “jargonism” was considered, even though the some of the
+terminology was strictly necessary.
+The second point of this personal reflection is the lesson about ambition and efficiency. Those two
+attributes might not walk hand-to-hand as often as we desire. We started this report with a diverse
+set of ideas to explore and various points of interest. The information available by TFS had set a high
+standard for a research-oriented report and we intended to set high expectations to ourselves. Many
+study points were dropped in the process. We intended to analyze the different types of wingers,
+their relation with different formations. It was also our initial idea to study the wingers in the four
+moments of the game and we only approached the offensive moment. It would be interesting to
+approach also how we can develop the winger in all the training dimensions. The less positive
+outcome of our approach narrowing was that we were not able neither to relate our matrix with the
+Rosenborg playing style and the wingers in its 1-4-3-3 formation, neither to relate our study with the
+youth development. Those two specific angles would play a leading contribution to the current
+professional development scenario. Still, we had before the feeling that such report would provide
+more future questions and motivate a sharper curiosity than provide particular answers. Those two
+angles of approach will have a solid ground to stand on when we decide to engage its study.
+We stated before that is important to close the gap between what science knows and what we do in
+football. In education and learning there are space and time for different approaches and styles. The
+most important message from our report is to show that everything should be considered and that
+better decisions – on an off the field – are drawn with more and better information, independently
+from the source (conscious or nonconscious). The new advancements in learning theory, supported
+by neurobiology, neuroscience, educational sciences and psychology can and should challenge the
+conventional coaches’ practices on the training ground. We believe that we had a contribution in this
+matter by engaging in a task like the one we presented.
+Finally, it’s also important to reflect on the impact that such task as in our professional development.
+The coaching community is mostly motivated to practical issues and to immediate outcomes. Still,
+the level of critical reflection and analysis, the professional dedication and the collaborative coaching
+networks have been feeding the knowledge around football training methodology and coaching
+philosophies. The coaching courses have the mission of developing a collective sense of hunger for
+knowledge and writing a report with this framework is an effective strategy. It takes time and energy
+and has its challenges particularly for the ones that are no in the job in full-time. But at the end we all
+share a feeling of accomplishment that would be difficult to feel in any other way.
+
+43
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+VIII.
+-
+
+2014-2015
+
+References
+
+Araújo, D., Davids, K., & Hrstovski, R. (2006). The ecological dynamics of decision making in sport.
+Psychology of Sport and Exercise, pp. 653-676.
+
+-
+
+Bergkamp, D. (2013). Stillness and Speed - My story. London: Simon & Schuster.
+
+-
+
+Castelo, J. (2003). Futebol - Actividades Físicas e Desportivas. Lisboa: Faculdade de Motricidade
+Humana.
+
+-
+
+Chow, J., Davids, K., Button, C., Renshaw, I., Shuttlework, R., & Uehara, L. (2008). Nonlinear
+Pedagogy: implications for teaching games for understanding. TGfU: Simply Good Pedagogy:
+Understanding a Complex Change, p. University of British Columbia.
+
+-
+
+Chow, J., Davids, K., Button, C., Shuttleworth, R., Renshaw, R., & Araújo, D. (2006, October). Nonlinear pedagogy: a constraints-led framework to understand emergence of game play and skills.
+Nonlinear Dynamics, Psychology and Life Sciences, pp. 74-104.
+
+-
+
+Damásio, A. (1994). O Erro de Descartes. Portugal: Europa-América.
+
+-
+
+Eggen, N. A. (1999). Godfoten - Samhandling, veien til suksess. Oslo: Aschehoug & Co.
+
+-
+
+Griffin, L., & Butler, J. (2005). Teaching Games for Understanding: Theory, research and practice.
+Champagin IL: Human Kinetics.
+
+-
+
+Guilherme Oliveira, J. (2014). Periodizacao Táctica: Pressupostos e Fundamentos. Brazil.
+
+-
+
+Hertz, N. (2013). Eyes Wide Open - How to make smart decisions in a confusing world. London:
+William Collins.
+
+-
+
+Jackson, R. C., & Farrow, D. (2005). Implicit perceptual training: how, when and why. Human
+Movement Science, pp. 308-325.
+
+-
+
+Kahneman, D. (2012). Pensar, Depressa e Devagar. Lisboa: Círculo de Leitores.
+
+-
+
+Lourenco, L. (2010). Mourinho - A Descoberta Guiada. Lisboa: Prime Books.
+
+-
+
+Magill, R. (1993). Augmented feedback in skill acquisition. In R. Singer, M. Murphey, L. Tennant,
+& (eds), Handbook of Research on Sport Psychology (pp. 193-212). New York: Macmillan.
+
+-
+
+Pink, D. (2009). Drive: A surpreendente verdade sobre aquilo que nos motiva. Alfragide: Estrela
+Polar.
+
+-
+
+Pirlo, A., & Alciato, A. (2013). I think therefore I play. UK: BackPage Press.
+
+44
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+-
+
+2014-2015
+
+Reber, A. (1993). Implicit Learning and Tacit Knowledge: An essay on the cognitive unconscious.
+New York: Oxford University Press.
+
+-
+
+Taylor, E. W. (2001, May-June Vol. 20, No. 3). Transformative learning theory: a neurobiological
+perspective of the role of emotions and unconscious ways of knowing. International Journal of
+Lifelong Education, pp. 218-236.
+
+-
+
+Toppfotballsenter, N. (2014). Kompetansekrav i Rolle.
+
+-
+
+Toppfotballsenter, N. (2014). Kvalitetskrav i spillet .
+
+-
+
+Williams, A., & Hodges, N. (2005). Practice, instruction and skill acquisition in soccer: challenging
+tradition. Journal of Sport Sciences, pp. 237-650.
+
+-
+
+http://blogs.ubc.ca/cognophilia/. (n.d.). http://blogs.ubc.ca/cognophilia/. Retrieved January 26,
+2015, from http://blogs.ubc.ca/cognophilia/
+
+-
+
+Wikipedia.
+
+(2014).
+
+Wikipedia.
+
+Retrieved
+
+November
+
+20,
+
+2014,
+
+http://en.m.wikipedia.org/wiki/Maxwell's_demon
+
+45
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+from
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+2014-2015
+
+Endnotes
+1
+
+The first time I read this statement was on a college wall when I was taking part of a Manchester United
+Soccer School Player Development Course (MUSS PDC) in the summer of 2013. Sir Alex Ferguson (or a creative
+MUSS marketing department) is the author of such statement.
+2
+
+(Wikipedia, 2014) In the philosophy of thermal and statistical physics, Maxwell's demon is a thought
+experiment created by the physicist James Clerk Maxwell to "show that the Second Law of Thermodynamics has
+only a statistical certainty".[1] It demonstrates Maxwell's point by hypothetically describing how to violate the
+Second Law: a container of gas molecules at equilibrium is divided into two parts by an insulated wall, with a
+door that can be opened and closed by what came to be called "Maxwell's demon". The demon opens the door
+to allow only the faster than average molecules to flow through to a favored side of the chamber, and only the
+slower than average molecules to the other side, causing the favored side to gradually heat up while the other
+side cools down, thus decreasing entropy.
+3
+
+(Hertz, 2013) The delude of information is a term used by the author to describe how people are drowning in
+information: For this is the age of data deluge (…) our stone-age bodies can’t cope with this modern-day deluge.
+Evolution is slow; the deluge has come fast. Confronted with data – some dodgy, some not – our hearts beat
+faster, our breath becomes more shallow, we sweat: the deluge makes our body shift into crisis mode. (p.5-6)
+4
+
+(Kahneman, 2012) The author explores the dichotomy of two modes of thought (System 1 and System 2) and
+its utility in the decision making process.
+5
+
+Adapted thought from the original quote: “If we want to strengthen our companies, elevate our lives, and
+improve the world, we need to close the gap between what science knows, and what business does.”
+6
+
+SL Benfica’s Head Coach Jorge Jesus was the first one I have heard to suggest the set pieces as the fifth
+moment of the game.
+7
+
+(Toppfotballsenter, Kvalitetskrav i spillet , 2014) A large amount of data in this paperwork is provided by
+reports, study cases or data collection from this research center.
+8
+
+(Toppfotballsenter, Kompetansekrav i Rolle, 2014) This report includes the analysis of the different positions
+on the pitch and the success criteria defined from the World Cup 2014 observation.
+9
+
+Dr. Fergus Connolly is a Sports Performance Consultant who has worked in elite team sports from Premiership
+football and International Rugby, to the NFL and NBA. He has a PhD in Computer Optimization and specializes
+in the development of unique effective monitoring, training and regeneration approaches to improving results
+in team sport. He gave a lecture at the UK Sport and Exercise Medicine Conference (now the British Association
+of Sport and Exercise Medicine) in 2011 to which we will refer to in a couple of occasions (we make reference
+to this source in the bibliography chapter).
+10
+
+The term repetition used here in the Bernsteinian sense, i.e. learners should not be required to repeat an
+identical movement pattern from situation to situation, but instead should be encouraged to repeatedly
+construct subtly differing, successful solutions to movement problems during learning (Chow, 2008).
+11
+
+(Toppfotballsenter, Kompetansekrav i Rolle, 2014) This report includes the analysis of the different positions
+on the pitch and the success criteria defined from the World Cup 2014 observation.
+12
+
+(Eggen, 1999) The chapter På tur med godfoten is illustrative of this aspect.
+
+13
+
+(Guilherme Oliveira, 2014) The propensity principle has the objective of creating practice contexts where the
+density of the principles that should be experienced are present regularly in training so that the game model
+can emerge within the team.
+
+46
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+THE ROLE OF THE WINGER – FROM THE NUMBERS TO THE TRAINING GROUND
+
+Annex
+Annex 1 – Wingers’ game book
+Annex 2 – Toppfotbalsenteret Kompetansekrav i Rolle rapport
+Annex 3 – Football pitch dimension (reference to the pitch dimensions)
+
+47
+
+HUGO CARLOS PEREIRA – WRITTEN REPORT, UEFA A LICENCE AT THE NORWEGIAN FOOTBALL FEDERATION
+
+2014-2015
+
+

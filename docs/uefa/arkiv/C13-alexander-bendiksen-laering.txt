@@ -1,0 +1,1626 @@
+Alexander Bendiksen
+UEFA – A lisens oppgave
+2016-17
+
+A single-case study on how to optimize the learning
+process and development of elite youth soccer players
+
+1
+
+Foreword
+Felix has been both fun and challenging to work with. We have worked every day (often several
+times a day) for over three years to improve all possible aspects of his game. I can honestly say that I
+have never met a person or player with his mentality where nothing really affects him. This has
+taught me a lot and also given me much joy. We have always been 100% honest with each other and
+there have been key moments where we have had to realign the course taken to give him the best
+possible chance of reaching his long term goal of playing at the very highest level.
+First, I would like to thank Felix for three years with a lot of fun, hard work and dedication towards
+reaching his and my common goal; making him a professional footballer. His parents Petter and
+Elisabeth also deserves a lot of praise for their willingness to sacrifice their spare time for his
+development.
+I would like to thank all my colleagues at Ullern Fotball for giving useful feedback which contributed
+to making this as good a paper as possible. I would also like to thank Øivind Nilsen, my mentor at the
+course, for providing genuine support throughout the process of this course.
+Thanks also to my siblings and father for language correction.
+
+2
+
+Content
+Foreword ................................................................................................................................................. 2
+1.0 Introduction ....................................................................................................................................... 5
+1.1
+
+Prerequisites to becoming a professional footballer .................................................................. 6
+
+2.0 THEORY .............................................................................................................................................. 8
+2.1 Self-regulation ............................................................................................................................... 8
+2.1.1 Self-regulation and sport .......................................................................................................... 10
+2.2 Intervention studies .................................................................................................................... 12
+2.3 Computer games ......................................................................................................................... 14
+2.4 Multiple object tracking (MOT) ............................................................................................... 14
+2.5 Questionnaires/evaluation forms ............................................................................................... 15
+2.6 Visualization/imagery .................................................................................................................. 15
+2.7 Goal setting ................................................................................................................................. 15
+2.8 One-on-one talks ......................................................................................................................... 16
+2.9 Individual sessions ....................................................................................................................... 17
+3.0 Methods .......................................................................................................................................... 17
+3.1 Participant ................................................................................................................................... 17
+3.2 Research design ........................................................................................................................... 18
+3.3 Self-regulation questionnaire ...................................................................................................... 18
+3.4 Evaluation forms.......................................................................................................................... 18
+3.5 Individual sessions ....................................................................................................................... 18
+Soccer-specific technical sessions ................................................................................................. 19
+Balance, agility, speed and coordination ...................................................................................... 19
+Strength training............................................................................................................................ 19
+3.6 Talks ............................................................................................................................................. 19
+3.7 Goals and goal setting ................................................................................................................. 20
+Example of 3-month goals ............................................................................................................. 20
+3.8 Video............................................................................................................................................ 21
+3.9 Visualization ................................................................................................................................ 21
+3.10 Week schedule .......................................................................................................................... 21
+4.0 Results ............................................................................................................................................. 22
+4.1 Game statistics ............................................................................................................................ 22
+4.2 Self-regulation questionnaire results .......................................................................................... 23
+4.3 Debut dates on different teams in Ullern IF Fotball (official games) .......................................... 24
+4.4 Debut dates on Norway’s youth national teams ......................................................................... 24
+4.5 Training with professional Norwegian clubs ............................................................................... 25
+3
+
+4.6 Training with professional clubs abroad ..................................................................................... 25
+4.7 Observations................................................................................................................................ 26
+4.7.1 November 2013 – June 2014................................................................................................ 26
+4.7.2 July 2014 – December 2014 ................................................................................................. 26
+4.7.3 January 2015 – June 2015 .................................................................................................... 27
+4.7.4 July 2015 – December 2015 ................................................................................................. 27
+4.7.5 January 2016 – June 2016 .................................................................................................... 27
+4.7.6 June 2016 – December 2016 ................................................................................................ 28
+5.0 Discussion ........................................................................................................................................ 28
+6.0 Felix’ impression of the experiment ............................................................................................ 31
+6.1 Gunnar Halle (youth national team coach) impression of Felix .................................................. 31
+6.2 Ole Johan Aas (Ullern First Team Coach) on Felix ....................................................................... 32
+7.0 Reference ........................................................................................................................................ 35
+8.0 Summary.......................................................................................................................................... 40
+
+4
+
+1.0 Introduction
+According to a FIFA survey (2001) approximately 250 million people from more than 200 countries
+regularly play soccer. The same survey adds that almost 5 million referees, assistant referees and
+other officials are directly involved in the game. In addition, an unknown number of people follow
+the game from the stands or on television. The game of soccer is hence important to a wide range of
+people and the importance of gaining scientific knowledge is crucial if the game is to continue
+developing through new training methods, medical research and the mental aspect to mention some
+factors.
+Firstly, this study will describe several prerequisites for becoming a professional soccer player as this
+is an important factor in making the player aware that everything he does every day will determine
+the grade of improvement he is able to make. Hence the player will understand that time is limited
+and the importance of becoming a ‘fast learner’ is inevitable if one is to succeed in achieving a
+professional status in the future.
+Furthermore, this study will look at how one can optimize the individual learning process using
+different learning techniques with self-regulation being the cornerstone. In addition, the techniques
+used included computer games, questionnaires, evaluation forms, goal setting, one on one talks on
+different subjects related to various aspects of the learning process and lastly individual training
+sessions. Firstly, I will discuss the underlying theory of the different learning techniques and then
+discuss how they were implemented and used on a weekly basis.
+The study looks at the implementation of these learning techniques in a, then, youth soccer player
+aged 17 (13 when the learning techniques were implemented for the first time), the effects they gave
+and how to optimize future learning techniques. It’s important to note that this is an ongoing
+exploratory case study which started in the fall of 2013 with no preset plan of which learning
+strategies to use or when. The player in this study came to the club at the age of 12. He was at the
+time no more than a promising player at best. The name of the player is Felix Horn Myhre, born in
+March 1999. In the following I will describe, in detail, how I have worked with this player both on and
+off the pitch in order to help him reach his goal to become a professional football player at the very
+highest level. The most important thing was to help him adopt and utilize the necessary tools to be
+able to develop as fast as possible both during his time at Ullern and at future clubs to, sometime in
+the future, reach his goal of becoming a player at world-class level.
+
+5
+
+1.1 Prerequisites to becoming a professional footballer
+There is no blueprint on how to become a professional soccer player. Regardless, science show there
+are several prerequisites that most players need to fulfill. First and foremost, players need to
+accumulate large amounts of practice to reach expertise level. In the theory of deliberate practice
+(Ericsson, Krampe, & Tesch-Roemer, 1993) the authors proposed that 10,000 hours of practice over a
+period of at least 10 years is necessary to reach professional status in a certain domain. Ericsson
+(1996) put forth four characteristics of deliberate practice; a well-defined task of appropriate
+difficulty, providing informative feedback information during practice, enough practice repetitions,
+and an opportunity to correct errors.
+
+A study by Haugaasen, Toering, & Jordet, 2014 looked at engagement in soccer-specific activities of
+elite youth soccer players who made the professional ranks or not. The soccer-specific activities
+were coach-led, competition/match play, play and goal-oriented individual/peer led. The study found
+that those obtaining a professional status accumulated more hours of practice although not
+significantly. They also found that there was a significant difference in coach-led practice at the age
+of 6 and 8 in favor of those reaching a professional status.
+
+The main postulate of deliberate practice (Ericsson et al., 1993) is that expert performance is
+acquired gradually and that efficient improvement of an athletes' performance depends on the
+coaches' ability to split up different tasks which the athlete can practice isolated and master
+sequentially. According to Ericsson et al. (1993) a teacher/coach needs to be present in order to
+maximize the effects of training because of the availability of explicit instructions, value of
+personalized informative feedback and corrective training. The coach must make plans for how and
+when the different training tasks are implemented and at the same time observe progression to
+decide whether a changeover to more difficult and complicated tasks is suitable. Ericsson et al.
+(1993) states that without the presence of a teacher personalized and explicit feedback, learning is
+impossible and improvement minimal.
+In top-level sports, the difference between success and failure is extremely tight, which is why
+Chambliss’ (1988, 1989) in his study on Olympic swimmers states the following “each one done
+correctly, time and again, until excellence in every detail becomes a firmly ingrained habit" (1989, p.
+85). When athletes are interviewed about their training regime, they usually express that nothing is
+left to chance and that the attention to detail is extreme.
+
+6
+
+The importance of concentration and focus is what sets deliberate practice apart from other
+mindless, playful and effortless activities which have no clear-cut goal of improving performance. The
+goal of deliberate practice is to improve a specific skill or aspect of performance by altering or
+modifying a person’s cognitive mechanisms (Ericsson et al. 1993). In a study by Hyllegard and Bories
+(2009) based on the theory of deliberate practice, they looked at music novices and their perception
+on the aspects of relevance, effort and enjoyment regarding music practice (learning a melody). After
+each practice session, the participants were asked to assess each of the three aspects mentioned
+above on a 10-point scale from low (1) to high (10). In addition, they were asked to rate six daily
+activities to ease the rating process and to assure validity. The practice sessions met the four
+characteristics defined by Ericsson as necessary for deliberate practice (1996); a well-defined task of
+appropriate difficulty, providing informative feedback information during practice, enough practice
+repetitions, and an opportunity to correct errors (p. 20-21). The results from this study supports the
+notion that deliberate practice is perceived to be relevant for improving performance, it is an
+effortful activity, and the inherent enjoyment of deliberate practice is comparatively low. These
+findings are in accordance with the theoretical framework of deliberate practice as proposed by
+Ericsson et al. (1993).
+In the well renowned book, The Genius in All of Us (2010), David Shenk delivers the following
+statement which arguably summarizes what deliberate practice is all about “For deliberate practice
+to work, the demands have to be serious and sustained. Simply playing lots of chess or soccer or golf
+is not enough. Simply taking lessons from a wonderful teacher isn’t enough. Simply wanting it badly
+enough is not enough. Deliberate practice requires a mind-set of never, ever, being satisfied with
+your current ability. It requires a constant self-critique, a pathological restlessness, a passion to aim
+consistently just beyond one’s capability so that daily disappointment and failure is actually desired,
+and a never-ending resolve to dust oneself off and try again and again and again” (p. 55).
+A study by Holt and Dunn (2004, 2006) showed what differentiates players who reach youth national
+teams or sign a professional contract with a club and those who are close to not getting a renewal of
+existing contract. The differences are shown in the table below.
+
+Prerequisites for becoming a youth national team player or signing a
+professional contract
+1
+Players succeeding
+Players not succeeding2
+
+
+
+
+
+High achievement goals
+Motivated by money and status
+Love of the game
+Determination to succeed
+
+
+
+
+
+
+High achievement goals
+Motivated by money and status
+Love of the game
+7
+
+
+
+
+
+
+Delay of gratification
+Goalsetting short- and long-term
+Coping with pressure
+Support from parents
+
+
+
+
+
+
+-
+
+1Youth national team players/players with a professional contract in the premier league (18-20 years)
+2Premier league players in the process of not being offered a contract (18-20 years)
+
+(Holt & Dunn 2004; 2006)
+
+With these findings in mind I have tried to develop a practice regime that take these requirements
+into effect every day at every session. In addition, I have always been on the lookout for innovative
+ideas within the learning and soccer-specific milieu.
+There was never a concrete plan of how and when to implement different strategies to develop this
+player. Nevertheless, self-regulation was a cornerstone from the beginning because of the influence
+self-regulation has shown to have on an individual’s ability to accelerate the learning process and
+learn more effectively (Baumeister & Vohs, 2004). In my opinion self-regulation is the most
+important prerequisite to learn effectively and therefore I have used extensive time to develop Felix’
+ability to self-regulate. In the following, I will go into detail on what self-regulation is and the
+research that has been conducted in relation to sports. In addition, I have experimented with other
+learning strategies to try and optimize his ability to learn.
+
+2.0 THEORY
+2.1 Self-regulation
+Self-regulation has been at the center of this experiment and was implemented immediately, first by
+filling out a self-regulation questionnaire to acquire a baseline and further by going through the selfregulation process with the player and explaining how to use it in the most practical way before,
+during and after training sessions and games. Because of the important role of self-regulation in this
+experiment, I have decided to use an extensive part of the theory on this topic.
+There are several studies focusing on self-regulation both in academia and sport (e.g., Husman &
+Dierking, 2000; Kitsantas & Zimmerman, 2002, 2006; Zimmerman, 1999, 2000, 2001, 2002;
+Zimmerman & Kitsantas, 1997; Winne, 1995). The reason for using this technique is because of the
+influence self-regulation has shown to have on an individual’s ability to accelerate the learning
+process and learn more effectively (Baumeister & Vohs, 2004). The time one has to reach a top level
+in soccer is short and self-regulation could be an important tool in utilizing this short time span. In
+addition, the adaptation process to different environments and settings becomes easier when one
+8
+
+self-regulates (Schmeichel & Baumeister, 2004). Self-regulated individuals also take an active part in
+their own learning process (Zimmerman, 1989, 2006). The intention of using this technique was to
+make the players more aware of their actions in training and, to try to influence and increase their
+use of self-regulation in daily soccer practice.
+Self-regulation can be defined as self-generated thoughts, feelings, and behaviors that are planned
+and cyclically adapted based on performance feedback (Zimmerman, 1989, 1998). Baumeister and
+Vohs (2007) further stated that ‘regulation means change; especially change to bring behavior (or
+other states) into line with some standard such as an ideal or goal. Changing one’s behavior so as to
+follow rules, match ideals, or pursue goals is thus a (very useful) form of self-regulation’. The term
+self-regulation was first introduced in combination with academia by Zimmerman and Schunk (1989),
+creating the term self-regulated learning. According to Zimmerman (1990), this perspective has
+serious ramifications for how teachers should work with students and potential school structure
+changes. The term self-regulated can be used to describe learning that is guided by metacognition
+(thinking about one's thinking), strategic action (planning, monitoring, and evaluating personal
+progress against a standard), and motivation to learn (e.g., Boekaerts & Corno, 2005; Butler & Winne,
+1995; Perry, Phillips, & Hutchinson, 2006; Winne & Perry, 2000; Zimmerman, 1990). Zimmerman
+(2008) constructed a cyclical model of self-regulation consisting of three phases:
+1. The forethought phase where the athlete develops a plan consisting of goals and strategies, which
+will help to guide that individual through the upcoming activity
+2. The performance phase where the athlete constantly makes himself aware of whether they have
+developed the appropriate plan to perform at a high level and attain their preset goal
+3. The self-reflection phase where the athlete evaluates his performance according to outcome, in
+addition to evaluating if the plan set before practice needs to be modified or changed.
+Summed up, self-regulation will not produce instant success or expertise but can help facilitate the
+learning process when acquiring knowledge and skills (Zimmerman, 2006)
+
+9
+
+Figure 2: Zimmerman’s (2008) cyclical model of self-regulation
+
+2.1.1 Self-regulation and sport
+Although self-regulation has been studied in academia for several decades, the research on selfregulation in sports has become increasingly more intense only in recent years, and several studies
+have shown a positive relationship between the use of different self-regulation processes and
+sporting achievement (e.g., Cleary & Zimmerman, 2001; Kitsantas & Zimmerman, 2002, 2006;
+Zimmerman & Kitsantas, 1996; Zimmerman & Kitsantas, 1997;). In an early study on self-regulation
+and sport, Kirchenbaum, Ordman, Tomarken and Holtzbauer (1982) found that self-monitoring is an
+effective self-regulation process. Three studies looking at self-regulation and dart-throwing provided
+support for a cyclical model of self-regulation because of improvements shown in the forethought
+phase, performance phase, and the self-reflection phase (Kitsantas & Zimmerman, 2006; Kolovelonis,
+Goudas & Dermitzaki, 2010). The studies further showed the necessity of guidance in the early phase
+of training when learning a new set of skills to optimize engagement in effective self-regulated
+practice. In addition, the studies indicate the importance of providing positive social feedback and
+encouraging students to set process goals and to self-monitor their own performance. A singlesubject study supported the use of mental skills training packages in athletic settings (Wanlin,
+Hrycaiko, Martin, Mahon, 1997).
+Cleary and Zimmerman (2001) completed a study which looked at self-regulation differences
+between expert, non-expert, and novice basketball players in the forethought and self-reflection
+10
+
+phase. The study was conducted during practice sessions in a gymnasium without presence of other
+students. Measures were self-efficacy, self-satisfaction, goal setting, strategy choice, attributions and
+shooting skill. The shooting skill results showed a significant difference in free-throw percentage
+favoring the experts (76%) over both non-experts (58%) and novices (42%). In addition to superior
+free-throw shooting, the findings in this study showed that experts demonstrated a higher level of
+self-regulation than non-experts and novices in both the forethought phase and the self-reflection
+phase. A similar study compared self-regulatory processes among expert, non-expert and novice
+volleyball players (Kitsantas & Zimmerman, 2002). All participants were measured on serving skill,
+strategy use, self-monitoring, self-evaluation, self-satisfaction with performance, self-efficacy,
+intrinsic interest, perceived instrumentality, self-satisfaction, goal setting, planning, attributions, and
+adaptation during a practice session. Results indicated a significant difference on all twelve selfregulatory measures favoring the expert group. It is worth noting that experts showed a significantly
+higher level of self-regulation than non-experts did, despite similar volleyball experience, knowledge
+of serving, and age. As supported by previous studies (Cleary & Zimmerman, 2001; Zimmerman &
+Kitsantas, 1997), experts demonstrated a higher level of forethought than both non-experts and
+novices by setting specific technique or process goals. Results further indicated that experts
+outperformed non-experts and novices in the performance phase as well. Tests combining all of the
+self-regulatory processes showed that they contributed to 90% of the variance in volleyball serving. A
+study on the basketball free-throw ability utilizing Zimmerman’s (2008) cyclical model of selfregulation showed that multiphase training of self-regulation processes resulted in superior shooting
+performance and made players more process orientated with regards to strategic planning and when
+evaluating and reflecting on performance (Cleary, Zimmerman & Keating, 2006). As reported in both
+Zimmerman and Kitsantas (1996) and Kitsantas and Zimmerman (2002), this study supports the
+notion that athletes can learn and refine motor skills by becoming more cognizant and aware of
+specific errors they make.
+In a recent study on self-regulation and soccer, Toering, Elferink-Gemser, Jordet, and Visscher (2009)
+examined the relationship between self-regulation and performance level in elite and non-elite youth
+soccer players (from Holland). 444 youth soccer players participated in the study and were divided
+into either elite (n=159) or non-elite (n=285) dependent on whether they played for a professional
+club’s youth team or at a lower level. A questionnaire was used to assess the following measures;
+planning, self-monitoring, evaluation, reflection, effort and self-efficacy. Results showed that, on
+average, elite players scored higher than non-elite did on all the self-regulatory measures. Further,
+effort and reflection were significantly related to performance level. Players with a high reflection
+score were almost five times (4.9) more likely to be part of the elite group than those scoring low.
+11
+
+When looking at the aspect of effort, the players scoring high were seven times (7.07) more likely to
+belong to the elite group than those scoring low on the same measure. Almost half of all participants
+in the elite group scored high on these two measures, whereas only about one fifth of the players in
+the non-elite group scored high on the same measures. At the same time, there were only a small
+number of players in the elite group who scored low on reflection and effort. The authors conclude
+by stating that elite soccer players tend to reflect more on their performance and exert more effort
+into training/competition and thus may be factors contributing to reach the elite level in soccer.
+
+2.2 Intervention studies
+The studies discussed under self-regulation and sports give strong indications that self-regulation has
+positive effects on sport performance. However, few studies on self-regulation and soccer exist (e.g.,
+Toering et al., 2009; Toering, Elferink-Gemser, Jordet, Jorna, Pepping, & Visscher, 2011). Nonetheless,
+several recent intervention studies in academia have showed promising results about self-regulated
+learning. Cleary, Platten, and Nelson (2008) looked at the effects of a self-regulation empowerment
+program on high school students’ academic performance. The training program lasted for 11 weeks
+and 23 sessions (twice a week) which lasted for about 50 minutes each. The training program was
+based on Zimmerman’s three-phase cyclical dynamic feedback loop of self-regulation including the
+forethought phase, performance phase, and the self-reflection phase. In short, the program focused
+on sequence and content of instructional modules which consisted of enhancing students’ awareness
+of their maladaptive beliefs, such as poor causal attributions (e.g., blaming failure on tests to poor
+ability), and providing explicit instruction in significant forethought processes, such as goal-setting,
+strategic planning and task analysis. Second, it emphasized strategic thinking which involved teaching
+students that success in school was entirely under their own control if they put the effort in developing
+and refining study strategies. In summary, the students raised their grades to either class average or
+higher. The authors conclude that for students to achieve academic success, they must adopt effective
+learning strategies in addition to forethought and reflective thinking skills. When equipped with such
+skills, students will become more active and strategic in their own learning process. Further, Ramdass
+and Zimmerman (2008) looked at middle school students and the effects self-correction strategy
+training had on math performance and several self-regulation processes. 42 participants (5th and 6th
+grade) from a parochial school took part in the study. Students from both grade levels were randomly
+assigned to either a training group or a control group. The study consisted of four different phases;
+pretest, training, problem solving and posttest. Results showed that participants in the experimental
+group outscored those in the control group on self-efficacy accuracy, self-evaluation accuracy, and
+math performance. While acknowledging that these results cannot be generalized beyond the two
+grade levels or parochial schools, the authors suggest that teachers need to monitor students’ self12
+
+efficacy judgments as well as their mathematics learning in order to provide optimal instruction. In a
+third intervention study, Housand and Reis (2008) looked at self-regulated learning and reading. This
+was a case study looking at two different 5th grade classrooms where one was considered a classroom
+high in self-regulation and the other low in self-regulation. The classrooms were differentiated using
+several tests like the Naglieri Nonverbal Ability Test (NNAT: Nagliere, 1997), high achievement scores
+and teacher nominations. The study focused on identifying differences both within the same classroom
+and when comparing classrooms. The study specifically looked at environmental conditions and
+instructional methods in the high self-regulation classroom as well as differences on these measures
+between the two classrooms. The intervention was conducted by using The Schoolwide Enrichment
+Model–Reading which is an enrichment approach to reading instruction and strategy development
+designed to increase self-regulation and reading achievement and is based upon foundational work by
+Vygotsky (1978). In short, results indicated that students who used self-regulation created a better
+learning environment and were better suited for learning than those who did not use self-regulation.
+These intervention studies are all somewhat similar to the present study in the sense that all use a
+training program to both increase the use of self-regulation and improve a certain performance
+measure. The study by Cleary et al. (2008) is particularly similar because it utilizes Zimmerman’s
+cyclical model (2008) in developing the training program. The environmental setting is different in
+the present study, (taking place in a soccer arena) and participants are possibly at greater risk of
+being subject to interferences than would be the case in a classroom. Self-regulation and
+performance development in soccer has, to my knowledge, not been studied previously, but the fact
+that students who become accustomed to using self-regulated learning strategies improve their
+academic performance in contrast to students not accustomed to this type of learning makes it
+interesting to research whether the same results will appear in a soccer setting.
+The present study focused on the metacognitive processes of self-regulation and was based upon
+Zimmerman’s (2008) three-phase model where the learning cycle is divided into three different
+stages; the forethought phase, the performance phase and the self-reflection phase. The
+intervention in the present study was developed to cover the different stages; before practice
+(planning), during practice (self-monitoring) and after practice (evaluation and reflection). This is in
+line with Zimmerman’s model (2008) where athletes develop a plan beforehand, mentally track their
+performance while practicing, and evaluate and reflect on their performance after practice. The main
+purpose of the present study was to test whether the intervention worked as intended, making the
+players more self-aware of their actions in training, try to influence and increase their use of selfregulation in daily soccer practice. In addition, the study looked at whether the self-regulation
+
+13
+
+training program would affect the players’ performance with the ball. This was done due to the
+importance of linking the use of self-regulation to on-field performance.
+
+2.3 Computer games
+This study has used online computer games to try to enhance the learning process. Especially the use
+of a demo-version of multiple object tracking (MOT) has been used extensively in a daily routine. In
+addition, the website www.lumosity.com which consists of multiple cognitive games to enhance
+factors like reaction time, spatial memory and pattern recognition has been used with hopes of
+enhancing the player’s ability to learn.
+The studies involving the use of computer games to enhance learning is extensive with regards to
+academia, but few studies have looked at the use of computer games to enhance learning in sports.
+Educational computer games have the same characteristics as any other types of computer games.
+These types of games are specifically designed to teach, and in which the main objective involves the
+learning of a lesson. Rather than being structured as a straightforward set of lessons or exercises, this
+type of educational software is structured like games, with such elements as scoring, timed
+performances, or incentives given for correct answers. Some examples of educational computer
+games include: Basic Math, eduProfix, Mario’s Early Year, Fun with Numbers, Mario Teachers Typing,
+Math Blaster, Episode 1, Math Grand Prix, Morse, Number Games, Pelmanism, Playschool Math,
+Spelling Games, Urban Jungle, Word Games, Zoombinis
+Several studies have found that computer games are beneficial to learning in academia. For instance,
+Rapeepisarn, K., Wong, K.W., Fung, C.C. and Khine, M.S. (2008) found that factors such as learning
+rules, setting goals, active engagement, instant feedback, problem solving, quick adaptation and
+immediate reward were all linked to the use of computer games.
+A study showed that computer games have been effective in raising achievement levels of both
+children and adults in areas such as maths and language, where specific objectives can easily be
+stated (Randel et al. 1992), and have been used to support National Curriculum learning (Kirriemuir
+2002). Schwartz (1988) found that information-processing educational game components designed
+to imitate popular computer games helped poor readers to make significant learning gains, with the
+greatest improvement shown by the poorest readers. Another study (Rosas R, Nussbaum M, Cumsile
+P, Marianov V, Correa M, Flores P, Grau V, Lagos F, López X, López V, Rodriguez P and Salinas M
+(2003) showed that computer games had a positive effect on motivation and classroom dynamics.
+
+2.4 Multiple object tracking (MOT)
+The player started using a multiple object tracking game via the internet
+(http://portal.psy.uoguelph.ca/faculty/trick/labs/mot-demo/index.html) It is important to note that
+14
+
+this demo version has only been used on a normal laptop computer and not the professional version
+used by several professional clubs in various sports. Felix played this game for 10 minutes each day
+during a period of 6 months. A study (Romeas, T., Guldner, A. and Faubert, J. 2016) on 3-D multiple
+object tracking with soccer players from The University of Montreal showed that this type of training
+led to improvements in passing decision-making accuracy.
+
+2.5 Questionnaires/evaluation forms
+A self-regulation questionnaire (Tynke Toering , Geir Jordet & Anders Ripegutu, 2013) was used on a
+regular basis to monitor improvements in the player’s use of self-regulation.
+In addition, several self-constructed evaluation forms for both training and matches were used
+(appendix A) on a regular basis.
+
+2.6 Visualization/imagery
+The player started using imagery consciously and systematically the summer of 2015. Daily, he
+visualized specific on-field situations in practices and games. In addition, the player visualized himself
+practicing and playing games for his favorite club at least once a week.
+Visualization can be defined as using all senses to create or re-create an experience in the mind.
+Technically speaking, visualization creates an internal experience of when real sensory input is
+missing (Wraga & Kosslyn, 2002). A study by Marks (1983) explained that the brains interpretation of
+visualization was stronger the more vivid the images were. A study by Savoy & Beitel (1996) on
+NCAA basketball players showed they improved their free-throw performance using imagery. Other
+sports which have showed similar improvements include Australian Rules football (Callery & Morris,
+1993), baseball (She & Morris, 1997), basketball (Shambrook & Bull, 1996) and swimming (Casby &
+Moran, 1998)
+
+2.7 Goal setting
+Goal setting has been used extensively both short and long term with this player. From day one, the
+player set specific and detailed goals for every practice and every game. We divided the goals into
+four categories; technical, tactical, physical and mental and made them as specific as possible. This
+has made the planning, reflection and evaluation phase much easier and probably more effective.
+The use of goal setting in different sports has been heavily researched and shown to have a positive
+effect on performance. In The 1984 Annual Review of Psychology Browne and Mahoney (1984) stress
+the importance of mental training for athletes. In addition to its direct effects on performance, goal
+setting gives an athlete a sense of control and positive self-direction. Goals are a prerequisite for selfregulation to work as a person can evaluate his performance. A goal gives the incentive for an athlete
+15
+
+to act. The extent of this incentive for action depends on the goals specificity. The degree of selfsatisfaction and the amount of effort an athlete is willing to put in depends on the level at which the
+goal is set – a difficult goal contingent on self-satisfaction will lead to a greater effort. Nevertheless, it
+is important to note that the goal set should be difficult but within reach or it could backfire and lead
+to loss of motivation (Bandura, 1977; Locke & Latham, 1984a). Short-term goals will mobilize effort
+and influence the action of the present (Bandura & Simon, 1977), while long-term goals will not
+accrue effort because of it being too distant. For goal setting to be successful informative feedback is
+a necessity for an athlete to track progress and tell him or her the types of errors being made and
+how to correct them and move closer to attaining his or her goal.
+
+2.8 One-on-one talks
+To the best of my knowledge there have been no studies on sports and one-on-one talks which
+resembles what I have done with this player. Therefore, I have no theory on this specific subject. The
+one-on-one talks have been used extensively from day one of this experiment. Talks have been
+conducted on and off the pitch in both formal and informal manners. As this has been a sort of
+experiment there was no pre-planned plan systematically followed. The main ingredient in most talks
+has been self-regulation (discussed below) and in that regard planning, evaluation and reflection of
+training and matches. We have also spent considerable time talking about how to train and perform
+with top quality regardless of circumstances. Such circumstances could be training with the U16 team
+on a Monday and then with the first team on a Thursday during the same week. Other topics have
+focused on how to maximize everything done off the pitch with sleep, nutrition and restitution as
+most important.
+
+Another important topic we have talked a lot about is how to handle failure and adversity as well as
+success. Several studies show the importance of being able to cope with adversity. A study by
+Rosenbaum, 1983 shows that high achievers are able to be positive and proactive when facing
+adversity and try to have a “learn from it” approach to these challenges. Another more recent study
+(Collins, MacNamara & McCarthy, 2015) shows that high achievers, in contrast to lower achievers,
+grew and developed when faced with injuries, de-selection or non-selection at crucial times. The
+same study concludes that being prepared for these challenges is as important if not more than what
+is experienced and suggest the age of 13 as an important watershed in this regard. In continuation of
+dealing with adversity you must deal with emotions and feelings, both positive and negative’ not
+letting them influence the quality of trainings or the performance in games.
+
+16
+
+2.9 Individual sessions
+Individual sessions both on the pitch and inside a type of gym have been used on a weekly basis
+during the entire period of working with this player. Ericsson et al. (1993) states that without the
+presence of a teacher personalized and explicit feedback, learning is impossible and improvement
+minimal. We started to implement individual sessions on a weekly basis to work on specific individual
+skills where we could get a lot of repetitions on the same skill where I as a coach could give
+continuous feedback to help accelerate the learning process.
+
+3.0 Methods
+3.1 Participant
+Player profile
+Name: Felix Horn Myhre
+Birthdate: 04.03.1999
+Position: Central midfielder
+Club: Ullern IF Fotball
+Former club: Vestre Aker SK
+National team: Norway U17
+Career goal: Play for FC Barcelona
+
+There were several reasons why I started working with this player. He had obvious technical, tactical
+and physical abilities which were above average compared to his teammates in the U13 team at
+Ullern although not much more – he applied for a player development program for the Oslo region in
+the fall of 2010 but did not qualify. In addition, he had parents who were supportive and rarely or
+never travelled on weekends or holidays. Combining this with my interest to try to implement what I
+had learned in the past few years regarding ‘how to learn effectively’ I thought this could be the ideal
+player for this experiment. I was inspired by books which talked about how to reach world class in
+any field regardless of talent (Talent Code, Outliers, Elite Minds, The Genius in all of Us, Bounce,
+Talent Is Never Enough, Top Dog, Peak, Ungifted and many more). Felix had been at Ullern for about
+a year when I decided to initiate a meeting with him and his parents to lay out my plan on how to
+help develop him into a professional soccer player, but first and foremost how to excel his daily
+development.
+17
+
+3.2 Research design
+This is not your typical scientific study, but as far as I can see this has been done as a single-subject
+multiple-baseline design (e.g. Hrycaiko & Martin, 1996). This design works primarily as an AB design
+where the baseline ("A") is tracked, and then a type of treatment ("B") is implemented. The change
+in performance is shown to be a result of the intervention and not accidental factors if the graph of
+the baseline level changes following the introduction of the intervention. It was suggested by Kazdin
+(1984) that the multiple-baseline-across-individuals supersede the AB design because the
+intervention is implemented to different subjects at different points in time. This is accomplished by
+having subjects who are yet to receive the intervention acting as controls by continuing to
+demonstrate the consistency of external variables. Another advantage is the elimination of the need
+to withdraw the intervention to determine whether performance trends will return to levels preintervention. Consequently, this process will obliterate the danger of gaining 'corrupt' data from
+subjects who continue to use elements of the intervention procedure (Shambrook & Bull, 1996). This
+study does not fulfill all the criteria of this type of research design as it only involves one subject.
+
+3.3 Self-regulation questionnaire
+The self-regulation processes examined in the questionnaire were reflection, evaluation and
+planning. These processes were assessed using a self-regulation questionnaire (Tynke Toering et. al
+(2013). The questionnaire has been used four times since the author started working with the player,
+to track changes in his use of planning, reflection and evaluation. The test was done in a quiet room
+with only the author present.
+
+3.4 Evaluation forms
+Evaluation forms of different sorts (see appendix B) have been used extensively, especially in the
+beginning to try to automate the use of evaluation after practices and games. They were usually
+filled out within minutes after the session or game was finished. This was usually done in a quiet
+room with no distractions enabling the player to fully concentrate. After completing the evaluation
+form, we would go through the questions and answers to see if anything should be added. Then we
+would usually evaluate the session orally to make sure we covered everything.
+
+3.5 Individual sessions
+We started out with one individual session per week where we worked on technical, physical and/or
+mental aspects of the game. The number of sessions has increased over the course of the period and
+there have been over 600 individual sessions in total the last three years. The focus during these
+sessions has been to develop his technical abilities and role specific aspects like perception. In
+addition, we have worked on different physical skills like strength, agility, speed and acceleration and
+
+18
+
+balance. These sessions have been done both on the pitch and inside a training room. In essence
+there have been 3 types of individual sessions.
+
+Soccer-specific technical sessions
+These sessions have consisted mostly of tireless technical repetitive exercises including different
+types of first touch with different body parts often combined with 2-3 following touches where the
+focus has been on rhythm, speed and perception (before and after receiving the ball). We have
+worked a lot on repeating various technical skills over and again for fine-tuning and also using
+different size balls like handballs and tennis balls. We have also spent a considerable time on creating
+and working on different position-specific situations in which he often finds himself in a game. The
+latter was combined with video of situations he repeatedly found himself in games.
+
+Balance, agility, speed and coordination
+These sessions were conducted indoors as well as outdoors. Indoors we have been practicing a lot of
+balance using balance pads and boards, fitness balls and several homemade exercises. Outdoors we
+have worked on running technique using video to evaluate, coordination and agility using agility
+ladders and especially worked on explosive lateral and sideways movement without the ball. There
+was a need to improve this part of his game after evaluating video from training sessions and games.
+
+Strength training
+We have conducted systematic strength training since the spring of 2014. We started with exercises
+without an external load and had a focus on learning the different techniques using only his own
+body weight. After six months of this type of training we added external load and started to work on
+building more muscle.
+
+3.6 Talks
+One to one talks have been used extensively during the last three years and especially during the first
+few months when there were many topics to cover. The talks have consisted of different subjects
+with one thing in mind, to increase the learning output of every training session or game the player
+participated in.
+In total, some 170 talks that include working on goal setting both short- and long-term, selfregulation with evaluation of practices and games, watching and evaluating video of practices and
+games. In addition, there have been a few keynote talks at different times to make sure the player
+knew and understood the prerequisites to becoming a professional football player at the highest
+level. Those talks were done at times when I felt the player did not do enough to reach his long-term
+goal. The different talks have been carried out on and off the pitch in both formal and informal
+circumstances.
+
+19
+
+To maximize outcome potential from each day, has been a subject which has been discussed
+regularly during these last three years. Since day one, I have stressed the importance of never being
+satisfied no matter what. Together we have always looked at ways to improve the outcome from
+each day either on the pitch or off. Such things as utilizing small breaks during training to something
+other than talking or drinking, writing letters in his hand to remind him of something we have
+discussed, evaluating in writing during trainings and watching video during trainings. Other things we
+have done; going to bed very early over longer periods, confiscating his phone the days leading up to
+matches, having ‘unusual’ goals for sessions/games such as a certain number of involvements with
+the ball or only playing forward passes and doing math puzzles during technical sessions to overload
+his brain. Its’s worth noting that these experiments have been done without a base of scientific
+evidence.
+
+3.7 Goals and goal setting
+With respect to goals and goal setting, we have set goals for 3 months at a time usually setting two
+technical, tactical, mental and physical goals including detailed strategies on how to reach them.
+Depending on the content of the training sessions, we set goals that are even more specific before
+each training session but always with relation to the 3-month goals. This was done to make it easier
+to focus only on a couple of tasks for each session hoping that would increase the speed of learning
+new skills.
+
+Example of 3-month goals
+Technical: Develop the technical execution of a long pass in the air with a flat curve.
+Strategy: Work on the run up to the ball, placement of the standing foot, the balance of the body, the
+angle of the foot hitting the ball and the shape of the body when hitting the ball.
+Tactical: Better the ability to recognize when to ask for the ball deep and when to stay further away
+depending on the pressure of the opposition and where they are exposed – which room he should
+move into and receive the ball.
+Strategy: Always search the surroundings (perception) to see what the opposition does, which space
+they close down/give away, if they pressure high/low and in addition look for passing lanes.
+Mental: Increase the enthusiasm.
+Strategy: Always remind myself of moving into a space where I can receive the ball, be verbally active
+in demanding the ball at every opportunity, have high intensity when I run and generally remind
+myself to be eager both on and off the ball.
+Physical: Increase acceleration speed in all directions.
+20
+
+Strategy: Develop a football-specific explosive strength and speed program, which I work on two
+times a week at days, which will not have a negative impact on my soccer training.
+
+3.8 Video
+Video has been used during the entire period, but more extensively the last year. We have filmed
+most sessions and games and have used them in the evaluation process at least once a week. We
+have filmed technical sessions, passing drills, possession games and play during training to look at
+both the individual aspect as well as the structural side of the game. The video has been recorded
+using a simple video camera and then transferred to a computer. We have also utilized the analysis
+program called Interplay where his involvements both with and without the ball have been reduced
+to short clips to make it easier to have an individual focus. In addition, during the last season we have
+watched entire games on video directly after the games finished.
+
+3.9 Visualization
+Felix has used visualization since the start of 2014. This has been done mostly in his room at home
+but also during one-on-one talks with the author. It is position-specific situations which he has
+visualized the most, especially situations where he needs to turn with the ball deep into his own half
+and then switching the play – this has been a central focus area as video evaluation has shown this as
+a weakness to his game. After we watched the games on video he has always visualized key
+situations, both positive and negative, to see if this could optimize the learning output. Lastly, he has
+visualized himself playing for FC Barcelona in both training and matches. This has been done to help
+make his career goal closer at hand and less futuristic and even enhance his belief in making it
+happen one day.
+
+3.10 Week schedule
+A normal week during the season for Felix would consist of the following.
+Day
+Monday
+
+Morning
+activity
+Strength
+training –
+legs
+
+Tuesday
+Wednesday Strength
+training –
+upper
+body
+Thursday
+
+Friday
+
+Evening activity
+First team
+training
+
+Other
+Other
+Other
+activity
+activity
+activity
+Visualization Stretching Prehab
+exercises
+
+First team
+training
+Individual session
+(football)
+
+Visualization Stretching Prehab
+exercises
+Visualization Stretching Prehab
++ MOT
+exercises
+
+First team
+training
+
+Visualization Stretching Video after
+first team
+session
+Visualization Stretching Prehab
++ lumosity
+exercises
+
+Individual session
+(balance)
+
+Other
+
+One-onone talk
+
+Evaluation
+form
+
+21
+
+Saturday
+
+First
+Individual session Visualization Stretching Goalsetting
+team
+(football/balance)
+for game
+training
+Individual Game
+Visualization
+Video after
+session –
+game
+light
+session
+with the
+ball
+
+Sunday
+
+Prehab
+exercises
+Planning
+for
+coming
+week
+
+4.0 Results
+4.1 Game statistics
+Under I present game statistics from official matches during the 2015 and 2016 season with the first
+team of Ullern.
+
+Kjelsås (0-4)
+
+Senja (1-1)
+
+Holmen (3-0)
+
+Grorud (0-5)
+
+Stabæk 2(2-3)
+
+11
+
+8
+
+10
+
+4
+
+4
+
+4
+
+3
+
+8
+
+6
+
+9
+
+10
+
+8
+
+VIF 2 (1-0)
+
+Finnsnes (1-1)
+
+5
+
+Lyn (1-3)
+
+10
+
+45
+
+Stabæk 2 (1-0)
+
+8
+
+52
+
+43
+
+Grorud (4-4)
+
+6
+
+57
+
+Holmen (5-0)
+
+5
+
+Kjelsås (1-1)
+
+9
+
+54
+
+Skeid (0-2)
+
+8
+
+63
+
+Finnsnes (0-2)
+
+10
+
+62
+
+53
+
+47
+
+6
+
+66
+
+64
+
+56
+
+Mjølner (2-0)
+
+52
+
+Ørn Horten (2-3)
+
+48
+
+61
+52
+
+KFUM (1-3)
+
+60
+
+VIF 2 (0-2)
+
+62
+
+Harstad (3-0)
+
+63
+
+Lyn (2-2)
+
+64
+
+Mjølner (1-1)
+
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+39
+
+19.4. 23.4. 3.5. 16.5. 24.5. 30.5. 7.6. 12.6. 21.6. 28.6. 6.7. 11.7. 2.8. 16.8. 22.8. 29.8. 12.9. 20.9. 28.9. 4.10. 17.10.
+
+Playing time (minutes)
+
+Involvements w/ball
+
+Number of interceptions
+
+Figure 1. The figure shows game statistics from Felix’ official games for Ullern during the 2015
+season. It shows playing time in minutes, number of involvements with the ball and number of
+interceptions.
+
+22
+
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+91
+
+89
+
+82
+73
+55
+
+40
+
+61
+
+58
+
+45 45
+
+56
+
+14
+
+12
+
+13.4.
+
+64
+43
+
+16.4.
+
+Playing time (minutes)
+
+18
+
+12
+
+8
+
+4
+
+Follo (0-3) Kvik Halden Skeid (0-2)
+(1-3)
+9.4.
+
+65 63
+
+43 45
+25
+
+16
+
+69 68
+
+14
+
+Stabæk 2 Finnsnes (0- Kjelsås (1-2) Harstad (1- Tromsø 2
+(0-3)
+2)
+4)
+(4-0)
+12.9.
+
+18.9.
+
+Involvements w/ball
+
+24.9.
+
+1.10.
+
+Forward passes (%)
+
+9.10.
+
+10
+
+9
+
+Senja (0-0) Grorud (0-1)
+15.10.
+
+22.10.
+
+Number of interceptions
+
+Figure 2. The figure shows game statistics from Felix’ official games for Ullern during the 2016
+season. It shows playing time in minutes, number of involvements with the ball, percentage of
+forward passes and number of interceptions.
+
+4.2 Self-regulation questionnaire results
+The player increased his score on planning, reflection and evaluation throughout the period of three
+years. The score for planning increased from 2,8 to 3,7 from the first to the last test. The score for
+reflection increased from 3,9 to 4,5 and the score for evaluation increased from 3,8 to 5. The figure
+below shows the score on each self-regulation
+
+Self-regulation questionnaire
+5,0
+4,5
+4,0
+3,5
+3,0
+2,5
+2,0
+1,5
+1,0
+Planning
+
+Reflection
+13.11.2013
+
+08.04.2014
+
+Evaluation
+09.01.2015
+
+08.10.2016
+
+Figure 3. Self-regulation scores from the use of a questionnaire from 4 different dates during the
+study
+
+23
+
+4.3 Debut dates on different teams in Ullern IF Fotball (official games)
+Felix came to Ullern at the age of twelve from a local club as a promising player. After arriving at
+Ullern he quickly moved up through the different age groups before firmly establishing himself in the
+first team at about two and a half years later.
+Arrived at Ullern: October 2011
+U13: April 2012
+U14: April 2013
+U15: June 2013
+U16: April 2014
+U19: April 2014
+Second team: April 2014
+First team: May 2014
+
+4.4 Debut dates on Norway’s youth national teams
+Felix first applied for the player development program in Oslo in the fall of 2010 when he was still at
+Vestre Aker SK but did not qualify. He applied again in 2011 and was included while simultaneously
+moving to Ullern If Fotball. Since 2012 he has been in and out of the regional team and was never in
+contention for the U15 national youth team before we called the national team coach and asked him
+to come and watch him play for our first team in September 2014. In October, he received his first
+call up and made his debut on the U15 national team on November 11th 2014 against Italy.
+
+U15: 11.11.2014
+Total games: 2
+
+U16: 19.01.2015
+Total games: 16
+
+U17: 10.02.2016
+Total games: 6
+
+24
+
+4.5 Training with professional Norwegian clubs
+After Felix broke through in our first team and became the best player there, we have been in
+contact with top clubs in the Oslo region to organize regular training as a supplement to his training
+at Ullern.
+
+
+
+Vålerenga first team: Sporadically since September 2015
+
+
+
+Strømsgodset first team: Regularly since January 2016
+
+4.6 Training with professional clubs abroad
+We have always been on the lookout for clubs abroad for him to train with. This was done to get a
+feel of the international scene, a higher tempo and the inspiration a trial like this could be for a
+young player.
+
+
+
+KV Mechelen U21: 17.-23. 11 2014
+
+
+
+SC Freiburg U23: 21.2-1.3 2016
+
+25
+
+
+
+AFC Ajax U19: 23.10-31.10 2016
+
+4.7 Observations
+4.7.1 November 2013 – June 2014
+During this period, I conducted 62 one-on-one talks out of about 150 in three years. These talks were
+dedicated to set a framework for how he should train daily. We talked a lot about how to implement
+self-regulation in the most practical way and discussed topics related to maximizing output potential
+of each training session and games. In these 8 months, Felix made immense progress and went from
+playing for the U14 boy’s- team to making his debut on the first team on May 12th. two months after
+his 15th birthday. He developed his technical ability massively both because of the increased output
+from regular training sessions and the extra technical work we did in individual sessions. He also
+improved his perception considerably and hence improved his decision making considerably making
+him more suited for senior play. After his debut on the first team he mostly played for our second
+team during the spring of 2014 and seemed to become a bit complacent having established himself
+as a senior player. That resulted in one of our keynote talks where I spoke at lengths about never
+being satisfied and remembering that the Norwegian 4th division was far away from the Nou Camp in
+Barcelona. Felix has later expressed that this was the ‘best talk we ever had’ and gave him a wakeup
+call which he has never slipped back on since.
+
+4.7.2 July 2014 – December 2014
+During this period, he established himself as a player in the starting eleven of our first team in the 3rd
+division ultimately leading to promotion to the 2nd division. The most obvious improvement of his
+game during this period was his tactical skills. He developed his decision-making and raised his
+passing accuracy while at the same time making fewer errors and rarely losing the ball. In addition,
+we spent a lot of time working on his 1 on 1 defensive ability and this basically went from being a
+weakness to becoming a strength enabling him to winning the ball and breaking up the opponent’s
+attack in increasing numbers. At the individual sessions, we worked tirelessly on continuing to
+improve his technical skills by endless repetitions on his first touch with different body parts with
+focus on rhythm, timing and general footwork in addition to always working on his perception.
+
+26
+
+4.7.3 January 2015 – June 2015
+During this period, Felix made his debut in the 2nd division and established himself as a key player for
+the U16 national team playing seven games during this period also being selected captain for several
+games. During this period, we started to work on his offensive skills and especially his ability to turn
+effectively with the ball and play forward quickly deep in his own half. He had a clear tendency to use
+too much time to turn and then play either backwards or across when he should play forward. In my
+impression, it was not a technical weakness that resulted in too few forward passes. but rather a
+combination of tactical and mental ability. He was too comfortable with just giving the ball to the
+nearest teammate regardless of whether this was the best decision in that situation. He seemed to
+lack the willingness to try passes of higher difficulty and therefore risk. We used the one-on-one talks
+in this period to look at video of situations where he both made the apparent right or wrong decision
+and in doing so made him more conscious and self-aware. In my opinion, this is what resulted in
+major progress in this area.
+
+4.7.4 July 2015 – December 2015
+This period was marred by several minor injuries making steady improvement more difficult.
+Nevertheless, he improved his offensive abilities and became more influential in the offensive half.
+We shifted our focus from what happened in our own half to what happened in the opponent’s half,
+especially his ability to switch play by improving his long passing skills and his ability to pass players
+with the ball at his feet. In our individual sessions, we solely worked on either his long passing or
+dribbling skills and used both video and imagery extensively to help further the learning process.
+Although I do not have any statistics it was evident that he more often utilized the long pass and
+became better at switching the play from one side to the other.
+
+4.7.5 January 2016 – June 2016
+This is arguably the period where he played at his highest level during the last three years. He
+improved all aspects of his game and trained regularly with the first team of Strømsgodset and made
+a very good impression on the coaches there. During the first three months of this year he
+developed his physical attributes and he started the season in April on a very high level but
+unfortunately picked up a meniscus injury and was sidelined for approximately five months. This was
+the first time he incurred a long period of adversity and had to deal with not being able to play soccer
+for a considerable period. In my opinion he dealt with this in a good manner working hard in rehab
+and doing a lot of strength training to increase his upper body strength. In addition, he increased the
+amount of time spent on imagery and did whatever he could to improve his game while not being
+able to play.
+
+27
+
+4.7.6 June 2016 – December 2016
+This period included a second meniscus operation which proved successful. In late June we were
+informed that he would get a trial at Ajax at the end of the season boosting his motivation to come
+back even stronger. We continued to work many hours in the gym increasing his strength and core
+stability. He played his first game minutes on the 8th of September, the first since 16th of April and
+played a part in the last seven league games that season. The most obvious improvement besides his
+physique was his ability to start attacks by winning the ball and playing a forward pass with his first
+touch. We had talked a lot about being conscious about his perception just before he or our team
+won the ball so he could start the attack by playing a forward pass exploiting a lack of balance in the
+opposition’s team structure. He had this as both a technical and tactical goal for this period hoping
+that would make him more aware of when these situations were about to arise and how to solve
+them in the best technical way. We also used video of both training and matches, to help further the
+learning effect and lastly used imagery to go over situations numerous times.
+Summarized, the large amount of individual sessions has been an obvious factor when determining
+what has caused his improvements. During these sessions, we could work on one skill over a longer
+period with continuous feedback and error correction. In addition, the use of video enabled us to go
+into detail on both technical and tactical sides of the game. I also believe that the evaluation process
+after every session and game either in writing or orally has been a major determinant for
+improvement.
+
+5.0 Discussion
+Since the start of this experiment in October 2013, Felix has developed very rapidly. He went from
+being a promising youth player to establishing himself at a senior level in the Norwegian 2nd division
+and becoming an important player for different youth national teams within three and a half years.
+For a player to develop this quickly he needs to learn effectively and from the fall of 2013 we have
+continuously worked to better this ability.
+There are several important factors, in my opinion, to explain why the improvements have been so
+rapid. Firstly, he has accumulated around 2100 hours of training (excluding game time) since October
+2013 and most important practiced with high quality no matter the context or circumstance. As
+mentioned earlier we have used the framework for deliberate practice (Ericsson, 1996); a welldefined task of appropriate difficulty, providing informative feedback information during practice,
+enough practice repetitions, and an opportunity to correct errors – this has obviously been easier to
+implement during individual sessions but we have also worked hard to make this the case for every
+28
+
+team session as well. To do so, self-regulation has been a key ingredient with always having a specific
+goal, monitoring himself closely and evaluating thoroughly afterwards down to every detail such as
+tightening his ankle, working with perception at all times and paying close detail to his footwork and
+balance.
+It is worth noting that since we started to work on these mental processes his development really
+started to unfold, moving from the U15 team to the first team (senior 3rd division) within six months.
+It is always difficult to determine the decisive factors of development, but there can be little doubt in
+this instant that developing the ability to self-regulate has played a major role.
+As figure 3 shows, Felix has increased his use of planning, reflection and evaluation throughout the
+period of this experiment. During this period, we have used much time developing goals and
+associated strategies. We have been very conscious of making these strategies specific and practical
+to enhance his presence in the ‘here and now’. Several studies (e.g., Corno, 2001; Winne, 1995), have
+proved that the ability to create and use strategies, aimed at avoiding disturbances, has been
+important to preserve concentration, effort and motivation while performing a task. Although these
+studies are done in academia, there is no reason to believe that this is not as important or even more
+important while performing soccer specific tasks or actions.
+According to Ertmer and Newby (1996) reﬂection is one of the essential processes to achieve expert
+learning, translating knowledge in to action, enabling the possibility of gaining strategic knowledge
+from certain activities
+In two studies comparing experts with non-experts, Cleary and Zimmerman (2001) and Kitsantas and
+Zimmerman (2002), found that experts create and use better strategies during practice than their
+counterparts. Reflection is also shown by Ericsson (1998) to be important as it allows athletes to
+continuously process and use information, which in turn makes it easier to focus on the most
+important aspects of performance. Thus, this will help athletes to perform at their highest level in
+addition to improving through practice and competition (Ericsson, 2003). In Toering et al. (2009) the
+reflection process was found to be a distinguishing factor between elite and non-elite players. Elite
+players tended to score higher on reflection than non-elite players, indicating that reflection is
+important if one is to reach the elite level in soccer. The findings in these studies coincide with Felix’
+increasing use of self-regulation and thus seem to be a key factor in his development as a soccer
+player.
+When looking at game statistics (figure 1 and 2) there is an increase in the number of involvements
+with the ball from the 2015 season to the 2016 season when looking at full matches although the
+number of games in the latter season were fewer due to injury. This could arguably indicate that he
+29
+
+has become better at finding space to receive the ball, become more enthusiastic and increased his
+presence on the field. Looking at the statistics for 2016 the trend is an increasing number of passes
+being played forward which indicates a more effective ability to turn with the ball, better perception
+and perhaps a more offensive minded outlook on the game making him play passes with more
+difficulty and higher risk. It is worth mentioning that the lack of ‘percentage of forward passes’ data
+during the 2015 season makes the sample small.
+In conclusion, Felix has responded very well to the learning strategies implemented and although one
+cannot say with absolute certainty that this is the reason for his development, it gives a clear idea. In
+my opinion, he has developed a unique mental skillset making it a habit to self-regulate, learn quickly
+from mistakes and coping with both adversity and success, not let his emotions affect him in any way
+and generally making it a habit to just go out and practice every day with maximum effort and
+commitment.
+There are several limitations to this study. This being a single case study is a limitation as there is no
+control group to compare with and hence it is difficult to generalize to a wider population or apply
+elsewhere. Another obvious limitation is the lack of a followed systematic plan making it difficult to
+replicate and very time consuming. In addition, his age and not knowing what level he will reach is a
+clear limitation to this study. However, the biggest limitation in the study is the lack of specific results
+or data on his development during the last three years – this makes it difficult to pinpoint what has
+led to his development or how it has happened.
+Recommendation for future studies would be to systematize the implementation of the different
+learning strategies and mapping when and how to implement them at different age groups.
+
+30
+
+6.0 Felix’ impression of the experiment
+‘’Jeg har opplevd opplegget som veldig morsomt, men også veldig krevende. Det har vært ganger
+hvor jeg har ikke har hatt lyst til å evaluere den treningen eller se video av den kampen, men i
+ettertid er det fint å vite jeg har gjort disse tingene for å bli litt bedre. Det har vært veldig mye
+givende som jeg har lært masse av, som selvregulering, hvordan ha riktig tankegang og det å få
+maksimalt ut av hver økt. Opplegget har hjulpet utviklingen min masse de siste tre årene, det er det
+ingen tvil om. Jeg har blitt mye flinkere til å sette mål og evaluere dem, som har hjulpet meg å utvikle
+ulike ferdigheter. Jeg har også blitt flinkere til å "tørre" å gjøre feil, eller sette meg selv utenfor
+komfortsonen for å bli bedre på ting jeg er ukomfortabel med. Jeg har også blitt mye bedre på å se
+viktigheten av helheten, ikke bare det som skjer på fotballbanen. Viktigheten av nok søvn, mat og
+andre ting som kan påvirke prestasjonen min på banen. Jeg tror opplegget jeg har hatt med
+Alexander de siste 3 årene virkelig kommer til å hjelpe meg senere i karrieren min, siden jeg har fått
+mye kunnskap om hvordan en skal fortsette å utvikle seg for å bli god i fotball. Jeg kommer også til å
+være mye mer bevisst enn mange andre rundt dette med målsetting og evaluering, samt ha riktig
+tankegang for å bli bedre hver dag. Alexander og jeg har også snakket masse om hvordan en best skal
+takle motgang. Om det er på banen i form av svake perioder, eller skader som holder meg ute av spill
+over lengre tid. Spesielt dette med å takle feil på banen føler jeg at jeg har hatt enorm fremgang på.
+Jeg var også skadet i 5-6 måneder i år (2016), og da hjalp det meg mye at jeg visste hvordan jeg burde
+tenke og hva jeg burde gjøre for å utnytte tiden borte fra fotballen best mulig. Det hjalp meg til å bli
+litt bedre, men også til å holde motivasjonen noenlunde oppe, som kanskje var det viktigste i den
+perioden. Jeg tror dette hadde vært en smart ting å lære barn i en tidlig alder, sånn at de hadde
+kunnet jobbe med det fra så tidlig som mulig. Hvis en ung spiller med høye ambisjoner kunne fått litt
+mer ut av hver økt hadde sjansene hans for å bli profesjonell fotballspiller sannsynligvis økt
+betraktelig’’
+
+6.1 Gunnar Halle (youth national team coach) impression of Felix
+‘’Felix ble tatt inn til dobbel landskamp mot Italia for første gang som 15 åring. Defensivt er han en
+spiller som leser spillet bra og posisjonerer seg ofte riktig, har utviklet dette gjennom å forflytte seg
+raskere. Kan fortsatt utvikle 1F jobben enda bedre, større aggressivitet og duellstyrke. I det offensive
+spillet har kanskje hatt den største utviklingen. En god pasningspiller som nå kan variere mye mer og
+sjelden mister ballen. Har jobbet mye med å få opp blikket og se etter løsninger fremover i banen.
+Har fått en bedre oversikt og er flinkere til å vurdere risiko på pasningsvalgene sine.
+Felix har hatt en flott utvikling på de 3 årene han har vært inne med landslagene. Har hatt fremgang i
+alle faser av spillet både offensivt og defensivt. Gjennom en bra treningshverdag og matching i
+
+31
+
+2.div. ser vi at dette har vært riktig arena i forholdet til utviklingen hans på klubblag. Har fått
+verdifull erfaring og gode referanser i landskampene som han kan ta med seg hjem i hverdagen. Er en
+spiller som også har utviklet lederegenskapene sine ute på banen i disse årene’’
+
+6.2 Ole Johan Aas (Ullern First Team Coach) on Felix
+Felix er en spiller jeg har fått være heldig å samarbeide med siden han ble løftet opp i vår a-stall i
+april 2014. Felix imponerte fra første trening med a-laget, og han viste allerede i sin første
+obligatoriske kamp at han var veldig sterkt mentalt. Grunnet en skade på oppvarmingen ble Felix
+kastet inn i det rett før kampstart, og da jeg spurte han hva han tenkte repliserte han enkelt og greit:
+"Ole, det går bra. Det er bare fotball".
+
+Den frasen har Felix hentet frem igjen ved senere anledninger, og spesielt i motgangsperioder har
+han vært ekstremt sterkt til å tenke konstruktivt, og å roe ned de rundt seg. Inkludert treneren sin.
+Dette konstruktive tankesettet som gjør at Felix ikke lar seg prege av omstendighetene ser jeg på
+som kanskje hans fremste styrke. Dette fører til at han hver eneste dag kan fokusere på det som
+betyr noe for han, nemlig å bli bedre i fotball. Uavhengig av alt annet. Via samarbeidet med
+Bendiksen har denne styrken blitt dyrket, og jeg er overbevist om at dette har vært hovedårsaken til
+hans fremgang i løpet av hans år i Ullern.
+
+På banen kom Felix naturlig nok som en noe uferdig spiller opp i a-stallen, alderen tatt i betraktning.
+Kanskje den viktigste egenskapen for at en ung spiller skal kunne utvikle seg er å være bevisst egne
+styrker og svakheter. For deretter å jobbe målrettet for både å videreutvikle styrker, og forbedre
+svakheter. Felix har så lenge han har vært på vårt a-lag hatt en styrke i spillet sitt via å bryte opp
+motstanders angrep, og via det igjen starte våre angrep. Den defensive biten har han videreutviklet
+slik at prosentandelen ballvinninger har økt, og gevinsten vi har hatt ved at Felix har startet angrep
+har blitt stadig større via at han har blitt flinkere til å søke fremover i banen.
+
+Veien videre? Jeg føler Felix allerede har den mentale verktøykassen som trengs for å spille i både
+Vålerenga og på høyere nivåer, så må han bare finpusse denne. Defensivt mener jeg Felix holder godt
+eliteserienivå, også her handler det om finpussing. Fysisk og teknisk er han meget bra, men han må
+bli vant med et høyere tempo som eliteserien og høyere nivåer krever både i forflytning og
+ballbehandling. Dette tror jeg han kommer til å mestre fint. Offensivt er han god på egen halvdel,
+men han har en vei å gå når det kommer til spill på motstanders halvdel - spesielt av typen etablert
+spill som kan føre til mål og målsjanser. Da han tidligere har vist stor utvikling på områder av spillet
+sitt han trenger å forbedre, har jeg god tro på at han kommer til å ta store steg også her.
+32
+
+Jeg vil takke Felix for samarbeidet, og jeg vil takke Alexander for det enorme arbeidet han har lagt
+ned for å hjelpe Felix på veien mot å nå sine mål. Ikke minst har det hjulpet Felix enormt, men det
+har samtidig vært en gedigen inspirasjon for alle oss andre tilknyttet Ullern IF Fotball.
+
+33
+
+Felix signerte en 3-års kontrakt med Vålerenga Fotball 5.1.2017
+
+34
+
+7.0 Reference
+Bandura, A. (1977). Self-efficacy: toward a unifying theory of behavioral change. Psychological
+review, 84(2), 191.
+Bandura, A., & Simon, K. M. (1977). The role of proximal intentions in self-regulation of refractory
+behavior. Cognitive Therapy and Research, 1(3), 177-193.
+Collins, D., MacNamara, Á., & McCarthy, N. (2015). Super champions, champions, and almosts:
+Important differences and commonalities on the rocky road. Frontiers in psychology, 6.Rosen
+Browne, M. A., & Mahoney, M. J. (1984). Sport psychology. Annual Review of Psychology, 35(1), 605625.
+Baumeister, R. F., Vohs, K. D., & Tice, D. M. (2007). The strength model of self-control. Current
+directions in psychological science, 16(6), 351-355.
+Boekaerts, M., & Corno, L. (2005). Self‐regulation in the classroom: A perspective on assessment and
+intervention. Applied Psychology, 54(2), 199-231.
+Butler, D. L., & Winne, P. H. (1995). Feedback and self-regulated learning: A theoretical
+synthesis. Review of educational research, 65(3), 245-281.
+Butler, D. L., & Winne, P. H. (1995). Feedback and self-regulated learning: A theoretical
+synthesis. Review of educational research, 65(3), 245-281.
+Boekaerts, M., & Corno, L. (2005). Self‐regulation in the classroom: A perspective on assessment and
+intervention. Applied Psychology, 54(2), 199-231.
+Callery, P. J. M., & Morris, T. (1993). The effect of mental practice on the performance of an
+Australian Rules football skill.
+Casby, A., & Moran, A. (1998). Exploring mental imagery in swimmers: A single-case study design. The
+Irish Journal of Psychology, 19(4), 525-531.
+Chambliss, D., F. (1989). The Mundanity of excellence: An Etnographic report on stratification and
+Olympic swimmers.
+Chambliss, D., F. (1988). Champions: The making of Olympic swimmers. New York: Morrow.
+Corbin, C. B., Landers, D. M., Feltz, D. L., & Senior, K. (1983). Sex differences in performance
+estimates: Female lack of confidence vs. male boastfulness. Research Quarterly for Exercise and
+Sport, 54(4), 407-410.
+Corno, L. (2001). Volitional aspects of self-regulated learning. Self-regulated learning and academic
+achievement: Theoretical perspectives, 2, 191-225.
+Cleary, T. J., & Zimmerman, B. J. (2001). Self-regulation differences during athletic practice by
+experts, non-experts, and novices. Journal of Applied Sport Psychology, 13(2), 185-206.
+Cleary, T. J., Zimmerman, B. J., & Keating, T. (2006). Training physical education students to selfregulate during basketball free throw practice. Research Quarterly for Exercise and sport, 77(2), 251262.
+
+35
+
+Cleary, T. J., & Zimmerman, B. J. (2001). Self-regulation differences during athletic practice by
+experts, non-experts, and novices. Journal of Applied Sport Psychology, 13(2), 185-206.
+Corno, L. (2001). Volitional aspects of self-regulated learning. Self-regulated learning and academic
+achievement: Theoretical perspectives, 2, 191-225.
+Ertmer, P. A., & Newby, T. J. (1996). The expert learner: Strategic, self-regulated, and
+reflective. Instructional science, 24(1), 1-24.
+Ericsson, K. A. (1998). The Scientific Study of Expert Levels of Performance: general implications for
+optimal learning and creativity 1. High Ability Studies, 9(1), 75-100.
+Ericsson, K. A. (2003). Development of elite performance and deliberate practice. Expert performance
+in sports: Advances in research on sport expertise, 49-83.
+Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). The role of deliberate practise in the
+acquisition of expert performance. Psychological Review, 3, 363-406.
+Ericsson, K. A. (Ed.) (1996a). The road to excellence: The acquisition of expert performance in the arts
+and sciences, sports, and games. Mahweh, NJ: Erlbaum.
+Ericsson, K.A. (1996b). The acquisition of expert performance: an introduction to some of the issues.
+In K. A. ERICSSON (Eds.). The road to excellence: the acquisition of expert performance in the arts
+and sciences, sports, and games (pp. 1-50). Mahwah, NJ: Erlbaum.
+Haugaasen, M., Toering, T., & Jordet, G. (2014). From childhood to senior professional
+football: A multi-level approach to elite youth football players’ engagement in footballspecific
+activities. Psychology of Sport and Exercise, 15, 336-344
+Haugaasen, M., Toering, T., & Jordet, G. (2014). From childhood to senior professional
+football: elite youth players’ engagement in non-football activities. Journal of Sports
+Sciences, 32, 1940-1949
+Holt, N. L., & Dunn, J. G. (2004). Toward a grounded theory of the psychosocial competencies and
+environmental conditions associated with soccer success. Journal of Applied Sport Psychology, 16(3),
+199-219.
+Housand, A., & Reis, S. M. (2008). Self-regulated learning in reading: Gifted pedagogy and
+instructional settings. Journal of Advanced Academics, 20(1), 108-136.
+Hrycaiko, D., & Martin, G. L. (1996). Applied research studies with single-subject designs: Why so
+few?. Journal of Applied Sport Psychology, 8(2), 183-199.
+Kirriemuir J (2002). The relevance of video games and gaming consoles to the higher and further
+education learning experience. April 2002. Techwatch Report TSW 02.01.
+Kitsantas, A., & Zimmerman, B. J. (2002). Comparing self-regulatory processes among novice, nonexpert, and expert volleyball players: A microanalytic study. Journal of applied sport
+psychology, 14(2), 91-105.
+Kitsantas, A., & Zimmerman, B. J. (2006). Enhancing self-regulation of practice: The influence of
+graphing and self-evaluative standards. Metacognition and Learning, 1(3), 201-212.
+
+36
+
+Kirschenbaum, D. S., Ordman, A. M., Tomarken, A. J., & Holtzbauer, R. (1982). Effects of differential
+self-monitoring and level of mastery on sports performance: Brain power bowling. Cognitive therapy
+and Research, 6(3), 335-341.
+Kolovelonis, A., Goudas, M., & Dermitzaki, I. (2010). Self-regulated learning of a motor skill through
+emulation and self-control levels in a physical education setting. Journal of Applied Sport
+Psychology, 22(2), 198-212.
+Kirriemuir, J. (2002). Video gaming, education and digital learning technologies. D-lib Magazine, 8(2),
+7.
+Locke, E. A., & Latham, G. P. (1984). Goal Setting: A motivational technique that Works! (p. 117).
+Englewood Cliffs, NJ: Prentice-Hall.
+Mahoney, M. J., & Avener, M. (1977). Psychology of the elite athlete: An exploratory study. Cognitive
+therapy and research, 1(2), 135-141.
+Marks, D. F. (1983). Mental imagery and consciousness: A theoretical review. Imagery: Current
+theory, research, and application, 96-130.
+Naglieri, J. A. (1997). NNAT multilevel technical manual. San Antonio, TX: Psychological Corporation.
+Perry, N. E., Phillips, L., & Hutchinson, L. (2006). Mentoring student teachers to support self‐
+regulated learning. The elementary school journal, 106(3), 237-254.
+Pajares, F., & Schunk, D. H. (2005). Self-efficacy and self-concept beliefs. International advances in
+self research, 2(2), 95-121.
+Rapeepisarn, K., Wong, K.W., Fung, C.C. and Khine, M.S. (2008) The relationship between game
+genres, learning techniques and learning styles in educational computer games.
+Randel JM, Morris BA, Wetzel CD, Whitehill BV (1992). The effectiveness of games for educational
+purposes: a review of recent research. Simulation and Gaming, 23(3), 261–276.
+Rosas R, Nussbaum M, Cumsile P, Marianov V, Correa M, Flores P, Grau V, Lagos F, López X, López V,
+Rodriguez P, Salinas M (2003). Beyond Nintendo: design and assessment of educational video games
+for first and second grade students. Computers and Education, 40, 71–94.
+Randel, J. M., Morris, B. A., Wetzel, C. D., & Whitehill, B. V. (1992). The effectiveness of games for
+educational purposes: A review of recent research. Simulation & gaming, 23(3), 261-276.
+Rosas, R., Nussbaum, M., Cumsille, P., Marianov, V., Correa, M., Flores, P., ... & Rodriguez, P. (2003).
+Beyond Nintendo: design and assessment of educational video games for first and second grade
+students. Computers & Education, 40(1), 71-94.
+Toering, T. T., Elferink-Gemser, M. T., Jordet, G. and Visscher, C.(2009) 'Self-regulation and
+performance level of elite and non-elite youth soccer players', Journal of Sports Sciences, 27: 14,
+1509 — 1517, First published on: 04 December 2009 (iFirst).
+Tynke Toering , Geir Jordet & Anders Ripegutu (2013): Effective learning among elite football
+players: The development of a football-specific self-regulated learning questionnaire, Journal of
+Sports Sciences,
+DOI:10.1080/02640414.2013.792949
+37
+
+Toering, T., Elferink-Gemser, M., Jordet, G., Jorna, C., Pepping, G. J., & Visscher, C. (2011). Selfregulation of practice behavior among elite youth soccer players: An exploratory observation
+study. Journal of Applied Sport Psychology, 23(1), 110-128.
+Vohs, K. D., & Baumeister, R. F. (2004). Understanding self-regulation: An introduction. Handbook of
+self-regulation: Research, theory, and applications, 1-9.
+Vygotsky, L. (1978). Interaction between learning and development. Readings on the development of
+children, 23(3), 34-41.
+Weinstein, C. E., Husman, J., & Dierking, D. R. (2000). Self-regulation interventions with a focus on
+learning strategies.
+Winne, P. H. (1995). Self-regulation is ubiquitous but its forms vary with knowledge. Educational
+Psychologist, 30(4), 223-228.
+Winne, P. H., & Perry, N. E. (2000). Measuring self-regulated learning.
+Wanlin, C. M., Hrycaiko, D. W., Martin, G. L., & Mahon, M. (1997). The effects of a goal-setting
+package on the performance of speed skaters. Journal of Applied Sport Psychology, 9(2), 212-228.
+Wanlin, C. M., Hrycaiko, D. W., Martin, G. L., & Mahon, M. (1997). The effects of a goal-setting
+package on the performance of speed skaters. Journal of Applied Sport Psychology, 9(2), 212-228.
+Wraga, M., & Kosslyn, S. M. (2002). Imagery. Encyclopedia of cognitive science.
+Weinstein, C. E., Husman, J., & Dierking, D. R. (2000). Self-regulation interventions with a focus on
+learning strategies.
+Zimmerman, B. J., & Kitsantas, A. (1999). Acquiring writing revision skill: Shifting from process to
+outcome self-regulatory goals. Journal of educational Psychology, 91(2), 241.
+Zimmerman, B. J. (2000). Self-efficacy: An essential motive to learn. Contemporary educational
+psychology, 25(1), 82-91.
+Zimmerman, B. J., & Schunk, D. H. (Eds.). (2001). Self-regulated learning and academic achievement:
+Theoretical perspectives. Routledge.
+Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory into practice, 41(2),
+64-70.
+Zimmerman, B. J., & Kitsantas, A. (1997). Developmental phases in self-regulation: Shifting from
+process goals to outcome goals. Journal of educational psychology, 89(1), 29.
+Zimmerman, B., & Schunk, D. (1989). Self-regulated learning and academic: Theory, research, and
+practice.
+Zimmerman, B. J. (1989). A social cognitive view of self-regulated academic learning. Journal of
+educational psychology, 81(3), 329.
+Zimmerman, B. J. (1990). Self-regulated learning and academic achievement: An
+overview. Educational psychologist, 25(1), 3-17.
+Zimmerman, B. J. (1998). Academic studing and the development of personal skill: A self-regulatory
+perspective. Educational psychologist, 33(2-3), 73-86.
+
+38
+
+Zimmerman, B. J. (2008). Investigating self-regulation and motivation: Historical background,
+methodological developments, and future prospects. American Educational Research Journal, 45(1),
+166-183.
+Zimmerman, B. J., & Cleary, T. J. (2006). Adolescents’ development of personal agency: The role of
+self-efficacy beliefs and self-regulatory skill. Self-efficacy beliefs of adolescents, 5, 45-69.
+Zimmerman, B. J., & Kitsantas, A. (1996). Self-regulated learning of a motoric skill: The role of goal
+setting and self-monitoring. Journal of Applied Sport Psychology, 8(1), 60-75.
+Zimmerman, B. J. (2008). Investigating self-regulation and motivation: Historical background,
+methodological developments, and future prospects. American Educational Research Journal, 45(1),
+166-183.
+
+39
+
+8.0 Summary
+This is a single case study on a youth elite soccer player (Felix Horn Myhre) at Ullern IF Fotball. The
+player was selected based on his skills on and off the pitch but mostly because of his (and his
+parents) willingness to do ‘whatever it takes’ to reach a professional level within his sport.
+There was never a concrete plan of how and when to implement different strategies to develop this
+player. Nevertheless, self-regulation was a cornerstone from the beginning because of the influence
+self-regulation has shown to have on an individual’s ability to accelerate the learning process and
+learn more effectively (Baumeister & Vohs, 2004). In my opinion self-regulation is the most
+important prerequisite to learn effectively and therefore I have used extensive time to develop Felix’
+ability to self-regulate. I go into detail on what self-regulation is and the research that has been
+conducted in relation to sports. In addition, I describe the other learning strategies which I have
+experimented on to try and optimize his ability to learn.
+I have looked at several studies which show some crucial factors needed to reach a professional
+status such as high but attainable goals, high motivation, love of the game, determination, delay of
+gratification, the use of goal setting, coping with pressure and support from parents. I have also
+studied the deliberate practice framework (Ericsson, 1996) which show the necessities for training
+sessions; a well-defined task of appropriate difficulty, providing informative feedback information
+during practice, enough practice repetitions, and an opportunity to correct errors.
+With these findings in mind I have tried to develop a practice regime that takes these requirements
+into effect every day at every session. In addition, I have always been on the lookout for innovative
+ideas within the learning and football-specific milieu.
+A self-regulation questionnaire (Tynke Toering et. al (2013) was used on four occasions throughout
+the study to track the player’s use of planning, reflection and evaluation. The figure below shows that
+the player increased his use of these three aspects during this study, arguably helping him accelerate
+his learning and helping him become a better soccer player.
+
+40
+
+Self-regulation questionnaire
+5,0
+4,0
+3,0
+2,0
+1,0
+Planning
+
+Reflection
+13.11.2013
+
+08.04.2014
+
+Evaluation
+09.01.2015
+
+08.10.2016
+
+Besides self-regulation we have worked to increase his learning efficiency by using several self-made
+evaluation forms with relation to trainings and games, set both short- and long-term goals,
+conducted more than 170 one-on-one talks on several subjects, used video and visualization. In
+addition, we have worked together in over 600 individual sessions where we have worked on
+strengths and weaknesses both technically and physically. In short, he has had a sort of personal
+trainer watching and guiding every step taken each day.
+Since the start of this experiment in October 2013, Felix has developed very rapidly. He went from
+being a promising youth player to establishing himself at a senior level in the Norwegian 2nd division
+and becoming an important player for different youth national teams within three and a half years.
+For a player to develop this quickly he needs to learn effectively and from the fall of 2013 we have
+continuously worked to better this ability.
+In total, Felix has played 24 youth national team games, 31 2nd division games. He has had training
+spells abroad with KV Mechelen, SC Freiburg and AFC Ajax in addition to training regularly with the
+first teams of Vålerenga and Strømsgodset.
+When looking at game statistics (figure 1 and 2) there is an increase in the number of involvements
+with the ball from the 2015 season to the 2016 season when looking at full matches although the
+number of games in the latter season were fewer due to injury. This could arguably indicate that he
+has become better at finding space to receive the ball, become more enthusiastic and increased his
+presence on the field. Looking at the statistics for 2016 the trend is an increasing number of passes
+being played forward which indicates a more effective ability to turn with the ball, better perception
+and perhaps a more offensive minded outlook on the game making him play passes with more
+
+41
+
+difficulty and higher risk. It is worth mentioning that the lack of ‘percentage of forward passes’ data
+during the 2015 season makes the sample small.
+In conclusion, Felix has responded very well to the learning strategies implemented and although one
+cannot say with absolute certainty that this is the reason for his development it gives a clear idea. In
+my opinion he has developed a unique mental skillset making it a habit to self-regulate, learn quickly
+from mistakes and coping with both adversity and success, not let his emotions affect him in any way
+and generally making it a habit to just go out and practice every day with maximum effort and
+commitment.
+
+42
+
+

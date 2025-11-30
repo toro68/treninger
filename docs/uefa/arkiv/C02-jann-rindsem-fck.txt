@@ -1,0 +1,1589 @@
+UEFA A LISENS OPPGAVE 2014
+F.C. KØBENHAVN
+Av Jann Rindsem
+
+1
+
+Jann Rindsem
+INNHOLDSFORTEGNELSE
+
+1.0
+
+Forord
+
+2.0
+
+Spillerutviklingsmodellen til FCK
+2.1
+
+Hovedproblemstilling.
+
+2.2
+
+Underproblemstillinger
+
+3.0
+
+Metodebruk
+
+4.0
+
+F.C København, en kulturell identitet?
+
+5.0
+
+School of Excellence
+5.1
+
+Hva er man opptatt av i SE?
+
+6.0
+
+Eksterne faktorer i utviklingsløpet
+
+7.0
+
+Samarbeidsklubbenes innflytelse i FCK
+
+8.0
+
+Fysiske ressurser
+
+9.0
+
+Broen mellom gruppene
+
+10.0 Rød tråd på treningsinnhold og spillestil?
+11.0 Ressurser og kompetanse
+12.0 Kulturbæreren
+13.0 Oppsummering
+14.0 Epilog
+
+2
+
+Jann Rindsem
+
+1.0 Forord
+
+Etter å ha gjennomført de to første delene av Uefa-A kurset som var av mer praktisk
+karakter, gjenstod den siste delen som var den teoretiske oppgaven. Jeg bestemte meg tidlig
+for at dette var en del av kurset jeg ønsket å legge ned en god del tid på. Etter flere år som
+trener og lærer har jeg blitt overbevist om at teori og praksis ofte henger sammen. Skal man
+optimalisere egen praksis må man tilegne seg kunnskap på flere arenaer. Å få mulighet til å
+fordype seg på denne måten ser jeg derfor på som en gylden mulighet for kompetansepåfyll
+og egenutvikling.
+Mye bra har blitt gjort, og gjøres kontinuerlig i norske klubber, og mye av tankegodset i
+Norge kan man også finne igjen i andre nasjoner. Selv har jeg fått smake på nasjonale
+referanser på «elite» nivå i Norge gjennom min jobb i Mjøndalen IF. Både interne prosesser
+og eksterne kurs og seminarer har vært fantastiske arenaer for læring. Dette har gitt meg en
+basis som jeg kan måle ting ut fra, og har vært en særdeles nyttig referansebank. I dette
+perspektivet tenkte jeg det kunne være interessant og nyttig å søke impulser fra et annet
+land. Med tanke på valg av nasjon var to ting avgjørende, graden av nytteverdi i det landet
+jeg valgte, og selvsagt mulighetene for å få innpass. Til det siste så åpna det seg ei naturlig
+dør inn til Danmark, og F.C København da vi hadde en person i nærområdet som kunne gi
+meg en god inngang til klubben. Gjennom denne kontakten har jeg etter hvert knyttet
+relasjoner både nedover i aldersklassene, samt inn mot A laget og «elitesatsingen».
+
+3
+
+Jeg har i løpet av 2013 besøkt klubben fem ganger og har både foretatt observasjoner, følt
+på kulturen i klubben, blitt kjent med sentrale personer, samt foretatt en del
+dybdeintervjuer. Jeg kan med hånden på hjertet si at alle disse fem besøkene har vært
+særdeles nyttige og jeg har fra første stund følt meg veldig godt mottatt. Gjennom disse
+besøkene har jeg også fått snust på kulturen i klubben, samt fått god kjennskap til hvordan
+FCK som klubb ønsker å fremstå utad.
+Som en person som er over gjennomsnittet opptatt av fotball er det utelukkende en indre
+motivering som har vært drivkraften for mitt studie. Jeg har i flere år vært opptatt av
+utviklingsprosesser, både som lærer og fotballtrener, og det ble derfor naturlig for meg å
+jobbe med et tema som berørte temaet talentutvikling.
+Den andre siden av denne teoretiske delen av kurset har et mer nytteaspekt gjennom den
+jobben jeg har i Mjøndalen IF som trener, og sportslig leder. Arenaen min de siste årene har
+vært knytta til elitesatsingen der jeg har fått arbeide med dedikerte og lærevillige spillere.
+Overføringsverdien fra FCK til MIF kunne sånn sett ikke vært bedre. Å tilegne seg kunnskap
+fra miljøer som har suksesshistorier å banke i bordet med er alltid interessant. Nå sier jeg
+ikke at man ikke kan lære av «alle» miljøer, men det er logisk sett mer rasjonelt å søke til de
+miljøene som man har et bilde av har «gjort det bra» på sitt område. FCK er i så måte en av
+de klubbene vi ser litt opp til, ialefall i Skandinavia. Klubben har på mange måter tatt over
+det hegemoniet som Rosenborg hadde på 90- og medio 2000 tallet. Klubben har hele 9.
+seriemesterskap i Danmark på 2000 tallet og har vært den klare ener. I tillegg har man gjort
+det bra i Europa og det toppet seg i 2011 da laget gikk helt til 1/8 delsfinalen i Champions
+leauge der man røk for Chelsea. 2011 markerte også det skiftet som hadde funnet sted i
+Skandinavia der FCK slo ut RBK i kvalifiseringen til Champions Leauge. Samme året spilte de
+blant annet uavgjort i Parken mot Barcelona og avanserte til 16 delsfinalen.
+Selv om FCK er en forholdsvis ny klubb er det mye historie og tradisjon knytta til
+utviklingsarbeidet gjennom de to klubbene KB og B1903 (som ble FCK i 1992). Når man
+samtidig ser at klubben har profesjonalisert utviklingsarbeidet gjennom School of Excellence
+4
+
+(heretter kalt SE) og sist, men ikke minst har fått fram mange spillere til sitt A-lag gjør det
+klubben veldig spennende i et forskningsmessig perspektiv. Målet med studiet er ikke å
+kopiere utviklingsmodellen til FCK, men heller kunne bruke momenter som kan tilpasses
+Mjøndalen. Det er en rekke synsvinkler man kan se ting ut fra og nøkkelen er alltid å klare å
+sy sammen et produkt som er tilpasset sin egen kulturelle klubbidentitet. I denne prosessen
+vil jeg berøre en rekke aspekter ved spillerutvikling og forsøke å gå så grundig inn i materien
+som mulig. Mye av arbeidet vil gjøres gjennom direkte kontakt med kildene, men jeg ønsker
+også i noen grad å knytte kompetanse fra det norske fagmiljøet i oppgaven. Jeg håper også
+at det jeg presenterer i denne avhandlingen kan være interessant for eksterne personer som
+er opptatt av spillerutvikling. La meg nå gå over til å presentere hvilke aspekter, og hva jeg
+skal søke svar på i denne oppgaven.
+
+God lesing!
+
+5
+
+Jann Rindsem
+
+2.0 Spillerutviklingsmodellen til FCK.
+Hovedproblemstilling.
+
+Det å utvikle spillere kan gjøres på mange arenaer, og som trener har jeg både hatt ansvaret
+for seniorlag og aldersbestemte lag. Selv om forutsetningene er noe ulike driver vi utvikling
+på begge arenaer. I den siste perioden (Som kan tidfestes til renessansen for akademiene i
+England) har det vært veldig «inn» å være lite resultatorientert, men heller sette
+enkeltspillerens utvikling i fokus. Kanskje ikke alltid en motsetning? Det har i enda større
+grad resultert i at mange spillere har blitt flyttet opp et nivå og hatt sin base på et alderstrinn
+som har vært høyere enn sitt eget. For å billedliggjøre dette kan Michael Mio
+Nilsens(Manager for SE) ord under et av mine intervjuer være dekkende.
+«Dersom en spiller har større utbytte av å «overmatches» en uke så spiller han ikke på sitt
+aldersnivå selv om det kan gå ut over kvaliteten til hans opprinnelige lag» (Nilsen 2013,
+intervju 5.september).
+Det er ut fra dette ståstedet jeg har det overordnede ansvaret for spillerutviklingen i en
+nasjonal «toppklubb» som Mjøndalen. Det er derfor særdeles spennende og utviklende å
+finne ut hvordan en klubb som FCK driver. Gjennom grundige undersøkelser vil jeg
+forhåpentlig få belyst en del perspektiver gjennom subjektive oppfatninger og objektive
+fakta.
+Det overordnede i min analyse vil være å belyse forhold ved utviklingsløpet som kan forklare
+den gode evnen til å produsere spillere fra egen avdeling. Siden «akademiet» School of
+Excellence ble startet i 2009 har en rekke spillere både blitt tatt opp på deres A-lag, og blitt
+lånt ut til andre nasjonale toppklubber i Danmark. Jeg kan nevne navn som:
+
+6
+
+Mats Aaquist (Spilt i KB fra han var 12.år, 1994), Jakob Busk (Spilt i KB fra han var 7 år, f.
+1993) Andreas Cornelius(1994, solgt til Cardiff for 80 mill, f.1993), Thomas Delaney (Spilt i KB
+fra han var 5. år, 1993), Danny Amakwaa (Spilt i FCK fra han var 14, f. 1994), Christoffer
+Remmer (Spilt i FCK fra han var 16 år, f. 1993) , Tobias Christensen (Spilt i KB fra han var 5.år
+, f. 1995), Mikkel Wohlgemut (Spilt i KB fra han var 9. år, f. 1995). FCK har også en politikk på
+at de som ikke slår helt gjennom skal hjelpes til å utvikle seg videre i naboklubbene.
+Christoffer Høyer Nielsen (Spilt i KB siden han var 13. år, f. 1994) er leid ut til
+1.divisjonsklubben Brønshøy. Fra SE ble opprettet i 2009 hevdet Nilsen i en
+mailkorespondanse at 35-40 spillere har spilt, eller vært innom de tre øverste nivåene i
+Danmark.
+«Jeg har ikke det nøjagtige tal men mit bud er, siden 2009, hvor de ældste årgang kun var i FCK-SE i
+1-2 år, 35-40 spillere i de tre bedste rækker.» (Nilsen 2014, mailkorrespondanse 15.januar).
+
+I tillegg kunne jeg nevnt flere spillere som siden 1992 har tatt steget fra ungdomsavdelingen
+og opp til FCK sitt A-lag. Dette indikerer en kultur og ett fokus på spillerutvikling som har
+vært stort i FCK også før SE ble opprettet. Uten å gå inn på alle navnene må likevel en
+«legende» som William Kvist nevnes. Kvist spilte i KB fra 1992 før han i 2004 ble tatt opp i Alagstroppen til FCK. Han ble senere solgt til Tysk Bundesliga og har hatt stor suksess der.
+Dette indikerer at det var et fungerende utviklingsmiljø også før SE ble opprettet.
+
+2.1 hovedproblemstilling
+For å avgrense problemstillingen vil denne oppgaven primært dreie seg om det som har
+skjedd siden klubben fikk sitt eget «akademi», det vil si da ting ble profesjonalisert i 2009.
+Men for å kunne forstå bakgrunnen og årsakssammenhenger vil jeg i noen grad belyse det
+som har skjedd historisk i KB. B1903 vil bli viet liten oppmerksomhet da jeg mener klubben
+
+7
+
+spiller en mindre rolle i utviklingsarbeidet i FCK. Noen åpenbare årsaker til dette vil jeg
+komme inn på senere i oppgaven.
+Jeg vil som nevnt se på helheten i FCK sin filosofi rundt spillerutvikling, og
+hovedproblemstillingen vil være finne aspekter i denne helheten som kan forklare graden
+av «suksess» med å produsere nasjonale toppspillere i Danmark. Her er jeg fullstendig klar
+over at jeg toucher inn på et vanskelig område i forskningen da jeg må forholde meg til en
+del objektive faktabaserte forhold ispedd subjektive oppfatninger, og koke disse ned til en
+konklusjon. For min egen del er dette endel av fascinasjonen rundt spillet fotball. Noe kan
+måles vitenskapelig, men mye må også munne ut i personlige meninger. I søken etter en
+helhetsoppfatning er det en rekke aspekter jeg må undersøke å belyse. Alle som jobber i en
+større organisasjon vet at graden av suksess bygger på flere forhold. Det ene følger ofte det
+andre og tenker man lag og prestasjoner så kan man trekke en analogi til klubben. Alle ledd
+er avhengige av en stor grad av samstemthet og kvalitet. Samtidig er utviklende miljøer ofte
+preget av dynamiske prosesser. Hva som preger denne utviklingen vil jeg synliggjøre i en del
+konkrete punkter som vil bli belyst. La meg nå presentere de underproblemstillingene som
+vil kunne gi meg faktabaserte sannheter og subjektivt oppfatninger som kan gjøre meg i
+stand til å lage en konklusjon.
+
+2.2 Underproblemstillinger
+For å kunne konkludere på en mest mulig valid måte har jeg valgt å underbygge ting
+gjennom å se på flere variabler som kan knyttes til «utvikling» i FCK. Mange av disse
+variablene kan måles objektivt og vil således kunne understøtte det faktum at så mange har
+
+8
+
+Jann Rindsem
+tatt steget til toppfotballen på seniornivå. Når det er sagt er det selvsagt ikke gitt at jeg ut fra
+disse variablene kan trekke en vitenskapelig slutning, men de vil helt klart underbygge
+konklusjonen min. Det er alltid elementer av tilfeldigheter som spiller inn når en, eller
+spillere flere tar steget, men jeg mener bestemt at de punktene jeg vil undersøke og belyse
+spiller en vesentlig rolle i det store bildet. Under er de variablene jeg vil undersøke nærmere:
+
+- Hva ble nytt med School of Excellence? Kontinuitet og videreutvikling fra en nedarva
+kulturell identitet?
+
+- I hvilken grad spiller de fysiske rammene og ressurstilførsel inn på utviklinga?
+
+- Finnes det en fast systematisk struktur på utdanningsløpet i FCK? Er det en rød tråd på
+treningsinnhold, metodikk og oppfølging i utviklingsløpet?
+
+- Er det kulturelle forhold som spiller inn når så mange unge spillere tas opp i A-troppen?
+Og har, eller spiller enkeltpersoner en viktig rolle i denne prosessen?
+
+- Hva har betydd mest for Thomas Delaney (93) og Danny Amakwaa(1994) i sin vei mot
+nasjonalt gjennombrudd? Delaney har spilt i klubben fra han var 3 år gammel og Danny
+Amakwaa kom til klubben som 14. åring. Her er det med andre ord to litt ulike perspektiv.
+
+Gjennom å søke et så bredt spekter som mulig håper jeg å synliggjøre en rød tråd i FCK når
+det kommer til utvikling. Det er alltid summen av flere variabler som spiller inn i et
+utviklingsperspektiv og jeg har som mål å finne en del objektive fakta, og bruke disse
+metodisk for å finne et så helhetlig og riktig bilde som mulig. Jeg vil i min tilnærming til
+9
+
+kompetanseinnhentingen benytte ulike metoder. Selve prosessen rundt metode og
+kildeinnhenting har vært veldig lærerik og interessant. For å gjøre oppgaven mest mulig
+forståelig og valid vil jeg presentere inngangen jeg hadde til kildeinnhenting.
+
+10
+
+Jann Rindsem
+
+3.0 Metodebruk
+
+Metode er et uttrykk som sier noe om hvordan jeg har arbeidet. Det er åpenbart at
+fremgangsmåten som er brukt må ha en relevans til det jeg faktisk skal undersøke. For min
+del har derfor mye av metodebruken vært knytta til feltstudier. Det har vært direkte samtale
+med de som er involvert, samt at jeg gjennom direkte kontakt med miljøet har foretatt
+observasjoner på sport og administrasjon.
+Kildene er med andre ord stort sett av primær karakter, og mye av det innsamlede
+materialet kan derfor gå rett inn i hjertet av det jeg skal undersøke. Dette vil gjøre oppgaven
+mest mulig basert på empiri, og jeg vil så langt det er mulig kunne objektivisere det jeg har
+kommet fram til. Jeg har både foretatt intervjuer av spillere på A-laget (Thomas Delaney og
+Danny Amakwaa), assistenttrener på A-laget (Brian Riemer), U19 trener (Morten Grahn),
+manager på School of Excellence (Michael Mio Nilsen) og sportslig leder i KB (Kim Toft). I
+tillegg har jeg gjennom mine fem besøk i klubben tilegnet meg en rekke inntrykk i form av
+observasjon og uformelle samtaler. Alle intervjuene har blitt kvalitetssikra gjennom bruk av
+diktafon, etter tillatelse fra intervjuobjektene. En ekstra takk til Kim Toft og Michael Mio
+Nilsen som i tillegg til å ha stilt opp som intervjuobjekter, har gitt meg tilgang på en del
+litteratur som er knytta til barnefotballen i KB (barnefotballen til FCK) og grunntankene i FCK
+fra A-laget og ned til SE.
+
+11
+
+I tillegg til disse primærkildene har jeg benyttet en del sekundærkilder gjennom litteratur
+som jeg har fått bestilt opp fra DBU (Dansk Boldspill-Union), som er særidrettsforbundet for
+fotball i Danmark. Det er nyttig å sette seg inn i utviklingstenkinga i Danmark og se på
+hvordan FCK er i dette bildet. I tillegg er det interessant å se på hvordan den danske
+modellen er sammenlignet med den norske selv om jeg i et komparativt perspektiv ikke vil
+vektlegge dette nevneverdig i oppgaven. Jeg har også benyttet en del litteratur som knyttes
+til læringsprosesser på ulike nivåer for å sette disse inn det bildet som FCK jobber ut fra. I
+tillegg fikk jeg som nevnt ovenfor tilgang til mye av det innerste av fotballtenking og utvikling
+i FCK under mine besøk.
+
+Et aspekt jeg la merke til under mitt første besøk var hvordan lokaliseringen av de fysiske
+ressursene var organisert. Jeg ønsket å se nærmere på dette og stilte en del relevante
+spørsmål knytta opp til dette aspektet under et av mine besøk i klubben. Før jeg vil touche
+inn på dette er det naturlig å se på substansen i utviklingsarbeid som gjøres i SE. Bak et
+prosjekt ligger det alltid en tanke og tenkinga rundt hvordan ting skal organiseres og
+gjennomføres har ofte sitt utspring i en kultur, noe som kjennetegner akkurat denne
+klubben. Som et ledd i oppgaven er det viktig for meg å se litt på F.C. København som klubb,
+og om det er nedarvede tradisjoner som spiller inn på hvordan ting gjøres. Spiller linken fra
+A-laget og ned til SE og samarbeidsklubbene en viktig rolle i dette bildet?
+
+12
+
+4.0 F.C. København- en kulturell identitet?
+
+For å få et bedre utgangspunkt til å forstå hvorfor klubben er så profesjonelt drevet er det
+nødvendig å gjøre et dypdykk ned i klubbrota til FCK. Finne ut om det finnes en kulturell
+identitet og hvordan FCK (forkortelse for F.C. København) ble til. Mange tror kanskje dette er
+en gammel klubb som har eksistert lenge, men det er ikke tilfellet. Det var ikke før i 1992 at
+klubben så sitt lys som en klubb. Rota i FCK var de to storklubbene KB og B1903 som valgte å
+slå seg sammen, og danne et felles seniorlag som skulle hete F.C København. Brøndby hadde
+på mange måter blitt nummer 1.klubben i Danmark på denne tida og de hadde fått et
+forsprang gjennom at de allerede i 1979 profesjonaliserte klubben. Både KB og B1903 var på
+denne tida to av Danmarks beste lag, både på senior og U-nivå.
+Vi finner med andre ord mye kultur i klubben fordi den nedstammer fra to så tradisjonsrike
+klubber i Danmark, Boldklubben 1903 (B1903) og Kjøbenhavn Boldklubb (KB). Dette er som
+sagt to klubber som har lange tradisjoner i Dansk fotball.
+For å se litt på Kjøbenhavn Boldklubb først så er klubben den eldste klubben i Europa med
+unntak av de engelske klubbene. KB har hele 15. seriemesterskap på samvittigheten, og
+laget vant det danske seriemesterskapet så seint som i 1980.
+«Klubben ble stiftet i 1876 som den første fotballklubben i Europa utenom Storbritannia. KB
+er med sine 15 danske cupseire den klubben som har flest cupmesterskap siden turneringen
+ble arrangert første gang i 1913.» (Wikipedia, Kjøbenhavn Boldklub).
+Den andre klubben, B1903 ble stiftet i 1903, og har også en lang og tradisjonsrik historie bak
+seg i Danmark. Klubben har vunnet en rekke titler både i seriespillet og i Cupen. Laget har
+13
+
+Jann Rindsem
+hele 7. seriemesterskap på samvittigheten og vant serien siste gang i 1976. Det er dette som
+var substansen til FCK, og man kan sånn sett si at klubben ikke startet på scratch, men at det
+lå en enorm kompetanse både på erfaring og kulturell identitet. Hvorfor valgte man så å slå
+seg sammen?
+For å forstå årsakene til denne fusjonen må man se litt på viktige organisatoriske endringer
+som skjedde i dansk fotball på slutten av 70-tallet. Begge disse klubbene ble fra 1979 da det
+ble innført profesjonell fotball i Danmark satt litt i skyggen av Lyngby og Brøndby. Man ville
+ikke drive profesjonell fotball i KB og B1903 slik Brøndby og Lyngby ønsket. Etter hvert
+som årene gikk mistet klubbene noe av den posisjonen de tidligere hadde hatt som to av de
+beste lagene på seniornivå. Verst gikk det ut over KB som røk ut av den beste ligaen og mistet
+mye av fotfestet på øverste nivå i Danmark. Til tross for dette fortsatte man å jobbe godt i
+utviklingsavdelingen. Klubbidentiteten fortsatte med andre ord å eksistere selv om
+flaggskipet, A-laget, gikk ned i divisjonssystemet. Det gode arbeidet som ble gjort i
+aldersbestemt fotball ble etter hvert særdeles viktig for den nye klubben som ble hetende
+FCK. Jeg vil komme nærmere inn på denne viktigheten senere i oppgaven.
+Den andre klubben, B1903 klarte seg bedre i den øverste divisjonen, men manglet kanskje
+den oppslutning nedover i systemet som KB hadde hatt. Etter hvert som man så behovet for
+et sterkere fundament begynte man å diskutere mulighetene for å slå sammen de to klubbene.
+Skulle man ha muligheter for å hevde seg på seniornivå måtte resurser og kompetanse samles.
+Etter en lengre prosess der man så på alternative muligheter ble det etter hvert tatt et valg på
+ledelsesnivå der man ønsket å lage en storklubb ut av de to «kjempene» i dansk
+fotballhistorie. Resultatet ble en fusjon mellom de to klubbene som ble til F.C. København i
+1992. Utviklingsarbeidet skulle gjøres i begge klubbene, men det var KB som stod i front på
+dette området. Det er åpenbart at det var mye kvalitet som ble gjort i denne første fasen selv
+om planlegging og systematikk kanskje ikke var like bra som i dag.
+Etter hvert som klubben styrket sin posisjon på seniorlaget ble kravet gradvis større for å
+profesjonalisere utviklingsarbeidet. I 2009 ble den delen av utviklingsarbeidet som ligger
+14
+
+under FCK, SE stiftet. Dette skulle være lag fra U14 og fram til U19, og man ønsket å spisse
+kvalitet både organisatorisk, ressursmessig og på spillermaterialet.
+Treningene ble lokalisert til KB sitt idrettsanlegg på Peder Bangs Vej (ved KB hallen). Selve
+plasseringen av treningsfelt har trolig vært en viktig faktor for at KB har fått den største
+plassen i utviklingsarbeidet av de to samarbeidsklubbene. B1903 trener på et annet område
+enn FCK lagene og linken til FCK har derfor ikke blitt så sterk som tilfellet er for KB sine
+aldersbestemte lag. De «beste» spillerne fra yngres rekker har derfor i de fleste
+sammenhenger valgt å spille i KB i stedet for B1903. Når man teller opp antall spillere på
+FCK U14 troppene siden oppstarten av SE viser også statistikken at det er en klar overvekt av
+spillere fra KB, og stort sett bare 1-2 fra B1903. I skrivende stund er SE i ferd med å også
+styrke B1903 sin rolle som en base for utviklingsarbeidet, men dette er en prosess som
+nettopp har startet, og jeg vil derfor ikke bruke så mye tid på B1903 i denne oppgaven. I
+mailkorrespondanse skriver Nilsen dette:
+
+«B1903 har tidligere haft en mindre rolle, men de sidste par år er der også blevet opgraderet i
+B1903 og vi sidder netop nu og ligger strategi for et endnu større engagement og planen er at
+B1903 skal op på samme niveau som KB. Så vi får skabt et ligeså stærkt børne-/ ungdoms
+træningsmiljø nord for København – School of Excellence Nord. For på den måde få skabt et endnu
+stærkere rekrutterings-/ og uddannelses grundlag.» (Nilsen 2014, mailkorrespondanse 15. januar).
+
+KB sin rolle i FCK sitt utviklingsarbeid vil belyses mer dyptliggende senere i presentasjonen.
+Mye av tankegodset som ligger i bunn for FCK finnes med andre ord i en elitekultur som
+hadde lange tradisjoner i danske fotball. Selv om organisasjonen ble profesjonalisert og mer
+ressurser ble spytta inn i systemet var det en felles toppidrettskultur med mye kompetanse
+både på ledelses og spillersida som FCK arvet. Etterhvert som klubben ble gradvis mer
+profesjonalisert og graden av klubbgrenser har blitt hvisket ut, kom kravet om enda mer
+spissing inn mot A-laget i form av SE som er akademiet til FCK.
+
+15
+
+La meg nå se mer dyptliggende på SE og se på hvilken prosessiell betydning dette har hatt for
+kvaliteten i FCK. Kravene til klubber både i Danmark og andre nasjoner har blitt større og
+man er avhengige av å ha med seg støttespillere både lokalt og nasjonalt. I dette bildet har det
+som gjøres nedover i systemet blitt en stadig viktigere del av en klubb. Ikke bare kan man
+produsere egne spillere, men også omdømmeverdien stiger.
+
+16
+
+Jann Rindsem
+
+5.0 School of Exellence
+
+I 2009 ble ting profesjonalisert i FCK gjennom SE. Dette er et samarbeidsprosjekt mellom FCK
+og KB/B1903 som ble formalisert først 17 år etter at F.C. København ble stiftet. Tanken er at
+de tidligere storklubbene skulle ha ungdomslag og drive utviklingsarbeidet fra 4. år og opp til
+sitt A lag. Fra spillerne er 14 år skal de beste samles i ungdomslagene som er driftet av FCK.
+Dette dreier seg om FCK U14, 15, 17 og 19. Her har historien vist at majoriteten av spillerne
+på det første FCK U14 laget kommer fra KB. Dette er et åpenbart tegn på at det både drives
+bra nedover i KB-systemet, samt at sikkert tilsiget av spillere til KB starter lenge før man er
+14 år. På denne måten vil man ha en kvantitativ og kvalitativ stor spillermasse å plukke de
+beste fra.
+Da jeg for første gang leste om SE så jeg på tiltaket som en ren forlengelse av det som hadde
+blitt gjort i England og Nederland. Akademibegrepet er ofte knytta opp mot internering der
+spillerne bor og trener på samme området. Nå har nok også denne modellen blitt endret noe
+de senere årene og SE er også bygd opp litt annerledes enn det tradisjonelle akademiet. Det
+er ikke så viktig hva man kaller konseptet, men assistenten på A-laget Brian Riemer sa det på
+denne måten da jeg intervjuet han.
+«Dette er ikke et akademi i den forstad at spillerne er internert her. De går på en skole som
+ligger like ved treningsanlegget og har en profesjonell oppfølging rundt helheten» (Riemer
+2013, intervju 5.september).
+Nyansene er likevel nokså små og samme hva man kaller konseptet koker det hele ned til å
+få fram spillere til sitt eget A-lag. Hele modellen er systematisert og bygd opp rundt en
+utviklingstanke som har som hovedmål å produsere spillere opp til klubbens A-lag. Da man
+17
+
+startet SE laget man en managerstilling og valget falt da på Michael Mio Nielsen som
+gjennom sine 284 kamper for F.C. København må kalles en kulturbærer i klubben. Han
+jobber tett inn mot de lagene som utgjør FCK U14, 15, 17 og 19, og har daglig kontakt med
+både trenerne, skolen, sportslig leder Sune Smith Nielsen og sportslig ledelse på A laget.
+Linken mellom gruppene styres derfor gjennom en stor grad av systematikk.
+”F.C. Copenhagen School of Excellence” er F.C. Københavns satsning på det, der skal blive
+Skandinaviens bedste fodbolduddannelse (FCK sitt offisielle nettsted). I dette ligger
+mandatet til prosjektet fast.
+«Den overodnede ambition for School of Excellence, er at udvikle så mange kommende
+topspillere som muligt, der kan blive en del av F.C Københavns superligatropp. Alle processer
+i SE skal optimaliseres i forhold til arbeidskravene for en kommende topspiller i FC
+København» (Forskrifter til SE).
+Det er sentralt i retningslinjene for SE at alle prosessene skal ha en sammenheng til det som
+skjer på seniorlaget. Man har systematisert alt i en modell som har A-laget som referanse.
+FCK er veldig opptatt av å skille hvilke parametere klubben kan påvirke og eksterne forhold
+som de i mindre grad kan gjøre noe med. Hovedmålet er å utvikle talentet til å bli en
+kommende A-spiller på FCK.
+I tillegg til kvalitet i gruppene gjennom en systematisk utvelgelsesprosess, har de et helhetlig
+tilrettelagt opplegg for spillerne som dreier seg om skole, planlegging av trening og
+oppfølging. Johannesskolen som er basen på utdanning ligger like ved treningsanlegget og
+opplegget blir derfor veldig konsentrert på et sted.
+Om man tenker tilbake til 1992 da FCK ble til som klubb hadde man ikke noen definert
+elitesatsing rundt utviklingslagene. Et helhetlig tilbud som gikk på utdanning og fotball var
+derfor noe nytt, selv om innholdet i det som ble gjort på feltet ikke nødvendigvis var veldig
+annerledes enn det var før. Brian Riemer, assistent på A-laget og tidligere U19 trener, var
+opptatt av at det ikke kom et distinkt skille med SE, men at det var en styrking av
+18
+
+profesjonaliteten. Det ble etter hvert et system som klubben kunne jobbe etter der U-lagene
+skulle spille som A-laget. På den måten kunne de som etter hvert fikk muligheten opp til Alaget tilpasse seg deres spillestil på en enklere måte. Som det heter i forskriftene:
+«Det er centralt, at alle processer i SE har sportslig sammenhæng til FCK modellen og vores
+superligahold. SE-modellen tager udgangspunkt i de arbeidskrav, der er til fremtidens
+topspiller i FCK «(Forskrifter i SE).
+Mandatet blir derfor styrende i alt fra utvelgelsesprosess til gjennomføring. Man må ha
+talentet kombinert med et trenings og prestasjonsmiljø samt en link/overgang inn til Alaget.
+Tidligere var det ingen fast struktur og tanke bak det som ble gjort på utviklingslagene når
+det kom til en klar linje opp til A-laget. Man drev som tidligere nevnt bra på de ulike
+alderstrinnene også i det gamle KB systemet, men linja opp til A-lagets måte å spille fotball
+på ble nå mye tydeligere. Thomas Delaney (etablert på A-laget og landslagsspiller) fikk et år
+på School of Exellence og påpekte noe av det samme da jeg pratet med han.
+«Ting ble satt i et system der oppfølging og oversikt ble mye bedre. Fra at ting tidligere var
+litt tilfeldig med tanke på oppfølging og valg av arena, ble ting mye mer profesjonelt fra 2009
+da utviklingsarbeidet skulle styrkes. Ting ble mye mer likt mellom U19 og A-laget, og de
+spillerne som etter hvert fikk hospitere opp visste hvordan ting ble gjort. Som
+ungdomsspiller følte man seg mye mer fulgt opp.» (Delaney 2013, intervju 5.september).
+Selv om SE ble dannet med et klart definert mål om å produsere kommende A-spillere til
+superligalaget er det åpenbart at mye av «det gamle» lever videre. Både KB og B1903 har
+spilt en rolle for FCK, og særlig KB har etter at FCK ble en egen klubb vært veldig sentrale
+både som en rekruteringsarena, og som en kulturbygger. Før SE ble opprettet var det som
+sagt ingen rein utviklingsavdeling som var knytta til FCK.
+
+19
+
+I et klubbperspektiv har det blitt viktigere for klubber å kunne identifisere seg som klubb
+gjennom et helhetlig system der aldersbestemte lag er en del av kultursjela. Etter hvert som
+FCK satte seg som klubb ble det gradvis viktigere å styrke denne delen av klubbsatsinga.
+Mye av det gamle tankegodset ble likevel videreført og for å forstå essensen er det viktig å
+se litt nærmere på samarbeidsklubbenes rolle. Jeg vil derfor komme nærmere inn på deres
+viktighet litt senere i oppgaven. Først vil jeg nå belyse en del konkrete ting som SE satte i
+system og hvordan tenkinga deres er rundt utvikling.
+
+U19 Danmarksmestre 2012 (med bl.a Andreas Cornelius)
+
+20
+
+5.1 Hva er man opptatt av i SE?
+Med opprettelsen av SE ble blant annet Scouting et veldig viktig parameter. Dette for å sikre
+et så høyt nivå som mulig i gruppene. Det er en allmenn regel at en høy grad av kvalitet i
+gruppene er utviklende for den enkelte, og en nøkkelfaktor for suksess er gode spillere som
+trener sammen. Her kommer også fokusaspektet inn. Det er viktig å hente spillere som både
+er ferdighetsmessig gode, men som også er lærevillige og som ønsker å utvikle seg i et
+samspill med andre.
+«De som forstår at De må fokusere på laget, også for å utvikle seg selv, er de som blir
+individuelt best» (Ullseth 2011, Faget er viktigst, s70).
+Utvelgelsen går ikke nødvendigvis på prestasjoner i nuet, men bygger på en systematikk der
+man ser på konkrete variabler og hvilke arbeidskrav som kreves. SE definerer hvert enkelt
+talent ut fra hvilke kvaliteter den enkelte spiller har på disse punktene. Man er også veldig
+opptatt av å se på ulike kvaliteter til den enkelte spiller slik at man rekruttere breiest mulig
+ut fra de kravene som FCK krever. Man har satt opp 6 punkter som er prioriterte områder i
+utviklingsløpet til den enkelte. Spillerutviklingsmodellen bygger på variablene:
+
+-
+
+Taktikk: Evnen til å treffe de riktige valgene i sammenheng med lagets kampplan.
+Utvikling av dette skjer mye på løpende coaching, dialog og videoanalyse. Utvikling av
+dette må ses i sammenheng med den spillestilen som FCK har.
+
+-
+
+Teknikk: Talentet skal utvikle seg ut fra de arbeidskravene som kreves. Man har delt
+inn fokus ut fra alder og behov. Man nevner basisferdigheter som mottak, vendinger,
+pasninger, avslutninger. Etter hvert som man når U16 og U19 tiltar
+rollespesialiseringen. U19 har som tidligere nevnt en treningshverdag som er mye lik
+det som gjøres på A-laget og arbeidskravene på referanser er tydelige.
+21
+
+-
+
+Fysikk: Det er fysiske trenere som jobber systematisk med fotballspesifikke variabler
+som hurtighet, bevegelighet, duellspill og utholdenhet. Også her er man opptatt av å
+tilrettelegge individuelt og fokuset er tilpasset den fysiologiske utviklinga.
+
+-
+
+Mentalt: Utvikle evnen til å prestere under press. Her går det mye på å jobbe med
+seg selv, og utvikle seg på selvregulering, og det å komme seg videre etter man har
+gjort en feil. I skrivende stund er FCK i ferd med å ansette en egen trener som har det
+overordnede fokuset på den mentale biten. Tidligere har trenerne blitt coachet på
+dette gjennom DBU som har hatt ekstra fokus på dette. Fra sesongen 2014/15 blir
+det også et krav fra forbundet at alle A-lisensklubber må oppfylle en del kriterer
+rundt dette området for å få lisensen (må ha A lisens for å spille i den beste ligaene).
+
+-
+
+Utviklingsstrategi: Her er man veldig opptatt av å lære talentet å «trene». Hver
+enkelt spiller må være seg bevisst på hva han skal bli bedre på og jobbe ut fra en
+strategi om å oppnå dette. Her er selvinsikten viktig, og man må ha et bevisst forhold
+til sine ambisjoner, passion/dedikasjon , konsentrasjon, standhaftighet, disiplin og
+bevissthet rundt egne styrker og svakheter. Viktigheten av denne innsikten og
+bevisstheten er det hovedtreneren i samarbeid med den individuelle treneren som
+har hovedansvaret på, om man ser bort fra spilleren selv.
+
+-
+
+Lifeskill: SE har en filosofi som går på at skal man prestere på fotballbanen er det en
+fordel at man har orden på det som også skjer utenfor fotballbanen. Det er i denne
+konteksten at man også har opprettet et nært samarbeid med hjem/skole. Dess
+yngre utøveren er dess mer oppfølging er det rundt denne delen. Man har også
+implementert forhold som henger sammen med fokus og forberedelser. Dette kan
+berøre viktige prestasjonsaspekter som nok søvn, riktig kosthold osv. For skolen sitt
+vedkommende går de fleste spillerne på Johannesskolen som ligger et steinkast fra
+
+22
+
+treningsanlegget. Her er det et formalisert samarbeid med SE og linken spiller-skoletrening er veldig stor.
+
+I sammenheng med de variablene som man ønsker å se framgang på stilles det distinkte krav
+til tilretteleggingsbiten i utviklingsløpet. Det man kan påvirke i nuet er viktig, men for å
+optimalisere dette er det helt avgjørende at ting ligger til rette. SE skal maksimere denne
+delen og Faciliteter er derfor avgjørende som en del av helhetstilbudet. Alt fra garderober,
+baner, kontorer, styrkerom og fotballutstyr. Det er nedfelt i retningslinjene for SE at dette er
+et punkt man stiller store krav til innenfor organisasjonen.
+Skal man få effekt på fem av de første variablene er det vesentlig å trene tilstrekkelig.
+Kravene til kvantitet i SE er 6 treninger i uka pluss kamp, og mye av treningen er individuelt
+tilpasset den enkeltes utviklingsmål. Ingen ting er statisk og det er mye fokus rundt
+kommunikasjon mellom trener/spiller og man bruker mye videoanalyse i opplæringen. Jeg
+vil under kapittel 12.0 komme mer inn på hva som vektlegges i treningsinnholdet.
+Kravene til samspill (kohesion) er også noe som er nedfelt i SE sine forskrifter. Det er helt
+avgjørende i dynamiske utviklingsmiljøer å kunne ha et fellesskap som er tufta på sosialt
+ansvar. Uten dette vil man ikke oppnå den ønskede utviklinga for enkeltspilleren. I både
+oppdragelsen og utvelgelsesprosessen er dette et viktig kriteriet for SE.
+«Laget går foran enkeltspilleren. Spillestilen er udgangspunkte for fællesskabet samt
+forståelse og accept af sin rolle i relationen» (forskrifter SE).
+For å tilrettelegge og sikre kvaliteten på alt dette er organisasjonen helt avgjørende. Man er
+veldig opptatt av å sikre at kompetansen er god til de som skal utføre sine oppgaver. Dette
+gjelder både ledelsen, trenere og andre personer med spisskompetanse. Man er opptatt av
+egen utvikling innenfor egen organisasjon og begrepet mesterlære er noe som ble hyppig
+brukt da jeg besøkte klubben. Unge trenere som er med de ulike gruppene bidrar som
+trenere, men er samtidig med og lærer av de som har kommet «lengre». Mentorering er et
+begrep som blir brukt i SE. Målet er hele tida å ha en stor grad av selvrekruttering og
+23
+
+kontinuitet. Flere av de trenerne som i dag er trenere på FCK lagene startet sin
+trenerkarriere i KB. Internt i SE skjer det samme. Morten Grahn begynte eksempelvis som
+individuell trener på U19 før han ble hovedtrener, og Brian Riemer som var U19 trener endte
+sogar opp som assistent på A-laget.
+Laget er også et sentralt og avgjørende parameter for utvikling av talentets potensiale. Det
+er i denne konteksten at trenerens rolle som relasjonsbygger både lagtaktisk og sosialt
+kommer inn. Alle de 6 variablene (teknikk, taktikk, fysikk, utviklingstrategi, lifeskill, mentalt)
+vil bli påvirket av hvordan samspillet og relasjonene er både mellom spillerne og mellom
+spiller og trener. Det er i helheten mye av det som trenes på skal praktiseres i mest mulig
+funksjonelle settinger. Det stilles store krav til både formelle og uformelle samtaler,
+videoanalyse, løpene feedback samt formelle utviklingssamtaler.
+Alle disse punktene er noe som SE selv mener de kan styre og gjøre noe med. I tillegg er
+man veldig opptatt av å ivareta talentet selv om man noen ganger kommer til et punkt der
+man ikke ønsker å gi et tilbud i FCK. Det er innlysende at flere av spillerne ikke vil nå opp til
+superligalaget, men de spillerne som man ikke finner god nok guider man til andre klubber
+som har et nivå som er tilpasset spilleren. Sånn sett kan også samarbeidsklubbene dra nytte
+av å «sende» spillere til FCK på et tidlig stadium for deretter få de tilbake som mye bedre
+fotballspillere som 19 åringer. I tillegg kan en retur også være et springbrett for spilleren som
+med riktig arenautvikling kan ta nye steg og komme tilbake til FCK senere. Nilsen antydet
+som nevnt at ca. 40 spillere som har vært innom SE spiller eller har spilt i 1, 2 eller
+superligaen. Dette er et imponerende tall.
+Dette viser med tydelighet at det kvantitative tallet på spillere som har nådd et nivå som kan
+defineres som toppfotball er veldig høyt. De som observerer utenfra ser også at
+utviklingsløpet i SE er positivt uavhengig om man får kontrakt med A-laget eller ikke, og SE
+som institusjon må ses på som selve kjernen i helheten rundt det å produsere så mange
+gode spillere. SE er også opptatt av det de ikke kan styre direkte, men som de kan påvirke.
+
+24
+
+Jann Rindsem
+
+6.0 Eksterne faktorer i utviklingsløpet.
+I tillegg til nevnte skole og samarbeidsklubbene (som jeg vil komme tilbake til under) er FCK
+og SE veldig opptatt av eksterne faktorer som spiller inn i utviklingsløpet til den enkelte.
+Dette er faktorer de ikke styrer, men som de kan påvirke gjennom aktiv deltagelse. Veldig
+mange av de spillerne som er i SE er enten landslagsaktuelle eller er en del av
+aldersbestemte landslag. For FCK er det viktig å ha med spillere på disse tiltakene, både med
+tanke på impulser og kvalitet. DBU som er ansvarlige for disse landslagene er i tillegg
+overbygningen organisatorisk, og linken til FCK er derfor viktig for begge parter. Nytt er
+eksempelvis forbundets rolle på individuell oppfølging av de største talentene gjennom
+tilskudd de gir til de klubbene som har A lisens. Dette for å styrke den individuelle delen av
+utviklingsarbeidet i de profesjonelle klubbene. Dette kan sammenlignes med tilskuddet som
+norske tippeliga og Adecoliga klubber får i Norge. Man ønsker å øremerke midler som kun
+skal gå til spillerutvikling.
+FCK ønsker også å ha en stor påvirkning på seriesystemet for de aldersbestemte lagene og
+bidrar aktivt i komiteene som bestemmer hvilke lag som skal spille i de nasjonale ligaene i
+Danmark, U17 og 19. Man er opptatt av å ha så stor kvalitet som mulig i ligasystemet for å
+skape en best mulig optimalisert utviklingsarena. Modellen i Danmark er en del annerledes
+enn den er i Norge. Mye kan selvsagt tilskrives det geografiske landskapet, men noe er også
+tuftet på kultur og tradisjon. Det er mye mer prestisje og derigjennom også høyere nivå på
+de øverste ungdomsligaene i Danmark vs Norge. I Norge operer vi oftest med regionale
+interkretsserier for våre G16 og G19 lag, mens man i Danmark har nasjonale ligaer for U17
+og U19. Grahn hevdet at de to øverste divisjonene var nasjonale, og i den beste var det kun
+A lisensklubber som fikk delta. Det vil si at det var en 1 og 2 divisjon på U17 g U19 som er
+nasjonale, veldig ulikt den norske modellen. På denne måten er det ingen tvil om at de beste
+møter de beste, og kamparenaen på sitt aldersnivå blir mye bedre enn tilfellet er i Norge der
+25
+
+konsekvensen ofte er at spillere flyttes opp hyppigere eller at lag faktisk spiller i
+divisjonssystemet (juniorlag). U15 ligaene i Danmark er imidlertid regionale og kan
+sammenlignes med systemet vi har på G16 i Norge i dag, med interkretsserier.
+Alle spillerne i SE ligger på et veldig høyt nivå nasjonalt og flere er som tidligere nevnt
+landslagsspillere. Samtlige spillere på U17 og U19 har såkalte proffkontrakter (betalte
+kontrakter som binder de til klubben). Til og med fire spillere på deres U15 lag har proff
+kontrakter. Klubben hadde tidligere såkalte amatørkontrakter, men gikk vekk fra dette fordi
+de i realiteten ikke hadde noen verdi. Mye av årsaken til at de gir kontrakter så tidlig er fordi
+man ønsker å sikre seg mot at unge talenter bare forsvinner fra klubben vederlagsfritt.
+Gjennom proffkontrakt binder man opp spilleren til klubben, og dersom andre klubber
+ønsker å hente en spiller må de kjøpe han fri fra FCK. Man har likevel en klar politikk på at
+ikke unge spillere skal hausses opp i media, og man omtaler aldri spillere med navn før de
+eventuelt signerer en seniorkontrakt. Mediastrategien baserer seg med andre ord på det
+faglige utviklingsmiljøet heller enn enkeltspilleren. I Danmark skiller man sterkere mellom
+det vi som betegner som en proffkontrakt og seniorkontrakt. Begge kontraktstyper er
+betalte, men man haker av senior på en seniorkontrakt som er linka inn mot A-laget. I denne
+konteksten er det viktig for FCK å ha et tett, men profesjonelt samarbeid med agenter. Man
+forholder seg med andre ord til fotballverden slik den er, og forsøker å ha et
+samarbeidsklima som gagner både klubben og spilleren.
+
+26
+
+Jann Rindsem
+
+7.0 Samarbeidsklubbenes innflytelse i FCK
+La meg først se på forholdet mellom KB, B1903 og F.C. København. Som tidligere nevnt så
+bestemte de to klubbene seg for å slå seg sammen til F.C. København i 1992. Arven fra de to
+klubbene ble selve grunnstammen i det nye laget. Begge klubbene hadde lange tradisjoner
+som kulturbærere i dansk fotball. Overbygningen FCK, skulle primært være basert på et
+nasjonalt topplag i superligaen, men arven til de to klubbene, og særlig KB var basert på et
+ekstremt bra utviklingsmiljø. De første 17 årene fortsatte man å drive godt ned i KBsystemet, men med økende krav til spissing og profesjonalisering ble som nevnt SE oppretta
+i 2009.
+Det er på mangemåter nødvendig for helheten i oppgaven å beskrive hvordan KB driver sitt
+utviklingsarbeid. B1903 har aldri hatt den posisjonen på spillerutvikling som KB inntok da FCK
+ble stifta. Tradisjonelt sett var det også KB som stod i front på utviklingsarbeidet i Danmark.
+Etter å ha gjort et dypdykk ned i materien er det åpenbart at mye fra KB- kulturen fremdeles
+spiller en vesentlig rolle i fundamentet til FCK. Sportslig leder i KB (U15-19) , Kim Toft sa det
+på denne måten.
+«Talentarbeidet har primært vært noe KB har gjort. De har hele tiden vært lenger fremme
+enn B1903. KB var en av de enerådende klubbene på talentutvikling før F.C. Midjylland kom
+med sitt fokus på utviklingsarbeid på slutten av 90-tallet. Klubber begynte å spytte en
+mengde penger i utviklingsarbeidet og skulle FCK holde tritt med utvikling trengtes et
+profesjonelt fotballag i området. KB og F.C. København lagde da en avtale at de beste
+spillerne fra 14 til 19 skulle spille under FCK navnet, men med lisensen til KB. De fleste
+spillerne på FCK U14 blir likevel rekruttert fra KB. Mye fordi kvaliteten på trenersida har blitt
+så mye bedre, pluss at mange gode spillere kommer til KB på et tidlig stadium. U10,11,12 og
+13 har ikke foreldrestyrte trenere. I tillegg er det det tre sportslige ledere som styrer
+27
+
+innholdet. Indirekte er det derfor en form for «elitepreg» også på de beste KB-lagene» (Toft
+2013, intervju, 5. sept).
+Som Toft hevder hadde man tradisjonelt sett jobba veldig bra med ungdomsfotballen i KB,
+og før man profesjonaliserte ting var mye av seniorfotballen tufta på det man klarte å skape
+av spillere i eget nærområde. Overgangen til profesjonell fotball satte en annen standard, og
+klubber begynte å hente spillere fra andre regioner og nasjoner. For å heve kvalitet og
+attraktivitet for unge spillere ble det iverksatt tiltak i FCK. Man ønska å bevare KB strukturen
+med et bra opplegg rundt de yngste lagene, men spisse kvaliteten inn fra U14. Med økende
+satsing på spillerutvikling fulgte også ressurser, og man så nytten av å ha både en rød tråd i
+FCK-lagene og nedover på KB lagene. For KB har de utarbeidet retningslinjer for hva som skal
+prioriteres nedover i årsklassene, og det er som tidligere nevnt de sportslige lederne som er
+ansvarlig for det faglige innholdet.
+KB er delt inn i tre deler, et micro nivå fra 5-9 år , barne 10-13 år og ungdomsnivå som går
+fra U15-19. Man tilpasser mye av øvelsesutvalget og prioriteringene ut fra hva man ser etter
+for å komme inn på elitelagene. Man har i KB tatt grep som en følge av SE og har klare
+retningslinjer for hva som skal prioriteres. Fra U10 har man bytta ut foreldretrenerne, til
+fordel for ansatte folk som i samarbeid med sportslig leder skal sikre kvaliteten.
+FCK er også med i prosessen rundt ansettelser av de sportslige lederne i KB. På micronivået
+er det utelukkende ferdighetstrening på tekniske ferdigheter som står i fokus, mens man
+gradvis også integrerer helheten og rolleperspektivet i treningene når man nærmer seg U14
+alder. Selve fokus og prioriteringer er nøye beskrevet i «sportsplanene» som er utarbeidet
+for hver aldersgruppe (KB Microfodbold, KB Børnefodball og KB Ungdomsfodbold). Disse
+retningslinjene på innhold ble utarbeidet etter at SE ble grunnlagt, og må i noen grad ses i
+sammenheng. Toft sa det på denne måten i det intervjuet jeg hadde med han:
+
+28
+
+«Man ønsker å strukturere arbeidet også nedover i KB systemet i takt med økende satsing på
+toppen. Man ansatte tre sportslige ledere i KB, på micronivå (U4-U19), barn (U10-13) og
+Ungdom (U15-19). School of Excellence har vært med i denne prosessen både med å
+ansette folk og styre innholdet. Fra til U13 er det stort fokus på å legge forholdene til rette
+for de beste, mens det etter U14 er mer breddeorientert. Fra U14 går de beste over til FCK
+U14» (Toft, 2013, Intervju 5. sept).
+Som Toft hevder er det fram til U13 stort fokus på å legge forholdene til rette for de beste.
+Det er naturlig å tenke seg logikken i dette da det er i denne fasen man skal finne de riktige
+spillerne som kan gå inn i en FCK U14 tropp. Det er viktig å merke seg at det før dette uttaket
+har foregått en 6. måneders hospiteringsordning for de mest lovende KB spillerne. For SE er
+det nedfelt i retningslinjene at samarbeidsklubbene spiller en viktig rolle i den helhetlige
+tenkinga.
+«Vores to moderklubber er en viktig base for vores succes og daglig samarbeidspartner.
+Afgjørende område er aldersgrupperne 6-13 år i forhold til at skabe attraktive
+børneelitemiljøer «elite i sunde rammer», i forhold til tiltrækning og udvikling af denne
+aldersgruppe» (Forskrifter i Se).
+Til tross for at det er ca. 100 spillere i hver årsklasse i KB, og det er lange køer om å få lov til å
+komme inn i klubben hevdet Toft. Ut fra dette ståstedet kan man også se at flere av de som
+spiller på KB, U13 kommer inn på FCK U14 fordi man allerede har fått flere av de «beste»
+spillerne i regionen, pluss at kvaliteten er god på innhold. Man kan med andre ord se på KB
+som en viktig bidragsyter til rekruteringsarbeidet i FCK. Det kan på en måte hevdes at det er
+skapt en toppidrettskultur som forplanter seg fra A-laget og nedover til barnelagene i KB.
+I dette landskapet er det enkelt å se at det er en rød tråd mellom KB og FCK. KB arrangerer
+også fotballskoler i FCK regi for å vise hvordan de trener i SE. Det er basistekniske ferdigheter
+som vektlegges mest i KB, mens man kommer mer inn på lagstaktiske ting når man ender
+opp i SE. Selve organisasjonsmodellen og linken mellom de to «klubbene» er skissert opp i
+29
+
+figuren nedenfor. Her kan de pilene som er tegna opp vise hvordan ting henger sammen. Jeg
+vil hevde at det er den relasjonen som går mellom KB ungdom og SE som er den vesentligste
+når det kommer til talentsatsinga.
+
+Når det gjelder B1903 ligger dette samarbeidet primært på seniornivå. Det er sjelden mer
+enn maks 1-2 spillere som kommer derfra og inn på SE . Før SE ble startet i 2009 var det
+30
+
+også stort sett KB som stod for rekrutteringsarbeidet. Ser man på antall spillere som kom
+opp i denne perioden fra egne rekker er det et uomtvistelig faktum at KB som en «klubb»
+med stort fokus på utviklingsarbeid hadde festet seg kulturelt. FCK kunne med andre ord
+videreføre mye av det som allerede lå der fra før.
+Men også B1903 er opptatt av at de er «en del» av FCK og man kan kanskje se for seg at i
+framtida vil også de ha en enda større betydning for selvrekrutteringen inn til FCK. Pr i dag er
+det likevel slik at de beste fra B1903 stort sett går til KB i ung alder. Morten Grahn,
+hovedtrener på FCK U19, hevdet at lokalisering betød mye for at nettopp KB hadde tatt
+rollen som den primære rekruteringsklubben til FCK. Begge klubber spiller imidlertid med
+FCK merket på spillertrøyen, noe som på mange måter symboliserer en identifisering. I
+skrivende stund er imidlertid ting i ferd med å skje også inn mot B1903. Nilsen hevdet at
+involvering rundt B1903 som rekruteringsarena har vært liten, men at man i 2014 ønsker å
+lage strategier for å implementere også de på en mye større måte. Historisk og ut fra status i
+dag er imidlertid graden av påvirkning og involvering liten.
+Etter å ha sett på helheten rundt utviklingsarbeidet og jobbet med primærkilder gjennom
+intervjuer sitter man igjen med at mye av suksessen bygger på kvalitet i alle ledd. Det er
+uomtvistelig at arbeidet på utviklingslagene har basert seg på en veldig høy grad av kvalitet
+på feltet. Mye av det som tradisjonelt hadde blitt gjort hadde produsert mange gode spillere
+til KB og FCK sitt A-lag.
+Både Delaney og Riemer påpeker at utviklingsarbeidet ble satt mer i system da SE ble
+opprettet. Nå ble tråden i større grad rødere gjennom både innhold i trening,
+kommunikasjon mellom leddene (på organisasjons og trenerhold), samt spillestil. Med andre
+ord en mye mer helhetlig tenking som skulle bedre forutsetningene for å produsere endra
+bedre spillere.
+Som en flue på veggen under mine besøk har jeg hatt gleden av å føle på kulturen og sett
+hvordan ting drives. Ikke bare i FCK systemet, men minst like mye i KB systemet. Det som jeg
+sitter igjen med er en systematikk og en kvalitet som holder et veldig høyt nivå, sett med
+mine øyne. De fleste trenerne har Uefa A lisens og det var til enhver tid 3. trenere på feltet.
+31
+
+Jeg så en stor grad av sammenheng mellom det som ble gjort i yngre årsklasser i KB, og det
+som ble prioritert på FCK lagene. Mye av dette har jeg også fått dokumentert gjennom de
+sportsplanene jeg har fått tilgang til.
+
+32
+
+Jann Rindsem
+
+8.0 Fysiske ressurser
+Mye fokus har vært rettet mot alle de fine akademiene som har poppet opp de siste årene.
+Særlig rike onkler fra fjern og nær har nesten ukritisk stilt det som stilles kan til rådighet for
+enorme treningsanlegg og fasiliteter. Det som kanskje mange ikke tenker så mye på er
+betydningen av konsentrering og helhetstenking rundt disse akademiene. Flere av
+storklubbene har etter hvert fått separate treningsanlegg der man skiller A-lagene sine fra
+utviklingslagene. I F.C. København er imidlertid alle utviklingslagene (inklusive de
+aldersbestemte KB-lagene) på samme sted ved KB sine treningsfasiliteter i Peder Bangs vei
+som ligger i bydelen Fredriksberg. Området består av to store gressbaner, tre
+kunstgressbaner, restaurant, tennisanlegg og en innendørs hall. I tillegg har både A-laget, KB
+og SE lokaliteter(kontorer og møterom) som ligger ved banene. Avstanden mellom de som
+jobber rundt A-laget og SE skiller bare en gressbane. At de fysiske ressursene er så
+konsentrerte gir naturligvis mange fordeler. Michael Mio Nilsen, manager på SE, vektla
+denne viktigheten på denne måten:
+
+«Vi har en ekstra «benefit» ved at vi er på samme anlegg. Det er noe visuelt over at vi er på
+den ene siden, mens A laget holder til på den andre siden. Det gir oss muligheter for
+samtreninger og det gir oss muligheter for flere synergier ved å trene på samme sted. Dette
+gjelder både for våre trenere som kan observere hverandres treninger, men også for
+spillerne som jeg tror vil oppleve en større samhørighet. Dette er ett godt parameter for at vi
+som klubb henger sammen. Jeg kan tenke meg at dersom man har et akademi og et A lag på
+to vidt forskjellige steder i byen så mister man denne viktige kontakten. Man klarer ikke å
+snappe opp nye trends, metodikker som A-laget. Dette tror jeg er en liten X-faktor i FCK».
+(Nilsen 2013, 14. november).
+33
+
+Jann Rindsem
+Her tror jeg Nilsen rører ved noe vesentlig om man skal lykkes best mulig med
+utviklingsarbeidet. Uansett hvilken arena man opererer i er kommunikasjon og samarbeid en
+nøkkel i alle dynamiske miljøer. I denne konteksten der man har ei gruppe som skal være
+best (A-laget) og ei gruppe som ligger litt bak, sier det seg selv at det er åpenbare
+utfordringer å gi de som ligger litt bak en sjanse. Dialogen er en av forutsetningene for at de
+som faktisk er gode nok skal kunne få muligheten til å prøve seg på A-laget. Graden av
+samstemthet og oversikt vil styrkes vesentlig når man jobber så tett som man gjør i FCK.
+
+Brian Riemer hevdet at mye av kontakten mellom gruppene skjedde av mer uformell
+karakter, men fordi han så mye nedover og at relasjonene på «toppen» var så gode fungerte
+dette veldig bra. Undertegnede fikk gleden av å erfare noe av dette samarbeidet, eller
+kulturen vil noen si, da jeg under mitt siste besøk den 15.november ble invitert over på Alagets daglige lunch. Her satt ikke bare folk fra A-lagsapparatet, men alle trenerne og lederne
+i utviklingsavdelingen satt side ved side med A-lagets trenere og ledere. En for mange
+kanskje bagatellmessig ting, men for meg et betegnende bilde på hvordan kommunikasjon
+skjedde på en naturlig måte.
+I tillegg til at man har tilrettelagt mye gjennom lokalisering av fasilitetene var det også en
+stor grad av relasjonelle forbindelser mellom lederne. Mange hadde en kjennskap til
+hverandre før de startet i FCK og praten virka veldig naturlig. I tillegg til de reint uformelle
+samtalene var det også formaliserte samtaler særlig mellom Manager på SE Michael Nilsen ,
+sportssjef Sune Smith Nilsen, og trenerne på FCK lagene. Her diskuterte de spillere, sportslig
+innhold og ikke minst faglige ting som gikk på øvelser og gjennomføring. Ingen trener kunne
+bare finne på nye øvelser, men ut fra en metodikk og en plan måtte øvelsene være godkjent
+av sportslig ledelse. Beslutninger ble med andre ord tatt etter dialog og samarbeid, et
+samarbeid som ble naturlig da alt var så konsentrert. Denne linken må likevel understøttes
+
+34
+
+av en kultur, en vilje og en tradisjon. La meg belyse dette nærmere i neste kapittel som
+Nilsen beskrev som «brua» i FCK.
+
+35
+
+Jann Rindsem
+
+9.0 Broen mellom gruppene.
+I større klubber med et bra utviklingstilbud er det alltid en utfordring å få fram flest mulig
+«egenutviklede» spillere versus det å kjøpe inn ferdig utviklede spillere. For en
+resultatorientert A-trener kan det være en utfordring å la unge spillere fra egen klubb få lov
+til å slippe til, og enkelte klubber kan kanskje ha akademier fordi de må ha, mens de i
+realiteten kjøper spillere som er ferdig «foredlede». Nå er heldigvis trenden internasjonalt at
+stadig flere klubber ser seg nødt til å satse mer på å utvikle egne spillere. Særlig i kjølvannet
+av finanskrisen(2007-) har dette tiltatt i styrke.
+I Norge har man fått et system der midler tilføres til toppklubbene for å drive spillerutvikling.
+Dette er øremerkede stillinger som bare gis som tilskudd dersom de kan dokumenteres.
+Også i Danmark har man fått et system der individuelle trenere finansieres av DBU. Om man
+teller opp antall trenerstillinger så er frekvensen av profesjonelle trenere nå betydelig større
+enn den var for noe tiår siden. Den gang var profesjonalitet stort sett knytta inn mot
+hovedtrener på A-laget, og knapt nok det. I dag er derimot de fleste fotballtrenerstillinger
+knyttet til den delen av «klubbsatsinga» som kalles spillerutvikling. Selv er jeg en del av den
+siste delen da jeg både er sportslig ansvarlig for utviklingsavdelingen samtidig som jeg er
+hovedtrener for vårt rekruttlag i 3. divisjon.
+Det store spørsmålet i mange sammenhenger blir hvorvidt man lykkes med å skape en kultur
+der spillerutvikling faktisk har en nytteverdi. Den indre motiveringen til den enkelte
+spillerutvikler kan det ikke knyttes tvil rundt, men her tenker jeg mer på den ytre motivering
+for klubben, som koker ned til et helhjertet ønske om å skape framtidige A-spillere.
+
+36
+
+Jann Rindsem
+Jeg mener det helt klart er sentralt at man har en relasjon mellom de ulike gruppene.
+Klubber må ikke styres ut fra «tueprinsippet» der A-laget er en egen klubb i klubben. Ikke
+sjelden hører man at treneren aldri slipper til de unge spillerne. Når det er sagt så har nok de
+utålmodige stemmene på dette området kanskje fått en litt for stor vekting de siste årene.
+Data fra toppfotballsenteret viser at snittet på spillere som etablerer seg på nasjonalt
+toppnivå er over 20 år, så pendelen har nok dreid noe langt i retning av utålmodighet og
+urealistiske forventninger. Det er likevel viktig at klubben kjører i samme retning med tanke
+på målsetninger og ønsker. Nilsen kom innpå dette med «brua» som han selv sa måtte være
+der. Hensikten med å drive et akademi faller helt vekk dersom man ikke har denne broa
+hevder Nilsen.
+
+«Vi er så heldige at vi hadde en superdyktig brobygger i Ariel Jakobs og nå gjennom Ståle
+Solbakken. Det er alfa omega. Det finnes flere akademier og klubber som ikke har denne
+brua, noe som ikke gir noen mening i å ha akademi. Når du arbeider med de unge spillerne
+skal de kunne se en mening. Dersom man kommuniserer med en ung spiller i egen klubb om
+at vi har som mål at han skal bli en spiller på vårt A-lag, er det viktig at det er noen som har
+gjort det før. Han må se at det er mulig å klare det som kommuniseres. Dersom han ser at
+unge spillere får sjansen om de er gode nok, vil dette gjøre noe med motivasjonen. At det
+eksisterer en bro er derfor helt avgjørende» (Nilsen 2013, Intervju 15.november).
+På spørsmål om klubben hadde en politikk på å ansette bare utviklingsorienterte trenere
+hevdet Nilsen at det var en klar målsetting om å få fram egne spillere. Han innrømte likevel
+at graden av hvor mye ned et A-lagsapparat så ville variere fra trener til trener. For FCK er
+denne broa optimal i dag gjennom ansettelsen av Brian Riemer . Han kom til FCK fra
+Hvidovre der han hadde arbeidet med spillerutvikling i flere år. Da han kom til FCK ble han
+ansatt som U19 trener og var hovedtrener for det laget som ble Danmarksmestre. På dette
+laget spilte både Danny Amakwaa, Kenneth Zohore, Andreas Cornelius og Christoffer
+37
+
+Jann Rindsem
+Remmer. Sportssjef Carsten Jensen så det blant annet som særdeles gledelig at man kunne
+rekruttere en trener fra School of Excellence. Dette sier noe om klubbtenkinga og fokuset
+rundt spillerutvikling.
+
+«Brian har vist, at han besidder alle de kvaliteter både fagligt og menneskeligt til at påtage sig
+ansvaret som assistenttræner i F.C. København. Vi er glade for at Brian har sagt ja tak til
+udfordringen, og stolte af, at vi ligeledes kan rekruttere internt via School of Excellence, siger
+sportsdirektør Carsten V. Jensen» (http://www.fck.dk/nyhed/2012/07/30/62514)
+
+«Han er ungdomsmann som kikker ned i systemet. Man kunne hatt en assistent som kikket
+opp» (Nilsen 2013. Intervju 15.november).
+For undertegnede var det litt betegnende at nettopp U19 laget trente rett før dette
+intervjuet, og hvem andre enn nettopp Brian Riemer dukket opp på treningsanlegget for å
+observere treninga. Dette bekrefter på mange måter det bildet som Nilsen tegna opp i
+intervjuet. Dette er en klubb som henger sammen, og som tenker utvikling. Nytteverdien av
+å ha en utviklingsavdeling var åpenbar og man var opptatt av å kikke ned i systemet for å
+holde seg oppdatert og observere de unge spillerne. At Riemer da nettopp hadde blitt
+hentet opp til A-laget fra U19 var ikke tilfeldig.
+Det samme mønsteret på treneransettelser viser seg også nedover i FCK systemet. Mange
+av de trenerne som jobber på SE har gått gradene i systemet, og flere er utdannet fra KB
+systemet. Morten Grahn startet eksempelvis som assistent på U19 under nettopp Riemer,
+men rykka opp som sjefstrener da Riemer gikk opp til A-laget.
+Viktigheten av å ha en klar definert politikk på hva man ønsker er derfor åpenbar, men
+aspektet knytta til «sentrale mennesker» blir også en dimensjon som spiller inn. Det hjelper
+lite å ha alskens planer såfremt man har et A-lagsapparat som gjør det stikk motsatte av
+intensjonen. I dette bildet kommer vi selvsagt ikke utenom det som Nilsen påpekte tidligere
+at graden av tilfeldighet også spiller inn. Det er aldri noen garantier for at en A-trener innerst
+38
+
+inne er utviklingsorientert. Mye av denne usikkerheten kan likevel elimineres vekk gjennom
+research, samt det å være tydelig på hva man ønsker når man ansetter folk. I tillegg kommer
+jeg ikke utenom den rollen som sentrale personer i klubbapparatet har. Jeg kan nevne
+Michael Mio Nielsen som i kraft av sin person og sin kunnskap er en særdeles sentral aktør i
+dag. Mio som han kalles er i seg selv en kulturbærer gjennom sine over 284 kamper for
+klubben (1993-2001). Ut fra statistikkene er det bare Hjalte Nørregaard med over 300
+kamper som har flere kamper for klubben. Unge talenter blir satsa på og fulgt opp, og de får
+sjansen til å vise seg fram.
+Mye av denne brua faller også naturlig inn da både ledelse og trenerne jobber på samme
+sted. De som arbeider i det sportslige apparat treffer på hverandre veldig mye og det er
+daglig kommunikasjon på enkeltspillere både innad på U-lagene og fra U19 og opp til Alaget.
+«Vi sitter på samme kontor alle utviklingstrenerne så vi har en stor grad av samarbeid og
+daglig dialog. Vi har hver uke et møte med Sune, vi 17 og 19 trenerne. 14 og 15 har samme
+møtet en gang i uken der vi diskutere alt fra treningsinnhold til spillere.» (Grahn 2013,
+intervju 15. november).
+I det siste leddet mellom U19 og A-laget har hovedtreneren på U19, Morten Grahn stor
+innflytelse på hvem av spillerne som skal spille reservelagskamper, og hvem som eventuelt
+kan være med å trene med A-laget. På spørsmål om det var Grahn som plukka ut U-spillerne
+alene til reservelagskampene kom det imidlertid et distinkt «nei! men dialog fra Nilsen». Her
+er det åpenbart mye «VI» tenking som de fleste avgjørelser skal basere seg på. Klubben går
+foran enkelttrenerens oppfatning, og det hele baseres på dialog og samarbeid ut fra et felles
+fundament. I intervjuet jeg hadde med Morten Grahn hevdet han at han hadde en daglig
+kontakt med assistent på A-laget, Brian Riemer. Å sette enkeltspilleren på den riktige
+arenaen fløt derfor naturlig gjennom den kommunikasjonen de hadde. Grahn var opptatt av
+at alle spillerne skulle ha en base de skulle jobbe ut fra. Men likevel var «overmatching» en
+39
+
+del av utviklingsløpet for den enkelte spiller. Det var treneren på spillerens base som hadde
+ansvaret med å gi beskjeder.
+Oppfølginga av de som spiller reservelagskampene er også nøye ivaretatt . Hovedtrener i
+disse kampene er Brian Riemer med Morten Grahn som assistent. Det er med andre ord en
+høy grad av systematikk på alt som gjøres i FCK. Samarbeid og brobygging må også bygge på
+en filosofi rundt hvordan man skal trene og spille. Det må være noe grunnleggende felles, en
+rød tråd.
+
+40
+
+Jann Rindsem
+
+10.0 Rød tråd på treningsinnhold og spillestil?
+FCK har en rød tråd på spillestil som gjennomsyrer hele klubben fra FCK U14 og opp til Alaget. I henhold til A-laget hevdet Nilsen på en distinkt måte viktigheten av at klubben går
+foran alt. Alt som man skal jobbe etter er nedfelt i en sportsplan som ikke bare skal gjelde i
+teorien, men også i praksis.
+«Vi har en helt avklart og definert spillestil for klubben. Det spiller ingen rolle om det er Hans
+Backe, Ståle Solbakken eller Ariel Jacobs som er trener. Ut fra den klart definerte spillestilen
+har vi laget en «light modell» som er tilpasset for ungdomslagene. Jo lenger ned man er i
+systemet, dess mer «light» er den. Det er derfor en forskjell fra vårt U14 og U19 hold. Vårt
+U-19 lag trener og spiller nøyaktig som vårt A-lag. Prinsippene og treningsmetodikken er
+akkurat lik den som er på A-laget. Øvelsesvalgene vi har i School of Excellence er også de
+samme som de man har på A-laget. Det er derfor mye enklere for våre U19 spillerne når de
+trener med A-laget fordi de kjenner hele treningsmetodikken. Det er med andre ord en helt
+klar rød tråd som gjennomsyrer alt fra U14 til A-laget» ( Nilsen 2013. Intervju 15 november).
+
+Det Nilsen sier her er at det er en klart definert måte å spille fotball på i FCK som speiler seg
+nedover i systemet fra A-laget og ned til U14. Det er likevel ulike utgangspunkt da de lagene
+og spillerne som er lenger ned i systemet har en helt annen tilnærming til utvikling enn det
+A-laget har. Som det heter i spillestilsdokumentet til FCK U15.
+
+41
+
+«Spillestilen er udarbejdet du fra et aldersrelatert perspektiv, og skal ses som et led i U15
+holdets basis tekniske og taktiske fodbolduddannelse i FCK-SE. Grundfilosofien er at vi
+uddanner spillernes basisferdigheder bedst ved at være det spildominerende hold med
+bolden. Spillestilen indarter sig efter vores daglige træningskoncept 4-2-1. Der skal dermed
+indenfor spilestilen være rum til at træne individuelle basis færdigheter i kampen. Vi ønsker
+at stimulere spillernes evne til at utfordre 1vs1, være initiativrige og generelt set udvikle
+spillernes offensive «mindset». Vi spiller derfor med en større grad av risiko i vores
+boldbesiddende faser end f.eks U17/U19/SL.» (Spillestilsdokument utarbeidet av SE).
+I SE sine forskrifter er man veldig tydelige på at utvikling er noe som er en prosess og man
+må tilpasse innholdet til alder og modenhet.
+« For U14-U15 gennemgår talentet en generell basisudtannelse med fokus på at udvikle et
+højt basisniveau og udvikling af spidskompetencer. Spillerne har som princip 2-3 positioner
+de veksler imellem, gerne 2-3 kampe i træk pr position. Samtidig starter ingen spillere ude i 2
+kampe i træk såfremt de er klar fysisk og mentalt. (Forskrifter SE).
+Her står det ordrett at man ikke er opptatte av posisjoner på dette aldersnivået. Man tenker
+kun utvikling og spillerne får trent på ulike aspekter i utviklingsløpet. Det er først fra U16-19
+man starter med en form for rollespesialisering. Man er nå i større grad opptatt av spillerens
+spisskompetanse i forhold til de arbeidskrav som er knytta til den aktuelle rollen. Litt i tråd
+med enda mer individualisering er det også bare ca 10 stk i hver årgang fra U17-U19, mens
+det er ca 16-20 stk på U14-U16.
+Man trener og prioriterer ulikt ut fra alder og modenhet men Nilsen sa det på denne måten
+under et av mine intervjuer jeg hadde med han.
+«I forhold til den måten vi trener på skal øvelsene ha en relevans til måten FCK skal spille på.
+De øvelser vi har ligger i et øvelseskartotek som er aldersrelatert. Når en trener planlegger
+sitt treningsopplegg kan han velge fra denne banken ut fra hva som skal trenes på. Det er
+ofte 8-10 øvelser innenfor ulike spesifikke tema som treneren kan velge fra. Treneren kan
+42
+
+også selv komme med forslag på øvelser som et ledd i utviklingen. Dersom man ser den ikke
+har noe relevans eller at den ikke fungerer blir den tatt vekk. Fungerer den kan den legges
+inn i øvelseskartoteket. En trener skal trene for å gjøre utøverne bedre på noe. Han skal ikke
+være noen oppfinner av nye øvelser. Når han er ute på banen skal han coache. Det er likevel
+en stor grad av samarbeid mellom trenerne og de sitter sammen hver dag og diskuterer
+øktene og kommer med ideer om nye tilnærminger til ting.
+« Når treneren har planlagt økta legges hele planen ut på data og lagres. Man kan derfor gå
+tilbake å se hva man har trent på. Og kvalitetssikre at ting er gjort ut fra hva man skal
+prioritere» (Nilsen 2013, intervju 15.nov).
+Med tanke på at U19 trener mer rollespesifikt er dette nærliggende å knytte opp mot det
+som prioriteres på A-laget. I intervjuet jeg hadde med Grahn kom vi også inn på dette
+temaet som gikk på spillestil og metodikk rundt treningsarbeidet. Også han bekrefter på
+mange måter det som Nilsen påpekte tidligere. Mye er likt, og det er en klar linje mellom
+lagene. Han hevdet blant annet at rekruttlaget og A-laget trente nesten identisk.
+«Det er samme organisering, lengde på trening og øvelser. Dette fordi spillerne skal kjenne
+igjen hvordan man skal gjøre det når de kommer opp på A-laget. Det er likevel nyanser da Alaget bare skal prestere på resultat, mens vi også må ha med oss utviklingsperspektivet. En
+av de ting som har skjedd etter SE startet er at attraktiviteten rundt U-spillerne har blitt
+større fra A-lagets side i takt med at spillere som har fått muligheter har innfridd. Jeg og
+Brian prater daglig med tanke på hvem som skal opp på A-laget. Dette er litt spesielt og ikke
+vanlig for alle utviklingsklubbene. At vi har en så stor grad av profesjonalisering er noe som
+gir FCK styrke som utviklingsklubb» (Grahn 2013, Intervju 15.november).
+Måten FCK ønsker å spille fotball på speiles også nedover i aldersklassene og det er ikke min
+intensjon i oppgaven å gjengi spillestilsdokumentet til FCK. Jeg vil likevel peke på noen
+generelle prinsipper de er opptatte av. Formasjonsmessig spiller lagene en klassisk 4-4-2
+defensivt, der man varierer presshøyden ut fra spillets gang og motstander. Offensivt deler
+43
+
+man inn i tre faser og har som et utgangspunkt en 4-4-2 formasjon, selv om det her er en
+større grad av totalfotball som gjelder.
+
+Fase 1: Her er målet å spille ut deres første pressledd, og overtallet søkes ofte gjennom bruk
+av egen målmann. Man ønsker å frispille gjennom faste oppstillinger i egen firer alt etter
+hvilket motspill man møter. Det skal spilles mest mulig risikofritt og dueller skal unngås i
+denne fasen. Her er det selvsagt større grad av risiko i spillet dess yngre man er. Pasningene
+skal ikke være for korte og man har et prinsipp at det ikke skal spilles til feilvendt back. I
+stedet skal det skapes «ruderformationer» gjennom hurtige forskyvninger og vinkler. Man
+ønsker alltid en stor grad av balltempo og bruker ofte sentral midtbanespiller i eget forrom i
+oppspillsfasen. Sentral midtbanespiller skal alltid være i vinkel i henhold til avsender og kan
+være en spillvender eller en som kan bryte pressledd. Det skal alltid spilles i forhold til
+hvilket press man møter enten på offensiv fot eller i rom (smalt eller bredt).
+
+Fase 2. Går på å komme til fase 3 som skal være gjennombruddsfasen av spillet. I alle de tre
+fasene har man delt inn spillet i flere fokusområder. Man er alltid opptatt av å skape overtall
+i det oppbyggende spillet, og man søker rettvendte spillere i mellomrommet for
+gjennombrudd. Mot bredt press jobber kanten inn i banen og backen på ballsiden må da
+komme for å skape overtall. Man skal spille på kommunikasjon og jobbe aktivt med å true
+rom uten ball. Målet er å spille gjennom ledd for å skape gode utgangspunkt for
+gjennombrudd.
+
+Fase 3: Her ønsker man et gjennombrudd på siste tredjedel. Enten bakrom sentralt eller på
+sidene. Fasen defineres gjennom at man skal komme til avslutning. Innløp på innlegg og
+direkte gjennombrudd står sentralt i denne fasen. Man skal nesten alltid utfordre
+44
+
+bakrommet med en spiller selv om dette rommet er lite. Når spiller i mellomrommet er
+rettvendt er dette et signal på gjennombrudd. Det jobbes med kryssløp og bueløp på innlegg
+og man er veldig opptatt av å komme ut av motstanderens synsfelt. Avsender skal forholde
+seg til opptegnede innleggsstrategier der det skal slås flatt inn på første fra dype posisjoner
+og mellom målmann og firer fra tidlige innlegg. Man jobber bevisst med posisjonering og
+strategier rundt avslutning av et angrep for å hindre kontring mot. I alle de tre fasene
+offensivt er det ulike rollekrav og arbeidskravene til hver enkelt spiller er veldig tydelig. Jeg
+vil i denne oppgaven ikke gå inn på alle momentene i de tre fasene eller de ulike kravene til
+hver enkelt spiller da det vil være litt på siden av selve oppgaven.
+Defensivt går man ut i utgangsformasjonen 4-4-2. Såfremt laget er i balanse både numerisk
+og posisjonelt varierer man presshøyden ut fra motstander og kampbildet. Når man presser
+«normalt» legger spissene seg på offensiv buekant, mens lavt er definert som at angriperne
+starter presset på defensiv buekant. I høyt press hindrer man utspill og konsentrerer seg om
+nærmeste mann foran seg. Man leder ut på siste og egen tredjedel, mens man leder inn
+sentralt i banen. Dette for å skape et klima for gode overganger og redusere risikoen for å bli
+spilt ut sentralt når man nærmer seg eget mål.
+Når det kommer til individuell oppfølging har hver spiller en egen utviklingsplan som de skal
+jobbe ut fra. Her kommer også den «egne individuelle» treneren inn i bildet. Den individuelle
+treneren er noe som er tilkommet som en konsekvens av at DBU har tilført øremerkede
+midler til en slik stilling, riktignok til de klubbene som er A-lisensiert. Baktanken for DBU er
+på mange måter å spisse kvaliteten inn til de aldersbestemte landslagene gjennom økt
+tilrettelegging og oppfølging av de beste. For SE har de en egen trener på dette for U17 og
+U19 lagene. Her blir man fulgt opp daglig på feltet og blir både bevisstgjort sine utviklingsmål
+samt får løpende coaching for å forbedre seg. For FCK er dette en stilling som brukes for å
+følge opp de beste og sette standarder for hva som kreves når de skal opp på A-laget.
+
+45
+
+« Den individuelle treneren er en stilling som er kommet til der tanken er at de skal jobbe
+med de eldste talentene for gjøreovergangen fra junior til seniornivå enklest mulig» (Grahn
+2013, intervju 15. november).
+Disse utviklingsmålene settes ofte ned sammen med spiller og sjefstrener på en av de
+formelle utviklingssamtalene som de har hvert halvår. Grahn hevdet at som en følge av
+økende profesjonalisering med heltidsansatte trenere kunne man, i motsetning til tidligere
+gjennomføre en større grad av individualisering. Grahn var også opptatt av at
+utviklingssamtalene i utgangspunktet bare var en samtale mellom trener og spiller, og at
+foreldrene bare i liten grad var involverte i disse prosessene. SE har en politikk der man
+ønsker selvstendige spillere som evner å ta egne valg, og påvirkning fra foreldrene er en
+prosess som gradvis trappes ned dess lenger opp i systemet man kommer. Fra U19 er det
+nesten bare spilleren klubben forholder seg til, med mindre det er utenomsportslige forhold
+som må diskuteres. Dette kan blant annet være ting som berører kontrakter eller saker som
+man ønsker å kommunisere til sportslig ledelse.
+Som sagt så har profesjonaliseringen i FCK tiltatt med opprettelsen av SE. Med
+profesjonalisering må det også følge en del ressurser, og klubben har åpenbart tatt et veivalg
+der spillerutvikling står i fokus. Grahn hevder det har vært en kontinuerlig prosess i klubben
+som har utviklet seg skrittvis. Både systematisert metodikk, innhold og organisasjonen har
+blitt vesentlig styrka i takt med økt kompetanse og ressurstilførsel. Det er dyktige og faglige
+mennesker som kjennetegner de som jobber i FCK. Kvalitet gir ofte synergier både eksternt
+og etter hvert internt. Utad har FCK tradisjonelt blitt assosiert med et bra A-lag, men etter
+hvert som kvaliteten nedover i systemet har blitt så bra har mye av den «gamle» KB
+tradisjonen der utvikling av unge spillere stod essensielt, gitt store ringvirkninger på
+rekrutteringsarbeidet. Etter at man startet SE i 2009 fikk man en enda mer formell link inn
+mot A-laget. Selvrekrutteringen har etterhvert bare tiltatt i takt med økende kvalitet. La
+meg gå over til å se litt på hvordan man bruker ressursene i klubben og hvilke ressurser som
+SE har til rådighet.
+46
+
+Jann Rindsem
+
+11.0 Ressurser og kompetanse
+Etter at man tok beslutningen å satse enda sterkere inn mot utviklingsarbeidet ble som
+tidligere nevnt SE opprettet. Med satsingen følger det også midler og FCK har satt av mye
+midler til utviklingsarbeidet. Man har 9 fulltidsansatte rundt lagene og flere som jobber i
+mindre stillinger. Ca 40 spillere er på betalte kontrakter og man bruker i overkant av 15
+millioner kroner i året i SE.
+Alle spillerne har en egen utviklingsplan som de jobber ut fra. Her er det selvsagt spilleren
+selv som er hovedansvarlig mtp fokus inn mot disse målene, men man får samtidig hjelp og
+oppfølging av spillerutviklerne. Alle U-lagene har eksempelvis 3-4 trenere som er på feltet
+på alle treninger. Dette gir et veldig bra grunnlag for god oppfølging av enkeltspillerne på
+individnivå. Både U17 og U19 har en egen individuell trener som følger opp
+utviklingsmålene, i samråd med spiller og hovedtrener. Dette er som tidligere nevnt en
+stilling som er delvis subsidiert av DBU for å styrke oppfølginga av de største talentene.
+Michael Mio Nilsen la ikke skjul på at de som var lengst framme, de man hadde mest tru på,
+fikk litt ekstra oppfølging og oppmerksomhet.
+«Alle trenerne har ansvar for 8. spillere, mens den individuelle treneren jobber mer på tvers.
+Når man trener helhet på lagstreninger har den individuelle treneren ansvar for den enkelte
+spiller i sin rolle. Dette gjelder også i kamper der han følger opp enkeltspilleren i sin rolle.
+Dersom enkeltspilleren ikke jobber med utviklingsmålene sine er det den individuelle
+treneren som skal ta tak i dette» (Nilsen 2013, Intervju 15. november).
+
+47
+
+Jann Rindsem
+Det hele er satt i system og man kvalitet sikrer mye ved at det er klare kommandolinjer med
+tanke på hvem det er som har det overordnende ansvaret. Samtidig bygger det meste på en
+tett dialog mellom de ulike trenerne for å optimalisere treningshverdagen for utøveren. I
+FCK har man også et datasystem der treneren plotter inn treningsøkta. På denne måten kan
+man også gå tilbake i tid for å kryssjekke om man faktisk har kommet gjennom det man skal.
+Det er åpenbart at de ressursene man har putta inn i utviklingsarbeidet har gjort noe med
+kvaliteten. Ikke bare organisatorisk og strukturelt, men også knytta til kvalitet på de som
+jobber. Når det legges så mye ressurser inn i systemet sier det seg selv at man også kan velge
+på en høyere hylle når det kommer til ansettelser. Flere vil jobbe i klubben og det er ikke
+bare sportslige utfordringer som er triggeren, men også det at man kan jobbe i et faglig
+sterkt miljø, og samtidig leve av det.
+«Det er nok mange som vil ha den jobben jeg har i FCK. Det er attraktivt å være trener i
+denne klubben og det er en fin utviklingsarena også for treneren. Jeg begynte som
+individuell trener på U19 før jeg etter hvert ble hovedtrener da Brian rykket opp som
+Assistent på A-laget»( Grahn 2013, intervju 5.sept).
+Det som er litt ekstra interessant i FCK er kanskje graden av selvrekruttering. Flere trenere er
+som sagt utdanna i eget system og det kan virke som dette er en gjennomtenkt plan for å
+teste ut kommende trenere før de ansettes. Man starter som regel som « trainee», eller går i
+«mesterlære» som Brian Riemer kalte det før man eventuelt stiger i gradene.
+Når det gjelder kartlegging av fremtidige spillere har man en rekke speidere som jobber for
+klubben. Særlig inn mot det første elitelaget, FCK U14 er det mye speidervirksomhet. Grahn
+hevdet klubben hadde ansatt 1. sjefsspeider som hadde ansvaret for 9 speidere som
+hovedsakelig jobbet inn mot U14 og ned. Og det var 2 speidere som jobbet på U17-19 og en
+speider som jobbet for A-laget. Totalt 13 speidere som jobbet for klubben. Fram til 14 år er
+det imidlertid KB som drifter lagene, men det er i FCK sin interesse at man får de største
+talentene så tidlig som mulig. Grahn trodde at utviklingen etter hvert ville gå i retning at KB
+48
+
+lagene etter hvert ville bli hetende FCK. Slik det var i dag var det i praksis slik at de fleste
+forbandt KB til FCK og etterspørselen etter å spille for klubben var enormt stor. Det er
+ventelister for å komme inn på de ulike lagene og det er bare banekapasitet som hindrer
+klubben fra å ha enda flere spillere på de ulike lagene. Det er lett å tenke seg at mange søker
+seg til KB fordi man ser på klubben som ensbetydende med FCK. Dette er noe som også ble
+bekreftet både av Toft og Grahn. Det å spille for FCK ble ansett som stort og flere søkte seg
+til samarbeidsklubben i ung alder.
+De ressursene som er puttet inn i talentsatsinga er en uomtvistelig faktor som har spilt inn
+når det kommer til kvalitet og attraktivitet for spilleren. Det er likevel flere faktorer som
+spiller inn i helhetsbildet, men det ene følger som oftest det andre. Med en god organisasjon
+som er planbasert og som har ressurser vil man oftest lokke til seg gode trenere. Har man
+gode trenere speiler det treningshverdagen for utøveren, og med kvalitet der vil spilleren ha
+forutsetninger for å utvikle seg. Det som er sikkert er at flere unge spillere har tatt steget inn
+i A gruppa, særlig etter man satte utviklingsarbeidet i system og satte fokus på det (da SE ble
+starta opp i 2009). Utgangspunktet og historien til de spillerne som har nådd opp har vært
+ulik, men noen fellesnevnere vil man kunne finne igjen til alle. Jeg har i oppgaven funnet det
+interessant å se på et par av disse spillerne for å finne ut hva som er felles, og hvilken rolle
+FCK som utviklingsklubb har spilt i deres vei til gjennombrudd.
+Det er alltid litt farlig å komme med for bombastiske slutninger ut fra enkeltcaser, men det
+de forteller av egenerfaringer vil være relevant for helheten i oppgaven. Den første spilleren
+jeg intervjuet har ikke bare lyktes som fotballspiller, men han er også det vi tradisjonelt
+kaller en kulturbærer gjennom sine mange år i klubben. Det er interessant å se på hva dette
+innebærer for klubben og utviklingsarbeidet. I dagens toppfotball er det «dessverre» slik at
+mange klubbers A-lag er satt sammen av spillere som har flakset fra klubb til klubb, og den
+tradisjonelle klubblojaliteten eksisterer ikke slik den gjorde tidligere. Når det er sagt så er det
+også i mange tilfeller veldig bra at spillere skifter klubb. Slik verden er i dag er tilbudet til de
+
+49
+
+som vil utvikle seg til å bli gode fotballspillere blitt vesentlig bedre, og flere unge spillere er
+tvunget til å skifte beite for å komme til et utviklingsmiljø som er bra nok. Sånn sett kan man
+hevde at den tiltagende satsinga på utviklingsarbeid også har vært en spore til ekstreme
+sprik i tilrettelegginga for de man anser som de «beste».
+
+50
+
+Jann Rindsem
+
+12.0 Kulturbæreren
+Det er alltid interessant å se på ulike caser som har lyktes. Vi har nok i enkelte
+sammenhenger en tendens til å tro at nøkkelen til å lage toppspillere ligger i x-antall kroner
+som spyttes inn i spillerutviklinga. Penger, flotte anlegg og dyre trenere er ikke alltid det som
+er forutsetningen for å lykkes som fotballspiller. I bunn og grunn er det individet selv som må
+legge nok trening og «ofring» i potten for å lykkes. Som Nils Arne Eggen sier det:
+«Vi trenere tar alt for mye av ansvaret fra spilleren. Etter hvert lærte jeg meg at alt læres
+best på feltet- learning by doing- i stedet for lange spillemøter» (Ullseth 2011, Det viktigste
+av alt er utvikling, s 56).
+Vi kan legge ting til rette for utvikling, men til syvende og sist er det enkeltspilleren selv som
+må ta det individuelle ansvaret for å nå de målene han setter seg. Jeg har som en del av
+studiet sett på to «caser», Thomas Delaney og Danny Amakwaa fra FCK som har lyktes med
+å ta steget fra ungdomsfotball til A-laget. Dette er to spillere som har litt ulike utgangspunkt
+og deres historier var interessante å høre på, og de vil være en viktig brikke i det store bildet
+jeg har av FCK som utviklingsklubb.
+Thomas Joseph Delaney (født 3.september 1991) er en spiller som har spilt i København
+hele sitt liv, og som et ledd i oppgaven fikk jeg gleden av å intervjue han under ett av mine
+besøk i klubben. For meg var det veldig naturlig å prate med Delaney da han både har gått
+gradene i FCK samt definert sine egne kvaliteter på et meget høyt nivå.
+
+51
+
+«Jeg startet i KB som treåring og har gått gradene i klubben. Jeg fikk Brian som trener da det
+hele ble mer profesjonalisert gjennom School of Excellence» (Delaney 2013, intervju 5.
+september).
+
+Thomas J. Delaney og Jann Rindsem
+
+52
+
+Allerede i 2008 debuterte han for FCK i en Cupkamp. Året etter ble han tatt opp i A-troppen
+permanent og ble kåret til årets U19 spiller i Danmark. Samme året fikk han sin debut i
+superligaen mot Sønderjyske da han erstattet Atiba Hutchinson. Tross sin korte periode i A
+troppen har han allerede rukket å nå 100 kamper for FCK i en alder av 22 år. Det har blitt
+flere aldersbestemte landskamper for Delaney, og det hele kulminerte høsten 2013 da han
+ble tatt ut til Morten Olsen sin A-landslagstropp.
+Gjennom sin reflekterte inngang redegjorde han veldig nøye for hva som hadde vært viktig
+på sin vei fram til et nasjonalt gjennombrudd. Delaney vokste opp bare et steinkast fra
+idrettsanlegget til KB, og allerede som 3 åring startet han sin «fotballkarriere» i nevnte
+klubb. Som mange andre spillere hadde han en aktiv far som fulgte han opp i barne og
+ungdomsårene både som «pappa» og «trener». Gjennom spilleglede, gode trenere og
+impulser utviklet han seg gradvis til å bli den spilleren han er i dag. På seniornivå startet det
+hele «litt tilfeldig» da han noen dager før en av A-lagets treningsleire fikk forespørsel om å
+være med. I forlengelsen av denne uka ble det i tillegg en del skader på laget som ga han
+mange muligheter til å vise seg fram. Igjen, viktig å ha en trener som har trua på han, men
+også det å ha litt flaks og være på rett plass til rett tid. Han fikk i starten trene to ganger i
+uka gjennom en hospiteringsordning.
+«Thomas fikk i begynnelsen være med A-laget to ganger i uka. Resten trente han med Ulaget. På den måten fikk Ståle erfare hvor god Thomas var. Introduksjonen var at han fikk lov
+til å vise seg fram. Men fra der var det ene og alene førstelagstreneren som bestemte om
+han skulle tas opp permanent» (Riemer 2013, intervju 5.nov).
+Dette underbygger selvsagt variabelen hovedtrenerens rolle og vilje til å slippe til yngre
+talenter. Gradvis tillit, og riktige valg på tid og vei, spilte en avgjørende rolle i følge Delaney.
+Selv sier han at det for en ung ambisiøs 17. åring alltid var det største ønsket om å sitte på
+
+53
+
+Jann Rindsem
+benken til superligalaget i Parken i stedet for å spille U19 eller 2 divisjonskamp for 2.laget. At
+han da noen ganger ble styrt vekk fra A-laget medførte at han fikk en trang til å være best på
+disse arenaene. Her er vi kanskje ved et veiskille mellom de beste og de nest beste. De beste
+er opptatt av egen utvikling og maksimal inngang til det å bli best. Allerede dengang viste
+Delaney en profesjonell og dedikert holdning til å bli den spilleren han er i dag.
+Det var i denne perioden i 2008 at Brian Riemer ble hentet inn til FCK som U19 trener, fra
+jobben som hovedtrener i Hvidovre IF. At nevnte Riemer må ha sin del av æren for at
+Delaney fikk både sjansen og riktige impulser er uomtvistelig. Det var i denne fasen at også
+strukturen i FCK hadde blitt bedre gjennom SE. Riemer hevdet at tida da trenere nedover i
+systemet ville ha best mulig lag var over. Nå var det ene og alene spillerutvikling som skulle
+stå i fokus.
+
+Brian Riemer og Jann Rindsem
+
+54
+
+Kontinuitet i arbeidet og den røde tråden fra spillerutvikling og opp til A-laget skulle også bli
+bedre i 2012 da Brian Riemer ble assistenttrener under belgieren Ariel Jacobs. Dette ble en
+dobbel gevinst for de unge, da man nå fikk en trener som hadde totaloversikt over de unges
+kvaliteter. Som Grahn hevdet da jeg prata med han så er Brian en trener som virkelig
+brenner for at de unge skal lykkes. Under Riemer har i tillegg til Delaney også Christoffer
+Remmer og ikke minst Andreas Cornelius slått igjennom på A-lagsnivå. Årsaksforklaringer til
+at disse har fått sine gjennombrudd har en del fellestrekk, men også en del ulikheter. Som
+Riemer hevdet så er det ulike situasjoner og prosesser som spiller inn, hvorvidt en spiller slår
+gjennom eller ikke. Noen trenger lengre tid enn andre for å blomstre, mens for andre kan
+gjennombruddet komme ut av det intet. For Andreas Cornelius, som den gang var bak
+eksempelvis Danny Amakwaa så fikk han sjansen fordi flere spisser var skadete. Han fikk
+umiddelbart suksess og ble en «hit» med en gang. Han ble den femte tenåringen som lagde
+10 mål i superligaen, før han ble solgt til walisiske Cardiff City for ca. 70 millioner kroner. En
+annen som har brukt noe lengre tid enn Cornelius til å slå gjennom er Danny Amakwaa. Jeg
+fikk mulighet til å intervjue Amakwaa under mitt siste besøk i FCK, og det vil være
+interessant å sammenligne hans vei med Delaynes vei til gjennombrudd da deres vei til Akontrakt har vært litt forskjellig.
+
+55
+
+Jann Rindsem
+
+Talentet Danny Kwasi Amankwaa
+Danny Kwasi Amankwaa (født 30.januar 1994) spilte i sine yngre år i naboklubben til FCK,
+Brønshøy Boldklubb. Til FCK kom han da han var 14 år gammel og spilte de første årene i SE.
+Amankwaa har etter rapportene å dømme alltid vært ett enormt fotball talent. Det som for
+mange er utfordringen er å ta det videre fra barnefotball og over til seniorfotball. For Danny
+har det stort sett bare godt en vei. Da han kom til klubben spilte han sammen med en av de
+beste årgangene i FCK sin historie med Andreas Cornelis, Matthias Remmer med flere. Fra
+Wikipedia kan man lese dette om Amakwaa:
+
+««Danny Amankwaa blev hentet til FCK fra Brønshøj Boldklub, hvor han blev
+tilknyttet FCKs U19-hold. I efterårssæsonen 2012 blev han udtaget til klubbens
+førsteholdstrup. Amankwaa debuterede for FCKs førstehold den 26. september 2012
+i en pokalkamp i DBU Pokalen mod FC Fredericia, hvor han blev skiftet ind efter 62
+minutter. Debut i Superligaen fandt sted måneden efter. Første mål for FCKs
+førstehold blev scoret i en pokalkamp mod SønderjyskE den 1. november 2012, hvor
+Amankwaa debuterede i startopstillingen. I sommerpausen blev Amankwaa
+indlemmet i FCK's førsteholdstrup.» (Wikipedia, Danny Amankwaa).
+
+Under mitt siste besøk i FCK fikk jeg satt av rikelig med tid for et intervju med han etter Alagets trening denne fredagen. Amakwaa hevdet i likhet med Delaney en enorm dedikasjon
+til fotball og han trente ikke ut fra noen plan da han var yngre. Allerede som femåring startet
+han med organisert fotball i barndomsklubben Brønshøy. Alt gikk med til lek med ballen og
+
+56
+
+Jann Rindsem
+spill på løkka med sine kompiser i Brønshøy. Etter hvert som han ble eldre var det et naturlig
+valg for Danny å skifte klubb, og FCK var et naturlig valg for en ung ambisiøs spiller fra
+Brønshøy (Spillere fra Brønshøy går visstnok ikke til Brøndby). Han ble tatt opp i FCK U14 og
+gikk samtidig på Johanneskolen. Ting ble systematisert mer og han fikk veiledning og
+oppfølging på hva han burde prioritere i treningsarbeidet. Nå ble ting mye mer
+profesjonalisert.
+«Det kom flere trenere, ting ble mye mer profesjonalisert og man trente enda mer ut fra
+spesifikke ting.» (Amankwaa 2013, intervju 15 nov).
+Etter gode prestasjoner i den første fasen stoppet det litt opp da han spilte U19 fotball.
+Michael Nilsen hevder Amankwaa på mange måter var litt ferdig med juniorfotball, og
+mange synes han underpresterte så mye at han ikke fortjente å bli tatt opp til A-treninger.
+Nilsen kom inn på et viktig aspekt i spillerutviklingen da jeg prata med han under mitt siste
+besøk. Betydningen av å lese individet, se hva som trengs av påfyll og behandle folk ulikt
+fordi individer er forskjellige. Etter en del interne runder fikk han etter hvert prøve seg på Alaget og det skulle ikke gå lange tiden før han etablerte seg i førstelagstroppen. Å flytte han
+opp til A-laget var med andre ord riktig og den formelen som SE bruker 25-50-25 viste på
+mange måter at Amakwaa kanskje var på den første 25% i sin daglige treningshverdag.
+Amankwaa har hele tiden blitt ansett som et stort talent, og han har spilt på de danske
+landslagene helt fra han var 16 år og vært en av de beste spillerne der. I dag er han en del
+av Danmarks U21 tropp og ses på som et av de største talentene i Danmark. Under mitt
+intervju med han så jeg en sympatisk gutt som hadde klare mål for framtida. Han er i
+skrivende stund ikke helt etablert i FCK startelver, men han har fått mange innhopp og fått
+mye spilletid. Hans klare målsetning var å spille seg til fast plass på A-laget. Da jeg spurte
+han hva som hadde spilt inn som de viktigste årsakene til at han har vært så god nevnte
+Amakwaa trenerens rolle og dedikasjon til spillet.
+
+«At treneren har tror på meg og har tillit betyr mye for min utvikling som fotballspiller. Jeg har
+alltid hatt en enorm interesse for fotball og synes det er gøy å spille fotball. At vi fikk Brian
+57
+
+Riemer gjorde inngangen min enklere. Riemer kommuniserer mye med meg og viser meg
+tillit. For meg er Brian den viktigste treneren jeg har hatt i overgangen fra U19 til seniorfotball.
+Ellers vil jeg nevne Mogens Rasmussen som hadde meg på U15. Han var veldig dyktig og
+hjalp meg masse. Jeg vil si han var god fordi han pratet veldig mye med meg i tillegg til å
+være faglig dyktig . Jeg vil generelt si jeg har utviklet meg enormt mye i København og fått
+mye tilrettelagt hjelp både teknisk og taktisk. Det er laget en egen utviklingsplan for meg som
+jeg følger. Jeg har fått utviklet meg på mange ulike arenaer og det har vært et bra
+utviklingsløp for meg. Mine styrker for meg er evnen til å trene mye og lære. Jeg trente
+enormt mye på egenhånd da jeg var ung. I Brønshøy trente vi bare to ganger pluss kamp
+men jeg drev med egentrening daglig. Dette har bidratt mye til at jeg har blitt så god som jeg
+er i dag.
+Mitt mål er i første omgang å slå igjennom i FCK og senere ta steget ut i utlandet. Jeg har
+spilt alle landskampene fra U16 og er nå på U21 landslaget. De er på oppdrag nå, men jeg
+er ikke med fordi jeg har karantene. » (Amankwaa 2013, intervju 15 nov.).
+
+Mye av det som Delaney påpekte fikk jeg med andre ord bekreftet gjennom Amankwaa.
+Begge spillerne opplever FCK som en helprofesjonell klubb med en stor grad av
+tilrettelegging. Klubben har folk som er opptatt av dialog og kommunikasjon, og begge føler
+at de har blitt veldig bra fulgt opp i klubben. Ut fra det de sier ble ting mye mer
+profesjonalisert da SE ble stiftet, og den røde tråden på innhold og kontinuitet har vært veldig
+viktige faktorer for at de har tatt steget opp på A-laget til FCK. Det ble mye mer fokus på
+enkeltindividet etter at SE ble opprettet. Betydningen av en trener som har trua på deg
+betones også veldig sterkt av begge to. Her kommer variabelen betydningsfulle personer inn,
+og når disse jobber ut fra et mandat som i tillegg har en målsetting om å produsere A-spillere
+får den effekten de har ekstra stor tyngde og viktighet.
+
+58
+
+Danny Kwasi Amakwaa
+Fotograf: Jann Rindsem
+
+59
+
+Konklusjon
+
+Det har vært veldig interessant å se hvordan en klubb som FCK drives både administrativt og
+sportslig. Jeg har søkt svar på mange underproblemstilliger på veien til en mest mulig helhetlig
+oppfatning av hva som er nøkkelen for at FCK har lykkes med utviklingsarbeidet. Det er alltid flere
+årsaksforklaringer når man skal si noe om hvorvidt en klubb lykkes eller ikke, og for min del har jeg
+søkt svar på flere aspekter for å komme til en mest mulig riktig konklusjon. Mye av det jeg summerer
+opp her har jeg allerede touchet inn på tidligere, men for å konkludere føler jeg det er viktig å gi en
+oppsummerende redegjørelse.
+FCK er uten tvil en klubb som prioriterer spillerutvikling , og de harde fakta på antall spillere som har
+tatt steget siden SE ble dannet er et objektivt faktum. Hva som har vært årsakene til denne
+«suksessen» kan selvsagt alltid diskuteres, men en god del av det jeg har presentert i denne
+oppgaven vil kunne rettferdiggjøre og være årsaksforklaringende til at FCK har et så bra
+utviklingsmiljø . Det er mange av variablene som jeg har sett på som forklarer mye av årsakene til at
+spillere har utviklet seg og tatt steget opp til A-laget.
+En tett og inkluderende kultur der begge avdelingene jobber på samme område satte for meg en
+definitiv standard for problemstillinga. Her var det uten tvil en kultur som bygde på gjensidig respekt,
+og A-lagets apparat var oppriktig involvert og interessert i det som skjedde i U-avdelingen. Jeg skal
+ikke gjenta det jeg tidligere har skrevet, men den dialogen som skjedde både uformelt og formelt må
+ses på som selve grunnmuren i utviklingsarbeidet. Uten denne dialogen og samarbeidet ville ingen
+kunne fått sjansen, samme hvor god man var. I denne konteksten kommer også viktigheten av
+personer inn. Det har fra 2009 og opprettelsen av SE vært sentrale personer som har brent for
+spillerutvikling. SE ble også dannet som en følge av at FCK som klubb ønsket å få frem flere
+egenproduserte spillere. At man ansatte Michael Nilsen som Manager for SE forteller mye. En
+kulturperson med over 280 kamper for FCK ble han som skulle fronte utviklingsarbeidet. Hans
+60
+
+innflytelse og rolle i FCK spiller en kjempestor rolle i mine øyne. Gjennom mine besøk fikk jeg
+observere Nilsens rolle i klubben og det var åpenlyst at han hadde en viktig funksjon i FCK systemet. I
+tillegg må også assistenten på A-laget Brian Riemer nevnes. Han var som sagt U19 trener før han ble
+assistent og var den treneren som på mange måter har fått mye av æren for at spillere som Remmer,
+Amakwaa og Cornelius har slått gjennom. Som Nilsen også uttalte så var det en trener som så
+nedover i systemet. A-trenerne er alltid resultatorienterte, men det hersker ingen tvil om at
+klubbens filosofi om å få opp egenproduserte spillere var noe som også Solbakken og før han Ariel
+Jacobs var opptatte av. Det var også under disse to at mitt første intervjuobjekt Thomas Delaney fikk
+sitt gjennombrudd.
+En annen ting som forenkler overgangen for de beste U-spillerne er klubbens helhetlige filosofi rundt
+spillestil og metodikk. Rekruttlaget trener som sagt tilnærmet likt A-laget og de som kommer på
+hospitering er vant til treningsmetodikken til A-laget. Grahn som trener U19 uttalte også det tette
+samarbeidet med A-laget og hadde kontinuerlig kontakt med Riemer . Linja nedover på U14, 15 og 17
+var også tydelig og de arbeidskravene som A-laget krevde lå i bunn for det som ble gjort på disse
+lagene. Ting var ikke tilfeldig, men bar preg av en stor grad av systematikk på innhold. Undertegnede
+fikk også tilgang til mye av det innerste av plandokumenter som bekrefter dette. Nilsen uttalte også
+gjentatte ganger viktigheten av den røde tråden og brua mellom gruppene. Det var ingen trener som
+isloert sett kunne finne opp nye øvelser og bare bruke disse i egen praksis. Alt skulle passe med den
+spillestilen som A-laget hadde, og man skulle trene metodisk og systematisk ut fra den filosofien som
+klubben hadde. Mio hevdet at mens U19 trente tilnærmet A-laget var det en mer light modell for de
+yngre FCK lagene.
+
+Jeg berørte også viktigheten av en helprofesjonell tilnærming til alt som ble gjort. FCK har et apparat
+som tilrettelegger for optimal utvikling gjennom SE. Den modellen jeg skisserte viser med tydelighet
+at det er en utviklingsbasert klubb som innehar mye kompetanse og som legger mye ressurser i
+potten for å produsere egne spillere. Mye av det gamle tankegodset som man jobber ut fra i SE
+finner man også igjen i de klubbene som fusjonerte til FCK i 1992. KB sin rolle har i dette bildet vært
+veldig viktig, og ettersom de holder til på samme område som FCK har klubben blitt
+rekruteringsarena nummer 1 inn til de første FCK lagene. Det er skapt en kultur som har kvalitet som
+stikkord fra første stund og KB sin inngang og tilnærming til SE har stadig blitt bedre. De førende
+61
+
+sportsplanene gjennomføres i praksis og tilgangen av spillere som vil til KB er enorm. Selv om det er
+100 spillere i hver årsklasse er det lange ventelister om å få spille der.
+Alle de punktene jeg har presentert i denne oppgaven viser med tydelighet at ting ikke er tilfeldig,
+men snarere et produkt av en systematisk satsing rundt utviklingsarbeidet. Det er ikke kun snakk om
+å pøse millioner av kroner inn i et system, men også at det er en kultur som bygger på tradisjoner og
+kompetanse som man har videreforedla gjennom SE. Viktige personer ser nedover i systemet for å
+rekruttere fra egen avdeling, og flere spillere har som Nilsen påpekte vist at dette er mulig.
+Kulturbærere som Delaney og Kvist har banet vei for andre som med egne øyne ser at det er mulig å
+gå gradene i egen klubb, og at man faktisk blir satset på og fulgt opp som spiller. Å satse på
+egenutviklede spillere er ikke bare løst snakk, men viser seg gjennom fakta og realiteter. Den veien
+som FCK har påbegynt tror jeg i likhet med Nilsen vil eskalere i årene fremover. I 2020 er målet å ha
+størstedelen av A -lagets spillere fra egen SE. Av en tropp på ca 25 spillere skal halvparten være fra
+SE. Så gjenstår det bare å se om dette målet nås.
+
+62
+
+Epilog
+
+Vi er nå inne i julefeiringa og jeg tar fatt på min oppsummering av denne oppgaven, ca en
+måned før den skal leveres inn. For tiden er jeg på besøk til mine foreldre i Verdal der hele
+min lidenskap for fotball startet for mitt vedkommende. Det var her jeg vokste opp med
+ballen, vennene og fotballkulturen. Mye av det gamle lever fremdeles i Verdal og mimringa
+rundt bordet gikk høyt for seg den 3.juledag da gutta var samlet til gamletreneren i Verdal,
+Nils Austad. Han representerer selve kultursjela i Verdal gjennom sin bestefar, far , bror og
+seg selv som har spilt sentrale roller for fotballen i bygda. Nevnte Austad trente også A-laget
+på midten av 2000-tallet da laget var i 2 .divisjon og var en kvalikk unna opprykk til
+Adecoligaen. Siden den gang har laget gått ned i 3 divisjon, men har i god gammel verdalsk
+tradisjon et oppriktig ønske om å rykke opp. Det er mye kompetanse i Verdal både formell
+og uformell. Trond Viggo Toresen, x-Verdal, Byåsen, Pors, Notodden og Odd er for tiden
+hovedtrener på A-laget , og nevnte Austad tok i 2010 sin Uefa A lisens . Det var her jeg
+vokste opp og skapte meg selv som person både fotballfaglig og sosialt.
+Mange hevder det er viktig å komme i gang med skrivinga da tida fra praksisuka i juni til
+deadline i februar går raskt. For min del var dette en uproblematisk prosess da jeg følte en
+stor indre drive til å suge til meg mer læring. Hele studiet har vært en intensiv
+læringsprosess fra dag 1, og jeg har tilegnet meg mye intensiv kunnskap gjennom det halve
+året som har gått. Det har vært sentrale aktører som har gitt meg ekstremt mye
+fagkompetanse i løpet av studiet, men også personer som har hatt trua på meg, og som ga
+meg muligheten til å komme inn på Uefa-A kurset. I denne konteksten må også Mjøndalen
+
+63
+
+Fotball nevnes, da jeg har utviklet meg mye der de siste tre årene og fikk sånn sett
+muligheten til å bli vurdert da A-kursets opptak skulle gjøres for 2013.
+Læringa under praksisuka i Porsgrunn var givende, her kom jeg på en fantastisk
+arbeidsgruppe sammen med Sindre Eid, Thomas S.Hansen, Bengte Sæternes og Peter
+Engelbrektsson som var veileder. Jeg følte jeg fikk enormt mye i løpet av denne uka og fikk
+også gitt en del tilbake. Vi jobbet som et skikkelig team der målet hele tida var å skape gode
+prestasjoner til den av oss som var i aksjon på feltet. Vi spara under øktene og satt til de
+sene nattetimer og diskuterte fotball og morgendagens økt. Uka var utrolig givende og jeg
+fikk i tillegg til reint fotballfaglig påfyll dannet vennskap med folk jeg tidligere ikke kjente.
+Bak fra venstre Thomas Steen Hansen, Peter Engelbrektsson (veildeder), Jann Rindsem
+Ned fra venstre Bengt Sæternes og Sindre Eid.
+
+64
+
+Under denne uka fikk jeg samtidig bekreftet for meg selv at jeg innehar endel kompetanse
+på feltet etter de tilbakemeldingene jeg fikk. Undertegnede må med hånden på hjertet
+innrømme at det var viktig for meg å få en ærlig og helhetlig tilbakemelding på egen
+«standing» som trener på feltet, og når det ble såpass bra ga deg meg mye selvtillit og
+motivasjon til å ta tak på den teoretiske delen av kurset.
+Valget på temaet «spillerutvikling» bestemte jeg meg for tidlig da jeg jobber med dette i
+Mjøndalen. Arbeidet startet etter hvert med å finne ett case som kunne gi meg påfyll til mitt
+arbeid i egen klubb, og jeg søkte tidlig på caser som lå utenfor nærområdet. Da jeg fikk
+muligheten til å besøke F.C København fordi en lokal person hadde kontakter inn til klubben
+ble valget enkelt. Jeg har vært heldig som har fått en så god inngang til en så stor klubb og
+jeg kunne takket mange på veien for den, men lista hadde blitt for lang om jeg skulle nevnt
+alle ved navn.
+Jeg mener selv jeg har en ydmyk inngang til læring og føler jeg har mye å ta tak i og suge til
+meg av teoretisk karakter. Studiet har uten tvil gitt meg mye inspirasjon og kunnskap som
+jeg vil kunne nyttiggjøre meg i min jobb som sportslig leder i Mjøndalen, og framtidige
+klubber (om det engang blir aktuelt). Samtidig er det heldigvis mye av tankegodset i FCK som
+jeg kjenner igjen i egen klubb, selv om mye er nytt. Jeg hadde ingen intensjon om å studere
+FCK for å kopiere det de driver med, men tanken har hele tiden vært å finne referanser og
+måter å gjøre ting på som kunne linkes til den kulturelle identiteten vi har i egen klubb.
+Skalaen blir likevel mye forskjellig på ressurser, men samtidig var det flott å se at
+folkeligheten og aspekter som sosialt ansvar og kommunikasjon var mye likt det jeg setter
+som ekstremt viktig i egen klubb.
+Mottagelsen i klubben har vært veldig god og jeg har fått tilgang til det meste av litteratur og
+teoretisk kunnskap som FCK bygger sin klubbdrift på. Det som likevel har vært mest
+interessant har vært det som kanskje er rota i FCK kulturen, daglig og uformell
+kommunikasjon i et dynamisk og godt miljø. Det er mennesker som bryr seg, som oppfører
+seg, som er folkelige og som har kunnskap om det de holder på med. Jo mer jeg har arbeidet
+65
+
+med fotball og mennesker, dess viktigere har det sosiale og pedagogiske aspektet ved
+trenergjerningen blitt. Det hjelper ikke å være en fag «idiot» dersom man ikke klarer å
+kommunisere ordentlig med de man skal utvikle. At en så stor klubb som FCK har så åpne
+kanaler mellom leddene var derfor noe som både gledet og overrasket meg litt.
+Jeg håper dere synes oppgaven har vært interessant å lese og at jeg har fått fram poengene
+mine klart nok. Det har vært en blanding mellom noe synsing ut fra observasjoner, og noe
+som er faktabasert. Ut fra et fotballtrenerperspektiv er vel også det på mange måter
+hverdagen for en trener. Fotball er ikke matematikk og vil heller aldri bli det, og det jeg har
+konkludert med kan sikkert diskuteres gjennom flere briller.
+Når jeg nå den 4.juledag 2013 sitter og skriver ferdig de siste linjene på oppgaven, gjør jeg
+det der det hele startet for mitt vedkommende, i Verdal.
+
+66
+
+Litteraturliste
+Riemer, Brian
+
+(2013). Intervju 5.september.
+
+Nielsen, Michael (2013). Intervju 5.september.
+Toft, Kim
+
+(2013). Intervju 5 og 6 september
+
+Delaney, Thomas (2013). Intervju 5. september.
+Nielsen, Michael (2013). Intervju 14. november.
+Nielsen, Michael (2014). Mailkorrespondanse 15 januar.
+Nielsen, Michael (2014). Telefonintervju 16 januar.
+Grahn, Morten
+
+(2013). Intervju 15.november.
+
+Amankwaa, Danny (2013). Intervju 15.november.
+Dansk Boldspill- Union. Aldersrelatert træning 1
+Dansk Boldspill- Union. Aldersrelatert træning 2
+Dansk Boldspill- Union. Børnetræning.
+Dansk Boldspill- Union. Talentmanual
+Ulseth, Otto. Det viktigste av alt er læring. Aschehough 2010.
+KB Mikrofodbold U4-U9
+KB Børnefodbold U10-U13
+67
+
+KB Ungdomsfodbold U15-19
+Wikipedia.com
+
+68
+
+

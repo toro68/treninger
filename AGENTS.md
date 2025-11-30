@@ -18,6 +18,14 @@
 - Component files use `PascalCase` (e.g., `ExerciseManager.tsx`); hooks use the `useFoo` prefix; Zustand stores end with `Store.ts`.
 - Prefer Tailwind CSS utility classes inside JSX; do not reintroduce CSS Modules unless scoped styles are required.
 - Run `npm run lint` after significant changes; fix warnings rather than suppressing them.
+- **Emojier:** Ikke bruk emojier i overskrifter, tab-labels eller navigasjonselementer. Bruk heller enkle, funksjonelle symboler:
+  - `✓` / `✗` — riktig/galt (f.eks. "✓ Oppmuntre til å prøve", "✗ Kritisér ikke balltap")
+  - `→` / `←` — retning, fører til (f.eks. "Høyt → Lavt press")
+  - `↑` / `↓` — opp/ned, øk/reduser (f.eks. "↑ Push-out", "↓ Fall tilbake")
+  - `+` / `−` — vis/skjul, ekspander/kollaps
+  - `•` — listepunkt
+  - `»` — fortsetter, les mer
+  - `×` — lukk, fjern
 
 ## Testing Guidelines
 - Automated tests are currently absent; add Playwright UI tests or React Testing Library component tests when extending critical flows.

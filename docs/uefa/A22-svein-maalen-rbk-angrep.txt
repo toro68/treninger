@@ -1,0 +1,1300 @@
+RBK i angrep
+2006-2011
+
+Treneroppgave Uefa A-lisens
+Svein Maalen
+
+RBK i angrepsspillet gjennom ulike trenerregimer og filosofier
+1
+
+Innholdsfortegnelse
+
+Sammendrag ................................................................................................................................................................ 3
+Innledning........................................................................................................................................................4
+Teori ................................................................................................................................................................5
+Metode ............................................................................................................................................................6
+Resultater ........................................................................................................................................................7
+Antall poeng og mål......................................................................................................................................... 7
+Antall sjanser ................................................................................................................................................... 8
+Sjanser og uttelling .......................................................................................................................................... 9
+Sjansestørrelse .............................................................................................................................................. 10
+Store sjanser .................................................................................................................................................. 11
+Angrepstype .................................................................................................................................................. 12
+Målsjanser mot RBK ...................................................................................................................................... 13
+Diskusjon ....................................................................................................................................................... 15
+Konklusjon ................................................................................................................................................................. 18
+Litteraturliste ............................................................................................................................................................. 19
+
+2
+
+Sammendrag
+RBK i Angrepsspillet under ulike trenrregimer perioden 2006-2011
+Rosenborg BK har i løpet av perioden 2006-2011 skiftet hovedtrener fem ganger.
+ Tørum 2006-2007
+ Eggen 2010
+ Henriksen 2008
+ Jönsson 2011
+ Hamren 2008-2010
+Undersøkelsen tar for seg de ulike trenernes filosofi i angrepsspillet og hvilke konsekvenser det fikk for lagets
+prestasjoner. Undersøkelsen er basert på analyse av målsjansene for og mot i Tippeligaen gjennom disse årene.
+Hypotesen er at målsjanser vil gjenspeile lagets spillestil over tid.
+Undersøkelsen er basert på følgende kvantitative variabler:
+ Antall mål og målsjanser både for RBK og for motstanderen
+ Sjansestørrelse – Liten, Middels og Store sjanser
+ Angrepstype – Kontringer, Etablert angrep og Dødballer
+Rent poengmessig var det Eggen og Hamren som hadde mest suksess denne tiden Eggen med 2,4 poeng pr. kamp
+og Hamren med 2,1 poeng pr. kamp. De mest sjanseskapende periodene har vært under Eggen og Jönsson, som
+skapte hhv. 9,5 og 9,7 sjanser pr. kamp. Disse to sto også for størst prosentmessig andel store sjanser. Tørum og
+Jönsson-periodene var de periodene hvor motstanderne skapte mest sjanser. I sammenhengen mellom antall
+scorede og antall innslupne mål skille Jönsson seg ut med største antallet scorede mål (2,3 pr.kamp), men også
+1,5 mål mot (dette også høyest). Det samme gjennspeilet seg ift antall skapte sjanser for og mot. Denne
+differansen er langt høyere for Eggen og Hamren. Kun under Henriksen har RBK tatt færre poeng pr. kamp. Tatt i
+betraktning at Jönsson skapte mye i 2011 er det nærliggende å konkludere med at det defensive ødela for RBK i
+2011-sesongen. Spesielt også det faktum at nesten halvparten av disse var når RBK lå i etablert forsvar.
+Den mest defensivt orienterte treneren Hamren skiller seg ut med både færrest mål mot (0,9) og færrest sjanser
+mot (4,0). Han skiller seg også ut med mange sjanser etter etablert angrep og god offensiv balanse og dermed få
+kontringssjanser mot.
+Tørums periode var preget av forholdsvis mange sjanser, men samtidig mange sjanser mot. I denne perioden var
+RBK ganske effektive sammenlignet med de øvrige periodene. Mange dødballmål var også særegent for det
+offensive spillet i denne epoken. Det ble under Tørum fokusert mye på etablert angrepsspill, men dette ser vi ikke
+igjen i statistikken, tvert i mot den treneren som har skapt prosentmessig minst etter etablert angrep.
+Henriksen-perioden var den svakeste av periodene med bare 1,5 poeng pr. kamp i snitt. Dette er også den
+perioden det er vanskeligst å konkludere med pga. at den var så kort (bare 10 kamper).
+Eggens periode ser totalt sett ut som den beste. I tillegg til å ta flest poeng og skape mange sjanser og mål, var
+heller ikke det defensive så verst med bare et baklengsmål mot pr. kamp. Interessant å få bekreftet i statistikken
+også at han preget laget umiddelbart med flere sjanser, mer kontringsspill (flere kontringssjanser), og mindre
+offensiv balanse (motstander fikk også flere kontringer).
+
+3
+
+Innledning:
+Denne undersøkelsen tar utgangspunkt i følgende problemstilling:
+Hva kjennetegner Rosenborgs angrepsspill under forskjellige trenerregimer i årene 2006 til 2011?
+Undersøkelsen tar for seg de ulike trenernes filosofi i angrepsspillet og hvilke konsekvenser det fikk for lagets
+prestasjoner. For å avgrense datainnsamlingen har jeg valgt å gjøre en undersøkelse av de angrepene som førte til
+mål og målsjanser for og mot Rosenborg. Hypotesen er at dette over tid vil gjenspeile lagets spillestil.
+Disse angrepene er registrert og kategorisert etter følgende:
+ Registrering av antall mål og målsjanser både for RBK og for motstanderen
+ Kategorisering av størrelse på sjansene – Liten, Middels og Store sjanser
+ Kategorisering av angrepstype sjansene kommer etter – Kontringer, Etablert angrep og Dødballer
+Klubben har i perioden hatt som målsetting å vinne serien hvert år, og gjennom det kvalifisere seg for
+europacupspill. Det har vært en periode preget av mye utskiftninger både i spillergruppa og hovedtrenere.
+Rosenborg BK har i løpet av perioden 2006-2011 skiftet hovedtrener fem ganger. Trenerskiftene har kommet av
+forskjellige årsaker, og de har kommet på forskjellig tidspunkt av året.
+
+
+
+
+
+
+Tørum (Juni 2006 til Oktober 2007).
+Henriksen (Oktober 2007 til Mai 2008)
+Hamren (Juni 2008 til Mai 2010)
+Eggen (Juni 2010 til November 2011)
+Jönsson (Januar 2011 og fram til i dag)
+
+Undertegnede har i denne perioden jobbet i trenerteamet som Analysesjef og hatt ansvar for videoanalyse av
+kampene. Kampene er analysert underveis i perioden og dermed har datagrunnlaget for studiet blitt gjort
+underveis gjennom disse årene. RBK har underveis hatt tilgang til og nytte av slike kvantifiserbar informasjon, og
+det har vært et prioriteringsområde de siste årene å bruke videoanalyse som utviklingsverktøy for sportslig
+utvikling.
+Ser man litt tabloid på fotball kan man si at fotballspillet endrer karakter med tiden. Hva som er den mest
+effektive fotballen, og hva som er den «riktige» måten å spille fotball på er ikke en enkel beskrivelse. Dette har
+historisk sett variert litt også. Et ganske ferskt eksempel var da f.eks. Murinhos Inter Milan slo Bayern Munchen i
+Champions League finalen i 2009 med en fotball som hadde fokus på defensiv trygghet (lavt, kompakt
+forsvarsspill) og stor kontringsvilje. Angrepsspillet var preget av lavrisikovalg, men stort fokus på hurtige og
+massive kontringer. Mange fotballeksperter mente at dette var den moderne, og i denne sammenhengen mest
+effektive fotballen. –Slik ville framtiden se ut!
+Året etterpå vant Barcelona Champions League finalen med en fotball som kan oppfattes stikk motsatt; Fokus på
+ballbesittelse, mange pasninger på kryss og tvers for å vente på den «riktige gjennombruddsløsningen». Defensivt
+var det fokus på gjennvinningspress høyt i banen. I overgangsspillet var det viktigere å ta vare på ballen enn å ta
+vare på ubalansen i motstanderens lag.
+
+4
+
+I Rosenborg har vi i løpet av perioden hatt trenere med ganske forskjellig filosofi. Ytterpunktene er kanskje
+Hamrens fokus på defensiv trygghet og gjennombruddsavventende angrepsspill, og Eggens gjennombruddshissige
+angrepsspill, med mindre fokus på det defensive.
+Hva som er den riktige fotballen skal ikke denne undersøkelsen gi svar på, men den vil trolig belyse noe som
+mange er opptatt av og har en oppfatting av. Rosenborg er en klubb med stor mediaoppmerksomhet og stor
+interesse rundt seg. Det er store forventninger til at laget skal vinne hvert år, og aller helst gjennta bedriftene fra
+90-tallet og først på 2000-tallet med Champions-league deltakelse hvert år. Gjennom en periode der ulike trenere
+har hatt ansvaret, og resultatene har svingt, sitter mange med en oppfatting av hva som gikk riktig og galt for seg.
+I media har fokuset dreid seg om mer og mindre relevante ting. Dessverre er det alt for lite fokus, og trolig
+kompetanse, på å årsaksforklare prestasjonene med en faglig tilnærming. En hjertesak for undertegnede er at vi
+må nærme oss våre konkurrenter i de beste nasjonene på dette feltet, også i media. Se til Spania og England for
+eksempel hvor de har en mye mer vitenskapelig tilnærming til sporten. Fotballtrenere er fagmenn og autoriteten
+ligger ofte til kompetanse, som igjen har mye med evnen til å se og forstå fotball. Mitt inntrykk er at
+fotballtrenere generelt er negativ til analyser og fotballforskning. Dette fordi det kan true deres posisjon som
+«den som vet». Helst skal man se selv og danne seg et subjektivt inntrykk, og det er bare det som gjelder. Dette er
+selvfølgelig kanskje det viktigste, men større fokus på objektive undersøkelser kan være en nøkkel for at norsk
+fotball skal komme lenger. Dette bør gjelde media også. Se for eksempel til den spanske sportsavisen Marca som
+har grundige analyser (objektive og fotballfaglige vel og merke) før og etter alle kampene i Spania.
+Viktig å understreke at denne påstanden er et generelt inntrykk, og mange trenere og fotballinteresserte forøvrig
+er opptatt av forskning og objektiv fotballkunnskap.
+Denne undersøkelsen tar for seg bare et av flere områder som påvirker prestasjonene. Den har også klare
+svakheter i form av variabler som ikke kan sammenlignes. Et lags spill og prestasjoner er selvfølgelig avhengig av
+mye mer enn trenerens filosofi og spillestil. Fotballen er i stadig forandring, og trolig må dette også være et viktig
+element når vi skal mene noe om fotball.
+Fotballfamilien er imidlertid veldig enig om et kjennetegn: Spillet går hurtigere, rommene blir trangere og tiden
+spilleren har med ball blir kortere.
+
+Teori
+Studiet har fokus på scoringer og sjanser, og hvilke angrepstyper de kommer etter. Vi vet fra analyser av
+Champions league de siste årene, at i Champions league (Toppfotballsenterets analyser) scores hele 48% av
+målene etter etablert angrep, 34% etter kontringer og bare 18% etter dødball. Sannsynligvis har dette flere
+årsaker; Dødballmål blir sjeldnere og sjeldnere. Spesielt gjelder dette mål etter corner. Lagene blir bedre på å
+forsvare seg (strukturelt), det oppdages mer effektive måter å hindre dødballmål på. I tillegg blir fotballspillerne
+mer og mer atletisk, noe som trolig favoriserer forsvarsspillet.
+Etablerte angrep: Mye tyder på at det blir vanskeligere og vanskeligere å trenge gjennom etablert forsvar. Likevel
+scores mange mål på denne typen angrep. Trolig fordi det er denne typen angrep som forekommer klart mest i
+løpet av en fotballkamp. Samtidig som flere lag har blitt opptatt av å utnytte overgangsspillet er det stort fokus på
+å angripe med balanse. Lagene ønsker ikke at offensive feil skal gi motstanderen store kontringsangrep og legger
+mange folk bak ballen og i gunstige gjennvinningsposisjoner, som får den konsekvensen at det blir færre store
+kontringer. Toppfotballsenterets VM-analyse fra 2010 viser at balanseforholdene ved balltap var statistisk høye.
+Totalt sett var lagene i god balanse ved 71,1% ved ballmiss, viss balanse ved 23,1% og ubalanse i bare 5,8% av
+
+5
+
+situasjonene med balltap i spill. Defensiv trygghet var altså høyt prioritert. De samme analysene ser også litt
+annerledes ut enn de nevnte Champions league-tallene ift angrepstype ved sjanser. Her er fordelingen av
+angrepstype slik: Sjanser etter –etablert angrep 42,8% - kontringer 27,6 – dødball 29,6. Altså en større andel etter
+dødball og noe mindre etter etablert angrep og kontringer.
+Norges Idrettshøgskole gjør sjanseanalyser i Tippeligaen på oppdrag for VG, og disse analysene fra 2011-sesongen
+viser at bare 35% av sjansene kommer etter etablert angrep, 29% etter kontring og hele 36% etter dødball. Den
+største forskjellen ift de to førstnevnte statistikkene er altså at det skapes flere sjanser etter dødball i Tippeligaen
+enn i VM og Champions league.
+
+Metode
+Det er gjort en kvantitativ analyse av Rosenborgs seriekamper i Tippeligaen årene 2006-2011. Til dette arbeidet er
+det brukt videoopptak av kampene der TV2 sine tv-produksjoner er brukt som videokilde. Analysearbeidet er gjort
+i Interplay Sport Soccer. Det mangler totalt 6 kamper fra hele perioden (2 fra Tørum-perioden, 1 fra hhv. Hamren,
+Eggen og Jönsson-perioden). Disse er ikke med i studiet fordi det ikke har latt seg gjøre å få tak i opptak av
+kampene.
+Undersøkelsen har en viss kvalitativ tilnærming også. Trenernes filosofi er dokumentert gjennom undertegnes
+notater og erfaringer gjennom å ha jobbet tett med disse trenerne. Dette er kvalitetssikret gjennom samtaler med
+Trond Henriksen som har vært assistenttrener i hele perioden (og hovedtrener selv en periode).
+Det er gjort en analyse av alle angrep som fører til målsjanser og mål. Disse er kategorisert etter størrelse (stor,
+middels og liten), samt angrepstype (Kontringsangrep, Etablert angrep og Dødballangrep). Totalt er det analysert
+ca. 1200 målsjanser og samtlige er gjennomgått underveis i perioden. Målsjansene er gjennomgått og vurdert på
+nytt i desember 2011 for å sikre reliabilitet ift. vurdering og kategorisering.
+Målsjanse definisjon:
+I dette studiet defineres en målsjanse som: Spiller i scoringsposisjon der han/hun (etter en subjektiv vurdering)
+scorer på mer enn 1 av 5 forsøk (20%).
+Alle mål regnes også som målsjanse. Målsjansene kategoriseres i forhold til scoringspotensiale (Stor-MiddelsLiten). Dette er gjort etter en subjektiv vurdering av spillerens sannsynlighet for å score mål i situasjonen. Her er
+det tatt hensyn til ulike faktorer; bl.a. avstand til mål, vinkel ift målet, kvalitet på pasning, ballkontroll , spillerens
+kroppstilling, valg av teknikk, samt forsvarsspillernes posisjon (ubalanse i forsvarsspillet, avstand til, og
+forsvarsspilernes posisjon).
+En rettesnor for kategorisering er å gjøre en subjektiv vurdering som bestemmes etter følgende:
+Stor sjanse der scoring kommer på minst 2/3 forsøk (66%). Middels sjanse scores på i en av to forsøk (50%), Liten
+sjanse scores på i 1/5 forsøk (20%). Mål scores nødvendigvis på en stor sjanse, og i den sammenhengen betraktes
+scoringer som store sjanser i denne undersøkelsen. Store sjanser og mål blir imidlertid adskilt i registreringen.
+For å definere angrepstypen på målsjansene er det tatt utgangspunkt i spilleprinsippmodellen beskrevet i
+«Effektiv fotball» (Olsen, Larsen, Semb 1994). Sjanser skapt etter etablert angrep/kontringsangrep tar
+utgangspunkt i motstanderens balanse i forsvarsspillet. For å definere om det forsvarende laget er i balanse eller
+ikke, er det gjort en subjektiv vurdering av situasjonen. Et lag i ubalanse kan være i numerisk eller posisjonell
+ubalanse, eventuelt begge deler.
+
+6
+
+Sjanser skapt etter dødball er sjanser som kommer i faste situasjoner som corner, frispark eller innkast. Det er
+også registrert noen sjanser som kommer etter målspark som defineres som dødballsjanser, fordi de kommer
+færre enn 2 trekk etter målsparket.
+
+Resultater:
+Antall poeng og mål
+Det viktigste måleparameteret i fotball er naturligvis antall poeng. Det kan være interessant å se på dette i lys av
+antall scorede mål og antall innslupne mål.
+
+Antall poeng, mål og mål mot
+(angitt i antall pr.kamp)
+Poeng
+
+Mål
+
+Mål mot
+
+Diff
+
+3,0
+
+2,0
+
+2,4
+2,1
+2,0
+
+2,1
+
+2,1
+
+1,8
+1,3
+Diff; 0,8
+
+1,0
+
+1,5
+
+1,8
+
+2,3
+
+1,6
+1,4
+
+1,9
+
+1,7
+
+Diff; 1,1
+
+1,1
+
+1,6
+
+1,5
+
+Diff; 1,0
+
+1,0
+
+0,9
+
+Diff; 0,8
+
+1,2
+1,0
+0,8
+0,6
+
+Diff; 0,6
+
+0,4
+0,2
+0,0
+
+0,0
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Eggen og Hamren er trenerne med størst poengfangst pr. kamp i perioden med hhv. 2,4 og 2,1 poeng pr. kamp.
+Henriksen og Jönsson er nederst på denne listen (1,5 og 1,6, mens Tørum ligger midt mellom (1,8). Vi ser samtidig
+at antall scorede mål alene, ikke har sammenheng med antall poeng, det samme gjelder innslupne mål. Ser vi
+imidlertid på antall scorede mål i forhold til antall innslupne får vi en klar sammenheng; Høyere differanse gir
+høyere antall poeng.
+Det er interessant å ta ut differansen også når det gjelder målsjanser for å se om det er tilsvarende tendenser der.
+
+7
+
+Sjanser for og sjanser mot
+(Angitt i sjanser pr.kamp)
+Poeng
+
+Målsjanser
+
+Målsjanser mot
+
+Diff
+7,0
+
+10,0
+
+6,0
+8,0
+Diff; 4,1
+
+6,0
+4,0
+
+5,0
+
+Diff; 5,1
+Diff; 3,9
+
+4,0
+3,0
+
+Diff; 2,5
+
+Diff; 2,3
+
+2,0
+
+2,0
+
+1,8 8,4 5,9
+
+1,5 6,1 3,8
+
+2,1 8,1 4,0
+
+2,4 9,5 4,4
+
+1,6 9,7 5,7
+
+0,0
+
+1,0
+0,0
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Vi ser sammenhengen her også. Høyere differanse mellom antall sjanser for/mot gir flere poeng. Med andre ord,
+det lønner seg å skape flest mulig sjanser, og slippe til færrest mulig. Det klareste unntaket er imidlertid Jönsson
+med en differanse (3,9) som burde gitt flere poeng. Hvis vi ser på forholdstallene her bør man skape dobbelt så
+mange sjanser som man slipper til, for å komme å komme over 2 poeng pr. kamp.
+
+Flere målsjanser=flere mål?
+Hvis vi tar ut antall målsjanser og antall mål kan vi få en indikasjon om det har vært en sammenheng mellom
+antall skapte sjanser og antall mål.
+
+Sammenheng Mål og sjanser
+Målsjanser
+
+Mål
+
+12,0
+
+2,5
+2,3
+2,1
+
+Antall sjanser
+
+1,9
+8,0
+
+1,7
+
+8,4
+
+6,0
+
+9,5
+
+2,0
+9,7
+
+8,1
+
+1,5
+
+6,1
+
+1,0
+
+Antall mål
+
+2,1
+
+10,0
+
+4,0
+0,5
+
+2,0
+0,0
+
+0,0
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Som grafen viser har det vært en klar sammenheng mellom skapte sjanser og antall mål (r=,92816).
+
+8
+
+Sjanseskaping og effektivitet
+
+Målsjanser for RBK
+12,0
+25,26 %
+
+30,00 %
+
+27,87 %
+
+10,0
+
+22,37 %
+
+23,79 %
+
+25,00 %
+
+8,0
+
+20,00 %
+
+6,0
+
+15,00 %
+
+4,0
+
+9,7
+
+8,1
+
+10,00 %
+
+6,1
+2,0
+0,0
+
+Målsjanser pr. kamp
+Sjanseuttelling
+
+9,5
+
+8,4
+
+Sjanseuttelling
+
+Antall målsjanser pr. kamp
+
+22,96 %
+
+5,00 %
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+8,4
+
+6,1
+
+8,1
+
+9,5
+
+9,7
+
+25,26 %
+
+27,87 %
+
+22,96 %
+
+22,37 %
+
+23,79 %
+
+0,00 %
+
+Resultatene viser at RBK skapte flest sjanser under Eggen og Jönsson med hhv. 9,5 og 9,7 sjanser pr. kamp, og
+minst under Henriksen med 6,1 sjanse pr. kamp. Dette gir en variasjon på ±3,5. Hvis vi ser bort fra perioden under
+Henriksen var variasjonen imidlertid på ±1,5 sjanse pr. kamp.
+Det er bra sammenheng (korrelasjon) mellom antall skapte sjanser pr.kamp og sjanseeffektivitet (r=-,84355). Dess
+flere sjanser skapt, dess lavere effektivitet. Det klareste unntaket her er Tørum-perioden der RBK scorer høyt
+både på sjanseskaping og effektivitet.
+
+9
+
+Sjansestørrelse og uttelling
+Som vi ser av grafen var det størst effektivitet under Henriksen og Tørum med scoring på hhv. 1 av 4 sjanser
+(Tørum) og nesten 1 av 3 sjanser (Henriksen). For de øvrige var effektiviteten forholdsvis jevn (23% ±0,8%)
+Variasjonen kan være av forskjellig årsak, men det kan være nærliggende å anta at sjansestørrelse er en faktor
+som påvirker effektiviteten. Spillestil vil trolig påvirke størrelsen på sjansene. Større gjennombruddshissighet gir
+større ubalanse hos motstanderen, og dermed større scoringspotensiale i sjanseøyeblikket. Hvis vi tar ut de
+sjansene som det ikke blir scoret på kan man få en indikasjon på om sjansestørrelsen gjenspeiler spillestilen.
+
+Sjansestørrelse og sjanseuttelling
+25,26%
+
+30,00%
+
+27,87%
+
+11,5
+22,96%
+
+9,5
+
+22,37%
+
+23,79%
+
+25,00%
+
+2,1
+
+2,3
+
+20,00%
+
+2,6
+
+2,7
+
+2,1
+
+5,5
+
+2,0
+
+1,7
+
+1,9
+
+3,5
+
+1,6
+
+1,7
+
+2,3
+
+1,5
+
+10,00%
+
+1,5
+
+2,7
+
+2,0
+1,0
+1,4
+
+2,6
+
+2,5
+
+3,1
+
+5,00%
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Mål
+
+2,1
+
+1,7
+
+1,9
+
+2,1
+
+2,3
+
+Stor
+
+2,0
+
+2,0
+
+1,9
+
+2,6
+
+2,7
+
+Middels
+
+1,6
+
+1,0
+
+1,7
+
+2,3
+
+1,5
+
+Liten
+
+2,7
+
+1,4
+
+2,6
+
+2,5
+
+3,1
+
+25,26%
+
+27,87%
+
+22,96%
+
+22,37%
+
+23,79%
+
+Sjanser pr. kamp
+
+7,5
+
+-0,5
+
+Sjanseeffektivitet
+
+1,9
+
+15,00%
+
+Sjanseuttelling
+
+13,5
+
+0,00%
+
+Som vi ser av diagrammet varierte sjansestørrelsen ganske mye mellom de ulike regimene. Tørum, Henriksen og
+Hamren skapte om lag to store sjanser pr. kamp, mens Eggen og Jönsson skapte flere store sjanser enn de
+foregående trenerne (drøyt 0,5 stor sjanse pr. kamp). Det er en stor variasjon på middels sjanser, og noe variasjon
+på små sjanser.
+En hypotese er å anta at en spillestil med stort fokus på gjennombruddshissighet, og/eller fokus på kontringsspill
+vil en få en større andel av store sjanser fordi ubalansen hos motstander er større ved selve målsjansen. Dette kan
+dermed føre til større effektivitet. Hvis vi tar ut Store sjanser og sammenligner med effektivitet får vi følgende
+resultat:
+
+10
+
+35,0 %
+33,0 %
+
+29,0 %
+
+27,9 %
+
+27,0 %
+
+29,0 %
+25,0 %
+
+25,0 %
+
+25,3 %
+
+27,0 %
+
+23,8 %
+
+23,0 %
+
+22,4 %
+
+23,0 %
+
+32,8 %
+
+23,0 %
+21,0 %
+19,0 %
+
+27,0 %
+24,0 %
+
+27,6 %
+
+21,0 %
+
+Sjanseuttelling
+
+Andel store sjanser
+
+31,0 %
+
+19,0 %
+
+24,2 %
+
+17,0 %
+
+17,0 %
+
+15,0 %
+
+15,0 %
+Hamren
+
+Tørum
+
+Eggen
+
+Andel store sjanser
+
+Jönsson
+
+Henriksen
+
+Sjanseuttelling
+
+Som grafen viser, scorer de «gjennombruddshissige trenerne» Eggen og Henriksen høyt på andel store sjanser.
+Den minst gjennombruddshissige treneren, Hamren scorer, ikke overraskende, lavest på denne oversikten.
+Oppsiktsvekkende likevel at perioden under Tørum ikke hadde en høyere andel av store sjanser i dette
+perspektivet, også med tanke på høy effektivitet. Vi ser imidlertid at effektivitet og sjansestørrelse ikke har særlig
+sammenheng (r=,69472). Samtidig ser vi at Henriksen-periodens høye effektivitet kan forklares med høy andel
+store sjanser.
+
+Antall sjanser pr. poeng
+Antall sjanser pr. poeng
+7,0
+6,0
+5,9
+
+5,0
+4,0
+
+4,6
+
+4,1
+
+3,9
+
+4,0
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+4,6
+
+4,1
+
+3,9
+
+4,0
+
+5,9
+
+3,0
+2,0
+1,0
+0,0
+Antall sjanser pr. poeng
+
+Denne figuren viser først og fremst hvor dårlig betalt Jönsson fikk for angrepsspillet i 2011. Der de andre ligger på
+rundt 4 skapte sjanser pr. poeng måtte altså Jönsson ha nesten 6 offensive sjanser pr poeng.
+
+11
+
+Type angrep
+De ulike spillestilene kan trolig synliggjøres når vi kategoriserer målsjansene etter angrepstype. Her vil faktorer
+som gjennombruddshissighet, kontringsvilje og dødballstyrke komme tydelig fram, samtidig som det kan gi en
+indikasjon på forsvarsspillet også.
+Kontring
+Etablert
+Dødball
+
+Sjanser etter angrepstype
+48,0 %
+
+47,5 %
+36,5 %
+32,4 %
+31,1 %
+
+31,1 %
+21,3 %
+
+Tørum
+
+26,3 %
+
+25,5 %
+
+Henriksen
+
+44,7 %
+30,3 %
+
+Hamren
+
+42,1 %
+
+25,0 %
+
+26,6 %
+
+Eggen
+
+29,7 %
+
+Jönsson
+
+Andelen sjanser på de ulike angrepstypene viser en klar variasjon mellom de ulike regimene. Både Henriksen og
+Hamren scorer høyt på andel etablert angrep (nesten 50% av sjansene). For Hamren sin del er dette ganske
+sammenfattende med ønsket spillestil. Det samme gjelder Hamrens lave andel kontringssjanser (25,5%). Samtidig
+er det framtredende å se økningen i antall kontringssjanser da Eggen tok over laget (fra 25,5 til 30,3%), denne
+andelen tas primært fra etablerte angrep som har motsatt utvikling. For øvrig er det verdt å merke seg en høy
+andel dødballsjanser for Tørum (nesten 1/3) og Jönsson (ca. 30%).
+For å se forskjellene mellom trenerregimene enda tydeligere kan vi ta ut angrepstypene i antall sjanse pr. kamp.
+Kontring
+Etablert
+Dødball
+
+RBK-sjanser etter angrepstype (pr.kamp)
+4,3
+
+3,9
+2,6
+
+3,1
+
+2,9
+
+2,7
+
+2,9
+
+2,4
+
+2,1
+
+2,1
+
+1,9
+
+4,1
+2,9
+
+2,6
+
+1,3
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Som figuren viser får vi større differanser mellom trenerne. Det kanskje mest framtredende her er også er
+økningen i antall kontringssjanser når Eggen tar over (laget skaper nesten 1 målsjanse mer pr. kamp på
+kontringer).
+
+12
+
+Målsjanser mot RBK
+Selv om studiet handler om angrepsspillet, vil det være hensiktsmessig å se på dette i en sammenheng med
+forsvarsspillet. Vi har sett på variasjonen mellom mål for/mål mot og sjanser for/mot. Det kan være interessant å
+se sjansestatistikken i kombinasjon med motstanderens effektivitet.
+
+Målsjanser mot RBK
+7,0
+
+35,0 %
+
+25,6 %
+
+5,0
+22,3 %
+4,0
+3,0
+
+25,0 %
+
+22,5 %
+
+22,4 %
+
+20,0 %
+5,9
+
+2,0
+
+5,7
+3,8
+
+4,0
+
+4,4
+
+Målsjanser pr. kamp
+
+15,0 %
+10,0 %
+
+1,0
+0,0
+
+Sjanseuttelling
+
+30,0 %
+
+28,9 %
+
+Sjanseuttelling
+
+Antall målsjanser pr. kamp
+
+6,0
+
+5,0 %
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+5,9
+
+3,8
+
+4,0
+
+4,4
+
+5,7
+
+22,3 %
+
+28,9 %
+
+22,4 %
+
+22,5 %
+
+25,6 %
+
+0,0 %
+
+Målsjansene i mot varierte mindre underveis enn antall skapte sjanser. Unntakene er imidlertid under Tørum og
+Jönsson, som slapp til nærmere 6 sjanser pr kamp. I forhold til effektivitet er det ikke like stor sammenheng med
+antall sjanser her, slik det var for RBK-sjansene (r=,30196). Tørum har et høyt antall sjanser mot, men «vanlig»
+effektivitet. Henriksen slipper til få sjanser, men motstanderen scorer på en høy andel (nesten 30%) av de. Den
+høye effektiviteten er trolig en av årsakene til Henriksen-periodens svake resultat (1,5 poeng pr. kamp), samtidig
+som laget skapte lite. Hamren og Eggen har en sammenfattende sjanse vs uttellingsratio. Jönsson-regimet
+derimot slipper til mange sjanser samtidig som motstanderens effektivitet er stor. Disse to faktorene er
+sannsynligvis en hovedårsak til lagets manglende resultat i 2011 (bare 1,6 poeng pr. kamp), sett i lys av at
+angrepsspillet var bra målt i sjanser og mål.
+
+13
+
+Angrepstype (målsjanser mot)
+
+Målsjanser mot RBK
+(Angrepstype angitt i %)
+Kontring
+
+Etablert
+
+Dødball
+45,3 %
+
+42,1 %
+38,3 %
+33,5 %
+
+36,7 %
+36,7 %
+
+36,8 %
+
+28,2 %
+
+36,6 %
+
+36,6 %
+
+26,8 %
+
+26,2 %
+
+26,7 %
+
+26,2 %
+
+21,1 %
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Figuren viser stor variasjon mellom periodene. Under Henriksen slapp laget til en stor andel kontringssjanser og få
+liten andel dødballsjanser. Hamrens fokus på offensiv balanse (def i off.) kommer tydelig fram i få antall
+kontringssjanser mot. Når Eggen tar over får vi en kraftig økning av kontringssjanser mot (ca. 10% økning), som er
+logisk ift mindre fokus på offensiv balanse, og større risikovilje i angrepsspillet. Mens perioden under Jönsson
+preges av høy andel sjanser mot etablert forsvar.
+
+Målsjanser mot RBK
+Angitt i sjanser pr. kamp
+Kontring
+
+Etablert
+
+Dødball
+2,6
+
+2,3
+2,0
+1,7
+
+1,6
+
+1,5
+
+1,4
+
+1,5
+
+1,6
+
+1,6
+
+1,5
+
+1,5
+
+1,2
+
+1,1
+0,8
+
+Tørum
+
+Henriksen
+
+Hamren
+
+Eggen
+
+Jönsson
+
+Her ser vi klare variasjoner i spesielt antall sjanser mot etablert forsvar. Både Tørum og Jönsson slapp
+motstanderen til flere sjanser enn under de andre trenerne når RBK lå etablert i forsvar. De andre tallene varierer
+ikke mye relativt sett ift. antall sjanser mot totalt.
+
+14
+
+Diskusjon:
+Som tidligere nevnt, har klubbens trenerskifter kommet av ulike årsaker, og på forskjellige tider av året. Studiet
+tar for seg trenernes ulike filosofier og variasjon i lagets utførte angrepsspill. Derfor er det viktig å peke på mulige
+svakheter i undersøkelsen.
+Det er reelt å tenke seg at en trener bruker en del tid før han får innført sin «filosofi» og spillestil. Sett i dette lyset
+har studiet en svakhet i form av at noen av trenerne kun hadde laget i en kort periode og dermed ikke fikk
+påvirket spillet like mye som andre. I denne konteksten vil trolig også tidspunktet på året, når treneren overtok
+laget, spille en rolle. Trolig vil en trener som tiltrer ved årsskiftet, eller som får jobbe med laget i minst en
+vinterperiode (Januar-Mars) også få påvirket mye av sin spillestil/filosofi (Hamren, Jönsson og Tørum). Dette til
+forskjell fra trenerne som tok over laget midt i sesong, og ikke fikk med seg en vinterperiode (Henriksen og
+Eggen).
+Et annet viktig aspekt studiet ikke tar hensyn til er selvfølgelig spillertyper. Det har vært en stor utskifting av
+spillere i perioden, og ingen av spillerne fra 2006 sesongen har vært i klubben hele perioden fram til slutten av
+2011 (Per Ciljan Skjelbred var med helt til sommeren 2011 og Roar Strand var med sesongene fram til 2010).
+Resultatene, prestasjonene og dermed også tallene i denne undersøkelsen er trolig også preget av kvalitet på og
+type spillere. Enkelte spillertyper kan ha vært med å preget statistikken både i forhold til skapte sjanser og type
+sjanser laget har vært gode i. I perioder har laget hatt typer som var veldig effektive når de var i form, for
+eksempel Iversen 2006-2007 og Prica i 2009-2010. I perioder har klubben investert mer i spillere enn i andre
+perioder, som f.eks. under Hamren da klubben satset hardt, og brukte mange penger på spillere.
+Forskjellen i hjemme og bortebane kommer heller ikke fram i studiet. Dette kunne vært interessant å se nærmere
+på i et senere studie for å kartlegge om de ulike spillestilene preger hjemme/borte-statistikken.
+Spillestilsmessig gjorde Tørum en endring når han overtok etter Høgmo. Det ble fokusert på «gammelt RBK-spill»
+med en 4-3-3 formasjon og jobbet mye med etablert angrepsspill. Under Tørums første høst (2006) gikk laget fra
+seier til seier og avanserte fra midt på tabellen til seriegull. Hvis målsjansene er et parameter på prestasjonen,
+skapte ikke laget mange sjanser denne høstsesongen, og det ble var heller ikke færre sjanser i mot (tvert i mot
+nesten 5 sjanser mot pr. kamp). Suksesshøsten 06 var derimot preget av svært høy effektivitet (32,5%), samtidig
+som motstanderne scorte på bare 14% (!) av sine sjanser. Denne effektiviteten kan skyldes stort fokus på etablert
+angrepsspill på siste 1/3-del av banen. Innlegg-innløp-avslutningsfasen var viktig i treningsarbeidet. Et annet
+kjennetegn denne høsten var mange dødballmål (Sappara på frispark og Iversen på corner/frispark). Sesongen
+etter datt effektiviteten og statistikken viser den samme sjanseskapingen, men lavere effektivitet. Laget skapte
+fortsatt mye dødballsjanser sammenlignet med de andre, noe som kan forklares med spillertyper som var gode i
+denne fasen. Servene til Sappara og luftstyrken til Iversen, Koppinen og Kvarme m.fl. kan være forklaringen på
+dette. Tørums periode var den imidlertid den defensivt svakeste perioden i dette studiet (sammen med Jönsson),
+målt i mål mot og sjanser mot.
+Perioden under Henriksen er på mange måter den mest usikre perioden ift å sammenligne med de andre. Den
+inneholder kun 10 seriekamper. Perioden på bare 10 kamper var preget av tette og sjansefattige oppgjør (2
+kamper i slutten av 2007 og 8 kamper i starten av 2008-sesongen). Det siste Tørum gjorde før han sluttet høsten
+2007 var å endre formasjonen fra 4-3-3 til en diamantformasjon 4-1-3-2, og dette videreførte Henriksen gjennom
+hele sin periode. Dette betydde en dreining i det defensive spillet, med mindre soneorientering og høyere press.
+Offensivt ble det mer fokus på overgangsspillet, og bruk av mellomrom gjennom en offensiv midtbanespiller.
+Disse faktorene var vesentlig for suksesskampene mot Valencia i Champions league, høsten 2007. Perioden var
+ellers preget av at laget skapte få sjanser, men hadde bra effektivitet (hele 27,9%). Laget slapp heller ikke til
+
+15
+
+mange sjanser eller mål, men også her utpreger statistikken seg med at motstanderne var svært effektiv (28,9%),
+og dette var nok med å prege resultatene under Henriksen.
+Før sesongen 2008 ble det klart at Erik Hamren skulle ta over laget, men han trente Aalborg, og kunne ikke tiltre
+før 1. juni. Likevel skulle han prege noe av vårsesongen da det hele tiden var en dialog mellom Henriksen og
+Hamren. Henriksen fikk frie tøyler, men var opptatt av å legge til rette for å skape en best mulig overgang for
+Hamren når han skulle ta over. Derfor ble det ikke store endringer i formasjonene umiddelbart når Hamren
+ankom Trondheim. Likevel ble det en klar endring på treningsfeltet. Hamren begynte umiddelbart å fokusere på
+defensiv struktur, offensiv balanse, lavere risikotaking i angrepsspillet og mer fokus på å skape et «trygt
+pasningsspill». Ballinnehavet (possession-andelen) økte betraktelig. Noe av det mest utpregede under Hamren
+var valgene i overgangsspillet. Færre kontringer skulle tas, og det var viktigere å ta vare på ballen enn å ta for stor
+risiko når vi vant ballen i spill. Dreiningen førte til at det straks ble skapt mindre sjanser etter kontringer (1 mindre
+pr. kamp enn under Henriksen), men flere etter etablert angrep og dødball. Laget la om formasjonen etter hvert
+og det ble spilt med 2 sentrale midtbanespillere som skulle gjøre det vanskeligere for motstander å bruke
+mellomrom, formasjonen 4-2-3-1 ble resepten resten av Hamren-perioden. I 2008 endte laget nede på en 5.plass,
+men dette kunne sett annerledes ut med bedre effektivitet. Laget skapte nemlig flere sjanser enn motstanderen i
+alle kampene (unntatt 4-0 tapet i Tromsø). Laget hadde en effektivitet på bare 18,4%, og her kan noe av
+forklaringen på at laget bare klatret fra 9. til 5. plass etter Hamren tok over.
+I forberedelsene til 2009-sesongen hadde laget blant annet som målsetting å bli mer effektiv (effektiviteten økte
+til 25% resten av perioden), samtidig som Hamren fikk mer tid til å terpe på sin filosofi. Laget begynte også å
+fokusere mer på det fysiske treningsarbeidet, og ansatte egen fysisk trener. Dette skulle bli en faktor som preget
+også det offensive spillet resten av Hamren-tiden. Tålmodighet ble nemlig et viktig ord, og en suksessfaktor i
+2009. Undersøkelsen tar ikke hensyn til kampforløp, og når i kampen laget skapte eller slapp til mål og sjanser.
+Den treneren som imidlertid var mest opptatt av dette var Erik Hamren. Laget under Hamren var et gjerrig lag, og
+slapp motstanderen til få sjanser i hele perioden (bare 4 i snitt). Laget slapp inn bare 0,9 mål pr kamp under
+Hamren. Hvis laget hadde ledelsen var det enda viktigere å unngå feil som kunne gi motstanderen mulighet til å
+komme tilbake. Det ble altså spilt lavrisikofotball helt til kampens slutt. Dette betydde i praksis det han selv kalte
+«play and move», altså holde ballen i laget og unngå å ta for stor risiko i angrepsspillet. Bare 25,5 prosent av
+sjansene mot (2,1 pr. kamp) var kontringer, og dette altså for et lag som for det meste har ballen mest og hvor
+motstanderen nettopp var mye opptatt av å kontre oss i senk, spesielt på Lerkendal. Begrepet «def i off» ble
+hyppig brukt også. Dette var et viktig angrepsprinsipp for Hamren (eller forsvarssprinsipp alt etter hvordan man
+ser det). Det betydde at når man angrep skulle man gjøre det samlet om involvere mange spillere på mindre
+områder, for å være i posisjon til å gjennvinne ballen hvis laget mistet den. Dette ble stadig repetert både på
+treningsfeltet og i forberedelse og evalueringsarbeidet (videomøter bl.a.) Samtidig var det i mange kamper en
+tålmodighetsprøve å få tre poeng. Hamren gjenntok uttallige ganger i pausepraten hvor viktig det var å være
+tålmodig, unngå defensive feil, og «spela på». Ordet «attityd» skulle prege RBK’s spill. Sesongen 2009 ble over
+halvparten av RBK’s mål scoret den siste halvtimen. 80% av kampene ble avgjort i løpet av det siste kvarteret.
+Hamren var altså den som på den ene siden hadde større fokus på defensiv struktur enn de andre trenerne i
+studiet, og på den andre siden jobbet mye med å være et dyktig angrepslag i form av å holde ballen i laget, ikke
+nødvendigvis skape mest mulig sjanser. Altså en mer gjennombruddsavventende spillestill enn de øvrige trenerne
+som er i større grad var gjennombruddshissig i sin filosofi. Dette førte til at motstanderen ofte var i bedre balanse
+når RBK ankom motstanderens mål. Statistikken viser at halvparten (48%) av sjansene laget skapte var mot
+etablert forsvar. Bare 25,5 prosent ble skapt etter kontringer. Sjansestatistikken totalt viser også at Hamren var
+den treneren med minst andel store sjanser (bare 24% av sjansene totalt var store sjanser). Under forgjengeren
+Henriksen var hele 33% av sjansene store sjanser. Forklaringen ligger trolig i mindre gjennombruddshissighet. Hvis
+
+16
+
+laget har en spillestil som skaper flere store sjanser, vil det trolig være større sannsynlighet for å lage mål, i
+forhold til lag og spillestil som skaper flere middels/små sjanser.
+Hamrens periode på 2 år viser en statistikk der laget tok 2,1 poeng pr. kamp, og endte med seriegull sesongen
+2009, samt halvparten av æren for seriegullet som Eggen sikret i 2010. Det er samtidig viktig å peke på at det ble
+brukt mye ressurser på å hente spillere i perioden under Hamren. Klubben satset hardt på å ta tilbake hegemoniet
+i Norsk fotball igjen, og man skulle «tilbake til Europa» og delta sammen med de store klubbene. Derfor ble det
+satt av mange penger til både å hente spillere, samt unngå å selge viktige spillere i denne perioden.
+En av de mest interessante endringene skjedde likevel da Eggen tok over midt i sesongen 2010, og
+sjanseskapingen økte med 1,5 målsjanse pr. kamp. Eggen begynte fra første treningsdag et helt annet fokus. Mye
+mer fokus på gjennombruddshissig fotball. Flere folk med i angrepsspillet, og mer fokus på å omsette
+overgangene i kontringer. Ballen skulle gå mer framover generelt. Dette førte til at laget skapte både flere sjanser
+(9,5 pr. kamp), og slapp motstanderen til noe flere sjanser (4,4 pr. kamp). Endringene førte også til et større antall
+kontringer og dermed skapte laget en tredjedel av sine sjanser etter kontring, mot Hamrens ¼-del (25,5%). Det
+ble skapt nesten en mer kontringssjanse pr. kamp (2,12,9). Økt risiko i angrepsspillet førte samtidig til at
+antallet kontringer mot økte, og motstanderen skapte 0,5 kontringssjanser mer pr. kamp. Laget varierte
+formasjonene, og spilte både 4-4-2 og 4-3-3. Mye av Hamrens terping på det defensive satt nok i blodet på
+spillerne, og kombinasjonen defensiv trygghet som Hamren hadde innført, og de offensive prinsippene Eggen
+jobbet med kan være noe av forklaringen til at perioden med Eggen ser statistisk best ut når man ser alle tallene
+totalt. Det er imidlertid interessant å se at perioden under Eggen faktisk er den beste i forhold til antall sjanser
+motstanderen skaper mot etablert forsvar er (1,2 sjanse pr. kamp), til tross for at dette ikke var særlig fokus på
+treningsfeltet.
+En annet interessant funn er 2011-sesongen, som for ble oppfattet som en skuffende sesong der laget endte på
+tredjeplass. Ingen annen periode i denne undersøkelsen har RBK skapt flere sjanser og mål enn under Jönsson. 2,3
+mål pr. kamp og 9,7 sjanse pr. kamp viser at det offensive spillet var sterkt i 2011-sesongen. Det er imidlertid også
+det regimet der motstanderen har fått sluppet til mest med 1,5 mål og 5,7 sjanser mot pr. kamp (det siste bare
+slått av Tørums periode med 5,9 målsjanser mot pr.kamp). Her kan mye av forklaringen ligge til at Jönssons
+periode er den hittil nest svakeste med bare 1,6 poeng pr. kamp. Noe av det mest utpregede ved Jönssonperioden er forsvarsspillet. I tillegg til at motstanderen skapte mange sjanser og mål sammenlignet med de andre,
+er det interessant å se at nesten halvparten av disse er etablerte angrep (45,3%). Motstanderen skapte 2,6 sjanse
+pr. kamp når RBK lå i etablert forsvar, noe som er mer enn en fordobling fra Eggen-perioden. Det er også
+interessant i lys av at Jönsson har jobbet mye med det defensive på treningsfeltet i forhold til de andre (sett bort
+fra Hamren). Ser vi på angrepsfilosofien har Jönsson fokusert mest på etablert angrepsspill (oppspillsmønster og
+kombinasjonsspill). Antallet kontringssjanser har gått noe ned igjen etter Eggen-høsten fra 2,9 til 2,6 pr.kamp,
+men generelt ser vi ikke store endringer på angrepsspillet i statistikken isolert.
+Dødballene er ikke kommentert i særlig grad hittil. Dette mye pga. at fokuset på dødballer både offensivt og
+defensivt stort sett har vært det samme i hele perioden. Ansvaret for dødballer har i hele perioden vært under
+Trond Henriksen, og det har ikke vært variasjon i hvor mye det har vært jobbet med dødballspillet. Det er
+imidlertid viktig å belyse at dødballspillet er veldig avhengig av spillertyper. I perioder har laget hatt spillere som
+har vært svært gode til å slå presise dødballer, andre ganger mindre god. Det samme gjelder
+duellstyrke/luftstyrke foran mål. Det er også slik at antallet sjanser etter dødball preges av hvor mange dødballer
+laget har produsert. Dette sier selvfølgelig noe om angrepsspillet igjen, men antallet dødballer har ikke dette
+studiet gått inn på. Resultatene viser imidlertid at dødballsjansene ikke har variert i særlig stor grad, bortsett fra
+at det i Henriksen-perioden både ble skapt lite og sluppet til lite dødballsjanser, noe som heller ikke er spesielt når
+
+17
+
+det relativt sett var langt færre sjanser både for og mot i den perioden. Tørum-perioden og Jönsson-perioden har
+vært de beste periodene i antall dødballsjanser med hhv. 2,7 og 2,9 dødballsjanse pr. kamp. Perioden under
+Tørum var også den perioden med flest dødballsjanser mot RBK (2 pr. kamp).
+Sjanseperioden sammenlignet med andre
+På grunn av at analyser viser svært ulik prosentmessig fordeling av angrepstyper på målsjanser, mellom
+Champions-league, VM 2010 og Tippeligaen 2011 er det lite relevant å dra for tydelige sammenligninger mellom
+RBK sine tall og øvrig materiale. Likevel er det kanskje mest nærliggende å sammenligne seg med Norsk fotball. Vi
+ser at laget i perioder har hatt litt sammenfallende trender med Tippeligaens 2011-tall, mens det er klare avvik
+også. Generelt skaper RBK mer etter etablert angrep enn tippeligaen for øvrig, og har samtidig færre
+dødballsjanser enn snittet i serien.
+
+Konklusjon
+Det har vært en klar variasjon i RBK’s angrepsspill de siste årene. Ulike trenerfilosofier og spillestiler har preget
+spillet. Selv om mange andre faktorer også sannsynligvis har preget prestasjonene og resultatene, ser vi generelt
+en sammenheng mellom angrepsfilosofi og utført angrepsspill. Noen unntak er det imidlertid.
+
+18
+
+Litteraturliste
+-
+
+Olsen, Larsen, Semb. Effektiv fotball. Gyldendal, 1994
+
+-
+
+NIH, VG. Sjanseanalyse i Tippeligaen. 2011
+
+-
+
+Toppfotballsenterets VM-analyse 2010
+
+-
+
+Toppfotballsenterets analyser av Champions league 2009-2010
+
+-
+
+Olsen, Hauge. Spill effektiv fotball. Kagge forlag, 2011
+
+19
+
+

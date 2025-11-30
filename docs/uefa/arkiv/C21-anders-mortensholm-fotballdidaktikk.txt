@@ -1,0 +1,2339 @@
+Fotballdidaktikk
+UNDERVISNING I FOTBALL
+
+Av Anders Mortensholm
+
+Innholdsfortegnelse
+
+Innhold
+1.Innledning
+
+_____________________________________________________________________ 1
+
+2.Metode
+
+_____________________________________________________________________ 2
+
+2.1. Valg av metode ___________________________________________________________________________ 2
+2.2. Om litteraturstudier ________________________________________________________________________ 2
+2.3. Cochrane reviews _________________________________________________________________________ 2
+2.4. Mine litteratursøk __________________________________________________________________________ 2
+2.5. Svakheter ________________________________________________________________________________ 3
+3.Resultater
+
+_____________________________________________________________________ 4
+
+3.1. Hva er didaktikk? __________________________________________________________________________ 4
+3.1.1. Didaktikk handler om å undervise så de lærende lærer ________________________________________ 4
+3.1.2. Læringsbegrepet ______________________________________________________________________ 6
+3.2. Hva er fotball? ____________________________________________________________________________ 7
+3.2.1. Fotballspråket ________________________________________________________________________ 7
+3.2.2. Fotballhandlingsteorien og fotballspråket ___________________________________________________ 8
+3.2.3. Fotballteorien _________________________________________________________________________ 9
+3.3. Hvordan tilrettelegge for læring? _____________________________________________________________ 17
+3.3.1. Tilrettelegging for indre motivasjon _______________________________________________________ 18
+3.3.2. Tilrettelegging for gode læringssituasjoner _________________________________________________ 24
+3.4. Hvordan veilede spillerne til læring? __________________________________________________________ 31
+3.4.1. For å kunne veilede spillerne må man vite hva de kan og ikke kan ______________________________ 31
+3.4.2. Veiledning og fotballspillet ______________________________________________________________ 31
+3.4.3. Hva kan man veilede spillerne på? _______________________________________________________ 32
+3.4.4. Ulike metoder for å veilede spillerne ______________________________________________________ 33
+3.4.5. Valg av veiledningsmetoder ____________________________________________________________ 35
+3.4.6. Ulike typer tilbakemelding ______________________________________________________________ 36
+3.4.7. Tilbakemeldinger under stopp i spillet og underveis i spillet ____________________________________ 38
+3.4.8. Tilbakemeldinger ved hjelp av videobilder _________________________________________________ 39
+4. Diskusjon
+
+____________________________________________________________________ 40
+
+4.1. Hva er fotballdidaktikk og hvordan praktiseres god fotballdidaktikk? _________________________________ 40
+4.1.1. Fotballdidaktikk er undervisning i fotballspillet som tar utgangspunkt i læring som prosess ___________ 42
+
+Innholdsfortegnelse
+4.1.2. Hvordan kan fotballtreneren undervise i fotball på en måte som tar utgangspunkt i læring som prosess? 43
+4.1.3. Fotballdidaktikk er undervisning i fotballspillet som stimulerer spillerne til å være en aktiv lærende som
+pleier sin egen læringsprosess gjennom en indre motivasjon _______________________________________ 43
+4.1.4. Hvordan kan fotballtreneren bygge sin undervisning for å stimulere spillernes indre motivasjon? ______ 44
+4.1.5. Fotballdidaktikk er undervisning i fotballspillet gjennom å tilrettelegge for læringssituasjoner i fotball basert
+på kunnskap om fotballspillet ________________________________________________________________ 47
+4.1.6. Hvordan kan fotballtreneren tilrettelegge for læringssituasjoner i fotball basert på kunnskap om
+fotballspillet? _____________________________________________________________________________ 47
+4.1.7. Fotballdidaktikk er undervisning i fotballspillet gjennom veiledning av spillerne i læringssituasjonene i
+fotball basert på kunnskap om fotballspillet ______________________________________________________ 51
+4.1.8. Hvordan kan fotballtreneren veilede spillerne til å lære i læringssituasjonene i fotball basert på kunnskap
+om fotballspillet? __________________________________________________________________________ 52
+5. Konklusjon
+
+____________________________________________________________________ 57
+
+6. Litteraturliste
+
+____________________________________________________________________ 58
+
+7. Sammendrag
+
+____________________________________________________________________ 61
+
+S. 01
+
+1.Innledning
+
+1.Innledning
+Dette er en tekst om fotballdidaktikk. Didaktikk kan best beskrives som undervisningslære. Dermed, som undertittelen
+peker på, skal denne teksten ta for seg hvordan man kan gå fram for å undervise i fotball. Teksten er rettet mot
+fotballtrenerens praktiske hverdag, for som didaktikkprofessor Wolfgang Klafki understreker er didaktikk en vitenskap
+om praksis og for praksis (Ronglan, 2008).
+Men fotballdidaktikk er et fremmedord. Gjør man et søk på fotballdidaktikk i google får man ett treff og det er Tore
+Fredlunds UEFA A-lisensbesvarelse hvor han nevner at fotballtreneren må ha en fotballdidaktisk forståelse for å
+skape læring blant spillerne.
+Didaktikk som fagfelt har rukket å bli voksent, med fagdidaktikk innen flere fagfelt som matematikkdidaktikk,
+kroppsøvningsdidaktikk, naturfagsdidaktikk, norskdidaktikk, osv. Men ved Fredlunds ene bisetning stopper omtalen av
+fotballdidaktikk helt opp. Dette til tross for at fotballspillet er på vei til å vokse frem som et eget fagfelt.
+Likevel er det grunn til å tro at det finnes noen sannheter der ute om hvordan man underviser i fotball på best mulig
+måte. Både på trenerkurs og i akademia møter man litteratur om læringsteorier, treningsprinsipper, periodisering,
+feedbackstrategier, funksjonalitetsskala og læringsmiljø. For gjennom fagfelt som treningslære, idrettspsykologi,
+pedagogikk m.fl vet man allerede noen ting om hva som lønner seg å gjøre hvis man skal trene et fotballag, eller
+undervise i fotball som det omtales i denne teksten.
+Kanskje kan denne teksten bidra til å samle det vi vet om fotball og didaktikk til en samlet fotballdidaktikk.
+Problemstillingen som driver oss gjennom denne teksten er «Hva er fotballdidaktikk og hvordan praktiseres god
+fotballdidaktikk?»
+
+S. 02
+
+2. Metode
+
+2. Metode
+2.1. Valg av metode
+På et tidspunkt hvor ingen kunnskap er samlet under fanen «fotballdidaktikk» er det en naturlig start å finne frem til
+eksisterende kunnskap fra andre fagområder som hører hjemme under denne fanen. Til dette er det en vitenskapelig
+metode som skiller seg ut som bedre enn de andre og det er litteraturstudie.
+
+2.2. Om litteraturstudier
+I litteraturstudier forsøker man å identifisere, vurdere, velge og organisere all forskning av høy kvalitet relevant for et
+bestemt spørsmål (Higgins & Green, 2011) .
+Litteraturstudier skiller seg fra andre vitenskapelige metoder hvor man samler data gjennom observasjon eller
+eksperimenter og tester hypoteser. I litteraturstudier benytter man seg av systematiske litteratursøk som er
+planmessing, begrunnet, dokumentert og etterprøvbart (Haraldstad & Christophersen, 2004).
+Vitenskapelige artikler som benytter litteraturstudier (kalt reviews lengre nede på denne siden) har også en annen
+oppbygning enn andre vitenskapelige besvarelser. I andre artikler har man innledning med begrunnelse for valg av
+oppgave og problemstillinger, teori, metode, resultater, diskusjon og konklusjon. I litteraturstudier bygger man ofte opp
+teksten på følgende måte; bakgrunn, mål (problemstillinger), metoder, resultater, diskusjon og konklusjon (Higgins &
+Green, 2011). Derfor har jeg valgt å bygge opp denne besvarelsen i tråd med det som er vanlig for litteraturstudier.
+
+2.3. Cochrane reviews
+Det er flere former for litteraturstudier og innenfor bl.a. medisinsk forskning er «Cochrane reviews» en anerkjent
+metode. Metoden følger disse åtte stegene (ibid):
+1. Definere problemstillingen og søkeord som skal brukes i litteratursøket
+2. Søke etter litteratur
+3. Velge ut litteratur
+4. Vurdere validiteten og reliabiliteten til litteraturen
+5. Analysere litteraturen
+6. Rapportere om påliteligheten og reliabiliteten til litteraturen
+7. Presentere resultatene
+8. Tolke resultatene og trekke konklusjoner
+
+2.4. Mine litteratursøk
+Mine første litteratursøk var å henvende meg til ansatte på Norges Idrettshøskole som jobber med idrettsdidaktikk for
+å bli pekt i retning av relevant litteratur. Mitt andre litteratursøk var å bruke den akademiske søkemotoren Bibsys
+Brage som søker frem vitenskapelige artikler med relevans til mine søkeord. Her søkte jeg på fotballdidaktikk,
+
+2. Metode
+
+S. 03
+
+idrettsdidaktikk, didaktikk og football theory. Videre brukte jeg søkemotoren google.com hvor jeg brukte søkeordene
+fotballdidaktikk, idrettsdidaktikk, didaktikk, pedagogikk, metodikk, treningsmetodikk, football theory, football action
+theory, teaching games for understanding og Mosston`s teaching styles.
+I tillegg benyttet jeg meg av litteratur fra trenerkurs jeg har deltatt på tidligere og litteratur jeg har samlet på etter åtte
+år med høgskole- og universitetsutdanning. Det var gjennom disse bøkene jeg fant mesteparten av den litteraturen
+som har blitt brukt i denne teksten. Primært gjelder dette bøker fra UEFA B-lisens, bachelorgrad i kommunikasjon ved
+Høgskolen i Agder, bachelorgrad i trenerrollen fra Norges Idrettshøgskole, mastergrad i coaching fra Norges
+Idrettshøgskole, Basic course in periodisation, advanced course in periodisation og course in football braining, hvor de
+tre sistnevnte kursene er i regi World Football Academy.
+
+2.5. Svakheter
+Når man søker etter litteratur blir søkerens valg av søk og søkeord subjektive, noe som kan føre til at valg av andre
+søkeord eller andre søkemotorer kunne fått frem annen og kanskje bedre litteratur.
+Selv om didaktikk er et sterkt fagfelt med mye vitenskapelig litteratur,
+er fotball som fagfelt veldig nytt. Derfor er det lite vitenskapelig
+litteratur om fotball, men mye subjektiv og anekdotisk litteratur.
+Påliteligheten til fotballitteraturen vil derfor være svakere enn om man
+hadde søkt på litteratur på et mer vitenskapelig dokumentert fagfelt.
+Martens (1987) «Deegrees of Knowledge» (DK) skala kan illustrere
+dette. På toppen troner vitenskapelig metode som den beste kilden til
+sikker kunnskap. Det meste av litteratur om fotballtrening ligger fortsatt
+på nedre del av skalaen til Martens. Men det har vært en ambisjon å
+finne litteratur fra høyest mulig nivå i DK-skalaen gjennom arbeidet
+med denne litteraturstudien.
+
+Figur 1. Martens skala for Degrees of Knowledge (DK).
+
+S. 04
+
+3.Resultater
+
+3.Resultater
+På de neste sidene skal vi se nærmere på hva litteraturen sier om problemstillingen «Hva er fotballdidaktikk og
+hvordan praktiseres god fotballdidaktikk?». For å finne ut av dette skal vi svare på disse fire spørsmålene:
+-
+
+Hva er didaktikk?
+
+-
+
+Hva er fotball?
+
+-
+
+Hvordan tilrettelegge for læring i fotballaktiviteten?
+
+-
+
+Hvordan veilede spillerne til læring i fotballaktiviteten?
+
+Denne måten å presentere resultatene på er en konsekvens av resultatenes logiske fordeling og det teoretiske
+bakteppet resultatene støtter opp under. For i følge Ronglan handler undervisning i lagspill om to grunnleggende
+forhold; tilrettelegging og veiledning (Ronglan, 2008). Det betyr at man kan stimulere de lærendes læringsprosess
+gjennom 1) å endre rammebetingelser for læringssituasjonene (tilrettelegge) og 2) å bidra i kommunikasjonen under
+veis i læringssituasjonene (veilede).
+
+3.1. Hva er didaktikk?
+Didaktikk er en del av pedagogikkfaget. Pedagogikk kan defineres som læren om oppdragelse og undervisning
+(Lyngsnes & Rismark, 1999). Didaktikk er hovedkjernen innenfor pedagogikkfaget og kan defineres som
+undervisningslære. Didaktikk handler om planlegging, gjennomføring og evaluering av undervisning (ibid).
+
+3.1.1. Didaktikk handler om å undervise så de lærende lærer
+Didaktikken illustreres ofte av en modell som kalles den didaktiske trekanten (se modell på neste side). Modellen viser
+at det er tre sentrale relasjoner i den didaktiske situasjonen. Disse relasjonene illustreres i modellen gjennom tre akser
+kalt kommunikasjonsaksen (mellom lærer og elev), representasjonsaksen (mellom lærer og innhold) og
+erfaringsaksen (mellom elev og innhold).
+Representasjonsaksen fremhever relasjonen mellom lærer og innhold. For at undervisningen skal skape læring må
+læreren kunne presentere innholdet på en forståelig måte, og for å klare det må læreren ha inngående kjennskap til
+faget. Kommunikasjonsaksen fremhever forholdet mellom lærer og elev i undervisningen. For at undervisningen skal
+skape læring må læreren evne å veilede spilleren til å lære av undervisningen. Erfaringsaksen fremhever elevens
+forhold til innholdet. Eleven må gjennom egenaktivitet erfare hva faget er for noe. Alle disse relasjonene påvirker den
+didaktiske prosessen, undervisningen (ibid).
+
+3.Resultater
+
+S. 05
+
+Figur 2. Den didaktiske trekanten (Lyngsnes & Rismark, 1999).
+Didaktikk handler derfor om å undervise på en slik måte at de lærende lærer. I boka Lagspill, læring og ledelse (2008)
+peker Ronglan på at trenerens bestrebelser aldri skaper noe læringsresultat i seg selv. For det er ikke trenerens
+undervisning som gir læringsresultater, men deltakernes læringsaktivitet.
+John Dewey var en amerikansk filosof, pedagog og psykolog som spissformulerte forholdet mellom undervisning og
+læring slik:
+«Å undervise kan sammenliknes med å selge varer. Ingen kan selge hvis det ikke er noen som kjøper. Vi ville bare le
+av en kjøpmann som sa at han hadde solgt et stort kvantum varer selv om det ikke var noen som hadde kjøpt. Men
+muligens finnes det lærere som tror at de har gjort et godt dagsverk undervisning uansett om noen har lært noe eller
+ei. Det er nøyaktig det samme samsvaret mellom undervisning og læring som mellom kjøp og salg (Lyngsnes &
+Rismark, 1999).
+Her mente Dewey at man har ikke undervist hvis ingen har lært. I dag er det mer vanlig å se på dette forholdet slik at
+selv om elevene ikke har lært noe etter endt undervisning, så har det likevel foregått undervisning fra lærerens side.
+Så lenge intensjonen med undervisningen er å bidra til læring, kan denne aktiviteten kalles undervisning (ibid).
+Undervisning kan altså sier å være noe som gjennomføres av noen med bevisst valgte metoder og med et bevisst
+valgt innhold med en forventning om at noen skal lære (ibid). Undervisning er uløselig knyttet til læring siden
+
+3.Resultater
+
+S. 06
+
+undervisning iverksettes for at noen skal lære seg noe. For å kunne planlegge og gjennomføre undervisning som fører
+til best mulig læring og mest mulig læring blir det derfor helt nødvendig å sette seg inn i hvordan læring skjer (ibid).
+
+3.1.2. Læringsbegrepet
+Den nevnte amerikanske filosofen, psykologen og pedagogen John Dewey er kjent gjennom slagordet learning by
+doing. Han mente at tenking, handling, læring og erfaring er flere sider av samme sak. For Dewey var dermed læring
+det samme som erfaringslæring (Ronglan, 2008). Det vil si at vi lærer gjennom å være i aktiviteten og gjøre oss
+erfaringer. Pedagogen Ivar Bjørgen understreker at læring alltid krever egenaktivitet fra den lærende. For å lære må
+den lærende selv ta inn inntrykk, bearbeide disse og koble inntrykkene opp mot sine tidligere erfaringer (Bjørgen,
+2000). For at spilleren skal kunne lære må spilleren være innstilt på å lære. Læring krever en aktiv lærende, med
+andre ord energi og drivkraft (Ronglan, 2016). Læring forutsetter en interesse, en motivasjon og en lyst til å prøve ut
+(ibid).
+Så en fotballtrener kan ikke tre sin kunnskap ned over hodet på en spiller. Spilleren må selv velge å lære gjennom å
+være i aktiviteten, erfare, lytte, observere, vurdere, prøve ut og reflektere.
+Ivar Bjørgen (1994) mener at mange definisjoner av læring handler kun om læring som resultat av læringsprosessen,
+og ikke læring som prosess. En mye brukt definisjon av læring er «varig endring av adferd», noe som peker på
+resultatet av læringsprosessen. Slike definisjoner kaller han amputert. Bjørgen mener at vi også trenger en definisjon
+av læringsprosessen som prosess. For å gjøre dette presenterer han det han kaller en helhetlig forståelse av
+læringsprosessen og en amputert forståelse av læringsprosessen.
+
+Amputert
+
+Helhetlig
+
+1. Få gitt et problem
+
+1. Oppdage et problem
+
+2. Akseptere det midlertidig
+
+2. Akseptere det på alvor
+
+3. Arbeide med sikte på eksamen
+
+3. Arbeide realistisk for livet
+
+4. Lage struktur i stoffet
+
+4. Knytte det til egne erfaringer
+
+5. Avslutte med eksamen
+
+5. Prøve ut, anvende i praksis
+
+Figur 3. Forskjell på en amputert og en helhetlig forståelse av læringsprosessen.
+En helthetlig forståelse av læringsprosessen kjennetegnes ved at man ikke ser på læringen som et klart tidsforløp
+med start- og stoppunkt, men som læringsspiraler uten noen endelig avslutning (ibid). I figur 3 er det siste punktet i
+den helhetlige oppfattelsen at man man prøver ut og anvender i praksis. Dette kan helt naturlig lede til at man
+oppdager et nytt problem og er tilbake til det første punktet i samme tabell.
+På alle disse fem stadiene i den helhetlige forståelsen av læringsprosessen kan treneren komme inn og hjelpe
+spilleren med å oppdage et problem, forankre det og jobbe med det (Ronglan, 2008). Men det er den lærende
+(spilleren) som styrer læringen. Det er først når spilleren oppdager et problem, aksepterer det på alvor, arbeider
+
+S. 07
+
+3.Resultater
+
+realistisk for livet, knytter det til egne erfaringer og prøver det ut i praksis at læringen skjer. Didaktikken og
+undervisningen er ment til å stimulere de lærende i denne læringsprosessen.
+
+3.2. Hva er fotball?
+For å kunne si noe presist om hva fotball er blir det nødvendig å ha et presist fotballspråk uten gråsoner og
+misforståelser.
+
+3.2.1. Fotballspråket
+Fotballspillet snakkes om både av spillere og trenere i tillegg til hvermansen i gaten. Trenerne og spillerne vet hva de
+snakker om og er tilsynelatende eksperter i fotballspråket. Men dette språket er ikke alltid like entydig,
+sammenhengende, tydelig og anvendelig (Verheijen, 2014). Derfor skjer det ofte at trenere bruker flere forskjellige ord
+til å omtale det samme, eller at samme ord har flere ulike betydninger.
+«Løpsteknikk er helt avgjørende i fotball»
+«Teknikk er grunnmuren til enhver fotballspiller»
+«Mental tøffhet er kjernen i fotballspillet»
+«Viktigst av alt er at spillerne er hurtige»
+Figur 4. Liste med fotballuttrykk som fotballtrenere bruker (Verheijen, 2014).
+En slik utydelighet i språket er ikke nødvendigvis et problem for journalister og supportere, men det kan skape
+utfordringer når en trener skal undervise sine spillere. Det én opplever som mangel på innsats kan en annen oppleve
+som mangel på aggressivitet, en tredje oppleve som mangel på utholdenhet og en fjerde oppleve som mangel på
+konsentrasjon, for eksempel. Når en trener bruker slike uttrykk i sin undervisning er det derfor ikke nødvendigivis
+åpenbart for spilleren hva han kan gjøre for å hjelpe laget sitt til å vinne kampen.
+En annen utfordring med fotballspråket er at fotball ofte henter inn ord og uttrykk fra andre fagområder. Innenfor
+psykologien kan man snakke om angst, spenning og mental styrke. Men ingen av disse ordene beskriver
+fotballhandlinger du finner igjen i kampen, noe som kan føre til misforståelser når man bruker disse ordene om en
+fotballkamp. Hvis en spiller får høre at han må vise mer selvtillit sier det fortsatt lite om hva han kan gjøre for å endre
+fotballhandlingene sine for å hjelpe laget med å vinne kampen. Og hentet fra et annet fagfelt er det heller ikke uvanlig
+at man snakker om utholdenhet og koordinasjon i fotball, som er flere eksempler på uttrykk som ikke beskriver
+fotballhandlinger du finner i kampen. Får en spiller høre at han må utvilke koordinasjonen sin, så er det ikke åpenbart
+hva slags treningsarbeid spilleren må gjøre.
+Selvfølgelig kan fotballtrenere lære mye fra andre fagområder, men man må alltid bruke fotballkampen og fotballspillet
+som startpunkt for læringsprosesser i fotball (Opjordsmoen, 2016). Og siden fotballspillet er likt over hele verden er
+det de samme fotballhandlingene som utgjør fotballspillet over hele verden. Så siden spiller er universelt skulle man
+kanskje forvente at beskrivelsen av spillet også var universelt, og at alle verdens fotballtrenere praktiserte med
+bakgrunn i en universell beskrivelse av fotballspillet – en universell fotballteori. I denne universelle fotballteorien måtte
+
+3.Resultater
+
+S. 08
+
+man hatt en felles forståelse av hvilke ord og uttrykk man bruker for å snakke om fotballkampen og en felles referanse
+på hvordan man bryter ned og analyserer fotballspillet (Verheijen, 2014). Dette ville gjort kommunikasjon om
+fotballspillet og læring i fotballspillet mye enklere, siden språket ikke lenger ville vært noen hindring.
+En fotballtrener forstår ofte godt selv hva han mener med de ordene han bruker. Men det er ikke sikkert at den han
+snakker med bruker samme definisjoner som seg selv. Bare når alle i samtalen bruker de samme definisjonene vil det
+være mulig å ha en dyptpløyende samtale om fotballspillet. Dersom man ikke løser dette språkproblemer vil fotballfolk
+for alltid snakke forbi hverandre, kanskje til og med uten å være klar over det selv (ibid).
+
+3.2.2. Fotballhandlingsteorien og fotballspråket
+I 2004 ga den nederlandske idrettsfilosofen Jan Tamboer ut en bok kalt Voetballtheorie (Fotballteori) sammen med to
+ansatte i det nederlandske fotballforbundet, Bert van Lingen og Raymond Verheijen. Dette tankegodset har blitt
+videreutviklet i Raymond Verheijens bok Football Periodisation (2014). I disse bøkene presenteres Football Action
+Theory, eller fotballhandlingsteorien som det kan oversettes til. Dette er en teori om fotball og fotballhandlinger som
+etterstreber å bruke et presist fotballspråk.
+
+Fotballhandlinger
+
+Annet
+
+Å presse
+
+Aggressivitet
+
+Å overlappe
+
+Initiativ
+
+Å gjenvinne
+
+Innsats
+
+Figur 5. Fotballhandlinger presenteres som verb, ikke som generelle og kontekstløse uttrykk.
+Fra et fotballhandlingsteoretisk ståsted kan man si at fotball er en rekke handlinger. Sentring er en handling mellom en
+fotballspiller, en ball, en medspiller og en eller flere motspillere. Pressing er en handling mellom en forsvarsspiller og
+en ballfører. Med dette synet kan man si at hovedmålet med fotballtrening er å forbedre fotballhandlinger.
+Fotballhandlingsteorien hevder at det blir tydeligere og enklere å analysere fotball gjennom fotballhandlinger enn med
+diffuse og kontekstløse uttrykk som teknikk, utholdenhet og mentalitet. Fordi det en person oppfatter som mangel på
+aggressivitet vil en annen person kanskje oppfatte som mangel på innsats. Dersom man ikke bruker
+fotballhandlingsord kan man forklare en tapt fotballkamp gjennom ord som mangel på selvtillit og dårlig konsentrasjon.
+Men hvordan drar man tilbake til treningsfeltet for å trene på selvtillit og konsentrasjon?
+I et tenkt scenario kommer spissen ofte alene med keeper, men ender opp med å skyte ballen midt på keeperen.
+Dersom man velger å bruke kontekstløse ord kan man si at spissen har dårlig selvtillit, har angst, er ufokusert i
+skuddøyeblikket, er redd for å mislykkes, er anspent eller liknende. For å håndtere dette kan spilleren for eksempel bli
+sendt til en idrettspsykolog eller begynne med yoga. Spørsmålet er om det vil gjøre spissen i stand til å score alene
+med keeper neste gang. Alternativt kan fotballtreneren utelukkende bruke fotballhandlingsord og si at spissen scorer
+ikke alene med keeper fordi han skyter ballen midt på keeperen. Deretter lager man treningsøkter hvor spissen ofte
+kommer alene med keeper, hvorpå treneren veileder spilleren til å skyte ballen forbi keeperen og i mål. Gjennom
+
+S. 09
+
+3.Resultater
+
+mange repetisjoner i denne spillsituasjonen og tydelig veiledning på hvordan man skyter ballen forbi keeperen og i
+mål kan dette være en måte å øke sannsynligheten for at spissen scorer alene mot keeper neste gang. I dette banale
+eksempelet illustreres hvordan språkbruken kan ende opp med å påvirke hvordan vi trener.
+I et annet scenario sliter høyrevingen med å returløpe og konsentrere i midtbaneleddet når laget omstiller fra angrep til
+forsvar. Høyrevingen er flink til å fylle denne oppgaven de første 60 minuttene av kampen, men har store
+vanskeligheter med å fylle oppgaven de siste 30 minuttene av kampen. Avhengig av språket man bruker kan man si
+at høyrevingen enten mangler utholdenhet, eller at han sliter med å returløpe og komprimere i midtbaneleddet etter
+omstilling fra angrep til forsvar i de siste 30 minuttene av kampen. Med et kontekstløst ord som utholdenhet er det kort
+vei til isolert løpetrening, sykling eller svømming som kur for å få vingen til å øke sin utholdenhet. Men når treneren
+velger å bruke fotballhandlingsord kan man løse utfordringen i en fotballkontekst gjennom å spille fotballkamper på
+treningen. For eksempel kan man spille kamp helt til høyrevingen ikke klarer å returløpe og komprimere i
+midtbaneleddet etter overgang fra angrep til forsvar lenger. Fra derfra spiller man noen minutter til mens treneren
+veileder spilleren til å returløpe og komprimere i midtbaneleddet etter overgang fra angrep til forsvar. På neste trening
+vil denne øvelsen vare enda noen minutter lengre. Høyrevingens kropp vil etter hvert tilpasse seg de lengre kampene
+og ved å repetere dette mønsteret vil høyrevingen til slutt være i stand til å fylle oppgaven sin i samfulle 90 minutter
+(ibid).
+
+3.2.3. Fotballteorien
+Ser vi på fotballhandlingsordene i figur 5 på forrige side ser vi at ordene er listet opp tilfeldig og ikke har noen
+sammenheng. I noen tilfeller handler ordene om den individuelle spilleren, mens andre steder handler det om laget
+som helhet. Listen i figur 5 mangler struktur. Derfor er neste steg å systematisere fotballhandlingsordene i en logisk
+struktur som utgjør en universell fotballteori (ibid).
+3.2.3.1. Fotballspillet deles inn i lagsoppgaver
+Siden fotball er en lagidrett gir det mening å begynne med å strukturere oppgavene til laget som helhet først. Det er
+tross alt bare et lag som kan oppnå målet med fotballspillet, nemlig å vinne fotballkampen. Og når to lag spiller med
+én ball er det logisk at bare ett av disse lagene er i besittelse av ballen til enhver tid. Så når et lag er i besittelse av
+ballen faller alle lagets fotballhandlinger under lagsfunksjonen «å angripe» ettersom dette er hovedintensjonen til laget
+som har ballen. For laget som ikke har ballen er intensjonen å forsvare og alle fotballhandlinger på dette laget
+defineres under lagsfunksjonen «å forsvare». Hver gang ballen vinnes av et lag eller mistes av et lag må lagene
+omstille seg fra å angripe til å forsvare eller fra å forsvare til angripe. I fotballteorien kalles dette å omstille. Angripe,
+forsvare og omstille er de tre lagsfunksjonene til et fotballag (ibid).
+3.2.3.2. Lagsoppgavene deles inn i spillfaser
+Å angripe er en lagsfunksjon som omtaler alle fotballhandlinger for et lag som er i ballbesittelse. En av
+fotballhandlingene under «å angripe» er å score. Å angripe starter ofte med en oppbyggende fase hvor man forsøker
+å spille seg fremover på banen for ved en fremtidig spillsituasjon kunne score mål. Denne fasen kalles i fotballteorien
+for «å bygge opp». Den andre angrepsfasen i fotballteorien kalles for «å score».
+
+3.Resultater
+
+S. 10
+
+Fotballhandlingsord i fasen «bygge opp» kan eksempelvis være pumpe, vri, overlappe, sentre og kaste. Mens
+fotballhandlingsord for fasen for å score mål kan være skyte, hoppe over, legge seg på blindside og frigjøre seg. En
+slik liste vil selvfølgelig aldri bli helt komplett. Og en fotballhandling som for eksempel å heade er ikke spesifikk for
+bare en av fasene. Men ved å sortere spillet inn i disse fasene gir også fotballhandlingsordene mer mening (ibid).
+
+Figur 6. Innenfor lagsfunkjonen «angripe» er det to lagsoppgaver: bygge opp og score mål.
+Score mål er en komponent av lagsfunksjonen angripe og gjelder for hele laget, ikke bare spillerne lengst frem på
+banen. Derfor kalles dette en lagsoppgave i fotballteorien (ibid).
+Å forsvare er lagsfunksjonen når det andre laget er i besittelse av ballen. Det er ikke målvaktens ansvar å forsvare,
+men hele lagets oppgave. Å forsvare er delt inn to faser, slik som å angripe; forstyrre oppbyggingen og hindre mål
+(ibid). Fotballhandlinger som hører hjemme under forsvare er takle, falle av, komprimere, blokkere, heade, pumpe og
+markere.
+
+3.Resultater
+
+S. 11
+
+Figur 7. Innenfor lagsfunksjonen forsvare er det to lagsoppgaver: hindre oppbygging og hindre mål.
+Øyeblikket hvor ballen er vunnet eller tapt kalles å omstille (ibid). Ofte er begge lagene uorganiserte i dette øyeblikket
+ettersom de går fra å angripe til å forsvare eller motsatt på noen få sekunder. Når det ene laget er i fasen for å bygge
+opp spillet og det andre laget vinner ball ved å forstyrre denne oppbyggingen oppstår en omstillingssituasjon hvor
+begge lag umiddelbart endrer lagsfunksjon og derigjennom lagsoppgaver.
+
+Figur 8. Lagsfunksjoner og lagsoppgaver i fotball (Verheijen, 2014).
+
+3.Resultater
+
+S. 12
+3.2.3.2.1. Norges Fotballforbunds spillemodell
+
+Norges Fotballforbund benytter en liknende modell som tar utgangspunkt i spillfaser (Grøttland, 2016).
+
+Figur 9. Norges Fotballforbunds kategorisering av spillet, kalt spillemodell. (Grøttland, 2016).
+Norges Fotballforbund har delt angrepsspill inn i to faser: etablert og kontring. Innenfor etablert angrepsspill har man
+en bearbeidingsfase hvor man ønsker å ødelegge forsvarsstrukturen i motstanderlagets presseledd slik at man kan gå
+inn i neste fase hvor man går inn i prioriterte rom. Prioritrerte rom er bakrom og mellomrom. Når man har kommet seg
+inn i prioriterte rom går man inn i siste angrepsfase hvor man prøver å score mål. I kontringsspill hopper man over
+bearbeidingsfasen siden motstanderlaget allerede har en viss ubalanse og går rett inn i fasene for inn i prioriterte rom
+og score mål. Forsvarsspillet er også delt inn i etablert og kontring. I den første forsvarsfasen ønsker man å gjenvinne
+eller presse for å vinne ball. I den neste forsvarsfasen ønsker man å hindre motstanderne å komme inn i prioriterte
+rom, definert som mellomrom og bakrom. Siste forsvarsfase er hindre mål. I kontringsspill er man allerede tatt i
+ubalanse og går derfor inn i fasen for å hindre tilgang til prioriterte rom eller hindre mål (Grøttland, 2016).
+3.2.3.2.2. Spilleprinsippmodellen
+I norsk fotballitteratur er spilleprinsippmodellen en mye brukt modell som er ment å bidra til å forstå fotballspillets
+egenart. Spilleprinsippmodellen stammer opprinnelig fra England, men ble modifisert av Olsen, Larsen og Semb i
+1994 i boka Effektiv fotball.
+
+S. 13
+
+3.Resultater
+
+Figur 10. Spilleprinsippmodellen laget av Olsen, Larsen og Semb slik den er presentert i Bergo, et al. (2002).
+Spilleprinsippmodellen deler fotballspillet inn i angrep og forsvar. Det viktigste i angrepsspill er å score mål og for å
+score mål må man oppnå gjennomrudd. For å skape gjennomrbudd må man skape og utnytte rom. Og for å skape og
+utnytte rom kan man benytte seg av spilleprinsippene bevegelse, dybde og bredde.
+I forsvarsspill skal man både forsøke å vinne ballen og hindre mål. For å gjøre dette må man hindre gjennombrudd.
+For å hindre gjennombrudd må man hindre rom. Og for å hindre rom kan man benytte seg av spilleprinsippene
+balanse, dybde og konsentrering (Bergo, et al., 2002).
+3.2.3.3. Fotballhandlingene kommuniserer med hverandre og blir til samhandling
+Samtidig som man kan angripe, omstille og forsvare, kan man også snakke, tenke, peke og kommunisere med
+kroppsspråk og løp. Dette er også fotballhandlinger.
+Det gir lite mening for en spiss å presse midtstopperne i oppbyggingen dersom alle medspillerne hans er på egen
+banehalvdel. En slik enmannsaksjon har ofte lite effekt siden motstanderlaget har mange spillpunkter og muligheter til
+å spille seg forbi den ensomt pressende spissen. Bare når spissens press følges opp av medspillerne kan man få nok
+press til å vinne ball. Et annet eksempel er offsidefellen, som kan være svært effektiv hvis medspillerne samhandler,
+men særdeles ineffektivt hvis medspillerne ikke samhandler. I mange spillsituasjoner vil det være riktig av
+midtstopperen å falle av for å beskytte bakrommet, men når resten av backfireren blir stående kan en slik
+fotballhandling bli feil. Så siden fotball er et lagspill må fotball først beskrives med fotballhandlinger på lagsnivå før
+man ser på de individuelle spillernes bidrag. For som disse to eksemplene illustrerer så kan elleve individuelt gode
+fotballspillere fortsatt unngå å danne et godt fotballag. Bare når samhandlingen mellom fotballhandlingene til
+medspillerne er fininnstilt kan man spille som et godt lag og være effektive. Denne koordineringen av individuelle
+fotballhandlinger kalles kommunikasjon (Verheijen, 2014).
+
+3.Resultater
+
+S. 14
+
+Fotballspillere kommuniserer verbalt med hverandre gjennom å rope uttrykk som mann i rygg, vri, fall av, nå, her, m.fl.
+Med denne verbalkommunikasjonen kan en spiller hjelpe sin medspiller gjennom sine fotballhandlinger. Spillere kan
+også koordinere sine fotballhandlinger med nonverbal kommunikasjon gjennom å gestikulere, gå på løp, peke, justere
+kroppsstillingen, m.fl. Denne kommunikasjonen tillater spillerne å forstå hverandre, tolke hverandres fotballhandlinger
+for så å finjustere sin egen fotballhandling i forhold til dette.
+Selv om man har en spiller med god pasningsferdighet og en medspiller som er god på å frigjøre seg vil det ikke si at
+pasningen mellom disse to spillerne vil være vellykket. Bare når koordineringen mellom pasningen og frigjøringen
+finjusteres kan pasningen være vellykket og laget beholder ballbesittelse, som illustrert i figur 11.
+
+Figur 11. Samhandlingen mellom medspillere finjusteres basert på verbal og nonverbal kommunikasjon (Verheijen,
+2014).
+Når spillere har spilt sammen lenge blir denne kommunikasjonen automatisert. Medspillerne vet hvem som ønsker å
+få pasninger i rom og hvem som ønsker å få pasninger på fot, for eksempel. Jo lengre disse spillerne spiller sammen,
+jo mer blir denne kommunikasjonen nonverbal (ibid). Med andre ord blir kommunikasjonen mer og mer kamuflert og
+skjult for motstanderlaget. For eksempel kan en hard kortpasning være en nonverbal kommunikasjon om at
+ballmottakeren er i ferd med å få press på seg. Mens i andre situasjoner kan en hard kortpasning bety at spilleren ikke
+skal stoppe ballen, men la den gå forbi seg siden pasningen er tilsiktet en annen medspiller. Dette er eksempler på
+samhandling på høyt nivå og er typisk for de beste fotballagene (ibid). Som en konsekvens av at kommunikasjonen
+innad i laget er så finjustert vil det være lite feilkommunikasjon og laget vil gjøre færre feil. Som lag vil de miste
+ballbesittelse sjeldnere og vinne ballbesittelse oftere. Med andre ord er kommunikasjon utgangspunktet for enhver
+spillestil (ibid).
+3.2.3.4. Samhandling er kommunikasjon mellom spillernes spilleforståelse
+Når man trener på å bygge opp spillet kan en spiller frigjøre seg og en annen sentre ballen til ham. For å klare dette
+må begge spillerne bruke sin individuelle spilleforståelse (ibid). Spilleforståelse er ordet man bruker for å beskrive
+
+3.Resultater
+
+S. 15
+
+spillerens forståelse av hvordan han kan løse spillsituasjonen best mulig basert på den informasjonen som har blitt
+kommunisert verbalt og nonverbalt til ham. For at disse to individuelle spilleforståelsene skal utrette noe må
+kommunkasjonen mellom spillerne være god. Med andre ord handler kommunikasjon om samhandlingen mellom
+spillforståelsen til de ulike spillerne. Man kan faktisk si at kommunikasjon er det samme som den kollektive
+spilleforståelsen i laget (ibid).
+
+Figur 12. Den verbale og nonverbale kommunikasjonen mellom medspillere er det samme som samhandling mellom
+spillernes spilleforståelse. Dette kan defineres som lagets kollektive spilleforståelse.
+Denne komponenten er høyest rangert av alle komponenter innenfor fotballtrening i fotballteorien. Fantastisk
+kommunikasjon og samhandling mellom medspillere kan få enkeltspillere med en moderat spilleforståelse, en
+moderat fotballteknikk og en moderat fotballfysikk til å se ut som bedre fotballspillere siden de gjør færre feil (ibid).
+Spilleforståelse handler om å forstå hvilke valg man kan gjøre i ulike spillsituasjoner for å skape fordeler for sitt eget
+lag. Den neste komponenten innenfor fotballtrening er å utføre disse valgene med riktig og god teknikk (ibid).
+3.2.3.5. Teknikk er utførelsen av et valg tatt med bakgrunn i spillerens spilleforståelse
+Fotball er en resultatorientert idrett. Hvordan en teknisk utførelse blir gjennomført er underordnet resultatet av
+utførelsen. Derfor kan man ikke snakke om en idealteknikk i fotball på samme måte som man gjør i turn, dans eller
+skihopping. Pasning og mottak i fotball kan utføres på veldig mange måter, avhengig av spillsituasjonen i kampen.
+Teknikk kan derfor ikke være startpunktet for fotballferdighet (se figur 13). Teknikk er utførelsen av valg tatt i
+spillsituasjoner. Og valgene blir tatt med bakgrunn i kommunikasjon.
+Kriteriet for en god pasning i fotball er at den kommer frem til ballmottakeren til riktig tid, med riktig fart og på rett
+plass, i tillegg til at den er basert på et valg som vil skape en fordel for eget lag. Akkurat hvordan den tekniske
+utførelsen av pasningen var er i utgangspunktet ikke relevant så lenge den tilfredsstiller kriteriene (ibid).
+Teknikk er utførelsen av valg tatt i spillsituasjoner (spilleforståelse) og derfor kan ikke teknikk og spilleforståelse
+separeres fra hverandre.
+
+3.Resultater
+
+S. 16
+
+Figur 13. I Fotballteorien er fotballfysikk er den lavest rangerte komponenten innenfor fotballspillets fire komponenter
+(Verheijen, 2014).
+3.2.3.6. Fotballfysikk er å gjøre gode fotballhandlinger ofte og gjennom hele kampen
+Med ferdigheter innenfor kommunikasjon, spilleforståelse og teknikk kan et fotballag angripe, forsvare og omstille
+gjennom en 90 minutter lang fotballkamp. Automatisk vil denne aktiviteten stimulere fotballfysikken til spillerne (ibid). I
+fotballverden har det vært vanlig å skille fysisk trening fra fotballspillet. Uttrykk som styrke, utholdenhet, hurtighet,
+bevegelighet og koordinasjon er eksempel på generelle uttrykk som er sett på som noe annet enn fotballhandlinger
+som man finner i fotballspillet. Men i fotballteorien er det kun når fotballspråket blir brukt som startpunkt at vi kan forstå
+hva slags fysikk vi kan forvente av en fotballspiller (ibid). Generelt kan vi si at fotballfysikk er å utføre lagets spillestil
+med et høyt tempo i 90 minutter. Med andre ord er fysisk trening i fotball en måte å støtte spillernes kommunikasjon,
+spilleforståelse og teknikk. Så kravene til fysisk trening i fotball er hentet fra fotballkampen. Det generelle utrykket
+utholdenhet vil med fotballhandlingsord bety å angripe, forsvare og omstille på et høyt tempo gjennom 90 minutter. Og
+for å bli bedre til å spille fotball med høyt tempo må man øve på å spille fotball med høyt tempo. Dermed er ikke
+fotballfysikk noe man kan trene på isolert og fjernt fra fotballkampen. Fotballfysikk handler derfor om å gjøre
+eksplosive handlinger, gjøre mange eksplosive handlinger etter hverandre, opprettholde evnen til å gjøre eksplosive
+handlinger gjennom hele kampen og opprettholde evnen til å gjøre mange eksplosive handlinger etter hverandre
+gjennom hele kampen (ibid). Rett og slett å spille fotball med et høyt tempo gjennom 90 minutter.
+
+S. 17
+
+3.Resultater
+
+3.2.3.7. Fotballteorien består av kommunikasjon, spilleforståelse, teknikk og fotballfysikk
+Oppsummeringsvis kan man si at fotballteorien består av fire komponenter. Kommunikasjonen mellom spillere er den
+viktigste komponenten. Basert på kommunikasjonen i spillsituasjonen fatter spilleren et valg med spilleforståelsen sin.
+Deretter blir valget utført med spillerens teknikk. Og til slutt muliggjør fotballfysikken til spilleren at denne prosessen
+kan foregå på et høyt tempo gjennom 90 minutter.
+I et tenkt eksempel er en midtbanespiller ballfører og ser masse kommunikasjon rundt seg. Kantspilleren stikker i
+bakrom, keeperen roper at han er spillbar bakover i banen og motspilleren presser. I dette eksempelet kommuniserer
+både medspillerne og motspillerne med ballføreren, verbalt og nonverbalt. Så før midtbanespilleren har rukket å gjøre
+noe som helst har han mottatt mye kommunikasjon. Derfor er kommunikasjon høyest rangert i hierarkiet – det
+kommer forut for alle fotballhandlinger. Med bakgrunn i all denne kommuniserte informasjonen som midtbanespilleren
+mottar tar midtbanespilleren et valg. Valget tas med bakgrunn i spilleforståelsen til midtbanespilleren – forståelsen for
+hvordan han best kan løse situasjonen basert på all den kommuniserte informasjonen han har mottatt. Derfor er
+spilleforståelse rangert nest høyest i hierarkiet - fordi det kommer etter kommunikasjon, som er høyest rangert. Når
+midtbanespilleren har gjort valget sitt må dette valget utføres med en teknikk. Teknikk er derfor underordnet
+kommunikasjon og spilleforståelse i hierarkiet. Teknikk er utførelse av et valg, ikke utførelse av en teknikk. I fotball
+repeteres denne syklusen med kommunikasjon, valg og utførelse kontinuerlig. Fotballspillere ønsker å gå gjennom
+denne syklusen så ofte som mulig hvert minutt (høyt tempo) og så lenge som mulig (opprettholde høyt tempo). Det er
+dette vi kaller fotballfysikk. Så i fotball handler ikke fotballfysikk om muskler, oksygen, kreatinfosfat og melkesyre, men
+om å kommunisere, ta valg og utføre valg så ofte som mulig og så lenge som mulig (Verheijen, 2016). Fotballfysikk er
+derfor rangert som nummer fire i hierarkiet. På denne måten er de fire elementene i hierarkiet rangert etter en
+kronologi i tid. Det ene kommer før det andre.
+Disse fire komponentene, sammen med fotballhandlingsteorien utgjør en objektiv og universell fotballteori. Denne
+filosofiske inngangen til fotball er konseptuell (basert på regler og prinsipper), universell (ikke basert på kulturelle
+elementer), faktabasert (ingen gråsoner) og objektiv (ikke basert på meninger eller erfaringer). Det neste steget for en
+fotballtrener er å overføre og oversette denne fotballteorien til sin egen trenerpraksis (ibid). Det er i denne
+overføringen at subjektivitet, kultur og rammebetingelser spiller en rolle. Alle trenere har ulike miljøer med ulike
+særegenheter å overføre denne fotballteorien til. Derfor vil den samme fotballteorien kunne få ulike uttrykk når den
+overføres til ulike miljøer. Når treneren overfører fotballteorien til sin praksis, tar han beslutninger basert på sin
+kunnskap, sine erfaringer, sine meninger og sin kultur. Så en fotballteori i seg selv skal være objektiv, universell og
+basert på fotballspillet, men overføringen av denne objektive fotballteorien er en subjektiv prosess (ibid).
+
+3.3. Hvordan tilrettelegge for læring?
+Tilretteleggingen for læring i fotball er sammensatt. Her er resultatene presentert under to overskrifter; tilrettelegging
+for indre motivasjon og tilrettelegging for gode læringssituasjoner.
+
+S. 18
+
+3.Resultater
+
+3.3.1. Tilrettelegging for indre motivasjon
+Når det her snakkes om å tilrettelegge for indre motivasjon så handler det om å tilrettelegge for at hver enkelt spiller
+skal være opptatt av å selv drive sin læringsprosess fremover, i tråd med vår forståelse av læring som prosess og at
+læring forutsetter en aktiv lærende. Indre motivasjon kan defineres som en interesse for å gjøre en aktivitet fordi
+aktiviteten i seg selv er lystbetont og oppleves som en belønning (Ryan & Deci, 2007).
+3.3.1.1. Indre motivasjon som drivkraft for en lang og god læringsprosess
+Flere studier viser at indre motivasjon er selve drivkraften i læringsprosessen. Blant annet kom musikkprofessor Gary
+McPherson til denne konklusjonen etter å ha studert hvorfor noen får en bratt læringskurve når de begynner å spille et
+musikkinstrument mens andre får en slak læringskurve (Coyle, 2009). I denne studien fulgte man 157 tilfeldig valgte
+barn fra de begynte å spille et instrument i 8-årsalderen og til de var ferdige med ungdomsskolen. Som forventet
+fordelte disse barna seg slik at noen svært få ble veldig flinke, noen svært få ble dårlige og de fleste ble sånn passe
+gode. I et forsøk på å forstå hvorfor noen ble gode og andre ikke sjekket de barnas ferdigheter opp mot IQ,
+rytmesans, aural sensitivitet, mattematikkunnskaper, foreldrenes inntekt, sansemotoriske ferdigheter m.fl. Ikke før de
+gikk gjennom svarene barna hadde gitt før de begynte å spille instrumentet fant man en forklaring. Barna hadde da
+svart på hvor lenge de så for seg at de kom til å spille dette instrumentet. Det var vanskelig for barna å svare på dette,
+men McPherson fikk de til å svare en av disse kategoriene: ett år, ut barneskolen, ut ungdomsskolen eller resten av
+livet. Når disse svarene de hadde gitt som 8-åringer ble satt sammen med ferdighetsnivået de hadde i ungdomsårene
+ble det tydelig at jo lengre man så for seg å spille instrumentet, jo høyere var ferdighetsnivået. Det å se for seg å spille
+et instrument resten av livet når man er barn vitner om en indre motivasjon til å faktisk lære seg å spille dette
+instrumentet. Som forfatteren skrev:
+«When McPherson saw the graph, he was stunned. «I couldn`t believe my eyes», he said. Progress was determined
+not by any measurable aptitude or trait, but by a tiny, powerful idea the child had even before starting lessons. The
+differences were staggering. With the same amount of practice, the long-term-commitment group outperformed the
+short-term-commitmet group by 400 percent. The long-term-commitment group, with a mere twenty minutes of weekly
+practice, progressed faster than the short-termers who practiced for an hour and a half. When long-term commitment
+combined with high levels of practice, skills skyrocketed. »
+Men indre motivasjon er ikke den eneste formen for motivasjon.
+
+3.Resultater
+
+S. 19
+
+Figur 14. Utdrag fra boken the Talent Code av Daniel Coyle.
+3.3.1.2. Indre motivasjon gjennom medbestemmelse, mestringsfølelse og tilhørighet
+Innenfor motivasjonspsykologien er det en motivasjonsteori som heter Selvbestemmelsesteorien som skiller mellom
+indre motivasjon og ytre motivasjon. Indre motivasjon handler om en arbeidslyst som kommer innenifra og som drives
+fremover av gleden ved å være i aktiviteten. Ytre motivasjon er motivasjonelle krefter som er utenfor spilleren som
+f.eks status, straff og belønning (Deci & Ryan, 2002). Man kan si at en spiller er ytre motivert hvis han motiveres av å
+å bli kjendis eller å bli rik og at han er indre motivert dersom han genuint elsker å være i fotballspillet og at det
+oppleves som en belønning i seg selv bare det å spille fotball. Videre sier Selvbestemmelsesteorien at dersom man er
+ytre motivert er det en større sannsynlighet for at man opplever fotballtreninger og fotballkamper som stressende og
+fylt med press. Et annet kjennetegn ved ytre motivasjon er at det ofte stimulerer folk til å ta snarveier, noe som
+forringer læringsmulighetene (ibid).
+I selvbestemmelsesteorien finner man forskning som sier at indre motivasjon resulterer i bedre prestasjoner enn ytre
+motivasjon, samtidig som indre motiverte personer ofte har det bedre med seg selv (Ryan & Deci, 2007). Når man er
+indre motivert så handler man i tråd med de verdiene man står for samtidig som man bedriver en aktivitet man er
+brennende engasjert i. Og studier har vist at når man er indre motivert er man faktisk mer kreativ, bedre til å løse
+problemer, man presterer bedre, har flere positive følelser og til og med helsen blir bedre (ibid).
+
+S. 20
+
+3.Resultater
+
+I følge Selvbestemmelsesteorien er det tre faktorer som kan påvirke den indre motivasjonen: opplevelse av
+selvbestemmelse, opplevelsen av tilhørighet og opplevelsen av kompetanse (ibid). For å gi spillerne denne
+opplevelsen må trenerens undervisning være utformet slik at spillerne har frihet til å finne frem til svaret på egenhånd,
+samtidig som utfordringene er passe vanskelige og at de opplever å bidra til et større fellesskap.
+Selvbestemmelse starter når treneren tar spillernes perspektiv, involverer dem og gir spillerne valgmuligheter. Dette
+innebærer at treneren tillater at spillerne prøver ut og utforsker og samtidig oppfordrer dem til å ta egne initiativ (ibid).
+Forskningen viser at når trenere stimulerer til selvbestemmelse får disse trenerne frem spillere som er mer
+standhaftige i motgang og som samarbeider bedre som et lag (ibid).
+Behovet for tilhørighet innebærer at vi trenger å knytte sosiale bånd til de vi omgås med. Hvis ikke øker
+sannsynligheten for mistrivsel, dårlig helse og lav produktivitet (ibid). Prestasjonsgrupper hvor medlemmene føler en
+sterk tilhørighet til gruppa er ofte mer produktive enn prestasjonsgrupper med lav tilhørighet (ibid).
+For at spillerne skal oppleve seg som kompetente må de møte optimalt utfordrende oppgaver. Dette innebærer
+utfordringer som er mulige å løse, men som vil kreve deres beste innsats. Følelsen av å være kompetent styrker den
+indre motivasjonen (ibid).
+3.3.1.3. Opplevelsen av kompetanse som drivkraft for den indre motivasjonen
+Viktigheten av å oppleve egen kompetanse kommer også frem av en annen teori kalt Flow-teorien (Csikszentmihalyi,
+1990) eller teorien om flyt som det kan oversettes til. Dette er en teori om flyt (flow), forstått som tilstanden når man er
+helt oppslukt av en aktivitet og glemmer tid og sted. Flyt oppstår når det er et optimalt forhold mellom den
+kompetansen man har og de utfordringene man møter. I flyt har man en indre motivasjon hvor aktiviteten blir et mål og
+en belønning i seg selv (ibid). Men hvis det er et misforhold mellom kompetanse og utfordringer, så faller den indre
+motivasjonen. Er kompetansen høy og utfordringene lave resulterer dette i kjedsomhet. Er kompetansen lav og
+utfordringen høy opplever man angst. Og hvis både kompetansen og utfordringene er lave så resulterer det i apati
+(ibid).
+3.3.1.4. Motivasjon kan komme fra seier over seg selv og fra seier over andre
+Opplevelsen av kompetanse avhenger av spillerens målorientering ifølge Achievement Goal Theory, eller
+Målorienteringsteorien som den kan oversettes til. I Målorienteringsteorien skiller man mellom oppgaveorientering og
+resultatorientering. Hvorvidt spillerne er oppgaveorienterte eller resultatorienterte avhenger av læringsklima (Duda,
+2001).
+I et oppgaveorientert læringsklima ser treneren på innsats og personlig fremgang som kriterier for å mestre og
+spillerne måler sin egen kompetanse i personlig fremgang. En spiller med oppgaveorientering vil kunne si at dersom
+han i dag klarer noe han ikke klarte i går har han hatt fremgang (Roberts, 2001).
+I et resultatorientert læringsklima er det et stort fokus på å vinne over andre. Spillerne måler sin kompetanse mot
+hverandres og man føler seg kompetent kun når man vinner over andre. I et slikt læringsmiljø gir treneren mye skryt til
+
+S. 21
+
+3.Resultater
+
+de beste, er sterkt dirigerende og overlater få valg til spillerne. Det er lite rom for prøving og feiling i treningsarbeidet
+ettersom feiling er sett på som mangel på kompetanse (ibid).
+Målorienteringsteorien peker på at idrettsutøvere som leverer på høyt internasjonalt nivå er ikke enten resultatorientert
+eller oppgaveorientert. Men prestasjonsgrupper og utøvere som leverer stabilt gode prestasjoner er høye både på
+resultatorientering og oppgaveorientering. Man kan ha gode prestasjoner dersom man er høy på resultatorientering og
+lav på oppgaveorientering, eller motsatt. Men er man lav på oppgaveorientering og høy på resultatorientering er man
+avhengig av å vinne for å opprettholde motivasjonen. Hvis en slik prestasjonsgruppe begynner å tape mister de kilden
+til motivasjonen sin ettersom de ikke henter motivasjon fra å ha personlig fremgang. I fotball har man ikke kontroll over
+faktorer som motstanderlag, bane, vær, dommeravgjørelser, reiseavstander m.fl så et utelukkende resultatorientert
+klima er svært sårbart i motgang (ibid).
+3.3.1.5. Det gjelder å beholde motivasjonen over lengre perioder
+Og akkurat dette med å ikke ha en resultatorientert sårbarhet rundt motivasjonen sin er avgjørende for å kunne ha en
+lang og sunn læringsprosess. Angela Lee Duckworth kaller dette for grit (Duckworth, 2016). Grit er et engelsk ord som
+det er utfordrende å oversette, men «utholdende motivasjon» eller «standhaftig målbevissthet» kan være gode
+forklaringer på hva Duckworth mener med grit. Duckworth har gjennom sin forskning undersøkt hvem det er som
+ender opp med å bli best. Duckworth mener at det er ikke viktig å bare lære ting hurtig og enkelt. Hvis man har en
+læringsprosess som strekker seg over lang tid vil man ende opp med å lære mer enn om man har en kortere
+læringsprosess. Men det å være i en lang læringsprosess krever at man ikke gir opp. Gjennom sin forskning besøkte
+hun militærakademier for å forsøke å forutsi hvilke soldater som forble på militærakademiet og hvilke som ville droppe
+ut. Hun besøkte nasjonale stavekonkurranser for barn for å prøve å forutsi hvilke barn som ville komme lengst i
+stavekonkurransen. Hun studerte nyutdannede lærere som jobbet i utfordrende skoler for å forutsi hvilke lærere som
+ville gi opp og hvilke som kom til å forbli på den utfordrende skolen, samt hvem av disse lærerene som kom til å ha de
+best presterende klassene. De gikk sammen med næringslivsbedrifter for å finne ut hvilke selgere som kom til å
+avansere i gradene og tjene mest penger. Og i alle disse kontekstene var det en faktor som viste seg som den
+sikreste kilden til suksess. Og det var lidenskap og utholdenhet for sine langtidsmål, oppsummert i det engelske ordet
+grit. Grit er å holde seg til målsettingen sin, legge ned maksimal innsats, dag inn og dag ut gjennom flere år som om
+man lever livet som et maraton, ikke en sprint. Men det er svært lite forskning som sier noe om hvordan man bygger
+grit. Det nærmeste er Carol Dwecks forskning om growth mindset.
+3.3.1.6. Motivasjon gjennom troen på at du kan forbedre deg
+Growth mindset handler om troen på at evnen til å lære ikke er medfødt eller statisk, men at den kan endre seg
+dersom man jobber med det (Dweck, 2006). Dweck fant at når barn lærer om hjernen og at denne vokser og endrer
+seg når den møter utfordrende oppgaver, blir barna mer sannsynlige til å opprettholde læringsinnsatsen selv når de
+mislykkes. Dette skjer fordi barn som har lært dette tror ikke på at mislykkethet er en permanent tilstand, men en
+midlertidig utfordring som får hjernen deres til å utvikle seg. Spesielt en av studiene til Dweck understreker
+læringspotensialet som ligger i å ha et growth mindset. I denne studien ble et hundretalls ungdommer stilt ovenfor ti
+utfordrende oppgaver og en IQ-test. De fleste ungdommene klarte seg relativt bra og etter denne testen ble
+
+S. 22
+
+3.Resultater
+
+ungdommene gitt en av to tilbakemeldinger. Enten fikk de skryt for evnene sine og at de må være veldig smarte som
+får et så godt resultat. Eller så fikk de skryt for innsatsen sin og at de må ha lagt ned en god innsats for å få et så godt
+resultat. De som fikk den ene eller den andre tilbakemeldingen hadde i utgangspunktet like gode resultater på testen.
+Men ungdommene som hadde fått skryt for at de var smarte fikk det Dweck kaller fixed mindset, en tro på at de hadde
+prestert godt fordi de har en medfødt smarthet ved seg. De ungdommene som hadde fått skryt for innsatsen sin inntok
+et growth mindset. De som hadde hørt at de var smarte begynte deretter å velge seg oppgaver med en enklere
+vanskelighetsgrad enn tidligere for å kunne se bra ut og opprettholde troen på at de var smarte. Men ungdommene
+som fikk skryt for innsatsen sin begynte å velge mer utfordrende oppgaver enn tidligere. Mot slutten av denne studien
+fikk alle ungdommene en ny test som var mye vanskeligere enn de oppgavene de hadde fått før, noe som førte til at
+alle fikk svakere resultater. Ungdommene som hadde fått høre at de var smarte anså seg nå som langt mindre
+intelligente og som en fiasko, mens ungdommene som fikk høre at de hadde god innsats ble stimulert til å yte en enda
+større innsats (ibid). Til slutt i denne studien viste det seg at de som ble fortalt at de var smarte, nå begynte å prestere
+dårligere på enklere oppgaver etter de hadde vært gjennom den vanskelige testen. De hadde mistet troen på egne
+ferdigheter. Hos den andre gruppa var tilfellet motsatt. Etter å ha tatt alle disse testene skulle ungdommene skrive ned
+erfaringene og resultatene sine og at dette skulle deles med ungdommer ved andre skoler. Et overraskende funn var
+at nesten førti prosent av de som ble fortalt at de var smarte nå løy om resultatene sine. Dweck forklarte dette ved at
+dårlige resultater oppleves som skamfullt for de som har fixed mindset.
+3.3.1.7. Mestringsforventninger
+Troen på at man kan nå sine mål er avgjørende for å klare det, mener Bandura (1997). Han står bak self-efficacy
+theory eller teorien om mestringsforventninger som det kan oversettes til. Mestringsforventninger handler om i hvor
+stor grad du forventer at du skal nå dine mål eller fullføre en oppgave. Mestringsforventninger kan relativt presist si
+noe om hvor lenge en person kommer til å holde seg til en diett, fortsette et treningsprogram eller gi opp (ibid). Høye
+eller lave mestringsforventninger avgjør om personen er villig til å ta på seg utfordrende oppgaver eller ikke. Selfefficacy theory mener at det er flere kilder til mestringsforventninger. En av de viktigste kildene til
+mestringsforventninger er å se at en selv tidligere har klart oppgaven eller at noen andre har klart den. Dette poenget
+forsterkes av det Daniel Coyle kaller ignition (Coyle, 2009). Med ignition mener Coyle det øyeblikket en utøver blir
+forelsket i fremtiden sin fordi han ser at det er mulig, gjennom andres prestasjoner. Et eksempel kan være at det ble
+sett på som umulig å løpe en engelsk mil på under fire minutter. På 1900-tallet var dette en løpsøvelse som var veldig
+populær, men alle trodde at det var umulig å løpe den på under 4 minutter før Roger Bannister klarte det i mai 1954.
+Det som hadde vært sett på som umulig ble etter Bannisters bragd gjort av flere løpere innen kort tid. Andre eksempel
+Coyle trekker frem er det unormale antallet kvinnelige tennisspillere fra en liten russisk by som leverer på topp
+internasjonalt nivå etter at en av jentene fra byen ble en topp internasjonal spiller. Det samme fenomenet gjelder
+kvinnelige golfspillere fra Korea, fotballspillere fra Brasil eller baseballspillere fra en liten karibisk øy.
+Mestringsforventningene stiger i været når man ser at noen som seg selv mestrer en oppgave (Bandura, 1997).
+3.3.1.8. Selvregulering
+Det å ha et eierskap til egen utvikling og jobbe mot langsiktige mål ble avdekket som en suksessfaktor også av
+
+S. 23
+
+3.Resultater
+
+førsteamenuensis Tynke Toering ved Norges Idrettshøgskole. Hun har brukt flere år på å studere selvregulering, både
+innenfor fotball og andre områder. Selvregulering defineres som individets evne til å kontrollere og endre tanker,
+følelser og adferd (Baumeister & Vohs, 2011). Den selvregulerende læringsprosessen beskrives ved at man setter
+seg et mål, utøver den innsatsen som kreves for å nå målet og evaluerer prosessen underveis. Flere studier har vist
+at det er en sammenheng mellom hvor god spillerne er på selvregulering og hvor høyt divisjonsnivå spillerne spiller på
+(Toering, Gemser, Jordet & Visscher, 2009). En av konklusjonene i disse studiene var at elitespillere var mer bevisste
+over deres sterke og svake sider, flinkere til å overføre kunnskap til handling, og mer villige til å yte stor innsats under
+trening og kamp. Altså, grunnen til at elitespillerne spilte på et høyere nivå kan være fordi de var flinkere til å reflektere
+over tidligere handlinger og at de prøvde hardere for å oppnå suksess. På den måten ble treningen deres mer effektiv
+(ibid).
+Etter å ha forsket på selvreguleringsprosessen i fotball har Toering kommet opp med følgende fem trinn i
+selvreguleringsprosessen:
+-
+
+planlegging (mål og strategi)
+
+-
+
+selvobservasjon
+
+-
+
+evaluering
+
+-
+
+refleksjon
+
+-
+
+innsats og selvtillit
+
+Selvreguleringsprosessen starter med at spilleren evaluerer egne styrker og svakheter for deretter å lage en
+målsetting og en strategi for treningsarbeidet sitt.
+Målsettingen kan enten være et prosessmål (fokus på oppgaver man skal løse for å gjøre gode prestasjoner) eller et
+resultatmål (fokus på sluttresultatet av prestasjonen). Man kan også skille mellom langtidsmål og korttidsmål. Det
+viser seg at kortidsmål som er konkrete og ligger et ørlite grann over nåværende prestasjonsnivå er de mest effektive
+siden man oppnår motivasjonseffekten ved å nå målsettingene sine og derigjennom forsterker den indre drivkraften
+(Bandura, 1989).
+Med strategi menes at spilleren må finne ut hvordan han skal trene for å kunne nærme seg målsettingen sin.
+Selvobservasjon handler om hvordan spilleren kontrollerer prestasjonene sine opp mot læringsmålet underveis i
+aktiviteten. Det vil si at fotballspilleren kontinuerlig sammenlikner prestasjonene sine opp mot målet sitt underveis i
+fotballtreningen.
+Evaluering innebærer at spilleren vurderer i hvilken grad målsettingen ble nådd i løpet av treningsøkten og finne ut av
+hvorfor han kom nærmere målsettingen sin eller ei.
+Refleksjonen i etterkant av treningen er når man vurderer hva som gikk bra, hva som gikk galt og om det er noe annet
+han kan gjøre for å forbedre læringsmulighetene sine.
+
+S. 24
+
+3.Resultater
+
+Innsats handler om hvor mye tid og krefter en spiller er villig til å ofre for å nå målene sine. Selvtillit viser til spillerens
+tro på egen evne til å forbedre seg og nå sitt mål. Er denne lav er sannsynligheten for at innsatsen blir lav også (ibid).
+
+3.3.2. Tilrettelegging for gode læringssituasjoner
+I følge psykolog Anders Ericsson er det visse ting som kjennetegner gode læringssituasjoner.
+3.3.2.1. Intensjonell trening
+Ericsson mener at hvor dyktig man blir i en ferdighet har mye å gjøre med hvordan man øver, ikke bare hvor mye man
+øver. Ericsson har gjennom flere år forsket på teorien om Deliberate Practice (DP) eller intensjonell trening som det
+kan oversettes til. I DP bryter man ned ferdigheter til mindre bestanddeler og øver på disse bestanddelene (Ericsson,
+Krampe & Tesch-Romer, 1993).
+Deliberate Practice handler om å arbeide målrettet for å bli bedre i en ferdighet. DP baserer seg på følgende fire
+punkter:
+1. du må være motivert for oppgaven og motivert for å forbedre deg
+2. oppgaven må ta hensyn til ditt nåværende ferdighetsnivå og kunnskapsnivå
+3. du må få umiddelbar tilbakemelding på din prestasjon
+4. du må gjenta øvingssituasjoner ofte hvor du løser de samme oppgavene om igjen
+Ericsson presiserer at uten tilstrekkelig umiddelbar tilbakemelding på prestasjonen din er effektiv læring umulig og
+framgangen vil være minimal. Repetisjon i seg selv er ikke effektivt for at du skal lære en ferdighet. Treningen din må
+være intensjonell, målrettet mot å øke ferdighetsnivået ditt, tilpasset ditt nåværende ferdighetsnivå, fylt med
+umiddelbare tilbakemeldinger og gjentakende. Kun da bedriver du Deliberate Practice (ibid).
+3.3.2.2. I fotball skal man lære fotballferdighet
+Når man skal tilrettelegge for gode læringssituasjoner i fotball så må man ta hensyn til hva som skal læres. Og i fotball
+så ønsker man å lære fotballferdighet. Fotballferdighet defineres som hensiktsmessige handlingsvalg og handlinger
+for å skape og utnytte spillsituasjoner til fordel for eget lag (Bergo, Johansen, Larsen & Morisbak, 2002).
+Målet er altså å lære seg å skape og utnytte spillsituasjoner til fordel for eget lag. Og spillsituasjoner sier Bergo m.fl
+(2002) at er det eneste stedet en fotballferdighet kan komme til uttrykk. Så en pasning er ikke en fotballferdighet før
+den brukes i en spillsituasjon med intensjon om å bidra til at laget skal kunne skape en målsjanse eller beholde
+ballbesittelse.
+Den universelle fotballteorien fra den nederlandske litteraturen (Verheijen, 2014) utdyper at utvikling av fotballferdighet
+ikke bare er evnen til å gjøre en bedre fotballhandling i dag enn du klarte i går. I tillegg til å påvirke evnen til å gjøre
+bedre fotballhandlinger må man også påvirke evnen til å gjøre flere fotballhandlinger, opprettholde evnen til å gjøre
+gode fotballhandlinger og opprettholde evnen til å gjøre mange fotballhandlinger. Denne presiseringen gjør det tydelig
+at en fotballferdighet er ikke noe man utøver kun et fåtall ganger, men noe man må reprodusere med (tilnærmet)
+samme kvalitet og kvantitet gjennom hele fotballkampen og flere fotballkamper etter hverandre (ibid).
+
+S. 25
+
+3.Resultater
+
+For å trene spilleren i å gjøre bedre fotballhandlinger må spilleren utføre sin nåværende fotballferdighet med så lite tid
+og rom som ferdigheten hans kan klare. For et angrepslag kan det være å bygge opp spillet sitt og score mål i møte
+med mindre rom enn det som er vanlig i kamp. For å klare å skape en målsjanse på slike små flater må spilleren gjøre
+en bedre fotballhandling enn vanlig. For å gjøre disse fotballhandlingene bedre kan man både forbedre
+kommunikasjonen i laget, valgene som spillerne tar med sin fotballforståelse, de tekniske utførelsene av disse
+valgene og fotballfysikken sin. Hvis en spiller går i press ønsker man at spilleren går i press sammen med resten av
+laget sitt gjennom å kommunisere med dem, velge å presse til riktig tidspunkt, med riktig fart og til riktig sted med
+spilleforståelsen sin, presse med en god teknikk med lavt tyngdepunkt og riktig kroppsstilling og evne å presse så
+hurtig som mulig, så mye som mulig og så lenge som mulig med fotballfysikken sin. Alle disse komponentene påvirker
+spillerens evne til å presse bedre, eller gjøre en bedre fotballhandling.
+Spillere som evner å gjøre bedre fotballhandlinger fører laget til å prestere bedre. Konsekvensen av at spillerne
+sentrer, presser og dribler bedre er at laget spiller med et høyere tempo. Fotballhandlingene avløser hverandre med
+et høyere tempo enn tidligere. For å kunne bryte ned to kompakte presseledd må angrepslaget kunne spille et hurtig
+pasningsspill for å finne åpninger i eller mellom presseleddene. Og for å kunne spille et hurtigere pasningsspill må
+spillerne posisjonere seg i ledige rom oftere og mer eksplosivt. Hvis ikke blir konsekvensen at ballføreren står og
+venter på pasningsalternativer eller sparker bort ballen. Derfor innebærer det å spille fotball med et høyere tempo at
+man må gjøre fotballhandlinger oftere. Og dette er grunnen til at treneren ikke bare kan fokusere på at spillerne må
+gjøre bedre fotballhandlinger, men de må også gjøre flere fotballhandlinger per spilleminutt.
+Lagets prestasjonsframgang avhenger derfor av spillernes evne til å gjøre bedre fotballhandlinger og flere
+fotballhandlinger. Men man ønsker jo også å opprettholde denne kvaliteten og kvantiteten av fotballhandlinger
+gjennom hele kampen. Derfor må man trene spillerne i å opprettholde kvaliteten og i å opprettholde kvantiteten.
+3.3.2.3. Spesifisitetsprinsippet
+Man kan si at læringssituasjonen må være spesifikk for det som skjer i en fotballkamp. I treningslæren møter man
+spesifisitetsprinsippet. Spesifisitetsprinsippet innebærer at det må være størst mulig likhet mellom trening og den
+idretten man trener for (Ronglan, 2008).
+En spillsituasjon må derfor inneholde en ball, ballfører, motspiller(e), spilleretning, et avgrenset område, en
+tidsavgrensning og gjerne en eller flere medspillere (Bergo m.fl., 2002). I et slikt spill-motspill har spillerne flere
+valgmuligheter og får derfor øving både i å ta handlingsvalg og i å utføre handlinger.
+3.3.2.4. Funksjonalitetsskalaen
+En fullstendig spesifisitet vil derfor innebære at man spiller 11 mot 11 i to omganger på 45 minutter hver trening. Men
+ved kun å ha slike treninger vil hver spiller oppleve å få lite ballkontakt og sjelden være involvert i spillsituasjoner som
+er typiske for sin rolle i laget. Derfor kan det være nyttig å bryte spillet ned i mindre spillsituasjoner og øve på disse. I
+boken Ferdighetsutvikling i fotball (Bergo, m.fl, 2002) presenterer forfatterne funksjonalitetsskalaen. Dette er en
+inndeling av fotballaktiviteten hvor aktiviteten graderes etter hvor funksjonell den er. En høy grad av funksjonalitet
+betyr at de fleste forhold spillerne opplever i kamp er tilstede i treningsaktiviteten. Begrepet funksjonalitet beskriver
+
+S. 26
+
+3.Resultater
+
+altså hvor stort samsvar det er mellom spillsituasjonene spillerne møter i kamp og aktivitetene på trening (ibid).
+Funksjonalitetsskalaen kan deles inn i aktiviteter med hovedvekt på a) ballføreren alene med ballen, b) ballføreren
+sammen med medspillere og c) ballføreren sammen med medspillere og motspillere.
+I boken Coaching Youth Football av Bert van Lingen (2016) påpeker forfatteren at en trener kan komme til
+konklusjonen at laget sliter med å komme til målsjanser fordi flere av spillerne er for dårlige til å sentre og motta
+ballen, for eksempel. For å forbedre dette er ikke 11 mot 11 den ideelle øvingssituasjonen siden hver enkelt spiller får
+for få muligheter til å sentre og motta ballen i denne øvelsen. Det er rett og slett for få repetisjoner. Da blir det bedre
+om treneren forenkler øvelsen til å bli 7 mot 7 eller 5 mot 5. For å forenkle forholdene for pasningsspill ytterligere kan
+man spille 5 mot 3. Om nødvendig kan treneren forenkle enda mer ved å spille 5 mot 2, 3 mot 1 eller til og med 4 mot
+1. I disse øvelsene får spillerne mer tid og rom på seg til å øve på å sentre og motta ballen (ibid). Men alle disse
+øvelsene tar utgangspunkt i 11 mot 11 og derfra skapes forenklede øvelser.
+Treneren kan komme til konklusjonen at det fortsatt er spillere som ikke mestrer en så forenklet spilløvelse som 5 mot
+1. Da kan det være nødvendig å forenkle ytterligere ved å fjerne motspillet og kun beholde medspillet gjennom å
+fordele spillerne to og to i par. Da blir spillerne gitt i oppgave å sentre og motta ballen fra hverandre uten forstyrrelser
+fra en motspiller. Posisjonering, timing, presisjon og kraft i pasningen får mindre mening i en slik øvelse. I følge Bert
+van Lingen (2016) er det viktig at trenerne ikke tyr til slike ekstremt forenklede øvelser for tidlig. Pasningsspill i fotball
+er langt mer enn å sparke ballen. I et pasningsspill må ballføreren først med utgangspunkt i spillforståelsen og
+kommunikasjonen i laget ta valg med hensyn til posisjonering, timing, presisjon og kraft før han faktisk kan utføre
+pasningen, eller sparket på ballen. Det å sparke ballen er en del av pasningen, men det å sparke ballen er ikke det
+samme som en pasning. Derfor må 11 mot 11 være utgangsøvelsen og derfra kan man forenkle spillet hvis
+situasjonen krever det (ibid). Dette er en dramatisk annerledes fremgangsmåte enn hvor den ekstremt forenklede
+øvelsen er utgangspunktet som man bygger på for å gjøre øvelsen mer og mer kompleks etter hvert som tiden går.
+
+3.Resultater
+
+S. 27
+
+Figur 15. Det er en forskjell på å starte med 11v11 og forenkle spillsituasjoner derifra og å starte med en ekstremt
+forenklet situasjon og gradvis øke kompleksiteten (van Lingen, 2016).
+Det kan være situasjoner hvor treneren velger å benytte seg av ekstremt forenklede øvelser for å hjelpe enkelte
+spillere med å lære seg å sentre, motta eller drible. Men det kan ikke være tilfellet at et helt lag på 16 spillere skal
+bruke treningstiden sin på en ekstremt forenklet øvelse som for eksempel å øve på å sparke ballen. Dette impliserer
+at alle 16 spillerne er ute av stand til å sentre ballen innenfor øvelser som 3v1 eller 5v2. Kanskje er det 8 spillere på
+laget som er fullt i stand til å spille 5v3. For disse 8 spillerne er det ikke nødvendig å øve på å sparke ballen uten
+motspill. Konsekvensen av en slik trening er at disse 8 spillerne blir understimulert og underutviklet (ibid). Siden
+fokuset på denne øvelsen er å lære å sparke ballen er ikke disse 8 spillerne utfordret på sitt nivå og møter ikke
+utfordringer de må strekke seg etter og som kan utvikle dem videre (ibid). Det er trenerens jobb å forenkle 11v11 på
+en slik måte at disse 8 spillerne blir bedre til å sentre og motta ballen. Disse 8 spillerne er klare for å bli utfordret på å
+ta valg basert på posisjonering, timing, presisjon og kraft i pasningene sine. For de 8 svakeste spillerne er det greit
+med en isolert sparkeøvelse fordi det er dette de trenger å øve på. Men så snart de mestrer ballsparking må de inn i
+øvelser hvor de møter motspillere (ibid).
+3.3.2.5. Øv på spillsituasjoner man finner i de ulike fasene av spillet
+I tråd med spesifisitetsprinsippet hører fotballferdigheten hjemme i fotballkampen. Og fotballkampen kan man dele inn
+i flere mindre spillsituasjoner. Verheijen (2014) skisserte to faser i angrepsspillet (oppbygging og scoring) og to faser i
+
+S. 28
+
+3.Resultater
+
+forsvarsspillet (hindre oppbygging og hindre mål). Norges Fotballforbund skisserte tre faser i angrepsspillet
+(bearbeiding, komme inn i prioriterte rom og score mål) og tre faser i forsvarsspillet (gjenvinning/presse/vinne ball,
+hindre tilgang til prioritere rom og hindre scoring), samt en balansevurdering ved omstillinger. Når treneren skal
+undervise i fotball er det naturlig å undervise laget i hvordan man skal opptre i de ulike fasene av spillet.
+3.3.2.6. Bruk av tema for treningen og læringsmomenter forbedrer læringspotensialet
+I Ferdighetsutvikling i fotball (Bergo m.fl, 2002) sier forfatterne at hver trening skal ha et tema og et mål. Forfatterne
+skriver videre at for hver øvelse følger det med et sett med læringsmomenter, forstått som noen konkrete momenter
+som treneren burde legge vekt på i øvingen av hvert enkelt tema (ibid). Eksempelvis lager forfatterne en øvelse hvor
+man skal prøve å spille seg inn i mellomrom. Dette er en del av spillfasen som NFF i dag kaller «inn i prioriterte rom»
+og øvelsen har et klart mål (komme seg inn i mellomrom). Til denne øvelsen lister forfatterne opp læringsmomenter
+som skape gjennombrudd, skape og utnytte to mot en situasjoner, spille presist til en medspiller, spille medspilleren
+god, hyppig og aktiv orientering før medtak, lese situasjoner og handle etter gitte retningslinjer og posisjonsspesifikk
+ballbehandling. For å legge til rette for gode læringssituasjoner må man derfor øve på konkrete spillsituasjoner som
+har tydelige mål og tilhørende læringsmomenter.
+3.3.2.7. Aktivitetsprinsippet og variasjonsprinsippet
+I tillegg til det nevnte spesifisitetsprinsippet trekker Ronglan (2008) frem andre treningsprinsipper som
+aktivitetsprinsippet og variasjonsprinsippet. Aktivitetsprinsippet peker på at læring skjer gjennom å erfare i aktiviteten.
+Derfor må treneren sørge for at alle spillerne har høy aktivitet. Ronglan konkretiserer dette i følgende syv spørsmål
+treneren må stille seg når han skal legge til rette for gode læringssituasjoner:
+1. hvordan komme raskt i gang med aktivitet?
+2. hvordan unngå stillestående køer?
+3. hvordan unngå at noen melder seg ut og blir passive?
+4. hvordan unngå at tiden til organisering og forklaringer går ut over tiden til aktivitet?
+5. hvordan lage optimale gruppestørrelse og gruppeinndelinger?
+6. hvordan organisere slik at det blir flyt i aktivitetene og få unødvendige pauser?
+7. hvordan integrere ballen i så mye aktivitet som mulig?
+Variasjonsprinsippet handler om i hvilken grad treneren klarer å variere stimulering, øvelsesutvalg og
+læringsmomenter (ibid). Variasjon kan forstås som variasjon over tema, der et tema (et teknisk moment, et taktisk
+prinsipp, en samhandlingsform eller lignende) blir en rød tråd som binder det varierte øvelsesutvalget sammen (ibid).
+3.3.2.8. Kvalitetsprinsippet
+I tillegg til disse treningsprinsippene viste NFF til kvalitetsprinsippet på ett av sine foredrag på UEFA Alisenssamlingen i Porsgrunn (Riisnæs, 2016). Kvalitetsprinsippet ble omtalt som evnen til å stille krav til at spillerne
+gjør sitt absolutt beste i gjennomføringen av en øvelse på trening. Omtalen av kvalitetsprinsippet er nært beslektet
+med Verheijens metafor for fremgang (Verheijen, 2014). Som en metafor sier Verheijen at man i dag har en
+fotballferdighet på 100%, men man ønsker å øke den til 101% som et bilde på at man i morgen skal klare det man
+
+S. 29
+
+3.Resultater
+
+ikke klarte i dag. For å kunne gå fra 100% til 101% sier Verheijen at man må trene på 100% ettersom man må presse
+grensene for sin maksimale ytelse for å kunne nå 101%. Dersom man trener på 90% er man altså ikke i stand til å nå
+101% (ibid).
+3.3.2.9. Periodisering
+Den samme Verheijen påpeker at innøvingen av disse spillfasene kan periodiseres for å bedre innlæringen gjennom
+blant annet å unngå skader. Periodisering handler om planleggingen av alle treninger og kamper innenfor en gitt
+tidsramme. Periodiseringen sier noe om når man skal prioritere å trene på kommunikasjonen i laget,
+fotballforståelsen, teknikken og fotballfysikken, om man skal ha fokus på å forbedre evnen til å gjøre bedre
+fotballhandlinger, evnen til å gjøre flere fotballhandlinger, opprettholde evnen til å gjøre gode fotballhandlinger eller
+opprettholde evnen til å gjøre mange fotballhandlinger, om man skal trene på å bygge opp spillet, score mål, forstyrre
+oppbyggingen av spillet eller hindre mål (ibid). Periodisering inneholder alle treninger som er ment til å forbedre
+lagsoppgavene angripe, forsvare og omstille. Gjennom å manipulere antall spillere, banestørrelse, spilletid og
+restitusjonstid kan treneren velge å trene spilleren i kommunikasjon, fotballforståelse, teknikk eller fotballfysikk.
+3.3.2.10. Spilløvelser som stimulerer utvikling av fotballfysikken
+Ift fotballfysikk vil en bedre handling være det samme som en raskere handling, derfor en mer eksplosiv handling som
+for eksempel å presse hurtigere. For å øve på å gjøre en mer eksplosiv fotballhandling anbefaler Verheijen (2014) det
+han kaller fotballsprinter, hvor spillerne løper om kapp for å få tak i ballen og score på en målsjanse, noe som
+simulerer for eksempel et dybdeløp i bakrom med midtstopperen hakk i hæl. Og for å kunne gå fra 100% til 101% må
+musklene få mulighetene til å restituere seg gjennom gode pause mellom hver fotballsprint. For å trene på å gjøre
+flere fotballhandlinger så må man øve spillernes evne til å restituere seg hurtig mellom fotballhandlinger. De må derfor
+øve på å gjøre mange fotballhandlinger på rad. Verheijen anbefaler spill 5v5 som en øvelse hvor man øver på dette
+siden hver spiller får mange fotballhandlinger per minutt hvor spillerne blir utfordret på å ha kort restitusjonstid mellom
+fotballhandlingene. Hvis man skal øve spillerne i å opprettholde evnen til å gjøre eksplosive fotballhandlinger så må
+man øve spillerne i å restituere seg mellom eksplosive fotballhandlinger. Til dette anbefaler Verheijen fotballsprinter
+med minimal restitusjonstid mellom hver repetisjon. Den første fotballsprinten er maksimalt eksplosiv siden spilleren
+har restituerte muskler, men i de påfølgende fotballsprintene vil musklene være mer og mer utslitte. For å trene
+spillerne i dette må spillerne øve på å restituere seg mellom fotballsprinter gjennom å gi de kortere og kortere
+restitusjonspauser mellom sprintene sine. Fotballsprinter med lite restitusjon mellom hver sprint er derfor den
+anbefalte øvelsen for å øve på å opprettholde evnen til å gjøre eksplosive fotballhandlinger, sett fra et fotballfysisk
+ståsted (Verheijen, 2014). For å opprettholde evnen til å gjøre mange fotballhandlinger per minutt må man øve
+spillerne i å fortsette å gjøre mange fotballhandlinger gjennom å spille lengre kamper. Spill 11v11 og 8v8 er øvelser
+Verheijen anbefaler for å påvirke denne delen av fotballfysikken. Gjennom å justere banestørrelsen og lengden på
+kampene kan man kontrollere belastningen slik at spillerne må øve seg i å opprettholde evnen til å restituere seg
+mellom mange fotballhandlinger på rad.
+
+S. 30
+
+3.Resultater
+
+3.3.2.11. Ulike spillformer trener ulike fotballferdigheter
+I en nederlandsk studie ble alle spillformene fra 11v11 til 1v1 målt ift antall fotballhandlinger per spiller per minutt og
+naturlig nok viste det seg at spillformen 1v1 var den som ga flest fotballhandlinger per minutt (ibid). Hyppigheten av
+fotballhandlinger per minutt sank etter hvert som flere og flere spillere deltok i kampen. Med da man kom til 5v5 ble
+det en betydelig reduksjon i antall fotballhandlinger sammenliknet med 4v4 (keeper og tre utespillere). I 4v4 ble det
+mange en-mot-en situasjoner siden man endte opp med å spille en 1-3 formasjon med keeper bakerst og mann mot
+mann ute på banen. Dette førte til at alle medspillerne til enhver tid var markerte. I 5v5 (keeper og fire utespillere)
+begynte spillerne å spille mer i en diamant og derigjennom fikk spillet en mer taktisk karakter. Spillerne spilte ikke
+lenger bare fremover, men også sideveis og bakover. Dette var den spillformen med færrest spillere som hadde i seg
+spillfasen oppbygging av spillet. Antall handlinger per minutt falt etter som man gikk fra 5v5, via 6v6 til 7v7. Men da
+man kom til 8v8 fant man på nytt en betydelig reduksjon i antall fotballhandlinger per minutt. Og igjen viste det seg at
+grunnen til dette var å finne i den taktiske oppførselen til spillerne. Basert på videoanalyse så man at spillerne i 7v7
+organiserte seg med en keeper og to presseledd med tre spillere i hvert presseledd. Når man introduserte en spiller til
+fikk man en spiller som posisjonerte seg mellom de to presseleddene. Så i 8v8 så man de første sporene av spill i tre
+ledd. Og når man spiller med tre ledd istedenfor to blir spillet mer komplekst (ibid). Til tross for det gradvise fallet i
+antall fotballhandlinger var det relativt liten forskjell på 8v8, 9v9, 10v10 og 11v11. Det viste seg også at i spill 1v1 og
+2v2 ble det en veldig stor opphopning av melkesyre i muskulaturen til spillerne som ikke var i nærheten av det man
+finner i en fotballkamp og øvelsene ble derfor karakterisert om ikke fotballspesifikke.
+3.3.2.12. Teaching Games for Understanding
+Engelske forskere har kommet opp med noe de kaller Teaching Games for Understanding (TGfU). Konseptet TGfU
+går ut på å lære fotballspillet gjennom problemløsning i spilløvelser. TGfU hevder at man lærer best ved å bryte ned
+spillet i mindre bestanddeler eller å fremheve noen taktiske elementer ved spillet gjennom å lage spilløvelser som
+overdriver disse taktiske elementene (Bunker & Thorpe, 1982).
+Det er derfor et tydelig bilde som begynner å komme til syne om hvordan forskningen mener at man kan legger til
+rette for gode læringssituasjoner i fotball. Funnene fra litteraturstudien støtter bruk av spilløvelser som de primære
+øvingssituasjonene i fotball, hvor man i spilløvelsene kan manipulere målsetting, tema, læringsmomenter,
+banestørrelse, spillerantall, spilleretning, tidsavgrensning og spilleregler for å få frem de øvingssituasjonene man
+ønsker.
+
+S. 31
+
+3.Resultater
+
+3.4. Hvordan veilede spillerne til læring?
+For å kunne veile en fotballspiller gjennom en læringsprosess må man tilrettelegge læringen og veiledningen etter
+spillerens behov.
+
+3.4.1. For å kunne veilede spillerne må man vite hva de kan og ikke kan
+Den danske filosofen Søren Kierkegaard skrev i 1848 et notat han kalte «Synspunkter for min forfattervirksomhet»
+som ble utgitt i 1859, etter hans død. Dette notatet har han delt inn i flere paragrafer hvor paragraf to omhandler det
+han kaller hjelpekunst. Her er et utdrag av hva Kierkegaard skriver:
+«At man, naar det i Sandhed skal lykkes En at føre et Menneske hen til et bestemt Sted, først og fremmest maa passe
+paa at finde ham der, hvor han er, og begynde der. Dette er Hemmeligheden i al Hjælpekunst. Enhver, der ikke kan
+det, han er selv i en Indbildning, naar han mener at kunne hjælpe en Anden. For i Sandhed at kunne hjælpe en
+Anden, maa jeg forstaae mere end han – men dog vel først og fremmest forstaae det, han forstaaer. Naar jeg ikke
+gjør det, saa hjælper min Mere-Forstaaen ham slet ikke. Vil jeg alligevel gjøre min Mere-Forstaaen gjældende, saa er
+det, fordi jeg er forfængelig eller stolt, saa jeg i Grunden istedetfor at gavne ham egentligen vil beundres af ham. Men
+al sand Hjælpen begynder med en Ydmygelse; Hjælperen maa først ydmyge sig under Den, han vil hjælpe og herved
+forstaae, at det at hjælpe er ikke det at herske, men det at tjene, at det at hjælpe ikke er at være den Herskesygeste
+men den Taalmodigste, at det at hjælpe er Villighed til indtil videre at finde sig i at have Uret, og i ikke at forstaae hvad
+den Anden forstaaer.»
+Kierkegaard mener at for å kunne veilede noen må man forstå hvilke veiledningsbehov hver enkelt har.
+
+3.4.2. Veiledning og fotballspillet
+I følge Bert van Lingen (2016) er det best å veilede spillerne med et fotballspråk bestående av fotballhandlinger.
+Avtalene treneren har med laget handler ikke om vage ord som mentalitet, innstilling, konsentrasjon, osv. Avtalene går
+ut på pressing, komprimering, skape rom og andre fotballhandlinger. Likevel er det ikke slik at en trener kan veilede
+spillerne ved å si at dersom A oppstår så må man gjøre B. Fotballspillet er for komplekst og uforutsigbart til at treneren
+kan forutsi alt som skal skje i kampen og veilede spillerne i hva de skal gjøre i alle situasjoner (ibid). Veiledning i
+fotball starter derfor med å ha en felles referanse å veilede spillerne ut ifra. Dette kan gjøres gjennom å utvikle en
+spillestil som sier noe om hvordan man ønsker at laget skal angripe, forsvare og omstille. Innenfor denne spillestilen
+følger en detaljert beskrivelse av hvordan hver fotballhandling skal utføres for hver rolle i laget (ibid). Men uavhengig
+av trenerens kampplan og lagets spillestil så er det i møte med motspillet at gode og dårlige fotballhandlinger oppstår
+og det er denne uforutsigbarheten spillerne må lære seg å håndtere.
+Bert van Lingen sier at det er mange trenere som forsøker å fjernkontrollere handlingene til spillerne fra sidelinjen,
+spesielt når det er fare for at spillerne skal gjøre feil. Ved å gi spillerne svaret på hva de skal gjøre i spillsituasjonen
+gjør treneren det til sitt problem når spillet bryter sammen og alle spillerne ser til treneren for å komme opp med en
+løsning fra sidelinjen. Dette gjør spillerne inaktive og avhengige av treneren (ibid). Da øker sjansen for at spillerne vil
+
+S. 32
+
+3.Resultater
+
+se til sidelinjen for å få svar når laget har utfordringer, istedenfor at spillerne sammen kommer opp med svar i spillet.
+Problemene ute på banen må være lagets problemer og spillerne må lære seg å finne løsninger på egenhånd (ibid).
+I en tenkt spillestil er det en avtale om at spissen skal løpe mot første stolpe hver gang vingen har ball og er klar til å
+legge inn. Men i noen situasjoner er det mer hensiktsmessig at spissen ser bort ifra denne avtalen og heller løper mot
+bakerste stolpe. Hva sier treneren når vingen slår innlegget mot første stolpe i en slik situasjon? Treneren kan si at
+vingen burde slått innlegget på bakerste stolpe. I det tilfellet tar treneren på seg hele ansvaret og vingen vil ved neste
+anledning gjøre som treneren har sagt. Eller så kan treneren spørre vingen om han så hvor spissen var. Da sjekker
+treneren om vingen har løftet blikket for å se situasjonen inne i sekstenmeteren eller om han slo innlegget uavhengig
+av hva som skjedde inne i sekstenmeteren. Da handler veiledningen mer om å observere og ta valg med bakgrunn i
+det som blir observert, noe som kan bidra til å skape en mer bevisst prosess hos spillerne (ibid). Spillerne blir utfordret
+på å forbedre evnen sin til å lese situasjoner og ta bedre valg. Treneren har nå skapt et ideelt klima for å utvikle
+spillernes individuelle spilleforståelse, samt kommunikasjonen mellom spillerne (ibid).
+
+3.4.3. Hva kan man veilede spillerne på?
+Som veileder i fotball har man mulighet til å veilede spillerne i forhold til
+1. Problembestemmelsen (hva kjennetegner spillsituasjonen)
+2. Handlingsvalget (alternative handlingsmuligheter)
+3. Handlingsutførelsen (hensiktsmessigheten i bevegelsene)
+Ronglan (2008) mener det kan være viktig å skille mellom disse dimensjonene. Det å veilede spilleren i forhold til
+problembestemmelsen handler om spillerens evne til å gjenkjenne spillsituasjonen. Hvis den sentrale
+midtbanespilleren takler en motspiller og vinner ball, vil venstrevingen da kjenne igjen denne spillsituasjonen som en
+kontringsmulighet? Hvis ikke er det mulig for treneren å veilede spilleren på dette.
+I den samme situasjonen kan man også veilede spillerne på handlingsvalget. Den sentrale midtbanespilleren har
+vunnet ballen og kjenner igjen spillsituasjonen som en kontringsmulighet. Venstrevingen oppfatter også
+spillsituasjonen som en kontringsmulighet og skjærer innover mot bakrom sentralt i håp om å bli spilt gjennom alene
+mot keeper. Midtbanespilleren sentrer ballen sideveis til sidebacken før han går på et dybdeløp mot bakrom. Men på
+grunn at denne pasningen gikk sideveis rekker motstanderlaget å sette inn returløp for å få laget sitt i balanse. Løpene
+mot bakrom blir derfor fanget opp og nøytralisert. I denne situasjonen kan man veilede spilleren på handlingsvalget.
+Man kan også veilede spillere på den tekniske utførelsen av handlingsvalget. Den sentrale midtbanespilleren vinner
+ballen, oppfatter spillsituasjonen som en kontringsmulighet, ser løpet fra venstrevingen og slår ballen direkte inn i
+bakrom, men ballen går rett inn til keeper. I denne situasjonen kan man veilede spilleren på at den tekniske utførelsen
+av pasningen kan være annerledes. Kanskje ønsket man at pasningen skulle ha en vinkel som var litt mer ut mot
+sidelinjen enn den pasningen som ble slått rett fram inn i hendene til keeperen.
+
+3.Resultater
+
+S. 33
+
+I boken Football Periodisation (Verheijen, 2014) påpeker forfatteren at fotballhandlinger består av fire universelle
+komponenter som treneren kan veilede spillerne på. Disse er posisjon, tidspunkt, retning og fart.
+Alle fotballhandlinger har en posisjon. For eksempel kan man gjennom å påvirke posisjoneringen til høyrebacken i
+forhold til medspillerne og motspillerne når man bearbeider, gi høyrebacken mer tid og rom på seg til å slå en god
+pasning enn om han hadde hatt en svakere posisjonering.
+Alle fotballhandlinger starter på et bestemt tidspunkt og denne timingen kan optimaliseres. For eksempel vil det å slå
+pasningen på riktig tidspunkt være med på å øke sjansene for at pasningen blir vellykket. Timingen av pasningen er
+først og fremst basert på kommunikasjonen mellom spillerne.
+Alle fotballhandlinger har også en retning. For eksempel må pasningen slås i riktig retning for å være vellykket. Har
+medspilleren mann i rygg på venstresiden er det lurere å spille ballen til høyresiden for medspilleren enn til
+venstresiden for medspilleren.
+Og alle fotballhandlinger har en fart. For eksempel kan pasningen slås sakte eller hardt mot medspilleren. Hvis ballen
+slås for sakte eller for hardt vil pasningen enten brytes av en motspiller eller være for vanskelig for medspilleren å
+kontrollere i mottaket.
+
+Figur 16. Variablene treneren kan veilede en fotballhandling ut ifra.
+
+3.4.4. Ulike metoder for å veilede spillerne
+I 1966 lanserte underviseren Muska Mosston noe han kalte et spekter av undervisningsmetoder. Her klassifiserte han
+elleve ulike metoder for å veilede spillerne. Tretti år senere, i 1996 modifiserte Kirk, Nauright, Hanrahan, Macdonald
+og Jobling dette spekteret for å gjøre det noe mer brukervennlig. Dette gjorde de ved å gruppere noen av de
+sammenliknbare metodene sammen slik at man reduserte veiledningsmetodene fra elleve til fem. Nedenfor blir de
+fem metodene gjort rede for, men det er viktig å ta hensyn til at karakteristikkene til en av metodene ikke nødvendigvis
+er helt eksklusiv for bare den ene metoden siden de fremstilles som et kontinuum hvor det er naturlig at metodene
+som er plassert vedsiden av hverandre kan ha likheter (Cassidy, Jones & Potrac, 2004). Kirk m.fl (1996) grupperte
+
+S. 34
+
+3.Resultater
+
+metodene og kategoriserte dem slik: instruerende veiledning, oppgaverettet veiledning, gjensidig veiledning, veiledet
+oppdagelse, og problemløsende veiledning.
+3.4.4.1. Instruerende veiledning
+Karakteristikkene til instruerende veiledning er at treneren gir informasjon og retning til gruppen og spillerne, samt
+kontrollerer informasjonsflyten. Det er veldig vanlig å se trenere som benytter seg av instruerende veiledning (Cassidy
+m.fl., 2004). Når denne metoden er i bruk posisjonerer treneren seg som den kunnskapsrike og spillerne som de
+kunnskapstrengende. Et eksempel på instruerende veiledning er når treneren i en spillsituasjon forteller spillerne
+hvordan de skal løse spillsituasjonen og forventer at spillerne skal løse spillsituasjonen på trenerens måte.
+3.4.4.2. Oppgaverettet veiledning
+Karakteristikkene til oppgaverettet veiledning er i stor grad sammenfallende med instruerende veiledning. Men i tillegg
+er det typisk at treneren gir spillerne oppgaver som gjør at de kan løse dem noe mer uavhengig av treneren sin. Et
+eksempel kan være at treneren har spillsituasjoner på to baner samtidig hvor spillerne har fått klare oppgaver, men
+treneren er ikke tilstede til enhver tid for å instruere spillerne i oppgavene sine (ibid).
+3.4.4.3. Gjensidig veiledning
+Karakteristikkene til gjensidig veiledning er fortsatt ganske lik de to første i form av at treneren fortsatt bestemmer hva
+som skal gjøres og i hvilken rekkefølge det skal gjøres. Men ved denne metoden legger treneren nå vekt på at
+spillerne skal gi hverandre tilbakemeldinger. På New Zealand har man et utrykk man kaller tuakana-teina. Tuakana
+betyr storesøsken og teina betyr lillesøsken. Gjennom tuakana-teina setter man sammen duoer eller grupper med
+spillere av ulike ferdighet og erfaring hvor spillerne veileder hverandre, spør hverandre og samarbeider om å i
+fellesskap komme opp med løsninger (ibid). I boka Understanding Sport Coaching (2004) trekker forfatterne frem et
+eksempel fra New Zealandsk rugby hvor en av stjernespillerne forklarer sin raske fremgang gjennom måten en av de
+rutinerte spillerne som spilte samme rolle som han selv hadde hjulpet han i treningene med innsikt i hva han gjorde
+bra og hva han kunne gjøre bedre. I Norge er håndballjentenes teamjobbing under Marit Breiviks ledelse et godt
+eksempel på gjensidig veiledning satt i system. Marit Breivik satte sammen team for straffekast, målvaktsteam,
+overtallsteam (når det andre laget hadde spillere utvist i to minutter), kantspillerteam, osv hvor spillerne skulle veilede
+hverandre i forhold til teamets ansvarsområde. Alton-Lee publiserte i 2003 en studie som dokumenterte at gjensidig
+veiledning ga høyere elevprestasjoner enn oppgaverettet veiledning (Alton-Lee, 2003).
+3.4.4.4. Veiledet oppdagelse
+Karakteristikker ved denne metoden er at treneren legger til rette for aktiviteter som krever at spillerne blir mer
+uavhengige av treneren sin. Veiledet oppdagelse består av at treneren stiller relativt åpne spørsmål som treneren vet
+svaret på og forsøker å veilede spilleren til å oppdage dette svaret gjennom nøye utvalgte spørsmål. Et eksempel kan
+være at laget går til pause etter en førsteomgang hvor de har sluppet til mange innlegg imot på egen venstreside.
+Dette gjorde de fordi midtbaneleddet ikke hadde sideforskjøvet og komprimert nok over på venstresiden når baller var
+i framrom. Dermed hadde motstanderne klart å spille rundt eller gjennom midtbaneleddet og inn i venstre korridor hvor
+
+S. 35
+
+3.Resultater
+
+de hadde slått innlegg fra. Laget hadde heller ikke klart å få sidebacken tett nok i press og kantspilleren inn i sikring
+for å nekte disse innleggene.
+I pausen kan treneren derfor spørre laget om hva laget kan gjøre for å ikke slippe motstanderlaget gjennom på
+venstresiden, samt hvordan de kan stoppe innleggene dersom de ikke klarer å tette igjen dette hullet i
+midtbaneleddet. Treneren kan også spørre hvorfor dette skjer og hvorfor man skal gå for den ene eller andre
+løsningen.
+Selv om treneren vet svaret på disse spørsmålene oppfordrer han til en respons fra spillerne i en tro om at prosessen
+med å besvare disse spørsmålene vil forbedre spillernes forståelse av situasjonen (Cassidy m.fl., 2004).
+Veiledet oppdagelse er noe annet enn å stille ja/nei spørsmål eller retoriske spørsmål. Dersom treneren ønsker å
+utvikle spillernes evne til å løse spillsituasjoner etter hvert som de oppstår er det nødvendig å utfordre spillernes
+refleksjonsevne (ibid).
+3.4.4.5. Problemløsende veiledning
+Karakteristikken til problemløsende veiledning er sammenliknbar med veiledet oppdagelse. Men i denne metoden
+aksepterer treneren at det ikke nødvendigvis er en bestemt løsning som er riktig, selv om noen løsninger er bedre enn
+andre. Treneren oppfordrer spillerne til å være ansvarlige for prosessen med å komme opp med løsninger.
+Ved å benytte seg av en problemløsende veiledning så betyr ikke dette at treneren gir fra seg alt ansvaret til spillerne.
+Den virkelige læringen skjer når problemløsningene skal oppsummeres og evalueres i plenum sammen med treneren.
+Et eksempel på dette kan være at spillerne får ansvar for corneroppstillingen eller frisparkoppstillingene. I
+problemløsende veiledning er det helt nødvendig at treneren går gjennom disse problemløsningene (forslagene til
+oppstillinger) hvor de evaluerer styrkene og svakhetene ved hver oppstilling. Hvis ikke har treneren gitt fra seg alt
+ansvaret og kaos kan oppstå (ibid). Her stiller treneren spørsmål om hva som skjedde i de ulike oppstillingene, hva
+som fungerte og ikke fungerte og hvilke oppstillinger man kan forsøke seg på i neste kamp.
+
+3.4.5. Valg av veiledningsmetoder
+Trenerens valg av veiledningsmetoder styres av mange faktorer. Spillernes ferdighetsnivå og kunnskapsnivå,
+spillernes preferanser, hva som skal læres og konteksten til veiledningen er alle faktorer som kan påvirke dette valget.
+Ofte velger trenere veiledningsmetoder de selv opplevde fra sine trenere da de var spillere, eller veiledningsmetoder
+de observerer at andre trenere bruker (ibid). Dette kan fungere godt hvis den treneren man observerer er en
+høykvalitetstrener, men dette er ikke alltid tilfellet. Utfallet er derfor ofte at uønsket veiledning fortsetter å bli videreført
+(ibid).
+Valget av hver enkelt av disse veiledningsmetodene bærer med seg noen konsekvenser. Ved valg av instruerende
+veiledning er det fem konsekvenser som Cassidy m.fl. (2004) trekker fram. For det første får ikke spillerne innblikk i
+nyansene i spillet siden de ikke blir involvert som aktive lærende, men redusert til å memorere løsninger gitt fra
+treneren. For det andre produseres det lite ny informasjon siden treneren kontrollerer hele informasjonsflyten. For det
+
+S. 36
+
+3.Resultater
+
+tredje kan det virke svekkende på motivasjonen til spillerne at de ikke har noen medbestemmelse for hva og hvordan
+de skal lære. For det fjerde blir ikke spillernes problemløsning og kreativitet stimulert hvis de bare blir utsatt for
+instruerende veiledning. Og for det femte er det bevist at samarbeidet og evnen til å hjelpe hverandres læring er noe
+redusert i grupper hvor instruerende veiledning er den dominerende veiledningsmetoden (ibid).
+Mange av konsekvensene ved å velge oppgaverettet veiledning er knyttet til at treneren begynner å anerkjenne at
+spillerne er klare for å styre seg selv. Denne friheten tillater spillerne å se på sine egne behov og derigjennom gjøre
+oppdagelser for seg selv og komme opp med ny informasjon.
+Konsekvensene med å velge gjensidig veiledning er nært knyttet til de sosiale aspektene ved lagsdynamikken (ibid).
+Når spillerne gir hverandre tilbakemeldinger må de analysere spillsituasjonene, og være bevisst på hvordan de
+kommuniserer, noe som utvikler både spillforståelsen og sosiale bånd innad i laget.
+En potensiell konsekvens ved å bruke veiledet oppdagelse er utviklingen av refleksjonsevnen til spillerne. Gjennom å
+stille spillerne spørsmål så posisjonerer ikke treneren seg nødvendigvis som eksperten. En mulig konsekvens av dette
+er at erfarne spillere som tidligere har vært vant med en mer instruerende veiledning kan stille spørsmålstegn ved
+trenerens faktiske kunnskapsnivå. Derfor må man være nøye med å forklare hvorfor man bruker denne metoden og
+fordelene det gir (ibid).
+Konsekvensene ved å velge problemløsende veiledning er sammenliknbare med veiledet oppdagelse siden begge
+metodene er sentrert rundt bruken av spørsmål. Spesielt må man være oppmerksom på å ikke akseptere alle svarene
+som spillerne kommer med (ibid).
+I boka Ferdighetsutvikling i fotball (2002) peker forfatterne på at valg av veiledningsmetode burde ta hensyn til hva
+som passer trenerens personlighet, hva som passer spillergruppa og hva som passer den situasjonen laget er i
+(Bergo m.fl., 2002). Forfatterne anbefaler deretter at man bruke metoder som baserer seg på spørsmål.
+Fotballtreneren Jose Mourinho sier dette om valg av veiledningsmetode:
+“When you coach players of this caliber, you learn about human relationships. Players at this level don’t accept what
+they’re told simply because of the authority of the person who’s saying it. We have to show them that we’re right. The
+tactical work I encourage isn’t about there being a ‘transmitter’ on the one hand and a ‘receiver’ on the other. I call it
+‘guided discovery’; that is they discover according to my clues. I construct practice situations that will lead them on a
+certain path (Mitten, 2015)”.
+
+3.4.6. Ulike typer tilbakemelding
+Den viktigste formen for tilbakemelding på våre fotballhandlinger får vi fra kroppen selv (Ronglan, 2008). Denne
+tilbakemeldingen kalles en indre tilbakemelding. Vi kjenner på kroppen hvordan fotballhandlingen gikk og vi kan se
+med øynene våre hva utfallet av fotballhandlingen ble. Et spark på ballen kan ofte føles riktig eller feil, samtidig som vi
+ser om ballen gikk dit vi ønsket eller ikke. Slik indre tilbakemelding er spillerens viktigste kilde for å bedømme og
+justere sin egen bevegelse. Hvis treneren ønsker å veilede spilleren i teknisk utførelse er det viktig å være bevisst på
+
+S. 37
+
+3.Resultater
+
+den indre tilbakemeldingens betydning (ibid). Spillerens kroppslige opplevelse burde ikke overkjøres av trenerens
+opplevelse, men treneren kan forsterke den gjennom å stille spørsmål som hvordan kjentes treffet på ballen eller
+hvordan føltes balansen din i finta. Ved at treneren henleder spillerens oppmerksomhet på den indre tilbakemeldingen
+vil spilleren kunne bli dyktigere til å utnytte denne når de justerer fotballhandlingene sine (ibid).
+Når treneren gir en tilbakemelding til spillerne basert på sine observasjoner kalles dette ytre tilbakemelding. Den ytre
+tilbakemeldingen kommer alltid i tillegg til den indre tilbakemeldingen. Den ytre tilbakemeldingen kan enten søke å
+forsterke ønskede valg og handlinger eller korrigere uønskede valg og handlinger.
+Kirschenbaum og Smith (1983) fant at utydelige instruksjoner og kjeft er sterkt assosiert med svake prestasjoner og et
+negativt forhold til treneren, medspillerne og seg selv. Med andre ord har kjeft en negativ effekt på
+prestasjonsutvikling, kombinert med flere uheldige bieffekter.
+Men det å gi utelukkende positive tilbakemeldinger er heller ikke heldig for prestasjonsutvikling. I sosiologisk forskning
+har man pekt på at sosial påvirkningskraft blir svakere dersom man uttrykker meninger på samme måte hele tiden
+(bare skryt hele tiden eller bare sutring/kjeft hele tiden), sammenliknet med de som uttrykker meninger på flere ulike
+måter. Dersom du først gir en positiv tilbakemelding for så å gi en negativ tilbakemelding får du en annen effekt enn
+om du gjør det i motsatt rekkefølge. Ved å først gi en negativ tilbakemelding for så å gi en positiv tilbakemelding vil
+spillerne i større grad ta til seg den positive tilbakemeldingen. I motsatt tilfelle vil spillerne registrere den positive
+tilbakemeldingen som de først fikk, men fokusere mest på den negative tilbakemeldingen de fikk etterpå (Stockton &
+Morran, 1981). I et eksperiment som studerte ulike måter å gi tilbakemeldinger på fant forskerne at de som fikk både
+negative og positive tilbakemeldinger gjorde det langt bedre enn de som kun fikk positive eller negative
+tilbakemeldinger. Interessant nok gjorde kontrollgruppen som ikke fikk noen feedback det vel så bra.
+
+3.Resultater
+
+S. 38
+
+Figur 17. Kirschenbaum og Smith (1983) fant ut at ensidige negative eller ensidige positive tilbakemeldinger var
+negativt forbundet med gode prestasjoner.
+
+3.4.7. Tilbakemeldinger under stopp i spillet og underveis i spillet
+Bert Van Lingen skriver i sin bok Coaching Youth Football (2016) at for å tydeliggjøre hva hensikten med en
+spilløvelse er så bruker man en metode han kaller «bilde, snakk og øv». Dette innebærer at man så tidlig som mulig i
+treningen skal gi spillerne et visuelt bilde av hva man forsøker å oppnå. Deretter stopper man spillet noen ganger,
+eller det han kaller for å ta bilder. Når man står i disse bildene snakker man om hvordan denne spillsituasjonen ser ut i
+forhold til den ideelle løsningen eller spillestilens løsning på denne spillsituasjonen. Deretter forsterker og korrigerer
+man noe i disse bildene før man øver videre og tar hensyn til de felles referansene som ble skapt gjennom å ta disse
+bildene og snakke seg gjennom dem (ibid). Treneren veksler derfor på å forsterke og korrigere spillernes valg og
+handling i stillbilder i spilløvelse og samtidig som spilløvelsen er i spill. I «bilde, snakk og øv»-metoden bruker man
+stillbilder, eller såkalte frys, i starten av en spilløvelse for å tydeliggjøre intensjonen med øvelsen, tema og
+læringsmomenter (ibid). Deretter er det vanlig å gi tilbakemeldinger underveis i spilløvelsen for å ytterligere forsterke
+og korrigere spillernes valg og handlinger.
+
+S. 39
+
+3.Resultater
+
+3.4.8. Tilbakemeldinger ved hjelp av videobilder
+Ian Franks har gjort flere studier på trenerens tilbakemeldinger til spillere. Han konkluderte med at videobilder er den
+mest forståelig og effektive formen for tilbakemeldinger en spiller kan få (Hughes & Franks, 1997). På treningene gir
+trenerne tilbakemeldinger til spillerne basert på hva de observerer underveis i treningene, men det har vist seg
+vanskelig å få høy kvalitet på disse tilbakemeldingene siden trenerens observasjoner ofte er subjektive, upålitelige og
+unyanserte (Franks & Miller, 1991).
+
+4. Diskusjon
+
+S. 40
+
+4. Diskusjon
+Gjennom valg av litteraturstudie som vitenskapelig metode har jeg forsøkt å få svar på min problemstilling «hva er
+fotballdidaktikk og hvordan praktiseres god fotballdidaktikk?». I denne diskusjonsdelen skal jeg bruke resultatene fra
+litteraturstudien til å forsøke å besvare problemstillingen.
+Gjennom diskusjonsdelen skal jeg diskutere fire punkter som omhandler første del av problemstillingen, hva er
+fotballdidaktikk, og fire punkter som omhandler siste del av problemstillingen, hvordan praktiseres god fotballdidaktikk.
+Jeg kommer først til å si noe om hva fotballdidaktikk er før jeg diskuterer hvordan det kan praktiseres. Gjennom
+diskusjonen av disse punktene følger jeg denne oppbyggingen:
+1. Fotballdidaktikk er undervisning i fotballspillet som tar utgangspunkt i læring som prosess
+o
+
+Hvordan kan fotballtreneren undervise i fotball på en måte som tar utgangspunkt i læring som prosess?
+
+2. Fotballdidaktikk er undervisning i fotballspillet som stimulerer spillerne til å være en aktiv lærende som pleier sin
+egen læringsprosess gjennom en indre motivasjon
+o Hvordan kan fotballtreneren bygge sin undervisning for å stimulere spillernes indre motivasjon?
+3. Fotballdidaktikk er undervisning i fotballspillet gjennom å tilrettelegge for læringssituasjoner i fotball basert på
+kunnskap om fotballspillet
+o Hvordan kan fotballtreneren tilrettelegge for læringssituasjoner i fotball basert på kunnskap om
+fotballspillet?
+4. Fotballdidaktikk er undervisning i fotballspillet gjennom veiledning av spillerne i læringssituasjonene i fotball basert
+på kunnskap om fotballspillet
+o Hvordan kan fotballtreneren veilede spillerne til å lære i læringssituasjonene i fotball basert på kunnskap
+om fotballspillet?
+
+4.1. Hva er fotballdidaktikk og hvordan praktiseres god fotballdidaktikk?
+Resultatene i denne litteraturstudien peker mot at fotballdidaktikk bærer i seg fire hensyn:
+1. Undervisning i fotballspillet som tar utgangspunkt i læring som prosess
+2. Undervisning i fotballspillet som stimulerer spillerne til å være en aktiv lærende som pleier sin egen
+læringsprosess gjennom en indre motivasjon
+3. Undervisning i fotballspillet gjennom å tilrettelegge for læringssituasjoner i fotball basert på kunnskap om
+fotballspillet
+4. Undervisning i fotballspillet gjennom veiledning av spillerne i læringssituasjonene i fotball basert på kunnskap om
+fotballspillet
+I begynnelsen av denne teksten så vi på den didaktiske trekanten hvor representasjonsaksen fremhever relasjonen
+mellom lærer og innhold, kommunikasjonsaksen fremhever forholdet mellom lærer og elev i undervisningen og
+erfaringsaksen fremhever elevens forhold til innholdet.
+
+4. Diskusjon
+
+S. 41
+
+Figur 18. Den didaktiske trekanten (Lyngnes & Rismark, 1999).
+Denne modellen tar utgangspunkt i teoretiske klasseromsfag og ikke i praktiske læringssituasjoner som man møter i
+fotballspillet. Likevel bærer den i seg noe interessant i form av at den ser på kommunikasjonen mellom lærer og elev,
+forstått som trenerens veiledning til spilleren, relasjonen mellom elev og innhold, forstått som spillernes møte med
+læringssituasjonene i fotball og relasjonen mellom læreren og innhold, forstått som trenerens forståelse for fotballteori.
+Altså kan man overføre denne modellen til fotballdidaktikk ved å gjøre noen modifikasjoner. Men helt presis blir den
+fortsatt ikke. Derfor har jeg tillatt meg å lage en fremstilling av hvordan fotballdidaktikken fremstår i tråd med funnene i
+denne litteraturstudien.
+
+4. Diskusjon
+
+S. 42
+
+Figur 19. Fremstilling av fotballdidaktikken og dens bestanddeler.
+I denne modellen starter fotballdidaktikk med fotballteori. For å kunne undervise i fotball er det essensielt å forstå hva
+fotballspillet er, dets egenart, hva den er bygd opp av og hva som er viktigst og nest mest viktig i fotball – kort og godt
+må treneren kunne fotballteori.
+Ut ifra trenerens kompetanse i fotballteori vil treneren kunne legge til rette for læringssituasjoner i fotball og veilede
+spillerne i læringssituasjonene. Med tilrettelegging menes å skape meningsfull fotballaktivitet på fotballtreninger som
+har til hensikt å lære spillerne om fotballkampen og det spillerne møter der. Med veiledning menes kommunikasjonen
+mellom trener og spillere i disse læringssituasjonene som har til hensikt å hjelpe spillerne med å lære om
+fotballkampen.
+Gjennom trenerens tilrettelegging og veiledning søker treneren å påvirke spillernes læring av fotballspillet. Derfor må
+tilretteleggingen og veiledning bære i seg en forståelse av hva læring er og hvordan læring foregår, i tråd med
+litteraturen presentert i denne litteraturstudien.
+
+4.1.1. Fotballdidaktikk er undervisning i fotballspillet som tar utgangspunkt i læring som
+prosess
+Gjennom litteraturstudien så vi at læring er en prosess, ikke utfallet av en prosess. For at læring skal skje så vi at det
+kreves en aktiv lærende som legger ned et læringsarbeid selv. Dette læringsarbeidet består av fem steg som til
+sammen utgjør en læringsprosess som ikke har en definert start og en definert slutt, men som utvikler seg som en
+spiral:
+
+S. 43
+
+4. Diskusjon
+
+1. Oppdage et problem
+2. Akseptere det på alvor
+3. Arbeide realistisk for livet
+4. Knytte det til egne erfaringer
+5. Prøve det ut og anvende i praksis
+I dette læringsbegrepet ligger det at fotballtreneren må legge til rette for at spillerne kan oppdage problemer i
+fotballspillet og finne løsninger på dette problemet som de kan prøve ut og anvende i praksis. Treneren kan ikke tre
+sin kunnskap om fotballspillet ned over hodet på spillerne, men han kan legge til rette for at spillerne oppdager
+problemer, finner løsninger og prøver de ut selv. Gjennom bruk av veiledet oppdagelse som veiledningsmetode vil
+treneren kunne få spillerne til å finne de løsningene i spillet som treneren selv er ute etter å lære dem.
+
+4.1.2. Hvordan kan fotballtreneren undervise i fotball på en måte som tar utgangspunkt i
+læring som prosess?
+Forståelsen for hvordan læring foregår får en direkte konsekvens for både hvordan man tilrettelegger og veileder i
+læringssituasjonene. I tilretteleggingen av læringssituasjoner må det være mulig for spillerne å oppdage problemer,
+finne løsninger og prøve de ut. Det vil si at isolerte øvelser hvor det ikke er et problem ikke kan være en prioritert
+læringssituasjon. Istedenfor må man benytte seg av spillsituasjoner hvor det kan være flere løsningsmuligheter hvor
+spillerne må utforske hva som kan være riktig løsningsmulighet og prøve ut dette.
+Veiledningen fra treneren må ivareta hensynet om at det er spilleren selv om må finne løsningene. Derfor vil ikke den
+instruerende veiledningen være en prioritert veiledningsmetode. Men både gjensidig veiledning, veiledet oppdagelse
+og problemløsende veiledning kan være aktuelle veiledningsmetoder som stimulerer spillerne til å finne løsninger.
+Men det er helt avgjørende at spillerne ikke alene har makt til å definere lagets spillestil. Spillestilen burde være
+forankret hos treneren, men at spillerne kan være med på å finne måter å løse spillestilen på som passer akkurat
+denne spillergruppen.
+
+4.1.3. Fotballdidaktikk er undervisning i fotballspillet som stimulerer spillerne til å være en
+aktiv lærende som pleier sin egen læringsprosess gjennom en indre motivasjon
+Den beste læringen skjer når spillerne er inderlig opptatt av å pleie sin egen læringsprosess. Derfor må
+undervisningen til treneren forsøke å stimulere denne indre motivasjonen til å pleie sin egen læringsprosess hos
+spillerne. I tråd med litteraturen kan treneren stimulere den indre motivasjonen hos spillerne ved å legge til rette for at
+spillerne opplever et samsvar mellom utfordringer og egne ferdigheter slik at det får kjenne at egen kompetanse
+vokser, når de får medbestemmelse i hvordan læringssituasjonen sin skal være, når de føler en tilhørighet til de man
+lærer sammen med, når de er opptatt av å både bli en bedre versjon av seg selv og samtidig vinne over andre, når de
+er bevisst på at vekst og utvikling er noe de har makt til å påvirke selv og når de setter seg mål, jobber i forhold til
+disse og reflekterer over sin egen læring i forhold til disse målene.
+
+S. 44
+
+4. Diskusjon
+
+4.1.4. Hvordan kan fotballtreneren bygge sin undervisning for å stimulere spillernes indre
+motivasjon?
+Behovet for å oppleve kompetanse ble tydelig understreket både i teorien om flyt og Selvbestemmelsesteorien. Det er
+derfor viktig at treneren vet hva slags kompetanse hver enkelt spiller har slik at treneren kan legge til rette for øvelser
+som har en optimal vanskelighetsgrad for hver spiller. En optimal vanskelighetsgrad innebærer at den er så vanskelig
+at man må prøve sitt aller beste for å klare oppgaven. Det er dette opplevelsen av kompetanse går ut på. Det handler
+altså ikke om å gi spillerne oppgaver som de allerede mestrer for at de skal oppleve mest mulig mestring. Dette mener
+jeg er en stor misforståelse og en vanlig fallgruve når man snakker om mestring og kompetanse hos spillerne. Men
+dette betyr ikke at man skal slutte å sette spillerne opp i situasjoner hvor de er har kompetanse, i tråd med
+godfotteorien, men at man skal øke vanskelighetsgraden på de situasjonene hvor spillerne allerede er komfortable og
+ikke lenger møter den nødvendige motstanden som tvinger dem til å gjøre sitt beste.
+Et eksempel kan være at man har en venstreving som har høy kompetanse på dribling 1v1 ute i korridoren av banen.
+Man skal ikke slutte å sette venstrevingen opp i situasjoner hvor han kan bruke denne kompetansen, men øke
+vanskelighetsgraden i spillsituasjonen ved å introdusere en sikringsspiller eller utfordre spilleren på å både kunne gå
+utover for å skape en innleggssituasjon og gå innover for å true mellomrom sentralt enten med pasning, dribling eller
+skudd.
+Videre kan treneren legge til rette for at spillerne får medbestemmelse. Dette kan være både i forhold til løsning av
+spillsituasjoner og i noen tilfeller antall treninger, øvelsesutvalg osv. Her er det viktig å påpeke at det er opplevelsen
+av medbestemmelse som stimulerer den indre motivasjonen. Opplevelsen av at spillerne kan være med på å påvirke
+sin egen læringsprosess og ramme rundt denne er noe annet enn at spillerne tar over ansvaret fra treneren for
+periodisering, tilrettelegging av spillsituasjoner og veiledning i spillsituasjonene. Men det er også noen annet enn at
+treneren dikterer hvordan ting skal være uavhengig av spillernes behov og interesser. Mer presist sagt handler det om
+at spillerne opplever at de kan være med på å bestemme at sine behov og interesser blir ivaretatt.
+En annen måte å stimulere den indre motivasjonen er at spillerne føler tilhørighet til læringsfellesskapet. Her har man
+tradisjonelt sett vært dyktige i fotball. Tilhørighet til fellesskapet kan man skape gjennom å ha en kultur i gruppen for at
+man respekterer hverandre og bryr seg om hverandre og at alle får muligheten til å bidra til fellesskapet. Nettopp
+opplevelsen av at man bidrar til et fellesskap er en sterk mekanisme for å skape tilhørighet. Det samme er effekten av
+at noen fra læringsfelleskapet viser at de bryr seg om deg, ikke bare som fotballspiller, men som menneske.
+Treneren kan også styrer læringsmiljøet i gruppen til å både være opptatt av å bli en bedre versjon av seg selv og
+samtidig vinne over andre. Vi har sett at lag og spillere som bare er opptatt av å vinne over andre får en motivasjon
+som fort kan ødelegges når laget og spillerne møter motgang. I fotball ligger det i spillet at det vil være en vinner og en
+taper, så ofte vil mange spillere allerede være høy på resultatorientering. Derfor vil det ofte være nyttig å få spillerne til
+å bli oppgaveorientert i tillegg. Dette kan man gjøre gjennom å sette seg realistiske korttidsmål som spillerne
+evaluerer seg selv i forhold til. Her er det viktig at for å stimulere den indre motivasjonen må dette være målsettinger
+som spillerne selv velger og ønsker å jobbe med. Når spillerne når målsettingene sine må de feires og markeres før
+
+S. 45
+
+4. Diskusjon
+
+man setter et nytt realistisk korttidsmål. Hvis man i tillegg har målsettinger sammen med andre spillere som de bare
+kan løse i fellesskap vil man klare å få enda mer ut av oppgaveorienteringen. Oppgaveorienteringen blir enda mer
+stimulert hvis spillerne får tilbakemeldinger fra trenerne basert på målsettingene sine og ikke på det de gjorde galt i
+forrige kamp. Det at spillerne får nok tid til å nå sine målsettinger er også positivt, istedenfor at målsettinger blir
+forkastet før man har fått tid til å nå dem. Målsettinger man når, ikke umiddelbart, men om en stund er ofte de beste
+mestringsfølelsene.
+For å kunne stimulere den indre motivasjonen må spillerne være overbevist om at vekst og utvikling er noe de har
+makt til å påvirke selv. Begrepet fotballtalent kan være kvelende for mange og føre til at man opplever et
+prestasjonsprest. Dette presset kan føre til skuffelse når man ikke presterer fordi man da betviler om man faktisk er et
+fotballtalent, eller et godt fotballag. Derfor må man være forsiktig med å sette merkelapper på spillere og lag ettersom
+det kan føre til en stigmatisering og tro på at sin ferdighet er statisk og ikke noe man har kontroll over selv. Dette kan
+man løse gjennom å snakke om hvordan man skal håndtere motgang og at man selv definerer hvordan man ønsker å
+løse de utfordringene man får – fordi det er nettopp denne motstanden som er nødvendig for å få fremgang. Hvis
+spillerne og laget blir sultne etter motstand og å overvinne motstand har man et veldig godt utgangspunkt for å
+stimulere den indre motivasjonen.
+Et annet verktøy er selvregulering. Det at spillerne setter seg mål, jobber i forhold til disse og reflekterer over sin egen
+læring i forhold til disse målene kan settes i system. En måte å systematisere dette på er å skriftliggjøre det. Dette er
+ikke nødvendigvis riktig måte for alle, men det kan være en av flere måter å jobbe med selvregulering på. På neste
+side er et forslag.
+
+4. Diskusjon
+
+S. 46
+
+Skjema for treningskvalitet
+1 og 2 fylles ut før trening
+3-8 fylles ut etter trening
+
+Navn:__________________
+Dato:__________________
+
+1. Hva er mitt utviklingsmål for dagens trening?
+
+2. I hvor stor grad kan jeg klare å gjøre mitt beste gjennom hele økta i dag?
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100%
+
+3. Treningsbelastning (hvor utmattende var økta?)
+Lett
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Hard
+
+4. Treningsmotstand (hvor mye mislyktes jeg med det jeg prøvde på?)
+Lite
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Mye
+
+5. I hvor stor grad gjorde jeg mitt aller beste i løpet av økta i dag?
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100%
+
+6. To positive ting jeg tar med meg fra denne økta?
+A:
+B:
+7. To ting jeg må forbedre på neste økt?
+A:
+B:
+8. Har jeg / skal jeg drive noen egentrening i dag? Hva da?
+
+S. 47
+
+4. Diskusjon
+
+4.1.5. Fotballdidaktikk er undervisning i fotballspillet gjennom å tilrettelegge for
+læringssituasjoner i fotball basert på kunnskap om fotballspillet
+I tråd med litteraturen må treneren legge til rette for intensjonell trening som ivaretar fire hensyn:
+1. Spillerne må være motivert for oppgaven og motivert for å forbedre seg
+2. Oppgaven må ta hensyn til spillernes nåværende ferdighetsnivå og kunnskapsnivå
+3. Spillerne må få umiddelbar tilbakemelding på sin prestasjon
+4. Spillerne må gjenta øvingssituasjoner ofte hvor de løser de samme oppgavene om igjen
+Spillerne må i tråd med spesifisitetsprinsippet øve på å mestre fotballkampen. Dette gjør man ved å øve på
+spillsituasjoner man finner i de ulike fasene av spillet. I disse spillsituasjonene skal man øve seg på å skape og utnytte
+spillsituasjoner til fordel for eget lag. Spillerne må øves i både å få til bedre fotballhandlinger, flere fotballhandlinger,
+samt at de må øve på å opprettholde evnen til å gjøre gode og mange fotballhandlinger etter hvert som spilletiden går.
+Treningene kan ha spilløvelser både høyt og lavt på funksjonalitetsskalaen, men man ønsker så høy funksjonalitet
+som mulig hvor spillerne får mange repetisjoner i de spillsituasjonene de skal øve på. Disse spillsituasjonene er
+planlagt rundt et tema med tilhørende læringsmomenter som fungerer som tips til hvordan spillerne kan løse
+spillsituasjonene på en bedre måte.
+Alle treninger og kamper er planlagt gjennom periodisering. Her har man planlagt hva man skal trene på til hvilken tid,
+hvordan man skal trene på det og hvordan progresjonen skal være. Restitusjonstid i øvelser, mellom øvelser og
+mellom treninger er også planlagt i denne periodiseringen.
+Denne planleggingen bærer også i seg en bevissthet rundt variasjonsprinsippet, aktivitetsprinsippet og
+kvalitetsprinsippet.
+
+4.1.6. Hvordan kan fotballtreneren tilrettelegge for læringssituasjoner i fotball basert på
+kunnskap om fotballspillet?
+Vi har sett at spillsituasjoner skal brukes som læringssituasjon og at spillsituasjoner er hentet fra fotballkampens ulike
+spillfaser. På neste side gis et forslag til inndeling av fotballkampen i spillfaser, underfaser til hver spillfase og
+spillsituasjoner som tilhører hver underfase.
+
+4. Diskusjon
+
+S. 48
+Kampstrategi
+
+Reaktiv strategi
+
+Proaktiv strategi
+
+Spillfase
+
+Etablert forsvar
+
+Overgang fra forsvar til
+angrep
+
+Etablert angrep
+
+Overgang fra angrep til
+forsvar
+
+Underfase 1
+
+Vinne ball i framrom
+
+Balansevurdering
+
+Få tilgang til prioriterte
+rom
+
+Balansevurdering
+
+Spillsituasjon
+1a
+
+Vinne ball i høyt press
+
+I møte med god balanse
+
+Påfør motstander
+ubalanse
+
+Med mulighet for
+gjenvinning
+
+Spillsituasjon
+1b
+
+Vinne ball i lavt press
+
+I møte med ubalanse
+
+Bevar egen balanse
+
+Uten mulighet for
+gjenvinning
+
+Underfase 2
+
+Nekte defensive
+scoringssituasjoner
+
+Øk motstanders ubalanse
+og bevar egen balanse
+
+Utnytt prioriterte rom
+
+Øk egen balanse
+
+Spillsituasjon
+2a
+
+Kontrollere bakrom
+
+Øk motstanders ubalanse
+
+Komme inn i mellomrom
+
+Romprioritering
+
+Bevar egen balanse
+
+Komme inn i bakrom
+
+Fylle opp ledd
+
+Spillsituasjon
+Kontrollere mellomrom
+2b
+
+Underfase 3
+
+Håndtere defensive
+scoringssituasjoner
+
+Utnytt offensive
+scoringssituasjoner
+
+Utnytt offensive
+scoringssituasjoner
+
+Håndtere defensive
+scoringssituasjoner
+
+Spillsituasjon
+3a
+
+Håndtere innlegg imot
+
+Innlegg
+
+Innlegg
+
+Håndtere innlegg imot
+
+Spillsituasjon
+3b
+
+Håndtere
+inntrengninger sentralt
+
+Inntrengninger sentralt
+
+Inntrengninger sentralt
+
+Håndtere inntrengninger
+sentralt
+
+Figur 20. Spillsituasjoner i fotball.
+I resultatdelen så vi at Verheijen hadde to faser for angrepsspill (bygge opp og score mål) og to faser for forsvarsspill
+(hindre oppbygging og hindre mål) og at NFF opererte med tre faser for forsvarsspill (vinne ball, hindre tilgang til
+prioriterte rom og hindre mål) og tre faser for angrepsspill (bearbeiding, inn i prioriterte rom og score mål), samt en
+balansevurdering i omstillingen. Selv om begge disse modellene gir et bilde av fotballkampens bestanddeler blir de
+ikke praktisk anvendelig nok inn imot en treningshverdag hvor man skal tilrettelegge for gode læringssituasjoner. Figur
+20 er ikke ment som en fasit på hvilke spillsituasjoner fotballspillet bærer i seg, men gir en grovmasket illustrasjon av
+hvilke spillsituasjoner en trener kan velge å øve laget sitt i. Det er altså ikke ment å være en teoretisk beskrivelse av
+fotballspillet, men et objektivt didaktisk verktøy som kan hjelpe til med tilretteleggingen av læringssituasjoner. Hvordan
+laget ønsker å løse disse ulike spillsituasjonene avhenger av lagets subjektive spillestil. Men laget må altså ha
+retningslinjer (spillestil) for hvordan de ønsker å løse hver av disse spillsituasjonene. Enten kan treneren diktere
+hvordan disse spillsituasjonene skal løses eller så må spillerne gjennom å oppdage problemer, utforske og prøve ut
+
+S. 49
+
+4. Diskusjon
+
+finne løsninger på spillsituasjonene. Men til slutt må laget ha en kollektiv og samlet forståelse av hvordan laget skal
+opptre i disse spillsituasjonene.
+I øvingen av disse spillsituasjonene må man ivareta spesifisitetsprinsippet. Det vi si at man ikke øver kontringsspill i
+isolerte øvelser hvor treneren angir hvor ballen har blitt vunnet, setter opp kjegler hvor løpene skal starte fra og
+skisserer et pasningsmønster som skal følges når man kontrer. Når man øver på å øke motstanderlagets ubalanse
+når man kontrer (spillsituasjon 2a i overgang fra forsvar til angrep i figur 20) må laget vinne ballen fra et annet lag,
+tolke balansen i motstanderlaget for så å bestemme seg for å kontre. Hvordan laget kontrer (med hvilke spillere og
+hvor mange spillere, inn i hvilke rom til hvilken tid, osv) styres av lagets retningslinjer (spillestil). Men
+læringssituasjonen må altså ha både en ball, to fotballag med flere spillere på hvert lag, en angrepsretning, et
+avgrenset område og flere ting som hører fotballkampen og fotballkontringen til.
+Men innenfor alle disse spillsituasjonene er det mulig å bevege seg opp og ned på funksjonalitetsskalaen.
+Utgangspunktet er hvordan spillsituasjonen ser ut i 11v11 og derfra kan man manipulere spillsituasjonen til å ha et
+annet antall spillere, en annen banestørrelse, andre spilleregler, annen tidsbegrensning, osv. Men her må man være
+oppmerksom på at jo lengre man beveger seg bort i fra den opprinnelige spillsituasjonen i 11v11 jo vanskeligere blir
+det for spillerne å ta med det man har øvd på inn i fotballkampen (11v11). For at hver spiller skal få mange øvinger i
+disse spillsituasjonene må man nødvendigvis bryte ned spillet til noe mindre enn 11v11 hvor man kan øve på å gjøre
+bedre fotballhandlinger, flere fotballhandlinger, opprettholde evnen til å gjøre gode fotballhandlinger og opprettholde
+evnen til å gjøre mange fotballhandlinger. Hvilken av disse delene av fotballferdigheten man trener avhenger av
+banestørrelse, spilletid, antall spillere, spilleregler, osv., så her blir det opp til trenerens periodisering å styre hva man
+skal trene på i hvilke spilløvelser.
+Men uomtvistelig ønsker man å trene på å gjøre handlingsvalg og handlinger for å skape og utnytte spillsituasjoner til
+fordel for eget lag. Dette legger føringer for at man både må ha spillsituasjoner og mulighet til å gjøre mange valg og
+mange handlinger som igjen peker tilbake til spesifisitetsprinsippet og funksjonalitetsskalaen.
+Inne i disse spillsituasjonene har treneren definert et tema og læringsmomenter. Det vil si at spillerne like gjerne kan
+komme opp med tema og læringsmomenter, men det må være treneren som leder prosessen med å filtrere ut hvilke
+læringsmomenter som er gode og hvilke som er mindre gode. Etter man har valgt hvilken spillsituasjon man skal øve
+på så gir tema seg litt selv, men det er nyttig å ha med seg konkrete læringsmomenter for hvordan man best kan løse
+spillsituasjonen.
+I tråd med variasjonsprinsippet må man ha en bevissthet rundt at man varierer på hvilke spillsituasjoner man øver på.
+Dersom man jobber mye med å håndtere innlegg imot og lite med resten av spillsituasjonene vil dette kunne påvirke
+motivasjonen til spillerne, samtidig som det kan føre til at spillerne behersker flere av spillsituasjonene de møter i
+kamp relativt dårlig.
+I tråd med aktivitetsprinsippet har vi klart å få alle spillerne i bevegelse når vi øver på å løse spillsituasjoner i kamplike
+spilløvelser. Men dette betyr ikke nødvendigvis at aktivitetsprinsippet er ivaretatt. Man kan likevel ende opp med lite
+
+S. 50
+
+4. Diskusjon
+
+aktivitet dersom mye av treningen går med på å stoppe spillet, instruere, forklare, ha problemløsende diskusjoner,
+osv. Og aktivitet kan like gjerne være tankeaktivitet som bevegelsesaktivitet og man har ingen garanti for at alle
+spillerne har høy tankeaktivitet gjennom treningen, og at man dermed synder mot aktivitetsprinsippet. Derfor er det lurt
+av treneren å sjekke om alle spillerne faktisk har en høy tankeaktivitet rundt spillsituasjonene eller om tankeaktiviteten
+deres har forsvunnet over på andre ting.
+Både gjennom tilretteleggingen og veiledningen burde man ha fokus på kvalitetsprinsippet. Spillerne må møte
+spillsituasjoner hvor de må gi sine aller beste forsøk for å løse oppgaven, samtidig som treneren har et bevisst forhold
+til hvor mye spillerne skal hvile mellom hvert forsøk på å løse spillsituasjonen. Hvis man ønsker at de skal ha best
+mulig forsøk (best mulig fotballhandlinger) må man ha lange pauser mellom hvert forsøk. Skal man øve på å ha
+mange forsøk etter hverandre (mange fotballhandlinger) er det nettopp det de må øve på gjennom å ha få eller korte
+pauser mellom hvert forsøk.
+I planleggingen av treningen må man ha et forhold til hva man skal tilrettelegge for, hvordan man skal tilrettelegge for
+det, hva man skal veilede spillerne på og hvordan man skal veilede spillerne. Så det er flere ting treneren må ha en
+bevissthet rundt dersom han ønsker å bruke hele didaktikken til å øke spillerne læring. Nedenfor er en oversikt som er
+ment som et didaktisk verktøy og ikke en teoretisk beskrivelse av fotballspillet eller en mal for treningen. I dette
+eksempelet har treneren valgt å jobbe med spillsituasjon 1a under etablert angrepsspill slik det står oppført i figur 20.
+
+4. Diskusjon
+
+S. 51
+Treneren må velge hvilken spillfase
+det skal øves på
+Treneren må velge hvilken
+underfase det skal øves på
+Treneren må velge hvilken
+spillsituasjon det skal øves på
+Treneren må definere målet for
+spillsituasjonen
+
+Spillfase
+
+Etablert angrep
+
+Underfase
+
+Få tilgang til prioriterte rom
+
+Spillsituasjon:
+
+Påfør motstander ubalanse
+
+Mål:
+
+Påføre motstander ubalanse så
+man får tilgang til prioriterte rom
+
+Treneren må ta bruk av
+spilleprinsippene for å tilrettelegge
+
+Spilleprinsipper:
+
+Bevegelse, dybde og bredde
+
+Treneren må coache
+
+Coaching på
+
+Kollektiv forståelse av
+
+samhandlingen i laget
+
+kommunikasjon:
+
+spillsituasjonen
+
+øvelsen og veilede spillerne
+
+Treneren må coache på
+handlingsvalgene til spillerne
+
+Coaching på valg:
+
+Valg tatt med bakgrunn i lagets
+spillestil
+
+Treneren må coache på
+
+Coaching på
+
+Posisjonering, timing, fart og
+
+handlingene til spillerne
+
+utførelse:
+
+retning på fotballhandlinger
+Gjøre eksplosive handlinger,
+
+Treneren må tilrettelegge for og
+coache fotballfysikken til spillerne
+
+Tilrettelegging og
+
+gjøre mange handlinger,
+
+coaching på
+
+opprettholde eksplosive
+
+fotballfysikk:
+
+handlinger og opprettholde
+mange handlinger
+
+Treneren må velge hensiktsmessig
+veiledningsmetode
+
+Instruerende, oppgaverettet,
+Veiledningsmetode: gjensidig, oppdagelse eller
+
+Figur 21. Didaktisk planleggingsverktøy for fotballtreninger.
+
+problemløsende
+
+S. 52
+
+4. Diskusjon
+
+4.1.7. Fotballdidaktikk er undervisning i fotballspillet gjennom veiledning av spillerne i
+læringssituasjonene i fotball basert på kunnskap om fotballspillet
+Når man skal veilede spillerne må man vite hva de kan og ikke kan. Derfra kan man veilede spillerne på det nivået de
+er. Denne veiledningen må skje med et fotballspråk som bruker handlingsord og ikke vage, konktekstløse ord.
+Veiledningen kan være på spillernes problembestemmelse, handlingsvalg eller handling. Fotballhandlingene til
+spillerne kan veiledes ift posisjon, timing, fart og retning.
+Veiledningen kan enten være instruerende, oppgaverettet, gjensidig, oppdagende eller problemløsende, avhengig av
+situasjonen laget er i, hva spillerne trenger og hva treneren behersker.
+Veiledningen må ivareta spillerens indre tilbakemeldinger, men kan suppleres med ytre tilbakemeldinger. De ytre
+tilbakemeldingene må ikke være ensidig positive eller ensidig negative.
+Tilbakemeldingene fra treneren kan komme under stopp i spillet gjennom «bilde, snakk og øv»-metoden eller gjennom
+løpende tilbakemeldinger i spillets gang. De aller tydeligste tilbakemeldingene blir gitt gjennom videobilder.
+
+4.1.8. Hvordan kan fotballtreneren veilede spillerne til å lære i læringssituasjonene i fotball
+basert på kunnskap om fotballspillet?
+For å kunne veilede en fotballspiller eller et lag så må man vite hva spilleren og laget kan og ikke kan. Allerede her er
+det mange trenere som bommer og ender opp med å snakke over hodet på spillerne eller å bare gjenta
+selvfølgeligheter som får spillerne til å kjede seg. Verheijen sa det fint i boka How simple can it be (2015) i sin
+karakteristikk av Johan Cruijff hvor han påpeker at Cruijff kan det meste om fotball, men når han forteller om fotball
+hopper han over alt det elementære og går rett inn i detaljene. Derfor er det ingen som forstår hva Cruijff snakker om
+(ibid).
+For at jeg skal kunne hjelpe deg med å bygge bro mellom det du kan og det du ikke kan, må jeg først vite hva du kan
+og hva du ikke kan. Gjennom denne kunnskapen kan jeg begynne å forstå hva slags veiledning akkurat du har behov
+for.
+Og for at veiledningen skal være forståelig må det ikke være rom for misforståelser. Gjennom å bruke vage og
+kontekstløse ord åpner man opp for subjektive tolkninger og et mulighetsrom for misforståelser åpner seg. Dersom jeg
+vil at laget mitt skal gjenvinne ballen etter balltap hurtigere hjelper det ikke å snakke om innsats, aggressivitet og
+fandenivoldskhet. Men det kan hjelpe å snakke om at spillerne må returløpe, presse, pumpe og skjære av
+pasningsvinkler. Ved å bruke disse fotballhandlingsordene blir det mindre rom for misforståelser og kommunikasjonen
+mellom trener og spiller blir tydeligere.
+For å veilede spillernes fotballhandlinger må man forstå hva ved fotballhandlingen man må veilede for å få en
+prestasjonsforbedring. Dersom spilleren ikke kjenner igjen spillsituasjonen må man veilede spilleren slik at han klarer
+å kjenne igjen spillsituasjonen, hva som er målsettingen med denne spillsituasjonen og hvordan han best kan løse
+
+4. Diskusjon
+
+S. 53
+
+den. Hvis spilleren velger en løsning i spillsituasjonen som ikke var optimal så er det dette valget man veileder
+spilleren på. Målet er at spillerne skal fatte valg med bakgrunn i lagets spillestil og derigjennom skape og utnytte
+spillsituasjoner til fordel for eget lag. Treneren har også mulighet til å veilede spilleren på utførelsen av handlingen sin.
+Her kan det være fire ting som gikk bra eller dårlig: posisjon, timing, fart og retning. En god veiledning skjer ved at
+treneren ser hvorfor noe gikk galt eller riktig og forsterker eller korrigerer deretter. Kanskje var posisjoneringen til
+spilleren optimal for å skaffe seg tid og rom til å slå pasningen. Da forsterkes denne gode posisjoneringen. Kanskje
+var timingen i pasningen også suveren og treneren kan rose denne. Farta i pasningen var også bra. Den var akkurat
+myk nok til at medspilleren kunne motta den og akkurat hard nok til at ballen nådde frem til medspiller før det andre
+laget fikk tettet det ledige rommet. Men kanskje var ikke retningen optimal. Ballen ble spilt i beina på spilleren
+istedenfor i rommet foran spilleren slik at han kunne opprettholde farten sin og ta med ballen fremover i fart (medløp).
+I så fall er det rom for at veiledningen kan korrigere retningsaspektet ved pasningsutførelsen. Både oppfattelse av
+spillsituasjon, valg og alle deler bortsett fra retningen på pasningen var optimal. Men det at retningen var dårlig gjorde
+at motstanderlaget fikk et ekstra halvsekund på seg til å få spillere bak ballen igjen. Det å legge merke til hvorfor dette
+skjedde er ingen enkel øvelse, men gjennom å bruke denne «oppskriften» blir det enklere for treneren å veilede
+spillerne i det de faktisk trenger veiledning på.
+Hva skjedde i spillsituasjonen?
+
+Hva veileder du på?
+
+Skjønte spilleren hva slags spillsituasjon dette var?
+
+Veiledning på problembestemmelsen
+
+Gjorde spilleren et valg i tråd med lagets spillestil?
+
+Veiledning på handlingsvalget
+
+Utførte spilleren valget på en god måte?
+
+Veiledning på posisjon, timing, retning og fart
+
+Figur 22. Veiledningsrammeverk for fotballtrenere.
+Når treneren skal veilede spillerne på problembestemmelse, handlingsvalg og handling kan treneren velge mellom
+fem veiledningsmetoder: instruerende veiledning, oppgaverettet veiledning, gjensidig veiledning, veiledet oppdagelse
+og problemløsende veiledning.
+I tråd med vår kunnskap om læring som prosess ser vi at veiledet oppdagelse er en av veiledningsmetodene som
+peker seg ut som høyaktuelle for veiledning i fotball. I veiledet oppdagelse stiller treneren vel overveide spørsmål hvor
+treneren allerede vet svaret på spørsmålet og forsøker å veilede spillerne til selv å oppdage de svarene han er ute
+etter. Denne metoden fungerer like godt når man skal veilede på problembestemmelsen, handlingsvalget og
+handlingsutførelsen. Denne veiledningsmetoden har blitt løftet frem på alle trenerkurs i regi av NFF hvor jeg har
+deltatt, men kontekstualisert på en annen måte. Det virker som det er bred enighet om at denne veiledningsmetoden
+er en av de foretrukne, samtidig som man rent objektivt kan se at denne stimulerer læring som prosess – som jo er
+nøkkelen i å få spillerne til å lære mer om fotballkampen.
+Med veiledet oppdagelse som standardmetode har man muligheten til å benytte seg av flere av de andre metodene.
+Instruerende veiledning har fortsatt en plass i fotballveiledningen. Både i kampgjennomføringen og i
+
+S. 54
+
+4. Diskusjon
+
+treningsgjennomføringen kan det være sunt for læringen at treneren gir svaret. Noen ganger kan fotballspillere bli lei
+av all denne spørringen fordi det krever mer refleksjon enn de er villige til å mobilisere i noen av sine mest slitne
+øyeblikk. I slike stunder er det lurt å ty til instruksjon. Eksempler på slike situasjoner kan være pauseprater i en
+fotballkamp eller når man følger opp på læringsmomenter i spillsituasjoner man har øvd mye på.
+Marit Breivik og håndballjentene har hatt god nytte av gjensidig veiledning, noe som har blitt videreført av dagens
+landslagstrener Thorir Hergeirsson. Systematiseringen av spiller-spiller veiledning har nok noe for seg også i en
+fotballkontekst. Gjennom rolletreninger hvor rollespillere gir hverandre tilbakemeldinger vil man kunne oppnå noe av
+det samme. En annen måte å systematisere dette på kan være at innbyttere fører statistikk over spillere som var i
+aktivitet i førsteomgangen som de presenterer på tomannshånd i pausen. Kanskje kan den observante innbytteren se
+at kantspilleren lykkes oftere når han går utover enn når han går innover i møte med sidebacken sin og fremheve
+dette som en mulighet for andreomgangen. Eller at reservekeeperen presenterer til keeperen at han lot flere
+kontringsmuligheter gå fra seg i førsteomgang fordi han ikke så etter løpene i fjernrom, men kun så etter
+igangsettingsmuligheter i nærrom.
+En problemløsende veiledning kan også brukes flittig i fotballtreninger. På trening spiller man 7v7 i kamper på fire
+minutter med to minutters pause mellom hver kamp. I første kamp klarte blått lag å kommer igjennom flere ganger på
+rødt lag sin venstreside. Treneren gir beskjed om at den to minutters pausen skal brukes ved at rødt lag går sammen i
+syvmannslaget sitt for å finne ut hvorfor blått lag har kommet gjennom på venstresiden så ofte og hva de kan gjøre for
+å nekte dem dette i neste fireminutterskamp. Før kampen starter må rødt lag presentere for treneren hva de har
+kommet frem til slik at treneren kan observere andre kamp i lys av dette. Dette kan være en virkningsfull måte å få
+spillerne til å ta eierskap for å justere spillet sitt i møte med ulike typer motspill. I en 90 minutter lang fotballkamp har
+treneren begrenset med mulighet til å hjelpe spillerne med å løse spillsituasjoner. Utvikling av selvstendige spillere
+som klarer å tilpasse spillet sitt etter motspillet vil derfor være svært nyttig for å få gode resultater.
+Og til slutt har vi oppgaverettet veiledning. Selv om også denne veiledningsmetoden har klare styrker vurderer jeg
+denne som den minst effektive veiledningsmetoden i fotball. Derfor tror jeg at en fotballtrener får mer ut av å dyrke de
+fire andre veiledningsmetodene og fordype seg i hvordan disse fire metodene best kan brukes og i hvilke situasjoner
+man kan bruke de ulike veiledningsmetodene. Oppgaverettet veiledning blir et naturlig valg i møte med store
+spillergrupper hvor trenertettheten er lav. På slike treninger innbyr logistikken til å ha spilløvelser på to baner samtidig
+hvor treneren instruerer laget i hvordan de skal spille og hva de kan gjøre for å løse de ulike spillsituasjonene best
+mulig. På slike treninger blir treneren gående mellom de to banene og komme med tilbakemeldinger til spillerne og
+lagene.
+Når treneren gir tilbakemeldinger må han være oppmerksom på at spilleren allerede har en pågående prosess med
+indre tilbakemeldinger. Det å gi spilleren tid til å absorbere disse indre tilbakemeldingene kan være nyttig og treneren
+kan til og med forsterke disse tilbakemeldingene med å henlede spillerens oppmerksomhet på f.eks hvordan
+treffpunktet på ballen føltes, hvordan timingen i løpet kjentes, osv gjennom å stille spørsmål om akkurat dette. Så etter
+utførelsen av en fotballhandling står treneren med flere veiledningsmuligheter. Han kan henlede spillerens
+
+S. 55
+
+4. Diskusjon
+
+oppmerksomhet over på den indre tilbakemeldingen ved å spørre om posisjonen, timingen, retningen eller farten på
+fotballhandlingen. Da bruker man spørsmål man ikke krever svar på ettersom spørsmålene ofte kommer umiddelbart
+etter utførelsen og mens spillet fortsatt er i gang. Eksempler kan være «hvordan kjentes posisjoneringen din nå?»,
+«var retningen på pasningen din optimal?» eller «kom du deg inn i press tidsnok?». Det andre alternativet treneren
+har for å veilede fotballhandlingen er å komme med en ytre tilbakemelding. Dette kan være «husk å kom deg ut fra
+målstreken når du ser gjennomspillet kommer», «returløpet må komme med en gang du ser at det går mot balltap»
+eller «der kunne du bidratt til å sette opp backen deres 2v1 om du hadde overlappet». I valget mellom indre og ytre
+tilbakemelding så tror jeg ikke man skal ekskludere den ene eller den andre, men vite om begge kategoriene og selv
+utforske hva som fungerer best for de ulike spillerne og i de ulike situasjonene. Men antakeligvis er forsterkning av
+indre tilbakemeldinger under spillets gang en tilbakemeldingsform som det kan være effektivt å beherske godt.
+Også vet vi at ensidig skryt og ensidig kritikk ikke gjør noe godt for prestasjonsfremgangen. Flere studier har sett på
+hvor mange positive tilbakemeldinger man må gi per negative tilbakemelding. Jeg tror ikke dette er riktig spørsmål å
+stille seg. Målet er prestasjonsframgang og da må man gjerne rose valget og kritisere utførelsen. Det er enkelt å
+skryte av en handling eller et handlingsvalg. Derfor blir heller spørsmål hvordan man best kritiserer en handling eller
+handlingsvalg. Her tror jeg man gjør lurt i å peke på hva ved valget eller utførelsen man kan gjøre annerledes samtidig
+som man anerkjenne det spilleren gjorde riktig i situasjonen. Og i tråd med forskningen burde det skje i den
+rekkefølgen. Først korrigering, deretter forsterkning. Når man først har vært inne og korrigert et handlingsvalg eller
+handling gjelder det å følge opp denne veiledningen i de neste spillsituasjonene. Dersom spilleren gjør riktig i denne
+spillsituasjonen det han gjorde feil for ett minutt siden må dette tydeliggjøres for spilleren gjennom forsterkning.
+Bert van Lingen pekte på «bilde, snakk og øv»-metoden. Dette er en metode man kjenner igjen fra NFF sine
+trenerkurs. Det å så tidlig som mulig vise et stillbilde av hvordan man ønsker å se ut i spillsituasjonen kan være svært
+behjelpelig for spillerne. Det å bare si noe med ord er mindre effektfullt enn å vise det ute på banen samtidig. Jeg tror
+at hver gang man skal introdusere et nytt læringsmoment så gjøres dette best gjennom «bilde, snakk og øv»metoden. Eksempelvis skal vi øve på spillsituasjonen overgang fra forsvar til angrep hvor man setter opp tre
+læringsmomenter. Det første læringsmomentet i denne spillsituasjonen kan være å gjøre en balansevurdering av
+motstanderlaget for å finne ut om motstanderlaget er i ubalanse og det er klima for å kontre eller om man må spille
+seg ut av gjenvinningspresset for å prøve å spille på motstanderlaget ubalanse gjennom etablert angrepsspill. For å
+introdusere dette læringsmomentet kunne man stoppet spillet idet ballen blir vunnet. Gjennom veiledet oppdagelse
+kan man bevisstgjøre spillerne på hvorvidt motstanderlaget er i balanse eller ubalanse, hvordan vi kan se om de er i
+balanse eller ubalanse og hvilke løsninger vi skal velge dersom de er i balanse og hvilke vi skal velge hvis de er i
+ubalanse. I dette stillbildet snakker man seg gjennom læringsmomentet før man setter i gang spillet igjen. Deretter
+veileder man spillerne på dette læringsmomentet de påfølgende minuttene gjennom løpende tilbakemeldinger
+underveis i spillet. Har man vært dyktig i tilretteleggingen av spilløvelsen har man organisert aktiviteten på en slik
+måte at det ofte dukker opp situasjoner hvor laget må omstille fra forsvar til angrep. Etter hvert ønsker man å
+introdusere andre og tredje læringsmoment en etter en som f.eks kan være å kontre med flere løp foran og forbi
+ballfører mens man ønsker å holde ballen sentralt så lenge som mulig og balansevurdering av eget lag med pumping
+
+S. 56
+
+4. Diskusjon
+
+og offensiv markering. Også disse læringsmomentene innfører man gjennom «bilde, snakk og øv»-metoden før man
+går over til å følge de opp med løpende tilbakemeldinger.
+I resultatdelen så vi også at videobilder ga den mest objektive tilbakemeldingen. Gjennom å filme treninger og kamper
+kan man hente mer læring ut av hver trening siden dette gir mer og tydeligere tilbakemelding til spillerne. Når man
+skal tolke og diskutere videobildene er det helt nødvendig å ha en felles referanse. Hvis ikke utarter diskusjonen seg
+til å bli masse subjektive meninger om hvordan de ulike personene mener at handlingen eller spillsituasjonen burde
+vært løst. Fotballteorien og lagets spillestil utgjør den felles referansen for disse samtalene. Når man ser på video har
+man fortsatt mulighet til å velge mellom de fem veiledningsmetodene, hvor jeg tidligere pekte på at veiledet
+oppdagelse kunne være en egnet standardmetode. Med disse videobildene har man også en god mulighet til å dele
+inn i grupper hvor man analyserer videobilder av ulike spillsituasjoner slik at spillerne kan bedrive gjensidig veiledning.
+
+S. 57
+
+5. Konklusjon
+
+5. Konklusjon
+I denne litteraturstudien har jeg funnet ut at fotballdidaktikk ikke har vært definert som et eget fagfelt tidligere, til tross
+for at de fleste fagfelt har en didaktikk eller undervisningslære som sier noe om hvordan man best underviser i faget.
+Jeg har sett på didaktikk og fotball i et forsøk på å samle det man vet om fotball og didaktikk til en samlet
+fotballdidaktikk. I litteraturstudien har det vært nødvendig å bevege seg inn i flere fagområder som pedagogikk,
+treningslære, idrettspsykologi m.fl. for å kaste lys over hvordan en fotballdidaktikk kan se ut. Resultatene viser at for å
+kunne undervise i fotball må man ha kunnskap om fotball. Kunnskap om fotball har i denne teksten vært omtalt som
+fotballteori og bærer i seg en forståelse av hvordan fotballspillet er bygd opp, hva det består av og et hierarki om hva
+som er viktigst og nest mest viktig innenfor fotballspillet. Ut ifra denne fotballteorien har treneren to verktøy i
+undervisningen sin: tilrettelegging og veiledning. Målet med tilretteleggingen er å påvirke læringsprosessen til
+spillerne. Vi har også sett at denne læringsprosessen best drives fremover av at spillerne er indre motiverte. Det blir
+dermed et poeng i seg selv å tilrettelegge for og veilede spillernes indre motivasjon. I tilretteleggingen handler det om
+å skape læringssituasjoner som på best mulig måte forbereder spillerne på fotballkampen. Dette gjør man gjennom å
+trene laget i fotballspillet som består av spillfaser som deles inn i ytterligere underfaser med tilhørende spillsituasjoner.
+Treningen i disse spillsituasjonene kan få ulike uttrykk etter som man beveger seg opp og ned på
+funksjonalitetsskalaen. Når laget trener på disse tilrettelagte spillsituasjonene kan treneren veilede spillerne. Gjennom
+litteraturstudien så vi at det var fem ulike veiledningsmetoder hvor veiledet oppdagelse pekte seg ut som en av de
+best egnede til å skape læring i fotball.
+Problemstillingen som har vært forsøkt besvart er «hva er fotballdidaktikk og hvordan praktiseres god
+fotballdidaktikk». Konklusjonen er at fotballdidaktikk er undervisning i fotballspillet som tar utgangspunkt i fotballteori
+og derigjennom stimulerer spillernes læringsprosess ved bruk av veiledning og tilrettelegging av spillsituasjoner. God
+fotballdidaktikk praktiseres gjennom å ha en gjennomgående forståelse av fotballteori slik at man kan legge til rette for
+spillsituasjoner som på en god måte balanserer høy funksjonalitet og spesifisitet med mange kamplike repetisjoner for
+alle spillerne samtidig som man evner å velge den veiledningsmetoden som gir best mulig læringseffekt for hver
+enkelt spiller og i hver enkelt situasjon.
+
+S. 58
+
+6. Litteraturliste
+
+6. Litteraturliste
+Alton-Lee, A. (2003) Quality teaching for diverse students in schooling: best evidence synthesis. Ministery of
+education, Wellington.
+Bandura, A. (1989). Social cognitive theory. In R. Vasta (Ed.), Annals of child development. Vol. 6. Six theories of
+child development (pp. 1-60). Greenwich, CT: JAI Press
+Bandura, A. (1997) Self-Efficacy. The Exercise of Control. W.H. Freeman
+Baumeister, R.F. og Vohs, K. D. (2011). Self-Regulation and the executive function of the self i Leary, M.R &
+Tengney, J.P (Reds). Handbook of self-regulation: Research, theory and applications. (s. 197 – 217). The Guildford
+Press: New York
+Bergo, A., Johansen, P.A., Larsen, Ø. & Morisbak, A. (2002) Ferdighetsutvikling i fotball – handlingsvalg og handling.
+Akilles
+Bjørgen, I. (1994) Ansvar for egen læring: den profesjonelle elev og student. Tapir Forlag. Trondheim.
+Bjørgen, I. (2000) Ansvar for egen læring. Historien om et begrep. Norsk pedagogisk tidsskrift; 4-5: 227-251.
+Universitetsforlaget. Oslo.
+Bunker, D., & Thorpe, R. (1982). A model for the teaching of games in the secondary school. Bulletin of Physical
+Education, 10, 9-16
+Cassidy, T., Jones, R. & Potrac, P. (2004) Understanding Sports Coaching. Routledge
+Coyle, D. (2009) The Talent Code: Greatness isn`t born. It`s grown. Here`s how. Bantam Dell: New York
+Csikszentmihalyi, M. (1990) Flow. The Psychology of Experience. HarperCollins Publishers
+Deci, E. L., & Ryan, R. M. (2002). Self-determination research: Reflections and future directions. In E. L. Deci & R. M.
+Ryan (Eds.), Handbook of self-determination research (pp. 431-441). Rochester, NY: University of Rochester Press.
+Duda, J. L. (2001). Achievement goal research in sport: Pushing the boundaries and clarifying some
+misunderstandings. In G. C. Roberts (Ed.), Advances in motivation in sport and exercise (pp. 129/182). Champaign,
+IL: Human Kinetics.
+Duckworth, A. (2016) Grit. The power of passion and perseverance. Schribner, New York.
+Dweck, C. S. (2006). Mindset: The new psychology of success. Random House, New York.
+Ericsson, K. A., Krampe, R. Th., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert
+performance. Psychological Review, 100(3), 363-406.
+
+S. 59
+
+6. Litteraturliste
+
+Franks, I.M. & Miller, G. (1991) Training coaches to observe and remember. Journal of sport sciences, 9, 285-297
+Grøttland, H. (2016) Landslagsskolen – NFFs skoleringsløp og kartlegging inn mot våre yngste aldersbestemte
+landslag. Power Point presentasjon på UEFA A-lisenssamling i Porsgrunn 30.06.16
+Haraldstad, A.M. & Christophersen, E. (2004) Litteratursøk og personlige referansedatabaser. I: Benestad HB, Laake
+P, red. Forskningsmetode i medisin og biofag. Oslo : Gyldendal Akademisk; 2004: 115-51.
+Higgins, J.P.T & Green, S. (2011) Cochrane Handbook for Systematic Reviews of Interventions. Hentet fra url:
+http://handbook.cochrane.org
+Hughes, M.D. and Franks, I.M. (1997). Notational Analysis of Sport. E. & F.N. Spon, London
+Kierkegaard S. (1859) Synspunktet for min Forfatter-Virksomhed. I: Kierkegaard S. Samlede værker. Bd. 18.
+København: Gyldendal, 1994.
+Kirk, D., Nauright, J., Hanrahan, S., Macdonald, D. & Jobling, I. (1996) The sociocultural foundations of human
+movement. Macmillan, Melbourne
+Kirschenbaum, D.S., & Smith, R.J. (1983) Sequencing effects in simulated coach feedback; continuous criticism, or
+praise, can debilitate performance. Journal of Sport Psychology, 5, 332-342
+Lyngsnes, K. & Rismark, M. (1999) Didaktisk arbeid. Gyldendal akademisk
+Martens, R. (1987) Coaches guide to sport psychology. Human Kinetics
+Mitten, A. (2015) The making of Jose Mourinho – from translator to Bobby's boy, to Special One and beyond. Hentet
+fra url: http://www.fourfourtwo.com/features/making-jose-mourinho-translator-bobbys-boy-special-one-and-beyond
+Olsen, E., Larsen Ø. & Semb, N.J. (1994) Effektiv Fotball. Gyldendal Norsk Forlag
+Opjordsmoen, D. (2016) A-lisens. Trenerrollen. Juni 2016. Power Point presentasjon på UEFA A-lisenssamling i
+Porsgrunn 28.06.16
+Riisnæs, D. (2016) Intro UEFA A-lisens 2016/2017. Power Point presentasjon på UEFA A-lisenssamling i Porsgrunn
+27.06.16
+Roberts, G. C. (2001). Understanding the dynamics of motivation in physical activity: The influence of achievement
+goals on motivational processes. In G. C. Roberts (Ed.), Advances in motivation in sport and exercise (pp. 1/50).
+Champaign, IL: Human Kinetics.
+Ronglan, L.T (2008) Lagspill, læring og ledelse. Om lagspillenes didaktikk. Akilles forlag. Oslo
+
+S. 60
+
+6. Litteraturliste
+
+Ronglan, L.T. (2016) Om læring – og tilrettelegging for læring. Power Point presentasjon på UEFA A-lisenssamling i
+Porsgrunn 27.06.16
+Ryan, R. M., & Deci, E. L. (2007). Active human nature: Self-determination theory and the promotion and maintenance
+of sport, exercise, and health. In M. S. Hagger & N. L. D. Chatzisarantis (Eds.), Intrinsic motivation and selfdetermination in exercise and sport (pp. 1-19). Champaign, IL: Human Kinetics.
+Stockton, R. & Morran, D. K. (1981). Feedback exchange in personal growth groups: Receiver acceptance as a
+function of valence, session, and order of delivery. Journal of Counseling Psychology, 28, 490-497.
+Tamboer, J.W.I., van Lingen, B. & Verheijen, R. (2004) Voetbaltheorie. Een handelingstheoretische visie op het
+voetbalspel. Maarssen: Elsevier.
+Toering, T. T., Elferink-Gemser, M., T., Jordet, G., og Visscher, C. (2009). Self-regulation and performance level of
+elite and non-elite youth soccer players. Journal of Sports Sciences. 27, s. 1509-1517
+Van Lingen, B. (2016) The official guide to coaching youth football. The youth football learning process for players
+ages 6 – 19. World Football Academy.
+Veheijen, R. (2014) The Original Guide to Football Periodisation. Always play with your strongest team. Part 1. World
+Football Academy
+Verheijen, R. (2015) How simple can it be? Wold Football Academy
+Forsidebildet er hentet fra url: https://blindfoundation.org.nz/community/peer-mentoring-program-christchurch-pilot/
+gjennom en søk i google images med søkeord «mentoring» 16.august 2016.
+
+S. 61
+
+7. Sammendrag
+
+7. Sammendrag
+Dette har vært en litteraturstudie som har forsøkt å finne ut av hva fotballdidaktikk er og hvordan man kan praktisere
+god fotballdidaktikk.
+Da dette arbeidet begynte eksisterte det ingen litteratur om fotballdidaktikk, men masse litteratur om fotball, didaktikk,
+treningslære, idrettspsykologi, pedagogikk, osv. For å finne ut av hva fotballdidaktikk er har en litteraturstudie vært
+gjennomført hvor eksisterende kunnskap fra alle disse fagfeltene har blitt innhentet, systematisert og diskutert i denne
+oppgaven.
+For å si noe om fotballdidaktikk har man i denne teksten brukt generelle didaktiske modeller som har blitt veid og
+funnet for lette til å beskrive den didaktikken som er relevant for å undervise i fotball. Derfor har det blitt presentert en
+alternativ didaktisk modell som representerer fotballdidaktikken.
+
+I denne modellen starter fotballdidaktikk med fotballteori. For å kunne undervise i fotball er det essensielt å forstå hva
+fotballspillet er, dets egenart, hva den er bygd opp av og hva som er viktigst og nest mest viktig i fotball – kort og godt
+må treneren kunne fotballteori.
+Ut ifra trenerens kompetanse i fotballteori vil treneren kunne legge til rette for læringssituasjoner i fotball og veilede
+spillerne i læringssituasjonene. Med tilrettelegging menes å skape meningsfull fotballaktivitet på fotballtreninger som
+har til hensikt å lære spillerne om fotballkampen og det spillerne møter der. Med veiledning menes kommunikasjonen
+mellom trener og spillere i disse læringssituasjonene som har til hensikt å hjelpe spillerne med å lære om
+fotballkampen.
+
+S. 62
+
+7. Sammendrag
+
+Gjennom trenerens tilrettelegging og veiledning søker treneren å påvirke spillernes læring av fotballspillet. Derfor må
+tilretteleggingen og veiledning bære i seg en forståelse av hva læring er og hvordan læring foregår, i tråd med
+litteraturen presentert i denne litteraturstudien.
+Konklusjonen er at fotballdidaktikk er undervisning i fotballspillet som tar utgangspunkt i fotballteori og derigjennom
+stimulerer spillernes læringsprosess ved bruk av veiledning og tilrettelegging av spillsituasjoner. God fotballdidaktikk
+praktiseres gjennom å ha en gjennomgående forståelse av fotballteori slik at man kan legge til rette for spillsituasjoner
+som på en god måte balanserer høy funksjonalitet og spesifisitet med mange kamplike repetisjoner for alle spillerne
+samtidig som man evner å velge den veiledningsmetoden som gir best mulig læringseffekt for hver enkelt spiller og i
+hver enkelt situasjon.
+
+

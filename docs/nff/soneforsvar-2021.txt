@@ -1,0 +1,2063 @@
+Soneforsvar
+– fra prinsipper til læringsmomenter
+Innhold
+Innledning.......................................................      3       Push-out .....................................................   39
+                                                                               Pumping .....................................................    39
+Å beskrive fotballspillet . ..............................             5       Sideforskyving og konsentrering
+                                                                               i midtbaneleddet og det bakre leddet . .......                   43
+Hvorfor vektlegger vi forsvarsspillet? . ......                        8       Å komme på rett side .................................           45
+  Historisk bakteppe . ....................................            8       På rett side av ball vs. på rett side
+  Rolleforståelse og rolleaksept . ..................                  9       av ball og motstander . ...............................          45
+  Rolleferdigheter i angrep og forsvar ..........                      9       På rett side .................................................   46
+  Å kunne ramma – sammen . ......................                     10       På rett side – i riktige posisjoner ................             46
+  Hvordan sette sammen et lag? . ................                     10       På rett side – tidsnok . ................................        47
+  Vi trenger flere «begge veier»-spillere . .....                     11       Må vi alltid komme på rett side
+  Hvordan vinne fotballkamper? ...................                    11       i forsvarsspillet? . ........................................    48
+  Godt forsvarsspill er en
+  hedersbetegnelse . .....................................            11   Presshøyde og samstemthet . .....................                    49
+                                                                             En dreining i det høye presset? .................                  49
+Soneforsvar – hva, hvordan og hvorfor? . .                            12     Hindre gjennombrudd – opphold –
+  Fotballens sjel ............................................        12     vinne ball ....................................................    50
+  Spillestil ......................................................   13     Fra angrep til forsvar eller bare
+  Innlæring ....................................................      13     når presset glipper – oppholde ..................                  50
+  Forholdet mellom prinsipper                                                Høyt press for å tvinge fram langt
+  og læringsmomenter ..................................               15     målspark eller utspill . .................................         53
+  Soneforsvar kontra markeringsforsvar . .....                        15     Angrepslaget setter i gang kort ..................                 54
+  Tilpasninger i soneforsvaret .......................                17     Klassisk soneforsvar også i det
+  Tempo i utførelse: Forflytningsevne . .........                     18     høye presset  . ............................................       55
+                                                                             Planlagt lavere presshøyde .......................                 56
+Soneforsvar på prinsippnivå .......................                   19     Planlagt lavt press . ....................................         57
+  Konsentrering .............................................         19     Å bli spilt lave .............................................     58
+  Dybde .........................................................     20
+  Balanse ......................................................      21   Hindre mål . .................................................... 60
+                                                                              Forsvarsarbeid før og ved innlegg ............. 60
+Soneforsvarets retningslinjer og                                              Forsvarsarbeid for å nekte avslutning –
+læringsmomenter . ........................................            23      eller håndtere avslutning ............................ 66
+  Hvem er førsteforsvarer (1F)? ...................                   23
+  Leding . .......................................................    25   Kvalitet i førsteforsvarerrollen –
+  Andreforsvareren (2F) – sikring .................                   31   typiske spillsituasjoner ................................ 68
+  Kommunikasjon fra spillere i leddet bak ....                        32
+  Kommunikasjon generelt ...........................                  33   Avrunding ...................................................... 72
+  Offsideregelen – forsvarslagets hjelper .....                       33
+  Ballfører på vei mot eller allerede inne
+  i vårt bakre ledd . ........................................        37
+
+
+
+
+2
+Innledning
+Empiri viser at angrep prioriteres i treningsarbeidet i barne- og ungdomsfotballen.
+Og i voksenfotballen. Og på toppnivå. Forsvarsarbeid må være like mye verdt som
+angrepsarbeid på trening, i garderoben og i kamp. NFF ønsker å sette forsvaret i fokus.
+
+Intensjonen er
+• å skape forståelse for at et godt forsvarsspill er starten på de mest effektive angrep
+• å skape forståelse for at den strukturelle dimensjonen av fotballspillet gir gode forut-
+   setninger for å lykkes relasjonelt og individuelt
+• å skape forståelse for at forsvarsspill er god ferdighetsutvikling individuelt,
+   relasjonelt og strukturelt
+• å vise at et godt forsvarsspill skaper et tøffere klima, og dermed et bedre klima
+   for å utvikle angrepsferdigheter
+• å forsterke at fotballforståelse utvikles i møte med spillsituasjonen
+
+
+
+
+3
+Vi benytter her figurer og animasjoner for å forsterke innholdet. Det er gjort et utvalg.
+Utvalget kunne vært større, men verden er uendelig – og fotballen det samme.
+Ingen spillsituasjoner er like. Det vi vet, er at lignende spillsituasjoner vil dukke opp
+igjen. Og igjen. Og igjen.
+
+En treners hverdag handler om å prioritere. Sagt på en annen måte:
+Du må velge bort – her også. Bevisst. For å forsterke læringsprosessen hos spilleren,
+spillerne og laget.
+
+Du leser nå en oppfølger av heftet «Mot det ferdige spillet – fra nier til ellever».
+Dette bør leses i forkant. Noe av innholdet gjentas her for at leseren skal få den rette
+inngangen.
+
+Stoffet er utviklet sammen med dyktige fagfolk i og utenfor NFF. Deres bidrag har vært
+avgjørende for sluttproduktet. Den dyktige fotballmannen Morten Rom har laget
+animasjonene.
+
+Du vil helt sikkert savne noe. Meld inn. Det kommer alltid en ny versjon.
+
+Lykke til på feltet!
+
+NFF
+Øyvind Larsen
+
+
+
+
+4
+Å beskrive fotballspillet
+«Fotball er et enkelt spill», hører vi titt og ofte. Fotball er ikke et enkelt spill.
+11 spillere mot 11 spillere. 11 spillere som prøver å score. 11 spillere som har
+til hensikt å vinne ballen eller å hindre mål. Som har til hensikt å skape eller
+ødelegge. Dette gir ofte et klima med duellspill, hyppige ballskifter og mange
+situasjoner der en ikke vet hvem som er i ballbesittelse.
+
+Fotball er et flerdimensjonalt spill der mange handlinger skjer samtidig.
+I forsvar. I angrep. I laget. Mellom spillere. I ledd. Mellom ledd. Mellom spillere.
+Hos spiller. I møte med motstanderlaget. Det er spill og motspill.
+
+Fotball er en «kontrollert konflikt», holdt innenfor siviliserte rammer gjennom
+et regelverk som dommerteamet sørger for blir overholdt. Og gjennom fair play:
+uskrevne regler om hva som er rett og galt. Dette er en viktig del av fotballens
+verdisett som kan bli utfordret i kampens hete.
+
+Lagene har retningslinjer både strukturelt, relasjonelt og individuelt som gjør
+det lettere å ta gode valg i dette klimaet. Spillere lærer og høster erfaring. Det
+reduserer den opplevde kompleksiteten i spillet. Retningslinjer og erfaring gjør
+det samlet sett lettere å velge rett, noe som igjen gir bedre forutsetninger for å
+komme ut av spillsituasjonen med den intensjonen laget har.
+
+
+
+
+5
+Ofte hører vi trenere og spillere som prediker: «Vi skal spille vårt spill».
+Dette er bare delvis riktig. Innimellom er det feil.
+
+Spillsituasjonen skapes alltid av de to lagene – samtidig. Presser forsvarslaget
+høyt, gir det én forutsetning for igangsetting bakfra. Presser forsvarslaget lavt,
+gir det en annen forutsetning for igangsettingen. Slik kan vi fortsette
+i alle spillets faser.
+
+Lagene har også ulike forutsetninger for å skape et gitt kampklima. Er det
+ene laget bedre enn det andre? Har lagene ulik spillestil? Er det ene laget et
+ballbesittende lag og det andre mer gjennombruddshissig? Truer det ene laget
+hyppig mellomrommet med bevegelse og pasninger? Eller benyttes pasninger
+i bakrommet hyppig? Slik kan vi fortsette.
+
+Å beskrive et slikt spill – skriftlig – byr på utfordringer. Man oversetter det
+flerdimensjonale til det endimensjonale. Derfor må skriftliggjøring av spillet
+følges opp med konkrete eksempler i form av figurer og animasjoner.
+
+Med eget lag – på treningsfeltet, i garderoben, i kamp – må man forsterke
+med å konkretisere prinsipper og læringsmomenter i spillet. Hyppig. Gang
+etter gang. Noen ganger 11 mot 11, eller 9 mot 9 eller 7 mot 7. Andre ganger i
+forenklede spillsituasjoner. Da først får vi læring: varig endring av forståelse og
+atferd. Hos spillerne. I laget. Hos treneren.
+
+Vi bruker et sett ord og begreper for å formidle spillet. Første bud er å vite hva
+disse begrepene betyr. Vi vet alle hvor hjelpeløse vi er når «bredde» ikke gir
+mening for en spiller. Når «bakrom» ikke gir mening. I fotball kan ikke ord
+oversettes på banen. Da er det for seint. Da har vi mistet ballen. Vi må snakke
+samme språk. Vi må forstå det samme språket.
+
+Dere vil sikkert undre dere eller savne noe når dere leser et delkapittel. I de
+fleste tilfeller vil svaret komme seinere. Sånn må det bli. Iblant er det naturlig å
+nevne det igjen, for ting henger sammen. Og fornuftige ting bør jo gjentas. Ofte.
+
+
+
+
+I fotball kan ikke ord oversettes på banen.
+Da er det for seint.
+
+6
+Figur 1: Nøkkelbegreper.
+
+
+
+
+Figur 2: Her finnes nøkkelbegrepene. Uten at du ser dem. Systematisert på banen: «1F»,
+2F», «3F», «konsentrering», «push-out», «pumping», «avstand», «presshøyde», «linje»,
+«lede», «dekke rom», «screene», «rappe», «snappe», «blokke» – kanskje under hoved-
+prinsippene «dybde», «konsentrering» og «balanse som hindrer rom». Vi tar dem fram når
+det trengs.
+
+
+
+7
+Hvorfor vektlegger vi
+forsvarsspillet?
+Hva er de viktigste ferdighetene hos en sentral midtbanespiller? Åtte av ti
+trenere vil svare noe slikt: «Det er å kunne bidra til at vi kan hvile med ballen
+når det trengs, å kunne vende ballen fra trangt til ledig, å være god én mot én
+og å kunne bidra til hyppige gjennombrudd.»
+
+Hva er de viktigste ferdighetene hos en midtstopper? Åtte av ti trenere vil si noe
+à la dette: «Det er å ha en sikker pasningsfot og å kunne bidra i frispillingsfasen
+mot et lag i etablert forsvar.»
+
+Svarene ser i utgangspunktet greie ut. Men de mangler en dimensjon: evnen til
+å kunne forsvare seg individuelt, relasjonelt og strukturelt, for dermed å kunne
+ta i bruk det mest effektive angrepsvåpenet av alle: ballerobring og påfølgende
+angrep mot et lag som er i ubalanse.
+
+
+Historisk bakteppe
+Når suksesshistorier på fotballbanen er blitt analysert eller gjenfortalt, har
+angrepsspillet dominert årsaksforklaringene. «The Beautiful Game» er et
+begrep som beskriver det dypeste og inderligste i fotballens sjel.: feiende
+flott angrepsfotball. Forsvarsspill har aldri dominert treningsfeltet. Ei heller
+medieoppslagene. Dette til tross for at mang en suksesshistorie kan knyttes til
+både forsvars- og angrepsspill. Noen suksesshistorier kan faktisk i større grad
+knyttes til godt forsvarsspill. Italias catenaccio preget 60-tallet, med Inter som
+foregangslag. Arrigo Sacchi videreførte denne spillestilen med både Milan og
+det italienske landslaget på 90-tallet.
+
+Moderne norsk spillestilsutvikling knyttes uomtvistelig til Egil Olsens landslag
+og Nils Arne Eggens Rosenborg. Moderne norsk fotballhistorie handler om
+godt soneforsvar. Angrepshistorien er todelt, men særs beslekta:
+
+
+
+
+Moderne norsk fotballhistorie handler om godt soneforsvar.
+
+8
+Olsens gjennombruddshissighet og Eggens relasjonelle spill i lengderetningen.
+Suksess på klubb- og landslag resulterte i spillersalg. Mange av våre spillere
+fikk karriere utenlands, flere sågar på ledende europeiske klubblag.
+
+Siden den gang har blikket igjen rettet seg mest mot angrepsspillet.
+
+Noen grunner til dette:
+• Eksempelets makt og trender har enorm påvirkningskraft. Barcelonas
+  angrepsspill har påvirket vektleggingen av denne delen av spillet og på
+  hvordan et vellykket angrepsspill skal gjennomføres.
+• Globaliseringen av fotballen gjennom nettet har gjort sitt til at trenere kan
+  velge internasjonalt «lærestoff».
+• Mangel på resultater i norsk fotball har forsterket fokus på hvordan
+  suksessfulle lag spiller i angrep.
+
+
+Rolleforståelse og rolleaksept
+Gode fotballspillere vet hva som skal til for å løse sin rolle i laget. Det har de
+lært gjennom å ha spilt i rollen over tid, både på trening og i kamp. De synes
+i tillegg at det er flott å bekle rollen. Det gir mestring, utvikling og en plass på
+laget. En god fotballspiller og en god lagspiller har rolleforståelse og liker å ha
+denne rollen i laget.
+
+
+Rolleferdigheter i angrep og forsvar
+Fotballspillet består av angrepsspill og forsvarsspill. For at laget skal være
+godt, må spillerne følgelig beherske begge deler. Det å kunne vinne dueller,
+blokkere, klarere, nekte innlegg, dekke rom, flytte beina fort, ta ut motspillere,
+vinne ball mot rettvendt spiller, mot rettvendt spiller i fart og mot feilvendt spiller,
+og å vinne ball på feil side av ballfører, er like viktig som å inneha et sett av
+angrepsferdigheter.
+
+
+
+
+En god fotballspiller og en god lagspiller har
+rolleforståelse og liker å ha denne rollen i laget.
+
+9
+Å kunne ramma – sammen
+Det er ikke nok å beherske de nevnte ferdighetene stykkevis og delt. I forsvar
+handler det om at laget kollektivt krymper tid og rom for motstanderlaget.
+Denne «skvisinga» må gjøres samstemt i både bredde- og lengderetning.
+Det gir gode betingelser for at vi individuelt skal kunne vinne dueller, vinne ball
+osv. Altfor ofte ser vi at kollektiv forsvarstrening skjer på arenaen «kortbanespill
+uten offside». Visst vinner man dueller der og da, men denne læringsarenaen
+gir helt andre forutsetninger enn det ferdige spillet. En god arena for innlæring
+av kollektivt forsvarsspill må hyppig inkludere tre ledd, en formasjon og en
+størrelse på banen som samsvarer med antall spillere. Sagt på en annen måte:
+Det går fint an å trene kollektivt forsvarsspill med fem utespillere og en keeper
+på hvert lag i tre ledd med en bane på 25 x 40 meter, selvsagt inkludert offside.
+
+Hvordan sette sammen et lag?
+Et godt fotballag har spillere med ulike ferdigheter som bekler ulike roller. Vi
+kan ha en keeper som er en god «skuddstopper», men ikke en god igangsetter.
+Da må laget forholde seg til dette. Eller vi kan ha en keeper som er god i beina
+– en god støttespiller når vi skal snu spillet. Vi har en back som er særs god i
+angrep og har rimelig gode forsvarsferdigheter. Vi har i tillegg en back som har
+motsatt vekting av sine ferdigheter: fantastisk i forsvar og helt grei i angrep.
+Våre to midtstoppere har ulike ferdigheter i angrep og forsvar. På sentral
+midtbane har vi tre ulike typer: En «terrier» som er nådeløs i duellspillet, og
+som dekker store rom når vi er i ubalanse. Den andre har «silkefoten» som
+slår gjennombrudds- og assistpasninger. Den tredje er en typisk «boks-til-boks-
+spiller» med enorm arbeidskapasitet. Kantspillerne er også ulike. Den ene
+er gjennombruddskanten, den andre er nærmest en sentral midtbanespiller,
+som er årvåken i skiftet fra angrep til forsvar, som er god til å slå gjennom
+boks-til-boks-spilleren, og som har en fantastisk innleggsfot. Spissene er også
+ulike. Den ene er en typisk bakromsspiss som jager gjennombruddsballer.
+Denne lager også automatisk rom til den andre spissen. Den andre er en
+mellomromsspiss som elsker å få pasninger i beina – halvvendt for så å sette
+fart framover. Laget er komponert av en smart trener som ser nødvendigheten
+av å ha et lag som er godt både i forsvar og angrep. Egil Olsen og Nils Arne
+Eggen var foregangsmenn for denne måten å tenke på ulike roller i laget på.
+
+
+
+
+Et godt fotballag har spillere med
+ulike ferdigheter som bekler ulike roller.
+
+10
+Vi trenger flere «begge veier»-spillere
+En klar trend i internasjonal fotball er at flere spillere er gode både i angrep og
+forsvar. Den «slepne midtbanespilleren» er også god i omstilling fra angrep til
+forsvar. Spissen(e) gjør en fenomenal jobb i det fremste forsvarsleddet. Følgelig:
+Tolvåringen som er kjapp i beina og god til å drible, må også øve på å bli kjapp i
+beina hjemover. Han eller hun må trene på å bli klok i sin rolle i forsvar.
+
+
+Hvordan vinne fotballkamper?
+Vi vinner ikke fotballkamper over tid om vi ikke har den rette miksen av
+forsvars- og angrepsferdigheter i et lag. I Norge har vi for mange lag – på alle
+nivå – som er bedre i angrep enn i forsvar. Derfor får vi altfor mange innlegg
+imot, derfor taper vi altfor mange dueller i boksen, derfor slipper vi inn for
+mange mål ved corner og frispark imot – og derfor kommer vi tapende ut av
+altfor mange én-mot-én-situasjoner. Derfor vinner vi også ballen altfor sjelden i
+de gunstigste posisjonene på banen. Her er det et stort utviklingspotensial.
+
+
+Godt forsvarsspill er en hedersbetegnelse
+Dyrking av statusroller og statusferdigheter gir tap i fotballkamper på sikt.
+Kritikerne vil spørre: Skal vi bare trene forsvarsspill, bli destruktive og kun tenke
+resultat? Å trene forsvarsspill er utviklende i treningshverdagen, og det gir
+høyere kvalitet på treninga: Jo mindre tid og rom, desto større krav setter det til
+handlingsvalg og handling i angrep. Vi må utvikle forsvarsferdighetene i laget,
+og vi må gjøre godt forsvarsspill til en hedersbetegnelse.
+
+
+
+
+11
+Soneforsvar –
+hva, hvordan og hvorfor?
+Her presenteres soneforsvarets hva – hvordan – hvorfor. Fra det overordna
+ned til detaljnivået. Fra prinsipper til læringsmomenter.
+Det er en klubb og en treners rett å velge spillestil, herunder:
+• soneforsvar
+• soneforsvar med tilnærming til markeringsforsvar
+• markeringsforsvar med tilnærming til soneforsvar
+• markeringsforsvar
+
+Å velge fordrer å kunne. Det er viktig å kunne én type forsvarsorganisering
+godt. For så å gjøre tilpasninger. Ut fra hvilke spillere du har. Utfra hvilket lag
+du har. Ut fra hvem du møter.
+
+
+Fotballens sjel
+Mye av fotballens sjel ligger i at resultatet i kampen ikke er gitt i forkant. Antatt
+svakere lag kan slå sterkere lag i fotball. Det er langt vanskeligere i andre
+ballspill. Dette skyldes
+• at det scores få mål i fotball
+• at tilfeldigheter er en avgjørende faktor på resultatet
+• at valg av spillestil kan utligne forskjeller
+
+Fotballag har ulike forutsetninger for å lykkes. Økonomi, spillerstall, fasiliteter
+og støtteapparat er forskjellig. Allikevel kan antatt svakere lag slå lag med langt
+bedre spillere. Det har Norge, Sverige, Danmark og Island bevist. Spillestil
+i forsvar er en medvirkende årsak til gode resultater. Derfor spiller Atalanta i
+Champions League-sluttspillet. Derfor er Atletico Madrid en særdeles fryktet
+motstander. Derfor har FC København spist kirsebær med de store. Det har
+også Rosenborg, Molde og Bodø/Glimt gjort.
+
+
+
+
+Å velge fordrer å kunne. Det er viktig å kunne én type forsvars-
+organisering godt. For så å gjøre tilpasninger. Ut fra hvilke
+spillere du har. Utfra hvilket lag du har. Ut fra hvem du møter.
+
+12
+Spillestil
+Den måten et lag spiller på, kalles – forenkla – lagets spillestil. Laget har
+retningslinjer som de forsøker å gjennomføre over tid. Tydelighet fra trener
+og trenerapparat gjenspeiler seg alltid i lagets spillestil. Måten et lag framstår
+på, er aldri uavhengig av motstander. Noen ganger er spillestilen akkurat
+som planlagt. Andre ganger milevis unna. Den største årsaken til forskjell
+på planlagt og faktisk spillestil er styrkeforholdet mellom lagene. Er laget
+i utgangspunktet bedre enn motstander, er det lettere å gjennomføre det
+planlagte. Mange lag tar mye hensyn til motstanderlaget i forkant. Man kan
+prøve å ta ut spillere. Man forandrer formasjon. Andre lag er langt mer stabile
+i tilnærminga til kampen. Små justeringer gjøres allikevel. Høyt press benyttes
+ofte mot lag en er bedre enn. Og motsatt: lavt press mot lag som er bedre enn
+vårt lag. En må ofte også forandre måten laget spiller på, ut ifra
+• tabellsituasjon
+• stilling i kampen
+
+Å ha en plan B inngår i lagets forberedelser inn mot kamp.
+
+Et godt soneforsvar er lett gjenkjennelig uavhengig av motstander.
+Her forholder en seg til spillsituasjonen og medspillernes aksjoner rundt denne.
+Det er utgangspunktet for medspillernes handlinger.
+
+Fotballspillet er møtet mellom to lags spillestiler som sammen utgjør kampens
+klima.
+
+
+Innlæring
+Det er en uomtvistelig sannhet at det er enklere å skape noe når angrepslaget
+er i overtall. Følgelig: Det er vanskeligere å forsvare seg i undertall.
+I fotball er det utallige situasjoner der en ikke kan definere hvilket lag som har
+kontroll over ballen og er i angrep. Denne fasen i spillet kalles 0-situasjoner.
+Jo større evnen er til å vinne ballen, desto større er sjansene til å kunne
+sette i gang flere angrep med potensial. Det viktigste er å ikke miste ballen
+umiddelbart. Da kan angrep imot komme som en bumerang.
+
+
+
+
+Et godt soneforsvar er lett gjenkjennelig uavhengig
+av motstander.
+
+13
+       Visjon –          Vekting av
+       Ambisjon          forsvar vs. angrep
+
+                         Spillere
+                         Type formasjon
+                                                     Kampen
+
+       Tradisjon         Virkemidler i angrep          Lag A
+                         • overgangsspill
+                         • bearbeiding                  vs.
+                         • inn i prioriterte rom       Lag B        Spillestil
+                         • avslutning – score
+                           mål
+     Fotballfilosofi                                     +
+                         Virkemidler i forsvar
+                         • overgagnsspill
+                         • vinne ball vs.
+                                                    Ytre forhold
+                           hindre inn i
+                           prioriterte rom
+        Valg av          • hindre avslutning –
+        spillestil         score mål
+
+
+
+                                                       Ikke-
+       Strategi               Taktikk              kontrollerbare   Resultat
+                                                      forhold
+
+Figur 3: Spillestilens mange komponenter.
+
+
+
+
+I innlæringen av soneforsvarsspill bør en ikke starte med å fokusere på slike
+situasjoner. De er for uoversiktlige. Læringsmomentene i soneforsvarsspill er
+mange. Utfordringen er å starte i rett ende. Retningslinjene for soneforsvar har
+til hensikt å forenkle spillsituasjonen for spillerne. Læringsmomentene bygger
+i tillegg på hverandre. Som trener må du være tålmodig, slik at læring skjer.
+Derfor må du følge en læringskronologi. Dette er fotballpedagogikk.
+I innlæringen av forsvarsspillet har man også en tendens til å starte med
+individet: førsteforsvareroppgaven – og bli der.
+
+I innlæringen av soneforsvar må spillerne og laget kunne arbeidsfordelinga
+mellom første-, andre- og tredjeforsvarer (1F, 2F og 3F), for så å sette disse
+rollene inn i strukturens ramme.
+
+
+
+
+14
+Jo mindre struktur det er i et lag, desto vanskeligere er det å gjøre en god
+førsteforsvarerjobb. Dette er utgangspunktet for innholdets kronologi.
+
+Trenerens oppgave er å få laget og spillerne til å forstå at det lønner seg å
+være god i forsvar, og at soneforsvar gjør både spillerne og laget bedre.
+
+
+Forholdet mellom prinsipper og læringsmomenter
+Forholdet mellom spilleprinsipper og valg av læringsmomenter gir retning
+til den røde tråden. Spilleprinsippenes overordna karakter gir behov for
+å lage mer konkrete retningslinjer for – i dette tilfellet – forsvarsspillet.
+Læringsmomentene er brobyggeren mellom prinsipp og fokuset i
+læringsprosessen. Alle prinsippene har følgelig et sett av læringsmomenter.
+Læringsmomentene må igjen hierarkisk prioriteres i treningsarbeidet.
+Læringsmomentene til spilleprinsippet konsentrering i forsvar vil være:
+• Konsentrering når ballfører er sentralt på banen
+• Sideforskyving når ballfører er på kant
+• Hastighet på forflytningen
+
+
+Soneforsvar kontra markeringsforsvar
+Dette er ytterpunktene i forsvarsorganisering. Så kan vi ha tilnærminger på
+begge sider. Det markeringsorienterte laget kan ha større eller mindre innslag
+av sone, og omvendt.
+
+Forskjellene på de to måtene å organisere forsvaret på kan skisseres slik:
+Et markeringsforsvar forholder seg til motstanders handlinger, mens et
+soneforsvar forholder seg til spillsituasjon og egne spilleres handlinger.
+Dette ser du tydelig i de to følgende figurene.
+
+
+
+
+Jo mindre struktur det er i et lag, desto vanskeligere
+er det å gjøre en god førsteforsvarerjobb.
+
+15
+I figuren under følger forsvarsspillerne angrepsspillernes løp.
+
+
+
+
+Figur 4: Her ser vi et markeringsforsvar (rødt lag) der back (9) følger spiss og etterlater seg
+rom som angrepslaget utnytter.
+
+I figuren under forholder forsvarerne seg til spillsituasjonen og førsteforsvarers
+mulighet til å nekte gjennombrudd eller å vinne ballen.
+
+
+
+
+Figur 5: Her en identisk spillsituasjon der det røde forsvarslaget følger soneprinsippene.
+Venstrebacken (5) blir i sin sone, og hele bakre ledd faller når gjennombruddspasningen
+kommer.
+
+
+
+16
+De to figurene anskueliggjør de to forsvarstypenes prioriteringer:
+
+Et markeringsforsvar prioriterer
+• markering (3F)
+• press på ballfører (1F)
+• sikring (2F)
+• sweeper (4F)
+
+Et soneforsvar prioriterer
+• press på ballfører (1F)
+• sikring (2F)
+• dekking av rom (3F)
+
+Evnen til å dekke rom i soneforsvar har ikke blitt lagt nok vekt på i tidligere
+litteratur. Det gjør vi noe med her.
+
+
+Tilpasninger i soneforsvaret
+Mange lag tar inn elementer fra markeringsforsvar innenfor ramma av
+soneforsvaret, for eksempel at
+• backen presser i midtbaneleddet
+• laget tar ut spillere i det høye presset
+• sentral midtbanespiller eller indreløper sikrer for back i forsvarssonen
+• stopper forblir i 16-meteren og backen må klare seg uten sikring
+• laget nedprioriterer sikringsjobben og opprioriterer lagets evne til å dekke
+  rom.
+
+Spillet utvikler seg. Citius, altius, fortius – raskere, høyere, sterkere – var Pierre
+de Coubertins spådom om idrettens utvikling. Sjelden har spådommer truffet så
+godt. Utviklingen innenfor fotballspillet har virkelig gått i denne retning. Spillerne
+løper mer og hurtigere. Laget forflytter seg hurtigere. Lag snur spillet raskere.
+Spillerne blir stadig dyktigere på små flater. Dette er fotballens evolusjon.
+Forsvarsspillet må svare på disse utfordringene. Derfor ser man tilpasninger
+og endringer.
+
+
+
+
+Spillerne blir stadig dyktigere på små flater.
+Dette er fotballens evolusjon.
+
+17
+I internasjonal fotball ser man at nær sagt alle lag spiller soneforsvar i det bakre
+leddet. I midtbaneleddet ser man mer tilnærming til markering. Dette ser vi
+også i Norge.
+
+Formasjonsvalg påvirker også forutsetningene for å gjennomføre et godt
+soneforsvar. Det er langt mer utfordrende å skulle dekke banens bredde med
+tre spillere enn med fire.
+
+Et viktig pedagogisk prinsipp når man skal lære effektivt forsvarsspill, er
+å kunne ramma før man gjør tilpasninger. Da har man et utgangspunkt.
+I soneforsvar består grunnfjellet: Spillerne forholder seg til spillsituasjonen
+og sine medspillere.
+
+
+Tempo i utførelse: Forflytningsevne
+I alle læringsmomenter som omhandles i dette heftet, gjelder følgende:
+• Det hjelper ikke med alskens prinsipper og læringsmomenter om ikke viljen
+   og evnen til forflytning finnes – hos spillerne, i lagdelene, mellom lagdelene
+   og i laget.
+
+Tempo i forflytninger er avgjørende for et godt forsvarsarbeid. Bevegelses-
+hurtighet er én ting: sidelengs, bakover, framover. Den viktigste faktoren
+for forflytningsevnen er å oppfatte og handle raskt nok i spillsituasjonen.
+Det hjelper lite å kunne løpe 60-meteren på 7,2 hvis en ikke oppfatter
+overgangen fra angrep til forsvar. Det hjelper lite å være kjapp i beina om
+det bakre leddet ikke oppfatter et bakromsløp.
+
+Forflytningshastighet er avgjørende for forflytningsevnen. Her legges lista altfor
+ofte for lavt. Forflytningsevne nevnes ikke spesifikt under hvert læringsmoment.
+Det gjelder hele tida.
+
+
+
+
+Spillerne forholder seg til spillsituasjonen
+og sine medspillere.
+
+18
+Soneforsvar på prinsippnivå
+Vi ser først på hvordan spillere og lag samhandler med hensyn til forsvars-
+prinsippene konsentrering, dybde og balanse. Målet med forsvarsspillet er dels
+å hindre gjennombrudd. Er spillsituasjonen gunstig, går laget for å vinne ballen.
+Et godt soneforsvarsspill gjør det trangt og vanskelig for det angripende
+laget. Et godt forsvarsspill hindrer motstander rom. Sagt på en annen måte:
+Et godt forsvarsspill gjør at angrepslaget blir satt under tidspress. Et godt
+forsvarslag hindrer angrepslaget i å få gode gjennombrudd og vinner ofte
+ballen tilbake, enten i åpent spill eller på dødball. Virkemidlene for å få til dette
+er konsentrering, dybde og balanse.
+
+
+Konsentrering
+Avstanden mellom forsvarsspillerne i banens bredderetning bør være liten
+for å nekte rom gjennom ledd. Laget sideforskyver når ballfører er i
+sidekorridor, og konsentrerer når ballfører befinner seg sentralt. I figuren
+nedenfor viser vi hvordan et godt forsvarslag sideforskyver og konsentrerer.
+Læringsmomenter knyttet til prinsippet konsentrering kommer vi tilbake til
+seinere i heftet.
+
+
+
+
+Figur 6: Et soneforsvar som sideforskyver og har kontroll over prioriterte (farlige) rom. Laget
+har gode forutsetninger for å vinne ball og starte en gunstig overgang.
+
+
+
+19
+Figur 7: Konsentrering i et soneforsvar.
+
+
+
+
+Dybde
+Dybde i forsvar er spillernes og leddenes avstand til hverandre i banens
+lengderetning.
+
+
+
+
+Figur 8: Riktige avstander i lengderetningen opprettholdes av forsvarslaget når angreps-
+lagets midtstopper (3) slår en lang støttepasning til sin stopperkollega (4).
+
+
+
+20
+En tommelfingerregel er å hele tiden ha konstante avstander: ca. 30 meter i
+bredden (halve banen) og ca. 25 meter i dybden fra toppspiss til bakre ledd.
+Denne avstanden må hele veien justeres i forhold spillsituasjonen. Dette ser vi i
+figuren nedenfor.
+
+
+
+
+Figur 9: Forsvarslaget justerer avstandene i laget ut fra ny spillsituasjon. Angrepslaget spiller
+i støtte. Forsvarsspiller nr. 10 (spiss) går i press, og de to forsvarsleddene justerer avstander
+i lengderetningen umiddelbart.
+
+
+
+
+Balanse
+Et forsvar i god balanse er et forsvar med god kontroll. Laget må ha minst
+like mange spillere som motstanderen på rett side av ballen (numerisk
+balanse). Spillerne og laget må også posisjonere seg rett i forhold til hverandre
+(posisjonell balanse). Alle forsvarsoppgavene skal være tilfredsstillende
+ivaretatt: Det må være press på ballfører, det må være sikring, og laget må ha
+kontroll over prioriterte rom.
+
+
+
+
+Det må være press på ballfører, det må være sikring,
+og laget må ha kontroll over prioriterte rom.
+
+21
+I figuren nedenfor oppsummerer vi de tre prinsippene konsentrering, dybde og
+balanse i et godt forsvarslag.
+
+
+
+
+Figur 10: Et forsvarslag i god balanse. Igangsetting fra keeper. Fremre forsvarsledd nekter
+støttepasning (9) samt å ta ut rom (10) foran møtende midtbanespiller. Midtbaneleddet med
+kant (11) går i press og leder ut. Nr. 8 sikrer. 6 og 8 dekker rom. Det bakre forsvarende
+leddet har riktige avstander til midtbaneleddet. Keeper er i beredskap for bakromstrussel.
+
+
+
+
+22
+Soneforsvarets retningslinjer
+og læringsmomenter
+Hvilke retningslinjer må et godt soneforsvar følge for å nekte motstanderlaget
+gjennombrudd og vinne ballen oftest mulig? Vi går fra prinsippnivået og ned på
+konkrete retningslinjer og læringsmomenter for laget.
+
+
+Hvem er førsteforsvarer (1F)?
+Førsteforsvareren er den viktigste spilleren i et soneforsvar. Oppgavene
+er ulike ut fra spillsituasjonen. Førsteforsvareren skal vinne ballen når det
+er mulig. Førsteforsvarers handling skal gjøre sitt til at laget vinner tid for å
+komme i balanse. Spilleren skal hindre gjennombruddspasninger. Spilleren skal
+tvinge ballfører til å spille på tvers eller bakover. Førsteforsvareren er også den
+som til sjuende og sist hindrer motstanderlaget å score. Førsteforsvareren er
+lagets signalspiller. Spillerens handlinger påvirker spillsituasjonen. Spillerens
+handlinger avgjør resten av lagets handlinger. Vet ikke spillerne og laget hvem
+som er førsteforsvarer, får vi et lag som ikke fungerer i forsvar.
+
+Hovedregelen er at spilleren nærmest ballfører er førsteforsvarer. I figuren
+nedenfor ser vi klart hvem i laget som er førsteforsvarer.
+
+
+
+
+Figur 11: Forsvarslagets midtbaneledds kant (11) setter inn presset. Dette er signalspilleren
+for de resterende ti forsvarsspillerne. Førsteforsvareren vår definerer spillsituasjonen.
+
+
+23
+Unntak fra hovedregelen
+1) Når backen er nærmest ballfører, men har en angrepsspiller på yttersiden
+   av seg. Ofte er dette en én-mot-to-situasjon som krever tålmodighet og/eller
+   samhandling med forsvarsspiller som er på innersiden av kanten/backen.
+   Dette eksemplifiseres nedenfor.
+
+
+
+
+Figur 12: Forsvarende høyreback (2) er nærmest ballfører, men kan ikke være aktiv
+førsteforsvarer. Backen må bruke hodet: a) Er det krise: Gå for ballerobring; b) opphold;
+c) kommuniser til nærmeste stopper (3) eller nærmeste sentrale midtbanespiller at han må
+ta over førsteforsvareroppgaven. I det siste tilfellet tar backen ansvar for å dekke rommet til
+overlappende back.
+
+
+
+
+24
+2) Når angrepsspiller fører ball inn i ny sone eller spiller en kort pasning til
+   medspiller, er det ikke hensiktsmessig å bytte førsteforsvarer. Dette er
+   spesielt viktig når førsteangriper kan avslutte og/eller slå ball inn i farlig
+   sone. Ikke bytt på førsteforsvarerrollen før ballfører har slått en pasning
+   videre, er en god regel. Nedenfor viser vi en slik situasjon.
+
+
+
+
+Figur 13: Angrepsspiller (10) fører på tvers foran forsvarsleddet. Venstre midtstopper (4)
+fortsetter sin førsteforsvareroppgave selv om denne spilleren (10) per definisjon er i den
+andre midtstopperens sone.
+
+
+
+Leding
+Leding av ballfører er knyttet til førsteforsvareroppgaven.
+Hvor vil førsteforsvareren ha angrepsspilleren
+• for å vinne ball.
+• for å unngå at førsteangriperen slår gode gjennombruddsballer eller kommer
+  til avslutning.
+• for å unngå at førsteangriperen flytter spillet til områder der det er mer rom.
+• for å tvinge førsteangriperen å spille ballen bakover.
+
+Førsteforsvarerens beste venn er sidelinja. Her er det trangt, og mulighetene
+for å vinne ball øker. Dermed kunne hovedregelen ha vært: Led alltid
+førsteangriperen ut mot sidelinja.
+
+
+
+
+25
+Figur 14: Førsteforsvarer (7) leder angrepslagets back dit det er trangest: mot sidelinja.
+
+
+
+
+Imidlertid er måten førsteforsvarer løser dette på, så «relasjonell» at vi
+supplerer med noen avveininger og påfølgende retningslinjer:
+• Førsteforsvarer skal i utgangspunktet ta korteste vei mot førsteangriper.
+• Ønsker vi at førsteangriper ikke skal nå et rom, en spiller eller en posisjon,
+  skjermer vi vekk det rommet med et bueløp.
+• Ønsker vi ikke pasning på yttersiden/kanten, leder vi inn.
+• Har vi sikringsspiller på innersiden, kan det også ledes inn.
+• Er vi i overtall inne på banen, leder vi inn.
+• Er vi i undertall sentralt, led ut.
+• Er førsteforsvareren aleine uten sikring, eller skal klare seg uten sikring,
+  led ut.
+• Har motstanderlaget en spiller som er dominant, preger kamper og leder
+  an ved gjennombrudd, led vekk fra denne spilleren.
+
+
+
+
+Er førsteforsvareren aleine uten sikring, eller skal klare
+seg uten sikring, led ut.
+
+26
+Nedenfor viser vi en førsteforsvarer som leder ut.
+
+
+
+
+Figur 15: Forsvarskanten (11) leder bevisst utover.
+
+
+
+
+Nedenfor ser vi et lag og en førsteforsvarer som leder inn fordi de er i overtall
+sentralt.
+
+
+
+
+Figur 16: Et angripende K–4–4–2 møter et forsvarende K–4–3–3 (K–4–5–1).
+Forsvarslaget er i overtall på midten. Det ledes inn i overtallet.
+
+
+
+27
+Hvem møter førsteforsvarer som førsteangriper?
+Er det en innoverkant? «Led» utover, det liker ikke spilleren.
+Er det en utoverkant? «Led» innover, det liker ikke spilleren.
+Ofte møtes angrepsspillere og forsvarsspillere i par: kant–back, back–kant.
+Å «kunne» motstanders ferdigheter, å kjenne motstanders styrker og svakheter,
+bedrer forutsetningene for å gjøre enda flere gode valg.
+Noen forsvarsspillere kan ha én god og én mer eller mindre dårlig taklingsfot.
+Å lede ballfører slik at godfoten kan vinne ballen, gir godfølelsen.
+
+Motstanderlagets spillestil
+Har motstanderlaget et mønster – en stil – går det også an å møte dette
+med mottrekk:
+• Et angrepslag som ønsker å nå korridor og er gode til det: Led inn.
+• Lag som ønsker å spille via sentralt område og er gode til det: Led ut.
+
+Å lede ut eller inn – innlæring
+Velg en plan. Øv på det. Skaff erfaring med enkle retningslinjer.
+Ingen retningslinjer = kaos.
+
+Både på nasjonalt og internasjonalt toppnivå ser vi at det veldig ofte ledes
+utover.
+1) Fordi forsvarslaget «pakker» angrepslaget på én side og rommet blir
+    mindre.
+2) Fordi en øker sjansene for å unngå vending av spill.
+3) Fordi en ikke ønsker gjennombrudd sentralt.
+Med mange og gode forsvarsspillere i boks skal man klare å takle
+gjennombrudd på eller innlegg fra kanten. Minuset er dels at man ikke leder
+mot sikringsspiller, dels at man som angrepslag ofte spiller «av» et helt
+midtbaneledd med en pasning. Igjen: Prøv ut og høst erfaringer. Det finnes
+ingen fasit her.
+
+Egil Olsens rasjonale var å lede inn, der sikringsspiller befinner seg.
+Å lede inn gir også en annen gevinst: Ved ballerobring vinner man ballen
+sentralt og kan følgelig angripe både til høyre og venstre. En førsteforsvarers
+oppgave endrer seg hele tiden, ut fra spillsituasjonen. Spillere og lag som leser
+spillsituasjonene godt sammen, er vanskelige å spille mot.
+
+
+
+Ingen retningslinjer = kaos.
+
+28
+Å screene
+Å screene er nært beslektet med å lede. Det er avansert leding. Når det
+screenes, tvinger førsteforsvarer ballfører i én retning. Når en førsteforsvarer
+screener, finnes det to tanker i hodet samtidig:
+• Man skal lede førsteangriper én vei.
+• Samtidig skal man nekte pasningsforbindelse til en annen angrepsspiller.
+
+En forsvarskant buer løpet slik at stopper ikke når sin back på ballsiden.
+En back buer sitt løp slik at kanten ikke kan nås. Man prioriteter å stenge
+en pasningsforbindelse framfor å vinne ballen. Man utsetter dermed
+ballerobringen.
+
+Forskjellen på å screene og å lede er at screening også utføres av andre- og
+tredjeforsvarere. Da er det avgjørende at leddet bak har god kommunikasjon
+med spillerne i leddet foran. For eksempel bør forsvarsleddet se og
+kommunisere hvor angrepsspillerne i mellomrommet har plassert seg.
+
+
+
+
+Figur 17: Høyre forsvarskant (7) på det forsvarende lag screener ut venstre angrepsback
+(5) med et bueløp inn mot ballfører (4). Samtidig screener forsvarende lags midtbane-
+spillere (6, 9 og 8) vekk pasningsforbindelsene til angriperne i mellomrommet (8, 9 og 10).
+Dette gjøres ved god kommunikasjon fra bakre forsvarsledd.
+
+
+
+
+Forskjellen på å screene og å lede er at screening
+også utføres av andre- og tredjeforsvarere.
+
+29
+Har vi alltid press på ballfører?
+I en fotballkamp handler forsvarsspillet for den enkelte spiller i større grad om
+å dekke rom enn om å jage ballfører gjennom kampen. Dette glemmes ofte.
+At et lag sammen evner å dekke rom, er en avgjørende lagferdighet.
+Er ballfører langt fra målet vårt og vi ligger lavt har vi ingen «aggressiv»
+førsteforsvarer, og heller ingen definert andreforsvarer. Da har vi kun
+tredjeforsvarere som dekker rom.
+
+Vi ser ofte at førsteforsvarer er for ivrig og blir spilt av eller lager store rom.
+Å kunne stå i det og være «kontrollert avventende» er en viktig
+forsvarsferdighet i laget. Hvilke angrepslag makter gjennombrudd mot et
+lag i posisjonell balanse? Svært få. Har angrepslaget mange spillere i et
+mellomrom, kan det også lønne seg å nedprioritere sikring til fordel for å dekke
+rom. Nedenfor viser vi en slik situasjon.
+
+
+
+
+Figur 18: Det forsvarende lag ligger lavt i balanse. Et fantastisk utgangspunkt for ballerobring
+og overgang. Den følelsen må forsvarslaget ha. Å ligge lavt er en øvelsessak.
+
+
+
+
+I en fotballkamp handler forsvarsspillet for den enkelte spiller i
+større grad om å dekke rom enn om å jage ballfører gjennom
+kampen.
+
+30
+Presisering: Når vi legger oss lavt, første pressledd blir spilt av eller blir spilt
+lave, vil en liten meter fram hos en førsteforsvarer ødelegge vinkler til å tre
+igjennom til angrepsspillere i farlige rom.
+
+Andreforsvareren (2F) – sikring
+Har vi en førsteforsvarer, skal vi i utgangspunktet også ha en andreforsvarer
+eller en sikringsspiller.
+
+Hvem er sikringsspiller?
+Tommelfingerregelen er:
+• Nærmeste midtbanespiller sikrer kant i press.
+• Nærmeste midtbanespiller sikrer midtbanespiller i press.
+• Nærmeste stopper sikrer back i press.
+• Nærmeste stopper sikrer stopper i press.
+
+
+
+
+Figur 19: Et forsvarslag i balanse der forsvarslagets sentrale midtbane (8) presser og sentral
+midtbane (6) sikrer. Resterende spillere dekker og har kontroll over farlige rom.
+
+
+
+Hvor stor skal sikringsavstanden være?
+Har ballfører stor fart, må sikringsavstanden være større enn når ballfører
+har liten fart eller står stille. Å oppgi antall meter er umulig. Den verst
+mulige forsvarssituasjonen er når førsteangriperen tar både første- og
+andreforsvareren i ett jafs. Da har vi trøbbel.
+
+
+
+31
+Skal alltid nærmeste forsvarsspiller sikre?
+Unntaket er når vi nærmer oss egen 16-meter. Da vil vi ikke ha stoppere
+ut av boksen:
+• Backen må klare seg aleine.
+• Backen får sikring fra nærmeste midtbanespiller.
+• Backen får hjelp av kanten på «feil» side av ballen.
+
+Vi kan til tider sende fram en signalspiller – en som er litt aleine mot
+motstanderlaget – for
+• å ødelegge pasningsrytmen.
+• å få laget etter («pumpe etter»).
+Da har vi heller ikke noen sikringsspiller.
+
+
+
+
+Figur 20: «Signalspiller på tokt». En forsvarer (8) jager ballfører. Enten for å forstyrre ball-
+baner eller for å få eget lag høyere i banen. Det kan være et internt språk for høyere press
+eller «vi går for ballerobring». Ofte setter signalspilleren i gang aksjon når lang støttepasning
+slås i angrepslaget.
+
+
+
+Kommunikasjon fra spillere i leddet bak
+Kommunikasjon hele veien fra keeper til bakre ledd via spillere i
+midtbaneleddet og til det fremre leddet vil gjøre at riktige rom dekkes
+for å nekte pasningsforbindelser. Stoppere har her ofte en sentral
+plass: Kommandoen «Dekk venstre» vil i mange tilfeller være nok til at
+pasningsforbindelse inn i mellomrommet brytes.
+
+
+
+32
+Kommunikasjon generelt
+Ofte har man en sjef i det bakre leddet, eller i midtbaneleddet, som
+kommuniserer mer enn andre. I en innlæringsfase er det greit med slike
+«sjefer» som er i forkant av spillsituasjonen. Dog er det spillsituasjonen
+som er signalet for alle spillerne. Alle skal lese likt og samtidig. Først da blir
+samhandlingen best mulig. Å lene seg for mye på «sjefer» i et lag bidrar ikke
+til å utvikle samforståelsen. Det er likevel bedre med «sjefer» blant spillerne på
+banen, enn en trener som kommanderer sine spillere fra sidelinjen.
+
+
+
+
+Figur 21: Det angripende laget har tre spillere i mellomrommet. Allikevel sliter ballfører
+med å nå noen av dem fordi det forsvarende midtbaneleddet tar ut pasningskorridorene.
+Kontinuerlig kommunikasjon fra bakre ledd og videre framover er avgjørende: «Flytt en
+meter venstre», «Mer høyre, Knut».
+
+
+
+Offsideregelen – forsvarslagets hjelper
+Offsideregelen må brukes aktivt for å skape gode arbeidsbetingelser for
+forsvarslaget. Dette vil bedre forutsetningene for å nekte angrepslaget rom.
+Et godt forsvarslag vet når bakrom trues, og når bakrom ikke kan nås.
+Et godt lag vet når mellomrommet må justeres. Å utnytte offsideregelen har
+med relasjonell erfaring å gjøre – hos enkeltspillere og spillerne i leddet,
+sammen. Det krever også kunnskap og erfaring hos trener.
+
+Det er bedre å falle med et bakre ledd to ganger for mye enn to ganger for lite.
+Et godt forsvarslag vet når det er bakromstrussel og ikke. De forholder seg til
+ballfører, angrepslagets løp og balanseforholdet i eget lag.
+
+
+33
+Her er knaggene:
+
+«Å lese fot»: Vi kan se om ballfører lader for gjennombruddspasning eller ikke
+samtidig som det kommer truende timede løp:
+• Er løpet timet, må bakrommet vernes.
+
+
+
+
+Figur 22: Det forsvarende laget er i ubalanse. Ballfører (4) er upressa, og det er mange
+truende løp inn mot potensiell avslutningsposisjon. Bakrommet må vernes.
+
+
+
+
+34
+• Er løpet ikke timet, kan forsvarslaget la spillere gå i offside.
+
+
+
+
+Figur 23: Det bakre leddet ser at ballfører ikke kan nå verken spissen (10) eller kanten (11).
+Det bakre leddet velger helt riktig å la disse løpene gå. Det forsvarende laget oppnår da
+gode forutsetninger for å lykkes med sitt forsvarsspill. Det er små avstander mellom leddene,
+og de har riktig dybde.
+
+
+
+
+35
+Bakre ledd og linje
+• Det bakre leddet må stole på hverandre i den forstand at spillere vendt mot
+  ball vet at resterende spillere i leddet ikke ligger dypere enn seg selv.
+• Å sidestille seg som spiller – med blikk sidelengs – er en forutsetning for god
+  samhandling.
+• Når ballfører er i bakre ledd, må det være press på ballfører. Tredjeforsvarere
+  skal ligge på linje med andreforsvareren.
+
+
+
+
+Figur 24: Den forsvarende backen (2) er i press. Sikringsspiller (3) er anretningsspiller:
+Stopper (4) og back (5) skal ikke bryte den den tenkte linja mellom 3 og 5. Da kan både
+stopper (4) og back (5) la «ikke-timede løp» gå i offside.
+
+
+
+
+36
+Ballfører på vei mot eller allerede inne i vårt bakre ledd
+Er ballfører på vei mot eller allerede inne i vårt bakre ledd, kan det være fare på
+ferde. Her skal følgende retningslinjer sitte i laget:
+
+Hvordan kommer førsteangriper? I stor fart, uten fart, feilvendt?
+
+Er det flere truende løp rundt og forbi ballfører, og/eller trues bakrom
+av flere løp?
+• Fall til rommet mellom bakre ledd og keeper er lite.
+
+Er det press på ballfører sentralt?
+• Førsteforsvarer må ikke selge seg, og samtidig nekte pasning og skudd.
+  «Førsteforsvarerstolthet».
+• Konsentrer slik at pasninger ikke kan bli slått mellom spillere i leddet.
+  Å være trang tvinger pasning på ytterside og vekk fra farlig sone.
+  Vi tvinger pasninger «rundt».
+
+
+
+
+Figur 25: Angrepsspiller nr. 9 kjører pådrag for å skape 2 mot 1 på kant, eventuelt tre
+gjennombruddspasning mellom forsvarende stopper (3) og back (2). Pasning tvinges på
+ytterside. Hadde backen vært breiere, ville situasjonen sett helt annerledes ut.
+
+
+
+
+Å være trang tvinger pasning på ytterside og vekk
+fra farlig sone. Vi tvinger pasninger «rundt».
+
+37
+Er det press på ballfører på kant lavt i banen:
+• Ytre spiller (back) presser ytre angrepsspiller.
+• Stoppere og motsatt back blir i 16-meteren.
+• Midtbanespiller (indreløper eller sentral midtbane) sikrer.
+
+
+
+
+Figur 26: Forsvarende høyre back i press. Sentral midtbane sikrer (6). Stoppere (3 og 4)
+og motsatt back verner 16-meteren.
+
+
+
+
+38
+Push-out
+Fotballtermen «push-out» bruker vi når laget går fra forsvar til angrep ved
+klarering. Klareringen går til medspiller med kontroll høyere opp på banen.
+Da rykker hele laget etter.
+
+
+
+
+Figur 27: Forsvarende midtstopper (4) har klarert. Nr. 11 (rød) får kontroll over ballen.
+Resten av laget «pusher ut».
+
+
+
+
+Pumping
+Like viktig er det at laget
+• faller og verner mellomrom og bakrom når det ikke er press på ballfører og
+   angrepslaget truer disse rommene med løp
+• rykker ut når angrepslaget
+   - slår støttepasning og det ikke er fare for en umiddelbar gjennombruddspasning
+   - slår en upresis pasning
+   - nøler
+   - går seg fast
+
+Denne aksjonen kalles pumping. Det krever konstante avstander mellom
+det forsvarende lags forsvarsledd. Erfaringsmessig er pumping også det
+vanskeligste relasjonelle taktiske valget å få stabilt og samstemt i laget.
+I figuren nedenfor ser vi at angrepslaget spiller i støtte, bakover, og at
+forsvarslaget går i nytt press høyere på banen. Nå er det essensielt at
+
+
+39
+forsvarsleddene forholder seg til ny spillsituasjon og pumper ut for å
+opprettholde riktige avstander mellom leddene. Her syndes det mye, og
+mellomrommet blir ofte større enn ønskelig. I innlæringsfasen kan det være
+godt med en «sjef» i midtforsvaret som styrer og skaper god samhandling i
+disse spillsituasjonene. Dette læringsmomentet må sitte når man skal utøve
+godt soneforsvar.
+
+
+
+
+Figur 28: Det gule angrepslaget møter et kompakt forsvarslag. Forsvarende midtbane-
+spiller (6) presser fram en støttepasning fra angrepsspiller nr. 8. Forsvarende spiss (10)
+går i umiddelbart press på ny ballfører (4). Det bakre og det midtre leddet pumper ut for
+å holde konstante avstander i laget.
+
+
+
+
+40
+Nedenfor ser vi mangel på samstemthet i forsvarsarbeidet. Midtbaneleddet
+flytter etter. Det bakre leddet blir stående. Forsvarslaget lager da et mellomrom
+som et godt angrepslag vil angripe så fort det får mulighet.
+
+
+
+
+Figur 29: Mangel på samstemt pumping i forsvarslaget. Det forsvarende lags midtbaneledd
+forholder seg til ny spillsituasjon. Det gjør ikke det bakre leddet, som blir stående, og et
+fremre forsvarsledd (10 og 9) som ikke skjønner at de er nøkkelspillere i forsvarsarbeidet.
+Dette er en god illustrasjon på at det ikke nødvendigvis hjelper å ha nok spillere bak ballen
+(numerisk balanse). Spillerne bak ballen må også ligge i rett posisjon med tanke på spill-
+situasjonen (posisjonell balanse).
+
+
+
+
+41
+Det verst tenkelige soneforsvaret er når forsvarslaget legger bakrommet åpent
+for gjennombrudd. En slik måte å spille på skaper frustrasjon og gjør at laget
+blir demotivert. Soneforsvar blir plutselig et negativt ladet ord. Nedenfor legger
+forsvarslaget hodet sitt på et fat.
+
+
+
+
+Figur 30: Det forsvarende lags bakre ledd pumper ukritisk ut, uten å vurdere hvordan det ser
+ut rundt ballfører.
+
+
+
+De fleste fotballuttrykkene vi bruker, har vi fra England – naturlig nok. Derfra
+fikk vi tidenes gave: fotballspillet.
+
+Engelskmenn bruker uttrykkene «front foot and back foot defending» eller «on
+the front foot – on the back foot» nettopp om lagets eller spillernes evne til å
+forsvare seg foran og bak seg.
+
+Utrykkene er gode. De brukes derimot ikke i den norske fotballterminologien.
+Jeg har brukt dem – med hell – hos mine spillere. Kanskje en nyvinning?
+Lagets evne til å pushe ut og å pumpe – i riktig øyeblikk – er avgjørende for
+lagets samlede forsvarsevne. Her skiller vi klinten fra hveten.
+
+
+
+Lagets evne til å pushe ut og å pumpe – i riktig øyeblikk – er
+avgjørende for lagets samlede forsvarsevne. Her skiller vi
+klinten fra hveten.
+
+42
+Sideforskyving og konsentrering i midtbaneleddet
+og i det bakre leddet
+Dette er det viktigste virkemidlet for å gjøre det trangt i bredderetningen.
+Av erfaring er det ofte lettere å få til god sideforskyving enn god konsentrering.
+
+Sideforskyving
+1) Avstanden mellom forsvarsspillerne skal være rundt 10 meter. Er ballfører
+   i leddet, må avstanden være mindre. Svært få angrepslag makter å snu
+   spillet til motsatt side før førsteforsvarer rekker over i press på motsatt side.
+2) Er ballfører på kant enten i midtbaneleddet eller i forsvarsleddet, er
+   femmeters bortre linje en flott rettesnor for forsvarslaget.
+3) Er ballfører på kant i midtbaneleddet, bør midtbaneleddet sideforskyve
+   3–5 meter mer enn bakre ledd. På mange lag har midtbanespilleren lengst
+   unna ballfører en tendens til å falle ned og ta ansvar for kanten i bakre ledd.
+   Dessuten liker backen bak å «kalle ned» spilleren. Det er tryggere. Når
+   backen ligger noe breiere, blir det tryggere for begge. Dette kan justeres
+   etter hvert. Motstanders ferdigheter og lagets evne til å snu kjapt ligger inne
+   i slike avveininger. Figuren nedenfor viser god sideforskyving i et lag.
+
+
+
+
+Figur 31: Det forsvarende laget sideforskyver både bakre og midtre ledd på en god måte.
+Høyre back (2) er litt breiere enn høyre kant (7). Det er en god regel innad i forsvarslaget.
+
+
+
+
+43
+Konsentrering
+1) Jo større konsentrering, desto vanskeligere blir det for det angripende laget
+   å tre pasninger mellom spillere i leddet.
+2) Jo større konsentrering, desto vanskeligere blir det for det angripende laget
+   å være presis med gjennombruddspasninger i bakrommet.
+3) Jo større konsentrering, desto mer tvinger forsvarslaget det angripende
+   laget å spille rundt.
+
+
+
+
+Figur 32: God konsentrering hos forsvarslaget gir gode forutsetninger for ballerobring.
+Eller det tvinger angrepslaget til å spille rundt eller i støtte.
+
+
+
+
+Jo større konsentrering, desto mer tvinger forsvarslaget
+det angripende laget å spille rundt.
+
+44
+En viktig presisering: Å få gjennombruddspasninger mellom forsvarsspillere
+inn i mellomrom, eller spesielt i bakrom, betyr ofte trøbbel.
+
+Er det ubalanse: Tving pasningen vekk fra farlig område ved å være smale.
+
+
+
+
+Figur 33: Et bakre forsvarsledd som tvinger pasninger på yttersiden.
+God, samstemt konsentrering gir små avstander i leddet.
+
+
+
+
+Å komme på rett side
+Ofte hører vi at grunnregel nr. 1 i forsvar er å komme på rett side av ball og
+motstander. Vi hører stadig vekk kommandoen «kom på rett side» fra trenerne.
+Kommandoen er grei nok. Men den må forståes rett i et soneforsvar.
+
+
+På rett side av ball vs. på rett side av ball og motstander
+Distinksjonen mellom «på rett side av ball» vs. «på rett side av ball og
+motstander» er mer enn bare en distinksjon. Det er forskjellen mellom
+et markeringsforsvar og et soneforsvar. Og det er forskjellen mellom et
+soneforsvar og et godt soneforsvar.
+Når et soneforsvar er i balanse, er alle spillerne i det bakre leddet i
+utgangspunktet på rett side av både ball og motstander. Tar motstanderlagets
+angrepsspillere dårlig timede løp, lar det bakre forsvarsleddet spillerne bare
+løpe inn i eller bli værende i bakrommet.
+
+
+45
+På rett side
+I et soneforsvar gjelder det altså i større grad å komme på rett side av ball enn
+å komme på rett side av både angrepsspiller og ball.
+
+
+
+
+Figur 34: Det forsvarende laget har ni spillere på rett side av ball. Fire forsvarsspillere er
+på rett side av ball og motstander. Det fremre forsvarsleddet (9 og 10) er ikke på rett side.
+De har allikevel en «forsvarsfunksjon». Spiss nr. 9 skal nekte støttealternativ. Spiss nr. 10
+skal nekte «snu-alternativ». Legg merke til at det bakre leddet lar angripende spiss (10) ligge
+i offsideposisjon. Det er press på ballfører, og det forsvarende laget lar seg ikke strekke
+unødig. Forsvarslaget oppfyller alle kravene som skisseres nedenfor.
+
+
+
+På rett side – i riktige posisjoner
+Et forsvarslag i god balanse har press på ballfører, sikring og spillere som
+dekker og kontrollerer de mest sårbare rommene for gjennombrudd på banen.
+I en kamp vil et forsvarslag hele tiden tilstrebe å være i denne tilstanden.
+
+
+
+
+I et soneforsvar gjelder det altså i større grad å komme
+på rett side av ball enn å komme på rett side av både
+angrepsspiller og ball.
+
+46
+På rett side – tidsnok
+Fotballspillet er et spill med stadige skifter fra angrep til forsvar. Og fra forsvar
+til angrep. Noen av disse skiftene er klart definert gjennom frispark, corner,
+kast og avspark. I spill kan skiftet komme fort, både fra angrep til forsvar og
+fra forsvar til angrep. I tillegg har vi situasjoner der vi ikke vet hvem som eier
+ballen. Ingen av lagene har kontroll.
+
+
+
+
+Figur 35: Det gule angrepslaget har hatt corner. Forsvarslaget (rødt) klarerer. Ballen er løs.
+Lagenes evne til å omstille seg er avgjørende for neste spillsituasjon.
+
+
+
+
+47
+Må vi alltid komme på rett side i forsvarsspillet?
+Stort sett ja, men det finnes to unntak:
+1) Når det fremre leddet (les: egne spisser i forsvar) er blitt spilt av, er
+   hovedoppgaven i forsvar å ta ut spillerne i det bakre angrepsleddet – hindre
+   at de brukes som støttespillere.
+2) Sammen med førsteforsvarer på rett side, kan man lage en «sandwich-
+   situasjon» og vinne ballen. «Blir ball spilt forbi meg, kan jeg skvise ny
+   ballfører sammen med førsteforsvarer på rett side?» Her har mange
+   trenere, lag og spillere mye å gå på. Et godt forsvarsgrep kan være å
+   ansvarliggjøre i par: Kant hjelper back, dyp spiss hjelper sentral midt,
+   sentral midt hjelper stoppere.
+
+
+
+
+Figur 36: Forsvarere på begge sider – både foran og bak ballfører. Parjobbing i praksis:
+Spiss (9) og sentral midt (6) skviser angrepsspiller nr. 6.
+
+
+
+
+Et godt forsvarsgrep kan være å ansvarliggjøre i par:
+Kant hjelper back, dyp spiss hjelper sentral midt, sentral
+midt hjelper stoppere.
+
+48
+Presshøyde og samstemthet
+«Vi må flytte beina – sammen» var parolen til en god norsk fotballtrener.
+Et godt forsvarsspill handler nettopp om samforståelse av felles kjøreregler
+i et landskap som endres hele tiden. En felles forståelse av når og hvordan
+vi setter inn presset og justerer presshøyden, er avgjørende for om vi lykkes
+i forsvarsspillet.
+
+Hvor lagpresset settes, avgjøres av flere forhold:
+• Styrkeforholdet mellom lagene.
+• Om motstanderlaget ofte spiller seg ut bakfra med stor risiko.
+• Om motstanderlaget er gode til å spille seg ut bakfra.
+• Stillingen i kampen.
+
+
+En dreining i det høye presset?
+Tilbakespillsregelen ble innført i 1992. Dette er den mest revolusjonerende
+regelendringen siden offsideregelen ble endret i 1927. (Angrepsspiller var
+offside når denne hadde tre spillere mellom seg og mållinja da ballen ble spilt.
+Denne regelen ble endret til kun to spillere.) Før 1992 kunne keeper ta ballen
+med hendene ved tilbakespill. Dette førte ofte til uthaling av tid, og til hyppige
+lange utspill.
+
+Flere angrep starter nå med ballbesittelse – langt nede på egen halvdel.
+Flere forsvarslag jakter ballfører for å vinne ballen høyt. Vi har i tillegg vært
+gjennom en spillestilstrend der man i angrep skal «spille seg ut», ofte med liten
+risikovurdering. I mange tilfeller har høyt press gitt gevinst i form av ballerobring
+høyt på banen.
+
+Nå er det dessuten anledning til å ha egne spillere inne i 16-meteren ved
+eget målspark. Det kan bidra til at det oftere blir satt i gang kort. Med mer rom
+tilgjengelig blir det desto vanskeligere å erobre ballen. Vi følger i spenning med
+på hvordan denne regelendringen kan endre spillet ytterligere.
+
+
+
+
+49
+Hindre gjennombrudd – opphold – vinne ball
+Sju spillsituasjoner knyttes til forsvarslagets samhandling skissert nedenfor:
+• Fra angrep til forsvar eller bare når presset glipper
+• Høyt press for å tvinge fram langt målspark eller utspill
+• Angrepslaget setter i gang kort
+• Klassisk soneforsvar også i det høye presset
+• Det høye presset glipper, og vi må senke presshøyden
+• Laget legger seg lavere
+• Laget legger seg lavt
+
+
+Fra angrep til forsvar eller bare når presset glipper – oppholde
+Man kan aldri gardere seg mot baklengsmål. De kan komme som følge av et
+vådeskudd, et langskudd, et stjernetreff, en dødball, en tilfeldighet – eller to
+tilfeldigheter. Men man kan redusere antall baklengsmål betraktelig ved å ha
+en systematisk tilnærming til hvordan laget spiller forsvar.
+
+Vi har en tendens til å øve forsvarsspill i liketall (numerisk balanse).
+Vi har også en tendens til å øve forsvarsspill når alle er på plass (posisjonell
+balanse). Det skal vi også. I en innlæringsfase. Et godt råd er å fokusere på
+forsvarsspill
+• når vårt lag går fra angrep til forsvar
+• når presset glipper
+
+Etter hvert, når vårt lag mestrer soneforsvarets læringsmomenter, må vi trene
+på forsvarsspill når det er vanskelig, når det brenner, når krisen er der.
+
+Når vi mister ballen eller presset glipper, må nærmeste forsvarsspiller inn
+i ballfører. Kan ikke førsteforsvarer vinne ball, må hun eller han oppholde.
+(Uttrykket «oppholde» er nesten fraværende i dagens fotballterminologi, men
+«Delay» var et eget forsvarsprinsipp i den opprinnelige spilleprinsippmodellen.)
+Førsteforsvareren må ofte oppholde og prøve å ødelegge vinkler for videre
+gjennombrudd for at spillerne bak skal kunne gjenopprette balansen. Altfor
+ofte ser vi førsteforsvarere som er for hissige og blir spilt av. Dette øyeblikket
+er avgjørende for lagets evne til å hindre gjennombrudd og evnen til å vinne
+ballen lavere på banen. Derfor er «opphold» et godt ord her. Evnen til å
+oppholde skiller klinten fra hveten. Vi kan snakke om et «Golden Moment».
+
+
+
+
+50
+Resten av spillerne må så forholde seg til dette:
+• Spillere på feil side jobber seg ned på rett side.
+• Alle avstander justeres.
+• Vern om bakrom.
+
+Målet er å bli smale og trange igjen.
+
+
+
+
+Figur 37: Kant nr. 11 slår en tversoverpasning, og det røde laget går fra angrep til forsvar
+på et sekund. Dette er en krisesituasjon. Keeper og det bakre forsvarsleddet (1 – 2 – 3 – 4)
+verner om bakrommet. Nærmeste forsvarsspiller går inn i ballfører for å oppholde. Her er det
+forsvarsspiller på feil side (8) som må jobbe seg inn på rett side. Resterende spillere spurter
+på rett side av ball.
+
+
+
+
+51
+Nedenfor ser vi en annen krisesituasjon:
+
+
+
+
+Figur 38: KRISE – balltap! Det forsvarende laget gjenoppretter balanse gjennom helhjertede
+og samtidige aksjoner. Spillerne finner sine plasser relasjonelt, ut fra spillsituasjonen,
+uavhengig av sine på forhånd utdelte roller. Det forsvarende laget prøver å gjenopprette
+balansen
+1) ved å skaffe seg kontroll over bakrommet med det bakre leddet (2 – 3 – 4 – 11)
+2) ved å komme inn i ballfører (8 og 10) og vinne ball eller oppholde
+3) ved å komme på rett side av ball (8 – 10 – 5 – 7)
+4) ved å dekke sentrale rom og gjenopprette riktige avstander (7 – 6 – 9 – 5)
+
+
+
+
+52
+Høyt press for å tvinge fram langt målspark eller utspill
+Forsvarslaget blir mer markeringsorientert i det høye presset. Forsvarsspillerne
+tar ansvar for spillere foran seg, i sin sone, men i mindre grad i forhold til
+hverandre.
+
+Bakre ledd, ofte i liketall, i overtall med keeper, er sikkerhetsventilen med to
+oppgaver: vinne ball på feilvendte spillere og verne bakrommet.
+
+
+
+
+Figur 39: Forsvarslaget låser pasningsalternativer. Hensikten kan dels være å tvinge fram
+langt målspark, dels å vinne ball hvis angrepslaget setter i gang kort bakfra.
+
+
+
+Ved høyt press forlater man altså i større grad soneprinsippet.
+
+
+
+
+53
+Figur 40: Forsvarslaget ønsker å nekte kort målspark fra høyre. Legg merke til rollebytte fra
+forrige animasjon. Klare arbeidsoppgaver – der laget tvinger igangsetting mot venstresida
+hos angrepslaget.
+
+Angrepslaget setter i gang kort
+Fokus for spillerne på motstanders banehalvdel er å ha ansvar for spillerne
+foran seg. Det bakre leddet har ansvar for mellomrom og bakrom. Bakre ledd
+bør tørre å ta ut mulig ballfører i mellomrom. Mange legger en midtbanespiller
+som dekker store rom, i mellomrommet. En oppskrift kan være:
+1) Steng den ene siden. Spissen legger seg så på denne sidens stopper.
+    Kanten markerer ut backen på samme side.
+2) Spissen leder ut til en side og nekter så at de kan snu via samme stopper
+    igjen. I tillegg, ligge på skulder av stopperen for å hindre eller snappe opp
+    tilbakespill.
+3) Kant på ballside går høyt for å vinne ball – og leder inn.
+4) Så går nærmeste midtbanespiller i press om stopper frispilles – resten faller
+    ned, dekker rom og er smale.
+5) Bakre ledd markerer ut og dekker rom. Om ballen går i mellomrommet, skal
+    én i det bakre leddet støte – resten av bakre ledd dekker rom. Bakre ledd
+    skal alltid være beredt på at presset kollapser og bakrom må vernes.
+6) Makter angripende lag å vende, faller forsvarslaget ned i lavere press.
+
+NB! Vinner keeper ballen i spill, må laget ha beredskap for kast og langt
+utspill. Da er det full konsentrasjon på ny spillsituasjon, vinne duell og hindre
+angrepslaget i å nå prioriterte rom eller komme inn i forsvarssonen.
+
+
+54
+Klassisk soneforsvar også i det høye presset
+Til tross for trender går det fint å ha et soneorientert høyt press. I en innlæring i
+soneforsvaret er det greit å være renskåren, så får man eventuelt tilpasse etter
+hvert. Dette har vi vært innom tidligere. Nedenfor ser vi en klassisk K–4–4–2.
+Og en klassisk soneforsvarsorganisering – også høyt på banen.
+
+Tre ledd å forsvare seg med er alltid gunstig. I en innføringsfase for å lykkes
+i forsvarsspillet er det en forutsetning.
+
+Her presser én spiss. Den andre spissen ligger dypere. Så byttes rollene hvis
+angrepslaget snur spillet. Her gjelder soneprinsippet. Å lede inn i tidlig fase kan
+gi gunstige brudd, og en har mulighet til å ta gjennombruddet på begge sider.
+
+
+
+
+Figur 41: Høyt press i et K–4–4–2 soneforsvar. Det bakre leddet har ansvar for bakrommet
+og mellomrommet. Resterende dekker rom og har fokus på spillsituasjonen foran seg.
+
+
+
+
+Tre ledd å forsvare seg med er alltid gunstig. I en innførings-
+fase for å lykkes i forsvarsspillet er det en forutsetning.
+
+55
+Å screene ut spillere kan også her være gunstig.
+
+
+
+
+Figur 42: Høyre forsvarskant (7) på det forsvarende laget screener ut venstre angrepsback
+(5) med et bueløp inn mot ballfører (4). Samtidig screener forsvarende lags midtbanespille-
+re (6, 9 og 8) vekk pasningsforbindelsene til angriperne i mellomrommet (8, 9 og 10). Dette
+gjøres ved god kommunikasjon fra bakre forsvarsledd.
+
+
+
+
+Planlagt lavere presshøyde
+I internasjonal fotball ser vi at lag hyppig veksler mellom høyt og lavt press.
+Det lave presset er langt lavere enn det vi forbinder med lavt press i Norge.
+Å kunne ligge lavt og kontrollert krever en forståelse av at det lønner seg.
+Spillerne må kunne stå i det med en felles forståelse av at «Vi har kontroll –
+her slipper de ikke til! Her vinner vi ballen, i det rette øyeblikket.»
+
+Lavere press settes på høyde med toppen av angrepslagets midtbanebue.
+• Spissen legger seg på stopper på ballsiden, eventuelt på angrepslagets
+  dype midtbanespiller.
+• Midtbaneleddet: Spilleren nærmest ballfører presser, resten dekker rom.
+  - Ha mindre avstander mellom dem som dekker rom.
+  - Være så smale at de spiller rundt og ikke gjennom.
+  - Ha fokus på ballfører og den som presser.
+  - Være 100 prosent enige om hvor vi leder.
+  - Nøkkel: ny ballfører –> ny spiller som presser.
+
+
+
+56
+Figur 43: Forsvarslaget legger seg lavere. De to forsvarsleddene er så lave at angrepslaget
+blir tvunget til å spille rundt.
+
+
+
+
+Planlagt lavt press
+Nedenfor ser vi et lag i K–5–3–2 som ligger særs lavt. Denne formasjonen
+har nærmest fått en renessanse de siste årene. Det er en reaksjon på
+angrepslagenes evne til å oppnå gjennombrudd sentralt.
+
+Her lar forsvarslaget det bakre angrepsleddet være i ballbesittelse. Målet er
+å få dem til å tre pasning der det er trangest. Femmeren bak blir til fire når ytre
+spiller (back) presser angrepskanten. Fire i forsvarsleddet verner rom rundt og
+i egen 16-meter.
+
+Angrepslaget vil også prøve å snu spillet. Da skjer samme forflytning med
+hele laget.
+
+Om forsvarsfireren på midten skal klare å dekke midtbaneleddet, må ytre
+spiller opp i sin kant.
+
+
+
+
+57
+Figur 44: Det røde forsvarslaget legger seg lavt i K–5–3–2. Graden av løp rundt ny ballfører
+(11) avgjør om det er indreløper (6) eller ytre stopper (2) som sikrer førsteforsvareren (7).
+I denne spillsituasjonen er det naturlig at ytre stopper (2) gjør dette.
+
+
+
+
+Et forsvar der man i utgangspunktet har fem i det bakre leddet, kan bli
+baktungt. Det blir det imidlertid ikke hvis dynamikken presse – sikre – dekke
+rom er krystallklar og ytre spiller på ballsiden er dyktig til å dekke rom høyere,
+tjuvstarte og gå i press på kanten på ballsiden.
+
+
+Å bli spilt lave
+Møter vi et lag som er bedre enn oss, eller vi har en dag der laget ikke er «på»,
+eller vi er inne i en periode av kampen der det ikke stemmer, kan laget vårt bli
+spilt lave. Da får laget en presshøyde som er lavere enn planlagt.
+Hvilke «taktiske knagger» kan vi koble på for å komme høyere på banen?
+1) Vi må i enda større grad prøve å gjøre forsvarslaget trangt i både bredde-
+     og lengderetningen.
+2) Forsvarsspillere på feil side av ballfører (særlig spissene) må vinne
+     klareringsballer. En spiss må være på ballsiden. Lykkes man i
+     klareringsspillet, må push-outen gjennomføres på en god måte.
+3) Forsvarsspillere på feil side må ta ut angrepslagets støttespillere rundt
+     spillsituasjonen. Sandwicher vil være et viktig virkemiddel.
+
+
+
+
+58
+4) Vi må være nøye med pumpingen: Ved støttepasninger og pasninger av
+   dårlig kvalitet skvises rommet for motstanderlaget.
+5) Når vi blir tildelt dødball, for eksempel kast på motstanders banehalvdel, er
+   dette en gyllen mulighet til å bite seg fast høyere i banen.
+6) Vi kan sende fram en signalspiller med påfølgende lagpress. Dette vil
+   forstyrre angrepslagets rytme.
+
+
+
+
+Figur 45: Hyppig bruk av signalspiller kan være lurt når forsvarslaget er spilt lave.
+
+
+
+
+Å bli spilt lave er ikke ensbetydende med trøbbel. Som forsvarslag må vi være
+forberedt på at den typen klima kan oppstå i løpet av kampen. Er vi gode i det
+lave presset, gir det muligheter når vi erobrer ballen.
+
+
+
+
+Å bli spilt lave er ikke ensbetydende med trøbbel.
+
+59
+Hindre mål
+Tidligere har vi beskrevet en krisesituasjon i forsvar, nemlig der vi som
+angrepslag taper ball for så umiddelbart å komme i ubalanse som forsvarslag.
+Nå skal vi ta for oss to andre karakteristiske spillsituasjoner der
+beredskapsflagget må heises:
+• Forsvarsarbeid før og ved innlegg.
+• Forsvarsarbeid for å nekte avslutning – eller håndtere avslutning hvis
+  den likevel kommer.
+
+
+Forsvarsarbeid før og ved innlegg
+Evnen til å unngå innlegg og forsvare egen boks ved innlegg er avgjørende
+hvis man vil slippe inn få mål. Stoffet kategoriseres som følger:
+• Før innlegg – motstanderlagets spillestil.
+• Før innlegg – motstanderspillers spillestil.
+• Innleggsøyeblikket.
+• Innlegget i boksen.
+
+Før innlegg – motstanderlagets spillestil
+Laget kan i forkant forberede seg på hvilken type lag det møter. Hvordan
+kommer for eksempel laget til innlegg? Dette er spesielt viktig om innlegg
+er et hyppig brukt angrepsvåpen.
+• Spiller de med høye eller lave kanter?
+• Er det høy back som skaper bredde?
+• Skaper de ofte overtallssituasjoner?
+• Slår de i bakrom eller i beina?
+• Slår de tidlige eller seine innlegg?
+• Slår de innoverskrudde eller utoverskrudde innlegg?
+• Avslutter de vanligvis på første eller bakre stolpe, eller slår de 45 grader ut?
+
+Målet må være å redusere antall innlegg og vinne «innleggskampen
+i kampen». Ved å være forberedt.
+
+
+
+
+60
+Før innlegg – motstanderspillers spillestil
+Er man back, møter man ofte den samme spilleren gang etter gang i løpet
+av kampen. To ganger i året, kanskje flere. Å kjenne motstanders styrker
+og svakheter er en stor fordel.
+• Er spilleren én- eller tobeint?
+• Er spilleren en utover- eller innoverkant?
+• Vil spilleren ha ballen i beina eller i bakrom?
+• Er spilleren rask eller treg?
+• Er spilleren relasjonell eller mer av en individualist?
+
+Innleggsøyeblikket
+Første bud er å tvinge angrepslaget til å legge inn lengst mulig unna vår
+16-meter. Jo lengre unna, desto mer skal det til å få det presist. Jo lengre unna,
+desto mer tid har det forsvarende laget på seg til å dekke rom og vinne ball.
+Jo lengre unna, desto vanskeligere er det å skape målsjanser.
+
+
+
+
+Figur 46: Et smalt bakre ledd tvinger angrepslaget til å angripe bredt.
+
+
+
+
+61
+Figur 47: Et bredt bakre ledd åpner for innlegg nærmere mål.
+
+
+
+
+Andre bud kan formuleres som en tese: Jo flere forsvarsspillere innlegget må
+passere, desto vanskeligere er det å nå en mulig avslutter.
+
+
+
+
+Figur 48: Innlegget må passere mange forsvarsspillere før det når en ev. avslutter.
+
+
+
+
+62
+Tredje bud er at et eventuelt innlegg tvinges foran førsteforsvarer. Da vil det
+mest trolig ikke true bakrommet.
+
+
+
+
+Figur 49: Forsvarer tvinger innlegget foran seg.
+
+
+
+Det beste er selvsagt å hindre innlegg overhodet. Her må førsteforsvarer-
+stoltheten fram: «Aldri innlegg fra min side!» I dagens fotball overlates ofte
+backen aleine med denne oppgaven. Stopperne blir værende i 16-meteren.
+Hvordan man løser sikringsarbeidet, er omtalt tidligere.
+
+Her er noen læringsmomenter til den som skal vinne ball eller hindre innlegg:
+• Velge pressøyeblikk ut ifra avstand og motstanders kroppsposisjon, blikk,
+  fot og touch.
+• Komme tett i press med rett fart og korte ned stegene inn i press.
+• Ha kontroll på overkroppen, bruke armene aktivt og alltid ha en fot i bakken.
+• Utnytte dårlige, lange og for mange touch hos motstander.
+• Prøve å ta rommet mellom ballfører og ball.
+
+
+
+
+63
+Innlegget i boksen
+Vi kan dele disse opp i tre:
+• I overtall – liketall.
+• I undertall.
+• Innlegg fra dødlinja.
+
+I overtall – liketall
+• Soneprinsippet gjelder, i posisjon mellom eget mål og motstander i sone.
+• Ta kontroll foran eget mål gjennom posisjonering innenfor stolpene – sidestill.
+• Være rede: Oversikt over trusler mot første stolpe, bakre stolpe og
+   45-grader, og kontroll på farligste rom.
+• Ta kontroll på området mellom spiller i press og første stolpe med én spiller;
+   da må innlegget forbi to forsvarere før det blir farlig.
+• Sidestilt kroppsstilling så man ser både ball og motstandere – unngå «ball
+   watching».
+• Spillere på feil side må komme seg på rett side.
+• Offervilje – først på ball.
+• «Ta duellen før duellen» – gå i kropp for å ta bort timing og fart hos
+   motspiller.
+• Markere og ha kontroll på farlige rom helt til situasjonen er avklart.
+• Hvis motstanderne ikke når ball, bør de allikevel tas ut for å skaffe rom til
+   keeper.
+
+
+
+
+Figur 50: Innleggssituasjon der vi er i overtall
+
+
+
+
+64
+I undertall
+Her er vi på hæla. Innlegget vil komme. Vi må
+• ta kontroll på området mellom spiller i delvis press og første stolpe med én
+   spiller.
+• ta kontroll foran eget mål gjennom posisjonering innenfor stolpene.
+• evne å gjøre to ting samtidig: sidestille for å se innleggets bane og
+   motspillernes bevegelser og unngå «ball watching».
+• få spillere på feil side til å komme seg på rett side.
+
+
+
+
+Figur 51: Det brenner! Ved hjelp av klare retningslinjer skal det forsvarende laget likevel få
+dette under kontroll.
+
+
+
+
+65
+Innlegg fra dødlinja
+Dette er kanskje den mest spesielle spillsituasjonen i et soneforsvar.
+For her må vi markere ut motspillerne våre.
+
+
+
+
+Figur 52: Innlegg fra dødlinja. Forsvarsspillerne våre markerer ut angrepsspillerne.
+
+
+
+Forsvarsarbeid for å nekte avslutning – eller håndtere
+avslutning:
+
+Før eventuell avslutning
+• Kontrollere bakrom – falle av samla.
+• Posisjonere seg for å komme tett eller snappe ball og samtidig ha kontroll på
+  rom foran mål.
+• Stå i pressejobben til ballen er spilt.
+• Raskt i rett posisjon når pressejobben er over.
+• Korte avstander mellom spillere bak presset.
+• Spillere på feil side av ballfører tar ut støttespillere på det angripende laget;
+  greier man å lage sandwichsituasjoner, er det enda bedre.
+• Ta «duellen før duellen» – gå i kropp for å ta bort timing og fart hos
+  motspiller.
+
+
+
+66
+• Markere og ha kontroll på farlige rom helt til situasjonen er avklart.
+• Ta ut motstandere for å skaffe rom til keeper, selv om disse ikke når ball.
+
+Ved avslutning
+• Komme tett og presse – se på ball.
+• Ha kontroll på overkropp og alltid en fot i bakken – korte ned stegene inn i press.
+• Stresse ballfører – forsøke å vinne ball, oppholde og/eller lede vekk fra mål.
+• Ta rommet mellom ballfører og ball før man tar ball.
+• Holde feilvendte spillere feilvendt – armlengdes avstand.
+
+Håndtere avslutningen
+• Keeper er posisjonert og klar for å ta imot skudd; redde og styre returer.
+• Alle i beredskap fram til ballen er ute av boksen / situasjonen er avklart –
+  jakte returer.
+• I press / blokke med kontroll. Stå på beina, men vi kaster oss inn når vi må.
+• Stenge av ett hjørne (det hjørnet man kommer fra) – keeper tar det andre
+• Aldri skudd mellom beina.
+• Spillere som ikke markerer/blokker, beskytter målet.
+
+
+
+
+Figur 53: Et bakre ledd som er så smalt som det kan være, og der forsvarer nr. 3 blokkerer
+skudd.
+
+
+
+67
+Kvalitet i førsteforsvarerrollen –
+typiske spillsituasjoner
+Læring er avhengig av at man øver på det man skal beherske. Læring i fotball
+fordrer at spillerne trener på de situasjonene de møter i kamp. Læring fordrer
+gjenkjenning. Øving må skje opp og ned på funksjonalitetsskalaen – fra én-
+mot-én-situasjoner til spill elleve mot elleve. Nedenfor følger en kategorisering
+av typiske én-mot-én-situasjoner. Dette vil være utgangspunktet for hvordan
+læringssituasjonen legges til rette. Og selvsagt også for hvordan veiledning,
+inkludert feedback, skal skje.
+
+Spillsituasjonene førsteforsvareren kommer opp i, er ulike. De er nesten for
+ulike idretter å regne. Forståelsen for dette er ofte mangelvare hos oss trenere.
+Da blir den det hos spillerne også. Spillerne møter de ulike situasjonene hele
+tiden, både på trening og i kamp. Det er vår oppgave som trenere
+• å hjelpe spillerne til å identifisere de ulike situasjonene.
+• å bevisstgjøre spillerne på at disse situasjonene løses på ulike måter
+• å velge gode, konkrete læringsmomenter for å bli dyktige i de enkelte
+   situasjonene.
+• å øve på disse situasjonene på trening opp og ned på funksjonalitetsskalaen
+   der øvelsene treffer læringsmomentene.
+
+Når ingen er i ballbesittelse: 0-situasjoner
+Det laget som vinner flest dueller i en kamp, vinner ofte kampen også. 40
+prosent av alle angrepsstarter har utgangspunkt i en spillsituasjon der ingen
+av lagene er i kontrollert ballbesittelse. Å komme ut av disse situasjonene i
+ballbesittelse er følgelig avgjørende. Sannsynligheten for å lykkes øker
+1) hvis spillerne vurderer situasjonen som viktig
+2) hvis spillerne viser vilje til å vinne
+3) hvis omgivelsene – altså de andre på laget – tilbyr flest mulig
+    pasningsalternativ
+
+En motivasjonsfaktor: Målsjanser og mål kommer ofte fra intet. Mange av disse
+kan identifiseres fra uoversiktlige situasjoner.
+
+
+
+
+68
+Måtte ta igjen en ballfører som har passert deg
+Situasjonene oppstår ofte
+1) ved balltap der førsteforsvarer er nær ballfører. Å kunne være en god
+    førsteforsvarer på feil side er en god ferdighet.
+2) ved balltap der bakre ledd rygger og verner bakrommet. Det blir strekk i
+    laget. Her skal og må spillere høyere på banen ta tunge og hurtige løp hjem
+    – ofte over distanse – for så å gjenopprette balansen i laget.
+3) når angrepslag spiller gjennom ledd, og når førsteforsvarer blir for ivrig i
+    presset sitt.
+
+Er vi gode i disse situasjonene, vil laget evne å vinne ballen tilbake ofte.
+Spillere som behersker disse situasjonene, vil få både oppmerksomhet og
+anerkjennelse. Det lyser av god lagånd og oppofrelse. Det er en ferdighet å ta
+med seg.
+
+Møte en rettvendt ballfører
+Igjen er det spillsituasjonen som avgjør hvordan førsteforsvarer skal handle.
+Og ikke minst: hvordan balansen er i hele forsvarslaget.
+• Er førsteforsvareren langt unna og sannsynligheten liten for å komme
+   oppi før motspilleren kan spille pasning – slå gjennombruddet – blir
+   hovedoppgaven å gjøre seg så brei som mulig og dekke rom.
+• Jo nærmere eget mål man er, desto viktigere blir det at førsteforsvarer
+   kommer oppi for å nekte gjennombrudd eller avslutning. I og rundt 16-meter
+   må man ofre både kropp og sjel. «Rumpa til press» er bannlyst. Hvor mange
+   ganger ser vi ikke at førsteforsvarer går på en skudd-, pasnings- eller
+   innleggsfinte?
+
+Møte en rettvendt ballfører i stor fart
+Dette er den kanskje mest utfordrende spillsituasjonen. Fart og kraft må møtes
+med fart og kraft. Men mest av alt – med kløkt og fotballforståelse. Altfor ofte
+ser vi at førsteforsvarer ikke tilpasser seg ballførers fart og fysikk.
+• Er forsvarslaget i ubalanse, må det sinkes og ledes. Aggressiviteten må
+  skrus på seinere.
+• En må ofte tjuvstarte hjemover for å ha toppfart når en møter angriperen
+  skulder mot skulder. Her kan en lære av hockeyspilleren eller bandyspilleren
+  som «henter fart» før duell.
+• Kroppen må brukes aktivt: «Kom deg inn foran og senk farten!»
+
+
+
+
+69
+Spillsituasjonen har ofte et stort potensial for angrepslaget. Desto viktigere
+er det at det forsvarende laget løser utfordringen på en god måte.
+Førsteangriperen trenger ofte hjelp fra medspillerne. Fall, bli med, led ut.
+Hovedmålet for førsteforsvareren er å unngå å bli passert.
+
+Møte en feilvendt ballfører
+Her er det liten fare for et direkte delgjennombrudd.
+• Er det muligheter for å snappe ballen før den når førsteangriper – altså å
+  bryte ballbanen foran?
+• Førsteforsvarer skal være nær for å hindre vending.
+• Først kroppskontakt, så ikke, kan være gunstig. Det skaper usikkerhet hos
+  ballfører. «Hvor er forsvarsspilleren?»
+• Møter førsteforsvareren en motspiller som er kjapp i beina (en
+  vendingsspiller), kan og bør han forvente utfordringer. Forsøk på vending
+  kan snus til ballerobring.
+
+Et lite apropos: En feilvendt spiller søker ofte støtte. Gode lag søker på nytt
+gjennombrudd. Dette skal være et signal til forsvarslaget og forsvarsspillere på
+feil ballside: Søk støttespiller og se etter muligheter for å snappe ball eller gå i
+duell.
+
+Nekte avslutninger/innlegg
+Holder laget nullen i en fotballkamp, er det gode muligheter for å vinne
+kampen. Her kan vi være rimelig bastante. Men er ballfører i siste tredjedel av
+banen, er det fare på ferde!
+
+Ved innleggssituasjoner bør førsteforsvarer ha gode forutsetninger for å nekte
+innlegget. Det er ofte trangt.
+• Førsteforsvarer må være stolt og ærgjerrig: «Her skal jeg blokkere
+  innlegget!»
+• Førsteforsvarer er særs ofte aleine i situasjonen. Stopperne er i boksen, og
+  dyp midtbane eller kant er ofte ikke til stede som sikringsspiller.
+• Møter førsteforsvarer spillere som er raskere, må farten strupes før innlegg.
+  Bruk kroppen og få tatt bort farten.
+• Førsteforsvarer må være var for finter. Stå på beina!
+• Å lede ut gir trangere rom for ballfører. Dette er spesielt viktig når en møter
+  innoverkanter med godfoten vendt inn i banen.
+
+
+
+
+70
+Ved innlegg i boksen
+Å konsentrere seg om ballfører og ballbane er nødvendig for god timing
+når man skal vinne dueller. Dette kan imidlertid ta overhånd. Da blir
+forsvarsspillerne i boksen «ball watchers» og glemmer både sonen sin
+og spillerne i sonen.
+
+Angrepsspillerne vil dermed få et fortrinn når duellene oppstår. Lure
+angrepsspillere venter ofte med bevegelsene, trekker seg unna og legger seg
+i blindsonen. De aller klokeste tar en «mot–vekk-bevegelse» og legger seg
+på skuldra til forsvarer.
+
+Forsvarerne må ha to tanker i hodet samtidig og handle deretter:
+• Finn ballbanen.
+• Ha kontroll over nærmeste spiller.
+For å løse dette må forsvareren sidestille seg. Så kommer duellen.
+Det er gladiatorenes kamp. Vinn eller forsvinn!
+
+
+
+
+71
+Avrunding
+Du har nå vært igjennom soneforsvaret fra A til Å. Bruk det som bakteppe når
+du introduserer, videreutvikler og perfeksjonerer forsvarsspillet i laget ditt. Bruk
+det også gjerne som et oppslagsverk. I fotball må man alltid vende tilbake til
+både tema og læringsmomenter. Spillere kommer, og spillere går. Formtopper
+gjør det samme. Og ikke minst: Man møter ulik type motstand med ulike
+utfordringer. Derfor må man ta tak i samme tema og læringsmomenter på nytt
+og på nytt. Noen ganger må man forenkle. Noen ganger forsterke.
+Og videreutvikle.
+
+Dette er en fotballtreners hverdag.
+I «Landslagsskolen» finner du øvelser og økter for innlæring av soneforsvaret.
+
+
+Videre tilleggsstoff finner du her:
+
+Barnefotball og ungdomsfotball
+
+Mot det ferdige spillet – fra nier til ellever
+
+Skoleringsplan 10–12 år
+
+Ferdighetsutvikling i fotball
+
+Forklaringer til læringsmomentene
+
+Landslagsskolen
+
+
+
+
+72
+

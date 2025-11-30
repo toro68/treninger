@@ -1,0 +1,1567 @@
+From Complexity Paradigm to Morphocycle:
+A Study-Map
+
+UEFA-A Lisenskurs 2013/14
+
+Luís Berkemeier Pimenta
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+To you.
+
+Luís Berkemeier Pimenta
+
+2
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Index
+
+3
+
+A.
+
+Introduction
+
+5
+
+B.
+
+Understanding Football
+
+8
+
+1. Understanding complexity through a systemic vision
+
+8
+
+Classical Paradigm
+Organization
+System
+Simplifying thinking vs. Systemic Modeling
+
+2. Understanding complexity through modeling
+
+11
+
+Complex logic and structure
+Fractal organization
+
+3. Applying complexity through the Tactical dimension
+
+13
+
+Supra-dimension
+Tactic vs. Strategy
+
+4. Understanding of the Tactical dimension through the Playing Moments
+
+16
+
+“Unbreakable wholeness”
+Non-sequential characteristic
+Linked and interdependent sub-systems
+
+5. Creating a personal logic of the game through Playing Model
+
+18
+
+From abstract to concrete
+Conceptual-methodological pragmatic framework
+Reference of associative and cooperative intelligence
+
+Luís Berkemeier Pimenta
+
+3
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+C.
+
+Teaching Football
+
+21
+
+6. Teaching the game through Playing Principles
+
+21
+
+Intentionality in structural and functional organization
+Somatic Marker Hypothesis (SMH)
+Systematic repetition - Subconscious habits
+Neurobiological economy
+
+7. Structuring the coaching through Training Principles
+
+25
+
+Methodological Principles
+I.
+
+Specificity
+
+II. Dismantlement and hierarchisation of Playing Principles
+III. Propensities
+IV. Complex progression
+V. Horizontally alternating specificity
+Phenomenotechnique
+
+8. Coaching the game through Tactical Periodization and its Morphocycles
+
+28
+
+Temporal distribution
+(Co)auto-hetero dynamic
+Systematic repetition through Morphocycles
+Description of different days in Morphocycles
+Description of different Morphocycles
+
+D.
+
+E.
+
+Final Thoughts
+
+40
+
+9. Discussion
+
+40
+
+10. Future recommendations
+
+42
+
+References
+
+43
+
+Luís Berkemeier Pimenta
+
+4
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+A – Introduction
+
+The aim of this study is to present an idea on how to structure different
+training cycles between two matches, taking into account the variety of days
+they might comprehend, and the subsequent implications of that variety on the
+training process itself. This theme is of an extreme importance in nowadays
+football, due to the season calendar being consistently increasing its density in
+matches. Therefore, the relevance of this theme is inherent to the coaches’
+main tasks and responsibilities which are to, in one hand, further develop the
+team, and on the other hand, make sure the players are fresh (physically and,
+more importantly, mentally) to compete in the next match. Taking as an
+example the Norwegian context, the month of May has specific characteristics
+due to the overload of matches. With a clear understanding of different
+structures of the training cycles, coaches could have a better impact on the
+preparation of their team during that phase. In football literature, these training
+cycles are commonly denominated as Morphocycles.
+“In biology, morphology is a branch of bioscience dealing with the study
+of the form and structure of organisms and their specific structural features."
+
+"In linguistics, morphology is the identification, analysis and description of
+the structure of a given language's morphemes, and other linguistic units, or
+implied context."
+(Wikipedia, 2014)
+
+According to this, the analysis of Morphocycle will be the study of
+the form and structure of a training cycle (in-between two matches), as well
+as its units (training sessions), and implied context. In order to do so, the
+methodology will be to proceed to a scientifical literature review, with the aim of
+establishing the links between general theories and the specific context of
+football.
+
+Luís Berkemeier Pimenta
+
+5
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+This analysis it will be divided in two parts, the first elucidating crucial
+theories and concepts that help the understanding of the football complexity;
+and, the second part, which will focus more in the practical aspects of teaching
+and coaching football, but still connecting to the methodological theory.
+
+The first part will begin by demonstrating how complex systems can be
+studied and acted upon through a non-simplifying vision. So, the first chapter
+will explain how the complexity paradigm allows coaches to view football teams
+(and clubs) as organizations and systems. By doing so, the foundations for
+breaking down the classical paradigms in training methodology will be set,
+providing the possibility to switch into the benefits of complexity, and proceeding
+through systemic modeling. For that, the notion of fractals will be explained, for
+a correct understanding on a reliable way to break down the complexity inherent
+to football. This will be done in chapter two.
+
+After this, the three consecutive chapters will explain how modeling can
+be applied in football. Firstly by describing the dimensions that this sport
+comprehends, while making clear the nuclear importance of the tactical
+dimension for a correct development of the other ones. After that will be shown
+how the complexity paradigm also affects the notion of Playing Moments,
+demonstrating that the so-called phases of the game are, in fact, linked and
+interdependent sub-systems of a higher system: the playing. Following the
+clarification of the football dimensions and moments, the last chapter of part one
+will explain the value of integrating these notions into a conceptual and
+methodological pragmatic framework that aims at reaching the desired playing:
+the Playing Model.
+
+The second part of this study, which will relate to the practical aspects of
+coaching, will initially explain the influence of establishing playing principles in
+order to achieve a structural and functional organization. After that, it will be
+suggested how those principles can become automatisms, by creating
+subconscious habits in players through somatic markers. Furthermore, in the
+following chapter, a description of the training principles will elucidate the
+practical issues related to the construction of the training cycles.
+Luís Berkemeier Pimenta
+
+6
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+The final chapter of this part will then, through the Tactical Periodization
+training conception, recommend different structures of Morphocycles, explaining
+the reasoning of prioritizing certain aspects in detriment to others, always in
+order to reach the next match in the best conditions possible to maintain high
+performance levels. Those different structures will be directly related to the
+amount of days available to prepare each match. Furthermore, each day will be
+explained according to requirements and limitations, emphasizing on the
+predominant sub-dynamic that the session will require.
+
+At the end of this revision, some personal thoughts will be presented,
+summarizing the importance and linking of the presented concepts; and then
+discussing existent limitations in the current literature, suggesting future areas
+of study for a continuous development of the football coaching practice.
+
+Luís Berkemeier Pimenta
+
+7
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+B – Understanding Football
+1.
+
+Understanding complexity through a systemic vision
+
+The “playing” can be studied through a scientific approach
+(Resende et al. 1996).
+
+During many years, the common trend in scientific approaches, no matter
+the difference in realities, was to quantitatively analyse the various constitutive
+parts by separating them. Adding to this, the central idea defended that the
+development of the separate parts would improve the total, by mathematical
+logic. Nowadays, that logic is, despite true in simplistic quantitative data, losing
+its strength to paradigms that base their foundations in inter-disciplinary
+approaches, and consequently voting for different development practices.
+
+As Capra (1996) underlined, the crisis of the classical paradigm is
+progressively destroying the disciplinary boundaries in which science had
+divided reality. Society now faces the abandoning of the mechanical approach,
+overtaken by a holistic and ecological one. The knowledge fragmentation in
+post-modernity seems to be thematic and not disciplinary, this meaning that all
+knowledge is local and total. Consequently, in the intervenient praxis, it is
+advised to think globally in order to act locally. The strength of the new knowhow is based in contextualization, inter-disciplinarity and subjectivity.
+
+Moreover, Morin (2007), defending his complexity paradigm, assures that
+the simplifying thinking is unable to conceive the conjunction of the one and
+the multiple (unitat multiplex). Either it abstractly unifies by erasing the diversity
+or, on the opposite end, overlays the diversity without conceiving the unity.
+
+Luís Berkemeier Pimenta
+
+8
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+In accordance with these authors, it is easily understandable that the
+football game is something more than the dimensions acting together, which
+makes it incorrect to separate them. Instead, they should be reduced while not
+impoverished, respecting it as a whole. The game is a whole, but consisted of
+parts (the principles; and dimensions – tactical, psychological, technical,
+physical and strategical). The fracturing of these parts must be pragmatically
+achieved in order to develop the playing, not allowing its impoverishing by
+subjugating the parts to a sense – the desired playing (Gaiteiro, 2006).
+
+Looking at the football game, a football club, or even team, through the
+perspective of an organization, which Bertrand & Guillement (1994, cit in.
+Guilherme Oliveira, 2004) define as a “system situated in an environment and
+comprehends: a cultural subsystem (intentions, aims, values and convictions), a
+techno-cognitive
+
+subsystem
+
+(knowledge,
+
+techniques,
+
+technologies
+
+and
+
+experience), a psychosocial subsystem (people linked through relations) as well
+as a management subsystem (planification, control and coordination)”, Morin’s
+unitat multiplex need is clearly present through the enunciation of subsystems
+inherent to the system itself, which in his turn is surrounded by its specific
+environment.
+
+Adding to this idea, Tamarit (2007) defends that a football team, the
+game, and the playing that it produces, can be considered as open systems,
+adaptive and homeostatic, due to the high level of interaction with the context,
+as well as its capacity to adapt to it. Moreover, he underlies that, because
+football teams live internally in a permanent switching between order and
+disorder, with the aim to structurally adjust themselves to the necessity of each
+moment, they can be considered as homeostatic systems. In the figure below,
+an example of an open system diagram is depicted. More important than the
+variables enounced in it – which vary in accordance to the reality being studied
+–, the vital part is the observation of the existing links between all of them
+(internal climate), and also its openness to the external environment, which
+influences it and is influenced by it.
+Luís Berkemeier Pimenta
+
+9
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Figure 1: Open System Diagram
+
+In line with the above mentioned authors, Cunha e Silva (1999, cit in.
+Gaiteiro, 2006) states that a complex system is a system which cannot be
+characterized by the reunion of the characteristics and qualities of its
+constitutive parts, and its behavior cannot be predicted through its components.
+
+Taking this into account, both the football game and a football team can
+be understandable as organizations, and categorized as open complex
+systems. Consequently, being complex phenomena, in order to act upon them
+the most profitable way, Garganta & Gréhaigne (1999) defend that systemic
+modeling is the key, due to this process being considered: (1) interactive,
+because its constitutive players act in a reciprocity relationship; (2) global or
+total, because the value of the teams can be higher or lower than the sum of the
+value of its players; (3) complex, due to the profusion of relations between the
+different elements; (4) organized, because its structure and functionality are set
+through relations of cooperation and opposition, established within the respect
+of principles and rules and according to aims and objectives.
+
+Luís Berkemeier Pimenta
+
+10
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+2.
+
+Understanding complexity through modeling
+
+Narrowing our focus of attention to the game itself, the aim of this chapter
+is to understand the possibilities to model a game which, at first sight, seems
+complex, chaotic, random, and disorganized. In reality, further look will
+unmistakably demonstrate that these characteristics are correct. Taking this into
+account, how will it be possible to understand it? How will it be possible to
+model in a first instance, and subsequently act on it in an efficient way?
+
+Firstly, it is necessary to understand the intrinsic characteristics of these
+associated concepts, always relating them to the football game. Garganta &
+Gréhaigne (1999) affirm that the football game lies in a complex logic, not only
+due to the number of variables in play, but also due to the unpredictability and
+randomness of the situations that the players and the teams face. According to
+the same authors, the nature of the football game comprehends a complex
+structure due to (a) the extension of relations between players, (b) the fact that
+the game’s actions do not follow a predictable and sequential order, having a
+high degree of indeterminism, (c) the presence of systems that undergo quick
+changes, with numerous and diverse components.
+
+Moreover, Guilherme Oliveira (2008) underpins that chaotic systems
+(football teams) are characterized by an amount of interacting agents (players,
+coaches, etc.), which cooperate, with common and coordinated aims and
+behaviors, creating a certain order (playing model – individual and collective
+patterns of action) and stability in a chaotic context of disorder and permanent
+instability. Consequently, the football game is a confrontation between two
+chaotic and deterministic systems with a fractal organization.
+
+Luís Berkemeier Pimenta
+
+11
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+In order to understand this definition of the game, it is vital to have a clear
+notion of what a fractal is, and what it means when associated to the football
+game.
+
+Figure 2: Fractal
+
+As defined, a Fractal is the propriety of fracturing and representing a
+chaotic model in sub-models, existing in different scales, and which are
+representative of that model (Mandelbrot, 1991, cit in. Guilherme Oliveira,
+2008). This meaning that it is a constant or regular part of a chaotic system
+which, by its structure and functionality, manages to represent the whole, no
+matter the scale in consideration. (Resende et al. 2006).
+
+Starting from this definition, and establishing a parallel to the football
+game, looking at the fractal represented in Figure 2, it is possible to imagine this
+pyramid representing either (1) the Playing Dimensions, or (2) the Playing
+Moments:
+1 – Each side representing each dimension (technical, physical,
+psychological, and strategical), and the whole pyramid being the Tactical
+Dimension, constituted by all interlinked dimensions, at all times present no
+matter the dimension that is being looked at (Chapter 3);
+2 – Each side representing each moment (established attack, established
+defence, offensive transition, and defensive transition), and the whole pyramid
+being the Game, in which all moments are present in each side (Chapter 4);
+It is these two examples together, that provide a starting perception of
+the modeling opportunities and, nevertheless, the required praxis in football.
+
+Luís Berkemeier Pimenta
+
+12
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+3.
+
+Applying complexity through the Tactical dimension
+
+Tactic is the set of behaviors that Mourinho wants for the team, desiring their
+manifestation with regularity in competition, i.e., the set of principles that
+embody his Playing Model. It is a specific behavioral culture that requires
+learning. It is, thus, an emergent propriety.
+(Resende et al. 2006)
+The tactical dimension as culture is what allows identifying teams, this
+being, the organization that teams show regularly is what evidences an identity.
+(Resende et al. 2006).
+
+As seen in the first example of the fractal above, the inseparability of the
+dimensions becomes an established factor, since the identity of the whole – the
+playing – results from the established connections between them (Maciel,
+2008). However, not all dimensions possess the same hierarchy, due to the
+impact they have on the team’s performance. As Guilherme Oliveira (2004)
+explains, all type of action and interaction that the player(s) execute during the
+game must be subordinated to the Tactical Dimension. This is the dimension
+that gives sense and unifies the game. The expression of the team and player
+dynamics is based in an intentionality driven by tactical needs. The tactical aim
+is selected as causal element of the behavior, central part of the making of the
+future.
+
+Conceiving the tactical dimension as a Supra-dimension, it coordinates
+the entire training process, giving sense to the game and its playing. The
+tactical dimension results from the interaction of all other dimensions (technical,
+physical, psychological and strategical), while giving sense to them, since it
+provides an intention prior to the decision-making.
+
+Luís Berkemeier Pimenta
+
+13
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+As supra-dimension, it is a categorical aim and a referential which
+appears from the existence of the process, an intentional emergency. It has to
+work as a reflection and action guide, central element, and not as a residue or
+performance sub-product. Due to this, it also requires a methodological
+foundation that does not misrepresent the competitive specificities.
+
+Figure 3: The Playing and its Dimensions
+
+As shown in Figure 3, the tactical dimension conditions the physical,
+technical, and psychological dimension, developing them as a consequence of
+the operationalization of a playing. Accordingly, it is not methodologically
+coherent to undertake technical or physical training exercises without being
+under a tactical framework, due to the need for each technical action to be
+based on intentionality – a tactical need –, and each “physical load” needing to
+be associated with a Central Nervous System fatigue, achievable under
+decision-making processes, which are present in tactical situations. Under such
+framework, the players will develop the recognizing of a tactical sense in each
+behavior, understanding the significances of the tactical actions occurring
+during the game, the aim. This need makes players undergo through more than
+simple perceptions. They will be able to interpret motor behavior, giving it a
+sense in a higher context – collectively shared –, understanding the whole. The
+Playing Model (see Chapter 5) works then as an agglutinating and coordinating
+force, promoting self-organization (Gaiteiro, 2006)
+
+Luís Berkemeier Pimenta
+
+14
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+However, as a note, it is crucial to underline the difference between
+tactic and strategy, with the latter one being match-specific adaptations, and
+always subordinated to the first one – the team’s behavioral culture. The
+strategy determines that slight adaptations to the opponents’ playing system
+might occur, however, while with the ball, the own playing system should be
+priority.
+
+As interfering as the strategical side might be, it can never become the
+fundamental attractor. If doing so, the regular modification would destroy all
+efforts in order to establish a behavioral regularity, by the constant modification
+of habits, automatisms, references, mental images, cognitive processes, action
+schemes, communication between parts, regulating principles, somatic
+markers, all of these indispensable in the setting and performing of a playing
+culture (Gaiteiro, 2006). These notions will be further explained in the second
+part of this work which focuses on the practical aspects of teaching the football
+game.
+
+Luís Berkemeier Pimenta
+
+15
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+4.
+
+Understanding of the Tactical dimension through the Playing Moments
+“Only an understanding of the Game by its “Whole” accepts an
+approach that doesn’t remove from the “playing” its nature, this
+meaning its “unbreakable wholeness””.
+Carvalhal (2007)
+
+Following the explanation of the figure representing a fractal, the second
+example was related to the Playing Moments. In order to understand its fractal
+characteristic, the differentiation between moments and phases must be
+explained. Guilherme Oliveira (2004), about this difference in terminology
+between Playing Phases and Playing Moments, explains that phases have a
+sequential characteristic, one happening after another one (see Figure 4
+below). The author considers that the game has four moments, which do not
+occur in a sequentially pattern, presenting themselves randomly instead.
+
+Moreover, Amieiro (2007) explains that all these moments are linked to
+each other, and cannot be looked at in a closed-frame way. Furthermore, the
+moments of the game are interdependent and related to each other, with the
+attack and the defense not being separable, not only due to belonging to a
+whole, but also due to each one conditioning the other (Sanz, 2010).
+
+Figure 4: Playing Phases
+
+Luís Berkemeier Pimenta
+
+16
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Figure 5: Playing Moments
+
+In the figures above, the difference between terminologies is depicted,
+contrasting the sequential pattern, on the top, with the playing having four
+different and separate phases, with their own principles; and, below, four
+playing moments that are linked and interdependent, sharing moments in time
+and having principles that go hand-in-hand.
+
+In accordance with this model, Moreno (2010), using a systemic thinking,
+suggests that the moments of the game have to be seen as subsystems
+inside a superior system, in this case the football game, therefore being all
+related to each other, not being separable from its totality, because the
+fragmentation of the parts of a system doesn’t only separate them, but also
+eliminates their proprieties.
+
+The respecting of these characteristics allows the coaches a correct
+definition of the principles and moments to be set in the Playing Model and,
+consequently, a truthful background for the practice, i.e. training methodology.
+
+Luís Berkemeier Pimenta
+
+17
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+5.
+
+Creating a personal logic of the game through the Playing Model
+
+“To conceive a model is to allow the conceiving of the complexity’s intelligibility.
+If conceiving is organizing, organization is the nuclear concept of complexity.”
+(Faria, 1999)
+
+According to Le Moigne (1990), a model can be considered a simplified
+representation of reality, and it is related to constructive processes, which are
+linked to knowledge conceptions of a certain phenomenon or reality. Linking this
+to the coaches’ responsibility, the conceptual matrix deriving from the coach’s
+ideas intends to give life to the desired playing, by modeling it. It is therefore the
+transforming of abstract ideas into a concrete model.
+
+More specifically, the necessity of a Playing Model is explained by
+organizational learning in meanings: 1. because it is impossible to act in a
+coherent way without the existence of an aim in a distant future. 2. Because
+future exists, despite being imprecise and obscure seen from the present, being
+clearer to understand along the way, allowing the thorough designing of the
+path. 3. Because it allows players to learn beforehand, before being obliged to
+act, having an agglutinating effect on the individual and collective actions
+(Gaiteiro, 2006).
+
+However, as the same author proceeds, no set of predictions or visions
+can contain, in its operational detail, sufficient information about the actions to
+undertake in the present, but might have something to say in relation to the
+general traits. Despite the game’s ambiguity, it is possible to identify
+probabilistic links and be active upon the future, requiring thus a playing
+conception and, consequently a Playing Model.
+
+Luís Berkemeier Pimenta
+
+18
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Linking these notions to the concepts presented in the previous chapters,
+Guilherme Oliveira (2008) introduces the Playing Model as a playing idea,
+constituted by principles (and its sub-parts) which represent the different playing
+moments that are interlinked, creating an own functional and structural
+organization, i.e., an identity. Being a Model, it always presents itself as a
+conjecture, always being open to individual and collective additions, thus always
+in construction and evolution, with an unattainable final aim.
+
+This unattainable final aim derives from the model being a constant
+dialogue between the coaches’ intentions and the context variables. A model
+cannot be a rigid structure, uniquely imposing repetitive mechanical behaviors.
+Successful systems work in unbalanced states, this meaning that they have
+enough flexibility to manage change and deviant behaviors as, for example,
+players’ creativity.
+Accordingly, the Playing Model is constituted by a highly complex net,
+formed by the interaction of innumerous aspects such as the coach’s ideas –
+the desired playing; the training methodology (principles and matrix); his
+leadership and sensibility; his group management;…–, and the context
+variables – the country’s culture, the club’s culture, board aims, board members’
+characteristics, players’ characteristics (in relation to the game, beliefs, history,
+personality, etc.), the fans, the press, among others (Tamarit 2013, cit in. Tobar
+2013).
+
+Figure 6: Playing Model
+
+Luís Berkemeier Pimenta
+
+19
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+In relation to its operationalization, to create a Playing Model, the coach
+has to have a clear idea of which behaviors/principles he would like his team to
+have in the different Playing Moments. After the setting of principles and
+moments, it is through the day-to-day practice, that the process will shape
+desired behaviors and intentions. As explained by Capra (1996), the
+construction of new knowledge must result from the permanent dialectic
+between the intervenient practice and the theoretical referential that frames it.
+Objectively, what is required is a coherent concept-methodology. The neural
+patterns that the players build through the external object – the game –, and the
+neural patterns reconstructed inside their brains through the memory – these
+ones built through the game situation, visual presentations, demonstration,
+explanations and interventions –, must go hand in hand, being this achieved
+through specificity (Gaiteiro, 2006). Consequently, the coaches’ actions during
+the process should all be linked to the priority principles to be taught in a certain
+moment.
+
+To work under a framework of a Playing Model is to work with a
+reference, a desire to be attained; hence the need to build the present in
+accordance to what is projected (Frade, 1985, cit in. Tobar, 2013). “The aspired
+future will condition the present” being a never-finished process, “where the
+playing idea – the future – determines the rise of a functionality, and
+functionality only becomes it, if in the way it originated a structure”. It’s in the
+process of transforming ideas into a regular functionality, that a methodological
+matrix for modeling will be key.
+As a conclusion, Gaiteiro (2006) underlines that the model doesn’t only
+describe in a methodic and systematic way the relations’ system (collective)
+which are established between the different elements (individuals), in a certain
+game situation. It is fundamentally an action promoter, which describes and
+defines
+
+situations,
+
+behaviors,
+
+positions,
+
+tasks,
+
+responsibilities
+
+and
+
+competencies, allowing the acquisition of an associative and cooperative
+intelligence, through the selective and contextual dominance of dynamic
+attractors (playing principles and sub-principes).
+
+Luís Berkemeier Pimenta
+
+20
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+C – Teaching Football
+
+6.
+
+Teaching the game through Playing Principles
+
+“The aim will always be the same: create cerebral the behavioral dynamic
+which is organization, philosophy, and emotion. Create intentions and habits.
+Make conscious and later on subconscious, a set of principles in order to
+naturally enhance a way of playing.”
+Faria (2006)
+
+Educating is habituating the brain to command the body. Football is a
+know-how which is acquired through experiencing, and promotes knowledge
+about the know-how, the understanding of the action, establishing a certain
+relation between the mind and the habit. Only the intentional action is educative
+(Castelo, 1996). In order to establish this link between the mind and the habit,
+the player’s actions must be compared to their intentions, which can be
+previously set through the Playing Principles. These, defined as “intentionality
+patterns related to the playing, which sustain the criteria expressed by the
+different scales of the team (individual, groupal, sectorial, intersectorial, and
+collective), and being regularly present in the game – in the Playing Moments –
+will provide it an identity and functionality” (Maciel, 2011).
+
+Consequently, having set the Playing Principles, the coach needs then to
+transfer them from the conscious level to the subconscious, creating habits,
+making players naturally behave in accordance to the playing. This is done
+through exploiting the somatic markers’ influence on players’ decisions.
+
+Luís Berkemeier Pimenta
+
+21
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+“Somatic Markers are a special case of the use of feelings created by
+secondary emotions. These emotions and feelings were connected, through
+learning, to predicted future results according to certain scenarios. When a
+negative somatic marker is linked to a certain future result, the combination
+works as an alarm bell. On the opposite end, when it’s a positive somatic
+marker which is linked, the result becomes an incentive.” (Damásio, 1996) In
+other words, the internal system of preferences is inherently predisposed to
+avoid pain and search for pleasure. This is shown in the diagram below where,
+if training exercises are coherently structured, if a player’s action goes in
+accordance to the playing model, he will be successful, therefore establishing a
+positive somatic marker which will influence his next decision in that way, even
+if that decision is subconscious.
+
+Figure 7: Creation of Somatic Markers
+
+During the matches, players are asked to decide quickly and many times
+in a subconscious manner. The decision-making happens under the control of
+an internal system of preferences, and under the influence of a set of external
+circumstances. Consequently, through training, the coach must create
+situations where the players’ decisions go in accordance to his playing, but also
+making them feel that those decisions were their own. This is done by changing
+their internal preferences, designing exercises where players reach more often
+success when deciding according his playing. In order to do so, coaches have a
+useful tool which is the Propensities Training Principle (see Chapter 7).
+
+Luís Berkemeier Pimenta
+
+22
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Taking this into account, the acquisition of certain intended interactions
+by the players requires exercising, in order to emotionally qualify the responses,
+which will then enhance certain decisions and eliminate others. But that
+necessitates the happening of the intended interactions, i.e., the playing
+principles. (Gomes, 2008)
+
+Having understood how to positively use somatic markers, it is important
+to realize the advantages of creating these subconscious habits. “Habit is a
+learned mental action which can be done without thinking or conscious
+supervising. It is also called fixed action pattern, or automatism” (McCrone,
+2002) Additionally, the habit or the automatism result from knowledge, i.e.,
+mental images which have been created by experiences, some conscious and
+other subconscious, which have been stored in memory, and will be used to
+quickly decide and react to certain situations. (Damásio, 2000, cit. in Resende
+et al. 2006)
+
+But the crucial part is how this is linked with the players’ behaviors on the
+pitch. And, in fact, the acquiring of a playing with a previous intention only
+occurs through action – repetitive intentional action. It is a habit acquired
+through action. The systematic undergoing to the Tactical Periodization training
+by the players allows to create habits and automatisms related to a playing,
+helping them to take and execute decisions in a faster way, in the heat of the
+(inter)action, counteracting the natural slowness of the brain. The habit requires
+the creation of somatic markers, which help the body to decide faster,
+influencing in accordance to the desired playing (Tobar, 2013).
+
+As clarified in the graph below, through systematic repetition of the
+decision-making processes, if the player decides in accordance to the desired
+playing, creating positive somatic markers, the level of consciousness required
+for the next similar decision will be lower, decreasing its total amount of time
+needed.
+Luís Berkemeier Pimenta
+
+23
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Figure 8: Creation of Habits
+
+As McCrone (2002) emphasizes, “It is an intelligent trick to save time,
+which works when the brain experiences the same situation enough times, to
+achieve a connection as a habit”. Furthermore, Casarin & Greboggy (2012) say
+that, not like trivial decisions, complex ones demand a higher set of
+interdependent dimensions. When these are not habituated (automatized),
+much effort is required, leading to a state of fatigue (Central Nervous System).
+This is shown in the graph through the third axis, on the right. In other words,
+coaches should pursue this “neurobiological economy” – with the habit
+making the complex cortex-body-action triad to be put aside, reducing the
+neurobiological effort –, in order for players to have a fresher brain, which will
+increase their creativity levels, since they will have more energy for creating
+solutions of higher complexity. Thus, players stop spending their attention in
+elementary aspects, directing their focus to more dynamic ones, as the
+managing of the here and now – how to materialize an idea in a certain
+moment, under certain circumstances. The players manage successfully the
+moments, in accordance to the Playing Principles, as a result of the habituation
+acquired during the training process, where somatic markers were established.
+Concluding, it is vital for the training process to be specific, not only to
+create somatic markers related to a playing, but also to make the previous
+intentions (playing idea), which are conscious, be intentions in the act, which
+most of the times appear through a subconscious pattern, in order to optimize
+the decisional processes (Tobar, 2013).
+
+Luís Berkemeier Pimenta
+
+24
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+7.
+
+Structuring the coaching through Training Principles
+
+“I don’t see any other possibility than the systematic repetition in Specificity of
+the Playing Principles, because it is fundamental to understand that
+organization is success, and the more organized the team will be, the higher the
+probability of success.”
+(Faria, 2008)
+
+The Playing Principles (and their sub-parts), and their interaction in the
+different Playing Moments, is what is needed to be trained, through the different
+scales (collective, intersectorial, sectorial, groupal, and individual), revealing a
+fractal organization in its development (Guilherme Oliveira, 2009, cit. in Tobar,
+2013). Therefore, no matter the scale to be developed, it needs to be
+representative of the wholeness. Following this globality concept, the playing
+idea, in conjunction with the matrix of methodological principles, will allow the
+existence of a coherence and a logic in the guiding of the whole training
+process. This matrix comprehends:
+
+1.
+
+The Specificity “Supra-Principle” – is the constructing of
+
+exercising contexts, during the training sessions, which derive from and report
+to the playing idea, the playing that is intended to be developed with the
+players, but without putting aside the respect of the Tactical Periodization’s
+training principles. The Specificity contextualizes everything that is done
+(Guilherme Oliveira, 2010, cit. in Tobar, 2013). Moreover, Specificity should not
+be considered a methodological principle, but a categorical imperative instead.
+It is a necessity to beacon things, to direct the process, and to guide this
+direction (Frade, cit. in Tobar, 2013).
+“Specificity lies in a concept of globality which comprehends the relation
+whole-parts, contextualized in an Organization” (Gomes, 2008).
+
+Luís Berkemeier Pimenta
+
+25
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+2.
+
+Dismantlement and Hierarchisation of Playing Principles – it is
+
+a methodological principle related to de-structuring of the playing principles into
+the different sub-parts, moments, and organization levels that the team can
+assume. In doing so, coaches create a teaching and learning logic in
+accordance to the playing.
+3.
+
+Propensities Principle – allows chaos to be deterministic, since it
+
+refers to the modeling of the exercising contexts, with the intention to create
+contexts that relate to a playing, increasing the occurrences of the desired
+behaviors (Maciel, 2011). This principle prioritarily relates to the systematic
+repetition of the desired concepts at a certain moment, them being tactical
+(through the Playing Principles), technical (any desired execution), and physical
+(predominance of any type of muscular contraction; predominance of any
+metabolic mechanism).
+4.
+
+Principle of Complex Progression – it relates to the choice and
+
+management of what is priority to be trained in a certain moment, taking into
+account the Playing Model, the intentions for the next game, and the
+occurrences in the previous game. Moreover, it demonstrates that the acquiring
+of the playing does not occur in a linear fashion, but in a complex way instead,
+since it is developed according to a playing idea. During the process, it is
+necessary to progress from low to high complexity, but always within a
+complexity framework. This is evidenced during both the season and the
+training session, however having to be managed through the Morphocycle in a
+non-linear fashion.
+5.
+
+Principle of Horizontally Alternating Specificity – it refers to the
+
+invariable preoccupation of operationalizing a playing idea, though the scale in
+which this is achieved is diverse. Through the week, different scales of the
+playing are distributed, alternating the type of muscular contraction which is
+predominant, the complexity of the exercises, and the intensity in which they are
+undertaken, in order to manage a correct effort-recovery balance, protecting the
+involved structures. It is denominated as horizontal, due to this alternation being
+done along the week, from day to day, and not within a training session – which
+would be vertical (Tobar, 2013).
+
+Luís Berkemeier Pimenta
+
+26
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+The methodological principles, despite being possible to conceptualize
+separately, cannot be understood in this way, and especially not operationalized
+in such manner. On the contrary, being looked at in this way they lose sense,
+since the logical operationalization of the playing emerges from a pattern of
+connections between the methodological principles. Only through these
+connections it is possible to structure the systematic repetition of the pattern
+Morphocycle (see Chapter 8).
+
+Nevertheless, as described by Frade (2003), this operationalization
+cannot
+
+be
+
+purely
+
+academic,
+
+and
+
+requires
+
+a
+
+good
+
+level
+
+of
+
+“phenomenotechnique” by the coach, which relates to the coach sensibility to
+drive the training process, this meaning the defining of the path that will
+transform the abstract (ideas about Playing Model) into concrete (training and
+game, its own). This phenomenology emphasizes the pragmatic side of the
+training process, due to the existence of a difference between the
+being/intervening and the pure scientific academism.
+
+Luís Berkemeier Pimenta
+
+27
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+8.
+
+Coaching the game through Tactical Periodization and its Morphocycles
+
+“There is the traditional training, analytical; there is the integrated training,
+which is the one with the ball, but where the fundamental preoccupations are
+not that different from the traditional training; and there is my way of training,
+which you can call Tactical Periodization, which has nothing to do with the other
+two – despite many thinking so.
+The only difference between the traditional and the integrated training is that, in
+the last one, the players are “fooled” by giving them the ball. But the
+consequences of the training are exactly the same as the traditional training.
+(…) If a player never met Tactical Periodization and worked all his life in the
+traditional way, he won’t feel the need of what he ignores… they’ll give him that
+sort of integrated and he will like it. (…) Nobody misses what they ignore.”
+Mourinho (cit in. Gaiteiro, 2006)
+
+Tactical Periodization is a training conception with own methodological
+principles, following a different logic, which is centered in a teaching-learning
+process, having the main aim the acquisition of a specific playing. The creation
+and acquisition of this playing requires time, thus the necessity of temporally
+distribute its acquisition. This is done through the season, in general terms,
+and through the Morphocycle, in structural and operational terms (Tobar, 2013).
+As the same author describes, this training conception privileges a
+particular playing order (Playing Model), embodied by specific principles and
+sub-principles, which articulate themselves in a coherent manner along the
+different moments, always respecting the specificity principle of the subject
+(system/players) and the object (the playing). According to Maciel (2011), “it
+follows the systemic thinking and, consequently, it has an emphasis on the
+relations, the quality and the patterns, without refuting in its evolution the
+intuition”.
+
+Luís Berkemeier Pimenta
+
+28
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+For these relations, the aim is to create a fusion between the pretension
+(previous intention) and the occurrence (intention in action) between all players
+of a certain group. Gomes (cit in. Tobar, 2013) adds that, to develop a playing,
+its ideas, it is necessary to recognize that football is a collective game,
+constituted of individualities that relate to each other, and make emerge a
+dynamic as a functional whole. This means, it also needs the acceptance that
+the coach models human beings in interaction. The Tactical Periodization
+demands the person to be respected as human being, i.e. and intelligent being,
+sensible, adaptable, and capable of doing it among others. In order to do so, the
+coaching needs to be done in a dialectic way, maximizing the players’
+interventions in the decisions of which direction to go. Summarizing the
+relational aspect, Resende et al. (2006) explain that ”the evolutionary dynamic
+resultant from the training through this model is (co)auto-hetero. Auto because
+individual changes occur. Hetero, because the playing principles fundamentally
+contemplate relations between several individuals. Thus, the individual
+progresses, but subjected to a logic that has to do with the coexistence and
+growth of the others, in a common framework which relates to a playing
+conception. Therefore, the (co).”
+
+In practical terms, the operationalization of the Tactical Periodization
+aims at performance stabilization at a high level, which will be possible to reach
+through the respect of a week pattern, the Morphocycle pattern, in opposition to
+the week and cycle variations commonly seen. The operationalizing logic of the
+playing arises through the connecting of the methodological principles (training
+principles), which create a process matrix embodied as the Morphocycle,
+which represents the playing morphology distributed in-between two matches.
+Each cycle is similar to the previous and next one, in relation to its form, and
+must be understood through its fractal organization, since it must be assumed
+as a methodological regularity (core of the training process). Its systematic
+repetition allows the team and the players to acquire relevant aspects of the
+playing, without risking their recovery. It promotes a high dynamic of
+occurrences which maximizes the performance levels, as well as keeping the
+players in competitive shape along all weeks of the season (Tobar, 2013).
+Luís Berkemeier Pimenta
+
+29
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Here below will now be shortly described the different Morphocycles,
+according to the amount of days in-between each match – from the normal sixdays pattern, until the two-days cycle. In order to do so, firstly the color code
+represented on the diagrams needs to be recognized, for a correct
+understanding of its meaning. Consequently, in the figure below is shown the
+type of sub-dynamics in the muscular contractions that players will endure
+during matches (duration, tension, and speed). Therefore, these types of
+muscular demands should be present in different days of the preparation, to
+allow their development, but always as predominant sub-dynamic, and never
+taken out of their specific context.
+
+Figure 9: Colour Codes of Physical Sub-dynamics (Correia, 2013)
+
+Secondly, each day of the six-day Morphocycle, and its main
+characteristics, will be summarized to allow an understanding of the reasoning
+behind the selection of days to “sacrifice” in shorter cycles.
+
+Figure 10: Six-days’ Morphocycle
+
+Luís Berkemeier Pimenta
+
+30
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+1st Day after the match:
+
+Despite the consensus about the physiological importance of training the
+day after the competition, due to the advantages on removing acid lactic and
+other sub-products from the muscle metabolism, as well as increasing the
+process of bringing oxygen to the cells, and bettering blood flow (Tobar, 2013),
+this view is only related to one dimension, in this case, the physical one.
+
+Considering the player a human being, a “psycho-biologic” identity
+(Maciel, 2011), the magnitude of the mental/emotional fatigue cannot be
+overlooked. Due to this type of fatigue requiring more recovery time, and due to
+the limited concentration levels and emotional predisposal that players evidence
+the day after competition (among other psycho-social variables), it is suggested,
+in six-days Morphocycles, to have day-off on the first day.
+
+“(…) The best way to recover, in relation to the mental aspects, (…) has
+nothing to do with theory, but the coaches’ sensibility to understand the team’s
+needs (…). Your emotional state allows a better global recovery.” (Faria, 2007,
+cit. in Tobar, 2013)
+
+Luís Berkemeier Pimenta
+
+31
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+2nd Day after the match:
+
+Figure 11: Recovery Sub-dynamic
+
+According to Tactical Periodization, the way to train is always related to
+the playing, whether it is in the acquisition or the restitution period.
+Consequently, this day is categorized as light-green, since it is the mixture of
+the green (match colour) and the white (day off).
+
+“During recovery, players need predominantly to have an effort that is
+identical to the match, in relation to concentric and eccentric muscular
+contractions, changes of directions, jumps, passes, pressures, ball circulation,
+in order to have actions identical to the match in technical, tactical and
+physiological terms. (…) Simply to activate the organism the same way it’s
+activated in the match, but with much intermittence, many breaks…” (Guilherme
+Oliveira, 2010, cit in. Tobar, 2013)
+
+The stimulus’s must be short and of “high” intensity, using predominantly
+the alactic anaerobic metabolism, and providing large resting periods in order
+for the aerobic metabolism to proceed with the regeneration, reorganization and
+refeeding of the organism. (Maciel, 2011)
+
+Luís Berkemeier Pimenta
+
+32
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+3rd Day after the match:
+
+Figure 12: Tension Sub-dynamic
+
+Since on this day the totality of the team is still not recovered (due to
+some players needing more time, especially on the mental aspect), the aim of
+this session is to start working on the playing, but without jeopardizing the
+session of the fourth day, which is the one where there is the certainty of having
+a totally recovered team, and consequently the best moment to train with the
+highest complexity level (bigger structures). Therefore, in order to work on the
+playing while allowing players to fully recover, the intention will be to practice
+the sub-principles (and their sub-parts) through intermittent fractions of the
+game, i.e. medium-sized structures (ca. 3v3 to 6v6). In relation to the muscular
+contraction prevalence, the work should be done under the dominance of the
+tension of contraction, thus the exercises should promote high amounts of
+football-specific actions (accelerations, changes of direction, shots, etc.). In
+order to promote that, the exercises should be done with reduced sizes, number
+of players, and times. “Besides the articulating of the different playing principles,
+it is also necessary to put together the sub-principles of each bigger principle.
+As an example, if I define ball possession as a principle, it is not enough to
+overuse it in an 8v8 exercise. That would be too reductive, since under that ball
+possession there are sub-principles to be worked on. What we do is to take
+those sub-principles, like possession with zone-transition or avoiding pass to
+first station, and potentiate them in very reduced spaces and with fewer amount
+of players. Then, in a context with higher amount of players and larger spaces
+we articulate those sub-principles.” (Mourinho, cit. in Tobar, 2013)
+
+Luís Berkemeier Pimenta
+
+33
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+4th Day after the match:
+
+Figure 13: Duration Sub-dynamic
+
+In this day, due to the team being fully recovered, the complexity level
+should be high, allowing the training of the main principles in bigger structures
+(amount of players). Since the organization level comprehends to globality of
+the playing, the characterizing of this day assumes the color green, resulting
+from the adding of the other two days of the acquisition period, blue and yellow.
+However, it is important to notice that the green of this training is not the same
+green of the match day, since the demands of a training session will never
+equal the demands of the match.
+It is also the best opportunity to work with the strategical details that the
+next opponent might demand. Physically, it should be similar to the competitive
+demands, with large spaces, and a dominance of the duration of the muscular
+contraction, thus larger times of the exercises. However, even if this day
+requires more continuity, it should still be in a discontinuity framework, i.e. with
+regular breaks, due to this being the intrinsic logic of the football game, and to
+allow the maintaining of high concentration levels, as well as the technical
+proficiency. Basically, it is the density level of the session (time in play vs. time
+in rest) that should be high.
+
+Luís Berkemeier Pimenta
+
+34
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+5th day after the match (two days before next match):
+
+Figure 14: Speed Sub-dynamic
+
+The density in this session should be low, but not as low as the third day,
+since in that day players were still recovering from the previous match.
+However, this should be the day with the lowest mental-emotional and also
+physical effort. This is due to the necessity of protecting the mental and physical
+freshness for the next match, two days later. Consequently, the exercises
+should be of very low structures, aiming at the acquisition of sub-principles (and
+their sub-parts).
+
+However, it is a session of the acquisition period, with its dominant trait
+the speed, this including not only the execution, but also the information
+analysis – decision-making –, i.e. a speed contextualized in the playing. “What
+needs to dominate in this training are the situations of high speed of execution
+and decision, therefore the necessity of avoiding everything that can create
+noise. The priority in this training is to have dominant demands on the motor
+cortex in relation to what is done with spontaneity, what is habit.” (Maciel, 2011)
+
+Luís Berkemeier Pimenta
+
+35
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+6th Day after match (day before next match):
+
+Figure 15: Activation Recovery Sub-dynamic
+
+The day before the match the main aim is to develop the predisposal to
+competition, in order for players to reach the match in the best way possible. In
+order to pre-activate players for competition, the exercises should be of very low
+complexity level, executed at high speed, short periods of time and large
+breaks. This is easily understandable through the color code, which is a mixture
+between the day before (yellow – speed sub-dynamic) and the day-off (white),
+originating the light-yellow code.
+
+During this day, the situations that can be trained should be of very low
+complexity level in order to have no demands on the concentration. This can be
+achieved through exercises that require solutions which are already
+automatized by the players. Adding to this, if required, some strategical aspects
+about next match can be mentioned, however going through them with no
+associated competitiveness.
+After the describing of each day, it is now possible to think about the
+variety of Morphocycles that coaches have to face, due to the inherent
+characteristics of the season calendar that comprehend different competitions.
+
+Luís Berkemeier Pimenta
+
+36
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Five days’ Morphocycle:
+
+Figure 16: Five-days' Morphocycle
+
+Taking into account that the session of the fourth day (in a six-days
+cycle) is the one that is more similar to the match, it is common sense that the
+subsequent load to the players is also the heaviest of the week. By load not
+only the physical demands are considered. Due to that session having the
+highest levels of complexity – interlink of main principles, strategical
+adaptations, and bigger structures in relation to number of players – it is the one
+that requires more emotional and cognitive effort, thus originating higher fatigue
+to the Central Nervous System. Moreover, due to the physical sub-dynamic
+being predominantly related to the duration of the muscular contractions, also in
+the physical dimension it generates higher levels of fatigue.
+
+Given that in a five days’ cycle there will be no time to mentally and
+physically recover from that session, due to only having one more day prior to
+next match, this should then be the session that is removed from the pattern
+Morphocycle. As described above, the priority will always be to ensure the
+mental and physical freshness of the players in the next match.
+
+Luís Berkemeier Pimenta
+
+37
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Four days’ Morphocycle:
+
+Figure 17: Four-days' Morphocycle
+
+In a four days’ cycle, the same thinking process has to apply: the priority
+is firstly to recover from the previous match. Therefore, since from the three
+acquisition sessions (in a six-days’ cycle) the only one that allows the continuity
+of the recovery process from last match is the tension sub-dynamic, this should
+be the one to prioritize in such cycle, that only comprehends one acquisition
+day. Any other solution would, either put at risk the freshness for next game – if
+deciding for another sub-dynamic – or, not allowing the further development of
+the playing – if opting for another recovery session.
+
+However, it is crucial to note that in Tactical Periodization no suggestions
+should be considered as recipes, due to the importance of the coach’s
+sensibility to understand what the team requires in each specific moment. For
+example, in a four days’ cycle, as depicted above, the coach could perfectly
+decide to give one more day-off after the match, or add on more recovery
+session instead of having an acquisition day. The suggestions are always
+considering the further development of the playing, but not always the team is
+mentally ready for it.
+
+Luís Berkemeier Pimenta
+
+38
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Three and two days’ Morphocycles:
+
+Figure 18: Three-days' Morphocycle
+
+In cycles where there is no possibility to include any acquisition day, the
+main aim will again be to fully recover the team in all aspects. In these
+circumstances, coaches shouldn’t be afraid to only promote recovery sessions,
+or to include sessions that aim at the predisposal for competition. According to
+Maciel (2011), competitive moments with high density of matches are extremely
+tiring, not only in bioenergetical terms, but also because matches promote high
+acquisition levels themselves. As a result, matches work already as tool for the
+development of the playing, having the sessions only to fully recover for them.
+
+It is important here to remember that, in Tactical Periodization, the
+pattern of Morphocycles should start directly in the pre-season (very early –
+second to third week), this meaning that, until the season reaches competitive
+moments of high density in matches, the team already has had an amount of
+cycles to acquire the playing, thus being already very comfortable in their own
+Playing Model.
+
+Figure 19: Two-days’ Morphocycle (two variations)
+
+Luís Berkemeier Pimenta
+
+39
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+D – Final Thoughts
+
+9.
+
+Discussion
+
+This work intended to establish a study-map for football practitioners and,
+in particular, coaches. However, due to its fundamental mission being the
+presentation of an approach which contradicts the prevalent variety of practices,
+all readers that are keen in critically analyze how to develop the process, can
+investigate more on a philosophy that aims at respecting the reality of football.
+Consequently, instead of a thorough explanation of certain theories, this text
+needed to be structured reaching a large array of themes, explaining how they
+are linked between each other and, most importantly, how they are intrinsically
+connected to football. In doing so, the reader would possess a self-educating
+tool which would allow him to firstly form his opinion on the value of the
+complexity paradigm for understanding and teaching football, and secondly to
+study those concepts in a more detailed way.
+
+This study-map was then divided in two parts, with the first bringing a
+perspective on how to theoretically perceive football and, more concretely,
+football matches; and the second part, more focused on the training process
+itself, aimed at elucidating the necessary principles associated to the
+development of a team and, furthermore, how to interlink those principles in a
+pragmatic framework.
+
+Accordingly, it started by confronting the classical paradigm with the
+complex thinking, underlining the value of looking at teams as open and
+complex systems. In doing so, the notion of fractal was explained in order to act
+upon those systems without impoverishing the reality and its consequent endproduct. This would be done through systemic modeling of the playing, i.e., the
+desired behaviors during the football matches. Inevitably, that led up to a
+representation of the dimensions and the playing moments: (a) the first
+illustrating
+
+how the
+
+technical,
+
+Luís Berkemeier Pimenta
+
+physical,
+
+psychological,
+
+and
+
+strategical
+40
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+dimensions only made sense under a tactical framework, due to each one of
+them requiring a predetermined intention to be correctly analyzed and
+developed. The tactical was then considered a supra-dimension, due to unifying
+all others, and providing a sense to each behavior, promoting a collective
+intelligence; (b) through this unifying characteristic of the tactical dimension, the
+playing moments were then exhibited as linked and interdependent, with a nonsequential pattern, opposing to the concept of playing “phases”. In the last
+segment of part one, the notion of Playing Model was clarified, by highlighting
+the value of systematically model the above mentioned moments, in order for
+the coach’s abstract ideas being converted into a concrete framework for
+players.
+
+In the part of this assignment that followed, dedicated to the training
+process, the first aim was to enlighten how the concrete notions of the playing
+model would create an intentional, structural and functional organization, by the
+playing principles. More practically, it was explained how, through training, and
+creation of positive somatic markers, those principles would become
+subconscious habits, increasing creativity levels by neurobiological economy.
+Subsequently, to achieve this, the framework needed to follow training
+principles that would maximize those automatisms. Therefore, here were
+explained the five most important ones: specificity, dismantlement and
+hierarchisation of playing principles, propensities, complex progression, and
+horizontally alternating specificity. Nevertheless, such concepts cannot be used
+in an incoherent manner, requiring to be temporally distributed through the
+training cycles in-between each matches. As a result, several distributions were
+presented, according to the number of days a cycle could assume. Five
+different morphocycles were suggested, discussing the methodological priorities
+to allow the team to be fully prepared for the subsequent match. Moreover,
+each day of the morphocycle was explained through the importance of the
+required complexity level and predominant physical sub-dynamic associated to
+it.
+
+Luís Berkemeier Pimenta
+
+41
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+10. Future recommendations
+
+By doing this revision of the literature on Tactical Periodization, it was
+clearly noticeable that, despite its integrated approach and consideration of a
+supra-dimension that is tactical, the presented periodizations themselves are
+based upon physical sub-dynamics – which, being totally fair, are “tacticallyphysical” –, and not “tactically-strategical” with a physical sub-dynamic under it,
+as they should be. In order to reach this knowledge level, which would in
+practical terms, i.e. on the training periodization itself, relocate the tactical
+dimension as the higher force, there are two vital themes to be looked upon: (a)
+knowledge on hierarchies in playing principles; and (b), information on playing
+principles’ periodization.
+
+(a) There is a clear need for coaches’ development in game
+understanding, to know and comprehend which playing principles
+experienced coaches define for their playing moments. Moreover, the
+detailing of those into sub-principles (and their sub-parts), and their
+hierarchisation by significance, would be an extremely valuable tool
+for further development.
+
+(b) Adding to this, the existence of studies that explain how experienced
+coaches temporally distribute that hierarchy of playing principles
+through the season, in order to reach faster learning and
+development rates, would bring a pedagogical and methodological
+debate which would have a tremendous impact on the game itself,
+and its intelligibility.
+
+However, these limitations in the literature are a normal consequence of
+the (still) few practitioners that follow a systematic and complex approach to the
+team and player development process. This work intended at gathering a few
+more…
+
+Luís Berkemeier Pimenta
+
+42
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+E – References
+
+Amieiro, N. (2007): Defesa à Zona no Futebol – Um pretexto para reflectir sobre
+o “jogar”…bem, ganhando! Visão e Contextos. Lisboa, Portugal.
+Capra, F. (1996): A teia da vida. Uma nova compreensão científica dos
+sistemas vivos. Editora Cultrix, São Paulo.
+Carvalhal, C. (2007): Prefácio in Amieiro, N.: Defesa à Zona no Futebol – Um
+pretexto para reflectir sobre o “jogar”... bem, ganhando! (p. 11). Visão e
+Contextos. Lisboa, Portugal.
+Casarin, R.V. & Greboggy, D.L. (2012): A Fadiga do Hábito e o Hábito da
+Fadiga. Available at:
+http://www.universidadedofutebol.com.br/Artigo/15190/A%2bFADIGA%2b
+DO%2bHABITO%2bE%2bO%2bHABITO%2bDA%2bFADIGA%2b.
+Castelo, J. (1996): Futebol – a organização de jogo. Edições FMH, Lisboa.
+Correia, R. (2013): Tactical Periodization. Presentation at Cupfinale Seminaret,
+Norway, 22nd November 2013.
+Damásio, A. (1996): O Erro de Descartes. São Paulo: Companhia das Letras.
+Faria, R. (1999): “Periodização Táctica” Um Imperativo Conceptometodológico
+do
+
+Rendimento
+
+Superior em
+
+Futebol.
+
+Undergraduate
+
+dissertation
+
+presented at Faculdade de Ciências do Desporto e de Educação Física da
+Universidade do Porto. Portugal.
+Faria, R. (2006): Introduction in Resende et al.: Mourinho – Porquê tantas
+vitórias? (p. 17). Editora Gradiva. Lisboa.
+Faria, R. (2008): Interview in: Campos, C.: A justificação da Periodização
+Táctica
+
+como
+
+uma
+
+fenomenotécnica
+
+–
+
+“A
+
+singularidade
+
+da
+
+INTERVENÇÂO DO TREINADOR como a sua impressão digital”. MC
+Sports. Espanha.
+
+Luís Berkemeier Pimenta
+
+43
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+Frade, V. (2003): Interview in Martins, F.: A Periodização Táctica segundo Vítor
+Frade. Mais que um conceito, uma forma de estar e reflectir o Futebol.
+Monography presented at FCDEF-UP.
+Gaiteiro, B. (2006): A ciência oculta do sucesso! Mourinho aos olhos da ciência.
+Monography presented at Universidade do Porto – Faculdade de
+Desporto. Porto.
+Garganta, J. & Gréhaigne, J. F. (1999): Abordagem sistêmica do jogo de
+futebol: moda ou necessidade? Revista Movimento, Porto Alegre, Ano V,
+Nº 10, p. 40-50.
+Gomes, M. S. (2008): O desenvolvimento do jogar segundo a Periodização
+Táctica. MC Sports. Espanha.
+Guilherme
+
+Oliveira,
+
+J.
+
+(2004):
+
+Conhecimento
+
+Específico
+
+em
+
+Futebol.
+
+Contributos para a definição de uma matriz dinâmica do processo de
+ensino-aprendizagem/treino do jogo. Master’s dissertation presented at
+Faculdade de Ciências do Desporto e de Educação Física da
+Universidade do Porto. Portugal.
+Guilherme Oliveira, J. (2008): O Processo de Construção de um Modelo de
+Jogo de uma Equipa de Futebol. Documento Orientador, Sessão Teórica.
+Curso de Treinadores – Nível 1 da Associação de Futebol do Porto.
+Póvoa de Varzim. Portugal.
+Le Moigne, J. (1990): La modélisation des systèmes complexes. Dunod. Paris.
+Maciel, J. (2008): A (In)(Corpo)r(Acção) precoce dum jogar de Qualidade como
+Necessidade (ECO)ANTROPOSOCIALTOTAL – Futebol, um Fenómeno
+AntropoSocialTotal, que “primeiro se estranha e depois se entranha” e…
+logo, logo, ganha-se! Undergraduate dissertation presented at Faculdade
+de Desporto da Universidade do Porto, Portugal.
+Maciel, J. (2011): Interview in Esteves, L.: Metodologia, Treino e Ideias sobre
+Futebol. Porto Alegre.
+
+Luís Berkemeier Pimenta
+
+44
+
+From Complexity Paradigm to Morphocycle: a Study-Map
+
+McCrone, J. (2002): Como o cérebro funciona. 2ª edição. São Paulo:
+Publifolha.
+Moreno, O. P. C. (2010): El Modelo de Juego del FC Barcelona – Una red de
+significado interpretada desde el paradigma de la complejidad. MC Sports.
+España.
+Morin, E. (2007): Introdução ao pensamento complexo. Porto Alegre: Sulina –
+3ª edição.
+Resende, N., Oliveira, B., Barreto, R. & Amieiro, N. (2006): Mourinho: Porquê
+tantas vitórias? Gradiva.
+Sanz, C. (2010): Prefacio in Conde M.: Transición Ataque-Defensa – Pautas
+Táctico-Emocionales (p.11). MC Sports. España.
+Tamarit, X. (2007): Qué és La Periodización Táctica? Vivenciar el juego para
+condicionar el juego. MC Sports. España.
+Tobar, J.B. (2013): Periodización Tática: Explorando sua Organização
+Concepto-Metodológica. Monography presented at Universidade Federal
+do Rio Grande do Sul – Escola de Educação Física. Porto Alegre.
+Wikipedia, Morphology, biology: Available at:
+http://en.wikipedia.org/wiki/Morphology_(biology).
+Wikipedia, Morphology, linguistics: Available at:
+http://en.wikipedia.org/wiki/Morphology_(linguistics).
+
+Luís Berkemeier Pimenta
+
+45
+
+

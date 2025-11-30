@@ -6,7 +6,8 @@
     "dev": "next dev --port 4000",
     "build": "NEXT_DISABLE_TURBOPACK=1 next build",
     "start": "next start --port 4000",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:uefa": "node --experimental-strip-types scripts/validate-uefa-exercises.ts"
   },
   "dependencies": {
     "next": "16.0.4",

@@ -1,0 +1,101 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="altTitle altDesc">
+  <title id="altTitle">Rondo 5 mot 2 – alternativ versjon</title>
+  <desc id="altDesc">Fem røde utespillere jobber i sirkel mot to blå pressere. Ballen ligger hos spiller 1 i toppen og spilles videre til spiller 2 på høyre side. Fire kjegler markerer øvelsesområdet på en grønn bane.</desc>
+
+  <defs>
+    <linearGradient id="fieldBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#377d2f"/>
+      <stop offset="100%" stop-color="#1f3f1d"/>
+    </linearGradient>
+    <radialGradient id="focusGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <pattern id="grassLines" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#facc15"/>
+    </marker>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .field-outline { fill: none; stroke: #eaf8d9; stroke-width: 2.5; }
+      .zone-ring { fill: none; stroke: rgba(255,255,255,0.45); stroke-width: 2; stroke-dasharray: 10 8; }
+      .cone { fill: #ff8f00; stroke: #3a2200; stroke-width: 1; filter: url(#softShadow); }
+      .player-red { fill: #ef4444; stroke: #0f172a; stroke-width: 2; filter: url(#softShadow); }
+      .player-blue { fill: #3b82f6; stroke: #0f172a; stroke-width: 2; filter: url(#softShadow); }
+      .player-number { fill: #fff; font-size: 11px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+      .legend-label { fill: #e6f0e1; font-size: 10px; font-weight: 600; }
+      .title-label { fill: #f8fafc; font-size: 14px; font-weight: 700; letter-spacing: 0.8px; }
+    </style>
+  </defs>
+
+  <!-- Bane -->
+  <rect x="16" y="16" width="288" height="288" rx="14" fill="url(#fieldBase)"/>
+  <rect x="16" y="16" width="288" height="288" rx="14" fill="url(#grassLines)" opacity="0.35"/>
+  <rect x="16" y="16" width="288" height="288" rx="14" class="field-outline"/>
+  <circle cx="160" cy="160" r="120" fill="url(#focusGlow)"/>
+
+  <!-- Rondo-sone -->
+  <circle cx="160" cy="160" r="86" class="zone-ring"/>
+  <circle cx="160" cy="160" r="50" class="zone-ring" opacity="0.5"/>
+
+  <!-- Kjegler -->
+  <polygon class="cone" points="74,84 66,108 82,108"/>
+  <polygon class="cone" points="246,84 238,108 254,108"/>
+  <polygon class="cone" points="246,212 238,236 254,236"/>
+  <polygon class="cone" points="74,212 66,236 82,236"/>
+
+  <!-- Pasningspil -->
+  <path d="M160 46 Q220 78 252 118" stroke="#facc15" stroke-width="4.5" stroke-linecap="round" fill="none" marker-end="url(#arrowHead)"/>
+
+  <!-- Spillere Lag A -->
+  <g class="player-red">
+    <circle cx="160" cy="46" r="15"/>
+    <text class="player-number" x="160" y="46">1</text>
+  </g>
+  <g class="player-red">
+    <circle cx="260" cy="118" r="15"/>
+    <text class="player-number" x="260" y="118">2</text>
+  </g>
+  <g class="player-red">
+    <circle cx="258" cy="202" r="15"/>
+    <text class="player-number" x="258" y="202">3</text>
+  </g>
+  <g class="player-red">
+    <circle cx="160" cy="274" r="15"/>
+    <text class="player-number" x="160" y="274">4</text>
+  </g>
+  <g class="player-red">
+    <circle cx="60" cy="160" r="15"/>
+    <text class="player-number" x="60" y="160">5</text>
+  </g>
+
+  <!-- Pressende spillere -->
+  <g class="player-blue">
+    <circle cx="134" cy="150" r="13"/>
+    <text class="player-number" x="134" y="150">P</text>
+  </g>
+  <g class="player-blue">
+    <circle cx="186" cy="170" r="13"/>
+    <text class="player-number" x="186" y="170">P</text>
+  </g>
+
+  <!-- Ball -->
+  <g filter="url(#softShadow)">
+    <circle cx="160" cy="46" r="7" fill="#fff7ed" stroke="#0f172a" stroke-width="1.5"/>
+    <circle cx="160" cy="46" r="2.5" fill="#0f172a"/>
+  </g>
+
+  <!-- Legendeboks -->
+  <rect x="24" y="24" width="132" height="70" rx="8" fill="rgba(10,25,10,0.65)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <circle cx="40" cy="42" r="8" class="player-red" stroke="#fff" stroke-width="1"/>
+  <text x="58" y="44" class="legend-label">Lag A • 5 spillere</text>
+  <circle cx="40" cy="68" r="8" class="player-blue" stroke="#fff" stroke-width="1"/>
+  <text x="58" y="70" class="legend-label">Lag B • 2 pressere</text>
+
+  <!-- Tittel -->
+  <text x="160" y="304" text-anchor="middle" class="title-label">Rondo 5v2 øvelse</text>
+</svg>

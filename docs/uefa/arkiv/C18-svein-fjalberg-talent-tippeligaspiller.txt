@@ -1,0 +1,2085 @@
+2010
+Fra talent til tippeligaspiller i et
+regionalt perspektiv.
+Hvordan gjør vi det?
+
+Trener 3 oppgave
+Svein Fjælberg
+01.01.2010
+
+Innhold
+Innhold ....................................................................................................................................... 2
+Sammendrag ............................................................................................................................... 3
+Forord ......................................................................................................................................... 5
+1.0
+Innledning........................................................................................................................ 6
+1.1 Bakgrunn for valg av oppgave. ................................................................................ 6
+1.2 Problemstilling ......................................................................................................... 7
+2.0
+Metode ............................................................................................................................. 9
+2.1 Hva er metode? ........................................................................................................ 9
+2.2 Metodevalg .............................................................................................................. 9
+3.0
+Historikk ........................................................................................................................ 12
+3.1 Min egen historie ................................................................................................... 12
+3.2 1980- og 90 årene................................................................................................... 14
+3.3 Talent/spillerutvikling. Begrepsforvirring? ........................................................... 16
+3.4 Hva er spillerutvikling? Hva sier NFF? ................................................................. 16
+4.0
+Bakgrunn for Viking modellen ..................................................................................... 18
+4.1 Eksternt .................................................................................................................. 18
+4.3 Talent/spillerutvikling sett fra utsiden ................................................................... 23
+5.0
+Spørreundersøkelse ....................................................................................................... 26
+5.1 Bakgrunn for spørreundersøkelse .......................................................................... 26
+5.2 Fakta spillertropper Viking, 1994-2009 ................................................................. 26
+5.3 Spørsmålene i kartleggingen .................................................................................. 27
+5.4 Bearbeiding av svar................................................................................................ 27
+5.5 Resultater spørreundersøkelse ............................................................................... 28
+6.0
+Intervju .......................................................................................................................... 37
+6.1 Bakgrunn for intervju. ............................................................................................ 37
+6.2 Intervju med Leif Knutsen, Sandnes Ulf. .............................................................. 38
+6.3 Intervju med Espen Terland, Nærbø IL ................................................................. 38
+6.3 Intervju med Jørn Brekke, Vardeneset BK ............................................................ 39
+6.4 Intervju med Owe Salvesen, Egersund IK ............................................................. 40
+6.5 Intervju med Roar Wold, spillerutvikler NFF/Rogaland Fotballkrets ................... 41
+6.6
+Intervju med Bjarne Berntsen ............................................................................... 42
+6.7 Intervju med Kjell Inge Olsen, Viking .................................................................. 43
+6.8 Resultat av intervju- undersøkelsen ....................................................................... 44
+7.0
+Diskusjon ....................................................................................................................... 45
+7.1 Sammenfatning av informasjon av undersøkelser og intervju ............................... 45
+7.2 Spania Europamester G-17, G-19 og A landslag herrer i 2008 ............................. 45
+7.3 Nederland - en fotballstormakt. ............................................................................. 47
+8.0
+Konklusjon .................................................................................................................... 50
+8.1 Fasiten. Finnes den? ............................................................................................... 50
+Referanseliste: .......................................................................................................................... 53
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+2
+
+Sammendrag
+Jeg har skrevet en oppgave, der jeg prøver å belyse ulike synspunkter på
+talent/spillerutvikling i et regionalt perspektiv. I min daglige jobb i Viking så har jeg i 2 år
+jobbet som talentutvikler, med hovedansvar for 13-16 år. Dermed har jeg nesten daglig vært i
+situasjoner der dette temaet har vært oppe, det er et tema som opptar svært mange i den store
+fotballfamilien.
+Oppgaven starter med et lite tilbakeblikk på min egen oppvekst, og min vei fra breddeklubb
+til en toppklubb. I og med at jeg på en eller annen måte har vært involvert i Viking både på
+70, 80, 90 og 2000 tallet, så føler jeg at jeg har en viss bakgrunn for å se litt bakover i tid på
+hvordan ting har endret seg opp gjennom årene. Jeg har prøvd å spesifisere benevnelsene
+talent/spillerutvikling for å gjøre resten av oppgaven mer forståelig.
+Jeg har gått gjennom den måten Viking, som en regional toppklubb, idag driver sitt arbeid på i
+forbindelse med utvikling av unge spillere. Her har jeg prøvd å belyse det arbeidet vi gjør
+både i egen klubb, og ikke minst det arbeidet som vi gjør ut i regionen. Arbeidet med å
+etablere Satellitter i ulike regioner står her sentralt. For å ta med en motvekt til
+”navlebeskuingen”, så har jeg tatt med noen betraktninger som viser at toppklubbens rolle og
+posisjon ikke alltid er lett.
+Jeg sendte ut et spørreskjema til 40 spillere som har vært i Vikings A-stall i løpet av de siste
+16 årene, 20 i en kategori som jeg kalte ”lyktes” og 20 i en kategori jeg kalte ”ikke lyktes”.
+Ved å gjøre dette, håpet jeg å finne noen fellesnevnere som gikk igjen, for kanskje å finne et
+svar på suksess eller ei. I den samme forbindelse intervjuet jeg trenere/ledere i lokalfotballen,
+med lang fartstid både i topp og breddeklubb, samt representant for Rogaland
+fotballkrets/NFF. Dette ble gjort for om mulig å finne andre fellesnevnere, sett fra et annet
+ståsted.
+Til slutt undersøkte jeg litt hvordan denne problematikken blir sett på i større fotballnasjoner,
+som Spania og Nederland. Tenker vi forskjellig, eller jobber vi etter de samme retningslinjene
+som noen av foregangslandene i verden gjør? En fellesnevner går helt klart igjen:
+Betydningen av godt skolerte trenere i barnefotballen blir høyt prioritert i disse nasjonene. Vi
+er vel ikke kommet så langt ennå, så en utfordring må være å få høynet statusen på det å trene
+aldersbestemte lag.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+3
+
+I konklusjonen prøver jeg å samle den informasjonen jeg har fått tilgang på, jeg prøver å finne
+ting som kan være av interesse for den som ønsker å lese oppgaven, og for min egen del, å se
+om noe av det utgangspunktet jeg selv hadde før jeg startet skrivearbeidet, blir stadfestet eller
+gått imot.
+Det kom en del interessante tilbakemeldinger i forbindelse med spørreundersøkelsen. Det
+som kanskje var litt overraskende, var den relativt høye gjennomsnittsalderen på spillerne som
+kom til Viking, 19,7 år i gruppen ”lyktes”. I gruppen ”ikke lyktes” var alderen 18, 2 år. Er det
+mulig at mange av spillerne i sistnevnte kategori gikk for tidlig? Jeg tror kanskje det. Ellers
+var det klare tilbakemeldinger fra begge gruppene spillere om at utviklingen og betydningen
+av gode trenere i barne- og ungdomsfotballen var svært viktig. For min egen del så var det
+ingen overraskelse at så mange hadde drevet med mange ulike idretter i barneårene. Jeg tror
+selv at den differensierte og allsidige treningen vil være både nyttig og betydningsfull, når
+utøveren på et senere tidspunkt må ta et valg. Når det nederlandske fotballforbundet sier
+”tilbake til gatefotballen”, så er dette i samsvar med svarene som kom fra begge
+spillergruppene. Den uorganiserte treningen ble tillagt like stor betydning som den organiserte
+treningen, svært mange spillere mente at grunnlaget for mye av deres fotballferdigheter ble
+skapt i leken med kompisene på løkka. En oppfatning som samsvarer med min egen
+oppfatning.
+I intervjuene med trenere/ledere i Rogaland, så var det stor enighet om at toppklubbene måtte
+bli enda mer synlige ute i distriktene, utvikle trenere i lokalklubbene betydde egentlig mer enn
+å utvikle unge talenter. Kommunikasjon og åpenhet var av stor betydning for at arbeidet med
+å utvikle lokale talenter skulle lykkes. Tålmodighet og et relevant tidsaspekt ble også
+fremhevet som viktig når toppklubbene skal jobbe med unge talenter. Det å finne en rett
+utviklingsarena både sportslig og sosialt, går igjen som et av hovedmomentene toppklubbene
+må fokusere på.
+
+I oppgaven vil jeg trekke inn relevante kilder som kan være med å belyse/ forklare de funn
+eller påstander som jeg kommer frem til.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+4
+
+Forord
+Det å gå i gang med prosessen å skrive en trener III oppgave, var i utgangspunktet en
+krevende utfordring. Min siste erfaring med et slikt prosjekt var for 27 år siden, da jeg
+avsluttet mitt grunnfag i engelsk.
+Det har vært et krevende og utfordrende arbeid. Samtidig har det gitt meg en bedre innsikt i
+spørsmål som ikke bare opptar meg, men sannsynligvis en eller flere personer i de fleste
+norske fotballklubber.
+Jeg ønsker å rette en takk til følgende personer, i forbindelse med det endelige resultatet av
+denne oppgaven:
+Min kone og barn, som har latt en en gammel mann få leke student.
+Svein Arne Hiim, en meget vis fotballherre, takk for gode tips.
+Kjell I. Olsen, min sjef i Viking, takk for gode råd og oppbakking.
+Jan Roar Saltvik, min veileder, for å holde meg på stø kurs.
+Spillere i Viking, som tok seg tid til å svare på spørreskjemaet.
+Trenere og ledere i Rogalandsfotballen, før og nå, som velvillig har latt seg intervjue.
+
+Stavanger, januar 2010
+Svein Fjælberg
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+5
+
+1.0 Innledning
+1.1
+
+Bakgrunn for valg av oppgave.
+
+Det er flere grunner for at jeg har valgt å skrive min trener III oppgave rundt temaet
+talentutvikling. I min jobb i Viking FK som talentutvikler, så blir jeg til stadighet konfrontert
+med dette temaet. Viking som klubb har som et uttalt mål, å bli anerkjent som en av de beste
+klubbene i landet innen spiller og trenerutvikling. Forbundsstyret’s vedtak, datert 8 januar
+2008, vedrørende Lokalt Utviklede Spillere (LUS), har i tillegg gjort at arbeidet med å utvikle
+talenter fra egen klubb og region blir viktigere enn noen gang før. Følgende står i NFF
+rundskriv 02/08, punkt 2: ”En spillertropp for klubber i 0 eller 1 divisjon menn kan bestå av
+25 spillere, minimum 14 av disse skal være lokalt utviklede spillere (LUS). Av disse 14 skal
+minst 2 spillere ha vært registrert i egen klubb(såkalt klubbutviklet spiller, jfr. kravene i pkt
+3), og resterende 12 spillere skal ha vært registrert i en annen klubb som er medlem i Norges
+Fotballforbund (såkalt forbundsutviklet spiller, jfr. kravene i pkt. 4).
+
+Gjennom arbeidet med denne oppgaven, har jeg fått muligheten til å gå dypere inn i
+problemstillingen rundt dette med hvordan vi skal klare å utvikle flere talentfulle
+fotballspillere. Ikke minst hvordan det arbeidet vi gjør blir oppfattet i vårt lokalmiljø, synes
+jeg har vært av stor betydning. Jeg har selv erfaring fra små lokale klubber, samtidig har jeg
+fått ta del i det eventyret det er å få være med som spiller og trener på toppnivå. Dette tror jeg
+kan være nyttige erfaringer å ta med seg, for å prøve å få en bedre forståelse for temaet jeg har
+valgt å fordype meg i.
+
+Jeg håper at de erfaringene og det materialet jeg vil presentere i denne oppgaven, også kan
+være av interesse for alle som er innvolvert og opptatt av denne problematikken. Jeg regner
+ikke med å finne ”fasitsvaret” for hvordan arbeidet rundt unge, talentfulle fotballspillere skal
+gjøres, men jeg håper at noe av oppgavens innhold kan være interessant, for mange.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+6
+
+1.2
+
+Problemstilling
+
+Fra talent til tippeligaspiller i et regionalt perspektiv.
+Hvordan gjør vi det?
+
+1.3
+
+Definisjoner
+
+Regionalt perspektiv: Når jeg bruker betegnelsen regionalt perspektiv, så har jeg begrenset
+det til Rogaland fylke. Så spillere i et regionalt perspektiv er spillere som kommer fra klubber
+i Rogaland. Det samme gjelder for trenere og ledere som er intervjuet.
+
+Spillere som lyktes: Mer eller mindre fast i startoppstillingen, spillere som senere har gått til
+andre tippeligaklubber, der de har hatt suksess, som er blitt landslagsspillere eller blitt
+profesjonelle spillere i en utenlandsk liga.
+
+Spillere som ikke lyktes: Sjelden i startoppstillingen, liten eller ingen spilletid, går til en
+klubb i en lavere divisjon etter 1 eller 2 sesonger i Viking.
+
+Gjennom denne problemstillingen ønsker jeg å sette fokus på den måten Viking, som en av
+regionens toppklubber, driver, og har drevet arbeidet med å utvikle unge talenter. Jeg ønsker å
+bruke litt historikk, for å prøve å se hvordan dette arbeidet har endret seg. Jeg ønsker gjennom
+samtaler og spørreskjema, å få svar på en del vesentlige momenter i den forbindelse.
+
+Jeg har valgt å fokusere på arbeidet i et regionalt perspektiv, med bakgrunn i LUS vedtaket,
+som fører til at det må bli en økt fokusering på de spillerne som vi har i vår region.
+
+Gjennom samtaler med trener og ledere i lokalfotballen, så ønsker jeg å få belyst
+problematikken, sett gjennom deres øyne. Samtidig ønsker jeg, gjennom trenere og ledere
+som har vært involvert i toppfotballen, å få sett på dette fra en annen synsvinkel.
+
+Litt av det samme håper jeg å få oppnådd gjennom spørreundersøkelsen, der jeg har fått
+tilbakemeldinger fra et bredt utvalg av spillere som har vært i Viking’s A tropp de siste 16
+sesongene. Jeg har selv ganske klare oppfatninger av hva som må til for å lykkes, gjennom
+spørreundersøkelsen håper jeg å få en bekreftelse på noe av dette.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+7
+
+I diskusjonsdelen av oppgaven, ønsker jeg å bruke den informasjonen jeg har fått tilgang på,
+og prøve å trekke paralleller til det arbeidet som gjøres i andre fotballnasjoner, med større
+status enn vår egen.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+8
+
+2.0 Metode
+2.1
+
+Hva er metode?
+
+Metode er en systematisk måte å undersøke virkeligheten på. Det er mer presist læren om de
+verktøy som kan benyttes for å samle inn innformasjonen (Halvorsen, 1993).
+
+2.2
+
+Metodevalg
+
+En av utfordringene i forbindelse med denne oppgaven, var å finne ut hvilken metode jeg
+skulle bruke for å få belyst problemstillingen på en best mulig måte. I og med at spørreskjema
+er brukt som en måte å innhente informasjon på, så burde det kanskje bety at jeg brukte en
+kvantitativ metode for å belyse problemstillingen. På grunn av spørreskjemaets innhold, der
+det er vanskelig å frem ting som kan måles, veies og telles, så har jeg valgt en
+kombinasjonsmetode, der jeg kombinerer den kvantitative og den kvalitative metoden. Jeg
+mener dette gir størst relevans for oppgaven, i.o.m. at både samtaler, spørreundersøkelse,
+litteraturstudie og egne erfaringer danner grunnlaget.
+
+2.2.1 Spørreundersøkelse
+For å prøve å få svar på konkrete spørsmål vedrørende det å gå fra en lokal klubb til en klubb
+i toppdivisjonen, så sendte jeg ut et spørreskjema til 40 lokale spillere som har vært i Vikings
+A stall i løpet av de siste 16 årene. Jeg valgte ut 20 spillere som ”har lyktes”, og 20 spillere
+som ”ikke lyktes”. Spillerne ble bedt om å svare på 16 spørsmål, som alle hadde tilknytning
+til problemstillingen. 1 av spørsmålene hadde forskjellig ordlyd. Spørsmålenes art gir ikke
+nok relevans til å angi klare indikasjoner, men vil bli drøftet. Hvor det er mulig å kvantifisere
+svarene, vil dette bli gjort. Spørreundersøkelsen ble foretatt via mail.
+
+2.2.2 Samtaler
+For å få belyst problemstillingen fra forskjellige synspunkt, så har jeg gjennomført samtaler
+med flere personer, som gjennom en årrekke har vært involvert i lokalfotballen, både i mindre
+lokale klubber, og i Viking, som toppklubben. Jeg har valgt standardisert intervju som
+metode. I et standardisert intervju vil spørsmålene være bestemt på forhånd og alle
+intervjuobjekter får de samme spørsmålene. Disse spørsmålene presenteres systematisk ved at
+ordlyden og rekkefølgen av spørsmålene er fastlagt på forhånd (Halvorsen, 1993).
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+9
+
+I innledning til intervjuene av trenere og ledere, ble disse rådene lagt til grunn (Halvorsen,
+1993):
+Forklare intervjuobjektene hensikten med trener III oppgaven
+Forklare hvorfor de er plukket ut til intervju
+Opplyse til intervjuobjektene hvordan dataene skal brukes
+Muligheten for eventuell anonymitet
+
+Samtalene ble gjennomført via telefon, eller ansikt til ansikt, og alle intervjuobjektene fikk
+mulighet til å lese gjennom intervjuene når disse var ferdigskrevet. I denne oppgaven har jeg
+tatt meg frihet å redigere intervjuene ned til et nivå som er relevant til oppgavens størrelse.
+
+2.2.3 Litteraturstudie
+Litteraturstudiet ble brukt som teorigrunnlag for arbeidet med problemstillingen. Valget av
+litteratur har jeg gjort på grunnlag av det jeg mener vil gi relevant data til oppgavens
+problemstilling. I og med at jeg har valgt å skrive om dette sett i et regionalt perspektiv, så har
+jeg valgt å bruke den allerede eksisterende litteraturen, som et supplement til den
+informasjonen jeg har tilegnet meg gjennom oppgaven. Kommunikasjon og samtaler er i så
+henseende en viktig og relevant kilde i denne sammenheng.
+
+2.3
+
+Utvalg
+
+Utvalget i denne oppgaven består av spillere som har vært i Viking’s A stall i perioden 19942009. I tillegg består utvalget av ledere og trenere som har vært, og fortsatt er, involvert i
+fotballen, både i toppklubb og i mindre, lokale klubber.
+
+Utvelgingsmodellen kalles skjønnsmessig utvalg (Halvorsen, 1993). Dette innebærer at
+forfatteren selv velger ut objektene ut fra sin vurdering av hvor typiske de er for det som skal
+studeres. Ved bruk av skjønnsmessig utvalg kan en ikke generalisere resultatene til å gjelde
+hele landet, fordi utvalget ikke nødvendigvis trenger å være representativt i andre regioner.
+Det blir opp til den enkelte leser å vurdere om noen av resultatene, evt. konklusjoner en
+finner, kan være representativt for dem.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+10
+
+Utvalget i denne oppgaven består av:
+40 spillere som har vært i Viking’s A stall i løpet av de siste årene.
+Trenere/ledere i lokalfotballen, både topp og breddeklubb
+Egne erfaringer, som spiller/trener, både i topp og breddeklubb
+Litteraturstudie
+
+Unge talenter anno 1965.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+11
+
+3.0 Historikk
+3.1
+
+Min egen historie
+
+Jeg var et relativt stort barn når jeg så lyset for første gang, en kald januardag i 1959. Jeg
+skrek helt sikkert, og det gjorde nok sikkert min mor også, i og med at vektpila stod på 6 kilo,
+når jordmora skulle veie denne klumpen av et barn. Jeg tror 6 kg fortsatt er uoffisiell Sola
+rekord.
+
+Det var greit å vokse opp på en liten plass som Sola, det var kun besøkende som merket
+bråket fra all flytrafikken som foregikk over hodene våre. Jeg vokste opp med 3 eldre søstre,
+som alle var mest opptatt av Elnett, løshår, hotpants og dans i helgene. Jeg, som liten
+”attpåklatt”, falt litt utenfor denne sfæren, og måtte derfor skape meg min egen fritid.
+Det var ikke alltid like lett. Det å vokse opp som skilsmissebarn på 60 tallet, var nok litt
+annerledes enn det er i dag. Særlig når bakgrunnen for dette, var en alkoholisert far som kjørte
+i fylla, og som enkelte ganger kunne bli litt ”irritert” når alkoholen fikk overtaket. På en liten
+plass er dette relativt gjennomsiktig, og Fjælberg huset fikk fort et stempel som ”mindre bra”.
+Idretten ble min lille flukt fra dette. Noe hadde jeg i genene. Min far, tro det eller ei, hadde
+lenge rekorden for antall spilte kamper på Sola’s A lag. Jeg fatter ikke hvordan han klarte det,
+men slik var det nå. Dermed var det nok ganske naturlig for meg, at det var fotballen som ble
+min innfallsport til idretten, og som 6 åring turde jeg for første gang spille fotball med ”de
+store guttene”.
+
+For de var virkelig store i den tida. Det var bare 4 ulike trinn den gangen, lilleputt, smågutt,
+gutt og junior. Ønsket du å spille som 6 åring, så måtte du kjempe mot de eldste i gruppa di,
+som var 9-10 år. Jo, de var store. Nå er det klasser for hvert alderstrinn. ”Kan vi virkelig la
+ham spille med de som er ett år eldre?”, er jo et spørsmål vi stadig hører i dagens
+hospiteringsjungel. Det går sikkert bra. Det ble en del juling de første årene. Men jeg vokste,
+en del av barnefettet forsvant etter hvert, og idretten ble viktigere og viktigere. Ikke bare
+fotball forresten. Håndball, friidrett, ishockey, volleyball.........alt som var gøy. Talentet og
+treningsiveren hadde jeg, det som var det største problemet, var hvilken idrett jeg skulle satse
+mest på. Valget ble tatt i 15-16 års alderen, da måtte håndballen vike, og all min energi ble
+fokusert på å bli en god fotballspiller. For god ville jeg bli, jeg ville bli best.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+12
+
+Hvordan kunne jeg bli best ? Jeg måtte trene mer, jeg måtte tåle mer. Mitt motto ble: ”Du
+må ha det litt vondere hver dag, enn det lagkameratene din har det”. Dette måtte jeg klare
+selv. Jeg hadde ikke foreldre som kjørte meg til og fra, det fantes hverken bil eller sertifikat i
+heimen. Penger var det dårlig med, så det var aldri snakk om å få akkurat de fotballskoene du
+ønsket deg. Jeg husker en gang jeg var tatt ut til en kretssamling, og måtte absolutt ha et par
+joggesko. Jeg visste at de jeg hadde lyst på var uoppnåelige, de min mor fant i en eller annen
+tilbudskurv, vår så fæle, at det var såvidt jeg turde ha dem på meg. Men jeg overlevde.
+Treningsviljen, og det å hele tiden takle motgang på det sosiale planet, gjorde meg sterk. Jeg
+spilte på A laget til Sola når jeg hadde alderen. Sola hadde den fordelen som klubb, at vi alltid
+kunne stille en gressbane til disposisjon tidlig på våren. Dette benyttet Viking seg av, og det
+ble en tradisjon at første gresskampen gikk mellom Sola og Viking. Som 16-17 åring fikk jeg
+være med å spille mot Viking. Det var fantastisk, og jeg var god. Veldig god ifølge
+lokalavisene. Faktisk så god, at folk fra Viking begynte å besøke meg hjemme, for å høre om
+jeg ønsket å spille fotball i Stavanger?
+
+Slik foregikk det på slutten av 70 tallet. En oppmann og en A lagsspiller kom på besøk, og
+spurte om du ville begynne i klubben. Det samme gjorde de fra Bryne. Det var måten talent
+og spillerutvikling ble drevet på, for ”leeenge” siden. Jeg sa nei i 2 år før jeg meldte overgang
+til Viking. Sola fikk 45.000,- som var overgangsrekord i Norge, en liten stund. Jeg var 19 år
+når jeg sa ja, ble 20 det året jeg debuterte for Viking. Jeg kunne ha gjort det et par år tidligere,
+men jeg ønsket det ikke selv. Jeg hadde et godt treeningsmiljø i Sola, spilte på A-laget når jeg
+var”lovlig”, og bestemte meg for at jeg skulle være bedre trent enn de som spilte på A laget til
+Viking, når jeg først skiftet klubb. Jeg debuterte på U-landslaget som Sola spiller, spilte aldri
+på juniorlandslaget.
+Gikk jeg til Viking i rett alder? I ettertid har jeg alltid følt at jeg valgte riktig. Jeg kunne gått
+til Viking tidligere, men jeg mente selv at jeg hadde mer igjen for å bli i Sola, til jeg selv følte
+meg moden nok til å ta steget opp blant de beste. Jeg fikk spilt kamper på seniornivå i tidlig
+alder, noe som gav meg nyttig erfaring med tanke på duellstyrke og spill blant eldre spillere i
+større tempo. Sammen med mye trening både med laget, samt egentrening, var jeg overbevist
+om at beslutningen om å vente, var den riktige.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+13
+
+3.2
+
+1980­ og 90 årene
+
+Jeg har vært i den posisjon, at jeg har fått være med Viking i 3 tiår. På 70 og 80 tallet som
+spiller, på 90 tallet og i 2000 sesongen som hjelpetrener for en karismatisk svenske ved navn
+Benny Lennartson. Dette har gitt meg en unik mulighet til å følge med på hvordan arbeidet
+med regionale talenter har foregått, eller er det kanskje mangelen på dette arbeidet som har
+vært mest fremtredende?
+
+Viking har alltid ønsket å ha et regionalt/lokalt preg på sin spillerstall. Når jeg begynte i
+Viking, så var det 2 spillere som kom fra en annen del av landet (Bergen og Måløy). Tidlig på
+80 tallet kom den første utenlandske spilleren til klubben, i dag er han trener for vårt
+juniorlag. Gjennom 1980 -og 90 årene ble tilsiget av spillere med et annet språk eller en annen
+dialekt større og større, noe som gjorde at andelen av regionale spillere, ble mindre og mindre.
+
+Som regionens flaggskip (selv om et nedrykk i 1986 fikk enkelte til å tvile), ble det ikke lagt
+så veldig mye arbeid ned i å utvikle alle talentene som fantes i distriktet. Klubben var klar
+over at de aller beste spillerne kom før eller siden, å reise rundt i regionen for å bidra i de
+lokale klubbenes arbeid med unge spillere, ble ikke sett på som noe annet enn en
+nødvendighet du gjorde, når du fikk en forespørsel om et besøk. Forskjellen på
+”hjemmebesøket” jeg fikk på slutten av 70 tallet, og det som foregikk på 80 og 90 tallet var
+ikke så forskjellig. Viking tok, men ga ikke så mye tilbake.
+
+Benny Lennartson , kjent for sin evne til å utvikle unge spillere, fikk stor suksess med
+cupfinale seier i 1989 og seriemesterskap i 1991 med et ”ungt” lag. Laget som vant
+seriemesterskapet i 1991, var bygd opp rundt lokale og regionale talenter som fikk muligheten
+til utvikle seg under en dyktig trener.
+Jeg tror faktisk vi må bevege oss til et par år inn i det nye årtusenet, før vi kan begynne å ane
+konturene av et bevisst og målrettet arbeid, med å sette talentarbeidet i regionen i fokus. Den
+modellen vi jobber etter i dag, ble såvidt påbegynt i 2005, for så å ha utviklet seg til det
+produktet som vi jobber med nå.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+14
+
+Et eksempel på hvordan dette arbeidet kan gjøres, henter jeg fra Kjell Inge Olsens D- trener
+oppgave fra 2000/2001: ”Overgangen fra 2 divisjon til tippeliga i Rogaland”. Olsen hevder at
+en deltakelse i kjeden i egen klubb også kan videreføres til tippeliga. I oppgaven
+eksemplifiserer han dette med overgangen til Brede Hangeland fra Vidar FK til Viking FK.
+Han mener at denne overgangen kan være et eksempel som kan benyttes i fremtidige
+overganger fra lavere divisjoner til tippeliga.
+Brede Hangeland gikk først igjennom utviklingskjeden i egen klubb, og etablert seg på FK
+Vidar’s A lag i 2. div. Det var et tett og godt samarbeidsklima mellom disse to klubbene, slik
+at forutsetningene for en overgang var godt gjennomtenkt. Måten det ble gjort på var
+følgende:
+Det ble tidlig signalisert til spilleren at han var i søkelyset til Viking.
+Gjennom samtaler med trenere, ledere, spiller og foreldre, ble det skissert opp en
+trinnvis modell for overgang til tippeliga. Modellen var treårig, men overgangen
+kunne iverksettes tidligere dersom ferdighetsnivå og modenhet var tilstede hos
+spilleren.
+
+Jeg skal ikke gå gjennom hele denne treårige planen, men dette viser en gjennomtenkt og
+grundig fremgangsmåte som kan brukes, dersom det er enighet og samarbeidsvilje mellom
+toppklubb og lokal klubb. Det som og kjennetegner en slik måte å jobbe på, er at spilleren blir
+satt i fokus, og får muligheten til å utvikle seg i et trygt og godt miljø.
+Nils Arne Eggen skriver i sin bok ”Godfoten. Samhandling-veien til suksess, 1999 ”
+”Derfor bør Rosenborg, la unge, forbilledlige nivåhevere være lengst mulig i sine lokale
+klubber, og ikke hente dem for tidlig til spesiell skolering i Trondheim. Så får vi heller spre
+rutinerte spillere med bestått eksamen fra Rosenborg-skolen, som prestasjonsbærere ut i
+klubbene.”
+Eggen anno 1999, Olsen anno 2000/2001 og Viking FK anno 2009 er i utganspunktet på
+samme bølgelengde, selv om vi vel aldri får et 100 % klart svar på hva som er riktig alder for
+å gå til en toppklubb.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+15
+
+Jan Fjetland, Viking FK, kanskje et av Norges største talenter?
+
+3.3
+
+Talent/spillerutvikling. Begrepsforvirring?
+
+Det har de siste årene vært en sterk fokusering på dette med spillerutvikling/talentutvikling.
+Dette har en klar sammenheng med Forbundsstyrets vedtak om LUS bestemmelsene (Lokalt
+Utviklede Spillere), som ble endelig vedtatt 8 januar 2008, som sier: ....minimum 14 av 25
+spillere i en spillertropp skal være lokalt utviklede spillere (LUS). Av disse 14 skal minst 2
+spillere ha vært registrert i egen klubb (klubbutviklet spiller), og resterende 12 spillere skal ha
+vært registrert i en annen klubb, som er medlem i Norges Fotballforbund......... ”Rundskriv nr.
+02/08, NFF”.
+
+3.4
+
+Hva er spillerutvikling? Hva sier NFF?
+
+Begrepet spillerutvikling omfatter kun en liten gruppering med spillere, gjeldende fra og med
+det året de fyller 13 år. Målgruppen er gutter og jenter i alderen 13-17 år som har spesiell
+interesse og forutsetninger for å utvikle seg som fotballspillere. Det skal sikre at unge spillere,
+både jenter og gutter, med ambisjoner, får tilrettelagt trenings og kampmuligheter med tanke
+på framtidig rekruttering til norsk toppfotball. I tillegg til dette, er det nedfelt tre andre viktige
+utviklingsmål som alle er likeverdige: Rekruttere flere aktive på alle plan. Beholde flere
+aktive i organisasjonen over lengre tid. Skape trivsel og fellesskap i fotballmiljøene. ”NFFSpillerutvikling i et helhetlig perspektiv” (www.fotball.no )
+NFF’s spillerutviklingsmodell er, når det gjelder spillerutvikling, rettet mot spillere i
+aldersgruppen 13-17 år. Når vi da prater om talentutvikling, så må jo dette gjelde for et mye
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+16
+
+større segment av spillere, fra de aller yngste, og helt opp til spillere som er etablert i
+toppklubbene. For å ta vare på de eldste, så har mange av klubbene i Norge ansatt
+”Toppspillerutviklere”, som i hovedsak skal jobbe med spillere fra 17(18)-21 år. Det var også
+en periode et krav fra NFF om at toppklubbene skulle ha dette. Da står vi igjen med de yngste
+spillerne, det er vel også her vi per dags dato finner størst forvirring og ulike måter å drive
+dette arbeidet på. Hvilken måte er den rette? Hvordan gjør man det? I neste kapittel ønsker jeg
+å formidle hvordan organiserer dette arbeidet.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+17
+
+4.0 Bakgrunn for Viking modellen
+4.1
+
+Eksternt
+
+17 september 2007 inviterte Viking ca. 50 klubber fra regionen til et møte på Stavanger
+Stadion. Bakgrunnen for denne innkallelsen, var å informere klubbene om det arbeidet Viking
+ønsket å starte opp, med hensyn til spiller/talentutvikling i fylket. Som jeg tidligere har vært
+inne på, så har det alltid vært drevet en eller annen form for spillerutvikling, nå ønsket vi å få
+satt dette i et bedre system, der Viking’s forpliktelser overfor de ”mindre” breddeklubbene
+skulle være mye mer bindende. I løpet av dette møtet kom det frem mange momenter, det ble
+utdelt ris, og det ble gitt ros, slik som det ofte blir når fotballfamilier møtes.
+
+I etterkant av dette møtet, en uke senere, ble det avholdt et nytt møte, denne gang med et færre
+antall klubber, for å trekke opp veien videre mot det som vi trodde, og fortsatt tror, ville være
+en fornuftig måte å følge opp unge, ivrige fotballspillere i vårt distrikt. Noen klubber hadde
+allerede sagt nei, redselen for en sterkere innflytelse fra en toppklubb, var nok større enn en
+edruelig evaluering av hva vi egentlig hadde å tilby.
+
+Hva var det så vi ville tilby?
+Viking ønsket å etablere, i første omgang, 3 regionale ”satellitter” i regionen (Sør
+Rogaland). En i sørfylket, en i Ryfylke, samt Vikings egen i Stavanger. I løpet av 2009
+ønsket vi å utvide dette med enda en ”satellitt”.
+Der ville vi avholde ukentlige samlinger for 20-25 av de ivrigste og beste spillerne i
+denne regionen, i alderen 12-16 år.
+Instruktører på disse samlingene skulle være Viking’s egne elitetrenere, i samarbeid
+med trenere fra vår samarbeidsklubb i regionen.
+Spillernes trenere fra de ulike klubbene ble invitert til å observere/delta på øktene,
+dersom det var interesse for det.
+Det skulle avholdes trenerseminar/lederseminar i de samme ”satellittene”, da et av
+våre klareste mål var å høyne trenerkompetansen, høyne statusen, på det å være trener
+for aldersbestemte lag. God trenerutvikling er også god spillerutvikling.
+Vi ønsket å kartlegge, identifisere, påvirke spillerne som deltok.
+Vi har hele tiden vært åpne på at vi ønsker oss ”den” eller ”de” beste.
+Vi er av den klare formening av at nivået vil bli høynet på fremtidige 2 og 3
+divisjonsspillere i regionen.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+18
+
+Etter møtet og enda flere samtaler, endte vi opp med EIK (Egersund I.K.) og Staal (Jørpeland)
+som våre samarbeidsklubber, i henholdsvis sør -regionen og i Ryfylke. Vår egen Satellitt ble
+avholdt på Eiganes, hvor vår ungdomsavdeling har sitt sete. Formålet med Satellittene er å
+samle de ivrigste og beste ungdommene i regionen, det første året ble samlingene avholdt en
+gang pr uke. Det ble lagt en treningsplan (vedlegg 1), der tema skulle være likt på de ulike
+stedene, og tilnærmelsesvis likt det vi hadde som tema i Viking. Viking forpliktet seg til alltid
+å stille med minimum en trener på disse øktene, og å bli med på gjennomføringen av disse,
+sammen med lokale trenere. I tillegg har vi prøvd å få med en spiller fra vårt A-lag, noe som
+har blitt svært godt mottatt blant de unge spillerne. For A lags spillerne har det også vært en
+positiv opplevelse, både for de med en vordende trener i magen, og også for de andre, som får
+oppleve fotballen fra en litt annen vinkel enn det de til daglig omgås. Utvelgelsen av spillere
+ble ofte foretatt i et samarbeid mellom Viking og ”driver-klubben”.
+
+”Satelittmodell”
+
+”Akademiet”
+
+Regional spillerutvikling i Vikingregi
+
+Elitelag i Viking
+Spillere 12-16 år
+
+Staal
+Sat.
+1
+
+Sat.
+EIK
+2
+
+A
+
+Laget
+
+II - Laget
+Jr - Laget
+
+Talentskolen
+i regi av Viking
+
+Viking
+Sat.
+3
+
+Sat.
+4
+K1K2K3
+
+16 års
+Talentskole Gutt 16-1
+15 års
+Talentskole
+
+Gutt 15-1
+
+14 års
+Talentskole
+
+Smågutt 14-1
+Smågutt 14-1
+
+12-13 års
+Talentskole
+
+Smågutt
+Smågutt 13-1
+13-1
+
+11’er
+11’erBreddelag
+Breddelag++55og
+og7’er
+7’erlag
+lagi iU-avdelingen
+U-avdelingen
+
+Bilde: Slik er Viking’s struktur.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+19
+
+4.1.2 Hvilke spillere får være med på disse treningene?
+.........Vi leter etter de som vil mer............
+Dette er vår enkle, men dog så vanskelige rettesnor vi forholder oss til, når vi skal prøve å
+finne ut hvilke spillere som skal få delta på Satellitt treningene i de ulike regionene. Enkelt
+fordi mye av nøkkelen til suksess bygger på dette enkle prinsippet, vanskeligheten ligger i å
+finne ut hvem som innehar denne viljen. Vi har laget noen retningslinjer for kartlegging av
+spillere (se vedlegg 2). ” Du må ha det litt vondere enn lagkameraten din, hver eneste dag”, er
+min tese for å bli virkelig god. Jeg fant ut at denne formuleringen kanskje var litt dårlig, da
+jeg en gang pratet med en samling unger på en fotballskole, og nevnte akkurat den setningen.
+En liten tilhører mente, at da ville han ikke spille fotball, ” viss han måtte springa ront og ha
+det vondt heila tiå”. Forsåvidt fornuftig sagt.
+Mye av uttaket må vi bygge på et tett samarbeid med våre ”driver” klubber. De kjenner
+lokalmiljøet best, og litt av hele poenget med disse Satellittene, er at alle klubbene i denne
+regionen skal føle tilhørighet til prosjektet. Derfor har det også vært viktig for oss, å få med
+spillere fra alle klubbene som viser interesse for dette arbeidet. I så henseende har vi nok vært
+i overkant ”politisk korrekte” noen ganger, og det kan nok være at vi har tatt med enkelte
+spillere som ikke burde være med, slik at ikke de mest dominerende klubbene skulle få en for
+stor dominans. Alle satellittene har og har hatt spillere på et høyt nivå son er viktige
+referansespillere i forhold til hva som er god kvalitet, et eksempel på dette er Valon Berisha
+fra satellitten i Egersund.
+Spillergruppene har ikke vært statiske. Spillere som gjennom sesongen viser fremgang, viser
+treningsvilje og har de rette holdningene, har alltid en mulighet til å komme inn. For å få
+gjennomført dette, så holder vi en tett dialog med de involverte lederne i de forskjellige
+klubbene, for å få den nødvendige informasjonen. På samme måte er det også mulig at en
+spiller blir tatt ut av Satellitten, dersom det viser seg at han ikke oppfyller de relativt enkle
+krav som stilles.
+I den forbindelse, så har vi heller ikke vært så veldig opptatt av å holde et eksakt antall
+spillere i gruppen. Utgangspunktet har vært ca. 25, men dette har variert fra sted til sted. Det
+har også variert i forhold til de enkelte årskullene. Noen kull er ”gode”, mens andre er det
+motsatte. Vi er også opptatt av at trenerdekningen er god på samlingene, slik at det er ca. 12
+spillere pr. instruktør i tillegg til keepertrener
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+20
+
+Gjennom disse Satellittene har vi, siden oppstarten høsten 2007, identifisert et sted mellom
+200 og 250 unge fotballspillere. 2 av disse var vi tidlig klar på at vi ønsket å knytte til oss.
+Valon Berisha flyttet til Stavanger, når han skulle begynne på videregående skole, han er i dag
+innlemmet i A stallen til Viking. Lillebroren, Veton, følger i sin brors fotspor når tiden er
+riktig, noe som vi mener er når spilleren begynner på videregående skole. Dette vel og merke,
+dersom de får en god og sportslig riktig oppfølging i den klubben de befinner seg.
+
+4.1.3 Trener/lederproblematikken
+”Sportslig riktig oppfølging i den klubben de befinner seg i...........” Hva legger vi dette, og
+hvordan følger vi det opp?
+
+En av våre kjernesaker i forbindelse med vår modell, er å ”utdanne” flest mulig trenere/ledere
+i den aktuelle regionen. Betydningen av å ha dyktige og motiverte trenere i de yngre
+årsklassene, har vært og vil alltid være viktig. Derfor arrangerer vi samlinger, der
+trenere/ledere fra samarbeidsklubbene i Satellittene blir invitert. Vårt mål er å høyne statusen
+på det å trene aldersbestemte lag. Norsk fotball drives i stor grad på frivillighet. Ivrige
+foreldre jobber år etter år, som trenere, oppmenn og ”altmuligkvinner” i de fleste norske
+klubber. Forutsetningene for å utføre de forskjellige jobbene varierer kolossalt. Vi ønsker,
+gjennom våre samlinger, å gjøre hverdagen enklere for alle disse ivrige ildsjelene. Samtidig
+ønsker vi selvsagt at treningshverdagen skal bli så god som overhodet mulig, for alle unge
+som driver med fotball. Det er den daglige påvirkningen som danner grunnlaget for
+sluttresultatet. Våre samlinger, som har foregått 1 gang i uken, eller som nå, hver 14 dag, vil
+bare være et ekstra pluss i ungenes treningshverdag.
+
+I forbindelse med trener/lederhjelpen, så har vi laget vår egen DVD, som er ment å være et
+hjelpemiddel for alle dem som ønsker å bidra i sin lokale klubb. DVD’en inneholder råd og
+tips om det å trene unger i alderen 6-12 år. Ikke til forkleinelse for NFF’s egen DVD, men vi
+synes faktisk vi har klart å lage et veldig bra produkt, og tilbakemeldingene fra brukerne er
+udelt positive. Interessen for trenersamlingene vi har gjennomført har vært veldig stor, vi har
+gjennomført en samling på våren og en på høsten, med varierende tema, alt etter hva klubbene
+selv ønsker å fokusere på.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+21
+
+Det som er litt mindre positivt, er at få av de samme trenerne møter når vi gjennomfører
+treningene, annenhver fredag ettermiddag. Kanskje det har litt med dag og tidspunkt å gjøre?
+Fredag ettermiddag er kanskje helg for mange? Vi har vurdert å legge disse øktene til en
+annen dag, men fredag er den beste dagen for en ekstra økt, særlig i sesongen, når denne
+dagen stort sett er kampfri.
+
+4.1.4 Organisering i egen klubb
+Viking er en stor klubb. Barne og ungdomsavdelingen består av ca.65 lag i 2010. NFF sier i
+”Ungdomsfotball 13-19 år, råd og retningslinjer” (www.fotball.no ), følgende: ” Norges
+Fotballforbund har to utviklingsmål med ungdomsfotballen:
+Utvikle gode spillere(de som har forutsetninger for å bli toppspillere skal gis optimale
+utviklingsmuligheter)
+Beholde flest mulig ungdomsspillere lengst mulig i fotballmiljøet.
+
+I Viking prøver vi å oppfylle begge disse kravene.
+Vår organisasjonsmodell er todelt. Vår desidert største avdeling i barne- og ungdomsfotballen,
+består av ”breddelag”, både gutter og jenter. Det året guttene begynner å spille 11’er fotball,
+kommer de inn under vår Elitesatsing, d.v.s. at vi har satsningslag i aldersklassene 13, 14, 15
+og 16 år, samt junior. Dette er et tilbud til dem som ønsker å trene mer, under veiledning av
+godt skolerte (og lønnede) trenere. Alle våre hovedtrenere har trener-2 kompetanse. Det blir
+satt andre krav til spillerne som er involverte rundt disse lagene, men de gis samtidig en
+mulighet til å utvikle sitt talent, sammen med likesinnede.
+
+Det er et tett samarbeid mellom disse lagene, slik at spilleren til enhver tid skal bli fulgt opp
+på best mulig måte. Vi har gode hospiteringsordninger for disse spillerne. Vi stiller samtidig
+krav til at de følger opp skole/utdanning på en skikkelig måte. Pr. dags dato har vi et tett og
+godt samarbeid med to videregående skoler med fotball-linjer, der de fleste av våre ”eldste”
+talenter går. Dermed kan vi styre innholdet og intensiteten i øktene slik at spillerne får en best
+mulig utvikling med utgangspunkt i utviklingsmålene til den enkelte, eks. bygge videre fra
+morgenøkten til ettermiddagsøkten. Foreløpig har vi ikke noe formelt samarbeid med
+ungdomsskoler i distriktet, men vi håper etter hvert at vi kan få opprettet avtaler i så
+henseende, slik at vi også kan få gitt våre ”yngre” talenter et utvidet tilbud.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+22
+
+Vi håper og tror at vi er på rett vei, når det gjelder arbeidet i egen klubb. Vi har i 2009
+oppnådd gode resultatmål og hatt en fin utvikling på våre beste spillere. Kretsmesterskap i 13,
+14, 15 og 16 år, samt NM gull for 16 års laget og NM semifinale for vårt svært unge
+juniorlag, indikerer at vi er på rett vei. I tillegg har vi hatt flere spillere på aldersbestemte
+landslag samt at flere har fått mulighet til å trene med A-laget.
+
+Veien videre 2010 >
+Det er planer om å etablere to talentgrupper med de aller beste spillerne, det vil si de beste
+kretslagsspillerne og aktuelle landslagsspillere i de eldste årsklassene. En gruppe fra 13-15 år
+og en fra 16-23. Gruppene ledes av Roger Nilsen (hovedtrener), Kjell Inge Olsen og Gary
+Goodchild. Vi bruker spilleranalyseskjema (se vedlegg) og setter opp utviklingsmål til den
+enkelte spiller. Lager en kapasitetsprofil/utviklingsmål med utgangspunkt i spilleranalysen.
+
+Gruppene blir satt sammen med utgangspunkt i kriteriene vi ser etter i Vikingtalent. Gruppene
+er ikke statiske, men kan bli justert underveis om andre spillere utvikler seg i ønsket retning
+eller at spillere som allerede er i gruppene ikke viser det vi forventer. Vi kommer til å filme
+utvalgte spillere i kamp for deretter å foreta kamp- og spilleranalyse ut fra utviklingsmålene
+til spillerne. Vi har en egen analysetrener til dette formålet, den samme som A-laget benytter.
+
+4.3
+
+Talent/spillerutvikling sett fra utsiden
+
+Som jeg har nevnt tidligere, vi har aldri lagt skjul på at vi ønsker å knytte til oss de største
+talentene som vi identifiserer i disse satellittene, når tiden er riktig for alle parter. I
+utgangspunktet tror vi dette er, når spilleren skal begynne på videregående skole.
+I Viking starter vi med ”Elitelag”, når guttene begynner å spille 11’er fotball, d.v.s. når de
+fyller 13 år. Ikke alle kommer med på disse lagene, og det er heller ikke alle som ØNSKER å
+være med på denne satsingen. Derfor er det viktig for Viking som klubb, å ha et tilbud for
+alle, både de som ønsker å trene mye, men også for de mange som ønsker å møtes et par
+ganger i uken sammen med kameratene. Dersom spillere i noen av breddelagene viser stor
+fremgang og ønsker å satse enda mer på idretten, så er det selvsagt mulig for disse å prøve seg
+på elitelagene.
+
+Viking som toppklubb blir i forbindelse med denne splittede modellen, nøye evaluert fra alle
+som har en mening om fotball, unge fortballspillere og talentutvikling. Vi prøver så godt det
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+23
+
+lar seg gjøre, å ha et positivt og ryddig forhold til klubbene i vår region, allikevel får vi stadig
+høre at vi ”fisker” unge spillere, for å forsterke våre egne Elitelag. Kritikken er i de aller fleste
+tilfellene ubegrunnet og tatt ut fra en virkelighet som veldig ofte er helt annerledes enn lojale
+klubbpatrioter befinner seg i.
+
+Et av våre største problemer, er å måtte si nei til spillere som ønsker å begynne i Viking. Det
+er nemlig veldig mange som ønsker å ta del i den satsingen vi legger ned i aldersgruppene 13
+år-junior. Det er ikke bare spillerne selv som ønsker dette, like ofte er det ivrige foreldre som
+pusher på, for å få sin håpefulle pode inn i et treningsmiljø som ofte er totalt annerledes enn
+det som gutten opplever i sin egen klubb.
+
+Vi ønsker IKKE å renske klubber som er i vårt lokalmiljø for deres beste spillere. Dette ville
+medføre at det konkurransetilbudet som ligger i tette og jevne kamper, ville falle bort.
+Dessverre er det allikevel slik, at det blir for mange 8-0 og 7-1 kamper, når våre beste lag
+spiller i kretsserien. Men, ser vi at en talentfull spiller ikke får den oppfølgingen i sin klubb
+som er nødvendig for å utvikle seg som spiller, så tar vi gjerne en samtale med foreldre,
+spiller og klubb, for å prøve å finne en løsning som gjør at spilleren får den best mulige
+stimulansen for å utvikle seg. Det kan gjerne være i form av hospitering med et av våre lag,
+ikke nødvendigvis med klubbskifte.
+
+Så i de aller fleste tilfeller er det etter initiativ fra foreldre/spillere selv, at utøveren kommer til
+oss fra en annen klubb. I slike tilfeller følger vi følgende prosedyrer: Viking skal ha en
+skriftlig bekreftelse fra moderklubben på at spilleren, i samråd med sine foreldre, ønsker å
+skifte klubb. Klubben skal godkjenne og akseptere dette, før spilleren evt. får melde overgang.
+
+Selv om vi føler at vi er veldig ryddige på akkurat dette området, så er det allikevel til
+stadighet, klubbledere og ”forståsegpåere”, som hevder at Viking har en helt annen agenda.
+”Synsing” og faktaunderslag er et gjennomgående fenomen, når disse ytringene får
+medieoppmerksomhet i våre lokale aviser. Artiklene nedenfor er bare noen eksempler, på
+hvordan virkeligheten blir vridd på, uten at vi har noen særlig mulighet til å få
+motargumentert, uten å bli oppfattet som ”hårsåre”
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+24
+
+(Kilde: Stavanger Aftenblad, 2009)
+Det er mange forskjellige oppfatninger av hvordan toppklubbene organiserer sitt arbeid med
+unge talenter.
+
+Vet ikke om Tuastad foreleste på Cupfinaleseminaret? Ingen som er involverte rundt Vikings
+talentsatsing har snakket med ham, men han vet veldig mye om Vikings arbeidsmetoder.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+25
+
+5.0 Spørreundersøkelse
+5.1
+
+Bakgrunn for spørreundersøkelse
+
+I forbindelse med denne oppgaven, så ønsket jeg å konsentrere meg om lokale og regionale
+spillere som har vært i Viking systemet, det vil si i Vikings A-stall.
+Jeg har gått gjennom A-lags troppen i perioden 1994-2009, og sett på andelen av
+lokale/regionale spillere som har vært innlemmet i troppene.
+Jeg har gjennom ulike spørsmål, prøvd å få dannet meg et bilde, på om det er noen store
+forskjeller på de spillerne som ”lyktes” og de spillerne som ”mislyktes”.
+
+Definisjon på en spiller som ”lyktes”: Mer eller mindre fast i startoppstillingen, spillere som
+senere har gått til andre tippeligaklubber, der de har hatt suksess, som har blitt
+landslagsspillere eller blitt profesjonelle spillere i en utenlandsk liga.
+
+Definisjon på en spiller som ”mislyktes”: Sjelden i startoppstillingen, liten eller ingen
+spilletid, går til en klubb i en lavere divisjon etter 1 eller 2 sesonger i Viking.
+
+5.2
+
+Fakta spillertropper Viking, 1994­2009
+Antall spillere:
+
+475
+
+Snitt tropp pr. sesong
+
+29,7
+
+Antall lokale/regionale
+
+84
+
+Antall utenlandske spillere
+
+83
+
+Dette gir en snitt prosentandel av lokale/regionale spillere i Vikings A tropp på 17,7%.
+Andel utenlandske spillere er, som en ser, omtrent identisk.
+Av de 84 lokale/regionale spillerne, så kommer 30 stk innunder betegnelsen ”lyktes”, mens 54
+havner i gruppen ”mislyktes”.
+Det vil si at 35,7 prosent hadde/har suksess, mens 64,3 prosent ikke oppnådde suksess i sin
+Viking periode, slik jeg har valgt å definere det.
+
+Er det mulig å finne noen årsaker til dette?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+26
+
+5.3
+
+Spørsmålene i kartleggingen
+
+20 spillere i hver av de kategoriene som jeg har definert (ref. 5.1), ble forelagt et
+spørreskjema. 15 av spørsmålene var identiske, det siste spørsmålet var ulikt, og hadde
+sammenheng hvordan spillerens karriere utviklet seg.
+
+Selv etter mange purringer, fikk jeg bare inn 17 svar fra spillerne i kategorien ”ikke lyktes”.
+I kategorien ”lyktes” fikk jeg inn 19 svar. Spillerne fikk følgende spørsmål å besvare:
+1. Hvor gammel var du da du kom til Viking?
+2. I hvilken klubb startet du å spille fotball? Hvilken klubb kom du fra da du begynte i
+Viking?
+3. Var du aktiv i andre idretter i oppveksten, i tilfelle hvilke?
+4. Dersom du svarte ja på forrige spørsmål, hvor gammel var du når du bestemte deg for
+å satse kun på fotball?
+5. Hvor mange ganger trente du i uken, uavhengig av idrett? 6-12 år, 13-16, 17-20
+6. Hvor mange av disse øktene var fotballøkter?
+
+6-12 år, 13-16, 17-20
+
+7. Hvor viktig tror du den organiserte treningen er, i barne- og ungdomsfotballen?
+8. Hvor viktig tror du den uorganiserte treningen er, i barne- og ungdomsfotballen?
+9. Trente du mye utenom de organiserte treningene, i tilfelle hvordan?
+10. Hvor viktig tror du det er, at trenerne i barne- og ungd.fotballen er godt ”skolerte”?
+11. Hvordan ble du fulgt opp av dine foresatte i.f.m. trening, kamper etc.?
+12. Spilte du på krets/aldersbestemte landslag?
+13. Tror du det er viktig for unge talenters utvikling, å komme til en toppklubb så tidlig
+som mulig? Begrunn svaret.
+14. Hva er, etter din mening, de viktigste kriteriene for at et ”talent” skal utvikle seg til å
+bli en god fotballspiller?
+15. Hvordan skal vi klare å utvikle enda flere talenter fra ”lokalfotballen”, til
+elitedivisjonsspillere?
+16. Hvorfor ble du god? (Til spillerne i kategorien ”lyktes”)
+17. Hvorfor klarte du ikke å etablere deg som spiller i elitedivisjonen? (Til spillerne i
+kategorien ”lyktes ikke).
+
+5.4
+
+Bearbeiding av svar
+
+Med utgangspunkt i mine egne erfaringer, så ønsket jeg å se om jeg kunne finne likhetstrekk
+mellom min egen opplevelse av det å være et ungt, lokalt talent, og de svarene jeg fikk i
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+27
+
+spørreundersøkelsen. Min spørsmålsformulering innbyr mer til en drøfting av de svarene jeg
+har fått, enn til målbare og absolutte sannheter.
+Jeg håpet, at gjennom å henvende meg til to forskjellige kategorier spillere, så ville jeg få
+frem ulikheter, som kanskje kan være en medvirkende forklaring til hvorfor fotballkarrierene
+gikk i ulik retning. Jeg vil ved gjennomgang av det materialet jeg har fått, fokusere på de
+tingene som jeg mener har relevans til problemstillingen, og som jeg tror kan være av
+interesse for den som måtte lese denne oppgaven.
+
+5.5
+
+Resultater spørreundersøkelse
+
+5.5.1 Hva er rett alder?
+Hva er riktig tidspunkt å gå til en toppklubb? Er det i tilfellet Valon Berisha, når du skal
+begynne på videregående skole? Eller er kanskje det noen år for sent? Eller er det som med
+meg, når du er 19-20 år.
+Med bakgrunn i egne erfaringer, så mener jeg at vi skal være veldig forsiktige med å trekke
+spillerne ut fra trygge omgivelser i sin moderklubb, for tidlig. Det er fortsatt barn vi jobber
+med, og hvilke utslag slike omveltninger kan gjøre med individet, er vanskelig å forutse.
+
+Derfor er det veldig viktig at klubben, i dette tilfellet Viking, gjør et skikkelig forarbeid
+sammen med spiller, foreldre og klubb, som gjør at overgang og flytting skjer på en måte som
+alle parter er innforstått med. Oppfølging m.h.t. vertsfamilie, skole og det sosiale livet utenom
+fotballen, er en oppgave alle må forstå betydningen av.
+Spørreundersøkelsen jeg foretok, bekrefter at gjennomsnittsalderen for de spillerne som kom
+inn i Viking’s A tropp fra lokale/regionale klubber, var relativt høy.
+I kategorien for spillere som ”lyktes” fikk vi følgende tall:
+1 spiller har vært i klubben Viking i hele sin fotballkarriere
+Gjennomsnittsalderen for de øvrige som deltok i undersøkelsen var 19,7 år
+I kategorien for spillere som ”ikke lyktes” fikk vi følgende tall:
+1 spiller har vært i klubben Viking hele sin fotballkarriere
+Gjennomsnittsalderen for de øvrige som deltok i undersøkelsen var 18,2 år
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+28
+
+Kan disse tallene gi oss noen indikasjon på hva som er rett alder? Vi ser at
+gjennomsnittsalderen i gruppen ”ikke lyktes” er en del lavere. Har noen av disse gått for
+tidlig, fristet av toppklubbens interesse for talentet de har observert? Hadde noen av disse
+spillerne muligens utviklet seg bedre, dersom de hadde valgt å bli i sine lokale 2 eller 3
+divisjons klubb, en sesong eller to ekstra.? Eller svikter det på toppklubbens oppfølging av
+unge talenter, som blir hentet til klubben?
+
+Med utgangspunkt i mine egne erfaringer, så stemmer gjennomsnittsalderen i gruppen
+”lyktes”, med den alderen jeg hadde når jeg gikk til en toppklubb. Dette er kanskje tilfeldig,
+men det underbygger egentlig min teori om at unge talenter nødvendigvis ikke må gå til en
+toppklubb i veldig ung alder, dersom det er lagt en strukturert og god plan for spilleren i den
+klubben han spiller. Nils Arne Eggen sier i boka ”Godfoten. Samhandling-veien til suksess”: ”
+............Derfor bør RBK, både sportslig og økonomisk, stimulere fotballmessige vekstsentra
+rundt klubbene i Trondheim og Trøndelag. Derfor bør Rosenborg la unge, forbilledlige
+nivåhevere være lengst mulig i sine lokale klubber, og ikke hente dem for tidlig til spesiell
+skolering i Trondheim............”. Rosenborg hadde og har fortsatt suksess.
+
+Bilde: Erik Nevland, en av de som lyktes.
+
+5.5.2 Treningsmengde og ulike idretter
+Med bakgrunn i min egen oppvekst og idrettskarriere, så har jeg alltid ment, at det å drive
+med ulike idretter, opp til en viss alder, kan være en styrke den dagen man bestemmer seg for
+å prioritere en hovedidrett. Jeg følte jeg fikk en enda bredere plattform å stå på, når jeg klarte
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+29
+
+å kombinere fotballen med andre idretter. Faktisk så kuttet jeg ut fotball en liten periode i 1415 års alderen, for kun å konsentrere meg om håndball, som jeg synes var like kjekt.
+Derfor ønsket jeg gjennom spørreskjemaet, å få en indikasjon på om dette også gjaldt de
+utvalgte spillerne i undersøkelsen, eller om de fleste tidlig hadde spesialisert seg innen fotball.
+Svarene jeg fikk var egentlig som forventet:
+I gruppen ”lyktes” hadde 84, 2% drevet med en eller flere idretter i oppveksten. Flere av disse
+må ha vært multitalenter i idrett, for over halvdelen av disse hadde drevet med flere idretter.
+Den idretten som klart skilte seg ut som idrett nr. 2, var håndball.
+I gruppen ”ikke lyktes” fikk jeg følgende tall når jeg gikk gjennom svarene:
+76, 4 % av spillerne hadde drevet med andre idretter, altså litt lavere enn i den andre gruppen.
+Dette er jo ingen kjempestor forskjell, men jeg mener allikevel det kan indikere at viljen til å
+trene, og kanskje både trene mer og litt annerledes enn sine jevnaldrende, viser seg gjennom
+disse tallene. I denne gruppen var håndball den desidert største nr. 2 idretten. Det som ellers
+kom frem i svarene, var at for de aller fleste, i begge kategorier, så startet spesialisering inn
+mot fotball, i årsklassen 17-20 år, noe som vi også vil se når det gjelder spørsmålet angående
+økter pr uke.
+
+Denne allsidigheten samsvarer med den konklusjonen professor Yngvar Ommundsen,
+NIH/Universitetet i Agder og førsteamanuensis Rune Høigaard, Universitetet i Agder kommer
+frem til, i sin artikkel ”Talentutvikling i idrett”, publisert i Fotballtreneren nr. 2 2008: ”Unge
+utøvere bør få erfare en allsidig idrettslig praksis med flere idrettslige aktivitetsformer.
+Konkurranser og kamper for de yngste anvendes som en arbeidsmåte i idrettsopplæringa der
+konkurransemomentet ses på som en utvidet treningsform til påfyll på de unges fysiske,
+motoriske og psykologiske og sosiale ferdighetsutvikling”.
+
+I forbindelse med del 2 av vårt trener III kurs, så kåserte foredragsholder Geir Jordet om
+diverse prioriteringsområder innen norsk toppfotball. Trenerutvikling, treningskvalitet og
+treningsmengde var fokusområder.
+Sitat: ”Dersom en 8 åring skal oppfylle de kravene som en tiller til en topp idrettsutøver, så
+må han trene 3 timer pr. dag/20 timer pr. uke/1000 timer pr. år. Regner vi dette ut i
+”normale fotballøkter” på 1,5 time, så betyr det at våre unge fotballspillere skal trene ca. 13
+fotballøkter i uken, dersom en skal trene fotballspesifikt. 13 fotballøkter er vel kanskje lite
+relevant, men timeantallet pr. uke er klart oppnåelig, dersom en finner en god måte å
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+30
+
+differensiere treningen på. Hvordan samstemmer disse tallene, med svarene jeg fikk fra mine
+to ”grupper”?
+
+Mine spørsmål dreide seg om antall økter pr. uke, jeg spesifiserte ikke at det skulle
+spesifiseres antall timer, eller varighet på øktene. I hovedsak var alle lagtreningsøkter på 1,5
+time.
+I gruppen ”lyktes” ble dette utfallet av spørsmålene.
+Antall økter, uavhengig av idrett
+
+Antall fotballøkter
+
+6-12 år:
+
+4,7 økter
+
+3,3 økter
+
+13-16 år:
+
+6,3 økter
+
+4,9 økter
+
+17-20 år:
+
+7,9 økter
+
+7 økter
+
+I gruppen ”ikke lyktes” ble utfallet dette.
+Antall økter, uavhengig av idrett
+
+Antall fotballøkter
+
+6-12 år:
+
+3,9 økter
+
+3
+
+13-16 år:
+
+5,5 økter
+
+4,3 økter
+
+17-20 år:
+
+5,8 økter
+
+5,4 økter
+
+økter
+
+Hvilke slutninger kan vi trekke av disse tallene? Jeg har i alle fall fått en liten indikasjon på
+min egen tese, ”du må ha det litt mer vondt, og jobbe litt hardere enn kompisen din, hver dag,
+for å bli god”, medfører en viss sannhet.
+
+Vi ser at gruppen ” lyktes” trenere mer enn den andre gruppen, på alle alderstrinn. Dette
+gjelder både m.h.t. fotballøkter og økter uavhengig av idrett. Ser en på tallene som omhandler
+økter uavhengig av idrett, så ser vi forskjellen er lik på de to yngste alderstrinnene, mens det
+er en markant større forskjell i aldersgruppen 17-20 år. Dette henger helt klart sammen med
+den intensiverte og spesifikke fotballtreningen i denne aldersgruppen., vi ser at mye av
+treningen da dreier mot fotball.
+
+5.5.3 Den organiserte og den uorganiserte treningen.
+Et spørsmål som til stadighet dukker opp når ”fotballfamilien” samles, er hvordan de unge
+talentene skal trene. I Norsk Fotballtrenerforenings magasin ”Fotballtreneren”, nr.1 februar
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+31
+
+2008 henter jeg følgende sitat fra Hans Boersma, ansvarlig for trenerutdanningen i det
+nederlandske fotballforbundet: ” Vi må finne tilbake til gatefotballen slik vi husker den fra
+Rinus Michels tid på 50 og 60 tallet”. Videre står det: ” Om han ikke mener det bokstavelig,
+er han krystallklar på at den uorganiserte spillaktiviteten blant barn må tilbake i større grad.
+Det er helt avgjørende for å utvikle internasjonale toppspillere i framtida.”
+
+For min egen del så er jeg overbevist om at det var mengden av denne” gatefotballen” som ga
+meg den største læringen i barneårene. Spillet med kompisene, om du var 2,3,4,5, eller om du
+holdt på alene, det er jeg overbevist om var det som dannet grunnlaget for at du siden fikk en
+mulighet til å delta og oppleve spillet på det øverste plan. I Fotballtreneren nr.5, 2009 s. 18
+kommer Toppfotballsenteret inn på viktigheten av å trene mye på løkka. I artikkelen ”Trening
+og lek på løkka i utviklingen av profesjonelle fotballspillere ”. Her skriver de at de spillerne
+som ble best senere var de som hadde drevet med mye lekbasert trening på løkka som barn.
+De trente over dobbelt så mye enn gruppen som ikke lyktes.
+
+Svarene som kom inn i forbindelse med spørreundersøkelsen bekrefter også at den
+uorganiserte ”løkke/bingefotballen” har stor betydning for et godt sluttresultat. De fleste
+spillerne, og her var det ingen særlig forskjell på de to gruppene, fremholdt leken og læringen
+utenom de organiserte treningene, som avgjørende for at du ville lykkes som utøver.
+Majoriteten mente at denne formen form trening var vel så viktig som den organiserte
+treningen. Det som var en ”rød tråd” når det gjaldt den organiserte treningen, var at effekten
+av denne hadde sammenheng med kvaliteten på trenerne som var involvert rundt lagene.
+Svarene her sprikte i forhold til dette, og det understøtter kanskje utsagnet som Teddy Moen i
+Norsk Fotballtrenerforening, fremla i Stavanger Aftenblad 24.07 09: ”Vi må ha en plan og vi
+må ha virkemidlene. Vi trenger en ekstrem utvikling i utdannelsen av barnetrenere, og derfor
+trenger vi en utdannelse som er lik yrker i alle andre bransjer. Det er klart at det ikke holder
+med 16 timer. Sett utdannelsen på bachelor og masternivå, for dette er pedagogisk arbeid, og
+bør ikke stå tilbake for en vanlig lærerutdannelse. Barnetrenere trenger 3 års utdannelse”.
+
+Ideen er god, men spørsmålet er vel hvordan en skal klare å få til dette, i et land som er tuftet
+på dugnad, og den enorme innsatsen ivrige foreldre legger ned i barne- og ungdomsfotballen.
+Samtidig er statusen for å trene aldersbestemte lag fortsatt for liten. Kan vi endre dette,
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+32
+
+samtidig som vi blir flinkere til å prioritere barnefotballen med de økonomiske tilskudd som
+den trenger, så er mulighetene for dette til stede. Og det bør prioriteres. Dette er da også den
+klare tilbakemeldingen fra spørsmål 10 i undersøkelsen ”Hvor viktig tror du det er, at trenerne
+i barne- og ungdomsfotballen er godt ”skolerte”, og heller ikke her er det noen særlig forskjell
+på svarene fra de to gruppene.
+
+Spørsmålet som angikk foreldrenes oppfølging, ga meg et litt annet svar enn det jeg kanskje
+hadde trodd. I gruppen ”ikke lyktes”, var det bare en spiller som ikke hadde blitt fulgt noe
+særlig opp av foreldrene, og i gruppen ”lyktes” var det 2. De andre mente at de hadde blitt
+fulgt veldig godt opp, i svært mange tilfeller hadde (spesielt far) en av foreldrene, også vært
+med som trener/oppmann i mange år.
+
+Når det gjelder spørsmålet om deltakelse på krets og landslag, så ble tilbakemeldingene litt
+annerledes enn det jeg hadde trodd på forhånd. I gruppen ”ikke lyktes” var dette resultatene:
+14 stk hadde deltatt på kretslag, av disse hadde 2 deltatt på alderbestemt landslag. 3 stk hadde
+aldri vært innom krets eller landslag.
+I gruppen ” lyktes” var tallene slik:
+13 stk hadde deltatt på kretslag, av disse hadde 11 deltatt på aldersbestemte landslag. 6 stk
+hadde aldri vært innom krets eller landslag.
+Det er altså ikke alltid en sammenheng mellom et talent i ung alder, og det som skjer i voksen
+alder. Her kan det selvsagt være tilfeldigheter som avgjør om den enkelte spiller kommer med
+på de forskjellige lagene, men jeg tror allikevel det viser betydningen av å involvere flest
+mulig, lengst mulig.
+5.5.4
+
+Tidspunkt, kriterier, flere talenter, hvorfor lyktes du/mislyktes du? Spørsmål nr
+:
+
+13. Tror du det er viktig for unge talenters utvikling, å komme til en toppklubb så tidlig
+som mulig? Begrunn svaret.
+14. Hva er, etter din mening, de viktigste kriteriene for at et ”talent” skal utvikle seg til å
+bli en god fotballspiller?
+15. Hvordan skal vi klare å utvikle enda flere talenter fra ”lokalfotballen”, til
+elitedivisjonsspillere?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+33
+
+16. Hvorfor ble du god? (Til spillerne i kategorien ”lyktes”)
+17. Hvorfor klarte du ikke å etablere deg som spiller i elitedivisjonen? (Til spillerne i
+kategorien ”lyktes ikke).
+
+Jeg velger å referere til disse spørsmålene under ett, da jeg mener at disse berører litt av de
+samme tingene, i en større diskusjon.
+
+Med utgangspunkt i min egen vurdering som ung spiller, så var jeg litt spent på
+tilbakemeldingene jeg fikk på mitt spørsmål om ”det var viktig for unge talenters utvikling, å
+komme til en toppklubb så tidlig som mulig.” Ser vi på begge gruppene spillere som ble
+forelagt spørsmålene, så svarte over 50% at det ikke var viktig å komme til en toppklubb så
+tidlig som mulig. Bare 1 spiller i ”lyktes ikke” gruppen svarte at det var viktig, mens 5 spillere
+i ”lyktes” gruppen mente at dette var viktig. De øvrige hadde ikke noen bestemt mening om
+dette.
+Det som ble fremhevet som det viktigste, var hvilken oppfølging og hvilken plan det ble lagt
+for det unge fotballtalentet i moderklubben. Dette sammen med kameratskapet og den sosiale
+tryggheten i moderklubben, ble ansett som viktigere, enn det å gå til en mer usikker plattform
+i en større klubb. Spørsmålet var vanskelig for mange å besvare, i og med at det er veldig
+individuelt betinget, det finnes ingen fasitløsning på denne problemstillingen. Allikevel er det
+litt betegnende at så mange svarer nei, og at nei svarene er likevektig fordelt på de to
+gruppene.
+Med hensyn til spørsmålet om hva som er de viktigste kriteriene for at ”talent” skal utvikle
+seg, så kom det veldig mange ulike svar. Jeg gjengir noen av de mest sentrale
+tilbakemeldingene fra de to gruppene:
+”Ikke lyktes”: Gode holdninger, trene mye, spille på et nivå over sitt eget, tillit og trygghet,
+indre motivasjon, ydmykhet, vilje til å lære, god psyke, god oppfølging fra kompetente
+trenere, mulighet for differensiert trening, sette mål.
+”Lyktes” : Å bli satset på, tålmodighet, struktur i livet, mental styrke, spille opp på nivå, gode
+holdninger, gode trenere, veiledning på utenomsportslige ting (kosthold, livsførsel
+etc),treningsvilje, den indre gløden om å bli best, idrettsglede, tillit og trivsel,
+modenhet/personlighet avgjørende, stahet/vinnervilje, mye trening.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+34
+
+Som vi ser så er det mange av de samme momentene som går igjen i de to gruppenes
+tilbakemeldinger, det er heller ikke noen stor overraskelse. Det som jo blir vanskelig å finne
+ut av er hvorfor noen av disse spillerne lykkes, mens andre, som jobber med det samme
+utgangspunktet, mislykkes. Er det den indre gløden?
+
+Jeg hadde håpet at jeg skulle få løsningen på spørsmålet hele fotball Norge ønsker å få svar
+på, i mine siste 2 spørsmål. Jeg fikk mange, men ikke fasiten.
+”Hvordan skal vi klare å utvikle enda flere talenter fra ”lokalfotballen” til
+elitedivisjonsspillere?” Løsningene var mange på også dette spørsmålet, og jeg presenterer de
+svarene som gikk mest igjen.
+”Lyktes ikke” : Utdanning av trenere, synlighet i lokalklubbene, oppfølging av talenter,
+timing på inntreden i Viking, tørre å gi unge spillere sjansen/ikke la dem ende som stallfyll,
+talentsamlinger, toppklubb må samarbeide mer og tettere med lokale klubber, toppklubb må
+spre av sin kompetanse, la spillere bli lenger i sin klubb mens de får hospitere i toppklubb,
+flere FFO’er, flere fotballinjer på ungdomsskolenivå, bedre anlegg, mer trening/mindre
+kamper.
+”Lyktes”: Skolere trenere, jobbe tett med klubbene i regionen, ikke ”å sy puter under
+armene” på talentene, miks mellom seriøsitet og spillerglede, identifisere de med riktig
+mentalitet og holdning til å legge ned det arbeidet som kreves, bruke ressurser i mindre
+klubber og la spilleren utvikle seg der, la spilleren være i et miljø han trives, utvikle
+treningskultur, tålmodighet i utviklingen av spiller, lage treningsprogrammer, trenere og
+spillere fra toppklubbene må ut i distriktene, trenere i de mindre klubbene må få tilbud om
+utdanning, la unge spillere få mulighet til å feile, ”faddere” fra toppklubb til talenter i mindre
+klubber, dyrke sulten, gradvis progresjon.
+
+I Viking så er jo dette spørsmålet av essensiell betydning, med hensyn til arbeidet vi gjør både
+eksternt og internt. Som en ser så går mange av de samme svarene igjen, når spillerne fra
+begge gruppene prøver å finne løsninger for hvordan arbeidet best bør gjøres. Det er positivt å
+se at Viking, med den måten vi nå er organisert på, prøver å dekke mange av disse
+problemstillingene som spillerne her berører. Vi har stor tro på at den modellen vi nå
+gjennomfører, på sikt vil føre til at vi i fremtiden vil klare å utvikle flere lokale talenter, ikke
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+35
+
+bare til tippeligaspill, den vil samtidig være med på å høyne nivået blant svært mange Adecco
+og 2 divisjonsspillere. Vi har en god dialog med Rogaland Fotballkrets og NFF. Disse er
+viktige bidragsytere for å få en best mulig modell.
+
+Når det gjelder svarene på det siste spørsmålet, så er disse sterkt knyttet opp til de svarene
+som kom på de foregående spørsmålene. Det kom inn en mengde forskjellige svar, men det
+var en større variasjon i svarene nfra den gruppen som ”ikke lyktes”, enn det var i den andre
+gruppen. Allikevel var det et par momenter som gikk igjen i begge gruppene, som kanskje kan
+forklare litt av årsaken til den forskjellige karriereutviklingen.
+
+”Vilje til å trene mye”........... Dette var et av de momentene som nesten samtlige av spillerne
+i den beste kategorien nevnte, som et av de viktigste punktene for deres suksess. Mye trening
+over lang tid, ble fremevet. I den andre gruppen var det flere av spillerne som mente at de
+gikk lei av all treningen, og at det var andre faktorer i deres hverdagsliv som mer og mer tok
+over. Noe av denne manglende viljen kan sikkert utledes fra et av de andre momentene som
+dukket opp, nemlig ”mangel på tillit, mistet lysten”. I gruppen som ”ikke lyktes” var det
+dette svaret som ble nevnt flest ganger i besvarelsen. For veldig mange av spillerne så var
+mangel på tillit og oppfølging fra apparatet rundt A laget i Viking, den viktigste grunnen til at
+de ikke lyktes. Andre årsaker som gikk igjen i flere av svarene var:
+”Ønsket å prioritere utdannelse/jobb”.
+”Var ikke mentalt sterk nok”.
+”Oppdaget at jeg ikke var god nok”.
+”Manglet tålmodighet/ydmykhet”.
+I gruppen ”lyktes” så dukket mange av de samme momentene opp, med motsatt fortegn:
+”Forsaket det meste for å bli god”.
+”Mentalt sterk”.
+”Ville alltid være best/hatet å tape”.
+”Hadde tålmodighet/ydmykhet”.
+
+I tillegg så var det flere av spillerne som hadde noen interessante synspunkter på hvorfor de
+lykkes:
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+36
+
+”Flaks..............var heldig å få spilletid i riktig øyeblikk”. Dette er et ganske spennende
+synspunkt, og noen ganger kan det vel sikkert være så enkelt, at timingen er perfekt. Det at du
+er i rett klubb, til rett tid, og at de kvalitetene du besitter blir verdsatt litt annerledes fra trener
+til trener, og at du tar vare på sjansen når den dukker opp, kan ofte være nok. Det som
+allikevel var det mest spennende for meg, det var tilbakemeldingen som kom fra nesten 50 %
+av spillerne i denne kategorien:
+”Gode trenere/godt treningsmiljø på alle nivåer”, var altså en av årsakene til suksess, blant
+neste halvparten av spillerne. Det er ganske interessant, og det forsterker nok bare det fokuset
+som er satt på å utvikle flere og bedre trenere, spesielt i barne og ungdomsfotballen. Det å få
+høynet statusen på det å være trener i de yngre årsklassene, tror jeg vil være av essensiell
+betydning for å dyrket frem flere og bedre fotballspillere. Svarene i denne undersøkelsen
+skulle bare forsterke akkurat denne teorien.
+
+Bilde: Brede Hangeland, ”ville bli best”.
+
+6.0 Intervju
+6.1
+
+Bakgrunn for intervju.
+
+I forbindelse med oppgaven, så ønsket jeg å intervjue trenere/ledere i fotballmiljøet, både fra
+breddeklubb og fra toppklubb. Samtidig ønsket jeg å høre hvilke synspunkter representanter
+fra fotballkrets og forbund hadde i forbindelse med problemstillingen. Jeg ønsket å se om det
+var samsvar mellom svarene fra spillergrupperingene og lederne, eller om det var store
+forskjeller mellom grupperingene. Inervjuobjektene ble forelagt følgende spørsmål:
+Hvilke kriterier må være på plass for at en overgang skal finne sted (fra bredde til toppklubb)?
+Hvordan kan toppklubbene bli enda bedre i sitt arbeid ut mot breddeklubbene?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+37
+
+6.2
+
+Intervju med Leif Knutsen, Sandnes Ulf.
+
+Trenerbakgrunn: Trener II. Trent aldersbestemte lag i mange år. Trent Sunde I. L. A lag.
+Involvert som kretstrener i Rogaland Fotballkrets i 4 år. Er med i teamet rundt Team
+Rogaland, et prosjekt for de beste, unge spillerne i Rogaland.
+
+Etter min mening så bør unge, talentfulle spillere, gå til en toppklubb så tidlig som mulig, vel
+å merke dersom spilleren har de rette holdningene. Jeg blir mange ganger litt oppgitt over
+holdningene i mange breddeklubber, som ønsker å holde på spillerne for enhver pris, selv om
+de vet at det sportslige tilbudet i deres egen klubb ikke holder mål. Det aller viktigste må være
+at spilleren skal stå i sentrum, og at spillerens utvikling er det viktigste. Topp og breddeklubb
+må sammen finne en utviklingsarena for spilleren, dersom spilleren skal forbli i
+breddeklubben.
+
+Synlighet ute i distriktene er en forutsetning. Toppklubbene må ut og bidra med den
+kompetansen den besitter. Må være med på å tilrettelegge forholdene i breddeklubbene, slik at
+de unge spillerne får et tilbud som kan gi dem en god sportslig utvikling. Tror det er viktig at
+toppklubbene blir enda mer bevisste på å følge talentfulle spillere over et lengre tidsrom, når
+spilleren velger å bli i breddeklubben. Utviklingen varierer fra spiller til spiller.
+
+6.3
+
+Intervju med Espen Terland, Nærbø IL
+
+Trenerbakgrunn: A lags trener Nærbø I. L. Trener i alle aldersbestemte klasser i samme klubb.
+Vært involvert rundt kretslag i Rogaland i 2 år. Sittet i spillerutviklingskomiteen i Rogaland
+Fotballkrets. Sportslig leder for aldersbestemte lag, Nærbø I. L. Styremedlem i Nærbø i
+mange sesonger.
+
+Det må være et apparat som rundt spilleren som fungerer. Det må være inkluderende, viktig at
+toppklubbene har et solid støtteapparat, der ikke minst spillerens sosiale liv blir fulgt opp. Jeg
+mener at Viking, som må regnes som toppklubben i vår region, nå begynner å nærme seg en
+struktur som gjør at spillerne som kommer til klubben blir fulgt opp på en svært god måte.
+Tenker i første rekke på dette med skole, vertskapsfamilier, livsførsel etc. Viktig at spiller,
+sammen med klubbene setter opp mål, og kjøreregler for hvordan man skal nå disse målene.
+Alle parter må tåle tilbakeslag og motgang, i den forbindelse er det viktig at dialogen er åpen
+og ærlig. Gi tilbakemeldinger på ting som kan endres eller gjøres bedre.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+38
+
+La toppklubbene arrangere ”speedkurs”. Med det mener jeg at toppklubbene skal bidra 2-3
+ganger i året, med den ekspertisen de rår over. La for eksempel Nærbø invitere de
+nærliggende klubbene, til 2-3 årlige samlinger, der vi avholder kveldskurs, med få men
+viktige tema. Tror toppklubbene i enda større grad kan bruke spillerne i A troppen som
+ambassadører ut mot breddeklubbene, f.eks. i forbindelse med slike kurs. Ønsker ikke å si noe
+negativt om kursene som avholdes av fotballkretsen, men for mange så blir de litt
+”langdryge”, det er rett og slett ikke alle som kan ta seg tid til å delta på disse kursene. Fasen
+når en går over til 11’er fotball er spesielt viktig, da er det mange som føler at de mangler de
+kunnskaper som er nødvendige for å videreutvikle spillerne. Det er viktig at toppklubbene
+følger opp det som blir sagt, i møter med breddeklubbene, noe jeg føler at f.eks Viking er blitt
+mye bedre på de siste årene.
+
+6.3
+
+Intervju med Jørn Brekke, Vardeneset BK
+
+Trenerbakgrunn: Trener aldersbestemte lag i Hinna og Vardeneset BK. Styreverv i
+Vardeneset. Er nå daglig leder i klubben.
+
+Vardeneset er en ”stor” klubb, med 55-60 lag i aldersbestemte klasser, et A lag som er i
+toppen i 3. divisjon, samt fasiliteter som etter hvert begynner å bli meget bra. Håper at vårt A
+lag skal kunne ta steget opp en divisjon i løpet av noen år. I den forbindelse mener jeg at det
+ikke er nødvendig for spillerne å gå til en toppklubb for tidlig, vel og merke dersom ting blir
+tilrettelagt på en slik måte at den sportslige utviklingen blir tatt vare på i den klubben de er.
+Dersom toppklubbene kan ha en god dialog med breddeklubbene, så mener jeg at mange kan
+utvikle seg vel så bra i sin moderklubb. Tror det er viktig å drive informasjonsarbeid m.h.t.
+”ivrige” foreldre, som mange ganger har andre oppfatninger enn det både den håpefulle 13
+åringen og de involverte klubbene har. Viktig å kartlegge spillernes modenhet før et
+klubbskifte evt. blir en realitet.
+En annen ting som kanskje også bør settes under lupen, er den økonomiske delen i forbindelse
+med klubbskifte for unge spillere. Spilleren skal gjøre det ekstremt godt, for at moderklubben
+vil oppleve at en skikkelig økonomisk kompensasjon vil bli en realitet.
+Kommunikasjon i alle faser er ekstremt viktig. Hvordan kan topp og breddeklubb sammen
+bidra til at spillerens utviklingskurve tar den forventede retning? Her må vi i fellesskap bli
+enda bedre. Hvilket mål setter en seg? Mange ganger må en tenke litt mer langsiktig, for å få
+det optimale sluttresultatet som alle ønsker. I tillegg så tror jeg det er viktig, at toppklubbene
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+39
+
+blir flinkere til å gi enda mer honnør til breddeklubbene, som de er helt avhengig av for å få
+frem de spillerne som de ønsker. Det blir satt større pris på enn en kanskje er klar over.
+
+Jeg tror også det er svært viktig at toppklubbene bruker så mye ressurser som mulig, på spiller
+og lederutvikling i breddeklubbene. Jo mer toppklubbene kan være ”ute på treningsfeltet” hos
+breddeklubbene, jo bedre. Dette gjelder egentlig på alle alderstrinn. Dersom toppklubbene blir
+enda flinkere til å formidle den kunnskap og ekspertise som de rår over, ut mot
+breddeklubbene, så vil dette gavne alle .
+
+6.4
+
+Intervju med Owe Salvesen, Egersund IK
+
+Trenerbakgrunn: Trener II. Trent lag i alle års klasser til og med A lag, både gutter og jenter, i
+EIK. Krets/sonetrener i Rogaland Fotballkrets i 3 perioder. Sitter i spillerutviklingskomiteen i
+RFK, ansvar sone sør. Leder av sportslig utvalg, spillerutvikler i EIK. Ansvarlig for Team
+Dalane.
+
+Jeg tror det viktigste må være at en sammen finner den optimale trenings og kamparenaen for
+den aktuelle spilleren. En må legge forholdene til rette for spilleren, slik at denne får et
+optimalt tilbud med tanke på dette. Et godt eksempel på dette er Valon Berisha, som kommer
+fra EIK. I dette tilfellet la EIK og Viking i felleskap opp en plan, for hvordan en så for seg at
+guttens hverdag skulle se ut, selvsagt i samarbeid med gutten og hans foreldre. Så lenge en
+kommuniserer om disse tingene, så er egentlig ikke alder, eller når skal et klubbskifte finne
+sted, det viktigste. Spilleren er i sentrum. I en slik evaluering, er det også viktig å vite litt mer
+om personen.
+
+Toppklubbene må ha et system som fanger opp ”mennesket”, ikke bare fotballspilleren.
+Hvilken personlighet har vi med å gjøre? Hvor moden er han egentlig? Hvilken bakgrunn har
+han? Her har toppklubbene et stort ansvar. Kan være lurt at spilleren blir gradvis ”integrert” i
+den nye klubben, f.eks ved å hospitere i perioder. La trygghetsfølelsen få et innpass før en
+plutselig bare blir kastet inn i et helt annerledes miljø. Vertskapsfamilier, trygge boforhold,
+oppfølging m.h.t. kosthold/livsførsel etc er en selvfølge.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+40
+
+Det snakkes mye om spillerutvikling og talentutvikling, jeg tror det er vel så viktig å prioritere
+trener og lederutvikling. Her kan toppklubbene bidra med mye. Skal vi komme videre, så er
+det viktig for breddeklubbene å få mange og dedikerte trenere og ledere involvert i klubbene.
+
+For en klubb som EIK, så er det viktig at flest mulig får en form for eierforhold til klubben. Vi
+er helt avhengige av den innsatsen som alle frivillige kan bidra med. Ved å utvikle den
+plattformen disse bidragsyterne står på, så står de enda tryggere. Her kan toppklubbene bli
+enda flinkere til å formidle og dele den kunnskapen de sitter inne med. Jo mer jo bedre, og la
+det være åpenhet rundt hvorfor en gjør dette.
+
+6.5
+
+Intervju med Roar Wold, spillerutvikler NFF/Rogaland Fotballkrets
+
+Trenerbakgrunn: Trener III. Trent Klepp damelag i 2 sesonger. EIK herrelag i 3 sesonger.
+Spillerutvikler i NFF i 5 år. Landslagstrener på ulike alderstrinn i 5 sesonger. Instruktør trener
+II (UEFA B lisens) NFF. Veileder trener III (UEFA A lisens) NFF.
+
+Det finnes mange eksempler på både ”gode” og ”dårlige” overganger. Det som er viktig å
+være klar over, er at en jobber med svært ulike individer. Noen er mer eller mindre
+selvgående, mens andre krever en helt annen oppfølging fra dag 1. Dette gjelder ting som
+skolegang, kosthold, søvn, sosial modenhet. For unge spillere som kommer til en toppklubb,
+så blir ofte hverdagen snudd helt på hodet, og i den forbindelse er det viktig at toppklubbene
+har et apparat som kan fange opp de endringene som skjer. Toppklubbene må optimalisere
+måten en jobber med disse tingene på, slik at en er best mulig rustet til å fange opp de
+problemene som vil dukke opp.
+
+Den individuelle oppfølgingen på det sportslige plan blir også viktig. At det blir lagt planer
+for egentrening, og ikke minst at spilleren selv blir lært opp til å ta ansvar for dette, til å bli en
+selvstendig, hel idrettsutøver.
+
+Toppklubbene skal mer ut i distriktene. Man må ufarliggjøre dette med at toppklubbene skal
+hente spillere. Budskapet som omhandler utvikling av spillere i det miljøet de befinner seg,
+må selges inn på en mye bedre og klarere måte. I den forbindelse er det også viktig at
+toppklubbene følger dette opp over tid, at det ikke bare blir en ”happening” en gang det
+passer. Trenerutvikling tror jeg på mange måter vil være vel så viktig som spillerutvikling.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+41
+
+Dersom man klarer å samle klubbene i de ulike regionene, f.eks hver 3 måned, og avholde
+ulike kurs, så tror jeg dette vil få en svært positiv virkning på sikt.
+
+Tror også det er viktig at en må prøve å få til et samarbeid og dialog som går på dette med å
+individualisere treningen for de spillerne en identifiserer som mulige, fremtidige toppspillere.
+Mange av disse spillerne trener ”for mye lag”, og for lite individuelt. Jeg tror det kan være lurt
+å få til ordninger som kan følge opp dette på en bedre måte, evt i forbindelse med
+hospiteringsordninger. Kommunikasjon er i så måte viktig, skepsis må ryddes av veien, og
+spilleren må i fokus.
+
+6.6
+
+Intervju med Bjarne Berntsen
+
+Trenerbakgrunn: 659 A kamper Figgjo I.L. 259 A kamper Viking. 33 A landskamper. Pro
+Lisens Trener. Høyeste lederutdanning i NFF. Trener A i Viking, Bryne og damelandslaget.
+Mange tillitsverv i Figgjo. Styremedlem i Norsk Toppfotball. Medlem av topptrenerkomiteen
+og toppfotballkomiteen.
+
+Jeg tror det er veldig viktig at spilleren får forståelse av den hverdagen han vil møte i
+toppklubb. Derfor er det viktig at spilleren får treningsutfordringer som er tøffe nok i den
+klubben han befinner seg. Overgangen til toppklubb blir i mange tilfeller svært tøff for
+mange, og derfor er det viktig at de involverte partene legger en plan for hvordan den
+overgangen kan mestres på en best mulig måte. Spilleren må bli gjort kjent med hvilke krav
+som blir satt, og hvilke forventninger som stilles ved et klubbskifte. For veldig mange kan
+denne overgangen bli i tøffeste laget, og derfor er det viktig at det tidlig blir lagt en
+individuell treningsplan for spilleren, slik at overgangen til flere og hardere treningsøkter blir
+så lett som det lar seg gjøre.
+
+I tillegg til dette, så er det viktig at kamptilbudet for denne spilleren blir så optimalt som
+mulig. Alt for ofte havner unge spillere på klubbens juniorlag, noe som på langt nok er bra
+nok for den sportslige utviklingen. I mange tilfeller har da spilleren hatt et bedre kamptilbud i
+den klubben han forlot, kanskje som en av støttespillerne på klubbens 3 divisjons lag. RBK
+modellen med lag i 2 og 3 divisjon er i så måte en, etter min mening, god mal å følge for
+andre norske toppklubber.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+42
+
+Det er to ting jeg føler kan forsterkes i dette arbeidet. Det ene er at toppklubbene må enda mer
+ut i breddeklubbene, med engasjerte og kompetente trenere som brenner for det å utvikle både
+spillere, og ikke minst trenere i breddeklubbene. Man må skolere trenerne i breddeklubbene
+med alle de midler en har til rådighet. I tillegg så må det arrangeres enda flere talentsamlinger
+ut i regionene, på en jevnlig basis. Dette må ikke bli oppfattet som ”uttaksturneringer”, men
+rett og slett som en ekstra kvalitetstrening for unge, talentfulle fotballspillere. Her vil de få
+muligheten til å trene med spillere på sitt eget nivå, trent av engasjerte og faglig dyktige
+trenere. Det som er viktig, er at det er åpenhet rundt slike tiltak, slik at en unngår all den
+mistroen som ofte følger med slike tiltak. Mengden av slike tiltak bør økes.¨
+
+6.7
+
+Intervju med Kjell Inge Olsen, Viking
+
+Trenerbakgrunn: Trener III. Utviklingssjef i Viking Fotballklubb. Trener Viking A lag 03/04
+sesongen. Trener Vidar A lag i 5 sesonger. Trener aldersbestemte lag i Viking og Vidar. Sitter
+i spillerutviklingskomiteen i Norges Fotballforbund. Forskjellige styreverv i Vidar.
+Det viktigste er at det blir foretatt en grundig sportslig vurdering. At klubben følger spillerne
+over tid, gjerne i et hospiteringsopplegg somm fungerer, slik at en til enhver tid er oppdatert
+på spillerens utvikling, og om det må gjøres endringer i den planen som er skissert opp.
+Denne planen må være gjennomtenkt og forankret sammen med spiller, familie og involverte
+klubber. Om den planen er god, så hjelper ikke det så mye dersom de impliserte partene ikke
+forstår hva den innebærer. Derfor er det viktig at alle virkelig forstår innholdet i
+fremdriftsplanen, herunder livsstil,skolegang etc.
+2.
+
+Toppklubbene må finne en modell der en blir involvert inn mot breddeklubbene. Man
+
+må innlede samarbeid, der hovedmålet må være å øke kompetansen i breddeklubben, på alle
+plan. Dette gjør det mulig for toppklubbene å tidlig identifisere de talentene som finnes i
+regionen, samtidig som det på sikt vil føre til at nivået på spillerne i breddeklubbene vil
+høynes. Samtidig så tror jeg det er av stor betydning at man klarer å lage rettferdige og
+forståelige ordninger m.h.t økonomisk kompensasjon, slik at moderklubbene får sin
+rettmessige del ved eventuelle overganger senere. Det bør samtidig lages avtaler som sikrer
+moderklubben kompensasjon dersom spilleren når ulike milepæler i klubben han har gått til.
+Dette gjelder selvsagt for de som lykkes, og som ikke har kontrakt i den klubben han kommer
+fra. Vikings egen kompensasjonsmodell kan i så måte være et godt utgangspunkt for hvordan
+en slik avtale kan se ut.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+43
+
+6.8
+
+Resultat av intervju­ undersøkelsen
+
+Etter å ha gått gjennom de ulike intervjuene, så finner jeg mange fellestrekk i
+tilbakemeldingene uansett hvilket nivå de ulike intervjuobjektene befinner seg på i
+fotballfamilien. På spørsmål 2 er det en nesten unison enighet om at toppklubbene må bli enda
+mer synlige ute i distriktene, og by på den fagkunnskap og erfaring som de besitter. Det å
+utvikle trenerkreftene i lokalklubbene blir tillagt like stor, om ikke større betydning, enn det å
+utvikle de unge talentfulle fotballspillerne. Viktigheten av å følge spillerne over tid blir også
+fremhevet som et område, der toppklubbene kan forsterke innsatsen. Kommunikasjon,
+ærlighet og åpenhet i det arbeidet toppklubbene gjør er av stor betydning for at arbeidet skal
+lykkes.
+
+I forbindelse med spørsmål 1 så varierer svarene litt mer, men det å finne en utviklingsarena
+som passer det enkelte individ, både sportslig og sosialt, går igjen som et av hovedmomentene
+toppklubbene må fokusere på. Overgangen fra breddeklubb til toppklubb vil for de aller fleste
+medføre store endringer, og det vil derfor være av stor betydning at det blir gjort et godt
+forarbeid over tid, som gjør spillerne skikket til å møte den nye hverdagen, ofte borte fra
+trygge og vante omgivelser.
+
+Bilde: Kjell Inge Olsen sammen med Valon og Veton Berisha.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+44
+
+7.0 Diskusjon
+7.1
+
+Sammenfatning av informasjon av undersøkelser og intervju
+
+Gjennom spørreskjema til to differensierte spillergrupper, samt intervju med fotballtrenere og
+ledere, så har jeg prøvd å belyse problematikken rundt talent/spillerutvikling i den regionen
+jeg selv har mitt virke i. Jeg har prøvd, gjennom de spørsmålene jeg har lagt fram, å få svar
+som kan gjøre meg istand til om mulig å finne noen ”kjøreregler” for hvordan en best mulig
+kan planlegge og gjennomføre arbeidet med å utvikle talentfulle spillere i egen region. Jeg vil
+komme tilbake til dette i konklusjonen på oppgaven. Jeg er samtidig klar over at regionen jeg
+har hentet informasjon ut fra er liten, og Norge (selv om vi alltid liker å være best) er på
+mange områder en liten nasjon. Hva gjøres i de ”store” fotballnasjonene?
+
+7.2
+
+Spania Europamester G­17, G­19 og A landslag herrer i 2008
+
+Når en ønsker å sammenligne oss med de beste, så er det vel egentlig naturlig å se på Spania
+som et av de landene som vi kan lære noe av. I den forbindelse så ønsker jeg å komme med
+noen innspill, hentet fra NFF’s rapport ”UEFA study group” v. Jan Roar Saltvik. I rapporten
+står det bl.a.: ” ......viktig at flest mulig har direkte kunnskap om hvordan de beste nasjonene
+tenker og handler i sin ”best practise”. Ikke nødvendigvis for å benytte de samme
+virkemidlene som en folkerik nasjon kan benytte seg av i sitt arbeid for å utvikle gode spillere
+og lag, men for å finne god og naturlig overføringskunnskap.” Studieobjekter på denne turen
+var Real Madrid, Barcelona, Espanyol Barcelona, Atletico Madrid og det spanske
+fotballforbundet - aldersbestemte landslag. I rapporten skriver Saltvik:
+”Kamptilbudet og arenaene er i stor grad ”designet” for å sikre utvikling av gode lag og
+spillere. Dette bidrar å sikre at spillerne i stor grad kan få spille kamper mot jevnaldrende
+spillere på et høyt nivå”.
+
+I dette utsagnet finner vi allerede litt av det som til stadighet dukker opp i vår nasjonale
+debatt. Dersom vi skal ta noen skritt videre i denne sammenhengen, så tror jeg det er viktig at
+vi snart lærer oss forskjellen på ”differensiering” og ”topping”, og at det etter hvert blir aksept
+for at de mest dedikerte spillerne må få en mulighet til å utvikle seg sammen, ikke
+nødvendigvis på hver eneste treningsøkt, men at det blir laget et opplegg for disse som er med
+på å utvikle spilleren. I forbindelse med dette, så er følgende sitat fra rapporten ganske
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+45
+
+interessant: ” Laget” og ”Spillerne” er klubbens ”Produkt”- ikke trenerens.” Jeg føler at vi har
+mye å ta tak i, når det gjelder akkurat dette. Alt for ofte ser jeg at den enkelte treners
+ambisjoner for eget lag, ikke samsvarer med de mål klubben har for sin spillerutvikling (i de
+klubbene som da har slike mål). I kraft av den måten som trenerrekruttering skjer i de nevnte
+klubbene, så sikrer man seg trenere med ”tunge” CV’er, ofte tidligere toppspillere. Det som i
+tillegg er interessant er at planlegging og innhold på treningene bestemmes av sportslig
+ansvarlige i klubben/forbundet, ikke trenere. ”Funnet om at klubben/forbundet styrer så
+detaljert og tydelig den sportslige ativiteten var noe overraskende og kan i en del henseende
+betraktes som en motsetning til hvordan norske klubber styres og utvikles, både i bredde og
+toppfotballen”.
+
+En annen ting som også skiller seg vesentlig ut fra hvordan vi driver i Norge, og nå snakker
+jeg ut fra de erfaringer jeg har selv, er hvordan vi organiserer vår utviklingspyramide. Mens
+de fleste norske klubber har en mengde lag og spillere i de yngste årsklassene, så organiserer
+de det motsatt i disse klubbene. ”Klubbene har en klar erkjennelse av at de bør ha mange å
+velge blant i sistefasen i utviklingen, dvs. fra talent (17-19 år) til etablert toppspiller. De har
+desto færre lag og spillere i bunn av utviklingspyramiden.” Det siste utsagnet har en klar
+sammenheng med hvordan seleksjonen foregår. ”På yngste aldersnivå, 8-9 år, har Real
+Madrid kun et lag bestående av 16 spillere. Disse velges etter en seleksjon hvor spillerne
+melder seg på en ”audition” på klubbens hjemmeside.” Kunne vi gjort dette i Norge? Kunne
+Viking som toppklubb tatt initiativet til en slik ”audition”? Hva ville NFF sagt? Hva ville alle
+samfunnsvitere og barnepsykologer sagt? Jeg tviler, når jeg ser på den vedvarende debatten
+som pågår i Norge mht. barneidrett.
+
+Et annet moment som dukket opp i denne rapporten, som skiller seg overraskende mye ut fra
+de tanker som Norsk Toppfotball Senter har, er når det gjelder treningsmengde. ”Videre er det
+noe uklart hva angår treningsmengde. Lagene i 14/15/16 årsalderen trener ikke mer enn 3-4
+ganger pr uke, i tillegg til fast kampdag på lørdag. Dette er ikke nok mengde etter vårt syn
+ifht. utvikling av så gode spillere. Her ligger det noen ”mørketall” som gruppen dessverre
+ikke fikk tilgang underveis”. Som det blir sagt her, så samsvarer ikke disse tallene med de
+normene som er satt fra NTS. Hvis tallene stemmer, noe som det blir sådd en viss tvil om,
+hvordan blir da disse ungdommene så flinke fotballspillere? Skjer den store utviklingen først
+fra 17 års alderen og oppover? Er grunnlaget som blir lagt opp til 16 års alderen nok til at de
+få ”diamantene” vil bli skikkelig formet i årene som følger?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+46
+
+Legger vi i Norge for stor vekt på talent og spillerutvikling i de yngste årsklassene, for så å
+glemme de viktige årene som følger? Eller har det sammenheng med disse utsagnene som jeg
+fant på siden www.youthsoccerfun.com 20. mai 2009
+Johan Cruyff sier: ”All coaches talk too much about running a lot. I say it‘s not
+necessary to run so much. Soccer is a game that‘s played with the brain. You need to be
+in the right place at the right time, not too early, not too late.”
+
+I den samme artikkelen uttaler Pep Guardiola, som selv har gått gradene gjennom Barcelonas
+ungdomsprogram, følgende: ” Our aim is to help young players understand the game. Of
+course, there is the emphasis on the tecnical, where it all starts. But we want the players
+to learn how to think fast. We want them to learn how to run little, but to run smart.”
+
+Enig eller uenig, det er uansett to “store” navn i europeisk fotball som uttaler seg. Dette er
+også ganske interessant ifht. ”spillerutvikleren i klubb”, som de seneste årene har vært en
+relativt ”løs” rolle i mange norske toppklubber. Er det mulig at mange av våre unge talenter
+trener for mye ”lag” og for lite individuelt når de tar steget inn i en toppklubb? Jeg tror vi har
+mye å hente i så henseende, med bakgrunn av det jeg har sett i egen klubb, og de erfaringer
+jeg har fått gjennom et langt fotballiv. Derfor vektlegger vi rolletrening blant elitelagene i
+Viking.
+
+7.3
+
+Nederland ­ en fotballstormakt.
+
+”Slakter norsk talentsatsing”. Denne overskriften kunne en lese over to sider i Aftenposten,
+22 juni i år. Uttalelsen kommer fra trener og teknisk direktør ved Ajax akademiet, Patrick
+Ladru. Han mener at ”Rosenborg og andre norske toppklubber må hente inn 8 og 9 åringer
+dersom Norge igjen skal heve seg internasjonalt”. Ajax akademiet har opp gjennom tidene
+fostret opp spillere som Johan Cruyff, Marco van Basten, Patrick Kluivert, Dennis Bergkamp,
+Frank Rijkaard og mange, mange andre, som har satt sitt preg på internasjonal fotball.
+
+Ungdomslagene i Ajax blir trent på eksakt samme måte som A-laget, der spillerne drilles i en
+4-3-3 formasjon. De utvikler spillere fra de er 8 år gamle, og Akademiet tar kun inn spillere
+etter lang tids speiding. Ladru sier videre: ” Jeg synes det er veldig rart at de starter så sent
+som ved 13 års alderen i Rosenborg, i Ajax starter vi når spilleren er 8. De må ta ansvar for
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+47
+
+ungdommene i klubber som Rosenborg, og jeg mener at barna lærer mer fra de er åtte til tolv,
+enn fra 13-17. Det er da de lærer basisferdighetene.”
+
+I samme artikkel repliserer Tore Grønning, Utviklingsleder i Rosenborg, på Ladru’s uttalelser.
+Grønning mener Norges Idrettsforbund må se på de eksisterende reglene. Rosenborg skulle
+gjerne gitt et tilbud til de yngre spillerne, slik Ajax treneren mener de må, men finner det
+vanskelig: ” I RBK bør det ikke være feil å gi et tilbud til dem som ønsker det. Jeg er tilhenger
+av ordene hospitering og differensiering.” I Barneidrettsbestemmelsene (6-12 år) heter det
+blant annet at ingen skal velges foran andre. Nå ser trenden i stedet ut til å bli
+påmeldingsskoler som koster penger. Grønning tror reglene må vurderes på nytt. ” NFF bør
+ha et program for dette. Sånn det er nå går pengene til de kommersielle aktørene som
+arrangerer dette, og det er en utfordring i norsk fotball.
+
+I Nederland har de ikke den samme kulturelle problemstillingen som vi føler vi har her,” sier
+Grønning. Jeg tror Tore Grønning har et godt poeng her. Den norske kulturen, folkesjela, har
+mange ganger problemer med å akseptere at noen skal ha lov til å være bedre enn andre.
+I Fotballtreneren nr. 1- 2008 (Ivar Thoresen) uttaler Hans Boersma, ansvarlig for
+trenerutdanningen i det nederlandske fotballforbundet, at talentene allerede plukkes som 5
+åringer. Jeg ser for meg hvilket rabalder det hadde skapt i Norge. Uorganisert aktivitet på
+gata, i bingen eller hvor som helst, er et annet avgjørende virkemiddel for å utvikle
+toppspillere.
+
+På siden ”Youth Soccer Fun.com” fant jeg disse visdomsordene fra Rinus Michels,
+”totalfotballens far”: ”Good coaches use the basic criteria of street soccer for their vision of
+grassroots development; they realize that these elements produce a natural process that gives
+the most efficient training for young kids.” Tar også med et utsagn fra Ferenc Puskas,
+legendarisk angriper fra Real Madrid/Ungarn: “I am grateful to my father for all the coaching
+that he did NOT give me.” Begge disse utsagnene understreker kanskje betydningen av den
+uorganiserte fotballen, kanskje er vi i ferd med å organisere og tilrettelegge for mye? Eller
+skal vi kanskje finne en annen måte å gjøre nettopp dette på?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+48
+
+Bilde: Talent og læremester, Johan Cruyff er læremester.
+
+Hvilken filosofi preger ellers det nederlandske fotballforbundet, når det gjelder utvikling av
+unge spillere? Hovedpunktene for spillerutvikling fra 10 år og oppover er følgende:
+Skape individuell og lagmessig utvikling.
+Spillerutvikling er det delt ansvar mellom forbund og klubb.
+De beste skal spille med de beste mot de beste,
+Talentfulle spillere bør trene seks ganger i uka, pluss kamp.
+Godt utdannede og erfarne trenere er en forutsetning for utvikling av gode unge
+spillere.
+” Vi har ingen hemmeligheter. Vi skal utvikle spillerne og vi skal utvikle trenerne. Begge
+deler er viktige, og det er avgjørende at vi i barne- og ungdomsfotballen har trenere som kan
+være i stand til å gjøre spillerne bedre i alle spillets faser.” Denne filosofien er ikke særlig
+annerledes enn de tanker som preger mange klubber i Norge, men det er vel stor
+sannsynlighet at mulighetene til å dyrke frem enda flere talenter er større i et land med 16
+millioner innbyggere?
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+49
+
+8.0 Konklusjon
+8.1
+
+Fasiten. Finnes den?
+
+Når jeg startet arbeidet med denne oppgaven, så var det vel egentlig bare en ting jeg var helt
+sikker på, og det var at jeg ikke ville finne fasiten på hvordan det ideelle
+talent/spillerutviklingssytstemet skulle være. Jeg håpet allikevel at jeg ville finne en del trekk
+som gikk igjen både i spørreundersøkelse, intervju og litteraturstudie fra andre nasjoner, som
+kunne gi en del konkrete holdepunkter i dette arbeidet. Sammen med de erfaringer som jeg
+selv har gjort meg, både som spiller og trener, så vil jeg trekke frem en del momenter som jeg
+synes å sitte igjen med når jeg evaluerer den informasjonen jeg har.
+
+Trenerutvikling: På alle de forskjellige plan denne undersøkelsen omfattet, så er dette med
+trenerutvikling et moment som til stadig kommer igjen. Jeg var egentlig litt overrasket over at
+så mange av spillerne i ”lyktes” kategorien nevnte dette som en medvirkende faktor til at de
+ble gode fotballspillere. Jeg hadde, med bakgrunn i egne erfaringer, kanskje trodd at mange
+var enda mer ”selvgående”, men det var en tydelig tilbakemelding at gode trenere i barne- og
+ungdomsårene var en medvirkende årsak til deres suksess. Dette er jo et av de momentene
+som også blir mest poengtert, både blant trenere/ledere som er intervjuet, samtidig som det er
+et av de viktigste satsningsområdene i de store europeiske fotballnasjonene. Sannsynligvis
+ikke bare blant de store nasjonene heller. Vikings Birkir Bjarnason som kommer fra Island,
+uttalte følgende: ”Når jeg var liten og spilte fotball på Island, så ble jeg alltid trent av trenere
+med god trenerutdannelse, som ble lønnet for jobben de gjorde.”
+
+Uorganisert trening: ”Løkkefotballen”. Blir fremhevet av de fleste spillerne i begge
+kategorier, som likeverdig den organiserte fotballen i klubbregi, i alle fall opp til en viss alder.
+Det nederlandske fotballforbundet sier ”tilbake til gatefotballen”. Kanskje må vi tenke litt
+annerledes, organiserer vi kanskje for mye? Er vi for opptatt av vinkling på pasningsfoten,
+medløp og gjenvinning av ball, i forhold til ”velg lag og spill”? Jeg tror dette kan være et
+område som vi kan klare å utvikle oss på, og min egen erfaring er at det var på løkka jeg la
+grunnlaget for de fotballferdighetene jeg senere fikk bruk for på klubb og landslag.
+Fotballtreneren nr. 5, desember 2009, tar også opp dette temaet i et par artikler, og refererer
+fra et forskningsprosjekt av Paul Ford og kolleger. Publisert i juni 2009. I denne
+undersøkelsen viser det seg at de spillerne som ble best, hadde drevet dobbelt så mye
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+50
+
+lekbasert trening på løkka (340 timer pr. år) sammenlignet med de som ikke lyktes (150
+timer). Begge gruppene brukte omtrent like mange timer på lagtreninger og på andre idretter.
+Disse tallene gjaldt i aldersgruppen 6-12 år. Ford, P. R. Ward, P. Hodges, N. J. & Williams,
+A.M.(2009). The role of deliberate practice and play in career progression in sport: The early
+angagement hypothesis. High Ability Studies, 20, 65-75. I det samme magasinet,
+(Fotballtreneren nr. 5), blir også Ole Gunnar Solskjær sitert, fra hans foredrag under
+Cupfinaleseminaret. Solskjær sier: ”La barna få leke.” Bunnlinja i Solskjærs innlegg handlet
+ikke om tidlig spesialisering og spissing, men om mye lek og småspill utenom de organiserte
+treningene.
+
+Treningsmengde: Fikk tydelige indikasjoner på at de beste spillerne hadde trent mer enn de
+spillerne som ”ikke lyktes”. Dette samsvarer også med de normer som NFF har kommet frem
+til som vitale, for at vi skal klare å utvikle toppspillere. Jeg mener også selv at dette er en
+forutsetning. Det som jeg syntes var ”gledelig”, var at de aller fleste utøverne hadde drevet
+med alternative idretter, samtidig med at de spilte fotball. I og med at jeg selv var aktiv i flere
+idretter opp til 16 års alderen, så var det en liten bekreftelse på at dette er fullt mulig.
+
+Tidspunkt for overgang til toppklubb: Majoriteten av spillerne som besvarte spørsmålet var
+ikke så veldig opptatt av dette, det som gikk igjen var om spilleren hadde et godt sportslig
+tilbud i den klubben de var, både treningsmessig og ikke minst konkurransemessig. Det å
+være i sin lokale klubb, i et trygt og godt organisert miljø, var for mange det viktigste.
+Problemet med det å gå til en toppklubb for tidlig, for kanskje bare å bli ”markør” på Alagstreningen, ble av mange sett på som en hemsko for utviklingen. Dette punktet fører meg
+inn på den neste slutningen, som særlig kom frem i intervjuene med trenere/ledere.
+
+Toppklubbenes ansvar ut mot breddeklubber: Her var det en nesten unison enighet om at
+toppklubbene måtte bli enda mer synlige ute i distriktene, på en eller annen måte.
+Kommunikasjon og åpenhet ble fremhevet som viktige elementer, for at arbeidet med å
+utvikle flere regionale talenter skulle lykkes. Hvordan dette arbeidet skulle drives var det
+ulike meninger om, men jeg føler kanskje at det arbeidet som Viking driver i dag, med
+regionale Satellitter kan være en start på et prosjekt som kan vise seg å være positivt.
+
+Hvem blir god og hvorfor: Ville bli best. Hatet å tape. Trente mye. Gode trenere i
+barneårene. Godt miljø. Dette er alle svar som ble lagt fram, på årsaker til hvem som lykkes.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+51
+
+Samt litt flaks. På rett tid til rett sted. Jeg er allikevel overbevist om at du må den indre
+gløden, som gjør at du yter det lille ekstra over tid. Spille med og mot de beste sier de i
+Nederland. I Spania starter de med få spillere og ender opp med mange, i Norge gjør vi det
+motsatte, selv om vi etter hvert jobber etter mange av de samme prinsippene. ”Spillerne
+trenger ikke å løpe så mye, de må bare løpe klokt,” sier Barcelonas trener. ”Vi skal løpe
+motstanderne i senk,” er en frase en har hørt mange ganger i Norsk fotball. Jeg tror at vi må ta
+det beste fra alle verdener, og det arbeidet som nå er satt i gang på Norsk Toppfotballsenter
+tror jeg vil ha stor betydning for norsk fotballs fremtid, kanskje særlig med tanke på
+spillerutvikling. Som den lille nasjonen vi er så må vi utnytte alle de ressursene vi har, og
+videreformidle all den informasjon vi kan tilegne oss, for på den måte prøve å optimalisere
+arbeidet med å utvikle fremtidige fotballspillere på et høyt nivå. Fasiten tror jeg aldri vi
+finner, til det er individene for forskjellige, og veien til det ideelle er alltid fullt av ulike
+hinder.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+52
+
+Referanseliste:
+Aftenposten (juni 2009)
+”Slakter norsk talentsatsing”
+Eggen, N.A i samarbeid med Nyrønning, S.M. (1999)
+”Godfoten. Samhandling-veien til suksess”
+H. Aschehoug & Co (W. Nygaard), Oslo
+
+Halvorsen, K. (1993)
+”Å forske på samfunnet”
+Bedriftøkonomenes Forlag, Oslo
+
+Norges Fotballforbund (2009)
+”Bestemmelse vedrørende lokalt utviklede spillere (LUS)
+Rundskriv nr. 02/08
+
+NFF- Temahefte
+”Spillerutvikling i et helhetlig perspektiv”
+
+Norges Fotballforbund
+Handlingsplan 2008-2011
+http://www.fotball.no/Kretser/Hordaland/krets/om_krets/Handlingsplan-2008-20111/
+
+Norges Fotballforbund
+Spillerutvikling
+http://www.fotball.no/Landslag_og_toppfotball/spillerutvikling/
+
+Olsen, K.I. (2001)
+”Overgang fra 2. divisjon til tippeliga i Rogaland”
+Trener III- skriftlig oppgave
+
+Ommundsen, Y og Høigaard R., Fotballtreneren nr. 2 April 2008
+”Talentutvikling i idrett”.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+53
+
+Saltvik, J.R., Norges Fotallforbund (2009)
+”Rapport UEFA Study Group”.
+
+Stavanger Aftenblad (oktober 2009)
+”Viking bryter viktige NFF prinsipper”
+
+Thoresen, I., Fotballtreneren nr. 1 Februar 2009
+”Tilbake til gatefotballen”
+
+Fotballtreneren nr. 5 Desember 2009
+Toppfotballsenteret: ”Forskningsnytt”
+Thoresen, I: ”Solskjær: La barna få leke”
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+54
+
+Vedlegg:
+Vedlegg-1
+
+TEMA- SATELLITT TRENINGER- VIKING F.K./RFK
+2009
+Målgruppe: 12-15 år
+
+FERDIGHETSTEMA
+
+28 aug:
+Pasningskvalitet, kort/lang.
+Mottak/medtak/vending.
+
+August
+
+September
+
+Oktober
+
+November
+
+11 september:
+
+25 september:
+
+1 mot 1, 2 mot 2.......i angrep.
+Føring, dribling, avslutning.
+
+Videreføring av forrige økt.
+Angrep/avslutninger i en større skala.
+Innlegg, scoringsferdighet,
+bevegelsesmønster.
+
+16 oktober:
+
+30 oktober:
+
+1 mot 1, 2 mot 2......i forsvar.
+1 og 2 forsvarer rollen.
+
+Videreføring av forrige økt.
+Forsvarsarbeid i en større skala.
+4 mot 5, 5 mot 6............
+Prinsipper i et forståelig format.
+
+13 november:
+
+27 november:
+
+Gjennombrudd/avslutning.
+Skape 2 mot 1 situasjoner i angrep.
+
+Spill økt.
+Ulike varianter.
+Undertall/overtallsspill
+Siste økt før jul.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+55
+
+Vedlegg-3
+
+FERDIGHETSANALYSE; ta utgangspunkt i spillposisjon på klubblaget og analyser
+deg selv ved bruk av skjemaet under.
+
+Navn:
+
+Spillposisjon:
+1
+
+1. Teknikk
+‐ ballmottak/kontroll
+‐ pasninger, korte
+‐ pasninger, lange
+‐ headinger
+‐ føring/dribling
+‐ duell (taklinger)
+‐ avslutninger
+‐ innlegg (for back/ kantspiller)
+2. Taktikk; med ball
+‐ forståelse/ blikk (lese spillet).
+Pasningsvalg (eks. vending av spill)
+‐ dribling/ føring (når føre/utfordre, evt.
+spille pasning)
+2. Taktikk; uten ball
+‐ dine bevegelser i forhold til medspiller
+(offensivt). Gjøre deg spillbar
+‐ ball hos motstander, dine defensive
+kvaliteter (1. og 2. forsvarer)
+3. Fysiske ressurser
+Chins og armhevinger (pushups)
+akselerasjonshurtighet rett frem
+(10 m og etter 30 m)
+‐ horisontal spenst (stille lengde)
+‐ aerob utholdenhet (biptest)
+
+2
+
+Dato:
+3
+
+4
+
+5
+Vurdering:
+1. Mindre godt
+2. Under gjennomsnitt
+3. Gjennomsnitt
+4. Kretslagsklasse
+5. Landslagsklasse
+
+Ut fra din egen analyse ovenfor.
+Sett opp i prioritert rekkefølge tre utviklingsmål (ferdighetsmål) i din spillposisjon; mål
+som du enten er god på fra før og vil forsterke eller mål som du vil forbedre. Det kan
+være taktiske, tekniske eller fysiske mål.
+Utviklingsmålene vil bli brukt i samtale med trener i fotball.
+Jeg vil prioritere følgende utviklingsmål:
+1.
+2.
+3.
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+56
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+58
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+59
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+60
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+61
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+62
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+63
+
+Trener-3 oppgave, januar 2010. Svein Fjælberg
+
+64
+
+

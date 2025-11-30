@@ -29,6 +29,108 @@ export const TeamOrganization = () => {
 
       {isOpen && (
         <div className="mt-4 space-y-6">
+          {/* NFF Soneforsvar - Roller */}
+          <div>
+            <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
+              <span className="text-base">🛡️</span> Soneforsvar: Roller (NFF)
+            </h3>
+
+            <div className="space-y-2">
+              <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3">
+                <h4 className="text-xs font-semibold text-emerald-900 mb-1">Førsteforsvarer (Signalspiller)</h4>
+                <p className="text-xs text-emerald-800">
+                  Spilleren nærmest ballfører. <strong>Lagets signalspiller</strong> - din handling definerer resten av lagets handlinger. 
+                  Oppgaver: Vinn ball når mulig, opphold/led ballfører, hindre gjennombruddspasninger, tving spill bakover/på tvers.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-blue-200 bg-blue-50 p-3">
+                <h4 className="text-xs font-semibold text-blue-900 mb-1">Andreforsvarer (Sikring)</h4>
+                <p className="text-xs text-blue-800">
+                  Nærmeste spiller til førsteforsvarer. Sikrer på rett side eller dekker rom. 
+                  <strong> Hvem sikrer hvem:</strong> Midtbane sikrer kant/midtbane i press. Stopper sikrer stopper/back i press.
+                  Sikringsavstand: Større ved høy fart, mindre når ballfører står stille.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-purple-200 bg-purple-50 p-3">
+                <h4 className="text-xs font-semibold text-purple-900 mb-1">Tredjeforsvarer (Romkontroll)</h4>
+                <p className="text-xs text-purple-800">
+                  Alle andre forsvarere. Dekker rom og/eller tar ut definerte angrepsspillere. 
+                  Kommuniser pasningslinjer: &quot;Dekk venstre&quot; bryter pasningsforbindelse til mellomrom. 
+                  Spillsituasjonen avgjør prioritering mellom rom og mann.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* NFF Leding */}
+          <div>
+            <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
+              <span className="text-base">🎯</span> Leding av Ballfører (NFF)
+            </h3>
+
+            <div className="space-y-2">
+              <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
+                <h4 className="text-xs font-semibold text-amber-900 mb-1">Hovedregel: Led ut mot sidelinje</h4>
+                <p className="text-xs text-amber-800">
+                  Sidelinja er førsteforsvarerens beste venn - der er det trangest og sjansen for ballvinning øker.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Bueløp</h4>
+                <p className="text-xs text-zinc-700">
+                  Ikke rett på ballfører - bruk kurvet løp for å stenge rommet du vil beskytte.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Når lede inn?</h4>
+                <p className="text-xs text-zinc-700">
+                  Når du har sikringsspiller på innsiden. Når dere er i overtall inne. Når du vil nekte pasning på yttersiden.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Når lede ut?</h4>
+                <p className="text-xs text-zinc-700">
+                  Når du er alene uten sikring. Når dere er i undertall sentralt. Lede vekk fra motstanderens dominante spiller.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* NFF Presshøyde */}
+          <div>
+            <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
+              <span className="text-base">📍</span> Presshøyde (NFF)
+            </h3>
+
+            <div className="grid grid-cols-2 gap-2">
+              <div className="rounded-lg border border-red-200 bg-red-50 p-3">
+                <h4 className="text-xs font-semibold text-red-900 mb-1">Høyt Press</h4>
+                <p className="text-xs text-red-800">
+                  Kortere vei til mål ved ballvinning. Krever samstemthet - alle må lese likt. Tvinger feil høyt oppe.
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-sky-200 bg-sky-50 p-3">
+                <h4 className="text-xs font-semibold text-sky-900 mb-1">Lavt Press</h4>
+                <p className="text-xs text-sky-800">
+                  Bevarer struktur og balanse. Venter på feil. Fantastisk utgangspunkt for overganger ved ballvinning.
+                </p>
+              </div>
+            </div>
+
+            <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3 mt-2">
+              <h4 className="text-xs font-semibold text-zinc-800 mb-1">Viktig ved lavt press</h4>
+              <p className="text-xs text-zinc-700">
+                Én meter fram hos førsteforsvarer ødelegger pasningsvinkler for motstanderen. Hold linjen!
+              </p>
+            </div>
+          </div>
+
           {/* Etablert spill - Forsvar */}
           <div>
             <h3 className="text-sm font-semibold text-zinc-900 mb-3">

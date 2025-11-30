@@ -29,7 +29,7 @@ const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   cooldown: "Avslutning",
 };
 
-export const ExerciseManager = () => {
+export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { highlightExerciseId?: string | null; onHighlightConsumed?: () => void; }) => {
   const exercises = useExercises();
   const addExercise = useSessionStore((state) => state.addExercise);
   const updateExercise = useSessionStore((state) => state.updateExercise);
@@ -51,6 +51,16 @@ export const ExerciseManager = () => {
       return false;
     });
   }, [exercises, searchQuery]);
+
+  useEffect(() => {
+    if (highlightExerciseId) {
+      const match = filtered.find((exercise) => exercise.id === highlightExerciseId);
+      if (match) {
+        setSearchQuery(match.name);
+        onHighlightConsumed?.();
+      }
+    }
+  }, [highlightExerciseId, filtered, setSearchQuery, onHighlightConsumed]);
 
   // DEBUG: Logg søkeresultater
   useEffect(() => {

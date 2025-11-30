@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+// GlossaryTooltip er tilgjengelig for fremtidig bruk
+// import { GlossaryTooltip } from "@/components/GlossaryTooltip";
 
 type FocusItem = {
   id: string;
@@ -145,6 +147,44 @@ const focusItems: FocusItem[] = [
   {
     id: "spilleutbakfra",
     text: "Spille ut bakfra: Keeper/stopper som startpunkt - hold roen, spill på rett side av press",
+  },
+  // === NFF SONEFORSVAR ===
+  {
+    id: "nff-forsteforsvarer",
+    text: "Førsteforsvarer (NFF): Du er signalspiller - din handling definerer hva resten av laget gjør. Nærmest ball = førsteforsvarer",
+  },
+  {
+    id: "nff-leding",
+    text: "Leding (NFF): Led ballfører ut mot sidelinje - der er det trangest. Bruk bueløp for å stenge rommet du vil beskytte",
+  },
+  {
+    id: "nff-andreforsvarer",
+    text: "Andreforsvarer/Sikring (NFF): Nærmeste midtbane sikrer kant i press, nærmeste stopper sikrer stopper i press",
+  },
+  {
+    id: "nff-tredjeforsvarer",
+    text: "Tredjeforsvarer (NFF): Dekk rom og ta ut pasningslinjer. Kommuniser: 'Dekk venstre' stenger pasningsforbindelse",
+  },
+  {
+    id: "nff-presshøyde",
+    text: "Presshøyde (NFF): Høyt press = kortere vei til mål, krever samstemthet. Lavt press = bevare struktur, vente på feil",
+  },
+  {
+    id: "nff-balanse",
+    text: "Balanse (NFF): Lavt forsvar i balanse = fantastisk utgangspunkt for ballvinning og overgang. Én meter fram fra førsteforsvarer ødelegger pasningsvinkler",
+  },
+  // === NFF ANGREP ===
+  {
+    id: "nff-hovmesterblikk",
+    text: "Hovmesterblikket (NFF): Ballfører trenger gode vinkler og avstander fra alle medspillere. Gjør deg spillbar - ikke bare ballførers ansvar",
+  },
+  {
+    id: "nff-romforhold",
+    text: "Romforhold (NFF): Prioriterte rom i rekkefølge: Bakrom → Mellomrom sentralt → Framrom sentralt",
+  },
+  {
+    id: "nff-beggeveier",
+    text: "Begge veier (NFF): Gode spillere behersker både angrep og forsvar. Spiss gjør fenomenal jobb i fremste forsvarsledd",
   },
 ];
 

@@ -1,0 +1,960 @@
+2012
+Sekundene som avgjør fotballkamper
+
+Tom Selmer
+UEFA A-lisens
+31.01.2012
+
+Innholdsfortegnelse
+1. Innledning .................................................................................................3
+2. Tilnærming til oppgaven ............................................................................5
+3. Problemstilling ..........................................................................................7
+4. Teori ..........................................................................................................8
+4.1 Fotballens egenart ................................................................................8
+4.2 Fotballferdighet ....................................................................................9
+4.3 Dimensjonene henger sammen .......................................................... 10
+4.4 Delferdigheter knyttet til angrepsavslutningen .................................... 11
+4.5 Læringsprosessen ............................................................................... 14
+5. Metode.................................................................................................... 15
+5.1 De ulike metodene i oppgaven .......................................................... 16
+6. Resultater og diskusjon............................................................................ 18
+6.1 Forspillet til selve avslutningen .......................................................... 20
+6.2 Scoringer lavt i hjørnet ....................................................................... 20
+6.3 Scoringer med kontroll ....................................................................... 21
+6.4 Curl/Plassering ................................................................................... 21
+6.5 Scoringer sone 1cv og 1ch .................................................................. 22
+6.6 Sett i lys av de ulike dimensjonene ..................................................... 24
+6.7 Egentrening og utvikling av to spillere................................................. 27
+6.8 Konsekvenser for norsk fotball ........................................................... 28
+6.9 Hvordan skal vi komme dit?................................................................ 28
+7. Konklusjon............................................................................................... 30
+8. Litteraturliste........................................................................................... 32
+8.1 Vedlegg ............................................................................................. 32
+9. Sammendrag ........................................................................................... 33
+
+Side 2 av 34
+
+1. Innledning
+De siste 17 årene har jeg vært daglig leder av ulike bedrifter som jeg selv har
+startet opp. Man bygger opp kunnskap av de ulike produkter og tjenester man
+tilbyr, for økonomisk gevinst i andre enden. Hvilket ansikt skal de ansatte ha
+utad? Hvordan skape et ”kunstig” behov hos kunder? Hvorfor skal kunden
+velge oss som leverandør? Hvor stor del av markedet har vi?
+Disse og en rekke andre spørsmål farer rundt i hodet hele dagen. Tallene sier i
+hvor stor grad vi har lykkes. Når jeg for snart 8 år siden tok fatt på
+trenergjerningen i fotball, var det mange likhetstrekk i det å drive egen bedrift.
+Uansett nivå, kommer tanker og stadig høyere utviklingsmål for en selv og
+spillerne. Jeg har satt meg kortsiktige og langsiktige mål, i så vel utdanning og
+som trener.
+En spent gutt på snart 7 år, syklet fra Ulven til Valle treningsfelt for sin første
+trening i 1973. Klubben var Vålerenga og guttene på laget var 2 år eldre enn
+meg. Etter den treningen husker jeg at min far ble fortalt, ”pappa, jeg skal bli
+god i fotball og score mange mål”. Fra den dagen har det å score mål betydd
+veldig mye for meg som fotballspiller. Den gang var det ikke mange diskusjoner
+rundt de ulike spillformer 5’er, 7’er eller 11’er fotball. Vi spilte 11’er kamper. På
+løkka varierte det fra 1 mot 1, til 10 mot 10 på det meste. Det samme var det
+på treninga avhengig av antall spillere.
+I dagens fotball går diskusjoner rundt spillerutvikling, hospiteringsordninger,
+formasjoner og spillestil. Skal vi spille som Barcelona eller Drillo? 1 eller 2
+balanserende midtbaner? Hvor høyt skal backene stå? Hurtig gjenvinning etter
+balltap eller tilbake i ramma?
+Det er svært mange ting å ta hensyn til i eget og motstanders lag, men hva er
+det egentlig som avgjør fotballkamper til vårt eget lags fordel?
+
+Side 3 av 34
+
+Konklusjonen er såre enkel, ”Score flere mål enn motstanderlaget”. Denne
+banale konklusjonen poppet opp i hodet mitt under oppholdet i Porsgrunn en
+sommerdag i juni 2011. Avgrensning var prentet inn i hodene våre, og jeg
+startet prosessen umiddelbart. Hvis vi tar bort alle faktorer underveis, og ser
+kun på scoringsferdigheten var oppgaven klar.
+Scoringsferdighet kan også avgrenses, så jeg jobbet meg ned i materien og fant
+ut at min UEFA A-lisens teorioppgave skulle begrenses til følgende:
+”Sekundene som avgjør fotballkamper”
+
+Strømmen, januar 2012
+Tom Selmer
+
+Side 4 av 34
+
+2. Tilnærming til oppgaven
+Det har vært skrevet mange oppgaver om fotballens idé, det å score mål.
+Gjennom mange års erfaring som målscorer, og en lidenskapelig lyst til og finne
+ut mer om hvordan disse blir til har jeg likevel valgt dette som tema.
+Etter å ha sett utallelige fotballkamper på alle nivåer, mener jeg selv at ”typen”
+som scorer mange mål, er lett gjenkjennelig på banen. Hva er det som gjør de
+beste best? Sitter igjen med en følelse at lagene rundt oss i Europa, utnytter de
+få sjansene de får. På denne måten vil jeg med en kvalitativ inngang se på
+forskjellen mellom Tippeligaen og Champion League. For å avgrense oppgaven
+valgte jeg følgende parametre:
+• Scoringer innenfor begrensede områder (se fig. 1)
+• Scoringer utført med fot
+• Scoringer hvor spilleren har tid til handlingsvalg og handling
+Dette gir mulighet til å analysere de handlingsvalg en spiller tar føre han scorer
+mål.
+
+Fig. 1
+Side 5 av 34
+
+For å kunne analysere en større mengde data har jeg valgt følgende
+dataområde:
+Tippeligaen
+Champions League
+
+15 første serierunder i
+2011
+Gruppespillet 2010/11
+
+120 kamper
+96 kamper
+
+Gjennom denne scoringsanalysen blir det én parameter som går på min
+vurdering av hvilke scoringer jeg mener angripers taktisk-teknisk
+helhetssammenheng (fra Morisbak, Dreier og Skarsfjord 1986) vil berøres i
+større eller mindre grad. Dette kommer jeg nærmere inn på i kapittel om
+metode.
+Scoringsanalysen gir følgende dataområde til bruk for min oppgave:
+Antall scoringer totalt
+Langskudd / Frispark
+Med fot i områder Fig. 1
+Scoring innenfor
+5-meter
+Heading
+Selvmål
+Straffe
+Flikk/Styring
+
+Tippeligaen
+342 - 2,85 pr kamp
+43
+12,6 %
+164
+48,0 %
+29
+8,5 %
+
+Champions League
+277 – 2,88 pr kamp
+27
+9,7 %
+156
+56,3 %
+27
+9,7 %
+
+70
+10
+23
+3
+
+35
+9
+23
+0
+
+20,5 %
+2,9 %
+6,7 %
+0,9 %
+
+12,6 %
+3,2 %
+8,3 %
+0,0 %
+
+Med dataområde (rød skrift) fant jeg visse problemstillinger som gir meg den
+tilnærming av oppgaven som ønsket på forhånd.
+I Tippeligaen var det 116 av 164 hvor angriper har tid til å vurdere valg av
+avslutning.
+I Champions League var det 107 av 156 hvor spiller har tid til å vurdere valg av
+avslutning.
+
+Side 6 av 34
+
+3. Problemstilling
+Med utgangspunkt i et tema eller et emneområde, arbeider vi oss frem til en
+problemstilling (Dalland, 2000). Problemet er en undring formulert som et
+spørsmål vi ønsker svar på eller en påstand som skal bekreftes eller avkreftes.
+Hovedskillet på et tema og en problemstilling er at vi beskriver et tema, men vi
+løser et problem. Det er et hull i vår kunnskap som påkaller vår interesse og
+utfordrer oss. Problemstillingen er et spørsmål som vi stiller med et bestemt
+formål og på en så presis måte at den lar seg belyse gjennom bruk av
+vitenskapelige metoder.
+I denne fasen må vi avklare for oss selv hvorfor det problemet vi har valgt er
+interessant og relevant i forhold til profesjonsstudiet vårt, og hvilken
+forforståelse vi har av problemet.
+Problemstillingen er hele grunnlaget for prosjektarbeidet. Det styrer hva som
+er viktig og hva som er mindre viktig i forhold til det vi skal undersøke.
+I denne oppgaven defininerer jeg problemstilling på følgende måte:
+Problemstilling: Det spørsmålet som oppgaven har til hensikt å besvare.
+Det er med hensikt at jeg bruker bestemt form entall i definisjonen! Det er ikke
+uvanlig at man ønsker å besvare flere spørsmål i en oppgave, men ettersom
+hvert spørsmål skal besvares på en god (dvs. systematisk, metodisk og
+konsistent) måte vil det bli for ambisiøst å belyse mer enn ett spørsmål. Det er
+dog ikke til hinder for at man kan bryte ned en problemstilling i del spørsmål,
+dvs. del problemer, som utgjør en avgrenset del av oppgavens problemstilling.
+Problemstilling er forskjellen i spillernes avslutningsferdighet mellom
+Tippeliga og Champions League innenfor de 6 avgrensede områder?
+
+Side 7 av 34
+
+4. Teori
+I dette kapittelet vil jeg beskrive teorien bak noen av de ferdighetene som en
+målscorer er i besittelse av når man scorer mål.
+
+4.1 Fotballens egenart
+For å kunne utvikle fotballspillernes ferdighet er det viktig for treneren å kjenne
+arbeidskravene fotballen stiller. Derfor blir det viktig å kjenne fotballspillets
+egenart.
+Spillflate, antall spillere på banen, hvordan vi forholder oss til ballen,
+medspillere og motspillere definerer rammene for aktiviteten.
+I det å forstå spillets egenart brukes spilleprinsippmodellen (Egil Olsen).
+Å score/hindre mål er den grunnleggende motsetningen mellom lagene i en
+fotballkamp.
+I tillegg til delmålene underveis som er: å skape gjennombrudd / hindre
+gjennombrudd, skape og utnytte rom / nekte og hindre rom, skape / utnytte
+ubalanse (overtall i angrep) opprettholde balanse (kontradekning i angrep) /
+opprettholde balanse (i forsvar) samt skape overtall (i forsvar), spillbarhet /
+hindre spillbarhet (Ronglan, 2003).
+
+Dette er også motsetninger i spillets gang. Spilleprinsippene bidrar til å gjøre
+fotballspillet lettere å forstå, samt synliggjøre sammenhengen mellom
+prinsippene.
+Fotballkampen kan beskrives som er kontrollert konflikt, preget av stadig nye
+situasjoner i angrep og forsvar, eller i gråsonen mellom disse, der ingen av
+lagene har kontroll. Interessekonflikten og de stadige situasjonsendringene i
+spillet, er drivkraften for formasjonsendringen av lagene og kalles
+spillsituasjoner (Larsen, 1992).
+
+Side 8 av 34
+
+4.2 Fotballferdighet
+Når jeg skal skrive om ”sekundene som avgjør fotballkamper” er det mye som
+skjer frem til dette øyeblikket når målene scores. Det er derfor helt naturlig å
+skrive om fotballferdigheten.
+Begrepet ferdighet er ikke definert i norsk idrettsterminologi på samme presise
+måte som for eksempel teknikk og taktikk. Ferdighet er gjerne brukt ved
+oversettelse fra det engelske ordet skill, som i fotball innebærer noe mer
+fullstendig og målrettet enn bare teknikk eller løsningen av en
+bevegelsesoppgave.
+
+Taktikk er ”hva en velger å gjøre i situasjonen”, og den er i stor grad avhengig
+av evnen til å oppfatte, vurdere og bestemme.
+Teknikk er ”måten man løser de enkelte bevegelsesoppgavene på” og
+forutsetter stor grad av automatisering. Se fig. 2.
+
+Fig. 2 Fotballferdighet framstilt som den taktisk-tekniske helhetssammenhengen
+(fra Morisbak, Dreier og Skarsfjord, 1986, s. 11)
+
+Side 9 av 34
+
+Enkelt uttrykt kan vi si at det oppstår en ny situasjon hver gang ballen overtas
+av en ny spiller eller den forflytter seg på banen.
+Definisjon er beskrevet som:
+”Fotballferdighet er hensiktsmessige handlingsvalg og handlinger – for å skape
+og utnytte spillsituasjoner til fordel for eget lag”.
+I boka Ferdighetsutvikling i fotball – handlingsvalg og handling (Bergo,
+Johansen, Larsen og Morisbak, 2002) innfører også i sin utdypning av
+fotballferdigheten begrepet dimensjon og slår fast at fotballferdigheten består
+av fire ulike dimensjoner som er uløselig knyttet sammen i fotballspillet.
+Disse fire dimensjonene er:
+Den individuelle dimensjonen, den relasjonelle dimensjonen, den strukturelle
+dimensjonen og kampdimensjonen.
+
+4.3 Dimensjonene henger sammen
+Av egenerfaring er man fra tidlig alder kun opptatt av seg selv og egne
+prestasjoner. Vår sosiale utvikling har ikke lojalitet, samspill, sosial kjemi og
+tilhørighet som prioritet og forståelse for dette. Her er det fysiologiske og
+psykologiske ressurser som trer i kraft.
+Derfor utvikler man best den individuelle dimensjonen i tidlig alder.
+Den individuelle dimensjonen vil si den enkelte spillerens evne til å velge å
+gjennomføre en hensiktsmessig løsning i en situasjon. Den gode fotballspilleren
+velger og utfører handlinger stabilt og bra i de fleste situasjoner over tid. Dette
+forutsetter et stabilt repertoar av sentrale delferdigheter som pasning,
+mottak/medtak/vending, dribling/finter, avslutning mot mål og inngripen som
+førsteforsvarer.
+
+Side 10 av 34
+
+Etter hvert som man blir litt eldre, forstår man at en er avhengig av medspillere
+på laget, den relasjonelle dimensjonen.
+Den relasjonelle dimensjonen vil si den enkelte spillerens evne til samhandling
+med medspillere, det å utnytte de mulighetene motstanderne gir i
+spillsituasjonen samtidig som man hindrer deres mulighet optimalt. Dette er en
+målscorer helt avhengig av for å score mål.
+Når man går over til større bane med flere spillere på laget kommer den
+strukturelle dimensjonen til syne.
+Den strukturelle dimensjonen innebærer at hele laget har en felles forståelse
+av lagets samhandling, som igjen omfatter en organisering av laget ut fra en
+rolledefinering og noen felles retningslinjer for spillet i angrep og forsvar.
+
+Fig. 3 Ferdighetsutvikling i fotball – handlingsvalg og handling
+(Bergo, Johansen, Larsen og Morisbak, 2002)
+Side 11 av 34
+
+Det er svært viktig å utvikle den individuelle og relasjonelle dimensjonen i tidlig
+alder for at retningslinjene ikke blir for snevre i den strukturelle dimensjonen.
+Det vil i stor grad føre til forutsigbarhet og gjøre det lett for motstanderne å
+demme opp, fordi enkeltspillere begrenses i sine valg, sin kreativitet og dermed
+i effektivitet.
+For å trene på de ulike ferdighetene er spesifisitetsprinsippet det aller viktigste,
+og som det ofte syndes mye mot. Spesifisitetsprinsippet innebærer at det må
+være størst mulig likhet mellom treningen og den idretten man trener for. Man
+lærer ikke generelt, men spesielt!
+For fotball betyr dette at ferdighetsutvikling så tidlig som mulig må ta
+utgangspunkt i det man gjør og får bruk for i fotballkampen.
+
+4.4 Delferdigheter knyttet til angrepsavslutning
+Dersom vi vurderer hvert mål, og tar med detaljer om hva som skjer i trekket
+umiddelbart før selve avslutningen, vil ikke et eneste mål være likt et annet!
+Mål og krav til at spilleren skal kunne skyte hardt og presist, hurtig og bestemt i
+ulike avslutningssituasjoner, for derved å skape og utnytte spillsituasjoner til
+fordel for eget lag.
+I teoridelen legger jeg derfor vekt på avslutningsferdigheten med fot,
+scoringsferdighet som omfattes av oppgavens art.
+Scoringsferdighet er for trenere og spillere av stor betydning. Det ser vi enkelt i
+overgangsmarkedet og prissetting av spillere på internasjonalt nivå.
+Det er lett at denne typen trening forsvinner i de ulike øvelser man bruker.
+I følge boka ferdighetsutvikling i fotball (Bergo, Johansen, Larsen og Morisbak,
+2002), skriver de ”begrepet scoringsferdighet innebærer at måten mål scores
+på, er fullstendig uvesentlig så lenge ballen passerer målstreken. Og det skal
+den! Hver gang!” Dette bygger mer på vilje enn å utvikle de enkelte egenskaper
+de nevner som: fysiologiske ressurser, psykologiske ressurser, oppmerksomhet,
+
+Side 12 av 34
+
+konsentrasjon og spenningsregulering. De sier også noe om at det viktig å
+beholde roen for å ta det riktige valget.
+Pasningsferdighet blir koblet inn med avslutningsferdigheten. Stadig flere mål
+scores gjennom curle eller plassere ballen ned i hjørnet. Innsidepasning,
+utsidepasning og liggende vrist gir gode kontrollerte pasninger, som brukes i
+avslutningsøyeblikket.
+Begrepet curle kan best overdras til fotballen som ”å skru ballen rundt noe”.
+
+Hurtighet er et begrep som kreves for å skaffe seg ekstra tid til handlingen.
+Tenker da på hurtighet til å oppfatte, vurdere og bestemme seg for hvilken
+utførelse man skal ta. Dette er svært vanskelig å trene på, da det kreves høy
+kompetanse hos trenere i ung alder.
+Det siste er det som trenes alt for lite på. Et vidt begrep som automatisering vil
+ha stor betydning for utvikling av toppscorere i moderne fotball.
+
+Side 13 av 34
+
+4.5 Læringsprosessen
+Ordet automatisering kommer fra læringsprosessen (se fig. 4).
+
+1
+
+• Ubevisst inkompetent
+
+2
+
+• Bevisst inkompetent
+
+3
+
+• Bevisst kompetent
+
+4
+
+• Ubevisst kompetent
+Fig. 4 Læringsprosessen
+
+En spiller en uvitende om hvordan det er størst mulig sjanse for å score fra en
+gitt situasjon. Spilleren går fra ubevisst inkompetent til bevisst inkompetent.
+Ved å trene riktig over lang tid vil dette bli bedre for hver gang. Spilleren er nå
+bevisst kompetent og tenker på dette hver gang situasjonen oppstår. Når ting
+er automatisert vil man etter oppfattelse, vurdering og bestemt utføre
+handlingen uten å tenke på hva man gjør. Spilleren er nå ubevisst kompetent.
+Dette ser man hos spillere som scorer mange mål, iskalde i scoringsøyeblikket.
+Avslutningsferdighet er spesielt to forhold sentrale når man skal vurdere
+kvaliteten på avslutningene. Best mulig løsning i de ulike situasjonene. Dernest
+handler det om psykologiske ressurser. Etter mine analyser mener jeg det er
+gitt noen få valg på utførelse avhengig av hvilken posisjon du har, som fører til
+flest scoringer.
+På hvilken måte er vi mest mottagelig på denne typen trening?
+Treningsstudier viser at systematisk mental trening gir positiv effekt på
+prestasjon i fotball gjennom: Selvinstruksjoner, visualisering og stressmestring.
+(Geir Jordet).
+Han sier også følgende: ”Stor indre motivasjon og interesse for
+sammenhengen/detaljene rundt det å score mål, vil sannsynligvis øke sjansen
+
+Side 14 av 34
+
+for å score flere mål. Det er ikke alltid nødvendig og absolutt ikke tilstrekkelig”
+(Geir Jordet).
+Ut fra dette vil variert og randomisert trening være viktig for å utvikle hjernen
+til å oppfatte situasjoner så raskt som mulig. Dette innebærer at det må være
+størst mulig likhet mellom treningen og kampen, spesifisitetsprinsippet.
+Situasjoner som oppstår i kamp må gjenskapes i den grad det mulig på trening.
+For en målscorer vil visualisering være nødvendig under hele karrieren. Se for
+seg de ulike situasjoner fra trening og kamp, og memorere de gode bildene.
+Omvendt visualisering er brukt i noen idretter. Her vil man se ballen fra scoring
+og tilbake til din egen fot. Ut fra dette kan tanker og bilder løse en gitt oppgave,
+for hvordan handlingen ble utført i situasjoner som endte opp i mål.
+
+5. Metode
+Ofte står valget mellom ulike metoder med sine sterke og svake sider. Vi må
+begrunne valgene vi har gjort. Først kan vi relativt kort gjøre rede for de mer
+generelle sidene ved metoden, men vi skal først og fremst si hvordan metoden
+vi har valgt, har fungert i vår undersøkelse (Dalland 2000).
+
+Vi må begrunne valg av metode og gjøre rede for de mer generelle sidene ved
+metoden. Vi må beskrive konkret og detaljert hvordan vi gikk fram for å finne
+svar på problemstillingen det vil si hvordan vi samlet inn data. Dette for å gjøre
+undersøkelsen åpen for kontroll og etterprøving. Vi må si noe om metodene vi
+har brukt til bearbeiding og analyse av data. Vi må si noe om eventuelt bortfall
+av undersøkelsesenheter og spørsmål. Vi må diskutere dataenes pålitelighet og
+relevans.
+Metodekritikk og eventuelle etiske vurderinger er viktig, her skal vi vise at vi
+kjenner til begrensninger og svakheter i egen undersøkelse (Dalland 2000).
+
+Side 15 av 34
+
+5.1 De ulike metodene
+Jeg har valgt å kombinere flere metoder, som jeg føler er 100 % nødvendig for
+en oppgave av denne karakter. Jeg vil beskrive hver enkelt metode og hvordan
+disse har fungert
+
+Observasjon
+Observasjon er å iaktta det som skjer på en særlig oppmerksom måte.
+Vi må prøve å fange inn informasjon på en saklig måte. Vi må forsøke å
+redusere feiltolkninger og påvirkning av våre forutinntatte meninger. Men det
+er ikke problemfritt.
+Den viktigste feilkilde er iakttakeren selv. Vi er ikke et objektivt
+registreringsapparat. Vi kan kun registrere hva vi ser og hører og hva vi
+subjektivt opplever. Det er viktig å stille spørsmålet; Hvorfor ser vi det vi ser?
+Observasjonene har vært usystematiske/ustrukturerte, kvalitative, mer tilfeldig
+og registrerer det som skjer over en lengre periode.
+Av etiske spørsmål kan nevnes:
+Hva ønsker jeg å fange inn?
+Hva skal jeg bruke materialet til?
+Hvem skal se det?
+Kan det tenkes at noen er imot at jeg observerer?
+
+Metoden har gitt meg mye informasjon, og understøtter mine teorier rundt
+tema.
+
+Samtale
+Samtale er en kommunikasjon med ord, hvor to eller flere personer snakker
+sammen. Samtaler er viktig for at mennesker skal forstå hverandre, og at vi skal
+få beskrive hva vi tenker og føler.
+De sterke sidene ved denne metoden er følelser som kommer frem, men de er
+ofte vanskelige å beskrive med ord. Svakheten vil være om du husker alt fra
+samtalen, eller om noe blir vinklet i den retning du selv ønsker.
+Side 16 av 34
+
+Etiske spørsmål vil være om personens svake sider kommer opp, og om dette
+på en eller annen måte kan krenke personen.
+Metoden ga meg mye inspirasjon og informasjon, til å gå dypere i
+problemstillingen.
+Testpersoner
+På veien hjem fra Porsgrunn i sommer bestemte jeg meg for å teste ut
+egentrening med to spillere, for å se hvor mye som kan påvirkes i
+avslutningsøyeblikket.
+Valgte en spiller i alderen 14 år og en spiller i toppfotballen.
+Jobbet 2 måneder med hver spiller, og det har gitt meget positive resultater.
+Metoden ga meg en god støtte for min konklusjon i oppgaven.
+
+Egenerfaring
+Har vært lidenskapelig interessert i fotball i 40 år.
+Selv vært utøver med mange kamper i norsk toppfotball og for yngres landslag.
+Jobbet som trener i en årrekke fra breddefotball til toppfotball.
+Når man sitter på så mye informasjon er det viktig at man lærer av så vel gode
+som dårlige opplevelser. Dette er med på å krydre de ulike synspunkter i
+oppgaven.
+
+Videoanalyse
+Videoanalyse er gjennomført som en analyse av alle tilgjengelige videoopptak
+gjennom ”TV2 CEAL” systemet av scoringer i Tippeligaen runde 1 til og med
+runde 15 i sesongen 2011 og gjennom
+”UEFA Champions League DVD” scoringer i gruppespillet sesongen 2010/11.
+Dette gir oss alle scoringer visuelt, med et riktig grunnlag for å besvare
+oppgaven.
+Svakhetene ved videoanalyse er de feilregistreringer som vi kan gjøre
+underveis.
+Denne metoden er selve grunnlaget for min oppgave.
+Vil rette en stor takk til NFF og ikke minst TV2 for bilder ferdig klippet uten 30
+sekunders reklame foran hver scoring.
+
+Side 17 av 34
+
+Studiereise
+En uke i høstferien fulgte jeg Athletico Madrids junioravdeling i aldersgruppen
+G11-G19. Totalt ble dette 18 treninger og to kamper.
+Var hele tiden i tett dialog med Felix (fysisk ansvarlig i ungdomsavdelingen.),
+hvor jeg fikk all informasjon om treningsplaner for hele gruppen.
+Da Athletico er en av de beste klubbene på dette området gir dette god
+informasjon og underbygger mange av mine teorier.
+Svakheten er besøk i en klubb og gir ikke noe totalt bilde av utviklingen i
+Europa. I tillegg var Athletico i ferd med å endre noe kurs, hvor de var svært
+interessert i norsk fotball. Spesielt den defensive delen, hvor spørsmålene
+haglet inn hver dag.
+
+6. Resultater og diskusjon
+Etter å ha brukt ca. 150 timer på analysedelen er det alltid spennende å sette
+de ulike dataene fra Tippeligaen og Champions League opp mot hverandre.
+Jeg trekker ut de markante forskjellene og setter opp disse i en tabell (Tabell 1).
+Denne tabellen gir grunnlaget for min diskusjon rundt problemstilling og fakta
+fra analysedelen. Prosenten er rundet av til nærmeste 0,5.
+Beskrivelse
+Scoringer lavt i hjørnet
+Scoring med kontroll
+Curl / Plassering
+Scoringer sone 1cv og 1ch
+
+Tabell 1
+Tippeligaen
+41,5 %
+49,0 %
+30,0 %
+34,5 %
+
+Champions League
+70,0 %
+86,0 %
+73,0 %
+59,5 %
+
+For å beskrive de ulike tall vil jeg gi en kort forklaring på de ulike beskrivelsene i
+tabell 1.
+Scoringer lavt i hjørnet
+Ballen skal ikke høyere enn 0,5 m i luften og ikke mer enn 1 m fra stolpen.
+
+Side 18 av 34
+
+Scoring med kontroll
+Her er det min mening om spilleren sin utførelse er med kontroll eller ikke. Her
+vil andre ikke dele min oppfatning av hva som er kontrollert eller ikke, men jeg
+har vært så objektiv som det er mulig å komme i en slik vurdering.
+Curl / Plassering
+Spiller vektlegger presisjon fremfor kraft i utførelsen av scoringen.
+Scoringer sone 1cv og 1ch
+Dette er scoringer fra de soner som vist under (Fig. 5).
+
+Fig. 5
+
+Jeg er kommet frem til markante forskjeller mellom Tippeligaen og
+Champions League. De fleste vil nok si ”det skulle bare mangle”. Dette synet er
+noe jeg ikke deler. Vi har like stor mulighet til egenutvikling av denne
+ferdigheten, som hvilken som helst annen spiller i verden. Selv om det er
+analysert nesten like mange scoringer, vil jeg først se på hvilke ytre faktorer
+som påvirker hvor god tid man får til selve avslutningen.
+
+Side 19 av 34
+
+6.1 Forspillet til selve avslutningen
+Det er en rekke faktorer som henger sammen med hvilken type sjanse laget får.
+Som eksempel kan nevnes Lillestrøm som var meget gode på overganger når
+Anthony Ujah spilte, og han kom ofte alene med keeper. Det samme kan sies
+om Tyskland under VM i 2010. Her snakker vi om frispilling i overtall eller
+direkte i bakrom. Den rake motsetningen er Barcelona som er veldig gode mot
+etablert forsvar. Dette fører ofte direkte gjennombrudd og avslutning nærmere
+målet.
+
+Så spillestil henger sammen med type scoringer for laget.
+Jeg vil nå diskutere og se på hvert enkelt av punktene i Tabell 1. Beskrive hva
+som utgjør de store forskjellene mellom Tippeligaen og Champions League.
+
+6.2 Scoringer lavt i hjørnet
+Tippeligaen scores det 41,5 %, mens Champions League 70,0 % ned i hjørnene.
+Her skiller det hele 28,5 % som er et svært høyt tall.
+Dette er en bevisst handling fra spillerne i Champions League. Det er svært
+vanskelig for en keeper å posisjonere seg for å dekke lavt i hjørnene. Det ser ut
+til at de sitter inne med denne kunnskapen og bevisst ser etter denne
+muligheten for scoring som sitt første valg.
+Ser man på scoringene i Tippeligaen er scoringer lavt i høyre hjørnet utført med
+kontroll, mens lavt i venstre hjørnet er mer tilfeldig.
+Min påstand er at vi er bedre til å plassere med godfoten når vi kommer inn fra
+venstre kant, og bruker vrist med kraft når vi kommer inn fra høyre kant. Her
+har spillerne i Champions League utviklet de ferdighetene i langt større grad.
+I barne- og ungdomsfotballen står trenere og foreldre og skriker ”skyt”, så snart
+en spiller nærmer seg målet. Min trener Arne Sæbø sa alltid til meg ”ta deg god
+tid før du setter ballen i mål” og jeg er helt sikker på at det gjorde meg til en
+”iskald” avslutter. Som Lilleputt scoret jeg 159 mål på 62 kamper i 11’er fotball.
+Side 20 av 34
+
+Det var sjelden noen kremmerhus, men trillet ballen i mål jevnt og trutt. Her
+mener jeg norsk fotball har lang vei å gå på utvikling av måljegere. Dette er en
+ren pasningsferdighet i avslutningsøyeblikket.
+
+6.3 Scoring med kontroll
+Tippeligaen scores det 49,0 %, mens Champions League 86,0 % med kontroll.
+Her skiller det hele 37,0 %.
+I tippeligaen er nesten samtlige scoringer med kontroll utført med innsiden av
+foten, eller som en chip eller lobb over keeperen.
+I Champions League er det i tillegg ytterside som er mye brukt.
+Man kan derfor spørre seg hvorfor dette ikke blir brukt i langt større grad.
+Før man kan utføre denne handlingen trenger man tid, og dette må man skaffe
+seg gjennom gode medtak eller bevegelser i forkant. Den relasjonelle
+handlingen mellom ballfører og avslutter er en viktig faktor. Det å skape rom
+for medspiller slik at han får bedre tid i avslutningsøyeblikket.
+Balanse/tyngdepunkt og orientering i forkant viser seg bedre i Champions
+League. Disse faktorene er helt avgjørende for ballkontroll og flere muligheter i
+avslutningsøyeblikket.
+Dog er jeg sikker på bevisstgjøring av spillernes valg av avslutningsteknikk vil
+være med på å bedre denne ferdigheten. Det handler ikke om deløvelser i ulike
+former, men flytende coaching i spillsekvensen som er lik kampsituasjonen.
+
+6.4 Curl/Plassering
+I Tippeligaen scores 30 % med curl eller plassering, og i Champions League hele
+73 %. Dette henger nøye sammen med kontroll i avslutningsøyeblikket. I Norge
+er vi ofte stresset i disse situasjonene, eller at de ulike målsjansene kommer
+mer av tilfeldigheter. Forsvarsspillet har blitt dårligere i Norge de seneste årene
+og det oppstår sjanser grunnet dette, mens i Champions League kommer det
+Side 21 av 34
+
+som et resultat av glimrende enkeltprestasjoner og relasjonelle handlinger.
+Thierry Henry er en spiller som veldig ofte curler ballen i lengste hjørnet, som
+han gjorde i sitt comeback for Arsenal nylig. Det og curle ballen i hjørnet er en
+ren pasningsferdighet som de beste spillerne har utviklet fra tidlig alder.
+En curlet ball i hjørnet gjør det ekstra vanskelig for keeper, ballens bane starter
+langt utenfor stanga og skrur inn mot mål. I tillegg kan dette benyttes rundt
+forsvarsspillerne som igjen gjør det vanskelig for keeper å se utgangen på
+ballen.
+
+6.5 Scoringer i sone 1cv og 1ch
+I tippeligaen scores 34,5 % innenfor dette området, mens i Champions League
+hele 59,5 %. Forskjellen her er meget interessant. Her er det ulike faktorer som
+forklarer dette.
+Innlegg foran mål:
+I Norge er vi lært opp til å gå hele veien til dødlinja føre innlegget slås inn, mens
+i Champions League kommer det tidlig innlegg mellom forsvar og keeper.
+Norske spillere slår ofte innlegg i høyden kontra curlet innlegg langs bakken i
+Champions League. Det er langt vanskeligere å forsvare seg mot innlegg langs
+bakken enn i lufta. Det hadde vært av stor interesse og sett en analyse på
+dette. Spillerne i Champions League er også bedre til å utfordre stolpen langs
+dødlinjen. Dette gjør at forsvarer må ut i press og åpner mulighet for 45 graders
+pasning og avslutning i dette området. Headinger er det eneste som det scores
+mer av i Tippeligaen enn Champions League.
+Direkte gjennombrudd:
+Internasjonal fotball blir stadig bedre defensivt organisert med kompakte firere
+lavt i banen. Dette gir lite mellomrom, som krever ekstreme ferdigheter i
+medtak og bevegelse for komme rettvendt.
+I Champions League mestrer de dette og kommer rettvendt mot bakre firer
+hvorpå direkte gjennombrudd, veggspill eller dribling fører til scoring nærmere
+målet og sjansen for scoring er langt større.
+
+Side 22 av 34
+
+Etter et besøk hos Athletico Madrid høsten 2011, hvor jeg fulgte G13-G19 i en
+uke så jeg en klar rød tråd i dette arbeidet. Det kommer jeg tilbake til litt
+senere.
+
+Alene med keeper:
+Her ser jeg også en stor forskjell. I tippeligaen avslutter de fleste med kraft
+tidlig innenfor 16-metern. I Champions League utfordrer spilleren keeperen i
+langt større grad. De avventer keepers handling føre de plasserer ballen i
+hjørnene eller chipper ballen over keeperen. I Tippeligaen går 10 % av
+scoringene mellom bena på keeper og kun 2 % i Champions League.
+Jeg nekter å tro at dette er kald beregning av norske spillere. Det virker som de
+er stresset og ingen klar plan for sin handling i avslutningen.
+
+Flere gode bevegelser:
+I Champions League kommer ofte innlegget på 2.- eller 3. bevegelsen i feltet, da
+1. bevegelsen ofte er med på å skape rom. Dette ser vi ikke så klart i
+Tippeligaen.
+Her er jeg sikker på at norsk fotball har veldig mye å gå på for å tilnærme seg
+internasjonal fotball. Vålerenga forsøker i stor gard på dette, men ferdighetene,
+relasjonene og antall som truer rom ofte ikke er gode nok. Derfor ser det litt
+inneffektivt ut bortsett fra de kampene det vikelig løsner.
+Når man først tar opp bevegelsesmønsteret er etter min oppfatning
+internasjonale spillere flinkere til å foreta det jeg kaller Z-løpet. Man beveger
+seg inn mot forsvarer, gir falsk trygghet, føre man trekker bakover i rommet
+man har skapt. Når så den relasjonelle handlingen mellom to spiller er tilstede
+vil dette medføre flere scoringer fra dette området.
+
+Side 23 av 34
+
+6.6 Sett i lys av de ulike dimensjonene
+Her vil jeg analysere det jeg mener er en typisk scoring i Tippeligaen og en
+tilsvarende i Champions League. To nesten identiske scoringer med ulike
+ferdigheter i avslutningen.
+Analyse 1: Tippeligaen Runde 11 Odd-RBK 2-2 (Bakenga)
+Jeg er stor tilhenger av Bakenga’s kvaliteter som spiss og er sikker på at han blir
+en av våre bedre med litt mer erfaring.
+Per Ciljan Skjelbred kommer rettvendt i mellomrom og spiller en presis pasning
+til Bakenga på venstre side. Han tar ballen med mot mål vender bort en spiller
+og skyter ballen over keeper i mål.
+
+Individuelt
+Fremfor å skyte på første touch, velger han kontroll på ball i første omgang som
+var et godt valg. Legger ball over til høyre ben og bruker en ekstra touch for å
+vende bort forsvarsspiller og skaper seg god tid til avslutning som et godt valg.
+Avslutningen blir tilfeldig grunnet dårlig balanse, og feil valg. En god keeper
+redder denne. Ingen automatisert avslutningsferdighet.
+
+Side 24 av 34
+
+Relasjonelt
+Bakenga posisjonerer seg på venstre side uten markering. Han holder seg bredt
+for å få best mulig rom for en gjennombruddspasning, meget godt valg.
+Per Ciljan går på seg press føre han senter i rett øyeblikk til Bakenga som har
+mulighet for avslutning.
+Strukturelt
+Rosenborg kjører raskt i lengderetning etter gjenvinning på midten. De står
+igjen med bakre firer og to dype midtbaner og har full kontroll på def i off. Tar
+kontringen med 4 mann. Per Ciljan frispilt i mellomrom, og Prica gjør en
+motsatt bevegelse som binder opp stopperne til Odd, som frigjør Bakenga på
+venstre side. Dette er klare bevegelser som RBK har trent i overgangsfasen.
+Kampdimensjon
+Odd har bakre firer inntakt og er således i overtall. Men de avgir mye rom på
+venstre kant grunnet frykten for Prica og Per Ciljans ferdigheter med ball. De
+setter ikke inn noe spesielt godt press på ballfører, men faller av for å nekte
+rom. RBK utnytter dette med gode valg fra 1A og flere bevegelser samtidig.
+
+Analyse 2: Champions League Spartak – Chelsea 0-2 (Anelka)
+Chelsea vinner ballen midt på egen banehalvdel. Spiller opp og tilbake føre
+ballen spilles inn sentralt på Essien. Essien rykker gjennom hele midtbane
+leddet og setter fart mot bakre firer. Spiller presist igjennom Anelka som
+kommer fri på venstre kant. Vender bort siste forsvarer og plasserer ballen lavt
+i høyre hjørnet, rundt en sjanseløs keeper.
+
+Side 25 av 34
+
+Individuelt
+Fører og skjermer ballen og velger å vende bort forsvarer fremfor direkte
+skudd, et meget godt valg. Bruker kun en touch i vendingen, og neste touch er
+plassering i mål. Velger presisjon fremfor styrke selv om han er i delvis
+ubalanse. Avslutningen er et resultat av god individuell fredighet og
+automatisert avslutningsferdighet.
+Relasjonelt
+Anelka posisjonerer seg mellom høyre back og stopper, og avventer løpet for å
+unngå offside. Har hele tiden øyekontakt og sidestilt i forhold til 1A (Essien).
+Essien leser at stopper går noen skritt imot som frigjør Anelka. Meget bra
+relasjonell handling mellom Essien og Anelka, som fører til sjansen og scoring.
+Strukturelt
+Chelsea spiller litt seg imellom for å bearbeide motstander, et såkalt
+avventende gjennombrudd. Når så Essien blir spilt fri og tar med ballen
+gjennom midtbaneleddet har de fortsatt god balanse med bakre firer og to
+dype midtbanespillere. 4 mann ser muligheten og følger angrepet fullt ut. Et
+tydelig mønster på hvilke spillere som blir med i angrepet.
+Kampdimensjon
+Spartak står høyt i banen etter balltap. Ene stopperen støter opp i spiller i
+mellomrommet og følger han hele veien over midtbanen. Når ballen spilles til
+Essien og han passerer Spartak’s midtbaneledd, er det kun 3 mann igjen hvor
+høyre back er for offensiv. Dette ser Anelka og beveger seg ut i dette rommet.
+De tør ikke støte på Essien og Anelka spilt fri mellom back og stopper, som er i
+ubalanse.
+Vi har her sett to nesten identiske scoringer, som ender opp i scoring. Dog viser
+den klasseforskjell i det siste sekundet og spissens avslutningsegenskaper.
+Dette er et meget godt bevis på ”sekundene som avgjør fotballkamper”.
+
+Side 26 av 34
+
+6.7 Egentrening og utvikling av to spillere
+I midten av juli startet jeg et prosjekt med en spiller født i 1997. Spilleren har
+ekstrem fart og kom ofte alene med keeper uten å score. Vi satt oss ned og gikk
+igjennom noen enkle regler for avslutningsteknikk. Spilleren ble gjennom dette
+bevisstgjort på enkle detaljer. Videre trente vi 1-2 dager i uken gjennom 2
+måneder på disse detaljene både med og uten motstand. Han scoret 7 mål på
+vårsesongen og 24 mål på høstsesongen. Vi har tatt et langt steg på veien, men
+er ikke i mål. Dette viser at med systematisk trening over tid gir endring i atferd
+i gitte situasjoner.
+Neste person har vært i Tippeligatropp i 3 år. Vi startet i begynnelse av
+desember og jobber kontinuerlig 2-3 ganger i uken. Jeg bruker samme mønster
+som vår unggutt. Han kommer ofte til avslutning i 45 graders vinkel mot mål.
+Tidligere avsluttet han høyt og stort sett over eller i keeperhøyde.
+Vi satte oss ned og gikk igjennom de enkle reglene på samme måte, og la frem
+mine tall fra analysen. Han syntes det var av interesse og ble bevisst på hvor
+ballen skal settes. Det tar noe lenger tid i læringsprosessen, men scoret 2 mål i
+første treningskamp i slutten av januar. Begge scoringene lavt i hjørnet.
+Etter å ha fulgt flere forskjellige lags treninger i norsk toppfotball, er jeg helt
+sikker på at vi må være langt mer bevisst og stille høyere krav til hvor ballen
+settes i mål. Det virker som vi trener mye på å komme i situasjonen, men legger
+mindre vekt på hvordan det avsluttes. Hver avslutning på mål skal analyseres,
+og trekke frem gode bilder for å bekrefte våre påstander om hvor ballen bør
+settes i mål.
+
+Side 27 av 34
+
+6.8 Konsekvenser for norsk fotball
+Norsk fotball kan bli like gode som de beste i verden på avslutningsferdighet.
+Dette handler kun om tid og ressurser, samt kvalifiserte trenere på de ulike
+nivåer.
+Dette er så viktig for tilnærming av et internasjonalt nivå, så NFF har ingen tid å
+miste. Trenere må trene på coaching av avslutningsferdighet, som er noe av det
+viktigste i fotball det å score mål.
+Norsk fotball har mange gode sider, men vi må tørre å ta diskusjonen rundt
+siste 1/3 del av banen, hvor internasjonal fotball ser helt annerledes ut. Vi må
+ikke se etter problemer, men oppgaver vi kan løse sammen.
+Svaret ligger der ute!
+
+6.9 Hvordan skal vi komme dit?
+Norges Fotballforbund kan gjennom de ulike kanaler lage egne
+utviklingsprogrammer for yngre spillere, delt opp i roller på banen. Sette opp
+kravspesifikasjoner i de ulike alderstrinn som bygges på hele veien til
+toppspiller.
+NFF har et glimrende tilbud til keepertrenere, som er en svært viktig del av
+spillet i å hindre mål. Hvorfor har man ikke eget kurs på det å score mål? Det
+finnes mye litteratur, men det er vanskelig for en trener å lese seg til hvordan
+dette skal skje i praksis. Vi må gjøre dette på feltet i kamplike situasjoner.
+Hvis vi i Norge kan få til en fadderordning ved at eldre, gjerne a-lags spillere,
+kan være med en dag i uka på yngres lag og kun gi gode råd om avslutninger vil
+dette få udelt positiv utvikling av norske målscorere.
+
+Side 28 av 34
+
+Vi har i vår klubb egne treningshelger hvor avslutningsferdighet og bevegelse i
+forhold til 1A er tema. Her deltar alle offensive spillere fra G11 til G19. Vi
+starter med å vise gode bilder på video, og en praksis økt føre vi oppsummerer
+til slutt. Dette er med på å ufarliggjøre aldersforskjeller, samt bevisstgjøre
+spillerne på viktigheten av rett type trening.
+Som nevnt tidligere i oppgaven fulgte jeg Athletico Madrids junioravdeling en
+uke i høstferien 2011. De hadde en rød tråd i treningsarbeidet, uansett alder,
+hvordan de skulle angripe i siste 1/3 del av banen. Kreativt individuelt,
+retningslinjer relasjonelt og strukturelt. Mange klubber i Norge har en rød tråd i
+treningsarbeidet, men problemet er ofte at det blir på papiret. Athletico hadde
+5-6 trenere på hvert lag. Dette gjelder både Basic og Kadett. Kadett er de 22
+beste i hver årgang som trente samme sted som klubbens A-lag.
+Coaching – trenerens bidrag; Treneren må i spillsekvenser coache på valg mer
+enn på utførelse, for å bevisstgjøre spillerne og øke deres fotballforståelse.
+Dette gjøres etter min mening best ved å ha en spørrende tilnærming. Spillerne
+lærer bedre og blir mer engasjerte når de må tenke selv - og finne de rette
+løsningene. Da er det avgjørende at treneren velger tema, momenter til tema,
+og at det skapes bilder der det er effektivt å stille spørsmål.
+Trening som ivaretar alle de fire ulike dimensjonene ved fotballferdigheten, er
+altså særs viktig for å videreutvikle lagets ferdighet. Årsaken er at slik trening vil
+gi spillerne en bedre fotballforståelse, og dermed bedre forutsetninger for å
+lykkes. Selv om kampsituasjonene sjelden er helt like, vil spillere som ofte
+opplever gjenkjenning av situasjoner i vante roller ha bedre muligheter for å
+lykkes i kamp.
+
+Side 29 av 34
+
+7. Konklusjon
+Jeg har i denne oppgaven analysert data på tre ulike måter:
+- Kvantitativ analyse 1 av alle scoringer i Tippeligaens 15 første runder
+2011, og Champions League 2010/11 gruppespillet.
+- Kvantitativ analyse 2 av alle scoringer innenfor gitte områder hvor
+spilleren har tid til handlingsvalg og utførelse.
+- Kvalitativ analyse av to nesten identiske scoringer sett i lys av de fire
+ulike dimensjonene.
+
+Gjennom kvantitativ analyse 1 av alle scoringer viser at 48,0 % i Tippeligaen og
+56,3 % i Champions League, scores med fot mellom 5 meteren og 16 meteren.
+Sett i forhold til problemstillingen er svaret enkelt; lag som er dyktige i denne
+fasen av spillet vil få gevinst i form av scoringer.
+Jeg konkluderer derfor med at dette er den type avslutning det scores mest.
+
+I tillegg har jeg gjennom kvantitativ analyse 2 av alle scoringer innenfor gitt
+område hvor spilleren har tid til handlingsvalg og utførelse, funnet store
+forskjeller mellom Tippeligaen og Champions League.
+I Tippeligaen scores 41,5 % lavt i hjørnene i motsetning til Champions League
+hvor hele 70,0 % scores lavt i hjørnene. Sett i forhold til problemstillingen vil lag
+som innehar denne ferdigheten få gevinst i form av scoringer. Funn 1.
+Jeg konkluderer derfor med at forskjellen mellom Tippeligaen og Champions
+League ligger i pasningsferdighet som en del av avslutningsferdigheten, og at
+dette er automatisert gjennom ulike treningsmetoder.
+I tillegg har jeg gjennom kvantitative analyse 2 funnet ut at i Champions League
+scores det mye mer i sone 1cv og 1ch. Lag som spiller seg til målsjanser i dette
+området vil få gevinst i form av flere scoringer. Funn 2.
+Jeg konkluderer derfor at største forskjellen mellom Tippeligaen og
+Champions League ligger i evnen til å utnytte lite bakrom ved direkte
+gjennombrudd og kvaliteten på innlegg.
+
+Side 30 av 34
+
+I den kvalitative analysen av to nesten identiske scoringer sett i lys av de fire
+ulike dimensjonene, er det mange likhetstrekk i den relasjonelle dimensjonen,
+strukturelle dimensjonen og kampdimensjonen. Den store forskjellen ligger i
+den individuelle dimensjonen. Lag som innehar denne ferdigheten vil få gevinst
+i form av flere scoringer.
+Jeg konkluderer derfor at største forskjellen mellom disse to scoringene ligger
+i den individuelle dimensjonen. Herunder er avslutningsferdighet klart mer
+automatisert i analyse 2.
+
+Side 31 av 34
+
+8. Litteraturliste
+- Aksel Bergo, Pål Arne Johansen, Øyvind Larsen, Andreas Morisbak
+”Ferdighetsutvikling i fotball – handlingsvalg og handling”, NFF, Akilles
+2002.
+- Sverre Dreier, Andreas Morisbak, Terje Skarsfjord
+”Fotballferdigheten”, NFF, Akilles 2009.
+- Geir Jordet
+”Fotballpsykologi”, NFF UEFA A-lisens teori Porsgrunn 2011.
+- Norsk Toppfotballsenter
+”CEAL” scoringer Tippeligaen 2011, Web portalside.
+- UEFA Champions League
+”UEFA
+Champions League 2010/11 Goals”, DVD.
+- Lars Tore Ronglan
+”Ballspill er problemløsning. Hvilke didaktiske implikasjoner har det?
+2003.
+- Olav Dalland
+”Metode og oppgaveskriving for studenter”. Universitetsforlaget 2000.
+- www.wikipedia.no
+
+8.1 Vedlegg
+-
+
+Analyse Tippeligaen 2011 - Vårsesongen
+Hvordan scorer de ulike lagene i Tippeligaen 2011- Vårsesongen
+Analyse Champions League 2010/11 – Gruppespillet
+Hvordan scorer de ulike lagene i Champions League 2011- Vårsesongen
+
+Side 32 av 34
+
+9. Sammendrag
+Tittel
+Sekundene som avgjør fotballkamper
+
+Tilnærming til oppgaven
+Sitter igjen med en følelse at lagene rundt oss i Europa, utnytter de få sjansene
+de får. På denne måten vil jeg med en kvalitativ inngang se på forskjellen i
+avslutningsferdighet mellom Tippeligaen og Champion League. For å avgrense
+oppgaven valgte jeg følgende parametre:
+• Scoringer innenfor begrensede områder
+• Scoringer utført med fot
+• Scoringer hvor spilleren har tid til handlingsvalg og handling
+Problemstilling
+I Norge virker vi stresset i avslutningsøyeblikket, mens i internasjonal fotball
+virker dette automatisert. Oppgaven kunne blitt av stort omfang, men avgrense
+er et ord vi har vært mye innom og kom da frem til følgende problemstilling
+som oppgaven har til hensikt å besvare:
+Problemstilling er forskjellen i spillernes avslutningsferdighet mellom Tippeliga
+og Champions League innenfor de 6 avgrensede områder?
+
+Metode
+Jeg har valgt å kombinere flere metoder, som jeg føler er 100 % nødvendig for
+en oppgave av denne karakter.
+Observasjon, samtale, testpersoner, egenerfaring, videoanalyse og studiereise.
+Videoanalysen tok i overkant av 150 timer med hele 619 scoringer. Dette ga
+meg grunnlaget for oppgavens problemstilling.
+Det har vært svært lærerikt og vil definitivt forandre min hverdag som trener.
+Med dette mener jeg både nye ting og forsterket det vi har lært på kursene til
+NFF.
+
+Side 33 av 34
+
+Teori
+Dette kapittelet omfatter mye av de ting vi har lært om fotballferdighet. I
+tillegg er jeg opptatt av læringsprosessen i utviklingsfasen av spilleren.
+
+Resultater og diskusjon
+Her kommer de markante forskjellene mellom Tippeligaen og Champions
+League frem. De som ønsker å lese denne oppgaven vil sitte igjen med en
+følelse at de har observert dette over lang tid. Men det er helt sikkert enkelte
+funn som er gjort man ikke har tenkt over tidligere.
+Håper og tror at dette kan gi diskusjoner i fremtiden og gi oss trenere en tanke
+å jobbe videre med for å score flere mål i gitte situasjoner.
+Som eksempel kan nevnes at det scores mange flere mål i Champions League
+mellom 5 meteren og straffemerket. Eneste kategori Tippeligaen scorer mer er
+på heading. Hva skyldes dette? Innlegg? Spillestil? Forskjell i ferdigheter?
+Det er gjort tre ulike analyser i oppgaven:
+- Kvantitativ analyse av alle scoringer i Tippeligaens 15 første runder 2011,
+og Champions League 2010/11 gruppespillet.
+- Kvantitativ analyse av alle scoringer innenfor gitte områder hvor spilleren
+har tid til handlingsvalg og utførelse.
+- Kvalitativ analyse av to nesten identiske scoringer sett i lys av de fire
+ulike dimensjonene.
+Disse har gitt grunnlaget for mine konklusjoner i oppgaven.
+Denne type oppgave har gitt meg mange ting å tenke på som trener, og
+kommer helt sikkert til å være med på min egenutvikling. Målsetninger vi satte
+opp i Porsgrunn er blitt forsterket og gleder meg til å bidra i norsk fotball i
+mange år fremover.
+
+Side 34 av 34
+
+

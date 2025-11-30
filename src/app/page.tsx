@@ -4,16 +4,25 @@ import { PlayerSetup } from "@/components/PlayerSetup";
 import { ExerciseList } from "@/components/ExerciseList";
 import { SessionTimeline } from "@/components/SessionTimeline";
 import { EquipmentList } from "@/components/EquipmentList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
 import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
+import { useSessionStore } from "@/store/sessionStore";
 import Link from "next/link";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
   const [sourceFilter, setSourceFilter] = useState<SourceFilter>(null);
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
+  const highlightExerciseId = useSessionStore((state) => state.highlightExerciseId);
+  const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
+
+  // Sett UEFA-filter når highlightExerciseId er satt (fra URL)
+  const initialSourceFilter = highlightExerciseId ? "uefa" : null;
+  if (sourceFilter === null && initialSourceFilter) {
+    setSourceFilter(initialSourceFilter as SourceFilter);
+  }
 
   return (
     <div className="min-h-screen bg-zinc-50">
@@ -57,7 +66,7 @@ export default function Home() {
           {/* Venstre kolonne - Velg øvelser */}
           <div className="space-y-6">
             <PlayerSetup />
-            <ExerciseManager />
+            <ExerciseManager highlightExerciseId={highlightExerciseId} onHighlightConsumed={() => setHighlightExercise(null)} />
             <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
               <div className="flex flex-col gap-3">
                 <div className="flex items-center justify-between">

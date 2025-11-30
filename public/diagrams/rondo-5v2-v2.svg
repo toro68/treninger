@@ -1,0 +1,143 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for gressbane -->
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a7d32"/>
+      <stop offset="50%" style="stop-color:#2d5a27"/>
+      <stop offset="100%" style="stop-color:#3a7d32"/>
+    </linearGradient>
+    
+    <!-- Skygge-filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Fotball-mønster -->
+    <pattern id="ballPattern" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="6" fill="#fff"/>
+      <path d="M6,0 L8,4 L6,6 L4,4 Z" fill="#333"/>
+    </pattern>
+    
+    <!-- Pil-markør -->
+    <marker id="arrowYellow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <!-- Bakgrunn med gradient -->
+  <rect x="10" y="10" width="280" height="280" fill="url(#grassGradient)" rx="6"/>
+  
+  <!-- Gresstriper-effekt -->
+  <g opacity="0.1">
+    <rect x="10" y="10" width="40" height="280" fill="#fff"/>
+    <rect x="90" y="10" width="40" height="280" fill="#fff"/>
+    <rect x="170" y="10" width="40" height="280" fill="#fff"/>
+    <rect x="250" y="10" width="40" height="280" fill="#fff"/>
+  </g>
+  
+  <!-- Ytre ramme -->
+  <rect x="10" y="10" width="280" height="280" fill="none" stroke="#fff" stroke-width="2.5" rx="6"/>
+  
+  <!-- Rondo-sone med gradient-kant -->
+  <rect x="60" y="60" width="180" height="180" fill="rgba(255,255,255,0.08)" rx="8"/>
+  <rect x="60" y="60" width="180" height="180" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-dasharray="8,4" rx="8"/>
+  
+  <!-- Kjegler med 3D-effekt -->
+  <g filter="url(#dropShadow)">
+    <polygon points="60,50 52,68 68,68" fill="#ff6b00"/>
+    <polygon points="60,50 56,59 60,56" fill="#ffaa00" opacity="0.6"/>
+  </g>
+  <g filter="url(#dropShadow)">
+    <polygon points="240,50 232,68 248,68" fill="#ff6b00"/>
+    <polygon points="240,50 236,59 240,56" fill="#ffaa00" opacity="0.6"/>
+  </g>
+  <g filter="url(#dropShadow)">
+    <polygon points="240,232 232,250 248,250" fill="#ff6b00"/>
+    <polygon points="240,232 236,241 240,238" fill="#ffaa00" opacity="0.6"/>
+  </g>
+  <g filter="url(#dropShadow)">
+    <polygon points="60,232 52,250 68,250" fill="#ff6b00"/>
+    <polygon points="60,232 56,241 60,238" fill="#ffaa00" opacity="0.6"/>
+  </g>
+  
+  <!-- Pasningspiler med kurve -->
+  <path d="M150,34 Q200,50 256,98" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowYellow)"/>
+  <path d="M256,110 Q240,150 256,190" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,3" opacity="0.5"/>
+  
+  <!-- Spillere Lag A (røde) med gradient og skygge -->
+  <g filter="url(#dropShadow)">
+    <!-- Spiller 1 - har ballen -->
+    <circle cx="150" cy="34" r="14" fill="#dc2626"/>
+    <circle cx="150" cy="34" r="14" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="146" cy="30" r="4" fill="#fff" opacity="0.3"/>
+    <text x="150" y="34" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  </g>
+  
+  <g filter="url(#dropShadow)">
+    <!-- Spiller 2 -->
+    <circle cx="266" cy="105" r="14" fill="#dc2626"/>
+    <circle cx="266" cy="105" r="14" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="262" cy="101" r="4" fill="#fff" opacity="0.3"/>
+    <text x="266" y="105" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  </g>
+  
+  <g filter="url(#dropShadow)">
+    <!-- Spiller 3 -->
+    <circle cx="266" cy="195" r="14" fill="#dc2626"/>
+    <circle cx="266" cy="195" r="14" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="262" cy="191" r="4" fill="#fff" opacity="0.3"/>
+    <text x="266" y="195" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  </g>
+  
+  <g filter="url(#dropShadow)">
+    <!-- Spiller 4 -->
+    <circle cx="150" cy="266" r="14" fill="#dc2626"/>
+    <circle cx="150" cy="266" r="14" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="146" cy="262" r="4" fill="#fff" opacity="0.3"/>
+    <text x="150" y="266" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  </g>
+  
+  <g filter="url(#dropShadow)">
+    <!-- Spiller 5 -->
+    <circle cx="34" cy="150" r="14" fill="#dc2626"/>
+    <circle cx="34" cy="150" r="14" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="30" cy="146" r="4" fill="#fff" opacity="0.3"/>
+    <text x="34" y="150" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  </g>
+  
+  <!-- Pressende spillere Lag B (blå) -->
+  <g filter="url(#dropShadow)">
+    <circle cx="120" cy="130" r="14" fill="#2563eb"/>
+    <circle cx="120" cy="130" r="14" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+    <circle cx="116" cy="126" r="4" fill="#fff" opacity="0.3"/>
+    <text x="120" y="130" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="10" font-weight="bold" font-family="Arial, sans-serif">P1</text>
+  </g>
+  
+  <g filter="url(#dropShadow)">
+    <circle cx="180" cy="170" r="14" fill="#2563eb"/>
+    <circle cx="180" cy="170" r="14" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+    <circle cx="176" cy="166" r="4" fill="#fff" opacity="0.3"/>
+    <text x="180" y="170" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="10" font-weight="bold" font-family="Arial, sans-serif">P2</text>
+  </g>
+  
+  <!-- Fotball med realistisk design -->
+  <g filter="url(#dropShadow)">
+    <circle cx="150" cy="34" r="7" fill="#fff"/>
+    <circle cx="150" cy="34" r="7" fill="none" stroke="#333" stroke-width="0.8"/>
+    <!-- Pentagon-mønster -->
+    <path d="M150,29 L152.5,32 L151.5,35.5 L148.5,35.5 L147.5,32 Z" fill="#333"/>
+    <circle cx="150" cy="34" r="2" fill="#333"/>
+  </g>
+  
+  <!-- Tittel-boks -->
+  <rect x="90" y="275" width="120" height="20" fill="rgba(0,0,0,0.5)" rx="4"/>
+  <text x="150" y="287" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Rondo 5v2</text>
+  
+  <!-- Legende -->
+  <g transform="translate(15, 275)">
+    <circle cx="6" cy="6" r="4" fill="#dc2626"/>
+    <text x="14" y="9" fill="#fff" font-size="8" font-family="Arial, sans-serif">Angrep</text>
+    <circle cx="50" cy="6" r="4" fill="#2563eb"/>
+    <text x="58" y="9" fill="#fff" font-size="8" font-family="Arial, sans-serif">Press</text>
+  </g>
+</svg>
