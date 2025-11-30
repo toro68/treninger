@@ -372,7 +372,18 @@ export const MindsetSection = () => {
         className="flex w-full items-center justify-between p-4 text-left"
       >
         <div>
-          <h3 className="text-lg font-semibold text-zinc-900">Mindset og mentaltrening</h3>
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-3">
+            <h3 className="text-lg font-semibold text-zinc-900">Mindset og mentaltrening</h3>
+            <a
+              href="/mindset"
+              onClick={(event) => event.stopPropagation()}
+              className="text-sm font-medium text-blue-600 underline-offset-2 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Åpne fullversjon →
+            </a>
+          </div>
           <p className="text-sm text-zinc-500">Tankesett, tilbakemeldinger og garderobepraten</p>
         </div>
         <span className="text-xl text-zinc-400">{isOpen ? "−" : "+"}</span>
