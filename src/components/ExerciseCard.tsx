@@ -198,36 +198,36 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
             </a>
           )}
         </div>
-        {showDetails && (
-          <div className="mt-2 rounded-xl bg-zinc-100 p-3 text-xs text-zinc-600">
-            {exercise.coachingPoints.length > 0 && (
-              <div className="mb-2">
-                <p className="font-medium text-zinc-800">Coaching</p>
-                <ul className="ml-4 list-disc space-y-1">
-                  {exercise.coachingPoints.map((point) => (
-                    <li key={point}>{point}</li>
-                  ))}
-                </ul>
+            {showDetails && (
+              <div className="mt-2 rounded-xl bg-zinc-100 p-3 text-xs text-zinc-600">
+                {exercise.coachingPoints.length > 0 && (
+                  <div className="mb-2">
+                    <p className="font-medium text-zinc-800">Coaching</p>
+                    <ul className="ml-4 list-disc space-y-1">
+                      {exercise.coachingPoints.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {exercise.variations.length > 0 && (
+                  <div className="mb-2">
+                    <p className="font-medium text-zinc-800">Varianter</p>
+                    <ul className="ml-4 list-disc space-y-1">
+                      {exercise.variations.map((variation) => (
+                        <li key={variation}>{variation}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {exercise.sourceRef && (
+                  <div className="print:hidden">
+                    <p className="font-medium text-zinc-800">Kilde</p>
+                    <p className="ml-4 text-zinc-600">{exercise.sourceRef}</p>
+                  </div>
+                )}
               </div>
             )}
-            {exercise.variations.length > 0 && (
-              <div className="mb-2">
-                <p className="font-medium text-zinc-800">Varianter</p>
-                <ul className="ml-4 list-disc space-y-1">
-                  {exercise.variations.map((variation) => (
-                    <li key={variation}>{variation}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {exercise.sourceRef && (
-              <div className="print:hidden">
-                <p className="font-medium text-zinc-800">📚 Kilde</p>
-                <p className="ml-4 text-zinc-600">{exercise.sourceRef}</p>
-              </div>
-            )}
-          </div>
-        )}
       </div>
     </label>
   );

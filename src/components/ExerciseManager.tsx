@@ -52,6 +52,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
     });
   }, [exercises, searchQuery]);
 
+
   useEffect(() => {
     if (highlightExerciseId) {
       const match = filtered.find((exercise) => exercise.id === highlightExerciseId);
@@ -61,22 +62,6 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
       }
     }
   }, [highlightExerciseId, filtered, setSearchQuery, onHighlightConsumed]);
-
-  // DEBUG: Logg søkeresultater
-  useEffect(() => {
-    if (searchQuery.trim()) {
-      console.log('[DEBUG] Søk:', searchQuery);
-      console.log('[DEBUG] Antall øvelser i bibliotek:', exercises.length);
-      console.log('[DEBUG] Antall treff:', filtered.length);
-      // Vis de første 5 treffene
-      filtered.slice(0, 5).forEach(e => {
-        console.log(`  - ${getExerciseCode(e)}: ${e.name}`);
-      });
-      // Sjekk om S45 finnes i biblioteket
-      const s45 = exercises.find(e => getExerciseCode(e) === 'S45');
-      console.log('[DEBUG] S45 i bibliotek:', s45 ? `${s45.name} (id: ${s45.id})` : 'IKKE FUNNET');
-    }
-  }, [searchQuery, exercises, filtered]);
 
   const handleEdit = (exercise: Exercise) => {
     setEditing(exercise);
@@ -109,15 +94,35 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
     setEditing({ ...editing, [field]: [...editing[field], ""] });
   };
 
+  const validateExercise = (exercise: Exercise) => {
+    const errors: string[] = [];
+    if (!exercise.name.trim()) {
+      errors.push('Øvelsen må ha navn');
+    }
+    if (!Number.isFinite(exercise.duration) || exercise.duration <= 0) {
+      errors.push('Varighet må være et positivt tall');
+    }
+    if (exercise.playersMin <= 0 || exercise.playersMax <= 0) {
+      errors.push('Antall spillere må være større enn 0');
+    }
+    if (exercise.playersMin > exercise.playersMax) {
+      errors.push('Min. antall spillere kan ikke være større enn maks.');
+    }
+    return errors;
+  };
+
   const handleSubmit = () => {
     if (!editing) return;
-    if (!editing.id) {
-      handleChange("id", crypto.randomUUID());
+    const errors = validateExercise(editing);
+    if (errors.length > 0) {
+      alert(errors.join('\n'));
+      return;
     }
-    if (exercises.some((ex) => ex.id === editing.id)) {
-      updateExercise(editing.id, editing);
+    const payload = editing.id ? editing : { ...editing, id: crypto.randomUUID() };
+    if (exercises.some((ex) => ex.id === payload.id)) {
+      updateExercise(payload.id, payload);
     } else {
-      addExercise(editing);
+      addExercise(payload);
     }
     setEditing(null);
   };
@@ -153,7 +158,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
               Ny øvelse
             </button>
           </div>
-          <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100">
+          <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100" role="region" aria-live="polite">
         <table className="w-full text-sm">
           <thead className="bg-zinc-50 text-left text-xs uppercase text-zinc-500">
             <tr>

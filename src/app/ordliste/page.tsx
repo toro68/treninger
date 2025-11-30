@@ -268,7 +268,7 @@ export default function OrdlistePage() {
             >
               ← Tilbake til treningsplanlegger
             </Link>
-            <h1 className="text-3xl font-bold text-white">📖 Fotballordliste</h1>
+            <h1 className="text-3xl font-bold text-white">Fotballordliste</h1>
             <p className="text-gray-400 mt-2">
               J14-språket: Fra 1F til Gjenvinning
             </p>
@@ -285,7 +285,9 @@ export default function OrdlistePage() {
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full bg-gray-800/90 text-white border border-gray-700 rounded-xl py-4 px-6 pl-12 shadow-lg backdrop-blur-sm focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all placeholder-gray-500"
             />
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl">🔍</span>
+            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xs uppercase tracking-wide text-gray-500">
+              Søk
+            </span>
           </div>
         </div>
 
@@ -335,7 +337,7 @@ export default function OrdlistePage() {
                       {item.example && (
                         <div className="bg-gray-900/50 rounded-lg p-3 border-l-4 border-blue-500/50">
                           <p className="text-gray-400 text-sm italic">
-                            <span className="not-italic mr-2">🗣️</span> 
+                            <span className="not-italic mr-2">Sitat:</span>
                             {item.example}
                           </p>
                         </div>
@@ -347,7 +349,7 @@ export default function OrdlistePage() {
             ))
           ) : (
             <div className="text-center py-12 text-gray-500">
-              <p className="text-xl">Ingen treff på &quot;{searchTerm}&quot; 🤷‍♂️</p>
+              <p className="text-xl">Ingen treff på &quot;{searchTerm}&quot;</p>
               <p className="text-sm mt-2">Prøv et annet ord eller sjekk stavingen.</p>
             </div>
           )}
@@ -356,7 +358,7 @@ export default function OrdlistePage() {
         {/* Footer */}
         <div className="mt-12 pt-8 border-t border-gray-700 text-center">
           <p className="text-gray-500 text-sm">
-            Mangler du et ord? Spør treneren på neste økt! ⚽️
+            Mangler du et ord? Spør treneren på neste økt!
           </p>
         </div>
       </div>

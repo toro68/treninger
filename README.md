@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Treningsplanlegger
 
-## Getting Started
+Planleggingsverktøy for fotballøkter bygget på Next.js App Router og Zustand. Prosjektet kombinerer klubbens egne øvelser med importerte biblioteker (UEFA, DBU, tiim.no m.fl.) og lar trenerteamet filtrere, favorisere og sette sammen økter med tilpasset utstyrs- og kampforberedelse.
 
-First, run the development server:
+## Kom i gang
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Åpne http://localhost:3000 for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Nøkkelfunksjoner
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Øvelsesbibliotek:** Alle øvelser ligger i `src/data/`. Custom‑øvelser som legges til via UI persisteres i Zustand‐store og hydreres automatisk.
+- **Filtre og søk:** `src/components/Filters.tsx` styrer tema-, kilde- og spillerantallsfiltre. Tema- og kildevalg påvirker alle `ExerciseList` forekomster.
+- **Øktplan:** `SessionTimeline` grupperer valgte øvelser i faste bolker, håndterer drag & drop, utskrift og deling.
+- **Kampverktøy:** MatchPrep, UEFASeksjon og FormasjonerSeksjon bruker data fra `src/data/uefa*`.
 
-## Learn More
+## Tilgjengelige skript
 
-To learn more about Next.js, take a look at the following resources:
+| Kommando | Beskrivelse |
+| --- | --- |
+| `npm run dev` | Lokal utvikling med hot reload |
+| `npm run build` | Prod-bundle |
+| `npm run start` | Server prod-bundle |
+| `npm run lint` | ESLint med Next.js config |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Struktur
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+  app/          // Next.js routes
+  components/   // UI-moduler (ExerciseManager, SessionTimeline, osv.)
+  data/         // Øvelses- og kampdata
+  store/        // Zustand (sessionStore)
+  hooks/        // Delte hooks
+```
 
-## Deploy on Vercel
+## Videre arbeid
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Legg til tester for filterlogikk og highlight-flow.
+- Dokumenter prosess for å importere nye datakilder (`src/data/*`).

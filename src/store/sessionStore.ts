@@ -13,6 +13,7 @@ export type SessionBlock = {
 
 type SessionState = {
   exerciseLibrary: Exercise[];
+  customExercises: Exercise[];
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -81,10 +82,17 @@ const buildTimeline = ({
   return timeline;
 };
 
+const sortExercises = (exercises: Exercise[]) =>
+  [...exercises].sort((a, b) => a.name.localeCompare(b.name, "nb"));
+
+const buildExerciseLibrary = (custom: Exercise[] = []) =>
+  sortExercises([...allExercises, ...custom]);
+
 export const useSessionStore = create<SessionState>()(
   persist(
     (set, get) => ({
-      exerciseLibrary: [...allExercises],
+      customExercises: [],
+      exerciseLibrary: buildExerciseLibrary(),
       playerCount: 12,
       stationCount: 3,
       searchQuery: '',
@@ -117,7 +125,6 @@ export const useSessionStore = create<SessionState>()(
         }),
       addExercise: (exercise) =>
         set((state) => {
-          // Finn høyeste exerciseNumber og legg til 1
           const maxNumber = state.exerciseLibrary.reduce(
             (max, ex) => Math.max(max, ex.exerciseNumber || 0),
             0
@@ -126,17 +133,33 @@ export const useSessionStore = create<SessionState>()(
             ...exercise,
             exerciseNumber: exercise.exerciseNumber || maxNumber + 1,
           };
-          const next = [...state.exerciseLibrary, exerciseWithNumber].sort((a, b) =>
-            a.name.localeCompare(b.name, "nb")
-          );
-          return { exerciseLibrary: next };
+          const updatedCustom = sortExercises([
+            ...state.customExercises,
+            exerciseWithNumber,
+          ]);
+          return {
+            customExercises: updatedCustom,
+            exerciseLibrary: buildExerciseLibrary(updatedCustom),
+          };
         }),
       updateExercise: (id, updated) =>
         set((state) => {
-          const next = state.exerciseLibrary
-            .map((exercise) => (exercise.id === id ? updated : exercise))
-            .sort((a, b) => a.name.localeCompare(b.name, "nb"));
-          return { exerciseLibrary: next };
+          const updateList = (list: Exercise[]) =>
+            list.map((exercise) => (exercise.id === id ? updated : exercise));
+
+          const isCustom = state.customExercises.some((exercise) => exercise.id === id);
+
+          if (isCustom) {
+            const nextCustom = sortExercises(updateList(state.customExercises));
+            return {
+              customExercises: nextCustom,
+              exerciseLibrary: buildExerciseLibrary(nextCustom),
+            };
+          }
+
+          return {
+            exerciseLibrary: sortExercises(updateList(state.exerciseLibrary)),
+          };
         }),
       plannedBlocks: null,
       setPlannedBlocks: (blocks) => set({ plannedBlocks: blocks }),
@@ -170,26 +193,29 @@ export const useSessionStore = create<SessionState>()(
     {
       name: "treninger-session",
       partialize: (state) => ({
-        // Lagre kun brukerdata, ikke hele exerciseLibrary (den hentes fra koden)
         playerCount: state.playerCount,
         stationCount: state.stationCount,
         selectedExerciseIds: state.selectedExerciseIds,
         favoriteIds: state.favoriteIds,
         plannedBlocks: state.plannedBlocks,
         searchQuery: state.searchQuery,
+        customExercises: state.customExercises,
       }),
       storage: {
         getItem: (name) => {
           const str = localStorage.getItem(name);
           if (!str) return null;
           const parsed = JSON.parse(str);
+          const persistedCustom = parsed.state?.customExercises ?? [];
+          const exerciseLibrary = buildExerciseLibrary(persistedCustom);
           
           // Oppdater plannedBlocks med ferske øvelsesdata
           let updatedPlannedBlocks = parsed.state.plannedBlocks;
           if (updatedPlannedBlocks && Array.isArray(updatedPlannedBlocks)) {
             updatedPlannedBlocks = updatedPlannedBlocks.map((block: SessionBlock) => {
-              // Finn fersk øvelse fra allExercises-arrayen
-              const freshExercise = allExercises.find(ex => ex.id === block.exercise?.id);
+              const freshExercise = exerciseLibrary.find(
+                (ex) => ex.id === block.exercise?.id
+              );
               if (freshExercise) {
                 return {
                   ...block,
@@ -204,8 +230,8 @@ export const useSessionStore = create<SessionState>()(
             ...parsed,
             state: {
               ...parsed.state,
-              // Bruk alltid den nyeste exerciseLibrary fra koden
-              exerciseLibrary: [...allExercises],
+              exerciseLibrary,
+              customExercises: persistedCustom,
               plannedBlocks: updatedPlannedBlocks,
               selectedExerciseIds: new Set(parsed.state.selectedExerciseIds || []),
               favoriteIds: new Set(parsed.state.favoriteIds || []),
@@ -221,6 +247,7 @@ export const useSessionStore = create<SessionState>()(
               selectedExerciseIds: Array.from(value.state.selectedExerciseIds || []),
               favoriteIds: Array.from(value.state.favoriteIds || []),
               searchQuery: value.state.searchQuery ?? '',
+              customExercises: value.state.customExercises ?? [],
             },
           };
           localStorage.setItem(name, JSON.stringify(toStore));

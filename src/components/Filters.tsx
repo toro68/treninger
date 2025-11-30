@@ -121,8 +121,8 @@ export const Filters = ({
     allExercises.forEach((exercise) => {
       // "egen" er øvelser uten source eller med source som ikke er tiim/eggen/dbu/rondo/hyballa/bangsbo/dugger
       const source = exercise.source || "egen";
-      // Eggen-øvelser har source: "eggen", men vi viser dem under "egen" også
-      const key = source === "eggen" ? "egen" : source;
+      const fallbackSources = new Set(["prickett", "101youth", "seeger", "matkovich", "worldclass"]);
+      const key = source === "eggen" || fallbackSources.has(source) ? "egen" : source;
       counts[key] = (counts[key] ?? 0) + 1;
     });
     // Tell Eggen separat
@@ -134,11 +134,12 @@ export const Filters = ({
   const availableThemes = useMemo(() => {
     const themeCounts: Record<string, number> = {};
     allExercises.forEach((exercise) => {
-      const matchesPlayerCount =
-        playerCount >= exercise.playersMin &&
-        playerCount <= exercise.playersMax;
-
-      if (!matchesPlayerCount) return;
+      if (filterByPlayerCount) {
+        const matchesPlayerCount =
+          playerCount >= exercise.playersMin &&
+          playerCount <= exercise.playersMax;
+        if (!matchesPlayerCount) return;
+      }
       
       // Filtrer på kilde
       if (sourceFilter !== null) {
@@ -158,7 +159,7 @@ export const Filters = ({
       themeCounts[key] = (themeCounts[key] ?? 0) + 1;
     });
     return Object.keys(themeCounts);
-  }, [playerCount, sourceFilter]);
+  }, [playerCount, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 

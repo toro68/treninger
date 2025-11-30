@@ -18,11 +18,11 @@ export default function Home() {
   const highlightExerciseId = useSessionStore((state) => state.highlightExerciseId);
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
 
-  // Sett UEFA-filter når highlightExerciseId er satt (fra URL)
-  const initialSourceFilter = highlightExerciseId ? "uefa" : null;
-  if (sourceFilter === null && initialSourceFilter) {
-    setSourceFilter(initialSourceFilter as SourceFilter);
-  }
+  useEffect(() => {
+    if (highlightExerciseId) {
+      setSourceFilter("uefa");
+    }
+  }, [highlightExerciseId]);
 
   return (
     <div className="min-h-screen bg-zinc-50">
@@ -30,7 +30,9 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-center gap-3">
-            <span className="text-2xl">⚽</span>
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 text-sm font-semibold text-zinc-600">
+              TP
+            </span>
             <h1 className="text-lg font-bold text-zinc-900">Treningsplanlegger</h1>
           </div>
           <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">J16</span>
@@ -54,7 +56,7 @@ export default function Home() {
               href="/ordliste"
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
-              📖 Ordliste
+              Ordliste
             </Link>
           </nav>
         </div>
@@ -124,7 +126,10 @@ export default function Home() {
         {/* Mobil: Alt i én kolonne, øktplan nederst */}
         <div className="lg:hidden space-y-4">
           <PlayerSetup />
-          <ExerciseManager />
+          <ExerciseManager
+            highlightExerciseId={highlightExerciseId}
+            onHighlightConsumed={() => setHighlightExercise(null)}
+          />
           <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
             <div className="flex flex-col gap-3">
               <div className="flex items-center justify-between">
