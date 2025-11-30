@@ -11,6 +11,12 @@ export type SessionBlock = {
   customUnit?: DurationUnit;
 };
 
+type SerializedBlock = {
+  id: string;
+  customDuration?: number;
+  customUnit?: DurationUnit;
+};
+
 type SessionState = {
   customExercises: Exercise[];
   exerciseLibrary: Exercise[];
@@ -93,6 +99,75 @@ const hydrateSet = (value?: string[] | Set<string>) => {
   if (!value) return new Set<string>();
   if (value instanceof Set) return value;
   return new Set(value);
+};
+
+const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock[] | null => {
+  if (!Array.isArray(blocks) || blocks.length === 0) return null;
+  return blocks.map(({ id, customDuration, customUnit }) => ({
+    id,
+    customDuration,
+    customUnit,
+  }));
+};
+
+const hydratePlannedBlocks = (
+  value: unknown,
+  exerciseLibrary: Exercise[]
+): SessionBlock[] | null => {
+  if (!value) return null;
+  const ensureUnit = (unit?: unknown): DurationUnit | undefined => {
+    if (unit === "min" || unit === "reps") return unit;
+    return undefined;
+  };
+
+  if (Array.isArray(value)) {
+    const hydrated: SessionBlock[] = [];
+    value.forEach((entry) => {
+      if (!entry) return;
+      if (typeof entry === "object" && "id" in entry && typeof entry.id === "string") {
+        const exercise = exerciseLibrary.find((ex) => ex.id === entry.id);
+        if (!exercise) return;
+        hydrated.push({
+          id: exercise.id,
+          exercise,
+          customDuration:
+            typeof (entry as SerializedBlock).customDuration === "number"
+              ? (entry as SerializedBlock).customDuration
+              : undefined,
+          customUnit: ensureUnit((entry as SerializedBlock).customUnit),
+        });
+      } else if (
+        typeof entry === "object" &&
+        "exercise" in entry &&
+        (entry as SessionBlock).exercise
+      ) {
+        const exercise = exerciseLibrary.find(
+          (ex) => ex.id === (entry as SessionBlock).exercise.id
+        );
+        if (!exercise) return;
+        hydrated.push({
+          id: exercise.id,
+          exercise,
+          customDuration:
+            typeof (entry as SessionBlock).customDuration === "number"
+              ? (entry as SessionBlock).customDuration
+              : undefined,
+          customUnit: ensureUnit((entry as SessionBlock).customUnit),
+        });
+      }
+    });
+    return hydrated.length > 0 ? hydrated : null;
+  }
+
+  return null;
+};
+
+const isQuotaExceededError = (error: unknown) => {
+  if (typeof window === "undefined") return false;
+  return (
+    error instanceof DOMException &&
+    (error.name === "QuotaExceededError" || error.code === 22 || error.code === 1014)
+  );
 };
 
 export const useSessionStore = create<SessionState>()(
@@ -217,29 +292,18 @@ export const useSessionStore = create<SessionState>()(
           const exerciseLibrary = buildExerciseLibrary(persistedCustom);
           
           // Oppdater plannedBlocks med ferske øvelsesdata
-          let updatedPlannedBlocks = parsed.state.plannedBlocks;
-          if (updatedPlannedBlocks && Array.isArray(updatedPlannedBlocks)) {
-            updatedPlannedBlocks = updatedPlannedBlocks.map((block: SessionBlock) => {
-              const freshExercise = exerciseLibrary.find(
-                (ex) => ex.id === block.exercise?.id
-              );
-              if (freshExercise) {
-                return {
-                  ...block,
-                  exercise: freshExercise,
-                };
-              }
-              return block;
-            });
-          }
-          
+          const hydratedPlannedBlocks = hydratePlannedBlocks(
+            parsed.state?.plannedBlocks,
+            exerciseLibrary
+          );
+
           return {
             ...parsed,
             state: {
               ...parsed.state,
               exerciseLibrary,
               customExercises: persistedCustom,
-              plannedBlocks: updatedPlannedBlocks,
+              plannedBlocks: hydratedPlannedBlocks,
               selectedExerciseIds: hydrateSet(parsed.state.selectedExerciseIds),
               favoriteIds: hydrateSet(parsed.state.favoriteIds),
               searchQuery: parsed.state.searchQuery ?? '',
@@ -251,13 +315,25 @@ export const useSessionStore = create<SessionState>()(
             ...value,
             state: {
               ...value.state,
+              plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
               selectedExerciseIds: serializeSet(value.state.selectedExerciseIds ?? new Set()),
               favoriteIds: serializeSet(value.state.favoriteIds ?? new Set()),
               searchQuery: value.state.searchQuery ?? '',
               customExercises: value.state.customExercises ?? [],
             },
           };
-          localStorage.setItem(name, JSON.stringify(toStore));
+          try {
+            localStorage.setItem(name, JSON.stringify(toStore));
+          } catch (error) {
+            if (isQuotaExceededError(error)) {
+              console.warn(
+                'Kunne ikke lagre øktdata: lokal lagring er full. Fjern noen planlagte økter eller tøm nettleserdata.',
+                error
+              );
+            } else {
+              console.error('Kunne ikke lagre øktdata', error);
+            }
+          }
         },
         removeItem: (name) => localStorage.removeItem(name),
       },

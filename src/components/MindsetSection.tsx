@@ -367,6 +367,7 @@ export const MindsetSection = () => {
     <section className="rounded-2xl border border-zinc-200 bg-white shadow-sm">
       {/* Header */}
       <button
+        data-testid="mindset-toggle"
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between p-4 text-left"
       >

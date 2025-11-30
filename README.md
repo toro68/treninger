@@ -11,6 +11,15 @@ npm run dev
 
 Åpne http://localhost:3000 for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
 
+### Kjør kommandoer
+
+Før du åpner PR eller deler bygget, kjør alltid:
+
+```bash
+npm run lint   # ESLint med Next.js-config
+npm run build  # Prod-bundle for verifisering
+```
+
 ## Nøkkelfunksjoner
 
 - **Øvelsesbibliotek:** Alle øvelser ligger i `src/data/`. Custom‑øvelser som legges til via UI persisteres i Zustand‐store og hydreres automatisk.
@@ -42,3 +51,6 @@ src/
 
 - Legg til tester for filterlogikk og highlight-flow.
 - Dokumenter prosess for å importere nye datakilder (`src/data/*`).
++### Prod-sjekk
++
++Kjør `npm run prod:sjekk` for en full pipeline (lint uten scripts, build og tester) før endringer deles.

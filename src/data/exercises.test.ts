@@ -1,0 +1,198 @@
+import { describe, it, expect } from "vitest";
+import { getExerciseCode, allExercises } from "./exercises";
+import type { Exercise, ExerciseCategory } from "./exercises";
+
+describe("exercises data", () => {
+  describe("getExerciseCode", () => {
+    it("should return F prefix for fixed-warmup", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 1,
+        name: "Test",
+        category: "fixed-warmup",
+        duration: 5,
+        playersMin: 1,
+        playersMax: 30,
+        theme: "test",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("F1");
+    });
+
+    it("should return O prefix for warmup", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 5,
+        name: "Test",
+        category: "warmup",
+        duration: 10,
+        playersMin: 1,
+        playersMax: 20,
+        theme: "test",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("O5");
+    });
+
+    it("should return AK prefix for aktivisering", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 3,
+        name: "Test",
+        category: "aktivisering",
+        duration: 8,
+        playersMin: 4,
+        playersMax: 16,
+        theme: "test",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("AK3");
+    });
+
+    it("should return R prefix for rondo", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 7,
+        name: "Test Rondo",
+        category: "rondo",
+        duration: 12,
+        playersMin: 7,
+        playersMax: 12,
+        theme: "pasning",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("R7");
+    });
+
+    it("should return S prefix for station", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 12,
+        name: "Test Station",
+        category: "station",
+        duration: 15,
+        playersMin: 8,
+        playersMax: 20,
+        theme: "teknikk",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("S12");
+    });
+
+    it("should return K prefix for game", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 4,
+        name: "Test Game",
+        category: "game",
+        duration: 20,
+        playersMin: 10,
+        playersMax: 22,
+        theme: "spill",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("K4");
+    });
+
+    it("should return A prefix for cooldown", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 2,
+        name: "Test Cooldown",
+        category: "cooldown",
+        duration: 5,
+        playersMin: 1,
+        playersMax: 30,
+        theme: "restitusjon",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("A2");
+    });
+
+    it("should handle exerciseNumber 0", () => {
+      const exercise: Exercise = {
+        id: "test",
+        exerciseNumber: 0,
+        name: "Test",
+        category: "warmup",
+        duration: 10,
+        playersMin: 1,
+        playersMax: 20,
+        theme: "test",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      expect(getExerciseCode(exercise)).toBe("O0");
+    });
+  });
+
+  describe("allExercises", () => {
+    it("should contain exercises", () => {
+      expect(allExercises.length).toBeGreaterThan(0);
+    });
+
+    it("should have valid category for all exercises", () => {
+      const validCategories: ExerciseCategory[] = [
+        "fixed-warmup",
+        "warmup",
+        "aktivisering",
+        "rondo",
+        "station",
+        "game",
+        "cooldown",
+      ];
+      allExercises.forEach((exercise) => {
+        expect(validCategories).toContain(exercise.category);
+      });
+    });
+
+    it("should have unique ids", () => {
+      const ids = allExercises.map((ex) => ex.id);
+      const uniqueIds = new Set(ids);
+      expect(uniqueIds.size).toBe(ids.length);
+    });
+
+    it("should have positive duration for all exercises", () => {
+      allExercises.forEach((exercise) => {
+        expect(exercise.duration).toBeGreaterThan(0);
+      });
+    });
+
+    it("should have valid player ranges", () => {
+      allExercises.forEach((exercise) => {
+        expect(exercise.playersMin).toBeGreaterThan(0);
+        expect(exercise.playersMax).toBeGreaterThanOrEqual(exercise.playersMin);
+      });
+    });
+
+    it("should have at least one fixed-warmup with alwaysIncluded", () => {
+      const fixedWarmups = allExercises.filter(
+        (ex) => ex.category === "fixed-warmup" && ex.alwaysIncluded
+      );
+      expect(fixedWarmups.length).toBeGreaterThan(0);
+    });
+  });
+});

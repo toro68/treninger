@@ -62,7 +62,7 @@ export const EquipmentList = () => {
   const equipmentList = filteredEquipment.sort((a, b) => a.localeCompare(b, "nb"));
 
   // Vent på hydration før vi viser utstyrlisten
-  if (!hydrated) {
+  if (!hasMounted) {
     return (
       <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-zinc-900">Utstyr</h2>
