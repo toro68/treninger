@@ -56,3 +56,32 @@ Observations
   - Expand equipment tracking to dedupe aliases properly and don’t
     force baseline equipment unless the plan actually uses it; consider
     persisting checklist progress per session.
+
+## Forbedringer for Kamp-seksjonen
+
+Basert på analysen av `/src/app/kamp`-seksjonen er det identifisert et behov for refaktorering for å redusere hardkodet innhold og øke vedlikeholdbarheten.
+
+- [ ] **Datastruktur for Kampforberedelser:**
+  - [ ] Opprett en ny datafil i `src/data/kamp/matchPrep.ts`.
+  - [ ] Definer en struktur (type/interface) for fokuspunkter og sjekklister.
+  - [ ] Flytt de hardkodede `focusItems` og `checklistItems` fra `src/components/MatchPrep.tsx` til den nye datafilen.
+
+- [ ] **Refaktorer `MatchPrep.tsx`:**
+  - [ ] Endre komponenten til å importere og rendre data fra `src/data/kamp/matchPrep.ts`.
+
+- [ ] **Datastruktur for Lagorganisering:**
+  - [ ] Opprett en ny datafil i `src/data/kamp/teamOrganization.ts`.
+  - [ ] Flytt de hardkodede prinsippene for soneforsvar og organisering fra `src/components/TeamOrganization.tsx` til den nye datafilen.
+
+- [ ] **Refaktorer `TeamOrganization.tsx`:**
+  - [ ] Endre komponenten til å importere og rendre data fra `src/data/kamp/teamOrganization.ts`.
+
+- [ ] **Datastruktur for Hjørnespark:**
+  - [ ] Opprett en ny datafil i `src/data/kamp/cornerOrganization.ts`.
+  - [ ] Flytt de hardkodede dataene fra `src/components/CornerOrganization.tsx` til den nye datafilen.
+
+- [ ] **Refaktorer `CornerOrganization.tsx`:**
+  - [ ] Endre komponenten til å importere og rendre data fra `src/data/kamp/cornerOrganization.ts`.
+
+- [ ] **Opprydding:**
+  - [ ] Etter refaktorering, konsolider og fjern overflødig kode og duplisert innhold.

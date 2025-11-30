@@ -364,33 +364,31 @@ export const MindsetSection = () => {
     : mindsetTips.filter(t => t.category === activeCategory);
 
   return (
-    <section className="rounded-2xl border border-zinc-200 bg-white shadow-sm">
-      {/* Header */}
+    <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
+      {/* Header - matcher andre komponenter */}
       <button
+        type="button"
+        aria-expanded={isOpen}
         data-testid="mindset-toggle"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between p-4 text-left"
+        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
+          isOpen
+            ? "border-purple-200/70 bg-gradient-to-r from-purple-50 to-indigo-50"
+            : "border-zinc-200 bg-white"
+        }`}
       >
         <div>
-          <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-3">
-            <h3 className="text-lg font-semibold text-zinc-900">Mindset og mentaltrening</h3>
-            <a
-              href="/mindset"
-              onClick={(event) => event.stopPropagation()}
-              className="text-sm font-medium text-blue-600 underline-offset-2 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Åpne fullversjon →
-            </a>
-          </div>
-          <p className="text-sm text-zinc-500">Tankesett, tilbakemeldinger og garderobepraten</p>
+          <h2 className="text-lg font-semibold text-zinc-900">Mindset og mentaltrening</h2>
+          <p className="text-xs text-zinc-500">Tankesett, tilbakemeldinger og garderobepraten</p>
         </div>
-        <span className="text-xl text-zinc-400">{isOpen ? "−" : "+"}</span>
+        <span className="flex items-center gap-1 text-sm text-zinc-700">
+          {isOpen ? "Skjul" : "Vis"}
+          <span className="text-lg leading-none">{isOpen ? "−" : "+"}</span>
+        </span>
       </button>
 
       {isOpen && (
-        <div className="border-t border-zinc-100 p-4">
+        <div className="mt-4 space-y-4">
           {/* Tabs */}
           <div className="mb-4 flex gap-2 border-b border-zinc-100 pb-3">
             <button
@@ -462,6 +460,16 @@ export const MindsetSection = () => {
           {activeTab === "garderobe" && <GarderobeSection />}
           
           {activeTab === "sjekk" && <TrenerSjekkliste />}
+
+          {/* Lenke til fullversjon - nederst i komponenten */}
+          <div className="mt-4 pt-3 border-t border-zinc-100">
+            <a
+              href="/mindset"
+              className="inline-flex items-center gap-1 text-sm font-medium text-purple-600 hover:text-purple-700 hover:underline underline-offset-2"
+            >
+              Åpne fullversjon →
+            </a>
+          </div>
         </div>
       )}
     </section>
