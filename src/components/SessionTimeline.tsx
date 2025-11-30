@@ -342,8 +342,8 @@ export const SessionTimeline = () => {
                     onClick={() => setShowCooldown(!showCooldown)}
                     className={`flex items-center gap-3 mb-2 w-full rounded-xl border px-3 py-2 text-left transition ${
                       showCooldown
-                        ? "border-rose-200/70 bg-gradient-to-r from-rose-50 to-pink-50"
-                        : "border-rose-100 bg-white"
+                        ? "border-zinc-200 bg-gradient-to-r from-zinc-50 to-slate-50"
+                        : "border-zinc-100 bg-white"
                     }`}
                   >
                     <div>
@@ -355,7 +355,7 @@ export const SessionTimeline = () => {
                     {part.subtitle && (
                       <span className="sr-only">{part.subtitle}</span>
                     )}
-                    <span className={`ml-auto text-sm font-semibold transition ${showCooldown ? "text-rose-500" : "text-zinc-400"}`}>
+                    <span className={`ml-auto text-sm font-semibold transition ${showCooldown ? "text-zinc-600" : "text-zinc-400"}`}>
                       {showCooldown ? "Skjul" : "Vis"}
                     </span>
                   </button>

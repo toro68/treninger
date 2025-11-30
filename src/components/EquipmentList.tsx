@@ -34,32 +34,10 @@ export const EquipmentList = () => {
     setHasMounted(true);
   }
 
-  // Samle utstyr fra øvelser
-  const equipmentSet = new Set<string>();
-  sessionBlocks.forEach((block) => {
-    block.exercise.equipment.forEach((item) => {
-      equipmentSet.add(normalizeEquipment(item));
-    });
-  });
-
-  // Legg til basisutstyr kun når det finnes øvelser
-  if (sessionBlocks.length > 0) {
-    ["baller", "kjegler", "vester"].forEach((item) => equipmentSet.add(item));
-  }
-
-  const smartBaseline = ["baller", "kjegler", "vester"];
-
-  // Fjern baseline-elementer dersom de ikke er relevante
-  const filteredEquipment = [...equipmentSet].filter((item) => {
-    if (!smartBaseline.includes(item)) return true;
-    return sessionBlocks.some((block) =>
-      block.exercise.equipment.some(
-        (eq) => normalizeEquipment(eq) === item
-      )
-    );
-  });
-
-  const equipmentList = filteredEquipment.sort((a, b) => a.localeCompare(b, "nb"));
+  // Vis alltid alt standard utstyr når det finnes øvelser
+  const equipmentList = sessionBlocks.length > 0
+    ? ["baller", "kjegler", "vester", "mål", "småmål", "markør", "stenger", "stiger"]
+    : [];
 
   // Vent på hydration før vi viser utstyrlisten
   if (!hasMounted) {
