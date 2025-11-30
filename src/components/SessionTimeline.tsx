@@ -1,6 +1,7 @@
 import { recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
 import { getExerciseCode } from "@/data/exercises";
-import { useState, useEffect, useMemo } from "react";
+import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
+import { useState, useMemo } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -14,10 +15,6 @@ type SessionPart = {
 };
 
 export const SessionTimeline = () => {
-  // Abonner på alle relevante state-endringer for å trigge rerender
-  const selectedExerciseIds = useSessionStore((state) => state.selectedExerciseIds);
-  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
-  const plannedBlocks = useSessionStore((state) => state.plannedBlocks);
   const generateSession = useSessionStore((state) => state.generateSession);
   const playerCount = useSessionStore((state) => state.playerCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
@@ -26,13 +23,14 @@ export const SessionTimeline = () => {
   // Generer sessionBlocks når avhengighetene endres
   const sessionBlocks = useMemo(() => {
     return generateSession();
-  }, [generateSession, selectedExerciseIds, exerciseLibrary, plannedBlocks]);
+  }, [generateSession]);
 
   const [hydrated, setHydrated] = useState(false);
 
-  useEffect(() => {
+  // Hydration check - runs once on mount
+  if (typeof window !== "undefined" && !hydrated) {
     setHydrated(true);
-  }, []);
+  }
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState<
@@ -214,65 +212,21 @@ export const SessionTimeline = () => {
 
   const handlePrint = () => {
     setShowShareOptions(false);
-    
-    const partNames = ["Skadefri", "Oppvarming", "Stasjoner", "Spill", "Avslutning"];
-    
-    const printContent = `
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Treningsøkt</title>
-        <style>
-          body { font-family: system-ui, -apple-system, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
-          h1 { font-size: 24px; margin-bottom: 8px; }
-          .meta { color: #666; font-size: 14px; margin-bottom: 24px; }
-          .section { margin-bottom: 24px; }
-          .section-title { font-size: 16px; font-weight: 600; color: #333; margin-bottom: 12px; padding-bottom: 4px; border-bottom: 2px solid #eee; }
-          .exercise { background: #f9f9f9; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
-          .exercise-name { font-weight: 600; margin-bottom: 4px; }
-          .exercise-meta { font-size: 12px; color: #666; margin-bottom: 6px; }
-          .exercise-desc { font-size: 13px; color: #444; }
-          .coaching { margin-top: 8px; font-size: 12px; }
-          .coaching-title { font-weight: 600; color: #555; }
-          .coaching-list { margin: 4px 0 0 16px; padding: 0; }
-          .coaching-list li { margin-bottom: 2px; }
-          @media print { body { padding: 20px; } }
-        </style>
-      </head>
-      <body>
-        <h1>Treningsøkt</h1>
-        <div class="meta">${totalMinutes} minutter • ${sessionBlocks.length} øvelser • ${playerCount} spillere</div>
-        ${parts.map((part, idx) => part.blocks.length > 0 ? `
-          <div class="section">
-            <div class="section-title">${partNames[idx]}</div>
-            ${part.blocks.map(({ block }) => `
-              <div class="exercise">
-                <div class="exercise-name"><span style="display:inline-block;background:#e5e7eb;border-radius:4px;padding:2px 6px;font-size:11px;margin-right:6px;">${getExerciseCode(block.exercise)}</span>${block.exercise.name}</div>
-                <div class="exercise-meta">${recommendedDuration(block)} ${getUnit(block)} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${block.exercise.theme}</div>
-                <div class="exercise-desc">${block.exercise.description}</div>
-                ${block.exercise.coachingPoints.length > 0 ? `
-                  <div class="coaching">
-                    <span class="coaching-title">Coaching:</span>
-                    <ul class="coaching-list">
-                      ${block.exercise.coachingPoints.map(p => `<li>${p}</li>`).join('')}
-                    </ul>
-                  </div>
-                ` : ''}
-              </div>
-            `).join('')}
-          </div>
-        ` : '').join('')}
-      </body>
-      </html>
-    `;
+    const printableParts: PrintablePart[] = parts.map((part) => ({
+      title: part.title,
+      subtitle: part.subtitle,
+      blocks: part.blocks.map(({ block }) => block),
+    }));
 
-    const printWindow = window.open('', '_blank');
-    if (printWindow) {
-      printWindow.document.write(printContent);
-      printWindow.document.close();
-      printWindow.onload = () => {
-        printWindow.print();
-      };
+    try {
+      openPrintWindowForSession({
+        parts: printableParts,
+        totalMinutes,
+        playerCount,
+      });
+    } catch (error) {
+      console.error("Print failed", error);
+      setShareStatus("error");
     }
   };
 

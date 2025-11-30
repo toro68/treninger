@@ -4,7 +4,7 @@ import { PlayerSetup } from "@/components/PlayerSetup";
 import { ExerciseList } from "@/components/ExerciseList";
 import { SessionTimeline } from "@/components/SessionTimeline";
 import { EquipmentList } from "@/components/EquipmentList";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
 import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
@@ -13,16 +13,13 @@ import Link from "next/link";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
-  const [sourceFilter, setSourceFilter] = useState<SourceFilter>(null);
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
   const highlightExerciseId = useSessionStore((state) => state.highlightExerciseId);
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
 
-  useEffect(() => {
-    if (highlightExerciseId) {
-      setSourceFilter("uefa");
-    }
-  }, [highlightExerciseId]);
+  // Derive sourceFilter from highlightExerciseId
+  const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
+  const sourceFilter: SourceFilter = highlightExerciseId ? "uefa" : sourceFilterState;
 
   return (
     <div className="min-h-screen bg-zinc-50">

@@ -1,5 +1,5 @@
 import { useSessionStore } from "@/store/sessionStore";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 const EQUIPMENT_LABELS: Record<string, string> = {
   vester: "Vester",
@@ -14,6 +14,8 @@ const EQUIPMENT_LABELS: Record<string, string> = {
 
 const EQUIPMENT_ALIASES: Record<string, string> = {
   "små mål": "småmål",
+  markeringsmatter: "markør",
+  "markeringsmatter (bob)": "markør",
 };
 
 const normalizeEquipment = (raw: string) => {
@@ -22,28 +24,42 @@ const normalizeEquipment = (raw: string) => {
 };
 
 export const EquipmentList = () => {
-  const [hydrated, setHydrated] = useState(false);
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
   const [checked, setChecked] = useState<Set<string>>(new Set());
+  const [hasMounted, setHasMounted] = useState(false);
 
-  useEffect(() => {
-    setHydrated(true);
-  }, []);
-
-  // Fast utstyr som alltid trengs
-  const ALWAYS_NEEDED = ["baller", "kjegler", "markør", "vester", "småmål"];
+  // Use layout effect for hydration to avoid cascading renders
+  if (typeof window !== "undefined" && !hasMounted) {
+    setHasMounted(true);
+  }
 
   // Samle utstyr fra øvelser
   const equipmentSet = new Set<string>();
-  ALWAYS_NEEDED.forEach((item) => equipmentSet.add(normalizeEquipment(item)));
   sessionBlocks.forEach((block) => {
     block.exercise.equipment.forEach((item) => {
       equipmentSet.add(normalizeEquipment(item));
     });
   });
 
-  const equipmentList = [...equipmentSet].sort((a, b) => a.localeCompare(b, "nb"));
+  // Legg til basisutstyr kun når det finnes øvelser
+  if (sessionBlocks.length > 0) {
+    ["baller", "kjegler", "vester"].forEach((item) => equipmentSet.add(item));
+  }
+
+  const smartBaseline = ["baller", "kjegler", "vester"];
+
+  // Fjern baseline-elementer dersom de ikke er relevante
+  const filteredEquipment = [...equipmentSet].filter((item) => {
+    if (!smartBaseline.includes(item)) return true;
+    return sessionBlocks.some((block) =>
+      block.exercise.equipment.some(
+        (eq) => normalizeEquipment(eq) === item
+      )
+    );
+  });
+
+  const equipmentList = filteredEquipment.sort((a, b) => a.localeCompare(b, "nb"));
 
   // Vent på hydration før vi viser utstyrlisten
   if (!hydrated) {

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { uefaAnalyses, type UEFAAnalyse } from "@/data/uefaAnalyses";
-import { uefaFormations, getFormationById, type UEFAFormation } from "@/data/uefaFormations";
+import { uefaFormations, type UEFAFormation } from "@/data/uefaFormations";
 import { getUEFAExerciseByCode, getUEFADisplayCode } from "@/data/uefa-exercises";
 import { useSessionStore } from "@/store/sessionStore";
 import { GlossaryTooltip } from "@/components/GlossaryTooltip";
@@ -18,7 +18,8 @@ export const UEFASeksjon = () => {
   const [valgtAnalyse, setValgtAnalyse] = useState<UEFAAnalyse | null>(null);
   const [valgtFormasjon, setValgtFormasjon] = useState<UEFAFormation | null>(null);
   const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "cues">("oversikt");
-  const [aktivFormasjonFane, setAktivFormasjonFane] = useState<"oversikt" | "roller" | "prinsipper">("oversikt");
+  // aktivFormasjonFane er forberedt for fremtidig bruk i formasjon-faner
+  const [, setAktivFormasjonFane] = useState<"oversikt" | "roller" | "prinsipper">("oversikt");
   
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
 

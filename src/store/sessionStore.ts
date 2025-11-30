@@ -12,8 +12,8 @@ export type SessionBlock = {
 };
 
 type SessionState = {
-  exerciseLibrary: Exercise[];
   customExercises: Exercise[];
+  exerciseLibrary: Exercise[];
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -87,6 +87,13 @@ const sortExercises = (exercises: Exercise[]) =>
 
 const buildExerciseLibrary = (custom: Exercise[] = []) =>
   sortExercises([...allExercises, ...custom]);
+
+const serializeSet = (value?: Set<string>) => Array.from(value ?? new Set());
+const hydrateSet = (value?: string[] | Set<string>) => {
+  if (!value) return new Set<string>();
+  if (value instanceof Set) return value;
+  return new Set(value);
+};
 
 export const useSessionStore = create<SessionState>()(
   persist(
@@ -233,8 +240,8 @@ export const useSessionStore = create<SessionState>()(
               exerciseLibrary,
               customExercises: persistedCustom,
               plannedBlocks: updatedPlannedBlocks,
-              selectedExerciseIds: new Set(parsed.state.selectedExerciseIds || []),
-              favoriteIds: new Set(parsed.state.favoriteIds || []),
+              selectedExerciseIds: hydrateSet(parsed.state.selectedExerciseIds),
+              favoriteIds: hydrateSet(parsed.state.favoriteIds),
               searchQuery: parsed.state.searchQuery ?? '',
             },
           };
@@ -244,8 +251,8 @@ export const useSessionStore = create<SessionState>()(
             ...value,
             state: {
               ...value.state,
-              selectedExerciseIds: Array.from(value.state.selectedExerciseIds || []),
-              favoriteIds: Array.from(value.state.favoriteIds || []),
+              selectedExerciseIds: serializeSet(value.state.selectedExerciseIds ?? new Set()),
+              favoriteIds: serializeSet(value.state.favoriteIds ?? new Set()),
               searchQuery: value.state.searchQuery ?? '',
               customExercises: value.state.customExercises ?? [],
             },
@@ -402,12 +409,7 @@ export const filterExercises = (
       const bFav = favoriteIds?.has(b.id) ? 0 : 1;
       if (aFav !== bFav) return aFav - bFav;
 
-      // 2. For stasjoner: Bruk spillere per stasjon, ellers totalt antall
-      const targetCount = (category === "station" || category === "rondo") && playersPerStation 
-        ? playersPerStation 
-        : playerCount;
-
-      // 3. Sorter etter hvor godt øvelsen passer
+      // 2. Sorter etter hvor godt øvelsen passer
       const relevantPlayersPerStation = (category === "station" || category === "rondo") ? playersPerStation : undefined;
       const aScore = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
       const bScore = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);

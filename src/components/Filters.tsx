@@ -165,13 +165,11 @@ export const Filters = ({
 
   // Kilder som skal vises (med antall > 0)
   const availableSources = useMemo(() => {
-    return Object.entries(sourceConfig)
-      .filter(([key]) => (sourceCounts[key] ?? 0) > 0)
-      .map(([key, config]) => ({
-        key,
-        ...config,
-        count: sourceCounts[key] ?? 0
-      }));
+    return Object.entries(sourceConfig).map(([key, config]) => ({
+      key,
+      ...config,
+      count: sourceCounts[key] ?? 0
+    }));
   }, [sourceCounts]);
 
   return (

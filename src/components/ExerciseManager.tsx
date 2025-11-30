@@ -4,6 +4,14 @@ import type { Exercise, ExerciseCategory } from "@/data/exercises";
 import { getExerciseCode } from "@/data/exercises";
 import { useMemo, useState, useEffect } from "react";
 
+const generateExerciseId = () => {
+  const cryptoApi = typeof globalThis !== "undefined" ? globalThis.crypto : undefined;
+  if (cryptoApi?.randomUUID) {
+    return cryptoApi.randomUUID();
+  }
+  return `exercise-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+};
+
 const emptyExercise: Exercise = {
   id: "",
   exerciseNumber: 0, // Settes automatisk ved lagring
@@ -68,7 +76,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
   };
 
   const handleCreate = () => {
-    setEditing({ ...emptyExercise, id: crypto.randomUUID() });
+    setEditing({ ...emptyExercise, id: generateExerciseId() });
   };
 
   const handleChange = (field: keyof Exercise, value: Exercise[keyof Exercise]) => {
@@ -118,7 +126,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
       alert(errors.join('\n'));
       return;
     }
-    const payload = editing.id ? editing : { ...editing, id: crypto.randomUUID() };
+    const payload = editing.id ? editing : { ...editing, id: generateExerciseId() };
     if (exercises.some((ex) => ex.id === payload.id)) {
       updateExercise(payload.id, payload);
     } else {
