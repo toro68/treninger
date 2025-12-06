@@ -257,19 +257,19 @@ export default function OrdlistePage() {
   }).filter(category => category.terms.length > 0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <div className="min-h-screen bg-zinc-50">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
           <div>
-            <Link 
+            <Link
               href="/"
-              className="text-blue-400 hover:text-blue-300 text-sm mb-2 inline-block"
+              className="text-blue-600 hover:text-blue-500 text-sm mb-2 inline-block"
             >
               ← Tilbake til treningsplanlegger
             </Link>
-            <h1 className="text-3xl font-bold text-white">Fotballordliste</h1>
-            <p className="text-gray-400 mt-2">
+            <h1 className="text-3xl font-bold text-zinc-900">Fotballordliste</h1>
+            <p className="text-zinc-500 mt-2">
               J14-språket: Fra 1F til Gjenvinning
             </p>
           </div>
@@ -283,9 +283,9 @@ export default function OrdlistePage() {
               placeholder="Søk etter ord (f.eks. 'sikring', 'anker', 'press')..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-gray-800/90 text-white border border-gray-700 rounded-xl py-4 px-6 pl-12 shadow-lg backdrop-blur-sm focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all placeholder-gray-500"
+              className="w-full bg-white text-zinc-900 border border-zinc-200 rounded-2xl py-4 px-6 pl-12 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all placeholder-zinc-400"
             />
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xs uppercase tracking-wide text-gray-500">
+            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xs uppercase tracking-wide text-zinc-400">
               Søk
             </span>
           </div>
@@ -293,14 +293,14 @@ export default function OrdlistePage() {
 
         {/* Quick Links (kun hvis ikke søk er aktivt) */}
         {!searchTerm && (
-          <div className="bg-gray-800/50 rounded-xl p-4 mb-8 backdrop-blur-sm overflow-x-auto">
-            <h2 className="text-sm font-medium text-gray-400 mb-3">Kategorier:</h2>
+          <div className="bg-white border border-zinc-200 rounded-2xl p-4 mb-8 shadow-sm overflow-x-auto">
+            <h2 className="text-sm font-medium text-zinc-500 mb-3">Kategorier:</h2>
             <div className="flex flex-nowrap gap-2">
               {glossaryData.map((category) => (
                 <a
                   key={category.name}
                   href={`#${category.name.toLowerCase().replace(/[^a-zæøå0-9]/g, '-')}`}
-                  className="whitespace-nowrap px-3 py-1.5 bg-gray-700 hover:bg-gray-600 text-gray-200 rounded-lg text-sm transition-colors"
+                  className="whitespace-nowrap px-3 py-1.5 bg-zinc-100 hover:bg-zinc-200 text-zinc-700 rounded-lg text-sm transition-colors"
                 >
                   {category.name}
                 </a>
@@ -318,7 +318,7 @@ export default function OrdlistePage() {
                 id={category.name.toLowerCase().replace(/[^a-zæøå0-9]/g, '-')}
                 className="scroll-mt-28"
               >
-                <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                <h2 className="text-xl font-bold text-zinc-900 mb-4 flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
                   {category.name}
                 </h2>
@@ -326,17 +326,17 @@ export default function OrdlistePage() {
                   {category.terms.map((item) => (
                     <div
                       key={item.term}
-                      className="bg-gray-800/60 rounded-xl p-5 border border-gray-700/50 hover:border-blue-500/30 transition-all hover:bg-gray-800/80"
+                      className="bg-white rounded-2xl p-5 border border-zinc-200 hover:border-blue-200 transition-all shadow-sm"
                     >
-                      <h3 className="text-lg font-bold text-blue-400 mb-2">
+                      <h3 className="text-lg font-bold text-blue-600 mb-2">
                         {item.term}
                       </h3>
-                      <p className="text-gray-200 mb-3 leading-relaxed">
+                      <p className="text-zinc-700 mb-3 leading-relaxed">
                         {item.definition}
                       </p>
                       {item.example && (
-                        <div className="bg-gray-900/50 rounded-lg p-3 border-l-4 border-blue-500/50">
-                          <p className="text-gray-400 text-sm italic">
+                        <div className="bg-blue-50 rounded-xl p-3 border-l-4 border-blue-200">
+                          <p className="text-blue-900/80 text-sm italic">
                             <span className="not-italic mr-2">Sitat:</span>
                             {item.example}
                           </p>
@@ -348,7 +348,7 @@ export default function OrdlistePage() {
               </section>
             ))
           ) : (
-            <div className="text-center py-12 text-gray-500">
+            <div className="text-center py-12 text-zinc-500">
               <p className="text-xl">Ingen treff på &quot;{searchTerm}&quot;</p>
               <p className="text-sm mt-2">Prøv et annet ord eller sjekk stavingen.</p>
             </div>
@@ -356,8 +356,8 @@ export default function OrdlistePage() {
         </div>
 
         {/* Footer */}
-        <div className="mt-12 pt-8 border-t border-gray-700 text-center">
-          <p className="text-gray-500 text-sm">
+        <div className="mt-12 pt-8 border-t border-zinc-200 text-center">
+          <p className="text-zinc-500 text-sm">
             Mangler du et ord? Spør treneren på neste økt!
           </p>
         </div>

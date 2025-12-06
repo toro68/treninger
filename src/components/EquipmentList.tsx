@@ -12,17 +12,6 @@ const EQUIPMENT_LABELS: Record<string, string> = {
   stiger: "Stiger",
 };
 
-const EQUIPMENT_ALIASES: Record<string, string> = {
-  "små mål": "småmål",
-  markeringsmatter: "markør",
-  "markeringsmatter (bob)": "markør",
-};
-
-const normalizeEquipment = (raw: string) => {
-  const item = raw.toLowerCase().trim();
-  return EQUIPMENT_ALIASES[item] ?? item;
-};
-
 export const EquipmentList = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
