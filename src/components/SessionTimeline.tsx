@@ -1,7 +1,7 @@
 import { recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
 import { getExerciseCode } from "@/data/exercises";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -27,10 +27,9 @@ export const SessionTimeline = () => {
 
   const [hydrated, setHydrated] = useState(false);
 
-  // Hydration check - runs once on mount
-  if (typeof window !== "undefined" && !hydrated) {
+  useEffect(() => {
     setHydrated(true);
-  }
+  }, []);
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState<

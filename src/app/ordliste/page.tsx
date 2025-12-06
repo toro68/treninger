@@ -258,21 +258,46 @@ export default function OrdlistePage() {
 
   return (
     <div className="min-h-screen bg-zinc-50">
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Header */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-          <div>
+      {/* App Header */}
+      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+          <div className="flex items-center gap-3">
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 text-sm font-semibold text-zinc-600">
+              TP
+            </span>
+            <h1 className="text-lg font-bold text-zinc-900">Treningsplanlegger</h1>
+          </div>
+          <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">J16</span>
+        </div>
+        {/* Navigation */}
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <nav className="flex gap-1 -mb-px">
             <Link
               href="/"
-              className="text-blue-600 hover:text-blue-500 text-sm mb-2 inline-block"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
-              ← Tilbake til treningsplanlegger
+              Trening
             </Link>
-            <h1 className="text-3xl font-bold text-zinc-900">Fotballordliste</h1>
-            <p className="text-zinc-500 mt-2">
-              J14-språket: Fra 1F til Gjenvinning
-            </p>
-          </div>
+            <Link
+              href="/kamp"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
+            >
+              Kamp
+            </Link>
+            <Link
+              href="/ordliste"
+              className="rounded-t-lg border-b-2 border-black px-4 py-2 text-sm font-medium text-zinc-900"
+            >
+              Ordliste
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-zinc-900">Fotballordliste</h1>
         </div>
 
         {/* Search Bar */}

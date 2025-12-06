@@ -1,5 +1,5 @@
 import { useSessionStore } from "@/store/sessionStore";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 
 const EQUIPMENT_LABELS: Record<string, string> = {
   vester: "Vester",
@@ -18,10 +18,9 @@ export const EquipmentList = () => {
   const [checked, setChecked] = useState<Set<string>>(new Set());
   const [hasMounted, setHasMounted] = useState(false);
 
-  // Use layout effect for hydration to avoid cascading renders
-  if (typeof window !== "undefined" && !hasMounted) {
+  useEffect(() => {
     setHasMounted(true);
-  }
+  }, []);
 
   // Vis alltid alt standard utstyr når det finnes øvelser
   const equipmentList = sessionBlocks.length > 0
