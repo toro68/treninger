@@ -86,6 +86,13 @@ Iversen analyserer sentrale midtbanespillere i EURO 2012 for å definere de frem
 - **Rettvendthet**: Minst 5-7 forsøk på å rettvende deg selv eller en medspiller i mellomrommet.
 - **Balanse**: Alltid tenk restforsvar. Vurder risiko ved balltap.
 
+### Kampdimensjon og KPI-oversettelse
+- **Kampklima**: Definer før kamp hvilken presshøyde/motstanderblokk 6/8 møter, og hvordan valgene endres når vi leder, ligger likt eller ligger under.
+- **Pasningsretning i ulike scenarier**: Euro 2012-data viser 67 % fremoverpasninger når laget leder, 72 % når det står likt, men kun 60 % når laget ligger under. Sett mål om ≥70 % fremoverpasninger også i motgang.
+- **Touch-mål**: 60–80 balltouch per kamp for sentral midt som indikator på involvering. Evaluer etter kamp.
+- **Pasninger i siste tredjedel**: 20–30 pasninger inn i siste tredjedel for indreløpere er referansen.
+- **Gjenvinning (sekundærpress)**: Avklar hvem av 6/8 som trykker og hvem som sikrer innen 6 sek etter balltap.
+
 ### Rollebeskrivelse
 - **Med ball**: Vær tilgjengelig, orienter deg, sett tempo og slå linjebrytende pasninger.
 - **Uten ball**: Dekk rom sentralt, prioriter balanse, styr presset.
@@ -99,3 +106,5 @@ Iversen analyserer sentrale midtbanespillere i EURO 2012 for å definere de frem
 | Pasningsspill | "Slå pasning med intensjon – bryt en linje!" | "Ikke slå støttepasning hvis du kan spille fremover." |
 | Posisjonering | "Vær spillbar – tenk to trekk frem." | "Ikke gjem deg bak motstanderen." |
 | Defensivt | "Tenk balanse før du støter." | "Ikke etterlat store rom bak deg." |
+| Kampbilde | "6/8 styrer tempo: ro ned ved ledelse, skru opp ved jag." | "Ikke bli sidelengs når vi ligger under." |
+| Overgang | "Definer sekundærpress: hvem trykker, hvem sikrer." | "Ikke la midten stå uten returløp." |

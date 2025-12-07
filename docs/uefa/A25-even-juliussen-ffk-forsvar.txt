@@ -1,0 +1,2412 @@
+En analyse av Fredrikstad FK sine innslupne mål sesongen 2012
+
+                                                  Even Juliussen
+
+
+
+
+                                             NFF, UEFA A-lisenskurs
+                                                  Skriftlig oppgave
+
+
+
+
+ Forord
+Jeg ønsker å takke Norges Fotballforbund for deres godvilje når det kommer til
+min gjennomføring av kurset.
+
+
+Jeg ønsker å takke mine veiledere i Reidar Vågnes og Erik Holtan som har gitt
+gode diskusjoner, i motgang og medvind.
+
+
+Jeg takker Fredrikstad Fotballklubb som har gitt meg muligheten til å leve av og
+ånde for fotball.
+
+
+Jeg ønsker å takke Skeid som oppdro meg i en særs god kultur for utvikling av
+spillere og lag, i en evigvarende ”spillende spillestils debatt”.
+
+
+Til slutt må jeg takke min familie og Hanne spesielt for at du har gitt meg Ludvig
+og et liv i sus og dus.
+
+
+Forfatter Even
+
+
+
+
+                                                                                     2
+Sammendrag
+Tittel: En analyse av FFK sine innslupne mål i 2012 sesongen.
+
+Oppgaven kartlegger og analyserer baklengsmålene til Fredrikstad FK i 2012
+sesongen. Hensikten med dette er å få et innblikk i hvilke utfordringer FFK har i
+sitt forsvarsspill.
+
+Begrunnelse for oppgaven
+I følge UEFA A-lisensoppgaven til Joachim Jonsson (2008) har Fredrikstad
+FK ”siden opprykket til Tippeligaen 2004 sluppet inn mye mål noe som er den
+største anledningen til klubbens varierende resultater”. Sesongen 2012 har vært
+intet unntak. Oppgaven ønsker å redegjøre for hvilke utfordringer FFK har i sitt
+forsvarsspill og forhåpentligvis finne læring i dette til å forbedre klubbens
+forsvarsspill i fremtiden.
+
+
+Innslupne mål i 2012 sesongen:
+Totalt innslupne mål: 59.
+Kontring mot:         11     18,64 %
+Etablert forsvar:     26     44,07 %
+Dødball:              22     37,29 %
+
+
+Problemstilling 1
+    Hva slags baklengsmål slipper FFK inn i 2012. Baklengsmål deles inni tre
+       kategorier: dødball, etablert forsvar eller ”overgang imot”.
+      Antall mål FFK slipper inn på borte og hjemmebane.
+      Hvilken fase av kampen slipper FFK inn mål.
+
+Problemstilling 2
+    Hvor på banen mister FFK ballen.
+      Hvilken lagdel mister ballen.
+      Hvilke brudd gjøres på retningslinjene til godt forsvarsspill i FFK.
+      Hvor på banen kommer målgivende pasningene fra.
+      Hvor på banen kommer avslutningene fra.
+
+
+
+
+                                                                                    3
+Oppgavens funn og konklusjon:
+FFK slipper inn for mange mål i etablert forsvar. I tillegg klarte ikke FFK utnytte
+hjemmebanefordelen til å redusere antall innslupne mål på hjemmebane kontra
+bortebane. I viktige faser av kampene (som siste kvarteret mot slutten) slapp
+FFK inn flere mål enn i resterende faser av kampene. Dette gjør at kampene ofte
+avgjøres i disfavør FFK.
+
+
+Registreringene av balltap avslører at risikoen i eget angrepsspill er større på
+hjemmebane enn bortebane. Dette fikk konsekvenser for både antall innslupne
+mål på hjemmebane og hva slags type mål slippes inn på hhv hjemme kontra
+bortebane. FFKs høyre side tapte ballen langt oftere enn FFKs venstre side. De
+fleste målgivende pasningene kommer fra sonene på FFKs venstre side og nærne
+eget mål. Avslutningene i mål kommer fra kort hold og innenfor 16 meteren. De
+fleste avslutningene kommer til høyre for keeper.
+
+
+Det konkluderes med at FFK har slitt med soneforsvarsspill generelt og i etablert
+forsvar spesielt. Liten eller ingen dybde i forsvarsleddene har ført til at
+motstandere for lett har spilt seg inn mellom FFK sine ledd og til gunstige
+spillsituasjoner. Sikringsavstandene i eget ledd og mellom ledd har ofte vært for
+stor. Det vil si at forflytningene til rett vinkel og avstand har vært for svak. FFK
+har også laget sitt eget mellomrom for stort. Backleddet har falt av for tidlig og
+for langt. I tillegg mangler backleddet både meter og tempo i sine ”Push-Ups”
+etter klareringer og/eller støttepasninger.
+
+
+
+
+                                                                                       4
+Innholdsfortegnelse
+Forord ..................................................................................................................................... 1
+Sammendrag ........................................................................................................................ 3
+Innledning ............................................................................................................................. 7
+    Begrunnelse for oppgavevalg .................................................................................................. 7
+    Problemstilling 1 ......................................................................................................................... 8
+    Problemstilling 2 ......................................................................................................................... 8
+Avgrensning og begrepsavklaring ................................................................................ 8
+    Type angrep ved baklengsmål ................................................................................................ 8
+    Avgrensning ................................................................................................................................... 9
+    Soner på banen ............................................................................................................................. 9
+    Balltap............................................................................................................................................10
+    Trenerbytte..................................................................................................................................10
+    Formasjon og formasjonsendring .......................................................................................10
+Retningslinjer for forsvarsspill sesongen 2012.................................................... 11
+    Generelle retningslinjer ..........................................................................................................11
+       Dybde i forsvarsspillet ...................................................................................................................... 11
+       Kompakt lag i lende- og bredderetning ..................................................................................... 12
+    Ved balltap ...................................................................................................................................12
+    I etablert forsvar ........................................................................................................................12
+       Presshøyde............................................................................................................................................. 12
+    Kontring mot ...............................................................................................................................13
+    Oversikt over innslupne mål I 2012 ...................................................................................13
+Metodedel ........................................................................................................................... 14
+    Metodevalg ...................................................................................................................................14
+    Populasjon....................................................................................................................................14
+    Utvalg .............................................................................................................................................15
+    Utvalg av kamper .......................................................................................................................15
+    Representativt og generalisering ........................................................................................16
+    Utforming av observasjonsskjema ......................................................................................16
+    Systematisering og registrering ...........................................................................................16
+      Type innslupne mål ............................................................................................................................ 17
+      Innslupne mål hjemme- og bortebane ....................................................................................... 17
+      Fase av kampen for innslupne mål .............................................................................................. 17
+      Balltap ...................................................................................................................................................... 17
+      Innslupne mål i etablert forsvar ................................................................................................... 17
+      Innslupne mål i kontring mot ........................................................................................................ 17
+      Type brudd på retningslinjer ......................................................................................................... 17
+      Målgivende pasning fra motstander ved baklengsmål ........................................................ 17
+      Målet ......................................................................................................................................................... 18
+    Oppdeling av soner i bredde og lengderetning ..............................................................18
+    Feilkilder ......................................................................................................................................20
+    Reliabilitet og Validitet............................................................................................................21
+Diskusjon ............................................................................................................................ 21
+    Etter hvilke type angrep kom baklengsmålene ..............................................................21
+      Etter hvilke type angrep kom baklengsmålene på hjemmebane .................................... 22
+      Etter hvilke type angrep kom baklengsmålene på bortebane .......................................... 23
+      Sammendrag av statistikk for hvilke type angrep kom baklengsmålene .................... 24
+    Når kom baklengsmålene .......................................................................................................24
+
+
+
+                                                                                                                                                                     5
+     Når kom baklengsmålene på hjemmebane .............................................................................. 25
+     Når kom baklengsmålene på bortebane .................................................................................... 26
+     Sammendrag av statistikk for når kom baklengsmålene ................................................... 26
+   Balltap............................................................................................................................................27
+     Balltap som resulterte i baklengsmål på hjemmebane ....................................................... 28
+     Balltap som resulterte i baklengsmål på bortebane ............................................................. 29
+     Sammendrag av statistikk for balltap som resulterte i baklengsmål ............................ 30
+   Balltap som resulterte i baklengsmål der FFK var i etablert forsvar .....................31
+     Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på hjemmebane
+     ..................................................................................................................................................................... 32
+     Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på bortebane 33
+     Sammendrag av statistikk for balltap som resulterte i baklengsmål i etablert
+     forsvar...................................................................................................................................................... 33
+   Balltap som resulterte i baklengsmål på overganger mot..........................................34
+     Balltap som resulterte i baklengsmål på overganger mot på hjemmebane ............... 35
+     Balltap som resulterte i baklengsmål på overganger mot på bortebane ..................... 36
+     Sammendrag av statistikk for balltap som resulterte i baklengsmål ved kontring
+     mot ............................................................................................................................................................ 37
+   Balltap fordelt på lagdeler .....................................................................................................38
+     Balltap som resulterte i baklengsmål fordelt på lagdeler .................................................. 38
+     Balltap som resulterte i baklengsmål på hjemmebane fordelt på lagdeler ................ 39
+     Balltap som resulterte i baklengsmål på bortebane fordelt på lagdeler ...................... 39
+     Balltap som resulterte i baklengsmål der FFK var i etablert forsvar fordelt på
+     lagdeler .................................................................................................................................................... 40
+     Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på hjemmebane
+     fordelt på lagdeler............................................................................................................................... 41
+     Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på bortebane
+     fordelt på lagdeler............................................................................................................................... 41
+     Balltap som resulterte i baklengsmål på overganger mot fordelt på lagdeler .......... 42
+     Balltap som resulterte i baklengsmål på overganger mot på hjemmebane fordelt på
+     lagdeler .................................................................................................................................................... 42
+     Balltap som resulterte i baklengsmål på overganger mot på bortebane fordelt på
+     lagdeler .................................................................................................................................................... 43
+     Sammendrag av statistikk for balltap som leder til baklengsmål fordelt på lagdeler
+     ..................................................................................................................................................................... 43
+   Målgivende og mål.....................................................................................................................45
+     Fra hvilken sone kommer målgivende fra på baklengsmålene ....................................... 45
+     Fra hvilken sone kommer målgivende fra på baklengsmålene på hjemmebane...... 45
+     Fra hvilken sone kommer målgivende fra på baklengsmålene på bortebane ........... 46
+     Sammendrag av statistikk for hvilken sone kommer målgivende fra på baklengsmål
+     ..................................................................................................................................................................... 47
+     Baklengsmålene ................................................................................................................................... 48
+     Baklengsmålene på hjemmebane ................................................................................................. 49
+     Baklengsmålene på bortebane ...................................................................................................... 50
+     Sammendrag av statistikk for hvilken sone kommer baklengsmålene ........................ 50
+   Brudd på retningslinjer...........................................................................................................51
+Konklusjon og konsekvenser ...................................................................................... 51
+Litteraturliste.................................................................................................................... 56
+        Vedlegg: Tabellen Tippeligaen 2012 ........................................................................................... 56
+
+
+
+
+                                                                                                                                                                          6
+Innledning
+I denne delen av oppgaven skal jeg kort gi en redegjørelse for hvorfor jeg har
+valgt dette tema til min UEFA A-lisens oppgave. I tillegg vil jeg presentere
+problemstillingene jeg har valgt å fokusere på.
+
+
+
+Begrunnelse for oppgavevalg
+Når denne type oppgave skal skrives, bør det være om et tema forfatteren ønsker
+å fordype seg i. Det er derfor mange interesser og muligens særinteresser innen
+fotballen som styrer ens valg. Det er også en rekke tilfeldigheter som styrer
+hvilke tema en er interessert i til hvilken tid. For min del var jeg fast bestemt på å
+skrive en praktisk oppgave som tar for seg selve spillet. Jeg har derfor valgt å se
+på selve kampen som er fotballens endelige produkt. I løpet av en kamp finnes
+det utallige ting en kan analysere, og i løpet av en sesong enda fler. Derfor har jeg
+snevret inn min oppgave til å fokusere på ett av spillets faser, nemlig
+forsvarsspill eller mangel på sådan. Mer presist ønsker jeg å se hvordan
+Fredrikstad FK har sluppet inn mål i løpet av 2012 sesongen.
+
+
+Fredrikstad FK har over lang tid vært ustabile i sine prestasjoner, noe som siste
+års tabellsituasjoner indikerer. Fredrikstad FK kan karakteriseres som et ”heis-
+lag” som sliter med å etablere seg i toppdivisjonen over tid. Siden 2008 hvor
+Fredrikstad FK tok sølv i Tippeligaen og frem til i dag har klubben opplevd to
+nedrykk, et opprykk og et år i nedrykksstriden. 2012 sesongen er i skrivende
+stund akkurat avsluttet og det endte med nedrykk fra eliteserie til førstedivisjon.
+En grunn til slike variable resultater kan være at laget slipper inn for mye mål jf.
+sine konkurrenter. I følge UEFA A-lisensoppgaven til Joachim Jonsson (2008)
+har Fredrikstad FK ”siden opprykket til Tippeligaen 2004 sluppet inn mye mål
+noe som er den største anledningen til klubbens varierende resultater”.
+
+
+Det er derfor av interesse å gi en analyse av hvorfor laget slipper inn mål.
+Spørsmål som vil bli stilt og diskutert er: Er det stor forskjell på
+årsaksforklaringer på hjemme og bortebane? I hvilke faser av kampen kommer
+målene på? Hvilke type mål slipper laget inn? Hvor mister laget ballen? Er laget i
+
+
+
+
+                                                                                      7
+balanse eller i ubalanse? Hvor på banen kommer målgivende pasningen fra og
+hvor på banen settes avslutningen?
+
+
+
+Problemstilling 1
+      Hva slags baklengsmål slipper FFK inn i 2012. Baklengsmål deles inni tre
+       kategorier: dødball, etablert forsvar eller ”overgang imot”.
+      Antall mål FFK slipper inn på borte og hjemmebane.
+      Hvilken fase av kampen slipper FFK inn mål.
+
+
+Problemstilling 2
+      Hvor på banen mister FFK ballen.
+      Hvilken lagdel mister ballen.
+      Hvilke brudd gjøres på retningslinjene til godt forsvarsspill i FFK.
+      Hvor på banen kommer målgivende pasningene fra.
+      Hvor på banen kommer avslutningene fra.
+
+
+
+
+Avgrensning og begrepsavklaring
+I kapittelet ”Avgrensning og begrepsavklaring” skal jeg snevre inn
+problemstillingene og gi en forklaring som vil tydeliggjøre og belyse
+problemstillingene på en mer presis måte.
+
+
+
+Type angrep ved baklengsmål
+I denne oppgaven deles baklengsmål inn i tre kategorier:
+      Dødball
+          o Innkast
+          o Cornere
+          o frispark
+          o straffe.
+      Etablert forsvar
+      Overganger mot
+
+
+
+
+                                                                                  8
+I Bergo et al (2003) defineres et ”Breakdown-angrep” som et ”angrep som
+starter med ballerobring i spill der ubalansen i motstanderlaget skapes og/eller
+utnyttes under angrepets gang”. Jeg har valgt å kalle ”Breakdown-angrep” for
+overgang. Overgang mot FFK blir da motstander bryter når FFK er i ubalanse og
+motstander prøver å utnytte vår ubalanse til sin fordel.
+
+
+Bergo et al (2003) definerer angrep mot etablert forsvar som et angrep ”som
+starter med ballkontroll i bakre eller midtre ledd mot et forsvar i god balanse”
+Det vil si at når FFK slipper inn mål i etablert forsvar, er FFK i god balanse i det
+motstander får ballkontroll i bakre eller midtre ledd. Graden av balanse kan
+variere. Noen operer også med uttrykket delvis etablert forsvar. Jeg har valgt å
+ikke differensiere mellom delvis etablert og etablert forsvar, men ser alt under
+ett, og kaller dette for etablert forsvar.
+
+
+
+Avgrensning
+Jeg har tatt et valg ved å fokusere på alle baklengsmål inkludert dødballmål ved
+problemstilling 1.
+
+
+Ved problemstilling 2, har jeg valgt å fokusere kun på ”spillemål”. Spillemål er i
+denne oppgaven definert som baklengsmål når FFK er i etablert forsvar eller ved
+kontring mot. Det betyr at dødballmålene lukes ut av analysen ved
+problemstilling 2. Jeg har tatt dette valget slik at jeg kan fokusere på hvilke
+brudd FFK gjør på sine retningslinjer for godt forsvarsspill.
+
+
+
+Soner på banen
+Banen deles inn i tre soner på tvers av banen, jf Olsen. E, (1973). En forsvarssone,
+en midtsone og en angrepssone. Denne oppgaven tar utgangspunkt i disse tre
+sonene, men jeg vil senere i oppgaven presentere en mer detaljert soneinndeling.
+Jeg vil også dele banen inn i tre soner i bredderetning, -høyre og venstre
+kantsone og sentral sone.
+
+
+
+
+                                                                                       9
+Balltap
+Balltap kjennetegnes fra øyeblikket laget mister ballen og laget går over i
+omstilling fra angrep til forsvar. I Bergo et al (2003) defineres balltap som når
+motstander får ballkontroll.
+
+
+
+Trenerbytte
+Sesongen 2012 har gitt FFK noen spesielle forutsetninger. Klubben byttet
+hovedtrener etter syv spilte serierunder i Tippeligaen. Tom Freddy Aune ledet
+laget under oppkjøringen, de syv første serierundene og de to første cuprundene.
+I cupens andre runde ble det tap over Kvik Halden. Etter tapet mot Kvik Halden,
+trakk Tom Freddy Aune seg fra jobben som hovedtrener med umiddelbar
+virkning. I perioden under Tom Freddy Aunes ledelse var Trond Amundsen
+assistenttrener. Etter kampen mot Kvik Halden ble assistenttrener Trond
+Amundsen innsatt som hovedtrener fra åttende serierunde i Tippeligaen.
+
+
+Ved endring av lagets hovedtrener ble det også en endring i lagets formasjon.
+Retningslinjer for forsvarsspill ble også endret noe ved bytte av hovedtrener,
+selv om hovedprinsippene var sammenfallende.
+
+
+Tippeligaen 2012 består av 30 serierunder. Det betyr at majoriteten av kampene
+i 2012 ble ledet Trond Amundsen. De fleste kampene ble således spilt under hans
+ledelse, og hovedvekten av forklaringen på lagets retningslinjer for godt
+forsvarsspill vil derfor ta utgangspunkt i Trond Amundsens regime.
+
+
+
+Formasjon og formasjonsendring
+Tom Freddy Aune ledet laget i en 4-3-3 formasjon og som ofte ble benyttet som
+en 4-5-1 formasjon i etablert forsvar.
+
+
+Trond Amundsen endret formasjon fra åttende serierunde til 4-4-1-1.
+
+
+Ved bytte av hovedtrener og formasjon, kom noen endringer i retningslinjer for
+forsvarsspill. Formasjonsendringen har hatt størst innvirkning på hvordan laget
+
+
+                                                                                    10
+ønsker å spille etablerte forsvar. De to hovedtrenere har ikke gitt laget
+nevneverdige endringer på retningslinjer på kontringer mot eller retningslinjer
+for lagets balanse.
+
+
+
+
+Retningslinjer for forsvarsspill sesongen 2012
+I dette kapittelet skal jeg redegjøre for lagets retningslinjer for forsvarsspill i
+sesongen 2012. Jeg tar utgangspunkt i bruken av formasjon og hvilke
+retningslinjer de ulike spillfasene har. Siden dødballer ikke er en del av
+problemstillingen 2, velger jeg ikke å beskrive FFKs retningslinjer for dødball.
+
+
+
+Generelle retningslinjer
+Fredrikstad FK spilte sesongen 2012 soneforsvar. Jf, Olsen et al (1994), defineres
+soneforsvar som der spillerne plasserer seg i hovedsak i forhold til medspillere. I
+motsetning til et markeringsforsvar der spillerne plasserer seg i hovedsak i
+forhold til motspillere.
+
+
+Verken soneforsvar eller markeringsforsvar er lett å gjennomføre 100 %, Jf Olsen
+et al (1994). Dvs. at i begge systemene gjøres det innrømmelser mot motsatt
+system. FFK spilte i 2012 soneforsvar med noe innrømmelse til markering.
+
+
+FFK spilte med en tradisjonell backfirer, et midtbaneledd med fire spillere.
+Spissen/e lot motstander velge side for oppbyggende spill/angrep.
+Forsvarsspillet styres ut fra motstanders valg.
+
+
+
+Dybde i forsvarsspillet
+Olsen et al (1994), definerer førsteforsvareren som den spilleren som er
+nærmest ballen på forsvarssiden av banen. Fredrikstad FK ønsker en tydelig
+førsteforsvarer. Dette mht både valg av pressretning og for å skape dybde i
+forsvarsspillet. FFK ønsker i tillegg en førsteforsvarer som er god i ”en mot en”
+situasjoner. ”Ballfører er den viktigste spilleren å forholde seg til. Denne skal
+presses og sikres. Dessuten skal tredjeforsvarer forflytte seg mot ballfører” Olsen
+
+
+                                                                                      11
+et al, (1994). En tydelig førsteforsvarer, en andreforsvarer i sikringsposisjon og
+at tredjeforsvarer flytter seg mot ballfører skaper dybde i forsvarsspillet. FFK
+ønsker dette for å hindre gjennombruddspasninger fra motstander og for å
+vinne ball.
+
+
+
+Kompakt lag i lende- og bredderetning
+For å skape et kompakt lag både i lengde og bredderetning, er avstanden mellom
+første, andre og tredjeforsvarer viktig. Således er også avstanden mellom ledd
+like viktig som avstanden i ledd. Spesielt er det avstanden mellom bakerste og
+midterste ledd som er viktig, jf Olsen et al (1994). I sum ønsker FFK å forflytte
+alle lagdelene samtidig både i bredde og lengde for å opprettholde avstandene
+mer eller mindre konstante. Dette gjør laget kompakt både i lengde- og
+bredderetning. FFK ønsker kompakt forsvarsspill for å hindre
+gjennombruddspasninger fra motstander og vinne ball.
+
+
+
+Ved balltap
+Når FFK mister ball ønsker laget primært å vinne den tilbake umiddelbart.
+Dersom dette ikke er mulig eller at laget mislykkes med gjenvinningen går laget
+over fra gjenvinningsmodus til etablert forsvar eller kontring mot situasjon,
+avhengig av eget lags balanseforhold og hva motstander utfører av angrepstype.
+
+
+I etablert forsvar
+Fredrikstad FK ønsker som regel at motstander velger retning for deres
+angrepsspill. Det betyr at FFK sjelden ønsker noe ”styrespill” eller å sperre av i
+noen retning. FFK ønsker å ligge i etablert forsvar og sperre av rom. Når
+motstander velger å gå i angrep skal nærmeste spiller (vårt første pressledd)
+vise seg som en tydelig første forsvarer. Laget jobber deretter med riktige
+avstander mellom medspillere som beskrevet over i generelle retningslinjer.
+
+
+
+Presshøyde
+I etablert forsvar har FFK i 2012 variert presshøyde. Dette har også variert
+mellom hjemme- og bortekamper. Høyt press har vært hyppigere brukt på
+
+
+
+                                                                                     12
+hjemmebane enn på bortebane. Den mest brukte presshøyden i 2012 har vært
+lavt press. Vi i FFK har valgt å kalle denne presshøyden ”fra lavt til høyt” press.
+Det vil si at utgangspunktet er lavt press. Laget flytter deretter til høyt press når
+motstander gjør feil, små eller store, som gjør at avstander fra ball til første
+forsvarer tilsier hardt press. Deretter pusher laget hardt etter.
+
+
+Kontring mot
+Når Fredrikstad FK angriper er det ønskelig å ha balanse i laget. Dette primært
+for å forhindre kontringer mot eget lag. Sekundært er balanse, med riktige
+avstander, en god medisin for å gjenvinne ballen ved balltap.
+
+
+Når FFK angriper ønsker vi å ha et numerisk overtall bak. Dvs. at vi ønsker
+overtall i egen backlinje. Normalt holder vi igjen med to stoppere og motsatt
+back, ved angrep på kant. Alternativt, en stopper og to backer ved angrep
+sentralt. Vi ønsker å ha en eller to av de sentrale midtbanespillerne i balanse og
+på riktig side av ballen. Grunnen til at balanseforholdene kan variere noe
+grunnes kampens stilling og tid. Dersom FFK ønsker å sikre en seier er
+overtallsprinsippet både posisjonelt og numerisk viktigere enn dersom FFK jager
+mål.
+
+
+Dersom FFK er i posisjonell eller numerisk ubalanse ønsker vi og ”traktfalle”
+lengst mulig og helt til ”skuddhold”. Skuddhold defineres som ca 20 meter fra
+eget mål. Å traktfalle er at samtlige spillere løper inn sentralt og mot eget mål,
+som ”inn i en trakt”. Vi ønsker ikke at førsteforsvarer prøver å bryte høyt i banen,
+dersom han ikke er 100 % på å lykkes. Vi ønsker at førsteforsvarer oppholder
+angriper. Dette slik at vi kan traktfalle. Traktfalle med opphold av første angriper,
+gjør vi for at spillere som er posisjonell ubalanse eller spillere på feil side av
+ballen kan løpe opp kontringsspiller eller slik at laget gjenoppnår balanse.
+
+
+Oversikt over innslupne mål I 2012
+Totalt innslupne mål: 59.
+Kontring mot:         11      18,64 %
+Etablert forsvar:     26      44,07 %
+
+
+
+                                                                                      13
+Dødball:              22     37,29 %
+
+
+
+Metodedel
+Jeg skal i dette kapittelet beskrive hvordan oppgaven er designet for å løse de
+problemstillingene oppgaven stiller på best mulig måte. Dalland, O (2012)
+refererer til sosiologen Vilhelm Aubert når det gjelder å forklare hva metode er.
+Han formulerer det slik: ”En metode er en fremgangsmåte, et middel til å løse
+problemer og komme frem til ny kunnskap. Et hvilket som helst middel som
+tjener dette formålet, hører med i arsenalet av metoder”.
+
+
+Dalland, O (2012) skiller på kvalitative og kvantitative metoder. Kvantitativ
+metode gir oss data som har målbare enheter. Kvalitativ metode tar sikte på å
+fange opp mening og opplevelse som ikke lar seg måle.
+
+
+
+Metodevalg
+Ved analyse av innslupne mål for FFK i 2012 benytter jeg Interplay som
+analyseredskap. Dvs. at jeg har valgt observasjon som metode. Dalland, O (2012)
+skiller mellom kvantitativ observasjon og kvalitativ observasjon. Kvantitativ
+observasjon er registreringer som gir målbare enheter, mens kvalitativ
+observasjon retter seg mer mot relasjoner og samspill mellom mennesker. I
+denne oppgaven benyttes begge metoder. Ved å benytte flere enn en metode
+kalles dette en metodetriangulering, jf O. Dalland (2012). Det vil si at jeg skaffer
+data og informasjon både ved å telle (kvantitativ) og tolke (kvalitativ) data fra
+kampene til Fredrikstad FK for sesongen 2012.
+
+
+
+Populasjon
+Med populasjon mener en mengden av enkeltindivider en ønsker og finne ut noe
+mer om (måle/analysere) jf, www.sporreundersokelsen.no. Populasjonen i
+oppgaven er alle seriekamper mellom alle lagene i Tippeliagen i 2012:
+Tromsø
+Stabæk
+Hønefoss
+
+
+
+                                                                                    14
+Rosenborg
+Odd Grenland
+Sandnes Ulf
+Vålerenga
+Haugesund
+Strømsgodset
+Molde
+Brann
+Viking
+Sogndal
+Lillestrøm
+Ålesund
+Fredrikstad
+
+
+
+Utvalg
+Et utvalg er den delmengden av populasjonen som faktisk blir observert, jf
+www.sporreundersokelsen.no. I denne oppgaven er det kun FFK som blir
+observert og er således oppgavens utvalg.
+
+
+
+Utvalg av kamper
+I oppgaven er det kun baklengsmål til FFK som skal analyseres. Det vil si at det er
+kun de kamper hvor FFK slapp inn mål i 2012 som er oppgavens utvalg av
+kamper. FFK slapp inn mål i 25 av 30 seriekamper i 2012.
+Kampene som ble analysert:
+Dag    DATO       HJEMMELAG           R E S BORTELAG           BANE
+Søndag 25.03.2012 Tromsø              1 - 0 Fredrikstad        Alfheim stadion
+Søndag 01.04.2012 Fredrikstad         5 - 1 Stabæk             Fredrikstad stadion
+Mandag 09.04.2012 Hønefoss            1 - 1 Fredrikstad        Aka Arena
+Fredag 13.04.2012 Fredrikstad         1 - 2 Rosenborg          Fredrikstad stadion
+Søndag 22.04.2012 Odd Grenland        1 - 1 Fredrikstad        Skagerak Arena
+Lørdag 28.04.2012 Fredrikstad         3 - 4 Sandnes Ulf        Fredrikstad stadion
+Søndag 06.05.2012 Vålerenga           3 - 2 Fredrikstad        Ullevaal Stadion
+Onsdag 16.05.2012 Molde               2 - 0 Fredrikstad        Aker stadion
+Lørdag 19.05.2012 Fredrikstad         2 - 3 Strømsgodset       Fredrikstad stadion
+Onsdag 23.05.2012 Brann               2 - 0 Fredrikstad        Brann stadion
+
+
+                                                                                15
+Fredag 29.06.2012 Sogndal             1 -   3 Fredrikstad      Fosshaugane Campus
+Mandag 09.07.2012 Fredrikstad         3 -   4 Lillestrøm       Fredrikstad stadion
+Søndag 15.07.2012 Aalesund            3 -   0 Fredrikstad      Color Line Stadion
+Søndag 22.07.2012 Fredrikstad         0 -   2 Hønefoss         Fredrikstad stadion
+Fredag 27.07.2012 Strømsgodset        5 -   0 Fredrikstad      Marienlyst gml
+Søndag 12.08.2012 Viking              3 -   0 Fredrikstad      Viking Stadion
+Mandag 27.08.2012 Fredrikstad         1 -   3 Aalesund         Fredrikstad stadion
+Lørdag 01.09.2012 Lillestrøm          1 -   2 Fredrikstad      Åråsen stadion
+Søndag 16.09.2012 Fredrikstad         2 -   1 Sogndal          Fredrikstad stadion
+Mandag 01.10.2012 Fredrikstad         1 -   2 Vålerenga        Fredrikstad stadion
+Søndag 07.10.2012 Haugesund           1 -   0 Fredrikstad      Haugesund stadion
+Mandag 22.10.2012 Fredrikstad         3 -   4 Brann            Fredrikstad stadion
+Lørdag 27.10.2012 Sandnes Ulf         5 -   1 Fredrikstad      Sandnes stadion
+Fredag 02.11.2012 Fredrikstad         4 -   2 Odd Grenland     Fredrikstad stadion
+Søndag 18.11.2012 Fredrikstad         0 -   2 Molde            Fredrikstad stadion
+
+Alle kampene er filmet av Tv2 og Max. Jeg har tatt ut målene fra disse kampene
+og analysert dem.
+
+
+
+Representativt og generalisering
+Når en undersøkelse er utført er det ønskelig at flest mulig kan nytte seg av den. I
+følge Dalland, O. (2012) må resultatene kunne generaliseres. Det betyr at
+utvalget med stor sannsynlighet gjelder også hele populasjonen. Det betyr jf
+Dalland, O. (2012) at utvalget er representativt. Denne oppgaven ser kun på
+kamper hvor FFK har sluppet inn mål i 2012. Det betyr at dette valget kan gi
+noen tilfeldigheter.
+
+
+
+Utforming av observasjonsskjema
+Dalland, O (2012) skiller på ustrukturert og strukturert observasjon. En
+strukturert observasjon krever en mer detaljert planlegging enn den
+ustrukturerte. I denne oppgaven benyttes strukturert observasjon og således må
+jeg på forhånd definere hvilke handlinger som skal observeres. Det er derfor
+utformet et observasjonsskjema.
+
+
+
+Systematisering og registrering
+Jeg har systematisert og registrert data etter disse overskriftene:
+
+
+                                                                                 16
+Type innslupne mål
+Dataregistrering
+
+
+Innslupne mål hjemme- og bortebane
+Dataregistrering
+
+
+Fase av kampen for innslupne mål
+Ved registrering av innslupne mål har jeg katalogisert når målene ble sluppet inn
+i 15 minutters intervaller. Dvs. at målene er registrert i seks forskjellige
+tidssoner av de 90 minuttene. De forskjellige tidssonene er katalogisert slik:
+0-15 min      16-30 min     31-45 min    46-60 min     61-75 min     76-90 min
+
+
+Overtidsmål er inkludert i siste tidssone.
+
+
+
+Balltap
+Alle målene som er innsluppet har i forkant et balltap fra FFK. Disse balltapene
+er registrert. Sone for balltap og hvilken lagdel tapte ballen er registrert.
+
+
+Det er ikke slik at alle registrerte balltap fører direkte til scoring, eller at
+balltapet i seg selv er den direkte årsak til baklengsmålet. Denne analysen gir en
+mer generell oppfatning av hvor FFK taper ballen. Balltap som gir en direkte
+årsak   til   baklengsmål    behandles     under     ”brudd   på   retningslinjer”    i
+diskusjonsdelen av oppgaven.
+
+
+
+Innslupne mål i etablert forsvar
+Analyse og dataregistrering
+
+
+Innslupne mål i kontring mot
+Analyse og dataregistrering
+
+
+
+Type brudd på retningslinjer
+Kvalitativ analyse av årsaken til innsluppet mål.
+
+
+Målgivende pasning fra motstander ved baklengsmål
+Dataregistrering. Sone for målgivende pasning før målet ble scoret.
+
+
+
+                                                                                     17
+Målet
+Dataregistrering. Sone hvor baklengsmålet ble scoret.
+
+
+Oppdeling av soner i bredde og lengderetning
+
+
+
+
+          4                  3                    2          1
+
+
+                        Forsvarssone
+          8                  7                    6          5
+
+          12              11                            10   9
+
+
+          16            Midtbanesone                         13
+                        15                          14
+
+                             19               18
+         20                                                  17
+                           Angrepssone
+
+         24                   23               22            21
+
+Oppdeling av soner i lengderetning:
+
+
+Forsvarssoner:
+1     Forsvar, bakre sone kant venstre
+2     Forsvar, bakre sone sentralt venstre
+
+
+                                                                  18
+3     Forsvar, bakre sone sentralt høyre
+4     Forsvar, bakre sone kant høyre
+5     Forsvar, fremre sone kant venstre
+6     Forsvar, fremre sone sentralt venstre
+7     Forsvar, fremre sone sentralt høyre
+8     Forsvar, fremre sone kant høyre
+
+
+Midtbanesoner
+9     Midtbane (mb) bakre sone kant venstre
+10    Midtbane bakre sone sentralt venstre
+11    Midtbane bakre sone sentralt høyre
+12    Midtbane bakre sone sentralt kant
+13|   Midtbane fremre sone kant venstre
+14    Midtbane fremre sone sentralt venstre
+15    Midtbane fremre sone sentralt høyre
+16    Midtbane fremre sone kant høyre
+
+
+Angrepssoner
+17    Angrep bakre sone kant venstre
+18    Angrep, bakre sone sentralt venstre
+19    Angrep, bakre sone sentralt høyre
+20    Angrep, bakre sone kant høyre
+21    Angrep, fremre sone kant venstre
+22    Angrep, fremre sone sentralt venstre
+23    Angrep, fremre sone sentralt høyre
+24    Angrep, fremre sone kant høyre
+
+
+Oppdeling av soner i bredderetning:
+
+
+Høyre kant
+4     Forsvar, bakre sone kant høyre
+8     Forsvar, fremre sone kant høyre
+12    Midtbane bakre sone sentralt kant
+
+
+                                              19
+16     Midtbane fremre sone kant høyre
+20     Angrep, bakre sone kant høyre
+24     Angrep, fremre sone kant høyre
+
+
+Venstre kant
+1      Forsvar, bakre sone kant venstre
+5      Forsvar, fremre sone kant venstre
+9      Midtbane (mb) bakre sone kant venstre
+13     Midtbane fremre sone kant venstre
+17     Angrep bakre sone kant venstre
+21     Angrep, fremre sone kant venstre
+
+
+Sentralt
+2      Forsvar, bakre sone sentralt venstre
+3      Forsvar, bakre sone sentralt høyre
+6      Forsvar, fremre sone sentralt venstre
+7      Forsvar, fremre sone sentralt høyre
+10     Midtbane bakre sone sentralt venstre
+11     Midtbane bakre sone sentralt høyre
+14     Midtbane fremre sone sentralt venstre
+15     Midtbane fremre sone sentralt høyre
+18     Angrep, bakre sone sentralt venstre
+19     Angrep, bakre sone sentralt høyre
+22     Angrep, fremre sone sentralt venstre
+23     Angrep, fremre sone sentralt høyre
+
+
+
+Feilkilder
+Jeg har valgt å legge vekt på innslupne mål. Oppgaven ser ikke på sjanser mot
+FFK. Oppgaven vil således ikke gi det hele bildet av FFKs forsvarsspill. Derfor er
+oppgaven ikke noen fasit på FFKs forsvarsproblem. Ved å se på innslupne mål vil
+oppgaven sterkt belyse FFKs forsvarsproblem.
+
+
+
+
+                                                                               20
+Reliabilitet og Validitet
+Metoden som blir valg til en gitt oppgave skal ifølge Dalland, O (2012) gi
+troverdig kunnskap. Det betyr at kravene til reliabilitet og validitet må være
+oppfylt. Jf Dalland, O. (2012) betyr reliabilitet pålitelighet. Det handler om at
+målinger må utføres korrekt, og at eventuelle feilmarginer angis. Dalland, O
+(2012) definerer validitet som relevans og gyldighet. Det som måles må være
+relevant og være gyldig for det problemet som undersøkes.
+
+
+Jeg anser at observasjon og analyse av kampene hvor FFK slapp inn mål i 2012 er
+utført på en korrekt måte og at feilkilder er angitt. Å analysere baklengsmålene
+til FFK i 2012 er relevant for problemet som undersøkes.
+
+
+
+
+Diskusjon
+I denne delen skal jeg presentere og diskutere hvilke funn jeg har gjort etter en
+analyse av innslupne mål i 2012 sesongen. Jeg vil presentere statistikk gjort via
+dataregistrering og analyse i Interplay. Jeg vil deretter kommentere dette ut ifra
+de eventuelle brudd som er gjort på FFK sine retningslinjer for godt forsvarsspill.
+
+
+
+Etter hvilke type angrep kom baklengsmålene
+FFK holdt nullen bakover i kun fem kamper av 30 i 2012 sesongen. I de
+resterende 25 kampene slapp FFK inn totalt 59 mål. Disse er fordelt på 22 mål på
+dødball, 26 mål i etablert forsvar og 11 scoringer på kontring mot. Dette utgjør
+37,29 % på dødball, 44,07 % i etablert forsvar og 18,64 % på kontring mot. 59
+innslupne mål fordelt på 30 seriekamper borte og hjemme gir et snitt på 1, 97
+innslupne mål pr kamp.
+
+
+
+
+                                                                                21
+                                           18,64
+                                            %                       Dødball
+                                Dødball
+           11                                           37,29
+                   22                                               Etablert
+                                                         %
+                                Etablert       44,07                forsvar
+          26                    forsvar         %                   Kontring
+                                Kontring                            mot
+                                mot
+
+
+
+Dødballene er igjen katalogisert i fire ulike kategorier. Innkast, corner, frispark
+og straffe. De 22 dødballene fordeler seg slik: syv mål på innkast, syv mål på
+straffe, tre på frispark, og fem på corner. Av totalen utgjør dette 11,86 % på
+innkast, 11,87 % på straffe, 5,08 % på frispark og 8,47 % på corner.
+Innkast        Straffe   Frispark Corner
+7              7         3        5
+11,86 %        11,86 %   5,08 % 8,47 %
+
+
+Etter hvilke type angrep kom baklengsmålene på hjemmebane
+FFK slapp inn totalt 30 mål i 2012 sesongen på hjemmebane. Fordelt på
+henholdsvis 15 hjemmekamper gir dette et snitt på 2,0 pr hjemmekamp.
+
+
+Av de 30 målene kom 12 mål på dødball, 5 mål på kontring mot og 13 mål i
+etablert forsvar. Dette utgjør 40 % på dødball, 16,67 % på kontring mot og
+43,33 % i etablert forsvar.
+
+
+
+                                                                 40,00%
+                                Dødball    16,67%                   Dødball
+               5   12
+                                Etablert                            Etablert
+          13                                   43,33%
+                                forsvar                             forsvar
+                                Kontring                            Kontring mot
+                                mot
+
+
+
+
+                                                                                   22
+Av de 12 målene innsluppet på hjemmebane via dødball kom tre mål fra innkast,
+fire mål på straffe, to mål på frispark og tre mål på corner. Dette utgjør
+henholdsvis 10 % på innkast, 13,33 % på straffe, 6,67 % på frispark og 10 % på
+corner.
+Innkast    Straffe Frispark Corner
+3          4       2        3
+           13,33
+10,00 %    %       6,67 % 10,00 %
+
+
+Etter hvilke type angrep kom baklengsmålene på bortebane
+FFK slapp inn totalt 29 mål i 2012 sesongen på bortebane. Fordelt på
+henholdsvis 15 bortekamper gir dette et snitt på 1,93 pr bortekamp.
+
+
+På bortebane utgjør av de 29 innslupne, 10 mål på dødball, 13 mål i etablert
+forsvar og 6 mål i kontring mot. I % utgjør dette 34.48 % på dødball, 44,83 % i
+etablert        forsvar       og       20.69       %       på   kontring         mot.
+
+
+
+                                                                 34,48
+                                                                  %
+                                   Dødball                            Dødball
+           6                                   20,69
+                    10
+                                                %
+                                   Etablert                           Etablert
+           13                      forsvar                            forsvar
+                                   Kontring                           Kontring
+                                   mot             44,83              mot
+                                                    %
+
+
+
+
+Av dødballene innsluppet på bortebane er de 10 målene fordelt på fire mål fra
+innkast, tre mål på straffe, ett frisparksmål og to mål fra corner. I % av de totalt
+innslupne mål på bortebane utgjør innkast 13,79 %, straffe 10,34 %, frispark
+3,45 % og corner 6,9 %.
+
+
+Innkast    Straffe        Frispark Corner
+4          3              1        2
+13,79 %    10,34 %        3,45 % 6,90 %
+
+
+
+                                                                                  23
+Sammendrag av statistikk for hvilke type angrep kom baklengsmålene
+Det første åpenbare oppsiktsvekkende faktum er at FFK slapp inn hele 59 mål i
+2012 sesongen. Dette gir et snitt på 1,97 pr kamp. Antallet er stort og således
+førte dette til nedrykk fra Tippeligaen. Det neste som er oppsiktsvekkende er at
+FFK slapp inn flere mål på hjemmebane enn bortebane. Dette må anses også som
+et svakt resultat. Mangelen på å gjøre hjemmebanen til ”et fort”, hvor FFK var
+vanskelig å score på og vinne mot, var således utslagsgivende for at det ble
+nedrykk.
+
+
+Fordelingen av type mål gir en fordeling hvor dødballmål og mål ved etablert
+angrep utgjør hele 81,36 % av totalt 59 innslupne mål. FFK slapp relativt få mål
+inn etter kontring mot. Tallene på denne fordelingen holder seg mer eller mindre
+konstant på henholdsvis hjemme- og bortebane. Det eneste bemerkelsesverdige
+er at det slippes inn flere mål på kontring mot på bortebane enn hjemmebane.
+Det kan ofte antas at ved å dominere et banespill på hjemmebane er risikoen for
+kontring imot større en ved en ”forsvarskamp” på bortebane. Begrunnelsen for
+dette behandles i kapittelet ”Balltap som resulterte i baklengsmål på overganger
+mot på bortebane”.
+
+
+Det er også et bemerkelsesverdig funn at FFK slipper inn så stor andel av sine
+mål når laget er i etablert forsvar, hvor laget er både posisjonell og numerisk
+balanse. Begrunnelsen for dette behandles i kapittelet ”Balltap som resulterte i
+baklengsmål der vi var i etablert forsvar”.
+
+
+Vedrørende de 22 dødballmål mot slippes syv mål inn fra innkast. Dette tyder i
+seg selv på at organiseringen og omstillingen ved dødball er svak. Ellers så
+slipper FFK inn et lite antall flere dødballmål på hjemmebane enn bortebane (10
+mot 12 mål).
+
+
+
+Når kom baklengsmålene
+De totalt 59 innslupne mål er fordelt slik på de ulike tidssonene:
+
+
+
+
+                                                                             24
+                                                                              15,25%
+                              0-15 min                      15,25%             0-15 min
+                              16-30 min                                        16-30 min
+        15       9                                 25,42%
+                          9   31-45 min                                        31-45 min
+  6         10       10
+                              46-60 min                                        46-60 min
+                              61-75 min                              16,95%    61-75 min
+                                           10,17%
+                                                    16,95%
+                              76-90 min                                        76-90 min
+
+
+
+
+Dataene viser 15,25 % av målene ble sluppet inn det første kvarteret. 15,25 % av
+målene ble sluppet inn det andre kvarteret av første omgang. 16,95 % av målene
+ble sluppet inn det siste kvarteret av første omgang. 16,95 % av målene ble
+sluppet inn første kvarteret av andre omgang. 10,17 % av målene ble sluppet inn
+det andre kvarteret av andre omgang. 25,42 % av målene ble sluppet inn det
+siste kvarteret av kampen.
+
+
+
+Når kom baklengsmålene på hjemmebane
+De totalt 30 målene sluppet inn på hjemmebane fordeler seg slik:
+
+
+                                                                              13,33%
+                               0-15 min                                        0-15 min
+                                                               16,67%
+                                           26,67%
+                               16-30 min                                       16-30 min
+            8    5
+                          4    31-45 min                                       31-45 min
+        4            8                                   26,67%
+  1                            46-60 min                                       46-60 min
+                               61-75 min   3,33%                               61-75 min
+                               76-90 min                                       76-90 min
+                                             13,33%
+
+Dataene viser 16,67 % av målene ble sluppet inn det første kvarteret. 13,33 % av
+målene ble sluppet inn det andre kvarteret av første omgang. 26,67 % av målene
+ble sluppet inn det siste kvarteret av første omgang. 13,33 % av målene ble
+sluppet inn første kvarteret av andre omgang. 3,33 % av målene ble sluppet inn
+det andre kvarteret av andre omgang og 26,67 % av målene ble sluppet inn det
+siste kvarteret av kampen.
+
+
+
+                                                                                           25
+Når kom baklengsmålene på bortebane
+De totalt 29 målene sluppet inn på bortebane fordeler seg slik:
+
+
+
+                             0-15 min                                 0-15 min
+                                                    13,79%
+                                         24,14%
+                             16-30 min                                16-30 min
+          7   4                                              17,24%
+                  5          31-45 min                                31-45 min
+      5       6              46-60 min                                46-60 min
+                      2
+                             61-75 min   17,24%                       61-75 min
+                                                  20,69%
+                             76-90 min                     6,90%      76-90 min
+
+
+
+
+Dataene viser 13,79 % av målene ble sluppet inn det første kvarteret. 17,24 % av
+målene ble sluppet inn det andre kvarteret av første omgang. 6,9 % av målene
+ble sluppet inn det siste kvarteret av første omgang. 20,69 % av målene ble
+sluppet inn første kvarteret av andre omgang. 17,24 % av målene ble sluppet inn
+det andre kvarteret av andre omgang og 24,14 % av målene ble sluppet inn det
+siste kvarteret av kampen.
+
+
+
+Sammendrag av statistikk for når kom baklengsmålene
+Fordelingen på når FFK slipper de 59 baklengsmålene er relativt jevn de første
+60 minuttene av kampene. Ca 15 % av baklengsmålene kommer pr. kvarter spilt.
+Avviket negativt er at 25,42 % av baklengsmålene kommer i det siste kvarteret
+av kampen. Dette er ofte da kampene avgjøres. FFK har fått for ofte ”spikeren i
+kista” det siste kvarteret av kampene. Begrunnelsen for et slik negativt avvik er
+nok mangfoldig. Kvaliteten på forsvarsspillet, individuelt og kollektivt har vært
+en avgjørende faktor. Det å være et bunnlag gjennom store deler av sesongen
+kan lede til at laget får et psykologisk problem med å avgjøre kampene til sin
+fordel. Det positive avviket er at FFK slipper inn færre mål fra 61 til 75 spilte
+minutt (10,17 %). Kampene står da og vipper og venter på å bli avgjort.
+
+
+Fordelingen av innslupne mål på hjemmebane er noe mer ujevn. FFK slipper inn
+mer mål siste kvarteret av kampene. I tillegg slipper FFK inn en større andel
+baklengsmål siste kvartet i første omgang. Dette tidsintervallet er ofte
+psykologisk viktige minutter for å ta med seg en god følelse til pause. Positivt
+
+
+
+                                                                                  26
+avvik er også på hjemmebane fra 61 til 75 minutt hvor FFK kun slipper inn
+3,33 % av målene. Kampene står da og vipper og venter på å bli avgjort.
+
+
+På bortebane stiller det seg annerledes. FFK slipper inn få mål siste kvarteret før
+pause. Dette er positivt. Derimot slipper laget inn stor andel baklengsmål første
+og siste kvarteret av andre omgang.
+
+
+Begrunnelsen for slike resultatavvik mellom hjemme og bortebane er nok
+mangfoldige. Det ser ut til at FFK på bortebane har spilt med mindre risiko og
+bedre konsentrasjon inn mot pause. Derimot snur dette de første 15 minuttene
+av andre omgang. Da slipper FFK inn mange mål på bortebane.
+
+
+
+Balltap
+I dette kapittelet skal jeg, via analysen i Interplay, si hvor FFK mister ballen som
+leder til baklengsmål. Med dette ønsker jeg å si noe om risikoen i FFK sitt
+offensive spill, balansen i laget ved balltapet og ikke minst hvordan vi forsvarer
+oss etter balltapet ut ifra motstander. Dataene er registret ut fra tabellen
+presentert over i kapittelet ”Oppdeling av soner i bredde og lengderetning”.
+
+
+Av de 37 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik i
+lengderetning:
+
+
+
+                                      45,95           16,22
+                                       %               %
+       17   6              Forsvar                               Forsvar
+
+                14         Midtbane                              Midtbane
+                           Angrep                                Angrep
+                                                                37,84
+                                                                 %
+
+
+
+16,22 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+37,84 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 45,95 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+
+
+
+                                                                                 27
+Av de 37 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik i
+bredderetning:
+
+
+                                                             27,03
+                                                              %
+                          Høyre kant                           Høyre kant
+
+               10
+                          Venstre                                 Venstre
+      21            6                                             kant
+                          kant
+                          Sentralt     56,76                      Sentralt
+                                        %
+                                                           16,22
+                                                            %
+
+27.03 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+16,22 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+56,76 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Balltap som resulterte i baklengsmål på hjemmebane
+Av de 18 spillemålene som FFK slapp inn på hjemmebane fordeles balltapet seg
+slik i lengderetning:
+
+
+
+
+                                               33,33
+                                                %            22,22
+           6   4            Forsvar                           %              Forsvar
+
+               8            Midtbane                                         Midtbane
+                            Angrep                                           Angrep
+                                                          44,44
+                                                           %
+
+
+22,22 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+44,44 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 33,33 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+
+Av de 18 spillemålene som FFK slapp inn på hjemmebane i 2012 fordeles
+balltapet seg slik i bredderetning:
+
+
+
+
+                                                                                       28
+                           Høyre                    22,22       Høyre
+                           kant                      %          kant
+             4
+                           Venstre                              Venstre
+       12                  kant
+                       2                                        kant
+                           Sentralt                             Sentralt
+                                       66,67
+                                        %
+                                                            11,11
+                                                             %
+22,22 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+11,11 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+66,67 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Balltap som resulterte i baklengsmål på bortebane
+Av de 19 spillemålene som FFK slapp inn på bortebane fordeles balltapet seg slik
+i lengderetning:
+
+
+
+                                                  10,53             31,58
+                                                   %                 %
+            2               Forsvar                                   Forsvar
+                   6
+      11                    Midtbane                                 Midtbane
+                            Angrep                                   Angrep
+                                         57,89
+                                          %
+
+
+10,53 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+31,58 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 57,89 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+
+Av de 19 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik i
+bredderetning:
+
+
+
+
+                                                                                 29
+                                                           31,58
+                                                            %
+                          Høyre      47,37                   Høyre
+                          kant        %                      kant
+       9     6
+                          Venstre                            Venstre
+            4             kant                               kant
+                          Sentralt                           Sentralt
+                                                21,05
+                                                 %
+
+
+
+
+31,58 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+21,05 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+47,37 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Sammendrag av statistikk for balltap som resulterte i baklengsmål
+Analysen av balltap som ledet il baklengsmål, støtter funnet om at FFK slipper
+inn mange mål i etablert forsvar, - da største delen av det totale balltapet
+kommer høyt i banen. Dette demper mistanken om at risikoen i FFK sitt
+offensive spill er for stor. Ved de fleste balltap har FFK for mange spillere på rett
+side av ballen i numerisk og posisjonell balanse. Dette tilsier at farlige balltap i
+seg selv ikke gir en god nok begrunnelse alene for hvorfor FFK slipper inn så
+mange mål i 2012.
+
+
+I bredderetningen er fordelingen jevn mellom balltap sentralt i banen og på kant,
+men jeg registrerer at balltapet på egen venstre side er lavere enn høyre kant og
+sentralt. Dette tyder på at risikoen i det offensive spill er mindre på FFKs
+venstreside og/eller at vår venstre side er bedre offensivt enn ellers i banen.
+
+
+Et interessant funn er ulikhetene av det totale balltapet på hhv hjemme og
+bortebane. På hjemmebane forekommer de fleste balltap sentralt i banen og i
+midtbanesonen. På bortebane forekommer de fleste balltap i angrepssonen og
+ellers jevnt fordelt i bredderetning. Dette tyder på at risikoen i FFK sitt offensive
+spill er større på hjemmebane enn på bortebane. Dette funnet støttes av
+
+
+
+                                                                                  30
+videoanalysen hvor langt flere balltap på hjemmebane også har en direkte
+årsakssammenheng        med     baklengsmål.       Dette   omhandles          nærmere    i
+kapittelet ”Brudd på retningslinjer”.
+
+
+
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar
+FFK slapp inn 26 mål i etablert forsvar i 2012. Av de 26 målene som FFK slapp
+inn fordeles balltapet seg slik i lengderetning:
+
+
+
+                                         46,15                     26,92
+                                          %                         %
+       12     7             Forsvar                                    Forsvar
+                            Midtbane                                   Midtbane
+              7
+                            Angrep                                     Angrep
+                                                           26,92
+                                                            %
+
+
+
+26,92 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+26,92 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 46,15 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+Av de 26 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik i
+bredderetning:
+
+
+                                                               26,92
+                                                                %
+                           Høyre       50,00                     Høyre
+                           kant         %                        kant
+             7
+     13                    Venstre                                 Venstre
+              6            kant                                    kant
+                           Sentralt                                Sentralt
+
+
+                                                             23,08
+                                                              %
+
+26,92 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+23,08 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+50,00 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+
+                                                                                        31
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på hjemmebane
+FFK slapp inn 13 mål i 2012 i etablert forsvar på hjemmebane. Av de 13 målene
+som FFK slapp inn fordeles balltapet seg slik i lengderetning:
+
+
+
+
+                                      38,46          23,08
+        5    3            Forsvar      %              %             Forsvar
+
+             5            Midtbane                                  Midtbane
+                          Angrep                                    Angrep
+                                                 38,46
+                                                  %
+
+
+
+
+23,08 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+38,46 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 38,46 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+
+Av de 13 målene som FFK slapp inn på hjemmebane i 2012 fordeles balltapet seg
+slik i bredderetning:
+
+
+
+
+                          Høyre                                    Høyre
+                          kant                     23,08
+             3                                      %              kant
+                 2        Venstre                                  Venstre
+       8                  kant                                     kant
+                          Sentralt                                 Sentralt
+                                     61,54
+                                      %
+                                                           15,38
+                                                            %
+
+
+
+23,08 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+15,38 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+61,54 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+
+                                                                                 32
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på bortebane
+FFK slapp inn 13 mål i 2012 i etablert forsvar på bortebane. Av de 13 målene
+som FFK slapp inn fordeles balltapet seg slik i lengderetning:
+
+
+
+
+                                                15,38
+             2           Forsvar                 %               Forsvar
+     7               4   Midtbane                                Midtbane
+                         Angrep                                  Angrep
+                                      53,85
+                                       %                    30,77
+                                                             %
+
+
+
+15,38 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+30,77 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 53,85 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+Av de 13 målene som FFK slapp inn på hjemmebane i 2012 fordeles balltapet seg
+slik i bredderetning:
+
+
+
+                                                          30,77
+                                                           %
+                         Høyre kant                           Høyre kant
+                                      38,46
+         5       4                     %
+                         Venstre                                 Venstre
+             4           kant                                    kant
+                         Sentralt                                Sentralt
+                                               30,77
+                                                %
+
+
+
+30,77 % av alle balltap som ledet til scoring mot forekommer på høyre kant.
+30,77 % av alle balltap som ledet til scoring mot forekommer på venstre kant og
+38,46 % av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Sammendrag av statistikk for balltap som resulterte i baklengsmål i etablert
+forsvar
+Naturlig nok kommer de fleste balltap her høyt og sentralt i banen. Dette støtter
+at FFK er i numerisk og posisjonell balanse når motstander får ballkontroll i
+
+
+                                                                                 33
+bakerste eller midterste ledd. Noe skremmende er det da at FFK slipper inn så
+mange mål i slike situasjoner. Noen av årsakene til det er at FFK ofte blir for
+passive i leddene. Forsvars og midtbaneleddene blir flate. Vi savner den
+naturlige dybden vi søker i det defensive spillet. Samtidig klarer vi ikke å dekke
+farlige rom slik at gjennomspill inn mellom forsvarsleddene har vært for enkelt.
+Ofte er det også ”strekk i laget”, dvs. at avstanden mellom spillere i ledd og
+mellom ledd er for stor til at FFK har et kompakt lag. Dette gjelder både i lengde
+og bredderetning. Som oftest er avstanden mellom backledd og midtbaneledd for
+stor fordi forsvarsleddet faller ned for tidlig og for langt. Det er også tendenser til
+at backleddet heller ikke klarer og ”pushe ut” ved klareringer eller ved
+støttepasninger hos motstander. Dette er klare brudd på FFK sine retningslinjer
+for godt forsvarsspill. Det oppleves som at FFK ofte er i gunstige situasjoner
+defensivt, men at spillerne ikke gjør den jobben som skal til for å hindre mål.
+Dyktige lag klarer da å utnytte rommet mellom forsvarslinjene og spesielt
+mellomrommet som blir mellom de bakerste lagdelene. Derfra får motstander
+spille seg inn i gunstige situasjoner.
+
+
+
+Balltap som resulterte i baklengsmål på overganger mot
+FFK slapp inn 11 mål i 2012 på kontring mot. Av de 11 målene som FFK slapp inn
+fordeles balltapet seg slik i lengderetning:
+
+
+
+                                         27,27                    36,36
+                                          %                        %
+          3     4            Forsvar                                Forsvar
+
+           4                 Midtbane                               Midtbane
+                             Angrep                                 Angrep
+                                                 36,36
+                                                  %
+
+
+
+36,36 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+36,36 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 27,27 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+Av de 11 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik i
+bredderetning:
+
+
+                                                                                    34
+                                                             27,27
+                                                              %
+                            Høyre kant                          Høyre kant
+
+                3
+                            Venstre                                Venstre
+        8               0   kant                                   kant
+                            Sentralt                               Sentralt
+
+                                          72,73
+                                           %                   0,00%
+
+
+
+27,27 % av alle balltap som ledet til scoring mot forekommer på høyre kant. 0 %
+av alle balltap som ledet til scoring mot forekommer på venstre kant og 72,73 %
+av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Balltap som resulterte i baklengsmål på overganger mot på hjemmebane
+FFK slapp inn fem mål i 2012 på kontring mot på hjemmebane. Av de fem målene
+som FFK slapp inn fordeles balltapet seg slik i lengderetning:
+
+
+
+
+                                           20,00           20,00
+            1       1          Forsvar      %               %           Forsvar
+                3              Midtbane            60,00                Midtbane
+                               Angrep               %                   Angrep
+
+
+
+
+20,00 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+60,00 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 20,00 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+Av de fem spillemålene som FFK slapp inn på hjemmebane i 2012 fordeles
+balltapet seg slik i bredderetning:
+
+
+
+
+                                                                                   35
+                                                            20,00
+                                                             %
+                            Høyre kant                           Høyre kant
+                1       0
+                            Venstre                              Venstre
+            4               kant                                 kant
+                            Sentralt     80,00                   Sentralt
+                                          %
+
+                                                                 0,00%
+
+
+20,00 % av alle balltap som ledet til scoring mot forekommer på høyre kant. 0 %
+av alle balltap som ledet til scoring mot forekommer på venstre kant og 80,00 %
+av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+
+Balltap som resulterte i baklengsmål på overganger mot på bortebane
+FFK slapp inn seks mål i 2012 på kontring mot på bortebane. Av de seks målene
+som FFK slapp inn fordeles balltapet seg slik i lengderetning:
+
+
+
+
+                0                                   0,00%         33,33
+                    2                                              %
+                              Forsvar                               Forsvar
+        4                     Midtbane           66,67              Midtbane
+                                                  %
+                              Angrep                                Angrep
+
+
+
+
+20,00 % av alle balltap som ledet til scoring mot forekommer i forsvarssonen.
+60,00 % av alle balltap som ledet til scoring mot forekommer i midtbanesonen,
+og 20,00 % av alle balltap som ledet til scoring mot forekommer i angrepssonen.
+
+Av de seks spillemålene som FFK slapp inn på bortebane i 2012 fordeles
+balltapet seg slik i bredderetning:
+
+
+                                                                               36
+                                                               33,33
+                              Høyre kant                        %
+                                                                   Høyre kant
+                 2
+                              Venstre                              Venstre
+        4                     kant                                 kant
+                       0      Sentralt                     0,00%   Sentralt
+                                           66,67
+                                            %
+
+
+
+
+20,00 % av alle balltap som ledet til scoring mot forekommer på høyre kant. 0 %
+av alle balltap som ledet til scoring mot forekommer på venstre kant og 80,00 %
+av alle balltap som ledet til scoring mot forekommer sentralt i banen.
+
+
+
+Sammendrag av statistikk for balltap som resulterte i baklengsmål ved kontring
+mot
+FFK slapp inn kun 11 mål på kontring mot i 2012. Selv om målet er å slippe inn
+null mål, må dette antall sies å være et godkjent, spesielt sammenlignet med
+totalt innslupne mål. Antallet sier noe om at balansen i laget posisjonelt og
+numerisk ofte er bra. Som beskrevet under kapitelet om etablert forsvar er ikke
+posisjoneringen FFK hovedproblem defensivt.
+
+
+Av totalen av innslupne kontringer mot kommer størsteparten av balltapene lavt
+i banen (forsvar og midtbanesone) og sentralt i banen. Dette forsterkes når man
+ser på balltapet i forkant av mål scoret på kontring mot på egen hjemmebane. De
+største bruddene på retningslinjene er selve balltapene lavt i banen. Risikoen i
+det ”oppbyggende spill” er for stor og FFK kommer i stort undertall både
+posisjonelt og numerisk ved balltapet. Dette er individuelle feil som motstander
+har utnyttet. Motstander har kommet i et overtall som materialiseres i
+baklengsmål, og da spesielt på FFK sin egen hjemmebane.
+
+
+På bortebane kommer balltapene sentralt og på laget sin høyre side i
+bredderetning.       De fleste balltapene kommer i angrepssonen i lengderetning.
+Det betyr at FFK slipper inn andre type kontringsmål mot på bortebane enn
+
+
+                                                                                37
+hjemmebane. Det er også andre brudd på retningslinjene for godt forsvarsspill
+som blir gjort på bortebane. Dette sier noe om at vårt ”oppbyggende spill” ikke
+innehar samme risiko på bortebane som på hjemmebane. Noe som kan virke
+som en logisk årsaksforklaring. Bemerkelsesverdig har vi ingen balltap i
+forsvarssonen og på venstre kant på bortebane som har ledet til mål på kontring
+mot. Det betyr at motstander på bortebane har hatt lengre vei til mål på kontring
+mot FFK, enn de har hatt på vår egen hjemmebane.
+
+
+Dårlig balanse eller oppstilling på offensive dødballer, kombinert med svak
+offensiv markering er en årsak til kontringsmål mot på bortebane. De brudd på
+retningslinjer som er gjort er dårlig retur løp, dvs med for liten kraft og fart.
+Kombinert med førsteforsvarer som ikke oppholder og sinker farten til
+motstander. Det blir derfor for få spillere som ”traktfaller”. FFK kommer ofte i
+undertall og retningslinjene for god kontradekning følges ikke i disse tilfellene.
+
+
+
+Balltap fordelt på lagdeler
+I dette kapittelet skal jeg presentere hvem som tapte ballen i forkant av
+baklengsmålene. Med hvem menes hvilken lagdel som mistet ballen. Det har ikke
+vært ønskelig å personifisere hvem som tapte ballen.
+Ved å analysere hvilken lagdel som mister ballen, i tillegg til hvor laget mistet
+ballen, håper jeg å tydeligere klargjøre noe om risikoen i FFK sitt offensive spill,
+balansen i laget ved balltapet og ikke minst hvordan de forsvarer seg etter
+balltapet.
+
+
+
+Balltap som resulterte i baklengsmål fordelt på lagdeler
+Av de 37 spillemålene som FFK slapp inn i 2012 fordeles balltapet seg slik
+mellom lagdelene:
+
+
+
+
+                                                                                 38
+                                         24,32              32,43
+                                          %                  % Forsvar
+          9      12          Forsvar
+
+         16                  Midtbane                           Midtbane
+                             Angrep                             Angrep
+                                                 43,24
+                                                  %
+
+
+
+
+32,43 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+43,24 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 24,32 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+Balltap som resulterte i baklengsmål på hjemmebane fordelt på lagdeler
+Av de 18 spillemålene som FFK slapp inn på hjemmebane i 2012 fordeles
+balltapet seg slik mellom lagdelene:
+
+
+
+             1                                      5,56%      33,33
+                                                                %
+                  6           Forsvar                              Forsvar
+                              Midtbane           61,11            Midtbane
+        11
+                                                  %
+                              Angrep                              Angrep
+
+
+
+
+33,33 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+61,11 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 5,56 % av alle balltap som ledet til scoring mot forekommer av angrepsleddet.
+
+
+Balltap som resulterte i baklengsmål på bortebane fordelt på lagdeler
+Av de 19 spillemålene som FFK slapp inn på bortebane i 2012 fordeles balltapet
+seg slik mellom lagdelene:
+
+
+
+                                                                             39
+                                      42,11                   31,58
+                                       %                       %
+        8            6     Forsvar                                    Forsvar
+                           Midtbane                                   Midtbane
+                 5
+                           Angrep                                     Angrep
+                                                      26,32
+                                                       %
+
+
+
+
+31,58 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+26,32 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 42,11 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar fordelt på
+lagdeler
+Av de 26 spillemålene som FFK slapp inn der de var i etablert forsvar i 2012
+fordeles balltapet seg slik mellom lagdelene:
+
+
+                                       23,08
+                                        %
+                                                              30,77
+                                                               %
+            6    8        Forsvar                               Forsvar
+            12            Midtbane                               Midtbane
+                          Angrep                                 Angrep
+                                              46,15
+                                               %
+
+
+
+
+30.77 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+46,15 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 23,08 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+
+
+                                                                                 40
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på hjemmebane
+fordelt på lagdeler
+Av de 13 spillemålene som FFK slapp inn der de var i etablert forsvar på
+hjemmebane i 2012 fordeles balltapet seg slik mellom lagdelene:
+
+
+
+
+            1                                7,69%          30,77
+                                                             %
+                    4     Forsvar                             Forsvar
+
+        8                 Midtbane                               Midtbane
+                          Angrep                                 Angrep
+
+                                       61,54
+                                        %
+
+
+
+30,77 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+61,54 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 7,69 % av alle balltap som ledet til scoring mot forekommer av angrepsleddet.
+
+
+
+Balltap som resulterte i baklengsmål der FFK var i etablert forsvar på bortebane
+fordelt på lagdeler
+Av de 13 spillemålene som FFK slapp inn der de var i etablert forsvar på
+bortebane i 2012 fordeles balltapet seg slik mellom lagdelene:
+
+
+
+                                                           30,77
+                                     38,46
+                                                            %
+        5           4     Forsvar     %                       Forsvar
+
+                4         Midtbane                               Midtbane
+                          Angrep                                 Angrep
+                                                30,77
+                                                 %
+
+
+
+
+30,77 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+30,77 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 38,46 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+                                                                              41
+Balltap som resulterte i baklengsmål på overganger mot fordelt på lagdeler
+Av de 11 spillemålene som FFK slapp inn på overganger mot i 2012 fordeles
+balltapet seg slik mellom lagdelene:
+
+
+
+                                       27,27                36,36
+           3       4       Forsvar      %                    %
+                                                              Forsvar
+
+           4               Midtbane                           Midtbane
+                           Angrep                             Angrep
+                                               36,36
+                                                %
+
+
+
+
+36,36 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+36, 36 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 27,27 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+Balltap som resulterte i baklengsmål på overganger mot på hjemmebane fordelt på
+lagdeler
+Av de fem spillemålene som FFK slapp inn på overganger mot på hjemmebane i
+2012 fordeles balltapet seg slik mellom lagdelene:
+
+
+
+
+               0                                 0,00%      40,00
+                                                             %
+                   2      Forsvar                           Forsvar
+       3                  Midtbane                          Midtbane
+                          Angrep                            Angrep
+
+                                       60,00
+                                        %
+
+
+
+
+                                                                            42
+40,00 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+60,00 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 0 % av alle balltap som ledet til scoring mot forekommer av angrepsleddet.
+
+
+Balltap som resulterte i baklengsmål på overganger mot på bortebane fordelt på
+lagdeler
+Av de seks spillemålene som FFK slapp inn på overganger mot på bortebane i
+2012 fordeles balltapet seg slik mellom lagdelene:
+
+
+
+                                    50,00                    33,33
+                                     %                        %
+             2           Forsvar                                Forsvar
+     3
+            1            Midtbane                              Midtbane
+                         Angrep                                Angrep
+                                                     16,67
+                                                      %
+
+
+
+
+33,33 % av alle balltap som ledet til scoring mot forekommer av forsvarsleddet.
+16,67 % av alle balltap som ledet til scoring mot forekommer av midtbaneleddet
+og 50,00 % av alle balltap som ledet til scoring mot forekommer av
+angrepsleddet.
+
+
+
+Sammendrag av statistikk for balltap som leder til baklengsmål fordelt på lagdeler
+Det totale inntrykket er at balltapene er relativt jevnt fordelt over lagdelene.
+Balltapene på hjemme og bortebane støtter teorien om at risikoen i
+det ”oppbyggende spill” er større på hjemmebane enn bortebane. Midtbane og
+forsvarsspillere har hovedtyngden av balltap på hjemmebane, mens på
+bortebane er angrepsspillerne mye mer representert i statistikken.
+
+
+Det samme inntrykket gjelder også når jeg ser på balltap som leder til
+baklengsmål når FFK er i etablert forsvar. På hjemmebane har midtbanen mange
+balltap, mens på bortebane har angrepet mange balltap. Dette sier noe om at FFK
+på hjemmebane oftere kommer i situasjoner hvor ballen skifter eier i
+
+
+                                                                                43
+midtbanesonen, hvor spillet bølger frem, mens de fortsatt er i etablert forsvar
+ved balltapet. Laget har numerisk overtall og posisjonell balanse. Slike
+situasjoner kan kalles delvis etablert forsvar. Delvis etablert forsvar foregår ofte i
+et bølgende spill mellom to lag. Ved balltapet har FFK flere spillere som ikke er
+på rett side av ballen, men det er nok spillere, både numerisk og posisjonelt som
+er på rett side. Ved delvis etablert forsvar, stilles det større krav til
+omstillingsferdighet for hele laget enn når etablert forsvar allerede har ”alle
+mann” på rett side.       Spillere både på rett og feil side har således brutt
+retningslinjer for godt forsvarsspill. Omstillingen for de på feil side av ballen
+spesielt, har vært alt for svak (med for liten kraft og fart). Dette gjelder spesielt
+kantspillere som har hatt alt for lang avstand til sine medspillere på
+scoringstidspunktet. Ved god omstilling hadde disse rukket å bidra til et godt
+forsvarsspill. Når det gjelder e spillerne som har vært i etablert forsvar så har det
+ofte vært svak og passiv førsteforsvarer som har ledet til scoring mot. Dette
+gjelder spesielt ved å hindre innlegg, men også ved at første angriper dribler av
+førsteforsvarer sentralt i banen. Dette gjør at FFK ofte har gått fra overtall til
+undertall både numerisk og posisjonelt. Man kan si at forsvaret ”sprekker opp”,
+ved at en og en spiller forsvinner ut av gunstige posisjoner og forflytningen
+deretter er for svak (med for liten kraft og fart).
+
+
+Når man ser på hvem som mistet ballen i forkant av mål mot på overganger så er
+totalen relativt jevnt fordelt ut over lagdelene. Når det gjelder hjemme og
+bortebane statistikk støtter statistikken tidligere teorier om ulik risiko i det
+oppbyggende spill på hjemme og bortebane. Ikke overraskende er risikoen på
+hjemmebane langt større enn på bortebane. Dette støtter også teorien om at det
+er andre type kontringsmål mot på hjemmebane enn på bortebane. Det betyr at
+veien for motstander til mål ved ballbruddet er mye kortere på vår egen
+hjemmebane enn på bortebane. Dette er brudd på retningslinjer for godt
+forsvarsspill, som forklart i kapittelet over.
+
+
+
+
+                                                                                   44
+Målgivende og mål
+I dette kapittelet skal jeg presentere hvor de målgivende pasningene kommer fra
+og hvor selve avslutningen på baklengsmålene kommer fra.
+
+
+
+Fra hvilken sone kommer målgivende fra på baklengsmålene
+FFK slapp inn totalt 37spillemål i 2012. I hvilken sone de målgivende pasningene
+kommer fra fordeler seg slik:
+
+
+           15          11
+           10
+                   4        6
+             5                  3
+                                    2   3
+                                            2   3
+             0                                    2
+                                                       1
+                 SoneSoneSone
+                  1 2 3 SoneSone Sone Sone
+                              4 5          Sone Sone
+                                  6    7             Sone
+                                            8    11   23
+
+                    29,73%
+        30,00%
+        25,00%
+        20,00%           16,22%
+         15,00% 10,81%
+         10,00%               8,11%      8,11%
+          5,00%                     5,41%          8,11%
+                                              5,41%
+                                                        5,41%
+           0,00%
+                                                             2,70%
+                 SoneSone
+                          Sone Sone
+                  1 2               Sone Sone
+                           3    4             Sone Sone
+                                      5    6            Sone Sone
+                                                7    8   11    23
+
+
+I % fordeler de målgivende pasningene seg slik: 10,81 % kom fra sone en,
+29,73 % kom fra sone to, 16,22 % kommer fra sone tre, 8,11 % kom fra sone fire,
+5, 41 % kom fra sone fem, 8,11 % kom fra sone seks, 5,41 % kom fra sone syv,
+8,11 % kom fra sone åtte, 5,41 % kom fra sone 11, og 2,7 % kom fra sone 23.
+
+
+Fra hvilken sone kommer målgivende fra på baklengsmålene på hjemmebane
+FFK slapp inn totalt 18 spillemål i 2012 på hjemmebane. I hvilken sone de
+målgivende pasningene kommer fra fordeler seg slik:
+
+
+
+
+                                                                              45
+                      5
+    5
+
+    4
+             3
+    3
+                                                             2     2     2
+    2
+                              1        1      1     1
+    1
+
+    0
+        Sone 1 Sone 2 Sone 3 Sone 4 Sone 5 Sone 6 Sone 7 Sone 8 Sone            Sone
+                                                                 11              23
+
+                          13,51%
+    14,00%
+    12,00%
+    10,00%       8,11%
+     8,00%
+                                                             5,41% 5,41% 5,41%
+     6,00%
+     4,00%                         2,70% 2,70% 2,70% 2,70%
+     2,00%                                                                       0,00%
+     0,00%
+                 Sone 1 Sone 2 Sone 3 Sone 4 Sone 5 Sone 6 Sone 7 Sone 8 Sone    Sone
+                                                                          11      23
+
+
+I % fordeler de målgivende pasningene seg slik: 8,11 % kom fra sone en, 13,51 %
+kom fra sone to, 2,70 % kommer fra sone tre, 2,70 % kom fra sone fire, 2,70 %
+kom fra sone fem, 2,70 % kom fra sone seks, 5,41 % kom fra sone syv, 5,41 %
+kom fra sone åtte, 5,41 % kom fra sone 11.
+
+
+Fra hvilken sone kommer målgivende fra på baklengsmålene på bortebane
+FFK slapp inn totalt 19 spillemål i 2012 på bortebane. I hvilken sone de
+målgivende pasningene kommer fra fordeler seg slik:
+
+
+
+
+                                                                                         46
+                   6
+     6                    5
+     5
+     4
+     3                           2               2
+     2     1                             1                           1                1
+     1
+     0
+         Sone    Sone   Sone   Sone    Sone    Sone     Sone    Sone     Sone    Sone
+          1       2      3      4       5       6        7       8        11      23
+
+
+    20,00%             16,22%
+                            13,51%
+    15,00%
+    10,00%                           5,41%           5,41%
+      5,00%     2,70%                        2,70%                   2,70%           2,70%
+                                                             0,00%           0,00%
+      0,00%
+                Sone Sone Sone Sone Sone Sone Sone Sone Sone Sone
+                 1    2    3    4    5    6    7    8    11   23
+
+
+I % fordeler de målgivende pasningene seg slik: 2,70 % kom fra sone en, 16,22 %
+kom fra sone to, 13,51 % kommer fra sone tre, 5,41 % kom fra sone fire, 2,70 %
+kom fra sone fem, 5,41 % kom fra sone seks, 2,70 % kom fra sone åtte, og 2,70 %
+kom fra sone 23.
+
+
+
+Sammendrag av statistikk for hvilken sone kommer målgivende fra på baklengsmål
+Totalt kommer de fleste målgivende pasninger fra sone to og sone tre. Det betyr
+at de fleste målgivende pasningene kommer fra innsiden av 16 meteren.
+Inkluderes sone en og fire            med dekker de absolutt                  de fleste målgivende
+pasninger. Mange av de målgivende kommer fra innlegg både langs bakken og i
+lufta. Analysen viser at FFK har problemer defensivt med rommet bak og mellom
+stopper og back, på begge sider. Det er derfor naturlig å nærmere på forholdet
+mellom back, stopper og dyp sentral midtbane og sikringsforholdene dem i
+mellom. Mange gjennomspill kommer inn bak og mellom stopper og back,
+nærme dødlinjen og eget mål. I følge FFK sine retningslinjer for forsvarsspill skal
+midtstopper i slike situasjoner fortsatt bli i boksen for å markere og hindre mål,
+men sentral midtbane skal sikre backen. I flere tilfeller rekker ikke FFK sin
+sentrale midtbanespiller ned i sikringsposisjon. Dette henger godt sammen med
+at laget ofte har for stort mellomrom (mellom forsvars og midtbanefirer). I
+
+
+
+                                                                                               47
+tillegg klarer ikke back som første forsvarer å lede spilleren ut av banen slik at
+pasningsvinkelen for gjennombrudd minkes eller elimineres. Mange innlegg
+kunne også vært avverget, med en mer aggressiv og god første forsvarer.
+
+
+Totalt og på hjemmebane spesielt så er det et lite overtall av målgivende fra FFK
+sin venstre side i forsvar (sone en og sone to). Dette kan ved første øyekast virke
+noe spesielt da FFK sin venstre side er lite involvert i balltap. Videoanalysen
+viser en tendens til ulike angrep som fører til målgivende og mål mellom lagets
+høyre og venstre side i forsvar. Den høyre side er involvert i flest balltap. Dette
+fører ofte til undertall mot den høyre back eller høyre stopper som blir dratt ut
+av posisjon mot backsone. I tillegg er den høyre midtbane dårlig til og ”sperre av
+utsiden”. I følge FFK sine retningslinjer for godt forsvarsspill skal deres høyre
+kant lede motstanders spill inn i banen. Ofte er høyre kant ikke i posisjon til
+dette. Det fører således til gjennomspill på utsiden og forbi hele midtbaneleddet
+til ”en mot en” eller ”to mot en” situasjon mot den høyre back. Målgivende fra
+FFK sin venstre side kommer ofte etter vending av spill via midten eller direkte
+ut. Her kommer laget ofte i undertall ved at avstandene i og mellom de ulike
+lagdelene er for stor. Relasjonen mellom venstre stopper, venstre back og
+venstre sentralmidtbane er ikke korrekt. Dette gjør at innspill bak og mellom
+venstre back og venstre stopper ender opp i målgivende pasninger.
+
+
+
+Baklengsmålene
+FFK slapp inn totalt 37spillemål i 2012. I hvilken sone avslutningene kommer fra
+fordeler seg slik:
+
+
+
+
+                                                                                48
+ 25                                                      56,76%
+                                         60,00%
+                   21
+ 20                                      50,00%
+
+                                         40,00%   35,14%
+ 15         13
+                                         30,00%
+ 10
+                                         20,00%
+     5                    2              10,00%                   5,41%
+                                 1                                        2,70%
+     0                                    0,00%
+         Sone 2 Sone 3 Sone 6 Sone 7              Sone 2 Sone 3 Sone 6 Sone 7
+
+
+I % fordeler de målgivende pasningene seg slik: 35,14 % kom fra sone to,
+56,76 % kommer fra sone tre, 5,41 % kom fra sone seks, 2,70 % kom fra sone syv.
+
+
+Baklengsmålene på hjemmebane
+FFK slapp inn totalt 18 spillemål på hjemmebane i 2012. I hvilken sone
+avslutningene kommer fra fordeler seg slik:
+
+
+
+                   9                                     50,00%
+ 9                                       50,00%
+ 8                                       45,00%
+ 7                                       40,00%
+           6                                      33,33%
+                                         35,00%
+ 6
+                                         30,00%
+ 5
+                                         25,00%
+ 4
+                                         20,00%
+ 3                        2              15,00%                 11,11%
+ 2                               1       10,00%                           5,56%
+ 1                                        5,00%
+ 0                                        0,00%
+         Sone 2 Sone 3 Sone 6 Sone 7              Sone 2 Sone 3 Sone 6 Sone 7
+
+
+I % fordeler de målgivende pasningene seg slik: 33,33 % kom fra sone to,
+50,00 % kommer fra sone tre, 11,11 % kom fra sone seks, 5,56 % kom fra sone
+syv.
+
+
+
+
+                                                                                  49
+Baklengsmålene på bortebane
+FFK slapp inn totalt 19 spillemål på bortebane i 2012. I hvilken sone
+avslutningene kommer fra fordeler seg slik:
+
+
+               12                                     66,67
+ 12                                  70,00%            %
+
+ 10                                  60,00%
+                                     50,00%   38,89
+   8     7                                     %
+                                     40,00%
+   6
+                                     30,00%
+   4
+                                     20,00%
+   2                                 10,00%
+                                                              0,00%0,00%
+   0                                  0,00%
+       Sone   Sone   Sone   Sone              Sone Sone Sone Sone
+        2      3      6      7                 2    3    6    7
+
+
+I % fordeler de målgivende pasningene seg slik: 38,89 % kom fra sone to,
+66,67 % kommer fra sone tre.
+
+
+
+Sammendrag av statistikk for hvilken sone kommer baklengsmålene
+Som forventet kommer nesten alle baklengsmålene fra sone 2 og sone 3. Det
+betyr at de fleste avslutninger skjer fra kloss hold og innenfor 16 meteren. Laget
+slipper inn tre langskudd fra utsiden 16 meteren på hjemmebane. Samtlige mål
+kommer fra innsiden av 16 meteren på bortebane.
+Jeg har under kapittelet ”Sammendrag av statistikk for hvilken sone kommer
+målgivende fra på baklengsmål” tegnet et bilde av mange innlegg både på bakken
+og i lufta. Ved scoringene mot viser videoanalysen både undertall i egen boks,
+markeringsfeil og tap av dueller.
+
+
+Dette henger godt sammen med øvrige forklaringer at FFK ofte ”slår sprekker” i
+det defensive arbeidet. FFK har da for ofte liten kontroll på motspillere i egen
+boks. Noen av målene kunne vært unngått med god orienteringsevne av
+forsvarsspillere før målgivende pasning. Da kunne markering vært utført
+tidligere. Ved tap av viktige dueller foran mål går det ofte på ren styrke eller
+opphopp-teknikk.
+
+
+
+
+                                                                               50
+Brudd på retningslinjer
+For å underbygge tallene og statistikken presentert over har den kvalitative
+analysen vært hjelpsom til å presisere mulige løsninger på problemstillingene.
+Av baklengsmålene i 2012 er det mangfoldige årsaker til at de har kommet.
+Mange ganger er det også flere årsaker til at ett mål slippes inn. Jeg har likevel
+prøvd via analysen å skille ut hva som er hovedgrunnen til at et mål ble sluppet
+inn. Analysen viser at av de 37 spillemålene FFK slapp inn i 2012 utgjorde 23 av
+målene strukturelle feil og brudd i våre retningslinjer for forsvarsarbeid. 14 av
+baklengsmålene kan mer karakteriseres som individuelle feil. Av de 14
+baklengsmålene kan seks av målene kategoriseres som tabber. De resterende
+åtte målene er balltap som har en mer eller mindre direkte årsak til
+baklengsmålene.
+
+
+En interessant observasjon i analysen er at av de 26 mål vi slapp inn i etablert
+forsvar, er 12 mål imot ”helt etablert forsvar”, mens 14 mål var ”delvis etablert
+forsvar”. Dette viser at brudd på retningslinjene skjer begge tilfeller og at dette
+bør få konsekvenser for hvordan vi trener etablert forsvar.
+
+
+
+
+Konklusjon og konsekvenser
+I dette kapittelet skal jeg gi min konklusjon på hva jeg mener gikk feil i FFKs
+forsvarsarbeid i sesongen 2012. Jeg vil også foreslå noen treningsmetoder for å
+forbedre forsvarsproblemene.
+
+
+Det kan konkluderes med at FFK har slitt med soneforsvarsspill generelt og i
+etablert forsvar spesielt. En passiv og usikker første forsvarer har ofte ført til
+liten eller ingen dybde i forsvarsleddene. Dette har igjen ført til at motstandere
+for lett har spilt seg inn mellom FFK sine ledd og til gunstige spillsituasjoner.
+Passiv førsteforsvarer har også ført til for mange innlegg og avdriblinger rundt
+egen boks.
+
+
+Sikringsavstandene i eget ledd og mellom ledd har ofte vært for stor. Det vil si at
+forflytningene har vært for svak (for liten fart og kraft). Det kan i tillegg legges til
+
+
+
+                                                                                     51
+at ved noen enkeltspillere kan det se ut til å dreie seg om liten forståelse for
+soneforsvar generelt og forflytning inn i gunstige sikringsposisjoner spesielt.
+
+
+Det kan se ut til at laget som helhet tidvis har manglet en forståelse for når de
+skal ”ligge i ramma” og sperre av farlige rom, kontra det å være aggressive for
+ballvinning. Når forståelsen for dette spriker innad i laget, vil laget naturlig nok
+sprekke opp mht avstander innad i ledd og mellom ledd. Dette gjelder også i
+situasjoner hvor FFK lager sitt eget mellomrom for stort. Backleddet faller av for
+tidlig og for langt. I tillegg mangler backleddet både meter og tempo i sine ”Push-
+Ups” etter klareringer og/eller støttepasninger. Disse bevegelsene skal gjøres i
+samklang mellom alle lagdeler.
+
+
+For å få bukt med forsvarsproblemene til FFK har jeg noen forslag til mulige
+løsninger. Som jeg har skrevet om tidligere i oppgaven er forsvarsproblemet til
+FFK noe som har vart over flere år. Det har vist seg over lang tid at FFK slipper
+inn for mye mål til å kunne stabilisere seg i Tippeligaen. Min teori er at mye
+ligger i en innarbeidet kultur i Fredrikstad by og FFK som klubb. Jeg tror at
+fotballen generelt romantiseres til å inneholde mest angrepsfotball og at
+publikums forventing til flott angrepsfotball forlokker trenere til å prioritere den
+offensive delen av spillet. Jeg tror det viktigste punktet for å forbedre den
+defensive delen av spillet i FFK er å øke mengden forsvarsarbeid på
+treningsfeltet. Det blir spennende å se om det er endring i vente. Jeg ønsker å
+legge til ved dette punktet at det er mange veier til Rom. Det er mange måter å
+bli bedre i forsvar på. Essensen er å slippe inn færre mål.
+
+
+Ut ifra analysen for 2012 sesongen må FFK trene på soneforsvar generelt og
+etablert forsvar spesielt. Det å få på plass en tydelig førsteforsvarer for å skape
+dybde i laget. Tilhørende pushing av avstander i og mellom ledd både i bredde og
+lengderetning er nødvendig for å skape kollektiv forbedring. Det er viktig å skape
+en god intern forståelse og lojalitet for når laget ønsker å ligge i ramma og dekke
+rom, og når de skal slå om til et aggressivt pressende lag som ønsker å vinne ball.
+Videre tror jeg at generelt førsteforsvarsarbeid kunne vært mulig å forbedre.
+Gjerne sammen med å få inn typer i laget som har meget gode
+
+
+                                                                                  52
+førsteforsvarsferdigheter. Det siste punktet går tilbake til klubbkultur, hvor FFK
+ønsker spillere som er gode med ball, også i forsvarsrekka, mens den viktige
+førsteforsvarsferdigheten tidvis kan bli satt i annen rekke.
+
+
+Videre tror jeg at forsvarsspillere spesielt kunne ha godt av mer rolletrening
+foran egen keeper ved ulike type spill rundt egen boks. Dette for å jobbe med
+orientering, kommunikasjon og markering. Mange mål imot kunne vært hindret
+med en slik type bevisstgjøring. Viktigheten av skikkelig forsvarsspill i egen 16
+meter kan ikke undervurderes. Som en digresjon kan det nevnes at Hønefoss har
+ansatt Frode Birkeland for 2013 sesongen som spesialtrener for kun å arbeide
+med og forbedre spillet innenfor 16 meteren i forsvar og angrep. Dette er
+interessant, det er nemlig der kampene avgjøres.
+
+
+Ved trening av førsteforsvarsrollen tror jeg det er best å gjøre dette først på små
+flater. Dette for å få førsteforsvareren tett nok inn i førsteangriper. Deretter kan
+banestørrelsen utvides så også førsteforsvarerens valg settes i fokus. ”Skal jeg gå
+tett inn i angriper å vinne ball eller kun vise meg frem og ut av ledd for å skape
+dybde i forsvarsspillet”, for eksempel.
+
+
+Det å trene soneforsvarsprinsipper generelt kan også først gjøres på mindre
+bane, med tre spillere pr forsvarsledd, f. eks i en 1-3-3-2 formasjon. Meningen
+med å gjøre dette på mindre bane er å få trent de hurtige byttene med å være
+førsteforsvarer og sikringsspiller.
+
+
+Til slutt må laget som helhet trene etablert forsvar på stor bane i en 11 mot 11
+spill situasjon. Dette er avgjørende for spesielt å trene inn forsvarsarbeid på
+riktige avstander. Dette vil trigge førsteforsvarers vurderingsevne og samtidig
+sette fokus på riktige avstander innad i ledd og mellom ledd. Etter mitt skjønn
+bør dette gjøres i relativt fritt spill. Muligens med styrt igangsetting av nytt
+angrep fra keeper. Dette for å fange opp både situasjoner hvor laget har 11 mann
+på rett side av ballen og situasjoner som beskrevet tidligere i oppgaven som ofte
+kalles delvis etablert forsvar.
+
+
+
+
+                                                                                 53
+Selv om min analyse i denne oppgaven ikke ser på dødballer, må det til slutt
+nevnes at antallet innslupne mål på dødball er for høyt. Kombineres dette med at
+FFK på bortebane slipper inn mål på kontring mot etter egen dødball, ville det
+vært lurt av FFKs trenerteam å gjennomgå dødballstrategien før ny sesong.
+Som svoren FFK supporter ønsker jeg all hell og lykke med godt forsvarsspill i
+2013 og for all evighet.
+
+
+
+
+                                                                             54
+55
+Litteraturliste
+Bergo, Johansen, Larsen, Morisbak:                        Ferdighetsutvikling i
+                                                          fotball, Handlingsvalg
+                                                          og handling,
+                                                          Akilles / Oslo, 2005
+
+
+
+
+Dalland, O                                                Metode og oppgaveskriving for
+                                                          Studenter.
+                                                          Gyldendahl/Akademisk, 2012
+
+
+
+
+Jonsson, Joacim                                           En analyse av Fredrikstad FK
+                                                          sine innslupne mål i sesongen
+                                                          2008
+
+
+Olsen, Larsen, Semb                                       Effektiv Fotball
+                                                          Gyldendahl Norsk Forlag 1994
+
+
+
+
+www.sporreundersokelsen.no
+
+
+
+
+Vedlegg: Tabellen Tippeligaen 2012
+
+                           HJEMME             BORTE               TOTAL
+
+PLASS   LAG       KAMPER   V   U    T   MÅL   V   U   T    MÅL    V       U   T   MÅL   DIFF   POENG
+
+
+
+
+                                                                                           56
+1    Molde          30   14   0       1   33 - 16   5   5   5    18 - 15   19   5    6    51 - 31   20       62
+
+2    Strømsgodset   30   12   3       0   39 - 12   5   4   6    23 - 28   17   7    6    62 - 40   22       58
+
+3    Rosenborg      30   8    5       2   28 - 11   7   5   3    25 - 15   15   10   5    53 - 26   27       55
+
+4    Tromsø         30   10   4       1   32 - 8    4   3   8    13 - 24   14   7    9    45 - 32   13       49
+
+5    Viking         30   10   1       4   25 - 16   4   6   5    16 - 20   14   7    9    41 - 36   5        49
+
+6    Brann          30   10   1       4   36 - 20   3   2   10   21 - 30   13   3    14   57 - 50   7        42
+
+7    Haugesund      30   8    4       3   26 - 16   3   5   7    20 - 24   11   9    10   46 - 40   6        42
+
+8    Vålerenga      30   7    4       4   22 - 16   5   1   9    20 - 28   12   5    13   42 - 44   -2       41
+
+9    Lillestrøm     30   3    8       4   23 - 19   6   4   5    23 - 28   9    12   9    46 - 47   -1       39
+
+10   Odd Grenland   30   6    4       5   23 - 21   5   3   7    17 - 22   11   7    12   40 - 43   -3       39
+
+11   Aalesund       30   8    5       2   29 - 15   1   6   8    11 - 26   9    11   10   40 - 41   -1       38
+
+12   Sogndal        30   6    5       4   15 - 14   2   5   8    14 - 23   8    10   12   29 - 37   -8       34
+
+13   Hønefoss       30   4    8       3   17 - 19   3   4   8    13 - 23   7    12   11   30 - 42   -12      33
+
+14   Sandnes Ulf    30   6    5       4   25 - 19   2   3   10   19 - 37   8    8    14   44 - 56   -12      32
+
+15   Fredrikstad    30   5    1       9   30 - 30   4   2   9    12 - 29   9    3    18   42 - 59   -17      30
+                                      1
+16   Stabæk         30   3    1   1       10 - 28   2   1   12   15 - 41   5    2    23   25 - 69   -44      17
+
+
+
+
+                                                                                                        57
+

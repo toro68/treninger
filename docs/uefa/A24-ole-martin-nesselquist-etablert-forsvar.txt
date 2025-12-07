@@ -1,0 +1,2198 @@
+UEFA A-lisens 2015/16                            Ole Martin Nesselquist
+
+
+
+
+                         UEFA A-lisens
+                        Skriftlig oppgave
+                             2015-16
+
+
+    Hvordan organisere et
+1-4-2-3-1-lag i etablert forsvar?
+      Med utgangspunkt i Chelsea FCs
+               1-4-2-3-1
+
+
+       En kvalitativ oppgave basert på kampanalyser
+                        Ole Martin Nesselquist
+
+1
+UEFA A-lisens 2015/16                                                          Ole Martin Nesselquist
+
+
+
+Innhold:
+Forord                                                                           3
+
+Arbeidsmetoder                                                                   4
+
+Innledning                                                                       5
+
+Drøfting: Hva er etablert forsvar?                                               6
+
+Drøfting: Chelsea FCs grunnprinsipper i etablert forsvar                         8
+
+         -    Høyt press                                                         9
+         -    Lavt press                                                         10
+         -    Romprioriteringer                                                  12
+
+Drøfting: Individuelle egenskaper i laget                                        14
+
+         -    Thibout Courtois                                                   14
+         -    Branislav Ivanovic                                                 15
+         -    John Terry                                                         15
+         -    Gary Cahill                                                        16
+         -    Kurt Zouma                                                         16
+         -    Cesar Azpilicueta                                                  17
+         -    Cesc Fabregas                                                      17
+         -    Nemanja Matic                                                      18
+         -    Pedro og Eden Hazard                                               19
+         -    Willian                                                            20
+         -    Oscar                                                              20
+         -    Diego Costa og Eden Hazard                                         21
+
+Drøfting: Mannsmarkering eller soneforsvar?                                      22
+
+         -    Generelle fordeler og ulemper                                      22
+         -    Mannsmarkering eller sone på ulike posisjoner                      28
+         -    Mannsmarkering som virkemiddel i kampplan                          47
+
+Konklusjon: Tre hovedårsaker til Chelsea FCs svake sesong (etablert forsvar)     51
+
+Konklusjon: Hvordan vil jeg organisere et 1-4-2-3-1-lag i etablert forsvar?      52
+
+Litteraturliste / Kilder                                                         58
+
+Vedlegg: Intervjuer
+
+         -    Haakon Lunov – Drøfting av etablert forsvar                        59
+         -    Geir Jordet – Mentalt perspektiv på etablert forsvar               61
+
+Vedlegg: Sammendrag                                                              66
+
+
+
+
+2
+UEFA A-lisens 2015/16                                                            Ole Martin Nesselquist
+
+
+
+Forord
+Jeg vil starte med å takke NFF for å gi meg muligheten til å ta kurset i såpass ung alder. Det har
+vært en utrolig lærerik og spennende prosess, hvor man har lært mye om helheten i faget fotball. I
+tillegg har man skapt et bredere kontaktnettverk, og fått venner for livet. Det er en hard, morsom
+og intens prosess, akkurat som det skal være i fotballen.
+Denne oppgaven handler om organisering av et lag i formasjonen 1-4-2-3-1 i etablert forsvar. Jeg
+valgte i juli å ta utgangspunkt i klubben Chelsea FC. Dette er en klubb med sterke tradisjoner på
+forsvarsspill. Chelsea har alltid vært kjent for å være et lag det er vanskelig å slå. Det er først inn på
+2000-tallet klubben ble et lag å regne med i internasjonal sammenheng, men de har alltid være
+vanskelige å slå.
+Når José Mourinho først kom til Chelsea, vant de Premier League med en sterk defensiv
+prestasjon. De slapp inn under ett mål i snitt per kamp, og var utrolig vanskelige å bryte ned. Dette
+satt på mange måter kulturen i klubben for de siste 10 årene, og flere managere har brukt dette til
+sin fordel de senere årene. Roberto Di Matteo vant Champions League med Chelsea ved å forsvare
+seg ekstremt kompakt og lavt. De ønsket å presse høyt, men hver gang de ble spilt gjennom falt de
+nye meter. Det endte ofte med en lav forsvarslinje og kompakt midtbane foran denne.
+Det som ble spennende med denne oppgaven, er at Chelsea har hatt sine svakeste sesong i
+Premier League noen sinne. Dette gjorde oppgaven min mer kompleks, men også mer lærerik. Jeg
+har forsøkt å bryte ned Chelseas forsvarsspill i etablert forsvar, og drøftet rundt det jeg har funnet.
+Deretter vil jeg forsøke å konkludere hvordan jeg vil organisere mitt 1-4-2-3-1 lag i etablert forsvar
+etter å ha skrevet denne oppgaven.
+
+Ønsker å takke Geir Jordet og Haakon Lunov som stilte til intervju, og andre som har bidratt med
+gode samtaler og diskusjoner underveis.
+
+Ønsker til slutt å takke veileder Peter Engelbrektsson for strålende veiledning gjennom kurset.
+Takker også Gard H. Kristiansen, Steffen Andersen og Knut Rønningene for godt gruppesamarbeid
+gjennom kurset. Har lært masse av alle!
+
+God lesning!
+
+
+
+
+Moss, 29.1.2016
+Ole Martin Nesselquist
+
+
+
+
+3
+UEFA A-lisens 2015/16                                                      Ole Martin Nesselquist
+
+
+
+Arbeidsmetoder
+Gjennom oppgaven har jeg jobbet med kampanalyse, drøfting, samtaler og intervjuer. I
+oppgaven er kampanalyser, drøfting og intervjuer tatt med, mens samtalene jeg har hatt
+underveis ikke er inkludert i oppgaven. Dette har derimot vært et fint tilskudd til
+drøftingsdelen, hvor jeg selv har drøftet rundt de trender og funn jeg gjort gjennom
+kampanalyser. Gjennom kampanalysene gjort på PC har jeg notert, tatt ut bilder og
+situasjoner jeg mener er hensiktsmessige for oppgaven. Deretter er notatene og
+situasjonene satt i system, slik at jeg enklere kunne finne frem igjen når oppgaven skulle
+skrives. Når jeg har observert flere ting gjennom flere kamper, har dette blitt satt under
+trender slik at jeg kunne jobbe ut i fra disse når oppgaven skulle skrives. Når jeg selv har
+vært tilstede og analysert live, har jeg gjort dette med penn og papir, samt mobiltelefonen
+og kamera. Jeg har filmet og tatt bilder underveis i kamper, som jeg senere har studert
+nærmere. Jeg har opplevd at dette har vært gunstig, når du kan se mer dersom du filmer
+selv kontra en TV-sending. Deretter har notater og video/bilde blitt sortert på lik måte
+som kampene analysert på PC.
+
+Drøftingen har jeg jobbet mest med, og forsøkt å få det objektivt. Jeg har i drøftingen også
+sett andre lag på internasjonalt toppnivå, for å se etter likheter/motsetninger, for å få
+større grunnlag for drøftingen. Jeg har også gjennom gode samtaler med kollegaer,
+fotballtrenere og andre kyndige fått bedre grunnlag for drøftingen. I tillegg har godt
+lesestoff om faget bidratt til bedre grunnlag for oppgaven, og for mine konklusjoner.
+
+Intervjuene valgte jeg å ta til sist, når jeg da hadde bedre grunnlag for å stille de riktige
+spørsmålene. Deretter har jeg stilt to faglig sterke personer spørsmål som i mine øyne er
+relevante for oppgaven. Jeg har tatt ut enkelte sitater, og lagt de inn i oppgaven.
+Intervjuene som helhet finnes til sist som vedlegg.
+
+
+
+
+4
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+
+Innledning
+Hvordan organisere et 1-4-2-3-1-lag i etablert forsvar? er problemstillingen jeg valgte til
+denne oppgaven. Det er flere grunner til at jeg ønsket å skrive om nettopp dette, men
+først og fremst ønsket jeg selv å dykke ned i dypet rundt dette temaet. Jeg finner det
+veldig spennende å se på hvordan forskjellige lag praktiserer etablert forsvar, og hvilke
+strategier som finnes. Chelsea FC, som er laget jeg har tatt utgangspunkt i, var i 2014/15-
+sesongen best i England. Gjennom denne sesongen har de ikke vært det. Dette viser
+fotballens dynamikk, og alt som er spennende ved denne idretten.
+
+Jeg vil bruke Chelseas kamper gjennom denne sesongen som utgangspunkt når jeg til slutt
+skal konkludere med hvordan jeg vil organisere mitt lag i 1-4-2-3-1-formasjon. Mine
+kvalitative kampanalyser gjennom årets sesong ligger til grunn for denne oppgaven,
+sammen med intervjuer og faglig lesestoff rundt temaet. Jeg vil ikke kunne presentere én
+endelig konklusjonen for idretten fotball, for dette er et individuelt tema. Men jeg vil til
+slutt komme med min konklusjon til hovedproblemstillingen; Hvordan vil jeg organisere
+mitt 1-4-2-3-1-lag i etablert forsvar?
+
+Gjennom oppgaven har jeg også noen underproblemstillinger jeg vil drøfte rundt. Jeg
+ønsker å se på Chelsea FCs individuelle egenskaper, for å se hvilke konsekvenser dette gir
+for organiseringen av laget. Jeg ønsker å se på Chelsea FCs grunnprinsipper for etablert
+forsvar, for å se om disse stemmer overens med de individuelle egenskapene til laget. Jeg
+ønsker også å dykke litt ned i dette med mannsmarkering og soneforsvar. Er det ene bedre
+enn det andre? Kan man kombinere disse to, for å skape den beste helheten? Og hvordan
+skal dette eventuelt gjøres?
+
+Det er mange spennende spørsmål jeg ønsker å finne ut av. For å oppsummere
+innledningen; dette er mine problemstillinger:
+
+Hvordan organisere et 1-4-2-3-1-lag i etablert forsvar?
+Hva er Chelsea FCs grunnprinsipper i etablert forsvar?
+Hvilke personlige egenskaper er det i Chelseas lag?
+Mannsmarkering eller soneforsvar – hvilke forskjeller er det, og hva gir det laget ditt?
+Hva er årsaken til Chelseas svake sesong 2015/16?
+
+5
+UEFA A-lisens 2015/16                                                        Ole Martin Nesselquist
+
+
+
+Hva er etablert forsvar?
+Etablert forsvar er definisjonen på fasen der laget forsvarer seg med god balanse i laget.
+
+                                                                  ETABLERT          ETABLERT      D
+                                                                                                  Ø
+    INDIVIDUELL                                                   FORSVAR           ANGREP        D
+                          1F                                                                      B
+    DIMENSJON                                                                                     A
+                                                                  OVERGANG          OVERGANG      L
+                                                                                                  L
+                                                                  A -> F            F -> A
+    RELASJONELL
+    DIMENSJON                   1F + 2F
+
+
+
+    STRUKTURELL
+                                             Samhandling i/og på tvers av ledd
+    DIMENSJON
+
+
+    SPILL/KAMP                                              Evnen til å løse situasjoner i kamp
+    DIMENSJON
+
+
+
+
+                       I BALANSE                             I UBALANSE
+
+
+
+
+            Numerisk           Posisjonell          Numerisk          Posisjonell
+
+
+
+
+Som modellene over viser, kan vi dele «etablert forsvar» inn i de forskjellige
+fotballdimensjonene. Individuelt er det 1F-rollen som er mest fremtredende, men det er
+viktig å nevne at det er mange ting som går under den individuelle dimensjonen i etablert
+forsvar. Hvert eneste valg spillerne tar er en handling innenfor den individuelle
+dimensjonen, men valget er en konsekvens av de andre dimensjonene. Den enkeltes valg
+avhenger i veldig stor grad av med- og motspillere. Nettopp derfor finner jeg det selv
+vanskelig å skille på handlinger i etablert forsvar i forhold til dimensjonene.
+
+
+
+
+6
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+Etablert forsvar er altså definisjonen på fasen hvor laget forsvarer seg i god balanse. Som
+modellen over viser, kan du dele balanse i to deler; numerisk og posisjonell balanse. I
+numerisk balanse er du flere spillere innenfor et område enn motstanderen, mens i
+posisjonell balanse kan en være undertall, men man er posisjonert riktig. For å være i
+optimal balanse, må både numerisk og posisjonell balanse være på plass. I denne
+oppgaven har jeg tatt utgangspunkt i at etablert forsvar gjelder når man er i posisjonell
+balanse. For eksempel har jeg analysert innleggssituasjoner hvor det har vært 2v1 mot
+backen, men man er godt posisjonert til å forsvare innlegget.
+
+Situasjoner etter balltap (overganger imot) er heller ikke tatt med i oppgaven. Det samme
+gjelder dødballer, når dødballer er en egen kampfase.
+
+Boken Ferdighetsutvikling i fotball (Bergo m. fl., Akilles 2002, s.56) viser
+spilleprinsippmodellen hvor forsvarsspillets natur blir beskrevet med følgende modell:
+
+
+
+
+Målet er å vinne ballen, hindre mål, og man skal gjøre dette ved å nekte
+gjennombrudd/hindre rom. Balanse, dybde og konsentrering er sentrale begreper.
+
+
+
+
+7
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+
+Chelsea FCs grunnprinsipper i etablert forsvar.
+Chelsea har gjennom hele sesongen benyttet seg av et 1-4-2-3-1-system. Det har vært en
+stamme i laget som har spilt mye. Jeg har tatt utgangspunkt i følgende lag (disse har spilt
+mest):
+
+
+
+
+«Spilleprinsippmodellen forteller at det å vinne ballen og hindre mål er de overordnede
+
+oppgave i forsvar. For å hindre mål må man jobbe for å hindre gjennombrudd. For å løse
+
+oppgavene i forsvarsspillet søker man hele tiden å hindre rom for motstanderen, og
+
+prinsippene (virkemidlene) for dette er balanse, dybde og konsentrering i forsvarsspillet.
+
+Mens de overordnede oppgave er like for alle fotballag, er anvendelsen av balanse,
+
+dybde og konsentrering ulik.»
+
+
+Morisbak A, Ferdighetsutvikling for keepere (Akilles 2003), s. 18
+
+
+
+
+8
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+Høyt press
+
+
+
+
+Når man har presset høyt i banen, har Chelsea primært presset med kanter og spiss på
+motstanderes bakre 4’er. 10’er-rollen har blitt noe dypere, og bidratt med å dekke
+rommet bak sammen med de to sittende spillerne. Backene har hatt ansvaret for hver sin
+kant, og hatt mannsmarkering på disse. Stopperne har hatt ansvaret for balanse, og
+dekking av bakrommet sammen med egen keeper. Det har da på mange måter sett ut som
+en 1-4-3-3, med to flate 3’ere i to ledd. Backenes posisjon har vært avhengig av
+motstanders kant/ving.
+
+«Hvis kontroll er å kontrollere hvor på banen ballen er, hva folk ser på og folk ser jo på
+ballen, så er det vanskelig å føle full kontroll uten å ha ballen. Da vil nødvendigvis
+motstanderen ha den. Men du kan jo stoppe motstanderen fra å komme inn i en del rom
+også videre, og således kontrollere. Altså ved å utøve et etablert forsvar godt vil du jo
+kunne nekte motstanderen en del rom, og nekte dem å komme en del plasser som gjør
+at du allikevel tar kontrollen. Men det er mer sånn posisjonell kontroll, eller ballrelatert
+kontroll.»
+
+Geir Jordet, 26.01.2016
+
+Det motstandere ofte har benyttet seg av da, er rommet bak den enslige spissen i presset.
+Motstanderne har gjerne satt i gang på en midtstopper, fått spissen i press, og deretter
+spilt inn på rettvendt, dyp midtbanespiller. Utfordringen som ofte har oppstått da, er at
+
+
+9
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+motstanderen kan sette fart mot den neste 3’eren i presset. Og den har ofte bestått av
+Oscar, Matic og Fabregas.
+
+Det er veldig sjelden Chelsea vinner ball i høyt press. Det beste Chelsea har fått ut av høyt
+press gjennom denne sesongen, er en støttepasning til keeper og lang ball (slik som på
+bildet over). Det kan godt hende det også er målsetningen til Chelsea med høyt press. De
+står med tre høye spillere mot motstanderes B4, for å presse frem en lang ball. Også
+kantene til Chelsea har vært veldig mannsorienterte på sine backer, noe vi kommer tilbake
+til senere i oppgaven.
+
+Det har ofte vært en utfordring for Chelsea å spille etablert forsvar med høyt press, mye
+på grunn av tempomangel hos egne midtstoppere. Dette tok Mourinho tak i ved å spille
+med Zouma en periode. Zouma har vært mer og mer fast i sin stopperposisjon, mens
+Cahill og Terry har variert noe mer. Dette også på grunn av skader.
+
+Lavt press
+
+I lavt press har de endret seg stort gjennom sesongen. Tidlig i sesongen var det veldig
+tydelig at vingene og spissen var der for å kontre. De bidro lite/ingenting i lavt press, og
+
+
+
+
+man forsvarte seg til tider kun med keeper, B4 og to dype midtbanespillere. 10’er-spilleren
+hadde ofte ansvar for å ta ut playmakeren til motstanderen. Dette resulterte i store rom
+for Matic og Fabregas, som tidlig i sesongen skapte utfordringer. Motstanderen vred
+
+10
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+spillet høyt i banen, og satte overtall mot Chelseas backer. Dermed ble det mye
+innleggssituasjoner. Ved innlegg imot, kjørte Chelsea tidlig i sesongen en ren
+mannsmarkering.
+
+
+
+
+På bildet over (som er tatt ut av en situasjon mot Manchester City), kom dette veldig
+tydelig frem. Her har City vridd spillet høyt i banen, og skapt en situasjon mot Ivanovic.
+Willian (10’er denne kampen) har blitt spilt dyp, og avstanden mellom Matic og Fabregas
+er blitt lang etter vridningen av spiller. Matic har fulgt Y. Touré, men nå overlatt han til
+Cahill. D. Silva drar inn i rom 2, og Cahill følger ukritisk mann. Dermed blir avstanden til
+Terry for lang, og situasjonen ender med fri heading fra 7 meter (Y. Touré), men ikke
+scoring. Dette er situasjoner vi så veldig ofte med Chelsea de første 10 kampene.
+
+En endring i grunnspillet som var avgjørende var å ha mannsmarkering med kantene, som
+gjorde at det sjeldent ble tydelige 2v1-situasjoner mot egen back. I tillegg ble da rommet
+for Matic/Fabregas mindre å dekke, når kantene var nede dersom motstanders back ble
+høy. I tillegg til denne endringen, var det tydelig at midtstopperne var noe mer
+soneorienterte på innlegg imot, og de holdt seg sentralt i banen.
+
+
+
+
+11
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+På bildet over, i kampen mot Manchester United, er denne endringen veldig synlig. Her er
+det også greit å nevne at det har vært ett managerbytte (Hiddink inn). Begge stoppere og
+motsatt back har kontroll inne foran målet. Her forsvarer Chelsea seg med samtlige 10
+utespillere, når Hazard (spiss denne kampen) er på vei ned for å ta ut returrommet.
+Ivanovic har nettopp presset venstre back, og tvunget han til å slå støttepasning. Willian,
+Mikel, Matic og Fabregas har vært ute bredt for å sikre, slik at stopperne kan holdes
+sentralt. De er mer kompakte, og åpner opp muligheten for vridning av spill til motsatt
+back.
+
+
+
+Romprioriteringer
+
+Min observasjon er at Chelsea FC er generelt opptatt av å forsvare seg godt sentralt, og
+leder spillet utover. Chelsea er opptatt av å ha mye folk sentralt, og åpner heller opp rom
+bredt i banen (slik det er vist på bildet under). Først når motstanderen kommer inn på
+siste 1/3-del ser man tydeligere at 1F leder ballfører ut mot sidelinjen.
+
+
+
+
+12
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+På bildet over her ligger Chelsea kompakt sentralt i banen når midtstopper har ball, og
+åpner rom for begge backene. Når da ball kommer ut på back (se under), så skyver de
+sentrale midtbanespillerne over for å fortsatt stenge sentralt, samtidig som man åpner
+noe rom bredt.
+
+Over ser du at backen har mottatt ball, og de lar vingen få noe rom, samtidig som de er
+kompakte og trange inn sentralt.
+
+
+
+
+For å oppsummere noen grunnprinsipper i forsvarsspillet til Chelsea:
+
+Utgangspunkt i 1-4-2-3-1, som blir til 1-4-3-3 i høyt press og 1-4-4-1-1 i lavt press.
+Mannsmarkering på backer og kanter, og soneforsvar med innrømmelse til
+mannsmarkering i sentrallinjen. Spiss og 10’er-rollen jobber primært som
+kontringspunkter. De er generelt opptatt av å unngå spill sentralt, og leder spillet utover
+
+
+
+
+når de har mulighet. Når ballen har kommet ut bredt, er de opptatt av å unngå vridning
+for å vinne ballen i det trange området hvor de har ledet motstanderen.
+
+
+
+
+13
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+Individuelle egenskaper i laget
+Hvis jeg tar utgangspunkt i laget under, så er det fra mitt perspektiv en del styrker og
+svakheter i laget knyttet til etablert forsvar. Naturlig nok ble mange av motstanderne klar
+over Chelseas styrker og svakheter gjennom fjorårets sesong. I fjor forsvarte Chelsea seg i
+lavt press med keeper, B4 og en midtbane 3’er. I år har motstanderne vært veldig bevisste
+på vridning av spill høyt i banen, og utnyttet bredt siderom.
+
+
+
+
+Thibout Courtois
+
+Courtois er en keeper med sterke kommunikasjonsevner, samtidig som han er god i
+feltarbeidet og på strek. Han har noen mangler på sweeper-egenskaper. Spesielt fra
+november og inn mot nyåret har Chelsea vært flinke til å forsvare innlegg med stopperne
+mer sentralt, samt Courtois i feltarbeidet.
+
+
+
+
+14
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+Branislav Ivanovic
+
+Ivanovic er en spiller det er vanskelig å identifisere noen spisskompetanse på i mine øyne.
+Han er veldig god på mye, og veldig dårlig på lite. Men jeg har i år observert at han har
+mangler i 2v1-situasjoner defensivt. Timingen i presset hans har vært for dårlig, og
+avstanden til 1A når han skal presse ballfører er også ofte for stor. Ivanovic var en av
+spillerne som virkelig ble bedre når kantene bidro mer defensivt. Han er en spiller som
+tydelig er veldig god i den relasjonelle dimensjonen. I tillegg slet han tidvis med
+posisjonering når innlegg ble slått fra motsatt side, men dette har nok blitt justert på i
+treningsarbeidet. Der har han vist god utvikling gjennom sesongen.
+
+John Terry
+
+John Terry er i mine øyne en av de beste midtstopperne i England, men med en veldig
+tydelig mangel; nemlig tempo. Han er ofte veldig god når Chelsea skal forsvare seg lavt,
+men kan bli avslørt når de skal forsvare seg høyt. For eksempel i andre omgang mot West
+Bromwich, hvor Chelsea skulle presse høyt. Da er Terry først medskyldig i ett mål, før han
+får rødt kort for felling som bakerste mann. Han er ekstremt dyktig på å forsvare innlegg,
+gjennom god kroppsvinkel, orientering og vurderingsevne.
+
+
+
+
+15
+UEFA A-lisens 2015/16                                                      Ole Martin Nesselquist
+
+
+På bildet over ser du et eksempel på hvordan Terry jobber i boks. Et prakteksempel på
+kroppsstilling, kontroll på mann og posisjonering i boks.
+
+Gary Cahill
+
+Cahill er på mange måter ganske lik Terry. Han er ikke like sterk på å forsvare boks, men
+han har mer tempo. Cahill er god til å forsvare høyere i banen, når han er flink til å lese
+lengre baller og god på å forsvare rommet bak seg. Han har god timing når han faller av,
+og er god i luften. I lavere forsvar blir han tidvis tatt på svak forflytning over kortere
+avstander, samt at han ikke er like sterk på mannsmarkering i boksen.
+
+Kurt Zouma
+
+Zouma er den minst rutinerte av midtstopperne, men har voldsom fysikk. Han er ekstremt
+eksplosiv, og er veldig sterk i duellspillet. Han er veldig god på å håndtere krisesituasjoner,
+først og fremst fordi han er veldig rask og har veldig god kompetanse på taklingsteknikker.
+Zouma er god i innleggssituasjoner hvor han er riktig posisjonert og hvor han har god
+kontroll på motstanderens spillere. Han kan ofte være på vei ut av boks når innlegget
+
+
+
+
+kommer, og lar seg for enkelt rive med av bevegelser. Slik som på bildet over, hvor
+Tottenham har ballen bredt, og Zouma er dratt ut av posisjon og har ikke kontroll på
+spilleren på vei inn mot mål.
+
+
+
+
+16
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+Cesar Azpilicueta
+
+Azpilicueta har denne sesongen spilt venstre back. Han er den backen som er best 1v1
+defensivt, mye fordi han er veldig fotrapp og hurtig på korte avstander. Det er her han har
+sine beste egenskaper defensivt. Han er mannsorientert, og kan følge kanten omtrent
+hvor som helst. Jeg har sett at dette er noe enkelte motstandere har utnyttet i stor grad,
+ved å dra Azpilicueta inn i banen for å komme med backen rundt. I tillegg har han
+utfordringer når innlegget kommer fra motsatt side, mye på grunn av manglende
+kompetanse i luftrommet.
+
+
+
+
+Cesc Fabregas
+
+Fabregas er den spilleren som har spilt mest sammen med Matic. Etter at Hiddink kom inn
+har Mikel godt inn sammen med Matic, og Fabregas har spilt høyere i banen eller vært på
+benken. Jeg kan forstå at Hiddink ønsker en til med defensive ferdigheter i
+midtbaneleddet. Man har tidvis sett at Fabregas har mangler i forsvarsspillet, og sliter med
+å lese spillet defensivt. Fabregas er en veldig god fotballspiller, men jeg har sett tendenser
+til at den dype midtbanerollen ikke er hans beste.
+
+
+
+
+17
+UEFA A-lisens 2015/16                                                        Ole Martin Nesselquist
+
+
+Nemanja Matic
+
+Matic er nok den beste forsvarsspilleren av Chelseas midtbanespillere. Han er en god
+ballvinner, med gode førsteforsvarerferdigheter og han fysisk veldig sterk som gir han en
+fordel i alle dueller. Han er også klok, og er ofte godt posisjonert.
+
+
+
+
+På bildet over har Fabregas mistet kontroll over sin sone, og Bournemouth spiller mellom
+Fabregas og Matic og er på vei inn i mellomrommet. Matic ender opp med å hente inn
+ballfører, for å tvinge ballfører til å vende tilbake.
+
+På bildet under har Joshua King akkurat hatt ball feilvendt, og Cahill er ute av posisjon.
+Matic er våken og faller ned som stopper. Disse to bildene gir ett godt blikk på hvor viktig
+Matic er. Jeg har observert at han er viktig i form av å «rydde opp» etter medspillerne
+sine. Han har god defensiv orientering, er flink til å lese spillet, i tillegg til at han er god
+fysisk. Alt dette gjør han til en veldig viktig ballvinner, og en nøkkel for Chelsea defensivt
+slik jeg har sett det.
+
+
+
+
+18
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+
+
+Pedro og Eden Hazard
+
+I mine øyne er Pedro og Hazard to forskjellige spillere defensivt. Pedro er en veldig lojal
+spiller, som jobber hardt for laget. Hazard jobber hardt når han er direkte involvert i
+spillet, når ballen er i nærheten. Det som kan ha vært en positiv endring for Chelseas
+forsvarsspill var å ha Hazard som spiss, og Pedro på kanten nettopp på grunn av dette.
+Pedro virker flinkere til å ta ansvaret for backen, og mer tilstede i forsvarsarbeidet. Han er
+relativt sterk på defensiv orientering, og aggressiv i presset sitt. Hazard kan også være
+aggressiv i presset, men han må ofte løpe lengre for å sette presset fordi han kan ha
+slurvet med forflytning i forkant av situasjonen. Hazard kan se for lenge på ballen, for så å
+oppfatte for sent at backen har gjort en bevegelse. Dermed kan han ofte ligge litt på
+etterskudd i presset sitt.
+
+
+
+
+19
+UEFA A-lisens 2015/16                                                        Ole Martin Nesselquist
+
+
+Willian
+
+Willian på høyresiden har i manges øyne vært Chelseas beste spiller så langt i årets
+sesong, først og fremst på grunn av offensive ferdigheter. I mine øyne er han ingen stor
+førsteforsvarer, men er utrolig aggressiv i presset sitt når han forsvarer lavt i banen. Han
+er ekstremt hurtig, og bruker dette godt i forsvarsspillet sitt. Han fungerer spesielt fint i
+mannsmarkering. Om Willian har ansvaret for motstanderens venstre back, kan Willian
+ligge 10-15 meter unna for å ha rom til å kontre, og fortsatt ha kontroll på backen på
+grunn av sin fart og aggressivitet. Han har derimot tidvis hatt utfordringer med orientering
+uten ball. På bildet under har han ikke fått med seg at kanten til Ivanovic har trukket inn i
+banen, og at Ivanovic har blitt med. Willian slipper Tottenhams venstre back, og det ender
+med en god gjennombruddspasning.
+
+
+
+
+Oscar
+
+Oscar er også en spiller som i mine øyne kan bli bedre som 1F. Han er derimot ekstremt
+lojal, og jobber hardt. Jeg har observert at utfordringen til Oscar er at han blir litt for vill i
+arbeidet sitt, og løper nok mer enn nødvendig veldig ofte. Han har også en svakhet i
+defensiv orientering, når han ofte setter ett press på ballfører uten å ta ut noen av
+ballførers alternativer. Dermed kan han være for enkel å spille rundt.
+
+
+
+
+20
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+
+Slik som på bildet over her, når Oscar setter press på midtstopperen til Bournemouth. Jeg
+ser på det som hensiktsmessig at han samtidig som å sette press, dreper
+pasningsmuligheten til sentral midtbanespiller. Han dekker store rom, er lojal og aggressiv
+i presset, men han kan være for dårlig strukturert og ha for lite tanke bak presset sitt.
+Dermed har jeg sett at motstanderen ofte ender opp rettvendt i rommet bak Oscar.
+
+
+
+
+Diego Costa og Eden Hazard
+
+I mine øyne mangler både Costa og Hazard gode førsteforsvarsferdigheter. Det er heller
+ikke en veldig naturlig egenskap å ha som spiss, men mangelen på arbeidsvilje har
+gjennom mine observasjoner vært tydelig gjennom sesongen. Dette har gjort at Chelseas
+midtbane har måttet jobbe enda hardere for å dekke rom. Om dette er spissens valg, eller
+om dette er en beskjed fra treneren vil jeg ikke spekulere i. Min oppfattelse er at spissens
+rolle i Chelseas etablerte forsvar er for liten. Min oppfattelse er at man i moderne fotball
+er man helt avhengig av en hardtarbeidende spiss, som bidrar nok i forsvarsarbeidet.
+
+
+
+
+21
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+Mannsmarkering eller soneforsvar?
+Det eksisterer ulike oppfatninger om hvordan forsvarsspillet skal organiseres. Larsen
+(2002) skiller mellom soneforsvar, mannsmarkering og kombinasjonsforsvar i sin
+beskrivelse av ulike forsvarstyper. Larsen beskriver de ulike forsvarstypene som gjengitt
+nedenfor:
+
+«Soneforsvar legger vekt på tett press på ballfører og gode sikringsforhold. Spillerne
+forholder seg til hverandre. Markeringsforsvaret legger stor vekt på markering. Spillerne
+forholder seg til motstanderne. Kombinasjonsforsvar er en blanding av soneforsvar og
+markeringsforsvar»
+
+Larsen m.fl., Ferdighetsutvikling i fotball (Akilles 2002), s. 6-7
+
+
+
+Generelle fordeler og ulemper
+
+I internasjonal fotball finner ikke jeg noen lag som lenger praktiserer rent soneforsvar,
+eller ren mannsmarkering. Valget av filosofi i organiseringen til ditt eget lag er mye preget
+av kulturen i klubben og landet.
+
+«I norsk fotball er det tradisjon for å skille mellom ulike måter å spille på. Begrepene
+sone- og markeringsorientering beskriver ulike måter å organisere forsvarsspillet på, og i
+Norge har soneforsvar vært prioritert i de senere årene. Dette har sammenheng med
+engelsk og svensk påvirkning på norsk fotball, og ikke minst de norske landslagenes
+suksess på 90-tallet.»
+
+A. Bergo m.fl, Ferdighetsutvikling i fotball (Akilles 2002), s. 177
+
+
+
+
+22
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+
+
+                                                                                   I
+
+
+
+
+2015/16-sesongen har Chelsea hatt en blanding av mannsmarkering og soneforsvar, hvor
+vingene og backene til Chelsea har vært mannsorienterte, mens sentrallinjen til Chelsea
+stort sett har operert i soneforsvar, med mannsmarkering i sonene.
+
+
+
+
+Figuren er hentet fra Effektiv fotball (Olsen m.fl., 1994, s. 64)
+
+På modellen over vil jeg si at Chelsea har vært mellom 2 og 3 gjennom denne sesongen.
+Modellen viser de to prinsipielle måtene å organisere forsvaret på, men innrømmelse til
+den andre organiseringen. Som skrevet tidligere finner ikke jeg noen lag som i dag spiller
+ren mannsmarkering eller rent soneforsvar, men de fleste lagene ligger på denne mellom
+1-4 på denne modellen.
+
+
+
+
+23
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+
+ På generelt nivå                 Mannsmarkering                   Soneforsvar
+ Fordeler                         - Press på ballfører             - Mindre rom å spille på
+                                  - Tydelig ansvarsfordeling       - Bedre sikringsforhold
+                                  - Vanskeligere for motstander - Mer avhengig av relasjoner
+                                  å dominere kamper                internt i laget
+                                                                   - Bedre kontroll på bakrom
+                                                                   og mellomrom
+ Ulemper                          - Kan skape store avstander i    - Vanskeligere å få press på
+                                  laget                            ballfører
+                                  - Blir fort ubalanse i laget     - Vanskeligere å dominere
+                                  - Ekstremt avhengig av den       kamper
+                                  individuelle dimensjonen         - Sårbare for stor forflytning
+                                  - Sårbare i bakrom               hos motstanderlaget
+                                                                   (undertallssituasjoner kan
+                                                                   oppstå)
+
+
+
+Modellen over er veldig generell, og i utgangspunktet vil jeg si det er umulig å si noen
+klare fordeler/ulemper ved det ene eller det andre. Det vil i stor grad handle om fotballens
+dimensjoner, medspillere og motspillere. Men gjennom mine observasjoner av Chelsea i
+år, har jeg plukket opp noen trender som har gått igjen. Disse trendene står beskrevet
+over i modellen.
+
+«Oppgaven er hvertfall forskjellig, altså stereotypien av de to måtene å forsvare seg på.
+Det vil gi veldig ulike krav til oppmerksomhet, type oppmerksomhet, som er ganske
+innlysende egentlig. At i et soneforsvar er du er nødt til å forholde deg til medspiller og
+ball som legger retningslinjer for hvor fokuset ditt skal være.»
+
+Geir Jordet, Oslo 26.01.2016
+
+Med mannsmarkering har man ofte en stor fordel i å havne i gode pressituasjoner. Press
+på ballfører vil oftere oppstå tidlig, fordi man kan ta utgangspunkt i en posisjonering
+
+
+24
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+nærmere motstanderen. Samtidig vil det være tydelige arbeidsoppgaver å forholde seg til,
+når spillerne vet hvilken spiller de har ansvaret for. Gjennom disse to punktene, og spesielt
+punktet med press på ballfører, vil ofte konsekvensen være at motstanderen vil slite med
+å dominere kampen i forhold til ballinnehav. Som regel vil motstanderlaget mot
+mannsorienterte lag ende opp med å slå mye langt for å vinne andreballer, når presset er
+såpass hardt på ballføreren. På internasjonalt nivå har de fleste lag nå en ambisjon om å
+spille relativt Possession-orientert fotball, og nettopp godt mannsmarkeringspress kan
+nekte dette.
+
+Noen ulemper med mannsmarkeringen kan fort være at det blir for store avstander i laget
+og i leddene. For eksempel med Chelsea, har det i mine øyne tidvis blitt for store rom for
+Fabregas og Matic når vingene er mannsorienterte på hver deres back. Dermed har det
+tidvis blitt stor strekk i Chelseas midtbane, og motstanderen har kommet altfor lett til i
+mellomrommet. Den kampen dette var tydeligst, var kampen mot Manchester City.
+
+
+
+
+Situasjoner som oppsto i denne kampen var som beskrevet på bildet over. Sagna sto igjen
+for å oppta Hazard, og D. Silva strakk ut i bredt mellomrom. Denne situasjonen ville ikke
+
+
+
+
+25
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+oppstått dersom Chelsea spilte rent soneforsvar i midtbaneleddet, da Hazard ville vært
+lavere og nektet spill mellom seg og Matic inn i mellomrommet.
+
+«Prinsippene for markering tenker jeg er enklere enn prinsippene for soneforsvar. Så om
+du ikke har innlæring, tenker jeg markering er greit. Men man ønsker jo innlæring, og da
+tenker jeg soneforsvar kan ha en del fordeler som sagt i forhold til øving også videre.
+Også kommer det emosjonelle inn, motivasjonelle, det er jo noe veldig greit med det å
+ha en mann å stoppe.»
+
+Geir Jordet, Oslo 26.01.2016
+
+I ett soneforsvar vil det oftere være mindre rom for motstanderen å spille i. I
+soneforsvaret er man mer opptatt av avstander i og mellom leddene, og komprimering når
+man presser ballfører. Et lag organisert i soneforsvar er opptatt av å nekte rom, og da
+spesielt bakrom og mellomrom. Dette gir igjen bedre sikringsforhold, som bidrar til at den
+individuelle dimensjonen ikke er like viktig som i markeringsforsvar. Men i et soneforsvar
+er derimot den relasjonelle og strukturelle dimensjonen ekstremt viktig. 1F og 2F er
+sentralt i et soneforsvar, samtidig som laget må være strukturert i helhet. Presset på
+ballfører er ikke alltid like godt i soneforsvar, og dermed må man dekke de rommene hvor
+motstanderen mulig kan skape sjanser.
+
+
+
+
+26
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+På bildet over ser man Atletico Madrid mot Barcelona, en kamp hvor kompakt og
+aggressivt soneforsvar virkelig blir praktisert på beste nivå (i mine øyne). Her ser man en
+bakre 4’er som er relativt kompakt, med høyrebacken ute av bildet. Midtbane 4’eren til
+Atletico Madrid er komprimert, med en som er fremme og presser på ballfører, mens de
+andre komprimerer for å stenge mellomrommet. På bildet over er det ca 30 meter mellom
+kantene til Atletico Madrid, som er relativt lite fordelt på fire personer.
+
+En ulempe ved rent soneforsvar kan være at man ofte ikke lykkes i høyt press, fordi det er
+for store rom å dekke. Dermed blir det ofte enklere for motstanderen å dominere kampen
+(Possession/Ballinnehav). Samtidig trenger det ikke være noen svakhet at motstanderen
+har mer ballinnehav enn laget ditt, men mange lag liker i moderne fotball å ha mest ball.
+Igjen da blir det en naturlig konsekvens at du må være dyktig til å nekte mellomrom og
+bakrom, og sørge for at motstanderen ikke får spille gjennom lagdelene dine. Så lenge
+motstanderen har ball foran dine ledd, så er det ikke farlig at de har ball.
+
+«Å lykkes i lavt press for meg, i min filosofi, er å kunne gå fra lavt press til høyt press. Jeg
+tenker også at en definisjon av det er å kontrollere kampen selv om man ikke har ball.
+Når man er i lavt press har motstanderen mye rom på egen halvdel til å styre kampen
+med ballen. Og da er det i mitt hode å lykkes i lavt press ved å kontrollere kampen i lavt
+press. De kan trille ball, og være litt inn og ut av våre ledd, men ikke mer enn det. Da har
+vi lykkes i lavt press.»
+
+Haakon Lunov (Oslo 22.01.16)
+
+Andre situasjoner som kan oppstå i et rent soneforsvar er undertallssituasjoner rundt ball.
+Dersom motstanderen er ekstremt opptatt av stor forflytning, og såkalt «lokalt overtall»
+(for eksempel en 3v2-situasjon bredt i banen), så kan det skape utfordringer i forhold til
+sonene laget ditt jobber etter.
+
+Det finnes i mine øyne ingen fasit på fordeler og ulemper ved mannsorientert- eller
+soneforsvar. Dersom begge gjennomføres med nødvendig kvalitet, og det passer
+kampbildet bra vil begge deler kunne fungere fint. Even Ødegaard skriver i sin oppgave om
+nettopp dette, og forklarer godt med modellen under. Det handler om prioriteringer, hvor
+soneforsvar har press, sikring og dekking av rom som topp tre, mens markeringsforsvar
+
+
+27
+UEFA A-lisens 2015/16                                                 Ole Martin Nesselquist
+
+
+har sikring som nummer fire. På denne måten kan man da være mer avhengig av 1F-
+ferdighet, og presset på ballfører.
+
+ Soneforsvar                                     Markeringsforsvar
+
+ 1. Press                                        1. Markering
+ 2. Sikring                                      2. Press
+ 3. Dekke rom                                    3. Dekke rom
+ 4. Markering                                    4. Sikring
+
+(Ødegaard E, En analyse av Juventus’ spillestil (2014) s. 15)
+
+
+
+
+Mannsmarkering eller sone på forskjellige posisjoner?
+
+«Jeg tenker at bruk av mannsmarkering eller sone på forskjellige posisjoner er fornuftig.
+Jeg mener at vi har mye å gå på dette når vi er ute og konkurrer i Europa. Jeg tror evnen
+vår i norsk fotball til å forsvare på denne måten vil være mer effektivt mot enda bedre
+motstand, som i Europa.»
+
+Haakon Lunov (Oslo 22.01.16)
+
+
+
+
+I dette avsnittet vil jeg ta utgangspunkt i kun utespillerne. Det er mange spennende
+kombinasjoner av soneforsvar og mannsmarkering i etablert forsvar, hvor for eksempel
+Chelsea har kjørt mannsmarkering på backene og kantene, mens de har stort sett spilt
+med soneprinsipper i sentrallinjen. Mine observasjoner tilsier at det hos midtstoppere er
+en gjennomgående internasjonal trend på å kjøre mannsmarkering når man forsvarer i
+16’meteren, men ellers i sone.
+
+
+
+
+28
+UEFA A-lisens 2015/16                                                        Ole Martin Nesselquist
+
+
+Spisser
+
+Spissens rolle i forsvar har blitt større og større de siste årene, og utvikling av moderne
+fotball har gjort at spissens rolle er blitt veldig viktig også når laget ditt ikke har ball. Det er
+forskjellige måter å bruke spissen i et forsvarsspill på, hvor spissen kan forholde seg til
+soner i forskjellige størrelser (kan være en veldig sentrert sone, eller en bred sone hvor
+spissen også må presse backer), eller så kan spissen ha ansvaret for midtstopper.
+
+I høyt press er det flere og flere som opererer med mannsmarkering hos sine spisser, slik
+jeg ser det. Utfordringen her, slik Chelsea har opplevd, er at motstanderen dropper ned en
+av sine midtbanespillere og dermed skaper ett overtall. Dermed blir ofte spissen tidlig
+utspilt. Dersom spissen da kun skal forholde seg til midtstopperen, vil ofte midtbaneleddet
+blir overspilt i neste fase. Dersom man bruker spissen i soneforsvar, kan spissen også følge
+midtbanespilleren (ballfører), og dermed bidra til å presse frem feil. Dersom sonen blir for
+
+
+
+
+stor, og spissen også skal presse back (mest vanlig om man spiller med to spisser), kan
+man bli veldig sårbare for vridning av spill i motstanders frispilling. Fordelen da er at
+kantene kan forholde seg til midtbaneleddet, og dermed vil motstanderen møte ett
+kompakt midtbaneledd etter denne vridningen av spillet.
+
+Diego Costas rolle i høyt press har stort sett vært sone-preget, med ansvar for å stenge
+motsatt side og isolere spillet på en side. På bildet over har keeperen til West Bromwich
+ball, og Costa forsøker å låse ballen på West Bromwichs høyre side. Man ser at kantene er
+
+29
+UEFA A-lisens 2015/16                                                       Ole Martin Nesselquist
+
+
+mannsorienterte, og Willian (10’er denne kampen) bidrar til å låse spillet på en side. Dette
+kan være effektivt, men man er avhengig av å nekte vridning av spill. Dersom Myhill lykkes
+med å frispille Olsson kan det potensielt bli mye mellomrom for Morrison.
+
+I lavt press er det også variasjon i hvordan Chelsea (og flere) bruker spissen. Chelsea har
+endret seg der gjennom sesongen, mulig som en konsekvens av resultatene. Tidlig i
+sesongen lå utelukkende Costa igjen og ventet på mulighet for overgang. Mine
+observasjoner tilsier at spissen i den seneste perioden har bidratt lavere i banen, ved å ta
+ut sonen foran midtbaneleddet. Til tider (noe avhengig av kampplan) har også spissen
+vært mannsorientert på motstanders dype midtbanespiller, for å isolere spillet og nekte
+vridning.
+
+Om man skal praktisere sone på spissen i lavt press, er det viktig hvor sonen er. Noen
+velger å operere med en høy sone, hvor spissen skal ligge på midtstopperne. Her velger
+noen å legge han på ballside, andre på motsatt. En fordel ved å legge spissen på ballside er
+at de vil ikke kunne bruke stopper på ballside til å vri spillet. Dersom de skal vri spillet vil
+de i stor grad måtte gå gjennom sentrale midtbanespillere, eventuelt gjennom motsatt
+midtstopper.
+
+Dersom man velger å legge spissen vekk fra ballside, vil motstanderen kunne bruke
+midtstopperen på ballside til å løse opp spillet. Da er man også i stor grad avhengig av
+midtbanens posisjonering og press. Dersom man møter lag som er veldig gode i den
+relasjonelle dimensjonen, og som ofte lykkes med trange kombinasjoner, kan det være en
+fin måte og presse frem en støttepasning på. Om man åpner opp midtstopperen på
+ballside kan man lokke frem en støttepasning i stedet for å presse frem kombinasjonsspill
+etterfulgt av gjennombrudd og potensiell målsjanse. Dette observerte jeg at Chelsea
+praktiserte mot Manchester United.
+
+Mange av de samme prinsippene vil gjelde om man praktiserer mannsmarkering for
+spissen, og spilleren han har ansvaret for er midtstopperen. Det jeg opplever som veldig
+effektivt, spesielt mot ballsterke lag, er å bruke spissen i mannsmarkering til å ta ut
+motstanderens dype midtbanespiller. På denne måten kan du presse frem lengre
+støttepasninger (ned til midtstoppere), og du får ofte større mulighet til å pushe ut laget
+ditt.
+
+30
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+Kanter
+
+Mine observasjoner tilsier at Chelsea nesten utelukkende i årets sesong har gjennomført
+mannsmarkeringsprinsipp for sine kantspillere. I den siste tiden har kantene hatt en lavere
+utgangsposisjon, men har fortsatt hatt ett tydelig ansvar for sine backer.
+
+I høyt press har Chelsea, som tidligere skrevet, operert i stor grad med en fremre 3’er,
+hvor kantene har vært involvert. De har fortsatt hatt ansvaret for backene sine, som har
+gitt store områder å dekke for spissen. Det kan bli for store rom dersom backene forblir
+brede og lave, og motstanderen kommer enklere til gjennombrudd sentralt i banen. Et
+tydelig eksempel på dette kom mot Manchester City tidlig i sesongen, når en del av
+kampplanen til Manchester City var å holde Sagna (høyreback) lav og bred. Hazard sto og
+fulgte han, som ga store rom fremover til David Silva (10’er). Dersom man hadde spilt med
+rene soneprinsipper i dette scenarioet, hadde neppe dette blitt ett problem fordi Hazard
+
+
+
+
+hadde vært nede og dekket rom. Utfordringen oppsto når D. Silva gikk ut i bredt siderom,
+og han ikke lenger var innenfor N. Matics sone.
+
+Dersom man operer med rene soneprinsipper på kantene også i høyt press, kan det blir
+for store rom å dekke. Ved å for eksempel sideforsyve for langt i høyt press, kan man
+potensielt få ekstreme rom å dekke senere i spillet. Dersom man har en ambisjon om å
+presse høyt i soneforsvar, skal man i teorien dekke rom på 104x64 meter. Hvis man legger
+
+
+31
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+presshøyden lavere, for eksempel ved midtstreken, vil rommet være på 52x64 meter, som
+er halvparten. Derfor er det også en risiko tilknyttet å bruke kantene i ren sone i høyt
+press.
+
+Dette avhenger også noe av hvilken formasjon man foretrekker, men jeg tar utgangspunkt
+i Chelseas formasjon 1-4-2-3-1. Når man har to sentrale midtbanespillere i tillegg til 10’er-
+rollen, blir det omtrent uansett store rom å dekke for en midtbane 4’er i soneforsvar høyt
+press.
+
+Når det gjelder kantenes rolle i lavt press opplever jeg veldig store forskjeller på
+mannsmarkering kontra soneforsvar. I et soneforsvar vil kantens rolle være å sideforsyve,
+opprettholde korte avstander i midtbaneleddet og holdet laget komprimert. Da åpner
+man som regel mye rom på motsatt side fra ball, men det er generelt kantene lite opptatt
+av i et soneforsvar. Dersom man spiller mannsmarkering, kan man tidvis oppleve i 1-4-2-3-
+1 at det ser ut som 1-6-2-1-1, fordi motstanders backe blir høye og brede. Dette gir veldig
+ofte store problemer for de to sentrale midtbanespillerne.
+
+
+
+
+32
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+På bildet over er kantene til Chelsea sirklet inn, mens det er markert en rød strek mellom
+de to sentrale midtbanespillere til Chelsea. Situasjonen har oppstått som en konsekvens
+av kanter som har fulgt backen sin, mens de to sentrale midtbanespillerne har blitt skyvet
+for langt over. Det som skjer i sekundene etterpå er pasning inn i midten,
+kombinasjonsspill og scoring til Manchester City. I et soneforsvar ville det neppe sett slik
+ut (alternativ posisjonering i henhold til strukturell dimensjon er markert med blå prikker).
+
+Dersom man praktiserer soneforsvar i lavt press med kantene sine, kan man også være
+sårbare for vridning av spill, når man kan havne i undertall mot egen back og få mye
+innlegg mot seg. Sånn sett er valget mannsmarkering/soneforsvar for kantene et veldig
+viktig valg fra trenerens side. Man velger på mange måter hvilke situasjoner som skal
+oppstå. Ved bruk av soneforsvar kan man få mye innleggssituasjoner mot seg, mens man i
+ett mannsmarkeringsforsvar vil potensielt få mye gjennombrudd sentralt fordi
+motstanderens backer er brede.
+
+«Det handler om felles forståelse både i mannsmarkering og i soneforsvar, men det
+handler om tydelighet fra treneren og trenerteamet, samt i treningshverdagen.
+Tydelighet på feltet på hvordan man skal forsvare seg. Det finnes fordeler og ulemper
+ved begge disse to, og da handler det om tydelig om hvordan man skal løse det slik at
+man drar fordelene til sin fordel.»
+
+Haakon Lunov (Oslo, 22.01.16)
+
+10’er-rollen
+
+Den offensive midtbanerollen, eller den hengende spissen, har selvsagt stor sammenheng
+med hvordan laget bruker spissen i forsvarsspillet. Det er ytterst sjelden man ser en spiss i
+mannsmarkering, og en 10’er i soneforsvar eller omvendt.
+
+I høyt press vil ofte 10’erens rolle i mannsmarkering blir midtstopperen spissen ikke har
+ansvaret for. Deretter flytter som regel midtbaneleddet etter, for å kunne sette et godt
+nok press på ballføreren. Dersom man velger å bruke 10’eren i mannsmarkering, men tar
+han ned på motstanderens dype midtbanespiller blir det ofte for enkelt å frispille forbi
+spissen. Utfordringen vil uansett være rommet bak eller foran 10’eren i høyt press.
+10’eren er en rolle skapt først og fremst for offensiv gevinst, ved å ha en spiller som
+
+
+33
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+vandrer i mellomrommet og som kan skape overtall og ubalanse på siste 1/3-del. Derfor er
+det ganske naturlig at rollen havner litt «utenfor» i etablert forsvar og spesielt i høyt press.
+Dersom man velger å praktisere mannsmarkering med hovedansvar for midtstopperen for
+10’er-rollen, vil man oftere kunne presse frem en lengre ball. Dersom man velger å legge
+fokuset på motstanderens dype midtbanespiller, vil ofte konsekvensen være at
+midtstopperen får ha ball, uten å nødvendigvis skape så mye vanskeligheter. Da igjen er
+det noe avhengig av hva man ønsker å presse frem, og dette påvirkes av egenskaper i ditt
+og motstanderens lag, samt kampplanen.
+
+I et soneforsvar i høyt press vil ofte 10’er-rollen fungere som sikringsspiller for både spiss
+og kanter, i tillegg til å bidra til å stenge rom fremover i banen (slik som på bildet under,
+hvor Willian har 10’er-rollen).
+
+
+
+
+Det som kan bli utfordringen med soneforsvar for 10’er-rollen, er at det blir mye rom å
+dekke, og rollen som 1F vil han sjelden ha. Som skrevet over, så er dette også en
+konsekvens av rollens betydelighet i det offensive spillet. Rollen blir noe alene i et
+soneforsvar i høyt press, når rollen ikke er noen naturlig del av et ledd.
+
+
+
+
+34
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+I lavt press kan derimot 10’er-rollen oftere få et viktig ansvar. Dette er fordi motstanderen
+ofte får en tydeligere dyp midtbanespiller, samtidig som motstanderens midtstoppere ikke
+er like involvert i spillet. Dette er observert i årets Chelsea-lag. Dermed kan det være mer
+naturlig for en 10’er-rolle å være mannsorientert i lavt press på motstanderens dype
+
+
+
+
+midtbane. Til tider har også Chelsea valgt å bruke 10’eren i en indreløper-posisjon i lavt
+press. Dette ble blant annet mye praktisert mot Tottenham borte.
+
+På bildet over har Oscar fulgt Tottenhams indreløper gjennom hele angrepet, og tatt han
+ut av spillet slik at de to sentrale midtbanespillerne får mindre rom å dekke.
+
+Dette er også en måte å gjøre det på i soneforsvar i lavt press. I 1-4-2-3-1 kan det bli mye
+rom for de to sentrale midtbanespillerne, og dermed er det flere som praktiserer en 10’er-
+rolle ned som indreløper med vanlige soneforsvarsprinsipper. Dette har også Chelsea gjort
+i enkelte kamper, spesielt gjennom desember for å holde nullen oftere. Dette er selvsagt
+en defensiv fordel, når det blir mindre rom å dekke for de to sentrale midtbanespillerne.
+
+
+
+
+35
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+Sentrale midtbanespillere
+
+I formasjonen 1-4-2-3-1 opplever man ofte at det blir store rom for de to sentrale å dekke.
+En mulig løsning på dette kan være å kjøre ren mannsmarkering også på de sentrale
+midtbanespillerne, men da med eventuelle markeringsskifter dersom motstanderen
+praktiserer motsatte bevegelser.
+
+I høyt press kan det være en veldig god løsning å spille med mannsmarkering hos de
+sentrale midtbanespillerne for å vinne ballen høyt i banen, eventuelt presse frem en lang
+ball. Dersom hovedambisjonen er å vinne ballen høyt i banen sentralt, kan det da være
+lurt å ta utgangsposisjon noe fra motstanderens sentrale midtbanespillere, for å lokke
+frem en pasning og deretter gå hardt i presset. Dersom ambisjonen er å presse frem en
+lang pasning/klarering, kan man følge de sentrale midtbanespillerne mer ukritisk. Deretter
+blir forflytningsferdigheten ekstremt viktig for å finne andreballen og korte ned
+avstandene etter den lange ballen.
+
+«Definisjonen på å lykkes i høyt press vil være å hindre motstanderlaget å ha mange
+pasningsalternativer åpne. Definisjon er vanskelig, har ikke det konkret. Men bildet i
+hodet mitt er at man ikke nødvendigvis må vinne ballen, men heller finne ut av hvordan
+man skal presse for å unngå at motstanderen har mange alternativer. Det handler om å
+presse motstanderen til å ta valg som vi kan lese enklere, og skvise spillet til ett sted og
+deretter vinne ballen.»
+
+Haakon Lunov (Oslo 22.01.16)
+
+
+
+
+36
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+En utfordring som kan oppstå dersom man praktiserer sone for de to sentrale
+midtbanespillerne i høyt press, er at det blir for store soner. Som tidligere skrevet, så er
+det da snakk om soner på 104x64 meter, som totalt skal dekkes. Dette vil gi større
+
+
+
+
+mulighet for motstanderen til å frispille, i mine øyne. På bildet over har Bournemouth spilt
+forbi frontpresset til Chelsea, og fordi Matic/Fabregas forholder seg til soneforsvaret
+rekker Bournemouth å rettvende seg i fremrommet. I denne situasjonen med
+mannsmarkering ville nok Matic vært tidligere oppe i ryggen på ballfører.
+
+I lavt press derimot, hvor sonene naturlig er mindre, vil det oftere være riktig for sentrale
+spillere å forholde seg til soneprinsipper. På den måten vil man hvertfall ha bedre kontroll
+på sentrale områder og rommet foran sine egne midtstoppere. Her er det selvsagt også en
+
+
+
+
+37
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+sammenheng med kantenes rolle, men i utgangspunktet har Chelsea vært tryggest når de
+sentrale midtbanespillerne har fått operere i soner foran sine egne midtstoppere.
+
+På bildet over ser du en av Chelseas største utfordringer med nettopp dette. Brunt har
+hatt ball bredt venstre, og Matic/Fabregas har kommet for langt over. Når ballen da
+sendes inn sentralt igjen til Morrison, ender motsatt sentrale midtbanespiller opp i press,
+mens kant (Hazard) ikke komprimerer fordi han er mannsorientert.
+
+Dersom man gjennomfører mannsmarkering hos de sentrale midtbanespillerne i lavt
+press, kan det være risikofylt i form av å åpne rom. Noen velger å praktisere dette, og
+Chelsea gjorde nettopp dette mot Manchester United, hvor de var veldig opptatt av Ander
+Herrera. Risikoen kan da være at motstanderen bruker mannsmarkeringen mot deg for å
+åpne rom sentralt i banen.
+
+
+
+
+På bildet over ser du en situasjon som blir løst på en fin måte med soneforsvar hos de
+sentrale midtbanespillerne. Dersom man i denne situasjonen skulle praktisert
+mannsmarkering, kunne Matic vært lenger mot venstre og mellomrommet kunne blitt
+enormt. Man kan se at dette blir brukt mot mannsorienterte lag i internasjonal fotball
+(Barcelona er ekstremt dyktige på dette i mine øyne). Skal man derfor praktisere
+mannsmarkering i lavt press på sentrale midtbanespillere, skal man være ekstremt trygg
+på den individuelle dimensjonen hos spillerne dine.
+
+
+
+
+38
+UEFA A-lisens 2015/16                                                 Ole Martin Nesselquist
+
+
+Backer
+
+Chelseas backer har i stor grad vært mannsorienterte under denne sesongen, både i høyt
+og i lavt press. Unntaket har vært når Chelsea har spilt mot motstandere som i stor grad
+har praktisert innoverkanter hvor da kantene har gått over til motsatt banehalvdel hvis du
+deler banen i lengderetning også.
+
+
+
+
+I høyt press har Chelsea spilt med backene sine i et mannsorientert forsvar, som tidligere
+nevnt. Utfordringen som ofte har oppstått da er situasjoner som på bildet over, hvor
+keeperen har slått langt mot spissen, det oppstår en luftduell mellom midtstopper og
+spiss, og Chelsea blir sårbare for «andreballsløp» fra motstanderens midtbane. Backene
+komprimerer i liten grad rundt luftduellen. Men slik som på bildet over, er man sårbar for
+spesielt indreløper-bevegelser rundt duellen.
+
+En annen utfordring ved å ha backene veldig mannsorienterte i høyt press, er når
+motstanderen får frispilt sentralt i banen og ender rettvendt mot Chelseas sentrale
+midtbanespillere eller midtstoppere. Da er det for store avstander i B4, og man er veldig
+sårbare for pasninger/løp i rom 2 (mellom back og midtstopper). Dette har ofte skjedd
+som en konsekvens av for dårlig frontpress ifølge mine observasjoner.
+
+
+
+
+39
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+Fordelen med å ha backer i mannsmarkering når man presser høyt oppstår ofte dersom
+man lykkes med å nekte spill sentralt, og man leder spillet utover.
+
+
+
+
+I situasjonen over har Chelsea lykkes med å stenge sentralt og nekte vridning, og ballen vil
+ende opp hos McAulay som spiller videre til Dawson. Da er det en tydelig fordel ved å ha
+backene (Azpilicueta) i mannsorientert forsvar, når Dawson da får veldig få alternativer og
+Chelsea presser frem ett balltap. Jeg opplever uansett at moderne backer er helt avhengig
+av gode 1F-ferdigheter, samt stor hurtighet.
+
+Om man spiller med soneorienterte backer i høyt press, vil man igjen være sårbar for
+hurtig vridning av spill, men man vil være sikrere sentralt i banen.
+
+
+
+
+På bildet over har jeg markert alternativ posisjonering på backene i et soneforsvar i
+samme bildet som brukt tidligere. I soneforsvar vil man oftere ha bedre sikringsforhold
+sentralt i banen, spesielt ved lange baller eller klareringer fra motstanderen i høyt press. I
+tillegg vil man etter halv-vridning (for eksempel fra venstre back til sentral midtbane) ha
+bedre forhold for å forsvare en tidlig gjennombruddsball i rom 2.
+
+
+
+40
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+Dersom backene forholder seg til ren sone i høyt press vil man også være mer sårbar for
+frispilling hos motstanderen bredt i banen. For eksempel kan det være enklere for en
+høyreback under press å slå til høyre kant dersom vår venstreback forholder seg til
+soneprinsipper.
+
+I lavt press har også Chelsea spilt med mannsmarkering på sine backer.
+
+
+
+
+På bildet over ser du en av utfordringene med å kjøre mannsmarkering på backene i lavt
+press. Ivanovic (sirklet inn) har fulgt kanten, og når da Willian ikke følger sin back blir det
+store rom bak backen. Konsekvensen kan bli at midtstoppere blir dratt ut av sine soner, og
+skaper kaos i organiseringen. I soneforsvar ville situasjonen blitt løst med Ivanovic
+kompakt i B4, mens midtbaneleddet hadde komprimert for å ta ut kanten som har trukket
+inn i banen.
+
+Dersom de relasjonelle ferdighetene mellom back og kant er gode nok defensivt, kan det
+fungere fint med mannsmarkering i lavt press. Men jeg opplever at det er vanskeligere å
+være god i den relasjonelle dimensjonen (som mannsmarkeringsforsvar bærer mye preg
+av) enn i den strukturelle dimensjonen som soneforsvaret bærer mer preg av.
+
+Med rent soneforsvar for backene i lavt press vil man oftere kunne forsvare de viktige
+rommene for backer. Spesielt rom 2 blir oftere bedre forsvart med soneprinsipper, når
+avstandene i bakre ledd blir kortere, og leddet blir mer kompakt. En viktig konsekvens av
+
+
+41
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+dette er også at midtstopperne sjeldnere blir dratt ut av sine soner, som ofte skaper store
+målsjanser til motstanderen. Det som derimot er viktig om man skal praktisere rent
+soneforsvar hos backene, er at midtbaneleddet er kompakt/nekter spill på kanter. Dersom
+midtbaneleddet ikke er kompakt nok, og motstanderen til stadighet får spille inn i
+mellomrommet på kanter, vil man for ofte kunne sette overtall mot backene som ligger i
+sone. Dermed er det (selvsagt) en stor sammenheng mellom midtbaneledd og bakre ledd
+når man forsvarer seg.
+
+
+
+Midtstoppere
+
+«Vi har også gjort studier hvor vi har filmet midtstoppere i kamp. Det er en
+masteroppgave levert av Niklas Nyland, han skrev en oppgave om persepsjon blant
+midtstoppere. Han fant ikke signifikante forskjeller hele veien, men han fant noen. Disse
+gikk på at Premier League-midtstoppere er mer aktive i sin orientering, altså de søker
+mer når de forsvarer seg mot innlegg og de kroppsorienterer seg mer gunstig, enn
+midtstoppere på reservelaget til et juniorlag. Så det er noe der som tilsier at
+midtstoppere på høyere nivå orienterer seg oftere enn midtstoppere på lavere nivå.»
+
+Geir Jordet, Oslo 26.01.2016
+
+Chelsea har hele veien spilt med midtstopperne i ren sone, med unntak av når de
+forsvarer innlegg. Innledningsvis på sesongen spilte de ren mannsmarkering med egne
+midtstoppere når motstanderen slo innlegg. Etter hvert i sesongen har de gått over til noe
+mer sonepreg, men med mannsmarkering innenfor sonene sine. Dette kaller jeg for
+sonemarkering fremover.
+
+I høyt press er det noen lag internasjonalt som spiller med mannsmarkering på
+midtstopperne sine. En veldig viktig forutsetning da er at midtstopperne er hurtige, slik at
+de samtidig kan forsvare bakrommet. Her har også keeperrollen vært viktig, spesielt når
+midtstopperne praktiserer mannsmarkering. Dersom motstanderen spiller med tydelige
+bakromsspisser, vil det ofte føre med en stor risiko å spille mannsmarkering med egne
+midtstoppere i høyt press. Du blir svært sårbar for motsatte bevegelser, og midtstopperne
+kan fort ende opp godt inne på motstanders halvdel, som gjør bakrommet enda større enn
+
+
+42
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+det behøver å være. For Chelsea kunne dette også vært et større problem enn for noen
+andre klubber, spesielt når midtstopper-paret har vært G. Cahill og J. Terry.
+
+Når Chelsea har presset høyt, har primært midtstoppernes rolle vært å forsvare nettopp
+bakrommet.
+
+
+
+
+På bildet over har Chelsea presset høyt, og midtstopperne har ansvaret for bakrommet.
+Utfordringen da kan fort bli avstander mellom midtbaneleddet og det bakre leddet, og
+motstanderen kan enkelt spille seg inn i dette rommet. Derfor blir sonearbeidet til
+midtstopperne i høyt press ekstremt viktig, fordi de også må ta mye ansvar for
+mellomrommet. Faller de av for tidlig, vil dette gå utover mellomrommet. Relasjonen
+mellom midtstopper-paret blir veldig viktig her, samtidig som de må følge med på backene
+sine når disse praktiserer mannsmarkering.
+
+Når J. Terry ikke har spilt, og midtstopperne har vært K. Zouma og G. Cahill har dette blitt
+løst på en bedre måte, når hurtigheten til Zouma er en ekstra trygghet i forhold til å
+forsvare bakrommet. Dermed har de oftere kunne stå høyt i presset også med
+midtstopperne. Hvordan man velger å praktisere soneforsvaret med midtstopperne blir
+derfor veldig opp til mannskapet man har, og hvordan treneren vil sette sammen laget.
+Har man hurtige midtstoppere kan man stenge mellomrommet i større grad ved å stå
+høyere, og det blir da motsatt om man mangler tempo hos midtstopperne. Da blir ofte
+mellomrommet større i høyt press, mens man faller lavere for å dekke bakrommet.
+
+I lavt press vil uansett midtstopperne operere i soneforsvar. Jeg har ikke funnet noen lag
+internasjonalt som operer med midtstoppere i mannsmarkering i lavt press, og derfor er
+
+
+43
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+nok dette en forståelse de aller fleste trenere på høyt nivå har. Det som gjør det spesielt
+for Chelsea er at backene opererer i mannsmarkering, og dermed må midtstopperne ofte
+ut bredt og forsvare. Dette har skapt store problemer for Chelsea, spesielt innledningsvis,
+fordi de da mangler midtstopperne foran mål om de skulle komme innlegg eller om
+motstanderen lykkes med gjennombrudd sentralt i banen.
+
+
+
+
+44
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+
+På siden over er det fire stillbilder fra kampen mot West Bromwich. Dette er tidlig i
+sesongen, hvor problemet med midtstopperne ut av sonene var størst. På bilde 1 har
+Ivanovic fulgt kanten for langt i banen, og ballen blir spilt inn bak han. Zouma er usikker på
+om Ivanovic rekker å presse, og går ut bredt for å være sikringsspiller. Når da innlegget
+kommer på bilde 3, er Zouma ute av posisjon, og Chelsea havner i posisjonell ubalanse
+innenfor egen 16’meter. Innlegget kommer på bakre stolpe, ballen blir headet ned igjen
+og West Bromwich scorer på andreballen. Dette scenarioet skjer sjeldnere dersom man
+opererer med soneforsvar i hele B4.
+
+Det er ekstremt viktig å holde midtstopperne inne sentralt dersom man operer med
+soneforsvar. De er midtstoppere fordi de skal forsvare området i midten.
+
+
+
+
+45
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+Når innlegget kommer har, som skrevet tidligere, Chelsea endret seg noe fra tidligere. Før
+var det en ren mannsmarkering hos midtstopperne. Sikkert mye fordi midtstopperne var
+ute av posisjon tidlig i sesongen, har Chelsea gått mer og mer over til soneprinsipp når
+man forsvarer innlegget, men med mannsmarkering i sine soner. Midtstopperne har sine
+soner foran mål, og de markerer spillere innenfor denne sonen.
+
+
+
+
+På bildet over slår Tottenham innlegg, og midtstopperne er plassert i soner foran mål. I
+utgangspunktet bør sonen være enda mer sentralt, men her ser man at K. Zouma har
+ansvaret for spilleren i sin sone, mens G. Cahill ikke har noen i sin sone. Allikevel holder
+han sin posisjon, og beholder kontrollen på sin sone. En viktig endring for Chelsea under
+sesongen var nok nettopp dette, når man slapp inn færre mål etter hvert som dette ble en
+vane for midtstopperne.
+
+
+
+
+46
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+
+Mannsmarkering som virkemiddel i kampplan
+
+«Laget uten ball er i forsvar, og den viktigste oppgaven vil være å hindre scoring. Dette
+er spillets grunnleggende idé.»
+A. Bergo m.fl., Ferdighetsutvikling i fotball (2002 Akilles), s. 83
+
+Spillets idé for forsvarende lag beskriver Bergo, Larsen, Morisbak og Johansen godt i
+boken Ferdighetsutvikling i fotball. Men det å hindre scoring kan gjøres på forskjellige
+måter, og det kan også være nødvendig å kunne flere virkemidler for å unngå scoring
+imot. Det handler også om motstanderens styrker og svakheter.
+
+«However, there are few better managers than Mourinho at being able to put out teams
+to get results in one-off games. Mourinho set up to defend in a way that Wenger never
+could. Mourinho made his team resolute, broke up Liverpool`s early momentum with a
+string of free kicks and stoppages, which prevented them from making the fast start to
+the game that had been such a feature of their title challenge.”
+
+Cross, J, Arsene Wenger (Simon & Schuster 2015), s. 335
+
+Det finnes flere måter å bruke mannsmarkering som et virkemiddel i kampplanen. Chelsea
+har gjennom sesongen brukt dette i noen anledninger, sist mot Manchester United under
+Hiddink. I dette avsnittet vil jeg drøfte litt rundt forskjellige løsninger, og hvordan man kan
+bruke mannsmarkering som et effektivt virkemiddel i kampplanen.
+
+Mot Manchester United valgte Chelsea å ta ut Ander Herrera når motstanderen hadde
+ball. Mest sannsynlig har Chelsea da analysert seg frem til at han er sentral i Manchester
+United oppbyggende spill. Herrera søker mye mellomrom, og er en kreativ kraft for
+United. I denne kampen spilte Chelsea med John O. Mikel og N. Matic sentralt på
+midtbanen, og de gjennomførte mannsmarkering ut i fra hvem som var nærmest Herrera.
+Dersom en av de to sentrale måtte velge mellom å presse ballfører, eller å markere
+Herrera valgte de å presse ballfører. Dette kan tyde på at de ikke ønsket Herrera som
+ballfører tidlig i oppbyggingsfasen.
+
+
+
+
+47
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+
+
+På bildet over har Manchester United høyre back ballen, og Mikel følger Herrera hele
+veien. Dette gir stort rom mellom Matic/Mikel, samt foran Mikel. Det er flere lag som
+praktiserer mannsmarkering på spillere i mellomrom, men dette kan potensielt skape
+større rom som motstanderen kan utnytte. Personlig tenker jeg at et slikt virkemiddel bør
+benyttes kun hvis spilleren er totalt avgjørende for motstanderens suksess i etablert
+angrep. Potensielt kan en slik løsning med mannsmarkering hos dine egne sentrale
+midtbanespillere skape enorme avstander i laget defensivt. På bildet over ligger man med
+gode avstander mellom Mikel/B4, og motsatt kant (Willian) er nede for å følge motsatt
+back. Men avstandene foran midtbaneleddet og internt i midtbaneleddet er for store. For
+lag som er vant til soneforsvar i hele midtbaneleddet og i bakre ledd, kan det få store
+konsekvenser å kjøre mannsmarkering hos en av de sentrale.
+
+«Det å fokusere på en motstander i seg selv vil ikke gi de negative effektene. Altså du
+kan fint snu perspektivet på motstander, og fokusere masse på motstander fordi vi skal
+slå motstander, tenker jeg.»
+
+Geir Jordet, Oslo 26.01.2016
+
+
+
+
+48
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+
+
+På bildet her har du en annen situasjon som kan skape problemer med en slik løsning.
+Mikel har igjen markert ut Herrera (i høyt press), men Manchester United får muligheten
+til å angripe bredt i banen. Når de lykkes med det, skaper det store problemer for backer
+og midtstopperne. Her skaper Manchester United en 3v2-situasjon mot Ivanovic og
+Zouma, når i et soneforsvar Mikel ville være lavere og kunne bidratt.
+
+Det opplever jeg ofte som en utfordring i mannsorientert forsvarsspill. Han som skal
+mannsmarkere en spiller bommer ofte i bedømmelsen på når han skal avslutte
+mannsmarkeringen for å bidra på viktigere områder, og laget ender på etterskudd.
+Dersom man skal praktisere mannsmarkering på en mellomromsspiller, vil jeg si det er
+nødvendig å spille med en 3’er sentralt på midtbanen. Da kan man opprettholde
+soneforsvaret på to av dem, samtidig som man kan bruke tredjemann til å markere. Dette
+kan fort bli defensivt i utgangspunktet, men slik er det ofte uansett når man velger å
+mannsmarkere spesielle spillere.
+
+
+
+
+49
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+Dersom man skal benytte seg av mannsmarkering i en kampplan, er generelt risikoen stor i
+forhold til å skape ubalanse og store rom. Når man velger å mannsmarkere en
+motstander, kan dette gå på bekostning av lagets organisering og struktur. Dette påvirker
+også av spillertypen man mannsmarkerer, og hvordan motstanderen reagerer på
+markeringen. Det er alltid spennende med tanke på spill/motspill å se lag som
+mannsmarkerer spillere. Hvis man bruker eksempelet med Ander Herrera, kunne
+Manchester United for eksempel brukt mannsmarkeringen i enda større grad til å skape
+rom for seg selv. For eksempel kunne de dratt Herrera noe høyere og bredere enn vanlig,
+og dermed skapt mye rom rundt den andre sentrale midtbanespilleren.
+
+
+
+
+Det samme prinsippet har også RBK hatt flere muligheter til å bruke i årets sesong. Nå skal
+det sies at RBK hadde en strålende sesong uansett, men ofte ble deres indreløpere
+mannsmarkert, og ved å bruke dette bevisst kunne man for eksempel skapt flere 2v1-
+situasjoner bredt i banen. Da kunne man spilt med veldig smale indreløpere, og skapt
+store rom bredt.
+
+For å unngå for store endringer i lagets organisering synes jeg prinsippet med en ekstra
+spiller i leddet er fornuftig. Dersom man skal mannsmarkere en mellomromsspiller i 1-4-2-
+3-1, ville jeg dratt 10’eren ned i etablert forsvar, og forsvart meg i 1-4-1-4-1. Om man skal
+markere ett oppspillspunkt i motstanderens fremre ledd (noe Chelsea forsøkte mot
+Everton med Lukaku), kan man løse det på samme måte, eventuelt spille med en bakre
+5’er. Førsteprioritet når man forsvarer seg er å nekte scoring, og da kan man prioritere
+defensive løsninger når det føles nødvendig.
+
+Den eneste muligheten for å bruke mannsmarkering som en del av kampplan, uten at det
+går utover lagets organisering i 1-4-2-3-1, er å bruke 10’er-rollen til å ta ut midtstoppere
+eller dype midtbanespillere. Dette kan også være en effektiv måte å drepe motstanderens
+spill på, dersom de bruker den dype midtbanespilleren styrer mye av spillet.
+Motstanderne til Bayern Münich i Tyskland har brukt dette en del i årets sesong for å ta ut
+Bayerns dype midtbanespiller, og dermed fjerne en viktig del av deres oppbyggende spill.
+
+
+
+
+50
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+
+Tre hovedårsaker til Chelsea FCs svake sesong (etablert
+forsvar)
+Nå er vi inne på oppgavens siste del, nemlig der jeg skal begynne å konkludere.
+Chelsea FC har ikke hatt noen god sesong, og det kan være mange årsaker til nettopp
+dette. Som i hele oppgaven tar jeg utgangspunkt i etablert forsvar, og har plukket meg ut
+følgende tre hovedårsaker til Chelseas svake sesong i etablert forsvar:
+     1. Sammensetning av mannsmarkering bredt og soneforsvar sentralt
+José Mourinho er en strålende manager, la oss ikke diskutere det. Men jeg stiller
+spørsmålstegn ved sammensetningen av midtbanespillere, og måten han praktiserte
+soneforsvar sentralt og mannsmarkering på kantene på. En stor konsekvens av
+mannsorienterte kanter var (som tidligere beskrevet) mye rom å dekke for to sentrale
+midtbanespillere. Og at dem da har valgt å spille med Cesc Fabregas i en av disse to
+rollene er for meg en viktig del av årets svake sesong. Cesc Fabregas er en fantastisk
+angrepsspiller, men han har dessverre hatt en svak sesong. Dette velger jeg å legge på
+Mourinho, og valg av sammensetning. Matic har måtte dekke midtbanen uten mye hjelp,
+og Chelseas B4 har fått mange angrep mot seg som en konsekvens av dette.
+En annen konsekvens av mannsmarkering bredt og soneforsvar sentralt, har vært at
+Ivanovic har fulgt kantspillerne inn i banen. Dermed har midtstopperne ofte endt opp med
+å forsvare bredere i banen, og har måtte forsvare korridor-løp. Når denne midtstopperen i
+store deler av sesongen har vært John Terry, synes også hans svakhet tydeligere. Jeg
+mener at organiseringen av laget (med mannsmarkering bredt og soneforsvar sentralt) er
+spennende, men i år har ikke Chelsea hatt spillertypene som kreves. Derimot har Fabregas
+og Terry måtte spille på sine svakheter, som har gitt et for dårlig kollektiv.
+     2. Valg av strategi i høyt press
+Chelseas strategi i høyt press har som tidligere skrevet, vært å presse i 1-4-3-3-, med to
+flate 3’ere fremme. Dette har da ofte endt med en lengre ball, som Chelsea har slitt med å
+forsvare som en konsekvens av tempoproblemer i B4. I tillegg har ikke Chelsea vært
+dyktige nok på å forsvare andreballer, også som en konsekvens av punktet over. Det er
+flere alternativer her som i mine øyne hadde fungert bedre for Chelsea. Enten å presse i
+ren 1-4-4-2, for å sette et bedre press på motstanderen, eller å legge seg lavt fra start av.
+Dersom ambisjonen har vært å presse frem den lange ballen er dette greit, men Chelsea
+besitter ikke egenskaper i laget hvor dette er til deres fordel, i mine øyne.
+     3. Avstander i laget
+Det tredje punktet er veldig generelt, men jeg greier ikke komme unna det. I altfor mange
+kamper jeg har observert, har avstandene i og mellom leddene til Chelsea vært altfor
+store. Motstanderen har ofte fått for mye rom, og Chelsea har vært for enkle å spille
+gjennom. Dette gjelder i alle ledd, inkludert keeperens rolle som sweeper.
+
+
+51
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+
+Hvordan vil jeg organisere et 1-4-2-3-1-lag i etablert
+forsvar?
+«Don’t forget that the basis of our team is a very offensive philosophy. So sometimes, if
+we concede goals in the future, it will not be Steve Bould’s (Assistant manager) fault. It
+will only be a consequence of the way we see football.”
+
+Cross, J, Arsene Wenger (Simon & Schuster 2015), s. 341
+
+Sitatet over er fra Arsene Wengers bok. Det er svaret på spørsmål om Steve Bould har
+ansvar for det defensive, i og med at han spilte midtstopper før han startet
+trenerkarrieren. I utgangspunktet må jeg innrømme at også jeg heller mot den inngangen.
+Vi skal angripe og skape sjanser først og fremst. Men allikevel må en forsvare seg.
+
+
+
+
+Gjennom denne oppgaven har jeg endret mitt syn noe på hvordan man skal opptre i
+etablert forsvar. Når jeg nå skal konkludere, ønsker jeg å dele opp i fire deler:
+
+Grunnprinsipper, høyt press, lavt press og nekte scoring. I høyt press vil jeg legge meg på
+3,5 i henhold til modellen over. I lavt press vil jeg legge meg på 1,5. Grunnprinsippene vil
+gjelde uansett presshøyde, mens i den siste fasen (nekte scoring) vil jeg konkludere med
+at modellen over forsvinner. Der handler det om råskap og instinkt. Jeg forklarer nærmere
+gjennom konklusjonen.
+
+
+
+
+52
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+Etablert forsvar – Grunnprinsipper
+
+I etablert forsvar jobber vi etter følgende grunnregler (i prioritert rekkefølge):
+
+     1) Nekt spill gjennom oss
+     2) Nekt spill bak oss
+
+Vi ønsker ikke å ha ballen gjennom våre ledd. Altså leder vi utover. Vi skal ha ekstremt
+korte avstander i leddene, samt gode dybde/bredde-forhold, slik at det ikke skal la seg
+gjøre å spille gjennom oss. Da åpner vi opp bredt rom, og lar motstanderen spille ut bredt.
+
+Noen lag ønsker å lede innover i banen for å vinne ballen i et mer gunstig område. Min
+vurdering er at lagene jeg trener nå, og mest sannsynlig i fremtiden, ikke besitter gode nok
+1F-ferdigheter til å lede innover. Gjennom å lede innover mener jeg også at motstanderen
+får flere alternativer enn om vi leder utover. Jeg refererer til intervjuet med Lunov, og
+ønsker å stenge så mange alternativer som mulig for motstanderen ved å lede dem ut.
+
+Når da ballen er bredt, blir neste oppgave å stenge mulighetene for å spille fremover, altså
+inn bak oss. Da presser vi hardt på ballfører og bruker sidelinjen som sikring, samt tar ut
+rommene fremover for motstanderen. Dette gjøres med backen i offensiv markering. Med
+denne metoden vil i bestefall vinne ball og kunne kontre, i verste fall får vi eller
+motstanderen innkast eller motstanderen må slå støttepasning. Disse prinsippene vil
+gjelde i både høyt og lavt press.
+
+Vi er opptatt av korte avstander, stor forflytning og å skape overtall på små områder,
+såkalt «lokalt overtall». Det vil si i en situasjon der motstanderen er tre spillere innenfor et
+område på 15x15, skal vi være fire. Dette krever stor forflytningskraft, både i form av
+mengde (antall meter) og ikke minst hurtighet (både oppfattelse og løpshurtighet).
+Deretter er vi opptatt av å identifisere 1F, som skal sette press på ballfører om vi er i
+balanse. Dersom vi er i ubalanse, skal ikke 1F presse for å vinne, men da presse for å senke
+angrepsfarten. I 1F-situasjoner er fokuset det samme som over; de skal ikke spille gjennom
+oss og ikke bak oss.
+
+For å kunne opptre på måten vi ønsker, må vi gi mye rom motsatt når ballen er bredt. Da
+er det viktig at 1F nekter spill gjennom leddene våre, samtidig som våre sentrale spillere
+
+
+
+53
+UEFA A-lisens 2015/16                                                        Ole Martin Nesselquist
+
+
+stenger korte vridningsmuligheter. Dermed skal eneste mulighet for vridning være lang
+ball, og da ønsker vi å lese spillet, og skape et såkalt «pressøyeblikk».
+
+Et pressøyeblikk er øyeblikk hvor vi som lag skal sette et press i etablert forsvar. For
+eksempel kan vi da gå fra lavt press til høyt press, dersom vi greier å skape et
+pressøyeblikk. Da setter vi et hardt press på han som skal motta ball/har ball, samt vi
+flytter laget høyere i banen. Dersom vi lykkes med dette, vinner vi ball enten ved første
+mulighet eller ved de neste to-tre situasjonene. Det er viktig å tenke på balanse i denne
+pushingen, slik at vi fortsatt har kontroll på bakrommet ved ny lang ball eller klarering.
+
+Vi jobber etter følgende pressøyeblikk:
+
+     1) Ballen er i luften
+     2) Feilvendt ballfører
+     3) Motstanderen har ikke åpenbar kontroll på ball (dårlig pasning/dårlig touch)
+
+I høyt press vil vi oftere kunne skape et pressøyeblikk selv, mens i lavt press er vi mer
+opptatt av å stenge rom og vente til motstanderen skaper et pressøyeblikk for oss. Men
+dersom vi får stengt godt av i lavt press, greier vi ofte å skape et pressøyeblikk også der.
+
+ Soneforsvar                                        Markeringsforsvar
+
+ 1. Press                                           1. Markering
+ 2. Sikring                                         2. Press
+ 3. Dekke rom                                       3. Dekke rom
+ 4. Markering                                       4. Sikring
+
+
+
+Etablert forsvar – Høyt press
+
+Jeg skrev over at vi ønsker å ta utgangspunkt i mannsmarkering når vi presser høyt, med
+relativt stor innrømmelse til sone. Når jeg ønsker å presse i høyt press, mener jeg at vi skal
+presse over hele banen. Ofte kan vi la motstanderen sette i gang kort i faste situasjoner,
+før vi setter et press. Våre spillere skal ha hver sin spiller å forholde seg til. Når jeg sier
+relativt stor innrømmelse til soneforsvar, handler dette mye om sentrallinjen.
+Midtstopperne våre skal for eksempel aldri følge spissen ukritisk, når midtstoppernes
+førsteprioritet er å forsvare bakrommet og balansere laget. Sentrale midtbanespillere skal
+
+54
+UEFA A-lisens 2015/16                                                    Ole Martin Nesselquist
+
+
+ta ut motstanderens sentrale midtbanespillere, men ikke tømme vår midtbane. Det vil si
+at dersom en av motstanderens midtbanespillere går veldig dypt for å motta ball, skal ha
+få lov til det.
+
+Årsaken til at vi velger å spille mannsorientert i høyt press, er at man i mine øyne er mer
+avhengig av godt press på ballfører for å lykkes i høyt press. Det er vanskelig å spille sone
+(dekke rom) i høyt press, fordi du har hele banen å dekke. I lavt press har du et mer
+konsentrert område å dekke.
+
+Vi må akseptere at avstandene i laget blir større i høyt press, men vi skal fortsatt jobbe
+etter grunnprinsippene våre. Da handler det i større grad om 1F-rollen, og fokuset på
+mannsmarkeringen.
+
+
+
+
+Over har jeg skrevet de viktigste oppgavene til hver enkelt spiller i høyt press. Gjennom
+disse rollene er det tydelig at vi ønsker at ballen skal ende hos motstanders back, og der
+skal vi vinne ball. Man ser også at sentrallinjen er mer soneorienterte enn de brede
+spillerne, spesielt hos midtstopperne.
+
+
+
+
+55
+UEFA A-lisens 2015/16                                                      Ole Martin Nesselquist
+
+
+Etablert forsvar – Lavt press
+
+I det lave presset har vi soneforsvar som utgangspunkt, med relativt stor innrømmelse til
+mannsmarkering. Med dette mener jeg at vi forholder oss til våre soner, men spillerne skal
+ta ut spillere i disse sonene. Dersom det befinner seg to spillere i samme sone, skal
+spilleren ta valget på hvem som er «farligst», og ta ut denne spilleren.
+
+På oppgavebeskrivelsen under i lavt press, ser man tydeligere hvilke rom som er prioritet.
+Her kommer det også tydelig frem at vi ønsker ballen ut bredt, for å presse derfra.
+
+
+
+
+Prinsipper som blir viktigere i lavt press enn i høyt (på grunn av grunnorganisering
+mannsorientert/soneorientert) er:
+1- Korte avstander
+2- Dybde i presset/komprimering
+3- Sikring på innsiden
+
+Som en konsekvens av dette må vi være forberedt på å forsvare to situasjoner mye:
+1) Innlegg
+2) Baller i bakrommet
+
+Når ballen kommer bredt, ønsker jeg å forsvare i en såkalt 3’er-blokk. Den skal helst bestå
+av back, kant og sentral midtbane. Da er regelen at vi skal ha en spiller i godt 1F-press,
+
+
+56
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+mens de to andre sikrer hver side. Deretter skal vi ha neste 3’er-blokk inne foran målet,
+som består av begge midtstopperne samt motsatt back. Den andre sentrale
+midtbanespilleren forsvarer sonen rundt straffemerket. Motsatt kant kommer inn, og
+bidrar. I boksen vil det være større fokus på mannsmarkering innenfor sonene sine. 3’er-
+blokken inne foran mål skal aldri ut av posisjon. Dersom vi mangler en spiller i bred 3’er-
+blokk, skal vi akseptere dette.
+
+Baller i bakrommet er alltid vanskelig å forsvare, men her handler det mye om å lese
+spillet, kommunisere og forflytte seg riktig. Vi er opptatt av å lese kroppsspråket og blikket
+hos ballfører, samt bevegelsene til motstanderen. Dette må alle våre spillere gjøre. I tillegg
+må vi tidlig kommunisere hvem som skal presse, og hvem som skal sikre. Når ballen
+havner inn bak oss, skal vi alltid komprimere mye også, slik at vi får korte avstander i
+leddene. Keeper er en veldig viktig del av å forsvare et bakrom, og derfor er vi opptatt av
+at han har et så høyt utgangspunkt som mulig når vi forsvarer.
+
+Etablert forsvar – Nekte scoring
+
+«Først når ballen nærmer seg eget mål, vil det å hindre mål være den viktigste oppgaven
+for forsvarsspillerne.»
+
+Bergo A, m.fl. Ferdighetsutvikling i fotball (Akilles 2002), s. 203
+
+Med fasen «nekte scoring» mener jeg situasjoner hvor motstanderen har stor målsjanse,
+og vi allerede har gjort en feil i forsvarsspillet. Da forsvinner begrepene
+mannsmarkering/soneforsvar, og det handler om å nekte avslutning for de nærmest
+ballen, mens resten sørger for å nekte avslutning på retur. Her ønsker jeg at det skal gå på
+instinkt, og frykten for å slippe inn mål, referert til intervjuet med Geir Jordet.
+
+
+
+
+57
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+Litteraturliste / Kilde
+
+
+Bergo A, Johansen PA, Larsen Ø, Morisbak A, Ferdighetsutvikling i fotball, Akilles 2002
+
+Olsen E, Larsen Ø, Semb NJ, Effektiv fotball, Gyldendal norsk forlag, 1994
+
+
+Ødegaard E, En analyse av Juventus’ spillestil, 2014
+
+Cross J, Arsene Wenger, Simon & Schuster, 2015
+
+Morisbak A, Ferdighetsutvikling for keepere, Akilles 2003
+
+
+
+
+58
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+
+Intervju av Haakon Lunov
+Utviklingssjef i Strømsgodset Toppfotball.
+                                                               Gjennomført i Oslo, 22.01.2016
+Hva vil du si er det viktigste i et godt etablert forsvar?
+Det viktigste vil være en felles forståelse i laget om hvordan man skal kunne gå fra fasen
+etablert forsvar til å vinne i ballen. I neste fase, dersom det er fare for mål eller sjanse til
+motstanderlaget at det er en felles forståelse for hvordan man skal rydde unna. Det
+handler om felles forståelse både i mannsmarkering og i soneforsvar, men det handler om
+tydelighet fra treneren og trenerteamet, samt i treningshverdagen. Tydelighet på feltet på
+hvordan man skal forsvare seg. Det finnes fordeler og ulemper ved begge disse to, og da
+handler det om tydelig om hvordan man skal løse det slik at man drar fordelene til sin
+fordel.
+Hva er definisjonen på å lykkes i høyt press for deg?
+Det vil være å hindre motstanderlaget å ha mange pasningsalternativer åpne. Definisjon er
+vanskelig, har ikke det konkret. Men bildet i hodet mitt er at man ikke nødvendigvis må
+vinne ballen, men heller finne ut av hvordan man skal presse for å unngå at motstanderen
+har mange alternativer. Det handler om å presse motstanderen til å ta valg som vi kan lese
+enklere, og skvise spillet til ett sted og deretter vinne ballen.
+Hva er viktig for å lykkes i høyt press?
+Igjen, felles forståelse om hvordan de ulike oppgavene skal presse. En skal presse, de
+andre skal lese presset og forsøke å være i forkant på motstanderens valg for å kunne
+bryte spillet.
+Hva er definisjonen på å lykkes i lavt press for deg?
+For meg, i min filosofi, å kunne gå fra lavt press til høyt press. Jeg tenker også at en
+definisjon av det er å kontrollere kampen selv om man ikke har ball. Når man er i lavt
+press har motstanderen mye rom på egen halvdel til å styre kampen med ballen. Og da er
+det i mitt hode å lykkes i lavt press ved å kontrollere kampen i lavt press. De kan trille ball,
+og være litt inn og ut av våre ledd, men ikke mer enn det. Da har vi lykkes i lavt press.
+Hva er viktig for å lykkes i lavt press?
+Felles forståelse, igjen. Kollektiv forståelse på hva vi ønsker å oppnå. Enten da om man er
+ute etter å gå fra lavt til høyt press for å kunne minske alternativer til motstander, eller om
+man skal ligge i lavt press og unngå at motstanderen skal skape noe.
+Hvilke tanker har du om soneforsvar kontra mannsmarkering?
+Personlig er jeg for en kombinasjon. Jeg mener at en fotballtrener må ha kunnskap om
+fordeler og ulemper om begge deler. Treneren må også vite hvordan man trener på å
+mestre begge deler, og deretter er det opp til filosofien til treneren om hvordan laget skal
+
+59
+UEFA A-lisens 2015/16                                                   Ole Martin Nesselquist
+
+
+fremstå. Jeg mener også at vi i Norge må ha respekt for begge deler. Vi har en tendens til å
+snakke ned, eller si at det er feil å forsvare seg på flere metoder. Vi har en tradisjon for
+soneforsvar, og har for lite kunnskap om mannsmarkering, og da blir det fort slik at vi
+snakker mannsmarkering ned. Det synes jeg er lite respektfullt, og vitner om for lite
+kunnskap om spillet.
+Hvilke trender tror du blir avgjørende i etablert forsvar de neste fem årene?
+Førsteforsvarsferdigheten er noe vi har veldig mye å gå på i Norge. 1 mot 1-ferdigheten. I
+Norge tror jeg det er en ting vi først må bli bedre på. På internasjonal fotball, på høyt nivå
+hvor den ferdigheten er der, tror jeg evnen til det å håndtere både mannsorientert forsvar
+og soneforsvar på individnivå inn mot en kampplan, eventuelt så drøyt som å bytte under
+kamp fordi kampen tilsier at dette er lurt, det kan bli en trend. Men det er også ting som
+sier at stabilitet og tydelighet blir en trend, og det derfor blir viktig. Men på høyt
+internasjonalt nivå må trenere og spillere evne begge deler.
+Hva tenker du om mannsmarkering på enkelte posisjoner, kombinert med soneforsvar?
+Jeg tenker at det er fornuftig. Jeg mener at vi har mye å gå på dette når vi er ute og
+konkurrer i Europa. Jeg tror evnen vår i norsk fotball til å forsvare på denne måten vil være
+mer effektivt mot enda bedre motstand, som i Europa.
+Hva tenker du om mannsmarkering som en del av kampplan?
+Jeg tror at hvis man leser bildet og forutser bildet godt nok, vil det være fornuftig med
+mannsmarkering i et ledd eller på en spesiell spiller. Da må man kunne håndtere det.
+
+
+
+
+60
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+
+Intervju av Geir Jordet
+Ansatt v/ NIH og Toppfotballsenteret.
+                                                          Gjennomført ved NIH, 26.01.2016
+Ser du noen åpenbare forskjeller på soneforsvar og mannsmarkering i forhold til evnen
+til å fokusere og konsentrere seg om sine oppgaver?
+Oppgaven er hvertfall forskjellig, altså stereotypien av de to måtene å forsvare seg på. Det
+vil gi veldig ulike krav til oppmerksomhet, type oppmerksomhet, som er ganske innlysende
+egentlig. At i et soneforsvar er du er nødt til å forholde deg til medspiller og ball som
+legger retningslinjer for hvor fokuset ditt skal være. Medspiller-biten gjør også at et
+soneforsvar kan være enklere å fokusere på sine oppgaver gjennom treningsarbeid. Altså
+du kan trene opp gode relasjoner til dine medspillere, også et godt fokus. Mens markering
+kanskje vil ha med seg større utfordringer der og det, når kanskje er mer uoversiktlig når
+det er mer uforutsigbart. Altså det du skal forholde deg til kan du ikke drille inn på samme
+måte. Nå snakker jeg om stereotypien av at markeringsforsvar. Vet ikke i hvilken grad det
+ekstreme markeringsforsvaret blir gjennomført nå, det vet du bedre enn meg. Men i
+ekstrem forstand er det veldig krevende der og da, og krevende i forhold til
+treningsarbeidet. Men på en annen side kan du si at et rent markeringsforsvar har et
+ganske singulært fokus. Det er den ryggen du skal følge. Det er jo lettere. Så om det er
+vesentlige forskjeller i forhold til grunnleggende prinsipielle krav, det er jeg usikker på
+egentlig. Men det er forskjellighet i det, som jeg tenker kommer til uttrykk gjennom
+konstruksjon, feedback og coaching.
+Ser du noen fordeler eller ulemper ved mannsmarkering eller soneforsvar sett fra ditt
+perspektiv?
+Prinsippene for markering tenker jeg er enklere enn prinsippene for soneforsvar. Så om du
+ikke har innlæring, tenker jeg markering er greit. Men man ønsker jo innlæring, og da
+tenker jeg soneforsvar kan ha en del fordeler som sagt i forhold til øving også videre. Også
+kommer det emosjonelle inn, motivasjonelle, det er jo noe veldig greit med det å ha en
+mann å stoppe. Det kan være at det kan trigge en del dypere, dyriske instinkter i deg. I
+forhold til kampen mellom deg og en annen person, tvekampen. Tydeligheten i det kan
+trigge en del instinkter. Det er noe med konkurranseinstinktet i oss, ved å stoppe en
+person. Der er det en kraft som er ganske kul, og som kan ha noe i seg. Den vil man ikke få
+i et soneforsvar på samme måte. Der man i tysk tradisjon har kampen mellom meg og en
+annen, så utvikles det en del ting knyttet til dette. Da legger du all ære i at han ikke skal
+lykkes. Der ligger det en kraft, og det kan være at vårt veldig entydige fokus på
+soneforsvar, at vi da har gått glipp av den instinktuelle æressaken. Nå bare spekulerer jeg,
+jeg har ikke tenkt så mye på dette før. Men det kan være en årsak til at vi sliter med å
+utvikle gode førsteforsvarere, for eksempel. Der virker det som om vi henger etter på noe,
+når vi ser på landslagene våre. At vår nasjonale tradisjon på spillestil har begrenset en del
+individuelle ferdigheter, som gjør at vi ikke får gode nok individer etter internasjonal
+standard. Det er veldig interessant.
+
+
+61
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+Flere lag bruker mannsmarkering som en del av en spesifikk kampplan. I disse tilfellene
+fokuserer man på motstanderen i relativt stor grad, og viser stor respekt for
+motstanderens egenskaper. Tror du fokuset på motstanderen kan ha så stor innvirkning
+på egen prestasjon at gevinsten ved mannsmarkeringen forsvinner?
+Det er å gi å ta på et vis, så er det nyanser på hvordan disse tingene gjøres. Det å fokusere
+på en motstander i seg selv vil ikke gi de negative effektene. Altså du kan fint snu
+perspektivet på motstander, og fokusere masse på motstander fordi vi skal slå
+motstander, tenker jeg. Mourinho er jo et eksempel på dette. Han er vel den i verden som
+er mest kjent for å fokusere på motstander. Men jeg tror ikke han bygger opp
+motstanderen til å bli en uslåelig sak foran hver kamp. Tror heller det er motsatt, at han
+river dem fra hverandre i analysene. Og at han peker på hvor våre styrker er så klare og så
+gode, og hvordan de griper inn i en motstander og kan avgjøre kampen til sin fordel. Så
+det handler mye om hvordan man gjør det, samtidig så har jeg registrert at det som
+sikkert er grunnlaget for spørsmålet, nemlig at trenere og spillere kan være redde for å
+snakke om motstanderen. Og jeg har respekt for at det ligger noe i det også. At det ligger
+en erfaring i at når man snakker for mye om motstanderen så kan vi snakke oss selv litt
+ned, eller bli litt blendet av motstanderen. Så det ligger en mental sak der, det ser jeg.
+Men så vil nok jeg da, litt som jeg sier, tenkt på det på en annen måte. Tenkt at det er
+noen potensielle risikoer ved det, men de kan vi overvinne ved å snakke om motstanderen
+på den og den måten. Så det handler da, tenker jeg, om å bygge opp analysen av en
+motstander til å anskueliggjøre dem, og rive dem fra hverandre for å si det på en ikke-
+akademisk måte. Og det tenker jeg er mulig.
+Er det mulig å få spillerne til å føle at de kontrollerer kampen i etablert forsvar? Eller er
+man avhengig av ballen for å føle at man kontrollerer kampen?
+Jeg føler litt at alle de spørsmålene her er litt fotballtrener-rettet, og en god fotballtrener
+vil nok kunne gi bedre svar enn meg. Kontroll tenker jeg kan sees på som et fenomen på
+flere områder. Hvis kontroll er å kontrollere hvor på banen ballen er, hva folk ser på og
+folk ser jo på ballen, så er det vanskelig å føle full kontroll uten å ha ballen. Da vil
+nødvendigvis motstanderen ha den. Men du kan jo stoppe motstanderen fra å komme inn
+i en del rom også videre, og således kontrollere. Altså ved å utøve et etablert forsvar godt
+vil du jo kunne nekte motstanderen en del rom, og nekte dem å komme en del plasser
+som gjør at du allikevel tar kontrollen. Men det er mer sånn posisjonell kontroll, eller
+ballrelatert kontroll. Mental kontroll kan være noe helt annet. Det kan ha med følelsen av
+å kunne kontrollere utfallet. Hvis du leder 1-0, og ligger godt tilbake i ett potte tett forsvar,
+så kan du ha fullstendig følelse av kontroll når motstander ikke kommer gjennom. Så jeg
+tenker at kontroll har noe med hvor godt man utfører det. Høy kompetanse på noe gir høy
+følelse av kontroll. Også er det måten man utøver det på igjen. Det er interessant med
+høyt og lavt press i dette her. Det å ligge veldig lavt vil nok gi en mindre følelse av å ha
+kontroll fordi man er mindre passive, mens det å presse høyt og stadig jage ballen for å
+vinne den automatisk kan gi større følelse av kontroll igjen. Men så kan det også være en
+illusjon, fordi man kan ha kontroll i lavt press også. Det å ikke gi etter for følelsen av at
+man må gjøre noe kan være veldig smart, fordi det gir en større reel kontroll, en det å la
+
+62
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+seg lokke til å jage ball. Jeg synes det også er interessant i dette, om hvordan man kan bli
+grepet av situasjoner og grepet av muligheter og risikoer i spillet, slik at man kan bli lurt ut
+i noe. Det gir egentlig uttrykk for stress. Vi håndterer dårlig følelsen av å ikke ha kontroll,
+og det er ikke spesielt lurt. Men hvis man kan avgi den følelsen av å kontroll, men allikevel
+ha kontroll vil dette være bedre.
+Er det noen forskjell på innlæring av forsvarsorganisering kontra angrepsorganisering?
+Jeg tenker vel at en stereotypisk forskjell kan være at majoriteten av trenerne og lag liker
+å ha flere prinsipper som styrer forsvarsspillet enn angrepsspillet. Hvertfall hvis vi
+forutsetter ett soneforsvar, som man strukturer godt, mens man har få og gode prinsipper
+for hvordan man spiller offensivt. Da skal vi sprudle litt mer, og det skal være rom for mer
+kreativitet. Mange vil også si at man har så gode individuelle kvaliteter at man kan spille
+på det. Så med det sagt, vil tradisjonelt sett innlæring og organisering være annerledes.
+Det vil være mer åpent offensivt enn defensivt. Det er interessant at dette faktisk skjer, og
+at det er slik vi ser på det. Offensivt så scores det mål, og sånn mentalt sett er det et stort
+pluss. Det er noe tiltrekkende ved det å score mål. I motivasjonspsykologi snakker vi om
+approach-motivasjon, og avoidance-motivasjon. Så angrep er på mange måter approach,
+hvor man ønsker å oppnå noe. Mens defensivt er det mer implisitt at man vil unngå noe.
+Og de to har ganske store konsekvenser for vår motivasjon. Approach-motivasjonen er
+forbundet med langt mer positive konsekvenser enn avoidance-motivasjonen. Avoidance-
+motivasjonen kan trigge eller føre til prestasjonsangst og konsentrasjonsforstyrrelser fordi
+du blir redd for å mislykkes. Og det ser man tydeligst med keeperen, som blir målt på mer
+fravær av feil enn hvor stor matchvinner han er til syvende og sist. Keeper vil jo også være
+matchvinner, så du har det der også, men du kan være matchvinner i 80 minutter, men så
+gjør du en stor feil og det kan være kjørt. Så det ligger litt i naturen til forsvarsspill, og i
+innlæring at det er forskjellige krav. En spiss vil det være motsatt for. Spissen kan bomme
+på fire store målsjanser, men scorer på den femte også er det du som er på forsiden av
+avisen. Og det gir en helt annen type mentaliteten, hvor man på et vis kan komme unna
+med mye mer. Alt jeg sier nå er spekulativt, det er ikke noe vi har forsket på. Det er litt
+synd, for det er viktige spørsmål. Det jeg har sett noe på er dette med
+approach/avoidance-motivasjon, og det er kjent at man presterer mye bedre med
+approach-motivasjon. Dette har jeg for eksempel sett i forskningen min rundt straffespark.
+Man kan også knytte dette tilbake til markerings- og soneforsvar. Muligheten for å bli
+syndebukk i markeringsforsvar kan paralysere deg fordi du skal prestere under stort press,
+og det kan hemme deg på den måten. Men på den andre siden er det ingenting som kan
+mobilisere mer energi enn det. «Hvis jeg nå ikke tetter igjen det rommet som er bak meg,
+så får jeg skylden», det kan være en slik tanke som gjør at du yter 100% og ikke 98%. Dette
+har vi også forskning på, ikke i fotball men på syklister blant annet. Der ser vi at man gir
+det lille ekstra der man er i ferd med å bli passert. Man gir det lille ekstra når det er mye
+tilskuere, ikke fordi man kan oppnå så mye mer, men fordi man har en mulighet til å
+dumme seg ut.
+
+
+
+
+63
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+Hvor viktig vil du si det er for en spillers- og et lags selvtillit/trygghet å holde nullen? Kan
+dette påvirke offensive prestasjoner?
+Det er litt hva du gjør det til selv. Gode trenere, lag og enkeltspillere vil se på situasjoner
+som utfolder seg som muligheter hele veien. Når en er ferdig med en kamp handler det
+om å bruke den kampen for alt det er verdt. Dersom man får seks mål imot seg sist kamp,
+kan det være mindre å ta med seg derfra til neste kamp. På den andre siden kan det være
+det 0-6-resultatet kan skape masse energi på et eller annet, eller masse fokus på et eller
+annet. Poenget er at hver situasjon kan brukes. Vil en spiss bry seg om man har holdt
+nullen? Ja, det vil han jo fordi det påvirker resultatet i helhet, men han vil jo bry seg mye
+mindre enn en keeper. En keeper vil knytte veldig mye av sin stolthet og identitet til hvor
+mange mål han har sluppet inn, og det er jo noe magisk ved å holde nullen for keeper. Og
+for en bakre 4’er kan det også være noe spesielt knyttet til det, så blir det mindre og
+mindre etter hvert som man går fremover på banen. Men uansett, når du har holdt nullen,
+så kan man profitere mye på dette. Også for å score fremover. Den tryggheten og
+selvtilliten som knyttes til det å vite at man er solide bakover, kan overføres til
+angrepsspill. Vi vet det fra forskning om selvtillit, selv om selvtillit er veldig
+situasjonsbestemt. Det er ikke slik at selvtillit i en situasjon naturlig overføres til en annen
+situasjon. Men med det sagt, er det slik at man kan hente selvtillit fra en situasjon til en
+annen. Du kan aktivt hente selvtillit fra noe en har opplevd, eller noe andre har opplevd.
+Så en spiss kan hente selvtillit fra egen keeper som har prestert helt fantastisk. Som spiss
+vil jeg da bli inspirert av dette, og dra til meg det fordi vi spiller på samme lag. Han har
+spilt en utrolig kamp, og det samme har det bakre 4’eren. Det tar jeg litt av, og vi spiller på
+samme lag. Mange gode trenere vil effektivt og kreativt profitere på slike mekanismer.
+Noen trenere velger målsetningen «å vinne ballen» når man er i etablert forsvar, mens
+andre velger målsetningen «å nekte scoring». Kan spillernes fokus/motivasjon endres i
+forhold til hvilken målsetning en velger?
+Ja, det kan det er første svar. Jeg har vært innom litt på hvordan det kan gjøres. Det å
+vinne ballen er en mer positiv setning. Men ikke undervurder den produktive kraften i en
+skikkelig god ydmykelse. Det å være sinnsykt redd for at noe skal skje. Der ligger det mye
+energi, men det må jo balanseres varsomt. Men da spiller du på frykt, spiller på unngåelse.
+Paranoia kan være helt greit, så lenge den er produktiv. Frykten kan være bra om den drar
+deg i riktig retning. Jeg har jobbet med spillere, bare de siste par årene, som lever veldig
+greit med en slik frykt for ydmykelse. De spiller bedre da, enn når det er mye positivt
+rundt de andre tingene de kan oppnå. Så man henter frem noe ekstra, dette her med
+moren som henter frem superkrefter om barnet er i fare. Det er nok mer en myte enn
+realitet, men forskningen har pekt på at det er kraft i en del slike situasjoner. Så det er litt
+både og, så for en trener må man nok være lur når man velger vei. Man må være
+produktiv og positiv uansett hvilken variant man velger. Det er nok også lurt å
+individualisere det. Det vil også være situasjonsspesifikt. Om man mister ballen halvveis
+inne på motstanderens halvdel, og går for en gjenvinning så er jo det å vinne ballen
+viktigere enn å hindre scoring. Mens når ballen ligger fri etter en corner på egen 5’meter,
+
+
+64
+UEFA A-lisens 2015/16                                                  Ole Martin Nesselquist
+
+
+handler det mer om å hindre scoring. Det mest grunnleggende er nok å hindre scoring i
+henhold til de første spilleprinsippsmodellene tenker jeg.
+Defensiv persepsjon blir lite snakket om i norsk fotball. Er det forsket noe på dette
+internasjonalt, og hvilke trender er eventuelt funnet?
+Det er ikke forsket kjempe mye på det, men det er forsket litt. På 90-tallet ble det gjort en
+del laboratoriestudier, som har noen metodemangler. Men det er noen konklusjoner der
+som vi allikevel kan ta med oss. De satte på forsvarsspillere, mye midtstoppere, såkalte
+«Eye-trackers» som målte øyets bevegelser og øyets fokus, og plasserte spillerne foran en
+stor skjerm der de viste videobilder fra en kamp som var filmet fra bak mål. Så stoppet de
+bildet når en ballfører fikk ballen, så ble du bedt om å angi hva du ville gjøre videre, hvor
+ballen ville ende også videre. Så fikk du målinger på hvordan øyet fungerte når man gjorde
+riktige valg kontra feil valg. Det man da ser er at de beste spillerne, de ser langt mer på
+områder vekk fra ballen. Når det er en ballfører som kommer mot deg, ser du like mye på
+bevegelser rundt deg som du ser på ballfører. Mens mindre gode spillere ser mer på
+ballen. I en studie som gikk på volleyball, som også kan være relevant, så ser man at de
+beste spillerne i forsvar for å kunne registrere effektiv det som skjer, ser på områder der
+det i utgangspunktet ikke skjer noe, men hvor det er lurt å fokusere. For hvis jeg ser dit
+kan jeg se det som skjer rundt. Det kan være to spillere som står et stykke fra hverandre,
+så da ser jeg på området midt mellom for å se hva begge gjør. De kaller dette for
+Interevent Fixation, når de fokuserer på noe mellom to eventer. Vi har også gjort studier
+hvor vi har filmet midtstoppere i kamp. Det er en masteroppgave levert av Niklas Nyland,
+han skrev en oppgave om persepsjon blant midtstoppere. Han fant ikke signifikante
+forskjeller hele veien, men han fant noen. Disse gikk på at Premier League-midtstoppere
+er mer aktive i sin orientering, altså de søker mer når de forsvarer seg mot innlegg og de
+kroppsorienterer seg mer gunstig, enn midtstoppere på reservelaget til et juniorlag. Så det
+er noe der som tilsier at midtstoppere på høyere nivå orienterer seg oftere enn
+midtstoppere på lavere nivå.
+
+
+
+
+65
+UEFA A-lisens 2015/16                                                     Ole Martin Nesselquist
+
+
+
+Sammendrag
+
+UEFA A-lisensoppgave 2015/16
+Ole Martin Nesselquist
+Hvordan organisere et 1-4-2-3-1-lag i etablert forsvar?
+
+Dette er en kvalitativ oppgave basert på kampanalyser og mine observasjoner. Veien har
+vært spennende, lærerik og givende når jeg har fått mer innsikt og kunnskap om de
+forskjellige måtene å organisere et lag på i etablert forsvar.
+
+Problemstillingen min «Hvordan organisere et 1-4-2-3-1-lag i etablert forsvar?» er valgt på
+grunn av min interesse for å dykke nærmere i temaet. Det finnes mange forskjellige måter
+å organisere laget på i etablert forsvar, og i denne formasjonen. Jeg har tatt utgangspunkt
+i Chelsea FCs kamper gjennom 2015/16-sesongen, og analysert deres kamper både på PC
+og live i England. Gjennom observasjon, drøfting, samtaler, lesestoff og intervjuer har jeg
+fått god oversikt over hvordan Chelsea har organisert sitt lag.
+
+Dette har jeg igjen sammenlignet med mine egne tanker og erfaringer, og ikke minst andre
+internasjonale lag for å finne ut hvordan jeg ønsker å organisere mitt 1-4-2-3-1-lag i
+fremtiden. «Mannsmarkering eller soneforsvar?» er et sentralt begrep gjennom
+oppgaven, og store deler av oppgaven handler om implementering av disse to forskjellige
+stilene i din egen organisering av laget. Og hvilke individuelle egenskaper trenger man
+egentlig for å lykkes? Og hvilke begrensninger legger de individuelle egenskapene laget
+ditt besitter?
+
+Jeg startet oppgaven med kampanalyser og notater. Oppgaven har tatt form gjennom
+samtaler, drøfting og intervjuer. Intervjuene er gjort til slutt for å få relevante nok
+spørsmål, som kan legges inn i oppgaven. Hva tenker Haakon Lunov (Utviklingssjef
+Strømsgodset Toppfotball), med fortid i Everton FC, ODD Grenland og Celtic FC om
+etablert forsvar, organisering av lag og forholdet mellom mannsmarkering og soneforsvar?
+Og hva kan Geir Jordet, Norges fremste ekspert på mentale prosesser i fotball, fortelle om
+det mentale aspektet ved etablert forsvar, mannsmarkering og sone?
+
+
+
+
+66
+

@@ -1,0 +1,1616 @@
+FORORD
+
+
+
+
+Jeg har forkastet flere mulige temaer og problemstillinger, før jeg landet på dette valget.
+Det er et tema som jeg har lyst til å lære mer om, og jeg håper også at vi som lag kan dra
+nytte av funnene fra dette prosjektet.
+
+Etter at jeg hadde funnet et overordnet tema, brukte jeg mye tid på å samle inn relevant
+data. Jeg har definert retningslinjene som vi jobber etter i vårt lag, sammen med
+hovedtrener. Jeg har også sett på hvordan internasjonale topplag løser de samme
+utfordringene, siden det er interessant å se hvordan beste praksis på området er. Utover
+høsten ble tema og problemstilling konkretisert mer detaljert.
+
+Jeg har lært mye om temaet, uten at jeg sitter igjen med noe fasit. Det er flere måter å
+løse forskjellige situasjoner på, som innebærer ulike plusser og minuser. Det er sjelden
+at man går så i dybden av slike fotballfaglige tema, med en slik analytisk inngang. Ofte
+blir det mye synsing, der subjektive oppfatninger veier tyngst.
+
+Selve oppgaveskrivingen har også vært lærerik. Det er mange år siden jeg har jobbet på
+denne måten, så oppbyggingen og gjennomføringen av oppgaven har gitt meg noen
+uvante utfordringer.
+
+Jeg vil til slutt takke TUIL for at jeg fikk sette av tid til å gjennomføre både kurset og
+denne oppgaven. En spesiell takk til resten av trenerteamet og veileder Steinar Høgtun,
+som har bidratt i faglige diskusjoner.
+
+
+
+
+Gaute Ugelstad Helstrup
+
+Tromsø, 07.02.2011
+
+
+
+
+                                                                                             1
+1 BAKGRUNN FOR OPPGAVEN ......................................................................................................3
+2 PROBLEMSTILLINGER .................................................................................................................5
+   2.1 Tema.......................................................................................................................................................... 5
+   2.2 Problemstilling...................................................................................................................................... 5
+   2.3 Underproblemstillinger ..................................................................................................................... 5
+   2.4 Hvorfor disse problemstillingene? ................................................................................................ 5
+3 METODE ............................................................................................................................................7
+   3.1 Studie av internasjonale toppkamper .......................................................................................... 7
+   3.2 Metodebruken i oppgaven ................................................................................................................ 7
+   3.3 Feilkilder ................................................................................................................................................. 7
+   3.4 Definisjoner ............................................................................................................................................ 9
+   3.4.1 Definisjon av sonene som innleggene blir slått fra .............................................................. 9
+   3.4.2 Definisjon av sidene som innleggene blir slått fra............................................................. 10
+   3.4.3 Definisjon av sonene foran mål (når innlegget blir slått fra motstanders høyre
+   side) ............................................................................................................................................................... 11
+   3.4.4 Definisjon av farlig sone foran mål.......................................................................................... 12
+4 Teori .............................................................................................................................................. 13
+   4.1 De 4 dimensjonene ........................................................................................................................... 13
+   4.2 Retningslinjer for innlegg høyt i banen ..................................................................................... 15
+   4.3 Utfordring 1 ......................................................................................................................................... 17
+   4.4 Utfordring 2 ......................................................................................................................................... 19
+5 Resultater/diskusjon ................................................................................................................ 20
+   5.1 Slik var kampene ............................................................................................................................... 21
+   5.2 Innlegg i mot i TUILs 8 siste kamper i 2010............................................................................. 25
+   5.3 Kvantitativ analyse av innlegg mot etablert i TUILs 8 siste kamper i 2010 ................. 26
+   5.4 Kvalitativ analyse .............................................................................................................................. 34
+   5.4.1 Sarpsborg 08 mål ........................................................................................................................... 34
+   5.4.2 Sarpsborg 08 sjanse ...................................................................................................................... 36
+   5.4.3 Bodø Glimt mål ............................................................................................................................... 39
+   5.5 Oppsummering av analysen - konklusjon ................................................................................ 42
+SAMMENDRAG ................................................................................................................................ 45
+
+
+
+
+                                                                                                                                                                        2
+1 BAKGRUNN FOR OPPGAVEN
+Vi har slitt i bunnen av tabellen i løpet av året og har hatt mange kamper der
+motstanderne har vært det førende laget. Det har blant annet ført til at vi har fått mye
+innlegg mot oss i flere av kampene. Til dels har vi løst dette bra, men jeg har hatt en
+oppfatning av at vi har fått større problemer utover i kampene. Jeg er usikker på om det
+skyldes at vi blir slitne mentalt og fysisk eller/og at det skyldes at motstanderne
+risikerer og satser mer på slutten av kampene.
+
+I de 20 første kampene fikk vi 7 baklengsmål mot oss på innlegg, når vi var i etablert
+forsvar. Det var en del feil som gikk igjen i disse situasjonene, selv om vi hadde god tid til
+å gjøre de riktige valgene. Enten var vi for få spillere i de farlige sonene i boksen, eller så
+var vi ikke tett nok oppi motspillerne. Flere ganger sentrerte vi for mye rundt ballen, når
+motstanders lag hadde ballen i innleggsposisjon. Andre ganger tok vi ikke de
+nødvendige løpene tidlig nok inn i egen boks, da spesielt i midtre sone foran mål og ute i
+returrom. Samtlige mål vi fikk mot oss på innlegg i første del av sesongen, kan relateres
+til noen av de nevnte punktene. Alle målene kom fra midtre eller bakre sone, samt ute
+fra returrom. 6 av de 7 målene vi slapp inn i denne perioden kom etter pause, noe som
+forsterker min påstand om at vi ”slipper” opp på kvaliteten i forsvarsspillet utover i
+kampene.
+
+På toppnivå har utviklingen vært at lag har blitt flinkere til å forsvare seg mot innlegg
+når de er i etablert forsvar, noe som har ført til at mange lag velger andre valg i slike
+situasjoner(les: innspill eller vending av spill). Lagene har både gode individuelle
+egenskaper i duellstyrke og kjapp forflytningsevne, samt at mange har fått enda bedre
+struktur i denne delen av spillet.
+
+Min påstand er at vi er gode, men helt klart kan bli bedre i denne fasen av spillet.
+Individuelt har vi god duellstyrke, mens valgene vi tar ikke alltid er like gode. Det ser
+også ut til at vi ”håper” det går bra utover i kampen, og derfor ikke fullfører de
+arbeidsoppgavene vi skal utføre. Strukturelt vingler vi, og kanskje har vi ikke
+automatisert grunnprinsippene i stor nok grad. Vi har heller ikke klart å forholde oss
+godt nok til spill-motspill i kampdimensjonen. Vi vil helst være i overtall inne i egen
+boks, noe som gjør at vi må handle forskjellig ut i fra hvor mange spillere motstanderen
+sender opp. Det fører til ulike oppgaver for våre spillere, avhengig av hva motstanderen
+foretar seg.
+
+                                                                                              3
+Jeg har valgt å avgrense oppgaven, ved kun å se på innleggsituasjoner som oppstår i
+etablert(eller delvis etablert spill). I overkant av 90 % av tilfellene kom inn under den
+kategorien, mens noen få tilfeller kom i situasjoner etter overgangssituasjoner. Målet
+mitt var å se på hvordan vi løste oppgavene våre der vi i utgangspunktet var i god
+balanse og hadde alle forutsetninger for å nekte målsjanser i mot på innlegg. Hvorfor
+lyktes vi eller hvorfor lyktes vi ikke? Er det noe vi kan lære av det og ta med oss videre i
+treningsarbeidet?
+
+Når det gjaldt metode, valgte jeg å bruke både kvantitativ og kvalitativ videoanalyse. Jeg
+gikk gjennom de 8 siste kampene våre i sesongen 2010, der jeg registrerte alle relevante
+data på samtlige innleggssituasjoner. I tillegg ønsket jeg å gå mer i dybden av enkelte
+angrep, for å forstå sammenhengen mellom detaljer. Disse metodene samlet, ga meg et
+bra utgangspunkt for å forstå helheten bedre.
+
+
+
+
+                                                                                               4
+2 PROBLEMSTILLINGER
+
+2.1 Tema
+Innlegg i mot (- i kampen mot nedrykk).
+
+Har vi kontroll på farlige områder foran eget mål i etablert(eller delvis etablert) forsvar,
+og forsvarer vi oss like godt gjennom hele kampen?
+
+Med utgangspunkt i kampanalyse av TUILs 8 siste kamper i Adeccoligaen 2010.
+
+
+
+
+2.2 Problemstilling
+Hvilke områder i farlig sone har vi kontroll på, og hvilke har vi ikke kontroll på? Er vi
+like gode gjennom hele kampen?
+
+
+
+
+2.3 Underproblemstillinger
+       Er det spesielle situasjoner vi har problemer med?
+       Er det noen soner foran mål som vi har mer problemer med enn andre?
+       Har vi kontroll når innleggene blir slått fra farlig sone?
+       Har vi kontroll når innleggene blir slått fra ”ufarlig” sone?
+       Klarer vi å justere oss etter motstanderens angrepsspill, f.eks. hvor mange de
+       angriper med?
+       Er det forskjell sett ut i fra om vi leder, ligger under eller at det er uavgjort?
+       Hvor ofte er vi i posisjonell balanse?
+       Hvor ofte er vi numerisk balanse?
+       Hva blir sluttproduktet av innlegget? Hvor mange mål, målsjanser og
+       avslutninger får vi mot oss? Og hvor kommer disse fra?
+       Hvordan spiller de ulike dimensjonene inn? Det individuelle, strukturelle,
+       relasjonelle og kampdimensjonen.
+
+
+
+
+2.4 Hvorfor disse problemstillingene?
+I mine øyne:
+                                                                                            5
+       Selv om vi i utgangspunktet har nok spillere ”hjemme”, har vi ikke alltid nok
+       spillere i farlige soner. Noen ganger blir for mange spillere lokket ut i presset
+       rundt ballfører på kant, noe som fører til at vi blir få igjen foran mål. Andre
+       ganger slurver vi i posisjonsspillet. Midtbanespillere blir trekt mot ball og
+       kantspillere blir stående og se på det som skjer, uten å ta ansvar for f. eks.
+       returrom.
+       Stopper på ballside skal hovedsakelig ”sone” ut i fra første stolpe. Der har vi også
+       noen definisjonsproblemer på enkelte utfordringer som oppstår. Skal
+       sonespilleren ha ansvar for motstander som kommer inn i sin sone, eller skal han
+       kun søke ball? Det kan bli et problem om denne motstanderen lurer seg derfra og
+       inn i sonen bak, der motsatt midtstopper allerede har en motspiller å markere. Vi
+       kan også få et problem i ”midtsonen” når midtbanespillerne ikke tar jobben hele
+       veien hjem.
+       Vi er flinkere i starten av kamper, enn vi er i slutten av kampene. Kommer det av
+       at vi blir slitne mentalt/og eller fysisk og derfor ikke gjør arbeidsoppgavene
+       våre? Kommer det av at vi bytter inn spillere som ikke kjenner arbeidsoppgavene
+       eller medspillerne sine godt nok? Kommer det av at motstanderen risikerer mer
+       på slutten av kampene og sender frem flere spillere?
+
+Når jeg begynte å jobbe med denne oppgaven hadde jeg et utgangspunkt på at det
+hovedsakelig var strukturelle feil som gjorde at vi slapp motstanderne til. Er det der
+problemet ligger? Er det mer individuelle ferdigheter som er avgjørende? Er
+spill/motspill i kampdimensjonen viktig? Må man se spillet i lys av alle dimensjonene, og
+at det dermed blir vanskelig å isolere ut en enkelt dimensjon som avgjørende?
+
+
+
+
+                                                                                           6
+3 METODE
+
+3.1 Studie av internasjonale toppkamper
+Jeg har sett kamper med lag som Chelsea, Manchester United og Barcelona, for å se
+hvordan de forsvarer seg på innlegg i mot.
+
+3.2 Metodebruken i oppgaven
+Jeg har valgt å bruke kampanalyse av våre 8 siste kamper i Adeccoligaen i 2010, som
+utgangspunkt for drøftingen av oppgaven. Dette var en viktig fase i sesongen for oss, og
+vil nok gi et bra bilde på hva vi står for. I løpet av denne perioden fikk vi 125 innlegg mot
+oss mot etablert forsvar, noe som gjør at jeg har samlet inn nok data til å vurdere
+funnene på en valid måte.
+
+Jeg har valgt å bruke både kvantitativ og kvalitativ analyse som metode.
+
+   1. Gjennom kvantitativ metode samlet jeg inn data på hvordan samtlige
+       innleggsituasjoner i de 8 siste kampene så ut. Da fikk jeg for eksempel et bilde på
+       i hvilke tidssoner innleggene ble slått i, og om de kom fra farlig eller ufarlig sone.
+       Jeg fikk også se om vi hadde numerisk og posisjonell balanse, og hvilke soner
+       dette gjaldt i. Hvordan så det ut når man koblet dette opp mot avslutninger,
+       målsjanser og mål?
+
+
+   2. I den kvalitative analysen, valgte jeg ut enkelte av situasjonene som førte til
+       baklengsmål og sjanser i mot. Da kunne jeg gå mer i dybden, for å få en større
+       forståelse for hva som hadde skjedd i den aktuelle situasjonen. Det er alltid flere
+       faktorer som henger sammen, og det er lettere å se denne sammenhengen når
+       man går mer i dybden.
+
+3.3 Feilkilder
+1. Jeg har for lite tallmateriale for visse deler av datainnsamlingen. For eksempel fikk vi
+2 scoringer i mot, 8 målsjanser i mot og 14 avslutninger i mot på disse 125 innleggene.
+Selv om dette nok gir en viss bakgrunn for å mene noe om hvor og hvorfor vi slipper
+motstanderen til, så hadde det blitt større validitet desto større mengde med data jeg
+kunne analysere.
+
+
+
+
+                                                                                                7
+2. Jeg har valgt å konsentrere meg om innlegg, der vi i utgangspunktet er i balanse og per
+definisjon i etablert forsvar. Det er ikke alltid lett å sette et klart skille mellom
+overgangsspill og spill mot etablert, og dermed blir min subjektive vurdering
+avgjørende. De fleste angrep starter med brudd pluss/minus midtstreken, der
+forsvarende lag er i delvis balanse. Disse situasjonene har jeg valgt å ta med i
+undersøkelsen.
+
+3. På enkelte av videoene vises det for lite av banen til at jeg får med meg alt jeg trenger
+av info. Likevel får jeg et bra bilde på hvordan situasjonen har vært sekundet før, med å
+lese bevegelsene til spillerne. I over 90 % av tilfellene har jeg bra nok oversikt til å se alt
+av info jeg trenger.
+
+4. Jeg har valgt å dele banen opp i ”farlige” og ”ufarlige” innleggssoner. Dette skillet
+gjøres for å dele opp innsamlet materiale i forståelige data. I virkeligheten er det
+nødvendigvis ikke så enkelt som at et innlegg fra 15 meter er fra ”farlig” sone, og at
+innlegg fra 17 meter er fra ”ufarlig” sone. Der vil flere andre faktorer spille inn, som
+avgjører klimaet inne i boksen. På samme måte har jeg delt inn ”farlig” og ”ufarlig”
+område inne i boksen og delt dette området inn i ”første”, ”midtre”, ”bakre” og
+”returrom”. De samme momentene gjelder for disse inndelingene.
+
+5. På tolkningen av data, spiller min subjektive forståelse inn. Det kan være at jeg tolker
+data slik jeg ønsker at den skal se ut, for å støtte opp under mine påstander og
+hypoteser. Det er mulig at andre ville ha tolket samme data på en annen måte enn jeg
+har gjort, om man hadde hatt et objektivt syn på funnene.
+
+
+
+
+                                                                                               8
+ 3.4 Definisjoner
+
+
+
+ 3.4.1 Definisjon av sonene som innleggene blir slått fra
+
+
+
+
+        1                                                                            1
+
+        0                                                                            0
+0 = ”Ufarlig” sone. I lengde strekker området seg fra 16-meterstreken og ned til 35 meter fra
+vår dødlinje. I bredde strekker området seg fra sidelinjen, til 4 meter innenfor 16-
+meterstreken.
+1 = ”Farlig” sone. I lengde strekker området seg fra dødlinjen til 16-meterstreken. I bredde
+går området fra sidelinjen til 4 meter innenfor 16-meterstreken på det laveste punktet. På det
+høyeste punktet går området til skjæringspunktet mellom 5-meter og dødlinje.
+Totalt sett skapes det flere målsjanser og mål, når innleggene blir slått fra ”farlig” sone. Derfor
+er det interessant for meg å se hvordan vi forsvarer oss i de ulike situasjonene, og om vi
+slipper til flere mål, målsjanser og potensielle målsjanser når innleggene kommer fra ”farlig”
+sone.
+
+
+                                                                                             9
+   3.4.2 Definisjon av sidene som innleggene blir slått fra
+
+
+
+
+     v                                                                                 h
+
+h = Innlegg som blir slått fra motstanders høyre side, og da altså vår venstre side. Området
+dekker både ”farlig” og ”ufarlig” sone, som definert tidligere.
+v = Innlegg som blir slått fra motstanders venstre side, og da altså vår høyre side.
+For meg er det interessant å se om det er forskjeller på hvordan vi forsvarer oss, avhengig om
+innleggene blir slått fra venstre eller høyre side.
+
+
+
+
+                                                                                           10
+ 3.4.3 Definisjon av sonene foran mål (når innlegget blir slått fra motstanders høyre side)
+
+
+
+
+                                      3         2         1
+
+
+
+
+                                                 4
+
+
+
+
+1 = Første sone strekker seg fra dødlinjen til straffemerket i lengde, og 1 meter innenfor
+venstre(første) stolpe og ut til 5-meteren i bredde.
+2= Midtre sone strekker seg fra dødlinjen til straffemerket i lengde, og 1 meter innenfor
+venstre stolpe til 1 meter innenfor høyre stolpe i bredde.
+3 = Bakerste sone strekker seg fra dødlinjen til straffemerket i lengde, og 1 meter innenfor
+høyre(bakerste) stolpe og 5-meteren i bredde.
+4 = Returrommet strekker seg fra straffemerket til 20 meter fra dødlinjen i lengde og dekker
+hele 5-meteren i bredde.
+Når innlegget blir slått fra motsatt side, bytter definisjonene for sone 1 og 3.
+
+
+
+
+                                                                                              11
+ 3.4.4 Definisjon av farlig sone foran mål
+
+
+
+
+                                             f
+
+
+f = Området strekker seg fra dødlinjen ut til 20 meter i lengde, og i bredde 5-meteren.
+Ved 9 av 10 mål, kommer avslutningen fra denne sonen. Derfor er det interessant for meg å se
+hvor mange spillere motstanderen angriper med i denne sonen, og hvor mange vi forsvarer
+oss med i samme sone.
+
+
+
+
+                                                                                          12
+4 Teori
+
+
+
+4.1 De 4 dimensjonene
+Fotballferdighet er hensiktmessige handlingsvalg og handlinger for å skape og utnytte
+spillsituasjoner til fordel for eget lag.
+
+
+
+
+Fotballferdighet er et sammenfattende begrep for hva(taktikk) man gjør og
+hvordan(teknikk) man utfører noe. Tidligere var begrepet mer knyttet til den tekniske
+utførelsen, mens det etter hvert har blitt like viktig med det taktiske valget. For å slå en
+god pasning må man altså definere hvilket valg som er det mest hensiktsmessige i
+forhold til med- og motspillere og også utføre pasningen teknisk korrekt. Den taktiske
+delen består i å oppfatte-vurdere-bestemme, mens den tekniske delen er selve
+handlingen.
+
+
+
+
+Fotballferdighet består av fire ulike dimensjoner som er knyttet inn i hverandre: den
+individuelle, den relasjonelle, den strukturelle og kampdimensjonen.
+
+
+
+
+Den individuelle dimensjonen går på enkeltspillerens delferdigheter som pasnings-,
+drible-, takle-, avslutnings og headeferdigheter. Enkeltspilleren blir hele tiden satt i
+situasjoner som han må oppfatte, vurdere og bestemme seg for et valg. Desto bedre
+tekniske og taktiske ferdigheter han innehar, desto større sannsynlighet er det for at han
+vil gjøre gode handlingsvalg og handlinger. Eksempelvis vil en høyreback med gode
+ferdigheter på innsidepasning gjerne tre ballen inn i mellomrom til en rettvendt
+midtbanespiller på første touch, mens en annen spiller med dårligere ferdigheter vil
+vurdere sannsynligheten for brudd som stor, og derfor velge et annet valg. Desto bedre
+ferdigheter man har på det individuelle plan, desto større valgmuligheter har man i
+spillet sitt.
+
+
+
+
+                                                                                           13
+Den relasjonelle dimensjonen går på enkeltspillernes evne til å handle sammen –
+samhandling. RBK under Nils Arne Eggen er et eksempel på et lag som var kjent for å ha
+god samhandling, der man fikk utnyttet enkeltspillernes beste ferdigheter. Bent
+Skammelsrud var flink å frigjøre seg som sentral midtbanespiller, og flink til å spille
+medspillere fri på et touch. Roar Strand var flink til å frigjøre seg i mellomrom, og “Mini”
+var flink til å starte i bakrom på riktig tidspunkt. Når disse handlingene skjer samtidig,
+er det et eksempel på gode relasjonelle ferdigheter.
+
+
+
+
+Den strukturelle dimensjonen går på hvilke retningslinjer vi har i spillet vårt. Noen lag
+har veldig stor grad av styrte valg, mens andre lag gir spillerne stor frihet i valgene.
+“Drillos” Norge hadde eksempelvis veldig klare retningslinjer i sitt defensive spill. Et
+stramt organisert soneforsvar, der de hadde klare kjøreregler for presshøyde, avstander
+mellom og innad i lagdelene. Samtidig hadde de også klare kjøreregler for sitt offensive
+spill mot etablert forsvar, hvor de som regel slo langt mot spiss eller kantspiller. Norge
+opptrådte som regel i en 4-5-1 formasjon både defensivt og offensivt. Formasjonen sier
+noe om spillernes plassering i laget.
+
+
+
+
+En fotballkamp består av spill og motspill, det vi kaller kampdimensjonen. Begge lag vil
+gjøre sitt for å fremheve sine egne kvaliteter, og å forhindre motstanderen i å bruke sine
+beste kvaliteter. Motspillere og motstanderlag vil sette begrensinger for vårt lag, men
+det vil også gi oss muligheter. “Faller” motstanders forsvarsfirer tidlig, vil vi kanskje ikke
+få brukt vår raske bakromsspiss ofte. Derimot får vi kanskje et større mellomrom, som
+vi kan utnytte med andre spillere.
+
+(Hele denne teksten er hentet fra Trener II-oppgaven min)
+
+
+
+
+                                                                                             14
+ 4.2 Retningslinjer for innlegg høyt i banen
+
+
+
+
+Vi ønsker å være overtall i farlig sone foran mål(se tidligere definisjoner).
+Keeper bør stort sett plassere segi midten av målet og bakover, gjerne litt ute fra streken. Han
+skal ha kontroll på at han ikke kan slippe inn et overraskende skudd på førstestolpen.
+Kroppsstilling bør være sidevendt/rettvendt,
+Back på ballside skal i hovedsak nekte innlegg i mot. Om han slipper til innlegg, skal han helst
+ikke slippe baller på innsiden av seg. Innlegg som blir slått lenger ut i banen er lettere å
+kontrollere, da de får dårligere vinkel. Om han kommer på etterskudd må han jobbe
+knallhardt for å jobbe seg på riktig side av motspiller. Fra 40 meter og ned mot egen dødlinje
+ønsker vi at back i hovedsak leder motspiller utover i banen.
+Stopper på ballside skal ”sone” ut i fra første stang. Han har ansvaret for at ingen innlegg blir
+slått på innsiden av han, og skal være posisjonert gunstig for å gå på ball. Kroppsstilling bør
+være sidevendt, slik at han både har oversikt over ballfører samt oversikt over det som skjer
+bak seg. Er det ingen spillere som utfordrer første sone, kan ha plassere seg litt mer inn mot
+midten av målet.
+Motsatt stopper skal markere motspiller, og plassere seg mellom motspiller og midten av
+målet. Er motspiller langt ute i boksen, kan avstanden være opp til 2-3 meter. Om motspiller
+lenger inne mot mål vil vi at han skal søke kroppskontakt. Kroppsstilling bør være sidevendt,
+slik at han både har oversikt over ballfører samt oversikt over det som skjer bak seg.
+                                                                                               15
+Sentral midtbanespiller(defensiv) har flere mulige oppgaver. Om back er i undertall eller blir
+overspilt på kant, skal han ut bredt. Om vi er i overtall inne i farlig sone i boksen, skal han ta
+returrom. Om vi er i liketall foran mål, skal den defensive midtbanespilleren ned i boksen og
+ta ut markering. Kroppsstilling bør være sidevendt, slik at han både har oversikt over
+ballfører samt oversikt over det som skjer bak seg.
+
+Motsatt back skal ta markering på motspiller, eller eventuelt ta ut farlig sone om vi er i et
+klart overtall. Om motspiller er nært målet, skal han markere tett. Om motspiller er langt ute
+fra senter av målet kan han holde større avstand, men bør kunne nå motspiller mens ballen
+går. Kroppsstilling bør være sidevendt, slik at han både har oversikt over ballfører samt
+oversikt over det som skjer bak seg.
+
+Sentral midtbanespiller(offensiv) har også mange av de samme oppgavene som den
+defensive midtbanespilleren. Han må lese situasjonen, og spesielt ha et bra øye til den andre
+midtbanespilleren. Ofte vil denne spilleren ha ansvar for returrom, men det kan også bli
+bruk for han ut mot kant eller på markering inne i boksen.
+
+Motsatt kantspiller må også lese klimaet i boksen og forholde seg til spill/motspill. Om
+motstanderen fyller på med mange spillere, så må han gjøre en jobb i boksen eller i
+returrom. I motsatt fall kan han ”henge” igjen litt høyere i banen og ligge i en god posisjon
+om vi vinner ballen. Han må alltid være på rett side av ”sin” back. Kroppsstilling bør være
+sidevendt, slik at han både har oversikt over ballfører samt oversikt over det som skjer bak
+seg.
+
+Kantspiller på ballsiden skal i hovedsak ta seg av back på ballside, og har frihet til å ”henge”
+igjen høyere i banen om vi har god posisjonell og numerisk balanse. I enkelte situasjoner vil
+kantspilleren bli 1F, og da gjelder det de samme reglene som for back på ballside. Han skal i
+hovedsak nekte innlegg i mot. Om han slipper til innlegg, skal han helst ikke slippe baller på
+innsiden av seg.
+
+Mellomromsspiss skal ofte ligge i en halvhøy posisjon og ha kontroll på deres balansespiller
+i midtbaneleddet, og helst være posisjonert på målsiden av denne spilleren. Denne spilleren
+må også forholde seg til spill/motspill, og det kan bli behov for han lenger ned i banen om
+motstanderen fyller på med mange spillere. For eksempel på slutten av en kamp, der vi leder
+med ett mål. I motsatt fall blir hovedoppgaven hans å finne gunstige posisjoner i tilfelle vi
+vinner ballen.
+
+Spydspissen vil ofte henge igjen oppe på topp, og være i en gunstig posisjon om vi vinner
+ballen. Om spill/motspill tilsier det, kan det også bli behov for denne spilleren lavere i      16
+banen.
+ 4.3 Utfordring 1
+
+
+
+
+Utfordring 1:
+Denne situasjonen har vi opplevd flere ganger i første del av sesongen. Vi blir trekt ut av
+posisjoner, og har numerisk likevekt i farlig sone foran mål. I 4 av 7 mål vi slapp inn de første
+20 kampene, hadde vi et ganske likt bilde som dette.
+   1) Den ene midtstopperen ble dratt ut mot ballfører.
+   2) Den defensive midtbanespilleren ble også dratt ut mot ballfører.
+   3) Den andre midtbanespilleren registrerte ikke at det var numerisk likevekt i farlig sone,
+       og tok ut motspiller i returrom.
+Vi har da en 2 v 2 situasjon i farlig sone, som er spesielt vanskelig for den nærmeste
+midtstopperen. Siden vi mangler ”sone”-stopperen vår, må denne stopperen både ha ansvar
+for første sone, samt ha ansvar for motstanderen bak seg. Det som ofte har skjedd er at vår
+spiller har blitt lurt av et lite mot/fra-rykk fra deres spiss, og derfor har havnet for langt frem
+i forhold til motspiller. Når ballen har blitt slått over vår midtstopper, har deres spiss hatt en
+enkel oppgave med å score.
+
+
+
+
+                                                                                             17
+Denne situasjonen viser også godt hvordan de ulike dimensjonene henger sammen. Her har
+vi en strukturell feil, siden vi ikke opptrer etter de retningslinjene vi har som lag. Det er for
+mange spillere rundt ballfører, og for få spillere i farlig sone. Vår duellsterke midtstopper er
+ute av farlig sone, mens vår lille høyreback er inne i ”krigen”. Dette kan vi beskrive som en
+feilbedømming relasjonelt, da vi ikke spiller hverandre gode. Midtstopperen som er igjen i
+boksen taper sin ”kamp i kampen”, og gjør en individuell feil med at han blir lurt av et
+mot/fra-løp. Vi burde tolket spill/motspill bedre, og forsvart oss med flere spillere når vi så
+at det er numerisk likevekt i farlig sone. Dette kalles kampdimensjonen.
+Løsning:
+Vi ønsker i utgangspunktet å forsvare oss med likevekt på kant, eventuelt en spiller overtall
+om vi er overspilt eller møter en god driblekant. Midtstopper ønsker vi å holde sentralt i
+banen, og i dette tilfellet burde midtstopper på ballside vært ”sonestopper”.
+
+Den defensive midtbanespilleren er også posisjonert feil, og burde holdt seg inne i farlig
+sone, og tatt markering om den ene midtstopperen var ute på kanten.
+
+Når situasjonen er som den er, så er det flere spillere som opptrer feil. Den offensive
+midtbanespilleren bør ned i farlig sone, og bør agere som ”sonespiller” eller eventuelt ta ut
+markering.
+
+Den motsatte kantspilleren bør da i så fall ned og ta ut returrom.
+
+
+
+
+                                                                                             18
+ 4.4 Utfordring 2
+
+
+
+
+Utfordring 2:
+Denne situasjonen har vi også opplevd flere ganger i første del av sesongen, der vi ikke har
+kontroll på returrom. Vi har god posisjonell og numerisk balanse foran mål, men har ikke
+balanse i returrom.
+   1) Midtstoppere og backer er på sine vante posisjoner.
+   2) Den offensive midtbanespilleren tar markering inne i boksen, mens den andre
+       midtbanespilleren er sikringsspiller på kant.
+   3) Den motsatte kantspilleren ligger for høyt og bredt, og registrerer ikke at vi ikke har
+       kontroll i returrom.
+I dette tilfellet kan vi få problemer om en 2.ball detter ut i returrommet eller at innlegget
+slåes direkte ut på denne spilleren. Vi er da ofte for langt fra returromspilleren deres til at vi
+får blokkert avslutningen.
+Strukturelt ligger mange spillere rett, men problemet oppstår med posisjonene til den
+defensive midtbanespilleren og motsatt kantspiller. I utgangspunktet skal back og kantspiller
+klare seg 2 v 2 på kant, men midtbanespilleren kan gå om de er overspilt eller vi møter en
+sterk driblekant. Om midtbanespilleren er dratt ut, må i tilfelle motsatt kant komme ned og
+inn, slik at vi tar ut returrommet. Individuelt kan man derfor stille spørsmålstegn til nevnte
+midtbanespiller og kantspiller, der minst et av valgene er feil.
+                                                                                             19
+Kampdimensjonen kan altså tilsi at vi møter en sterk driblekant, slik at vi vil ha inn
+sikringsspiller på vår back på ballside. I så tilfelle må vår motsatte kant lese
+spill/motspill, og falle ned i returrom. Relasjonelt ønsker vi den defensive
+midbanespilleren ut som sikringsspiller, da han er en bedre førsteforsvarer enn vår
+offensive midtbanespiller. Det gjør at vår offensive midtbanespiller får ansvar for
+returrom, men i dette tilfellet blir han dratt inn i boksen med et løp fra en motspiller.
+Løsning:
+I utgangspunktet ønsker vi at vår defensive midtbanespiller holder seg sentralt i banen.
+Når denne spilleren er borte, ønsker vi at motsatt kant tar ut returrom.
+
+
+
+
+                                                                                            20
+5 Resultater/diskusjon
+
+5.1 Slik var kampene
+
+
+
+
+12.09.: Bryne – TUIL 0-1(0-0)
+
+0-1 Jo Nymo Matland(’54)
+
+Slik var kampen:
+
+Bryne kom i 1-4-4-2, med innoverkant(høyrefot) på venstresiden. Venstrebacken har
+bra innleggsfot, og begge backene var offensive. I første omgang styrte hjemmelaget
+kampen, mens vi lå lavt og kompakt. Etter pause scoret vi etter 54 minutter, noe som
+preget kampbildet etter det. Hjemmelaget virket mer desperate, og brukte valgte mange
+tidlige løsninger. Det førte blant annet til at de slo mange tidlige innlegg fra lave
+posisjoner.
+
+
+
+
+26.09.: Sarpsborg08 – TUIL 1-0(0-0)
+
+1-0 Selvmål(’85)
+
+Slik var kampen:
+
+Sarpsborg08 kom i 1-4-1-2-1-2, også kalt diamantformasjon. Backene kom høyt i banen.
+Venstre back slo ofte tidlige innlegg, mens høyre back ville kombinere seg opp i banen.
+Hjemmelaget er på sitt farligste når de får i gang kombinasjonsspillet sitt sentralt i
+banen. Dette ønsket vi å hindre, og vi la dermed litt om på vår vanlige oppstilling. Vi kom
+i 1-4-3-1-2, der vi hadde stor sentrering i midtbaneleddet. Dette førte til at vi hindret
+dem å spille opp sentralt, men tillot også at de fikk mange potensielle
+innleggssituasjoner. Der mente vi å stå bedre i mot dem, og at vår duellstyrke i boks
+skulle være bedre enn deres. Vertene styrte kampen i 85 minutter, frem til de tok
+ledelsen 1-0 på et innlegg. Vi fikk et forventet kampbilde med mye tidlige innlegg fra
+deres venstre back, mens de ofte kom høyere i banen på sin høyreside. De siste
+minuttene av kampen flyttet vi laget høyere i banen, mens Sarpsborg kjørte kontringer.
+
+                                                                                            21
+03.10.: TUIL – Strømmen 1-0(1-0)
+
+1-0 Morten Nilsen(’37)
+
+Slik var kampen:
+
+Strømmen kom i en 1-4-3-1-2 formasjon, med lavt press. De hadde ingen naturlige
+kantspillere, og backene flyttet seg sjeldent høyt i banen. Den offensive strategien besto
+stort sett av tidlige baller opp mot spissene, eller å sette opp den offensive
+midtbanespilleren. Spissene var de som oftest skapte bredde i spillet, uten at de ble
+involvert ofte i de posisjonene. Deres eneste innlegg kom riktignok i en sånn situasjon.
+Etter 37 minutter tok vi ledelsen 1-0, noe som sto seg ut kampen. Utover i andre omgang
+spilte de med høyere risiko og sendte backene oftere høyt i banen. Dette førte verken til
+flere innlegg eller at de klarte å produsere noen sjanser.
+
+
+
+
+10.10.: TUIL-Moss 4-2(4-1)
+
+1-0 Ruben Kristiansen(’3)
+
+1-1 Kenneth Kvalheim(’17)
+
+2-1 Vegard Lysvoll(’21)
+
+3-1 Jo Nymo Matland(’41)
+
+4-1 Eirik Bertheussen(’45)
+
+4-2 Jonathan Meades(’59)
+
+Slik var kampen:
+
+Moss kom i 1-4-4-1-1, med ganske klassiske kantspillere. Kampen ble preget av at vi
+scoret allerede etter 3 minutter. Bortelaget klarte å skape et trykk på oss det neste
+kvarteret, men etter vi gikk opp til 2-1 styrte vi kampen. Den siste halvtimen av første
+omgang hadde Moss kun ett innlegg. Etter pause valgte de å slå mange tidlige innlegg,
+
+
+
+
+                                                                                           22
+som vi stort sett kontrollerte på en grei måte. Det var kun de to gangene de slo
+innleggene fra farlig sone at det kunne blitt skummelt.
+
+17.10.: Mjøndalen – TUIL 4-0(2-0)
+
+1-0 Mads Hansen(’4)
+
+2-0 Erik Midtgarden(’17)
+
+3-0 Joachim Solberg(’61)
+
+4-0 Abdou Darboe(’90)
+
+Slik var kampen:
+
+Mjøndalen kom i 1-4-3-3, med to innoverkanter. En venstrefotspiller på høyresiden og en
+høyrefotspiller på venstresiden. Hjemmelaget scoret allerede etter 4 minutter og doblet
+ledelsen etter 17 minutter. Det førte til at vi flyttet laget høyt i banen, mens deres backer
+sjelden involverte seg offensivt. Når begge kantene deres i tillegg gikk mye innover i
+banen, førte det til få innleggssituasjoner.
+
+
+
+
+24.10.: TUIL – Follo 0-2(0-0)
+
+0-1 Eirik Markegård(’49)
+
+0-2 Aleksander Ruud Tveter(’81)
+
+Slik var kampen:
+
+Follo kom i 1-4-4-2, med ganske klassiske kantspillere. Venstre kanten deres var aktiv,
+og søkte mye utover og i tillegg hadde de spisser som vandret mye bredt. Vi styrte det
+meste av spillet, mens gjestene stort sett forsvarte seg. Dette bildet ble enda mer
+forsterket etter at de tok ledelsen etter pause. Før pause var venstrekanten deres
+involvert noen ganger, mens det etter pause var spissene som vandret mer bredt. Da
+holdt de resten av laget mer inntakt defensivt.
+
+
+
+
+31.10.: Fredrikstad – TUIL 2-1(0-0)
+
+                                                                                          23
+0-1 Jonas Johansen(’52)
+
+1-1 Gunnar Thorvaldsson(’55)
+
+2-1 Simen Rafn(’63)
+
+Slik var kampen:
+
+Fredrikstad kom i 1-4-4-2, med ganske klassiske kantspillere. Høyrebacken er offensivt
+anlagt, og ønsker å involvere seg høyt i banen. Venstre backen er en omskolert
+midtstopper, som i tillegg er utpreget høyrefot. I midtbaneleddet splitter de ofte de to
+sentrale, der den offensive også vandret en del bredt i banen. Vi forventet et hjemmelag
+som ville ha mye ball og styre spillet i stor grad. Vi kom i 1-4-5-1, og ønsket i hovedsak å
+ligge lavt og kjøre overganger. Kampbildet ble litt annerledes enn ventet, der vertene
+sleit med å etablere spill. Det gikk nesten 20 minutter før vi fikk det første innlegget i
+mot oss, og totalt fikk vi 7 mot oss før pause.
+
+Etter pause fikk vi 4 innlegg i mot oss de første 20 minuttene, mens vi ikke fikk noen
+etter at FFK hadde tatt ledelsen.
+
+
+
+
+07.11.: TUIL - Bodø/Glimt 1-2(0-1)
+
+0-1 Trond Fredrik Ludvigsen(’39)
+
+0-2 Anders Konradsen(’57)
+
+1-2 Håvard Lysvoll(’83)
+
+Slik var kampen:
+
+Kampen hadde lite å si for begge lag, da ingen av lagene kunne avansere nevneverdig på
+tabellen. Bortelaget overrasket med å komme i 1-4-4-2 med diamant(i motsetning til
+deres vanlig 1-4-3-3). Vi fortsatte i 1-4-5-1, med presshøyde rundt midtstreken.
+Kantspillerne deres beveget seg mye innover i banen og frigjorde rom for offensive
+backer. Glimt tok ledelsen like før pause, noe som førte til at vi la om til 1-4-4-2 før
+andre omgang. Etter 57 minutter økte de til 0-2, mens vi reduserte til 1-2 etter 83
+minutter.
+
+
+                                                                                             24
+5.2 Innlegg i mot i TUILs 8 siste kamper i 2010
+
+
+
+Jeg har samlet inn data fra våre 8 siste kamper i Adeccoligaen 2010. Jeg har delt opp
+innleggssituasjonene i ulike kategorier. Først har jeg sett på om de har kommet på
+overganger, eller om vi har vært i etablert forsvar. 125 av 141 innlegg kom mot oss i
+etablert forsvar, noe som utgjør 88,65 % av det totale antallet. For meg var disse
+situasjonene mest interessante, der vi i utgangspunktet var i god balanse og hadde god
+til å organisere oss bra i boksen. Det er helt klart noen gråsoner her, og det er ikke alltid
+lett å avgjøre om et angrep er etablert eller en overgang. Jeg har valgt å ta tvilstilfellene
+med som angrep mot etablert forsvar.
+
+Jeg har videre delt innleggene inn i flere kategorier som er interessante for meg.
+
+Tidssoner: 1-6(1=0-15 min., 2=16-30min. osv.)
+
+Resultat: Vi leder, uavgjort eller vi ligger under.
+
+Farlig sone: Kom innleggene fra farlig sone på kant.
+
+Side: Hvilken side kom innleggene fra.
+
+Angrepsnummer og forsvarsnummer: Hvor mange spillere angrep motstanderen med i
+farlig sone foran mål, og hvor mange spillere forsvarte vi oss med i samme sone.
+
+Farlige soner foran mål: Delt inn i 4 forskjellige soner, der jeg har sett på om vi har
+kontroll i de ulike sonene. Jeg har også sett på hvilke av sonene ballen ble slått i.
+
+Numerisk og posisjonell balanse: Hadde vi numerisk og posisjonell balanse i det
+innlegget ble slått.
+
+Resultatet av innlegget: Mål, målsjanse, avslutning, avklaring, keeperball, utenfor eller
+frispark.
+
+
+
+
+                                                                                            25
+5.3 Kvantitativ analyse av innlegg mot etablert i TUILs 8 siste kamper i 2010
+
+
+
+Denne analysen har stort nok omfang til at den vil gi et svar på både
+hovedproblemstilling og underproblemstillinger.
+
+Tidssoner:
+
+Det var ganske lik fordeling av innlegg i første og andre omgang, med en liten overvekt
+etter pause. Samtidig ser vi at vi slipper til mange flere avslutninger og målsjanser etter
+pause.
+
+  30
+
+
+  25
+
+
+  20
+
+
+                                                                                Innlegg
+  15
+                                                                                Avslutninger
+                                                                                Sjanser
+  10
+
+
+   5
+
+
+   0
+          0-15      16-30      31-45       46-60      61-75      76-90
+
+
+
+Diagrammet over viser fordelingen i de ulike sonene. Blått viser antall sjanser, mens
+rødt+blått viser antall avslutninger og alle fargene samlet viser det totale antall innlegg i
+de aktuelle tidssonene.
+
+70,58 % av avslutningene og 77,77 % av sjansene vi fikk mot oss på innlegg, kom etter
+pause. Før pause var det kun 8,33 % av innleggene som førte til avslutning, mens denne
+andelen var så høy som 18,46 % etter pause.
+
+Statistikken støtter påstanden min om at vi ikke er like flinke til å forsvare oss gjennom
+hele kampen, mot innlegg i etablert forsvar.
+
+
+                                                                                               26
+Resultat:
+
+Totalt spilte vi 720 minutter med fotball i denne perioden, der vi for det meste av tiden
+hadde et uavgjort resultat.
+
+
+                    Minutter med ulike resultat
+
+
+
+                                                                             Vi ledet
+                                                                             Uavgjort
+                                                                             Vi lå under
+
+
+
+
+Vi ledet i 175 minutter, stillingen var uavgjort i 335 minutter og vi lå under i 210
+minutter. Da er ikke tilleggstid tatt med.
+
+
+
+
+                 Antall innlegg ved ulike resultat
+  70
+
+  60
+
+  50
+
+  40
+
+  30
+
+  20
+
+  10
+
+   0
+                Vi ledet                     Uavgjort                Vi lå under
+
+
+
+Vi slapp til vesentlig flere innlegg i perioden vi ledet, enn i perioden vi lå under. Når vi
+ledet slapp vi til totalt 28 innlegg, noe som tilsvarer 0,16 innlegg per minutt. Når
+
+
+
+                                                                                               27
+stillingen var uavgjort slapp vi til totalt 80 innlegg, noe som gir 0,23 innlegg per minutt.
+Når vi lå under fikk vi 17 innlegg i mot oss, som tilsvarer 0,08 innlegg i minuttet.
+
+  12
+
+  10
+
+   8
+
+   6                                                                          Avslutninger
+
+   4                                                                          Sjanser
+
+   2
+
+   0
+              Vi ledet              Uavgjort             Vi lå under
+
+
+
+Dette diagrammet viser antall sjanser og avslutninger i mot ved de ulike resultatene.
+Den ser ganske lik ut som antall innlegg i de ulike fasene, selv om man kan registrere at
+vi ikke slapp til noen sjanser i perioden vi lå under. Forskjellene er små, og mengden
+data er dessuten så liten at man kan konkludere med noe. En viktig faktor for at vi fikk
+mange innlegg mot oss når det var uavgjort, var at Sarpsborg bombarderte oss i denne
+perioden. Kampdimensjonen i den ene kampen, gjør dermed uavgjort-søylen kunstig
+høy.
+
+Totalt sett kan vi lese at vi får klart flere innlegg i mot i perioder vi leder, enn i de
+periodene vi ligger under. Det er derimot liten forskjell på antall sjanser og avslutninger
+vi får mot oss, avhengig av hva resultatet er.
+
+
+
+
+                                                                                             28
+Innlegg fra farlig og ufarlig sone:
+
+Vi fikk litt flere innlegg mot oss fra farlig sone(se definisjoner), enn fra ufarlig sone.
+
+  80
+  70
+  60
+  50
+                                                                             Innlegg
+  40
+                                                                             Avslutninger
+  30
+                                                                             Sjanser
+  20
+  10
+   0
+                  Farlig sone                     Ufarlig sone
+
+
+
+8 av 9 sjanser kom etter innlegg fra farlig sone og totalt sett 12 av 17 avslutninger kom
+etter slike innlegg. Spesielt det faktum at 88,8 % av sjansene kom etter innlegg fra farlig
+sone, gir ganske klare indikasjoner om at vi hadde større problemer med å forsvare oss i
+disse situasjonene.
+
+
+
+
+Innlegg fra venstre og høyre side:
+
+Det var ganske jevn fordeling av innlegg fra venstre og høyre side(se definisjoner).
+
+  70
+
+  60
+
+  50
+
+  40                                                                        Innlegg
+  30                                                                        Avslutninger
+
+  20                                                                        Sjanser
+
+  10
+
+   0
+                 Venstre side                     Høyre side
+
+
+
+Vi slapp til ca. like mange sjanser fra begge sidene, mens det var mye lettere å komme til
+avslutninger mot oss når innleggene ble slått fra høyre side.
+
+                                                                                             29
+Antall spillere i farlig sone:
+
+Motstanderne kom i snitt med 3,08 spillere i farlig sone, mens vi i snitt forsvarte oss
+med 4,41 spillere i samme område. Motstanderne hadde oftest 3 spillere i farlig sone, og
+hadde mellom 2-4 spillere ved 88,8 % av innleggene. Vi hadde oftest 4 eller 5 spillere i
+farlig sone, og vi hadde mellom 3-6 spillere i 88,8 % av tilfellene.
+
+Vi ønsker numerisk overtall i farlig sone ved innlegg i mot, noe vi ikke alltid klarte å få
+til.
+
+
+                  Overtall/undertall i farlig sone
+   60
+   50
+   40
+   30                                                              Overtall/undertall i farlig
+   20                                                              sone
+
+   10
+       0
+           +4    +3      +2      +1      0       -1      -2
+
+
+
+I de fleste tilfellene er vi 1 eller 2 spillere i overtall i farlig sone, noe som er ønskelig ut i
+fra vår spilleplan. Det er ikke noe poeng i å være for mange spillere i overtall, da er det
+bedre at disse spillerne dekker andre soner på banen.
+
+Vi er i numerisk likevekt ved 19/125 innlegg og i undertall ved 5 anledninger.
+
+Det er liten sammenheng mellom numerisk ubalanse og sjanser og avslutninger i mot. Vi
+har numerisk overtall ved 7 av 9 sjanser vi slipper til, og det samme gjelder ved 15 av 17
+avslutninger.
+
+
+
+
+                                                                                                 30
+Posisjonell balanse:
+
+Vi var flere ganger i posisjonell ubalanse(se definisjon) enn vi var i god balanse:
+
+
+                           Posisjonell balanse
+
+
+
+                                                                              Ubalanse
+                                                                              Balanse
+
+
+
+
+Vi var i ubalanse ved 74 av 125 innlegg, noe som utgjør 59,2 %. Det var her en klar
+sammenheng mellom sjanser og avslutninger i mot og den posisjonelle balansen. Ved 7
+av 9 målsjanser hadde vi posisjonell ubalanse og ved 13 av 17 avslutninger gjaldt det
+samme. Ved begge målene var vi også i posisjonell ubalanse.
+
+Min påstand er at vi ville ha blitt mye hardere straffet mot bedre lag, og at vi alt for ofte
+har ubalanse posisjonelt. Hadde innleggskvaliteten vært bedre og mer presis, kunne vi
+nok sett mye styggere sifre på mål, sjanser og avslutninger i mot.
+
+
+
+
+Resultat av innleggene:
+
+Av 125 innlegg totalt, var det kun 9 som førte til målsjanser og 2 som førte til scoring i
+mot. I tillegg var det 8 avslutninger som jeg ikke regnet som målsjanser:
+
+
+
+
+                                                                                             31
+                             Resultat av innleggene
+
+
+                                                                           Avklart
+                                                                           Keeperball
+                                                                           Avslutning
+                                                                           Sjanser
+                                                                           Mål
+                                                                           Ut
+
+
+
+
+67 av 125 innlegg ble avklart av våre spillere, noe som utgjør 53,6 %. Totalt sett var det
+108 av 125 innlegg som ble avklart, gikk ut av farlig sone eller som keeperen vår tok
+hånd om. Det utgjør 86,4 %. Motsatt vei kom motstanderen til avslutning ved 17
+anledninger, altså 13,6 %. Av disse ble det 9 målsjanser, tilsvarer 7,2 %. Ved to
+anledninger fikk vi mål i mot oss, noe som utgjør 1,6 % av alle innleggene mot etablert
+forsvar.
+
+
+
+
+  40
+
+  35
+
+  30
+                                                                           Ut
+  25                                                                       Mål
+  20                                                                       Sjanser
+  15                                                                       Avslutning
+
+  10                                                                       Keeperball
+                                                                           Avklart
+   5
+
+   0
+           Første sone   Midtre sone   Bakre sone   Returrom   Ut
+
+
+
+
+Denne figuren viser hvor innleggene ble slått og hva resultatet ble i de ulike sonene.
+Totalt antall avslutninger er avslutninger + sjanser + mål, mens totalt antall sjanser er
+
+                                                                                            32
+sjanser + mål. De aller fleste innleggene ble slått mot første og midtre sone. I første sone
+hadde vi veldig god kontroll, 37 av 38 baller ble avklart og vår keeper tok det siste
+innlegget som kom. I midtre sone var det jevn fordeling av avklaringer og keeperballer,
+mens motstanderne kom til 5 målsjanser i denne sonen(13,88 %). Jeg registrerer også at
+begge målene kom fra denne sonen og at alle avslutningene i denne sonen ble til
+målsjanser. Det virker også logisk i forhold til at man er nært mål og har gode vinkler til
+å score. I bakre sone kom det mye færre innlegg, men det ble avslutninger og sjanser av
+en prosentvis høy andel. Motstanderne kom til avslutning ved 46,15 % av innleggene på
+bakerste stang, noe som er et oppsiktsvekkende høyt tall. Det tyder på at vi ikke er flinke
+til å forsvare oss i denne sonen, selv om vi ikke fikk mål i mot oss herfra. Returrommet
+hadde vi heller ikke god kontroll på, da motstanderne kom til avslutning 28.6 % av
+gangene. Det er vanskeligere å komme til gode sjanser, siden avstanden er større til
+målet. Det viste seg også i at vi kun fikk 1 målsjanse i mot oss fra denne sonen. Disse
+tallene støtter også min påstand om at bedre motspill fra motstanderne ville ført til flere
+mål, sjanser og avslutninger mot oss. Får motstanderen ballen over første sone og vår
+sonestopper, så er det større sjanse for at vi får problemer.
+
+
+
+
+                                                                                           33
+ 5.4 Kvalitativ analyse
+
+
+
+ 5.4.1 Sarpsborg 08 - mål
+
+
+
+
+Beskrivelse:
+Sarpsborg08 spiller oss lave, slik at vi ligger med B4 på ca. 18 meter. De prøver å tre opp på
+møtende spiss litt ut mot deres venstreside. Denne pasningen blir brutt av vår venstre
+midtstopper, som takler ballen oppover mot midtbanen. Deres midtstopper får tak i denne
+ballen 10 meter inne på vår halvdel og slår en pasning på et touch ut til deres venstre back,
+som befinner seg ca. 20 meter inne på vår banehalvdel. Han legger til rette med ett touch, før
+han slår et tidlig innlegg over vår sonestopper. Venstre midtstopper får en liten stuss på
+ballen i det vår keeper kommer ut, som gjør at keeperen vår er satt ut av spill. Vår venstre
+back kommer løpende med ansiktet inn mot eget mål, og ”springer” ballen inn i eget mål.
+Individuelt:
+Vår høyre midtstopper bryter det første oppspillet bra, men det går litt for tregt å komme ned
+i gunstig soneposisjon. Venstre midtstopper bruker lang tid på å ta ut spilleren som angriper
+første sone, og er i fart mot denne spilleren når ballen kommer inn. Han burde falt noen meter
+tidligere, og vært på riktig side av motspiller som er i første sone.
+
+
+
+                                                                                          34
+Venstrebacken vår er på rett side i forhold til motspiller, men også han bør falle lenger inn
+mot eget mål. Kroppsstillingen bør være sidevendt, slik at han klarere ballen ut av farlig
+sone. Resultatet nå blir at han kommer helt feilvendt inn på ball, og i beste fall kan sette
+ballen ut til corner. Keeperen vår har valgt en gunstig utgangsposisjon, men bør ikke gå
+helhjertet når det kan tolkes som en duell i området foran han. Resten av spillerne våre har
+gjort gode valg i posisjonsspillet sitt og ligger på riktig side av motspillere.
+
+Relasjonelt:
+
+Førsteforsvareren vår gir ingen tydelige signaler med sitt passive press, som de resterende
+spillerne kan forholde seg til. Sonestopperen bør sette linjen lavere, slik at de andre
+forsvarsspillerne kan forholde seg til det. Når ballen kommer inn i feltet roper keeperen at
+han tar ballen. Venstre midtstopper klarer ikke å reagere i forhold til det, og spiller sin egen
+keeper dårlig med å stusse ballen over han. Samtidig gjør den dårlige relasjonen mellom
+midtstopper og keeper, at venstrebacken vår blir satt ut av spill og setter ballen i eget mål.
+
+Strukturelt:
+
+Vår nærmeste midtbanespiller er 1F i denne situasjonen, og holder for stor avstand til
+ballfører. Høyrebacken vår ligger greit, slik at motstanderen ikke kan skape en 2 mot 1-
+situasjon. De resterende forsvarsspillerne er posisjonert litt for høyt i banen, slik at de
+risikerer å måtte løpe hjemover mot eget mål når innlegget kommer. Sonestopperen er litt
+for høyt oppe og litt for langt ut mot siden når ballen blir slått. Venstre midtstopper er også
+posisjonert for høyt, og bør samtidig ligge på rettsiden tettere på deres motspiller i første
+sone. Vår venstre back ligger på riktig side av motspiller, men bør ligge lavere i banen og ha
+en annen kroppsstilling. Keeper har en god utgangsposisjon når innlegget kommer. Våre
+spillere som ligger ute ved 16-meteren har gode posisjoner, og ligger samtlige på riktig side
+av motspillerne. De leser klimaet i boksen bra, og ser at vi er i numerisk overtall i den
+farligste sonen.
+
+
+
+
+                                                                                               35
+Kampdimensjonen:
+
+Det er 5 minutter igjen av kampen, og Sarpsborg08 presser på for å få seiersmålet. De
+går med 7 spillere, og står kun igjen med 2 midtstoppere + 1 anker. De sender blant
+annet motsatt back opp til hjørnet av vår 16-meter, noe som gjør at de har 2 spillere inne
+i boksen og 3 spillere ute i returrom. Deres venstre midtbanespiller skjærer innover i
+banen, og kan bli nok en spiller som kan utgjøre en trussel. Vi tolker situasjonen riktig
+numerisk, og har overtallet vi ønsker inne foran mål. Det gjør at vi også klarer å ta ut
+farlige spillere i returrom. Dog gir vi fra oss for mye rom mellom keeper og forsvarslinje,
+noe som motstanderen velger å utnytte med et tidlig innlegg.
+
+Man kan diskutere om denne situasjonen er angrep mot etablert forsvar, siden
+Sarpsborg08 gjenvinner ballen inne på vår banehalvdel og scorer i tredje trekk. Vår
+høyre midtstopper skal være sonestopper, men rekker ikke helt ned i riktig posisjon før
+innlegget kommer. Siden vi likevel har så mange spillere på riktig side og ligger så lavt i
+banen, velger jeg å definere det som angrep mot etablert forsvar. Den riktige
+definisjonen er kanskje angrep mot delvis etablert forsvar.
+
+
+
+
+                                                                                            36
+ 5.4.2 Sarpsborg 08 - sjanse
+
+
+
+
+Beskrivelse:
+Vi har spilt i 70 minutter av kampen, og stillingen er 0-0. Sarpsborg08 jager mål, og har
+etablert et trykk trykk på vår banehalvdel. Ballen spilles opp på møtende spiss, som får dratt
+ut vår venstre midtstopper(på ballside). Deres spiller slår på ett touch ut til deres høyre
+midtbanespiller. Han slår på ett touch inn tilbake til spissen, som får avslutte alene fra 12
+meter. Headingen går heldigvis like utenfor mål. Sonestopperen vår har ikke rukket å komme
+seg helt ned i god utgangsposisjon, og vår defensive midtbanespiller har ikke klart å følge det
+dype løpet fra spissen.
+Individuelt:
+Oppfattelsen og forflytningshastigheten burde vært bedre hos flere av spillerne våre i dette
+tilfellet. Venstrebacken vår har litt feil utgangsposisjon og forflytter seg sakte ut i press på
+deres høyre midtbanespiller. Vår venstre midtstopper blir lokket opp i banen, og forflytter seg
+for sakte for å komme ned i en god utgangsposisjon som sonestopper. Den midterste av de tre
+midtbanespillerne våre omstiller også for sakte, og burde rukket å komme seg på rett side av
+deres møtende spiss. Det er samme spiss som avslutter noen skunder seinere.
+
+
+
+
+                                                                                              37
+Relasjonelt:
+
+Vår venstre back er ikke tett nok opp i ballfører, og klarer dermed ikke å hindre innlegg på
+innsiden av seg. Det gjør det vanskelig for midtstopperne våre å forholde seg til presset, og
+de blir redde for å få ballen på innsiden av seg. Det fører til at de stormer inn mot eget mål,
+og blir feilvendte i kroppstillingen. Midtstopperen vår har sluppet den møtende spissen, for
+å innta soneposisjon ut i fra første stang. Det bør vår defensive midtbanespiller få med seg,
+og dermed overta markeringsjobben på denne spilleren umiddelbart. Det gjøres ikke, og
+dermed får denne spilleren avslutte umarkert.
+
+Strukturelt:
+
+Vi har ikke tette nok avstander i utgangspunktet, noe som fører til at Sarpsborg08 får tredd
+ballen gjennom midtbaneleddet vårt og opp på spiss. Ut i fra kampplanen var dette noe vi
+ønsket å hindre, da det kunne føre til at midtstopperne våre ble lokket ut av sine posisjoner.
+Når skaden først har skjedd, er venstrebacken vår for langt i fra ballfører. Han skal i
+utgangspunktet nekte innlegg på innsiden av seg, noe han burde hatt tid til. Sonestopperen
+skulle vært lavere i banen, og dermed hatt muligheten til å støte innenfra og ut. Keepers
+posisjon er bra, han tør å plassere seg midt i målet og ute fra linjen. Høyre midtstopper og
+høyre back har tatt ut markering, og begge befinner seg mellom motspiller og målet. Den
+største feilen oppstår med vår defensive midtbanespiller, som ikke har omstilt raskt nok, og
+dermed lar deres møtende spiss komme alene inn i boksen.
+
+Kampdimensjonen:
+
+Det er 20 minutter igjen av kampen, og hjemmelaget har jaget mål gjennom stort sett hele
+kampen. Vi har stått bra i mot, og har kun sluppet til en målsjanse i løpet av de første 70
+minuttene. Min påstand er at vi begynner å bli litt slitne, og derfor ”slipper” løpene inne i
+egen boks. Spesielt dype løp av denne typen lar man slippe unna, da de starter så langt fra
+mål at man antar at det skal være ufarlig. Sarpsborg08 har bygd opp et bra angrep, og har
+skapt en ubalanse hos oss med at de har lokket ut venstre midtstopper. Når denne
+stopperen løper hjem for å ta ut sin sone, oppstår det et rom bak han som de utnytter. De
+skaper først et rom bak denne stopperen, som vi da oppfatter som en trussel. Når vi løper
+hjem for å sperre dette rommet, oppstår det et nytt rom som de utnytter.
+
+Her setter Sarpsborg08 i gang fra egen keeper, og spiller seg ut bakfra på ett og to touch. Vi
+er hele tiden i etablert forsvar, men blir likevel spilt i ubalanse med at de ”lokker oss ut”.
+
+                                                                                                 38
+5.4.3 Bodø/Glimt - mål
+
+
+
+
+Beskrivelse:
+
+Vi har spilt i 38 minutter av kampen, og stillingen er 0-0. Bodø/Glimt har corner og
+sender opp 6 mann i boksen, har en spiller i returrom og står med to spillere hjemme. Vi
+soner med en spiller på første, har en spiller som har ansvar for bakerste stang, 6
+spillere som tar markering i boks og to spillere som soner ute mot returrom. Corneren
+blir først headet ut av farlig område, før ballen blir spilt tilbake til spilleren som slo
+corneren. Han setter fart inn i 16-meteren og lurer av vår nærmeste spiller, som ”selger”
+seg for lett i presset. Vi slipper en ny spiller ut i press, og flere av våre resterende
+spillere siger mot ballfører. Det fører til at vi er 2 spillere mot deres 4, i området mellom
+målstengene og 8 meter ut i banen. Innlegget blir slått over vår sonespiller, utenfor
+keepers rekkevidde og i rommet front av vår høyre midtstopper. Deres spiller har timet
+løpet godt, og styrer ballen enkelt inn med hodet.
+
+Individuelt:
+
+Spilleren som blir 1F, lar seg lure alt for lett av en enkel pasningsfinte. Neste spiller som
+kommer i press legger seg unødvendig ned, noe som fører til at innlegget går over han.
+Keeperen burde stått 1-2 meter lenger bak mot midten av målet, for å ha en bedre
+                                                                                             39
+utgangsposisjon når innlegget kommer. Sonespilleren vår kunne nok stått en meter
+lenger inn mot midten av målet, og vært skråstilt litt mer for å få oversikt over det som
+skjer bak seg. En spiller blir unødvendig trekt mot ball, i stedet for å ta ut markering på
+spilleren som scorer. Den ene spilleren som er ute mot returrom burde kommet inn og
+markert i farlig område, når situasjonen er som den er. Spilleren som er på bakerste
+stang ligger på feil side av mannen sin, og ville neppe hindret baklengsmål om ballen
+kom i den sonen. Alt i alt er det altså mange ting å sette fingeren på i de individuelle
+valgene og prestasjonene.
+
+Relasjonelt:
+
+1F er utydelig i presset og gjør en jobb som er vanskelig å forholde seg til for
+medspillerne. Relasjonen mellom keeper og sonestopper er heller ikke bra. Hadde
+sonestopperen plassert seg litt lenger bak i feltet, ville kanskje det ført til at keeper
+hadde plassert seg lenger bak og lenger ut i feltet. Da ville han hatt en bedre mulighet til
+å nå ut på innlegget. Spilleren som siger mot ball burde stolt på at jobben rundt ballfører
+gjøres ordentlig, og tatt sin egentlige jobb som markeringsspiller.
+
+Strukturelt:
+
+Her er det mye å ta tak i strukturelt. Keeperen vår er plassert for langt mot første stang,
+og bør i dette tilfellet ha en utgangsposisjon mer inn mot midten av målet.
+Sonestopperen blir også trekt mot ball, og bør være 1 meter lenger bak i feltet. Spilleren
+som er i front av sonestopperen er også for langt frem i feltet, og bør heller ta markering
+på spilleren som scorer målet. På bakerste stang står vi også feil, da denne spilleren ikke
+er mellom motspiller og målet. Den ene spilleren som skulle vært ute mot returrom, har
+stormet ned mot ballfører for å vinne ballen. I det området er vi allerede 2 mot 1, så
+denne spilleren burde heller holdt seg ute i returrom. Den andre returromspilleren
+burde klare å se at vi er i undertall rett foran mål, og dermed jobbe helt ned for å
+markere ut motspiller.
+
+Kampdimensjonen:
+
+Bodø/Glimt står med 2 mann igjen ”hjemme” og har 1 spiller i returrom. De sendte 6
+mann inn i boksen så lenge det var uavgjort, noe som er tilfelle i nevnte situasjon. Etter
+at de tok ledelsen, valgte de å trekke en spiller ned i returrom. Vi hadde en spiller som
+
+
+                                                                                            40
+sonet ut i fra første stang, og en spiller som hadde ansvaret for bakerste stang. Vi tok
+hjem samtlige spillere, der vi hadde to som hadde ansvaret for returrommet og samtidig
+var våre første kontringsspillere om vi vant ballen. Det gjorde at vi hadde 6 spillere
+igjen, som markerte de 6 spillerne som gjestene sendte inn i boksen. Når vi blir lurt 1
+mot 1 oppstår problemet. To nye spillere stormer til for å sette inn ballpress, noe som
+gjør at vi blir i ubalanse i boksen. I tillegg blir de to neste spillerne ballfokusert, og det
+blir et stort rom bak vår sonespiller. Deres målscorer timer løpet perfekt inn i dette
+rommet, og kan ikke unngå å score på det gode innlegget.
+
+Man kan diskutere om denne situasjonen er angrep mot etablert forsvar, siden
+Bodø/Glimt gjenvinner ballen etter corner og scorer i tredje trekk. Våre spillere er
+dermed ikke i de posisjonene de oftest er i når vi forsvarer oss mot etablert angrep.
+Siden vi likevel har så mange spillere på riktig side og ligger så lavt i banen, velger jeg å
+definere det som angrep mot etablert forsvar. Den riktige definisjonen er kanskje angrep
+mot delvis etablert forsvar.
+
+
+
+
+                                                                                                 41
+5.5 Oppsummering av analysen - konklusjon
+Jeg har analysert data på to ulike måter:
+
+     -   Kvantitativ analyse, gjennom å gå gjennom samtlige innleggssituasjoner vi fikk i
+         mot oss i de 8 siste kampene i 2010.
+     -   Kvalitativ analyse, gjennom å se på 3 utvalgte situasjoner som har ført til mål og
+         målsjanser i mot oss.
+
+Hovedproblemstillingen min var å finne ut hvilke soner foran mål vi har kontroll på og
+hvilke soner vi ikke har kontroll på. I tillegg ønsket jeg å finne ut om vi er like gode
+gjennom hele kampen, eller om det er spesielle perioder i kampen vi sliter med.
+
+Den kvantitative analysen viser at vi hadde full kontroll i første sone, der motstanderne
+ikke kom til en eneste avslutning. I midtre sone kom de også sjelden til avslutninger,
+men de gangene de gjorde det ble målsjanser hver eneste gang. Begge målene kom også
+fra denne sonen. Det kom ikke så mange innlegg til bakre sone, men det ble målsjanser
+eller avslutning på nesten 50 % av situasjonene. I returrom kom de til avslutning ved ca.
+1 av 4 situasjoner, men det var sjelden det ble farligheter ut av det.
+
+Jeg konkluderer med at vi ikke har like god kontroll på alle soner. Første sone har vi full
+kontroll på, mens vi ikke har like god kontroll i de andre sonene. Dette er funn nummer
+1.
+
+Analysen viser at vi fikk ca. like mange innlegg mot oss før og etter pause. Likevel har vi
+en klar overvekt av avslutninger og målsjanser mot oss utover i kampen. De første 30
+minuttene slapp vi kun til 2 avslutninger, derav ingen målsjanser. De neste
+kvartersbolkene ser noenlunde like ut, men med en overvekt av avslutninger i mot den
+siste halvtimen. 12 av 17 avslutninger i mot kom etter pause, og 7 av 9 målsjanser i mot
+kom i samme periode. Dette viser meg at vi har god kontroll i starten, men får større
+problemer utover i kampene. Dette er funn nummer 2.
+
+De gangene vi blir lokket ut av posisjoner i forkant av innleggene, får vi ofte problemer
+med å ”telle” opp inne i boksen. I den kvalitative analysen mot Sarpsborg08, ser vi to
+eksempler på at stopperne blir lokket ut i tidlig fase, samt at midtbanespillerne ikke
+definerer arbeidsoppgavene sine raskt nok. I utgangspunktet er vi nok spillere og i god
+balanse, men vi blir lokket ut av posisjoner og spilt i ubalanse av motstander. Det fører
+
+
+                                                                                           42
+til at vi ikke er i numerisk balanse i midtre sone foran mål. En annen situasjon vi sliter
+med er at spillerne som skal ta returrom blir ballfokusert og trekker mot ball, selv om vi
+i utgangspunktet var i numerisk balanse. Disse situasjonene går igjen i flere av
+målsjansene og avslutningene vi får mot oss. Dette er funn nummer 3.
+
+Det var ganske lik fordeling av innleggene som kom fra farlig og ufarlig sone. Samtidig
+kom 8 av 9 målsjanser etter innlegg fra farlig sone og 12 av 17 avslutninger kom etter
+innlegg fra farlig sone. Spesielt det faktum at nesten 90 % av sjansene kom i slike
+situasjoner, gjør at jeg konkluderer med at vi har større problemer med å forsvare oss
+mot innlegg som blir slått fra farlig sone. Dette er funn nummer 4.
+
+Vi har numerisk ubalanse ved ca. 1 av 5 innlegg, noe som ikke er påfallende høyt. Stort
+sett klarer vi altså å ha overtall i egen boks, men vi må selvfølgelig strebe etter å gjøre
+det riktig hver eneste gang. Mine observasjoner viser at vi ikke har automatisert
+overtallstanken i boks godt nok. Møter vi for eks. et lag som går med to spisser og
+motsatt kant i boks, kan vi ofte svare med å møte de med våre to stoppere og ene back. I
+dette tilfellet ønsker vi helst en midtbanespiller ned, slik at vi får overtall. Om vi derimot
+møter et lag som går med spiss/kant/indreløpe, så følges ofte indreløper av
+midtbanespilleren vår og dermed har vi overtallet vi ønsker. Dermed konkluderer jeg
+med at vi bare delvis klarer å justere forsvarsspillet etter motstanders spill. Dette er
+funn nummer 5.
+
+Vi fikk flere innlegg mot oss per minutt i perioden vi ledet, enn i de periodene vi lå under
+og jaget mål selv. Dette kan man vel anslå som naturlig nok. Motstanderne kom ca. like
+ofte til avslutninger på sine innlegg i disse fasene, og dermed klarer jeg ikke påvise noen
+forskjell her. Jeg konkluderer med at det ikke var noen påvist forskjell på hvor effektivt
+vi forsvarte oss avhengig om vi ledet eller lå under. Dette er funn nummer 6.
+
+Jeg har allerede vært inne på at vi var i numerisk ubalanse i ca. 1/5 innleggssituasjoner.
+Når det gjelder posisjonell ubalanse er tallet overraskende høyt. I 74 av 125 situasjoner,
+altså ved 59,2 % av innleggene er vi i posisjonell ubalanse. Det betyr at vi er i undertall
+eller ikke har kontroll på motspiller i en eller flere av de farlige sonene foran mål. Med
+bedre motspill fra motstanderne, ville dette ført til mange flere målsjanser og mål i mot.
+Vi ønsker å ha kontroll selv, og ikke være prisgitt dårlige prestasjoner fra motstanderne.
+
+
+
+                                                                                              43
+Jeg konkluderer dermed med at den numeriske balansen er ok, men kan bli bedre. Den
+posisjonelle balansen er derimot alt for ofte dårlig. Dette er funn nummer 7.
+
+I utgangspunktet trodde jeg at vi hadde mange strukturelle feil og at dette var
+hovedproblemet på innlegg i mot. Når jeg har tolket både den kvalitative og den
+kvantitative analysen, ser jeg at det totale bildet er mer sammenhengende en som så.
+Det gjøres feil i den strukturelle fasen, helt klart. Samtidig ser man at det stort sett i alle
+situasjoner gjøres individuelle feil, der valget er sentralt. Man blir for eks. trekt for langt
+frem i boksen, eller man leser situasjonen for seint. Det kan også være at man rett og
+slett forflytter beina for sakte eller at man ikke hopper høyt nok i en duell. Relasjonen og
+forståelsen mellom spillerne er også sentral, og vi får ofte trøbbel om spillerne leser
+hverandres signaler for seint . Man må også se spill/motspill for å forstå helheten. Den
+kvalitative analysen viser i alle tre tilfellene hvordan vi jobber for å sperre et rom som
+motstanderen truer, og hvordan de i neste fase klarer å utnytte det nye rommet som
+oppstår.
+
+Det blir ganske tydelig for meg at alle de fire dimensjonene henger tett sammen, og at
+alle er viktig når man skal analysere fotball. De problemene som oppstår ved innlegg i
+mot kan knyttes til både den strukturelle dimensjonen, den individuelle dimensjonen,
+den relasjonelle dimensjonen og kampdimensjonen. Dette er funn nummer 8.
+
+
+
+
+                                                                                              44
+SAMMENDRAG
+TITTEL:
+
+Innlegg i mot (- i kampen mot nedrykk).
+
+Har vi kontroll på farlige områder foran eget mål i etablert(eller delvis etablert) forsvar,
+og forsvarer vi oss like godt gjennom hele kampen?
+
+Med utgangspunkt av kampanalyse av TUILs 8 siste kamper i Adeccoligaen 2010.
+
+Bakgrunn for oppgaven
+
+Vi har slitt i bunnen av Adeccoligaen i stort sett hele 2010, og hatt mange kamper der
+motstanderne har styrt mye av spillet. Det har blant annet ført til at vi har fått mye
+innlegg i mot oss, der vi i utgangspunktet har vært i etablert eller delvis etablert forsvar.
+Vi har hatt nok spillere i nærheten av eget mål, og tid nok til å forsvare de farlige
+områdene. Likevel har vi sluppet motstanderne for lett til. Slik jeg har sett det er det
+noen soner foran mål vi har slitt spesielt med og andre som vi har hatt bedre kontroll på.
+I tillegg er min påstand at vi ofte har hatt bra kontroll i disse situasjonene i starten av
+kampene, men at vi har hatt større problemer desto lengre vi har spilt.
+
+I utgangspunktet så jeg disse problemene som hovedsaklig strukturelle feil, men har
+gjennom analysen sett det i et mer helhetlig perspektiv. Der har jeg også sett på den
+individuelle dimensjonen, den relasjonelle dimensjonen og kampdimensjonen. Jeg
+ønsket å finne ut om feilen lå på det strukturelle planet, eller om det var på andre
+områder utfordringene lå.
+
+Problemstilling
+
+Hvilke områder i farlig sone har vi kontroll på, og hvilke har vi ikke kontroll på? Er vi
+like gode gjennom hele kampen?
+
+
+
+
+Underproblemstillinger
+
+       Er det spesielle situasjoner vi har problemer med?
+       Er det noen soner foran mål som vi har mer problemer med enn andre?
+       Har vi kontroll når innleggene blir slått fra farlig sone?
+
+                                                                                              45
+       Har vi kontroll når innleggene blir slått fra ”ufarlig” sone?
+       Klarer vi å justere oss etter motstanderens angrepsspill, f.eks. hvor mange de
+       angriper med?
+       Er det forskjell sett ut i fra om vi leder, ligger under eller at det er uavgjort?
+       Hvor ofte er vi i posisjonell balanse?
+       Hvor ofte er vi numerisk balanse?
+       Hva blir sluttproduktet av innlegget? Hvor mange mål, målsjanser og
+       avslutninger får vi mot oss? Og hvor kommer disse fra?
+       Hvordan spiller de ulike dimensjonene inn? Det individuelle, strukturelle,
+       relasjonelle og kampdimensjonen.
+
+Metode
+
+Jeg har sett kamper med lag som Chelsea, Manchester United og Barcelona, for å se
+hvordan de forsvarer seg på innlegg i mot.
+
+Jeg har valgt å bruke kampanalyse av våre 8 siste kamper i Adeccoligaen i 2010, som
+utgangspunkt for drøftingen av oppgaven. Dette var en viktig fase i sesongen for oss, og
+vil nok gi et bra bilde på hva vi står for. I løpet av denne perioden fikk vi 125 innlegg mot
+oss mot etablert forsvar, noe som gjør at jeg har samlet inn nok data til å vurdere
+funnene på en valid måte.
+
+Jeg har gjort noen klare definisjoner, slik at inndelingen av innsamlet data skal vises
+lettere. Det er f.eks. hvor innleggene slåes fra, farlig/ufarlig sone, eller hvor grensen går
+for første/midtre/bakre sone foran mål.
+
+Jeg har valgt å bruke både kvantitativ og kvalitativ analyse som metode.
+
+   1. Gjennom kvantitativ metode samlet jeg inn data på hvordan samtlige
+       innleggsituasjoner i de 8 siste kampene så ut. Da fikk jeg for eksempel et bilde på
+       i hvilke tidssoner innleggene ble slått i, og om de kom fra farlig eller ufarlig sone.
+       Jeg fikk også se om vi hadde numerisk og posisjonell balanse, og hvilke soner
+       dette gjaldt i. Hvordan så det ut når man koblet dette opp mot avslutninger,
+       målsjanser og mål?
+
+
+
+
+                                                                                            46
+     2. I den kvalitative analysen, valgte jeg ut enkelte av situasjonene som førte til
+        baklengsmål og sjanser i mot. Da kunne jeg gå mer i dybden, for å få en større
+        forståelse for hva som hadde skjedd i den aktuelle situasjonen. Det er alltid flere
+        faktorer som henger sammen, og det er lettere å se denne sammenhengen når
+        man går mer i dybden.
+
+Teori
+
+Jeg viser hvordan vi som lag ønsker å forsvare oss mot innlegg i mot, og går gjennom
+noen vanlige situasjoner som kan oppstå. Kort forklart ønsker vi å ha et overtall i farlig
+område foran mål, der stopper på ballside ”soner” i rommet ut fra første stang og at vi
+markerer samtlige motspillere.
+
+I dette kapittelet beskriver jeg også hva som ligger i de fire dimensjonene, og hvordan
+disse henger sammen med hverandre.
+
+
+
+
+Resultater/diskusjon
+
+Jeg går gjennom både den kvantitative og kvalitative analysen og går gjennom
+problemstillinger og underproblemstillinger i lys av det. Påstandene jeg kommer med i
+starten av oppgaven, blir i stor grad støttet opp av funnene jeg gjør i analysen.
+
+Jeg konkluderer med at vi ikke har like god kontroll på alle soner. Første sone har vi full
+kontroll på, mens vi ikke har like god kontroll i de andre sonene. Dette er funn nummer
+1.
+
+Vi har god kontroll i starten av kampene, men får større problemer utover i kampene.
+Dette er funn nummer 2.
+
+Det er noen situasjoner som går igjen i flere av målsjansene og avslutningene vi får mot
+oss. Dette er funn nummer 3. Les hele oppgaven for utdyping av disse situasjonene.
+
+Jeg konkluderer med at vi har større problemer med å forsvare oss mot innlegg som blir
+slått fra farlig sone. Dette er funn nummer 4.
+
+Vi klarer bare delvis å justere forsvarsspillet etter motstanders spill. Dette er funn
+nummer 5.
+
+                                                                                          47
+Jeg konkluderer med at det ikke var noen påvist forskjell på hvor effektivt vi forsvarte
+oss avhengig om vi ledet eller lå under. Dette er funn nummer 6.
+
+Jeg konkluderer med at den numeriske balansen er ok, men kan bli bedre. Den
+posisjonelle balansen er derimot alt for ofte dårlig. Dette er funn nummer 7.
+
+
+
+
+                                                                                           48
+REFERANSELISTE
+
+
+  -   Helstrup, Gaute: Trener II-oppgave, 2010.
+  -   www.nifs.no
+  -   Bryne – TUIL 12.09.10, DVD fra Nrk.
+  -   Sarpsborg08 – TUIL 26.09.10, DVD fra Nrk.
+  -   TUIL – Strømmen 03.10.10, DVD fra Nrk.
+  -   TUIL - Moss 10.10.10, DVD fra Nrk.
+  -   Mjøndalen – TUIL 17.10.10, DVD fra Nrk.
+  -   TUIL – Follo 24.10.10, DVD fra Nrk.
+  -   Fredrikstad – TUIL 31.10.10, DVD fra Nrk.
+  -   TUIL – Bodø/Glimt 07.11.10, DVD fra Nrk.
+
+
+
+
+                                                  49
+

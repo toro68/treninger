@@ -1,0 +1,2572 @@
+               Trener III-oppgave 2006/2007
+
+                         Dag Riisnæs
+
+
+
+
+ Sidebacken høyt i banen – det nye angrepsvåpenet.
+Hva kreves i så måte av backen og av resten av laget?
+Med utgangspunkt i en kampanalyse av topp internasjonal klubbfotball
+
+
+
+                        Oslo, 6. februar 2007
+FORORD
+
+Jeg begynte arbeidet med oppgaven tidlig høst 2006. Jeg valgte i starten å lese mye
+fotballitteratur for å få økt kunnskap og for å få impulser fra andre. I tillegg startet jeg
+arbeidet med å bearbeide data og med å utforme problemstillinger.
+Problemstillingene mine endret seg noe etter hvert som tida gikk, men temaet har
+hele tida vært det samme. Jeg har mye erfaring fra oppgaveskriving og vet at ting
+ofte endrer seg underveis i takt med økt kunnskap, og kanskje spesielt i takt med hva
+slags datamateriale en sitter inne med.
+
+Jeg føler jeg har lært mye. Arbeidet har vært spennende for en som er, og alltid har
+vært, genuint opptatt av fotball som fag. Jeg har hatt fruktbare diskusjoner med
+veileder Larsen og fått mange innspill, fra både han og andre. Jeg mener selv jeg
+generelt er åpen for å lære av andre og lytte til andre. Det mener jeg er avgjørende
+for egen utvikling. Og målet må jo alltid være å bli litt klokere. Etter et langt fotballiv
+som spiller, trenererfaring fra 2.divisjon og så fem år i NFF, er jeg rimelig sikker på at
+jeg kan en god del fotball. Som spiller ble jeg gjerne sett på som en ”trenertype” som
+ofte reflekterte en del mer over spillet enn de fleste andre. Samtidig er jeg klar over at
+jeg definitivt aldri blir ”utlært”. En konstruktiv fotballdiskusjon er derfor alltid
+kjærkommen, og slike har det blitt mange av i det siste.
+
+Jeg har forsøkt å ikke være forutinntatt og subjektiv underveis, noe jeg kommer
+nærmere inn på i metodekapitlet. Dette er ikke alltid like enkelt når en brenner for et
+tema og håper å finne data som underbygger eget ståsted.
+
+Det har vært en utfordring å ferdigstille oppgaven i tide, da ryggproblemer satte meg
+en del tilbake etter nyttår. Min entusiasme og interesse for temaet bidro til at jeg
+likevel holdt tempoet oppe.
+
+Det har vært en givende prosess!
+
+Ønsker spesielt å takke Øyvind Larsen og Andreas Morisbak for at de har bidratt til
+min egenutvikling i trenerfaget de senere årene. Øyvind Larsen har også vært en
+viktig støttespiller i arbeidet med oppgaven.
+
+
+
+
+Oslo, februar 2007
+Dag Riisnæs
+
+
+
+
+                                                                                           2
+INNHOLDSFORTEGNELSE
+1         BAKGRUNN FOR OPPGAVEN ............................................................................... 4
+2         PROBLEMSTILLINGER........................................................................................... 7
+  2.1     Tema............................................................................................................................ 7
+  2.2     Problemstilling ............................................................................................................ 7
+  2.3     Underproblemstillinger ............................................................................................... 7
+  2.4     Hvorfor disse problemstillingene? .............................................................................. 7
+3         METODE .................................................................................................................... 9
+  3.1     Litteraturstudie ............................................................................................................ 9
+  3.2     Kampanalyse ............................................................................................................... 9
+     3.2.1      Om kampanalyse generelt .................................................................................. 9
+     3.2.2      Metodebruken i oppgaven.................................................................................. 9
+     3.2.3      Kvantitativ analyse........................................................................................... 10
+     3.2.4      Kvalitativ analyse............................................................................................. 11
+     3.2.5      Feilkilder .......................................................................................................... 11
+4         TEORI ....................................................................................................................... 14
+  4.1     Utviklingen av fotballforståelse i Norge ................................................................... 14
+  4.2     Fotballferdighet ......................................................................................................... 20
+     4.2.1      Den individuelle dimensjonen.......................................................................... 20
+     4.2.2      Den relasjonelle dimensjonen .......................................................................... 22
+     4.2.3      Den strukturelle dimensjonen........................................................................... 22
+     4.2.4      Kampdimensjonen............................................................................................ 23
+     4.2.5      Oppsummering av de fire dimensjonene og deres betydning .......................... 23
+  4.3     Trender i angrepsspillet i dagens toppfotball – kombinert med forfatterens syn på
+          fotball ........................................................................................................................ 24
+5         RESULTATER/DISKUSJON .................................................................................. 27
+  5.1     Hvordan spilte lagene? .............................................................................................. 27
+  5.2     Scoringer UEFA Champions League 2005/2006...................................................... 28
+  5.3     Kvantitativ analyse av scoringene i UEFA Champions League 2005/2006 ............. 28
+  5.4     Kvalitativ analyse av fem utvalgte scoringer, med utgangspunkt i de fire
+          dimensjonene som påvirker fotballferdigheten ......................................................... 29
+  5.5     Kvantitativ og kvalitativ kampanalyse...................................................................... 40
+     5.5.1      Milan – Barcelona, kamp 1 .............................................................................. 41
+     5.5.2      Barcelona – Milan, kamp 2 .............................................................................. 42
+     5.5.3      Oppsummering av kampanalysen i de to semifinaleoppgjørene...................... 43
+  5.6     Oppsummering av analysen - konklusjon ................................................................. 44
+  5.7     Hvordan forbedre lagets evne til å involvere back høyt i banen på treningsfeltet? .. 46
+REFERANSELISTE ................................................................................................................ 49
+SAMMENDRAG ..................................................................................................................... 50
+VEDLEGG ............................................................................................................................... 53
+
+
+
+
+                                                                                                                                           3
+1 BAKGRUNN FOR OPPGAVEN
+I dagens toppfotball kan ikke lagene lenger tillate seg at noen ”står back”. Den
+”moderne backrollen” er et tema jeg har vært opptatt av i lengre tid. Jeg har lenge
+ment at lag som er dyktige til å frigjøre en back høyt i banen, spesielt mot etablert
+forsvar eller mot delvis etablert forsvar (mot lag delvis i balanse), har større sjanse for
+å skape gjennombrudd – og derigjennom målsjanser og scoringer. Dette fordi
+dagens toppfotball preges av at mange lag er godt organisert i forsvar og det er
+vanskelig å bryte ned motstander uten også å angripe med spillere fra det bakre
+leddet.
+
+Evnen til å skape og utnytte rom på kant, gjerne etter hurtig vending av spillet, kan
+være det lille ekstra som skal til for å oppnå gjennombrudd. Dette fordi mange lag
+velger et forsvarsspill hvor de konsentrerer laget sitt i området der ballen er og der
+trusselen ser ut til å være.
+
+Likevel slår det meg ofte hvor lite bevisste eller lite dyktige mange lag på høyt nivå er
+når det gjelder å frigjøre og involvere backen høyt i banen – og gjerne på
+motstanders banehalvdel. Jeg er i denne sammenheng mest opptatt av situasjoner
+hvor motstanders fremste pressledd er borte. Dette kan være etter en vellykket
+frispilling – eller etter ballerobring pluss/minus midtbanen.
+
+Min påstand er at mange lag trener mye på frispilling i det bakre leddet, men for lite
+på det som skjer når ballen er høyere i banen og motstanders øverste pressledd er
+borte.
+
+Jeg ønsket altså å skrive en oppgave der jeg belyser betydningen av å involvere
+backene høyt i banen i angrep mot etablert forsvar eller delvis etablert forsvar.
+Målsettingen min var å vise hvor effektivt det er å involvere backen høyt i banen. I
+tillegg vise hva som kreves av backen og av resten av laget for å få det til.
+
+For å belyse dette er det for meg viktig å se fotball i et helhetlig perspektiv. Det å se
+på individuell fotballferdighet hos sideback alene synes jeg ikke er spesielt
+interessant. I fotball henger ting sammen. Når fotball skal vurderes og analyseres er
+mitt ståsted at vi må benytte et flerdimensjonalt perspektiv, med utgangspunkt i:
+
+   -   individuell dimensjon
+   -   relasjonell dimensjon
+   -   strukturell dimensjon
+   -   kampdimensjonen
+
+Dette fordi alle disse fire dimensjonene påvirker fotballferdigheten. Det er mange
+faktorer som betyr noe for at en spiller/et lag skal lykkes. Figuren nedenfor viser
+hvordan de tre første dimensjonene har sammenheng med den fjerde.
+
+
+
+
+                                                                                            4
+Figur 1. Sammenhengen mellom individuell ferdighetsdimensjon, relasjonell
+ferdighetsdimensjon og kollektiv spillstruktur (Fra Bergo, Johansen, Larsen,
+Morisbak, 2003).
+
+
+
+Gjennom en lang karriere i toppfotballen er jeg også overrasket over hvor stor
+variasjon det er hos norske topptrenere i forhold til å se fotball med flerdimensjonale
+briller. Jeg har hatt trenere som helt klart har hatt evnen til å vurdere fotball i et
+helhetlig perspektiv, men jeg har også sett eksempler på det motsatte, der fotball
+først og fremst vurderes ut fra den individuelle og strukturelle dimensjonen.
+Oppgaven vil forhåpentligvis vise at fotball må vurderes flerdimensjonalt.
+
+For å belyse temaet har jeg valgt kampanalyse, både kvalitativt og kvantitativt. Først
+kvantitativt for å få fram tall som viser gevinsten av å benytte sideback høyt i banen,
+deretter kvalitativt for å kunne gå i dybden på hva som skjer når laget lykkes med
+denne måten å angripe på. Det siste ser jeg da i lys av de fire dimensjonene.
+
+
+                                                                                          5
+Nedenfor ser vi et eksempel på en typisk situasjon jeg er opptatt av. Motstanders
+fremste pressledd er borte, og venstre back frigjøres høyt i banen gjennom vending
+av spillet.
+
+
+
+
+Figur 2. Eksempel på backinvolvering høyt i banen mot etablert forsvar eller
+delvis etablert forsvar
+
+
+
+
+                                                                                     6
+2 PROBLEMSTILLINGER
+2.1 Tema
+Sidebacken høyt i banen – det nye angrepsvåpenet. Hva kreves i så måte av backen
+og av resten av laget?
+
+Med utgangspunkt i en kampanalyse av topp internasjonal klubbfotball.
+
+
+2.2 Problemstilling
+Hvilke gevinster får laget ved å involvere sidebacker i angrepsspillet høyt i banen mot
+etablert forsvar eller delvis etablert forsvar?
+
+
+2.3 Underproblemstillinger
+   •   Hva kreves av fotballferdighet i de ulike rollene i laget for å lykkes med å
+       involvere backen høyt i banen mot etablert forsvar eller delvis etablert forsvar,
+       til beste for laget?
+            • Hva kreves individuelt?
+            • Hva kreves relasjonelt?
+            • Hva kreves strukturelt?
+            • På hvilken måte spiller kampdimensjonen inn?
+            • Hvordan kan punktene ovenfor trenes på i hverdagen?
+
+
+I metodekapitlet vil jeg forklare hvordan jeg har gått fram for å belyse
+problemstillingene.
+
+
+2.4 Hvorfor disse problemstillingene?
+Fordi jeg mener å ha observert at:
+   • Betydningen av backinvolvering høyt i banen, etter at motstanders fremste
+       pressledd er borte, er nærmest fraværende i den norske fotballdebatten. Som
+       vi senere skal se, kommer mange scoringer etter backinvolvering høyt i
+       banen. Da må vi også forvente at det i tillegg skapes mange målsjanser etter
+       samme type angrep. Likevel virker det som om mange i Norge, kanskje
+       spesielt de tre-fire siste årene, har et mye større fokus på frispillingsfasen
+       (selv om den også er viktig). Jeg savner fokus på hva som bør skje i laget
+       etter frispillingsfasen og også hva som bør skje når laget får ballerobring
+       pluss/minus midten. I Norge snakkes det mest om frispillingsfasen når det
+       diskuteres hvordan det bør angripes mot etablert eller delvis etablert forsvar.
+
+   •   Det er en tendens blant Europas beste lag til at en forsøker å skape og utnytte
+       rom på sidene etter hurtig vending av spillet, for så å forsøke å doble på kant.
+       Dette var et bevisst virkemiddel hos flere lag i VM i Tyskland, med tanke på å
+       kunne bryte ned motstanderen og skape gjennombrudd. Sidebacken er den
+       moderne fotballens breddeholder. Mange balanserer da med to stoppere og to
+       midtbanespillere, med tanke på å minimalisere risikoen for overgang i mot.
+
+
+
+                                                                                       7
+       Det vi ser er at dagens gjennomorganiserte forsvarsspill gjør det vanskelig å
+       spille seg gjennom sentralt. Det må derfor angripes på motstanders
+       banehalvdel med spillere fra det bakre leddet. De lagene som gjør dette,
+       bruker nesten utelukkende sidebacker og ikke midtstoppere (NFFs rapport fra
+       fotball-VM 2006).
+
+   •   Lag som ikke evner eller ønsker å bruke sidebackene høyt i banen i
+       angrepsspillet kan da ha dårligere forutsetninger for å skape gjennombrudd,
+       og kan være mer forutsigbare, enn lag som behersker dette.
+
+   • Hvor høyt en sideback velger å posisjonere seg, avhenger av enkeltspillerens
+       og medspillernes evne til å oppfatte, vurdere og bestemme seg tidlig og riktig,
+       med tanke på hva som sannsynligvis inntreffer i neste fase. Med andre ord
+       spillerens evne til å ta valg til beste for laget.
+
+Punktene ovenfor kan knyttes til de fire dimensjonene som påvirker
+fotballferdigheten, og vil omtales nærmere i teorikapitlet og i resultat-
+/diskusjonskapitlet.
+
+
+
+
+                                                                                     8
+3 METODE
+3.1 Litteraturstudie
+- Relevant norsk og internasjonal fotballitteratur som omhandler tema, samt UEFAs
+rapport fra Champions League. Se litteraturliste.
+
+
+3.2 Kampanalyse
+3.2.1 Om kampanalyse generelt
+Engelske Charles Reep står sentralt når det gjelder utvikling av kampanalyse i fotball.
+Han var på mange måter en pioner på området da han på 50- og 60-tallet fordypet
+seg i engelske og internasjonale toppkamper. Reep bidro sterkt til at forskning i
+større grad fikk innflytelse når det gjelder valg av måte å spille på. Han brukte
+analyse blant annet til å få mer kunnskap om hva som er den mest effektive måten å
+angripe på.
+
+ I Norge kom kampanalysen for alvor på kartet gjennom Egil Olsen. Temaet er viet et
+eget kapittel i boka ”Effektiv Fotball”, 1994 (Larsen, Olsen, Semb). Jeg har selv hatt
+Egil Olsen som trener og vet hvordan han bruker kampanalysen som et virkemiddel i
+spillervurderingen sin (spilleranalyse), men først og fremst til å foreta riktige strategi-
+og taktikkvalg. Boka ”Effektiv Fotball” poengterer for øvrig at en god analyse krever
+både kvantitative og kvalitative data. Tall alene er ikke nok. Målet må være å få mer
+kunnskap om hvordan laget kan framstå mest mulig effektivt ut fra fotballens ide om
+å score flere mål enn motstanderen. Da dreier det seg om hvordan enkeltspilleren og
+laget bør framstå i angrep og forsvar.
+
+Jeg er selv tilhenger av hyppig bruk av video/DVD som verktøy. Dette til bruk for
+trenerteamet, men også med tanke på å bevisstgjøre laget/lagdelen/enkeltspilleren. I
+toppfotballen blir det stadig mindre marginer og små detaljer kan være
+utslagsgivende. Derfor blir analyse bare viktigere og viktigere og i dag ser vi at
+norske toppklubber ansetter fagfolk som kun jobber med dette temaet.
+
+
+3.2.2 Metodebruken i oppgaven
+Jeg har valgt ut data fra UEFA Champions League 2005/2006. Denne turneringen er
+valgt ut fordi jeg ønsket å bruke det ypperste av hva europeisk fotball har å by på. Da
+var jeg overbevist om at jeg ville få bilder som kunne illustrere temaet i oppgaven på
+en god måte.
+
+Jeg benytter både kvantitativ og kvalitativ metode, fordelt på tre ulike analyser:
+
+1. Kvantitativ metode for å kartlegge hvordan alle scoringene kom i UEFA
+Champions League 2005/2006. Hensikten er å belyse hvor mange scoringer som
+kommer etter backinvolvering høyt i banen, for å illustrere lagets gevinster ved å
+lykkes med denne delen av spillet. Vi må gå ut fra at hvis et lag scorer flere mål på
+denne typen angrep, vil laget også generelt skape målsjanser og gjennombrudd på
+samme måte.
+
+
+
+
+                                                                                          9
+I tillegg er hensikten å finne ut hvilke lag som scoret mest mål ved backinvolvering
+høyt i banen, for derigjennom lettere å kunne velge ut lag som lyktes med denne
+delen av spillet, til bruk i den kvalitative analysen.
+
+2. Kvalitativ metode gjennom å analysere fem utvalgte scoringer i et flerdimensjonalt
+perspektiv. Jeg viser hva som er viktig å beherske for sideback og for resten av laget
+for å lykkes med å involvere sideback høyt i banen. Analyse nummer 1 resulterte i at
+jeg valgte ut AC Milan og Werder Bremen som lag jeg ville gå i dybden på. Begge lag
+scoret flere mål etter backinvolvering høyt i banen mot etablert forsvar eller delvis
+etablert forsvar. Felles for begge lagene er en 4-4-2-formasjon med diamant på
+midten. Dette innebærer at sidebackene faktisk blir lagets breddeholdere. Utvalget er
+altså ikke tilfeldig, men bevisst. Når jeg foretar en kvalitativ vurdering fant jeg det
+viktig å vise hva som kjennetegner ”best practice”.
+
+3. En kombinasjon av kvantitativ og kvalitativ metode gjennom analyse av AC Milans
+to kamper i semifinalen. Jeg ønsket å se enda nærmere på AC Milan fordi de var det
+laget som scoret mest mål på denne type angrep. Jeg valgte ut de to kampene mot
+Barcelona for å få enda mer kunnskap om hvordan Milan angriper og om hvor
+effektivt det er.
+
+Mange ville kanskje valgt å analysere finalen i turneringen. Dette var aldri aktuelt på
+grunn av Arsenals (Lehmann) tidlige utvisning i kampen mot Barcelona. Kampbildet
+ble naturlig nok preget av dette. Semifinaleoppgjørene anses derfor å være mer
+representative med tanke på temaet i oppgaven
+
+
+3.2.3 Kvantitativ analyse
+Når et visst antall scoringer kommer etter backinvolvering høyt i banen, må vi gå ut
+fra at lagene i tillegg produserer sjanser som ikke omsettes i scoringer på samme
+måte. Norges A-landslag scorer eksempelvis på ca 1 av 5 sjanser. I tillegg må vi
+kunne forutsette at antall gjennombrudd er klart høyere enn antall målsjanser. Ingen
+lag scorer på alt - og ingen kommer til målsjanser hver gang en klarer å bryte ned
+motstanderen. Antall scoringer bør derfor med relativt stor grad av sikkerhet gi meg
+en god pekepinn på hvor effektivt en backinvolvering høyt i banen er i europeisk
+toppfotball.
+
+Den kvantitative analysen viser hvor mange scoringer som kom etter backinvolvering
+høyt i banen – og også hvor mange prosent dette utgjør av totalen. I tillegg hvor
+mange prosent av scoringene mot etablert forsvar/delvis etablert forsvar som kom på
+samme måte.
+
+I tillegg har jeg i analyse 3 valgt ut ett lag som scoret en god del mål på å beherske
+denne delen av spillet; AC Milan. Dette laget er studert i to hele kamper mot samme
+motstander, både hjemme og borte. Jeg har da valgt å ta for meg AC Milan i
+semifinaleoppgjørene mot FC Barcelona. Jeg vurderte å analysere begge lagene,
+men valgte å holde meg til AC Milan. Dette fordi forholdsvis få av Barcelonas
+scoringer i Champions League kom etter backinvolvering høyt i banen. Likevel mener
+jeg at en av årsakene til Barcelonas scoringer mot etablert forsvar/delvis etablert
+forsvar ofte kommer fordi laget posisjonerer backene sine svært høyt og strekker
+med kantene. Det gjør det vanskelig for motstander. Men direkte backinvolvering
+
+
+                                                                                       10
+høyt i banen var sjelden å se hos Barcelona. En årsak kan være lagets utpregede 4-
+3-3-formasjon.
+
+Jeg ser på Milans målsjanser i disse to kampene og på hvordan disse oppsto. I
+tillegg ser jeg på antall ganger Milan kom inn i siste tredjedel av banen med
+ballkontroll, mot etablert forsvar eller delvis etablert forsvar. Så ser jeg på hvor
+mange prosent av disse angrepene som kom etter backinvolvering høyt i banen.
+
+Denne kvantitative analysen gjør meg enda tryggere på at funnene i analyse 1
+(scoringsanalysen) er valide.
+
+
+3.2.4 Kvalitativ analyse
+Jeg har et klart inntrykk av at de lagene med diamantformasjon på midten var de som
+scoret mest mål etter backinvolvering høyt i banen. AC Milan og Werder Bremen er
+gode eksempler og derfor naturlige å gå i dybden på. Begge disse spilte med
+diamant, altså uten rene kantspillere. Analyse 1 (kvantitativ) hjalp meg altså til å
+identifisere to lag som var dyktige til å bruke sideback høyt i banen.
+
+Når de fem scoringene analyseres, har jeg sett på hva som skjer i forhold til de fire
+dimensjonene som påvirker fotballferdigheten.
+
+Eksempler:
+   - Hva gjør backen når laget vinner ballen?
+   - Hva gjør førsteangriper etter ballerobring?
+   - Hvilke bevegelser muliggjør at backen får ballen i gunstig posisjon?
+   - Hvordan opprettholdes balansen i laget når backen på ballsida går høyt og blir
+     med i angrep?
+   - Hvilke muligheter får backen i denne fasen og hvilke relasjoner skapes?
+   - Hvordan opptrer motstanderen, slik at rom skapes og utnyttes?
+
+Jeg beskriver nøyaktig hva som skjedde ved disse fem scoringene, gjennom en
+flerdimensjonal analyse av angrepene. Det gir meg kunnskap om hva som kreves av
+et lag for å lykkes med å involvere sideback høyt i banen mot etablert forsvar eller
+delvis etablert forsvar.
+
+Den kvantitative analysen gir meg altså kunnskap om mulige gevinster et lag kan få
+ved høy backinvolvering, mens den kvalitative analysen gir meg kunnskap om hva
+som kreves av backen og av resten av laget.
+
+Analysen av Milans to semifinaleoppgjør er også til dels kvalitativ. Dette fordi jeg, i
+tillegg til det som står om disse to kampene i det kvantitative avsnittet, også foretok
+en generell vurdering av kampene, sett i lys av de fire dimensjonene.
+
+
+3.2.5 Feilkilder
+1. I den kvantitative analysen er det ikke alltid lett å avgjøre om et angrep er mot
+etablert forsvar eller om det er en overgang. I analysen av scoringer er det mulig at
+jeg ubevisst er på jakt etter gode eksempler, og dermed kategoriserer noe subjektivt.
+Jeg håper å ha gjort dette så lite som mulig. Her har jeg kalt det angrep mot etablert
+
+
+                                                                                          11
+forsvar hvis forsvarende lag er helt eller delvis i balanse. Det er imidlertid viktig å
+være klar over at dette skillet kan være uklart. Veldig mange angrep starter ved
+brudd pluss/minus midten og hvor forsvarende lag bare delvis er i balanse.
+
+2. Jeg kan ikke utelukke at min oversikt over scoringer som kommer ved
+backinvolvering høyt i banen kan være noe annerledes enn hva en annen person
+ville kommet fram til. Kategoriseringen har vært vrien, det oppsto stadig tvilstilfeller.
+Hvor går grensa mellom frispilling og backinvolvering høyt i banen? Min definisjon på
+backinvolvering høyt i banen er hvis første pressledd er borte og sideback har
+mulighet til å sette fart inn i ledig rom.
+
+Og må backen få ballen for å kalle det en involvering - eller er det tilstrekkelig at han
+er delaktig i angrepet gjennom å ta initiativ og skape rom og muligheter for andre,
+uten å få ballen? Her er mitt svar ja. Barcelona har for øvrig flere slike eksempler.
+Jeg har definert det som en backinvolvering høyt i banen hvis jeg mener det fikk
+betydning for angrepet. Jeg har forsøkt å vurdere når backens bevegelse har vært
+avgjørende for at det kommer et gjennombrudd og en nedbryting av motstanders
+forsvar.
+
+Til syvende og sist har det blitt noe skjønn, men jeg føler meg trygg på at en noe
+annerledes kategorisering ikke ville gitt særlig avvikende resultater.
+
+3. Ved bare å se på angrep som resulterer i scoringer, kan jeg ha fått et skjevt bilde
+av hvilke lag som er dyktige i denne delen av spillet. Jeg kan derfor ikke konkludere
+med at et lag er bedre enn et annet på området. Men jeg kan derimot slå fast hvilke
+lag som scoret mål ved hjelp av blant annet backinvolvering høyt i banen i denne
+utgaven av Champions League. Mitt mål var da heller ikke å rangere lagene, men å
+illustrere og diskutere temaet best mulig, uavhengig av lag.
+
+4. Jeg kan ikke uttale meg generelt om hvordan Milan og Werder Bremen opptrer i
+angrep mot etablert forsvar eller delvis etablert forsvar. Jeg kan derimot si noe om
+hvordan de angrep i de kampene og ved de scoringene jeg har analysert. Jeg kan
+imidlertid anta at kampene/scoringene er representative for hvordan de pleier å
+opptre kollektivt og individuelt, spesielt etter å ha sett lagene gjentatte ganger i
+viktige oppgjør på TV.
+
+5. TV-bilder gir ikke alltid et fullgodt bilde av en situasjon. I noen tilfeller har det vært
+vanskelig å vurdere den relasjonelle dimensjonen og den strukturelle dimensjonen
+fordi bildene i stor grad viser det som skjer rundt ballfører. Avstander, bevegelse
+foran ballfører etc. kan da være vrient å vurdere. I tillegg er kampdimensjonen
+enkelte ganger vanskelig å uttale seg presist om. For å si noe 100 prosent sikkert om
+de muligheter og begrensninger motstanderen gir laget, er en avhengig av å se store
+deler av banen.
+
+6. Jeg har ikke eksakt oversikt over hvor mange lag som spiller med
+diamantformasjon. Hvis vi rent hypotetisk forestiller oss at 90 prosent av lagene
+brukte diamant, vil trolig tallet på backinvolveringer høyt i banen være langt høyere
+enn hos lag som ikke benytter diamant. Dette fordi sidebackene ofte blir
+breddeholdere i angrep hos ”diamantlag”. Hensikten med oppgaven har ikke vært å
+belyse ”diamantlag” spesielt, heller ikke å måle disse lagenes angrepsspill opp mot
+
+
+                                                                                          12
+andre formasjoner. Hensikten har imidlertid vært å vise gevinster ved backinvolvering
+høyt i banen, uavhengig av formasjon. I tillegg vise hva dette krever av backen og av
+resten av laget, uavhengig av formasjon.
+
+7. Jeg vet ingen ting om hvorvidt det å angripe med backer høyt i banen er mer
+effektivt enn ikke å gjøre det. Barcelona vant turneringen, uten å ha vært spesielt
+effektive på dette. Imidlertid kan jeg si noe om hvorvidt backinvolvering høyt i banen
+var effektivt i denne Champions League-turneringen. Det kan imidlertid tenkes at det
+finnes andre angrepsvåpen som er minst like effektive, ref. Barcelona.
+
+8. Jeg har sett på hvordan lag som angriper med back høyt i banen opprettholder
+balansen i laget ved å holde igjen en eller to i midtbaneleddet. Jeg kan imidlertid ikke
+utelukke at det finnes svakheter ved å benytte backene høyt i banen, verken når det
+gjelder angreps- eller forsvarsspill. Dette belyses ikke i oppgaven.
+
+
+Indirekte kampanalyse – både kvantitativ og kvalitativ har altså sine metodiske
+svakheter. Dog er og blir det den beste måten å beskrive, belyse og forutsi
+fotballspillets mysterier.
+
+En kombinasjon av et liv i fotballmiljøet, god og relevant fotballteori- og litteratur,
+samt analytiske grep gjennom kampanalyse, gir valide og reliable svar.
+
+God lesing!
+
+
+
+
+                                                                                          13
+4 TEORI
+4.1 Utviklingen av fotballforståelse i Norge
+Nærmest alle virker å være interessert i fotball. Dermed ikke sagt at alle har greie på
+dette fascinerende spillet. Og enda færre er det som virkelig har spillets ide ordentlig
+inn under huden. Jeg har for eksempel inntrykk av at mange fortsatt forbinder
+fotballferdighet med teknikk. Det er bare en liten del av sannheten.
+
+Briten Allan Wade ga i 1967 ut en bok som skulle få stor innflytelse også på
+utviklingen av norsk fotball. Boka het ”FA.Guide for Training and Coaching”. Sentrale
+aktører i norsk trenerutvikling som Andreas Morisbak og Nils Arne Eggen må kunne
+sies å være inspirert av Wade. Britiske Wade systematiserte en modell med
+spilleprinsipper om hva angreps- og forsvarsspill dreier seg om. I tillegg hadde han,
+sett i et ferdighetsperspektiv, ikke bare fokus på teknikk (utførelse), men også stort
+fokus på valget en spiller må ta i en gitt situasjon. Summen av valg og utførelse
+utgjør i dag det vi kaller fotballferdighet.
+
+
+
+
+Figur 4. Definisjon på fotballferdighet (Fra Bergo, Johansen, Larsen, Morisbak,
+2003)
+
+
+
+
+                                                                                      14
+Wades spilleprinsipper kan settes opp slik:
+Angrep: Gjennombrudd, bredde, bevegelse, improvisasjon, skape rom
+Forsvar: Oppholde, konsentrere, balanse, tålmodighet, nekte rom
+
+Prinsippene ble ansett som likeverdige. Samtidig vil den observante leser se at for
+hvert angrepsprinsipp ligger et motsvarende forsvarsprinsipp.
+
+Tidligere fotballitteratur hadde i stor grad dreid seg om isolert teknisk trening. Wades
+læringsteori påvirket mange trenere til å gå fra et ensidig fokus på delferdigheter til
+å se helheten i spillet. Wades metode for læring var å ha et tema for økta, for så å
+velge spesielle momenter knyttet til tema. En økt burde så gjennomføres etter
+metoden ”hel-del-hel”, der han mener spillerne først må se helheten i spillet for å
+forstå hva som må forbedres/utvikles. Kampen må være utgangspunktet for all
+trening og læring, derfor må en begynne i hel. Deretter må deløvelser organiseres
+slik at momentene dukker opp så ofte som mulig. Til slutt vil en da ønske
+gjenkjenning i det en har øvd på ved å se igjen det samme i hel – altså i en
+spillsekvens. Wade mente dette var den beste metoden å bevisstgjøre spillerne på.
+
+Det er interessant å registrere, ref. oppgavens tema, at Wade var opptatt av at en i
+angrepsspillet måtte skape og utnytte rom. Han så dette som en forutsetning for å
+kunne bryte ned motstanders forsvar. Dette kan overføres til backinvolveringer høyt i
+banen etter hurtig vending av spillet. Rom skapes og utnyttes.
+
+Øyvind Larsens hovedoppgave fra NIH (1992) inneholder blant annet en beskrivelse
+av hvordan Egil Olsen kritiserte Wades spilleprinsipper. Poenget med å dra inn Wade
+i denne sammenhengen er da heller ikke å hevde at hans modell var perfekt, men at
+den utvilsomt ble et meget viktig utgangspunkt for videre utvikling av norsk fotball.
+
+
+
+
+Figur 5. Wades spilleprinsipper, modifisert av Larsen, Olsen, Semb, 1994 (Fra
+Bergo, Johansen, Larsen, Morisbak, 2003)
+
+
+Sentrale aktører i Norge lot seg altså inspirere av Wade og utviklet egne tanker og
+egen litteratur på området. NFFs trenerutdanning vokste gradvis fram fra slutten av
+60-tallet. Fra å begynne med et generelt A-kurs, ble det utviklet høyere
+
+
+                                                                                      15
+trenerutdanning som tok utgangspunkt i Wades tanker om læringsteori,
+spilleprinsipper, tema og momenter. I 1978 kom Morisbaks bok ”Fotballforståelse”.
+Boka beskriver hvordan valg og utførelse til sammen utgjør fotballferdigheten – og
+også hvordan denne kan øves. Forskjellen fra dagens litteratur er kanskje først og
+fremst en annen begrepsbruk, selv om fotballen jo har utviklet seg på mange måter
+de siste 25-30 årene.
+
+”Fotballforståelse” fra 1978 tok også utgangspunkt i spilleprinsipper fra Wade, som
+støtte, dybde, skape rom, nekte rom etc. Med andre ord: Nå skulle en ikke lenger
+bare spille fotball og i tillegg drive isolert teknisk trening, nå skulle en trene mer
+taktisk-teknisk. Utgangspunktet til blant annet Morisbak og Dreier var at teknisk
+trening er mest effektivt når en er høyt oppe på funksjonalitetsskalaen og
+situasjonene er mest mulig kamplike (spesifisitetsprinsippet).
+
+For en del år siden ble definisjonen av fotballferdighet endret til ”handlingsvalg og
+handling i en gitt situasjon, til beste for laget”. Med dette menes evnen til å foreta
+valg (oppfatte, vurdere, bestemme) og evnen til å utføre handlingen. Årsaken til
+endringen var primært at taktisk-teknisk ferdighet var misvisende fordi mange
+forbandt taktikk med lag og ikke med enkeltspillere.
+
+Det skal også sies at andre briter hadde betydning for utviklingen av norsk fotball.
+Blant annet må George Curtis nevnes fra sin periode som Rosenborg-trener. Han
+innførte en helt annen struktur i forsvarsarbeidet og systematiserte denne delen av
+spillet på en annen måte enn hva norske lag var vant med.
+
+I 80-årene ble Norge forbundet med en fotball preget av fysikk og god organisering,
+men for dårlig individuell fotballferdighet. Dette forsøkte NFF ved hjelp av flere
+prosjekter å gjøre noe med. I 1986 kom Morisbak, Dreier, Skarsfjord med boka ”God
+fotballferdighet”, som tok utgangspunkt i det nære forholdet mellom taktikk og teknikk
+og hva som da kreves av delferdigheter i forhold til valg og utførelse. Boka hadde
+riktignok hovedvekt på utførelse av handlingen (teknikk).
+
+
+
+
+Figur 6. Fotballferdighet framstilt som den taktisk-tekniske
+helhetssammenhengen (Fra Morisbak, Dreier, Skarsfjord, 1986)
+
+
+                                                                                         16
+I 1990 kom så Egil Olsen inn som landslagssjef, med klare tanker om hva som var
+effektiv fotball. Nå gikk Norges landslag inn i en stor periode resultatmessig, med et
+klart fokus på den strukturelle dimensjonen og på kampdimensjonen. Larsen, Olsen
+og Sembs bok ”Effektiv fotball” underbygget dette da den kom i 1994. Boka ble da
+også kritisert for ikke å fokusere nok på den individuelle og den relasjonelle
+dimensjonen.
+
+Det er vanskelig å peke på hva som var årsakene til det norske fotballeventyret i
+denne perioden, men trolig var det en kombinasjon av Olsens måte å spille på og at
+det hadde vokst fram en generasjon med spillere som også hadde god
+fotballferdighet, det vil si resultat av målrettet jobbing over tid. Mange av spillerne fikk
+også verdifull matching i utenlandske toppklubber som kanskje bidro til at de lettere
+kunne prestere i landskamper for Norge. Det er nok ingen dristig påstand å hevde at
+alle fire dimensjoner hadde betydning for landslaget i denne perioden, selv om den
+strukturelle kanskje betydde aller mest.
+
+Eksempler på at ikke bare kampdimensjonen og den strukturelle dimensjonen hadde
+betydning i ”Drillo-epoken”, er relasjonene Bjørnebye-Flo og Leonhardsen-Mykland.
+Gode eksempler på spillere som utfyller hverandre og som dermed gjør laget
+komplementært. Drillo var da også kjent for en nærmest rå dyrking av roller som
+enkeltspillere passet inn i.
+
+I 1999 kom boka ”Godfoten”, utgitt av Norges mest suksessrike klubbtrener Nils Arne
+Eggen. Boka handlet om betydningen av den relasjonelle dimensjonen og om å være
+gode sammen. Rosenborg er et eksempel på et lag som har hatt suksess med fokus
+på relasjonell ferdighet i laget, uten at det alene er hele forklaringen. De andre tre
+dimensjonene var nok sentrale også her, men Eggens rolletenking var utvilsomt
+viktig. Han var opptatt av komplementaritet i laget og i tillegg opptatt av instruksjon og
+bevisstgjøring, å påvirke gjennom bruk av læringsteori (mye likt Wade). Ti år tidligere
+hadde for øvrig Schou Andreassen (var også en sentral aktør i mange år) og Wadel
+utgitt en bok som også vektlegger det relasjonelle. Ingen er god alene, det handler
+om å gjøre hverandre gode. Det er nok ingen overdrivelse å hevde at Eggen var
+inspirert av både Wade og Wadel/Schou Andreassen.
+
+I 2003 kom boka ”Ferdighetsutvikling i fotball” (Bergo, Johansen, Larsen, Morisbak).
+Boka setter fotball inn i et enda mer helhetlig perspektiv og får fram at et fotballag er
+avhengig av alle de fire dimensjonene og at treneren må ta hensyn til alle deler av
+spillet for å lykkes. Poenget er at alle de fire dimensjonene påvirker
+fotballferdigheten.
+
+Oppsummert kan vi si at Wades modell la mye av grunnlaget for videre arbeid i
+Norge, og vi har nå gått fra fokus på spilleprinsipper til fokus på momenter. Modellen
+har også hatt stor betydning for det begrepsapparatet vi bruker i fotballterminologien.
+Begrepsapparat er viktig for at vi lettere skal kunne gå fra ord til handling i læringa.
+
+Alt dette nevnes for å vise at ulike trenere og forfattere har hatt, hver til sin tid, stor
+innflytelse når det gjelder norsk fotballs utvikling. I dag er vi inne i en periode hvor
+mange støtter det helhetlige synet på fotballspillet, der alle fire dimensjoner påvirker
+ferdigheten; altså et flerdimensjonalt syn på fotball. Denne oppgaven har da også det
+utgangspunktet.
+
+
+                                                                                          17
+Andre faktorer som påvirker spillet, som fysiske, psykiske og sosiale ressurser, tas
+ikke med i denne gjennomgangen og heller ikke i diskusjonskapitlet senere i
+oppgaven. Det betyr ikke at forfatteren synes det er underordnet, men det berører
+ikke problemstillingene i oppgaven. Det handler om å avgrense seg også…
+
+
+
+
+                                                                                       18
+Figur 3. Sammenhengen mellom fotballferdighet og fotballspillets egenart (Fra
+Bergo, Johansen, Larsen, Morisbak, 2003)
+
+Figuren over illustrerer hva som er fotballspillets karakteristiske trekk – og viser
+sammenhengen mellom ferdighetsbegrepet og spillets egenart.
+
+
+
+                                                                                       19
+4.2 Fotballferdighet
+Det forrige avsnittet beskriver hvordan synet på fotballferdighet har endret seg og
+utviklet seg, samt hvordan ferdighetsbegrepet defineres i dag. Nå følger en
+beskrivelse av de fire dimensjonene og hvordan disse påvirker fotballferdigheten.
+
+
+
+
+Figur 7. Ulike dimensjoner ved fotballferdighet og sammenhengen mellom
+faktorer som påvirker spillerens fotballferdighet (Fra Bergo, Johansen, Larsen,
+Morisbak, 2003)
+
+
+4.2.1 Den individuelle dimensjonen
+Den individuelle dimensjonen i fotballferdigheten dreier seg om enkeltspillerens evne
+til å ta gode valg og til deretter å utføre handlingen så bra som mulig, til beste for
+laget. Enkeltspilleren må, for å ha god fotballferdighet, beherske et sett av
+delferdigheter. Dette kan være medtak, pasning, skudd, dribling eller det å være en
+god førsteforsvarer. En fotballspiller må heller ikke beherske alle delferdigheter like
+godt. Det er ofte effektivt med spisskompetanse og det er en fordel om en
+midtstopper er en god førsteforsvarer, at sentral midtbanespiller er en god
+pasningsspiller og så videre. Her kan vi si at individuell og relasjonell ferdighet
+
+
+
+                                                                                      20
+henger nøye sammen. Det gjelder å ha rammer som gjør at alle får brukt det de er
+gode til så ofte som mulig.
+
+Det er viktig at laget innehar komplementære ferdigheter, det vil si at spillerne utfyller
+hverandre. Under et UEFA-seminar i Firenze høsten 2006 hørte jeg italienske Lippi
+(tok VM-gull) si at komplementaritet i et lag er avgjørende for å lykkes. Lippi velger
+ikke nødvendigvis ut de 11 individuelt beste spillerne, men han vurderer hva som er
+hensiktsmessig å velge for at laget skal fungere optimalt. Og her må vi ta alle de fire
+dimensjonene i betraktning når strategi og laguttak velges.
+
+Jeg understreker at teknikk ikke er tilstrekkelig. Det å ta kloke valg til lagets beste (ha
+fotballforståelse) er også svært viktig. Mitt syn på fotball er helt klart preget av valgets
+betydning for det å ha god fotballferdighet. I handlingsvalget ligger evnen til å
+oppfatte, vurdere og bestemme seg i en gitt situasjon. Kanskje til og med evnen til å
+ombestemme seg i siste øyeblikk ut fra klima rundt ballfører. Med handlingen menes
+selve utførelsen, med ball innebærer det teknisk utførelse. Selv om stadig flere er
+opptatt av valget, mener jeg likevel at dets betydning er undervurdert i mange
+sammenhenger. Jeg har opp gjennom årene hørt mange ganger at det laget som
+vinner flest dueller gjerne vinner kampen. Jeg vil heller påstå at det laget som tar flest
+gode valg ofte vinner kampen.
+
+Som en av mine tidligere trenere en gang sa:
+- ”Det hjelper ikke å gjøre tingene riktig hvis du ikke gjør de riktige tingene”
+
+Jeg tar også med kjente sitater fra noen store fotballpersonligheter, for å understreke
+valgets betydning:
+
+Michel Platini:
+- ”Min største gave var evnen til å lese spillet”
+
+Jeg tror mange forbinder Platini med utførelse/teknikk; herunder presise pasninger,
+gode skudd, gode frispark. Men selv fremhever han altså evnen til å velge.
+
+Benitez, Liverpool:
+- ”Cluet er å ta riktige avgjørelser”
+
+Morten Olsen:
+- ”Det viktige er å lære spillerne å tenke, slik at de velger gode løsninger”
+
+Olsen peker her på noe ungdomstrenere bør være opptatt av. Fotballforståelse, det å
+ta gode valg, må utvikles så tidlig som mulig. Coaching av individuell ferdighet bør
+ofte dreie seg om valg – og mer på valg enn på utførelse. Utførelse kan naturligvis
+også kreve coaching, men det krever først og fremst repetisjoner.
+
+Jeg avslutter sitatene med kunstneren Michelangelo:
+
+”Vi maler ikke med hendene, men med hodet!”
+
+Kommentar overflødig.
+
+
+
+                                                                                         21
+Så er det klart at individuelle valg alene krydret med god utførelse ikke er alt. Det vil
+leseren se av de neste avsnittene.
+
+
+4.2.2 Den relasjonelle dimensjonen
+Relasjonell ferdighet, også kalt samhandling, er utvilsomt viktig å beherske for et
+fotballag. Det innebærer å være gode sammen, å gjøre hverandre gode. Det handler
+om at du som spiller klarer å gi dine medspillere anledning til så ofte som mulig å
+utnytte det de er gode på. Dette avhenger av at flere spillere i laget tenker forholdsvis
+likt i situasjoner på banen. Spesielt er det viktig for spillere som innehar posisjoner
+nær hverandre. Det hjelper lite å ha en driblesterk kantspiller hvis ballen alltid slås i
+rommet foran han. Og det hjelper lite å ha en spiss som er en glimrende avslutter
+inne i boksen hvis innleggene aldri når fram. Det forteller oss at individuell ferdighet
+ikke er nok i seg selv. Ingen er bedre enn det medspillerne gjør en til.
+
+Det beste eksemplet i Norge er Rosenborg, som i en årrekke har dominert norsk
+fotball og også hevdet seg godt i Champions League. Klubbens varemerke har vært
+god samhandling og å utnytte hverandres styrker. De har vært dyktige relasjonelt.
+Nils Arne Eggen har da også gjentatte ganger påpekt at relasjonell ferdighet ikke
+kommer av seg selv. Det må øves roller, som kan sies å være et middel midt i
+mellom det individuelle og relasjonelle. Det må øves gjennom mye overtallsspill og
+gjennom mye vanlig spill. Eggen har også flere ganger uttalt at når laget behersker
+det relativt bra, ja da blir det borte med tida, med mindre du ikke øver kontinuerlig!
+Øvinga på dette området henger nøye sammen med struktur i angrepsspillet, som er
+den neste dimensjonen som beskrives.
+
+
+4.2.3 Den strukturelle dimensjonen
+Den relasjonelle dimensjonen blomstrer kanskje enda mer hvis laget har klare
+retningslinjer å forholde seg til, både i angreps- og forsvarsspillet. Det kan for
+eksempel være lurt å ha noen knagger å henge angrepsspillet på, for å redusere det
+kaoset av valgmuligheter en spiller til enhver tid har. Det vil gjøre det enklere for
+spillerne å utnytte sin individuelle og relasjonelle ferdighet. Helt løse rammer i
+angrepsspillet kan fort gi kaos, jeg har tro på en struktur der spillerne gis mulighet til
+å velge løsninger, men innenfor et sett av alternativer. Så vil det alltid være en
+diskusjon om hvor faste rammene bør være.
+
+Mange har påstått at vektingen av struktur har vært for stor i Norge, på bekostning av
+individuell ferdighet. Likevel: Norge hadde ikke kommet til internasjonale sluttspill de
+senere årene uten en solid organisering og med klare rammer for hvordan fotball skal
+spilles.
+
+Et eksempel: Hadde Maradona dominert VM i Mexico i 1986 uansett hvem som var
+lagkamerater og uansett hvordan laget opptrådte kollektivt? Maradona var, som alle
+andre, avhengig av at laget hadde god struktur, var godt organisert, slik at de vant
+ballen ofte. I tillegg var han helt avhengig av løp og bevegelser rundt seg som
+muliggjorde at hans fantastiske fotballferdighet kunne komme til sin rett. Dette
+argentinske laget hadde ganske sikkert en struktur både i forsvarsspillet og
+angrepsspillet, selv om det siste nok også var preget av stor frihet og kreativitet. Men
+det alene holdt nok ikke til VM-gull.
+
+
+                                                                                        22
+Det kan være vanskelig å vurdere strukturen i et lag. For ”mannen i gata” er det mye
+enklere å vurdere individuell ferdighet. Det kreves et godt trent øye til å vurdere
+struktur, så vel i angrep som i forsvar. Det som er sikkert er at god struktur i
+forsvarsarbeidet gjør det lettere å være en god førsteforsvarer og det gjør det lettere
+for laget å unngå mål i mot. I tillegg vil det bidra til at laget vinner ballen så ofte som
+mulig. I angrepsspillet vil det, som beskrevet ovenfor, gjøre det enklere for spillerne i
+laget å utnytte individuell og relasjonell ferdighet.
+
+
+4.2.4 Kampdimensjonen
+Debatten om spillestil blir innimellom nokså håpløs. I hvert fall i media. Mitt
+hovedprinsipp i angrepsspillet er å ha en viss struktur som må øves for å få
+gjenkjenning i kamp. I tillegg er det helt avgjørende at spillerne oppdras i å tolke
+kampens klima. Herunder: Hvor er det rom? Hvor bør rom til enhver tid skapes og
+utnyttes? Det er for meg helt essensielle spørsmål.
+
+Mange diskuterer om det beste er å spille via midten eller å spille langt. Jeg mener at
+laget skal inneha så mye fotballferdighet at det er i stand til å utnytte de rommene
+motstanderen gir bort. Noen ganger er det bakrom, noen ganger er det mellomrom.
+Noen ganger bør det frispilles, noen ganger bør det slås langt med en gang. Av den
+grunn kommer vi ikke utenom kampdimensjonen når vi diskuterer hva som påvirker
+fotballspillet. I en fotballkamp har lagene motstridende interesser. Det dreier seg om
+å score mål – hindre mål, skape rom – nekte rom, drible – takle og så videre. Da er
+det klart at et lags taktikk og evne til å utnytte sine ferdigheter blir påvirket av hvilke
+muligheter og begrensinger motstanderen gir dem.
+
+For å lykkes kreves struktur, individuell og relasjonell ferdighet. Og det viser at
+kampdimensjonen henger nøye sammen med de tre andre dimensjonene.
+
+Vi kan slå fast at den individuelle, relasjonelle og strukturelle dimensjonen alle
+påvirker kampens klima; kampdimensjonen – og at summen av dette påvirker
+fotballferdigheten.
+
+
+4.2.5 Oppsummering av de fire dimensjonene og deres betydning
+Etter nå å ha beskrevet alle de fire dimensjonene, vil jeg presisere at en helhetlig og
+flerdimensjonal fotballforståelse er fremstilt. De fire dimensjonene er avhengige av
+hverandre, og alle fire betyr mye. Når fotball så skal øves gjennom trening, må det
+spilles mye to lag mot hverandre. Dette for å få med kampdimensjonen og for å få
+med valget som en sentral del av fotballferdigheten. Som Morisbak pleier å si; ”du blir
+god i det du øver på” (spesifisitetsprinsippet). Da må mest mulig av fotballtreninga
+dreie seg om å påvirke fotballferdigheten til hver enkelt spiller, og spesielt med tanke
+på den rollen en har på banen. Det gjelder å øve mest mulig på det en får mest bruk
+for i kamp.
+
+
+
+
+                                                                                         23
+4.3 Trender i angrepsspillet i dagens toppfotball – kombinert med
+    forfatterens syn på fotball
+Dette avsnittet vil dreie seg om en utvikling jeg mener å ha observert hos en del lag
+internasjonalt de siste årene. Jeg har definitivt et inntrykk av at dagens backrolle er
+annerledes hos mange topplag enn hva den var bare for få år siden. Jeg tviler på om
+Norge hadde stått i mot like bra i forsvarsarbeidet sitt mot Italia i 1991 (2-1 på
+Ullevaal) hvis de hadde møtt Italias verdensmestere fra 2006. Sett at vi ser bort fra
+høyere tempo og kanskje også bedre ferdighet hos dagens spillere; likevel tror jeg
+Norge hadde fått mye trøbbel, spesielt fordi Italia nå i større grad angriper med høye
+sidebacker (i VM Grosso og Zambrotta) og har et hurtigere pasningsspill (vender
+spillet raskere, vanskeligere å nekte rom), kombinert med en mer
+gjennombruddshissig stil. Det er noe helt annet å forsvare seg mot slike lag i dag.
+Tidligere var angrepsspillet mer forutsigbart, med det menes mye ballbesittelse og
+liten variasjon i form av tidlige gjennombrudd. Det innebærer ikke at Italia spiller med
+mer risiko i dag. Balansen i Italias VM-lag var meget god og de slapp nesten ikke inn
+mål.
+
+I fotballspillet har mange forståsegpåere i årevis snakket om betydningen av å ha en
+playmaker som kan spille de forløsende pasningene, med tanke på å oppnå
+gjennombrudd. I dagens fotball foregår alt tettere og raskere enn tidligere.
+Playmakeren – eller nummer 10 – som spilleren ofte hadde – har derfor langt
+dårligere vilkår i dag for å kunne dominere en kamp. Han har dårligere tid og mindre
+rom å operere i. Da er det for meg innlysende at laget må lete etter nye muligheter
+for å oppnå gjennombrudd og bryte ned motstanderens forsvar.
+
+Hvis angripende lag er dyktige individuelt, relasjonelt og strukturelt og samtidig tar
+høyde for hva motstanderlaget tillater (kampdimensjonen), vil etter min mening et
+effektivt våpen være å flytte opp samme sides back (eller motsatt sides back etter
+hurtig vending av spillet). Dette forutsetter mye fotballferdighet i laget.
+
+For å lykkes med backspill høyt i banen må sidebackene også inneha godt med
+fysiske ressurser (her; hurtighet, utholdenhet). Dette belyses som nevnt tidligere ikke
+i oppgaven.
+
+I Norge ligger fokuset ofte på frispillingsfasen. Det er i og for seg bra, men jeg vil
+påstå at neste fase er enda viktigere. Dette fordi flere angrep i en kamp starter
+pluss/minus midten enn ved igangsetting bakfra. Likevel finnes det åpenbare fordeler
+ved å bruke mye tid på frispilling. Gode valg, god utførelse og gode bevegelser vil gi
+laget gjenkjenning også i neste fase, selv om det i utgangspunktet øves mest på
+frispilling (Åge Hareide og Øyvind Larsen har flere ganger argumentert for dette i
+forhold til det norske A-landslaget). Likevel: Jeg påstår at det fokuseres for lite på hva
+som skjer i neste fase, det vil si etter en vellykket frispilling eller ved et brudd
+pluss/minus midtbanen, når motstander er etablert eller delvis etablert med sine to
+bakerste ledd. Mange angrep starter i denne fasen og det ser ut som om mange
+scoringer kommer etter at angrepet startet i denne fasen. Da finner jeg det merkelig
+at dette ikke er et mer fokusert område i toppfotballen. Jeg tror imidlertid at dette
+kommer til å bli et stadig mer prioritert område framover! Analysen min i neste
+kapittel underbygger denne argumentasjonen.
+
+
+
+
+                                                                                         24
+Jeg nevner også at godt backspill høyt i banen også kan ha betydning for et lags
+forsvarsspill. Det kan for eksempel hindre overganger i mot ved at en i backfireren
+har brutt ut av bakre ledd og fyller på framover – noe som gir laget et alternativ
+ekstra, i stedet for at en unødvendig får balltap.
+
+Min definisjon av godt angrepsspill:
+   - Vinne ballen ofte gjennom å beherske 1F og gjennom å ha god struktur i
+      forsvarsarbeidet; godt sonespill, riktige avstander, god posisjonering.
+   - Gode valg og god utførelse hos 1A. Evnen til å identifisere og tolke rom til
+      beste for laget.
+   - Gode bevegelser som gir gode relasjoner. Herunder evnen til å identifisere
+      rom som skal utnyttes, gjennom både 1., 2. og 3.manns-bevegelser.
+
+For å lykkes med de to siste punktene bør vi som nevnt tidligere ha noen ”knagger” å
+henge angrepsspillet på. Med andre ord en blanding av kreativitet og struktur.
+
+Godt angrepsspill forutsetter altså at laget er i stand til å vinne ballen ofte, at en har
+spillere med god individuell fotballferdighet, at det bygges gode relasjoner, at en har
+god bevegelse og at en har noen felles retningslinjer for måte å spille på (struktur). I
+tillegg kommer vi ikke utenom at ingen lag er bedre enn hva motstanderen tillater.
+Kampdimensjonen er viktig i forhold til hvilken angrepsstrategi som til enhver tid
+velges; det gjelder å utnytte de rom som motstanderlaget gir bort. Da kreves
+ferdighet i forhold til valg og utførelse. Kampdimensjonen er etter min mening
+generelt undervurdert i spillestildebatten.
+
+Temaet er som nevnt tidligere valgt fordi jeg mener å se konturene av en trend i
+internasjonal fotball, der jeg mener Norge har hengt litt etter (noen unntak finnes).
+Sidebackenes rolle har endret seg. Jeg påstår at gode fotballag er stadig bedre
+organisert i forsvarsarbeidet, og de har i tillegg utviklet overgangsspillet sitt. Dette har
+”tvunget” fram en ny måte å angripe på mot etablert forsvar eller mot forsvar i delvis
+ubalanse.
+
+I dag hevder jeg det er viktigere enn før å komme med spillere fra det bakre leddet
+høyt i banen i angrepsspillet. Det blir stadig viktigere å skape overtallssituasjoner
+gjennom å fylle på med folk bakfra. Mange lag prioriterer å doble på sidene med back
+og kant, gjerne etter hurtig vending av spillet. Så balanserer de med to sentrale
+midtbanespillere, to stoppere og en sideback. En del lag (eks. Barcelona) angriper
+faktisk med seks spillere og holder igjen fire. De står ofte igjen med to stoppere, en
+back og kun en sentral midtbanespiller (Motta eller Edmilson). Milan står ofte igjen
+med fem; to stoppere, en back og to midtbanespillere (ofte Pirlo og Gattuso).
+
+I internasjonal fotball på høyt nivå gir det altså liten risiko å flytte opp sideback høyt i
+banen, dersom vurderingen som tas av back og av ballfører er god. Valget må tas
+kjapt og på et tidlig tidspunkt. Mitt datamateriale viser spillere som er dyktige
+individuelt, både på valg og utførelse. Hvis backens avgjørelse tas tidlig, vil rommet
+ofte være der. Da kan sentral midtbanespiller vinkle ut, nærmest i blinde. Når back
+mottar ballen kan han ofte sette fart og utfordre en motstander, skape 2 v 1 på kant
+eller finne andre gode løsninger. Alternativene er ofte flere i denne fasen av spillet,
+hvor en gjerne tar motstanderen litt på senga.
+
+
+
+                                                                                           25
+Forsvarsmessig betinger denne måten å angripe på at de tre som er igjen i bakre
+firer skyver over for å smale det rommet backen etterlater seg. I tillegg må en eller to
+sentrale midtbanespillere balansere. Hvis ikke, blir laget sårbare for overganger etter
+brudd. Målet må være å ikke få brudd, gjennom god bevegelse og gode valg, men
+enkelte ganger vil nok alle lag miste ballen i denne fasen, og da gjelder det å være
+forberedt.
+
+Det er statistisk bevist at sidebackene er blant de som har flest ballberøringer i en
+kamp. Da må dette utnyttes. Det stilles da også helt andre krav til sideback enn bare
+for få år siden. Alex Ferguson uttalte etter et tap mot AC Milan i 2004/2005-sesongen
+at høyreback Cafu utgjorde forskjellen på lagene. Nå var dette sikkert satt på
+spissen, men det sier noe om betydningen av å ha sidebacker som er gode i
+forsvarsarbeidet, men som samtidig har evnen til å være en god angriper. Dette
+krever også at laget opptrer relasjonelt og strukturelt på en måte som gjør det mulig
+for Cafu å prege en kamp individuelt. For Milan er backrollen spesielt viktig i
+angrepsspillet, i og med at laget de siste årene har spilt med diamantformasjon på
+midten. Ansvaret for bredde i spillet ligger mye hos sidebackene. Mer om dette i
+neste kapittel.
+
+
+
+
+                                                                                      26
+5 RESULTATER/DISKUSJON
+5.1 Hvordan spilte lagene?
+Før jeg går inn på selve analysen vil jeg kort forklare hvordan lagene framsto
+formasjonsmessig. De aller fleste lagene i denne utgave av UEFA Champions
+League spilte med fire mann i det bakre leddet. De aller fleste spilte også med en
+firer i midtbaneleddet, men her varierte det mellom en diamantformasjon og en firer
+med to ”kantspillere” og to sentrale. Påfallende mange lag så imidlertid ut til å spille
+med diamantformasjon. Det tyder på at det er en trend å bruke sideback som
+breddeholder og ha mange midtbanespillere forholdsvis sentralt i banen.
+
+Siden mange lag spilte med diamantformasjon, inkludert de to lagene jeg senere går
+i dybden på, lar jeg figuren nedenfor illustrere grunnoppstillingen som ofte benyttes
+mot etablert forsvar ved 4-4-2 med diamant.
+
+
+
+
+Figur 8. Oppstilling i diamantformasjon mot etablert forsvar. Brede stoppere,
+høye backer og forholdsvis brede spisser.
+
+
+Ved bruk av denne formasjonen spiller lagene uten rene kantspillere og er derfor
+avhengige av å fylle på med backer når sjansen byr seg. Diamantformasjonen stiller
+store krav til sidebacker, både i angreps- og forsvarsspillet, spesielt i forhold til å ta
+gode posisjonelle valg så tidlig som mulig.
+
+
+
+
+                                                                                           27
+Jeg understreker at oppgaven ikke dreier seg om å sammenlikne ulike
+spillesystemer. Det er ikke min hensikt å finne ut om diamantformasjon er noe bedre
+enn noe annet. Jeg registrerer imidlertid at diamanten er populær blant trenerne for
+disse lagene.
+
+
+5.2 Scoringer UEFA Champions League 2005/2006
+Jeg har laget en kvantitativ analyse av hvordan alle scoringene kom. Jeg har delt
+scoringene opp i dødballer, overganger og spill mot etablert. I tillegg har jeg sett
+spesielt på alle scoringer som kom mot etablert, og laget en oversikt over hvor
+mange av disse som kom etter backinvolvering høyt i banen. Scoringer mot etablert
+der back er involvert i frispillingsfasen, men ikke høyere i banen, berører ikke temaet
+i oppgaven. Det er antall scoringer mot etablert/delvis etablert forsvar, etter
+backinvolvering høyt i banen, som er mest interessant i denne sammenheng.
+
+Det ble totalt scoret 285 mål i turneringen, fordelt på 32 lag.
+
+Oversikt over hvordan alle scoringene kom følger som vedlegg til oppgaven.
+
+
+5.3 Kvantitativ analyse av scoringene i UEFA Champions League
+    2005/2006
+Denne analysen vil gi svar på hovedproblemstillingen i oppgaven. Det vil si:
+
+Hvilke gevinster får laget ved å involvere sidebacker i angrepsspillet høyt i banen mot
+etablert forsvar eller delvis etablert forsvar?
+
+Årsaken til at jeg studerte alle scoringene var todelt:
+   - Jeg ville ha tall på hvordan scoringene kom, for på den måten å kunne si noe
+      om mulige gevinster ved backinvolvering høyt i banen.
+   - Jeg ville finne ut hvilke lag som scoret mest ved backinvolvering høyt i banen,
+      for å finne gode case til dybdeanalysen senere i oppgaven.
+
+Kategorisering av de 285 scoringene
+Det kan være vrient å vurdere hva som er overgang og hva som er angrep mot
+etablert forsvar. Det er godt mulig at en annen person ville kategorisert noe
+annerledes. Mange scoringer kommer da motstander er delvis i ubalanse og er
+vanskelige å kategorisere; overgang eller etablert.
+
+Jeg er av den oppfatning, og spesielt etter å ha studert alle scoringene, at den
+tradisjonelle inndelingen i overgang, etablert og dødball bør endres. En mer presis
+inndeling vil være overgang, etablert, delvis etablert og dødball. Dette fordi
+mange scoringer kommer etter at laget har erobret ballen pluss/minus midten og
+motstanders fremste pressledd er borte. Mange angrep er etter min mening i
+grenseland mellom overgang og etablert.
+
+Mot etablert forsvar/delvis etablert forsvar: 105 = 37 prosent
+Etter overganger:                              78 = 27 prosent
+Etter dødball:                                102 = 36 prosent
+
+
+                                                                                      28
+Det ble altså scoret 105 mål mot etablert forsvar eller delvis etablert forsvar. Det
+utgjør 37 prosent av alle scoringene.
+
+46 av disse 105 scoringene (44 prosent) kom der sideback var involvert høyt i
+banen. Det betyr at 44 prosent av scoringene mot etablert forsvar eller delvis
+etablert forsvar kom etter backinvolvering høyt i banen. Dette mener jeg er et
+oppsiktsvekkende høyt tall, og understreker betydningen av å beherske denne
+delen av fotballspillet.
+
+Hvis vi ser på totalt antall scorede mål, uavhengig av hva slags type angrep det var,
+ser vi at 46 av totalt 285 scoringer kom etter backinvolvering høyt i banen, mot
+etablert eller delvis etablert forsvar. Dette utgjør 16,1 prosent av antall scorede mål.
+Dette finner jeg også oppsiktsvekkende høyt.
+
+Tallene viser oss at min hovedproblemstilling; hvilke gevinster en kan trekke av
+backinvolvering høyt i banen, faktisk er scoringer. I tillegg må vi anta at det også
+oppsto en rekke målsjanser og gjennombrudd som følge av dette, som ikke førte til
+scoring. Normalt scorer et lag på ca 1 av 5 målsjanser (Kilde: Øyvind Larsen).
+
+Dette innebærer at lagene i denne turneringen fikk store gevinster av å frigjøre
+backen høyt i banen mot etablert eller delvis etablert forsvar, både i form av
+gjennombrudd, målsjanser og scoringer. Kampanalysen min senere i oppgaven av
+Milans to semifinaleoppgjør vil underbygge disse tallene.
+
+Mål som ble scoret etter backinvolvering lenger bak i banen er ikke med i oversikten.
+Jeg har forsøkt å gjøre et klart skille mellom frispillingsfasen og når backene er
+høyere i banen og fremste pressledd er passert. Likevel kommer vi altså opp i 46
+scoringer.
+
+I tillegg kommer 15 av de 78 målene som ble scoret på overganger etter
+backinvolvering høyt i banen. Det illustrerer at det er mulig å trekke gevinster av
+backspill høyt i banen også i overgangsspillet. Dette belyses ikke spesielt, da
+oppgaven ikke dreier seg om overgangsfasen, men om angrep mot etablert/delvis
+etablert forsvar.
+
+
+5.4 Kvalitativ analyse av fem utvalgte scoringer, med utgangspunkt
+    i de fire dimensjonene som påvirker fotballferdigheten
+Denne analysen vil gi svar på fire av de fem underproblemstillingene i oppgaven. Det
+vil si:
+
+   •   Hva kreves av fotballferdighet i de ulike rollene i laget for å lykkes med å
+       involvere backen høyt i banen mot etablert forsvar eller delvis etablert forsvar,
+       til beste for laget?
+            • Hva kreves individuelt?
+            • Hva kreves relasjonelt?
+            • Hva kreves strukturelt?
+            • På hvilken måte spiller kampdimensjonen inn?
+
+
+
+
+                                                                                       29
+Oppgaven ville blitt alt for omfattende hvis jeg skulle beskrive alle 46 scoringer mot
+etablert forsvar/delvis etablert forsvar der sideback er involvert høyt i banen. Av den
+grunn har jeg valgt ut fem scoringer der vi ser involvering av sideback høyt i banen.
+Dette for å se hva som kjennetegner et lag som scorer mål ved å benytte sideback
+på denne måten. En av scoringene jeg har valgt ut kom på straffespark, men den er
+tatt med på grunn av forspillet.
+Metoden gir meg innsikt i hva innenfor de fire dimensjonene som kjennetegner
+spillerne/laget i disse angrepene. Alle de fire dimensjonene påvirker som kjent
+fotballferdigheten. Her får vi da svar på hva, innenfor de fire dimensjonene, som er
+viktig å beherske for å kunne angripe med sideback høyt i banen mot etablert/delvis
+etablert forsvar.
+
+Jeg har konsentrert meg om to lag som scoret flere mål på å benytte sideback høyt i
+banen; AC Milan og Werder Bremen. Begge disse lagene spiller 4-4-2 med
+diamantformasjon på midten. Jeg forutsetter da at lagets retningslinjer strukturelt
+blant annet er at back, så raskt som mulig etter at laget vinner ballen, må posisjonere
+seg høyt og være et alternativ for førsteangriper. Dette fordi begge lagene så å si
+spiller uten kantspillere. Sidebacken blir ofte lagets breddeholder!
+
+At mange lag spilte med diamant er trolig en av grunnene til at såpass mange
+scoringer kommer etter backinvolvering høyt i banen. Jeg antar at lag som spiller
+med en annen formasjon ikke bruker backene like ofte høyt i banen. Barcelona, med
+sin utpregede 4-3-3-formasjon, er et eksempel på dette. Barcelona har ved mange av
+sine scoringer to brede stoppere og ekstremt høye backer i frispillingsfasen, men de
+er ikke så mye involvert fra midten og framover. Men store avstander i B4 i
+angrepsspillet gjør det imidlertid vanskelig for motstander å forsvare seg – og er
+utvilsomt effektivt for Barcelona.
+
+Finalemotstander Arsenal spilte ofte 4-5-1/4-4-1-1. Mot etablert forsvar har de flere
+eksempler på dobling på kant etter hurtig vending av spillet. Sidebackene var
+imidlertid lite involvert i angrepene som førte til scoring.
+
+Jeg har, av ovennevnte grunner, derfor konsentrert meg om to lag med
+diamantformasjon, AC Milan og Werder Bremen.
+
+Når de fem angrepene beskrives, er det altså med utgangspunkt i fire av
+underproblemstillingene i oppgaven:
+
+Hva kjennetegner et lag som behersker denne delen av spillet, med utgangspunkt de
+fire dimensjonene?
+
+   -   Den individuelle
+   -   Den relasjonelle
+   -   Den strukturelle
+   -   Kampdimensjonen
+
+Jeg har analysert hva som skjer fra laget vinner ballen til backinvolveringen er over –
+og gjennombruddet kommer. Det er her interessant å se hva som kjennetegner slike
+angrep, og spesielt se på hva som skjer rett etter ballerobring.
+
+
+
+                                                                                        30
+Analyse 1
+
+
+
+
+Figur 9. AC Milans (i rødt) 1-0-scoring mot Fenerbahce i gruppespillet
+
+Beskrivelse
+Milan bryter et angrep langt inn på egen halvdel. Deretter har laget fem trekk før
+scoring. Det starter med at Maldini header ned til balansespiller Pirlo. Han vender
+opp og fører ball i 20 meter før han spiller høyreback Cafu. Han fører ball i ca 15 m,
+drar på seg press og spiller inn igjen til Ambrosini som er høyre midtbanespiller. Han
+dytter videre til Pirlo som flikker gjennom mellomromsspiller Kaka. Han fører ball og
+scorer fra 16 m.
+
+Individuelt
+Pirlos evne til å vende opp hurtig etter mottak (godt orientert). Hans evne til å føre
+ball og spille Cafu i rett øyeblikk. Et godt valg, da han vurderte at det var bedre å
+spille Cafu enn for eksempel en gjennombruddspasning mot en i front. Og ikke minst
+hans evne til å flikke gjennom til Kaka (sistepasning). Glimrende utførelse og et
+overraskende, men genialt valg.
+
+Cafus evne til å stille om hurtig fra forsvar til angrep. Hans evne til hurtig å lese
+situasjonen, avansere uten ball, gjøre seg spillbar. I tillegg hans evne til å gjøre det
+enkelt (godt valg), ved å spille inn til Ambrosini. Mange hadde nok heller valgt en
+dristigere løsning, med stor fare for balltap og mulig brudd i mot.
+
+
+
+
+                                                                                           31
+Relasjonelt
+Maldinis heading til Pirlo viser at dette trolig har skjedd før. Han vet at Pirlo er der og
+at han vil ha ballen i slike situasjoner. Han gir Pirlo muligheten til å gjøre noe
+konstruktivt med ball i en fase der motstander bare delvis er i balanse. En god
+relasjon der de gjør hverandre gode. Pirlo jobber godt hjem og er spillbar da Maldini
+bryter.
+
+Pirlo og Cafu gjør hverandre gode ved at Pirlo driver framover med ball, vurderer
+løsninger og vet at han har Cafu til høyre, som alltid. Cafu gir Pirlo et godt alternativ
+til en gjennombruddspasning. Så får Pirlo velge ut fra hva som er best for laget.
+
+Ambrosini og Pirlo gjør hverandre gode ved at den ene holder igjen når den andre
+blir med høyere i banen. Dette for å sikre balanse.
+
+Når Cafu får ballen, stikker Shevchenko bredt høyre og skaper rom for Kaka, som
+etter hvert får ballen. Den andre spissen stikker mot venstre. Gode relasjoner i front.
+
+Strukturelt
+Diamantformasjonen gjør at Milan ikke har typiske kantspillere. Det er da trolig faste
+retningslinjer på at sideback skal engasjere seg framover med en gang etter
+ballerobring og søke posisjon høyt i banen. Milan angriper da med to spisser, to-tre
+midtbanespillere og samme sides back.
+
+De står igjen med tre i bakre firer + 1-2 midtbanespillere. Spillerne i disse to leddene
+konsentrerer inn i banen, slik at rom kun finnes på sidene ved eventuelt brudd i mot.
+Samtidig ligger det trolig i retningslinjene at brudd i mot skal unngås ved at ballfører
+velger ut fra risiko opp mot gevinst. I tillegg hurtig omstilling hvis balltap. Milan
+angriper i slike situasjoner med 5-6 spillere. Da har de god balanse. De i B3 som står
+igjen, velger å komme etter, slik at ikke mellomrommet blir stort hvis balltap.
+
+Kampdimensjonen
+Fenerbahce angriper med tre mann og er således i brukbar numerisk balanse når
+balltapet kommer. Det er vanskelig å si noe om hvilke rom motstander avgir ut fra
+TV-bilder. Vi ser sjelden hele banen og alle spillerne. Men det er definitivt at
+Fenerbahce avgir mye rom på sidene når Pirlo driver framover, trolig fordi de har
+respekt for hans fotballferdighet og konsentrerer inn mot midten. De forsvarer seg i
+dette angrepet med en treer på midten og en firer bak. De setter aldri inn et skikkelig
+press på ballfører og Milan får hele tida god tid som førsteangripere. Motstander
+rygger og forsøker å oppholde Milan, de nekter også bakrom. Milan klarer da, ved
+hjelp av gode valg, god utførelse av 1A, samt god bevegelse, å score. Milan-
+spillernes evne til å ta de rette valgene, samt enkeltprestasjonene til Pirlo og Kaka,
+gir til sammen scoring.
+
+Det må nevnes her at Milan fikk lov av motstanderen å være gode. Fenerbahce satte
+aldri inn noe skikkelig press på førsteangriper, et par av spillerne virket lite interessert
+i å bidra når bruddet kom og dette er både godt angrepsspill og slett forsvarsarbeid.
+Fenerbahce ga muligheter mer enn begrensninger. Dog skal rom og muligheter
+identifiseres og utnyttes – og det gjør Milan til gagns.
+
+
+
+
+                                                                                         32
+Analyse 2
+
+
+
+
+Figur 10. AC Milans (i rødt) 1-1 scoring borte mot Bayern Munchen i
+åttendedelsfinalen.
+
+Beskrivelse
+Det starter med et innkast på Bayerns halvdel av Milans venstreback Serginho. Han
+kaster i støtte til venstre midtbanespiller som spiller kort inn til Seedorf. Han vender
+motsatt på en svært høytliggende høyreback, Stam. Han driver innover, spiller
+Seedorf igjen, som spiller igjennom sentralt til mellomromsspiller Kaka. Seedorf har
+gått på løp etter pasningen sin og får igjen ballen fra Kaka, for så å spille ut til
+venstreback Serginho, som nå er 10-12 meter fra dødlinja og i meget gunstig
+posisjon for tidlig innlegg. Innlegget blir stoppet, han får en ny sjanse og legger inn
+igjen. Hands og straffe, så scoring.
+
+Individuelt
+Seedorfs evne til å vende spillet på Stam. Valg og utførelse av høy klasse.
+Delferdigheten pasning står sentralt, med alt det innebærer av valg, presisjon og
+tilslagsteknikk. Så Seedorfs evne til å gjøres seg spillbar igjen fra Stam, og hans
+evne til å spille kamuflert til Kaka, deretter gå på løp og få igjen ballen. Vanskelige
+involveringer som krever hurtig oppfattelsesevne, hurtige bevegelser og god
+ballbehandling i form av pasning, føring og medtak.
+
+Stams evne til å posisjonere seg høyt i banen for å gjøre det vanskelig for Bayern.
+Hans evne til å ta ned ballen og dra innover i banen hurtig og presist.
+
+
+
+                                                                                          33
+Venstreback Serginhos evne til å skape bredde høyt på venstresida. Deretter
+utfordre, gjennom en fremragende førsteberøring med venstrefotens ytterside, og så
+slå innlegg.
+
+Relasjonelt
+Relasjonen mellom Seedorf og Stam er sentral. Først cross, så får Seedorf tilbake
+ballen. Begge er flinke til å gjøre seg spillbare og til derigjennom å gjøre medspiller
+god. Seedorf vet at Stam går høyt og vil ha ball.
+
+Strukturelt
+Høye backer muliggjør å skape trykk mot Bayern i dette angrepet. Bayern er presset,
+drar ned mye folk og Milan står igjen med stopperne sine og med sentrale Pirlo.
+Milan vet det ikke er bakrom og at det er veldig trangt. De har retningslinjer på å
+skape bredde med sidebacker, og samtidig overbefolke sentralt. Da kan de spille
+med lav risiko sentralt og samtidig vende spillet hurtig for å skape rom. Nok et
+eksempel på Milans diamantformasjon, men forskjellen fra scoring 1 er at denne
+gang angrep Milan mot et lag i fullstendig balanse som lå dypt med to ledd godt inn
+på egen halvdel.
+
+Kampdimensjonen
+Milan lå under 1-0 og jaget scoring. 1-1 ville vært glimrende før returkampen. Bayern
+ville ri på ledelsen. Da er det naturlig at Bayern avgir lite bakrom, det blir trangt og
+Milan må ta sjanser. Dette forklarer hvorfor Milan i dette angrepet sto så høyt med
+begge sidebacker samtidig og at kun en midtbanespiller balanserer. Jeg kan ikke
+forestille meg at Milan ville angrepet såpass dristig på 0-0. Samtidig er det vanskelig
+å arrestere Bayern for at de ikke sto litt høyere med laget. De burde imidlertid klart å
+sette mer press på Seedorf og de ble for forsiktige. Samtidig: Det er noen ganger
+risikabelt å gå for fort og tett på så gode spillere når de først har mottatt ballen. Da
+kommer det pasningsfinter, kamuflerte pasninger og gode rykk med en gang. Noe
+Seedorf her viste.
+
+Scoringen er litt annerledes enn den første, men den er et glimrende eksempel på
+hvordan en kan skape trykk på motstander ved å bruke backer som breddeholdere
+høyt i banen, samtidig som en har kjappe, ballsikre og intelligente spillere sentralt, i
+mellomrommet og i front. Det er ikke enkelt å gardere seg mot.
+
+Scoringen kom mer som følge av godt angrepsspill enn dårlig forsvarsspill. Bayern
+Munchen burde ideelt sett vært tettere i ballfører ved flere anledninger, men de ble
+først og fremst et offer for godt angrepsspill.
+
+
+
+
+                                                                                           34
+Analyse 3
+
+
+
+
+Figur 11. AC Milans (i rødt) 3-1 scoring hjemme mot Bayern Munchen i
+returoppgjøret i åttendedelsfinalen.
+
+Beskrivelse
+Milan får et frispark ca 10 meter inne på Bayerns halvdel, sentralt i banen. Frisparket
+tas hurtig, det dyttes kort til Seedorf. Bayern er i balanse med sine to bakerste ledd.
+Seedorf utfordrer skrått mot høyre og dytter videre til høyre midtbanespiller
+Ambrosini, som spiller videre på høyreback Stam. Han mottar ballen 25 meter fra
+dødlinja, helt ute ved krittet. Bayern ligger fortsatt lavt og i balanse og Bayerns
+venstre kant er tett i press på Stam. Stam spiller støtte og ballen havner hos høyre
+stopper, Nesta. Milan fant altså ikke rom og valgte da å spille hjem igjen. Nesta
+crosser imidlertid tidlig mot venstreback Serginho. Han starter fra midten og får
+pasningen foran seg, ca 15 meter inn på Bayerns halvdel. Bayerns høyre
+midtbanespiller Deisler går umiddelbart i press. Serginho fører ballen i stor fart og
+legger inn 16 meter fra dødlinja, under hardt press. Innlegget kommer mellom
+Bayerns backfirer og keeper. Løpene foran mål er glimrende og Bayern presses til å
+gjøre feil. Inzaghi kan enkelt støte inn scoringen fra kort hold.
+
+Individuelt
+Nestas tidlige cross mot venstreback Serginho er imponerende. Han forstår at det
+kan være lurt å vende spillet etter at det ikke ble rom på høyresida. Et godt valg!
+Utførelsen er glimrende, det spilles et halvtliggende vristspark foran medspiller, som
+kan ta med seg ballen og utfordre i stor fart.
+
+
+
+                                                                                     35
+Serginhos oppfattelseshurtighet. Han starter tidlig og viser for Nesta at han vil ha
+ballen. Deretter hans glimrende medtak og påfølgende driv med ball i stor fart. Til
+slutt Serginhos utoverskrudde innlegg mellom keeper og backfirer, som skaper
+kjempetrøbbel for Bayern.
+
+Relasjonelt
+Det er tydelig at backene til Milan er vant til å posisjonere seg høyt når ballen er rundt
+midtstrek eller høyere. Når Nesta får ballen rundt midten er det lett å se at motsatt
+back vil ha ball. Det vet også Nesta som stopper. Hans vending av spillet kommer
+trolig fordi han vet at Serginho starter når anledningen byr seg. Når Serginho driver
+framover med ball, vet han at et tidlig innlegg vil følges opp av truende løp foran mål
+av spissene Shevchenko og Inzaghi. Timingen mellom innlegg og innløp må sies å
+være meget god, og fører til scoring, selv om Bayern er i god balanse.
+
+Strukturelt
+Milan spiller også her med diamantformasjon. Backene posisjonerer seg høyt og
+skaper trøbbel for Bayern. Når Milan har ball høyt i banen, finnes det muligheter for å
+spille back, tre gjennom på mellomromsspiller Kaka eller å spille på en av de to
+spissene. I tillegg er ballsentral Pirlo alltid spillbar og flink til å tre gjennom ledd og til
+å ta kloke valg. Milan holder igjen med to stoppere, med Pirlo og en midtbanespiller
+til, litt avhengig av hvor ballen befinner seg. I tillegg vil motsatt back trekke hjemover
+når han forstår at han ikke behøves i oppbygningen. Men back må tidlig være
+oppmerksom på vending av spillet, og derigjennom være klar for høy posisjonering.
+
+Milan angriper da med 5-6 spillere og balanserer med to sentralt, to stoppere pluss til
+dels en sideback. Dette var også en tendens vi kunne observere i fjorårets VM-
+sluttspill i Tyskland. Mange lag sto igjen med to ”blokker” sentralt og føyk i angrep
+med sidebacker så fort muligheten var der. I dagens fotball, der motstander avgir lite
+rom og er godt organisert, er backinvolvering høyt i banen derfor et glimrende
+virkemiddel for å bryte ned motstander, uten at balansen i laget forringes.
+
+Kampdimensjonen
+Bayern lå i dette tilfellet lavt med en mann på topp i tilnærmet 4-5-1. Bayern
+sideforskyver mye og konsentrerer på ballsida. Da er hurtig vending av spillet og høy
+back et glimrende virkemiddel for angripende lag. Bayern presser begge Milans
+sidebacker med sine kantspillere, akkurat som de bør gjøre. Men Milan klarer likevel,
+på grunn av imponerende angrepsspill, å bryte ned Bayern. Jeg vil ikke si at Milan
+klarer å score her fordi Bayern gjør store feil. Min påstand er at det blir scoring mer
+på grunn av glimrende angrepsspill enn dårlig forsvarsspill. Bayern gjør imidlertid et
+par småfeil:
+    - Toppspiss bør, når Stam har ballen, ta ut nærmeste stopper. Her får Nesta
+       spille en crosspasning upresset.
+    - Høyre midtbanespiller Deisler timer Nestas pasning feil, slik at Serginho gis
+       mulighet til å ta ned ballen og sette fart.
+
+Bayern ligger altså lavt og kompakt og begrenser Milans angrepsspill. Men Milan
+utnytter småfeil i Bayerns forsvarsarbeid og straffer dem hardt.
+
+
+
+
+                                                                                             36
+Analyse 4
+
+
+
+
+Figur 12. Werder Bremens (i rødt) 1-0 scoring hjemme mot Juventus i
+åttendedelsfinalen.
+
+Beskrivelse
+Venstreback Schulz bryter et angrep rundt midten og spiller hjem til midtstopper. Han
+spiller ut til høyreback som spiller inn på høyre midtbanespiller Baumann (Bremen
+bruker diamantformasjon, som Milan). Baumann spiller videre til sentral
+midtbanespiller Borowski. Han mottar ballen rundt midtstrek, vender opp og spiller ut
+til Schulz igjen, som mottar ball rettvendt ca 10 meter inn på Juves halvdel og setter
+fart. Klose (spiss) drar ut i rommet foran Schulz. Klose mottar ballen og har dratt med
+seg høyreback og midtstopper hos Juventus. Klose bruker sin andre berøring til et
+hælspark inn mot 16-meteren, der Schulz har fortsatt løpet sitt, uten å følges av
+kantspiller Camoranesi. Schulz kommer mot keeper, som redder. Etter litt fram og
+tilbake ender det likevel med at venstreback Schulz scorer.
+
+Individuelt
+Schulz` mottak på pasning fra Borowski, for så å sette fart inn i ledig rom. Glimrende
+eksempel på romidentifisering og godt valg. Deretter hans evne til å fortsette løpet,
+true ledig rom og bli med i avslutningsfasen. Schulz viser her individuell ferdighet
+først og fremst i form av de valgene han tar, med og uten ball. Evnen til å true rom
+med og uten ball gjør det vanskelig for motstander.
+
+I tillegg ser vi en glimrende individuell prestasjon av Klose. Først oppsøker han ledig
+rom når Schulz driver oppover med ball. Schulz bruker Klose på førstebevegelsen
+
+
+                                                                                     37
+(kunne ha ventet på neste bevegelse). Klose har gjennom sin bevegelse foran
+ballfører dratt med seg to forsvarsspillere. Hans geniale hælpasning åpner opp
+forsvaret til Juventus fullstendig.
+
+Relasjonelt
+Som i flere av eksemplene til Milan ser vi gode relasjoner som fører til hurtig vending
+av spillet - mot en motstander som sliter med å dekke nok rom. Midtbanespiller
+Borowski vet, før han mottar ballen, at venstre back Schulz vil frigjøre seg inn i ledig
+rom, høyt i banen. Borowski kan så å si slå i blinde.
+
+Relasjonen mellom Schulz og Klose fungerer meget godt. Det virker som om Klose
+nærmest har øyne i nakken når han spiller gjennom Schulz. Og at Schulz i det hele
+tatt fullfører løpet når Klose har ballen feilvendt ned mot sidelinja er overraskende,
+men genialt. Resultatet kan ingen kritisere.
+
+Strukturelt
+Werder Bremen spiller med diamantformasjon. Vi kan ikke se av tv-bildene hvem
+som holder igjen og hvem som går, men generelt står Werder igjen med en eller to
+midtbanespillere og går med samme sides back. De angriper altså med fem eller
+seks spillere, alt ettersom. Dette avhenger trolig av sjansen for å oppnå
+gjennombrudd der og da. Werders spisser søker ofte rommet bak motstanders
+backer og trekker med seg midtstopperen som markerer spissen. Da har oppspiller
+valget mellom å spille på spiss i dette rommet (som de gjør her) eller å velge en
+annen løsning. Klose skaper jo definitivt rom for andre med sin bevegelse. Werders
+utgangspunkt minner for øvrig om Milans. De spiller uten rene kantspillere og er
+avhengige av ”trykk” fra sideback.
+
+Werder har i flere år scoret mest i Bundesliga, men har også fått en del baklengs. Det
+kan muligens tyde på en noe dårligere balanse i laget enn hva Milan har (men kan
+også skyldes andre ting). Det som er sikkert, er at etter å ha studert mange Werder-
+scoringer, ser jeg at de har et tydelig mønster med god bevegelse i front, høye
+backer og diamantformasjon på midten.
+
+Kampdimensjonen
+Stillingen er 0-0 og Juventus er tilfredse, de ligger lavt og spiller på kontringer. De
+forsvarer seg med to spisser og to firere. Likevel står de ikke i mot. Werders
+angrepsspill i dette angrepet er først og fremst knyttet til Klose og Schulz, og vi kan
+stille store spørsmålstegn ved Juventus` opptreden i forsvarsarbeidet. Høyre
+midtbanespiller Camoranesi konsentrerer for mye og gir Schulz for mye rom. Deretter
+følges ikke Schulz av samme mann etter at han har spilt Klose. Den aller største
+feilen gjør midtstopperen, som blir med høyrebacken ut mot Klose og avgir rom inne i
+farlig sone. Det åpner for Schulz. Juventus gjør altså flere grove feil - og Werder
+griper sjansen de får og straffer dem.
+
+Fotball dreier seg ofte om å utnytte små eller store feil hos motstander. Hvis det ikke
+gjøres feil, ville det blitt lite mål i fotball.
+
+
+
+
+                                                                                         38
+Analyse 5
+
+
+
+
+Figur 13. Werder Bremens (i rødt) 1-1 scoring borte mot Juventus i
+åttendedelsfinalen.
+
+Beskrivelse
+Werder vinner ball rundt midtstrek ute på høyresida og spiller støtte til høyreback litt
+inn på egen halvdel. Høyre back spiller tidlig inn på sentral midtbanespiller Borowski,
+som vender opp og spiller til venstre back Schulz. Han får ballen på medløp midt på
+Juventus` halvdel. Schulz drar på seg press, fører litt innover og spiller vegg med
+fremre midtbanespiller. Deretter flikker Schulz gjennom til spiss som da er alene med
+keeper. Scoring.
+
+Individuelt
+Schulz er toneangivende også ved denne scoringen. Han starter og gjør seg spillbar
+for Borowski. God oppfattelsesevne! Deretter gjør han noe vi dessverre ikke ser ofte
+nok. Han spiller inn i banen og fortsetter løpet sitt. Det fører til at han får igjen ballen
+og stikker den elegant gjennom til spiss. Schulz demonstrerer flere gode
+handlingsvalg (oppfatte, vurdere, bestemme), han viser god posisjonering, han ”slår
+og går” og han viser en fin stikker med yttersiden av venstrefoten, der pasningen er
+kamuflert og presis.
+
+Jeg trekker også fram Borowski som tydelig viser at han vil ha ballen fra høyre back,
+han viser god mottaksferdighet og orienterer seg godt i et trangt område. Han spiller
+en presis pasning som ikke er så vanskelig å utføre, men det er valget som først og
+fremst er klokt.
+
+
+                                                                                          39
+Relasjonelt
+Relasjonen Borowski/Schulz er igjen avgjørende for at backen skal kunne involvere
+seg og skape trøbbel for motstander. Vi ser vending av spillet fra høyre back, via
+sentral og ut til venstre back. Det krever at spillerne kjenner hverandres måte å tenke
+på.
+
+Strukturelt
+Igjen drar Werder gevinster av å spille med diamant. De har flere alternativer inne i
+banen og får også brede alternativer gjennom sidebacker. I tillegg har de gode
+bevegelser i front. Summen av posisjonering og bevegelser blir vanskelig for
+motstander å demme opp for.
+
+Werder har rett i forkant vunnet ballen. I denne situasjonen har Werder, når Juventus
+hadde ballen, konsentrert hele midtbanen sin over mot høyre. Interessant at de
+blottlegger hele venstresiden og overlater ansvaret til venstre back. Resultatet ble
+uansett meget godt, det ga Schulz mye rom etter ballerobring.
+
+Kampdimensjonen
+Diamantformasjonen fører til mange Werder-spillere inne i banen. Det gjør at
+Juventus konsentrerer mye folk sentralt i sin 4-4-2-formasjon – og det blir rom for
+sideback. Juves høyrekant Camoranesi skyver igjen veldig langt inn, og det er
+Juventus` høyre back som må gå i press forholdsvis høyt på Schulz. Det er ikke
+ideelt at høyre back må gå i press på det angripende lags venstreback. Det er en av
+grunnene til at de to trekk etterpå er sårbare for en stikker i bakrom.
+
+Vi ser glimrende eksempler på hvordan rom skapes og utnyttes av Werder - uten at
+Juventus klarer å nekte disse rommene. Juventus ligger, som ved forrige scoring,
+tydelig i posisjon med sine to firere. Det hjelper lite, det skyves for mye og det gjøres
+posisjonelle feilvalg.
+
+
+5.5 Kvantitativ og kvalitativ kampanalyse
+Her presenteres den tredje og siste analysemetoden min. Jeg har så langt vist
+hvordan scoringer kommer gjennom en kvantitativ analyse, derigjennom svart på
+hovedproblemstillingen i oppgaven. Jeg har deretter gått i dybden på noen utvalgte
+scoringer og sett med flerdimensjonale briller på hva som kjennetegner slike angrep.
+Det har belyst fire av underproblemstillingene.
+
+Nå viser jeg resultater fra den siste analysen, noe som gjør meg enda sikrere på at
+svarene de to første analysene ga meg, er valide og reliable.
+
+Jeg har valgt å gå i dybden på AC Milan, et lag som har imponert meg i forhold til
+temaet i oppgaven. Jeg har allerede beskrevet tre scoringer av laget i detalj. Nå
+følger en analyse av semifinaleoppgjørene mot Barcelona. Disse kampene er
+observert i sin helhet av forfatteren.
+
+
+
+
+                                                                                        40
+5.5.1 Milan – Barcelona, kamp 1
+Milan spilte 4-4-2 med diamantformasjon på midten. Barcelona spilte 4-3-3.
+Når Barcelona hadde ball helt bak, presset Milan halvhøyt med to brede spisser og
+dyttet opp Kaka mellom dem, hvis nødvendig.
+
+Hvilket utgangspunkt hadde så Milan mot Barcelonas 4-3-3?
+
+
+
+
+Figur 14. Milan i rødt i 4-4-2 med diamant, mot Barcelona i 4-3-3
+
+Muligheter
+   - Utnytte rommet som Barcelona avgir på sidene. Barcelonas kantspillere er
+      ikke alltid flinke til å gjøre jobben hjemover. Sidebackene til Milan kan få mye
+      plass.
+   - Milan kan bli fire mot tre inne på midten og viser figuren at den dype
+      midtbanespilleren Pirlo kan få rom. Barcelonas anker kan ikke flytte opp på
+      Pirlo, for da vil mellomromsspiller Kaka bli ledig. Han kan ikke plukkes opp av
+      midtstopper, fordi Milan spiller med to spisser som binder opp stopperne. Det
+      blir derfor viktig å bruke Pirlo mye, som deretter kan vinkle ut på sidene på
+      sidebacker.
+
+Begrensninger
+  - Må vurdere risiko i forhold til at et bortemål vil være gull verdt mot Barcelona.
+  - Barcelonas kontringsspill må stoppes. Milan bør balansere med to
+      midtbanespillere.
+  - I tillegg må vi påregne at Milan får lite bakrom på hjemmebane, selv om
+      Barcelona innimellom kan stå nokså høyt med det bakre leddet.
+
+
+                                                                                     41
+   -   Det må konsentreres mye i midtbaneleddet. Barcelona flytter alltid
+       sidebackene høyt i banen mot etablert og Milan må klare å dekke banens
+       bredde med sin midtbanefirer.
+
+Lagoppstilling: Dida - Stam, Nesta, Kaladze, Serginho - Gattuso, Pirlo, Seedorf,
+Kaka - Shevchenko, Gilardino
+
+Resultat 0-1
+
+Sjansestatistikk 6-5
+
+Milans målsjanser:
+1. Dødball, som kom etter høy backinvolvering
+2. Overgang
+3. Etablert, etter høy backinvolvering
+4. Etablert, etter høy backinvolvering
+5. Etablert
+6. Dødball, som kom etter høy backinvolvering
+
+2 av 6 målsjanser kom altså etter backinvolvering høyt i banen, pluss at 2 til kom
+etter dødball som ble framprovosert av høy backinvolvering.
+
+30 ganger kom Milan seg inn på siste tredjedel av banen med ballkontroll, i angrep
+mot etablert eller delvis etablert forsvar.
+
+22 av 30 var etter backinvolvering høyt i banen.
+
+Milan lyktes godt ut fra mulighetene og begrensningene som er skissert lenger opp.
+Kampen kunne like gjerne endt med hjemmeseier. Milan angrep som forventet og
+lyktes godt med å involvere Pirlo mye og med å få med sidebackene høyt i banen.
+Som ventet fikk de i perioder trøbbel med Barcelonas kontringsspill, men det er
+vanskelig å unngå mot en så god motstander.
+
+
+5.5.2 Barcelona – Milan, kamp 2
+Milan spilte også i denne kampen 4-4-2 med diamantformasjon på midten. Barcelona
+stilte i sin sedvanlige 4-3-3-formasjon.
+
+Hvilket utgangspunkt har Milan mot 4-3-3 i returoppgjøret?
+
+Muligheter
+   - I tillegg til punktene fra kamp 1, kan det på bortebane bli muligheter for å spille
+      tidlig i bakrom.
+   - Kampbildet vil nok være noe annerledes enn i kamp 1. Det forventes nok et
+      Barcelona-lag som vil angripe med kløkt, men gripe sjansen når den kommer.
+
+Begrensninger
+  - Milan må vinne for å gå videre, etter å ha tapt første kamp 0-1. Milan må
+      utover i kampen spille med større risiko for å score mål.
+
+
+
+                                                                                      42
+   -   Det kan være skummelt å gå for mye framover med sidebacker mot
+       Barcelonas vinger. Høyrekant Giuly er en typisk bakromsspiller, mens
+       Ronaldinho alltid er farlig når han får rom.
+
+Lagoppstilling: Dida - Stam, Costacurta, Kaladze, Serginho - Gattuso, Pirlo, Seedorf,
+Kaka - Shevchenko, Inzaghi
+
+Resultat 0-0
+
+Sjansestatistikk 3-6 (sett med Milan-øyne)
+
+Milans målsjanser:
+1. Barcelona er delvis i ubalanse, tilbøyelig til å kalle det overgang, selv om
+Barcelona har muligheten til å unngå en rask kontring
+2. Etablert, høy backinvolvering i forkant
+3. Etablert, etter langpasning. Backinvolvering høyt i bane.
+
+2 av 3 målsjanser kom etter backinvolvering høyt i banen.
+
+28 ganger kom Milan seg inn på siste tredjedel av banen med ballkontroll, i angrep
+mot etablert forsvar eller delvis etablert forsvar.
+
+18 av 28 kom etter backinvolvering høyt i banen.
+
+Også i denne kampen lyktes Milan forholdsvis godt, mot en meget god motstander.
+Marginene var imidlertid på Barcelonas side. Mot slutten av kampen kom flere store
+Barcelona-sjanser, da Milan måtte gamble og dytte fram enda flere spillere. Men
+også i denne kampen ser vi at Milan ofte kom inn på siste tredjedel av banen med
+sidebacker.
+
+
+5.5.3 Oppsummering av kampanalysen i de to semifinaleoppgjørene
+Kampanalysen min av de to semifinaleoppgjørene viser hvordan Milan angrep i disse
+to kampene, en hjemme og en borte. Laget klarte ikke å score på Barcelona, men jeg
+fikk en klar gjenkjenning fra analysen av scoringene tidligere i oppgaven i forhold til
+måten å angripe på. Mot etablert forsvar bruker Milan to brede stoppere og to høye
+backer. Det spilles ofte tidlig på Pirlo som vender opp og bruker sideback høyt i
+banen. Ofte søkes også mellomrommet på Kaka. Milan vender spillet hurtig mot
+motsatt sideback. Backene er lagets breddeholdere og blir derfor mye involvert. De
+fire midtbanespillerne konsentrerer ofte inn sentralt og gir ballfører ulike alternativer.
+Spissene er flinke til å bevege seg, og ofte med motsatte bevegelser.
+
+Backene er definitivt et viktig angrepsvåpen for Milan, kanskje spesielt mot etablert
+forsvar.
+
+I løpet av de to kampene kommer Milan, mot helt eller delvis etablert forsvar, inn på
+siste tredjedel av banen 58 ganger. 40 av disse er etter backinvolvering høyt i banen.
+Dette utgjør 69 prosent. Nesten 7 av 10 angrep mot helt eller delvis etablert forsvar,
+der Milan lykkes med å etablere ballkontroll på siste tredjedel, inneholder altså en
+backinvolvering høyt i banen. Det illustrerer tydelig hvor viktig sidebacken er i Milans
+
+
+                                                                                        43
+angrepsspill. I tillegg kommer 4 av 9 Milan-sjanser i disse to kampene etter
+backinvolvering høyt i banen mot etablert/delvis etablert forsvar. Pluss at to sjanser
+kommer etter dødball, framprovosert av backinvolvering høyt i banen.
+
+
+Disse tallene finner jeg oppsiktsvekkende høye. Jeg vet lite om hvordan Milans
+angrepsspill hadde vært med en annen formasjon, men når så mange
+potensielt gode angrep involverer sideback høyt i banen, da underbygger det
+hovedproblemstillingen i oppgaven; laget får opplagte gevinster av å være
+dyktige i denne fasen av spillet.
+
+I tillegg er mitt inntrykk at de to kampene inneholder få overganger. Lagene er svært
+ballsikre og også flinke i gjenvinningsfasen. Siden overgangsspillet er så lite sentralt,
+blir angrep mot etablert forsvar desto viktigere.
+
+
+5.6 Oppsummering av analysen - konklusjon
+Jeg har i dette kapitlet analysert data på tre ulike måter:
+
+   -   Kvantitativ kampanalyse gjennom å se på samtlige scoringer i turneringen
+   -   Kvalitativ kampanalyse gjennom å se på fem utvalgte scoringer i lys av de fire
+       dimensjonene.
+   -   Kvantitativ og kvalitativ analyse av Milans to semifinalekamper.
+
+Den kvantitative scoringsanalysen har vist at mange av scoringene i denne utgaven
+av Champions League kom etter backinvolvering høyt i banen. I forhold til
+hovedproblemstillingen min er svaret enkelt; lag som er dyktige i denne fasen av
+spillet vil få gevinster i form av scoringer. En stor andel av scoringene mot etablert
+forsvar kom jo på denne måten. Da er det overveiende logisk at mange lag også kom
+til målsjanser på denne måten, uten at det resulterte i scoringer. I tillegg må lagene
+ha kommet til enda flere gjennombrudd, som ikke førte til målsjanser. Analysen av
+Milans semifinalekamper illustrerer dette på en god måte.
+
+Jeg konkluderer derfor med at backinvolvering høyt i banen gir gevinster i form av at
+det øker sjansen for å bryte ned motstander og derigjennom gir muligheter for å
+skape målsjanser og scoringer. Dette er funn nummer 1.
+
+I tillegg har jeg, gjennom kvalitative beskrivelser av fem scoringer vist hvordan alle de
+fire dimensjonene har hatt stor innvirkning på angrepene som ga scoringer.
+
+Jeg har sett på hvilke individuelle delferdigheter som går igjen hos sidebackene, og
+også for andre roller, eksempelvis sentral midtbanespiller. Her har jeg vært innom
+både valg og utførelse i de ulike delferdighetene. Konklusjonen blir at et lag til
+sammen bør inneha mye individuell ferdighet, både med tanke på valg og utførelse.
+Men spilIerne bør gjerne utfylle hverandre og beherske ulike delferdigheter. I
+backrollen vil jeg spesielt trekke fram evnen til tidlig å oppfatte, vurdere og bestemme
+seg for posisjonering i angrep. For en midtbanespiller vil jeg spesielt trekke fram
+evnen til å orientere seg før mottak, evnen til kjapt å velge hva som lønner seg i
+neste trekk, samt hurtig og presis utførelse av medtak, føring og pasning.
+Ovenstående er funn nummer 2.
+
+
+                                                                                         44
+Jeg har sett nærmere på de viktigste relasjonelle ferdighetene i disse fem angrepene,
+og spesielt sett på relasjoner der sidebacken deltar. Her har jeg fokusert ekstra på
+hvordan sidebacken er avhengig av å få ball fra en midtbanespiller. I tillegg at
+midtbanespilleren er avhengig av at sidebacken beveger seg hurtig inn i riktig rom til
+riktig tid, slik at han kan vende spillet – og backen kan sette fart inn i ledig rom. De
+gjør hverandre gode, til det beste for laget. Dette er funn nummer 3.
+
+Jeg har også vist eksempler på hvordan strukturen i laget har vært i disse
+angrepene. Blant annet hvordan balansen i laget opprettholdes og at selv om en
+sideback går, behøver ikke det bety økt risiko for overgang i mot. Jeg har også vist
+eksempler på struktur i angrepsspillet – og hvordan lagene har visse rammer å
+forholde seg til, blandet med kreativitet og flotte prestasjoner. Scoringene viser at
+summen av individuell ferdighet, relasjonell ferdighet og god struktur gir suksess.
+Individuell og relasjonell ferdighet er ikke nok, laget må i tillegg ha noen ”knagger” å
+henge angrepsspillet på. Her henger den relasjonelle og strukturelle dimensjonen
+mye sammen: God bevegelse i laget ut fra visse forutbestemte rammer. Dette er
+funn nummer 4.
+
+Jeg har også beskrevet kampdimensjonen - hvilke muligheter og begrensninger
+motstanderen har gitt lagene – og hvordan feil hos motstander både individuelt og
+strukturelt ga straff i form av baklengsmål. For eksempel: Sterk konsentrering ga ved
+flere scoringer mye rom motsatt når spillet ble vendt hurtig. Her bør det også nevnes
+at for lite konsentrering for alt vi vet kunne ført til enda flere baklengs, da det ville blitt
+mer rom sentralt i banen. Dette er alltid en avveining det forsvarende lag må vurdere.
+Poenget er uansett: Det gjelder å forholde seg til de mulighetene og begrensningene
+motstanderen gir laget. Derfor må ikke kampdimensjonen undervurderes. Den utgjør
+en viktig del av helheten og må alltid tas i betraktning når fotball analyseres. Dette er
+funn nummer 5.
+
+Den siste delen av analysen var en kombinasjon av kvantitativ og kvalitativ metode;
+analysen av semifinaleoppgjørene mellom Milan og Barcelona. Her fikk jeg bekreftet
+at svært mange av Milans angrep mot etablert forsvar eller delvis etablert forsvar
+inkluderer backinvolvering høyt i banen. Det er ingen tvil om at Milan bruker sideback
+som lagets breddeholder og at midtbanespillerne konsentrerer inn sentralt i banen.
+Det var her en tydelig forskjell mellom Milan og Barcelona, uten at det ene kan sies å
+være bedre enn det andre. Det å gå i dybden på Milan var for meg, ut fra
+problemstillingene mine, et godt valg. Valget ble jo også enkelt i etterkant av
+scoringsanalysen, der jeg kartla hvilke lag som scoret mål på backinvolvering høyt i
+banen.
+
+Analysen av de to Milan-kampene bekreftet dermed inntrykkene fra
+scoringsanalysen. Det var også interessant å se at Milan spilte på denne måten
+uavhengig av hvilke backer de hadde tilgjengelig og hvilke delferdigheter disse
+innehar. Stam, Serginho, Maldini og Cafu må sies å være noe forskjellige spilletyper.
+Dette så ikke ut til å påvirke valg av struktur.
+
+Den siste analysen underbygger de fem funnene presentert ovenfor, og gjorde
+meg tryggere på at analysen er valid.
+
+
+
+
+                                                                                            45
+5.7 Hvordan forbedre lagets evne til å involvere back høyt i banen
+    på treningsfeltet?
+Avslutningsvis vil jeg besvare min femte og siste underproblemstilling:
+
+Hvordan kan laget bli dyktigere til å involvere sidebacker høyt i banen til beste for
+laget?
+
+Underproblemstillingen besvares ut fra data fra de tre analysene, krydret med egne
+synspunkter.
+
+Jeg forutsetter her at jeg har å gjøre med et lag i toppfotballen.
+
+Jeg går ikke inn på hvilke delferdigheter som bør forbedres, men viser til resultatene i
+den kvalitative analysen i oppgaven. I analysen framgår det hva som kjennetegner
+AC Milan og Werder Bremen, sett i et flerdimensjonalt ferdighetsperspektiv. For å
+forbedre lagets evne til å involvere backene høyt i banen, må det tas hensyn til alle
+de fire dimensjonene som påvirker ferdigheten.
+
+Må det spilles med diamantformasjon?
+Oppgaven har vist at mange lag i europeisk toppfotball spiller med diamantformasjon
+på midten, og sidebackene får så å si alene ansvaret for bredden i spillet. Jeg har vist
+flere eksempler på at et kjapt pasningsspill med hurtig vending av spillet fører til rom
+høyt i banen for sideback.
+
+For å utnytte sidebackene høyt i banen er det trolig en fordel med diamantformasjon,
+men det er ikke avgjørende. I siste VM-sluttspill så vi en rekke lag hvor kantspilleren
+valgte å trekke inn i banen for å skape rom for sideback.
+
+Det avgjørende er ikke lagets formasjon, men lagets evne til å beherske alle de fire
+dimensjonene og derigjennom sørge for å utnytte de muligheter motstander gir bort.
+Hvis det avgis rom på sidene må det definitivt utnyttes, men det kan gjøres på flere
+måter.
+
+Spesifisitetsprinsippet
+Spesifisitetsprinsippet innebærer at det må være størst mulig likhet mellom treningen
+og det en trener for. I fotball innebærer dette at vi må trene på det vi ønsker å være
+gode på i kamp. Oppgaven har vist at fotball må ses med flerdimensjonale briller. Det
+må vi ta utgangspunkt i når lagets fotballferdighet skal videreutvikles.
+
+Spillerne må få øving i å velge løsninger til beste for laget og i å utføre handlingene
+som velges. Etter min oppfatning er det da viktig at treneren ikke velger for spillerne,
+men i stedet legger opp til klare rammer, så må spillerne velge ut fra lagets struktur.
+
+Når det er backspill høyt i banen som er tema, må treneren derfor organisere
+treningen slik at den enkelte spiller får øving på situasjoner i den rollen en innehar i
+kamp. Og gjerne etter modellen hel-del-hel, med tema og momenter.
+
+
+
+
+                                                                                           46
+Den strukturelle og relasjonelle dimensjonen
+For å forbedre lagets evne til å få med sidebackene høyt i banen mot etablert forsvar
+eller delvis etablert forsvar, må laget ha retningslinjer for hvordan en skal angripe og
+for hvordan balansen i laget skal opprettholdes. Så øves det primært gjennom spill.
+Dette for så ofte som mulig å inkludere valget og for å få med alle fire dimensjonene.
+
+Laget må ikke alltid trene øverst på funksjonalitetsskalaen. For at det grunnleggende
+strukturelle og relasjonelle skal ”sitte i ryggmargen” kan det øves også uten motstand
+– eller i form av overtallsspill. Etter hvert som posisjoneringen i denne delen av spillet
+begynner å sitte, kan graden av motstand økes.
+
+For at eksempelvis en sideback og en midtbanespiller skal forbedre denne delen av
+spillet, må de som nevnt i forrige avsnitt, komme i relevante situasjoner så ofte som
+mulig. Da er stikkordet rolletrening.
+
+Kampdimensjonen
+Hovedpoenget mitt for å forbedre denne delen av spillet er, som nevnt flere ganger i
+oppgaven, å øve på mer enn bare frispilling helt bakfra. Mange angrep oppstår etter
+ballerobring pluss/minus midten, og da må dette øves på for å få gjenkjenning i
+kamp. Da må treneren organisere spilløkta slik at disse bildene dukker opp så ofte
+som mulig. Det blir ikke effektivt nok å begynne angrepet hos egen keeper hver
+gang, ref. frispilling. Det må også øves på hva som skjer ved ballerobring
+pluss/minus midten, uten at det nødvendigvis er en overgangssituasjon.
+
+Et viktig funn i oppgaven er jo at backinvolvering høyt i banen kan være avgjørende
+for å skape gjennombrudd. Og muligheten for backinvolvering høyt i banen kommer
+ikke bare etter en vellykket frispilling, men ofte etter ballerobring pluss/minus midten.
+
+Et annet funn er at den tradisjonelle inndelingen i ulike typer angrep er upresis. Det
+er ofte vanskelig å skille mellom overgang og angrep mot etablert forsvar. Jeg påstår
+derfor at en inndeling i overgang, angrep mot etablert forsvar og angrep mot delvis
+etablert forsvar (når motstanders fremste pressledd er borte) er mer dekkende. Svært
+mange angrep i min analyse er mot delvis etablert forsvar. Da vil det også være lurt å
+trene mye på dette – og da er det avgjørende at treneren klarer å identifisere
+relevante situasjoner som kommer i spillsekvenser.
+
+Det kan også være smart å trene på dette mot ulike typer motstandere.
+Kampdimensjonen endrer seg ut fra hva motstander tillater. Det kan derfor øves mot
+både høyt og lavt press, og også mot ulike formasjoner.
+
+En må heller ikke alltid ha 11 spillere på det angripende lag for å øve backspill høyt i
+banen, men det er alfa og omega å spille med flere ledd i begge lag. Dette for at
+spillerne skal få øving i å identifisere rom, og derigjennom oppfatte, vurdere og
+bestemme seg for posisjonering uten ball og for handling med ball.
+
+7 v 7 kan derfor være like bra som 11 v 11. En må selvfølgelig gjøre begge deler.
+
+
+
+
+                                                                                       47
+Den individuelle og relasjonelle dimensjonen
+Alt ovenfor må inntreffe i treningens hoveddel, men det er ingen ulempe om en velger
+samme tema i oppvarmingsøvelser og trening i ”del”. Da blir det gjerne mer øving av
+relasjonell og individuell ferdighet (mest utførelse), spesielt hvis det blir rolletrening
+uten motstand. Da tar vi bort mye av valget, men spillerne får likevel trening i å utføre
+handlingen. Det er imidlertid viktig at det ikke blir for mye isolert teknikktrening. Det
+har begrenset verdi, etter min oppfatning.
+
+Den individuelle og relasjonelle ferdigheten forbedres aller best gjennom spilløvelser,
+der vi inkluderer valget.
+
+Coaching
+Treneren må i spillsekvenser coache på valg mer enn på utførelse, for å bevisstgjøre
+spillerne og øke deres fotballforståelse. Dette gjøres etter min mening best ved å ha
+en spørrende tilnærming. Spillerne lærer bedre og blir mer engasjerte når de må
+tenke selv - og finne de rette løsningene. Da er det avgjørende at treneren velger
+tema, momenter til tema, og at det skapes bilder der det er effektivt å fryse spillet og
+stille spørsmål. Jfr. avsnittet om kampdimensjonen, der treneren må være i stand til å
+identifisere situasjoner. Og når temaet er backinvolvering høyt i banen, gjøres dette
+kanskje aller best ved å skape situasjoner mot delvis etablert forsvar, i tillegg til
+frispilling.
+
+Hvor ofte bør laget drive spilltrening med fokus på backinvolvering høyt i
+banen?
+For et lag i toppfotballen mener jeg denne type øving kan kjøres flere ganger i uka,
+avhengig av hvor viktig treneren mener at det er. Mye er viktig i fotball. Trening mot
+etablert forsvar eller delvis etablert forsvar er en av flere faktorer som betyr mye. Og
+da har oppgaven vist at backenes rolle er av stor betydning.
+
+Generelt mener jeg en trener i toppfotballen bør instruere ofte for å bevisstgjøre
+spillerne, ut fra hva som er viktig for laget. Jeg ser gjerne at en del trenere i mindre
+grad er aktivitetsledere og observatører i forhold til å ta ut laget til neste kamp. Dette
+må gjøres, men det må også coaches for å skape utvikling.
+
+Oppsummert
+Trening som ivaretar alle de fire ulike dimensjonene ved fotballferdigheten, er altså
+særs viktig for å videreutvikle lagets ferdighet. Årsaken er at slik trening vil gi
+spillerne en bedre fotballforståelse, og dermed bedre forutsetninger for å lykkes. Selv
+om kampsituasjonene sjelden er helt like, vil spillere som ofte opplever gjenkjenning
+av situasjoner i vante roller ha bedre muligheter for å lykkes i kamp.
+
+Jeg har i avsnittene ovenfor vist hvorfor jeg mener trenerens rolle er svært viktig for å
+lykkes i å forbedre denne delen av spillet. Treneren må også i den daglige treninga
+tenke flerdimensjonalt og bevisstgjøre spillerne i forhold til hva som til enhver tid skal
+prioriteres. Da må treneren legge til rette for bevisstgjøring gjennom god organisering
+av økta, og bruke falkeblikket til å finne de rette situasjonene.
+
+
+
+
+                                                                                         48
+REFERANSELISTE
+
+ -   Dahl, Gisle: Rolleferdigheter – et casestudie av sidebacker og indreløper i
+     angrep, Hovedfagsoppgave NIH, 2002
+ -   Eggen, Nils Arne: Godfoten, 1999
+ -   Halvorsen, Jan Halvor: Hvordan utvikle den gode offensive sideback? Trener
+     III-oppgave, 2005
+ -   Larsen, Øyvind: Angrep og effektivitet, Hovedfagsoppgave NIH, 1992
+ -   Larsen/Ronglan: Ballspillanalyse – mer enn arbeidskravsanalyse, 2003
+ -   Larsen, Johansen, Bergo, Morisbak: Ferdighetsutvikling i fotball, 2003
+ -   Larsen, Olsen, Semb: Effektiv fotball, 1994
+ -   Morisbak, Andreas: Fotballforståelse, 1978
+ -   Morisbak, Dreier, Skarsfjord: God fotballferdighet, 1986
+ -   Olsen, Egil: Scoringer i fotball, Hovedfagsoppgave NIH, 1974
+ -   Pellerud, Even: Backenes oppgaver ved laget i angrep, Trener III-oppgave,
+     1986
+ -   Teigen, Rolf: Fra tung filosofi til enkel metodikk: En studie av fotballspillets
+     emergente egenart og betydningen for arbeidet på praksisfeltet med laget som
+     prestasjonsenhet, Hovedfagsoppgave NIH, 2005
+ -   Wade, Allan: The FA Guide for Training and coaching, 1967
+ -   UEFA Champions League, 2004/2005, Technical Report, UEFA
+ -   UEFA Champions League, 2005/2006, Technical Report, UEFA
+ -   Champions League Goals, DVD, 2006
+ -   AC Milan – FC Barcelona 18. april 2006, DVD fra TV3, 2006
+ -   FC Barcelona – AC Milan 26. april 2006, DVD fra TV3, 2006
+
+
+
+
+                                                                                  49
+SAMMENDRAG
+
+TITTEL:
+
+Sidebacken høyt i banen – det nye angrepsvåpenet.
+Hva kreves i så måte av backen og av resten av laget?
+
+Med utgangspunkt i en kampanalyse av topp internasjonal klubbfotball
+
+
+
+Bakgrunn for oppgaven
+I dagens toppfotball mener jeg å ha observert at backrollen har utviklet seg til å bli en
+meget sentral del av et lags angrepsspill. Toppfotballen blir stadig hurtigere og stort
+sett alle lag er godt organisert i forsvarsarbeidet. Backrollen er viktigere enn før fordi
+det ofte er trangt og lite rom når et lag angriper mot etablert forsvar eller delvis
+etablert forsvar (her; når fremste pressledd hos motstander er borte). Det er viktigere
+enn før å ha evnen til å vende spillet hurtig, for så å kunne angripe motsatt med en
+back som posisjonerer seg høyt. Det er vanskelig å skape målsjanser mot etablert
+forsvar/delvis etablert forsvar uten at det fylles på med spiller(e) fra det bakre leddet.
+
+Det slår meg imidlertid ofte hvor lite bevisste en del lag i Norge er i denne delen av
+spillet. Mot etablert forsvar/delvis etablert forsvar trenes det ofte mest på frispilling og
+mindre på det som skjer i neste fase. Jeg var ute etter å vise betydningen av å
+involvere sidebacken høyt i banen og å se på hvordan dette gjøres av laget. For å få
+gode bilder valgte jeg å analysere europeisk klubbfotball på høyeste nivå.
+
+Problemstilling
+Hvilke gevinster får laget ved å involvere sidebacker i angrepsspillet høyt i banen mot
+etablert forsvar eller delvis etablert forsvar?
+
+Underproblemstillinger
+  • Hva kreves av fotballferdighet i de ulike rollene i laget for å lykkes med å
+     involvere backen høyt i banen mot etablert forsvar eller delvis etablert forsvar,
+     til beste for laget?
+          • Hva kreves individuelt?
+          • Hva kreves relasjonelt?
+          • Hva kreves strukturelt?
+          • På hvilken måte spiller kampdimensjonen inn?
+          • Hvordan kan punktene ovenfor trenes på i hverdagen?
+
+
+Metode
+For å skaffe meg mest mulig informasjon valgte jeg å lese mye norsk og internasjonal
+fotballitteratur.
+Jeg valgte så tre ulike typer kampanalyse, gjennom bruk av DVD:
+
+
+
+                                                                                          50
+   -   Kvantitativ kampanalyse for å belyse hovedproblemstillingen. Jeg valgte å se
+       på hvordan de 285 scoringene i UEFA Champions League 2005/2006 kom.
+       Ved å finne ut hvor mange scoringer som kom etter backinvolvering høyt i
+       banen mot etablert forsvar og mot delvis etablert forsvar, fikk jeg kunnskap om
+       et lags gevinster ved å involvere backen høyt i banen.
+
+   -   Kvalitativ kampanalyse for å belyse de fire første underproblemstillingene. Her
+       fant jeg, ved hjelp av den kvantitative analysen, to lag som scoret flere mål på
+       backinvolvering høyt i banen. Jeg lagde deretter en flerdimensjonal analyse av
+       hva som skjedde ved fem utvalgte scoringer som inkluderte backinvolvering
+       høyt i banen. Jeg ville belyse de fire dimensjonenes innvirkning på disse
+       angrepene og finne ut hva som kjennetegnet disse scoringene, sett i et
+       flerdimensjonalt ferdighetsperspektiv.
+
+   -   En kombinasjon av kvantitativ og kvalitativ analyse, gjennom å observere to
+       hele kamper av et lag jeg gikk i dyden på i den kvalitative analysen. Denne
+       siste analysen ville gi meg data som underbygget svarene i de to første
+       analysene.
+
+
+Teori
+Teorikapitlet starter med litt historikk rundt hvordan synet på fotballforståelsen har
+utviklet seg de siste 30-40 årene. Fra et ensidig fokus på spillsekvenser og isolert
+teknikktrening, har synet på fotball endret seg ganske radikalt i Norge. Wade, Olsen,
+Morisbak, Eggen med flere har alle hatt stor innflytelse. I dag ser mange fotball i lys
+av de fire dimensjonene som påvirker fotballferdigheten. I tillegg har definisjonen på
+fotballferdighet endret seg. I dag har valget langt mer innflytelse enn for en del år
+siden, da det var mer fokus på utførelsen.
+
+I teorikapitlet beskriver jeg hva som ligger i de fire dimensjonene – og hvordan alle
+disse virker inn på fotballferdigheten. Alle de fire dimensjonene må tas hensyn til når
+et lags ferdighet skal omtales/utvikles.
+
+Jeg redegjør også for forfatterens eget syn på fotball – og hva jeg mener er det aller
+viktigste for å beherske et godt angrepsspill. Det å skape og utnytte rom gjennom
+gode valg og god utførelse er her sentralt.
+
+
+Resultater/diskusjon
+I det siste kapitlet presenteres og drøftes resultatene i analysen. Jeg gjør, etter egen
+oppfatning, viktige funn i analysen. Jeg finner overraskende store gevinster ved å
+lykkes med å involvere sideback høyt i banen mot etablert/delvis etablert forsvar. Det
+scores mange mål på backinvolvering høyt i banen - og da sier det seg selv at det
+skapes desto flere målsjanser og enda flere gjennombrudd som ikke blir sjanser på
+samme måte. Normal uttellingsprosent er jo å score på ca 1 av 5 sjanser. På denne
+måten belyses hovedproblemstillingen.
+
+Et annet funn er at den tradisjonelle inndelingen i overgang v etablert virker upresis.
+Mange scoringer i analysen kommer etter angrep mot delvis etablert forsvar (fremste
+pressledd hos motstander er borte). Slike angrep starter ofte etter ballerobring
+
+
+                                                                                      51
+pluss/minus midten, der motstander bare delvis er i balanse, men det blir feil å kalle
+det overgang.
+
+Jeg gjør oppmerksom på at jeg har fokusert mest på lag med diamantformasjon på
+midten, og det er jo også logisk at disse lagene ofte behersker denne delen av spillet,
+da de spiller uten rene kantspillere. Sidebacken blir gjerne lagets breddeholder.
+
+Jeg beskriver også, ut fra den kvalitative analysen, hva som karakteriserer et lag som
+er dyktige til å involvere sidebacken høyt i banen, i lys av de fire dimensjonene. På
+denne måten svarer jeg på de fire første underproblemstillingene. Jeg viser hvordan
+alle dimensjonene har stor betydning for at angrepet lykkes. Jeg går her ikke spesielt
+inn på hvilke typer ferdighet som går igjen, men nevner kort følgende:
+
+   -   Individuelt: Hurtig oppfattelsesevne, evnen til å velge riktig løsning, god
+       utførelse i forhold til medtak, føring, pasning.
+
+   -   Relasjonelt: Spillere i nærheten av hverandre på banen tenker likt i flere
+       situasjoner. Spesielt viktig er relasjonen mellom dyp midtbanespiller og
+       sidebackene.
+
+   -   Strukturelt: God balanse når laget er i angrep, og klare rammer for
+       angrepsspillet med et sett av alternativer å velge blant. Dette begrenser
+       kaoset av valgmuligheter.
+
+   -   Kampdimensjonen: Evnen til å ta hensyn til de begrensninger motstander
+       setter - og til å utnytte de muligheter motstander gir. Små feil hos motstander
+       straffes hardt av gode lag.
+
+Jeg oppsummerer deretter funnene i analysen, før jeg avslutter oppgaven med å
+presentere noen tanker om hvordan backinvolvering høyt i banen kan videreutvikles
+på treningsfeltet. Dette blir svar på femte og siste underproblemstilling. Jeg legger
+også her hovedvekt på de fire dimensjonene og trekker inn stoff fra teorikapitlet. Det
+viktigste er etter min mening at treneren har evnen til å identifisere situasjoner i
+spillsekvenser, der spillet må fryses og spillerne bevisstgjøres. En forutsetning er jo
+også at økta bygges opp med tema og momenter til tema – og at treneren
+organiserer økta slik at det dukker opp relevante situasjoner i kjente roller så ofte
+som mulig. Dette er etter min oppfatning den beste læringa.
+
+
+
+
+                                                                                      52
+VEDLEGG
+
+
+Scoringene i UEFA Champions League 2005/2006
+
+AC Milan 20 mål.
+  1. Overgang, ut til Cafu rundt midten. Ballmottak nær midten. Inn igjen, to-tre
+      trekk, scoring
+  2. Overgang
+  3. Overgang, VB får ball rundt motstanders 16 og skyter. Retur og mål
+  4. Etablert. Langskudd
+  5. Etablert. VB Maldini kombinerer med kant og skaper 2 v 1. Innlegg fra back,
+      scoring.
+  6. Overgang
+  7. Etablert/delvis etablert der VB er sentral i oppbygningen. Posisjonerer seg
+      høyt og kombinerer fint, bidrar til å skape overtall.
+  8. Etablert/delvis etablert. VB kommer på løp og legger tidlig inn – scoring.
+  9. Overgang
+  10. Direkte frispark
+  11. Overgang
+  12. Overgang
+  13. Straffe etter spill mot etablert. Begge backer høyt i banen. Mange trekk, begge
+      backer aktivt med. Innlegg fra VB, straffe – scoring
+  14. Overgang med brudd høyt i banen av VB. Innlegg – scoring.
+  15. Innkast høyt i banen fra HB. Tilbake til HB, innlegg – scoring.
+  16. Etablert, begge backer høyt, samme sides back går veldig høyt, og det skjer
+      raskt. Begge er involvert. Ender med innlegg fra VB og scoring.
+  17. Overgang
+  18. Overgang
+  19. Etablert. Har skikkelig trykk og flytter opp mange. Slår langt, vinner duell
+  20. Overgang
+
+Ved 9 av 20 mål er backene sentrale. 3 av disse er overganger. 4 er etter etablert. 1
+provoserer fram straffe etter backinvolvering og 1 er etter innlegg – innkast fra back.
+
+Kjennetegn: Diamant på midten og bevisste på at backer må posisjonere seg høyt og
+det må skje hurtig og til rett tid. Spesielt viktig fordi laget spiller uten kantspillere.
+Backene blir lagets breddeholdere. Både Maldini, Cafu, Stam og Serginho bekler
+backrollene. Ulike typer, men Milan spiller likt uavhengig av hvem som spiller back.
+Spesielt samme sides back står høyt mot etablert. De står igjen med to midtstoppere
+og to midtbanespillere for å ha balanse.
+
+
+                                                                                       53
+Sparta Praha 2 mål
+  1. Langskudd etter corner
+  2. Corner
+
+Ajax 12 mål
+   1. Delvis etablert, Langskudd
+   2. Overgang etter brudd høyt i banen av VB
+   3. Overgang
+   4. Etablert.
+   5. Etablert. Tidlig innlegg fra VB som får ball rundt midten mot lavt press, etter
+       hurtig vending av spillet. Han avanserer og slår inn fra 35 meter
+   6. Etablert
+   7. Etablert. VK og VB kombinerer. Innlegg fra VB, legges igjen, skudd – scoring
+   8. Overgang
+   9. Korridorfrispark
+   10. Etablert. Mange trekk. Begge backer involvert. Innlegg fra kant. Scoring
+   11. Etablert. Innlegg fra kant og scoring
+   12. Overgang
+
+Arsenal 15 mål
+   1. Corner
+   2. Etablert. Mål etter lang ball fra stopper. Sidebackene går klart høyere enn
+       stopperne i fase 1
+   3. Overgang
+   4. Overgang som gir straffe og mål
+   5. Etablert. Begge backer med innledningsvis, scoring etter langt oppspill fra
+       sentral sektor
+   6. Overgang. Brudd rundt midten av HB. Lang ball av kant, scoring
+   7. Etablert. Samme sides back høyt. Inn igjen og skudd. Scoring. Back var med
+       for å skape overtall og true rom
+   8. Overgang etter brudd rundt midten
+   9. Etablert. Kombinerer på høyre med back, kant, spiss. Innlegg fra back
+   10. Etablert. HB spiller opp på spiss fra 25 m. Straffe
+   11. Overgang etter brudd på midten
+   12. Overgang etter brudd på midten
+   13. Etablert. HB går på løp og skaper rom for andre. Spilles gjennom sentralt
+   14. Corner. Fikst spill i etterkant
+   15. Korridorfrispark
+
+Chelsea 9 mål
+  1. Korridorfrispark
+  2. Overgang
+  3. Direkte frispark
+  4. Overgang
+  5. Overgang
+  6. Overgang
+  7. Corner
+  8. Korridorfrispark
+  9. Straffe etter etablert. VB skaper ettertrykk. Ny bølge og straffe
+
+
+
+                                                                                    54
+Club Brugge 6 mål
+   1. Corner
+   2. Overgang etter brudd lavt av VB, inn sentralt og motsatt
+   3. Corner
+   4. Frispark
+   5. Overgang
+   6. Etablert. Dobler på kant. VB med
+
+Artmedia Bratislava 5 mål
+   1. Etablert. VB stikker og får ballen på gjennombrudd etter vending av spillet
+   2. Overgang
+   3. Korridorfrispark
+   4. Corner
+   5. Overgang
+
+Barcelona 24 mål
+   1. Etablert. VB og VK dobler på kant
+   2. Straffe etter delvis etablert
+   3. Direkte frispark
+   4. Overgang
+   5. Direkte frispark
+   6. Straffe etter gjenvinning etter dødball
+   7. Etablert. To brede stoppere. To høye backer. En dyp sentral som møter
+   8. Etablert. Samme som over. Backer ikke direkte involvert, men mål som
+       konsekvens av generell posisjonering. Vanskelig for motstander å forholde
+       seg til og det skaper rom sentralt
+   9. Etablert. Samme som over
+   10. Overgang
+   11. Etablert. Samme som de ovenfor. Konsekvens av posisjonering
+   12. Etablert. Samme som over
+   13. Direkte frispark
+   14. Etablert Samme som de over
+   15. Etablert. Begge backene aktivt med.
+   16. Etablert. Samme som de over
+   17. Korridorfrispark
+   18. Overgang
+   19. Etablert. HB med høyt
+   20. Overgang
+   21. Overgang
+   22. Etablert. Ronaldinho trekker inn, VB Gio kommer. Skjer flere ganger. HB også
+       med, men ikke så høy
+   23. Etablert. VB opp på VK, tilbake sentralt – gjennombrudd
+   24. Etablert. Seiersmålet i CL. Begge backer med og skaper trykk. HB går på løp i
+       boks og får ball – scoring
+
+Bayern Munchen 12 mål
+  1. Etablert. Ettertrykk med HB etter gjenvinning av stopper. Innlegg, litt fram og
+     tilbake. Scoring
+  2. Corner
+
+
+
+                                                                                       55
+   3. Etablert. Igjen HB Sagnol som trekker opp i rom i fase 2. Får ball av sentral.
+       Så er han veldig sentral, før det noen trekk senere blir scoring.
+   4. Corner
+   5. Korridorfrispark.
+   6. Etablert: Dyp midtbanespiller velger kant som trekker inn, så kommer VB
+       høyere og får ballen. Tre-fire trekk etter det har vi scoring.
+   7. Corner
+   8. Overgang
+   9. Overgang
+   10. Korridorfrispark
+   11. Etablert. Langt oppspill, gjenvinning, langskudd
+   12. Frispark-retur
+
+Inter 14 mål
+   1. Etablert. VB med i første fase, men de frigjør seg ved å spille rett fra stopper til
+       kant.
+   2. Direkte frispark
+   3. Straffe etter gjenvinning etter corner
+   4. Corner
+   5. Etablert etter gjenvinning etter corner
+   6. Overgang
+   7. Etablert
+   8. Etablert
+   9. Corner
+   10. Delvis etablert. HB gjenvinner
+   11. Etablert
+   12. Overgang etter tidlig back-oppspill
+   13. Etablert
+   14. Etablert. Begge backer involvert
+
+Porto 8 mål
+   1. Corner
+   2. Corner
+   3. Etablert. Langt angrep som starter med at VB bryter foran
+   4. Overgang
+   5. Korridorfrispark som resulterer i innlegg fra HB i 2.trekk
+   6. Direkte frispark
+   7. Korridorfrispark
+   8. Etablert etter gjenvinning. VB til HB, innlegg – mål
+
+Schalke 04 12 mål
+  1. Dødball. Klabb etter langt innkast
+  2. Etablert. Langskudd
+  3. Overgang
+  4. Delvis etablert
+  5. Overgang
+  6. Etablert, langpasning fra keeper
+  7. Corner. Kort pasning til HB, innlegg – scoring
+  8. Straffe etter etablert
+  9. Etablert
+
+
+                                                                                       56
+   10. Straffe etter etablert. VB oppsøker rom høyt i fase 2, spiller gjennom og straffe
+   11. Korridorfrispark
+   12. Dødball, retur etter frispark
+
+FC Thun 4 mål
+   1. Etablert. Korridorinnlegg fra HB etter ettertrykk
+   2. Corner med gjenvinning, innlegg og mål
+   3. Etablert – gjennom i midten på to trekk
+   4. Etablert. VB høyt oppe. Blir med selv og er nest sist
+
+Fenerbahce 7 mål
+   1. Straffe etter etablert
+   2. Straffe etter corner
+   3. Overgang
+   4. Etablert. Gjenvinning etter langpasning
+   5. Korridorfrispark
+   6. Corner
+   7. Korridorfrispark
+
+Juventus 16 mål
+   1. Direkte frispark
+   2. Etablert
+   3. Overgang
+   4. Overgang
+   5. Innkast høyt og tre-fire trekk
+   6. Corner
+   7. Delvis etablert
+   8. Etablert
+   9. Etablert med høye backer
+   10. Direkte frispark
+   11. Overgang
+   12. Delvis etablert
+   13. Etablert
+   14. Etablert
+   15. Etablert. Utspill og to trekk
+   16. Corner
+
+Liverpool 6 mål
+   1. Etablert. Scoring etter langpasning
+   2. Etablert, gjenvinning høyt, så tre-fire trekk
+   3. Corner
+   4. Delvis etablert
+   5. Etablert. Korridorinnlegg fra HB som får assist
+   6. Etablert
+
+Benfica 8 mål
+  1. Etablert. Gjenvinning og ettertrykk etter langpasning. VB går på et flott løp
+  2. Direkte frispark
+  3. Etablert. Hurtig vending bak mot lavt press. VB spiller opp, flikk og scoring.
+  4. Overgang
+
+
+                                                                                      57
+   5. Etablert, mange trekk, langskudd
+   6. Korridorfrispark
+   7. Overgang
+   8. Overgang
+
+Udinese 10 mål
+   1. Etablert mot lavt press, høye backer.
+   2. Overgang
+   3. Etablert. Ettertrykk etter langt oppspill, blant annet av HB
+   4. Corner
+   5. Etablert. Tidlig gjennombrudd i midten, oppspill fra VB
+   6. Korridorfrispark
+   7. Overgang
+   8. Overgang
+   9. Corner
+   10. Etablert
+
+Villareal 8 mål
+    1. Etablert spill gir straffe
+    2. Etablert
+    3. Etablert, skaper ettertrykk
+    4. Straffe etter corner
+    5. Dødball, gjenvinning etter korridorfrispark
+    6. Etablert etter innkast høyt i banen
+    7. Etablert mot høyt press. Trer gjennom i midten
+    8. Korridorfrispark
+
+Werder Bremen 16 mål
+  1. Etablert mot lavt press, så gjenvinning og trer gjennom i midten
+  2. Korridorfrispark
+  3. Etablert mot lavt. HB slår opp på ett touch i siderom på spiss, innlegg, scoring
+  4. Etablert mot lavt press. Kommer rundt
+  5. Etablert. HB går inn i banen rundt midten og spiller fri spiss på samme side, i
+      siderom. Innlegg, scoring
+  6. Frispark fra siden
+  7. Straffe etter overgang
+  8. Straffe etter overgang
+  9. Korridorfrispark
+  10. Etablert. Trer i midten
+  11. Etablert mot høyt press
+  12. Etablert helt bakfra mot halvhøyt press
+  13. Etablert der VB scorer etter å ha kommet for fullt i fase 2 etter hurtig vending.
+      Etter kombinasjon med kant kommer han fri og scorer
+  14. Corner med påfølgende gjenvinning
+  15. Corner
+  16. Etablert, hurtig vending fra HB til SMB til VB som kommer i fase 2 og får assist
+
+Kjennetegn: Mye av det samme som Milan. Diamant på midten, høye backer mot
+etablert som kommer når de får rom. Gode bevegelser i front.
+
+
+
+                                                                                    58
+Rapid Wien 3 mål
+  1. Etablert, kommer rundt på kant, innlegg, scoring
+  2. Etablert. Begynner etter oppspill fra HB
+  3. Corner med påfølgende gjenvinning
+
+Anderlecht 1 mål
+  1. Overgang
+
+Rosenborg 6 mål
+  1. Overgang. Glimrende løp av VB Dorsin som gir Storflor rom
+  2. Overgang
+  3. Overgang
+  4. Etablert. Begynner etter oppspill i mellomrom av VB som har frigjort seg etter
+     igangsetting
+  5. Etablert, der VB er spillbar to ganger i fase 2 og får assist
+  6. Korridorfrispark
+
+Real Madrid 10 mål
+  1. Etablert mot lavt press der høy VB crosser fra midten til HK, innlegg, scoring
+  2. Etablert mot lavt press der HB går høyt og det dobles sammen med HK
+  3. Corner med påfølgende gjenvinning
+  4. Overgang, trer i midten
+  5. Korridorfrispark
+  6. Direkte frispark
+  7. Overgang, tidlig cross av VB, så to trekk og scoring
+  8. Etablert
+  9. Korridorfrispark
+  10. Korridorfrispark
+
+Real Betis 3 mål
+  1. Etablert. HB går høyt og dobler. Trer i midten
+  2. Etablert mot lavt. Trer i midten
+  3. Etablert.
+
+Rangers FC 10 mål
+  1. Gjenvinning etter korridorfrispark. Langt oppspill fra HB som resulterer i
+      scoring
+  2. Korridorfrispark
+  3. Korridorfrispark
+  4. Korridorfrispark
+  5. Corner
+  6. Gjenvinning etter korridorfrispark
+  7. Overgang etter brudd på egen
+  8. Etablert
+  9. Etablert
+  10. Overgang
+
+PSV Eindhoven 4 mål
+  1. Corner
+  2. Etablert etter langpasning
+
+
+                                                                                      59
+   3. Korridorfrispark
+   4. Etablert etter langpasning
+
+Panathinaikos 4 mål
+  1. Etablert gir straffe
+  2. Overgang
+  3. Overgang
+  4. Corner
+
+Lille 1 mål
+    1. Delvis etablert. VB på overlapp i fase 2. Får assist
+
+Manchester United 3 mål
+  1. Frispark
+  2. Corner
+  3. Delvis etablert. Gjennombruddspasning på HB som kommer på et glimrende
+     løp. Får assist etter innlegg
+
+Olympiakos 7 mål
+   1. Frispark fra siden
+   2. Etablert
+   3. Overgang
+   4. Overgang der HB kommer i fase 2 og får assist på å tre gjennom spiss
+   5. Etablert.
+   6. Etablert
+   7. Etablert
+
+Lyon 19 mål
+   1. Direkte frispark
+   2. Direkte frispark
+   3. Etablert som begynner helt bakfra. Kombinerer på høyre, der HB til slutt får
+       assist etter glimrende bevegelser og pasningsspill
+   4. Corner
+   5. Direkte frispark
+   6. Etablert. HB kommer høyt i fase 2 etter vending
+   7. Direkte frispark
+   8. Etablert
+   9. Overgang
+   10. Korridorfrispark
+   11. Overgang. Høy back i fase 2 skaper rom
+   12. Etablert
+   13. Overgang
+   14. Direkte frispark
+   15. Etablert
+   16. Korridorfrispark
+   17. Etablert. Høy back på samme side
+   18. Etablert. Høy HB i fase 2.
+   19. Korridorfrispark
+
+
+
+
+                                                                                     60
+

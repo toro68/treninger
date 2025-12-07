@@ -1,0 +1,1328 @@
+                  ATLETICO MADRID – FORSVARSSPILL
+
+
+
+
+      - Suksessfaktorer ved Atletico Madrids forsvarsspill
+      av Alexander Øren
+
+
+
+
+UEFA A-LISENS                                       01.02.2017
+       Innholdsfortegnelse
+
+       1. Innledning ………………………………………………………………………………………………………… 3
+           1.1 Problemstilling ……………………………………………………………………………………………. 4
+           1.2 Forsvarsspill ………………………………………………………………………………………………… 4
+       2. Metode ……………………………………………………………………………………………………………… 5
+           2.1 Prosedyre ……………………………………………………………………………………………………. 5
+           2.2 Begrepsavklaringer ……………………………………………………………………………………… 6
+       3. Resultater …………………………………………………………………………………………………………. 9
+           3.1 Mål imot ……………………………………………………………………………………………………. 9
+           3.2 Målsjanser imot ………………………………………………………………………………………… 10
+           3.3 Kontringer imot ………………………………………………………………………………………… 11
+           3.4 Innlegg imot ……………………………………………………………………………………………… 12
+           3.5 Formasjon …………………………………………………………………………………………………. 13
+           3.6 Etablert forsvar …………………………………………………………………………………………. 14
+                 3.6.1 Høyt press ………………………………………………………………………………………. 14
+                 3.6.2 Høy blokk ………………………………………………………………………………………. 17
+                 3.6.3 Mellom blokk …………………………………………………………………………………. 17
+                 3.6.4 Lav blokk ………………………………………………………………………………………… 18
+                 3.6.5 Lavt press ………………………………………………………………………………………. 18
+                 3.6.6 Innlegg imot …………………………………………………………………………………… 19
+           3.7 Overganger ………………………………………………………………………………………………. 20
+                 3.7.1 Kontring imot …………………………………………………………………………………. 20
+                 3.7.2 Gjenvinning ……………………………………………………………………………………. 22
+           3.8 Dødballer ………………………………………………………………………………………………….. 24
+                 3.8.1 Cornere ………………………………………………………………………………………….. 24
+                 3.8.2 Korridorfrispark ……………………………………………………………………………… 25
+           3.9 Individuelle roller ……………………………………………………………………………………… 26
+       4. Diskusjon …………………………………………………………………………………………………………. 29
+       5. Konklusjon ………………………………………………………………………………………………………. 36
+       6. Litteraturliste / Kilder ………………………………………………………………………………………. 37
+       7. Sammendrag …………………………………………………………………………………………………… 38
+
+
+                                       2
+Alexander Øren
+       1. Innledning
+
+
+   Da jeg skulle bestemme meg for hva denne skriftlige oppgaven skulle handle om var
+   tankene mange. Mange idéer om hva jeg skulle gjøre et dypdykk i. Etter å ha grublet over
+   dette i en stund fant jeg ut at jeg ønsket å gjøre en analyse av en spesifikk del av spillet,
+   som jeg igjen håper å kunne dra nytte av i mitt virke som fotballtrener. Jeg har alltid latt
+   meg fascinere av den taktiske dimensjonen av fotballspillet, og ikke minst
+   gjennomføringskraften av det taktiske spillet hos de aller beste lagene. Måten disse lagene
+   samhandler og løser komplekse situasjoner på svært kort tid og hvor presset fra
+   omgivelsene er høyt er imponerende. Vi har den siste tiden vært vitne til flere
+   oppsiktsvekkende resultater rundt om i fotballverdenen, hvor lag som tilsynelatende
+   skulle være sjanseløse har gjort forhåndsdommene til skam. At Leicester skulle vinne
+   Premier League i 2016, og at Island skulle komme til kvartfinale i EM er to eksempler. Bak
+   disse resultatene finner man fellesnevnere som lagmoral, innsats og en klar og tydelig
+   spillestil. Et annet lag som har ifølge mange overprestert de siste sesongene er Atletico
+   Madrid. Siden Diego Simeone overtok managerstolen på Vicente Calderón 23 desember
+   2011 har den spanske hovedstadsklubben vunnet UEFA Europa League (2011-12), UEFA
+   Super Cup (2012), Copa del Rey (2013-14), Supercopa de España (2014) og La Liga (2013-
+   14). I tillegg har Atletico Madrid spilt i to av de siste tre Champions League-finalene. Dette
+   til tross for at klubben har vesentlig mindre økonomiske muskler enn mange av de andre
+   toppklubbene i Europa, ikke minst naborivalen Real Madrid og Barcelona. Ifølge Deloitte
+   Football Money League 2017, er Atletico Madrid nummer 15 på listen over klubbene i
+   Europa med mest inntekter. I 2016 hadde Atletico Madrid en inntekt på €228,6M. Til
+   sammenligning hadde Real Madrid €620,1M, og Barcelona €620,2M. Til tross for dette har
+   Atletico Madrid vært konkurransedyktige og flere ganger beseiret de to spanske gigantene
+   under ledelse av Diego Simeone. Atletico Madrid er gjennom de siste sesongene blitt
+   betegnet som det beste kollektivet i den moderne fotballen av flere anerkjente
+   fotballjournalister. Hva blir så pekt på som den aller viktigste faktoren i denne suksessen?
+   Forsvarsspillet. Derfor ønsket jeg å sette meg mer inn i denne delen av spillet og se
+   nærmere på hvordan Atletico som lag, og enkeltspillere innad i laget utøvde
+   forsvarsspillet.
+
+
+                                               3
+Alexander Øren
+       1.1 Problemstillinger
+   På bakgrunn av dette satte jeg ned følgende problemstillinger som jeg ønsker å gi noen
+   svar på i denne oppgaven;
+       -   Hvordan spiller Atletico Madrid forsvarsspill? Hvilke suksessfaktorer finnes i dette
+           forsvarsspillet?
+       -   Hvilke rollekrav stilles til enkeltspilleren i denne måten å spille forsvarsspill på?
+
+
+
+       1.2 Forsvarsspill
+
+Begrepet forsvarsspill er et bredt begrep som omfavner alle fasen hvor motstander har ballen.
+I boka «Ferdighetsutvikling i fotball – handlingsvalg og handling» av Bergo, Johansen, Larsen
+og Morisbak (2002, s.177), hevder man at forsvarsspillets overordnede mål er å hindre mål.
+Men bak det overordnede målet om å hindre motstander i å score mål ligger det mye mer
+bak. Fra man mister ballen høyt oppe på motstanders banehalvdel til ballen ligger i målet bak
+oss kan det gå 4-5 sekunder eller det kan ta flere minutter. På denne reisen inntreffer flere
+ulike faser av det å spille forsvar. Under hver enkelt av disse fasene av forsvarsspillet settes
+det ulike krav, og man har ulike prioriteringer og løsninger for å oppnå det overordnede målet
+– nemlig å hindre motstander å score mål. Jeg har delt opp forsvarsspillet i følgende
+hoveddeler;
+
+
+       -   Etablert forsvar
+       -   Overganger
+       -   Dødballer
+
+
+
+Under disse hoveddelene finnes det flere faser som jeg ønsker å gå nærmere inn på. Måten
+man organiserer forsvarsspillet sitt på gjerne definert som enten soneforsvar,
+markeringsforsvar eller kombinasjonsforsvar. I boka «Ferdighetsutvikling i fotball –
+handlingsvalg og handling» (2002, s.177), beskriver Bergo, Johansen, Larsen og Morisbak
+disse måtene å forsvare seg på. «Soneforsvaret vektlegger press på førsteangriper, sikring og
+dekking av rom, mens markeringsforsvaret prioriterer press og markering.» Videre blir
+kombinasjonsforsvar beskrevet som en «blanding av de to nevnte forsvarstilnærmingene». Jeg
+                                                4
+Alexander Øren
+ønsker i denne oppgaven å se hvordan tilnærming Atletico Madrid benytter seg av, og om det
+er faser av forsvarsspillet hvor de benytter seg av ulike typer tilnærming i forhold til å
+organisere seg på.
+
+
+
+
+       2. Metode
+
+Jeg vil nå presentere metoden jeg brukte når jeg skulle skrive denne oppgaven. Hvordan jeg
+gikk frem og hvordan jeg opplevde denne prosessen. Jeg vil i tillegg komme med noen
+begrepsavklaringer på begreper som er sentrale i oppgaven og som blir brukt senere i
+resultater, diskusjon og i konklusjonen av oppgaven.
+
+
+
+       2.1 Prosedyre
+
+Materialet til denne analysen ble hentet fra In Stat på instatfootball.com. Her ble kampene
+lastet ned i sin helhet og deretter analysert i analyseprogrammet Interplay-sports. Det ble
+totalt lastet ned og analysert 13 kamper. Dette var samtlige kamper Atletico Madrid spilte i
+Champions League sesongen 2015/16.
+
+Denne studien er en observasjonsstudie. Dette er den type studie som er mest brukt i
+prestasjonsstudier i sport (O’Donogue, 2010). Fordelen ved observasjonsstudier er at den har
+høy økologisk validitet (O'Donogue, 2010). Det du observerer er reelt. Det tar sted i virkelige
+omgivelser, ikke i omgivelser som er spesielt designet for å kunne gjennomføre en studie slik
+eksperimentelle studier ofte er bygget på. Observasjonsmetoden i studien har vært å benytte
+seg av videoopptak av de forskjellige kampene. Å bruke videoopptak for å observere og
+analysere fotballkamper gir oss et mer presist bilde av hva som faktisk skjer i hver enkelt
+situasjon. Ved å bruke videoopptak av kampene for å gjennomføre denne dybdeanalysen har
+man mulighet til å sitte å se situasjoner om og om igjen, og fra flere ulike vinkler. Samtidig er
+man fri fra eventuelle distraksjoner man kan stå overfor dersom man observerer scoringene
+«live» på stadion. En ulempe ved å bruke videoopptak kan være ufullstendige videoopptak,
+eller videobilder som ikke viser det fulle perspektiv av det man vil analysere. I denne studien
+forekommer dette oftest når Atletico Madrid presser motstander høyt i banen, da TV-bildene
+
+
+                                                5
+Alexander Øren
+ikke alltid viser den bakre fireren og deres posisjon. Det forekommer også til tider i fasen når
+dødballer tas hurtig da TV-selskapene gjerne bruker disse periodene til å vise repriser fra
+tidligere situasjoner i kampen. Dette er likevel kun i et fåtall av situasjoner, slik at det aller
+fleste situasjoner filmes på en tilfredsstillende måte og slik at analysen kan gjøres grundig nok.
+
+
+
+       2.2 Begrepsavklaringer
+
+Når jeg skulle analysere disse kampene ble analyseprogrammet Interplay-sports brukt. Her
+satte jeg sammen et variabelsett, som skulle fange opp de ulike fasene og de ulike
+situasjonene i kampen som jeg i etterkant ville gå i dybden på. Under ser man variabelsettet
+som jeg brukte;
+
+
+
+
+I tillegg var det undervariabler på blant annet” Def struktur” hvor jeg delte klippene opp i høyt
+press, lavt press, høy blokk, mellomblokk og lav blokk.
+
+
+
+I analysearbeidet vil det alltid være en utfordring å være 100% presis i de ulike
+kampsituasjonene. Dette til tross for at man har brukt videobilder og har hatt muligheten til å
+se situasjonene om igjen flere ganger. I fotballen generelt, og spesielt på Champions League-
+nivå kommer situasjonene fort. Samtidig er fotballen dynamisk i sin natur, og situasjonene er
+ikke” faste”, slik at det vil alltid være tvilstilfeller i en bestemt situasjon om hva som faktisk
+foregår. For eksempel kan høyt press og lavt press tolkes på ulike måter. Det finnes forskjeller
+på hva enkelte mener er en målsjanse og ikke. Når man ser, observerer eller analyserer en
+fotballkamp vil man alltid til en viss grad være subjektiv i sin tolkning av hva som faktisk skjer.
+For å gjøre analysen og tallene jeg skal presentere i resultatene mine er valide som overhode
+
+                                                6
+Alexander Øren
+mulig har det vært avgjørende å være objektiv og bruke tidligere litteratur å støtte seg på når
+det kommer til begreper og hvordan ulike situasjonene tolkes.
+
+I artikkelen” Developing a new method for team match performance analysis in professional
+soccer and testing its reliability” av A. Tenga, D. Kanstad, L. T. Ronglan & R. Bahr (2009) ble
+begreper, som også er sentrale i denne oppgaven definert. Jeg vil i denne oppgaven benytte
+meg av samme definisjon på;
+      Kontringsspill (counter attack):” starts by winning the ball in play and progresses by
+       either a) utilizing or attempting to utilize a degree of imbalance from start to the end,
+       or b) creating og attempting to create a degree of imbalance from start to the end by
+       using early (i.e. 1st or 2nd, evaluated qualitatively) penetrative pass or dribble. Utilizing
+       degree of imbalance means seeking penetration in such a way that a defending team
+       fails to regain high degree of balance from start to the end of team possession. Counter
+       attacks progress relatively fast.”
+       For meg betyr det at situasjoner det man vinner ball og angriper direkte i starten av
+       angrepet, men deretter lar motstander komme tilbake i balanse før ballen har skiftet
+       eier eller er ute av spill bli ikke definert som en kontring.
+      Målsjanse (scoring opportunity):” Scoring attempt with relatively high scoring
+       probability (e.g. from shorter distances, from wider angles, with poor keeper
+       positioning) as well as with near-scoring situations such as corner kick direct on
+       crossbar.
+       Her er det da opp til meg som forfatter av denne oppgaven å vurdere sannsynligheten
+       for at en spesifikk situasjon skal ende med scoring, ut ifra ulike variabler i hver enkelt
+       situasjon. Dersom jeg tolker sannsynligheten for det ender med scoring som stor, så
+       vil det bli definert som en målsjanse.
+
+
+       I tillegg vil jeg benytte meg av følgende definisjoner på høyt og lavt press samt høy-,
+       mellom- og lav blokk;
+      Høyt press: Førsteforsvarer er nærmere enn 1,5m på ballfører for motstander. I tillegg
+       må presset på ballfører skje på høyde, eller ovenfor midtsirkelen på motstanders
+       banehalvdel.
+
+
+
+
+                                                7
+Alexander Øren
+      Lavt press: Førsteforsvarer er nærmere enn 1,5m på ballfører for motstander.
+       Førsteforsvarer setter inn presset på egen banehalvdel.
+      Høy blokk: Førsteforsvarer er mer enn 1,5m ifra ballfører hos motstander. Samtidig
+       står forsvarende lag med flere enn én spiller ovenfor midtsirkelen på motstanders
+       banehalvdel.
+      Mellomblokk: Førsteforsvarer er mer enn 1,5m ifra ballfører hos motstander. I tillegg
+       står forsvarende lag med én eller flere spillere posisjonert mellom midtstrek og
+       midtsirkel på mostanders banehalvdel.
+      Lav blokk: Førsteforsvarer er mer enn 1,5m ifra ballfører hos motstander. I tillegg står
+       forsvarende lag med minimum 9 spillere på egen banehalvdel.
+
+
+
+
+                                              8
+Alexander Øren
+3. Resultater
+Jeg vil nå presentere resultatene fra denne analysen. Jeg vil gå igjennom tallene fra de ulike
+variablene som jeg har brukt og beskrevet tidligere. Jeg vil først se på tallresultater fra de ulike
+variablene og kort presentere disse. Deretter vil jeg se mer på formasjon(er) som ble benyttet
+i løpet av kampene, før jeg til slutt ser på hvordan man forsvarte seg i de ulike fasene av
+forsvarsspillet.
+
+
+
+          3.1 Mål imot
+
+De første tallene viser antall baklengsmål Atletico Madrid hadde på disse 13 kampene.
+
+
+
+
+ MÅL IMOT
+ NR        MOTSTANDER                                        FASE                        TID
+
+ 1         Benfica                                           Etablert (innlegg)          35min
+
+ 2         Benfica                                           Kontring imot               50min
+
+ 3         Benfica                                           Etablert                    74min
+
+ 4         Barcelona                                         Etablert (innlegg)          62min
+
+ 5         Barcelona                                         Etablert (innlegg)          74min
+
+ 6         Bayern München                                    Dødball                     30min
+
+ 7         Bayern München                                    Etablert (innlegg)          74min
+
+ 8         Real Madrid                                       Dødball                     15min
+
+Tabell I: Oversikt over målene Atletico Madrid fikk imot seg i Champions League 205/16
+
+
+Tabell I viser at Atletico Madrid slapp inn totalt 8 mål i løpet av denne sesongen i Champions
+League. Det betyr at de i løpet av hadde 0,6 mål imot per kamp. Tabellen viser at fem av
+målene kom når Atletico Madrid var i etablert forsvar, hvorav 4 av dem kom etter innlegg. 2
+mål kom på dødball, og det siste målet kom etter en kontring imot. Tabellen viser også at 2 av
+målene kom i første omgang, og at 6 av målene kom i den andre omgangen. Det er også verdt
+å merke seg at det ble ingen mål imot de siste 15 minuttene av kampene.
+
+
+
+                                                                    9
+Alexander Øren
+          3.2 Målsjanser imot
+
+Deretter ble det sett på alle målsjansene som Atletico Madrid fikk imot seg.
+
+
+
+
+                                                     Målsjanser imot
+    14
+
+    12
+
+    10
+
+      8
+
+      6
+
+      4
+
+      2
+
+      0
+
+
+
+
+Figur I: Figuren viser oversikt over alle målsjanser imot for Atletico Madrid i Champions League 2015/16
+
+
+ Figuren ovenfor at Atletico Madrid fikk totalt 64 målsjanser imot seg i løpet av de 13
+kampene. Det gir et gjennomsnitt på 4,9 målsjanser imot per kamp. Figuren viser et klart skille
+fra gruppespill og åttendedels-finale, til kvartfinale, semifinale og finale. I løpet av de første 8
+kampene hadde 16 målsjanser imot. Dette gir et snitt på 2 målsjanser imot per kamp. I de siste
+6 kampene hadde Atletico Madrid 48 målsjanser imot. Dette gir et snitt på 8 målsjanser imot.
+
+Det ble også sett på i hvilke faser av spillet målsjansene kom fra, og når de kom.
+
+
+                        MÅLSJANSER IMOT - FASE
+                             Etablert      Dødball       Kontring imot
+
+
+                                          14 %
+
+                                        17 %
+
+                                                     69 %
+
+
+
+
+                                                                    10
+Alexander Øren
+Figur II: Figuren viser i hvilke faser målsjansene kom fra.
+
+
+Vi ser av figuren at de aller fleste målsjansene kom når Atletico Madrid var i etablert forsvar
+(69%), i tall utgir dette 44 av målsjansene. Det var tilnærmet likt antall målsjanser imot fra
+dødballer (17%) og fra kontringer imot (14%).
+
+
+                               Når kommer målsjansene
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+  0
+
+
+
+
+Figur III: Figuren viser når målsjansene til motstanderne kom.
+
+
+Figuren viser at Atletico Madrid fikk vesentlig flere målsjanser imot i den andre omgangen,
+kontra første omgang. Vi ser også at Atletico Madrid fikk veldig få målsjanser imot seg de siste
+10 minuttene av første omgang (1).
+
+                 3.3 Kontring imot
+
+Videre ble det sett på alle kontringene som Atletico Madrid fikk imot seg i løpet av disse 13
+kampene i Champions League.
+
+
+
+
+                                                                 11
+Alexander Øren
+                                                                                                                                            Kontring imot
+  10                                                                                                                                                                                                9
+   9
+   8                                  7
+   7
+   6
+   5                                                            4                      4                                                                                                                                  4                                                                 4               4
+   4                                                                                                                                                  3                       3                                                                                   3
+   3            2
+   2                                                                                                                                                                                                                                          1
+   1                                                                                                                   0
+   0
+
+
+
+
+                                                                                                                                                                                                                                                                                                          Real Madrid (n)
+             Galatasaray (b)
+
+
+
+
+                                                                                                                     Galatasaray (h)
+
+
+
+
+                                                                                                                                                                             PSV (b)
+
+
+                                                                                                                                                                                                   PSV (h)
+
+
+
+
+                                                                                                                                                                                                                                                                Bayern M (h)
+
+
+                                                                                                                                                                                                                                                                                          Bayern M (b)
+                                                                                                                                                                                                                        Barcelona (b)
+
+
+                                                                                                                                                                                                                                            Barcelona (h)
+                                                            Astana (h)
+
+
+                                                                                      Astana (b)
+                                     Benfica (h)
+
+
+
+
+                                                                                                                                                     Benfica (b)
+
+
+                1                     2                         3                      4                               5                              6                       7                     8                     9                 10                 11                       12                13
+
+
+Figur VI: Figuren viser alle kontringer imot.
+
+
+Her ser vi at Atletico Madrid fikk totalt 48 kontringer imot seg. Dette gir et snitt på 3,7
+kontringer imot per kamp. De to kampene hvor Atletico pådro seg flest kontringer imot var
+Benfica og PSV, begge hjemme på Vicente Calderón.
+
+
+
+
+           3.4 Innlegg imot
+
+Den        siste                  variabelen                                  som                               ble                           notert                         og                  tagget                 var                 ved             innlegg                               imot.
+
+                                                                                                                          Innlegg imot
+  35                                                                                                                                                                                                                                                        32
+  30
+                                                                                                                                                                                                                                            25
+  25                                                                                                                                                                                                   23                                                                      23
+
+  20
+                                                                                                                                                                                                                           14
+  15       12                  11                                                                                                      11                                              12
+  10
+                                                    4                                                4                                                              5
+   5                                                                      3
+
+   0
+                                                                                                                                                                                                                                                                               Real Madrid (n)
+           Galatasaray (b)
+
+
+
+
+                                                                                                   Galatasaray (h)
+
+
+
+
+                                                                                                                                                                   PSV (b)
+
+
+                                                                                                                                                                                       PSV (h)
+
+
+
+
+                                                                                                                                                                                                                                            Bayern M (h)
+
+
+                                                                                                                                                                                                                                                            Bayern M (b)
+                                                                                                                                                                                                        Barcelona (b)
+                                                   Astana (h)
+
+
+                                                                         Astana (b)
+
+
+
+
+                                                                                                                                                                                                                            Barcelona (h)
+                               Benfica (h)
+
+
+
+
+                                                                                                                                       Benfica (b)
+
+
+
+
+             1                  2                   3                     4                          5                                  6                           7                   8                 9                10               11              12                 13
+
+
+                                                                                                                                                                   12
+Alexander Øren
+Figur V: Figuren viser antall innlegg imot i de ulike kampene.
+
+
+
+
+Figuren viser at man totalt hadde 179 innlegg imot i løpet av de 13 kampene. Dette gir et
+gjennomsnitt på 13,8 innlegg imot per kamp. Igjen ser vi at det var de siste kampene, fra
+kvartfinalen mot Barcelona, at man fikk flest innlegg imot. I kampen mot Bayern München på
+Allianz Arena fikk man hele 32 innlegg imot, hvorav ett av dem endte i scoring.
+
+
+
+
+           3.5 Formasjon
+
+Videre skal jeg se litt nærmere på formasjonene som Simeone og Atletico Madrid benyttet seg
+av. Dette er utgangsformasjoner, først og fremst i forhold til hvordan man forsvarte seg. I løpet
+av en kamp ser man i all hovedsak to utgangsformasjoner, men disse blir variert mellom. Her
+spiller motstander, stilling og initiativ i kampen en rolle for hva man velger å benytte seg av.
+De gikk ut i en 1-4-4-2 formasjon ved 7 av kampene, og startet i en 1-4-3-3 formasjon i 6 av
+kampene. Under ser man de to mest brukte startoppstillingene.
+
+Når man gikk ut i en 1-4-4-2
+formasjon spilte man stort
+sett med den samme bakre
+5’er (med keeper). Jan
+Oblak stod alle kampene
+turneringen                igjennom.
+Foran seg hadde han ett
+stopperpar bestående av
+Diego Godin og José Giménez eller Stefan Savic. På backene var det Juanfran og Filipe Luis som
+var de mest brukte spillerne. På midtbanen var det noe større variasjon, men trioen Gabi, Saul
+Niguez og Koke spilte stort sett samtlige minutter. Saul Niguez og Gabi var hadde spilletid i
+samtlige kamper, mens Koke spilte 11 av kampene. Den siste plassen på midtbanen varierte
+mer. Her spilte Tiago stort sett kampene i gruppespillet, men når man kom til
+sluttspillkampene spilte Augusto Fernandez i denne rollen. Andre spillere som også var inne
+på midtbanen var Mattias Kranevitter, Oliver Torres, Angel Correa, Yannick Carrasco samt at
+Antoine Griezmann i enkeltkamper spilte i en midtbane 4’er. På topp var det Antoine
+                                                                 13
+Alexander Øren
+Griezmann og Fernando Torres med henholdsvis 13 og 11 kamper som hadde mest spilletid.
+Også Luciano Vietto, Jackson Martinez, Yannick Carrasco, Angel Correa og Thomas Partey ble
+brukt som spisser i løpet av turneringen.
+
+
+
+
+Når man benyttet seg av en
+1-4-3-3 formasjon, ble stort
+sett Griezmann brukt som
+kantspiller og F. Torres som
+enslig     spiss.      Yannick
+Carrasco var spilleren som
+ble      mest       brukt   på
+venstrekant. I enkeltkamper ble også Koke eller Saul Niguez brukt som kantspillere, spesielt i
+bortekamper. Da ble gjerne Gabi flyttet opp i en indreløperrolle og Augusto Fernandez,
+Mattias Kranevitter eller Tiago ble brukt i en ankerrolle på midtbanen.
+
+
+
+
+Videre ønsker jeg å se på hvordan Atletico Madrid forsvarte seg i de ulike fasene av
+forsvarsspillet. Jeg har delt forsvarsspillet opp i 3 hovedkategorier; etablert forsvar,
+overganger og dødballer. Under disse hovedkategoriene finnes naturlig nok flere
+underkategorier, disse vil jeg kommer nærmere inn på når jeg beskriver de ulike
+hovedkategoriene.
+
+
+
+
+         3.6 Etablert forsvar
+
+Den første hovedkategorien jeg ønsker å se nærmere på er i den kategorien av forsvarsspillet
+hvor Atletico Madrid er i etablert forsvar. Denne kategorien kjennetegnes ved at det
+forsvarende laget er i balanse, enten de er i numerisk eller posisjonell balanse eller muligens
+begge deler.
+
+Atletico Madrid har som alle andre lag, flere måter å spille etablert forsvar på. De ønsker
+gjerne å presse høyt på motstanders banehalvdel. Spesielt i startfasen av kampene er dette
+
+                                              14
+Alexander Øren
+noe Atletico Madrid ofte prøver på. Selv om utgangsformasjonen kan variere er det klare
+kjennetegn på hvordan de presser, og hvilke romprioriteringer de har. I denne fasen er
+førsteforsvarer høyt oppe på motstanders banehalvdel og i tett press. Hovedoppgavene til
+førsteforsvarer er i tillegg til å presse og stresse ballfører hos motstander, å ta ut
+pasningsalternativer foran i banen hos motstander. De ønsker først og fremst å hindre at
+motstander kan spille inn sentralt i banen.
+
+
+
+
+På bildet over ser vi et eksempel på hvordan Atletico presser høyt i banen. Her har de en
+utgangsformasjon med to spisser hvor Griezmann i dette tilfelle er førsteforsvarer, etter at
+ballen er blitt spilt fra stopper til stopper hos Astana. Han presser og stresser ballfører,
+samtidig som har tar ut spillpunkt sentralt i banen hos Astana. I denne fasen vil også
+midtbanefireren til Atletico stå etter, og ta ut spillpunkter hos motstander. De finner en
+«mellomposisjon» hvor de tar ut spillpunkter hos motstander i tillegg til de ligger tett nok slik
+at de kan overta førsteforsvarerrollen dersom ballen spilles til deres mann.
+
+Dersom utgangsformasjonen er i en 1-4-3-3 formasjon vil ofte indreløperne til Atletico Madrid
+overta denne rollen, når ball spilles fra stopper til stopper hos motstander. På bildet under ser
+vi et tilfelle på dette. Her er det Gabi som er fremme og presser Galatasarays midtstopper. På
+samme måte som Griezmann er han opptatt av å stenge for pasningsalternativ sentralt i
+banen, samtidig som har presser og stresser motstanders ballfører. I denne formasjonen vil
+anker hos Atletico Madrid, i dette tilfelle Tiago, overta Gabis posisjon samtidig som motsatt
+
+                                               15
+Alexander Øren
+indreløper (Koke) trekker ned og inn i banen og former en midtbanefirer. Kantene Griezmann
+og Carrasco har backansvar i denne fasen og komprimerer sammen med midtbanefireren. De
+ønsker å unngå å få spillet på innsiden av seg, og lar heller Galatasaray ha mulighet til å spille
+på utsiden i sidekorridor eller en lang ball fremover i banen.
+
+
+
+
+På de to bildene over ser man to forholdsvis like bilder selv om utgangsformasjonen til Atletico
+er 1-4-4-2 på det første bildet, og 1-4-3-3 på det andre bildet. Dette viser et eksempel på
+hvordan man har samme romprioritering og samme måte å presse på selv om rollene til
+spillerne er forandret.
+
+I denne fasen er det også en klar prioritet på å først og fremst markere mann, og sørge for at
+ballfører har begrenset med plass, rom og alternativer å spille ball inn i. Man ønsker også så
+langt det lar seg gjøre å hindre at motstanders ballfører blir rettvendt. På bildet under ser vi
+Atletico Madrid i bortekampen mot Barcelona på Camp Nou, i kvartfinalen i turneringen. Her
+gikk man ut i en 1-4-4-2 formasjon med Griezmann og Torres som ett spisspar på topp. I
+startfasen av kampen ønsket Atletico Madrid å presse Barcelona høyt i banen, slik det ofte
+gjør. På bildet er ballen gått fra midtstopper til midtstopper hos Barcelona, som presses av
+spissene til Atletico Madrid. Man flytter etter midtbanefireren og markerer ut Barcelona
+midtbanespillere mann for mann. Carrasco, hindrer først og fremst gjennomspill på innsiden
+av seg før han spurter opp i press på Barcelonas høyreback (Alves).
+
+
+
+                                               16
+Alexander Øren
+Videre benytter man seg i perioder av kampen av høy blokk og mellomblokk. Dette er gjerne
+litt ut i kampen da kampen gjerne har satt seg noe, og ofte når Atletico har et resultat som de
+er fornøyde med. Kjennetegn i denne måten å forsvare seg på, er at man i mye større grad
+forholder seg til sone i forsvarsspillet. Her er man ikke i tett press på ballfører noe som gir
+ballfører større frihet og større spillerom i forhold til hvor han ønsker å spille. Atletico Madrid
+posisjonerer seg da slik at de så langt det lar seg gjøre hindrer motstander å spille inn i de
+områdene de ikke ønsker å motstander skal spille seg inn i.
+
+
+
+
+                                                17
+Alexander Øren
+På bildet over ser vi et bilde fra bortekampen mot Benfica i gruppespillet. Her har man en
+utgangsformasjon i 1-4-3-3, med Vietto som enslig spiss. Her lar man ballfører ha ballen, men
+posisjonerer seg slik at det er utfordrende for Benfica å spille til spillerne fremover i banen.
+Kantspillerne trekker inn i banen og former en midtbanefirer sammen med indreløperne.
+Midtbaneankeret trekker ned foran midtstopperne for å ta ut muligheten å nå
+angrepsspillerne til Benfica på fot. Man ser også at den bakre fireren til Atletico Madrid har
+komprimert seg og står høyt i banen. Legg også merke til kroppsstilling hos høyre midtstopper
+(Savic) og høyreback (Juanfran). Savic står med kroppen sidestilt slik at han har best mulig
+forutsetninger for å falle av hurtig dersom ballen spilles inn i bakrom bak forsvarsfireren, noe
+man har mulighet til i denne situasjonen. Juanfran er fremover lent, og på veg fremover mot
+Benficas kantspiller som er inne i banen. Dersom Benficas midtstopper forsøker å spille inn i
+luken til kantspilleren vil Juanfran bruke tiden til å forflytte seg opp i press og samtidig holde
+kantspilleren feilvendt skulle han motta ballen. Ofte vil da kantspilleren til Benfica måtte spille
+ballen tilbake, eller han vil komme under tett press fra Juanfran i tillegg til Griezmann og Koke,
+og muligheten for å vinne ballen for Atletico Madrid er forholdsvis stor. Dette er kjennetegn
+ved forsvarsspillet som går igjen i flere lignende situasjoner.
+
+I de situasjonene hvor Atletico Madrid forsvarer seg lavt i banen, gjør de det man alle mann
+lavt. Selv om det spiller med en eller to spisser er disse ofte bak ballfører. I denne delen av
+forsvarsspillet er det svært synlig at Atletico Madrid ikke ønsker å la motstander spille seg inn
+sentral i banen, på baksiden av spissene eller midtbanen deres. Dette gjelder både når de
+forsvarer seg i en lav blokk eller når de forsvarer seg med et lavt press.
+
+Under ser man et tilfelle hos Atletico Madrid forsvarer seg lavt i banen, i dette tilfelle med et
+lavt press. Man ser her at man komprimert laget og ligger med alle 11 spillere fra ca. 35 meter
+fra eget mål og lavere. Dette betyr at motstander, i dette tilfelle Barcelona, har lite rom å
+utnytte imellom forsvarsledd, midtbaneledd og spiss ledd hos Atletico Madrid. Man ser også
+at man har komprimert spillerne slik at alle står smalt og først og fremst forsvarer rommene
+sentralt i banen. Legg merke til Filipe Luis, som er Atletico Madrids venstreback og
+førsteforsvarer i denne situasjonen. I denne situasjonen går han i press på motstanders
+høyreback Dani Alves. I kampen mot Barcelona som spiller i en 1-4-3-3 formasjon med
+kantspillere i Messi og Neymar som gjerne trekker inn sentralt i banen, spesielt Messi, endte
+man flere ganger opp i slike situasjoner hvor back presser motstanders back. Dette såg man
+
+                                                18
+Alexander Øren
+også i finalekampen mot Real Madrid, som spilte med Bale og Ronaldo som kantspillere og
+som også trakk inn sentralt i banen. Når Atletico Madrid spiller med Koke og Saul Niguez som
+kantspillere er de ofte smale og sentralt i banen, slik at de er i sikring og kan dekke eventuelt
+rom som oppstår på baksiden av backen som støter ut av forsvarsleddet.
+
+
+
+
+Denne måten å forsvare seg lavt og kompakt i banen gjør at man ofte vil få en del innlegg
+situasjoner imot seg i løpet av en kamp. Som tidligere nevnt fikk Atletico Madrid 179 innlegg
+imot seg i løpet av de 13 kampene denne sesongen i Champions League. Dette gav et
+gjennomsnitt på 13,8 innlegg imot per kamp. Ved innlegg imot forsvarer Atletico Madrid med
+én eller to spillere ut i sidekorridor for å presse ballfører som slår innlegget. Dette er som regel
+kantspiller og back på ballside, men hvem av dem som er førsteforsvarer varierer. Dette
+varierer også som nevnt ovenfor på motstander og deres måte å spille på. Dernest har man
+de to midtstopperne som sammen med motsatt back danner en forsvarstreer som ligger lavt
+og kompakt, som regel på innsiden av begge stolpene på målet. I tillegg trekker man ned
+minimum to midtbanespillere, dette er som regel de to sentrale midtbanespillerne. Dersom
+den sentrale midtbanespilleren på ballsiden er ute i sidekorridor vil man som regel se motsatt
+kantspiller også inne å forsvare egen boks på innlegg imot. På bildet under er begge det to
+sentrale midtbanespillerne (Tiago og Saul Niguez) i tillegg til motsatt kantspiller (Koke) inne i
+
+
+
+
+                                                19
+Alexander Øren
+egen boks, slik at man i dette tilfelle forsvarer seg med 7 spillere i egen boks.
+
+
+
+
+       3.7 Overganger
+
+Jeg vil nå se nærmere på hvordan Atletico Madrid forsvarer seg i overgangsspillet, hvor de går
+fra å være det angripende laget, til å bli det forsvarende laget. Når ballen skifter eier vil det
+være avgjørende for det forsvarende laget å opprettholde balansen i eget lag, eller eventuelt
+gjenvinne balansen i eget lag så fort som overhode mulig. I disse situasjonene ønsker gjerne
+motstander å kontre for å skape mål og målsjanser. For at et angrep hos motstander skulle
+vurderes som en kontring måtte laget være direkte og forsøke å opprettholde ubalanse hos
+forsvarende lag helt til ballen skiftet eier, eller at ballen gikk ut av spill. Dersom man var direkte
+i starten av et angrep og skapte eller forsøkte å skape en ubalanse, men deretter dro ned
+tempo og spilte for eksempel en støttepasning for å holde ball i laget ble det ikke vurdert som
+en kontring.
+
+Hvorav Atletico fikk totalt 48 kontringer imot seg i løpet av disse 13 kampene, ble 9 av disse
+kontringene vurdert som målsjanser for motstanderlaget. 1 av disse kontringene endte med
+scoring til motstander (Benfica).
+
+
+
+
+                                                 20
+Alexander Øren
+På bilde over ser øyeblikket der Atletico Madrid mister ballen i forkant av scoringen til Benfica.
+Her har Atletico Madrid holdt ballen innad i laget en periode, før man spiller en lengre oppspill
+fra sentralt i banen. Vi ser at begge backene (Filipe Luis og Juanfran) har trukket opp i banen.
+Man har også kommet inn i banen med kantspiller (Correa) og står etter med
+midtbanespillere. Etter balltapet forsøker man å gjenvinne ballen høyt i banen men mislykkes.
+Til slutt ender situasjonen i ett innlegg for Benfica som Filipe Luis ikke rekker tilbake på.
+
+Under ser man ett annet bilde fra en kontring i kampen mot PSV. Her har man at backene er
+på vei hjemover, etter at begge har vært oppe i banen. Man ser også at man står igjen med
+midtbaneankeret (Gabi) i tillegg til de to midtstopperne (Godin og Gimenez). I tillegg ser man
+Koke som har vært oppe og involvert i forkant av balltapet. Dette er ofte oppstillingen som
+man ser når Atletico Madrid angriper etablert inne på motstanders halvdel. Man er
+komfortable med å la midtstoppere, i tillegg til en midtbanespiller ta seg av balanse og så
+ønsker man gjerne å angripe med begge backer høyt i banen. Midtstopperne står også gjerne
+høyt i banen og er aggressive på å markere ut og å holde angriper hos motstander feilvendt.
+Dette gjelder spesielt Godin, som rett i forkant av dette bildet har trukket opp i angriper og
+tatt han ut slik at han ikke er blitt spilt opp til. Man er i denne fasen, tidlig i kontringen,
+mannsorientert og er aggressive i førsteforsvarerrollen. Når man så kommer i fasen hvor dette
+bildet er tatt, hvor man ikke har lykkes med å vinne ball i den tidlige fasen, er man mer
+
+
+                                                21
+Alexander Øren
+soneorientert. Har er førsteprioritet å hindre spill inn i bakrom. Man ser Godin som etter å ha
+stått høyt opp i feilvendt spiss nå er i sprint hjemover i banen for å hindre spill inn i bakrom,
+sammen med Gimenez som også faller av. Her er man opptatt av å komme seg hurtig ned for
+så å gjenskape balanse i laget. Man prioriterer først rom sentralt i banen og forsøker å oppnå
+balanse her, før man eventuelt begynner å gå i press i korridor eller pumpe opp i banen igjen.
+
+
+
+
+For å unngå mange kontringer imot er gjenvinningspress og å gjenvinne ball hurtig etter
+balltap noe man som forsvarende lag gjerne ønsker å oppnå. Jeg skal nå se på hvordan Atletico
+Madrid står i denne fasen, og hvordan de løser denne type forsvarsspill.
+
+
+
+
+                                               22
+Alexander Øren
+Denne delen av forsvarspillet ser man ofte igjen i kampene til Atletico Madrid. Spesielt i
+starten av kampene er dette situasjoner som oppstår ofte. Aggressivitet hos førsteforsvarer
+og forskyvning i lagdelene gjør at det gjerne oppstår situasjoner som på bildet over. Dette
+bilde er tatt fra den andre semifinalen mot Barcelona. I denne situasjonen har Atletico Madrid
+slått et lengre oppspill opp i sidekorridor på spiss og en kantspiller som starter inn bak.
+Barcelona vinner ballen og spiller hurtig opp på feilvendt kantspiller (Neymar). Bildet viser
+Gabi som spiller sentral midtbanespiller er tett opp i press som førsteforsvarer, i tillegg viser
+det 6 Atletico Madrid spillere som alle er i nærheten, og som dermed kan være med å presse
+ballfører og ta ut pasningsalternativ for ballføreren hos Barcelona. Legg merke til at alle
+midtbanespillerne, i tillegg til back på ballside, har flyttet over mot ballside hvor oppspillet
+kom. Også motsatt kantspiller har kommet inn og er nå med i gjenvinningspresset. Man
+prioriterer i denne fasen å holde ballfører feilvendt samtidig som man okkuperer og gjør
+rommet rundt ballfører så lite som mulig. Akkurat i det øyeblikket man mister ball ser man
+ofte spillerne til Atletico Madrid ta steget fremover i banen, og har først og fremst fokus på
+spillere og spillpunkter som er foran dem i banen. Denne måten å presse med flere spillere på
+et lite område, gir dem gode forutsetninger for å vinne ballen i tillegg til at de gjerne stresser
+frem feil hos motstander som her liten tid med ball i beina før man blir presset. En annen
+konsekvens at denne måten å presse på er at man pådrar seg en del frispark imot i denne
+fasen, i tillegg til at man gir motstander store rom på motsatt side av banen dersom man skulle
+kunne vende spillet.
+
+                                               23
+Alexander Øren
+       3.8 Dødballer
+
+En siste del av forsvarsspillet omhandler dødballer. Atletico Madrid fikk i løpet av kampene i
+Champions League 57 cornere som de måtte forsvare, i tillegg til frispark og korridorfrispark
+utgjør dette mange situasjoner hvor motstander potensielt kan skape mange målsjanser og
+mål.
+
+På cornere imot trekker Atletico Madrid samtlige spillere ned, man forsvarer seg med 11 mann
+i egen boks. Man har ingen spiller hverken på første eller andre stolpe. Deretter varierer det
+noe i forhold til hvor mange motstander sende inn i feltet, og om motstander sender en mann
+ut for å ha mulighet til å slå en kort corner. Man setter opp to eller tre spillere i sone omtrent
+på linje med 5 meter. Griezmann vil som regel ha ansvar for første sone, og skal i
+utgangspunktet gå på alt som kommer foran første stolpe. Dersom man spiller med Torres
+eller Martinez som spiss, bruker man denne spilleren til å midte sone. Deretter står man med
+Juanfran som har ansvar for bakre sone. Resten vil som regel ha mannsmarkering inne i boks.
+Man forsvarer returrom gjerne med en kantspiller som har utgangsposisjon inne i boks mot
+fremre sone, men som trekker bak og ut i boks dersom corneren blir slått over han. Denne
+spilleren har også ansvar for å trekke ut i korridor dersom det blir slått en kort corner. På bilde
+under ser man en corner i bortekampen mot Bayern München. Ved dette tilfelle har Bayern
+München stilt opp en ekstra mann ute slik at man kan slå en kort corner. Måten Atletico løser
+dette er at de ofrer en sonespiller, den fremre, og står med to sonespillere. Disse skyver mot
+ball, slik at en da ofrer bakre sone. Griezmann trekker ut i rollen til kantspilleren, og finner en
+mellomposisjon slik at han kan trekke ut i returrom samtidig som han står plassert slik at han
+kan gå ut å presse ved en kort corner. Dersom motstander sender færre spillere inn i boks, slik
+som på bildet, prioriterer man ekstra sonespiller(e) slik at man står i en slags 2-2 formasjon.
+
+
+
+
+                                                24
+Alexander Øren
+Av de 57 cornerne Atletico Madrid måtte forsvare seg på, ble det 6 målsjanser til motstander.
+Ingen av dem endte med scoring.
+
+På korridorfrispark imot trekker også Atletico Madrid ned alle spillerne sine. Likhetstrekkene
+ved måten de forsvarer seg på disse situasjonene er at de sender ut en eller to spillere i mur,
+eller mur og sikring dersom motstanderne har flere spillere ute i korridor. Deretter plasserer
+det Torres dersom han spiller i første sone. Hans ansvar er å forsvare de ballene som blir slått
+mot denne sonen, og hindre dem å komme inn til sonen rett foran mål. Resten stiller seg på
+en rekke og tar ut spillerne til motstander. De forsøker å forstyrre og forhindre dem å løpe inn
+bak dem. I tillegg har de en eller to spillere som har ansvar for å dekke returrom. Høyden på
+offsidelinje de setter varierer i forhold til hvor frisparket tas, og om frisparket slås med innover
+eller utoverskru. Dersom frisparket slås med utoverskru står Atletico Madrid noe høyere med
+offsidelinjen. Offsidelinjen settes som regel et sted mellom 16 meter og straffemerke. I disse
+situasjonene endte en av dem med scoring. Dette var i finalen mot Real Madrid. Bildet under
+viser denne situasjonen. Vi ser de har en i mur, to spillere som har ansvar for returrom i tillegg
+til Torres som står i første sone. Resten markerer. Ballen slås inn fra Kroos og blir stusset videre
+av Bale som kommer inn foran Torres i første sone, som igjen går inn foran mål hvor Ramos
+kommer foran sin oppasser og som setter ballen under Oblak fra kort hold.
+
+
+
+
+                                                25
+Alexander Øren
+       3.9 Individuelle roller
+
+Jeg skal nå se nærmere på et utvalg av enkeltspillere hos Atletico Madrid, som etter min
+mening har hatt en avgjørende rolle i Atletico Madrids vei mot finalen i Champions League.
+Jeg skal se litt nærmere på hvordan de løser sin rolle i laget, og særtrekk ved deres måte å
+forsvare seg på.
+
+
+
+
+Diego Godin
+
+Den første spilleren jeg ønsker å se litt nærmere på er Diego Godin. Den uruguayanske
+midtstopperen var svært sentral for Atletico Madrid og spilte 12 av 13 kamper. Godin utfører
+flere oppgaver av forsvarsspillet godt, han er en god duellspiller og svært viktig på
+innleggssituasjoner imot. Når Atletico Madrid angriper etablert gjør de det gjerne med høye
+backer, noe som kan føre til at stopperne kan bli eksponert for kontringer og 1v1 situasjoner
+defensivt. Godin har et godt tempo som gjør at han er komfortabel med å svare seg på
+egenhånd i kontrafasen. Han utmerker seg ved å være svært aggressiv og dyktig i offensiv
+markering, hvor han flere ganger gjenvinner ballen høyt i banen fra feilvendt spiss hos
+motstanderlaget. Han er dermed en allrounder i forhold til den individuelle dimensjonen av
+forsvarsspillet. Han er også en ledertype i den bakre leddet til Atletico og styrer de andre rundt
+
+                                               26
+Alexander Øren
+seg både i forhold til sideforskyving og pumping, slik at han utmerker seg også som dyktig i
+den relasjonelle dimensjonen av forsvarsspillet.
+
+
+
+
+Filipe Luis
+
+Filipe Luis var en sentral spiller for Atletico Madrid, kanskje spesielt i kvartfinale- og
+semifinalekampene mot Barcelona og Bayern München. I disse kampene måtte Luis forsvare
+seg mot spillere som Messi, Neymar, Douglas Costa og Ribery. Han er en spiller som en trygg
+1v1 defensivt, ved at han har et godt tempo i spillet sitt. Han er svært aggressiv og opptatt av
+å holde kantspillerne feilvendt så ofte som mulig. Spesielt i kampen mot Messi er han opptatt
+av å komme så tett som mulig for å hindre at han mottar ball, og ikke minst at han blir
+rettvendt. De gangene Messi trekker inn i banen overlater han Messi til midtbaneleddet og
+posisjonerer seg inn i B4 igjen. Han tilfører også en fysisk dimensjon til laget ved at han er
+svært løpssterk. Han er ofte med fremover i banen og har blant annet en matchavgjørende
+involvering mot Barcelona hvor han vinner ballen lavt i banen, avanserer og skaffer
+straffesparket som de scorer 2-0 målet på.
+
+
+
+
+Gabi
+
+Gabi er hærføreren i Atletico-laget og er svært involvert både i den offensive og defensive
+delen av spillet. Han varierer på å spille som et anker og indreløper i 1-4-3-3, og spiller sentralt
+i en duo i 1-4-4-2. Når han spiller som et anker er han svært viktig i forhold til å holde balansen
+i laget sammen med de to midtstopperne når de angriper. Han fungerer som et skjold som
+skal ta ut og gjenvinne baller som faller ned i rommet foran midtstopperne når Atletico
+angriper. Som indreløper er han gjerne oppe og presser høyt sammen med spiss i høyt press
+for å stykke opp motstanders spill, samtidig som han er disiplinert og dekke store rom når
+Atletico blir spilt lavere i banen. I hjemmekampen mot PSV ble han rapportert å ha løpt over
+14,5km etter 112 minutter. I egen boks er han svært dyktig på å ta ut mann, og på å komme
+seg foran spilleren han markerer ut. Grafikken under er hentet fra statistikk- websiden
+www.whoscored.com , som viser involveringene og løpsmønsteret til Gabi i finalen mot Real
+Madrid. Den viser at han er mye involvert og at han dekker store rom i banen.
+
+                                                27
+Alexander Øren
+Antoine Griezmann
+
+Den viktigste offensive spilleren til Atletico Madrid var uten tvil Antoine Griezmann. Den
+franske angrepsspilleren var involvert i samtlige 13 kamper, og scoret 7 mål i løpet av
+turneringen. Griezmann ble brukt både som venstre- og høyre kantspiller, i tillegg som spiss.
+Han står frem med gode fysiske egenskaper, han er svært hurtig samtidig som også han dekker
+store rom. Defensivt er han en nøkkelspiller i press-spillet enten man presser høyt, lavt eller
+man står plassert i blokk. Bildet under viser Griezmann som høyre kantspiller borte mot
+Barcelona hvor han er lavt i banen og vinner ball. Griezmann kan beskrives som en svært lojal
+
+
+
+
+                                              28
+Alexander Øren
+spiller,      noe    som       kjennetegner          spillerstallen   til    Atletico     Madrid.
+
+
+
+
+           4. Diskusjon
+
+Hensikten ved denne oppgaven var å finne suksessfaktorer i måten Atletico Madrid spiller
+forsvarsspill på, og å beskrive hvilke rollekrav enkeltspilleren stilles ovenfor for å gjennomføre
+denne måten å spille forsvarsspill på. Forsvarsspillet til Atletico Madrid kan tydelig defineres
+som et kombinasjonsforsvar. Atletico Madrid benytter seg av både soneforsvar, da gjerne i
+det etablerte forsvarsspillet, og av markeringsforsvar, som for eksempel i gjenvinningspresset
+sitt.
+
+Selv om det naturlig nok ligger variasjoner i forhold til forsvarsspillet til Atletico Madrid fra
+kamp til kamp med tanke på motstandere, enkeltspillere og ikke minst resultat i matchen,
+finner man klare tendenser til hvordan de ønsker å løse forsvarsspillet sitt på. Det hele starter
+veldig ofte med at de selv er direkte i startfasen av kampene, de ønsker å få spillet til å foregå
+på motstanders halvdel. I denne fasen, og med denne måten å spille på vil de naturlig nok få
+en del balltap. Men ved å spille lengre og ta liten risiko i eget spill, behøver de mindre spillere
+lavt i banen for å spille av et eventuelt press fra motstander. Da har de muligheten til å flytte
+flere spillere opp i banen og posisjonere seg, slik at de står godt plassert til å gjenvinne ballen
+høyt dersom de skulle miste den. Dette går igjen i denne fasen i flere av kampene, spesielt når
+Atletico Madrid møter motstandere som formodentlig er favoritter. Dette gir utslag når man
+
+
+                                                29
+Alexander Øren
+ser på tallene for når målsjansene kom imot Atletico Madrid. De har svært få målsjanser (2)
+imot seg de første 10 minuttene av kampene de spilte i Champions League. De to målsjansene
+som de slapp til i denne fasen var en dødball, pluss en situasjon hvor de forsøker å presse
+Barcelona høyt i banen men mislykkes. De slapp heller ikke inn noen mål i denne perioden.
+
+Når vi ser på det etablerte forsvaret til Atletico Madrid, enten det er høyt eller lavt så ønsker
+man først og fremst å forsvare et så lite område som overhode mulig. Dersom de står i høy
+blokk, mellom blokk eller om det presser høyt så er det opptatt av å komprimere og gi
+motstander minst mulig rom mellom deres forsvarsledd i tillegg til innad i leddet. Her ser vi de
+to midtstopperne, som regel Godin og Gimenez, står høyt opp i banen og tillater rom bak seg.
+Dette kan de gjøre fordi begge er flinke til å antesipere når ballen eventuelt spilles inn bak
+dem, og fordi begge er relativt hurtige. Videre er midtbane trioen eller fireren smal. Gabi, Koke
+og Saul er nøkkelspillere som dekker store rom og som har en voldsom løpskraft. Alle tre har
+ferdigheter som sentrale midtbanespillere, selv om de gjerne spiller med utgangsposisjon som
+kantspillere. Dette gjelder spesielt Saul Niguez og Koke. Ved å være så smale i midtbaneleddet
+og opptatt av å hindre spill på innsiden av seg gir det motstander muligheter til spillvending
+og å komme til innlegg. Under ser vi et bilde på et slikt tilfelle hvor både den bakre- og
+midtbane fireren i dette tilfelle er svært smal og etterlater seg store rom på utsiden.
+
+
+
+
+Vi ser også av tallene av Atletico Madrid tillater motstander å komme til innleggsituasjoner og
+er relativt komfortable med akkurat det. I de to semifinalene mot Bayern München fikk
+
+                                               30
+Alexander Øren
+Atletico Madrid hele 57 innlegg imot seg, hvorav den ene endte i scoring. Denne prioriteringen
+av å først og fremst hindre motstander å spille seg inn i midten av banen, og heller tillate spill
+og innlegg fra korridor er fornuftig når man skal forsvare seg. Vecer pekte i sin studie på at
+«games with a smaller number of open crosses tend to lead to more goals», og konkluderte
+med at «the net effect of crossing is negative for all the teams in all studied competitions.».
+Denne studien studerte innleggssituasjoner fra Premier League, Bundesliga og VM i 2014. Det
+er liten grunn til å tro at det er store forskjeller på disse turneringene og Champions League.
+Likevel gir det et paradoks når man ser at halvparten av målene (4 av 8mål) som Atletico
+Madrid slapp inn i turneringen kom etter innleggsituasjoner. Ser man på tre av disse fire
+scoringene som kom etter innleggsituasjoner så er det i bortekampene mot Barcelona og
+Bayern München. Begge disse kampene ble preget av at Atletico hadde et resultat å spille på,
+i tillegg til at i bortekampen mot Barcelona spilte mann med en mann mindre etter at Torres
+hadde blitt utvist. Det er klart at i kamper som dette hvor man blir ekstremt lave og får så
+mange situasjoner i egen boks, vil sjansen som å glippe i markering eller at motstander plukker
+opp en andreball inne i feltet være til stede. Ser man videre på dødballsituasjoner som kom
+etter cornere og korridorfrispark, som er forholdsvis like, viser de at Atletico slapp inn ett mål
+på slike dødball situasjoner, i finalen mot Real Madrid. Bildene viser at Atletico Madrid
+forsvarer seg men samtlige spillere bak ballen, og at de faller lavt ned i egen boks på
+korridorfrispark. Her mener jeg de kunne med fordel har stått høyere i banen. Bildet under
+viser en slik situasjon på korridorfrispark imot.
+
+
+
+
+                                                31
+Alexander Øren
+Denne situasjonen er hentet fra finalen mot Real Madrid, og er svært lik situasjonen som
+ender med 1-0 scoringen til Real Madrid i samme kamp. Vi ser at Atletico Madrid sette
+offsidelinjen rundt straffemerket selv om frisparket slås fra 40-45 meter ut i banen. Dette
+medfører at mange spillere vil stå inne i feltet når ballen kommer inn og det vil være
+muligheter for å avslutte fra kloss hold, slik som det ble på scoringen. Disse situasjonene er
+også vanskelige og uoversiktlige for keeperen som for mange spillere inn tett rett foran seg.
+Her mener jeg at Atletico Madrid kunne med fordel ha satt offsidelinjen på 20-22meter fra
+mål. På denne måten vil straffefeltet være mer oversiktlig og det vil være lettere som keeper
+å komme ut og plukke disse frisparkene. I Jan Oblak mener jeg Atletico Madrid har en keeper
+som har fysikken og ferdighetene til å mestre disse situasjonene på en god måte. Ved å sette
+offsidelinjen høyere vil man også få eventuelle avslutninger lengre fra eget mål, noe som
+reduserer sjansen for at avslutningene ender med scoring.
+
+
+
+
+Kampene mot Benifca i gruppespillet er interessante. I den første kampen på Vicente Calderon
+tapte Atletico Madrid 1-2, blant annet etter en kontring hvor man forsøkte å gjenvinne ballen
+høyt men mislykkes. Dette var den eneste kontringen som resulterte i scoring mot Atletico
+Madrid i hele turneringen. I denne kampen var Atletico Madrid laget med mest ballinnehav,
+mens Benfica møtte dem med å ligge lavt og kompakt for så være direkte og kontre når
+Atletico lå høyt med blant annet begge backene. Dette lykkes de med, og gav Atletico Madrid
+på mange måter «smake sin egen medisin». Dette ser vi også på tallene over antall kontringer
+imot. Ved å være gode i sitt gjenvinningspress tillater Atletico Madrid sjelden motstander å
+kontre på dem, da de vinner ballen hurtig tilbake eller stresser frem feil hos motstander. Vi
+ser at i den nevnte kampen mot Benfica fikk 7 kontringer imot seg, noe som sammen med
+åttendedels finale mot PSV på hjemmebane var den kampen hvor Atletico Madrid fikk klart
+flest kontringer imot. I begge disse kampene gikk Atletico ut som «favoritter» og hvor de
+hadde forventninger i forhold til å prege og styre kampen. Dette førte til at de ble mer åpne i
+sitt angrepsspill og tok høyere risiko i eget angrepsspill enn hva tilfelle var i flere av det andre
+kampene i turneringen. Det skal også legges til at hjemmekampen mot PSV varte i 120minutter
+som også førte til at de fikk noen ekstra kontringer imot seg. Disse tallene kan tyde på at
+Atletico Madrid er vel så komfortable med å spille mot formodentlig bedre motstandere, hvor
+
+
+                                                32
+Alexander Øren
+forventningene ligger først og fremst på å forsvare seg godt, kontra de kampene hvor de er
+favoritter og skal ut og styre matchene.
+
+Det tar oss over til et annet moment som for meg peker seg ut som en interessant faktor.
+Under ser man kampstatistikk i de to kvartfinalene mot Barcelona og de to semifinalene mot
+Bayern München.
+
+
+
+
+Kamp 9                   Barcelona                        Atletico
+Mål                      2                                1
+Ballinnehav              68 %                             32 %
+Avslutninger             19                               7
+Avslutninger på          5                                2
+Avslutninger ut          8                                2
+Blokkerte avslutninger   6                                3
+Målsjanser               12                               2
+Antall pasninger         687                              219
+
+
+
+
+Kamp 10                  Atletico                         Barcelona
+Mål                      2                                0
+Ballinnehav              28 %                             72 %
+Avslutninger             9                                12
+Avslutninger på          6                                4
+Avslutninger ut          2                                3
+Blokkerte avslutninger   1                                5
+Målsjanser               5                                7
+Antall pasninger         170                              675
+
+
+
+
+Kamp 11                  Atletico                         Bayern Munchen
+Mål                      1                                0
+Ballinnehav              31 %                             69 %
+Avslutninger             11                               19
+Avslutninger på          5                                7
+Avslutninger ut          2                                8
+Blokkerte avslutninger   4                                4
+
+
+                                            33
+Alexander Øren
+Målsjanser               4                                      9
+Antall pasninger         209                                    729
+
+
+
+
+Kamp 11                  Bayern München                         Atletico
+Mål                      2                                      1
+Ballinnehav              68 %                                   32 %
+Avslutninger             34                                     7
+Avslutninger på          12                                     4
+Avslutninger ut          13                                     2
+Blokkerte avslutninger   9                                      1
+Målsjanser               12                                     1
+Antall pasninger         668                                    212
+
+
+
+
+Ser man på ballinnehavet i disse kampene så er det følgende tall: 32%, 28%, 31%, 32%. Dette
+gir et gjennomsnitt på 30,75% i ballinnehav over 4 kamper og 360 minutter med fotball. At
+Barcelona og Bayern München har et høyt ballinnehav i sine kamper er ikke noe nytt, da begge
+lag ønsker å styre og prege fotballkamper. Men dette er likevel ekstreme tall. Legger man så
+til at Atletico Madrid kom videre fra begge disse rundene blir det svært interessant. Noe
+skyldes helt sikkert marginer og blant annet i hjemmekampen mot Barcelona hadde Atletico
+Madrid tydelig marginene på sin side da dommeren blåste for frispark mot Gabi etter en
+hands-situasjon på overtid. Noen mente at Gabi stod innenfor straffefeltet og at de dermed
+skulle blitt blåst for straffespark. Det som er helt sikkert er at dommeren fort kunne ha gitt
+straffespark istedenfor frispark og utfallet kunne blitt veldig annerledes. Men når man lykkes
+med å forsvare seg i så store perioder av kampene, og i tillegg med en mann mindre i den ene
+kampen, så lykkes man fordi man har noe mer enn «bare» gode ferdigheter og en god struktur
+i laget. Man må ha en felles forståelse av forsvarsspillet og man må mentalt være forberedt
+på å spille store deler av kampene uten å ha ballen i laget. Dette er faktorer som er vanskelig
+å måle, men som helt klart har en effekt på resultatet til slutt. Geir Jordet gir i et intervju med
+Ole Martin Nesselquist, et interessant svar på om det er mulig «å få spillerne til å føle at de
+kontrollerer kampen i etablert forsvar». Svaret han gav var blant annet «Hvis du leder 1-0, og
+ligger godt tilbake i ett potte tett forsvar, så kan du ha fullstendig følelse av kontroll når
+motstander ikke kommer gjennom. Så jeg tenker at kontroll har noe med hvor godt man
+
+
+                                                34
+Alexander Øren
+utfører det. Høy kompetanse på noe gir høy følelse av kontroll.» Jeg tror her at Jordet er inne
+på noe sentralt i det mentale følelsesregisteret til Atletico Madrids spillere og ledere. Selv i
+situasjoner hvor motstanderlaget har mye ball og presser på vil jeg anta at likevel er en følelse
+av kontroll hos spillerne til Atletico Madrid. Gjennom å være «potte tette» sentralt i banen
+vet de hva som kommer, i form av innlegg fra korridor eller gjerne skudd fra lengre distanser.
+Denne delen av spilles føler de at de mestrer og de har dermed en følelse av kontroll. Dette
+er imponerende å se på i form av kreative og offensive spillere som Griezmann, Torres,
+Carrasco og Saul Niguez alle er med på denne tankegangen og disiplinen som de har i
+forsvarsspillet. Her er det ingen «gratispassasjerer» i forsvarsarbeidet til Atletico Madrid, som
+nok har sammenheng med Simeone som står som en kommandør på sidelinjen og styrer
+spillerne sine i 90+ minutter. Løpskraft og offervilje står frem som sentrale egenskaper og
+rollekrav i Simeones lag.
+
+
+
+
+           «Jeg ønsker å fortelle dere én ting. Dette er ikke bare et serietrofé,
+           herrer. Dette er ikke bare et serietrofé, damer. Det er noe langt
+           viktigere, hva denne gjengen (Atlético Madrid-spillerne) har vist dere.
+           Og det er at dersom dere tror og dere arbeider, så kan dere.»
+
+            Diego Simeone, Madrid 2014.
+
+
+
+En annen ferdighet som kan være vanskelig å måle, men som spiller en rolle i disse kampene
+er måten Atletico Madrid drar ned tempo og rytmen i kamper hvor de skal forsvare seg og
+hvor de gjerne blir spilt svært lave i banen. Et eksempel på dette er i hjemmekampen mot
+Bayern München. Etter 81 minutter avanserer Koke fremover i banen langs sidelinjen, hvor
+han blir presset av flere Bayern München spillere. Koke løper med ballen i beina og ballen går
+ut til innkast Bayern München, men Koke fortsetter å avansere med ballen i beina og blir så
+taklet i etterkant an Benatia som ønsker å få ballen tilbake slik at man kan ta innkastet.
+Situasjonen skjer rett foran benken til Atletico Madrid som hopper opp og gir en reaksjon på
+taklingen fra Benatia. Koke blir liggende og det blir en konfrontasjon mellom flere spillere og
+ledere. Det hele ender med at Bayern München, som skulle hatt et innkast midt på banen,
+pådrar seg to gule kort i tillegg til at man bruker verdifull tid på å komme i gang igjen med
+spillet. Dette er et eksempel på hvordan man bruker alle hjelpemidler i forhold til å dra i land
+
+                                               35
+Alexander Øren
+resultater og hvordan man stykker opp og ødelegger rytmen hos motstanderlaget. Man ser
+også spillere flokke seg rundt dommeren og at Simeone gestikulerer og gir klart utrykk for hva
+han mener dommeren bør gjøre. Lovell, Newell og Parker pekte på trenere og spillere som
+«verbalt misbruker» dommere som en av hovedårsakene til stress hos dommere og som
+dermed kan føre til dommeravgjørelser går i sin favør. I kamper på dette nivået er marginene
+så små at dette «spillet» også kan gi fordeler som til slutt blir avgjørende.
+
+
+
+
+       5. Konklusjon
+
+Vi er nå kommet til den siste delen av oppgaven hvor jeg skal forsøke å samle trådene og
+konkludere på hvilke suksessfaktorer som finnes i Atletico Madrids forsvarsspill og hvilke
+rollekrav enkeltspilleren stilles ovenfor. En sentral og viktig del av forsvarsspillet til Atletico
+Madrid ligger i gjenvinningspresset og måten de presser høyt på, særlig i starten av kampene.
+Med et kompakt lag i både lengde og bredderetning er det vanskelig for motstander å spille
+seg kontrollert inn bak eller mellom Atleticos lagdeler, og de unngår å få mange kontringer
+imot. Atletico Madrid løser også fasen hvor de ligger etablert lavere i banen svært godt. Her
+pekes det på gjennomføringskraften, og hvor de løser det strukturelt ved å prioritere å hindre
+spill inn imellom seg og heller tillate spill på utsiden og i korridor. Det viser seg at selv om man
+varierer utgangsformasjon fra kamp til kamp, og innad i kampene at romprioriteringen og
+utførelsen er forholdsvis lik. Videre spekuleres det i den mentale delen av det å spille
+forsvarsspill, og hvor Atletico Madrid har «kontroll» selv uten ball i store deler av kampene.
+
+Individuelt ser man først og fremst at spillerne til Atletico Madrid har gode fysiske
+forutsetninger for å spille forsvarsspill. Bakerst har man en et stopperpar bestående av fysisk
+store duellsterke stoppere som våger å stå høyt i banen og som er temposterke. Videre finner
+man ekstremt løpssterke backer, og midtbanespillere som dekker store rom og som primært
+har ferdigheter som sentrale midtbanespillere. Angrepsspillerne til Atletico Madrid
+kjennetegnes også ved å være temposterke i tillegg til at også de er svært løpssterke med
+Griezmann i spissen.
+
+
+
+
+                                                36
+Alexander Øren
+       6. Litteraturliste / Kilder
+
+      O’Donogue, P. (2010). Research methods for sports performance analysis, Routledge.
+
+
+      Bergo, Johansen, Larsen og Morisbak (2002). Ferdighetsutvikling i fotball – handlingsvalg og handling.
+       Akilles.
+
+
+      Lovell, G. P. , Newell, R. , & Parker, J. K. (2014). Referees’ Decision Making Behavior and
+       the Sport Home Advantage Phenomenon. Research in Psychology and Behavioral
+       Sciences, 2(1), 1-5
+      Tenga, A. , Kanstad, D. , Ronglan, L.T , Bahr, R. (2009). Developing a new method for
+       team match performance analysis in professional soccer and testing its reliability.
+       International Journal of Performance Analysis in Sport 9 (1): 8-25
+      Vecer, J. (2014). Crossing in soccer has a strong negative impact on scoring: Evidence
+       from the English Premier League, the Bundesliga and the World Cup 2014.
+      Nesselquist, O.M. (2016) Hvordan organisere et 1-4-2-3-1-lag i etablert forsvar?
+
+
+      http://www.uefa.com/uefachampionsleague/season=2016/clubs/club=50124/matches/index.html
+
+
+
+      https://www.whoscored.com/Regions/250/Tournaments/12/Seasons/5848/Stages/1
+       2933/Fixtures/Europe-UEFA-Champions-League-2015-2016
+
+
+      https://www.whoscored.com/Teams/63/Archive/Spain-Atletico-Madrid
+      Deloitte Football Money League 2017: https://www2.deloitte.com/uk/en/pages/sports-business-
+       group/articles/deloitte-football-money-league.html
+
+
+      http://petterveland.blogg.no/1410689365_14092014.html
+
+
+
+
+                                                    37
+Alexander Øren
+       7. Sammendrag
+
+
+Atletico Madrid har de siste sesongene under Diego Simones ledelse, levert prestasjoner og
+resultater «over evne» med tanke på spillermateriell og økonomiske muskler. Ligatittel og
+cuptittel hjemme i Spania, i tillegg til to Champions League finaler er blant merittene i denne
+perioden. Sentralt i denne suksessen står forsvarsspillet. Derfor ønsket jeg i denne oppgaven
+å gjøre en kvalitativ analyse av forsvarsspillet til Atletico Madrid. Formålet med oppgaven er
+å finne suksessfaktorene i forsvarsspillet til Atletico Madrid, samtidig som jeg ønsker å finne
+ut hvilke rollekrav enkeltspilleren stilles ovenfor i denne måten å spille forsvarsspill på.
+
+
+Oppgaven ble gjennomført gjennom kampanalyse av de 13 kampene Atletico Madrid spilte i
+Champions League i sesongen 2015/16 som endte i finaletap på straffer mot naborival Real
+Madrid. Begrepet forsvarsspillet er bredt og jeg forsøker å beskrive kjennetegn ved
+forsvarsspillet til Atletico Madrid i tre hoveddeler: Etablert forsvar, overganger og dødball.
+Under disse hoveddelene finnes det flere faser av forsvarsspillet som jeg vil beskrive nærmere.
+Her kommer jeg også inn på hvordan enkeltspillere står frem og er sentrale i måten man
+forsvarer seg på.
+
+
+Tallene fra studien viser at Atletico Madrid slepper inn få mål (8), til tross for at de har lite
+ballinnehav. I kvartfinalene mot Barcelona og semifinalene mot Bayern München hadde
+Atletico Madrid et gjennomsnitt på 30,75% ballinnehav. De fikk også i disse fire kampene 40
+målsjanser imot og 57 innlegg imot. Til tross for dette gikk man altså videre til finalen. Det blir
+også spekulert rundt den mentale dimensjonen av det å spille forsvarsspill i så store perioder
+av kampene.
+
+
+Dette har vært en svært læringsrik prosess som har gitt meg kunnskap som jeg håper å kunne
+dra nytte av fremover i min trenergjerning.
+
+
+
+
+                                                38
+Alexander Øren
+

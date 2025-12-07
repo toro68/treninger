@@ -28,7 +28,8 @@ export const SessionTimeline = () => {
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    setHydrated(true);
+    const id = setTimeout(() => setHydrated(true), 0);
+    return () => clearTimeout(id);
   }, []);
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);

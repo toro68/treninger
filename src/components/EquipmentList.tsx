@@ -1,5 +1,5 @@
 import { useSessionStore } from "@/store/sessionStore";
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState } from "react";
 
 const EQUIPMENT_LABELS: Record<string, string> = {
   vester: "Vester",
@@ -16,11 +16,6 @@ export const EquipmentList = () => {
   const generateSession = useSessionStore((state) => state.generateSession);
   const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
   const [checked, setChecked] = useState<Set<string>>(new Set());
-  const [hasMounted, setHasMounted] = useState(false);
-
-  useEffect(() => {
-    setHasMounted(true);
-  }, []);
 
   // Vis alltid alt standard utstyr når det finnes øvelser
   const equipmentList = sessionBlocks.length > 0
@@ -28,15 +23,6 @@ export const EquipmentList = () => {
     : [];
 
   // Vent på hydration før vi viser utstyrlisten
-  if (!hasMounted) {
-    return (
-      <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
-        <h2 className="text-lg font-semibold text-zinc-900">Utstyr</h2>
-        <p className="mt-3 text-sm text-zinc-500">Laster...</p>
-      </section>
-    );
-  }
-
   if (equipmentList.length === 0) {
     return null;
   }

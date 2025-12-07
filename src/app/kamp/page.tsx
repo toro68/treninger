@@ -1,6 +1,5 @@
 "use client";
 
-import { CoachingTips } from "@/components/CoachingTips";
 import { MatchPrep } from "@/components/MatchPrep";
 import { Roles } from "@/components/Roles";
 import { CornerOrganization } from "@/components/CornerOrganization";
@@ -8,7 +7,6 @@ import { TeamOrganization } from "@/components/TeamOrganization";
 import { UEFASeksjon } from "@/components/UEFASeksjon";
 import { FormasjonerSeksjon } from "@/components/FormasjonerSeksjon";
 import { ZonalDefense } from "@/components/ZonalDefense";
-import { MindsetSection } from "@/components/MindsetSection";
 import Link from "next/link";
 
 export default function KampPage() {
@@ -46,6 +44,12 @@ export default function KampPage() {
             >
               Ordliste
             </Link>
+            <Link
+              href="/mindset"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
+            >
+              Mindset
+            </Link>
           </nav>
         </div>
       </header>
@@ -58,11 +62,9 @@ export default function KampPage() {
           </div>
           
           <MatchPrep />
-          <MindsetSection />
           <ZonalDefense />
           <FormasjonerSeksjon />
           <UEFASeksjon />
-          <CoachingTips />
           <Roles />
           <TeamOrganization />
           <CornerOrganization />

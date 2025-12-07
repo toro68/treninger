@@ -90,6 +90,41 @@ export type CoachingCue = {
 
 export const uefaAnalyses: UEFAAnalyse[] = [
   {
+    id: "a04-barca-rytme",
+    kode: "A04",
+    tittel: "Høyt tempo eller god kontroll?",
+    forfatter: "Finn Bredo Olsen",
+    tema: "Angrepsrytme (touch, tempo, kontroll)",
+    roller: ["Sentral midtbane", "Indreløper", "Vinger"],
+    sammendrag:
+      "Olsen loggførte alle touch i Barcelonas CL-scoringsangrep (2010/11) og fant 25 % ett-touch og 36 % to-touch involveringer (snitt 2,1). Barca giret opp (færre touch) når mål måtte jages, men senket tempoet for å kontrollere kampen når de ledet. Rytme handler om å vite når ett-touch skal bryte linjer og når to-touch skal gi kontroll.",
+    kpier: [
+      { navn: "Ett-touch involveringer", referanseverdi: "25 %", kilde: "Kap. 6.5" },
+      { navn: "To-touch involveringer", referanseverdi: "36 %", kilde: "Kap. 6.5" },
+      { navn: "Gjennomsnitt touch pr spiller", referanseverdi: "2,1", kilde: "Kap. 6.5" },
+      { navn: "Tempo-switch (<6 sek)", referanseverdi: "14 pr kamp", kilde: "Kap. 6.6" },
+    ],
+    fokuspunkter: [
+      { id: "a04-touch", tekst: "1-touch når vi bryter linjer, 2-touch når vi kontrollerer" },
+      { id: "a04-tempo", tekst: "Definér tempo-switch (press, resultat, tid)" },
+      { id: "a04-maurtue", tekst: "Fyll rom rundt ball – maurtue-prinsippet" },
+      { id: "a04-messi", tekst: "Messi-rolle: driv når rommet åpner seg" },
+      { id: "a04-dirigent", tekst: "Dirigent (Xavi) styrer touch-krav" },
+    ],
+    ovelser: [
+      { kode: "uefa-a04-01" },
+      { kode: "uefa-a04-02" },
+    ],
+    coachingCues: [
+      { kategori: "Tempo", gjor: "Rop 'Tempo!' når laget skal inn i ett-touch", ikkeGjor: "Ikke la laget spille samme rytme hele kampen" },
+      { kategori: "Kontroll", gjor: "Bruk 2-3 touch for å stoppe klokka", ikkeGjor: "Ikke forhaste pasninger ved ledelse" },
+      { kategori: "Støtte", gjor: "Strekk maurtua – gi vinkler", ikkeGjor: "Ikke bli stående i samme rom" },
+    ],
+    kildefil: "A04-barca-rytme-analyse-v2.md",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa_a_2012_oppgave_finn_bredo_olsen.pdf",
+  },
+
+  {
     id: "a03-sekundene-som-avgjor",
     kode: "A03",
     tittel: "Sekundene som avgjør",
@@ -268,7 +303,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kategori: "Defensivt", gjor: "Tenk balanse før du støter.", ikkeGjor: "Ikke etterlat store rom bak deg." }
     ],
     kildefil: "A06-sentral-midt-analyse-v2.md",
-    oppgaveUrl: "",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-bjarte-lunde-aarsheim.pdf",
   },
   // ──────────────────────────────────────────
   // A07: Hvordan bli en god målscorer (Sigurd Rushfeldt)
@@ -306,7 +341,41 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kategori: "Mental", gjor: "Miss? Finn ballen igjen", ikkeGjor: "Gi opp etter bom" },
     ],
     kildefil: "A07-maalscorer-analyse-v2.md",
-    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf",
+  },
+
+  {
+    id: "a08-playmaker",
+    kode: "A08",
+    tittel: "Kompetansekrav: høy playmaker",
+    forfatter: "Gard Holme",
+    tema: "Høy playmaker – orientering, touch, avgjørende pasning",
+    roller: ["Offensiv midtbane", "Indreløper", "Vinger", "Spiss"],
+    sammendrag:
+      "Holme analyserte åtte topp-playmakere (Özil, Messi, Xavi, Iniesta, Mata, Fabregas, Hamsik, Silva) i CL 2012/13 og splittet hver assist i tre faser: komme på ball, gjøre muligheten reell og avgjørende pasning. Funnene viser at playmakeren mottar 80 % av ballene i mellomrom, bruker 1–2 touch på mindre enn 2 sekunder i fase 2 og leverer avgjørende pasninger fra halvspor mot blindside. Dette omsettes til konkrete KPI-er og treningsprinsipper for norske playmakere.",
+    kpier: [
+      { navn: "Touch (fase 2)", referanseverdi: "1–2 touch", kilde: "Kap. 5.4.2" },
+      { navn: "Tid på ball (fase 2)", referanseverdi: "< 2 sek", kilde: "Kap. 5.4.1" },
+      { navn: "Mottak i mellomrom", referanseverdi: "80 %", kilde: "Kap. 5.3" },
+      { navn: "Posisjon for assist", referanseverdi: "Halvspor/mellomrom", kilde: "Kap. 5.5" },
+    ],
+    fokuspunkter: [
+      { id: "a08-fase1", tekst: "Fase 1: bevegelse i mellomrom, åpen kropp" },
+      { id: "a08-fase2", tekst: "Fase 2: 1–2 touch under press – se før du får ball" },
+      { id: "a08-fase3", tekst: "Fase 3: halvspor → blindside, presis avgjørende pasning" },
+      { id: "a08-roller", tekst: "Spiss/kant må koordinere løp med playmaker" },
+    ],
+    ovelser: [
+      { kode: "uefa-a08-01" },
+      { kode: "uefa-a08-02" },
+    ],
+    coachingCues: [
+      { kategori: "Orientering", gjor: "Se før du får den", ikkeGjor: "Ikke motta uten plan" },
+      { kategori: "Touch", gjor: "Åpen kropp – to touch", ikkeGjor: "Ikke stå på hælene" },
+      { kategori: "Pasning", gjor: "Slå blindside når løpet går", ikkeGjor: "Ikke bli sidelengs" },
+    ],
+    kildefil: "A08-playmaker-analyse-v2.md",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",
   },
   // ──────────────────────────────────────────
   // A10: Vingerrolle (Hugo Pereira)
@@ -365,7 +434,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       },
     ],
     kildefil: "A10-implicit-winger-analyse-v2.md",
-    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf",
   },
 
   // ──────────────────────────────────────────
@@ -515,7 +584,11 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { navn: "Innlegg etablert vs overgang", referanseverdi: "73/27 %", kilde: "Tippeligaen 2015" },
     ],
     fokuspunkter: [
-      { id: "a15-innlegg-soner", tekst: "Innlegg fra sone A-C – slå deg inn før du leverer", rolle: "Vinger" },
+      {
+        id: "a15-innlegg-soner",
+        tekst: "Innlegg fra sone A-C – fortsett løpet helt inn i A/B ved kortlinja før du legger inn",
+        rolle: "Vinger",
+      },
       { id: "a15-direkte", tekst: "Direkte innlegg → mål: sett opp mønster mellom innlegger og målscorer", rolle: "Spiss" },
       { id: "a15-gjenvinning", tekst: "Blokkert innlegg = 5 sek gjenvinning før reorganisering" },
       { id: "a15-boks", tekst: "Minst tre i boks + bakre 45° før ballen går inn", rolle: "Indreløper" },
@@ -526,7 +599,11 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kode: "uefa-a15-02" },
     ],
     coachingCues: [
-      { kategori: "Innlegg", gjor: "Jobb ballen inn i A/B før du leverer", ikkeGjor: "Ikke slå fra 25 meter uten plan" },
+      {
+        kategori: "Innlegg",
+        gjor: "Driv løpet helt inn i sone A/B (nær kortlinja) før du legger inn",
+        ikkeGjor: "Ikke løft tidlige innlegg fra 25 meter uten plan",
+      },
       { kategori: "Boks", gjor: "Tre i boks + bakre 45°", ikkeGjor: "Ikke stå flatt på linje" },
       { kategori: "Gjenvinning", gjor: "Re-press 5 sek etter blokk", ikkeGjor: "Ikke jogg tilbake" },
     ],
@@ -760,29 +837,30 @@ export const uefaAnalyses: UEFAAnalyse[] = [
   },
 
   // ──────────────────────────────────────────
-  // A22: RBK i angrep (Svein Maalen)
-  // Kilde: docs/uefa/A22-svein-maalen-rbk-angrep-analyse.md
+  // A22: Sidebacken høyt i banen (Dag Riisnæs)
+  // Kilde: docs/uefa/A22-dag-riisnas-sideback.txt
   // ──────────────────────────────────────────
   {
-    id: "a22-rbk-angrep",
+    id: "a22-sidebacken",
     kode: "A22",
-    tittel: "RBK i angrepsspillet 2006-2011",
-    forfatter: "Svein Maalen",
-    tema: "Sjansedifferanse og trenerfilosofi",
-    roller: ["Spiss", "Vinger", "Indreløper", "Sentral midtbane", "Back"],
+    tittel: "Sidebacken høyt i banen",
+    forfatter: "Dag Riisnæs",
+    tema: "Back som gjennombruddsvåpen mot etablert forsvar",
+    roller: ["Sideback", "Back", "Sentral midtbane", "Indreløper", "Vinger"],
     sammendrag:
-      "Analyse av RBKs angrepsspill under fem hovedtrenere avslører at poengfangst best korrelerer med sjansedifferanse og balanse. Eggen og Hamrén leverte høy differanse via gjennombruddssøk/ballbesittelse, mens Jönsson skapte flest sjanser men lekket bakover. Dødballer og kontringsfokus påvirket både sjansestørrelse og motstanderens muligheter.",
+      "Riisnæs analyserte alle 285 scoringene i Champions League 2005/06 og fant at 46 av dem kom etter at en sideback ble frigjort høyt i banen. Hele 44 % av målene mot etablert/delvis etablert forsvar involverte back i fase 2. Ved å studere Milan og Werder Bremen viser han hvordan diamantstruktur, hurtige spillvendinger og 3+2-balanse gjør backen til breddeholder og gjennombruddstrussel.",
     kpier: [
-      { navn: "Poeng pr. kamp", referanseverdi: "Eggen 2,4 / Hamrén 2,1", kilde: "Figur antall poeng" },
-      { navn: "Sjanser pr. kamp", referanseverdi: "Jönsson 9,7 / Henriksen 6,1", kilde: "Figur målsjanser for" },
-      { navn: "Sjansedifferanse", referanseverdi: ">2x gir 2+ poeng", kilde: "Figur sjanser for/mot" },
-      { navn: "Kontringsandel", referanseverdi: "Eggen 30 % / Hamrén 25 %", kilde: "Figur angrepstype" },
-      { navn: "Sjanser mot etablert", referanseverdi: "Eggen 1,2 / Jönsson 2,6 pr. kamp", kilde: "Figur sjanser mot" },
+      { navn: "Back-mål totalt", referanseverdi: "46 av 285", kilde: "Riisnæs, kap. 5.3" },
+      { navn: "Back-mål mot etablert", referanseverdi: "44 % (46 av 105)", kilde: "Riisnæs, kap. 5.3" },
+      { navn: "Milan sjanser vs Barca", referanseverdi: "4 av 9 via back", kilde: "Riisnæs, kap. 5.5" },
+      { navn: "Restforsvar", referanseverdi: "3+2 bak når back går", kilde: "Riisnæs, kap. 5.7" },
     ],
     fokuspunkter: [
-      { id: "a22-differanse", tekst: "Hold 2:1 sjansedifferanse hver omgang" },
-      { id: "a22-kontring", tekst: "Kontring første 6 sek – ellers sikre balanse" },
-      { id: "a22-dodball", tekst: "Serv kvalitet >80% i riktig sone", rolle: "Vinger" },
+      { id: "a22-vending", tekst: "Vend før gjennombrudd – frigjør sideback" },
+      { id: "a22-bredde", tekst: "Backen er breddeholder, midtbane konsentrerer" },
+      { id: "a22-3pluss2", tekst: "3+2-rest sikrer mot overgang", rolle: "Sentral midtbane" },
+      { id: "a22-lop", tekst: "Sideback: sett fart inn i korridor før ballen kommer", rolle: "Sideback" },
+      { id: "a22-balanse", tekst: "Hold igjen motsatt IL/back for å dekke rom" },
     ],
     ovelser: [
       { kode: "uefa-a22-01" },
@@ -792,83 +870,195 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kode: "uefa-a22-05" },
     ],
     coachingCues: [
-      { kategori: "Balanse", gjor: "Press eller fall sammen innen tre sek", ikkeGjor: "Ikke la bakrom stå åpent" },
-      { kategori: "Gjennombrudd", gjor: "Finn tredje spiller før siste pas", ikkeGjor: "Ikke søk solo-løsninger" },
-      { kategori: "Dødball", gjor: "Tim server/løp presist", ikkeGjor: "Ikke slipp restforsvar" },
+      { kategori: "Vending", gjor: "Vend raskt og finn back i rom", ikkeGjor: "Ikke bli stående i frispilling" },
+      { kategori: "Sideback", gjor: "Forhåndsposisjoner og sett fart", ikkeGjor: "Ikke vent på å få ball i fot" },
+      { kategori: "Midtbane", gjor: "Dra inn og frigjør korridor", ikkeGjor: "Ikke lås bredden" },
+      { kategori: "Balanse", gjor: "3+2 bak ball før vi fyller boks", ikkeGjor: "Ikke send alle i angrep" },
     ],
-    kildefil: "A22-svein-maalen-rbk-angrep-analyse.md",
+    kildefil: "A22-dag-riisnas-sideback.txt",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // A23: Atletico Madrid – forsvar (Alexander Øren)
+  // Kilde: docs/uefa/A23-alexander-oren-atletico-forsvar.txt
+  // ──────────────────────────────────────────
+  {
+    id: "a23-atletico-forsvar",
+    kode: "A23",
+    tittel: "Atletico Madrid: forsvarssuksess",
+    forfatter: "Alexander Øren",
+    tema: "Organisering av 4-4-2-forsvar i CL 2015/16",
+    roller: ["Back", "Sideback", "Stopper", "Sentral midtbane", "Vinger", "Spiss"],
+    sammendrag:
+      "Øren analyserte alle 13 Champions League-kampene til Atletico Madrid 2015/16. Diego Simeones lag slapp inn kun 8 mål (0,6 per kamp) og 64 målsjanser (4,9 pr kamp) ved å variere mellom høyt press, mellom-/lav blokk og ekstrem sentrums-kompakthet. 69 % av sjansene imot kom i etablert spill, men Atletico lot motstanderen slå innlegg (57 mot Bayern) fordi 3+2-rest og boksdominans håndterte dem. Analyse av kontringer, dødball og gjenvinningspress viser hvorfor Atletico er referansen for organisert 4-4-2-forsvar.",
+    kpier: [
+      { navn: "Mål imot pr. kamp", referanseverdi: "0,6", kilde: "Kap. 3.1" },
+      { navn: "Målsjanser imot", referanseverdi: "4,9 pr kamp (64 total)", kilde: "Kap. 3.2" },
+      { navn: "Sjanser vs etablert", referanseverdi: "69 % (44 av 64)", kilde: "Kap. 3.2" },
+      { navn: "Kontringer imot", referanseverdi: "≤7 pr kamp (maks i Benfica-hjemme)", kilde: "Kap. 3.3" },
+      { navn: "Innlegg mot Bayern", referanseverdi: "57 innlegg → 1 baklengs", kilde: "Kap. 3.6.6" },
+    ],
+    fokuspunkter: [
+      { id: "a23-hoypress", tekst: "Start kampene med 4-4-2 høyt press – vinn ball de første 10" },
+      { id: "a23-mellomblokk", tekst: "Midtblokk: smal 4-4-2, stopp sentrale pasninger" },
+      { id: "a23-lavblokk", tekst: "Lav blokk: front styrer ut i korridor – aksepter innlegg" },
+      { id: "a23-3pluss2", tekst: "Restforsvar 3+2 uansett blokk", rolle: "Sentral midtbane" },
+      { id: "a23-gjenvinning", tekst: "Gjenpress: markeringsorientert på balltap, press + sikring" },
+    ],
+    ovelser: [],
+    coachingCues: [
+      { kategori: "Press", gjor: "Ut med spiss/kant – styr oppbygging inn i felle", ikkeGjor: "Ikke halvpress i front" },
+      { kategori: "Blokk", gjor: "Hold avstandene korte fra spiss til back", ikkeGjor: "Ikke slippe mellomrom" },
+      { kategori: "Innlegg", gjor: "Kant faller inn – back møter, resten sikrer boks", ikkeGjor: "Ikke la alle gå i duell" },
+      { kategori: "Kontring imot", gjor: "Gjenpress eller taktisk frispark", ikkeGjor: "Ikke la begge backer stå høyt" },
+    ],
+    kildefil: "A23-alexander-oren-atletico-forsvar.txt",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // A24: Chelsea 4-2-3-1 etablert forsvar (Ole Martin Nesselquist)
+  // Kilde: docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt
+  // ──────────────────────────────────────────
+  {
+    id: "a24-chelsea-forsvar",
+    kode: "A24",
+    tittel: "Organiser 4-2-3-1 i etablert forsvar",
+    forfatter: "Ole Martin Nesselquist",
+    tema: "Chelsea FC 2015/16 – prinsipper, roller og justeringer",
+    roller: ["Keeper", "Back", "Stopper", "Sentral midtbane", "Vinger", "Spiss"],
+    sammendrag:
+      "Nesselquist gjør en kvalitativ kampanalyse av Chelsea 2015/16 for å beskrive hvordan et 4-2-3-1-lag bør organiseres i etablert forsvar. Oppgaven sammenligner Mourinho-årenes kompakte blokk med sesongen der Chelsea kollapset, og peker på tre hovedårsaker: svakere press på ballfører, større rom mellom ledd og feil i innlegg/boksforsvar. Intervjuer med Haakon Lunov og Geir Jordet kobler taktiske valg til mental robusthet. Funnene gir konkrete retningslinjer for høyt press, lav blokk, romprioritering og individuell rolleforståelse.",
+    kpier: [
+      { navn: "Mål imot (2014/15 vs 2015/16)", referanseverdi: "<1 vs >1", kilde: "Innledning" },
+      { navn: "Innlegg til baklengs", referanseverdi: "4 av 8 baklengs (Atletico-case for sideback)" , kilde: "Drøfting innlegg" },
+      { navn: "Press-strip", referanseverdi: "Høyt press første 10 min", kilde: "Kap. høyt press" },
+      { navn: "Kompakthet", referanseverdi: "4-4-2 uten ball – 10–12 m fra spiss til stopper", kilde: "Romprioritering" },
+    ],
+    fokuspunkter: [
+      { id: "a24-hoypress", tekst: "4-2-3-1 blir 4-4-2 i høyt press – front tvinger oppspill i korridor" },
+      { id: "a24-lavblokk", tekst: "Lav blokk: alle under ball, prioriter sentrumsrom" },
+      { id: "a24-innlegg", tekst: "Boksforsvar: stopper i sone, back + ving sikrer", rolle: "Back" },
+      { id: "a24-rollekrav", tekst: "6-ere (Matic/Fabregas) balanserer når kant/back støter" },
+      { id: "a24-mental", tekst: "Unngå 'avoidance mentality' – bruk approach-fokus i forsvar" },
+    ],
+    ovelser: [],
+    coachingCues: [
+      { kategori: "Press", gjor: "4-2-3-1 → 4-4-2, Costa + 10'er styrer", ikkeGjor: "Ikke la front bli flat" },
+      { kategori: "Blokk", gjor: "Hold 10–12 m fra spiss til stopper", ikkeGjor: "Ikke åpne lommer" },
+      { kategori: "Innlegg", gjor: "Back møter, stopper i sone, indreløper plukker andreball", ikkeGjor: "Ikke ren mannsmark i boks" },
+      { kategori: "Mental", gjor: "Approach – se forsvar som mulighet", ikkeGjor: "Ikke snakk kun om å unngå feil" },
+    ],
+    kildefil: "A24-ole-martin-nesselquist-etablert-forsvar.txt",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // A25: FFK baklengs (Even Juliussen)
+  // Kilde: docs/uefa/A25-even-juliussen-ffk-forsvar.txt
+  // ──────────────────────────────────────────
+  {
+    id: "a25-ffk-baklengs",
+    kode: "A25",
+    tittel: "Analyser baklengs – FFK 2012",
+    forfatter: "Even Juliussen",
+    tema: "Forsvarssvakheter og balltap i Fredrikstad FK",
+    roller: ["Back", "Stopper", "Sentral midtbane", "Vinger"],
+    sammendrag:
+      "Juliussen kartla alle 59 baklengsmålene til Fredrikstad FK i Tippeligaen 2012. 44 % kom i etablert forsvar, 37 % på dødball og 19 % på kontring. Hjemme/borte-tall var like dårlige, og de fleste målene kom i sluttfasene. Analyse av balltap viser overrisiko på høyresiden, lite dybde i backledd og dårlig 3+2-balanse. Oppgaven gir konkrete tiltak: strammere sone, push-ups i backledd, bedre hjemmetaktikk og tydeligere rollekrav i dødball/bredsituasjoner.",
+    kpier: [
+      { navn: "Totale baklengs", referanseverdi: "59 mål", kilde: "Sammendrag" },
+      { navn: "Fordeling", referanseverdi: "44 % etablert / 37 % dødball / 19 % overgang", kilde: "Sammendrag" },
+      { navn: "Balltap høyreside", referanseverdi: "Flest tap på høyre kant/back", kilde: "Balltap" },
+      { navn: "Mål i sluttfase", referanseverdi: "Flest siste 15 min", kilde: "Når baklengs" },
+    ],
+    fokuspunkter: [
+      { id: "a25-sone", tekst: "Stram sone og dybde i backledd – unngå eget store mellomrom" },
+      { id: "a25-balltap", tekst: "Reduser risiko på høyresiden – sikring nær ball" },
+      { id: "a25-dodball", tekst: "Tydelig ansvar dødball – stopper i sone, 3+2 rest" },
+      { id: "a25-sluttfase", tekst: "Kampplan for siste 15 min (bytte, frispill, mentalitet)" },
+    ],
+    ovelser: [],
+    coachingCues: [
+      { kategori: "Backledd", gjor: "Push opp etter klareringer", ikkeGjor: "Ikke bli hengende dypt" },
+      { kategori: "Balltap", gjor: "Sikre bak høy risk", ikkeGjor: "Ikke tape ball ute av balanse" },
+      { kategori: "Dødball", gjor: "Avtalt sone/mann + restforsvar", ikkeGjor: "Ikke la alle stå i boks" },
+      { kategori: "Sluttfase", gjor: "Mental plan – approach", ikkeGjor: "Ikke panikk-sikre" },
+    ],
+    kildefil: "A25-even-juliussen-ffk-forsvar.txt",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // A26: Innlegg imot – TUIL (Gaute Helstrup)
+  // Kilde: docs/uefa/A26-gaute-helstrup-innlegg-forsvar.txt
+  // ──────────────────────────────────────────
+  {
+    id: "a26-innlegg-forsvar",
+    kode: "A26",
+    tittel: "Forsvar mot innlegg",
+    forfatter: "Gaute Helstrup",
+    tema: "TUIL 2010 – farlige soner og innlegg bakover",
+    roller: ["Back", "Stopper", "Sentral midtbane", "Vinger"],
+    sammendrag:
+      "Helstrup analyserte alle innlegg i TUILs siste åtte kamper i Adeccoligaen 2010. 125 innlegg ble logget; 88,65 % oppstod i etablert/delvis etablert spill, 70 % av avslutningene kom etter pause og 88,8 % av sjansene kom etter innlegg fra 'farlig sone'. Motstanderne sendte i snitt 3 spillere i farlig sone, TUIL forsvarte med 4,4 – men var posisjonelt i ubalanse ved 59 % av situasjonene. Én av to baklengs kom fra midtre sone. Oppgaven peker på strukturelle (push-up, tette mellomrom), relasjonelle (sonespiller vs markering) og kampdimensjonelle justeringer.",
+    kpier: [
+      { navn: "Avklaringer", referanseverdi: "53,6 % (67/125)", kilde: "Resultat av innlegg" },
+      { navn: "Sjanser", referanseverdi: "9 av 125 (7,2 %) – 8 fra farlig sone", kilde: "Sjanser" },
+      { navn: "Posisjonell balanse", referanseverdi: "Ubalanse i 59,2 %", kilde: "Posisjonell balanse" },
+      { navn: "Farlig sone sjanser", referanseverdi: "88,8 %", kilde: "Innlegg fra farlig sone" },
+      { navn: "Bakre sone avslutning", referanseverdi: "46 %", kilde: "Resultat pr sone" },
+    ],
+    fokuspunkter: [
+      { id: "a26-farligsone", tekst: "Prioriter farlig sone – stopp innlegg der" },
+      { id: "a26-pushup", tekst: "Backledd: push opp etter klarering, tette mellomrom" },
+      { id: "a26-posisjon", tekst: "Unngå posisjonell ubalanse ved 60 % av innleggene" },
+      { id: "a26-innleggside", tekst: "Kjenn motstanders side (høyre vs venstre) – juster kant/back" },
+      { id: "a26-sluttkamp", tekst: "Plan for 2. omgang – fleste avslutninger etter pause" },
+    ],
+    ovelser: [],
+    coachingCues: [
+      { kategori: "Sone", gjor: "Sonestopper følger ball OG mann", ikkeGjor: "Ikke la motstander passere mellom soner" },
+      { kategori: "Back", gjor: "Back på ballside presser – motsatt back tar boks", ikkeGjor: "Ikke la liten back stå alene" },
+      { kategori: "Midtbane", gjor: "Vinger inn i returrom/farlig sone", ikkeGjor: "Ikke bli stående og se" },
+      { kategori: "Balanse", gjor: "Snakk push-up, posisjonering", ikkeGjor: "Ikke aksepter 59 % ubalanse" },
+    ],
+    kildefil: "A26-gaute-helstrup-innlegg-forsvar.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
   {
-    id: "b01-overgangsspill",
-    kode: "B01",
+    id: "a09-overgangsspill",
+    kode: "A09",
     tittel: "Overgangsspill",
     forfatter: "Bjarte Lunde Aarsheim",
-    tema: "Overgangsspill, presshøyde, defensiv organisering",
+    tema: "Overgangssikring, presshøyde og førstevalg etter brudd",
     roller: ["Spiss", "Vinger", "Back", "Sentral midtbane", "Indreløper", "Stopper"],
     sammendrag:
-      "Aarsheims analyse ser på hvordan Brodd kan utnytte overganger. Oppgaven definerer 'gunstige brudd' og legger frem en 'overgangspyramide' som prioriterer handlinger etter brudd: 1) direkte i bakrom, 2) angripe mellomrom, 3) spille vekk fra press. Analysen understreker viktigheten av defensiv balanse (3+2-sikring) og rollespesifikke oppgaver for å lykkes. Variasjon i presshøyde (høy 4-4-2 diamant vs. lav 4-4-2 sone) fremheves som et nøkkelverktøy for å skape brudd under ulike kampforløp.",
+      "Lunde Aarsheim analyserte 97 gunstige brudd og fant bare 22 vellykkede overganger. Løsningen er en overgangspyramide (bakrom → mellomrom → vekk fra press), tydelige 3+2-balansering og signalstyrt presshøyde (høy 4-4-2 diamant vs. lav 4-4-2 sone). Klar rollefordeling for spiss/kant/sentral midt gjør det lettere å treffe første pasning og å stå igjen med restforsvar dersom laget mister ballen igjen. Som hovedregel ønsker vi å opprette balanse med 3 forsvarsspillere og 2 midtbanespillere. Disse sentrerer og konsentrer seg for et eventuelt balltap.",
     kpier: [
-      { navn: "Vellykkede overganger", referanseverdi: "> 5 pr. kamp", kilde: "Analyse" },
-      { navn: "Mislykkede overganger", referanseverdi: "< 50 %", kilde: "Analyse" },
-      { navn: "Brudd i kamp (eksempel)", referanseverdi: "27-33 pr. kamp", kilde: "Videoanalyse" },
-      { navn: "Vellykket brudd (eksempel)", referanseverdi: "20-30 %", kilde: "Videoanalyse" },
+      { navn: "Gunstige brudd", referanseverdi: "97 (43 høye / 54 lave)", kilde: "Analyse" },
+      { navn: "Vellykkede overganger", referanseverdi: "22 (17 sjanser, 6 mål, 2 straffer)", kilde: "Analyse" },
+      { navn: "Valg etter brudd", referanseverdi: "Bakrom 29 / Mellomrom 43 / Vekk fra press 27", kilde: "Analyse" },
+      { navn: "Brudd pr kamp", referanseverdi: "Randaberg 33 / Viking2 27 / Madla 20 / VBK 17", kilde: "Analyseskjema" },
     ],
     fokuspunkter: [
-      { id: "b01-forsvarer", tekst: "1.forsvarer: umiddelbart, aggressivt press.", rolle: "Stopper" },
-      { id: "b01-balanse", tekst: "Balansekrav: minimum 3 spillere bak + 2 sentrale som sikrer.", rolle: "Sentral midtbane" },
-      { id: "b01-pyramide", tekst: "Overgangspyramide: bakrom -> mellomrom -> vekk fra press." },
-      { id: "b01-spiss", tekst: "Spisser starter bakromsløp umiddelbart ved brudd.", rolle: "Spiss" },
-      { id: "b01-indreloper", tekst: "8-ere (indreløpere) jobber i motsatte bevegelser.", rolle: "Indreløper" },
+      { id: "a09-press", tekst: "1.forsvarer signaliserer press – resten må stå etter", rolle: "Stopper" },
+      { id: "a09-3pluss2", tekst: "3+2-balansen: tre bak + to sikrere – hvem som helst kan fylle rollen", rolle: "Sentral midtbane" },
+      { id: "a09-pyramide", tekst: "Overgangspyramide: bakrom → mellomrom → vekk fra press" },
+      { id: "a09-spiss", tekst: "Spiss starter bakromsløp umiddelbart ved brudd", rolle: "Spiss" },
+      { id: "a09-indreloper", tekst: "Indreløper: motsatt bevegelse for å åpne rom", rolle: "Indreløper" },
     ],
     ovelser: [
       { kode: "uefa-b01-01" },
       { kode: "uefa-b01-02" },
     ],
     coachingCues: [
-      { kategori: "Overgang", gjor: "'Frys – se – slå': skift fra press til ro etter brudd.", ikkeGjor: "Ikke spill på første bevegelse uten å ha vurdert klima." },
-      { kategori: "Press", gjor: "Aggressiv 1. forsvarer, smart sikring.", ikkeGjor: "Ikke la laget presse stykkevis." },
-      { kategori: "Valg", gjor: "Bakrom stengt? Finn rettvendt spiller i mellomrom.", ikkeGjor: "Ikke tving frem en pasning som ikke er der." },
+      { kategori: "Overgang", gjor: "Frys – se – slå første pasning med intensjon", ikkeGjor: "Ikke slå blindt i første bevegelse" },
+      { kategori: "Press", gjor: "Aggressiv 1.forsvarer, smart sikring", ikkeGjor: "Ikke press stykkevis" },
+      { kategori: "Valg", gjor: "Bakrom stengt? Finn rettvendt spiller i mellomrom", ikkeGjor: "Ikke tving en pasning som ikke er der" },
     ],
-    kildefil: "B01-overgang-analyse-v2.md",
-    oppgaveUrl: "",
+    kildefil: "A09-bjarte-lunde-aarsheim-overgang-analyse.md",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
   },
-
-  // ──────────────────────────────────────────
-  // LEGG TIL FLERE HER ETTER HVERT SOM DE ANALYSERES
-  // ──────────────────────────────────────────
-  // Eksempel mal:
-  // {
-  //   id: "b01-overgang",
-  //   kode: "B01",
-  //   tittel: "...",
-  //   forfatter: "Bjarte Lunde Aarsheim",
-  //   tema: "Overgangsspill",
-  //   roller: [...],
-  //   sammendrag: "...",
-  //   kpier: [...],
-  //   fokuspunkter: [...],
-  //   ovelser: [...],
-  //   coachingCues: [...],
-  //   kildefil: "B01-bjarte-lunde-aarsheim-overgang.md",
-  // },
 ];
-
-// ============================================
-// HJELPEFUNKSJONER
-// ============================================
-
-/** Finn analyse etter kode (A10, B01, etc.) */
-export const getAnalyseByKode = (kode: string): UEFAAnalyse | undefined =>
-  uefaAnalyses.find((a) => a.kode.toLowerCase() === kode.toLowerCase());
-
-/** Finn analyser som gjelder en spesifikk rolle */
-export const getAnalyserByRolle = (rolle: Rolle): UEFAAnalyse[] =>
-  uefaAnalyses.filter((a) => a.roller.includes(rolle));
-
-/** Finn alle unike roller på tvers av analyser */
-export const getAlleRoller = (): Rolle[] => {
-  const rolleSet = new Set<Rolle>();
-  uefaAnalyses.forEach((a) => a.roller.forEach((r) => rolleSet.add(r)));
-  return Array.from(rolleSet).sort();
-};

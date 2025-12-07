@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  turbopack: {},
-  webpack: (config) => config,
+const nextConfig = {
+  turbopack: {
+    root: __dirname,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
