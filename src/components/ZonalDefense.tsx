@@ -79,6 +79,43 @@ export const ZonalDefense = () => {
                 </div>
               </div>
 
+              <div className="rounded-lg border border-emerald-200 bg-emerald-50/50 p-4">
+                <h4 className="text-sm font-bold text-emerald-800 mb-2">
+                  Førsteforsvarer – læringsmomenter
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>Snappe ballen</strong>
+                    <p className="text-emerald-700">Bryt ballbanen med riktig timing</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>Takle</strong>
+                    <p className="text-emerald-700">Ha sikringsspiller i avpasset avstand</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>Møte feilvendt mottaker</strong>
+                    <p className="text-emerald-700">Hold tett press, unngå takling (frispark)</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>Møte rettvendt ballfører</strong>
+                    <p className="text-emerald-700">Sideveis kroppsstilling, lavt tyngdepunkt, led i ufarlig retning</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>Ved stor fart/ubalanse</strong>
+                    <p className="text-emerald-700">Rygg, led til ufarlig område, grip inn ved scoringsmulighet</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2">
+                    <strong>2v1-situasjon</strong>
+                    <p className="text-emerald-700">Rygg mellom angriperne, avskjær pasning</p>
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 sm:col-span-2">
+                    <strong>Tilbake på rett side</strong>
+                    <p className="text-emerald-700">Løp opp ballfører etter å ha blitt passert – kom deg på forsvarssiden igjen</p>
+                  </div>
+                </div>
+                <p className="text-xs text-emerald-600 mt-2 italic">Kilde: Trenerbloggen / NFF</p>
+              </div>
+
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-4">
                 <h4 className="text-sm font-bold text-blue-900 mb-2">
                   Andreforsvarer = Sikring

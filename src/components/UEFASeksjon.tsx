@@ -2063,6 +2063,25 @@ export const UEFASeksjon = () => {
                             </div>
                           </div>
 
+                          <div className="rounded-xl border border-sky-200 bg-sky-50 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-sky-800">Førsteforsvarer (1F) – læringsmomenter</h4>
+                            <div className="mt-2 grid gap-3 md:grid-cols-2">
+                              <ul className="space-y-0.5 text-sm text-sky-900">
+                                <li>• <strong>Snappe ballen</strong> – bryt ballbane med riktig timing</li>
+                                <li>• <strong>Takle</strong> – ha sikringsspiller i avpasset avstand</li>
+                                <li>• <strong>Feilvendt mottaker</strong> – hold tett press, unngå takling</li>
+                                <li>• <strong>Rettvendt ballfører</strong> – sideveis kropp, lavt tyngdepunkt</li>
+                              </ul>
+                              <ul className="space-y-0.5 text-sm text-sky-900">
+                                <li>• <strong>Stor fart/ubalanse</strong> – rygg, led til ufarlig område</li>
+                                <li>• <strong>2v1-situasjon</strong> – rygg mellom, avskjær pasning</li>
+                                <li>• <strong>Passert</strong> – løp opp og tilbake på forsvarssiden</li>
+                                <li>• <strong>Mål:</strong> erobre ball, ikke bli utspilt, hindre skudd</li>
+                              </ul>
+                            </div>
+                            <p className="mt-2 text-xs text-sky-600 italic">Kilde: Trenerbloggen / NFF</p>
+                          </div>
+
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
@@ -2138,6 +2157,33 @@ export const UEFASeksjon = () => {
                                 <li>• Soneforsvar uten dybde = store mellomrom og for lite push-up.</li>
                               </ul>
                             </div>
+                          </div>
+
+                          <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-emerald-800">Soneforsvar 4-4-2 – avstander og roller</h4>
+                            <div className="mt-2 grid gap-3 md:grid-cols-2">
+                              <div>
+                                <p className="text-xs font-medium text-emerald-700 mb-1">Avstander</p>
+                                <ul className="space-y-0.5 text-sm text-emerald-900">
+                                  <li>• 8–10 m mellom spissene</li>
+                                  <li>• 8–10 m mellom spillere i midtbaneledd</li>
+                                  <li>• 8–10 m mellom spillere i bakre firer</li>
+                                  <li>• 10–12 m mellom bakre firer og midtbane</li>
+                                  <li>• 10–12 m mellom midtbane og spisser</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="text-xs font-medium text-emerald-700 mb-1">Roller (1F/2F/3F)</p>
+                                <ul className="space-y-0.5 text-sm text-emerald-900">
+                                  <li>• <strong>1F</strong> = presser ballfører</li>
+                                  <li>• <strong>2F</strong> = sikrer (avstand + vinkel)</li>
+                                  <li>• <strong>3F</strong> = markerer</li>
+                                  <li>• Soneorientert til 16 m → markerende innenfor</li>
+                                  <li>• Sideforskyving = motsatt kant/back inn mot bakre stolpe</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <p className="mt-2 text-xs text-emerald-600 italic">Kilde: Trenerbloggen / NFF</p>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
