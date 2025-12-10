@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const ZonalDefense = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState<"roller" | "leding" | "kollektiv" | "kompakt" | "fall" | "mellomrom" | "innlegg" | "unntak">("roller");
+  const [activeTab, setActiveTab] = useState<"roller" | "leding" | "kollektiv" | "kompakt" | "fall" | "mellomrom" | "innlegg" | "press" | "unntak">("roller");
 
   return (
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
@@ -40,6 +40,7 @@ export const ZonalDefense = () => {
               { id: "fall" as const, label: "Når falle" },
               { id: "mellomrom" as const, label: "Mellomrom" },
               { id: "innlegg" as const, label: "Innlegg" },
+              { id: "press" as const, label: "Presshøyde" },
               { id: "unntak" as const, label: "Unntak" },
             ].map((tab) => (
               <button
@@ -59,22 +60,50 @@ export const ZonalDefense = () => {
           {/* Roller Tab */}
           {activeTab === "roller" && (
             <div className="space-y-3">
+              {/* F1/F2/F3 oversikt */}
+              <div className="rounded-lg border border-zinc-300 bg-gradient-to-r from-zinc-50 to-slate-50 p-4">
+                <h4 className="text-sm font-bold text-zinc-900 mb-3">Forsvarsfaser (NFF Landslagsskolen)</h4>
+                <div className="grid grid-cols-3 gap-2">
+                  <div className="rounded-md bg-emerald-100 p-2 text-xs text-emerald-900">
+                    <strong>F1: Presse</strong>
+                    <p className="mt-1">Vi er på plass. Motstander kan ikke nå alle prioriterte rom.</p>
+                  </div>
+                  <div className="rounded-md bg-amber-100 p-2 text-xs text-amber-900">
+                    <strong>F2: Hindre tilgang</strong>
+                    <p className="mt-1">Vi er delvis på plass. Motstander kan nå prioriterte rom.</p>
+                  </div>
+                  <div className="rounded-md bg-rose-100 p-2 text-xs text-rose-900">
+                    <strong>F3: Hindre mål</strong>
+                    <p className="mt-1">Motstander kan skape direkte trusler mot vår boks.</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="rounded-lg border-2 border-emerald-300 bg-emerald-50 p-4">
                 <h4 className="text-sm font-bold text-emerald-900 mb-2">
-                  Førsteforsvarer = Signalspiller
+                  Førsteforsvarer (1F) = Signalspiller
                 </h4>
                 <p className="text-xs text-emerald-800 mb-3">
                   Spilleren nærmest ballfører er førsteforsvarer - den viktigste spilleren i soneforsvaret. 
                   Din handling definerer hva de andre ti spillerne skal gjøre.
                 </p>
                 <div className="bg-white/60 rounded-md p-2 text-xs text-emerald-900">
-                  <strong>Oppgaver:</strong>
+                  <strong>Før involvering:</strong>
                   <ul className="mt-1 space-y-1 list-disc list-inside">
-                    <li>Vinn ball når det er mulig</li>
-                    <li>Opphold/led ballfører (kjøp tid for laget)</li>
-                    <li>Hindre gjennombruddspasninger</li>
-                    <li>Tving spill på tvers eller bakover</li>
-                    <li>Til sist: Hindre mål</li>
+                    <li>Oversikt over ball, medspillere, prioriterte rom og trusler</li>
+                    <li>Vurder: &quot;i press&quot; eller &quot;kontrollerer rom&quot;?</li>
+                    <li>Velg pressøyeblikk ut fra avstand, motstanders kroppsposisjon, blikk, fot og touch</li>
+                    <li>Kontroll på overkroppen for raskt å kunne gå i alle retninger</li>
+                  </ul>
+                </div>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-emerald-900 mt-2">
+                  <strong>Under involvering:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Kom tett i press med rett fart, kort ned stegene inn i press</li>
+                    <li>Bevisst på rom rundt seg for å stenge av spillpunkter</li>
+                    <li>Aktiv armbruk ved duellspill og kroppskontakt</li>
+                    <li>Utnytt dårlige, lange og for mange touch</li>
+                    <li>Forsøk å ta rommet mellom ballfører og ball</li>
                   </ul>
                 </div>
               </div>
@@ -118,7 +147,7 @@ export const ZonalDefense = () => {
 
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-4">
                 <h4 className="text-sm font-bold text-blue-900 mb-2">
-                  Andreforsvarer = Sikring
+                  Andreforsvarer (2F) = Sikring
                 </h4>
                 <p className="text-xs text-blue-800 mb-3">
                   Nærmeste spiller til førsteforsvarer. Sikrer på rett side eller dekker rom.
@@ -132,10 +161,17 @@ export const ZonalDefense = () => {
                     <li>Nærmeste stopper sikrer stopper i press</li>
                   </ul>
                 </div>
-                <p className="text-xs text-blue-700 mt-2 italic">
-                  Sikringsavstand: Stor ved høy fart, liten når ballfører står stille. 
-                  Verst mulige: Når førsteangriperen tar både første- og andreforsvarer i ett jafs.
-                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-blue-900 mt-2">
+                  <strong>Sikringsavstand:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Stor avstand ved høy fart på ballfører</li>
+                    <li>Liten avstand når ballfører står stille</li>
+                    <li><span className="text-red-700 font-medium">Verst:</span> Når førsteangriperen tar både 1F og 2F i ett jafs!</li>
+                  </ul>
+                </div>
+                <div className="bg-amber-100 rounded-md p-2 text-xs text-amber-900 mt-2">
+                  <strong>Unntak nær 16m:</strong> Stoppere blir i boksen - back får sikring fra midtbane eller kant på &quot;feil&quot; side.
+                </div>
               </div>
 
               <div className="rounded-lg border border-purple-200 bg-purple-50 p-4">
@@ -203,20 +239,55 @@ export const ZonalDefense = () => {
           {/* Kollektiv Tab */}
           {activeTab === "kollektiv" && (
             <div className="space-y-3">
+              {/* Konkrete mål */}
+              <div className="rounded-lg border-2 border-zinc-300 bg-gradient-to-r from-zinc-50 to-slate-50 p-4">
+                <h4 className="text-sm font-bold text-zinc-900 mb-2">Soneforsvar - konkrete avstander</h4>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="bg-emerald-100 rounded-md p-2 text-xs">
+                    <strong className="text-emerald-900">Bredde i ledd:</strong>
+                    <p className="text-emerald-800">~10 meter mellom spillere. Mindre når ballfører er i leddet.</p>
+                  </div>
+                  <div className="bg-sky-100 rounded-md p-2 text-xs">
+                    <strong className="text-sky-900">Dybde mellom ledd:</strong>
+                    <p className="text-sky-800">~25 meter fra toppspiss til bakre ledd. ~30 meter i bredden (halve banen).</p>
+                  </div>
+                  <div className="bg-amber-100 rounded-md p-2 text-xs">
+                    <strong className="text-amber-900">Ball på kant:</strong>
+                    <p className="text-amber-800">5-meters bortre linje er rettesnor for motsatt side.</p>
+                  </div>
+                  <div className="bg-violet-100 rounded-md p-2 text-xs">
+                    <strong className="text-violet-900">Midtbane vs bakre:</strong>
+                    <p className="text-violet-800">Midtbaneleddet sideforskyver 3-5m mer enn bakre ledd.</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="rounded-lg border border-sky-200 bg-sky-50 p-4">
-                <h4 className="text-sm font-bold text-sky-900 mb-2">Pumping (Push-out)</h4>
-                <p className="text-xs text-sky-800">
-                  Leddene justerer kontinuerlig opp og ned for å kontrollere rom. 
-                  Når førsteforsvarer presser opp, &quot;pumper&quot; resten av laget etter.
+                <h4 className="text-sm font-bold text-sky-900 mb-2">Pumping</h4>
+                <p className="text-xs text-sky-800 mb-2">
+                  Leddene justerer kontinuerlig opp og ned for å kontrollere rom.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-sky-900">
+                  <strong>Rykk ut når angrepslaget:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Slår støttepasning (ikke fare for gjennombrudd)</li>
+                    <li>Slår en upresis pasning</li>
+                    <li>Nøler eller går seg fast</li>
+                  </ul>
+                </div>
+                <p className="text-xs text-sky-700 mt-2 italic">
+                  &quot;Lagets evne til å pushe ut og å pumpe – i riktig øyeblikk – er avgjørende. Her skiller vi klinten fra hveten.&quot; — NFF
                 </p>
               </div>
 
               <div className="rounded-lg border border-indigo-200 bg-indigo-50 p-4">
                 <h4 className="text-sm font-bold text-indigo-900 mb-2">Sideforskyvning</h4>
-                <p className="text-xs text-indigo-800">
+                <p className="text-xs text-indigo-800 mb-2">
                   Forskyv kollektivt mot ballsiden. Hele midtbaneleddet og bakre ledd flytter seg som én enhet.
-                  Sikrer kontroll sentralt.
                 </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-indigo-900">
+                  <strong>Sideforskyving:</strong> ~10m mellom forsvarsspillere. Svært få angrepslag klarer å snu spillet til motsatt side før 1F rekker over.
+                </div>
               </div>
 
               <div className="rounded-lg border border-violet-200 bg-violet-50 p-4">
@@ -242,14 +313,29 @@ export const ZonalDefense = () => {
           {/* Kompakt Tab */}
           {activeTab === "kompakt" && (
             <div className="space-y-3">
+              {/* F1 Hovedprinsipp */}
+              <div className="rounded-lg border-2 border-emerald-300 bg-emerald-50 p-4">
+                <h4 className="text-sm font-bold text-emerald-900 mb-2">F1: Presse – Lede – Styre</h4>
+                <p className="text-xs text-emerald-800 mb-2">
+                  <strong>Mål:</strong> Vinne ball og hindre at motstander kommer i posisjon til å nå prioriterte rom.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-emerald-900">
+                  <strong>Hovedprinsipp:</strong> Hindre motstander i å oppnå numerisk og posisjonelt overtak rundt ballen og i sentrum av banen.
+                </div>
+              </div>
+
               <div className="rounded-lg border-2 border-violet-300 bg-violet-50 p-4">
                 <h4 className="text-sm font-bold text-violet-900 mb-2">Konsentrering = Kort og Smalt</h4>
                 <p className="text-xs text-violet-800 mb-3">
                   Hovedprinsippet i soneforsvar: Krympe motstanderens tid og rom ved å stå tett.
-                  Jo tettere laget står, desto vanskeligere å spille gjennom.
                 </p>
                 <div className="bg-white/60 rounded-md p-2 text-xs text-violet-900">
-                  <strong>Husk:</strong> Konsentrering handler om å nekte rom - ikke bare om å stå tett.
+                  <strong>Jo større konsentrering:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Desto vanskeligere å tre pasninger gjennom ledd</li>
+                    <li>Desto vanskeligere med presise gjennombruddspasninger</li>
+                    <li>Desto mer tvinges angrepslaget til å spille rundt</li>
+                  </ul>
                 </div>
               </div>
 
@@ -543,6 +629,116 @@ export const ZonalDefense = () => {
             </div>
           )}
 
+          {/* Presshøyde Tab */}
+          {activeTab === "press" && (
+            <div className="space-y-3">
+              <div className="rounded-lg border-2 border-sky-300 bg-sky-50 p-4">
+                <h4 className="text-sm font-bold text-sky-900 mb-2">Presshøyde og samstemthet</h4>
+                <p className="text-xs text-sky-800 mb-3">
+                  Hvor lagpresset settes, avgjøres av flere forhold: Styrkeforhold, motstanders spillestil, og stillingen i kampen.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-sky-900">
+                  <strong>Felles forståelse:</strong> Når og hvordan vi setter inn presset og justerer presshøyden er avgjørende for om vi lykkes.
+                </div>
+              </div>
+
+              <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4">
+                <h4 className="text-sm font-bold text-emerald-900 mb-2">Høyt press - tvinge langt utspill</h4>
+                <p className="text-xs text-emerald-800 mb-2">
+                  Forsvarslaget blir mer markeringsorientert i det høye presset. Ta ansvar for spillere foran deg i din sone.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-emerald-900">
+                  <strong>Oppskrift mot kort igangsetting:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Steng én side - spiss legger seg på stopper</li>
+                    <li>Spiss leder ut, nekter vending via samme stopper</li>
+                    <li>Kant på ballside går høyt for ballvinning - led inn</li>
+                    <li>Nærmeste midtbane går i press om stopper frispilles</li>
+                    <li>Bakre ledd markerer ut og dekker rom</li>
+                    <li>Makter angrepslaget å vende? Fall ned i lavere press</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
+                <h4 className="text-sm font-bold text-amber-900 mb-2">Planlagt lavere presshøyde</h4>
+                <p className="text-xs text-amber-800 mb-2">
+                  Settes på høyde med toppen av angrepslagets midtbanebue.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-amber-900">
+                  <strong>Midtbaneleddet:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Spilleren nærmest ballfører presser</li>
+                    <li>Ha mindre avstander mellom de som dekker rom</li>
+                    <li>Være så smale at de spiller rundt og ikke gjennom</li>
+                    <li>100% enige om hvor vi leder</li>
+                    <li><strong>Nøkkel:</strong> Ny ballfører → ny spiller som presser</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="rounded-lg border border-violet-200 bg-violet-50 p-4">
+                <h4 className="text-sm font-bold text-violet-900 mb-2">Planlagt lavt press</h4>
+                <p className="text-xs text-violet-800 mb-2">
+                  La det bakre angrepsleddet ha ball. Målet er å få dem til å tre pasning der det er trangest.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-violet-900">
+                  <strong>K-5-3-2 lavt press:</strong> Femmeren bak blir til fire når ytre spiller (back) presser angrepskanten. Fire i forsvarsleddet verner rom rundt og i egen 16-meter.
+                </div>
+                <p className="text-xs text-violet-700 mt-2 italic">
+                  &quot;Å kunne ligge lavt og kontrollert krever forståelse av at det lønner seg. Vi har kontroll – her slipper de ikke til!&quot;
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-rose-200 bg-rose-50 p-4">
+                <h4 className="text-sm font-bold text-rose-900 mb-2">Når presset glipper - &quot;Golden Moment&quot;</h4>
+                <p className="text-xs text-rose-800 mb-2">
+                  Når vi mister ballen eller presset glipper: Nærmeste forsvarsspiller må <strong>oppholde</strong>.
+                </p>
+                <div className="bg-white/60 rounded-md p-2 text-xs text-rose-900">
+                  <strong>Retningslinjer:</strong>
+                  <ul className="mt-1 space-y-1 list-disc list-inside">
+                    <li>Førsteforsvarer: Opphold - ikke selg deg!</li>
+                    <li>Spillere på feil side: Jobb deg ned på rett side</li>
+                    <li>Juster alle avstander</li>
+                    <li>Vern om bakrom</li>
+                    <li><strong>Mål:</strong> Bli smale og trange igjen</li>
+                  </ul>
+                </div>
+                <p className="text-xs text-rose-700 mt-2 italic">
+                  &quot;Evnen til å oppholde skiller klinten fra hveten.&quot; — NFF
+                </p>
+              </div>
+
+              <div className="rounded-lg border border-teal-200 bg-teal-50 p-4">
+                <h4 className="text-sm font-bold text-teal-900 mb-2">Å bli spilt lave - slik kommer dere opp</h4>
+                <div className="space-y-2 mt-2">
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>1.</strong> Gjør forsvarslaget trangt i både bredde- og lengderetning
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>2.</strong> Spissene (feil side) må vinne klareringsballer - push-out!
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>3.</strong> Ta ut angrepslagets støttespillere - sandwicher
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>4.</strong> Pumping: Skvise rommet ved støttepasninger
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>5.</strong> Dødball (kast på motstanders halvdel) = mulighet til å bite seg fast
+                  </div>
+                  <div className="bg-white/60 rounded-md p-2 text-xs text-teal-900">
+                    <strong>6.</strong> Signalspiller - forstyrr rytmen og få laget til å pumpe etter
+                  </div>
+                </div>
+                <p className="text-xs text-teal-700 mt-2 italic">
+                  &quot;Å bli spilt lave er ikke ensbetydende med trøbbel. Er vi gode i det lave presset, gir det muligheter når vi erobrer ballen.&quot;
+                </p>
+              </div>
+            </div>
+          )}
+
           {/* Unntak Tab */}
           {activeTab === "unntak" && (
             <div className="space-y-3">
@@ -612,7 +808,15 @@ export const ZonalDefense = () => {
             <p className="text-xs text-zinc-600 italic">
               &quot;Godt forsvarsspill er en hedersbetegnelse. Dyrking av statusroller og statusferdigheter gir tap på sikt.&quot;
             </p>
-            <p className="text-xs text-zinc-500 mt-1">— NFF Soneforsvar 2021</p>
+            <p className="text-xs text-zinc-500 mt-1">— NFF Soneforsvar</p>
+            <a 
+              href="https://tiim.no/artikkel/soneforsvar-fra-prinsipper-til-laeringsmomenter" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xs text-emerald-600 hover:text-emerald-700 underline mt-2 inline-block"
+            >
+              Les mer på tiim.no →
+            </a>
           </div>
         </div>
       )}
