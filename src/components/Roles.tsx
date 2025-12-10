@@ -26,7 +26,7 @@ const positions: Position[] = [
       {
         phase: "A1 - Oppspill (tiim.no)",
         items: [
-          "Ta dybde i banen for bedre oversikt",
+          "Ta et par meter ekstra dybde i boksen for å få overblikk og tid",
           "Utnytt pressfri sone til å finne beste løsning",
           "Ball fra høyre = se etter rom til venstre",
           "Spill bak første pressledd når mulig",
@@ -40,6 +40,15 @@ const positions: Position[] = [
           "Plasser folk på stengene",
           "Kommuniser tydelig når forsvar er klart",
           "Box-spill: Avgjør når du skal gå ut på innlegg",
+        ],
+      },
+      {
+        phase: "Chelsea 4-2-3-1 forsvar (UEFA A)",
+        items: [
+          "Approach-mentalitet: gå ut og avbryt innlegg – aldri vent passivt",
+          "4-4-2 uten ball = kompakt lag: hold høy utgangsposisjon bak stopperne",
+          "Les press-signalet (Costa-cue) og støtt frontleddet med tydelig kommunikasjon",
+          "Forbered deg på motstanders mønster (FFK-funn): reager raskt på lave skudd mot kort hjørne",
         ],
       },
     ],
@@ -102,6 +111,24 @@ const positions: Position[] = [
           "Frispill IL rettvendt i rom 2",
         ],
       },
+      {
+        phase: "Back/IL/kant-trekant (UEFA A13/A16)",
+        items: [
+          "Frispill indreløper rettvendt i rom 2 før du overlapp",
+          "Triangelspill: én går, én sikrer – 3+2 må være på plass",
+          "Logg 6–8 maks-løp per omgang – møt ball med fart",
+          "Boksbidrag: fyll rom 1-3 + bakre 45° før hvert innlegg",
+        ],
+      },
+      {
+        phase: "Høy back i CL (UEFA A22)",
+        items: [
+          "Vend før gjennombrudd – gå når pressleddet er brutt",
+          "Back involvert i ≥40 % av målene mot etablert",
+          "Start løp før pasning – angrip korridor med tempo",
+          "Midtbane sikrer 3+2 bak deg – avklar restforsvar og returløp",
+        ],
+      },
     ],
   },
   {
@@ -143,6 +170,24 @@ const positions: Position[] = [
           "Håndter to spisser uten å kalle ned midtbane (4 mot 2)",
         ],
       },
+      {
+        phase: "Atletico 4-4-2 blokk (UEFA A23)",
+        items: [
+          "Sett presshøyde bakfra – flytt linja når frontleddet styrer",
+          "Kompakt 4-4-2: aksepter innlegg, dominer boks mot 50+ leveranser",
+          "3+2 restforsvar alltid klart når back går i press",
+          "Gjenpress vs kontring: avtal hvem støter og hvem sikrer",
+        ],
+      },
+      {
+        phase: "Chelsea boksforsvar (UEFA A24)",
+        items: [
+          "4-2-3-1 blir 4-4-2 uten ball – stoppere styrer dybde og avstand",
+          "Hold 10–12 m fra spiss til stopper for å lukke mellomrom",
+          "Stopper i sone, back + ving plukker menn; rop markering tidlig",
+          "Mål: stans ≥75 % av innlegg før avslutning, koordiner med keeper",
+        ],
+      },
     ],
   },
   {
@@ -178,6 +223,24 @@ const positions: Position[] = [
           "Orienter deg før mottak - hovmesterblikk",
           "Prioriter fremoverpasninger over sidelengs",
           "Definér sekundærpress: Hvem trykker, hvem sikrer?",
+        ],
+      },
+      {
+        phase: "Sentral midtbane – Euro 2012 (UEFA A06)",
+        items: [
+          "Pasningspresisjon ≥85 % totalt / ≥77 % fremover selv under press",
+          "Touch pr kamp: 60–80, og 20–30 pasninger inn i siste tredjedel",
+          "Fremoverpasninger ≥70 %, uansett stilling – sett tempoet",
+          "Sekundærpress innen 6 sek: avklar hvem trykker og hvem sikrer",
+        ],
+      },
+      {
+        phase: "Matchplan for 6-er (UEFA A06)",
+        items: [
+          "Definér kampklima: presshøyde, blokk og scoringsstatus",
+          "Triggerkort mot 4-4-2, 4-3-3 og 3-5-2 – hvil i riktig struktur",
+          "Scanning-rutine i oppvarming: orienter 360° før hver mottak",
+          "Mål KPI: touch, fremover%, gjenvinninger ≤6 sek pr omgang",
         ],
       },
     ],
@@ -264,6 +327,24 @@ const positions: Position[] = [
           "Innløp i boks: rom 1, 2, 3 + 45° må fylles",
         ],
       },
+      {
+        phase: "Sideback + IL (UEFA A13)",
+        items: [
+          "10+ rettvendte mottak per kamp – gjør deg spillbar i rom 2",
+          "Fyll boksen med minst fire løp (rom 1–3 + bakre 45°)",
+          "Overbelast kun når 3 bak + 2 sikring står klart",
+          "Planlegg rollepar: SB frigjør, IL sikrer/går – avtales før kamp",
+        ],
+      },
+      {
+        phase: "Indreløper i diamant (UEFA A14)",
+        items: [
+          "Orienter «to rom» (mellomrom + bakrom) før hvert mottak",
+          "Touch pr angrep: maks to før du spiller videre",
+          "Returløp innen 5 sek etter balltap – vær førsteforsvarer",
+          "Bakromsløp ≥4 per omgang og pressgjenvinninger ≥5 per kamp",
+        ],
+      },
     ],
   },
   {
@@ -323,6 +404,24 @@ const positions: Position[] = [
           "Sikt lavt ved avslutning",
         ],
       },
+      {
+        phase: "Vingerollen – KPI (UEFA A10)",
+        items: [
+          "Assist/innlegg under 1–3 m press på 1–4 sek og maks 3 touch",
+          "Minst fire innlegg per omgang mellom keeper og back",
+          "Logg 8–10 1v1-forsøk per kamp – avgjør tidlig",
+          "Boksroller: spiss 56 % / motsatt ving 31 % – koordiner løp",
+        ],
+      },
+      {
+        phase: "Ving-matchplan (UEFA A10)",
+        items: [
+          "Start bredt, tru bakrom før du tilbyr i fot",
+          "Planlegg pressavstand og rom du angriper (kampplan)",
+          "Gjenvinning: 5–6 sek tilbakesporing – ingen hvile",
+          "Dødball: bakre sone defensivt, cut-back/bakrom offensivt",
+        ],
+      },
     ],
   },
   {
@@ -378,6 +477,24 @@ const positions: Position[] = [
           "Fall-retur-boks mønster",
           "Bruk din spesialitet (fart/tyngde) - bygg mønster rundt",
           "Vær press-trigger for laget",
+        ],
+      },
+      {
+        phase: "RBK-spissrollen (UEFA A17)",
+        items: [
+          "Mål/assist: lever ≥1 pr kamp og jakt 15+ mål per sesong",
+          "10+ kombinasjoner med IL/kant og ≥5 press-signaler laget følger",
+          "Rom 1 → 2 → 3 + bakre 45° fylles hver gang ballen går inn",
+          "Gjenvinningsløp: full sprint innen 5 sek etter balltap",
+        ],
+      },
+      {
+        phase: "Notorisk målscorer (UEFA A21)",
+        items: [
+          "Mental rutine før kamp – visualiser, loggfør og bygg indre stemme",
+          "Egenaktivitet: ≥3 målrettede avslutningsøkter hver uke",
+          "Repetisjonstreff 10/10 per profil – detaljer avgjør",
+          "Evaluer press-øyeblikk etter kamp, elsk å avgjøre",
         ],
       },
     ],

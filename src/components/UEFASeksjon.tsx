@@ -2312,7 +2312,7 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Definer 'farlig vs ufarlig' sone – stopp kryss i farlig.</li>
+                                <li>• Definer &rsquo;farlig vs ufarlig&rsquo; sone – stopp kryss i farlig.</li>
                                 <li>• Sonestopper vs markering – tydelig ansvar.</li>
                                 <li>• Motsatt back/ving i boks – ikke la liten spiller alene.</li>
                                 <li>• Sluttfasetiltak – bytter, ro, ballbesittelse.</li>

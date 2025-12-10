@@ -7,6 +7,7 @@ import { TeamOrganization } from "@/components/TeamOrganization";
 import { UEFASeksjon } from "@/components/UEFASeksjon";
 import { FormasjonerSeksjon } from "@/components/FormasjonerSeksjon";
 import { ZonalDefense } from "@/components/ZonalDefense";
+import { LearningPath } from "@/components/LearningPath";
 import Link from "next/link";
 
 export default function KampPage() {
@@ -62,6 +63,7 @@ export default function KampPage() {
           </div>
           
           <MatchPrep />
+          <LearningPath />
           <ZonalDefense />
           <FormasjonerSeksjon />
           <UEFASeksjon />
