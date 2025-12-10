@@ -170,6 +170,62 @@ const positions: Position[] = [
       "Sikring: Når ving/back på din side presser, fall ned og inn for å sikre dem",
       "Relasjon: Lag trekanter med back og ving",
     ],
+    detailed: [
+      {
+        phase: "A1 - Bearbeiding (tiim.no)",
+        items: [
+          "Spillbar i mellomrom med oversikt",
+          "Være spillbar i små rom med «fra-mot» og «mot-fra» bevegelser",
+          "Holde ballen sentralt – unngå å gi bort «presseøyeblikk»",
+          "Ved ballerobring: Spill kontrollert førstepasning ut av press",
+        ],
+      },
+      {
+        phase: "A2 - Inn i prioriterte rom (tiim.no)",
+        items: [
+          "Være åpen og spillbar i mellomrom – eventuelt bakromstrussel",
+          "Oversikt over angrepsspiller før involvering",
+          "Hurtige pasninger eller føre ball i stor fart",
+          "Skape temposkifte i spillet når mulig",
+          "Løse små rom med 1v1, kombinasjoner og ballbehandling",
+        ],
+      },
+      {
+        phase: "A3 - Avslutning (tiim.no)",
+        items: [
+          "Initiativ forbi og rundt spillere i front – skape 2mot1",
+          "Søke boks ved innlegg – bevisst på «45 grader»",
+          "Jakte avslutningsmuligheter",
+          "Utfordre med ball – søke rom igjennom ledd før rundt",
+        ],
+      },
+      {
+        phase: "F1 - Press (tiim.no)",
+        items: [
+          "På jakt etter «presseøyeblikk» – styre spillere foran",
+          "Nekte motstander kontroll i vårt framrom",
+          "I press: Nekte 1A å vende opp eller vri",
+          "Forsvarsberedskap ved balltap",
+        ],
+      },
+      {
+        phase: "F2 - Hindre tilgang (tiim.no)",
+        items: [
+          "Stenge mellomrom sentralt",
+          "Press og avstander i ledd og mellom midtre og bakre ledd",
+          "Kontinuerlig justering av presshøyde ut ifra 1A klima",
+        ],
+      },
+      {
+        phase: "F3 - Hindre mål (tiim.no)",
+        items: [
+          "Lede ballfører ut og vekk fra mål",
+          "Følge bevegelser inn i boks",
+          "Klar for å skyve ut ved undertall i sidekorridor",
+          "Jakte andreballer",
+        ],
+      },
+    ],
   },
   {
     name: "Ving (Kant)",
