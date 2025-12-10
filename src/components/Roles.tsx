@@ -253,7 +253,7 @@ const positions: Position[] = [
 
 export const Roles = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showDetailed, setShowDetailed] = useState(false);
+  const [showDetailed, setShowDetailed] = useState(true);
 
   return (
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
