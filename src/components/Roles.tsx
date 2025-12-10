@@ -177,7 +177,6 @@ const positions: Position[] = [
           "85% treffprosent på pasninger (mot 68% andre roller)",
           "77% presisjon på fremoverpasninger",
           "54% av pasninger skal være fremover",
-          "60-80 balltouch per kamp",
           "Slå linjebrytende pasninger - bryt en linje!",
           "Definér sekundærpress: Hvem trykker, hvem sikrer?",
         ],
@@ -255,7 +254,6 @@ const positions: Position[] = [
           "Tre-trinns bevegelse: bredt → tru bakrom → dropp i mellomrom",
           "4-6 boksinnovasjoner per omgang",
           "Veggspill med vingback, tredjemann med spiss",
-          "3F-gjenvinning: ≥8 forsøk per kamp",
         ],
       },
       {
