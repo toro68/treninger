@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 
-export const ZonalDefense = () => {
-  const [isOpen, setIsOpen] = useState(false);
+export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) => {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
   const [activeTab, setActiveTab] = useState<"roller" | "leding" | "kollektiv" | "kompakt" | "fall" | "mellomrom" | "innlegg" | "press" | "unntak">("roller");
 
   return (

@@ -86,10 +86,6 @@ const focusItems: FocusItem[] = [
     text: "Takling: Blokktakling med fastlåst ankel og kroppsvekt. Glidende kun som siste utvei",
   },
   {
-    id: "soneforsvar",
-    text: "Soneforsvar: Kompakt/smalt, når én duellerer faller andre et hakk ned - steng sentralt rom",
-  },
-  {
     id: "leddavstand",
     text: "Leddavstand: Hold 10-15m mellom linjene. Hele linjen flytter seg mot ballen",
   },

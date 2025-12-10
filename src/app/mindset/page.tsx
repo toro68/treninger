@@ -43,6 +43,12 @@ export default async function MindsetPage() {
               Kamp
             </Link>
             <Link
+              href="/opplaering"
+              className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
+            >
+              Opplæring
+            </Link>
+            <Link
               href="/ordliste"
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >

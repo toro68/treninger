@@ -589,6 +589,10 @@ export const LearningPath = () => {
           )}
 
           {/* Pedagogical principle */}
+          <div className="rounded-lg border border-violet-200 bg-violet-50 p-3 text-xs text-violet-800 mt-4">
+            Kampdag? Åpne soneforsvar-tråden i opplæringsseksjonen for å friske opp prinsipper og roller.
+          </div>
+
           <div className="rounded-lg border border-sky-200 bg-sky-50 p-3 mt-4">
             <h4 className="text-xs font-semibold text-sky-800 mb-1">Pedagogisk prinsipp</h4>
             <p className="text-xs text-sky-700">
