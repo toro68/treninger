@@ -108,9 +108,10 @@ const positions: Position[] = [
       {
         phase: "F1 - Vinne ball høyt (tiim.no)",
         items: [
-          "Press motstanders back når ball vris til din side",
-          "Ta motstanders kant ved høyt press",
-          "Sideforskyv raskt ved vendinger",
+          "Kontinuerlig posisjonering for kontroll på rom foran og bak",
+          "På jakt etter «presseøyeblikk» – styre spillere foran",
+          "Stopper ballside: Vurder offsidelinje eller støte i mellomrom",
+          "Romprioritering hvis vi mister press på ballfører",
         ],
       },
       {
