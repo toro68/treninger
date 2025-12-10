@@ -92,6 +92,16 @@ const positions: Position[] = [
           "Konsentrere når ball er sentralt",
         ],
       },
+      {
+        phase: "Angrep høyt i banen (UEFA A)",
+        items: [
+          "Frigjøres høyt etter hurtig vending av spillet",
+          "Skap og utnytt rom på kant etter frispilling",
+          "Doble på kant med IL/ving - skape 2v1",
+          "6-8 maks-løp (repeterende sprint) per omgang",
+          "Samhandling med IL: Frispill IL rettvendt i rom 2",
+        ],
+      },
     ],
   },
   {
@@ -161,6 +171,17 @@ const positions: Position[] = [
           "Blokkere skuddforsøk fra distanse",
         ],
       },
+      {
+        phase: "Pasningskvalitet (UEFA A)",
+        items: [
+          "85% treffprosent på pasninger (mot 68% andre roller)",
+          "77% presisjon på fremoverpasninger",
+          "54% av pasninger skal være fremover",
+          "60-80 balltouch per kamp",
+          "Slå linjebrytende pasninger - bryt en linje!",
+          "Definér sekundærpress: Hvem trykker, hvem sikrer?",
+        ],
+      },
     ],
   },
   {
@@ -226,6 +247,26 @@ const positions: Position[] = [
           "Jakte andreballer",
         ],
       },
+      {
+        phase: "4-3-1-2 diamant (UEFA A)",
+        items: [
+          "Scanning før mottak - to støttevinkler for 6-er",
+          "1-2 touch policy i mellomrom",
+          "Tre-trinns bevegelse: bredt → tru bakrom → dropp i mellomrom",
+          "4-6 boksinnovasjoner per omgang",
+          "Veggspill med vingback, tredjemann med spiss",
+          "3F-gjenvinning: ≥8 forsøk per kamp",
+        ],
+      },
+      {
+        phase: "Relasjon SB/IL (UEFA A)",
+        items: [
+          "Rettvendt mottak i mellomrom: 10+ per kamp",
+          "Avstem med back: Én går, én sikrer (3+2)",
+          "«Knekkeløp» for å åpne pasningslinje",
+          "Minst 4 innløp i boks per angrep (rom 1-3 + 45°)",
+        ],
+      },
     ],
   },
   {
@@ -266,6 +307,25 @@ const positions: Position[] = [
           "Avslutt raskt - sikt på hjørnene",
         ],
       },
+      {
+        phase: "Pressrobusthet (UEFA A - VM 2014)",
+        items: [
+          "Jobber under konstant press (1-3m avstand)",
+          "Ta avgjørelser på 1-4 sekunder",
+          "Maks 1-3 touch før assist (60% av tilfellene)",
+          "Maks 4 touch før innlegg (76% av tilfellene)",
+          "91% av avgjørende pasninger fra siste tredjedel",
+        ],
+      },
+      {
+        phase: "Innlegg og scoring (UEFA A)",
+        items: [
+          "1-touch eller etter dribling i 56% av innlegg",
+          "Spiss scorer 56%, motsatt ving 31% på innlegg",
+          "Avslutning inne i 16m (82%), lavt skudd (64%)",
+          "Cut-back fra dødlinje - trén under høyt press",
+        ],
+      },
     ],
   },
   {
@@ -302,6 +362,26 @@ const positions: Position[] = [
           "Posisjoner deg i scoringssoner",
           "Avslutt raskt - før keeper setter seg",
           "Følg opp returer",
+        ],
+      },
+      {
+        phase: "RBK-spissrollen (UEFA A)",
+        items: [
+          "Mål per sesong: 15+ (målsetting)",
+          "Boksbevegelser: Rom 1, 2, 3 + 45° - fyll alle hver gang",
+          "Slipp i mellomrom: 10+ kombinasjoner per kamp",
+          "L-løp i boks: ut-stopp-inn",
+          "Øyekontakt med kant før innlegg",
+          "Gjenvinn etter blokk",
+        ],
+      },
+      {
+        phase: "Relasjoner (UEFA A)",
+        items: [
+          "1-2 med IL/kant minst 10 ganger per kamp",
+          "Fall-retur-boks mønster",
+          "Bruk din spesialitet (fart/tyngde) - bygg mønster rundt",
+          "Press-triggere: ≥5 per kamp",
         ],
       },
     ],
