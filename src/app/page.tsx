@@ -102,6 +102,20 @@ export default function Home() {
                   filterByPlayerCount={filterByPlayerCount}
                 />
                 <ExerciseList
+                  title="Aktivisering"
+                  category="aktivisering"
+                  theme={themeFilter === "alle" ? undefined : themeFilter}
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
+                />
+                <ExerciseList
+                  title="Rondo"
+                  category="rondo"
+                  theme={themeFilter === "alle" ? undefined : themeFilter}
+                  sourceFilter={sourceFilter}
+                  filterByPlayerCount={filterByPlayerCount}
+                />
+                <ExerciseList
                   title="Stasjoner"
                   category="station"
                   theme={themeFilter === "alle" ? undefined : themeFilter}
@@ -158,6 +172,20 @@ export default function Home() {
               <ExerciseList
                 title="Oppvarming"
                 category="warmup"
+                theme={themeFilter === "alle" ? undefined : themeFilter}
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
+              />
+              <ExerciseList
+                title="Aktivisering"
+                category="aktivisering"
+                theme={themeFilter === "alle" ? undefined : themeFilter}
+                sourceFilter={sourceFilter}
+                filterByPlayerCount={filterByPlayerCount}
+              />
+              <ExerciseList
+                title="Rondo"
+                category="rondo"
                 theme={themeFilter === "alle" ? undefined : themeFilter}
                 sourceFilter={sourceFilter}
                 filterByPlayerCount={filterByPlayerCount}
