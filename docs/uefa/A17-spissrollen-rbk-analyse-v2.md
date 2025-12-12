@@ -21,36 +21,34 @@
 
 ## 2. Sammendrag
 
-Selnæs intervjuet fem tidligere spisser og fem trenere fra Rosenborg (sent 80-tall → 2016) for å skissere hva som kjennetegner RBKs midtspiss i 4-3-3. Hovedfunn:
-- Rollen krever en miks av rå fysikk (rom 1/2), relasjonell forståelse (vegger, dyp/tilbake), og mental styrke («takle RBK-presset»).
-- De beste spissene (Sørloth, Rushfeldt, Carew, Prica, Søderlund) utnyttet egne styrker samtidig som de tilpasset seg RBKs prinsipper (L-løp, boksbemanning, prestasjon i Europa).
-- Trenere fremhever «spesialist» vs «arbeider»-spiss: RBK trenger målgaranti + relasjonskompetanse, ikke bare en generelt god spiller.
-- Rollen kan utvikles ved å være mer fleksibel (bruke spissens unike ferdigheter) men må fortsatt være forankret i RBK-DNA (angrip uansett).
+Selnæs intervjuet fem tidligere spisser og fem trenere fra Rosenborg (sent 80-tall → 2016) for å skissere hva som kjennetegner RBKs midtspiss i 4-3-3. Hovedfunn (kildetro mot råtekst):
+- Trenerne beskriver spissrollen med relativt samstemte nøkkelord: «oppspillspunkt», «god feilvendt», «god i lufta og i boksen», «målskårer» og «fysisk sterk».
+- Alle trenerne (uten unntak) legger stor vekt på klokskap/spillforståelse som del av rolledefinisjonen.
+- Defensivt beskrives rollen som en pressrolle: spissen skal kunne stenge sentralt og lede motstanderens spill over til en side, med kollektiv innstilling og vilje til å jobbe for laget.
+- Rollen kan til en viss grad tilpasses individet, men trenerne er tydelige på at enkelte spesifikke kvaliteter «MÅ» være på plass.
 
 ---
 
-## 3. Nøkkeltall og KPI-er (kvalitativ)
+## 3. Kjennetegn (kvalitativt, fra råtekst)
 
-| KPI | Referanse |
-|-----|-----------|
-| Mål per sesong | 15+ (målsetting brukt av trenere) |
-| Boksbevegelser | Rom 1 (første), rom 2, rom 3 + 45° oppfylles hver gang |
-| Slipp i mellomrom | Minst 10 kombinasjoner per kamp (1-2 med kant/IL) |
-| Press og returløp | RBK-spiss skal trigge press (1F) – 90 % av press-situasjonene |
+- **Rollekrav (trenerintervju / oppsummering):** God feilvendt, oppspillspunkt, god spilleforståelse/klokskap, god i lufta og i boksen, målskårer, fysisk sterk.
+- **Defensivt (trenerintervju / oppsummering):** God presspiller som kan stenge sentralt og lede spillet mot én side, med kollektiv arbeidsinnstilling.
+- **Rolle vs. type:** Trenerne beskriver tydelig hvilke spisstyper som ikke passer (f.eks. «små og hurtige spisser» som primært jager bakrom), samtidig som de åpner for små variasjoner innenfor en etablert mal.
 
 ---
 
 ## 4. Prinsipper og konsepter
 
-### 4.1 Hovedkriterier for RBK-spiss
-1. **Lag som referanse**: 4-3-3 identitet (brede vinger, IL-løp). Spissen må binde stoppere og være «fyrtårn» i rom 2.
-2. **Fysiske spisskompetanser**: Fart → bakrom, tyngde → holde opp, styrke i luft.
-3. **Relasjonell forståelse**: Lære veggspill med IL/kant, time 1-touch på tvers.
-4. **Mental robusthet**: Tåle forventningspress (RBK har «må score i Champions League» som mantra).
+### 4.1 Hva trenerne vektlegger
+- **Klokskap/spillforståelse:** Løftes frem som sentralt i definisjonen av rollen.
+- **Feilvendt/oppspillspunkt:** Spissen skal kunne brukes feilvendt og fungere som tydelig oppspillspunkt.
+- **Målskårer + boksferdigheter:** Evne til å score og å være «god i lufta og i boksen» trekkes frem.
+- **Fysikk:** Beskrives som en prioritet i utvalg og rolleprofil.
 
 ### 4.2 Intervju-funn
-- **Spillere**: De beste var gode på «sitt» (Sørloth; kraft, Carew; fart, Prica; timing). Defensivt press + boks forpliktelse.
-- **Trenere**: Spiss må kunne «bevege laget» – tilpasse seg vinger (Helland, Gamst). RBK ser etter helhet (andel av mål + «drittarbeid»).
+- **Trenere:** Definisjonene er samstemte (oppspillspunkt/feilvendt/boks/luft/mål/fysikk), og den defensive delen beskrives som å stenge sentralt og lede spillet til én side.
+- **Rolleutvikling:** Det beskrives endringer over tid (mindre mellomrom, mer strekkende og mer bakromstruende i nyere tid), men kjernekravene består.
+- **Treningsarbeid:** Flere trenere beskriver mye arbeid med oppspillsvarianter, relasjonstrening og rolle-spesifikke bevegelser/valg (inkl. bevegelse i boks ved innlegg).
 
 ---
 
@@ -63,21 +61,20 @@ Selnæs intervjuet fem tidligere spisser og fem trenere fra Rosenborg (sent 80-t
 | **Kode** | UEFA-A17-01 |
 | **Kategori** | Avslutning/boks |
 | **Spillere** | 6–8 |
-| **Bane** | 20 x 30 m (fem-meterbue + 45°) |
-| **Format** | Sekvens: kant → innlegg, IL → cut-back |
+| **Bane** | (Forslag) |
+| **Format** | Sekvens/repetering av leveranser til boks |
 | **Varighet** | 15 min |
 
-**Organisering:** Spiss + to kanter + IL. Angrep ruller: kant høyre, IL, kant venstre.
+**Organisering (øktidé):** Spiss + kant/IL som leverer baller til boks. Målet er å repetere spissens bevegelser og rolleavklaringer ved innlegg.
 
-**Regler:**
-1. Høyre kant: lavt innlegg – spiss i rom 1.
-2. IL: cut-back – spiss i rom 2.
-3. Venstre kant: høyt bakre – spiss i rom 3.
+**Gjennomføring (forslag):**
+1. Varier type innlegg/leveranse.
+2. Avklar på forhånd hva spissens rolle er i boks (foran/midt/bakre) og hvordan han justerer seg etter ballfører.
 
 **Coaching points:**
-- L-løp i boks (ut-stopp-inn).
-- Øyekontakt med kant.
-- Gjenvinn etter blokk.
+- Avklar roller før innlegg (hvem angriper hvor).
+- Timing og justering etter ballfører/innleggstype.
+- Reaksjon etter blokk/retur (kollektiv innsats).
 
 ---
 
@@ -88,13 +85,12 @@ Selnæs intervjuet fem tidligere spisser og fem trenere fra Rosenborg (sent 80-t
 | **Kode** | UEFA-A17-02 |
 | **Kategori** | Kombinasjoner |
 | **Spillere** | 9–10 |
-| **Bane** | 30 x 35 m |
+| **Bane** | (Forslag) |
 | **Format** | IL + kant + spiss vs 4 forsvarere |
 | **Varighet** | 12 minutter |
 
-**Regler:**
-- Score kun etter kombinasjon (1-2 eller dyp → vegg).
-- Bonus for mål på ett touch.
+**Regler (forslag):**
+- Legg inn prioritering av relasjonelle handlinger som oppgaven etterspør (møte/strekke, veggspill, dyp/tilbake), uten å låse det til tallfestede krav.
 
 **Coaching points:**
 - Spiss: fall-retur-boks.
@@ -103,45 +99,24 @@ Selnæs intervjuet fem tidligere spisser og fem trenere fra Rosenborg (sent 80-t
 
 ---
 
-## 6. MatchPrep-fokus
-```javascript
-{
-  id: "a17-boks",
-  text: "Spiss: rom 1–3 + 45° – du fyller alle"
-},
-{
-  id: "a17-press",
-  text: "Førsteforsvarer: etabler press-signaler (vink løp)"
-},
-{
-  id: "a17-kombinasjon",
-  text: "1-2 med IL/kant minst 10 ganger"
-},
-{
-  id: "a17-unik",
-  text: "Bruk spissens spesialitet (fart? tyngde?) – bygg mønster rundt"
-}
-```
+## 6. MatchPrep-fokus (kildetro)
+
+- Avklar avtaler for spissens rolle i etablerte situasjoner (møte/strekke som oppspillspunkt).
+- Avklar relasjoner med indreløper/kant (vegger, dyp/tilbake og timing).
+- Avklar bevegelse og roller i boks ved innlegg.
+- Som førsteforsvarer: steng sentralt og led spillet mot én side (tydelige signaler for laget).
 
 ---
 
-## 7. Evaluering
+## 7. Evaluering (kildetro)
 
-| Indikator | Mål |
-|-----------|-----|
-| Mål/assist | ≥1 pr kamp |
-| Veggspill/avansering | ≥10 |
-| Press-triggere | ≥5 |
-| Innleggsmål | ≥1 pr kamp |
+- Bruk vurderingsskjemaet i oppgaven (1–6) for å kartlegge hvilke ferdigheter som faktisk er viktige i rollen (og hvor godt spissen oppfyller dem).
+- Evaluer tydelighet i avtaler/arbeidsoppgaver (spørsmålene i oppgaven om møte/strekke, innlegg, press m.m.).
 
 ---
 
 ## 8. CoachingTips
-- **Cue:** «Rom 1→2→3 – ikke bli stående.»
-- **Cue:** «Førsteforsvarer: du bestemmer.»
-- **Cue:** «Framover! – ett touch.»
-- **Ikke:** «Ikke stå med ryggen og vent – inviter til løp.»
-
----
-
-*(Foreslått – trenger tallfesting og referanser fra intervjuer for KPIer, men grunnstruktur klar.)*
+- **Cue:** «Vær et tydelig oppspillspunkt feilvendt.»
+- **Cue:** «Steng sentralt – led spillet til én side.»
+- **Cue:** «Les ballfører og avklar rolle i boks før innlegg.»
+- **Ikke:** «Ikke jag bakrom uten rolle/relasjon.»

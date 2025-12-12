@@ -13,7 +13,7 @@ import type { Exercise } from "./exercises";
 export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a02-01",
-    exerciseNumber: 303,
+    exerciseNumber: 519,
     name: "Tredjespiller i mellomrom",
     category: "station",
     duration: 12,
@@ -37,7 +37,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-a02-02",
-    exerciseNumber: 304,
+    exerciseNumber: 549,
     name: "3-spillersekvens til scoring",
     category: "game",
     duration: 16,
@@ -61,7 +61,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-a03-01",
-    exerciseNumber: 305,
+    exerciseNumber: 520,
     name: "Lavt i hjørnet-stasjoner",
     category: "station",
     duration: 16,
@@ -70,10 +70,10 @@ export const uefaExercises: Exercise[] = [
     theme: "avslutning",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "Fire avslutningsstasjoner: curl lavt i hjørne, første-touch finish i sone 1c, bakre stolpe-løp, kontrollert skudd. Rotasjon hvert 4. minutt.",
+      "Fire avslutningsstasjoner: curl lavt i hjørne, første-touch finish i sentral scoringssone (sone 1cv/1ch), bakre stolpe-løp, kontrollert skudd. Rotasjon hvert 4. minutt.",
     coachingPoints: [
       "Første touch forbereder skuddet",
-      "Se keeper før avslutning",
+      "Avvent keeperens handling når du kan",
       "Fokus på lavt hjørne",
     ],
     variations: [
@@ -85,8 +85,8 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-a03-02",
-    exerciseNumber: 306,
-    name: "6-sekunders scoring",
+    exerciseNumber: 550,
+    name: "Kontrollert avslutning i omstilling",
     category: "game",
     duration: 16,
     playersMin: 12,
@@ -94,18 +94,66 @@ export const uefaExercises: Exercise[] = [
     theme: "kontring",
     equipment: ["mål", "kjegler"],
     description:
-      "Gk+5v5+Gk. Ved omstilling må laget avslutte innen 6 sek og fra definert scoringssone. Bonus for lavt hjørne.",
+      "Gk+5v5+Gk. Ved omstilling skal laget søke avslutning i sentral scoringssone (sone 1cv/1ch). Bonus for lavt hjørne og curl/plassering.",
     coachingPoints: [
-      "Første touch framover",
-      "Plassering fremfor kraft",
-      "Fyll sone 1c med spiss/kant",
+      "Skaff tid før avslutning via medtak/bevegelse",
+      "Plassering/curl fremfor kraft når du har kontroll",
+      "Fyll scoringssonen med flere løp (1. og 2. bevegelse)",
     ],
     variations: [
       "Legg til forsvarer",
-      "Krav om 1-touch avslutning",
+      "Bonuspoeng for avslutning lavt i hjørnet",
     ],
     source: "uefa",
     sourceRef: "A03 Tom Selmer – Sekundene som avgjør",
+  },
+  {
+    id: "uefa-a04-01",
+    exerciseNumber: 521,
+    name: "Ett-touch maurtue",
+    category: "rondo",
+    duration: 12,
+    playersMin: 12,
+    playersMax: 16,
+    theme: "pasning",
+    equipment: ["kjegler", "baller"],
+    description:
+      "Rondo i flere koblede ruter (\"maurtue\") med vekt på rytme: ett-touch for å bryte/akselerere og to-touch for kontroll.",
+    coachingPoints: [
+      "Kroppsposisjon før mottak",
+      "Skann før pasning",
+      "Bytt rytme på trenercue",
+    ],
+    variations: [
+      "Flere forsvarere (mer press)",
+      "Krav om ett-touch gjennom porter",
+    ],
+    source: "uefa",
+    sourceRef: "A04 Finn Bredo Olsen – Høyt tempo eller god kontroll?",
+  },
+  {
+    id: "uefa-a04-02",
+    exerciseNumber: 522,
+    name: "Tempo-switch 8v8",
+    category: "game",
+    duration: 20,
+    playersMin: 16,
+    playersMax: 16,
+    theme: "spill",
+    equipment: ["mål", "kjegler", "baller"],
+    description:
+      "Gk+7v7+Gk der trener styrer rytme i spill: perioder med ett-touch (akselerasjon) og perioder med 2–3 touch (kontroll).",
+    coachingPoints: [
+      "Gjenkjenn når vi skal gire opp",
+      "Støttevinkler tett på ball",
+      "Ro med ball når vi skal kontrollere",
+    ],
+    variations: [
+      "Scoring i tempo-fase gir ekstra poeng",
+      "Begrens touch i gitte soner",
+    ],
+    source: "uefa",
+    sourceRef: "A04 Finn Bredo Olsen – Høyt tempo eller god kontroll?",
   },
   {
     id: "uefa-a05-01",
@@ -118,7 +166,7 @@ export const uefaExercises: Exercise[] = [
     theme: "utvikling",
     equipment: ["kjegler", "småmål"],
     description:
-      "Fire stasjoner (teknikk, koordinasjon, pasning, skudd) inspirert av Basmas ROS-oppvekst. Foreldre eller medspillere rullerer – fokus på trygghet og lek.",
+      "Stasjonsbasert øktidé (teknikk, koordinasjon, pasning, skudd) inspirert av Basmas beskrivelser av tidlig miljø/lek og støtte rundt aktiviteten. Kan organiseres med voksne/medspillere som hjelpere – fokus på trygghet og lek.",
     coachingPoints: [
       "Lek og nysgjerrighet",
       "Fang opp mestring",
@@ -131,7 +179,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-a05-02",
-    exerciseNumber: 308,
+    exerciseNumber: 551,
     name: "Steg 4 konkurranse",
     category: "game",
     duration: 20,
@@ -140,20 +188,132 @@ export const uefaExercises: Exercise[] = [
     theme: "spill",
     equipment: ["mål", "kjegler"],
     description:
-      "8v8 på 60 x 45 m med 'profesjonelle' krav – etterligner Basmas KIL/Stabæk-steg. Høy intensitet og mentalt fokus på riktige valg.",
+      "Spillform med høy intensitet og tydelige roller (f.eks. 8v8), inspirert av Basmas beskrivelser av overgangen til mer krevende miljø og betydningen av valg/ansvar. Tilpass rammer og krav til spillergruppe.",
     coachingPoints: [
       "Lederskap",
       "Kvalitet i valg",
     ],
     variations: [
-      "Må evalueres etter kampplan",
-      "Gi spillerne spesifikke utviklingsoppdrag"],
+      "Valgfritt: avslutt med kort refleksjon på valg/ansvar",
+      "Valgfritt: gi spillerne spesifikke utviklingsoppdrag"],
     source: "uefa",
     sourceRef: "A05 Christer Basma – Mine suksesskriterier",
   },
+
+  // ══════════════════════════════════════════════════════════
+  // A07: Hvordan bli en god målscorer (Sigurd Rushfeldt)
+  // ══════════════════════════════════════════════════════════
+  {
+    id: "uefa-a07-01",
+    exerciseNumber: 523,
+    name: "Rush-korridor",
+    category: "station",
+    duration: 12,
+    playersMin: 8,
+    playersMax: 12,
+    theme: "avslutning",
+    equipment: ["kjegler", "baller", "mål"],
+    description:
+      "To korridorer med server(e) og spiss: spiss orienterer, tar 1–2 touch og avslutter fort. Bytt korridor etter hver avslutning. Fokus på bevegelse før ball, første touch mot mål og etterarbeid på returer.",
+    coachingPoints: [
+      "Orienter før mottak",
+      "Første touch mot mål",
+      "Avslutt tidlig (1–2 touch)",
+      "Jakt returer",
+    ],
+    variations: [
+      "Bonuspoeng for scoring på første touch",
+      "Legg inn passiv → aktiv forsvarer som kommer sent i press",
+      "Varier servering: innlegg på bakken / luft / cutback",
+    ],
+    source: "uefa",
+    sourceRef: "A07 Sigurd Rushfeldt – Hvordan bli en god målscorer",
+  },
+  {
+    id: "uefa-a07-02",
+    exerciseNumber: 524,
+    name: "3-soners målspill 5v5",
+    category: "game",
+    duration: 16,
+    playersMin: 12,
+    playersMax: 14,
+    theme: "avslutning",
+    equipment: ["mål", "kjegler", "baller"],
+    description:
+      "Gk+5v5+Gk på bane delt i tre soner. Angrep må spille via mellomromssone før avslutning, og scoring teller kun hvis spiss(er) er innenfor 16-meteren. Fokus på bevegelse før ball, orientering og 1–2 touch i boks.",
+    coachingPoints: [
+      "Bevegelse før ball – skaff deg fordel før pasningen",
+      "Orientering og åpen kropp",
+      "Avslutt fort i boks (1–2 touch)",
+      "Kant fyller motsatt stolpe",
+    ],
+    variations: [
+      "Bytt roller (spiss/kant) etter mål",
+      "Gi ekstra poeng for returmål",
+      "Krav om at siste pasning må være gjennomspill eller innlegg",
+    ],
+    source: "uefa",
+    sourceRef: "A07 Sigurd Rushfeldt – Hvordan bli en god målscorer",
+  },
+
+  // ══════════════════════════════════════════════════════════
+  // A08: Høy playmaker (Gard Holme)
+  // ══════════════════════════════════════════════════════════
+  {
+    id: "uefa-a08-01",
+    exerciseNumber: 525,
+    name: "Fase 1-posisjonering i mellomrom",
+    category: "station",
+    duration: 12,
+    playersMin: 9,
+    playersMax: 9,
+    theme: "angrep",
+    equipment: ["kjegler", "baller"],
+    description:
+      "3 servere, 3 playmakere og 3 forsvarere i mellomromssoner (25x20m). Playmaker starter i skygge, beveger seg ut, mottar og spiller gjennom port. Fokus: posisjonering midt i rommet, kroppsvinkel og orientering før mottak.",
+    coachingPoints: [
+      "Orienter før mottak (skann over skulder)",
+      "Motta med åpen kropp (rett-/sidevendt når mulig)",
+      "Juster deg midt i rommet før du ber om ball",
+      "Kvalitet på sistepasning gjennom port",
+    ],
+    variations: [
+      "Forsvarer passiv → aktiv",
+      "Krav om 1-touch videre når rommet er åpent",
+      "Legg til medløper (tredjemann) for timing",
+    ],
+    source: "uefa",
+    sourceRef: "A08 Gard Holme – Kompetansekrav i rolle: høy playmaker",
+  },
+  {
+    id: "uefa-a08-02",
+    exerciseNumber: 526,
+    name: "Fase 2–3 kombinasjonsspill 7v7",
+    category: "game",
+    duration: 20,
+    playersMin: 16,
+    playersMax: 16,
+    theme: "angrep",
+    equipment: ["mål", "kjegler", "baller"],
+    description:
+      "Gk+7v7+Gk (50x40m) i 1-3-3-1. Fokus på playmaker i mellomrom: komme på ball (fase 1), hurtig håndtering i fase 2 og avgjørende pasning i fase 3. Enkle regler kan styre at playmaker er involvert før avslutning.",
+    coachingPoints: [
+      "Playmaker: orienter før mottak og spill på neste signal",
+      "Hurtig håndtering under press (kort tid på ball)",
+      "Timing i avgjørende pasning mot løp",
+      "Spiss/kant: koordiner løp med playmaker",
+    ],
+    variations: [
+      "Touch-begrensning for playmaker i mellomrom",
+      "Bonuspoeng for gjennomspill/bakromspasning",
+      "Marker mellomromssone (kun playmaker i sonen)",
+    ],
+    source: "uefa",
+    sourceRef: "A08 Gard Holme – Kompetansekrav i rolle: høy playmaker",
+  },
   {
     id: "uefa-a01-01",
-    exerciseNumber: 301,
+    exerciseNumber: 548,
     name: "3-5-2 press og gjenvinning",
     category: "game",
     duration: 16,
@@ -177,7 +337,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-a01-02",
-    exerciseNumber: 302,
+    exerciseNumber: 518,
     name: "Vingback → tidlig innlegg + gjenvinning",
     category: "station",
     duration: 20,
@@ -205,7 +365,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-01",
-    exerciseNumber: 1,
+    exerciseNumber: 505,
     name: "1v1 på kant med soner",
     category: "station",
     duration: 12,
@@ -232,7 +392,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-02",
-    exerciseNumber: 2,
+    exerciseNumber: 512,
     name: "Innlegg og avslutning",
     category: "station",
     duration: 15,
@@ -259,7 +419,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-03",
-    exerciseNumber: 3,
+    exerciseNumber: 515,
     name: "Bakromsløp med timing",
     category: "station",
     duration: 10,
@@ -286,7 +446,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-04",
-    exerciseNumber: 4,
+    exerciseNumber: 517,
     name: "Overlapp og innlegg",
     category: "station",
     duration: 12,
@@ -313,7 +473,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-05",
-    exerciseNumber: 5,
+    exerciseNumber: 544,
     name: "Kantspill 4v3",
     category: "game",
     duration: 15,
@@ -340,7 +500,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-06",
-    exerciseNumber: 6,
+    exerciseNumber: 546,
     name: "Kantspill 7v7",
     category: "game",
     duration: 20,
@@ -367,7 +527,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a10-07",
-    exerciseNumber: 7,
+    exerciseNumber: 547,
     name: "Kamplik 9v9",
     category: "game",
     duration: 25,
@@ -398,8 +558,8 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a12-01",
-    exerciseNumber: 1,
-    name: "Prioriterte rom – 7v7",
+    exerciseNumber: 532,
+    name: "Direkte vs. etablert angrep – 7v7",
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -407,17 +567,17 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["kjegler", "baller", "stormål"],
     description:
-      "Gk+6v6+Gk på 60x40m. Tre soner markert: framrom (foran 16m), mellomrom (midten), bakrom (bak forsvarslinje). Mål fra ulike soner gir ulike poeng: bakrom=3, mellomrom=2, framrom=1. Fokus på å prioritere bakrom først.",
+      "Gk+6v6+Gk på 60x40m. Spill vanlig, men loggfør to ting på scoringer/sjanser: (1) antall pasninger i angrepet og (2) cirka tid fra ballvinning/start til avslutning. Bruk dette til å diskutere når direkte angrep (få trekk) er hensiktsmessig og når laget bør etablere mer kontroll.",
     coachingPoints: [
-      "Bakrom først! Strekk linja før du tilbyr til fot",
-      "Mellomrom: søk rommet mellom linjer sentralt",
-      "Spiss faller, indreløper løper – timing",
-      "Les motstanderens linje – finn hullet",
+      "Tell trekk og tid på målangrep – gjør det konkret",
+      "Diskuter direkte (få trekk) vs. lengre etablerte angrep",
+      "Se etter mønster: mange mål kommer innen få pasninger, men også etter lengre angrep",
+      "Knytt valg til hvor bruddet skjer i banen (høyt/lavt)",
     ],
     variations: [
-      "Kun mål fra bakrom i første del",
-      "Legg til tidsbegrensning per angrep",
-      "Obligatorisk tredjemann-kombinasjon før mål",
+      "Gi bonuspoeng for mål etter maks 4 pasninger (som læringsramme, ikke fasit)",
+      "Gi bonuspoeng for mål etter lengre etablert angrep (for å trene begge uttrykk)",
+      "Bytt på startbetingelse: angrep etter ballvinning vs. etablert oppbygging",
     ],
     source: "uefa",
     sourceRef: "A12 Anders Fredriksen – Angrepsspill",
@@ -425,8 +585,8 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a12-02",
-    exerciseNumber: 2,
-    name: "Tredjeløp-sekvens",
+    exerciseNumber: 513,
+    name: "4 pasninger / 10+ sek – scenarier",
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -434,17 +594,17 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["kjegler", "baller", "stormål"],
     description:
-      "Sekvensøvelse: A spiller til B, B til C (vegg), C løper i bakrom. Fokus på at tredjemann (C) starter løpet idet pasning 2 spilles – ikke før. Avslutning på mål. Roter posisjoner.",
+      "Stasjonsøvelse med to tydelige scenarier som trener begge uttrykk i angrep: (A) avslutt innen maks 4 pasninger, (B) bygg et angrep som varer 10+ sekunder før avslutning. Bruk enkel coaching og roter roller/posisjoner.",
     coachingPoints: [
-      "Tredjemann: løp NÅR pasningen går, ikke FØR",
-      "Veggspiller: ett touch, åpen kropp",
-      "Igangsetter: løft hodet, se løpet",
-      "Tempo i pasningene – ikke stopp ballen",
+      "Gjør det målbart: tell pasninger og tid",
+      "Snakk om når direkte angrep er riktig valg",
+      "Snakk om når laget bør etablere og beholde kontroll",
+      "Knytt refleksjon til hva som skjer etter ballvinning",
     ],
     variations: [
-      "Legg til forsvarer som følger tredjemann",
-      "Variér retning: høyre/venstre kant",
-      "Kombiner med innlegg i stedet for avslutning",
+      "Legg til passiv forsvarer i scenario A (for beslutning/tempo)",
+      "Legg til tidskrav i scenario B (minimum 10 sek før avslutning)",
+      "Bytt sluttprodukt: avslutning etter innlegg vs. avslutning sentralt",
     ],
     source: "uefa",
     sourceRef: "A12 Anders Fredriksen – Angrepsspill",
@@ -456,7 +616,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a13-01",
-    exerciseNumber: 1,
+    exerciseNumber: 506,
     name: "3v3 + keeper – SB/IL",
     category: "station",
     duration: 12,
@@ -465,15 +625,16 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "3v3 + to keepere på 30x33 m. Fokuserer på sidebackens 1v1 leding/gjenvinning og indreløperens rettvendte mottak. Første pasning må være framover, scoring innen 6 sek etter gjenvinning gir bonus.",
+      "3v3 + keeper(e) på 30x33 m. Vekt på 1–1 ferdighet offensivt og defensivt, omstillingshurtighet, frekvens (quickness), medtak/ta av press og avslutningsferdighet.",
     coachingPoints: [
-      "Orientering før mottak – ta av press på første touch",
-      "Sideback: led ut, bestem tidlig om du støtter",
-      "Reaksjon <1 sek ved balltap",
+      "1–1 ferdighet offensivt og defensivt",
+      "Omstillingshurtighet og frekvens (quickness)",
+      "Medtak/ta av press og avslutningsferdighet",
     ],
     variations: [
-      "Legg til joker som indreløper",
-      "Touch-begrensning (maks 2) for IL",
+      "2v2 + keeper(e) (juster areal)",
+      "4v4 + keeper(e) (juster areal)",
+      "Bruk offsideregel ved behov for flere 1–1 situasjoner",
     ],
     source: "uefa",
     sourceRef: "A13 Arnstein Røen – Sideback/Indreløper",
@@ -481,7 +642,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a13-02",
-    exerciseNumber: 2,
+    exerciseNumber: 534,
     name: "7v7+kantsoner",
     category: "game",
     duration: 20,
@@ -490,15 +651,16 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "Gk+7v7 på 50x66,5 m med kantsoner. 3-3-1 struktur med jokere på kant. Vekt på SB/IL kombinasjoner, kantens skjæring og 3+2-balanse før overlapp.",
+      "7v7 + keeper(e) på 50x66,5 m i 3-3-1 med innleggssoner og kantspillere (sonespillere). Vekt på relasjoner SB–IL, innløp i boks og vurderinger i omstilling.",
     coachingPoints: [
-      "Sideback/indreløper: en går, en sikrer (3+2)",
-      "Kant: skjær inn når IL får ball",
-      "Lag: vurder kontring vs etablert hurtig",
+      "Offensivt: utnytte overtall og komme med innløp i boks",
+      "Vurder klima: kontring, overtall eller undertall",
+      "Defensivt: rask omstilling – vurder gjenvinne eller reorganisere",
     ],
     variations: [
-      "Tillat joker å avslutte selv",
-      "Varier presshøyde for forsvarende lag",
+      "Sonespiller kan ta med ball inn i banen",
+      "Motsatt sonespiller skjærer ved innlegg",
+      "Offsideregel også for sonespillerne",
     ],
     source: "uefa",
     sourceRef: "A13 Arnstein Røen – Sideback/Indreløper",
@@ -510,7 +672,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a14-01",
-    exerciseNumber: 1,
+    exerciseNumber: 482,
     name: "Diamant-possession",
     category: "rondo",
     duration: 12,
@@ -519,15 +681,15 @@ export const uefaExercises: Exercise[] = [
     theme: "possession",
     equipment: ["kjegler", "baller"],
     description:
-      "4v4+3 jokere i 25x25 rute. Diamantmidtbane med regista og to indreløpere som jokere. 1-touch policy for jokere, scoring etter 10 pasninger og rombytte.",
+      "4v4+3 jokere i rute. Bruk jokerne som en diamant (dyp sentral + to indreløpere) for å trene støtte, vinkler og rolleforståelse i 4-3-1-2. Vekt på å skape bredde i mellomrommet på ballside og å reagere raskt ved balltap.",
     coachingPoints: [
-      "Scanning før mottak",
-      "1–2 touch i mellomrom",
-      "Gi regista to støttevinkler",
+      "Angrep: skap bredde i mellomrommet på ballside (i tospann med back/ytterrom)",
+      "Tilby støtte og vinkler – bygg relasjonelle «firkanter» rundt ballfører",
+      "Balltap: umiddelbar reaksjon – løp de første sekundene",
     ],
     variations: [
-      "Legg til press-trigger (ekstra spiller på press)",
-      "Touch-begrensning for presslag",
+      "Juster banestørrelse for ønsket intensitet",
+      "Bytt hvilke roller som er jokere",
     ],
     source: "uefa",
     sourceRef: "A14 Magnus Oltedal – Indreløper",
@@ -535,7 +697,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a14-02",
-    exerciseNumber: 2,
+    exerciseNumber: 535,
     name: "Diamant gjennombrudd",
     category: "game",
     duration: 20,
@@ -544,15 +706,15 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "8 angripere (4-3-1-2 med vingbacker) mot 6 forsvarere + keepere på 40x55m. Første gjennombrudd må involvere indreløper og vingback, og minst fire løp i boks.",
+      "Spillform med et angrepslag i 4-3-1-2 mot et kompakt forsvar på mellomstor bane. Bruk økta til å trene indreløperens rolle i relasjon med back/yttersone (skape bredde i mellomrommet), og til å øve på skyv/press innenfra og ut når ballen går ut til motstanderback.",
     coachingPoints: [
-      "Two-move pattern for indreløper",
-      "Regista: finn diagonale pasninger",
-      "3F-gjenvinning innen 5 sek",
+      "Angrep: IL på sterk side skaper bredde i mellomrommet (i tospann med back)",
+      "Forsvar: skyv innenfra og ut mot back og steng pasningsalternativer innover",
+      "Balltap: «klikkmentalitet» – alle løper de første sekundene",
     ],
     variations: [
-      "Vingback må slå innlegg på første touch",
-      "Forsvar kan kontra for å teste 3+2",
+      "Start spillet fra ulike utgangsposisjoner (stopper/back) for å trigge ønsket pressretning",
+      "Bytt forsvarsformasjon for å teste rom og korridorer",
     ],
     source: "uefa",
     sourceRef: "A14 Magnus Oltedal – Indreløper",
@@ -564,8 +726,8 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a15-01",
-    exerciseNumber: 1,
-    name: "Innleggssoner A-C",
+    exerciseNumber: 507,
+    name: "Innleggssoner (A–F)",
     category: "station",
     duration: 16,
     playersMin: 10,
@@ -573,15 +735,15 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "6v4+Gk på 40x50 m med markerte innleggssoner A-F. Angrep må slå innlegg fra A-C for å telle. Bonus for direkte scoring (innlegger + målscorer) og gjenvinningsmål innen 5 sek.",
+      "6v4+Gk på 40x50 m med markerte innleggssoner (A–F). Bruk spillformen til å skape mange innleggs-situasjoner, og til å registrere hvor innlegget slås fra og hva som skjer etterpå (avslutning, scoring, klarering, ny fase).",
     coachingPoints: [
-      "Jobb ballen inn i A/B – ikke slå fra 25 m",
-      "Minst tre i boks + bakre 45°",
-      "Blokkert innlegg = umiddelbar gjenvinning",
+      "Sonebevissthet: Hvor slår vi innlegg fra (A–F)?",
+      "Kategoriser: Direkte scoring (innlegger + målscorer) vs flere involverte",
+      "Kategoriser: Kom situasjonen i etablert angrep eller etter overgang/gjenvinning?",
     ],
     variations: [
-      "Tillat dype innlegg kun ved overtall",
-      "Tidsbegrensning fra sone til innlegg",
+      "Bytt hvilke soner som er markert/aktive, og se hvordan det påvirker antall avslutninger",
+      "La trener rope ut sonekode før innlegg for å øve på felles språk i analyse",
     ],
     source: "uefa",
     sourceRef: "A15 Gard Kristiansen – Innlegg",
@@ -589,7 +751,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a15-02",
-    exerciseNumber: 2,
+    exerciseNumber: 536,
     name: "Direkte vs gjenvinning",
     category: "game",
     duration: 20,
@@ -598,15 +760,15 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "7v7+Gk på halvbane. Mål gir ulik score: direkte innlegg-mål = 2 poeng, gjenvinningsmål innen 5 sek = 2, øvrige innleggsmål = 1. Fokus på roller (innlegger, boks, gjenvinner).",
+      "7v7+Gk på halvbane. Spill med tydelig fokus på innleggs-situasjoner, og bruk korte stopp/oppstart til å klassifisere scoringer og sjanser: direkte (innlegger + målscorer), etter gjenvinning i forkant, og i etablert angrep vs overgang.",
     coachingPoints: [
-      "Hurtig vurdering: etablert vs overgang",
-      "Gjenvinning: 2 nærmeste presser, 3. sikrer",
-      "Boksbemanning: rom 1–3 + bakre",
+      "Hurtig vurdering: etablert angrep vs overgang",
+      "Direkte vs ikke-direkte: hvilke valg og bevegelser utløser det?",
+      "Etter gjenvinning: hva gjorde vi i forkant av innlegget?",
     ],
     variations: [
       "Varier presshøyde på forsvar",
-      "Sett mål for innleggs-effektivitet (1 mål per 20 innlegg)",
+      "Start annenhver ball fra innleggsposisjon for å øke repetisjoner",
     ],
     source: "uefa",
     sourceRef: "A15 Gard Kristiansen – Innlegg",
@@ -618,7 +780,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a16-01",
-    exerciseNumber: 1,
+    exerciseNumber: 508,
     name: "RBK-kombinasjoner",
     category: "station",
     duration: 15,
@@ -627,15 +789,15 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "IL-kant-spiss kombinasjon 3v2+Gk på 35x25 m med bakrom. Fokus på L-løp for kant, 1-touch kombinasjon, spiss i rom 1/2, samt backdoor-løp for motsatt IL.",
+      "Kombinasjonsøvelse med IL–kant–spiss mot to forsvarere + keeper, inspirert av Ferstads beskrivelse av RBKs angrepsmønstre og rollefordeling ved innlegg. Fokus på å skape gjennombrudd på kant og levere innlegg inn i «slottet».",
     coachingPoints: [
       "Indreløper: frys–se–slå",
       "Kant: L-løp (ut–inn)",
-      "Spiss: Rom 1→2",
+      "Avklar roller i boks ved innlegg (1. stolpe / bakre stolpe)",
     ],
     variations: [
       "Legg til motsatt IL for bakre 45°",
-      "Touch-begrensning for IL",
+      "Valgfritt: touch-begrensning for IL",
     ],
     source: "uefa",
     sourceRef: "A16 Jørgen Ferstad – Rosenborg angrep",
@@ -643,7 +805,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a16-02",
-    exerciseNumber: 2,
+    exerciseNumber: 537,
     name: "RBK fase-spill",
     category: "game",
     duration: 24,
@@ -652,10 +814,9 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "10v10+Gk (4-3-3 mot 4-4-2) på 2/3 bane. Trener styrer faser (etablert, kontring, overgang). Bonus for scoring etter definert mønster (kombinasjon, gullsonen, 6 sek kontring).",
+      "Spilløvelse der trener bevisst setter i gang angrep i ulike faser (etablert angrep, dødball, kontring), inspirert av Ferstads faseinndeling og funn. Valgfritt kan dere gi poeng for scoring etter innlegg inn i «slottet» eller etter kombinasjonsspill.",
     coachingPoints: [
-      "Boksbemanning rom 1-3",
-      "6 sek kontring",
+      "Rollefordeling i boks ved innlegg (1. stolpe / bakre stolpe)",
       "Kant/back relasjoner",
     ],
     variations: [
@@ -672,7 +833,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a17-01",
-    exerciseNumber: 1,
+    exerciseNumber: 509,
     name: "RBK-spiss boksbevegelser",
     category: "station",
     duration: 15,
@@ -681,11 +842,11 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "Sekvensøvelse med to kanter og indreløper som leverer tre typer innlegg (lavt første stolpe, cut-back, bakre). Spissen trener på L-løp og rom 1-3 + bakre 45°. Gjenvinningspress etter blokkert innlegg.",
+      "Øktidé: sekvensøvelse der kant/indreløper leverer baller inn i boks, og spissen trener på rolleavklaringer, timing og bevegelse ved innlegg. Legg inn reaksjon etter blokk/retur og kollektiv innsats.",
     coachingPoints: [
-      "L-løp: ut-stopp-inn",
-      "Øyekontakt med kant",
-      "Gjenvinn etter blokk",
+      "Avklar spissens rolle ved innlegg",
+      "Timing og justering etter ballfører",
+      "Reaksjon etter blokk/retur",
     ],
     variations: [
       "Legg til midtstopper som press",
@@ -697,7 +858,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a17-02",
-    exerciseNumber: 2,
+    exerciseNumber: 538,
     name: "Spissrelasjoner 5v4",
     category: "game",
     duration: 12,
@@ -706,7 +867,7 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "IL + kant + midtspiss angriper mot 4 forsvarere. Mål teller kun etter kombinasjon (1-2, dyp-vegger). Bonus for mål på ett touch og for spiss som tar førsteforsvar ved balltap.",
+      "Spillform der IL + kant + midtspiss angriper mot 4 forsvarere. Prioriter relasjonelle handlinger (møte/strekke, veggspill, dyp/tilbake) og tydelig førsteforsvarer-rolle ved balltap.",
     coachingPoints: [
       "Spiss: fall-retur-boks",
       "IL: blikk før ball",
@@ -726,7 +887,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a18-01",
-    exerciseNumber: 1,
+    exerciseNumber: 533,
     name: "Gullsoner – spillvending",
     category: "game",
     duration: 18,
@@ -751,7 +912,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a18-02",
-    exerciseNumber: 2,
+    exerciseNumber: 539,
     name: "Gjenvinning lav blokk",
     category: "game",
     duration: 15,
@@ -780,7 +941,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a19-01",
-    exerciseNumber: 1,
+    exerciseNumber: 483,
     name: "KFUM nærrom-possession",
     category: "rondo",
     duration: 16,
@@ -805,7 +966,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a19-02",
-    exerciseNumber: 2,
+    exerciseNumber: 540,
     name: "Spill mot lav blokk 8v8",
     category: "game",
     duration: 18,
@@ -834,7 +995,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a20-01",
-    exerciseNumber: 1,
+    exerciseNumber: 510,
     name: "Ett-touch finishing carousel",
     category: "station",
     duration: 20,
@@ -859,7 +1020,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a20-02",
-    exerciseNumber: 2,
+    exerciseNumber: 541,
     name: "3-involveringsangrep 7v7",
     category: "game",
     duration: 18,
@@ -888,7 +1049,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a21-01",
-    exerciseNumber: 1,
+    exerciseNumber: 511,
     name: "Perfeksjonisme-runden",
     category: "station",
     duration: 15,
@@ -913,7 +1074,7 @@ export const uefaExercises: Exercise[] = [
 
   {
     id: "uefa-a21-02",
-    exerciseNumber: 2,
+    exerciseNumber: 514,
     name: "Visualiseringsscenario",
     category: "station",
     duration: 10,
@@ -937,12 +1098,12 @@ export const uefaExercises: Exercise[] = [
   },
 
   // ══════════════════════════════════════════════════════════
-  // A22: RBK i angrep (Svein Maalen)
+  // A11: RBK i angrep (Svein Maalen)
   // ══════════════════════════════════════════════════════════
 
   {
-    id: "uefa-a22-01",
-    exerciseNumber: 1,
+    id: "uefa-a11-01",
+    exerciseNumber: 484,
     name: "Differansejakt 4v4+3",
     category: "rondo",
     duration: 18,
@@ -962,12 +1123,12 @@ export const uefaExercises: Exercise[] = [
       "Endre touchbegrensning for nøytrale",
     ],
     source: "uefa",
-    sourceRef: "A22 Svein Maalen – RBK i angrep",
+    sourceRef: "A11 Svein Maalen – RBK i angrep",
   },
 
   {
-    id: "uefa-a22-02",
-    exerciseNumber: 2,
+    id: "uefa-a11-02",
+    exerciseNumber: 542,
     name: "Kontring til balanse 6v4",
     category: "game",
     duration: 20,
@@ -976,7 +1137,7 @@ export const uefaExercises: Exercise[] = [
     theme: "overgang",
     equipment: ["mål", "baller", "tidsklokke"],
     description:
-      "50x40 m i tre soner. Lag starter hos keeper, skal finne kontringsrom innen seks sekunder og avslutte. Etter avslutning må laget falle og sikre «def i off»-soner. Fokus på første pasning fram og restforsvar.",
+      "50x40 m i tre soner. Lag starter hos keeper, skal søke kontringsrom raskt og avslutte. Etter avslutning må laget falle og sikre balanse («def i off»-soner). Fokus på første pasning fram og restforsvar.",
     coachingPoints: [
       "Første pasning fram/diagonal",
       "Kommunikasjon stoppere–sentral midt",
@@ -984,15 +1145,15 @@ export const uefaExercises: Exercise[] = [
     ],
     variations: [
       "Legg til nøytral støtte",
-      "Endre tidskrav til 5 sek",
+      "Valgfritt: innfør tidsfrist for avslutning",
     ],
     source: "uefa",
-    sourceRef: "A22 Svein Maalen – RBK i angrep",
+    sourceRef: "A11 Svein Maalen – RBK i angrep",
   },
 
   {
-    id: "uefa-a22-03",
-    exerciseNumber: 3,
+    id: "uefa-a11-03",
+    exerciseNumber: 516,
     name: "Dødballpakke RBK",
     category: "station",
     duration: 24,
@@ -1012,12 +1173,12 @@ export const uefaExercises: Exercise[] = [
       "Legg inn motkontring for forsvar",
     ],
     source: "uefa",
-    sourceRef: "A22 Svein Maalen – RBK i angrep",
+    sourceRef: "A11 Svein Maalen – RBK i angrep",
   },
 
   {
-    id: "uefa-a22-04",
-    exerciseNumber: 4,
+    id: "uefa-a11-04",
+    exerciseNumber: 543,
     name: "Gjennombruddstriangel 8v6",
     category: "game",
     duration: 18,
@@ -1026,23 +1187,23 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "mannequins"],
     description:
-      "60x45 m med tre korridorer. Angripende 4-2-3-1 møter 6 forsvarere i 4-4-2. Back + kant + indreløper må involveres før innlegg. Tre trekk i mellomrom før gjennombrudd tvinger timing.",
+      "60x45 m med tre korridorer. Angripende 4-2-3-1 møter 6 forsvarere i 4-4-2. Oppmuntre til samspill i korridor (back + kant + indreløper) før innlegg/gjennombrudd. Fokus på timing og tempo i ballflytting.",
     coachingPoints: [
       "Tredjemannsbevegelse i korridor",
       "Sentral midt skanner restforsvar",
       "Tempo i ballflytting før gjennombrudd",
     ],
     variations: [
-      "Fjern tre-trekk-regel for enklere versjon",
+      "Valgfritt: krav om involvering i korridor før innlegg",
       "To-touch-begrensning i siste tredel",
     ],
     source: "uefa",
-    sourceRef: "A22 Svein Maalen – RBK i angrep",
+    sourceRef: "A11 Svein Maalen – RBK i angrep",
   },
 
   {
-    id: "uefa-a22-05",
-    exerciseNumber: 5,
+    id: "uefa-a11-05",
+    exerciseNumber: 545,
     name: "Press-reset 7v7+Gk",
     category: "game",
     duration: 22,
@@ -1051,18 +1212,18 @@ export const uefaExercises: Exercise[] = [
     theme: "overgang",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "55x40 m kamp med restforsvarssoner. Etter hver avslutning får laget tre sekunder til å etablere 5-0-2 restforsvar før motstander kan kontre. Pressfelle trigges kun på signal fra spiss.",
+      "55x40 m kamp med restforsvarssoner. Etter hver avslutning må laget raskt etablere restforsvar før motstander kan kontre. Pressfelle/trigger kan avtales (f.eks. signal fra spiss) for å trene samhandling i førsteforsvar.",
     coachingPoints: [
       "Kommunikasjon stopper–sentral midt",
       "Stramme linjeavstander før press",
       "Kjenn når du skal falle vs. presse",
     ],
     variations: [
-      "Gi fem sekunder restforsvarstid (enklere)",
+      "Gi mer tid til restforsvar (enklere)",
       "Legg til ekstra joker for kontring (hardere)",
     ],
     source: "uefa",
-    sourceRef: "A22 Svein Maalen – RBK i angrep",
+    sourceRef: "A11 Svein Maalen – RBK i angrep",
   },
 
   // ══════════════════════════════════════════════════════════
@@ -1095,7 +1256,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-b01-01",
-    exerciseNumber: 310,
+    exerciseNumber: 552,
     name: "Overgangsspill med pyramide-fokus",
     category: "game",
     duration: 20,
@@ -1119,7 +1280,7 @@ export const uefaExercises: Exercise[] = [
   },
   {
     id: "uefa-b01-02",
-    exerciseNumber: 311,
+    exerciseNumber: 553,
     name: "Presshøyde og brudd",
     category: "game",
     duration: 20,

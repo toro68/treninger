@@ -117,7 +117,7 @@ const positions: Position[] = [
           "Frispill indreløper rettvendt i rom 2 før du overlapp",
           "Triangelspill: én går, én sikrer – 3+2 må være på plass",
           "Logg 6–8 maks-løp per omgang – møt ball med fart",
-          "Boksbidrag: fyll rom 1-3 + bakre 45° før hvert innlegg",
+          "Boksbidrag: fyll boksen med løp (foran/midt/bakre) ved innlegg",
         ],
       },
       {
@@ -324,14 +324,14 @@ const positions: Position[] = [
           "Søk rettvendt mottak i mellomrom",
           "Avstem med back: Én går, én sikrer (3+2)",
           "«Knekkeløp» for å åpne pasningslinje",
-          "Innløp i boks: rom 1, 2, 3 + 45° må fylles",
+          "Innløp i boks: fyll boksen med løp ved innlegg",
         ],
       },
       {
         phase: "Sideback + IL (UEFA A13)",
         items: [
           "10+ rettvendte mottak per kamp – gjør deg spillbar i rom 2",
-          "Fyll boksen med minst fire løp (rom 1–3 + bakre 45°)",
+          "Fyll boksen med minst fire løp (foran/midt/bakre)",
           "Overbelast kun når 3 bak + 2 sikring står klart",
           "Planlegg rollepar: SB frigjør, IL sikrer/går – avtales før kamp",
         ],
@@ -482,10 +482,10 @@ const positions: Position[] = [
       {
         phase: "RBK-spissrollen (UEFA A17)",
         items: [
-          "Mål/assist: lever ≥1 pr kamp og jakt 15+ mål per sesong",
-          "10+ kombinasjoner med IL/kant og ≥5 press-signaler laget følger",
-          "Rom 1 → 2 → 3 + bakre 45° fylles hver gang ballen går inn",
-          "Gjenvinningsløp: full sprint innen 5 sek etter balltap",
+          "Rollekrav: klokskap/spillforståelse + kunne brukes feilvendt som oppspillspunkt",
+          "Boks/luft: vær god i boksen og i lufta + ha målskårer-egenskaper",
+          "Relasjoner: avklar møte/strekke og kombinasjoner med IL/kant",
+          "Førsteforsvarer: steng sentralt og led spillet mot én side",
         ],
       },
       {

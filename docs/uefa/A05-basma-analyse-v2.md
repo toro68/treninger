@@ -23,16 +23,13 @@
 
 Basma beskriver sin vei fra knøtt til RBK og destillerer syv suksesskriterier: talentgrunnlag, vilje til å ta konsekvenser, treningsvillighet, klubber/trenere som tror på deg, trygt utviklingsmiljø, egne valg og fokus på livet etter fotballen. Han knytter hvert steg (ROS, Bærum, KIL/Stabæk, RBK) til konkrete valg og personer. Oppgaven gir en normativ modell for norsk spillerutvikling, med klare krav til spiller, foreldre og klubber.
 
+Merk: Oppgaven er i stor grad refleksjons- og erfaringsbasert. Der råteksten ikke tallfester eller spesifiserer konkrete format/krav, bør vi unngå å presentere det som kildefakta.
+
 ---
 
 ## 3. Nøkkeltall og KPI-er
 
-| KPI | Referanseverdi | Kilde |
-|-----|----------------|-------|
-| Årlige treningstimer (Basma 10–16 år) | 400–600 timer | Kap. 1.2–1.3 |
-| Antall klubber/trenere som «tror på spilleren» | ≥1 pr steg | Kap. 2.4 |
-| Valg av klubb steg 3–5 | Riktig miljø vs feil valg (beskrives kval.) | Kap. 1.4–1.7 |
-| Etter-fotball-plan | Utdanning/økonomi på plass innen steg 5 | Kap. 2.7 |
+Råteksten er i hovedsak kvalitativ (prinsipper, valg, miljøfaktorer) og tallfester ikke KPI-er på en entydig måte. For A05 bruker vi derfor «læringsmomenter» (suksesskriteriene) som primær output.
 
 ---
 
@@ -64,8 +61,7 @@ Basma beskriver sin vei fra knøtt til RBK og destillerer syv suksesskriterier: 
 | **Kode** | UEFA-A05-01 |
 | **Kategori** | Warmup/lek |
 | **Spillere** | 12–20 |
-| **Bane** | 20 x 20 m |
-| **Format** | Stationslek + ferdighetsløype |
+| **Format** | Stationslek + ferdighetsløype (forslag/oversettelse) |
 | **Utstyr** | Kjegler, småmål |
 | **Varighet** | 20 min |
 | **Intensitet** | Medium |
@@ -83,79 +79,36 @@ Basma beskriver sin vei fra knøtt til RBK og destillerer syv suksesskriterier: 
 | **Kode** | UEFA-A05-02 |
 | **Kategori** | Game |
 | **Spillere** | 16 |
-| **Bane** | 60 x 45 m |
-| **Format** | 8v8 |
+| **Format** | Spillform (f.eks. 8v8) (forslag/oversettelse) |
 | **Utstyr** | Mål, kjegler |
 | **Varighet** | 20 min |
 | **Intensitet** | Høy |
 
 **Organisering:**
-- 8v8 med «profesjonelle krav»: topp intensitet, taktiske roller.
 
-**Regler:**
-1. Coach markert på kvalitet, ikke bare resultat.
-2. Bonus for spillere som tar lederskap.
+- Spillform med høy intensitet og tydelige roller, inspirert av Basmas beskrivelser av overgangen til toppfotballmiljø.
 
 **Coaching points:**
 - Tilpass krav til steg (KIL/Stabæk).
 
 ---
 
-## 6. Corner/dødball
-
-Ikke hovedfokus, men Basma beskriver betydning av spesialtrening i RBK – sett opp modul for individuell dødballtrening.
-
----
-
-## 7. Kampplanintegrasjon (MatchPrep)
-```javascript
-{
-  id: "a05-forberedelser",
-  text: "Definer steg for spillerutvikling før kamp (hvem får ansvar?)",
-},
-{
-  id: "a05-miljø",
-  text: "Sørg for trygg arena (spillere vet sine roller)",
-},
-{
-  id: "a05-etterfotball",
-  text: "Minne spillere på skole/utdanning",
-}
-```
-
-### Rollebeskrivelser
-- **Spiller**: prosessorientert, tar ansvar for egen utvikling.
-- **Trener**: skaper tro, følger opp individuelt.
-
----
-
-## 8. Evaluering
-| Indikator | Mål |
-|-----------|-----|
-| Spiller har personlig plan (ROS → topp) | 100 % |
-| Treningsmengde loggføres | 100 % |
-| Klubben har mentor/trener som «tror» på hver spiller | 100 % |
-
----
-
-## 9. Coaching Tips / Trenerveiledning
+## 6. Coaching Tips / Trenerveiledning
 - **Cue:** «Ta ansvar for valgene dine»
 - **Cue:** «Trening + skole + sosialt»
 - **Ikke:** La tilfeldigheter styre.
 
 ---
 
-## 10. Implementering
+## 7. Implementering
 | Komponent | Status |
 |-----------|--------|
 | Øvelser | UEFA-A05-01/02 |
-| MatchPrep | 3 fokus |
-| Roles | Spiller/Trener |
 | CoachingTips | Suksesskriterier |
 
 ---
 
-## 11. Referanser
+## 8. Referanser
 - Original oppgave: `docs/uefa/A05-christer-basma-suksesskriterier.txt`
 
 ---
