@@ -21,7 +21,7 @@
 
 ## 2. Sammendrag
 
-Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en rød tråd mellom fotballtilbudet på Orkdal vgs og klubbøktene. Filosofien er Eggen-inspirert 4-3-3 med lokalt forankrede spillere, der rollelæring alltid skjer i spill-mot-spill og tolkes gjennom fire dimensjoner (individuell, relasjonell, strukturell, kamp). Sidebacker skal ha 1v1-defensiv spisskompetanse, hurtige gjentatte løp og relasjonelle verktøy for å frispille IL/kant, mens indreløpere må lese rom, orientere før mottak, kombinere i mellomrom og ta løpskraft i både gjenvinning og boks. Skoleøktene brukes til å repetere teknikk, possesion og basisegenskaper, mens klubbtreninger gir strukturelle referanser (11v11, rollekrav, kampplan). Intervjuene viser at spillere som får begge arenaer opplever større rolleforståelse, tydeligere «3+2»-balansekrav og tettere feedback-loop mellom trener og spiller.
+Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en rød tråd mellom fotballtilbudet på Orkdal vgs og klubbøktene. Filosofien er Eggen-inspirert 4-3-3 med lokalt forankrede spillere, der rollelæring alltid skjer i spill-mot-spill og tolkes gjennom fire dimensjoner (individuell, relasjonell, strukturell, kamp). Sidebacker skal ha 1v1-defensiv kompetanse, evne til å gjenta hurtige løp og relasjonelle verktøy for å frispille IL/kant, mens indreløpere skal identifisere rom og ta av press på første touch. Angrepsspillet beskrives i faser og vektlegger samtidige bevegelser som truer ulike rom, inkludert minst 4 innløp i boks ved etablert angrep.
 
 ---
 
@@ -29,11 +29,11 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
-| Sideback: 1v1 defensiv suksess | ≥70 % stopp i sone 2 (trenermål) | Kap. 4.4 + intervjuer |
-| Sideback: Repeterende sprint | 6–8 maks-løp pr. omgang | Kap. 4.4 |
-| Indreløper: Rettvendt mottak i mellomrom | 10+ pr. kamp (kombinasjon IL/SB) | Kap. 4.3/4.4 |
-| Indreløper: Løp inn i boks | Minst 4 innløp per angrep (rom 1–3 + 45°) | Kap. 4.3 |
-| Struktur: 3+2-sikring før overbelastning | 100 % når laget fyller boks | Kap. 4.4 og intervjuer |
+| Innløp i boks (etablert angrep) | Minst 4 innløp (rom 1–3 + 45°) | Kap. 4.4 |
+| Overlapp timing | «Aldri» seine overlapper (siste 20m) | Kap. 4.4 |
+| Sideback: repeterende sprint | Gjenta hurtige løp på kort tid | Kap. 4.4 |
+| Sideback: 1–1 / 1–2 defensivt | Handlingsvalg og utførelse i duell/2v2 | Kap. 4.4 |
+| Indreløper: romforståelse + første touch | Identifisere rom + ta av press | Kap. 4.4 |
 
 ---
 
@@ -42,7 +42,7 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 ### 4.1 Hovedprinsipper
 - **Spill mot spill**: Rolleforståelse bygges alltid gjennom spillscenarier (3v3+K → 11v11) med tydelige læringsmomenter.
 - **4 dimensjoner**: Individuell teknikk/tempo, relasjonelle trigger (SB-IL-kant), strukturell formasjon (3-3-3) og kampoverføring.
-- **Lokalt eierskap**: 3+2-balanse, sidespisser, og Eggen-postulatet «aldri sein overlap» går igjen fra junior til A-lag.
+- **Lokalt eierskap**: sidespisser og Eggen-postulatet «aldri sein overlap» går igjen fra junior til A-lag.
 - **Skole + klubb**: Mandat fordelt – skolen fokuserer på possesion/basis/1v1, klubben tuner struktur og kampplan.
 
 ### 4.2 Fasemodell (angrep)
@@ -73,21 +73,16 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 
 **Organisering:** To lag á tre spillere + keeper i hvert mål. Banen er smal for å fremtvinge hurtig 1v1/2v2.
 
-**Regler/Constraints:**
-1. Første pasning skal alltid være framover (oppbyggings-triggere).
-2. Score innen 6 sek etter gjenvinning = 2 poeng (gjenvinningspress).
-3. Sideback-rolle: minst ett overlapp-/underlap-forsøk pr angrep.
-
-**Poeng/Mål:** Vanlig mål = 1 poeng; mål etter 1-touch avslutning = 2.
-
-**Coaching points:**
-- IL: orientering før mottak, ta av press på første touch.
-- SB: 1v1 defensivt (led ut) + gjenkjenne når du støtter offensivt.
-- Omstilling: reaksjon <1 sek, bestem deg for gjenvinne eller falle.
+**Læringsmoment:**
+- 1–1 ferdighet (offensivt og defensivt)
+- Omstillingshurtighet
+- Frekvens (quickness)
+- Medtak, ta av press
+- Avslutningsferdighet
 
 **Progresjon:**
-- Legg til joker som IL.
-- Touch-begrensning for IL (maks 2 touch).
+- 2v2 + keeper(e) / 4v4 + keeper(e) (juster areal)
+- Bruk offsideregel ved behov for flere 1–1 situasjoner
 
 ---
 
@@ -111,14 +106,15 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 2. Motsatt joker må skjære inn ved innlegg (rom 2/3).
 3. Offside gjelder i kantsoner for å trene timing.
 
-**Poeng/Mål:**
-- Mål etter kombinasjon SB→IL→kant = 2 poeng.
-- Gjenvinningsmål innen 5 sek = ekstra poeng.
+**Offensivt fokus på:**
+- Utnytte overtall
+- Innløp i boks
+- Vurdere klima: kontring, overtall, undertall
 
-**Coaching points:**
-- SB/IL: avstem når en går, en sikrer (3+2 logic).
-- IL: identifiser rom, bruk «knekkeløp» for å åpne pasningslinje.
-- Lag: rask vurdering av klima (kontring/overtall/undertall).
+**Defensivt fokus på:**
+- Rask omstilling
+- Vurdere gjenvinne eller reorganisere (hvilke rom er farligst?)
+- Etablere oss i 3 ledd
 
 **Progresjon:**
 - Tillat joker å avslutte selv for å straffe passivitet.
@@ -129,18 +125,18 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 ## 6. CornerOrganization / Dødball
 
 ### 6.1 Oppsett
-- **Offensivt:** Indreløper fyller rom 2, sideback står sikring/45°. Kantsoner brukes til skjæring og blokkering.
-- **Defensivt:** Sideback er 2F i sone på stolpe, indreløper markerer skjermløper og starter kontrarolle.
+- **Offensivt:** Eksempelrollefordeling: indreløper fyller rom 2, sideback står sikring/45°.
+- **Defensivt:** Eksempelrollefordeling: sideback i sone på stolpe, indreløper markerer skjermløper og starter kontrarolle.
 
 ### 6.2 KPI-er for dødball
 | Situasjon | Mål | Kilde |
 |-----------|-----|-------|
 | Offensiv corner – rom 2-løp fra IL | 1 kvalifisert sjanse pr kamp | Klubbanalyse |
-| Defensiv corner – klarering på første touch | ≥70 % | Treningsmål |
+| Defensiv corner – klarering på første touch | Loggfør kvalitet på klarering | Treningsmål |
 
 ### 6.3 Øvelser/sekvenser
 - 8v8 dødballspill: SB må starte ute i 45°-rom før han får løpe inn; IL må enten gå rom 2 eller 45°.
-- Constraints: scoring teller kun hvis fire spillere er inne i boksen (SB/IL inkludert).
+- Constraints: hold fokus på rollefordeling og timing i boksen.
 
 ---
 
@@ -154,19 +150,19 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 },
 {
   id: "a13-il-kombinasjon",
-  text: "Indreløper: tru to rom (sentralt/utvendig) hver gang du mottar" 
+  text: "Indreløper: identifiser rom og ta av press på første touch" 
 },
 {
   id: "a13-3pluss2",
-  text: "Overbelastning først når vi har 3 bak + 2 sikring"
+  text: "Etablerte angrep: minst 4 innløp i boks (rom 1–3 + 45°)"
 },
 {
   id: "a13-gjenvinning",
-  text: "SB/IL: reaksjon <1 sek ved balltap – led inn, IL støter"
+  text: "Omstilling: vurder gjenvinne eller reorganisere – hvilke rom er farligst?"
 },
 {
   id: "a13-skolerolle",
-  text: "Overfør skoleøkter: possesion-prinsipp inn i kamp (puls & presisjon)"
+  text: "Overfør skoleøkter (basis/possession) til klubbøkter og kamp"
 }
 ```
 
@@ -175,8 +171,8 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 - Se hvor mye rom de gir mellom stopper og back – bestem ILs inngang.
 
 ### 7.3 Rollebeskrivelse (Roles)
-- **Sideback:** 1v1 leding, frispill IL, vurder tidlig overlap (aldri sen), gjenvinning i sone 2.
-- **Indreløper:** Orientering før mottak, «to rom»-trussel, 4 innløp i boks, 3+2 ansvar.
+- **Sideback:** 1v1 leding, frispill IL rettvendt, vurder tidlig overlap (unngå sein).
+- **Indreløper:** Orientering før mottak, identifisere rom, 4 innløp i boks ved etablert angrep.
 
 ---
 
@@ -184,17 +180,15 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 
 ### 8.1 Kvalitative spørsmål
 - Var det tydelig rød tråd mellom skoleøvelser og kamp (possesion → struktur)?
-- Oppfylte vi 3+2-balanse før vi fylte boks?
 - Kan SB/IL forklare hvorfor de valgte bestemte rom?
 
 ### 8.2 Kvantitative mål
 | Indikator | Mål | Oppnådd |
 |-----------|-----|---------|
-| SB → IL rettvendt pasning | ≥12 | |
-| IL innløp i boks | ≥8 | |
-| SB 1v1-stopp | ≥70 % | |
-| Gjenvinningsforsøk <5 sek | ≥10 | |
-| 3+2-brudd | 0 | |
+| SB → IL rettvendt pasning | Loggfør antall og kvalitet | |
+| IL innløp i boks | Loggfør antall i etablerte angrep | |
+| SB 1v1-stopp | Loggfør dueller og utfall | |
+| Gjenvinningsforsøk | Loggfør forsøk/valg (gjenvinne vs reorganisere) | |
 
 ### 8.3 Logging per hendelse
 | # | Type | Sone | Detalj |
@@ -207,8 +201,7 @@ Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en
 ## 9. Coaching Tips / Trenerveiledning
 
 - **Cue:** «Sideback: frispill først – overlapp kun når vi har kontroll.»
-- **Cue:** «Indreløper: to rom hver gang – tru sentralt og utvendig.»
-- **Cue:** «3+2 før vi fyller boks.»
+- **Cue:** «Indreløper: identifiser rom – ta av press på første touch.»
 - **Ikke:** «Ikke send begge SB + IL samtidig uten sikring.»
 
 ### 9.1 Trenerveiledning

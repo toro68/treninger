@@ -17,7 +17,8 @@ const exerciseFiles = [
   'dugger-exercises.ts',
   'rondo-exercises.ts',
   'smallsided-exercises.ts',
-  'tiim-converted.ts'
+  'tiim-converted.ts',
+  'uefa-exercises.ts'
 ];
 
 // Les alle filene inn i minnet
@@ -99,11 +100,16 @@ for (const change of changes) {
   for (const [fileName, content] of Object.entries(fileContents)) {
     const lines = content.split('\n');
     
-    // Find the line with this specific id
+    // Find the line with this specific id (supports both TS object style and JSON-ish style)
     let idLineIndex = -1;
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
-      if (line.includes(`id: "${change.id}"`) || line.includes(`id: '${change.id}'`)) {
+      if (
+        line.includes(`id: "${change.id}"`) ||
+        line.includes(`id: '${change.id}'`) ||
+        line.includes(`"id": "${change.id}"`) ||
+        line.includes(`"id": '${change.id}'`)
+      ) {
         idLineIndex = i;
         break;
       }
@@ -114,9 +120,11 @@ for (const change of changes) {
     // Look for exerciseNumber within 10 lines before or after the id line
     for (let j = Math.max(0, idLineIndex - 10); j <= Math.min(lines.length - 1, idLineIndex + 10); j++) {
       const line = lines[j];
-      const match = line.match(/^(\s*)exerciseNumber:\s*(\d+),?\s*$/);
-      if (match && parseInt(match[2]) === change.oldNumber) {
-        lines[j] = `${match[1]}exerciseNumber: ${change.newNumber},`;
+      const match = line.match(/^(\s*)(exerciseNumber|"exerciseNumber"):\s*(\d+),?\s*$/);
+      if (match && parseInt(match[3]) === change.oldNumber) {
+        const indent = match[1];
+        const key = match[2];
+        lines[j] = `${indent}${key}: ${change.newNumber},`;
         fileContents[fileName] = lines.join('\n');
         found = true;
         changesApplied++;

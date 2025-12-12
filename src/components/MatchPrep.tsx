@@ -50,7 +50,7 @@ const focusItems: FocusItem[] = [
   },
   {
     id: "prioriterterom",
-    text: "Prioriterte rom: Bakrom, mellomrom sentralt, framrom sentralt",
+    text: "Romforståelse: Bakrom og mellomrom sentralt",
   },
   {
     id: "avslutning",
@@ -176,7 +176,7 @@ const focusItems: FocusItem[] = [
   },
   {
     id: "nff-romforhold",
-    text: "Romforhold (NFF): Prioriterte rom i rekkefølge: Bakrom → Mellomrom sentralt → Framrom sentralt",
+    text: "Romforhold (NFF): Snakk om bakrom (bak siste ledd) og mellomrom (mellom ledd)",
   },
   {
     id: "nff-beggeveier",

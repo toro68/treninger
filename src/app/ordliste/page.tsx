@@ -231,9 +231,9 @@ const glossaryData: Category[] = [
         example: "Sentral midtbane går på 'tokt' for å ødelegge motstanderens oppbygging."
       },
       {
-        term: "Romforhold (Bakrom/Mellomrom/Framrom)",
-        definition: "NFFs inndeling av banen: Bakrom (bak forsvar), Mellomrom (mellom ledd), Framrom (foran motstanderens forsvar). Prioritering: Bakrom → Mellomrom sentralt → Framrom.",
-        example: "Kontrollen prioriterte rom: Først steng bakrom, så mellomrom sentralt."
+        term: "Romforhold (Bakrom/Mellomrom)",
+        definition: "Vanlig begrepsbruk for å beskrive rom rundt motstanders ledd: Bakrom (rommet bak siste forsvarslinje) og Mellomrom (rommet mellom motstanderens ledd).",
+        example: "Først tru bakrom for å strekke, så finn mellomrom rettvendt."
       },
       {
         term: "Begge veier-spiller",
@@ -252,7 +252,7 @@ const glossaryData: Category[] = [
       },
       {
         term: "3+2-sikring",
-        definition: "Balanseprinsipp: minst tre spillere bak ball + to sentrale sikringer før laget sender mange i angrep. Hindrer kontring på kontring (A12).",
+        definition: "Balanseprinsipp: minst tre spillere bak ball + to sentrale sikringer før laget sender mange i angrep. Hindrer kontring på kontring.",
         example: "Indreløper må bli igjen til vi har 3+2, ellers blir vi sårbare ved balltap."
       },
       {

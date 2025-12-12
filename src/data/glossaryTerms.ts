@@ -24,14 +24,14 @@ export const glossaryTerms: Record<string, GlossaryTerm> = {
     id: "treplustwo",
     term: "3+2-sikring",
     definition:
-      "Balanseprinsipp: minst tre spillere bak ball + to sentrale sikringer før laget sender mange i angrep. Hindrer kontring på kontring (A12).",
+      "Balanseprinsipp: minst tre spillere bak ball + to sentrale sikringer før laget sender mange i angrep. Hindrer kontring på kontring.",
     example: "Indreløper må bli igjen til vi har 3+2, ellers blir vi sårbare ved balltap.",
   },
   frysse_sla: {
     id: "frys-se-sla",
     term: "Frys–se–slå",
     definition:
-      "Mentalt cue fra Fredriksen (A12): Etter ballvinning – frys ballen, løft blikket og slå først når rommet er definert (tempo-kontroll).",
+      "Mentalt cue: Etter ballvinning – frys ballen, løft blikket og slå først når rommet er definert (tempo-kontroll).",
     example: "Ballvinner frys-se-slår: tar et øyeblikk for å lese bakrom før pasningen går.",
   },
   forsteforsvarer: {

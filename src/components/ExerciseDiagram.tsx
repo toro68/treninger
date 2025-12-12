@@ -61,6 +61,8 @@ export interface ExerciseDiagramProps {
   showGoals?: boolean;
   /** Vis minimål i stedet for vanlige mål */
   miniGoals?: { x: number; y: number; rotation?: number }[];
+  /** Layout/bakgrunn for diagrammet */
+  layout?: "pitch" | "blank";
   /** Bakgrunnsfarge */
   pitchColor?: string;
   /** Valgfri tittel */
@@ -607,6 +609,7 @@ export const ExerciseDiagram: React.FC<ExerciseDiagramProps> = ({
   cones = [],
   showGoals = true,
   miniGoals = [],
+  layout = "pitch",
   pitchColor = COLORS.pitch,
   title,
 }) => {
@@ -630,12 +633,14 @@ export const ExerciseDiagram: React.FC<ExerciseDiagramProps> = ({
         className="rounded-lg shadow-md"
       >
         {/* Bane */}
-        <Pitch
-          width={width}
-          height={height}
-          halfPitch={halfPitch}
-          pitchColor={pitchColor}
-        />
+        {layout !== "blank" && (
+          <Pitch
+            width={width}
+            height={height}
+            halfPitch={halfPitch}
+            pitchColor={pitchColor}
+          />
+        )}
 
         {/* Soner */}
         {zones.map((zone) => (

@@ -32,7 +32,6 @@ Olsen analyserte Barcelonas Champions League-kamper (2010/11) og loggførte alle
 | Ett-touch involveringer | 25 % av alle touch | Kap. 6.5 |
 | To-touch | 36 % | Kap. 6.5 |
 | Gjennomsnitt touch pr spiller | 2,1 | Kap. 6.5 |
-| Tempo-switch (sekvenser < 6 sek) | 14 pr kamp (CL 2011) | Kap. 6.6 |
 
 ---
 

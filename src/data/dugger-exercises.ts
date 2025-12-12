@@ -521,9 +521,9 @@ export const duggerExercises: Exercise[] = [
   // === RONDO-FORSVAR ===
   {
     id: "dugger-rondo-5v2",
-    exerciseNumber: 22,
+    exerciseNumber: 481,
     name: "Rondo 5v2 Forsvarspress",
-    category: "station",
+    category: "rondo",
     duration: 12,
     playersMin: 7,
     playersMax: 14,
@@ -546,7 +546,7 @@ export const duggerExercises: Exercise[] = [
     id: "dugger-rondo-2v1",
     exerciseNumber: 446,
     name: "Rondo 2v1 i Boks",
-    category: "station",
+    category: "rondo",
     duration: 10,
     playersMin: 6,
     playersMax: 12,
@@ -868,7 +868,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-sweeper-system",
-    exerciseNumber: 36,
+    exerciseNumber: 529,
     name: "Sweeper-System",
     category: "game",
     duration: 20,
@@ -894,7 +894,7 @@ export const duggerExercises: Exercise[] = [
   // === 4-2-3-1 OG 4-1-4-1 ===
   {
     id: "dugger-4231-defense",
-    exerciseNumber: 37,
+    exerciseNumber: 530,
     name: "4-2-3-1 Forsvarsspill",
     category: "game",
     duration: 20,
@@ -918,7 +918,7 @@ export const duggerExercises: Exercise[] = [
   },
   {
     id: "dugger-4141-defense",
-    exerciseNumber: 38,
+    exerciseNumber: 531,
     name: "4-1-4-1 Kompakt Forsvar",
     category: "game",
     duration: 20,

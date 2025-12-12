@@ -12,7 +12,7 @@
 | **Forfatter** | Even Ødegaard |
 | **År** | 2014 |
 | **Original tittel** | En analyse av Juventus’ spillestil – hvordan anvende 3-5-2 som virkemiddel |
-| **Kildefil** | `docs/uefa/A01-even-odegard-352.md` |
+| **Kildefil** | `docs/uefa/A01-even-odegard-352.txt` |
 | **Oppgave-lenke** | https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-even-odegard.pdf |
 | **Tema** | 3-5-2 struktur (press, gjenvinning, rollekrav) |
 | **Rolle(r)** | Midtstoppere, vingbacker, regista, indreløpere, spisser |

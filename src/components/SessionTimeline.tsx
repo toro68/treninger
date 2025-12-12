@@ -39,7 +39,7 @@ export const SessionTimeline = () => {
   const [showShareOptions, setShowShareOptions] = useState(false);
   const [showCooldown, setShowCooldown] = useState(true);
 
-  // Grupper blokker i 5 deler
+  // Grupper blokker i 7 deler (matcher alle kategorier som kan velges i UI)
   const parts: SessionPart[] = [
     {
       key: "skadefri",
@@ -54,20 +54,32 @@ export const SessionTimeline = () => {
       blocks: [],
     },
     {
+      key: "aktivisering",
+      title: "3. Aktivisering",
+      subtitle: "Valgfri",
+      blocks: [],
+    },
+    {
+      key: "rondo",
+      title: "4. Rondo",
+      subtitle: "Valgfri",
+      blocks: [],
+    },
+    {
       key: "stasjoner",
-      title: "3. Stasjoner",
+      title: "5. Stasjoner",
       subtitle: "",
       blocks: [],
     },
     {
       key: "spill",
-      title: "4. Spill",
+      title: "6. Spill",
       subtitle: "",
       blocks: [],
     },
     {
       key: "avslutning",
-      title: "5. Avslutning",
+      title: "7. Avslutning",
       subtitle: "Utstrekking og styrke",
       blocks: [],
     },
@@ -79,20 +91,24 @@ export const SessionTimeline = () => {
       parts[0].blocks.push({ block, globalIndex: index });
     } else if (cat === "warmup") {
       parts[1].blocks.push({ block, globalIndex: index });
-    } else if (cat === "station") {
+    } else if (cat === "aktivisering") {
       parts[2].blocks.push({ block, globalIndex: index });
-    } else if (cat === "game") {
+    } else if (cat === "rondo") {
       parts[3].blocks.push({ block, globalIndex: index });
-    } else if (cat === "cooldown") {
+    } else if (cat === "station") {
       parts[4].blocks.push({ block, globalIndex: index });
+    } else if (cat === "game") {
+      parts[5].blocks.push({ block, globalIndex: index });
+    } else if (cat === "cooldown") {
+      parts[6].blocks.push({ block, globalIndex: index });
     }
   });
 
   // Oppdater stasjon-subtitle
-  const stationCount = parts[2].blocks.length;
+  const stationCount = parts[4].blocks.length;
   if (stationCount > 0) {
     const playersPerStation = Math.floor(playerCount / stationCount);
-    parts[2].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+    parts[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
   }
 
   const totalMinutes = sessionBlocks.reduce(
@@ -152,7 +168,15 @@ export const SessionTimeline = () => {
   };
 
   const buildFullSummary = () => {
-    const partNames = ["SKADEFRI", "OPPVARMING", "STASJONER", "SPILL", "AVSLUTNING"];
+    const partNames = [
+      "SKADEFRI",
+      "OPPVARMING",
+      "AKTIVISERING",
+      "RONDO",
+      "STASJONER",
+      "SPILL",
+      "AVSLUTNING",
+    ];
     let result = "";
 
     parts.forEach((part, partIndex) => {

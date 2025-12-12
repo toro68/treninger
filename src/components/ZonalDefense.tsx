@@ -387,18 +387,14 @@ export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) 
 
               <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
                 <h4 className="text-sm font-bold text-amber-900 mb-2">Prioriterte Rom å Beskytte</h4>
-                <div className="grid grid-cols-3 gap-2 mt-2">
+                <div className="grid grid-cols-2 gap-2 mt-2">
                   <div className="bg-red-100 rounded-md p-2 text-xs text-center">
                     <strong className="text-red-900">Bakrom</strong>
-                    <p className="text-red-800 mt-1">Høyest prioritet</p>
+                    <p className="text-red-800 mt-1">Beskytt rommet bak ledd</p>
                   </div>
                   <div className="bg-orange-100 rounded-md p-2 text-xs text-center">
                     <strong className="text-orange-900">Mellomrom sentralt</strong>
-                    <p className="text-orange-800 mt-1">Nest høyest</p>
-                  </div>
-                  <div className="bg-yellow-100 rounded-md p-2 text-xs text-center">
-                    <strong className="text-yellow-900">Framrom sentralt</strong>
-                    <p className="text-yellow-800 mt-1">Kontroller</p>
+                    <p className="text-orange-800 mt-1">Nekt rettvendte mottak</p>
                   </div>
                 </div>
               </div>

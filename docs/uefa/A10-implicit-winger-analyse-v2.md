@@ -21,7 +21,7 @@
 
 ## 2. Sammendrag
 
-Pereira oversetter Toppfotballsenterets VM-2014-data til praktiske treningsrammer for vinger. KPI-ene viser at toppvinger jobber under konstant press (1–3 m avstand), tar avgjørende valg på 1–4 sekunder og opererer på få touch både når de assisterer, slår innlegg og avslutter. Rapporten anbefaler non-lineær pedagogikk: manipuler baner, regler og touch for å trigge ønskede handlinger fremfor å instruere hvert steg. Ved å la spilldesign styre mellomromsinngang, tidlige innlegg og scoringer med få touch, kan vinger utvikle robuste ferdigheter som overføres direkte til Rosenborgs «bak til røttene»-stil.
+Pereira oversetter Toppfotballsenterets VM-2014-data til konkrete treningsbetingelser for vinger. Nøkkeltallene viser at vinger ofte assisterer, slår innlegg og avslutter under tett press (typisk 1–3 m), med kort tid på ball og få touch i avgjørende øyeblikk. Rapporten anbefaler non-lineær pedagogikk: manipuler baner, regler, soner og touch for å trigge ønskede handlinger fremfor å instruere hvert steg.
 
 ---
 
@@ -52,7 +52,7 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til praktiske treningsramme
 - **Pressrobusthet:** Tren på beslutninger med presser 1–3 m unna og maksimal to-tre touch.
 
 ### 4.2 Fasemodell (eksempel assist)
-- **Fase 1 – Komme på ball:** Vingen trenger 5–10 m mellomrom/ bakrom. Spilldesign: Gk+7v7+Gk med låste korridorer.
+- **Fase 1 – Komme på ball:** Spilldesign skal gi vingen mulighet til å komme i posisjon før mottak (bredde/rom), før han må løse situasjonen under press.
 - **Fase 2 – Fra mulighet til realitet:** Press på 1–3 m, maks 1–4 sek/1–3 touch. Bruk små baner (35x25) med touchregler.
 - **Fase 3 – Den avgjørende pasningen:** 91 % fra siste tredel, inside-foot + kamuflasje. Øv under høy press og belønn cut-backs.
 
@@ -184,25 +184,6 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til praktiske treningsramme
 
 ---
 
-## 6. CornerOrganization / Dødball
-
-### 6.1 Oppsett
-- **Forsvar:** Vinger i sone på bakre stolpe + ansvar for kontrarom (løp 1). Back tar nær stolpe.
-- **Angrep:** Vinger roterer mellom kort variant (raskt 2v1) og bakre rom. En ving starter ute for å dra ut markør før cut-back.
-- **Keeper:** Kommuniser press på innløp, gi tidspunkt for når ving skal løpe inn.
-
-### 6.2 KPI-er for dødball
-| Situasjon | Mål | Kilde |
-|-----------|-----|-------|
-| Offensiv corner – cut-back fra ving | 1 pr. kamp | TFS dødball-data |
-| Defensiv corner – kontraløp ving | >30 m gjenvinningsløp | Pereira, kap. 6 |
-
-### 6.3 Øvelser/sekvenser
-- 6v6 dødballspill: scoring kun gyldig hvis vingen enten er involvert i kort variant eller henter andreball og slår innlegg.
-- Constraint: vingen må starte 5 m utenfor boksen og sprint inn på signal.
-
----
-
 ## 7. Kampplanintegrasjon (MatchPrep)
 
 ### 7.1 Fokuspunkter
@@ -212,20 +193,20 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til praktiske treningsramme
   text: "Vinger: orienter før mottak – løsning klar før ball"
 },
 {
-  id: "uefa-a10-fokus-1v1",
-  text: "Test back tidlig – 8-10 1v1-forsøk, 50 % suksess"
+  id: "uefa-a10-fokus-press",
+  text: "Aksepter tett press (ofte 1–3 m) i nøkkelsituasjoner – tren utførelse med lite tid/rom"
+},
+{
+  id: "uefa-a10-fokus-touch",
+  text: "Knytt touch til valg: få touch og rask beslutning i avgjørende øyeblikk"
 },
 {
   id: "uefa-a10-fokus-innlegg",
-  text: "Minst 4 innlegg pr. omgang til rommet mellom keeper og backrekke"
+  text: "Innlegg: variér 1-touch vs. etter dribling og les relasjoner i boks (spiss/motsatt ving)"
 },
 {
-  id: "uefa-a10-fokus-bakrom",
-  text: "Tru bakrom før du tilbyr i fot – timet med 6-er som vender"
-},
-{
-  id: "uefa-a10-fokus-gjenvinning",
-  text: "Tilbakesporing 5–6 sek etter balltap – mål 10 forsøk, 3 suksess"
+  id: "uefa-a10-fokus-avslutning",
+  text: "Avslutning: prioriter lavt plasserte skudd og treff mål under press"
 }
 ```
 
@@ -248,17 +229,7 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til praktiske treningsramme
 - Var variasjonen i innlegg (tidlig/sent, høyt/lavt) god?
 - Oppdaget vingene egne løsninger (implicit) eller måtte vi instruere?
 
-### 8.2 Kvantitative mål
-| Indikator | Mål | Oppnådd |
-|-----------|-----|---------|
-| 1v1-initiativ | 8–10 | |
-| 1v1 suksess | ≥50 % | |
-| Innlegg til scoringssone | ≥4 pr. omgang | |
-| Gjenvinningsforsøk | ≥10 | |
-| Vellykket tilbakesporing | ≥3 | |
-| Avslutninger innen 16 m (ving) | ≥4 | |
-
-### 8.3 Logging
+### 8.2 Logging
 | # | Type | Sone | Detalj |
 |---|------|------|--------|
 | 1 | Assist | Mellomrom | Innside, cut-back |

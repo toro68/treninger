@@ -855,7 +855,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-kollektiv-kontra",
-    exerciseNumber: 33,
+    exerciseNumber: 526,
     name: "Kollektiv kontra",
     category: "game",
     duration: 15,
@@ -880,7 +880,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-avansert-kontra-genpres",
-    exerciseNumber: 34,
+    exerciseNumber: 527,
     name: "Avansert kontra: Høy gegenpressing",
     category: "game",
     duration: 15,
@@ -905,7 +905,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-enkeltmands-kontra",
-    exerciseNumber: 35,
+    exerciseNumber: 528,
     name: "Enkeltmanns-kontra",
     category: "game",
     duration: 12,

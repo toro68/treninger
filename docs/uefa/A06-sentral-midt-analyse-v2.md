@@ -7,7 +7,7 @@
 | **År** | 2013 |
 | **Original tittel** | Hvilke rollespesifikke ferdighetskrav stiller den sentrale midtbanerollen? |
 | **Kildefil** | A06-oyvind-iversen-sentral-midt.txt |
-| **Oppgave-lenke** | |
+| **Oppgave-lenke** | https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oyvind-iversen.pdf |
 | **Tema** | Rollekrav for sentral midtbane |
 | **Rolle(r)** | Sentral midtbane, Indreløper |
 
@@ -88,7 +88,7 @@ Iversen analyserer sentrale midtbanespillere i EURO 2012 for å definere de frem
 
 ### Kampdimensjon og KPI-oversettelse
 - **Kampklima**: Definer før kamp hvilken presshøyde/motstanderblokk 6/8 møter, og hvordan valgene endres når vi leder, ligger likt eller ligger under.
-- **Pasningsretning i ulike scenarier**: Euro 2012-data viser 67 % fremoverpasninger når laget leder, 72 % når det står likt, men kun 60 % når laget ligger under. Sett mål om ≥70 % fremoverpasninger også i motgang.
+- **Pasningsretning og kampstatus**: I EURO 2012 spiller sentrale midtbanespillere 50,92 % fremoverpasninger når stillingen er likt, 57,38 % når laget leder og 59,08 % når laget ligger under.
 - **Touch-mål**: 60–80 balltouch per kamp for sentral midt som indikator på involvering. Evaluer etter kamp.
 - **Pasninger i siste tredjedel**: 20–30 pasninger inn i siste tredjedel for indreløpere er referansen.
 - **Gjenvinning (sekundærpress)**: Avklar hvem av 6/8 som trykker og hvem som sikrer innen 6 sek etter balltap.

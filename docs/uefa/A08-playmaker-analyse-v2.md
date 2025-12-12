@@ -27,12 +27,15 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 
 ## 3. Nøkkeltall og KPI-er
 
+*Merk: Øvelser og evalueringspunkter under er redaksjonelle forslag basert på funnene, ikke ferdige krav/standarder fra oppgaven.*
+
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
-| Touch per assistfase | Fase 2: 1–2 touch (majoritet) | Kap. 5.4.2 |
-| Tid på ball (fase 2) | < 2 sek ved press | Kap. 5.4.1 |
-| Bevegelse i forkant | 80 % mottak i mellomrom | Kap. 5.3 |
-| Posisjon for assist | Halvspor/mellomrom | Kap. 5.5 |
+| Høyde i mellomrom (fase 1) | Lavt/midt i rommet = 88,3 % | Kap. 5.3.2 |
+| Kroppsvinkel ved ballmottak | Rett-/sidevendt = 80,3 % | Kap. 5.3.3 |
+| Tid på ball (fase 2) | 0–2 sek = 59,8 % | Kap. 5.4.1 |
+| Antall touch (fase 2) | 1 touch = 27,8 % (2 touch = 24,7 %) | Kap. 5.4.2 |
+| Hvor assister slås fra | Oftest sentral sone/mellomrom rett utenfor 16m | Kap. 5.5.1 |
 
 ---
 
@@ -44,13 +47,13 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 - Kroppsvinkel (åpen mot begge sider)
 
 ### Fase 2 – Fra mulighet til realitet
-- Hurtig håndtering (tid < 2 sek)
-- Touch-antall: 1–2
+- Hurtig håndtering (ofte 0–2 sek i fase 2)
+- Touch: 1 touch er vanligst (varierer)
 - Pressavstand/romskaping
 
 ### Fase 3 – Avgjørende pasning
-- Halvspor → blindside
-- Pasningstype: stikkpasning, chip, vegg
+- Presisjon + timing i avgjørende pasning
+- Pasningstype varierer (bakrom/innlegg/rom i bakre ledd)
 
 ---
 
@@ -115,7 +118,7 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 },
 {
   id: "a08-fase3",
-  text: "Avgjørende pasning: halvspor → blindside",
+  text: "Avgjørende pasning: presisjon + timing mot løp",
 },
 {
   id: "a08-roller",
@@ -126,11 +129,13 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 ---
 
 ## 8. Evaluering
-| Indikator | Mål |
-|-----------|-----|
-| Playmaker-mottak i mellomrom | ≥15 |
-| Touch ≤ 2 i fase 2 | ≥80 % |
-| Blindsidepasning | ≥4 |
+| Indikator | Observér |
+|-----------|----------|
+| Posisjonering i mellomrom | Er playmaker ofte lavt/midt i rommet og klar til mottak? |
+| Kroppsvinkel ved mottak | Rett-/sidevendt når mulig (åpen kropp). |
+| Tid på ball i fase 2 | Håndterer raskt (ofte 0–2 sek) i pressede rom. |
+| Touch/ballbehandling | Ball tett på fot, korte intervaller mellom touch, timing før pasning. |
+| Avgjørende pasning | Presisjon + timing mot løp (bakrom/rom i bakre ledd). |
 
 ---
 
@@ -157,5 +162,5 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 
 ---
 
-*Generert fra: A08-gard-holme-playmaker.txt*  
+*Basert på: A08-gard-holme-playmaker.txt*  
 *Analysedato: 4. desember 2025*

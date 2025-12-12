@@ -5,11 +5,11 @@
 
 import { Exercise } from './exercises';
 
-export const rondoExercises: Exercise[] = [
+const baseRondoExercises: Exercise[] = [
   // === GRUNNLEGGENDE RONDO ===
   {
     id: "rondo-fundamental",
-    exerciseNumber: 1,
+    exerciseNumber: 474,
     name: "Fundamental Rondo (7v2)",
     category: "warmup",
     duration: 10,
@@ -463,7 +463,7 @@ export const rondoExercises: Exercise[] = [
   },
   {
     id: "rondo-game-related",
-    exerciseNumber: 19,
+    exerciseNumber: 479,
     name: "Game Related Rondo Transition",
     category: "game",
     duration: 20,
@@ -749,6 +749,11 @@ export const rondoExercises: Exercise[] = [
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   }
 ];
+
+export const rondoExercises: Exercise[] = baseRondoExercises.map((exercise) => ({
+  ...exercise,
+  category: "rondo",
+}));
 
 // Eksporter antall rondo-øvelser for bruk i filter
 export const rondoExerciseCount = rondoExercises.length;

@@ -3271,7 +3271,7 @@ export const tiimExercises: Exercise[] = [
   },
   {
     "id": "tiim-172",
-    "exerciseNumber": 2,
+    "exerciseNumber": 485,
     "name": "Prepp'n - 14",
     "category": "rondo",
     "duration": 12,

@@ -162,7 +162,7 @@ export const TeamOrganization = () => {
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
                 <h4 className="text-xs font-semibold text-zinc-800 mb-1">Prioriterte Rom</h4>
                 <p className="text-xs text-zinc-700">
-                  Kontroller: Bakrom, Mellomrom sentralt, Framrom sentralt.
+                  Kontroller: Bakrom og Mellomrom sentralt.
                 </p>
               </div>
 
@@ -213,7 +213,7 @@ export const TeamOrganization = () => {
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
                 <h4 className="text-xs font-semibold text-zinc-800 mb-1">Gjennombrudd</h4>
                 <p className="text-xs text-zinc-700">
-                  Søk gjennombrudd ofte (gjennom, over eller rundt). Prioriterte rom: Bakrom, Mellomrom sentralt, Framrom sentralt.
+                  Søk gjennombrudd ofte (gjennom, over eller rundt). Se etter bakrom og mellomrom sentralt.
                 </p>
               </div>
             </div>

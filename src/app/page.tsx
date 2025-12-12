@@ -9,6 +9,8 @@ import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
 import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
 import { useSessionStore } from "@/store/sessionStore";
+import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
+import { ScoringZonesTemplateDiagram } from "@/components/ScoringZonesTemplateDiagram";
 import Link from "next/link";
 
 export default function Home() {
@@ -217,6 +219,27 @@ export default function Home() {
           <SessionTimeline />
           <EquipmentList />
         </div>
+
+        <section className="mt-6 rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
+          <div className="flex items-center justify-between">
+            <h2 className="text-lg font-semibold text-zinc-900">Diagrammer</h2>
+            <span className="text-xs text-zinc-500">Maler</span>
+          </div>
+          <div className="mt-4 grid gap-4 md:grid-cols-2">
+            <div className="rounded-xl border border-zinc-200 p-3">
+              <h3 className="text-sm font-semibold text-zinc-900">Innleggssoner (A–F)</h3>
+              <div className="mt-2">
+                <ScoringZonesDiagram className="max-h-[260px]" />
+              </div>
+            </div>
+            <div className="rounded-xl border border-zinc-200 p-3">
+              <h3 className="text-sm font-semibold text-zinc-900">Scoringssoner (mal)</h3>
+              <div className="mt-2">
+                <ScoringZonesTemplateDiagram className="max-h-[260px]" />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

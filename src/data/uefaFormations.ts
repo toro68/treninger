@@ -136,7 +136,7 @@ export const uefaFormations: UEFAFormation[] = [
       { rolle: "Offensiv midtbane (10er)", profil: "Kreativ og smart spiller med eksepsjonell teknikk og visjon. Kan score mål og slå den avgjørende pasningen." },
       { rolle: "Sittende midtbane", profil: "Taktisk klok og posisjoneringssterk spiller som er god til å lese spillet og vinne ballen. En stabilisator." }
     ],
-    relaterteAnalyser: ["a06-sentral-midt", "a22-rbk-angrep"],
+    relaterteAnalyser: ["a06-sentral-midt", "a11-rbk-angrep"],
     kildefil: "4-2-3-1.md",
     taktiskePrinsipper: [],
     kjennetegn: []

@@ -4,29 +4,6 @@ import type { Exercise, ExerciseCategory } from "@/data/exercises";
 import { getExerciseCode } from "@/data/exercises";
 import { useMemo, useState, useEffect } from "react";
 
-const generateExerciseId = () => {
-  const cryptoApi = typeof globalThis !== "undefined" ? globalThis.crypto : undefined;
-  if (cryptoApi?.randomUUID) {
-    return cryptoApi.randomUUID();
-  }
-  return `exercise-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-};
-
-const emptyExercise: Exercise = {
-  id: "",
-  exerciseNumber: 0, // Settes automatisk ved lagring
-  name: "",
-  category: "warmup",
-  duration: 10,
-  playersMin: 4,
-  playersMax: 16,
-  theme: "",
-  equipment: [],
-  description: "",
-  coachingPoints: [],
-  variations: [],
-};
-
 const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   "fixed-warmup": "Skadefri oppvarming",
   warmup: "Oppvarming",
@@ -39,7 +16,6 @@ const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
 
 export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { highlightExerciseId?: string | null; onHighlightConsumed?: () => void; }) => {
   const exercises = useExercises();
-  const addExercise = useSessionStore((state) => state.addExercise);
   const updateExercise = useSessionStore((state) => state.updateExercise);
 
   const [isOpen, setIsOpen] = useState(false);
@@ -73,10 +49,6 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
 
   const handleEdit = (exercise: Exercise) => {
     setEditing(exercise);
-  };
-
-  const handleCreate = () => {
-    setEditing({ ...emptyExercise, id: generateExerciseId() });
   };
 
   const handleChange = (field: keyof Exercise, value: Exercise[keyof Exercise]) => {
@@ -126,12 +98,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
       alert(errors.join('\n'));
       return;
     }
-    const payload = editing.id ? editing : { ...editing, id: generateExerciseId() };
-    if (exercises.some((ex) => ex.id === payload.id)) {
-      updateExercise(payload.id, payload);
-    } else {
-      addExercise(payload);
-    }
+    updateExercise(editing.id, editing);
     setEditing(null);
   };
 
@@ -149,7 +116,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
       {isOpen && (
         <>
           <p className="mt-2 text-sm text-zinc-500">
-            Opprett, rediger eller søk etter øvelser.
+            Søk etter øvelser. Kontakt admin for å få lagt til øvelse.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             <input
@@ -159,12 +126,6 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
               value={searchQuery}
               onChange={(event) => setSearchQuery(event.target.value)}
             />
-            <button
-              onClick={handleCreate}
-              className="rounded-full bg-black px-4 py-2 text-sm text-white"
-            >
-              Ny øvelse
-            </button>
           </div>
           <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100" role="region" aria-live="polite">
         <table className="w-full text-sm">
@@ -215,9 +176,7 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
           {editing && (
             <div className="mt-6 space-y-4 rounded-2xl border border-zinc-100 bg-zinc-50 p-4">
           <h3 className="text-base font-semibold text-zinc-900">
-            {exercises.some((ex) => ex.id === editing.id)
-              ? "Rediger øvelse"
-              : "Ny øvelse"}
+            Rediger øvelse
           </h3>
           <div className="grid gap-4 md:grid-cols-2">
             <label className="flex flex-col gap-1 text-sm text-zinc-700">

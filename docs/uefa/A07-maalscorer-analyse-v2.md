@@ -29,10 +29,13 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
-| Rushfeldts egne mål (ca.) | ~300 mål (Norge, Spania, Østerrike) | Kap. bakgrunn foredrag |
-| Toppligamål (Barca/Real/City/United 2011/12) | ca. 400 scoringer analysert | Kap. bakgrunn |
-| Touch per avslutning (egen data) | 1–2 touch dominerer | Foredrag pkt. avslutninger |
-| Målscorerens posisjon (sone 1) | majoritet av scoringer | Foredrag + statistikk |
+| Datagrunnlag (Rushfeldt) | ~300 mål analysert (toppnivå) | Bakgrunn |
+| Datagrunnlag (toppklubber 2011/12) | ca. 400 scoringer analysert | Bakgrunn |
+| Mål på 1–2 touch (toppklubber) | 83 % av målene | «Avslutte fort» |
+| Mål på 1–2 touch (Rushfeldt) | 85 % av målene | «Avslutte fort» |
+| Mål innenfor 16 m (Rushfeldt) | 94 % (75 % innenfor 11 m) | «16 meteren» |
+| Mål etter innlegg (toppklubber) | 37 % | Innlegg |
+| Mål etter returer (Rushfeldt) | ca. 10 % (≈30 mål i karrieren) | Returer/etterarbeid |
 
 ---
 
@@ -92,7 +95,7 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 | **Intensitet** | Høy |
 
 **Organisering:**
-- Spiss må inn i sone 1 før scoring.
+- Spiss må være innenfor 16-meteren før scoring teller.
 - Kant må fylle motsatt stolpe.
 
 **Regler:**
@@ -134,11 +137,11 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 ---
 
 ## 8. Evaluering
-| Indikator | Mål |
-|-----------|-----|
-| Tredjespiller-bevegelse registrert | 8 pr kamp |
-| 1–2 touch avslutninger | ≥70 % |
-| Returmål | 1 pr kamp |
+
+Hold evalueringen enkel og kildetro:
+- Ser vi flere avslutninger på 1–2 touch i boks?
+- Er spiss/kant konsekvent på returer (etterarbeid)?
+- Kommer spillere oftere i avslutningsposisjon innenfor 16-meteren?
 
 ---
 

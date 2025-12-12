@@ -21,7 +21,7 @@
 
 ## 2. Sammendrag
 
-Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–2011) og fant store forskjeller i avslutningskvalitet: CL-spillere scorer 70 % lavt i hjørnet (vs 41,5 % i TL), 86 % av målene er kontrollert, og de fleste avslutninger tas fra den sentrale avslutningssonen (mellom 5-meteren og straffepunktet) på få touch. Norske avsluttere må forberede seg bedre (orientering, valg, teknikk) og trene på scenebaserte avslutninger hvor tid/rom defineres. Oppgaven destilleres til KPI-er, øvelser og kampplanpunkter for å øke målfarlighet i siste tredjedel.
+Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–2011) og fant store forskjeller i avslutningskvalitet: CL-spillere scorer 70 % lavt i hjørnet (vs 41,5 % i TL), 86 % av målene er kontrollert, og en stor andel scoringer kommer fra den sentrale avslutningssonen (mellom 5-meteren og straffepunktet). Norske avsluttere må forberede seg bedre (orientering, valg, teknikk) og trene på kamplike avslutninger hvor tid/rom skapes gjennom medtak, bevegelser og relasjoner.
 
 ---
 
@@ -30,7 +30,7 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
 | Scoringer lavt i hjørnet | 70 % (CL) vs 41,5 % (TL) | Tabell 1 |
-| Kontrollert scoring (utførelse med kontroll) | 86 % (CL) vs 49 % (TL) | Kap. 6.2 |
+| Kontrollert scoring (utførelse med kontroll) | 86 % (CL) vs 49 % (TL) | Kap. 6.3 |
 | Scoringer i sentral avslutningssone (5m–11m) | 59,5 % (CL) vs 34,5 % (TL) | Kap. 6.5 |
 | Scoringer med curl/plassering | 73 % (CL) vs 30 % (TL) | Kap. 6.4 |
 
@@ -80,7 +80,7 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 - Rolig førstetouch, se keeper.
 - Fokuser på lave hjørner.
 
-### Øvelse 2: «6-sekunders scoring»
+### Øvelse 2: «Kontrollert avslutning i omstilling»
 
 | Felt | Beskrivelse |
 |------|-------------|
@@ -95,13 +95,12 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 | **Intensitet** | Høy |
 
 **Regler:**
-1. Omstilling må avsluttes innen 6 sek.
+1. Ved omstilling skal laget søke avslutning i definert scoringssone.
 2. Bonus for lavt hjørne.
-3. Avslutning må komme fra definert scoringssone.
 
 **Coaching points:**
-- Første touch mot mål.
-- Plasseringsskudd.
+- Skaff tid gjennom medtak/bevegelse.
+- Plassering/curl fremfor kraft når du har kontroll.
 
 **Progresjon:**
 - Legg inn forsvarere som blokker.
@@ -122,15 +121,11 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 },
 {
   id: "a03-kontroll",
-  text: "Ha kontroll i utførelsen – 1-2 touch, se keeper",
+  text: "Ha kontroll i utførelsen – ro, balanse og plassering",
 },
 {
   id: "a03-sone1c",
-  text: "Søk sentral avslutningssone (5m–11m): fyll boksen (spiss, kant, motsatt)",
-},
-{
-  id: "a03-forsketid",
-  text: "Scoring innen 6 sek etter turnover",
+  text: "Søk avslutningssone (sone 1cv/1ch): fyll boksen (spiss, kant, motsatt)",
 },
 {
   id: "a03-plassering",
@@ -139,7 +134,7 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 ```
 
 ### Rollebeskrivelser
-- **Spiss:** bevege seg mot sentral avslutningssone, 1-touch finish.
+- **Spiss:** bevege seg mot sentral avslutningssone og avslutte med kontroll.
 - **Kant:** motsatt stolpe-løp, returmål.
 - **10-er:** finne plass mellom linjer, sette tempo i sluttfasen.
 
