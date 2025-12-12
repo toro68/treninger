@@ -399,10 +399,10 @@ export const UEFASeksjon = () => {
                               Scoringsferdighet – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-red-900">
-                              <li>• 70 % av CL-målene går lavt i hjørnet – tren plassering over kraft.</li>
-                              <li>• 86 % av scoringene er kontrollert og skjer fra sentral avslutningssone.</li>
-                              <li>• Scoringssekvens på 6 sek fra turnover – definer tid/rom i øvelser.</li>
-                              <li>• Curl/plassering (73 %) slår kraft (30 %) – «se keeper» før avslutning.</li>
+                              <li>• Lavt i hjørnet: 70,0 % (CL) vs 41,5 % (Tippeligaen) – førstevalg er ofte hjørne, ikke kraft.</li>
+                              <li>• Kontroll: 86,0 % (CL) vs 49,0 % (Tippeligaen) – ro og presisjon i avslutningsøyeblikket.</li>
+                              <li>• Curl/plassering: 73 % (CL) vs 30 % (Tippeligaen) – pasningsferdighet i avslutning.</li>
+                              <li>• Sone 1cv/1ch: 59,5 % (CL) vs 34,5 % (Tippeligaen) – skap flere avslutninger nærmere mål.</li>
                             </ul>
                           </div>
 
@@ -412,10 +412,10 @@ export const UEFASeksjon = () => {
                                 Hovedprinsipper
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Scoringsforberedelse: orientering og ro før mottak.</li>
-                                <li>• Plassering foran kraft – lavt hjørne, 0,5 m over bakken.</li>
-                                <li>• Søk sentral avslutningssone (5m–11m) oftere.</li>
-                                <li>• Kontroll i avslutningen – 1–2 touch, følg returer.</li>
+                                <li>• Scoringsforberedelse: skaff deg tid via medtak/bevegelse og relasjonelle handlinger.</li>
+                                <li>• Plassering foran kraft: lavt i hjørnet (def.: maks 0,5 m over bakken og maks 1 m fra stolpen).</li>
+                                <li>• Skap flere avslutninger i sone 1cv/1ch (mellom 5-meteren og straffemerket).</li>
+                                <li>• Innlegg: tidligere mellom forsvar og keeper, ofte langs bakken (45°/cutback).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -423,9 +423,9 @@ export const UEFASeksjon = () => {
                                 Fasemodell
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Fase 1 – forberedelse: bevegelse, orientering, førstetouch.</li>
-                                <li>• Fase 2 – utførelse: plasser/curl lavt på få touch.</li>
-                                <li>• Fase 3 – etterarbeid: følg returer, vær klar for andreball.</li>
+                                <li>• Fase 1 – forberedelse: skap tid (medtak/bevegelse), se keeper og rom.</li>
+                                <li>• Fase 2 – utførelse: «pasning i hjørnet» (innside/utside/curl) fremfor maks kraft når du har valg.</li>
+                                <li>• Fase 3 – etterarbeid: 2./3. bevegelse i boks og jakt returrom.</li>
                               </ul>
                             </div>
                           </div>
@@ -436,8 +436,8 @@ export const UEFASeksjon = () => {
                                 Motstander-analyse
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Hvilke lag åpner sentral avslutningssone? Utnytt hull i boksen.</li>
-                                <li>• Registrer keeperens svakheter (lavt hjørne, returrom) og straff dem.</li>
+                                <li>• Keeper: hvor er han sårbar (lavt hjørne / chip / 1v1)?</li>
+                                <li>• Forsvar: kan vi nå sone 1cv/1ch via tidlig innlegg langs bakken eller veggspill?</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -445,9 +445,9 @@ export const UEFASeksjon = () => {
                                 Rollebeskrivelser
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Spiss: søk sone 1c, avslutt på 1 touch.</li>
-                                <li>• Kant: motsatt stolpe-løp, vær klar på returer.</li>
-                                <li>• 10-er: orientering mellom linjer, sett tempo i sluttfasen.</li>
+                                <li>• Spiss: skap tid, plasser lavt i hjørnet og angrip sone 1cv/1ch.</li>
+                                <li>• Kant/back: lever tidlig innlegg mellom forsvar og keeper (ofte langs bakken).</li>
+                                <li>• Indreløper/10-er: sett opp avslutter via relasjoner (2./3. løp og Z-løp).</li>
                               </ul>
                             </div>
                           </div>

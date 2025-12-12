@@ -21,7 +21,9 @@
 
 ## 2. Sammendrag
 
-Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–2011) og fant store forskjeller i avslutningskvalitet: CL-spillere scorer 70 % lavt i hjørnet (vs 41,5 % i TL), 86 % av målene er kontrollert, og en stor andel scoringer kommer fra den sentrale avslutningssonen (mellom 5-meteren og straffepunktet). Norske avsluttere må forberede seg bedre (orientering, valg, teknikk) og trene på kamplike avslutninger hvor tid/rom skapes gjennom medtak, bevegelser og relasjoner.
+Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (Tippeligaen 15 første runder 2011, CL gruppespill 2010/11) og finner store forskjeller i *valg* og *utførelse* når spilleren har tid til handlingsvalg. Champions League-lag scorer langt oftere **lavt i hjørnet** (70,0 % vs 41,5 %), langt oftere **med kontroll** (86,0 % vs 49,0 %), og langt oftere med **curl/plassering** (73 % vs 30 %). De skaper også oftere avslutninger i **sone 1cv/1ch** (59,5 % vs 34,5 %) – det vil si scoringer fra sonene nær målet (illustrert i oppgaven), og omtalt som området mellom **5-meteren og straffemerket**.
+
+Kjernen for trenere er at scoringsferdighet ikke bare er «teknikk», men en kombinasjon av å skaffe seg tid (medtak/bevegelse), være rolig nok til å velge plassering fremfor kraft, og å utvikle automatisering gjennom kamplike repetisjoner (spesifisitetsprinsippet) og bevisstgjøring.
 
 ---
 
@@ -31,8 +33,9 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 |-----|----------------|-------|
 | Scoringer lavt i hjørnet | 70 % (CL) vs 41,5 % (TL) | Tabell 1 |
 | Kontrollert scoring (utførelse med kontroll) | 86 % (CL) vs 49 % (TL) | Kap. 6.3 |
-| Scoringer i sentral avslutningssone (5m–11m) | 59,5 % (CL) vs 34,5 % (TL) | Kap. 6.5 |
+| Scoringer i sone 1cv/1ch | 59,5 % (CL) vs 34,5 % (TL) | Kap. 6.5 |
 | Scoringer med curl/plassering | 73 % (CL) vs 30 % (TL) | Kap. 6.4 |
+| Mål mellom bena på keeper | 2 % (CL) vs 10 % (TL) | Kap. 6.5 |
 
 ---
 
@@ -40,9 +43,11 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 
 ### 4.1 Hovedprinsipper
 - **Scoringsforberedelse**: orientering og valg før ball mottas gir kontroll.
-- **Plassering foran kraft**: toppspillere prioriterer lavt/hjørne.
-- **Sentral avslutningssone**: Området mellom 5-meteren og straffepunktet må søkes hyppigere.
-- **Kontroll**: ro i avslutningsøyeblikket, forberedt teknikk.
+- **Plassering foran kraft**: toppspillere prioriterer lavt/hjørne som førstevalg.
+- **Lavt i hjørnet – definisjon**: ballen skal ikke høyere enn **0,5 m** i luften og ikke mer enn **1 m** fra stolpen.
+- **Sone 1cv/1ch**: skap flere avslutninger fra sonene nær målet (omtalt mellom 5-meteren og straffemerket).
+- **Kontroll**: ro i avslutningsøyeblikket, forberedt teknikk (innside/ytterside/curl, chip/lobb).
+- **Relasjonelt og strukturelt**: tidlige innlegg mellom forsvar og keeper (ofte langs bakken), og flere bevegelser i boks (2./3. bevegelse og Z-løp).
 
 ### 4.2 Fasemodell
 1. Forberedelse (bevegelse, orientering, førstetouch).
@@ -73,8 +78,8 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 - Stasjon 4: kontrollert skudd fra sentral posisjon.
 
 **Regler/Constraints:**
-1. Ball må innom definerte soner.
-2. Poeng for lavt hjørne (under 0,5 m).
+1. Bruk soner som *styringsverktøy* (målbildet: sone 1cv/1ch og lavt hjørne).
+2. Belønn forsøk på plassering lavt i hjørnet (kvalitet fremfor kraft).
 
 **Coaching points:**
 - Rolig førstetouch, se keeper.
@@ -94,9 +99,9 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 | **Varighet** | 4 x 4 min |
 | **Intensitet** | Høy |
 
-**Regler:**
-1. Ved omstilling skal laget søke avslutning i definert scoringssone.
-2. Bonus for lavt hjørne.
+**Forslag til regler (treningsstyring):**
+1. Legg inn tydelig fokus på *valg i avslutningsøyeblikket*: «plassér» når du har kontroll.
+2. Styr mot avslutninger i sone 1cv/1ch ved å premiere innlegg langs bakken/45° og 2./3. bevegelse i boks.
 
 **Coaching points:**
 - Skaff tid gjennom medtak/bevegelse.
@@ -108,8 +113,8 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 ---
 
 ## 6. Corner/dødball
-- Kort corner varianter for å skape «kontrollert avslutning» i sentral avslutningssone (5m–11m foran mål).
-- Dødballanalyse: registrer hvor avslutningen ender (lavt hjørne) for etterarbeid.
+- Vurder korte varianter som kan skape en kontrollert avslutning i sone 1cv/1ch.
+- I gjennomgang: se på *hvor* avslutningene plasseres (lavt hjørne / keeperhøyde) og hva som gjorde at avslutter fikk (eller ikke fikk) tid.
 
 ---
 
@@ -141,25 +146,27 @@ Selmer analyserte 342 Tippeliga- og 277 Champions League-scoringer (2010/11–20
 ---
 
 ## 8. Evaluering
-| Indikator | Mål |
-|-----------|-----|
-| Lavt i hjørne-scorer | 60 % |
-| Kontroll i avslutting | 80 % |
-| Scoring i sentral avslutningssone | 50 % |
+| Indikator | Retning |
+|-----------|---------|
+| Avslutninger lavt i hjørnet | Mer over tid, spesielt når avslutter har valg |
+| Kontrollerte avslutninger | Mer ro/bedre førstetouch → flere «kontroll»-valg |
+| Avslutninger i sone 1cv/1ch | Flere gjennom innleggs- og løpsmønstre |
 
 ---
 
 ## 9. Coaching Tips / Trenerveiledning
-- **Cue:** «Plasser» (lavt hjørne)
-- **Cue:** «1 touch inn mot mål»
-- **Cue:** «Ro → se keeper»
-- **Ikke:** Fokusere på kraft uten kontroll.
+- **Cue:** «Ta deg god tid før du setter ballen i mål»
+- **Cue:** «Pasning i hjørnet»
+- **Cue:** «Vent – se – plasser/chipp» (alene med keeper)
+- **Cue:** «Tidlig innlegg langs bakken»
+- **Cue:** «2./3. bevegelse»
 
 ### Trenerveiledning
 | Kategori | Gjør dette | Ikke gjør |
 |----------|-----------|-----------|
 | Fokus | «Ros gode plasseringer» | «Ikke hyl på kraft» |
-| Læring | «Sett opp repeterbare scenarier» | «Ikke la økta bli tilfeldig» |
+| Læring | «Tren kamplikt (spesifisitetsprinsippet) og bygg automatisering over tid» | «Ikke isoler avslutning uten valg, press og vinkler» |
+| Mental del | «Bruk selvinstruksjoner/visualisering når det passer» | «Ikke overse stress/ro i avslutningsøyeblikket» |
 
 ---
 
