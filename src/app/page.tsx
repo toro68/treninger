@@ -11,6 +11,7 @@ import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
 import { useSessionStore } from "@/store/sessionStore";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
 import { ScoringZonesTemplateDiagram } from "@/components/ScoringZonesTemplateDiagram";
+import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
 import Link from "next/link";
 
 export default function Home() {
@@ -236,6 +237,12 @@ export default function Home() {
               <h3 className="text-sm font-semibold text-zinc-900">Scoringssoner (mal)</h3>
               <div className="mt-2">
                 <ScoringZonesTemplateDiagram className="max-h-[260px]" />
+              </div>
+            </div>
+            <div className="rounded-xl border border-zinc-200 p-3">
+              <h3 className="text-sm font-semibold text-zinc-900">A03 soner i og rundt 16m (mal)</h3>
+              <div className="mt-2">
+                <SelmerZonesTemplateDiagram className="max-h-[260px]" />
               </div>
             </div>
           </div>
