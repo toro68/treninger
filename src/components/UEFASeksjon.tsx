@@ -319,10 +319,10 @@ export const UEFASeksjon = () => {
                               Tredjespilleren – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-emerald-900">
-                              <li>• Sekvens: tredjespiller → assist → målscorer på 4–8 sek (mål 6 sek).</li>
-                              <li>• 1–3 touch for alle tre spillere for å holde tempoet.</li>
-                              <li>• Kontinuerlig orientering (før og under kontakt).</li>
-                              <li>• Strukturell støtte: kant/back bredde, spiss bakrom, midtbane sikrer.</li>
+                              <li>• Sekvens: tredjespiller → målgivende → målscorer.</li>
+                              <li>• Tempo skiller nivåene: snitt 6,37 sek (topplag) vs 7,09 (Strømsgodset) vs 7,9 (Nordstrand).</li>
+                              <li>• Berøringer: tredjespiller pro-lag 2,17 i snitt; målscorer bruker hovedsakelig 1–2.</li>
+                              <li>• Felles for lagene: kant involveres når tredjespilleren har ballen.</li>
                             </ul>
                           </div>
 
@@ -332,10 +332,10 @@ export const UEFASeksjon = () => {
                                 Hovedprinsipper
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Tredjespiller setter rytmen – orientering + maks 2 touch.</li>
-                                <li>• Tempo/touch: internasjonalt 78 % av scoringene på 1–3 touch.</li>
-                                <li>• Orientering hele veien («se før du får ballen»).</li>
-                                <li>• Struktur: kant/back for bredde, spiss for bakrom.</li>
+                                <li>• Tredjespiller setter rytmen: orientering før/under mottak og raske valg under press.</li>
+                                <li>• Færre berøringer jo nærmere mål: tredjespiller 1–4 (tendens), målgivende 1–3, målscorer 1–2 (tendens).</li>
+                                <li>• Kant involveres: sett opp kant/back for 1v1/innleggsrom og gjennombrudd.</li>
+                                <li>• Etter avlevering: tredjespiller kan løpe inn i boks/45° for å binde stopper og åpne rom.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -343,9 +343,9 @@ export const UEFASeksjon = () => {
                                 Fasemodell
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Fase 1 – tredjespiller: posisjon, orientering, maks 2 touch.</li>
-                                <li>• Fase 2 – assist: hurtig valg på 1–2 touch.</li>
-                                <li>• Fase 3 – målscorer: riktig rom og hurtig avslutning.</li>
+                                <li>• Fase 1 – tredjespiller: scan → rettvendt mottak → tempoøkning.</li>
+                                <li>• Fase 2 – målgivende: sett opp kant/back eller spill gjennom for å skape siste pasning/innlegg.</li>
+                                <li>• Fase 3 – målscorer: få berøringer og tydelige løp i boks (2–3 foran mål).</li>
                               </ul>
                             </div>
                           </div>
@@ -353,11 +353,14 @@ export const UEFASeksjon = () => {
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Motstander-analyse
+                                Treningsfokus (5)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Hvor mye press får tredjespiller? Planlegg motsvar.</li>
-                                <li>• Skal vi bruke kort corner for å skape tredjespiller eller gå langt?</li>
+                                <li>• Orientering + mottak i fart (tredjespiller).</li>
+                                <li>• Få-touch i siste tredjedel (færre berøringer jo nærmere mål).</li>
+                                <li>• Relasjonelle løp: back–kant–indre løper/spiss for å skape 2v1.</li>
+                                <li>• Hurtig spillvending → angrep motsatt kant (vendingsspill).</li>
+                                <li>• Tredjespillerens gjenbesøk i boks etter pasning (bind stopper / åpne rom).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -365,9 +368,9 @@ export const UEFASeksjon = () => {
                                 Rollebeskrivelser
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Tredjespiller (10/8): orientering, maks 2 touch, tempo.</li>
-                                <li>• Assist (kant/back): 1–2 touch, les press, lever presist.</li>
-                                <li>• Målscorer: første touch mot mål, avslutt innen 1–2 touch.</li>
+                                <li>• Tredjespiller (10/8): orientering, raske valg under press, sett opp kant/back.</li>
+                                <li>• Målgivende (kant/back): lever presist i høy fart – innlegg/sistepasning tidlig nok.</li>
+                                <li>• Målscorer: få berøringer og tydelig bevegelse i boks (angrip 1. stolpe/bakre/returrom).</li>
                               </ul>
                             </div>
                           </div>

@@ -21,7 +21,9 @@
 
 ## 2. Sammendrag
 
-Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strømsgodset, Nordstrand) for å kartlegge hva de tre siste spillerne gjør før scoring. Han fant at internasjonale toppklubber avslutter sekvensene på 4–8 sekunder med 1–3 touch per spiller, mens norske lag bruker flere touch og mer tid. Tredjespilleren (spilleren før assist) er oftest orientert i mellomrom, gjør hurtige valg og setter tempoet. Strømsgodset ligner mest på toppklubbene, Nordstrand og andre norske lag trenger bedre forberedelse (orientering, maks touch). Oppgaven oversettes til konkrete KPI-er, øvelser og kampplanpunkter for å heve siste tredjedel.
+Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strømsgodset, Nordstrand) for å kartlegge hva de tre siste spillerne gjør før scoring: **tredjespiller → målgivende → målscorer**. Kjernefunnene er at tredjespilleren har en avgjørende rolle i å **skyte opp tempoet** i angrepet via orientering før/under mottak, raske valg under press og en klar idé om hvor/hvordan angrepet skal utvikles. Alle lagene i studien involverer **kantspiller** på en eller annen måte når tredjespilleren har ballen.
+
+Tempo skiller nivåene tydeligst: internasjonale topplag bruker i snitt **6,37 sek** fra tredjespiller mottar ball til scoring, mens Strømsgodset ligger på **7,09** og Nordstrand på **7,9** (oppgavens sammendrag). Antall berøringer reduseres jo nærmere mål man kommer: tredjespilleren på pro-lag bruker i snitt **2,17 berøringer**, og målscoreren bruker **hovedsakelig 1–2** (figur 9).
 
 ---
 
@@ -29,20 +31,20 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
-| Tid fra tredjespiller mottar ball til scoring | 4–8 sek (Barcelona/Bayern), 6–12 sek (Strømsgodset) | Kap. 4.3 tabell |
-| Berøringer per spiller (3 siste) | 1–3 touch (78 % av scoringene) | Kap. 4.4 |
-| Tredjespiller-posisjon | Mellomrom/sentralt i 68 % tilfeller | Videoanalyse | 
-| Assists touch-count | 1–3 touch (høy kvalitet) | Videoanalyse |
+| Tid (tredjespiller → scoring) | 6,37 sek (topplag) / 7,09 (Strømsgodset) / 7,9 (Nordstrand) | Sammendrag |
+| Berøringer (3 siste involverte) | 2,1 i snitt (topplag) / 2,32 (Nordstrand) | Sammendrag |
+| Berøringer (tredjespiller, pro-lag) | 2,17 i snitt | Sammendrag |
+| Berøringer (målscorer) | Hovedsakelig 1–2 berøringer | Figur 9 |
 
 ---
 
 ## 4. Prinsipper og konsepter
 
 ### 4.1 Hovedprinsipper
-- **Tredjespilleren setter rytmen**: Mottar i mellomrom, orienterer før ball, få touch.
-- **Tempo og touch**: Internasjonalt 1–3 touch; norske lag trenger å trene ned berøringer.
-- **Orientering**: Før kontakt + mens ballen er i spill.
-- **Strukturell støtte**: Kant/back gir bredde, spiss truer bakrom, midtbane sikrer mot kontring.
+- **Tredjespilleren setter rytmen**: orientering før/under mottak, raske valg under press, og en tydelig idé om hvor angrepet skal utvikles.
+- **Kant involveres**: alle lagene i studien involverer kantspiller når tredjespilleren har ballen.
+- **Berøringer ned mot mål**: tendens til færre berøringer jo nærmere avslutning man kommer (målscorer hovedsakelig 1–2).
+- **Tempo er den store forskjellen**: norsk toppfotball kan være nær på antall berøringer, men skiller på tid (pasningskraft, førstetouch, beslutninger og samtidige løp i fart).
 
 ### 4.2 Fasemodell
 - **Fase 1** (tredjespiller): posisjonering/orientering.
@@ -70,10 +72,10 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 **Organisering:**
 - Midtsone = mellomrom, jokere spiller tredjespiller-rolle.
 
-**Regler:**
-1. Tredjespiller maks 2 touch.
-2. Scoring tillates først når jokeren har vært innom.
-3. Mål = pasning inn i mini-mål etter maks 6 sek.
+**Forslag til regler (treningsstyring):**
+1. Begrens berøringer i siste tredjedel for å øke tempoet (tilpass nivå).
+2. Scoring tillates først når tredjespilleren har vært involvert.
+3. Bruk tidspress som virkemiddel (kortere sekvens) hvis dere klarer å holde kvalitet.
 
 **Coaching points:**
 - Orientering før mottak.
@@ -100,10 +102,10 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 **Organisering:**
 - Hvert angrep må inkludere tredjespiller → assist → målscorer.
 
-**Regler:**
-1. Tredjespiller maks 2 touch.
-2. Assist maks 2 touch.
-3. Scoring innen 6 sek etter tredjespiller touch.
+**Forslag til regler (treningsstyring):**
+1. Gi tredjespilleren et tydelig «hurtigvalg»-krav (f.eks. begrens berøringer) for å trene orientering + mottak i fart.
+2. Sett krav til presisjon i sistepasning/innlegg i høy fart.
+3. Bruk tidspress som progresjon – ikke som fasit.
 
 **Poeng:**
 - Mål innenfor rammene = 2 poeng.
@@ -120,8 +122,8 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 
 ## 6. Corner / Dødball
 
-- **Offensivt:** Registrer touch & tid ved kort corner (mål = 6 sek). Eureka: bruk kort variant for å skape tredjespiller.
-- **Defensivt:** Press på innkast (3 spillere rundt ball innen 3 sek).
+- **Offensivt:** Vurder korte varianter for å skape en tydelig tredjespiller-situasjon (tredjespiller → målgivende → avslutning).
+- **Defensivt:** Bruk enkle cues for reaksjon etter klarering (sikre 2. ball / returrom).
 
 ---
 
@@ -131,19 +133,19 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 ```javascript
 {
   id: "a02-touch",
-  text: "Tredjespiller: maks 2 touch, orienter før mottak",
+  text: "Tredjespiller: orienter før mottak og hold få berøringer (pro-lag 2,17 i snitt)",
 },
 {
   id: "a02-tid",
-  text: "Mål innen 6 sek fra tredjespiller touch (mål 3 ganger pr kamp)",
+  text: "Tempo: korte sekvenser fra tredjespiller til scoring (topplag 6,37 sek i snitt)",
 },
 {
   id: "a02-assist",
-  text: "Assister: les press, spill på 1-2 touch",
+  text: "Målgivende: les press og lever presist i høy fart – ofte via kant/back",
 },
 {
   id: "a02-malscorer",
-  text: "Målscorer: ta første touch mot mål (1 touch avslutning)",
+  text: "Målscorer: få berøringer nær mål (tendens 1–2) og tydelige boks-løp",
 },
 {
   id: "a02-orientering",
@@ -164,25 +166,25 @@ Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strøms
 
 ## 8. Evaluering
 
-| Indikator | Mål |
-|-----------|-----|
-| Scoringer <6 sek fra tredjespiller | 3 |
-| Touch (3-players) ≤6 | 80 % |
-| Tredjespiller orientering (video) | 90 % |
+| Indikator | Retning |
+|-----------|---------|
+| Tid fra tredjespiller til avslutning | Kortere over tid (uten å miste kvalitet) |
+| Berøringer i siste tredjedel | Færre berøringer når dere nærmer dere mål |
+| Orientering (video/observasjon) | Mer scanning før mottak og rettvendte mottak |
 
 ---
 
 ## 9. Coaching Tips / Trenerveiledning
 - **Cue:** «Se før du får ballen»
-- **Cue:** «1-2 touch = tempo»
-- **Cue:** «Mål = 6 sek»
-- **Ikke:** Tillat 5+ touch for tredjespiller.
+- **Cue:** «Rettvendt»
+- **Cue:** «Sett opp kant»
+- **Cue:** «Etter pasning – løp»
 
 ### Trenerveiledning
 | Kategori | Gjør dette | Ikke gjør |
 |----------|-----------|-----------|
-| Orientering | «Sjekk før kontakt» | «Ikke spill uten blikk» |
-| Tempo | «Ros hurtige valg» | «Ikke overforklar – la cues styre» |
+| Orientering | «Sjekk før kontakt og mens bildet endrer seg» | «Ikke ta imot uten å vite neste aksjon» |
+| Tempo | «Belønn raske valg + presisjon i høy fart» | «Ikke jag fart uten kvalitet i førstetouch/pasning» |
 
 ---
 

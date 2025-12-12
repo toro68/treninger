@@ -165,27 +165,82 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     tema: "De tre siste spillerne (tempo, touch, roller)",
     roller: ["Sentral midtbane", "Indreløper", "Vinger", "Spiss"],
     sammendrag:
-      "Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strømsgodset, Nordstrand) og ser på de tre siste involverte før scoring: tredjespiller → målgivende → målscorer. Funnene peker på at tredjespilleren må være svært godt orientert, ta raske valg og sette tempoet. I sammendraget rapporteres snitt 6,37 sek fra tredjespiller mottar ball til scoring (internasjonale topplag), mens Strømsgodset ligger på 7,09 og Nordstrand på 7,9. Touch reduseres jo nærmere mål man kommer; topplagene ligger på ca. 2,1 berøringer per spiller i de tre siste involveringene.",
+      "Jacobsen analyserte 340 scoringer (Barcelona, Bayern, Manchester United, Strømsgodset, Nordstrand) og ser på de tre siste involverte før scoring: tredjespiller → målgivende → målscorer. Kjernefunnene er at tredjespilleren er den «skjulte» playmakeren som setter tempoet via orientering før/under mottak, raske valg under press og en tydelig idé om hvor angrepet skal utvikles. Alle lagene i studien involverer kantspiller på en eller annen måte når tredjespilleren har ballen. Tempoet skiller nivåene tydeligst: internasjonale topplag bruker i snitt 6,37 sek fra tredjespiller mottar ball til scoring, mens Strømsgodset ligger på 7,09 og Nordstrand på 7,9. Antall berøringer reduseres jo nærmere mål man kommer; tredjespilleren på pro-lag bruker i snitt 2,17 berøringer, og målscoreren bruker hovedsakelig 1–2.",
     kpier: [
       { navn: "Tid (tredjespiller → scoring)", referanseverdi: "6,37 sek (topplag) / 7,09 (Strømsgodset) / 7,9 (Nordstrand)", kilde: "Sammendrag" },
       { navn: "Berøringer (3 siste involverte)", referanseverdi: "2,1 i snitt (topplag) / 2,32 (Nordstrand)", kilde: "Sammendrag" },
       { navn: "Berøringer (tredjespiller, pro-lag)", referanseverdi: "2,17 i snitt", kilde: "Sammendrag" },
+      { navn: "Berøringer (målscorer)", referanseverdi: "Hovedsakelig 1–2 berøringer", kilde: "Figur 9" },
     ],
     fokuspunkter: [
-      { id: "a02-touch", tekst: "Tredjespiller: orienter før mottak og spill på få touch (rundt 2 i snitt)", rolle: "Sentral midtbane" },
-      { id: "a02-tid", tekst: "Sett tempo i siste tredjedel: korte sekvenser fra tredjespiller til avslutning (snitt 6,37 sek i topplag)", rolle: "Indreløper" },
-      { id: "a02-assist", tekst: "Målgivende ledd: raskt valg og presisjon – ofte via kant/back (f.eks. kjapt innlegg)", rolle: "Vinger" },
-      { id: "a02-malscorer", tekst: "Målscorer: færre touch jo nærmere mål – forbered avslutning med første touch", rolle: "Spiss" },
-      { id: "a02-orientering", tekst: "Orientering er avgjørende under press – spesielt for tredjespiller høyt i banen", rolle: "Indreløper" },
+      {
+        id: "a02-tredjespiller-kjennetegn",
+        tekst:
+          "Tredjespilleren (tredje sist på ball): kontinuerlig orientering, raske valg under press og en klar idé om hvor/hvordan angrepet skal utvikles",
+        rolle: "Sentral midtbane",
+      },
+      {
+        id: "a02-touch",
+        tekst: "Tredjespiller: orienter før mottak og spill på få touch (pro-lag: 2,17 i snitt)",
+        rolle: "Sentral midtbane",
+      },
+      {
+        id: "a02-tid",
+        tekst:
+          "Tempo i siste tredjedel: korte sekvenser fra tredjespiller til scoring (snitt 6,37 sek i topplag; 7,09 Strømsgodset; 7,9 Nordstrand)",
+        rolle: "Indreløper",
+      },
+      {
+        id: "a02-kant-involvering",
+        tekst:
+          "Kant involveres nesten alltid når tredjespilleren har ballen: sett opp kant/back for innlegg, 1v1 eller bakrom",
+        rolle: "Vinger",
+      },
+      {
+        id: "a02-assist",
+        tekst:
+          "Målgivende ledd: færre berøringer og raskere valg jo nærmere mål – ofte via kant/back i innleggsrom",
+        rolle: "Vinger",
+      },
+      {
+        id: "a02-etterpasning",
+        tekst:
+          "Bevegelse etter avlevering: tredjespilleren kan slippe til kant og sprint inn i boks for å dra stopper og åpne rom",
+        rolle: "Indreløper",
+      },
+      {
+        id: "a02-2v1-back",
+        tekst:
+          "Skap 2v1 på sideback: overlap/underlap + timing for å få innleggsrom eller gjennombrudd",
+      },
+      {
+        id: "a02-vending",
+        tekst:
+          "Spillvending som våpen: hurtig vending på midtbanen for å angripe motsatt kant (vendingsspiller-rollen)",
+      },
+      {
+        id: "a02-malscorer",
+        tekst:
+          "Målscorer: tendens til færre berøringer jo nærmere mål – målscorer bruker hovedsakelig 1–2 berøringer",
+        rolle: "Spiss",
+      },
+      {
+        id: "a02-orientering",
+        tekst: "Orientering under press: skann før mottak og mens bildet endrer seg fra sekund til sekund",
+        rolle: "Indreløper",
+      },
     ],
     ovelser: [
       { kode: "uefa-a02-01" },
       { kode: "uefa-a02-02" },
     ],
     coachingCues: [
-      { kategori: "Orientering", gjor: "Se før du får ballen", ikkeGjor: "Ikke spill uten blikk" },
-      { kategori: "Tempo", gjor: "1-2 touch = tempo", ikkeGjor: "Ikke tillat 5+ touch" },
-      { kategori: "Mål", gjor: "Minne om 'Mål = 6 sek'", ikkeGjor: "Ikke la spillerne trekke ned tempo" },
+      { kategori: "Tredjespiller", gjor: "Skann før mottak og ta med første touch i fart", ikkeGjor: "Ikke ta imot flatfotet og spill kun støtte" },
+      { kategori: "Tredjespiller", gjor: "Involver kant/back når du får ballen – sett opp 1v1/innleggsrom", ikkeGjor: "Ikke lås spillet i smale rom uten bredde" },
+      { kategori: "Tempo", gjor: "Jakt flyt: korte sekvenser fra tredjespiller til avslutning", ikkeGjor: "Ikke senk tempo etter første gjennombrudd" },
+      { kategori: "Berøringer", gjor: "Tren få-touch i siste tredjedel (målscorer: ofte 1–2)", ikkeGjor: "Ikke gi ekstra berøringer «for å få kontroll» nær boksen" },
+      { kategori: "Relasjoner", gjor: "Skap 2v1 på back med overlap/underlap + timing", ikkeGjor: "Ikke løp samme rom samtidig" },
+      { kategori: "Etterpasning", gjor: "Etter avlevering: løp inn i boks/45° for å binde stopper og åpne rom", ikkeGjor: "Ikke bli stående og se på etter pasning" },
     ],
     kildefil: "A02-angrep-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-per-inge-jacobsen.pdf",
