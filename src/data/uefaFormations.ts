@@ -79,14 +79,16 @@ export const uefaFormations: UEFAFormation[] = [
       "Sterk boksbeskyttelse på innlegg med tre stoppere inne.",
       "Sentralt overtall gir gode vinkler i oppbygging og i returløp/gjenvinning.",
       "To spisser med motsatte bevegelser skaper gjennombrudd sentralt (møte/stikk).",
-      "Vingbacker kan brukes som vendingspunkt – ikke bare innlegg – for å få ballen inn i mellomrom." 
+      "Vingbacker kan brukes som vendingspunkt – ikke bare innlegg – for å få ballen inn i mellomrom.",
+      "Klare avtaler på siste tredjedel (møte/stikke/fylle/sikre) gir flere repeterbare mønstre."
     ],
     svakheter: [
       "Rommet bak høye vingbacker kan bli sårbart ved balltap hvis ytre stopper går høyt samtidig.",
       "Hvis førsteforsvarer blir passert og stoppere mangler fart, kan overganger bli krevende å stoppe.",
       "Krever høy kapasitet i vingback-rollen (mange meter + 1v1 begge veier).",
       "Kan bli kant-sårbart hvis vingback blir stående alene (2v1) uten støtte fra indreløper/ytre stopper.",
-      "Krever høy presisjon i rolleavtaler på siste tredjedel (hvem møter, hvem stikker, hvem sikrer)."
+      "Krever høy presisjon i rolleavtaler på siste tredjedel (hvem møter, hvem stikker, hvem fyller boks, hvem sikrer).",
+      "Hvis ytre stopper tar for mye oppspillsansvar under press, kan det gi dårligere betingelser i frispilling og større overgangsrisiko."
     ],
     spillerprofiler: [
       {
@@ -156,6 +158,7 @@ export const uefaFormations: UEFAFormation[] = [
         detaljer: [
           "Søk tre stoppere i boks ved innlegg – ofte overtall inne.",
           "Kombiner sonespillere og markering ut fra hvem som er best i lufta / nærmest ball.",
+          "Ved innlegg kan ytre stopper + vingback være sonespillere, mens andre tar markering (avhengig av motstanderens trusler).",
           "Prioritér returrom: sikre andreball og ny fase etter klarering.",
           "Før innlegg: press ballfører for å forsinke/forringe innleggskvalitet (stopp innleggsfot om mulig).",
           "Når innlegg slås: fordel roller raskt (nærmeste tar ballbane, andre tar rom, tredje tar bakre sikring).",
@@ -170,6 +173,7 @@ export const uefaFormations: UEFAFormation[] = [
           "Vurder spillerprofil: stoppere uten fart må kompensere med posisjonering, orientering og sikringsavstander.",
           "Hvis ballen tapes med høye vingbacker: prioriter å stoppe direkteball i bakrom og løp hjem med ansiktet mot egen mål.",
           "Hvis dere ikke kan vinne ballen raskt tilbake: fall av, steng midten, og tving motstander ut i sidekorridor.",
+          "Selv med numerisk balanse kan overgangen ryke på tempo: vær ærlig på 1v1-fart i bakre treer og justér risiko deretter.",
         ],
       },
       {
@@ -183,6 +187,7 @@ export const uefaFormations: UEFAFormation[] = [
           "Hvis spiss møter: se etter tredje-mann-løp (indreløper/vingback) før støttepasning bakover.",
           "Hvis regista får rettvendt: angrip med stikker i bakrom eller pasning inn i mellomrom – ikke bli " +
             "stående i sideveis sirkulasjon.",
+          "Prioritér gjennombrudd sentralt når det er mulig – bredde skal ofte brukes for å åpne midten, ikke som mål i seg selv.",
         ],
       },
       {
@@ -203,6 +208,23 @@ export const uefaFormations: UEFAFormation[] = [
           "Hvis dere vinner ballen tilbake: spill raskt fram i mellomrom/bakrom før motstander rekker å etablere lav blokk igjen.",
         ],
       },
+      {
+        tittel: "Siste tredjedel: rolleavtaler",
+        detaljer: [
+          "Avklar før dere går i etablering: hvem møter (spiss), hvem stikker (spiss/indreløper), hvem fyller boks, hvem sikrer.",
+          "Spiss–spiss-relasjon: en møter og en strekker – indreløper timer løp i rommet som åpnes.",
+          "Vingback som vendingspunkt: bruk ham til å vende inn i mellomrom, ikke bare for å slå tidlig innlegg.",
+        ],
+      },
+      {
+        tittel: "Anvendelse (DFI): når passer 3-5-2?",
+        detaljer: [
+          "Bruk 3-5-2 som verktøy for spillestil: styre med ball, ha mange sentralt for pasningsspill og gjenvinning.",
+          "Defensivt gir det ofte enklere kompakt senter og boksbeskyttelse, med mulighet for selektiv markering.",
+          "Offensivt gir det sentralt overtall, gode frispillingsvinkler og tydelige mønstre på siste tredjedel.",
+          "Aksepter risiko: høye vingbacker + mye folk sentralt krever felles forståelse for press-signaler og hva som skjer etter balltap.",
+        ],
+      },
     ],
     kjennetegn: [
       "Fem bak i lavt press (5-3-2) med klare rom- og rolleansvar.",
@@ -214,6 +236,8 @@ export const uefaFormations: UEFAFormation[] = [
       "Regista som konstant støtte/vendingspunkt og 2.-ballspiller.",
       "Spissduo med møte/stikk og motsatte løp.",
       "Gjenvinning (gegenpress light) brukt som våpen i etablerte angrep.",
+      "Siste tredjedel styres av avtaler: møte/stikke, boksfylling og sikring.",
+      "3-5-2 brukes best som ramme for en spillestil (DFI), ikke som et mål i seg selv.",
     ],
   },
   {
