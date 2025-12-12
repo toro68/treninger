@@ -888,7 +888,7 @@ export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a18-01",
     exerciseNumber: 533,
-    name: "Gullsoner – spillvending",
+    name: "Rommet mellom back og stopper – spillvending",
     category: "game",
     duration: 18,
     playersMin: 14,
@@ -896,11 +896,11 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "8v8+Gk på 50x45 m. Angripende lag må vende spillet før de kan forsøke gjennombrudd. Fokus på å overbefolke en side, trekke motstander, og vende raskt til motsatt for å angripe gullsonen mellom back og stopper.",
+      "8v8+Gk. Bane: forslag ca. 50x45 m. Angripende lag kan få et krav om å vende spillet før de forsøker gjennombrudd. Fokus på å overbefolke en side, trekke motstander, og vende til motsatt for å angripe rommet mellom back og stopper.",
     coachingPoints: [
       "Tålmodig bearbeiding – vurder pressbalanse",
-      "Vending = tempo (2 touch maks)",
-      "Angrip mellom back/stopper etter vending",
+      "Vending = tempo og kvalitet i første pasning etter vending",
+      "Angrip rommet mellom back/stopper etter vending",
     ],
     variations: [
       "Legg til begrensning på antall berøringer",
@@ -921,15 +921,15 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "6v6 på 35x35 m med to småmål i hver ende. Lag A angriper mot lav blokk, men hver gang innlegget/blcokerte skuddet skjer, skal de gjenvinne innen 5 sek og angripe gjennom sentrum. Trener legger inn baller for å simulere Rosenborgs gjenvinning.",
+      "6v6. Bane: forslag ca. 35x35 m med to småmål i hver ende. Lag A angriper mot lav blokk, men ved blokkert innlegg/skudd er målet å vinne ballen raskt tilbake og angripe gjennom sentrum. Trener legger inn baller for å simulere gjenvinningssituasjoner.",
     coachingPoints: [
-      "Struktur: 3+2 sikring",
+      "Struktur og balanse i angrep",
       "Vinn ball nær boks – spill gjennom forskjøyvde rom",
       "Første touch framover etter gjenvinning",
     ],
     variations: [
       "Legg til kantsoner for overlapp",
-      "Bruk tidsbonus (mål innen 8 sek etter gjenvinning)",
+      "Bruk tidsbonus (valgfritt)",
     ],
     source: "uefa",
     sourceRef: "A18 Hiep Tran – Angrep mot etablert forsvar",
@@ -950,10 +950,10 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["kjegler", "baller"],
     description:
-      "Tre soner á 10x25 m med 4v2 i hver. Ballen skal oppholde seg i en sone med minst fem pas før den flyttes. Ved balltap skal 1F presse framover innen 3 sek (gjenvinningsprinsipp).",
+      "Tre soner (forslag: ca. 10x25 m) med 4v2 i hver. Ballen skal oppholde seg i en sone med minst fem pas før den flyttes. Ved balltap: mål å presse raskt framover (gjenvinningsprinsipp).",
     coachingPoints: [
       "Pasningskvalitet i trange rom",
-      "Støttevinkler (to-touch-policy)",
+      "Støttevinkler (valgfritt: to-touch-policy)",
       "1A/1F-roller etter KFUM-prinsipp",
     ],
     variations: [
@@ -975,11 +975,11 @@ export const uefaExercises: Exercise[] = [
     theme: "angrep",
     equipment: ["mål", "kjegler", "baller"],
     description:
-      "8v8 på 50x40 m. Angripende lag (4-3-3) møter 4-4-2 i lav blokk. Poeng for gjennombrudd i definerte soner (rom 2/3, kant). Bonus for mål etter gjenvinning innen 6 sek.",
+      "8v8 (forslag: ca. 50x40 m). Angripende lag (4-3-3) møter 4-4-2 i lav blokk. Poeng for gjennombrudd i definerte soner (rom 2/3, kant). Valgfritt: bonus for gjenvinning som gir ny sjanse raskt.",
     coachingPoints: [
       "Tålmodighet i bearbeiding",
       "Back-IL-kant kombinasjoner",
-      "Struktur (3+2 sikring) før risiko",
+      "Struktur og balanse før risiko",
     ],
     variations: [
       "Endre sonene som gir poeng",

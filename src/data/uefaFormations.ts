@@ -70,26 +70,151 @@ export const uefaFormations: UEFAFormation[] = [
     id: "3-5-2",
     navn: "3-5-2",
     svgDiagram: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130"><rect width="100" height="130" fill="#4CAF50"/><circle cx="50" cy="120" r="5" fill="yellow"/><circle cx="25" cy="100" r="5" fill="white"/><circle cx="50" cy="100" r="5" fill="white"/><circle cx="75" cy="100" r="5" fill="white"/><circle cx="10" cy="65" r="5" fill="lightblue"/><circle cx="35" cy="60" r="5" fill="lightblue"/><circle cx="50" cy="50" r="5" fill="lightblue"/><circle cx="65" cy="60" r="5" fill="lightblue"/><circle cx="90" cy="65" r="5" fill="lightblue"/><circle cx="40" cy="20" r="5" fill="red"/><circle cx="60" cy="20" r="5" fill="red"/></svg>`,
-    beskrivelse: "En formasjon som gir numerisk overtall både sentralt i forsvar og på midtbanen. Den er avhengig av svært hardtarbeidende vingbacker som dekker hele siden.",
+    beskrivelse:
+      "3-5-2 er en formasjon som ofte brukes som et verktøy for spillestil: fem bak i lavt press (5-3-2), mye folk sentralt, og klare roller for når laget går fra lav blokk til høyt press. Den gir et sterkt senter (mellomrom/bakrom) og tydelige angrepsmønstre med to spisser, indreløpere og vingbacker.",
     styrker: [
-      "Solid defensivt med tre midtstoppere mot to spisser.",
-      "5 spillere på midtbanen gir sentral kontroll.",
-      "To spisser skaper trøbbel for motstanderens forsvar.",
-      "Vingbackene gir permanent bredde i angrep."
+      "Lav blokk med fem bak gjør det enklere å beskytte mellomrom, bakrom og egen boks.",
+      "Klar romprioritering (steng sentralt først) gir forutsigbarhet i forsvar.",
+      "Avtalte press-signaler gjør høyt press mer synkront og effektivt.",
+      "Sterk boksbeskyttelse på innlegg med tre stoppere inne.",
+      "Sentralt overtall gir gode vinkler i oppbygging og i returløp/gjenvinning.",
+      "To spisser med motsatte bevegelser skaper gjennombrudd sentralt (møte/stikk).",
+      "Vingbacker kan brukes som vendingspunkt – ikke bare innlegg – for å få ballen inn i mellomrom." 
     ],
     svakheter: [
-      "Store rom bak vingbackene som kan utnyttes av motstanderen.",
-      "Svært fysisk krevende for vingbackene.",
-      "Kan bli undertall på kantene i forsvar (2v1 mot vingback)."
+      "Rommet bak høye vingbacker kan bli sårbart ved balltap hvis ytre stopper går høyt samtidig.",
+      "Hvis førsteforsvarer blir passert og stoppere mangler fart, kan overganger bli krevende å stoppe.",
+      "Krever høy kapasitet i vingback-rollen (mange meter + 1v1 begge veier).",
+      "Kan bli kant-sårbart hvis vingback blir stående alene (2v1) uten støtte fra indreløper/ytre stopper.",
+      "Krever høy presisjon i rolleavtaler på siste tredjedel (hvem møter, hvem stikker, hvem sikrer)."
     ],
     spillerprofiler: [
-      { rolle: "Vingback", profil: "Ekstrem løpskapasitet og god utholdenhet. Må være like god defensivt som offensivt, og ha gode innleggsferdigheter." },
-      { rolle: "Sentrale midtbanespillere", profil: "En blanding av en kreativ '10er', en ballvinner og en 'box-to-box' spiller for å kontrollere midtbanen." }
+      {
+        rolle: "Keeper",
+        profil:
+          "God igangsetter og trygg med beina. Offensiv i feltet og klar til å rydde bak bakre ledd (sweeper-tendenser).",
+      },
+      {
+        rolle: "Ytre stoppere",
+        profil:
+          "Sterke 1v1 og i lufta. Komfortable med ball (kan bære fram og tre gjennom ledd). Må kunne håndtere rommet bak høye vingbacker og veksle mellom sone og selektiv markering når sikring er på plass.",
+      },
+      {
+        rolle: "Sentral stopper",
+        profil:
+          "Leder og styrer: linje, balanse, sikring og kommunikasjon. Må prioritere rom (mellomrom/bakrom først) og organisere boksforsvar ved innlegg.",
+      },
+      {
+        rolle: "Vingbacker",
+        profil:
+          "Ekstrem løpskraft. Må vinne 1v1 både offensivt og defensivt, time løp (bredde, bakre stolpe), og kunne være et vendingspunkt i etablerte angrep – ikke bare slå tidlige innlegg.",
+      },
+      {
+        rolle: "Sentralt anker (regista)",
+        profil:
+          "Pasningshjerne og rytmestyrer. Tilbyr seg konstant som vendingspunkt, kan slå stikkere i bakrom og pasninger inn i mellomrom, og må være sterk i gjenvinning/andreball i returrom.",
+      },
+      {
+        rolle: "Indreløpere",
+        profil:
+          "Motorer med løpsstyrke. Strekker i mellomrom for å åpne for spiss som møter, timer bakromsløp, fyller boks på innlegg, og jobber hjem i returløp.",
+      },
+      {
+        rolle: "Spisser",
+        profil:
+          "Må kunne både møte og true bakrom. Jobber i relasjon: en møter, en strekker (motsatte løp). Lojale i press-spill og gode på å legge av på én touch i mønstre.",
+      },
     ],
     relaterteAnalyser: ["a01-juventus-352"],
     kildefil: "3-5-2.md",
-    taktiskePrinsipper: [],
-    kjennetegn: []
+    taktiskePrinsipper: [
+      {
+        tittel: "Defensiv struktur (lavt press som default)",
+        detaljer: [
+          "Organiser som 5-3-2: tre stoppere + lave vingbacker.",
+          "Soneforsvar som utgangspunkt, med selektiv markering når sikring er på plass.",
+          "Romprioritering: steng mellomrom og bakrom først – led motstander ut i sidekorridor.",
+          "Hvis ballen er sentral: vær kompakt og tålmodig – ikke bryt ut og åpne mellomrom.",
+          "Hvis ballen går ut i sidekorridor: vingback går, nærmeste indreløper støtter, ytre stopper sikrer rommet bak.",
+          "Hvis spiss faller ned i mellomrom: avklar hvem som følger (anker/ytre stopper) og hvem som sikrer bakrom.",
+        ],
+      },
+      {
+        tittel: "Press-signaler og høyt press",
+        detaljer: [
+          "Gå høyt på avtalte signaler (eksempel: dårlig førstetouch, tversoverpasning, feilvendt stopper, svak klarering).",
+          "Spissene går på hver sin stopper når laget trår opp.",
+          "Vingback presser back og leder innover mot indreløper + ytre stopper; resten sideforskyver og sikrer.",
+          "Hvis press-signalet kommer: alle må opp samtidig – ikke " +
+            "enkeltpress som åpner pasningslinjer rundt.",
+          "Hvis ballen spilles til back: vingback presser med kroppsvinkel som leder inn (ikke gi enkel linje langs siden).",
+          "Hvis spiss presser stopper: press med vinkel som låser pasningen inn sentralt og gjør støttepasning forutsigbar.",
+        ],
+      },
+      {
+        tittel: "Innlegg imot (boksbeskyttelse)",
+        detaljer: [
+          "Søk tre stoppere i boks ved innlegg – ofte overtall inne.",
+          "Kombiner sonespillere og markering ut fra hvem som er best i lufta / nærmest ball.",
+          "Prioritér returrom: sikre andreball og ny fase etter klarering.",
+          "Før innlegg: press ballfører for å forsinke/forringe innleggskvalitet (stopp innleggsfot om mulig).",
+          "Når innlegg slås: fordel roller raskt (nærmeste tar ballbane, andre tar rom, tredje tar bakre sikring).",
+          "Etter klarering: vær påskrudd i returrom – neste aksjon er ofte 2. ball eller nytt innlegg.",
+        ],
+      },
+      {
+        tittel: "Overganger imot (typiske feller)",
+        detaljer: [
+          "Unngå at ytre stopper går høyt uten balanse bak – det åpner bakrom når vingbacker er høye.",
+          "Hvis førsteforsvarer blir passert, må resten være forberedt på å løpe hjem og stenge sentralt.",
+          "Vurder spillerprofil: stoppere uten fart må kompensere med posisjonering, orientering og sikringsavstander.",
+          "Hvis ballen tapes med høye vingbacker: prioriter å stoppe direkteball i bakrom og løp hjem med ansiktet mot egen mål.",
+          "Hvis dere ikke kan vinne ballen raskt tilbake: fall av, steng midten, og tving motstander ut i sidekorridor.",
+        ],
+      },
+      {
+        tittel: "Oppbygging og etablerte mønstre",
+        detaljer: [
+          "Oppspill starter ofte via ytre stopper som kan bære fram og tre opp.",
+          "Indreløper strekker i mellomrom for å åpne rom for spiss som møter.",
+          "Vingback står bredt og kan være vendingspunkt; regista tilbyr seg konstant sentralt.",
+          "Mønster: vingback → spiss møter → avlegg (én touch) → indreløper i bakrom.",
+          "Hvis ytre stopper får tid: bær fram for å trekke ut motstanders ledd – spill deretter inn i mellomrom eller på vendingspunkt.",
+          "Hvis spiss møter: se etter tredje-mann-løp (indreløper/vingback) før støttepasning bakover.",
+          "Hvis regista får rettvendt: angrip med stikker i bakrom eller pasning inn i mellomrom – ikke bli " +
+            "stående i sideveis sirkulasjon.",
+        ],
+      },
+      {
+        tittel: "Innleggsmønster og returrom",
+        detaljer: [
+          "Fyll boks: to spisser + motsatt indreløper + motsatt vingback.",
+          "Hold igjen i returrom: ballnær indreløper + regista for andreball/gjenvinning.",
+          "Hvis vingback får slå innlegg: avklar roller før pasningen (hvem går 1. stolpe, hvem går bakre, hvem kommer i cutback/returrom).",
+          "Hvis innlegget blir blokkert: vær klar for ny fase (gjenvinn → nytt innlegg eller spill inn sentralt).",
+        ],
+      },
+      {
+        tittel: "Gjenvinning som egen fase",
+        detaljer: [
+          "Vær forberedt på balltap høyt: mange spillere er allerede sentralt/høyt og kan vinne ball raskt tilbake.",
+          "Tør gjennombruddspasningen når strukturen bak er klar for gjenvinning.",
+          "Hvis ballen tapes i siste tredjedel: nærmeste spillere presser umiddelbart, mens resten låser sentralt og sikrer bakrom.",
+          "Hvis dere vinner ballen tilbake: spill raskt fram i mellomrom/bakrom før motstander rekker å etablere lav blokk igjen.",
+        ],
+      },
+    ],
+    kjennetegn: [
+      "Fem bak i lavt press (5-3-2) med klare rom- og rolleansvar.",
+      "Soneforsvar som base – med selektiv markering når sikring er etablert.",
+      "Romprioritering: mellomrom/bakrom før press på ball.",
+      "Felles press-signaler for å trigge høyt press og få samtidighet.",
+      "Tre stoppere i boks ved innlegg og tydelig returrom-rolle.",
+      "Vingback som breddeholder og vendingspunkt.",
+      "Regista som konstant støtte/vendingspunkt og 2.-ballspiller.",
+      "Spissduo med møte/stikk og motsatte løp.",
+      "Gjenvinning (gegenpress light) brukt som våpen i etablerte angrep.",
+    ],
   },
   {
     id: "4-4-2",

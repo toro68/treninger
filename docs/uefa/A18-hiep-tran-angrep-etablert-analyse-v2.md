@@ -24,8 +24,7 @@
 Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Varegg) for å identifisere hvilke virkemidler som faktisk skaper ubalanse når motstander ligger lavt. Funn:
 - Alle fire lag velger tålmodig oppbygging og hyppige spillvendinger, men bruken varierer: Bayern vil inn på kant, Barcelona bruker siden for å frigjøre sentrum, Rosenborg kombinerer back–IL–kant, Varegg angriper direkte gjennom midten.
 - Nøkkelvirkemidler: spillvendinger, 1v1-pådrag, overlapp, innlegg og gjenvinning («kontring på kontring»).
-- Stor kvalitetsforskjell gir ulike tempo og antall angrep mot etablert forsvar (Bayern 163, Barca 204, RBK 88, Varegg 191), men prinsippene er de samme.
-- Norske lag har god effekt når de holder ballen lenger (tålmodighet), men må trene mer på struktur (3+2) for å høste flere gjenvinningsmål.
+- Stor kvalitetsforskjell gir ulike tempo og antall angrep mot etablert forsvar (Bayern 163, Barca 204, RBK 99, Varegg 191), men prinsippene er de samme.
 
 ---
 
@@ -34,10 +33,10 @@ Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Va
 | KPI | RBK | Bayern | Barcelona | Varegg |
 |-----|-----|--------|-----------|--------|
 | Antall kamper | 5 | 4 | 5 | 5 |
-| Etablerte angrep | 88 | 163 | 204 | 191 |
-| Vellykkede angrep | 18 | 30 | 37 | 32 |
-| Spillvendinger | 23 | 84 | 343 | 42 |
-| Innlegg involvert | 9 | Data ikke spesifisert | 10 | 16 |
+| Etablerte angrep | 99 | 163 | 204 | 191 |
+| Vellykkede angrep | 20 | 30 | 37 | 32 |
+| Vending av spill | 114 | 228 | 343 | 93 |
+| Innlegg (totalt) | 24 | 69 | 36 | 37 |
 
 (Detaljer i kapittel 5.1–5.4)
 
@@ -60,25 +59,25 @@ Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Va
 
 ## 5. Øvelser (UEFA-knapp)
 
-### Øvelse 1: Spillvending til gullsone
+### Øvelse 1: Spillvending til rommet mellom back og stopper
 
 | Felt | Beskrivelse |
 |------|-------------|
 | **Kode** | UEFA-A18-01 |
 | **Kategori** | Angrep |
 | **Spillere** | 14–18 |
-| **Bane** | 50 x 45 m, markér gullsone (mellom back og stopper) |
+| **Bane** | Forslag: ca. 50 x 45 m. Marker gjerne rommet mellom back og stopper som målområde |
 | **Format** | 8v8+Gk (4-3-3 vs 4-4-2) |
 | **Varighet** | 3 x 6 min |
 
 **Regler:**
 1. Angrep må vende spillet før gjennombrudd.
-2. Mål = 2 poeng hvis pasning går inn i gullsone etter vending.
+2. Mål = 2 poeng hvis pasning går inn i rommet mellom back og stopper etter vending.
 
 **Coaching points:**
 - Tålmodig bearbeiding.
 - Vend lavt og høyt.
-- Kant/back må time løp inn i rom 2/3.
+- Kant/back: timing på løp inn i rommet mellom back og stopper.
 
 ---
 
@@ -89,16 +88,15 @@ Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Va
 | **Kode** | UEFA-A18-02 |
 | **Kategori** | Gjenvinning |
 | **Spillere** | 12–16 |
-| **Bane** | 35 x 35 m (lav blokk-område) |
+| **Bane** | Forslag: ca. 35 x 35 m (lav blokk-område) |
 | **Format** | 6v6, to småmål |
 | **Varighet** | 4 x 4 min |
 
 **Regler:**
-- Angripende lag får ny ball når skuddet blokkeres – må gjenvinne innen 5 sek og spille gjennom sentrum.
-- Bonus for mål innen 8 sek etter gjenvinning.
+- Angripende lag får ny ball når skudd/innlegg blokkeres – mål å vinne ballen raskt tilbake og angripe gjennom sentrum.
 
 **Coaching points:**
-- Stram struktur (3+2).
+- Struktur og balanse i angrep.
 - Første touch framover.
 - Spille på tvers → angripe rommet bak presset.
 
@@ -120,20 +118,19 @@ Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Va
 },
 {
   id: "a18-gjenvinning",
-  text: "Kontring på kontring – 3+2 sikring gir ballen tilbake"
+  text: "Kontring på kontring – struktur og balanse i angrep gjør gjenvinning mulig"
 }
 ```
 
 ---
 
-## 7. Evaluering
+## 7. Evaluering (valgfritt)
 
-| Indikator | Mål |
-|-----------|-----|
-| Spillvendinger pr kamp | ≥15 |
-| Vellykkede angrep vs etablert | ≥10 |
-| Gjenvinningsmål | ≥1 pr kamp |
-| Innlegg/gjennombruddskvalitet | ≥50 % sjanser etter planlagt mønster |
+Mulige indikatorer (tilpass eget lag og nivå):
+- Kvalitet i spillvendinger (timing, presisjon, mottak/videre spill)
+- Om dere klarer å skape rettvendte mottak i mellomrom etter vending
+- Om dere kommer til gjennombrudd på kant/sentrum med god balanse ved balltap
+- Antall og kvalitet på gjenvinninger i fasen rett etter brudd/avskjæring
 
 ---
 
@@ -146,3 +143,5 @@ Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Va
 ---
 
 *(Tall fra analysene (kap. 5) brukes til KPI-er; juster ved behov for eksakte tall.)*
+
+*(Tallene over er hentet fra selve oppgaven. Ikke bruk dem som «målkrav» uten å kontekstualisere nivå og kampbilde.)*
