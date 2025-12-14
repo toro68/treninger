@@ -21,7 +21,7 @@
 
 ## 2. Sammendrag
 
-Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål og scoringer fra Barcelona, Real Madrid, Man City/United (2011/12). Han destillerer 14 punkter som kjennetegner gode målscorere: posisjonering, orientering, avslutningsteknikk, mentalitet og gjentagende trening. Analysen viser at målscoring er trenbar; toppavsluttere har repeterbare rutiner og jobber kontinuerlig med touch, tempo, bevegelse og etterarbeid. Oppgaven oversettes til KPI-er, øvelser og kampplanpunkter som gjør spissrollen mer strukturert i norsk fotball.
+Rushfeldt peker spesielt på tre ting som bør styre treningen: **avslutte fort**, **«16-meteren»** og **å ha en plan**. Tallmaterialet viser at de fleste mål scores på 1–2 touch og nært mål, og at innlegg/returer er viktige kilder til «lette» mål. Poenget er å bygge vaner gjennom kampnære repetisjoner: bestem før mottak, vær i riktig sone når sjansen kommer, beveg deg på blindsiden og jakt returer konsekvent.
 
 ---
 
@@ -31,6 +31,7 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 |-----|----------------|-------|
 | Datagrunnlag (Rushfeldt) | ~300 mål analysert (toppnivå) | Bakgrunn |
 | Datagrunnlag (toppklubber 2011/12) | ca. 400 scoringer analysert | Bakgrunn |
+| Mål på 1 touch (Rushfeldt) | 70 % av målene | «Avslutte fort» |
 | Mål på 1–2 touch (toppklubber) | 83 % av målene | «Avslutte fort» |
 | Mål på 1–2 touch (Rushfeldt) | 85 % av målene | «Avslutte fort» |
 | Mål innenfor 16 m (Rushfeldt) | 94 % (75 % innenfor 11 m) | «16 meteren» |
@@ -39,17 +40,35 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 
 ---
 
-## 4. Prinsipper og konsepter
+## 4. Hovedprinsipper (spillernært)
 
-### 4.1 Hovedpunkter (fra foredraget)
-1. Orientering før mottak.
-2. Tåle å mislykkes – mental robusthet.
-3. Første touch inn i avslutning.
-4. Varier bevegelse (bakrom, forrige stolpe, motsatt).
-5. Etterarbeid – jakt returer.
+* **Avslutt fort:** nøling/ekstra touch koster sjanser; bygg repertoar for 1–2 touch.
+* **Vær i «riktig sone»:** jobb for å komme deg **inn i 16 m** (helst **11 m**) før sjansen kommer.
+* **Ha en plan:** faste avslutningsalternativer i typiske situasjoner (1v1, skrå vinkel, innlegg, retur).
+* **Bevegelse i boks:** hold deg på **blindsiden lengst mulig**, og **ikke stå i ro** i markering.
+* **Presisjon nær mål, kraft på distanse:** innenfor 16 m → oftere **sikker innside/plassering**, lengre hold → mer kraft.
 
-### 4.2 Læringsteori
-- Rushfeldt knytter forbedring til kognitiv/sosial læring; målscoring er trenbart via bevisst repetisjon, video, feedback og selvregulering.
+---
+
+## 5. Kampdimensjon → KPI (enkle å telle på laget ditt)
+
+**Referanse/ambisjon (bygget på tallene over):**
+
+* **Andel avslutninger på 1 touch i boks** (mål: opp mot “topplag-nivå”).
+* **Andel avslutninger på 1–2 touch totalt** (mål: **≥80 %** i boks).
+* **Andel avslutninger innenfor 16 m / 11 m** (f.eks. “flere avslutninger fra 11 m-sonen per kamp”).
+* **Returløp pr. kamp** (måles som “løp inn i returrom ved skudd/innlegg”).
+
+---
+
+---
+
+## 6. Kampplan (MatchPrep)
+
+* **Definer «scoringssoner» i kampplanen:** 11 m-sonen = arbeidsplassen (avtal hvem som angriper hvilke soner ved innlegg/cutback).
+* **Plan-kort for spissene (3–4 situasjoner):** alene med keeper, skrå vinkel, innlegg 1. stolpe/bakre, retur.
+* **Oppvarming:** 6–8 min med *1-touch/2-touch avslutninger under stress* (jagende forsvarer / tidskrav).
+* **Avklar kommunikasjon:** gi tydelige signal når det faktisk hjelper ballfører.
 
 ---
 
@@ -114,29 +133,35 @@ Rushfeldt kombinerer 20 års erfaring som toppspiss med videodata fra egne mål 
 
 ---
 
-## 7. Kampplanintegrasjon
-```javascript
-{
-  id: "a07-bevegelse",
-  text: "Spiss: varier løp (bakrom, foran, motsatt)",
-},
-{
-  id: "a07-touch",
-  text: "1–2 touch i boks – forbered deg før pass",
-},
-{
-  id: "a07-mental",
-  text: "Tåle bom – jakt neste sjanse",
-},
-{
-  id: "a07-retur",
-  text: "Alle jag returer (spesielt spiss/kant)",
-},
-```
+---
+
+## 7. Coaching cues (korte stikkord du kan rope)
+
+* «**Er du usikker på tid, har du dårlig tid.**»
+* «**1 touch i boks – bestem før mottak.**»
+* «**Blindsiden lenge – rykk på ball!**»
+* «**Retur er din jobb – alltid.**»
+* «**Nært mål = presisjon (innside).**»
 
 ---
 
-## 8. Evaluering
+## 8. Avslutningsmodus (praktisk “valgmodell” i boksen)
+
+**1) 1-touch modus (standard i 11 m)**
+
+* Trigger: innlegg/cutback, tight press, lite tid → avslutt på første.
+
+**2) 1v1-modus (kom i fart inn i 16 m)**
+
+* Trigger: du kommer rettvendt med rom → hold farta, press forsvarer.
+
+**3) Sikkerhetsmodus (nært keeper)**
+
+* Trigger: kort hold / keeper tett → velg plassering/innside fremfor kraft.
+
+---
+
+## 9. Evaluering
 
 Hold evalueringen enkel og kildetro:
 - Ser vi flere avslutninger på 1–2 touch i boks?
@@ -145,15 +170,16 @@ Hold evalueringen enkel og kildetro:
 
 ---
 
-## 9. Coaching Tips / Trenerveiledning
-- **Cue:** «Se før du får den»
-- **Cue:** «Første touch inn – skyt!»
-- **Cue:** «Miss? Finn ballen igjen.»
-- **Ikke:** La spissen stå passivt.
+## 10. Coaching Tips / Trenerveiledning
+- **Cue:** «Er du usikker på tid, har du dårlig tid.»
+- **Cue:** «1 touch i boks – bestem før mottak.»
+- **Cue:** «Blindsiden lenge – rykk på ball!»
+- **Cue:** «Retur er din jobb – alltid.»
+- **Ikke:** La spissen stå i ro i markering.
 
 ---
 
-## 10. Implementering
+## 11. Implementering
 | Komponent | Status |
 |-----------|--------|
 | Øvelser | UEFA-A07-01/02 |
@@ -163,7 +189,7 @@ Hold evalueringen enkel og kildetro:
 
 ---
 
-## 11. Referanser
+## 12. Referanser
 - Original oppgave: `docs/uefa/A07-sigurd-rushfeldt-maalscorer.txt`
 
 ---
