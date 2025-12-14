@@ -936,6 +936,90 @@ export const UEFASeksjon = () => {
                         </div>
                       )}
 
+                      {valgtAnalyse.kode === "A07" && (
+                        <div className="space-y-4">
+                          <div className="rounded-xl border border-amber-200 bg-amber-50 p-3">
+                            <p className="text-xs font-semibold text-amber-800 uppercase tracking-wide">
+                              Målscorer – nøkkelgrep
+                            </p>
+                            <ul className="mt-2 space-y-1 text-sm text-amber-900">
+                              <li>• 3 styringsprinsipper: avslutt fort, riktig sone (16 m/11 m) og ha en plan.</li>
+                              <li>• 70 % av målene på 1 touch (85 % på 1–2 touch).</li>
+                              <li>• 94 % av målene innenfor 16 m (75 % innenfor 11 m).</li>
+                              <li>• Innlegg + returer er store bidragsytere (37 % innlegg / ~10 % returer).</li>
+                            </ul>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Hovedprinsipper
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Avslutt fort – bygg repertoar for 1–2 touch.</li>
+                                <li>• Kom deg inn i 16 m (helst 11 m) før sjansen.</li>
+                                <li>• Ha en plan i typiske situasjoner (1v1, skrå vinkel, innlegg, retur).</li>
+                                <li>• Bevegelse i boks: blindsiden lenge, rykk på ball.</li>
+                                <li>• Etterarbeid: returløp er en vane (alltid).</li>
+                              </ul>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                KPI-er
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• 1 touch (egne mål): 70 %.</li>
+                                <li>• 1–2 touch (egne mål): 85 % (toppklubber: 83 %).</li>
+                                <li>• Mål innenfor 16 m: 94 % (innenfor 11 m: 75 %).</li>
+                                <li>• Mål etter innlegg (toppklubber): 37 %.</li>
+                                <li>• Mål etter returer (egne mål): ~10 %.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Kampplan (MatchPrep)
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Planlegg hvordan vi får ballen inn i 11 m-sonen (innlegg/cut-back/returer).</li>
+                                <li>• Avklar «første touch = løsning» i boks (1 touch når mulig).</li>
+                                <li>• Trigger: skudd/innlegg → returløp inn i returrom med en gang.</li>
+                                <li>• KPI i kamp: 1-touch i boks, avslutninger fra 11 m-sone, returløp.</li>
+                              </ul>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Coaching cues
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• «Er du usikker på tid, har du dårlig tid».</li>
+                                <li>• «1 touch i boks – bestem før mottak».</li>
+                                <li>• «Blindsiden lenge – rykk på ball!»</li>
+                                <li>• «Retur er din jobb – alltid».</li>
+                                <li>• «Nært mål = presisjon (innside)».</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
+                            <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
+                            <p className="text-xs text-zinc-500">
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A07-maalscorer-analyse-v2.md</code>. Oppgave:{" "}
+                              <a
+                                href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                              >
+                                fotball.no (PDF)
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      )}
+
                       {valgtAnalyse.kode === "A09" && (
                         <div className="space-y-4">
                           <div className="rounded-xl border border-red-200 bg-red-50 p-3">
