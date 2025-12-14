@@ -1200,23 +1200,23 @@ export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a20-01",
     exerciseNumber: 510,
-    name: "Ett-touch finishing carousel",
+    name: "Cutback-bank (1-touch i boks)",
     category: "station",
     duration: 20,
-    playersMin: 8,
-    playersMax: 12,
+    playersMin: 10,
+    playersMax: 16,
     theme: "avslutning",
-    equipment: ["mål", "baller", "kjegler"],
+    equipment: ["mål", "baller", "kjegler", "vester"],
     description:
-      "Fire stasjoner (innlegg høyre, cut-back venstre, tredjepas vegg, stikkpasning). Spillere roterer, og alle avslutter på ett touch. Bonus for kombinasjoner der tredjepas + assist også er ett touch.",
+      "3 stasjoner: (1) cutback fra dødlinje, (2) innlegg langs bakken, (3) retur i D/16. Første runde: avslutter må forsøke 1-touch i boks. Deretter: «riktig touch» (1–2) med krav om treff/keeperstress. Trener å skape 1-touch-bilder, fotarbeid og timing.",
     coachingPoints: [
-      "Orientering før avslutning",
-      "Timing på løp i boks",
-      "Presisjon i leveranser selv på ett touch",
+      "Avslutter: se mål før mottak – 1 touch når bildet er der",
+      "Målgiver: lever på riktig fot og riktig tempo (timing > touch-jakt)",
+      "Boksroller: 1. stolpe / bakre / D-retur – avklar før ballen slås",
     ],
     variations: [
-      "Legg til forsvarsskjermer",
-      "Tillat to touch ved vanskelige vinkler",
+      "Legg til passiv/aktiv forsvarer for å presse timing og kontakt",
+      "Poengsystem: 1-touch på mål = 2p, 1-touch scoring = 3p",
     ],
     source: "uefa",
     sourceRef: "A20 Stian Lund – Touch og scoring",
@@ -1225,23 +1225,48 @@ export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a20-02",
     exerciseNumber: 541,
-    name: "3-involveringsangrep 7v7",
+    name: "Sistepasning i lommen (maks 2 touch)",
     category: "game",
     duration: 18,
     playersMin: 14,
     playersMax: 16,
     theme: "angrep",
-    equipment: ["mål", "baller", "kjegler"],
+    equipment: ["mål", "baller", "kjegler", "vester"],
     description:
-      "7v7 på 44x40 m. Mål teller kun hvis de tre siste involveringene (tredjepas, assist, avslutter) er på maks ett touch (kan justeres til 1-2 touch). Brudd gir ball til motstander.",
+      "6v6 + 2 nøytrale i mellomrom («lommen»). Poeng kun hvis sistepasning slås på 1–2 touch og leder til avslutning. Trener timing/relasjon hos målgiver, og posisjonering slik at 1-touch-avslutning blir mulig.",
     coachingPoints: [
-      "Skap støttevinkler for ett-touch",
-      "Kommunikasjon og tydelige signal",
-      "Tempo uten å miste presisjon",
+      "Målgiver: timing – slipp den i rett øyeblikk (1–2 touch)",
+      "Avslutter: se mål før mottak – 1-touch når bildet er der",
+      "Lag: skap 1-touch-bilder (cutback/innlegg/pasning riktig fot)",
     ],
     variations: [
-      "Tillat to-touch for assist",
-      "Legg inn tidsbegrensning (10 sek) på angrep",
+      "Krev at sistepasning kommer fra nøytral i lommen",
+      "Bonus: mål på 1-touch teller dobbelt",
+    ],
+    source: "uefa",
+    sourceRef: "A20 Stian Lund – Touch og scoring",
+  },
+
+  {
+    id: "uefa-a20-03",
+    exerciseNumber: 607,
+    name: "Quick restart-spill (innkast/frispark)",
+    category: "game",
+    duration: 18,
+    playersMin: 16,
+    playersMax: 18,
+    theme: "angrep",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "8v8. Ved stopp i spill får laget 5 sek til å starte (innkast/frispark). Poeng hvis laget kommer til avslutning innen 10 sek etter restart. Trener overraskelse som våpen og felles triggere før motstander er satt.",
+    coachingPoints: [
+      "Kjør raskt! (restart før de organiserer seg)",
+      "Avklar 2–3 faste triggere: bakrom / inn i boks / cutback",
+      "Når dere ikke har bilde: spill sikkert og bygg nytt angrep",
+    ],
+    variations: [
+      "Begrens antall touch i de første 10 sekundene (maks 2 touch)",
+      "Gi ekstra poeng for 1-touch-avslutning etter quick restart",
     ],
     source: "uefa",
     sourceRef: "A20 Stian Lund – Touch og scoring",
@@ -1254,7 +1279,7 @@ export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a21-01",
     exerciseNumber: 511,
-    name: "Perfeksjonisme-runden",
+    name: "Garasje/vegg – 10 av 10",
     category: "station",
     duration: 15,
     playersMin: 4,
@@ -1262,15 +1287,15 @@ export const uefaExercises: Exercise[] = [
     theme: "avslutning",
     equipment: ["mål", "baller", "kjegler"],
     description:
-      "Spiller velger avslutningstype (volley, heading, cut-back). Må gjennomføre 10/10 på rad før han bytter stasjon. Hvis serien brytes, starter han på nytt. Visualiser kamptrykk (A21-mentalitet).",
+      "Marker 2 soner/linjer og jobb med 1-touch/halvsprett mot vegg/serve. Varier fot og treffpunkt. Krav: 10/10 bestått i valgt sone før du stopper eller bytter variant. Poenget er å bygge 10/10-standard (kvalitet i repetisjon).",
     coachingPoints: [
-      "Fokus på detaljer",
-      "Visualiser scenario (straff, 90. min)",
-      "Selvstyrt repetisjon",
+      "10/10-standard: kvalitet > volum",
+      "Samme detalj hver rep (treffpunkt/rytme/kropp)",
+      "Logg bestått/ikke bestått",
     ],
     variations: [
-      "Legg til passiv forsvarer",
-      "Endre mål: 8/8, 12/12",
+      "Varier avslutningstype: 1-touch / halvsprett / volley",
+      "Endre krav: 8/8, 12/12 eller to soner (5/5 + 5/5)",
     ],
     source: "uefa",
     sourceRef: "A21 Totto Dahlum – Notorisk målscorer",
@@ -1279,7 +1304,7 @@ export const uefaExercises: Exercise[] = [
   {
     id: "uefa-a21-02",
     exerciseNumber: 514,
-    name: "Visualiseringsscenario",
+    name: "Avslutning med konsekvens (pressbolk)",
     category: "station",
     duration: 10,
     playersMin: 6,
@@ -1287,18 +1312,385 @@ export const uefaExercises: Exercise[] = [
     theme: "mental",
     equipment: ["baller", "kjegler"],
     description:
-      "Spillere beskriver kamp-scenario (0-0, 90. min, bakre stolpe). Trener kaster ball, spiss avslutter umiddelbart. Fokus på mental forberedelse og beslutningsevne.",
+      "8 avslutninger fra 2–3 faste scoringsrom. Bom gir poeng til \"motstander\" (eller konsekvens: ekstra runde/ny serie). Målet er å trigge konkurranseinstinkt og å holde teknikk/ro under press.",
     coachingPoints: [
-      "Se situasjonen før ballen kommer",
-      "Ingen ekstra touch",
-      "Best når det gjelder",
+      "Gjør det kamp-likt: spill om noe (poeng/konsekvens)",
+      "Hold ro og teknikk selv når det står \"noe på spill\"",
+      "Definer 1–2 hovedavslutninger (cutback/innlegg/bakrom)",
     ],
     variations: [
-      "Legg til keeper",
-      "Bruk straffespark med konsekvens",
+      "Legg til keeper og/eller passiv forsvarer",
+      "Touch-krav: 1-touch i boks eller maks 2 touch",
     ],
     source: "uefa",
     sourceRef: "A21 Totto Dahlum – Notorisk målscorer",
+  },
+
+  {
+    id: "uefa-a21-03",
+    exerciseNumber: 608,
+    name: "Selvstendig kvalitet (12 min)",
+    category: "station",
+    duration: 12,
+    playersMin: 1,
+    playersMax: 6,
+    theme: "avslutning",
+    equipment: ["baller", "kjegler", "mål"],
+    description:
+      "3 x 4 min: (1) 1-touch avslutning, (2) 2-touch med retningsbestemt første touch, (3) valgfri – men alt logges som bestått/ikke bestått. Økten trener selvstendighet, struktur og kvalitetsrepetisjon.",
+    coachingPoints: [
+      "System slår humør: kjør bolkene uansett",
+      "Logg bestått/ikke bestått (standard over tid)",
+      "Riktig første touch gir rask avslutning",
+    ],
+    variations: [
+      "Legg inn \"konsekvens\": ved bom → 2 ekstra reps før du går videre",
+      "Legg inn tids-/poengpress: mål på 60 sek gir bonus",
+    ],
+    source: "uefa",
+    sourceRef: "A21 Totto Dahlum – Notorisk målscorer",
+  },
+
+  // ══════════════════════════════════════════════════════════
+  // A25: FFK forsvar (Even Juliussen)
+  // ══════════════════════════════════════════════════════════
+
+  {
+    id: "uefa-a25-01",
+    exerciseNumber: 609,
+    name: "Ramma vs press (7v7 + 2 jokere)",
+    category: "game",
+    duration: 18,
+    playersMin: 16,
+    playersMax: 18,
+    theme: "forsvar",
+    equipment: ["baller", "kjegler", "vester", "mål"],
+    description:
+      "7v7 + 2 jokere på middels flate. Forsvaret får poeng kun hvis ball vinnes etter tydelig trigger; ellers må laget holde «ramma» i X sek før de kan gå i press. Målet er å trene felles beslutningsregel (ramma vs press) og unngå halv-press uten sikring.",
+    coachingPoints: [
+      "Avklar triggerord: når er det press, når er det ramme?",
+      "1F bremser/leder – 2F sikrer (vinkel + avstand)",
+      "Hold dybde og korte avstander i og mellom ledd",
+    ],
+    variations: [
+      "Sett X=6–10 sek i ramme før press er lov",
+      "Gi bonuspoeng hvis ballvinning leder til avslutning innen 10 sek",
+    ],
+    source: "uefa",
+    sourceRef: "A25 Even Juliussen – FFK forsvar 2012",
+  },
+
+  {
+    id: "uefa-a25-02",
+    exerciseNumber: 610,
+    name: "Triangel-sikring mot innlegg/cutback (kantkorridor)",
+    category: "station",
+    duration: 16,
+    playersMin: 10,
+    playersMax: 14,
+    theme: "forsvar",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Kantkorridor + boks. Start med ball i rommet «bak og mellom» back–stopper. Angrep søker innlegg/cutback; forsvar trener relasjonen back–stopper–CM (triangel-sikring), hvem som møter, hvem som dekker bakrom og hvem som beskytter returrom/straffemerke.",
+    coachingPoints: [
+      "Steng rommet bak og mellom back–stopper",
+      "CM inn i sikring (straffemerke/returrom)",
+      "Kommuniser tidlig: hvem presser, hvem sikrer",
+    ],
+    variations: [
+      "Legg inn tidskrav: innlegg/cutback må komme innen 6 sek",
+      "Start hver rep med klarering → direkte ny innleggssituasjon",
+    ],
+    source: "uefa",
+    sourceRef: "A25 Even Juliussen – FFK forsvar 2012",
+  },
+
+  {
+    id: "uefa-a25-03",
+    exerciseNumber: 611,
+    name: "Push-up etter klarering (10 min closing-spill)",
+    category: "game",
+    duration: 10,
+    playersMin: 14,
+    playersMax: 18,
+    theme: "forsvar",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Closing-spill der hver klarering utløser umiddelbar «Opp sammen!». Hele laget skal opp og tette rom innen 3–4 sek for å stoppe retur/cutback og hindre trykk i sluttfasen.",
+    coachingPoints: [
+      "Felles push-up-trigger etter klarering",
+      "Backledd holder igjen – ikke falle av for tidlig",
+      "Vinn andreball og få ro (kontrollert klarering)",
+    ],
+    variations: [
+      "Bonuspoeng for ballvinning på andreball etter klarering",
+      "Tving avslutning/cutback fra bred sone for å øke realistisk trykk",
+    ],
+    source: "uefa",
+    sourceRef: "A25 Even Juliussen – FFK forsvar 2012",
+  },
+
+  {
+    id: "uefa-a25-04",
+    exerciseNumber: 612,
+    name: "Dødballpakke (innkast + straffe/corner)",
+    category: "station",
+    duration: 20,
+    playersMin: 12,
+    playersMax: 18,
+    theme: "dødball",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Dødballpakke med vekt på innkast og corner (samt straffe-rutiner). Trener organisering, roller, sone/mann-valg og restforsvar – med fokus på å redusere andelen dødballmål.",
+    coachingPoints: [
+      "Roller og ansvar: hvem markerer, hvem dekker sone",
+      "Restforsvar og andreball-posisjonering",
+      "Kommunikasjon og beslutning før ballen settes i spill",
+    ],
+    variations: [
+      "Kjør 6–8 reps per variant før bytte (innkast/corner)",
+      "Legg inn «closing»-regel: siste 5 min = lavere risiko og tydeligere klarering",
+    ],
+    source: "uefa",
+    sourceRef: "A25 Even Juliussen – FFK forsvar 2012",
+  },
+
+  // ══════════════════════════════════════════════════════════
+  // A26: Forsvar mot innlegg (Gaute Helstrup)
+  // ══════════════════════════════════════════════════════════
+
+  {
+    id: "uefa-a26-01",
+    exerciseNumber: 619,
+    name: "Farlig vs ufarlig sone (stopp innlegg)",
+    category: "game",
+    duration: 18,
+    playersMin: 12,
+    playersMax: 16,
+    theme: "forsvar",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "6v6+keepere på ca. 60x40m med markert «farlig innleggs-sone» på begge kanter (siste 10–15m før dødlinje). Angrep får bonuspoeng for innlegg fra farlig sone; forsvar får bonuspoeng for å hindre innlegg (styrt press/lede/blokke) og for å vinne ball før innlegg.",
+    coachingPoints: [
+      "Farlig sone først: press/lede slik at innlegg tvinges fra ufarlig sone",
+      "Kommunikasjon: hvem møter, hvem sikrer innvendig",
+      "Forflytning bakre ledd: holde boksrolle mens presset går",
+    ],
+    variations: [
+      "Krav: innlegg må komme innen 6 sek etter at ball går ut på kant",
+      "Gi forsvar bonuspoeng for brudd som gir kontring (for å koble omstilling)",
+    ],
+    source: "uefa",
+    sourceRef: "A26 Gaute Helstrup – Forsvar mot innlegg (TUIL 2010)",
+  },
+
+  {
+    id: "uefa-a26-02",
+    exerciseNumber: 620,
+    name: "Boksroller 4v4(+keeper) – 1/midt/bak + returrom",
+    category: "station",
+    duration: 16,
+    playersMin: 9,
+    playersMax: 12,
+    theme: "forsvar",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Stasjon i og rundt 16m: 4 angripere vs 4 forsvarere + keeper. Server fra kant (varier farlig/ufarlig sone). Forsvar trener «telle opp» og fordele roller i første/midtre/bakre sone + én spiller i returrom. Målet er avklaring og kontroll på andreball.",
+    coachingPoints: [
+      "Telle opp før ballen slås: 1/midt/bak/retur",
+      "Bakre stolpe: ikke gi fri avslutning",
+      "Returrom: lås posisjon og vinn andreball",
+      "Kommunikasjon keeper–stopper–back",
+    ],
+    variations: [
+      "Poeng til angrep for bakre stolpe/returrom-avslutning (tving fokus)",
+      "Etter avklaring: direkte ny ball inn (2. fase) før forsvar får hvile",
+    ],
+    source: "uefa",
+    sourceRef: "A26 Gaute Helstrup – Forsvar mot innlegg (TUIL 2010)",
+  },
+
+  {
+    id: "uefa-a26-03",
+    exerciseNumber: 621,
+    name: "Sluttfase-innlegg (push-up + andreball)",
+    category: "game",
+    duration: 12,
+    playersMin: 14,
+    playersMax: 20,
+    theme: "forsvar",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "8v8(+keepere) med regel: hver gang ballen klareres ut av boks skal laget umiddelbart «opp sammen» og sette ny balanse på 3–4 sek. Angrep søker raskt nytt innlegg/cutback (andre fase) for å simulere trykk i sluttfasen.",
+    coachingPoints: [
+      "Felles push-up-trigger etter klarering",
+      "Tett mellomrom og beskytt returrom",
+      "Ikke bli stående lavt: opp i ledd og stopp ny server",
+    ],
+    variations: [
+      "Bonus til angrep for scoring etter andreball",
+      "Bonus til forsvar for 2 avklaringer på rad + kontrollert utgang (holde ball)",
+    ],
+    source: "uefa",
+    sourceRef: "A26 Gaute Helstrup – Forsvar mot innlegg (TUIL 2010)",
+  },
+
+  // ══════════════════════════════════════════════════════════
+  // G01: Keeper (Håkon Grøttland)
+  // ══════════════════════════════════════════════════════════
+
+  {
+    id: "uefa-g01-01",
+    exerciseNumber: 613,
+    name: "7v7 med felles midtbane (keepervalg)",
+    category: "game",
+    duration: 18,
+    playersMin: 14,
+    playersMax: 16,
+    theme: "keeper",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "7v7 med felles midtbane for å trigge hyppige overganger og rettvendte situasjoner i mellomrom. Keeper får mange kampnære valg: gjennomspill, distanseskudd og timing på romtaking.",
+    coachingPoints: [
+      "Velg før du går (les ballfører, løp og avstand)",
+      "Kommunikasjon: styr bakre ledd og pressretning",
+      "Vær set i skuddøyeblikk, bak ball og lås grep",
+    ],
+    variations: [
+      "Tid/press-regel: keeper har maks 3 sek ved tilbakespill",
+      "Poengbonus for «avverging før skudd» (bryte gjennomspill)",
+    ],
+    source: "uefa",
+    sourceRef: "G01 Håkon Grøttland – Keeper (spillbasert keeperutvikling)",
+  },
+
+  {
+    id: "uefa-g01-02",
+    exerciseNumber: 614,
+    name: "3v3 inne i 16m (næravslutning + 1v1)",
+    category: "game",
+    duration: 12,
+    playersMin: 7,
+    playersMax: 9,
+    theme: "keeper",
+    equipment: ["mål", "baller", "vester"],
+    description:
+      "3v3 spilles inne i 16-meteren. Trener står klar med ny ball for høy repetisjon. Keeper får mange næravslutninger og 1v1-avgjørelser (romtaking/blokkering vs stå).",
+    coachingPoints: [
+      "Rom! når ballen er fri – tim utgang",
+      "Blokkering: kroppsposisjon og forflytning ut av mål",
+      "Set før skudd – ikke være på vei",
+    ],
+    variations: [
+      "Start hver rep med gjennomspill for å trigge 1v1",
+      "Begrens touch for angriperne for å øke tempo i avslutning",
+    ],
+    source: "uefa",
+    sourceRef: "G01 Håkon Grøttland – Keeper (spillbasert keeperutvikling)",
+  },
+
+  {
+    id: "uefa-g01-03",
+    exerciseNumber: 615,
+    name: "6v6 med sidekorridor-frisoner (innlegg)",
+    category: "game",
+    duration: 18,
+    playersMin: 14,
+    playersMax: 14,
+    theme: "keeper",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "6v6 der det er frisoner i sidekorridor som angrep kan bruke for å komme til innlegg. Keeper trener feltarbeid, valg (holde/bokse/avvente) og etterarbeid på retur/andreball.",
+    coachingPoints: [
+      "Avverge før skudd: les innlegg og bryt før avslutning",
+      "Kommuniser boksroller og markering",
+      "Bak ball, lås grep når du kan holde",
+    ],
+    variations: [
+      "Gi bonuspoeng for innlegg som håndteres uten retur",
+      "Øk trykket: legg inn ekstra angriper i boks (overtall)",
+    ],
+    source: "uefa",
+    sourceRef: "G01 Håkon Grøttland – Keeper (spillbasert keeperutvikling)",
+  },
+
+  // ══════════════════════════════════════════════════════════
+  // G02: Keeper (Tor Martin Hegrenes)
+  // ══════════════════════════════════════════════════════════
+
+  {
+    id: "uefa-g02-01",
+    exerciseNumber: 616,
+    name: "Spill med skuddsoner (valg + returer)",
+    category: "game",
+    duration: 18,
+    playersMin: 12,
+    playersMax: 16,
+    theme: "keeper",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Spillform med markerte skuddsoner der lag får poeng for avslutninger fra bestemte soner/vinkler. Keeper trener posisjonering, grunnstilling i skuddøyeblikk og samhandling på returer/press.",
+    coachingPoints: [
+      "Set i skuddøyeblikk",
+      "Bak ball og håndtering av returer",
+      "Kommuniser: hvem tar skytter, hvem tar returrom",
+    ],
+    variations: [
+      "Bonus for scoring etter retur (tving keeper/lag til andreball-fokus)",
+      "Begrens tid på ball før skudd for å øke kamptrykk",
+    ],
+    source: "uefa",
+    sourceRef: "G02 Tor Martin Hegrenes – Keeper (kampdimensjon og prioritering)",
+  },
+
+  {
+    id: "uefa-g02-02",
+    exerciseNumber: 617,
+    name: "Vende på keeperne (tilbakespill + igangsetting)",
+    category: "game",
+    duration: 16,
+    playersMin: 12,
+    playersMax: 16,
+    theme: "keeper",
+    equipment: ["mål", "baller", "kjegler", "vester"],
+    description:
+      "Spillform der laget får poeng for å spille inn på keeper og ut igjen, før man angriper motsatt. Trener posisjonering for å bli spillbar, flere valgmuligheter og beslutning under tid/press.",
+    coachingPoints: [
+      "Vær spillbar før tilbakespill (vinkel + avstand)",
+      "Scan – velg tempo (hurtig/rolig igangsetting)",
+      "Tid/press-regel for å forsterke kamptrykk",
+    ],
+    variations: [
+      "Maks 2 touch for keeper ved tilbakespill",
+      "Poengbonus hvis igangsetting bryter første pressledd",
+    ],
+    source: "uefa",
+    sourceRef: "G02 Tor Martin Hegrenes – Keeper (kampdimensjon og prioritering)",
+  },
+
+  {
+    id: "uefa-g02-03",
+    exerciseNumber: 618,
+    name: "Server til keeper (igangsetting + omstilling)",
+    category: "game",
+    duration: 18,
+    playersMin: 12,
+    playersMax: 18,
+    theme: "keeper",
+    equipment: ["mål", "baller", "vester"],
+    description:
+      "Start hver sekvens med server til keeper (varier: innlegg/gjennomspill/skudd) før spillet fortsetter. Sikrer mange kampnære igangsettinger og defensive situasjoner i samme økt.",
+    coachingPoints: [
+      "Flere valg før du spiller (2–3 løsninger)",
+      "Kommunikasjon og organisering i overgang til forsvar",
+      "Tid/press-regel på første aksjon",
+    ],
+    variations: [
+      "Veksle start: skudd i trafikk annenhver rep",
+      "Poeng hvis laget scorer innen 10 sek etter igangsetting",
+    ],
+    source: "uefa",
+    sourceRef: "G02 Tor Martin Hegrenes – Keeper (kampdimensjon og prioritering)",
   },
 
   // ══════════════════════════════════════════════════════════

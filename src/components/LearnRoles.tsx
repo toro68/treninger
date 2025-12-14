@@ -10,7 +10,8 @@ type LearningPhase = {
   learningMoments: string[];
   practiceFormats: string[];
   keyQuestions: string[];
-  source: string;
+  sourceLabel: string;
+  sourceUrl?: string;
 };
 
 const phases: LearningPhase[] = [
@@ -31,7 +32,8 @@ const phases: LearningPhase[] = [
       "Diskusjonsøkter: Hva skjedde? Hva kunne vi gjort?",
     ],
     keyQuestions: ["Hva er min viktigste oppgave akkurat NÅ?", "Hvem trenger hjelp?"],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
   },
   {
     id: "r-2",
@@ -58,7 +60,8 @@ const phases: LearningPhase[] = [
       "Hva er mine 3 viktigste oppgaver?",
       "Hva er jeg BEST på i min posisjon?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
   },
   {
     id: "r-3",
@@ -83,7 +86,31 @@ const phases: LearningPhase[] = [
       "Hva gjør JEG når vi er i fase X?",
       "Hvor skal jeg være? Hva skal jeg se etter?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
+  },
+  {
+    id: "r-9",
+    name: "UEFA: Overgang – ansvar for restforsvar (3+2)",
+    description: "Hvem sikrer når vi angriper?",
+    prerequisites: ["Fasespesifikke oppgaver"],
+    learningMoments: [
+      "Enkel regel: restforsvar (‘def i off’) = 3 + 2",
+      "Rollene fylles av de som er nærmest – ikke alltid samme to",
+      "Førsteforsvarer som signalspiller: vinn når vi har balanse, sink når vi er i ubalanse",
+      "Etter brudd: frem hvis mulig – ellers vekk fra press for ny rettvendt ballfører",
+    ],
+    practiceFormats: [
+      "Angrepsspill med ‘3+2-krav’ før overbelastning/boksfyll",
+      "Overgangsspill: tap ball → 2–3 nærmeste går, resten sikrer/stopper første pasning frem",
+      "Kampnær: stopp- og start med frys – hvem har ansvar for bakrom/returrom?",
+    ],
+    keyQuestions: [
+      "Har vi 3+2 igjen før vi sender flere i boks?",
+      "Hvis vi mister ballen: hvem er 1F – og hvem sikrer bakrom?",
+    ],
+    sourceLabel: "UEFA A09 (Bjarte Lunde Aarsheim)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
   },
   {
     id: "r-4",
@@ -109,7 +136,100 @@ const phases: LearningPhase[] = [
       "Hvordan kommuniserer vi?",
       "Hvem sikrer meg når jeg går?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
+  },
+  {
+    id: "r-5",
+    name: "UEFA: 6-er / anker (balanse + pasningskvalitet)",
+    description: "Rollekrav fra kampdata: stabilitet først",
+    prerequisites: ["Relasjonell samhandling forstått"],
+    learningMoments: [
+      "KPI-tankegang: høy pasningskvalitet under press (≈85 % som referanse)",
+      "Defensivt: prioriter balanse og dekk rom sentralt før du støter",
+      "Oppbygging: vær spillbar og skap rettvendt neste ledd (to trekk frem)",
+      "Når vi angriper: skann restforsvar (hva kan gå galt hvis vi mister ball?)",
+    ],
+    practiceFormats: [
+      "Posisjonsspill med 6-er som ‘vendingspunkt’ (bonus for linjebrytende pasning)",
+      "8v8 med ‘balansekrav’: 6-er må alltid sikre sentralt ved angrep på kant",
+      "Video: klipp av 6-er sin posisjonering ved balltap (restforsvar)",
+    ],
+    keyQuestions: [
+      "Er jeg spillbar for stoppere/ankerpunkt – uten å være dekket?",
+      "Hvis vi mister ballen nå: hvem stopper første pasning frem?",
+    ],
+    sourceLabel: "UEFA A06 (Øyvind Iversen)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oyvind-iversen.pdf",
+  },
+  {
+    id: "r-6",
+    name: "UEFA: 10-er / playmaker (skape sjanser under press)",
+    description: "Rask løsning i 0–3 meter + presisjon i siste pasning",
+    prerequisites: ["UEFA: 6-er / anker (balanse + pasningskvalitet)"],
+    learningMoments: [
+      "Skann før mottak: kom sidevendt og få ‘bilde’ før ballen kommer",
+      "Løs under tett press (ofte 0–3 m): 1–2 touch hvis mulig",
+      "Vekt pasningen: ‘på sølvfat’ – presisjon trumfer kraft",
+      "Kamufler før du stikker: samme kroppsstilling, ny pasning",
+    ],
+    practiceFormats: [
+      "4v4+3 med 10-er i mellomrom: poeng for ‘assist-pass’ eller brudd til avslutning",
+      "Constraints: maks 2 touch i mellomrom (men fri touch bak ball)",
+      "Kampnær øvelse: 10-er får ball feilvendt → må skape rettvendt 3. mann",
+    ],
+    keyQuestions: [
+      "Har jeg informasjon før mottak – eller må jeg først sikre og skape ny vinkel?",
+      "Hvilken pasning gir størst sjanse, ikke bare størst risiko?",
+    ],
+    sourceLabel: "UEFA A08 (Gard Holme)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",
+  },
+  {
+    id: "r-8",
+    name: "UEFA: Kant/winger (tid/rom-press + sluttprodukt)",
+    description: "Avgjør på kort tid – med presisjon",
+    prerequisites: ["Relasjonell samhandling forstått"],
+    learningMoments: [
+      "Kant løser ofte under tett press (1–3 m) og kort tid (1–4 sek)",
+      "Sluttprodukt: prioriter målrom (5 m + sentralt i boksen) – og tren cut-back/45°",
+      "Etter innlegg: motsatt kant er ofte målscorer (løp inn i boks på bakre)",
+      "Velg tidlig: 1v1, innlegg/cut-back, eller spill tilbake for ny rytme",
+    ],
+    practiceFormats: [
+      "1v1 på kant med krav om sluttprodukt innen 4 sek",
+      "Innlegg/cut-back mot målrom med boksroller (spiss + motsatt kant)",
+      "Constraints: små baner + poengsystem for riktig valg under press",
+    ],
+    keyQuestions: [
+      "Hva er beste sluttprodukt nå – og har jeg tid til det?",
+      "Hvem fyller boksen: spiss, motsatt kant, indreløper?",
+    ],
+    sourceLabel: "UEFA A10 (Hugo Pereira)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf",
+  },
+  {
+    id: "r-7",
+    name: "UEFA: Spiss (1–2 touch, 11 m-sone, returer)",
+    description: "Målscorer-vaner som kan trenes",
+    prerequisites: ["Fasespesifikke oppgaver"],
+    learningMoments: [
+      "Avslutt fort: bygg repertoar for 1–2 touch i boks",
+      "Riktig sone: kom deg inn i 16 m – helst 11 m – før sjansen",
+      "Blindsiden lenge, rykk på ball (timing > fart)",
+      "Etterarbeid: returløp/returrom er alltid din jobb",
+    ],
+    practiceFormats: [
+      "Avslutning i 11 m-sone med 1-touch-krav",
+      "Innlegg + 2. ball: spiss må alltid følge inn i returrom",
+      "Spissduo: møte–stikk med tydelig rollefordeling",
+    ],
+    keyQuestions: [
+      "Er jeg i ‘riktig sone’ når ballen skal inn?",
+      "Hvor går returen hvis skuddet blir blokkert eller keeper gir retur?",
+    ],
+    sourceLabel: "UEFA A07 (Sigurd Rushfeldt)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf",
   },
 ];
 
@@ -217,14 +337,18 @@ export const LearnRoles = ({ defaultOpen = true }: { defaultOpen?: boolean }) =>
 
                     <p className="text-xs text-zinc-400">
                       Kilde:{" "}
-                      <a
-                        href={`https://${phase.source}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-amber-600 hover:underline"
-                      >
-                        {phase.source}
-                      </a>
+                      {phase.sourceUrl ? (
+                        <a
+                          href={phase.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-amber-600 hover:underline"
+                        >
+                          {phase.sourceLabel}
+                        </a>
+                      ) : (
+                        <span>{phase.sourceLabel}</span>
+                      )}
                     </p>
                   </div>
                 )}

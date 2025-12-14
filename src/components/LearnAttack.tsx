@@ -10,7 +10,8 @@ type LearningPhase = {
   learningMoments: string[];
   practiceFormats: string[];
   keyQuestions: string[];
-  source: string;
+  sourceLabel: string;
+  sourceUrl?: string;
 };
 
 const phases: LearningPhase[] = [
@@ -35,7 +36,8 @@ const phases: LearningPhase[] = [
       "Kan jeg vende opp? Kan jeg spille fremover?",
       "Hvor er rommet?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
   },
   {
     id: "a-2",
@@ -58,30 +60,165 @@ const phases: LearningPhase[] = [
       "Er motstander i ubalanse? → Angrip bakrom",
       "Hvor er rettvendt medspiller?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "tiim.no/landslagsskolens-spillmodell",
+    sourceUrl: "https://tiim.no/landslagsskolens-spillmodell",
   },
   {
     id: "a-3",
-    name: "A3: Avslutning",
-    description: "Ballfører kan skape direkte trusler mot boks",
+    name: "A3: Rytme (ro → akselerasjon → sluttprodukt)",
+    description: "Skifte gir med tydelige touch- og tempo-valg",
     prerequisites: ["A2 mestret"],
     learningMoments: [
-      "True 1. stolpe, bakre stolpe og 45°",
-      "Timing = lese ballførers blikk og touch",
-      "Plassering før kraft i avslutning",
-      "Kort tid mellom nest siste touch og avslutning",
-      "Se på keeper, så på ball",
+      "Rytme er et valg: ro for å flytte – akselerasjon for å bryte",
+      "Touch-regel: 2-touch for kontroll, 1-touch når vi skal bryte linjer",
+      "Tempo-switch: bestem på forhånd hva som er signalet (press, resultat, tid)",
+      "Vendingsvalg: vend når du har dratt presset til én side – ikke som autopilot",
     ],
     practiceFormats: [
-      "Innlegg med bevegelser - 3 spillere i boks",
-      "Avslutningsøvelser med tidspress",
-      "Spill med 'mål fra innlegg teller dobbelt'",
+      "Spill med ‘Tempo!’-signal: 10 sek med 1-touch i siste tredjedel",
+      "Possession → ‘switch’-regel: scoring teller kun etter en rask vending",
+      "Posisjonsspill med touch-koder (2-touch i base, 1-touch i ‘break’-sone)",
     ],
     keyQuestions: [
-      "Hvor skal jeg være når innlegget kommer?",
-      "Har jeg tid til et touch til?",
+      "Skal vi kontrollere eller bryte nå?",
+      "Hvem er vendingspunktet på motsatt side?",
     ],
-    source: "tiim.no/landslagsskolens-spillmodell",
+    sourceLabel: "UEFA A04 (Finn Bredo Olsen)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa_a_2012_oppgave_finn_bredo_olsen.pdf",
+  },
+  {
+    id: "a-4",
+    name: "A4: ‘Siste 3’ – tempo og tredjespiller",
+    description: "<7 sek fra tredjespiller til avslutning",
+    prerequisites: ["A3 mestret"],
+    learningMoments: [
+      "KPI: jakt <7 sek fra ‘tredje sist’ (tredjespiller) til avslutning",
+      "Tredjespiller (10/8): skann før mottak, rettvendt første touch, raske valg under press",
+      "Touch-prinsipp: færre touch jo nærmere mål (målscorer ofte 1–2)",
+      "Tredjemannsbevegelse: spill på 3. mann i fart, ikke bare ‘ball til fot’",
+    ],
+    practiceFormats: [
+      "Øvelse: tredjespiller → målgivende → avslutning med klokke (telles høyt)",
+      "Spill med ‘3 siste involverte’-bonus: scoring teller dobbelt hvis 3. sist er involvert",
+      "Small-sided: maks 2 touch for ‘tredjespiller’-rollen i siste tredjedel",
+    ],
+    keyQuestions: [
+      "Hvem er tredjespiller akkurat nå?",
+      "Hvordan får vi en rettvendt ballfører som kan øke tempo?",
+    ],
+    sourceLabel: "UEFA A02 (Per Inge Jacobsen)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-per-inge-jacobsen.pdf",
+  },
+  {
+    id: "a-5",
+    name: "A5: Avslutningsvalg (kontroll før kraft)",
+    description: "Vent–les–plasser + lavt i hjørnet",
+    prerequisites: ["A4 mestret"],
+    learningMoments: [
+      "Førstevalg: lavt i hjørnet (tenk ‘pasning i hjørnet’)",
+      "Velg presisjon: kontroll, plassering og curl når du har tid",
+      "1v1 med keeper: vent – se – plasser/chipp (utfordre keeperen først)",
+      "Skaff tid før avslutning: medtak bort fra press + bevegelse som skaper rom",
+    ],
+    practiceFormats: [
+      "Avslutning med beslutningssignal: ‘kontroll’ (plassering) vs ‘tidspress’ (tidlig avslutning)",
+      "1v1 mot keeper med ‘vent–les–plasser’-fokus",
+      "Avslutninger fra ulike vinkler med krav om lavt plassert",
+    ],
+    keyQuestions: [
+      "Har jeg tid nok til å velge plassering?",
+      "Hva gjør keeper – og når må jeg avslutte?",
+    ],
+    sourceLabel: "UEFA A03 (Tom Selmer)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_tom_selmer.pdf",
+  },
+  {
+    id: "a-6",
+    name: "A6: Innlegg langs bakken (cut-back/45°) + 2./3.-bevegelse",
+    description: "Skap rom med første løp – utnytt med neste",
+    prerequisites: ["A5 mestret"],
+    learningMoments: [
+      "Tidlige innlegg mellom keeper og forsvar, ofte langs bakken (45°/cut-back)",
+      "2. og 3. bevegelse i boks: første løp skaper rom, neste løp utnytter",
+      "Fyll rom 1. stolpe, bakre stolpe og 45°/returrom – hver gang",
+      "Avslutter: kom på blindsiden lenge – rykk på ball",
+    ],
+    practiceFormats: [
+      "Innlegg/cut-back-serie: 10 reps fra hver side med faste boksroller",
+      "Spill på siste tredjedel: scoring teller kun etter cut-back/45°",
+      "Boksbevegelser: ‘første løp’ uten ball → ‘andre bølge’ avslutning",
+    ],
+    keyQuestions: [
+      "Hvilket målrom angriper vi: 1. stolpe, bakre eller 45°?",
+      "Hvem tar første løp – og hvem kommer på andre bølge?",
+    ],
+    sourceLabel: "UEFA A03 (Tom Selmer)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_tom_selmer.pdf",
+  },
+  {
+    id: "a-7",
+    name: "A7: Målscorer-kultur (1-touch, 11 m, returer)",
+    description: "Bygg vaner som gir flere mål",
+    prerequisites: ["A6 mestret"],
+    learningMoments: [
+      "1-touch som standard i boks (ofte 1–2 touch totalt)",
+      "Riktig sone: innenfor 16 m – helst 11 m – før sjansen",
+      "Blindsiden lenge, rykk på ball (timing > fart)",
+      "Etterarbeid: returer er en vane – alltid inn i returrom",
+    ],
+    practiceFormats: [
+      "Avslutninger i 11 m-sone med 1-touch-krav",
+      "Innlegg + returoppfølging (2. ball) som egen deløvelse",
+      "Kampnære repetisjoner: 6–8 sek sekvenser til avslutning",
+    ],
+    keyQuestions: [
+      "Er jeg i 11 m-sonen når innlegget går?",
+      "Hvor er returen hvis skuddet blokkeres eller keeper gir retur?",
+    ],
+    sourceLabel: "UEFA A07 (Sigurd Rushfeldt)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf",
+  },
+  {
+    id: "a-8",
+    name: "A8: Overgangsspill etter brudd",
+    description: "8–10 sek KPI og tydelig prioriteringsrekkefølge",
+    prerequisites: ["A4 mestret"],
+    learningMoments: [
+      "KPI: skap avslutning innen 8–10 sek etter brudd når det er mulig",
+      "Prioritering: frem i lengderetning hvis det er der – ellers vekk fra press for ny rettvendt ballfører",
+      "Ikke autopilot på første løp: skap trusler i flere rom samtidig",
+    ],
+    practiceFormats: [
+      "Overgangsspill med klokke: 10 sek til avslutning eller ‘reset’",
+      "3-løp-regel: minst to samtidige trusler (bakrom + støtte) før gjennombruddspasning",
+    ],
+    keyQuestions: [
+      "Kan vi spille frem nå – eller må vi først vekk fra press?",
+      "Har vi flere trusler, eller spiller vi på første løp hver gang?",
+    ],
+    sourceLabel: "UEFA A09 (Bjarte Lunde Aarsheim)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
+  },
+  {
+    id: "a-9",
+    name: "A9: Kant/winger – sluttprodukt under tid/rom-press",
+    description: "1v1 → innlegg/cut-back med kvalitet",
+    prerequisites: ["A6 mestret"],
+    learningMoments: [
+      "Kant avgjør ofte under tett press (1–3 m) og kort tidsvindu (1–4 sek)",
+      "Velg tidlig: slå, gå forbi, eller spill tilbake – basert på rom og press",
+      "Innlegg/cut-back trenes mot konkrete målrom (5 m + sentralt i boks)",
+    ],
+    practiceFormats: [
+      "Constraints: små soner + poeng for presist innlegg/cut-back til målrom",
+      "1v1 på kant med krav om sluttprodukt innen 4 sek",
+    ],
+    keyQuestions: [
+      "Hva er ‘safe’ sluttprodukt her: cut-back, tidlig innlegg eller 1v1?",
+      "Hvem fyller boksen (spiss/motsatt kant/indreløper)?",
+    ],
+    sourceLabel: "UEFA A10 (Hugo Pereira)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf",
   },
 ];
 
@@ -103,7 +240,7 @@ export const LearnAttack = ({ defaultOpen = true }: { defaultOpen?: boolean }) =
       >
         <div>
           <h2 className="text-lg font-semibold text-zinc-900">Angrepsspill</h2>
-          <p className="text-xs text-zinc-500">Fra A1 bearbeiding til A3 avslutning</p>
+          <p className="text-xs text-zinc-500">Fra bearbeiding til sluttprodukt (tempo, valg, vaner)</p>
         </div>
         <span className="flex items-center gap-1 text-sm text-zinc-700">
           {isOpen ? "Skjul" : "Vis"}
@@ -189,14 +326,18 @@ export const LearnAttack = ({ defaultOpen = true }: { defaultOpen?: boolean }) =
 
                     <p className="text-xs text-zinc-400">
                       Kilde:{" "}
-                      <a
-                        href={`https://${phase.source}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-emerald-600 hover:underline"
-                      >
-                        {phase.source}
-                      </a>
+                      {phase.sourceUrl ? (
+                        <a
+                          href={phase.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-emerald-600 hover:underline"
+                        >
+                          {phase.sourceLabel}
+                        </a>
+                      ) : (
+                        <span>{phase.sourceLabel}</span>
+                      )}
                     </p>
                   </div>
                 )}
@@ -205,16 +346,7 @@ export const LearnAttack = ({ defaultOpen = true }: { defaultOpen?: boolean }) =
           })}
 
           <p className="text-xs text-zinc-400 pt-2 border-t border-zinc-100 mt-4">
-            Kilde:{" "}
-            <a
-              href="https://tiim.no/artikkel/landslagsskolens-spillmodell"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-emerald-600 hover:underline"
-            >
-              Landslagsskolens spillmodell
-            </a>{" "}
-            (NFF/tiim.no)
+            Kilder: Landslagsskolens spillmodell (NFF/tiim.no) + UEFA A-oppgaver
           </p>
         </div>
       )}

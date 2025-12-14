@@ -1497,31 +1497,87 @@ Nøkkeltall (rolleprofil):
   {
     id: "a20-touch-scoringsanalyse",
     kode: "A20",
-    tittel: "Touch og scoring",
+    tittel: "Touch & scoring",
     forfatter: "Stian Lund",
-    tema: "Siste tre involveringer før sjanse/mål",
+    tema: "Få touch nær mål (Strømsgodset 2010)",
     roller: ["Spiss", "Vinger", "Indreløper"],
     sammendrag:
-      "Analyse av Strømsgodsets mål/sjanser i Tippeligaen 2010 (uten dødballer i touch-registreringen) viser at avslutninger ofte kommer på første/andre berøring: 57 % av målene ble scoret på 1 touch og 14 % på 2 touch (totalt 71 % på 1–2 touch). I fasen før avslutning var målgivende pasning 28 % på 1 touch (28 % på 2 touch), og tredjesistepasset 25 % på 1 touch (14 % på 2 touch). Spillerutvikling må derfor eksponere ungdommer for tempo, orientering og presisjon uten å ofre kvalitet.",
+      "Kjerneidé: jo nærmere mål, jo viktigere å kunne avslutte på få touch – særlig 1-touch. Det handler ikke om touch-rekord, men om å beherske avslutningsteknikk og timing i avgjørende øyeblikk. I materialet (Strømsgodset 2010, etablert+overgang) er 1-touch dominerende både på mål (57%) og sjanser (56%). Samtidig viser tallene at målgivende pasning ofte går på 1–2 touch (28%/28%), og at hurtige restarter (frispark/innkast) kan skape sjanser (14% av tredjesistepasning-kategorien).",
     kpier: [
-      { navn: "Avslutning 1 touch (mål, eks dødball)", referanseverdi: "57 % (20 av 35)", kilde: "SIF 2010" },
-      { navn: "Avslutning 1–2 touch (mål, eks dødball)", referanseverdi: "71 %", kilde: "SIF 2010" },
-      { navn: "Målgivende 1 touch (til mål)", referanseverdi: "28 %", kilde: "SIF 2010" },
-      { navn: "Tredjesistepass 1–2 touch (før mål)", referanseverdi: "39 % (25 % + 14 %)", kilde: "SIF 2010" },
+      {
+        navn: "Mål på 1 touch",
+        referanseverdi: "57% (20/35) – etablert+overgang",
+        kilde: "Oppgave (SIF 2010)",
+      },
+      {
+        navn: "Sjanser på 1 touch",
+        referanseverdi: "56% (54/96) – etablert+overgang",
+        kilde: "Oppgave (SIF 2010)",
+      },
+      {
+        navn: "Sjanser på 2 touch (" + "lekkasje" + ")",
+        referanseverdi: "25% – målsetning: ned mot <25% over tid",
+        kilde: "Kampdimensjon",
+      },
+      {
+        navn: "Målgivende pasning (1–2 touch)",
+        referanseverdi: "28% på 1 touch + 28% på 2 touch (timing > touch-jakt)",
+        kilde: "Oppgave (SIF 2010)",
+      },
+      {
+        navn: "Quick restart-sjanser",
+        referanseverdi: "Egen telling pr kamp (oppgaven viser 14% i tredjesiste-kategorien)",
+        kilde: "Kampdimensjon",
+      },
     ],
     fokuspunkter: [
-      { id: "a20-orientering", tekst: "Orientering før ball – planlegg ett-touch" },
-      { id: "a20-stotte", tekst: "Skap støttevinkler for raske vegger" },
-      { id: "a20-presisjon", tekst: "Tempo uten å miste teknisk kvalitet" },
+      {
+        id: "a20-1touch-bilder",
+        tekst: "Skap 1-touch-bilder: cut-back langs bakken, innlegg riktig fot, returer i D/16, stikk i boks",
+      },
+      {
+        id: "a20-boksroller",
+        tekst: "Avtal boksroller: 1. stolpe / bakre / D-retur / sikring (gir flere kontrollerte 1-touch situasjoner)",
+      },
+      {
+        id: "a20-sistepasning",
+        tekst: "Målgiver: 1–2 touch er normalt (28/28). Vinn tid med timing og relasjon, ikke bare færre touch",
+      },
+      {
+        id: "a20-2touch-lekkasje",
+        tekst: "Avslutter: reduser 2-touch-sjanser der 1-touch er mulig (2 touch er 25% av sjansene, men 14% av målene)",
+      },
+      {
+        id: "a20-quick-restart",
+        tekst: "Quick restart-pakke: 2–3 faste triggere på frispark/innkast – kjør raskt før motstander er satt",
+      },
     ],
     ovelser: [
       { kode: "uefa-a20-01" },
       { kode: "uefa-a20-02" },
+      { kode: "uefa-a20-03" },
     ],
     coachingCues: [
-      { kategori: "Orientering", gjor: "Blikk først, ball etterpå", ikkeGjor: "Ikke være overrasket" },
-      { kategori: "Tempo", gjor: "Spilleren kommer – ballen går", ikkeGjor: "Ikke drible unødvendig" },
-      { kategori: "Teknikk", gjor: "Tempo + presisjon", ikkeGjor: "Ikke kompromitter kvaliteten" },
+      {
+        kategori: "Avslutter",
+        gjor: "Se mål før mottak – 1 touch!",
+        ikkeGjor: "Ikke ta ekstra touch hvis 1-touch er mulig.",
+      },
+      {
+        kategori: "Målgiver",
+        gjor: "Timing – slipp den nå!",
+        ikkeGjor: "Ikke jag touch; vinn tid med riktig øyeblikk.",
+      },
+      {
+        kategori: "Lag",
+        gjor: "Skap 1-touch-bildet.",
+        ikkeGjor: "Ikke spill på feil fot i boks når dere vil ha 1-touch.",
+      },
+      {
+        kategori: "Etter brudd/fast",
+        gjor: "Kjør raskt!",
+        ikkeGjor: "Ikke vent til de er organisert.",
+      },
     ],
     kildefil: "A20-touch-scoringsanalyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
@@ -1534,30 +1590,34 @@ Nøkkeltall (rolleprofil):
   {
     id: "a21-notorisk-mal",
     kode: "A21",
-    tittel: "Den notoriske målscoreren",
+    tittel: "Hvem er den notoriske målscoreren?",
     forfatter: "Totto Dahlum",
     tema: "Psykologiske/motoriske kjennetegn",
     roller: ["Spiss"],
     sammendrag:
-      "Dahlum kombinerer egne erfaringer som toppscorer med intervjuer av Rushfeldt, Brattbakk og Belsvik. Fellesnevnerne er indre stemme/drive, perfeksjonisme, konkurranseinstinkt, selvstendighet og evne til å repetere under press.",
+      "En notorisk målscorer bygges over tid av en indre driv (\"den indre stemmen\") som presser fram kvalitetsrepetisjon, konkurranse, struktur og selvstendighet – mer enn \"medfødt avslutning\". Dahlum bruker egne erfaringer og intervjuer med Rushfeldt, Brattbakk og Belsvik som referanser.",
     kpier: [
-      { navn: "Egenaktivitet", referanseverdi: "Selvstyrt trening 3+ økter ukentlig", kilde: "Intervjuer" },
-      { navn: "Visualiseringsrutine", referanseverdi: "Scenario før kamp", kilde: "Teori" },
-      { navn: "Repetisjon", referanseverdi: "10/10 per avslutningstype", kilde: "Prolog" },
+      { navn: "Bestått-serier", referanseverdi: "10/10 i valgt sone (logges)", kilde: "Kampnært" },
+      { navn: "Avslutning under press", referanseverdi: "Poengsystem: teknikk/ro under tid-press", kilde: "Kampnært" },
+      { navn: "Egentreninger med sluttprodukt", referanseverdi: "1–3 / uke (avslutning inngår)", kilde: "Vaner" },
+      { navn: "Konkurransebolker", referanseverdi: "1–3 / uke (press/konsekvens)", kilde: "Vaner" },
     ],
     fokuspunkter: [
-      { id: "a21-visualisering", tekst: "Visualiser situasjonen før kamp – se deg selv treffe", rolle: "Spiss" },
-      { id: "a21-gjentakelse", tekst: "Gjentakelsen er det perfektes mor – repeter til det sitter" },
-      { id: "a21-press", tekst: "Omfavn presset – best når det gjelder", rolle: "Spiss" },
+      { id: "a21-1010", tekst: "Bygg 10/10-standard: ikke \"gjennomført\", men \"bestått\" (kvalitet > volum)", rolle: "Spiss" },
+      { id: "a21-kampnart", tekst: "Tren med mening: legg inn konkurranse/konsekvens så det blir mentalt kamp-likt", rolle: "Spiss" },
+      { id: "a21-system", tekst: "System slår humør: små faste rutiner som alltid gjøres (hverdag over tid)", rolle: "Spiss" },
+      { id: "a21-egenansvar", tekst: "Egenansvar: kvalitet kan bygges alene – ikke avhengig av andre", rolle: "Spiss" },
     ],
     ovelser: [
       { kode: "uefa-a21-01" },
       { kode: "uefa-a21-02" },
+      { kode: "uefa-a21-03" },
     ],
     coachingCues: [
-      { kategori: "Mental", gjor: "Hør på indre stemme", ikkeGjor: "Ikke søk snarveier" },
-      { kategori: "Repetisjon", gjor: "Gjør jobben til 10/10", ikkeGjor: "Ikke stopp på 7" },
-      { kategori: "Press", gjor: "Sett deg i press-scenario", ikkeGjor: "Ikke unngå vanskelige situasjoner" },
+      { kategori: "Standard", gjor: "10/10 – ikke 8/10", ikkeGjor: "Ikke stopp når det \"ser greit ut\"" },
+      { kategori: "Repetisjon", gjor: "Kvalitet i rep (samme detalj hver gang)", ikkeGjor: "Ikke jag volum uten standard" },
+      { kategori: "Kamp-likt", gjor: "Gjør det kamp-likt – spill om noe", ikkeGjor: "Ikke tren uten konsekvens/press" },
+      { kategori: "Egenansvar", gjor: "Du er ikke avhengig av andre – ta økta", ikkeGjor: "Ikke vent på at noen \"fikser\" treningen" },
     ],
     kildefil: "A21-notorisk-maalscorer-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
@@ -1565,7 +1625,7 @@ Nøkkeltall (rolleprofil):
 
   // ──────────────────────────────────────────
   // A22: Sidebacken høyt i banen (Dag Riisnæs)
-  // Kilde: docs/uefa/A22-dag-riisnas-sideback.txt
+  // Kilde: docs/uefa/A22-sidebacken-hoyt-i-banen-analyse-v2.md
   // ──────────────────────────────────────────
   {
     id: "a22-sidebacken",
@@ -1575,28 +1635,28 @@ Nøkkeltall (rolleprofil):
     tema: "Back som gjennombruddsvåpen mot etablert forsvar",
     roller: ["Sideback", "Back", "Sentral midtbane", "Indreløper", "Vinger"],
     sammendrag:
-      "Riisnæs analyserte alle 285 scoringene i Champions League 2005/06 og fant at 46 av dem kom etter at en sideback ble frigjort høyt i banen. Hele 44 % av målene mot etablert/delvis etablert forsvar involverte back i fase 2. Ved å studere Milan og Werder Bremen viser han hvordan diamantstruktur, hurtige spillvendinger og 3+2-balanse gjør backen til breddeholder og gjennombruddstrussel.",
+      "Riisnæs viser at backinvolvering høyt i banen (etter at motstanders fremste pressledd er borte) gir stor gevinst mot etablert/delvis etablert forsvar – i form av gjennombrudd, sjanser og scoringer. Formasjon er sekundært; nøkkelen er å vinne tid i pasningsspill, vende raskt og finne \"gratisrommet\" på svak side, med tydelige retningslinjer og balanse (restforsvar).",
     kpier: [
-      { navn: "Back-mål totalt", referanseverdi: "46 av 285", kilde: "Riisnæs, kap. 5.3" },
-      { navn: "Back-mål mot etablert", referanseverdi: "44 % (46 av 105)", kilde: "Riisnæs, kap. 5.3" },
-      { navn: "Milan sjanser vs Barca", referanseverdi: "4 av 9 via back", kilde: "Riisnæs, kap. 5.5" },
-      { navn: "Restforsvar", referanseverdi: "3+2 bak når back går", kilde: "Riisnæs, kap. 5.7" },
+      { navn: "Andel mål mot etablert/delvis etablert", referanseverdi: "37% (105/285)", kilde: "CL 2005/06" },
+      { navn: "Av disse: med back høyt involvert", referanseverdi: "44% (46/105)", kilde: "CL 2005/06" },
+      { navn: "Andel av alle mål via back høyt", referanseverdi: "16,1% (46/285)", kilde: "CL 2005/06" },
+      { navn: "Milan-case: etableringer med back høyt", referanseverdi: "69% (40/58)", kilde: "Milan–Barcelona" },
     ],
     fokuspunkter: [
-      { id: "a22-vending", tekst: "Vend før gjennombrudd – frigjør sideback" },
-      { id: "a22-bredde", tekst: "Backen er breddeholder, midtbane konsentrerer" },
-      { id: "a22-3pluss2", tekst: "3+2-rest sikrer mot overgang", rolle: "Sentral midtbane" },
-      { id: "a22-lop", tekst: "Sideback: sett fart inn i korridor før ballen kommer", rolle: "Sideback" },
-      { id: "a22-balanse", tekst: "Hold igjen motsatt IL/back for å dekke rom" },
+      { id: "a22-vinn-tid", tekst: "Vinn tid med pasningsspill → vend raskt → finn gratisrommet (ofte motsatt side)" },
+      { id: "a22-trigger", tekst: "Definer når back skal frigjøres høyt: \"pressledd borte\" (delvis etablert) er nøkkelbildet" },
+      { id: "a22-kant-inn", tekst: "Kant inn – back ut: frigjør korridor for overlap/underlap/cutback", rolle: "Sideback" },
+      { id: "a22-rest", tekst: "Balanse/restforsvar først: én går – én sikrer når kontringstrussel er høy", rolle: "Sentral midtbane" },
+      { id: "a22-trening", tekst: "Tren back-høyt-bildet også fra ballerobring rundt midten (ikke bare fra keeper)" },
     ],
     ovelser: [],
     coachingCues: [
-      { kategori: "Vending", gjor: "Vend raskt og finn back i rom", ikkeGjor: "Ikke bli stående i frispilling" },
-      { kategori: "Sideback", gjor: "Forhåndsposisjoner og sett fart", ikkeGjor: "Ikke vent på å få ball i fot" },
-      { kategori: "Midtbane", gjor: "Dra inn og frigjør korridor", ikkeGjor: "Ikke lås bredden" },
-      { kategori: "Balanse", gjor: "3+2 bak ball før vi fyller boks", ikkeGjor: "Ikke send alle i angrep" },
+      { kategori: "Vending", gjor: "Vend! Back er fri!", ikkeGjor: "Ikke bli på ballsiden når de er smale" },
+      { kategori: "Korridor", gjor: "Kant inn – back ut!", ikkeGjor: "Ikke lås både kant og back i samme rom" },
+      { kategori: "Balanse", gjor: "Balanse før du går!", ikkeGjor: "Ikke gå høyt uten sikring" },
+      { kategori: "Beslutning", gjor: "Valg før utførelse (hvor er rommet nå?)", ikkeGjor: "Ikke autopilot-innlegg" },
     ],
-    kildefil: "A22-dag-riisnas-sideback.txt",
+    kildefil: "A22-sidebacken-hoyt-i-banen-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
@@ -1640,74 +1700,165 @@ Nøkkeltall (rolleprofil):
   },
 
   // ──────────────────────────────────────────
-  // A24: Chelsea 4-2-3-1 etablert forsvar (Ole Martin Nesselquist)
-  // Kilde: docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt
+  // A24 – Etablert forsvar i 1-4-2-3-1 (Chelsea 2015/16) (Ole Martin Nesselquist)
+  // Kilde: docs/uefa/A24-etablert-forsvar-4231-analyse-v2.md
+  // Råkilde: docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt
   // ──────────────────────────────────────────
   {
     id: "a24-chelsea-forsvar",
     kode: "A24",
-    tittel: "Organiser 4-2-3-1 i etablert forsvar",
+    tittel: "Etablert forsvar i 1-4-2-3-1 (Chelsea 2015/16)",
     forfatter: "Ole Martin Nesselquist",
-    tema: "Chelsea FC 2015/16 – prinsipper, roller og justeringer",
+    tema: "Steng sentralt → led utover → press hardt når ballen er bredt",
     roller: ["Keeper", "Back", "Stopper", "Sentral midtbane", "Vinger", "Spiss"],
     sammendrag:
-      "Nesselquist gjør en kvalitativ kampanalyse av Chelsea 2015/16 for å beskrive hvordan et 4-2-3-1-lag bør organiseres i etablert forsvar. Oppgaven sammenligner Mourinho-årenes kompakte blokk med sesongen der Chelsea kollapset, og peker på tre hovedårsaker: svakere press på ballfører, større rom mellom ledd og feil i innlegg/boksforsvar. Intervjuer med Haakon Lunov og Geir Jordet kobler taktiske valg til mental robusthet. Funnene gir konkrete retningslinjer for høyt press, lav blokk, romprioritering og individuell rolleforståelse.",
+      "I etablert forsvar handler det om posisjonell balanse: nekte spill gjennom oss og bak oss, styre hvor motstander får spille, og være forberedt på innlegg og bakrom. Chelsea-logikken i 1-4-2-3-1 er å stenge sentralt, lede utover og presse hardt når ballen er bredt. Laget jobber med et felles triggerspråk (ball i luft, feilvendt, dårlig touch) og bytter mellom høyt press (mer mannsorientert) og lavt press (sone som utgangspunkt med tydelige valg i sonen).",
     kpier: [
-      { navn: "Mål imot (2014/15 vs 2015/16)", referanseverdi: "<1 vs >1", kilde: "Innledning" },
-      { navn: "Press-strip", referanseverdi: "Høyt press første 10 min", kilde: "Kap. høyt press" },
-      { navn: "Kompakthet", referanseverdi: "4-4-2 uten ball – 10–12 m fra spiss til stopper", kilde: "Romprioritering" },
+      { navn: "Sentrale gjennombrudd imot (10-rom)", referanseverdi: "Lavt", kilde: "Kampdimensjon → KPI" },
+      { navn: "Ballvinning ved motstanders back", referanseverdi: "Høyt", kilde: "Kampdimensjon → KPI" },
+      { navn: "Innlegg stoppet før innleggsfot (dødlinje)", referanseverdi: "Høyt", kilde: "Kampdimensjon → KPI" },
+      { navn: "Vridninger imot etter bred ball", referanseverdi: "Lavt", kilde: "Kampdimensjon → KPI" },
+      { navn: "Pressøyeblikk-reaksjon på 3 triggere", referanseverdi: "Høy andel (samlet push)", kilde: "Kampdimensjon → KPI" },
     ],
     fokuspunkter: [
-      { id: "a24-hoypress", tekst: "4-2-3-1 blir 4-4-2 i høyt press – front tvinger oppspill i korridor" },
-      { id: "a24-lavblokk", tekst: "Lav blokk: alle under ball, prioriter sentrumsrom" },
-      { id: "a24-innlegg", tekst: "Boksforsvar: stopper i sone, back + ving sikrer", rolle: "Back" },
-      { id: "a24-rollekrav", tekst: "6-ere (Matic/Fabregas) balanserer når kant/back støter" },
-      { id: "a24-mental", tekst: "Unngå 'avoidance mentality' – bruk approach-fokus i forsvar" },
+      { id: "a24-system", tekst: "1-4-2-3-1 som blir 1-4-3-3 i høyt press og 1-4-4-1-1 i lavt press" },
+      { id: "a24-regler", tekst: "Grunnregel: ikke gjennom oss først, ikke bak oss deretter (korte avstander i/mellom ledd)" },
+      { id: "a24-led-utover", tekst: "Romprioritering: mye folk sentralt – led utover, og steng korte vridninger tilbake" },
+      { id: "a24-triggere", tekst: "Felles triggerspråk: ball i luft / feilvendt / dårlig touch = samlet push" },
+      { id: "a24-bred-3", tekst: "Bred ball: 3’er-blokk (back + kant + sentral midt) – én presser, to sikrer", rolle: "Back" },
+      { id: "a24-boks-3", tekst: "Innlegg: boks-3’er (2 stoppere + motsatt back) blir hjemme; 6/8 beskytter straffemerke", rolle: "Stopper" },
     ],
     ovelser: [],
     coachingCues: [
-      { kategori: "Press", gjor: "4-2-3-1 → 4-4-2, Costa + 10'er styrer", ikkeGjor: "Ikke la front bli flat" },
-      { kategori: "Blokk", gjor: "Hold 10–12 m fra spiss til stopper", ikkeGjor: "Ikke åpne lommer" },
-      { kategori: "Innlegg", gjor: "Back møter, stopper i sone, indreløper plukker andreball", ikkeGjor: "Ikke ren mannsmark i boks" },
-      { kategori: "Mental", gjor: "Approach – se forsvar som mulighet", ikkeGjor: "Ikke snakk kun om å unngå feil" },
+      { kategori: "Kompakt", gjor: "Ikke gjennom oss! Vær smal, korte avstander", ikkeGjor: "Ikke åpne midten" },
+      { kategori: "Styring", gjor: "Led utover – gi heller bredt rom enn sentralt gjennombrudd", ikkeGjor: "Ikke slippe vridning enkelt tilbake" },
+      { kategori: "Trigger", gjor: "Pressøyeblikk (luft/feilvendt/dårlig touch) – alle opp samtidig", ikkeGjor: "Ikke press alene" },
+      { kategori: "Bred ball", gjor: "Bred 3’er: én presser, to sikrer", ikkeGjor: "Ikke to i press uten sikring" },
+      { kategori: "Boks", gjor: "Boks-3’er blir! Sikre straffemerke og bakre stolpe", ikkeGjor: "Ikke dra boks-3’eren ut" },
     ],
-    kildefil: "A24-ole-martin-nesselquist-etablert-forsvar.txt",
+    kildefil: "A24-etablert-forsvar-4231-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A25: FFK baklengs (Even Juliussen)
-  // Kilde: docs/uefa/A25-even-juliussen-ffk-forsvar.txt
+  // Kilde: docs/uefa/A25-ffk-forsvar-2012-analyse-v2.md
+  // Råkilde: docs/uefa/A25-even-juliussen-ffk-forsvar.txt
   // ──────────────────────────────────────────
   {
     id: "a25-ffk-baklengs",
     kode: "A25",
-    tittel: "Analyser baklengs – FFK 2012",
+    tittel: "FFK forsvar (2012) – innslupne mål",
     forfatter: "Even Juliussen",
-    tema: "Forsvarssvakheter og balltap i Fredrikstad FK",
+    tema: "Ramma vs press, avstander/dybde og push-ups i backledd",
     roller: ["Back", "Stopper", "Sentral midtbane", "Vinger"],
     sammendrag:
-      "Juliussen kartla alle 59 baklengsmålene til Fredrikstad FK i Tippeligaen 2012. 44 % kom i etablert forsvar, 37 % på dødball og 19 % på kontring. Hjemme/borte-tall var like dårlige, og de fleste målene kom i sluttfasene. Analyse av balltap viser overrisiko på høyresiden, lite dybde i backledd og dårlig 3+2-balanse. Oppgaven gir konkrete tiltak: strammere sone, push-ups i backledd, bedre hjemmetaktikk og tydeligere rollekrav i dødball/bredsituasjoner.",
+      "FFK 2012 slipper inn mye i etablert forsvar og på dødball (59 mål på 30 kamper = 1,97 pr kamp). Nøkkelutfordringer er felles beslutningsregel («ramma vs press»), dybde/kompakthet i og mellom ledd, backledd som faller av for tidlig og mangler felles push-up etter klarering, samt relasjoner i rommet bak/mellom back–stopper. I tillegg må laget ha en tydelig closing-atferd siden 25,42 % av baklengsmålene kommer siste 15 minutter.",
     kpier: [
-      { navn: "Totale baklengs", referanseverdi: "59 mål", kilde: "Sammendrag" },
-      { navn: "Fordeling", referanseverdi: "44 % etablert / 37 % dødball / 19 % overgang", kilde: "Sammendrag" },
-      { navn: "Balltap høyreside", referanseverdi: "Flest tap på høyre kant/back", kilde: "Balltap" },
-      { navn: "Mål i sluttfase", referanseverdi: "Flest siste 15 min", kilde: "Når baklengs" },
+      { navn: "Andel baklengsmål siste 15 min", referanseverdi: "<18 % (ned fra 25,42 %)", kilde: "Kampdimensjon → KPI" },
+      { navn: "Mål imot i etablert forsvar (andel)", referanseverdi: "<38 % (ned fra 44,07 %)", kilde: "Kampdimensjon → KPI" },
+      { navn: "Mål imot på dødball (andel)", referanseverdi: "<30 % (ned fra 37,29 %)", kilde: "Kampdimensjon → KPI" },
+      { navn: "Balltap som gir baklengs – sentralt", referanseverdi: "<45 % (ned fra 56,76 %)", kilde: "Kampdimensjon → KPI" },
+      { navn: "Push-up etter klarering", referanseverdi: "Alle ledd opp innen 3–4 sek", kilde: "Kampdimensjon → KPI" },
     ],
     fokuspunkter: [
-      { id: "a25-sone", tekst: "Stram sone og dybde i backledd – unngå eget store mellomrom" },
-      { id: "a25-balltap", tekst: "Reduser risiko på høyresiden – sikring nær ball" },
-      { id: "a25-dodball", tekst: "Tydelig ansvar dødball – stopper i sone, 3+2 rest" },
-      { id: "a25-sluttfase", tekst: "Kampplan for siste 15 min (bytte, frispill, mentalitet)" },
+      { id: "a25-ramma-press", tekst: "Felles beslutningsregel: «ligg i ramma» vs «gå i press» (unngå at laget sprekker opp)" },
+      { id: "a25-dybde", tekst: "Dybde + kompakt lag i og mellom ledd (reduser sikringsavstander)" },
+      { id: "a25-pushup", tekst: "Backledd: ikke falle av for tidlig – push-up i samklang etter klarering/støtte", rolle: "Back" },
+      { id: "a25-bak-mellom", tekst: "Steng rommet bak og mellom back–stopper (triangel: back/stopper/CM)", rolle: "Stopper" },
+      { id: "a25-closing", tekst: "Kampstyring siste 15 min: closing-atferd (risiko/avstander/duellkraft)" },
     ],
-    ovelser: [],
+    ovelser: [
+      { kode: "uefa-a25-01" },
+      { kode: "uefa-a25-02" },
+      { kode: "uefa-a25-03" },
+      { kode: "uefa-a25-04" },
+    ],
     coachingCues: [
-      { kategori: "Backledd", gjor: "Push opp etter klareringer", ikkeGjor: "Ikke bli hengende dypt" },
-      { kategori: "Balltap", gjor: "Sikre bak høy risk", ikkeGjor: "Ikke tape ball ute av balanse" },
-      { kategori: "Dødball", gjor: "Avtalt sone/mann + restforsvar", ikkeGjor: "Ikke la alle stå i boks" },
-      { kategori: "Sluttfase", gjor: "Mental plan – approach", ikkeGjor: "Ikke panikk-sikre" },
+      { kategori: "Ramme", gjor: "Ramma! (samle, komprimer, nekt mellomrom)", ikkeGjor: "Ikke halv-press uten sikring" },
+      { kategori: "1F", gjor: "Bremse–lede! (skap dybde, ikke stup)", ikkeGjor: "Ikke la 1F dra laget ut av posisjon" },
+      { kategori: "Backledd", gjor: "Backlinje: hold igjen – ikke falle av, og opp sammen etter klarering", ikkeGjor: "Ikke bli hengende dypt" },
+      { kategori: "Relasjon", gjor: "Steng bak–mellom (back/stopper/CM triangel)", ikkeGjor: "Ikke gi gratisrom bak og mellom" },
+      { kategori: "Closing", gjor: "Siste 15: risikokontroll + klarering/andreball", ikkeGjor: "Ikke gamble når vi skal lukke kamp" },
     ],
-    kildefil: "A25-even-juliussen-ffk-forsvar.txt",
+    kildefil: "A25-ffk-forsvar-2012-analyse-v2.md",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // G01: Keeper (spillbasert keeperutvikling) (Håkon Grøttland)
+  // Kilde: docs/uefa/G01-keeper-spillbasert-utvikling-analyse-v2.md
+  // ──────────────────────────────────────────
+  {
+    id: "g01-keeper-spillbasert",
+    kode: "G01",
+    tittel: "Keeper – spillbasert keeperutvikling",
+    forfatter: "Håkon Grøttland",
+    tema: "Kamplik trening som tvinger valg + samhandling",
+    roller: ["Keeper"],
+    sammendrag:
+      "Keepertrening bør i hovedsak være kamplik og spillbasert. En god keeperøvelse tvinger fram valg før handling, realistisk tid/rom/motstand og samhandling med laget. Mye av keeperens jobb er å avverge før skudd (innlegg/gjennomspill) og å løse 1v1 med riktig timing på romtaking/blokkering. Kvalitet kan følges gjennom repetisjoner i kampbilder – ikke isolerte serier.",
+    kpier: [
+      { navn: "1v1 løst med riktig valg", referanseverdi: "Høy andel", kilde: "Kampdimensjon → KPI" },
+      { navn: "Innlegg håndtert (holde/bokse/avvente)", referanseverdi: "Høy andel", kilde: "Kampdimensjon → KPI" },
+      { navn: "Avverging før skudd (bryte gjennomspill/innlegg)", referanseverdi: "Høy andel", kilde: "Kampdimensjon → KPI" },
+    ],
+    fokuspunkter: [
+      { id: "g01-spillbasert", tekst: "Design økter som gir valg + motstand + samhandling (spillvarianter fremfor serier)", rolle: "Keeper" },
+      { id: "g01-avverge", tekst: "Avverge før skudd: jobb med innlegg + gjennomspill (ballerobrer-rollen)", rolle: "Keeper" },
+      { id: "g01-1v1", tekst: "1v1: riktig timing på romtaking/blokkering når ballen er fri", rolle: "Keeper" },
+      { id: "g01-kommunikasjon", tekst: "Kommunikasjon + posisjonering: styre/organisere og samhandle", rolle: "Keeper" },
+    ],
+    ovelser: [
+      { kode: "uefa-g01-01" },
+      { kode: "uefa-g01-02" },
+      { kode: "uefa-g01-03" },
+    ],
+    coachingCues: [
+      { kategori: "Valg", gjor: "Velg før du går!", ikkeGjor: "Ikke autopilot" },
+      { kategori: "1v1", gjor: "Rom! (ta rom når ballen er fri)", ikkeGjor: "Ikke bli stående på strek uten bilde" },
+      { kategori: "Skudd", gjor: "Set! (grunnstilling i skuddøyeblikk)", ikkeGjor: "Ikke vær på vei" },
+      { kategori: "Grep", gjor: "Bak ball! Lås!", ikkeGjor: "Ikke gi retur uten plan" },
+    ],
+    kildefil: "G01-keeper-spillbasert-utvikling-analyse-v2.md",
+    oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
+  },
+
+  // ──────────────────────────────────────────
+  // G02: Keeper (hva keeper møter i kamp) (Tor Martin Hegrenes)
+  // Kilde: docs/uefa/G02-keeper-hva-moter-i-kamp-analyse-v2.md
+  // ──────────────────────────────────────────
+  {
+    id: "g02-keeper-kampdimensjon",
+    kode: "G02",
+    tittel: "Keeper – hva keeper møter i kamp (treningsfordeling)",
+    forfatter: "Tor Martin Hegrenes",
+    tema: "Kampdimensjon styrer prioritering: defensivt, igangsetting, dødball",
+    roller: ["Keeper"],
+    sammendrag:
+      "Hegrenes argumenterer for at keepertrening bør styres av hva keepere faktisk møter i kamp. Med datagrunnlag fra 30 kamper (Tippeliga, Bundesliga, La Liga) synliggjøres en praktisk prioritering av treningstid: defensive spillsituasjoner, offensive igangsettinger og defensive dødballer. Økt-design skal gi valg + utførelse under realistisk tid/press, særlig i igangsetting etter tilbakespill.",
+    kpier: [
+      { navn: "Fordeling i trening (def/spill/sett)", referanseverdi: "31% / 28% / 42%", kilde: "Prioriteringsliste" },
+      { navn: "Igangsettinger: dødball-andel", referanseverdi: "≈41%", kilde: "Kampdimensjon" },
+      { navn: "Fot ved igangsetting", referanseverdi: "80–85%", kilde: "Kampdimensjon" },
+    ],
+    fokuspunkter: [
+      { id: "g02-spesifisitet", tekst: "Spesifisitet: øvelser må gi valg + utførelse med nok repetisjoner", rolle: "Keeper" },
+      { id: "g02-tilbakespill", tekst: "Tilbakespill: posisjonering for å bli spillbar, flere valg, og tid/press-regel", rolle: "Keeper" },
+      { id: "g02-prioritering", tekst: "Bruk kampdimensjon til å prioritere tid (defensivt, igangsetting, defensive dødballer)", rolle: "Keeper" },
+    ],
+    ovelser: [
+      { kode: "uefa-g02-01" },
+      { kode: "uefa-g02-02" },
+      { kode: "uefa-g02-03" },
+    ],
+    coachingCues: [
+      { kategori: "Scan", gjor: "Scan – velg tempo!", ikkeGjor: "Ikke spill uten å se" },
+      { kategori: "Spillbar", gjor: "Vær spillbar!", ikkeGjor: "Ikke gjem deg bak press" },
+      { kategori: "Valg", gjor: "Flere valg!", ikkeGjor: "Ikke lås deg på én løsning" },
+      { kategori: "Trykk", gjor: "Tid/press-regel!", ikkeGjor: "Ikke tren uten kamptrykk" },
+    ],
+    kildefil: "G02-keeper-hva-moter-i-kamp-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
@@ -1720,32 +1871,34 @@ Nøkkeltall (rolleprofil):
     kode: "A26",
     tittel: "Forsvar mot innlegg",
     forfatter: "Gaute Helstrup",
-    tema: "TUIL 2010 – farlige soner og innlegg bakover",
+    tema: "TUIL 2010 – farlig sone, posisjonell balanse og sluttfase",
     roller: ["Back", "Stopper", "Sentral midtbane", "Vinger"],
     sammendrag:
-      "Helstrup analyserte alle innlegg i TUILs siste åtte kamper i Adeccoligaen 2010. 125 innlegg ble logget; 88,65 % oppstod i etablert/delvis etablert spill, 70 % av avslutningene kom etter pause og 88,8 % av sjansene kom etter innlegg fra 'farlig sone'. Motstanderne sendte i snitt 3 spillere i farlig sone, TUIL forsvarte med 4,4 – men var posisjonelt i ubalanse ved 59 % av situasjonene. Én av to baklengs kom fra midtre sone. Oppgaven peker på strukturelle (push-up, tette mellomrom), relasjonelle (sonespiller vs markering) og kampdimensjonelle justeringer.",
+      "Helstrup analyserte innlegg mot etablert/delvis etablert forsvar i TUILs 8 siste kamper i Adeccoligaen 2010. 125 innlegg (88,65 % av alle innlegg) ble analysert: 70 % av avslutningene og 78 % av sjansene kom etter pause. 88,8 % av sjansene kom etter innlegg fra «farlig sone». TUIL hadde oftest numerisk overtall i farlig sone (4,41 forsvarere vs 3,08 angripere), men var i posisjonell ubalanse ved 59,2 % av innleggene – og dette hang tydelig sammen med sjanser/avslutninger. Funnene peker på to prioriteringer i praksis: (1) stopp innlegg i farlig sone, og (2) «telle opp» og fordele roller i boks (første/midtre/bakre sone + returrom), med felles push-up/andreball-atferd.",
     kpier: [
       { navn: "Avklaringer", referanseverdi: "53,6 % (67/125)", kilde: "Resultat av innlegg" },
       { navn: "Sjanser", referanseverdi: "9 av 125 (7,2 %) – 8 fra farlig sone", kilde: "Sjanser" },
       { navn: "Posisjonell balanse", referanseverdi: "Ubalanse i 59,2 %", kilde: "Posisjonell balanse" },
       { navn: "Farlig sone sjanser", referanseverdi: "88,8 %", kilde: "Innlegg fra farlig sone" },
       { navn: "Bakre sone avslutning", referanseverdi: "46 %", kilde: "Resultat pr sone" },
+      { navn: "Returrom avslutning", referanseverdi: "28,6 %", kilde: "Resultat pr sone" },
     ],
     fokuspunkter: [
-      { id: "a26-farligsone", tekst: "Prioriter farlig sone – stopp innlegg der" },
-      { id: "a26-pushup", tekst: "Backledd: push opp etter klarering, tette mellomrom" },
-      { id: "a26-posisjon", tekst: "Unngå posisjonell ubalanse ved 60 % av innleggene" },
-      { id: "a26-innleggside", tekst: "Kjenn motstanders side (høyre vs venstre) – juster kant/back" },
-      { id: "a26-sluttkamp", tekst: "Plan for 2. omgang – fleste avslutninger etter pause" },
+      { id: "a26-farligsone", tekst: "Farlig sone først: stopp innlegg før ballen slås" },
+      { id: "a26-telleopp", tekst: "Telle opp i boks: første/midtre/bakre sone + returrom" },
+      { id: "a26-posisjon", tekst: "Posisjonell balanse: ikke bli lokket ut – ha kontroll i farlige rom" },
+      { id: "a26-pushup", tekst: "Push-up/andreball: opp sammen etter klarering, tette mellomrom" },
+      { id: "a26-sluttkamp", tekst: "Sluttfase-protokoll: 2. omgang gir flest sjanser/avslutninger" },
     ],
-    ovelser: [],
+    ovelser: [{ kode: "uefa-a26-01" }, { kode: "uefa-a26-02" }, { kode: "uefa-a26-03" }],
     coachingCues: [
-      { kategori: "Sone", gjor: "Sonestopper følger ball OG mann", ikkeGjor: "Ikke la motstander passere mellom soner" },
-      { kategori: "Back", gjor: "Back på ballside presser – motsatt back tar boks", ikkeGjor: "Ikke la liten back stå alene" },
-      { kategori: "Midtbane", gjor: "Vinger inn i returrom/farlig sone", ikkeGjor: "Ikke bli stående og se" },
-      { kategori: "Balanse", gjor: "Snakk push-up, posisjonering", ikkeGjor: "Ikke aksepter 59 % ubalanse" },
+      { kategori: "Farlig sone", gjor: "Farlig sone først!", ikkeGjor: "Ikke tillat kryss fra farlig sone" },
+      { kategori: "Telling", gjor: "Telle opp! (1/midt/bak/retur)", ikkeGjor: "Ikke bli ballfokusert" },
+      { kategori: "Bakre stolpe", gjor: "Bakre stolpe!", ikkeGjor: "Ikke la bakre sone stå åpen" },
+      { kategori: "Returrom", gjor: "Returrom!", ikkeGjor: "Ikke la andreball bli fri" },
+      { kategori: "Push-up", gjor: "Opp sammen!", ikkeGjor: "Ikke bli stående lavt etter klarering" },
     ],
-    kildefil: "A26-gaute-helstrup-innlegg-forsvar.txt",
+    kildefil: "A26-forsvar-mot-innlegg-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
   {

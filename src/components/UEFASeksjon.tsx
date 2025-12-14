@@ -1973,35 +1973,35 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-indigo-100 bg-gradient-to-r from-indigo-50 via-violet-50 to-fuchsia-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-indigo-800">
-                              Ett-touch kultur – Strømsgodset 2010
+                              Touch & scoring – Strømsgodset 2010
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-indigo-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• 71 % av målene = én-touch avslutning, 24 % = to touch.</li>
-                                <li>• 59 % av assistene og 46 % av tredjepassene ble slått på første touch.</li>
+                                <li>• Mål (n=35): 1 touch 57%, 2 touch 14%, 3 touch 9%, 4 touch 6%, 5+ 14%.</li>
+                                <li>• Sjanser (n=96): 1 touch 56%, 2 touch 25%, 3 touch 8%, 4 touch 4%, 5+ 7%.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• 39 % av scoringene hadde både ett-touch assist og avslutning.</li>
-                                <li>• Få touch krever orientering, støttevinkler og teknikk under press.</li>
+                                <li>• Konklusjon: jo nærmere mål, jo færre touch (særlig 1-touch i boks).</li>
+                                <li>• Ikke touch-jakt: «riktig touch + timing» skaper uttelling.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Orientering</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Avslutter</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                «Blikk før ball» for alle tre involverte – ellers er ett-touch umulig.</p>
+                                Bygg 1-touch som standard i boks (innlegg/cutback/returer) – med krav om kvalitet.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Støtte</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Målgiver</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Vinkler for veggspill / cut-back må være til stede før ballen går.</p>
+                                1–2 touch er normalt (28/28). Vinn tid med timing og relasjon, ikke bare færre touch.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Tempo + presisjon</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Quick restart</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Ett-touch er verdiløst uten presisjon – behold kvalitet.</p>
+                                Hurtig frispark/innkast kan gi sjanser før de organiserer seg. Avklar 2–3 triggere.</p>
                             </div>
                           </div>
 
@@ -2009,19 +2009,20 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Ett-touch avslutning: ≥70 % av målene.</li>
-                                <li>• Ett-touch assist: ≥60 %.</li>
-                                <li>• Tredjepas på ett touch: ≥50 %.</li>
-                                <li>• Kombinasjoner ≤3 touch: ≥50 % av scoringene.</li>
+                                <li>• Andel mål på 1 touch: ≥57% (benchmark).</li>
+                                <li>• Andel sjanser på 2 touch: ned mot &lt;25% (reduser «lekkasje»).</li>
+                                <li>• Målgivende pasning 1–2 touch: høy andel (28/28).</li>
+                                <li>• Quick restart-sjanser (innkast/frispark): egen telling pr kamp.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Orientering før mottak i siste tredel.</li>
-                                <li>• Skap støttevinkler og bevegelse for veggspill.</li>
-                                <li>• Tren teknikk under press (kroppsvinkel, første touch).</li>
-                                <li>• Balansér tempo og kvalitet – tillat balltap i læring.</li>
+                                <li>• Definer «1-touch-bilder» dere skal fram til (cutback/innlegg/retur/stikk).</li>
+                                <li>• Avtal boksroller: 1. stolpe / bakre / D-retur / sikring.</li>
+                                <li>• Målgiver: 1–2 touch med timing (slipp den nå!).</li>
+                                <li>• Reduser 2-touch-sjanser der 1-touch er mulig.</li>
+                                <li>• Quick restart-pakke: 2–3 triggere (hurtig før de er satt).</li>
                               </ul>
                             </div>
                           </div>
@@ -2030,19 +2031,19 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Ett-touch finishing carousel (UEFA-A20-01).</li>
-                                <li>• Økt 2: 3-involveringsangrep 7v7 (UEFA-A20-02).</li>
-                                <li>• Kamp: registrer touch på de tre siste involveringene.</li>
-                                <li>• Etter kamp: videoanalyse av orientering før mottak.</li>
+                                <li>• Økt 1: Cutback-bank (UEFA-A20-01) – 1-touch i boks.</li>
+                                <li>• Økt 2: Sistepasning i lommen (UEFA-A20-02) – maks 2 touch på sistepas.</li>
+                                <li>• Økt 3: Quick restart-spill (UEFA-A20-03) – 5 sek start, avslutning innen 10 sek.</li>
+                                <li>• Kamp: tell 1-touch-mål, 2-touch-sjanser og quick restart-sjanser.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Blikk først, ball etterpå.»</li>
-                                <li>• «Spilleren kommer – ballen går.»</li>
-                                <li>• «Tempo + presisjon.»</li>
-                                <li>• «Ikke lås deg i tre touch.»</li>
+                                <li>• «Se mål før mottak – 1 touch!»</li>
+                                <li>• «Timing – slipp den nå!»</li>
+                                <li>• «Skap 1-touch-bildet»</li>
+                                <li>• «Kjør raskt!»</li>
                               </ul>
                             </div>
                           </div>
@@ -2068,35 +2069,35 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-rose-100 bg-gradient-to-r from-rose-50 via-purple-50 to-amber-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-rose-800">
-                              Notorisk målscorer – mental mappe
+                              A21 – notorisk målscorer (Totto Dahlum)
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-rose-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• Indre stemme og perfeksjonisme driver repetisjoner («gjentakelsen er det perfektes mor»).</li>
-                                <li>• Visualisering før situasjon → handling uten frykt.</li>
+                                <li>• Kjerneidé: «indre stemme» bygger kvalitet over tid – ikke bare medfødt avslutning.</li>
+                                <li>• 10/10-standard: bestått serier før du avslutter.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Selvstendighet: skaper egne økter (garasjevegg, tennisbane).</li>
-                                <li>• Konkurranseinstinkt: «Best når det gjelder» – elsker press.</li>
+                                <li>• Tren kamp-likt mentalt: konkurranse/konsekvens og tidspress.</li>
+                                <li>• System slår humør: små rutiner hver dag + egenansvar.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Gjentakelse</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Perfeksjonisme</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                10/10 på hver profil før du slutter – kvalitet &gt; kvantitet.</p>
+                                Kvalitet i repetisjon: «bestått» før du går videre (10/10-standard).</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Detaljer</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Konkurranse</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Summen av små grep (løp, rytme, returer) skaper mål.</p>
+                                Gi trening mening: press/konsekvens så avslutning blir mentalt kampnær.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Press</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Struktur</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                «Nå satser jeg livet» – tren på å elske avgjørende øyeblikk.</p>
+                                Vaner hver dag: små faste rutiner som alltid gjøres – også alene.</p>
                             </div>
                           </div>
 
@@ -2104,19 +2105,19 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Mental rutine før kamp (visualisering) dokumentert.</li>
-                                <li>• Egenaktivitet: ≥3 målrettede avslutningsøkter i uka.</li>
-                                <li>• Visualiseringslogg etter økter/kamper.</li>
-                                <li>• Repetisjonstreff: 10/10 per profil.</li>
+                                <li>• Bestått-serier: 10/10 i valgt sone (logges).</li>
+                                <li>• Under press: poeng for å holde teknikk/ro (konsekvensbolk).</li>
+                                <li>• Vaner: egentreninger med sluttprodukt (avslutning) pr uke.</li>
+                                <li>• Vaner: konkurransebolker (press/konsekvens) pr uke.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Bygg «indre stemme»: visualiser, snakk til deg selv.</li>
-                                <li>• Eierskap: spiss designer egne repetisjoner.</li>
-                                <li>• Detaljfokus i hvert løp og avslutning.</li>
-                                <li>• Konkurranseinstinkt – skap press-scenarier i trening.</li>
+                                <li>• Bygg 10/10-standard (bestått, ikke bare gjennomført).</li>
+                                <li>• Tren med mening: konkurranse/press/konsekvens.</li>
+                                <li>• System slår humør: faste rutiner som alltid gjøres.</li>
+                                <li>• Egenansvar: kvalitet kan bygges uten at laget er der.</li>
                               </ul>
                             </div>
                           </div>
@@ -2125,19 +2126,19 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Perfeksjonisme-runden (UEFA-A21-01) – 10/10.</li>
-                                <li>• Økt 2: Visualiseringsstafett (UEFA-A21-02).</li>
-                                <li>• Kampdag: mental sjekkliste (indre stemme, scenario).</li>
-                                <li>• Etter kamp: logg hvordan presset ble håndtert.</li>
+                                <li>• Økt 1: Garasje/vegg – 10 av 10 (UEFA-A21-01).</li>
+                                <li>• Økt 2: Avslutning med konsekvens (UEFA-A21-02).</li>
+                                <li>• Økt 3: Selvstendig kvalitet (UEFA-A21-03) – 3 x 4 min.</li>
+                                <li>• Kamp: 2–3 visualiseringer + kort serie som må bestås.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Hør på stemmen – du vil score.»</li>
-                                <li>• «Detaljer avgjør.»</li>
-                                <li>• «Repetisjon til det sitter.»</li>
-                                <li>• «Ikke ta snarveier.»</li>
+                                <li>• «10/10 – ikke 8/10.»</li>
+                                <li>• «Kvalitet i rep!»</li>
+                                <li>• «Gjør det kamp-likt – spill om noe.»</li>
+                                <li>• «Du er ikke avhengig av andre – ta økta.»</li>
                               </ul>
                             </div>
                           </div>
@@ -2163,35 +2164,35 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-blue-100 bg-gradient-to-r from-blue-50 via-cyan-50 to-emerald-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-blue-800">
-                              Sidebacken høyt i banen – Champions League-funn
+                              Sidebacken høyt i banen – Dag Riisnæs (A22)
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-blue-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• 46 av 285 CL-mål (2005/06) involverte back i fase 2.</li>
-                                <li>• 44 % av scoringene mot etablert/delvis etablert forsvar kom etter høy back.</li>
+                                <li>• CL 2005/06: 285 mål totalt; 105 (37%) mot etablert/delvis etablert.</li>
+                                <li>• 46 av 105 (44%) kom etter backinvolvering høyt i banen.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Milan/Werder (diamant) brukte hurtige vendinger og 3+2-balanse for å gjøre backen til breddeholder.</li>
-                                <li>• 4 av 9 Milan-sjanser vs Barcelona kom via backløp.</li>
+                                <li>• 46 av 285 = 16,1% av alle mål kom via «back høyt» i disse fasene.</li>
+                                <li>• Milan-case: 40 av 58 etableringer i siste tredjedel (69%) hadde back høyt.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Vending</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Gratisrom</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Vend før gjennombrudd – når fremste pressledd er borte skal back inn i korridor.</p>
+                                Vinn tid med pasningsspill → vend raskt → finn rommet (ofte motsatt side).</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Bredde</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kant inn – back ut</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Midtbane trekker inn, back blir breddeholderen som skaper overlast/pådrag.</p>
+                                Frigjør korridor for overlap/underlap/cutback uten at formasjon må være «diamant».</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">3+2-balanse</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Balanse</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                To stoppere + en sikrende midtbane pluss to ekstra gir trygghet ved balltap.</p>
+                                Restforsvar først: én går – én sikrer når kontringstrussel er høy.</p>
                             </div>
                           </div>
 
@@ -2199,18 +2200,19 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• 46 av 285 CL-mål (2005/06) kom etter backinvolvering høyt i banen.</li>
-                                <li>• Mot etablert/delvis etablert forsvar: 46 av 105 (44 %) involverte høy back.</li>
-                                <li>• Milan vs Barcelona (2 kamper): 4 av 9 sjanser etter backinvolvering (i etablert/delvis etablert).</li>
-                                <li>• Balanse/restforsvar: prinsipp om 3+2 når back går.</li>
+                                <li>• Referanse (toppnivå): 37% (105/285) mål mot etablert/delvis etablert.</li>
+                                <li>• Av disse: 44% (46/105) med back høyt involvert.</li>
+                                <li>• Andel av alle mål via back høyt: 16,1% (46/285).</li>
+                                <li>• Milan-case: 69% (40/58) etableringer i siste tredjedel med back høyt.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Frigjør backen gjennom hurtig vending og indreløper som trekker inn.</li>
-                                <li>• Back starter løp før ballen spilles – møt ball med fart.</li>
-                                <li>• Midtbane må lese når back går og sikre 3+2.</li>
+                                <li>• Trigger: når fremste pressledd er borte – se etter back på svak side.</li>
+                                <li>• Rask vending når motstander er smal → back får rom på motsatt.</li>
+                                <li>• Tren «back høyt»-bilder også etter ballerobring rundt midten.</li>
+                                <li>• Coach på valg mer enn utførelse: «hvor er rommet nå?»</li>
                               </ul>
                             </div>
                           </div>
@@ -2219,10 +2221,10 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Vend – frigjør – flytt!»</li>
-                                <li>• «Backen er bredde – sett fart før ball.»</li>
-                                <li>• «3+2 før vi fyller boks.»</li>
-                                <li>• «Midtbane: dra inn, åpne korridor.»</li>
+                                <li>• «Vend! Back er fri!»</li>
+                                <li>• «Kant inn – back ut!»</li>
+                                <li>• «Balanse før du går!»</li>
+                                <li>• «Valg før utførelse – hvor er rommet nå?»</li>
                               </ul>
                             </div>
                           </div>
@@ -2230,7 +2232,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A22-dag-riisnas-sideback.txt</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A22-sidebacken-hoyt-i-banen-analyse-v2.md</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2343,95 +2345,103 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-indigo-100 bg-gradient-to-r from-indigo-50 via-slate-50 to-sky-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-indigo-800">
-                              Chelsea 4-2-3-1 – etablert forsvar
+                              Etablert forsvar i 1-4-2-3-1 (Chelsea 2015/16)
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-indigo-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• Mourinho-årene: under 1 baklengs pr kamp – kompakt blokk.</li>
-                                <li>• 2015/16: flere mål imot pga. dårlig press, lengre avstander, svak boksforsvar.</li>
+                                <li>• Kjerneidé: posisjonell balanse → nekte gjennombrudd og styre hvor de får spille.</li>
+                                <li>• Logikk: <strong>steng sentralt → led utover → press hardt når ballen er bredt</strong>.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• 4-2-3-1 blir 4-4-2 i press. Matic/Fabregas styrer romprioritering.</li>
-                                <li>• Nesselquist beskriver rollekrav for alle posisjoner + mental tilnærming.</li>
+                                <li>• Vær forberedt på <strong>innlegg</strong> og <strong>bakrom</strong> i lavere perioder.</li>
+                                <li>• Felles triggerspråk gjør at laget kan gå samlet fra lavt → høyere press.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Høyt press</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Grunnsystem</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                10’er går opp ved siden av spiss, kant styrer inn – press/balanse signalisert av Costa.</p>
+                                1-4-2-3-1 som blir 1-4-3-3 i høyt press og 1-4-4-1-1 i lavt press.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Lav blokk</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Hovedprinsipp</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Hele laget under ball, 4-4-2/4-5-1 – prioriter sentrumsrom, aksepter innlegg.</p>
+                                Ikke gjennom oss → ikke bak oss. Korte avstander, og led utover for å beskytte midten.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Boksforsvar</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Pressøyeblikk</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Stopper i sone, back + ving plukker menn; keeper aktiv i innleggsfelt.</p>
+                                «Skru på» ved <strong>ball i luft</strong>, <strong>feilvendt</strong> eller <strong>dårlig touch</strong> – alle opp samtidig.</p>
                             </div>
                           </div>
 
-                          <div className="rounded-xl border border-sky-200 bg-sky-50 p-3">
-                            <h4 className="text-xs font-semibold uppercase tracking-wide text-sky-800">Førsteforsvarer (1F) – læringsmomenter</h4>
-                            <div className="mt-2 grid gap-3 md:grid-cols-2">
-                              <ul className="space-y-0.5 text-sm text-sky-900">
-                                <li>• <strong>Snappe ballen</strong> – bryt ballbane med riktig timing</li>
-                                <li>• <strong>Takle</strong> – ha sikringsspiller i avpasset avstand</li>
-                                <li>• <strong>Feilvendt mottaker</strong> – hold tett press, unngå takling</li>
-                                <li>• <strong>Rettvendt ballfører</strong> – sideveis kropp, lavt tyngdepunkt</li>
-                              </ul>
-                              <ul className="space-y-0.5 text-sm text-sky-900">
-                                <li>• <strong>Stor fart/ubalanse</strong> – rygg, led til ufarlig område</li>
-                                <li>• <strong>2v1-situasjon</strong> – rygg mellom, avskjær pasning</li>
-                                <li>• <strong>Passert</strong> – løp opp og tilbake på forsvarssiden</li>
-                                <li>• <strong>Mål:</strong> erobre ball, ikke bli utspilt, hindre skudd</li>
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Presshøyde – høyt press</p>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Mer mannsorientert, men med «sone-innrømmelse» sentralt.</li>
+                                <li>• Stoppere prioriterer bakrom + balanse (ikke følge ukritisk).</li>
+                                <li>• Målbilde: led til <strong>motstanders back</strong> og vinn ballen der.</li>
                               </ul>
                             </div>
-                            <p className="mt-2 text-xs text-sky-600 italic">Kilde: Trenerbloggen / NFF</p>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Presshøyde – lavt press</p>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Sone som utgangspunkt: ta ut «farligst i sone».</li>
+                                <li>• Korte avstander, komprimering og sikring på innsiden.</li>
+                                <li>• Vær forberedt på <strong>innlegg</strong> og <strong>bakromsbolder</strong>.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Lavt press – 3’er-blokk på bred ball</h4>
+                            <div className="mt-2 grid gap-3 md:grid-cols-2">
+                              <ul className="space-y-1 text-sm text-zinc-700">
+                                <li>• Bred 3’er: <strong>back + kant + sentral midt</strong>.</li>
+                                <li>• Regel: <strong>én presser</strong>, <strong>to sikrer</strong> (hver side).</li>
+                                <li>• Bakrom: les kropp/blikk + løp, avklar tidlig «presser/sikrer».</li>
+                              </ul>
+                              <ul className="space-y-1 text-sm text-zinc-700">
+                                <li>• Boks-3’er: <strong>2 stoppere + motsatt back</strong> blir hjemme.</li>
+                                <li>• 6/8 forsvarer rundt <strong>straffemerket</strong>, motsatt kant kommer inn.</li>
+                                <li>• Kritisk: boks-3’eren går aldri ut av posisjon.</li>
+                              </ul>
+                            </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Mål imot ≤1 pr kamp (referanse Mourinho-år).</li>
-                                <li>• Avstand spiss–stopper 10–12 m.</li>
-                                <li>• Innlegg/boks – stopp 75 % før avslutning.</li>
-                                <li>• Press-triggere dokumenteres (Costa/10’er).</li>
+                                <li>• Sentrale gjennombrudd imot (mottak/pasning i «10-rommet»).</li>
+                                <li>• Ballvinning ved back etter leding til bred sone.</li>
+                                <li>• Innlegg stoppet før innleggsfot (dødlinje).</li>
+                                <li>• Vridninger imot etter bred ball (ut av «fella»).</li>
+                                <li>• Reaksjon på pressøyeblikk (samlet push på 3 triggere).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampplan (MatchPrep)</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Tydelig formasjonsskifte 4-2-3-1 → 4-4-2 uten ball.</li>
-                                <li>• Matic/Fabregas balanserer når back/kant støter.</li>
-                                <li>• Vinger faller inn i boks ved innlegg.</li>
-                                <li>• Mental approach: forsvar = mulighet, ikke frykt.</li>
+                                <li>• Velg presshøyde på forhånd, men bruk felles pressøyeblikk uansett.</li>
+                                <li>• Avklar sentrallinje-regler i høyt press (bakrom/balanse først).</li>
+                                <li>• Avtal boksroller på innlegg (boks-3’er blir + straffemerke-sone).</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: 4-4-2 høyt press mot 3-2-oppbygging.</li>
-                                <li>• Økt 2: Lav blokk + innlegg/boksdueller.</li>
-                                <li>• Økt 3: 6-ere balanserer når back/kant støter.</li>
-                                <li>• Gjennomgang: mental trening (approach vs avoidance).</li>
-                              </ul>
-                            </div>
-                            <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «4-4-2 uten ball – avstand 10 m.»</li>
-                                <li>• «Costa signal – gå!»</li>
-                                <li>• «Back møter, kant sikrer.»</li>
-                                <li>• «Keeper: approach, ikke avoidance.»</li>
+                                <li>• «Ikke gjennom oss!» – vær smal, korte avstander.</li>
+                                <li>• «Led utover» – ikke åpne midten.</li>
+                                <li>• «Pressøyeblikk!» (luft/feilvendt/dårlig touch) – alle opp.</li>
+                                <li>• «Bred 3’er:» én presser, to sikrer.</li>
+                                <li>• «Boks-3’er blir!» – ikke dra dere ut.</li>
                               </ul>
                             </div>
                           </div>
@@ -2439,7 +2449,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A24-etablert-forsvar-4231-analyse-v2.md</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2457,62 +2467,53 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-rose-100 bg-gradient-to-r from-rose-50 via-amber-50 to-slate-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-rose-800">
-                              FFK 2012 – lær av baklengsmålene
+                              A25 – FFK forsvar (2012) – innslupne mål
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-rose-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• 59 baklengs: 44 % etablert, 37 % dødball, 19 % overgang.</li>
-                                <li>• Høyre side tapte mest ball; avslutninger mot oss = kort hold, høyre for keeper.</li>
+                                <li>• Kjernen: mye baklengs i <strong>etablert</strong> + <strong>dødball</strong> – dybde/avstander og «ramma vs press».</li>
+                                <li>• Backledd faller ofte av for tidlig og mangler felles <strong>push-up</strong> etter klarering.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Flere mål imot i sluttfasen – kampene avgjort mot FFK.</li>
-                                <li>• Soneforsvar uten dybde = store mellomrom og for lite push-up.</li>
+                                <li>• Nøkkeltall: <strong>59 mål / 30 kamper</strong> (= 1,97 pr kamp).</li>
+                                <li>• <strong>25,42 %</strong> av baklengsmålene kommer <strong>siste 15 min</strong> → closing-plan.</li>
                               </ul>
                             </div>
-                          </div>
-
-                          <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-3">
-                            <h4 className="text-xs font-semibold uppercase tracking-wide text-emerald-800">Soneforsvar 4-4-2 – avstander og roller</h4>
-                            <div className="mt-2 grid gap-3 md:grid-cols-2">
-                              <div>
-                                <p className="text-xs font-medium text-emerald-700 mb-1">Avstander</p>
-                                <ul className="space-y-0.5 text-sm text-emerald-900">
-                                  <li>• 8–10 m mellom spissene</li>
-                                  <li>• 8–10 m mellom spillere i midtbaneledd</li>
-                                  <li>• 8–10 m mellom spillere i bakre firer</li>
-                                  <li>• 10–12 m mellom bakre firer og midtbane</li>
-                                  <li>• 10–12 m mellom midtbane og spisser</li>
-                                </ul>
-                              </div>
-                              <div>
-                                <p className="text-xs font-medium text-emerald-700 mb-1">Roller (1F/2F/3F)</p>
-                                <ul className="space-y-0.5 text-sm text-emerald-900">
-                                  <li>• <strong>1F</strong> = presser ballfører</li>
-                                  <li>• <strong>2F</strong> = sikrer (avstand + vinkel)</li>
-                                  <li>• <strong>3F</strong> = markerer</li>
-                                  <li>• Soneorientert til 16 m → markerende innenfor</li>
-                                  <li>• Sideforskyving = motsatt kant/back inn mot bakre stolpe</li>
-                                </ul>
-                              </div>
-                            </div>
-                            <p className="mt-2 text-xs text-emerald-600 italic">Kilde: Trenerbloggen / NFF</p>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Etablert</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Hovedregel</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Kompakt sone, 3+2 balanse, backledd må push opp – ikke åpne mellomrom.</p>
+                                Felles valg: <strong>«Ramma»</strong> vs <strong>«Press»</strong>. Når vi spriker her, sprekker laget opp.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Overgang</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Avstander</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Sikre bak høyre kant/back, plan for balltap (risiko større hjemme).</p>
+                                Dybde + kompakt lag i og mellom ledd. Reduser sikringsavstander og nekt mellomrom.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Dødball</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Backledd</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                37 % av målene – avtalt sone/mann + restforsvar.</p>
+                                Ikke falle av for tidlig – og <strong>push-up</strong> i samklang etter klarering/støtte.</p>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Presshøyde-modus</h4>
+                            <div className="mt-2 grid gap-3 md:grid-cols-3">
+                              <div>
+                                <p className="text-xs font-medium text-zinc-600 mb-1">Kontrollert</p>
+                                <p className="text-sm text-zinc-700">Ligg i ramma, vent på trigger, press med sikring (ikke halv-press).</p>
+                              </div>
+                              <div>
+                                <p className="text-xs font-medium text-zinc-600 mb-1">Aggressivt</p>
+                                <p className="text-sm text-zinc-700">Kort, tydelig periode når 1F + sikring er på plass (vinne ball uten å bli spilt av).</p>
+                              </div>
+                              <div>
+                                <p className="text-xs font-medium text-zinc-600 mb-1">Lavt (closing)</p>
+                                <p className="text-sm text-zinc-700">Siste 15: kompakt, færre gambles, prioriter klarering/andreball og nekt rom i/foran 16.</p>
+                              </div>
                             </div>
                           </div>
 
@@ -2520,40 +2521,42 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Totale baklengs ≤40.</li>
-                                <li>• Andel etablert mål ≤35 %.</li>
-                                <li>• Dødballmål ≤25 %.</li>
-                                <li>• Balltap høyreside ≤1 som ender i baklengs pr kamp.</li>
+                                <li>• Andel baklengsmål siste 15 min: <strong>&lt;18 %</strong> (ned fra 25,42 %).</li>
+                                <li>• Mål imot i etablert forsvar: <strong>&lt;38 %</strong> (ned fra 44,07 %).</li>
+                                <li>• Mål imot på dødball: <strong>&lt;30 %</strong> (ned fra 37,29 %).</li>
+                                <li>• Balltap som gir baklengs – sentralt: <strong>&lt;45 %</strong> (ned fra 56,76 %).</li>
+                                <li>• Push-up etter klarering: <strong>alle ledd opp innen 3–4 sek</strong>.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampplan (MatchPrep)</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Sone + dybde i bakre fire – push opp etter klarering.</li>
-                                <li>• Sikre bak risiko – reduser balltap på høyresiden.</li>
-                                <li>• Dødball: roller, sone/mann, restforsvar.</li>
-                                <li>• Sluttfase-mentalitet – struktur for 75–90 min.</li>
+                                <li>• Avklar «ramma» og 2–3 triggere for «nå går vi».</li>
+                                <li>• Definer 1F-prinsipp: hvem bremser/leder, hvem sikrer bak/inni.</li>
+                                <li>• Plan mot innlegg/cutback: steng rommet bak/mellom back–stopper, CM i sikring.</li>
+                                <li>• «Siste 15»-protokoll: risikokontroll + klarering/andreball + friske bein i nøkkelroller.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Øvelser (MatchPrep)</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: sone + push-up (4-4-2/4-5-1).</li>
-                                <li>• Økt 2: Dødballarbeid (sone/mann/rest).</li>
-                                <li>• Økt 3: Balltapscenarier på høyresiden + overgangsmottiltak.</li>
-                                <li>• Kamp: loggfør når mål imot kommer → tiltak.</li>
+                                <li>• UEFA-A25-01: «Ramma vs press» – 7v7 + 2 jokere.</li>
+                                <li>• UEFA-A25-02: Back–stopper–CM triangel-sikring mot innlegg/cutback.</li>
+                                <li>• UEFA-A25-03: «Push-up etter klarering» – 10 min closing-spill.</li>
+                                <li>• UEFA-A25-04: Dødballpakke (innkast + straffe/corner-fokus).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Push opp! Ikke lag eget mellomrom.»</li>
-                                <li>• «Sikre bak høyresiden.»</li>
-                                <li>• «Dødball = plan + rest.»</li>
-                                <li>• «Sluttfasen er vår – approach!»</li>
+                                <li>• «<strong>Ramma!</strong>» (samle – komprimer – nekt mellomrom)</li>
+                                <li>• «<strong>Bremse–lede!</strong>» (1F skaper dybde, ikke stuper)</li>
+                                <li>• «<strong>Backlinje: hold igjen – ikke falle av!</strong>»</li>
+                                <li>• «<strong>Opp sammen!</strong>» (push-up etter klarering – alle ledd)</li>
+                                <li>• «<strong>Steng bak–mellom!</strong>» (back/stopper/CM triangel-sikring)</li>
                               </ul>
                             </div>
                           </div>
@@ -2561,7 +2564,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A25-even-juliussen-ffk-forsvar.txt</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A25-ffk-forsvar-2012-analyse-v2.md</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2615,7 +2618,7 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Avklaringsrate ≥55 % (nå 53,6 %).</li>
+                                <li>• Avklaringsrate ≥60 % (nå 53,6 %).</li>
                                 <li>• Sjanser pr 100 innlegg ≤6 (nå 7,2).</li>
                                 <li>• Posisjonell ubalanse ≤40 % (nå 59,2).</li>
                                 <li>• Avslutning bakre stolpe ≤25 % (nå 46 %).</li>
@@ -2625,8 +2628,8 @@ export const UEFASeksjon = () => {
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Definer &rsquo;farlig vs ufarlig&rsquo; sone – stopp kryss i farlig.</li>
-                                <li>• Sonestopper vs markering – tydelig ansvar.</li>
-                                <li>• Motsatt back/ving i boks – ikke la liten spiller alene.</li>
+                                <li>• Telle opp i boks: 1/midt/bak + returrom.</li>
+                                <li>• Bakre stolpe + returrom: ikke gi fri avslutning.</li>
                                 <li>• Sluttfasetiltak – bytter, ro, ballbesittelse.</li>
                               </ul>
                             </div>
@@ -2636,9 +2639,9 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Boks-arbeid (1v1 + sone).</li>
-                                <li>• Økt 2: Innlegg fra farlig og ufarlig sone – juster blokk.</li>
-                                <li>• Økt 3: Sluttfase og posisjonell balanse.</li>
+                                <li>• Økt 1: UEFA-A26-02 Boksroller (1/midt/bak + returrom).</li>
+                                <li>• Økt 2: UEFA-A26-01 Farlig vs ufarlig sone (stopp kryss).</li>
+                                <li>• Økt 3: UEFA-A26-03 Sluttfase (push-up + andreball).</li>
                                 <li>• Kamp: loggfør innlegg og sjanser per omgang.</li>
                               </ul>
                             </div>
@@ -2646,9 +2649,10 @@ export const UEFASeksjon = () => {
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• «Farlig sone først!»</li>
-                                <li>• «Push og tette rom.»</li>
-                                <li>• «Vinger inn i returrom.»</li>
-                                <li>• «Sluttfase = skjerpings.»</li>
+                                <li>• «Telle opp!»</li>
+                                <li>• «Bakre stolpe!»</li>
+                                <li>• «Returrom!»</li>
+                                <li>• «Opp sammen!»</li>
                               </ul>
                             </div>
                           </div>
@@ -2656,7 +2660,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A26-gaute-helstrup-innlegg-forsvar.txt</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A26-forsvar-mot-innlegg-analyse-v2.md</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2665,6 +2669,115 @@ export const UEFASeksjon = () => {
                               >
                                 fotball.no (PDF)
                               </a>
+                            </p>
+                          </div>
+                        </div>
+                      )}
+
+                      {valgtAnalyse.kode === "G01" && (
+                        <div className="space-y-4">
+                          <div className="rounded-2xl border border-blue-100 bg-gradient-to-r from-blue-50 via-slate-50 to-indigo-50 p-4">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-blue-800">
+                              G01 – Keeper (spillbasert keeperutvikling)
+                            </p>
+                            <div className="mt-2 grid gap-3 text-sm text-blue-900 md:grid-cols-2">
+                              <ul className="space-y-1">
+                                <li>• Rød tråd: <strong>kamplik, spillbasert</strong> keepertrening som tvinger valg og samhandling.</li>
+                                <li>• God øvelse: keeper må <strong>velge før han handler</strong> (realistisk tid/rom/motstand).</li>
+                              </ul>
+                              <ul className="space-y-1">
+                                <li>• Roller i situasjon: angrepsspiller / ballerobrer / redningsmann.</li>
+                                <li>• Fokus: avverge før skudd (innlegg/gjennomspill) + 1v1 (romtaking/blokkering).</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-3">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampbilder</p>
+                              <p className="mt-2 text-sm text-zinc-900">Tell repetisjoner i 1v1, innlegg, og «før-skudd-avverging».</p>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">MatchPrep</p>
+                              <p className="mt-2 text-sm text-zinc-900">Legg keeperfokus inn i spilløkter via format som fremtvinger situasjonene.</p>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Spillformer</p>
+                              <p className="mt-2 text-sm text-zinc-900">7v7 felles midtbane, 3v3 i 16, og 6v6 med sidekorridor-innlegg.</p>
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Øvelser (MatchPrep)</h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• UEFA-G01-01: 7v7 med felles midtbane (gjennomspill/skudd).</li>
+                                <li>• UEFA-G01-02: 3v3 inne i 16m (næravslutning + 1v1).</li>
+                                <li>• UEFA-G01-03: 6v6 med frisoner i sidekorridor (innlegg/feltarbeid).</li>
+                              </ul>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• «Velg før du går!»</li>
+                                <li>• «Rom!»</li>
+                                <li>• «Set!»</li>
+                                <li>• «Bak ball! Lås!»</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
+                            <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
+                            <p className="text-xs text-zinc-500">
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/G01-keeper-spillbasert-utvikling-analyse-v2.md</code>.
+                            </p>
+                          </div>
+                        </div>
+                      )}
+
+                      {valgtAnalyse.kode === "G02" && (
+                        <div className="space-y-4">
+                          <div className="rounded-2xl border border-cyan-100 bg-gradient-to-r from-cyan-50 via-slate-50 to-blue-50 p-4">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-cyan-800">
+                              G02 – Keeper (kampdimensjon → treningsfordeling)
+                            </p>
+                            <div className="mt-2 grid gap-3 text-sm text-cyan-900 md:grid-cols-2">
+                              <ul className="space-y-1">
+                                <li>• Poeng: tren på det keeper faktisk møter i kamp (30 kamper: 10+10+10).</li>
+                                <li>• Fot dominerer igangsetting: ca. <strong>80–85%</strong>.</li>
+                              </ul>
+                              <ul className="space-y-1">
+                                <li>• Prioritering i trening: <strong>31%</strong> defensivt, <strong>28%</strong> igangsetting, <strong>42%</strong> defensive dødballer.</li>
+                                <li>• Tilbakespill: bli spillbar, ha flere valg, og tren med tid/press.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Øvelsesbank</h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• UEFA-G02-01: Spill med skuddsoner (skudd/retur/samhandling).</li>
+                                <li>• UEFA-G02-02: Vende på keeperne (inn på keeper og ut igjen før angrep).</li>
+                                <li>• UEFA-G02-03: Server til keeper hver sekvens (igangsetting + omstilling).</li>
+                              </ul>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• «Scan – velg tempo!»</li>
+                                <li>• «Vær spillbar!»</li>
+                                <li>• «Flere valg!»</li>
+                                <li>• «Tid/press-regel!»</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
+                            <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
+                            <p className="text-xs text-zinc-500">
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/G02-keeper-hva-moter-i-kamp-analyse-v2.md</code>.
                             </p>
                           </div>
                         </div>

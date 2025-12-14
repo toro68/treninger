@@ -10,7 +10,8 @@ type LearningPhase = {
   learningMoments: string[];
   practiceFormats: string[];
   keyQuestions: string[];
-  source: string;
+  sourceLabel: string;
+  sourceUrl?: string;
 };
 
 const phases: LearningPhase[] = [
@@ -34,7 +35,8 @@ const phases: LearningPhase[] = [
       "Hva ser du på når du forsvarer? Motspiller eller ball/medspillere?",
       "Hvem bestemmer hvor du skal stå?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-2",
@@ -56,7 +58,8 @@ const phases: LearningPhase[] = [
       "Hvem er nærmest ballen akkurat nå?",
       "Hva gjør resten av laget når 1F går i press?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-3",
@@ -79,7 +82,8 @@ const phases: LearningPhase[] = [
       "Har jeg sikring? → Led inn. Ingen sikring? → Led ut",
       "Hvilken pasningslinje må jeg stenge?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-4",
@@ -102,7 +106,8 @@ const phases: LearningPhase[] = [
       "Hvem sikrer 1F akkurat nå?",
       "Hva skjer hvis ballfører har stor fart?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-5",
@@ -125,7 +130,8 @@ const phases: LearningPhase[] = [
       "Hvor langt er det til nærmeste medspiller?",
       "Har vi konsentrert når ball er sentralt?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-6",
@@ -148,7 +154,8 @@ const phases: LearningPhase[] = [
       "Har vi press på ballfører? → Pump ut. Ikke press? → Fall",
       "Hva gjør ballfører med kroppen?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "tiim.no/soneforsvar",
+    sourceUrl: "https://tiim.no/soneforsvar",
   },
   {
     id: "sf-7",
@@ -156,7 +163,8 @@ const phases: LearningPhase[] = [
     description: "Når presser vi høyt vs. lavt?",
     prerequisites: ["Pumping mestret"],
     learningMoments: [
-      "Press-signaler: Støttepasning, dårlig touch, feilvendt, ball til back",
+      "Press-signaler (3–4): feilvendt/‘nese mot eget mål’, dårlig touch, tverspasning, støttepasning/klarering under press",
+      "‘Alle reagerer samtidig’: første ledd går, leddene bak skyver etter og stenger sentralt – avstander og sikring må henge sammen",
       "Høyt press: Mer markeringsorientert, ta ut spillere foran",
       "Lavt press: Klassisk sone, stå kontrollert, vent på feil",
       "Å ligge lavt er IKKE trøbbel - det er en styrkeposisjon",
@@ -171,7 +179,97 @@ const phases: LearningPhase[] = [
       "Er vi bedre eller dårligere enn motstanderen?",
       "Hva er stilling i kampen?",
     ],
-    source: "tiim.no/soneforsvar",
+    sourceLabel: "UEFA A01 (Even Ødegaard)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-even-odegard.pdf",
+  },
+  {
+    id: "sf-8",
+    name: "8. Lav blokk: kontroll på mellomrom og bakrom",
+    description: "Default: steng sentralt og tving ut",
+    prerequisites: ["Presshøyde og press-signaler"],
+    learningMoments: [
+      "Default = lav blokk når vi vil ha kontroll (ikke ‘trøbbel’)",
+      "Prioritet: steng sentralt (mellomrom) og beskytt bakrom",
+      "Tving ut: led spill mot sidene der det er trangt",
+      "Korte avstander i og mellom ledd – ikke strekk laget",
+      "Tåle innlegg fra dyp: vi lever med innlegg fra ‘ufarlig’ sone, men ikke gjennombrudd sentralt",
+    ],
+    practiceFormats: [
+      "8v8/9v9 med regel: mål teller ekstra etter brudd sentralt (for å straffe dårlig kontroll)",
+      "Spill med ‘tving ut’-regel: angrep må innom kant før avslutning",
+      "Video/frys: marker mellomrom og bakrom – hvem eier hvilke rom?",
+    ],
+    keyQuestions: [
+      "Er vi stengt sentralt – eller finnes det pasning gjennom midten?",
+      "Har vi kontroll på bakrom bak back/stopper?",
+    ],
+    sourceLabel: "UEFA A01 (Even Ødegaard)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-even-odegard.pdf",
+  },
+  {
+    id: "sf-9",
+    name: "9. Boksforsvar med soner (ved innlegg)",
+    description: "Telle opp og eie soner i feltet",
+    prerequisites: ["Lav blokk: kontroll på mellomrom og bakrom"],
+    learningMoments: [
+      "Rollefordeling i boks: første sone, midtre sone, bakre sone",
+      "Ytter/vingback: fall inn og fyll bakre/midtre sone når ball trekkes ut",
+      "Kroppsstilling: se både ball og rom – ikke bli ballfokusert",
+      "Etter innlegg/klarering: ut sammen (push-out) for å vinne andreball og tette mellomrom",
+    ],
+    practiceFormats: [
+      "Innleggsøvelse: 6–8 forsvarere i boks med faste soner + 2–3 angripere",
+      "‘Telle opp’-rutine før innlegg: rop ‘første/midt/bak’ og pek",
+      "Spillsekvenser med krav: minst én i bakre sone og én i returrom",
+    ],
+    keyQuestions: [
+      "Hvem eier første/midt/bakre sone akkurat nå?",
+      "Hvem faller inn fra utsiden når ballen er på kant?",
+    ],
+    sourceLabel: "UEFA A01 (Even Ødegaard)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-even-odegard.pdf",
+  },
+  {
+    id: "sf-10",
+    name: "10. Gjenvinning: 5-sekundersregelen",
+    description: "Gjenvinning som våpen – men med sikring",
+    prerequisites: ["Presshøyde og press-signaler"],
+    learningMoments: [
+      "Ved balltap: 2–3 nærmeste går umiddelbart for å vinne (press/duell)",
+      "Resten sikrer: steng bakrom, stopp første pasning frem, og beskytt returrom",
+      "Hvis vi ikke vinner innen 5 sek: fall raskt i lav blokk med korte avstander",
+    ],
+    practiceFormats: [
+      "Spill med ‘5 sek’: trener teller høyt – vinn ball eller fall",
+      "Overgangsspill: tap ball i angrep → enten gjenvinn eller organiser lav blokk",
+    ],
+    keyQuestions: [
+      "Hvem er de 2–3 nærmeste som ‘går’?",
+      "Hvem sikrer bakrom/returrom mens vi gjenvinner?",
+    ],
+    sourceLabel: "UEFA A01 (Even Ødegaard)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-even-odegard.pdf",
+  },
+  {
+    id: "sf-11",
+    name: "11. Balanse/restforsvar (3+2)",
+    description: "Angrep som tåler balltap",
+    prerequisites: ["Gjenvinning: 5-sekundersregelen"],
+    learningMoments: [
+      "Enkel regel: Restforsvar (‘def i off’) = 3 + 2",
+      "Rollene fylles av de som er nærmest – ikke alltid samme to",
+      "Mål: stoppe kontring tidlig (før de får vendt opp), og gi laget tid til å falle",
+    ],
+    practiceFormats: [
+      "Spill: angrepslag må alltid ha 3+2 i restforsvar før de kan ‘overbelaste’",
+      "Merking på bane: restforsvarssoner (hvem blir igjen?)",
+    ],
+    keyQuestions: [
+      "Har vi 3+2 igjen før vi sender flere i boks?",
+      "Hvem stopper første pasning frem hvis vi mister ballen?",
+    ],
+    sourceLabel: "UEFA A09 (Bjarte Lunde Aarsheim)",
+    sourceUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
   },
 ];
 
@@ -279,14 +377,18 @@ export const LearnZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolea
 
                     <p className="text-xs text-zinc-400">
                       Kilde:{" "}
-                      <a
-                        href={`https://${phase.source}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-violet-600 hover:underline"
-                      >
-                        {phase.source}
-                      </a>
+                      {phase.sourceUrl ? (
+                        <a
+                          href={phase.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-violet-600 hover:underline"
+                        >
+                          {phase.sourceLabel}
+                        </a>
+                      ) : (
+                        <span>{phase.sourceLabel}</span>
+                      )}
                     </p>
                   </div>
                 )}

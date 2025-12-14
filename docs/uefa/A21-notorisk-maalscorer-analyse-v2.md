@@ -1,126 +1,93 @@
-# A21 – Hvem er den notoriske målscoreren? (Totto Dahlum, UEFA A 2010)
+# A21 – Totto Dahlum: «Hvem er den notoriske målscoreren?»
 
-**Analysert etter mal:** `ANALYSE-MAL.md`
+## Kjerneidé
 
----
-
-## 1. Metadata
-
-| Felt | Verdi |
-|------|-------|
-| **Kode** | A21 |
-| **Forfatter** | Totto Dahlum |
-| **År** | 2010 |
-| **Original tittel** | Hvem er den notoriske målscoreren? |
-| **Kildefil** | `A21-totto-dahlum-maalscorer.txt` |
-| **Oppgave-lenke** | https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/ |
-| **Tema** | Målscorerens psykologiske/motoriske kjennetegn |
-| **Rolle(r)** | Spiss |
+En notorisk målscorer skapes over tid av en **indre driv (“den indre stemmen”)** som presser fram **kvalitetsrepetisjon, konkurranse, struktur og selvstendighet** – mer enn “medfødt avslutning”.
 
 ---
 
-## 2. Sammendrag
+## Notorisk målscorer – 4 ressursområder (det som faktisk skiller dem)
 
-Dahlum bruker egen erfaring som toppscorer i RBK og intervjuer med tre andre målscorere (Sigurd Rushfeldt, Petter Belsvik, Harald Martin Brattbakk) for å beskrive hva som kjennetegner en notorisk målscorer. Konklusjonen: målscoring bygger på mer enn teknikk – det handler om indre driv («den indre stemmen»), perfeksjonisme, selvstendighet, visualisering og evnen til å repetere til det sitter. Han fremhever gjentakelser («Gjentakelsen er det perfektes mor»), detaljfokus og mental robusthet (tørre å mislykkes, best når det gjelder). Oppgaven gir et psykologisk rammeverk for å utvikle spisser med spisskompetanse.
+1. **Perfeksjonisme = kvalitet i repetisjon**
 
----
+* «Gjentakelsen er det perfektes mor» → mål: å lykkes “hver gang”, med detaljer (treffpunkt, rytme, kropp).
+* Barndomsbildet: **8/10 er ikke nok** – han fortsetter til det “sitter”, med tydelige målsoner/linjer.
 
-## 3. Nøkkeltall / stikkord
+2. **Konkurranseinstinkt = press på trening (også alene)**
 
-- 4 intervjuobjekter (Totto, Rushfeldt, Belsvik, Brattbakk) + egen erfaring.
-- Kjernetrekk: indre stemme, perfeksjonisme, konkurranseinstinkt, visualisering, selvdisiplin, beslutningsevne, innovasjon.
+* Evne til å **gi trening betydning** (vinne/ikke vinne), ofte via visualisering og konsekvens.
 
----
+3. **Selvdisiplin og struktur = det som skjer hver dag**
 
-## 4. Prinsipper og konsepter
+* Ikke “spurter av motivasjon”, men en vane som gjør at det blir mye kvalitet over tid.
 
-| Kategori | Beskrivelse |
-|----------|-------------|
-| **Gjentakelse** | “Repetitio est mater studiorum” – repetisjon bygger spisskompetanse. |
-| **Detaljer** | Summen av små detaljer (angrepsløp, rytme, returer) avgjør. |
-| **Indre stemme** | Psykologisk drivkraft, visualiserer press/konsekvens, holder seg i flytsonen. |
-| **Konkurranseinstinkt** | Må trives under press (”Nå satser jeg livet”). |
-| **Selvstendighet** | Ikke avhengig av andre for å trene; skaper egne økter (garasjeveggen, tennisbanen). |
+4. **Selvstendighet/praktiske gener = du er ikke avhengig av andre**
+
+* Evne til å gjennomføre **lange kvalitetsøkter alene**, som bygger automatisering og selvtillit.
 
 ---
 
-## 5. Øvelser (idébasert)
+## Hovedprinsipper (trenerens sjekkliste)
 
-### Øvelse 1: Perfeksjonisme-runden
-
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A21-01 |
-| **Kategori** | Avslutning |
-| **Spillere** | 4–6 |
-| **Bane** | 20 x 20 m + mål |
-| **Format** | “10 av 10” krav per avslutningstype |
-| **Varighet** | 15 min |
-
-**Regler:**
-1. Velg en avslutningsprofil (volley, cut-back, heading). Økten stoppes ikke før spilleren har 10/10.
-2. Avslutter styrer repetisjoner selv.
-
-**Coaching points:**
-- Fokus på detaljene (løp, avslutning).
-- Visualiser kamptrykk (straffer, “siste ball”).
+* **Bygg “10/10”-standard** (ikke “gjennomført”, men “bestått”).
+* **Tren med mening:** legg inn konkurranse/press så avslutning blir “kampnær” mentalt.
+* **System slår humør:** små faste rutiner som alltid gjøres.
+* **Egenansvar:** kvalitet kan bygges uten at laget er der.
 
 ---
 
-### Øvelse 2: Visualiseringsstafett
+## Kampdimensjon → KPI (enkelt å måle i hverdagen)
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A21-02 |
-| **Kategori** | Mental trening / avslutning |
-| **Spillere** | 6–8 |
-| **Format** | Spillere beskriver scenario → utfører avslutning |
-| **Varighet** | 10 min |
+**Kvalitet i avslutning (trening):**
 
-**Regler:**
-- Spiller beskriver situasjon (0-0, 90. min, bakre stolpe) → trener kaster ball -> avslutt.
-- Bonus for konsekvent treff.
+* “Bestått”-serier: f.eks. **10/10 i valgt sone** før du avslutter økta (logges).
+* Under press: antall avslutninger der du **holder teknikk/ro** selv med tid/straff (poengsystem).
 
-**Coaching points:**
-- Visualiser detaljer (motstander, tid, rom).
-- Gå rett inn i handling (ikke overtenk).
+**Vaner/struktur (uke):**
+
+* Antall **egentreninger med sluttprodukt** (avslutning) pr uke.
+* Antall “konkurransebolker” (press/konsekvens) pr uke.
 
 ---
 
-## 6. MatchPrep-fokus (spiss)
-```javascript
-{
-  id: "a21-visualisering",
-  text: "Visualiser situasjonen før kamp – se deg selv treffe" 
-},
-{
-  id: "a21-gjentakelse",
-  text: "Gjør repetisjonene til de sitter – kvalitet i hver avslutning" 
-},
-{
-  id: "a21-press",
-  text: "Omfavn presset – best når det gjelder" 
-}
-```
+## Kampplan (MatchPrep)
+
+* Lag en enkel “indre-stemme”-rutine før kamp:
+
+  1. 2–3 visualiseringer av *din* scoringssituasjon (løp + touch + avslutning).
+  2. Siste del av oppvarming: **kort serie som må bestås** (kvalitet > volum).
+* For spisser: avtal hva som er **dagens 1–2 hovedavslutninger** (cutback/innlegg/bakrom) – så du leter etter de situasjonene hele kampen.
 
 ---
 
-## 7. Evaluering (kvalitativ)
+## Coaching cues (enkle å rope)
 
-| Indikator | Mål |
-|-----------|-----|
-| Mental rutine før kamp | Spiller beskriver egen “indre stemme” |
-| Repetisjonssatsing | Egenaktivitet ≥ 3 økter/uke |
-| Visualiseringslogg | Scenario skrives etter hver økt/kamp |
-
----
-
-## 8. CoachingTips
-- **Cue:** «Hør på stemmen – du vil score.»
-- **Cue:** «Detaljer avgjør.»
-- **Cue:** «Repetisjon til det sitter.»
-- **Ikke:** «Ikke ta kjappe snarveier – du må gjøre jobben.»
+* «**10/10 – ikke 8/10.**»
+* «**Kvalitet i rep!**» (samme detalj hver gang)
+* «**Gjør det kamp-likt – spill om noe.**»
+* «**Du er ikke avhengig av andre – ta økta.**»
 
 ---
 
-*Oppgaven er kvalitativ og psykologisk orientert; KPI-er er derfor mentale prosessindikatorer.*
+## Øvelser (rett på feltet)
+
+1. **“Garasje/vegg – 10 av 10”**
+   Marker 2 soner/linjer. 1-touch/halvsprett. Variér fot. Krav: 10/10 før stopp.
+
+2. **“Avslutning med konsekvens” (pressbolk)**
+   8 avslutninger fra 2–3 faste scoringsrom. Bom = poeng til “motstander” / ekstra runde. Målet er å trigge konkurranseinstinkt.
+
+3. **“Selvstendig kvalitet” (12 min)**
+   3 x 4 min: (a) 1-touch avslutning, (b) 2-touch med retningsbestemt første touch, (c) valgfri – men alt logges som bestått/ikke bestått.
+
+---
+
+## Tallgrunnlag (4 “notoriske” målscorere – toppnivåreferanse)
+
+Tippeligaen-statistikk i oppgaven: Totto Dahlum **89 mål/223 kamper**, Rushfeldt **153/245**, Brattbakk **166/256**, Belsvik **159/313**.
+
+---
+
+## Kort oppsummert
+
+Oppgaven peker på at “notorisk” handler om **mental motor + vaner**: alle fire beskriver en **indre stemme** som driver dem til å ville, måtte og skulle – og som til slutt blomstrer i kamp.

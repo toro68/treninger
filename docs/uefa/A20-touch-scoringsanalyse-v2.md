@@ -1,4 +1,4 @@
-# A20 – Touch og scoringer i Strømsgodset TF (Stian Lund, UEFA A 2010/11)
+# A20 – Touch & scoring – Strømsgodset 2010 (Stian Lund)
 
 **Analysert etter mal:** `ANALYSE-MAL.md`
 
@@ -21,59 +21,80 @@
 
 ## 2. Sammendrag
 
-Lund analyserte alle scoringer og store sjanser til Strømsgodset i Tippeligaen 2010 for å måle om færre touch gir høyere scoringsrate. Ved å registrere de tre siste involveringene (tredjepas, målgivende pas og avslutter) fant han at:
-- 57 % av målene (uten dødballer) ble avsluttet på ett touch, og 14 % på to touch.
-- Totalt ble 71 % av målene scoret på 1–2 touch.
-- For målgivende pasning til scoring var 28 % på ett touch (og 28 % på to touch).
-- For tredjesistepasset før scoring var 25 % på ett touch (og 14 % på to touch).
-- Det finnes tydelig sammenheng mellom få touch og effektivitet, men presisjon og beslutning må ikke ofres.
-Oppgaven reiser viktige spørsmål for spillerutvikling: hvilke ferdigheter krever “få touch”-spill, og hvordan trener man spillere til å håndtere tempoet? Lund konkluderer med at unge spillere må eksponeres for situasjoner der de må orientere seg, ta avgjørelser raskt og utføre på første/andre touch, uten å kompromittere kvaliteten.
+**Kjerneidé:** Jo nærmere mål, jo viktigere å kunne avslutte på **få touch** – spesielt **1-touch**. Det handler ikke om “touch-rekord”, men om å **beherske avslutningsteknikk og timing** i de avgjørende fasene.
+
+Oppgaven analyserer Strømsgodset TF 2010 og registrerer touch i de siste tre involveringene før sjanse/mål (tredjesiste, målgivende og avslutter). Hovedbildet er tydelig: **1-touch dominerer** både på scoringer og på sjanser, samtidig som **målgivende ofte går på 1–2 touch** (timing/relasjon), og at **hurtige restarter** (frispark/innkast) kan gi sjanser før motstander rekker å organisere.
 
 ---
 
-## 3. Nøkkeltall og KPI-er
+## 3. Nøkkeltall (kampnært)
 
-| KPI | Tall (SIF 2010) | Kommentar |
-|-----|-----------------|-----------|
-| Ett-touch avslutninger (mål, eks dødball) | 57 % (20 av 35) | Viser behov for orientering + teknikk |
-| To-touch avslutninger (mål, eks dødball) | 14 % | Resterende: 3 touch 9 %, 4 touch 6 %, 5+ touch 14 % |
-| Avslutning 1–2 touch (mål, eks dødball) | 71 % | Oppsummerer 1+2 touch i scoringsfasen |
-| Målgivende 1 touch (til mål) | 28 % | Målgivende til scoring |
-| Tredjesistepass 1–2 touch (før mål) | 39 % (25 % + 14 %) | Tredjesistepass før scoring |
+- **Scoringer (etablert + overgang, n=35):** 1 touch **57%** (20), 2 touch **14%**, 3 touch **9%**, 4 touch **6%**, 5+ **14%**.
+- **Målsjanser (etablert + overgang, n=96):** 1 touch **56%** (54), 2 touch **25%**, 3 touch **8%**, 4 touch **4%**, 5+ **7%**.
+- **Konklusjon:** “Jo nærmere mål man kommer, jo færre touch må man bruke.”
+- **Målgivende til scoring:** 1 touch **28%**, 2 touch **28%**.
+- **Tredjesistepasning før målsjanse:** 1 touch **24%**, 2 touch **21%**, og **hurtig frispark/innkast 14%**.
 
 ---
 
-## 4. Prinsipper og konsepter
+## 4. Hovedprinsipper (hva dere skal coache)
 
-### 4.1 Forutsetninger for få touch
-- **Orientering**: se før ball kommer, planlegg handling.
-- **Teknikk under press**: vinkle kropp, riktig første touch.
-- **Spillestil**: Strømsgodset spilte høyt tempo-possession, men tillot balltap for å lære – må balanseres med læring.
-
-### 4.2 Rollekrav i siste tre involveringer
-1. **Avslutter**: må kunne avslutte på første kontakt (innlegg/cut-back/kantkombinasjon).
-2. **Målgivende**: presise leveranser (innlegg, veggpasning, stikk) – ett touch begrenser press.
-3. **Tredjepas**: definerer rom, setter fart i angrepet.
+1. **Avslutter:** Bygg 1-touch som standard i boks (med krav om kvalitet) – særlig på innlegg/cutback/returer.
+2. **Avslutter:** Reduser “2-touch-sjanser” der 1-touch er mulig (2 touch er **25% av sjansene**, men bare **14% av målene**).
+3. **Målgiver (sistepasning):** 1–2 touch er normalt (28/28) – vinn tid med **timing og relasjon**, ikke bare færre touch.
+4. **Lengre fra mål (tredjesiste):** “Riktig antall touch” > “færrest mulig” – valg/struktur påvirker hvilke situasjoner som oppstår.
 
 ---
 
-## 5. Øvelser (UEFA-knapp)
+## 5. Kampdimensjon → KPI (enkelt å måle i kamp)
 
-### Øvelse 1: Ett-touch finishing carousel
+| Indikator | Mål/Referanse | Hvorfor |
+| --- | ---: | --- |
+| Andel mål på **1 touch** | ≥ **57%** (benchmark) | 1-touch dominerer scoringene |
+| Andel sjanser på **2 touch** | Ned mot **<25%** | 2-touch “lekker” uttelling |
+| Målgivende pasning 1–2 touch | Høy andel (28/28) | Timing/relasjon avgjør |
+| Quick restart-sjanser (innkast/frispark) | Egen telling pr kamp | 14% på tredjesistepasning før sjanse |
+
+---
+
+## 6. Kampplan (MatchPrep)
+
+- **Definer “1-touch-bilder” dere skal fram til:** cutback langs bakken, innlegg “riktig fot”, returer i D/16, stikk i boks.
+- **Avtal boksroller:** 1. stolpe / bakre / D-retur / sikring.
+- **Quick restart-pakke:** 2–3 faste triggere på frispark/innkast (hurtig i bakrom eller inn i boks før motstander er satt).
+
+---
+
+## 7. Coaching cues (kort og ropbart)
+
+- **Avslutter:** «**Se mål før mottak – 1 touch!**»
+- **Målgiver:** «**Timing – slipp den nå!**»
+- **Lag:** «**Skap 1-touch-bildet**»
+- **Etter brudd/fast:** «**Kjør raskt!**»
+
+---
+
+## 8. Øvelser i appen (rett på feltet)
+
+### Øvelse 1: Cutback-bank (1-touch i boks)
 
 | Felt | Beskrivelse |
 |------|-------------|
 | **Kode** | UEFA-A20-01 |
 | **Kategori** | Avslutning |
-| **Spillere** | 8–12 |
-| **Bane** | 30 x 25 m |
-| **Format** | Fire stasjoner: innlegg høyre, cut-back venstre, tredjepas vegg, gjennombrudd |
-| **Varighet** | 20 min |
+
+**Oppsett:** 3 stasjoner: cutback fra dødlinje, innlegg langs bakken, retur i D.
 
 **Regler:**
-- Avslutter må score på ett touch.
-- Rotasjon etter hvert forsøk.
-- Bonuspoeng for kombinasjon på maks tre touch (tredjepas → assist → mål).
+
+- Runde 1: avslutter **må** forsøke 1-touch.
+- Runde 2+: «riktig touch» (1–2) med krav om treff/keeperstress.
+
+**Coaching points:**
+
+- Avslutter: se mål før mottak, fotarbeid og timing
+- Målgiver: lever på riktig fot og riktig tempo
+- Boksroller: 1. stolpe / bakre / D-retur / sikring
 
 **Coaching points:**
 - Orientering før avslutning.
@@ -82,63 +103,50 @@ Oppgaven reiser viktige spørsmål for spillerutvikling: hvilke ferdigheter krev
 
 ---
 
-### Øvelse 2: 3-involveringsangrep 7v7
+### Øvelse 2: Sistepasning i lommen (maks 2 touch)
 
 | Felt | Beskrivelse |
 |------|-------------|
 | **Kode** | UEFA-A20-02 |
-| **Kategori** | Spill |
-| **Spillere** | 14 |
-| **Bane** | 44 x 40 m |
-| **Format** | 7v7, mål på full bredde |
-| **Varighet** | 3 x 6 min |
+| **Kategori** | Angrep |
 
-**Regler:**
-- Mål teller bare hvis de tre siste involveringene er ≤1 touch hver (kan tilpasse til 1-2 touch).
-- Dersom kravet brytes, får motstander ball.
+**Oppsett:** 6v6 + 2 nøytrale i mellomrom.
+
+**Regel:** Poeng kun hvis sistepasning slås på **1–2 touch** og leder til avslutning.
 
 **Coaching points:**
-- Kommunikasjon på tvers.
-- Tempo vs presisjon.
-- Spillerne må søke posisjoner som gjør 1-touch mulig.
+
+- Målgiver: timing – slipp den nå
+- Lag: skap 1-touch-bildet med posisjonering og “riktig fot”
+- Avslutter: 1-touch når bildet er der
 
 ---
 
-## 6. MatchPrep-fokus
-```javascript
-{
-  id: "a20-orientering",
-  text: "Orientering før ball – planlegg 1-touch"
-},
-{
-  id: "a20-stotte",
-  text: "Skap støttevinkler for 1-touch vegger"
-},
-{
-  id: "a20-presisjon",
-  text: "Tempo uten å ofre teknisk kvalitet"
-}
-```
+### Øvelse 3: Quick restart-spill (innkast/frispark)
+
+| Felt | Beskrivelse |
+|------|-------------|
+| **Kode** | UEFA-A20-03 |
+| **Kategori** | Spill |
+
+**Oppsett:** 8v8.
+
+**Regel:** Ved stopp i spill har laget **5 sek** til å starte. Poeng hvis dere kommer til avslutning innen **10 sek**.
+
+**Coaching points:**
+
+- «Kjør raskt!» – overraskelse før de er satt
+- Avklar 2–3 triggere (bakrom/inn i boks/cutback)
+- Hvis dere ikke har bilde: spill sikkert og bygg nytt angrep
 
 ---
 
-## 7. Evaluering
+---
 
-| Indikator | Mål |
-|-----------|-----|
-| Andel ett-touch avslutning | ≥70 % |
-| Andel ett-touch målgivende | ≥60 % |
-| Kombinasjoner ≤3 touch | ≥50 % av målene |
-| Orientering (videoanalyse) | Alle involverte sjekker skuldre før mottak |
+## 9. Øvelser i appen (liste)
+
+Se appens øvelser for A20 (UEFA-A20-01, UEFA-A20-02 og UEFA-A20-03).
 
 ---
 
-## 8. CoachingTips
-- **Cue:** «Blikk først, ball etterpå.»
-- **Cue:** «Spilleren kommer – ballen går.»
-- **Cue:** «Tempo + presisjon.»
-- **Ikke:** «Ikke lås deg til ballen i tre touch.»
-
----
-
-*(Tall og øvelser basert på Strømsgodset 2010-analysen; bruk filen for videre detaljering.)*
+*(Tall og eksempler er fra oppgaven. Bruk benchmark som retning, ikke absolutte krav på alle nivå.)*
