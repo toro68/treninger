@@ -233,7 +233,7 @@ export const UEFASeksjon = () => {
                       ))}
                     </div>
                     <div className="space-y-2">
-                      <p className="text-sm text-zinc-600 leading-relaxed">
+                      <p className="text-sm text-zinc-600 leading-relaxed whitespace-pre-line">
                         {valgtAnalyse.sammendrag}
                       </p>
 

@@ -381,8 +381,22 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     forfatter: "Sigurd Rushfeldt",
     tema: "Avslutninger, målscorerferdighet",
     roller: ["Spiss", "Vinger", "Offensiv midtbane"],
-    sammendrag:
-      "Rushfeldt peker på tre ting som bør styre treningen for målscorere: avslutte fort, være i riktig sone (innenfor 16 m – helst 11 m) og å ha en plan i typiske situasjoner. Tallmaterialet viser at de fleste mål kommer på 1–2 touch og nært mål, mens returer og innlegg utgjør en stor andel av scoringene. Poenget er å bygge vaner og besluttsomhet gjennom kampnære øvelser: bevegelse på blindsiden, forberedelse før mottak og etterarbeid på returer.",
+    sammendrag: `Rushfeldts 3 styringsprinsipper:
+- Avslutt fort (bygg repertoar for 1–2 touch)
+- Riktig sone (innenfor 16 m – helst 11 m)
+- Ha en plan i typiske situasjoner (1v1, skrå vinkel, innlegg, returer)
+
+Tall som styrer treningen:
+- 70 % 1 touch / 85 % 1–2 touch (egne mål)
+- 83 % 1–2 touch (toppklubber)
+- 94 % innenfor 16 m (75 % innenfor 11 m)
+- 37 % av scoringene etter innlegg (toppklubber)
+- ~10 % returer (≈30 mål i karrieren)
+
+Treningsfokus:
+- Forberedelse før mottak + bestem før du får den
+- Blindsiden lenge, rykk på ball
+- Returløp er en vane (alltid)`,
     kpier: [
       { navn: "Datagrunnlag (egne mål)", referanseverdi: "~300 mål analysert", kilde: "Bakgrunn" },
       { navn: "Datagrunnlag (toppklubber 2011/12)", referanseverdi: "~400 scoringer analysert", kilde: "Bakgrunn" },
@@ -426,28 +440,58 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     forfatter: "Gard Holme",
     tema: "Høy playmaker – orientering, touch, avgjørende pasning",
     roller: ["Offensiv midtbane", "Indreløper", "Vinger", "Spiss"],
-    sammendrag:
-      "Holme analyserte åtte topp-playmakere (Özil, Messi, Xavi, Iniesta, Mata, Fabregas, Hamsik, Silva) i CL 2012/13 og deler hver assistsituasjon i tre faser: komme på ball, gå fra mulighet til realitet og avgjørende pasning. Funnene peker på konkrete læringsmomenter: posisjonering i mellomrommet (lavt/midt i rommet i 88,3 % av situasjonene), kroppsvinkel ved mottak (rett-/sidevendt i 80,3 %) og rask håndtering i fase 2 (59,8 % av involveringene varer 0–2 sek). I fase 3 beskrives at assister oftest slås fra sentral sone/mellomrom rett utenfor 16-meteren, og at presisjon og timing mot løp (bakrom/rom i bakre ledd) er sentralt.",
+    sammendrag: `Kort fortalt: Den høye playmakeren er høyt involvert, har høy pasningskvalitet, skaper sjanser/assist, og må løse situasjoner raskt under tett press.
+
+Nøkkeltall (rolleprofil):
+- Pasninger pr. kamp: 70,8
+- Pasningssuksess: 85,65 %
+- Pasninger mot siste 1/3: 9,56
+- Pasninger på 1. touch: 29,06
+- Assist/Chances: 0,35 / 0,45 pr. kamp
+
+3 faser i assistsituasjoner:
+1) Komme på ball: mikrojusteringer og posisjonering i romutviklingen (lavt/midt i mellomrom i 88,3 %)
+2) Mulighet → realitet: kort tid på ball (0–2 sek i 59,8 %) og tett press (0–3 m i 84,5 %)
+3) Forløsning: presisjon + romforståelse (bakrom/innlegg, ofte fra sentral sone rett utenfor 16 m)`,
     kpier: [
-      { navn: "Høyde i mellomrom", referanseverdi: "Lavt/midt i rommet = 88,3 %", kilde: "Kap. 5.3.2" },
-      { navn: "Kroppsvinkel ved mottak", referanseverdi: "Rett-/sidevendt = 80,3 %", kilde: "Kap. 5.3.3" },
-      { navn: "Tid på ball (fase 2)", referanseverdi: "0–2 sek = 59,8 %", kilde: "Kap. 5.4.1" },
-      { navn: "Antall touch (fase 2)", referanseverdi: "1 touch = 27,8 % (2 touch = 24,7 %)", kilde: "Kap. 5.4.2" },
+      { navn: "Pasninger pr. kamp", referanseverdi: "70,8", kilde: "Rolleprofil" },
+      { navn: "Pasningssuksess", referanseverdi: "85,65 %", kilde: "Rolleprofil" },
+      { navn: "Pasninger mot siste 1/3", referanseverdi: "9,56", kilde: "Rolleprofil" },
+      { navn: "Pasninger på 1. touch", referanseverdi: "29,06", kilde: "Rolleprofil" },
+      { navn: "Assist pr. kamp", referanseverdi: "0,35", kilde: "Rolleprofil" },
+      { navn: "Chances pr. kamp", referanseverdi: "0,45", kilde: "Rolleprofil" },
+
+      { navn: "Bevegelse: mikrojustering (midt i rommet)", referanseverdi: "35,4 %", kilde: "Fase 1" },
+      { navn: "Bevegelse: doble bevegelser", referanseverdi: "1,3 %", kilde: "Fase 1" },
+      { navn: "Høyde i mellomrom", referanseverdi: "Lavt/midt i rommet = 88,3 %", kilde: "Fase 1" },
+      { navn: "Kroppsvinkel ved mottak", referanseverdi: "Rett-/sidevendt = 80,3 %", kilde: "Fase 1" },
+
+      { navn: "Tid på ball (fase 2)", referanseverdi: "0–2 sek = 59,8 %", kilde: "Fase 2" },
+      { navn: "Antall touch (fase 2)", referanseverdi: "1 touch = 27,8 % (3 touch = 24,7 %) (5+ = 19,6 %)", kilde: "Fase 2" },
+      { navn: "Pressavstand ved 1. berøring", referanseverdi: "0–3 m = 84,5 %", kilde: "Fase 2" },
+
+      { navn: "Hvem mottar assist", referanseverdi: "Spiss 70,4 % / kant 28,6 %", kilde: "Fase 3" },
     ],
     fokuspunkter: [
-      { id: "a08-fase1", tekst: "Fase 1: posisjonér deg midt i mellomrommet og møt ball med åpen kropp" },
-      { id: "a08-fase2", tekst: "Fase 2: forbered i forkant – kort tid på ball og krav til hurtig ballbehandling" },
-      { id: "a08-fase3", tekst: "Fase 3: presisjon + timing i avgjørende pasning (ofte fra sentral sone/mellomrom)" },
-      { id: "a08-roller", tekst: "Spiss/kant må koordinere løp med playmaker" },
+      { id: "a08-prinsipp-mikro", tekst: "Mikroposisjonering (midt i rommet) slår doble bevegelser – finn midten av rommet" },
+      { id: "a08-prinsipp-kropp", tekst: "Rett/sidevendt mottak for å spille fremover raskt" },
+      { id: "a08-prinsipp-scan", tekst: "Ha scannet ferdig før du får ballen – løs under ekstremt tid/press (0–2 sek, 0–3 m)" },
+      { id: "a08-prinsipp-forlose", tekst: "Forløsning = presisjon + romforståelse (bakrom/innlegg + innsidevariasjon)" },
+      { id: "a08-matchprep", tekst: "MatchPrep: avklar hvem du oftest skal forløse (9 først, deretter kant) og hvilke rom dere prioriterer" },
     ],
     ovelser: [
       { kode: "uefa-a08-01" },
       { kode: "uefa-a08-02" },
     ],
     coachingCues: [
-      { kategori: "Orientering", gjor: "Se før du får den", ikkeGjor: "Ikke motta uten plan" },
-      { kategori: "Touch", gjor: "Åpen kropp – to touch", ikkeGjor: "Ikke stå på hælene" },
-      { kategori: "Pasning", gjor: "Vær presis og treff timing mot løp", ikkeGjor: "Ikke hold igjen for lenge" },
+      { kategori: "Fase 1", gjor: "Små steg – finn midten av rommet", ikkeGjor: "Ikke rykk-fri uten å lese romutviklingen" },
+      { kategori: "Fase 1", gjor: "Vær sidevendt før ballen kommer", ikkeGjor: "Ikke bli låst feilvendt" },
+      { kategori: "Fase 2", gjor: "Se før du får", ikkeGjor: "Ikke motta uten informasjon" },
+      { kategori: "Fase 2", gjor: "1–2 touch hvis mulig", ikkeGjor: "Ikke ta ekstra touch uten gevinst" },
+      { kategori: "Fase 2", gjor: "Tåler du kontakt? Løs det i 0–3 meter", ikkeGjor: "Ikke forvent rom og tid" },
+      { kategori: "Fase 3", gjor: "Vekt den – på sølvfat", ikkeGjor: "Ikke spill hardt uten presisjon" },
+      { kategori: "Fase 3", gjor: "Kamufler før du stikker", ikkeGjor: "Ikke telegraphér pasningen" },
+      { kategori: "Fase 3", gjor: "Innside = kontroll (tilpass til rommet)", ikkeGjor: "Ikke velg teknikk som ikke matcher rommet" },
     ],
     kildefil: "A08-playmaker-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",

@@ -21,7 +21,9 @@
 
 ## 2. Sammendrag
 
-Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av verdens beste høye playmakere (Øzil, Messi, Xavi, Iniesta, Mata, Fabregas, Hamsik, Silva). Han registrerer alle assist i CL 2012/13, deler situasjonen i tre faser (komme på ball → gå fra mulighet til realitet → avgjørende pasning) og kartlegger over 50 variabler (tid, touch, bevegelse, press, pasningstype). Funnene gir konkrete læringspunkter for norske playmakere: orientering i mellomrom, bevegelse for å komme på ball, kroppsvinkel, hurtig håndtering under press og presisjon i avgjørende pasning.
+**Kort fortalt:** Den høye playmakeren er ofte høyt involvert, har høy pasningskvalitet, skaper sjanser/assist, og må løse situasjoner raskt under tett press.
+
+Holme analyserer åtte topp-playmakere (Özil, Messi, Xavi, Iniesta, Mata, Fabregas, Hamsik, Silva) i CL 2012/13 og deler assistsituasjoner i tre faser: (1) komme på ball, (2) gå fra mulighet til realitet og (3) den avgjørende pasningen. Poenget er praktisk: hvilke små, repeterbare atferder gjør at playmakeren kan «forløse spillet» under tidspress, kontakt og lite rom?
 
 ---
 
@@ -31,10 +33,17 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
+| Pasninger pr. kamp | 70,8 | Rolleprofil |
+| Pasningssuksess | 85,65 % | Rolleprofil |
+| Pasninger mot siste 1/3 | 9,56 | Rolleprofil |
+| Pasninger på 1. touch | 29,06 | Rolleprofil |
+| Output | Assist 0,35 / Chances 0,45 pr. kamp | Rolleprofil |
 | Høyde i mellomrom (fase 1) | Lavt/midt i rommet = 88,3 % | Kap. 5.3.2 |
 | Kroppsvinkel ved ballmottak | Rett-/sidevendt = 80,3 % | Kap. 5.3.3 |
 | Tid på ball (fase 2) | 0–2 sek = 59,8 % | Kap. 5.4.1 |
-| Antall touch (fase 2) | 1 touch = 27,8 % (2 touch = 24,7 %) | Kap. 5.4.2 |
+| Antall touch (fase 2) | 1 touch = 27,8 % (3 touch = 24,7 %) (5+ = 19,6 %) | Kap. 5.4.2 |
+| Pressavstand ved 1. berøring | 0–3 m = 84,5 % | Fase 2 |
+| Hvem mottar assist | Spiss 70,4 % / kant 28,6 % | Fase 3 |
 | Hvor assister slås fra | Oftest sentral sone/mellomrom rett utenfor 16m | Kap. 5.5.1 |
 
 ---
@@ -42,93 +51,108 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 ## 4. Prinsipper og konsepter
 
 ### Fase 1 – Komme på ball
-- Bevegelse (siste steg før mottak)
-- Høyde i mellomrommet
-- Kroppsvinkel (åpen mot begge sider)
+**Det vanligste er mikrojusteringer – ikke “rykk-fri”.**
+
+- Bevegelse i forkant: «Justerer seg midt i rommet» er vanligst (35,4 %). Doble bevegelser forekommer nesten ikke (1,3 %).
+- Poenget er å identifisere rommet og posisjonere seg i romutviklingen, heller enn å “løpe seg fri”.
+- Høyde i mellomrom: lavt (38,3 %) eller midt (50,0 %) = 88,3 % totalt.
+- Kroppsvinkel ved mottak: rettvendt + sidevendt = 80,3 %.
+
+**Coaching cues**
+- «Små steg – finn midten av rommet.»
+- «Vær sidevendt før ballen kommer.»
+- «Lav/midt i mellomrom = mer tid og rom foran deg.»
 
 ### Fase 2 – Fra mulighet til realitet
-- Hurtig håndtering (ofte 0–2 sek i fase 2)
-- Touch: 1 touch er vanligst (varierer)
-- Pressavstand/romskaping
+**Du må “ha scannet ferdig” før du får ballen.**
+
+- Tid på ball: 59,8 % av involveringene varer 0–2 sek (0–1 sek: 32,0 %, 1–2 sek: 27,8 %).
+- Antall touch: 1 touch (27,8 %) er størst, men 3 touch (24,7 %) og 5+ (19,6 %) forekommer ofte.
+- Pressavstand ved 1. berøring: 0–3 m press i 84,5 % av situasjonene.
+
+**Coaching cues**
+- «Se før du får.»
+- «1–2 touch hvis mulig.»
+- «Tåler du kontakt? Løs det i 0–3 meter.»
 
 ### Fase 3 – Avgjørende pasning
-- Presisjon + timing i avgjørende pasning
-- Pasningstype varierer (bakrom/innlegg/rom i bakre ledd)
+**Den avgjørende pasningen er “forløsningen”.**
+
+- Pasningstype mot rom: klart flest bakromspasninger og innlegg → playmakeren er fleksibel (ikke bare sentral).
+- Teknikkvalg: flest varianter av innsidepasning → presisjon og kontroll prioriteres.
+- Hvem får assist: spiss mottar mest (70,4 %), deretter kant (28,6 %).
+- Assister kommer ofte fra sentral sone rett utenfor 16m.
+
+**Coaching cues**
+- «Vekt den – på sølvfat.»
+- «Kamufler før du stikker.»
+- «Innside = kontroll, men tilpass til rommet.»
 
 ---
 
-## 5. Øvelser
-
-### Øvelse 1: Fase 1-posisjonering
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A08-01 |
-| **Kategori** | Station |
-| **Spillere** | 9 |
-| **Bane** | 25 x 20 m (mellomromssoner) |
-| **Format** | 3 servere, 3 playmare, 3 forsvarere |
-| **Utstyr** | Kjegler, baller |
-| **Varighet** | 12 min |
-| **Intensitet** | Medium-høy |
-
-**Organisering:** playmaker starter i skygge, beveger seg ut, mottar, orienterer og spiller stikk.
-
-**Regler:**
-1. Må orientere (verbalt) før mottak.
-2. Stikkpasning må gå gjennom port.
-
-**Coaching points:** kroppsvinkel, scanning.
-
-### Øvelse 2: Fase 2–3 kombinasjon 8v8
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A08-02 |
-| **Kategori** | Game |
-| **Spillere** | 16 |
-| **Bane** | 50 x 40 m |
-| **Format** | Gk+7v7+Gk |
-| **Formasjon** | 1-3-3-1 |
-| **Utstyr** | Mål, kjegler |
-| **Varighet** | 4 x 5 min |
-| **Intensitet** | Høy |
-
-**Regler:**
-1. Playmaker må være innom mellomrom før scoring.
-2. Maks 2 touch i fase 2-sonen.
-3. Bonus for blindside-pasning.
-
-**Coaching points:** håndtering under press, presisjon i avgjørende pasning.
+## 4.1 Hovedprinsipper (kan kopieres til MatchPrep)
+- Mikroposisjonering (midt i rommet) slår doble bevegelser.
+- Rett/sidevendt mottak for å spille fremover raskt.
+- Løs under ekstremt tid/press (0–2 sek, 0–3 m).
+- Forløsning = presisjon + romforståelse.
 
 ---
 
-## 6. Corner/dødball
+## 5. MatchPrep (enkelt og konkret)
+- Forvent ofte lavt og kompakt motspill med prioritering på å kontrollere sentralt.
+- Legg inn scanning-rutine for playmaker i oppvarming: (1) hvor er press? (2) hvor er rommet foran? (3) hvor er bakrom/innleggspunkt? (4) hvem er 9/ving i løp?
+- Avtal hvem du oftest skal forløse (typisk 9 først, deretter kant) og hvilke rom dere prioriterer (bakrom vs. innlegg/cutback).
+
+---
+
+## 6. Øvelser (praksisnært – 2–3 forslag)
+
+1. **“Mellomrom + 2 sek” (possession 6v6+3)**
+  - Regel: Playmaker får maks 2 sek/2 touch i mellomrom.
+  - Poeng kun hvis pasningen truer bakrom eller innleggspunkt.
+
+2. **“Midten av rommet” (8v8 i soner)**
+  - Playmaker må “miste markør” via mikrojustering (små steg) før mottak.
+  - Trener stopper hvis spilleren står feilvendt uten grunn.
+
+3. **“Forløsningsvalg” (fase 3 – avslutningsspill)**
+  - Start i sentral sone utenfor 16: playmaker får 3 valg (stikk bakrom / innlegg / vegg-3.mann).
+  - Tell kvalitet på vekt/presisjon.
+
+---
+
+## 7. Corner/dødball
 - Playmaker som dirigent (kort corner/2. ball).
 
 ---
 
-## 7. Kampplanintegrasjon
+## 8. Kampplanintegrasjon
 ```javascript
 {
-  id: "a08-fase1",
-  text: "Playmaker: bevegelse i mellomrom, åpen kropp",
+  id: "a08-prinsipp-mikro",
+  text: "Mikroposisjonering (midt i rommet) slår doble bevegelser",
 },
 {
-  id: "a08-fase2",
-  text: "1–2 touch under press – se før du får ball",
+  id: "a08-prinsipp-kropp",
+  text: "Rett/sidevendt mottak for å spille fremover raskt",
 },
 {
-  id: "a08-fase3",
-  text: "Avgjørende pasning: presisjon + timing mot løp",
+  id: "a08-prinsipp-scan",
+  text: "Se før du får – løs i 0–2 sek under 0–3 m press",
 },
 {
-  id: "a08-roller",
-  text: "Spiss/kant: koordiner med playmaker",
+  id: "a08-prinsipp-forlose",
+  text: "Forløsning = presisjon + romforståelse (bakrom/innlegg)",
+},
+{
+  id: "a08-matchprep",
+  text: "Avklar hvem/rom du oftest skal forløse (9 → kant)",
 }
 ```
 
 ---
 
-## 8. Evaluering
+## 9. Evaluering
 | Indikator | Observér |
 |-----------|----------|
 | Posisjonering i mellomrom | Er playmaker ofte lavt/midt i rommet og klar til mottak? |
@@ -139,25 +163,27 @@ Holme studerer TFS-prosjektet «Spilleren i spillet» og analyserer åtte av ver
 
 ---
 
-## 9. Coaching Tips
-- «Se før du får den»
-- «Åpen kropp – 2 touch»
-- «Slå blindside når løpet går»
+## 10. Coaching Tips
+- «Små steg – finn midten av rommet.»
+- «Vær sidevendt før ballen kommer.»
+- «Se før du får.»
+- «1–2 touch hvis mulig.»
+- «Vekt den – på sølvfat.»
 - Ikke la playmaker gjemme seg.
 
 ---
 
-## 10. Implementering
+## 11. Implementering
 | Komponent | Status |
 |-----------|--------|
-| Øvelser | UEFA-A08-01/02 |
-| MatchPrep | 4 fokus |
+| Øvelser | UEFA-A08-01/02 (datasett) + 2–3 forslag i denne teksten |
+| MatchPrep | Prinsipper + scanning-rutine |
 | Roles | Playmaker, spiss, kant |
-| CoachingTips | Orientering/tempo |
+| CoachingTips | Fase 1–3 cues |
 
 ---
 
-## 11. Referanser
+## 12. Referanser
 - Original oppgave: `docs/uefa/A08-gard-holme-playmaker.txt`
 
 ---
