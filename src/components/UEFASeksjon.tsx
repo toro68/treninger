@@ -1027,10 +1027,10 @@ export const UEFASeksjon = () => {
                               Overgangsspill – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-red-900">
-                              <li>• 97 gunstige brudd, men kun 22 vellykkede → kvalitet må opp.</li>
-                              <li>• Valg etter brudd i prioritert rekkefølge: direkte i bakrom, mellomrom, eller vekk fra press.</li>
-                              <li>• Signalstyrt presshøyde (4-4-2 diamant vs. lav sone).</li>
-                              <li>• 3+2-balanse og klar rollefordeling for å tåle tapte brudd.</li>
+                              <li>• 97 gunstige brudd (43 høyt / 54 lavt) → bare 22 vellykkede (17 sjanser).</li>
+                              <li>• Svakhet: 52 mislykkede overganger på 4 kamper.</li>
+                              <li>• 1.forsvarer er signalspiller: vinn når vi har balanse, sink når vi er i ubalanse.</li>
+                              <li>• Restforsvar («def i off») = 3+2 og trusler i flere rom (ikke spill på første løp).</li>
                             </ul>
                           </div>
 
@@ -1042,7 +1042,8 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Gunstige brudd: 97 (43 høye / 54 lave).</li>
                                 <li>• Vellykkede overganger: 22 (17 sjanser, 6 mål, 2 straffer).</li>
-                                <li>• Valg etter brudd: bakrom 29 / mellomrom 43 / vekk fra press 27.</li>
+                                <li>• Mislykkede overganger: 52 (4 kamper).</li>
+                                <li>• Valg etter brudd: mellomrom 43 / bakrom 29 / vekk fra press 27.</li>
                                 <li>• Brudd per kamp: Randaberg 33 / Viking2 27 / Madla 20 / VBK 17.</li>
                               </ul>
                             </div>
@@ -1051,10 +1052,10 @@ export const UEFASeksjon = () => {
                                 Roller og triggere
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• 1.forsvarer signaliserer press – resten må stå etter.</li>
-                                <li>• 3+2 restforsvar før vi overbelaster (balansekrav).</li>
-                                <li>• Spiss starter bakromsløp, kant varierer, indreløper går motsatt.</li>
-                                <li>• Sentral midt velger mellom bakrom/mellomrom/vekk fra press.</li>
+                                <li>• Nærmeste er 1F: vinn eller sink (les klima).</li>
+                                <li>• 3+2 igjen før vi overbelaster (balansekrav).</li>
+                                <li>• Skap trusler i flere rom samtidig (flere pasningsalternativer).</li>
+                                <li>• Valg: frem i lengderetning hvis mulig – ellers vekk fra press.</li>
                               </ul>
                             </div>
                           </div>
@@ -1066,7 +1067,7 @@ export const UEFASeksjon = () => {
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Definér presshøyde for kampen (diamant vs. lav blokk).</li>
-                                <li>• Avklar valg i prioritert rekkefølge: direkte i bakrom, mellomrom, eller vekk fra press.</li>
+                                <li>• Avklar valg-hierarki: frem når det er der – ellers vekk fra press for ny ballfører.</li>
                                 <li>• Sikre 3+2-roller før vi sender ekstra folk i angrep.</li>
                                 <li>• KPI: vellykket / mislykket / tar ikke overgangen.</li>
                               </ul>
@@ -1076,10 +1077,11 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Frys – se – slå» på første pasning etter brudd.</li>
-                                <li>• «Press sammen» vs. «fall og sikre» – kommuniser lynraskt.</li>
-                                <li>• «Bakrom stengt? finn rettvendt i mellomrom».</li>
-                                <li>• «Restforsvar på plass før vi overbelaster».</li>
+                                <li>• «Nærmeste er 1F!»</li>
+                                <li>• «Les klima: vinn eller sink!»</li>
+                                <li>• «3+2 igjen!»</li>
+                                <li>• «Ikke spill på første løp – få flere trusler!»</li>
+                                <li>• «Første pasning: frem hvis mulig – ellers vekk fra press.»</li>
                               </ul>
                             </div>
                           </div>

@@ -1308,29 +1308,45 @@ Nøkkeltall (rolleprofil):
     forfatter: "Bjarte Lunde Aarsheim",
     tema: "Overgangssikring, presshøyde og førstevalg etter brudd",
     roller: ["Spiss", "Vinger", "Back", "Sentral midtbane", "Indreløper", "Stopper"],
-    sammendrag:
-      "Lunde Aarsheim analyserte 97 gunstige brudd og fant bare 22 vellykkede overganger. Oppgaven beskriver valg etter brudd i prioritert rekkefølge (direkte i bakrom, mellomrom, eller vekk fra press), sammen med 3+2-balansering og signalstyrt presshøyde (høy 4-4-2 diamant vs. lav 4-4-2 sone). I analysen skilles det også mellom vellykket overgang, mislykket overgang og situasjoner der laget velger å ikke ta overgangen. Klar rollefordeling for spiss/kant/sentral midt gjør det lettere å treffe første pasning og å stå igjen med restforsvar dersom laget mister ballen igjen. Som hovedregel ønsker vi å opprette balanse med 3 forsvarsspillere og 2 midtbanespillere.",
+    sammendrag: `Kjerneidé: For å skape målsjanser på overganger må laget være organisert nok til å vinne gunstige brudd (høyt/lavt), og dyktig nok i førstevalgene etter brudd (valg + bevegelse + kvalitet).
+
+Nøkkeltall (4 kamper):
+- 97 gunstige brudd: 43 høyt / 54 lavt
+- 22 vellykkede overganger → 17 målsjanser
+- Output: 6 mål + 2 straffer (som også gir mål)
+- 52 mislykkede overganger
+- Valg etter brudd: mellomrom 43 / direkte bakrom 29 / vekk fra press 27
+
+Hovedprinsipper:
+- 1.forsvarer er signalspiller: vinn når vi har balanse, sink når vi er i ubalanse
+- Restforsvar («def i off») = 3 + 2
+- Skap trusler i flere rom samtidig (ikke spill på første løp)
+- Valg-hierarki: frem hvis mulig, ellers vekk fra press for ny ballfører`,
     kpier: [
-      { navn: "Gunstige brudd", referanseverdi: "97 (43 høye / 54 lave)", kilde: "Analyse" },
-      { navn: "Vellykkede overganger", referanseverdi: "22 (17 sjanser, 6 mål, 2 straffer)", kilde: "Analyse" },
-      { navn: "Valg etter brudd", referanseverdi: "Bakrom 29 / Mellomrom 43 / Vekk fra press 27", kilde: "Analyse" },
-      { navn: "Brudd pr kamp", referanseverdi: "Randaberg 33 / Viking2 27 / Madla 20 / VBK 17", kilde: "Analyseskjema" },
+      { navn: "Gunstige brudd", referanseverdi: "97 (43 høye / 54 lave)", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Vellykkede overganger", referanseverdi: "22 (17 sjanser, 6 mål, 2 straffer)", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Mislykkede overganger", referanseverdi: "52 (4 kamper)", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Vellykket overgang-rate", referanseverdi: "22/97 (≈23 %)", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Sjanse-rate (etter vellykket overgang)", referanseverdi: "17/22 (≈77 %)", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Valg etter brudd", referanseverdi: "Bakrom 29 / Mellomrom 43 / Vekk fra press 27", kilde: "Kampdimensjon (4 kamper)" },
+      { navn: "Brudd pr kamp", referanseverdi: "Randaberg 33 / Viking2 27 / Madla 20 / VBK 17", kilde: "Kampdimensjon (4 kamper)" },
     ],
     fokuspunkter: [
-      { id: "a09-press", tekst: "1.forsvarer signaliserer press – resten må stå etter", rolle: "Stopper" },
-      { id: "a09-3pluss2", tekst: "3+2-balansen: tre bak + to sikrere – hvem som helst kan fylle rollen", rolle: "Sentral midtbane" },
-      { id: "a09-pyramide", tekst: "Valg etter brudd i prioritert rekkefølge: direkte i bakrom, mellomrom, eller vekk fra press" },
-      { id: "a09-spiss", tekst: "Spiss starter bakromsløp umiddelbart ved brudd", rolle: "Spiss" },
-      { id: "a09-indreloper", tekst: "Indreløper: motsatt bevegelse for å åpne rom", rolle: "Indreløper" },
+      { id: "a09-1f", tekst: "Førsteforsvarer = signalspiller: vinn når vi har balanse, sink når vi er i ubalanse (nærmeste er 1F)", rolle: "Stopper" },
+      { id: "a09-3pluss2", tekst: "Restforsvar («def i off») = 3 + 2 – rollene må fylles av de som er nærmest (ikke alltid samme to)", rolle: "Sentral midtbane" },
+      { id: "a09-kilder", tekst: "Brudd kommer fra: god 1F, 2. ball/1. pasning/klarering med mening, og gode 2./3. forsvarere" },
+      { id: "a09-flere-rom", tekst: "I overgangen: skap trusler i flere rom samtidig – ikke spill på første løp (timing/utførelse)", rolle: "Spiss" },
+      { id: "a09-hierarki", tekst: "Valg-hierarki etter brudd: frem i lengderetning når det er der – ellers vekk fra press for ny ballfører rettvendt", rolle: "Sentral midtbane" },
     ],
     ovelser: [
       { kode: "uefa-a09-01" },
       { kode: "uefa-a09-02" },
     ],
     coachingCues: [
-      { kategori: "Overgang", gjor: "Frys – se – slå første pasning med intensjon", ikkeGjor: "Ikke slå blindt i første bevegelse" },
-      { kategori: "Press", gjor: "Aggressiv 1.forsvarer, smart sikring", ikkeGjor: "Ikke press stykkevis" },
-      { kategori: "Valg", gjor: "Bakrom stengt? Finn rettvendt spiller i mellomrom", ikkeGjor: "Ikke tving en pasning som ikke er der" },
+      { kategori: "1F", gjor: "Nærmeste er 1F – vinn eller sink (les klima)", ikkeGjor: "Ikke løp i press uten at laget står etter" },
+      { kategori: "Balanse", gjor: "3+2 igjen før vi overbelaster", ikkeGjor: "Ikke send alle foran ball" },
+      { kategori: "Overgang", gjor: "Ikke spill på første løp – skap flere trusler", ikkeGjor: "Ikke lås deg på én pasning" },
+      { kategori: "1. pasning", gjor: "Første pasning: frem hvis mulig – ellers vekk fra press", ikkeGjor: "Ikke tving bakrom for enhver pris" },
     ],
     kildefil: "A09-bjarte-lunde-aarsheim-overgang-analyse.md",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
