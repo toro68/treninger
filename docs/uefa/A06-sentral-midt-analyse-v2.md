@@ -93,13 +93,57 @@ Iversen analyserer sentrale midtbanespillere i EURO 2012 for å definere de frem
 - **Pasninger i siste tredjedel**: 20–30 pasninger inn i siste tredjedel for indreløpere er referansen.
 - **Gjenvinning (sekundærpress)**: Avklar hvem av 6/8 som trykker og hvem som sikrer innen 6 sek etter balltap.
 
+### Presshøyde-modus
+1. **Aggressivt press (høyt, umiddelbart)**  
+   Definisjon: angrip ballen idet motstanderen får den, før de etablerer kontroll.  
+   **Triggere:** feilvendt mottaker, dårlig førstetouch, keeper/back i eget felt, spill i siderom, motstander har færre enn tre pasningsalternativer, etter egne dødballer (mange spillere fremme).
+
+2. **Mellompress (kontrollert, felle)**  
+   Definisjon: la motstanderen få ballen, styr dem mot ønsket sone og press aggressivt der.  
+   **Triggere:** motstanderen er organisert (ingen åpenbar svakhet), vi vil lede dem mot side/svak spiller, vi ønsker å vinne ballen på vårt sted, motstanderen bygger kort.  
+   **MatchPrep:** kartlegg motstanderens oppbyggingsmønster og bestem fellesone (f.eks. høyre side/svakeste back).
+
+3. **Lavt press (passivt, kompakt blokk)**  
+   Definisjon: fall tilbake og forsvar i lav blokk.  
+   **Triggere:** leder med ett mål siste kvarter, motstander er teknisk sterk (spar energi), bortekamp mot topplag, slitne spillere.
+
 ### Rollebeskrivelse
 - **Med ball**: Vær tilgjengelig, orienter deg, sett tempo og slå linjebrytende pasninger.
 - **Uten ball**: Dekk rom sentralt, prioriter balanse, styr presset.
 
 ---
 
-## Coaching Tips
+## 8. Konkrete læringspunkter fra EURO 2012-analysen
+
+### 1. Absolutt krav: pasningssikkerhet i trange rom
+- Visuell orientering før mottak og presis ballbehandling under press.
+- Referansemål: ≥85 % treffprosent (vs. 68 % for øvrige roller) og 54 % fremoverpasninger.
+- Treningsfokus: øvelser med høyt antall involveringer, hurtige valg og presisjon på liten flate mot middels/hardt press.
+
+### 2. Defensiv prioritering: balanse foran gjenvinning
+- Dekke rom: nekt pasningskorridorer inn mellom egen bakre firer.
+- Vurder om du skal støte for å vinne ball eller bli for å beskytte rom bak deg.
+- Læringspunkt: «stå riktig» og tving frem feil – balanse kommer før ballvinning.
+
+### 3. Offensivt bidrag: hovmesterblikket
+- Se bakrom og slå avgjørende pasninger til løp i lengderetningen.
+- Relasjonelle ferdigheter: sentrale midtbaner var direkte involvert i 22 av 76 scoringer.
+- Skap ubalanse: i snitt 3,76 situasjoner med ubalanse pr. kamp, gjennom samhandling.
+
+### 4. Avslutninger – ikke primæroppgaven
+- Forventningsstyring: kun 3,72 % uttelling på skudd.
+- 136 av 188 avslutninger kom utenfor boksen – ofte for å avslutte angrep og hindre kontring.
+
+### 5. Mentalitet og kamputvikling
+- Aksjonsmønsteret endrer seg minimalt uansett resultat – kun litt mer fremoverrettet når laget ligger under.
+- Rollen krever en spiller som holder hodet kaldt og opprettholder struktur og pasningssikkerhet hele kampen.
+
+### Oppsummerende sjekkliste for treneren
+1. Ekstrem trygghet med ball (mottak og pasning under press).
+2. Visuell orientering (spill fremover, ikke bare på tvers).
+3. Taktisk disiplin defensivt (dekk sentrale rom og sikr balansen før balljakt).
+
+## 9. Coaching Tips
 
 | Kategori | Gjør dette | Ikke gjør |
 |----------|-----------|-----------|

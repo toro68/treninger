@@ -1,7 +1,10 @@
+"use client";
+
 // src/components/ExerciseDiagram.tsx
 // Grunnleggende komponent for å visualisere fotballøvelser
 
-import React from "react";
+import React, { useRef } from "react";
+import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 
 // ============================================
 // TYPER
@@ -413,7 +416,7 @@ const Player = ({
   team: Team;
   label?: string;
 }) => {
-  const radius = 12;
+  const radius = 6;
 
   return (
     <g>
@@ -432,7 +435,7 @@ const Player = ({
           textAnchor="middle"
           dominantBaseline="central"
           fill="#fff"
-          fontSize={10}
+          fontSize={6}
           fontWeight="bold"
         >
           {label}
@@ -613,6 +616,7 @@ export const ExerciseDiagram: React.FC<ExerciseDiagramProps> = ({
   pitchColor = COLORS.pitch,
   title,
 }) => {
+  const svgRef = useRef<HTMLDivElement | null>(null);
   const padding = 10;
   const pitchWidth = width - padding * 2;
   const pitchHeight = height - padding * 2;
@@ -623,15 +627,21 @@ export const ExerciseDiagram: React.FC<ExerciseDiagramProps> = ({
 
   return (
     <div className="inline-block">
-      {title && (
-        <div className="text-sm font-medium text-zinc-700 mb-2">{title}</div>
-      )}
-      <svg
-        width={width}
-        height={height}
-        viewBox={`0 0 ${width} ${height}`}
-        className="rounded-lg shadow-md"
-      >
+      <div className="mb-2 flex items-center justify-between gap-3">
+        {title ? (
+          <div className="text-sm font-medium text-zinc-700">{title}</div>
+        ) : (
+          <div />
+        )}
+        <SvgDownloadButton containerRef={svgRef} fileName={title ?? "exercise-diagram"} />
+      </div>
+      <div ref={svgRef}>
+        <svg
+          width={width}
+          height={height}
+          viewBox={`0 0 ${width} ${height}`}
+          className="rounded-lg shadow-md"
+        >
         {/* Bane */}
         {layout !== "blank" && (
           <Pitch
@@ -707,7 +717,8 @@ export const ExerciseDiagram: React.FC<ExerciseDiagramProps> = ({
 
         {/* Ball */}
         {ball && <Ball x={toPixelX(ball.x)} y={toPixelY(ball.y)} />}
-      </svg>
+        </svg>
+      </div>
     </div>
   );
 };

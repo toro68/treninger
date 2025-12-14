@@ -19,39 +19,100 @@
 
 ---
 
-## 2. Sammendrag
+## 2. Juventus 3-5-2 – Komplett kampplan
 
-Studien bruker Juventus 2011–2013 (Conte) som case for hvordan 3-5-2 kan gi både defensiv balanse og offensiv kontroll. Nøkkelpoeng: tre stoppere + dyp regista gir sentralt overtall, vingbacker skaper permanent bredde, og spissduoen jobber i motsatte løp for å åpne rom. 20 % av målene kommer fra gjenvinningsangrep fordi laget alltid har mange spillere rundt ball. Ødegaard viser hvordan norske lag kan kopiere strukturen ved å definere tydelige press-signaler, rollekort for hver posisjon og fleksibilitet til å skifte til 4-3-3.
+### Forsvarsfundament
+
+**Lavt press som utgangspunkt**
+- Struktur: 5 bak (3 stoppere + 2 lave vingbacker) med kompakt blokk sentralt.
+- Romprioritering: steng mellomrom og bakrom først, led motstander mot rom 1 og 2.
+- Nøkkelprinsipp: når back/stopper frispilles skal spillet ledes inn mot rom 1–2; midtbanetrioen ligger tett og hindrer pasning inn bak/igjennom.
+
+**Høyt press – avtalte signaler**
+- Trigger: nese mot eget mål, lang tverspasning, dårlig førstetouch eller klarering.
+- Kritisk suksessfaktor: samtidighet; hvis én tviler, oppstår strekk og motstander spiller av presset.
+- Mannorientert: press, markering og sikring prioriteres når soneprinsipp må vike.
+
+**Pressmekanismer**
+- Spiss-stopper: spisser presser hver sin stopper; når ballen går til back går vingback i press og leder innover.
+- Sideforskyvning: vingback i press → ytre midtback skyver ut som back, resten sideforskyver; motsatt vingback faller inn.
+- Vendt spill: ved vending mot motsatt back leser motsatt vingback situasjonen og går i tøft press, leder inn mot indreløper/sentral midt.
+
+**Risikostyring**
+- Høyt press åpner bakrom – enten presset sitter, eller vi faller. Ved innlegg imot skal tre stoppere stå sentralt i boks, mens motsatt vingback faller inn på bakre stolpe.
+
+### Angrepsfundament
+
+**Bredde skaper rom sentralt**
+- Vingbacker holder bredde for å strekke motstander og åpne rom i midten – bakrom prioriteres, deretter rom 2/mellomrom.
+
+**Frispilling**
+- Ytre midtback frispilles ofte: før ball for å skape 2v1 eller spill inn i spiss/indreløper.
+- Kvalitet foran fart: riktige valg viktigere enn hurtighet for å unngå balltap.
+
+**Vendingsspill**
+- Vingback er vendingsspiller; se etter spiss som møter/stikker eller indreløper i mellomrom – ellers vend via anker/bakre ledd.
+
+**Spissrelasjon (møte–stikk)**
+- Motsatte bevegelser: én møter, én truer bakrom. Mønster: møte → flikk/avlegg → gjennomløp fra indreløper i siste tredjedel.
+
+**Sentral midtbane (anker)**
+- Tilby deg sentralt for å vende spillet og slå stikkere i mellomrom/bakrom.
+
+**Indreløpere**
+- Strekk i mellomrom, velg riktig rom til riktig tid, true mellomrom med skudd og fyll boks ved innlegg.
+
+**Innleggsfase**
+- Fyll boks: 2 spisser + motsatt indreløper + motsatt vingback. Returrom: ballside indreløper + sentral midtbane.
+
+### Gjenvinning som våpen
+
+**5-sekunders-regelen**
+- Gjenvinn innen 5 sek etter balltap i etablert angrep → ny bølge før motstander re-etablerer.
+
+**Kontradekning**
+- Tenk forsvar mens dere angriper: posisjonering («def i off») og kontradekning gir rask gjenvinning.
+
+**Brudd i lavt press**
+- Brudd kommer lavt – det er langt til mål, så indreløpere/vingbacker må ha løpskraft og omstille raskt.
+
+### Overganger imot (sårbarheter)
+
+**To hovedfeller**
+1. Stopper går høyt og mister ball med høye vingbacker → vurder risiko når du fører ball.
+2. Førsteforsvarer passeres og bakre treer må sprinte – duellstyrke i 1v1 avgjør.
+
+**Prinsipp**
+- Struktur kan være god, men individuelle 1v1-egenskaper i førstepress er avgjørende – forsink alltid.
+
+### Roller og krav (kompakt tabell)
+
+| Rolle | Nøkkeloppgaver | Kritiske momenter |
+|-------|----------------|-------------------|
+| Stopper | Styrer linja, sikring, tørre å føre | Skape 2v1, våg å gå frem, men vurder risiko |
+| Vingback | Ekstrem bredde, vendingspunkt | Les spiss/indre, vend via anker, returløp |
+| Sentral midtbane | Tilgjengelig og tempo-setter | Vende spillet, stikkere i mellomrom/bakrom |
+| Indreløper | Strekk i mellomrom, tredje mann | Sluttprodukt i skudd/boks, velg riktig rom |
+| Spiss | Møte–stikk, press på stoppere | Gjentatte motsatte løp, link med indreløper |
+| Keeper | Sweeper, igangsetter | Les ball–rom–motstander, kommuniser |
+
+### Treningsprinsipper
+- Avklar roller i hver fase: ballfører, støtte, trussel (dybde/bakrom), sikring.
+- Orientering før mottak, rettvendt kroppsvinkel, støtteavstander for veggspill.
+- Skap 2v1 før gjennombrudd, tren temposkifte (rolig → eksplosivt), og reager umiddelbart ved balltap.
+- Coaching-ord: «vend», «hold», «stikk», «spill tilbake», «press». Kvalitet > kvantitet.
+
+### Evalueringskriterier
+
+| Indikator | Målverdi | Kilde |
+|-----------|----------|-------|
+| Mål etter gjenvinning | 20 % (18 av 87) | Juventus-analyse |
+| Mål etter overgang | 8,7 % (10 av 87) | Juventus-analyse |
+| Innslupne mål etter overgang imot | 33 % (12 av 36) | Juventus-analyse |
 
 ---
 
-## 3. Nøkkeltall og KPI-er
-
-| KPI | Referanseverdi | Kilde |
-|-----|----------------|-------|
-| Høy gjenvinning som fører til skudd | 3+ per kamp | Juventus videoanalyse (2011/12) |
-| Tidlige innlegg fra vingback | Minst 6 per kamp (3 hver side) | Serie A rapport |
-| Regista: linjebrytende pasninger | 10+ per kamp | Conte/Conte-staben |
-| Antall strukturbytter (3-5-2 → 4-3-3) | 1–2 pr. kamp | Juventus taktisk analyse |
-
----
-
-## 4. Prinsipper og konsepter
-
-### 4.1 Hovedprinsipper
-- **Press inn sentralt:** Tre stoppere holder linjen smal, regista styrer press-signaler, vingbacker faller for femmer.
-- **Overtall i midten:** Pirlo-/regista-rollen gir alltid 4v3 sentralt, gjør det trygt å spille gjennom første press.
-- **Gjenvinning som våpen:** Rask kollektiv reaksjon (spillere rundt ball) → 20 % av målene kommer fra gjenvinning.
-- **Dualitet i spissrollen:** En bakrom, en i fot; motsatte bevegelser splitter stopperne.
-
-### 4.2 Fasemodell
-- **Fase 1 – Frispilling:** Stoppere bredt, regista dropper, indreløpere viser. Vingback høy = «stretch». 
-- **Fase 2 – Gjennombrudd:** Indreløper som tredje mann, tidlig innlegg, eller overlapper (vingback vs. spiss ut mot kant).
-- **Fase 3 – Gjenvinning:** Når ballen mistes er fem spillere rundt ball → press/gjenvinning før motstander får kontroll.
-
----
-
-## 5. Øvelser (UEFA-knapp)
+## 3. Øvelser (UEFA-knapp)
 
 ### Øvelse 1: 3-5-2 press og gjenvinning
 

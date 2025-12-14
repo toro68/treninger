@@ -17,6 +17,7 @@ export interface Exercise {
   alwaysIncluded?: boolean;
   scalable?: boolean; // true = kan kjøres i parallell med mange grupper (f.eks. 1v1, 2v2)
   imageUrl?: string; // URL til bilde/diagram av øvelsen
+  svgDiagram?: string; // Inline SVG markup for diagram (import/paste)
   source?: ExerciseSource; // Kilde: egen eller tiim
   sourceUrl?: string; // Lenke til original øvelse
   sourceRef?: string; // Referanse til bok/side (vises ikke i utskrift)

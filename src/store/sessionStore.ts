@@ -19,6 +19,7 @@ type SerializedBlock = {
 
 type SessionState = {
   customExercises: Exercise[];
+  exerciseOverrides: Record<string, Partial<Exercise>>;
   exerciseLibrary: Exercise[];
   playerCount: number;
   stationCount: number;
@@ -91,8 +92,20 @@ const buildTimeline = ({
 const sortExercises = (exercises: Exercise[]) =>
   [...exercises].sort((a, b) => a.name.localeCompare(b.name, "nb"));
 
-const buildExerciseLibrary = (custom: Exercise[] = []) =>
-  sortExercises([...allExercises, ...custom]);
+const applyOverrides = (
+  exercises: Exercise[],
+  overrides: Record<string, Partial<Exercise>>
+): Exercise[] =>
+  exercises.map((exercise) => {
+    const override = overrides[exercise.id];
+    if (!override) return exercise;
+    return { ...exercise, ...override };
+  });
+
+const buildExerciseLibrary = (
+  custom: Exercise[] = [],
+  overrides: Record<string, Partial<Exercise>> = {}
+) => sortExercises([...applyOverrides(allExercises, overrides), ...custom]);
 
 const serializeSet = (value?: Set<string>) => Array.from(value ?? new Set());
 const hydrateSet = (value?: string[] | Set<string>) => {
@@ -174,6 +187,7 @@ export const useSessionStore = create<SessionState>()(
   persist(
     (set, get) => ({
       customExercises: [],
+      exerciseOverrides: {},
       exerciseLibrary: buildExerciseLibrary(),
       playerCount: 12,
       stationCount: 3,
@@ -235,12 +249,18 @@ export const useSessionStore = create<SessionState>()(
             const nextCustom = sortExercises(updateList(state.customExercises));
             return {
               customExercises: nextCustom,
-              exerciseLibrary: buildExerciseLibrary(nextCustom),
+              exerciseLibrary: buildExerciseLibrary(nextCustom, state.exerciseOverrides),
             };
           }
 
+          const nextOverrides = {
+            ...state.exerciseOverrides,
+            [id]: updated,
+          };
+
           return {
-            exerciseLibrary: sortExercises(updateList(state.exerciseLibrary)),
+            exerciseOverrides: nextOverrides,
+            exerciseLibrary: buildExerciseLibrary(state.customExercises, nextOverrides),
           };
         }),
       plannedBlocks: null,
@@ -282,6 +302,7 @@ export const useSessionStore = create<SessionState>()(
         plannedBlocks: state.plannedBlocks,
         searchQuery: state.searchQuery,
         customExercises: state.customExercises,
+        exerciseOverrides: state.exerciseOverrides,
       }),
       storage: {
         getItem: (name) => {
@@ -289,7 +310,12 @@ export const useSessionStore = create<SessionState>()(
           if (!str) return null;
           const parsed = JSON.parse(str);
           const persistedCustom = parsed.state?.customExercises ?? [];
-          const exerciseLibrary = buildExerciseLibrary(persistedCustom);
+          const persistedOverridesRaw = parsed.state?.exerciseOverrides;
+          const persistedOverrides: Record<string, Partial<Exercise>> =
+            persistedOverridesRaw && typeof persistedOverridesRaw === "object"
+              ? persistedOverridesRaw
+              : {};
+          const exerciseLibrary = buildExerciseLibrary(persistedCustom, persistedOverrides);
           
           // Oppdater plannedBlocks med ferske øvelsesdata
           const hydratedPlannedBlocks = hydratePlannedBlocks(
@@ -303,6 +329,7 @@ export const useSessionStore = create<SessionState>()(
               ...parsed.state,
               exerciseLibrary,
               customExercises: persistedCustom,
+              exerciseOverrides: persistedOverrides,
               plannedBlocks: hydratedPlannedBlocks,
               selectedExerciseIds: hydrateSet(parsed.state.selectedExerciseIds),
               favoriteIds: hydrateSet(parsed.state.favoriteIds),
@@ -320,6 +347,7 @@ export const useSessionStore = create<SessionState>()(
               favoriteIds: serializeSet(value.state.favoriteIds ?? new Set()),
               searchQuery: value.state.searchQuery ?? '',
               customExercises: value.state.customExercises ?? [],
+              exerciseOverrides: value.state.exerciseOverrides ?? {},
             },
           };
           try {

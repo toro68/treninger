@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Åpne http://localhost:3000 for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
+Åpne <http://localhost:3000> for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
 
 ### Kjør kommandoer
 
@@ -38,7 +38,11 @@ npm run build  # Prod-bundle for verifisering
 
 ## Struktur
 
-```
+## Dokumentasjon
+
+- Banedimensjoner (SVG/diagrammer): `docs/PITCH_DIMENSIONS.md`
+
+```text
 src/
   app/          // Next.js routes
   components/   // UI-moduler (ExerciseManager, SessionTimeline, osv.)
@@ -51,6 +55,7 @@ src/
 
 - Legg til tester for filterlogikk og highlight-flow.
 - Dokumenter prosess for å importere nye datakilder (`src/data/*`).
-+### Prod-sjekk
-+
-+Kjør `npm run prod:sjekk` for en full pipeline (lint uten scripts, build og tester) før endringer deles.
+
+### Prod-sjekk
+
+Kjør `npm run prod:sjekk` for en full pipeline (lint uten scripts, build og tester) før endringer deles.

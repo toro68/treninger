@@ -12,6 +12,11 @@ import { useSessionStore } from "@/store/sessionStore";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
 import { ScoringZonesTemplateDiagram } from "@/components/ScoringZonesTemplateDiagram";
 import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
+import { LandscapePitchTemplateDiagram } from "@/components/LandscapePitchTemplateDiagram";
+import { SvgTemplateCard } from "@/components/SvgTemplateCard";
+import { GreenLandscapeTemplateDiagram } from "@/components/GreenLandscapeTemplateDiagram";
+import { GreenSquareTemplateDiagram } from "@/components/GreenSquareTemplateDiagram";
+import { HalfPitchTopTemplateDiagram } from "@/components/HalfPitchTopTemplateDiagram";
 import Link from "next/link";
 
 export default function Home() {
@@ -227,24 +232,39 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Maler</span>
           </div>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
-            <div className="rounded-xl border border-zinc-200 p-3">
-              <h3 className="text-sm font-semibold text-zinc-900">Innleggssoner (A–F)</h3>
-              <div className="mt-2">
-                <ScoringZonesDiagram className="max-h-[260px]" />
-              </div>
-            </div>
-            <div className="rounded-xl border border-zinc-200 p-3">
-              <h3 className="text-sm font-semibold text-zinc-900">Scoringssoner (mal)</h3>
-              <div className="mt-2">
-                <ScoringZonesTemplateDiagram className="max-h-[260px]" />
-              </div>
-            </div>
-            <div className="rounded-xl border border-zinc-200 p-3">
-              <h3 className="text-sm font-semibold text-zinc-900">A03 soner i og rundt 16m (mal)</h3>
-              <div className="mt-2">
-                <SelmerZonesTemplateDiagram className="max-h-[260px]" />
-              </div>
-            </div>
+            <SvgTemplateCard title="Innleggssoner (A–F)" fileName="innleggssoner-a-f.svg">
+              <ScoringZonesDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Scoringssoner (mal)" fileName="scoringssoner-mal.svg">
+              <ScoringZonesTemplateDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="A03 soner i og rundt 16m (mal)" fileName="a03-soner-16m-mal.svg">
+              <SelmerZonesTemplateDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Liggende bane (hel)" fileName="liggende-bane-hel.svg">
+              <LandscapePitchTemplateDiagram mode="full" className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Liggende bane (hel – hvit)" fileName="liggende-bane-hel-hvit.svg">
+              <LandscapePitchTemplateDiagram mode="full" background="white" className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Liggende bane (halv – mål venstre)" fileName="liggende-bane-halv-mal-venstre.svg">
+              <LandscapePitchTemplateDiagram mode="half" goalSide="left" className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Liggende bane (halv – mål høyre)" fileName="liggende-bane-halv-mal-hoyre.svg">
+              <LandscapePitchTemplateDiagram mode="half" goalSide="right" className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Halv bane (mål øverst)" fileName="halv-bane-mal-maal-overst.svg">
+              <HalfPitchTopTemplateDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Halv bane (mål øverst – hvit)" fileName="halv-bane-mal-maal-overst-hvit.svg">
+              <HalfPitchTopTemplateDiagram background="white" className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Helt grønn (liggende)" fileName="helt-gronn-liggende.svg">
+              <GreenLandscapeTemplateDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
+            <SvgTemplateCard title="Helt grønn (kvadrat)" fileName="helt-gronn-kvadrat.svg">
+              <GreenSquareTemplateDiagram className="max-h-[260px]" />
+            </SvgTemplateCard>
           </div>
         </section>
       </div>

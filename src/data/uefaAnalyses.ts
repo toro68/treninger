@@ -147,7 +147,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a03-keeper", tekst: "Alene med keeper: utfordre og avvent keeperens handling før du plasserer/chipper", rolle: "Spiss" },
       { id: "a03-innlegg", tekst: "Tidlige innlegg mellom forsvar og keeper, ofte langs bakken (45°/cutback)" },
       { id: "a03-boks", tekst: "2. og 3. bevegelse i boks: første løp skaper rom, neste løp utnytter" },
-      { id: "a03-z", tekst: "Z-løp for avslutter: inn mot stopper → rykk ut/tilbake i rommet du skaper" },
+      { id: "a03-z", tekst: "Z-løp for avslutter: inn mot stopper → rykk ut/tilbake i rommet som skapes" },
     ],
     ovelser: [
       { kode: "uefa-a03-01" },
@@ -261,209 +261,32 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     kode: "A01",
     tittel: "Juventus 3-5-2 som virkemiddel",
     forfatter: "Even Ødegaard",
-    tema: "3-5-2 struktur, press og gjenvinning",
+    tema: "3-5-2 kampplan (forsvar, angrep, gjenvinning)",
     roller: ["Stopper", "Vingback", "Sentral midtbane", "Indreløper", "Spiss"],
     sammendrag:
-      "Ødegaard viser hvordan Juventus’ 3-5-2 kan brukes som virkemiddel for spillestil: lavt press er «default» med fem bak og tydelig romprioritering (steng mellomrom/bakrom, led mot rom 1–2). Laget kan skru opp presset på avtalte signaler, men er avhengig av samtidighet. Offensivt handler det om å dominere med sentralt overtall, vingback som vendingspunkt og tydelige mønstre (møte/stikk, fyll boks/returrom) – og å gjøre gjenvinning til en egen fase etter balltap.",
+      "Oppgaven destillerer Juventus’ 3-5-2 til en komplett kampplan: lavt press som default (5 bak, steng mellom-/bakrom), høyt press på avtalte signaler (nese mot mål, tverspasning, dårlig touch) og tydelige pressmekanismer (spiss-stopper, vingback leder inn, sideforskyving). Offensivt er vingback permanent bredde, ytre stopper bærer fram, spissrelasjonen møte–stikk og boksfyll/returrom ved innlegg. Gjenvinning (5-sekundersregel, kontradekning) er et eget våpen, mens overgangssårbarhet håndteres via risikovurdering og 1v1-kvalitet bak.",
     kpier: [
-      { navn: "Andel mål etter gjenvinningsangrep", referanseverdi: "18 av 87 (20 %)", kilde: "Kap. Gjenvinningsangrep" },
-      { navn: "Andel mål etter overgang (breakdown-angrep)", referanseverdi: "10 av 87 (8,7 %)", kilde: "Kap. Juventus’ overgangsspill" },
-      { navn: "Innslupne mål etter overgang i mot", referanseverdi: "12 av 36 (33,33 %)", kilde: "Kap. Juventus i forsvar (mål i mot)" },
+      { navn: "Mål etter gjenvinningsangrep", referanseverdi: "18 av 87 (20 %)", kilde: "Juventus-analyse" },
+      { navn: "Mål etter overgang (breakdown)", referanseverdi: "10 av 87 (8,7 %)", kilde: "Juventus-analyse" },
+      { navn: "Innslupne mål etter overgang imot", referanseverdi: "12 av 36 (33 %)", kilde: "Juventus-analyse" },
     ],
     fokuspunkter: [
-      {
-        id: "a01-press-signaler",
-        tekst:
-          "Høyt press på «gode signaler»: nese mot eget mål, lang tverspasning, dårlig førstetouch eller dårlig klarering",
-      },
-      {
-        id: "a01-press-samtidighet",
-        tekst:
-          "Viktigst i høyt press: felles forståelse og samtidighet – hvis én tviler oppstår strekk og motstander spiller av presset",
-      },
-      {
-        id: "a01-lavt-press-default",
-        tekst: "Lavt press som default: fem bak (3 stoppere + 2 lave vingbacker) og kompakt sentralt",
-      },
-      {
-        id: "a01-romprioritering",
-        tekst: "Romprioritering i forsvar: steng mellomrom og bakrom først, og led motstander mot rom 1 og 2",
-      },
-      {
-        id: "a01-hoyt-press",
-        tekst:
-          "I høyt press: spisser presser hver sin stopper; når ballen går til back går vingback i press og leder spillet inn mot indreløper/sentral midtbane",
-        rolle: "Vingback",
-      },
-      {
-        id: "a01-hoyt-press-vingback-ytre-mb",
-        tekst:
-          "Når vingback går i press i høyt press: ytre midtback sideforskyver og opererer som back; de to andre stopperne sideforskyver; motsatt vingback faller inn og ned",
-        rolle: "Stopper",
-      },
-      {
-        id: "a01-spiss-rolle-press",
-        tekst:
-          "I høyt press: spissene presser stoppere; når ball går til back kan spissen på motsatt stopper falle ned og ta ut sentral midtbane (hvis nødvendig)",
-        rolle: "Spiss",
-      },
-      {
-        id: "a01-hoyt-press-vending",
-        tekst:
-          "Ved vending av spill mot motsatt back: motsatt vingback leser og setter inn tøft press, og leder innover mot sentral midtbane og ytre midtback",
-        rolle: "Vingback",
-      },
-      {
-        id: "a01-markering-hoyt-press",
-        tekst:
-          "I høyt press blir laget mer mannsorientert: press, markering og sikring prioriteres når soneprinsippene må vike",
-      },
-      {
-        id: "a01-hoyt-press-risiko",
-        tekst:
-          "Høyt press gir ofte bakrom i rygg – presset må være godt nok, ellers blir laget sårbart for gjennombrudd i bakrom",
-      },
-      {
-        id: "a01-lavt-press-struktur",
-        tekst:
-          "I lavt press: etabler 5-backlinje med lave vingbacker; foran ligger en midtbanetrio med anker + to indreløpere, og to spisser på topp",
-      },
-      {
-        id: "a01-lavt-press-overtall",
-        tekst:
-          "I lavt press: søk defensive overtall rundt vingback / ytre midtback (typisk i rom 1–2) og led spillet dit",
-      },
-      {
-        id: "a01-lavt-press-led-spill",
-        tekst:
-          "Led spillet mot rom 1 og 2 når back/stopper frispilles – midtbanetrioen skal ligge tett og hindre pasning inn bak/igjennom",
-        rolle: "Sentral midtbane",
-      },
-      {
-        id: "a01-lavt-press-hvem-stoter",
-        tekst:
-          "I lavt press når vingback ikke kan gå i press (må ta kant): indreløper går i press på back, vingback tar kant, ytre midtback tar spiss",
-        rolle: "Indreløper",
-      },
-      {
-        id: "a01-bakre-ledd-sjef",
-        tekst:
-          "Sentral midtback styrer linja og sikring – hele bakre ledd må se samme linje for å kunne falle/skyve likt",
-        rolle: "Stopper",
-      },
-      {
-        id: "a01-forsvar-innlegg",
-        tekst:
-          "Ved innlegg imot: behold tre stoppere sentralt i boksen så ofte som mulig; motsatt vingback kan falle inn og ta bakre stolpe",
-        rolle: "Stopper",
-      },
-      {
-        id: "a01-overgang-imot-to-feller",
-        tekst:
-          "Overganger imot: to hovedfeller er (1) stopper går høyt og mister ball med høye vingbacker, og (2) førsteforsvarer blir passert og tempo i bakre treer blir avgjørende",
-      },
-      {
-        id: "a01-press-prioritet",
-        tekst:
-          "Når rettvendt motstander får ball i framrom/mellomrom: prioriter press + sikring (ikke la ballfører få tid til skudd/pasning)",
-      },
-      {
-        id: "a01-bredde",
-        tekst: "Vingbackene står helt bredt for å skape rom sentralt (bredde → rom)",
-        rolle: "Vingback",
-      },
-      {
-        id: "a01-bredde-gir-gjennombrudd",
-        tekst:
-          "Virkemiddel: strekk motstander i bredden for å få gjennombrudd sentralt (bakrom først, dernest rom 2/mellomrom)",
-      },
-      {
-        id: "a01-oppbygging-midtback",
-        tekst:
-          "I oppbygging blir ofte ytre midtback frispilt: før ball for å skape 2v1 eller spill gjennom til spiss/indreløper (kvalitet i valg for å unngå balltap)",
-        rolle: "Stopper",
-      },
-      {
-        id: "a01-oppbygging-vingbacker",
-        tekst:
-          "Vingbackene brukes som vendingsspillere: se etter spiss som møter/stikker eller indreløper i mellomrom; hvis ikke – vend via anker/bakre ledd og angrip på nytt",
-        rolle: "Vingback",
-      },
-      {
-        id: "a01-spissrelasjon",
-        tekst: "Spiss-spiss: én møter i mellomrom, én truer bakrom (motsatte bevegelser)",
-        rolle: "Spiss",
-      },
-      {
-        id: "a01-spiss-flikk-tredje",
-        tekst:
-          "Spissrelasjon: møte–flikk/avlegg og gjennomløp fra indreløper er et gjentakende mønster på siste tredjedel",
-        rolle: "Spiss",
-      },
-      {
-        id: "a01-anker",
-        tekst:
-          "Sentral midtbane (anker): tilby deg sentralt som pasningsalternativ, vend spillet hurtig og slå både stikkere i mellomrom og gjennombrudd i bakrom",
-        rolle: "Sentral midtbane",
-      },
-      {
-        id: "a01-indreloper-romvalg",
-        tekst:
-          "Indreløpere: strekk i mellomrom og velg riktig rom til riktig tid (møte for å skape rom, eller true bakrom som tredje mann)",
-        rolle: "Indreløper",
-      },
-      {
-        id: "a01-indreloper-sluttprodukt",
-        tekst:
-          "Indreløpere forventes sluttprodukt: true mellomrom med skudd og fyll boksen ved innlegg",
-        rolle: "Indreløper",
-      },
-      {
-        id: "a01-fyll-boksen",
-        tekst:
-          "Ved innlegg: fyll boksen med 2 spisser + motsatt indreløper + motsatt vingback; bemann returrom for 2. ball",
-      },
-      {
-        id: "a01-returrom-balanse",
-        tekst:
-          "Ved innlegg: ballside indreløper + sentral midtbane ligger i returrom for klarering/andreball og for å sikre balanse",
-        rolle: "Sentral midtbane",
-      },
-      {
-        id: "a01-gjenvinning-5sek",
-        tekst: "Gjenvinn innen 5 sek etter balltap i etablert angrep – ny angrepsbølge før motstander rekker å etablere",
-      },
-      {
-        id: "a01-def-i-off",
-        tekst:
-          "Tenk forsvar når dere angriper: kontradekning/«def i off» og smart posisjonering gjør gjenvinning mulig",
-      },
-      {
-        id: "a01-omstilling-langt-fram",
-        tekst:
-          "Brudd i lavt press kommer ofte lavt i banen: det er langt fram til mål, så indreløpere/vingbacker må ha løpskraft og omstille raskt",
-      },
-      {
-        id: "a01-overgang-imot-saarbar",
-        tekst:
-          "Sårbarhet i overgang imot: hvis en stopper går fram med ball og mister den mens vingbackene står høyt/bredt – risikovurdering og pasningskvalitet er avgjørende",
-        rolle: "Stopper",
-      },
-      {
-        id: "a01-overgang-imot-1v1",
-        tekst:
-          "I overgang imot kan strukturen være god, men individuelle 1v1-ferdigheter avgjør: førsteforsvarer må tåle duell og forsinke",
-      },
-      {
-        id: "a01-keeper-sweeper",
-        tekst:
-          "Keeper: vær god igangsetter og sweeper (les forholdet ball–rom–motstander) og kommunisér tydelig i bakre ledd",
-        rolle: "Keeper",
-      },
+      { id: "a01-forsvar", tekst: "Default = 5-3-2 lav blokk – steng mellom-/bakrom og led mot rom 1–2" },
+      { id: "a01-hoyt-press", tekst: "Gå høyt kun på signaler (nese mot mål, tverspasning, dårlig touch/klarering)" },
+      { id: "a01-pressmekanisme", tekst: "Spiss presser stopper, vingback leder inn, ytre stopper skyver – resten sideforskyver", rolle: "Vingback" },
+      { id: "a01-press-risiko", tekst: "Husk bakrom når vi går høyt – enten presset sitter, eller vi faller" },
+      { id: "a01-angrep-bredde", tekst: "Vingback står helt bredt for å åpne midten; vend via dem hvis ikke gjennombrudd" },
+      { id: "a01-spissrelasjon", tekst: "Spissduo i møte–stikk: én møter, én truer bakrom", rolle: "Spiss" },
+      { id: "a01-indreloper", tekst: "Indreløper: møt for å åpne rom eller gå tredje mann i bakrom", rolle: "Indreløper" },
+      { id: "a01-innlegg", tekst: "Innlegg: fyll boks (2 spisser + motsatt indreløper + motsatt vingback) og bemann returrom" },
+      { id: "a01-gjenvinning", tekst: "5-sekundersregel + kontradekning = gjenvinning som våpen" },
+      { id: "a01-overgang", tekst: "Overgang imot: stoppere må vurdere risiko når de fører, og tåle 1v1" },
     ],
     ovelser: [
       { kode: "uefa-a01-01" },
       { kode: "uefa-a01-02" },
+      { kode: "uefa-a01-03" },
+      { kode: "uefa-a01-04" },
     ],
     coachingCues: [
       { kategori: "Press-signaler", gjor: "Rop signal og gå samtidig", ikkeGjor: "Ikke la press bli individuell innsats" },

@@ -35,34 +35,39 @@ export const SelmerZonesTemplateDiagram = ({ className }: SelmerZonesTemplateDia
   const fiveMeterWidth = PITCH_MARKS.fiveMeterWidth;
   const fiveMeterHeight = getFiveMeterHeight(sixteenMeterHeight);
 
-  const { sixteenLeft, sixteenRight, fiveLeft } = getPitchBoxX(innerWidth);
+  const { sixteenLeft, sixteenRight, fiveLeft, fiveRight } = getPitchBoxX(innerWidth);
   const { penaltySpotY, penaltyArcRadius, penaltyArcY, penaltyArcLeftX, penaltyArcRightX } = getPenaltyGeometry(
     innerWidth,
     sixteenMeterHeight
   );
 
-  // Deler 16m-dybden i to nivåer slik det ofte tegnes i A03-skisser.
-  // (Prosentandel for å gi en visuelt god match med referansebildet.)
-  const splitY = Math.round(sixteenMeterHeight * 0.56);
+  // A03-soner gjelder fra 5m og ut, og alle soner er innenfor 16m.
+  // Referansebildet deler ofte med horisontal linje ved straffemerket.
+  const zonesTopY = fiveMeterHeight;
+  const splitY = Math.round(penaltySpotY);
 
   const midX = innerWidth / 2;
+  const flankWidth = fiveLeft - sixteenLeft;
 
   const zones: Zone[] = [
-    // Utenfor 16m-boksen (wide channels) – venstre/høyre
-    { id: "1v", label: "1v", x: 0, y: 0, width: sixteenLeft, height: splitY },
-    { id: "1h", label: "1h", x: sixteenRight, y: 0, width: innerWidth - sixteenRight, height: splitY },
+    // Alle A03-soner er innenfor 16m, og gjelder fra 5m-linja og ut til 16m-linja.
+    // Ytre soner (1v/1h) ligger mellom 16m-kant og 5m-kant.
+    { id: "1v", label: "1v", x: sixteenLeft, y: zonesTopY, width: flankWidth, height: sixteenMeterHeight - zonesTopY },
+    {
+      id: "1cv",
+      label: "1cv",
+      x: fiveLeft,
+      y: zonesTopY,
+      width: midX - fiveLeft,
+      height: splitY - zonesTopY,
+      emphasis: true,
+    },
+    { id: "1ch", label: "1ch", x: midX, y: zonesTopY, width: fiveRight - midX, height: splitY - zonesTopY, emphasis: true },
+    { id: "1h", label: "1h", x: fiveRight, y: zonesTopY, width: sixteenRight - fiveRight, height: sixteenMeterHeight - zonesTopY },
 
-    // Inne i 16m-boksen – øvre rad
-    { id: "1cv", label: "1cv", x: sixteenLeft, y: 0, width: midX - sixteenLeft, height: splitY, emphasis: true },
-    { id: "1ch", label: "1ch", x: midX, y: 0, width: sixteenRight - midX, height: splitY, emphasis: true },
-
-    // Inne i 16m-boksen – nedre rad
-    { id: "2cv", label: "2cv", x: sixteenLeft, y: splitY, width: midX - sixteenLeft, height: sixteenMeterHeight - splitY },
-    { id: "2ch", label: "2ch", x: midX, y: splitY, width: sixteenRight - midX, height: sixteenMeterHeight - splitY },
-
-    // Wide channels nederst (ofte tegnet uten label, men vi beholder ruten som referanse)
-    { id: "2v", x: 0, y: splitY, width: sixteenLeft, height: sixteenMeterHeight - splitY },
-    { id: "2h", x: sixteenRight, y: splitY, width: innerWidth - sixteenRight, height: sixteenMeterHeight - splitY },
+    // Nedre rad
+    { id: "2cv", label: "2cv", x: fiveLeft, y: splitY, width: midX - fiveLeft, height: sixteenMeterHeight - splitY },
+    { id: "2ch", label: "2ch", x: midX, y: splitY, width: fiveRight - midX, height: sixteenMeterHeight - splitY },
   ];
 
   return (

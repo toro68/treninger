@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import {
   uefaFormations,
   type UEFAFormation,
 } from "@/data/uefaFormations";
 import { uefaAnalyses } from "@/data/uefaAnalyses";
+import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 
 // ============================================
 // ANALYSE-KORT MED EKSPANSJON
@@ -58,6 +59,8 @@ export const FormasjonerSeksjon = () => {
   const [aktivFane, setAktivFane] = useState<
     "oversikt" | "roller" | "prinsipper" | "analyser"
   >("oversikt");
+
+  const formationSvgRef = useRef<HTMLDivElement | null>(null);
 
   // Hent relaterte analyser for valgt formasjon
   const getRelaterteAnalyser = (formasjon: UEFAFormation) => {
@@ -156,10 +159,19 @@ export const FormasjonerSeksjon = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div className="md:col-span-1">
                         {valgtFormasjon.svgDiagram && (
-                          <div
-                            className="w-full h-auto p-4 border rounded-lg bg-green-50"
-                            dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
-                          />
+                          <div className="space-y-2">
+                            <div className="flex justify-end">
+                              <SvgDownloadButton
+                                containerRef={formationSvgRef}
+                                fileName={valgtFormasjon.navn}
+                              />
+                            </div>
+                            <div
+                              ref={formationSvgRef}
+                              className="w-full h-auto p-4 border rounded-lg bg-green-50"
+                              dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
+                            />
+                          </div>
                         )}
                       </div>
                       <div className="md:col-span-2 space-y-4">

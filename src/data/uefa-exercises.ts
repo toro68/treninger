@@ -167,6 +167,7 @@ export const uefaExercises: Exercise[] = [
     equipment: ["kjegler", "småmål"],
     description:
       "Stasjonsbasert øktidé (teknikk, koordinasjon, pasning, skudd) inspirert av Basmas beskrivelser av tidlig miljø/lek og støtte rundt aktiviteten. Kan organiseres med voksne/medspillere som hjelpere – fokus på trygghet og lek.",
+    imageUrl: "",
     coachingPoints: [
       "Lek og nysgjerrighet",
       "Fang opp mestring",
@@ -358,6 +359,56 @@ export const uefaExercises: Exercise[] = [
     ],
     source: "uefa",
     sourceRef: "A01 Even Ødegaard – Juventus 3-5-2",
+  },
+
+  {
+    id: "uefa-a01-03",
+    exerciseNumber: 549,
+    name: "Figur 25: Generell 2v1",
+    category: "station",
+    duration: 10,
+    playersMin: 6,
+    playersMax: 12,
+    theme: "angrep",
+    equipment: ["baller", "kjegler"],
+    description:
+      "Generell form: 2 spillere utfordrer 1 motspiller, og ny gruppe settes i gang når motspiller er passert.",
+    coachingPoints: [
+      "Ballfører: utfordre med fart og timing",
+      "Medspiller: skap vinkel og støtte – vær spillbar",
+      "Når forsvarer er passert: start ny gruppe",
+    ],
+    variations: [
+      "Forsvarer passiv → aktiv",
+      "Begrens antall touch (2–3) før avslutning",
+    ],
+    source: "uefa",
+    sourceRef: "A01 Even Ødegaard – Figur 25 (generell tilnærming)",
+  },
+
+  {
+    id: "uefa-a01-04",
+    exerciseNumber: 550,
+    name: "Figur 26: Kant 1v1 + overlapp + innlegg",
+    category: "station",
+    duration: 12,
+    playersMin: 6,
+    playersMax: 12,
+    theme: "innlegg",
+    equipment: ["baller", "kjegler", "mål"],
+    description:
+      "Spesifikk spillsituasjon: kantspiller utfordrer sideback og får overlapp fra egen sideback. Øvelsen kan avsluttes med innlegg.",
+    coachingPoints: [
+      "Kantspiller: utfordre 1v1 og les sideback",
+      "Back: timet overlapp – løp forbi når sideback binder",
+      "Innlegg: slå når du har fordel og løp i boks er klare",
+    ],
+    variations: [
+      "Legg til 1 forsvarer i boks (passiv → aktiv)",
+      "Krav om cutback-variant ved gjennombrudd",
+    ],
+    source: "uefa",
+    sourceRef: "A01 Even Ødegaard – Figur 26 (spesifikk tilnærming)",
   },
   // ══════════════════════════════════════════════════════════
   // A10: Moderne vingerrolle (Hugo Pereira)

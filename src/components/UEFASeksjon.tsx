@@ -1,15 +1,17 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { uefaAnalyses, type UEFAAnalyse } from "@/data/uefaAnalyses";
+import { uefaAnalyses, type Fokuspunkt, type UEFAAnalyse } from "@/data/uefaAnalyses";
 import { uefaFormations, type UEFAFormation } from "@/data/uefaFormations";
 import { getUEFAExerciseByCode, getUEFADisplayCode } from "@/data/uefa-exercises";
 import { useSessionStore } from "@/store/sessionStore";
 import { GlossaryTooltip } from "@/components/GlossaryTooltip";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
+import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
+import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 
-const GENERELLE_FOKUSPUNKTER = [
+const GENERELLE_FOKUSPUNKTER: Fokuspunkt[] = [
   {
     id: "generelt-roller",
     tekst: "Avklar roller i hver fase: ballfører, støtte, trussel (dybde/bakrom) og sikring (balanse).",
@@ -50,7 +52,7 @@ const GENERELLE_FOKUSPUNKTER = [
     id: "generelt-kvalitet",
     tekst: "Prioritér kvalitet over kvantitet: balltempo, pasningsvinkel og første touch skaper marginene.",
   },
-] as const;
+];
 
 // ============================================
 // KOMPONENT
@@ -61,7 +63,9 @@ export const UEFASeksjon = () => {
   const [aktivSeksjon, setAktivSeksjon] = useState<"analyser" | "formasjoner">("analyser");
   const [valgtAnalyse, setValgtAnalyse] = useState<UEFAAnalyse | null>(null);
   const [valgtFormasjon, setValgtFormasjon] = useState<UEFAFormation | null>(null);
-  const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "cues">("fokus");
+
+  const formationSvgRef = useRef<HTMLDivElement | null>(null);
+  const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "coaching">("fokus");
   // aktivFormasjonFane er forberedt for fremtidig bruk i formasjon-faner
   const [, setAktivFormasjonFane] = useState<"oversikt" | "roller" | "prinsipper">("oversikt");
   
@@ -197,7 +201,7 @@ export const UEFASeksjon = () => {
                   { id: "kpi", label: "KPI-er" },
                   { id: "fokus", label: "Læringsmomenter" },
                   { id: "ovelser", label: "Øvelser" },
-                  { id: "cues", label: "Coaching" },
+                  { id: "coaching", label: "Coaching" },
                 ].map((fane) => (
                   <button
                     key={fane.id}
@@ -237,62 +241,99 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-xl border border-amber-200 bg-amber-50 p-3">
                             <p className="text-xs font-semibold text-amber-800 uppercase tracking-wide">
-                              Juventus 3-5-2 – nøkkelgrep
+                              Juventus 3-5-2 – kampplan
                             </p>
-                            <ul className="mt-2 space-y-1 text-sm text-amber-900">
-                              <li>• Defensivt: fem bak i lavt press og steng mellomrom/bakrom først.</li>
-                              <li>• Press: gå høyt på avtalte signaler – samtidighet er avgjørende.</li>
-                              <li>• Offensivt: sentralt overtall + vingback som vendingspunkt for å skape gjennombrudd.</li>
-                              <li>• Mønstre: møte/stikk (spiss–spiss + indreløper) og fyll boks/returrom ved innlegg.</li>
+                            <div className="grid gap-3 md:grid-cols-2 text-sm text-amber-900">
+                              <div>
+                                <p className="text-xs font-semibold text-amber-700">Forsvarsfundament</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Default: 5-3-2 lav blokk – steng mellom-/bakrom og led mot rom 1–2.</li>
+                                  <li>• Høyt press på signaler (nese mot mål, tverspasning, dårlig touch/klarering).</li>
+                                  <li>• Vingback leder inn, ytre stopper skyver, resten sideforskyver.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="text-xs font-semibold text-amber-700">Angrepsfundament</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Vingback permanent bredde for å åpne rom sentralt.</li>
+                                  <li>• Ytre stopper frispilles og fører for å skape 2v1 eller tre opp.</li>
+                                  <li>• Spissrelasjon møte–stikk + indreløper tredje mann, boksfyll + returrom.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2">
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Pressmekanismer
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Lavt press: fem bak + tett midtbane – led mot rom 1–2.</li>
+                                <li>• Vingback kan ikke gå? Indreløper presser back, vingback tar kant, ytre stopper tar spiss.</li>
+                                <li>• Ved vending: motsatt vingback går aggressivt inn og leder mot indreløper/ytre stopper.</li>
+                              </ul>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Risikostyring
+                              </h4>
+                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                                <li>• Høyt press åpner bakrom – enten presset sitter, eller laget faller.</li>
+                                <li>• Ved innlegg: behold tre stoppere i boks; motsatt vingback tar bakre stolpe.</li>
+                                <li>• Stopper som fører må vurdere risiko når vingbacker står høyt.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              Angrepsmønstre
+                            </h4>
+                            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                              <li>• Vingback = vendingsspiller; se etter spiss som møter/stikker eller indreløper i mellomrom.</li>
+                              <li>• Når gjennombrudd ikke sitter: vend via anker/bakre ledd og angrip på nytt.</li>
+                              <li>• Innlegg: 2 spisser + motsatt indreløper + motsatt vingback i boks; sentral midt + ballside indreløper sikrer returrom.</li>
+                              <li>• Indreløpere forventes sluttprodukt (skudd i mellomrom, fylle boks).</li>
                             </ul>
                           </div>
 
-                          <div className="grid gap-3 md:grid-cols-2">
-                            <div className="rounded-xl border border-zinc-200 p-3">
+                          <div className="rounded-xl border border-zinc-200 p-3 grid gap-4 md:grid-cols-2">
+                            <div>
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Hovedprinsipper
+                                Gjenvinning & overgang
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Press inn sentralt – tre stoppere + regista tar bort midten.</li>
-                                <li>• Sentralt overtall gir kontroll i frispilling og i returløp/gjenvinning.</li>
-                                <li>• Gjenvinning som våpen – mange spillere rundt ball etter tap.</li>
-                                <li>• Spissduo i motsatte løp for å splitte stopperne.</li>
+                                <li>• 5-sekundersregel + kontradekning («def i off»).</li>
+                                <li>• Brudd i lavt press kommer ofte dypt – indreløpere/vingbacker må ha løpskraft.</li>
+                                <li>• To feller: stopper mister ball med høye vingbacker, eller førsteforsvarer passeres og tempo i bakre treer avgjør.</li>
                               </ul>
                             </div>
-                            <div className="rounded-xl border border-zinc-200 p-3">
+                            <div>
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Fasemodell
+                                Roller (kompakt)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Fase 1 – frispilling: stoppere bredt, regista dropper, vingback høy.</li>
-                                <li>• Fase 2 – gjennombrudd: indreløper som tredje mann, tidlig innlegg.</li>
-                                <li>• Fase 3 – gjenvinning: mange spillere rundt ball → press/gjenangrep.</li>
+                                <li>• Stopper: styr linja, våg å føre men vurder risiko.</li>
+                                <li>• Vingback: bredde, vendingspunkt, returløp.</li>
+                                <li>• Anker: tilby deg sentralt, vend tempo, slå stikkere.</li>
+                                <li>• Indreløper: strekk mellomrom, møt eller gå tredje mann, lever sluttprodukt.</li>
+                                <li>• Spiss: møte–stikk og press på stoppere.</li>
+                                <li>• Keeper: sweeper + tydelig kommunikasjon.</li>
                               </ul>
                             </div>
                           </div>
 
-                          <div className="grid gap-3 md:grid-cols-2">
-                            <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Motstander-analyse
-                              </h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Kartlegg hvor motstanderen bygger opp og styr press-signalet dit.</li>
-                                <li>• Vurder kantspillere som kan straffe vingbackene – planlegg ekstra sikring.</li>
-                              </ul>
-                            </div>
-                            <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Rollebeskrivelser
-                              </h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Stoppere: aggressiv duellstyring, ansvar for restforsvar.</li>
-                                <li>• Vingbacker: permanent bredde, tidlige innlegg, returløp etter hvert angrep.</li>
-                                <li>• Regista: tempo i frispilling, 360° orientering, defensivt anker.</li>
-                                <li>• Indreløpere: én støter, én sikrer – avklart før kamp.</li>
-                                <li>• Spissduo: motsatte bevegelser og press-cues.</li>
-                              </ul>
-                            </div>
+                          <div className="rounded-xl border border-zinc-200 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              Treningsprinsipper
+                            </h4>
+                            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                              <li>• Avklar roller per fase (ballfører, støtte, trussel, sikring).</li>
+                              <li>• Orientering og rettvendt kroppsvinkel før mottak.</li>
+                              <li>• Skap 2v1 før gjennombrudd, tren temposkifte og umiddelbar reaksjon ved balltap.</li>
+                              <li>• Enkel coaching: «vend», «hold», «stikk», «press» – kvalitet &gt; kvantitet.</li>
+                            </ul>
                           </div>
 
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
@@ -311,7 +352,6 @@ export const UEFASeksjon = () => {
                           </div>
                         </div>
                       )}
-
                       {valgtAnalyse.kode === "A02" && (
                         <div className="space-y-4">
                           <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-3">
@@ -404,6 +444,13 @@ export const UEFASeksjon = () => {
                               <li>• Curl/plassering: 73 % (CL) vs 30 % (Tippeligaen) – pasningsferdighet i avslutning.</li>
                               <li>• Sone 1cv/1ch: 59,5 % (CL) vs 34,5 % (Tippeligaen) – skap flere avslutninger nærmere mål.</li>
                             </ul>
+                          </div>
+
+                          <div className="rounded-2xl border border-zinc-200 bg-white shadow-inner">
+                            <SelmerZonesTemplateDiagram className="max-h-[320px]" />
+                            <div className="px-4 pb-4 text-xs text-zinc-500">
+                              Avslutningssoner (A03) – fra 5m til 16m innenfor 16m-boksen.
+                            </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
@@ -527,6 +574,147 @@ export const UEFASeksjon = () => {
                                 <li>• Vinger/falsk nier: gjenkjenne når de holder ball vs slipper.</li>
                               </ul>
                             </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2" data-testid="a04-konkrete-laringspunkter">
+                            <div className="rounded-xl border border-zinc-200 p-3 space-y-3">
+                              <div>
+                                <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                  Konkrete læringspunkter
+                                </h4>
+                                <p className="text-sm text-zinc-600">
+                                  Hovedfunn som utfordrer vanlige oppfatninger
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide">
+                                  Myten om ett-touch-spillet
+                                </p>
+                                <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+                                  <li>• Barcelona spiller ikke primært på ett touch.</li>
+                                  <li>• 25 % av involveringene er ett-touch; 20 % i scoringsangrep.</li>
+                                  <li>• Snittet øker til 2,9 touch når de skal score (vs 2,5 generelt).</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide">
+                                  Kontroll fremfor tempo
+                                </p>
+                                <p className="text-sm text-zinc-700">
+                                  Barca prioriterer ballkontroll og rytmestyring over konstant hurtighet.
+                                </p>
+                              </div>
+                            </div>
+                            <div className="rounded-xl border border-zinc-200 p-3 space-y-2">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                Praktiske treningsøkter
+                              </h4>
+                              <div className="space-y-1 text-sm text-zinc-700">
+                                <p><span className="font-semibold">1. Nøyaktighet og tempo.</span> Diskuter når 1, 2 eller 3 touch er best.</p>
+                                <p><span className="font-semibold">2. Bevegelseskvalitet.</span> Vinkler til ballfører og presis timing.</p>
+                                <p><span className="font-semibold">3. Persepsjonstrening.</span> Økter der spillerne må lese situasjonen.</p>
+                                <p><span className="font-semibold">4. Funksjonell teknikk.</span> Teknikk med tydelig kampoverføring.</p>
+                                <p><span className="font-semibold">5. Spill og problemløsning.</span> Veksle mellom avventende og direkte spill.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3 space-y-4" data-testid="a04-trenerarbeid">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              Konkrete tips til trenerarbeid
+                            </h4>
+                            <div className="space-y-3 text-sm text-zinc-700">
+                              <div>
+                                <p className="font-semibold text-zinc-900">1. Ballkontroll og presisjon</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Velg riktig antall touch for situasjonen.</li>
+                                  <li>• Ikke press spillerne til å spille direkte hver gang.</li>
+                                  <li>• Kvalitet i utførelse &gt; kvantitet av tempo.</li>
+                                  <li>• Korte, presise innsidepasninger med beste fot.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">2. Roller og individuelle forskjeller</p>
+                                <div className="mt-1 space-y-1">
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fra analysen</p>
+                                  <ul className="space-y-1">
+                                    <li>• Messi 3,0 touch – frihet til å drible.</li>
+                                    <li>• Xavi 2,8 touch – dirigent som styrer rytmen.</li>
+                                    <li>• Busquets 2,1 touch – ryddegutt som spiller enkelt.</li>
+                                    <li>• Backene: to-touch 40 %+.</li>
+                                  </ul>
+                                </div>
+                                <p className="mt-1">Trenerkonklusjon: bygg på spillernes styrker – ikke alle skal spille likt.</p>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">3. Når skal ett-touch brukes?</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Feilvendt eller under press.</li>
+                                  <li>• Tidsnød eller trangt område.</li>
+                                  <li>• Ballen ligger perfekt.</li>
+                                  <li>• Laget leder og vil «olé» motstanderen.</li>
+                                  <li>• Ønsker å unngå skader i dueller.</li>
+                                </ul>
+                                <p className="mt-1 text-zinc-700">Ikke primært for kombinasjonsspill mot mål.</p>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">4. Bevegelse og posisjonering</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Alltid vinkler til ballfører og støtte tilgjengelig.</li>
+                                  <li>• Medløpsbevegelser i nærrom; motsatt side truer bakrom.</li>
+                                  <li>• Messi-rollen får frihet til å vandre.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">5. Herredømme gjennom possesjon</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Eie ballen = eie kampen.</li>
+                                  <li>• Gjennombruddsavventende spill – vent på beste mulighet.</li>
+                                  <li>• Skap samme klima i hver kamp via tålmodig oppbygging.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">6. Tidlig gjenvinning</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Umiddelbart, intenst press ved balltap.</li>
+                                  <li>• Kombiner possesjon + gjenvinning for kvelningsfølelse.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">7. Spesifisitet i trening</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Tren på scenene dere møter (etablert forsvar).</li>
+                                  <li>• 14 av 16 mål mot etablert blokk – repliker dette.</li>
+                                  <li>• Gjenvinning fra siste tredjedel må være fast del.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">8. Teknisk utførelse</p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• 16 av 21 ett-touch med innsiden av foten.</li>
+                                  <li>• Spill til mottakers riktige fot (lengst fra press).</li>
+                                  <li>• Korte, kontrollerte pasninger.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3 space-y-2" data-testid="a04-konklusjon">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              Viktigste konklusjon for trenere
+                            </h4>
+                            <p className="text-sm font-semibold text-zinc-900">
+                              «God ballkontroll vs. høyt tempo» – svaret er kontroll.
+                            </p>
+                            <ul className="space-y-1 text-sm text-zinc-700">
+                              <li>• Skap herredømme gjennom possesjon og kontrollerte 2–3 touch.</li>
+                              <li>• Vinn ballen tilbake umiddelbart og tving kampen inn i kjente mønstre.</li>
+                              <li>• La nøkkelspillere (Xavi/Messi-rollen) ta tiden de trenger.</li>
+                              <li>• Vent tålmodig på rette mulighet fremfor å jage tempo.</li>
+                            </ul>
+                            <p className="text-sm text-zinc-700">
+                              Ikke vær redd for ekstra touch som gir kontroll – differensier roller slik Barca gjør med Messi (dribler), Xavi (dirigent) og Busquets (rydder).
+                            </p>
                           </div>
 
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
@@ -690,6 +878,44 @@ export const UEFASeksjon = () => {
                                 <li>• «6/8 styrer tempo: ro ned ved ledelse, skru opp ved jag.»</li>
                                 <li>• «Sekundærpress: avklar hvem trykker og hvem sikrer.»</li>
                               </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-xl border border-zinc-200 p-3">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              Presshøyde-modus
+                            </h4>
+                            <div className="mt-2 space-y-4 text-sm text-zinc-700">
+                              <div>
+                                <p className="font-semibold text-zinc-900">Aggressivt press (høyt, umiddelbart)</p>
+                                <p className="text-xs text-zinc-500">
+                                  Angrip ballføreren før de rekker å etablere kontroll.
+                                </p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Triggere: feilvendt mottaker, dårlig førstetouch, keeper/back i eget felt.</li>
+                                  <li>• Bruk siderommet, få pasningsalternativer (&lt;3) eller egne dødballer som signal.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">Mellompress (kontrollert, felle)</p>
+                                <p className="text-xs text-zinc-500">
+                                  La motstanderen få ball, styr dem mot ønsket sone og press hardt der.
+                                </p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Triggere: motstander er organisert, vi vil styre mot side/svak spiller, kort oppbygging.</li>
+                                  <li>• MatchPrep: definer fellesone (f.eks. mot svak back) og vinn ballen der.</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <p className="font-semibold text-zinc-900">Lavt press (passivt, kompakt blokk)</p>
+                                <p className="text-xs text-zinc-500">
+                                  Fall av i kompakt formasjon og gjør det trangt sentralt.
+                                </p>
+                                <ul className="mt-1 space-y-1">
+                                  <li>• Triggere: leder med ett mål (siste 15), teknisk overlegen motstander, bortekamp mot topplag.</li>
+                                  <li>• Brukes også når laget er slitne og må spare energi.</li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
 
@@ -2627,7 +2853,7 @@ export const UEFASeksjon = () => {
                 )}
 
                 {/* Coaching cues */}
-                {aktivFane === "cues" && (
+                {aktivFane === "coaching" && (
                   <div className="space-y-3">
                     <p className="text-sm text-zinc-500 mb-3">
                       Tips til trener under kamp/trening:
@@ -2665,10 +2891,19 @@ export const UEFASeksjon = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="md:col-span-1">
                   {valgtFormasjon.svgDiagram && (
-                    <div
-                      className="w-full h-auto p-4 border rounded-lg bg-green-50"
-                      dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
-                    />
+                    <div className="space-y-2">
+                      <div className="flex justify-end">
+                        <SvgDownloadButton
+                          containerRef={formationSvgRef}
+                          fileName={valgtFormasjon.navn}
+                        />
+                      </div>
+                      <div
+                        ref={formationSvgRef}
+                        className="w-full h-auto p-4 border rounded-lg bg-green-50"
+                        dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
+                      />
+                    </div>
                   )}
                 </div>
                 <div className="md:col-span-2 space-y-4">

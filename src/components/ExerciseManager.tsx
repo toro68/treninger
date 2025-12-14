@@ -3,6 +3,7 @@ import { useSessionStore } from "@/store/sessionStore";
 import type { Exercise, ExerciseCategory } from "@/data/exercises";
 import { getExerciseCode } from "@/data/exercises";
 import { useMemo, useState, useEffect } from "react";
+import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 
 const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   "fixed-warmup": "Skadefri oppvarming",
@@ -100,6 +101,13 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
     }
     updateExercise(editing.id, editing);
     setEditing(null);
+  };
+
+  const handleSvgFile = async (file: File | null) => {
+    if (!editing) return;
+    if (!file) return;
+    const text = await file.text();
+    setEditing({ ...editing, svgDiagram: text });
   };
 
   return (
@@ -251,6 +259,45 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
               className="rounded-lg border border-zinc-200 px-3 py-2"
             />
           </label>
+
+          <div className="space-y-2 text-sm text-zinc-700">
+            <div className="flex items-center justify-between gap-3">
+              <span>Diagram (SVG)</span>
+              {editing.svgDiagram && (
+                <button
+                  type="button"
+                  onClick={() => handleChange("svgDiagram", "")}
+                  className="text-xs text-black underline-offset-2 hover:underline"
+                >
+                  Fjern
+                </button>
+              )}
+            </div>
+            <input
+              type="file"
+              accept=".svg,image/svg+xml"
+              onChange={(event) => {
+                void handleSvgFile(event.target.files?.[0] ?? null);
+                // allow re-uploading same file
+                event.currentTarget.value = "";
+              }}
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2"
+            />
+            <textarea
+              placeholder="Lim inn SVG-markup her (valgfritt)"
+              value={editing.svgDiagram ?? ""}
+              onChange={(event) => handleChange("svgDiagram", event.target.value)}
+              className="min-h-[120px] w-full rounded-lg border border-zinc-200 px-3 py-2 font-mono text-xs"
+            />
+            {editing.svgDiagram && (
+              <div
+                className="rounded-xl border border-zinc-200 bg-white p-2 [&_svg]:block [&_svg]:h-auto [&_svg]:max-h-[220px] [&_svg]:w-full"
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: sanitizeSvgMarkup(editing.svgDiagram) }}
+              />
+            )}
+          </div>
+
           {(["equipment", "coachingPoints", "variations"] as const).map(
             (field) => (
               <div key={field} className="space-y-2 text-sm text-zinc-700">

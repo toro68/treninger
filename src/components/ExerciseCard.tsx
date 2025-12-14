@@ -1,6 +1,10 @@
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { useSessionStore } from "@/store/sessionStore";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25GeneralTemplateDiagram";
+import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
+import { SvgDownloadButton } from "@/components/SvgDownloadButton";
+import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -35,7 +39,76 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
 
   const [showDetails, setShowDetails] = useState(false);
 
+  const a01Fig25Ref = useRef<HTMLDivElement | null>(null);
+  const a01Fig26Ref = useRef<HTMLDivElement | null>(null);
+  const importedSvgRef = useRef<HTMLDivElement | null>(null);
+
   const disabled = exercise.alwaysIncluded;
+
+  const exerciseDiagram = (() => {
+    if (exercise.svgDiagram) {
+      return (
+        <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
+          <div className="flex justify-end">
+            <SvgDownloadButton
+              containerRef={importedSvgRef}
+              fileName={`${exercise.id}-diagram`}
+            />
+          </div>
+          <div
+            ref={importedSvgRef}
+            className="[&_svg]:block [&_svg]:h-auto [&_svg]:max-h-[220px] [&_svg]:w-full"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{ __html: sanitizeSvgMarkup(exercise.svgDiagram) }}
+          />
+        </div>
+      );
+    }
+    if (exercise.id === "uefa-a01-03") {
+      return (
+        <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
+          <div className="flex justify-end">
+            <SvgDownloadButton
+              containerRef={a01Fig25Ref}
+              fileName="uefa-a01-03-figur-25-generell-2v1"
+            />
+          </div>
+          <div ref={a01Fig25Ref}>
+            <A01Figure25GeneralTemplateDiagram className="max-h-[220px]" />
+          </div>
+        </div>
+      );
+    }
+    if (exercise.id === "uefa-a01-04") {
+      return (
+        <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
+          <div className="flex justify-end">
+            <SvgDownloadButton
+              containerRef={a01Fig26Ref}
+              fileName="uefa-a01-04-figur-26-overlapp-innlegg"
+            />
+          </div>
+          <div ref={a01Fig26Ref}>
+            <A01Figure26OverlapTemplateDiagram className="max-h-[220px]" />
+          </div>
+        </div>
+      );
+    }
+    if (exercise.imageUrl) {
+      return (
+        <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
+          <img
+            src={exercise.imageUrl}
+            alt={`Diagram for ${exercise.name}`}
+            className="block max-h-[220px] w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+      );
+    }
+
+    return null;
+  })();
 
   return (
     <label
@@ -78,6 +151,7 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
           </button>
         </div>
         <p className="mt-1 text-sm text-zinc-600 group-hover:text-zinc-700">{exercise.description}</p>
+        {exerciseDiagram}
         <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
           <span className="inline-flex items-center gap-1 rounded-md bg-zinc-100 px-2 py-0.5 font-medium text-zinc-600">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
