@@ -1491,10 +1491,11 @@ export const UEFASeksjon = () => {
                               Innlegg i Tippeligaen – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-sky-900">
-                              <li>• Ca. 34 % av TL-mål 2015 kom fra innlegg i åpent spill.</li>
-                              <li>• Innlegg nærmere mål gir høyere sannsynlighet for scoring enn de dypeste sonene.</li>
-                              <li>• 68,32 % av innleggs-scoringene er registrert som «direkte» (innlegger + målscorer).</li>
-                              <li>• Analysen skiller også på etablert angrep vs overgang, og på mål etter gjenvinning i forkant.</li>
+                              <li>• 33,85 % av alle mål i TL 2015 kom etter innlegg i åpent spill (262 av 774).</li>
+                              <li>• Samtidig endte bare 3,5 % av alle innlegg i åpent spill med scoring.</li>
+                              <li>• 68,32 % av innleggsmålene er «direkte» (innlegger + målscorer) – direkte mindset i boks.</li>
+                              <li>• 73 % av innleggsmål kommer mot etablert forsvar (27 % etter overgang) → bygg relasjoner på side.</li>
+                              <li>• Scoringssoner: D (27,48 %) og C (24,43 %) er toppsonene.</li>
                             </ul>
                           </div>
 
@@ -1504,11 +1505,11 @@ export const UEFASeksjon = () => {
                                 Tall i analysen
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Andel mål fra innlegg i åpent spill: ca. 34 %.</li>
-                                <li>• Scoring pr innlegg: 3,5 %.</li>
-                                <li>• Direkte scoring (innlegger + målscorer): 68,32 % av innleggs-scoringene (179 av 262).</li>
-                                <li>• Mål innenfor 16 m: 96 % av innleggs-scoringene.</li>
-                                <li>• Etablert vs overgang: 73 % / 27 %.</li>
+                                <li>• Andel mål etter innlegg (åpent spill): 33,85 % (262/774).</li>
+                                <li>• Suksessrate pr innlegg (åpent spill): 3,5 %.</li>
+                                <li>• Direkte andel av innleggsmål: 68,32 % (179/262) = ca. 23 % av alle mål.</li>
+                                <li>• Etablert vs overgang (innleggsmål): 73 % / 27 %.</li>
+                                <li>• Scoringssone: D 27,48 % / C 24,43 % (deretter 1. stolpe og bakre).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1516,10 +1517,10 @@ export const UEFASeksjon = () => {
                                 Fokusområder
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Bruk samme sonekoding (A–F for innlegg og bokstavsoner for scoring) når dere evaluerer egne kamper.</li>
-                                <li>• Skill på direkte innleggs-scoringer vs scoringer med flere involverte før avslutning.</li>
-                                <li>• Skill på innlegg mot etablert forsvar vs innlegg i overgang.</li>
-                                <li>• Se på lag- og spillerforskjeller: hvem leverer, hvem scorer, og i hvilke soner.</li>
+                                <li>• Kom til riktig innleggsposisjon før du slår (vinn kant/overtall først).</li>
+                                <li>• Bemann 4 soner: 1. stolpe, C, D og bakre stolpe (tydelige løpsroller).</li>
+                                <li>• Direkte mindset i boks – men med organisert ettertrykk (andreball-lås).</li>
+                                <li>• Etablert angrep er hovedarena → bygg faste relasjoner på side.</li>
                               </ul>
                             </div>
                           </div>
@@ -1530,10 +1531,10 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Kartlegg egne og motstanders innleggssoner og scoringssoner med samme koding som i analysen.</li>
-                                <li>• Se etter mønstre i direkte scoringer (innlegger + målscorer) versus andre typer innleggs-mål.</li>
-                                <li>• Skille på innlegg mot etablert forsvar og innlegg i overgang når dere analyserer kampbildet.</li>
-                                <li>• Identifiser hvilke spillere/roller som er mest involvert i innleggs-situasjoner og scoringer.</li>
+                                <li>• Definer innleggsplanen: hvem slår oftest (kant/back), og hvilken type (cutback til D vs luft i C/bakre).</li>
+                                <li>• Avtal boksroller: 9 = C/1. stolpe, motsatt kant = bakre, 8/10 = D, 6 = rest/ettertrykk.</li>
+                                <li>• Forbered dere på etablert angrep (73 % av innleggsmålene) med faste relasjoner på side.</li>
+                                <li>• Triggerord: «VINN KANT», «D!», «FØRSTE!», «BAKRE!», «ETTERTRYKK!»</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1541,10 +1542,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Hvilken sone slo vi innlegget fra?»</li>
-                                <li>• «Var dette en direkte innleggs-scoring eller via flere involverte?»</li>
-                                <li>• «Kom situasjonen i etablert angrep eller i overgang?»</li>
-                                <li>• «Var gjenvinning i forkant en del av situasjonen?»</li>
+                                <li>• «Ikke slå fordi du kan – slå fordi vi har vunnet posisjon.»</li>
+                                <li>• «D-løper på plass før innlegget går.»</li>
+                                <li>• «1. stolpe / C: angrip ballen – ikke vent.»</li>
+                                <li>• «Ettertrykk 5 sek! Først press, så sikring.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1574,33 +1575,34 @@ export const UEFASeksjon = () => {
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-amber-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• 60 % av sjansene kommer i etablert angrep via kantkombinasjoner + gullsone-innlegg.</li>
-                                <li>• 29–30 % på kontring: 6 sek-regel med tre løp (spiss dypt, kant stang, IL bakre).</li>
+                                <li>• 147 målsjanser på 16 kamper = 9,19 pr kamp.</li>
+                                <li>• Faser: 54 % etablert (80), 29 % overgang (42), 17 % dødball (25).</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• 52 % av målsjansene etter innlegg, 24 % av scoringene fra gullsonen.</li>
-                                <li>• 65 mål / +40 målforskjell (69 poeng) – 9,2 sjanser per kamp i snitt.</li>
+                                <li>• Virkemiddel: 52 % av sjansene etter innlegg (48 % kombinasjon).</li>
+                                <li>• Side-skjevhet: 58 % av sjansene fra høyre (85 vs 62).</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Etablert (60 %)</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Etablert (54 %)</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Kombiner i mellomrom → kant i gullsonen. Boks fylles rom 1–3 før innlegget går.
+                                Gjennombrudd bredt: vending av spill → overtall på kant → innlegg/cutback.
                               </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kontring (≈30 %)</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Overgang (29 %)</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Gjenvinn i sone 2–3, spill på 80 % risiko og løp tre linjer innen 6 sek.
+                                Straff ubalanse når muligheten er der – uansett kampstatus.
                               </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Dødball (≈10 %)</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Dødball (17 %)</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                40 % uttelling på dødballsjanser – kvalitet i serv + rom 1–3 prioriteres.</p>
+                                Høy uttelling (40 %) – kvalitet i serve + ettertrykk/andreball.
+                              </p>
                             </div>
                           </div>
 
@@ -1608,43 +1610,44 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Målsjanser etablert angrep: ≥10 pr kamp.</li>
-                                <li>• Målsjanser kontring: ≥3 pr kamp.</li>
-                                <li>• Innlegg fra gullsonen: ≥6 pr kamp.</li>
-                                <li>• Kontring på kontring: ≥2 pr kamp (gjenvinn i sone 2).</li>
-                                <li>• Rom 1–3 fylt før innlegg: 100 % av forsøkene.</li>
+                                <li>• Sjanser pr kamp: ~9 (egen referanse).</li>
+                                <li>• Fasefordeling: etablert/overgang/dødball.</li>
+                                <li>• Innlegg som motor: andel sjanser etter innlegg (RBK: 52 %).</li>
+                                <li>• Sideproduksjon: høyre/venstre (RBK: 58/42).</li>
+                                <li>• Uttelling totalt: mål/sjanser (RBK: 21 %).</li>
+                                <li>• Trykkperioden 60–75: sjanser i 61–75 (RBK: 25 %).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Etablert: kombinasjon på kant før gullsone-innlegg.</li>
-                                <li>• Kontring: spiss dypt, kant i stang, IL bakre – 6 sek fra gjenvinning.</li>
-                                <li>• Gullsonen: ingen «ansvarsfraskrivelse» – slå fra 18–20 m.</li>
-                                <li>• Boksbemanning: rom 1–3 + bakre bue.</li>
-                                <li>• Kontring på kontring: gjenvinn i sone 2.</li>
+                                <li>• Etablert: vending + indreløper i mellomrom → overtall bredt → innlegg/cutback.</li>
+                                <li>• Relasjoner: «samme side» og kontinuitet i roller over tid.</li>
+                                <li>• Boksroller: motsatt kant 1. stolpe, 9’er bakre, ettertrykk rundt D.</li>
+                                <li>• Dødball: prioriter serve-kvalitet + andreball/ettertrykk.</li>
+                                <li>• Overgang: straff ubalanse når den er der – ellers sikre og etablér.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan (MD-4 → MD-1)</h4>
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampplan (MatchPrep)</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• MD-4: kombinasjon + innlegg (UEFA-A16-01) – scanning og L-løp.</li>
-                                <li>• MD-2: fase-spill 4-3-3 vs 4-4-2 (UEFA-A16-02) med fasedefinerte bonusmål.</li>
-                                <li>• MD-1: kampplanvideo + stopp/start – påminn boksroller og 6 sek-kontring.</li>
-                                <li>• Kampklokke: 60–75 min er topproduktiv; planlegg friske løp der.</li>
+                                <li>• Mot lav blokk: planlegg «vinn kant» ofte (vending → overtall bredt → innlegg/cutback).</li>
+                                <li>• Definer boksroller før kamp: motsatt kant 1. stolpe, 9’er bakre, minst én fyller/ettertrykker rundt D.</li>
+                                <li>• Plan for 60–75: tydelig topproduktiv periode – tempo/risiko/bytter.</li>
+                                <li>• Dødballpakke: serve-kvalitet + tydelig andreball/ettertrykk-beredskap.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Rolig i kombinasjon – ett touch, så fremover.»</li>
-                                <li>• «Kant: vurder innlegg inn i slottet – med riktig timing.»</li>
-                                <li>• «Spiss: avklar rolle ved innlegg (foran/bakre).»</li>
-                                <li>• «Kontring: utnytt ubalanse når muligheten er der.»</li>
-                                <li>• «Etter innlegg: vær klar for returer.»</li>
+                                <li>• «Vinn kant – vend spillet!»</li>
+                                <li>• «Fyll boks: motsatt kant 1!»</li>
+                                <li>• «9’er: bakre!»</li>
+                                <li>• «Ettertrykk!»</li>
+                                <li>• «Straff ubalanse – gå!»</li>
                               </ul>
                             </div>
                           </div>
