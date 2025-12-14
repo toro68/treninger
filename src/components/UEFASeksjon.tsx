@@ -1121,10 +1121,10 @@ export const UEFASeksjon = () => {
                               Vingerrollen – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-purple-900">
-                              <li>• Assist/innlegg skjer under 1–3 meters press med 1–4 sek og 1–3 touch.</li>
-                              <li>• Området for avgjørende pasning er nesten alltid siste tredjedel.</li>
-                              <li>• Motsatt ving scorer 31 % av innleggsmålene – koordiner løp.</li>
-                              <li>• Constraints-basert læring: baneregler styrer mellomrom, tidlige innlegg og lavt skudd.</li>
+                              <li>• Kampdata: nøkkelsituasjoner skjer under tett press (ofte 1–3 m) og kort tid (typisk 1–4 sek).</li>
+                              <li>• Decisive pass: 1–2 m press i 89 % og oftest fra siste tredjedel (91 %).</li>
+                              <li>• Innlegg: målrom 5 m + sentralt i boksen; spiss scorer 56 % / motsatt kant 31 %.</li>
+                              <li>• Scoring: 82 % i boks og 64 % lavt plassert – tren kampnære «safe» valg under press.</li>
                             </ul>
                           </div>
 
@@ -1136,9 +1136,10 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Presser ved assist: 1–3 m (75 %).</li>
                                 <li>• Tid før assist: 1–4 sek (77,7 %).</li>
-                                <li>• Touch før assist: 1–3 (60,7 %).</li>
-                                <li>• Presser ved innlegg: 1–3 m (67 %); touch ≤4 (76 %).</li>
-                                <li>• Hvem scorer: spiss 56 % / motsatt ving 31 %.</li>
+                                <li>• Handlinger før assist: 2-touch (67 %).</li>
+                                <li>• Decisive pass: 1–2 m press (89 %); siste tredjedel (91 %).</li>
+                                <li>• Innlegg: press 1 m (44 %) / 2 m (38 %); touch ≤4 (76 %).</li>
+                                <li>• Etter innlegg: spiss 56 % / motsatt kant 31 % / midtbane 12 %.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1146,11 +1147,11 @@ export const UEFASeksjon = () => {
                                 Rolle- og treningsfokus
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Orientering før mottak – løsning klar før første touch.</li>
-                                <li>• Tren på avgjørende aksjoner under tett press (ofte 1–3 m) med lite tid/rom.</li>
-                                <li>• Knytt touch til valg: få touch i assist/innlegg og rask utførelse.</li>
-                                <li>• Innlegg: variér 1-touch vs. etter dribling, og les relasjonen spiss/motsatt ving i boks.</li>
-                                <li>• Avslutning: prioriter lavt plasserte skudd og treff mål under press.</li>
+                                <li>• Før ball: kom rettvendt og kom i scoringsrom (korridor + mellomrom).</li>
+                                <li>• Med ball: løs under ekstremt tid/rom-press – oppdatert før 1. touch.</li>
+                                <li>• 1. touch → fart/retning, kort ball–kropp-avstand.</li>
+                                <li>• Siste handling: decisive pass/innlegg/avslutning under 1–2 m press.</li>
+                                <li>• Innlegg/avslutning: tren mot målrom 5 m + straffemerke og lav plassering.</li>
                               </ul>
                             </div>
                           </div>
@@ -1160,12 +1161,12 @@ export const UEFASeksjon = () => {
                               Læringspunkter fra rapporten
                             </h4>
                             <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                              <li>• Forvent tett press: ved assist/innlegg/avslutning er forsvarer ofte 1–3 m unna.</li>
-                              <li>• Assist (fase 2): 1–4 sek med ball er vanlig, og 1–3 touch forekommer ofte.</li>
-                              <li>• Innlegg (fase 2): ofte ≤4 touch før innlegg; type aksjon varierer, med særlig forekomst av 1-touch innlegg eller innlegg etter dribling.</li>
-                              <li>• Avgjørende pasning (assist fase 3): skjer i stor grad fra siste tredel (91 %).</li>
-                              <li>• Øvelse UEFA-A10-03: Gk+6v6+Gk med kantsoner og forsvar låst til to korridorer; vingen leser når back forlater linjen, cut-back gir 2 poeng.</li>
-                              <li>• Scoring: press på første touch er ofte 1–2 m (84 %). Tren på å plassere lavt (64 %) og avslutte inne i boksen (82 %).</li>
+                              <li>• 3 faser å trene: før ball → med ball → siste handling.</li>
+                              <li>• Assist/skapende: avgjørende aksjon innen ≤4 sek er kampnært mål.</li>
+                              <li>• Decisive pass: skjer ofte under 1–2 m press (89 %) og fra siste tredjedel (91 %).</li>
+                              <li>• Innlegg: styr mot målrom 5 m + sentral 16 m; koordiner spiss + motsatt kant i boks.</li>
+                              <li>• Scoring: 82 % i boks og 64 % lavt plassert – tren lav, kontrollert avslutning under press.</li>
+                              <li>• Øvelser: bruk constraints (soner/touch/poeng) for å skape kampnært tid/rom-press.</li>
                             </ul>
                           </div>
 
@@ -1175,9 +1176,9 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Definer pressavstand for vingene og hvilke rom de skal angripe.</li>
-                                <li>• Velg constraints (soner/touch/poeng) som fremprovoserer ønskede valg under press.</li>
-                                <li>• Rollen til motsatt ving/spiss i boks (første/bakre stolpe).</li>
+                                <li>• Definer kantens startpunkt: bred korridor vs mellomrom – med intensjon mot mål.</li>
+                                <li>• Avtal boksroller før kamp: spiss i 5 m / 1. sone + motsatt kant på bakre/retur.</li>
+                                <li>• Tren siste handling kampnært: decisive pass og avslutning med forsvarer tett (1–2 m).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1185,10 +1186,11 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Sjekk over skulder før mottak».</li>
-                                <li>• «Innlegg tidlig – cut-back basert på press».</li>
-                                <li>• «Plasser lavt og hardt, treff innen ramma».</li>
-                                <li>• «Tru bakrom før du tilbyr i fot».</li>
+                                <li>• «Se før du får den – du har 1–4 sek!»</li>
+                                <li>• «1. touch mot mål – ikke stopp opp i press.»</li>
+                                <li>• «Kamufler – innside som skjuler retning.»</li>
+                                <li>• «Innlegg: 5m + straffemerke først!»</li>
+                                <li>• «Avslutt lavt når du har kontroll.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1217,10 +1219,10 @@ export const UEFASeksjon = () => {
                               RBK i angrep 2006–2011 – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-blue-900">
-                              <li>• Poengfangst korrelerer med sjansedifferanse og balanse.</li>
-                              <li>• Eggen/Hamrén: gjennombrudd + kontringsbalanse → høy differanse.</li>
-                              <li>• Jönsson skapte flest sjanser, men lekket bakover – balanse viktig.</li>
-                              <li>• Dødballer og kontringsfokus påvirker både sjansestørrelse og sjanser imot.</li>
+                              <li>• 5 trenerperioder: sjanser for/mot fungerer som «speil» på spillestil og konsekvens.</li>
+                              <li>• Sjanse-differanse (for–mot) er sterk styringsvariabel for poengfangst.</li>
+                              <li>• Tommelfingerregel: &gt;2 poeng/kamp ≈ skape ca. 2x så mange sjanser som man slipper til.</li>
+                              <li>• Spillestil måles i angrepstype (kontring/etablert/dødball) og i «def i off» (balanse/restforsvar).</li>
                             </ul>
                           </div>
 
@@ -1231,9 +1233,9 @@ export const UEFASeksjon = () => {
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Poeng pr. kamp: Eggen 2,4 / Hamrén 2,1.</li>
-                                <li>• Sjanser pr. kamp: Eggen 9,5 / Jönsson 9,7 (Henriksen 6,1).</li>
-                                <li>• Sjanser mot pr. kamp: Hamrén 4,0 / Jönsson 5,7.</li>
-                                <li>• Kontringsandel (RBK-sjanser): Hamrén 25,5 % → Eggen 30,3 %.</li>
+                                <li>• Sjanser for pr. kamp: Tørum 8,4 / Henriksen 6,1 / Hamrén 8,1 / Eggen 9,5 / Jönsson 9,7.</li>
+                                <li>• Sjanser mot pr. kamp: Tørum 5,9 / Henriksen 3,8 / Hamrén 4,0 / Eggen 4,4 / Jönsson 5,7.</li>
+                                <li>• Store sjanser pr. kamp: Hamrén 1,9 → Jönsson 2,7 (Eggen 2,6).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1241,10 +1243,10 @@ export const UEFASeksjon = () => {
                                 Fokusområder
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Sjanser for/mot: høyere differanse gir flere poeng over tid.</li>
-                                <li>• Tommelfingerregel i materialet: over 2 poeng pr. kamp krever ofte omtrent dobbelt så mange sjanser som man slipper til.</li>
-                                <li>• Angrepstype påvirker balanse: mer kontringer kan gi mer begge veier.</li>
-                                <li>• Koble tall til video: hvilke valg i etablert vs. kontring gir sjanser?</li>
+                                <li>• Styr etter diff: mål «8–10 sjanser for + maks ~4 mot» (praktisk kampmål).</li>
+                                <li>• «Def i off»: angrip samlet og vær klare til gjenvinning/restforsvar ved balltap.</li>
+                                <li>• Stil-kontrakt: Hamrén-modus (kontroll/lav risiko) vs Eggen-modus (mer gjennombrudd/kontring).</li>
+                                <li>• Kvalitet &gt; volum: tren «rene» store sjanser, ikke bare mange avslutninger.</li>
                               </ul>
                             </div>
                           </div>
@@ -1255,10 +1257,9 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                              <li>• Avklar hvilke angrepstyper dere ønsker å prioritere (etablert/kontring/dødball) og hva det betyr for balanse.</li>
-                              <li>• Avklar presshøyde (press eller fall) før kampstart.</li>
-                              <li>• Loggfør sjanser for/mot og sjansetype – bruk video i etterkant.</li>
-                              <li>• Evaluer hvilke situasjoner som gir sjanser mot (kontring vs. etablert forsvar).</li>
+                                <li>• Bestem kamp-klima: Eggen-modus (mer framover) eller Hamrén-modus (kontroll + def i off).</li>
+                                <li>• Restforsvar-regel i siste tredjedel: minimum 3+2 igjen (praktisk startpunkt).</li>
+                                <li>• Overgangsregler: ved ubalanse → kontring; ellers sikre og etablere kontroll.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1266,10 +1267,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Press eller fall – ikke bli halvhjertet».</li>
-                                <li>• «Finn tredje spiller før siste pas».</li>
-                                <li>• «Restforsvar på plass før vi overbelaster».</li>
-                                <li>• «Tallene må eies – koble KPI → video etter kamp».</li>
+                                <li>• «Diff! Vi skal skape dobbelt så mange som vi slipper til.»</li>
+                                <li>• «Def i off! Angrip samlet – vær klare til å vinne igjen.»</li>
+                                <li>• «Når vi mister: nærmeste trykker, resten sikrer midten.»</li>
+                                <li>• «Ikke jag skudd – jag STORE sjanser.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1298,10 +1299,10 @@ export const UEFASeksjon = () => {
                               Hurtig og kontrollert angrep – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-emerald-900">
-                              <li>• Mål-angrep: følg tid og antall pasninger (knytt til scoringer/sjanser).</li>
-                              <li>• Mange mål kommer innen få pasninger (opp mot ca. 65% innen maks 4 pasninger).</li>
-                              <li>• Samtidig kommer mange mål etter lengre enn 10 sekunder (ca. 60%+).</li>
-                              <li>• Direkte angrep (maks 5 trekk) har hovedvekt (ca. 60/40), men begge uttrykk må beherskes.</li>
+                              <li>• Ca. 65% av mål kommer etter ≤4 pasninger, men 60%+ kommer etter &gt;10 sek (få pasninger ≠ alltid superkort tid).</li>
+                              <li>• Direkte angrep dominerer i forkant av mål: ca. 60–40 i favør direkte (≤5 pasninger).</li>
+                              <li>• Behersk begge gir: direkte når ubalanse/rom er der – ellers sikre og bygge kontrollert.</li>
+                              <li>• Flytt bruddsonen opp: internasjonalt kommer flere målangrep fra brudd i 2/4–3/4 (kortere avstander → bedre gjenvinning).</li>
                             </ul>
                           </div>
 
@@ -1311,10 +1312,10 @@ export const UEFASeksjon = () => {
                                 KPI-er
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Snitt trekk før mål: ≈ 5,5.</li>
-                                <li>• Mål innen maks 4 pasninger: opp mot ca. 65%.</li>
-                                <li>• Mål etter lengre enn 10 sek: ca. 60%+.</li>
-                                <li>• Direkte angrep (maks 5 trekk): ca. 60/40 i favør direkte.</li>
+                                <li>• Andel mål/sjanser fra ≤4 pasninger (ca. 65% i materialet).</li>
+                                <li>• Direkte-andel i forkant av mål/sjanse: ca. 60–70% retningsverdi.</li>
+                                <li>• Angrep som ender i sjanse innen 10–16 sek (men vær obs: mye skjer også etter 16+ sek).</li>
+                                <li>• Brudd i 2/4–3/4 som fører til sjanse/mål (mål: øke over tid).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1322,10 +1323,10 @@ export const UEFASeksjon = () => {
                                 Fokusområder
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Mål-angrep: vurder tid og pasningsantall (knytt til scoring).</li>
-                                <li>• Direkte vs. possession: velg riktig uttrykk i kamp.</li>
-                                <li>• Bruddhøyde: se hvor i banen ballvinningene som leder til mål skjer.</li>
-                                <li>• Korte vs. lengre angrep: tren og evaluer begge.</li>
+                                <li>• Velg riktig etter brudd: direkte når ubalanse – sikre når ikke.</li>
+                                <li>• Tren på å fullføre overgang (ikke gi «kontring på egen kontring»).</li>
+                                <li>• Bygg vaner som flytter bruddsonen til 2/4–3/4 (kortere avstander + kollektivt trykk).</li>
+                                <li>• Forstå «hurtig»: ofte få pasninger, men ikke nødvendigvis &lt;10 sek.</li>
                               </ul>
                             </div>
                           </div>
@@ -1336,10 +1337,9 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Avklar når laget skal angripe direkte vs. etablere mer kontroll.</li>
-                                <li>• Lag en enkel logg: tid og antall pasninger på målangrep/sjanser.</li>
-                                <li>• Evaluer bruddhøyde og hva som skjer rett etter ballvinning.</li>
-                                <li>• Bruk funnene til å justere kampplan og trening.</li>
+                                <li>• Avklar «valg etter brudd»-regel: ubalanse + støtte + løpskraft → direkte og fullfør; ellers sikre og bygg nytt.</li>
+                                <li>• Definer press-/gjenvinningsambisjon: vil dere oftere vinne ball i 2/4–3/4, må avstander og kollektivt trykk opp.</li>
+                                <li>• Sett 2–3 kamp-KPIer: direkte-andel, brudd i 2/4–3/4, og avslutninger etter 10–16+ sek (tålmodighet).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1347,10 +1347,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Tell trekk og tid – gjør det konkret.»</li>
-                                <li>• «Velg: direkte nå, eller etabler og kontroller.»</li>
-                                <li>• «Koble tall til video – lær av sekvensene.»</li>
-                                <li>• «Ikke jag korte angrep som mål i seg selv.»</li>
+                                <li>• «Se ubalanse først: kan vi gå nå – eller må vi sikre?»</li>
+                                <li>• «Når vi går, så går vi fullt: framover, støtte, boks.»</li>
+                                <li>• «Kort avstand ved balltap – vinn neste ball i midtsonen.»</li>
+                                <li>• «Direkte ≠ hastverk: få pasninger, men riktig timing.»</li>
                               </ul>
                             </div>
                           </div>

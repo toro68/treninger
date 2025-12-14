@@ -19,204 +19,103 @@
 
 ---
 
-## 2. Sammendrag
+## 2. Hva analysen viser (tall som er nyttige i praksis)
 
-Fredriksen analyserte 418 scoringer fra 234 kamper (Rosenborg, Strømsgodset, Vålerenga, Bayern, Dortmund, Barcelona) for å se hvordan tid, pasningsantall og hvor i banen bruddene som leder til mål kommer påvirker angrepsspill. Funnene peker på at forskjellene mellom lagene i stor grad er små, men at norske lag har en overvekt av svært korte angrep (maks 2 pasninger før mål). Samtidig rapporteres både en hovedvekt av direkte angrep (maks 5 trekk; ca. 60/40) og at mange mål kommer innen få pasninger (opp mot ca. 65% innen maks 4 pasninger), mens ca. 60%+ kommer etter lengre enn 10 sekunder.
-
----
-
-## 3. Nøkkeltall og KPI-er
-
-| KPI | Referanseverdi | Kilde |
-|-----|----------------|-------|
-| Andel scoringer ≤4 pas (nasjonalt vs internasjonalt) | 63,9 % vs 54,4 % | Kap. 6.1 tabell «Scoring før eller etter 4 pasninger» |
-| Andel scoringer <10 sek | 37,4 % (nasj.) vs 37,3 % (int.) | Kap. 6.1 tabell «Scoring før eller etter 10 sekunder» |
-| Bruddsoner (nasj.) | 1/4: 30,18 %, 2/4: 24,44 %, 3/4: 29,75 %, 4/4: 14,78 % | Tabell «Brudd i banens 4 etasjer – nasjonalt» |
-| Bruddsoner (int.) | 1/4: 17,05 %, 2/4: 33,21 %, 3/4: 35,55 %, 4/4: 15,04 % | Samme tabell |
-| Snitt pasninger før mål | 4,78–6,07 (RBK lavest, Bayern høyest) | Kap. 5.1.2 tabell «Snitt på pasninger før mål» |
-| Snitt tid før mål | 11,3–18,1 sek (RBK lavest, Dortmund høyest) | Kap. 5.1.1 tabell «Snitt tid før mål» |
+- **Ca. 65 % av alle mål** kommer etter **maks 4 pasninger**, men **60 %+** av målene kommer etter **mer enn 10 sekunder** (altså: ofte *få pasninger*, men ikke nødvendigvis *superkort tid*).
+- **Direkte angrep dominerer** i forkant av mål: ca. **60–40** i favør **direkte** (definert som **≤5 pasninger**).
+- **Snitt pasninger før mål** ligger rundt **5–6** (Strømsgodset 5,89 / RBK 4,775 / VIF 5,82 / Dortmund 5,65 / Bayern 6,07 / Barca 5,47).
+- **Tid før mål (snitt)**: RBK **11,305 s**, Strømsgodset **13,55 s**, Bayern **13,36 s**, Barca **12,88 s**, Dortmund **18,05 s**.
+- **Hvor bruddene skjer (4 etasjer):** Nasjonalt kommer flere målgivende brudd **lavt (1/4 = 30,18%)**, mens internasjonalt ligger hovedvekten **høyere (2/4+3/4 = 33,21% + 35,55% = 68,76%)**.
+- **Direkte vs possession i forkant av mål (eksempler):** Strømsgodset **63,46%** direkte, RBK **74,29%**, Bayern **67,95%**, Barca **62,75%**.
 
 ---
 
-## 4. Prinsipper og konsepter
+## 3. Hovedprinsipper (spillestil)
 
-### 4.1 Hovedprinsipper
-- **Dobbel modell:** Funnene peker på at lag må beherske både direkte gjennombrudd (≤5 pas) og lengre sekvenser (>10 sek).
-- **Bruddhøyde styrer beslutning:** Brudd i 2./3. etasje skal umiddelbart true bakrom; brudd lavt krever struktur før hurtig gjennombrudd.
-- **Defensiv i offensiv fase:** Ballvinner + to nærmeste må gå i 3-manns-press for å hindre motangrep hvis førstevalget ikke lykkes.
-
-### 4.2 Fasemodell
-- **Fase 1 – Ballvinning/Press:** Definer presshøyde (høy/lav) og hvem som er signalspiller for utløsning.
-- **Fase 2 – Førstevalg:** Velg løsning som gir mest rom og størst sannsynlighet for å lykkes.
-- **Fase 3 – Gjennomføring/Etablering:** Hvis direkte gjennombrudd ikke er der, etabler kontroll og planlegg nytt forsøk.
+- **Behersk begge gir:** gå **direkte** når ubalanse/rom er der – men kunne **sikre og bygge** når det ikke er “gratis”.
+- **Seleksjon = kvalitet:** ikke “kontring for enhver pris” – velg de beste overgangene og **fullfør når du først går**.
+- **Vinn ball høyere med kortere avstander:** internasjonale lag får flere målangrep fra brudd i **2/4–3/4**, som henger sammen med bedre mulighet til å presse/gjenvinne i midtbaneleddet.
 
 ---
 
-## 5. Øvelser for treningsdelen (UEFA-knapp)
+## 4. Kampdimensjon → KPI (enkle måltall)
 
-### Øvelse 1: Brudd i midtetasje → rask avslutning
+### 4.1 Angrep (output)
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A12-01 |
-| **Kategori** | Overgang angrep |
-| **Spillere** | 16 (Gk+7v7+Gk) |
-| **Bane** | 50 x 40 m delt i tre etasjer |
-| **Format** | Gk+7v7+Gk |
-| **Formasjon** | 1-4-3-3 speil |
-| **Utstyr** | 2 mål, kjegler for etasjedeling, stoppeklokke |
-| **Varighet** | 4 x 4 min |
-| **Intensitet** | Høy |
+- Andel mål/sjanser fra **≤4 pasninger** (målsetting: *høy andel når vi faktisk har ubalanse*).
+- **Direkte-andel** i forkant av sjanse/mål (retningsverdi: ca. **60–70%** i materialet).
 
-**Organisering:**
-- Lag A starter i midtetasje (2./3.), lag B bygger opp fra keeper.
-- Brudd i midtetasje gir umiddelbar overgang mot avslutning.
+### 4.2 Overganger (prosess)
 
-**Regler/Constraints:**
-1. Brudd utenfor midtetasje = ball til motstander (trener for ønsket sone).
-2. Ballvinner bruker første pasning framover (bakrom eller rettvendt mellomrom).
+- Andel angrep som ender i sjanse innen **10–16 sek** (vær obs: mye mål kommer også etter **16+ sek**).
 
-**Coaching points:**
-- Nærmeste spillere reagerer raskt etter brudd (støtte og bevegelse).
-- Spiss/vinger koordinerer bakromsløp, indreløper følger for cut-back.
+### 4.3 Gjenvinning / bruddsoner
 
-**Progresjon:**
-- Enklere: gi mer tid/areal.
-- Vanskeligere: strammere areal eller flere constraints på støttevinkler.
+- Brudd som fører til sjanse/mål i **2/4–3/4** (mål: øke denne andelen over tid).
 
 ---
 
-### Øvelse 2: Kontrollfase → gjennombrudd etter flere pasninger
+## 5. Kampplan (MatchPrep)
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A12-02 |
-| **Kategori** | Etablert angrep |
-| **Spillere** | 18 (Gk+8v8+2 jokere) |
-| **Bane** | 60 x 45 m med markert mellomromssone |
-| **Format** | Gk+8v8+Gk med to nøytrale sentrale midtbaner |
-| **Formasjon** | 1-4-3-3 mot 1-4-1-4-1 |
-| **Utstyr** | 2 mål, kjegler for soner, tellebrikker |
-| **Varighet** | 3 x 6 min |
-| **Intensitet** | Medium-høy |
-
-**Organisering:**
-- Angripende lag bygger et etablert angrep før de forsøker gjennombrudd i siste tredel.
-- Jokere (6-ere) spiller for ballbesittende lag.
-
-**Regler/Constraints:**
-1. Etter etablert spill: søk linjebrytende pasning (inn i mellomrom eller bakrom) når muligheten er der.
-2. Ved balltap: jobb for å vinne tilbake eller stoppe overgang.
-
-**Coaching points:**
-- Sentral midtbane orienterer før mottak, vender ut av press.
-- Indreløpere avstemmer løp og støtte for å skape rom og timing.
-
-**Progresjon:**
-- Enklere: større areal eller færre forsvarere.
-- Vanskeligere: mindre areal eller flere betingelser.
+- **Avklar “valg etter brudd”-regelen** for laget:
+  - *Ubalanse + støtte + løpskraft?* → **direkte og fullfør** (angrip boksen).
+  - *Ingen støtte/risiko for kontring på kontring?* → **sikre først, bygg nytt**.
+- **Definer press-/gjenvinningsambisjon i kampen:** vil vi oftere vinne ball i **2/4–3/4** (mer internasjonal profil), må avstander og kollektivt trykk opp.
+- **Sett 2–3 kamp-KPIer**: (1) direkte-andel i målangrep, (2) sjanser etter brudd i 2/4–3/4, (3) avslutninger etter 10–16+ sek (tålmodighet).
 
 ---
 
-## 6. Kampplanintegrasjon (MatchPrep)
+## 6. Coaching cues (enkle, repeterbare)
 
-### 6.1 Fokuspunkter (MatchPrep-komponenten)
-
-```javascript
-{
-  id: "a12-brudd-hoyde",
-  text: "Pressplan: styr brudd til 2./3. etasje – spiss låser keeper, vinger tar back, indreløper støter"
-},
-{
-  id: "a12-bakrom-prio",
-  text: "Ballvinning høyt: første pasning bak linje eller i fot på rettvendt mellomrom"
-},
-{
-  id: "a12-balanse-3plus2",
-  text: "Angrep: avklar restforsvar og sikring før mange støter fram"
-},
-{
-  id: "a12-tempo-switch",
-  text: "Når bakrom er stengt: ro ned, etabler kontroll og finn nytt gjennombrudd"
-},
-{
-  id: "a12-motpress",
-  text: "Etter balltap: tre nærmeste inn i raskt motpress for å vinne/stoppe overgang"
-}
-```
-
-### 6.2 Motstander-analyse
-- Kartlegg hvilke soner motstanderen ofte mister ball; legg pressfeller der.
-- Evaluer om motstanderen tåler høyt press (frispillingskompetanse) for å bestemme startpresshøyde.
-- Notér om de har to sittende midtbaner (vanskelig å slå direkte igjennom) → planlegg flere linjebrytende pasninger.
-
-### 6.3 Rollebeskrivelse (Roles)
-- **Sentral midtbane:** Orienter før mottak, første pasning vertikal når laget er i ubalanse; fall ned for å sikre restforsvar.
-- **Indreløpere:** Én støter i mellomrom/bakrom når brudd skjer, makker sikrer bak ball. Ruller per kampplan.
-- **Vingere/Spisser:** Alltid bakromstrussel ved høye brudd; ved lavt brudd – hold ball, vent på støtte, tving forsvar ut av posisjon. Sett én bakroms- og én fotspiss.
-- **Stoppere:** Ved brudd, slå kontrollert frem til rettvendt midtbane; ved tap, styre laget inn i medium blokk.
-
-### 6.4 Ukentlig øktplan
-
-| Dag | Fokus | Øvelse/Format |
-|-----|-------|---------------|
-| MD-3 | Bruddhøyde + tempo | UEFA-A12-01 (brudd i 3. etasje) |
-| MD-2 | Overgang | 6v6+Gk, fokus på raske valg etter brudd |
-| MD-1 | Kontrollfase | 10v10 possession, fokus på å etablere før gjennombrudd |
-
-### 6.5 Live banekant-feedback
-
-Bruk tallene som sanntids-feedback under kamp:
-- «Vi har 2 raske scoringer – nå inn i kontrollmodus»
-- «Bruddene skjer for lavt – flytt presset opp»
-- «Vi mister balanse – hold igjen én indreløper"
+- «**Se ubalanse først**: kan vi gå nå – eller må vi sikre?»
+- «**Når vi går, så går vi fullt**: framover, støtte, boks.»
+- «**Kort avstand ved balltap** – vinn neste ball i midtsonen.»
+- «**Direkte ≠ hastverk**: få pasninger, men riktig timing.»
 
 ---
 
-## 7. Evaluering (PostMatch)
+## 7. Angrepsmodus (praktisk “bryter” i kamp)
 
-### 7.1 Kvalitative spørsmål
-- Lyktes vi med ønsket bruddhøyde, eller ble vi tvunget lavt?
-- Vurderte spillerne tempo (direkte vs kontroll) riktig etter brudd?
-- Fikk vi 3-manns-reaksjon etter balltap?
+### 7.1 Direkte modus (≤5 pasninger)
 
-### 7.2 Logging per scoring
+- Bruk når motstander er i ubalanse, eller ved brudd der vi kan true før de organiserer seg.
 
-| Scoring # | Bruddsone (1-4) | Pasninger | Tid (sek) | 3-manns motpress? |
-|-----------|-----------------|-----------|-----------|-------------------|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+### 7.2 Kontrollert modus (6+ pasninger)
 
-### 7.3 Kvantitative mål
-
-| Indikator | Mål | Oppnådd |
-|-----------|-----|---------|
-| Bruddhøyde | Loggfør hvor brudd som leder til sjanse oppstår | |
-| Pasninger før scoring/sjanse | Loggfør og sammenlign over tid | |
-| Tid før scoring/sjanse | Loggfør og sammenlign over tid | |
-| 3-manns motpress etter balltap | Loggfør om motpress ble forsøkt og om det ga effekt | |
+- Bruk når motstander rekker å sette blokk, eller vi mangler støtte rundt ball.
+- Målet er fortsatt gjennombrudd, men via bedre posisjonering/timing.
 
 ---
 
-## 8. Coaching Tips
+## 8. Læringsmomenter (kan kopieres rett inn i MatchPrep)
 
-- **Cue:** «Ballvinner bestemmer tempo – se klima før pasning.»
-- **Cue:** «Vurder når direkte er best, og når vi bør etablere kontroll.»
-- **Ikke:** Tillat halvhøyt press der laget blir langt og mister 3-manns-reaksjon.
+- Velg riktig etter brudd: **direkte når ubalanse**, sikre når ikke.
+- Tren på å **fullføre overgang** (ikke gi “kontring på egen kontring”).
+- Bygg vaner som gjør at dere vinner flere baller i **2/4–3/4**.
+- Forstå at “hurtig angrep” ofte handler om **få pasninger**, ikke nødvendigvis <10 sek.
 
 ---
 
-## 9. Implementeringsstatus
+## 9. Øvelser (direkte overførbart)
 
-| Komponent | Status | Merknad |
-|-----------|--------|---------|
-| Øvelser (exercises.ts) | ⬜ Ikke startet | Øvelser A12-01 og A12-02 klare for bygging |
-| MatchPrep fokuspunkter | ⬜ Ikke startet | 5 nye focusItems |
-| Roles | ⬜ Ikke startet | Oppgaver for sentral midtbane, indreløpere, vingere/spiss, stoppere |
-| CoachingTips | ⬜ Ikke startet | Cue-sett for tempo og balanse |
-| MD-2/MD-1 øktplan | ⬜ Ikke startet | 3-dagers struktur definert |
-| Banekant-feedback | ⬜ Ikke startet | Live-cues for tempo og balanse |
+1) **7v7+GK – “valg etter brudd”**
+
+- Etter ballvinning: laget må *på 2 sek* velge **Direkte** eller **Sikre** (trener teller kvalitet på valg + om de faktisk fullfører).
+- Knytt til målet om direkte-andel/seleksjon.
+
+2) **10v10/11v11 – “direkte, men med restforsvar”**
+
+- Regel: når ball er i siste tredjedel må dere alltid ha **min. 3+2 i sikring**.
+- Poeng for sjanse etter brudd/overgang, minus for kontring mot (hindrer “Hawaii”).
+
+3) **Posisjonsspill med bruddsone (2/4–3/4)**
+
+- Lag poeng for brudd i 2/4–3/4 og for avslutning etter 3–6 pasninger.
+- Målet er å flytte bruddsonen opp og skape flere angrep fra midtpress.
+
+---
+
+**Fullversjon:** *A12-anders-fredriksen-angrepsspill.pdf* (Hurtig og kontrollert angrepsspill – angrepene som avgjør fotballkamper).
 
 ---
 

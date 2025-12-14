@@ -1,4 +1,4 @@
-# A10 – Vingerrollen: implicit læring fra tallene (Hugo Pereira, UEFA A 2015)
+# A10 – Kant/winger: trefase-modell fra kampdata (Hugo Pereira, TFS 2014–2015)
 
 **Analysert etter mal:** `ANALYSE-MAL.md`
 
@@ -21,7 +21,7 @@
 
 ## 2. Sammendrag
 
-Pereira oversetter Toppfotballsenterets VM-2014-data til konkrete treningsbetingelser for vinger. Nøkkeltallene viser at vinger ofte assisterer, slår innlegg og avslutter under tett press (typisk 1–3 m), med kort tid på ball og få touch i avgjørende øyeblikk. Rapporten anbefaler non-lineær pedagogikk: manipuler baner, regler, soner og touch for å trigge ønskede handlinger fremfor å instruere hvert steg.
+Pereira bruker kampdata til å definere *hva som faktisk skjer* når kantspillere skaper mål (assist/innlegg) og når de scorer selv – og oversetter dette til konkrete treningsbetingelser gjennom en trefase-modell: **før ball → med ball → siste handling**. Materialet peker på kampnære kjennetegn: tett press (ofte 1–3 m), kort tidsvindu (typisk 1–4 sek før assist), og avgjørende aksjoner som i stor grad skjer i **siste tredjedel**. Treningsanbefalingen er non-lineær pedagogikk/implicit læring: bruk constraints (banestørrelse, soner, touch- og poengregler) for å fremprovosere riktige beslutninger under realistisk tid/rom-press.
 
 ---
 
@@ -31,25 +31,38 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til konkrete treningsbeting
 |-----|----------------|-------|
 | Avstand til presser ved assist | 1–3 m i 75 % av situasjonene | Kap. 5.1 (Assist fase 2–3) |
 | Tid med ball før assist | 1–4 sek i 77,7 % av tilfellene | Kap. 5.1 |
-| Touch før assist | 1–3 touch i 60,7 % | Kap. 5.1 |
+| Handlinger før assist | 2-touch i 67 % | Kap. 5.1 |
+| Avstand til nærmeste motstander ved decisive pass | 1–2 m i 89 % | Kap. 5.1 (avgjørende pasning) |
 | Område for avgjørende pasning | Siste tredel i 91 % av tilfellene | Kap. 5.1 |
-| Avstand til presser ved innlegg | 1–3 m (mest 1–2 m) | Kap. 5.2 |
+| Avstand til presser ved innlegg | 1 m (44 %) / 2 m (38 %) | Kap. 5.2 |
 | Touch før innlegg | ≤4 touch i 76 % | Kap. 5.2 |
-| Innleggstype | 1-touch eller etter dribling i 56 % | Kap. 5.2 |
-| Hvem scorer etter innlegg | Spiss 56 %, motsatt ving 31 % | Kap. 5.2 |
+| Hvem scorer etter innlegg | Spiss 56 %, motsatt kant 31 %, midtbane 12 % | Kap. 5.2 |
+| Hvor målene scores etter innlegg | 5 m (≈44 %) + sentralt i 16 m (50 %) | Kap. 5.2 |
 | Avstand til forsvarer ved avslutning | 1–2 m i 84 % | Kap. 5.3 |
 | Scoringsområde | Inne i 16 m i 82 %, lavt skudd 64 % | Kap. 5.3 |
+| Avslutningsteknikk | Innside 47 % / vrist 31 % | Kap. 5.3 |
 
 ---
 
 ## 4. Prinsipper og konsepter
 
 ### 4.1 Hovedprinsipper
-- **Propensity principle:** Design spill som øker sannsynligheten for ønskede vingerhandlinger (mellomromsinngang, bakrom, cut-back).
-- **Implicit læring:** Vis gjennom regler (touch, baner) i stedet for overforklaringer; spilleren oppdager løsningen under press.
-- **Trefase-modell:** Hver hovedhandling (assist, innlegg, scoring) brytes ned i 1) forberedende bevegelse, 2) fra mulighet til realitet, 3) avgjørende aksjon.
-- **Bredde + timing:** Vingen starter bredt, truer bakrom først, skjærer inn når 6-er vender, og leverer på få touch.
-- **Pressrobusthet:** Tren på beslutninger med presser 1–3 m unna og maksimal to-tre touch.
+- **Trefase-modell:** Funnene kan oversettes til trening ved å tenke i 1) *før ball*, 2) *med ball*, 3) *siste handling*.
+- **Propensity principle:** Design spill som øker sannsynligheten for ønskede kant-handlinger (mellomrom, bakrom, cut-back, lav avslutning).
+- **Implicit læring / non-lineær pedagogikk:** Styr gjennom constraints (soner/touch/poeng) fremfor å instruere hvert steg.
+- **Pressrobusthet:** Tren beslutning/utførelse med tett press (ofte 1–3 m) og korte tidsvinduer.
+
+### 4.2 Rollekrav (3 enkle overskrifter)
+- **Før ball – kom rettvendt og kom i scoringsrom**
+  - Tren på å motta vendt mot mål og finne rom i offensiv halvdel (korridor + mellomrom).
+  - La øvelser gi rom for flere løsninger (fremoverløp/bredt/innoverløp) – ikke én fasit.
+- **Med ball – løs under ekstremt tid/rom-press**
+  - Vær oppdatert før 1. touch; kort avstand ball–kropp og kort tid mellom 1. og 2. berøring.
+  - Kamprealitet: ofte 1–4 sek og tett press (1–3 m) → beslutning tas tidlig.
+- **Siste handling – avgjørende pasning / innlegg / avslutning**
+  - Decisive pass: ofte under 1–2 m press og fra siste tredjedel.
+  - Innlegg: tren mot konkrete målrom (5 m + sentralt i boksen) og boksroller.
+  - Avslutning: prioriter lavt og «safe» valg (64 % lavt plassert) – treff kampbildet.
 
 ### 4.2 Fasemodell (eksempel assist)
 - **Fase 1 – Komme på ball:** Spilldesign skal gi vingen mulighet til å komme i posisjon før mottak (bredde/rom), før han må løse situasjonen under press.
@@ -190,25 +203,33 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til konkrete treningsbeting
 ```javascript
 {
   id: "uefa-a10-fokus-orientering",
-  text: "Vinger: orienter før mottak – løsning klar før ball"
+  text: "Før ball: kom rettvendt og kom i scoringsrom (korridor + mellomrom)"
 },
 {
   id: "uefa-a10-fokus-press",
-  text: "Aksepter tett press (ofte 1–3 m) i nøkkelsituasjoner – tren utførelse med lite tid/rom"
+  text: "Med ball: løs under ekstremt tid/rom-press (typisk 1–4 sek, press 1–3 m)"
 },
 {
   id: "uefa-a10-fokus-touch",
-  text: "Knytt touch til valg: få touch og rask beslutning i avgjørende øyeblikk"
+  text: "Oppdatert før 1. touch: kort ball–kropp-avstand og kort tid mellom berøringer"
 },
 {
   id: "uefa-a10-fokus-innlegg",
-  text: "Innlegg: variér 1-touch vs. etter dribling og les relasjoner i boks (spiss/motsatt ving)"
+  text: "Innlegg: tren mot målrom (5 m + sentralt i boksen) og koordiner boksroller (spiss/motsatt kant)"
 },
 {
   id: "uefa-a10-fokus-avslutning",
-  text: "Avslutning: prioriter lavt plasserte skudd og treff mål under press"
+  text: "Avslutning: prioriter lavt plassert skudd inne i boksen – kampnært «safe» valg under press"
 }
 ```
+
+### 7.4 Kampdimensjon → KPI (enkelt å måle)
+- **Assist/skapende:** andel kantaksjoner der du spiller avgjørende innen **≤4 sek**.
+- **Assist/skapende:** antall «kvalitets-assistforsøk» fra **siste tredjedel**.
+- **Innlegg:** andel som treffer «målrom» (**5 m + sentral 16 m**).
+- **Innlegg:** samhandling – hvor ofte **spiss/motsatt kant** er i boks når du slår.
+- **Scoring:** andel avslutninger **inne i boksen** (mål: mot **~80%+**).
+- **Scoring:** andel avslutninger **lavt** (mål: mot **~60%+**).
 
 ### 7.2 Motstander-analyse
 - Kartlegg sidebackens pressmønster og svak fot.
@@ -239,10 +260,11 @@ Pereira oversetter Toppfotballsenterets VM-2014-data til konkrete treningsbeting
 ---
 
 ## 9. Coaching Tips / Trenerveiledning
-- **Cue 1:** «Orienter før mottak – løsningen ligger i rommet.»
-- **Cue 2:** «Tru bakrom før du ber om ball i fot.»
-- **Cue 3:** «Lavt og hardt – spill safe i avslutning.»
-- **Ikke:** «Dribl deg ikke fast i hjørnet».
+- **Cue 1:** «Se før du får den – du har 1–4 sek!»
+- **Cue 2:** «1. touch mot mål – ikke stopp opp i press.»
+- **Cue 3:** «Kamufler – innside som skjuler retning.»
+- **Cue 4:** «Innlegg: 5m + straffemerke først!»
+- **Cue 5:** «Avslutt lavt når du har kontroll.»
 
 ### 9.1 Trenerveiledning
 | Kategori | Gjør dette | Ikke gjør |

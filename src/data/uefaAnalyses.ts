@@ -61,18 +61,13 @@ export type KPI = {
   referanseverdi: string;
   kilde?: string;
 };
-
 export type Fokuspunkt = {
   id: string;
   tekst: string;
-  /** Hvilken rolle dette gjelder spesielt */
   rolle?: Rolle;
 };
 
-/**
- * Referanse til øvelse i øvelsesbanken.
- * Kun kode lagres her – navn/kategori hentes dynamisk fra exercises.ts
- */
+/** Referanse til øvelse i øvelsesbanken. */
 export type OvelsesReferanse = {
   /** Kode som matcher uefa-exercises.ts (f.eks. "uefa-a10-01") */
   kode: string;
@@ -503,30 +498,33 @@ Nøkkeltall (rolleprofil):
   {
     id: "a10-winger",
     kode: "A10",
-    tittel: "Vingerrollen – implicit læring",
+    tittel: "Kant/winger – trefase-modell fra kampdata",
     forfatter: "Hugo Pereira",
-    tema: "Vingerrolle, implicit læring, constraints",
+    tema: "Kant/winger, kampdata, trefase-modell, constraints, implicit læring",
     roller: ["Høyrevinger", "Venstrevinger", "Back"],
     sammendrag:
-      "Pereira bruker VM-2014-data til å konkretisere hvilke betingelser vinger typisk lykkes under når de assisterer, slår innlegg og avslutter. I nøkkelsituasjonene er pressavstanden ofte 1–3 meter, og valg/utførelse skjer på få sekunder og få touch. Poenget i rapporten er å trene dette gjennom constraints (banestørrelse, soner, touchregler og poengsystem) heller enn detaljerte instrukser – slik at beslutning og teknikk utvikles implicit under realistisk press.",
+      "Pereira bruker kampdata til å definere hva som faktisk skjer når kantspillere skaper mål (assist/innlegg) og når de scorer selv – og oversetter funnene til konkrete treningsbetingelser gjennom en trefase-modell (før ball → med ball → siste handling). Nøkkelsituasjonene preges av tett press (ofte 1–3 m), kort tidsvindu (typisk 1–4 sek), og krav om presis utførelse i siste tredjedel. Treningspoenget er å bygge dette via constraints (banestørrelse, soner, touch/poengsystem) slik at beslutning og teknikk utvikles under kampnært tid/rom-press.",
     kpier: [
       { navn: "Presser ved assist", referanseverdi: "1–3 m (75 %)", kilde: "Kap. 5.1" },
       { navn: "Tid før assist", referanseverdi: "1–4 sek (77,7 %)", kilde: "Kap. 5.1" },
-      { navn: "Touch før assist", referanseverdi: "1–3 touch (60,7 %)", kilde: "Kap. 5.1" },
+      { navn: "Handlinger før assist", referanseverdi: "2-touch (67 %)", kilde: "Kap. 5.1" },
+      { navn: "Presser ved decisive pass", referanseverdi: "1–2 m (89 %)", kilde: "Kap. 5.1" },
       { navn: "Område avgjørende pasning", referanseverdi: "Siste tredel (91 %)", kilde: "Kap. 5.1" },
-      { navn: "Presser ved innlegg", referanseverdi: "1–3 m (67 %)", kilde: "Kap. 5.2" },
+      { navn: "Presser ved innlegg", referanseverdi: "1 m (44 %) / 2 m (38 %)", kilde: "Kap. 5.2" },
       { navn: "Touch før innlegg", referanseverdi: "≤4 touch (76 %)", kilde: "Kap. 5.2" },
-      { navn: "Hvem scorer etter innlegg", referanseverdi: "Spiss 56 % / motsatt ving 31 %", kilde: "Kap. 5.2" },
+      { navn: "Hvem scorer etter innlegg", referanseverdi: "Spiss 56 % / motsatt kant 31 % / midtbane 12 %", kilde: "Kap. 5.2" },
+      { navn: "Målrom etter innlegg", referanseverdi: "5 m ≈44 % / sentralt i 16 m 50 % (utenfor 6,3 %)", kilde: "Kap. 5.2" },
       { navn: "Presser ved avslutning", referanseverdi: "1–2 m (84 %)", kilde: "Kap. 5.3" },
       { navn: "Avslutninger i boks", referanseverdi: "82 %", kilde: "Kap. 5.3" },
       { navn: "Skuddplassering", referanseverdi: "Lavt plassert = 64 %", kilde: "Kap. 5.3" },
+      { navn: "Avslutningsteknikk", referanseverdi: "Innside 47 % / vrist 31 %", kilde: "Kap. 5.3" },
     ],
     fokuspunkter: [
-      { id: "uefa-a10-fokus-orientering", tekst: "Orienter før mottak – planlegg løsning før første touch", rolle: "Vinger" },
-      { id: "uefa-a10-fokus-press", tekst: "Aksepter tett press (ofte 1–3 m) i nøkkelsituasjoner – tren på å utføre med lite tid/rom", rolle: "Vinger" },
-      { id: "uefa-a10-fokus-touch", tekst: "Knytt touch til valg: få touch i avgjørende øyeblikk (assist/innlegg/avslutning)", rolle: "Vinger" },
-      { id: "uefa-a10-fokus-innlegg", tekst: "Innlegg: variér mellom 1-touch og innlegg etter dribling – les boks og relasjoner (spiss/motsatt ving)", rolle: "Vinger" },
-      { id: "uefa-a10-fokus-avslutning", tekst: "Avslutning: prioriter lavt plasserte skudd og treff mål under press", rolle: "Vinger" },
+      { id: "uefa-a10-fokus-orientering", tekst: "Før ball: kom rettvendt og kom i scoringsrom (korridor + mellomrom)", rolle: "Vinger" },
+      { id: "uefa-a10-fokus-press", tekst: "Med ball: løs under ekstremt tid/rom-press (typisk 1–4 sek med tett press 1–3 m)", rolle: "Vinger" },
+      { id: "uefa-a10-fokus-touch", tekst: "Oppdatert før 1. touch: kort ball–kropp-avstand og kort tid mellom 1. og 2. berøring", rolle: "Vinger" },
+      { id: "uefa-a10-fokus-innlegg", tekst: "Innlegg: tren mot konkrete målrom (5 m + sentralt i boksen) og koordiner boksroller (spiss/motsatt kant)", rolle: "Vinger" },
+      { id: "uefa-a10-fokus-avslutning", tekst: "Avslutning: prioriter lavt plasserte skudd inne i boksen – kampnært «safe» valg under press", rolle: "Vinger" },
     ],
     ovelser: [
       { kode: "uefa-a10-01" },
@@ -539,19 +537,29 @@ Nøkkeltall (rolleprofil):
     ],
     coachingCues: [
       {
-        kategori: "Orientering",
-        gjor: "Sjekk over skulder før mottak – planlegg løsningen",
-        ikkeGjor: "Ikke motta på hælene uten informasjon",
+        kategori: "Tid/press",
+        gjor: "Se før du får den – du har 1–4 sek",
+        ikkeGjor: "Ikke bruk første touch til å stoppe opp i press",
+      },
+      {
+        kategori: "1. touch",
+        gjor: "1. touch mot mål – sett fart og retning",
+        ikkeGjor: "Ikke ta imot passivt med kroppen bort fra mål",
       },
       {
         kategori: "Innlegg",
-        gjor: "Slå tidlig/cut-back basert på press",
-        ikkeGjor: "Ikke drible deg fast i hjørnet",
+        gjor: "Innlegg: 5 m + straffemerke først – koordiner spiss/motsatt kant",
+        ikkeGjor: "Ikke slå blindt uten boksroller på plass",
+      },
+      {
+        kategori: "Kamuflasje",
+        gjor: "Kamufler retning (innside som skjuler valg) i decisive pass",
+        ikkeGjor: "Ikke vis løsningen for tidlig med kropp og blikk",
       },
       {
         kategori: "Avslutning",
-        gjor: "Plasser lavt og hardt – spill safe",
-        ikkeGjor: "Ikke skyte utenfor mål – treff alltid innen ramma",
+        gjor: "Avslutt lavt når du har kontroll – kampnært «safe»",
+        ikkeGjor: "Ikke tving høyt skudd under tett press hvis lavt alternativ finnes",
       },
     ],
     kildefil: "A10-implicit-winger-analyse-v2.md",
@@ -570,24 +578,75 @@ Nøkkeltall (rolleprofil):
     tema: "Sjansedifferanse, angrepstype og balanse",
     roller: ["Spiss", "Vinger", "Indreløper", "Sentral midtbane", "Back"],
     sammendrag:
-      "Maalen analyserer målsjanser for og mot RBK i Tippeligaen 2006–2011 for å beskrive hvordan ulike trenerregimer gir ulike angrepsprofiler. Funnene peker på en klar sammenheng mellom sjansedifferanse og poengfangst: å skape mange sjanser er viktig, men å slippe til få er avgjørende for stabil poengsanking. Periodene under Eggen og Hamrén skiller seg ut med høy poengfangst, mens Jönsson skaper mye offensivt, men straffes av flere sjanser mot – særlig når laget ligger i etablert forsvar.",
+      "Maalen analyserer målsjanser for og mot RBK i Tippeligaen 2006–2011 og bruker sjanser som et «speil» på spillestil og konsekvens gjennom fem trenerperioder (Tørum, Henriksen, Hamrén, Eggen, Jönsson). Hovedbildet er at poengfangst henger tett sammen med sjansedifferanse: å skape mye hjelper, men å slippe til lite er ofte det som stabiliserer resultatene. Materialet viser også at angrepstype (kontring/etablert/dødball) og «def i off» (offensiv balanse/restforsvar) påvirker både sjansevolum, sjansestørrelse og sjanser imot.",
     kpier: [
-      { navn: "Poeng pr. kamp", referanseverdi: "Eggen 2,4 / Hamrén 2,1", kilde: "Sammendrag" },
-      { navn: "Målsjanser pr. kamp", referanseverdi: "Eggen 9,5 / Jönsson 9,7 (Henriksen 6,1)", kilde: "Sammendrag" },
-      { navn: "Sjanser mot pr. kamp", referanseverdi: "Hamrén 4,0 (Jönsson 5,7)", kilde: "Resultater: Sjanser for og sjanser mot" },
+      {
+        navn: "Sjanser for pr. kamp",
+        referanseverdi: "Tørum 8,4 / Henriksen 6,1 / Hamrén 8,1 / Eggen 9,5 / Jönsson 9,7",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Sjanser mot pr. kamp",
+        referanseverdi: "Tørum 5,9 / Henriksen 3,8 / Hamrén 4,0 / Eggen 4,4 / Jönsson 5,7",
+        kilde: "Nøkkeltall",
+      },
       {
         navn: "Sjansedifferanse → poeng",
-        referanseverdi: ">2 poeng pr. kamp ≈ dobbelt så mange sjanser som man slipper til",
-        kilde: "Resultater: Sjanser for og sjanser mot",
+        referanseverdi: ">2 poeng pr. kamp ≈ skape ca. dobbelt så mange sjanser som man slipper til",
+        kilde: "Nøkkeltall",
       },
-      { navn: "Kontringsandel (RBK-sjanser)", referanseverdi: "Hamrén 25,5 % → Eggen 30,3 %", kilde: "Diskusjon (angrepstype)" },
-      { navn: "Store sjanser", referanseverdi: "Henriksen 33 % (høyest)", kilde: "Diskusjon (store sjanser)" },
+      {
+        navn: "Poeng pr. kamp",
+        referanseverdi: "Eggen 2,4 / Hamrén 2,1",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Sjanseuttelling",
+        referanseverdi: "25,26% / 27,87% / 22,96% / 22,37% / 23,79%",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Volum → effektivitet",
+        referanseverdi: "Flere sjanser → ofte lavere effektivitet (r = -0,84355)",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Volum → mål",
+        referanseverdi: "Flere sjanser henger sammen med flere mål (r = 0,92816)",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Store sjanser pr. kamp",
+        referanseverdi: "Tørum 2,0 / Henriksen 2,0 / Hamrén 1,9 / Eggen 2,6 / Jönsson 2,7",
+        kilde: "Nøkkeltall",
+      },
+      {
+        navn: "Angrepstype (sjanser pr. kamp)",
+        referanseverdi: "Kontring 1,9–2,9 / Etablert 2,9–4,3 / Dødball 1,3–2,9",
+        kilde: "Grafer",
+      },
     ],
     fokuspunkter: [
-      { id: "a11-differanse", tekst: "Styr etter sjansedifferanse (for/mot) – ikke bare mål" },
-      { id: "a11-balanse", tekst: "Velg risikoprofil bevisst: mer gjennombrudd/kontring gir ofte mer begge veier" },
-      { id: "a11-angrepstype", tekst: "Skill på etablerte angrep, kontring og dødball når du evaluerer sjansene" },
-      { id: "a11-defensiv", tekst: "Defensiv trygghet kan øke poengfangst ved å redusere sjanser mot" },
+      {
+        id: "a11-differanse",
+        tekst: "Styr etter sjansedifferanse (for–mot) – målsetting kampplan: 8–10 sjanser for og maks ~4 mot",
+      },
+      {
+        id: "a11-def-i-off",
+        tekst: "Offensiv balanse («def i off») er en angrepsferdighet: angrip samlet og vær klar til gjenvinning/restforsvar",
+      },
+      {
+        id: "a11-stilkontrakt",
+        tekst: "Velg «stil-kontrakt» før kamp: Hamrén-modus (kontroll/etablert/lav risiko) vs Eggen-modus (mer gjennombrudd/kontring)",
+      },
+      {
+        id: "a11-kvalitet",
+        tekst: "Kvalitet > volum i siste tredjedel: mer sjansevolum kan gi lavere uttelling – tren «rene» store sjanser",
+      },
+      {
+        id: "a11-overgang",
+        tekst: "Overgangsregler: etter brudd – kontring ved ubalanse, ellers sikre og etablere kontroll",
+      },
     ],
     ovelser: [
       { kode: "uefa-a11-01" },
@@ -597,9 +656,26 @@ Nøkkeltall (rolleprofil):
       { kode: "uefa-a11-05" },
     ],
     coachingCues: [
-      { kategori: "Måling", gjor: "Loggfør sjanser for/mot og sjansetype over tid", ikkeGjor: "Ikke styr kun etter sluttresultat" },
-      { kategori: "Balanse", gjor: "Avklar når laget skal gå for gjennombrudd vs. sikre restforsvar", ikkeGjor: "Ikke bli halvveis mellom press og fall" },
-      { kategori: "Diskusjon", gjor: "Koble tall til video og konkrete sekvenser", ikkeGjor: "Ikke la KPI-er bli mål i seg selv" },
+      {
+        kategori: "Sjansediff",
+        gjor: "Rop «Diff!» – styr etter sjanser for/mot/diff",
+        ikkeGjor: "Ikke la «vi skaper mye» bli nok hvis du også slipper til mye",
+      },
+      {
+        kategori: "Balanse",
+        gjor: "«Def i off!» – angrip samlet og vær klare til å vinne igjen",
+        ikkeGjor: "Ikke overbelast uten restforsvar",
+      },
+      {
+        kategori: "Balltap",
+        gjor: "«Når vi mister: nærmeste trykker, resten sikrer midten»",
+        ikkeGjor: "Ikke jag ball med mange uten sikring",
+      },
+      {
+        kategori: "Kvalitet",
+        gjor: "«Ikke jag skudd – jag STORE sjanser»",
+        ikkeGjor: "Ikke fyll loggen med lave prosent-skudd bare for volum",
+      },
     ],
     kildefil: "A11-svein-maalen-rbk-angrep-analyse.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
@@ -614,22 +690,73 @@ Nøkkeltall (rolleprofil):
     kode: "A12",
     tittel: "Hurtig og kontrollert angrepsspill",
     forfatter: "Anders Fredriksen",
-    tema: "Angrepsprinsipper og bevegelsesmønster",
+    tema: "Direkte vs kontroll, bruddsoner og seleksjon",
     roller: ["Spiss", "Offensiv midtbane", "Indreløper", "Vinger"],
     sammendrag:
-      "Analyse av målangrep (norsk og internasjonalt) med fokus på tidsbruk, pasningsantall og hvor i banen bruddene som leder til mål kommer. Funnene peker på at forskjellene mellom lagene i stor grad er små, men at norske lag har en overvekt av svært korte angrep (maks 2 pasninger før mål). Samtidig rapporteres både en hovedvekt av direkte angrep (maks 5 trekk; ca. 60/40) og at mange mål kommer innen få pasninger (opp mot ca. 65% innen maks 4 pasninger), mens ca. 60%+ kommer etter lengre enn 10 sekunder.",
+      "Fredriksen viser at «hurtig angrep» ofte betyr få pasninger – men ikke nødvendigvis under 10 sekunder: ca. 65 % av mål kommer etter maks 4 pasninger, samtidig som 60 %+ kommer etter mer enn 10 sekunder. Direkte angrep (≤5 pasninger) dominerer i forkant av mål (ca. 60–40), og snittet ligger rundt 5–6 pasninger. Analysen peker også på at internasjonale lag oftere skaper målangrep etter brudd høyere i banen (2/4–3/4), noe som henger sammen med kortere avstander og bedre mulighet til å presse/gjenvinne. Praktisk handler det om å beherske begge «gir»: gå direkte når ubalanse/rom er der – ellers sikre og bygge, og når dere går, så gå fullt.",
     kpier: [
-      { navn: "Snitt trekk før mål", referanseverdi: "≈ 5,5", kilde: "Sammendrag" },
-      { navn: "Korte angrep (Norge)", referanseverdi: "Overvekt på maks 2 pasninger før mål", kilde: "Sammendrag" },
-      { navn: "Mål innen maks 4 pasninger", referanseverdi: "Opp mot ca. 65%", kilde: "Sammendrag" },
-      { navn: "Mål etter >10 sekunder", referanseverdi: "Ca. 60%+", kilde: "Sammendrag" },
-      { navn: "Direkte angrep (maks 5 trekk)", referanseverdi: "Ca. 60/40 i favør direkte", kilde: "Sammendrag" },
+      {
+        navn: "Mål etter ≤4 pasninger",
+        referanseverdi: "Ca. 65%",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Mål etter >10 sekunder",
+        referanseverdi: "60%+",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Direkte angrep dominerer",
+        referanseverdi: "Ca. 60–40 i favør direkte (≤5 pasninger)",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Snitt pasninger før mål",
+        referanseverdi: "Ca. 5–6 (RBK 4,775 / Strømsgodset 5,89 / VIF 5,82 / Dortmund 5,65 / Bayern 6,07 / Barca 5,47)",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Tid før mål (snitt)",
+        referanseverdi: "RBK 11,305 s / Strømsgodset 13,55 s / Bayern 13,36 s / Barca 12,88 s / Dortmund 18,05 s",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Bruddsoner (nasjonalt)",
+        referanseverdi: "1/4 = 30,18% (flere brudd lavt)",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Bruddsoner (internasjonalt)",
+        referanseverdi: "2/4+3/4 = 68,76% (33,21% + 35,55%)",
+        kilde: "Hva analysen viser",
+      },
+      {
+        navn: "Direkte-andel (eksempler)",
+        referanseverdi: "Strømsgodset 63,46% / RBK 74,29% / Bayern 67,95% / Barca 62,75%",
+        kilde: "Hva analysen viser",
+      },
     ],
     fokuspunkter: [
-      { id: "a12-f1", tekst: "Mål-angrep: vurder tid og pasningsantall (knytt til scoring)" },
-      { id: "a12-f2", tekst: "Direkte vs. possession: behersk begge og velg riktig i kamp" },
-      { id: "a12-f3", tekst: "Bruddhøyde: se hvor i banen ballvinningene som leder til mål skjer" },
-      { id: "a12-f4", tekst: "Korte vs. lengre angrep: mål kan komme både tidlig og etter lengre etablering" },
+      {
+        id: "a12-valg-etter-brudd",
+        tekst: "Avklar «valg etter brudd»-regel: direkte når ubalanse + støtte + løpskraft, ellers sikre først og bygg nytt",
+      },
+      {
+        id: "a12-fullfor",
+        tekst: "Når vi går, så går vi fullt: framover, støtte og boks – unngå «kontring på egen kontring»",
+      },
+      {
+        id: "a12-bruddsoner",
+        tekst: "Flytt bruddsonen opp: øk andel brudd som leder til sjanse/mål i 2/4–3/4 gjennom kortere avstander og kollektivt trykk",
+      },
+      {
+        id: "a12-direkte-ikke-hastverk",
+        tekst: "Direkte ≠ hastverk: få pasninger, men riktig timing og seleksjon (kvalitet i overgangene)",
+      },
+      {
+        id: "a12-10-16-sek",
+        tekst: "Følg kampdimensjon: mål/angrep kommer ofte på få pasninger, men mye skjer også etter 10–16+ sek (tålmodighet)",
+      },
     ],
     ovelser: [
       { kode: "uefa-a12-01" },
@@ -637,14 +764,24 @@ Nøkkeltall (rolleprofil):
     ],
     coachingCues: [
       {
-        kategori: "Måling",
-        gjor: "Loggfør tid og antall pasninger i angrep som ender i mål/sjanse",
-        ikkeGjor: "Ikke trekk bastante konklusjoner fra enkelteksempler",
+        kategori: "Valg",
+        gjor: "Se ubalanse først: kan vi gå nå – eller må vi sikre?",
+        ikkeGjor: "Ikke gå direkte uten støtte/risikovurdering",
       },
       {
-        kategori: "Valg",
-        gjor: "Vurder når direkte angrep er best, og når laget bør etablere mer kontroll",
-        ikkeGjor: "Ikke jag kort angrep som et mål i seg selv",
+        kategori: "Fullfør",
+        gjor: "Når vi går, så går vi fullt: framover, støtte, boks",
+        ikkeGjor: "Ikke stopp opp halvveis og gi motstander kontring på kontring",
+      },
+      {
+        kategori: "Gjenvinning",
+        gjor: "Kort avstand ved balltap – vinn neste ball i midtsonen",
+        ikkeGjor: "Ikke bli langt og spredt etter balltap",
+      },
+      {
+        kategori: "Timing",
+        gjor: "Direkte ≠ hastverk: få pasninger, men riktig timing",
+        ikkeGjor: "Ikke forveksle tempo med stress",
       },
     ],
     kildefil: "A12-anders-fredriksen-angrepsspill-ANALYSE-v2.md",
