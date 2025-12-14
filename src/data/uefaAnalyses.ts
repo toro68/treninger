@@ -1004,12 +1004,12 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     tema: "Siste tre involveringer før sjanse/mål",
     roller: ["Spiss", "Vinger", "Indreløper"],
     sammendrag:
-      "Analyse av Strømsgodsets mål/sjanser i Tippeligaen 2010 viser klar sammenheng mellom få touch og effektivitet: 71 % av avslutningene var på ett touch, 59 % av målgivende pasninger og 46 % av tredjepasninger. Spillerutvikling må derfor eksponere ungdommer for tempo, orientering og presisjon på ett/totouch.",
+      "Analyse av Strømsgodsets mål/sjanser i Tippeligaen 2010 (uten dødballer i touch-registreringen) viser at avslutninger ofte kommer på første/andre berøring: 57 % av målene ble scoret på 1 touch og 14 % på 2 touch (totalt 71 % på 1–2 touch). I fasen før avslutning var målgivende pasning 28 % på 1 touch (28 % på 2 touch), og tredjesistepasset 25 % på 1 touch (14 % på 2 touch). Spillerutvikling må derfor eksponere ungdommer for tempo, orientering og presisjon uten å ofre kvalitet.",
     kpier: [
-      { navn: "Ett-touch avslutning", referanseverdi: "71 %", kilde: "SIF 2010" },
-      { navn: "Ett-touch assist", referanseverdi: "59 %", kilde: "SIF 2010" },
-      { navn: "Ett-touch tredjepas", referanseverdi: "46 %", kilde: "SIF 2010" },
-      { navn: "Kombinasjon ≤1 touch", referanseverdi: "39 %", kilde: "SIF 2010" },
+      { navn: "Avslutning 1 touch (mål, eks dødball)", referanseverdi: "57 % (20 av 35)", kilde: "SIF 2010" },
+      { navn: "Avslutning 1–2 touch (mål, eks dødball)", referanseverdi: "71 %", kilde: "SIF 2010" },
+      { navn: "Målgivende 1 touch (til mål)", referanseverdi: "28 %", kilde: "SIF 2010" },
+      { navn: "Tredjesistepass 1–2 touch (før mål)", referanseverdi: "39 % (25 % + 14 %)", kilde: "SIF 2010" },
     ],
     fokuspunkter: [
       { id: "a20-orientering", tekst: "Orientering før ball – planlegg ett-touch" },
@@ -1117,6 +1117,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       "Øren analyserte alle 13 Champions League-kampene til Atletico Madrid 2015/16. Diego Simeones lag slapp inn kun 8 mål (0,6 per kamp) og 64 målsjanser (4,9 pr kamp) ved å variere mellom høyt press, mellom-/lav blokk og ekstrem sentrums-kompakthet. 69 % av sjansene imot kom i etablert spill, men Atletico lot motstanderen slå innlegg (57 mot Bayern) fordi 3+2-rest og boksdominans håndterte dem. Analyse av kontringer, dødball og gjenvinningspress viser hvorfor Atletico er referansen for organisert 4-4-2-forsvar.",
     kpier: [
       { navn: "Mål imot pr. kamp", referanseverdi: "0,6", kilde: "Kap. 3.1" },
+      { navn: "Mål imot etter innlegg", referanseverdi: "4 av 8", kilde: "Kap. 3.1" },
       { navn: "Målsjanser imot", referanseverdi: "4,9 pr kamp (64 total)", kilde: "Kap. 3.2" },
       { navn: "Sjanser vs etablert", referanseverdi: "69 % (44 av 64)", kilde: "Kap. 3.2" },
       { navn: "Kontringer imot", referanseverdi: "≤7 pr kamp (maks i Benfica-hjemme)", kilde: "Kap. 3.3" },
@@ -1155,7 +1156,6 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       "Nesselquist gjør en kvalitativ kampanalyse av Chelsea 2015/16 for å beskrive hvordan et 4-2-3-1-lag bør organiseres i etablert forsvar. Oppgaven sammenligner Mourinho-årenes kompakte blokk med sesongen der Chelsea kollapset, og peker på tre hovedårsaker: svakere press på ballfører, større rom mellom ledd og feil i innlegg/boksforsvar. Intervjuer med Haakon Lunov og Geir Jordet kobler taktiske valg til mental robusthet. Funnene gir konkrete retningslinjer for høyt press, lav blokk, romprioritering og individuell rolleforståelse.",
     kpier: [
       { navn: "Mål imot (2014/15 vs 2015/16)", referanseverdi: "<1 vs >1", kilde: "Innledning" },
-      { navn: "Innlegg til baklengs", referanseverdi: "4 av 8 baklengs (Atletico-case for sideback)" , kilde: "Drøfting innlegg" },
       { navn: "Press-strip", referanseverdi: "Høyt press første 10 min", kilde: "Kap. høyt press" },
       { navn: "Kompakthet", referanseverdi: "4-4-2 uten ball – 10–12 m fra spiss til stopper", kilde: "Romprioritering" },
     ],

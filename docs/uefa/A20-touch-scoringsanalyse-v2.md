@@ -22,9 +22,10 @@
 ## 2. Sammendrag
 
 Lund analyserte alle scoringer og store sjanser til Strømsgodset i Tippeligaen 2010 for å måle om færre touch gir høyere scoringsrate. Ved å registrere de tre siste involveringene (tredjepas, målgivende pas og avslutter) fant han at:
-- 71 % av målene ble avsluttet på ett touch, og 24 % på to touch. 
-- 59 % av målgivende pasninger ble slått på ett touch.
-- 46 % av tredjepass ble spilt på ett touch.
+- 57 % av målene (uten dødballer) ble avsluttet på ett touch, og 14 % på to touch.
+- Totalt ble 71 % av målene scoret på 1–2 touch.
+- For målgivende pasning til scoring var 28 % på ett touch (og 28 % på to touch).
+- For tredjesistepasset før scoring var 25 % på ett touch (og 14 % på to touch).
 - Det finnes tydelig sammenheng mellom få touch og effektivitet, men presisjon og beslutning må ikke ofres.
 Oppgaven reiser viktige spørsmål for spillerutvikling: hvilke ferdigheter krever “få touch”-spill, og hvordan trener man spillere til å håndtere tempoet? Lund konkluderer med at unge spillere må eksponeres for situasjoner der de må orientere seg, ta avgjørelser raskt og utføre på første/andre touch, uten å kompromittere kvaliteten.
 
@@ -34,11 +35,11 @@ Oppgaven reiser viktige spørsmål for spillerutvikling: hvilke ferdigheter krev
 
 | KPI | Tall (SIF 2010) | Kommentar |
 |-----|-----------------|-----------|
-| Ett-touch avslutninger | 71 % av mål | Viser behov for orientering + teknikk |
-| To-touch avslutninger | 24 % | Rest 5 % ≥3 touch |
-| Ett-touch målgivende | 59 % | Pasningskvalitet/posisjonering |
-| Ett-touch tredjepas | 46 % | Viktig for momentum |
-| Ett-touch scoring + målgivende | 39 % | Hele kombinasjonen på maks 1 touch |
+| Ett-touch avslutninger (mål, eks dødball) | 57 % (20 av 35) | Viser behov for orientering + teknikk |
+| To-touch avslutninger (mål, eks dødball) | 14 % | Resterende: 3 touch 9 %, 4 touch 6 %, 5+ touch 14 % |
+| Avslutning 1–2 touch (mål, eks dødball) | 71 % | Oppsummerer 1+2 touch i scoringsfasen |
+| Målgivende 1 touch (til mål) | 28 % | Målgivende til scoring |
+| Tredjesistepass 1–2 touch (før mål) | 39 % (25 % + 14 %) | Tredjesistepass før scoring |
 
 ---
 
