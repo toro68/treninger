@@ -65,7 +65,7 @@ export const UEFASeksjon = () => {
   const [valgtFormasjon, setValgtFormasjon] = useState<UEFAFormation | null>(null);
 
   const formationSvgRef = useRef<HTMLDivElement | null>(null);
-  const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "coaching">("fokus");
+  const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "coaching">("oversikt");
   // aktivFormasjonFane er forberedt for fremtidig bruk i formasjon-faner
   const [, setAktivFormasjonFane] = useState<"oversikt" | "roller" | "prinsipper">("oversikt");
   
@@ -77,7 +77,7 @@ export const UEFASeksjon = () => {
 
   const handleVelgAnalyse = (analyse: UEFAAnalyse) => {
     setValgtAnalyse(analyse);
-    setAktivFane("fokus");
+    setAktivFane("oversikt");
   };
 
   // Håndter klikk på øvelse - naviger til treningssiden og highlight
