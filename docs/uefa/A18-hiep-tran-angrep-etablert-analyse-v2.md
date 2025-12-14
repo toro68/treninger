@@ -19,129 +19,129 @@
 
 ---
 
-## 2. Sammendrag
+## 2. Lav blokk (definisjon i analysen)
 
-Tran analyserte 19 kamper i 2015/2016-sesongen (Rosenborg, Bayern, Barcelona, Varegg) for å identifisere hvilke virkemidler som faktisk skaper ubalanse når motstander ligger lavt. Funn:
-- Alle fire lag velger tålmodig oppbygging og hyppige spillvendinger, men bruken varierer: Bayern vil inn på kant, Barcelona bruker siden for å frigjøre sentrum, Rosenborg kombinerer back–IL–kant, Varegg angriper direkte gjennom midten.
-- Nøkkelvirkemidler: spillvendinger, 1v1-pådrag, overlapp, innlegg og gjenvinning («kontring på kontring»).
-- Stor kvalitetsforskjell gir ulike tempo og antall angrep mot etablert forsvar (Bayern 163, Barca 204, RBK 99, Varegg 191), men prinsippene er de samme.
+Bakre + midtre ledd godt inne på egen halvdel, frontledd fra ca. midtstreken eller lavere.
 
 ---
 
-## 3. Nøkkeltall og KPI-er
+## 3. Nøkkeltall (fra kampanalysene)
 
-| KPI | RBK | Bayern | Barcelona | Varegg |
-|-----|-----|--------|-----------|--------|
-| Antall kamper | 5 | 4 | 5 | 5 |
-| Etablerte angrep | 99 | 163 | 204 | 191 |
-| Vellykkede angrep | 20 | 30 | 37 | 32 |
-| Vending av spill | 114 | 228 | 343 | 93 |
-| Innlegg (totalt) | 24 | 69 | 36 | 37 |
+**Antall etablerte angrep (totalt / snitt pr kamp):**
+RBK **99 / 19,8**, Bayern **163 / 40,75**, Barcelona **204 / 40,80**, Varegg **191 / 38,2**.
 
-(Detaljer i kapittel 5.1–5.4)
+**Antall vellykkede angrep (totalt / snitt pr kamp):**
+RBK **20 / 4,95**, Bayern **30 / 5,43**, Barcelona **37 / 5,53**, Varegg **32 / 5,97**.
+
+**Notat:** RBK har betydelig færre etablerte angrep og beskrives som mer direkte enn topplagene.
 
 ---
 
-## 4. Prinsipper og konsepter
+## 4. Hva som skiller lagene (mønster du kan trene)
 
-### 4.1 Felles virkemidler
-- **Spillvendinger:** flytte motstander, skape 1v1, trette ut lav blokk.
-- **Struktur:** 4-3-3/4-2-3-1 med klare roller (back–IL–kant triangel).
-- **Gjenvinning:** gjenreis angrep med «kontring på kontring».
+### 4.1 Toppnivå = tålmodighet + mange vendinger (men «høyere» i banen)
 
-### 4.2 Lagspesifikke trekk
-- **Rosenborg:** faste løpsmønstre, L-løp, indreløper høy og bred, back over/under. Innlegg + gjenvinning.
-- **Bayern:** ekstrem kantkompetanse, 1v1, innlegg til hodespillere.
-- **Barcelona:** ballkontroll, vende i bakre og høyere ledd, rettvende mellomrom.
-- **Varegg:** direkte sentralt, tålmodighet i norsk bredde kontekst.
+- Topplagene har svært mange etablerte angrep (40+ pr kamp i snitt) sammenliknet med RBK.
+- De bruker **vendinger** for å flytte blokka og skape ubalanse (ikke «vend for å vende»).
 
----
+### 4.2 To «løse opp lav blokk»-veier (velg én hovedprofil)
 
-## 5. Øvelser (UEFA-knapp)
+- **Kant/sidekorridor → innlegg/avslutning:** Bayern har høy andel vellykkede angrep med **vending + innlegg**.
+- **Mellomrom sentralt → gjennombrudd:** Barcelona har flere vellykkede angrep med **gjennombrudd i mellomrom** enn Bayern.
 
-### Øvelse 1: Spillvending til rommet mellom back og stopper
+### 4.3 Pådrag (ballfører) som nøkkel
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A18-01 |
-| **Kategori** | Angrep |
-| **Spillere** | 14–18 |
-| **Bane** | Forslag: ca. 50 x 45 m. Marker gjerne rommet mellom back og stopper som målområde |
-| **Format** | 8v8+Gk (4-3-3 vs 4-4-2) |
-| **Varighet** | 3 x 6 min |
+Prinsipp: når 1. pressledd ikke får reelt trykk, skal ballfører **avansere** for å tvinge 2. ledd til å agere (press/komprimering) og åpne rom.
 
-**Regler:**
-1. Angrep må vende spillet før gjennombrudd.
-2. Mål = 2 poeng hvis pasning går inn i rommet mellom back og stopper etter vending.
+### 4.4 «Varegg-funnet»
 
-**Coaching points:**
-- Tålmodig bearbeiding.
-- Vend lavt og høyt.
-- Kant/back: timing på løp inn i rommet mellom back og stopper.
+Varegg forsøker gjennombrudd i mellomrom **98 ganger på 191 angrep**, og **25 av 32 vellykkede angrep** kommer fra gjennombrudd i mellomrom (= **78 %**).
 
 ---
 
-### Øvelse 2: Gjenvinning i lav blokk
+## 5. Hovedprinsipper (trenbart, rollespesifikt)
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A18-02 |
-| **Kategori** | Gjenvinning |
-| **Spillere** | 12–16 |
-| **Bane** | Forslag: ca. 35 x 35 m (lav blokk-område) |
-| **Format** | 6v6, to småmål |
-| **Varighet** | 4 x 4 min |
+### A) Vending med hensikt
 
-**Regler:**
-- Angripende lag får ny ball når skudd/innlegg blokkeres – mål å vinne ballen raskt tilbake og angripe gjennom sentrum.
+- «Trekk dem over → slå motsatt → angrip rommet som åpnes.»
+- Hvis forflytningen rekker å nøytralisere rommet: **vend igjen** (tving ny flytting).
 
-**Coaching points:**
-- Struktur og balanse i angrep.
-- Første touch framover.
-- Spille på tvers → angripe rommet bak presset.
+### B) Ballfører-pådrag for å åpne mellomrom
+
+- Ballfører må tørre å bære ball for å binde 1F/2F → slipp ball i riktig øyeblikk.
+
+### C) Angrep som tåler balltap (restforsvar + gjenvinning)
+
+- I vellykkede angrep ser vi at **gjenvinning** også er en gjenganger.
+- Struktur i angrep påvirker muligheten til å vinne ball tilbake (sammenheng struktur ↔ gjenvinning).
 
 ---
 
-## 6. MatchPrep-fokus
-```javascript
-{
-  id: "a18-vending",
-  text: "Spillvending før gjennombrudd – flytt lav blokk først"
-},
-{
-  id: "a18-gullsoner",
-  text: "Angrip mellom back og stopper etter vending"
-},
-{
-  id: "a18-sentrum",
-  text: "Bruk side for å rettvende 10/IL i mellomrom"
-},
-{
-  id: "a18-gjenvinning",
-  text: "Kontring på kontring – struktur og balanse i angrep gjør gjenvinning mulig"
-}
-```
+## 6. Kampdimensjon → KPI (enkelt å telle)
+
+Velg 3–5 dere følger fast:
+
+- **Etablerte angrep pr kamp:** mål dere mot **25–40** (nivåtilpasset), toppreferanse ~40+.
+- **Vellykkede angrep pr kamp:** ca. **5–6** er referansen i materialet.
+- **Vendinger totalt / i angrepshalvdel:** indikator på evne til å flytte lav blokk.
+- **Gjennombrudd i mellomrom (forsøk og treff):** bygg kapasitet mot Barca/Varegg-prinsipp.
+- **Pådrag/1v1-aksjoner:** hvor ofte dere setter 2. ledd i valg.
+- **Gjenvinning etter balltap:** antall gjenvinninger (ev. «innen 6–8 sek»).
 
 ---
 
-## 7. Evaluering (valgfritt)
+## 7. Kampplan (MatchPrep)
 
-Mulige indikatorer (tilpass eget lag og nivå):
-- Kvalitet i spillvendinger (timing, presisjon, mottak/videre spill)
-- Om dere klarer å skape rettvendte mottak i mellomrom etter vending
-- Om dere kommer til gjennombrudd på kant/sentrum med god balanse ved balltap
-- Antall og kvalitet på gjenvinninger i fasen rett etter brudd/avskjæring
+### 7.1 Avklar «løsningsprofil» før kamp
+
+- **Bayern-profil:** vend → skap 1v1/2v1 i sidekorridor → innlegg/cut-back.
+- **Barca-profil:** side som lokkemiddel → spill inn til rettvendt i mellomrom → sentralt gjennombrudd.
+
+### 7.2 Triggerkort (enkelt)
+
+- **Trigger for vending:** når blokka er overflyttet og motsatt side er 1v1 / ledig korridor.
+- **Trigger for pådrag:** når 1. pressledd ikke får trykk → ballfører avansér og bind 2. ledd.
+
+### 7.3 Trend-notater (valgfritt i kampidé)
+
+- «Sakte oppbygning» mot lav blokk + «crosspasninger» + mer underlapp.
+- Lave innlegg / «45-graders pasninger (cut-backs)» vektlegges mer.
 
 ---
 
-## 8. CoachingTips
-- **Cue:** «Vend – vurder – slå.»
-- **Cue:** «Back/IL/kant = trekant.»
-- **Cue:** «Bruk sikring → vinn ball.»
-- **Ikke:** «Ikke tving direktepasning hvis balanse.»
+## 8. Coaching cues (korte, repeterbare)
+
+- «**Trekk dem over – slå motsatt – angrip.**»
+- «**Bind 2. ledd med pådrag – slipp i rett øyeblikk.**»
+- «**Rettvendt i mellomrom: spill fram – ikke bare sikkert.**»
+- «**Mister vi ball: vinn den tilbake – hvis ikke, steng sentrum først.**»
 
 ---
 
-*(Tall fra analysene (kap. 5) brukes til KPI-er; juster ved behov for eksakte tall.)*
+## 9. Øvelser (3 korte økter som treffer A18)
 
-*(Tallene over er hentet fra selve oppgaven. Ikke bruk dem som «målkrav» uten å kontekstualisere nivå og kampbilde.)*
+1. **Vending med hensikt (8v8 + 2 jokere)**
+   - Bane: 50x40.
+   - Regel: mål teller bare etter **vending** + angrep innen 8–10 sek.
+   - Coaching: timing på støtte, motsatt back/kant i posisjon før vending.
+
+2. **Pådrag for å åpne mellomrom (7v7 + keepere)**
+   - Regel: poeng når ballfører **binder 2. ledd** (pådrag) og finner rettvendt mottak i mellomrom før avslutning.
+   - Coaching: når 1F ikke får trykk → «gå!» (pådrag), og lær «slipp ballen» i riktig øyeblikk.
+
+3. **Lav blokk-lås opp (11v10 eller 10v10 i siste 2/3)**
+   - Angrep får 2 poeng for: (a) cut-back/45, (b) gjennombrudd i mellomrom, (c) innlegg etter overtall på kant.
+   - Bonus: 1 poeng for gjenvinning innen 6–8 sek etter balltap.
+
+---
+
+## 10. Øvelser i appen
+
+Se appens øvelser for A18 (UEFA-A18-01, UEFA-A18-02 og UEFA-A18-03).
+
+---
+
+## 11. Referanser
+
+- Original oppgave (raw): `docs/uefa/A18-hiep-tran-angrep-etablert.txt`
+- Oppgave-lenke: https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/

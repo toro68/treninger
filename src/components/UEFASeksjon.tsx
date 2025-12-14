@@ -1673,35 +1673,40 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-rose-100 bg-gradient-to-r from-rose-50 via-pink-50 to-amber-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-rose-800">
-                              RBK-spissrollen – signaturkrav
+                              RBK-spissen i 4-3-3 – kjernefunn
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-rose-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• Rollekrav: klokskap/spillforståelse løftes frem av trenerne.</li>
-                                <li>• Oppspillspunkt: kunne brukes feilvendt og binde sammen laget.</li>
+                                <li>• Feilvendt oppspillspunkt + «klokskap»: tydelig oppspillspunkt, god feilvendt – men først og fremst smart.</li>
+                                <li>• Lav prioritet på ren bakromsfart (lavest av ferdighetene; snitt 3,2).</li>
+                                <li>• Tydelige avtaler: arbeidsoppgavene oppleves «veldig tydelige» i etablert og press.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Boks/luft: god i lufta og i boksen + målskårer-egenskaper.</li>
-                                <li>• Pressrolle: steng sentralt og led spillet mot én side.</li>
+                                <li>• Lite behov for langpasningsspiss (ifølge spillersvarene).</li>
+                                <li>• RBK-filter: ikke «bare bakromsjeger» – rollen skal gjøre andre gode.</li>
+                                <li>• Defensivt ansvar: pressleder – steng sentrum og led til avtalt side.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Boks</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Feilvendt</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Avklar rolle og bevegelse i boks ved innlegg.</p>
+                                Lås stopper, vinn første kontakt og spill av på 1–2 touch – kvalitet over volum.
+                              </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Relasjon</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Vær tydelig oppspillspunkt feilvendt og bygg relasjoner (vegg/dyp/tilbake) med IL/kant.</p>
+                                Spill av og utløse tredjemann/ving/8 i neste aksjon (vegg/dyp/tilbake, timing foran ballfører).
+                              </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Press</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Pressleder</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Steng sentralt og led motstanderens spill mot én side.</p>
+                                Steng sentrum → led til side. Spill inn i avtalt felle og vinn ball innen 6–8 sek.
+                              </p>
                             </div>
                           </div>
 
@@ -1709,39 +1714,42 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Evaluer rollekrav: feilvendt/oppspillspunkt, boks/luft og målskårer-egenskaper.</li>
-                                <li>• Evaluer relasjoner: avtaler og timing med IL/kant.</li>
-                                <li>• Evaluer press: stenge sentralt og lede til én side.</li>
+                                <li>• Feilvendt-oppspill: kontroll + avlevering på 1–2 touch.</li>
+                                <li>• Relasjonsutløsning: spill av → tredjemann/ving/8 i neste aksjon.</li>
+                                <li>• Boksbidrag: førstekontakter i boks + løp som skaper rom.</li>
+                                <li>• Pressledelse: tving til avtalt side + ballvinning innen 6–8 sek.</li>
+                                <li>• Avtale-treff: hvor ofte spissen følger kampavtalen i nøkkelsituasjoner.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Rollekrav: spillforståelse/klokskap + tydelig oppspillspunkt feilvendt.</li>
-                                <li>• Relasjoner: avklar møte/strekke, veggspill og dyp/tilbake med IL/kant.</li>
-                                <li>• Boks/luft: bevegelse og rolleavklaring ved innlegg.</li>
-                                <li>• Pressrolle: steng sentralt og led mot én side.</li>
+                                <li>• Angrep: gjør andre gode (spill av + utløse tredjemann).</li>
+                                <li>• Boks: kom deg fri (ikke bare inn) – definerte løp og timing.</li>
+                                <li>• Avtaler: tydelige triggers i etablert (sideback/stopper/6 vender opp/1v1/8 truer/innlegg).</li>
+                                <li>• Press: samme retning i høyt/mellom/lavt press – steng sentrum og led til side.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampplan (MatchPrep)</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: RBK-spiss boksbevegelser (UEFA-A17-01) – avklar rolle ved innlegg.</li>
-                                <li>• Økt 2: Spissrelasjoner 5v4 (UEFA-A17-02) – møte/strekke og vegg/dyp/tilbake.</li>
-                                <li>• Kampdag: se etter tydelighet i avtaler + boksrolle + pressretning.</li>
-                                <li>• Etter kamp: evaluer med 1–6-skala og video der det er mulig.</li>
+                                <li>• Etablert: bygg «avtale-kort» på triggers (sideback/stopper/6 vender opp/1v1 på kant/8 truer rom 2/innlegg).</li>
+                                <li>• Presshøyde-modus: høyt = styrer, mellom = felle, lavt = retning + vær oppspillspunkt ved brudd.</li>
+                                <li>• Økt 1: Feilvendt-oppspill + tredjemann (UEFA-A17-01).</li>
+                                <li>• Økt 2: Innlegg/boksroller (UEFA-A17-02).</li>
+                                <li>• Økt 3: Pressledelse (UEFA-A17-03).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Vær et tydelig oppspillspunkt feilvendt.»</li>
-                                <li>• «Steng sentralt – led til én side.»</li>
-                                <li>• «Avklar rolle før innlegg.»</li>
-                                <li>• «Rollen kan tilpasses, men kjernekrav må være på plass.»</li>
+                                <li>• «Lås stopper – vinn første kontakt – spill av på 1–2 touch.»</li>
+                                <li>• «Vær klok: gjør valgene før du får ball.»</li>
+                                <li>• «Steng sentrum – led til side!»</li>
+                                <li>• «I boks: kom deg fri – ikke bare inn.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1767,35 +1775,38 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-emerald-100 bg-gradient-to-r from-emerald-50 via-teal-50 to-sky-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-800">
-                              Angrep mot lav blokk – signaturgrep
+                              Angrep mot lav blokk – mønster å trene
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-emerald-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• Vending av spill som virkemiddel: RBK 114 (5 kamper), Bayern 228 (4), Barcelona 343 (5), Varegg 93 (5).</li>
-                                <li>• Tålmodig bearbeiding før man forsøker gjennombrudd mot lav blokk.</li>
+                                <li>• Toppnivå: 40+ etablerte angrep pr kamp i snitt (tålmodighet + mange vendinger høyere i banen).</li>
+                                <li>• To veier: sidekorridor → innlegg/cut-back (Bayern) eller rettvendt i mellomrom → sentralt gjennombrudd (Barca/Varegg).</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Gjenvinning rett etter brudd/avskjæring kan gi nye sjanser før motstander reorganiserer seg.</li>
-                                <li>• Back–IL–kant-triangel skaper overlast og fristiller rommet mellom back og stopper.</li>
+                                <li>• Nøkkel: ballfører-pådrag når 1. pressledd ikke får trykk → bind 2. ledd og slipp i rett øyeblikk.</li>
+                                <li>• Struktur i angrep påvirker gjenvinning: «kontring på kontring» hvis dere tåler balltap.</li>
                               </ul>
                             </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-3">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Spillvending</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Vending med hensikt</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Vend lavt → høyt for å flytte blokka og skape bedre vilkår for gjennombrudd.</p>
+                                «Trekk dem over → slå motsatt → angrip rommet». Hvis rommet nøytraliseres: vend igjen.
+                              </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Rom mellom back og stopper</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Pådrag + mellomrom</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Angrip rommet mellom back og stopper etter vending. Kant/back kan bytte høyde, og indreløper kan true mellomrom/bakrom.</p>
+                                Når 1F ikke får trykk: ballfører avansér, bind 2F og finn rettvendt i mellomrom før avslutning.
+                              </p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Gjenvinning</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Restforsvar + gjenvinning</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Etter brudd/avskjæring (og mens motstander reorganiserer seg) kan gjenvinningspress gi ny sjanse – «kontring på kontring».</p>
+                                Angrep må tåle balltap: vinn ballen tilbake (gjerne innen 6–8 sek), hvis ikke – steng sentrum først.
+                              </p>
                             </div>
                           </div>
 
@@ -1803,22 +1814,22 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Etablerte angrep: RBK 99 (5), Bayern 163 (4), Barcelona 204 (5), Varegg 191 (5).</li>
-                                <li>• Vellykkede angrep: RBK 20, Bayern 30, Barcelona 37, Varegg 32.</li>
-                                <li>• Vending av spill: RBK 114, Bayern 228, Barcelona 343, Varegg 93.</li>
-                                <li>• Varegg: 78% (25/32) vellykkede angrep via gjennombrudd i mellomrom.</li>
+                                <li>• Etablerte angrep pr kamp: mål 25–40 (toppref ~40+).</li>
+                                <li>• Vellykkede angrep pr kamp: referanse ~5–6.</li>
+                                <li>• Vendinger totalt / i angrepshalvdel: evne til å flytte lav blokk.</li>
+                                <li>• Gjennombrudd i mellomrom: forsøk + treff (Varegg 78% av vellykkede via mellomrom).</li>
+                                <li>• Pådrag/1v1: hvor ofte dere binder 2. ledd før dere slipper ball.</li>
+                                <li>• Gjenvinning etter balltap (ev. innen 6–8 sek): koble til struktur/balanse.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Vend før gjennombrudd – tving lav blokk til å flytte.</li>
-                                <li>• Bruk siden for å rettvende indreløper/10-eren i mellomrom.</li>
-                                <li>• Back/IL/kant: definer roller (overlapp, underlapp, timing i rom).</li>
-                                <li>• Tempo og kvalitet i vendingen (ballfart + presisjon) avgjør om du får «gratis» meter.</li>
-                                <li>• Fristill ballfører med støtte og avstand – skap 2v1 før du prøver å spille gjennom.</li>
-                                <li>• Etter vending: angrip rommet mellom back og stopper med løp + pasning (ikke bare innlegg).</li>
-                                <li>• Balanse i angrep gjør gjenvinningspress mulig.</li>
+                                <li>• Vending med hensikt: trekk over → slå motsatt → angrip. Hvis null rom: vend igjen.</li>
+                                <li>• Velg kamp-profil: Bayern (sidekorridor → innlegg/cut-back) eller Barca (mellomrom → gjennombrudd).</li>
+                                <li>• Trigger pådrag: når 1F ikke får trykk – ballfører må avansere og binde 2F.</li>
+                                <li>• Mellomrom: rettvendt = spill fram (ikke bare sikkert).</li>
+                                <li>• Struktur/restforsvar: nok sikring til å kunne gjenvinne etter balltap.</li>
                               </ul>
                             </div>
                           </div>
@@ -1827,21 +1838,20 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Spillvending til rom mellom back og stopper (UEFA-A18-01) – valgfritt krav om vending før gjennombrudd.</li>
-                                <li>• Økt 2: Gjenvinning i lav blokk (UEFA-A18-02) – «kontring på kontring».</li>
-                                <li>• Kamp: tell spillvendinger og gjenvinningsmål i sanntid.</li>
-                                <li>• Etter kamp: evaluer kvalitet i leveranser (innlegg vs cut-back) etter vending.</li>
+                                <li>• Avklar løsningsprofil: Bayern (vend → 1v1/2v1 side → innlegg/cut-back) eller Barca (side lokker → rettvendt i mellomrom → gjennombrudd).</li>
+                                <li>• Triggerkort: vending når blokka er overflyttet; pådrag når 1F ikke får trykk.</li>
+                                <li>• Økt 1: Vending med hensikt (UEFA-A18-01).</li>
+                                <li>• Økt 2: Pådrag for å åpne mellomrom (UEFA-A18-02).</li>
+                                <li>• Økt 3: Lav blokk-lås opp (UEFA-A18-03).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Vend – vurder – slå.»</li>
-                                <li>• «Back/IL/kant = trekant, aldri på linje.»</li>
-                                <li>• «Kontring på kontring – balanse klar!»</li>
-                                <li>• «Rettvend 10-eren via siden.»</li>
-                                <li>• «Fri ballfører før du spiller gjennom.»</li>
-                                <li>• «Etter vending: se rommet mellom back og stopper.»</li>
+                                <li>• «Trekk dem over – slå motsatt – angrip.»</li>
+                                <li>• «Bind 2. ledd med pådrag – slipp i rett øyeblikk.»</li>
+                                <li>• «Rettvendt i mellomrom: spill fram – ikke bare sikkert.»</li>
+                                <li>• «Mister vi ball: vinn den tilbake – hvis ikke, steng sentrum først.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1867,16 +1877,16 @@ export const UEFASeksjon = () => {
                         <div className="space-y-4">
                           <div className="rounded-2xl border border-blue-100 bg-gradient-to-r from-blue-50 via-slate-50 to-stone-50 p-4">
                             <p className="text-xs font-semibold uppercase tracking-wide text-blue-800">
-                              Angrep mot lav blokk (KFUM/VIF) – kjernegrep
+                              Angrep mot etablert/delvis etablert (KFUM/VIF) – kjernegrep
                             </p>
                             <div className="mt-2 grid gap-3 text-sm text-blue-900 md:grid-cols-2">
                               <ul className="space-y-1">
-                                <li>• «3 kvaliteter»: sterk 1.angriper, sterk 1.forsvarer, pasningsspiller.</li>
-                                <li>• Kontinuitet over tid skaper relasjoner (KFUM: 14 av 16 i 2008-troppen var fra klubben).</li>
+                                <li>• Gjennombruddsdyktig, ikke gjennombruddshissig: lov å spille på tvers/bakover for å vente på «grønt lys».</li>
+                                <li>• VIF-definisjon: gjenvinner dere innen 5 sek etter balltap, er dere fortsatt i etablert angrep.</li>
                               </ul>
                               <ul className="space-y-1">
-                                <li>• Tålmodig ballbesittelse – la ballen gjøre jobben før gjennombrudd.</li>
-                                <li>• Relasjonelle triangler (back–IL–kant) før siste pas.</li>
+                                <li>• Bruk vending som låse-opp: flytt blokka til den gjør feil – så går dere gjennom.</li>
+                                <li>• KFUM-mønster: mange mål kommer etter 3–5 trekk i fasen.</li>
                               </ul>
                             </div>
                           </div>
@@ -1885,17 +1895,17 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Tålmodighet</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Ballen skal jobbe: flytt blokka, ikke tving direktepasning når motstander er i balanse.</p>
+                                Vent – flytt dem – så stikk. Avbryt når motstander er i balanse og bygg nytt angrep.</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Relasjoner</p>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Vending</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Back/IL/kant-triangel, over-/underlapp, hurtig possession i nærrom.</p>
+                                Vend hvis dere ikke har overtall. Bruk keeper/anker som spillpunkt for å «starte på nytt».</p>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Gjenvinning</p>
                               <p className="mt-2 text-sm text-zinc-900">
-                                Gjenvinning kan gi nye angrep mot ubalanse («kontring på kontring»). Balanse i angrep gjør gjenvinningspress mulig.</p>
+                                5 sek: gjenvinn eller fall av. Målet er nytt etablert angrep uten at dere mister struktur.</p>
                             </div>
                           </div>
 
@@ -1904,19 +1914,19 @@ export const UEFASeksjon = () => {
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">KPI-er</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• VIF (2010): 47% av målene fra etablert/delvis etablert, 28% overgang, 25% dødball.</li>
-                                <li>• VIF (2010): 70 mål og 195 sjanser (inkl. mål).</li>
-                                <li>• KFUM (2009–2010): 58 mål mot etablert + delvis etablert (nesten halvparten av målene).</li>
+                                <li>• VM-trend (FIFA i oppgaven): 42,8% etablerte angrep, 27,6% overganger, 29,6% dødball.</li>
+                                <li>• KFUM: flest mål etter 3–5 trekk (0:5, 1:8, 2:5, 3:11, 4:13, 5:9, 6+:7).</li>
+                                <li>• Kamp: tell gjenvinning ≤5 sek (og om det blir nytt etablert angrep).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Fokusområder</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Tålmodig bearbeiding før gjennombrudd.</li>
-                                <li>• Triangelspill back–IL–kant før siste pas.</li>
-                                <li>• 1A/1F-roller definert i alle økter.</li>
-                                <li>• Kontinuitet i stall og roller over tid.</li>
-                                <li>• Skap rettvendt 1A i nærrom (vend, veggspill, tredje mann).</li>
-                                <li>• Vurder vending som «reset» når lav blokk er i balanse – flytt og angrip på nytt.</li>
+                                <li>• Definer «grønt lys» for gjennombrudd (ubalanse, rettvendt mottaker, timet løp).</li>
+                                <li>• 5 faste valg for ballførende stopper (valgkort i MatchPrep).</li>
+                                <li>• Anker = sikkerhet + sidebytte (spillpunkt når dere må starte på nytt).</li>
+                                <li>• Vending som verktøy før gjennombrudd, ikke som nødløsning.</li>
+                                <li>• 5 sek gjenvinningsregel: vinn ballen tilbake eller fall av og steng sentralt.</li>
                               </ul>
                             </div>
                           </div>
@@ -1925,21 +1935,19 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: KFUM nærrom-possession (UEFA-A19-01) – 1A/1F-trening.</li>
-                                <li>• Økt 2: 8v8 mot lav blokk (UEFA-A19-02) – triangel & tålmodighet.</li>
-                                <li>• Kamp: noter hva som skaper gjennombrudd (relasjoner, vending, 1v1, overlapp).</li>
-                                <li>• Etter kamp: evaluer tålmodighet + balanse ved balltap.</li>
+                                <li>• Økt 1: KFUM nærrom-possession (UEFA-A19-01) – tåle press + valg i små rom.</li>
+                                <li>• Økt 2: Spill mot delvis etablert (UEFA-A19-02) – «grønt lys» + 5 sek gjenvinning.</li>
+                                <li>• Kamp: logg (a) 0–1 / 2–3 / 4+ trekk før sjanse, (b) gjenvinning ≤5 sek, (c) hva som ga «grønt lys».</li>
+                                <li>• Etter kamp: evaluer kvaliteten på avbrudd/vendinger og hvor ofte dere tvinger gjennom.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Sterk 1A – ta duellen, behold roen.»</li>
-                                <li>• «Gjenkjenn over/underlapp.»</li>
-                                <li>• «Struktur før fart.»</li>
-                                <li>• «Vinn ballen tilbake når muligheten er der.»</li>
-                                <li>• «Flytt blokka – så stikk.»</li>
-                                <li>• «Siste pasning kommer etter relasjon, ikke før.»</li>
+                                <li>• «Vent – flytt dem – så stikk.»</li>
+                                <li>• «Vend hvis vi ikke har overtall.»</li>
+                                <li>• «5 sek! (gjenvinn eller fall av)»</li>
+                                <li>• «Anker = sikkerhet + sidebytte.»</li>
                               </ul>
                             </div>
                           </div>

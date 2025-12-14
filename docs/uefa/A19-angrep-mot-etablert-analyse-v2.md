@@ -1,4 +1,4 @@
-# A19 – Hva bør vektlegges for å lykkes i angrep mot etablert forsvar? (Ståle Andersen, UEFA A 2011)
+# A19 – Angrep mot etablert/delvis etablert forsvar (Ståle Andersen, UEFA A 2011)
 
 **Analysert etter mal:** `ANALYSE-MAL.md`
 
@@ -14,134 +14,118 @@
 | **Original tittel** | Hva bør vektlegges for å lykkes i angrep mot etablert forsvar? |
 | **Kildefil** | `A19-stale-andersen-angrep-etablert.txt` |
 | **Oppgave-lenke** | <https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/> |
-| **Tema** | Spill mot etablert forsvar (KFUM vs Vålerenga) |
+| **Tema** | Angrep mot etablert/delvis etablert forsvar (KFUM vs Vålerenga) |
 | **Rolle(r)** | Sentral midtbane, Indreløper, Vinger, Spiss |
 
 ---
 
-## 2. Sammendrag
+## 2. Sammendrag (kort)
 
-Andersen beskriver hva som bør vektlegges for å lykkes i angrep mot etablert (og delvis etablert) forsvar, med eksempler fra KFUM (2007–2010) og Vålerenga (2010). Begge miljøene vektlegger ferdigheter i nærrom (1v1/duellkraft og pasningsferdighet), relasjoner (triangler/over- og underlapp) og tydelig struktur i treningsarbeidet. Kontinuitet i spillergruppe trekkes fram som en viktig faktor: Andersen beskriver bl.a. at KFUM i kvalifiseringstroppen i 2008 hadde 14 av 16 spillere fra klubben (aldersbestemt bakgrunn), og at VIF i 2010 i stor grad kunne «kjøre med nesten samme 11er». Resultatdelen inkluderer både fordelingsdata for måltyper (VIF) og mer detaljerte beskrivelser av hvordan KFUMs mål i spill mot etablert/delvis etablert fordeler seg etter antall trekk.
+Oppgaven beskriver hva KFUM (2007–2010) og Vålerenga (2010) vektlegger for å lykkes i angrep mot etablert/delvis etablert forsvar. Kjernen er en tålmodig tilnærming der laget tåler å spille på tvers og bakover for å vente på et «godt nok» gjennombrudd. Andersen skiller mellom å være **gjennombruddshissig** (tvinge) og **gjennombruddsdyktig** (vente, flytte, så stikke). Et sentralt premiss er også hvordan laget definerer fasene: i VIF sin definisjon regnes angrepet fortsatt som «etablert» dersom laget **gjenvinner innen 5 sek** etter balltap og angriper på nytt.
 
 ---
 
-## 3. Nøkkeltall (fra oppgaven)
+## 3. Nøkkeltall (rett fra oppgaven)
 
 | KPI | Referanseverdi | Kilde |
 |-----|----------------|-------|
-| VIF målfordeling (2010) | 47% etablert/delvis, 28% overgang, 25% dødball | Resultatdel |
-| VIF volum (2010) | 70 mål, 195 sjanser (inkl. mål) | Resultatdel |
-| VIF: pasninger før sjanse/mål | 0–5 pasninger: 45%, 6+ pasninger: 55% | Resultatdel |
-| KFUM mål vs etablert/delvis (2009–2010) | 58 mål (nesten halvparten av målene) | Resultatdel |
-| KFUM: trekk før avslutning (for disse 58) | 0:5, 1:8, 2:5, 3:11, 4:13, 5:9, 6+:7 | Resultatdel |
-
-Merk: Oppgaven viser også et eksempel på målfordeling fra VM 2010 (Sør-Afrika) (42,8% etablert, 27,6% overgang, 29,6% dødball), men det er turneringsdata – ikke KFUM-tall.
+| VIF målfordeling (2010) | 47% etablert/delvis etablert, 28% overganger, 25% dødball | Oppgave (resultat) |
+| VM-trend (FIFA-data i oppgaven) | 42,8% etablerte angrep, 27,6% overganger, 29,6% dødball | Oppgave (trend) |
+| KFUM: trekk før scoring (for mål i etablert/delvis) | 0:5, 1:8, 2:5, 3:11, 4:13, 5:9, 6+:7 | Oppgave (KFUM) |
 
 ---
 
-## 4. Prinsipper og konsepter
+## 4. Nøkkelfunn (praktisk treneroversettelse)
 
-### 4.1 Suksessfaktorer (KFUM og Vålerenga)
-
-1. **Individuell kvalitet**: 1. angriper (ballfører) må kunne utfordre i nærrom, og 1. forsvarer må kunne gjenvinne raskt.
-2. **Relasjonell samhandling**: over- og underlapp, triangler, gjentatt trening på kombinasjoner.
-3. **Struktur og kontinuitet**: tydelig system (4-3-3/4-2-3-1), kontinuerlig spillerstall over flere år.
-4. **Kampdimensjon**: Tålmodighet mot lav blokk, balansert risiko, gjenvinning strukturert.
-
-### 4.2 Trening
-
-- Lange angrep, spill i nærrom, situasjonsbaserte økter.
-- Faste retningslinjer: «God 1.angriper – god 1.forsvarer – god pasningsspiller».
+1. **Tålmodighet er et valg – ikke passivitet**
+   - Poenget er ikke å «spille rundt for å spille rundt», men å vente på et gjennombrudd som er godt nok.
+2. **Vending er låse-opp-verktøyet**
+   - Hvis dere ikke har overtall/fordel: vend, flytt, start på nytt.
+3. **Definisjoner styrer vurderingene**
+   - Hvis dere måler «etablert angrep», må dere være enige om hva som gjelder når dere gjenvinner raskt.
 
 ---
 
-## 5. Øvelser (UEFA-knapp)
+## 5. MatchPrep: det laget må være enige om før kamp
+
+### 5.1 «Grønt lys»-kriterier for gjennombrudd
+
+Gjennombrudd når minst én av disse er på plass:
+
+- Motstander er i **ubalanse** (spiller ut av posisjon, feil side, feil avstand).
+- Dere finner en **rettvendt mottaker** mellom ledd/foran ledd.
+- Dere har et **timet løp** (bakrom / mellomrom) som gir pasningsvindu.
+- Nøkkelspillere har **riktig pasningsbein** for det dere vil gjøre.
+
+### 5.2 5 faste valg for ballførende stopper (valgkort)
+
+1. Ut på back → inn i mellomrom på siden.
+2. Motsatt indreløper krysser inn.
+3. Opp på spiss ballside → sett rettvendte midtbaner.
+4. Direkte i bakrom (ofte «andrebevegelsen»).
+5. Inn på anker for sidebytte.
+
+Hvis ingen er på: **vend hjem** og start på nytt.
+
+### 5.3 Gjenvinning ≤5 sek
+
+- Mål: gjenvinn innen 5 sek og få nytt etablert angrep.
+- Hvis dere ikke vinner ballen raskt: fall av og steng sentralt.
+
+---
+
+## 6. Treningsuke (eksempel fra oppgaveteksten)
+
+- **Torsdag (60 min):** futsal i hall 4v4, fast 1.A/1.F (rotasjon slik at alle får roller).
+- **Fredag (90 min):** kampforberedende økt med stor grad av struktur – repeter valgkort for stopper + «grønt lys»-kriterier.
+
+---
+
+## 7. Øvelser i appen
 
 ### Øvelse 1: KFUM nærrom-possession
 
 | Felt | Beskrivelse |
 |------|-------------|
 | **Kode** | UEFA-A19-01 |
-| **Kategori** | Possession |
-| **Spillere** | 12 |
-| **Bane** | Forslag: liten bane delt i tre soner |
-| **Format** | 4v2 i hver sone (rullerende) |
-| **Varighet** | 4 x 4 min |
 
-**Regler:**
+Brukes som grunntrening for å tåle press i små rom og beholde ro/retning slik at laget kan være tålmodig uten å bli «tregt».
 
-1. Angripende lag må holde ballen i en sone i minst 5 pas før de kan spille til neste.
-2. Vinnes ballen: mål å presse raskt framover (gjenvinningsprinsipp).
+**Coaching points (kort):**
 
-**Coaching points:**
+- «Vent – flytt dem – så stikk.» (selv i smårom: ikke tving)
+- Støttevinkler og rettvendt mottak
+- Rolleavklaringer: hvem er 1A/1F i sekvensen
 
-- Pasningskvalitet i trange rom.
-- Støttevinkler, to-touch-policy.
-- 1F/1A-roller.
-
----
-
-### Øvelse 2: Spill mot lav blokk 8v8
+### Øvelse 2: Spill mot delvis etablert (start hos anker, 5 sek)
 
 | Felt | Beskrivelse |
 |------|-------------|
 | **Kode** | UEFA-A19-02 |
-| **Kategori** | Angrep |
-| **Spillere** | 16 |
-| **Bane** | Forslag: ca. 8v8-bane |
-| **Format** | 4-3-3 vs 4-4-2 i lav blokk |
-| **Varighet** | 3 x 6 min |
 
-**Regler:**
+Bygg et angrep mot et (delvis) etablert forsvar, men la angrepet starte hos anker/spillpunkt slik at dere trener på «starte på nytt» og valgkortet til stopperne.
 
-- Angripende lag får poeng for gjennombrudd i definerte soner (rom 2/3, kant).
-- Bonus/variasjon (valgfritt): gi poeng for gjenvinninger som fører til ny sjanse raskt.
+**Regler (kjerne):**
 
-**Coaching points:**
-
-- Tålmodighet, spill fra side til side før gjennombrudd.
-- Back-IL-kant kombinasjoner.
-- Sikring bak ball.
+- Angrep starter hos **anker**.
+- Ved balltap: **5 sek** for å gjenvinne. Lykkes dere: nytt etablert angrep.
+- Bruk «valgkort» for stopper/igangsetting: om dere ikke har overtall → vend og start på nytt.
 
 ---
 
-## 6. MatchPrep-fokus
+## 8. Coaching cues (korte)
 
-```javascript
-{
-  id: "a19-tamodighet",
-  text: "Tålmodighet mot lav blokk – la ballen gjøre jobben"
-},
-{
-  id: "a19-relasjon",
-  text: "Back-IL-kant: triangelspill før gjennombrudd"
-},
-{
-  id: "a19-gjenvinning",
-  text: "Kontring på kontring – press raskt framover ved balltap"
-}
-```
+- «Vent – flytt dem – så stikk.»
+- «Vend hvis vi ikke har overtall.»
+- «5 sek! (gjenvinn eller fall av)»
+- «Anker = sikkerhet + sidebytte.»
 
 ---
 
-## 7. Evaluering
+## 9. Evaluering (enkelt kampnotat)
 
-Mulige indikatorer (valgfritt, tilpass eget nivå):
+- Hvor ofte fikk dere «grønt lys» før dere forsøkte gjennombrudd?
+- Antall sjanser/scoringer etter **0–1 / 2–3 / 4+ trekk**.
+- Antall gjenvinninger **≤5 sek**, og hvor ofte det ga nytt etablert angrep.
 
-- Om laget klarer å være tålmodig uten å miste gjennombruddskraft
-- Om dere skaper flere gjennombrudd gjennom relasjoner/triangler
-- Om dere får flere gjenvinninger som gir nye angrep mens motstander reorganiserer
-- Om spillergruppa har kontinuitet over tid (uten å gjøre dette til et «krav-tall»)
-
----
-
-## 8. CoachingTips
-
-- **Cue:** «Sterk 1A – ta duellen, behold roen.»
-- **Cue:** «Gjenkjenn over/underlapp.»
-- **Cue:** «Struktur før fart.»
-- **Ikke:** «Ikke bli for direkte når motstander er i balanse.»
-
----
-
-Note: Tall for VIF er oppgitt i oppgaven (resultatdel). Unngå å gjøre prosentsatser/tidsgrenser til universelle KPI-krav uten å kontekstualisere nivå og kampbilde.
+Note: Prosenttall og tidsgrenser må alltid kontekstualiseres til nivå og kampbilde – bruk dem som felles språk, ikke absolutte krav.
