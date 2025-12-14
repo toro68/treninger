@@ -152,20 +152,31 @@ export const UEFASeksjon = () => {
             </div>
 
             {aktivSeksjon === "analyser" && (
-              <div className="flex flex-wrap gap-2">
-                {sortedAnalyses.map((analyse) => (
-                  <button
-                    key={analyse.id}
-                    onClick={() => handleVelgAnalyse(analyse)}
-                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                      valgtAnalyse?.id === analyse.id
-                        ? "bg-blue-600 text-white"
-                        : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
-                    }`}
-                  >
-                    {analyse.kode}: {analyse.tittel}
-                  </button>
-                ))}
+              <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+                <label className="text-sm font-medium text-zinc-700" htmlFor="uefa-analyse-select">
+                  Velg oppgave
+                </label>
+                <select
+                  id="uefa-analyse-select"
+                  className="w-full sm:w-[420px] rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                  value={valgtAnalyse?.id ?? ""}
+                  onChange={(e) => {
+                    const valgtId = e.target.value;
+                    if (!valgtId) {
+                      setValgtAnalyse(null);
+                      return;
+                    }
+                    const analyse = sortedAnalyses.find((a) => a.id === valgtId);
+                    if (analyse) handleVelgAnalyse(analyse);
+                  }}
+                >
+                  <option value="">— Velg —</option>
+                  {sortedAnalyses.map((analyse) => (
+                    <option key={analyse.id} value={analyse.id}>
+                      {analyse.kode}: {analyse.tittel}
+                    </option>
+                  ))}
+                </select>
               </div>
             )}
             
