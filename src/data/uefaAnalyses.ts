@@ -1273,8 +1273,8 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a09-indreloper", tekst: "Indreløper: motsatt bevegelse for å åpne rom", rolle: "Indreløper" },
     ],
     ovelser: [
-      { kode: "uefa-b01-01" },
-      { kode: "uefa-b01-02" },
+      { kode: "uefa-a09-01" },
+      { kode: "uefa-a09-02" },
     ],
     coachingCues: [
       { kategori: "Overgang", gjor: "Frys – se – slå første pasning med intensjon", ikkeGjor: "Ikke slå blindt i første bevegelse" },

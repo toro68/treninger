@@ -1306,7 +1306,7 @@ export const uefaExercises: Exercise[] = [
     sourceRef: "A06 Øyvind Iversen – Den sentrale midtbanerollen",
   },
   {
-    id: "uefa-b01-01",
+    id: "uefa-a09-01",
     exerciseNumber: 552,
     name: "Overgangsspill med pyramide-fokus",
     category: "game",
@@ -1327,10 +1327,10 @@ export const uefaExercises: Exercise[] = [
       "Juster tidsfristen.",
     ],
     source: "uefa",
-    sourceRef: "B01 Bjarte Lunde Aarsheim – Overgangsspill",
+    sourceRef: "A09 Bjarte Lunde Aarsheim – Overgangsspill",
   },
   {
-    id: "uefa-b01-02",
+    id: "uefa-a09-02",
     exerciseNumber: 553,
     name: "Presshøyde og brudd",
     category: "game",
@@ -1351,7 +1351,7 @@ export const uefaExercises: Exercise[] = [
       "La lagene selv bestemme presshøyde.",
     ],
     source: "uefa",
-    sourceRef: "B01 Bjarte Lunde Aarsheim – Overgangsspill",
+    sourceRef: "A09 Bjarte Lunde Aarsheim – Overgangsspill",
   },
 
   // ══════════════════════════════════════════════════════════
