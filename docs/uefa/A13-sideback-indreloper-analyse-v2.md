@@ -19,205 +19,114 @@
 
 ---
 
-## 2. Sammendrag
+## 2. Kjernefunn (spillmodell som styrer rollekrav)
 
-Røen analyserer hvordan Orkla FK utvikler sidebacker og indreløpere gjennom en rød tråd mellom fotballtilbudet på Orkdal vgs og klubbøktene. Filosofien er Eggen-inspirert 4-3-3 med lokalt forankrede spillere, der rollelæring alltid skjer i spill-mot-spill og tolkes gjennom fire dimensjoner (individuell, relasjonell, strukturell, kamp). Sidebacker skal ha 1v1-defensiv kompetanse, evne til å gjenta hurtige løp og relasjonelle verktøy for å frispille IL/kant, mens indreløpere skal identifisere rom og ta av press på første touch. Angrepsspillet beskrives i faser og vektlegger samtidige bevegelser som truer ulike rom, inkludert minst 4 innløp i boks ved etablert angrep.
-
----
-
-## 3. Nøkkeltall og KPI-er
-
-| KPI | Referanseverdi | Kilde |
-|-----|----------------|-------|
-| Innløp i boks (etablert angrep) | Minst 4 innløp (rom 1–3 + 45°) | Kap. 4.4 |
-| Overlapp timing | «Aldri» seine overlapper (siste 20m) | Kap. 4.4 |
-| Sideback: repeterende sprint | Gjenta hurtige løp på kort tid | Kap. 4.4 |
-| Sideback: 1–1 / 1–2 defensivt | Handlingsvalg og utførelse i duell/2v2 | Kap. 4.4 |
-| Indreløper: romforståelse + første touch | Identifisere rom + ta av press | Kap. 4.4 |
+* **Gjenvinning er viktigste ferdighet**: førsteforsvarer-jobben (1F) vektlegges som viktigst, uansett rolle, og laget ønsker «alltid press i tre ledd» for å vinne ball raskt tilbake.
+* **Presshøyde som standard**: «alltid» høyt press, men kan i perioder falle av til rundt sirkel/tangent på motstanders halvdel.
+* **Sideback må tåle 1v1**: sidebacker får «aldri» sikring fra egen stopper og må ofte løse 1v1 på kant selv (evt. hjelp fra indreløper).
+* **Angrep i 3 faser + 3. angriper**: oppbygging → gjennombrudd → avslutning, med vekt på samtidige bevegelser og at 3. angripers bevegelse er sentral.
+* **Etablert angrep = mange i boks**: ved etablert angrep skal det være minst 4 innløp i boks, fordelt på definerte rom.
 
 ---
 
-## 4. Prinsipper og konsepter
+## 3. Rollebeskrivelser
 
-### 4.1 Hovedprinsipper
-- **Spill mot spill**: Rolleforståelse bygges alltid gjennom spillscenarier (3v3+K → 11v11) med tydelige læringsmomenter.
-- **4 dimensjoner**: Individuell teknikk/tempo, relasjonelle trigger (SB-IL-kant), strukturell formasjon (3-3-3) og kampoverføring.
-- **Lokalt eierskap**: sidespisser og Eggen-postulatet «aldri sein overlap» går igjen fra junior til A-lag.
-- **Skole + klubb**: Mandat fordelt – skolen fokuserer på possesion/basis/1v1, klubben tuner struktur og kampplan.
+### Sideback (SB) – rollekrav og oppgaver
 
-### 4.2 Fasemodell (angrep)
-- **Oppbygging**: SB frispiller IL rettvendt i rom 2. Kant møter/fra for å åpne bakrom. Sentral midt treffer motsatt.
-- **Gjennombrudd**: IL vurderer 2v1 mot sideback, 2v1 mot stopper (skjære sentralt) eller kant i rom 2. SB støtter for tidlig overlapping.
-- **Avslutningsfase**: Fire innløp i boks (rom 1–3 + 45°). SB sikrer bak/45°, IL fyller rom 2 eller 45°.
+**Rollekrav (ferdigheter)**
 
-### 4.3 Defensivt prinsipp
-- **Gjenvinningspress**: 1F/2F/3F-roller trenes gjennom korte baner og 7v7+keeper med kantsoner; sidebacker leder ut, IL støter inn i pressledd.
+* Stor hurtighet + evne til repeterende sprint.
+* Sterk i 1v1 og 1v2 defensivt (valg + utførelse).
+* Kunne føre/kontrollere ball i stor fart og ha situasjonskontroll foran seg.
+* Offensiv spisskompetanse: 1v1 og/eller pasnings-/innleggsfot (helst begge).
 
----
+**Oppgaver (slik SB skaper verdi i modellen)**
 
-## 5. Øvelser for treningsdelen (UEFA-knapp)
+* Frispille indreløper rettvendt i mellomrom/rom 2 og skape 2v1 mot back (evt. stopper).
+* Bidra til vending: via sentral midtbane og motsatt SB i rom skapt av relasjoner på ballside.
+* Ikke «seine overlapper» i siste 20 m – timing tidlig nok til å true.
 
-### Øvelse 1: 3v3 + keeper – IL/SB grunnferdigheter
+### Indreløper (IL) – rollekrav og oppgaver
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A13-01 |
-| **Kategori** | Angrep/forsvar (small sided) |
-| **Spillere** | 6 + 2 keepere |
-| **Bane** | 30 x 33 m |
-| **Format** | 3v3 + K (to mål) |
-| **Formasjon** | Fri – fokus på rollebevegelse |
-| **Utstyr** | 2 mål, kjegler |
-| **Varighet** | 4 x 3 min (1 min pause) |
-| **Intensitet** | Høy |
+**Rollekrav (ferdigheter)**
 
-**Organisering:** To lag á tre spillere + keeper i hvert mål. Banen er smal for å fremtvinge hurtig 1v1/2v2.
+* Oppfattelseshurtighet: identifisere rom, motspillere og medspillere.
+* Rask ballbehandling: 1. touch / ta av press.
+* 1v1 offensivt + avslutningsferdighet.
+* Pasningsfot (ofte 8–20m) med variasjon i teknikker.
+* Defensivt: 1v1 og høy frekvens/quickness i gjenvinning + forståelse av 2F/3F-rollen.
 
-**Læringsmoment:**
-- 1–1 ferdighet (offensivt og defensivt)
-- Omstillingshurtighet
-- Frekvens (quickness)
-- Medtak, ta av press
-- Avslutningsferdighet
+**Oppgaver (typiske triggere)**
 
-**Progresjon:**
-- 2v2 + keeper(e) / 4v4 + keeper(e) (juster areal)
-- Bruk offsideregel ved behov for flere 1–1 situasjoner
+* I høyt press: IL kan gå i press når stopper er frispilt, mens kant faller ned som 2F (midtbaneledd).
 
 ---
 
-### Øvelse 2: 7v7+K m/innleggssoner – SB/IL relasjon
+## 4. Hovedprinsipper du kan trene (rett på felt)
 
-| Felt | Beskrivelse |
-|------|-------------|
-| **Kode** | UEFA-A13-02 |
-| **Kategori** | Angrep/forsvar (strukturell) |
-| **Spillere** | 16 (Gk+7v7+kantsoner) |
-| **Bane** | 50 x 66,5 m, kantsoner for sidespisser |
-| **Format** | 3-3-1 vs 3-3-1 med kantsoner |
-| **Utstyr** | 2 mål, kjegler |
-| **Varighet** | 4 x 5 min |
-| **Intensitet** | Medium-høy |
+### Forsvar (gjenvinning + press)
 
-**Organisering:** To lag i 3-3-1 (stoppere, midtbane, spiss). Hver side har to kantsoner (joker-sidespisser) som binder sideback/indreløper.
+* 1F først: vinn ball tilbake hurtigst mulig, med støtte i tre ledd.
+* Fullfør press på støttepasning bakover (1F følger når ball spilles bakover, vurder avstand).
+* Sidekorridor-dueller: SB må være komfortabel alene i 1v1 uten «gratis» sikring fra stopper.
 
-**Regler/Constraints:**
-1. Joker kan ta med ball inn i banen etter 1-touch.
-2. Motsatt joker må skjære inn ved innlegg (rom 2/3).
-3. Offside gjelder i kantsoner for å trene timing.
+### Angrep (SB–IL-relasjon + boks)
 
-**Offensivt fokus på:**
-- Utnytte overtall
-- Innløp i boks
-- Vurdere klima: kontring, overtall, undertall
-
-**Defensivt fokus på:**
-- Rask omstilling
-- Vurdere gjenvinne eller reorganisere (hvilke rom er farligst?)
-- Etablere oss i 3 ledd
-
-**Progresjon:**
-- Tillat joker å avslutte selv for å straffe passivitet.
-- Varier presshøyde for defensive laget.
+* Angrip i tre faser og tren på å skape flere samtidige trusler (3. angriper).
+* Fra SB: finn IL i mellomrom/rom 2 for rettvendt spill og 2v1 på back.
+* Ved etablert angrep: krev minst 4 innløp i boks (gi rollene faste boksjobber).
 
 ---
 
-## 6. CornerOrganization / Dødball
+## 5. Kampdimensjon → enkle KPI-er (målbare i kamp)
 
-### 6.1 Oppsett
-- **Offensivt:** Eksempelrollefordeling: indreløper fyller rom 2, sideback står sikring/45°.
-- **Defensivt:** Eksempelrollefordeling: sideback i sone på stolpe, indreløper markerer skjermløper og starter kontrarolle.
-
-### 6.2 KPI-er for dødball
-| Situasjon | Mål | Kilde |
-|-----------|-----|-------|
-| Offensiv corner – rom 2-løp fra IL | 1 kvalifisert sjanse pr kamp | Klubbanalyse |
-| Defensiv corner – klarering på første touch | Loggfør kvalitet på klarering | Treningsmål |
-
-### 6.3 Øvelser/sekvenser
-- 8v8 dødballspill: SB må starte ute i 45°-rom før han får løpe inn; IL må enten gå rom 2 eller 45°.
-- Constraints: hold fokus på rollefordeling og timing i boksen.
+| Indikator | Mål (praktisk) | Hvorfor |
+| --- | ---: | --- |
+| Gjenvinningstid etter balltap | ≤ 6–8 sek (eller fall av til 3 ledd) | Treffer «vinn ball hurtigst mulig» og 3-ledds-press. |
+| Antall boksinnløp ved etablert angrep | ≥ 4 samtidige | Direkte krav i modellen. |
+| SB→IL rettvendt mellomrom/rom 2 | Tell suksesser pr omgang | Kjernen i relasjonen SB–IL. |
+| 1v1-situasjoner for SB/IL (off+def) | «Mange nok» – tell pr økt/kamp | Rollekrav vektlegger 1v1 sterkt. |
 
 ---
 
-## 7. Kampplanintegrasjon (MatchPrep)
+## 6. Kampplan (MatchPrep)
 
-### 7.1 Fokuspunkter
-```javascript
-{
-  id: "a13-sb-frispill",
-  text: "Sideback: frispill IL rettvendt i rom 2 – vurder kant/SM"
-},
-{
-  id: "a13-il-kombinasjon",
-  text: "Indreløper: identifiser rom og ta av press på første touch" 
-},
-{
-  id: "a13-3pluss2",
-  text: "Etablerte angrep: minst 4 innløp i boks (rom 1–3 + 45°)"
-},
-{
-  id: "a13-gjenvinning",
-  text: "Omstilling: vurder gjenvinne eller reorganisere – hvilke rom er farligst?"
-},
-{
-  id: "a13-skolerolle",
-  text: "Overfør skoleøkter (basis/possession) til klubbøkter og kamp"
-}
-```
-
-### 7.2 Motstander-analyse
-- Kartlegg kant/back-typen motstander bruker; avgjør om SB skal presse høyt eller sikre.
-- Se hvor mye rom de gir mellom stopper og back – bestem ILs inngang.
-
-### 7.3 Rollebeskrivelse (Roles)
-- **Sideback:** 1v1 leding, frispill IL rettvendt, vurder tidlig overlap (unngå sein).
-- **Indreløper:** Orientering før mottak, identifisere rom, 4 innløp i boks ved etablert angrep.
+* Velg presshøyde-modus som dere skal inn i (høyt som base, men avtal når dere faller av).
+* 11v11-progresjon (kampforberedende): coach 1 lag offensivt (oppspillsvarianter), la motstander justere presshøyde, coach deretter defensiv struktur med variasjon i presshøyde, og avslutt med vanlig spill der begge strukturer coach-es.
+* Ukeplan-ide (eksempel): økter som veksler relasjonelt (1F vs 2F/3F) og mer strukturelt (press/sikring/dekke rom/markere) + differensiering og intensitetsstyring.
 
 ---
 
-## 8. Evaluering (PostMatch)
+## 7. Coaching cues (korte, konkrete)
 
-### 8.1 Kvalitative spørsmål
-- Var det tydelig rød tråd mellom skoleøvelser og kamp (possesion → struktur)?
-- Kan SB/IL forklare hvorfor de valgte bestemte rom?
-
-### 8.2 Kvantitative mål
-| Indikator | Mål | Oppnådd |
-|-----------|-----|---------|
-| SB → IL rettvendt pasning | Loggfør antall og kvalitet | |
-| IL innløp i boks | Loggfør antall i etablerte angrep | |
-| SB 1v1-stopp | Loggfør dueller og utfall | |
-| Gjenvinningsforsøk | Loggfør forsøk/valg (gjenvinne vs reorganisere) | |
-
-### 8.3 Logging per hendelse
-| # | Type | Sone | Detalj |
-|---|------|------|--------|
-| 1 | SB frispill | Rom 2 | IL rettvendt → kant L-løp |
-| 2 | IL innløp | Rom 1 | Heading |
+* «Gjenvinn først – vi presser i tre ledd.»
+* «SB: tør å stå i 1v1 – du får ikke gratis sikring.»
+* «IL: scan – 1. touch av press – spill rettvendt.»
+* «I boks: fire løp – fire rom.»
 
 ---
 
-## 9. Coaching Tips / Trenerveiledning
+## 8. Øvelser (rett fra oppgaven)
 
-- **Cue:** «Sideback: frispill først – overlapp kun når vi har kontroll.»
-- **Cue:** «Indreløper: identifiser rom – ta av press på første touch.»
-- **Ikke:** «Ikke send begge SB + IL samtidig uten sikring.»
+### 1) 3v3 + keeper (30x33)
 
-### 9.1 Trenerveiledning
-| Kategori | Gjør dette | Ikke gjør |
-|----------|-----------|-----------|
-| Rollefeedback | «Video/tilbakemelding etter hver kamp» | «Ikke gi generelle beskjeder til SB/IL» |
-| Skoleklubb | «Koble skoleøkter (possesion) mot kampens mål» | «Ikke la arenaene trekke i ulik retning» |
+Fokus: masse 1v1, omstillingshurtighet, medtak/ta av press, avslutning.
+Praksisgrep: juster areal/antall for å sikre hyppige 1v1 (evt. betingelser som offside ved behov).
+
+### 2) 7v7 + keeper (50x66,5) med innleggssoner
+
+Fokus offensivt: utnytte overtall, innløp i boks, vurdere «klima» (kontring/overtall/undertall).
+Fokus defensivt: rask omstilling, gjenvinne vs reorganisere, etablere 3 ledd, sone/markering i boks.
+
+### 3) 11v11 hel bane (struktur/kampdimensjon)
+
+Bruk progresjonen for å trene både oppspill og presshøyde kampnært.
 
 ---
 
-## 10. Implementeringsstatus
+## Mer i analysen
 
-| Komponent | Status | Merknad |
-|-----------|--------|---------|
-| Øvelser (exercises.ts) | ⬜ Ikke startet | Trenger `uefa-a13-01/-02` |
-| MatchPrep fokuspunkter | ⬜ Ikke startet | IDs definert over |
+Fullversjon: **A13-arnstein-roen-sideback-indreloper**.
 | Roles | ⬜ Ikke startet | SB/IL beskrivelser klare |
 | CoachingTips | ⬜ Ikke startet | Cue-sett definert |
 | Skolekobling | ⬜ Ikke startet | Beskriv rød tråd skole ↔ klubb |

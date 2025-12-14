@@ -21,53 +21,83 @@
 
 ## 2. Sammendrag
 
-Oppgaven tar utgangspunkt i observasjon og intervju, og tester to hypoteser om indreløperrollen i 4-3-1-2 (diamant). Offensivt beskrives indreløperen på den sterke siden i tett samspill med back samme side, med ansvar for å skape bredde i mellomrommet. Defensivt framheves at systemet fordrer høyt press, og at indreløperne bidrar til at spillet ledes ut (ikke inn) ved å skyve innenfra og ut mot motstanderback og stenge pasningsalternativer innover. I omstilling etter balltap beskrives et behov for umiddelbar kollektiv reaksjon («alle må løpe de første sekundene etter balltap»).
+I 4-3-1-2 (diamant) finnes det ingen naturlige høye breddeholdere, så laget må skape bredde på andre måter. Hypotese 1 i oppgaven er derfor: ballside indreløper er breddeholder i angrep. Samtidig må motsatt indreløper stabilisere når ballside 8 går.
 
 ---
 
-## 3. Kjernefunn (raw-first)
+## 3. Rollebildet (kort)
 
-- **Angrep:** «…indreløperen på den sterke siden, i tospann med back samme side, ansvaret for til enhver tid å skape bredde i mellomrommet».
-- **Forsvar:** Indreløperens defensive oppgave knyttes til å «lede spillet ut, ikke inn», og gjøre motstander mer forutsigbar ved å tvinge spillet mot sidekorridor.
-- **Press i praksis:** Når ballen spilles ut mot stopper/back, beskrives pressretning «innenfra og ut», og at indreløperen skyver mot back for å nekte pasning innover.
-- **Balltap:** Formasjonen krever en tydelig reaksjon på balltap («klikkmentalitet»), der alle løper de første sekundene.
+**Nøkkelfunn (konkret):**
 
----
-
-## 4. Fokuspunkter (MatchPrep)
-
-- Angrep: Indreløper på sterk side skaper bredde i mellomrommet (i tospann med back).
-- Forsvar: Led spillet ut, ikke inn – tving motstander mot sidekorridor.
-- Når ball går ut til back: Skyv innenfra og ut, og steng pasningsalternativer innover.
-- Balltap: Umiddelbar kollektiv reaksjon (løp de første sekundene).
+- Ballside 8 skaper bredde, mens motsatt 8 balanserer smalt/innenfor.
+- «Regel-bildet»: indreløper på ballside starter smalt og blir spilt rettvendt i mellomrommet («innenfra og ut»).
+- I forsvar forventes ofte spill ut i sidekorridorene, og indreløper jobber innenfra-og-ut når laget skyver/støter.
+- Kompakthet som ideal: laget bør i 4-3-1-2 ikke være lengre enn 30 m eller bredere enn 40 m.
 
 ---
 
-## 5. Øvelser (inspirert av funnene)
+## 4. Hovedprinsipper
 
-Dette er treningsforslag som støtter funnene over. De er ikke beskrevet som ferdige «oppskrifter» i råkilden, og bør derfor brukes som rammer (ikke som KPI-/target-øvelser).
+### Angrep
 
-### Øvelse 1: Diamant-possession (4v4 + 3 jokere)
+- Bredde på sterk side: Ballside 8 går bredt for å gi pasningslinje, dra ut ledd og skape rom sentralt.
+- Stabilitet bak ball: Når én 8 går, skal den andre 8 inn og sikre (ikke «begge på tur»).
+- Skap dilemma hos motstanderback: Bred ballside 8 + spiss i «rom 2» kan tvinge back til å velge (gå/stå), som kan frigjøre sentral spiller.
 
-- **Mål:** Trene relasjoner/vinkler og ballside-bredde i diamant.
-- **Coaching:** Skap bredde i mellomrommet på ballside; vær bevisst på pressretning når ballen går ut.
+### Forsvar
 
-### Øvelse 2: Diamant gjennombrudd (spillform)
+- Presslogikk i 4-3-1-2: Med to spisser blir det naturlig å styre oppspill slik at motstander i større grad spiller mot side, og indreløper må være klar til å møte spillet der.
+- Kompakt ramme: Prioritér kollektive avstander (30 m lengde / 40 m bredde) før du «jager» ball.
 
-- **Mål:** Trene indreløperens samspill med back/yttersone i angrep og skyv/press innenfra og ut i forsvar.
-- **Coaching:** Ved balltap: alle løper de første sekundene.
+## 5. Kampdimensjon → KPI (enkelt å måle)
+
+**Lag-KPI**
+
+- Kompakthet i etablert forsvar: lengde ≤ 30 m, bredde ≤ 40 m.
+- Rollebalanse i midtbane-3: «én går – én blir» (tell klipp: hvor ofte ballside 8 går uten at motsatt 8 sikrer).
+
+**Struktur/Kontekst (hvorfor rollen «trengs»)**
+
+- Tippeligaen 2015: 39 % kamper med «én stabiliserende midtbanespiller» vs 61 % med to.
+- Serie A 2015/16: 76 % med én vs 24 % med to.
+
+## 6. Kampplan (MatchPrep)
+
+- Avklar breddeansvar på sterk side: når er det 8 som går bredt, og når er det back som tar høy bredde (særlig etter spillvending).
+- Definer pressretning: ønsket utfall er ofte at motstander tvinges mot sidekorridor, slik at indreløper kan møte spillet «innenfra-og-ut».
+- Sett «minimumskrav» til kompakthet før kamp (30/40) og repeter det i walk-through.
+
+## 7. Coaching cues (kan brukes direkte)
+
+- «Ballside 8: skap bredde. Motsatt 8: bli igjen og balanser.»
+- «Smalt først – bli rettvendt i mellomrom – så ut (innenfra og ut).»
+- «Jobb innenfra og ut når vi støter.»
+- «Hold laget kort og smalt (30/40) før vi går i brudd.»
+
+## 8. Presshøyde-modus (enkelt rammeverk)
+
+**Aggressivt (høyt)**
+
+- Spisspar stenger mest mulig sentralt → ball ut → ballside 8 klar til å støte i sidekorridor.
+
+**Mellompress (felle)**
+
+- La motstander spille til sideback/sidekorridor → støt med 8 «innenfra-og-ut» og lås spillet der.
+
+**Lavt (kompakt)**
+
+- Prioritér 30/40-ramma og vinn ballen med laget bak (kontringsgrunnlag).
 
 ---
 
-## 6. Evaluering (kvalitativt)
+## 9. Øvelser (rett på feltet)
 
-- Skapte vi ballside-bredde i mellomrommet (indreløper + back)?
-- Klarte vi å lede spillet ut (ikke inn), og stenge pasningslinjer sentralt?
-- Kom vi oss raskt i press/skyv når ballen gikk ut til back?
-- Hadde laget «klikkmentalitet» ved balltap?
+1. Faseøvelse 8–10 min (11v11/10v10): Tren «ballside 8 bred + spiss i rom 2 + støtte sentral» → mål: skape back-dilemma og frigi sentral spiller.
+2. Posisjonsspill med rollekrav (7v7+3): Poeng kun hvis ballside 8 mottar bredt på sterk side og motsatt 8 er i stabiliseringsposisjon før gjennombrudd.
+3. Pressfelle i korridor (6v6 + keepere): Banen deles i 3 korridorer; poeng for ballvinning i sidekorridor etter støt fra ballside 8.
 
 ---
 
-## 7. Referanser
+## 10. Referanser
 
 - Original oppgave: `docs/uefa/A14-magnus-oltedal-indreloper.txt`

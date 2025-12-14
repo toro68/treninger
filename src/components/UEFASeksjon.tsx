@@ -1,15 +1,13 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { uefaAnalyses, type Fokuspunkt, type UEFAAnalyse } from "@/data/uefaAnalyses";
-import { uefaFormations, type UEFAFormation } from "@/data/uefaFormations";
 import { getUEFAExerciseByCode, getUEFADisplayCode } from "@/data/uefa-exercises";
 import { useSessionStore } from "@/store/sessionStore";
 import { GlossaryTooltip } from "@/components/GlossaryTooltip";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
 import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
-import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 
 const GENERELLE_FOKUSPUNKTER: Fokuspunkt[] = [
   {
@@ -60,14 +58,8 @@ const GENERELLE_FOKUSPUNKTER: Fokuspunkt[] = [
 
 export const UEFASeksjon = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [aktivSeksjon, setAktivSeksjon] = useState<"analyser" | "formasjoner">("analyser");
   const [valgtAnalyse, setValgtAnalyse] = useState<UEFAAnalyse | null>(null);
-  const [valgtFormasjon, setValgtFormasjon] = useState<UEFAFormation | null>(null);
-
-  const formationSvgRef = useRef<HTMLDivElement | null>(null);
   const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "coaching">("oversikt");
-  // aktivFormasjonFane er forberedt for fremtidig bruk i formasjon-faner
-  const [, setAktivFormasjonFane] = useState<"oversikt" | "roller" | "prinsipper">("oversikt");
   
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
   const sortedAnalyses = useMemo(
@@ -124,86 +116,36 @@ export const UEFASeksjon = () => {
         <div className="mt-4 space-y-4">
           {/* Tema-velger */}
           <div>
-            <label className="block text-sm font-medium text-zinc-700 mb-2">
-              Velg tema:
-            </label>
-            {/* Fane-navigasjon for hovedseksjoner (Analyser / Formasjoner) */}
-            <div className="flex gap-1 border-b border-zinc-200 mb-4">
-              <button
-                onClick={() => { setAktivSeksjon("analyser"); setValgtAnalyse(null); setValgtFormasjon(null); }}
-                className={`px-3 py-2 text-sm font-medium border-b-2 transition-colors ${
-                  aktivSeksjon === "analyser"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-zinc-500 hover:text-zinc-700"
-                }`}
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+              <label className="text-sm font-medium text-zinc-700" htmlFor="uefa-analyse-select">
+                Velg oppgave
+              </label>
+              <select
+                id="uefa-analyse-select"
+                className="w-full sm:w-[420px] rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                value={valgtAnalyse?.id ?? ""}
+                onChange={(e) => {
+                  const valgtId = e.target.value;
+                  if (!valgtId) {
+                    setValgtAnalyse(null);
+                    return;
+                  }
+                  const analyse = sortedAnalyses.find((a) => a.id === valgtId);
+                  if (analyse) handleVelgAnalyse(analyse);
+                }}
               >
-                Analyser
-              </button>
-              <button
-                onClick={() => { setAktivSeksjon("formasjoner"); setValgtAnalyse(null); setValgtFormasjon(null); }}
-                className={`px-3 py-2 text-sm font-medium border-b-2 transition-colors ${
-                  aktivSeksjon === "formasjoner"
-                    ? "border-blue-600 text-blue-600"
-                    : "border-transparent text-zinc-500 hover:text-zinc-700"
-                }`}
-              >
-                Formasjoner
-              </button>
-            </div>
-
-            {aktivSeksjon === "analyser" && (
-              <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                <label className="text-sm font-medium text-zinc-700" htmlFor="uefa-analyse-select">
-                  Velg oppgave
-                </label>
-                <select
-                  id="uefa-analyse-select"
-                  className="w-full sm:w-[420px] rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
-                  value={valgtAnalyse?.id ?? ""}
-                  onChange={(e) => {
-                    const valgtId = e.target.value;
-                    if (!valgtId) {
-                      setValgtAnalyse(null);
-                      return;
-                    }
-                    const analyse = sortedAnalyses.find((a) => a.id === valgtId);
-                    if (analyse) handleVelgAnalyse(analyse);
-                  }}
-                >
-                  <option value="">— Velg —</option>
-                  {sortedAnalyses.map((analyse) => (
-                    <option key={analyse.id} value={analyse.id}>
-                      {analyse.kode}: {analyse.tittel}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            )}
-            
-            {aktivSeksjon === "formasjoner" && (
-              <div className="flex flex-wrap gap-2">
-                {uefaFormations.map((formation) => (
-                  <button
-                    key={formation.id}
-                    onClick={() => {
-                      setValgtFormasjon(formation);
-                      setAktivFormasjonFane("oversikt");
-                    }}
-                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                      valgtFormasjon?.id === formation.id
-                        ? "bg-blue-600 text-white"
-                        : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
-                    }`}
-                  >
-                    {formation.navn}
-                  </button>
+                <option value="">— Velg —</option>
+                {sortedAnalyses.map((analyse) => (
+                  <option key={analyse.id} value={analyse.id}>
+                    {analyse.kode}: {analyse.tittel}
+                  </option>
                 ))}
-              </div>
-            )}
+              </select>
+            </div>
           </div>
 
           {/* Valgt analyse */}
-          {aktivSeksjon === "analyser" && valgtAnalyse && (
+          {valgtAnalyse && (
             <div className="space-y-4">
               {/* Fane-navigasjon */}
               <div className="flex gap-1 border-b border-zinc-200">
@@ -1379,10 +1321,10 @@ export const UEFASeksjon = () => {
                               Sideback + indreløper – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-green-900">
-                              <li>• Sidebacker skal frispille IL rettvendt og lede 1v1 defensivt.</li>
-                              <li>• Indreløpere må orientere, tru to rom og fylle boksen med fire løp.</li>
-                              <li>• 3+2-balansen må sitte før vi overbelaster på kant.</li>
-                              <li>• Alt skjer i spill-mot-spill – rollepar trener sammen.</li>
+                              <li>• Gjenvinning er viktigst: 1F først, press i tre ledd.</li>
+                              <li>• Presshøyde som standard: høyt press, med avtalt fall-av ved behov.</li>
+                              <li>• Sideback må tåle 1v1 i sidekorridor uten gratis stopper-sikring.</li>
+                              <li>• Angrep i 3 faser med 3. angriper – og minst 4 samtidige løp i boks i etablert angrep.</li>
                             </ul>
                           </div>
 
@@ -1392,11 +1334,10 @@ export const UEFASeksjon = () => {
                                 KPI-er
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• SB 1v1-stopp: ≥70 % i sone 2.</li>
-                                <li>• SB repeterende sprint: 6–8 maks-løp per omgang.</li>
-                                <li>• IL rettvendte mottak: 10+ pr. kamp.</li>
-                                <li>• IL innløp i boks: minst 4 per angrep.</li>
-                                <li>• 3+2 før overbelastning: 100 %.</li>
+                                <li>• Gjenvinningstid etter balltap: ≤6–8 sek (eller fall av til 3 ledd).</li>
+                                <li>• Etablert angrep: ≥4 samtidige innløp i boks.</li>
+                                <li>• SB→IL rettvendt i mellomrom/rom 2: tell suksesser pr omgang.</li>
+                                <li>• 1v1-situasjoner SB/IL (off+def): «mange nok» – tell pr økt/kamp.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1404,10 +1345,10 @@ export const UEFASeksjon = () => {
                                 Fokusområder
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Sideback: frispill IL rettvendt i rom 2 – vurder kant/SM.</li>
-                                <li>• Indreløper: tru to rom hver gang du mottar.</li>
-                                <li>• Overbelast kun når 3 bak + 2 sikring er på plass.</li>
-                                <li>• Kombiner lek og struktur – alt skjer i kamp-lignende spill.</li>
+                                <li>• 1F først: fullfør press på støttepasning bakover.</li>
+                                <li>• Sidekorridor-dueller: SB står alene i 1v1 (evt. hjelp fra IL).</li>
+                                <li>• SB→IL: frispill rettvendt i rom 2 og skap 2v1 på back.</li>
+                                <li>• Etablert angrep: fire løp – fire rom (definer boksjobber).</li>
                               </ul>
                             </div>
                           </div>
@@ -1418,10 +1359,9 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Avklar hvilke sider vi overbelaster og hvem som sikrer.</li>
-                                <li>• Sett KPI for SB 1v1 og IL rettvendthet før kamp.</li>
-                                <li>• Rollebrief: SB + IL får klare oppgaver (returløp, balanse).</li>
-                                <li>• Evaluer i PostMatch: hvor ofte nådde vi 3+2 før overbelastning?</li>
+                                <li>• Velg presshøyde-modus: høyt som base, avtal når dere faller av.</li>
+                                <li>• 11v11-progresjon: coach oppspill, la motstander justere presshøyde, coach defensiv struktur, avslutt med vanlig spill.</li>
+                                <li>• Ukeplan: veksle relasjonelt (1F vs 2F/3F) og strukturelt (press/sikring/dekke rom/markere) med intensitetsstyring.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1429,10 +1369,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «SB: frispill IL rettvendt – finn rom 2!»</li>
-                                <li>• «IL: tru to rom – rettvend og gå i boks.»</li>
-                                <li>• «3+2? Ellers vent med overbelastning.»</li>
-                                <li>• «Lek i representativt spill – ingen isolerte drillfaser.»</li>
+                                <li>• «Gjenvinn først – vi presser i tre ledd.»</li>
+                                <li>• «SB: tør å stå i 1v1 – du får ikke gratis sikring.»</li>
+                                <li>• «IL: scan – 1. touch av press – spill rettvendt.»</li>
+                                <li>• «I boks: fire løp – fire rom.»</li>
                               </ul>
                             </div>
                           </div>
@@ -1461,10 +1401,11 @@ export const UEFASeksjon = () => {
                               Indreløper i diamant – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-orange-900">
-                              <li>• Oppgaven tester to hypoteser om indreløperrollen i 4-3-1-2.</li>
-                              <li>• Angrep: indreløper på sterk side, i tospann med back samme side, skaper bredde i mellomrommet.</li>
-                              <li>• Forsvar: systemet fordrer høyt press, og indreløper skyver innenfra og ut mot motstanderback for å stenge pasningsalternativer sentralt.</li>
-                              <li>• Balltap: kollektiv umiddelbar reaksjon – alle løper de første sekundene.</li>
+                              <li>• 4-3-1-2 mangler naturlige høye breddeholdere → bredde må skapes av roller.</li>
+                              <li>• Angrep: ballside 8 er breddeholder; motsatt 8 stabiliserer smalt/innenfor («én går – én blir»).</li>
+                              <li>• «Regel-bilde»: start smalt → bli rettvendt i mellomrom → gå ut (innenfra og ut).</li>
+                              <li>• Forsvar: ønsk ofte spill mot sidekorridor → støt innenfra-og-ut og steng pasning innover.</li>
+                              <li>• Kompakthet som ramme: ca. 30 m lengde / 40 m bredde.</li>
                             </ul>
                           </div>
 
@@ -1474,10 +1415,10 @@ export const UEFASeksjon = () => {
                                 KPI-er
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Angrep: er ballside-bredde i mellomrommet ivaretatt (IL + back)?</li>
-                                <li>• Forsvar: klarer vi å lede spillet ut (ikke inn) og stenge pasningslinjer sentralt?</li>
-                                <li>• Når ball går til back: kommer vi i skyv/press innenfra og ut?</li>
-                                <li>• Balltap: reagerer laget umiddelbart (løper de første sekundene)?</li>
+                                <li>• Etablert forsvar: lengde ≤ 30 m.</li>
+                                <li>• Etablert forsvar: bredde ≤ 40 m.</li>
+                                <li>• Rollebalanse: «én går – én blir» (hvor ofte går ballside 8 uten at motsatt 8 sikrer?).</li>
+                                <li>• Strukturkontekst: Tippeligaen 2015 (39 % én / 61 % to) og Serie A 2015/16 (76 % én / 24 % to).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1485,10 +1426,11 @@ export const UEFASeksjon = () => {
                                 Fokusområder
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Angrep: relasjon IL + back på sterk side (rollefordeling og eventuelle rollerulleringer).</li>
-                                <li>• Forsvar: pressvinkler innenfra og ut for å tvinge spillet mot sidekorridor.</li>
-                                <li>• Synkronisering i høyt press mellom spisspar, mellomromsspiller og midtbane.</li>
-                                <li>• Balltap: «klikkmentalitet» – hele laget reagerer samtidig.</li>
+                                <li>• Angrep: ballside 8 går bredt for å dra ut ledd og skape rom sentralt.</li>
+                                <li>• Balanse: motsatt 8 sikrer smalt/innenfor når ballside 8 går.</li>
+                                <li>• Mellomrom: start smalt → bli rettvendt → gå ut (innenfra og ut).</li>
+                                <li>• Forsvar: lås spill mot sidekorridor og støt innenfra-og-ut.</li>
+                                <li>• Ramme: prioriter 30/40 før dere «jager» ball.</li>
                               </ul>
                             </div>
                           </div>
@@ -1499,10 +1441,10 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Avklar pressretning: hvem tvinger ut, hvem skyver på back, hvem stenger sentralt.</li>
-                                <li>• Avklar rollefordeling på sterk side i angrep: IL + back skaper bredde i mellomrommet.</li>
-                                <li>• Avklar hva som er «plan A» i forsvar (høyt press), og når laget må falle av.</li>
-                                <li>• Evaluer etter kamp: ledet vi spillet ut, og reagerte vi umiddelbart ved balltap?</li>
+                                <li>• Avklar breddeansvar på sterk side: når går 8 bredt, og når tar back høy bredde (særlig etter spillvending)?</li>
+                                <li>• Definer pressretning: ønsk ofte utfall mot sidekorridor, slik at 8 kan møte spillet innenfra-og-ut.</li>
+                                <li>• Sett minimumskrav til kompakthet før kamp (30/40) og repeter i walk-through.</li>
+                                <li>• Avklar presshøyde-modus: aggressivt (høyt), mellompress (felle), lavt (kompakt).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1510,10 +1452,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Skap bredde i mellomrommet på ballside (IL + back).»</li>
-                                <li>• «Skyv innenfra og ut – steng pasning inn.»</li>
-                                <li>• «Balltap: løp de første sekundene.»</li>
-                                <li>• «Tving spillet ut – ikke gi gratis pasning sentralt.»</li>
+                                <li>• «Ballside 8: skap bredde. Motsatt 8: bli igjen og balanser.»</li>
+                                <li>• «Smalt først – bli rettvendt i mellomrom – så ut (innenfra og ut).»</li>
+                                <li>• «Jobb innenfra og ut når vi støter.»</li>
+                                <li>• «Hold laget kort og smalt (30/40) før vi går i brudd.»</li>
                               </ul>
                             </div>
                           </div>
@@ -2978,108 +2920,10 @@ export const UEFASeksjon = () => {
             </div>
           )}
 
-          {/* Valgt formasjon */}
-          {aktivSeksjon === "formasjoner" && valgtFormasjon && (
-            <div className="space-y-4">
-              <div className="flex justify-between items-start">
-                <h3 className="text-lg font-semibold text-zinc-900">{valgtFormasjon.navn}</h3>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="md:col-span-1">
-                  {valgtFormasjon.svgDiagram && (
-                    <div className="space-y-2">
-                      <div className="flex justify-end">
-                        <SvgDownloadButton
-                          containerRef={formationSvgRef}
-                          fileName={valgtFormasjon.navn}
-                        />
-                      </div>
-                      <div
-                        ref={formationSvgRef}
-                        className="w-full h-auto p-4 border rounded-lg bg-green-50"
-                        dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
-                      />
-                    </div>
-                  )}
-                </div>
-                <div className="md:col-span-2 space-y-4">
-                  <p className="text-sm text-zinc-600 leading-relaxed">
-                    {valgtFormasjon.beskrivelse}
-                  </p>
-                  
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {valgtFormasjon.styrker && (
-                      <div className="space-y-2">
-                        <p className="text-sm font-medium text-zinc-700">Styrker:</p>
-                        <ul className="list-disc list-inside text-sm text-zinc-600 space-y-1">
-                          {valgtFormasjon.styrker.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                    {valgtFormasjon.svakheter && (
-                      <div className="space-y-2">
-                        <p className="text-sm font-medium text-zinc-700">Svakheter:</p>
-                        <ul className="list-disc list-inside text-sm text-zinc-600 space-y-1">
-                          {valgtFormasjon.svakheter.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-
-                  {valgtFormasjon.spillerprofiler && (
-                    <div className="space-y-2">
-                      <p className="text-sm font-medium text-zinc-700">Nøkkelroller:</p>
-                      {valgtFormasjon.spillerprofiler.map((profil, idx) => (
-                        <div key={idx} className="text-sm">
-                          <span className="font-semibold">{profil.rolle}: </span>
-                          <span className="text-zinc-600">{profil.profil}</span>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {valgtFormasjon.relaterteAnalyser && (
-                     <div className="space-y-2">
-                        <p className="text-sm font-medium text-zinc-700">Relaterte analyser:</p>
-                        <div className="flex flex-wrap gap-2">
-                          {valgtFormasjon.relaterteAnalyser.map((analyseId) => {
-                            const analyse = uefaAnalyses.find(a => a.id === analyseId);
-                            if (!analyse) return null;
-                            return (
-                              <button
-                                key={analyse.id}
-                                onClick={() => {
-                                  setAktivSeksjon("analyser");
-                                  handleVelgAnalyse(analyse);
-                                }}
-                                className="px-2 py-1 rounded-md text-xs font-medium transition-colors bg-purple-100 text-purple-700 hover:bg-purple-200"
-                              >
-                                {analyse.kode}: {analyse.tittel}
-                              </button>
-                            )
-                          })}
-                        </div>
-                     </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Placeholder når ingen analyse/formasjon er valgt */}
-          {(!valgtAnalyse && aktivSeksjon === "analyser") && (
+          {/* Placeholder når ingen analyse er valgt */}
+          {!valgtAnalyse && (
             <div className="text-center py-8 text-zinc-400">
               <p className="text-sm">Velg et tema over for å se analyse</p>
-            </div>
-          )}
-          {(!valgtFormasjon && aktivSeksjon === "formasjoner") && (
-            <div className="text-center py-8 text-zinc-400">
-              <p className="text-sm">Velg en formasjon over for å se detaljer</p>
             </div>
           )}
         </div>
