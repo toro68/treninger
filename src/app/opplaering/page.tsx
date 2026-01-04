@@ -1,6 +1,7 @@
 import { LearnZonalDefense } from "@/components/LearnZonalDefense";
 import { LearnAttack } from "@/components/LearnAttack";
 import { LearnRoles } from "@/components/LearnRoles";
+import { Learn433Positions } from "@/components/Learn433Positions";
 import { ZonalDefense } from "@/components/ZonalDefense";
 import Link from "next/link";
 
@@ -71,6 +72,7 @@ export default function OpplaeringPage() {
         <LearnZonalDefense defaultOpen={true} />
         <LearnAttack defaultOpen={true} />
         <LearnRoles defaultOpen={true} />
+        <Learn433Positions defaultOpen={true} />
 
         {/* Detailed soneforsvar reference */}
         <ZonalDefense />

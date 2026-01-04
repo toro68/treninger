@@ -94,16 +94,20 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     sammendrag:
       "Olsen loggførte alle touch i Barcelonas CL-scoringsangrep (2010/11) og fant 25 % ett-touch og 36 % to-touch involveringer (snitt 2,1). Barca giret opp (færre touch) når mål måtte jages, men senket tempoet for å kontrollere kampen når de ledet. Rytme handler om å vite når ett-touch skal bryte linjer og når to-touch skal gi kontroll.",
     kpier: [
-      { navn: "Ett-touch involveringer", referanseverdi: "25 %", kilde: "Kap. 6.5" },
+      { navn: "Ett-touch involveringer (generelt)", referanseverdi: "25 %", kilde: "Kap. 6.5" },
+      { navn: "Ett-touch involveringer (scoringsangrep)", referanseverdi: "20 %", kilde: "Kap. 6.5" },
       { navn: "To-touch involveringer", referanseverdi: "36 %", kilde: "Kap. 6.5" },
       { navn: "Gjennomsnitt touch pr spiller", referanseverdi: "2,1", kilde: "Kap. 6.5" },
+      { navn: "Touch i scoringsangrep (snitt)", referanseverdi: "2,9", kilde: "Kap. 6.5" },
     ],
     fokuspunkter: [
       { id: "a04-touch", tekst: "1-touch når vi bryter linjer, 2-touch når vi kontrollerer" },
+      { id: "a04-innside", tekst: "Bruk innsiden av foten for presisjon (Barca: 16 av 21 ett-touch)" },
       { id: "a04-tempo", tekst: "Definér tempo-switch (press, resultat, tid)" },
       { id: "a04-maurtue", tekst: "Fyll rom rundt ball – maurtue-prinsippet" },
-      { id: "a04-messi", tekst: "Messi-rolle: driv når rommet åpner seg" },
-      { id: "a04-dirigent", tekst: "Dirigent (Xavi) styrer touch-krav" },
+      { id: "a04-etablert", tekst: "Tren mot etablert blokk (14 av 16 Barca-mål kom her)" },
+      { id: "a04-messi", tekst: "Messi-rolle: driv når rommet åpner seg (snitt 3,0 touch)", rolle: "Spiss" },
+      { id: "a04-dirigent", tekst: "Dirigent (Xavi) styrer touch-krav (snitt 2,8 touch)", rolle: "Sentral midtbane" },
     ],
     ovelser: [
       { kode: "uefa-a04-01" },
@@ -267,15 +271,15 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     ],
     fokuspunkter: [
       { id: "a01-forsvar", tekst: "Default = 5-3-2 lav blokk – steng mellom-/bakrom og led mot rom 1–2" },
-      { id: "a01-hoyt-press", tekst: "Gå høyt kun på signaler (nese mot mål, tverspasning, dårlig touch/klarering)" },
+      { id: "a01-hoyt-press", tekst: "Gå høyt kun på signaler (nese mot eget mål, lang tverspasning, dårlig touch/klarering)" },
       { id: "a01-pressmekanisme", tekst: "Spiss presser stopper, vingback leder inn, ytre stopper skyver – resten sideforskyver", rolle: "Vingback" },
       { id: "a01-press-risiko", tekst: "Husk bakrom når vi går høyt – enten presset sitter, eller vi faller" },
-      { id: "a01-angrep-bredde", tekst: "Vingback står helt bredt for å åpne midten; vend via dem hvis ikke gjennombrudd" },
+      { id: "a01-angrep-bredde", tekst: "Vingback står helt bredt for å åpne midten – bakrom prioriteres; vend via dem hvis ikke gjennombrudd" },
       { id: "a01-spissrelasjon", tekst: "Spissduo i møte–stikk: én møter, én truer bakrom", rolle: "Spiss" },
       { id: "a01-indreloper", tekst: "Indreløper: møt for å åpne rom eller gå tredje mann i bakrom", rolle: "Indreløper" },
       { id: "a01-innlegg", tekst: "Innlegg: fyll boks (2 spisser + motsatt indreløper + motsatt vingback) og bemann returrom" },
       { id: "a01-gjenvinning", tekst: "5-sekundersregel + kontradekning = gjenvinning som våpen" },
-      { id: "a01-overgang", tekst: "Overgang imot: stoppere må vurdere risiko når de fører, og tåle 1v1" },
+      { id: "a01-overgang", tekst: "Overgang imot: stoppere må vurdere risiko når de fører, og tåle 1v1 (forsink alltid!)" },
     ],
     ovelser: [
       { kode: "uefa-a01-01" },
@@ -351,8 +355,9 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     fokuspunkter: [
       { id: "a06-orientering", tekst: "Orientering før mottak – skanning som grunnferdighet", rolle: "Sentral midtbane" },
       { id: "a06-pasningskvalitet", tekst: "Oppretthold høy pasningskvalitet (>85%) under press", rolle: "Sentral midtbane" },
-      { id: "a06-balanse", tekst: "Prioriter defensiv balanse og dekk rom sentralt", rolle: "Sentral midtbane" },
-      { id: "a06-framover", tekst: "Vurder alltid muligheten for en linjebrytende pasning freover", rolle: "Sentral midtbane" }
+      { id: "a06-balanse", tekst: "Prioriter defensiv balanse («stå riktig») fremfor risikofylt balljakt", rolle: "Sentral midtbane" },
+      { id: "a06-framover", tekst: "Vurder alltid linjebrytende pasning (ref: 54% av pasninger går fremover)", rolle: "Sentral midtbane" },
+      { id: "a06-rettvendt", tekst: "Søk rettvendthet i mellomrom (mål: 5-7 forsøk pr kamp)", rolle: "Sentral midtbane" }
     ],
     ovelser: [
         { kode: "uefa-a06-01" }
@@ -360,7 +365,8 @@ export const uefaAnalyses: UEFAAnalyse[] = [
     coachingCues: [
       { kategori: "Pasningsspill", gjor: "Slå pasning med intensjon – bryt en linje!", ikkeGjor: "Ikke slå støttepasning hvis du kan spille fremover." },
       { kategori: "Posisjonering", gjor: "Vær spillbar – tenk to trekk frem.", ikkeGjor: "Ikke gjem deg bak motstanderen." },
-      { kategori: "Defensivt", gjor: "Tenk balanse før du støter.", ikkeGjor: "Ikke etterlat store rom bak deg." }
+      { kategori: "Defensivt", gjor: "Tenk balanse før du støter.", ikkeGjor: "Ikke etterlat store rom bak deg." },
+      { kategori: "Avslutning", gjor: "Avslutt angrep fra distanse for å hindre kontring.", ikkeGjor: "Ikke jakt umulige avslutninger i boks hvis du kan sikre balanse." }
     ],
     kildefil: "A06-sentral-midt-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oyvind-iversen.pdf",
@@ -411,6 +417,7 @@ Treningsfokus:
       { id: "a07-16m", tekst: "Kom deg inn i 16 m (helst 11 m) før sjansen", rolle: "Spiss" },
       { id: "a07-plan", tekst: "Ha en plan i typiske situasjoner (1v1, skrå vinkel, innlegg, retur)", rolle: "Spiss" },
       { id: "a07-blindside", tekst: "Bevegelse i boks: vær på blindsiden lengst mulig, rykk på ball", rolle: "Spiss" },
+      { id: "a07-presisjon", tekst: "Presisjon nær mål, kraft på distanse: innenfor 16 m → sikker innside/plassering", rolle: "Spiss" },
       { id: "a07-retur", tekst: "Etterarbeid: returløp er en vane (alltid)", rolle: "Spiss" },
     ],
     ovelser: [
@@ -489,7 +496,7 @@ Nøkkeltall (rolleprofil):
       { kategori: "Fase 3", gjor: "Innside = kontroll (tilpass til rommet)", ikkeGjor: "Ikke velg teknikk som ikke matcher rommet" },
     ],
     kildefil: "A08-playmaker-analyse-v2.md",
-    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",
   },
   // ──────────────────────────────────────────
   // A10: Vingerrolle (Hugo Pereira)
@@ -1919,9 +1926,10 @@ Nøkkeltall (4 kamper):
 
 Hovedprinsipper:
 - 1.forsvarer er signalspiller: vinn når vi har balanse, sink når vi er i ubalanse
-- Restforsvar («def i off») = 3 + 2
-- Skap trusler i flere rom samtidig (ikke spill på første løp)
-- Valg-hierarki: frem hvis mulig, ellers vekk fra press for ny ballfører`,
+- Restforsvar («def i off») = 3 + 2 (posisjonell/numerisk balanse)
+- Skap trusler i flere rom samtidig (unngå «1. bevegelse-fellen»)
+- Valg-hierarki: frem hvis mulig, ellers vekk fra press for ny ballfører
+- Metodikk: Rolletrening (f.eks. stoppere på klareringer) og videoanalyse`,
     kpier: [
       { navn: "Gunstige brudd", referanseverdi: "97 (43 høye / 54 lave)", kilde: "Kampdimensjon (4 kamper)" },
       { navn: "Vellykkede overganger", referanseverdi: "22 (17 sjanser, 6 mål, 2 straffer)", kilde: "Kampdimensjon (4 kamper)" },
@@ -1933,10 +1941,10 @@ Hovedprinsipper:
     ],
     fokuspunkter: [
       { id: "a09-1f", tekst: "Førsteforsvarer = signalspiller: vinn når vi har balanse, sink når vi er i ubalanse (nærmeste er 1F)", rolle: "Stopper" },
-      { id: "a09-3pluss2", tekst: "Restforsvar («def i off») = 3 + 2 – rollene må fylles av de som er nærmest (ikke alltid samme to)", rolle: "Sentral midtbane" },
+      { id: "a09-3pluss2", tekst: "Restforsvar («def i off») = 3 + 2 – rollene må fylles av de som er nærmest (posisjonell balanse)", rolle: "Sentral midtbane" },
       { id: "a09-kilder", tekst: "Brudd kommer fra: god 1F, 2. ball/1. pasning/klarering med mening, og gode 2./3. forsvarere" },
-      { id: "a09-flere-rom", tekst: "I overgangen: skap trusler i flere rom samtidig – ikke spill på første løp (timing/utførelse)", rolle: "Spiss" },
-      { id: "a09-hierarki", tekst: "Valg-hierarki etter brudd: frem i lengderetning når det er der – ellers vekk fra press for ny ballfører rettvendt", rolle: "Sentral midtbane" },
+      { id: "a09-flere-rom", tekst: "I overgangen: skap trusler i flere rom samtidig – unngå «1. bevegelse-fellen» (vent på åpning)", rolle: "Spiss" },
+      { id: "a09-hierarki", tekst: "Valg-hierarki etter brudd: frem i lengderetning når det er der – ellers vekk fra press for ro med ball", rolle: "Sentral midtbane" },
     ],
     ovelser: [
       { kode: "uefa-a09-01" },
@@ -1949,6 +1957,6 @@ Hovedprinsipper:
       { kategori: "1. pasning", gjor: "Første pasning: frem hvis mulig – ellers vekk fra press", ikkeGjor: "Ikke tving bakrom for enhver pris" },
     ],
     kildefil: "A09-bjarte-lunde-aarsheim-overgang-analyse.md",
-    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
+    oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf",
   },
 ];

@@ -5,6 +5,7 @@ import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25Gener
 import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
 import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
+import Image from "next/image";
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -58,7 +59,6 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
           <div
             ref={importedSvgRef}
             className="[&_svg]:block [&_svg]:h-auto [&_svg]:max-h-[220px] [&_svg]:w-full"
-            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: sanitizeSvgMarkup(exercise.svgDiagram) }}
           />
         </div>
@@ -95,14 +95,27 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
       );
     }
     if (exercise.imageUrl) {
+      const isLocalImage = exercise.imageUrl.startsWith("/");
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
-          <img
-            src={exercise.imageUrl}
-            alt={`Diagram for ${exercise.name}`}
-            className="block max-h-[220px] w-full object-contain"
-            loading="lazy"
-          />
+          {isLocalImage ? (
+            <Image
+              src={exercise.imageUrl}
+              alt={`Diagram for ${exercise.name}`}
+              width={800}
+              height={220}
+              sizes="(max-width: 640px) 100vw, 600px"
+              className="block h-auto max-h-[220px] w-full object-contain"
+            />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={exercise.imageUrl}
+              alt={`Diagram for ${exercise.name}`}
+              className="block max-h-[220px] w-full object-contain"
+              loading="lazy"
+            />
+          )}
         </div>
       );
     }

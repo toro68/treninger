@@ -292,7 +292,6 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
             {editing.svgDiagram && (
               <div
                 className="rounded-xl border border-zinc-200 bg-white p-2 [&_svg]:block [&_svg]:h-auto [&_svg]:max-h-[220px] [&_svg]:w-full"
-                // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: sanitizeSvgMarkup(editing.svgDiagram) }}
               />
             )}

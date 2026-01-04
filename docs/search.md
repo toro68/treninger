@@ -1,3 +1,0 @@
-# Search functionality
-
-TODO instructions.

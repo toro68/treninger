@@ -200,7 +200,13 @@ export const MatchPrep = () => {
       return new Set();
     }
     const stored = window.localStorage.getItem("match-prep-checked");
-    return stored ? new Set(JSON.parse(stored)) : new Set();
+    if (!stored) return new Set();
+    try {
+      const parsed = JSON.parse(stored);
+      return new Set(Array.isArray(parsed) ? parsed : []);
+    } catch {
+      return new Set();
+    }
   });
   const [isOpen, setIsOpen] = useState(false);
 

@@ -1,5 +1,5 @@
 import { useSessionStore } from "@/store/sessionStore";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 const EQUIPMENT_LABELS: Record<string, string> = {
   vester: "Vester",
@@ -13,8 +13,7 @@ const EQUIPMENT_LABELS: Record<string, string> = {
 };
 
 export const EquipmentList = () => {
-  const generateSession = useSessionStore((state) => state.generateSession);
-  const sessionBlocks = useMemo(() => generateSession(), [generateSession]);
+  const sessionBlocks = useSessionStore((state) => state.generateSession());
   const [checked, setChecked] = useState<Set<string>>(new Set());
 
   // Vis alltid alt standard utstyr når det finnes øvelser

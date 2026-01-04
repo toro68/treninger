@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
 import { allExercises, Exercise, ExerciseSource, getExerciseCode } from "@/data/exercises";
 
 export type DurationUnit = "min" | "reps";
@@ -114,6 +114,31 @@ const hydrateSet = (value?: string[] | Set<string>) => {
   return new Set(value);
 };
 
+const safeJsonParse = (value: string): unknown => {
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+};
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  !!value && typeof value === "object" && !Array.isArray(value);
+
+type PersistedSessionState = {
+  playerCount: number;
+  stationCount: number;
+  selectedExerciseIds: Set<string>;
+  favoriteIds: Set<string>;
+  plannedBlocks: SessionBlock[] | null;
+  searchQuery: string;
+  customExercises: Exercise[];
+  exerciseOverrides: Record<string, Partial<Exercise>>;
+  exerciseLibrary: Exercise[];
+};
+
+type PersistedSessionStorageValue = StorageValue<PersistedSessionState>;
+
 const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock[] | null => {
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
   return blocks.map(({ id, customDuration, customUnit }) => ({
@@ -191,7 +216,7 @@ export const useSessionStore = create<SessionState>()(
       exerciseLibrary: buildExerciseLibrary(),
       playerCount: 12,
       stationCount: 3,
-      searchQuery: '',
+      searchQuery: "",
       highlightExerciseId: null,
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
@@ -303,68 +328,98 @@ export const useSessionStore = create<SessionState>()(
         searchQuery: state.searchQuery,
         customExercises: state.customExercises,
         exerciseOverrides: state.exerciseOverrides,
+        exerciseLibrary: state.exerciseLibrary,
       }),
       storage: {
-        getItem: (name) => {
+        getItem: (name): PersistedSessionStorageValue | null => {
           const str = localStorage.getItem(name);
           if (!str) return null;
-          const parsed = JSON.parse(str);
-          const persistedCustom = parsed.state?.customExercises ?? [];
-          const persistedOverridesRaw = parsed.state?.exerciseOverrides;
+          const parsed = safeJsonParse(str);
+          if (!isRecord(parsed)) return null;
+
+          const version = typeof parsed.version === "number" ? parsed.version : undefined;
+
+          const parsedState = isRecord(parsed.state) ? parsed.state : {};
+          const persistedCustom = Array.isArray(parsedState.customExercises)
+            ? (parsedState.customExercises as Exercise[])
+            : [];
+
+          const persistedOverridesRaw = parsedState.exerciseOverrides;
           const persistedOverrides: Record<string, Partial<Exercise>> =
-            persistedOverridesRaw && typeof persistedOverridesRaw === "object"
-              ? persistedOverridesRaw
+            persistedOverridesRaw && isRecord(persistedOverridesRaw)
+              ? (persistedOverridesRaw as Record<string, Partial<Exercise>>)
               : {};
           const exerciseLibrary = buildExerciseLibrary(persistedCustom, persistedOverrides);
-          
+
           // Oppdater plannedBlocks med ferske øvelsesdata
           const hydratedPlannedBlocks = hydratePlannedBlocks(
-            parsed.state?.plannedBlocks,
+            parsedState.plannedBlocks,
             exerciseLibrary
           );
 
+          const playerCount =
+            typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
+          const stationCount =
+            typeof parsedState.stationCount === "number" ? parsedState.stationCount : 3;
+
+          const searchQuery =
+            typeof parsedState.searchQuery === "string" ? parsedState.searchQuery : "";
+
+          const selectedExerciseIds = hydrateSet(
+            Array.isArray(parsedState.selectedExerciseIds)
+              ? (parsedState.selectedExerciseIds as string[])
+              : undefined
+          );
+          const favoriteIds = hydrateSet(
+            Array.isArray(parsedState.favoriteIds)
+              ? (parsedState.favoriteIds as string[])
+              : undefined
+          );
+
           return {
-            ...parsed,
             state: {
-              ...parsed.state,
               exerciseLibrary,
+              playerCount,
+              stationCount,
               customExercises: persistedCustom,
               exerciseOverrides: persistedOverrides,
               plannedBlocks: hydratedPlannedBlocks,
-              selectedExerciseIds: hydrateSet(parsed.state.selectedExerciseIds),
-              favoriteIds: hydrateSet(parsed.state.favoriteIds),
-              searchQuery: parsed.state.searchQuery ?? '',
+              selectedExerciseIds,
+              favoriteIds,
+              searchQuery,
             },
+            ...(typeof version === "number" ? { version } : {}),
           };
         },
-        setItem: (name, value) => {
+        setItem: (name, value: PersistedSessionStorageValue) => {
           const toStore = {
-            ...value,
             state: {
-              ...value.state,
+              playerCount: value.state.playerCount,
+              stationCount: value.state.stationCount,
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
-              selectedExerciseIds: serializeSet(value.state.selectedExerciseIds ?? new Set()),
-              favoriteIds: serializeSet(value.state.favoriteIds ?? new Set()),
-              searchQuery: value.state.searchQuery ?? '',
+              selectedExerciseIds: serializeSet(value.state.selectedExerciseIds),
+              favoriteIds: serializeSet(value.state.favoriteIds),
+              searchQuery: value.state.searchQuery ?? "",
               customExercises: value.state.customExercises ?? [],
               exerciseOverrides: value.state.exerciseOverrides ?? {},
             },
+            ...(typeof value.version === "number" ? { version: value.version } : {}),
           };
           try {
             localStorage.setItem(name, JSON.stringify(toStore));
           } catch (error) {
             if (isQuotaExceededError(error)) {
               console.warn(
-                'Kunne ikke lagre øktdata: lokal lagring er full. Fjern noen planlagte økter eller tøm nettleserdata.',
+                "Kunne ikke lagre øktdata: lokal lagring er full. Fjern noen planlagte økter eller tøm nettleserdata.",
                 error
               );
             } else {
-              console.error('Kunne ikke lagre øktdata', error);
+              console.error("Kunne ikke lagre øktdata", error);
             }
           }
         },
         removeItem: (name) => localStorage.removeItem(name),
-      },
+      } satisfies PersistStorage<PersistedSessionState>,
     }
   )
 );

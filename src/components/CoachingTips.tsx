@@ -294,7 +294,13 @@ export const CoachingTips = () => {
       return new Set();
     }
     const stored = window.localStorage.getItem("coaching-tips-checked");
-    return stored ? new Set(JSON.parse(stored)) : new Set();
+    if (!stored) return new Set();
+    try {
+      const parsed = JSON.parse(stored);
+      return new Set(Array.isArray(parsed) ? parsed : []);
+    } catch {
+      return new Set();
+    }
   });
   const [isOpen, setIsOpen] = useState(false);
 

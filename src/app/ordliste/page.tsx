@@ -51,7 +51,7 @@ export default function OrdlistePage() {
             </span>
             <h1 className="text-lg font-bold text-zinc-900">Treningsplanlegger</h1>
           </div>
-          <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">J16</span>
+          <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600">Staal J15-J16</span>
         </div>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav className="-mb-px flex gap-1">

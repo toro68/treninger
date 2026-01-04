@@ -201,14 +201,14 @@ export const UEFASeksjon = () => {
                                 <p className="text-xs font-semibold text-amber-700">Forsvarsfundament</p>
                                 <ul className="mt-1 space-y-1">
                                   <li>• Default: 5-3-2 lav blokk – steng mellom-/bakrom og led mot rom 1–2.</li>
-                                  <li>• Høyt press på signaler (nese mot mål, tverspasning, dårlig touch/klarering).</li>
+                                  <li>• Høyt press på signaler (nese mot eget mål, lang tverspasning, dårlig touch/klarering).</li>
                                   <li>• Vingback leder inn, ytre stopper skyver, resten sideforskyver.</li>
                                 </ul>
                               </div>
                               <div>
                                 <p className="text-xs font-semibold text-amber-700">Angrepsfundament</p>
                                 <ul className="mt-1 space-y-1">
-                                  <li>• Vingback permanent bredde for å åpne rom sentralt.</li>
+                                  <li>• Vingback permanent bredde for å åpne rom sentralt – bakrom prioriteres.</li>
                                   <li>• Ytre stopper frispilles og fører for å skape 2v1 eller tre opp.</li>
                                   <li>• Spissrelasjon møte–stikk + indreløper tredje mann, boksfyll + returrom.</li>
                                 </ul>
@@ -224,7 +224,7 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Lavt press: fem bak + tett midtbane – led mot rom 1–2.</li>
                                 <li>• Vingback kan ikke gå? Indreløper presser back, vingback tar kant, ytre stopper tar spiss.</li>
-                                <li>• Ved vending: motsatt vingback går aggressivt inn og leder mot indreløper/ytre stopper.</li>
+                                <li>• Ved vending: motsatt vingback går aggressivt inn og leder mot indreløper/sentral midt.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -259,7 +259,7 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• 5-sekundersregel + kontradekning («def i off»).</li>
                                 <li>• Brudd i lavt press kommer ofte dypt – indreløpere/vingbacker må ha løpskraft.</li>
-                                <li>• To feller: stopper mister ball med høye vingbacker, eller førsteforsvarer passeres og tempo i bakre treer avgjør.</li>
+                                <li>• To feller: stopper mister ball med høye vingbacker, eller førsteforsvarer passeres (forsink alltid!).</li>
                               </ul>
                             </div>
                             <div>
@@ -326,6 +326,7 @@ export const UEFASeksjon = () => {
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Tredjespiller setter rytmen: orientering før/under mottak og raske valg under press.</li>
+                                <li>• Tempo-forskjellen: skyldes pasningskraft, førstetouch og samtidige løp i fart (ikke bare færre touch).</li>
                                 <li>• Færre berøringer jo nærmere mål: tredjespiller 1–4 (tendens), målgivende 1–3, målscorer 1–2 (tendens).</li>
                                 <li>• Kant involveres: sett opp kant/back for 1v1/innleggsrom og gjennombrudd.</li>
                                 <li>• Etter avlevering: tredjespiller kan løpe inn i boks/45° for å binde stopper og åpne rom.</li>
@@ -415,6 +416,7 @@ export const UEFASeksjon = () => {
                                 <li>• Scoringsforberedelse: skaff deg tid via medtak/bevegelse og relasjonelle handlinger.</li>
                                 <li>• Plassering foran kraft: lavt i hjørnet (def.: maks 0,5 m over bakken og maks 1 m fra stolpen).</li>
                                 <li>• Skap flere avslutninger i sone 1cv/1ch (mellom 5-meteren og straffemerket).</li>
+                                <li>• Automatisering: tren på kamplike repetisjoner for å skape ro i avslutningsøyeblikket.</li>
                                 <li>• Innlegg: tidligere mellom forsvar og keeper, ofte langs bakken (45°/cutback).</li>
                               </ul>
                             </div>
@@ -423,9 +425,9 @@ export const UEFASeksjon = () => {
                                 Fasemodell
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Fase 1 – forberedelse: skap tid (medtak/bevegelse), se keeper og rom.</li>
-                                <li>• Fase 2 – utførelse: «pasning i hjørnet» (innside/utside/curl) fremfor maks kraft når du har valg.</li>
-                                <li>• Fase 3 – etterarbeid: 2./3. bevegelse i boks og jakt returrom.</li>
+                                <li>• Fase 1 – forberedelse: skap tid (medtak/bevegelse), orientering og valg før mottak.</li>
+                                <li>• Fase 2 – utførelse: «pasning i hjørnet» (innside/utside/curl) – lavt og kontrollert.</li>
+                                <li>• Fase 3 – etterarbeid: jakt returer og vær på plass for andreball (være «på» etter skudd).</li>
                               </ul>
                             </div>
                           </div>
@@ -644,7 +646,7 @@ export const UEFASeksjon = () => {
                               <div>
                                 <p className="font-semibold text-zinc-900">8. Teknisk utførelse</p>
                                 <ul className="mt-1 space-y-1">
-                                  <li>• 16 av 21 ett-touch med innsiden av foten.</li>
+                                  <li>• 16 av 21 ett-touch med innsiden av foten (presisjon).</li>
                                   <li>• Spill til mottakers riktige fot (lengst fra press).</li>
                                   <li>• Korte, kontrollerte pasninger.</li>
                                 </ul>
@@ -803,7 +805,7 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Touch pr kamp: 60–80.</li>
                                 <li>• Pasninger inn i siste tredjedel: 20–30 (indreløper).</li>
-                                <li>• Fremoverpasninger ≥70 % selv når vi ligger under.</li>
+                                <li>• Fremoverpasninger: snitt 54 % (opp mot 60 % når laget ligger under).</li>
                                 <li>• Sekundærpress: avklar hvem trykker/sikrer innen 6 sek.</li>
                               </ul>
                             </div>
@@ -829,6 +831,7 @@ export const UEFASeksjon = () => {
                                 <li>• «Slå pasning med intensjon – bryt linjen.»</li>
                                 <li>• «Vær spillbar – tenk to trekk frem.»</li>
                                 <li>• «6/8 styrer tempo: ro ned ved ledelse, skru opp ved jag.»</li>
+                                <li>• «Avslutninger: ofte fra distanse for å hindre kontring (lav uttelling).»</li>
                                 <li>• «Sekundærpress: avklar hvem trykker og hvem sikrer.»</li>
                               </ul>
                             </div>
@@ -913,6 +916,7 @@ export const UEFASeksjon = () => {
                                 <li>• Kom deg inn i 16 m (helst 11 m) før sjansen.</li>
                                 <li>• Ha en plan i typiske situasjoner (1v1, skrå vinkel, innlegg, retur).</li>
                                 <li>• Bevegelse i boks: blindsiden lenge, rykk på ball.</li>
+                                <li>• Presisjon nær mål, kraft på distanse: innenfor 16 m → sikker innside/plassering.</li>
                                 <li>• Etterarbeid: returløp er en vane (alltid).</li>
                               </ul>
                             </div>
@@ -980,10 +984,10 @@ export const UEFASeksjon = () => {
                               Overgangsspill – nøkkelgrep
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-red-900">
-                              <li>• 97 gunstige brudd (43 høyt / 54 lavt) → bare 22 vellykkede (17 sjanser).</li>
-                              <li>• Svakhet: 52 mislykkede overganger på 4 kamper.</li>
+                              <li>• 3 moduser: Direkte (bakrom), Mellomrom (true 2. ledd), Kontroll (vekk fra press).</li>
                               <li>• 1.forsvarer er signalspiller: vinn når vi har balanse, sink når vi er i ubalanse.</li>
-                              <li>• Restforsvar («def i off») = 3+2 og trusler i flere rom (ikke spill på første løp).</li>
+                              <li>• Restforsvar («def i off») = 3+2 i beredskap (posisjonell/numerisk).</li>
+                              <li>• Skap trusler i flere rom samtidig – ikke spill på første løp (timing/utførelse).</li>
                             </ul>
                           </div>
 
@@ -994,10 +998,10 @@ export const UEFASeksjon = () => {
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Gunstige brudd: 97 (43 høye / 54 lave).</li>
-                                <li>• Vellykkede overganger: 22 (17 sjanser, 6 mål, 2 straffer).</li>
-                                <li>• Mislykkede overganger: 52 (4 kamper).</li>
+                                <li>• Vellykket overgang-rate: 22/97 (≈23 %).</li>
+                                <li>• Sjanse-rate (etter vellykket overgang): 17/22 (≈77 %).</li>
                                 <li>• Valg etter brudd: mellomrom 43 / bakrom 29 / vekk fra press 27.</li>
-                                <li>• Brudd per kamp: Randaberg 33 / Viking2 27 / Madla 20 / VBK 17.</li>
+                                <li>• Mislykkede overganger: 52 (på 4 kamper).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1019,22 +1023,21 @@ export const UEFASeksjon = () => {
                                 Kampplan (MatchPrep)
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Definér presshøyde for kampen (diamant vs. lav blokk).</li>
-                                <li>• Avklar valg-hierarki: frem når det er der – ellers vekk fra press for ny ballfører.</li>
+                                <li>• Variert presshøyde: diamant (høyt) vs. lav blokk (lav risiko).</li>
+                                <li>• Avklar valg-hierarki: frem når det er der – ellers vekk fra press.</li>
                                 <li>• Sikre 3+2-roller før vi sender ekstra folk i angrep.</li>
-                                <li>• KPI: vellykket / mislykket / tar ikke overgangen.</li>
+                                <li>• Kontinuitet: relasjoner krever faste mønstre (Brodd brukte 40 spillere).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                Coaching cues
+                                Coaching cues & Metodikk
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Nærmeste er 1F!»</li>
-                                <li>• «Les klima: vinn eller sink!»</li>
-                                <li>• «3+2 igjen!»</li>
-                                <li>• «Ikke spill på første løp – få flere trusler!»</li>
-                                <li>• «Første pasning: frem hvis mulig – ellers vekk fra press.»</li>
+                                <li>• «Nærmeste er 1F!» – vinn eller sink.</li>
+                                <li>• «Ikke spill på første løp» – unngå 1. bevegelse-fellen.</li>
+                                <li>• «Bevar roen» – gå fra aggressivt forsvar til ro med ball.</li>
+                                <li>• Rolletrening: stoppere må trene på kontrollerte klareringer.</li>
                               </ul>
                             </div>
                           </div>
@@ -1044,7 +1047,7 @@ export const UEFASeksjon = () => {
                             <p className="text-xs text-zinc-500">
                               Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A09-bjarte-lunde-aarsheim-overgang-analyse.md</code>. Oppgave:{" "}
                               <a
-                                href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf"
+                                href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2014-oppgave-bjarte-lunde-aarsheim.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:underline"
@@ -2791,9 +2794,9 @@ export const UEFASeksjon = () => {
                             </p>
                             <ul className="mt-2 space-y-1 text-sm text-indigo-900">
                               <li>• 3 faser: komme på ball → gå fra mulighet til realitet → avgjørende pasning.</li>
-                              <li>• Fase 1: lavt/midt i mellomrom + åpen kropp ved mottak (88,3 % / 80,3 %).</li>
-                              <li>• Fase 2: kort tid på ball (0–2 sek = 59,8 %) → mye avgjøres før mottak.</li>
-                              <li>• Fase 3: presis + timet avgjørende pasning (ofte fra sentral sone/mellomrom).</li>
+                              <li>• Fase 1: mikrojusteringer (midt i rommet) slår doble bevegelser (35,4 % vs 1,3 %).</li>
+                              <li>• Fase 2: løs under ekstremt press (0–3 m i 84,5 %) på kort tid (0–2 sek = 59,8 %).</li>
+                              <li>• Fase 3: forløsning via presisjon (innside) + romforståelse (bakrom/innlegg).</li>
                             </ul>
                           </div>
 
@@ -2803,10 +2806,10 @@ export const UEFASeksjon = () => {
                                 Hovedprinsipper
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Bevegelse og kroppsvinkel i fase 1 for å komme på ball.</li>
-                                <li>• Orientering før mottak («se før du får den»).</li>
-                                <li>• Hurtig håndtering (1–2 touch) i fase 2.</li>
-                                <li>• Presis avgjørende pasning fra sentral sone/mellomrom.</li>
+                                <li>• Mikroposisjonering (midt i rommet) slår doble bevegelser.</li>
+                                <li>• Rett/sidevendt mottak for å spille fremover raskt.</li>
+                                <li>• Løs under ekstremt tid/press (0–2 sek, 0–3 m).</li>
+                                <li>• Forløsning = presisjon + romforståelse (bakrom/innlegg).</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -2817,7 +2820,7 @@ export const UEFASeksjon = () => {
                                 <li>• Høyde i mellomrom: lavt/midt i rommet = 88,3 %.</li>
                                 <li>• Kroppsvinkel ved mottak: rett-/sidevendt = 80,3 %.</li>
                                 <li>• Tid på ball (fase 2): 0–2 sek = 59,8 %.</li>
-                                <li>• Touch (fase 2): 1 touch = 27,8 % (2 touch = 24,7 %).</li>
+                                <li>• Touch (fase 2): 1 touch = 27,8 % (3 touch = 24,7 %).</li>
                               </ul>
                             </div>
                           </div>
@@ -2839,10 +2842,10 @@ export const UEFASeksjon = () => {
                                 Coaching cues
                               </h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• «Se før du får den».</li>
-                                <li>• «Åpen kropp – 2 touch».</li>
-                                <li>• «Vær presis og treff timing mot løp».</li>
-                                <li>• Ikke la playmaker gjemme seg – krevd av triggerord.</li>
+                                <li>• «Se før du får den» – ha scannet ferdig.</li>
+                                <li>• «Små steg – finn midten av rommet».</li>
+                                <li>• «Vekt den – på sølvfat» (fase 3).</li>
+                                <li>• «Kamufler før du stikker» – ikke telegraphér.</li>
                               </ul>
                             </div>
                           </div>
@@ -2852,7 +2855,7 @@ export const UEFASeksjon = () => {
                             <p className="text-xs text-zinc-500">
                               Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A08-playmaker-analyse-v2.md</code>. Oppgave:{" "}
                               <a
-                                href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf"
+                                href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:underline"
