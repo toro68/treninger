@@ -39,14 +39,16 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
 
 
   useEffect(() => {
-    if (highlightExerciseId) {
-      const match = filtered.find((exercise) => exercise.id === highlightExerciseId);
-      if (match) {
-        setSearchQuery(match.name);
-        onHighlightConsumed?.();
-      }
+    if (!highlightExerciseId) return;
+
+    const match = exercises.find((exercise) => exercise.id === highlightExerciseId);
+    if (!match) return;
+
+    if (searchQuery !== match.name) {
+      setSearchQuery(match.name);
     }
-  }, [highlightExerciseId, filtered, setSearchQuery, onHighlightConsumed]);
+    onHighlightConsumed?.();
+  }, [highlightExerciseId, exercises, searchQuery, setSearchQuery, onHighlightConsumed]);
 
   const handleEdit = (exercise: Exercise) => {
     setEditing(exercise);
