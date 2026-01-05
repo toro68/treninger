@@ -1,8 +1,20 @@
 import { useSessionStore } from "@/store/sessionStore";
+import { useDeferredValue, useEffect, useState } from "react";
 
 export const SearchField = () => {
   const searchQuery = useSessionStore((state) => state.searchQuery);
   const setSearchQuery = useSessionStore((state) => state.setSearchQuery);
+  const [draft, setDraft] = useState(searchQuery);
+  const deferredDraft = useDeferredValue(draft);
+
+  useEffect(() => {
+    setDraft(searchQuery);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (searchQuery === deferredDraft) return;
+    setSearchQuery(deferredDraft);
+  }, [deferredDraft, searchQuery, setSearchQuery]);
 
   return (
     <label className="flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-500 shadow-sm focus-within:border-zinc-400 focus-within:ring-2 focus-within:ring-black/5">
@@ -12,14 +24,14 @@ export const SearchField = () => {
       <input
         type="search"
         placeholder="Søk etter øvelse, tema eller utstyr"
-        value={searchQuery}
-        onChange={(event) => setSearchQuery(event.target.value)}
+        value={draft}
+        onChange={(event) => setDraft(event.target.value)}
         className="w-full bg-transparent text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
       />
-      {searchQuery && (
+      {draft && (
         <button
           type="button"
-          onClick={() => setSearchQuery("")}
+          onClick={() => setDraft("")}
           className="text-xs text-zinc-400 hover:text-zinc-600"
         >
           Nullstill

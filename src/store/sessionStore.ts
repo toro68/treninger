@@ -583,3 +583,97 @@ export const filterExercises = (
       return a.name.localeCompare(b.name, "nb");
     });
 };
+
+export const filterAndGroupExercises = ({
+  exerciseLibrary,
+  playerCount,
+  stationCount,
+  favoriteIds,
+  theme,
+  sourceFilter,
+  filterByPlayerCount,
+  searchQuery,
+  categories,
+}: {
+  exerciseLibrary: Exercise[];
+  playerCount: number;
+  stationCount?: number;
+  favoriteIds?: Set<string>;
+  theme?: string;
+  sourceFilter?: ExerciseSource | "egen" | null;
+  filterByPlayerCount?: boolean;
+  searchQuery?: string;
+  categories: Set<string>;
+}): Record<string, Exercise[]> => {
+  const playersPerStation =
+    stationCount && stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+  const normalizedSearch = searchQuery?.trim().toLowerCase();
+
+  const grouped: Record<string, Exercise[]> = {};
+
+  const matchesSearch = (exercise: Exercise) => {
+    if (!normalizedSearch) return true;
+    const exerciseCode = getExerciseCode(exercise).toLowerCase();
+    const haystack = [
+      exercise.name,
+      exercise.description,
+      exercise.theme,
+      exercise.equipment?.join(" "),
+      exercise.coachingPoints?.join(" "),
+      exercise.variations?.join(" "),
+      exercise.source,
+      exerciseCode,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    return haystack.includes(normalizedSearch);
+  };
+
+  const matchesSource = (exercise: Exercise) => {
+    if (sourceFilter === null || sourceFilter === undefined) return true;
+    const exerciseSource = exercise.source || "egen";
+    if (sourceFilter === "egen") {
+      return !exercise.source || exercise.source === "eggen";
+    }
+    return exerciseSource === sourceFilter;
+  };
+
+  const matchesPlayerCount = (exercise: Exercise) => {
+    if (!filterByPlayerCount) return true;
+    return playersPerStation >= exercise.playersMin && playersPerStation <= exercise.playersMax;
+  };
+
+  for (const exercise of exerciseLibrary) {
+    if (!categories.has(exercise.category)) continue;
+    if (theme && exercise.theme !== theme) continue;
+    if (!matchesSource(exercise)) continue;
+    if (!matchesPlayerCount(exercise)) continue;
+    if (!matchesSearch(exercise)) continue;
+
+    (grouped[exercise.category] ??= []).push(exercise);
+  }
+
+  for (const category of categories) {
+    const list = grouped[category];
+    if (!list) continue;
+    list.sort((a, b) => {
+      // 1. Favoritter først
+      const aFav = favoriteIds?.has(a.id) ? 0 : 1;
+      const bFav = favoriteIds?.has(b.id) ? 0 : 1;
+      if (aFav !== bFav) return aFav - bFav;
+
+      // 2. Sorter etter hvor godt øvelsen passer
+      const relevantPlayersPerStation =
+        category === "station" || category === "rondo" ? playersPerStation : undefined;
+      const aScore = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
+      const bScore = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
+      if (aScore !== bScore) return aScore - bScore;
+
+      // 3. Alfabetisk
+      return a.name.localeCompare(b.name, "nb");
+    });
+  }
+
+  return grouped;
+};

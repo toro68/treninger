@@ -4,11 +4,11 @@ import { PlayerSetup } from "@/components/PlayerSetup";
 import { ExerciseList } from "@/components/ExerciseList";
 import { SessionTimeline } from "@/components/SessionTimeline";
 import { EquipmentList } from "@/components/EquipmentList";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
 import { ExerciseManager } from "@/components/ExerciseManager";
 import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
-import { useSessionStore } from "@/store/sessionStore";
+import { filterAndGroupExercises, useSessionStore } from "@/store/sessionStore";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
 import { ScoringZonesTemplateDiagram } from "@/components/ScoringZonesTemplateDiagram";
 import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
@@ -24,10 +24,47 @@ export default function Home() {
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
   const highlightExerciseId = useSessionStore((state) => state.highlightExerciseId);
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
+  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
+  const playerCount = useSessionStore((state) => state.playerCount);
+  const stationCount = useSessionStore((state) => state.stationCount);
+  const favoriteIds = useSessionStore((state) => state.favoriteIds);
+  const searchQuery = useSessionStore((state) => state.searchQuery);
 
   // Derive sourceFilter from highlightExerciseId
   const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
   const sourceFilter: SourceFilter = highlightExerciseId ? "uefa" : sourceFilterState;
+  const activeTheme = themeFilter === "alle" ? undefined : themeFilter;
+
+  const groupedExercises = useMemo(() => {
+    const categories = new Set<string>([
+      "warmup",
+      "aktivisering",
+      "rondo",
+      "station",
+      "game",
+      "cooldown",
+    ]);
+    return filterAndGroupExercises({
+      exerciseLibrary,
+      playerCount,
+      stationCount,
+      favoriteIds,
+      theme: activeTheme,
+      sourceFilter,
+      filterByPlayerCount,
+      searchQuery,
+      categories,
+    });
+  }, [
+    exerciseLibrary,
+    playerCount,
+    stationCount,
+    favoriteIds,
+    activeTheme,
+    sourceFilter,
+    filterByPlayerCount,
+    searchQuery,
+  ]);
 
   return (
     <div className="min-h-screen bg-zinc-50">
@@ -85,20 +122,21 @@ export default function Home() {
       </header>
 
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
-        {/* Desktop: 2-kolonner side ved side */}
-        <div className="hidden lg:grid lg:grid-cols-[1.4fr_1fr] lg:gap-8">
-          {/* Venstre kolonne - Velg øvelser */}
-          <div className="space-y-6">
+        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
+          <div className="space-y-4 lg:space-y-6">
             <PlayerSetup />
-            <ExerciseManager highlightExerciseId={highlightExerciseId} onHighlightConsumed={() => setHighlightExercise(null)} />
-            <section className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
+            <ExerciseManager
+              highlightExerciseId={highlightExerciseId}
+              onHighlightConsumed={() => setHighlightExercise(null)}
+            />
+            <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
               <div className="flex flex-col gap-3">
                 <div className="flex items-center justify-between">
                   <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
                   <ExerciseCodeLegend />
                 </div>
-                <Filters 
-                  activeTheme={themeFilter} 
+                <Filters
+                  activeTheme={themeFilter}
                   onThemeChange={setThemeFilter}
                   sourceFilter={sourceFilter}
                   onSourceFilterChange={setSourceFilter}
@@ -106,129 +144,45 @@ export default function Home() {
                   onFilterByPlayerCountChange={setFilterByPlayerCount}
                 />
               </div>
-              <div className="mt-6 space-y-8">
+              <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
                 <ExerciseList
                   title="Oppvarming"
                   category="warmup"
-                  theme={themeFilter === "alle" ? undefined : themeFilter}
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.warmup ?? []}
                 />
                 <ExerciseList
                   title="Aktivisering"
                   category="aktivisering"
-                  theme={themeFilter === "alle" ? undefined : themeFilter}
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.aktivisering ?? []}
                 />
                 <ExerciseList
                   title="Rondo"
                   category="rondo"
-                  theme={themeFilter === "alle" ? undefined : themeFilter}
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.rondo ?? []}
                 />
                 <ExerciseList
                   title="Stasjoner"
                   category="station"
-                  theme={themeFilter === "alle" ? undefined : themeFilter}
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.station ?? []}
                 />
                 <ExerciseList
                   title="Spill"
                   category="game"
-                  theme={themeFilter === "alle" ? undefined : themeFilter}
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.game ?? []}
                 />
                 <ExerciseList
                   title="Avslutning"
                   category="cooldown"
-                  sourceFilter={sourceFilter}
-                  filterByPlayerCount={filterByPlayerCount}
+                  exercises={groupedExercises.cooldown ?? []}
                 />
               </div>
             </section>
           </div>
 
-          {/* Høyre kolonne - Øktplan */}
           <div className="space-y-6">
             <SessionTimeline />
             <EquipmentList />
           </div>
-        </div>
-
-        {/* Mobil: Alt i én kolonne, øktplan nederst */}
-        <div className="lg:hidden space-y-4">
-          <PlayerSetup />
-          <ExerciseManager
-            highlightExerciseId={highlightExerciseId}
-            onHighlightConsumed={() => setHighlightExercise(null)}
-          />
-          <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
-            <div className="flex flex-col gap-3">
-              <div className="flex items-center justify-between">
-                <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
-                <ExerciseCodeLegend />
-              </div>
-              <Filters 
-                activeTheme={themeFilter} 
-                onThemeChange={setThemeFilter}
-                sourceFilter={sourceFilter}
-                onSourceFilterChange={setSourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-                onFilterByPlayerCountChange={setFilterByPlayerCount}
-              />
-            </div>
-            <div className="mt-4 space-y-6">
-              <ExerciseList
-                title="Oppvarming"
-                category="warmup"
-                theme={themeFilter === "alle" ? undefined : themeFilter}
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-              <ExerciseList
-                title="Aktivisering"
-                category="aktivisering"
-                theme={themeFilter === "alle" ? undefined : themeFilter}
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-              <ExerciseList
-                title="Rondo"
-                category="rondo"
-                theme={themeFilter === "alle" ? undefined : themeFilter}
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-              <ExerciseList
-                title="Stasjoner"
-                category="station"
-                theme={themeFilter === "alle" ? undefined : themeFilter}
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-              <ExerciseList
-                title="Spill"
-                category="game"
-                theme={themeFilter === "alle" ? undefined : themeFilter}
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-              <ExerciseList
-                title="Avslutning"
-                category="cooldown"
-                sourceFilter={sourceFilter}
-                filterByPlayerCount={filterByPlayerCount}
-              />
-            </div>
-          </section>
-
-          {/* Øktplan nederst på mobil */}
-          <SessionTimeline />
-          <EquipmentList />
         </div>
 
         <section className="mt-6 rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">

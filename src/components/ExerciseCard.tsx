@@ -1,11 +1,12 @@
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { useSessionStore } from "@/store/sessionStore";
-import { useRef, useState } from "react";
+import { useRef, useState, useMemo, memo } from "react";
 import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25GeneralTemplateDiagram";
 import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
 import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 import Image from "next/image";
+import { useShallow } from "zustand/react/shallow";
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -28,14 +29,14 @@ const StarIcon = ({ filled }: { filled: boolean }) => (
   </svg>
 );
 
-export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
-  const toggleExercise = useSessionStore((state) => state.toggleExercise);
-  const toggleFavorite = useSessionStore((state) => state.toggleFavorite);
-  const selected = useSessionStore((state) =>
-    state.selectedExerciseIds.has(exercise.id)
-  );
-  const isFavorite = useSessionStore((state) =>
-    state.favoriteIds.has(exercise.id)
+export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
+  const { toggleExercise, toggleFavorite, selected, isFavorite } = useSessionStore(
+    useShallow((state) => ({
+      toggleExercise: state.toggleExercise,
+      toggleFavorite: state.toggleFavorite,
+      selected: state.selectedExerciseIds.has(exercise.id),
+      isFavorite: state.favoriteIds.has(exercise.id),
+    }))
   );
 
   const [showDetails, setShowDetails] = useState(false);
@@ -46,24 +47,39 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
 
   const disabled = exercise.alwaysIncluded;
 
-  const exerciseDiagram = (() => {
-    if (exercise.svgDiagram) {
+  const hasDiagram =
+    !!exercise.svgDiagram ||
+    exercise.id === "uefa-a01-03" ||
+    exercise.id === "uefa-a01-04" ||
+    !!exercise.imageUrl;
+
+  const hasExtraInfo =
+    hasDiagram || exercise.coachingPoints.length > 0 || exercise.variations.length > 0 || !!exercise.sourceRef;
+
+  const sanitizedSvg = useMemo(() => {
+    if (!showDetails) return null;
+    if (!exercise.svgDiagram) return null;
+    return sanitizeSvgMarkup(exercise.svgDiagram);
+  }, [showDetails, exercise.svgDiagram]);
+
+  const exerciseDiagram = useMemo(() => {
+    if (!showDetails) return null;
+
+    if (sanitizedSvg) {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
           <div className="flex justify-end">
-            <SvgDownloadButton
-              containerRef={importedSvgRef}
-              fileName={`${exercise.id}-diagram`}
-            />
+            <SvgDownloadButton containerRef={importedSvgRef} fileName={`${exercise.id}-diagram`} />
           </div>
           <div
             ref={importedSvgRef}
             className="[&_svg]:block [&_svg]:h-auto [&_svg]:max-h-[220px] [&_svg]:w-full"
-            dangerouslySetInnerHTML={{ __html: sanitizeSvgMarkup(exercise.svgDiagram) }}
+            dangerouslySetInnerHTML={{ __html: sanitizedSvg }}
           />
         </div>
       );
     }
+
     if (exercise.id === "uefa-a01-03") {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
@@ -79,6 +95,7 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
         </div>
       );
     }
+
     if (exercise.id === "uefa-a01-04") {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
@@ -94,6 +111,7 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
         </div>
       );
     }
+
     if (exercise.imageUrl) {
       const isLocalImage = exercise.imageUrl.startsWith("/");
       return (
@@ -121,10 +139,11 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
     }
 
     return null;
-  })();
+  }, [showDetails, sanitizedSvg, exercise.id, exercise.imageUrl, exercise.name]);
 
   return (
     <label
+      style={{ contentVisibility: "auto", containIntrinsicSize: "260px" }}
       className={`group flex cursor-pointer items-start gap-3 rounded-xl border p-3 sm:p-4 transition-all duration-200 hover:shadow-md ${
         selected
           ? "border-black bg-zinc-50 ring-1 ring-black/5"
@@ -243,7 +262,7 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
           )}
         </div>
         <div className="mt-2 flex items-center gap-3">
-          {!exercise.alwaysIncluded && (exercise.coachingPoints.length > 0 || exercise.variations.length > 0) && (
+          {hasExtraInfo && (
             <button
               type="button"
               onClick={(event) => {
@@ -318,4 +337,6 @@ export const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
       </div>
     </label>
   );
-};
+});
+
+ExerciseCard.displayName = "ExerciseCard";

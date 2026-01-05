@@ -2,7 +2,7 @@ import { useExercises } from "@/hooks/useExercises";
 import { useSessionStore } from "@/store/sessionStore";
 import type { Exercise, ExerciseCategory } from "@/data/exercises";
 import { getExerciseCode } from "@/data/exercises";
-import { useMemo, useState, useEffect } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 
 const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
@@ -22,6 +22,8 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
   const [isOpen, setIsOpen] = useState(false);
   const searchQuery = useSessionStore((state) => state.searchQuery);
   const setSearchQuery = useSessionStore((state) => state.setSearchQuery);
+  const [draftSearch, setDraftSearch] = useState(searchQuery);
+  const deferredDraftSearch = useDeferredValue(draftSearch);
   const [editing, setEditing] = useState<Exercise | null>(null);
 
   const filtered = useMemo(() => {
@@ -37,6 +39,15 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
     });
   }, [exercises, searchQuery]);
 
+  useEffect(() => {
+    setDraftSearch(searchQuery);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (searchQuery === deferredDraftSearch) return;
+    setSearchQuery(deferredDraftSearch);
+  }, [deferredDraftSearch, searchQuery, setSearchQuery]);
+
 
   useEffect(() => {
     if (!highlightExerciseId) return;
@@ -44,9 +55,8 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
     const match = exercises.find((exercise) => exercise.id === highlightExerciseId);
     if (!match) return;
 
-    if (searchQuery !== match.name) {
-      setSearchQuery(match.name);
-    }
+    setDraftSearch(match.name);
+    setSearchQuery(match.name);
     onHighlightConsumed?.();
   }, [highlightExerciseId, exercises, searchQuery, setSearchQuery, onHighlightConsumed]);
 
@@ -133,8 +143,8 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
               type="search"
               placeholder="Søk etter øvelse"
               className="flex-1 min-w-[150px] rounded-full border border-zinc-200 px-4 py-2 text-sm"
-              value={searchQuery}
-              onChange={(event) => setSearchQuery(event.target.value)}
+              value={draftSearch}
+              onChange={(event) => setDraftSearch(event.target.value)}
             />
           </div>
           <div className="mt-4 max-h-64 overflow-auto rounded-xl border border-zinc-100" role="region" aria-live="polite">
