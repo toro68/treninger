@@ -32,30 +32,35 @@ export default async function MindsetPage() {
           <nav className="flex gap-1 -mb-px">
             <Link
               href="/"
+              prefetch={false}
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
               Trening
             </Link>
             <Link
               href="/kamp"
+              prefetch={false}
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
               Kamp
             </Link>
             <Link
               href="/opplaering"
+              prefetch={false}
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
               Opplæring
             </Link>
             <Link
               href="/ordliste"
+              prefetch={false}
               className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 transition"
             >
               Ordliste
             </Link>
             <Link
               href="/mindset"
+              prefetch={false}
               className="rounded-t-lg border-b-2 border-black px-4 py-2 text-sm font-medium text-zinc-900"
             >
               Mindset

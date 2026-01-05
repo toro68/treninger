@@ -55,11 +55,11 @@ export default function OrdlistePage() {
         </div>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav className="-mb-px flex gap-1">
-            <Link href="/" className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Trening</Link>
-            <Link href="/kamp" className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Kamp</Link>
-            <Link href="/opplaering" className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Opplæring</Link>
-            <Link href="/ordliste" className="rounded-t-lg border-b-2 border-black px-4 py-2 text-sm font-medium text-zinc-900">Ordliste</Link>
-            <Link href="/mindset" className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Mindset</Link>
+            <Link href="/" prefetch={false} className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Trening</Link>
+            <Link href="/kamp" prefetch={false} className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Kamp</Link>
+            <Link href="/opplaering" prefetch={false} className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Opplæring</Link>
+            <Link href="/ordliste" prefetch={false} className="rounded-t-lg border-b-2 border-black px-4 py-2 text-sm font-medium text-zinc-900">Ordliste</Link>
+            <Link href="/mindset" prefetch={false} className="rounded-t-lg border-b-2 border-transparent px-4 py-2 text-sm font-medium text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700">Mindset</Link>
           </nav>
         </div>
       </header>
