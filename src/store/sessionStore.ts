@@ -89,6 +89,28 @@ const buildTimeline = ({
   return timeline;
 };
 
+export const deriveSessionBlocks = ({
+  selectedExerciseIds,
+  exerciseLibrary,
+  plannedBlocks,
+}: {
+  selectedExerciseIds: Set<string>;
+  exerciseLibrary: Exercise[];
+  plannedBlocks: SessionBlock[] | null;
+}): SessionBlock[] => {
+  const base = buildTimeline({ selectedExerciseIds, exerciseLibrary });
+  if (!plannedBlocks) return base;
+
+  const baseIds = new Set(base.map((block) => block.id));
+  const planIds = new Set(plannedBlocks.map((block) => block.id));
+
+  const sameSize = baseIds.size === planIds.size;
+  const allMatch = [...baseIds].every((id) => planIds.has(id));
+  if (!sameSize || !allMatch) return base;
+
+  return plannedBlocks;
+};
+
 const sortExercises = (exercises: Exercise[]) =>
   [...exercises].sort((a, b) => a.name.localeCompare(b.name, "nb"));
 
@@ -293,28 +315,11 @@ export const useSessionStore = create<SessionState>()(
       resetPlan: () => set({ plannedBlocks: null, selectedExerciseIds: new Set() }),
       generateSession: () => {
         const state = get();
-        const base = buildTimeline({
+        return deriveSessionBlocks({
           selectedExerciseIds: state.selectedExerciseIds,
           exerciseLibrary: state.exerciseLibrary,
+          plannedBlocks: state.plannedBlocks ?? null,
         });
-        const plan = state.plannedBlocks;
-        if (!plan) return base;
-
-        // Sjekk at plan matcher base (samme øvelser)
-        const baseIds = new Set(base.map((block) => block.id));
-        const planIds = new Set(plan.map((block) => block.id));
-
-        // Hvis øvelser er lagt til eller fjernet, ignorer plan.
-        // NB: Må være side-effektfri (kalles under render).
-        const sameSize = baseIds.size === planIds.size;
-        const allMatch = [...baseIds].every((id) => planIds.has(id));
-
-        if (!sameSize || !allMatch) {
-          return base;
-        }
-
-        // Behold tilpasset rekkefølge og varigheter fra plan
-        return plan;
       },
     }),
     {

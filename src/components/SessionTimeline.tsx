@@ -1,7 +1,7 @@
-import { recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
+import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
 import { getExerciseCode } from "@/data/exercises";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -15,7 +15,13 @@ type SessionPart = {
 };
 
 export const SessionTimeline = () => {
-  const sessionBlocks = useSessionStore((state) => state.generateSession());
+  const selectedExerciseIds = useSessionStore((state) => state.selectedExerciseIds);
+  const plannedBlocks = useSessionStore((state) => state.plannedBlocks);
+  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
+  const sessionBlocks = useMemo(
+    () => deriveSessionBlocks({ selectedExerciseIds, exerciseLibrary, plannedBlocks }),
+    [selectedExerciseIds, exerciseLibrary, plannedBlocks]
+  );
   const playerCount = useSessionStore((state) => state.playerCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
