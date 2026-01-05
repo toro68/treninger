@@ -304,12 +304,12 @@ export const useSessionStore = create<SessionState>()(
         const baseIds = new Set(base.map((block) => block.id));
         const planIds = new Set(plan.map((block) => block.id));
 
-        // Hvis øvelser er lagt til eller fjernet, reset plan
+        // Hvis øvelser er lagt til eller fjernet, ignorer plan.
+        // NB: Må være side-effektfri (kalles under render).
         const sameSize = baseIds.size === planIds.size;
         const allMatch = [...baseIds].every((id) => planIds.has(id));
 
         if (!sameSize || !allMatch) {
-          set({ plannedBlocks: null });
           return base;
         }
 
