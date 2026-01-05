@@ -18,17 +18,30 @@ import { GreenLandscapeTemplateDiagram } from "@/components/GreenLandscapeTempla
 import { GreenSquareTemplateDiagram } from "@/components/GreenSquareTemplateDiagram";
 import { HalfPitchTopTemplateDiagram } from "@/components/HalfPitchTopTemplateDiagram";
 import Link from "next/link";
+import { useShallow } from "zustand/react/shallow";
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
-  const highlightExerciseId = useSessionStore((state) => state.highlightExerciseId);
-  const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
-  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
-  const playerCount = useSessionStore((state) => state.playerCount);
-  const stationCount = useSessionStore((state) => state.stationCount);
-  const favoriteIds = useSessionStore((state) => state.favoriteIds);
-  const searchQuery = useSessionStore((state) => state.searchQuery);
+  const {
+    highlightExerciseId,
+    setHighlightExercise,
+    exerciseLibrary,
+    playerCount,
+    stationCount,
+    favoriteIds,
+    searchQuery,
+  } = useSessionStore(
+    useShallow((state) => ({
+      highlightExerciseId: state.highlightExerciseId,
+      setHighlightExercise: state.setHighlightExercise,
+      exerciseLibrary: state.exerciseLibrary,
+      playerCount: state.playerCount,
+      stationCount: state.stationCount,
+      favoriteIds: state.favoriteIds,
+      searchQuery: state.searchQuery,
+    }))
+  );
 
   // Derive sourceFilter from highlightExerciseId
   const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
