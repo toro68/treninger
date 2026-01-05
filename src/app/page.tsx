@@ -4,9 +4,8 @@ import { PlayerSetup } from "@/components/PlayerSetup";
 import { ExerciseList } from "@/components/ExerciseList";
 import { SessionTimeline } from "@/components/SessionTimeline";
 import { EquipmentList } from "@/components/EquipmentList";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Filters, ThemeFilter, SourceFilter } from "@/components/Filters";
-import { ExerciseManager } from "@/components/ExerciseManager";
 import { ExerciseCodeLegend } from "@/components/ExerciseCodeLegend";
 import { filterAndGroupExercises, useSessionStore } from "@/store/sessionStore";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
@@ -26,6 +25,7 @@ export default function Home() {
   const {
     highlightExerciseId,
     setHighlightExercise,
+    setSearchQuery,
     exerciseLibrary,
     playerCount,
     stationCount,
@@ -35,6 +35,7 @@ export default function Home() {
     useShallow((state) => ({
       highlightExerciseId: state.highlightExerciseId,
       setHighlightExercise: state.setHighlightExercise,
+      setSearchQuery: state.setSearchQuery,
       exerciseLibrary: state.exerciseLibrary,
       playerCount: state.playerCount,
       stationCount: state.stationCount,
@@ -47,6 +48,15 @@ export default function Home() {
   const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
   const sourceFilter: SourceFilter = highlightExerciseId ? "uefa" : sourceFilterState;
   const activeTheme = themeFilter === "alle" ? undefined : themeFilter;
+
+  useEffect(() => {
+    if (!highlightExerciseId) return;
+    const match = exerciseLibrary.find((exercise) => exercise.id === highlightExerciseId);
+    if (match) {
+      setSearchQuery(match.name);
+    }
+    setHighlightExercise(null);
+  }, [exerciseLibrary, highlightExerciseId, setHighlightExercise, setSearchQuery]);
 
   const groupedExercises = useMemo(() => {
     const categories = new Set<string>([
@@ -135,17 +145,13 @@ export default function Home() {
       </header>
 
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
-        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
-          <div className="space-y-4 lg:space-y-6">
-            <PlayerSetup />
-            <ExerciseManager
-              highlightExerciseId={highlightExerciseId}
-              onHighlightConsumed={() => setHighlightExercise(null)}
-            />
-            <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
-              <div className="flex flex-col gap-3">
-                <div className="flex items-center justify-between">
-                  <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
+	        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
+	          <div className="space-y-4 lg:space-y-6">
+	            <PlayerSetup />
+	            <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
+	              <div className="flex flex-col gap-3">
+	                <div className="flex items-center justify-between">
+	                  <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
                   <ExerciseCodeLegend />
                 </div>
                 <Filters
