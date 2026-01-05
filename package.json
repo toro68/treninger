@@ -7,6 +7,7 @@
     "build": "NEXT_DISABLE_TURBOPACK=1 next build",
     "start": "next start --port 4000",
     "lint": "eslint",
+    "clean": "rm -rf .next node_modules tsconfig.tsbuildinfo",
     "validate:uefa": "tsx scripts/validate-uefa.ts",
     "audit:categories": "tsx scripts/audit-exercise-categorization.ts",
     "prod:sjekk": "npm run lint:safe && npm run build && npm run test",
