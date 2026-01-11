@@ -40,7 +40,7 @@ export const SessionTimeline = () => {
   const [showShareOptions, setShowShareOptions] = useState(false);
   const [showCooldown, setShowCooldown] = useState(true);
 
-  // Grupper blokker i 7 deler (matcher alle kategorier som kan velges i UI)
+  // Grupper blokker i 6 deler (matcher kategoriene som vises i UI)
   const parts: SessionPart[] = [
     {
       key: "skadefri",
@@ -55,32 +55,26 @@ export const SessionTimeline = () => {
       blocks: [],
     },
     {
-      key: "aktivisering",
-      title: "3. Aktivisering",
-      subtitle: "Valgfri",
-      blocks: [],
-    },
-    {
       key: "rondo",
-      title: "4. Rondo",
+      title: "3. Rondo",
       subtitle: "Valgfri",
       blocks: [],
     },
     {
       key: "stasjoner",
-      title: "5. Stasjoner",
+      title: "4. Stasjoner",
       subtitle: "",
       blocks: [],
     },
     {
       key: "spill",
-      title: "6. Spill",
+      title: "5. Spill",
       subtitle: "",
       blocks: [],
     },
     {
       key: "avslutning",
-      title: "7. Avslutning",
+      title: "6. Avslutning",
       subtitle: "Utstrekking og styrke",
       blocks: [],
     },
@@ -90,26 +84,24 @@ export const SessionTimeline = () => {
     const cat = block.exercise.category;
     if (cat === "fixed-warmup") {
       parts[0].blocks.push({ block, globalIndex: index });
-    } else if (cat === "warmup") {
+    } else if (cat === "warmup" || cat === "aktivisering") {
       parts[1].blocks.push({ block, globalIndex: index });
-    } else if (cat === "aktivisering") {
-      parts[2].blocks.push({ block, globalIndex: index });
     } else if (cat === "rondo") {
-      parts[3].blocks.push({ block, globalIndex: index });
+      parts[2].blocks.push({ block, globalIndex: index });
     } else if (cat === "station") {
-      parts[4].blocks.push({ block, globalIndex: index });
+      parts[3].blocks.push({ block, globalIndex: index });
     } else if (cat === "game") {
-      parts[5].blocks.push({ block, globalIndex: index });
+      parts[4].blocks.push({ block, globalIndex: index });
     } else if (cat === "cooldown") {
-      parts[6].blocks.push({ block, globalIndex: index });
+      parts[5].blocks.push({ block, globalIndex: index });
     }
   });
 
   // Oppdater stasjon-subtitle
-  const stationCount = parts[4].blocks.length;
+  const stationCount = parts[3].blocks.length;
   if (stationCount > 0) {
     const playersPerStation = Math.floor(playerCount / stationCount);
-    parts[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+    parts[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
   }
 
   const totalMinutes = sessionBlocks.reduce(
@@ -172,7 +164,6 @@ export const SessionTimeline = () => {
     const partNames = [
       "SKADEFRI",
       "OPPVARMING",
-      "AKTIVISERING",
       "RONDO",
       "STASJONER",
       "SPILL",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { NFF_ZONAL_DEFENSE_LEADING, NFF_ZONAL_DEFENSE_ROLES } from "@/data/nff-zonal-defense";
 
 export const TeamOrganization = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,33 +33,34 @@ export const TeamOrganization = () => {
           {/* NFF Soneforsvar - Roller */}
           <div>
             <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
-              <span className="text-base">🛡️</span> Soneforsvar: Roller (NFF)
+              Soneforsvar: Roller (NFF)
             </h3>
 
             <div className="space-y-2">
               <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3">
-                <h4 className="text-xs font-semibold text-emerald-900 mb-1">Førsteforsvarer (Signalspiller)</h4>
+                <h4 className="text-xs font-semibold text-emerald-900 mb-1">
+                  {NFF_ZONAL_DEFENSE_ROLES["1f"].title}
+                </h4>
                 <p className="text-xs text-emerald-800">
-                  Spilleren nærmest ballfører. <strong>Lagets signalspiller</strong> - din handling definerer resten av lagets handlinger. 
-                  Oppgaver: Vinn ball når mulig, opphold/led ballfører, hindre gjennombruddspasninger, tving spill bakover/på tvers.
+                  {NFF_ZONAL_DEFENSE_ROLES["1f"].description}
                 </p>
               </div>
 
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-3">
-                <h4 className="text-xs font-semibold text-blue-900 mb-1">Andreforsvarer (Sikring)</h4>
+                <h4 className="text-xs font-semibold text-blue-900 mb-1">
+                  {NFF_ZONAL_DEFENSE_ROLES["2f"].title}
+                </h4>
                 <p className="text-xs text-blue-800">
-                  Nærmeste spiller til førsteforsvarer. Sikrer på rett side eller dekker rom. 
-                  <strong> Hvem sikrer hvem:</strong> Midtbane sikrer kant/midtbane i press. Stopper sikrer stopper/back i press.
-                  Sikringsavstand: Større ved høy fart, mindre når ballfører står stille.
+                  {NFF_ZONAL_DEFENSE_ROLES["2f"].description}
                 </p>
               </div>
 
               <div className="rounded-lg border border-purple-200 bg-purple-50 p-3">
-                <h4 className="text-xs font-semibold text-purple-900 mb-1">Tredjeforsvarer (Romkontroll)</h4>
+                <h4 className="text-xs font-semibold text-purple-900 mb-1">
+                  {NFF_ZONAL_DEFENSE_ROLES["3f"].title}
+                </h4>
                 <p className="text-xs text-purple-800">
-                  Alle andre forsvarere. Dekker rom og/eller tar ut definerte angrepsspillere. 
-                  Kommuniser pasningslinjer: &quot;Dekk venstre&quot; bryter pasningsforbindelse til mellomrom. 
-                  Spillsituasjonen avgjør prioritering mellom rom og mann.
+                  {NFF_ZONAL_DEFENSE_ROLES["3f"].description}
                 </p>
               </div>
             </div>
@@ -67,35 +69,43 @@ export const TeamOrganization = () => {
           {/* NFF Leding */}
           <div>
             <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
-              <span className="text-base">🎯</span> Leding av Ballfører (NFF)
+              Leding av ballfører (NFF)
             </h3>
 
             <div className="space-y-2">
               <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
-                <h4 className="text-xs font-semibold text-amber-900 mb-1">Hovedregel: Led ut mot sidelinje</h4>
+                <h4 className="text-xs font-semibold text-amber-900 mb-1">
+                  {NFF_ZONAL_DEFENSE_LEADING.sideline.title}
+                </h4>
                 <p className="text-xs text-amber-800">
-                  Sidelinja er førsteforsvarerens beste venn - der er det trangest og sjansen for ballvinning øker.
+                  {NFF_ZONAL_DEFENSE_LEADING.sideline.description}
                 </p>
               </div>
 
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
-                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Bueløp</h4>
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">
+                  {NFF_ZONAL_DEFENSE_LEADING.curveRun.title}
+                </h4>
                 <p className="text-xs text-zinc-700">
-                  Ikke rett på ballfører - bruk kurvet løp for å stenge rommet du vil beskytte.
+                  {NFF_ZONAL_DEFENSE_LEADING.curveRun.description}
                 </p>
               </div>
 
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
-                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Når lede inn?</h4>
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">
+                  {NFF_ZONAL_DEFENSE_LEADING.leadIn.title}
+                </h4>
                 <p className="text-xs text-zinc-700">
-                  Når du har sikringsspiller på innsiden. Når dere er i overtall inne. Når du vil nekte pasning på yttersiden.
+                  {NFF_ZONAL_DEFENSE_LEADING.leadIn.bullets.join(". ")}.
                 </p>
               </div>
 
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">
-                <h4 className="text-xs font-semibold text-zinc-800 mb-1">Når lede ut?</h4>
+                <h4 className="text-xs font-semibold text-zinc-800 mb-1">
+                  {NFF_ZONAL_DEFENSE_LEADING.leadOut.title}
+                </h4>
                 <p className="text-xs text-zinc-700">
-                  Når du er alene uten sikring. Når dere er i undertall sentralt. Lede vekk fra motstanderens dominante spiller.
+                  {NFF_ZONAL_DEFENSE_LEADING.leadOut.bullets.join(". ")}.
                 </p>
               </div>
             </div>
@@ -104,7 +114,7 @@ export const TeamOrganization = () => {
           {/* NFF Presshøyde */}
           <div>
             <h3 className="text-sm font-semibold text-zinc-900 mb-3 flex items-center gap-2">
-              <span className="text-base">📍</span> Presshøyde (NFF)
+              Presshøyde (NFF)
             </h3>
 
             <div className="grid grid-cols-2 gap-2">

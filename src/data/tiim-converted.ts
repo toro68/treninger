@@ -1,7 +1,7 @@
 // Auto-generert fra tiim.no - 2025-11-27
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const tiimExercises: Exercise[] = [
+export const tiimExercises: ExerciseData[] = [
   {
     "id": "tiim-1",
     "exerciseNumber": 124,
@@ -236,7 +236,7 @@ export const tiimExercises: Exercise[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 3,
-    "playersMax": 10,
+    "playersMax": 12,
     "theme": "pasning",
     "equipment": [
       "kjegler",
@@ -338,7 +338,7 @@ export const tiimExercises: Exercise[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -358,7 +358,7 @@ export const tiimExercises: Exercise[] = [
     "category": "game",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -378,7 +378,7 @@ export const tiimExercises: Exercise[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
@@ -398,7 +398,7 @@ export const tiimExercises: Exercise[] = [
     "category": "game",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "teknikk",
     "equipment": [
       "kjegler",
@@ -480,7 +480,7 @@ export const tiimExercises: Exercise[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "pasning",
     "equipment": [
       "kjegler",
@@ -2300,7 +2300,7 @@ export const tiimExercises: Exercise[] = [
     "category": "game",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "teknikk",
     "equipment": [
       "kjegler",
@@ -2571,7 +2571,7 @@ export const tiimExercises: Exercise[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 16,
+    "playersMax": 18,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
@@ -2876,7 +2876,7 @@ export const tiimExercises: Exercise[] = [
     "category": "game",
     "duration": 12,
     "playersMin": 3,
-    "playersMax": 10,
+    "playersMax": 12,
     "theme": "pasning",
     "equipment": [
       "kjegler",

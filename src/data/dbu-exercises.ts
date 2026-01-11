@@ -22,9 +22,9 @@
  * - opbygningsspil → oppbyggingsspill
  */
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const dbuExercises: Exercise[] = [
+export const dbuExercises: ExerciseData[] = [
   // === PASNINGSØVELSER (Y-øvelser) ===
   {
     id: "dbu-y1-enkelt-y",
@@ -315,7 +315,7 @@ export const dbuExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 13,
-    theme: "press",
+    theme: "pressing",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Blå spiller 4v1 med 1 berøring i liten firkant. Når rød vinner ballen, spilles den ut i stor firkant og det blir 6v4. Blå går straks i gegenpressing.",
@@ -651,7 +651,7 @@ export const dbuExercises: Exercise[] = [
     duration: 20,
     playersMin: 15,
     playersMax: 15,
-    theme: "press",
+    theme: "pressing",
     equipment: ["baller", "mål", "kjegler"],
     description:
       "Blå har oppspill fra keeper. Blåt hold skal spille til 9'er i sentral sone. Rødt hold skal erobre ballen med organisert press. Signal til press er at rød 9'er velger side.",
@@ -855,7 +855,7 @@ export const dbuExercises: Exercise[] = [
   },
   {
     id: "dbu-kollektiv-kontra",
-    exerciseNumber: 526,
+    exerciseNumber: 624,
     name: "Kollektiv kontra",
     category: "game",
     duration: 15,

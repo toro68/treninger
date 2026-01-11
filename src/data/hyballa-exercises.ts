@@ -1,9 +1,9 @@
 // Øvelser fra Hyballa & te Poel: German Soccer Passing Drills
 // Kilde: Peter Hyballa & Hans-Dieter te Poel - "German Soccer Passing Drills: More than 100 Drills from the Pros" (2015)
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const hyballaExercises: Exercise[] = [
+export const hyballaExercises: ExerciseData[] = [
   // === LOB PASS ØVELSER ===
   {
     id: "hyballa-lob-1",

@@ -33,8 +33,8 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     dotClass: "bg-red-500"
   },
   rondo: {
-    label: "Rondo",
-    description: "DiBernardo",
+    label: "DiBernardo",
+    description: "The Science of Rondo",
     activeClass: "border-purple-500 bg-purple-50 text-purple-700",
     dotClass: "bg-purple-500"
   },
@@ -118,15 +118,15 @@ export const Filters = ({
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
     const counts: Record<string, number> = {};
+    let egneCount = 0;
     allExercises.forEach((exercise) => {
-      // "egen" er øvelser uten source eller med source som ikke er tiim/eggen/dbu/rondo/hyballa/bangsbo/dugger
-      const source = exercise.source || "egen";
-      const fallbackSources = new Set(["prickett", "101youth", "seeger", "matkovich", "worldclass"]);
-      const key = source === "eggen" || fallbackSources.has(source) ? "egen" : source;
+      // "egen" er øvelser uten eksplisitt source
+      const key = exercise.source || "egen";
       counts[key] = (counts[key] ?? 0) + 1;
+      if (!exercise.source || exercise.source === "eggen") egneCount += 1;
     });
-    // Tell Eggen separat
-    counts.eggen = allExercises.filter(e => e.source === "eggen").length;
+    // "Egne" inkluderer både helt egne og Eggen (samme logikk som i filterAndGroupExercises)
+    counts.egen = egneCount;
     return counts;
   }, []);
 
@@ -145,11 +145,8 @@ export const Filters = ({
       if (sourceFilter !== null) {
         const exerciseSource = exercise.source || "egen";
         if (sourceFilter === "egen") {
-          // Vis egne øvelser (inkludert eggen som er en del av egne)
-          if (exerciseSource !== "egen" && exerciseSource !== "eggen" && exercise.source) {
-            // Hvis øvelsen har en annen ekstern kilde (tiim, dbu, rondo, hyballa, bangsbo, dugger), skjul den
-            if (["tiim", "dbu", "rondo", "hyballa", "bangsbo", "dugger"].includes(exerciseSource)) return;
-          }
+          // Vis egne øvelser (inkludert eggen)
+          if (exercise.source && exerciseSource !== "eggen") return;
         } else if (exerciseSource !== sourceFilter) {
           return;
         }
@@ -158,7 +155,11 @@ export const Filters = ({
       const key = exercise.theme;
       themeCounts[key] = (themeCounts[key] ?? 0) + 1;
     });
-    return Object.keys(themeCounts);
+    return Object.keys(themeCounts).sort((a, b) => {
+      if (a === "rondo") return -1;
+      if (b === "rondo") return 1;
+      return a.localeCompare(b, "nb");
+    });
   }, [playerCount, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);

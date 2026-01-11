@@ -19,6 +19,30 @@ import { HalfPitchTopTemplateDiagram } from "@/components/HalfPitchTopTemplateDi
 import Link from "next/link";
 import { useShallow } from "zustand/react/shallow";
 
+export const deriveSourceFilter = (
+  highlightExerciseId: string | null,
+  sourceFilterState: SourceFilter
+): SourceFilter => (highlightExerciseId ? "uefa" : sourceFilterState);
+
+export const applyHighlightedExercise = ({
+  highlightExerciseId,
+  exerciseLibrary,
+  setSearchQuery,
+  setHighlightExercise,
+}: {
+  highlightExerciseId: string | null;
+  exerciseLibrary: { id: string; name: string }[];
+  setSearchQuery: (query: string) => void;
+  setHighlightExercise: (id: string | null) => void;
+}) => {
+  if (!highlightExerciseId) return;
+  const match = exerciseLibrary.find((exercise) => exercise.id === highlightExerciseId);
+  if (match) {
+    setSearchQuery(match.name);
+  }
+  setHighlightExercise(null);
+};
+
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
@@ -46,22 +70,21 @@ export default function Home() {
 
   // Derive sourceFilter from highlightExerciseId
   const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
-  const sourceFilter: SourceFilter = highlightExerciseId ? "uefa" : sourceFilterState;
+  const sourceFilter = deriveSourceFilter(highlightExerciseId, sourceFilterState);
   const activeTheme = themeFilter === "alle" ? undefined : themeFilter;
 
   useEffect(() => {
-    if (!highlightExerciseId) return;
-    const match = exerciseLibrary.find((exercise) => exercise.id === highlightExerciseId);
-    if (match) {
-      setSearchQuery(match.name);
-    }
-    setHighlightExercise(null);
+    applyHighlightedExercise({
+      highlightExerciseId,
+      exerciseLibrary,
+      setSearchQuery,
+      setHighlightExercise,
+    });
   }, [exerciseLibrary, highlightExerciseId, setHighlightExercise, setSearchQuery]);
 
   const groupedExercises = useMemo(() => {
     const categories = new Set<string>([
       "warmup",
-      "aktivisering",
       "rondo",
       "station",
       "game",
@@ -168,11 +191,6 @@ export default function Home() {
                   title="Oppvarming"
                   category="warmup"
                   exercises={groupedExercises.warmup ?? []}
-                />
-                <ExerciseList
-                  title="Aktivisering"
-                  category="aktivisering"
-                  exercises={groupedExercises.aktivisering ?? []}
                 />
                 <ExerciseList
                   title="Rondo"

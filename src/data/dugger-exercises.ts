@@ -1,9 +1,9 @@
 // Øvelser fra "Create a World Class Soccer Defense" av Chest Dugger
 // Kilde: Chest Dugger - "Create a World Class Soccer Defense: 100 Soccer Drills, Tactics and Techniques" (2021)
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const duggerExercises: Exercise[] = [
+export const duggerExercises: ExerciseData[] = [
   // === GRUNNLEGGENDE FORSVARSØVELSER ===
   {
     id: "dugger-deny-space",

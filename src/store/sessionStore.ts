@@ -42,7 +42,6 @@ type SessionState = {
 };
 
 const warmupTarget = 10;
-const activationTarget = 8;
 const stationDuration = 12;
 const gameTarget = 20;
 const cooldownDuration = 1;
@@ -62,8 +61,9 @@ const buildTimeline = ({
   });
 
   const fixed = chosen.filter((ex) => ex.category === "fixed-warmup");
-  const warmups = chosen.filter((ex) => ex.category === "warmup");
-  const activation = chosen.filter((ex) => ex.category === "aktivisering");
+  const warmups = chosen.filter(
+    (ex) => ex.category === "warmup" || ex.category === "aktivisering"
+  );
   const rondos = chosen.filter((ex) => ex.category === "rondo");
   const stations = chosen.filter((ex) => ex.category === "station");
   const games = chosen.filter((ex) => ex.category === "game");
@@ -73,8 +73,6 @@ const buildTimeline = ({
   fixed.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
 
   warmups.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
-
-  activation.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
 
   rondos.forEach((exercise) => timeline.push({ id: exercise.id, exercise }));
 
@@ -433,11 +431,11 @@ export const recommendedDuration = (block: SessionBlock) => {
   if (typeof block.customDuration === "number") {
     return block.customDuration;
   }
-  if (block.exercise.category === "warmup" && !block.exercise.alwaysIncluded) {
+  if (
+    (block.exercise.category === "warmup" || block.exercise.category === "aktivisering") &&
+    !block.exercise.alwaysIncluded
+  ) {
     return warmupTarget;
-  }
-  if (block.exercise.category === "aktivisering") {
-    return activationTarget;
   }
   if (block.exercise.category === "rondo") {
     return stationDuration;
@@ -645,13 +643,15 @@ export const filterAndGroupExercises = ({
   };
 
   for (const exercise of exerciseLibrary) {
-    if (!categories.has(exercise.category)) continue;
+    const effectiveCategory =
+      exercise.category === "aktivisering" ? "warmup" : exercise.category;
+    if (!categories.has(effectiveCategory)) continue;
     if (theme && exercise.theme !== theme) continue;
     if (!matchesSource(exercise)) continue;
     if (!matchesPlayerCount(exercise)) continue;
     if (!matchesSearch(exercise)) continue;
 
-    (grouped[exercise.category] ??= []).push(exercise);
+    (grouped[effectiveCategory] ??= []).push(exercise);
   }
 
   for (const category of categories) {

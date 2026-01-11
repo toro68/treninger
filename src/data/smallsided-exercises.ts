@@ -16,9 +16,9 @@
  * ✓ Passer for J16-nivå (15-16 år)
  */
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const smallsidedExercises: Exercise[] = [
+export const smallsidedExercises: ExerciseData[] = [
   // ===== 3v3 GRUNNLEGGENDE (Prickett kap. 4) =====
   {
     id: "smallsided-1",
@@ -28,7 +28,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "Tre mot tre på liten bane med fire små mål (ett i hvert hjørne). Begge lag kan score på begge mål på motsatt side. Tvinger spillerne til å lese spillet og bytte angrepspunkt.",
     coachingPoints: [
@@ -53,7 +53,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3v3 med en målspiller for hvert lag bak motstanderens linje. Poeng scores ved å spille ballen til egen målspiller. Den som scorer bytter plass med målspilleren.",
     coachingPoints: [
@@ -78,7 +78,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3v3 der man scorer ved å drible over motstanderens baklinje. Krever 1v1-ferdigheter og støtte fra medspillere.",
     coachingPoints: [
@@ -103,7 +103,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "2v2 inne med 2 nøytrale på utsiden. Nøytrale spiller alltid med ballaget = 4v2. Trener på overtallsspill og støttebevegelser.",
     coachingPoints: [
@@ -128,7 +128,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 6,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Klassisk 4v2 rondo i firkant. De 4 holder ball, de 2 presser. Ved tap bytter den som mistet + den som ga dårlig ball.",
     coachingPoints: [
@@ -155,7 +155,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Banen delt i tre vertikale soner. Ballen må gå gjennom alle tre soner før scoring. Trener på tålmodig oppbygging.",
     coachingPoints: [
@@ -180,7 +180,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 7,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "3v3 med en nøytral midtbanespiller som begge lag kan bruke. Må spille via midtbanen minst én gang før scoring.",
     coachingPoints: [
@@ -205,7 +205,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Score ved å motta ball i kontroll i motstanderens endesone. Ingen kan stå og vente i sonen.",
     coachingPoints: [
@@ -232,7 +232,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 18,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "3v3 der laget som mister ball må løpe rundt eget mål før de kan forsvare. Gir overtall i overgang.",
     coachingPoints: [
@@ -257,7 +257,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 15,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "3v3 + 2 ventende per lag. Ved ballvinning løper de 2 inn = 5v3 kontra. Det andre laget må forsvare.",
     coachingPoints: [
@@ -282,7 +282,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "3v3 med mål i hvert hjørne. Etter scoring starter motstanderlaget umiddelbart. Rask omstilling.",
     coachingPoints: [
@@ -307,7 +307,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Ved ballvinning må forsvarende lag trekke alle spillere bak ball før de kan angripe. Trener tilbakeløp.",
     coachingPoints: [
@@ -334,7 +334,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 små mål"],
     description: "Målene snudd med åpningen bort. Må komme rundt og skyte inn bakfra. Krever gjennombrudd.",
     coachingPoints: [
@@ -359,7 +359,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "6 små mål"],
     description: "Seks små mål spredt på banen. Begge lag kan score i alle. Krever årvåkenhet.",
     coachingPoints: [
@@ -384,7 +384,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Lov å spille bak målene (som ishockey). Kreativt spill fra uventede vinkler.",
     coachingPoints: [
@@ -409,7 +409,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Liten firkant i midten. Ballen må gjennom firkanten før scoring.",
     coachingPoints: [
@@ -434,7 +434,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "Diamantformet bane med mål i hver spiss. Uvanlig form gir nye situasjoner.",
     coachingPoints: [
@@ -461,7 +461,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Fokus på at første mann presser og andre sikrer. Trener roterer og gir poeng for god pressing.",
     coachingPoints: [
@@ -486,7 +486,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Forsvaret får bonuspoeng for å hindre spill gjennom midtsonen. Angrepet får poeng for gjennomspill.",
     coachingPoints: [
@@ -513,7 +513,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 der hver spiller teller sine pasninger høyt. Ved 10 pasninger roper du 'Bingo!' Laget vinner når alle har 10.",
     coachingPoints: [
@@ -538,7 +538,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3v3 inne + 2 per lag i hjørnene. Kan 'tagge ut' når som helst. 10 pasninger = 1 poeng.",
     coachingPoints: [
@@ -563,7 +563,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 20,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "4 farger vester", "Baller"],
     description: "Fire lag, to samarbeider. Rød+gul mot blå+grønn. Røde KUN til gule og omvendt.",
     coachingPoints: [
@@ -588,7 +588,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "2 baller"],
     description: "Bane delt i to. 4v2 per side med én ball. Forsvarerne prøver vinne og spille over = 2 baller der!",
     coachingPoints: [
@@ -613,7 +613,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 18,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "7v4 inne + 4 nøytrale på sidene. Store laget har ball: 11v4. Lille vinner: 8v7.",
     coachingPoints: [
@@ -638,7 +638,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 18,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Tre soner, fri sone i midten. 3v3 i hver ende. Spill gjennom fri sone til lagkamerater.",
     coachingPoints: [
@@ -663,7 +663,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 16,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Må passere gjennom port på midten før scoring. Mister du ball = gjennom port igjen.",
     coachingPoints: [
@@ -688,7 +688,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 16,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "6v6 med mål diagonalt i hjørnene. Score ved å drible gjennom.",
     coachingPoints: [
@@ -713,7 +713,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5x5m målsone i hver ende med en målspiller. Score ved å spille til målspilleren. Bytting ved scoring.",
     coachingPoints: [
@@ -738,7 +738,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 med 5 porter spredt. Score ved pasning gjennom som mottas av medspiller. Ikke samme 2x.",
     coachingPoints: [
@@ -763,7 +763,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Avslutninger",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "6-8 baller på kjegler"],
     description: "5v5/6v6 - score ved å skyte ned baller på kjegler på motstanderens linje. Først tom vinner.",
     coachingPoints: [
@@ -788,7 +788,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 inne + 2 støttespillere per lag på sidene. Poeng ved å spille til støtte.",
     coachingPoints: [
@@ -840,7 +840,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 15,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Starter 1v1. Ved ballvinning kommer 2 inn = 3v1. Så kommer 1 til = 3v2. Eskalering.",
     coachingPoints: [
@@ -865,7 +865,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 15,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Starter 2v1. Ved ballvinning kommer flere inn. Kontinuerlig eskalering begge veier.",
     coachingPoints: [
@@ -915,7 +915,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "6 små mål"],
     description: "3v3 med 6 mål spredt. Begge kan score i alle. Konstant årvåkenhet.",
     coachingPoints: [
@@ -940,7 +940,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "3 mål"],
     description: "3v3 med 3 mål i trekant. Alle kan score i alle mål. Krever 360° oppmerksomhet.",
     coachingPoints: [
@@ -990,7 +990,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 der ballen kastes og fanges i stedet for sparkes. Fokus på bevegelse og rom.",
     coachingPoints: [
@@ -1015,7 +1015,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 16,
     playersMax: 24,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "2-3 baller", "4 mål"],
     description: "To overlappende 4v4-baner. Kaos når ballene møtes i midten.",
     coachingPoints: [
@@ -1042,7 +1042,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 20,
     playersMin: 12,
     playersMax: 20,
-    theme: "Smålagsspill",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller", "Mål"],
     description: "Turnering 3v3/4v4. Korte kamper, taper ned, vinner opp.",
     coachingPoints: [
@@ -1067,7 +1067,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 20,
     playersMin: 12,
     playersMax: 20,
-    theme: "Teknikk",
+    theme: "teknikk",
     equipment: ["Kjegler", "Vester", "Baller", "Mål"],
     description: "Turnering der berøringsbegrensning endres mellom runder (3-touch, 2-touch, 1-touch).",
     coachingPoints: [
@@ -1092,7 +1092,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 20,
-    theme: "Avslutninger",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "Mål"],
     description: "Turnering der flest mål totalt (ikke seire) avgjør. Oppmuntrer til offensivt spill.",
     coachingPoints: [
@@ -1119,7 +1119,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 11,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 + 3 nøytrale jokere = 7v4 med ball. Fokus på ballbesittelse.",
     coachingPoints: [
@@ -1144,7 +1144,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 12,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5 holder mot 3 som presser. Ved vinning spiller 3 til 2 ventende = 5v5 overgang. Taper blir press.",
     coachingPoints: [
@@ -1171,7 +1171,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 5,
     playersMax: 8,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "Fire på hjørner, én i midten. Den som mister bytter. Enkel oppvarming.",
     coachingPoints: [
@@ -1196,7 +1196,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "Spillere på hjørner/midtpunkter. Pasning og følg. Veggspill, overlapper, tredjemann.",
     coachingPoints: [
@@ -1221,7 +1221,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "Sirkel med spiller i midten (6er-posisjon). Ball inn til 6er, legg av, rotér.",
     coachingPoints: [
@@ -1248,7 +1248,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Ekstra smal sone i midten gir bonuspoeng for gjennomspill der. Trener sentralt spill.",
     coachingPoints: [
@@ -1273,7 +1273,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 18,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Bane delt i to halvdeler med ulike regler. F.eks. fri på ene, 2-touch på andre.",
     coachingPoints: [
@@ -1300,7 +1300,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "3 farger vester", "Baller"],
     description: "Tre lag à 4. To lag samarbeider mot ett (8v4). Ved ballvinning bytter lagene roller - det laget som mistet blir forsvarere.",
     coachingPoints: [
@@ -1325,7 +1325,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 15,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "3 farger vester", "Baller"],
     description: "Tre lag à 5. Samme prinsipp som 4v4+4, men flere spillere gir mer realistisk spillbilde.",
     coachingPoints: [
@@ -1350,7 +1350,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 10,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 inne med 2 nøytrale på hver langside. Nøytrale spiller alltid med ballaget = 6v4.",
     coachingPoints: [
@@ -1375,7 +1375,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 10,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 med 2 nøytrale plassert i diamantformasjon (topp/bunn). Gir dybde i spillet.",
     coachingPoints: [
@@ -1400,7 +1400,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Bane i 3 soner. 4v2 i første sone, spill over til 4v2 i siste. 2 forsvarere i midten prøver snappe.",
     coachingPoints: [
@@ -1425,7 +1425,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "4v4 på kvadratisk bane med mål i hvert hjørne. Hvert lag forsvarer 2 diagonalt motsatte mål.",
     coachingPoints: [
@@ -1450,7 +1450,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 der scoring skjer ved å stoppe ballen på motstanderens baklinje med foten på ballen.",
     coachingPoints: [
@@ -1475,7 +1475,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 der ett par på hvert lag er 'kongepar'. Pasning mellom kongeparet = 1 poeng. Andre spillere prøver koble dem sammen.",
     coachingPoints: [
@@ -1500,7 +1500,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Avslutninger",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 med scoringssone foran hvert mål. Må entre sonen før skudd. Ingen forsvarere i sonen.",
     coachingPoints: [
@@ -1525,7 +1525,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5+2 nøytrale. Nøytrale blir med angrepet = 7v5. Ved overgang må angriperne vente på nøytrale.",
     coachingPoints: [
@@ -1550,7 +1550,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "6v6 med fokus på høyt press. Poeng for ballvinning i motstanderens halvdel (2p) vs vanlig mål (1p).",
     coachingPoints: [
@@ -1575,7 +1575,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "5v5+keepere. Scoring innen 8 sek etter vinning = 2p. Trener hurtig omstilling.",
     coachingPoints: [
@@ -1600,7 +1600,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Oppbygging",
+    theme: "oppbygging",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "5v5+keepere. Keeper starter alltid. Må bygge ut gjennom markerte soner. Motstand øker gradvis.",
     coachingPoints: [
@@ -1625,7 +1625,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der spiller som gjør dybdeløp bak forsvaret og mottar = 2p (vs 1p vanlig mål).",
     coachingPoints: [
@@ -1650,7 +1650,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "6v6 med kantsoner. Spill i kantsonen + innlegg = 2p ved scoring. Trener kantspill.",
     coachingPoints: [
@@ -1675,7 +1675,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 med endesoner (5m dype). Poeng ved å motta ball i endesonen med kontroll.",
     coachingPoints: [
@@ -1700,7 +1700,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3v3 i tre separate trekanter som danner stor trekant. Spill må gå via alle tre før poeng.",
     coachingPoints: [
@@ -1725,7 +1725,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 i firkant med 4 hjørnespillere (nøytrale). Innespillere må bruke hjørner for å bytte side.",
     coachingPoints: [
@@ -1750,7 +1750,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "To 5v2 rondoer side om side. Ved gjennomspill i midten mellom dem byttes forsvarere.",
     coachingPoints: [
@@ -1775,7 +1775,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "Stoppeklokke"],
     description: "5v5 der laget teller pasninger høyt. Rekord = mål å slå. Ved tap nullstilles.",
     coachingPoints: [
@@ -1800,7 +1800,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Bane i 3 soner med 2v1 i hver. Ball må gjennom alle soner. Spillere låst til sin sone.",
     coachingPoints: [
@@ -1825,7 +1825,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Oppbygging",
+    theme: "oppbygging",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "5v5+keepere. Keeper har alltid ballstart etter mål/ut. Fokus på oppspill og første mottak.",
     coachingPoints: [
@@ -1850,7 +1850,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 der begge lag må holde 3-1 formasjon. Trener posisjonsspill og forståelse.",
     coachingPoints: [
@@ -1875,7 +1875,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 i 2-2 formasjon. To bak, to foran. Trener samspill mellom linjer.",
     coachingPoints: [
@@ -1900,7 +1900,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 med 'flytsone' i midten der kun én spiller per lag kan være. Skaper 4v4 + 1v1 dynamikk.",
     coachingPoints: [
@@ -1925,7 +1925,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "5v5 med 4 mål (ett i hvert hjørne). Én spiller per lag er 'målvokter' som beskytter begge sine mål.",
     coachingPoints: [
@@ -1950,7 +1950,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der hver 5. pasning = 1 bonuspoeng (i tillegg til vanlige mål). Belønner ballhold.",
     coachingPoints: [
@@ -1975,7 +1975,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Bane i 4 soner. 3v1 i 2 soner, tom i 2. Ball må til tom sone = spillere følger/bytter.",
     coachingPoints: [
@@ -2000,7 +2000,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der direktespill (1-touch) gir doble poeng ved scoring. Belønner kombinasjonsspill.",
     coachingPoints: [
@@ -2025,7 +2025,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "6v6 med markert midtsone. Begge lag må ha min. 2 spillere i midtsonen hele tiden.",
     coachingPoints: [
@@ -2050,7 +2050,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6+keepere. Etter scoring starter motsatt keeper umiddelbart = rask omstilling.",
     coachingPoints: [
@@ -2075,7 +2075,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 der spiller som snur og spiller fremover får poeng (markert av trener). Belønner modig spill.",
     coachingPoints: [
@@ -2100,7 +2100,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der veggspill (gi-og-gå) i motstanderens halvdel = 1 bonuspoeng.",
     coachingPoints: [
@@ -2125,7 +2125,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Oppbygging",
+    theme: "oppbygging",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der én spiller per lag er 'spillende stopper' som starter alle angrep. Fokus på oppbygging.",
     coachingPoints: [
@@ -2150,7 +2150,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der spillere kun har 3 sek med ball før pasning. Trener rask ballsirkulasjon.",
     coachingPoints: [
@@ -2175,7 +2175,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 der trener roper 'FREEZE' - alle må stå stille. Analyserer posisjonering før fortsettelse.",
     coachingPoints: [
@@ -2200,7 +2200,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 13,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "4v4+1 joker som alltid spiller med ballaget. Joker må være i midtsonen.",
     coachingPoints: [
@@ -2225,7 +2225,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 på bane med kjegler spredt som 'hindringer'. Må navigere rundt kjeglene.",
     coachingPoints: [
@@ -2250,7 +2250,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der banen krymper/utvider på treners signal. Trener tilpasning til rom.",
     coachingPoints: [
@@ -2275,7 +2275,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5 der to spillere per lag er 'tvillinger' som må holde seg innen 5m fra hverandre.",
     coachingPoints: [
@@ -2302,7 +2302,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 inne i 20x20m firkant med én nøytral på hver side (4 stk). Nøytrale kun 1-touch. 7 pasninger = 1 poeng.",
     coachingPoints: [
@@ -2327,7 +2327,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 18,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Halvbane delt i 4 soner. 8v8+2 nøytrale. Maks 4 pasninger per sone før bytte. 10 pasninger = poeng.",
     coachingPoints: [
@@ -2352,7 +2352,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "3 farger vester", "Baller"],
     description: "Tre lag à 3-5. To lag holder ball mot ett. Ved tap bytter roller. 5 pasninger = poeng.",
     coachingPoints: [
@@ -2377,7 +2377,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "8 med ball på stor sirkel (30-40m), 8 inne. Innespillere sjekker, mottar, returnerer, snur og finner ny.",
     coachingPoints: [
@@ -2402,7 +2402,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "2 baller"],
     description: "7 spillere i sikksakk-linje (15m mellom). 2 baller. Pasning og følg. Mottaker snur, spiller videre.",
     coachingPoints: [
@@ -2427,7 +2427,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v3 inne med 2 mål. 5 holder ball, ved tap blir det 5v3 andre veien. Scoring = 3 poeng.",
     coachingPoints: [
@@ -2452,7 +2452,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "2 baller"],
     description: "Fire 15x15m ruter. 5v1 i 2 diagonale ruter. Etter 4 pasninger = lang ball til tom rute, alle følger.",
     coachingPoints: [
@@ -2477,7 +2477,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 på 30x40m. Score ved å motta i motstanderens endesone (5m dyp). Må ha kontroll.",
     coachingPoints: [
@@ -2502,7 +2502,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5+keepere. Spesifikke triggere for press (tilbakespill, dårlig touch, kropp vendt). Poeng for pressvinn.",
     coachingPoints: [
@@ -2527,7 +2527,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "5v5+keepere. Ved tap = 6 sek til å score. Keeper starter alltid motangrep umiddelbart.",
     coachingPoints: [
@@ -2552,7 +2552,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 12,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "6 angripere mot 4 forsvarere + keeper. Angrep har 20 sek. Ved vinning kontrer forsvar til linje.",
     coachingPoints: [
@@ -2577,7 +2577,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Gjennombrudd",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "Kantspillere faste, 4v4 i midten. Mål kun fra innlegg. Rotér kantspillere.",
     coachingPoints: [
@@ -2602,7 +2602,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Avslutninger",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "4v4+keepere på 30x40m. Mål kun etter minst 3 pasninger i motstanderens halvdel.",
     coachingPoints: [
@@ -2627,7 +2627,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Avslutninger",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "5v5+keepere. Direkteskudd (1-touch) = 2 poeng, vanlig mål = 1 poeng.",
     coachingPoints: [
@@ -2652,7 +2652,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Oppbygging",
+    theme: "oppbygging",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6+keepere. Keeper starter alltid. Må bygge via markerte soner. Press øker gradvis.",
     coachingPoints: [
@@ -2677,7 +2677,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 9,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3 grupper à 3-4 på bane. Én gruppe holder, én presser, én hviler. Rotér hvert minutt.",
     coachingPoints: [
@@ -2702,7 +2702,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 14,
-    theme: "Overganger",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "5v5+2 nøytrale. Nøytrale alltid med angrep = 7v5. Ved vinning må man vente på nøytrale.",
     coachingPoints: [
@@ -2727,7 +2727,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 9,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "Grupper på 3. Ballfører spiller, overlapper. Mottaker veggspill og spiller til tredjemann.",
     coachingPoints: [
@@ -2752,7 +2752,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Baller"],
     description: "8 på sirkel, 8 inne. Hver ytrespiller har ball. Innespillere sjekker, mottar, returnerer, finner ny.",
     coachingPoints: [
@@ -2777,7 +2777,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6+keepere på halvbane. Bane delt i 3 soner. Minst 2 spillere per lag i hver sone.",
     coachingPoints: [
@@ -2805,7 +2805,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 14,
-    theme: "Bevegelse",
+    theme: "bevegelse",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6 håndball med avslutning. Spillerne spiller med hendene (kast og fang), men må avslutte med hodet eller volleyskudd. Ingen dribling - kun pasninger. Tvinger bevegelse uten ball.",
     coachingPoints: [
@@ -2830,7 +2830,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "Bevegelse",
+    theme: "bevegelse",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "To lag spiller på bane med endesoner. Spillerne kaster til hverandre, og mottaker MÅ hodet ballen tilbake. Poeng ved å fange ball i endesone. Aktiv oppvarming med heading.",
     coachingPoints: [
@@ -2855,7 +2855,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 12,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester (4 farger)", "Baller"],
     description: "Fire lag à 3-4 spillere på kvadrat. Lag 1+2 mot Lag 3+4 i ballbesittelse. Bytter motstandere hvert minutt. Alle må holde intensiteten opp.",
     coachingPoints: [
@@ -2882,7 +2882,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 7,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5 spillere på sirkel holder ball mot 2 i midten. Kun 1-touch tillatt. Spiller som mister går i midten. Ekstremt høy intensitet og teknisk fokus.",
     coachingPoints: [
@@ -2907,7 +2907,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler (mange)", "Vester", "Baller"],
     description: "4v4 på bane med 6-8 kjeglepar spredt rundt. Score ved å spille gjennom kjeglepar til lagkamerat. Tvinger scanning og spillebytte.",
     coachingPoints: [
@@ -2932,7 +2932,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "6 angripere mot 3 forsvarere i boks. Ved 5 pasninger på rad, scorer de. Ved balltap presser forsvarerne, og angriperne kan kontre på mål. Bytter roller etter 3 min.",
     coachingPoints: [
@@ -2957,7 +2957,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "2v2 i midten av rute, 4 støttespillere på sidene (nøytrale). Laget med ball bruker støttespillerne for overtall. Støttespillere kun 1-touch.",
     coachingPoints: [
@@ -2982,7 +2982,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester (3 farger)", "Baller"],
     description: "4v4 i midten, 4 nøytrale langs kantene. Start 4v4+4 (8v4 med ball). Etter 5 pasninger bytter nøytrale inn. Konstant rotation og høyt tempo.",
     coachingPoints: [
@@ -3009,7 +3009,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 18,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "9v9 på stor bane med offsidelinje i hver halvdel. Fokus på timing av løp og pasninger i bakrom. Realistisk kamptrening med avslutninger.",
     coachingPoints: [
@@ -3034,7 +3034,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6 på kompakt bane med fulle mål. Oppmuntrer til mange avslutninger og pressspill. Korte overganger mellom angrep og forsvar.",
     coachingPoints: [
@@ -3061,7 +3061,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "4v4 på bane med kantsoner. Spillere kan drible inn i kantsone fritt - da må innlegg slås. Poeng for mål etter innlegg.",
     coachingPoints: [
@@ -3086,7 +3086,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "7v7 med midtlinje. Ball må spilles over midten til lagkamerat i motstanderens halvdel før angrep. Tvinger lagspill og dybde i laget.",
     coachingPoints: [
@@ -3111,7 +3111,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "6v6 på bane med endesoner (5m dype). Score ved å drible inn i endesonen med kontroll. Fokus på inntrengninger og gjennombrudd.",
     coachingPoints: [
@@ -3138,7 +3138,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v3 rondo fra Newcastle United. Spillerne roterer posisjon etter hver pasning (følg pasningen). Holder alle aktive og beveger seg konstant.",
     coachingPoints: [
@@ -3163,7 +3163,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Pressing",
+    theme: "pressing",
     equipment: ["Kjegler", "Vester", "Baller", "2 minimål"],
     description: "5v5+2 nøytrale på kompakt bane. Ekstremt høyt tempo med fokus på pressing og rask omstilling. Nøytrale alltid med laget som har ball.",
     coachingPoints: [
@@ -3190,7 +3190,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 i firkant med hjørnespillere (roterende). Ballholdende lag bruker hjørnene som støtte. Ved 6 pasninger byttes lag i midten.",
     coachingPoints: [
@@ -3215,7 +3215,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "6v4 ballbesittelse fra Juventus. Ved 8 pasninger scorer 6-laget. Ved erobring kan 4-laget score på minimål. Høy intensitet begge veier.",
     coachingPoints: [
@@ -3242,7 +3242,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 10,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "4v4 i 16-meter med keeper. Fokus på bevegelse i trange rom, kombinasjoner og avslutninger. Høy frekvens på skudd.",
     coachingPoints: [
@@ -3267,7 +3267,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 i firkant med mål i hvert hjørne (kjegler). Score ved pasning gjennom mål til lagkamerat. Tvinger lagbytte og scanning.",
     coachingPoints: [
@@ -3292,7 +3292,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v3+2 målspillere. Ballholdende lag holder ball og scorer ved pasning til målspiller. Målspillere bytter med spiller som ga pasning.",
     coachingPoints: [
@@ -3320,7 +3320,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "6v6 med endesoner på hver kortside. Én spiller per lag i hver endesone (umarkert). Ved pasning til medspiller i endesonen bytter de plass - mottaker dribbler inn, passer løper inn i sonen.",
     coachingPoints: [
@@ -3345,7 +3345,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "6v6 ballbesittelse hvor hver spiller velger en partner på motstanderlaget. Du kan KUN takle personen du er matchet med. Tvinger dribling og kreativitet.",
     coachingPoints: [
@@ -3370,7 +3370,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "7v7 med firkant i midten av banen. Score ved å spille gjennom firkanten til lagkamerat på andre siden. Tvinger pasninger i dybden.",
     coachingPoints: [
@@ -3397,7 +3397,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 15,
     playersMax: 15,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 i midten med 1-touch. 5 'hvilende' spillere på kantene for 1-touch returpasninger. Lagene roterer regelmessig. Ekstremt høyt tempo.",
     coachingPoints: [
@@ -3422,7 +3422,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 9,
     playersMax: 12,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester (3 farger)", "Baller"],
     description: "Tre lag à 3-4 spillere. To lag holder ball mot det tredje. Ved balltap bytter laget som mistet til forsvar. Maks 2-touch.",
     coachingPoints: [
@@ -3449,7 +3449,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 12,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "5v5 med 2 støttespillere på endelinja som angriper. Ved pasning til støttespiller, kan laget avslutte på mål. Ved erobring i motstanderens halvdel kan man skyte direkte.",
     coachingPoints: [
@@ -3474,7 +3474,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Start 5v2 i liten rute (10x10m). Ved balltap eller ball ut utvides til 7v5 i stor rute (30x30m). Ved gjenerobring starter 5v2 igjen.",
     coachingPoints: [
@@ -3499,7 +3499,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler (mange)", "Vester", "Baller"],
     description: "Spill på stor bane med 8 kjegleporter spredt rundt. Poeng ved å spille gjennom port til lagkamerat på andre siden. Kan ikke score i samme port to ganger på rad.",
     coachingPoints: [
@@ -3524,7 +3524,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 16,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "To lag spiller om ball. Score ved: 1) 12 pasninger på rad, eller 2) alle spillere i angrepssonen når mål scores. Tvinger lagarbeid.",
     coachingPoints: [
@@ -3551,7 +3551,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 16,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "To lag med ulike mål: Lag A holder ball med støttespillere på sidene (poeng for pasninger). Lag B prøver å erobre og score raskt med støttespillere på endelinjer. Bytt roller etter 4 min.",
     coachingPoints: [
@@ -3576,7 +3576,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "2v2 i midten med 4 støttespillere per lag på utsiden (1-touch). Ved scoring roterer spillerne: innerspillere til stolpe, stolpe til kant, kant til bane.",
     coachingPoints: [
@@ -3601,7 +3601,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 16,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "8v8 holder ball på halv bane. På trenersignal kan laget med ball angripe hvilket som helst mål. Forsvar må reorganisere raskt.",
     coachingPoints: [
@@ -3628,7 +3628,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "4v4 + keepere på dobbel 16-meter. Start med keeper som kaster til keeper. Etter 4 pasninger (minst én til keeper) spilles til innleggsspiller i hjørnet. Lag som scorer blir.",
     coachingPoints: [
@@ -3653,7 +3653,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 16,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "Håndballspill hvor ball må kastes til løpende mottaker i kantsonen. Mål teller kun ved heading/volley fra innkast fra kanten. 3 spillere må komme til kjeglene ved 16-meter.",
     coachingPoints: [
@@ -3678,7 +3678,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 16,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "8v8 i 3-4-1 formasjon. Midt-sone (25m bred) markert - kun 2-touch der. Tvinger ball ut på kantene for innlegg.",
     coachingPoints: [
@@ -3703,7 +3703,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 16,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "8v8 med boks (25x15m) midt på banen. Kan IKKE passe eller drible gjennom boksen. Tvinger spillebytte og kantspill.",
     coachingPoints: [
@@ -3728,7 +3728,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6v6 på kompakt bane. Hvert lag har en kantspiller i egen angrepssone. Ball spilles til kantspiller som slår inn. Kantspiller kan serve tidlig (30m) eller nær endeline.",
     coachingPoints: [
@@ -3755,7 +3755,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 14,
     playersMax: 16,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6 feltspillere + keeper per lag på banen. 4 støttespillere per lag langs sidelinja: 2 på endelinja (angrep) og 2 på sidelinja (angrepssone). Mål: rask fremover og scoring.",
     coachingPoints: [
@@ -3784,7 +3784,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 16,
     playersMax: 22,
-    theme: "Heading",
+    theme: "heading",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "10v10 på 65x35m bane. Spillerne starter med kast, deretter heading-pasning eller heading-skudd. Hvis ballen treffer bakken, mister laget besittelsen.",
     coachingPoints: [
@@ -3838,7 +3838,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 12,
     playersMin: 11,
     playersMax: 13,
-    theme: "Overgang",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "4 forsvarere + keeper forsvarer mot 6 angripere (2 spisser, 4 midtbane) på 75x45m bane. Angriperne scorer på stort mål, forsvarerne scorer ved å spille til målspillere ved midtstreken.",
     coachingPoints: [
@@ -3865,7 +3865,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 18,
     playersMax: 20,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "6v6 keep-away med 6 nøytrale spillere på utsiden. Laget i besittelse spiller til nøytral som slår lang pasning til motsatt side. Kontrollert mottak = 1 poeng. Nøytrale roterer med innelag etter tid.",
     coachingPoints: [
@@ -3892,7 +3892,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 14,
-    theme: "Avslutning",
+    theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
     description: "3 soner: Sone 1 (1v1), Sone 2 (2v1 til mål), Sone 3 (4v2 til mål). Angriper starter i Sone 1, kjemper mot forsvarer. Uansett utfall går angriper til Sone 2 og får med seg én spiller for 2v1. Begge angripere går til Sone 3 for 4v2.",
     coachingPoints: [
@@ -3919,7 +3919,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 15,
     playersMin: 18,
     playersMax: 20,
-    theme: "Innlegg",
+    theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "9v9 på midtre tredjedel (delt i tredeler med linjer fra 16m). Ballen spilles ut til kantspiller som angriper endeline og slår inn. To spillere (A1 nær, A2 bakre) timer løpene inn i feltet.",
     coachingPoints: [
@@ -3946,7 +3946,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 20,
     playersMin: 22,
     playersMax: 24,
-    theme: "Kantspill",
+    theme: "kantspill",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "11v11 med kantsonene frie (5-10m på hver side). Bare én spiller om gangen kan entre kantsonen ved å løpe på ball. Maks 3 touch i kantsonen, deretter tilbake i spill. 1 poeng for mål, 2 poeng for mål fra innlegg.",
     coachingPoints: [
@@ -3973,7 +3973,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 12,
     playersMax: 16,
-    theme: "Pasning",
+    theme: "pasning",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "To lag med nummererte spillere i hvert sitt kvadrat. Treneren roper et nummer - disse to spillerne sprinter til motsatt kvadrat og spiller 4v1 (eller liknende undertall). Den som vinner ballen først får poeng til laget.",
     coachingPoints: [
@@ -3994,13 +3994,13 @@ export const smallsidedExercises: Exercise[] = [
   // Possession: Linjespill
   {
     id: "smallsided-157",
-    exerciseNumber: 508,
+    exerciseNumber: 622,
     name: "4-3-3 Linjespill",
     category: "game",
     duration: 12,
     playersMin: 18,
     playersMax: 22,
-    theme: "Possession",
+    theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Feltspillere i 4-3-3 formasjon spiller keep-away. 10 sammenhengende pasninger = 1 mål. Deretter spilles med 'mål' som to linjer 6m fra hver ende. Mål scores ved å drible over linjen etter minst 4 pasninger.",
     coachingPoints: [
@@ -4021,13 +4021,13 @@ export const smallsidedExercises: Exercise[] = [
   // Conditioning: 2v2+Mål
   {
     id: "smallsided-158",
-    exerciseNumber: 509,
+    exerciseNumber: 623,
     name: "2v2+Målspillere kondisjon",
     category: "game",
     duration: 10,
     playersMin: 8,
     playersMax: 12,
-    theme: "Overgang",
+    theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "2v2 med én målspiller for hvert lag på motsatte ender. Laget i besittelse prøver å spille fra én målspiller til den andre. Høy intensitet - hver omgang varer 1 minutt. Fokus på vending og dribleteknikk.",
     coachingPoints: [
@@ -4054,7 +4054,7 @@ export const smallsidedExercises: Exercise[] = [
     duration: 10,
     playersMin: 12,
     playersMax: 16,
-    theme: "Oppvarming",
+    theme: "oppvarming",
     equipment: ["Kjegler", "Vester", "Baller", "2 småmål"],
     description: "Bruk midtsirkelen som bane med to småmål på hver side. 4v4 inne i sirkelen, 8 spillere fordelt på to lag utenfor. Når ball går ut, bytter innespilleren med utespiller fra samme lag. Høyt tempo og mye bevegelse.",
     coachingPoints: [

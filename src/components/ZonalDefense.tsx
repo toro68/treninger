@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { NFF_ZONAL_DEFENSE_LEADING, NFF_ZONAL_DEFENSE_ROLES } from "@/data/nff-zonal-defense";
 
 export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
@@ -81,11 +82,10 @@ export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) 
 
               <div className="rounded-lg border-2 border-emerald-300 bg-emerald-50 p-4">
                 <h4 className="text-sm font-bold text-emerald-900 mb-2">
-                  Førsteforsvarer (1F) = Signalspiller
+                  {NFF_ZONAL_DEFENSE_ROLES["1f"].title}
                 </h4>
                 <p className="text-xs text-emerald-800 mb-3">
-                  Spilleren nærmest ballfører er førsteforsvarer - den viktigste spilleren i soneforsvaret. 
-                  Din handling definerer hva de andre ti spillerne skal gjøre.
+                  {NFF_ZONAL_DEFENSE_ROLES["1f"].description}
                 </p>
                 <div className="bg-white/60 rounded-md p-2 text-xs text-emerald-900">
                   <strong>Før involvering:</strong>
@@ -147,10 +147,10 @@ export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) 
 
               <div className="rounded-lg border border-blue-200 bg-blue-50 p-4">
                 <h4 className="text-sm font-bold text-blue-900 mb-2">
-                  Andreforsvarer (2F) = Sikring
+                  {NFF_ZONAL_DEFENSE_ROLES["2f"].title}
                 </h4>
                 <p className="text-xs text-blue-800 mb-3">
-                  Nærmeste spiller til førsteforsvarer. Sikrer på rett side eller dekker rom.
+                  {NFF_ZONAL_DEFENSE_ROLES["2f"].description}
                 </p>
                 <div className="bg-white/60 rounded-md p-2 text-xs text-blue-900">
                   <strong>Hvem sikrer hvem:</strong>
@@ -176,10 +176,10 @@ export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) 
 
               <div className="rounded-lg border border-purple-200 bg-purple-50 p-4">
                 <h4 className="text-sm font-bold text-purple-900 mb-2">
-                  Tredjeforsvarer = Romkontroll
+                  {NFF_ZONAL_DEFENSE_ROLES["3f"].title}
                 </h4>
                 <p className="text-xs text-purple-800 mb-3">
-                  Alle andre spillere på forsvarslaget. Dekker rom og/eller tar ut definerte angrepsspillere.
+                  {NFF_ZONAL_DEFENSE_ROLES["3f"].description}
                 </p>
                 <div className="bg-white/60 rounded-md p-2 text-xs text-purple-900">
                   <strong>Kommunikasjon:</strong>
@@ -197,39 +197,39 @@ export const ZonalDefense = ({ defaultOpen = true }: { defaultOpen?: boolean }) 
             <div className="space-y-3">
               <div className="rounded-lg border-2 border-amber-300 bg-amber-50 p-4">
                 <h4 className="text-sm font-bold text-amber-900 mb-2">
-                  Sidelinja er førsteforsvarerens beste venn
+                  {NFF_ZONAL_DEFENSE_LEADING.sideline.title}
                 </h4>
                 <p className="text-xs text-amber-800">
-                  Der er det trangest, og mulighetene for ballvinning øker. Hovedregel: Led ballfører ut mot sidelinja.
+                  {NFF_ZONAL_DEFENSE_LEADING.sideline.description}
                 </p>
               </div>
 
               <div className="rounded-lg border border-zinc-200 bg-zinc-50 p-4">
-                <h4 className="text-sm font-bold text-zinc-900 mb-2">Bueløp - ikke rett på!</h4>
+                <h4 className="text-sm font-bold text-zinc-900 mb-2">{NFF_ZONAL_DEFENSE_LEADING.curveRun.title}</h4>
                 <p className="text-xs text-zinc-700 mb-2">
-                  Ta korteste vei mot førsteangriper, MEN: Bruk bueløp for å stenge rommet du vil beskytte.
+                  {NFF_ZONAL_DEFENSE_LEADING.curveRun.description}
                 </p>
                 <div className="bg-white rounded-md p-2 text-xs text-zinc-600">
-                  <strong>Eksempel:</strong> Ønsker du ikke pasning på yttersiden/kanten? → Led inn med bueløp.
+                  <strong>Eksempel:</strong> {NFF_ZONAL_DEFENSE_LEADING.curveRun.example}
                 </div>
               </div>
 
               <div className="grid grid-cols-2 gap-2">
                 <div className="rounded-lg border border-green-200 bg-green-50 p-3">
-                  <h4 className="text-xs font-bold text-green-900 mb-1">Led INN når:</h4>
+                  <h4 className="text-xs font-bold text-green-900 mb-1">{NFF_ZONAL_DEFENSE_LEADING.leadIn.title}</h4>
                   <ul className="text-xs text-green-800 space-y-1 list-disc list-inside">
-                    <li>Du har sikring på innsiden</li>
-                    <li>Dere er i overtall inne</li>
-                    <li>Du vil nekte ytterside-pasning</li>
+                    {NFF_ZONAL_DEFENSE_LEADING.leadIn.bullets.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
                   </ul>
                 </div>
 
                 <div className="rounded-lg border border-orange-200 bg-orange-50 p-3">
-                  <h4 className="text-xs font-bold text-orange-900 mb-1">Led UT når:</h4>
+                  <h4 className="text-xs font-bold text-orange-900 mb-1">{NFF_ZONAL_DEFENSE_LEADING.leadOut.title}</h4>
                   <ul className="text-xs text-orange-800 space-y-1 list-disc list-inside">
-                    <li>Du er alene uten sikring</li>
-                    <li>Dere er i undertall sentralt</li>
-                    <li>Lede vekk fra dominant motstander</li>
+                    {NFF_ZONAL_DEFENSE_LEADING.leadOut.bullets.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
                   </ul>
                 </div>
               </div>

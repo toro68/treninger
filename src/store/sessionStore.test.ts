@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { useSessionStore } from "./sessionStore";
+import { filterAndGroupExercises, useSessionStore } from "./sessionStore";
+import type { Exercise } from "@/data/exercises";
 
 describe("sessionStore", () => {
   beforeEach(() => {
@@ -143,6 +144,98 @@ describe("sessionStore", () => {
       setPlannedBlocks([{ id: "block-1", exercise: exerciseLibrary[0] }]);
       resetPlan();
       expect(useSessionStore.getState().plannedBlocks).toBeNull();
+    });
+  });
+
+  describe("filterAndGroupExercises", () => {
+    it("should filter by theme across categories (including category 'rondo')", () => {
+      const library: Exercise[] = [
+        {
+          id: "w1",
+          exerciseNumber: 1,
+          name: "Warmup rondo",
+          category: "warmup",
+          duration: 5,
+          playersMin: 4,
+          playersMax: 12,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "s1",
+          exerciseNumber: 1,
+          name: "Station rondo",
+          category: "station",
+          duration: 10,
+          playersMin: 4,
+          playersMax: 12,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "g1",
+          exerciseNumber: 1,
+          name: "Game rondo",
+          category: "game",
+          duration: 15,
+          playersMin: 4,
+          playersMax: 12,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "r1",
+          exerciseNumber: 1,
+          name: "Rondo category exercise",
+          category: "rondo",
+          duration: 15,
+          playersMin: 4,
+          playersMax: 12,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "other",
+          exerciseNumber: 1,
+          name: "Other theme",
+          category: "game",
+          duration: 10,
+          playersMin: 4,
+          playersMax: 12,
+          theme: "pressing",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const categories = new Set<string>(["warmup", "station", "game", "rondo"]);
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 16,
+        stationCount: 4,
+        theme: "rondo",
+        categories,
+      });
+
+      expect(grouped.warmup?.map((ex) => ex.id)).toEqual(["w1"]);
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["s1"]);
+      expect(grouped.game?.map((ex) => ex.id)).toEqual(["g1"]);
+      expect(grouped.rondo?.map((ex) => ex.id)).toEqual(["r1"]);
+      expect(grouped.game?.some((ex) => ex.id === "other")).toBe(false);
     });
   });
 });

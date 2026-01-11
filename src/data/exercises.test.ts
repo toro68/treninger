@@ -1,11 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { getExerciseCode, allExercises } from "./exercises";
-import type { Exercise, ExerciseCategory } from "./exercises";
+import { EXERCISE_THEMES, getExerciseCode, allExercises, normalizeTheme } from "./exercises";
+import type { ExerciseCategory, ExerciseData } from "./exercises";
 
 describe("exercises data", () => {
   describe("getExerciseCode", () => {
     it("should return F prefix for fixed-warmup", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 1,
         name: "Test",
@@ -13,7 +13,7 @@ describe("exercises data", () => {
         duration: 5,
         playersMin: 1,
         playersMax: 30,
-        theme: "test",
+        theme: "teknikk",
         equipment: [],
         description: "",
         coachingPoints: [],
@@ -23,7 +23,7 @@ describe("exercises data", () => {
     });
 
     it("should return O prefix for warmup", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 5,
         name: "Test",
@@ -31,7 +31,7 @@ describe("exercises data", () => {
         duration: 10,
         playersMin: 1,
         playersMax: 20,
-        theme: "test",
+        theme: "teknikk",
         equipment: [],
         description: "",
         coachingPoints: [],
@@ -41,7 +41,7 @@ describe("exercises data", () => {
     });
 
     it("should return AK prefix for aktivisering", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 3,
         name: "Test",
@@ -49,7 +49,7 @@ describe("exercises data", () => {
         duration: 8,
         playersMin: 4,
         playersMax: 16,
-        theme: "test",
+        theme: "teknikk",
         equipment: [],
         description: "",
         coachingPoints: [],
@@ -59,7 +59,7 @@ describe("exercises data", () => {
     });
 
     it("should return R prefix for rondo", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 7,
         name: "Test Rondo",
@@ -77,7 +77,7 @@ describe("exercises data", () => {
     });
 
     it("should return S prefix for station", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 12,
         name: "Test Station",
@@ -95,7 +95,7 @@ describe("exercises data", () => {
     });
 
     it("should return K prefix for game", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 4,
         name: "Test Game",
@@ -113,7 +113,7 @@ describe("exercises data", () => {
     });
 
     it("should return A prefix for cooldown", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 2,
         name: "Test Cooldown",
@@ -131,7 +131,7 @@ describe("exercises data", () => {
     });
 
     it("should handle exerciseNumber 0", () => {
-      const exercise: Exercise = {
+      const exercise: ExerciseData = {
         id: "test",
         exerciseNumber: 0,
         name: "Test",
@@ -139,7 +139,7 @@ describe("exercises data", () => {
         duration: 10,
         playersMin: 1,
         playersMax: 20,
-        theme: "test",
+        theme: "teknikk",
         equipment: [],
         description: "",
         coachingPoints: [],
@@ -169,6 +169,10 @@ describe("exercises data", () => {
       });
     });
 
+    it("should not contain deprecated category aktivisering", () => {
+      expect(allExercises.some((exercise) => exercise.category === "aktivisering")).toBe(false);
+    });
+
     it("should have unique ids", () => {
       const ids = allExercises.map((ex) => ex.id);
       const uniqueIds = new Set(ids);
@@ -183,8 +187,12 @@ describe("exercises data", () => {
 
     it("should have valid player ranges", () => {
       allExercises.forEach((exercise) => {
+        expect(Number.isInteger(exercise.playersMin)).toBe(true);
+        expect(Number.isInteger(exercise.playersMax)).toBe(true);
         expect(exercise.playersMin).toBeGreaterThan(0);
         expect(exercise.playersMax).toBeGreaterThanOrEqual(exercise.playersMin);
+        // Bred øvre grense for å fange åpenbare feil uten å være for streng.
+        expect(exercise.playersMax).toBeLessThanOrEqual(60);
       });
     });
 
@@ -193,6 +201,22 @@ describe("exercises data", () => {
         (ex) => ex.category === "fixed-warmup" && ex.alwaysIncluded
       );
       expect(fixedWarmups.length).toBeGreaterThan(0);
+    });
+
+    it("should have valid theme for all exercises", () => {
+      allExercises.forEach((exercise) => {
+        expect(EXERCISE_THEMES).toContain(exercise.theme);
+        expect(exercise.theme).toBe(exercise.theme.trim().toLowerCase());
+      });
+    });
+  });
+
+  describe("normalizeTheme", () => {
+    it("should normalize known variants", () => {
+      expect(normalizeTheme("Possession")).toBe("possession");
+      expect(normalizeTheme("Avslutninger")).toBe("avslutning");
+      expect(normalizeTheme("Overganger")).toBe("overgang");
+      expect(normalizeTheme("press")).toBe("pressing");
     });
   });
 });

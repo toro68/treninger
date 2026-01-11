@@ -1,9 +1,9 @@
 // Øvelser fra "Forsvar" av Jens Bangsbo og Birger Peitersen
 // Kilde: Jens Bangsbo & Birger Peitersen - "Forsvar" (2002) - Dansk forsvarsspill-metodikk
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-export const bangsboExercises: Exercise[] = [
+export const bangsboExercises: ExerciseData[] = [
   // === KAPITTEL 1: INDIVIDUELT FORSVARSSPILL ===
   {
     id: "bangsbo-ind-1",

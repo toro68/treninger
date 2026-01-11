@@ -41,6 +41,7 @@ npm run build  # Prod-bundle for verifisering
 ## Dokumentasjon
 
 - Banedimensjoner (SVG/diagrammer): `docs/PITCH_DIMENSIONS.md`
+- Øvelsesdata (kategorier, temaer, kilder og koder): `docs/EXERCISE_CATEGORIES.md`
 
 ```text
 src/

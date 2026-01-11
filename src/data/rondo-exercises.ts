@@ -3,9 +3,9 @@
  * Progressions, Variations & Transitions (2014)
  */
 
-import { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
 
-const baseRondoExercises: Exercise[] = [
+const baseRondoExercises: ExerciseData[] = [
   // === GRUNNLEGGENDE RONDO ===
   {
     id: "rondo-fundamental",
@@ -750,7 +750,7 @@ const baseRondoExercises: Exercise[] = [
   }
 ];
 
-export const rondoExercises: Exercise[] = baseRondoExercises.map((exercise) => ({
+export const rondoExercises: ExerciseData[] = baseRondoExercises.map((exercise) => ({
   ...exercise,
   category: "rondo",
 }));

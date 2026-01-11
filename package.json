@@ -10,6 +10,9 @@
     "clean": "rm -rf .next node_modules tsconfig.tsbuildinfo",
     "validate:uefa": "tsx scripts/validate-uefa.ts",
     "audit:categories": "tsx scripts/audit-exercise-categorization.ts",
+    "audit:themes": "tsx scripts/audit-exercise-themes.ts",
+    "audit:tiim": "tsx scripts/audit-tiim-quality.ts",
+    "audit:players": "tsx scripts/audit-exercise-player-counts.ts",
     "prod:sjekk": "npm run lint:safe && npm run build && npm run test",
     "lint:safe": "npm run lint -- --ignore-pattern scripts/**",
     "test": "vitest run"

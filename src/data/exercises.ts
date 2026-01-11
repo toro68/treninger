@@ -1,7 +1,76 @@
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
 export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
 
-export interface Exercise {
+export const EXERCISE_THEMES = [
+  "1v1",
+  "angrep",
+  "avslutning",
+  "ballkontroll",
+  "bevegelse",
+  "bevegelighet",
+  "dribling",
+  "dødball",
+  "evaluering",
+  "finter",
+  "forsvar",
+  "gjennombrudd",
+  "heading",
+  "hurtighet",
+  "innlegg",
+  "kantspill",
+  "konkurranse",
+  "kontring",
+  "keeper",
+  "koordinasjon",
+  "lek",
+  "mental",
+  "mobilitet",
+  "omstilling",
+  "oppbygging",
+  "oppvarming",
+  "overgang",
+  "overlapp",
+  "pasning",
+  "possession",
+  "pressing",
+  "restitusjon",
+  "rondo",
+  "smålagsspill",
+  "spill",
+  "styrke",
+  "teknikk",
+  "utvikling",
+  "vendingsspill",
+] as const;
+
+export type ExerciseTheme = typeof EXERCISE_THEMES[number];
+
+const EXERCISE_THEME_SET = new Set<string>(EXERCISE_THEMES);
+
+export const isExerciseTheme = (value: string): value is ExerciseTheme =>
+  EXERCISE_THEME_SET.has(value);
+
+const THEME_ALIASES: Record<string, ExerciseTheme> = {
+  avslutninger: "avslutning",
+  overganger: "overgang",
+  press: "pressing",
+  passing: "pasning",
+};
+
+export const normalizeTheme = (value: string): ExerciseTheme => {
+  const normalized = value.trim().toLowerCase();
+  const mapped = THEME_ALIASES[normalized] ?? normalized;
+  if (isExerciseTheme(mapped)) return mapped;
+  throw new Error(`Ukjent theme-verdi: "${value}" (normalisert: "${mapped}")`);
+};
+
+const normalizeCategory = (category: ExerciseCategory): ExerciseCategory => {
+  // Historisk kategori i UI: slått sammen til warmup
+  if (category === "aktivisering") return "warmup";
+  return category;
+};
+
+type ExerciseFields<TTheme extends string> = {
   id: string;
   exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
@@ -9,7 +78,7 @@ export interface Exercise {
   duration: number; // minutes
   playersMin: number;
   playersMax: number;
-  theme: string;
+  theme: TTheme;
   equipment: string[];
   description: string;
   coachingPoints: string[];
@@ -21,10 +90,15 @@ export interface Exercise {
   source?: ExerciseSource; // Kilde: egen eller tiim
   sourceUrl?: string; // Lenke til original øvelse
   sourceRef?: string; // Referanse til bok/side (vises ikke i utskrift)
-}
+};
+
+export type ExerciseData = ExerciseFields<string>;
+export type Exercise = ExerciseFields<ExerciseTheme>;
 
 // Hjelpefunksjon for å få formatert øvelseskode med kategori-prefiks
-export const getExerciseCode = (exercise: Exercise): string => {
+export const getExerciseCode = (
+  exercise: Pick<ExerciseData, "category" | "exerciseNumber">
+): string => {
   const prefixMap: Record<ExerciseCategory, string> = {
     "fixed-warmup": "F",
     warmup: "O",
@@ -39,7 +113,7 @@ export const getExerciseCode = (exercise: Exercise): string => {
   return `${prefix}${number}`;
 };
 
-export const exercises: Exercise[] = [
+export const exercises: ExerciseData[] = [
   {
     id: "skadefri-oppvarming",
     exerciseNumber: 1,
@@ -84,7 +158,7 @@ export const exercises: Exercise[] = [
     duration: 8,
     playersMin: 8,
     playersMax: 18,
-    theme: "press",
+    theme: "pressing",
     equipment: ["kjegler", "baller"],
     description: "Lag to lag som bytter på å presse i firkant. Fokus på kollektivt trykk.",
     coachingPoints: ["Sett første press raskt", "Sikring fra bakre spiller"],
@@ -474,7 +548,7 @@ export const exercises: Exercise[] = [
     duration: 14,
     playersMin: 9,
     playersMax: 14,
-    theme: "press",
+    theme: "pressing",
     equipment: ["kjegler", "baller"],
     description:
       "Spill 5 mot 4 i firkant, fokus på press og gjenvinning når laget mister ballen.",
@@ -1012,6 +1086,18 @@ export const exercises: Exercise[] = [
   },
 ];
 
+const normalizeStringArray = (items: string[] | undefined): string[] =>
+  (items ?? []).map((item) => item.trim()).filter(Boolean);
+
+const normalizeExercise = (exercise: ExerciseData): Exercise => ({
+  ...exercise,
+  theme: normalizeTheme(exercise.theme),
+  category: normalizeCategory(exercise.category),
+  equipment: normalizeStringArray(exercise.equipment),
+  coachingPoints: normalizeStringArray(exercise.coachingPoints),
+  variations: normalizeStringArray(exercise.variations),
+});
+
 // Importer tiim-øvelser
 import { tiimExercises } from './tiim-converted';
 // Importer DBU-øvelser
@@ -1030,7 +1116,7 @@ import { smallsidedExercises } from './smallsided-exercises';
 import { uefaExercises } from './uefa-exercises';
 
 // Kombiner alle øvelseskilder
-export const allExercises: Exercise[] = [
+const allExerciseData: ExerciseData[] = [
   ...exercises,
   ...tiimExercises,
   ...dbuExercises,
@@ -1041,3 +1127,5 @@ export const allExercises: Exercise[] = [
   ...smallsidedExercises,
   ...uefaExercises,
 ];
+
+export const allExercises: Exercise[] = allExerciseData.map(normalizeExercise);

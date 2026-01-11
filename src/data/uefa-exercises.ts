@@ -8,9 +8,9 @@
  * Visningskode: UEFA-A10-01 (for UI)
  */
 
-import type { Exercise } from "./exercises";
+import type { ExerciseData } from "./exercises";
 
-export const uefaExercises: Exercise[] = [
+export const uefaExercises: ExerciseData[] = [
   {
     id: "uefa-a02-01",
     exerciseNumber: 519,
@@ -320,7 +320,7 @@ export const uefaExercises: Exercise[] = [
     duration: 16,
     playersMin: 14,
     playersMax: 18,
-    theme: "press",
+    theme: "pressing",
     equipment: ["mål", "kjegler"],
     description:
       "Gk+7v7+Gk med tre stoppere, regista som joker og fokus på Conte-presset: spiss styrer inn sentralt, indreløper støter, regista sikrer. Scoring etter høy gjenvinning innen 6 sek = 2 poeng.",
@@ -806,7 +806,7 @@ export const uefaExercises: Exercise[] = [
     duration: 16,
     playersMin: 14,
     playersMax: 14,
-    theme: "press",
+    theme: "pressing",
     equipment: ["mål", "kjegler", "baller", "vester"],
     description:
       "6v6 + to keepere på bane delt i tre korridorer. Angrepslag forsøker å bygge opp, forsvarslag får poeng for ballvinning i sidekorridor etter at ballside 8 har støtt innenfra-og-ut og laget låser spillet der.",
@@ -1043,7 +1043,7 @@ export const uefaExercises: Exercise[] = [
     duration: 18,
     playersMin: 14,
     playersMax: 18,
-    theme: "press",
+    theme: "pressing",
     equipment: ["mål", "kjegler", "baller", "vester"],
     description:
       "7v7. Oppstart hos motstanders stopper. Spissen får poeng når han stenger sentrum og leder spillet til avtalt side, og laget vinner ball innen 6 sek etter at fella settes.",
@@ -1882,7 +1882,7 @@ export const uefaExercises: Exercise[] = [
     duration: 20,
     playersMin: 16,
     playersMax: 20,
-    theme: "press",
+    theme: "pressing",
     equipment: ["mål", "kjegler", "vester"],
     description:
       "8v8+Gk. To lag i 4-4-2. Trener instruerer forsvarende lag til å enten presse høyt i diamant eller falle lavt i sone. Forsvarende lag får poeng for å vinne ballen i sin definerte presshøyde. Etter brudd gjelder overgangsspill-regler.",

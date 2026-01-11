@@ -43,6 +43,7 @@ describe("Filters", () => {
   it("should render theme filter buttons", () => {
     renderFilters();
     expect(screen.getByText("Alle")).toBeInTheDocument();
+    expect(screen.getByText("Rondo")).toBeInTheDocument();
   });
 
   it("should call onThemeChange when clicking a theme", () => {

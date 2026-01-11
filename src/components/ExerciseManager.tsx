@@ -8,12 +8,21 @@ import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 const CATEGORY_LABELS: Record<ExerciseCategory, string> = {
   "fixed-warmup": "Skadefri oppvarming",
   warmup: "Oppvarming",
-  aktivisering: "Aktivisering",
+  aktivisering: "Oppvarming",
   rondo: "Rondo",
   station: "Stasjoner",
   game: "Spill",
   cooldown: "Avslutning",
 };
+
+const CATEGORY_OPTIONS: ExerciseCategory[] = [
+  "fixed-warmup",
+  "warmup",
+  "rondo",
+  "station",
+  "game",
+  "cooldown",
+];
 
 export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { highlightExerciseId?: string | null; onHighlightConsumed?: () => void; }) => {
   const exercises = useExercises();
@@ -212,13 +221,18 @@ export const ExerciseManager = ({ highlightExerciseId, onHighlightConsumed }: { 
               <select
                 value={editing.category}
                 onChange={(event) =>
-                  handleChange("category", event.target.value as ExerciseCategory)
+                  handleChange(
+                    "category",
+                    (event.target.value === "aktivisering"
+                      ? "warmup"
+                      : (event.target.value as ExerciseCategory))
+                  )
                 }
                 className="rounded-lg border border-zinc-200 px-3 py-2"
               >
-                {Object.entries(CATEGORY_LABELS).map(([value, label]) => (
+                {CATEGORY_OPTIONS.map((value) => (
                   <option key={value} value={value}>
-                    {label}
+                    {CATEGORY_LABELS[value]}
                   </option>
                 ))}
               </select>
