@@ -1929,7 +1929,7 @@ export const uefaCodeToId = (code: string): string => {
  * Finn UEFA-øvelse etter kode (case-insensitive)
  * Aksepterer både "UEFA-A10-01" og "uefa-a10-01"
  */
-export const getUEFAExerciseByCode = (code: string): Exercise | undefined => {
+export const getUEFAExerciseByCode = (code: string): ExerciseData | undefined => {
   const normalizedId = code.toLowerCase().replace(/^uefa-/, "uefa-");
   return uefaExercises.find((ex) => ex.id === normalizedId);
 };
@@ -1937,7 +1937,7 @@ export const getUEFAExerciseByCode = (code: string): Exercise | undefined => {
 /**
  * Finn alle UEFA-øvelser for en gitt oppgavekode (f.eks. "A10")
  */
-export const getUEFAExercisesByAnalysis = (analysisCode: string): Exercise[] => {
+export const getUEFAExercisesByAnalysis = (analysisCode: string): ExerciseData[] => {
   const prefix = `uefa-${analysisCode.toLowerCase()}-`;
   return uefaExercises.filter((ex) => ex.id.startsWith(prefix));
 };
