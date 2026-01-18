@@ -175,8 +175,30 @@ describe("exercises data", () => {
 
     it("should have unique ids", () => {
       const ids = allExercises.map((ex) => ex.id);
-      const uniqueIds = new Set(ids);
-      expect(uniqueIds.size).toBe(ids.length);
+      const counts = new Map<string, number>();
+      ids.forEach((id) => counts.set(id, (counts.get(id) ?? 0) + 1));
+      const duplicates = Array.from(counts.entries())
+        .filter(([, count]) => count > 1)
+        .map(([id, count]) => `${id} (${count})`);
+      expect(duplicates).toEqual([]);
+    });
+
+    it("should have unique searchable exercise codes (excluding TIIM)", () => {
+      const codeToIds = new Map<string, string[]>();
+
+      allExercises.forEach((exercise) => {
+        if (exercise.source === "tiim") return;
+        const code = getExerciseCode(exercise);
+        const existing = codeToIds.get(code);
+        if (existing) existing.push(exercise.id);
+        else codeToIds.set(code, [exercise.id]);
+      });
+
+      const duplicates = Array.from(codeToIds.entries())
+        .filter(([, ids]) => ids.length > 1)
+        .map(([code, ids]) => `${code}: ${ids.join(", ")}`);
+
+      expect(duplicates).toEqual([]);
     });
 
     it("should have positive duration for all exercises", () => {

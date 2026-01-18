@@ -3,7 +3,7 @@
 ## Oversikt over kategorier
 
 | Kategori | Kode | Formål | Varighet |
-|----------|------|--------|----------|
+| -------- | ---- | ------ | -------- |
 | Fast oppvarming | `fixed-warmup` | Skadefri-programmet, alltid inkludert | 5 min |
 | Oppvarming | `warmup` | Aktivering, koordinasjon, ballmestring | 8-12 min |
 | Rondo | `rondo` | Posisjonsspill/rondo som egen kategori (valgfritt) | 8-15 min |
@@ -23,7 +23,7 @@ Appen viser ofte øvelser som en kode på formen `<prefiks><nummer>` (f.eks. `O1
 Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 
 | Kategori (`category`) | Prefiks | Eksempel |
-|---|---:|---|
+| --------------------- | ------: | -------- |
 | `fixed-warmup` | `F` | `F1` |
 | `warmup` | `O` | `O12` |
 | `aktivisering` (historisk) | `AK` | `AK3` |
@@ -35,25 +35,29 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 ## 1. Fast oppvarming (`fixed-warmup`)
 
 ### Kjennetegn
+
 - **NFF Skadefri-programmet** - obligatorisk før hver trening
 - Alltid først i økten
 - Fokus på skadeforebygging
 - Standardisert innhold
 
 ### Inkluderer
+
 - Aktivering av kjernemuskulatur
 - Dynamisk uttøyning
 - Balanse og propriosepsjon
 - Lett kardio
 
 ### Eksempler
+
 - Skadefri-programmet (5 min fast øvelse)
 
 ---
 
 ## 2. Oppvarming (`warmup`)
 
-### Kjennetegn
+### Kjennetegn oppvarming
+
 - **Lav til moderat intensitet**
 - **Alle spillere aktive samtidig**
 - Gradvis økning av tempo
@@ -63,33 +67,39 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 ### Typer oppvarming
 
 #### Teknisk oppvarming
+
 - Pasningsøvelser i bevegelse
 - Dribling gjennom kjegler
 - Mottak og vending
 - Ball i lufta (heading, volley)
 
 #### Lekbasert oppvarming
+
 - Stikkball/tagging med ball
 - Erobringsspill
 - Konkurranser lag mot lag
 
 #### Rondo-oppvarming
+
 - 4v1, 5v2 med lav intensitet
 - Fokus på pasning og bevegelse
 - Korte avstander
 
-### Spillerantall
+### Spillerantall oppvarming
+
 - Hele gruppen (10-20 spillere)
 - Eller delt i 2-3 like store grupper
 
-### Typisk varighet
+### Varighet oppvarming
+
 - 8-12 minutter
 
 ---
 
 ## 3. Stasjoner (`station`)
 
-### Kjennetegn
+### Kjennetegn stasjoner
+
 - **Teknisk fokus**
 - **Høy repetisjonsfrekvens**
 - 2-3 grupper (7-15 spillere per stasjon)
@@ -99,36 +109,42 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 ### Typer stasjoner
 
 #### Pasningsstasjoner
+
 - Y-formasjon, diamant, firkant
 - 1-touch, 2-touch pasning
 - Lange og korte pasninger
 - Pasning med bevegelse
 
 #### Avslutningsstasjoner
+
 - Skudd fra ulike vinkler
 - Heading mot mål
 - 1v1 mot keeper
 - Kombinasjon + avslutning
 
 #### Driblingsstasjoner
+
 - Slalåm gjennom kjegler
 - Finter og vendinger
 - 1v1 i avgrenset område
 - Tempo-dribling
 
 #### Forsvarsstasjoner
+
 - Pressing-øvelser
 - 1v1 forsvar
 - Linjespill
 - Gjenvinning
 
-### Organisering
+### Organisering stasjoner
+
 - 2-3 stasjoner
 - 8-15 spillere per stasjon
 - 3-5 minutter per stasjon
 - Rotasjon på signal
 
-### Typisk varighet
+### Varighet stasjoner
+
 - 10-15 minutter totalt
 
 ---
@@ -139,7 +155,8 @@ Merk: `game` er en kategori (struktur i treningsøkta). `spill` er et tema (foku
 og kan brukes på tvers av kategorier, men brukes ofte på spilløkter når øvelsen
 er «vanlig spill» uten spesifikt deltema.
 
-### Kjennetegn
+### Kjennetegn spilløkt
+
 - **Kamplikt situasjon**
 - **Alle spillere aktive hele tiden**
 - Realistiske beslutninger under press
@@ -149,6 +166,7 @@ er «vanlig spill» uten spesifikt deltema.
 ### Typer spill
 
 #### Smålagsspill (3v3 til 6v6)
+
 - Høy ballkontakt per spiller
 - Mange 1v1 situasjoner
 - Raske overganger
@@ -162,6 +180,7 @@ er «vanlig spill» uten spesifikt deltema.
 - Med støttespillere på kanten
 
 #### Rondo / Posisjonsspill
+
 - Overtallsspill (4v2, 5v2, 6v3)
 - Fokus på ballbesittelse
 - Pasning under press
@@ -175,12 +194,14 @@ er «vanlig spill» uten spesifikt deltema.
 - Høy tempo
 
 #### Overgangsspill
+
 - Angrep til forsvar (og motsatt)
 - Rask omstilling
 - Pressreaksjoner
 - Kontringsøvelser
 
 #### Sonespill
+
 - Spill i definerte områder
 - Taktisk fokus
 - Lagdeler (forsvar/angrep)
@@ -189,14 +210,15 @@ er «vanlig spill» uten spesifikt deltema.
 ### Spillerantall per lag
 
 | Type | Spillere per lag | Totalt |
-|------|------------------|--------|
+| ---- | ---------------- | ------ |
 | 3v3 | 3 | 6-9 |
 | 4v4 | 4 | 8-12 |
 | 5v5 | 5 | 10-14 |
 | 6v6 | 6 | 12-16 |
 | 7v7 | 7 | 14-18 |
 
-### Typisk varighet
+### Varighet spilløkt
+
 - 12-20 minutter
 - Korte perioder (2-4 min) med pauser
 
@@ -204,31 +226,36 @@ er «vanlig spill» uten spesifikt deltema.
 
 ## 5. Avslutning (`cooldown`)
 
-### Kjennetegn
+### Kjennetegn avslutning
+
 - **Lav intensitet**
 - Rolig nedtrapping
 - Refleksjon og oppsummering
 - Mental avslutning
 
-### Inkluderer
+### Inkluderer avslutning
 
 #### Fysisk
+
 - Lett jogg / gange
 - Statisk uttøyning
 - Avslapning
 
 #### Mentalt
+
 - Oppsummering av økten
 - Hva lærte vi?
 - Ros og anerkjennelse
 - Motivasjon til neste trening
 
 #### Sosialt
+
 - Lagprat i ring
 - Heiarop
 - Takk for treningen
 
-### Typisk varighet
+### Varighet avslutning
+
 - 5-10 minutter
 
 ---
@@ -247,7 +274,7 @@ Hver øvelse har et `theme`. Temaet er en streng fra `EXERCISE_THEMES` i `src/da
 Ved import normaliseres temaer til lowercase og mappes via et lite alias-oppsett:
 
 | Råverdi | Normalisert `theme` |
-|---|---|
+| ------- | ------------------- |
 | `Avslutninger` | `avslutning` |
 | `Overganger` | `overgang` |
 | `Press` | `pressing` |
@@ -266,7 +293,7 @@ kategori.
 Tabellen under er en komplett referanse over alle 39 temaer i `EXERCISE_THEMES`.
 
 | Tema | Gruppe | Beskrivelse | Typiske øvelser |
-|---|---|---|---|
+| ---- | ------ | ----------- | --------------- |
 | `1v1` | Taktisk | Duelltrening 1 mot 1 | 1v1 i korridor, vende og avslutte |
 | `angrep` | Taktisk | Angrepsspill og valg | Angrepsspill mot etablert forsvar |
 | `avslutning` | Teknisk | Skudd og avslutning | Avslutning fra kant, 1v1 mot keeper |
@@ -312,10 +339,12 @@ Tabellen under er en komplett referanse over alle 39 temaer i `EXERCISE_THEMES`.
 ## Ekstra kategorier i appen
 
 ### Aktivisering (`aktivisering`) – utfaset
+
 - Historisk egen kategori, men er slått sammen til `warmup` i UI og normaliseres ved import.
 - Kildedata bør bruke `warmup` direkte.
 
 ### Rondo (`rondo`)
+
 - `rondo` kan være både fokus (`theme`) og format (valg av `category`).
 - Bruk `category: "rondo"` når du vil at øvelsen skal ligge i en egen rondo-del og kunne filtreres som egen kategori i appen.
 - Bruk `category: "warmup"` når rondo brukes som aktivering med lav/moderat intensitet (f.eks. 4v1/5v2 i starten av økta).
@@ -330,7 +359,7 @@ Tabellen under er en komplett referanse over alle 39 temaer i `EXERCISE_THEMES`.
 Gjeldende liste over kilder ligger i `src/data/exercises.ts` (`ExerciseSource`) og består av 14 verdier.
 
 | Kilde | Fokus | Typisk kategori |
-|-------|-------|-----------------|
+| ----- | ----- | --------------- |
 | **egen** | Interne øvelser/egne varianter | warmup, station, game |
 | **tiim** | NFF øvelser, bredt | station, game |
 | **eggen** | Norsk filosofi, lagspill | game |
@@ -350,7 +379,7 @@ Gjeldende liste over kilder ligger i `src/data/exercises.ts` (`ExerciseSource`) 
 
 ## Hvordan kategorisere en ny øvelse
 
-### Spørsmål å stille:
+### Spørsmål å stille
 
 1. **Er alle spillere aktive samtidig?**
 
@@ -377,7 +406,7 @@ Gjeldende liste over kilder ligger i `src/data/exercises.ts` (`ExerciseSource`) 
 
 ### Beslutningstre
 
-```
+```text
 Er det skadefri-oppvarming?
 ├── Ja → fixed-warmup
 └── Nei
@@ -397,6 +426,7 @@ Er det skadefri-oppvarming?
 ## Eksempler på korrekt kategorisering
 
 ### ✓ Riktig som `game`
+
 - 4v4 med mål og keeper
 - 5v2 rondo
 - 6v6 med endesoner
@@ -404,6 +434,7 @@ Er det skadefri-oppvarming?
 - Overtallsspill med scoring
 
 ### ✓ Riktig som `station`
+
 - Y-formasjon pasning
 - Avslutning fra 16-meter
 - Dribling gjennom kjegler
@@ -411,12 +442,14 @@ Er det skadefri-oppvarming?
 - Heading mot mål
 
 ### ✓ Riktig som `warmup`
+
 - Stikkball med ball
 - Pasning i bevegelse (hele gruppen)
 - Lett rondo som aktivering
 - Koordinasjonsøvelser
 
 ### ✗ Feil kategorisering
+
 - Rondo som `station` uten stasjonsoppsett/rotasjon → ofte bedre som `game`
 - 4v4 spill som `station` → Skal være `game`
 - Teknisk øvelse uten motstand som `game` → Skal være `station`

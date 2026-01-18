@@ -9,6 +9,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-deny-space",
     exerciseNumber: 400,
     name: "Nekte Rom",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -27,12 +28,14 @@ export const duggerExercises: ExerciseData[] = [
       "Reduser feltstørrelsen",
       "Legg til tidsbegrensning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Two"
   },
   {
     id: "dugger-pressure-pass",
     exerciseNumber: 403,
     name: "Press på Pasning",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -51,12 +54,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til en andre forsvarer som sikrer",
       "Poengsystem for vellykkede ballvinninger"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Three"
   },
   {
     id: "dugger-hold-up",
     exerciseNumber: 406,
     name: "Holde Opp Angriper",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 10,
     playersMin: 4,
@@ -75,12 +80,14 @@ export const duggerExercises: ExerciseData[] = [
       "Utvid til 2v1 med sikringsspiller",
       "Poengsystem for sekunder holdt opp"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seven"
   },
   {
     id: "dugger-block-shots",
     exerciseNumber: 476,
     name: "Blokkere Skudd og Pasninger",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -99,12 +106,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til innleggssituasjoner",
       "Øv med flere angripere"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eight"
   },
   {
     id: "dugger-weak-foot",
     exerciseNumber: 410,
     name: "Tvinge på Svak Fot",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -123,12 +132,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til mål - angriperen må score på svak fot",
       "Rotér forsvarere"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Nine"
   },
   {
     id: "dugger-cover-space",
     exerciseNumber: 414,
     name: "Dekke Rom",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 8,
@@ -147,12 +158,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til overgangsfaser",
       "Poengsystem for nullminutter"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Ten"
   },
   {
     id: "dugger-block-tackle",
     exerciseNumber: 416,
     name: "Blokktakling",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 10,
     playersMin: 4,
@@ -171,12 +184,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til bevegelse før takling",
       "Kombiner med gjenvinningsspill"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eleven"
   },
   {
     id: "dugger-sliding-tackle",
     exerciseNumber: 419,
     name: "Glidende Takling",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 10,
     playersMin: 4,
@@ -195,7 +210,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til at angriperen har fart",
       "Kombiner med rask reisning etterpå"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Twelve"
   },
 
   // === MANNDEKNING OG SONEFORSVAR ===
@@ -203,6 +219,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-man-mark-zone",
     exerciseNumber: 422,
     name: "Manndekning i Sone",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -221,12 +238,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til flere angripere",
       "Øv på overleveringsfeil og redning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Sixteen"
   },
   {
     id: "dugger-man-mark-deadball",
     exerciseNumber: 10,
     name: "Manndekning ved Dødball",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 12,
@@ -245,12 +264,14 @@ export const duggerExercises: ExerciseData[] = [
       "Kombiner med soneforsvar på deler av boksen",
       "Legg til klareringsøvelse"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventeen"
   },
   {
     id: "dugger-zonal-corner",
     exerciseNumber: 11,
     name: "Soneforsvar ved Hjørnespark",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 12,
@@ -269,7 +290,8 @@ export const duggerExercises: ExerciseData[] = [
       "Øv på forskjellige hjørnesparkstyper",
       "Legg til kontringsovergang"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Twenty"
   },
 
   // === FORSVAR MOT DØDBALL ===
@@ -277,6 +299,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-defend-near-post",
     exerciseNumber: 424,
     name: "Forsvar Første Stolpe",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 10,
@@ -295,12 +318,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til angripere som løper første stolpe",
       "Øv på heading-teknikk"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Tactic Twenty-Three"
   },
   {
     id: "dugger-defend-deep-corner",
     exerciseNumber: 426,
     name: "Forsvar Dyp Hjørnespark",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 10,
@@ -319,12 +344,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til andre angripere",
       "Kombiner med kontring etter klarering"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Tactic Twenty-Four"
   },
   {
     id: "dugger-defend-throw",
     exerciseNumber: 431,
     name: "Forsvar ved Innkast",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 10,
     playersMin: 8,
@@ -343,12 +370,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til returløp-forsvar",
       "Varier innkastposisjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Twenty-Eight"
   },
   {
     id: "dugger-defend-wall",
     exerciseNumber: 434,
     name: "Mur ved Frispark",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 10,
@@ -367,7 +396,8 @@ export const duggerExercises: ExerciseData[] = [
       "Øv på korte frisparkvarianter",
       "Kombiner med keeperens redning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Thirty-Two"
   },
 
   // === FORMASJONSSPESIFIKKE ØVELSER ===
@@ -375,6 +405,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-442-defense",
     exerciseNumber: 267,
     name: "4-4-2 Forsvarsspill",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 12,
@@ -393,12 +424,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til overgangsfaser",
       "Øv mot forskjellige formasjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation 4-4-2 (Thirty-Five to Thirty-Eight)"
   },
   {
     id: "dugger-433-defense",
     exerciseNumber: 270,
     name: "4-3-3 Forsvarsspill",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 12,
@@ -417,12 +450,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til kontringssituasjoner",
       "Varier motstanderens formasjon"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation 4-3-3 (Thirty-Nine to Forty-Two)"
   },
   {
     id: "dugger-offside-trap",
     exerciseNumber: 441,
     name: "Offsidefelle",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -441,7 +476,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til løpende angripere",
       "Kombiner med keeper som sikkerhet"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Fifty"
   },
 
   // === 3v2 FORSVAR ===
@@ -449,6 +485,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-3v2-slow",
     exerciseNumber: 443,
     name: "3v2 Forsinke",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 7,
@@ -467,12 +504,14 @@ export const duggerExercises: ExerciseData[] = [
       "Poengsystem for sekunder forsinket",
       "Varier startposisjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventy-Seven"
   },
   {
     id: "dugger-3v2-cover",
     exerciseNumber: 444,
     name: "3v2 med Sikring",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 7,
@@ -491,12 +530,14 @@ export const duggerExercises: ExerciseData[] = [
       "Utvid feltet for mer løping",
       "Poengsystem for ballvinning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventy-Eight"
   },
   {
     id: "dugger-3v2-keeper",
     exerciseNumber: 279,
     name: "3v2 med Keeper",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 15,
     playersMin: 8,
@@ -515,7 +556,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Rotér keeper-rollen"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventy-Nine"
   },
 
   // === RONDO-FORSVAR ===
@@ -523,6 +565,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-rondo-5v2",
     exerciseNumber: 481,
     name: "Rondo 5v2 Forsvarspress",
+    tags: ["dugger-defense-2021"],
     category: "rondo",
     duration: 12,
     playersMin: 7,
@@ -540,12 +583,14 @@ export const duggerExercises: ExerciseData[] = [
       "Touch-begrensning for angriperne",
       "Rotér forsvarere ved ballvinning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventy-Three"
   },
   {
     id: "dugger-rondo-2v1",
     exerciseNumber: 446,
     name: "Rondo 2v1 i Boks",
+    tags: ["dugger-defense-2021"],
     category: "rondo",
     duration: 10,
     playersMin: 6,
@@ -564,7 +609,8 @@ export const duggerExercises: ExerciseData[] = [
       "Tidsbegrensning",
       "Poeng for avskjæringer vs taklinger"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Seventy-Six"
   },
 
   // === KEEPERØVELSER ===
@@ -572,6 +618,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-keeper-position",
     exerciseNumber: 449,
     name: "Keeper Posisjonering",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 4,
@@ -590,12 +637,14 @@ export const duggerExercises: ExerciseData[] = [
       "Kombiner med innlegg",
       "Øv på raske posisjonsskift"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eighty-Four"
   },
   {
     id: "dugger-keeper-reactions",
     exerciseNumber: 209,
     name: "Keeper Reaksjoner",
+    tags: ["dugger-defense-2021"],
     category: "warmup",
     duration: 8,
     playersMin: 2,
@@ -614,12 +663,14 @@ export const duggerExercises: ExerciseData[] = [
       "Varier kastene (høyt, lavt, til side)",
       "Legg til skudd etter kast"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eighty-Five"
   },
   {
     id: "dugger-keeper-1v1",
     exerciseNumber: 454,
     name: "Keeper 1v1 Redning",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 4,
@@ -638,12 +689,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til forsvarer som jager",
       "Øv fra ulike avstander"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eighty-Six"
   },
   {
     id: "dugger-keeper-crosses",
     exerciseNumber: 459,
     name: "Keeper Innlegg",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 6,
@@ -662,7 +715,8 @@ export const duggerExercises: ExerciseData[] = [
       "Varier innleggstyper",
       "Øv på boxing når du ikke kan fange"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eighty-Eight"
   },
 
   // === SPILLE UT FRA KEEPER ===
@@ -670,6 +724,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-play-out-1",
     exerciseNumber: 462,
     name: "Spille Ut Bakfra (1)",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -688,12 +743,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til overgangsmål",
       "Tidsbegrensning på å komme ut"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Ninety-Three"
   },
   {
     id: "dugger-play-out-2",
     exerciseNumber: 291,
     name: "Spille Ut Bakfra (2)",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 18,
     playersMin: 12,
@@ -712,7 +769,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til kontring for forsvarerne",
       "Øv på målsparksituasjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Ninety-Four"
   },
 
   // === SPILLØVELSER ===
@@ -720,6 +778,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-3v2-game",
     exerciseNumber: 294,
     name: "3v2 Rotasjonsspill",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 10,
@@ -738,7 +797,8 @@ export const duggerExercises: ExerciseData[] = [
       "Poengsystem for forsvarerne",
       "Varier startposisjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Eighty-One"
   },
 
   // === HØYT PRESS OG FRONTPRESS ===
@@ -746,6 +806,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-high-press",
     exerciseNumber: 298,
     name: "Høyt Press",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -764,12 +825,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Poengsystem for pressende lag"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Tactic Six"
   },
   {
     id: "dugger-front-press",
     exerciseNumber: 302,
     name: "Frontpress 4-3-3",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -788,7 +851,8 @@ export const duggerExercises: ExerciseData[] = [
       "Øv mot ulike formasjoner",
       "Legg til overgang ved ballvinning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Forty-One"
   },
 
   // === TRACKING OG LØPSDEKNING ===
@@ -796,6 +860,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-tracking-runs",
     exerciseNumber: 465,
     name: "Tracking Midtbaneløp",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 10,
@@ -814,12 +879,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til flere angripere",
       "Øv på overleveringsfeil og redning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Thirty-Seven"
   },
   {
     id: "dugger-5v4-tracking",
     exerciseNumber: 306,
     name: "5v4 med Tracking",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 15,
     playersMin: 10,
@@ -838,7 +905,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Roter forsvarere"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Thirty-Eight"
   },
 
   // === FORMASJONSFORSVAR: DIAMANT OG SWEEPER ===
@@ -846,6 +914,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-diamond-defense",
     exerciseNumber: 309,
     name: "Diamant Midtbaneforsvar",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -864,12 +933,14 @@ export const duggerExercises: ExerciseData[] = [
       "Øv mot ulike formasjoner",
       "Legg til overgang ved ballvinning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation Forty-Seven to Fifty"
   },
   {
     id: "dugger-sweeper-system",
     exerciseNumber: 529,
     name: "Sweeper-System",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -888,7 +959,8 @@ export const duggerExercises: ExerciseData[] = [
       "Sweeper deltar i oppbygging",
       "Øv mot ulike angrepsmønstre"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation Fifty-One to Fifty-Four"
   },
 
   // === 4-2-3-1 OG 4-1-4-1 ===
@@ -896,6 +968,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-4231-defense",
     exerciseNumber: 530,
     name: "4-2-3-1 Forsvarsspill",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -914,12 +987,14 @@ export const duggerExercises: ExerciseData[] = [
       "Øv på overgang til angrep",
       "Ulike motstander-formasjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation Fifty-Five to Fifty-Eight"
   },
   {
     id: "dugger-4141-defense",
     exerciseNumber: 531,
     name: "4-1-4-1 Kompakt Forsvar",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -938,7 +1013,8 @@ export const duggerExercises: ExerciseData[] = [
       "Øv på overganger",
       "Mot forskjellige formasjoner"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Formation Fifty-Nine to Sixty-Two"
   },
 
   // === POKE TACKLE OG RECOVERY ===
@@ -946,6 +1022,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-poke-tackle",
     exerciseNumber: 469,
     name: "Poke Tackle",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 10,
     playersMin: 6,
@@ -964,12 +1041,14 @@ export const duggerExercises: ExerciseData[] = [
       "Start fra ulike vinkler",
       "Legg til at spilleren må reise seg raskt etterpå"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Forty-Five"
   },
   {
     id: "dugger-recovery-run",
     exerciseNumber: 40,
     name: "Recovery Run",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -988,7 +1067,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til flere forsvarere",
       "Øv med overgang ved ballvinning"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Forty-Six"
   },
 
   // === FLERE KEEPER-ØVELSER ===
@@ -996,6 +1076,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-gk-punching",
     exerciseNumber: 470,
     name: "Keeper Boksing",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -1014,12 +1095,14 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til press fra angripere",
       "Kombiner med klareringsøvelse for forsvar"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Eighty-Nine"
   },
   {
     id: "dugger-gk-communication",
     exerciseNumber: 471,
     name: "Keeper Kommunikasjon",
+    tags: ["dugger-defense-2021"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -1038,7 +1121,8 @@ export const duggerExercises: ExerciseData[] = [
       "Roter keeper for å øve alle",
       "Kombiner med dødball-forsvar"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Ninety"
   },
 
   // === MENTAL ROBUSTHET ===
@@ -1046,6 +1130,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-resilience",
     exerciseNumber: 319,
     name: "Mental Robusthet",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 12,
@@ -1064,7 +1149,8 @@ export const duggerExercises: ExerciseData[] = [
       "Legg til tidpress",
       "Roter kapteinsrollen"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Technique Ninety-One to Ninety-Two"
   },
 
   // === IDENTIFISERE FORSVARSSPILLERE ===
@@ -1072,6 +1158,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-defender-trial",
     exerciseNumber: 322,
     name: "Forsvarsprøver",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 25,
     playersMin: 12,
@@ -1090,7 +1177,8 @@ export const duggerExercises: ExerciseData[] = [
       "Varier press og intensitet",
       "Observer hvem som tar ansvar"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Drill Ninety-Seven to Ninety-Eight"
   },
 
   // === MORSOMT FORSVARSSPILL ===
@@ -1098,6 +1186,7 @@ export const duggerExercises: ExerciseData[] = [
     id: "dugger-fun-defense",
     exerciseNumber: 45,
     name: "Morsomt Forsvarsspill",
+    tags: ["dugger-defense-2021"],
     category: "game",
     duration: 20,
     playersMin: 10,
@@ -1116,6 +1205,7 @@ export const duggerExercises: ExerciseData[] = [
       "Lag turneringer",
       "Premier beste forsvarer"
     ],
-    source: "dugger"
+    source: "dugger",
+    sourceRef: "Dugger: Create a World Class Soccer Defense - Tactic One Hundred"
   }
 ];

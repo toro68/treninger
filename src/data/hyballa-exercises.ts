@@ -9,6 +9,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-lob-1",
     exerciseNumber: 398,
     name: "Lob Pass i Femkant",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 5,
@@ -26,12 +27,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Øk avstandene og lob mot hodet",
       "Sett opp to pasningsgrid ved siden av hverandre - hvem er raskest?"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.67 'Fig. 9: Lob pass with five in the passing grid'"
   },
   {
     id: "hyballa-lob-2",
     exerciseNumber: 401,
     name: "Lob Pass med Posisjonsbytte",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 5,
@@ -48,12 +51,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Øk avstandene - spiller må utføre flere lob etter hverandre",
       "Legg til mål med keeper, avslutt etter lob"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.69 'Fig. 10: Lob pass in a grid of five and position changes'"
   },
   {
     id: "hyballa-lob-3",
     exerciseNumber: 404,
     name: "Lob Pass eller 1v1",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 15,
     playersMin: 5,
@@ -70,7 +75,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Øk press fra forsvarer",
       "Legg til tidsbegrensning på valg"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.70 'Fig. 11: Lob pass in a 5-man grid: offensive 1v1 or play the lob pass'"
   },
 
   // === TRIANGLE PASS ØVELSER ===
@@ -78,6 +84,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-triangle-1",
     exerciseNumber: 474,
     name: "Trekantpasninger i Sekskant",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -95,12 +102,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Ett eller to touch",
       "Ballen kan spilles tilbake, men må deretter åpnes til annen side"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.77 'Fig. 15a/15b: Triangle passes in a grid of six'"
   },
   {
     id: "hyballa-triangle-2",
     exerciseNumber: 408,
     name: "Grid med 7 Spillere - Sentral Vending",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 15,
     playersMin: 7,
@@ -118,12 +127,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Trekantpasninger med posisjonsbytte",
       "Trener bestemmer tempo: langsom Tiqui-Taca eller raske åpningspasninger"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.78 'Fig. 16a/16b: Grid with seven players (central turning)'"
   },
   {
     id: "hyballa-triangle-3",
     exerciseNumber: 6,
     name: "6v4 med Obligatoriske Trekantpasninger",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 15,
     playersMin: 10,
@@ -140,12 +151,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Seks spillere begrenses til ett-to touch",
       "Returpasning til keeper tillatt"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.81 'Fig. 17: 6v4 with mandatory triangle passes'"
   },
   {
     id: "hyballa-triangle-4",
     exerciseNumber: 248,
     name: "8v4 med Ett-Touch og Trekantpasninger",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -162,7 +175,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Roter roller etter mål"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.82 'Fig. 18: 8v4 with one-touch and triangle passes'"
   },
 
   // === SWITCH PASS (SIDESKIFTE) ØVELSER ===
@@ -170,6 +184,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-switch-1",
     exerciseNumber: 418,
     name: "Sideskifte i Bredt Grid",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 4,
@@ -187,12 +202,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Sideskifte med to touch - kontroll og pasning",
       "Sideskifte aksepteres av spiller som går 1v1 mot lagkamerat"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.90 'Fig. 23: Grid of four and cutting outside'"
   },
   {
     id: "hyballa-switch-2",
     exerciseNumber: 421,
     name: "Grid med Fire - Vending Ut",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 4,
@@ -210,12 +227,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Først vende ut, så 1v1 mot partner før sideskifte",
       "Etter vending, kortpasning til lagkamerat som spiller dyp før sideskifte"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.90 'Fig. 23: Grid of four and cutting outside'"
   },
   {
     id: "hyballa-switch-3",
     exerciseNumber: 254,
     name: "7v7 med Obligatoriske Sideskifter",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -233,12 +252,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Mål teller kun hvis minst ett sideskifte er utført",
       "Spillere tillates kun ett-to touch totalt"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.94 'Fig. 26: 7v7 with mandatory switch passes'"
   },
   {
     id: "hyballa-switch-4",
     exerciseNumber: 257,
     name: "6v6 + 4 Veggspillere med Sideskifte",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 16,
@@ -256,7 +277,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Etter sideskifte må umiddelbart innlegg spilles foran mål",
       "Ingen nøytrale - én spiller fra hvert lag opererer i vingsone"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.95 'Fig. 27: 6v6 plus 4 wall-pass players'"
   },
 
   // === WALL PASS (VEGGPASNING) ØVELSER ===
@@ -264,6 +286,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-wall-1",
     exerciseNumber: 12,
     name: "5v5 + 4 med Veggspill og Avslutning",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -281,12 +304,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Nøytrale kan også plasseres langs sidelinjen",
       "Avslutning må komme umiddelbart etter veggspill"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.211 'Fig. 100: 5v5 plus 4 with wall pass and finish'"
   },
   {
     id: "hyballa-wall-2",
     exerciseNumber: 13,
     name: "6v6 med Veggspillere på Sidene",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 16,
@@ -304,7 +329,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Marker banen lengre og smalere",
       "Speed-veggspill: kun 8 sekunder til avslutning"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.212 'Fig. 101: 6v6 at two large goals with goalies on a 60-x-40-m playing field'"
   },
 
   // === ANGLED PASS (VINKLET PASNING) ØVELSER ===
@@ -312,6 +338,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-angled-1",
     exerciseNumber: 429,
     name: "Grid 3:3:3 - Vinklede Pasninger",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 9,
@@ -329,12 +356,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Pasning med én ball",
       "Utfør kroppsfinteetter hver pasning"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.216 'Fig. 103: Grid of 3:3:3'"
   },
   {
     id: "hyballa-angled-2",
     exerciseNumber: 264,
     name: "8v8 på Tre Store Mål",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 16,
@@ -352,7 +381,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Lag som spiller på to mål må avslutte innen 8 sekunder",
       "Alltid spill fremover (pasnings-mentalitet)"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.217 'Fig. 104: 8v8 at three large goals with goalies'"
   },
 
   // === ONE-TOUCH PASS ØVELSER ===
@@ -360,6 +390,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-onetouch-1",
     exerciseNumber: 436,
     name: "Ett-Touch i Firkanter",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 15,
     playersMin: 16,
@@ -377,12 +408,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Krev bruk av begge føtter",
       "Legg til ulike baller (stor/liten, tung/lett)"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.248 'Fig. 125a: One-touch in squares'"
   },
   {
     id: "hyballa-onetouch-2",
     exerciseNumber: 17,
     name: "Direkte Treff - Ett-Touch Minispill",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 15,
     playersMin: 16,
@@ -399,12 +432,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Marker småmål med fargede vester - bytt retning på kommando",
       "Legg til flere mål"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.250 'Fig. 125b: Direct hit—The one-touch mini game'"
   },
   {
     id: "hyballa-onetouch-3",
     exerciseNumber: 18,
     name: "9v9 med Ett-Touch Soner",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 18,
@@ -422,7 +457,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Ett-touch kun i midtsonen: 25x30m sone i midten",
       "Treners favoritter: Kun 2-3 spillere får spille ett-touch"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.250 'Fig. 126: 9v9 with one-touch zones'"
   },
 
   // === TIQUI-TACA / RONDO ØVELSER ===
@@ -430,6 +466,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-rondo-1",
     exerciseNumber: 480,
     name: "Rondo 8v2 - Mottak og Pasning",
+    tags: ["hyballa-german-passing-2015"],
     category: "rondo",
     duration: 10,
     playersMin: 10,
@@ -447,12 +484,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Samme fot to ganger på rad",
       "Tre obligatoriske touch, fritt fotvalg"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.265-266 'Fig. 132: Rondo 8v2 (Rondo 1-7)'"
   },
   {
     id: "hyballa-rondo-2",
     exerciseNumber: 205,
     name: "Rondo med Ballhastighet",
+    tags: ["hyballa-german-passing-2015"],
     category: "rondo",
     duration: 10,
     playersMin: 10,
@@ -469,12 +508,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Øk/minsk avstand mellom spillere",
       "Legg til tidsbegrensning"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Fig. 132: Rondo 8v2 (Rondo 3: ball speed)'"
   },
   {
     id: "hyballa-rondo-3",
     exerciseNumber: 206,
     name: "Rondo med Åpent Rom og Lang Pasning",
+    tags: ["hyballa-german-passing-2015"],
     category: "rondo",
     duration: 10,
     playersMin: 10,
@@ -490,12 +531,14 @@ export const hyballaExercises: ExerciseData[] = [
     variations: [
       "Øv B og C sammen for høyere nivå"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Fig. 132: Rondo 8v2 (Rondo 4: open space & long pass)'"
   },
   {
     id: "hyballa-rondo-4",
     exerciseNumber: 207,
     name: "Rondo 9v3 med Defensive Trekanter",
+    tags: ["hyballa-german-passing-2015"],
     category: "rondo",
     duration: 12,
     playersMin: 12,
@@ -513,12 +556,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Endre tidsintervaller",
       "Legg til posisjonsbytte etter gitte pasningssekvenser"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.268-269 'Fig. 133: 9v3 Rondo (Rondo 8-10)'"
   },
   {
     id: "hyballa-rondo-5",
     exerciseNumber: 208,
     name: "Rondo med Kommunikasjonsformer",
+    tags: ["hyballa-german-passing-2015"],
     category: "rondo",
     duration: 12,
     playersMin: 10,
@@ -537,7 +582,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Treg pasning som agn - forsvarer nærmer seg, så rask pasning",
       "Verbal og ikke-verbal kommunikasjon påkrevd"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.267-268 'Fig. 132: Rondo 8v2 (Rondo 7: communication)'"
   },
 
   // === PASSING INTO SPACE (DYBDEPASNING) ØVELSER ===
@@ -545,6 +591,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-space-1",
     exerciseNumber: 447,
     name: "Ball i Rom - Løp i Rom",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -562,12 +609,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Spill ofte veggpasning til lagkameratens fot",
       "Sett opp to grid som kan kobles med sideskifte"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.240 'Fig. 119: Ball into space—run into space'"
   },
   {
     id: "hyballa-space-2",
     exerciseNumber: 286,
     name: "Følge Ballen",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 12,
@@ -585,12 +634,14 @@ export const hyballaExercises: ExerciseData[] = [
       "7v5: Undertallslaget kan også passe til fot - utfordrer overtallslaget til pressing",
       "Etter å følge ballen, enten skudd eller søk 1v1"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.241 'Fig. 120: Variation: Accompanying the ball'"
   },
   {
     id: "hyballa-space-3",
     exerciseNumber: 26,
     name: "Dybdepasning med Chip-baller",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 16,
@@ -608,7 +659,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Spill på tre-fjerdedeler av stor bane for lengre rom-pasninger",
       "Spiller uten ball bestemmer når ball skal i rom"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.242 'Fig. 121: Variation: Accompanying the ball with chip balls'"
   },
 
   // === GIVE-AND-GO (DOBBELTPASNING) ØVELSER ===
@@ -616,6 +668,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-giveandgo-1",
     exerciseNumber: 457,
     name: "Dobbeltpasning til Mål",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 15,
     playersMin: 8,
@@ -633,12 +686,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Varier startposisjon og vinkel",
       "To-touch maks på mottaker"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.192 'Fig. 86: Give-and-go pass, rebound...'"
   },
   {
     id: "hyballa-giveandgo-2",
     exerciseNumber: 28,
     name: "6v4 + 2 med Dobbeltpasning og Finish",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 12,
@@ -656,7 +711,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Begge lag må bruke dobbeltpasning",
       "Tidsbegrensning på angrep"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.192 'Fig. 86: Give-and-go pass, rebound...'"
   },
 
   // === VOLLEY PASS ØVELSER ===
@@ -664,6 +720,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-volley-1",
     exerciseNumber: 463,
     name: "Volley-pasning i Trekant",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 10,
     playersMin: 6,
@@ -681,12 +738,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Øk avstandene",
       "Legg til bevegelse - mottaker starter løp før mottak"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.108 'Fig. 34: Volley passes and shots at goal'"
   },
   {
     id: "hyballa-volley-2",
     exerciseNumber: 30,
     name: "Bryst-pasning Kombinasjon",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 12,
     playersMin: 6,
@@ -704,7 +763,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Legg til bevegelse fremover etter pasning",
       "Konkurranse mellom grupper"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.102 'Fig. 30: Grid of four and chest pass'"
   },
 
   // === KILLER PASS ØVELSER ===
@@ -712,6 +772,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-killer-1",
     exerciseNumber: 297,
     name: "Gjennombruddspasning i 4v3",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 15,
     playersMin: 7,
@@ -729,12 +790,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Tidsbegrensning på angrep (8 sek)",
       "Mål etter gjennombruddspasning teller dobbelt"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.174 'Fig. 74: Killer pass into the danger zone'"
   },
   {
     id: "hyballa-killer-2",
     exerciseNumber: 301,
     name: "8v6 med Gjennombrudds-soner",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 14,
@@ -752,7 +815,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Kun ett touch i gjennombruddssonen",
       "Mål etter gjennombrudd teller dobbelt"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.174 'Fig. 74: Killer pass into the danger zone'"
   },
 
   // === THROW-IN PASS (INNKAST) ØVELSER ===
@@ -760,6 +824,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-throwin-1",
     exerciseNumber: 33,
     name: "Innkast-trekant med Startsaksjon",
+    tags: ["hyballa-german-passing-2015"],
     category: "station",
     duration: 10,
     playersMin: 6,
@@ -777,12 +842,14 @@ export const hyballaExercises: ExerciseData[] = [
       "Innkast kun rettet mot føttene",
       "Legg til stort mål for avslutning"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.230 'Fig. 113: Grid of five with quick throw-in passes'"
   },
   {
     id: "hyballa-throwin-2",
     exerciseNumber: 305,
     name: "8v8 med Taktisk Innkast",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 20,
     playersMin: 16,
@@ -800,7 +867,8 @@ export const hyballaExercises: ExerciseData[] = [
       "Mål etter innkast gir 5 poeng",
       "Balltap etter innkast gir motstander straffespark"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.232 'Fig. 114: Throw-in passes with switch pass and finish'"
   },
 
   // === PRESSING MOT ETT-TOUCH ===
@@ -808,6 +876,7 @@ export const hyballaExercises: ExerciseData[] = [
     id: "hyballa-pressing-1",
     exerciseNumber: 308,
     name: "3v2 x 2 - Ett-Touch mot Aggressivt Press",
+    tags: ["hyballa-german-passing-2015"],
     category: "game",
     duration: 15,
     playersMin: 10,
@@ -827,6 +896,7 @@ export const hyballaExercises: ExerciseData[] = [
       "Endre spilletid",
       "Marker 2m korridor mellom felt der overtallslag kan spille"
     ],
-    source: "hyballa"
+    source: "hyballa",
+    sourceRef: "Hyballa/te Poel 2015 p.259 'Fig. 130: One-touch passing against aggressive pressing'"
   }
 ];

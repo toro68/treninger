@@ -547,7 +547,9 @@ export const filterExercises = (
       if (normalizedSearch) {
         // Inkluder øvelseskode i søket (f.eks. "S45", "K12", "R3")
         const exerciseCode = getExerciseCode(exercise).toLowerCase();
+        const exerciseId = exercise.id?.toLowerCase();
         const haystack = [
+          exerciseId,
           exercise.name,
           exercise.description,
           exercise.theme,

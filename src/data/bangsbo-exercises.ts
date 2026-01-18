@@ -27,7 +27,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Varier startavstand mellom B og A2",
       "Legg til krav om at A2 må forsøke å snu"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 3 (Figur 17) (txt:561)"
   },
   {
     id: "bangsbo-ind-2",
@@ -51,7 +53,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til en tredje angrepsspiller som mål",
       "Gjør det til 1v1 med mål"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 15) (txt:539)"
   },
   {
     id: "bangsbo-ind-3",
@@ -75,7 +79,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Poengsystem: 1 poeng for vellykket takling, 2 for ballvinning"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 16) (txt:550)"
   },
 
   // === KAPITTEL 2: SIKRING OG STØTTE ===
@@ -101,7 +107,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til mål - forsvarerne må beskytte",
       "Varier startposisjoner"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Illustrasjon av spilløvelse 2 (Figur 77) (txt:3036)"
   },
   {
     id: "bangsbo-sikring-2",
@@ -125,7 +133,9 @@ export const bangsboExercises: ExerciseData[] = [
       "4v3 for økt forsvarstrykk",
       "Legg til scoringssoner"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 55) (txt:2099)"
   },
   {
     id: "bangsbo-sikring-3",
@@ -149,7 +159,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til mål å angripe etter ballvinning",
       "Tidsbegrensning på overgangsfasen"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 4 (Figur 25) (txt:922)"
   },
 
   // === KAPITTEL 3: SONEFORSVAR OG MANNDEKNING ===
@@ -175,7 +187,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Utvid til full forsvarsrekke med keeper",
       "3 mot 4 spill med offside-linje"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 10) (txt:363)"
   },
   {
     id: "bangsbo-sone-2",
@@ -199,7 +213,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til mål med keeper",
       "Scoringssoner i hjørnene (angripernes mål)"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 39) (txt:1405)"
   },
   {
     id: "bangsbo-mann-1",
@@ -321,7 +337,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Bonus for kontringsscoringer",
       "Varier antall kontringsspillere"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 79) (txt:3131)"
   },
 
   // === KAPITTEL 4.2: OFFSIDEFELLEN ===
@@ -347,7 +365,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Øv med keeper som siste sikkerhet",
       "Kombiner med sekkeløp ved gjennomspill"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 94) (txt:4181)"
   },
   {
     id: "bangsbo-offside-2",
@@ -471,7 +491,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Rotér pressingsstrategi hvert 5. minutt",
       "Bonus for ballvinning i høy sone"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 89) (txt:3895)"
   },
   {
     id: "bangsbo-spill-3",
@@ -617,7 +639,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Øk antall angripere for mer press",
       "Legg til scoringsoner"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 74) (txt:2818)"
   },
 
   // === DØDBALL-FORSVAR ===
@@ -767,7 +791,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Reduser sonen så 10 bare er i 16m",
       "Legg til tidsbegrensning"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 6) (txt:233)"
   },
   {
     id: "bangsbo-dekning-2",
@@ -791,7 +817,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til scoring på småmål",
       "Øv på ulike soner av banen"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 39) (txt:1405)"
   },
   {
     id: "bangsbo-dekning-3",
@@ -865,7 +893,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Varier sonestørrelser"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Illustrasjon av spilløvelse 1 (Figur 58) (txt:2186)"
   },
   {
     id: "bangsbo-stotte-6",
@@ -889,7 +919,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
       "Poengsystem for sekunder forsvareren holder"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 2 (Figur 23) (txt:830)"
   },
 
   // === KAPITTEL 3: RETNINGSBESTEMMELSE (FLERE) ===
@@ -939,7 +971,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Varier feltets størrelse",
       "Poengsystem for vellykkede ballvinninger"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Illustrasjon av spilløvelse 1 (Figur 94) (txt:4181)"
   },
   {
     id: "bangsbo-retning-5",
@@ -989,7 +1023,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning for kontringen",
       "Poengsystem for rask scoring etter ballvinning"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 22) (txt:796)"
   },
   {
     id: "bangsbo-stil-2",
@@ -1013,7 +1049,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til kontringssoner",
       "Byttesystem ved baklengspress"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 4 (Figur 53) (txt:2038)"
   },
 
   // === KAPITTEL 5: TAKTISK TRENING ===
@@ -1039,7 +1077,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning på kontringen",
       "Poengsystem for raske overganger"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 3 (Figur 91) (txt:3983)"
   },
   {
     id: "bangsbo-taktisk-2",
@@ -1063,7 +1103,9 @@ export const bangsboExercises: ExerciseData[] = [
       "Legg til tidsbegrensning på reorganisering",
       "Poengsystem for raske overganger"
     ],
-    source: "bangsbo"
+    tags: ["bangsbo-peitersen-forsvar"],
+    source: "bangsbo",
+    sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 3 (Figur 24) (txt:872)"
   },
   {
     id: "bangsbo-taktisk-3",

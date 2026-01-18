@@ -74,6 +74,7 @@ type ExerciseFields<TTheme extends string> = {
   id: string;
   exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
+  tags?: string[]; // Tagger for filtrering og gruppering
   category: ExerciseCategory;
   duration: number; // minutes
   playersMin: number;
@@ -237,43 +238,6 @@ export const exercises: ExerciseData[] = [
       "To rekker starter med pasning mot veggspiller og avslutter fra kant. Tell mål for konkurranse.",
     coachingPoints: ["Treff utsiden av foten i pasning", "Følg skuddet"],
     variations: ["Legg inn forsvarer", "Avslutt på første touch"],
-  },
-  {
-    id: "o1-fotballbevegelser",
-    exerciseNumber: 9,
-    name: "O1 Fotballbevegelser",
-    category: "warmup",
-    duration: 10,
-    playersMin: 8,
-    playersMax: 25,
-    theme: "hurtighet",
-    equipment: ["kjegler"],
-    description:
-      "Serier med retningsendringer, finter og lett fotarbeid uten ball for å få kroppen varm.",
-    coachingPoints: [
-      "Start kontrollert før du øker intensiteten",
-      "Hold balanse gjennom alle endringer",
-    ],
-    variations: ["Legg inn koordinasjonsstige", "Avslutt med korte spurter"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "o2a-teknisk-5",
-    exerciseNumber: 10,
-    name: "O2a Teknisk 5-gruppe",
-    category: "warmup",
-    duration: 12,
-    playersMin: 5,
-    playersMax: 15,
-    theme: "pasning",
-    equipment: ["baller"],
-    description:
-      "Fem spillere jobber i sirkel med pasning og bevegelse, ulike kombinasjoner og touchbegrensninger.",
-    coachingPoints: ["Skap vinkler før du mottar", "Tredje spiller i bevegelse"],
-    variations: ["Kun én berøring", "Bytt retning på signal"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
     id: "coerver-finter",
@@ -488,142 +452,6 @@ export const exercises: ExerciseData[] = [
       "Alle har ball innenfor 16-meter og prøver å sparke ut andres ball mens de beskytter sin egen.",
     coachingPoints: ["Lavt tyngdepunkt", "Se opp for kollisjon"],
     variations: ["Legg til straff for tap", "Spill på halv bane"],
-  },
-  {
-    id: "o4-teknisk-loype",
-    exerciseNumber: 25,
-    name: "O4 Teknisk løype",
-    category: "warmup",
-    duration: 12,
-    playersMin: 6,
-    playersMax: 20,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "stiger"],
-    description:
-      "Spillerne beveger seg gjennom dribleporter, sjonglering og vendinger med egen ball i strøm.",
-    coachingPoints: ["Ha mange små berøringer", "Se opp mellom hver del"],
-    variations: ["Legg inn veggpasning", "Avslutt hver runde med skudd"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "t1-skuddaktivitet",
-    exerciseNumber: 26,
-    name: "T1 Skuddaktivitet",
-    category: "station",
-    duration: 15,
-    playersMin: 6,
-    playersMax: 14,
-    theme: "avslutning",
-    equipment: ["baller", "mål", "kjegler"],
-    description:
-      "Keeper + 6-8 spillere jobber i to rekker med oppspill, mottak og rask avslutning.",
-    coachingPoints: ["Første touch mot mål", "Treff vinkelen tidlig"],
-    variations: ["Legg på pressende forsvarer", "Skyt på første touch"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "t7-foring-vegg",
-    exerciseNumber: 27,
-    name: "T7 Føring og vegg",
-    category: "station",
-    duration: 12,
-    playersMin: 6,
-    playersMax: 16,
-    theme: "dribling",
-    equipment: ["baller", "kjegler"],
-    description:
-      "Spillere fører ball over kortlinje, spiller vegg og vender tilbake i tempo.",
-    coachingPoints: ["Ta fart etter vegg", "Kontroller tyngdepunktet"],
-    variations: ["Legg til finte før vegg", "Avslutt med skudd"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "t9a-cavanagh-press",
-    exerciseNumber: 28,
-    name: "T9a Cavanagh-press",
-    category: "station",
-    duration: 14,
-    playersMin: 9,
-    playersMax: 14,
-    theme: "pressing",
-    equipment: ["kjegler", "baller"],
-    description:
-      "Spill 5 mot 4 i firkant, fokus på press og gjenvinning når laget mister ballen.",
-    coachingPoints: ["Styr spill inn i fellen", "Støtt hverandre i press"],
-    variations: ["Begrens berøringer på overtallslaget", "Poeng for å vinne ball før midtlinje"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "s2-angrepsavslutning",
-    exerciseNumber: 29,
-    name: "S2 Angrepsavslutning",
-    category: "game",
-    duration: 18,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "angrep",
-    equipment: ["mål", "baller", "kjegler"],
-    description:
-      "6v6 + keepere på 50x65 m, med frisoner på kantene for innlegg og avslutning.",
-    coachingPoints: ["Angrip boksen med løp", "Slå tidlig fra frisonen"],
-    variations: ["Gi ekstra poeng for innlegg", "Legg inn touchbegrensing"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "s4-spill-treingskamp",
-    exerciseNumber: 30,
-    name: "S4 Spill mot to mål",
-    category: "game",
-    duration: 24,
-    playersMin: 14,
-    playersMax: 22,
-    theme: "spill",
-    equipment: ["mål", "baller"],
-    description:
-      "8v8 + keepere på 80x60 m, fritt spill eller to touch i perioder.",
-    coachingPoints: ["Hold bredde i angrep", "Trykk samlet når ball tapes"],
-    variations: ["Bytt betingelser hver 5. min", "Legg til jokerspiller"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "s8-pasningsforbindelse",
-    exerciseNumber: 31,
-    name: "S8 Pasningsforbindelse",
-    category: "game",
-    duration: 16,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "pasning",
-    equipment: ["baller", "kjegler"],
-    description:
-      "4v4 + keepere hvor laget må spille gjennom midtsonen før avslutning.",
-    coachingPoints: ["Bruk støtte før gjennomspill", "Skap trekanter rundt sonen"],
-    variations: ["Kun to touch på egen halvdel", "Legg inn nøytral i midtsonen"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
-  },
-  {
-    id: "s15-five-a-side",
-    exerciseNumber: 32,
-    name: "S15 Five-a-side",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "restitusjon",
-    equipment: ["småmål", "baller"],
-    description:
-      "5v5 på små mål, moderat intensitet og fokus på å holde ballen i laget.",
-    coachingPoints: ["Flytt ball før du flytter deg", "Ta vare på ballen"],
-    variations: ["Begrens berøringer", "Gi ekstra poeng for veggspill"],
-    source: "eggen",
-    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   // === KONKURRANSER ===
   {
@@ -1099,7 +927,9 @@ const normalizeExercise = (exercise: ExerciseData): Exercise => ({
 });
 
 // Importer tiim-øvelser
-import { tiimExercises } from './tiim-converted';
+import { tiimExercises } from './tiim-exercises';
+// Importer Eggen-øvelser
+import { eggenExercises } from './eggen-exercises';
 // Importer DBU-øvelser
 import { dbuExercises } from './dbu-exercises';
 // Importer Rondo-øvelser fra DiBernardo
@@ -1110,8 +940,14 @@ import { hyballaExercises } from './hyballa-exercises';
 import { bangsboExercises } from './bangsbo-exercises';
 // Importer Dugger-øvelser (World Class Defense)
 import { duggerExercises } from './dugger-exercises';
-// Importer Smålagsspill-øvelser (Prickett, 101 Youth, Seeger)
-import { smallsidedExercises } from './smallsided-exercises';
+// Importer Matkovich-øvelser
+import { matkovichExercises } from './matkovich-exercises';
+// Importer 101 Youth-øvelser
+import { youthExercises } from './101youth-exercises';
+// Importer WorldClass-øvelser
+import { worldclassExercises } from './worldclass-exercises';
+// Importer Seeger-øvelser
+import { seegerExercises } from './seeger';
 // Importer UEFA-øvelser (fra UEFA A-analyser)
 import { uefaExercises } from './uefa-exercises';
 
@@ -1119,12 +955,17 @@ import { uefaExercises } from './uefa-exercises';
 const allExerciseData: ExerciseData[] = [
   ...exercises,
   ...tiimExercises,
+  ...eggenExercises,
   ...dbuExercises,
   ...rondoExercises,
   ...hyballaExercises,
   ...bangsboExercises,
   ...duggerExercises,
-  ...smallsidedExercises,
+  // Smålagsspill per kilde (egne filer)
+  ...matkovichExercises,
+  ...youthExercises,
+  ...worldclassExercises,
+  ...seegerExercises,
   ...uefaExercises,
 ];
 

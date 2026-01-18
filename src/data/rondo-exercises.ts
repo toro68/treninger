@@ -31,6 +31,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Gjør firkanten større hvis spillerne sliter",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.7 'Fundamental Rondo'",
   },
   {
     id: "rondo-breaking-lines",
@@ -56,6 +58,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Kombiner med touch-begrensning",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.9 'Breaking the Lines Rondo'",
   },
   {
     id: "rondo-moving",
@@ -81,6 +85,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Variér antall pasninger før flytting",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.11 'Moving Rondo'",
   },
   {
     id: "rondo-two-team-color",
@@ -106,6 +112,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til tidsbegrensning for forsvarere",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.14 'Two Team Color Coded Rondo'",
   },
   {
     id: "rondo-moving-circle",
@@ -131,6 +139,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranse: hvem kommer først til enden?",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.15 'Moving Circle Rondo'",
   },
   {
     id: "rondo-line-passing",
@@ -156,6 +166,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Poeng for third line split pass",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.16 'Line Passing Rondo'",
   },
   {
     id: "rondo-to-possession",
@@ -181,6 +193,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til mål i combined play",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.18 'Rondo to Possession to Rondo'",
   },
   {
     id: "rondo-transitions",
@@ -231,6 +245,8 @@ const baseRondoExercises: ExerciseData[] = [
       "2 midtspillere for større grupper",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.21 'Sliding Player Rondo'",
   },
 
   // === RONDO VARIASJONER ===
@@ -283,6 +299,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Sprint til kjegle 5m bak",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.23 'Rondo Push Up Game'",
   },
   {
     id: "rondo-two-touch-both-feet",
@@ -385,6 +403,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Poeng for split pass gjennom blå",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.24 '9v4 Rondo'",
   },
   {
     id: "rondo-cognitive-ball-toss",
@@ -460,6 +480,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Poeng for 10 pasninger på rad",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.27 'Rondo to 10v2 One Touch'",
   },
   {
     id: "rondo-game-related",
@@ -485,6 +507,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Variér feltstørrelse etter intensitet ønsket",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.29 'Game Related Rondo Transition'",
   },
 
   // === HYBALLA TIQUI-TACA RONDOS (fra German Soccer Passing Drills) ===
@@ -512,6 +536,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Bytt roller etter X antall balltap"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.265 'Rondo 1 (receiving and passing)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -538,6 +564,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform: Flest pasninger på rad"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.265 'Rondo 2 (push passes)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -564,6 +592,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform: Hvem mister minst baller?"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 3 (ball speed)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -590,6 +620,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til poenggiving"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 4 (open space & long pass)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -616,6 +648,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform mellom grupper"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.266-267 'Rondo 5 (waiting defender)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -642,6 +676,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til bevegelse etter pasning"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.267 'Rondo 6 (spatial awareness)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -668,6 +704,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til verbale signaler"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.267-268 'Rondo 7 (communication)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -694,6 +732,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Tidsbegrensning på gjenvinning"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.268-269 'Rondo 8 (changeover)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -720,6 +760,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseturneringer mellom grupper"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.269 'Rondo 9 (passing fitness)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
   {
@@ -746,6 +788,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Evaluer etter øvelsen"
     ],
     source: "rondo",
+    sourceRef: "Hyballa/te Poel 2015 p.269-270 'Rondo 10 (game leader)'",
+    tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   }
 ];
