@@ -113,7 +113,7 @@ export const Filters = ({
   const stationCount = useSessionStore((state) => state.stationCount);
   
   // Beregn spillere per stasjon
-  const playersPerStation = Math.floor(playerCount / stationCount);
+  const playersPerStation = stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
 
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
@@ -135,9 +135,10 @@ export const Filters = ({
     const themeCounts: Record<string, number> = {};
     allExercises.forEach((exercise) => {
       if (filterByPlayerCount) {
+        // Når antallsfilter er aktivt, match på spillere per stasjon
         const matchesPlayerCount =
-          playerCount >= exercise.playersMin &&
-          playerCount <= exercise.playersMax;
+          playersPerStation >= exercise.playersMin &&
+          playersPerStation <= exercise.playersMax;
         if (!matchesPlayerCount) return;
       }
       
@@ -160,7 +161,7 @@ export const Filters = ({
       if (b === "rondo") return 1;
       return a.localeCompare(b, "nb");
     });
-  }, [playerCount, sourceFilter, filterByPlayerCount]);
+  }, [playersPerStation, playerCount, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 

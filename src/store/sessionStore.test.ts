@@ -237,5 +237,101 @@ describe("sessionStore", () => {
       expect(grouped.rondo?.map((ex) => ex.id)).toEqual(["r1"]);
       expect(grouped.game?.some((ex) => ex.id === "other")).toBe(false);
     });
+
+    it("should filter exercises by players per station when filterByPlayerCount is enabled", () => {
+      const library: Exercise[] = [
+        {
+          id: "small-group",
+          exerciseNumber: 1,
+          name: "Small group exercise",
+          category: "station",
+          duration: 10,
+          playersMin: 4,
+          playersMax: 6,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "large-group",
+          exerciseNumber: 2,
+          name: "Large group exercise",
+          category: "station",
+          duration: 10,
+          playersMin: 10,
+          playersMax: 16,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const categories = new Set<string>(["station"]);
+      
+      // 16 spillere / 4 stasjoner = 4 spillere per stasjon
+      // Bare "small-group" (4-6 spillere) skal vises
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 16,
+        stationCount: 4,
+        categories,
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["small-group"]);
+      expect(grouped.station?.some((ex) => ex.id === "large-group")).toBe(false);
+    });
+
+    it("should show all exercises when filterByPlayerCount is disabled", () => {
+      const library: Exercise[] = [
+        {
+          id: "small-group",
+          exerciseNumber: 1,
+          name: "Small group exercise",
+          category: "station",
+          duration: 10,
+          playersMin: 4,
+          playersMax: 6,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "large-group",
+          exerciseNumber: 2,
+          name: "Large group exercise",
+          category: "station",
+          duration: 10,
+          playersMin: 10,
+          playersMax: 16,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const categories = new Set<string>(["station"]);
+      
+      // Uten filterByPlayerCount skal begge vises
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 16,
+        stationCount: 4,
+        categories,
+        filterByPlayerCount: false,
+      });
+
+      expect(grouped.station?.length).toBe(2);
+      expect(grouped.station?.some((ex) => ex.id === "small-group")).toBe(true);
+      expect(grouped.station?.some((ex) => ex.id === "large-group")).toBe(true);
+    });
   });
 });
