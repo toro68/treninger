@@ -310,7 +310,13 @@ export const useSessionStore = create<SessionState>()(
         }),
       plannedBlocks: null,
       setPlannedBlocks: (blocks) => set({ plannedBlocks: blocks }),
-      resetPlan: () => set({ plannedBlocks: null, selectedExerciseIds: new Set() }),
+      resetPlan: () =>
+        set({
+          plannedBlocks: null,
+          selectedExerciseIds: new Set(),
+          searchQuery: "",
+          highlightExerciseId: null,
+        }),
       generateSession: () => {
         const state = get();
         return deriveSessionBlocks({

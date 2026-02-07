@@ -7,7 +7,7 @@
  * NB: Seeger-øvelsene var tidligere definert i `smallsided-exercises.ts`.
  */
 
-import { Exercise } from "../types/exercise";
+import { Exercise } from "./exercises";
 
 export const SEEGER_SOURCE = {
   id: "seeger-soccer-games-compendium-2017",

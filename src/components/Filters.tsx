@@ -161,7 +161,7 @@ export const Filters = ({
       if (b === "rondo") return 1;
       return a.localeCompare(b, "nb");
     });
-  }, [playersPerStation, playerCount, sourceFilter, filterByPlayerCount]);
+  }, [playersPerStation, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 

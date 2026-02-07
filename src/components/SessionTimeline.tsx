@@ -146,9 +146,15 @@ export const SessionTimeline = () => {
     setPlannedBlocks(updated);
   };
 
+  const toggleExercise = useSessionStore((state) => state.toggleExercise);
+
   const removeBlock = (index: number) => {
+    const removed = sessionBlocks[index];
     const updated = sessionBlocks.filter((_, idx) => idx !== index);
     setPlannedBlocks(updated);
+    if (removed && !removed.exercise.alwaysIncluded) {
+      toggleExercise(removed.exercise.id);
+    }
   };
 
   const buildShortSummary = () => {

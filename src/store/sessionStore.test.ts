@@ -142,8 +142,16 @@ describe("sessionStore", () => {
     it("should reset plannedBlocks to null", () => {
       const { setPlannedBlocks, resetPlan, exerciseLibrary } = useSessionStore.getState();
       setPlannedBlocks([{ id: "block-1", exercise: exerciseLibrary[0] }]);
+      useSessionStore.setState({
+        searchQuery: "rondo",
+        highlightExerciseId: "uefa-1",
+        selectedExerciseIds: new Set([exerciseLibrary[0].id]),
+      });
       resetPlan();
       expect(useSessionStore.getState().plannedBlocks).toBeNull();
+      expect(useSessionStore.getState().searchQuery).toBe("");
+      expect(useSessionStore.getState().highlightExerciseId).toBeNull();
+      expect(useSessionStore.getState().selectedExerciseIds.size).toBe(0);
     });
   });
 
