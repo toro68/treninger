@@ -6,7 +6,7 @@ import { hyballaExercises } from '../src/data/hyballa-exercises';
 import { bangsboExercises } from '../src/data/bangsbo-exercises';
 import { duggerExercises } from '../src/data/dugger-exercises';
 import { smallsidedExercises } from '../src/data/smallsided-exercises';
-import { tiimExercises } from '../src/data/tiim-converted';
+import { tiimExercises } from '../src/data/tiim-exercises';
 import { exercises } from '../src/data/exercises';
 
 const allExerciseArrays = {
@@ -16,7 +16,7 @@ const allExerciseArrays = {
   'bangsbo-exercises.ts': bangsboExercises,
   'dugger-exercises.ts': duggerExercises,
   'smallsided-exercises.ts': smallsidedExercises,
-  'tiim-converted.ts': tiimExercises,
+  'tiim-exercises.ts': tiimExercises,
   'exercises.ts': exercises
 };
 

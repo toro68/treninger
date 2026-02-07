@@ -5,7 +5,7 @@ import { hyballaExercises } from '../src/data/hyballa-exercises';
 import { bangsboExercises } from '../src/data/bangsbo-exercises';
 import { duggerExercises } from '../src/data/dugger-exercises';
 import { smallsidedExercises } from '../src/data/smallsided-exercises';
-import { tiimExercises } from '../src/data/tiim-converted';
+import { tiimExercises } from '../src/data/tiim-exercises';
 import * as fs from 'fs';
 
 // Define the structure of an exercise, assuming it has these properties.
@@ -24,7 +24,7 @@ const allExerciseArrays: { [key: string]: any[] } = {
   'src/data/bangsbo-exercises.ts': bangsboExercises,
   'src/data/dugger-exercises.ts': duggerExercises,
   'src/data/smallsided-exercises.ts': smallsidedExercises,
-  'src/data/tiim-converted.ts': tiimExercises,
+  'src/data/tiim-exercises.ts': tiimExercises,
   'src/data/exercises.ts': exercises,
 };
 
@@ -73,7 +73,7 @@ for (const file in changesByFile) {
     if (content.match(regex)) {
         content = content.replace(regex, `"id": "${change.id}",\n    "exerciseNumber": ${change.newNumber}`);
     } else {
-        // Fallback for tiim-converted.ts where the structure is a bit different
+        // Fallback for tiim-exercises.ts where the structure is a bit different
         const oldTiim = `"id": "${change.id}",\n    "exerciseNumber": ${change.oldNumber},`;
         const newTiim = `"id": "${change.id}",\n    "exerciseNumber": ${change.newNumber},`;
         content = content.replace(oldTiim, newTiim);

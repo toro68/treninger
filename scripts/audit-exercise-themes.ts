@@ -2,7 +2,7 @@ import { normalizeTheme } from "../src/data/exercises";
 import type { ExerciseData } from "../src/data/exercises";
 
 import { exercises } from "../src/data/exercises";
-import { tiimExercises } from "../src/data/tiim-converted";
+import { tiimExercises } from "../src/data/tiim-exercises";
 import { dbuExercises } from "../src/data/dbu-exercises";
 import { rondoExercises } from "../src/data/rondo-exercises";
 import { hyballaExercises } from "../src/data/hyballa-exercises";

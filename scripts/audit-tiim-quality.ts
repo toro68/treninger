@@ -1,4 +1,4 @@
-import { tiimExercises } from "../src/data/tiim-converted";
+import { tiimExercises } from "../src/data/tiim-exercises";
 
 type CountMap = Record<string, number>;
 

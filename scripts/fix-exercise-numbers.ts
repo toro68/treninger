@@ -17,7 +17,7 @@ const exerciseFiles = [
   'dugger-exercises.ts',
   'rondo-exercises.ts',
   'smallsided-exercises.ts',
-  'tiim-converted.ts',
+  'tiim-exercises.ts',
   'uefa-exercises.ts'
 ];
 

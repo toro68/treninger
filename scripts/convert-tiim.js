@@ -196,7 +196,7 @@ import type { Exercise } from './exercises';
 export const tiimExercises: Exercise[] = ${JSON.stringify(converted, null, 2)};
 `;
 
-const outputPath = path.join(__dirname, '..', 'src', 'data', 'tiim-converted.ts');
+const outputPath = path.join(__dirname, '..', 'src', 'data', 'tiim-exercises.ts');
 fs.writeFileSync(outputPath, tsContent, 'utf8');
 
 // Statistikk
