@@ -25,6 +25,7 @@ describe("sessionShare", () => {
           exercise: exercise!,
           customDuration: 18,
           customUnit: "min",
+          assignedCoachNames: ["Tor Inge", "John Arne"],
         },
       ],
     });
@@ -38,6 +39,7 @@ describe("sessionShare", () => {
     const sharedBlock = decoded?.sessionBlocks.find((block) => block.id === exercise!.id);
     expect(sharedBlock?.id).toBe(exercise!.id);
     expect(sharedBlock?.customDuration).toBe(18);
+    expect(sharedBlock?.assignedCoachNames).toEqual(["Tor Inge", "John Arne"]);
   });
 
   it("builds a share URL for the full session view", () => {

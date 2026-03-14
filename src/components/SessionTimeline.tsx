@@ -26,6 +26,7 @@ export const SessionTimeline = () => {
   );
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
+  const coachNames = useSessionStore((state) => state.coachNames);
   const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
@@ -56,28 +57,30 @@ export const SessionTimeline = () => {
   // Grupper blokker i 6 deler (matcher kategoriene som vises i UI)
   const parts = useMemo<SessionPart[]>(() => {
     const grouped: SessionPart[] = [
-      { key: "skadefri",   title: "1. Skadefri",   subtitle: "Fast oppvarming",        blocks: [] },
-      { key: "oppvarming", title: "2. Oppvarming",  subtitle: "Valgfri",                blocks: [] },
-      { key: "rondo",      title: "3. Rondo",       subtitle: "Valgfri",                blocks: [] },
-      { key: "stasjoner",  title: "4. Stasjoner",   subtitle: "",                       blocks: [] },
-      { key: "spill",      title: "5. Spill",       subtitle: "",                       blocks: [] },
-      { key: "avslutning", title: "6. Avslutning",  subtitle: "Utstrekking og styrke",  blocks: [] },
+      { key: "skadefri",   title: "1. Skadefri",   subtitle: "Spillerne styrer selv",   blocks: [] },
+      { key: "styrke",     title: "2. Styrke",     subtitle: "Valgfri",                 blocks: [] },
+      { key: "oppvarming", title: "3. Oppvarming", subtitle: "Valgfri",                 blocks: [] },
+      { key: "rondo",      title: "4. Rondo",      subtitle: "Valgfri",                 blocks: [] },
+      { key: "stasjoner",  title: "5. Stasjoner",  subtitle: "",                        blocks: [] },
+      { key: "spill",      title: "6. Spill",      subtitle: "",                        blocks: [] },
+      { key: "avslutning", title: "7. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] },
     ];
 
     sessionBlocks.forEach((block, index) => {
       const cat = block.exercise.category;
       if (cat === "fixed-warmup")                  grouped[0].blocks.push({ block, globalIndex: index });
-      else if (cat === "warmup" || cat === "aktivisering") grouped[1].blocks.push({ block, globalIndex: index });
-      else if (cat === "rondo")                    grouped[2].blocks.push({ block, globalIndex: index });
-      else if (cat === "station")                  grouped[3].blocks.push({ block, globalIndex: index });
-      else if (cat === "game")                     grouped[4].blocks.push({ block, globalIndex: index });
-      else if (cat === "cooldown")                 grouped[5].blocks.push({ block, globalIndex: index });
+      else if (cat === "cooldown" && block.exercise.theme === "styrke") grouped[1].blocks.push({ block, globalIndex: index });
+      else if (cat === "warmup" || cat === "aktivisering") grouped[2].blocks.push({ block, globalIndex: index });
+      else if (cat === "rondo")                    grouped[3].blocks.push({ block, globalIndex: index });
+      else if (cat === "station")                  grouped[4].blocks.push({ block, globalIndex: index });
+      else if (cat === "game")                     grouped[5].blocks.push({ block, globalIndex: index });
+      else if (cat === "cooldown")                 grouped[6].blocks.push({ block, globalIndex: index });
     });
 
-    const stationCount = grouped[3].blocks.length;
+    const stationCount = grouped[4].blocks.length;
     if (stationCount > 0) {
       const playersPerStation = Math.floor(playerCount / stationCount);
-      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+      grouped[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
     }
 
     return grouped;
@@ -92,6 +95,16 @@ export const SessionTimeline = () => {
     (block.alternativeExerciseIds ?? [])
       .map((id) => exerciseLibrary.find((exercise) => exercise.id === id))
       .filter((exercise): exercise is Exercise => !!exercise);
+
+  const updateBlockAtIndex = (
+    index: number,
+    updater: (block: SessionBlock) => SessionBlock
+  ) => {
+    const updated = sessionBlocks.map((block, idx) =>
+      idx === index ? updater(block) : block
+    );
+    setPlannedBlocks(updated);
+  };
 
   const getAvailableAlternatives = (block: SessionBlock): Exercise[] => {
     const existing = new Set(block.alternativeExerciseIds ?? []);
@@ -126,17 +139,28 @@ export const SessionTimeline = () => {
 
   const handleDurationChange = (index: number, value: number) => {
     if (Number.isNaN(value) || value <= 0) return;
-    const updated = sessionBlocks.map((block, idx) =>
-      idx === index ? { ...block, customDuration: value } : block
-    );
-    setPlannedBlocks(updated);
+    updateBlockAtIndex(index, (block) => ({ ...block, customDuration: value }));
   };
 
   const handleUnitChange = (index: number, unit: DurationUnit) => {
-    const updated = sessionBlocks.map((block, idx) =>
-      idx === index ? { ...block, customUnit: unit } : block
-    );
-    setPlannedBlocks(updated);
+    updateBlockAtIndex(index, (block) => ({ ...block, customUnit: unit }));
+  };
+
+  const toggleCoachAssignment = (index: number, coachName: string) => {
+    updateBlockAtIndex(index, (block) => {
+      const nextCoachNames = new Set(block.assignedCoachNames ?? []);
+      if (nextCoachNames.has(coachName)) {
+        nextCoachNames.delete(coachName);
+      } else {
+        nextCoachNames.add(coachName);
+      }
+
+      const assignedCoachNames = [...nextCoachNames];
+      return {
+        ...block,
+        assignedCoachNames: assignedCoachNames.length > 0 ? assignedCoachNames : undefined,
+      };
+    });
   };
 
   const addAlternativeExercise = (index: number, alternativeExerciseId: string) => {
@@ -212,7 +236,11 @@ export const SessionTimeline = () => {
           alternatives.length > 0
             ? ` (alt: ${alternatives.map((exercise) => exercise.name).join(" / ")})`
             : "";
-        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}`;
+        const coachText =
+          block.assignedCoachNames && block.assignedCoachNames.length > 0
+            ? ` [ansvar: ${block.assignedCoachNames.join(", ")}]`
+            : "";
+        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}`;
       })
       .join("\n");
   };
@@ -220,6 +248,7 @@ export const SessionTimeline = () => {
   const buildFullSummary = () => {
     const partNames = [
       "SKADEFRI",
+      "STYRKE",
       "OPPVARMING",
       "RONDO",
       "STASJONER",
@@ -239,6 +268,9 @@ export const SessionTimeline = () => {
         const unit = getUnit(block);
         const alternatives = getAlternativeExercises(block);
         result += `\n[${getExerciseCode(block.exercise)}] ${block.exercise.name} (${duration} ${unit})\n`;
+        if (block.assignedCoachNames?.length) {
+          result += `Ansvar: ${block.assignedCoachNames.join(", ")}\n`;
+        }
         result += `${block.exercise.description}\n`;
 
         if (block.exercise.coachingPoints.length > 0) {
@@ -627,6 +659,25 @@ export const SessionTimeline = () => {
                                   </span>
                                   {block.exercise.name}
                                 </p>
+                                {block.exercise.category === "fixed-warmup" ? (
+                                  <div className="mt-2 flex flex-wrap gap-1.5">
+                                    <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2 py-1 text-[11px] font-medium text-emerald-900">
+                                      Spillerstyrt
+                                    </span>
+                                  </div>
+                                ) : null}
+                                {block.assignedCoachNames?.length ? (
+                                  <div className="mt-2 flex flex-wrap gap-1.5">
+                                    {block.assignedCoachNames.map((coachName) => (
+                                      <span
+                                        key={coachName}
+                                        className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-2 py-1 text-[11px] font-medium text-sky-900"
+                                      >
+                                        {coachName}
+                                      </span>
+                                    ))}
+                                  </div>
+                                ) : null}
                                 {getAlternativeExercises(block).length > 0 && (
                                   <div className="mt-2 flex flex-wrap gap-1.5">
                                     {getAlternativeExercises(block).map((exercise) => (
@@ -680,6 +731,36 @@ export const SessionTimeline = () => {
                                     )}
                                   </div>
                                 )}
+                                {coachNames.length > 0 && block.exercise.category !== "fixed-warmup" ? (
+                                  <div className="mt-3 rounded-xl border border-zinc-200 bg-white/80 p-2.5">
+                                    <p className="text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                                      Ansvarlige trenere
+                                    </p>
+                                    <div className="mt-2 flex flex-wrap gap-2">
+                                      {coachNames.map((coachName) => {
+                                        const checked = block.assignedCoachNames?.includes(coachName) ?? false;
+                                        return (
+                                          <label
+                                            key={coachName}
+                                            className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-2.5 py-1.5 text-[11px] transition ${
+                                              checked
+                                                ? "border-sky-300 bg-sky-50 text-sky-900"
+                                                : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-300"
+                                            }`}
+                                          >
+                                            <input
+                                              type="checkbox"
+                                              checked={checked}
+                                              onChange={() => toggleCoachAssignment(globalIndex, coachName)}
+                                              className="h-3.5 w-3.5 rounded border-zinc-300 text-sky-600 focus:ring-sky-500"
+                                            />
+                                            <span>{coachName}</span>
+                                          </label>
+                                        );
+                                      })}
+                                    </div>
+                                  </div>
+                                ) : null}
                               </div>
 
                               <div className="flex items-center gap-1.5 shrink-0 self-start">

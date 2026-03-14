@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { filterAndGroupExercises, useSessionStore } from "./sessionStore";
+import { filterAndGroupExercises, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
 import type { Exercise } from "@/data/exercises";
 
 describe("sessionStore", () => {
@@ -8,6 +8,7 @@ describe("sessionStore", () => {
     useSessionStore.setState({
       playerCount: 16,
       stationCount: 4,
+      coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
       searchQuery: "",
@@ -167,7 +168,13 @@ describe("sessionStore", () => {
 
       useSessionStore.setState({
         selectedExerciseIds: new Set([exercise!.id]),
-        plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+        plannedBlocks: [
+          {
+            id: exercise!.id,
+            exercise: exercise!,
+            assignedCoachNames: ["Tor Inge", "Dawid"],
+          },
+        ],
       });
 
       const result = useSessionStore.getState().saveCurrentSession("Min testøkt");
@@ -175,6 +182,11 @@ describe("sessionStore", () => {
       expect(result.ok).toBe(true);
       expect(useSessionStore.getState().savedSessions).toHaveLength(1);
       expect(useSessionStore.getState().savedSessions[0].name).toBe("Min testøkt");
+      expect(useSessionStore.getState().savedSessions[0].coachNames).toContain("Tor Inge");
+      expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].assignedCoachNames).toEqual([
+        "Tor Inge",
+        "Dawid",
+      ]);
     });
 
     it("should load a previously saved session", () => {
@@ -186,8 +198,16 @@ describe("sessionStore", () => {
       useSessionStore.setState({
         playerCount: 18,
         stationCount: 3,
+        coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne", "Ekstra trener"],
         selectedExerciseIds: new Set([exercise!.id]),
-        plannedBlocks: [{ id: exercise!.id, exercise: exercise!, customDuration: 14 }],
+        plannedBlocks: [
+          {
+            id: exercise!.id,
+            exercise: exercise!,
+            customDuration: 14,
+            assignedCoachNames: ["Ekstra trener"],
+          },
+        ],
       });
 
       const saveResult = useSessionStore.getState().saveCurrentSession("Lasteøkt");
@@ -206,8 +226,10 @@ describe("sessionStore", () => {
       expect(loaded).toBe(true);
       expect(useSessionStore.getState().playerCount).toBe(18);
       expect(useSessionStore.getState().stationCount).toBe(3);
+      expect(useSessionStore.getState().coachNames).toContain("Ekstra trener");
       expect(useSessionStore.getState().selectedExerciseIds.has(exercise!.id)).toBe(true);
       expect(useSessionStore.getState().plannedBlocks?.[0].customDuration).toBe(14);
+      expect(useSessionStore.getState().plannedBlocks?.[0].assignedCoachNames).toEqual(["Ekstra trener"]);
     });
 
     it("should delete a saved session", () => {
@@ -459,6 +481,26 @@ describe("sessionStore", () => {
 
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["station-small"]);
       expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-full-group"]);
+    });
+  });
+
+  describe("strength defaults", () => {
+    it("uses exercise duration and minutes for strength blocks", () => {
+      const strengthExercise = useSessionStore
+        .getState()
+        .exerciseLibrary.find(
+          (exercise) => exercise.category === "cooldown" && exercise.theme === "styrke"
+        );
+
+      expect(strengthExercise).toBeDefined();
+
+      const block = {
+        id: strengthExercise!.id,
+        exercise: strengthExercise!,
+      };
+
+      expect(recommendedDuration(block)).toBe(strengthExercise!.duration);
+      expect(getUnit(block)).toBe("min");
     });
   });
 });

@@ -21,28 +21,30 @@ function SharedSessionPageContent() {
     if (!sharedSession) return [];
 
     const grouped = [
-      { key: "skadefri", title: "1. Skadefri", subtitle: "Fast oppvarming", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "oppvarming", title: "2. Oppvarming", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "rondo", title: "3. Rondo", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "stasjoner", title: "4. Stasjoner", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "spill", title: "5. Spill", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "avslutning", title: "6. Avslutning", subtitle: "Utstrekking og styrke", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "skadefri", title: "1. Skadefri", subtitle: "Spillerne styrer selv", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "styrke", title: "2. Styrke", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "oppvarming", title: "3. Oppvarming", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "rondo", title: "4. Rondo", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "stasjoner", title: "5. Stasjoner", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "spill", title: "6. Spill", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "avslutning", title: "7. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] as typeof sharedSession.sessionBlocks },
     ];
 
     sharedSession.sessionBlocks.forEach((block) => {
       const category = block.exercise.category;
       if (category === "fixed-warmup") grouped[0].blocks.push(block);
-      else if (category === "warmup" || category === "aktivisering") grouped[1].blocks.push(block);
-      else if (category === "rondo") grouped[2].blocks.push(block);
-      else if (category === "station") grouped[3].blocks.push(block);
-      else if (category === "game") grouped[4].blocks.push(block);
-      else if (category === "cooldown") grouped[5].blocks.push(block);
+      else if (category === "cooldown" && block.exercise.theme === "styrke") grouped[1].blocks.push(block);
+      else if (category === "warmup" || category === "aktivisering") grouped[2].blocks.push(block);
+      else if (category === "rondo") grouped[3].blocks.push(block);
+      else if (category === "station") grouped[4].blocks.push(block);
+      else if (category === "game") grouped[5].blocks.push(block);
+      else if (category === "cooldown") grouped[6].blocks.push(block);
     });
 
-    const stationCount = grouped[3].blocks.length;
+    const stationCount = grouped[4].blocks.length;
     if (stationCount > 0) {
       const playersPerStation = Math.floor(sharedSession.playerCount / stationCount);
-      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+      grouped[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
     }
 
     return grouped.filter((part) => part.blocks.length > 0);
@@ -149,6 +151,25 @@ function SharedSessionPageContent() {
                               </span>
                               {block.exercise.name}
                             </h3>
+                            {block.exercise.category === "fixed-warmup" ? (
+                              <div className="mt-2 flex flex-wrap gap-2">
+                                <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-[11px] font-medium text-emerald-900">
+                                  Spillerstyrt
+                                </span>
+                              </div>
+                            ) : null}
+                            {block.assignedCoachNames?.length ? (
+                              <div className="mt-2 flex flex-wrap gap-2">
+                                {block.assignedCoachNames.map((coachName) => (
+                                  <span
+                                    key={coachName}
+                                    className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-2.5 py-1 text-[11px] font-medium text-sky-900"
+                                  >
+                                    {coachName}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : null}
                             <p className="mt-2 text-sm leading-6 text-zinc-700">{block.exercise.description}</p>
                           </div>
                           <div className="shrink-0 rounded-2xl bg-zinc-100 px-3 py-2 text-xs text-zinc-600">

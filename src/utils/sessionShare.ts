@@ -6,6 +6,7 @@ type SharedBlock = {
   customDuration?: number;
   customUnit?: DurationUnit;
   alternativeExerciseIds?: string[];
+  assignedCoachNames?: string[];
 };
 
 type SharedSessionPayload = {
@@ -60,13 +61,17 @@ const decodeBase64Url = (value: string) => {
 
 const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | null => {
   if (!blocks || blocks.length === 0) return null;
-  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds }) => ({
+  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds, assignedCoachNames }) => ({
     id,
     customDuration,
     customUnit,
     alternativeExerciseIds:
       Array.isArray(alternativeExerciseIds) && alternativeExerciseIds.length > 0
         ? alternativeExerciseIds
+        : undefined,
+    assignedCoachNames:
+      Array.isArray(assignedCoachNames) && assignedCoachNames.length > 0
+        ? assignedCoachNames
         : undefined,
   }));
 };
@@ -95,6 +100,10 @@ const hydratePlannedBlocks = (blocks: SharedBlock[] | null): SessionBlock[] | nu
           : undefined,
       alternativeExerciseIds:
         alternativeExerciseIds.length > 0 ? alternativeExerciseIds : undefined,
+      assignedCoachNames:
+        Array.isArray(entry.assignedCoachNames) && entry.assignedCoachNames.length > 0
+          ? entry.assignedCoachNames
+          : undefined,
     });
   });
 
@@ -131,15 +140,31 @@ const mergeWithPlannedOrder = (
   plannedBlocks: SessionBlock[] | null
 ) => {
   const base = buildTimeline(selectedExerciseIds);
-  if (!plannedBlocks) return base;
+  if (!plannedBlocks || plannedBlocks.length === 0) return base;
 
-  const baseIds = new Set(base.map((block) => block.id));
-  const plannedIds = new Set(plannedBlocks.map((block) => block.id));
+  const baseMap = new Map(base.map((block) => [block.id, block]));
+  const plannedMap = new Map(plannedBlocks.map((block) => [block.id, block]));
 
-  if (baseIds.size !== plannedIds.size) return base;
-  if (![...baseIds].every((id) => plannedIds.has(id))) return base;
+  const merged: SessionBlock[] = plannedBlocks
+    .filter((block) => baseMap.has(block.id))
+    .map((block) => {
+      const current = baseMap.get(block.id)!;
+      return {
+        ...current,
+        customDuration: block.customDuration,
+        customUnit: block.customUnit,
+        alternativeExerciseIds: block.alternativeExerciseIds,
+        assignedCoachNames: block.assignedCoachNames,
+      };
+    });
 
-  return plannedBlocks;
+  base.forEach((block) => {
+    if (!plannedMap.has(block.id)) {
+      merged.push(block);
+    }
+  });
+
+  return merged;
 };
 
 export const createSharedSessionToken = ({

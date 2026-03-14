@@ -4,12 +4,21 @@ import { allExercises, Exercise, ExerciseSource, getExerciseCode } from "@/data/
 
 export type DurationUnit = "min" | "reps";
 
+export const DEFAULT_COACH_NAMES = [
+  "Tor Inge",
+  "Tor Harald",
+  "Dawid",
+  "Rune",
+  "John Arne",
+] as const;
+
 export type SessionBlock = {
   id: string;
   exercise: Exercise;
   customDuration?: number;
   customUnit?: DurationUnit;
   alternativeExerciseIds?: string[];
+  assignedCoachNames?: string[];
 };
 
 type SerializedBlock = {
@@ -17,6 +26,7 @@ type SerializedBlock = {
   customDuration?: number;
   customUnit?: DurationUnit;
   alternativeExerciseIds?: string[];
+  assignedCoachNames?: string[];
 };
 
 export type SavedSession = {
@@ -26,6 +36,7 @@ export type SavedSession = {
   updatedAt: string;
   playerCount: number;
   stationCount: number;
+  coachNames: string[];
   selectedExerciseIds: string[];
   selectedTheoryIds: string[];
   plannedBlocks: SerializedBlock[] | null;
@@ -38,6 +49,7 @@ type SessionState = {
   savedSessions: SavedSession[];
   playerCount: number;
   stationCount: number;
+  coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   favoriteIds: Set<string>;
@@ -45,6 +57,8 @@ type SessionState = {
   highlightExerciseId: string | null;
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
+  addCoachName: (name: string) => void;
+  removeCoachName: (name: string) => void;
   setSearchQuery: (query: string) => void;
   setHighlightExercise: (id: string | null) => void;
   toggleExercise: (id: string) => void;
@@ -117,16 +131,7 @@ export const deriveSessionBlocks = ({
   plannedBlocks: SessionBlock[] | null;
 }): SessionBlock[] => {
   const base = buildTimeline({ selectedExerciseIds, exerciseLibrary });
-  if (!plannedBlocks) return base;
-
-  const baseIds = new Set(base.map((block) => block.id));
-  const planIds = new Set(plannedBlocks.map((block) => block.id));
-
-  const sameSize = baseIds.size === planIds.size;
-  const allMatch = [...baseIds].every((id) => planIds.has(id));
-  if (!sameSize || !allMatch) return base;
-
-  return plannedBlocks;
+  return mergePlannedBlockMetadata(base, plannedBlocks);
 };
 
 const sortExercises = (exercises: Exercise[]) =>
@@ -142,6 +147,36 @@ const applyOverrides = (
     return { ...exercise, ...override };
   });
 
+const mergePlannedBlockMetadata = (
+  base: SessionBlock[],
+  plannedBlocks: SessionBlock[] | null
+) => {
+  if (!plannedBlocks || plannedBlocks.length === 0) return base;
+
+  const baseMap = new Map(base.map((block) => [block.id, block]));
+  const plannedMap = new Map(plannedBlocks.map((block) => [block.id, block]));
+
+  const merged: SessionBlock[] = plannedBlocks
+    .filter((block) => baseMap.has(block.id))
+    .map((block) => {
+      const current = baseMap.get(block.id)!;
+      return {
+        ...current,
+        customDuration: block.customDuration,
+        customUnit: block.customUnit,
+        alternativeExerciseIds: block.alternativeExerciseIds,
+        assignedCoachNames: block.assignedCoachNames,
+      };
+    });
+
+  base.forEach((block) => {
+    if (!plannedMap.has(block.id)) {
+      merged.push(block);
+    }
+  });
+
+  return merged;
+};
 const buildExerciseLibrary = (
   custom: Exercise[] = [],
   overrides: Record<string, Partial<Exercise>> = {}
@@ -153,6 +188,28 @@ const hydrateSet = (value?: string[] | Set<string>) => {
   if (value instanceof Set) return value;
   return new Set(value);
 };
+
+const normalizeCoachNames = (names?: Iterable<string>) => {
+  const normalized: string[] = [];
+  const seen = new Set<string>();
+
+  for (const rawName of names ?? []) {
+    if (typeof rawName !== "string") continue;
+    const name = rawName.trim();
+    if (!name) continue;
+    const key = name.toLocaleLowerCase("nb-NO");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    normalized.push(name);
+  }
+
+  return normalized;
+};
+
+const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
+
+const mergeCoachNames = (...groups: Array<Iterable<string> | undefined>) =>
+  normalizeCoachNames(groups.flatMap((group) => (group ? [...group] : [])));
 
 const safeJsonParse = (value: string): unknown => {
   try {
@@ -168,6 +225,7 @@ const isRecord = (value: unknown): value is Record<string, unknown> =>
 type PersistedSessionState = {
   playerCount: number;
   stationCount: number;
+  coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   favoriteIds: Set<string>;
@@ -183,13 +241,17 @@ type PersistedSessionStorageValue = StorageValue<PersistedSessionState>;
 
 const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock[] | null => {
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
-  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds }) => ({
+  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds, assignedCoachNames }) => ({
     id,
     customDuration,
     customUnit,
     alternativeExerciseIds:
       Array.isArray(alternativeExerciseIds) && alternativeExerciseIds.length > 0
         ? alternativeExerciseIds
+        : undefined,
+    assignedCoachNames:
+      Array.isArray(assignedCoachNames) && assignedCoachNames.length > 0
+        ? normalizeCoachNames(assignedCoachNames)
         : undefined,
   }));
 };
@@ -199,6 +261,7 @@ const toSavedSession = ({
   name,
   playerCount,
   stationCount,
+  coachNames,
   selectedExerciseIds,
   selectedTheoryIds,
   plannedBlocks,
@@ -209,6 +272,7 @@ const toSavedSession = ({
   name: string;
   playerCount: number;
   stationCount: number;
+  coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
@@ -219,6 +283,7 @@ const toSavedSession = ({
   name,
   playerCount,
   stationCount,
+  coachNames: normalizeCoachNames(coachNames),
   selectedExerciseIds: serializeSet(selectedExerciseIds),
   selectedTheoryIds: serializeSet(selectedTheoryIds),
   plannedBlocks: serializePlannedBlocks(plannedBlocks),
@@ -245,6 +310,17 @@ const hydrateSavedSessions = (
               typeof exerciseId === "string" && exerciseLibrary.some((exercise) => exercise.id === exerciseId)
           )
         : [];
+      const coachNames = mergeCoachNames(
+        defaultCoachNames(),
+        Array.isArray(entry.coachNames) ? entry.coachNames : [],
+        Array.isArray(entry.plannedBlocks)
+          ? entry.plannedBlocks.flatMap((block) =>
+              isRecord(block) && Array.isArray(block.assignedCoachNames)
+                ? block.assignedCoachNames
+                : []
+            )
+          : []
+      );
       const selectedTheoryIds = Array.isArray(entry.selectedTheoryIds)
         ? entry.selectedTheoryIds.filter(
             (theoryId): theoryId is string => typeof theoryId === "string"
@@ -259,10 +335,11 @@ const hydrateSavedSessions = (
           updatedAt: typeof entry.updatedAt === "string" ? entry.updatedAt : new Date().toISOString(),
           playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
           stationCount: typeof entry.stationCount === "number" ? entry.stationCount : 3,
+          coachNames,
           selectedExerciseIds,
           selectedTheoryIds,
-          plannedBlocks: hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary)
-            ? serializePlannedBlocks(hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary))
+          plannedBlocks: hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary, coachNames)
+            ? serializePlannedBlocks(hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary, coachNames))
             : null,
         },
       ];
@@ -272,7 +349,8 @@ const hydrateSavedSessions = (
 
 const hydratePlannedBlocks = (
   value: unknown,
-  exerciseLibrary: Exercise[]
+  exerciseLibrary: Exercise[],
+  coachNames?: Iterable<string>
 ): SessionBlock[] | null => {
   if (!value) return null;
   const ensureUnit = (unit?: unknown): DurationUnit | undefined => {
@@ -288,6 +366,17 @@ const hydratePlannedBlocks = (
         exerciseLibrary.some((exercise) => exercise.id === id)
     );
     return nextIds.length > 0 ? nextIds : undefined;
+  };
+  const ensureAssignedCoachNames = (names?: unknown) => {
+    const normalized = normalizeCoachNames(Array.isArray(names) ? names : []);
+    if (!coachNames) return normalized.length > 0 ? normalized : undefined;
+    const allowed = new Set(
+      normalizeCoachNames(coachNames).map((name) => name.toLocaleLowerCase("nb-NO"))
+    );
+    const filtered = normalized.filter((name) =>
+      allowed.has(name.toLocaleLowerCase("nb-NO"))
+    );
+    return filtered.length > 0 ? filtered : undefined;
   };
 
   if (Array.isArray(value)) {
@@ -308,6 +397,9 @@ const hydratePlannedBlocks = (
           alternativeExerciseIds: ensureAlternativeExerciseIds(
             (entry as SerializedBlock).alternativeExerciseIds,
             exercise.id
+          ),
+          assignedCoachNames: ensureAssignedCoachNames(
+            (entry as SerializedBlock).assignedCoachNames
           ),
         });
       } else if (
@@ -330,6 +422,9 @@ const hydratePlannedBlocks = (
           alternativeExerciseIds: ensureAlternativeExerciseIds(
             (entry as SessionBlock).alternativeExerciseIds,
             exercise.id
+          ),
+          assignedCoachNames: ensureAssignedCoachNames(
+            (entry as SessionBlock).assignedCoachNames
           ),
         });
       }
@@ -357,6 +452,7 @@ export const useSessionStore = create<SessionState>()(
       savedSessions: [],
       playerCount: 12,
       stationCount: 3,
+      coachNames: defaultCoachNames(),
       searchQuery: "",
       highlightExerciseId: null,
       selectedExerciseIds: new Set(),
@@ -364,6 +460,25 @@ export const useSessionStore = create<SessionState>()(
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
       setStationCount: (count) => set({ stationCount: count }),
+      addCoachName: (name) =>
+        set((state) => ({
+          coachNames: mergeCoachNames(state.coachNames, [name]),
+        })),
+      removeCoachName: (name) =>
+        set((state) => {
+          const target = name.trim().toLocaleLowerCase("nb-NO");
+          return {
+            coachNames: state.coachNames.filter(
+              (coachName) => coachName.toLocaleLowerCase("nb-NO") !== target
+            ),
+            plannedBlocks: state.plannedBlocks?.map((block) => ({
+              ...block,
+              assignedCoachNames: (block.assignedCoachNames ?? []).filter(
+                (coachName) => coachName.toLocaleLowerCase("nb-NO") !== target
+              ),
+            })),
+          };
+        }),
       setSearchQuery: (query) => set({ searchQuery: query }),
       setHighlightExercise: (id) => set({ highlightExerciseId: id }),
       toggleExercise: (id) =>
@@ -480,6 +595,7 @@ export const useSessionStore = create<SessionState>()(
           name: trimmedName,
           playerCount: state.playerCount,
           stationCount: state.stationCount,
+          coachNames: state.coachNames,
           selectedExerciseIds: state.selectedExerciseIds,
           selectedTheoryIds: state.selectedTheoryIds,
           plannedBlocks: state.plannedBlocks,
@@ -503,11 +619,17 @@ export const useSessionStore = create<SessionState>()(
             state.exerciseLibrary.some((exercise) => exercise.id === exerciseId)
           )
         );
-        const plannedBlocks = hydratePlannedBlocks(saved.plannedBlocks, state.exerciseLibrary);
+        const coachNames = mergeCoachNames(
+          defaultCoachNames(),
+          saved.coachNames,
+          saved.plannedBlocks?.flatMap((block) => block.assignedCoachNames ?? [])
+        );
+        const plannedBlocks = hydratePlannedBlocks(saved.plannedBlocks, state.exerciseLibrary, coachNames);
 
         set({
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
+          coachNames,
           selectedExerciseIds,
           selectedTheoryIds: new Set(saved.selectedTheoryIds),
           plannedBlocks,
@@ -526,6 +648,7 @@ export const useSessionStore = create<SessionState>()(
       partialize: (state) => ({
         playerCount: state.playerCount,
         stationCount: state.stationCount,
+        coachNames: state.coachNames,
         selectedExerciseIds: state.selectedExerciseIds,
         selectedTheoryIds: state.selectedTheoryIds,
         favoriteIds: state.favoriteIds,
@@ -556,11 +679,16 @@ export const useSessionStore = create<SessionState>()(
               ? (persistedOverridesRaw as Record<string, Partial<Exercise>>)
               : {};
           const exerciseLibrary = buildExerciseLibrary(persistedCustom, persistedOverrides);
+          const coachNames = mergeCoachNames(
+            defaultCoachNames(),
+            Array.isArray(parsedState.coachNames) ? (parsedState.coachNames as string[]) : []
+          );
 
           // Oppdater plannedBlocks med ferske øvelsesdata
           const hydratedPlannedBlocks = hydratePlannedBlocks(
             parsedState.plannedBlocks,
-            exerciseLibrary
+            exerciseLibrary,
+            coachNames
           );
 
           const playerCount =
@@ -593,6 +721,7 @@ export const useSessionStore = create<SessionState>()(
               exerciseLibrary,
               playerCount,
               stationCount,
+              coachNames,
               customExercises: persistedCustom,
               exerciseOverrides: persistedOverrides,
               plannedBlocks: hydratedPlannedBlocks,
@@ -610,6 +739,7 @@ export const useSessionStore = create<SessionState>()(
             state: {
               playerCount: value.state.playerCount,
               stationCount: value.state.stationCount,
+              coachNames: value.state.coachNames ?? defaultCoachNames(),
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
               savedSessions: value.state.savedSessions ?? [],
               selectedExerciseIds: serializeSet(value.state.selectedExerciseIds),
@@ -644,6 +774,9 @@ export const recommendedDuration = (block: SessionBlock) => {
   if (typeof block.customDuration === "number") {
     return block.customDuration;
   }
+  if (block.exercise.category === "cooldown" && block.exercise.theme === "styrke") {
+    return block.exercise.duration;
+  }
   if (
     (block.exercise.category === "warmup" || block.exercise.category === "aktivisering") &&
     !block.exercise.alwaysIncluded
@@ -668,6 +801,9 @@ export const recommendedDuration = (block: SessionBlock) => {
 export const getUnit = (block: SessionBlock): DurationUnit => {
   if (block.customUnit) {
     return block.customUnit;
+  }
+  if (block.exercise.category === "cooldown" && block.exercise.theme === "styrke") {
+    return "min";
   }
   // Standard: cooldown bruker reps, alt annet bruker min
   return block.exercise.category === "cooldown" ? "reps" : "min";

@@ -112,6 +112,16 @@ export default function Home() {
     searchQuery,
   ]);
 
+  const strengthExercises = useMemo(
+    () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme === "styrke"),
+    [groupedExercises.cooldown]
+  );
+
+  const cooldownExercises = useMemo(
+    () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme !== "styrke"),
+    [groupedExercises.cooldown]
+  );
+
   return (
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
@@ -157,9 +167,14 @@ export default function Home() {
                   exercises={groupedExercises.game ?? []}
                 />
                 <ExerciseList
+                  title="Styrke"
+                  category="cooldown"
+                  exercises={strengthExercises}
+                />
+                <ExerciseList
                   title="Avslutning"
                   category="cooldown"
-                  exercises={groupedExercises.cooldown ?? []}
+                  exercises={cooldownExercises}
                 />
               </div>
             </section>

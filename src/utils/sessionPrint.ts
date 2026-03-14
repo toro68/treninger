@@ -27,6 +27,9 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
       const code = getExerciseCode(block.exercise);
       const equipment = block.exercise.equipment.join(", ");
       const alternativeExercises = resolveAlternativeExercises(block, exerciseLibrary);
+      const assignedCoaches = (block.assignedCoachNames ?? [])
+        .map((coachName) => `<span class="coach-tag">${coachName}</span>`)
+        .join("");
 
       const coachingPoints = block.exercise.coachingPoints
         .map((point) => `<li>${point}</li>`)
@@ -49,6 +52,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
             <span class="code">${code}</span>
             ${block.exercise.name}
           </div>
+          ${assignedCoaches ? `<div class="coach-list">${assignedCoaches}</div>` : ""}
           <div class="exercise-meta">
             ${duration} ${unit} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${block.exercise.theme}${
               equipment ? ` • ${equipment}` : ""
@@ -112,6 +116,8 @@ const baseStyles = `
   .exercise-name { font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   .exercise-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
+  .coach-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .coach-tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; background: #e0f2fe; color: #0f172a; font-size: 11px; font-weight: 600; }
   .exercise-desc { font-size: 13px; line-height: 1.35; }
   .coaching, .variations, .alternatives { margin-top: 10px; font-size: 12px; }
   .coaching-title { font-weight: 600; color: #374151; display: inline-block; margin-bottom: 2px; }
