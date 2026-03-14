@@ -6,8 +6,9 @@
  */
 
 import type { ExerciseData } from './exercises';
+import { worldclassImageById } from './worldclass-image-map';
 
-export const worldclassExercises: ExerciseData[] = [
+const baseWorldclassExercises: ExerciseData[] = [
   // ===== WORLD CLASS COACHING - 50 Small-Sided Games =====
   // Warm-up
   {
@@ -106,26 +107,6 @@ export const worldclassExercises: ExerciseData[] = [
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.40 '6v3'"
-  },
-  {
-    id: "smallsided-117",
-    exerciseNumber: 117,
-    name: "2v2+4",
-    category: "game",
-    duration: 12,
-    playersMin: 14,
-    playersMax: 14,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "2v2 i 20x30 yards med fullmål og keepere. Hvert lag har fire støtte‑spillere på utsiden som spiller 1-touch. Rotasjon etter mål eller avslutning.",
-    coachingPoints: [
-      "Utespillere har kun 1-touch inn til lagkamerater"
-    ],
-    variations: [
-      "Fast rotasjonsmønster etter mål/skudd"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.63 '2v2+4'"
   },
   {
     id: "smallsided-118",
@@ -782,3 +763,8 @@ export const worldclassExercises: ExerciseData[] = [
   },
 
 ];
+
+export const worldclassExercises: ExerciseData[] = baseWorldclassExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? worldclassImageById[exercise.id],
+}));

@@ -5,7 +5,9 @@
 
 import type { ExerciseData } from './exercises';
 
-const baseRondoExercises: ExerciseData[] = [
+export const RONDO_DIBERNARDO_TAG = "dibernardo-science-of-rondo-2014";
+
+export const baseRondoExercises: ExerciseData[] = [
   // === GRUNNLEGGENDE RONDO ===
   {
     id: "rondo-fundamental",
@@ -811,10 +813,12 @@ const baseRondoExercises: ExerciseData[] = [
   }
 ];
 
-export const rondoExercises: ExerciseData[] = baseRondoExercises.map((exercise) => ({
-  ...exercise,
-  category: "rondo",
-}));
+export const rondoExercises: ExerciseData[] = baseRondoExercises
+  .filter((exercise) => !exercise.tags?.includes(RONDO_DIBERNARDO_TAG))
+  .map((exercise): ExerciseData => ({
+    ...exercise,
+    category: "rondo",
+  }));
 
 // Eksporter antall rondo-øvelser for bruk i filter
 export const rondoExerciseCount = rondoExercises.length;

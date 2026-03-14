@@ -1,0 +1,15 @@
+export const youthImageById: Record<string, string> = {
+  "smallsided-20": "/book-illustrations/101-youth-sessions/session-071-smallsided-20-bingo.webp",
+  "smallsided-21": "/book-illustrations/101-youth-sessions/session-072-smallsided-21-tag-team.webp",
+  "smallsided-22": "/book-illustrations/101-youth-sessions/session-073-smallsided-22-keep-ball-colours.webp",
+  "smallsided-23": "/book-illustrations/101-youth-sessions/session-074-smallsided-23-keep-two-balls.webp",
+  "smallsided-24": "/book-illustrations/101-youth-sessions/session-075-smallsided-24-overload.webp",
+  "smallsided-25": "/book-illustrations/101-youth-sessions/session-076-smallsided-25-directional-play.webp",
+  "smallsided-26": "/book-illustrations/101-youth-sessions/session-077-smallsided-26-through-the-gates.webp",
+  "smallsided-27": "/book-illustrations/101-youth-sessions/session-078-smallsided-27-four-corners.webp",
+  "smallsided-28": "/book-illustrations/101-youth-sessions/session-079-smallsided-28-target-ball.webp",
+  "smallsided-29": "/book-illustrations/101-youth-sessions/session-080-smallsided-29-gate-crasher.webp",
+  "smallsided-30": "/book-illustrations/101-youth-sessions/session-081-smallsided-30-desert-island-discs.webp",
+  "smallsided-31": "/book-illustrations/101-youth-sessions/session-082-smallsided-31-support-play.webp",
+  "smallsided-32": "/book-illustrations/101-youth-sessions/session-083-smallsided-32-wembley-way.webp",
+};

@@ -1,8 +1,8 @@
 {
   "book": "50-small-sided-games",
   "pdf": "/Users/tor.inge.jossang@aftenbladet.no/Documents/Fotballbøker/50Small-SidedGames.pdf",
-  "generatedAt": "2026-03-14T10:14:21.565Z",
-  "totalExercises": 32,
+  "generatedAt": "2026-03-14T18:37:52.153Z",
+  "totalExercises": 31,
   "entries": [
     {
       "id": "smallsided-112",
@@ -85,22 +85,6 @@
       "bytes": 12014
     },
     {
-      "id": "smallsided-117",
-      "name": "2v2+4",
-      "sourceRef": "WorldClass s.63 '2v2+4'",
-      "page": 24,
-      "fileName": "p024-smallsided-117-2v2+4.webp",
-      "imageUrl": "/book-illustrations/50-small-sided-games/p024-smallsided-117-2v2+4.webp",
-      "mode": "rendered-page",
-      "cropMode": "single-figure",
-      "titleY": 142.5273,
-      "figureIndexOnPage": 1,
-      "figuresOnPage": 3,
-      "width": 376,
-      "height": 405,
-      "bytes": 11814
-    },
-    {
       "id": "smallsided-118",
       "name": "4 v 4 + 4 Progression",
       "sourceRef": "WorldClass s.65 '4 v 4 + 4 Progression'",
@@ -110,11 +94,11 @@
       "mode": "rendered-page",
       "cropMode": "single-figure",
       "titleY": 512.3443,
-      "figureIndexOnPage": 3,
+      "figureIndexOnPage": 2,
       "figuresOnPage": 3,
       "width": 360,
-      "height": 335,
-      "bytes": 11134
+      "height": 375,
+      "bytes": 14266
     },
     {
       "id": "smallsided-119",
@@ -152,17 +136,17 @@
       "id": "smallsided-121",
       "name": "4v4",
       "sourceRef": "WorldClass s.34 '4v4'",
-      "page": 24,
-      "fileName": "p024-smallsided-121-4v4.webp",
-      "imageUrl": "/book-illustrations/50-small-sided-games/p024-smallsided-121-4v4.webp",
+      "page": 27,
+      "fileName": "p027-smallsided-121-4v4.webp",
+      "imageUrl": "/book-illustrations/50-small-sided-games/p027-smallsided-121-4v4.webp",
       "mode": "rendered-page",
       "cropMode": "single-figure",
-      "titleY": 512.3443,
-      "figureIndexOnPage": 3,
+      "titleY": null,
+      "figureIndexOnPage": 1,
       "figuresOnPage": 3,
-      "width": 360,
-      "height": 335,
-      "bytes": 11134
+      "width": 523,
+      "height": 384,
+      "bytes": 13898
     },
     {
       "id": "smallsided-122",
@@ -334,11 +318,11 @@
       "mode": "rendered-page",
       "cropMode": "single-figure",
       "titleY": 142.5273,
-      "figureIndexOnPage": 2,
+      "figureIndexOnPage": 1,
       "figuresOnPage": 3,
-      "width": 360,
-      "height": 375,
-      "bytes": 14266
+      "width": 376,
+      "height": 405,
+      "bytes": 11814
     },
     {
       "id": "smallsided-144",

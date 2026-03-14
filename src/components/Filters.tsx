@@ -22,9 +22,15 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
   },
   eggen: {
     label: "Eggen",
-    description: "Nils Arne Eggen",
+    description: "Knut Torbjørn Eggen",
     activeClass: "border-amber-500 bg-amber-50 text-amber-700",
     dotClass: "bg-amber-500"
+  },
+  godfoten: {
+    label: "Godfoten",
+    description: "Nils Arne Eggen",
+    activeClass: "border-orange-500 bg-orange-50 text-orange-700",
+    dotClass: "bg-orange-500"
   },
   dbu: {
     label: "DBU",
@@ -146,7 +152,7 @@ export const Filters = ({
       if (sourceFilter !== null) {
         const exerciseSource = exercise.source || "egen";
         if (sourceFilter === "egen") {
-          // Vis egne øvelser (inkludert eggen)
+          // Vis egne øvelser (inkludert K.T. Eggen, men ikke Godfoten)
           if (exercise.source && exerciseSource !== "eggen") return;
         } else if (exerciseSource !== sourceFilter) {
           return;

@@ -13,7 +13,9 @@
 
 import type { ExerciseData } from './exercises';
 
-export const prickettExercises: ExerciseData[] = [
+import { prickettImageById } from './prickett-image-map';
+
+const basePrickettExercises: ExerciseData[] = [
   // ===== 3v3 GRUNNLEGGENDE (Prickett kap. 4) =====
   {
     id: "smallsided-1",
@@ -547,3 +549,8 @@ export const prickettExercises: ExerciseData[] = [
     sourceRef: "Prickett 2018 '2: Warming Up, Square 12 – Mini Rondo'"
   },
 ];
+
+export const prickettExercises: ExerciseData[] = basePrickettExercises.map((exercise): ExerciseData => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? prickettImageById[exercise.id],
+}));

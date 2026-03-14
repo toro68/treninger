@@ -1,0 +1,17 @@
+export const dibernardoImageById: Record<string, string> = {
+  "rondo-10v2-one-touch": "/book-illustrations/dibernardo-rondo/p029-rondo-10v2-one-touch-rondo-to-10v2-one-touch.webp",
+  "rondo-9v4": "/book-illustrations/dibernardo-rondo/p025-rondo-9v4-9v4-rondo.webp",
+  "rondo-breaking-lines": "/book-illustrations/dibernardo-rondo/p011-rondo-breaking-lines-breaking-the-lines-rondo.webp",
+  "rondo-cognitive-ball-toss": "/book-illustrations/dibernardo-rondo/p026-rondo-cognitive-ball-toss-cognitive-rondo-ball-toss.webp",
+  "rondo-cognitive-no-same-color": "/book-illustrations/dibernardo-rondo/p027-rondo-cognitive-no-same-color-cognitive-rondo-no-same-color-passing.webp",
+  "rondo-fundamental": "/book-illustrations/dibernardo-rondo/p009-rondo-fundamental-fundamental-rondo.webp",
+  "rondo-game-related": "/book-illustrations/dibernardo-rondo/p031-rondo-game-related-game-related-rondo-transition.webp",
+  "rondo-line-passing": "/book-illustrations/dibernardo-rondo/p017-rondo-line-passing-line-passing-rondo.webp",
+  "rondo-moving": "/book-illustrations/dibernardo-rondo/p013-rondo-moving-moving-rondo.webp",
+  "rondo-moving-circle": "/book-illustrations/dibernardo-rondo/p016-rondo-moving-circle-moving-circle-rondo.webp",
+  "rondo-pushup": "/book-illustrations/dibernardo-rondo/p024-rondo-pushup-rondo-push-up-game.webp",
+  "rondo-sliding-player": "/book-illustrations/dibernardo-rondo/p022-rondo-sliding-player-sliding-player-rondo.webp",
+  "rondo-to-possession": "/book-illustrations/dibernardo-rondo/p019-rondo-to-possession-rondo-to-possession-to-rondo.webp",
+  "rondo-transitions": "/book-illustrations/dibernardo-rondo/p021-rondo-transitions-rondo-transitions-to-passing-patterns-technical-training-and-fitness.webp",
+  "rondo-two-team-color": "/book-illustrations/dibernardo-rondo/p015-rondo-two-team-color-two-team-color-coded-rondo.webp",
+};

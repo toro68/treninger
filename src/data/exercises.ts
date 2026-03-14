@@ -1,5 +1,5 @@
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
-export type ExerciseSource = "egen" | "tiim" | "eggen" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
+export type ExerciseSource = "egen" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
 
 export const EXERCISE_THEMES = [
   "1v1",
@@ -929,10 +929,14 @@ export const exercises: ExerciseData[] = [
 const normalizeStringArray = (items: string[] | undefined): string[] =>
   (items ?? []).map((item) => item.trim()).filter(Boolean);
 
+import { bangsboImageById } from './bangsbo-image-map';
 import { worldclassImageById } from './worldclass-image-map';
 
 const inferBookImageUrl = (exercise: ExerciseData): string | undefined => {
   if (exercise.imageUrl) return exercise.imageUrl;
+  if (exercise.source === "bangsbo") {
+    return bangsboImageById[exercise.id];
+  }
   if (exercise.source === "worldclass") {
     return worldclassImageById[exercise.id];
   }
@@ -956,6 +960,8 @@ import { eggenExercises } from './eggen-exercises';
 // Importer DBU-øvelser
 import { dbuExercises } from './dbu-exercises';
 // Importer Rondo-øvelser fra DiBernardo
+import { dibernardoExercises } from './dibernardo-exercises';
+// Importer øvrige rondo-øvelser
 import { rondoExercises } from './rondo-exercises';
 // Importer Hyballa-øvelser
 import { hyballaExercises } from './hyballa-exercises';
@@ -980,6 +986,7 @@ const allExerciseData: ExerciseData[] = [
   ...tiimExercises,
   ...eggenExercises,
   ...dbuExercises,
+  ...dibernardoExercises,
   ...rondoExercises,
   ...hyballaExercises,
   ...bangsboExercises,

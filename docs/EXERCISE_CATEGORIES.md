@@ -362,7 +362,7 @@ Gjeldende liste over kilder ligger i `src/data/exercises.ts` (`ExerciseSource`) 
 | ----- | ----- | --------------- |
 | **egen** | Interne øvelser/egne varianter | warmup, station, game |
 | **tiim** | NFF øvelser, bredt | station, game |
-| **eggen** | Norsk filosofi, lagspill | game |
+| **eggen** | Knut Torbjørn Eggen, RBK-øvelser | game |
 | **dbu** | Dansk, alderstrinn | station |
 | **rondo** | Posisjonsspill | game |
 | **hyballa** | Tysk pasningstrening | station |

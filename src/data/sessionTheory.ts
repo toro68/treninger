@@ -201,6 +201,111 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
       },
     ],
   },
+  {
+    id: "theory-roseborg-attack-postulates",
+    category: "spillerbudskap",
+    title: "Roseborg: angrepspostulater",
+    summary: "Spill framover når du kan, bruk motsatte bevegelser og skap bredde, støtte og bakrom samtidig.",
+    coachNote:
+      "Bruk dette som felles rammeverk for valg i angrep: lengderetning først, støtte rundt ballfører, og løp som åpner for andre.",
+    playerMessage:
+      "Vend fram når du kan. Når én møter, må en annen stikke. Hold bredden og let etter rommet bak motstander.",
+    sections: [
+      {
+        title: "Kjerne i angrepsspillet",
+        bullets: [
+          "Spill i lengderetningen når det er mulig. Støttepasning brukes for å komme fram, ikke for å gjemme ballen.",
+          "Når én møter i ball, bør en annen true bakrom. Motsatte bevegelser skaper ubalanse.",
+          "Hold alltid bredde på angrepssida og strekk opp laget når rommet finnes.",
+          "Ballfører skal ha støtte tett nok til å spille sikkert, men også trusler foran seg.",
+          "Utnytt rom både mellom lagdelene og bak backrekka når motstander ligger høyt.",
+        ],
+      },
+      {
+        title: "Gjennombrudd og innlegg",
+        bullets: [
+          "Vinkle oppbyggingspasningen innover i banen, men søk gjennombrudd utover eller bakfra når rommet åpner seg.",
+          "Etter gjennombrudd på kant er ballførers posisjon avgjørende: tidlig innlegg bak backrekka er ofte beste løsning.",
+          "Angrip første stolpe, rommet foran keeper og bakre stolpe med tydelige roller.",
+          "Når tidlig innlegg ikke kommer, søk ny posisjon og vær klar for gjenvinning eller klareringsball.",
+          "Vær besluttsom foran mål. Press alene skaper flere sjanser enn passivitet.",
+        ],
+      },
+      {
+        title: "Presiseringer fra Roseborg-miljøet",
+        paragraphs: [
+          "Senere presiseringer løfter fram bevegelser i forkant av pasningen, ikke bare på pasningsøyeblikket. Førstebevegelsen skal ofte utløse andre- og tredjebevegelsen.",
+          "På kant skal vi utfordre for å skape overtall og innleggssituasjon, men med resten av laget i balanse for å tåle balltapet om gjennombruddet stoppes.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-roseborg-defense-postulates",
+    category: "spillerbudskap",
+    title: "Roseborg: forsvarspostulater",
+    summary: "Korte avstander, tydelig første-forsvarer og samordnet skyving avgjør om presset blir aggressivt eller kontrollert.",
+    coachNote:
+      "Skill tydelig mellom høyt sjokkpress og lavere kontrollpress, men krev samme prinsipp: press, sikring og dekking av rom samtidig.",
+    playerMessage:
+      "Når vi forsvarer, skal én presse, de andre sikre og skyve samlet. Avstanden mellom leddene må være kort.",
+    sections: [
+      {
+        title: "Presshøyde og avstander",
+        bullets: [
+          "Høyt press: bakre ledd kan stå rundt midtstreken hvis presset på ball er reelt og laget er samlet.",
+          "Lavere press: spisser og midtbane trekker ned, men avstanden mellom leddene skal fortsatt være kort.",
+          "Sideveis avstand må være liten nok til at laget kan sideforskyve raskt ved ballflytting.",
+          "Når førsteforsvarer støter, faller og sikrer de andre i forhold til ball, rom og medspillere.",
+        ],
+      },
+      {
+        title: "Når motstander angriper sentralt eller på kant",
+        bullets: [
+          "Ved sentralt angrep skal laget konsentrere seg og nekte spill gjennom rommet foran stopperne.",
+          "Ved angrep på kant skal hele laget sideforskyve. Ballnær side presser opp, motsatt side faller inn og bakover.",
+          "Midtspiss kan styre eller presse førsteforsvarer, men må ikke åpne sentral korridor gratis.",
+          "Soneforsvar oppheves nær 16-meteren, der markering og duellstyrke blir viktigere.",
+        ],
+      },
+      {
+        title: "Rollepresiseringer",
+        paragraphs: [
+          "Keeper omtales som sweeper og har ansvar for å dirigere dødball og støtte trykke-/fallebevegelsen bakfra.",
+          "Backrekka skal være sterkt soneorientert. Spillere som ikke er førsteforsvarer holder linje og posisjon på linja, mens ballnær back kan bryte ut når laget sikrer bak.",
+          "På midtbanen ligger den sentrale spilleren gjerne litt dypere for å nekte mellomrom. Hvis en midtbanespiller bryter ut i press, må sideforskyvingen bak være umiddelbar.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-roseborg-regain-priorities",
+    category: "trenerfokus",
+    title: "Roseborg: prioritering i forsvar",
+    summary: "Forsvar handler om rekkefølge: vinn ballen, hindre mål, vinn duellen og kontroller andreball i framrom og bakrom.",
+    coachNote:
+      "Dette er et nyttig trenerfilter i kampnære øvelser: belønn handlinger som stopper mål først, og deretter handlinger som gjør laget i stand til å vinne neste ball.",
+    playerMessage:
+      "Det nærmest eget mål prioriteres først. Vinn duellen, nekt mål og vær klar for andreballen.",
+    sections: [
+      {
+        title: "Praktisk rekkefølge",
+        bullets: [
+          "Hindre mål kommer før alt annet når motstander er nær eget mål.",
+          "Å vinne oppspillspasningen eller duellen foran motspiller er ofte første steg i godt forsvar.",
+          "Gjenvinningssituasjoner favoriserer ofte spilleren som nettopp mistet ballen, fordi avstanden til press er kortest der og da.",
+          "Andreball i framrom og bakrom må angripes aktivt av laget rundt duellen, ikke overlates til tilfeldigheter.",
+        ],
+      },
+      {
+        title: "Konsekvens for trening",
+        paragraphs: [
+          "I spilløvelser bør treneren se etter om laget reagerer kollektivt rundt første duell: én presser, én sikrer rom, og flere forbereder seg på neste ball.",
+          "Dette gjør forsvarsarbeidet mer enn bare press på ballfører. Det blir en felles kamp om første- og andreball, med tydelig prioritet etter hvor farlig situasjonen er.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const getSessionTheoryItem = (id: string) =>

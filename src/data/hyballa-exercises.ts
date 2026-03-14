@@ -2,8 +2,9 @@
 // Kilde: Peter Hyballa & Hans-Dieter te Poel - "German Soccer Passing Drills: More than 100 Drills from the Pros" (2015)
 
 import type { ExerciseData } from './exercises';
+import { hyballaImageById } from './hyballa-image-map';
 
-export const hyballaExercises: ExerciseData[] = [
+const baseHyballaExercises: ExerciseData[] = [
   // === LOB PASS ØVELSER ===
   {
     id: "hyballa-lob-1",
@@ -723,3 +724,8 @@ export const hyballaExercises: ExerciseData[] = [
     sourceRef: "Hyballa/te Poel 2015 p.259 'Fig. 130: One-touch passing against aggressive pressing'"
   }
 ];
+
+export const hyballaExercises: ExerciseData[] = baseHyballaExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? hyballaImageById[exercise.id],
+}));

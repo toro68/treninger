@@ -1,0 +1,40 @@
+Effektiv fotball
+
+Kilde
+- Tittel: Effektiv fotball
+- Forfattere: Egil Olsen, Øyvind Larsen, Nils Johan Semb
+- Forlag/år: Gyldendal, 1994
+- Nasjonalbiblioteket: https://www.nb.no/items/3f63d45cff0361cebd9437274afc45b2?page=19
+
+Status i repoet
+- Boka er allerede referert flere steder i UEFA-notatene i docs/uefa.
+- Det finnes foreløpig ikke en egen bokfil for Effektiv fotball under docs/books.
+- Det finnes heller ikke et eget øvelsesdatasett eller illustrasjonskart for denne kilden.
+
+Foreløpig vurdering
+Effektiv fotball ser ut til å være mest relevant som prinsipp- og analysekilde, ikke som ren øvelsesbank.
+
+Det betyr at boka sannsynligvis passer best for:
+- teori- og prinsippkort
+- kampmodul og kampforberedelse
+- analyse av spillestil, angrep, forsvar og overganger
+- begreper rundt effektivitet, direkte spill, rombruk og sjanseskaping
+
+Den passer trolig mindre direkte for:
+- strukturert øvelsesdata i src/data
+- illustrasjonsløp per enkeltøvelse, med mindre boka faktisk inneholder mange tydelige øvelsesdiagrammer
+
+Mulig bruk i appen
+- Kilde for komprimerte kampprinsipper
+- Kilde for teori om angrep/forsvar og spillfaser
+- Kilde for notater på RBK-/kamp-siden
+- Sekundærkilde som underbygger eksisterende UEFA-analyser
+
+Merknad om tilgang
+NB-lenka er Bokhylla-visning. Innholdet kan leses på skjerm i Norge, men kan ikke hentes automatisk herfra i repoarbeidet.
+
+Neste steg hvis boka skal innarbeides videre
+1. Manuell gjennomgang av kapitlene som handler om spillestil, angrep, forsvar, overganger og kampanalyse.
+2. Egen oppsummering av nøkkelbegreper i denne filen.
+3. Eventuell utledning av teori- eller kampkort dersom innholdet er kort nok og presist nok.
+4. Først hvis boka har tydelige øvelsesdiagrammer: vurdere eget illustrasjonsspor.

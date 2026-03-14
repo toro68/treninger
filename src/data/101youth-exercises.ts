@@ -8,8 +8,9 @@
  */
 
 import type { ExerciseData } from './exercises';
+import { youthImageById } from './101youth-image-map';
 
-export const youthExercises: ExerciseData[] = [
+const baseYouthExercises: ExerciseData[] = [
   // ===== 101 YOUTH FOOTBALL (kap. Small-Sided Games) =====
   {
     id: "smallsided-20",
@@ -350,3 +351,8 @@ export const youthExercises: ExerciseData[] = [
     sourceRef: "101 Youth session 83 (s.83) 'Wembley Way'"
   },
 ];
+
+export const youthExercises: ExerciseData[] = baseYouthExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? youthImageById[exercise.id],
+}));

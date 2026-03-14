@@ -1,0 +1,101 @@
+{
+  "book": "matkovich-elite-drills",
+  "pdf": "/Users/tor.inge.jossang@aftenbladet.no/Documents/Fotballbøker/Michael Matkovich, Jason Davis - Elite Soccer Drills-Human Kinetics (2008).pdf",
+  "generatedAt": "2026-03-14T16:34:07.800Z",
+  "totalExercises": 7,
+  "totalIllustratedExercises": 7,
+  "missingIllustrations": [],
+  "entries": [
+    {
+      "id": "smallsided-102",
+      "name": "4v4 med vinger",
+      "sourceRef": "Matkovich 2008 '73 4v4 with Wingers'",
+      "drillNumber": 73,
+      "page": 181,
+      "fileName": "p181-smallsided-102-4v4-med-vinger.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p181-smallsided-102-4v4-med-vinger.webp",
+      "cropMode": "rendered-page",
+      "width": 821,
+      "height": 742,
+      "bytes": 10824
+    },
+    {
+      "id": "smallsided-107",
+      "name": "5v5 + 2 nøytrale",
+      "sourceRef": "Matkovich 2008 '55 5v5 (+2) Possession'",
+      "drillNumber": 55,
+      "page": 137,
+      "fileName": "p137-smallsided-107-5v5-2-n-ytrale.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p137-smallsided-107-5v5-2-n-ytrale.webp",
+      "cropMode": "rendered-page",
+      "width": 1085,
+      "height": 759,
+      "bytes": 9956
+    },
+    {
+      "id": "smallsided-108",
+      "name": "Støttespill i trekant",
+      "sourceRef": "Matkovich 2008 '40 Groups of Three'",
+      "drillNumber": 40,
+      "page": 101,
+      "fileName": "p101-smallsided-108-st-ttespill-i-trekant.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p101-smallsided-108-st-ttespill-i-trekant.webp",
+      "cropMode": "rendered-page",
+      "width": 1085,
+      "height": 753,
+      "bytes": 17302
+    },
+    {
+      "id": "smallsided-91",
+      "name": "4v4 Firkant med støttespillere",
+      "sourceRef": "Matkovich 2008 '57 4v4 Square Possession With Bumpers'",
+      "drillNumber": 57,
+      "page": 141,
+      "fileName": "p141-smallsided-91-4v4-firkant-med-st-ttespillere.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p141-smallsided-91-4v4-firkant-med-st-ttespillere.webp",
+      "cropMode": "rendered-page",
+      "width": 1085,
+      "height": 1166,
+      "bytes": 17736
+    },
+    {
+      "id": "smallsided-92",
+      "name": "Fire-sone spill",
+      "sourceRef": "Matkovich 2008 '58 Four-Zone Game'",
+      "drillNumber": 58,
+      "page": 143,
+      "fileName": "p143-smallsided-92-fire-sone-spill.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p143-smallsided-92-fire-sone-spill.webp",
+      "cropMode": "rendered-page",
+      "width": 620,
+      "height": 796,
+      "bytes": 8946
+    },
+    {
+      "id": "smallsided-94",
+      "name": "Vinduer (Windows)",
+      "sourceRef": "Matkovich 2008 '41 Windows'",
+      "drillNumber": 41,
+      "page": 103,
+      "fileName": "p103-smallsided-94-vinduer-windows.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p103-smallsided-94-vinduer-windows.webp",
+      "cropMode": "rendered-page",
+      "width": 1085,
+      "height": 1268,
+      "bytes": 22702
+    },
+    {
+      "id": "smallsided-95",
+      "name": "Sikksakk-pasning",
+      "sourceRef": "Matkovich 2008 '42 Angle Passing and Receiving'",
+      "drillNumber": 42,
+      "page": 105,
+      "fileName": "p105-smallsided-95-sikksakk-pasning.webp",
+      "imageUrl": "/book-illustrations/matkovich-elite-drills/p105-smallsided-95-sikksakk-pasning.webp",
+      "cropMode": "rendered-page",
+      "width": 1085,
+      "height": 898,
+      "bytes": 31568
+    }
+  ]
+}

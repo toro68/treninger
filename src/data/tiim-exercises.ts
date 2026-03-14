@@ -1,7 +1,8 @@
 // Auto-generert fra tiim.no - 2025-11-27
 import type { ExerciseData } from './exercises';
+import { tiimImageById } from './tiim-image-map';
 
-export const tiimExercises: ExerciseData[] = [
+const baseTiimExercises: ExerciseData[] = [
   {
     "id": "tiim-1",
     "exerciseNumber": 1,
@@ -5187,3 +5188,8 @@ export const tiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/valencia-1-mot-1-hindre-mal"
   },
 ];
+
+export const tiimExercises: ExerciseData[] = baseTiimExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? tiimImageById[exercise.id],
+}));

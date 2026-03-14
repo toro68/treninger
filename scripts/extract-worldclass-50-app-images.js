@@ -14,6 +14,7 @@ const MAP_TS_PATH = path.join(ROOT, 'src/data/worldclass-image-map.ts');
 const MANUAL_PAGE_OVERRIDES = {
   'smallsided-112': 6,
   'smallsided-113': 5,
+  'smallsided-121': 27,
   'smallsided-134': 18,
   'smallsided-137': 19,
 };

@@ -2,8 +2,9 @@
 // Kilde: Jens Bangsbo & Birger Peitersen - "Forsvar" (2002) - Dansk forsvarsspill-metodikk
 
 import type { ExerciseData } from './exercises';
+import { bangsboImageById } from './bangsbo-image-map';
 
-export const bangsboExercises: ExerciseData[] = [
+const baseBangsboExercises: ExerciseData[] = [
   // === KAPITTEL 1: INDIVIDUELT FORSVARSSPILL ===
   {
     id: "bangsbo-ind-1",
@@ -223,80 +224,7 @@ export const bangsboExercises: ExerciseData[] = [
   },
 
   // === KAPITTEL 5: FORSVARSSPILL I ULIKE SONER ===
-  {
-    id: "bangsbo-formsone-1",
-    exerciseNumber: 266,
-    name: "Forsvar i Farlighetsgrad 1-sone",
-    category: "game",
-    duration: 18,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Forsvarsspill i lite farlig sone (langt fra eget mål). Fokus på å forsinke og styre angrepet. Mindre risiko, mer kontroll.",
-    coachingPoints: [
-      "Forsinke, ikke hastevinne",
-      "La angriperne ha ballen men kontroller retningen",
-      "Hold kompakt - ikke stretch ut",
-      "Kjøp tid for lagkamerater å komme i posisjon"
-    ],
-    variations: [
-      "Tidsbegrensning før forsvarerne får poeng",
-      "Legg til mål for angriperne å nå",
-      "Varier antall forsvarere"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-formsone-2",
-    exerciseNumber: 269,
-    name: "Forsvar i Farlighetsgrad 3-sone",
-    category: "game",
-    duration: 20,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Forsvarsspill i høyrisikosone (nær eget mål). Fokus på å vinne ballen, blokkere skudd og ikke gi rom. Høy intensitet.",
-    coachingPoints: [
-      "Prioriter å blokkere skudd foran alt annet",
-      "Tett manndekning i boksen",
-      "Klarering: Høyt, bredt eller langt - aldri sentralt",
-      "Vær klar for andre baller"
-    ],
-    variations: [
-      "Innleggssituasjoner",
-      "Dødballsforsvar",
-      "1v1 i boks"
-    ],
-    source: "bangsbo"
-  },
-
   // === SPILLØVELSER (STØRRE FORMAT) ===
-  {
-    id: "bangsbo-spill-1",
-    exerciseNumber: 272,
-    name: "6v6 Soneforsvarsspill",
-    category: "game",
-    duration: 25,
-    playersMin: 14,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "To lag spiller på halv bane med fulle mål. Forsvarslaget øver på kompakt soneforsvar med fokus på å stenge rom og tvinge feil.",
-    coachingPoints: [
-      "Hele laget flytter seg mot ballen",
-      "Hold 10-15m mellom forsvarslinjene",
-      "Kommunikasjon: Hvem presser, hvem sikrer",
-      "Ved ballvinning: Rask overgang"
-    ],
-    variations: [
-      "Poengsystem for lave ballvinninger",
-      "Undertallig forsvar for økt press",
-      "Tidsbegrensning på angrep"
-    ],
-    source: "bangsbo"
-  },
   {
     id: "bangsbo-spill-2",
     exerciseNumber: 274,
@@ -323,128 +251,7 @@ export const bangsboExercises: ExerciseData[] = [
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 89) (txt:3895)"
   },
-  {
-    id: "bangsbo-spill-3",
-    exerciseNumber: 276,
-    name: "Catenaccio-øvelse: 5-4-1 Lavblokk",
-    category: "game",
-    duration: 25,
-    playersMin: 12,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Inspirert av italiensk catenaccio. Forsvarslaget setter opp 5-4-1 og forsvarer dypt. Fokus på tålmodighet, posisjonering og kontringsberedskap.",
-    coachingPoints: [
-      "Fembacklinje: Alltid minst tre spillere i boksen",
-      "Midtbanefire: Steng midten, tving ut på kantene",
-      "Spissspiller: Hold seg fremme for kontringsmulighet",
-      "Tålmodighet: Ikke hopp ut av posisjon"
-    ],
-    variations: [
-      "Tidsbegrensning: Forsvar må holde nullen i X minutter",
-      "Legg til ekstra angriper for økt press",
-      "Kontringsscoringer teller dobbelt"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-spill-4",
-    exerciseNumber: 278,
-    name: "Forsvar mot Innlegg",
-    category: "game",
-    duration: 20,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Angrepslag spiller seg ut på kanten og slår innlegg. Forsvarere øver på posisjonering, klarering og dueller i luften.",
-    coachingPoints: [
-      "Første stolpe-forsvarer: Dekk nærmeste rom",
-      "Sentralforsvarer: Vær klar for heading",
-      "Bakre forsvarer: Dekk bakerste stolpe",
-      "Keeper: Kommuniser og ta det du kan ta"
-    ],
-    variations: [
-      "Varier innleggstyper (lavt, høyt, tilbaketrukket)",
-      "Legg til andre baller",
-      "Øv med forskjellige antall angripere i boksen"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-spill-5",
-    exerciseNumber: 282,
-    name: "Forsvar i Undertall",
-    category: "game",
-    duration: 18,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "2v3 eller 3v4 forsvarssituasjoner. Forsvarerne øver på å forsinke angrepet og dekke de farligste løpene.",
-    coachingPoints: [
-      "Forsinke er viktigere enn å vinne ball",
-      "Dekk sentralt rom og nærmeste angriper",
-      "Tvinge angrepet bredt og bakover",
-      "Kjøp tid til lagkamerater kommer"
-    ],
-    variations: [
-      "Varier undertallssituasjonen",
-      "Legg til tidsbegrensning for angriperne",
-      "Poengsystem for forsinkelse uten mål"
-    ],
-    source: "bangsbo"
-  },
-
   // === SPESIALISERINGØVELSER ===
-  {
-    id: "bangsbo-spesiell-1",
-    exerciseNumber: 445,
-    name: "Midtstopperens Leserskap",
-    category: "station",
-    duration: 15,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Midtstopperen øver på å lese spillet og dirigere forsvarslinjen. Fokus på kommunikasjon og posisjoneringsledelse.",
-    coachingPoints: [
-      "Konstant kommunikasjon: 'Stram inn', 'Ut', 'Hold'",
-      "Les pasninger før de spilles",
-      "Organiser linjen - du er sjefen",
-      "Ta ansvar for sikringsposisjonen"
-    ],
-    variations: [
-      "Lydløs variant - kun håndbevegelser",
-      "Øk tempoet for raskere beslutninger",
-      "Legg til situasjoner med keeper-kommunikasjon"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-spesiell-2",
-    exerciseNumber: 448,
-    name: "Backs som Går Ut",
-    category: "station",
-    duration: 15,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Sideback øver på timing for å gå ut og presse kantspiller. Fokus på å stenge innlegg og tvinge innover.",
-    coachingPoints: [
-      "Timing: Gå ut idet kantspiller mottar med dårlig touch",
-      "Vinkel: Tving innover mot hjelp, eller ut mot linjen",
-      "Etter pressing: Kom deg tilbake i linje raskt",
-      "Kommuniser med midtstopper om dekning"
-    ],
-    variations: [
-      "Legg til innleggssituasjoner",
-      "2v1 på kant med sikringsspiller",
-      "Full flankesituasjon med innlegg"
-    ],
-    source: "bangsbo"
-  },
   {
     id: "bangsbo-spesiell-3",
     exerciseNumber: 450,
@@ -473,129 +280,6 @@ export const bangsboExercises: ExerciseData[] = [
   },
 
   // === DØDBALL-FORSVAR ===
-  {
-    id: "bangsbo-dodball-1",
-    exerciseNumber: 453,
-    name: "Forsvar ved Hjørnespark",
-    category: "station",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "mål"],
-    description: "Øvelse på posisjonering og ansvarsfordeling ved hjørnespark. Kombiner soneplassering med manndekning på farlige angripere.",
-    coachingPoints: [
-      "Stolpemannen: Eier første og bakre stolpe",
-      "Keeperen: Kommander og ta det du kan ta",
-      "Sonefolk: Hold posisjon, angrip ballen",
-      "Manndekkere: Ikke slipp din mann"
-    ],
-    variations: [
-      "Varier hjørnesparkstyper (kort, lang, innsvinger, utsvinger)",
-      "Øv på klarering og andre baller",
-      "Legg til kontringssituasjon etter klarering"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-dodball-2",
-    exerciseNumber: 458,
-    name: "Forsvar ved Frispark Sentralt",
-    category: "station",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "mål"],
-    description: "Murplassering og forsvar ved direkte frispark. Fokus på murens rolle og spillerne som dekker andre innspillsmuligheter.",
-    coachingPoints: [
-      "Muren: Stå i ro, hopp ikke før skudd",
-      "Keeperen: Plasser muren, ta ansvar for din side",
-      "Utenfor muren: Dekk korte varianter",
-      "Andre baller: Vær forberedt på returer"
-    ],
-    variations: [
-      "Varier avstanden fra mål",
-      "Øv på korte varianter",
-      "Legg til keeper-mur kommunikasjon"
-    ],
-    source: "bangsbo"
-  },
-
-  // === OPPVARMINGSØVELSER MED FORSVARSFOKUS ===
-  {
-    id: "bangsbo-oppvarming-1",
-    exerciseNumber: 28,
-    name: "Speil-øvelse",
-    category: "warmup",
-    duration: 8,
-    playersMin: 8,
-    playersMax: 20,
-    theme: "forsvar",
-    equipment: ["kjegler"],
-    description: "Par står overfor hverandre. Én leder, én speiler bevegelsene. Fokus på lavt tyngdepunkt og raske retningsendringer som forsvarere.",
-    coachingPoints: [
-      "Hold lavt tyngdepunkt hele tiden",
-      "Raske, korte steg",
-      "Øynene på motstanderen",
-      "Vær klar for retningsskift"
-    ],
-    variations: [
-      "Legg til at lederen har ball",
-      "Øk tempoet",
-      "Bytt roller på signal"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-oppvarming-2",
-    exerciseNumber: 29,
-    name: "Skyggeløp",
-    category: "warmup",
-    duration: 8,
-    playersMin: 8,
-    playersMax: 20,
-    theme: "forsvar",
-    equipment: ["kjegler"],
-    description: "Par løper, den ene foran (angriper) og den andre bak (forsvarer). Forsvareren holder avstand på 1-2m og følger alle retningsendringer.",
-    coachingPoints: [
-      "Hold øyekontakt med hoftene til den foran",
-      "Korte, raske steg for å følge retningsendringer",
-      "Ikke kom for nær - hold avtalt avstand",
-      "Forbered deg på plutselige stopp"
-    ],
-    variations: [
-      "Varier avstanden",
-      "Legg til signal for forsvareren å gå inn i takling",
-      "La angriperen ha ball"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-oppvarming-3",
-    exerciseNumber: 30,
-    name: "1v1 Bokser",
-    category: "warmup",
-    duration: 10,
-    playersMin: 8,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "Små bokser (5x5m) med 1v1. Angriperen forsøker å holde ballen i boksen, forsvareren forsøker å sparke den ut. Oppvarming for taklinger.",
-    coachingPoints: [
-      "Hold lavt - vær klar for alle retninger",
-      "Timing på takling: Når angriperen har dårlig touch",
-      "Vær tålmodig - ikke stup inn for tidlig",
-      "Bruk kroppen for å skjerme ballen ut"
-    ],
-    variations: [
-      "Øk boksens størrelse",
-      "Tidsbegrensning",
-      "Poengsystem"
-    ],
-    source: "bangsbo"
-  },
-
   // === FLERE ØVELSER FRA KAPITTEL 1: DEKNING OG MARKERING ===
   {
     id: "bangsbo-dekning-1",
@@ -649,56 +333,7 @@ export const bangsboExercises: ExerciseData[] = [
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 39) (txt:1405)"
   },
-  {
-    id: "bangsbo-dekning-3",
-    exerciseNumber: 464,
-    name: "Forsvarsposisjon og Kroppsstilling",
-    category: "station",
-    duration: 10,
-    playersMin: 4,
-    playersMax: 10,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "Fokus på korrekt forsvarsposisjon: Lavt tyngdepunkt, bøyde knær og hofter, én fot foran den andre, kroppen vendt mot ballføreren.",
-    coachingPoints: [
-      "Leddene i mellomposisjon (knær og hofter lett bøyd)",
-      "Én fot foran den andre for rask retningsendring",
-      "Kroppen vendt mot ballføreren",
-      "Armene ute for balanse"
-    ],
-    variations: [
-      "Øv statisk først, deretter med bevegelse",
-      "Legg til angriper som forsøker å passere",
-      "Konkurranseform: Hvem holder best posisjon?"
-    ],
-    source: "bangsbo"
-  },
-
   // === KAPITTEL 2: STØTTE OG SIKRING (FLERE) ===
-  {
-    id: "bangsbo-stotte-4",
-    exerciseNumber: 34,
-    name: "Støttespiller i Sone",
-    category: "station",
-    duration: 15,
-    playersMin: 6,
-    playersMax: 12,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "mål"],
-    description: "3 soner med støttespiller (4) i sone 1, forsvarer (3) og angriper (10) i sone 2. Når 10 passerer 3, må 4 angripe før 10 kommer til skudd.",
-    coachingPoints: [
-      "Støttespilleren holder seg nær nok til å angripe raskt",
-      "Ikke for nær - da kan 10 spille i bakrom",
-      "Kommuniser med 3 om hvem som har ballen",
-      "Forsinke hvis 3 kan komme tilbake"
-    ],
-    variations: [
-      "4 starter 10m bak og må løpe seg i posisjon",
-      "Legg til angriper 11 i sone 2",
-      "3 kan gå inn i sone 1 hvis ballen spilles dit"
-    ],
-    source: "bangsbo"
-  },
   {
     id: "bangsbo-stotte-5",
     exerciseNumber: 35,
@@ -753,55 +388,6 @@ export const bangsboExercises: ExerciseData[] = [
   },
 
   // === KAPITTEL 3: RETNINGSBESTEMMELSE (FLERE) ===
-  {
-    id: "bangsbo-retning-3",
-    exerciseNumber: 467,
-    name: "Åpne og Lukke",
-    category: "station",
-    duration: 12,
-    playersMin: 6,
-    playersMax: 12,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "Forsvarer åpner én side for angriperen (inviterer inn), og lukker den igjen når angriperen går inn der. Fokus på å fange angriperen.",
-    coachingPoints: [
-      "Vis tydelig hvilken side som er 'åpen'",
-      "Når angriperen velger den åpne siden - lukk raskt",
-      "Koordinér med medspillere som venter på den siden",
-      "Timing er alt - lukk i rett øyeblikk"
-    ],
-    variations: [
-      "Legg til støttespiller som venter på den 'åpne' siden",
-      "Varier hvilken side som åpnes",
-      "Konkurranseform med poeng"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-retning-5",
-    exerciseNumber: 39,
-    name: "Retningsbestemmelse i 4v4",
-    category: "game",
-    duration: 15,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "småmål"],
-    description: "4v4 på halv bane med 3 små mål på hver side. Forsvarerne forsøker å styre angrepet mot ett bestemt mål der de har fordel.",
-    coachingPoints: [
-      "Steng sidene du ikke vil at de skal spille",
-      "Koordinér som lag - alle styrer samme retning",
-      "Press når ballen er der du vil ha den",
-      "Tålmodighet - vent på rett øyeblikk"
-    ],
-    variations: [
-      "Varier antall mål",
-      "Legg til soner",
-      "Poengsystem for mål i 'ønsket' mål"
-    ],
-    source: "bangsbo"
-  },
-
   // === KAPITTEL 4: FORSVARSSTIL (FLERE) ===
   {
     id: "bangsbo-stil-1",
@@ -908,55 +494,10 @@ export const bangsboExercises: ExerciseData[] = [
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 3 (Figur 24) (txt:872)"
-  },
-  {
-    id: "bangsbo-taktisk-3",
-    exerciseNumber: 321,
-    name: "Forsinke Motangrep",
-    category: "game",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Motstander kontrer. Første forsvarer forsøker å forsinke angrepet. Fokus på å kjøpe tid for medspillere.",
-    coachingPoints: [
-      "Ikke stup inn - hold avstand og forsinke",
-      "Styr angriperen mot sidelinjen",
-      "Kommunisér: 'Jeg har!', 'Kom tilbake!'",
-      "Angrip kun når du har støtte"
-    ],
-    variations: [
-      "Varier antall angripere og forsvarere",
-      "Legg til tidsbegrensning",
-      "Poengsystem for sekunder forsinket"
-    ],
-    source: "bangsbo"
-  },
-
-  // === OPPVARMINGSØVELSER (FLERE) ===
-  {
-    id: "bangsbo-oppvarming-4",
-    exerciseNumber: 45,
-    name: "Fase-oppvarming: Dekke, Støtte, Angripe",
-    category: "warmup",
-    duration: 12,
-    playersMin: 12,
-    playersMax: 20,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "Tre faser i oppvarmingen: 1) Dekkeposisjon uten ball, 2) Støtteposisjon med ball, 3) Angrepsfase med takling.",
-    coachingPoints: [
-      "Fase 1: Korrekt kroppsstilling, hold posisjon",
-      "Fase 2: Kommuniser med medforsvarer",
-      "Fase 3: Timing på takling, gå inn med kraft",
-      "Gradvis oppbygging av intensitet"
-    ],
-    variations: [
-      "Varier lengden på hver fase",
-      "Legg til konkurranseelement",
-      "Kombiner med tekniske øvelser"
-    ],
-    source: "bangsbo"
   }
 ];
+
+export const bangsboExercises: ExerciseData[] = baseBangsboExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? bangsboImageById[exercise.id],
+}));

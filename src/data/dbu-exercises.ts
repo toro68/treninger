@@ -23,8 +23,9 @@
  */
 
 import type { ExerciseData } from './exercises';
+import { dbuImageById } from './dbu-image-map';
 
-export const dbuExercises: ExerciseData[] = [
+const baseDbuExercises: ExerciseData[] = [
   // === PASNINGSØVELSER (Y-øvelser) ===
   {
     id: "dbu-y1-enkelt-y",
@@ -75,6 +76,7 @@ export const dbuExercises: ExerciseData[] = [
       "Spillerne velger løsninger selv",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 2.2 'Dobbelt Y'",
   },
   {
     id: "dbu-m-oevelse",
@@ -152,6 +154,7 @@ export const dbuExercises: ExerciseData[] = [
       "Med overganger",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.6 '4v4+4'",
   },
   {
     id: "dbu-3v3-2-possession",
@@ -177,6 +180,7 @@ export const dbuExercises: ExerciseData[] = [
       "Bytt jokere etter tid",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.5 '3v3+2'",
   },
 
   // === STORE BALLBESITTELSESSPILL ===
@@ -852,6 +856,7 @@ export const dbuExercises: ExerciseData[] = [
       "Fokus på 2. bølge",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.17 'Klassisk kontra'",
   },
   {
     id: "dbu-kollektiv-kontra",
@@ -877,6 +882,7 @@ export const dbuExercises: ExerciseData[] = [
       "2. bølge kommer bredt og dypt",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.18 'Kollektiv kontra'",
   },
   {
     id: "dbu-avansert-kontra-genpres",
@@ -902,6 +908,7 @@ export const dbuExercises: ExerciseData[] = [
       "Poeng for erobring i sone",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.19 'Avanceret kontra'",
   },
   {
     id: "dbu-enkeltmands-kontra",
@@ -927,6 +934,7 @@ export const dbuExercises: ExerciseData[] = [
       "Konkurranseform",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.20 'Enkeltmandskontra'",
   },
 
   // === ANGREPSPRINSIPPER (fra Aldersrelateret Træning 2) ===
@@ -954,6 +962,7 @@ export const dbuExercises: ExerciseData[] = [
       "Variér avstander",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.7 'Bandespil'",
   },
   {
     id: "dbu-overlap",
@@ -979,6 +988,7 @@ export const dbuExercises: ExerciseData[] = [
       "I spillsituasjon",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.8 'Overlap'",
   },
   {
     id: "dbu-boldovertagelse",
@@ -1054,6 +1064,7 @@ export const dbuExercises: ExerciseData[] = [
       "I helbane-spill",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.9 'Spil på 3. mand'",
   },
   {
     id: "dbu-knekloep-i-feltet",
@@ -1079,6 +1090,7 @@ export const dbuExercises: ExerciseData[] = [
       "Med pasning i føttene",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.13 'Knækløb i feltet'",
   },
   {
     id: "dbu-blindsideloep",
@@ -1104,6 +1116,7 @@ export const dbuExercises: ExerciseData[] = [
       "I spillsituasjon",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 3.15 'Eksempel på blindsideløb i feltet'",
   },
   {
     id: "dbu-loep-i-feltet-tre-omraader",
@@ -1181,8 +1194,16 @@ export const dbuExercises: ExerciseData[] = [
       "Turneringformat",
     ],
     source: "dbu",
+    sourceRef: "DBU Aldersrelateret Træning 2 Figur 5.2 '1v1 defensivt (nærkamp – tackling)'",
   },
 ];
+
+export const dbuExercises: ExerciseData[] = baseDbuExercises
+  .filter((exercise) => Boolean(exercise.sourceRef))
+  .map((exercise) => ({
+    ...exercise,
+    imageUrl: exercise.imageUrl ?? dbuImageById[exercise.id],
+  }));
 
 // Eksporter antall DBU-øvelser for bruk i filter
 export const dbuExerciseCount = dbuExercises.length;

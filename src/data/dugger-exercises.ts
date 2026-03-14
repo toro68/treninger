@@ -3,7 +3,9 @@
 
 import type { ExerciseData } from './exercises';
 
-export const duggerExercises: ExerciseData[] = [
+import { duggerImageById } from './dugger-image-map';
+
+const baseDuggerExercises: ExerciseData[] = [
   // === GRUNNLEGGENDE FORSVARSØVELSER ===
   {
     id: "dugger-deny-space",
@@ -1209,3 +1211,8 @@ export const duggerExercises: ExerciseData[] = [
     sourceRef: "Dugger 2021 'One Hundred (Tactic): The best coaches make defense training fun'"
   }
 ];
+
+export const duggerExercises: ExerciseData[] = baseDuggerExercises.map((exercise): ExerciseData => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? duggerImageById[exercise.id],
+}));

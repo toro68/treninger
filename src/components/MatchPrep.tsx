@@ -184,6 +184,147 @@ const focusItems: FocusItem[] = [
   },
 ];
 
+const rbkFocusItems: FocusItem[] = [
+  {
+    id: "rbk-press-sammen",
+    text: "RBK: Press sammen eller fall sammen - hele laget må reagere likt på balltap.",
+  },
+  {
+    id: "rbk-korte-avstander",
+    text: "RBK: Høyt press krever korte avstander mellom leddene og reelt press på ballfører.",
+  },
+  {
+    id: "rbk-spill-framover",
+    text: "RBK: Spill framover når du kan. Støttepasning brukes for å komme fram, ikke for å gjemme ballen.",
+  },
+  {
+    id: "rbk-bakrom-forst",
+    text: "RBK: Tru bakrom tidlig ved ballvinning. Når bakrommet trues, åpnes mellomrommet.",
+  },
+  {
+    id: "rbk-stotte-rundt-ball",
+    text: "RBK: Ballfører skal ha støtte på begge sider, framover og minst ett alternativ bak.",
+  },
+  {
+    id: "rbk-pluss-en-bak",
+    text: "RBK: I oppbygging ønsker vi pluss én i bakerste ledd for å spille kontrollert forbi første pressledd.",
+  },
+  {
+    id: "rbk-keeper-oppbygging",
+    text: "RBK: Keeper er en del av angrepet og skal være spillbar i frispilling og sweepe rom bak forsvaret.",
+  },
+  {
+    id: "rbk-en-back-gar",
+    text: "RBK: Når én back går i angrep, må motsatt side sikre restforsvaret.",
+  },
+];
+
+const godfotenAttackPostulates: FocusItem[] = [
+  {
+    id: "godfoten-angrep-1",
+    text: "Angrep: Spillet i lengderetningen av banen avgjør kampen.",
+  },
+  {
+    id: "godfoten-angrep-2",
+    text: "Angrep: Vend med ballen når du kan. Spill støtte bare når du må, og da så tidlig som mulig.",
+  },
+  {
+    id: "godfoten-angrep-3",
+    text: "Angrep: Når én møter, bør en annen stikke. Motsatte bevegelser skaper ubalanse.",
+  },
+  {
+    id: "godfoten-angrep-4",
+    text: "Angrep: Hold alltid bredde på angrepssida, og strekk opp hvis mulig.",
+  },
+  {
+    id: "godfoten-angrep-5",
+    text: "Angrep: Ikke slå på første bevegelse uten gjennombrudd. Let etter rom for andre- og tredjeangriper.",
+  },
+  {
+    id: "godfoten-angrep-6",
+    text: "Angrep: Vinkle pasningen inn i oppbyggingen og ut i selve gjennombruddet.",
+  },
+  {
+    id: "godfoten-angrep-7",
+    text: "Angrep: Utfordre med ball på siste tredel og søk overtall på kantene for opprulling.",
+  },
+  {
+    id: "godfoten-angrep-8",
+    text: "Angrep: Spill dere helst presist ut via backfirer, men velg også langt oppspill eller løft i bakrom når det er klokt.",
+  },
+  {
+    id: "godfoten-angrep-9",
+    text: "Angrep: Ballfører skal alltid ha en medspiller i støtte.",
+  },
+  {
+    id: "godfoten-angrep-10",
+    text: "Angrep: Tru alltid bakrommet, særlig når motstander ligger høyt.",
+  },
+  {
+    id: "godfoten-angrep-11",
+    text: "Angrep: Utnytt rom mellom motstanders lagdeler og mellom spillerne i lagdelene.",
+  },
+  {
+    id: "godfoten-angrep-12",
+    text: "Angrep: Ballførers posisjon bestemmer innløpene. Les innlegget tidlig.",
+  },
+  {
+    id: "godfoten-angrep-13",
+    text: "Angrep: Angrip første stolpe, rommet foran keeper og bakre stolpe ved innlegg.",
+  },
+  {
+    id: "godfoten-angrep-14",
+    text: "Angrep: Fra dødlinja eller nær mål, let etter skrått bakover eller bakre stolpe.",
+  },
+  {
+    id: "godfoten-angrep-15",
+    text: "Angrep: Når tidlig innlegg ikke kommer, søk ny posisjon og vær klar for gjenvinning.",
+  },
+  {
+    id: "godfoten-angrep-16",
+    text: "Angrep: Du har bedre tid enn du tror foran mål.",
+  },
+];
+
+const godfotenDefensePostulates: FocusItem[] = [
+  {
+    id: "godfoten-forsvar-1",
+    text: "Forsvar: Sjokkpress høyt når presset på ball er reelt og laget er samlet.",
+  },
+  {
+    id: "godfoten-forsvar-2",
+    text: "Forsvar: Ved lavt press skal spisser og midtbane trekke ned, men laget fortsatt være kompakt.",
+  },
+  {
+    id: "godfoten-forsvar-3",
+    text: "Forsvar: Hold korte sideveis avstander så laget kan forskyve raskt.",
+  },
+  {
+    id: "godfoten-forsvar-4",
+    text: "Forsvar: Press og led innover, men bare når resten av laget er nært nok til å sikre.",
+  },
+  {
+    id: "godfoten-forsvar-5",
+    text: "Forsvar: Når førsteforsvarer støter, må andre falle av og sikre - spesielt i backfirer.",
+  },
+  {
+    id: "godfoten-forsvar-6",
+    text: "Forsvar: Midtbane må følge gjennomløp når begge midtstoppere er okkupert.",
+  },
+  {
+    id: "godfoten-forsvar-7",
+    text: "Forsvar: Konsentrer laget når ballen er sentral og truende. Nekt spill foran stopperne.",
+  },
+  {
+    id: "godfoten-forsvar-8",
+    text: "Forsvar: Gå mens ballen går. Flytt deg før mottaket, ikke etterpå.",
+  },
+  {
+    id: "godfoten-forsvar-9",
+    text: "Forsvar: Ved balltap skal førsteforsvar etableres straks.",
+  },
+];
+
 const checklistItems = [
   "Laguttak på Spond og i Fiks",
   "Kampbag",
@@ -306,6 +447,117 @@ export const MatchPrep = () => {
                   </label>
                 );
               })}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-zinc-700 mb-2">RBK-fokus</h3>
+            <div className="rounded-lg border border-amber-200 bg-amber-50/70 p-3">
+              <div className="space-y-2">
+                {rbkFocusItems.map((item) => {
+                  const isChecked = checked.has(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className={`block rounded-lg border px-3 py-2 cursor-pointer transition ${
+                        isChecked
+                          ? "border-amber-300 bg-amber-100/70"
+                          : "border-amber-100 bg-white/80"
+                      }`}
+                    >
+                      <div className="flex items-start gap-2">
+                        <input
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleChecked(item.id)}
+                          className="mt-0.5 h-4 w-4 accent-black"
+                        />
+                        <p
+                          className={`text-xs ${
+                            isChecked ? "text-zinc-400 line-through" : "text-zinc-700"
+                          }`}
+                        >
+                          {item.text}
+                        </p>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-zinc-700 mb-2">Godfoten: angrepspostulatene</h3>
+            <div className="rounded-lg border border-rose-200 bg-rose-50/70 p-3">
+              <div className="space-y-2">
+                {godfotenAttackPostulates.map((item) => {
+                  const isChecked = checked.has(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className={`block rounded-lg border px-3 py-2 cursor-pointer transition ${
+                        isChecked
+                          ? "border-rose-300 bg-rose-100/70"
+                          : "border-rose-100 bg-white/80"
+                      }`}
+                    >
+                      <div className="flex items-start gap-2">
+                        <input
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleChecked(item.id)}
+                          className="mt-0.5 h-4 w-4 accent-black"
+                        />
+                        <p
+                          className={`text-xs ${
+                            isChecked ? "text-zinc-400 line-through" : "text-zinc-700"
+                          }`}
+                        >
+                          {item.text}
+                        </p>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-zinc-700 mb-2">Godfoten: forsvarspostulatene</h3>
+            <div className="rounded-lg border border-emerald-200 bg-emerald-50/70 p-3">
+              <div className="space-y-2">
+                {godfotenDefensePostulates.map((item) => {
+                  const isChecked = checked.has(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className={`block rounded-lg border px-3 py-2 cursor-pointer transition ${
+                        isChecked
+                          ? "border-emerald-300 bg-emerald-100/70"
+                          : "border-emerald-100 bg-white/80"
+                      }`}
+                    >
+                      <div className="flex items-start gap-2">
+                        <input
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleChecked(item.id)}
+                          className="mt-0.5 h-4 w-4 accent-black"
+                        />
+                        <p
+                          className={`text-xs ${
+                            isChecked ? "text-zinc-400 line-through" : "text-zinc-700"
+                          }`}
+                        >
+                          {item.text}
+                        </p>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
             </div>
           </div>
 

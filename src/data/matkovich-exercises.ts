@@ -13,7 +13,9 @@
 
 import type { ExerciseData } from './exercises';
 
-export const matkovichExercises: ExerciseData[] = [
+import { matkovichImageById } from './matkovich-image-map';
+
+const baseMatkovichExercises: ExerciseData[] = [
   // ===== MATKOVICH - ELITE SOCCER DRILLS (8-15 spillere) =====
   {
     id: "smallsided-91",
@@ -198,3 +200,8 @@ export const matkovichExercises: ExerciseData[] = [
     sourceRef: "Matkovich 2008 '40 Groups of Three'"
   },
 ];
+
+export const matkovichExercises: ExerciseData[] = baseMatkovichExercises.map((exercise): ExerciseData => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? matkovichImageById[exercise.id],
+}));

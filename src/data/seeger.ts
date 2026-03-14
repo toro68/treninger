@@ -9,6 +9,8 @@
 
 import { Exercise } from "./exercises";
 
+import { seegerImageById } from './seeger-image-map';
+
 export const SEEGER_SOURCE = {
   id: "seeger-soccer-games-compendium-2017",
   title: "The Soccer Games and Drills Compendium",
@@ -17,7 +19,7 @@ export const SEEGER_SOURCE = {
   localTextPath: "treninger/docs/books/seeger-soccer-games-compendium-2017.txt",
 } as const;
 
-export const seegerExercises: Exercise[] = [
+const baseSeegerExercises: Exercise[] = [
   // ===== SEEGER - KAOS OG OVERGANGER =====
   {
     id: "smallsided-33",
@@ -299,3 +301,8 @@ export const seegerExercises: Exercise[] = [
     sourceRef: "Seeger 1.8.9 (s.117) 'Playing field (switching play)'",
   },
 ];
+
+export const seegerExercises: Exercise[] = baseSeegerExercises.map((exercise): Exercise => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? seegerImageById[exercise.id],
+}));

@@ -31,7 +31,8 @@ const StarIcon = ({ filled }: { filled: boolean }) => (
 
 const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText: string; linkColor: string }> = {
   tiim:       { label: "tiim",                    className: "bg-emerald-100 text-emerald-700", linkText: "Se på tiim.no",                  linkColor: "text-emerald-600 hover:text-emerald-700" },
-  eggen:      { label: "Eggen",                   className: "bg-amber-100 text-amber-700",    linkText: "Se PDF (Eggen)",                  linkColor: "text-amber-600 hover:text-amber-700" },
+  eggen:      { label: "K.T. Eggen",              className: "bg-amber-100 text-amber-700",    linkText: "Se PDF (K.T. Eggen)",             linkColor: "text-amber-600 hover:text-amber-700" },
+  godfoten:   { label: "Godfoten",                className: "bg-orange-100 text-orange-700",  linkText: "Se Godfoten-notater",             linkColor: "text-orange-600 hover:text-orange-700" },
   dbu:        { label: "DBU",                     className: "bg-red-100 text-red-700",        linkText: "Se på dbu.dk",                    linkColor: "text-red-600 hover:text-red-700" },
   rondo:      { label: "Rondo",                   className: "bg-purple-100 text-purple-700",  linkText: "The Science of Rondo",            linkColor: "text-purple-600 hover:text-purple-700" },
   hyballa:    { label: "Hyballa",                 className: "bg-blue-100 text-blue-700",      linkText: "German Soccer Passing Drills",    linkColor: "text-blue-600 hover:text-blue-700" },

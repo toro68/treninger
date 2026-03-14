@@ -1,0 +1,15 @@
+export const dbuImageById: Record<string, string> = {
+  "dbu-y2-dobbelt-y": "/book-illustrations/dbu-aldersrelateret/p019-dbu-y2-dobbelt-y-dobbelt-y-y2.webp",
+  "dbu-3v3-2-possession": "/book-illustrations/dbu-aldersrelateret/p034-dbu-3v3-2-possession-3v3-2-ballbesittelse.webp",
+  "dbu-4v4-4-possession": "/book-illustrations/dbu-aldersrelateret/p035-dbu-4v4-4-possession-4v4-4-ballbesittelse.webp",
+  "dbu-spill-paa-3-mann": "/book-illustrations/dbu-aldersrelateret/p038-dbu-spill-paa-3-mann-spill-pa-3-mann.webp",
+  "dbu-overlap": "/book-illustrations/dbu-aldersrelateret/p037-dbu-overlap-overlap.webp",
+  "dbu-bandespill": "/book-illustrations/dbu-aldersrelateret/p037-dbu-bandespill-bandespill-veggspill.webp",
+  "dbu-knekloep-i-feltet": "/book-illustrations/dbu-aldersrelateret/p039-dbu-knekloep-i-feltet-knekkel-p-i-feltet.webp",
+  "dbu-blindsideloep": "/book-illustrations/dbu-aldersrelateret/p039-dbu-blindsideloep-blindsidel-p-i-feltet.webp",
+  "dbu-klassisk-kontra": "/book-illustrations/dbu-aldersrelateret/p042-dbu-klassisk-kontra-klassisk-kontraangrep.webp",
+  "dbu-kollektiv-kontra": "/book-illustrations/dbu-aldersrelateret/p043-dbu-kollektiv-kontra-kollektiv-kontra.webp",
+  "dbu-avansert-kontra-genpres": "/book-illustrations/dbu-aldersrelateret/p043-dbu-avansert-kontra-genpres-avansert-kontra-h-y-gegenpressing.webp",
+  "dbu-enkeltmands-kontra": "/book-illustrations/dbu-aldersrelateret/p044-dbu-enkeltmands-kontra-enkeltmanns-kontra.webp",
+  "dbu-1v1-defensiv-naerkamp": "/book-illustrations/dbu-aldersrelateret/p086-dbu-1v1-defensiv-naerkamp-1v1-defensiv-n-rkamp-og-tackling.webp",
+};
