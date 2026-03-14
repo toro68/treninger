@@ -11,7 +11,7 @@ describe("SessionTimeline sharing", () => {
     vi.clearAllMocks();
 
     const state = useSessionStore.getState();
-    const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+    const exercise = state.exerciseLibrary.find((item) => item.category === "game");
 
     expect(exercise).toBeDefined();
 
@@ -151,5 +151,14 @@ describe("SessionTimeline sharing", () => {
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
 
     expect(decoded?.sessionBlocks[0].assignedCoachNames).toEqual(["Rune", "John Arne"]);
+  });
+
+  it("lets the user add a strength exercise from the strength section", async () => {
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Legg til styrke" }));
+
+    expect(useSessionStore.getState().selectedExerciseIds.has("styrke-blokk")).toBe(true);
+    expect(await screen.findByText("Styrke")).toBeInTheDocument();
   });
 });

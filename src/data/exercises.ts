@@ -96,6 +96,8 @@ type ExerciseFields<TTheme extends string> = {
 export type ExerciseData = ExerciseFields<string>;
 export type Exercise = ExerciseFields<ExerciseTheme>;
 
+export const GENERIC_STRENGTH_EXERCISE_ID = "styrke-blokk";
+
 // Hjelpefunksjon for å få formatert øvelseskode med kategori-prefiks
 export const getExerciseCode = (
   exercise: Pick<ExerciseData, "category" | "exerciseNumber">
@@ -129,6 +131,20 @@ export const exercises: ExerciseData[] = [
     coachingPoints: [],
     variations: [],
     alwaysIncluded: true,
+  },
+  {
+    id: GENERIC_STRENGTH_EXERCISE_ID,
+    exerciseNumber: 49,
+    name: "Styrke",
+    category: "cooldown",
+    duration: 10,
+    playersMin: 1,
+    playersMax: 40,
+    theme: "styrke",
+    equipment: [],
+    description: "Valgfri styrkedel etter hoveddelen. Her settes bare ansvarlig trener og varighet.",
+    coachingPoints: [],
+    variations: [],
   },
   {
     id: "rondo-5v2",

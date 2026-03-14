@@ -112,11 +112,6 @@ export default function Home() {
     searchQuery,
   ]);
 
-  const strengthExercises = useMemo(
-    () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme === "styrke"),
-    [groupedExercises.cooldown]
-  );
-
   const cooldownExercises = useMemo(
     () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme !== "styrke"),
     [groupedExercises.cooldown]
@@ -165,11 +160,6 @@ export default function Home() {
                   title="Spill"
                   category="game"
                   exercises={groupedExercises.game ?? []}
-                />
-                <ExerciseList
-                  title="Styrke"
-                  category="cooldown"
-                  exercises={strengthExercises}
                 />
                 <ExerciseList
                   title="Avslutning"

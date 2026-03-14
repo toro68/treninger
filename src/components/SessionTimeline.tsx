@@ -1,5 +1,5 @@
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
-import { Exercise, getExerciseCode } from "@/data/exercises";
+import { Exercise, GENERIC_STRENGTH_EXERCISE_ID, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
@@ -90,6 +90,8 @@ export const SessionTimeline = () => {
     (acc, block) => acc + recommendedDuration(block),
     0
   );
+
+  const hasGenericStrengthBlock = selectedExerciseIds.has(GENERIC_STRENGTH_EXERCISE_ID);
 
   const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
     (block.alternativeExerciseIds ?? [])
@@ -226,6 +228,10 @@ export const SessionTimeline = () => {
     if (removed && !removed.exercise.alwaysIncluded) {
       toggleExercise(removed.exercise.id);
     }
+  };
+
+  const handleToggleStrengthBlock = () => {
+    toggleExercise(GENERIC_STRENGTH_EXERCISE_ID);
   };
 
   const buildShortSummary = () => {
@@ -617,8 +623,31 @@ export const SessionTimeline = () => {
 
                 {isVisible && (
                   <>
+                    {part.key === "styrke" ? (
+                      <div className="mb-2 rounded-xl border border-zinc-200 bg-zinc-50/80 p-3">
+                        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                          <div>
+                            <p className="text-sm font-medium text-zinc-800">Legg til valgfri styrkedel</p>
+                            <p className="text-xs text-zinc-500">Ingen øvelser velges her. Bare trener og varighet settes på blokken.</p>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={handleToggleStrengthBlock}
+                            className={`rounded-xl border px-4 py-2 text-sm font-medium transition ${
+                              hasGenericStrengthBlock
+                                ? "border-zinc-300 bg-zinc-200 text-zinc-700 hover:bg-zinc-300"
+                                : "border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-700"
+                            }`}
+                          >
+                            {hasGenericStrengthBlock ? "Fjern styrke" : "Legg til styrke"}
+                          </button>
+                        </div>
+                      </div>
+                    ) : null}
                     {part.blocks.length === 0 ? (
-                      <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
+                      <p className="text-xs text-zinc-400 italic pl-2">
+                        {part.key === "styrke" ? "Styrke er ikke lagt til ennå." : "Ingen valgt"}
+                      </p>
                     ) : (
                       <div className="space-y-1.5">
                         {part.blocks.map(({ block, globalIndex }) => (
