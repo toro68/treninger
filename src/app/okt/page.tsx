@@ -1,0 +1,222 @@
+"use client";
+
+import Link from "next/link";
+import { Suspense, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
+
+import { getExerciseCode } from "@/data/exercises";
+import { getSessionTheoryItem } from "@/data/sessionTheory";
+import { AppHeader } from "@/components/AppHeader";
+import { decodeSharedSessionToken } from "@/utils/sessionShare";
+import { getUnit, recommendedDuration } from "@/store/sessionStore";
+
+function SharedSessionPageContent() {
+  const searchParams = useSearchParams();
+  const sharedSession = useMemo(
+    () => decodeSharedSessionToken(searchParams.get("s")),
+    [searchParams]
+  );
+
+  const parts = useMemo(() => {
+    if (!sharedSession) return [];
+
+    const grouped = [
+      { key: "skadefri", title: "1. Skadefri", subtitle: "Fast oppvarming", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "oppvarming", title: "2. Oppvarming", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "rondo", title: "3. Rondo", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "stasjoner", title: "4. Stasjoner", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "spill", title: "5. Spill", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
+      { key: "avslutning", title: "6. Avslutning", subtitle: "Utstrekking og styrke", blocks: [] as typeof sharedSession.sessionBlocks },
+    ];
+
+    sharedSession.sessionBlocks.forEach((block) => {
+      const category = block.exercise.category;
+      if (category === "fixed-warmup") grouped[0].blocks.push(block);
+      else if (category === "warmup" || category === "aktivisering") grouped[1].blocks.push(block);
+      else if (category === "rondo") grouped[2].blocks.push(block);
+      else if (category === "station") grouped[3].blocks.push(block);
+      else if (category === "game") grouped[4].blocks.push(block);
+      else if (category === "cooldown") grouped[5].blocks.push(block);
+    });
+
+    const stationCount = grouped[3].blocks.length;
+    if (stationCount > 0) {
+      const playersPerStation = Math.floor(sharedSession.playerCount / stationCount);
+      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+    }
+
+    return grouped.filter((part) => part.blocks.length > 0);
+  }, [sharedSession]);
+
+  const totalMinutes = useMemo(
+    () => sharedSession?.sessionBlocks.reduce((sum, block) => sum + recommendedDuration(block), 0) ?? 0,
+    [sharedSession]
+  );
+
+  const selectedTheoryItems = useMemo(() => {
+    if (!sharedSession) return [];
+    return [...sharedSession.selectedTheoryIds]
+      .map((id) => getSessionTheoryItem(id))
+      .filter((item) => !!item);
+  }, [sharedSession]);
+
+  if (!sharedSession) {
+    return (
+      <div className="min-h-screen bg-zinc-50">
+        <AppHeader />
+        <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+          <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm sm:p-8">
+            <h1 className="text-2xl font-semibold text-zinc-900">Kunne ikke åpne økta</h1>
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-600">
+              Lenken er ugyldig eller ufullstendig. Be om en ny lenke til økta.
+            </p>
+            <Link
+              href="/"
+              className="mt-6 inline-flex rounded-full border border-zinc-900 bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700"
+            >
+              Til planleggeren
+            </Link>
+          </section>
+        </main>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-zinc-50">
+      <AppHeader />
+      <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+        <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="flex flex-col gap-4 border-b border-zinc-200 pb-6 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">Fullversjon</p>
+              <h1 className="mt-2 text-2xl font-semibold text-zinc-900 sm:text-3xl">Treningsøkt</h1>
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-600">
+                Delt øktvisning med alle beskrivelser, coachingpunkter, variasjoner og alternative øvelser.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2 text-sm text-zinc-600">
+              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{totalMinutes} min</span>
+              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{sharedSession.playerCount} spillere</span>
+              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{sharedSession.stationCount} stasjoner</span>
+            </div>
+          </div>
+
+          <div className="mt-6 space-y-6">
+            {parts.map((part) => (
+              <section key={part.key} className="rounded-2xl border border-zinc-200 bg-zinc-50/50 p-4 sm:p-5">
+                <div className="flex flex-col gap-1 border-b border-zinc-200 pb-3 sm:flex-row sm:items-baseline sm:justify-between">
+                  <h2 className="text-base font-semibold text-zinc-900">{part.title}</h2>
+                  {part.subtitle ? <p className="text-xs text-zinc-500">{part.subtitle}</p> : null}
+                </div>
+
+                <div className="mt-4 space-y-4">
+                  {part.blocks.map((block) => {
+                    const alternativeExercises = (block.alternativeExerciseIds ?? [])
+                      .map((id) => sharedSession.sessionBlocks.find((candidate) => candidate.exercise.id === id)?.exercise)
+                      .filter((exercise) => !!exercise);
+
+                    return (
+                      <article key={block.id} className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-5">
+                        <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                          <div>
+                            <h3 className="text-base font-semibold text-zinc-900">
+                              <span className="mr-2 inline-flex min-w-[34px] items-center justify-center rounded-full bg-zinc-200 px-2 py-1 text-[11px] font-medium text-zinc-700">
+                                {getExerciseCode(block.exercise)}
+                              </span>
+                              {block.exercise.name}
+                            </h3>
+                            <p className="mt-2 text-sm leading-6 text-zinc-700">{block.exercise.description}</p>
+                          </div>
+                          <div className="shrink-0 rounded-2xl bg-zinc-100 px-3 py-2 text-xs text-zinc-600">
+                            {recommendedDuration(block)} {getUnit(block)} · {block.exercise.playersMin}-{block.exercise.playersMax} spillere
+                          </div>
+                        </div>
+
+                        {block.exercise.coachingPoints.length > 0 ? (
+                          <div className="mt-4">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching</h4>
+                            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                              {block.exercise.coachingPoints.map((point) => (
+                                <li key={point}>• {point}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        ) : null}
+
+                        {block.exercise.variations.length > 0 ? (
+                          <div className="mt-4">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Variasjoner</h4>
+                            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                              {block.exercise.variations.map((variation) => (
+                                <li key={variation}>• {variation}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        ) : null}
+
+                        {alternativeExercises.length > 0 ? (
+                          <div className="mt-4">
+                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Alternative øvelser</h4>
+                            <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+                              {alternativeExercises.map((exercise) => (
+                                <li key={exercise.id}>• [{getExerciseCode(exercise)}] {exercise.name}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        ) : null}
+                      </article>
+                    );
+                  })}
+                </div>
+              </section>
+            ))}
+
+            {selectedTheoryItems.length > 0 ? (
+              <section className="rounded-2xl border border-sky-200 bg-sky-50/70 p-4 sm:p-5">
+                <div className="flex flex-col gap-1 border-b border-sky-200 pb-3 sm:flex-row sm:items-baseline sm:justify-between">
+                  <h2 className="text-base font-semibold text-zinc-900">Teori og trenermomenter</h2>
+                  <p className="text-xs text-sky-700">Valgt i planleggeren for fullversjonen</p>
+                </div>
+
+                <div className="mt-4 space-y-3">
+                  {selectedTheoryItems.map((item) => (
+                    <article key={item.id} className="rounded-2xl border border-sky-100 bg-white p-4">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">
+                        {item.category === "trenerfokus"
+                          ? "Trenerfokus"
+                          : item.category === "spillerbudskap"
+                            ? "Spillerbudskap"
+                            : "Læringsprinsipp"}
+                      </p>
+                      <h3 className="mt-1 text-base font-semibold text-zinc-900">{item.title}</h3>
+                      <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
+                      {item.coachNote ? (
+                        <p className="mt-3 text-sm leading-6 text-zinc-700">
+                          <span className="font-semibold text-zinc-900">Til trener:</span> {item.coachNote}
+                        </p>
+                      ) : null}
+                      {item.playerMessage ? (
+                        <p className="mt-2 text-sm leading-6 text-zinc-700">
+                          <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}
+                        </p>
+                      ) : null}
+                    </article>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+export default function SharedSessionPage() {
+  return (
+    <Suspense fallback={null}>
+      <SharedSessionPageContent />
+    </Suspense>
+  );
+}

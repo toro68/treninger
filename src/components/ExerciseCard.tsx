@@ -62,6 +62,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   const importedSvgRef = useRef<HTMLDivElement | null>(null);
 
   const disabled = exercise.alwaysIncluded;
+  const compactAlwaysIncluded = exercise.alwaysIncluded && exercise.category === "fixed-warmup";
 
   const hasDiagram =
     !!exercise.svgDiagram ||
@@ -70,7 +71,8 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     !!exercise.imageUrl;
 
   const hasExtraInfo =
-    hasDiagram || exercise.coachingPoints.length > 0 || exercise.variations.length > 0 || !!exercise.sourceRef;
+    !compactAlwaysIncluded &&
+    (hasDiagram || exercise.coachingPoints.length > 0 || exercise.variations.length > 0 || !!exercise.sourceRef);
 
   const sanitizedSvg = useMemo(() => {
     if (!showDetails) return null;
@@ -198,8 +200,10 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
             <StarIcon filled={isFavorite} />
           </button>
         </div>
-        <p className="mt-1 text-sm text-zinc-600 group-hover:text-zinc-700">{exercise.description}</p>
-        {exerciseDiagram}
+        {!compactAlwaysIncluded && (
+          <p className="mt-1 text-sm text-zinc-600 group-hover:text-zinc-700">{exercise.description}</p>
+        )}
+        {!compactAlwaysIncluded && exerciseDiagram}
         <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
           <span className="inline-flex items-center gap-1 rounded-md bg-zinc-100 px-2 py-0.5 font-medium text-zinc-600">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
@@ -213,15 +217,18 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
             </svg>
             {exercise.playersMin}–{exercise.playersMax} spillere
           </span>
-          <span className="rounded-md bg-zinc-100 px-2 py-0.5 font-medium capitalize text-zinc-600">
-            {exercise.theme}
-          </span>
-          {exercise.source && SOURCE_CONFIG[exercise.source] && (() => {
+          {!compactAlwaysIncluded && (
+            <span className="rounded-md bg-zinc-100 px-2 py-0.5 font-medium capitalize text-zinc-600">
+              {exercise.theme}
+            </span>
+          )}
+          {!compactAlwaysIncluded && exercise.source && SOURCE_CONFIG[exercise.source] && (() => {
             const { label, className } = SOURCE_CONFIG[exercise.source!];
             return <span className={`rounded-md px-2 py-0.5 font-medium ${className}`}>{label}</span>;
           })()}
         </div>
-        <div className="mt-2 flex items-center gap-3">
+        {!compactAlwaysIncluded && (
+          <div className="mt-2 flex items-center gap-3">
           {hasExtraInfo && (
             <button
               type="button"
@@ -253,7 +260,8 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               {(exercise.source && SOURCE_CONFIG[exercise.source]?.linkText) ?? "Se kilde"}
             </a>
           )}
-        </div>
+          </div>
+        )}
             {showDetails && (
               <div className="mt-2 rounded-xl bg-zinc-100 p-3 text-xs text-zinc-600">
                 {exercise.coachingPoints.length > 0 && (

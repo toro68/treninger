@@ -10,10 +10,10 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "rondo-fundamental",
     exerciseNumber: 474,
-    name: "Fundamental Rondo (7v2)",
+    name: "Fundamental Rondo",
     category: "warmup",
     duration: 10,
-    playersMin: 7,
+    playersMin: 4,
     playersMax: 11,
     theme: "rondo",
     equipment: ["baller", "kjegler", "vester"],
@@ -172,7 +172,7 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "rondo-to-possession",
     exerciseNumber: 415,
-    name: "Rondo to Possession",
+    name: "Rondo to Possession to Rondo",
     category: "station",
     duration: 15,
     playersMin: 14,
@@ -199,10 +199,10 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "rondo-transitions",
     exerciseNumber: 417,
-    name: "Rondo Transitions",
+    name: "Rondo Transitions to Passing Patterns, Technical Training and Fitness",
     category: "station",
     duration: 15,
-    playersMin: 6,
+    playersMin: 4,
     playersMax: 12,
     theme: "rondo",
     equipment: ["baller", "kjegler", "vester"],
@@ -220,6 +220,9 @@ const baseRondoExercises: ExerciseData[] = [
       "Rondo → Avslutning",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef:
+      "DiBernardo 2014 s.20 'Rondo Transitions To Passing Patterns, Technical Training and Fitness'",
   },
   {
     id: "rondo-sliding-player",
@@ -227,8 +230,8 @@ const baseRondoExercises: ExerciseData[] = [
     name: "Sliding Player Rondo",
     category: "station",
     duration: 12,
-    playersMin: 7,
-    playersMax: 11,
+    playersMin: 8,
+    playersMax: 12,
     theme: "rondo",
     equipment: ["baller", "kjegler", "vester"],
     description:
@@ -253,7 +256,7 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "rondo-follow-pass",
     exerciseNumber: 203,
-    name: "Follow Your Pass Rondo",
+    name: "Rondo Variation: Follow Your Pass",
     category: "warmup",
     duration: 10,
     playersMin: 9,
@@ -274,11 +277,13 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til armheving før du løper",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.22 'Rondo Variations - Follow your pass'",
   },
   {
     id: "rondo-pushup",
     exerciseNumber: 204,
-    name: "Push-Up Rondo",
+    name: "Rondo Push Up Game",
     category: "warmup",
     duration: 10,
     playersMin: 6,
@@ -305,7 +310,7 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "rondo-two-touch-both-feet",
     exerciseNumber: 12,
-    name: "Two Touch Both Feet Rondo",
+    name: "Rondo Variation: Two Touch Both Feet Mandatory",
     category: "warmup",
     duration: 10,
     playersMin: 7,
@@ -326,11 +331,14 @@ const baseRondoExercises: ExerciseData[] = [
       "3 touch: mottak-touch-pasning",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef:
+      "DiBernardo 2014 s.22 'Rondo Variations - Two touch both feet mandatory'",
   },
   {
     id: "rondo-hold-hands",
     exerciseNumber: 13,
-    name: "Hold Hands Rondo",
+    name: "Rondo Variation: Players Must Hold Hands in Circle",
     category: "warmup",
     duration: 8,
     playersMin: 7,
@@ -351,6 +359,9 @@ const baseRondoExercises: ExerciseData[] = [
       "Kombiner med jubel etter 10 pasninger",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef:
+      "DiBernardo 2014 s.22 'Rondo Variations - Players must hold hands in circle'",
   },
   {
     id: "rondo-air",
@@ -376,6 +387,8 @@ const baseRondoExercises: ExerciseData[] = [
       "Tell rekord for pasninger uten bakke",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.22 'Rondo Variations - Air Rondo'",
   },
 
   // === AVANSERTE RONDO-ØVELSER ===
@@ -412,8 +425,8 @@ const baseRondoExercises: ExerciseData[] = [
     name: "Cognitive Rondo: Ball Toss",
     category: "station",
     duration: 12,
-    playersMin: 10,
-    playersMax: 14,
+    playersMin: 12,
+    playersMax: 12,
     theme: "rondo",
     equipment: ["baller", "kjegler", "vester", "tennisballer"],
     description:
@@ -430,15 +443,17 @@ const baseRondoExercises: ExerciseData[] = [
       "Variér antall forsvarere",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.25 'Cognitive Rondo: Ball Toss'",
   },
   {
     id: "rondo-cognitive-no-same-color",
     exerciseNumber: 438,
-    name: "Cognitive Rondo: No Same Color",
+    name: "Cognitive Rondo: No Same Color Passing",
     category: "station",
     duration: 12,
     playersMin: 12,
-    playersMax: 14,
+    playersMax: 12,
     theme: "rondo",
     equipment: ["baller", "kjegler", "vester", "tennisballer"],
     description:
@@ -455,14 +470,16 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til tidsbegrensning",
     ],
     source: "rondo",
+    tags: ["dibernardo-science-of-rondo-2014"],
+    sourceRef: "DiBernardo 2014 s.26 'Cognitive Rondo: No Same Color Passing'",
   },
   {
     id: "rondo-10v2-one-touch",
     exerciseNumber: 440,
-    name: "10v2 One Touch",
+    name: "Rondo to 10v2 One Touch",
     category: "station",
     duration: 12,
-    playersMin: 10,
+    playersMin: 7,
     playersMax: 12,
     theme: "possession",
     equipment: ["baller", "kjegler", "vester"],
@@ -515,7 +532,7 @@ const baseRondoExercises: ExerciseData[] = [
   {
     id: "hyballa-tiqui-1",
     exerciseNumber: 20,
-    name: "Tiqui-Taca Rondo: Mottak og Pasning",
+    name: "Tiqui-Taca Rondo: Mottak og pasning",
     category: "warmup",
     duration: 10,
     playersMin: 8,
@@ -536,7 +553,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Bytt roller etter X antall balltap"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.265 'Rondo 1 (receiving and passing)'",
+    sourceRef: "Hyballa/te Poel 2015 p.265 'Rondo 1 with emphasis on receiving and passing'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -564,7 +581,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform: Flest pasninger på rad"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.265 'Rondo 2 (push passes)'",
+    sourceRef: "Hyballa/te Poel 2015 p.265-266 'Rondo 2 with emphasis on push passes over short distances'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -592,7 +609,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform: Hvem mister minst baller?"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 3 (ball speed)'",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 3 with emphasis on ball speed'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -620,7 +637,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til poenggiving"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 4 (open space & long pass)'",
+    sourceRef: "Hyballa/te Poel 2015 p.266 'Rondo 4 with emphasis on open space and then the long pass'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -648,7 +665,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseform mellom grupper"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.266-267 'Rondo 5 (waiting defender)'",
+    sourceRef: "Hyballa/te Poel 2015 p.266-267 'Rondo 5 with emphasis on the defender waiting'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -676,7 +693,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til bevegelse etter pasning"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.267 'Rondo 6 (spatial awareness)'",
+    sourceRef: "Hyballa/te Poel 2015 p.267 'Rondo 6 with emphasis on spatial awareness and directional changes'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -704,7 +721,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Legg til verbale signaler"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.267-268 'Rondo 7 (communication)'",
+    sourceRef: "Hyballa/te Poel 2015 p.267-268 'Rondo 7 with emphasis on forms of communication with and without the ball'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -732,7 +749,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Tidsbegrensning på gjenvinning"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.268-269 'Rondo 8 (changeover)'",
+    sourceRef: "Hyballa/te Poel 2015 p.268-269 'Rondo 8 with emphasis on changeover'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -760,7 +777,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Konkurranseturneringer mellom grupper"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.269 'Rondo 9 (passing fitness)'",
+    sourceRef: "Hyballa/te Poel 2015 p.269 'Rondo 9 with emphasis on passing fitness for Tiqui-Taca'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   },
@@ -788,7 +805,7 @@ const baseRondoExercises: ExerciseData[] = [
       "Evaluer etter øvelsen"
     ],
     source: "rondo",
-    sourceRef: "Hyballa/te Poel 2015 p.269-270 'Rondo 10 (game leader)'",
+    sourceRef: "Hyballa/te Poel 2015 p.269-270 'Rondo 10 with emphasis on the leader of the game'",
     tags: ["hyballa-german-passing-drills-2015"],
     sourceUrl: "Hyballa/te Poel: German Soccer Passing Drills"
   }

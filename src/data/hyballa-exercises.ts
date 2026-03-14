@@ -103,7 +103,7 @@ export const hyballaExercises: ExerciseData[] = [
       "Ballen kan spilles tilbake, men må deretter åpnes til annen side"
     ],
     source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.77 'Fig. 15a/15b: Triangle passes in a grid of six'"
+    sourceRef: "Hyballa/te Poel 2015 p.77 'Fig. 15a: Triangle passes in a grid of six'"
   },
   {
     id: "hyballa-triangle-2",
@@ -128,7 +128,7 @@ export const hyballaExercises: ExerciseData[] = [
       "Trener bestemmer tempo: langsom Tiqui-Taca eller raske åpningspasninger"
     ],
     source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.78 'Fig. 16a/16b: Grid with seven players (central turning)'"
+    sourceRef: "Hyballa/te Poel 2015 p.79 'Fig. 16a: Grid with seven players and forward-turning action in the center'"
   },
   {
     id: "hyballa-triangle-3",
@@ -461,131 +461,6 @@ export const hyballaExercises: ExerciseData[] = [
     sourceRef: "Hyballa/te Poel 2015 p.250 'Fig. 126: 9v9 with one-touch zones'"
   },
 
-  // === TIQUI-TACA / RONDO ØVELSER ===
-  {
-    id: "hyballa-rondo-1",
-    exerciseNumber: 480,
-    name: "Rondo 8v2 - Mottak og Pasning",
-    tags: ["hyballa-german-passing-2015"],
-    category: "rondo",
-    duration: 10,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "baller"],
-    description: "8 spillere i sirkel, 2 i midten. Fokus på mottak og pasning. Regel 1: Ett-to touch. Regel 2: Posisjonsbytte ved tapt ball. Regel 3: Veksle spillefot (venstre/høyre).",
-    coachingPoints: [
-      "Ballkontroll",
-      "Push-pass (pasningsteknikk)",
-      "Ta raske beslutninger",
-      "Ta hensyn til forsvarernes posisjon"
-    ],
-    variations: [
-      "Samme fot to ganger på rad",
-      "Tre obligatoriske touch, fritt fotvalg"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.265-266 'Fig. 132: Rondo 8v2 (Rondo 1-7)'"
-  },
-  {
-    id: "hyballa-rondo-2",
-    exerciseNumber: 205,
-    name: "Rondo med Ballhastighet",
-    tags: ["hyballa-german-passing-2015"],
-    category: "rondo",
-    duration: 10,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "baller"],
-    description: "8v2 Rondo med fokus på ballhastighet. Velg hastighet slik at forsvarer kommer for sent romlig og tidsmessig.",
-    coachingPoints: [
-      "Ta riktig beslutning!",
-      "Velg ballhastighet som gjør forsvarer sen",
-      "Hold ballen i bevegelse"
-    ],
-    variations: [
-      "Øk/minsk avstand mellom spillere",
-      "Legg til tidsbegrensning"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.266 'Fig. 132: Rondo 8v2 (Rondo 3: ball speed)'"
-  },
-  {
-    id: "hyballa-rondo-3",
-    exerciseNumber: 206,
-    name: "Rondo med Åpent Rom og Lang Pasning",
-    tags: ["hyballa-german-passing-2015"],
-    category: "rondo",
-    duration: 10,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "baller"],
-    description: "8v2 Rondo der forsvarere må bli i midten når: a) Lang pasning er spilt mellom to forsvarere, b) Ball spilt gjennom sentrum 2-3 ganger, c) Ball passert rundt hele runden, d) Ball passert 6-8 ganger uten tapt ball.",
-    coachingPoints: [
-      "Masse rom og tid for angrepsspillet vårt!",
-      "Bruk lang pasning for å skape åpning",
-      "Kombiner korte og lange pasninger"
-    ],
-    variations: [
-      "Øv B og C sammen for høyere nivå"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.266 'Fig. 132: Rondo 8v2 (Rondo 4: open space & long pass)'"
-  },
-  {
-    id: "hyballa-rondo-4",
-    exerciseNumber: 207,
-    name: "Rondo 9v3 med Defensive Trekanter",
-    tags: ["hyballa-german-passing-2015"],
-    category: "rondo",
-    duration: 12,
-    playersMin: 12,
-    playersMax: 15,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "9v3 Rondo i sirkel eller firkant. Tre forsvarere må danne defensive trekanter, kroker og forflytning. Dette gjør lange fremoverpasninger vanskeligere - angripere må tilpasse med Tiqui-Taca.",
-    coachingPoints: [
-      "Forsvarere: Defensive trekanter, ballorientert spill",
-      "Angripere: Rask ett-touch for å bryte presset",
-      "Korte pasninger til fot og i løpsbane"
-    ],
-    variations: [
-      "Øk/minsk feltets størrelse",
-      "Endre tidsintervaller",
-      "Legg til posisjonsbytte etter gitte pasningssekvenser"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.268-269 'Fig. 133: 9v3 Rondo (Rondo 8-10)'"
-  },
-  {
-    id: "hyballa-rondo-5",
-    exerciseNumber: 208,
-    name: "Rondo med Kommunikasjonsformer",
-    tags: ["hyballa-german-passing-2015"],
-    category: "rondo",
-    duration: 12,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "ballkontroll",
-    equipment: ["kjegler", "baller"],
-    description: "8v2 Rondo med fokus på kommunikasjon med og uten ball. To touch - kontroller rondoen med første touch. Bruk ballhastighet som kommunikasjonsmiddel.",
-    coachingPoints: [
-      "Se deg rundt og coach hverandre!",
-      "Bruk ballhastighet som kommunikasjon",
-      "Lang ball mellom forsvarere betyr 'lite tid' til forsvarer, 'mye rom' til angriper",
-      "Ballen holder seg i bevegelse så forsvarere ikke kan hvile",
-      "Langsom ball som agn: Forsvarer nærmer seg, så lang pasning"
-    ],
-    variations: [
-      "Treg pasning som agn - forsvarer nærmer seg, så rask pasning",
-      "Verbal og ikke-verbal kommunikasjon påkrevd"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.267-268 'Fig. 132: Rondo 8v2 (Rondo 7: communication)'"
-  },
-
   // === PASSING INTO SPACE (DYBDEPASNING) ØVELSER ===
   {
     id: "hyballa-space-1",
@@ -614,7 +489,7 @@ export const hyballaExercises: ExerciseData[] = [
   },
   {
     id: "hyballa-space-2",
-    exerciseNumber: 286,
+    exerciseNumber: 325,
     name: "Følge Ballen",
     tags: ["hyballa-german-passing-2015"],
     category: "game",
@@ -661,58 +536,6 @@ export const hyballaExercises: ExerciseData[] = [
     ],
     source: "hyballa",
     sourceRef: "Hyballa/te Poel 2015 p.242 'Fig. 121: Variation: Accompanying the ball with chip balls'"
-  },
-
-  // === GIVE-AND-GO (DOBBELTPASNING) ØVELSER ===
-  {
-    id: "hyballa-giveandgo-1",
-    exerciseNumber: 457,
-    name: "Dobbeltpasning til Mål",
-    tags: ["hyballa-german-passing-2015"],
-    category: "station",
-    duration: 15,
-    playersMin: 8,
-    playersMax: 16,
-    theme: "pasning",
-    equipment: ["kjegler", "baller", "mål"],
-    description: "Spillere i to rekker. Spiller 1 passer til Spiller 2, løper forbi, mottar returpass og avslutter på mål. Fokus på timing, presisjon og rask bevegelse etter første pasning.",
-    coachingPoints: [
-      "Spill og løp! - akselerér etter første pasning",
-      "Returpass i løpsbanen, ikke i beina",
-      "Presis avslutning etter dobbeltpasning"
-    ],
-    variations: [
-      "Legg til forsvarer som starter passivt",
-      "Varier startposisjon og vinkel",
-      "To-touch maks på mottaker"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.192 'Fig. 86: Give-and-go pass, rebound...'"
-  },
-  {
-    id: "hyballa-giveandgo-2",
-    exerciseNumber: 28,
-    name: "6v4 + 2 med Dobbeltpasning og Finish",
-    tags: ["hyballa-german-passing-2015"],
-    category: "game",
-    duration: 20,
-    playersMin: 12,
-    playersMax: 16,
-    theme: "pasning",
-    equipment: ["kjegler", "baller", "mål", "vester"],
-    description: "6v4 på to store mål med keepere. To nøytrale bak hvert mål. Laget i overtall må avslutte via dobbeltpasning med nøytral. Dobbeltpasning som assister gir bonuspoeng.",
-    coachingPoints: [
-      "Timing på dobbeltpasning kritisk",
-      "Nøytrale må være klare for rask vegg",
-      "Løp i rommet bak forsvarslinjen"
-    ],
-    variations: [
-      "Nøytrale på sidelinjen istedenfor bak mål",
-      "Begge lag må bruke dobbeltpasning",
-      "Tidsbegrensning på angrep"
-    ],
-    source: "hyballa",
-    sourceRef: "Hyballa/te Poel 2015 p.192 'Fig. 86: Give-and-go pass, rebound...'"
   },
 
   // === VOLLEY PASS ØVELSER ===

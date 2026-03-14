@@ -1,6 +1,8 @@
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
+import { sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
+import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { useState, useEffect, useMemo } from "react";
 
 type ClipboardCapableNavigator = Navigator & {
@@ -24,8 +26,10 @@ export const SessionTimeline = () => {
   );
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
+  const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
+  const toggleTheory = useSessionStore((state) => state.toggleTheory);
   const savedSessions = useSessionStore((state) => state.savedSessions);
   const saveCurrentSession = useSessionStore((state) => state.saveCurrentSession);
   const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
@@ -263,6 +267,42 @@ export const SessionTimeline = () => {
     return result;
   };
 
+  const handleCopyShareLink = async () => {
+    if (typeof window === "undefined") {
+      setShareStatus("error");
+      return;
+    }
+
+    const shareUrl = buildSharedSessionUrl({
+      origin: window.location.origin,
+      playerCount,
+      stationCount,
+      selectedExerciseIds,
+      selectedTheoryIds,
+      plannedBlocks: sessionBlocks,
+    });
+
+    const nav =
+      typeof navigator !== "undefined"
+        ? (navigator as ClipboardCapableNavigator)
+        : undefined;
+
+    try {
+      if (nav?.clipboard?.writeText) {
+        await nav.clipboard.writeText(shareUrl);
+        setShareStatus("copied");
+      } else {
+        setShareStatus("error");
+      }
+    } catch (error) {
+      console.error("Share link copy failed", error);
+      setShareStatus("error");
+    }
+
+    setShowShareOptions(false);
+    setTimeout(() => setShareStatus("idle"), 2500);
+  };
+
   const handleCopy = async (full: boolean) => {
     const summary = full ? buildFullSummary() : buildShortSummary();
     const sharePayload = `Treningsøkt (${totalMinutes} min)\n${summary}`;
@@ -373,7 +413,7 @@ export const SessionTimeline = () => {
             </button>
             {showShareOptions && (
               <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-zinc-200 rounded-lg shadow-lg py-1 min-w-[160px]">
-                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Kopier tekst</div>
+                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Kompakt i planlegger</div>
                 <button
                   onClick={() => handleCopy(false)}
                   className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
@@ -382,17 +422,18 @@ export const SessionTimeline = () => {
                     <path d="M5.5 3.5A1.5 1.5 0 0 1 7 2h2.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V9.5A1.5 1.5 0 0 1 12 11V8.621a3 3 0 0 0-.879-2.121L9 4.379A3 3 0 0 0 6.879 3.5H5.5Z" />
                     <path d="M4 5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 4 14h5a1.5 1.5 0 0 0 1.5-1.5V8.621a1.5 1.5 0 0 0-.44-1.06L7.94 5.439A1.5 1.5 0 0 0 6.878 5H4Z" />
                   </svg>
-                  Kort versjon
+                  Kopier kompakt tekst
                 </button>
+                <hr className="my-1 border-zinc-100" />
+                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Fullversjon</div>
                 <button
-                  onClick={() => handleCopy(true)}
+                  onClick={handleCopyShareLink}
                   className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
-                    <path d="M5.5 3.5A1.5 1.5 0 0 1 7 2h2.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V9.5A1.5 1.5 0 0 1 12 11V8.621a3 3 0 0 0-.879-2.121L9 4.379A3 3 0 0 0 6.879 3.5H5.5Z" />
-                    <path d="M4 5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 4 14h5a1.5 1.5 0 0 0 1.5-1.5V8.621a1.5 1.5 0 0 0-.44-1.06L7.94 5.439A1.5 1.5 0 0 0 6.878 5H4Z" />
+                    <path fillRule="evenodd" d="M7.25 3A2.25 2.25 0 0 0 5 5.25v1.5a.75.75 0 0 0 1.5 0v-1.5A.75.75 0 0 1 7.25 4.5h3.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 0 0 1.5h1.5A2.25 2.25 0 0 0 13 8.75v-3.5A2.25 2.25 0 0 0 10.75 3h-3.5ZM3 7.25A2.25 2.25 0 0 1 5.25 5h3.5A2.25 2.25 0 0 1 11 7.25v3.5A2.25 2.25 0 0 1 8.75 13h-3.5A2.25 2.25 0 0 1 3 10.75v-3.5Zm2.25-.75a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h3.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-3.5Z" clipRule="evenodd" />
                   </svg>
-                  Full versjon
+                  Kopier lenke til fullversjon
                 </button>
                 <hr className="my-1 border-zinc-100" />
                 <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Eksporter</div>
@@ -680,6 +721,54 @@ export const SessionTimeline = () => {
               </div>
             );
           })}
+
+          <div className="rounded-xl border border-sky-100 bg-sky-50/60 p-4">
+            <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+              <div>
+                <h3 className="text-sm font-semibold text-zinc-800">Teori nederst i fullversjonen</h3>
+                <p className="text-xs text-zinc-500">
+                  Huk av korte teoribiter du vil ha med som trenernotat og spillerbudskap.
+                </p>
+              </div>
+              <span className="text-xs text-sky-700">
+                {selectedTheoryIds.size} valgt
+              </span>
+            </div>
+
+            <div className="mt-3 grid gap-2 sm:grid-cols-2">
+              {sessionTheoryItems.map((item) => {
+                const checked = selectedTheoryIds.has(item.id);
+                return (
+                  <label
+                    key={item.id}
+                    className={`flex cursor-pointer items-start gap-3 rounded-xl border px-3 py-2 transition ${
+                      checked
+                        ? "border-sky-300 bg-white shadow-sm"
+                        : "border-sky-100 bg-white/70 hover:border-sky-200"
+                    }`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      onChange={() => toggleTheory(item.id)}
+                      className="mt-0.5 h-4 w-4 rounded border-sky-300 text-sky-600 focus:ring-sky-500"
+                    />
+                    <span className="min-w-0">
+                      <span className="block text-xs font-semibold uppercase tracking-wide text-sky-700">
+                        {item.category === "trenerfokus"
+                          ? "Trenerfokus"
+                          : item.category === "spillerbudskap"
+                            ? "Spillerbudskap"
+                            : "Læringsprinsipp"}
+                      </span>
+                      <span className="mt-0.5 block text-sm font-medium text-zinc-900">{item.title}</span>
+                      <span className="mt-1 block text-xs leading-5 text-zinc-600">{item.summary}</span>
+                    </span>
+                  </label>
+                );
+              })}
+            </div>
+          </div>
         </div>
       )}
     </section>

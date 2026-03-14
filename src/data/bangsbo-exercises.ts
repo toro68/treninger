@@ -8,24 +8,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-ind-1",
     exerciseNumber: 399,
-    name: "Passiv Pressing på Pasning",
+    name: "Dekking i sirkel",
     category: "station",
     duration: 10,
     playersMin: 6,
     playersMax: 12,
     theme: "forsvar",
     equipment: ["kjegler", "baller"],
-    description: "A1 spiller til A2 som mottar ballen. B starter pressing idet pasningen spilles. B beveger seg kontrollert mot A2 med fokus på timing og kroppsstilling. A2 spiller ballen tilbake når B er nær.",
+    description: "Fire spillere står utenfor en sirkel med ball, mens to spillere er inne. I fase 1 mottar den angripende spilleren inne i sirkelen pasning og spiller tilbake, mens forsvareren følger passivt. Deretter økes presset slik at angriperen må frigjøre seg, og i siste fase konkurrerer spillerne om å motta og spille videre presist for poeng.",
     coachingPoints: [
-      "Gå kontrollert mot motstanderen med ballen",
-      "Reduser hastigheten og senk tyngdepunktet de siste meterne",
-      "Hold blikket på ballen, ikke på kroppen",
-      "Plasser deg slik at motstanderen presses mot sidelinje eller bakover"
+      "Følg angriperen tett uten å miste balansen",
+      "Bryt inn når pasningen eller returpasningen blir løs",
+      "Som angriper: skap nok avstand til å kunne motta og spille presist tilbake",
+      "Øk vanskelighetsgraden trinnvis fra passiv til aktiv dekking"
     ],
     variations: [
-      "Øk tempo gradvis",
-      "Varier startavstand mellom B og A2",
-      "Legg til krav om at A2 må forsøke å snu"
+      "Behold bare halvparten av ballene hos spillerne utenfor sirkelen i siste fase",
+      "La flere par konkurrere i samme sone",
+      "Forby returpasning til samme spiller i fase 3"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -34,24 +34,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-ind-2",
     exerciseNumber: 402,
-    name: "Pressing med Retningsbestemmelse",
+    name: "8v7 med koordinert offsidefelle",
     category: "station",
     duration: 12,
-    playersMin: 4,
-    playersMax: 8,
+    playersMin: 15,
+    playersMax: 15,
     theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "A1 spiller til A2. B presser idet pasningen spilles og forsøker å tvinge A2 mot en bestemt side (høyre eller venstre). Fokus på å lukke pasningslinjer og styre motstanderen.",
+    equipment: ["kjegler"],
+    description: "8 mot 7 på halv bane delt i to soner med ett stort mål. Det svarte laget forsvarer målet med fem forsvarere, to midtbanespillere og keeper, mens det hvite laget angriper. Spillerne kan ikke bytte sone, og øvelsen trener koordinasjonen mellom forsvarerne når offsidefellen settes.",
     coachingPoints: [
-      "Tilnærm deg motstanderen i en kurvet løpsbane",
-      "Posisjonér deg slik at du stenger den ene pasningslinjen",
-      "Hold lav kroppsstilling for hurtige retningsendringer",
-      "Vær tålmodig - ikke stup inn"
+      "Spilleren som styrer fellen må finne riktig øyeblikk for å starte bevegelsen",
+      "Forsvarer 4 må vente til midtbanespilleren presser ballfører før linjen skyver opp",
+      "Hele bakre ledd må være koordinert for at offsidefellen skal fungere",
+      "Ved variantene må midtbanespillerne trekke hjem og dekke opp når rom åpner seg"
     ],
     variations: [
-      "Bestem på forhånd hvilken side motstanderen skal tvinges",
-      "Legg til en tredje angrepsspiller som mål",
-      "Gjør det til 1v1 med mål"
+      "Tillat spillere fra sone 2 å gå inn i sone 1, men ikke i 16-meteren",
+      "La innkast i sone 2 tas som frispark",
+      "La innkast i sone 1 tas som corner"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -60,24 +60,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-ind-3",
     exerciseNumber: 405,
-    name: "Individuell Takling",
+    name: "4v4 markering og balltyveri",
     category: "station",
     duration: 12,
-    playersMin: 4,
-    playersMax: 10,
+    playersMin: 8,
+    playersMax: 8,
     theme: "forsvar",
     equipment: ["kjegler", "baller"],
-    description: "1v1 i avgrenset felt. Angriperen starter med ball og forsøker å drible forbi forsvareren til motsatt linje. Forsvareren jobber med timing av takling.",
+    description: "I et felt på størrelse med straffefeltet har alle fire spillere på det ene laget hver sin ball, mens motstanderne markerer og prøver å vinne den. Når forsvarslaget stjeler en ball, skal spilleren drible den ut til sidelinjen og raskt tilbake i spill før han fortsetter å forsvare.",
     coachingPoints: [
-      "Vent på riktig øyeblikk - når motstanderen har dårlig kontroll",
-      "Gå inn med bestemthet når du takler",
-      "Hold lav stilling og bruk hele kroppen",
-      "Gjenvinningsfase: følg opp umiddelbart etter balltap"
+      "Marker tett nok til å kunne angripe første løse touch",
+      "Vinn ballen kontrollert og kom raskt ut til sidelinjen",
+      "Orienter deg før gjenvinning slik at du kan returnere raskt",
+      "Hold høy intensitet i overgangen mellom vinning og retur"
     ],
     variations: [
-      "Utvid feltet for mer løpsdueller",
-      "Legg til tidsbegrensning",
-      "Poengsystem: 1 poeng for vellykket takling, 2 for ballvinning"
+      "Bytt roller etter fastsatt tid",
+      "Tell antall ballvinninger per lag",
+      "Begrens tiden spilleren får på å returnere fra sidelinjen"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -88,24 +88,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-sikring-1",
     exerciseNumber: 475,
-    name: "Sikring i 2v1",
+    name: "2 forsvarere mot 2 angripere i tre soner",
     category: "station",
     duration: 12,
-    playersMin: 6,
-    playersMax: 12,
+    playersMin: 4,
+    playersMax: 4,
     theme: "forsvar",
     equipment: ["kjegler", "baller"],
-    description: "To forsvarere mot én angriper. B1 presser ballføreren mens B2 sikrer. Fokus på riktig avstand og vinkel mellom forsvarerne. Angriperen forsøker å komme seg forbi begge.",
+    description: "To forsvarere møter to angripere på en bane delt i tre soner. Den ene forsvareren kan bare arbeide i sone 1 og 2, den andre i sone 2 og 3. Angriperne forsøker å spille eller drible seg fra sone 1 til motsatt dødlinje, mens forsvarerne skal samarbeide om å styre, forsinke og vinne ballen.",
     coachingPoints: [
-      "B1: Press aktivt og tving til én side",
-      "B2: Hold sikringsposisjon - ikke for langt unna eller for nær",
-      "Kommuniser: 'Jeg sikrer deg'",
-      "Sikringsspilleren skal kunne ta over om B1 blir passert"
+      "Første forsvarer må være tålmodig og jobbe med sideveis zig-zag-bevegelser",
+      "Styr angriperne mot en side hvor medspiller kan hjelpe til",
+      "Andre forsvarer må lese når han skal gripe inn og når han skal vente",
+      "Kommunikasjonen mellom forsvarerne er avgjørende når spillet går gjennom sone 2"
     ],
     variations: [
-      "Utvid til 2v2 hvor andre angriper løper støtte",
-      "Legg til mål - forsvarerne må beskytte",
-      "Varier startposisjoner"
+      "Gjør banen større",
+      "Tillat at den første forsvareren også kan falle inn i sone 3 når ballen spilles dit",
+      "La angriperne starte på nytt fra front hvis forsvaret vinner ballen i sone 1 eller 2"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -114,24 +114,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-sikring-2",
     exerciseNumber: 409,
-    name: "Sikringskjede i 3v2",
+    name: "Soneforsvar med spillerbytte i fire kvadrater",
     category: "station",
     duration: 15,
-    playersMin: 10,
-    playersMax: 16,
+    playersMin: 9,
+    playersMax: 9,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester"],
-    description: "Tre forsvarere mot to angripere. Øvelse i å bygge sikringskjede hvor den som er nærmest ballen presser, neste sikrer, og tredje balanserer. Rotér ved pasning.",
+    description: "Et 16 x 16 meters felt er delt i fire kvadrater langs sidelinjen. Fire angripere står utenfor kvadratene, fire forsvarere starter ett i hvert kvadrat, og én spiller fungerer som oppspillspunkt inne på feltet. Når ballen spilles til en sone, må de nærmeste forsvarerne forlate sine felt, mens de andre flytter inn i de feltene som blir ledige.",
     coachingPoints: [
-      "Den nærmeste presser alltid",
-      "Sikringsspilleren dekker rommet bak pressende spiller",
-      "Tredje forsvarer leser spillet og balanserer",
-      "Hele kjeden må flytte seg som én enhet ved pasning"
+      "Forsvarerne må bytte felt raskt når ballen skifter sone",
+      "Nærmeste forsvarere går ut i press, de andre fyller ledige kvadrater",
+      "Oppspillspunktet må alltid vende spillet til et nytt kvadrat",
+      "Hele øvelsen avhenger av timing og kommunikasjon i spillerbyttene"
     ],
     variations: [
-      "3v3 for mer realistisk press",
-      "4v3 for økt forsvarstrykk",
-      "Legg til scoringssoner"
+      "Bytt roller hvert tredje minutt",
+      "Varier tempoet på spillvendingene",
+      "Roter hvilke spillere som er oppspillspunkt og forsvarere"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -140,24 +140,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-sikring-3",
     exerciseNumber: 413,
-    name: "Støtte ved Ballvinning",
+    name: "4v4 støtte og markering i soner",
     category: "station",
     duration: 12,
     playersMin: 8,
-    playersMax: 14,
+    playersMax: 8,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "småmål"],
-    description: "Når forsvarer vinner ballen, skal lagkameraten umiddelbart tilby støtte. Øvelse i overgang fra forsvar til angrep med fokus på hurtig støttespill.",
+    description: "4 mot 4 i straffefelt delt i fire soner med små mål på hver baklinje. Ballen kan bare spilles eller dribles til neste sone, og når en spiller dribler frem, må en lagkamerat umiddelbart fylle sonen som ble forlatt. Øvelsen trener hvordan en forsvarer forlater egen markering for å gi støtte til lagkameraten i rett øyeblikk.",
     coachingPoints: [
-      "Ved ballvinning: Nærmeste lagkamerat tilbyr seg umiddelbart",
-      "Støttespilleren plasserer seg i pasningsvinkel",
-      "Rask omstilling i hodet: fra forsvar til angrep",
-      "Kommunikasjon: 'Tid!' eller 'Snu!'"
+      "Det skal hele tiden være én spiller fra hvert lag i hver sone",
+      "Gi støtte uten å miste kontroll på spilleren du dekker",
+      "Forsvarere borte fra ballen må justere markeringen tett når spillet flyttes",
+      "Orienter kroppen mot eget mål når du sikrer"
     ],
     variations: [
-      "Poengsystem for raske overganger",
-      "Legg til mål å angripe etter ballvinning",
-      "Tidsbegrensning på overgangsfasen"
+      "Tillat pasninger over flere soner",
+      "La lagene score ved avslutning fra kort hold på småmål",
+      "Bytt hvilke spillere som starter i de ulike sonene"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -168,230 +168,58 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-sone-1",
     exerciseNumber: 249,
-    name: "4-manns Soneforsvarslinje",
+    name: "3v3 med mannsmarkering i to soner",
     category: "game",
     duration: 20,
-    playersMin: 12,
-    playersMax: 18,
+    playersMin: 6,
+    playersMax: 6,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester"],
-    description: "Fire forsvarere øver på å holde linjen og flytte seg som enhet. Tre angripere spiller ball på tvers mens forsvarerne justerer posisjoner. Fokus på kompakthet og timing.",
+    description: "3 mot 3 på et felt delt i to soner med kjeglemål bak hver sone. Hvert lag har én spiller i sone 1 og to spillere i sone 2. Spillerne må holde seg i startsonen sin og markere sin direkte motspiller tett i egen forsvarssone.",
     coachingPoints: [
-      "Hold avstanden til medspillere konstant (10-15m)",
-      "Hele linjen flytter seg mot ballen",
-      "Kommuniser: 'Stram inn!' eller 'Ut!'",
-      "Ved gjennomspill: Nærmeste går ut, resten sikrer"
+      "Det essensielle er avstand og posisjonering i mannsmarkeringen",
+      "Hold tett kontakt med direkte motspiller i egen sone",
+      "Kommuniser raskt når angriperne bytter posisjon mellom sonene",
+      "Forsvarerne må selv avgjøre hvem som skal markeres når varianten åpner for bytter"
     ],
     variations: [
-      "Legg til innlegg som forsvarerne skal klarere",
-      "Utvid til full forsvarsrekke med keeper",
-      "3 mot 4 spill med offside-linje"
+      "Tillat ett posisjonsbytte mellom angreps- og forsvarssonen per angrep",
+      "Begrens forsvarerne til to touch og maks to pasninger seg imellom i forsvarssonen",
+      "Roter hvilke spillere som starter i hver sone"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 10) (txt:363)"
   },
-  {
-    id: "bangsbo-sone-2",
-    exerciseNumber: 251,
-    name: "Soneforsvar i Firkant",
-    category: "game",
-    duration: 20,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Fire forsvarere i firkantformasjon forsvarer mot fire angripere. Fokus på å stenge sentralt rom og tvinge spillet ut på kantene.",
-    coachingPoints: [
-      "Stengt sentralt rom er prioritet nummer én",
-      "Press på kantspiller, sikring sentralt",
-      "Flytt firkanten som én enhet mot ball",
-      "Ved dybdeløp: Nærmeste følger, resten sikrer"
-    ],
-    variations: [
-      "5v4 for økt press på forsvarerne",
-      "Legg til mål med keeper",
-      "Scoringssoner i hjørnene (angripernes mål)"
-    ],
-    tags: ["bangsbo-peitersen-forsvar"],
-    source: "bangsbo",
-    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 2 (Figur 39) (txt:1405)"
-  },
-  {
-    id: "bangsbo-mann-1",
-    exerciseNumber: 9,
-    name: "Manndekning med Overlevering",
-    category: "game",
-    duration: 18,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Forsvarere følger sin mann, men overleverer ved kryssløp i egne soner. Øvelse i å kommunisere 'Jeg tar!' og 'Din!'",
-    coachingPoints: [
-      "Følg din mann tett, men ikke blindt",
-      "Ved kryssløp: Kommuniser tidlig",
-      "Overlevering skjer i sonen, ikke utenfor",
-      "Ha alltid øyekontakt med både mann og ball"
-    ],
-    variations: [
-      "Sett poengsystem for vellykkede overleveringer",
-      "Utvid til 4v4 med komplekse løp",
-      "Legg til innlegg som avslutning"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-kombinert-1",
-    exerciseNumber: 255,
-    name: "Kombinert Sone- og Manndekning",
-    category: "game",
-    duration: 20,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Soneforsvar i ytre soner, manndekning i farlige soner. Forsvarerne øver på å bytte mellom systemer avhengig av ballens plassering.",
-    coachingPoints: [
-      "I ytre soner: Hold posisjon, les spillet",
-      "I sentrale soner: Tett mann, ikke slipp",
-      "Bytte av system skjer ved definerte linjer",
-      "Kommunikasjon er nøkkelen til sømløse overganger"
-    ],
-    variations: [
-      "Varier sonene for overgang",
-      "Legg til kontringsmål for forsvarerne",
-      "Øk antall angripere for press"
-    ],
-    source: "bangsbo"
-  },
 
   // === KAPITTEL 4: PRESSING ===
-  {
-    id: "bangsbo-pressing-1",
-    exerciseNumber: 258,
-    name: "Høyt Press i 3v3",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Tre forsvarere presser høyt mot tre angripere som bygger opp fra keeper. Fokus på å stenge pasningslinjer og tvinge feil.",
-    coachingPoints: [
-      "Press som en enhet - ikke alene",
-      "Steng pasningslinjer, ikke bare løp mot ballen",
-      "Trigger: Dårlig touch eller pasning bakover",
-      "Hvis presset brytes, fall tilbake kontrollert"
-    ],
-    variations: [
-      "4v3 pressing for mer intensitet",
-      "Legg til tidsbegrensning på oppbyggingsspill",
-      "Poengsystem for ballvinning i pressingsone"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-pressing-2",
-    exerciseNumber: 260,
-    name: "Mellomromspressing",
-    category: "game",
-    duration: 18,
-    playersMin: 12,
-    playersMax: 18,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Forsvarslag lar angriperne spille seg opp til midtbanen, deretter aktiverer de pressing. Øvelse i kontrollert tilbaketrekning og koordinert pressing.",
-    coachingPoints: [
-      "Hold kompakt formasjon under tilbaketrekningen",
-      "Trigger for pressing: Ball spilles inn i vår sone",
-      "Første forsvarer setter retning, resten stenger",
-      "Mål: Tvinge ballen tilbake eller ut på kant"
-    ],
-    variations: [
-      "Varier pressingstriggeren",
-      "Legg til scoringsoner for begge lag",
-      "Øk presset med undertallige angripere"
-    ],
-    source: "bangsbo"
-  },
-  {
-    id: "bangsbo-pressing-3",
-    exerciseNumber: 262,
-    name: "Lavt Forsvar med Kontringsutløsning",
-    category: "game",
-    duration: 20,
-    playersMin: 14,
-    playersMax: 22,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Forsvarslaget ligger lavt og kompakt, forsvarer målet. Ved ballvinning skal de kontringsspillere være klare. Fokus på tålmodighet og eksplosiv overgang.",
-    coachingPoints: [
-      "Lavt forsvar: Hold linjen, ikke fall for finter",
-      "Blokkér skudd og innlegg",
-      "Ved ballvinning: Første touch fremover",
-      "Kontringsspillere starter løpet i det ballen vinnes"
-    ],
-    variations: [
-      "Tidsbegrensning for angrep før poeng til forsvar",
-      "Bonus for kontringsscoringer",
-      "Varier antall kontringsspillere"
-    ],
-    tags: ["bangsbo-peitersen-forsvar"],
-    source: "bangsbo",
-    sourceRef: "Bangsbo/Peitersen Forsvar – Øvelse 1 (Figur 79) (txt:3131)"
-  },
 
   // === KAPITTEL 4.2: OFFSIDEFELLEN ===
   {
     id: "bangsbo-offside-1",
     exerciseNumber: 430,
-    name: "Koordinert Offside-linje",
+    name: "8v7 med koordinert offsidefelle",
     category: "station",
     duration: 15,
-    playersMin: 8,
-    playersMax: 14,
+    playersMin: 15,
+    playersMax: 15,
     theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester"],
-    description: "Fire forsvarere øver på å flytte linjen opp i riktig øyeblikk for å sette angripere offside. Fokus på timing og kommunikasjon.",
+    equipment: ["kjegler", "baller", "vester", "mål"],
+    description: "8 mot 7 på halv bane delt i to soner med ett stort mål. Det svarte laget forsvarer målet med fem forsvarere, to midtbanespillere og keeper, mens det hvite laget angriper. Spillerne kan ikke bytte sone, og øvelsen trener koordinasjonen mellom forsvarerne når offsidefellen settes.",
     coachingPoints: [
-      "Linjens leder kommanderer 'Opp!'",
-      "Alle beveger seg samtidig - én som er sen ødelegger fellen",
-      "Timing: Akkurat idet pasningen slås",
-      "Hvis usikker, stå - ikke gamble"
+      "Spilleren som styrer fellen må finne riktig øyeblikk for å starte bevegelsen",
+      "Forsvarer 4 må vente til midtbanespilleren presser ballfører før linjen skyver opp",
+      "Hele bakre ledd må være koordinert for at offsidefellen skal fungere",
+      "Ved variantene må midtbanespillerne trekke hjem og dekke opp når rom åpner seg"
     ],
     variations: [
-      "Legg til varierende pasninger (kort/lang)",
-      "Øv med keeper som siste sikkerhet",
-      "Kombiner med sekkeløp ved gjennomspill"
+      "Tillat spillere fra sone 2 å gå inn i sone 1, men ikke i 16-meteren",
+      "La innkast i sone 2 tas som frispark",
+      "La innkast i sone 1 tas som corner"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 94) (txt:4181)"
-  },
-  {
-    id: "bangsbo-offside-2",
-    exerciseNumber: 433,
-    name: "Offsidelinje med Dybdeforsvarer",
-    category: "station",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 16,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Tre forsvarere holder linjen mens én forsvarer er dypere som sikkerhet. Øvelse i å kombinere offsidefelle med ekstra sikring.",
-    coachingPoints: [
-      "Dybdeforsvareren dekker rom bak linjen",
-      "Linjen stoler på at dybdeforsvareren er der",
-      "Ved gjennomspill: Dybdeforsvareren tar over",
-      "Kommunikasjon mellom linje og dybdeforsvarer"
-    ],
-    variations: [
-      "Rotér dybdeforsvarerrollen",
-      "Legg til hurtige angripere",
-      "Kombiner med keeperutrykking"
-    ],
-    source: "bangsbo"
   },
 
   // === KAPITTEL 5: FORSVARSSPILL I ULIKE SONER ===
@@ -472,24 +300,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-spill-2",
     exerciseNumber: 274,
-    name: "8v8 med Pressingssoner",
+    name: "8v8 pressfordeling mellom sentral og ytre sone",
     category: "game",
     duration: 30,
-    playersMin: 18,
-    playersMax: 22,
+    playersMin: 16,
+    playersMax: 16,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Banen deles i tre soner. Forsvarslaget bestemmer hvor de vil presse (høyt, midt eller lavt). Angrepslaget må spille seg gjennom sonene.",
+    description: "8 mot 8 på en fjerdedel av banen med sentral sone og to ytre soner. Fire hvite spillere jobber i par i midtsonen, mens to hvite og fire svarte befinner seg i hver ytter­sone. Når ballen spilles mellom yttersonene, må de hvite raskt fordele pressoppgavene og løpe inn med riktig antall spillere.",
     coachingPoints: [
-      "Hele laget enige om pressingshøyde",
-      "Trigger for pressing må være tydelig",
-      "Hvis presset brytes, reorganiser raskt",
-      "Overgangsfaser: Fra forsvar til angrep og motsatt"
+      "De hvite må raskt fordele rollene som 1., 2. og 3. forsvarer",
+      "Spillere som allerede er i ytresonen må samhandle med de som kommer inn fra midten",
+      "Kontinuerlige bytter av pressoppgaver krever timing og kommunikasjon",
+      "Øvelsen kan brukes til å trene ekstra tydelig pressing langs sidelinjen"
     ],
     variations: [
-      "Coach roper hvilken sone som skal presses",
-      "Rotér pressingsstrategi hvert 5. minutt",
-      "Bonus for ballvinning i høy sone"
+      "Bare mottakende spiller får bruke to touch",
+      "Fjern begrensning på antall berøringer",
+      "Gjør banen større eller mindre, eller slipp inn flere hvite fra midtsonen"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -620,24 +448,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-spesiell-3",
     exerciseNumber: 450,
-    name: "Defensiv Midtbanes Skjerming",
+    name: "8v6 med kombinasjon av markering og soneforsvar",
     category: "station",
     duration: 15,
-    playersMin: 8,
+    playersMin: 14,
     playersMax: 14,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester"],
-    description: "Defensiv midtbane øver på å skjerme rom foran forsvarslinjen. Fokus på posisjonering mellom linjer og ballvinning.",
+    description: "8 mot 6 på en halv bane med ett stort mål. Det hvite laget består av keeper, firerbackslinje og tre midtbanespillere, mens det svarte laget har to angripere og fire midtbanespillere. To hvite forsvarere markerer de to svarte angriperne, en hvit midtbanespiller sikrer en sentral motspiller, og resten av laget praktiserer soneforsvar.",
     coachingPoints: [
-      "Plassering: Steng pasningslinjer inn i farlige rom",
-      "Les spillet: Vær der ballen kommer, ikke der den er",
-      "Ballvinning: Timing og kraft",
-      "Etter ballvinning: Spill enkelt og sikkert"
+      "Bakre ledd må unngå å åpne frie rom når angriperne går diagonalt",
+      "Spillere i soneforsvar må trekke innover og fylle rom som blir ledige",
+      "Kantspiller og spilleren foran må samarbeide om variabelt soneforsvar på siden",
+      "Midtbaneleddet må være klare til å forlate markeringen hvis den sentrale motspilleren slipper fri"
     ],
     variations: [
-      "To defensive midtbanere i samarbeid",
-      "Øk antall angripere for mer press",
-      "Legg til scoringsoner"
+      "Begrens det svarte laget til maksimalt tre touch",
+      "Legg til libero for det hvite laget og en ekstra midtbanespiller for det svarte",
+      "Gi begge lag en ekstra midtbanespiller og utvid spilleområdet"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -798,24 +626,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-dekning-2",
     exerciseNumber: 32,
-    name: "Dekningsposisjon ved Vinkel",
+    name: "Lede ballfører mot hjørnefelle",
     category: "station",
     duration: 12,
-    playersMin: 4,
-    playersMax: 8,
+    playersMin: 6,
+    playersMax: 6,
     theme: "forsvar",
     equipment: ["kjegler", "baller"],
-    description: "Øvelse der forsvareren lærer å posisjonere seg basert på vinkel mellom ball, angriper og mål. Når ballen er sentralt = stå bak. Når ballen er på siden = stå ved siden.",
+    description: "Fire angripere plasserer seg i en trekant, med to spillere ved hjørnet der ballen er. To forsvarere samarbeider slik at den ene følger etter ballføreren uten å gå direkte i press, før han leder mottakeren mot et hjørne der den andre forsvareren allerede står. Øvelsen trener hvordan forsvareren beveger seg riktig for å få angriperen til å la seg styre inn i fellen.",
     coachingPoints: [
-      "Ball sentralt = posisjonér deg mellom angriper og mål",
-      "Ball på siden = posisjonér deg på siden av angriper mot ballen",
-      "Hold begge (ball og angriper) i synsfeltet",
-      "Vær klar til å avskjære pasningen"
+      "Følg etter uten å gå for tidlig i press",
+      "Led mottakeren mot hjørnet der medforsvareren allerede står",
+      "Forsvareren må bevege seg så riktig at angriperen faktisk velger den ledede retningen",
+      "Bytt roller ofte så begge forsvarerne trener timing og vinkel"
     ],
     variations: [
-      "Varier startposisjoner",
-      "Legg til scoring på småmål",
-      "Øv på ulike soner av banen"
+      "Roter spillerne hvert tredje minutt",
+      "Varier hvilken side fellen settes på",
+      "Øk tempoet i pasningsspillet mellom angriperne"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -874,24 +702,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-stotte-5",
     exerciseNumber: 35,
-    name: "Dobbel Støtte med Kommunikasjon",
+    name: "Spillerbytte mellom to forsvarere",
     category: "station",
     duration: 15,
     playersMin: 8,
-    playersMax: 14,
+    playersMax: 8,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Tre soner med to forsvarere (2,3) og to angripere (10,11). Støttespillere (5,6) i de ytre sonene. Fokus på kommunikasjon når angriper bytter sone.",
+    description: "På omtrent 1/4 bane med to soner og ett stort mål spiller to indreløpere og to angripere mot én indreløper, to forsvarere og keeper. Spillet trener særlig samordnet forsvarsarbeid mellom de to forsvarerne, som må markere angriperne tett og bytte motspiller raskt når angriperne skifter posisjon.",
     coachingPoints: [
-      "Kommunisér: 'Din!', 'Jeg tar!', 'Bytt!'",
-      "Støttespilleren følger med på hvor de andre forsvarerne er",
-      "Ved bytte av angriper: Overlever uten å miste øyekontakt",
-      "Hold kompakt - ikke la angriperne få rom mellom"
+      "Forsvarerne må markere 10 og 11 tett og koordinert",
+      "Ved posisjonsbytte mellom angriperne må forsvarerne bytte motspiller raskt",
+      "Spillere i offsideposisjon skal kunne slippes hvis situasjonen tilsier det",
+      "Kontinuerlig kommunikasjon mellom de to forsvarerne er avgjørende"
     ],
     variations: [
-      "Begrens antall touch for angriperne",
-      "Legg til tidsbegrensning",
-      "Varier sonestørrelser"
+      "Utvid sone 1",
+      "La spillerne i sone 1 også kunne oppholde seg i sone 2",
+      "Legg til en ekstra indreløper for begge lag"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -900,24 +728,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-stotte-6",
     exerciseNumber: 466,
-    name: "Forsinke ved Dribbling",
+    name: "5v5 med støttespillere i yttersoner",
     category: "station",
     duration: 12,
-    playersMin: 6,
-    playersMax: 12,
+    playersMin: 10,
+    playersMax: 10,
     theme: "forsvar",
-    equipment: ["kjegler", "baller", "mål"],
-    description: "Angriper (10) dribler mot mål. Forsvarer (3) forsøker å forsinke til støttespiller (4) rekker tilbake. Fokus på å holde avstand og styre retning.",
+    equipment: ["kjegler", "baller", "småmål"],
+    description: "5 mot 5 på omtrent 1/8 bane, delt i fire soner og en sentral sone. Én spiller fra hvert lag fungerer som støttespiller og starter i ytterste forsvarssone, mens øvrige spillere er fordelt i sone 2 og 3. Når laget mister ballen, må støttespilleren raskt tilbake for å sikre, mens medspillerne bremser spillet til støtten er på plass.",
     coachingPoints: [
-      "Hold avstand - ikke la deg passere",
-      "Styr angriperen mot sidelinjen",
-      "Kjøp tid for medspillere",
-      "Angrip kun når angriperen har dårlig kontroll"
+      "Støttespilleren må orientere seg raskt bakover og komme i sikringsposisjon",
+      "Medspillerne må forsinke spillet til støtten rekker tilbake",
+      "Hold rolle- og sonebalansen når ballen flyttes mellom sone 2 og 3",
+      "Kommunikasjon mellom støttespiller og nærmeste forsvarer må være tidlig og tydelig"
     ],
     variations: [
-      "Varier startposisjon for støttespilleren",
-      "Legg til tidsbegrensning",
-      "Poengsystem for sekunder forsvareren holder"
+      "La støttespillerne bevege seg fritt, men krev retur til egen forsvarssone etter balltap",
+      "Tillat løp gjennom sentral sone, men ikke ballberøring der",
+      "Bytt hvilke spillere som har støtterollen"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -950,32 +778,6 @@ export const bangsboExercises: ExerciseData[] = [
     source: "bangsbo"
   },
   {
-    id: "bangsbo-retning-4",
-    exerciseNumber: 468,
-    name: "Parpress med Retningsbestemmelse",
-    category: "station",
-    duration: 15,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "forsvar",
-    equipment: ["kjegler", "baller"],
-    description: "To forsvarere presser sammen mot én ballfører. Fokus på koordinasjon for å styre angriperen mot sidelinje eller medforsvarer.",
-    coachingPoints: [
-      "Kommunisér hvem som presser og hvem som sikrer",
-      "Pressende forsvarer: Steng den ene siden",
-      "Sikrende forsvarer: Dekk pasningslinjen",
-      "Styr mot hverandre eller mot sidelinje"
-    ],
-    variations: [
-      "Legg til angripere som kan motta pasning",
-      "Varier feltets størrelse",
-      "Poengsystem for vellykkede ballvinninger"
-    ],
-    tags: ["bangsbo-peitersen-forsvar"],
-    source: "bangsbo",
-    sourceRef: "Bangsbo/Peitersen Forsvar – Illustrasjon av spilløvelse 1 (Figur 94) (txt:4181)"
-  },
-  {
     id: "bangsbo-retning-5",
     exerciseNumber: 39,
     name: "Retningsbestemmelse i 4v4",
@@ -1004,24 +806,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-stil-1",
     exerciseNumber: 315,
-    name: "Lavt Forsvar med Kontring",
+    name: "3v3 med støttespillere i yttersoner",
     category: "game",
     duration: 20,
-    playersMin: 14,
-    playersMax: 22,
+    playersMin: 6,
+    playersMax: 6,
     theme: "forsvar",
-    equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Laget ligger lavt og kompakt, lar motstanderen ha ballen. Ved ballvinning: Rask kontring gjennom forhåndsbestemte soner.",
+    equipment: ["kjegler", "baller", "vester"],
+    description: "3 mot 3 på cirka 1/8 bane delt i tre soner, med sju kjeglemål på hver side i yttersonene. Én spiller fra hvert lag er støttespiller og holder til i henholdsvis sone 1 og 3. Øvelsen trener hvordan støttespilleren plasserer seg i forhold til ballfører og medspillere, og hvordan resten av laget hjelper og forsinker til støtte er etablert.",
     coachingPoints: [
-      "Hold kompakt - aldri mer enn 10-15m mellom linjene",
-      "Vent på rett øyeblikk for å vinne ballen",
-      "Ved ballvinning: Første touch fremover",
-      "Kontringsspillere starter løpet før ballvinning"
+      "Støttespilleren må ligge riktig i forhold til både ballfører og medspillere",
+      "Spillerne utenfor ballen må hjelpe uten å slippe markeringen helt",
+      "Vinn ballen når motstanderen har minst mulig handlingsrom",
+      "Ved balltap må laget forsinke til støttespilleren er tilbake i riktig posisjon"
     ],
     variations: [
-      "Varier hvor langt laget ligger",
-      "Legg til tidsbegrensning for kontringen",
-      "Poengsystem for rask scoring etter ballvinning"
+      "La støttespillerne også kunne oppholde seg i midtsonen, men krev retur til egen forsvarssone ved balltap",
+      "La lagene score på småmål i stedet for kjeglemål",
+      "Roter hvem som har støtterollen"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -1030,24 +832,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-stil-2",
     exerciseNumber: 41,
-    name: "Høyt Forsvar med Pressing",
+    name: "9v9 med ulik banehalvdel og rask reorganisering",
     category: "game",
     duration: 20,
-    playersMin: 14,
-    playersMax: 22,
+    playersMin: 18,
+    playersMax: 18,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Laget presser høyt og forsøker å vinne ballen i motstanderens halvdel. Ved gjennombrudd: Sprint tilbake og reorganiser.",
+    description: "9 mot 9 med keepere på omtrent 2/3 bane, der de to banehalvdelene har ulik størrelse. Begge lag spiller i to firerlinjer, med offside og begrensning på maksimalt to berøringer på egen halvdel før ballen må over midtlinjen. Øvelsen trener hvor raskt laget reorganiserer seg defensivt når spillet stadig tvinges inn på egen banehalvdel.",
     coachingPoints: [
-      "Alle må jobbe - én som slapper av ødelegger presset",
-      "Press trigger: Dårlig førstekontakt eller baklengs pasning",
-      "Ved gjennombrudd: Sprint sentralt og steng farlige rom",
-      "Kommunikasjon: 'Press!', 'Fall!', 'Hold!'"
+      "Bakre ledd må reorganisere seg raskt når ballen kommer inn på egen halvdel",
+      "Fremre ledd må styre motstanderens oppbygging slik at mange spillere er samlet i hovedområdet",
+      "Laget på stor banehalvdel må jobbe hardere for å danne en kompakt enhet",
+      "Forsvarerne må hele tiden ha kontroll på spillere som blir stående igjen høyt"
     ],
     variations: [
-      "Varier pressingshøyde",
-      "Legg til kontringssoner",
-      "Byttesystem ved baklengspress"
+      "La to spillere fra hvert lag alltid oppholde seg på motstanderens banehalvdel",
+      "Krev at laget som forsvarer største banehalvdel spiller ballen over midtlinjen etter maks to pasninger",
+      "La keeper spille direkte til motstanderens halvdel"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -1058,24 +860,24 @@ export const bangsboExercises: ExerciseData[] = [
   {
     id: "bangsbo-taktisk-1",
     exerciseNumber: 42,
-    name: "Overgangsspill Forsvar-Angrep",
+    name: "8v8 pressing og linjesamarbeid",
     category: "game",
     duration: 20,
-    playersMin: 14,
-    playersMax: 22,
-    theme: "overgang",
+    playersMin: 16,
+    playersMax: 16,
+    theme: "forsvar",
     equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Ved ballvinning: Første pasning må gå til forhåndsbestemt spiller. Fokus på rask omstilling fra forsvar til angrep.",
+    description: "8 mot 8 på en halv bane med tre små mål på hver mållinje. Lagene starter i 4-4-formasjon med soneforsvar og spiller uten offside. Øvelsen trener samspillet mellom første og andre forsvarslinje under pressing, særlig hvordan laget kanaliserer spillet mot kant.",
     coachingPoints: [
-      "Ved ballvinning: Løft blikket umiddelbart",
-      "Forhåndsbestemt mottaker gjør seg spillbar",
-      "Resten av laget starter løp fremover",
-      "Ikke mist ballen i overgangen"
+      "Bevegelsene må tilpasses posisjonene til første og andre forsvarer",
+      "Press mot sidelinjene for å gjøre oppgavene tydeligere",
+      "Sentrale områder krever bedre oppdeling av ansvar mellom leddene",
+      "Lagene må hele tiden tilpasse seg skiftende pressretning og målvalg"
     ],
     variations: [
-      "Varier hvem som er forhåndsbestemt mottaker",
-      "Legg til tidsbegrensning på kontringen",
-      "Poengsystem for raske overganger"
+      "Fjern kravet om minst to berøringer per spiller",
+      "Spesifiser hvilket av de tre små målene som kan angripes",
+      "Veksle mellom å kun angripe sidemål og kun angripe midtmål"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",
@@ -1087,21 +889,21 @@ export const bangsboExercises: ExerciseData[] = [
     name: "Reorganisering etter Ballvinning hos Motstander",
     category: "game",
     duration: 20,
-    playersMin: 14,
-    playersMax: 22,
+    playersMin: 12,
+    playersMax: 12,
     theme: "forsvar",
     equipment: ["kjegler", "baller", "vester", "mål"],
-    description: "Fokus på hva som skjer når vi mister ballen. Spillere 5 og 6 må bytte sone umiddelbart etter balltap.",
+    description: "6 mot 6 på omtrent 1/4 bane delt i fire soner med tre små kjeglemål på hver baklinje. To spillere fra hvert lag fungerer som støttespillere i sone 1 eller 4, og etter balltap må de umiddelbart bytte sone. Øvelsen trener forsvarsgjenoppstilling og hvordan laget forsinker spillet til støtte er på plass.",
     coachingPoints: [
-      "Umiddelbart etter balltap: Sprint mot egen forsvarssone",
-      "Nærmeste spiller presser ballføreren",
-      "Resten: Fall tilbake og reorganiser",
-      "Kommunisér: 'Fall tilbake!', 'Press!'"
+      "Etter balltap må støttespillerne trekke seg raskt tilbake til ny sikringsposisjon",
+      "Spillet på motstanderens halvdel skal først og fremst forsinkes",
+      "Unngå unødige taklinger som ødelegger avstanden til nærmeste motspiller",
+      "Vurder hele tiden om du skal gå direkte i press eller falle av og gi støtte"
     ],
     variations: [
-      "Varier hvem som må bytte sone",
-      "Legg til tidsbegrensning på reorganisering",
-      "Poengsystem for raske overganger"
+      "Tillat pasning direkte fra egen halvdel til angrepssonen",
+      "La støttespillerne kunne stjele ballen mens de bytter sone",
+      "La støttespillerne bevege seg fritt over hele banen"
     ],
     tags: ["bangsbo-peitersen-forsvar"],
     source: "bangsbo",

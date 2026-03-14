@@ -39,7 +39,7 @@ export const matkovichExercises: ExerciseData[] = [
       "2v2 i midten (mindre)"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.120 'Drill 57: 4v4 Square Possession With Bumpers'"
+    sourceRef: "Matkovich 2008 '57 4v4 Square Possession With Bumpers'"
   },
   {
     id: "smallsided-92",
@@ -65,40 +65,14 @@ export const matkovichExercises: ExerciseData[] = [
       "1-touch ved avskjæring"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.122 'Drill 58: Four-Zone Game'"
-  },
-  {
-    id: "smallsided-93",
-    exerciseNumber: 93,
-    name: "Trelagsspill (Keepaway)",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 9,
-    playersMax: 15,
-    theme: "possession",
-    equipment: ["Kjegler", "3 farger vester", "Baller"],
-    description: "Tre lag à 3-5. To lag holder ball mot ett. Ved tap bytter roller. 5 pasninger = poeng.",
-    coachingPoints: [
-      "Finn rom i stort overtall",
-      "Kvalitet selv uten press",
-      "Rask omstilling ved tap",
-      "Kommunikasjon: Hvem presser?"
-    ],
-    variations: [
-      "Lag som mister løper rundt",
-      "1-touch for angriperne",
-      "Legg til mål"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.130 'Drill 61: Three-Team Keep-Away Game'"
+    sourceRef: "Matkovich 2008 '58 Four-Zone Game'"
   },
   {
     id: "smallsided-94",
     exerciseNumber: 94,
     name: "Vinduer (Windows)",
     tags: ["matkovich-elite-drills-2008"],
-    category: "game",
+    category: "warmup",
     duration: 12,
     playersMin: 16,
     playersMax: 16,
@@ -117,7 +91,7 @@ export const matkovichExercises: ExerciseData[] = [
       "Heading-varianter"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.82 'Drill 41: Windows'"
+    sourceRef: "Matkovich 2008 '41 Windows'"
   },
   {
     id: "smallsided-95",
@@ -143,319 +117,59 @@ export const matkovichExercises: ExerciseData[] = [
       "Lang, slått ball tilbake i stedet for dribling"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.84 'Drill 42: Angle Passing and Receiving'"
-  },
-  {
-    id: "smallsided-96",
-    exerciseNumber: 96,
-    name: "5v3 Possession med mål",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "5v3 inne med 2 mål. 5 holder ball, ved tap blir det 5v3 andre veien. Scoring = 3 poeng.",
-    coachingPoints: [
-      "Utnytt overtall - finn den frie",
-      "Kvalitet selv uten press",
-      "Når slår vi gjennom?",
-      "Forsvar: Kompakt, press sammen"
-    ],
-    variations: [
-      "4v2",
-      "6v4",
-      "Legg til keepere"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.126 'Drill 60: Keep-Away Drill'"
-  },
-  {
-    id: "smallsided-97",
-    exerciseNumber: 97,
-    name: "Langball-spill",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "2 baller"],
-    description: "Fire 15x15m ruter. 5v1 i 2 diagonale ruter. Etter 4 pasninger = lang ball til tom rute, alle følger.",
-    coachingPoints: [
-      "Korte pasninger i rute, lang ut",
-      "Les hvilken rute som er åpen",
-      "Kvalitet på lang pasning",
-      "Forsvarere: Steng pasningslinjer"
-    ],
-    variations: [
-      "3 pasninger før bytte",
-      "Legg til forsvarer",
-      "Mindre ruter"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.128 'Drill 59: Long Ball Drill'"
-  },
-  {
-    id: "smallsided-98",
-    exerciseNumber: 98,
-    name: "4v4 med endesoner",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "gjennombrudd",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "4v4 på 30x40m. Score ved å motta i motstanderens endesone (5m dyp). Må ha kontroll.",
-    coachingPoints: [
-      "Timing på dybdeløp",
-      "Kvalitet på gjennomspill",
-      "Mottaker: Åpen kropp",
-      "Forsvar: Dekk rommet"
-    ],
-    variations: [
-      "5v5",
-      "Må snu og spille tilbake",
-      "Legg til målspiller i sonen"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.118 'Drill 56: End Zone Game'"
-  },
-  {
-    id: "smallsided-99",
-    exerciseNumber: 99,
-    name: "Pressing-trigger",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "pressing",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "5v5+keepere. Spesifikke triggere for press (tilbakespill, dårlig touch, kropp vendt). Poeng for pressvinn.",
-    coachingPoints: [
-      "Les triggeren - når presser vi?",
-      "Samkjørt pressing",
-      "Sikring bak presset",
-      "Vinne ball = angrip direkte!"
-    ],
-    variations: [
-      "Kun tilbakespill som trigger",
-      "Ekstrapoeng for rask scoring",
-      "Legg til soner"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.132 'Pressing Game'"
-  },
-  {
-    id: "smallsided-100",
-    exerciseNumber: 100,
-    name: "Overgangsspill 5v5",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "overgang",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "5v5+keepere. Ved tap = 6 sek til å score. Keeper starter alltid motangrep umiddelbart.",
-    coachingPoints: [
-      "Rask mental omstilling",
-      "Dybdeløp med én gang",
-      "Kvalitet under tempo",
-      "Forsvar: Fall tilbake raskt!"
-    ],
-    variations: [
-      "8 sek tidsfrist",
-      "4 sek = 3 poeng",
-      "Keeper kaster langt"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.134 'Transition Game'"
-  },
-  {
-    id: "smallsided-101",
-    exerciseNumber: 101,
-    name: "6v4 Angrep mot forsvar",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "gjennombrudd",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "6 angripere mot 4 forsvarere + keeper. Angrep har 20 sek. Ved vinning kontrer forsvar til linje.",
-    coachingPoints: [
-      "Utnytt 6v4 - tålmodighet",
-      "Bytt angrepspunkt",
-      "Timing på avslutning",
-      "Forsvar: Kompakt, forsink"
-    ],
-    variations: [
-      "5v3",
-      "7v5",
-      "Legg til mottaksmål for forsvar"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.136 'Attack vs Defense'"
+    sourceRef: "Matkovich 2008 '42 Angle Passing and Receiving'"
   },
   {
     id: "smallsided-102",
     exerciseNumber: 102,
-    name: "Kantangrep med innlegg",
+    name: "4v4 med vinger",
     tags: ["matkovich-elite-drills-2008"],
     category: "game",
     duration: 12,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "gjennombrudd",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "Kantspillere faste, 4v4 i midten. Mål kun fra innlegg. Rotér kantspillere.",
-    coachingPoints: [
-      "Timing på innløp i boks",
-      "Kvalitet på innlegg",
-      "Nærste/fjerneste stolpe",
-      "Bakrom-bevegelser"
-    ],
-    variations: [
-      "Kun heading",
-      "Cutback = ekstra poeng",
-      "Kantspiller kan skyte"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.142-146 'Crossing and Finishing'"
-  },
-  {
-    id: "smallsided-103",
-    exerciseNumber: 103,
-    name: "Kombinasjonsspill til avslutning",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "4v4+keepere på 30x40m. Mål kun etter minst 3 pasninger i motstanderens halvdel.",
-    coachingPoints: [
-      "Kombinasjonsspill før avslutning",
-      "Tålmodighet i siste tredel",
-      "Kvalitet på avslutning",
-      "Støttespill rundt ballfører"
-    ],
-    variations: [
-      "2 pasninger",
-      "Veggspill før = ekstra poeng",
-      "5v5"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.148 'Drill 67-68: Finishing Games'"
-  },
-  {
-    id: "smallsided-104",
-    exerciseNumber: 104,
-    name: "Direktespill-mål",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "5v5+keepere. Direkteskudd (1-touch) = 2 poeng, vanlig mål = 1 poeng.",
-    coachingPoints: [
-      "Tenk skudd før du får ball",
-      "Posisjonering for direkteavslutning",
-      "Kvalitet på innspill",
-      "Keeper: Posisjonering"
-    ],
-    variations: [
-      "Kun direktemål teller",
-      "Heading = 3 poeng",
-      "Volley = 3 poeng"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.150 'One-Touch Finishing'"
-  },
-  {
-    id: "smallsided-105",
-    exerciseNumber: 105,
-    name: "Bygge opp og avslutte",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 15,
     playersMin: 12,
-    playersMax: 14,
-    theme: "oppbygging",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "6v6+keepere. Keeper starter alltid. Må bygge via markerte soner. Press øker gradvis.",
-    coachingPoints: [
-      "Tålmodighet bakfra",
-      "Bevegelse for keeper",
-      "Når slår vi gjennom?",
-      "Les presset"
-    ],
-    variations: [
-      "Forsvarere starter høyt",
-      "Maks berøringer per sone",
-      "Legg til nøytral 6er"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.152 'Build-Up Play'"
-  },
-  {
-    id: "smallsided-106",
-    exerciseNumber: 106,
-    name: "Rotasjonsspill",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 12,
-    playersMin: 9,
     playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "3 grupper à 3-4 på bane. Én gruppe holder, én presser, én hviler. Rotér hvert minutt.",
+    theme: "innlegg",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
+    description: "4v4 på 50x40 meter med en fri kantspiller på hver side i begge angrepshalvdeler. Kantspillere har to touch og ser etter innlegg hver gang de mottar ballen.",
     coachingPoints: [
-      "Maks intensitet i 1 min",
-      "Rask omstilling mellom roller",
-      "Kvalitet selv med press",
-      "Kommunikasjon"
+      "Ha en offensiv innstilling og søk avslutning fra åpent spill",
+      "Posisjoner deg slik at innlegg kan angripes",
+      "Følg alle avslutninger og returer",
+      "Slå drevne innlegg mot nærmeste og løftede innlegg mot bakre stolpe"
     ],
     variations: [
-      "2 min runder",
-      "Lag som mister bytter",
-      "Poengsum per runde"
+      "La kantspillere drible mot nærmeste stolpe og slå cutback langs bakken",
+      "Gi kantspillere fri touch, men la dem først bli aktive etter mottak",
+      "Tillat én overlap på utsiden for å skape 2v1"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.154 'Rotation Game'"
+    sourceRef: "Matkovich 2008 '73 4v4 with Wingers'"
   },
   {
     id: "smallsided-107",
     exerciseNumber: 107,
-    name: "Numerisk overlegsspill",
+    name: "5v5 + 2 nøytrale",
     tags: ["matkovich-elite-drills-2008"],
     category: "game",
     duration: 12,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "overgang",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "5v5+2 nøytrale. Nøytrale alltid med angrep = 7v5. Ved vinning må man vente på nøytrale.",
+    playersMin: 12,
+    playersMax: 12,
+    theme: "possession",
+    equipment: ["Kjegler", "Vester", "Baller"],
+    description: "5v5 i en 30x40-meter grid med to nøytrale spillere. Laget i ballbesittelse spiller alltid 7v5 og forsøker å holde ballen lenge nok til å sette sammen syv pasninger for poeng.",
     coachingPoints: [
-      "Utnytt 7v5 - tålmodighet!",
-      "Nøytrale: Rask omstilling",
-      "Forsvar: Forsink til 5v5",
-      "Kommunikasjon"
+      "Gjør banen stor i angrep ved å spre dere",
+      "Flytt deg uten ball for å gi støtte",
+      "Spill vekk fra press og bruk kort-kort-lang rytme",
+      "Kommuniser hele tiden med medspillere og nøytrale"
     ],
     variations: [
-      "3 nøytrale",
-      "Nøytrale kun 2-touch",
-      "Tidsbegrensning på angrep"
+      "Begrens alle til to touch, men gi tre touch etter brudd",
+      "Begrens alle til ett touch, men gi to touch etter brudd",
+      "Juster hvor mange sammenhengende pasninger som gir poeng"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.156 'Numerical Superiority Game'"
+    sourceRef: "Matkovich 2008 '55 5v5 (+2) Possession'"
   },
   {
     id: "smallsided-108",
@@ -481,58 +195,6 @@ export const matkovichExercises: ExerciseData[] = [
       "Legg til press"
     ],
     source: "matkovich",
-    sourceRef: "Matkovich s.80 'Drill 40: Groups of Three'"
-  },
-  {
-    id: "smallsided-109",
-    exerciseNumber: 109,
-    name: "Sirkelspill med 8",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "warmup",
-    duration: 10,
-    playersMin: 8,
-    playersMax: 16,
-    theme: "possession",
-    equipment: ["Kjegler", "Baller"],
-    description: "8 på sirkel, 8 inne. Hver ytrespiller har ball. Innespillere sjekker, mottar, returnerer, finner ny.",
-    coachingPoints: [
-      "Sjekk over skulderen",
-      "Finte før mottak",
-      "Kvalitet på retur",
-      "Kontinuerlig bevegelse"
-    ],
-    variations: [
-      "Snu og dribl først",
-      "Kun 1-touch",
-      "Legg til forsvarere inne"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.82 'Drill 41: Windows'"
-  },
-  {
-    id: "smallsided-110",
-    exerciseNumber: 110,
-    name: "6v6 med soner",
-    tags: ["matkovich-elite-drills-2008"],
-    category: "game",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 14,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "6v6+keepere på halvbane. Bane delt i 3 soner. Minst 2 spillere per lag i hver sone.",
-    coachingPoints: [
-      "Hold formasjonen",
-      "Spill mellom linjer",
-      "Bevegelse innen sonen",
-      "Kommunikasjon"
-    ],
-    variations: [
-      "3 i midtsone",
-      "Fri bevegelse ved scoring",
-      "Rotér soner"
-    ],
-    source: "matkovich",
-    sourceRef: "Matkovich s.122 'Zone Play'"
+    sourceRef: "Matkovich 2008 '40 Groups of Three'"
   },
 ];

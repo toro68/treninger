@@ -27,6 +27,7 @@ export type SavedSession = {
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: string[];
+  selectedTheoryIds: string[];
   plannedBlocks: SerializedBlock[] | null;
 };
 
@@ -38,6 +39,7 @@ type SessionState = {
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
+  selectedTheoryIds: Set<string>;
   favoriteIds: Set<string>;
   searchQuery: string;
   highlightExerciseId: string | null;
@@ -46,6 +48,7 @@ type SessionState = {
   setSearchQuery: (query: string) => void;
   setHighlightExercise: (id: string | null) => void;
   toggleExercise: (id: string) => void;
+  toggleTheory: (id: string) => void;
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
   updateExercise: (id: string, exercise: Exercise) => void;
@@ -166,6 +169,7 @@ type PersistedSessionState = {
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
+  selectedTheoryIds: Set<string>;
   favoriteIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
   savedSessions: SavedSession[];
@@ -196,6 +200,7 @@ const toSavedSession = ({
   playerCount,
   stationCount,
   selectedExerciseIds,
+  selectedTheoryIds,
   plannedBlocks,
   createdAt,
   updatedAt,
@@ -205,6 +210,7 @@ const toSavedSession = ({
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
+  selectedTheoryIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
   createdAt: string;
   updatedAt: string;
@@ -214,6 +220,7 @@ const toSavedSession = ({
   playerCount,
   stationCount,
   selectedExerciseIds: serializeSet(selectedExerciseIds),
+  selectedTheoryIds: serializeSet(selectedTheoryIds),
   plannedBlocks: serializePlannedBlocks(plannedBlocks),
   createdAt,
   updatedAt,
@@ -238,6 +245,11 @@ const hydrateSavedSessions = (
               typeof exerciseId === "string" && exerciseLibrary.some((exercise) => exercise.id === exerciseId)
           )
         : [];
+      const selectedTheoryIds = Array.isArray(entry.selectedTheoryIds)
+        ? entry.selectedTheoryIds.filter(
+            (theoryId): theoryId is string => typeof theoryId === "string"
+          )
+        : [];
 
       return [
         {
@@ -248,6 +260,7 @@ const hydrateSavedSessions = (
           playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
           stationCount: typeof entry.stationCount === "number" ? entry.stationCount : 3,
           selectedExerciseIds,
+          selectedTheoryIds,
           plannedBlocks: hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary)
             ? serializePlannedBlocks(hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary))
             : null,
@@ -347,6 +360,7 @@ export const useSessionStore = create<SessionState>()(
       searchQuery: "",
       highlightExerciseId: null,
       selectedExerciseIds: new Set(),
+      selectedTheoryIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
       setStationCount: (count) => set({ stationCount: count }),
@@ -361,6 +375,16 @@ export const useSessionStore = create<SessionState>()(
             next.add(id);
           }
           return { selectedExerciseIds: next };
+        }),
+      toggleTheory: (id) =>
+        set((state) => {
+          const next = new Set(state.selectedTheoryIds);
+          if (next.has(id)) {
+            next.delete(id);
+          } else {
+            next.add(id);
+          }
+          return { selectedTheoryIds: next };
         }),
       toggleFavorite: (id) =>
         set((state) => {
@@ -422,6 +446,7 @@ export const useSessionStore = create<SessionState>()(
         set({
           plannedBlocks: null,
           selectedExerciseIds: new Set(),
+          selectedTheoryIds: new Set(),
           searchQuery: "",
           highlightExerciseId: null,
         }),
@@ -456,6 +481,7 @@ export const useSessionStore = create<SessionState>()(
           playerCount: state.playerCount,
           stationCount: state.stationCount,
           selectedExerciseIds: state.selectedExerciseIds,
+          selectedTheoryIds: state.selectedTheoryIds,
           plannedBlocks: state.plannedBlocks,
           createdAt: existing?.createdAt ?? now,
           updatedAt: now,
@@ -483,6 +509,7 @@ export const useSessionStore = create<SessionState>()(
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
           selectedExerciseIds,
+          selectedTheoryIds: new Set(saved.selectedTheoryIds),
           plannedBlocks,
           searchQuery: "",
           highlightExerciseId: null,
@@ -500,6 +527,7 @@ export const useSessionStore = create<SessionState>()(
         playerCount: state.playerCount,
         stationCount: state.stationCount,
         selectedExerciseIds: state.selectedExerciseIds,
+        selectedTheoryIds: state.selectedTheoryIds,
         favoriteIds: state.favoriteIds,
         plannedBlocks: state.plannedBlocks,
         savedSessions: state.savedSessions,
@@ -548,6 +576,11 @@ export const useSessionStore = create<SessionState>()(
               ? (parsedState.selectedExerciseIds as string[])
               : undefined
           );
+          const selectedTheoryIds = hydrateSet(
+            Array.isArray(parsedState.selectedTheoryIds)
+              ? (parsedState.selectedTheoryIds as string[])
+              : undefined
+          );
           const favoriteIds = hydrateSet(
             Array.isArray(parsedState.favoriteIds)
               ? (parsedState.favoriteIds as string[])
@@ -565,6 +598,7 @@ export const useSessionStore = create<SessionState>()(
               plannedBlocks: hydratedPlannedBlocks,
               savedSessions,
               selectedExerciseIds,
+              selectedTheoryIds,
               favoriteIds,
               searchQuery,
             },
@@ -579,6 +613,7 @@ export const useSessionStore = create<SessionState>()(
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
               savedSessions: value.state.savedSessions ?? [],
               selectedExerciseIds: serializeSet(value.state.selectedExerciseIds),
+              selectedTheoryIds: serializeSet(value.state.selectedTheoryIds),
               favoriteIds: serializeSet(value.state.favoriteIds),
               searchQuery: value.state.searchQuery ?? "",
               customExercises: value.state.customExercises ?? [],
@@ -708,6 +743,11 @@ export const filterAndGroupExercises = ({
 
   const grouped: Record<string, Exercise[]> = {};
 
+  const getRelevantPlayerCount = (exercise: Exercise) =>
+    exercise.category === "station" || exercise.category === "rondo"
+      ? playersPerStation
+      : playerCount;
+
   const matchesSearch = (exercise: Exercise) => {
     if (!normalizedSearch) return true;
     const exerciseCode = getExerciseCode(exercise).toLowerCase();
@@ -738,7 +778,8 @@ export const filterAndGroupExercises = ({
 
   const matchesPlayerCount = (exercise: Exercise) => {
     if (!filterByPlayerCount) return true;
-    return playersPerStation >= exercise.playersMin && playersPerStation <= exercise.playersMax;
+    const relevantPlayerCount = getRelevantPlayerCount(exercise);
+    return relevantPlayerCount >= exercise.playersMin && relevantPlayerCount <= exercise.playersMax;
   };
 
   for (const exercise of exerciseLibrary) {
@@ -763,10 +804,12 @@ export const filterAndGroupExercises = ({
       if (aFav !== bFav) return aFav - bFav;
 
       // 2. Sorter etter hvor godt øvelsen passer
-      const relevantPlayersPerStation =
+      const aRelevantPlayers =
         category === "station" || category === "rondo" ? playersPerStation : undefined;
-      const aScore = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
-      const bScore = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
+      const bRelevantPlayers =
+        category === "station" || category === "rondo" ? playersPerStation : undefined;
+      const aScore = getExerciseFitScore(a, playerCount, aRelevantPlayers);
+      const bScore = getExerciseFitScore(b, playerCount, bRelevantPlayers);
       if (aScore !== bScore) return aScore - bScore;
 
       // 3. Alfabetisk

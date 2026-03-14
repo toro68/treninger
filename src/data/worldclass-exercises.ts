@@ -9,11 +9,11 @@ import type { ExerciseData } from './exercises';
 
 export const worldclassExercises: ExerciseData[] = [
   // ===== WORLD CLASS COACHING - 50 Small-Sided Games =====
-  // Oppvarming og kondisjon
+  // Warm-up
   {
     id: "smallsided-112",
     exerciseNumber: 112,
-    name: "Kast-Heading-Fang",
+    name: "Throw - Head - Catch",
     tags: ["worldclass-50-smallsided-games"],
     category: "warmup",
     duration: 12,
@@ -34,7 +34,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-113",
     exerciseNumber: 113,
-    name: "Fire lag oppvarming",
+    name: "Four Team Warm-Up",
     tags: ["worldclass-50-smallsided-games"],
     category: "warmup",
     duration: 10,
@@ -52,11 +52,11 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.10 'Four Team Warm-Up'"
   },
 
-  // Pasning og ballbesittelse
+  // Passing and possession
   {
     id: "smallsided-114",
     exerciseNumber: 114,
-    name: "5v2 En-touch rondo",
+    name: "5v2",
     category: "rondo",
     duration: 10,
     playersMin: 7,
@@ -67,12 +67,12 @@ export const worldclassExercises: ExerciseData[] = [
     coachingPoints: [],
     variations: [],
     source: "worldclass",
-    sourceRef: "WorldClass s.61 '5v2 One-Touch Possession'"
+    sourceRef: "WorldClass s.61 '5v2'"
   },
   {
     id: "smallsided-115",
     exerciseNumber: 115,
-    name: "Kjegler som mål 4v4",
+    name: "Cones as Goals",
     category: "game",
     duration: 12,
     playersMin: 8,
@@ -91,7 +91,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-116",
     exerciseNumber: 116,
-    name: "6v3 Press til avslutning",
+    name: "6v3",
     category: "game",
     duration: 15,
     playersMin: 9,
@@ -105,12 +105,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Trenerserver kan styre intensitet"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.40 '6v3 Possession to Finishing'"
+    sourceRef: "WorldClass s.40 '6v3'"
   },
   {
     id: "smallsided-117",
     exerciseNumber: 117,
-    name: "2v2+4 Støttespillere",
+    name: "2v2+4",
     category: "game",
     duration: 12,
     playersMin: 14,
@@ -125,12 +125,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Fast rotasjonsmønster etter mål/skudd"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.63 '2v2+4 Support Players'"
+    sourceRef: "WorldClass s.63 '2v2+4'"
   },
   {
     id: "smallsided-118",
     exerciseNumber: 118,
-    name: "4v4+4 Progresjon",
+    name: "4 v 4 + 4 Progression",
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -144,14 +144,14 @@ export const worldclassExercises: ExerciseData[] = [
     ],
     variations: [],
     source: "worldclass",
-    sourceRef: "WorldClass s.65 '4v4+4 Progression'"
+    sourceRef: "WorldClass s.65 '4 v 4 + 4 Progression'"
   },
 
-  // Avslutning og shooting
+  // Finishing
   {
     id: "smallsided-119",
     exerciseNumber: 119,
-    name: "9v9 Offside-spill",
+    name: "9 v 9 Offside Shooting",
     category: "game",
     duration: 15,
     playersMin: 18,
@@ -167,15 +167,15 @@ export const worldclassExercises: ExerciseData[] = [
     ],
     variations: [],
     source: "worldclass",
-    sourceRef: "WorldClass s.28 '9v9 Offside Shooting'"
+    sourceRef: "WorldClass s.28 '9 v 9 Offside Shooting'"
   },
   {
     id: "smallsided-120",
     exerciseNumber: 120,
-    name: "6v6 med keepere",
+    name: "6 v 6 + Goalkeepers",
     category: "game",
     duration: 15,
-    playersMin: 12,
+    playersMin: 14,
     playersMax: 14,
     theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
@@ -189,14 +189,14 @@ export const worldclassExercises: ExerciseData[] = [
       "Spill to-touch, deretter en-touch hvis mulig"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.30 '6v6+Goalkeepers'"
+    sourceRef: "WorldClass s.30 '6 v 6 + Goalkeepers'"
   },
 
-  // Innlegg og avslutning
+  // Crossing and finishing
   {
     id: "smallsided-121",
     exerciseNumber: 121,
-    name: "4v4 Innleggsspill",
+    name: "4v4",
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -214,12 +214,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Progression #2: Crossere kutter ballen tilbake og slår innsvingende innlegg med andre fot. Svak side kan angripe innlegget."
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.34 '4v4 Crossing Progression'"
+    sourceRef: "WorldClass s.34 '4v4'"
   },
   {
     id: "smallsided-122",
     exerciseNumber: 122,
-    name: "7v7 Transferspill",
+    name: "7 v 7 Transfer Game",
     category: "game",
     duration: 15,
     playersMin: 14,
@@ -230,12 +230,12 @@ export const worldclassExercises: ExerciseData[] = [
     coachingPoints: [],
     variations: [],
     source: "worldclass",
-    sourceRef: "WorldClass s.48 '7v7 Transfer Game'"
+    sourceRef: "WorldClass s.48 '7 v 7 Transfer Game'"
   },
   {
     id: "smallsided-132",
     exerciseNumber: 132,
-    name: "6v6 Partner-marking",
+    name: "6v6",
     category: "game",
     duration: 12,
     playersMin: 12,
@@ -255,12 +255,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Legg til mål for scoring"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.71 'Partner Marking Game'"
+    sourceRef: "WorldClass s.71 '6v6'"
   },
   {
     id: "smallsided-133",
     exerciseNumber: 133,
-    name: "7v7 Midtfirkant",
+    name: "7 v 7 with Center Square",
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -280,14 +280,14 @@ export const worldclassExercises: ExerciseData[] = [
       "Pasning gjennom + scoring = doble poeng"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.72 '7v7 Center Square'"
+    sourceRef: "WorldClass s.72 '7 v 7 with Center Square'"
   },
 
-  // Fitness og intensitet
+  // Fitness and intensity
   {
     id: "smallsided-134",
     exerciseNumber: 134,
-    name: "5v5+5 Keep-Away",
+    name: "Fitness Exercise: 5 v 5 + 5 Keep-Away",
     category: "game",
     duration: 12,
     playersMin: 15,
@@ -307,12 +307,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Poeng for 10 pasninger"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.75 '5v5+5 Keep-Away'"
+    sourceRef: "WorldClass s.75 'Fitness Exercise: 5 v 5 + 5 Keep-Away'"
   },
   {
     id: "smallsided-135",
     exerciseNumber: 135,
-    name: "3v3+3 Rotasjon",
+    name: "3v3+3",
     category: "game",
     duration: 10,
     playersMin: 9,
@@ -335,11 +335,11 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.76 '3v3+3'"
   },
 
-  // Målscoring
+  // Goalscoring
   {
     id: "smallsided-136",
     exerciseNumber: 136,
-    name: "5v5+2 Støttespillere",
+    name: "5 v 5 +2",
     category: "game",
     duration: 15,
     playersMin: 10,
@@ -359,12 +359,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Legg til tidsfrist"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.78 '5v5+2 Support'"
+    sourceRef: "WorldClass s.78 '5 v 5 +2'"
   },
   {
     id: "smallsided-137",
     exerciseNumber: 137,
-    name: "Progresjonsspill 5v2 til 7v5",
+    name: "Small-Sided Game Progression",
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -389,7 +389,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-138",
     exerciseNumber: 138,
-    name: "Multi-mål spill",
+    name: "Multiple Goal Possession Game",
     category: "game",
     duration: 15,
     playersMin: 10,
@@ -409,12 +409,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Legg til tidsfrist per poeng"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.82 'Multiple Goal Possession'"
+    sourceRef: "WorldClass s.82 'Multiple Goal Possession Game'"
   },
   {
     id: "smallsided-139",
     exerciseNumber: 139,
-    name: "Lagbesittelse med formål",
+    name: "Team Possession Game",
     category: "game",
     duration: 15,
     playersMin: 14,
@@ -437,7 +437,7 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.84 'Team Possession Game'"
   },
 
-  // Avslutning og shooting
+  // Finishing
   {
     id: "smallsided-140",
     exerciseNumber: 140,
@@ -466,7 +466,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-141",
     exerciseNumber: 141,
-    name: "2v2+4 med mål",
+    name: "2v2+4",
     category: "game",
     duration: 12,
     playersMin: 8,
@@ -488,62 +488,11 @@ export const worldclassExercises: ExerciseData[] = [
     source: "worldclass",
     sourceRef: "WorldClass s.26 '2v2+4'"
   },
-  {
-    id: "smallsided-142",
-    exerciseNumber: 142,
-    name: "Possession til avslutning",
-    category: "game",
-    duration: 15,
-    playersMin: 14,
-    playersMax: 16,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "8v8 holder ball på halv bane. På trenersignal kan laget med ball angripe hvilket som helst mål. Forsvar må reorganisere raskt.",
-    coachingPoints: [
-      "Ved signal: evaluer raskt hvilket mål",
-      "Forsvar: rask omstilling",
-      "Hold ball i bevegelse mens dere venter",
-      "Keeper: kommuniser med forsvar"
-    ],
-    variations: [
-      "Forsvar starter med ball",
-      "Tidsfrist på avslutning",
-      "Ved erobring kan forsvar kontre"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.28 'Possession to Finishing'"
-  },
 
-  // Innlegg
-  {
-    id: "smallsided-143",
-    exerciseNumber: 143,
-    name: "4v4 Innlegg fra hjørner",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "innlegg",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "4v4 + keepere på dobbel 16-meter. Start med keeper som kaster til keeper. Etter 4 pasninger (minst én til keeper) spilles til innleggsspiller i hjørnet. Lag som scorer blir.",
-    coachingPoints: [
-      "Early press på ball",
-      "Dekk mann og bli målside",
-      "Keeper: startposisjon i forhold til ball",
-      "Angrip ballen ved innlegg"
-    ],
-    variations: [
-      "Innlegg fra bakken eller cutback",
-      "Svak-side innlegger kan angripe",
-      "Legg til forsvar i hjørnet"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.34 '4v4 Crossing'"
-  },
   {
     id: "smallsided-144",
     exerciseNumber: 144,
-    name: "Flanke-håndball",
+    name: "Flank Handball",
     category: "game",
     duration: 12,
     playersMin: 12,
@@ -568,7 +517,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-145",
     exerciseNumber: 145,
-    name: "Tre soner til mål",
+    name: "Three Zone To Goal",
     category: "game",
     duration: 15,
     playersMin: 14,
@@ -588,12 +537,12 @@ export const worldclassExercises: ExerciseData[] = [
       "Legg til fri kantsone"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.38 'Three Zone to Goal'"
+    sourceRef: "WorldClass s.38 'Three Zone To Goal'"
   },
   {
     id: "smallsided-146",
     exerciseNumber: 146,
-    name: "Magisk boks",
+    name: "Magic Box",
     category: "game",
     duration: 15,
     playersMin: 14,
@@ -618,7 +567,7 @@ export const worldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-147",
     exerciseNumber: 147,
-    name: "Kantsoner med innlegg",
+    name: "Flank Zones",
     category: "game",
     duration: 15,
     playersMin: 12,
@@ -641,15 +590,15 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.42 'Flank Zones'"
   },
 
-  // 7+4v7+4 og større
+  // 7+4v7+4 and larger games
   {
     id: "smallsided-148",
     exerciseNumber: 148,
-    name: "7+4 vs 7+4",
+    name: "7+4v7+4",
     category: "game",
     duration: 15,
-    playersMin: 14,
-    playersMax: 16,
+    playersMin: 22,
+    playersMax: 22,
     theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
     description: "6 feltspillere + keeper per lag på banen. 4 støttespillere per lag langs sidelinja: 2 på endelinja (angrep) og 2 på sidelinja (angrepssone). Mål: rask fremover og scoring.",
@@ -668,41 +617,13 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.74 '7+4v7+4'"
   },
 
-  // ===== FLERE WORLD CLASS ØVELSER =====
+  // ===== ADDITIONAL WORLD CLASS EXERCISES =====
   
-  // Oppvarming: Kast-Heading-Fang Variasjon
-  {
-    id: "smallsided-149",
-    exerciseNumber: 500,
-    name: "10v10 Heading-spill",
-    tags: ["worldclass-50-smallsided-games"],
-    category: "warmup",
-    duration: 10,
-    playersMin: 16,
-    playersMax: 22,
-    theme: "heading",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "10v10 på 65x35m bane. Spillerne starter med kast, deretter heading-pasning eller heading-skudd. Hvis ballen treffer bakken, mister laget besittelsen.",
-    coachingPoints: [
-      "Timing på heading - møt ballen",
-      "Kommunikasjon - rop 'min!'",
-      "Posisjonering for å motta kast",
-      "Variér heading: nedover, sidelengs, oppover"
-    ],
-    variations: [
-      "Bare mål med heading teller",
-      "Pasning med hodet, fang og kast videre",
-      "Legg til volley-pasninger"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.14 'Throw - Head - Catch'"
-  },
-  
-  // Conditioning: 1v1 Intensiv
+  // Conditioning
   {
     id: "smallsided-150",
     exerciseNumber: 501,
-    name: "1v1 Intensiv kondisjon",
+    name: "1v1",
     category: "station",
     duration: 12,
     playersMin: 8,
@@ -722,95 +643,14 @@ export const worldclassExercises: ExerciseData[] = [
       "Mannorientering hele tiden"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.15 '1v1 Conditioning'"
+    sourceRef: "WorldClass s.15 '1v1'"
   },
   
-  // Conditioning: 6v4+GK
-  {
-    id: "smallsided-151",
-    exerciseNumber: 502,
-    name: "6v4+GK Funksjonell trening",
-    category: "game",
-    duration: 12,
-    playersMin: 11,
-    playersMax: 13,
-    theme: "overgang",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "4 forsvarere + keeper forsvarer mot 6 angripere (2 spisser, 4 midtbane) på 75x45m bane. Angriperne scorer på stort mål, forsvarerne scorer ved å spille til målspillere ved midtstreken.",
-    coachingPoints: [
-      "Keeper: prosesser cues raskt",
-      "Forsvarere: kommunikasjon og sikring",
-      "Angripere: rask kombinasjonsspill",
-      "Overgang begge veier"
-    ],
-    variations: [
-      "Legg til en forsvarer ved ballvinning",
-      "Tidsbegrensning på angrep (15 sek)",
-      "Mål fra førstetouch = dobbelt"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.14 '6v4+Goalkeeper'"
-  },
-  
-  // Possession: 6v6+6 Nøytrale
-  {
-    id: "smallsided-152",
-    exerciseNumber: 503,
-    name: "6v6+6 Nøytrale",
-    category: "game",
-    duration: 15,
-    playersMin: 18,
-    playersMax: 20,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "6v6 keep-away med 6 nøytrale spillere på utsiden. Laget i besittelse spiller til nøytral som slår lang pasning til motsatt side. Kontrollert mottak = 1 poeng. Nøytrale roterer med innelag etter tid.",
-    coachingPoints: [
-      "Høy teknikk og kontroll kreves",
-      "Hastighet i pasningsspillet",
-      "Konsentrasjon og fokus",
-      "Nøytrale: 1-touch"
-    ],
-    variations: [
-      "Tidsbegrensning: 3 sekunder på ballen",
-      "Nøytrale fri bevegelse langs linje",
-      "Motta lang ball = bytt side"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.12 '6v6+6 Possession'"
-  },
-  
-  // Shooting: Progresjonsspill til avslutning
-  {
-    id: "smallsided-153",
-    exerciseNumber: 504,
-    name: "Progresjon 1v1 til 4v2",
-    category: "station",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 14,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "3 soner: Sone 1 (1v1), Sone 2 (2v1 til mål), Sone 3 (4v2 til mål). Angriper starter i Sone 1, kjemper mot forsvarer. Uansett utfall går angriper til Sone 2 og får med seg én spiller for 2v1. Begge angripere går til Sone 3 for 4v2.",
-    coachingPoints: [
-      "Hver sone: løs oppgaven raskt",
-      "Overgang mellom soner",
-      "Avslutt så snart sjansen byr seg",
-      "Forsvarere: forsink og reorganiser"
-    ],
-    variations: [
-      "Tidsbegrensning per sone",
-      "Mål fra distanse = ekstra poeng",
-      "Bytt roller etter alle har vært gjennom"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.32 'Shooting Progression'"
-  },
-  
-  // Crossing: 9v9 Innleggsspill
+  // Crossing
   {
     id: "smallsided-154",
-    exerciseNumber: 505,
-    name: "9v9 Innlegg og avslutning",
+    exerciseNumber: 508,
+    name: "9 v 9 Crossing And Finishing",
     category: "game",
     duration: 15,
     playersMin: 18,
@@ -830,14 +670,14 @@ export const worldclassExercises: ExerciseData[] = [
       "Cutback til kant"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.38 '9v9 Crossing'"
+    sourceRef: "WorldClass s.38 '9 v 9 Crossing And Finishing'"
   },
   
-  // Possession: 11v11 Frie kantsoner
+  // Possession
   {
     id: "smallsided-155",
     exerciseNumber: 506,
-    name: "11v11 Frie kantsoner",
+    name: "11 v 11 with the Flanks Free",
     category: "game",
     duration: 20,
     playersMin: 22,
@@ -857,14 +697,14 @@ export const worldclassExercises: ExerciseData[] = [
       "Begge kantspillere kan entre samtidig"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.44 '11v11 Flanks Free'"
+    sourceRef: "WorldClass s.44 '11 v 11 with the Flanks Free'"
   },
   
-  // Keepaway: Nummerspill
+  // Keepaway
   {
     id: "smallsided-156",
     exerciseNumber: 507,
-    name: "Keepaway Nummerspill",
+    name: "Keepaway Game",
     category: "warmup",
     duration: 10,
     playersMin: 12,
@@ -887,11 +727,11 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.11 'Keepaway Game'"
   },
   
-  // Possession: Linjespill
+  // Possession
   {
     id: "smallsided-157",
     exerciseNumber: 622,
-    name: "4-3-3 Linjespill",
+    name: "Line Game",
     category: "game",
     duration: 12,
     playersMin: 18,
@@ -914,15 +754,15 @@ export const worldclassExercises: ExerciseData[] = [
     sourceRef: "WorldClass s.12 'Line Game'"
   },
   
-  // Conditioning: 2v2+Mål
+  // Conditioning
   {
     id: "smallsided-158",
     exerciseNumber: 623,
-    name: "2v2+Målspillere kondisjon",
+    name: "2 v 2 + Targets",
     category: "game",
     duration: 10,
-    playersMin: 8,
-    playersMax: 12,
+    playersMin: 6,
+    playersMax: 6,
     theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "2v2 med én målspiller for hvert lag på motsatte ender. Laget i besittelse prøver å spille fra én målspiller til den andre. Høy intensitet - hver omgang varer 1 minutt. Fokus på vending og dribleteknikk.",
@@ -938,33 +778,7 @@ export const worldclassExercises: ExerciseData[] = [
       "Legg til mål for direkte scoring"
     ],
     source: "worldclass",
-    sourceRef: "WorldClass s.19 '2v2+Targets'"
+    sourceRef: "WorldClass s.19 '2 v 2 + Targets'"
   },
 
-  // FineSoccer Drill 88
-  {
-    id: "smallsided-159",
-    exerciseNumber: 510,
-    name: "4v4 Sirkelspill med rotasjon",
-    category: "warmup",
-    duration: 10,
-    playersMin: 12,
-    playersMax: 16,
-    theme: "oppvarming",
-    equipment: ["Kjegler", "Vester", "Baller", "2 småmål"],
-    description: "Bruk midtsirkelen som bane med to småmål på hver side. 4v4 inne i sirkelen, 8 spillere fordelt på to lag utenfor. Når ball går ut, bytter innespilleren med utespiller fra samme lag. Høyt tempo og mye bevegelse.",
-    coachingPoints: [
-      "Raske overganger ved bytte",
-      "Hold høyt tempo inne i sirkelen",
-      "Utespillere: vær klar til å entre",
-      "Spill raskt - 1-2 touch"
-    ],
-    variations: [
-      "Mål teller bare fra førstetouch",
-      "Utespillere kan brukes som veggspillere (1-touch)",
-      "Bytt hele laget etter hvert mål"
-    ],
-    source: "worldclass",
-    sourceRef: "FineSoccer Drill 88"
-  }
 ];

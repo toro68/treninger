@@ -39,38 +39,12 @@ export const prickettExercises: ExerciseData[] = [
       "Må ha minst 3 pasninger før scoring"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.48 'Four Goal Game'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 2 – Four Goal Game'"
   },
   {
     id: "smallsided-2",
     exerciseNumber: 2,
-    name: "3v3 Målspillere",
-    tags: ["prickett-3v3-coaching-2018"],
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "gjennombrudd",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "3v3 med en målspiller for hvert lag bak motstanderens linje. Poeng scores ved å spille ballen til egen målspiller. Den som scorer bytter plass med målspilleren.",
-    coachingPoints: [
-      "Skap dybde i spillet - noen må ligge høyt",
-      "Timing i innspillet til målspilleren",
-      "Målspilleren må bevege seg for å bli spillbar",
-      "Positiv overgang - angrip med en gang du vinner ball"
-    ],
-    variations: [
-      "Innspill til målspiller må være førstetouch",
-      "Målspilleren må fange ballen",
-      "Legg til en forsvarer som kan gå inn i målsonen"
-    ],
-    source: "prickett",
-    sourceRef: "Prickett s.49 'Target Players'"
-  },
-  {
-    id: "smallsided-3",
-    exerciseNumber: 3,
-    name: "3v3 Gjennombruddsspill",
+    name: "2v2 + 2 målspillere",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
@@ -78,46 +52,73 @@ export const prickettExercises: ExerciseData[] = [
     playersMax: 12,
     theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
-    description: "3v3 der man scorer ved å drible over motstanderens baklinje. Krever 1v1-ferdigheter og støtte fra medspillere.",
+    description: "2v2 med en målspiller i hver ende. Laget scorer ved å spille inn til en målspiller, bevege seg for returen og vende spillet videre til målspilleren i motsatt ende.",
     coachingPoints: [
-      "Når dribler du, når spiller du?",
-      "Støttespill - gi alternativer til ballføreren",
-      "Timing i løpene - løp når ballen kan spilles",
-      "Forsvaret: Forsink angrepet, tving til siden"
+      "Kroppsstilling før mottak",
+      "Orientert førstetouch",
+      "Raskt pasningsspill",
+      "Bevegelse for å finne rom",
+      "Bruk kombinasjoner som veggspill, overlap og opp-tilbake-gjennom"
     ],
     variations: [
-      "Legg til små mål på linjene",
-      "3 berøringer maks",
-      "Må ha pasningsspill før gjennombrudd"
+      "Roter målspillere etter hver serie",
+      "Begrens sentrale spillere til to touch",
+      "Krev vending før spillet går til motsatt ende"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.47 'Small-Sided Free Play'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 3 – Target Players'"
+  },
+  {
+    id: "smallsided-3",
+    exerciseNumber: 3,
+    name: "3v3 Frispill",
+    tags: ["prickett-3v3-coaching-2018"],
+    category: "game",
+    duration: 12,
+    playersMin: 6,
+    playersMax: 8,
+    theme: "possession",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
+    description: "Fritt 3v3 på en liten bane. Banen holdes så kompakt at keeperne kan skyte og være involvert i det generelle spillet gjennom hele øvelsen.",
+    coachingPoints: [
+      "Hold avstandene små nok til at alle er involvert",
+      "Se etter rom og muligheter til å vende spillet",
+      "Bruk små kombinasjoner for å komme fri",
+      "La keeperne være en del av oppbyggingen"
+    ],
+    variations: [
+      "Spill med eller uten keeper",
+      "Begrens antall touch for høyere tempo",
+      "Gi ekstra poeng for vellykket sideskifte"
+    ],
+    source: "prickett",
+    sourceRef: "Prickett 2018 '4: Why 3v3? 1 – Small-Sided Free Play'"
   },
   {
     id: "smallsided-4",
     exerciseNumber: 4,
-    name: "3v3 2v2+2 Støttespill",
+    name: "2v2 + 2 og overgang til mål",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
     playersMin: 6,
     playersMax: 12,
     theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "2v2 inne med 2 nøytrale på utsiden. Nøytrale spiller alltid med ballaget = 4v2. Trener på overtallsspill og støttebevegelser.",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
+    description: "2v2 med en målspiller i hver ende. Ballaget scorer ved å spille fra målspiller til målspiller. Hvis forsvarerne vinner ballen, kan de bryte ut og score i ett av to mål.",
     coachingPoints: [
-      "Finn den nøytrale - de er alltid fri",
-      "Spill og beveg deg",
-      "Nøytrale: God vinkel for mottak",
-      "2 inne: Koordiner press"
+      "Presist pasningsspill",
+      "Bevegelse etter pasning",
+      "Bruk kombinasjoner som veggspill og overlap",
+      "Vær klar for overgang og kontring når ballen tapes"
     ],
     variations: [
-      "Nøytrale kun 1 berøring",
-      "Rotér hvem som er nøytral",
-      "Legg til mål"
+      "Bytt roller etter fast tid",
+      "Begrens målspillerne til to touch",
+      "La forsvarslaget starte umiddelbar kontring ved ballvinning"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.50 'Two vs Two plus Two'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 4 – Two vs Two plus Two'"
   },
   {
     id: "smallsided-5",
@@ -143,14 +144,14 @@ export const prickettExercises: ExerciseData[] = [
       "Split-pass gjennom midten = de 2 ut"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.51 'Four vs Two Possession'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 5 – Four vs Two Possession'"
   },
   
   // ===== 3v3 MED SONER (Prickett) =====
   {
     id: "smallsided-6",
     exerciseNumber: 247,
-    name: "3v3 Vertikale soner",
+    name: "Vertikale soner 3x1v1",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
@@ -158,46 +159,46 @@ export const prickettExercises: ExerciseData[] = [
     playersMax: 12,
     theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "Banen delt i tre vertikale soner. Ballen må gå gjennom alle tre soner før scoring. Trener på tålmodig oppbygging.",
+    description: "Banen deles i tre vertikale soner. Start med tre separate 1v1-dueller. Progresjon: spill med én ball, spillerne er låst i sonene, men angripere kan følge pasningen sin og skape overtall eller løp i bakrom.",
     coachingPoints: [
-      "Tålmodighet - bygg opp riktig",
-      "Bevegelse mellom sonene",
-      "Når er det åpent for å gå videre?",
-      "Forsvar: Hvem presser hvor?"
+      "Drible når du har 1v1-fordel",
+      "Se etter riktig øyeblikk for kombinasjon",
+      "Beveg deg videre etter pasning for å skape overtall",
+      "Forsvarerne må lese når de skal presse og dekke"
     ],
     variations: [
-      "Maks 3 berøringer per sone",
-      "Må ha pasning i hver sone",
-      "Legg til en nøytral i midtsonen"
+      "Start med tre rene 1v1-er før du slipper inn én ball",
+      "Tillat scoring i alle mål når én-ball-progresjonen starter",
+      "La angripere følge pasningen inn i neste sone"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.53 'In Zones - Vertical'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 7 – In Zones - Vertical'"
   },
   {
     id: "smallsided-7",
     exerciseNumber: 250,
-    name: "3v3 Midtbanespiller",
+    name: "3v3 Midtbanespill",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
-    playersMin: 7,
+    playersMin: 6,
     playersMax: 14,
     theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "3v3 med en nøytral midtbanespiller som begge lag kan bruke. Må spille via midtbanen minst én gang før scoring.",
+    description: "To spillere fra hvert lag er låst til hver sin halvdel. Den tredje spilleren på hvert lag er fri mellom sonene og fungerer som lagets midtbanespiller i både angrep og forsvar.",
     coachingPoints: [
-      "Finn midtbanespilleren",
-      "Midtbane: Kroppen åpen, se begge retninger",
-      "Veggspill med midtbane",
-      "Tempo gjennom midten"
+      "Midtbanespilleren må velge hvem som skal hjelpes og hvor støtten skal gis",
+      "Vær bevisst på 1v1-, 2v1- og 2v2-situasjonene som oppstår",
+      "Hold hodet oppe og les neste aksjon tidlig",
+      "Skap balanse mellom støtte fremover og dekning bakover"
     ],
     variations: [
-      "Midtbane kun 1 berøring",
-      "To i midten",
-      "Midtbane kan score"
+      "Roter hvem som er fri midtbanespiller",
+      "Spill uten fast midtbane, men krev at minst én spiller blir igjen i hver halvdel",
+      "Begrens den frie spilleren til to touch"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.54-55 'Midfielder Game'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 8 – Midfielder Game'"
   },
   {
     id: "smallsided-8",
@@ -223,7 +224,7 @@ export const prickettExercises: ExerciseData[] = [
       "Minst 4 pasninger først"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.59 'End Zones'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 13 – End Zones'"
   },
   
   // ===== 3v3 OVERGANGER (Prickett) =====
@@ -238,72 +239,72 @@ export const prickettExercises: ExerciseData[] = [
     playersMax: 18,
     theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "3v3 der laget som mister ball må løpe rundt eget mål før de kan forsvare. Gir overtall i overgang.",
+    description: "Tre lag på tre spillere. Ett lag angriper, ett lag forsvarer, og det tredje laget venter bak målet. Når forsvarslaget vinner ballen eller får ny ball fra trener, angriper de neste lag umiddelbart mens laget som mistet går av banen.",
     coachingPoints: [
-      "Rask reaksjon ved ballvinning",
-      "Utnytt overtallet - ikke stress",
-      "Forsvar: Spring fort tilbake!",
-      "Positiv overgang = angrip direkte"
+      "Angrip raskt når momentet skifter",
+      "Bruk bevegelse og støtte for å holde overgangen flytende",
+      "Vær klar til å avslutte før motstanderen organiserer seg",
+      "Neste lag må lese når de skal inn og når de skal av"
     ],
     variations: [
-      "To må rundt målet",
-      "Løp rundt kjegle i stedet",
-      "Tidsbegrensning på angrep"
+      "Ved scoring får angripende lag ny overgang og angriper motsatt vei",
+      "La lagene velge om de vil forsvare med tre utespillere eller to og keeper",
+      "Start ny overgang med coach-ball hvis ballen går ut"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.58 'Three Player Transition'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 12 – Three Player Transition'"
   },
   {
     id: "smallsided-10",
     exerciseNumber: 256,
-    name: "3v3 Kontring",
-    tags: ["prickett-3v3-coaching-2018"],
-    category: "game",
-    duration: 12,
-    playersMin: 9,
-    playersMax: 15,
-    theme: "overgang",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "3v3 + 2 ventende per lag. Ved ballvinning løper de 2 inn = 5v3 kontra. Det andre laget må forsvare.",
-    coachingPoints: [
-      "Hurtig reaksjon ved ballvinning",
-      "De som løper inn: Timing og retning",
-      "5v3: Utnytt overtallet",
-      "Forsvar: Forsink til hjelp kommer"
-    ],
-    variations: [
-      "Kun ventende kan score",
-      "Tidsbegrensning",
-      "Legg til keeper"
-    ],
-    source: "prickett",
-    sourceRef: "Prickett s.68 'Counter-Punch'"
-  },
-  {
-    id: "smallsided-11",
-    exerciseNumber: 259,
-    name: "3v3 Hurtige overganger",
+    name: "3v2 Kontring med outlet",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
     playersMin: 6,
     playersMax: 12,
     theme: "overgang",
-    equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
-    description: "3v3 med mål i hvert hjørne. Etter scoring starter motstanderlaget umiddelbart. Rask omstilling.",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
+    description: "3v2-angrep med en kontringsutgang. Hvis de to forsvarerne vinner ballen, kan de spille frem på outlet-spilleren og følge etter for et raskt fremoverløp og en ett-touch-avslutning.",
     coachingPoints: [
-      "Rask omstilling begge veier",
-      "Første forsvarer presser",
-      "Utnytt momentet etter vinning",
-      "Kommunikasjon"
+      "Utnytt 3v2-overtallet uten å miste balansen",
+      "Vær bevisst på restforsvar selv når laget angriper",
+      "Outlet-spilleren må flytte seg til effektivt mottaksrom",
+      "Kontringen må gå fremover med få touch"
     ],
     variations: [
-      "Scorer får ball igjen",
-      "10 sek tidsbegrensning",
-      "3v3 + 1 joker"
+      "Krev ett-touch-avslutning etter tilbakespill fra outlet",
+      "La angripende lag beholde én sikringsspiller",
+      "Legg til keeper for tydeligere avslutningsbilde"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.81 'Quick Transitions'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 22 – Counter-Punch'"
+  },
+  {
+    id: "smallsided-11",
+    exerciseNumber: 259,
+    name: "Sekvens med hurtige overganger",
+    tags: ["prickett-3v3-coaching-2018"],
+    category: "game",
+    duration: 12,
+    playersMin: 5,
+    playersMax: 10,
+    theme: "overgang",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
+    description: "Sekvensøvelse med stigende overtall og undertall: 1v0-angrep, umiddelbar 2v1 andre veien, deretter 3v2 tilbake. Når sekvensen er ferdig, starter motsatt lag en ny bølge.",
+    coachingPoints: [
+      "Les overgangen tidlig og spill fremover med en gang",
+      "Utnytt overtall før motstanderen rekker å sette seg",
+      "Forsvareren må kjøpe tid til neste spiller kommer inn",
+      "Spillerne må være klare på neste rolle i sekvensen"
+    ],
+    variations: [
+      "Bruk alternativ sekvens: 1v0, 1v1, 2v1, 2v2, 3v2, 3v3",
+      "Avslutt hver bølge innen en tidsgrense",
+      "Bytt startlag etter hver serie"
+    ],
+    source: "prickett",
+    sourceRef: "Prickett 2018 '4: Why 3v3? 35 – Quick Transitions'"
   },
   {
     id: "smallsided-12",
@@ -316,20 +317,20 @@ export const prickettExercises: ExerciseData[] = [
     playersMax: 12,
     theme: "overgang",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
-    description: "Ved ballvinning må forsvarende lag trekke alle spillere bak ball før de kan angripe. Trener tilbakeløp.",
+    description: "3v1-angrep der to forsvarere starter på etterskudd og trigges til returløp når angriperne passerer halvveis eller når trenerens valgte trigger inntreffer.",
     coachingPoints: [
-      "Alle bak ball - raskt!",
-      "Organisér forsvaret på vei tilbake",
-      "Når alle er bak: Angrip!",
-      "Motstanderen: Press høyt!"
+      "Første forsvarer må forsinke angrepet",
+      "Returløpene må ha gode vinkler inn mot mål og ball",
+      "Avstanden mellom forsvarere og angripere avgjør om hjelpen rekker frem",
+      "Kommuniser hvem som presser og hvem som dekker rom"
     ],
     variations: [
-      "Kun 2 må tilbake",
-      "Tidsbegrensning på tilbaketrekning",
-      "Legg til endesoner"
+      "Bytt trigger til første pasning fra angripende lag",
+      "Bruk tidsgrense før hjelperne får gå",
+      "La samme oppsett gå med ny 3v1 etter hver avslutning"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.69 'Recovery Runs'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 23 – Recovery Runs'"
   },
   
   // ===== 3v3 SPESIELLE BANER (Prickett kap. 6) =====
@@ -357,7 +358,7 @@ export const prickettExercises: ExerciseData[] = [
       "2 berøringer i egen halvdel"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.88 'Reversed Goals'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 16 – Reversed Goals'"
   },
   {
     id: "smallsided-14",
@@ -383,12 +384,12 @@ export const prickettExercises: ExerciseData[] = [
       "3v3 + 2 jokere"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.84 'Six-Goal Game'"
+    sourceRef: "Prickett 2018 '6: Pitch Types 4 – Six-Goal Game'"
   },
   {
     id: "smallsided-15",
     exerciseNumber: 265,
-    name: "3v3 Ishokkeyspill",
+    name: "3v3 Ishockeyspill",
     tags: ["prickett-3v3-coaching-2018"],
     category: "game",
     duration: 12,
@@ -409,7 +410,7 @@ export const prickettExercises: ExerciseData[] = [
       "4v4"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.86 'Back to Back Goals'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 15 – Ice Hockey'"
   },
   {
     id: "smallsided-16",
@@ -435,7 +436,7 @@ export const prickettExercises: ExerciseData[] = [
       "2 berøringer"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.78 'Magic Square'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 32 – Magic Square'"
   },
   {
     id: "smallsided-17",
@@ -461,7 +462,7 @@ export const prickettExercises: ExerciseData[] = [
       "3 berøringer"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.94 'Diamond Pitch'"
+    sourceRef: "Prickett 2018 '6: Pitch Types 14 – Diamond Pitch'"
   },
   
   // ===== 3v3 PRESSING OG FORSVAR (Prickett) =====
@@ -489,7 +490,7 @@ export const prickettExercises: ExerciseData[] = [
       "4v4"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.71-72 'Press and Cover'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 26 – Press and Cover'"
   },
   {
     id: "smallsided-19",
@@ -515,7 +516,7 @@ export const prickettExercises: ExerciseData[] = [
       "Legg til nøytrale"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.79 'Defend The Middle'"
+    sourceRef: "Prickett 2018 '4: Why 3v3? 33 – Defend The Middle'"
   },
   
   // ===== EKSTRA RONDO-VARIANTER =====
@@ -543,6 +544,6 @@ export const prickettExercises: ExerciseData[] = [
       "To baller"
     ],
     source: "prickett",
-    sourceRef: "Prickett s.31 'Square 12 - Mini Rondo'"
+    sourceRef: "Prickett 2018 '2: Warming Up, Square 12 – Mini Rondo'"
   },
 ];

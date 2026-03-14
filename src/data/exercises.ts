@@ -122,16 +122,12 @@ export const exercises: ExerciseData[] = [
     category: "fixed-warmup",
     duration: 5,
     playersMin: 1,
-    playersMax: 30,
-    theme: "mobilitet",
-    equipment: ["kjegler"],
-    description:
-      "Dynamisk mobilitet inspirert av Skadefri-programmet. Legg inn kontrollerte bevegelser gjennom kjegler og leddutslag.",
-    coachingPoints: [
-      "Fokuser på kvalitet i hvert leddutslag",
-      "Rolig progresjon før tempo",
-    ],
-    variations: ["Legg inn korte spurter mellom stasjoner"],
+    playersMax: 40,
+    theme: "oppvarming",
+    equipment: [],
+    description: "",
+    coachingPoints: [],
+    variations: [],
     alwaysIncluded: true,
   },
   {
@@ -917,8 +913,19 @@ export const exercises: ExerciseData[] = [
 const normalizeStringArray = (items: string[] | undefined): string[] =>
   (items ?? []).map((item) => item.trim()).filter(Boolean);
 
+import { worldclassImageById } from './worldclass-image-map';
+
+const inferBookImageUrl = (exercise: ExerciseData): string | undefined => {
+  if (exercise.imageUrl) return exercise.imageUrl;
+  if (exercise.source === "worldclass") {
+    return worldclassImageById[exercise.id];
+  }
+  return undefined;
+};
+
 const normalizeExercise = (exercise: ExerciseData): Exercise => ({
   ...exercise,
+  imageUrl: inferBookImageUrl(exercise),
   theme: normalizeTheme(exercise.theme),
   category: normalizeCategory(exercise.category),
   equipment: normalizeStringArray(exercise.equipment),

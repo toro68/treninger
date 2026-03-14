@@ -416,5 +416,49 @@ describe("sessionStore", () => {
       expect(grouped.station?.some((ex) => ex.id === "small-group")).toBe(true);
       expect(grouped.station?.some((ex) => ex.id === "large-group")).toBe(true);
     });
+
+    it("should use total player count for games even when stations are enabled", () => {
+      const library: Exercise[] = [
+        {
+          id: "station-small",
+          exerciseNumber: 1,
+          name: "Station small",
+          category: "station",
+          duration: 10,
+          playersMin: 4,
+          playersMax: 6,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "game-full-group",
+          exerciseNumber: 2,
+          name: "Game full group",
+          category: "game",
+          duration: 12,
+          playersMin: 14,
+          playersMax: 18,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 16,
+        stationCount: 4,
+        categories: new Set<string>(["station", "game"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["station-small"]);
+      expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-full-group"]);
+    });
   });
 });
