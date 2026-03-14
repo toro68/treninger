@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { useSessionStore } from "@/store/sessionStore";
 import { useRef, useState, useMemo, memo } from "react";
@@ -32,7 +33,7 @@ const StarIcon = ({ filled }: { filled: boolean }) => (
 const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText: string; linkColor: string }> = {
   tiim:       { label: "tiim",                    className: "bg-emerald-100 text-emerald-700", linkText: "Se på tiim.no",                  linkColor: "text-emerald-600 hover:text-emerald-700" },
   eggen:      { label: "K.T. Eggen",              className: "bg-amber-100 text-amber-700",    linkText: "Se PDF (K.T. Eggen)",             linkColor: "text-amber-600 hover:text-amber-700" },
-  godfoten:   { label: "Godfoten",                className: "bg-orange-100 text-orange-700",  linkText: "Se Godfoten-notater",             linkColor: "text-orange-600 hover:text-orange-700" },
+  godfoten:   { label: "Godfoten",                className: "bg-orange-100 text-orange-700",  linkText: "Se Godfoten-siden",               linkColor: "text-orange-600 hover:text-orange-700" },
   dbu:        { label: "DBU",                     className: "bg-red-100 text-red-700",        linkText: "Se på dbu.dk",                    linkColor: "text-red-600 hover:text-red-700" },
   rondo:      { label: "Rondo",                   className: "bg-purple-100 text-purple-700",  linkText: "The Science of Rondo",            linkColor: "text-purple-600 hover:text-purple-700" },
   hyballa:    { label: "Hyballa",                 className: "bg-blue-100 text-blue-700",      linkText: "German Soccer Passing Drills",    linkColor: "text-blue-600 hover:text-blue-700" },
@@ -232,7 +233,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               {showDetails ? "Skjul" : "Mer info"}
             </button>
           )}
-          {exercise.sourceUrl && (
+          {exercise.sourceUrl ? (
             <a
               href={exercise.sourceUrl}
               target="_blank"
@@ -250,7 +251,18 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               </svg>
               {(exercise.source && SOURCE_CONFIG[exercise.source]?.linkText) ?? "Se kilde"}
             </a>
-          )}
+          ) : exercise.source === "godfoten" ? (
+            <Link
+              href="/godfoten"
+              onClick={(event) => event.stopPropagation()}
+              className={`inline-flex items-center gap-1 text-xs hover:underline ${SOURCE_CONFIG.godfoten.linkColor}`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
+                <path d="M3.75 2A1.75 1.75 0 0 0 2 3.75v8.5C2 13.216 2.784 14 3.75 14h8.5A1.75 1.75 0 0 0 14 12.25v-8.5A1.75 1.75 0 0 0 12.25 2h-8.5ZM3.5 3.75c0-.138.112-.25.25-.25h8.5c.138 0 .25.112.25.25v8.5a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5Zm1.25 1.5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75Zm0 2.5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75Zm0 2.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1-.75-.75Z" />
+              </svg>
+              {SOURCE_CONFIG.godfoten.linkText}
+            </Link>
+          ) : null}
           </div>
         )}
             {showDetails && (

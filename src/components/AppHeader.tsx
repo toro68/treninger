@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { href: "/", label: "Trening" },
-  { href: "/rbk", label: "RBK" },
+  { href: "/godfoten", label: "Godfoten" },
   { href: "/kamp", label: "Kamp" },
   { href: "/opplaering", label: "Opplæring" },
   { href: "/ordliste", label: "Ordliste" },
