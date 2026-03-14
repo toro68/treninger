@@ -5,7 +5,6 @@ import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25Gener
 import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
 import { SvgDownloadButton } from "@/components/SvgDownloadButton";
 import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
-import Image from "next/image";
 import { useShallow } from "zustand/react/shallow";
 
 interface ExerciseCardProps {
@@ -81,9 +80,10 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   }, [showDetails, exercise.svgDiagram]);
 
   const exerciseDiagram = useMemo(() => {
-    if (!showDetails) return null;
+    const shouldShowImagePreview = !!exercise.imageUrl;
+    if (!showDetails && !shouldShowImagePreview) return null;
 
-    if (sanitizedSvg) {
+    if (showDetails && sanitizedSvg) {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
           <div className="flex justify-end">
@@ -98,7 +98,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
       );
     }
 
-    if (exercise.id === "uefa-a01-03") {
+    if (showDetails && exercise.id === "uefa-a01-03") {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
           <div className="flex justify-end">
@@ -114,7 +114,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
       );
     }
 
-    if (exercise.id === "uefa-a01-04") {
+    if (showDetails && exercise.id === "uefa-a01-04") {
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
           <div className="flex justify-end">
@@ -131,27 +131,17 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     }
 
     if (exercise.imageUrl) {
-      const isLocalImage = exercise.imageUrl.startsWith("/");
       return (
         <div className="mt-3 rounded-xl border border-zinc-200 bg-white p-2">
-          {isLocalImage ? (
-            <Image
-              src={exercise.imageUrl}
-              alt={`Diagram for ${exercise.name}`}
-              width={800}
-              height={220}
-              sizes="(max-width: 640px) 100vw, 600px"
-              className="block h-auto max-h-[220px] w-full object-contain"
-            />
-          ) : (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={exercise.imageUrl}
-              alt={`Diagram for ${exercise.name}`}
-              className="block max-h-[220px] w-full object-contain"
-              loading="lazy"
-            />
-          )}
+          {/* Use a plain img here so static book-illustration paths with characters like '+' work reliably. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={exercise.imageUrl}
+            alt={`Diagram for ${exercise.name}`}
+            className="block max-h-[220px] w-full object-contain"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       );
     }

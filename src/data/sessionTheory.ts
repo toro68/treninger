@@ -5,6 +5,11 @@ export type SessionTheoryItem = {
   summary: string;
   coachNote?: string;
   playerMessage?: string;
+  sections?: {
+    title: string;
+    paragraphs?: string[];
+    bullets?: string[];
+  }[];
 };
 
 export const sessionTheoryItems: SessionTheoryItem[] = [
@@ -142,7 +147,69 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     coachNote: "Tell alltid hvor mange som sikrer bak ball før dere sender folk fram.",
     playerMessage: "Når vi angriper, må noen tenke neste balltap allerede nå.",
   },
+  {
+    id: "theory-attack-depth-halfspace-width",
+    category: "spillerbudskap",
+    title: "Angripe bakrom, mellomrom og kanter",
+    summary: "Etter ballvinning prioriterer vi direkte bakrom, så mellomrom, og til slutt vekk fra press. Rollen til spiss, kant, indreløper, back og pasningslegger må være tydelig.",
+    coachNote: "Vær kompromissløs på rekkefølgen. Bakromstrussel først. Da tvinges motstander ned, og mellomrommet åpner seg. Se spesielt etter timing mellom passer og løper, ikke bare om pasningen slås.",
+    playerMessage: "Ved ballvinning: tru rommet bak først, så spill mellom ledd, og bare deretter ut av press. Når én går, må andre skape neste problem for forsvaret.",
+    sections: [
+      {
+        title: "Prioritert rekkefølge etter ballvinning",
+        paragraphs: [
+          "Direkte bakrom går foran mellomrom, og mellomrom går foran pasning vekk fra press.",
+          "Rekkefølgen er bevisst: bakromstrussel tvinger forsvaret til å falle, og da åpnes rommet mellom ledd. Starter vi i mellomrom uten bakromstrussel, får motstander ofte stå høyere og presse opp i ryggen.",
+        ],
+      },
+      {
+        title: "Bakrom: slik truer vi bak forsvarslinja",
+        paragraphs: [
+          "Spisser starter bakromsløp umiddelbart ved ballvinning. Bevegelsene må variere for å skape usikkerhet: ballside-spiss kan true bak stopper eller back, mens spiss nummer to kan true mellom stopperne eller gå bueløp bak andre stopper.",
+          "Kanter velger motsatt av spissens bevegelse. Går spiss i bakrom, holder kanten bredde. Møter spiss i fot, kan kanten true rommet bak. Indreløper kan også komme på bakromsløp fra mellomrom, noe som ofte gir store sjanser.",
+        ],
+        bullets: [
+          "Pasningslegger er som regel sentral midtbane eller stopper med riktig pasningsfot. Ikke alle skal slå disse ballene.",
+          "Den vanligste feilen er for tidlig pasning på første bevegelse i stedet for å vente til løperen virkelig har skapt fordel.",
+          "Timing mellom passer og løper er viktigere enn tempo alene.",
+        ],
+      },
+      {
+        title: "Mellomrom: slik spiller vi gjennom pressledd",
+        paragraphs: [
+          "Mellomrommet blir interessant først når bakromstrusselen har fått motstander til å falle. Da oppstår rom mellom midtbaneledd og forsvarsledd.",
+          "Innoverkanter kan skjære inn fra bredde og tilby seg rettvendt. Når kanten går inn, skal backen løfte seg og holde bredden. Én sentral midtbanespiller kan splitte opp bak spissene, mens den andre sikrer bak ballen.",
+          "Vending av spill og pådrag fra ballfører er ofte det som åpner dette rommet mot lav blokk.",
+        ],
+        bullets: [
+          "Rettvendt mottak er avgjørende. Spilleren må orientere seg før ballen kommer.",
+          "Én spiller går opp i mellomrom, én holder balanse bak ballen.",
+          "Når vi får rettvendt mottak mellom ledd, må neste aksjon komme raskt og framover.",
+        ],
+      },
+      {
+        title: "Kanter: bredde som verktøy, ikke mål i seg selv",
+        paragraphs: [
+          "Bredde på kant skal skape dilemma hos motstander. Backen må velge mellom å følge ut eller holde seg sentralt. Overlapp gir overtall ute, mens underlapp kan åpne rom mellom motstanders back og stopper.",
+          "Etter gjennombrudd på kant bør vi oftere søke cut-back eller 45-graderspasning enn høye innlegg.",
+        ],
+        bullets: [
+          "Spiss angriper første stolpe.",
+          "Kant eller indreløper fyller bakre rom.",
+          "Én spiller må angripe returrommet utenfor boksen.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const getSessionTheoryItem = (id: string) =>
   sessionTheoryItems.find((item) => item.id === id);
+
+export const getSessionTheoryCategoryLabel = (
+  category: SessionTheoryItem["category"]
+) => {
+  if (category === "trenerfokus") return "Trenerfokus";
+  if (category === "spillerbudskap") return "Spillerbudskap";
+  return "Læringsprinsipp";
+};

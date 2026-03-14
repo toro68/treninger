@@ -1,6 +1,6 @@
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
-import { sessionTheoryItems } from "@/data/sessionTheory";
+import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { useState, useEffect, useMemo } from "react";
@@ -739,32 +739,59 @@ export const SessionTimeline = () => {
               {sessionTheoryItems.map((item) => {
                 const checked = selectedTheoryIds.has(item.id);
                 return (
-                  <label
+                  <article
                     key={item.id}
-                    className={`flex cursor-pointer items-start gap-3 rounded-xl border px-3 py-2 transition ${
+                    className={`rounded-xl border px-3 py-2 transition ${
                       checked
                         ? "border-sky-300 bg-white shadow-sm"
                         : "border-sky-100 bg-white/70 hover:border-sky-200"
                     }`}
                   >
-                    <input
-                      type="checkbox"
-                      checked={checked}
-                      onChange={() => toggleTheory(item.id)}
-                      className="mt-0.5 h-4 w-4 rounded border-sky-300 text-sky-600 focus:ring-sky-500"
-                    />
-                    <span className="min-w-0">
-                      <span className="block text-xs font-semibold uppercase tracking-wide text-sky-700">
-                        {item.category === "trenerfokus"
-                          ? "Trenerfokus"
-                          : item.category === "spillerbudskap"
-                            ? "Spillerbudskap"
-                            : "Læringsprinsipp"}
+                    <label className="flex cursor-pointer items-start gap-3">
+                      <input
+                        type="checkbox"
+                        checked={checked}
+                        onChange={() => toggleTheory(item.id)}
+                        className="mt-0.5 h-4 w-4 rounded border-sky-300 text-sky-600 focus:ring-sky-500"
+                      />
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-xs font-semibold uppercase tracking-wide text-sky-700">
+                          {getSessionTheoryCategoryLabel(item.category)}
+                        </span>
+                        <span className="mt-0.5 block text-sm font-medium text-zinc-900">{item.title}</span>
+                        <span className="mt-1 block text-xs leading-5 text-zinc-600">{item.summary}</span>
                       </span>
-                      <span className="mt-0.5 block text-sm font-medium text-zinc-900">{item.title}</span>
-                      <span className="mt-1 block text-xs leading-5 text-zinc-600">{item.summary}</span>
-                    </span>
-                  </label>
+                    </label>
+
+                    {item.sections?.length ? (
+                      <details className="mt-3 rounded-lg bg-sky-50/70 px-3 py-2 text-sm text-zinc-700">
+                        <summary className="cursor-pointer list-none font-medium text-sky-800 marker:hidden">
+                          Vis detaljer
+                        </summary>
+                        <div className="mt-3 space-y-3">
+                          {item.sections.map((section) => (
+                            <section key={section.title} className="space-y-2">
+                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                {section.title}
+                              </h4>
+                              {section.paragraphs?.map((paragraph) => (
+                                <p key={paragraph} className="text-xs leading-5 text-zinc-700">
+                                  {paragraph}
+                                </p>
+                              ))}
+                              {section.bullets?.length ? (
+                                <ul className="space-y-1 text-xs leading-5 text-zinc-700">
+                                  {section.bullets.map((bullet) => (
+                                    <li key={bullet}>• {bullet}</li>
+                                  ))}
+                                </ul>
+                              ) : null}
+                            </section>
+                          ))}
+                        </div>
+                      </details>
+                    ) : null}
+                  </article>
                 );
               })}
             </div>

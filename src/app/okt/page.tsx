@@ -5,7 +5,7 @@ import { Suspense, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 
 import { getExerciseCode } from "@/data/exercises";
-import { getSessionTheoryItem } from "@/data/sessionTheory";
+import { getSessionTheoryCategoryLabel, getSessionTheoryItem } from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
 import { getUnit, recommendedDuration } from "@/store/sessionStore";
@@ -59,6 +59,29 @@ function SharedSessionPageContent() {
       .map((id) => getSessionTheoryItem(id))
       .filter((item) => !!item);
   }, [sharedSession]);
+
+  const groupedTheoryItems = useMemo(() => {
+    return [
+      {
+        category: "spillerbudskap" as const,
+        title: "Spillerbudskap",
+        description: "Samlet budskap som kan brukes direkte mot spillergruppen.",
+        items: selectedTheoryItems.filter((item) => item.category === "spillerbudskap"),
+      },
+      {
+        category: "trenerfokus" as const,
+        title: "Trenerfokus",
+        description: "Punkter du kan bruke som styring, observasjon og coaching under økta.",
+        items: selectedTheoryItems.filter((item) => item.category === "trenerfokus"),
+      },
+      {
+        category: "læringsprinsipp" as const,
+        title: "Læringsprinsipp",
+        description: "Prinsipper som forklarer hvordan økta bør trenes og fasiliteres.",
+        items: selectedTheoryItems.filter((item) => item.category === "læringsprinsipp"),
+      },
+    ].filter((group) => group.items.length > 0);
+  }, [selectedTheoryItems]);
 
   if (!sharedSession) {
     return (
@@ -133,6 +156,19 @@ function SharedSessionPageContent() {
                           </div>
                         </div>
 
+                        {block.exercise.imageUrl ? (
+                          <div className="mt-4 overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-3">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={block.exercise.imageUrl}
+                              alt={`Diagram for ${block.exercise.name}`}
+                              className="block max-h-[320px] w-full object-contain"
+                              loading="lazy"
+                              decoding="async"
+                            />
+                          </div>
+                        ) : null}
+
                         {block.exercise.coachingPoints.length > 0 ? (
                           <div className="mt-4">
                             <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching</h4>
@@ -180,28 +216,59 @@ function SharedSessionPageContent() {
                 </div>
 
                 <div className="mt-4 space-y-3">
-                  {selectedTheoryItems.map((item) => (
-                    <article key={item.id} className="rounded-2xl border border-sky-100 bg-white p-4">
-                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">
-                        {item.category === "trenerfokus"
-                          ? "Trenerfokus"
-                          : item.category === "spillerbudskap"
-                            ? "Spillerbudskap"
-                            : "Læringsprinsipp"}
-                      </p>
-                      <h3 className="mt-1 text-base font-semibold text-zinc-900">{item.title}</h3>
-                      <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
-                      {item.coachNote ? (
-                        <p className="mt-3 text-sm leading-6 text-zinc-700">
-                          <span className="font-semibold text-zinc-900">Til trener:</span> {item.coachNote}
+                  {groupedTheoryItems.map((group) => (
+                    <details key={group.category} className="rounded-2xl border border-sky-100 bg-white p-4">
+                      <summary className="cursor-pointer list-none">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">
+                          {group.title}
                         </p>
-                      ) : null}
-                      {item.playerMessage ? (
-                        <p className="mt-2 text-sm leading-6 text-zinc-700">
-                          <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}
+                        <h3 className="mt-1 text-base font-semibold text-zinc-900">
+                          {group.title} for økta
+                        </h3>
+                        <p className="mt-2 pr-6 text-sm leading-6 text-zinc-700">
+                          {group.items.length} valgt {group.items.length === 1 ? "tema" : "temaer"}. {group.description}
                         </p>
-                      ) : null}
-                    </article>
+                        <p className="mt-2 text-xs font-medium text-sky-800">Trykk for å vise alle</p>
+                      </summary>
+
+                      <div className="mt-4 space-y-3 border-t border-sky-100 pt-4">
+                        {group.items.map((item) => (
+                          <article key={item.id} className="rounded-2xl bg-sky-50/70 p-4">
+                            <h4 className="text-sm font-semibold text-zinc-900">{item.title}</h4>
+                            <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
+                            {item.playerMessage ? (
+                              <p className="mt-3 text-sm leading-6 text-zinc-700">
+                                <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}
+                              </p>
+                            ) : null}
+                            {item.coachNote ? (
+                              <p className="mt-2 text-sm leading-6 text-zinc-700">
+                                <span className="font-semibold text-zinc-900">Til trener:</span> {item.coachNote}
+                              </p>
+                            ) : null}
+                            {item.sections?.map((section) => (
+                              <section key={section.title} className="mt-3 space-y-2 rounded-2xl bg-white p-4">
+                                <h5 className="text-xs font-semibold uppercase tracking-wide text-sky-800">
+                                  {section.title}
+                                </h5>
+                                {section.paragraphs?.map((paragraph) => (
+                                  <p key={paragraph} className="text-sm leading-6 text-zinc-700">
+                                    {paragraph}
+                                  </p>
+                                ))}
+                                {section.bullets?.length ? (
+                                  <ul className="space-y-1 text-sm leading-6 text-zinc-700">
+                                    {section.bullets.map((bullet) => (
+                                      <li key={bullet}>• {bullet}</li>
+                                    ))}
+                                  </ul>
+                                ) : null}
+                              </section>
+                            ))}
+                          </article>
+                        ))}
+                      </div>
+                    </details>
                   ))}
                 </div>
               </section>
