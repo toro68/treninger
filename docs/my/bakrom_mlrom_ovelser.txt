@@ -1,7 +1,74 @@
-De mest relevante UEFA-øvelsene
-1. Overtallsspill siste 1/3 – bakrom + mellomrom (A09, Aarsheim)
-9v6, halv bane, full bredde. Start: keeper kaster ut til stopper som velger direkte bakrom, sentral midtbane, eller mellomrom til innoverkant. Back skaper bredde på ballside. Coaching: true ulike rom samtidig, timing på pasning og løp, score mål.
-2. Ving rettvendt i mellomrom/sidekorridor (A10, Pereira)
-Gk+7v7+Gk, ca. 45x35m. Dutch rule: spillet starter hos keeper. Tre spillere holdes igjen på egen halvdel ved ballbesittelse, og forsvarende lag får bare forsvare i to korridorer. Målet er å få vingen rettvendt i offensiv halvdel, med tilgang på både mellomrom og bakrom.
-3. Ballbesittelse 8v8 + 2 frie (A19, Ståle Andersen)
-Avgrenset område uten mål. Poeng for pasninger eller gjenvinning innen 5 sek. God når dere vil trene tålmodighet, vending og nytt etablert angrep før dere spiller inn i mellomrom.
+Bakrom og mellomrom – relevante UEFA-øvelser
+
+Kjerneidé
+1. Tru bakrom først.
+2. Spill inn i mellomrom når bakre ledd faller eller strekkes.
+3. Vend eller start på nytt hvis bildet ikke er grønt.
+4. Ha restforsvar og gjenvinningsregel bak angrepet.
+
+Mest relevante øvelser
+
+1. Overtallsspill på siste 1/3-del (Lunde Aarsheim, a09)
+Format: 9v6 mot to mål med keepere på halv bane og full bredde.
+Kjerne: overgangsangrep der laget kan spille direkte bakrom, finne sentral midtbane eller spille inn i mellomrom til innoverkant, mens back skaper bredde på ballside.
+Bruk når: dere vil trene flere samtidige romtrusler, timing på pasning/løp og avslutning etter brudd.
+Coaching:
+- Utnytt gjenvinning og bli rettvendt tidlig.
+- True ulike rom samtidig.
+- Ikke lås deg til første løp.
+- Avslutt angrepet med kvalitet.
+
+2. Assist fase 1: Gk+7v7+Gk med låste linjer (Pereira, a10)
+Format: Gk+7v7+Gk på ca. 45x35 meter.
+Kjerne: kontrollert restart hos keeper, tre spillere holdes igjen på egen halvdel ved ballbesittelse, og forsvarende lag forsvarer bare posisjonelt i to korridorer. Målet er å få vingen rettvendt i offensiv halvdel.
+Bruk når: dere vil koble bredde, rettvendt mottak i mellomrom og videre spill mot mål eller bakrom.
+Coaching:
+- Frispill vingen rettvendt.
+- Bruk bredde og mellomrom til å åpne bakrom.
+- Tving fram etablert angrep, ikke bare åpen kontring.
+- Behold nok folk bak og rundt ball til at mottaket blir kampnært.
+
+3. Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning) (Andersen, a19)
+Format: 8v8 + 2 frie på avgrenset område uten mål.
+Kjerne: poeng for pasninger eller gjenvinning innen 5 sekunder. Øvelsen trener tålmodighet, vending og nytt angrep før gjennombruddet kommer.
+Bruk når: dere vil lære spillerne å vente på riktig øyeblikk før dere spiller inn i mellomrom.
+Coaching:
+- Bevar ball til motstander er flyttet feil.
+- Vend hvis dere ikke har en klar vei fram.
+- 5 sek gjenvinn eller fall av med retning.
+- Hold intensitet og presisjon i valgene.
+
+4. 7v7+kantsoner (Røen, a13)
+Format: 7v7 + keeper(e) på 50x66,5 meter i 3-3-1 med innleggssoner og kantspillere.
+Kjerne: relasjonen sideback-indreløper, frispilling i rom 2 og innløp i boks når spillet åpnes på side.
+Bruk når: dere vil koble kantbredde, rettvendt indreløper og neste aksjon inn i boks.
+Coaching:
+- Frispill indreløper rettvendt i rom 2.
+- Utnytt overtall og løp inn i boks.
+- Les om bildet er kontring, overtall eller undertall.
+- Gjenvinn raskt eller reorganiser med én gang.
+
+Anbefalt rekkefølge i økt
+
+Variant 1 – mellomrom først
+1. Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning) (Andersen, a19)
+2. Assist fase 1: Gk+7v7+Gk med låste linjer (Pereira, a10)
+3. 7v7+kantsoner (Røen, a13)
+4. Overtallsspill på siste 1/3-del (Lunde Aarsheim, a09)
+
+Passer når dere vil starte med tålmodighet og beslutninger før dere går over i mer direkte bakroms- og overgangsbilder.
+
+Variant 2 – bakrom skaper mellomrom
+1. Overtallsspill på siste 1/3-del (Lunde Aarsheim, a09)
+2. Assist fase 1: Gk+7v7+Gk med låste linjer (Pereira, a10)
+3. 7v7+kantsoner (Røen, a13)
+4. Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning) (Andersen, a19)
+
+Passer når dere vil starte med trussel framover og deretter jobbe med hvordan den åpner neste rom.
+
+Hvis jeg bare skulle valgt tre
+1. Overtallsspill på siste 1/3-del (Lunde Aarsheim, a09)
+2. Assist fase 1: Gk+7v7+Gk med låste linjer (Pereira, a10)
+3. Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning) (Andersen, a19)
+
+Dette er den mest presise minipakken hvis hovedmålet er å lære spillerne: tru bakrom, spill inn i mellomrom, og start på nytt når bildet ikke er klart.

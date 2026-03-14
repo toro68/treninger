@@ -1,33 +1,55 @@
-Angripe bakrom, mellomrom og kanter – hvem gjør hva
-Prioritert rekkefølge (valgpyramide etter ballvinning):
-Direkte bakrom → mellomrom → vekk fra press. Rekkefølgen er bevisst: trussel i bakrom tvinger forsvaret til å falle, og da åpnes mellomrommet. Omvendt fungerer sjelden.
+Angripe bakrom, mellomrom og kanter – UEFA-notater
 
-BAKROM – slik truer vi bak forsvarslinja
-Spisser starter bakromsløp umiddelbart ved ballvinning. Variasjon er nøkkel: ballside-spiss truer bak stopper/back, mens spiss nr. 2 truer mellom stopperne eller gjør bueløp bak 2. stopper. Samtidig bevegelse er avgjørende – det skaper usikkerhet hos forsvaret om hvem som skal følge hvem.
-Kanter/vinger velger motsatt av spissens bevegelse: går spiss i bakrom, holder kanten bredde (eller omvendt: møter spiss i fot, truer kanten bakrom). Indreløper kan også gå på bakromsløp fra mellomrom – statistikken fra Hiep Tran viser at dette er en svært hyppig kilde til sjanser, spesielt i norsk fotball.
-Pasningsleggere er typisk sentrale midtbanespillere eller stoppere. KFUM-analysen (Ståle Andersen) peker på at kun utvalgte spillere med riktig pasningsfot bør slå disse pasningene – ikke alle.
-Vanligste feil: for tidlig pasning på «første bevegelse». Brodds analyse viste 52 mislykkede overganger på 4 kamper, hovedsakelig grunnet dårlig timing mellom passer og løper.
+Prioritert rekkefølge (valghierarki fra UEFA-oppgavene):
+Bakrom når det er åpent → mellomrom rettvendt → vekk fra press og start på nytt.
 
-MELLOMROM – slik spiller vi gjennom motstanderens pressledd
-Forutsetning: bakromstrussel har fått forsvaret til å falle. Da oppstår rom mellom midtbane- og forsvarsledd.
-Innoverkanter skjærer inn fra breddeposisjon og tilbyr seg rettvendt i mellomrommet. Går kanten inn, løfter backen seg for å gi bredde (dette er en fast regel). Én sentral midtbanespiller splitter seg opp i rommet bak spissene, mens den andre sikrer bak ballen.
-Varegg-analysen (Hiep Tran) viser at 78 % av vellykkede angrep kom via gjennombrudd i mellomrom. Vending av spill med pådrag fra ballfører er det vanligste virkemiddelet for å åpne mellomrommet mot lav blokk.
-Rettvendt mottak er alfa og omega. Spilleren som mottar i mellomrom må ha orientert seg før ballen kommer – ellers mister man tempofordelen.
+Dette går igjen særlig i overgangsoppgaven, vingerollen, sideback-indreløper-oppgaven og angrep mot etablert forsvar: tru rommet bak først, bruk det til å få motstander til å falle eller strekke seg, og spill så inn i mellomrom eller vend spillet hvis bildet ikke er grønt.
 
-KANTER – bredde som verktøy, ikke mål i seg selv
-Kantspill handler om å skape dilemma: backs bredde tvinger motstander til å velge mellom å følge ut eller holde sentralt. Overlapp fra back skaper overtall ute. Underlapp (back går mellom stopper og back hos motstander) gir variasjon.
-Etter gjennombrudd på kant: cut-back/45-graderspasning inn i boks er mer effektivt enn høye innlegg. Boksfylling krever at spiss tar 1. stolpe, kant/indreløper fyller bakre, og én tar returrom.
+BAKROM – hva UEFA-oppgavene peker på
+Bakromstrusselen må komme tidlig nok til at bakre ledd må ta et valg. I overgangsoppgaven (Lunde Aarsheim, a09) er poenget å true flere rom samtidig i overgangen, ikke låse seg til første løp eller første pasning. Timing mellom passer og løper er viktigere enn ren fart.
 
-Konkrete læringspunkt for videreformidling
-Til spillerne:
-Bevegelsene må true ulike rom samtidig, helst med motsatte bevegelser. Løpene skal utløse pasninger – ikke omvendt. Timing mellom passer og løper er viktigere enn fart. Orientér deg før du mottar. Når du er i tvil: «vent – flytt dem – så stikk.»
-Til trenere:
-Tren valg mer enn utførelse (spørrende coaching: «hvor er rommet nå?»). Balansekrav: 3 bak + 2 midtbane som sikrer, alltid. Mål vellykket overgang-rate, gjennombrudd i mellomrom, og vendinger pr. kamp. Forutsigbare bevegelsesmønstre dreper effekten – krev variasjon.
+I praksis:
+Spiss eller ballside-løper truer bak stopper/back.
+En annen spiller holder eller angriper et annet rom samtidig, slik at forsvarslinja ikke bare kan falle samlet mot én trussel.
+Ballfører må lese om det faktisk er grønt lys framover, ellers må laget spille vekk fra press og bygge på nytt.
 
-De mest relevante UEFA-øvelsene
-1. Overtallsspill siste 1/3 – bakrom + mellomrom (A09, Aarsheim)
-9v6, halv bane, full bredde. Start: keeper kaster ut til stopper som velger direkte bakrom, sentral midtbane, eller mellomrom til innoverkant. Back skaper bredde på ballside. Coaching: true ulike rom samtidig, timing på pasning og løp, score mål.
-2. Ving rettvendt i mellomrom/sidekorridor (A10, Pereira)
-Gk+7v7+Gk, ca. 45x35m. Dutch rule: spillet starter hos keeper. Tre spillere holdes igjen på egen halvdel ved ballbesittelse, og forsvarende lag får bare forsvare i to korridorer. Målet er å få vingen rettvendt i offensiv halvdel, med tilgang på både mellomrom og bakrom.
-3. Ballbesittelse 8v8 + 2 frie (A19, Ståle Andersen)
-Avgrenset område uten mål. Poeng for pasninger eller gjenvinning innen 5 sek. God når dere vil trene tålmodighet, vending og nytt etablert angrep før dere spiller inn i mellomrom.
+MELLOMROM – hva UEFA-oppgavene peker på
+I vingerollen (Pereira, a10) er målet å få vingen rettvendt i offensiv halvdel med tilgang til både mellomrom og bakrom. I sideback-indreløper-oppgaven (Røen, a13) er nøkkelen SB-IL-relasjonen: frispill indreløper rettvendt i rom 2 og skap neste fordel derfra.
+
+I praksis:
+Spilleren som skal inn i mellomrom må orientere seg før ballen kommer.
+Rettvendt mottak skal brukes til å true framover, ikke bare sikre neste pasning.
+Hvis mottaker går inn, må breddeansvaret være tydelig utenfor ball.
+Hvis mellomrom stenges, skal laget kunne vende eller starte på nytt uten å tvinge gjennomspill.
+
+KANTER – hva UEFA-oppgavene peker på
+Vingerollen (Pereira, a10) og sideback-indreløper-oppgaven (Røen, a13) viser bredde som et verktøy for å åpne sentrum eller bakrom, ikke som et mål i seg selv. Bredde, sidekorridor og timede løp skal skape dilemma for back/forsvarsledd og åpne neste pasning eller neste løp.
+
+I praksis:
+Hold nok bredde til å strekke motstander før innløp eller diagonale bevegelser.
+Back og kant må ikke gjøre samme løp samtidig i samme rom.
+Bruk bredde til å åpne rettvendte mottak og innlegg/cutback, ikke bare for å komme seg ut på siden.
+
+RESTFORSVAR OG GJENVINNING
+Dette er en del av samme tema i UEFA-materialet. Overgangsoppgaven (Lunde Aarsheim, a09) peker på 3+2-balanse bak ballen, mens angrep mot etablert forsvar (Andersen, a19) trener 5-sek gjenvinning eller tydelig fall-av. Dere skal kunne angripe bakrom og mellomrom uten at laget blir helt åpent ved balltap.
+
+Læringspunkt til spillerne
+Tru ulike rom samtidig.
+Ikke spill på første bevegelse bare fordi den finnes.
+Rettvendt mottak skal true framover.
+Hvis bildet ikke er grønt: vend eller spill vekk fra press.
+Vent, flytt dem, så stikk.
+
+Læringspunkt til trenere
+Coach valg og timing mer enn bare utførelse.
+Still spørsmål om hvilket rom som faktisk er åpent nå.
+Krev tydelig breddeansvar og tydelig sikring bak ball.
+Mål om dere faktisk får rettvendte mottak, gjennombrudd og kontrollert gjenvinning.
+
+Mest relevante UEFA-øvelser
+Overtallsspill på siste 1/3-del (Lunde Aarsheim, a09). Best når dere vil koble bakromstrussel, mellomromspasning og avslutning i overgang.
+Assist fase 1: Gk+7v7+Gk med låste linjer (Pereira, a10). Best når dere vil frispille ving rettvendt i offensiv halvdel.
+Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning) (Andersen, a19). Best når dere vil trene tålmodighet, vending og nytt angrep inn i mellomrom.
+7v7+kantsoner (Røen, a13). Best som relasjonsøvelse for sideback og indreløper når dere vil koble bredde, rom 2 og boksinnløp.
+
+Detaljert øvelsesoversikt ligger i bakrom_mlrom_ovelser.txt.
