@@ -1,4 +1,4 @@
-import { getExerciseCode } from "@/data/exercises";
+import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getUnit, recommendedDuration, SessionBlock } from "@/store/sessionStore";
 
 export type PrintablePart = {
@@ -7,7 +7,15 @@ export type PrintablePart = {
   blocks: SessionBlock[];
 };
 
-const buildSectionMarkup = (part: PrintablePart) => {
+const resolveAlternativeExercises = (
+  block: SessionBlock,
+  exerciseLibrary: Exercise[]
+) =>
+  (block.alternativeExerciseIds ?? [])
+    .map((id) => exerciseLibrary.find((exercise) => exercise.id === id))
+    .filter((exercise): exercise is Exercise => !!exercise);
+
+const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) => {
   if (part.blocks.length === 0) {
     return "";
   }
@@ -18,6 +26,7 @@ const buildSectionMarkup = (part: PrintablePart) => {
       const unit = getUnit(block);
       const code = getExerciseCode(block.exercise);
       const equipment = block.exercise.equipment.join(", ");
+      const alternativeExercises = resolveAlternativeExercises(block, exerciseLibrary);
 
       const coachingPoints = block.exercise.coachingPoints
         .map((point) => `<li>${point}</li>`)
@@ -25,6 +34,13 @@ const buildSectionMarkup = (part: PrintablePart) => {
 
       const variations = block.exercise.variations
         .map((variation) => `<li>${variation}</li>`)
+        .join("");
+
+      const alternatives = alternativeExercises
+        .map(
+          (exercise) =>
+            `<li><span class="code">${getExerciseCode(exercise)}</span> ${exercise.name}</li>`
+        )
         .join("");
 
       return `
@@ -59,6 +75,16 @@ const buildSectionMarkup = (part: PrintablePart) => {
               `
               : ""
           }
+          ${
+            alternatives
+              ? `
+                <div class="alternatives">
+                  <span class="coaching-title">Alternative øvelser:</span>
+                  <ul>${alternatives}</ul>
+                </div>
+              `
+              : ""
+          }
         </div>
       `;
     })
@@ -87,8 +113,9 @@ const baseStyles = `
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   .exercise-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
   .exercise-desc { font-size: 13px; line-height: 1.35; }
-  .coaching, .variations { margin-top: 10px; font-size: 12px; }
+  .coaching, .variations, .alternatives { margin-top: 10px; font-size: 12px; }
   .coaching-title { font-weight: 600; color: #374151; display: inline-block; margin-bottom: 2px; }
+  .alternatives .code { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; margin-right: 6px; padding: 1px 6px; font-size: 10px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   ul { margin: 0 0 0 18px; padding: 0; }
   ul li { margin-bottom: 2px; }
   @media print { body { padding: 20px; } }
@@ -98,12 +125,14 @@ export const buildPrintDocument = ({
   parts,
   totalMinutes,
   playerCount,
+  exerciseLibrary,
 }: {
   parts: PrintablePart[];
   totalMinutes: number;
   playerCount: number;
+  exerciseLibrary: Exercise[];
 }) => {
-  const sections = parts.map(buildSectionMarkup).join("");
+  const sections = parts.map((part) => buildSectionMarkup(part, exerciseLibrary)).join("");
 
   return `
     <!DOCTYPE html>
@@ -126,6 +155,7 @@ export const openPrintWindowForSession = (params: {
   parts: PrintablePart[];
   totalMinutes: number;
   playerCount: number;
+  exerciseLibrary: Exercise[];
 }) => {
   if (typeof window === "undefined") return;
   if (params.parts.length === 0) return;

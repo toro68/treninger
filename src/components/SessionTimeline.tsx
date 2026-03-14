@@ -1,5 +1,5 @@
-import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit } from "@/store/sessionStore";
-import { getExerciseCode } from "@/data/exercises";
+import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
+import { Exercise, getExerciseCode } from "@/data/exercises";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { useState, useEffect, useMemo } from "react";
 
@@ -23,6 +23,7 @@ export const SessionTimeline = () => {
     [selectedExerciseIds, exerciseLibrary, plannedBlocks]
   );
   const playerCount = useSessionStore((state) => state.playerCount);
+  const stationCount = useSessionStore((state) => state.stationCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
 
@@ -34,6 +35,7 @@ export const SessionTimeline = () => {
   }, []);
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [alternativeMenuForBlockId, setAlternativeMenuForBlockId] = useState<string | null>(null);
   const [shareStatus, setShareStatus] = useState<
     "idle" | "copied" | "shared" | "error"
   >("idle");
@@ -75,6 +77,42 @@ export const SessionTimeline = () => {
     0
   );
 
+  const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
+    (block.alternativeExerciseIds ?? [])
+      .map((id) => exerciseLibrary.find((exercise) => exercise.id === id))
+      .filter((exercise): exercise is Exercise => !!exercise);
+
+  const getAvailableAlternatives = (block: SessionBlock): Exercise[] => {
+    const existing = new Set(block.alternativeExerciseIds ?? []);
+    const playersPerStation =
+      stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+    const relevantPlayersPerStation =
+      block.exercise.category === "station" || block.exercise.category === "rondo"
+        ? playersPerStation
+        : undefined;
+
+    return exerciseLibrary
+      .filter((exercise) => exercise.category === block.exercise.category)
+      .filter((exercise) => exercise.id !== block.exercise.id)
+      .filter((exercise) => !existing.has(exercise.id))
+      .sort((a, b) => {
+        const aFit = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
+        const bFit = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
+        if (aFit !== bFit) return aFit - bFit;
+
+        const aThemeMatch = a.theme === block.exercise.theme ? 0 : 1;
+        const bThemeMatch = b.theme === block.exercise.theme ? 0 : 1;
+        if (aThemeMatch !== bThemeMatch) return aThemeMatch - bThemeMatch;
+
+        const aDurationDiff = Math.abs(a.duration - block.exercise.duration);
+        const bDurationDiff = Math.abs(b.duration - block.exercise.duration);
+        if (aDurationDiff !== bDurationDiff) return aDurationDiff - bDurationDiff;
+
+        return a.name.localeCompare(b.name, "nb");
+      })
+      .slice(0, 5);
+  };
+
   const handleDurationChange = (index: number, value: number) => {
     if (Number.isNaN(value) || value <= 0) return;
     const updated = sessionBlocks.map((block, idx) =>
@@ -87,6 +125,35 @@ export const SessionTimeline = () => {
     const updated = sessionBlocks.map((block, idx) =>
       idx === index ? { ...block, customUnit: unit } : block
     );
+    setPlannedBlocks(updated);
+  };
+
+  const addAlternativeExercise = (index: number, alternativeExerciseId: string) => {
+    if (!alternativeExerciseId) return;
+    const updated = sessionBlocks.map((block, idx) => {
+      if (idx !== index) return block;
+      const nextIds = new Set(block.alternativeExerciseIds ?? []);
+      nextIds.add(alternativeExerciseId);
+      return {
+        ...block,
+        alternativeExerciseIds: [...nextIds],
+      };
+    });
+    setPlannedBlocks(updated);
+    setAlternativeMenuForBlockId(null);
+  };
+
+  const removeAlternativeExercise = (index: number, alternativeExerciseId: string) => {
+    const updated = sessionBlocks.map((block, idx) => {
+      if (idx !== index) return block;
+      const nextIds = (block.alternativeExerciseIds ?? []).filter(
+        (id) => id !== alternativeExerciseId
+      );
+      return {
+        ...block,
+        alternativeExerciseIds: nextIds.length > 0 ? nextIds : undefined,
+      };
+    });
     setPlannedBlocks(updated);
   };
 
@@ -118,6 +185,9 @@ export const SessionTimeline = () => {
     const removed = sessionBlocks[index];
     const updated = sessionBlocks.filter((_, idx) => idx !== index);
     setPlannedBlocks(updated);
+    setAlternativeMenuForBlockId((current) =>
+      current === removed?.id ? null : current
+    );
     if (removed && !removed.exercise.alwaysIncluded) {
       toggleExercise(removed.exercise.id);
     }
@@ -125,10 +195,14 @@ export const SessionTimeline = () => {
 
   const buildShortSummary = () => {
     return sessionBlocks
-      .map(
-        (block, index) =>
-          `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}`
-      )
+      .map((block, index) => {
+        const alternatives = getAlternativeExercises(block);
+        const alternativeText =
+          alternatives.length > 0
+            ? ` (alt: ${alternatives.map((exercise) => exercise.name).join(" / ")})`
+            : "";
+        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}`;
+      })
       .join("\n");
   };
 
@@ -152,6 +226,7 @@ export const SessionTimeline = () => {
       part.blocks.forEach(({ block }) => {
         const duration = recommendedDuration(block);
         const unit = getUnit(block);
+        const alternatives = getAlternativeExercises(block);
         result += `\n[${getExerciseCode(block.exercise)}] ${block.exercise.name} (${duration} ${unit})\n`;
         result += `${block.exercise.description}\n`;
 
@@ -166,6 +241,13 @@ export const SessionTimeline = () => {
           result += "\nVariasjoner:\n";
           block.exercise.variations.forEach((variation) => {
             result += `• ${variation}\n`;
+          });
+        }
+
+        if (alternatives.length > 0) {
+          result += "\nAlternative øvelser:\n";
+          alternatives.forEach((exercise) => {
+            result += `• [${getExerciseCode(exercise)}] ${exercise.name}\n`;
           });
         }
       });
@@ -211,6 +293,7 @@ export const SessionTimeline = () => {
         parts: printableParts,
         totalMinutes,
         playerCount,
+        exerciseLibrary,
       });
     } catch (error) {
       console.error("Print failed", error);
@@ -371,63 +454,119 @@ export const SessionTimeline = () => {
                             onDragStart={() => handleDragStart(globalIndex)}
                             onDragOver={handleDragOver}
                             onDrop={() => handleDrop(globalIndex)}
-                            className={`flex items-center gap-2 rounded-lg border bg-zinc-50 px-3 py-2 transition ${
+                            className={`rounded-lg border bg-zinc-50 px-3 py-2 transition ${
                               dragIndex === globalIndex ? "border-black" : "border-zinc-100"
                             }`}
                           >
-                            {/* Flytt-knapper for mobil */}
-                            <div className="flex flex-col gap-0.5 sm:hidden">
-                              <button
-                                onClick={() => moveBlock(globalIndex, "up")}
-                                disabled={globalIndex === 0}
-                                className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                              >
-                                ↑
-                              </button>
-                              <button
-                                onClick={() => moveBlock(globalIndex, "down")}
-                                disabled={globalIndex === sessionBlocks.length - 1}
-                                className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                              >
-                                ↓
-                              </button>
-                            </div>
-
-                            <p className="flex-1 text-sm text-zinc-900 truncate">
-                              <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
-                                {getExerciseCode(block.exercise)}
-                              </span>
-                              {block.exercise.name}
-                            </p>
-
-                            <div className="flex items-center gap-1.5 shrink-0">
-                              <input
-                                type="number"
-                                min={1}
-                                max={99}
-                                value={recommendedDuration(block)}
-                                onChange={(event) =>
-                                  handleDurationChange(globalIndex, Number(event.target.value))
-                                }
-                                className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
-                              />
-                              <select
-                                value={getUnit(block)}
-                                onChange={(e) => handleUnitChange(globalIndex, e.target.value as DurationUnit)}
-                                className="rounded border border-zinc-200 px-1 py-1 text-xs text-zinc-600 focus:border-black focus:outline-none bg-white cursor-pointer"
-                              >
-                                <option value="min">min</option>
-                                <option value="reps">reps</option>
-                              </select>
-                              {!block.exercise.alwaysIncluded && (
+                            <div className="flex items-center gap-2">
+                              <div className="flex flex-col gap-0.5 sm:hidden">
                                 <button
-                                  onClick={() => removeBlock(globalIndex)}
-                                  className="rounded p-1 text-zinc-400 hover:bg-zinc-200 hover:text-zinc-600"
-                                  title="Fjern"
+                                  onClick={() => moveBlock(globalIndex, "up")}
+                                  disabled={globalIndex === 0}
+                                  className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
                                 >
-                                  ×
+                                  ↑
                                 </button>
-                              )}
+                                <button
+                                  onClick={() => moveBlock(globalIndex, "down")}
+                                  disabled={globalIndex === sessionBlocks.length - 1}
+                                  className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
+                                >
+                                  ↓
+                                </button>
+                              </div>
+
+                              <div className="min-w-0 flex-1">
+                                <p className="text-sm text-zinc-900 truncate">
+                                  <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
+                                    {getExerciseCode(block.exercise)}
+                                  </span>
+                                  {block.exercise.name}
+                                </p>
+                                {getAlternativeExercises(block).length > 0 && (
+                                  <div className="mt-2 flex flex-wrap gap-1.5">
+                                    {getAlternativeExercises(block).map((exercise) => (
+                                      <span
+                                        key={exercise.id}
+                                        className="inline-flex items-center gap-1 rounded-full border border-amber-200 bg-amber-50 px-2 py-1 text-[11px] text-amber-900"
+                                      >
+                                        <span className="font-medium">Alt:</span>
+                                        <span>{getExerciseCode(exercise)} {exercise.name}</span>
+                                        <button
+                                          type="button"
+                                          onClick={() => removeAlternativeExercise(globalIndex, exercise.id)}
+                                          className="rounded-full px-1 text-amber-700 hover:bg-amber-100"
+                                          title="Fjern alternativ"
+                                        >
+                                          ×
+                                        </button>
+                                      </span>
+                                    ))}
+                                  </div>
+                                )}
+                                {!block.exercise.alwaysIncluded && (
+                                  <div className="mt-2 flex flex-wrap items-center gap-2">
+                                    <button
+                                      type="button"
+                                      onClick={() =>
+                                        setAlternativeMenuForBlockId((current) =>
+                                          current === block.id ? null : block.id
+                                        )
+                                      }
+                                      className="rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-[11px] text-zinc-600 transition hover:border-zinc-400"
+                                    >
+                                      Legg til alternativ
+                                    </button>
+                                    {alternativeMenuForBlockId === block.id && (
+                                      <select
+                                        defaultValue=""
+                                        onChange={(event) => {
+                                          addAlternativeExercise(globalIndex, event.target.value);
+                                          event.currentTarget.value = "";
+                                        }}
+                                        className="max-w-full rounded-full border border-zinc-200 bg-white px-3 py-1 text-[11px] text-zinc-700 focus:border-black focus:outline-none"
+                                      >
+                                        <option value="">Velg alternativ i samme kategori</option>
+                                        {getAvailableAlternatives(block).map((exercise) => (
+                                          <option key={exercise.id} value={exercise.id}>
+                                            {getExerciseCode(exercise)} {exercise.name}
+                                          </option>
+                                        ))}
+                                      </select>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+
+                              <div className="flex items-center gap-1.5 shrink-0 self-start">
+                                <input
+                                  type="number"
+                                  min={1}
+                                  max={99}
+                                  value={recommendedDuration(block)}
+                                  onChange={(event) =>
+                                    handleDurationChange(globalIndex, Number(event.target.value))
+                                  }
+                                  className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
+                                />
+                                <select
+                                  value={getUnit(block)}
+                                  onChange={(e) => handleUnitChange(globalIndex, e.target.value as DurationUnit)}
+                                  className="rounded border border-zinc-200 px-1 py-1 text-xs text-zinc-600 focus:border-black focus:outline-none bg-white cursor-pointer"
+                                >
+                                  <option value="min">min</option>
+                                  <option value="reps">reps</option>
+                                </select>
+                                {!block.exercise.alwaysIncluded && (
+                                  <button
+                                    onClick={() => removeBlock(globalIndex)}
+                                    className="rounded p-1 text-zinc-400 hover:bg-zinc-200 hover:text-zinc-600"
+                                    title="Fjern"
+                                  >
+                                    ×
+                                  </button>
+                                )}
+                              </div>
                             </div>
                           </div>
                         ))}

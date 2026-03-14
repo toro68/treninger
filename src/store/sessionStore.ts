@@ -9,12 +9,14 @@ export type SessionBlock = {
   exercise: Exercise;
   customDuration?: number;
   customUnit?: DurationUnit;
+  alternativeExerciseIds?: string[];
 };
 
 type SerializedBlock = {
   id: string;
   customDuration?: number;
   customUnit?: DurationUnit;
+  alternativeExerciseIds?: string[];
 };
 
 type SessionState = {
@@ -161,10 +163,14 @@ type PersistedSessionStorageValue = StorageValue<PersistedSessionState>;
 
 const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock[] | null => {
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
-  return blocks.map(({ id, customDuration, customUnit }) => ({
+  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds }) => ({
     id,
     customDuration,
     customUnit,
+    alternativeExerciseIds:
+      Array.isArray(alternativeExerciseIds) && alternativeExerciseIds.length > 0
+        ? alternativeExerciseIds
+        : undefined,
   }));
 };
 
@@ -176,6 +182,16 @@ const hydratePlannedBlocks = (
   const ensureUnit = (unit?: unknown): DurationUnit | undefined => {
     if (unit === "min" || unit === "reps") return unit;
     return undefined;
+  };
+  const ensureAlternativeExerciseIds = (ids?: unknown, currentExerciseId?: string) => {
+    if (!Array.isArray(ids)) return undefined;
+    const nextIds = ids.filter(
+      (id): id is string =>
+        typeof id === "string" &&
+        id !== currentExerciseId &&
+        exerciseLibrary.some((exercise) => exercise.id === id)
+    );
+    return nextIds.length > 0 ? nextIds : undefined;
   };
 
   if (Array.isArray(value)) {
@@ -193,6 +209,10 @@ const hydratePlannedBlocks = (
               ? (entry as SerializedBlock).customDuration
               : undefined,
           customUnit: ensureUnit((entry as SerializedBlock).customUnit),
+          alternativeExerciseIds: ensureAlternativeExerciseIds(
+            (entry as SerializedBlock).alternativeExerciseIds,
+            exercise.id
+          ),
         });
       } else if (
         typeof entry === "object" &&
@@ -211,6 +231,10 @@ const hydratePlannedBlocks = (
               ? (entry as SessionBlock).customDuration
               : undefined,
           customUnit: ensureUnit((entry as SessionBlock).customUnit),
+          alternativeExerciseIds: ensureAlternativeExerciseIds(
+            (entry as SessionBlock).alternativeExerciseIds,
+            exercise.id
+          ),
         });
       }
     });
@@ -473,7 +497,7 @@ const isDivisorMatch = (total: number, groupSize: number): boolean => {
 
 // Hjelpefunksjon: Beregner hvor godt en øvelse passer til antallet
 // Returnerer: 0 = perfekt match, 1 = nesten (1-2 rest), 2 = passer ikke
-const getExerciseFitScore = (
+export const getExerciseFitScore = (
   exercise: Exercise,
   playerCount: number,
   playersPerStation?: number

@@ -18,65 +18,19 @@ Kort uttrekk av de UEFA-øvelsene i repoet som best trener sammenhengen mellom:
 ## Mest relevante øvelser
 
 | Kode | Øvelse | Spillere | Hvorfor den er relevant |
-|------|--------|----------|--------------------------|
-| UEFA-A06-01 | Posisjonsspill med fokus på linjebrudd | 10 | Trener joker i mellomrom, rettvendt mottak og neste pasning fram i banen. |
-| UEFA-A02-01 | Tredjespiller i mellomrom | 12 | Ren mellomromsøvelse med tredjespiller-rolle og krav om involvering før gjennombrudd/scoring. |
-| UEFA-A18-02 | Pådrag for å åpne mellomrom | 14–16 | Trener ballfører til å binde ledd og finne rettvendt mottak før avslutning. |
-| UEFA-A19-02 | Spill mot delvis etablert | 12–16 | Angrep starter hos anker og trener valg: stikke, vende eller starte på nytt. |
+| ---- | ------ | -------- | ------------------------ |
+| UEFA-A19-02 | Ballbesittelse 8v8 + 2 frie | 16–20 | Trener tålmodighet, vendinger og 5-sek gjenvinning før dere spiller inn i mellomrom eller starter på nytt. |
 | UEFA-A13-02 | 7v7 + keeper med innleggssoner | 14–16 | God relasjonsøvelse for sideback + indreløper, frispilling i rom 2 og 2v1 på back. |
-| UEFA-A14-01/02 | Rolleøvelse for ballside 8 | 14–20 | Trener ballside indreløper bredt, motsatt 8 i balanse og frigjøring av sentralt rom. |
-| UEFA-A10-01 | Vinger-assist – Mellomrom | 14–16 | Kobler bakromstrussel, rettvendt kant i mellomrom og tredjemannsløp. |
-| A08-forslag | Mellomrom + 2 sek | 15 | God tilleggsspillform for playmaker som må motta i mellomrom og true bakrom raskt. |
+| UEFA-A10-01 | Ving rettvendt i mellomrom/sidekorridor | 14–16 | Kobler bakromstrussel, rettvendt ving i offensiv halvdel og videre spill inn bak eller inn mellom ledd. |
 
 ## Korte øvelsesnotater
 
-### 1. UEFA-A06-01 – Posisjonsspill med fokus på linjebrudd
+### 1. UEFA-A19-02 – Ballbesittelse 8v8 + 2 frie (5-sek gjenvinning)
 
-- Kilde: `docs/uefa/A06-sentral-midt-analyse-v2.md`
-- Format: 4v4+2 jokere
-- Bane: 20x15 med mellomromssone i midten
-- Nøkkelregel: ballen må gjennom joker i midtsonen
-- Bruk når: dere vil trene 6/8-er på scanning, kroppsstilling og linjebrudd
-
-Coaching cues:
-
-- Skann før mottak
-- Spill fram når du er rettvendt
-- Neste pasning bestemmes før første touch
-
-### 2. UEFA-A02-01 – Tredjespiller i mellomrom
-
-- Kilde: `docs/uefa/A02-angrep-analyse-v2.md`
-- Format: 4v2+2 jokere / 3 lag à 4
-- Bane: 30x25 med mellomromssone
-- Nøkkelregel: scoring eller gjennombrudd teller først etter involvering fra tredjespiller
-- Bruk når: dere vil trene sammenheng mellom mellomromsmottak og neste aksjon mot mål
-
-Coaching cues:
-
-- Vinkle kroppen for å se begge sider
-- Spill tredjemann, ikke stopp angrepet
-- Tempo opp i siste aksjon
-
-### 3. UEFA-A18-02 – Pådrag for å åpne mellomrom
-
-- Kilde: `docs/uefa/A18-hiep-tran-angrep-etablert-analyse-v2.md`
-- Format: 7v7 + keepere
-- Kjerne: poeng når ballfører binder 2. ledd og finner rettvendt mottak i mellomrom før avslutning
-- Bruk når: dere vil trene pådrag som verktøy for å skape rom, ikke bare spille rundt blokk
-
-Coaching cues:
-
-- Gå når 1F ikke får trykk
-- Slipp ballen i riktig øyeblikk
-- Mottaker må være rettvendt før neste aksjon
-
-### 4. UEFA-A19-02 – Spill mot delvis etablert (start hos anker)
-
-- Kilde: `docs/uefa/A19-angrep-mot-etablert-analyse-v2.md`
-- Format: spill mot delvis etablert forsvar
-- Nøkkelregel: angrep starter hos anker, og laget har 5 sek på gjenvinning ved balltap
-- Bruk når: dere vil trene valg mellom stikk i bakrom, pasning i mellomrom eller vende og starte på nytt
+- Kilde: `docs/uefa/A19-stale-andersen-angrep-etablert.txt`
+- Format: 8v8 + 2 frie på avgrenset område uten mål
+- Nøkkelregel: poeng for pasninger eller gjenvinning innen 5 sek, med ulike kriterier per intervall
+- Bruk når: dere vil trene tålmodighet, vende ved behov og gjenvinne raskt før nytt etablert angrep
 
 Coaching cues:
 
@@ -84,7 +38,7 @@ Coaching cues:
 - Vend hvis vi ikke har overtall
 - 5 sek gjenvinn eller fall av
 
-### 5. UEFA-A13-02 – 7v7 + keeper med innleggssoner
+### 2. UEFA-A13-02 – 7v7 + keeper med innleggssoner
 
 - Kilde: `docs/uefa/A13-sideback-indreloper-analyse-v2.md`
 - Format: 7v7 + keeper
@@ -98,27 +52,12 @@ Coaching cues:
 - Les klima: kontring, overtall eller undertall
 - 3+2 først hvis begge sider vil frem
 
-### 6. A14 – Rolleøvelser for indreløper i 4-3-1-2
+### 3. UEFA-A10-01 – Ving rettvendt i mellomrom/sidekorridor
 
-- Kilde: `docs/uefa/A14-indreloper-4312-analyse-v2.md`
-- Aktuelle forslag:
-  - faseøvelse 11v11/10v10 med ballside 8 bred
-  - posisjonsspill 7v7+3 med rollekrav
-- Bruk når: dere vil skape back-dilemma og frigjøre sentral spiller via bred ballside 8
-
-Coaching cues:
-
-- Ballside 8 skaper bredde
-- Motsatt 8 balanserer
-- Smalt først, så ut i rommet
-
-### 7. UEFA-A10-01 – Vinger-assist i mellomrom
-
-- Kilde: `docs/uefa/A10-implicit-winger-analyse-v2.md`
+- Kilde: `docs/uefa/A10-hugo-pereira-winger.txt`
 - Format: Gk+7v7+Gk
-- Bane: 45x35 med 10 m bakrom
-- Nøkkelregel: ving må motta rettvendt i mellomrom før scoring
-- Bruk når: dere vil knytte bakromstrussel på kant til mellomromsmottak og sistepasning
+- Kjerne: nederlandsk regelsett, tre spillere holdes igjen, og forsvarende lag kan kun forsvare i to korridorer i egen halvdel
+- Bruk når: dere vil frispille ving rettvendt i offensiv halvdel med både mellomrom og bakrom tilgjengelig
 
 Coaching cues:
 
@@ -126,44 +65,28 @@ Coaching cues:
 - Rettvendt før touch
 - Tredjemannsløp etter mottak
 
-### 8. A08 – Mellomrom + 2 sek
-
-- Kilde: `docs/uefa/A08-playmaker-analyse-v2.md`
-- Format: 6v6+3 possession
-- Nøkkelregel: playmaker har maks 2 sek/2 touch i mellomrom
-- Bruk når: dere vil øke tempoet på beslutningene til spilleren som skal forløse bakrom eller innleggspunkt
-
-Coaching cues:
-
-- Midt i rommet, ikke gjemt bak markør
-- To touch er nok
-- Trussel framover, ikke trygg sidelengs
-
 ## Anbefalt rekkefølge i en økt
 
 ### Variant 1 – mellomrom først
 
-1. UEFA-A06-01
-2. UEFA-A02-01
-3. UEFA-A18-02
-4. UEFA-A19-02
+1. UEFA-A19-02
+2. UEFA-A10-01
+3. UEFA-A13-02
 
-Passer når målet er rettvendt mottak, tredjemannsspill og linjebrudd sentralt.
+Passer når målet er rettvendt mottak og valg mellom gjennomspill, vending eller nytt angrep.
 
 ### Variant 2 – bakrom skaper mellomrom
 
 1. UEFA-A10-01
 2. UEFA-A13-02
-3. A14 faseøvelse
-4. UEFA-A19-02
+3. UEFA-A19-02
 
 Passer når målet er å skape rom via bredde, bakromsløp og relasjonen mellom side og sentrum.
 
 ## Hvis jeg bare skulle valgt fire
 
-1. UEFA-A06-01
-2. UEFA-A02-01
-3. UEFA-A18-02
-4. UEFA-A19-02
+1. UEFA-A10-01
+2. UEFA-A13-02
+3. UEFA-A19-02
 
 Dette er den mest presise minipakken hvis hovedmålet er å lære spillerne: tru bakrom, spill inn i mellomrom, og angrip før blokka rekker å sette seg.

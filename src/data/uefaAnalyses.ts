@@ -109,16 +109,13 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a04-messi", tekst: "Messi-rolle: driv når rommet åpner seg (snitt 3,0 touch)", rolle: "Spiss" },
       { id: "a04-dirigent", tekst: "Dirigent (Xavi) styrer touch-krav (snitt 2,8 touch)", rolle: "Sentral midtbane" },
     ],
-    ovelser: [
-      { kode: "uefa-a04-01" },
-      { kode: "uefa-a04-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Tempo", gjor: "Rop 'Tempo!' når laget skal inn i ett-touch", ikkeGjor: "Ikke la laget spille samme rytme hele kampen" },
       { kategori: "Kontroll", gjor: "Bruk 2-3 touch for å stoppe klokka", ikkeGjor: "Ikke forhaste pasninger ved ledelse" },
       { kategori: "Støtte", gjor: "Strekk maurtua – gi vinkler", ikkeGjor: "Ikke bli stående i samme rom" },
     ],
-    kildefil: "A04-barca-rytme-analyse-v2.md",
+    kildefil: "A04-finn-bredo-olsen-barca-rytme.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa_a_2012_oppgave_finn_bredo_olsen.pdf",
   },
 
@@ -148,10 +145,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a03-boks", tekst: "2. og 3. bevegelse i boks: første løp skaper rom, neste løp utnytter" },
       { id: "a03-z", tekst: "Z-løp for avslutter: inn mot stopper → rykk ut/tilbake i rommet som skapes" },
     ],
-    ovelser: [
-      { kode: "uefa-a03-01" },
-      { kode: "uefa-a03-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Avslutning", gjor: "Ta deg god tid før du setter ballen i mål", ikkeGjor: "Ikke skyt bare fordi du kan" },
       { kategori: "Plassering", gjor: "Førstevalg: lavt i hjørnet (tenk pasning i hjørnet)", ikkeGjor: "Ikke skyt i keeperhøyde når du har valg" },
@@ -160,7 +154,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kategori: "Innlegg", gjor: "Slå tidlige innlegg mellom forsvar og keeper, ofte langs bakken (cutback/45°)", ikkeGjor: "Ikke alltid gå til dødlinja og slå høyt" },
       { kategori: "Boks", gjor: "Kjør 2./3. bevegelse og Z-løp for å frigjøre avslutter", ikkeGjor: "Ikke stopp etter første rykk" },
     ],
-    kildefil: "A03-avslutning-analyse-v2.md",
+    kildefil: "A03-tom-selmer-avslutning.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_tom_selmer.pdf",
   },
   {
@@ -236,10 +230,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
         rolle: "Indreløper",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a02-01" },
-      { kode: "uefa-a02-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Tredjespiller", gjor: "Skann før mottak og ta med første touch i fart", ikkeGjor: "Ikke ta imot flatfotet og spill kun støtte" },
       { kategori: "Tredjespiller", gjor: "Involver kant/back når du får ballen – sett opp 1v1/innleggsrom", ikkeGjor: "Ikke lås spillet i smale rom uten bredde" },
@@ -248,7 +239,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { kategori: "Relasjoner", gjor: "Skap 2v1 på back med overlap/underlap + timing", ikkeGjor: "Ikke løp samme rom samtidig" },
       { kategori: "Etterpasning", gjor: "Etter avlevering: løp inn i boks/45° for å binde stopper og åpne rom", ikkeGjor: "Ikke bli stående og se på etter pasning" },
     ],
-    kildefil: "A02-angrep-analyse-v2.md",
+    kildefil: "A02-per-inge-jacobsen-angrep.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-per-inge-jacobsen.pdf",
   },
   // ──────────────────────────────────────────
@@ -282,8 +273,6 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a01-overgang", tekst: "Overgang imot: stoppere må vurdere risiko når de fører, og tåle 1v1 (forsink alltid!)" },
     ],
     ovelser: [
-      { kode: "uefa-a01-01" },
-      { kode: "uefa-a01-02" },
       { kode: "uefa-a01-03" },
       { kode: "uefa-a01-04" },
     ],
@@ -299,7 +288,7 @@ export const uefaAnalyses: UEFAAnalyse[] = [
   },
   // ──────────────────────────────────────────
   // A05: Mine suksesskriterier (Christer Basma)
-  // Kilde: docs/uefa/A05-basma-analyse-v2.md
+  // Kilde: docs/uefa/A05-christer-basma-suksesskriterier.txt
   // ──────────────────────────────────────────
   {
     id: "a05-suksesskriterier",
@@ -320,21 +309,18 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a05-valg", tekst: "Egen vurdering – ta riktige valg" },
       { id: "a05-etter", tekst: "Fokus på livet etter fotballen" },
     ],
-    ovelser: [
-      { kode: "uefa-a05-01" },
-      { kode: "uefa-a05-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Ansvar", gjor: "Ta ansvar for valgene dine", ikkeGjor: "La tilfeldigheter styre" },
       { kategori: "Balanse", gjor: "Trening + skole + sosialt", ikkeGjor: "Forsøm utdanning" },
       { kategori: "Miljø", gjor: "Skap trygghet og tro på spilleren", ikkeGjor: "Kritiser uten støtte" },
     ],
-    kildefil: "A05-basma-analyse-v2.md",
+    kildefil: "A05-christer-basma-suksesskriterier.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_christer_basma.pdf",
   },
   // ──────────────────────────────────────────
   // A06: Sentral midtbanerolle (Øyvind S. L. Iversen)
-  // Kilde: docs/uefa/A06-sentral-midt-analyse-v2.md
+  // Kilde: docs/uefa/A06-oyvind-iversen-sentral-midt.txt
   // ──────────────────────────────────────────
   {
     id: "a06-sentral-midt",
@@ -359,21 +345,19 @@ export const uefaAnalyses: UEFAAnalyse[] = [
       { id: "a06-framover", tekst: "Vurder alltid linjebrytende pasning (ref: 54% av pasninger går fremover)", rolle: "Sentral midtbane" },
       { id: "a06-rettvendt", tekst: "Søk rettvendthet i mellomrom (mål: 5-7 forsøk pr kamp)", rolle: "Sentral midtbane" }
     ],
-    ovelser: [
-        { kode: "uefa-a06-01" }
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Pasningsspill", gjor: "Slå pasning med intensjon – bryt en linje!", ikkeGjor: "Ikke slå støttepasning hvis du kan spille fremover." },
       { kategori: "Posisjonering", gjor: "Vær spillbar – tenk to trekk frem.", ikkeGjor: "Ikke gjem deg bak motstanderen." },
       { kategori: "Defensivt", gjor: "Tenk balanse før du støter.", ikkeGjor: "Ikke etterlat store rom bak deg." },
       { kategori: "Avslutning", gjor: "Avslutt angrep fra distanse for å hindre kontring.", ikkeGjor: "Ikke jakt umulige avslutninger i boks hvis du kan sikre balanse." }
     ],
-    kildefil: "A06-sentral-midt-analyse-v2.md",
+    kildefil: "A06-oyvind-iversen-sentral-midt.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oyvind-iversen.pdf",
   },
   // ──────────────────────────────────────────
   // A07: Hvordan bli en god målscorer (Sigurd Rushfeldt)
-  // Kilde: docs/uefa/A07-maalscorer-analyse-v2.md
+  // Kilde: docs/uefa/A07-sigurd-rushfeldt-maalscorer.txt
   // ──────────────────────────────────────────
   {
     id: "a07-maalscorer",
@@ -420,10 +404,7 @@ Treningsfokus:
       { id: "a07-presisjon", tekst: "Presisjon nær mål, kraft på distanse: innenfor 16 m → sikker innside/plassering", rolle: "Spiss" },
       { id: "a07-retur", tekst: "Etterarbeid: returløp er en vane (alltid)", rolle: "Spiss" },
     ],
-    ovelser: [
-      { kode: "uefa-a07-01" },
-      { kode: "uefa-a07-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Tid", gjor: "Er du usikker på tid, har du dårlig tid", ikkeGjor: "Ikke nøl i boks" },
       { kategori: "Avslutning", gjor: "1 touch i boks – bestem før mottak", ikkeGjor: "Ikke ta ekstra touch" },
@@ -431,7 +412,7 @@ Treningsfokus:
       { kategori: "Etterarbeid", gjor: "Retur er din jobb – alltid", ikkeGjor: "Ikke stopp når skuddet går" },
       { kategori: "Teknikk", gjor: "Nært mål = presisjon (innside)", ikkeGjor: "Ikke jakt kraft på kort hold" },
     ],
-    kildefil: "A07-maalscorer-analyse-v2.md",
+    kildefil: "A07-sigurd-rushfeldt-maalscorer.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf",
   },
 
@@ -481,10 +462,7 @@ Nøkkeltall (rolleprofil):
       { id: "a08-prinsipp-forlose", tekst: "Forløsning = presisjon + romforståelse (bakrom/innlegg + innsidevariasjon)" },
       { id: "a08-matchprep", tekst: "MatchPrep: avklar hvem du oftest skal forløse (9 først, deretter kant) og hvilke rom dere prioriterer" },
     ],
-    ovelser: [
-      { kode: "uefa-a08-01" },
-      { kode: "uefa-a08-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Fase 1", gjor: "Små steg – finn midten av rommet", ikkeGjor: "Ikke rykk-fri uten å lese romutviklingen" },
       { kategori: "Fase 1", gjor: "Vær sidevendt før ballen kommer", ikkeGjor: "Ikke bli låst feilvendt" },
@@ -495,12 +473,12 @@ Nøkkeltall (rolleprofil):
       { kategori: "Fase 3", gjor: "Kamufler før du stikker", ikkeGjor: "Ikke telegraphér pasningen" },
       { kategori: "Fase 3", gjor: "Innside = kontroll (tilpass til rommet)", ikkeGjor: "Ikke velg teknikk som ikke matcher rommet" },
     ],
-    kildefil: "A08-playmaker-analyse-v2.md",
+    kildefil: "A08-gard-holme-playmaker.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf",
   },
   // ──────────────────────────────────────────
   // A10: Vingerrolle (Hugo Pereira)
-  // Kilde: docs/uefa/A10-implicit-winger-analyse-v2.md
+  // Kilde: docs/uefa/A10-hugo-pereira-winger.txt
   // ──────────────────────────────────────────
   {
     id: "a10-winger",
@@ -569,7 +547,7 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke tving høyt skudd under tett press hvis lavt alternativ finnes",
       },
     ],
-    kildefil: "A10-implicit-winger-analyse-v2.md",
+    kildefil: "A10-hugo-pereira-winger.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf",
   },
 
@@ -655,13 +633,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Overgangsregler: etter brudd – kontring ved ubalanse, ellers sikre og etablere kontroll",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a11-01" },
-      { kode: "uefa-a11-02" },
-      { kode: "uefa-a11-03" },
-      { kode: "uefa-a11-04" },
-      { kode: "uefa-a11-05" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Sjansediff",
@@ -690,7 +662,7 @@ Nøkkeltall (rolleprofil):
 
   // ──────────────────────────────────────────
   // A12: Angrepsspill (Anders Fredriksen)
-  // Kilde: docs/uefa/A12-anders-fredriksen-angrepsspill-ANALYSE-v2.md
+  // Kilde: docs/uefa/A12-anders-fredriksen-angrepsspill.txt
   // ──────────────────────────────────────────
   {
     id: "a12-angrepsspill",
@@ -765,10 +737,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Følg kampdimensjon: mål/angrep kommer ofte på få pasninger, men mye skjer også etter 10–16+ sek (tålmodighet)",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a12-01" },
-      { kode: "uefa-a12-02" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Valg",
@@ -791,13 +760,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke forveksle tempo med stress",
       },
     ],
-    kildefil: "A12-anders-fredriksen-angrepsspill-ANALYSE-v2.md",
+    kildefil: "A12-anders-fredriksen-angrepsspill.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-anders-fredriksen.pdf",
   },
 
   // ──────────────────────────────────────────
   // A13: Sideback/indreløper (Arnstein Røen)
-  // Kilde: docs/uefa/A13-sideback-indreloper-analyse-v2.md
+  // Kilde: docs/uefa/A13-arnstein-roen-sideback-indreloper.txt
   // ──────────────────────────────────────────
   {
     id: "a13-sideback-indreloper",
@@ -867,13 +836,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke bli stående uten innløp når vi etablerer på siste tredel",
       },
     ],
-    kildefil: "A13-sideback-indreloper-analyse-v2.md",
+    kildefil: "A13-arnstein-roen-sideback-indreloper.txt",
     oppgaveUrl: "https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-arnstein-roen.pdf",
   },
 
   // ──────────────────────────────────────────
   // A14: Indreløper i 4-3-1-2 (Magnus Oltedal)
-  // Kilde: docs/uefa/A14-indreloper-4312-analyse-v2.md
+  // Kilde: docs/uefa/A14-magnus-oltedal-indreloper.txt
   // Rå kilde: docs/uefa/A14-magnus-oltedal-indreloper.txt
   // ──────────────────────────────────────────
   {
@@ -937,11 +906,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Kompakt ramme: hold laget kort og smalt (30/40) før dere går i brudd",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a14-01" },
-      { kode: "uefa-a14-02" },
-      { kode: "uefa-a14-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Rollebalanse",
@@ -964,13 +929,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke jage ball med for store avstander i laget",
       },
     ],
-    kildefil: "A14-indreloper-4312-analyse-v2.md",
+    kildefil: "A14-magnus-oltedal-indreloper.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A15: Innlegg i Tippeligaen (Gard Kristiansen)
-  // Kilde: docs/uefa/A15-innlegg-2015-analyse-v2.md
+  // Kilde: docs/uefa/A15-gard-kristiansen-innlegg.txt
   // ──────────────────────────────────────────
   {
     id: "a15-innlegg",
@@ -1031,11 +996,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Roller: innleggslegger må vinne posisjon før innlegg, 9 angriper C/1. stolpe, motsatt kant løper bakre, 8/10 fyller D, 6 + motsatt back/stopper sikrer og låser andreball",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a15-01" },
-      { kode: "uefa-a15-02" },
-      { kode: "uefa-a15-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Innleggslegger",
@@ -1058,13 +1019,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke stopp etter innlegget – situasjonen varer videre",
       },
     ],
-    kildefil: "A15-innlegg-2015-analyse-v2.md",
+    kildefil: "A15-gard-kristiansen-innlegg.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A16: Rosenborgs angrepsspill (Jørgen Ferstad)
-  // Kilde: docs/uefa/A16-rbk-angrep-2016-analyse-v2.md
+  // Kilde: docs/uefa/A16-jorgen-ferstad-rbk-angrep.txt
   // ──────────────────────────────────────────
   {
     id: "a16-rosenborg-angrep",
@@ -1147,11 +1108,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Trykkperiode: 61–75 min er topproduktiv (25 % av sjansene) – planlegg friske løp/tempo der",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a16-01" },
-      { kode: "uefa-a16-02" },
-      { kode: "uefa-a16-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Etablert", gjor: "Vinn kant – vend spillet!", ikkeGjor: "Ikke gå i innlegg før vi har vunnet kant" },
       { kategori: "Boks", gjor: "Fyll boks: motsatt kant 1!", ikkeGjor: "Ikke bli stående uten avtalte løp" },
@@ -1159,13 +1116,13 @@ Nøkkeltall (rolleprofil):
       { kategori: "Ettertrykk", gjor: "Ettertrykk!", ikkeGjor: "Ikke stopp etter første avslutning/serve" },
       { kategori: "Overgang", gjor: "Straff ubalanse – gå!", ikkeGjor: "Ikke sikre deg bort fra gode kontringsmuligheter" },
     ],
-    kildefil: "A16-rbk-angrep-2016-analyse-v2.md",
+    kildefil: "A16-jorgen-ferstad-rbk-angrep.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A17: Spissrollen i RBK (Erik Selnæs)
-  // Kilde: docs/uefa/A17-spissrollen-rbk-analyse-v2.md
+  // Kilde: docs/uefa/A17-erik-selnas-spissrollen.txt
   // ──────────────────────────────────────────
   {
     id: "a17-spissrollen",
@@ -1235,11 +1192,7 @@ Nøkkeltall (rolleprofil):
         rolle: "Spiss",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a17-01" },
-      { kode: "uefa-a17-02" },
-      { kode: "uefa-a17-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Feilvendt",
@@ -1262,13 +1215,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke løp blindt inn i markering.",
       },
     ],
-    kildefil: "A17-spissrollen-rbk-analyse-v2.md",
+    kildefil: "A17-erik-selnas-spissrollen.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A18: Angrep mot etablert forsvar (Hiep Tran)
-  // Kilde: docs/uefa/A18-hiep-tran-angrep-etablert-analyse-v2.md
+  // Kilde: docs/uefa/A18-hiep-tran-angrep-etablert.txt
   // ──────────────────────────────────────────
   {
     id: "a18-angrep-etablert",
@@ -1356,11 +1309,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Varegg-funn: høy andel gjennombrudd i mellomrom kan gi høy uttelling på lavere nivå (25/32 vellykkede = 78%)",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a18-01" },
-      { kode: "uefa-a18-02" },
-      { kode: "uefa-a18-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Vending",
@@ -1383,13 +1332,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke jag ukontrollert – fall av og steng sentralt hvis dere ikke vinner ballen.",
       },
     ],
-    kildefil: "A18-hiep-tran-angrep-etablert-analyse-v2.md",
+    kildefil: "A18-hiep-tran-angrep-etablert.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A19: Angrep mot etablert forsvar (Ståle Andersen)
-  // Kilde: docs/uefa/A19-angrep-mot-etablert-analyse-v2.md
+  // Kilde: docs/uefa/A19-stale-andersen-angrep-etablert.txt
   // ──────────────────────────────────────────
   {
     id: "a19-angrep-etablert",
@@ -1493,13 +1442,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke mist anker som spillpunkt når dere må «starte på nytt».",
       },
     ],
-    kildefil: "A19-angrep-mot-etablert-analyse-v2.md",
+    kildefil: "A19-stale-andersen-angrep-etablert.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A20: Touch og scoringer (Stian Lund)
-  // Kilde: docs/uefa/A20-touch-scoringsanalyse-v2.md
+  // Kilde: docs/uefa/A20-stian-lund-touch-scoring.txt
   // ──────────────────────────────────────────
   {
     id: "a20-touch-scoringsanalyse",
@@ -1559,11 +1508,7 @@ Nøkkeltall (rolleprofil):
         tekst: "Quick restart-pakke: 2–3 faste triggere på frispark/innkast – kjør raskt før motstander er satt",
       },
     ],
-    ovelser: [
-      { kode: "uefa-a20-01" },
-      { kode: "uefa-a20-02" },
-      { kode: "uefa-a20-03" },
-    ],
+    ovelser: [],
     coachingCues: [
       {
         kategori: "Avslutter",
@@ -1586,13 +1531,13 @@ Nøkkeltall (rolleprofil):
         ikkeGjor: "Ikke vent til de er organisert.",
       },
     ],
-    kildefil: "A20-touch-scoringsanalyse-v2.md",
+    kildefil: "A20-stian-lund-touch-scoring.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A21: Notorisk målscorer (Totto Dahlum)
-  // Kilde: docs/uefa/A21-notorisk-maalscorer-analyse-v2.md
+  // Kilde: docs/uefa/A21-totto-dahlum-maalscorer.txt
   // ──────────────────────────────────────────
   {
     id: "a21-notorisk-mal",
@@ -1626,13 +1571,13 @@ Nøkkeltall (rolleprofil):
       { kategori: "Kamp-likt", gjor: "Gjør det kamp-likt – spill om noe", ikkeGjor: "Ikke tren uten konsekvens/press" },
       { kategori: "Egenansvar", gjor: "Du er ikke avhengig av andre – ta økta", ikkeGjor: "Ikke vent på at noen \"fikser\" treningen" },
     ],
-    kildefil: "A21-notorisk-maalscorer-analyse-v2.md",
+    kildefil: "A21-totto-dahlum-maalscorer.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A22: Sidebacken høyt i banen (Dag Riisnæs)
-  // Kilde: docs/uefa/A22-sidebacken-hoyt-i-banen-analyse-v2.md
+  // Kilde: docs/uefa/A22-dag-riisnas-sideback.txt
   // ──────────────────────────────────────────
   {
     id: "a22-sidebacken",
@@ -1663,7 +1608,7 @@ Nøkkeltall (rolleprofil):
       { kategori: "Balanse", gjor: "Balanse før du går!", ikkeGjor: "Ikke gå høyt uten sikring" },
       { kategori: "Beslutning", gjor: "Valg før utførelse (hvor er rommet nå?)", ikkeGjor: "Ikke autopilot-innlegg" },
     ],
-    kildefil: "A22-sidebacken-hoyt-i-banen-analyse-v2.md",
+    kildefil: "A22-dag-riisnas-sideback.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
@@ -1708,8 +1653,7 @@ Nøkkeltall (rolleprofil):
 
   // ──────────────────────────────────────────
   // A24 – Etablert forsvar i 1-4-2-3-1 (Chelsea 2015/16) (Ole Martin Nesselquist)
-  // Kilde: docs/uefa/A24-etablert-forsvar-4231-analyse-v2.md
-  // Råkilde: docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt
+  // Kilde: docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt
   // ──────────────────────────────────────────
   {
     id: "a24-chelsea-forsvar",
@@ -1743,14 +1687,13 @@ Nøkkeltall (rolleprofil):
       { kategori: "Bred ball", gjor: "Bred 3’er: én presser, to sikrer", ikkeGjor: "Ikke to i press uten sikring" },
       { kategori: "Boks", gjor: "Boks-3’er blir! Sikre straffemerke og bakre stolpe", ikkeGjor: "Ikke dra boks-3’eren ut" },
     ],
-    kildefil: "A24-etablert-forsvar-4231-analyse-v2.md",
+    kildefil: "A24-ole-martin-nesselquist-etablert-forsvar.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // A25: FFK baklengs (Even Juliussen)
-  // Kilde: docs/uefa/A25-ffk-forsvar-2012-analyse-v2.md
-  // Råkilde: docs/uefa/A25-even-juliussen-ffk-forsvar.txt
+  // Kilde: docs/uefa/A25-even-juliussen-ffk-forsvar.txt
   // ──────────────────────────────────────────
   {
     id: "a25-ffk-baklengs",
@@ -1775,12 +1718,7 @@ Nøkkeltall (rolleprofil):
       { id: "a25-bak-mellom", tekst: "Steng rommet bak og mellom back–stopper (triangel: back/stopper/CM)", rolle: "Stopper" },
       { id: "a25-closing", tekst: "Kampstyring siste 15 min: closing-atferd (risiko/avstander/duellkraft)" },
     ],
-    ovelser: [
-      { kode: "uefa-a25-01" },
-      { kode: "uefa-a25-02" },
-      { kode: "uefa-a25-03" },
-      { kode: "uefa-a25-04" },
-    ],
+    ovelser: [],
     coachingCues: [
       { kategori: "Ramme", gjor: "Ramma! (samle, komprimer, nekt mellomrom)", ikkeGjor: "Ikke halv-press uten sikring" },
       { kategori: "1F", gjor: "Bremse–lede! (skap dybde, ikke stup)", ikkeGjor: "Ikke la 1F dra laget ut av posisjon" },
@@ -1788,13 +1726,13 @@ Nøkkeltall (rolleprofil):
       { kategori: "Relasjon", gjor: "Steng bak–mellom (back/stopper/CM triangel)", ikkeGjor: "Ikke gi gratisrom bak og mellom" },
       { kategori: "Closing", gjor: "Siste 15: risikokontroll + klarering/andreball", ikkeGjor: "Ikke gamble når vi skal lukke kamp" },
     ],
-    kildefil: "A25-ffk-forsvar-2012-analyse-v2.md",
+    kildefil: "A25-even-juliussen-ffk-forsvar.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // G01: Keeper (spillbasert keeperutvikling) (Håkon Grøttland)
-  // Kilde: docs/uefa/G01-keeper-spillbasert-utvikling-analyse-v2.md
+  // Kilde: docs/arkiv/G01-keeper-spillbasert-utvikling-analyse-v2.md
   // ──────────────────────────────────────────
   {
     id: "g01-keeper-spillbasert",
@@ -1827,13 +1765,13 @@ Nøkkeltall (rolleprofil):
       { kategori: "Skudd", gjor: "Set! (grunnstilling i skuddøyeblikk)", ikkeGjor: "Ikke vær på vei" },
       { kategori: "Grep", gjor: "Bak ball! Lås!", ikkeGjor: "Ikke gi retur uten plan" },
     ],
-    kildefil: "G01-keeper-spillbasert-utvikling-analyse-v2.md",
+    kildefil: "docs/arkiv/G01-keeper-spillbasert-utvikling-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
   // ──────────────────────────────────────────
   // G02: Keeper (hva keeper møter i kamp) (Tor Martin Hegrenes)
-  // Kilde: docs/uefa/G02-keeper-hva-moter-i-kamp-analyse-v2.md
+  // Kilde: docs/arkiv/G02-keeper-hva-moter-i-kamp-analyse-v2.md
   // ──────────────────────────────────────────
   {
     id: "g02-keeper-kampdimensjon",
@@ -1865,7 +1803,7 @@ Nøkkeltall (rolleprofil):
       { kategori: "Valg", gjor: "Flere valg!", ikkeGjor: "Ikke lås deg på én løsning" },
       { kategori: "Trykk", gjor: "Tid/press-regel!", ikkeGjor: "Ikke tren uten kamptrykk" },
     ],
-    kildefil: "G02-keeper-hva-moter-i-kamp-analyse-v2.md",
+    kildefil: "docs/arkiv/G02-keeper-hva-moter-i-kamp-analyse-v2.md",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
 
@@ -1897,7 +1835,7 @@ Nøkkeltall (rolleprofil):
       { id: "a26-pushup", tekst: "Push-up/andreball: opp sammen etter klarering, tette mellomrom" },
       { id: "a26-sluttkamp", tekst: "Sluttfase-protokoll: 2. omgang gir flest sjanser/avslutninger" },
     ],
-    ovelser: [{ kode: "uefa-a26-01" }, { kode: "uefa-a26-02" }, { kode: "uefa-a26-03" }],
+    ovelser: [],
     coachingCues: [
       { kategori: "Farlig sone", gjor: "Farlig sone først!", ikkeGjor: "Ikke tillat kryss fra farlig sone" },
       { kategori: "Telling", gjor: "Telle opp! (1/midt/bak/retur)", ikkeGjor: "Ikke bli ballfokusert" },
@@ -1905,7 +1843,7 @@ Nøkkeltall (rolleprofil):
       { kategori: "Returrom", gjor: "Returrom!", ikkeGjor: "Ikke la andreball bli fri" },
       { kategori: "Push-up", gjor: "Opp sammen!", ikkeGjor: "Ikke bli stående lavt etter klarering" },
     ],
-    kildefil: "A26-forsvar-mot-innlegg-analyse-v2.md",
+    kildefil: "A26-gaute-helstrup-innlegg-forsvar.txt",
     oppgaveUrl: "https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/",
   },
   {

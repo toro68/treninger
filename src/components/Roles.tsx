@@ -2,524 +2,170 @@
 
 import { useState } from "react";
 
-type TaskGroup = {
-  phase: string;
-  items: string[];
-};
+import { uefaExercises } from "@/data/uefa-exercises";
+import { uefaAnalyses, type Rolle, type UEFAAnalyse } from "@/data/uefaAnalyses";
 
-type Position = {
+type PositionCard = {
   name: string;
+  description: string;
   tasks: string[];
-  detailed?: TaskGroup[];
+  roles: Rolle[];
 };
 
-const positions: Position[] = [
+const positionCards: PositionCard[] = [
   {
     name: "Keeper",
+    description: "Styr laget bakfra og vær en aktiv del av spillmodellen.",
     tasks: [
-      "Angrep: Vær aktiv støttespiller (vendingspunkt), vri spillet, vurder kort/langt utspill",
-      "Forsvar: Vær \"sweeper\" - posisjon deg langt ute for å klarere gjennombruddspasninger i bakrom",
-      "Kommunikasjon: Bruk overblikket til å veilede forsvar om press og markering i boksen",
-      "Dødballer: Organiser mur ved frispark, organisér forsvar ved defensive cornere (se Corner-organisering)",
+      "Angrep: vær spillbar som vendingspunkt og velg kort, mellom eller langt med klar hensikt.",
+      "Forsvar: ha startposisjon som gjør deg i stand til å rydde bakrom tidlig.",
+      "Kommunikasjon: gi tidlige, tydelige signaler til bakre ledd og ved innlegg.",
+      "Dødballer: organiser mur og boksforsvar med klare roller.",
     ],
-    detailed: [
-      {
-        phase: "A1 - Oppspill (tiim.no)",
-        items: [
-          "Ta et par meter ekstra dybde i boksen for å få overblikk og tid",
-          "Utnytt pressfri sone til å finne beste løsning",
-          "Ball fra høyre = se etter rom til venstre",
-          "Spill bak første pressledd når mulig",
-        ],
-      },
-      {
-        phase: "F3 - Hindre mål (tiim.no)",
-        items: [
-          "Styr mur ved frispark",
-          "Organiser soneforsvar ved corner",
-          "Plasser folk på stengene",
-          "Kommuniser tydelig når forsvar er klart",
-          "Box-spill: Avgjør når du skal gå ut på innlegg",
-        ],
-      },
-      {
-        phase: "Chelsea 4-2-3-1 forsvar (UEFA A)",
-        items: [
-          "Approach-mentalitet: gå ut og avbryt innlegg – aldri vent passivt",
-          "4-4-2 uten ball = kompakt lag: hold høy utgangsposisjon bak stopperne",
-          "Les press-signalet (Costa-cue) og støtt frontleddet med tydelig kommunikasjon",
-          "Forbered deg på motstanders mønster (FFK-funn): reager raskt på lave skudd mot kort hjørne",
-        ],
-      },
-    ],
+    roles: ["Keeper"],
   },
   {
     name: "Back",
+    description: "Skap bredde i angrep og kontroll på sidekorridor i forsvar.",
     tasks: [
-      "Sideforskyving: Ball på motsatt side = trekk inn mot midten (ca. stolpen) for å dekke rom og sikre midtstopperne",
-      "1F (Førsteforsvarer): Led motstanderen utover mot linja når du er nærmest ballfører på kant",
-      "Angrep: Overlapp eller skap overtall i siderommet, gi dybde og bredde",
-      "Sikre innleggssiden ved innlegg fra motsatt kant",
-      "Kommuniser med midtstopper om hvem tar hvem",
+      "Forsvar: led motstander utover og sikre rommet mellom back og stopper.",
+      "Angrep: gå når timing og restforsvar er avklart, ikke bare når rommet ser stort ut.",
+      "Relasjon: skap trekant med ving og indreløper på din side.",
+      "Ved innlegg mot: forsvar bakre rom og avklar hvem som tar løpene i boksen.",
     ],
-    detailed: [
-      {
-        phase: "F2 - Forsinke/organisere (tiim.no)",
-        items: [
-          "IKKE ta 1F-rollen når ball er foran bakre ledd - skaper 2:1",
-          "Ligg smalt - hindre pasning mellom back og stopper",
-          "Styr kant: \"Jeg går\" eller \"Du presser, jeg blir\"",
-          "Snappe upresise pasninger - \"hunting high and low\"",
-          "Ved cross fra motsatt side: Bryt ballbanen eller gå i press",
-        ],
-      },
-      {
-        phase: "F3 - 1:1 situasjoner (tiim.no)",
-        items: [
-          "Driblekant: Sidestill deg, vent på utfall, se på ball - ikke finter",
-          "Rask kant: Inn i kropp FØR gass, brems med kroppen",
-          "Høyrebeint kant: Steng yttersida. Venstrebeint: Steng innersia",
-          "Ved 16-meter: Led ALLTID utover",
-          "Vegg-spill: Følg kanten, IKKE ball - indreløper tar veggen",
-        ],
-      },
-      {
-        phase: "Innlegg/avslutning (tiim.no)",
-        items: [
-          "Hindre innlegg - akselerere og retardere kjapt",
-          "ALDRI vend \"ræva til\" ved innlegg",
-          "Motsatt back: Ansvar for blindsideløp bak",
-          "Blokkere skudd og cutback - mot og oppofrende",
-        ],
-      },
-      {
-        phase: "Bakre ledd som enhet (tiim.no)",
-        items: [
-          "Bakover når ballfører lader go'foten",
-          "Framover ved klarering/gjennombruddspasninger",
-          "Sidelengs når motstander vrir spillet",
-          "Konsentrere når ball er sentralt",
-        ],
-      },
-      {
-        phase: "Angrep høyt i banen (UEFA A)",
-        items: [
-          "Frigjøres høyt etter hurtig vending av spillet",
-          "Skap og utnytt rom på kant etter frispilling",
-          "Doble på kant med IL/ving - skape 2v1",
-          "Repeterende løp - vær klar for flere fremstøt",
-          "Frispill IL rettvendt i rom 2",
-        ],
-      },
-      {
-        phase: "Back/IL/kant-trekant (UEFA A13/A16)",
-        items: [
-          "Frispill indreløper rettvendt i rom 2 før du overlapp",
-          "Triangelspill: én går, én sikrer – 3+2 må være på plass",
-          "Logg 6–8 maks-løp per omgang – møt ball med fart",
-          "Boksbidrag: fyll boksen med løp (foran/midt/bakre) ved innlegg",
-        ],
-      },
-      {
-        phase: "Høy back i CL (UEFA A22)",
-        items: [
-          "Vend før gjennombrudd – gå når pressleddet er brutt",
-          "Back involvert i ≥40 % av målene mot etablert",
-          "Start løp før pasning – angrip korridor med tempo",
-          "Midtbane sikrer 3+2 bak deg – avklar restforsvar og returløp",
-        ],
-      },
-    ],
+    roles: ["Back", "Sideback", "Høyreback", "Venstreback", "Vingback"],
   },
   {
     name: "Midtstopper",
+    description: "Styr dybde, avstand og retning i laget uten ball.",
     tasks: [
-      "Ledelse: Organiser linje (opp/ned) og sideforskyving",
-      "Forsvar: Kontroller bakrommet, fall av når motstander truer med å slå bak (\"lese fot\")",
-      "Pumping: Rop \"UT!\" og flytt linja raskt opp når motstander spiller støttepasning eller mister kontroll. Gjør laget kompakt, reduser rom",
-      "Dødballer: Organiser +1 i overtall ved offensive cornere og frispark nær motstanders mål",
-      "Angrep: Vær trygg med ball, før over ledd for å skape overtall på midtbanen",
-      "Vinn luftdueller, vær sist inne på innlegg",
+      "Ledelse: styr linjen opp, ned og sideveis med tydelige kommandoer.",
+      "Forsvar: kontroller bakrom og vær tydelig på når laget skal falle eller holde.",
+      "Boksforsvar: vinn første duell og organiser rommet foran mål.",
+      "Angrep: før frem når du har kontroll, men uten å eksponere restforsvaret.",
     ],
-    detailed: [
-      {
-        phase: "F1 - Vinne ball høyt (tiim.no)",
-        items: [
-          "Kontinuerlig posisjonering for kontroll på rom foran og bak",
-          "På jakt etter «presseøyeblikk» – styre spillere foran",
-          "Stopper ballside: Vurder offsidelinje eller støte i mellomrom",
-          "Romprioritering hvis vi mister press på ballfører",
-        ],
-      },
-      {
-        phase: "F2 - Forsinke/lede (tiim.no)",
-        items: [
-          "Hold ca 10m til nærmeste medspiller",
-          "Konsentrer når ball er sentralt",
-          "Sikre medspiller som går i press",
-          "Kommuniser \"fall\" eller \"hold\"",
-        ],
-      },
-      {
-        phase: "F3 - Hindre mål (tiim.no)",
-        items: [
-          "Vinn dueller i egen boks (hode/kropp)",
-          "Blokkere skudd - kast deg i banen",
-          "Dekk rom foran mål ved innlegg",
-          "Styr bakre ledd som en enhet",
-          "Håndter to spisser uten å kalle ned midtbane (4 mot 2)",
-        ],
-      },
-      {
-        phase: "Atletico 4-4-2 blokk (UEFA A23)",
-        items: [
-          "Sett presshøyde bakfra – flytt linja når frontleddet styrer",
-          "Kompakt 4-4-2: aksepter innlegg, dominer boks mot 50+ leveranser",
-          "3+2 restforsvar alltid klart når back går i press",
-          "Gjenpress vs kontring: avtal hvem støter og hvem sikrer",
-        ],
-      },
-      {
-        phase: "Chelsea boksforsvar (UEFA A24)",
-        items: [
-          "4-2-3-1 blir 4-4-2 uten ball – stoppere styrer dybde og avstand",
-          "Hold 10–12 m fra spiss til stopper for å lukke mellomrom",
-          "Stopper i sone, back + ving plukker menn; rop markering tidlig",
-          "Mål: stans ≥75 % av innlegg før avslutning, koordiner med keeper",
-        ],
-      },
-    ],
+    roles: ["Stopper"],
   },
   {
     name: "Sentral midtbane (6-er)",
+    description: "Balansepunktet mellom struktur, pasningskvalitet og gjenvinning.",
     tasks: [
-      "Angrep: Hovmesterblikk - orienter før motta. Kan du vende opp, eller spille støtte? Snu spillet til ledig rom. Stort bakrom = angrip det",
-      "Forsvar: Screen rommet foran midtstopperne, steng pasningslinjer inn i mellomrom",
-      "Balanse: Ligg dypere ved angrep, sikre mot kontringer, vinn klareringer (gjenvinning)",
-      "Essens: Lagets hjerte - alltid spillbar i angrep, skjold foran forsvar",
+      "Vær spillbar før laget trenger deg og orienter før mottak.",
+      "Skjerm rommet foran stopperne og steng sentrale pasningslinjer.",
+      "Sikre sentralt når laget angriper på kant.",
+      "Sett tempo med riktig valg, ikke bare med raske valg.",
     ],
-    detailed: [
-      {
-        phase: "F2 - Forsinke/sikre (tiim.no)",
-        items: [
-          "Kom fra \"feil side til rett side\" ved vendinger",
-          "Opphold ballfører når back har spiller på yttersia",
-          "Sikre back som går i press",
-          "Dekk rom mellom linjene",
-        ],
-      },
-      {
-        phase: "F3 - Foran egen boks (tiim.no)",
-        items: [
-          "Ta veggen ved vegg-spill mot back",
-          "Bli i sonen - ikke følg spillere ut på kant",
-          "Blokkere skuddforsøk fra distanse",
-        ],
-      },
-      {
-        phase: "Pasningskvalitet (UEFA A)",
-        items: [
-          "Slå linjebrytende pasninger - bryt en linje!",
-          "Orienter deg før mottak - hovmesterblikk",
-          "Prioriter fremoverpasninger over sidelengs",
-          "Definér sekundærpress: Hvem trykker, hvem sikrer?",
-        ],
-      },
-      {
-        phase: "Sentral midtbane – Euro 2012 (UEFA A06)",
-        items: [
-          "Pasningspresisjon ≥85 % totalt / ≥77 % fremover selv under press",
-          "Touch pr kamp: 60–80, og 20–30 pasninger inn i siste tredjedel",
-          "Fremoverpasninger ≥70 %, uansett stilling – sett tempoet",
-          "Sekundærpress innen 6 sek: avklar hvem trykker og hvem sikrer",
-        ],
-      },
-      {
-        phase: "Matchplan for 6-er (UEFA A06)",
-        items: [
-          "Definér kampklima: presshøyde, blokk og scoringsstatus",
-          "Triggerkort mot 4-4-2, 4-3-3 og 3-5-2 – hvil i riktig struktur",
-          "Scanning-rutine i oppvarming: orienter 360° før hver mottak",
-          "Mål KPI: touch, fremover%, gjenvinninger ≤6 sek pr omgang",
-        ],
-      },
-    ],
+    roles: ["Sentral midtbane"],
   },
   {
     name: "Indreløper (8-er)",
+    description: "Bind sammen leddene og skap fart inn i mellomrom, bakrom og boks.",
     tasks: [
-      "Angrep: Søk mellomrommet (bak motstanders midtbane). Dype løp inn i boksen når vi kommer rundt på kant",
-      "Sideforskyving: Flytt deg sideveis med ballen. Hold 8-10m avstand til 6-er. Ball på motsatt side = ligg sentralt foran eget mål, ikke ute på siden",
-      "Sikring: Når ving/back på din side presser, fall ned og inn for å sikre dem",
-      "Relasjon: Lag trekanter med back og ving",
+      "Gjør deg spillbar i mellomrom med riktig kroppsstilling og oversikt.",
+      "Avstem med 6-er og back: én går, én sikrer.",
+      "Søk boks når angrepet utvikles i sidekorridor.",
+      "Ved balltap: vær klar til å bli første pressledd eller sikre nærmeste rom.",
     ],
-    detailed: [
-      {
-        phase: "A1 - Bearbeiding (tiim.no)",
-        items: [
-          "Spillbar i mellomrom med oversikt",
-          "Være spillbar i små rom med «fra-mot» og «mot-fra» bevegelser",
-          "Holde ballen sentralt – unngå å gi bort «presseøyeblikk»",
-          "Ved ballerobring: Spill kontrollert førstepasning ut av press",
-        ],
-      },
-      {
-        phase: "A2 - Inn i prioriterte rom (tiim.no)",
-        items: [
-          "Være åpen og spillbar i mellomrom – eventuelt bakromstrussel",
-          "Oversikt over angrepsspiller før involvering",
-          "Hurtige pasninger eller føre ball i stor fart",
-          "Skape temposkifte i spillet når mulig",
-          "Løse små rom med 1v1, kombinasjoner og ballbehandling",
-        ],
-      },
-      {
-        phase: "A3 - Avslutning (tiim.no)",
-        items: [
-          "Initiativ forbi og rundt spillere i front – skape 2mot1",
-          "Søke boks ved innlegg – bevisst på «45 grader»",
-          "Jakte avslutningsmuligheter",
-          "Utfordre med ball – søke rom igjennom ledd før rundt",
-        ],
-      },
-      {
-        phase: "F1 - Press (tiim.no)",
-        items: [
-          "På jakt etter «presseøyeblikk» – styre spillere foran",
-          "Nekte motstander kontroll i vårt framrom",
-          "I press: Nekte 1A å vende opp eller vri",
-          "Forsvarsberedskap ved balltap",
-        ],
-      },
-      {
-        phase: "F2 - Hindre tilgang (tiim.no)",
-        items: [
-          "Stenge mellomrom sentralt",
-          "Press og avstander i ledd og mellom midtre og bakre ledd",
-          "Kontinuerlig justering av presshøyde ut ifra 1A klima",
-        ],
-      },
-      {
-        phase: "F3 - Hindre mål (tiim.no)",
-        items: [
-          "Lede ballfører ut og vekk fra mål",
-          "Følge bevegelser inn i boks",
-          "Klar for å skyve ut ved undertall i sidekorridor",
-          "Jakte andreballer",
-        ],
-      },
-      {
-        phase: "4-3-1-2 diamant (UEFA A)",
-        items: [
-          "Scanning før mottak - finn to støttevinkler",
-          "1-2 touch policy i mellomrom",
-          "Tre-trinns bevegelse: bredt → tru bakrom → dropp i mellomrom",
-          "Veggspill med vingback, tredjemann med spiss",
-          "Søk boksinnløp ved innlegg",
-        ],
-      },
-      {
-        phase: "Relasjon SB/IL (UEFA A)",
-        items: [
-          "Søk rettvendt mottak i mellomrom",
-          "Avstem med back: Én går, én sikrer (3+2)",
-          "«Knekkeløp» for å åpne pasningslinje",
-          "Innløp i boks: fyll boksen med løp ved innlegg",
-        ],
-      },
-      {
-        phase: "Sideback + IL (UEFA A13)",
-        items: [
-          "10+ rettvendte mottak per kamp – gjør deg spillbar i rom 2",
-          "Fyll boksen med minst fire løp (foran/midt/bakre)",
-          "Overbelast kun når 3 bak + 2 sikring står klart",
-          "Planlegg rollepar: SB frigjør, IL sikrer/går – avtales før kamp",
-        ],
-      },
-      {
-        phase: "Indreløper i diamant (UEFA A14)",
-        items: [
-          "Orienter «to rom» (mellomrom + bakrom) før hvert mottak",
-          "Touch pr angrep: maks to før du spiller videre",
-          "Returløp innen 5 sek etter balltap – vær førsteforsvarer",
-          "Bakromsløp ≥4 per omgang og pressgjenvinninger ≥5 per kamp",
-        ],
-      },
-    ],
+    roles: ["Indreløper", "Offensiv midtbane"],
   },
   {
-    name: "Ving (Kant)",
+    name: "Ving",
+    description: "Skap sluttprodukt under tidspress og fyll boksen når ballen er motsatt.",
     tasks: [
-      "Angrep: Tru bakrommet! Start bredt for å skape rom, skjær inn eller gå rundt",
-      "Forsvar (din side): Jobb hjem, legg deg på linje med midtbanen (4-5-1). Ligg foran egen back, hindre motstanders back, skap 2v1 fordel",
-      "Forsvar (motsatt side): Trekk inn mot midten (midtbanesirkelen), ikke stå ute ved sidelinja. Vær klar til å snappe dårlig pasning eller starte kontring",
-      "Gjenvinning: Ved balltap, vinn ballen umiddelbart tilbake (høyt press)",
+      "Start bredt for å åpne rom og tru både bakrom og fot.",
+      "Jobb hjem slik at back og ving forsvarer som en relasjon.",
+      "Ta raske valg i siste tredel: 1v1, innlegg, cutback eller tilbake for ny rytme.",
+      "Motsatt side: trekk inn og vær klar for bakre løp eller gjenvinning.",
     ],
-    detailed: [
-      {
-        phase: "Bakromsløp A2-A3 (tiim.no)",
-        items: [
-          "Stå bredt i utgangsposisjon - trekk med deg back",
-          "Les rom mellom motstanders back og stopper",
-          "Stort rom: Skjær inn diagonalt i bakrom",
-          "Lite rom: Hold bredden, gjør deg spillbar ytterst",
-          "Time løpet - start FØR pasningen kommer",
-          "Ta med ball fremover med første touch",
-        ],
-      },
-      {
-        phase: "Som ballfører - siste 1/3 (tiim.no)",
-        items: [
-          "Tru forsvareren i BEGGE retninger",
-          "Finte troverdig motsatt vei før retningsbytte",
-          "Se på forsvarerens tyngdepunkt - ikke ballen",
-          "Ha høyt tempo i gjennomføring av finte",
-        ],
-      },
-      {
-        phase: "Avslutning fra motsatt side (tiim.no)",
-        items: [
-          "Angrip boks når ball er på motsatt side",
-          "Start løpet FØR innlegget kommer",
-          "Kom inn med innsiden av foten klar",
-          "Avslutt raskt - sikt på hjørnene",
-        ],
-      },
-      {
-        phase: "Pressrobusthet (UEFA A)",
-        items: [
-          "Jobb under konstant press (1-3m avstand)",
-          "Ta raske avgjørelser - ikke hold ball",
-          "Få touch før assist - spill tidlig",
-          "Få touch før innlegg - ikke dribl for mye",
-          "Avgjørende pasninger fra siste tredjedel",
-        ],
-      },
-      {
-        phase: "Innlegg og scoring (UEFA A)",
-        items: [
-          "Slå innlegg tidlig - 1-touch eller etter dribling",
-          "Cut-back fra dødlinje under høyt press",
-          "Avslutt inne i 16m - ikke langt utenfor",
-          "Sikt lavt ved avslutning",
-        ],
-      },
-      {
-        phase: "Vingerollen – KPI (UEFA A10)",
-        items: [
-          "Assist/innlegg under 1–3 m press på 1–4 sek og maks 3 touch",
-          "Minst fire innlegg per omgang mellom keeper og back",
-          "Logg 8–10 1v1-forsøk per kamp – avgjør tidlig",
-          "Boksroller: spiss 56 % / motsatt ving 31 % – koordiner løp",
-        ],
-      },
-      {
-        phase: "Ving-matchplan (UEFA A10)",
-        items: [
-          "Start bredt, tru bakrom før du tilbyr i fot",
-          "Planlegg pressavstand og rom du angriper (kampplan)",
-          "Gjenvinning: 5–6 sek tilbakesporing – ingen hvile",
-          "Dødball: bakre sone defensivt, cut-back/bakrom offensivt",
-        ],
-      },
-    ],
+    roles: ["Vinger", "Høyrevinger", "Venstrevinger"],
   },
   {
     name: "Spiss",
+    description: "Strekk laget, led presset og avgjør i boksen.",
     tasks: [
-      "Forsvar (1F): Du er vår første forsvarer. Led motstanders midtstopper til én side for å hindre spill-vri",
-      "Angrep: Tru bakrommet for å strekke motstanderens forsvar - skaper rom for indreløperne i mellomrommet",
-      "I boksen: Vær tålmodig, ikke løp for tidlig. Kom deg fri i blindside rett før innlegget slås",
-      "Hold opp ball og spill medspillere inn i spill",
+      "Vær første forsvarer og styr motstanders oppspill i ønsket retning.",
+      "Tru bakrom for å åpne mellomrom for laget bak deg.",
+      "I boksen: time løp sent og angrip rette scoringssoner.",
+      "Veksle mellom å møte og strekke slik at relasjonene rundt deg får tydelige bilder.",
     ],
-    detailed: [
-      {
-        phase: "F1 - Lede press (tiim.no)",
-        items: [
-          "Start presset - trigger for laget",
-          "Steng pasningslinje til midtstopper",
-          "Led motstander til ønsket side",
-          "Press keeper ved tilbakespill",
-        ],
-      },
-      {
-        phase: "A2 - Bevegelse (tiim.no)",
-        items: [
-          "Timing på bakromsløp",
-          "Dropp ned for å tilby støtte",
-          "Trekk med deg stopper - skap rom for andre",
-          "Peil deg inn på blindsone til stopper",
-        ],
-      },
-      {
-        phase: "A3 - Avslutning (tiim.no)",
-        items: [
-          "Vær først på innlegg - angrip ballen",
-          "Posisjoner deg i scoringssoner",
-          "Avslutt raskt - før keeper setter seg",
-          "Følg opp returer",
-        ],
-      },
-      {
-        phase: "RBK-spissrollen (UEFA A)",
-        items: [
-          "Boksbevegelser: Fyll rom 1, 2, 3 + 45° hver gang",
-          "Slipp i mellomrom - kombiner med IL/kant",
-          "L-løp i boks: ut-stopp-inn",
-          "Øyekontakt med kant før innlegg",
-          "Gjenvinn etter blokk",
-        ],
-      },
-      {
-        phase: "Relasjoner (UEFA A)",
-        items: [
-          "1-2 kombinasjoner med IL/kant",
-          "Fall-retur-boks mønster",
-          "Bruk din spesialitet (fart/tyngde) - bygg mønster rundt",
-          "Vær press-trigger for laget",
-        ],
-      },
-      {
-        phase: "RBK-spissrollen (UEFA A17)",
-        items: [
-          "Rollekrav: klokskap/spillforståelse + kunne brukes feilvendt som oppspillspunkt",
-          "Boks/luft: vær god i boksen og i lufta + ha målskårer-egenskaper",
-          "Relasjoner: avklar møte/strekke og kombinasjoner med IL/kant",
-          "Førsteforsvarer: steng sentralt og led spillet mot én side",
-        ],
-      },
-      {
-        phase: "Notorisk målscorer (UEFA A21)",
-        items: [
-          "Mental rutine før kamp – visualiser, loggfør og bygg indre stemme",
-          "Egenaktivitet: ≥3 målrettede avslutningsøkter hver uke",
-          "Repetisjonstreff 10/10 per profil – detaljer avgjør",
-          "Evaluer press-øyeblikk etter kamp, elsk å avgjøre",
-        ],
-      },
-    ],
+    roles: ["Spiss"],
   },
 ];
 
+const exerciseById = new Map(uefaExercises.map((exercise) => [exercise.id, exercise]));
+
+const uniqueStrings = (values: string[]) => Array.from(new Set(values));
+
+const matchesPointRole = (roles: Rolle[], pointRole?: Rolle) => !pointRole || roles.includes(pointRole);
+
+const getAnalysesForRoles = (roles: Rolle[]) =>
+  uefaAnalyses
+    .filter((analysis) => analysis.roller.some((role) => roles.includes(role)))
+    .sort((left, right) => left.kode.localeCompare(right.kode));
+
+const getMatchFocus = (analyses: UEFAAnalyse[], roles: Rolle[]) =>
+  uniqueStrings(
+    analyses.flatMap((analysis) =>
+      analysis.fokuspunkter
+        .filter((point) => matchesPointRole(roles, point.rolle))
+        .map((point) => point.tekst),
+    ),
+  ).slice(0, 4);
+
+const getLearningCues = (analyses: UEFAAnalyse[]) =>
+  uniqueStrings(
+    analyses.flatMap((analysis) => analysis.coachingCues.map((cue) => `${cue.kategori}: ${cue.gjor}`)),
+  ).slice(0, 4);
+
+const getTrainingExercises = (analyses: UEFAAnalyse[]) => {
+  const seen = new Set<string>();
+  const exercises = [];
+
+  for (const analysis of analyses) {
+    for (const reference of analysis.ovelser) {
+      const exercise = exerciseById.get(reference.kode);
+      if (exercise && !seen.has(exercise.id)) {
+        seen.add(exercise.id);
+        exercises.push(exercise);
+      }
+    }
+  }
+
+  return exercises.slice(0, 3);
+};
+
+const roleSections = positionCards.map((card) => {
+  const analyses = getAnalysesForRoles(card.roles);
+
+  return {
+    ...card,
+    analyses,
+    matchFocus: getMatchFocus(analyses, card.roles),
+    learningCues: getLearningCues(analyses),
+    trainingExercises: getTrainingExercises(analyses),
+    sourceLabels: uniqueStrings(analyses.map((analysis) => `${analysis.kode} ${analysis.forfatter}`)),
+  };
+});
+
 export const Roles = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showDetailed, setShowDetailed] = useState(true);
+  const [showUefaDetail, setShowUefaDetail] = useState(true);
 
   return (
-    <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
+    <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm sm:p-6">
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
         className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black ${
           isOpen
-            ? "border-violet-200/70 bg-gradient-to-r from-violet-50 to-indigo-50"
+            ? "border-amber-200/70 bg-gradient-to-r from-amber-50 to-orange-50"
             : "border-zinc-200 bg-white"
         }`}
       >
         <div>
           <h2 className="text-lg font-semibold text-zinc-900">Roller (4-3-3)</h2>
-          <p className="text-xs text-zinc-500">Oppgaver per posisjon</p>
+          <p className="text-xs text-zinc-500">Kamp, trening og læring per posisjon</p>
         </div>
         <span className="flex items-center gap-1 text-sm text-zinc-700">
           {isOpen ? "Skjul" : "Vis"}
@@ -529,69 +175,109 @@ export const Roles = () => {
 
       {isOpen && (
         <div className="mt-4 space-y-4">
-          {/* Toggle for detailed view */}
+          <div className="rounded-xl border border-amber-100 bg-amber-50/70 px-4 py-3">
+            <p className="text-sm font-medium text-zinc-900">UEFA-basert rollelag</p>
+            <p className="mt-1 text-xs text-zinc-600">
+              Kampfokus, treningsformer og coaching-cues under er hentet fra de verifiserte UEFA-oppgavene og
+              øvelsene i appen. Grunnoppgavene er beholdt som korte rollebeskrivelser for kampbruk.
+            </p>
+          </div>
+
           <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
-            <span className="text-xs text-zinc-600">Vis detaljerte oppgaver fra tiim.no</span>
+            <span className="text-xs text-zinc-600">Vis UEFA-basert kamp, trening og læring</span>
             <button
-              onClick={() => setShowDetailed(!showDetailed)}
-              className={`px-3 py-1 text-xs rounded-full transition ${
-                showDetailed
-                  ? "bg-green-600 text-white"
+              type="button"
+              onClick={() => setShowUefaDetail(!showUefaDetail)}
+              className={`rounded-full px-3 py-1 text-xs transition ${
+                showUefaDetail
+                  ? "bg-amber-600 text-white"
                   : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
               }`}
             >
-              {showDetailed ? "På" : "Av"}
+              {showUefaDetail ? "På" : "Av"}
             </button>
           </div>
 
-          {positions.map((position) => (
-            <div key={position.name}>
-              <h3 className="text-sm font-semibold text-zinc-900 mb-2">
-                {position.name}
-              </h3>
-              <div className="rounded-lg border border-zinc-100 bg-zinc-50 px-3 py-2">
-                <ul className="text-xs text-zinc-700 space-y-1">
+          {roleSections.map((position) => (
+            <div key={position.name} className="rounded-xl border border-zinc-200 bg-zinc-50/60 p-4">
+              <div className="mb-3">
+                <h3 className="text-sm font-semibold text-zinc-900">{position.name}</h3>
+                <p className="mt-1 text-xs text-zinc-500">{position.description}</p>
+              </div>
+
+              <div>
+                <h4 className="mb-1 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                  Grunnoppgaver
+                </h4>
+                <ul className="space-y-1 text-xs text-zinc-700">
                   {position.tasks.map((task, index) => (
                     <li key={index}>• {task}</li>
                   ))}
                 </ul>
-
-                {/* Detailed tasks from tiim.no */}
-                {showDetailed && position.detailed && (
-                  <div className="mt-3 pt-3 border-t border-zinc-200 space-y-3">
-                    {position.detailed.map((group, groupIndex) => (
-                      <div key={groupIndex}>
-                        <h4 className="text-xs font-semibold text-green-700 mb-1">
-                          {group.phase}
-                        </h4>
-                        <ul className="text-xs text-zinc-600 space-y-0.5 pl-2">
-                          {group.items.map((item, itemIndex) => (
-                            <li key={itemIndex}>◦ {item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                )}
               </div>
+
+              {showUefaDetail && (
+                <div className="mt-4 grid gap-3 sm:grid-cols-3">
+                  <div className="rounded-lg border border-zinc-200 bg-white p-3">
+                    <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-amber-700">
+                      Kampfokus fra UEFA
+                    </h4>
+                    {position.matchFocus.length > 0 ? (
+                      <ul className="space-y-1 text-xs text-zinc-700">
+                        {position.matchFocus.map((item) => (
+                          <li key={item}>• {item}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-xs text-zinc-500">Ingen egne kampfokus funnet for denne rollen.</p>
+                    )}
+                  </div>
+
+                  <div className="rounded-lg border border-zinc-200 bg-white p-3">
+                    <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-emerald-700">
+                      Trening fra UEFA
+                    </h4>
+                    {position.trainingExercises.length > 0 ? (
+                      <ul className="space-y-2 text-xs text-zinc-700">
+                        {position.trainingExercises.map((exercise) => (
+                          <li key={exercise.id}>
+                            <span className="font-medium text-zinc-900">{exercise.name}</span>
+                            <span className="block text-zinc-500">{exercise.description}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-xs text-zinc-500">
+                        Ingen direkte UEFA-øvelser registrert for rollen. Bruk kampfokus og læringscues som
+                        styring av treningsinnhold.
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="rounded-lg border border-zinc-200 bg-white p-3">
+                    <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-sky-700">
+                      Læringscues fra UEFA
+                    </h4>
+                    {position.learningCues.length > 0 ? (
+                      <ul className="space-y-1 text-xs text-zinc-700">
+                        {position.learningCues.map((cue) => (
+                          <li key={cue}>• {cue}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-xs text-zinc-500">Ingen egne coaching-cues funnet for denne rollen.</p>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {showUefaDetail && position.sourceLabels.length > 0 && (
+                <p className="mt-3 border-t border-zinc-200 pt-3 text-xs text-zinc-400">
+                  UEFA-kilder: {position.sourceLabels.join(" · ")}
+                </p>
+              )}
             </div>
           ))}
-
-          {/* Source attribution */}
-          {showDetailed && (
-            <p className="text-xs text-zinc-400 pt-2 border-t border-zinc-100">
-              Detaljerte oppgaver fra{" "}
-              <a
-                href="https://tiim.no"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-600 hover:underline"
-              >
-                tiim.no
-              </a>{" "}
-              (NFF)
-            </p>
-          )}
         </div>
       )}
     </section>

@@ -372,7 +372,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A02-angrep-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A02-per-inge-jacobsen-angrep.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2014-oppgave-per-inge-jacobsen.pdf"
                                 target="_blank"
@@ -457,7 +457,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A03-avslutning-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A03-tom-selmer-avslutning.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa_a_2012_oppgave_tom_selmer.pdf"
                                 target="_blank"
@@ -675,7 +675,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A04-barca-rytme-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A04-finn-bredo-olsen-barca-rytme.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_finn_bredo_olsen.pdf"
                                 target="_blank"
@@ -758,7 +758,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A05-basma-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A05-christer-basma-suksesskriterier.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2012_oppgave_christer_basma.pdf"
                                 target="_blank"
@@ -878,7 +878,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A06-sentral-midt-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A06-oyvind-iversen-sentral-midt.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oyvind-iversen.pdf"
                                 target="_blank"
@@ -963,7 +963,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A07-maalscorer-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A07-sigurd-rushfeldt-maalscorer.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2013-oppgave-sigurd-rushfeldt.pdf"
                                 target="_blank"
@@ -1143,7 +1143,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A10-implicit-winger-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A10-hugo-pereira-winger.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-oppgaver/uefa-a-2015-oppgave-hugo-pereira.pdf"
                                 target="_blank"
@@ -1303,7 +1303,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A12-anders-fredriksen-angrepsspill-ANALYSE-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A12-anders-fredriksen-angrepsspill.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-anders-fredriksen.pdf"
                                 target="_blank"
@@ -1383,7 +1383,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A13-sideback-indreloper-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A13-arnstein-roen-sideback-indreloper.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa-a-2013-oppgave-arnstein-roen.pdf"
                                 target="_blank"
@@ -1466,7 +1466,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A14-indreloper-4312-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A14-magnus-oltedal-indreloper.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/uefa_a_2013_oppgave_magnus_oltedal.pdf"
                                 target="_blank"
@@ -1556,7 +1556,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A15-innlegg-2015-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A15-gard-kristiansen-innlegg.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -1658,7 +1658,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A16-rbk-angrep-2016-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A16-jorgen-ferstad-rbk-angrep.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -1741,9 +1741,9 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Etablert: bygg «avtale-kort» på triggers (sideback/stopper/6 vender opp/1v1 på kant/8 truer rom 2/innlegg).</li>
                                 <li>• Presshøyde-modus: høyt = styrer, mellom = felle, lavt = retning + vær oppspillspunkt ved brudd.</li>
-                                <li>• Økt 1: Feilvendt-oppspill + tredjemann (UEFA-A17-01).</li>
-                                <li>• Økt 2: Innlegg/boksroller (UEFA-A17-02).</li>
-                                <li>• Økt 3: Pressledelse (UEFA-A17-03).</li>
+                                <li>• Økt 1: feilvendt oppspill og avspill til tredjemann.</li>
+                                <li>• Økt 2: boksavtaler og timing på innlegg.</li>
+                                <li>• Økt 3: pressledelse, retning og kollektiv oppfølging.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1760,7 +1760,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A17-spissrollen-rbk-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A17-erik-selnas-spissrollen.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -1843,9 +1843,9 @@ export const UEFASeksjon = () => {
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• Avklar løsningsprofil: Bayern (vend → 1v1/2v1 side → innlegg/cut-back) eller Barca (side lokker → rettvendt i mellomrom → gjennombrudd).</li>
                                 <li>• Triggerkort: vending når blokka er overflyttet; pådrag når 1F ikke får trykk.</li>
-                                <li>• Økt 1: Vending med hensikt (UEFA-A18-01).</li>
-                                <li>• Økt 2: Pådrag for å åpne mellomrom (UEFA-A18-02).</li>
-                                <li>• Økt 3: Lav blokk-lås opp (UEFA-A18-03).</li>
+                                <li>• Økt 1: vending med hensikt for å flytte blokka.</li>
+                                <li>• Økt 2: pådrag som binder 2. ledd og åpner mellomrom.</li>
+                                <li>• Økt 3: angrepsstruktur som tåler balltap og utløser gjenvinning.</li>
                               </ul>
                             </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
@@ -1862,7 +1862,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A18-hiep-tran-angrep-etablert-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A18-hiep-tran-angrep-etablert.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -1938,8 +1938,8 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: KFUM nærrom-possession (UEFA-A19-01) – tåle press + valg i små rom.</li>
-                                <li>• Økt 2: Spill mot delvis etablert (UEFA-A19-02) – «grønt lys» + 5 sek gjenvinning.</li>
+                                <li>• Økt 1: strukturspill 16-meter til 16-meter med smalere bredde.</li>
+                                <li>• Økt 2: 8v8 + 2 frie med 5 sek gjenvinning og varierende kriterier.</li>
                                 <li>• Kamp: logg (a) 0–1 / 2–3 / 4+ trekk før sjanse, (b) gjenvinning ≤5 sek, (c) hva som ga «grønt lys».</li>
                                 <li>• Etter kamp: evaluer kvaliteten på avbrudd/vendinger og hvor ofte dere tvinger gjennom.</li>
                               </ul>
@@ -1958,7 +1958,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A19-angrep-mot-etablert-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A19-stale-andersen-angrep-etablert.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2034,9 +2034,9 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Cutback-bank (UEFA-A20-01) – 1-touch i boks.</li>
-                                <li>• Økt 2: Sistepasning i lommen (UEFA-A20-02) – maks 2 touch på sistepas.</li>
-                                <li>• Økt 3: Quick restart-spill (UEFA-A20-03) – 5 sek start, avslutning innen 10 sek.</li>
+                                <li>• Økt 1: skap flere 1-touch-bilder i og rundt boksen.</li>
+                                <li>• Økt 2: tren timing i sistepasning og avslutning på få touch.</li>
+                                <li>• Økt 3: bruk hurtige restarter som våpen før motstander er satt.</li>
                                 <li>• Kamp: tell 1-touch-mål, 2-touch-sjanser og quick restart-sjanser.</li>
                               </ul>
                             </div>
@@ -2054,7 +2054,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A20-touch-scoringsanalyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A20-stian-lund-touch-scoring.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2129,9 +2129,9 @@ export const UEFASeksjon = () => {
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: Garasje/vegg – 10 av 10 (UEFA-A21-01).</li>
-                                <li>• Økt 2: Avslutning med konsekvens (UEFA-A21-02).</li>
-                                <li>• Økt 3: Selvstendig kvalitet (UEFA-A21-03) – 3 x 4 min.</li>
+                                <li>• Økt 1: murvegg med halvsprett og treff mellom oppmerkede soner.</li>
+                                <li>• Økt 2: åpent mål fra kort hold for å finne scoringsmodus.</li>
+                                <li>• Økt 3: 15-20 min innlegg og avslutning etter fellestrening.</li>
                                 <li>• Kamp: 2–3 visualiseringer + kort serie som må bestås.</li>
                               </ul>
                             </div>
@@ -2149,7 +2149,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A21-notorisk-maalscorer-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A21-totto-dahlum-maalscorer.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2235,7 +2235,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A22-sidebacken-hoyt-i-banen-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A22-dag-riisnas-sideback.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2307,15 +2307,6 @@ export const UEFASeksjon = () => {
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
-                            <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: 4-4-2 høyt press (spiss/kant styrer).</li>
-                                <li>• Økt 2: Mellom/lav blokk + innleggshåndtering.</li>
-                                <li>• Økt 3: Gjenpress og kontring imot.</li>
-                                <li>• Kamp: loggfør sjanser, kontringer og innlegg mot oss.</li>
-                              </ul>
-                            </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
@@ -2452,7 +2443,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A24-etablert-forsvar-4231-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A24-ole-martin-nesselquist-etablert-forsvar.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2531,27 +2522,9 @@ export const UEFASeksjon = () => {
                                 <li>• Push-up etter klarering: <strong>alle ledd opp innen 3–4 sek</strong>.</li>
                               </ul>
                             </div>
-                            <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Kampplan (MatchPrep)</h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Avklar «ramma» og 2–3 triggere for «nå går vi».</li>
-                                <li>• Definer 1F-prinsipp: hvem bremser/leder, hvem sikrer bak/inni.</li>
-                                <li>• Plan mot innlegg/cutback: steng rommet bak/mellom back–stopper, CM i sikring.</li>
-                                <li>• «Siste 15»-protokoll: risikokontroll + klarering/andreball + friske bein i nøkkelroller.</li>
-                              </ul>
-                            </div>
                           </div>
 
                           <div className="grid gap-3 md:grid-cols-2">
-                            <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Øvelser (MatchPrep)</h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• UEFA-A25-01: «Ramma vs press» – 7v7 + 2 jokere.</li>
-                                <li>• UEFA-A25-02: Back–stopper–CM triangel-sikring mot innlegg/cutback.</li>
-                                <li>• UEFA-A25-03: «Push-up etter klarering» – 10 min closing-spill.</li>
-                                <li>• UEFA-A25-04: Dødballpakke (innkast + straffe/corner-fokus).</li>
-                              </ul>
-                            </div>
                             <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
@@ -2567,7 +2540,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A25-ffk-forsvar-2012-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A25-even-juliussen-ffk-forsvar.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2640,15 +2613,6 @@ export const UEFASeksjon = () => {
 
                           <div className="grid gap-3 md:grid-cols-2">
                             <div className="rounded-xl border border-zinc-200 p-3">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Matchplan</h4>
-                              <ul className="mt-2 space-y-1 text-sm text-zinc-700">
-                                <li>• Økt 1: UEFA-A26-02 Boksroller (1/midt/bak + returrom).</li>
-                                <li>• Økt 2: UEFA-A26-01 Farlig vs ufarlig sone (stopp kryss).</li>
-                                <li>• Økt 3: UEFA-A26-03 Sluttfase (push-up + andreball).</li>
-                                <li>• Kamp: loggfør innlegg og sjanser per omgang.</li>
-                              </ul>
-                            </div>
-                            <div className="rounded-xl border border-zinc-200 p-3">
                               <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching cues</h4>
                               <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                                 <li>• «Farlig sone først!»</li>
@@ -2663,7 +2627,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A26-forsvar-mot-innlegg-analyse-v2.md</code>. Oppgave{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A26-gaute-helstrup-innlegg-forsvar.txt</code>. Oppgave{" "}
                               <a
                                 href="https://www.fotball.no/trener/uefa-a-lisens/uefa-a-lisens-oppgaver/"
                                 target="_blank"
@@ -2733,7 +2697,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/G01-keeper-spillbasert-utvikling-analyse-v2.md</code>.
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/arkiv/G01-keeper-spillbasert-utvikling-analyse-v2.md</code>.
                             </p>
                           </div>
                         </div>
@@ -2780,7 +2744,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/G02-keeper-hva-moter-i-kamp-analyse-v2.md</code>.
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/arkiv/G02-keeper-hva-moter-i-kamp-analyse-v2.md</code>.
                             </p>
                           </div>
                         </div>
@@ -2853,7 +2817,7 @@ export const UEFASeksjon = () => {
                           <div className="rounded-xl border border-zinc-200 p-3 text-sm text-zinc-600">
                             <p className="font-semibold text-zinc-900 mb-1">Mer i analysen</p>
                             <p className="text-xs text-zinc-500">
-                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A08-playmaker-analyse-v2.md</code>. Oppgave:{" "}
+                              Fullversjon: <code className="text-[11px] bg-zinc-100 px-1 py-0.5 rounded">docs/uefa/A08-gard-holme-playmaker.txt</code>. Oppgave:{" "}
                               <a
                                 href="https://www.fotball.no/globalassets/trener/uefa-a-lisens/oppgaver/idrett---676258---uefa-a-2014-oppgave-gard-holme.pdf"
                                 target="_blank"
