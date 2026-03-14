@@ -29,6 +29,22 @@ const StarIcon = ({ filled }: { filled: boolean }) => (
   </svg>
 );
 
+
+const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText: string; linkColor: string }> = {
+  tiim:       { label: "tiim",                    className: "bg-emerald-100 text-emerald-700", linkText: "Se på tiim.no",                  linkColor: "text-emerald-600 hover:text-emerald-700" },
+  eggen:      { label: "Eggen",                   className: "bg-amber-100 text-amber-700",    linkText: "Se PDF (Eggen)",                  linkColor: "text-amber-600 hover:text-amber-700" },
+  dbu:        { label: "DBU",                     className: "bg-red-100 text-red-700",        linkText: "Se på dbu.dk",                    linkColor: "text-red-600 hover:text-red-700" },
+  rondo:      { label: "Rondo",                   className: "bg-purple-100 text-purple-700",  linkText: "The Science of Rondo",            linkColor: "text-purple-600 hover:text-purple-700" },
+  hyballa:    { label: "Hyballa",                 className: "bg-blue-100 text-blue-700",      linkText: "German Soccer Passing Drills",    linkColor: "text-blue-600 hover:text-blue-700" },
+  bangsbo:    { label: "Bangsbo",                 className: "bg-cyan-100 text-cyan-700",      linkText: "Se kilde",                        linkColor: "text-cyan-600 hover:text-cyan-700" },
+  dugger:     { label: "Dugger",                  className: "bg-rose-100 text-rose-700",      linkText: "Se kilde",                        linkColor: "text-rose-600 hover:text-rose-700" },
+  prickett:   { label: "Prickett",                className: "bg-lime-100 text-lime-700",      linkText: "Se kilde",                        linkColor: "text-lime-600 hover:text-lime-700" },
+  "101youth": { label: "101 Youth",               className: "bg-orange-100 text-orange-700",  linkText: "Se kilde",                        linkColor: "text-orange-600 hover:text-orange-700" },
+  seeger:     { label: "Seeger",                  className: "bg-indigo-100 text-indigo-700",  linkText: "Se kilde",                        linkColor: "text-indigo-600 hover:text-indigo-700" },
+  matkovich:  { label: "Matkovich",               className: "bg-teal-100 text-teal-700",      linkText: "Se kilde",                        linkColor: "text-teal-600 hover:text-teal-700" },
+  worldclass: { label: "World Class",             className: "bg-sky-100 text-sky-700",        linkText: "Se kilde",                        linkColor: "text-sky-600 hover:text-sky-700" },
+};
+
 export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   const { toggleExercise, toggleFavorite, selected, isFavorite } = useSessionStore(
     useShallow((state) => ({
@@ -200,66 +216,10 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
           <span className="rounded-md bg-zinc-100 px-2 py-0.5 font-medium capitalize text-zinc-600">
             {exercise.theme}
           </span>
-          {exercise.source === "tiim" && (
-            <span className="rounded-md bg-emerald-100 px-2 py-0.5 font-medium text-emerald-700">
-              tiim
-            </span>
-          )}
-          {exercise.source === "eggen" && (
-            <span className="rounded-md bg-amber-100 px-2 py-0.5 font-medium text-amber-700">
-              Eggen
-            </span>
-          )}
-          {exercise.source === "dbu" && (
-            <span className="rounded-md bg-red-100 px-2 py-0.5 font-medium text-red-700">
-              DBU
-            </span>
-          )}
-          {exercise.source === "rondo" && (
-            <span className="rounded-md bg-purple-100 px-2 py-0.5 font-medium text-purple-700">
-              Rondo
-            </span>
-          )}
-          {exercise.source === "hyballa" && (
-            <span className="rounded-md bg-blue-100 px-2 py-0.5 font-medium text-blue-700">
-              Hyballa
-            </span>
-          )}
-          {exercise.source === "bangsbo" && (
-            <span className="rounded-md bg-cyan-100 px-2 py-0.5 font-medium text-cyan-700">
-              Bangsbo
-            </span>
-          )}
-          {exercise.source === "dugger" && (
-            <span className="rounded-md bg-rose-100 px-2 py-0.5 font-medium text-rose-700">
-              Dugger
-            </span>
-          )}
-          {exercise.source === "prickett" && (
-            <span className="rounded-md bg-lime-100 px-2 py-0.5 font-medium text-lime-700">
-              Prickett
-            </span>
-          )}
-          {exercise.source === "101youth" && (
-            <span className="rounded-md bg-orange-100 px-2 py-0.5 font-medium text-orange-700">
-              101 Youth
-            </span>
-          )}
-          {exercise.source === "seeger" && (
-            <span className="rounded-md bg-indigo-100 px-2 py-0.5 font-medium text-indigo-700">
-              Seeger
-            </span>
-          )}
-          {exercise.source === "matkovich" && (
-            <span className="rounded-md bg-teal-100 px-2 py-0.5 font-medium text-teal-700">
-              Matkovich
-            </span>
-          )}
-          {exercise.source === "worldclass" && (
-            <span className="rounded-md bg-sky-100 px-2 py-0.5 font-medium text-sky-700">
-              World Class
-            </span>
-          )}
+          {exercise.source && SOURCE_CONFIG[exercise.source] && (() => {
+            const { label, className } = SOURCE_CONFIG[exercise.source!];
+            return <span className={`rounded-md px-2 py-0.5 font-medium ${className}`}>{label}</span>;
+          })()}
         </div>
         <div className="mt-2 flex items-center gap-3">
           {hasExtraInfo && (
@@ -281,12 +241,8 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               rel="noopener noreferrer"
               onClick={(event) => event.stopPropagation()}
               className={`inline-flex items-center gap-1 text-xs hover:underline ${
-                exercise.source === "eggen" 
-                  ? "text-amber-600 hover:text-amber-700" 
-                  : exercise.source === "rondo"
-                  ? "text-purple-600 hover:text-purple-700"
-                  : exercise.source === "hyballa"
-                  ? "text-blue-600 hover:text-blue-700"
+                exercise.source && SOURCE_CONFIG[exercise.source]
+                  ? SOURCE_CONFIG[exercise.source].linkColor
                   : "text-emerald-600 hover:text-emerald-700"
               }`}
             >
@@ -294,13 +250,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
                 <path d="M8.914 6.025a.75.75 0 0 1 1.06 0 3.5 3.5 0 0 1 0 4.95l-2 2a3.5 3.5 0 0 1-5.396-4.402.75.75 0 0 1 1.251.827 2 2 0 0 0 3.085 2.514l2-2a2 2 0 0 0 0-2.828.75.75 0 0 1 0-1.06Z" />
                 <path d="M7.086 9.975a.75.75 0 0 1-1.06 0 3.5 3.5 0 0 1 0-4.95l2-2a3.5 3.5 0 0 1 5.396 4.402.75.75 0 0 1-1.251-.827 2 2 0 0 0-3.085-2.514l-2 2a2 2 0 0 0 0 2.828.75.75 0 0 1 0 1.06Z" />
               </svg>
-              {exercise.source === "eggen" 
-                ? "Se PDF (Eggen)" 
-                : exercise.source === "rondo"
-                ? "The Science of Rondo"
-                : exercise.source === "hyballa"
-                ? "German Soccer Passing Drills"
-                : "Se på tiim.no"}
+              {(exercise.source && SOURCE_CONFIG[exercise.source]?.linkText) ?? "Se kilde"}
             </a>
           )}
         </div>

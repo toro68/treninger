@@ -41,68 +41,34 @@ export const SessionTimeline = () => {
   const [showCooldown, setShowCooldown] = useState(true);
 
   // Grupper blokker i 6 deler (matcher kategoriene som vises i UI)
-  const parts: SessionPart[] = [
-    {
-      key: "skadefri",
-      title: "1. Skadefri",
-      subtitle: "Fast oppvarming",
-      blocks: [],
-    },
-    {
-      key: "oppvarming",
-      title: "2. Oppvarming",
-      subtitle: "Valgfri",
-      blocks: [],
-    },
-    {
-      key: "rondo",
-      title: "3. Rondo",
-      subtitle: "Valgfri",
-      blocks: [],
-    },
-    {
-      key: "stasjoner",
-      title: "4. Stasjoner",
-      subtitle: "",
-      blocks: [],
-    },
-    {
-      key: "spill",
-      title: "5. Spill",
-      subtitle: "",
-      blocks: [],
-    },
-    {
-      key: "avslutning",
-      title: "6. Avslutning",
-      subtitle: "Utstrekking og styrke",
-      blocks: [],
-    },
-  ];
+  const parts = useMemo<SessionPart[]>(() => {
+    const grouped: SessionPart[] = [
+      { key: "skadefri",   title: "1. Skadefri",   subtitle: "Fast oppvarming",        blocks: [] },
+      { key: "oppvarming", title: "2. Oppvarming",  subtitle: "Valgfri",                blocks: [] },
+      { key: "rondo",      title: "3. Rondo",       subtitle: "Valgfri",                blocks: [] },
+      { key: "stasjoner",  title: "4. Stasjoner",   subtitle: "",                       blocks: [] },
+      { key: "spill",      title: "5. Spill",       subtitle: "",                       blocks: [] },
+      { key: "avslutning", title: "6. Avslutning",  subtitle: "Utstrekking og styrke",  blocks: [] },
+    ];
 
-  sessionBlocks.forEach((block, index) => {
-    const cat = block.exercise.category;
-    if (cat === "fixed-warmup") {
-      parts[0].blocks.push({ block, globalIndex: index });
-    } else if (cat === "warmup" || cat === "aktivisering") {
-      parts[1].blocks.push({ block, globalIndex: index });
-    } else if (cat === "rondo") {
-      parts[2].blocks.push({ block, globalIndex: index });
-    } else if (cat === "station") {
-      parts[3].blocks.push({ block, globalIndex: index });
-    } else if (cat === "game") {
-      parts[4].blocks.push({ block, globalIndex: index });
-    } else if (cat === "cooldown") {
-      parts[5].blocks.push({ block, globalIndex: index });
+    sessionBlocks.forEach((block, index) => {
+      const cat = block.exercise.category;
+      if (cat === "fixed-warmup")                  grouped[0].blocks.push({ block, globalIndex: index });
+      else if (cat === "warmup" || cat === "aktivisering") grouped[1].blocks.push({ block, globalIndex: index });
+      else if (cat === "rondo")                    grouped[2].blocks.push({ block, globalIndex: index });
+      else if (cat === "station")                  grouped[3].blocks.push({ block, globalIndex: index });
+      else if (cat === "game")                     grouped[4].blocks.push({ block, globalIndex: index });
+      else if (cat === "cooldown")                 grouped[5].blocks.push({ block, globalIndex: index });
+    });
+
+    const stationCount = grouped[3].blocks.length;
+    if (stationCount > 0) {
+      const playersPerStation = Math.floor(playerCount / stationCount);
+      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
     }
-  });
 
-  // Oppdater stasjon-subtitle
-  const stationCount = parts[3].blocks.length;
-  if (stationCount > 0) {
-    const playersPerStation = Math.floor(playerCount / stationCount);
-    parts[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
-  }
+    return grouped;
+  }, [sessionBlocks, playerCount]);
 
   const totalMinutes = sessionBlocks.reduce(
     (acc, block) => acc + recommendedDuration(block),
