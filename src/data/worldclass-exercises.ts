@@ -11,53 +11,22 @@ export const worldclassExercises: ExerciseData[] = [
   // ===== WORLD CLASS COACHING - 50 Small-Sided Games =====
   // Oppvarming og kondisjon
   {
-    id: "smallsided-111",
-    exerciseNumber: 111,
-    name: "Håndball til mål",
-    tags: ["worldclass-50-smallsided-games"],
-    category: "warmup",
-    duration: 10,
-    playersMin: 8,
-    playersMax: 14,
-    theme: "bevegelse",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "6v6 håndball med avslutning. Spillerne spiller med hendene (kast og fang), men må avslutte med hodet eller volleyskudd. Ingen dribling - kun pasninger. Tvinger bevegelse uten ball.",
-    coachingPoints: [
-      "Konstant bevegelse for å bli spillbar",
-      "Timing på løp - ikke løp for tidlig",
-      "Kvalitet på innlegg til avslutning",
-      "Kommunikasjon - rop deg fri"
-    ],
-    variations: [
-      "Kun heading til mål",
-      "Maks 3 sek med ball",
-      "Legg til overtall ved innlegg"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.12 'Team Hand Ball to Goal'"
-  },
-  {
     id: "smallsided-112",
     exerciseNumber: 112,
     name: "Kast-Heading-Fang",
     tags: ["worldclass-50-smallsided-games"],
     category: "warmup",
     duration: 12,
-    playersMin: 10,
+    playersMin: 20,
     playersMax: 20,
     theme: "bevegelse",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "To lag spiller på bane med endesoner. Spillerne kaster til hverandre, og mottaker MÅ hodet ballen tilbake. Poeng ved å fange ball i endesone. Aktiv oppvarming med heading.",
-    coachingPoints: [
-      "Timing på hopp og heading",
-      "Løp inn i rom - ikke stå stille",
-      "Presise kast - ikke for høye",
-      "Forsvar: avskjær kastene"
-    ],
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
+    description: "10v10 på 65x35 yards. Spillet starter med kast, deretter må spillerne header-passe og score med heading. Ball på bakken = balltap og nytt kast andre veien.",
+    coachingPoints: [],
     variations: [
-      "Mottaker kan velge heading eller bryst",
-      "Doble poeng for heading i sone",
-      "Legg til mål med keeper"
+      "Kast → volley til medspiller → heading tilbake → mottak",
+      "Spillerne må header-passe mens de er i lufta",
+      "Kun mål med heading"
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.14 'Throw - Head - Catch'"
@@ -72,18 +41,12 @@ export const worldclassExercises: ExerciseData[] = [
     playersMin: 16,
     playersMax: 18,
     theme: "possession",
-    equipment: ["Kjegler", "Vester (4 farger)", "Baller"],
-    description: "Fire lag à 3-4 spillere på kvadrat. Lag 1+2 mot Lag 3+4 i ballbesittelse. Bytter motstandere hvert minutt. Alle må holde intensiteten opp.",
-    coachingPoints: [
-      "Kommunikasjon - hvem er med/mot deg",
-      "Finn lagkamerat raskt",
-      "Høyt tempo selv i oppvarming",
-      "Sjekk over skulder kontinuerlig"
-    ],
+    equipment: ["Kjegler", "Vester (4 farger)", "Baller", "2 mål", "2 keepere"],
+    description: "Fire lag à fire spillere. Hvert lag har én ball og passer kort. Når keeper roper farge, slår spilleren ballen enkelt inn i keeperens armer, som kaster ut til samme gruppe. Dynamisk strekk underveis før lengre/drivende pasninger.",
+    coachingPoints: [],
     variations: [
-      "Vekslende partnerlag",
-      "Lag som mister ball bytter ut",
-      "Maks 2-touch"
+      "Lengre pasninger før innlegg til keeper",
+      "Drivende pasninger med mer kraft"
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.10 'Four Team Warm-Up'"
@@ -100,18 +63,9 @@ export const worldclassExercises: ExerciseData[] = [
     playersMax: 14,
     theme: "possession",
     equipment: ["Kjegler", "Vester", "Baller"],
-    description: "5 spillere på sirkel holder ball mot 2 i midten. Kun 1-touch tillatt. Spiller som mister går i midten. Ekstremt høy intensitet og teknisk fokus.",
-    coachingPoints: [
-      "Kroppsstilling - åpen for neste pasning",
-      "Første touch = pasning",
-      "Kommunikasjon - hvem er åpen?",
-      "Forsvar: jobb i par, steng pasningslinjer"
-    ],
-    variations: [
-      "2-touch for enklere variant",
-      "Poeng for 10 pasninger",
-      "6v2 for større gruppe"
-    ],
+    description: "Etter dynamisk oppvarming spiller tre grupper 5v2 i 10-yard ruter. Kun 1-touch fra start. Angriperne prøver å splitte forsvarerne og støtte tidlig for høyt tempo.",
+    coachingPoints: [],
+    variations: [],
     source: "worldclass",
     sourceRef: "WorldClass s.61 '5v2 One-Touch Possession'"
   },
@@ -125,18 +79,12 @@ export const worldclassExercises: ExerciseData[] = [
     playersMax: 12,
     theme: "possession",
     equipment: ["Kjegler (mange)", "Vester", "Baller"],
-    description: "4v4 på bane med 6-8 kjeglepar spredt rundt. Score ved å spille gjennom kjeglepar til lagkamerat. Tvinger scanning og spillebytte.",
+    description: "4v4 i 20x30 yard rektangel. Mål ved å velte en av target-kjeglene på motsatt ende. Fokus på presisjon i skudd og korte sidefotsavslutninger.",
     coachingPoints: [
-      "Scan banen - hvor er det åpent?",
-      "Bytt angrepspunkt ofte",
-      "Bevegelse uten ball skaper åpninger",
-      "Kvalitet på gjenomspillingen"
+      "Presisjon i skudd",
+      "Sidefotskudd på kort hold"
     ],
-    variations: [
-      "Kan ikke score gjennom samme mål to ganger på rad",
-      "Scoring kun med svak fot",
-      "Legg til nøytrale spillere"
-    ],
+    variations: [],
     source: "worldclass",
     sourceRef: "WorldClass s.56 'Cones as Goals'"
   },
@@ -146,21 +94,15 @@ export const worldclassExercises: ExerciseData[] = [
     name: "6v3 Press til avslutning",
     category: "game",
     duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "6 angripere mot 3 forsvarere i boks. Ved 5 pasninger på rad, scorer de. Ved balltap presser forsvarerne, og angriperne kan kontre på mål. Bytter roller etter 3 min.",
-    coachingPoints: [
-      "Pasninger med tempo",
-      "Bevegelse for å holde overtall",
-      "Ved balltap: umiddelbar omstilling",
-      "Forsvar: kommunikasjon og press"
-    ],
+    playersMin: 9,
+    playersMax: 9,
+    theme: "possession",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
+    description: "6 spillere holder ball mot 3. Seks pasninger = 1 poeng. Vinner 3-laget ballen, kan de score i ett av to mål. Startes alltid med ball fra trener.",
+    coachingPoints: [],
     variations: [
-      "4 pasninger for scoring",
-      "Forsvarere kan kontre på minimål",
-      "Tidsbegrensning per angrep"
+      "Bytt de tre forsvarerne hver 45–60 sek",
+      "Trenerserver kan styre intensitet"
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.40 '6v3 Possession to Finishing'"
@@ -171,21 +113,16 @@ export const worldclassExercises: ExerciseData[] = [
     name: "2v2+4 Støttespillere",
     category: "game",
     duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "2v2 i midten av rute, 4 støttespillere på sidene (nøytrale). Laget med ball bruker støttespillerne for overtall. Støttespillere kun 1-touch.",
+    playersMin: 14,
+    playersMax: 14,
+    theme: "avslutning",
+    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
+    description: "2v2 i 20x30 yards med fullmål og keepere. Hvert lag har fire støtte‑spillere på utsiden som spiller 1-touch. Rotasjon etter mål eller avslutning.",
     coachingPoints: [
-      "Utnytt overtallet via støttespillere",
-      "Bevegelse for å skape pasningslinje",
-      "Støttespillere: god kroppsstilling",
-      "Balanse mellom pasning og dribling"
+      "Utespillere har kun 1-touch inn til lagkamerater"
     ],
     variations: [
-      "Støttespillere 2-touch",
-      "Rotér innover etter x pasninger",
-      "Legg til mål på kortsider"
+      "Fast rotasjonsmønster etter mål/skudd"
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.63 '2v2+4 Support Players'"
@@ -199,19 +136,13 @@ export const worldclassExercises: ExerciseData[] = [
     playersMin: 12,
     playersMax: 14,
     theme: "possession",
-    equipment: ["Kjegler", "Vester (3 farger)", "Baller"],
-    description: "4v4 i midten, 4 nøytrale langs kantene. Start 4v4+4 (8v4 med ball). Etter 5 pasninger bytter nøytrale inn. Konstant rotation og høyt tempo.",
+    equipment: ["Kjegler", "Vester (3 farger)", "Baller", "2 keepere"],
+    description: "4v4 i rute (ca. 44x36 yards) med 4 støtte‑spillere på utsiden. Spilles i 3 minutter, deretter bytter inner/ytter. Utespillere 1-touch, restart fra keeper på halvdel der ballen gikk ut.",
     coachingPoints: [
-      "Utnyt overtallet - spill enkelt",
-      "Nøytrale: alltid klar for ball",
-      "Bytt posisjon med nøytral etter pasning",
-      "Høyt tempo - ingen pauser"
+      "Utespillere har 1-touch",
+      "Restart fra keeper på halvdel der ballen gikk ut"
     ],
-    variations: [
-      "3 pasninger for bytte",
-      "Nøytrale kan drible inn",
-      "Legg til mål for scoring"
-    ],
+    variations: [],
     source: "worldclass",
     sourceRef: "WorldClass s.65 '4v4+4 Progression'"
   },
@@ -227,18 +158,14 @@ export const worldclassExercises: ExerciseData[] = [
     playersMax: 20,
     theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "9v9 på stor bane med offsidelinje i hver halvdel. Fokus på timing av løp og pasninger i bakrom. Realistisk kamptrening med avslutninger.",
+    description: "9v9 i midtre tredjedel av full bane, markert i tredeler. Start med coach‑server til ett lag som må ha min. 3 pasninger før ball spilles i rom for løpende spiller (1v1 mot keeper). Coach server til andre lag etter avslutning.",
     coachingPoints: [
-      "Timing på dybdeløp - sjekk linja",
-      "Pasning i fart - ikke for tidlig/sent",
-      "Forsvarslinje: hold kompakt",
-      "Keeper: kommunikasjon med linje"
+      "Unngå å gå for tidlig i offside",
+      "Ikke forhast siste pasning",
+      "Bruk hele banens bredde",
+      "Spill pasningen i rom, ikke til spiller"
     ],
-    variations: [
-      "Kun 2-touch i angrepssone",
-      "Scoring etter innlegg gir dobbelt",
-      "Maks 20 sek angrep"
-    ],
+    variations: [],
     source: "worldclass",
     sourceRef: "WorldClass s.28 '9v9 Offside Shooting'"
   },
@@ -252,17 +179,14 @@ export const worldclassExercises: ExerciseData[] = [
     playersMax: 14,
     theme: "avslutning",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "6v6 på kompakt bane med fulle mål. Oppmuntrer til mange avslutninger og pressspill. Korte overganger mellom angrep og forsvar.",
+    description: "6v6 i rute med mål i hver ende. Lagene står i 2-2-2. Skudd på mål gir laget ballen tilbake for å angripe motsatt mål.",
     coachingPoints: [
-      "Skudd ved første mulighet",
-      "Rask omstilling begge veier",
-      "Press høyt ved balltap",
-      "Keeper: start kontringsangrep"
+      "Hold ballen og angrip med hensikt",
+      "Skyt når muligheten kommer",
+      "Press ballfører raskt"
     ],
     variations: [
-      "Mål fra innlegg gir ekstra",
-      "Maks 5 pasninger før skudd",
-      "Heading teller dobbelt"
+      "Spill to-touch, deretter en-touch hvis mulig"
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.30 '6v6+Goalkeepers'"
@@ -275,21 +199,19 @@ export const worldclassExercises: ExerciseData[] = [
     name: "4v4 Innleggsspill",
     category: "game",
     duration: 15,
-    playersMin: 10,
-    playersMax: 14,
+    playersMin: 12,
+    playersMax: 12,
     theme: "innlegg",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "4v4 på bane med kantsoner. Spillere kan drible inn i kantsone fritt - da må innlegg slås. Poeng for mål etter innlegg.",
+    description: "4v4 med keepere i område omtrent dobbelt størrelse av 16‑meter. Tredje lag venter ute. Start alltid med keeper‑kast til motsatt keeper som spiller til eget lag. Lag som scorer blir på.",
     coachingPoints: [
-      "Timing på innlegg - når er medspillere klare?",
-      "Bevegelse i boks før innlegget",
-      "Kvalitet på innlegget - bakre stolpe",
-      "Forsvar: mark tett ved innlegg"
+      "Tidlig press på ball",
+      "Dekning rundt første forsvarer",
+      "Forsvar: prioriter å beskytte mål"
     ],
     variations: [
-      "Kun 1-touch i boks",
-      "Innlegg fra bakken og luft",
-      "Ekstra poeng for heading"
+      "Progression #1: Ekstra lag fungerer som crossere i hjørner. Angripende lag må ha 4 pasninger før innlegg, én må til keeper.",
+      "Progression #2: Crossere kutter ballen tilbake og slår innsvingende innlegg med andre fot. Svak side kan angripe innlegget."
     ],
     source: "worldclass",
     sourceRef: "WorldClass s.34 '4v4 Crossing Progression'"
@@ -300,258 +222,15 @@ export const worldclassExercises: ExerciseData[] = [
     name: "7v7 Transferspill",
     category: "game",
     duration: 15,
-    playersMin: 12,
+    playersMin: 14,
     playersMax: 14,
     theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller", "2 mål", "2 keepere"],
-    description: "7v7 med midtlinje. Ball må spilles over midten til lagkamerat i motstanderens halvdel før angrep. Tvinger lagspill og dybde i laget.",
-    coachingPoints: [
-      "Hold bredde og dybde",
-      "Løp for å motta i rom",
-      "Pasning i fart over midten",
-      "Balanse mellom angrep og forsvar"
-    ],
-    variations: [
-      "2 spillere må være i hver halvdel",
-      "Kun 3-touch i egen halvdel",
-      "Kontering gir doble poeng"
-    ],
+    equipment: ["Kjegler", "Vester", "Baller"],
+    description: "To lag spiller i hver sin halvdel og er nummerert 1–7. Trener server ball inn; to forsvarere krysser inn for å vinne ballen. Ballholdende lag får poeng for hver femte pasning og kan sende ekstra forsvarer ved fem pasninger. Vinner forsvarerne ballen, spiller de til eget lag i motsatt halvdel og teller kun pasninger i sin angrepshalvdel. Ved første utspill spurter spiller #1 fra hvert lag til sidelinjeball, neste gang #2 osv.",
+    coachingPoints: [],
+    variations: [],
     source: "worldclass",
     sourceRef: "WorldClass s.48 '7v7 Transfer Game'"
-  },
-  {
-    id: "smallsided-123",
-    exerciseNumber: 123,
-    name: "6v6 Endesoner",
-    category: "game",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 14,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "6v6 på bane med endesoner (5m dype). Score ved å drible inn i endesonen med kontroll. Fokus på inntrengninger og gjennombrudd.",
-    coachingPoints: [
-      "Drible med fart mot sonen",
-      "Tidlig støtteløp fra lagkamerater",
-      "Forsvar: falle av og forsinke",
-      "Overganger: slå kontrene raskt"
-    ],
-    variations: [
-      "Må motta pasning i endesonen",
-      "Legg til scoringssone med mål",
-      "Kun 2-touch utenfor endesoner"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.50 '6v6 End Zones'"
-  },
-
-  // Newcastle United pasningsspill
-  {
-    id: "smallsided-124",
-    exerciseNumber: 124,
-    name: "Newcastle 5v3 Rondo",
-    category: "rondo",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "5v3 rondo fra Newcastle United. Spillerne roterer posisjon etter hver pasning (følg pasningen). Holder alle aktive og beveger seg konstant.",
-    coachingPoints: [
-      "Følg pasningen - bytt plass",
-      "Sjekk skulderen før mottak",
-      "Pasning i fart - ikke stopp ballen",
-      "Forsvar: press i par"
-    ],
-    variations: [
-      "2-touch maks",
-      "Spiller som mister bytter ut",
-      "Legg til målscoring etter 8 pasninger"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.70 'Newcastle United Passing'"
-  },
-  {
-    id: "smallsided-125",
-    exerciseNumber: 125,
-    name: "Quick Play & Pressing",
-    category: "rondo",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "pressing",
-    equipment: ["Kjegler", "Vester", "Baller", "2 minimål"],
-    description: "5v5+2 nøytrale på kompakt bane. Ekstremt høyt tempo med fokus på pressing og rask omstilling. Nøytrale alltid med laget som har ball.",
-    coachingPoints: [
-      "Press umiddelbart ved balltap",
-      "Nøytrale: alltid beveg deg til støtteposisjon",
-      "Korte pasninger i høyt tempo",
-      "Kroppen klar for neste aksjon"
-    ],
-    variations: [
-      "Kun 2-touch",
-      "Mål etter 6 pasninger",
-      "Nøytrale roterer inn/ut"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.72 'Quick Play and Pressing'"
-  },
-
-  // PSV Eindhoven og Juventus
-  {
-    id: "smallsided-126",
-    exerciseNumber: 126,
-    name: "PSV Firkant-spill",
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "4v4 i firkant med hjørnespillere (roterende). Ballholdende lag bruker hjørnene som støtte. Ved 6 pasninger byttes lag i midten.",
-    coachingPoints: [
-      "Bruk hjørnene aktivt",
-      "Bevegelse for å motta",
-      "Kommunikasjon om bytte",
-      "Press: steng hjørnene"
-    ],
-    variations: [
-      "Hjørnespillere 1-touch",
-      "Poeng for pasning gjennom laget",
-      "Legg til mål"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.58 'PSV Eindhoven Square Play'"
-  },
-  {
-    id: "smallsided-127",
-    exerciseNumber: 127,
-    name: "Juventus 6v4 Possession",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 12,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "6v4 ballbesittelse fra Juventus. Ved 8 pasninger scorer 6-laget. Ved erobring kan 4-laget score på minimål. Høy intensitet begge veier.",
-    coachingPoints: [
-      "Overtall: hold ballen i bevegelse",
-      "Undertall: press i gruppe, steng linjer",
-      "Rask omstilling ved erobring",
-      "Kommunikasjon konstant"
-    ],
-    variations: [
-      "6 pasninger for poeng",
-      "4-laget har tidsfrist på kontra",
-      "Rotér spillere mellom lag"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.67 'Juventus 6v4 Possession'"
-  },
-
-  // Chelsea og Manchester City
-  {
-    id: "smallsided-128",
-    exerciseNumber: 128,
-    name: "Chelsea Boksspill",
-    category: "game",
-    duration: 12,
-    playersMin: 8,
-    playersMax: 10,
-    theme: "avslutning",
-    equipment: ["Kjegler", "Vester", "Baller", "1 mål", "1 keeper"],
-    description: "4v4 i 16-meter med keeper. Fokus på bevegelse i trange rom, kombinasjoner og avslutninger. Høy frekvens på skudd.",
-    coachingPoints: [
-      "Bevegelse for å skape rom",
-      "Korte kombinasjoner",
-      "Skudd ved første sjanse",
-      "Returer - alltid klar for 2. ball"
-    ],
-    variations: [
-      "Maks 3-touch",
-      "Innlegg fra kanter",
-      "Tidsbegrensning per angrep"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.24 'Chelsea Box Play'"
-  },
-  {
-    id: "smallsided-129",
-    exerciseNumber: 129,
-    name: "Man City Possession Square",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "5v5 i firkant med mål i hvert hjørne (kjegler). Score ved pasning gjennom mål til lagkamerat. Tvinger lagbytte og scanning.",
-    coachingPoints: [
-      "Scan konstant - hvor er det åpent?",
-      "Beveg deg for å åpne pasningslinje",
-      "Bytt angrepspunkt raskt",
-      "Forsvaret: les spillet, dekk målene"
-    ],
-    variations: [
-      "Kan ikke bruke samme mål to ganger",
-      "2-touch maksimum",
-      "Poeng for direkte pasning gjennom"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.60 'Man City Possession Square'"
-  },
-  {
-    id: "smallsided-130",
-    exerciseNumber: 130,
-    name: "Ajax Posisjonsspill",
-    category: "game",
-    duration: 15,
-    playersMin: 10,
-    playersMax: 14,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "5v3+2 målspillere. Ballholdende lag holder ball og scorer ved pasning til målspiller. Målspillere bytter med spiller som ga pasning.",
-    coachingPoints: [
-      "Hold bredde og dybde",
-      "Pasning til riktig fot",
-      "Målspillere: vis deg, gi pasningslinje",
-      "Forsvar: press intensivt"
-    ],
-    variations: [
-      "Målspillere 1-touch retur",
-      "Bytter lag ved erobring",
-      "Legg til tidsfrist"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.68 'Ajax Positional Play'"
-  },
-
-  // ===== FLERE WORLD CLASS COACHING ØVELSER =====
-  // Newcastle United
-  {
-    id: "smallsided-131",
-    exerciseNumber: 131,
-    name: "Newcastle Pasning med endesoner",
-    category: "game",
-    duration: 15,
-    playersMin: 12,
-    playersMax: 14,
-    theme: "possession",
-    equipment: ["Kjegler", "Vester", "Baller"],
-    description: "6v6 med endesoner på hver kortside. Én spiller per lag i hver endesone (umarkert). Ved pasning til medspiller i endesonen bytter de plass - mottaker dribbler inn, passer løper inn i sonen.",
-    coachingPoints: [
-      "Killer-pasningen går til medspiller, ikke i rommet",
-      "Se opp før pasning for bedre presisjon",
-      "Kommunikasjon er nøkkelen",
-      "Timing på innløp i sonen"
-    ],
-    variations: [
-      "Maks 2-touch",
-      "Sonesspiller må spille 1-touch retur",
-      "Legg til mål etter sonespill"
-    ],
-    source: "worldclass",
-    sourceRef: "WorldClass s.70 'Newcastle Passing #3'"
   },
   {
     id: "smallsided-132",
