@@ -1,5 +1,5 @@
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
-import { Exercise, GENERIC_STRENGTH_EXERCISE_ID, getExerciseCode } from "@/data/exercises";
+import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
@@ -54,33 +54,31 @@ export const SessionTimeline = () => {
   const [sessionName, setSessionName] = useState("");
   const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
 
-  // Grupper blokker i 6 deler (matcher kategoriene som vises i UI)
+  // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
   const parts = useMemo<SessionPart[]>(() => {
     const grouped: SessionPart[] = [
       { key: "skadefri",   title: "1. Skadefri",   subtitle: "Spillerne styrer selv",   blocks: [] },
-      { key: "styrke",     title: "2. Styrke",     subtitle: "Valgfri",                 blocks: [] },
-      { key: "oppvarming", title: "3. Oppvarming", subtitle: "Valgfri",                 blocks: [] },
-      { key: "rondo",      title: "4. Rondo",      subtitle: "Valgfri",                 blocks: [] },
-      { key: "stasjoner",  title: "5. Stasjoner",  subtitle: "",                        blocks: [] },
-      { key: "spill",      title: "6. Spill",      subtitle: "",                        blocks: [] },
-      { key: "avslutning", title: "7. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] },
+      { key: "oppvarming", title: "2. Oppvarming", subtitle: "Valgfri",                 blocks: [] },
+      { key: "rondo",      title: "3. Rondo",      subtitle: "Valgfri",                 blocks: [] },
+      { key: "stasjoner",  title: "4. Stasjoner",  subtitle: "",                        blocks: [] },
+      { key: "spill",      title: "5. Spill",      subtitle: "",                        blocks: [] },
+      { key: "avslutning", title: "6. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] },
     ];
 
     sessionBlocks.forEach((block, index) => {
       const cat = block.exercise.category;
       if (cat === "fixed-warmup")                  grouped[0].blocks.push({ block, globalIndex: index });
-      else if (cat === "cooldown" && block.exercise.theme === "styrke") grouped[1].blocks.push({ block, globalIndex: index });
-      else if (cat === "warmup" || cat === "aktivisering") grouped[2].blocks.push({ block, globalIndex: index });
-      else if (cat === "rondo")                    grouped[3].blocks.push({ block, globalIndex: index });
-      else if (cat === "station")                  grouped[4].blocks.push({ block, globalIndex: index });
-      else if (cat === "game")                     grouped[5].blocks.push({ block, globalIndex: index });
-      else if (cat === "cooldown")                 grouped[6].blocks.push({ block, globalIndex: index });
+      else if (cat === "warmup" || cat === "aktivisering") grouped[1].blocks.push({ block, globalIndex: index });
+      else if (cat === "rondo")                    grouped[2].blocks.push({ block, globalIndex: index });
+      else if (cat === "station")                  grouped[3].blocks.push({ block, globalIndex: index });
+      else if (cat === "game")                     grouped[4].blocks.push({ block, globalIndex: index });
+      else if (cat === "cooldown")                 grouped[5].blocks.push({ block, globalIndex: index });
     });
 
-    const stationCount = grouped[4].blocks.length;
+    const stationCount = grouped[3].blocks.length;
     if (stationCount > 0) {
       const playersPerStation = Math.floor(playerCount / stationCount);
-      grouped[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
+      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
     }
 
     return grouped;
@@ -90,8 +88,6 @@ export const SessionTimeline = () => {
     (acc, block) => acc + recommendedDuration(block),
     0
   );
-
-  const hasGenericStrengthBlock = selectedExerciseIds.has(GENERIC_STRENGTH_EXERCISE_ID);
 
   const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
     (block.alternativeExerciseIds ?? [])
@@ -230,10 +226,6 @@ export const SessionTimeline = () => {
     }
   };
 
-  const handleToggleStrengthBlock = () => {
-    toggleExercise(GENERIC_STRENGTH_EXERCISE_ID);
-  };
-
   const buildShortSummary = () => {
     return sessionBlocks
       .map((block, index) => {
@@ -254,7 +246,6 @@ export const SessionTimeline = () => {
   const buildFullSummary = () => {
     const partNames = [
       "SKADEFRI",
-      "STYRKE",
       "OPPVARMING",
       "RONDO",
       "STASJONER",
@@ -623,31 +614,8 @@ export const SessionTimeline = () => {
 
                 {isVisible && (
                   <>
-                    {part.key === "styrke" ? (
-                      <div className="mb-2 rounded-xl border border-zinc-200 bg-zinc-50/80 p-3">
-                        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                          <div>
-                            <p className="text-sm font-medium text-zinc-800">Legg til valgfri styrkedel</p>
-                            <p className="text-xs text-zinc-500">Ingen øvelser velges her. Bare trener og varighet settes på blokken.</p>
-                          </div>
-                          <button
-                            type="button"
-                            onClick={handleToggleStrengthBlock}
-                            className={`rounded-xl border px-4 py-2 text-sm font-medium transition ${
-                              hasGenericStrengthBlock
-                                ? "border-zinc-300 bg-zinc-200 text-zinc-700 hover:bg-zinc-300"
-                                : "border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-700"
-                            }`}
-                          >
-                            {hasGenericStrengthBlock ? "Fjern styrke" : "Legg til styrke"}
-                          </button>
-                        </div>
-                      </div>
-                    ) : null}
                     {part.blocks.length === 0 ? (
-                      <p className="text-xs text-zinc-400 italic pl-2">
-                        {part.key === "styrke" ? "Styrke er ikke lagt til ennå." : "Ingen valgt"}
-                      </p>
+                      <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
                     ) : (
                       <div className="space-y-1.5">
                         {part.blocks.map(({ block, globalIndex }) => (

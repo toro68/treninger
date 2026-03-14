@@ -192,6 +192,33 @@ export const eggenExercises: ExerciseData[] = [
     sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
   },
   {
+    id: "t21-rostad",
+    exerciseNumber: 29,
+    name: "T21 Rostad",
+    category: "station",
+    duration: 18,
+    playersMin: 12,
+    playersMax: 20,
+    theme: "pasning",
+    equipment: ["baller", "kjegler"],
+    description:
+      "Sett opp en kvadrat på 40x40 meter med 3-5 spillere i hvert hjørne. Førstemann spiller ballen ca. 10 meter inn på neste kortside, mottaker tar med seg ballen i fart og spiller videre til neste kortside.",
+    coachingPoints: [
+      "Ta med første touch i fart inn i neste side av firkanten",
+      "Spill pasningen presist foran medspiller slik at tempoet holdes oppe",
+      "Bruk begge bein og behold rytmen når flere baller settes i gang",
+    ],
+    variations: [
+      "Øk fra én til to eller tre baller etter hvert",
+      "Snu retningen for å trene pasninger med begge bein",
+      "Kjør med én eller to touch",
+    ],
+    imageUrl: "/book-illustrations/eggen-t21.png",
+    source: "eggen",
+    sourceRef: "Eggen: Treningsøvelser 2003/2004 - T21 Rostad (s.33)",
+    sourceUrl: "https://www.orklafk.no/assets/Felles/Sport/Eggens-Trenerskole/2011/EggenKnutTorbjornTreningsovelser.pdf",
+  },
+  {
     id: "proysser-ovelsen",
     exerciseNumber: 33,
     name: "Prøysser-øvelsen",

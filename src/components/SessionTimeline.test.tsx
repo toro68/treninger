@@ -153,12 +153,4 @@ describe("SessionTimeline sharing", () => {
     expect(decoded?.sessionBlocks[0].assignedCoachNames).toEqual(["Rune", "John Arne"]);
   });
 
-  it("lets the user add a strength exercise from the strength section", async () => {
-    render(<SessionTimeline />);
-
-    fireEvent.click(await screen.findByRole("button", { name: "Legg til styrke" }));
-
-    expect(useSessionStore.getState().selectedExerciseIds.has("styrke-blokk")).toBe(true);
-    expect(await screen.findByText("Styrke")).toBeInTheDocument();
-  });
 });
