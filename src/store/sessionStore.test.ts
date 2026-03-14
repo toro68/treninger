@@ -14,6 +14,9 @@ describe("sessionStore", () => {
       highlightExerciseId: null,
       plannedBlocks: null,
       customExercises: [],
+      exerciseOverrides: {},
+      exerciseLibrary: useSessionStore.getState().exerciseLibrary,
+      savedSessions: [],
     });
   });
 
@@ -152,6 +155,78 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().searchQuery).toBe("");
       expect(useSessionStore.getState().highlightExerciseId).toBeNull();
       expect(useSessionStore.getState().selectedExerciseIds.size).toBe(0);
+    });
+  });
+
+  describe("savedSessions", () => {
+    it("should save the current session with a name", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.setState({
+        selectedExerciseIds: new Set([exercise!.id]),
+        plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+      });
+
+      const result = useSessionStore.getState().saveCurrentSession("Min testøkt");
+
+      expect(result.ok).toBe(true);
+      expect(useSessionStore.getState().savedSessions).toHaveLength(1);
+      expect(useSessionStore.getState().savedSessions[0].name).toBe("Min testøkt");
+    });
+
+    it("should load a previously saved session", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.setState({
+        playerCount: 18,
+        stationCount: 3,
+        selectedExerciseIds: new Set([exercise!.id]),
+        plannedBlocks: [{ id: exercise!.id, exercise: exercise!, customDuration: 14 }],
+      });
+
+      const saveResult = useSessionStore.getState().saveCurrentSession("Lasteøkt");
+      expect(saveResult.ok).toBe(true);
+
+      useSessionStore.setState({
+        playerCount: 10,
+        stationCount: 2,
+        selectedExerciseIds: new Set(),
+        plannedBlocks: null,
+      });
+
+      const savedId = useSessionStore.getState().savedSessions[0].id;
+      const loaded = useSessionStore.getState().loadSavedSession(savedId);
+
+      expect(loaded).toBe(true);
+      expect(useSessionStore.getState().playerCount).toBe(18);
+      expect(useSessionStore.getState().stationCount).toBe(3);
+      expect(useSessionStore.getState().selectedExerciseIds.has(exercise!.id)).toBe(true);
+      expect(useSessionStore.getState().plannedBlocks?.[0].customDuration).toBe(14);
+    });
+
+    it("should delete a saved session", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.setState({
+        selectedExerciseIds: new Set([exercise!.id]),
+        plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+      });
+
+      useSessionStore.getState().saveCurrentSession("Slett meg");
+      const savedId = useSessionStore.getState().savedSessions[0].id;
+
+      useSessionStore.getState().deleteSavedSession(savedId);
+
+      expect(useSessionStore.getState().savedSessions).toHaveLength(0);
     });
   });
 

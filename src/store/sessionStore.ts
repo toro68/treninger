@@ -19,10 +19,22 @@ type SerializedBlock = {
   alternativeExerciseIds?: string[];
 };
 
+export type SavedSession = {
+  id: string;
+  name: string;
+  createdAt: string;
+  updatedAt: string;
+  playerCount: number;
+  stationCount: number;
+  selectedExerciseIds: string[];
+  plannedBlocks: SerializedBlock[] | null;
+};
+
 type SessionState = {
   customExercises: Exercise[];
   exerciseOverrides: Record<string, Partial<Exercise>>;
   exerciseLibrary: Exercise[];
+  savedSessions: SavedSession[];
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -41,6 +53,9 @@ type SessionState = {
   setPlannedBlocks: (blocks: SessionBlock[]) => void;
   resetPlan: () => void;
   generateSession: () => SessionBlock[];
+  saveCurrentSession: (name: string) => { ok: boolean; reason?: string; id?: string };
+  loadSavedSession: (id: string) => boolean;
+  deleteSavedSession: (id: string) => void;
 };
 
 const warmupTarget = 10;
@@ -129,7 +144,7 @@ const buildExerciseLibrary = (
   overrides: Record<string, Partial<Exercise>> = {}
 ) => sortExercises([...applyOverrides(allExercises, overrides), ...custom]);
 
-const serializeSet = (value?: Set<string>) => Array.from(value ?? new Set());
+const serializeSet = (value?: Set<string>) => Array.from(value ?? new Set<string>());
 const hydrateSet = (value?: string[] | Set<string>) => {
   if (!value) return new Set<string>();
   if (value instanceof Set) return value;
@@ -153,6 +168,7 @@ type PersistedSessionState = {
   selectedExerciseIds: Set<string>;
   favoriteIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
+  savedSessions: SavedSession[];
   searchQuery: string;
   customExercises: Exercise[];
   exerciseOverrides: Record<string, Partial<Exercise>>;
@@ -172,6 +188,73 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
         ? alternativeExerciseIds
         : undefined,
   }));
+};
+
+const toSavedSession = ({
+  id,
+  name,
+  playerCount,
+  stationCount,
+  selectedExerciseIds,
+  plannedBlocks,
+  createdAt,
+  updatedAt,
+}: {
+  id: string;
+  name: string;
+  playerCount: number;
+  stationCount: number;
+  selectedExerciseIds: Set<string>;
+  plannedBlocks: SessionBlock[] | null;
+  createdAt: string;
+  updatedAt: string;
+}): SavedSession => ({
+  id,
+  name,
+  playerCount,
+  stationCount,
+  selectedExerciseIds: serializeSet(selectedExerciseIds),
+  plannedBlocks: serializePlannedBlocks(plannedBlocks),
+  createdAt,
+  updatedAt,
+});
+
+const hydrateSavedSessions = (
+  value: unknown,
+  exerciseLibrary: Exercise[]
+): SavedSession[] => {
+  if (!Array.isArray(value)) return [];
+
+  return value
+    .flatMap((entry) => {
+      if (!isRecord(entry)) return [];
+      const id = typeof entry.id === "string" ? entry.id : "";
+      const name = typeof entry.name === "string" ? entry.name.trim() : "";
+      if (!id || !name) return [];
+
+      const selectedExerciseIds = Array.isArray(entry.selectedExerciseIds)
+        ? entry.selectedExerciseIds.filter(
+            (exerciseId): exerciseId is string =>
+              typeof exerciseId === "string" && exerciseLibrary.some((exercise) => exercise.id === exerciseId)
+          )
+        : [];
+
+      return [
+        {
+          id,
+          name,
+          createdAt: typeof entry.createdAt === "string" ? entry.createdAt : new Date().toISOString(),
+          updatedAt: typeof entry.updatedAt === "string" ? entry.updatedAt : new Date().toISOString(),
+          playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
+          stationCount: typeof entry.stationCount === "number" ? entry.stationCount : 3,
+          selectedExerciseIds,
+          plannedBlocks: hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary)
+            ? serializePlannedBlocks(hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary))
+            : null,
+        },
+      ];
+    })
+    .sort((left, right) => right.updatedAt.localeCompare(left.updatedAt));
 };
 
 const hydratePlannedBlocks = (
@@ -258,6 +341,7 @@ export const useSessionStore = create<SessionState>()(
       customExercises: [],
       exerciseOverrides: {},
       exerciseLibrary: buildExerciseLibrary(),
+      savedSessions: [],
       playerCount: 12,
       stationCount: 3,
       searchQuery: "",
@@ -349,6 +433,66 @@ export const useSessionStore = create<SessionState>()(
           plannedBlocks: state.plannedBlocks ?? null,
         });
       },
+      saveCurrentSession: (name) => {
+        const trimmedName = name.trim();
+        if (!trimmedName) {
+          return { ok: false, reason: "Mangler navn" };
+        }
+
+        const state = get();
+        const hasPlan = state.selectedExerciseIds.size > 0 || (state.plannedBlocks?.length ?? 0) > 0;
+        if (!hasPlan) {
+          return { ok: false, reason: "Økten er tom" };
+        }
+
+        const now = new Date().toISOString();
+        const existing = state.savedSessions.find(
+          (session) => session.name.toLocaleLowerCase("nb-NO") === trimmedName.toLocaleLowerCase("nb-NO")
+        );
+
+        const savedSession = toSavedSession({
+          id: existing?.id ?? `saved-${Date.now()}`,
+          name: trimmedName,
+          playerCount: state.playerCount,
+          stationCount: state.stationCount,
+          selectedExerciseIds: state.selectedExerciseIds,
+          plannedBlocks: state.plannedBlocks,
+          createdAt: existing?.createdAt ?? now,
+          updatedAt: now,
+        });
+
+        const nextSavedSessions = [savedSession, ...state.savedSessions.filter((session) => session.id !== savedSession.id)]
+          .sort((left, right) => right.updatedAt.localeCompare(left.updatedAt));
+
+        set({ savedSessions: nextSavedSessions });
+        return { ok: true, id: savedSession.id };
+      },
+      loadSavedSession: (id) => {
+        const state = get();
+        const saved = state.savedSessions.find((session) => session.id === id);
+        if (!saved) return false;
+
+        const selectedExerciseIds = new Set(
+          saved.selectedExerciseIds.filter((exerciseId) =>
+            state.exerciseLibrary.some((exercise) => exercise.id === exerciseId)
+          )
+        );
+        const plannedBlocks = hydratePlannedBlocks(saved.plannedBlocks, state.exerciseLibrary);
+
+        set({
+          playerCount: saved.playerCount,
+          stationCount: saved.stationCount,
+          selectedExerciseIds,
+          plannedBlocks,
+          searchQuery: "",
+          highlightExerciseId: null,
+        });
+        return true;
+      },
+      deleteSavedSession: (id) =>
+        set((state) => ({
+          savedSessions: state.savedSessions.filter((session) => session.id !== id),
+        })),
     }),
     {
       name: "treninger-session",
@@ -358,6 +502,7 @@ export const useSessionStore = create<SessionState>()(
         selectedExerciseIds: state.selectedExerciseIds,
         favoriteIds: state.favoriteIds,
         plannedBlocks: state.plannedBlocks,
+        savedSessions: state.savedSessions,
         searchQuery: state.searchQuery,
         customExercises: state.customExercises,
         exerciseOverrides: state.exerciseOverrides,
@@ -408,6 +553,7 @@ export const useSessionStore = create<SessionState>()(
               ? (parsedState.favoriteIds as string[])
               : undefined
           );
+          const savedSessions = hydrateSavedSessions(parsedState.savedSessions, exerciseLibrary);
 
           return {
             state: {
@@ -417,6 +563,7 @@ export const useSessionStore = create<SessionState>()(
               customExercises: persistedCustom,
               exerciseOverrides: persistedOverrides,
               plannedBlocks: hydratedPlannedBlocks,
+              savedSessions,
               selectedExerciseIds,
               favoriteIds,
               searchQuery,
@@ -430,6 +577,7 @@ export const useSessionStore = create<SessionState>()(
               playerCount: value.state.playerCount,
               stationCount: value.state.stationCount,
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
+              savedSessions: value.state.savedSessions ?? [],
               selectedExerciseIds: serializeSet(value.state.selectedExerciseIds),
               favoriteIds: serializeSet(value.state.favoriteIds),
               searchQuery: value.state.searchQuery ?? "",

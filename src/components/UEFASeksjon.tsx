@@ -52,6 +52,49 @@ const GENERELLE_FOKUSPUNKTER: Fokuspunkt[] = [
   },
 ];
 
+type AnalysisAvailabilityFilter = "alle" | "med-ovelser" | "kun-analyse";
+
+const normalizeAnalysisText = (value: string) => value.toLocaleLowerCase("nb-NO");
+
+const matchesAnalysisQuery = (analysis: UEFAAnalyse, query: string) => {
+  if (!query.trim()) return true;
+
+  const haystack = [
+    analysis.kode,
+    analysis.tittel,
+    analysis.forfatter,
+    analysis.tema,
+    ...analysis.roller,
+    ...analysis.fokuspunkter.map((point) => point.tekst),
+    ...analysis.coachingCues.map((cue) => `${cue.kategori} ${cue.gjor} ${cue.ikkeGjor}`),
+  ].join(" ");
+
+  return normalizeAnalysisText(haystack).includes(normalizeAnalysisText(query));
+};
+
+const uniqueValues = <T,>(values: T[]) => Array.from(new Set(values));
+
+const countSharedRoles = (left: UEFAAnalyse, right: UEFAAnalyse) =>
+  left.roller.filter((role) => right.roller.includes(role)).length;
+
+const getRelatedAnalyses = (analysis: UEFAAnalyse, analyses: UEFAAnalyse[]) =>
+  analyses
+    .filter((candidate) => candidate.id !== analysis.id)
+    .map((candidate) => ({
+      analysis: candidate,
+      score:
+        countSharedRoles(analysis, candidate) * 10 +
+        (analysis.tema === candidate.tema ? 4 : 0) +
+        (analysis.ovelser.length > 0 && candidate.ovelser.length > 0 ? 1 : 0),
+    }))
+    .filter((entry) => entry.score > 0)
+    .sort((left, right) => {
+      if (right.score !== left.score) return right.score - left.score;
+      return left.analysis.kode.localeCompare(right.analysis.kode, "nb", { numeric: true });
+    })
+    .slice(0, 4)
+    .map((entry) => entry.analysis);
+
 // ============================================
 // KOMPONENT
 // ============================================
@@ -60,11 +103,41 @@ export const UEFASeksjon = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [valgtAnalyse, setValgtAnalyse] = useState<UEFAAnalyse | null>(null);
   const [aktivFane, setAktivFane] = useState<"oversikt" | "kpi" | "fokus" | "ovelser" | "coaching">("oversikt");
+  const [searchFilter, setSearchFilter] = useState("");
+  const [rolleFilter, setRolleFilter] = useState<string>("alle");
+  const [temaFilter, setTemaFilter] = useState<string>("alle");
+  const [availabilityFilter, setAvailabilityFilter] = useState<AnalysisAvailabilityFilter>("alle");
   
   const setHighlightExercise = useSessionStore((state) => state.setHighlightExercise);
   const sortedAnalyses = useMemo(
     () => [...uefaAnalyses].sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true })),
     []
+  );
+  const availableRoles = useMemo(
+    () => uniqueValues(sortedAnalyses.flatMap((analysis) => analysis.roller)).sort((a, b) => a.localeCompare(b, "nb")),
+    [sortedAnalyses]
+  );
+  const availableThemes = useMemo(
+    () => uniqueValues(sortedAnalyses.map((analysis) => analysis.tema)).sort((a, b) => a.localeCompare(b, "nb")),
+    [sortedAnalyses]
+  );
+  const filteredAnalyses = useMemo(
+    () =>
+      sortedAnalyses.filter((analysis) => {
+        const matchesRole = rolleFilter === "alle" || analysis.roller.includes(rolleFilter as UEFAAnalyse["roller"][number]);
+        const matchesTheme = temaFilter === "alle" || analysis.tema === temaFilter;
+        const matchesAvailability =
+          availabilityFilter === "alle" ||
+          (availabilityFilter === "med-ovelser" && analysis.ovelser.length > 0) ||
+          (availabilityFilter === "kun-analyse" && analysis.ovelser.length === 0);
+
+        return matchesRole && matchesTheme && matchesAvailability && matchesAnalysisQuery(analysis, searchFilter);
+      }),
+    [availabilityFilter, rolleFilter, searchFilter, sortedAnalyses, temaFilter]
+  );
+  const relatedAnalyses = useMemo(
+    () => (valgtAnalyse ? getRelatedAnalyses(valgtAnalyse, sortedAnalyses) : []),
+    [sortedAnalyses, valgtAnalyse]
   );
 
   const handleVelgAnalyse = (analyse: UEFAAnalyse) => {
@@ -114,39 +187,224 @@ export const UEFASeksjon = () => {
 
       {isOpen && (
         <div className="mt-4 space-y-4">
-          {/* Tema-velger */}
-          <div>
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-              <label className="text-sm font-medium text-zinc-700" htmlFor="uefa-analyse-select">
-                Velg oppgave
-              </label>
-              <select
-                id="uefa-analyse-select"
-                className="w-full sm:w-[420px] rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
-                value={valgtAnalyse?.id ?? ""}
-                onChange={(e) => {
-                  const valgtId = e.target.value;
-                  if (!valgtId) {
-                    setValgtAnalyse(null);
-                    return;
-                  }
-                  const analyse = sortedAnalyses.find((a) => a.id === valgtId);
-                  if (analyse) handleVelgAnalyse(analyse);
-                }}
-              >
-                <option value="">— Velg —</option>
-                {sortedAnalyses.map((analyse) => (
-                  <option key={analyse.id} value={analyse.id}>
-                    {analyse.kode}: {analyse.tittel}
-                  </option>
-                ))}
-              </select>
+          <div className="rounded-xl border border-zinc-200 bg-zinc-50/70 p-4 space-y-3">
+            <div className="flex flex-col gap-3 lg:flex-row lg:items-end">
+              <div className="flex-1">
+                <label className="mb-1 block text-sm font-medium text-zinc-700" htmlFor="uefa-analyse-search">
+                  Søk i oppgaver
+                </label>
+                <input
+                  id="uefa-analyse-search"
+                  type="search"
+                  value={searchFilter}
+                  onChange={(event) => setSearchFilter(event.target.value)}
+                  placeholder="Kode, tema, rolle, trener eller læringspunkt"
+                  className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                />
+              </div>
+              <div className="grid gap-3 sm:grid-cols-3 lg:w-[560px]">
+                <div>
+                  <label className="mb-1 block text-xs font-medium uppercase tracking-wide text-zinc-500" htmlFor="uefa-rolle-filter">
+                    Rolle
+                  </label>
+                  <select
+                    id="uefa-rolle-filter"
+                    className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                    value={rolleFilter}
+                    onChange={(event) => setRolleFilter(event.target.value)}
+                  >
+                    <option value="alle">Alle roller</option>
+                    {availableRoles.map((rolle) => (
+                      <option key={rolle} value={rolle}>
+                        {rolle}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label className="mb-1 block text-xs font-medium uppercase tracking-wide text-zinc-500" htmlFor="uefa-tema-filter">
+                    Tema
+                  </label>
+                  <select
+                    id="uefa-tema-filter"
+                    className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                    value={temaFilter}
+                    onChange={(event) => setTemaFilter(event.target.value)}
+                  >
+                    <option value="alle">Alle tema</option>
+                    {availableThemes.map((tema) => (
+                      <option key={tema} value={tema}>
+                        {tema}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label className="mb-1 block text-xs font-medium uppercase tracking-wide text-zinc-500" htmlFor="uefa-analyse-select">
+                    Oppgave
+                  </label>
+                  <select
+                    id="uefa-analyse-select"
+                    className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm"
+                    value={valgtAnalyse && filteredAnalyses.some((analysis) => analysis.id === valgtAnalyse.id) ? valgtAnalyse.id : ""}
+                    onChange={(e) => {
+                      const valgtId = e.target.value;
+                      if (!valgtId) {
+                        setValgtAnalyse(null);
+                        return;
+                      }
+                      const analyse = filteredAnalyses.find((a) => a.id === valgtId);
+                      if (analyse) handleVelgAnalyse(analyse);
+                    }}
+                  >
+                    <option value="">— Velg —</option>
+                    {filteredAnalyses.map((analyse) => (
+                      <option key={analyse.id} value={analyse.id}>
+                        {analyse.kode}: {analyse.tittel}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              {[
+                { value: "alle", label: "Alle" },
+                { value: "med-ovelser", label: "Med øvelser" },
+                { value: "kun-analyse", label: "Kun analyse" },
+              ].map((filterOption) => (
+                <button
+                  key={filterOption.value}
+                  type="button"
+                  onClick={() => setAvailabilityFilter(filterOption.value as AnalysisAvailabilityFilter)}
+                  className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                    availabilityFilter === filterOption.value
+                      ? "border-blue-600 bg-blue-50 text-blue-700"
+                      : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400"
+                  }`}
+                >
+                  {filterOption.label}
+                </button>
+              ))}
+              <span className="ml-auto text-xs text-zinc-500">{filteredAnalyses.length} oppgaver matcher filtrene</span>
+            </div>
+
+            <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+              {filteredAnalyses.slice(0, 9).map((analyse) => (
+                <button
+                  key={analyse.id}
+                  type="button"
+                  onClick={() => handleVelgAnalyse(analyse)}
+                  className={`rounded-xl border p-3 text-left transition ${
+                    valgtAnalyse?.id === analyse.id
+                      ? "border-blue-300 bg-blue-50"
+                      : "border-zinc-200 bg-white hover:border-zinc-300 hover:bg-zinc-50"
+                  }`}
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{analyse.kode}</p>
+                      <p className="mt-1 text-sm font-medium text-zinc-900">{analyse.tittel}</p>
+                    </div>
+                    <span className={`rounded-full px-2 py-1 text-[11px] ${analyse.ovelser.length > 0 ? "bg-emerald-100 text-emerald-700" : "bg-zinc-100 text-zinc-500"}`}>
+                      {analyse.ovelser.length > 0 ? `${analyse.ovelser.length} øvelser` : "Analyse"}
+                    </span>
+                  </div>
+                  <p className="mt-2 text-xs text-zinc-500">{analyse.tema}</p>
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    {analyse.roller.slice(0, 3).map((rolle) => (
+                      <span key={rolle} className="rounded-full bg-zinc-100 px-2 py-1 text-[11px] text-zinc-600">
+                        {rolle}
+                      </span>
+                    ))}
+                  </div>
+                </button>
+              ))}
             </div>
           </div>
 
           {/* Valgt analyse */}
           {valgtAnalyse && (
             <div className="space-y-4">
+              <div className="grid gap-3 lg:grid-cols-[1.2fr_0.8fr]">
+                <div className="rounded-xl border border-zinc-200 bg-zinc-50/70 p-4">
+                  <div className="flex flex-wrap gap-2 text-xs">
+                    <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded">
+                      {valgtAnalyse.tema}
+                    </span>
+                    {valgtAnalyse.roller.map((rolle) => (
+                      <button
+                        key={rolle}
+                        type="button"
+                        onClick={() => setRolleFilter(rolle)}
+                        className="px-2 py-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition"
+                      >
+                        {rolle}
+                      </button>
+                    ))}
+                  </div>
+                  <p className="mt-3 text-sm text-zinc-600">
+                    {valgtAnalyse.forfatter} · {valgtAnalyse.kildefil}
+                  </p>
+                </div>
+
+                <div className="rounded-xl border border-zinc-200 bg-white p-4 space-y-3">
+                  <div>
+                    <h3 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Krysskoblinger</h3>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      <button
+                        type="button"
+                        onClick={() => setTemaFilter(valgtAnalyse.tema)}
+                        className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs text-zinc-700 hover:border-zinc-400"
+                      >
+                        Flere på samme tema
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setAvailabilityFilter("med-ovelser")}
+                        className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs text-zinc-700 hover:border-zinc-400"
+                      >
+                        Kun analyser med øvelser
+                      </button>
+                      {valgtAnalyse.ovelser.length > 0 && (
+                        <Link
+                          href="/"
+                          onClick={() => handleExerciseClick(valgtAnalyse.ovelser[0].kode)}
+                          className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs text-blue-700 hover:border-blue-400"
+                        >
+                          Åpne første UEFA-øvelse
+                        </Link>
+                      )}
+                      <Link
+                        href="/opplaering"
+                        className="rounded-full border border-amber-200 bg-amber-50 px-3 py-1.5 text-xs text-amber-700 hover:border-amber-400"
+                      >
+                        Se metodisk progresjon
+                      </Link>
+                    </div>
+                  </div>
+
+                  {relatedAnalyses.length > 0 && (
+                    <div>
+                      <h3 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Relaterte analyser</h3>
+                      <div className="mt-2 flex flex-wrap gap-2">
+                        {relatedAnalyses.map((analyse) => (
+                          <button
+                            key={analyse.id}
+                            type="button"
+                            onClick={() => handleVelgAnalyse(analyse)}
+                            className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs text-zinc-700 hover:border-zinc-400"
+                          >
+                            {analyse.kode} · {analyse.tittel}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+
               {/* Fane-navigasjon */}
               <div className="flex gap-1 border-b border-zinc-200">
                 {[
@@ -175,16 +433,6 @@ export const UEFASeksjon = () => {
                 {/* Oversikt */}
                 {aktivFane === "oversikt" && (
                   <div className="space-y-4">
-                    <div className="flex flex-wrap gap-2 text-xs">
-                      <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded">
-                        {valgtAnalyse.tema}
-                      </span>
-                      {valgtAnalyse.roller.map((rolle) => (
-                        <span key={rolle} className="px-2 py-1 bg-green-100 text-green-700 rounded">
-                          {rolle}
-                        </span>
-                      ))}
-                    </div>
                     <div className="space-y-2">
                       <p className="text-sm text-zinc-600 leading-relaxed whitespace-pre-line">
                         {valgtAnalyse.sammendrag}

@@ -26,6 +26,10 @@ export const SessionTimeline = () => {
   const stationCount = useSessionStore((state) => state.stationCount);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
+  const savedSessions = useSessionStore((state) => state.savedSessions);
+  const saveCurrentSession = useSessionStore((state) => state.saveCurrentSession);
+  const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
+  const deleteSavedSession = useSessionStore((state) => state.deleteSavedSession);
 
   const [hydrated, setHydrated] = useState(false);
 
@@ -41,6 +45,9 @@ export const SessionTimeline = () => {
   >("idle");
   const [showShareOptions, setShowShareOptions] = useState(false);
   const [showCooldown, setShowCooldown] = useState(true);
+  const [showSavedSessions, setShowSavedSessions] = useState(false);
+  const [sessionName, setSessionName] = useState("");
+  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
 
   // Grupper blokker i 6 deler (matcher kategoriene som vises i UI)
   const parts = useMemo<SessionPart[]>(() => {
@@ -301,6 +308,32 @@ export const SessionTimeline = () => {
     }
   };
 
+  const handleSaveSession = () => {
+    const result = saveCurrentSession(sessionName);
+    if (!result.ok) {
+      setSaveStatus("error");
+      setTimeout(() => setSaveStatus("idle"), 2500);
+      return;
+    }
+
+    setSessionName("");
+    setShowSavedSessions(true);
+    setSaveStatus("saved");
+    setTimeout(() => setSaveStatus("idle"), 2500);
+  };
+
+  const handleLoadSession = (id: string) => {
+    const ok = loadSavedSession(id);
+    setSaveStatus(ok ? "loaded" : "error");
+    setTimeout(() => setSaveStatus("idle"), 2500);
+  };
+
+  const handleDeleteSession = (id: string) => {
+    deleteSavedSession(id);
+    setSaveStatus("deleted");
+    setTimeout(() => setSaveStatus("idle"), 2500);
+  };
+
   const hasContent = sessionBlocks.length > 0;
 
   if (!hydrated) {
@@ -325,6 +358,12 @@ export const SessionTimeline = () => {
           </span>
         </div>
         <div className="flex flex-wrap items-center gap-2 text-sm text-zinc-500">
+          <button
+            onClick={() => setShowSavedSessions(!showSavedSessions)}
+            className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
+          >
+            {showSavedSessions ? "Skjul lagrede" : "Lagrede økter"}
+          </button>
           <div className="relative">
             <button
               onClick={() => setShowShareOptions(!showShareOptions)}
@@ -378,16 +417,80 @@ export const SessionTimeline = () => {
         </div>
       </div>
 
-      {shareStatus !== "idle" && (
+      {(shareStatus !== "idle" || saveStatus !== "idle") && (
         <p
           className={`mt-2 text-xs ${
-            shareStatus === "error" ? "text-red-500" : "text-emerald-600"
+            shareStatus === "error" || saveStatus === "error" ? "text-red-500" : "text-emerald-600"
           }`}
         >
           {shareStatus === "copied" && "Kopiert til utklippstavle"}
           {shareStatus === "shared" && "Delt"}
           {shareStatus === "error" && "Kunne ikke dele"}
+          {saveStatus === "saved" && "Økten er lagret"}
+          {saveStatus === "loaded" && "Lagret økt er lastet inn"}
+          {saveStatus === "deleted" && "Lagret økt er slettet"}
+          {saveStatus === "error" && "Kunne ikke lagre eller laste økt"}
         </p>
+      )}
+
+      {showSavedSessions && (
+        <div className="mt-4 rounded-xl border border-zinc-200 bg-zinc-50/70 p-3">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+            <input
+              type="text"
+              value={sessionName}
+              onChange={(event) => setSessionName(event.target.value)}
+              placeholder="Navn på økten"
+              className="flex-1 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900"
+            />
+            <button
+              type="button"
+              onClick={handleSaveSession}
+              className="rounded-full border border-zinc-900 bg-zinc-900 px-4 py-2 text-xs font-medium text-white transition hover:bg-zinc-700"
+            >
+              Lagre økt
+            </button>
+          </div>
+          <p className="mt-2 text-xs text-zinc-500">
+            Nåværende økt ligger allerede lagret lokalt i nettleseren. Her kan du i tillegg lagre flere navngitte økter og hente dem fram igjen.
+          </p>
+
+          <div className="mt-3 space-y-2 border-t border-zinc-200 pt-3">
+            {savedSessions.length === 0 ? (
+              <p className="text-xs text-zinc-500">Ingen navngitte økter lagret ennå.</p>
+            ) : (
+              savedSessions.map((savedSession) => (
+                <div
+                  key={savedSession.id}
+                  className="flex flex-col gap-2 rounded-lg border border-zinc-200 bg-white p-3 sm:flex-row sm:items-center sm:justify-between"
+                >
+                  <div>
+                    <p className="text-sm font-medium text-zinc-900">{savedSession.name}</p>
+                    <p className="text-xs text-zinc-500">
+                      {savedSession.playerCount} spillere · {savedSession.stationCount} stasjoner · lagret {new Date(savedSession.updatedAt).toLocaleString("nb-NO")}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => handleLoadSession(savedSession.id)}
+                      className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-700 transition hover:border-zinc-400"
+                    >
+                      Last inn
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleDeleteSession(savedSession.id)}
+                      className="rounded-full border border-red-200 px-3 py-1 text-xs text-red-600 transition hover:border-red-400 hover:bg-red-50"
+                    >
+                      Slett
+                    </button>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
       )}
 
       {!hasContent ? (
