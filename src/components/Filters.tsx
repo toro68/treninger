@@ -62,6 +62,12 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     activeClass: "border-rose-500 bg-rose-50 text-rose-700",
     dotClass: "bg-rose-500"
   },
+  drillo: {
+    label: "Drillo",
+    description: "Effektiv fotball",
+    activeClass: "border-sky-600 bg-sky-50 text-sky-700",
+    dotClass: "bg-sky-600"
+  },
   prickett: {
     label: "Prickett",
     description: "3v3 Soccer Coaching",

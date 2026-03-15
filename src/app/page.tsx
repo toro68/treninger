@@ -122,13 +122,13 @@ export default function Home() {
       <AppHeader />
 
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
-	        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
-	          <div className="space-y-4 lg:space-y-6">
-	            <PlayerSetup />
-	            <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
-	              <div className="flex flex-col gap-3">
-	                <div className="flex items-center justify-between">
-	                  <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
+        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
+          <div className="space-y-4 lg:space-y-6">
+            <PlayerSetup />
+            <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm sm:p-6">
+              <div className="flex flex-col gap-3">
+                <div className="flex items-center justify-between">
+                  <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
                   <ExerciseCodeLegend />
                 </div>
                 <Filters
@@ -140,7 +140,7 @@ export default function Home() {
                   onFilterByPlayerCountChange={setFilterByPlayerCount}
                 />
               </div>
-              <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
+                <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
                 <ExerciseList
                   title="Oppvarming"
                   category="warmup"
@@ -166,7 +166,7 @@ export default function Home() {
                   category="cooldown"
                   exercises={cooldownExercises}
                 />
-              </div>
+                </div>
             </section>
           </div>
 

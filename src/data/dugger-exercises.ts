@@ -252,7 +252,7 @@ const baseDuggerExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 18,
-    theme: "forsvar",
+    theme: "dødball",
     equipment: ["kjegler", "baller", "mål"],
     description: "Manndekning ved hjørnespark og frispark. Hver forsvarer har ansvar for én angrepsspiller.",
     coachingPoints: [
@@ -278,7 +278,7 @@ const baseDuggerExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 18,
-    theme: "forsvar",
+    theme: "dødball",
     equipment: ["kjegler", "baller", "mål"],
     description: "Soneforsvar ved hjørnespark. Spillerne eier sin sone og angriper ballen når den kommer inn.",
     coachingPoints: [
@@ -306,7 +306,7 @@ const baseDuggerExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "forsvar",
+    theme: "dødball",
     equipment: ["kjegler", "baller", "mål"],
     description: "Forsvar mot første stolpe-hjørnespark. Fokus på å vinne første ball.",
     coachingPoints: [
@@ -332,7 +332,7 @@ const baseDuggerExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "forsvar",
+    theme: "dødball",
     equipment: ["kjegler", "baller", "mål"],
     description: "Forsvar mot dype hjørnespark mot bakre stolpe. Fokus på posisjonering og timing.",
     coachingPoints: [
@@ -384,7 +384,7 @@ const baseDuggerExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 16,
-    theme: "forsvar",
+    theme: "dødball",
     equipment: ["kjegler", "baller", "mål"],
     description: "Sette mur ved frispark. Keeper plasserer muren, spillerne holder posisjonen.",
     coachingPoints: [

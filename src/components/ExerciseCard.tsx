@@ -39,6 +39,7 @@ const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText
   hyballa:    { label: "Hyballa",                 className: "bg-blue-100 text-blue-700",      linkText: "German Soccer Passing Drills",    linkColor: "text-blue-600 hover:text-blue-700" },
   bangsbo:    { label: "Bangsbo",                 className: "bg-cyan-100 text-cyan-700",      linkText: "Se kilde",                        linkColor: "text-cyan-600 hover:text-cyan-700" },
   dugger:     { label: "Dugger",                  className: "bg-rose-100 text-rose-700",      linkText: "Se kilde",                        linkColor: "text-rose-600 hover:text-rose-700" },
+  drillo:     { label: "Drillo",                  className: "bg-sky-100 text-sky-700",        linkText: "Se kilde",                        linkColor: "text-sky-600 hover:text-sky-700" },
   prickett:   { label: "Prickett",                className: "bg-lime-100 text-lime-700",      linkText: "Se kilde",                        linkColor: "text-lime-600 hover:text-lime-700" },
   "101youth": { label: "101 Youth",               className: "bg-orange-100 text-orange-700",  linkText: "Se kilde",                        linkColor: "text-orange-600 hover:text-orange-700" },
   seeger:     { label: "Seeger",                  className: "bg-indigo-100 text-indigo-700",  linkText: "Se kilde",                        linkColor: "text-indigo-600 hover:text-indigo-700" },

@@ -325,6 +325,41 @@ const godfotenDefensePostulates: FocusItem[] = [
   },
 ];
 
+const drilloFocusItems: FocusItem[] = [
+  {
+    id: "drillo-gjennombrudd-forst",
+    text: "Drillo: Se etter gjennombrudd først. Støttepasning er bare nyttig hvis den skaper neste framoverrettede aksjon.",
+  },
+  {
+    id: "drillo-kompakt-sone",
+    text: "Drillo: Forsvar kompakt i sone. Én presser, én sikrer, resten dekker rom og flytter samlet.",
+  },
+  {
+    id: "drillo-hindre-gjennombrudd",
+    text: "Drillo: Hindre gjennombrudd før alt annet. Beskytt rommet gjennom laget, ikke bare i duellen.",
+  },
+  {
+    id: "drillo-presshoyde",
+    text: "Drillo: Velg presshøyde bevisst. Høyt eller lavt press må være et felles valg, ikke tilfeldighet.",
+  },
+  {
+    id: "drillo-dybde-og-avstand",
+    text: "Drillo: Hold gode avstander i laget. For store strekk ødelegger både press og sikring.",
+  },
+  {
+    id: "drillo-bredde-og-konsentrering",
+    text: "Drillo: Med ball bruker vi bredde for å åpne rom. Uten ball konsentrerer vi rundt det farlige rommet.",
+  },
+  {
+    id: "drillo-forste-andreball",
+    text: "Drillo: Vær rigget for første- og andreball. Nedfallsrommet må eies før duellen er avgjort.",
+  },
+  {
+    id: "drillo-dodball",
+    text: "Drillo: Dødball krever tydelige roller. Alle skal vite hvem som angriper, sikrer eller rydder returen.",
+  },
+];
+
 const checklistItems = [
   "Laguttak på Spond og i Fiks",
   "Kampbag",
@@ -537,6 +572,43 @@ export const MatchPrep = () => {
                         isChecked
                           ? "border-emerald-300 bg-emerald-100/70"
                           : "border-emerald-100 bg-white/80"
+                      }`}
+                    >
+                      <div className="flex items-start gap-2">
+                        <input
+                          type="checkbox"
+                          checked={isChecked}
+                          onChange={() => toggleChecked(item.id)}
+                          className="mt-0.5 h-4 w-4 accent-black"
+                        />
+                        <p
+                          className={`text-xs ${
+                            isChecked ? "text-zinc-400 line-through" : "text-zinc-700"
+                          }`}
+                        >
+                          {item.text}
+                        </p>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-zinc-700 mb-2">Drillo: effektiv fotball</h3>
+            <div className="rounded-lg border border-sky-200 bg-sky-50/70 p-3">
+              <div className="space-y-2">
+                {drilloFocusItems.map((item) => {
+                  const isChecked = checked.has(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className={`block rounded-lg border px-3 py-2 cursor-pointer transition ${
+                        isChecked
+                          ? "border-sky-300 bg-sky-100/70"
+                          : "border-sky-100 bg-white/80"
                       }`}
                     >
                       <div className="flex items-start gap-2">

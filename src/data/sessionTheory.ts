@@ -3,6 +3,7 @@ export type SessionTheoryItem = {
   category: "trenerfokus" | "spillerbudskap" | "læringsprinsipp";
   title: string;
   summary: string;
+  imageUrl?: string;
   coachNote?: string;
   playerMessage?: string;
   sections?: {
@@ -302,6 +303,254 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
         paragraphs: [
           "I spilløvelser bør treneren se etter om laget reagerer kollektivt rundt første duell: én presser, én sikrer rom, og flere forbereder seg på neste ball.",
           "Dette gjør forsvarsarbeidet mer enn bare press på ballfører. Det blir en felles kamp om første- og andreball, med tydelig prioritet etter hvor farlig situasjonen er.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-spilleprinsippmodellen",
+    category: "læringsprinsipp",
+    title: "Drillo: spilleprinsipp-modellen",
+    summary:
+      "Vi angriper for å skape gjennombrudd. Vi forsvarer for å stanse gjennombrudd. Derfor må laget alltid være organisert for neste fase.",
+    coachNote:
+      "Bruk få prinsipper. Gjenta dem ofte. Alt spillet gjør skal kunne forklares gjennom gjennombrudd, dybde, bredde, bevegelse, konsentrering og balanse.",
+    playerMessage:
+      "Er vi ikke klare for neste fase, er vi dårlig organisert - både med og uten ball.",
+    sections: [
+      {
+        title: "Det betyr:",
+        bullets: [
+          "Gjennombrudd framover, hindre gjennombrudd imot.",
+          "Dybde i eget angrep, dybde i eget forsvar.",
+          "Bredde med ball, konsentrering uten ball.",
+          "Bevegelse i angrep, balanse ved balltap.",
+        ],
+      },
+      {
+        title: "Kampregel",
+        paragraphs: [
+          "Hvis vi angriper uten å være klare for balltap, er vi dårlig organisert. Hvis vi forsvarer uten å være klare for ballgjenvinning, er vi også dårlig organisert.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-gjennombrudd-forst",
+    category: "spillerbudskap",
+    title: "Drillo: gjennombrudd først",
+    summary: "I angrep er gjennombruddet overordnet. Støtte, bredde og bevegelse er hjelpemidler for å komme framover.",
+    coachNote:
+      "Tell framoverspillet, ikke pasningene. Støtte er bare riktig når den skaper neste framoverrettede aksjon.",
+    playerMessage:
+      "Se fram først. Spill støtte bare når den setter opp neste gjennombrudd.",
+    sections: [
+      {
+        title: "Hva dette betyr i praksis",
+        paragraphs: [
+          "Gjennombrudd er når vi spiller forbi motspillere i lengderetning og flytter spillet nærmere mål.",
+          "Støtte er ikke et mål i seg selv. Den er bare riktig når den gjør neste framoverrettede aksjon mulig.",
+        ],
+        bullets: [
+          "Støttepasning skal skape nytt gjennombrudd, ikke skjule mangel på framdrift.",
+          "Dybde, bredde og bevegelse er bare gode nok hvis de hjelper laget framover.",
+          "En trygg pasning er bare god når den forbedrer neste aksjon.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-dybde-bredde-bevegelse",
+    category: "spillerbudskap",
+    title: "Drillo: dybde, bredde og bevegelse",
+    summary: "Ballfører trenger alternativer foran, til siden og rundt seg. Gode avstander og løp gjør gjennombrudd mulig.",
+    coachNote:
+      "Se etter avstand og timing, ikke bare aktivitet. Mange løp er verdiløse hvis de kommer i samme rom eller samme linje.",
+    playerMessage:
+      "Gi ballfører flere valg. Ikke stå på linje. Når én går, må en annen støtte eller åpne et nytt rom.",
+    sections: [
+      {
+        title: "Struktur rundt ballfører",
+        bullets: [
+          "Dybde i angrep betyr at ballfører har flere pasningsalternativer i lengderetningen.",
+          "Bredde brukes for å strekke motstander og åpne rom sentralt eller på motsatt side.",
+          "Bevegelse framover må komme med riktig timing; fart uten timing skaper ofte bare balltap.",
+          "Ved innlegg må angripere unngå å bli stående på samme linje foran mål.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-soneforsvar",
+    category: "spillerbudskap",
+    title: "Drillo: soneforsvar med press og sikring",
+    summary: "Et godt soneforsvar prioriterer press på ballfører, sikring bak presset og korte avstander mellom medspillere.",
+    coachNote:
+      "Press teller bare når det er sikring bak. Avstandene avgjør om laget forsvarer samlet eller bare løper hver for seg.",
+    playerMessage:
+      "Én presser, én sikrer, resten samler. Du forsvarer ikke alene.",
+    sections: [
+      {
+        title: "Defensiv prioritering",
+        paragraphs: [
+          "Soneforsvar er å gjøre rommet rundt ballfører trangt og ha sikring bak presset.",
+          "Førsteforsvarer setter retning og trykk. Presset er bare godt nok når laget rundt er tett nok til å sikre og stenge rom.",
+        ],
+        bullets: [
+          "Hindre gjennombrudd er første oppgave.",
+          "Konsentrering rundt ball gjør sikringen sterkere.",
+          "Dybde i forsvar er avstanden mellom presser og sikrer, og mellom leddene bak.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-presshoyde",
+    category: "trenerfokus",
+    title: "Drillo: velg presshøyde bevisst",
+    summary: "Høyt og lavt press er ikke identitetsspørsmål, men kampvalg. Presshøyden må passe motstander og egen evne til å være samlet.",
+    coachNote:
+      "Velg presshøyde ut fra hva laget klarer å gjøre samlet. Feil presshøyde gir bare lange lag og svake pressledd.",
+    playerMessage:
+      "Det spiller mindre rolle hvor vi presser enn om vi starter samlet og flytter samlet.",
+    sections: [
+      {
+        title: "Når laget presser høyt eller lavt",
+        bullets: [
+          "Høyt press gir kort vei til mål ved ballvinning og kan holde laget aggressivt.",
+          "Lavere press kan være riktig når motstander spiller seg ut, eller rommet bak blir for sårbart.",
+          "Det avgjørende er ikke bare høyden, men at alle vet når presset starter.",
+          "Lavt press er bare godt nok når laget fortsatt er kompakt og aktivt.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-forste-og-andreball",
+    category: "spillerbudskap",
+    title: "Drillo: første- og andreball",
+    summary: "Direkte spill virker bare når laget er organisert for både første ball og andreball.",
+    coachNote:
+      "Ikke vurder den lange ballen alene. Vurder hvordan laget er plassert rundt duellen og nedfallsrommet.",
+    playerMessage:
+      "Ikke følg bare ballbanen. Vær på plass der neste ball kommer.",
+    sections: [
+      {
+        title: "Rundt den første duellen",
+        bullets: [
+          "Den som går i første duell må ha støtte rundt nedfallsrommet.",
+          "Formasjonen rundt duellen avgjør om direkte spill blir angrep eller balltap.",
+          "Selv uten ren seier i første duell kan laget eie situasjonen gjennom andreballen.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-drillo-dodball-effektivitet",
+    category: "trenerfokus",
+    title: "Drillo: dødball som kampvåpen",
+    summary: "Dødball er en stor del av effektiv fotball. Struktur og tydelige roller gjør stillestående situasjoner til en reell fordel.",
+    coachNote:
+      "Velg få varianter, gjenta dem og fordel ansvar tydelig. Dødball vinner kamper når rollene sitter.",
+    playerMessage:
+      "På dødball skal alle vite oppgaven før ballen slås. Timing og ansvar slår improvisasjon.",
+    sections: [
+      {
+        title: "Hva laget må være tydelig på",
+        bullets: [
+          "Hvem som angriper første sone, sentral sone og bakre rom offensivt.",
+          "Hvem som eier returrommet og overgangen hvis første ball ikke vinnes rent.",
+          "Hvem som markerer, hvem som dekker sone og hvem som tar første klarering defensivt.",
+          "Keeperstyring og felles signaler som alle kjenner.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-offensiv-corner-roller",
+    category: "spillerbudskap",
+    title: "Offensiv corner: roller og løp",
+    summary: "En god corner trenger klare løp i boksen og én eller to spillere som er klare på returen utenfor feltet.",
+    imageUrl: "/book-illustrations/drillo/drillo-figur-31-corner-grunnoppstilling.png",
+    coachNote:
+      "Velg få roller og repeter dem. Løpene må skape rom, og returrommet kan aldri stå tomt.",
+    playerMessage:
+      "Én går første stolpe, én går sentralt, én går bakre, og noen eier returen.",
+    sections: [
+      {
+        title: "Standard for en enkel cornerpakke",
+        bullets: [
+          "Avklar første stolpe, sentral sone, bakre rom og returrom før serven.",
+          "Løp med timing og fart, ikke tidlig og ikke flatt på linje.",
+          "Bruk blokk eller kryssløp bare når det er innøvd og frigjør avslutteren.",
+          "Hvis første ball ikke vinnes, skal laget eie andreballen.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-defensiv-corner-prinsipper",
+    category: "spillerbudskap",
+    title: "Defensiv corner: første ball og retur",
+    summary:
+      "Ved defensiv corner må laget beskytte nærmeste stolpe, rommet midt foran mål og bakre rom, og fullføre til situasjonen er avklart.",
+    coachNote:
+      "Velg en tydelig balanse mellom romdekking og markering. Tren utgangsposisjon, kroppsstilling og keeperstyring i de tre farligste rommene.",
+    playerMessage:
+      "Vit om du dekker rom eller markerer spiller. Vinn ballen i sonen din og fullfør til situasjonen er avklart.",
+    sections: [
+      {
+        title: "Defensive nøkkelpunkt",
+        bullets: [
+          "Beskytt området ved nærmeste stolpe, rommet midt foran mål og bakre stolpe med klare roller.",
+          "Bruk sterke hodespillere i rommene som skal angripes, og la resten løse tydelige markeringsoppgaver.",
+          "Keeperen organiserer før serven og må stå slik at han kan se og bevege seg både framover og bakover.",
+          "Klarér og skyv ut samlet, men først når situasjonen faktisk er avklart.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-frispark-boks-og-mur",
+    category: "trenerfokus",
+    title: "Frispark: raske valg og faste mønstre",
+    summary:
+      "Ved frispark utenfor skuddhold bør laget enten ta det hurtig eller bruke en fast oppstilling som setter press på bakrom og andreball.",
+    imageUrl: "/book-illustrations/drillo/drillo-figur-41-frispark-midtsone.png",
+    coachNote:
+      "Lag få rutiner og la dem styres av hvor frisparket tas. Spillerne må kjenne oppgaven før ballen legges død.",
+    playerMessage:
+      "Når vi spiller fast, skal noen møte, noen true bakrom og noen eie andreballen.",
+    sections: [
+      {
+        title: "Hva laget må avklare",
+        bullets: [
+          "Om frisparket skal tas hurtig eller om laget skal inn i fast oppstilling.",
+          "Hvem som møter på første serv, og hvem som angriper bakrommet fra hver sin side.",
+          "Hvem som står i støtteposisjon for å vinne andreballen hvis første duell ikke avgjør situasjonen.",
+          "At servekvalitet, timing og roller er innøvd nok til at laget slipper å improvisere.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-andreball-beredskap",
+    category: "spillerbudskap",
+    title: "Andreball: vær i forkant",
+    summary:
+      "Etter corner og frispark oppstår ofte gjenvinningsangrep på andreball. Den vinnes av laget som er rettvendt og på plass før klareringen kommer.",
+    coachNote:
+      "Belønn spillere som er tidlig i returrommet. Ett sekunds nøling etter klarering er ofte nok til å miste hele dødballsituasjonen.",
+    playerMessage:
+      "Les klareringen tidlig. Vær rettvendt og klar før neste ball kommer ut.",
+    sections: [
+      {
+        title: "Andreball i praksis",
+        bullets: [
+          "Spillere i returrommet må stå rettvendt og klare til å angripe neste aksjon.",
+          "Nærmeste spiller går fram i ball, mens resten sikrer rundt og bak.",
+          "Andreballen kan gi ny avslutning, nytt innlegg eller direkte gjenvinning, så reaksjonen må komme med en gang.",
+          "Lag som eier andreballen, eier ofte hele dødballsituasjonen selv uten å vinne første heading rent.",
         ],
       },
     ],

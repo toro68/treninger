@@ -61,6 +61,7 @@ type SessionState = {
   removeCoachName: (name: string) => void;
   setSearchQuery: (query: string) => void;
   setHighlightExercise: (id: string | null) => void;
+  setSelectedContent: (exerciseIds: string[], theoryIds: string[]) => void;
   toggleExercise: (id: string) => void;
   toggleTheory: (id: string) => void;
   toggleFavorite: (id: string) => void;
@@ -481,6 +482,13 @@ export const useSessionStore = create<SessionState>()(
         }),
       setSearchQuery: (query) => set({ searchQuery: query }),
       setHighlightExercise: (id) => set({ highlightExerciseId: id }),
+      setSelectedContent: (exerciseIds, theoryIds) =>
+        set({
+          plannedBlocks: null,
+          selectedExerciseIds: new Set(exerciseIds),
+          selectedTheoryIds: new Set(theoryIds),
+          highlightExerciseId: null,
+        }),
       toggleExercise: (id) =>
         set((state) => {
           const next = new Set(state.selectedExerciseIds);

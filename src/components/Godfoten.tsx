@@ -67,7 +67,7 @@ export const Godfoten = () => {
             Gå til øktplanleggeren
           </Link>
           <div className="rounded-full border border-amber-300 bg-white px-4 py-2 text-sm text-zinc-700">
-            Filtrer på kildene "Eggen" og "Godfoten" for å finne øvelsene
+            Filtrer på kildene &quot;Eggen&quot; og &quot;Godfoten&quot; for å finne øvelsene
           </div>
         </div>
       </section>

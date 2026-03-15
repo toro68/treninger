@@ -81,7 +81,7 @@ describe("Filter types", () => {
   });
 
   it("should accept valid SourceFilter values", () => {
-    const sources: SourceFilter[] = [null, "egen", "tiim", "dbu", "uefa"];
+    const sources: SourceFilter[] = [null, "egen", "tiim", "dbu", "drillo", "uefa"];
     sources.forEach((source) => {
       expect(source === null || typeof source === "string").toBe(true);
     });

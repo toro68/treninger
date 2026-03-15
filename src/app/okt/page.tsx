@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Suspense, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 
 import { getExerciseCode } from "@/data/exercises";
-import { getSessionTheoryCategoryLabel, getSessionTheoryItem } from "@/data/sessionTheory";
+import { getSessionTheoryItem } from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
 import { getUnit, recommendedDuration } from "@/store/sessionStore";
@@ -257,6 +258,17 @@ function SharedSessionPageContent() {
                           <article key={item.id} className="rounded-2xl bg-sky-50/70 p-4">
                             <h4 className="text-sm font-semibold text-zinc-900">{item.title}</h4>
                             <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
+                            {item.imageUrl ? (
+                              <div className="mt-3 overflow-hidden rounded-2xl border border-sky-100 bg-white">
+                                <Image
+                                  src={item.imageUrl}
+                                  alt={item.title}
+                                  width={960}
+                                  height={640}
+                                  className="h-auto w-full object-cover"
+                                />
+                              </div>
+                            ) : null}
                             {item.playerMessage ? (
                               <p className="mt-3 text-sm leading-6 text-zinc-700">
                                 <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}

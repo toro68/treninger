@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
@@ -840,6 +841,18 @@ export const SessionTimeline = () => {
                         <span className="mt-1 block text-xs leading-5 text-zinc-600">{item.summary}</span>
                       </span>
                     </label>
+
+                    {item.imageUrl ? (
+                      <div className="mt-3 overflow-hidden rounded-lg border border-sky-100 bg-sky-50">
+                        <Image
+                          src={item.imageUrl}
+                          alt={item.title}
+                          width={960}
+                          height={640}
+                          className="h-auto w-full object-cover"
+                        />
+                      </div>
+                    ) : null}
 
                     {item.sections?.length ? (
                       <details className="mt-3 rounded-lg bg-sky-50/70 px-3 py-2 text-sm text-zinc-700">
