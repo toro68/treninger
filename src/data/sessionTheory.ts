@@ -555,6 +555,102 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
       },
     ],
   },
+  {
+    id: "theory-nff-relasjonell-kompetanse",
+    category: "spillerbudskap",
+    title: "NFF: spill stort i angrep",
+    summary: "I 11-er må laget gjøre banen stor. Bredde og dybde gir tid, rom og flere valg framover.",
+    sections: [
+      {
+        title: "Angrepsretning og rom",
+        bullets: [
+          "Bruk bredde for å strekke laget imot.",
+          "Bruk dybde for å true bakrom.",
+          "Gjør banen stor når dere har kontroll.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-nff-fra-nier-til-ellever",
+    category: "spillerbudskap",
+    title: "NFF: flere spillpunkter rundt ballfører",
+    summary: "I 11-er trenger ballfører flere spillpunkter. Ett støttepunkt er for lite.",
+    sections: [
+      {
+        title: "Når laget bygger opp",
+        bullets: [
+          "Ha spillpunkt foran når dere kan spille fram.",
+          "Ha støtte bak når presset må av.",
+          "Ha motsatt side klar når spillsiden er stengt.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-nff-felles-sprak-og-spillide",
+    category: "spillerbudskap",
+    title: "NFF: rolleforståelse i 11-er",
+    summary: "I 11-er må rollene utfylle hverandre. Noen truer, noen støtter, noen sikrer.",
+    sections: [
+      {
+        title: "Rollekrav i laget",
+        bullets: [
+          "Ballnære spillere må skape støtte og pasningsvinkel.",
+          "Spillere lenger unna må true nytt rom eller gjøre banen stor.",
+          "Noen må alltid sikre bak neste trekk.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-nff-soneforsvar-hvorfor",
+    category: "spillerbudskap",
+    title: "NFF: godt forsvar skaper angrep",
+    summary: "Godt forsvar handler om mer enn å nekte mål. Det er også starten på de beste angrepene.",
+    sections: [
+      {
+        title: "Hvorfor NFF vektlegger forsvar",
+        bullets: [
+          "Konsentrering, dybde og balanse gjør laget vanskeligere å spille gjennom.",
+          "Samstemt forflytning krymper tid og rom.",
+          "Gode ballerobringer gir ofte de beste angrepene.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-nff-pa-rett-side",
+    category: "spillerbudskap",
+    title: "NFF: på rett side i soneforsvar",
+    summary: "I soneforsvar betyr rett side først og fremst rett side av ball i riktig rom.",
+    sections: [
+      {
+        title: "Hva rett side betyr",
+        bullets: [
+          "Spillere i det bakre leddet er oftest både på rett side av ball og motstander.",
+          "Øvrige spillere må først komme på rett side av ball og inn i strukturen.",
+          "Nær ballfører kan feil side fortsatt gi mulighet til å vinne ball i sandwich.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-nff-presshoyde-samstemthet",
+    category: "trenerfokus",
+    title: "NFF: presshøyde og samstemthet",
+    summary: "Presshøyde må passe lagets evne til å stå samlet. Høyt og lavt press er verdiløst hvis laget splittes.",
+    sections: [
+      {
+        title: "Når laget presser",
+        bullets: [
+          "1F må lede eller oppholde til laget samler seg bak presset.",
+          "Alle avstander må justeres raskt når presset glipper.",
+          "Lavt press er kontroll, ikke passivitet.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const getSessionTheoryItem = (id: string) =>
