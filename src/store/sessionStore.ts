@@ -859,6 +859,22 @@ export const getExerciseFitScore = (
   }
 };
 
+export const matchesExercisePlayerCountFilter = (
+  exercise: Exercise,
+  playerCount: number,
+  playersPerStation?: number
+): boolean => {
+  const relevantPlayerCount =
+    exercise.category === "station" || exercise.category === "rondo"
+      ? playersPerStation ?? playerCount
+      : playerCount;
+
+  return (
+    relevantPlayerCount >= exercise.playersMin &&
+    relevantPlayerCount <= exercise.playersMax
+  );
+};
+
 
 export const filterAndGroupExercises = ({
   exerciseLibrary,
@@ -886,11 +902,6 @@ export const filterAndGroupExercises = ({
   const normalizedSearch = searchQuery?.trim().toLowerCase();
 
   const grouped: Record<string, Exercise[]> = {};
-
-  const getRelevantPlayerCount = (exercise: Exercise) =>
-    exercise.category === "station" || exercise.category === "rondo"
-      ? playersPerStation
-      : playerCount;
 
   const matchesSearch = (exercise: Exercise) => {
     if (!normalizedSearch) return true;
@@ -923,8 +934,7 @@ export const filterAndGroupExercises = ({
 
   const matchesPlayerCount = (exercise: Exercise) => {
     if (!filterByPlayerCount) return true;
-    const relevantPlayerCount = getRelevantPlayerCount(exercise);
-    return relevantPlayerCount >= exercise.playersMin && relevantPlayerCount <= exercise.playersMax;
+    return matchesExercisePlayerCountFilter(exercise, playerCount, playersPerStation);
   };
 
   for (const exercise of exerciseLibrary) {

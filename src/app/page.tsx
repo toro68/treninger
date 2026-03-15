@@ -45,7 +45,7 @@ export const applyHighlightedExercise = ({
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
-  const [filterByPlayerCount, setFilterByPlayerCount] = useState(false);
+  const [filterByPlayerCount, setFilterByPlayerCount] = useState(true);
   const {
     highlightExerciseId,
     setHighlightExercise,

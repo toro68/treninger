@@ -1,4 +1,4 @@
-import { useSessionStore } from "@/store/sessionStore";
+import { matchesExercisePlayerCountFilter, useSessionStore } from "@/store/sessionStore";
 import { allExercises, ExerciseSource } from "@/data/exercises";
 import { useMemo } from "react";
 import { SearchField } from "@/components/SearchField";
@@ -146,12 +146,11 @@ export const Filters = ({
   const availableThemes = useMemo(() => {
     const themeCounts: Record<string, number> = {};
     allExercises.forEach((exercise) => {
-      if (filterByPlayerCount) {
-        // Når antallsfilter er aktivt, match på spillere per stasjon
-        const matchesPlayerCount =
-          playersPerStation >= exercise.playersMin &&
-          playersPerStation <= exercise.playersMax;
-        if (!matchesPlayerCount) return;
+      if (
+        filterByPlayerCount &&
+        !matchesExercisePlayerCountFilter(exercise, playerCount, playersPerStation)
+      ) {
+        return;
       }
       
       // Filtrer på kilde
@@ -173,7 +172,7 @@ export const Filters = ({
       if (b === "rondo") return 1;
       return a.localeCompare(b, "nb");
     });
-  }, [playersPerStation, sourceFilter, filterByPlayerCount]);
+  }, [playerCount, playersPerStation, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 
