@@ -116,7 +116,7 @@ export const eggenExercises: ExerciseData[] = [
       "Spill med maks to touch i støtteleddet",
       "Øk avstand på langpasningen gradvis",
     ],
-    imageUrl: "/book-illustrations/curtis.png",
+      imageUrl: "/book-illustrations/curtis2.png",
     source: "godfoten",
     sourceRef: "Godfoten-notater - Curtis-øvelsen (samlet i docs/books/godfoten.txt)",
   },
