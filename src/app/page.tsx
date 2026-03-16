@@ -131,6 +131,9 @@ export default function Home() {
                   <h2 className="text-lg font-semibold text-zinc-900">Øvelser</h2>
                   <ExerciseCodeLegend />
                 </div>
+                <div className="rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm text-sky-950">
+                  Planlegg bit for bit: legg til én øvelse om gangen som neste seksjon. Legger du flere stasjonsøvelser etter hverandre, blir de samlet som én stasjonsseksjon.
+                </div>
                 <Filters
                   activeTheme={themeFilter}
                   onThemeChange={setThemeFilter}

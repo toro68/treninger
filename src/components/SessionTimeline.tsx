@@ -63,6 +63,7 @@ export const SessionTimeline = () => {
     (acc, block) => acc + recommendedDuration(block),
     0
   );
+  const nextSectionNumber = parts.length + 1;
 
   const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
     (block.alternativeExerciseIds ?? [])
@@ -527,6 +528,18 @@ export const SessionTimeline = () => {
         />
       </div>
 
+      <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
+        <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+          <div>
+            <h3 className="text-sm font-semibold text-zinc-900">Planlegg seksjon for seksjon</h3>
+            <p className="text-xs text-zinc-600">
+              Neste del av økta blir <span className="font-semibold text-zinc-900">{nextSectionNumber}. Øvelse</span> eller <span className="font-semibold text-zinc-900">{nextSectionNumber}. Stasjoner</span>. Bruk knappene på øvelseskortene til venstre for å bygge planen i rekkefølge.
+            </p>
+          </div>
+          <span className="text-xs font-medium text-sky-800">Bit for bit</span>
+        </div>
+      </div>
+
       {hasContent ? (
         <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/70 p-4">
           <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
@@ -633,7 +646,7 @@ export const SessionTimeline = () => {
             </svg>
           </div>
           <p className="text-sm font-medium text-zinc-600">Start med å velge øvelser</p>
-          <p className="mt-1 text-xs text-zinc-400">Marker øvelser fra listen til venstre</p>
+          <p className="mt-1 text-xs text-zinc-400">Bruk «Legg til som neste øvelse» eller «Legg til som neste stasjon» fra listen til venstre</p>
         </div>
       ) : (
         <div className="mt-4 space-y-4">

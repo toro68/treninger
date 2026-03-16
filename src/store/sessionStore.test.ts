@@ -186,6 +186,19 @@ describe("sessionStore", () => {
       expect(state.selectedExerciseIds.has(added!.id)).toBe(true);
       expect(state.plannedBlocks?.some((block) => block.exercise.id === added!.id)).toBe(true);
     });
+
+    it("should append an existing exercise directly to the session plan", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.getState().appendExerciseToPlan(exercise!);
+
+      const nextState = useSessionStore.getState();
+      expect(nextState.selectedExerciseIds.has(exercise!.id)).toBe(true);
+      expect(nextState.plannedBlocks?.at(-1)?.exercise.id).toBe(exercise!.id);
+    });
   });
 
   describe("savedSessions", () => {

@@ -48,10 +48,11 @@ const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText
 };
 
 export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
-  const { toggleExercise, toggleFavorite, selected, isFavorite } = useSessionStore(
+  const { toggleExercise, toggleFavorite, appendExerciseToPlan, selected, isFavorite } = useSessionStore(
     useShallow((state) => ({
       toggleExercise: state.toggleExercise,
       toggleFavorite: state.toggleFavorite,
+      appendExerciseToPlan: state.appendExerciseToPlan,
       selected: state.selectedExerciseIds.has(exercise.id),
       isFavorite: state.favoriteIds.has(exercise.id),
     }))
@@ -75,6 +76,11 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   const hasExtraInfo =
     !compactAlwaysIncluded &&
     (hasDiagram || exercise.coachingPoints.length > 0 || exercise.variations.length > 0 || !!exercise.sourceRef);
+
+  const addButtonLabel =
+    exercise.category === "station"
+      ? "Legg til som neste stasjon"
+      : "Legg til som neste øvelse";
 
   const sanitizedSvg = useMemo(() => {
     if (!showDetails) return null;
@@ -222,6 +228,24 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
         </div>
         {!compactAlwaysIncluded && (
           <div className="mt-2 flex items-center gap-3">
+          {!disabled && (
+            <button
+              type="button"
+              onClick={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                appendExerciseToPlan(exercise);
+              }}
+              disabled={selected}
+              className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                selected
+                  ? "border border-emerald-200 bg-emerald-50 text-emerald-800"
+                  : "border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-700"
+              }`}
+            >
+              {selected ? "Lagt til i øktplan" : addButtonLabel}
+            </button>
+          )}
           {hasExtraInfo && (
             <button
               type="button"

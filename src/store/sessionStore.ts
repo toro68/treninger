@@ -79,6 +79,7 @@ type SessionState = {
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
   addExerciseToPlan: (exercise: Exercise) => void;
+  appendExerciseToPlan: (exercise: Exercise) => void;
   updateExercise: (id: string, exercise: Exercise) => void;
   plannedBlocks: SessionBlock[] | null;
   setPlannedBlocks: (blocks: SessionBlock[]) => void;
@@ -621,6 +622,29 @@ export const useSessionStore = create<SessionState>()(
             exerciseLibrary: updatedLibrary,
             selectedExerciseIds: nextSelectedExerciseIds,
             plannedBlocks: [...baseBlocks, { id: exerciseWithNumber.id, exercise: exerciseWithNumber }],
+          };
+        }),
+      appendExerciseToPlan: (exercise) =>
+        set((state) => {
+          const existingExercise = state.exerciseLibrary.find((entry) => entry.id === exercise.id) ?? exercise;
+          const nextSelectedExerciseIds = new Set(state.selectedExerciseIds);
+          nextSelectedExerciseIds.add(existingExercise.id);
+
+          const baseBlocks = deriveSessionBlocks({
+            selectedExerciseIds: state.selectedExerciseIds,
+            exerciseLibrary: state.exerciseLibrary,
+            plannedBlocks: state.plannedBlocks,
+          });
+
+          if (baseBlocks.some((block) => block.exercise.id === existingExercise.id)) {
+            return {
+              selectedExerciseIds: nextSelectedExerciseIds,
+            };
+          }
+
+          return {
+            selectedExerciseIds: nextSelectedExerciseIds,
+            plannedBlocks: [...baseBlocks, { id: existingExercise.id, exercise: existingExercise }],
           };
         }),
       updateExercise: (id, updated) =>
