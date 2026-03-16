@@ -25,6 +25,8 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
       const duration = recommendedDuration(block);
       const unit = getUnit(block);
       const code = getExerciseCode(block.exercise);
+      const title = block.customTitle?.trim() || block.exercise.name;
+      const comment = block.customComment?.trim();
       const equipment = block.exercise.equipment.join(", ");
       const alternativeExercises = resolveAlternativeExercises(block, exerciseLibrary);
       const assignedCoaches = (block.assignedCoachNames ?? [])
@@ -50,8 +52,9 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
         <div class="exercise">
           <div class="exercise-name">
             <span class="code">${code}</span>
-            ${block.exercise.name}
+            ${title}
           </div>
+          ${title !== block.exercise.name ? `<div class="exercise-origin">Basert på: ${block.exercise.name}</div>` : ""}
           ${assignedCoaches ? `<div class="coach-list">${assignedCoaches}</div>` : ""}
           <div class="exercise-meta">
             ${duration} ${unit} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${block.exercise.theme}${
@@ -59,6 +62,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
             }
           </div>
           <div class="exercise-desc">${block.exercise.description}</div>
+          ${comment ? `<div class="exercise-comment"><span class="coaching-title">Kommentar:</span> ${comment}</div>` : ""}
           ${
             coachingPoints
               ? `
@@ -116,10 +120,11 @@ const baseStyles = `
   .exercise-name { font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   .exercise-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
+  .exercise-origin { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
   .coach-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
   .coach-tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; background: #e0f2fe; color: #0f172a; font-size: 11px; font-weight: 600; }
   .exercise-desc { font-size: 13px; line-height: 1.35; }
-  .coaching, .variations, .alternatives { margin-top: 10px; font-size: 12px; }
+  .exercise-comment, .coaching, .variations, .alternatives { margin-top: 10px; font-size: 12px; }
   .coaching-title { font-weight: 600; color: #374151; display: inline-block; margin-bottom: 2px; }
   .alternatives .code { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; margin-right: 6px; padding: 1px 6px; font-size: 10px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   ul { margin: 0 0 0 18px; padding: 0; }
@@ -129,28 +134,35 @@ const baseStyles = `
 
 export const buildPrintDocument = ({
   parts,
+  sessionTitle,
+  sessionComment,
   totalMinutes,
   playerCount,
   exerciseLibrary,
 }: {
   parts: PrintablePart[];
+  sessionTitle?: string;
+  sessionComment?: string;
   totalMinutes: number;
   playerCount: number;
   exerciseLibrary: Exercise[];
 }) => {
   const sections = parts.map((part) => buildSectionMarkup(part, exerciseLibrary)).join("");
+  const title = sessionTitle?.trim() || "Treningsøkt";
+  const comment = sessionComment?.trim();
 
   return `
     <!DOCTYPE html>
     <html lang="no">
       <head>
         <meta charSet="utf-8" />
-        <title>Treningsøkt</title>
+        <title>${title}</title>
         <style>${baseStyles}</style>
       </head>
       <body>
-        <h1>Treningsøkt</h1>
+        <h1>${title}</h1>
         <div class="meta">${totalMinutes} minutter • ${playerCount} spillere</div>
+        ${comment ? `<div class="meta">${comment}</div>` : ""}
         ${sections}
       </body>
     </html>
@@ -159,6 +171,8 @@ export const buildPrintDocument = ({
 
 export const openPrintWindowForSession = (params: {
   parts: PrintablePart[];
+  sessionTitle?: string;
+  sessionComment?: string;
   totalMinutes: number;
   playerCount: number;
   exerciseLibrary: Exercise[];

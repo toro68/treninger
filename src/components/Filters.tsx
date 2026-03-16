@@ -1,5 +1,5 @@
 import { matchesExercisePlayerCountFilter, useSessionStore } from "@/store/sessionStore";
-import { allExercises, ExerciseSource } from "@/data/exercises";
+import { ExerciseSource } from "@/data/exercises";
 import { useMemo } from "react";
 import { SearchField } from "@/components/SearchField";
 
@@ -123,6 +123,7 @@ export const Filters = ({
 }) => {
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
+  const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
   
   // Beregn spillere per stasjon
   const playersPerStation = stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
@@ -131,7 +132,7 @@ export const Filters = ({
   const sourceCounts = useMemo(() => {
     const counts: Record<string, number> = {};
     let egneCount = 0;
-    allExercises.forEach((exercise) => {
+    exerciseLibrary.forEach((exercise) => {
       // "egen" er øvelser uten eksplisitt source
       const key = exercise.source || "egen";
       counts[key] = (counts[key] ?? 0) + 1;
@@ -140,12 +141,12 @@ export const Filters = ({
     // "Egne" inkluderer både helt egne og Eggen (samme logikk som i filterAndGroupExercises)
     counts.egen = egneCount;
     return counts;
-  }, []);
+  }, [exerciseLibrary]);
 
   // Beregn tilgjengelige temaer basert på kildefilter
   const availableThemes = useMemo(() => {
     const themeCounts: Record<string, number> = {};
-    allExercises.forEach((exercise) => {
+    exerciseLibrary.forEach((exercise) => {
       if (
         filterByPlayerCount &&
         !matchesExercisePlayerCountFilter(exercise, playerCount, playersPerStation)
@@ -172,7 +173,7 @@ export const Filters = ({
       if (b === "rondo") return 1;
       return a.localeCompare(b, "nb");
     });
-  }, [playerCount, playersPerStation, sourceFilter, filterByPlayerCount]);
+  }, [exerciseLibrary, playerCount, playersPerStation, sourceFilter, filterByPlayerCount]);
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 

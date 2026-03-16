@@ -17,8 +17,8 @@ export const uefaExercises: ExerciseData[] = [
     name: "Figur 25: Generell 2v1",
     category: "station",
     duration: 10,
-    playersMin: 6,
-    playersMax: 12,
+    playersMin: 3,
+    playersMax: 15,
     theme: "angrep",
     equipment: ["baller", "kjegler"],
     description:

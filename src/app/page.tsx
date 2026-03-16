@@ -140,7 +140,7 @@ export default function Home() {
                   onFilterByPlayerCountChange={setFilterByPlayerCount}
                 />
               </div>
-                <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
+              <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
                 <ExerciseList
                   title="Oppvarming"
                   category="warmup"
@@ -166,7 +166,7 @@ export default function Home() {
                   category="cooldown"
                   exercises={cooldownExercises}
                 />
-                </div>
+              </div>
             </section>
           </div>
 

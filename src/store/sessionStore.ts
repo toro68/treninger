@@ -17,6 +17,8 @@ export type SessionBlock = {
   exercise: Exercise;
   customDuration?: number;
   customUnit?: DurationUnit;
+  customTitle?: string;
+  customComment?: string;
   alternativeExerciseIds?: string[];
   assignedCoachNames?: string[];
 };
@@ -25,6 +27,8 @@ type SerializedBlock = {
   id: string;
   customDuration?: number;
   customUnit?: DurationUnit;
+  customTitle?: string;
+  customComment?: string;
   alternativeExerciseIds?: string[];
   assignedCoachNames?: string[];
 };
@@ -34,6 +38,8 @@ export type SavedSession = {
   name: string;
   createdAt: string;
   updatedAt: string;
+  sessionTitle?: string;
+  sessionComment?: string;
   playerCount: number;
   stationCount: number;
   coachNames: string[];
@@ -47,6 +53,8 @@ type SessionState = {
   exerciseOverrides: Record<string, Partial<Exercise>>;
   exerciseLibrary: Exercise[];
   savedSessions: SavedSession[];
+  sessionTitle: string;
+  sessionComment: string;
   playerCount: number;
   stationCount: number;
   coachNames: string[];
@@ -57,6 +65,8 @@ type SessionState = {
   highlightExerciseId: string | null;
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
+  setSessionTitle: (title: string) => void;
+  setSessionComment: (comment: string) => void;
   addCoachName: (name: string) => void;
   removeCoachName: (name: string) => void;
   setSearchQuery: (query: string) => void;
@@ -66,6 +76,7 @@ type SessionState = {
   toggleTheory: (id: string) => void;
   toggleFavorite: (id: string) => void;
   addExercise: (exercise: Exercise) => void;
+  addExerciseToPlan: (exercise: Exercise) => void;
   updateExercise: (id: string, exercise: Exercise) => void;
   plannedBlocks: SessionBlock[] | null;
   setPlannedBlocks: (blocks: SessionBlock[]) => void;
@@ -165,6 +176,8 @@ const mergePlannedBlockMetadata = (
         ...current,
         customDuration: block.customDuration,
         customUnit: block.customUnit,
+        customTitle: normalizeOptionalText(block.customTitle),
+        customComment: normalizeOptionalText(block.customComment),
         alternativeExerciseIds: block.alternativeExerciseIds,
         assignedCoachNames: block.assignedCoachNames,
       };
@@ -182,6 +195,18 @@ const buildExerciseLibrary = (
   custom: Exercise[] = [],
   overrides: Record<string, Partial<Exercise>> = {}
 ) => sortExercises([...applyOverrides(allExercises, overrides), ...custom]);
+
+const withExerciseNumber = (exercise: Exercise, exerciseLibrary: Exercise[]) => {
+  const maxNumber = exerciseLibrary.reduce(
+    (max, currentExercise) => Math.max(max, currentExercise.exerciseNumber || 0),
+    0
+  );
+
+  return {
+    ...exercise,
+    exerciseNumber: exercise.exerciseNumber || maxNumber + 1,
+  };
+};
 
 const serializeSet = (value?: Set<string>) => Array.from(value ?? new Set<string>());
 const hydrateSet = (value?: string[] | Set<string>) => {
@@ -207,6 +232,12 @@ const normalizeCoachNames = (names?: Iterable<string>) => {
   return normalized;
 };
 
+const normalizeOptionalText = (value: unknown) => {
+  if (typeof value !== "string") return undefined;
+  const normalized = value.trim();
+  return normalized ? normalized : undefined;
+};
+
 const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
 
 const mergeCoachNames = (...groups: Array<Iterable<string> | undefined>) =>
@@ -224,6 +255,8 @@ const isRecord = (value: unknown): value is Record<string, unknown> =>
   !!value && typeof value === "object" && !Array.isArray(value);
 
 type PersistedSessionState = {
+  sessionTitle: string;
+  sessionComment: string;
   playerCount: number;
   stationCount: number;
   coachNames: string[];
@@ -242,10 +275,20 @@ type PersistedSessionStorageValue = StorageValue<PersistedSessionState>;
 
 const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock[] | null => {
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
-  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds, assignedCoachNames }) => ({
+  return blocks.map(({
     id,
     customDuration,
     customUnit,
+    customTitle,
+    customComment,
+    alternativeExerciseIds,
+    assignedCoachNames,
+  }) => ({
+    id,
+    customDuration,
+    customUnit,
+    customTitle: normalizeOptionalText(customTitle),
+    customComment: normalizeOptionalText(customComment),
     alternativeExerciseIds:
       Array.isArray(alternativeExerciseIds) && alternativeExerciseIds.length > 0
         ? alternativeExerciseIds
@@ -260,6 +303,8 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
 const toSavedSession = ({
   id,
   name,
+  sessionTitle,
+  sessionComment,
   playerCount,
   stationCount,
   coachNames,
@@ -271,6 +316,8 @@ const toSavedSession = ({
 }: {
   id: string;
   name: string;
+  sessionTitle: string;
+  sessionComment: string;
   playerCount: number;
   stationCount: number;
   coachNames: string[];
@@ -282,6 +329,8 @@ const toSavedSession = ({
 }): SavedSession => ({
   id,
   name,
+  sessionTitle: normalizeOptionalText(sessionTitle),
+  sessionComment: normalizeOptionalText(sessionComment),
   playerCount,
   stationCount,
   coachNames: normalizeCoachNames(coachNames),
@@ -332,6 +381,8 @@ const hydrateSavedSessions = (
         {
           id,
           name,
+          sessionTitle: normalizeOptionalText(entry.sessionTitle),
+          sessionComment: normalizeOptionalText(entry.sessionComment),
           createdAt: typeof entry.createdAt === "string" ? entry.createdAt : new Date().toISOString(),
           updatedAt: typeof entry.updatedAt === "string" ? entry.updatedAt : new Date().toISOString(),
           playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
@@ -395,6 +446,8 @@ const hydratePlannedBlocks = (
               ? (entry as SerializedBlock).customDuration
               : undefined,
           customUnit: ensureUnit((entry as SerializedBlock).customUnit),
+          customTitle: normalizeOptionalText((entry as SerializedBlock).customTitle),
+          customComment: normalizeOptionalText((entry as SerializedBlock).customComment),
           alternativeExerciseIds: ensureAlternativeExerciseIds(
             (entry as SerializedBlock).alternativeExerciseIds,
             exercise.id
@@ -420,6 +473,8 @@ const hydratePlannedBlocks = (
               ? (entry as SessionBlock).customDuration
               : undefined,
           customUnit: ensureUnit((entry as SessionBlock).customUnit),
+          customTitle: normalizeOptionalText((entry as SessionBlock).customTitle),
+          customComment: normalizeOptionalText((entry as SessionBlock).customComment),
           alternativeExerciseIds: ensureAlternativeExerciseIds(
             (entry as SessionBlock).alternativeExerciseIds,
             exercise.id
@@ -451,6 +506,8 @@ export const useSessionStore = create<SessionState>()(
       exerciseOverrides: {},
       exerciseLibrary: buildExerciseLibrary(),
       savedSessions: [],
+      sessionTitle: "",
+      sessionComment: "",
       playerCount: 12,
       stationCount: 3,
       coachNames: defaultCoachNames(),
@@ -461,6 +518,8 @@ export const useSessionStore = create<SessionState>()(
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
       setStationCount: (count) => set({ stationCount: count }),
+      setSessionTitle: (title) => set({ sessionTitle: title }),
+      setSessionComment: (comment) => set({ sessionComment: comment }),
       addCoachName: (name) =>
         set((state) => ({
           coachNames: mergeCoachNames(state.coachNames, [name]),
@@ -485,6 +544,8 @@ export const useSessionStore = create<SessionState>()(
       setSelectedContent: (exerciseIds, theoryIds) =>
         set({
           plannedBlocks: null,
+          sessionTitle: "",
+          sessionComment: "",
           selectedExerciseIds: new Set(exerciseIds),
           selectedTheoryIds: new Set(theoryIds),
           highlightExerciseId: null,
@@ -521,14 +582,7 @@ export const useSessionStore = create<SessionState>()(
         }),
       addExercise: (exercise) =>
         set((state) => {
-          const maxNumber = state.exerciseLibrary.reduce(
-            (max, ex) => Math.max(max, ex.exerciseNumber || 0),
-            0
-          );
-          const exerciseWithNumber = {
-            ...exercise,
-            exerciseNumber: exercise.exerciseNumber || maxNumber + 1,
-          };
+          const exerciseWithNumber = withExerciseNumber(exercise, state.exerciseLibrary);
           const updatedCustom = sortExercises([
             ...state.customExercises,
             exerciseWithNumber,
@@ -536,6 +590,30 @@ export const useSessionStore = create<SessionState>()(
           return {
             customExercises: updatedCustom,
             exerciseLibrary: buildExerciseLibrary(updatedCustom),
+          };
+        }),
+      addExerciseToPlan: (exercise) =>
+        set((state) => {
+          const exerciseWithNumber = withExerciseNumber(exercise, state.exerciseLibrary);
+          const updatedCustom = sortExercises([
+            ...state.customExercises,
+            exerciseWithNumber,
+          ]);
+          const updatedLibrary = buildExerciseLibrary(updatedCustom, state.exerciseOverrides);
+          const nextSelectedExerciseIds = new Set(state.selectedExerciseIds);
+          nextSelectedExerciseIds.add(exerciseWithNumber.id);
+
+          const baseBlocks = deriveSessionBlocks({
+            selectedExerciseIds: state.selectedExerciseIds,
+            exerciseLibrary: state.exerciseLibrary,
+            plannedBlocks: state.plannedBlocks,
+          });
+
+          return {
+            customExercises: updatedCustom,
+            exerciseLibrary: updatedLibrary,
+            selectedExerciseIds: nextSelectedExerciseIds,
+            plannedBlocks: [...baseBlocks, { id: exerciseWithNumber.id, exercise: exerciseWithNumber }],
           };
         }),
       updateExercise: (id, updated) =>
@@ -568,6 +646,8 @@ export const useSessionStore = create<SessionState>()(
       resetPlan: () =>
         set({
           plannedBlocks: null,
+          sessionTitle: "",
+          sessionComment: "",
           selectedExerciseIds: new Set(),
           selectedTheoryIds: new Set(),
           searchQuery: "",
@@ -601,6 +681,8 @@ export const useSessionStore = create<SessionState>()(
         const savedSession = toSavedSession({
           id: existing?.id ?? `saved-${Date.now()}`,
           name: trimmedName,
+          sessionTitle: state.sessionTitle,
+          sessionComment: state.sessionComment,
           playerCount: state.playerCount,
           stationCount: state.stationCount,
           coachNames: state.coachNames,
@@ -635,6 +717,8 @@ export const useSessionStore = create<SessionState>()(
         const plannedBlocks = hydratePlannedBlocks(saved.plannedBlocks, state.exerciseLibrary, coachNames);
 
         set({
+          sessionTitle: saved.sessionTitle ?? "",
+          sessionComment: saved.sessionComment ?? "",
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
           coachNames,
@@ -654,6 +738,8 @@ export const useSessionStore = create<SessionState>()(
     {
       name: "treninger-session",
       partialize: (state) => ({
+        sessionTitle: state.sessionTitle,
+        sessionComment: state.sessionComment,
         playerCount: state.playerCount,
         stationCount: state.stationCount,
         coachNames: state.coachNames,
@@ -703,6 +789,10 @@ export const useSessionStore = create<SessionState>()(
             typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
           const stationCount =
             typeof parsedState.stationCount === "number" ? parsedState.stationCount : 3;
+          const sessionTitle =
+            typeof parsedState.sessionTitle === "string" ? parsedState.sessionTitle : "";
+          const sessionComment =
+            typeof parsedState.sessionComment === "string" ? parsedState.sessionComment : "";
 
           const searchQuery =
             typeof parsedState.searchQuery === "string" ? parsedState.searchQuery : "";
@@ -727,6 +817,8 @@ export const useSessionStore = create<SessionState>()(
           return {
             state: {
               exerciseLibrary,
+              sessionTitle,
+              sessionComment,
               playerCount,
               stationCount,
               coachNames,
@@ -745,6 +837,8 @@ export const useSessionStore = create<SessionState>()(
         setItem: (name, value: PersistedSessionStorageValue) => {
           const toStore = {
             state: {
+              sessionTitle: value.state.sessionTitle ?? "",
+              sessionComment: value.state.sessionComment ?? "",
               playerCount: value.state.playerCount,
               stationCount: value.state.stationCount,
               coachNames: value.state.coachNames ?? defaultCoachNames(),

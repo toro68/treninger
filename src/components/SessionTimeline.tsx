@@ -5,6 +5,7 @@ import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessio
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { useState, useEffect, useMemo } from "react";
+import { CustomExerciseCreator } from "@/components/CustomExerciseCreator";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -28,7 +29,11 @@ export const SessionTimeline = () => {
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
   const coachNames = useSessionStore((state) => state.coachNames);
+  const sessionTitle = useSessionStore((state) => state.sessionTitle);
+  const sessionComment = useSessionStore((state) => state.sessionComment);
   const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
+  const setSessionTitle = useSessionStore((state) => state.setSessionTitle);
+  const setSessionComment = useSessionStore((state) => state.setSessionComment);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
   const toggleTheory = useSessionStore((state) => state.toggleTheory);
@@ -36,6 +41,7 @@ export const SessionTimeline = () => {
   const saveCurrentSession = useSessionStore((state) => state.saveCurrentSession);
   const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
   const deleteSavedSession = useSessionStore((state) => state.deleteSavedSession);
+  const addExerciseToPlan = useSessionStore((state) => state.addExerciseToPlan);
 
   const [hydrated, setHydrated] = useState(false);
 
@@ -46,6 +52,7 @@ export const SessionTimeline = () => {
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [alternativeMenuForBlockId, setAlternativeMenuForBlockId] = useState<string | null>(null);
+  const [customizeMenuForBlockId, setCustomizeMenuForBlockId] = useState<string | null>(null);
   const [shareStatus, setShareStatus] = useState<
     "idle" | "copied" | "shared" | "error"
   >("idle");
@@ -145,6 +152,17 @@ export const SessionTimeline = () => {
     updateBlockAtIndex(index, (block) => ({ ...block, customUnit: unit }));
   };
 
+  const handleBlockTextChange = (
+    index: number,
+    field: "customTitle" | "customComment",
+    value: string
+  ) => {
+    updateBlockAtIndex(index, (block) => ({
+      ...block,
+      [field]: value.trim() ? value : undefined,
+    }));
+  };
+
   const toggleCoachAssignment = (index: number, coachName: string) => {
     updateBlockAtIndex(index, (block) => {
       const nextCoachNames = new Set(block.assignedCoachNames ?? []);
@@ -222,14 +240,21 @@ export const SessionTimeline = () => {
     setAlternativeMenuForBlockId((current) =>
       current === removed?.id ? null : current
     );
+    setCustomizeMenuForBlockId((current) =>
+      current === removed?.id ? null : current
+    );
     if (removed && !removed.exercise.alwaysIncluded) {
       toggleExercise(removed.exercise.id);
     }
   };
 
+  const resolvedSessionTitle = sessionTitle.trim() || "Treningsøkt";
+
   const buildShortSummary = () => {
     return sessionBlocks
       .map((block, index) => {
+        const title = block.customTitle?.trim() || block.exercise.name;
+        const comment = block.customComment?.trim();
         const alternatives = getAlternativeExercises(block);
         const alternativeText =
           alternatives.length > 0
@@ -239,7 +264,8 @@ export const SessionTimeline = () => {
           block.assignedCoachNames && block.assignedCoachNames.length > 0
             ? ` [ansvar: ${block.assignedCoachNames.join(", ")}]`
             : "";
-        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${block.exercise.name} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}`;
+        const commentText = comment ? `\n   Kommentar: ${comment}` : "";
+        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${title} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}${commentText}`;
       })
       .join("\n");
   };
@@ -264,12 +290,20 @@ export const SessionTimeline = () => {
       part.blocks.forEach(({ block }) => {
         const duration = recommendedDuration(block);
         const unit = getUnit(block);
+        const title = block.customTitle?.trim() || block.exercise.name;
+        const comment = block.customComment?.trim();
         const alternatives = getAlternativeExercises(block);
-        result += `\n[${getExerciseCode(block.exercise)}] ${block.exercise.name} (${duration} ${unit})\n`;
+        result += `\n[${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
+        if (title !== block.exercise.name) {
+          result += `Basert på: ${block.exercise.name}\n`;
+        }
         if (block.assignedCoachNames?.length) {
           result += `Ansvar: ${block.assignedCoachNames.join(", ")}\n`;
         }
         result += `${block.exercise.description}\n`;
+        if (comment) {
+          result += `\nKommentar:\n${comment}\n`;
+        }
 
         if (block.exercise.coachingPoints.length > 0) {
           result += "\nCoaching:\n";
@@ -305,6 +339,8 @@ export const SessionTimeline = () => {
 
     const shareUrl = buildSharedSessionUrl({
       origin: window.location.origin,
+      sessionTitle,
+      sessionComment,
       playerCount,
       stationCount,
       selectedExerciseIds,
@@ -335,7 +371,8 @@ export const SessionTimeline = () => {
 
   const handleCopy = async (full: boolean) => {
     const summary = full ? buildFullSummary() : buildShortSummary();
-    const sharePayload = `Treningsøkt (${totalMinutes} min)\n${summary}`;
+    const commentSection = sessionComment.trim() ? `${sessionComment.trim()}\n\n` : "";
+    const sharePayload = `${resolvedSessionTitle} (${totalMinutes} min)\n${commentSection}${summary}`;
 
     const nav =
       typeof navigator !== "undefined"
@@ -368,6 +405,8 @@ export const SessionTimeline = () => {
     try {
       openPrintWindowForSession({
         parts: printableParts,
+        sessionTitle,
+        sessionComment,
         totalMinutes,
         playerCount,
         exerciseLibrary,
@@ -503,6 +542,54 @@ export const SessionTimeline = () => {
           {saveStatus === "error" && "Kunne ikke lagre eller laste økt"}
         </p>
       )}
+
+      <div className="mt-4">
+        <CustomExerciseCreator
+          onSubmitExercise={addExerciseToPlan}
+          title="Legg til øvelse direkte i øktplanen"
+          description="Skriv inn en øvelse som ikke finnes i databanken, så legges den rett inn i den aktive øktplanen og lagres for senere bruk."
+          submitLabel="Legg inn i øktplan"
+          successMessage="Egen øvelse er lagt inn i øktplanen og lagret i biblioteket."
+        />
+      </div>
+
+      {hasContent ? (
+        <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/70 p-4">
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+            <div>
+              <h3 className="text-sm font-semibold text-zinc-900">Tilpass øktplanen</h3>
+              <p className="text-xs text-zinc-600">
+                Legg inn egen tittel og en kort kommentar som følger lagring, deling og utskrift.
+              </p>
+            </div>
+            <span className="text-xs text-amber-900">Vises i fullversjonen</span>
+          </div>
+
+          <div className="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
+            <label className="flex flex-col gap-1.5 text-xs font-medium text-zinc-700">
+              Økttittel
+              <input
+                type="text"
+                value={sessionTitle}
+                onChange={(event) => setSessionTitle(event.target.value)}
+                placeholder="F.eks. Angrep mot samlet forsvar"
+                className="rounded-xl border border-amber-200 bg-white px-3 py-2 text-sm font-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
+              />
+            </label>
+
+            <label className="flex flex-col gap-1.5 text-xs font-medium text-zinc-700">
+              Kommentar til hele økta
+              <textarea
+                value={sessionComment}
+                onChange={(event) => setSessionComment(event.target.value)}
+                rows={3}
+                placeholder="Hva vil du justere, vektlegge eller minne trenerteamet på?"
+                className="resize-y rounded-xl border border-amber-200 bg-white px-3 py-2 text-sm font-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
+              />
+            </label>
+          </div>
+        </div>
+      ) : null}
 
       {showSavedSessions && (
         <div className="mt-4 rounded-xl border border-zinc-200 bg-zinc-50/70 p-3">
@@ -655,8 +742,11 @@ export const SessionTimeline = () => {
                                   <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
                                     {getExerciseCode(block.exercise)}
                                   </span>
-                                  {block.exercise.name}
+                                  {block.customTitle?.trim() || block.exercise.name}
                                 </p>
+                                {block.customTitle?.trim() && block.customTitle.trim() !== block.exercise.name ? (
+                                  <p className="mt-1 text-xs text-zinc-500">Basert på: {block.exercise.name}</p>
+                                ) : null}
                                 {block.exercise.category === "fixed-warmup" ? (
                                   <div className="mt-2 flex flex-wrap gap-1.5">
                                     <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2 py-1 text-[11px] font-medium text-emerald-900">
@@ -674,6 +764,11 @@ export const SessionTimeline = () => {
                                         {coachName}
                                       </span>
                                     ))}
+                                  </div>
+                                ) : null}
+                                {block.customComment?.trim() ? (
+                                  <div className="mt-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-950">
+                                    <span className="font-semibold">Kommentar:</span> {block.customComment.trim()}
                                   </div>
                                 ) : null}
                                 {getAlternativeExercises(block).length > 0 && (
@@ -727,8 +822,64 @@ export const SessionTimeline = () => {
                                         ))}
                                       </select>
                                     )}
+                                    <button
+                                      type="button"
+                                      onClick={() =>
+                                        setCustomizeMenuForBlockId((current) =>
+                                          current === block.id ? null : block.id
+                                        )
+                                      }
+                                      className="rounded-full border border-amber-200 bg-white px-2.5 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
+                                    >
+                                      {customizeMenuForBlockId === block.id ? "Skjul tekstfelt" : "Tilpass tekst"}
+                                    </button>
                                   </div>
                                 )}
+                                {block.exercise.alwaysIncluded ? (
+                                  <div className="mt-2 flex flex-wrap items-center gap-2">
+                                    <button
+                                      type="button"
+                                      onClick={() =>
+                                        setCustomizeMenuForBlockId((current) =>
+                                          current === block.id ? null : block.id
+                                        )
+                                      }
+                                      className="rounded-full border border-amber-200 bg-white px-2.5 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
+                                    >
+                                      {customizeMenuForBlockId === block.id ? "Skjul tekstfelt" : "Tilpass tekst"}
+                                    </button>
+                                  </div>
+                                ) : null}
+                                {(customizeMenuForBlockId === block.id || block.customTitle?.trim() || block.customComment?.trim()) ? (
+                                  <div className="mt-3 rounded-xl border border-amber-200 bg-white p-3">
+                                    <div className="grid gap-3 sm:grid-cols-2">
+                                      <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                                        Egen tittel
+                                        <input
+                                          type="text"
+                                          value={block.customTitle ?? ""}
+                                          onChange={(event) =>
+                                            handleBlockTextChange(globalIndex, "customTitle", event.target.value)
+                                          }
+                                          placeholder={block.exercise.name}
+                                          className="rounded-lg border border-zinc-200 px-3 py-2 text-sm font-normal normal-case tracking-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
+                                        />
+                                      </label>
+                                      <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500 sm:col-span-2">
+                                        Kommentar til blokka
+                                        <textarea
+                                          value={block.customComment ?? ""}
+                                          onChange={(event) =>
+                                            handleBlockTextChange(globalIndex, "customComment", event.target.value)
+                                          }
+                                          rows={3}
+                                          placeholder="Tilpasninger, fokus eller praktiske beskjeder for denne øvelsen"
+                                          className="resize-y rounded-lg border border-zinc-200 px-3 py-2 text-sm font-normal normal-case tracking-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
+                                        />
+                                      </label>
+                                    </div>
+                                  </div>
+                                ) : null}
                                 {coachNames.length > 0 && block.exercise.category !== "fixed-warmup" ? (
                                   <div className="mt-3 rounded-xl border border-zinc-200 bg-white/80 p-2.5">
                                     <p className="text-[11px] font-semibold uppercase tracking-wide text-zinc-500">

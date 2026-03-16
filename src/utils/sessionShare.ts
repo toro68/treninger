@@ -5,12 +5,16 @@ type SharedBlock = {
   id: string;
   customDuration?: number;
   customUnit?: DurationUnit;
+  customTitle?: string;
+  customComment?: string;
   alternativeExerciseIds?: string[];
   assignedCoachNames?: string[];
 };
 
 type SharedSessionPayload = {
-  version: 1;
+  version: 2;
+  sessionTitle?: string;
+  sessionComment?: string;
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: string[];
@@ -19,6 +23,8 @@ type SharedSessionPayload = {
 };
 
 export type SharedSessionData = {
+  sessionTitle?: string;
+  sessionComment?: string;
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -59,12 +65,28 @@ const decodeBase64Url = (value: string) => {
   return new TextDecoder().decode(bytes);
 };
 
+const normalizeOptionalText = (value: unknown) => {
+  if (typeof value !== "string") return undefined;
+  const normalized = value.trim();
+  return normalized ? normalized : undefined;
+};
+
 const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | null => {
   if (!blocks || blocks.length === 0) return null;
-  return blocks.map(({ id, customDuration, customUnit, alternativeExerciseIds, assignedCoachNames }) => ({
+  return blocks.map(({
     id,
     customDuration,
     customUnit,
+    customTitle,
+    customComment,
+    alternativeExerciseIds,
+    assignedCoachNames,
+  }) => ({
+    id,
+    customDuration,
+    customUnit,
+    customTitle: normalizeOptionalText(customTitle),
+    customComment: normalizeOptionalText(customComment),
     alternativeExerciseIds:
       Array.isArray(alternativeExerciseIds) && alternativeExerciseIds.length > 0
         ? alternativeExerciseIds
@@ -98,6 +120,8 @@ const hydratePlannedBlocks = (blocks: SharedBlock[] | null): SessionBlock[] | nu
         entry.customUnit === "min" || entry.customUnit === "reps"
           ? entry.customUnit
           : undefined,
+      customTitle: normalizeOptionalText(entry.customTitle),
+      customComment: normalizeOptionalText(entry.customComment),
       alternativeExerciseIds:
         alternativeExerciseIds.length > 0 ? alternativeExerciseIds : undefined,
       assignedCoachNames:
@@ -153,6 +177,8 @@ const mergeWithPlannedOrder = (
         ...current,
         customDuration: block.customDuration,
         customUnit: block.customUnit,
+        customTitle: normalizeOptionalText(block.customTitle),
+        customComment: normalizeOptionalText(block.customComment),
         alternativeExerciseIds: block.alternativeExerciseIds,
         assignedCoachNames: block.assignedCoachNames,
       };
@@ -168,12 +194,16 @@ const mergeWithPlannedOrder = (
 };
 
 export const createSharedSessionToken = ({
+  sessionTitle,
+  sessionComment,
   playerCount,
   stationCount,
   selectedExerciseIds,
   selectedTheoryIds,
   plannedBlocks,
 }: {
+  sessionTitle: string;
+  sessionComment: string;
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -181,7 +211,9 @@ export const createSharedSessionToken = ({
   plannedBlocks: SessionBlock[] | null;
 }) => {
   const payload: SharedSessionPayload = {
-    version: 1,
+    version: 2,
+    sessionTitle: normalizeOptionalText(sessionTitle),
+    sessionComment: normalizeOptionalText(sessionComment),
     playerCount,
     stationCount,
     selectedExerciseIds: [...selectedExerciseIds],
@@ -194,6 +226,8 @@ export const createSharedSessionToken = ({
 
 export const buildSharedSessionUrl = ({
   origin,
+  sessionTitle,
+  sessionComment,
   playerCount,
   stationCount,
   selectedExerciseIds,
@@ -201,6 +235,8 @@ export const buildSharedSessionUrl = ({
   plannedBlocks,
 }: {
   origin: string;
+  sessionTitle: string;
+  sessionComment: string;
   playerCount: number;
   stationCount: number;
   selectedExerciseIds: Set<string>;
@@ -208,6 +244,8 @@ export const buildSharedSessionUrl = ({
   plannedBlocks: SessionBlock[] | null;
 }) => {
   const token = createSharedSessionToken({
+    sessionTitle,
+    sessionComment,
     playerCount,
     stationCount,
     selectedExerciseIds,
@@ -223,7 +261,7 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
 
   try {
     const parsed = JSON.parse(decodeBase64Url(token)) as Partial<SharedSessionPayload>;
-    if (parsed.version !== 1) return null;
+    if (parsed.version !== 1 && parsed.version !== 2) return null;
     if (typeof parsed.playerCount !== "number" || typeof parsed.stationCount !== "number") {
       return null;
     }
@@ -247,6 +285,8 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
     );
 
     return {
+      sessionTitle: normalizeOptionalText(parsed.sessionTitle),
+      sessionComment: normalizeOptionalText(parsed.sessionComment),
       playerCount: parsed.playerCount,
       stationCount: parsed.stationCount,
       selectedExerciseIds,

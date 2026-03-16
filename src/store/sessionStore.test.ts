@@ -6,6 +6,8 @@ describe("sessionStore", () => {
   beforeEach(() => {
     // Reset store state before each test
     useSessionStore.setState({
+      sessionTitle: "",
+      sessionComment: "",
       playerCount: 16,
       stationCount: 4,
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
@@ -157,6 +159,33 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().highlightExerciseId).toBeNull();
       expect(useSessionStore.getState().selectedExerciseIds.size).toBe(0);
     });
+
+    it("should add a custom exercise directly to the session plan", () => {
+      const { addExerciseToPlan } = useSessionStore.getState();
+
+      addExerciseToPlan({
+        id: "custom-test",
+        exerciseNumber: 0,
+        name: "Egen øvelse i plan",
+        category: "station",
+        duration: 14,
+        playersMin: 6,
+        playersMax: 12,
+        theme: "pasning",
+        equipment: ["baller", "kjegler"],
+        description: "Legges rett inn i aktiv plan.",
+        coachingPoints: ["Få opp tempo"],
+        variations: ["To touch"],
+        source: "egen",
+      });
+
+      const state = useSessionStore.getState();
+      const added = state.customExercises.find((exercise) => exercise.name === "Egen øvelse i plan");
+
+      expect(added).toBeDefined();
+      expect(state.selectedExerciseIds.has(added!.id)).toBe(true);
+      expect(state.plannedBlocks?.some((block) => block.exercise.id === added!.id)).toBe(true);
+    });
   });
 
   describe("savedSessions", () => {
@@ -167,11 +196,15 @@ describe("sessionStore", () => {
       expect(exercise).toBeDefined();
 
       useSessionStore.setState({
+        sessionTitle: "Angrep siste tredel",
+        sessionComment: "Ekstra fokus pa timing i bakrom.",
         selectedExerciseIds: new Set([exercise!.id]),
         plannedBlocks: [
           {
             id: exercise!.id,
             exercise: exercise!,
+            customTitle: "Spill med klare roller",
+            customComment: "Kort coaching mellom dragene.",
             assignedCoachNames: ["Tor Inge", "Dawid"],
           },
         ],
@@ -182,7 +215,11 @@ describe("sessionStore", () => {
       expect(result.ok).toBe(true);
       expect(useSessionStore.getState().savedSessions).toHaveLength(1);
       expect(useSessionStore.getState().savedSessions[0].name).toBe("Min testøkt");
+      expect(useSessionStore.getState().savedSessions[0].sessionTitle).toBe("Angrep siste tredel");
+      expect(useSessionStore.getState().savedSessions[0].sessionComment).toBe("Ekstra fokus pa timing i bakrom.");
       expect(useSessionStore.getState().savedSessions[0].coachNames).toContain("Tor Inge");
+      expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].customTitle).toBe("Spill med klare roller");
+      expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].customComment).toBe("Kort coaching mellom dragene.");
       expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].assignedCoachNames).toEqual([
         "Tor Inge",
         "Dawid",
@@ -196,6 +233,8 @@ describe("sessionStore", () => {
       expect(exercise).toBeDefined();
 
       useSessionStore.setState({
+        sessionTitle: "Lasteklar økt",
+        sessionComment: "Hold igjen én spiller i restforsvar.",
         playerCount: 18,
         stationCount: 3,
         coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne", "Ekstra trener"],
@@ -205,6 +244,7 @@ describe("sessionStore", () => {
             id: exercise!.id,
             exercise: exercise!,
             customDuration: 14,
+            customComment: "Vær streng på første pressledd.",
             assignedCoachNames: ["Ekstra trener"],
           },
         ],
@@ -224,11 +264,14 @@ describe("sessionStore", () => {
       const loaded = useSessionStore.getState().loadSavedSession(savedId);
 
       expect(loaded).toBe(true);
+      expect(useSessionStore.getState().sessionTitle).toBe("Lasteklar økt");
+      expect(useSessionStore.getState().sessionComment).toBe("Hold igjen én spiller i restforsvar.");
       expect(useSessionStore.getState().playerCount).toBe(18);
       expect(useSessionStore.getState().stationCount).toBe(3);
       expect(useSessionStore.getState().coachNames).toContain("Ekstra trener");
       expect(useSessionStore.getState().selectedExerciseIds.has(exercise!.id)).toBe(true);
       expect(useSessionStore.getState().plannedBlocks?.[0].customDuration).toBe(14);
+      expect(useSessionStore.getState().plannedBlocks?.[0].customComment).toBe("Vær streng på første pressledd.");
       expect(useSessionStore.getState().plannedBlocks?.[0].assignedCoachNames).toEqual(["Ekstra trener"]);
     });
 

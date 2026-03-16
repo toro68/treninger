@@ -16,6 +16,8 @@ describe("SessionTimeline sharing", () => {
     expect(exercise).toBeDefined();
 
     useSessionStore.setState({
+      sessionTitle: "",
+      sessionComment: "",
       playerCount: 12,
       stationCount: 3,
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
@@ -111,6 +113,47 @@ describe("SessionTimeline sharing", () => {
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
   });
 
+  it("includes custom title and comments in the full session link", async () => {
+    const writeText = vi.fn().mockResolvedValue(undefined);
+
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: { writeText },
+    });
+
+    render(<SessionTimeline />);
+
+    fireEvent.change(await screen.findByLabelText("Økttittel"), {
+      target: { value: "Kampforberedende økt" },
+    });
+    fireEvent.change(screen.getByLabelText("Kommentar til hele økta"), {
+      target: { value: "Bruk ekstra tid på overgang til press." },
+    });
+    const blocks = await screen.findAllByRole("group");
+    fireEvent.click(within(blocks[1]).getByRole("button", { name: "Tilpass tekst" }));
+    fireEvent.change(screen.getByLabelText("Egen tittel"), {
+      target: { value: "Spill med aggressiv gjenvinning" },
+    });
+    fireEvent.change(screen.getByLabelText("Kommentar til blokka"), {
+      target: { value: "To touch første fire minutter." },
+    });
+
+    fireEvent.click(screen.getByRole("button", { name: "Del økt" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
+
+    await waitFor(() => {
+      expect(writeText).toHaveBeenCalledTimes(1);
+    });
+
+    const copiedUrl = new URL(writeText.mock.calls[0][0]);
+    const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
+
+    expect(decoded?.sessionTitle).toBe("Kampforberedende økt");
+    expect(decoded?.sessionComment).toBe("Bruk ekstra tid på overgang til press.");
+    expect(decoded?.sessionBlocks[0].customTitle).toBe("Spill med aggressiv gjenvinning");
+    expect(decoded?.sessionBlocks[0].customComment).toBe("To touch første fire minutter.");
+  });
+
   it("lets the user assign coaches to a block", async () => {
     render(<SessionTimeline />);
 
@@ -151,6 +194,28 @@ describe("SessionTimeline sharing", () => {
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
 
     expect(decoded?.sessionBlocks[0].assignedCoachNames).toEqual(["Rune", "John Arne"]);
+  });
+
+  it("adds a custom exercise directly to the session plan", async () => {
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Ny øvelse" }));
+    fireEvent.change(screen.getByLabelText("Navn"), {
+      target: { value: "Egen spillsekvens" },
+    });
+    fireEvent.change(screen.getByLabelText("Beskrivelse"), {
+      target: { value: "Ny øvelse lagt rett inn i øktplanen." },
+    });
+    fireEvent.click(screen.getByRole("button", { name: "Legg inn i øktplan" }));
+
+    await waitFor(() => {
+      expect(screen.getByText("Egen øvelse er lagt inn i øktplanen og lagret i biblioteket.")).toBeInTheDocument();
+    });
+
+    expect(screen.getByText("Egen spillsekvens")).toBeInTheDocument();
+    expect(
+      useSessionStore.getState().plannedBlocks?.some((block) => block.exercise.name === "Egen spillsekvens")
+    ).toBe(true);
   });
 
 });

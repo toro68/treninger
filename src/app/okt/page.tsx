@@ -86,6 +86,9 @@ function SharedSessionPageContent() {
     ].filter((group) => group.items.length > 0);
   }, [selectedTheoryItems]);
 
+  const sessionTitle = sharedSession?.sessionTitle?.trim() || "Treningsøkt";
+  const sessionComment = sharedSession?.sessionComment?.trim();
+
   if (!sharedSession) {
     return (
       <div className="min-h-screen bg-zinc-50">
@@ -116,10 +119,15 @@ function SharedSessionPageContent() {
           <div className="flex flex-col gap-4 border-b border-zinc-200 pb-6 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">Fullversjon</p>
-              <h1 className="mt-2 text-2xl font-semibold text-zinc-900 sm:text-3xl">Treningsøkt</h1>
+              <h1 className="mt-2 text-2xl font-semibold text-zinc-900 sm:text-3xl">{sessionTitle}</h1>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-600">
                 Delt øktvisning med alle beskrivelser, coachingpunkter, variasjoner og alternative øvelser.
               </p>
+              {sessionComment ? (
+                <p className="mt-3 max-w-3xl rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950">
+                  {sessionComment}
+                </p>
+              ) : null}
             </div>
             <div className="flex flex-wrap gap-2 text-sm text-zinc-600">
               <span className="rounded-full bg-zinc-100 px-3 py-1.5">{totalMinutes} min</span>
@@ -138,6 +146,8 @@ function SharedSessionPageContent() {
 
                 <div className="mt-4 space-y-4">
                   {part.blocks.map((block) => {
+                    const blockTitle = block.customTitle?.trim() || block.exercise.name;
+                    const blockComment = block.customComment?.trim();
                     const alternativeExercises = (block.alternativeExerciseIds ?? [])
                       .map((id) => sharedSession.sessionBlocks.find((candidate) => candidate.exercise.id === id)?.exercise)
                       .filter((exercise) => !!exercise);
@@ -150,8 +160,11 @@ function SharedSessionPageContent() {
                               <span className="mr-2 inline-flex min-w-[34px] items-center justify-center rounded-full bg-zinc-200 px-2 py-1 text-[11px] font-medium text-zinc-700">
                                 {getExerciseCode(block.exercise)}
                               </span>
-                              {block.exercise.name}
+                              {blockTitle}
                             </h3>
+                            {blockTitle !== block.exercise.name ? (
+                              <p className="mt-2 text-xs text-zinc-500">Basert på: {block.exercise.name}</p>
+                            ) : null}
                             {block.exercise.category === "fixed-warmup" ? (
                               <div className="mt-2 flex flex-wrap gap-2">
                                 <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-[11px] font-medium text-emerald-900">
@@ -172,6 +185,11 @@ function SharedSessionPageContent() {
                               </div>
                             ) : null}
                             <p className="mt-2 text-sm leading-6 text-zinc-700">{block.exercise.description}</p>
+                            {blockComment ? (
+                              <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950">
+                                <span className="font-semibold text-amber-950">Kommentar:</span> {blockComment}
+                              </div>
+                            ) : null}
                           </div>
                           <div className="shrink-0 rounded-2xl bg-zinc-100 px-3 py-2 text-xs text-zinc-600">
                             {recommendedDuration(block)} {getUnit(block)} · {block.exercise.playersMin}-{block.exercise.playersMax} spillere
