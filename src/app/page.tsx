@@ -53,6 +53,7 @@ export default function Home() {
     exerciseLibrary,
     playerCount,
     stationCount,
+    planningSectionMode,
     favoriteIds,
     searchQuery,
   } = useSessionStore(
@@ -63,6 +64,7 @@ export default function Home() {
       exerciseLibrary: state.exerciseLibrary,
       playerCount: state.playerCount,
       stationCount: state.stationCount,
+      planningSectionMode: state.planningSectionMode,
       favoriteIds: state.favoriteIds,
       searchQuery: state.searchQuery,
     }))
@@ -94,6 +96,7 @@ export default function Home() {
       exerciseLibrary,
       playerCount,
       stationCount,
+      planningSectionMode,
       favoriteIds,
       theme: activeTheme,
       sourceFilter,
@@ -105,6 +108,7 @@ export default function Home() {
     exerciseLibrary,
     playerCount,
     stationCount,
+    planningSectionMode,
     favoriteIds,
     activeTheme,
     sourceFilter,
@@ -115,6 +119,37 @@ export default function Home() {
   const cooldownExercises = useMemo(
     () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme !== "styrke"),
     [groupedExercises.cooldown]
+  );
+
+  const visibleExerciseSections = useMemo(
+    () => [
+      {
+        title: "Oppvarming",
+        category: "warmup" as const,
+        exercises: groupedExercises.warmup ?? [],
+      },
+      {
+        title: "Rondo",
+        category: "rondo" as const,
+        exercises: groupedExercises.rondo ?? [],
+      },
+      {
+        title: "Stasjoner",
+        category: "station" as const,
+        exercises: groupedExercises.station ?? [],
+      },
+      {
+        title: "Spill",
+        category: "game" as const,
+        exercises: groupedExercises.game ?? [],
+      },
+      {
+        title: "Avslutning",
+        category: "cooldown" as const,
+        exercises: cooldownExercises,
+      },
+    ].filter((section) => section.exercises.length > 0),
+    [groupedExercises.warmup, groupedExercises.rondo, groupedExercises.station, groupedExercises.game, cooldownExercises]
   );
 
   return (
@@ -132,7 +167,7 @@ export default function Home() {
                   <ExerciseCodeLegend />
                 </div>
                 <div className="rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm text-sky-950">
-                  Planlegg bit for bit: legg til én øvelse om gangen som neste seksjon. Legger du flere stasjonsøvelser etter hverandre, blir de samlet som én stasjonsseksjon.
+                  Biblioteket filtreres mot seksjonen du bygger akkurat nå: enten én øvelse for alle, eller 2–4 parallelle stasjoner med delt spillerantall.
                 </div>
                 <Filters
                   activeTheme={themeFilter}
@@ -144,31 +179,20 @@ export default function Home() {
                 />
               </div>
               <div className="mt-4 space-y-6 lg:mt-6 lg:space-y-8">
-                <ExerciseList
-                  title="Oppvarming"
-                  category="warmup"
-                  exercises={groupedExercises.warmup ?? []}
-                />
-                <ExerciseList
-                  title="Rondo"
-                  category="rondo"
-                  exercises={groupedExercises.rondo ?? []}
-                />
-                <ExerciseList
-                  title="Stasjoner"
-                  category="station"
-                  exercises={groupedExercises.station ?? []}
-                />
-                <ExerciseList
-                  title="Spill"
-                  category="game"
-                  exercises={groupedExercises.game ?? []}
-                />
-                <ExerciseList
-                  title="Avslutning"
-                  category="cooldown"
-                  exercises={cooldownExercises}
-                />
+                {visibleExerciseSections.length > 0 ? (
+                  visibleExerciseSections.map((section) => (
+                    <ExerciseList
+                      key={section.category}
+                      title={section.title}
+                      category={section.category}
+                      exercises={section.exercises}
+                    />
+                  ))
+                ) : (
+                  <div className="rounded-2xl border border-dashed border-zinc-200 bg-zinc-50 px-4 py-8 text-center text-sm text-zinc-500">
+                    Ingen øvelser matcher filtrene for denne seksjonen.
+                  </div>
+                )}
               </div>
             </section>
           </div>

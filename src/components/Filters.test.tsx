@@ -7,6 +7,10 @@ import { useSessionStore } from "@/store/sessionStore";
 // Mock the store
 vi.mock("@/store/sessionStore", () => ({
   useSessionStore: vi.fn(),
+  getSectionPlayerCounts: (playerCount: number, planningSectionMode: "single" | "stations", stationCount: number) =>
+    planningSectionMode === "stations"
+      ? Array.from({ length: stationCount }, () => Math.floor(playerCount / stationCount))
+      : [playerCount],
 }));
 
 const renderFilters = (overrides: Partial<ComponentProps<typeof Filters>> = {}) => {
@@ -36,6 +40,7 @@ describe("Filters", () => {
           setSearchQuery: mockSetSearchQuery,
           playerCount: 16,
           stationCount: 4,
+          planningSectionMode: "single",
           exerciseLibrary: [
             { id: "1", theme: "rondo", source: "tiim", playersMin: 4, playersMax: 20 },
             { id: "2", theme: "pasning", source: "egen", playersMin: 4, playersMax: 20 },

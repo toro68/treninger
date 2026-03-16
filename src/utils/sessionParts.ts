@@ -1,4 +1,4 @@
-import type { SessionBlock } from "@/store/sessionStore";
+import { getSectionPlayerCounts, type SessionBlock } from "@/store/sessionStore";
 
 export type SessionPartBlock = {
   block: SessionBlock;
@@ -15,13 +15,17 @@ export type SessionPart = {
 };
 
 const getPartBaseKey = (block: SessionBlock) => {
+  if (block.planningMode === "station") {
+    return "stasjoner";
+  }
+
   const category = block.exercise.category;
 
   if (category === "fixed-warmup") {
     return "skadefri";
   }
 
-  if (category === "station") {
+  if (block.planningMode !== "single" && category === "station") {
     return "stasjoner";
   }
 
@@ -37,11 +41,12 @@ export const buildSessionParts = (
   sessionBlocks.forEach((block, globalIndex) => {
     const baseKey = getPartBaseKey(block);
     const previousBlock = globalIndex > 0 ? sessionBlocks[globalIndex - 1] : null;
+    const previousBaseKey = previousBlock ? getPartBaseKey(previousBlock) : null;
     const previousPart = parts[parts.length - 1];
     const startsNewStationRound =
       baseKey === "stasjoner" &&
       block.stationRoundStart === true &&
-      previousBlock?.exercise.category === "station";
+      previousBaseKey === "stasjoner";
 
     const shouldStartNewPart =
       !previousPart || previousPart.baseKey !== baseKey || startsNewStationRound || baseKey === "ovelse";
@@ -73,10 +78,14 @@ export const buildSessionParts = (
 
     if (part.baseKey === "stasjoner") {
       part.title = `${part.orderNumber}. Stasjoner`;
-      const stationCount = part.blocks.length;
+      const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
       if (stationCount > 0) {
-        const playersPerStation = Math.floor(playerCount / stationCount);
-        part.subtitle = `${stationCount} stasjon${stationCount > 1 ? "er" : ""} · ${playersPerStation} spillere per stasjon`;
+        const playerCounts = getSectionPlayerCounts(playerCount, "stations", stationCount);
+        const splitLabel =
+          new Set(playerCounts).size === 1
+            ? `${playerCounts[0]} spillere per stasjon`
+            : `${playerCounts.join(" + ")} spillere`;
+        part.subtitle = `${stationCount} stasjon${stationCount > 1 ? "er" : ""} · ${splitLabel}`;
       }
       return;
     }
@@ -91,7 +100,7 @@ export const buildSessionParts = (
 export const getStationPlanSummary = (parts: SessionPart[]) => {
   const stationCounts = parts
     .filter((part) => part.baseKey === "stasjoner")
-    .map((part) => part.blocks.length)
+    .map((part) => part.blocks[0]?.block.sectionStationCount ?? part.blocks.length)
     .filter((count) => count > 0);
 
   if (stationCounts.length === 0) return null;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Exercise, getExerciseCode } from "@/data/exercises";
-import { useSessionStore } from "@/store/sessionStore";
+import { deriveSessionBlocks, getActivePlanningSection, useSessionStore } from "@/store/sessionStore";
 import { useRef, useState, useMemo, memo } from "react";
 import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25GeneralTemplateDiagram";
 import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
@@ -48,11 +48,29 @@ const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText
 };
 
 export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
-  const { toggleExercise, toggleFavorite, appendExerciseToPlan, selected, isFavorite } = useSessionStore(
+  const {
+    toggleExercise,
+    toggleFavorite,
+    appendExerciseToPlan,
+    planningSectionMode,
+    stationCount,
+    playerCount,
+    selectedExerciseIds,
+    plannedBlocks,
+    exerciseLibrary,
+    selected,
+    isFavorite,
+  } = useSessionStore(
     useShallow((state) => ({
       toggleExercise: state.toggleExercise,
       toggleFavorite: state.toggleFavorite,
       appendExerciseToPlan: state.appendExerciseToPlan,
+      planningSectionMode: state.planningSectionMode,
+      stationCount: state.stationCount,
+      playerCount: state.playerCount,
+      selectedExerciseIds: state.selectedExerciseIds,
+      plannedBlocks: state.plannedBlocks,
+      exerciseLibrary: state.exerciseLibrary,
       selected: state.selectedExerciseIds.has(exercise.id),
       isFavorite: state.favoriteIds.has(exercise.id),
     }))
@@ -77,10 +95,25 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     !compactAlwaysIncluded &&
     (hasDiagram || exercise.coachingPoints.length > 0 || exercise.variations.length > 0 || !!exercise.sourceRef);
 
+  const activeSection = useMemo(
+    () =>
+      getActivePlanningSection({
+        sessionBlocks: deriveSessionBlocks({
+          selectedExerciseIds,
+          exerciseLibrary,
+          plannedBlocks,
+        }),
+        playerCount,
+        planningSectionMode,
+        stationCount,
+      }),
+    [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, planningSectionMode, stationCount]
+  );
+
   const addButtonLabel =
-    exercise.category === "station"
-      ? "Legg til som neste stasjon"
-      : "Legg til som neste øvelse";
+    planningSectionMode === "stations"
+      ? `Legg til som stasjon ${activeSection.selectedCount + 1} av ${activeSection.requiredCount}`
+      : `Legg til som øvelse for ${playerCount}`;
 
   const sanitizedSvg = useMemo(() => {
     if (!showDetails) return null;

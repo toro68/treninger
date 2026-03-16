@@ -20,6 +20,7 @@ describe("SessionTimeline sharing", () => {
       sessionComment: "",
       playerCount: 12,
       stationCount: 3,
+      planningSectionMode: "single",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(),
@@ -229,6 +230,51 @@ describe("SessionTimeline sharing", () => {
     expect(
       useSessionStore.getState().plannedBlocks?.some((block) => block.exercise.name === "Egen spillsekvens")
     ).toBe(true);
+  });
+
+  it("lets the user switch the next section to station mode", async () => {
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "4 stasjoner" }));
+
+    expect(useSessionStore.getState().planningSectionMode).toBe("stations");
+    expect(useSessionStore.getState().stationCount).toBe(4);
+  });
+
+  it("shows when a station section is still incomplete", async () => {
+    const state = useSessionStore.getState();
+    const fixedWarmup = state.exerciseLibrary.find(
+      (item) => item.category === "fixed-warmup" && item.alwaysIncluded
+    );
+    const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+    expect(fixedWarmup).toBeDefined();
+    expect(exercise).toBeDefined();
+
+    useSessionStore.setState({
+      planningSectionMode: "stations",
+      stationCount: 4,
+      selectedExerciseIds: new Set([exercise!.id]),
+      plannedBlocks: [
+        {
+          id: fixedWarmup!.id,
+          exercise: fixedWarmup!,
+        },
+        {
+          id: exercise!.id,
+          exercise: exercise!,
+          planningMode: "station",
+          sectionStationCount: 4,
+        },
+      ],
+    });
+
+    render(<SessionTimeline />);
+
+    expect(await screen.findByText("Seksjonen er ikke ferdig ennå.")).toBeInTheDocument();
+    expect(screen.getByText(/Neste valg blir stasjon 2/)).toBeInTheDocument();
+    expect(screen.getByText("Stasjon 2")).toBeInTheDocument();
+    expect(screen.getByText("Stasjon 4")).toBeInTheDocument();
   });
 
 });

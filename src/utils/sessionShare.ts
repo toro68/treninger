@@ -3,6 +3,8 @@ import type { DurationUnit, SessionBlock } from "@/store/sessionStore";
 
 type SharedBlock = {
   id: string;
+  planningMode?: "single" | "station";
+  sectionStationCount?: number;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -89,6 +91,8 @@ const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | 
   if (!blocks || blocks.length === 0) return null;
   return blocks.map(({
     id,
+    planningMode,
+    sectionStationCount,
     stationRoundStart,
     customDuration,
     customUnit,
@@ -98,6 +102,9 @@ const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | 
     assignedCoachNames,
   }) => ({
     id,
+    planningMode,
+    sectionStationCount:
+      typeof sectionStationCount === "number" ? Math.max(2, Math.min(4, sectionStationCount)) : undefined,
     stationRoundStart: stationRoundStart === true ? true : undefined,
     customDuration,
     customUnit,
@@ -130,6 +137,14 @@ const hydratePlannedBlocks = (blocks: SharedBlock[] | null): SessionBlock[] | nu
     hydrated.push({
       id: exercise.id,
       exercise,
+      planningMode:
+        entry.planningMode === "single" || entry.planningMode === "station"
+          ? entry.planningMode
+          : undefined,
+      sectionStationCount:
+        typeof entry.sectionStationCount === "number"
+          ? Math.max(2, Math.min(4, entry.sectionStationCount))
+          : undefined,
       stationRoundStart: entry.stationRoundStart === true ? true : undefined,
       customDuration:
         typeof entry.customDuration === "number" ? entry.customDuration : undefined,
@@ -192,6 +207,8 @@ const mergeWithPlannedOrder = (
       const current = baseMap.get(block.id)!;
       return {
         ...current,
+        planningMode: block.planningMode,
+        sectionStationCount: block.sectionStationCount,
         stationRoundStart: block.stationRoundStart,
         customDuration: block.customDuration,
         customUnit: block.customUnit,

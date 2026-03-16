@@ -1,4 +1,4 @@
-import { matchesExercisePlayerCountFilter, useSessionStore } from "@/store/sessionStore";
+import { getSectionPlayerCounts, matchesExercisePlayerCountFilter, useSessionStore } from "@/store/sessionStore";
 import { ExerciseSource } from "@/data/exercises";
 import { useMemo } from "react";
 import { SearchField } from "@/components/SearchField";
@@ -123,10 +123,16 @@ export const Filters = ({
 }) => {
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
+  const planningSectionMode = useSessionStore((state) => state.planningSectionMode);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
-  
-  // Beregn spillere per stasjon
-  const playersPerStation = stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+  const sectionPlayerCounts = useMemo(
+    () => getSectionPlayerCounts(playerCount, planningSectionMode, stationCount),
+    [playerCount, planningSectionMode, stationCount]
+  );
+  const sectionFilterLabel =
+    sectionPlayerCounts.length === 1
+      ? `${sectionPlayerCounts[0]} spillere i seksjonen`
+      : `${sectionPlayerCounts.join(" + ")} spillere i seksjonen`;
 
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
@@ -149,7 +155,7 @@ export const Filters = ({
     exerciseLibrary.forEach((exercise) => {
       if (
         filterByPlayerCount &&
-        !matchesExercisePlayerCountFilter(exercise, playerCount, playersPerStation)
+        !matchesExercisePlayerCountFilter(exercise, playerCount, undefined, sectionPlayerCounts)
       ) {
         return;
       }
@@ -175,7 +181,7 @@ export const Filters = ({
         return themeA.localeCompare(themeB, "nb");
       })
       .map(([theme, count]) => ({ theme, count }));
-  }, [exerciseLibrary, playerCount, playersPerStation, sourceFilter, filterByPlayerCount]);
+  }, [exerciseLibrary, playerCount, sectionPlayerCounts, sourceFilter, filterByPlayerCount]);
 
   const totalThemeCount = useMemo(
     () => availableThemes.reduce((sum, entry) => sum + entry.count, 0),
@@ -242,11 +248,13 @@ export const Filters = ({
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
             <path d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3.156 11.763c.16-.629.44-1.21.813-1.72a2.5 2.5 0 0 1 2.015-1.043h4.032a2.5 2.5 0 0 1 2.015 1.043c.373.51.653 1.091.813 1.72A6.968 6.968 0 0 1 8 15a6.968 6.968 0 0 1-4.844-1.237Z" />
           </svg>
-          Kun for {playersPerStation} spillere per stasjon
+          Kun for {sectionFilterLabel}
         </button>
         {filterByPlayerCount && (
           <span className="text-xs text-zinc-500">
-            ({playerCount} spillere ÷ {stationCount} stasjoner = {playersPerStation} per stasjon)
+            {planningSectionMode === "stations"
+              ? `(${playerCount} spillere fordeles som ${sectionPlayerCounts.join(" + ")})`
+              : `(${playerCount} spillere i én felles øvelse)`}
           </span>
         )}
       </div>

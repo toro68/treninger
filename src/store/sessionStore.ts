@@ -3,6 +3,7 @@ import { persist, type PersistStorage, type StorageValue } from "zustand/middlew
 import { allExercises, Exercise, ExerciseSource, getExerciseCode } from "@/data/exercises";
 
 export type DurationUnit = "min" | "reps";
+export type PlanningSectionMode = "single" | "stations";
 
 export const DEFAULT_COACH_NAMES = [
   "Tor Inge",
@@ -15,6 +16,8 @@ export const DEFAULT_COACH_NAMES = [
 export type SessionBlock = {
   id: string;
   exercise: Exercise;
+  planningMode?: "single" | "station";
+  sectionStationCount?: number;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -26,6 +29,8 @@ export type SessionBlock = {
 
 type SerializedBlock = {
   id: string;
+  planningMode?: "single" | "station";
+  sectionStationCount?: number;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -59,6 +64,7 @@ type SessionState = {
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  planningSectionMode: PlanningSectionMode;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
@@ -67,6 +73,7 @@ type SessionState = {
   highlightExerciseId: string | null;
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
+  setPlanningSectionMode: (mode: PlanningSectionMode) => void;
   setSessionTitle: (title: string) => void;
   setSessionComment: (comment: string) => void;
   addCoachName: (name: string) => void;
@@ -177,6 +184,8 @@ const mergePlannedBlockMetadata = (
       const current = baseMap.get(block.id)!;
       return {
         ...current,
+        planningMode: block.planningMode,
+        sectionStationCount: block.sectionStationCount,
         stationRoundStart: block.stationRoundStart,
         customDuration: block.customDuration,
         customUnit: block.customUnit,
@@ -247,6 +256,150 @@ const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
 const mergeCoachNames = (...groups: Array<Iterable<string> | undefined>) =>
   normalizeCoachNames(groups.flatMap((group) => (group ? [...group] : [])));
 
+export const getSectionPlayerCounts = (
+  playerCount: number,
+  planningSectionMode: PlanningSectionMode,
+  stationCount: number
+) => {
+  if (planningSectionMode === "single") {
+    return [playerCount];
+  }
+
+  const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
+  const baseCount = Math.floor(playerCount / normalizedStationCount);
+  const remainder = playerCount % normalizedStationCount;
+
+  return [
+    ...Array.from({ length: normalizedStationCount - remainder }, () => baseCount),
+    ...Array.from({ length: remainder }, () => baseCount + 1),
+  ];
+};
+
+const getTrailingStationSectionCount = (blocks: SessionBlock[]) => {
+  let count = 0;
+
+  for (let index = blocks.length - 1; index >= 0; index -= 1) {
+    const block = blocks[index];
+    if (block.planningMode !== "station" && !(block.planningMode === undefined && block.exercise.category === "station")) {
+      break;
+    }
+
+    count += 1;
+    if (block.stationRoundStart) {
+      break;
+    }
+  }
+
+  return count;
+};
+
+export const getActivePlanningSection = ({
+  sessionBlocks,
+  playerCount,
+  planningSectionMode,
+  stationCount,
+}: {
+  sessionBlocks: SessionBlock[];
+  playerCount: number;
+  planningSectionMode: PlanningSectionMode;
+  stationCount: number;
+}) => {
+  const completedSections = buildTimelineSections(sessionBlocks).length;
+
+  if (planningSectionMode === "single") {
+    return {
+      sectionNumber: completedSections + 1,
+      playerCounts: [playerCount],
+      selectedCount: 0,
+      requiredCount: 1,
+      isComplete: false,
+    };
+  }
+
+  const requiredCount = Math.max(2, Math.min(4, stationCount));
+  const trailingCount = getTrailingStationSectionCount(sessionBlocks);
+  const selectedCount = trailingCount > 0 && trailingCount < requiredCount ? trailingCount : 0;
+
+  return {
+    sectionNumber: completedSections + (selectedCount > 0 ? 0 : 1),
+    playerCounts: getSectionPlayerCounts(playerCount, "stations", requiredCount),
+    selectedCount,
+    requiredCount,
+    isComplete: selectedCount === 0,
+  };
+};
+
+const appendBlockForPlanningSection = ({
+  blocks,
+  exercise,
+  planningSectionMode,
+  stationCount,
+}: {
+  blocks: SessionBlock[];
+  exercise: Exercise;
+  planningSectionMode: PlanningSectionMode;
+  stationCount: number;
+}): SessionBlock[] => {
+  if (planningSectionMode === "single") {
+    return [
+      ...blocks,
+      {
+        id: exercise.id,
+        exercise,
+        planningMode: "single",
+        sectionStationCount: undefined,
+      },
+    ];
+  }
+
+  const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
+  const trailingCount = getTrailingStationSectionCount(blocks);
+  const shouldStartNewStationRound =
+    trailingCount === 0 || trailingCount >= normalizedStationCount;
+  const previousBlock = blocks.at(-1);
+
+  return [
+    ...blocks,
+    {
+      id: exercise.id,
+      exercise,
+      planningMode: "station",
+      sectionStationCount: normalizedStationCount,
+      stationRoundStart:
+        shouldStartNewStationRound && previousBlock ? true : undefined,
+    },
+  ];
+};
+
+const buildTimelineSections = (sessionBlocks: SessionBlock[]) => {
+  const sections: SessionBlock[][] = [];
+
+  sessionBlocks.forEach((block) => {
+    const isStationBlock =
+      block.planningMode === "station" ||
+      (block.planningMode === undefined && block.exercise.category === "station");
+    const previousSection = sections.at(-1);
+    const previousBlock = previousSection?.at(-1);
+    const previousWasStation =
+      previousBlock?.planningMode === "station" ||
+      (previousBlock?.planningMode === undefined && previousBlock?.exercise.category === "station");
+
+    if (
+      !previousSection ||
+      !isStationBlock ||
+      !previousWasStation ||
+      block.stationRoundStart
+    ) {
+      sections.push([block]);
+      return;
+    }
+
+    previousSection.push(block);
+  });
+
+  return sections;
+};
+
 const safeJsonParse = (value: string): unknown => {
   try {
     return JSON.parse(value);
@@ -263,6 +416,7 @@ type PersistedSessionState = {
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  planningSectionMode: PlanningSectionMode;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
@@ -281,6 +435,8 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
   return blocks.map(({
     id,
+    planningMode,
+    sectionStationCount,
     stationRoundStart,
     customDuration,
     customUnit,
@@ -290,6 +446,9 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
     assignedCoachNames,
   }) => ({
     id,
+    planningMode,
+    sectionStationCount:
+      typeof sectionStationCount === "number" ? Math.max(2, Math.min(4, sectionStationCount)) : undefined,
     stationRoundStart: stationRoundStart === true ? true : undefined,
     customDuration,
     customUnit,
@@ -442,54 +601,70 @@ const hydratePlannedBlocks = (
     value.forEach((entry) => {
       if (!entry) return;
       if (typeof entry === "object" && "id" in entry && typeof entry.id === "string") {
+        const serializedBlock = entry as SerializedBlock;
         const exercise = exerciseLibrary.find((ex) => ex.id === entry.id);
         if (!exercise) return;
         hydrated.push({
           id: exercise.id,
           exercise,
-          stationRoundStart: (entry as SerializedBlock).stationRoundStart === true ? true : undefined,
-          customDuration:
-            typeof (entry as SerializedBlock).customDuration === "number"
-              ? (entry as SerializedBlock).customDuration
+          planningMode:
+            serializedBlock.planningMode === "single" ||
+            serializedBlock.planningMode === "station"
+              ? serializedBlock.planningMode
               : undefined,
-          customUnit: ensureUnit((entry as SerializedBlock).customUnit),
-          customTitle: normalizeOptionalText((entry as SerializedBlock).customTitle),
-          customComment: normalizeOptionalText((entry as SerializedBlock).customComment),
+          sectionStationCount:
+            typeof serializedBlock.sectionStationCount === "number"
+              ? Math.max(2, Math.min(4, serializedBlock.sectionStationCount))
+              : undefined,
+          stationRoundStart: serializedBlock.stationRoundStart === true ? true : undefined,
+          customDuration:
+            typeof serializedBlock.customDuration === "number"
+              ? serializedBlock.customDuration
+              : undefined,
+          customUnit: ensureUnit(serializedBlock.customUnit),
+          customTitle: normalizeOptionalText(serializedBlock.customTitle),
+          customComment: normalizeOptionalText(serializedBlock.customComment),
           alternativeExerciseIds: ensureAlternativeExerciseIds(
-            (entry as SerializedBlock).alternativeExerciseIds,
+            serializedBlock.alternativeExerciseIds,
             exercise.id
           ),
-          assignedCoachNames: ensureAssignedCoachNames(
-            (entry as SerializedBlock).assignedCoachNames
-          ),
+          assignedCoachNames: ensureAssignedCoachNames(serializedBlock.assignedCoachNames),
         });
       } else if (
         typeof entry === "object" &&
         "exercise" in entry &&
         (entry as SessionBlock).exercise
       ) {
+        const sessionBlock = entry as SessionBlock;
         const exercise = exerciseLibrary.find(
-          (ex) => ex.id === (entry as SessionBlock).exercise.id
+          (ex) => ex.id === sessionBlock.exercise.id
         );
         if (!exercise) return;
         hydrated.push({
           id: exercise.id,
           exercise,
-          stationRoundStart: (entry as SessionBlock).stationRoundStart === true ? true : undefined,
-          customDuration:
-            typeof (entry as SessionBlock).customDuration === "number"
-              ? (entry as SessionBlock).customDuration
+          planningMode:
+            sessionBlock.planningMode === "single" ||
+            sessionBlock.planningMode === "station"
+              ? sessionBlock.planningMode
               : undefined,
-          customUnit: ensureUnit((entry as SessionBlock).customUnit),
-          customTitle: normalizeOptionalText((entry as SessionBlock).customTitle),
-          customComment: normalizeOptionalText((entry as SessionBlock).customComment),
+          sectionStationCount:
+            typeof sessionBlock.sectionStationCount === "number"
+              ? Math.max(2, Math.min(4, sessionBlock.sectionStationCount))
+              : undefined,
+          stationRoundStart: sessionBlock.stationRoundStart === true ? true : undefined,
+          customDuration:
+            typeof sessionBlock.customDuration === "number"
+              ? sessionBlock.customDuration
+              : undefined,
+          customUnit: ensureUnit(sessionBlock.customUnit),
+          customTitle: normalizeOptionalText(sessionBlock.customTitle),
+          customComment: normalizeOptionalText(sessionBlock.customComment),
           alternativeExerciseIds: ensureAlternativeExerciseIds(
-            (entry as SessionBlock).alternativeExerciseIds,
+            sessionBlock.alternativeExerciseIds,
             exercise.id
           ),
-          assignedCoachNames: ensureAssignedCoachNames(
-            (entry as SessionBlock).assignedCoachNames
-          ),
+          assignedCoachNames: ensureAssignedCoachNames(sessionBlock.assignedCoachNames),
         });
       }
     });
@@ -517,7 +692,8 @@ export const useSessionStore = create<SessionState>()(
       sessionTitle: "",
       sessionComment: "",
       playerCount: 12,
-      stationCount: 3,
+      stationCount: 2,
+      planningSectionMode: "single",
       coachNames: defaultCoachNames(),
       searchQuery: "",
       highlightExerciseId: null,
@@ -525,7 +701,8 @@ export const useSessionStore = create<SessionState>()(
       selectedTheoryIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
-      setStationCount: (count) => set({ stationCount: count }),
+      setStationCount: (count) => set({ stationCount: Math.max(2, Math.min(4, count)) }),
+      setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
       setSessionTitle: (title) => set({ sessionTitle: title }),
       setSessionComment: (comment) => set({ sessionComment: comment }),
       addCoachName: (name) =>
@@ -621,7 +798,12 @@ export const useSessionStore = create<SessionState>()(
             customExercises: updatedCustom,
             exerciseLibrary: updatedLibrary,
             selectedExerciseIds: nextSelectedExerciseIds,
-            plannedBlocks: [...baseBlocks, { id: exerciseWithNumber.id, exercise: exerciseWithNumber }],
+            plannedBlocks: appendBlockForPlanningSection({
+              blocks: baseBlocks,
+              exercise: exerciseWithNumber,
+              planningSectionMode: state.planningSectionMode,
+              stationCount: state.stationCount,
+            }),
           };
         }),
       appendExerciseToPlan: (exercise) =>
@@ -644,7 +826,12 @@ export const useSessionStore = create<SessionState>()(
 
           return {
             selectedExerciseIds: nextSelectedExerciseIds,
-            plannedBlocks: [...baseBlocks, { id: existingExercise.id, exercise: existingExercise }],
+            plannedBlocks: appendBlockForPlanningSection({
+              blocks: baseBlocks,
+              exercise: existingExercise,
+              planningSectionMode: state.planningSectionMode,
+              stationCount: state.stationCount,
+            }),
           };
         }),
       updateExercise: (id, updated) =>
@@ -752,6 +939,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: saved.sessionComment ?? "",
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
+          planningSectionMode: "single",
           coachNames,
           selectedExerciseIds,
           selectedTheoryIds: new Set(saved.selectedTheoryIds),
@@ -773,6 +961,7 @@ export const useSessionStore = create<SessionState>()(
         sessionComment: state.sessionComment,
         playerCount: state.playerCount,
         stationCount: state.stationCount,
+        planningSectionMode: state.planningSectionMode,
         coachNames: state.coachNames,
         selectedExerciseIds: state.selectedExerciseIds,
         selectedTheoryIds: state.selectedTheoryIds,
@@ -819,7 +1008,9 @@ export const useSessionStore = create<SessionState>()(
           const playerCount =
             typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
           const stationCount =
-            typeof parsedState.stationCount === "number" ? parsedState.stationCount : 3;
+            typeof parsedState.stationCount === "number" ? parsedState.stationCount : 2;
+          const planningSectionMode =
+            parsedState.planningSectionMode === "stations" ? "stations" : "single";
           const sessionTitle =
             typeof parsedState.sessionTitle === "string" ? parsedState.sessionTitle : "";
           const sessionComment =
@@ -852,6 +1043,7 @@ export const useSessionStore = create<SessionState>()(
               sessionComment,
               playerCount,
               stationCount,
+              planningSectionMode,
               coachNames,
               customExercises: persistedCustom,
               exerciseOverrides: persistedOverrides,
@@ -872,6 +1064,7 @@ export const useSessionStore = create<SessionState>()(
               sessionComment: value.state.sessionComment ?? "",
               playerCount: value.state.playerCount,
               stationCount: value.state.stationCount,
+              planningSectionMode: value.state.planningSectionMode ?? "single",
               coachNames: value.state.coachNames ?? defaultCoachNames(),
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
               savedSessions: value.state.savedSessions ?? [],
@@ -984,15 +1177,42 @@ export const getExerciseFitScore = (
   }
 };
 
+const getWorstExerciseFitScore = (
+  exercise: Exercise,
+  playerCount: number,
+  playerCounts?: number[]
+) => {
+  if (!playerCounts || playerCounts.length === 0) {
+    return getExerciseFitScore(exercise, playerCount);
+  }
+
+  return Math.max(
+    ...playerCounts.map((count) => getExerciseFitScore(exercise, count))
+  );
+};
+
 export const matchesExercisePlayerCountFilter = (
   exercise: Exercise,
   playerCount: number,
-  playersPerStation?: number
+  playersPerStation?: number,
+  targetPlayerCounts?: number[]
 ): boolean => {
+  if (Array.isArray(targetPlayerCounts) && targetPlayerCounts.length > 0) {
+    return targetPlayerCounts.every((targetPlayerCount) =>
+      exercise.scalable
+        ? getExerciseFitScore(exercise, targetPlayerCount) === 0
+        : targetPlayerCount >= exercise.playersMin && targetPlayerCount <= exercise.playersMax
+    );
+  }
+
   const relevantPlayerCount =
     exercise.category === "station" || exercise.category === "rondo"
       ? playersPerStation ?? playerCount
       : playerCount;
+
+  if (exercise.scalable) {
+    return getExerciseFitScore(exercise, relevantPlayerCount) === 0;
+  }
 
   return (
     relevantPlayerCount >= exercise.playersMin &&
@@ -1005,6 +1225,7 @@ export const filterAndGroupExercises = ({
   exerciseLibrary,
   playerCount,
   stationCount,
+  planningSectionMode,
   favoriteIds,
   theme,
   sourceFilter,
@@ -1015,6 +1236,7 @@ export const filterAndGroupExercises = ({
   exerciseLibrary: Exercise[];
   playerCount: number;
   stationCount?: number;
+  planningSectionMode?: PlanningSectionMode;
   favoriteIds?: Set<string>;
   theme?: string;
   sourceFilter?: ExerciseSource | "egen" | null;
@@ -1024,6 +1246,9 @@ export const filterAndGroupExercises = ({
 }): Record<string, Exercise[]> => {
   const playersPerStation =
     stationCount && stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+  const sectionPlayerCounts = planningSectionMode
+    ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2)
+    : undefined;
   const normalizedSearch = searchQuery?.trim().toLowerCase();
 
   const grouped: Record<string, Exercise[]> = {};
@@ -1059,7 +1284,12 @@ export const filterAndGroupExercises = ({
 
   const matchesPlayerCount = (exercise: Exercise) => {
     if (!filterByPlayerCount) return true;
-    return matchesExercisePlayerCountFilter(exercise, playerCount, playersPerStation);
+    return matchesExercisePlayerCountFilter(
+      exercise,
+      playerCount,
+      playersPerStation,
+      sectionPlayerCounts
+    );
   };
 
   for (const exercise of exerciseLibrary) {
@@ -1084,12 +1314,8 @@ export const filterAndGroupExercises = ({
       if (aFav !== bFav) return aFav - bFav;
 
       // 2. Sorter etter hvor godt øvelsen passer
-      const aRelevantPlayers =
-        category === "station" || category === "rondo" ? playersPerStation : undefined;
-      const bRelevantPlayers =
-        category === "station" || category === "rondo" ? playersPerStation : undefined;
-      const aScore = getExerciseFitScore(a, playerCount, aRelevantPlayers);
-      const bScore = getExerciseFitScore(b, playerCount, bRelevantPlayers);
+      const aScore = getWorstExerciseFitScore(a, playerCount, sectionPlayerCounts);
+      const bScore = getWorstExerciseFitScore(b, playerCount, sectionPlayerCounts);
       if (aScore !== bScore) return aScore - bScore;
 
       // 3. Alfabetisk

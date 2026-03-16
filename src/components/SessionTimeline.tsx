@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore } from "@/store/sessionStore";
+import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
@@ -22,12 +22,15 @@ export const SessionTimeline = () => {
   );
   const playerCount = useSessionStore((state) => state.playerCount);
   const stationCount = useSessionStore((state) => state.stationCount);
+  const planningSectionMode = useSessionStore((state) => state.planningSectionMode);
   const coachNames = useSessionStore((state) => state.coachNames);
   const sessionTitle = useSessionStore((state) => state.sessionTitle);
   const sessionComment = useSessionStore((state) => state.sessionComment);
   const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
   const setSessionTitle = useSessionStore((state) => state.setSessionTitle);
   const setSessionComment = useSessionStore((state) => state.setSessionComment);
+  const setStationCount = useSessionStore((state) => state.setStationCount);
+  const setPlanningSectionMode = useSessionStore((state) => state.setPlanningSectionMode);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
   const toggleTheory = useSessionStore((state) => state.toggleTheory);
@@ -58,12 +61,42 @@ export const SessionTimeline = () => {
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
   const parts = useMemo(() => buildSessionParts(sessionBlocks, playerCount), [sessionBlocks, playerCount]);
+  const partByGlobalIndex = useMemo(() => {
+    const map = new Map<number, typeof parts[number]>();
+    parts.forEach((part) => {
+      part.blocks.forEach(({ globalIndex }) => {
+        map.set(globalIndex, part);
+      });
+    });
+    return map;
+  }, [parts]);
 
   const totalMinutes = sessionBlocks.reduce(
     (acc, block) => acc + recommendedDuration(block),
     0
   );
-  const nextSectionNumber = parts.length + 1;
+  const activeSection = useMemo(
+    () =>
+      getActivePlanningSection({
+        sessionBlocks,
+        playerCount,
+        planningSectionMode,
+        stationCount,
+      }),
+    [sessionBlocks, playerCount, planningSectionMode, stationCount]
+  );
+  const nextSectionNumber = activeSection.sectionNumber;
+  const activeSectionSplitLabel =
+    activeSection.playerCounts.length === 1
+      ? `${activeSection.playerCounts[0]} spillere sammen`
+      : activeSection.playerCounts.join(" + ");
+  const isIncompleteStationSection =
+    planningSectionMode === "stations" &&
+    activeSection.selectedCount > 0 &&
+    activeSection.selectedCount < activeSection.requiredCount;
+  const missingStations = isIncompleteStationSection
+    ? activeSection.requiredCount - activeSection.selectedCount
+    : 0;
 
   const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
     (block.alternativeExerciseIds ?? [])
@@ -82,11 +115,17 @@ export const SessionTimeline = () => {
 
   const getAvailableAlternatives = (block: SessionBlock): Exercise[] => {
     const existing = new Set(block.alternativeExerciseIds ?? []);
-    const playersPerStation =
-      stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+    const blockIndex = sessionBlocks.findIndex((entry) => entry.id === block.id);
+    const currentPart = partByGlobalIndex.get(blockIndex);
     const relevantPlayersPerStation =
-      block.exercise.category === "station" || block.exercise.category === "rondo"
-        ? playersPerStation
+      currentPart?.baseKey === "stasjoner"
+        ? Math.max(
+            ...getSectionPlayerCounts(
+              playerCount,
+              "stations",
+              currentPart.blocks[0]?.block.sectionStationCount ?? currentPart.blocks.length
+            )
+          )
         : undefined;
 
     return exerciseLibrary
@@ -150,10 +189,16 @@ export const SessionTimeline = () => {
 
   const toggleStationRoundStart = (index: number) => {
     const block = sessionBlocks[index];
-    if (!block || block.exercise.category !== "station") return;
+    const isStationBlock =
+      block?.planningMode === "station" ||
+      (block?.planningMode === undefined && block?.exercise.category === "station");
+    if (!block || !isStationBlock) return;
 
     const previousBlock = sessionBlocks[index - 1];
-    if (!previousBlock || previousBlock.exercise.category !== "station") return;
+    const previousIsStationBlock =
+      previousBlock?.planningMode === "station" ||
+      (previousBlock?.planningMode === undefined && previousBlock?.exercise.category === "station");
+    if (!previousBlock || !previousIsStationBlock) return;
 
     updateBlockAtIndex(index, (currentBlock) => ({
       ...currentBlock,
@@ -529,15 +574,62 @@ export const SessionTimeline = () => {
       </div>
 
       <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
-        <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <h3 className="text-sm font-semibold text-zinc-900">Planlegg seksjon for seksjon</h3>
+            <h3 className="text-sm font-semibold text-zinc-900">Seksjon {nextSectionNumber}</h3>
             <p className="text-xs text-zinc-600">
-              Neste del av økta blir <span className="font-semibold text-zinc-900">{nextSectionNumber}. Øvelse</span> eller <span className="font-semibold text-zinc-900">{nextSectionNumber}. Stasjoner</span>. Bruk knappene på øvelseskortene til venstre for å bygge planen i rekkefølge.
+              Velg om denne delen av økta skal være én felles øvelse eller {" "}
+              {"2–4"} parallelle stasjoner. Biblioteket til venstre filtreres mot {activeSectionSplitLabel}.
             </p>
           </div>
-          <span className="text-xs font-medium text-sky-800">Bit for bit</span>
+          <span className="text-xs font-medium text-sky-800">
+            {planningSectionMode === "stations"
+              ? `${activeSection.selectedCount}/${activeSection.requiredCount} stasjoner valgt`
+              : "1 øvelse for alle"}
+          </span>
         </div>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {([
+            { mode: "single", label: "1 øvelse" },
+            { mode: "stations", label: "2 stasjoner", count: 2 },
+            { mode: "stations", label: "3 stasjoner", count: 3 },
+            { mode: "stations", label: "4 stasjoner", count: 4 },
+          ] as Array<{ mode: PlanningSectionMode; label: string; count?: number }>).map((option) => {
+            const isActive =
+              option.mode === planningSectionMode &&
+              (option.mode !== "stations" || option.count === stationCount);
+            return (
+              <button
+                key={option.label}
+                type="button"
+                onClick={() => {
+                  setPlanningSectionMode(option.mode);
+                  if (option.count) {
+                    setStationCount(option.count);
+                  }
+                }}
+                className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                  isActive
+                    ? "border-sky-700 bg-sky-700 text-white"
+                    : "border-sky-200 bg-white text-sky-900 hover:border-sky-400"
+                }`}
+              >
+                {option.label}
+              </button>
+            );
+          })}
+        </div>
+        {planningSectionMode === "stations" ? (
+          <p className="mt-2 text-xs text-sky-900">Fordeling i denne seksjonen: {activeSection.playerCounts.join(" + ")} spillere.</p>
+        ) : null}
+        {isIncompleteStationSection ? (
+          <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-3 py-3 text-xs text-amber-950">
+            <p className="font-semibold">Seksjonen er ikke ferdig ennå.</p>
+            <p className="mt-1">
+              Du har valgt {activeSection.selectedCount} av {activeSection.requiredCount} stasjoner. Neste valg blir stasjon {activeSection.selectedCount + 1}, og det mangler {missingStations} stasjon{missingStations === 1 ? "" : "er"} før neste seksjon starter.
+            </p>
+          </div>
+        ) : null}
       </div>
 
       {hasContent ? (
@@ -612,7 +704,7 @@ export const SessionTimeline = () => {
                   <div>
                     <p className="text-sm font-medium text-zinc-900">{savedSession.name}</p>
                     <p className="text-xs text-zinc-500">
-                      {savedSession.playerCount} spillere · {savedSession.stationCount} stasjoner · lagret {new Date(savedSession.updatedAt).toLocaleString("nb-NO")}
+                      {savedSession.playerCount} spillere · seksjonsvalg opptil {savedSession.stationCount} stasjoner · lagret {new Date(savedSession.updatedAt).toLocaleString("nb-NO")}
                     </p>
                   </div>
                   <div className="flex items-center gap-2">
@@ -646,7 +738,7 @@ export const SessionTimeline = () => {
             </svg>
           </div>
           <p className="text-sm font-medium text-zinc-600">Start med å velge øvelser</p>
-          <p className="mt-1 text-xs text-zinc-400">Bruk «Legg til som neste øvelse» eller «Legg til som neste stasjon» fra listen til venstre</p>
+          <p className="mt-1 text-xs text-zinc-400">Velg oppsett for seksjonen over, og legg deretter inn øvelse eller stasjoner fra listen til venstre</p>
         </div>
       ) : (
         <div className="mt-4 space-y-4">
@@ -951,6 +1043,20 @@ export const SessionTimeline = () => {
                             </div>
                           </div>
                         ))}
+                        {isIncompleteStationSection && part === parts[parts.length - 1] && part.baseKey === "stasjoner"
+                          ? Array.from({ length: missingStations }, (_, index) => {
+                              const stationNumber = activeSection.selectedCount + index + 1;
+                              return (
+                                <div
+                                  key={`missing-station-${stationNumber}`}
+                                  className="rounded-lg border border-dashed border-amber-300 bg-amber-50/70 px-3 py-3 text-xs text-amber-950"
+                                >
+                                  <p className="font-semibold uppercase tracking-wide">Stasjon {stationNumber}</p>
+                                  <p className="mt-1 text-amber-800">Ikke valgt ennå. Velg en øvelse fra biblioteket for å fullføre seksjonen.</p>
+                                </div>
+                              );
+                            })
+                          : null}
                       </div>
                     )}
                   </>

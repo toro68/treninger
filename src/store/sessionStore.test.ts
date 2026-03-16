@@ -10,6 +10,7 @@ describe("sessionStore", () => {
       sessionComment: "",
       playerCount: 16,
       stationCount: 4,
+      planningSectionMode: "single",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
@@ -42,10 +43,10 @@ describe("sessionStore", () => {
       expect(state.stationCount).toBe(4);
     });
 
-    it("should update stationCount", () => {
+    it("should clamp stationCount to section range", () => {
       const { setStationCount } = useSessionStore.getState();
       setStationCount(6);
-      expect(useSessionStore.getState().stationCount).toBe(6);
+      expect(useSessionStore.getState().stationCount).toBe(4);
     });
   });
 
@@ -439,6 +440,7 @@ describe("sessionStore", () => {
         exerciseLibrary: library,
         playerCount: 16,
         stationCount: 4,
+        planningSectionMode: "stations",
         categories,
         filterByPlayerCount: true,
       });
@@ -531,7 +533,8 @@ describe("sessionStore", () => {
       const grouped = filterAndGroupExercises({
         exerciseLibrary: library,
         playerCount: 7,
-        stationCount: 1,
+        stationCount: 2,
+        planningSectionMode: "single",
         categories: new Set<string>(["station"]),
         filterByPlayerCount: true,
       });
@@ -540,7 +543,38 @@ describe("sessionStore", () => {
       expect(grouped.station?.some((ex) => ex.id === "pair-drill")).toBe(false);
     });
 
-    it("should exclude exercises when player count is above the defined range", () => {
+    it("should keep scalable exercises that divide evenly inside a section", () => {
+      const library: Exercise[] = [
+        {
+          id: "pair-drill",
+          exerciseNumber: 1,
+          name: "1v1 pair drill",
+          category: "station",
+          duration: 10,
+          playersMin: 2,
+          playersMax: 2,
+          theme: "1v1",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          scalable: true,
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 10,
+        stationCount: 2,
+        planningSectionMode: "single",
+        categories: new Set<string>(["station"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["pair-drill"]);
+    });
+
+    it("should keep scalable exercises when the player count divides cleanly", () => {
       const library: Exercise[] = [
         {
           id: "too-small-group",
@@ -576,16 +610,17 @@ describe("sessionStore", () => {
       const grouped = filterAndGroupExercises({
         exerciseLibrary: library,
         playerCount: 10,
-        stationCount: 1,
+        stationCount: 2,
+        planningSectionMode: "single",
         categories: new Set<string>(["station", "game"]),
         filterByPlayerCount: true,
       });
 
-      expect(grouped.station).toBeUndefined();
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["too-small-group"]);
       expect(grouped.game?.map((ex) => ex.id)).toEqual(["ten-player-game"]);
     });
 
-    it("should use total player count for games even when stations are enabled", () => {
+    it("should filter all exercise categories against the active section player split", () => {
       const library: Exercise[] = [
         {
           id: "station-small",
@@ -621,12 +656,117 @@ describe("sessionStore", () => {
         exerciseLibrary: library,
         playerCount: 16,
         stationCount: 4,
+        planningSectionMode: "stations",
         categories: new Set<string>(["station", "game"]),
         filterByPlayerCount: true,
       });
 
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["station-small"]);
-      expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-full-group"]);
+      expect(grouped.game).toBeUndefined();
+    });
+
+    it("should keep only exercises that fit every uneven station group", () => {
+      const library: Exercise[] = [
+        {
+          id: "fits-both",
+          exerciseNumber: 1,
+          name: "10-11 possession",
+          category: "station",
+          duration: 10,
+          playersMin: 10,
+          playersMax: 11,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "only-ten",
+          exerciseNumber: 2,
+          name: "Only 10 players",
+          category: "station",
+          duration: 10,
+          playersMin: 10,
+          playersMax: 10,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 21,
+        stationCount: 2,
+        planningSectionMode: "stations",
+        categories: new Set<string>(["station"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["fits-both"]);
+    });
+
+    it("should support 21 players split into 7 + 7 + 7", () => {
+      const library: Exercise[] = [
+        {
+          id: "fits-seven",
+          exerciseNumber: 1,
+          name: "7-player pattern",
+          category: "station",
+          duration: 10,
+          playersMin: 7,
+          playersMax: 7,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 21,
+        stationCount: 3,
+        planningSectionMode: "stations",
+        categories: new Set<string>(["station"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["fits-seven"]);
+    });
+
+    it("should support 21 players split into 5 + 5 + 5 + 6", () => {
+      const library: Exercise[] = [
+        {
+          id: "fits-five-six",
+          exerciseNumber: 1,
+          name: "5-6 player pattern",
+          category: "station",
+          duration: 10,
+          playersMin: 5,
+          playersMax: 6,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 21,
+        stationCount: 4,
+        planningSectionMode: "stations",
+        categories: new Set<string>(["station"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["fits-five-six"]);
     });
   });
 
