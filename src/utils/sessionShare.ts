@@ -11,7 +11,18 @@ type SharedBlock = {
   assignedCoachNames?: string[];
 };
 
-type SharedSessionPayload = {
+type SharedSessionPayloadV1 = {
+  version: 1;
+  sessionTitle?: string;
+  sessionComment?: string;
+  playerCount: number;
+  stationCount: number;
+  selectedExerciseIds: string[];
+  selectedTheoryIds?: string[];
+  plannedBlocks?: null;
+};
+
+type SharedSessionPayloadV2 = {
   version: 2;
   sessionTitle?: string;
   sessionComment?: string;
@@ -21,6 +32,8 @@ type SharedSessionPayload = {
   selectedTheoryIds: string[];
   plannedBlocks: SharedBlock[] | null;
 };
+
+type SharedSessionPayload = SharedSessionPayloadV1 | SharedSessionPayloadV2;
 
 export type SharedSessionData = {
   sessionTitle?: string;
@@ -210,7 +223,7 @@ export const createSharedSessionToken = ({
   selectedTheoryIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
 }) => {
-  const payload: SharedSessionPayload = {
+  const payload: SharedSessionPayloadV2 = {
     version: 2,
     sessionTitle: normalizeOptionalText(sessionTitle),
     sessionComment: normalizeOptionalText(sessionComment),
