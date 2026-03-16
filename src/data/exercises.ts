@@ -195,6 +195,33 @@ export const exercises: ExerciseData[] = [
     variations: ["Kun svak fot", "Fra ulike vinkler", "Med motstand fra keeper"],
   },
   {
+    id: "divisjon-2v2",
+    exerciseNumber: 39,
+    name: "Divisjon 2v2",
+    category: "game",
+    duration: 15,
+    playersMin: 4,
+    playersMax: 30,
+    theme: "konkurranse",
+    equipment: ["baller", "mål", "kjegler", "vester"],
+    description:
+      "Flere små baner side om side rangert som divisjoner (1. divisjon, 2. divisjon osv.). To mot to på hver bane. Vinnerne rykker opp én divisjon, taperne rykker ned. Ved uavgjort avgjøres det med stein, saks, papir.",
+    coachingPoints: [
+      "Korte, intense kamper (2–3 minutter per runde)",
+      "Oppmuntre til 1v1-dueller og samspill under press",
+      "Hold oppe intensiteten – spillerne vil opp i divisjon",
+      "Observer hvem som tar ansvar i avgjørende øyeblikk",
+    ],
+    variations: [
+      "Endre til 3v3 for større grupper",
+      "Legg til keeper på hver bane",
+      "Dobbel opprykk/nedrykk for ekstra spenning",
+      "Tidsbegrensning med nedtelling for å øke intensiteten",
+    ],
+    source: "egen",
+    scalable: true,
+  },
+  {
     id: "offensiv-corner-forste-bakre",
     exerciseNumber: 90,
     name: "Offensiv corner: første og bakre",
