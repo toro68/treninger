@@ -1,6 +1,14 @@
-# Kategorisering av øvelser
+# Øktdel og Type På Øvelser
 
-## Oversikt over kategorier
+Denne modellen har to forskjellige akser som ikke bør blandes:
+
+- `category`: hvor øvelsen hører hjemme i strukturen på en trening
+- `theme`: hva øvelsen faktisk trener, altså type/fokus
+
+Det betyr at `station` ikke er en faglig kategori på samme nivå som `angrep`, `1v1` eller `forsvar`.
+`station` betyr bare at øvelsen typisk brukes i stasjonsdelen av økta.
+
+## 1. Øktdel (`category`)
 
 | Kategori | Kode | Formål | Varighet |
 | -------- | ---- | ------ | -------- |
@@ -11,9 +19,73 @@
 | Spilløkt | `game` | Hoveddel med spill (ofte vanlig fotball), variabelt format | 30-45 min |
 | Avslutning | `cooldown` | Oppsummering, refleksjon, uttøyning | 5 min |
 
+Denne aksen brukes for:
+
+- struktur i øktplanen
+- rekkefølge i planleggeren
+- standardvarighet og noen planleggingsregler
+
 ---
 
-## Øvelseskoder (UI og kode-generering)
+## 2. Øvelsestype / Fokus (`theme`)
+
+Dette er den faglige kategoriseringen av øvelsen. Det er denne aksen som svarer på spørsmål som:
+
+- Er dette en `1v1`-øvelse?
+- Trener den `angrep`, `forsvar`, `omstilling` eller `innlegg`?
+- Er dette mer `ballkontroll`, `oppvarming`, `konkurranse` eller `keeper`?
+
+Typiske typer/fokus i datasettet:
+
+- `rondo`
+- `1v1`
+- `angrep`
+- `ballkontroll`
+- `bevegelighet`
+- `evaluering`
+- `forsvar`
+- `gjennombrudd`
+- `innlegg`
+- `keeper`
+- `konkurranse`
+- `omstilling`
+- `oppvarming`
+- `pasning`
+- `pressing`
+- `spill`
+
+Når vi snakker om å “kategorisere øvelser”, er det normalt denne aksen vi mener.
+
+### Foretrukket type-taksonomi
+
+Hvis målet er bedre faglig kategorisering, bør vi normalt prioritere mer presise typer som:
+
+- `rondo`
+- `1v1`
+- `angrep`
+- `ballkontroll`
+- `bevegelighet`
+- `evaluering`
+- `forsvar`
+- `gjennombrudd`
+- `innlegg`
+- `keeper`
+- `konkurranse`
+- `omstilling`
+- `oppvarming`
+
+Andre verdier kan fortsatt være nyttige, men noen av dem er for brede til å være gode hovedkategorier alene:
+
+- `teknikk`
+- `possession`
+- `spill`
+- `bevegelse`
+
+Disse bør helst brukes bare når en mer presis type ikke er mulig, eller fases ut over tid i favør av tydeligere faglige typer.
+
+---
+
+## 3. Øvelseskoder (UI og kode-generering)
 
 Appen viser ofte øvelser som en kode på formen `<prefiks><nummer>` (f.eks. `O12`).
 
@@ -32,7 +104,9 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 | `game` | `K` | `K14` |
 | `cooldown` | `A` | `A1` |
 
-## 1. Fast oppvarming (`fixed-warmup`)
+Merk: koden sier noe om plassering i økta, ikke om øvelsestype.
+
+## 4. Fast oppvarming (`fixed-warmup`)
 
 ### Kjennetegn
 
@@ -54,7 +128,7 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 
 ---
 
-## 2. Oppvarming (`warmup`)
+## 5. Oppvarming (`warmup`)
 
 ### Kjennetegn oppvarming
 
@@ -96,7 +170,7 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 
 ---
 
-## 3. Stasjoner (`station`)
+## 6. Stasjoner (`station`)
 
 ### Kjennetegn stasjoner
 
@@ -149,9 +223,9 @@ Kilde: `src/data/exercises.ts` (`getExerciseCode`).
 
 ---
 
-## 4. Spilløkt (`game`)
+## 7. Spilløkt (`game`)
 
-Merk: `game` er en kategori (struktur i treningsøkta). `spill` er et tema (fokus)
+Merk: `game` er en øktdel (struktur i treningsøkta). `spill` er en type/fokus
 og kan brukes på tvers av kategorier, men brukes ofte på spilløkter når øvelsen
 er «vanlig spill» uten spesifikt deltema.
 
@@ -224,7 +298,7 @@ er «vanlig spill» uten spesifikt deltema.
 
 ---
 
-## 5. Avslutning (`cooldown`)
+## 8. Avslutning (`cooldown`)
 
 ### Kjennetegn avslutning
 

@@ -36,26 +36,31 @@ describe("Filters", () => {
           setSearchQuery: mockSetSearchQuery,
           playerCount: 16,
           stationCount: 4,
+          exerciseLibrary: [
+            { id: "1", theme: "rondo", source: "tiim", playersMin: 4, playersMax: 20 },
+            { id: "2", theme: "pasning", source: "egen", playersMin: 4, playersMax: 20 },
+            { id: "3", theme: "pasning", source: "egen", playersMin: 4, playersMax: 20 },
+          ],
         })
     );
   });
 
   it("should render theme filter buttons", () => {
     renderFilters();
-    expect(screen.getByText("Alle")).toBeInTheDocument();
-    expect(screen.getByText("Rondo")).toBeInTheDocument();
+    expect(screen.getByText("Alle (3)")).toBeInTheDocument();
+    expect(screen.getByText("Rondo (1)")).toBeInTheDocument();
   });
 
   it("should call onThemeChange when clicking a theme", () => {
     const props = renderFilters();
-    const alleButton = screen.getByText("Alle");
+    const alleButton = screen.getByText("Alle (3)");
     fireEvent.click(alleButton);
     expect(props.onThemeChange).toHaveBeenCalledWith("alle");
   });
 
   it("should highlight active theme button with dark styling", () => {
     renderFilters();
-    const alleButton = screen.getByText("Alle");
+    const alleButton = screen.getByText("Alle (3)");
     expect(alleButton.className).toContain("bg-black");
   });
 

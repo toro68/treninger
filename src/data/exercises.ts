@@ -1,3 +1,4 @@
+// category = plassering/struktur i økta, ikke faglig øvelsestype.
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
 export type ExerciseSource = "egen" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "drillo" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
 
@@ -44,6 +45,7 @@ export const EXERCISE_THEMES = [
 ] as const;
 
 export type ExerciseTheme = typeof EXERCISE_THEMES[number];
+export type ExerciseType = ExerciseTheme;
 
 const EXERCISE_THEME_SET = new Set<string>(EXERCISE_THEMES);
 
@@ -75,11 +77,11 @@ type ExerciseFields<TTheme extends string> = {
   exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
   tags?: string[]; // Tagger for filtrering og gruppering
-  category: ExerciseCategory;
+  category: ExerciseCategory; // Øktdel/struktur: oppvarming, stasjon, spill osv.
   duration: number; // minutes
   playersMin: number;
   playersMax: number;
-  theme: TTheme;
+  theme: TTheme; // Faglig type/fokus: 1v1, angrep, forsvar, innlegg osv.
   equipment: string[];
   description: string;
   coachingPoints: string[];

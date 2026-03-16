@@ -227,7 +227,7 @@ export const eggenExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 9,
-    theme: "possession",
+    theme: "rondo",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "5 mot 3 i 40 x 40 meter med 8-9 spillere totalt. To berøringer på den lange pasningen, én på den korte, maks to korte pasninger etter hverandre. Rollene byttes hvert 2. minutt, og laget teller antall pasninger før brudd.",
@@ -269,7 +269,7 @@ export const eggenExercises: ExerciseData[] = [
     duration: 40,
     playersMin: 18,
     playersMax: 18,
-    theme: "spill",
+    theme: "smålagsspill",
     equipment: ["mål", "baller"],
     description:
       "8v8 + keepere på 80x60 m, fritt spill eller to touch i perioder.",

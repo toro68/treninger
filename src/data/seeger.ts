@@ -181,7 +181,7 @@ const baseSeegerExercises: Exercise[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 16,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller"],
     description:
       "4v4 der ballen kastes og fanges i stedet for sparkes. Fokus på bevegelse og rom.",
@@ -233,7 +233,7 @@ const baseSeegerExercises: Exercise[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Baller"],
     description:
       "Sirkel med spiller i midten (6er-posisjon). Ball inn til 6er, legg av, rotér.",
@@ -282,7 +282,7 @@ const baseSeegerExercises: Exercise[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 18,
-    theme: "possession",
+    theme: "vendingsspill",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description:
       "Bane delt i to halvdeler med ulike regler. F.eks. fri på ene, 2-touch på andre.",

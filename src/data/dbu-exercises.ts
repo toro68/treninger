@@ -113,7 +113,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 11,
     playersMax: 11,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Possession med 4v4 og 3 jokere. Plasser spillerne ut fra deres posisjoner. Fokus på å holde ballen og skape vinkler.",
@@ -138,7 +138,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Possession med 4v4 og 4 jokere på sidene. Endesoner bør ha midtforsvarere. Fokus på ballbesittelse og spillestil.",
@@ -164,7 +164,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 8,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Mindre possession 3v3 med 2 jokere. Ideelt for fokus på de sentrale spillernes bevegelser.",
@@ -192,7 +192,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 18,
     playersMin: 13,
     playersMax: 13,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Stort possession på ca 30x45m. Plasser spillerne ut fra deres posisjoner. Fokus på de sentrale spillernes bevegelse i forhold til hverandre.",
@@ -217,7 +217,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 18,
     playersMin: 15,
     playersMax: 15,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "Stort possession med 6v6 og 3 jokere. Brukes for å trene spillestilselementer i større format.",
@@ -242,7 +242,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 20,
     playersMin: 17,
     playersMax: 17,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["baller", "kjegler", "vester", "mål"],
     description:
       "Stort possession 7v7+3, kan spilles med eller uten mål. Posisjonerer spillere ut fra deres roller.",
@@ -267,7 +267,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 20,
     playersMin: 18,
     playersMax: 18,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["baller", "kjegler", "vester", "mål"],
     description:
       "Nesten fullskala possession 8v8 med 2 jokere. Trener spillestilselementer i kamplik situasjon.",
@@ -292,7 +292,7 @@ const baseDbuExercises: ExerciseData[] = [
     duration: 22,
     playersMin: 19,
     playersMax: 19,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["baller", "kjegler", "vester", "mål"],
     description:
       "Fullskala possession 9v9+1. Brukes for å trene hele spillestilen i en setting nær 11v11.",

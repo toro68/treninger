@@ -483,7 +483,7 @@ export const baseRondoExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 7,
     playersMax: 12,
-    theme: "possession",
+    theme: "rondo",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "IKKE i sirkel - spillerne beveger seg fritt i 10x10m. Alt er 1 touch. Forsvarere har vest i hånden. Arsenal FC bruker denne øvelsen mye!",
@@ -510,7 +510,7 @@ export const baseRondoExercises: ExerciseData[] = [
     duration: 20,
     playersMin: 17,
     playersMax: 18,
-    theme: "possession",
+    theme: "omstilling",
     equipment: ["baller", "kjegler", "vester"],
     description:
       "35x25m. Posisjonsspesifikt: 2 stoppere, 2 backer, 6'er, 8'er, 10'er og spiss per lag. 1 nøytral. Spill fra stoppere → gjennom midtbane → til spiss → tilbake. 2 touch.",

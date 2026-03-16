@@ -26,7 +26,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "Tre mot tre på liten bane med fire små mål (ett i hvert hjørne). Begge lag kan score på begge mål på motsatt side. Tvinger spillerne til å lese spillet og bytte angrepspunkt.",
     coachingPoints: [
@@ -79,7 +79,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 8,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "Fritt 3v3 på en liten bane. Banen holdes så kompakt at keeperne kan skyte og være involvert i det generelle spillet gjennom hele øvelsen.",
     coachingPoints: [
@@ -105,7 +105,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "possession",
+    theme: "omstilling",
     equipment: ["Kjegler", "Vester", "Baller", "2 mål"],
     description: "2v2 med en målspiller i hver ende. Ballaget scorer ved å spille fra målspiller til målspiller. Hvis forsvarerne vinner ballen, kan de bryte ut og score i ett av to mål.",
     coachingPoints: [
@@ -131,7 +131,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 10,
     playersMin: 6,
     playersMax: 12,
-    theme: "possession",
+    theme: "rondo",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Klassisk 4v2 rondo i firkant. De 4 holder ball, de 2 presser. Ved tap bytter den som mistet + den som ga dårlig ball.",
     coachingPoints: [
@@ -449,7 +449,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 6,
     playersMax: 12,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller", "4 små mål"],
     description: "Diamantformet bane med mål i hver spiss. Uvanlig form gir nye situasjoner.",
     coachingPoints: [
@@ -531,7 +531,7 @@ const basePrickettExercises: ExerciseData[] = [
     duration: 10,
     playersMin: 5,
     playersMax: 8,
-    theme: "possession",
+    theme: "rondo",
     equipment: ["Kjegler", "Baller"],
     description: "Fire på hjørner, én i midten. Den som mister bytter. Enkel oppvarming.",
     coachingPoints: [

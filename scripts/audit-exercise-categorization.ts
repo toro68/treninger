@@ -23,13 +23,20 @@ const printTable = (title: string, map: CountMap, maxRows = 50) => {
 const formatExercise = (ex: Exercise) =>
   `[${getExerciseCode(ex)}] ${ex.id} · ${ex.name} · cat=${ex.category} · theme=${ex.theme} · source=${ex.source ?? "egen"}`;
 
+const BROAD_TYPE_LABELS = new Set(["teknikk", "possession", "spill", "bevegelse"]);
+
 const main = () => {
   const total = allExercises.length;
   console.log(`Total exercises: ${total}`);
+  console.log("Model: category = øktdel/struktur, theme = øvelsestype/fokus");
 
   const byCategory: CountMap = {};
+  const byTheme: CountMap = {};
   const bySource: CountMap = {};
   const bySourceCategory: CountMap = {};
+  const bySourceTheme: CountMap = {};
+  const broadThemeCounts: CountMap = {};
+  const broadThemeBySource: CountMap = {};
 
   const seenIds = new Set<string>();
   const duplicateIds: string[] = [];
@@ -39,9 +46,15 @@ const main = () => {
 
   for (const ex of allExercises) {
     inc(byCategory, ex.category);
+    inc(byTheme, ex.theme);
     const src = ex.source ?? "egen";
     inc(bySource, src);
     inc(bySourceCategory, `${src} · ${ex.category}`);
+    inc(bySourceTheme, `${src} · ${ex.theme}`);
+    if (BROAD_TYPE_LABELS.has(ex.theme)) {
+      inc(broadThemeCounts, ex.theme);
+      inc(broadThemeBySource, `${src} · ${ex.theme}`);
+    }
 
     if (seenIds.has(ex.id)) duplicateIds.push(ex.id);
     seenIds.add(ex.id);
@@ -58,9 +71,13 @@ const main = () => {
     numbersByCategory.set(ex.category, catMap);
   }
 
-  printTable("By category", byCategory);
+  printTable("By session part (category)", byCategory);
+  printTable("By type/focus (theme)", byTheme);
   printTable("By source", bySource);
-  printTable("By source + category", bySourceCategory, 80);
+  printTable("By source + session part", bySourceCategory, 80);
+  printTable("By source + type/focus", bySourceTheme, 120);
+  printTable("Broad type/focus labels needing review", broadThemeCounts, 40);
+  printTable("Broad type/focus labels by source", broadThemeBySource, 80);
 
   // Hard validation signals
   if (duplicateIds.length > 0) {
@@ -96,7 +113,7 @@ const main = () => {
     if (duplicateNumbers.length > 30) console.log(`... (${duplicateNumbers.length - 30} more)`);
   }
 
-  // Categorization review heuristics (NOT hard errors)
+  // Session-structure review heuristics (NOT hard errors)
   const rondoMismatches: Exercise[] = [];
   const alwaysIncludedMismatches: Exercise[] = [];
 
@@ -120,15 +137,22 @@ const main = () => {
   }
 
   if (rondoMismatches.length > 0) {
-    console.log(`\n--- Review: Looks like Rondo but not in category 'rondo' (excluding source=rondo) (${rondoMismatches.length})`);
+    console.log(`\n--- Review: Looks like Rondo but not in session part 'rondo' (excluding source=rondo) (${rondoMismatches.length})`);
     for (const ex of rondoMismatches.slice(0, 60)) console.log(`- ${formatExercise(ex)}`);
     if (rondoMismatches.length > 60) console.log(`... (${rondoMismatches.length - 60} more)`);
   }
 
   if (alwaysIncludedMismatches.length > 0) {
-    console.log(`\n--- Review: fixed-warmup / alwaysIncluded inconsistencies (${alwaysIncludedMismatches.length})`);
+    console.log(`\n--- Review: fixed-warmup / alwaysIncluded inconsistencies in session structure (${alwaysIncludedMismatches.length})`);
     for (const ex of alwaysIncludedMismatches.slice(0, 60)) console.log(`- ${formatExercise(ex)}`);
     if (alwaysIncludedMismatches.length > 60) console.log(`... (${alwaysIncludedMismatches.length - 60} more)`);
+  }
+
+  const broadThemeExamples = allExercises.filter((exercise) => BROAD_TYPE_LABELS.has(exercise.theme));
+  if (broadThemeExamples.length > 0) {
+    console.log(`\n--- Review: Exercises with broad type/focus labels (${broadThemeExamples.length})`);
+    for (const ex of broadThemeExamples.slice(0, 80)) console.log(`- ${formatExercise(ex)}`);
+    if (broadThemeExamples.length > 80) console.log(`... (${broadThemeExamples.length - 80} more)`);
   }
 
   // Exit non-zero only on hard issues

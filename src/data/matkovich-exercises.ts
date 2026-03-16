@@ -26,7 +26,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 12,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 inne i 20x20m firkant med én nøytral på hver side (4 stk). Nøytrale kun 1-touch. 7 pasninger = 1 poeng.",
     coachingPoints: [
@@ -52,7 +52,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 18,
     playersMax: 18,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "Halvbane delt i 4 soner. 8v8+2 nøytrale. Maks 4 pasninger per sone før bytte. 10 pasninger = poeng.",
     coachingPoints: [
@@ -78,7 +78,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 16,
     playersMax: 16,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Baller"],
     description: "8 med ball på stor sirkel (30-40m), 8 inne. Innespillere sjekker, mottar, returnerer, snur og finner ny.",
     coachingPoints: [
@@ -104,7 +104,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 14,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "2 baller"],
     description: "7 spillere i sikksakk-linje (15m mellom). 2 baller. Pasning og følg. Mottaker snur, spiller videre.",
     coachingPoints: [
@@ -156,7 +156,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 12,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "5v5 i en 30x40-meter grid med to nøytrale spillere. Laget i ballbesittelse spiller alltid 7v5 og forsøker å holde ballen lenge nok til å sette sammen syv pasninger for poeng.",
     coachingPoints: [
@@ -182,7 +182,7 @@ const baseMatkovichExercises: ExerciseData[] = [
     duration: 10,
     playersMin: 3,
     playersMax: 15,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Baller"],
     description: "Grupper på 3. Ballfører spiller, overlapper. Mottaker veggspill og spiller til tredjemann.",
     coachingPoints: [

@@ -168,12 +168,19 @@ export const Filters = ({
       const key = exercise.theme;
       themeCounts[key] = (themeCounts[key] ?? 0) + 1;
     });
-    return Object.keys(themeCounts).sort((a, b) => {
-      if (a === "rondo") return -1;
-      if (b === "rondo") return 1;
-      return a.localeCompare(b, "nb");
-    });
+    return Object.entries(themeCounts)
+      .sort(([themeA], [themeB]) => {
+        if (themeA === "rondo") return -1;
+        if (themeB === "rondo") return 1;
+        return themeA.localeCompare(themeB, "nb");
+      })
+      .map(([theme, count]) => ({ theme, count }));
   }, [exerciseLibrary, playerCount, playersPerStation, sourceFilter, filterByPlayerCount]);
+
+  const totalThemeCount = useMemo(
+    () => availableThemes.reduce((sum, entry) => sum + entry.count, 0),
+    [availableThemes]
+  );
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 
@@ -246,7 +253,18 @@ export const Filters = ({
       
       {/* Tema filter */}
       <div className="flex flex-wrap gap-1.5 sm:gap-2">
-        {["alle", ...availableThemes].map((theme) => (
+        <button
+          key="alle"
+          onClick={() => onThemeChange("alle")}
+          className={`rounded-full border px-3 py-1.5 text-xs sm:text-sm font-medium transition active:scale-95 ${
+            activeTheme === "alle"
+              ? "border-black bg-black text-white shadow-sm"
+              : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400 hover:bg-zinc-50"
+          }`}
+        >
+          {`Alle (${totalThemeCount})`}
+        </button>
+        {availableThemes.map(({ theme, count }) => (
           <button
             key={theme}
             onClick={() => onThemeChange(theme as ThemeFilter)}
@@ -256,7 +274,7 @@ export const Filters = ({
                 : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400 hover:bg-zinc-50"
             }`}
           >
-            {capitalize(theme)}
+            {`${capitalize(theme)} (${count})`}
           </button>
         ))}
       </div>

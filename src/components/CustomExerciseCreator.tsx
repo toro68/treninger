@@ -45,7 +45,7 @@ const DEFAULT_FORM_STATE: FormState = {
   sourceRef: "",
 };
 
-const CATEGORY_OPTIONS: Array<{ value: ExerciseCategory; label: string }> = [
+const SESSION_PART_OPTIONS: Array<{ value: ExerciseCategory; label: string }> = [
   { value: "warmup", label: "Oppvarming" },
   { value: "aktivisering", label: "Aktivisering" },
   { value: "rondo", label: "Rondo" },
@@ -183,13 +183,13 @@ export const CustomExerciseCreator = ({
             </label>
 
             <label className="flex flex-col gap-1 text-sm font-medium text-zinc-800">
-              Kategori
+              Øktdel
               <select
                 value={form.category}
                 onChange={(event) => updateField("category", event.target.value as ExerciseCategory)}
                 className="rounded-xl border border-amber-200 bg-white px-3 py-2 text-sm text-zinc-900 focus:border-amber-500 focus:outline-none"
               >
-                {CATEGORY_OPTIONS.map((option) => (
+                {SESSION_PART_OPTIONS.map((option) => (
                   <option key={option.value} value={option.value}>
                     {option.label}
                   </option>
@@ -198,7 +198,7 @@ export const CustomExerciseCreator = ({
             </label>
 
             <label className="flex flex-col gap-1 text-sm font-medium text-zinc-800">
-              Tema
+              Type / fokus
               <select
                 value={form.theme}
                 onChange={(event) => updateField("theme", event.target.value as ExerciseTheme)}

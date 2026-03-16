@@ -5,29 +5,107 @@ const path = require('path');
 const rawPath = path.join(__dirname, '..', 'src', 'data', 'tiim-raw.json');
 const rawData = JSON.parse(fs.readFileSync(rawPath, 'utf8'));
 
-// Mapping fra tiim-tema til vårt format
-const themeMapping = {
-  'score mål': 'avslutning',
-  'hindre mål': 'forsvar',
-  'komme til avslutning – score mål': 'avslutning',
-  'hindre avslutning - hindre mål': 'forsvar',
-  'spille oss fremover i banen': 'pasning',
-  'vinne ball – hindre motstander å spille forbi oss': 'forsvar',
-  'presse – lede - styre': 'forsvar',
-  'sjef over ballen': 'teknikk',
-  'fotballek': 'lek',
-  'avslutning på mål': 'avslutning',
+const normalizeText = (value) =>
+  String(value ?? '')
+    .normalize('NFKC')
+    .replace(/[–—−]/g, '-')
+    .replace(/[‘’´`]/g, "'")
+    .replace(/[\u00a0\u202f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+
+const exactThemeMapping = new Map([
+  ['score mål', 'avslutning'],
+  ['komme til avslutning - score mål', 'avslutning'],
+  ['avslutning på mål', 'avslutning'],
+  ['hindre avslutning - hindre mål', 'forsvar'],
+  ['hindre mål', 'forsvar'],
+  ['hindre tilgang på prioriterte rom', 'forsvar'],
+  ['vinne ball - hindre motstander å spille forbi oss', 'forsvar'],
+  ['presse - lede - styre', 'pressing'],
+  ['spille oss fremover i banen', 'oppbygging'],
+  ['spille med og mot', 'smålagsspill'],
+  ['sjef over ballen', 'ballkontroll'],
+  ['fotballek', 'lek'],
+]);
+
+const hasPattern = (text, pattern) => pattern.test(text);
+
+const buildSearchText = (exercise) =>
+  normalizeText(
+    [
+      exercise.name,
+      ...(exercise.tema || []),
+      ...(exercise.type || []),
+      exercise.organisering || '',
+      exercise.laeringsmomenter || '',
+      exercise.kommentar || '',
+    ].join(' | ')
+  );
+
+const hasTema = (temaList, expected) =>
+  (temaList || []).some((tema) => normalizeText(tema) === expected);
+
+const inferThemeFromRules = (exercise) => {
+  const normalizedName = normalizeText(exercise.name);
+  const normalizedTema = (exercise.tema || []).map((tema) => normalizeText(tema));
+  const text = buildSearchText(exercise);
+
+  if (hasPattern(text, /dosisten|fotballek|playmakers/)) return 'lek';
+  if (hasPattern(text, /\brondo\b/)) return 'rondo';
+  if (hasPattern(normalizedName, /\b1\s*v\s*1\b|\b1\s*mot\s*1\b/)) return '1v1';
+  if (hasPattern(text, /\binnlegg\b/)) return 'innlegg';
+  if (hasPattern(text, /\bovergang|overgangsspill|omstilling|transition\b/)) return 'omstilling';
+  if (hasPattern(text, /situasjonsøvelse/) && hasPattern(text, /tre småmål/) && hasPattern(text, /store målet/)) return 'omstilling';
+  if (hasPattern(text, /\bgjennombrudd\b/)) return 'gjennombrudd';
+  if (hasPattern(text, /ferdighetssirkel/)) return 'pasning';
+  if (hasPattern(text, /prepp.?n - 3|frekvens|retningsforandring|speiling/)) return 'hurtighet';
+  if (hasPattern(text, /\bdribling|drible|driblesone\b/)) return 'dribling';
+  if (hasPattern(text, /\bføring\b|sjef over ballen|ballkontroll/)) return 'ballkontroll';
+  if (hasPattern(text, /\bpasning|tredjemann|vegg(er)?\b/)) return 'pasning';
+  if (hasPattern(text, /\bpress|presse - lede - styre|lede\b/)) return 'pressing';
+  if (hasPattern(text, /\bforsvar|hindre mål|vinne ball|stoppe|stenge rom|beskytte målet\b/)) return 'forsvar';
+  if (hasPattern(text, /\bavslut|skudd|scoring|score mål|mål\b/)) return 'avslutning';
+  if (hasPattern(text, /\bspill\b|sonespill|game|smålag/)) return 'smålagsspill';
+
+  for (const tema of normalizedTema) {
+    const mapped = exactThemeMapping.get(tema);
+    if (mapped) return mapped;
+  }
+
+  if (hasPattern(text, /fotballek|playmakers/)) return 'lek';
+  if (hasPattern(text, /spille oss fremover|oppbygg/)) return 'oppbygging';
+
+  return 'teknikk';
 };
 
-// Mapping fra tiim-type til category
-const categoryMapping = {
-  'oppvarming': 'warmup',
-  'spill': 'game',
-  'deløvelse': 'station',
-  'sjef over ballen': 'station',
-  'fotballek': 'warmup',
-  'avslutning på mål': 'station',
-  'spille med og mot': 'game',
+const inferCategory = (exercise, theme) => {
+  const text = buildSearchText(exercise);
+  const normalizedName = normalizeText(exercise.name);
+
+  if (hasPattern(text, /\brondo\b/)) return 'rondo';
+
+  if (
+    hasPattern(normalizedName, /prepp.?n|playmakers/) ||
+    hasPattern(text, /\boppvarming\b|fotballek/) ||
+    hasTema(exercise.tema, 'sjef over ballen')
+  ) {
+    return 'warmup';
+  }
+
+  if (
+    hasPattern(text, /\bspill\b|sonespill|game/) &&
+    !hasPattern(text, /situasjonsøvelse/)
+  ) {
+    return 'game';
+  }
+
+  if (theme === 'smålagsspill' && !hasPattern(text, /situasjonsøvelse/)) {
+    return 'game';
+  }
+
+  return 'station';
 };
 
 // Estimer spillerantall fra navn
@@ -74,52 +152,6 @@ function estimateDuration(name, type) {
   return 12; // Default
 }
 
-// Finn beste tema
-function findTheme(temaList) {
-  if (!temaList || temaList.length === 0) return 'teknikk';
-  
-  for (const tema of temaList) {
-    const normalized = tema.toLowerCase().trim();
-    if (themeMapping[normalized]) {
-      return themeMapping[normalized];
-    }
-  }
-  
-  // Prøv delvis match
-  const firstTema = temaList[0].toLowerCase();
-  if (firstTema.includes('score') || firstTema.includes('avslutning')) return 'avslutning';
-  if (firstTema.includes('hindre') || firstTema.includes('forsvar') || firstTema.includes('presse')) return 'forsvar';
-  if (firstTema.includes('spille') || firstTema.includes('pasning')) return 'pasning';
-  if (firstTema.includes('ball') || firstTema.includes('teknikk')) return 'teknikk';
-  
-  return 'teknikk';
-}
-
-// Finn beste kategori
-function findCategory(typeList, name) {
-  const nameLower = name.toLowerCase();
-  
-  // Sjekk navn først
-  if (nameLower.includes('oppvarming')) return 'warmup';
-  if (nameLower.includes('spill') && !nameLower.includes('overtall')) return 'game';
-  
-  if (!typeList || typeList.length === 0) return 'station';
-  
-  for (const type of typeList) {
-    const normalized = type.toLowerCase().trim();
-    if (categoryMapping[normalized]) {
-      return categoryMapping[normalized];
-    }
-  }
-  
-  // Prøv delvis match
-  const firstType = typeList[0].toLowerCase();
-  if (firstType.includes('oppvarming')) return 'warmup';
-  if (firstType.includes('spill')) return 'game';
-  
-  return 'station';
-}
-
 // Sjekk om øvelsen er skalerbar (1v1, 2v2, etc.)
 function isScalable(name) {
   const patterns = [/1\s*v\s*1/i, /1\s*mot\s*1/i, /2\s*v\s*2/i, /2\s*mot\s*2/i, /3\s*v\s*3/i, /3\s*mot\s*3/i];
@@ -159,7 +191,9 @@ function convertExercise(tiimExercise, index) {
   if (!name) return null;
   
   const playerCount = estimatePlayerCount(name, organisering || '');
-  const category = findCategory(type, name);
+  const theme = inferThemeFromRules(tiimExercise);
+  const category = inferCategory(tiimExercise, theme);
+  const description = [organisering, kommentar].filter(Boolean).join('\n\n').trim() || name;
   
   return {
     id: `tiim-${index + 1}`,
@@ -169,9 +203,9 @@ function convertExercise(tiimExercise, index) {
     duration: estimateDuration(name, type || []),
     playersMin: playerCount.min,
     playersMax: playerCount.max,
-    theme: findTheme(tema),
+    theme,
     equipment: ['kjegler', 'baller'], // Standard utstyr
-    description: (organisering || '').trim() || name,
+    description,
     coachingPoints: parseCoachingPoints(laeringsmomenter),
     variations: parseVariations(variasjoner),
     scalable: isScalable(name),
@@ -191,9 +225,15 @@ const converted = rawData.exercises
 const tsContent = `// Auto-generert fra tiim.no - ${new Date().toISOString().split('T')[0]}
 // Kilde: ${rawData.sourceUrl}
 
-import type { Exercise } from './exercises';
+import type { ExerciseData } from './exercises';
+import { tiimImageById } from './tiim-image-map';
 
-export const tiimExercises: Exercise[] = ${JSON.stringify(converted, null, 2)};
+const baseTiimExercises: ExerciseData[] = ${JSON.stringify(converted, null, 2)};
+
+export const tiimExercises: ExerciseData[] = baseTiimExercises.map((exercise) => ({
+  ...exercise,
+  imageUrl: exercise.imageUrl ?? tiimImageById[exercise.id],
+}));
 `;
 
 const outputPath = path.join(__dirname, '..', 'src', 'data', 'tiim-exercises.ts');

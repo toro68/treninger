@@ -21,7 +21,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 der hver spiller teller sine pasninger høyt. Ved 10 pasninger roper du 'Bingo!' Laget vinner når alle har 10.",
     coachingPoints: [
@@ -47,7 +47,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 10,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "3v3 inne + 2 per lag i hjørnene. Kan 'tagge ut' når som helst. 10 pasninger = 1 poeng.",
     coachingPoints: [
@@ -73,7 +73,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 20,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "4 farger vester", "Baller"],
     description: "Fire lag, to samarbeider. Rød+gul mot blå+grønn. Røde KUN til gule og omvendt.",
     coachingPoints: [
@@ -99,7 +99,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Vester", "2 baller"],
     description: "Bane delt i to. 4v2 per side med én ball. Forsvarerne prøver vinne og spille over = 2 baller der!",
     coachingPoints: [
@@ -125,7 +125,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 15,
     playersMax: 15,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "7v4 inne + 4 nøytrale på sidene. Store laget har ball: 11v4. Lille vinner: 8v7.",
     coachingPoints: [
@@ -255,7 +255,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 8,
-    theme: "possession",
+    theme: "gjennombrudd",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 med 5 porter spredt. Score ved pasning gjennom som mottas av medspiller. Ikke samme 2x.",
     coachingPoints: [
@@ -307,7 +307,7 @@ const baseYouthExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 12,
     playersMax: 12,
-    theme: "possession",
+    theme: "pasning",
     equipment: ["Kjegler", "Vester", "Baller"],
     description: "4v4 inne + 2 støttespillere per lag på sidene. Poeng ved å spille til støtte.",
     coachingPoints: [
