@@ -123,7 +123,7 @@ function SharedSessionPageContent() {
                 </div>
 
                 <div className="mt-4 space-y-4">
-                  {part.blocks.map(({ block, sequenceNumber }) => {
+                  {part.blocks.map(({ block }, blockIndex) => {
                     const blockTitle = block.customTitle?.trim() || block.exercise.name;
                     const blockComment = block.customComment?.trim();
                     const alternativeExercises = (block.alternativeExerciseIds ?? [])
@@ -135,14 +135,16 @@ function SharedSessionPageContent() {
                         <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                           <div>
                             <h3 className="text-base font-semibold text-zinc-900">
-                              <span className="mr-2 inline-flex min-w-[26px] items-center justify-center rounded-full bg-zinc-900 px-2 py-1 text-[11px] font-semibold text-white">
-                                {sequenceNumber}
-                              </span>
                               <span className="mr-2 inline-flex min-w-[34px] items-center justify-center rounded-full bg-zinc-200 px-2 py-1 text-[11px] font-medium text-zinc-700">
                                 {getExerciseCode(block.exercise)}
                               </span>
                               {blockTitle}
                             </h3>
+                            {part.baseKey === "stasjoner" ? (
+                              <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                                {`Stasjon ${blockIndex + 1}`}
+                              </p>
+                            ) : null}
                             {blockTitle !== block.exercise.name ? (
                               <p className="mt-2 text-xs text-zinc-500">Basert på: {block.exercise.name}</p>
                             ) : null}

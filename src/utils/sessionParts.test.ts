@@ -28,7 +28,7 @@ const createBlock = (
 });
 
 describe("sessionParts", () => {
-  it("splits adjacent station exercises into separate rounds when marked", () => {
+  it("builds numbered session blocks with separate station rounds", () => {
     const blocks: SessionBlock[] = [
       createBlock("fixed-1", "Skadefri", "fixed-warmup"),
       createBlock("station-1", "Stasjon 1", "station"),
@@ -40,11 +40,32 @@ describe("sessionParts", () => {
 
     const parts = buildSessionParts(blocks, 15);
 
-    expect(parts.map((part) => part.title)).toEqual(["Skadefri", "Stasjoner 1", "Stasjoner 2"]);
+    expect(parts.map((part) => part.title)).toEqual(["1. Skadefri", "2. Stasjoner", "3. Stasjoner"]);
     expect(parts[1].blocks.map((entry) => entry.block.id)).toEqual(["station-1", "station-2"]);
     expect(parts[2].blocks.map((entry) => entry.block.id)).toEqual(["station-3", "station-4", "station-5"]);
-    expect(parts[1].blocks.map((entry) => entry.sequenceNumber)).toEqual([2, 3]);
-    expect(parts[2].blocks.map((entry) => entry.sequenceNumber)).toEqual([4, 5, 6]);
+    expect(parts[0].subtitle).toBe("Spillerne styrer selv");
+  });
+
+  it("treats non-station blocks as single shared exercises", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("fixed-1", "Skadefri", "fixed-warmup"),
+      createBlock("warmup-1", "Kort-kort-lang", "warmup"),
+      createBlock("station-1", "Stasjon 1", "station"),
+      createBlock("station-2", "Stasjon 2", "station"),
+      createBlock("game-1", "Spill", "game"),
+    ];
+
+    const parts = buildSessionParts(blocks, 16);
+
+    expect(parts.map((part) => part.title)).toEqual([
+      "1. Skadefri",
+      "2. Øvelse",
+      "3. Stasjoner",
+      "4. Øvelse",
+    ]);
+    expect(parts[1].subtitle).toBe("Samme for alle");
+    expect(parts[1].blocks).toHaveLength(1);
+    expect(parts[3].blocks).toHaveLength(1);
   });
 
   it("summarizes multiple station rounds", () => {

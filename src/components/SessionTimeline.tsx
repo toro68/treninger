@@ -259,13 +259,14 @@ export const SessionTimeline = () => {
       result += `\n${part.title.toUpperCase()}\n`;
       result += "─".repeat(20) + "\n";
 
-      part.blocks.forEach(({ block, sequenceNumber }) => {
+      part.blocks.forEach(({ block }, blockIndex) => {
         const duration = recommendedDuration(block);
         const unit = getUnit(block);
         const title = block.customTitle?.trim() || block.exercise.name;
         const comment = block.customComment?.trim();
         const alternatives = getAlternativeExercises(block);
-        result += `\n${sequenceNumber}. [${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
+        const stationLabel = part.baseKey === "stasjoner" ? `Stasjon ${blockIndex + 1}: ` : "";
+        result += `\n${stationLabel}[${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
         if (title !== block.exercise.name) {
           result += `Basert på: ${block.exercise.name}\n`;
         }
@@ -371,7 +372,8 @@ export const SessionTimeline = () => {
     const printableParts: PrintablePart[] = parts.map((part) => ({
       title: part.title,
       subtitle: part.subtitle,
-      blocks: part.blocks.map(({ block, sequenceNumber }) => ({ block, sequenceNumber })),
+      baseKey: part.baseKey,
+      blocks: part.blocks.map(({ block }) => block),
     }));
 
     try {
@@ -678,7 +680,7 @@ export const SessionTimeline = () => {
                       <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
                     ) : (
                       <div className="space-y-1.5">
-                        {part.blocks.map(({ block, globalIndex, sequenceNumber }) => (
+                        {part.blocks.map(({ block, globalIndex }, blockIndex) => (
                           <div
                             key={block.id}
                             role="group"
@@ -710,10 +712,12 @@ export const SessionTimeline = () => {
                               </div>
 
                               <div className="min-w-0 flex-1">
+                                {part.baseKey === "stasjoner" ? (
+                                  <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                                    {`Stasjon ${blockIndex + 1}`}
+                                  </p>
+                                ) : null}
                                 <p className="text-sm text-zinc-900 truncate">
-                                  <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-900 text-[10px] font-semibold text-white mr-1.5">
-                                    {sequenceNumber}
-                                  </span>
                                   <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
                                     {getExerciseCode(block.exercise)}
                                   </span>
