@@ -15,6 +15,7 @@ export const DEFAULT_COACH_NAMES = [
 export type SessionBlock = {
   id: string;
   exercise: Exercise;
+  stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
   customTitle?: string;
@@ -25,6 +26,7 @@ export type SessionBlock = {
 
 type SerializedBlock = {
   id: string;
+  stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
   customTitle?: string;
@@ -174,6 +176,7 @@ const mergePlannedBlockMetadata = (
       const current = baseMap.get(block.id)!;
       return {
         ...current,
+        stationRoundStart: block.stationRoundStart,
         customDuration: block.customDuration,
         customUnit: block.customUnit,
         customTitle: normalizeOptionalText(block.customTitle),
@@ -277,6 +280,7 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
   return blocks.map(({
     id,
+    stationRoundStart,
     customDuration,
     customUnit,
     customTitle,
@@ -285,6 +289,7 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
     assignedCoachNames,
   }) => ({
     id,
+    stationRoundStart: stationRoundStart === true ? true : undefined,
     customDuration,
     customUnit,
     customTitle: normalizeOptionalText(customTitle),
@@ -441,6 +446,7 @@ const hydratePlannedBlocks = (
         hydrated.push({
           id: exercise.id,
           exercise,
+          stationRoundStart: (entry as SerializedBlock).stationRoundStart === true ? true : undefined,
           customDuration:
             typeof (entry as SerializedBlock).customDuration === "number"
               ? (entry as SerializedBlock).customDuration
@@ -468,6 +474,7 @@ const hydratePlannedBlocks = (
         hydrated.push({
           id: exercise.id,
           exercise,
+          stationRoundStart: (entry as SessionBlock).stationRoundStart === true ? true : undefined,
           customDuration:
             typeof (entry as SessionBlock).customDuration === "number"
               ? (entry as SessionBlock).customDuration

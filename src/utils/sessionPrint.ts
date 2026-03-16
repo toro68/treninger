@@ -4,7 +4,7 @@ import { getUnit, recommendedDuration, SessionBlock } from "@/store/sessionStore
 export type PrintablePart = {
   title: string;
   subtitle?: string;
-  blocks: SessionBlock[];
+  blocks: Array<{ block: SessionBlock; sequenceNumber: number }>;
 };
 
 const resolveAlternativeExercises = (
@@ -21,7 +21,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
   }
 
   const exercisesMarkup = part.blocks
-    .map((block) => {
+    .map(({ block, sequenceNumber }) => {
       const duration = recommendedDuration(block);
       const unit = getUnit(block);
       const code = getExerciseCode(block.exercise);
@@ -51,6 +51,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
       return `
         <div class="exercise">
           <div class="exercise-name">
+            <span class="sequence">${sequenceNumber}</span>
             <span class="code">${code}</span>
             ${title}
           </div>
@@ -118,6 +119,7 @@ const baseStyles = `
   .section-title small { font-size: 12px; color: #6b7280; font-weight: 500; text-transform: uppercase; letter-spacing: 0.02em; }
   .exercise { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
   .exercise-name { font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+  .exercise-name .sequence { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; padding: 2px 6px; font-size: 11px; border-radius: 999px; background: #111827; color: #fff; }
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
   .exercise-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
   .exercise-origin { font-size: 12px; color: #6b7280; margin-bottom: 8px; }

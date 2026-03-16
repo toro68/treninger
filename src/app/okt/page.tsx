@@ -10,6 +10,7 @@ import { getSessionTheoryItem } from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
 import { getUnit, recommendedDuration } from "@/store/sessionStore";
+import { buildSessionParts, getStationPlanSummary } from "@/utils/sessionParts";
 
 function SharedSessionPageContent() {
   const searchParams = useSearchParams();
@@ -21,35 +22,10 @@ function SharedSessionPageContent() {
   const parts = useMemo(() => {
     if (!sharedSession) return [];
 
-    const grouped = [
-      { key: "skadefri", title: "1. Skadefri", subtitle: "Spillerne styrer selv", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "styrke", title: "2. Styrke", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "oppvarming", title: "3. Oppvarming", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "rondo", title: "4. Rondo", subtitle: "Valgfri", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "stasjoner", title: "5. Stasjoner", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "spill", title: "6. Spill", subtitle: "", blocks: [] as typeof sharedSession.sessionBlocks },
-      { key: "avslutning", title: "7. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] as typeof sharedSession.sessionBlocks },
-    ];
-
-    sharedSession.sessionBlocks.forEach((block) => {
-      const category = block.exercise.category;
-      if (category === "fixed-warmup") grouped[0].blocks.push(block);
-      else if (category === "cooldown" && block.exercise.theme === "styrke") grouped[1].blocks.push(block);
-      else if (category === "warmup" || category === "aktivisering") grouped[2].blocks.push(block);
-      else if (category === "rondo") grouped[3].blocks.push(block);
-      else if (category === "station") grouped[4].blocks.push(block);
-      else if (category === "game") grouped[5].blocks.push(block);
-      else if (category === "cooldown") grouped[6].blocks.push(block);
-    });
-
-    const stationCount = grouped[4].blocks.length;
-    if (stationCount > 0) {
-      const playersPerStation = Math.floor(sharedSession.playerCount / stationCount);
-      grouped[4].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
-    }
-
-    return grouped.filter((part) => part.blocks.length > 0);
+    return buildSessionParts(sharedSession.sessionBlocks, sharedSession.playerCount);
   }, [sharedSession]);
+
+  const stationPlanSummary = useMemo(() => getStationPlanSummary(parts), [parts]);
 
   const totalMinutes = useMemo(
     () => sharedSession?.sessionBlocks.reduce((sum, block) => sum + recommendedDuration(block), 0) ?? 0,
@@ -132,7 +108,9 @@ function SharedSessionPageContent() {
             <div className="flex flex-wrap gap-2 text-sm text-zinc-600">
               <span className="rounded-full bg-zinc-100 px-3 py-1.5">{totalMinutes} min</span>
               <span className="rounded-full bg-zinc-100 px-3 py-1.5">{sharedSession.playerCount} spillere</span>
-              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{sharedSession.stationCount} stasjoner</span>
+              {stationPlanSummary ? (
+                <span className="rounded-full bg-zinc-100 px-3 py-1.5">{stationPlanSummary}</span>
+              ) : null}
             </div>
           </div>
 
@@ -145,7 +123,7 @@ function SharedSessionPageContent() {
                 </div>
 
                 <div className="mt-4 space-y-4">
-                  {part.blocks.map((block) => {
+                  {part.blocks.map(({ block, sequenceNumber }) => {
                     const blockTitle = block.customTitle?.trim() || block.exercise.name;
                     const blockComment = block.customComment?.trim();
                     const alternativeExercises = (block.alternativeExerciseIds ?? [])
@@ -157,6 +135,9 @@ function SharedSessionPageContent() {
                         <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                           <div>
                             <h3 className="text-base font-semibold text-zinc-900">
+                              <span className="mr-2 inline-flex min-w-[26px] items-center justify-center rounded-full bg-zinc-900 px-2 py-1 text-[11px] font-semibold text-white">
+                                {sequenceNumber}
+                              </span>
                               <span className="mr-2 inline-flex min-w-[34px] items-center justify-center rounded-full bg-zinc-200 px-2 py-1 text-[11px] font-medium text-zinc-700">
                                 {getExerciseCode(block.exercise)}
                               </span>

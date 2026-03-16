@@ -129,8 +129,13 @@ describe("SessionTimeline sharing", () => {
     fireEvent.change(screen.getByLabelText("Kommentar til hele økta"), {
       target: { value: "Bruk ekstra tid på overgang til press." },
     });
-    const blocks = await screen.findAllByRole("group");
-    fireEvent.click(within(blocks[1]).getByRole("button", { name: "Tilpass tekst" }));
+    const mainExerciseName = useSessionStore.getState().plannedBlocks?.[0]?.exercise.name;
+    expect(mainExerciseName).toBeDefined();
+
+    const mainBlock = await screen.findByRole("group", {
+      name: `${mainExerciseName} blokk`,
+    });
+    fireEvent.click(within(mainBlock).getByRole("button", { name: "Tilpass tekst" }));
     fireEvent.change(screen.getByLabelText("Egen tittel"), {
       target: { value: "Spill med aggressiv gjenvinning" },
     });
@@ -147,18 +152,26 @@ describe("SessionTimeline sharing", () => {
 
     const copiedUrl = new URL(writeText.mock.calls[0][0]);
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
+    const customizedBlock = decoded?.sessionBlocks.find(
+      (block) => block.exercise.name === mainExerciseName
+    );
 
     expect(decoded?.sessionTitle).toBe("Kampforberedende økt");
     expect(decoded?.sessionComment).toBe("Bruk ekstra tid på overgang til press.");
-    expect(decoded?.sessionBlocks[0].customTitle).toBe("Spill med aggressiv gjenvinning");
-    expect(decoded?.sessionBlocks[0].customComment).toBe("To touch første fire minutter.");
+    expect(customizedBlock?.customTitle).toBe("Spill med aggressiv gjenvinning");
+    expect(customizedBlock?.customComment).toBe("To touch første fire minutter.");
   });
 
   it("lets the user assign coaches to a block", async () => {
     render(<SessionTimeline />);
 
-    const blocks = await screen.findAllByRole("group");
-    const checkbox = within(blocks[1]).getByRole("checkbox", { name: "Tor Inge" });
+    const mainExerciseName = useSessionStore.getState().plannedBlocks?.[0]?.exercise.name;
+    expect(mainExerciseName).toBeDefined();
+
+    const mainBlock = await screen.findByRole("group", {
+      name: `${mainExerciseName} blokk`,
+    });
+    const checkbox = within(mainBlock).getByRole("checkbox", { name: "Tor Inge" });
     fireEvent.click(checkbox);
 
     expect(screen.getAllByText("Tor Inge").length).toBeGreaterThan(0);

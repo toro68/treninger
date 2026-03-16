@@ -4,18 +4,12 @@ import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
+import { buildSessionParts } from "@/utils/sessionParts";
 import { useState, useEffect, useMemo } from "react";
 import { CustomExerciseCreator } from "@/components/CustomExerciseCreator";
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
-};
-
-type SessionPart = {
-  key: string;
-  title: string;
-  subtitle: string;
-  blocks: { block: SessionBlock; globalIndex: number }[];
 };
 
 export const SessionTimeline = () => {
@@ -63,34 +57,7 @@ export const SessionTimeline = () => {
   const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
-  const parts = useMemo<SessionPart[]>(() => {
-    const grouped: SessionPart[] = [
-      { key: "skadefri",   title: "1. Skadefri",   subtitle: "Spillerne styrer selv",   blocks: [] },
-      { key: "oppvarming", title: "2. Oppvarming", subtitle: "Valgfri",                 blocks: [] },
-      { key: "rondo",      title: "3. Rondo",      subtitle: "Valgfri",                 blocks: [] },
-      { key: "stasjoner",  title: "4. Stasjoner",  subtitle: "",                        blocks: [] },
-      { key: "spill",      title: "5. Spill",      subtitle: "",                        blocks: [] },
-      { key: "avslutning", title: "6. Avslutning", subtitle: "Restitusjon og evaluering", blocks: [] },
-    ];
-
-    sessionBlocks.forEach((block, index) => {
-      const cat = block.exercise.category;
-      if (cat === "fixed-warmup")                  grouped[0].blocks.push({ block, globalIndex: index });
-      else if (cat === "warmup" || cat === "aktivisering") grouped[1].blocks.push({ block, globalIndex: index });
-      else if (cat === "rondo")                    grouped[2].blocks.push({ block, globalIndex: index });
-      else if (cat === "station")                  grouped[3].blocks.push({ block, globalIndex: index });
-      else if (cat === "game")                     grouped[4].blocks.push({ block, globalIndex: index });
-      else if (cat === "cooldown")                 grouped[5].blocks.push({ block, globalIndex: index });
-    });
-
-    const stationCount = grouped[3].blocks.length;
-    if (stationCount > 0) {
-      const playersPerStation = Math.floor(playerCount / stationCount);
-      grouped[3].subtitle = `${stationCount} øvelse${stationCount > 1 ? "r" : ""} · ${playersPerStation} spillere per stasjon`;
-    }
-
-    return grouped;
-  }, [sessionBlocks, playerCount]);
+  const parts = useMemo(() => buildSessionParts(sessionBlocks, playerCount), [sessionBlocks, playerCount]);
 
   const totalMinutes = sessionBlocks.reduce(
     (acc, block) => acc + recommendedDuration(block),
@@ -178,6 +145,19 @@ export const SessionTimeline = () => {
         assignedCoachNames: assignedCoachNames.length > 0 ? assignedCoachNames : undefined,
       };
     });
+  };
+
+  const toggleStationRoundStart = (index: number) => {
+    const block = sessionBlocks[index];
+    if (!block || block.exercise.category !== "station") return;
+
+    const previousBlock = sessionBlocks[index - 1];
+    if (!previousBlock || previousBlock.exercise.category !== "station") return;
+
+    updateBlockAtIndex(index, (currentBlock) => ({
+      ...currentBlock,
+      stationRoundStart: currentBlock.stationRoundStart ? undefined : true,
+    }));
   };
 
   const addAlternativeExercise = (index: number, alternativeExerciseId: string) => {
@@ -271,29 +251,21 @@ export const SessionTimeline = () => {
   };
 
   const buildFullSummary = () => {
-    const partNames = [
-      "SKADEFRI",
-      "OPPVARMING",
-      "RONDO",
-      "STASJONER",
-      "SPILL",
-      "AVSLUTNING",
-    ];
     let result = "";
 
-    parts.forEach((part, partIndex) => {
+    parts.forEach((part) => {
       if (part.blocks.length === 0) return;
 
-      result += `\n${partNames[partIndex]}\n`;
+      result += `\n${part.title.toUpperCase()}\n`;
       result += "─".repeat(20) + "\n";
 
-      part.blocks.forEach(({ block }) => {
+      part.blocks.forEach(({ block, sequenceNumber }) => {
         const duration = recommendedDuration(block);
         const unit = getUnit(block);
         const title = block.customTitle?.trim() || block.exercise.name;
         const comment = block.customComment?.trim();
         const alternatives = getAlternativeExercises(block);
-        result += `\n[${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
+        result += `\n${sequenceNumber}. [${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
         if (title !== block.exercise.name) {
           result += `Basert på: ${block.exercise.name}\n`;
         }
@@ -399,7 +371,7 @@ export const SessionTimeline = () => {
     const printableParts: PrintablePart[] = parts.map((part) => ({
       title: part.title,
       subtitle: part.subtitle,
-      blocks: part.blocks.map(({ block }) => block),
+      blocks: part.blocks.map(({ block, sequenceNumber }) => ({ block, sequenceNumber })),
     }));
 
     try {
@@ -706,7 +678,7 @@ export const SessionTimeline = () => {
                       <p className="text-xs text-zinc-400 italic pl-2">Ingen valgt</p>
                     ) : (
                       <div className="space-y-1.5">
-                        {part.blocks.map(({ block, globalIndex }) => (
+                        {part.blocks.map(({ block, globalIndex, sequenceNumber }) => (
                           <div
                             key={block.id}
                             role="group"
@@ -739,6 +711,9 @@ export const SessionTimeline = () => {
 
                               <div className="min-w-0 flex-1">
                                 <p className="text-sm text-zinc-900 truncate">
+                                  <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-900 text-[10px] font-semibold text-white mr-1.5">
+                                    {sequenceNumber}
+                                  </span>
                                   <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
                                     {getExerciseCode(block.exercise)}
                                   </span>
@@ -794,6 +769,21 @@ export const SessionTimeline = () => {
                                 )}
                                 {!block.exercise.alwaysIncluded && (
                                   <div className="mt-2 flex flex-wrap items-center gap-2">
+                                    {block.exercise.category === "station" &&
+                                    globalIndex > 0 &&
+                                    sessionBlocks[globalIndex - 1]?.exercise.category === "station" ? (
+                                      <button
+                                        type="button"
+                                        onClick={() => toggleStationRoundStart(globalIndex)}
+                                        className={`rounded-full border px-2.5 py-1 text-[11px] transition ${
+                                          block.stationRoundStart
+                                            ? "border-sky-300 bg-sky-50 text-sky-900"
+                                            : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400"
+                                        }`}
+                                      >
+                                        {block.stationRoundStart ? "Slå sammen med forrige runde" : "Ny stasjonsrunde"}
+                                      </button>
+                                    ) : null}
                                     <button
                                       type="button"
                                       onClick={() =>
