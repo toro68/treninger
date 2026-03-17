@@ -547,6 +547,21 @@ export const exercises: ExerciseData[] = [
     variations: [],
   },
   {
+    id: "skudd-generic",
+    exerciseNumber: 49,
+    name: "Skudd",
+    category: "cooldown",
+    duration: 10,
+    playersMin: 2,
+    playersMax: 30,
+    theme: "avslutning",
+    equipment: ["baller", "mål"],
+    description:
+      "Velg selv. F.eks. tredjemannsløp, volley, frispark, 2v1, innlegg til 2 angripere/1 forsvarer (eller 3v2), avslutning etter veggspill, avslutning etter innlegg fra kant, avslutning etter cutback og returløp/andreballer.",
+    coachingPoints: [],
+    variations: [],
+  },
+  {
     id: "planken",
     exerciseNumber: 33,
     name: "Planken",

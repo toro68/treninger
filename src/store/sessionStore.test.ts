@@ -948,6 +948,19 @@ describe("sessionStore", () => {
       expect(strengthExercise?.variations).toEqual([]);
     });
 
+    it("includes a generic shooting placeholder with open suggestions", () => {
+      const shootingExercise = useSessionStore
+        .getState()
+        .exerciseLibrary.find((exercise) => exercise.id === "skudd-generic");
+
+      expect(shootingExercise).toBeDefined();
+      expect(shootingExercise?.name).toBe("Skudd");
+      expect(shootingExercise?.theme).toBe("avslutning");
+      expect(shootingExercise?.description).toContain("tredjemannsløp");
+      expect(shootingExercise?.description).toContain("volley");
+      expect(shootingExercise?.description).toContain("andreballer");
+    });
+
     it("uses exercise duration and minutes for strength blocks", () => {
       const strengthExercise = useSessionStore
         .getState()

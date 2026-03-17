@@ -1042,7 +1042,7 @@ const baseDbuExercises: ExerciseData[] = [
   },
   {
     id: "dbu-spill-paa-3-mann",
-    exerciseNumber: 40,
+    exerciseNumber: 440,
     name: "Spill på 3. mann",
     category: "game",
     duration: 15,
