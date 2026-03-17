@@ -319,6 +319,9 @@ export const SessionTimeline = () => {
   const handleDragOver = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
   };
+  const preventNestedDrag = (event: React.SyntheticEvent<HTMLElement>) => {
+    event.stopPropagation();
+  };
   const handleDrop = (index: number) => {
     if (dragIndex === null || dragIndex === index) return;
     const updated = [...sessionBlocks];
@@ -1198,6 +1201,9 @@ export const SessionTimeline = () => {
                                         Egen tittel
                                         <input
                                           type="text"
+                                          draggable={false}
+                                          onDragStart={preventNestedDrag}
+                                          onPointerDown={preventNestedDrag}
                                           value={block.customTitle ?? ""}
                                           onChange={(event) =>
                                             handleBlockTextChange(globalIndex, "customTitle", event.target.value)
@@ -1209,6 +1215,9 @@ export const SessionTimeline = () => {
                                       <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500 sm:col-span-2">
                                         Kommentar til blokka
                                         <textarea
+                                          draggable={false}
+                                          onDragStart={preventNestedDrag}
+                                          onPointerDown={preventNestedDrag}
                                           value={block.customComment ?? ""}
                                           onChange={(event) =>
                                             handleBlockTextChange(globalIndex, "customComment", event.target.value)
@@ -1240,6 +1249,9 @@ export const SessionTimeline = () => {
                                           >
                                             <input
                                               type="checkbox"
+                                              draggable={false}
+                                              onDragStart={preventNestedDrag}
+                                              onPointerDown={preventNestedDrag}
                                               checked={checked}
                                               onChange={() => toggleCoachAssignment(globalIndex, coachName)}
                                               className="h-3.5 w-3.5 rounded border-zinc-300 text-sky-600 focus:ring-sky-500"
@@ -1259,6 +1271,9 @@ export const SessionTimeline = () => {
                               <div className="flex items-center gap-1.5 shrink-0 self-start">
                                 <input
                                   type="number"
+                                  draggable={false}
+                                  onDragStart={preventNestedDrag}
+                                  onPointerDown={preventNestedDrag}
                                   min={1}
                                   max={99}
                                   value={recommendedDuration(block)}
@@ -1268,6 +1283,9 @@ export const SessionTimeline = () => {
                                   className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
                                 />
                                 <select
+                                  draggable={false}
+                                  onDragStart={preventNestedDrag}
+                                  onPointerDown={preventNestedDrag}
                                   value={getUnit(block)}
                                   onChange={(e) => handleUnitChange(globalIndex, e.target.value as DurationUnit)}
                                   className="rounded border border-zinc-200 px-1 py-1 text-xs text-zinc-600 focus:border-black focus:outline-none bg-white cursor-pointer"

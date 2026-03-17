@@ -263,6 +263,27 @@ describe("SessionTimeline sharing", () => {
     expect(useSessionStore.getState().plannedBlocks?.[0].assignedCoachNames).toEqual(["Tor Inge"]);
   });
 
+  it("renders the block comment field as a normal non-draggable textarea", async () => {
+    render(<SessionTimeline />);
+
+    const mainExerciseName = useSessionStore.getState().plannedBlocks?.[0]?.exercise.name;
+    expect(mainExerciseName).toBeDefined();
+
+    const mainBlock = await screen.findByRole("group", {
+      name: `${mainExerciseName} blokk`,
+    });
+
+    fireEvent.click(within(mainBlock).getByRole("button", { name: "Tilpass tekst" }));
+
+    const commentField = screen.getByLabelText("Kommentar til blokka");
+    fireEvent.change(commentField, {
+      target: { value: "Begge banehalvdeler brukes." },
+    });
+
+    expect(commentField).toHaveValue("Begge banehalvdeler brukes.");
+    expect(commentField).toHaveAttribute("draggable", "false");
+  });
+
   it("includes coach assignments in the shared full session link", async () => {
     const writeText = vi.fn().mockResolvedValue(undefined);
 
