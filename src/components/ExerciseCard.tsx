@@ -232,7 +232,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
             <StarIcon filled={isFavorite} />
           </button>
         </div>
-        {!compactAlwaysIncluded && (
+        {!compactAlwaysIncluded && exercise.description.trim() && (
           <p className="mt-1 text-sm text-zinc-600 group-hover:text-zinc-700">{exercise.description}</p>
         )}
         {!compactAlwaysIncluded && exerciseDiagram}

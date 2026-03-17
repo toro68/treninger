@@ -50,6 +50,20 @@ describe("SessionTimeline sharing", () => {
     expect(screen.getByText("Aktiv")).toBeInTheDocument();
   });
 
+  it("shows participating coaches in the session plan summary", async () => {
+    render(<SessionTimeline />);
+
+    await screen.findByRole("heading", { name: "Øktplan" });
+
+    const coachSummary = screen.getByText("Trenere på økta").closest("div");
+
+    expect(screen.getByText("12 spillere")).toBeInTheDocument();
+    expect(coachSummary).not.toBeNull();
+    expect(within(coachSummary!).getByText("Tor Inge")).toBeInTheDocument();
+    expect(within(coachSummary!).getByText("Tor Harald")).toBeInTheDocument();
+    expect(within(coachSummary!).getByText("Dawid")).toBeInTheDocument();
+  });
+
   it("copies the short session summary to the clipboard", async () => {
     const writeText = vi.fn().mockResolvedValue(undefined);
 
@@ -131,6 +145,29 @@ describe("SessionTimeline sharing", () => {
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
 
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
+  });
+
+  it("includes the coach roster in the full session link", async () => {
+    const writeText = vi.fn().mockResolvedValue(undefined);
+
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: { writeText },
+    });
+
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
+
+    await waitFor(() => {
+      expect(writeText).toHaveBeenCalledTimes(1);
+    });
+
+    const copiedUrl = new URL(writeText.mock.calls[0][0]);
+    const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
+
+    expect(decoded?.coachNames).toEqual(["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"]);
   });
 
   it("includes custom title and comments in the full session link", async () => {

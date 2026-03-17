@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
-import { allExercises, Exercise, ExerciseSource, getExerciseCode } from "@/data/exercises";
+import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituationalExercise } from "@/data/exercises";
 
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
@@ -1297,7 +1297,7 @@ export const filterAndGroupExercises = ({
   planningSectionMode?: PlanningSectionMode;
   favoriteIds?: Set<string>;
   theme?: string;
-  sourceFilter?: ExerciseSource | "egen" | null;
+  sourceFilter?: ExerciseSource | "egen" | "tiim-situasjon" | null;
   filterByPlayerCount?: boolean;
   searchQuery?: string;
   categories: Set<string>;
@@ -1336,6 +1336,9 @@ export const filterAndGroupExercises = ({
     if (sourceFilter === "egen") {
       // "Egne" skal fortsatt bety interne øvelser og K.T. Eggen-sporet.
       return !exercise.source || exercise.source === "eggen";
+    }
+    if (sourceFilter === "tiim-situasjon") {
+      return isTiimSituationalExercise(exercise);
     }
     return exerciseSource === sourceFilter;
   };

@@ -797,6 +797,52 @@ describe("sessionStore", () => {
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["fits-both"]);
     });
 
+    it("should filter Tiim situasjonsøvelser through the dedicated source chip", () => {
+      const library: Exercise[] = [
+        {
+          id: "tiim-situasjon",
+          exerciseNumber: 1,
+          name: "A1-A2 Situasjonsøvelse - 19",
+          category: "station",
+          duration: 12,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          source: "tiim",
+          sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
+        },
+        {
+          id: "tiim-vanlig",
+          exerciseNumber: 2,
+          name: "Pasningssirkel",
+          category: "station",
+          duration: 12,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          source: "tiim",
+          sourceUrl: "https://tiim.no/ovelse/pasningssirkel",
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        categories: new Set<string>(["station"]),
+        sourceFilter: "tiim-situasjon",
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["tiim-situasjon"]);
+    });
+
     it("should support 21 players split into 7 + 7 + 7", () => {
       const library: Exercise[] = [
         {
@@ -859,6 +905,19 @@ describe("sessionStore", () => {
   });
 
   describe("strength defaults", () => {
+    it("includes a generic strength placeholder without details", () => {
+      const strengthExercise = useSessionStore
+        .getState()
+        .exerciseLibrary.find((exercise) => exercise.id === "styrke-generic");
+
+      expect(strengthExercise).toBeDefined();
+      expect(strengthExercise?.name).toBe("Styrke");
+      expect(strengthExercise?.theme).toBe("styrke");
+      expect(strengthExercise?.description).toBe("");
+      expect(strengthExercise?.coachingPoints).toEqual([]);
+      expect(strengthExercise?.variations).toEqual([]);
+    });
+
     it("uses exercise duration and minutes for strength blocks", () => {
       const strengthExercise = useSessionStore
         .getState()

@@ -66,6 +66,24 @@ export const normalizeTheme = (value: string): ExerciseTheme => {
   throw new Error(`Ukjent theme-verdi: "${value}" (normalisert: "${mapped}")`);
 };
 
+const normalizeFilterToken = (value: string) =>
+  value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
+export const isTiimSituationalExercise = (
+  exercise: Pick<ExerciseData, "source" | "name" | "sourceUrl" | "tags">
+) => {
+  if (exercise.source !== "tiim") return false;
+
+  const haystack = [exercise.name, exercise.sourceUrl, ...(exercise.tags ?? [])]
+    .filter(Boolean)
+    .join(" ");
+
+  return normalizeFilterToken(haystack).includes("situasjonsovelse");
+};
+
 const normalizeCategory = (category: ExerciseCategory): ExerciseCategory => {
   // Historisk kategori i UI: slått sammen til warmup
   if (category === "aktivisering") return "warmup";
@@ -513,6 +531,20 @@ export const exercises: ExerciseData[] = [
     imageUrl: "/book-illustrations/drillo/drillo-figur-41-frispark-midtsone.png",
     source: "drillo",
     sourceRef: "Effektiv fotball - Drillo, frispark fra midtsone figur 41",
+  },
+  {
+    id: "styrke-generic",
+    exerciseNumber: 32,
+    name: "Styrke",
+    category: "cooldown",
+    duration: 10,
+    playersMin: 1,
+    playersMax: 30,
+    theme: "styrke",
+    equipment: [],
+    description: "",
+    coachingPoints: [],
+    variations: [],
   },
   {
     id: "planken",

@@ -39,6 +39,9 @@ function SharedSessionPageContent() {
       .filter((item) => !!item);
   }, [sharedSession]);
 
+  const coachNames = sharedSession?.coachNames ?? [];
+  const coachSummaryLabel = coachNames.length === 1 ? "Trener på økta" : "Trenere på økta";
+
   const groupedTheoryItems = useMemo(() => {
     return [
       {
@@ -111,6 +114,22 @@ function SharedSessionPageContent() {
             </div>
           </div>
 
+          {coachNames.length > 0 ? (
+            <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">{coachSummaryLabel}</p>
+              <div className="mt-2 flex flex-wrap gap-2 text-sm text-sky-950">
+                {coachNames.map((coachName) => (
+                  <span
+                    key={coachName}
+                    className="inline-flex items-center rounded-full border border-sky-200 bg-white px-3 py-1"
+                  >
+                    {coachName}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
           <div className="mt-6 space-y-6">
             {parts.map((part) => (
               <section key={part.key} className="rounded-2xl border border-zinc-200 bg-zinc-50/50 p-4 sm:p-5">
@@ -164,7 +183,9 @@ function SharedSessionPageContent() {
                                 ))}
                               </div>
                             ) : null}
-                            <p className="mt-2 text-sm leading-6 text-zinc-700">{block.exercise.description}</p>
+                            {block.exercise.description.trim() ? (
+                              <p className="mt-2 text-sm leading-6 text-zinc-700">{block.exercise.description}</p>
+                            ) : null}
                             {blockComment ? (
                               <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950">
                                 <span className="font-semibold text-amber-950">Kommentar:</span> {blockComment}

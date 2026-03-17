@@ -42,7 +42,16 @@ describe("Filters", () => {
           stationCount: 4,
           planningSectionMode: "single",
           exerciseLibrary: [
-            { id: "1", theme: "rondo", source: "tiim", playersMin: 4, playersMax: 20 },
+            {
+              id: "1",
+              name: "A1-A2 Situasjonsøvelse - 19",
+              sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
+              tags: [],
+              theme: "rondo",
+              source: "tiim",
+              playersMin: 4,
+              playersMax: 20,
+            },
             { id: "2", theme: "pasning", source: "egen", playersMin: 4, playersMax: 20 },
             { id: "3", theme: "pasning", source: "egen", playersMin: 4, playersMax: 20 },
           ],
@@ -72,6 +81,7 @@ describe("Filters", () => {
   it("should render source filter buttons", () => {
     renderFilters();
     expect(screen.getByText(/Egne/)).toBeInTheDocument();
+    expect(screen.getByText(/Tiim situasjon/)).toBeInTheDocument();
   });
 
   it("should call onSourceFilterChange when clicking a source", () => {
@@ -79,6 +89,13 @@ describe("Filters", () => {
     const egneButton = screen.getByText(/Egne/);
     fireEvent.click(egneButton);
     expect(props.onSourceFilterChange).toHaveBeenCalledWith("egen");
+  });
+
+  it("should call onSourceFilterChange when clicking the Tiim situasjon chip", () => {
+    const props = renderFilters();
+    const situasjonButton = screen.getByText(/Tiim situasjon/);
+    fireEvent.click(situasjonButton);
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith("tiim-situasjon");
   });
 });
 
@@ -91,7 +108,7 @@ describe("Filter types", () => {
   });
 
   it("should accept valid SourceFilter values", () => {
-    const sources: SourceFilter[] = [null, "egen", "tiim", "dbu", "drillo", "uefa"];
+    const sources: SourceFilter[] = [null, "egen", "tiim", "tiim-situasjon", "dbu", "drillo", "uefa"];
     sources.forEach((source) => {
       expect(source === null || typeof source === "string").toBe(true);
     });

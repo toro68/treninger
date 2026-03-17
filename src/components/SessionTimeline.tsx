@@ -382,7 +382,9 @@ export const SessionTimeline = () => {
         if (block.assignedCoachNames?.length) {
           result += `Ansvar: ${block.assignedCoachNames.join(", ")}\n`;
         }
-        result += `${block.exercise.description}\n`;
+        if (block.exercise.description.trim()) {
+          result += `${block.exercise.description}\n`;
+        }
         if (comment) {
           result += `\nKommentar:\n${comment}\n`;
         }
@@ -425,6 +427,7 @@ export const SessionTimeline = () => {
       sessionComment,
       playerCount,
       stationCount,
+      coachNames,
       selectedExerciseIds,
       selectedTheoryIds,
       plannedBlocks: sessionBlocks,
@@ -536,6 +539,7 @@ export const SessionTimeline = () => {
   };
 
   const hasContent = sessionBlocks.length > 0;
+  const coachSummaryLabel = coachNames.length === 1 ? "Trener på økta" : "Trenere på økta";
 
   if (!hydrated) {
     return (
@@ -634,6 +638,32 @@ export const SessionTimeline = () => {
           {saveStatus === "error" && "Kunne ikke lagre eller laste økt"}
         </p>
       )}
+
+      <div className="mt-4 rounded-2xl border border-zinc-200 bg-zinc-50/80 p-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Deltakere</p>
+            <p className="mt-1 text-sm text-zinc-700">{playerCount} spillere</p>
+          </div>
+          <div className="min-w-0 sm:max-w-[70%]">
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{coachSummaryLabel}</p>
+            {coachNames.length > 0 ? (
+              <div className="mt-2 flex flex-wrap gap-2">
+                {coachNames.map((coachName) => (
+                  <span
+                    key={coachName}
+                    className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-medium text-zinc-700"
+                  >
+                    {coachName}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="mt-1 text-sm text-zinc-500">Ingen trenere lagt til ennå.</p>
+            )}
+          </div>
+        </div>
+      </div>
 
       <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">

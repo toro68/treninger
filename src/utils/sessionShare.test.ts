@@ -15,6 +15,7 @@ describe("sessionShare", () => {
       sessionComment: "Kort avstand mellom ledd og tidlige løp bak.",
       playerCount: 14,
       stationCount: 2,
+      coachNames: ["Tor Inge", "John Arne", "Tor Inge"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(["theory-scan-before-ball"]),
       plannedBlocks: [
@@ -41,6 +42,7 @@ describe("sessionShare", () => {
     expect(decoded?.stationCount).toBe(2);
     expect(decoded?.sessionTitle).toBe("Angrep mot lavt press");
     expect(decoded?.sessionComment).toBe("Kort avstand mellom ledd og tidlige løp bak.");
+    expect(decoded?.coachNames).toEqual(["Tor Inge", "John Arne"]);
     expect(decoded?.selectedExerciseIds.has(exercise!.id)).toBe(true);
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
     const sharedBlock = decoded?.sessionBlocks.find((block) => block.id === exercise!.id);
@@ -62,11 +64,14 @@ describe("sessionShare", () => {
       sessionComment: "Tilpasset mot kampbildet vi forventer.",
       playerCount: 12,
       stationCount: 3,
+      coachNames: ["Tor Inge", "Rune"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(["theory-scan-before-ball"]),
       plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
     });
 
     expect(url.startsWith("https://example.com/okt?s=")).toBe(true);
+    const decoded = decodeSharedSessionToken(new URL(url).searchParams.get("s"));
+    expect(decoded?.coachNames).toEqual(["Tor Inge", "Rune"]);
   });
 });

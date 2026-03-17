@@ -1,10 +1,10 @@
 import { getSectionPlayerCounts, matchesExercisePlayerCountFilter, useSessionStore } from "@/store/sessionStore";
-import { ExerciseSource } from "@/data/exercises";
+import { ExerciseSource, isTiimSituationalExercise } from "@/data/exercises";
 import { useMemo } from "react";
 import { SearchField } from "@/components/SearchField";
 
 export type ThemeFilter = string | "alle";
-export type SourceFilter = ExerciseSource | "egen" | null; // null = vis alle
+export type SourceFilter = ExerciseSource | "egen" | "tiim-situasjon" | null; // null = vis alle
 
 // Konfigurasjon for hver kilde
 const sourceConfig: Record<string, { label: string; description: string; activeClass: string; dotClass: string }> = {
@@ -19,6 +19,12 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     description: "Øvelser fra NFF",
     activeClass: "border-emerald-500 bg-emerald-50 text-emerald-700",
     dotClass: "bg-emerald-500"
+  },
+  "tiim-situasjon": {
+    label: "Tiim situasjon",
+    description: "Situasjonsøvelser fra tiim.no",
+    activeClass: "border-emerald-700 bg-emerald-100 text-emerald-900",
+    dotClass: "bg-emerald-700"
   },
   eggen: {
     label: "Eggen",
@@ -143,6 +149,9 @@ export const Filters = ({
       const key = exercise.source || "egen";
       counts[key] = (counts[key] ?? 0) + 1;
       if (!exercise.source || exercise.source === "eggen") egneCount += 1;
+      if (isTiimSituationalExercise(exercise)) {
+        counts["tiim-situasjon"] = (counts["tiim-situasjon"] ?? 0) + 1;
+      }
     });
     // "Egne" inkluderer både helt egne og Eggen (samme logikk som i filterAndGroupExercises)
     counts.egen = egneCount;
@@ -166,6 +175,8 @@ export const Filters = ({
         if (sourceFilter === "egen") {
           // Vis egne øvelser (inkludert K.T. Eggen, men ikke Godfoten)
           if (exercise.source && exerciseSource !== "eggen") return;
+        } else if (sourceFilter === "tiim-situasjon") {
+          if (!isTiimSituationalExercise(exercise)) return;
         } else if (exerciseSource !== sourceFilter) {
           return;
         }

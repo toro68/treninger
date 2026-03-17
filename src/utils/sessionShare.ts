@@ -21,6 +21,7 @@ type SharedSessionPayloadV1 = {
   sessionComment?: string;
   playerCount: number;
   stationCount: number;
+  coachNames?: string[];
   selectedExerciseIds: string[];
   selectedTheoryIds?: string[];
   plannedBlocks?: null;
@@ -32,6 +33,7 @@ type SharedSessionPayloadV2 = {
   sessionComment?: string;
   playerCount: number;
   stationCount: number;
+  coachNames?: string[];
   selectedExerciseIds: string[];
   selectedTheoryIds: string[];
   plannedBlocks: SharedBlock[] | null;
@@ -44,6 +46,7 @@ export type SharedSessionData = {
   sessionComment?: string;
   playerCount: number;
   stationCount: number;
+  coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   sessionBlocks: SessionBlock[];
@@ -86,6 +89,23 @@ const normalizeOptionalText = (value: unknown) => {
   if (typeof value !== "string") return undefined;
   const normalized = value.trim();
   return normalized ? normalized : undefined;
+};
+
+const normalizeCoachNames = (names?: Iterable<string>) => {
+  const normalized: string[] = [];
+  const seen = new Set<string>();
+
+  for (const rawName of names ?? []) {
+    if (typeof rawName !== "string") continue;
+    const name = rawName.trim();
+    if (!name) continue;
+    const key = name.toLocaleLowerCase("nb-NO");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    normalized.push(name);
+  }
+
+  return normalized;
 };
 
 const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | null => {
@@ -238,6 +258,7 @@ export const createSharedSessionToken = ({
   sessionComment,
   playerCount,
   stationCount,
+  coachNames,
   selectedExerciseIds,
   selectedTheoryIds,
   plannedBlocks,
@@ -246,6 +267,7 @@ export const createSharedSessionToken = ({
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
@@ -256,6 +278,7 @@ export const createSharedSessionToken = ({
     sessionComment: normalizeOptionalText(sessionComment),
     playerCount,
     stationCount,
+    coachNames: normalizeCoachNames(coachNames),
     selectedExerciseIds: [...selectedExerciseIds],
     selectedTheoryIds: [...selectedTheoryIds],
     plannedBlocks: serializePlannedBlocks(plannedBlocks),
@@ -270,6 +293,7 @@ export const buildSharedSessionUrl = ({
   sessionComment,
   playerCount,
   stationCount,
+  coachNames,
   selectedExerciseIds,
   selectedTheoryIds,
   plannedBlocks,
@@ -279,6 +303,7 @@ export const buildSharedSessionUrl = ({
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
   plannedBlocks: SessionBlock[] | null;
@@ -288,6 +313,7 @@ export const buildSharedSessionUrl = ({
     sessionComment,
     playerCount,
     stationCount,
+    coachNames,
     selectedExerciseIds,
     selectedTheoryIds,
     plannedBlocks,
@@ -323,12 +349,17 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
     const plannedBlocks = hydratePlannedBlocks(
       Array.isArray(parsed.plannedBlocks) ? (parsed.plannedBlocks as SharedBlock[]) : null
     );
+    const coachNames = normalizeCoachNames([
+      ...(Array.isArray(parsed.coachNames) ? parsed.coachNames : []),
+      ...(plannedBlocks?.flatMap((block) => block.assignedCoachNames ?? []) ?? []),
+    ]);
 
     return {
       sessionTitle: normalizeOptionalText(parsed.sessionTitle),
       sessionComment: normalizeOptionalText(parsed.sessionComment),
       playerCount: parsed.playerCount,
       stationCount: parsed.stationCount,
+      coachNames,
       selectedExerciseIds,
       selectedTheoryIds,
       sessionBlocks: mergeWithPlannedOrder(selectedExerciseIds, plannedBlocks),
