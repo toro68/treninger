@@ -261,14 +261,16 @@ const normalizeOptionalText = (value: unknown) => {
 const normalizeStationSectionCount = (count: unknown) =>
   typeof count === "number" ? Math.max(2, Math.min(4, count)) : undefined;
 
-const normalizeStationSectionMetadata = (blocks: SessionBlock[] | null) => {
+const normalizeStationSectionMetadata = (
+  blocks: SessionBlock[] | null
+): SessionBlock[] | null => {
   if (!blocks || blocks.length === 0) return blocks;
 
   let currentRequiredCount: number | undefined;
   let currentSectionLength = 0;
   let previousWasStation = false;
 
-  return blocks.map((block, index) => {
+  return blocks.map<SessionBlock>((block, index) => {
     const isStationBlock =
       block.planningMode === "station" ||
       (block.planningMode === undefined && block.exercise.category === "station");
