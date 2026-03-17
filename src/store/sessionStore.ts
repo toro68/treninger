@@ -4,7 +4,7 @@ import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituatio
 
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
-export type PlanningSectionTarget = "auto" | "next-section";
+export type PlanningSectionTarget = "auto" | "next-section" | `section-${number}`;
 
 export const DEFAULT_COACH_NAMES = [
   "Tor Inge",
@@ -262,6 +262,12 @@ const normalizeOptionalText = (value: unknown) => {
 const normalizeStationSectionCount = (count: unknown) =>
   typeof count === "number" ? Math.max(2, Math.min(4, count)) : undefined;
 
+const getExplicitSectionNumber = (target: PlanningSectionTarget) => {
+  if (!target.startsWith("section-")) return null;
+  const sectionNumber = Number(target.slice("section-".length));
+  return Number.isInteger(sectionNumber) && sectionNumber > 0 ? sectionNumber : null;
+};
+
 const normalizeStationSectionMetadata = (
   blocks: SessionBlock[] | null
 ): SessionBlock[] | null => {
@@ -398,11 +404,13 @@ export const getActivePlanningSection = ({
   playerCount,
   planningSectionMode,
   stationCount,
+  planningSectionTarget = "auto",
 }: {
   sessionBlocks: SessionBlock[];
   playerCount: number;
   planningSectionMode: PlanningSectionMode;
   stationCount: number;
+  planningSectionTarget?: PlanningSectionTarget;
 }) => {
   const completedSections = buildTimelineSections(sessionBlocks).length;
 
@@ -417,6 +425,35 @@ export const getActivePlanningSection = ({
   }
 
   const configuredCount = Math.max(2, Math.min(4, stationCount));
+  const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
+
+  if (planningSectionTarget === "next-section") {
+    return {
+      sectionNumber: completedSections + 1,
+      playerCounts: getSectionPlayerCounts(playerCount, "stations", configuredCount),
+      selectedCount: 0,
+      requiredCount: configuredCount,
+      isComplete: false,
+    };
+  }
+
+  if (explicitSectionNumber !== null) {
+    const explicitSection = getStationSectionInfoByNumber(sessionBlocks, explicitSectionNumber);
+    if (explicitSection) {
+      return {
+        sectionNumber: explicitSection.sectionNumber,
+        playerCounts: getSectionPlayerCounts(
+          playerCount,
+          "stations",
+          explicitSection.requiredCount
+        ),
+        selectedCount: explicitSection.selectedCount,
+        requiredCount: explicitSection.requiredCount,
+        isComplete: explicitSection.isComplete,
+      };
+    }
+  }
+
   const trailingStationSection = getTrailingStationSectionInfo(sessionBlocks);
   const trailingRequiredCount = trailingStationSection?.requiredCount ?? configuredCount;
   const trailingCount = trailingStationSection?.count ?? 0;
@@ -459,6 +496,24 @@ const appendBlockForPlanningSection = ({
   }
 
   const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
+  const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
+
+  if (explicitSectionNumber !== null) {
+    const explicitSection = getStationSectionInfoByNumber(blocks, explicitSectionNumber);
+
+    if (explicitSection && explicitSection.selectedCount < explicitSection.requiredCount) {
+      const updatedBlocks = [...blocks];
+      updatedBlocks.splice(explicitSection.endIndex + 1, 0, {
+        id: exercise.id,
+        exercise,
+        planningMode: "station",
+        sectionStationCount: explicitSection.requiredCount,
+      });
+
+      return normalizeStationSectionMetadata(updatedBlocks) ?? updatedBlocks;
+    }
+  }
+
   const trailingStationSection = getTrailingStationSectionInfo(blocks);
   const trailingCount = trailingStationSection?.count ?? 0;
   const trailingRequiredCount = trailingStationSection?.requiredCount ?? normalizedStationCount;
@@ -508,6 +563,52 @@ const buildTimelineSections = (sessionBlocks: SessionBlock[]) => {
 
   return sections;
 };
+
+type StationSectionInfo = {
+  sectionNumber: number;
+  startIndex: number;
+  endIndex: number;
+  selectedCount: number;
+  requiredCount: number;
+  isComplete: boolean;
+};
+
+const getStationSectionInfos = (sessionBlocks: SessionBlock[]): StationSectionInfo[] => {
+  const sections = buildTimelineSections(sessionBlocks);
+  const stationSections: StationSectionInfo[] = [];
+  let startIndex = 0;
+
+  sections.forEach((sectionBlocks, index) => {
+    const endIndex = startIndex + sectionBlocks.length - 1;
+    const firstBlock = sectionBlocks[0];
+    const isStationSection =
+      firstBlock?.planningMode === "station" ||
+      (firstBlock?.planningMode === undefined && firstBlock?.exercise.category === "station");
+
+    if (isStationSection && firstBlock) {
+      const requiredCount =
+        normalizeStationSectionCount(firstBlock.sectionStationCount) ?? sectionBlocks.length;
+
+      stationSections.push({
+        sectionNumber: index + 1,
+        startIndex,
+        endIndex,
+        selectedCount: sectionBlocks.length,
+        requiredCount,
+        isComplete: sectionBlocks.length >= requiredCount,
+      });
+    }
+
+    startIndex = endIndex + 1;
+  });
+
+  return stationSections;
+};
+
+const getStationSectionInfoByNumber = (
+  sessionBlocks: SessionBlock[],
+  sectionNumber: number
+) => getStationSectionInfos(sessionBlocks).find((section) => section.sectionNumber === sectionNumber) ?? null;
 
 const safeJsonParse = (value: string): unknown => {
   try {
@@ -843,6 +944,9 @@ export const useSessionStore = create<SessionState>()(
       setStationCount: (count) =>
         set((state) => {
           const normalizedStationCount = Math.max(2, Math.min(4, count));
+          const explicitSectionNumber = getExplicitSectionNumber(
+            state.planningSectionTarget
+          );
 
           if (
             state.planningSectionMode !== "stations" ||
@@ -851,6 +955,19 @@ export const useSessionStore = create<SessionState>()(
             return {
               stationCount: normalizedStationCount,
               nextSectionStationCount: normalizedStationCount,
+            };
+          }
+
+          if (explicitSectionNumber !== null) {
+            return {
+              stationCount: normalizedStationCount,
+              nextSectionStationCount: state.nextSectionStationCount,
+              plannedBlocks:
+                retuneStationSectionCount(
+                  state.plannedBlocks,
+                  explicitSectionNumber,
+                  normalizedStationCount
+                ) ?? state.plannedBlocks,
             };
           }
 
@@ -867,10 +984,25 @@ export const useSessionStore = create<SessionState>()(
       setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
       setPlanningSectionTarget: (target) =>
         set((state) => {
+          const explicitSectionNumber = getExplicitSectionNumber(target);
+
           if (target === "next-section") {
             return {
               planningSectionTarget: target,
               stationCount: state.nextSectionStationCount,
+            };
+          }
+
+          if (explicitSectionNumber !== null) {
+            const explicitSection = getStationSectionInfoByNumber(
+              state.plannedBlocks ?? [],
+              explicitSectionNumber
+            );
+
+            return {
+              planningSectionTarget: target,
+              stationCount:
+                explicitSection?.requiredCount ?? state.stationCount,
             };
           }
 
@@ -1398,6 +1530,31 @@ const getIncompleteTrailingStationSectionCount = (blocks: SessionBlock[] | null)
   }
 
   return trailingSection.requiredCount;
+};
+
+const retuneStationSectionCount = (
+  blocks: SessionBlock[] | null,
+  sectionNumber: number,
+  stationCount: number
+) => {
+  if (!blocks || blocks.length === 0) return blocks;
+
+  const section = getStationSectionInfoByNumber(blocks, sectionNumber);
+  if (!section) return blocks;
+
+  const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
+
+  return normalizeStationSectionMetadata(
+    blocks.map((block, index) => {
+      if (index < section.startIndex || index > section.endIndex) return block;
+
+      return {
+        ...block,
+        planningMode: "station",
+        sectionStationCount: normalizedStationCount,
+      };
+    })
+  );
 };
 
 export const getUnit = (block: SessionBlock): DurationUnit => {

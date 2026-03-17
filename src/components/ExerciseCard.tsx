@@ -108,18 +108,13 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
         playerCount,
         planningSectionMode,
         stationCount,
+        planningSectionTarget,
       }),
-    [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, planningSectionMode, stationCount]
+    [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, planningSectionMode, stationCount, planningSectionTarget]
   );
 
-  const displayedSelectedCount =
-    planningSectionMode === "stations" && planningSectionTarget === "next-section"
-      ? 0
-      : activeSection.selectedCount;
-  const displayedRequiredCount =
-    planningSectionMode === "stations" && planningSectionTarget === "next-section"
-      ? stationCount
-      : activeSection.requiredCount;
+  const displayedSelectedCount = activeSection.selectedCount;
+  const displayedRequiredCount = activeSection.requiredCount;
 
   const addButtonLabel =
     planningSectionMode === "stations"

@@ -113,6 +113,10 @@ export const SessionTimeline = () => {
     });
     return map;
   }, [parts]);
+  const stationParts = useMemo(
+    () => parts.filter((part) => part.baseKey === "stasjoner"),
+    [parts]
+  );
 
   const totalMinutes = sessionBlocks.reduce(
     (acc, block) => acc + recommendedDuration(block),
@@ -125,10 +129,11 @@ export const SessionTimeline = () => {
         playerCount,
         planningSectionMode,
         stationCount,
+        planningSectionTarget,
       }),
-    [sessionBlocks, playerCount, planningSectionMode, stationCount]
+    [sessionBlocks, playerCount, planningSectionMode, stationCount, planningSectionTarget]
   );
-  const nextSectionNumber = activeSection.sectionNumber;
+  const nextSectionNumber = parts.length + 1;
   const isIncompleteStationSection =
     planningSectionMode === "stations" &&
     activeSection.selectedCount > 0 &&
@@ -137,13 +142,15 @@ export const SessionTimeline = () => {
     ? activeSection.requiredCount - activeSection.selectedCount
     : 0;
   const isPlanningNextSection = planningSectionTarget === "next-section";
-  const displayedSectionNumber = isPlanningNextSection ? parts.length + 1 : nextSectionNumber;
+  const explicitSectionTarget =
+    planningSectionTarget !== "auto" && planningSectionTarget !== "next-section"
+      ? planningSectionTarget
+      : null;
+  const displayedSectionNumber = activeSection.sectionNumber;
   const displayedPlayerCounts =
-    planningSectionMode === "stations"
-      ? getSectionPlayerCounts(playerCount, "stations", stationCount)
-      : [playerCount];
-  const displayedRequiredCount = planningSectionMode === "stations" ? stationCount : 1;
-  const displayedSelectedCount = isPlanningNextSection ? 0 : activeSection.selectedCount;
+    planningSectionMode === "stations" ? activeSection.playerCounts : [playerCount];
+  const displayedRequiredCount = activeSection.requiredCount;
+  const displayedSelectedCount = activeSection.selectedCount;
   const activeSectionSplitLabel =
     displayedPlayerCounts.length === 1
       ? `${displayedPlayerCounts[0]} spillere sammen`
@@ -701,19 +708,29 @@ export const SessionTimeline = () => {
               : "1 øvelse for alle"}
           </span>
         </div>
-        {isIncompleteStationSection ? (
+        {stationParts.length > 0 ? (
           <div className="mt-3 flex flex-wrap gap-2">
-            <button
-              type="button"
-              onClick={() => setPlanningSectionTarget("auto")}
-              className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
-                !isPlanningNextSection
-                  ? "border-amber-700 bg-amber-700 text-white"
-                  : "border-amber-200 bg-white text-amber-900 hover:border-amber-400"
-              }`}
-            >
-              {`Rediger seksjon ${nextSectionNumber}`}
-            </button>
+            {stationParts.map((part) => {
+              const partTarget = `section-${part.orderNumber}` as const;
+              const isSelected =
+                planningSectionTarget === partTarget ||
+                (planningSectionTarget === "auto" && displayedSectionNumber === part.orderNumber && !isPlanningNextSection);
+
+              return (
+                <button
+                  key={part.key}
+                  type="button"
+                  onClick={() => setPlanningSectionTarget(partTarget)}
+                  className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                    isSelected
+                      ? "border-amber-700 bg-amber-700 text-white"
+                      : "border-amber-200 bg-white text-amber-900 hover:border-amber-400"
+                  }`}
+                >
+                  {`Rediger seksjon ${part.orderNumber}`}
+                </button>
+              );
+            })}
             <button
               type="button"
               onClick={() => setPlanningSectionTarget("next-section")}
@@ -774,6 +791,13 @@ export const SessionTimeline = () => {
             <p className="font-semibold">Du planlegger neste seksjon eksplisitt.</p>
             <p className="mt-1">
               Endringer i antall stasjoner gjelder seksjon {displayedSectionNumber}. Forrige uferdige seksjon blir ikke endret før du velger å redigere den eksplisitt.
+            </p>
+          </div>
+        ) : explicitSectionTarget ? (
+          <div className="mt-3 rounded-2xl border border-amber-200 bg-white/80 px-3 py-3 text-xs text-amber-950">
+            <p className="font-semibold">Du redigerer en valgt seksjon eksplisitt.</p>
+            <p className="mt-1">
+              Endringer i antall stasjoner og nye valg fra biblioteket går til seksjon {displayedSectionNumber} til du velger en annen seksjon.
             </p>
           </div>
         ) : null}

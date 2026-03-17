@@ -153,6 +153,52 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().nextSectionStationCount).toBe(3);
       expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(2);
     });
+
+    it("should retune an explicitly selected earlier section without changing a later one", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 3,
+        nextSectionStationCount: 3,
+        planningSectionTarget: "section-2",
+        plannedBlocks: [
+          {
+            id: fixedWarmup!.id,
+            exercise: fixedWarmup!,
+          },
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+          {
+            id: exercises[1]!.id,
+            exercise: exercises[1]!,
+            planningMode: "station",
+            sectionStationCount: 3,
+            stationRoundStart: true,
+          },
+        ],
+      });
+
+      useSessionStore.getState().setStationCount(4);
+
+      const blocks = useSessionStore.getState().plannedBlocks ?? [];
+
+      expect(blocks[1]?.sectionStationCount).toBe(4);
+      expect(blocks[2]?.sectionStationCount).toBe(3);
+    });
   });
 
   describe("toggleExercise", () => {

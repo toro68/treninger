@@ -434,6 +434,54 @@ describe("SessionTimeline sharing", () => {
     expect(screen.queryByText("0/3 stasjoner valgt")).not.toBeInTheDocument();
   });
 
+  it("lets the user switch back to an earlier incomplete section after starting a later one", async () => {
+    const state = useSessionStore.getState();
+    const fixedWarmup = state.exerciseLibrary.find(
+      (item) => item.category === "fixed-warmup" && item.alwaysIncluded
+    );
+    const exercises = state.exerciseLibrary.filter((item) => item.category === "game");
+
+    expect(fixedWarmup).toBeDefined();
+    expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+    useSessionStore.setState({
+      planningSectionMode: "stations",
+      stationCount: 3,
+      nextSectionStationCount: 3,
+      planningSectionTarget: "section-2",
+      selectedExerciseIds: new Set([fixedWarmup!.id, exercises[0]!.id, exercises[1]!.id]),
+      plannedBlocks: [
+        {
+          id: fixedWarmup!.id,
+          exercise: fixedWarmup!,
+        },
+        {
+          id: exercises[0]!.id,
+          exercise: exercises[0]!,
+          planningMode: "station",
+          sectionStationCount: 2,
+        },
+        {
+          id: exercises[1]!.id,
+          exercise: exercises[1]!,
+          planningMode: "station",
+          sectionStationCount: 3,
+          stationRoundStart: true,
+        },
+      ],
+    });
+
+    render(<SessionTimeline />);
+
+    expect(await screen.findByRole("heading", { name: "Seksjon 2" })).toBeInTheDocument();
+    expect(screen.getByText("1/2 stasjoner valgt")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Rediger seksjon 3" }));
+
+    expect(screen.getByRole("heading", { name: "Seksjon 3" })).toBeInTheDocument();
+    expect(screen.getByText("1/3 stasjoner valgt")).toBeInTheDocument();
+  });
+
   it("keeps the next section active when station count increases after a completed station section", async () => {
     const state = useSessionStore.getState();
     const fixedWarmup = state.exerciseLibrary.find(
