@@ -793,7 +793,8 @@ const hydratePlannedBlocks = (
         });
       }
     });
-    return hydrated.length > 0 ? hydrated : null;
+    if (hydrated.length === 0) return null;
+    return normalizeStationSectionMetadata(hydrated) ?? hydrated;
   }
 
   return null;

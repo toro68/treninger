@@ -590,6 +590,78 @@ describe("sessionStore", () => {
       expect(savedSessions[0].selectedExerciseIds).toEqual([exercise!.id]);
       expect(savedSessions[0].plannedBlocks?.[0].id).toBe(exercise!.id);
     });
+
+    it("should normalize stale station metadata when loading a saved session", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(3);
+
+      useSessionStore.setState({
+        savedSessions: [
+          {
+            id: "saved-stale",
+            name: "Stale station state",
+            createdAt: "2026-03-17T10:00:00.000Z",
+            updatedAt: "2026-03-17T10:05:00.000Z",
+            playerCount: 16,
+            stationCount: 3,
+            coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
+            selectedExerciseIds: [
+              fixedWarmup!.id,
+              exercises[0]!.id,
+              exercises[1]!.id,
+              exercises[2]!.id,
+            ],
+            selectedTheoryIds: [],
+            plannedBlocks: [
+              {
+                id: fixedWarmup!.id,
+              },
+              {
+                id: exercises[0]!.id,
+                planningMode: "station",
+                sectionStationCount: 2,
+                stationRoundStart: true,
+              },
+              {
+                id: exercises[1]!.id,
+                planningMode: "station",
+                sectionStationCount: 2,
+              },
+              {
+                id: exercises[2]!.id,
+                planningMode: "station",
+                sectionStationCount: 3,
+              },
+            ],
+          },
+        ],
+      });
+
+      const loaded = useSessionStore.getState().loadSavedSession("saved-stale");
+
+      expect(loaded).toBe(true);
+
+      const plannedBlocks = useSessionStore.getState().plannedBlocks ?? [];
+      const activeSection = getActivePlanningSection({
+        sessionBlocks: plannedBlocks,
+        playerCount: 16,
+        planningSectionMode: "stations",
+        stationCount: 3,
+      });
+
+      expect(plannedBlocks[3]?.stationRoundStart).toBe(true);
+      expect(activeSection.sectionNumber).toBe(3);
+      expect(activeSection.selectedCount).toBe(1);
+      expect(activeSection.requiredCount).toBe(3);
+    });
   });
 
   describe("filterAndGroupExercises", () => {
