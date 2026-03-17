@@ -712,7 +712,7 @@ export const SessionTimeline = () => {
                   : "border-amber-200 bg-white text-amber-900 hover:border-amber-400"
               }`}
             >
-              {`Fortsett seksjon ${nextSectionNumber}`}
+              {`Rediger seksjon ${nextSectionNumber}`}
             </button>
             <button
               type="button"
@@ -723,7 +723,7 @@ export const SessionTimeline = () => {
                   : "border-sky-200 bg-white text-sky-900 hover:border-sky-400"
               }`}
             >
-              {`Start seksjon ${parts.length + 1}`}
+              {`Planlegg seksjon ${parts.length + 1}`}
             </button>
           </div>
         ) : null}
@@ -773,7 +773,7 @@ export const SessionTimeline = () => {
           <div className="mt-3 rounded-2xl border border-sky-200 bg-white/80 px-3 py-3 text-xs text-sky-950">
             <p className="font-semibold">Du planlegger neste seksjon eksplisitt.</p>
             <p className="mt-1">
-              Endringer i antall stasjoner gjelder seksjon {displayedSectionNumber}. Forrige uferdige seksjon blir ikke endret før du velger å fortsette den.
+              Endringer i antall stasjoner gjelder seksjon {displayedSectionNumber}. Forrige uferdige seksjon blir ikke endret før du velger å redigere den eksplisitt.
             </p>
           </div>
         ) : null}

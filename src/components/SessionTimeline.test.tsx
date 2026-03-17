@@ -20,7 +20,9 @@ describe("SessionTimeline sharing", () => {
       sessionComment: "",
       playerCount: 12,
       stationCount: 3,
+      nextSectionStationCount: 3,
       planningSectionMode: "single",
+      planningSectionTarget: "auto",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(),
@@ -376,16 +378,60 @@ describe("SessionTimeline sharing", () => {
 
     render(<SessionTimeline />);
 
-    expect(await screen.findByRole("button", { name: "Fortsett seksjon 2" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Start seksjon 3" })).toBeInTheDocument();
+    expect(await screen.findByRole("button", { name: "Rediger seksjon 2" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Planlegg seksjon 3" })).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("button", { name: "Start seksjon 3" }));
+    fireEvent.click(screen.getByRole("button", { name: "Planlegg seksjon 3" }));
     fireEvent.click(screen.getByRole("button", { name: "3 stasjoner" }));
 
     expect(screen.getByRole("heading", { name: "Seksjon 3" })).toBeInTheDocument();
     expect(screen.getByText("0/3 stasjoner valgt")).toBeInTheDocument();
     expect(screen.getByText(/Du planlegger neste seksjon eksplisitt/)).toBeInTheDocument();
     expect(screen.queryByText("Seksjonen er ikke ferdig ennå.")).not.toBeInTheDocument();
+  });
+
+  it("switches the visible station count when changing between current and next section", async () => {
+    const state = useSessionStore.getState();
+    const fixedWarmup = state.exerciseLibrary.find(
+      (item) => item.category === "fixed-warmup" && item.alwaysIncluded
+    );
+    const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+    expect(fixedWarmup).toBeDefined();
+    expect(exercise).toBeDefined();
+
+    useSessionStore.setState({
+      planningSectionMode: "stations",
+      stationCount: 2,
+      nextSectionStationCount: 2,
+      selectedExerciseIds: new Set([fixedWarmup!.id, exercise!.id]),
+      plannedBlocks: [
+        {
+          id: fixedWarmup!.id,
+          exercise: fixedWarmup!,
+        },
+        {
+          id: exercise!.id,
+          exercise: exercise!,
+          planningMode: "station",
+          sectionStationCount: 2,
+        },
+      ],
+    });
+
+    render(<SessionTimeline />);
+
+    expect(await screen.findByText("1/2 stasjoner valgt")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Planlegg seksjon 3" }));
+    fireEvent.click(screen.getByRole("button", { name: "3 stasjoner" }));
+
+    expect(screen.getByText("0/3 stasjoner valgt")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Rediger seksjon 2" }));
+
+    expect(screen.getByText("1/2 stasjoner valgt")).toBeInTheDocument();
+    expect(screen.queryByText("0/3 stasjoner valgt")).not.toBeInTheDocument();
   });
 
   it("keeps the next section active when station count increases after a completed station section", async () => {

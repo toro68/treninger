@@ -14,6 +14,7 @@ describe("ExerciseCard", () => {
       sessionComment: "",
       playerCount: 12,
       stationCount: 2,
+      nextSectionStationCount: 2,
       planningSectionMode: "single",
       planningSectionTarget: "auto",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],

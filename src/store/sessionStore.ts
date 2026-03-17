@@ -68,6 +68,7 @@ type SessionState = {
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  nextSectionStationCount: number;
   planningSectionMode: PlanningSectionMode;
   planningSectionTarget: PlanningSectionTarget;
   coachNames: string[];
@@ -524,6 +525,7 @@ type PersistedSessionState = {
   sessionComment: string;
   playerCount: number;
   stationCount: number;
+  nextSectionStationCount: number;
   planningSectionMode: PlanningSectionMode;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
@@ -828,6 +830,7 @@ export const useSessionStore = create<SessionState>()(
       sessionComment: "",
       playerCount: 12,
       stationCount: 2,
+      nextSectionStationCount: 2,
       planningSectionMode: "single",
       planningSectionTarget: "auto",
       coachNames: defaultCoachNames(),
@@ -845,11 +848,15 @@ export const useSessionStore = create<SessionState>()(
             state.planningSectionMode !== "stations" ||
             state.planningSectionTarget === "next-section"
           ) {
-            return { stationCount: normalizedStationCount };
+            return {
+              stationCount: normalizedStationCount,
+              nextSectionStationCount: normalizedStationCount,
+            };
           }
 
           return {
             stationCount: normalizedStationCount,
+            nextSectionStationCount: state.nextSectionStationCount,
             plannedBlocks:
               retuneTrailingStationSectionCount(
                 state.plannedBlocks,
@@ -858,7 +865,24 @@ export const useSessionStore = create<SessionState>()(
           };
         }),
       setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
-      setPlanningSectionTarget: (target) => set({ planningSectionTarget: target }),
+      setPlanningSectionTarget: (target) =>
+        set((state) => {
+          if (target === "next-section") {
+            return {
+              planningSectionTarget: target,
+              stationCount: state.nextSectionStationCount,
+            };
+          }
+
+          const currentSectionStationCount = getIncompleteTrailingStationSectionCount(
+            state.plannedBlocks
+          );
+
+          return {
+            planningSectionTarget: target,
+            stationCount: currentSectionStationCount ?? state.stationCount,
+          };
+        }),
       setSessionTitle: (title) => set({ sessionTitle: title }),
       setSessionComment: (comment) => set({ sessionComment: comment }),
       addCoachName: (name) =>
@@ -890,6 +914,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: "",
           selectedExerciseIds: new Set(exerciseIds),
           selectedTheoryIds: new Set(theoryIds),
+          nextSectionStationCount: 2,
           planningSectionTarget: "auto",
           highlightExerciseId: null,
         }),
@@ -1071,6 +1096,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: "",
           selectedExerciseIds: new Set(),
           selectedTheoryIds: new Set(),
+          nextSectionStationCount: 2,
           planningSectionTarget: "auto",
           searchQuery: "",
           highlightExerciseId: null,
@@ -1158,6 +1184,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: saved.sessionComment ?? "",
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
+          nextSectionStationCount: saved.stationCount,
           planningSectionMode: "single",
           planningSectionTarget: "auto",
           coachNames,
@@ -1184,6 +1211,7 @@ export const useSessionStore = create<SessionState>()(
         sessionComment: state.sessionComment,
         playerCount: state.playerCount,
         stationCount: state.stationCount,
+        nextSectionStationCount: state.nextSectionStationCount,
         planningSectionMode: state.planningSectionMode,
         coachNames: state.coachNames,
         selectedExerciseIds: state.selectedExerciseIds,
@@ -1233,6 +1261,10 @@ export const useSessionStore = create<SessionState>()(
             typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
           const stationCount =
             typeof parsedState.stationCount === "number" ? parsedState.stationCount : 2;
+          const nextSectionStationCount =
+            typeof parsedState.nextSectionStationCount === "number"
+              ? Math.max(2, Math.min(4, parsedState.nextSectionStationCount))
+              : stationCount;
           const planningSectionMode =
             parsedState.planningSectionMode === "stations" ? "stations" : "single";
           const sessionTitle =
@@ -1272,6 +1304,7 @@ export const useSessionStore = create<SessionState>()(
               sessionComment,
               playerCount,
               stationCount,
+              nextSectionStationCount,
               planningSectionMode,
               coachNames,
               customExercises: persistedCustom,
@@ -1294,6 +1327,7 @@ export const useSessionStore = create<SessionState>()(
               sessionComment: value.state.sessionComment ?? "",
               playerCount: value.state.playerCount,
               stationCount: value.state.stationCount,
+              nextSectionStationCount: value.state.nextSectionStationCount ?? value.state.stationCount,
               planningSectionMode: value.state.planningSectionMode ?? "single",
               coachNames: value.state.coachNames ?? defaultCoachNames(),
               plannedBlocks: serializePlannedBlocks(value.state.plannedBlocks),
@@ -1353,6 +1387,17 @@ export const recommendedDuration = (block: SessionBlock) => {
     return cooldownDuration;
   }
   return block.exercise.duration;
+};
+
+const getIncompleteTrailingStationSectionCount = (blocks: SessionBlock[] | null) => {
+  if (!blocks || blocks.length === 0) return null;
+
+  const trailingSection = getTrailingStationSectionInfo(blocks);
+  if (!trailingSection || trailingSection.count >= trailingSection.requiredCount) {
+    return null;
+  }
+
+  return trailingSection.requiredCount;
 };
 
 export const getUnit = (block: SessionBlock): DurationUnit => {

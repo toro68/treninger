@@ -13,6 +13,7 @@ describe("sessionStore", () => {
       sessionComment: "",
       playerCount: 16,
       stationCount: 4,
+      nextSectionStationCount: 4,
       planningSectionMode: "single",
       planningSectionTarget: "auto",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
@@ -114,6 +115,42 @@ describe("sessionStore", () => {
 
       useSessionStore.getState().setStationCount(3);
 
+      expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(2);
+    });
+
+    it("should keep separate station counts for current and next section targets", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(1);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+        nextSectionStationCount: 2,
+        plannedBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+        ],
+      });
+
+      useSessionStore.getState().setPlanningSectionTarget("next-section");
+      useSessionStore.getState().setStationCount(3);
+
+      expect(useSessionStore.getState().stationCount).toBe(3);
+      expect(useSessionStore.getState().nextSectionStationCount).toBe(3);
+      expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(2);
+
+      useSessionStore.getState().setPlanningSectionTarget("auto");
+
+      expect(useSessionStore.getState().stationCount).toBe(2);
+      expect(useSessionStore.getState().nextSectionStationCount).toBe(3);
       expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(2);
     });
   });
