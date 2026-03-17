@@ -53,6 +53,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     toggleFavorite,
     appendExerciseToPlan,
     planningSectionMode,
+    planningSectionTarget,
     stationCount,
     playerCount,
     selectedExerciseIds,
@@ -66,6 +67,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
       toggleFavorite: state.toggleFavorite,
       appendExerciseToPlan: state.appendExerciseToPlan,
       planningSectionMode: state.planningSectionMode,
+      planningSectionTarget: state.planningSectionTarget,
       stationCount: state.stationCount,
       playerCount: state.playerCount,
       selectedExerciseIds: state.selectedExerciseIds,
@@ -110,9 +112,18 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, planningSectionMode, stationCount]
   );
 
+  const displayedSelectedCount =
+    planningSectionMode === "stations" && planningSectionTarget === "next-section"
+      ? 0
+      : activeSection.selectedCount;
+  const displayedRequiredCount =
+    planningSectionMode === "stations" && planningSectionTarget === "next-section"
+      ? stationCount
+      : activeSection.requiredCount;
+
   const addButtonLabel =
     planningSectionMode === "stations"
-      ? `Legg til som stasjon ${activeSection.selectedCount + 1} av ${activeSection.requiredCount}`
+      ? `Legg til som stasjon ${displayedSelectedCount + 1} av ${displayedRequiredCount}`
       : `Legg til som øvelse for ${playerCount}`;
 
   const sanitizedSvg = useMemo(() => {
