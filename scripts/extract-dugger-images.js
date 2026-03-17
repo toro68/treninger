@@ -30,6 +30,19 @@ const MANUAL_PAGE_BY_ID = {
   'dugger-play-out-2': 94,
 };
 
+const MANUAL_IMAGE_INDEX_BY_ID = {
+  // 0-based index after sorting extracted embedded images by descending area.
+  'dugger-man-mark-deadball': 0,
+  'dugger-defend-deep-corner': 0,
+  'dugger-defend-wall': 0,
+  'dugger-4231-defense': 0,
+  'dugger-4141-defense': 0,
+  'dugger-rondo-2v1': 0,
+  'dugger-3v2-cover': 1,
+  'dugger-keeper-1v1': 0,
+  'dugger-play-out-2': 0,
+};
+
 function run(cmd) {
   return execSync(cmd, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
 }
@@ -193,6 +206,35 @@ function buildOutputName(entry) {
   return `p${String(entry.page).padStart(3, '0')}-${entry.id}-${slugify(entry.name)}.webp`;
 }
 
+function selectSourceImage(entry, images) {
+  const manualIndex = MANUAL_IMAGE_INDEX_BY_ID[entry.id];
+  if (Number.isInteger(manualIndex)) {
+    if (manualIndex < 0 || manualIndex >= images.length) {
+      throw new Error(
+        `Ugyldig MANUAL_IMAGE_INDEX_BY_ID for ${entry.id}: ${manualIndex} (har ${images.length} kandidater)`
+      );
+    }
+
+    return {
+      sourceImage: images[manualIndex],
+      selectedImageIndex: manualIndex,
+      selectionMode: 'manual-embedded-image-index',
+      isAmbiguous: images.length > 1,
+    };
+  }
+
+  if (images.length === 1) {
+    return {
+      sourceImage: images[0],
+      selectedImageIndex: 0,
+      selectionMode: 'single-embedded-image',
+      isAmbiguous: false,
+    };
+  }
+
+  return null;
+}
+
 function main() {
   if (!fs.existsSync(PDF_PATH)) throw new Error(`Fant ikke PDF: ${PDF_PATH}`);
   ensureTools();
@@ -227,12 +269,32 @@ function main() {
 
       const images = extractEmbeddedPageImages(entry.page, tempDir);
       if (images.length === 0) {
-        missingIllustrations.push({ id: entry.id, name: entry.name, sourceRef: entry.sourceRef, page: entry.page });
+        missingIllustrations.push({
+          id: entry.id,
+          name: entry.name,
+          sourceRef: entry.sourceRef,
+          page: entry.page,
+          reason: 'no-embedded-images',
+        });
         console.log(`MISS ${entry.id} -> page ${entry.page}`);
         continue;
       }
 
-      const sourceImage = images[0];
+      const selected = selectSourceImage(entry, images);
+      if (!selected) {
+        missingIllustrations.push({
+          id: entry.id,
+          name: entry.name,
+          sourceRef: entry.sourceRef,
+          page: entry.page,
+          reason: 'ambiguous-multiple-embedded-images',
+          candidateCount: images.length,
+        });
+        console.log(`MISS ${entry.id} -> page ${entry.page} has ${images.length} embedded images; add MANUAL_IMAGE_INDEX_BY_ID override`);
+        continue;
+      }
+
+      const { sourceImage, selectedImageIndex, selectionMode, isAmbiguous } = selected;
       const fileName = buildOutputName(entry);
       const outPath = path.join(OUT_DIR, fileName);
       writeWebp(sourceImage.filePath, outPath);
@@ -246,7 +308,8 @@ function main() {
         page: entry.page,
         fileName,
         imageUrl,
-        cropMode: 'embedded-image',
+        cropMode: selectionMode,
+        selectedImageIndex,
         sourceWidth: sourceImage.width,
         sourceHeight: sourceImage.height,
         sourceBytes: sourceImage.bytes,
@@ -254,8 +317,9 @@ function main() {
         height: Number.parseInt(dims[1], 10),
         bytes: fs.statSync(outPath).size,
         embeddedImagesOnPage: images.length,
+        ambiguousPage: isAmbiguous,
       });
-      console.log(`OK ${entry.id} -> page ${entry.page}`);
+      console.log(`OK ${entry.id} -> page ${entry.page} (image ${selectedImageIndex + 1}/${images.length}, ${selectionMode})`);
     }
   } finally {
     fs.rmSync(tempDir, { recursive: true, force: true });
