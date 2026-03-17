@@ -279,8 +279,9 @@ export const getSectionPlayerCounts = (
   ];
 };
 
-const getTrailingStationSectionCount = (blocks: SessionBlock[]) => {
+const getTrailingStationSectionInfo = (blocks: SessionBlock[]) => {
   let count = 0;
+  let requiredCount: number | undefined;
 
   for (let index = blocks.length - 1; index >= 0; index -= 1) {
     const block = blocks[index];
@@ -289,12 +290,20 @@ const getTrailingStationSectionCount = (blocks: SessionBlock[]) => {
     }
 
     count += 1;
+    if (requiredCount === undefined && typeof block.sectionStationCount === "number") {
+      requiredCount = Math.max(2, Math.min(4, block.sectionStationCount));
+    }
     if (block.stationRoundStart) {
       break;
     }
   }
 
-  return count;
+  if (count === 0) return null;
+
+  return {
+    count,
+    requiredCount: requiredCount ?? count,
+  };
 };
 
 export const getActivePlanningSection = ({
@@ -320,9 +329,13 @@ export const getActivePlanningSection = ({
     };
   }
 
-  const requiredCount = Math.max(2, Math.min(4, stationCount));
-  const trailingCount = getTrailingStationSectionCount(sessionBlocks);
-  const selectedCount = trailingCount > 0 && trailingCount < requiredCount ? trailingCount : 0;
+  const configuredCount = Math.max(2, Math.min(4, stationCount));
+  const trailingStationSection = getTrailingStationSectionInfo(sessionBlocks);
+  const trailingRequiredCount = trailingStationSection?.requiredCount ?? configuredCount;
+  const trailingCount = trailingStationSection?.count ?? 0;
+  const selectedCount =
+    trailingCount > 0 && trailingCount < trailingRequiredCount ? trailingCount : 0;
+  const requiredCount = selectedCount > 0 ? trailingRequiredCount : configuredCount;
 
   return {
     sectionNumber: completedSections + (selectedCount > 0 ? 0 : 1),
@@ -357,9 +370,11 @@ const appendBlockForPlanningSection = ({
   }
 
   const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
-  const trailingCount = getTrailingStationSectionCount(blocks);
+  const trailingStationSection = getTrailingStationSectionInfo(blocks);
+  const trailingCount = trailingStationSection?.count ?? 0;
+  const trailingRequiredCount = trailingStationSection?.requiredCount ?? normalizedStationCount;
   const shouldStartNewStationRound =
-    trailingCount === 0 || trailingCount >= normalizedStationCount;
+    trailingCount === 0 || trailingCount >= trailingRequiredCount;
   const previousBlock = blocks.at(-1);
 
   return [

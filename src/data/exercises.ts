@@ -542,7 +542,7 @@ export const exercises: ExerciseData[] = [
     playersMax: 30,
     theme: "styrke",
     equipment: [],
-    description: "",
+    description: "Husk høyttaler.",
     coachingPoints: [],
     variations: [],
   },

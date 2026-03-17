@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { filterAndGroupExercises, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
+import { filterAndGroupExercises, getActivePlanningSection, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
 import type { Exercise } from "@/data/exercises";
 import { buildSessionParts } from "@/utils/sessionParts";
 
@@ -96,6 +96,81 @@ describe("sessionStore", () => {
         exercises[1]!.id,
       ]);
       expect(parts.at(-1)?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
+    });
+
+    it("should start a new station section after completing a smaller one even if stationCount changes", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(3);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+      });
+
+      const { toggleExercise, setStationCount } = useSessionStore.getState();
+      toggleExercise(exercises[0]!.id);
+      toggleExercise(exercises[1]!.id);
+
+      setStationCount(3);
+      toggleExercise(exercises[2]!.id);
+
+      const nextState = useSessionStore.getState();
+      const sessionBlocks = nextState.plannedBlocks ?? [];
+      const parts = buildSessionParts(sessionBlocks, nextState.playerCount);
+
+      expect(parts.map((part) => part.title)).toEqual([
+        "1. Skadefri",
+        "2. Stasjoner",
+        "3. Stasjoner",
+      ]);
+      expect(parts[1]?.blocks.map((entry) => entry.block.id)).toEqual([
+        exercises[0]!.id,
+        exercises[1]!.id,
+      ]);
+      expect(parts[2]?.blocks.map((entry) => entry.block.id)).toEqual([
+        exercises[2]!.id,
+      ]);
+      expect(parts[2]?.subtitle).toBe("3 stasjoner · 5 + 5 + 6 spillere");
+    });
+  });
+
+  describe("getActivePlanningSection", () => {
+    it("should keep a completed 2-station section completed after stationCount changes to 3", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      const activeSection = getActivePlanningSection({
+        sessionBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+          {
+            id: exercises[1]!.id,
+            exercise: exercises[1]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+        ],
+        playerCount: 16,
+        planningSectionMode: "stations",
+        stationCount: 3,
+      });
+
+      expect(activeSection.sectionNumber).toBe(2);
+      expect(activeSection.selectedCount).toBe(0);
+      expect(activeSection.requiredCount).toBe(3);
+      expect(activeSection.playerCounts).toEqual([5, 5, 6]);
     });
   });
 
@@ -935,7 +1010,7 @@ describe("sessionStore", () => {
   });
 
   describe("strength defaults", () => {
-    it("includes a generic strength placeholder without details", () => {
+    it("includes a generic strength placeholder with the speaker reminder", () => {
       const strengthExercise = useSessionStore
         .getState()
         .exerciseLibrary.find((exercise) => exercise.id === "styrke-generic");
@@ -943,7 +1018,7 @@ describe("sessionStore", () => {
       expect(strengthExercise).toBeDefined();
       expect(strengthExercise?.name).toBe("Styrke");
       expect(strengthExercise?.theme).toBe("styrke");
-      expect(strengthExercise?.description).toBe("");
+      expect(strengthExercise?.description).toBe("Husk høyttaler.");
       expect(strengthExercise?.coachingPoints).toEqual([]);
       expect(strengthExercise?.variations).toEqual([]);
     });
