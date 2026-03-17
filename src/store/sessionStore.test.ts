@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { filterAndGroupExercises, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
 import type { Exercise } from "@/data/exercises";
+import { buildSessionParts } from "@/utils/sessionParts";
 
 describe("sessionStore", () => {
   beforeEach(() => {
@@ -66,6 +67,35 @@ describe("sessionStore", () => {
       const { toggleExercise } = useSessionStore.getState();
       toggleExercise("test-id");
       expect(useSessionStore.getState().selectedExerciseIds.has("test-id")).toBe(false);
+    });
+
+    it("should append toggled exercises into the active station section", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+      });
+
+      const { toggleExercise } = useSessionStore.getState();
+      toggleExercise(exercises[0]!.id);
+      toggleExercise(exercises[1]!.id);
+
+      const nextState = useSessionStore.getState();
+      const sessionBlocks = nextState.plannedBlocks ?? [];
+      const parts = buildSessionParts(sessionBlocks, nextState.playerCount);
+
+      expect(parts.at(-1)?.title).toBe("2. Stasjoner");
+      expect(parts.at(-1)?.blocks.map((entry) => entry.block.id)).toEqual([
+        exercises[0]!.id,
+        exercises[1]!.id,
+      ]);
+      expect(parts.at(-1)?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
     });
   });
 

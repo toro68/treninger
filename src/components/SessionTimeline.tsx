@@ -84,10 +84,20 @@ export const SessionTimeline = () => {
     () => savedSessions.find((session) => session.id === activeSavedSessionId) ?? null,
     [savedSessions, activeSavedSessionId]
   );
+  const savedSessionsButtonLabel = showSavedSessions
+    ? "Skjul lagrede"
+    : activeSavedSession
+      ? "Oppdater lagret økt"
+      : "Lagrede økter";
 
   useEffect(() => {
     if (!activeSavedSession) return;
     setSessionName(activeSavedSession.name);
+  }, [activeSavedSession]);
+
+  useEffect(() => {
+    if (!activeSavedSession) return;
+    setShowSavedSessions(true);
   }, [activeSavedSession]);
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
@@ -567,7 +577,7 @@ export const SessionTimeline = () => {
             onClick={() => setShowSavedSessions(!showSavedSessions)}
             className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
           >
-            {showSavedSessions ? "Skjul lagrede" : "Lagrede økter"}
+            {savedSessionsButtonLabel}
           </button>
           <div className="relative">
             <button

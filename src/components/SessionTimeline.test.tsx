@@ -50,6 +50,32 @@ describe("SessionTimeline sharing", () => {
     expect(screen.getByText("Aktiv")).toBeInTheDocument();
   });
 
+  it("shows the update form automatically when an active saved session exists", async () => {
+    useSessionStore.setState({
+      savedSessions: [
+        {
+          id: "saved-1",
+          name: "Eksisterende økt",
+          createdAt: "2026-03-17T10:00:00.000Z",
+          updatedAt: "2026-03-17T10:05:00.000Z",
+          playerCount: 12,
+          stationCount: 3,
+          coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
+          selectedExerciseIds: [],
+          selectedTheoryIds: [],
+          plannedBlocks: null,
+        },
+      ],
+      activeSavedSessionId: "saved-1",
+    });
+
+    render(<SessionTimeline />);
+
+    expect(await screen.findByRole("button", { name: "Oppdater lagret økt" })).toBeInTheDocument();
+    expect(screen.getByDisplayValue("Eksisterende økt")).toBeInTheDocument();
+    expect(screen.getByText(/Redigerer lagret økt:/)).toBeInTheDocument();
+  });
+
   it("shows participating coaches in the session plan summary", async () => {
     render(<SessionTimeline />);
 

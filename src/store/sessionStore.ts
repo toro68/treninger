@@ -771,10 +771,45 @@ export const useSessionStore = create<SessionState>()(
           const next = new Set(state.selectedExerciseIds);
           if (next.has(id)) {
             next.delete(id);
-          } else {
-            next.add(id);
+            const remainingPlannedBlocks = state.plannedBlocks?.filter(
+              (block) => block.id !== id
+            );
+
+            return {
+              selectedExerciseIds: next,
+              plannedBlocks:
+                remainingPlannedBlocks && remainingPlannedBlocks.length > 0
+                  ? remainingPlannedBlocks
+                  : null,
+            };
           }
-          return { selectedExerciseIds: next };
+
+          next.add(id);
+
+          const exercise = state.exerciseLibrary.find((entry) => entry.id === id);
+          if (!exercise) {
+            return { selectedExerciseIds: next };
+          }
+
+          const cleanedPlannedBlocks = state.plannedBlocks?.filter(
+            (block) => block.id !== id
+          ) ?? null;
+
+          const baseBlocks = deriveSessionBlocks({
+            selectedExerciseIds: state.selectedExerciseIds,
+            exerciseLibrary: state.exerciseLibrary,
+            plannedBlocks: cleanedPlannedBlocks,
+          });
+
+          return {
+            selectedExerciseIds: next,
+            plannedBlocks: appendBlockForPlanningSection({
+              blocks: baseBlocks,
+              exercise,
+              planningSectionMode: state.planningSectionMode,
+              stationCount: state.stationCount,
+            }),
+          };
         }),
       toggleTheory: (id) =>
         set((state) => {
