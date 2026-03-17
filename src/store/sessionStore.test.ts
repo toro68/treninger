@@ -51,6 +51,43 @@ describe("sessionStore", () => {
       setStationCount(6);
       expect(useSessionStore.getState().stationCount).toBe(4);
     });
+
+    it("should update the current incomplete station section when stationCount changes", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(1);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+        plannedBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+        ],
+      });
+
+      useSessionStore.getState().setStationCount(3);
+
+      const activeSection = getActivePlanningSection({
+        sessionBlocks: useSessionStore.getState().plannedBlocks ?? [],
+        playerCount: 16,
+        planningSectionMode: "stations",
+        stationCount: 3,
+      });
+
+      expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(3);
+      expect(activeSection.sectionNumber).toBe(1);
+      expect(activeSection.selectedCount).toBe(1);
+      expect(activeSection.requiredCount).toBe(3);
+      expect(activeSection.playerCounts).toEqual([5, 5, 6]);
+    });
   });
 
   describe("toggleExercise", () => {

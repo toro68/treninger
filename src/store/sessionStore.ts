@@ -359,6 +359,34 @@ const getTrailingStationSectionInfo = (blocks: SessionBlock[]) => {
   };
 };
 
+const retuneTrailingStationSectionCount = (
+  blocks: SessionBlock[] | null,
+  stationCount: number
+) => {
+  if (!blocks || blocks.length === 0) return blocks;
+
+  const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
+  const trailingSection = getTrailingStationSectionInfo(blocks);
+
+  if (!trailingSection || trailingSection.count >= trailingSection.requiredCount) {
+    return blocks;
+  }
+
+  const startIndex = blocks.length - trailingSection.count;
+
+  return normalizeStationSectionMetadata(
+    blocks.map((block, index) => {
+      if (index < startIndex) return block;
+
+      return {
+        ...block,
+        planningMode: "station",
+        sectionStationCount: normalizedStationCount,
+      };
+    })
+  );
+};
+
 export const getActivePlanningSection = ({
   sessionBlocks,
   playerCount,
@@ -799,7 +827,23 @@ export const useSessionStore = create<SessionState>()(
       selectedTheoryIds: new Set(),
       favoriteIds: new Set(),
       setPlayerCount: (count) => set({ playerCount: count }),
-      setStationCount: (count) => set({ stationCount: Math.max(2, Math.min(4, count)) }),
+      setStationCount: (count) =>
+        set((state) => {
+          const normalizedStationCount = Math.max(2, Math.min(4, count));
+
+          if (state.planningSectionMode !== "stations") {
+            return { stationCount: normalizedStationCount };
+          }
+
+          return {
+            stationCount: normalizedStationCount,
+            plannedBlocks:
+              retuneTrailingStationSectionCount(
+                state.plannedBlocks,
+                normalizedStationCount
+              ) ?? state.plannedBlocks,
+          };
+        }),
       setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
       setSessionTitle: (title) => set({ sessionTitle: title }),
       setSessionComment: (comment) => set({ sessionComment: comment }),
