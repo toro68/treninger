@@ -26,9 +26,28 @@ describe("SessionTimeline sharing", () => {
       selectedTheoryIds: new Set(),
       plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
       savedSessions: [],
+      activeSavedSessionId: null,
       highlightExerciseId: null,
       searchQuery: "",
     });
+  });
+
+  it("switches to explicit update mode after a session is saved", async () => {
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Lagrede økter" }));
+    fireEvent.change(screen.getByPlaceholderText("Navn på økten"), {
+      target: { value: "Min lagrede økt" },
+    });
+    fireEvent.click(screen.getByRole("button", { name: "Lagre økt" }));
+
+    await waitFor(() => {
+      expect(screen.getByRole("button", { name: "Oppdater lagret økt" })).toBeInTheDocument();
+    });
+
+    expect(screen.getByDisplayValue("Min lagrede økt")).toBeInTheDocument();
+    expect(screen.getByText(/Redigerer lagret økt:/)).toBeInTheDocument();
+    expect(screen.getByText("Aktiv")).toBeInTheDocument();
   });
 
   it("copies the short session summary to the clipboard", async () => {
@@ -210,26 +229,13 @@ describe("SessionTimeline sharing", () => {
     expect(decoded?.sessionBlocks[0].assignedCoachNames).toEqual(["Rune", "John Arne"]);
   });
 
-  it("adds a custom exercise directly to the session plan", async () => {
+  it("does not show direct custom exercise entry in the session plan", async () => {
     render(<SessionTimeline />);
 
-    fireEvent.click(await screen.findByRole("button", { name: "Ny øvelse" }));
-    fireEvent.change(screen.getByLabelText("Navn"), {
-      target: { value: "Egen spillsekvens" },
-    });
-    fireEvent.change(screen.getByLabelText("Beskrivelse"), {
-      target: { value: "Ny øvelse lagt rett inn i øktplanen." },
-    });
-    fireEvent.click(screen.getByRole("button", { name: "Legg inn i øktplan" }));
+    await screen.findByRole("heading", { name: "Øktplan" });
 
-    await waitFor(() => {
-      expect(screen.getByText("Egen øvelse er lagt inn i øktplanen og lagret i biblioteket.")).toBeInTheDocument();
-    });
-
-    expect(screen.getByText("Egen spillsekvens")).toBeInTheDocument();
-    expect(
-      useSessionStore.getState().plannedBlocks?.some((block) => block.exercise.name === "Egen spillsekvens")
-    ).toBe(true);
+    expect(screen.queryByRole("button", { name: "Ny øvelse" })).not.toBeInTheDocument();
+    expect(screen.queryByText("Egen øvelse er lagt inn i øktplanen og lagret i biblioteket.")).not.toBeInTheDocument();
   });
 
   it("lets the user switch the next section to station mode", async () => {

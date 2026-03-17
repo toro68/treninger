@@ -18,6 +18,14 @@ import { GreenSquareTemplateDiagram } from "@/components/GreenSquareTemplateDiag
 import { HalfPitchTopTemplateDiagram } from "@/components/HalfPitchTopTemplateDiagram";
 import { useShallow } from "zustand/react/shallow";
 import { AppHeader } from "@/components/AppHeader";
+import type { Exercise, ExerciseCategory } from "@/data/exercises";
+
+type VisibleExerciseSection = {
+  key: string;
+  title: string;
+  category: ExerciseCategory;
+  exercises: Exercise[];
+};
 
 export const deriveSourceFilter = (
   highlightExerciseId: string | null,
@@ -41,6 +49,58 @@ export const applyHighlightedExercise = ({
     setSearchQuery(match.name);
   }
   setHighlightExercise(null);
+};
+
+export const deriveVisibleExerciseSections = (
+  groupedExercises: Record<string, Exercise[]>
+): VisibleExerciseSection[] => {
+  const cooldownExercises = (groupedExercises.cooldown ?? []).filter(
+    (exercise) => exercise.theme !== "styrke"
+  );
+  const strengthExercises = (groupedExercises.cooldown ?? []).filter(
+    (exercise) => exercise.theme === "styrke"
+  );
+
+  const sections: VisibleExerciseSection[] = [
+    {
+      key: "warmup",
+      title: "Oppvarming",
+      category: "warmup",
+      exercises: groupedExercises.warmup ?? [],
+    },
+    {
+      key: "rondo",
+      title: "Rondo",
+      category: "rondo",
+      exercises: groupedExercises.rondo ?? [],
+    },
+    {
+      key: "station",
+      title: "Stasjoner",
+      category: "station",
+      exercises: groupedExercises.station ?? [],
+    },
+    {
+      key: "game",
+      title: "Spill",
+      category: "game",
+      exercises: groupedExercises.game ?? [],
+    },
+    {
+      key: "strength",
+      title: "Styrke",
+      category: "cooldown",
+      exercises: strengthExercises,
+    },
+    {
+      key: "cooldown",
+      title: "Avslutning",
+      category: "cooldown",
+      exercises: cooldownExercises,
+    },
+  ];
+
+  return sections.filter((section) => section.exercises.length > 0);
 };
 
 export default function Home() {
@@ -116,40 +176,9 @@ export default function Home() {
     searchQuery,
   ]);
 
-  const cooldownExercises = useMemo(
-    () => (groupedExercises.cooldown ?? []).filter((exercise) => exercise.theme !== "styrke"),
-    [groupedExercises.cooldown]
-  );
-
   const visibleExerciseSections = useMemo(
-    () => [
-      {
-        title: "Oppvarming",
-        category: "warmup" as const,
-        exercises: groupedExercises.warmup ?? [],
-      },
-      {
-        title: "Rondo",
-        category: "rondo" as const,
-        exercises: groupedExercises.rondo ?? [],
-      },
-      {
-        title: "Stasjoner",
-        category: "station" as const,
-        exercises: groupedExercises.station ?? [],
-      },
-      {
-        title: "Spill",
-        category: "game" as const,
-        exercises: groupedExercises.game ?? [],
-      },
-      {
-        title: "Avslutning",
-        category: "cooldown" as const,
-        exercises: cooldownExercises,
-      },
-    ].filter((section) => section.exercises.length > 0),
-    [groupedExercises.warmup, groupedExercises.rondo, groupedExercises.station, groupedExercises.game, cooldownExercises]
+    () => deriveVisibleExerciseSections(groupedExercises),
+    [groupedExercises]
   );
 
   return (
@@ -182,7 +211,7 @@ export default function Home() {
                 {visibleExerciseSections.length > 0 ? (
                   visibleExerciseSections.map((section) => (
                     <ExerciseList
-                      key={section.category}
+                      key={section.key}
                       title={section.title}
                       category={section.category}
                       exercises={section.exercises}

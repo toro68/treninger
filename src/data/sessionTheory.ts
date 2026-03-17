@@ -20,7 +20,7 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     title: "Se før du får ballen",
     summary: "Skann før mottak. Da går første touch framover eller bort fra press.",
     coachNote: "Repeter ett spørsmål: Hva så du før du fikk ballen?",
-    playerMessage: "Se opp tidlig. Finn rom, press og neste pasning før mottak.",
+    playerMessage: "Orienter deg før mottak. Se etter rom, hvor er medspillere og motspillere, så du kan ta første touch framover i banen - eller bort fra press.",
   },
   {
     id: "theory-courage-to-try",

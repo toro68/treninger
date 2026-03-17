@@ -6,7 +6,16 @@ import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { buildSessionParts } from "@/utils/sessionParts";
 import { useState, useEffect, useMemo } from "react";
-import { CustomExerciseCreator } from "@/components/CustomExerciseCreator";
+
+const CATEGORY_LABELS: Record<Exercise["category"], string> = {
+  "fixed-warmup": "Skadefri",
+  warmup: "Oppvarming",
+  aktivisering: "Aktivisering",
+  rondo: "Rondo",
+  station: "Stasjon",
+  game: "Spill",
+  cooldown: "Avslutning",
+};
 
 type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
@@ -35,16 +44,27 @@ export const SessionTimeline = () => {
   const resetPlan = useSessionStore((state) => state.resetPlan);
   const toggleTheory = useSessionStore((state) => state.toggleTheory);
   const savedSessions = useSessionStore((state) => state.savedSessions);
+  const activeSavedSessionId = useSessionStore((state) => state.activeSavedSessionId);
   const saveCurrentSession = useSessionStore((state) => state.saveCurrentSession);
   const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
   const deleteSavedSession = useSessionStore((state) => state.deleteSavedSession);
-  const addExerciseToPlan = useSessionStore((state) => state.addExerciseToPlan);
 
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    const id = setTimeout(() => setHydrated(true), 0);
-    return () => clearTimeout(id);
+    setHydrated(useSessionStore.persist.hasHydrated());
+
+    const unsubscribeHydrate = useSessionStore.persist.onHydrate(() => {
+      setHydrated(false);
+    });
+    const unsubscribeFinishHydration = useSessionStore.persist.onFinishHydration(() => {
+      setHydrated(true);
+    });
+
+    return () => {
+      unsubscribeHydrate();
+      unsubscribeFinishHydration();
+    };
   }, []);
 
   const [dragIndex, setDragIndex] = useState<number | null>(null);
@@ -59,6 +79,16 @@ export const SessionTimeline = () => {
   const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
   const [sessionName, setSessionName] = useState("");
   const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
+
+  const activeSavedSession = useMemo(
+    () => savedSessions.find((session) => session.id === activeSavedSessionId) ?? null,
+    [savedSessions, activeSavedSessionId]
+  );
+
+  useEffect(() => {
+    if (!activeSavedSession) return;
+    setSessionName(activeSavedSession.name);
+  }, [activeSavedSession]);
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
   const parts = useMemo(() => buildSessionParts(sessionBlocks, playerCount), [sessionBlocks, playerCount]);
@@ -130,25 +160,27 @@ export const SessionTimeline = () => {
         : undefined;
 
     return exerciseLibrary
-      .filter((exercise) => exercise.category === block.exercise.category)
       .filter((exercise) => exercise.id !== block.exercise.id)
       .filter((exercise) => !existing.has(exercise.id))
       .sort((a, b) => {
-        const aFit = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
-        const bFit = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
-        if (aFit !== bFit) return aFit - bFit;
+        const aCategoryMatch = a.category === block.exercise.category ? 0 : 1;
+        const bCategoryMatch = b.category === block.exercise.category ? 0 : 1;
+        if (aCategoryMatch !== bCategoryMatch) return aCategoryMatch - bCategoryMatch;
 
         const aThemeMatch = a.theme === block.exercise.theme ? 0 : 1;
         const bThemeMatch = b.theme === block.exercise.theme ? 0 : 1;
         if (aThemeMatch !== bThemeMatch) return aThemeMatch - bThemeMatch;
+
+        const aFit = getExerciseFitScore(a, playerCount, relevantPlayersPerStation);
+        const bFit = getExerciseFitScore(b, playerCount, relevantPlayersPerStation);
+        if (aFit !== bFit) return aFit - bFit;
 
         const aDurationDiff = Math.abs(a.duration - block.exercise.duration);
         const bDurationDiff = Math.abs(b.duration - block.exercise.duration);
         if (aDurationDiff !== bDurationDiff) return aDurationDiff - bDurationDiff;
 
         return a.name.localeCompare(b.name, "nb");
-      })
-      .slice(0, 5);
+      });
   };
 
   const handleDurationChange = (index: number, value: number) => {
@@ -477,7 +509,9 @@ export const SessionTimeline = () => {
       return;
     }
 
-    setSessionName("");
+    if (sessionName.trim()) {
+      setSessionName(sessionName.trim());
+    }
     setShowSavedSessions(true);
     setSaveStatus("saved");
     setTimeout(() => setSaveStatus("idle"), 2500);
@@ -485,6 +519,12 @@ export const SessionTimeline = () => {
 
   const handleLoadSession = (id: string) => {
     const ok = loadSavedSession(id);
+    if (ok) {
+      const loadedSession = savedSessions.find((session) => session.id === id);
+      if (loadedSession) {
+        setSessionName(loadedSession.name);
+      }
+    }
     setSaveStatus(ok ? "loaded" : "error");
     setTimeout(() => setSaveStatus("idle"), 2500);
   };
@@ -595,16 +635,6 @@ export const SessionTimeline = () => {
         </p>
       )}
 
-      <div className="mt-4">
-        <CustomExerciseCreator
-          onSubmitExercise={addExerciseToPlan}
-          title="Legg til øvelse direkte i øktplanen"
-          description="Skriv inn en øvelse som ikke finnes i databanken, så legges den rett inn i den aktive øktplanen og lagres for senere bruk."
-          submitLabel="Legg inn i øktplan"
-          successMessage="Egen øvelse er lagt inn i øktplanen og lagret i biblioteket."
-        />
-      </div>
-
       <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
@@ -704,6 +734,11 @@ export const SessionTimeline = () => {
 
       {showSavedSessions && (
         <div className="mt-4 rounded-xl border border-zinc-200 bg-zinc-50/70 p-3">
+          {activeSavedSession ? (
+            <div className="mb-3 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs text-emerald-900">
+              Redigerer lagret økt: <span className="font-semibold">{activeSavedSession.name}</span>. Endringer kan oppdateres direkte.
+            </div>
+          ) : null}
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
             <input
               type="text"
@@ -717,11 +752,11 @@ export const SessionTimeline = () => {
               onClick={handleSaveSession}
               className="rounded-full border border-zinc-900 bg-zinc-900 px-4 py-2 text-xs font-medium text-white transition hover:bg-zinc-700"
             >
-              Lagre økt
+              {activeSavedSession ? "Oppdater lagret økt" : "Lagre økt"}
             </button>
           </div>
           <p className="mt-2 text-xs text-zinc-500">
-            Nåværende økt ligger allerede lagret lokalt i nettleseren. Her kan du i tillegg lagre flere navngitte økter og hente dem fram igjen.
+            Nåværende økt ligger allerede lagret lokalt i nettleseren. Her kan du lagre navngitte økter, oppdatere den du jobber med, og hente dem fram igjen.
           </p>
 
           <div className="mt-3 space-y-2 border-t border-zinc-200 pt-3">
@@ -731,7 +766,9 @@ export const SessionTimeline = () => {
               savedSessions.map((savedSession) => (
                 <div
                   key={savedSession.id}
-                  className="flex flex-col gap-2 rounded-lg border border-zinc-200 bg-white p-3 sm:flex-row sm:items-center sm:justify-between"
+                  className={`flex flex-col gap-2 rounded-lg border bg-white p-3 sm:flex-row sm:items-center sm:justify-between ${
+                    savedSession.id === activeSavedSessionId ? "border-emerald-300 ring-1 ring-emerald-200" : "border-zinc-200"
+                  }`}
                 >
                   <div>
                     <p className="text-sm font-medium text-zinc-900">{savedSession.name}</p>
@@ -740,6 +777,11 @@ export const SessionTimeline = () => {
                     </p>
                   </div>
                   <div className="flex items-center gap-2">
+                    {savedSession.id === activeSavedSessionId ? (
+                      <span className="rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-medium text-emerald-800">
+                        Aktiv
+                      </span>
+                    ) : null}
                     <button
                       type="button"
                       onClick={() => handleLoadSession(savedSession.id)}
@@ -877,6 +919,12 @@ export const SessionTimeline = () => {
                               </div>
 
                               <div className="min-w-0 flex-1">
+                                {(() => {
+                                  const alternativeExercises = getAlternativeExercises(block);
+                                  const availableAlternatives = getAvailableAlternatives(block);
+
+                                  return (
+                                    <>
                                 {part.baseKey === "stasjoner" ? (
                                   <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
                                     {`Stasjon ${blockIndex + 1}`}
@@ -915,25 +963,39 @@ export const SessionTimeline = () => {
                                     <span className="font-semibold">Kommentar:</span> {block.customComment.trim()}
                                   </div>
                                 ) : null}
-                                {getAlternativeExercises(block).length > 0 && (
-                                  <div className="mt-2 flex flex-wrap gap-1.5">
-                                    {getAlternativeExercises(block).map((exercise) => (
-                                      <span
-                                        key={exercise.id}
-                                        className="inline-flex items-center gap-1 rounded-full border border-amber-200 bg-amber-50 px-2 py-1 text-[11px] text-amber-900"
-                                      >
-                                        <span className="font-medium">Alt:</span>
-                                        <span>{getExerciseCode(exercise)} {exercise.name}</span>
-                                        <button
-                                          type="button"
-                                          onClick={() => removeAlternativeExercise(globalIndex, exercise.id)}
-                                          className="rounded-full px-1 text-amber-700 hover:bg-amber-100"
-                                          title="Fjern alternativ"
+                                {alternativeExercises.length > 0 && (
+                                  <div className="mt-3 rounded-xl border border-amber-200 bg-amber-50/80 p-3">
+                                    <p className="text-[11px] font-semibold uppercase tracking-wide text-amber-900">
+                                      Alternativer til denne øvelsen
+                                    </p>
+                                    <div className="mt-2 space-y-2">
+                                      {alternativeExercises.map((exercise) => (
+                                        <div
+                                          key={exercise.id}
+                                          className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-amber-100 bg-white px-3 py-2 text-xs text-amber-950"
                                         >
-                                          ×
-                                        </button>
-                                      </span>
-                                    ))}
+                                          <div className="min-w-0">
+                                            <p className="font-medium text-zinc-900">
+                                              <span className="mr-1.5 inline-flex min-w-[24px] items-center justify-center rounded bg-amber-100 px-1 py-0.5 text-[10px] font-semibold text-amber-900">
+                                                {getExerciseCode(exercise)}
+                                              </span>
+                                              {exercise.name}
+                                            </p>
+                                            <p className="mt-1 text-[11px] text-zinc-500">
+                                              {CATEGORY_LABELS[exercise.category]} · {exercise.theme}
+                                            </p>
+                                          </div>
+                                          <button
+                                            type="button"
+                                            onClick={() => removeAlternativeExercise(globalIndex, exercise.id)}
+                                            className="rounded-full border border-amber-200 bg-white px-2 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
+                                            title="Fjern alternativ"
+                                          >
+                                            Fjern
+                                          </button>
+                                        </div>
+                                      ))}
+                                    </div>
                                   </div>
                                 )}
                                 {!block.exercise.alwaysIncluded && (
@@ -973,11 +1035,22 @@ export const SessionTimeline = () => {
                                         }}
                                         className="max-w-full rounded-full border border-zinc-200 bg-white px-3 py-1 text-[11px] text-zinc-700 focus:border-black focus:outline-none"
                                       >
-                                        <option value="">Velg alternativ i samme kategori</option>
-                                        {getAvailableAlternatives(block).map((exercise) => (
-                                          <option key={exercise.id} value={exercise.id}>
-                                            {getExerciseCode(exercise)} {exercise.name}
-                                          </option>
+                                        <option value="">Velg alternativ fra hele biblioteket</option>
+                                        {Object.entries(
+                                          availableAlternatives.reduce<Record<string, Exercise[]>>((groups, exercise) => {
+                                            const label = CATEGORY_LABELS[exercise.category];
+                                            groups[label] ??= [];
+                                            groups[label].push(exercise);
+                                            return groups;
+                                          }, {})
+                                        ).map(([label, exercises]) => (
+                                          <optgroup key={label} label={label}>
+                                            {exercises.map((exercise) => (
+                                              <option key={exercise.id} value={exercise.id}>
+                                                {getExerciseCode(exercise)} {exercise.name}
+                                              </option>
+                                            ))}
+                                          </optgroup>
                                         ))}
                                       </select>
                                     )}
@@ -1069,6 +1142,9 @@ export const SessionTimeline = () => {
                                     </div>
                                   </div>
                                 ) : null}
+                                    </>
+                                  );
+                                })()}
                               </div>
 
                               <div className="flex items-center gap-1.5 shrink-0 self-start">

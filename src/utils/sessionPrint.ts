@@ -95,7 +95,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
             alternatives
               ? `
                 <div class="alternatives">
-                  <span class="coaching-title">Alternative øvelser:</span>
+                  <span class="coaching-title">Alternativer til denne øvelsen:</span>
                   <ul>${alternatives}</ul>
                 </div>
               `

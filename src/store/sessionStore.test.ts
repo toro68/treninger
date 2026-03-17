@@ -4,6 +4,8 @@ import type { Exercise } from "@/data/exercises";
 
 describe("sessionStore", () => {
   beforeEach(() => {
+    window.localStorage.removeItem("treninger-session");
+
     // Reset store state before each test
     useSessionStore.setState({
       sessionTitle: "",
@@ -228,6 +230,7 @@ describe("sessionStore", () => {
       const result = useSessionStore.getState().saveCurrentSession("Min testøkt");
 
       expect(result.ok).toBe(true);
+  expect(useSessionStore.getState().activeSavedSessionId).toBe(result.id);
       expect(useSessionStore.getState().savedSessions).toHaveLength(1);
       expect(useSessionStore.getState().savedSessions[0].name).toBe("Min testøkt");
       expect(useSessionStore.getState().savedSessions[0].sessionTitle).toBe("Angrep siste tredel");
@@ -281,6 +284,7 @@ describe("sessionStore", () => {
       const loaded = useSessionStore.getState().loadSavedSession(savedId);
 
       expect(loaded).toBe(true);
+      expect(useSessionStore.getState().activeSavedSessionId).toBe(savedId);
       expect(useSessionStore.getState().sessionTitle).toBe("Lasteklar økt");
       expect(useSessionStore.getState().sessionComment).toBe("Hold igjen én spiller i restforsvar.");
       expect(useSessionStore.getState().playerCount).toBe(18);
@@ -310,6 +314,86 @@ describe("sessionStore", () => {
       useSessionStore.getState().deleteSavedSession(savedId);
 
       expect(useSessionStore.getState().savedSessions).toHaveLength(0);
+      expect(useSessionStore.getState().activeSavedSessionId).toBeNull();
+    });
+
+    it("should update the active saved session without creating a duplicate", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.setState({
+        sessionTitle: "Første versjon",
+        selectedExerciseIds: new Set([exercise!.id]),
+        plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+      });
+
+      const initialResult = useSessionStore.getState().saveCurrentSession("Økt som oppdateres");
+
+      expect(initialResult.ok).toBe(true);
+
+      useSessionStore.setState({
+        sessionTitle: "Oppdatert versjon",
+        sessionComment: "Ny kommentar etter redigering.",
+      });
+
+      const updateResult = useSessionStore.getState().saveCurrentSession("Økt som oppdateres v2");
+
+      expect(updateResult.ok).toBe(true);
+      expect(useSessionStore.getState().savedSessions).toHaveLength(1);
+      expect(useSessionStore.getState().savedSessions[0].id).toBe(initialResult.id);
+      expect(useSessionStore.getState().savedSessions[0].name).toBe("Økt som oppdateres v2");
+      expect(useSessionStore.getState().savedSessions[0].sessionTitle).toBe("Oppdatert versjon");
+      expect(useSessionStore.getState().savedSessions[0].sessionComment).toBe("Ny kommentar etter redigering.");
+    });
+
+    it("should rehydrate legacy saved sessions from persisted storage", async () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+      expect(exercise).toBeDefined();
+
+      window.localStorage.setItem(
+        "treninger-session",
+        JSON.stringify({
+          state: {
+            playerCount: 16,
+            stationCount: 4,
+            selectedExerciseIds: [],
+            favoriteIds: [],
+            plannedBlocks: null,
+            savedSessions: [
+              {
+                id: 123,
+                sessionTitle: "Gammel lagret økt",
+                playerCount: 14,
+                stationCount: 2,
+                plannedBlocks: [
+                  {
+                    exercise: { id: exercise!.id },
+                    customDuration: 9,
+                  },
+                ],
+                createdAt: "2026-01-01T10:00:00.000Z",
+                updatedAt: "2026-01-02T10:00:00.000Z",
+              },
+            ],
+            searchQuery: "",
+            customExercises: [],
+            exerciseOverrides: {},
+          },
+        })
+      );
+
+      await useSessionStore.persist.rehydrate();
+
+      const savedSessions = useSessionStore.getState().savedSessions;
+      expect(savedSessions).toHaveLength(1);
+      expect(savedSessions[0].id).toBe("saved-123");
+      expect(savedSessions[0].name).toBe("Gammel lagret økt");
+      expect(savedSessions[0].selectedExerciseIds).toEqual([exercise!.id]);
+      expect(savedSessions[0].plannedBlocks?.[0].id).toBe(exercise!.id);
     });
   });
 

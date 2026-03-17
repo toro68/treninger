@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
-import { applyHighlightedExercise, deriveSourceFilter } from "./page";
+import { applyHighlightedExercise, deriveSourceFilter, deriveVisibleExerciseSections } from "./page";
+import type { Exercise } from "@/data/exercises";
 
 describe("page helpers", () => {
   describe("deriveSourceFilter", () => {
@@ -39,6 +40,47 @@ describe("page helpers", () => {
       });
       expect(setSearchQuery).not.toHaveBeenCalled();
       expect(setHighlightExercise).toHaveBeenCalledWith(null);
+    });
+  });
+
+  describe("deriveVisibleExerciseSections", () => {
+    it("should show strength exercises as their own section", () => {
+      const strengthExercise: Exercise = {
+        id: "strength-1",
+        exerciseNumber: 1,
+        name: "Pushups",
+        category: "cooldown",
+        duration: 8,
+        playersMin: 1,
+        playersMax: 30,
+        theme: "styrke",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+      const cooldownExercise: Exercise = {
+        id: "cooldown-1",
+        exerciseNumber: 2,
+        name: "Nedjogg",
+        category: "cooldown",
+        duration: 5,
+        playersMin: 1,
+        playersMax: 30,
+        theme: "restitusjon",
+        equipment: [],
+        description: "",
+        coachingPoints: [],
+        variations: [],
+      };
+
+      const sections = deriveVisibleExerciseSections({
+        cooldown: [strengthExercise, cooldownExercise],
+      });
+
+      expect(sections.find((section) => section.key === "strength")?.title).toBe("Styrke");
+      expect(sections.find((section) => section.key === "strength")?.exercises).toEqual([strengthExercise]);
+      expect(sections.find((section) => section.key === "cooldown")?.exercises).toEqual([cooldownExercise]);
     });
   });
 });
