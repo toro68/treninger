@@ -1402,5 +1402,21 @@ describe("sessionStore", () => {
       expect(recommendedDuration(block)).toBe(strengthExercise!.duration);
       expect(getUnit(block)).toBe("min");
     });
+
+    it("uses minutes for the generic shooting cooldown block", () => {
+      const shootingExercise = useSessionStore
+        .getState()
+        .exerciseLibrary.find((exercise) => exercise.id === "skudd-generic");
+
+      expect(shootingExercise).toBeDefined();
+
+      const block = {
+        id: shootingExercise!.id,
+        exercise: shootingExercise!,
+      };
+
+      expect(recommendedDuration(block)).toBe(shootingExercise!.duration);
+      expect(getUnit(block)).toBe("min");
+    });
   });
 });

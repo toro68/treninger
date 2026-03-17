@@ -1497,6 +1497,9 @@ export const recommendedDuration = (block: SessionBlock) => {
   if (typeof block.customDuration === "number") {
     return block.customDuration;
   }
+  if (block.exercise.id === "skudd-generic") {
+    return block.exercise.duration;
+  }
   if (block.exercise.category === "cooldown" && block.exercise.theme === "styrke") {
     return block.exercise.duration;
   }
@@ -1560,6 +1563,9 @@ const retuneStationSectionCount = (
 export const getUnit = (block: SessionBlock): DurationUnit => {
   if (block.customUnit) {
     return block.customUnit;
+  }
+  if (block.exercise.id === "skudd-generic") {
+    return "min";
   }
   if (block.exercise.category === "cooldown" && block.exercise.theme === "styrke") {
     return "min";
