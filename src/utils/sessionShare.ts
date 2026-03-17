@@ -5,6 +5,7 @@ type SharedBlock = {
   id: string;
   planningMode?: "single" | "station";
   sectionStationCount?: number;
+  sectionComment?: string;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -93,6 +94,7 @@ const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | 
     id,
     planningMode,
     sectionStationCount,
+    sectionComment,
     stationRoundStart,
     customDuration,
     customUnit,
@@ -105,6 +107,7 @@ const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | 
     planningMode,
     sectionStationCount:
       typeof sectionStationCount === "number" ? Math.max(2, Math.min(4, sectionStationCount)) : undefined,
+    sectionComment: normalizeOptionalText(sectionComment),
     stationRoundStart: stationRoundStart === true ? true : undefined,
     customDuration,
     customUnit,
@@ -145,6 +148,7 @@ const hydratePlannedBlocks = (blocks: SharedBlock[] | null): SessionBlock[] | nu
         typeof entry.sectionStationCount === "number"
           ? Math.max(2, Math.min(4, entry.sectionStationCount))
           : undefined,
+      sectionComment: normalizeOptionalText(entry.sectionComment),
       stationRoundStart: entry.stationRoundStart === true ? true : undefined,
       customDuration:
         typeof entry.customDuration === "number" ? entry.customDuration : undefined,
@@ -209,6 +213,7 @@ const mergeWithPlannedOrder = (
         ...current,
         planningMode: block.planningMode,
         sectionStationCount: block.sectionStationCount,
+        sectionComment: normalizeOptionalText(block.sectionComment),
         stationRoundStart: block.stationRoundStart,
         customDuration: block.customDuration,
         customUnit: block.customUnit,

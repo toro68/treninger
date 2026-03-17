@@ -4,6 +4,7 @@ import { getUnit, recommendedDuration, SessionBlock } from "@/store/sessionStore
 export type PrintablePart = {
   title: string;
   subtitle?: string;
+  sectionComment?: string;
   baseKey?: string;
   blocks: SessionBlock[];
 };
@@ -111,6 +112,7 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
         <span>${part.title}</span>
         ${part.subtitle ? `<small>${part.subtitle}</small>` : ""}
       </div>
+      ${part.sectionComment ? `<div class="section-comment">${part.sectionComment}</div>` : ""}
       ${exercisesMarkup}
     </div>
   `;
@@ -123,6 +125,7 @@ const baseStyles = `
   .section { margin-bottom: 32px; }
   .section-title { font-size: 16px; font-weight: 600; color: #111827; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; display: flex; justify-content: space-between; align-items: baseline; }
   .section-title small { font-size: 12px; color: #6b7280; font-weight: 500; text-transform: uppercase; letter-spacing: 0.02em; }
+  .section-comment { margin: 0 0 12px; padding: 10px 12px; border: 1px solid #fcd34d; border-radius: 12px; background: #fffbeb; color: #78350f; font-size: 12px; line-height: 1.45; }
   .exercise { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
   .exercise-name { font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }

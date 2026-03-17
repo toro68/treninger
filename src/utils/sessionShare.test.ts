@@ -25,6 +25,7 @@ describe("sessionShare", () => {
         {
           id: exercise!.id,
           exercise: exercise!,
+          sectionComment: "Felles beskjed til hele seksjonen.",
           customDuration: 18,
           customUnit: "min",
           customTitle: "Spill med gjennombruddstrussel",
@@ -44,6 +45,7 @@ describe("sessionShare", () => {
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
     const sharedBlock = decoded?.sessionBlocks.find((block) => block.id === exercise!.id);
     expect(sharedBlock?.id).toBe(exercise!.id);
+    expect(sharedBlock?.sectionComment).toBe("Felles beskjed til hele seksjonen.");
     expect(sharedBlock?.customDuration).toBe(18);
     expect(sharedBlock?.customTitle).toBe("Spill med gjennombruddstrussel");
     expect(sharedBlock?.customComment).toBe("Hold høy intensitet i første aksjon.");

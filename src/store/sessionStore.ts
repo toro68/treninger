@@ -18,6 +18,7 @@ export type SessionBlock = {
   exercise: Exercise;
   planningMode?: "single" | "station";
   sectionStationCount?: number;
+  sectionComment?: string;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -31,6 +32,7 @@ type SerializedBlock = {
   id: string;
   planningMode?: "single" | "station";
   sectionStationCount?: number;
+  sectionComment?: string;
   stationRoundStart?: boolean;
   customDuration?: number;
   customUnit?: DurationUnit;
@@ -186,6 +188,7 @@ const mergePlannedBlockMetadata = (
         ...current,
         planningMode: block.planningMode,
         sectionStationCount: block.sectionStationCount,
+        sectionComment: normalizeOptionalText(block.sectionComment),
         stationRoundStart: block.stationRoundStart,
         customDuration: block.customDuration,
         customUnit: block.customUnit,
@@ -437,6 +440,7 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
     id,
     planningMode,
     sectionStationCount,
+    sectionComment,
     stationRoundStart,
     customDuration,
     customUnit,
@@ -449,6 +453,7 @@ const serializePlannedBlocks = (blocks?: SessionBlock[] | null): SerializedBlock
     planningMode,
     sectionStationCount:
       typeof sectionStationCount === "number" ? Math.max(2, Math.min(4, sectionStationCount)) : undefined,
+    sectionComment: normalizeOptionalText(sectionComment),
     stationRoundStart: stationRoundStart === true ? true : undefined,
     customDuration,
     customUnit,
@@ -616,6 +621,7 @@ const hydratePlannedBlocks = (
             typeof serializedBlock.sectionStationCount === "number"
               ? Math.max(2, Math.min(4, serializedBlock.sectionStationCount))
               : undefined,
+          sectionComment: normalizeOptionalText(serializedBlock.sectionComment),
           stationRoundStart: serializedBlock.stationRoundStart === true ? true : undefined,
           customDuration:
             typeof serializedBlock.customDuration === "number"
@@ -652,6 +658,7 @@ const hydratePlannedBlocks = (
             typeof sessionBlock.sectionStationCount === "number"
               ? Math.max(2, Math.min(4, sessionBlock.sectionStationCount))
               : undefined,
+          sectionComment: normalizeOptionalText(sessionBlock.sectionComment),
           stationRoundStart: sessionBlock.stationRoundStart === true ? true : undefined,
           customDuration:
             typeof sessionBlock.customDuration === "number"

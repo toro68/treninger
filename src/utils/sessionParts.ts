@@ -11,6 +11,7 @@ export type SessionPart = {
   orderNumber: number;
   title: string;
   subtitle: string;
+  sectionComment?: string;
   blocks: SessionPartBlock[];
 };
 
@@ -59,6 +60,7 @@ export const buildSessionParts = (
         orderNumber,
         title: "",
         subtitle: "",
+        sectionComment: undefined,
         blocks: [],
       });
     }
@@ -70,6 +72,10 @@ export const buildSessionParts = (
   });
 
   parts.forEach((part) => {
+    part.sectionComment = part.blocks
+      .map(({ block }) => block.sectionComment?.trim())
+      .find((comment): comment is string => !!comment);
+
     if (part.baseKey === "skadefri") {
       part.title = `${part.orderNumber}. Skadefri`;
       part.subtitle = "Spillerne styrer selv";

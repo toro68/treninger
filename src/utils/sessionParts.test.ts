@@ -130,4 +130,16 @@ describe("sessionParts", () => {
     expect(parts[0].subtitle).toBe("2 stasjoner · 10 + 11 spillere");
     expect(parts[1].subtitle).toBe("3 stasjoner · 7 spillere per stasjon");
   });
+
+  it("collects a section comment for the built session part", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("game-1", "Spill 1", "game", undefined, {
+        sectionComment: "Vektlegg gjenvinning de første 5 sekundene.",
+      }),
+    ];
+
+    const parts = buildSessionParts(blocks, 14);
+
+    expect(parts[0].sectionComment).toBe("Vektlegg gjenvinning de første 5 sekundene.");
+  });
 });

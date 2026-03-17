@@ -56,6 +56,7 @@ export const SessionTimeline = () => {
   const [showShareOptions, setShowShareOptions] = useState(false);
   const [showCooldown, setShowCooldown] = useState(true);
   const [showSavedSessions, setShowSavedSessions] = useState(false);
+  const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
   const [sessionName, setSessionName] = useState("");
   const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
 
@@ -170,6 +171,25 @@ export const SessionTimeline = () => {
     }));
   };
 
+  const handleSectionCommentChange = (partKey: string, value: string) => {
+    const part = parts.find((entry) => entry.key === partKey);
+    if (!part) return;
+
+    const blockIndexes = new Set(part.blocks.map(({ globalIndex }) => globalIndex));
+    const normalizedValue = value.trim() ? value : undefined;
+
+    setPlannedBlocks(
+      sessionBlocks.map((block, index) =>
+        blockIndexes.has(index)
+          ? {
+              ...block,
+              sectionComment: normalizedValue,
+            }
+          : block
+      )
+    );
+  };
+
   const toggleCoachAssignment = (index: number, coachName: string) => {
     updateBlockAtIndex(index, (block) => {
       const nextCoachNames = new Set(block.assignedCoachNames ?? []);
@@ -277,23 +297,31 @@ export const SessionTimeline = () => {
   const resolvedSessionTitle = sessionTitle.trim() || "Treningsøkt";
 
   const buildShortSummary = () => {
-    return sessionBlocks
-      .map((block, index) => {
-        const title = block.customTitle?.trim() || block.exercise.name;
-        const comment = block.customComment?.trim();
-        const alternatives = getAlternativeExercises(block);
-        const alternativeText =
-          alternatives.length > 0
-            ? ` (alt: ${alternatives.map((exercise) => exercise.name).join(" / ")})`
-            : "";
-        const coachText =
-          block.assignedCoachNames && block.assignedCoachNames.length > 0
-            ? ` [ansvar: ${block.assignedCoachNames.join(", ")}]`
-            : "";
-        const commentText = comment ? `\n   Kommentar: ${comment}` : "";
-        return `${index + 1}. [${getExerciseCode(block.exercise)}] ${title} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}${commentText}`;
+    return parts
+      .map((part) => {
+        const header = `${part.title}${part.subtitle ? ` (${part.subtitle})` : ""}`;
+        const sectionComment = part.sectionComment?.trim()
+          ? `\nKommentar til seksjon: ${part.sectionComment.trim()}`
+          : "";
+        const blockLines = part.blocks.map(({ block, globalIndex }) => {
+          const title = block.customTitle?.trim() || block.exercise.name;
+          const comment = block.customComment?.trim();
+          const alternatives = getAlternativeExercises(block);
+          const alternativeText =
+            alternatives.length > 0
+              ? ` (alt: ${alternatives.map((exercise) => exercise.name).join(" / ")})`
+              : "";
+          const coachText =
+            block.assignedCoachNames && block.assignedCoachNames.length > 0
+              ? ` [ansvar: ${block.assignedCoachNames.join(", ")}]`
+              : "";
+          const commentText = comment ? `\n   Kommentar: ${comment}` : "";
+          return `${globalIndex + 1}. [${getExerciseCode(block.exercise)}] ${title} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}${commentText}`;
+        });
+
+        return `${header}${sectionComment}\n${blockLines.join("\n")}`;
       })
-      .join("\n");
+      .join("\n\n");
   };
 
   const buildFullSummary = () => {
@@ -304,6 +332,9 @@ export const SessionTimeline = () => {
 
       result += `\n${part.title.toUpperCase()}\n`;
       result += "─".repeat(20) + "\n";
+      if (part.sectionComment?.trim()) {
+        result += `Kommentar til seksjon: ${part.sectionComment.trim()}\n`;
+      }
 
       part.blocks.forEach(({ block }, blockIndex) => {
         const duration = recommendedDuration(block);
@@ -418,6 +449,7 @@ export const SessionTimeline = () => {
     const printableParts: PrintablePart[] = parts.map((part) => ({
       title: part.title,
       subtitle: part.subtitle,
+      sectionComment: part.sectionComment,
       baseKey: part.baseKey,
       blocks: part.blocks.map(({ block }) => block),
     }));
@@ -771,13 +803,41 @@ export const SessionTimeline = () => {
                     </span>
                   </button>
                 ) : (
-                  <div className="flex items-baseline gap-2 mb-2">
+                  <div className="mb-2 flex flex-wrap items-center gap-2">
                     <h3 className="text-sm font-semibold text-zinc-800">{part.title}</h3>
                     {part.subtitle && (
                       <span className="text-xs text-zinc-400">{part.subtitle}</span>
                     )}
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setSectionCommentEditorForPartKey((current) =>
+                          current === part.key ? null : part.key
+                        )
+                      }
+                      className="rounded-full border border-amber-200 bg-white px-2.5 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
+                    >
+                      {sectionCommentEditorForPartKey === part.key || part.sectionComment?.trim()
+                        ? "Skjul seksjonskommentar"
+                        : "Kommentar til seksjon"}
+                    </button>
                   </div>
                 )}
+
+                {(part.sectionComment?.trim() || sectionCommentEditorForPartKey === part.key) && !isCollapsible ? (
+                  <div className="mb-3 rounded-xl border border-amber-200 bg-amber-50/70 p-3">
+                    <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                      Kommentar til seksjonen
+                      <textarea
+                        value={part.sectionComment ?? ""}
+                        onChange={(event) => handleSectionCommentChange(part.key, event.target.value)}
+                        rows={3}
+                        placeholder="Praktiske beskjeder, fokus eller coaching som gjelder hele seksjonen"
+                        className="resize-y rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm font-normal normal-case tracking-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
+                      />
+                    </label>
+                  </div>
+                ) : null}
 
                 {isVisible && (
                   <>

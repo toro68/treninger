@@ -217,6 +217,7 @@ describe("sessionStore", () => {
           {
             id: exercise!.id,
             exercise: exercise!,
+            sectionComment: "Start med tydelig rollefordeling i seksjonen.",
             customTitle: "Spill med klare roller",
             customComment: "Kort coaching mellom dragene.",
             assignedCoachNames: ["Tor Inge", "Dawid"],
@@ -232,6 +233,7 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().savedSessions[0].sessionTitle).toBe("Angrep siste tredel");
       expect(useSessionStore.getState().savedSessions[0].sessionComment).toBe("Ekstra fokus pa timing i bakrom.");
       expect(useSessionStore.getState().savedSessions[0].coachNames).toContain("Tor Inge");
+      expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].sectionComment).toBe("Start med tydelig rollefordeling i seksjonen.");
       expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].customTitle).toBe("Spill med klare roller");
       expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].customComment).toBe("Kort coaching mellom dragene.");
       expect(useSessionStore.getState().savedSessions[0].plannedBlocks?.[0].assignedCoachNames).toEqual([
@@ -258,6 +260,7 @@ describe("sessionStore", () => {
             id: exercise!.id,
             exercise: exercise!,
             customDuration: 14,
+            sectionComment: "Felles trigger for press i denne delen.",
             customComment: "Vær streng på første pressledd.",
             assignedCoachNames: ["Ekstra trener"],
           },
@@ -285,6 +288,7 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().coachNames).toContain("Ekstra trener");
       expect(useSessionStore.getState().selectedExerciseIds.has(exercise!.id)).toBe(true);
       expect(useSessionStore.getState().plannedBlocks?.[0].customDuration).toBe(14);
+      expect(useSessionStore.getState().plannedBlocks?.[0].sectionComment).toBe("Felles trigger for press i denne delen.");
       expect(useSessionStore.getState().plannedBlocks?.[0].customComment).toBe("Vær streng på første pressledd.");
       expect(useSessionStore.getState().plannedBlocks?.[0].assignedCoachNames).toEqual(["Ekstra trener"]);
     });
