@@ -172,6 +172,59 @@ describe("sessionStore", () => {
       expect(activeSection.requiredCount).toBe(3);
       expect(activeSection.playerCounts).toEqual([5, 5, 6]);
     });
+
+    it("should recover stale station metadata when a later section changes size", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(3);
+
+      useSessionStore.getState().setPlannedBlocks([
+        {
+          id: fixedWarmup!.id,
+          exercise: fixedWarmup!,
+        },
+        {
+          id: exercises[0]!.id,
+          exercise: exercises[0]!,
+          planningMode: "station",
+          sectionStationCount: 2,
+          stationRoundStart: true,
+        },
+        {
+          id: exercises[1]!.id,
+          exercise: exercises[1]!,
+          planningMode: "station",
+          sectionStationCount: 2,
+        },
+        {
+          id: exercises[2]!.id,
+          exercise: exercises[2]!,
+          planningMode: "station",
+          sectionStationCount: 3,
+        },
+      ]);
+
+      const normalizedBlocks = useSessionStore.getState().plannedBlocks ?? [];
+      const activeSection = getActivePlanningSection({
+        sessionBlocks: normalizedBlocks,
+        playerCount: 16,
+        planningSectionMode: "stations",
+        stationCount: 3,
+      });
+
+      expect(normalizedBlocks[3]?.stationRoundStart).toBe(true);
+      expect(activeSection.sectionNumber).toBe(3);
+      expect(activeSection.selectedCount).toBe(1);
+      expect(activeSection.requiredCount).toBe(3);
+      expect(activeSection.playerCounts).toEqual([5, 5, 6]);
+    });
   });
 
   describe("toggleFavorite", () => {

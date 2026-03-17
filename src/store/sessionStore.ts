@@ -206,7 +206,7 @@ const mergePlannedBlockMetadata = (
     }
   });
 
-  return merged;
+  return normalizeStationSectionMetadata(merged) ?? merged;
 };
 const buildExerciseLibrary = (
   custom: Exercise[] = [],
@@ -253,6 +253,59 @@ const normalizeOptionalText = (value: unknown) => {
   if (typeof value !== "string") return undefined;
   const normalized = value.trim();
   return normalized ? normalized : undefined;
+};
+
+const normalizeStationSectionCount = (count: unknown) =>
+  typeof count === "number" ? Math.max(2, Math.min(4, count)) : undefined;
+
+const normalizeStationSectionMetadata = (blocks: SessionBlock[] | null) => {
+  if (!blocks || blocks.length === 0) return blocks;
+
+  let currentRequiredCount: number | undefined;
+  let currentSectionLength = 0;
+  let previousWasStation = false;
+
+  return blocks.map((block, index) => {
+    const isStationBlock =
+      block.planningMode === "station" ||
+      (block.planningMode === undefined && block.exercise.category === "station");
+
+    if (!isStationBlock) {
+      previousWasStation = false;
+      currentRequiredCount = undefined;
+      currentSectionLength = 0;
+
+      return {
+        ...block,
+        sectionStationCount: undefined,
+        stationRoundStart: undefined,
+      };
+    }
+
+    const requestedCount = normalizeStationSectionCount(block.sectionStationCount);
+    const shouldStartNewSection =
+      !previousWasStation ||
+      block.stationRoundStart === true ||
+      (currentRequiredCount !== undefined && currentSectionLength >= currentRequiredCount) ||
+      (requestedCount !== undefined &&
+        currentRequiredCount !== undefined &&
+        requestedCount !== currentRequiredCount);
+
+    if (shouldStartNewSection) {
+      currentRequiredCount = requestedCount ?? currentRequiredCount ?? 2;
+      currentSectionLength = 0;
+    }
+
+    currentSectionLength += 1;
+    previousWasStation = true;
+
+    return {
+      ...block,
+      planningMode: "station",
+      sectionStationCount: currentRequiredCount,
+      stationRoundStart: shouldStartNewSection && index > 0 ? true : undefined,
+    };
+  });
 };
 
 const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
@@ -941,7 +994,8 @@ export const useSessionStore = create<SessionState>()(
           };
         }),
       plannedBlocks: null,
-      setPlannedBlocks: (blocks) => set({ plannedBlocks: blocks }),
+      setPlannedBlocks: (blocks) =>
+        set({ plannedBlocks: normalizeStationSectionMetadata(blocks) ?? blocks }),
       resetPlan: () =>
         set({
           plannedBlocks: null,
