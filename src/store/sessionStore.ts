@@ -4,6 +4,7 @@ import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituatio
 
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
+export type PlanningSectionTarget = "auto" | "next-section";
 
 export const DEFAULT_COACH_NAMES = [
   "Tor Inge",
@@ -68,6 +69,7 @@ type SessionState = {
   playerCount: number;
   stationCount: number;
   planningSectionMode: PlanningSectionMode;
+  planningSectionTarget: PlanningSectionTarget;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
@@ -77,6 +79,7 @@ type SessionState = {
   setPlayerCount: (count: number) => void;
   setStationCount: (count: number) => void;
   setPlanningSectionMode: (mode: PlanningSectionMode) => void;
+  setPlanningSectionTarget: (target: PlanningSectionTarget) => void;
   setSessionTitle: (title: string) => void;
   setSessionComment: (comment: string) => void;
   addCoachName: (name: string) => void;
@@ -432,11 +435,13 @@ const appendBlockForPlanningSection = ({
   exercise,
   planningSectionMode,
   stationCount,
+  planningSectionTarget,
 }: {
   blocks: SessionBlock[];
   exercise: Exercise;
   planningSectionMode: PlanningSectionMode;
   stationCount: number;
+  planningSectionTarget: PlanningSectionTarget;
 }): SessionBlock[] => {
   if (planningSectionMode === "single") {
     return [
@@ -455,6 +460,7 @@ const appendBlockForPlanningSection = ({
   const trailingCount = trailingStationSection?.count ?? 0;
   const trailingRequiredCount = trailingStationSection?.requiredCount ?? normalizedStationCount;
   const shouldStartNewStationRound =
+    planningSectionTarget === "next-section" ||
     trailingCount === 0 || trailingCount >= trailingRequiredCount;
   const previousBlock = blocks.at(-1);
 
@@ -821,6 +827,7 @@ export const useSessionStore = create<SessionState>()(
       playerCount: 12,
       stationCount: 2,
       planningSectionMode: "single",
+      planningSectionTarget: "auto",
       coachNames: defaultCoachNames(),
       searchQuery: "",
       highlightExerciseId: null,
@@ -832,7 +839,10 @@ export const useSessionStore = create<SessionState>()(
         set((state) => {
           const normalizedStationCount = Math.max(2, Math.min(4, count));
 
-          if (state.planningSectionMode !== "stations") {
+          if (
+            state.planningSectionMode !== "stations" ||
+            state.planningSectionTarget === "next-section"
+          ) {
             return { stationCount: normalizedStationCount };
           }
 
@@ -846,6 +856,7 @@ export const useSessionStore = create<SessionState>()(
           };
         }),
       setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
+      setPlanningSectionTarget: (target) => set({ planningSectionTarget: target }),
       setSessionTitle: (title) => set({ sessionTitle: title }),
       setSessionComment: (comment) => set({ sessionComment: comment }),
       addCoachName: (name) =>
@@ -877,6 +888,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: "",
           selectedExerciseIds: new Set(exerciseIds),
           selectedTheoryIds: new Set(theoryIds),
+          planningSectionTarget: "auto",
           highlightExerciseId: null,
         }),
       toggleExercise: (id) =>
@@ -894,6 +906,7 @@ export const useSessionStore = create<SessionState>()(
                 remainingPlannedBlocks && remainingPlannedBlocks.length > 0
                   ? remainingPlannedBlocks
                   : null,
+              planningSectionTarget: "auto",
             };
           }
 
@@ -921,7 +934,9 @@ export const useSessionStore = create<SessionState>()(
               exercise,
               planningSectionMode: state.planningSectionMode,
               stationCount: state.stationCount,
+              planningSectionTarget: state.planningSectionTarget,
             }),
+            planningSectionTarget: "auto",
           };
         }),
       toggleTheory: (id) =>
@@ -982,7 +997,9 @@ export const useSessionStore = create<SessionState>()(
               exercise: exerciseWithNumber,
               planningSectionMode: state.planningSectionMode,
               stationCount: state.stationCount,
+              planningSectionTarget: state.planningSectionTarget,
             }),
+            planningSectionTarget: "auto",
           };
         }),
       appendExerciseToPlan: (exercise) =>
@@ -1000,6 +1017,7 @@ export const useSessionStore = create<SessionState>()(
           if (baseBlocks.some((block) => block.exercise.id === existingExercise.id)) {
             return {
               selectedExerciseIds: nextSelectedExerciseIds,
+              planningSectionTarget: "auto",
             };
           }
 
@@ -1010,7 +1028,9 @@ export const useSessionStore = create<SessionState>()(
               exercise: existingExercise,
               planningSectionMode: state.planningSectionMode,
               stationCount: state.stationCount,
+              planningSectionTarget: state.planningSectionTarget,
             }),
+            planningSectionTarget: "auto",
           };
         }),
       updateExercise: (id, updated) =>
@@ -1049,6 +1069,7 @@ export const useSessionStore = create<SessionState>()(
           sessionComment: "",
           selectedExerciseIds: new Set(),
           selectedTheoryIds: new Set(),
+          planningSectionTarget: "auto",
           searchQuery: "",
           highlightExerciseId: null,
         }),
@@ -1136,6 +1157,7 @@ export const useSessionStore = create<SessionState>()(
           playerCount: saved.playerCount,
           stationCount: saved.stationCount,
           planningSectionMode: "single",
+          planningSectionTarget: "auto",
           coachNames,
           selectedExerciseIds,
           selectedTheoryIds: new Set(saved.selectedTheoryIds),

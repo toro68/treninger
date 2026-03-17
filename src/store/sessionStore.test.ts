@@ -14,6 +14,7 @@ describe("sessionStore", () => {
       playerCount: 16,
       stationCount: 4,
       planningSectionMode: "single",
+      planningSectionTarget: "auto",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set(),
       favoriteIds: new Set(),
@@ -87,6 +88,33 @@ describe("sessionStore", () => {
       expect(activeSection.selectedCount).toBe(1);
       expect(activeSection.requiredCount).toBe(3);
       expect(activeSection.playerCounts).toEqual([5, 5, 6]);
+    });
+
+    it("should not retune the previous section when planning the next section explicitly", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(1);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        planningSectionTarget: "next-section",
+        stationCount: 2,
+        plannedBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+        ],
+      });
+
+      useSessionStore.getState().setStationCount(3);
+
+      expect(useSessionStore.getState().plannedBlocks?.[0].sectionStationCount).toBe(2);
     });
   });
 
@@ -172,6 +200,54 @@ describe("sessionStore", () => {
         exercises[2]!.id,
       ]);
       expect(parts[2]?.subtitle).toBe("3 stasjoner · 5 + 5 + 6 spillere");
+    });
+
+    it("should start a new section when the planner target is set to next section", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        planningSectionTarget: "next-section",
+        stationCount: 3,
+        selectedExerciseIds: new Set([fixedWarmup!.id, exercises[0]!.id]),
+        plannedBlocks: [
+          {
+            id: fixedWarmup!.id,
+            exercise: fixedWarmup!,
+          },
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+            stationRoundStart: true,
+          },
+        ],
+      });
+
+      useSessionStore.getState().toggleExercise(exercises[1]!.id);
+
+      const nextState = useSessionStore.getState();
+      const sessionBlocks = nextState.plannedBlocks ?? [];
+      const parts = buildSessionParts(sessionBlocks, nextState.playerCount);
+
+      expect(parts.map((part) => part.title)).toEqual([
+        "1. Skadefri",
+        "2. Stasjoner",
+        "3. Stasjoner",
+      ]);
+      expect(parts[1]?.blocks[0]?.block.sectionStationCount).toBe(2);
+      expect(parts[2]?.blocks[0]?.block.sectionStationCount).toBe(3);
+      expect(nextState.planningSectionTarget).toBe("auto");
     });
   });
 

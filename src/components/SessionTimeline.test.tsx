@@ -346,6 +346,48 @@ describe("SessionTimeline sharing", () => {
     expect(screen.getByText("Stasjon 4")).toBeInTheDocument();
   });
 
+  it("lets the user explicitly start planning the next section", async () => {
+    const state = useSessionStore.getState();
+    const fixedWarmup = state.exerciseLibrary.find(
+      (item) => item.category === "fixed-warmup" && item.alwaysIncluded
+    );
+    const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+    expect(fixedWarmup).toBeDefined();
+    expect(exercise).toBeDefined();
+
+    useSessionStore.setState({
+      planningSectionMode: "stations",
+      stationCount: 2,
+      selectedExerciseIds: new Set([fixedWarmup!.id, exercise!.id]),
+      plannedBlocks: [
+        {
+          id: fixedWarmup!.id,
+          exercise: fixedWarmup!,
+        },
+        {
+          id: exercise!.id,
+          exercise: exercise!,
+          planningMode: "station",
+          sectionStationCount: 2,
+        },
+      ],
+    });
+
+    render(<SessionTimeline />);
+
+    expect(await screen.findByRole("button", { name: "Fortsett seksjon 2" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Start seksjon 3" })).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Start seksjon 3" }));
+    fireEvent.click(screen.getByRole("button", { name: "3 stasjoner" }));
+
+    expect(screen.getByRole("heading", { name: "Seksjon 3" })).toBeInTheDocument();
+    expect(screen.getByText("0/3 stasjoner valgt")).toBeInTheDocument();
+    expect(screen.getByText(/Du planlegger neste seksjon eksplisitt/)).toBeInTheDocument();
+    expect(screen.queryByText("Seksjonen er ikke ferdig ennå.")).not.toBeInTheDocument();
+  });
+
   it("keeps the next section active when station count increases after a completed station section", async () => {
     const state = useSessionStore.getState();
     const fixedWarmup = state.exerciseLibrary.find(

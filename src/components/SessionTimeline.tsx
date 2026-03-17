@@ -36,10 +36,12 @@ export const SessionTimeline = () => {
   const sessionTitle = useSessionStore((state) => state.sessionTitle);
   const sessionComment = useSessionStore((state) => state.sessionComment);
   const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
+  const planningSectionTarget = useSessionStore((state) => state.planningSectionTarget);
   const setSessionTitle = useSessionStore((state) => state.setSessionTitle);
   const setSessionComment = useSessionStore((state) => state.setSessionComment);
   const setStationCount = useSessionStore((state) => state.setStationCount);
   const setPlanningSectionMode = useSessionStore((state) => state.setPlanningSectionMode);
+  const setPlanningSectionTarget = useSessionStore((state) => state.setPlanningSectionTarget);
   const setPlannedBlocks = useSessionStore((state) => state.setPlannedBlocks);
   const resetPlan = useSessionStore((state) => state.resetPlan);
   const toggleTheory = useSessionStore((state) => state.toggleTheory);
@@ -127,10 +129,6 @@ export const SessionTimeline = () => {
     [sessionBlocks, playerCount, planningSectionMode, stationCount]
   );
   const nextSectionNumber = activeSection.sectionNumber;
-  const activeSectionSplitLabel =
-    activeSection.playerCounts.length === 1
-      ? `${activeSection.playerCounts[0]} spillere sammen`
-      : activeSection.playerCounts.join(" + ");
   const isIncompleteStationSection =
     planningSectionMode === "stations" &&
     activeSection.selectedCount > 0 &&
@@ -138,6 +136,19 @@ export const SessionTimeline = () => {
   const missingStations = isIncompleteStationSection
     ? activeSection.requiredCount - activeSection.selectedCount
     : 0;
+  const isPlanningNextSection = planningSectionTarget === "next-section";
+  const displayedSectionNumber = isPlanningNextSection ? parts.length + 1 : nextSectionNumber;
+  const displayedPlayerCounts =
+    planningSectionMode === "stations"
+      ? getSectionPlayerCounts(playerCount, "stations", stationCount)
+      : [playerCount];
+  const displayedRequiredCount = planningSectionMode === "stations" ? stationCount : 1;
+  const displayedSelectedCount = isPlanningNextSection ? 0 : activeSection.selectedCount;
+  const activeSectionSplitLabel =
+    displayedPlayerCounts.length === 1
+      ? `${displayedPlayerCounts[0]} spillere sammen`
+      : displayedPlayerCounts.join(" + ");
+  const showIncompleteStationSection = isIncompleteStationSection && !isPlanningNextSection;
 
   const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
     (block.alternativeExerciseIds ?? [])
@@ -678,7 +689,7 @@ export const SessionTimeline = () => {
       <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <h3 className="text-sm font-semibold text-zinc-900">Seksjon {nextSectionNumber}</h3>
+            <h3 className="text-sm font-semibold text-zinc-900">Seksjon {displayedSectionNumber}</h3>
             <p className="text-xs text-zinc-600">
               Velg om denne delen av økta skal være én felles øvelse eller {" "}
               {"2–4"} parallelle stasjoner. Biblioteket til venstre filtreres mot {activeSectionSplitLabel}.
@@ -686,10 +697,36 @@ export const SessionTimeline = () => {
           </div>
           <span className="text-xs font-medium text-sky-800">
             {planningSectionMode === "stations"
-              ? `${activeSection.selectedCount}/${activeSection.requiredCount} stasjoner valgt`
+              ? `${displayedSelectedCount}/${displayedRequiredCount} stasjoner valgt`
               : "1 øvelse for alle"}
           </span>
         </div>
+        {isIncompleteStationSection ? (
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => setPlanningSectionTarget("auto")}
+              className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                !isPlanningNextSection
+                  ? "border-amber-700 bg-amber-700 text-white"
+                  : "border-amber-200 bg-white text-amber-900 hover:border-amber-400"
+              }`}
+            >
+              {`Fortsett seksjon ${nextSectionNumber}`}
+            </button>
+            <button
+              type="button"
+              onClick={() => setPlanningSectionTarget("next-section")}
+              className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                isPlanningNextSection
+                  ? "border-sky-700 bg-sky-700 text-white"
+                  : "border-sky-200 bg-white text-sky-900 hover:border-sky-400"
+              }`}
+            >
+              {`Start seksjon ${parts.length + 1}`}
+            </button>
+          </div>
+        ) : null}
         <div className="mt-3 flex flex-wrap gap-2">
           {([
             { mode: "single", label: "1 øvelse" },
@@ -722,13 +759,21 @@ export const SessionTimeline = () => {
           })}
         </div>
         {planningSectionMode === "stations" ? (
-          <p className="mt-2 text-xs text-sky-900">Fordeling i denne seksjonen: {activeSection.playerCounts.join(" + ")} spillere.</p>
+          <p className="mt-2 text-xs text-sky-900">Fordeling i denne seksjonen: {displayedPlayerCounts.join(" + ")} spillere.</p>
         ) : null}
-        {isIncompleteStationSection ? (
+        {showIncompleteStationSection ? (
           <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-3 py-3 text-xs text-amber-950">
             <p className="font-semibold">Seksjonen er ikke ferdig ennå.</p>
             <p className="mt-1">
               Du har valgt {activeSection.selectedCount} av {activeSection.requiredCount} stasjoner. Neste valg blir stasjon {activeSection.selectedCount + 1}, og det mangler {missingStations} stasjon{missingStations === 1 ? "" : "er"} før neste seksjon starter.
+            </p>
+          </div>
+        ) : null}
+        {isPlanningNextSection ? (
+          <div className="mt-3 rounded-2xl border border-sky-200 bg-white/80 px-3 py-3 text-xs text-sky-950">
+            <p className="font-semibold">Du planlegger neste seksjon eksplisitt.</p>
+            <p className="mt-1">
+              Endringer i antall stasjoner gjelder seksjon {displayedSectionNumber}. Forrige uferdige seksjon blir ikke endret før du velger å fortsette den.
             </p>
           </div>
         ) : null}
