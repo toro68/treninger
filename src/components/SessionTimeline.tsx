@@ -7,6 +7,30 @@ import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { buildSessionParts } from "@/utils/sessionParts";
 import { useState, useEffect, useMemo } from "react";
 
+const SESSION_COMMENT_SUGGESTION = "Forslag til øvelser, men som vanlig er det fritt fram å endre på ting og velge andre øvelser på stasjonene.";
+
+const hasSessionCommentSuggestion = (comment: string) =>
+  comment.includes(SESSION_COMMENT_SUGGESTION);
+
+const toggleSessionCommentSuggestion = (comment: string, enabled: boolean) => {
+  const normalizedComment = comment.trim();
+
+  if (enabled) {
+    if (hasSessionCommentSuggestion(normalizedComment)) return comment;
+    return normalizedComment
+      ? `${normalizedComment}\n\n${SESSION_COMMENT_SUGGESTION}`
+      : SESSION_COMMENT_SUGGESTION;
+  }
+
+  if (!hasSessionCommentSuggestion(normalizedComment)) return comment;
+
+  return normalizedComment
+    .replace(`\n\n${SESSION_COMMENT_SUGGESTION}`, "")
+    .replace(`${SESSION_COMMENT_SUGGESTION}\n\n`, "")
+    .replace(SESSION_COMMENT_SUGGESTION, "")
+    .trim();
+};
+
 const CATEGORY_LABELS: Record<Exercise["category"], string> = {
   "fixed-warmup": "Skadefri",
   warmup: "Oppvarming",
@@ -571,6 +595,7 @@ export const SessionTimeline = () => {
 
   const hasContent = sessionBlocks.length > 0;
   const coachSummaryLabel = coachNames.length === 1 ? "Trener på økta" : "Trenere på økta";
+  const hasSuggestedSessionComment = hasSessionCommentSuggestion(sessionComment);
 
   if (!hydrated) {
     return (
@@ -841,6 +866,20 @@ export const SessionTimeline = () => {
               />
             </label>
           </div>
+
+          <label className="mt-3 inline-flex items-start gap-2 rounded-xl border border-amber-200 bg-white px-3 py-2 text-xs text-zinc-700">
+            <input
+              type="checkbox"
+              checked={hasSuggestedSessionComment}
+              onChange={(event) =>
+                setSessionComment(
+                  toggleSessionCommentSuggestion(sessionComment, event.target.checked)
+                )
+              }
+              className="mt-0.5 h-4 w-4 rounded border-amber-300 text-amber-600 focus:ring-amber-500"
+            />
+            <span>{SESSION_COMMENT_SUGGESTION}</span>
+          </label>
         </div>
       ) : null}
 

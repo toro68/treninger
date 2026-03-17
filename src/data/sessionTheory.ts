@@ -39,6 +39,50 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     playerMessage: "Gi ballfører minst tre løsninger: støtte, bredde og dybde.",
   },
   {
+    id: "theory-build-from-goal-structure-and-tasks",
+    category: "spillerbudskap",
+    title: "Utspill fra eget mål: struktur og oppgaver",
+    summary: "Godt utspill fra eget mål krever struktur før pasningen og tydelige oppgaver når presset kommer.",
+    coachNote: "Se først etter struktur før ballen går: bredde, dybde, vinkler og én spiller mellom ledd. Deretter: hvem gir støtte, hvem vender opp, og hvem truer bak presset?",
+    playerMessage: "Før ballen går må vi gi keeper vinkler og avstander. Når presset kommer må vi vite neste handling, og true både mellomrom og rommet bak.",
+    sections: [
+      {
+        title: "Posisjonering",
+        paragraphs: [
+          "Målet er å skape bredde, dybde og klare vinkler rundt ballfører.",
+        ],
+        bullets: [
+          "Keeper må ha minst to korte alternativer.",
+          "Stopperne må gi bredde uten å bli for flate.",
+          "Backene må vurdere høyde ut fra pressbildet: enten gi et lavt alternativ eller stå høyere for å dra ut press.",
+          "En sentral midtbane må være spillbar mellom første og andre pressledd, helst halvt vendt.",
+          "Resten må strekke banen nok til at motstander ikke kan presse alt på liten flate.",
+        ],
+      },
+      {
+        title: "Oppgaver",
+        bullets: [
+          "Keeper skal styre tempo, lese presset og velge side ut fra hvor neste fordel ligger.",
+          "Nærmeste spillere må gi tydelige støttevinkler, men ikke stå på samme linje.",
+          "Spilleren som mottar første pasning må orientere før ballen kommer og vite neste handling på forhånd.",
+          "Spillere lenger unna ball må enten gjøre seg spillbare eller true rommet bak presset.",
+          "Det kan være ved å trekke fra og komme mot, eller komme mot og gå i rom.",
+          "Hvis laget spiller forbi første press, må neste handling være framover eller vendingsspill.",
+        ],
+      },
+      {
+        title: "Enkel huskeregel",
+        bullets: [
+          "Skap trekanter rundt ball.",
+          "Ha én spiller mellom ledd.",
+          "Ha én trussel i rommet bak presset.",
+          "Vend raskt hvis motstander låser én side.",
+          "Ved balltap må nærmeste reagere umiddelbart for å hindre direkte overgang.",
+        ],
+      },
+    ],
+  },
+  {
     id: "theory-fewer-instructions",
     category: "læringsprinsipp",
     title: "Mindre instruksjon, mer oppdagelse",

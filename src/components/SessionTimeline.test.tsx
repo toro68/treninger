@@ -247,6 +247,33 @@ describe("SessionTimeline sharing", () => {
     expect(customizedBlock?.customComment).toBe("To touch første fire minutter.");
   });
 
+  it("lets the user toggle the standard session suggestion comment", async () => {
+    render(<SessionTimeline />);
+
+    const suggestionCheckbox = screen.getByRole("checkbox", {
+      name: /Forslag til øvelser, men som vanlig er det fritt fram å endre på ting/i,
+    });
+
+    fireEvent.click(suggestionCheckbox);
+
+    expect(screen.getByLabelText("Kommentar til hele økta")).toHaveValue(
+      "Forslag til øvelser, men som vanlig er det fritt fram å endre på ting og velge andre øvelser på stasjonene."
+    );
+
+    fireEvent.change(screen.getByLabelText("Kommentar til hele økta"), {
+      target: {
+        value:
+          "Tor Harald ønsker velkommen.\n\nForslag til øvelser, men som vanlig er det fritt fram å endre på ting og velge andre øvelser på stasjonene.",
+      },
+    });
+
+    fireEvent.click(suggestionCheckbox);
+
+    expect(screen.getByLabelText("Kommentar til hele økta")).toHaveValue(
+      "Tor Harald ønsker velkommen."
+    );
+  });
+
   it("lets the user assign coaches to a block", async () => {
     render(<SessionTimeline />);
 
