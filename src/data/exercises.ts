@@ -194,6 +194,33 @@ export const exercises: ExerciseData[] = [
     source: "egen",
   },
   {
+    id: "lanaa-rondo-2v2v2-3v3v3",
+    exerciseNumber: 4,
+    name: "Lånå - rondo 2v2v2 / 3v3v3",
+    category: "rondo",
+    duration: 12,
+    playersMin: 6,
+    playersMax: 18,
+    theme: "pasning",
+    equipment: ["baller", "kjegler", "vester"],
+    description:
+      "Tre lag spiller rondo i firkant. Del spillerne i tre like lag dersom antallet kan deles på tre, typisk 2v2v2 eller 3v3v3. Ett lag er i lånå og presser, mens de to andre lagene samarbeider om å holde ballen. Hvis antallet ikke går opp, brukes en joker med laget i ballbesittelse for å skape flyt og riktige relasjoner.",
+    coachingPoints: [
+      "Skap gode vinkler rundt firkanten så ballfører alltid har minst to alternativer",
+      "Spill med få touch og vær klar til å flytte ballen bort fra pressretningen",
+      "Laget i lånå må presse samlet og styre spillet mot én side",
+      "Jokeren må hele tiden justere posisjon for å skape overtall rundt ballen",
+    ],
+    variations: [
+      "Det laget som spiller ballen ut av firkanten er i lånå",
+      "Begrens alle til to touch eller ett touch for høyere tempo",
+      "Gi poeng etter et bestemt antall sammenhengende pasninger",
+      "Spill med én fast joker eller roter jokerrollen ved hvert brudd",
+      "Gjør firkanten mindre for hardere press eller større for mer tid i ball",
+    ],
+    source: "egen",
+  },
+  {
     id: "guus-hiddink-movement-and-combination-play",
     exerciseNumber: 4,
     name: "Guus Hiddink Movement and combination play",
