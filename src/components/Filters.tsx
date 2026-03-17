@@ -143,18 +143,14 @@ export const Filters = ({
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    let egneCount = 0;
     exerciseLibrary.forEach((exercise) => {
       // "egen" er øvelser uten eksplisitt source
       const key = exercise.source || "egen";
       counts[key] = (counts[key] ?? 0) + 1;
-      if (!exercise.source || exercise.source === "eggen") egneCount += 1;
       if (isTiimSituationalExercise(exercise)) {
         counts["tiim-situasjon"] = (counts["tiim-situasjon"] ?? 0) + 1;
       }
     });
-    // "Egne" inkluderer både helt egne og Eggen (samme logikk som i filterAndGroupExercises)
-    counts.egen = egneCount;
     return counts;
   }, [exerciseLibrary]);
 
@@ -173,8 +169,7 @@ export const Filters = ({
       if (sourceFilter !== null) {
         const exerciseSource = exercise.source || "egen";
         if (sourceFilter === "egen") {
-          // Vis egne øvelser (inkludert K.T. Eggen, men ikke Godfoten)
-          if (exercise.source && exerciseSource !== "eggen") return;
+          if (exercise.source) return;
         } else if (sourceFilter === "tiim-situasjon") {
           if (!isTiimSituationalExercise(exercise)) return;
         } else if (exerciseSource !== sourceFilter) {

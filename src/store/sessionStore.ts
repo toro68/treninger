@@ -1709,8 +1709,7 @@ export const filterAndGroupExercises = ({
     if (sourceFilter === null || sourceFilter === undefined) return true;
     const exerciseSource = exercise.source || "egen";
     if (sourceFilter === "egen") {
-      // "Egne" skal fortsatt bety interne øvelser og K.T. Eggen-sporet.
-      return !exercise.source || exercise.source === "eggen";
+        return !exercise.source;
     }
     if (sourceFilter === "tiim-situasjon") {
       return isTiimSituationalExercise(exercise);
