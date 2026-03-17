@@ -138,6 +138,12 @@ function SharedSessionPageContent() {
                   {part.subtitle ? <p className="text-xs text-zinc-500">{part.subtitle}</p> : null}
                 </div>
 
+                {part.sectionComment?.trim() ? (
+                  <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950">
+                    <span className="font-semibold text-amber-950">Kommentar til seksjon:</span> {part.sectionComment.trim()}
+                  </div>
+                ) : null}
+
                 <div className="mt-4 space-y-4">
                   {part.blocks.map(({ block }, blockIndex) => {
                     const blockTitle = block.customTitle?.trim() || block.exercise.name;
