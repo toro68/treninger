@@ -1780,7 +1780,7 @@ export const filterAndGroupExercises = ({
       exercise.source,
       exerciseCode,
     ]
-      .filter(Boolean);
+      .filter((part): part is string => Boolean(part));
     const haystack = haystackParts.join(" ").toLowerCase();
     if (haystack.includes(normalizedSearch)) return true;
     if (!compactSearch) return false;
