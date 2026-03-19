@@ -12,12 +12,14 @@ describe("sessionStore", () => {
       sessionTitle: "",
       sessionComment: "",
       playerCount: 16,
+      keeperCount: 0,
       stationCount: 4,
       nextSectionStationCount: 4,
       planningSectionMode: "single",
       planningSectionTarget: "auto",
       coachNames: ["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"],
       selectedExerciseIds: new Set(),
+      selectedTheoryIds: new Set(),
       favoriteIds: new Set(),
       searchQuery: "",
       highlightExerciseId: null,
@@ -26,6 +28,7 @@ describe("sessionStore", () => {
       exerciseOverrides: {},
       exerciseLibrary: useSessionStore.getState().exerciseLibrary,
       savedSessions: [],
+      activeSavedSessionId: null,
     });
   });
 
@@ -39,6 +42,32 @@ describe("sessionStore", () => {
       const { setPlayerCount } = useSessionStore.getState();
       setPlayerCount(20);
       expect(useSessionStore.getState().playerCount).toBe(20);
+    });
+
+    it("should clamp keeperCount when playerCount is reduced", () => {
+      useSessionStore.setState({ playerCount: 16, keeperCount: 3 });
+
+      useSessionStore.getState().setPlayerCount(2);
+
+      expect(useSessionStore.getState().playerCount).toBe(2);
+      expect(useSessionStore.getState().keeperCount).toBe(1);
+    });
+  });
+
+  describe("keeperCount", () => {
+    it("should update keeperCount", () => {
+      const { setKeeperCount } = useSessionStore.getState();
+      setKeeperCount(3);
+
+      expect(useSessionStore.getState().keeperCount).toBe(3);
+    });
+
+    it("should not allow keeperCount to exceed available players", () => {
+      useSessionStore.setState({ playerCount: 6 });
+
+      useSessionStore.getState().setKeeperCount(8);
+
+      expect(useSessionStore.getState().keeperCount).toBe(5);
     });
   });
 
@@ -1267,6 +1296,114 @@ describe("sessionStore", () => {
       });
 
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["tiim-situasjon"]);
+    });
+
+    it("should keep favorites first within the filtered result set", () => {
+      const library: Exercise[] = [
+        {
+          id: "manc-favorite",
+          exerciseNumber: 1,
+          name: "Favorite ManC pattern",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "Third-man combination in a side diamond",
+          coachingPoints: [],
+          variations: [],
+          source: "manc",
+        },
+        {
+          id: "manc-non-favorite",
+          exerciseNumber: 2,
+          name: "Another ManC pattern",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "Third-man combination with overlap",
+          coachingPoints: [],
+          variations: [],
+          source: "manc",
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        favoriteIds: new Set(["manc-favorite"]),
+        theme: "pasning",
+        sourceFilter: "manc",
+        searchQuery: "third-man",
+        categories: new Set<string>(["station"]),
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual([
+        "manc-favorite",
+        "manc-non-favorite",
+      ]);
+    });
+
+    it("should treat keeper count as separate from outfield count for standard exercises", () => {
+      const library: Exercise[] = [
+        {
+          id: "outfield-12",
+          exerciseNumber: 1,
+          name: "6v6 possession",
+          category: "game",
+          duration: 15,
+          playersMin: 12,
+          playersMax: 12,
+          theme: "spill",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 14,
+        keeperCount: 2,
+        categories: new Set<string>(["game"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.game?.map((ex) => ex.id)).toEqual(["outfield-12"]);
+    });
+
+    it("should still use total player count for exercises that explicitly include keepers", () => {
+      const library: Exercise[] = [
+        {
+          id: "game-with-keepers",
+          exerciseNumber: 1,
+          name: "6v6 + Goalkeepers",
+          category: "game",
+          duration: 15,
+          playersMin: 14,
+          playersMax: 14,
+          theme: "spill",
+          equipment: ["2 keepere"],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 14,
+        keeperCount: 2,
+        categories: new Set<string>(["game"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-with-keepers"]);
     });
 
     it("should support 21 players split into 7 + 7 + 7", () => {

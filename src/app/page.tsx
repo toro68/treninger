@@ -112,6 +112,7 @@ export default function Home() {
     setSearchQuery,
     exerciseLibrary,
     playerCount,
+    keeperCount,
     stationCount,
     planningSectionMode,
     favoriteIds,
@@ -123,6 +124,7 @@ export default function Home() {
       setSearchQuery: state.setSearchQuery,
       exerciseLibrary: state.exerciseLibrary,
       playerCount: state.playerCount,
+      keeperCount: state.keeperCount,
       stationCount: state.stationCount,
       planningSectionMode: state.planningSectionMode,
       favoriteIds: state.favoriteIds,
@@ -155,6 +157,7 @@ export default function Home() {
     return filterAndGroupExercises({
       exerciseLibrary,
       playerCount,
+      keeperCount,
       stationCount,
       planningSectionMode,
       favoriteIds,
@@ -167,6 +170,7 @@ export default function Home() {
   }, [
     exerciseLibrary,
     playerCount,
+    keeperCount,
     stationCount,
     planningSectionMode,
     favoriteIds,

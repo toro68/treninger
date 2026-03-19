@@ -19,6 +19,7 @@ describe("SessionTimeline sharing", () => {
       sessionTitle: "",
       sessionComment: "",
       playerCount: 12,
+      keeperCount: 2,
       stationCount: 3,
       nextSectionStationCount: 3,
       planningSectionMode: "single",
@@ -110,6 +111,7 @@ describe("SessionTimeline sharing", () => {
     });
 
     expect(writeText.mock.calls[0][0]).toContain("Treningsøkt (");
+    expect(writeText.mock.calls[0][0]).toContain("12 spillere (10 utespillere + 2 keepere)");
     expect(writeText.mock.calls[0][0]).toContain("1. [");
     expect(screen.getByText("Kopiert til utklippstavle")).toBeInTheDocument();
   });
@@ -212,6 +214,7 @@ describe("SessionTimeline sharing", () => {
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
 
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
+    expect(decoded?.keeperCount).toBe(2);
   });
 
   it("includes the coach roster in the full session link", async () => {
@@ -235,6 +238,7 @@ describe("SessionTimeline sharing", () => {
     const decoded = decodeSharedSessionToken(copiedUrl.searchParams.get("s"));
 
     expect(decoded?.coachNames).toEqual(["Tor Inge", "Tor Harald", "Dawid", "Rune", "John Arne"]);
+    expect(decoded?.keeperCount).toBe(2);
   });
 
   it("includes custom title and comments in the full session link", async () => {
@@ -613,7 +617,7 @@ describe("SessionTimeline sharing", () => {
 
     expect(screen.getByRole("heading", { name: "Seksjon 3" })).toBeInTheDocument();
     expect(screen.getByText("0/3 stasjoner valgt")).toBeInTheDocument();
-    expect(screen.getByText("Fordeling i denne seksjonen: 4 + 4 + 4 spillere.")).toBeInTheDocument();
+    expect(screen.getByText("Fordeling i denne seksjonen: 3 + 3 + 4 spillere.")).toBeInTheDocument();
     expect(screen.queryByText("Seksjonen er ikke ferdig ennå.")).not.toBeInTheDocument();
   });
 

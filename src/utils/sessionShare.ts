@@ -1,4 +1,5 @@
 import { allExercises, Exercise } from "@/data/exercises";
+import { getOutfieldPlayerCount } from "@/store/sessionStore";
 import type { DurationUnit, SessionBlock } from "@/store/sessionStore";
 
 type SharedBlock = {
@@ -20,6 +21,7 @@ type SharedSessionPayloadV1 = {
   sessionTitle?: string;
   sessionComment?: string;
   playerCount: number;
+  keeperCount?: number;
   stationCount: number;
   coachNames?: string[];
   selectedExerciseIds: string[];
@@ -32,6 +34,7 @@ type SharedSessionPayloadV2 = {
   sessionTitle?: string;
   sessionComment?: string;
   playerCount: number;
+  keeperCount?: number;
   stationCount: number;
   coachNames?: string[];
   selectedExerciseIds: string[];
@@ -45,6 +48,7 @@ export type SharedSessionData = {
   sessionTitle?: string;
   sessionComment?: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
@@ -257,6 +261,7 @@ export const createSharedSessionToken = ({
   sessionTitle,
   sessionComment,
   playerCount,
+  keeperCount,
   stationCount,
   coachNames,
   selectedExerciseIds,
@@ -266,6 +271,7 @@ export const createSharedSessionToken = ({
   sessionTitle: string;
   sessionComment: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
@@ -277,6 +283,7 @@ export const createSharedSessionToken = ({
     sessionTitle: normalizeOptionalText(sessionTitle),
     sessionComment: normalizeOptionalText(sessionComment),
     playerCount,
+    keeperCount,
     stationCount,
     coachNames: normalizeCoachNames(coachNames),
     selectedExerciseIds: [...selectedExerciseIds],
@@ -292,6 +299,7 @@ export const buildSharedSessionUrl = ({
   sessionTitle,
   sessionComment,
   playerCount,
+  keeperCount,
   stationCount,
   coachNames,
   selectedExerciseIds,
@@ -302,6 +310,7 @@ export const buildSharedSessionUrl = ({
   sessionTitle: string;
   sessionComment: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
@@ -312,6 +321,7 @@ export const buildSharedSessionUrl = ({
     sessionTitle,
     sessionComment,
     playerCount,
+    keeperCount,
     stationCount,
     coachNames,
     selectedExerciseIds,
@@ -331,6 +341,10 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
     if (typeof parsed.playerCount !== "number" || typeof parsed.stationCount !== "number") {
       return null;
     }
+    const keeperCount =
+      typeof parsed.keeperCount === "number"
+        ? Math.max(0, Math.min(parsed.playerCount - 1, Math.floor(parsed.keeperCount)))
+        : 0;
 
     const selectedExerciseIds = new Set(
       Array.isArray(parsed.selectedExerciseIds)
@@ -358,6 +372,7 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
       sessionTitle: normalizeOptionalText(parsed.sessionTitle),
       sessionComment: normalizeOptionalText(parsed.sessionComment),
       playerCount: parsed.playerCount,
+      keeperCount,
       stationCount: parsed.stationCount,
       coachNames,
       selectedExerciseIds,

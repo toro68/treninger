@@ -1,5 +1,5 @@
 import { Exercise, getExerciseCode } from "@/data/exercises";
-import { getUnit, recommendedDuration, SessionBlock } from "@/store/sessionStore";
+import { getOutfieldPlayerCount, getUnit, recommendedDuration, SessionBlock } from "@/store/sessionStore";
 
 export type PrintablePart = {
   title: string;
@@ -149,6 +149,7 @@ export const buildPrintDocument = ({
   sessionComment,
   totalMinutes,
   playerCount,
+  keeperCount = 0,
   exerciseLibrary,
 }: {
   parts: PrintablePart[];
@@ -156,11 +157,17 @@ export const buildPrintDocument = ({
   sessionComment?: string;
   totalMinutes: number;
   playerCount: number;
+  keeperCount?: number;
   exerciseLibrary: Exercise[];
 }) => {
   const sections = parts.map((part) => buildSectionMarkup(part, exerciseLibrary)).join("");
   const title = sessionTitle?.trim() || "Treningsøkt";
   const comment = sessionComment?.trim();
+  const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
+  const playerSummary =
+    keeperCount > 0
+      ? `${playerCount} spillere (${outfieldPlayerCount} utespillere + ${keeperCount} keepere)`
+      : `${playerCount} spillere`;
 
   return `
     <!DOCTYPE html>
@@ -172,7 +179,7 @@ export const buildPrintDocument = ({
       </head>
       <body>
         <h1>${title}</h1>
-        <div class="meta">${totalMinutes} minutter • ${playerCount} spillere</div>
+        <div class="meta">${totalMinutes} minutter • ${playerSummary}</div>
         ${comment ? `<div class="meta">${comment}</div>` : ""}
         ${sections}
       </body>
@@ -186,6 +193,7 @@ export const openPrintWindowForSession = (params: {
   sessionComment?: string;
   totalMinutes: number;
   playerCount: number;
+  keeperCount?: number;
   exerciseLibrary: Exercise[];
 }) => {
   if (typeof window === "undefined") return;

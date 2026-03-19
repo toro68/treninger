@@ -3,11 +3,14 @@ import { ChangeEvent, KeyboardEvent, useState } from "react";
 
 export const PlayerSetup = () => {
   const playerCount = useSessionStore((state) => state.playerCount);
+  const keeperCount = useSessionStore((state) => state.keeperCount);
   const setPlayerCount = useSessionStore((state) => state.setPlayerCount);
+  const setKeeperCount = useSessionStore((state) => state.setKeeperCount);
   const coachNames = useSessionStore((state) => state.coachNames);
   const addCoachName = useSessionStore((state) => state.addCoachName);
   const removeCoachName = useSessionStore((state) => state.removeCoachName);
   const [coachInput, setCoachInput] = useState("");
+  const outfieldPlayerCount = Math.max(1, playerCount - keeperCount);
 
   const handlePlayerChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = Number(event.target.value);
@@ -22,6 +25,21 @@ export const PlayerSetup = () => {
 
   const decrementPlayers = () => {
     if (playerCount > 4) setPlayerCount(playerCount - 1);
+  };
+
+  const handleKeeperChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = Number(event.target.value);
+    if (value >= 0 && value < playerCount) {
+      setKeeperCount(value);
+    }
+  };
+
+  const incrementKeepers = () => {
+    if (keeperCount < playerCount - 1) setKeeperCount(keeperCount + 1);
+  };
+
+  const decrementKeepers = () => {
+    if (keeperCount > 0) setKeeperCount(keeperCount - 1);
   };
 
   const handleCoachSubmit = () => {
@@ -41,10 +59,10 @@ export const PlayerSetup = () => {
     <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
       <h2 className="text-lg font-semibold text-zinc-900">Oppsett</h2>
       
-      <div className="mt-4 grid gap-4">
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
           <label className="flex flex-col gap-2">
-            <span className="text-sm text-zinc-600">Antall spillere</span>
+            <span className="text-sm text-zinc-600">Antall spillere totalt</span>
             <div className="flex items-center gap-2">
               <button
                 type="button"
@@ -73,6 +91,43 @@ export const PlayerSetup = () => {
             </div>
           </label>
         </div>
+        <div>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm text-zinc-600">Antall keepere</span>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={decrementKeepers}
+                disabled={keeperCount <= 0}
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 text-lg font-medium text-zinc-700 transition hover:bg-zinc-50 active:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                −
+              </button>
+              <input
+                type="number"
+                min={0}
+                max={Math.max(0, playerCount - 1)}
+                value={keeperCount}
+                onChange={handleKeeperChange}
+                className="w-16 rounded-xl border border-zinc-200 px-3 py-2 text-center text-lg font-semibold text-zinc-900 focus:border-black focus:outline-none"
+              />
+              <button
+                type="button"
+                onClick={incrementKeepers}
+                disabled={keeperCount >= playerCount - 1}
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 text-lg font-medium text-zinc-700 transition hover:bg-zinc-50 active:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                +
+              </button>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div className="mt-4 rounded-xl border border-emerald-100 bg-emerald-50 px-4 py-3">
+        <p className="text-sm text-emerald-900">
+          {playerCount} totalt = {outfieldPlayerCount} utespillere + {keeperCount} keeper{keeperCount === 1 ? "" : "e"}.
+        </p>
       </div>
 
       <div className="mt-4 rounded-xl bg-sky-50 border border-sky-100 px-4 py-3">

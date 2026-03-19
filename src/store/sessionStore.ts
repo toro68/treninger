@@ -59,6 +59,7 @@ export type SavedSession = {
   sessionTitle?: string;
   sessionComment?: string;
   playerCount: number;
+  keeperCount?: number;
   stationCount: number;
   coachNames: string[];
   selectedExerciseIds: string[];
@@ -75,6 +76,7 @@ type SessionState = {
   sessionTitle: string;
   sessionComment: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   nextSectionStationCount: number;
   planningSectionMode: PlanningSectionMode;
@@ -86,6 +88,7 @@ type SessionState = {
   searchQuery: string;
   highlightExerciseId: string | null;
   setPlayerCount: (count: number) => void;
+  setKeeperCount: (count: number) => void;
   setStationCount: (count: number) => void;
   setPlanningSectionMode: (mode: PlanningSectionMode) => void;
   setPlanningSectionTarget: (target: PlanningSectionTarget) => void;
@@ -330,21 +333,37 @@ const normalizeStationSectionMetadata = (
 
 const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
 
+const normalizeKeeperCount = (playerCount: number, keeperCount: number) =>
+  Math.max(0, Math.min(Math.max(0, playerCount - 1), Math.floor(keeperCount)));
+
+export const getOutfieldPlayerCount = (playerCount: number, keeperCount = 0) =>
+  Math.max(1, playerCount - normalizeKeeperCount(playerCount, keeperCount));
+
+const keeperPattern = /\b(?:gk|goalkeeper|goalkeepers|keeper|keepers|keepere)\b/i;
+
+const exerciseUsesTotalPlayerCount = (exercise: Exercise) =>
+  exercise.theme === "keeper" ||
+  [exercise.name, exercise.description, exercise.equipment?.join(" ")]
+    .filter(Boolean)
+    .some((value) => keeperPattern.test(value));
+
 const mergeCoachNames = (...groups: Array<Iterable<string> | undefined>) =>
   normalizeCoachNames(groups.flatMap((group) => (group ? [...group] : [])));
 
 export const getSectionPlayerCounts = (
   playerCount: number,
   planningSectionMode: PlanningSectionMode,
-  stationCount: number
+  stationCount: number,
+  keeperCount = 0
 ) => {
+  const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
   if (planningSectionMode === "single") {
-    return [playerCount];
+    return [outfieldPlayerCount];
   }
 
   const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
-  const baseCount = Math.floor(playerCount / normalizedStationCount);
-  const remainder = playerCount % normalizedStationCount;
+  const baseCount = Math.floor(outfieldPlayerCount / normalizedStationCount);
+  const remainder = outfieldPlayerCount % normalizedStationCount;
 
   return [
     ...Array.from({ length: normalizedStationCount - remainder }, () => baseCount),
@@ -410,22 +429,25 @@ const retuneTrailingStationSectionCount = (
 export const getActivePlanningSection = ({
   sessionBlocks,
   playerCount,
+  keeperCount = 0,
   planningSectionMode,
   stationCount,
   planningSectionTarget = "auto",
 }: {
   sessionBlocks: SessionBlock[];
   playerCount: number;
+  keeperCount?: number;
   planningSectionMode: PlanningSectionMode;
   stationCount: number;
   planningSectionTarget?: PlanningSectionTarget;
 }) => {
   const completedSections = buildTimelineSections(sessionBlocks).length;
+  const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
 
   if (planningSectionMode === "single") {
     return {
       sectionNumber: completedSections + 1,
-      playerCounts: [playerCount],
+      playerCounts: [outfieldPlayerCount],
       selectedCount: 0,
       requiredCount: 1,
       isComplete: false,
@@ -438,7 +460,7 @@ export const getActivePlanningSection = ({
   if (planningSectionTarget === "next-section") {
     return {
       sectionNumber: completedSections + 1,
-      playerCounts: getSectionPlayerCounts(playerCount, "stations", configuredCount),
+      playerCounts: getSectionPlayerCounts(playerCount, "stations", configuredCount, keeperCount),
       selectedCount: 0,
       requiredCount: configuredCount,
       isComplete: false,
@@ -453,7 +475,8 @@ export const getActivePlanningSection = ({
         playerCounts: getSectionPlayerCounts(
           playerCount,
           "stations",
-          explicitSection.requiredCount
+          explicitSection.requiredCount,
+          keeperCount
         ),
         selectedCount: explicitSection.selectedCount,
         requiredCount: explicitSection.requiredCount,
@@ -471,7 +494,7 @@ export const getActivePlanningSection = ({
 
   return {
     sectionNumber: completedSections + (selectedCount > 0 ? 0 : 1),
-    playerCounts: getSectionPlayerCounts(playerCount, "stations", requiredCount),
+    playerCounts: getSectionPlayerCounts(playerCount, "stations", requiredCount, keeperCount),
     selectedCount,
     requiredCount,
     isComplete: selectedCount === 0,
@@ -633,6 +656,7 @@ type PersistedSessionState = {
   sessionTitle: string;
   sessionComment: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   nextSectionStationCount: number;
   planningSectionMode: PlanningSectionMode;
@@ -693,6 +717,7 @@ const toSavedSession = ({
   sessionTitle,
   sessionComment,
   playerCount,
+  keeperCount,
   stationCount,
   coachNames,
   selectedExerciseIds,
@@ -706,6 +731,7 @@ const toSavedSession = ({
   sessionTitle: string;
   sessionComment: string;
   playerCount: number;
+  keeperCount: number;
   stationCount: number;
   coachNames: string[];
   selectedExerciseIds: Set<string>;
@@ -719,6 +745,7 @@ const toSavedSession = ({
   sessionTitle: normalizeOptionalText(sessionTitle),
   sessionComment: normalizeOptionalText(sessionComment),
   playerCount,
+  keeperCount,
   stationCount,
   coachNames: normalizeCoachNames(coachNames),
   selectedExerciseIds: serializeSet(selectedExerciseIds),
@@ -795,6 +822,13 @@ const hydrateSavedSessions = (
           createdAt: typeof entry.createdAt === "string" ? entry.createdAt : new Date().toISOString(),
           updatedAt: typeof entry.updatedAt === "string" ? entry.updatedAt : new Date().toISOString(),
           playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
+          keeperCount:
+            typeof entry.keeperCount === "number"
+              ? normalizeKeeperCount(
+                  typeof entry.playerCount === "number" ? entry.playerCount : 12,
+                  entry.keeperCount
+                )
+              : 0,
           stationCount: typeof entry.stationCount === "number" ? entry.stationCount : 3,
           coachNames,
           selectedExerciseIds,
@@ -938,6 +972,7 @@ export const useSessionStore = create<SessionState>()(
       sessionTitle: "",
       sessionComment: "",
       playerCount: 12,
+      keeperCount: 0,
       stationCount: 2,
       nextSectionStationCount: 2,
       planningSectionMode: "single",
@@ -948,7 +983,15 @@ export const useSessionStore = create<SessionState>()(
       selectedExerciseIds: new Set(),
       selectedTheoryIds: new Set(),
       favoriteIds: new Set(),
-      setPlayerCount: (count) => set({ playerCount: count }),
+      setPlayerCount: (count) =>
+        set((state) => ({
+          playerCount: count,
+          keeperCount: normalizeKeeperCount(count, state.keeperCount),
+        })),
+      setKeeperCount: (count) =>
+        set((state) => ({
+          keeperCount: normalizeKeeperCount(state.playerCount, count),
+        })),
       setStationCount: (count) =>
         set((state) => {
           const normalizedStationCount = Math.max(2, Math.min(4, count));
@@ -1284,6 +1327,7 @@ export const useSessionStore = create<SessionState>()(
           sessionTitle: state.sessionTitle,
           sessionComment: state.sessionComment,
           playerCount: state.playerCount,
+          keeperCount: state.keeperCount,
           stationCount: state.stationCount,
           coachNames: state.coachNames,
           selectedExerciseIds: state.selectedExerciseIds,
@@ -1323,6 +1367,7 @@ export const useSessionStore = create<SessionState>()(
           sessionTitle: saved.sessionTitle ?? "",
           sessionComment: saved.sessionComment ?? "",
           playerCount: saved.playerCount,
+          keeperCount: normalizeKeeperCount(saved.playerCount, saved.keeperCount ?? 0),
           stationCount: saved.stationCount,
           nextSectionStationCount: saved.stationCount,
           planningSectionMode: "single",
@@ -1350,6 +1395,7 @@ export const useSessionStore = create<SessionState>()(
         sessionTitle: state.sessionTitle,
         sessionComment: state.sessionComment,
         playerCount: state.playerCount,
+        keeperCount: state.keeperCount,
         stationCount: state.stationCount,
         nextSectionStationCount: state.nextSectionStationCount,
         planningSectionMode: state.planningSectionMode,
@@ -1399,6 +1445,10 @@ export const useSessionStore = create<SessionState>()(
 
           const playerCount =
             typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
+          const keeperCount =
+            typeof parsedState.keeperCount === "number"
+              ? normalizeKeeperCount(playerCount, parsedState.keeperCount)
+              : 0;
           const stationCount =
             typeof parsedState.stationCount === "number" ? parsedState.stationCount : 2;
           const nextSectionStationCount =
@@ -1443,6 +1493,7 @@ export const useSessionStore = create<SessionState>()(
               sessionTitle,
               sessionComment,
               playerCount,
+              keeperCount,
               stationCount,
               nextSectionStationCount,
               planningSectionMode,
@@ -1466,6 +1517,7 @@ export const useSessionStore = create<SessionState>()(
               sessionTitle: value.state.sessionTitle ?? "",
               sessionComment: value.state.sessionComment ?? "",
               playerCount: value.state.playerCount,
+              keeperCount: value.state.keeperCount ?? 0,
               stationCount: value.state.stationCount,
               nextSectionStationCount: value.state.nextSectionStationCount ?? value.state.stationCount,
               planningSectionMode: value.state.planningSectionMode ?? "single",
@@ -1627,10 +1679,16 @@ export const getExerciseFitScore = (
 const getWorstExerciseFitScore = (
   exercise: Exercise,
   playerCount: number,
-  playerCounts?: number[]
+  playerCounts?: number[],
+  keeperCount = 0
 ) => {
   if (!playerCounts || playerCounts.length === 0) {
-    return getExerciseFitScore(exercise, playerCount);
+    return getExerciseFitScore(
+      exercise,
+      exerciseUsesTotalPlayerCount(exercise)
+        ? playerCount
+        : getOutfieldPlayerCount(playerCount, keeperCount)
+    );
   }
 
   return Math.max(
@@ -1642,7 +1700,8 @@ export const matchesExercisePlayerCountFilter = (
   exercise: Exercise,
   playerCount: number,
   playersPerStation?: number,
-  targetPlayerCounts?: number[]
+  targetPlayerCounts?: number[],
+  keeperCount = 0
 ): boolean => {
   if (Array.isArray(targetPlayerCounts) && targetPlayerCounts.length > 0) {
     return targetPlayerCounts.every((targetPlayerCount) =>
@@ -1655,7 +1714,9 @@ export const matchesExercisePlayerCountFilter = (
   const relevantPlayerCount =
     exercise.category === "station" || exercise.category === "rondo"
       ? playersPerStation ?? playerCount
-      : playerCount;
+      : exerciseUsesTotalPlayerCount(exercise)
+        ? playerCount
+        : getOutfieldPlayerCount(playerCount, keeperCount);
 
   if (exercise.scalable) {
     return getExerciseFitScore(exercise, relevantPlayerCount) === 0;
@@ -1671,6 +1732,7 @@ export const matchesExercisePlayerCountFilter = (
 export const filterAndGroupExercises = ({
   exerciseLibrary,
   playerCount,
+  keeperCount = 0,
   stationCount,
   planningSectionMode,
   favoriteIds,
@@ -1682,6 +1744,7 @@ export const filterAndGroupExercises = ({
 }: {
   exerciseLibrary: Exercise[];
   playerCount: number;
+  keeperCount?: number;
   stationCount?: number;
   planningSectionMode?: PlanningSectionMode;
   favoriteIds?: Set<string>;
@@ -1691,10 +1754,13 @@ export const filterAndGroupExercises = ({
   searchQuery?: string;
   categories: Set<string>;
 }): Record<string, Exercise[]> => {
+  const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
   const playersPerStation =
-    stationCount && stationCount > 0 ? Math.floor(playerCount / stationCount) : playerCount;
+    stationCount && stationCount > 0
+      ? Math.floor(outfieldPlayerCount / stationCount)
+      : outfieldPlayerCount;
   const sectionPlayerCounts = planningSectionMode
-    ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2)
+    ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2, keeperCount)
     : undefined;
   const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
   const compactSearch = searchQuery ? compactSearchText(searchQuery) : "";
@@ -1744,7 +1810,8 @@ export const filterAndGroupExercises = ({
       exercise,
       playerCount,
       playersPerStation,
-      sectionPlayerCounts
+      sectionPlayerCounts,
+      keeperCount
     );
   };
 
@@ -1770,8 +1837,8 @@ export const filterAndGroupExercises = ({
       if (aFav !== bFav) return aFav - bFav;
 
       // 2. Sorter etter hvor godt øvelsen passer
-      const aScore = getWorstExerciseFitScore(a, playerCount, sectionPlayerCounts);
-      const bScore = getWorstExerciseFitScore(b, playerCount, sectionPlayerCounts);
+      const aScore = getWorstExerciseFitScore(a, playerCount, sectionPlayerCounts, keeperCount);
+      const bScore = getWorstExerciseFitScore(b, playerCount, sectionPlayerCounts, keeperCount);
       if (aScore !== bScore) return aScore - bScore;
 
       // 3. Alfabetisk

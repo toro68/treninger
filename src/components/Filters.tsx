@@ -134,17 +134,19 @@ export const Filters = ({
   onFilterByPlayerCountChange: (value: boolean) => void;
 }) => {
   const playerCount = useSessionStore((state) => state.playerCount);
+  const keeperCount = useSessionStore((state) => state.keeperCount);
   const stationCount = useSessionStore((state) => state.stationCount);
   const planningSectionMode = useSessionStore((state) => state.planningSectionMode);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
+  const outfieldPlayerCount = Math.max(1, playerCount - keeperCount);
   const sectionPlayerCounts = useMemo(
-    () => getSectionPlayerCounts(playerCount, planningSectionMode, stationCount),
-    [playerCount, planningSectionMode, stationCount]
+    () => getSectionPlayerCounts(playerCount, planningSectionMode, stationCount, keeperCount),
+    [playerCount, planningSectionMode, stationCount, keeperCount]
   );
   const sectionFilterLabel =
     sectionPlayerCounts.length === 1
-      ? `${sectionPlayerCounts[0]} spillere i seksjonen`
-      : `${sectionPlayerCounts.join(" + ")} spillere i seksjonen`;
+      ? `${sectionPlayerCounts[0]} utespillere i seksjonen`
+      : `${sectionPlayerCounts.join(" + ")} utespillere i seksjonen`;
 
   // Tell øvelser per kilde
   const sourceCounts = useMemo(() => {
@@ -166,7 +168,7 @@ export const Filters = ({
     exerciseLibrary.forEach((exercise) => {
       if (
         filterByPlayerCount &&
-        !matchesExercisePlayerCountFilter(exercise, playerCount, undefined, sectionPlayerCounts)
+        !matchesExercisePlayerCountFilter(exercise, playerCount, undefined, sectionPlayerCounts, keeperCount)
       ) {
         return;
       }
@@ -193,7 +195,7 @@ export const Filters = ({
         return themeA.localeCompare(themeB, "nb");
       })
       .map(([theme, count]) => ({ theme, count }));
-  }, [exerciseLibrary, playerCount, sectionPlayerCounts, sourceFilter, filterByPlayerCount]);
+  }, [exerciseLibrary, playerCount, sectionPlayerCounts, sourceFilter, filterByPlayerCount, keeperCount]);
 
   const totalThemeCount = useMemo(
     () => availableThemes.reduce((sum, entry) => sum + entry.count, 0),
@@ -265,8 +267,8 @@ export const Filters = ({
         {filterByPlayerCount && (
           <span className="text-xs text-zinc-500">
             {planningSectionMode === "stations"
-              ? `(${playerCount} spillere fordeles som ${sectionPlayerCounts.join(" + ")})`
-              : `(${playerCount} spillere i én felles øvelse)`}
+              ? `(${outfieldPlayerCount} utespillere fordeles som ${sectionPlayerCounts.join(" + ")}${keeperCount > 0 ? `, + ${keeperCount} keepere` : ""})`
+              : `(${outfieldPlayerCount} utespillere i én felles øvelse${keeperCount > 0 ? `, + ${keeperCount} keepere` : ""})`}
           </span>
         )}
       </div>

@@ -39,6 +39,7 @@ describe("Filters", () => {
           searchQuery: "",
           setSearchQuery: mockSetSearchQuery,
           playerCount: 16,
+          keeperCount: 0,
           stationCount: 4,
           planningSectionMode: "single",
           exerciseLibrary: [

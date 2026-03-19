@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Exercise, getExerciseCode } from "@/data/exercises";
-import { deriveSessionBlocks, getActivePlanningSection, useSessionStore } from "@/store/sessionStore";
+import { deriveSessionBlocks, getActivePlanningSection, getOutfieldPlayerCount, useSessionStore } from "@/store/sessionStore";
 import { useRef, useState, useMemo, memo } from "react";
 import { A01Figure25GeneralTemplateDiagram } from "@/components/A01Figure25GeneralTemplateDiagram";
 import { A01Figure26OverlapTemplateDiagram } from "@/components/A01Figure26OverlapTemplateDiagram";
@@ -58,6 +58,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     planningSectionTarget,
     stationCount,
     playerCount,
+    keeperCount,
     selectedExerciseIds,
     plannedBlocks,
     exerciseLibrary,
@@ -72,6 +73,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
       planningSectionTarget: state.planningSectionTarget,
       stationCount: state.stationCount,
       playerCount: state.playerCount,
+      keeperCount: state.keeperCount,
       selectedExerciseIds: state.selectedExerciseIds,
       plannedBlocks: state.plannedBlocks,
       exerciseLibrary: state.exerciseLibrary,
@@ -108,11 +110,12 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
           plannedBlocks,
         }),
         playerCount,
+        keeperCount,
         planningSectionMode,
         stationCount,
         planningSectionTarget,
       }),
-    [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, planningSectionMode, stationCount, planningSectionTarget]
+    [selectedExerciseIds, exerciseLibrary, plannedBlocks, playerCount, keeperCount, planningSectionMode, stationCount, planningSectionTarget]
   );
 
   const displayedSelectedCount = activeSection.selectedCount;
@@ -121,7 +124,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   const addButtonLabel =
     planningSectionMode === "stations"
       ? `Legg til som stasjon ${displayedSelectedCount + 1} av ${displayedRequiredCount}`
-      : `Legg til som øvelse for ${playerCount}`;
+      : `Legg til som øvelse for ${getOutfieldPlayerCount(playerCount, keeperCount)} utespillere`;
 
   const sanitizedSvg = useMemo(() => {
     if (!showDetails) return null;

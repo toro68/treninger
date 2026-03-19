@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
+import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
@@ -97,6 +97,7 @@ export const SessionTimeline = () => {
     [selectedExerciseIds, exerciseLibrary, plannedBlocks]
   );
   const playerCount = useSessionStore((state) => state.playerCount);
+  const keeperCount = useSessionStore((state) => state.keeperCount);
   const stationCount = useSessionStore((state) => state.stationCount);
   const planningSectionMode = useSessionStore((state) => state.planningSectionMode);
   const coachNames = useSessionStore((state) => state.coachNames);
@@ -167,13 +168,14 @@ export const SessionTimeline = () => {
       sessionTitle,
       sessionComment,
       playerCount,
+      keeperCount,
       stationCount,
       coachNames,
       selectedExerciseIds,
       selectedTheoryIds,
       plannedBlocks: sessionBlocks,
     });
-  }, [sessionTitle, sessionComment, playerCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks]);
+  }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks]);
 
   useEffect(() => {
     if (!activeSavedSession) return;
@@ -186,7 +188,11 @@ export const SessionTimeline = () => {
   }, [activeSavedSession]);
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
-  const parts = useMemo(() => buildSessionParts(sessionBlocks, playerCount), [sessionBlocks, playerCount]);
+  const outfieldPlayerCount = useMemo(
+    () => getOutfieldPlayerCount(playerCount, keeperCount),
+    [playerCount, keeperCount]
+  );
+  const parts = useMemo(() => buildSessionParts(sessionBlocks, outfieldPlayerCount), [sessionBlocks, outfieldPlayerCount]);
   const partByGlobalIndex = useMemo(() => {
     const map = new Map<number, typeof parts[number]>();
     parts.forEach((part) => {
@@ -210,11 +216,12 @@ export const SessionTimeline = () => {
       getActivePlanningSection({
         sessionBlocks,
         playerCount,
+        keeperCount,
         planningSectionMode,
         stationCount,
         planningSectionTarget,
       }),
-    [sessionBlocks, playerCount, planningSectionMode, stationCount, planningSectionTarget]
+    [sessionBlocks, playerCount, keeperCount, planningSectionMode, stationCount, planningSectionTarget]
   );
   const nextSectionNumber = parts.length + 1;
   const isIncompleteStationSection =
@@ -265,7 +272,8 @@ export const SessionTimeline = () => {
             ...getSectionPlayerCounts(
               playerCount,
               "stations",
-              currentPart.blocks[0]?.block.sectionStationCount ?? currentPart.blocks.length
+              currentPart.blocks[0]?.block.sectionStationCount ?? currentPart.blocks.length,
+              keeperCount
             )
           )
         : undefined;
@@ -441,6 +449,10 @@ export const SessionTimeline = () => {
   };
 
   const resolvedSessionTitle = sessionTitle.trim() || "Treningsøkt";
+  const playerSummary =
+    keeperCount > 0
+      ? `${playerCount} spillere (${outfieldPlayerCount} utespillere + ${keeperCount} keepere)`
+      : `${playerCount} spillere`;
 
   const buildShortSummary = () => {
     return parts
@@ -553,7 +565,7 @@ export const SessionTimeline = () => {
   const handleCopy = async (full: boolean) => {
     const summary = full ? buildFullSummary() : buildShortSummary();
     const commentSection = sessionComment.trim() ? `${sessionComment.trim()}\n\n` : "";
-    const sharePayload = `${resolvedSessionTitle} (${totalMinutes} min)\n${commentSection}${summary}`;
+    const sharePayload = `${resolvedSessionTitle} (${totalMinutes} min • ${playerSummary})\n${commentSection}${summary}`;
     try {
       if (await copyTextToClipboard(sharePayload)) {
         setShareStatus("copied");
@@ -586,6 +598,7 @@ export const SessionTimeline = () => {
         sessionComment,
         totalMinutes,
         playerCount,
+        keeperCount,
         exerciseLibrary,
       });
     } catch (error) {

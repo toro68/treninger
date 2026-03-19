@@ -9,7 +9,7 @@ import { getExerciseCode } from "@/data/exercises";
 import { getSessionTheoryItem } from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
-import { getUnit, recommendedDuration } from "@/store/sessionStore";
+import { getOutfieldPlayerCount, getUnit, recommendedDuration } from "@/store/sessionStore";
 import { buildSessionParts, getStationPlanSummary } from "@/utils/sessionParts";
 
 function SharedSessionPageContent() {
@@ -22,7 +22,10 @@ function SharedSessionPageContent() {
   const parts = useMemo(() => {
     if (!sharedSession) return [];
 
-    return buildSessionParts(sharedSession.sessionBlocks, sharedSession.playerCount);
+    return buildSessionParts(
+      sharedSession.sessionBlocks,
+      getOutfieldPlayerCount(sharedSession.playerCount, sharedSession.keeperCount)
+    );
   }, [sharedSession]);
 
   const stationPlanSummary = useMemo(() => getStationPlanSummary(parts), [parts]);
@@ -41,6 +44,11 @@ function SharedSessionPageContent() {
 
   const coachNames = sharedSession?.coachNames ?? [];
   const coachSummaryLabel = coachNames.length === 1 ? "Trener på økta" : "Trenere på økta";
+  const playerSummary = sharedSession
+    ? sharedSession.keeperCount > 0
+      ? `${sharedSession.playerCount} spillere (${getOutfieldPlayerCount(sharedSession.playerCount, sharedSession.keeperCount)} utespillere + ${sharedSession.keeperCount} keepere)`
+      : `${sharedSession.playerCount} spillere`
+    : "";
 
   const groupedTheoryItems = useMemo(() => {
     return [
@@ -107,7 +115,7 @@ function SharedSessionPageContent() {
             </div>
             <div className="flex flex-wrap gap-2 text-sm text-zinc-600">
               <span className="rounded-full bg-zinc-100 px-3 py-1.5">{totalMinutes} min</span>
-              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{sharedSession.playerCount} spillere</span>
+              <span className="rounded-full bg-zinc-100 px-3 py-1.5">{playerSummary}</span>
               {stationPlanSummary ? (
                 <span className="rounded-full bg-zinc-100 px-3 py-1.5">{stationPlanSummary}</span>
               ) : null}
