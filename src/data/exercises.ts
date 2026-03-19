@@ -1,6 +1,6 @@
 // category = plassering/struktur i økta, ikke faglig øvelsestype.
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
-export type ExerciseSource = "egen" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "drillo" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa";
+export type ExerciseSource = "egen" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "drillo" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa" | "manc";
 
 export const EXERCISE_THEMES = [
   "1v1",
@@ -94,6 +94,7 @@ type ExerciseFields<TTheme extends string> = {
   id: string;
   exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
+  displayName?: string; // Kortere visningsnavn i UI når full tittel er lang
   tags?: string[]; // Tagger for filtrering og gruppering
   category: ExerciseCategory; // Øktdel/struktur: oppvarming, stasjon, spill osv.
   duration: number; // minutes
@@ -190,7 +191,9 @@ export const exercises: ExerciseData[] = [
       "Øk til 2–3 pressere fra midtlaget for høyere intensitet",
       "Midtlaget scorer poeng ved å vinne ball – laget med færrest balltap etter X minutter vinner",
       "Legg til krav om at ballen må spilles langs bakken gjennom midtfeltet (ikke over)",
+      "Pep Guardiola-variant (Bayern München, Doha 2016): 15×45 yards (endesoner 15×10, midtsone 15×25). 3 lag à 6 spillere + 1 joker. 6(+1)v2 i endesonen – fullføre 6–8 pasninger, deretter luftpasning til motsatt lag. 2 fra midtlaget presser i endesonen, resten i midtsonen kan avskjære luftpasningen. Ved balltap: laget som mister bytter med midtlaget. Kontinuerlige overganger med høy intensitet – 2 nye pressere sprinter inn umiddelbart, de andre 4 flytter til midtsonen. Kilde: SoccerTutor, Pep Guardiola Vol. 2, s. 106–107.",
     ],
+    imageUrl: "/book-illustrations/pep-vol2-p106-107-three-team-possession-transition.webp",
     source: "egen",
   },
   {
@@ -852,6 +855,10 @@ import { worldclassExercises } from './worldclass-exercises';
 import { seegerExercises } from './seeger';
 // Importer UEFA-øvelser (fra UEFA A-analyser)
 import { uefaExercises } from './uefa-exercises';
+// Importer ManC-øvelser (Manchester City Academy / Pep-metodikk)
+import { mancExercises } from './manc-exercises';
+// Importer ManC Attacking Positional Patterns of Play (egen fil)
+import { mancAttackingPositionalExercises } from './manc-attacking-positional-exercises';
 
 // Kombiner alle øvelseskilder
 const allExerciseData: ExerciseData[] = [
@@ -870,6 +877,8 @@ const allExerciseData: ExerciseData[] = [
   ...worldclassExercises,
   ...seegerExercises,
   ...uefaExercises,
+  ...mancExercises,
+  ...mancAttackingPositionalExercises,
 ];
 
 export const allExercises: Exercise[] = allExerciseData.map(normalizeExercise);
