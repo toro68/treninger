@@ -113,6 +113,27 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     playerMessage: "Samme ord gjør det lettere å reagere likt i fart.",
   },
   {
+    id: "theory-rondo-xavi-quote",
+    category: "læringsprinsipp",
+    title: "Rondo-teori (Xavi)",
+    summary:
+      "Rondo er en uendelig læringsøvelse for orientering, to-fot, pasningsvalg og å spille seg ut av press.",
+    coachNote:
+      "Bruk rondo bevisst: skanne, lokke press, spille forbi pressledd og finne fri spiller.",
+    playerMessage:
+      "Rondo trener begge føtter, blikk, romforståelse og valg under press i hvert eneste mottak.",
+    sections: [
+      {
+        title: "Sitat",
+        paragraphs: [
+          '"With rondos, people still think that\'s just something we do for fun. No! It\'s an incredible exercise. You use both feet, you look towards the second line, you pass inside, you attract your opponent and then when he\'s close to you, pam! You pass it to the other side... It\'s endless. It\'s an exercise that allows infinite implementations."',
+          '"A rondo is not a whim. It\'s left foot, right foot, observing, open spaces, finding a way out of pressure, thinking to play past the one that is pressing you to the one he\'s freed up. The rondo is tremendous."',
+          "Xavi (legendarisk tidligere FC Barcelona- og Spania-spiller).",
+        ],
+      },
+    ],
+  },
+  {
     id: "theory-result-vs-learning",
     category: "trenerfokus",
     title: "Læring foran resultat",
@@ -506,6 +527,296 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
           "Hvem som eier returrommet og overgangen hvis første ball ikke vinnes rent.",
           "Hvem som markerer, hvem som dekker sone og hvem som tar første klarering defensivt.",
           "Keeperstyring og felles signaler som alle kjenner.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-rondo-cruyff-quote",
+    category: "læringsprinsipp",
+    title: "Rondo-prinsippet (Johan Cruyff)",
+    summary:
+      '«Everything that goes in a match, except shooting, you can do in a Rondo.»',
+    coachNote:
+      "Bruk rondo som en kampnær læringsarena for romforståelse, orientering, rytme, en-touch og gjenvinning.",
+    playerMessage:
+      "I rondo trener vi nesten alt som skjer i kamp: å skape rom, spille raskt, håndtere markering og vinne ballen tilbake.",
+    sections: [
+      {
+        title: "Sitat",
+        paragraphs: [
+          '"Everything that goes in a match, except shooting, you can do in a Rondo. The competitive aspect, fighting to make space, what to do when in possession and what to do when you haven\'t got the ball, how to play one touch football, how to counteract the tight marking and how to win the ball back."',
+          "Johan Cruyff (legendarisk tidligere Ajax- og FC Barcelona-spiller/hovedtrener).",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-city-way-overview",
+    category: "læringsprinsipp",
+    title: "The City Way: felles rammeverk",
+    summary: "Manchester City bygger alt rundt tre spor samtidig: angrep, forsvar og overgang. Poenget er å være organisert for neste fase før den kommer.",
+    coachNote:
+      "Bruk dette som toppnivå-språk i økta: skap overtall, behold ballen med hensikt, og stå allerede i gjenvinningsposisjon når vi angriper.",
+    playerMessage:
+      "Når vi har ball skal vi både skape noe framover og være klare for å vinne den tilbake. Når vi forsvarer skal vi gjøre det mulig å angripe raskt etterpå.",
+    sections: [
+      {
+        title: "Tre hovedprinsipper",
+        bullets: [
+          "Angrep: skap numerisk overtak i alle faser av spillet.",
+          "Forsvar: beskytt dybden og hold ballen foran laget.",
+          "Overgang: vær plassert slik at nærmeste spillere kan presse raskt ved balltap.",
+        ],
+      },
+      {
+        title: "Hvorfor dette henger sammen",
+        paragraphs: [
+          "The City Way beskriver ikke angrep, forsvar og overgang som tre separate tema. Posisjoneringen i én fase skal gjøre neste fase enklere og raskere.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-ready-attack-ready-defend",
+    category: "læringsprinsipp",
+    title: "Vær klar til å angripe, klar til å forsvare",
+    summary: "Riktig posisjonering gjør laget raskt i begge retninger og sparer energi over tid.",
+    coachNote:
+      "Se etter om spillernes utgangsposisjoner faktisk gjør neste handling mulig. Hvis laget må løpe for å reparere, står de feil fra start.",
+    playerMessage:
+      "Stå så riktig at du både kan støtte neste pasning og reagere umiddelbart hvis vi mister ballen.",
+    sections: [
+      {
+        title: "Praktisk betydning",
+        bullets: [
+          "Gode avstander gjør overgangene kortere.",
+          "Riktig struktur gjør at laget bruker mindre unødvendig energi.",
+          "Ballnære spillere må kunne presse raskt, mens resten sikrer bak presset.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-ball-does-the-work",
+    category: "spillerbudskap",
+    title: "La ballen gjøre jobben",
+    summary: "Ballbanen er raskere enn beina. Derfor skal struktur og pasningskvalitet skape tid, rom og kontroll.",
+    coachNote:
+      "Minn laget på at hurtig sirkulasjon ikke handler om fart for fartens skyld, men om å flytte motstander raskere enn de selv rekker å flytte seg.",
+    playerMessage:
+      "Spill ballen raskt og presist i stedet for å løpe inn i press. Det er ballen som skal flytte motstander.",
+    sections: [
+      {
+        title: "Hva spillerne må kjenne igjen",
+        bullets: [
+          "Spill posisjonen din så ballfører får flere løsninger.",
+          "Flytt ballen for å skape tid, ikke bare for å beholde den.",
+          "Bruk pasningen til å åpne neste rom eller neste mann.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-position-between-behind",
+    category: "spillerbudskap",
+    title: "Spill posisjonen din, mellom ledd og bak ledd",
+    summary: "The City Way krever at laget både holder formen og fyller rom for gjennombruddspasninger. Timing er like viktig som plassering.",
+    coachNote:
+      "Se etter to ting samtidig: holder laget strukturen sin, og fyller de mellomrom og bakrom i riktig øyeblikk? Ett av dem alene er ikke nok.",
+    playerMessage:
+      "Stå i rollen din, men kom i mellomrom og bakrom når øyeblikket er riktig. Ikke for tidlig og ikke på samme linje som andre.",
+    sections: [
+      {
+        title: "Kjernepoeng",
+        bullets: [
+          "Posisjonsdisiplin gir laget form og pasningsalternativer.",
+          "Mellomrom brukes for å motta rettvendt og bryte ledd.",
+          "Bakrom brukes for å true dybden og åpne rom foran.",
+          "Ankomsttid i rommet avgjør om fordelen blir reell.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-overloads-with-purpose",
+    category: "trenerfokus",
+    title: "Possession with a purpose",
+    summary: "Ballinnehav er bare verdifullt når det skaper en fordel: framdrift, kontroll, sjanse eller gjenvinningsposisjon.",
+    coachNote:
+      "Spør ikke bare om laget holder ballen, men om hver aksjon bygger en fordel: overtall, linjebrudd, kontroll eller bedre avslutningsrom.",
+    playerMessage:
+      "Behold ikke ballen bare for å beholde den. Hver pasning skal gi laget en bedre situasjon.",
+    sections: [
+      {
+        title: "Slik ser hensikt ut",
+        bullets: [
+          "Skap overtall rundt ball eller i neste rom.",
+          "Bryt linjer når rommet åpner seg.",
+          "Hvis gjennombrudd ikke er klart, bruk ballen til å kontrollere og flytte motstander.",
+          "Bygg også defensivt overtall ved å være klare for gjenvinning.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-build-up-phases",
+    category: "læringsprinsipp",
+    title: "Tre oppbyggingsfaser",
+    summary: "Manchester City deler angrepsoppbyggingen i tre faser: kort utspill fra keeper, kombinasjonsspill på midten og avslutning i siste tredel.",
+    coachNote:
+      "Bruk faseinndelingen for å avklare hva laget prøver å løse akkurat nå. Da blir korrigeringene mer presise og mindre generelle.",
+    playerMessage:
+      "Forstå hvilken fase vi er i. Oppgaven er ulik når vi spiller ut bakfra, når vi kombinerer sentralt og når vi angriper siste tredel.",
+    sections: [
+      {
+        title: "Faseoversikt",
+        bullets: [
+          "Fase 1: kort oppbygging fra keeper.",
+          "Fase 2: kombinasjonsspill og rotasjoner på midtbanen.",
+          "Fase 3: støtte innvendig, penetrasjon og innlegg i siste tredel.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-build-up-phase-1",
+    category: "spillerbudskap",
+    title: "Fase 1: kort oppbygging fra keeper",
+    summary: "Stopperne splitter, backene går høyt, og 6-eren gir keeper et tredje alternativ. Målet er å skape den ledige spilleren tidlig.",
+    coachNote:
+      "Still spørsmålet City selv brukte: hvem, hvor og hvordan skaper vi den ledige spilleren? Hele laget må bidra til raskeste vei mot mål.",
+    playerMessage:
+      "Gi keeper tre tydelige løsninger. Hvis kort vei blir låst, må vi kjenne andrevalget og hvem som angriper neste ball.",
+    sections: [
+      {
+        title: "Posisjonskrav",
+        bullets: [
+          "Stopperne gir bredde for å åpne første pressledd.",
+          "Backene står høyt for å dra ut motstanders press og åpne rom bak presset.",
+          "Defensiv midtbane faller som tredje alternativ når det trengs.",
+          "Lang pasning er andrevalg, men da skal målspiller, kant eller back være klare høyt og bredt.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-build-up-phase-2",
+    category: "spillerbudskap",
+    title: "Fase 2: kombinasjonsspill på midten",
+    summary: "Midtbanen starter rotasjoner og kombinasjoner, mens backene holder bredde og kantene søker mellom linjene for å skape overtall i motstanders struktur.",
+    coachNote:
+      "Kontroll av sentrum er nøkkelen. Se etter om midtbanespillere mottar rettvendt, og om backer og kanter balanserer bredde mot mellomrom riktig.",
+    playerMessage:
+      "Midtbanen skal vende opp og styre rytmen. Backene gir bredde, og kantene må finne lommer mellom motstanders ledd.",
+    sections: [
+      {
+        title: "Det laget prøver å oppnå",
+        bullets: [
+          "De tre sentrale midtbanespillerne holder rollene sine og roterer med kontroll.",
+          "Backene blir angrepsutløp ute på flankene.",
+          "Kantene kommer inn mellom ledd for å skape numerisk overtak i motstanders forsvarsstruktur.",
+          "Laget skal fortsatt være klart til å angripe og forsvare samtidig.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-build-up-phase-3",
+    category: "spillerbudskap",
+    title: "Fase 3: støtte innvendig, penetrasjon og innlegg",
+    summary: "I siste tredel skal City skape overtal gjennom kombinasjoner, motsatte bevegelser og koordinert løp i bakrom eller inn i boks.",
+    coachNote:
+      "Se etter romtiming, ikke bare løpsvilje. Når midtbanespiller kommer kort, må andre true bak. Når ballen går bredt, må innside og bakre rom fylles samtidig.",
+    playerMessage:
+      "Kom i riktig rom til riktig tid. Når én møter, må en annen true bak. Når vi kommer bredt, må vi fylle boks og returrom raskt.",
+    sections: [
+      {
+        title: "Innvendig støtte og gjennombrudd",
+        bullets: [
+          "Spill mellom ledd og bak ledd med motsatte bevegelser.",
+          "Skap overtal gjennom kombinasjoner og linjebrudd.",
+          "En midtbanespiller kan komme kort mens andre løper i bakrom.",
+          "Kantspillere gjør ofte diagonale løp inn bak forsvarere.",
+        ],
+      },
+      {
+        title: "Bredde og innlegg",
+        bullets: [
+          "Back eller kant mottar bredt for å dra motstander ut.",
+          "Det åpner rom inne i banen for neste pasning eller diagonal løp.",
+          "Innlegg skal være dynamiske og tidlige når rommet er der.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-press-from-front",
+    category: "trenerfokus",
+    title: "Pressing from the front",
+    summary: "Høyt press handler om å vinne ballen raskt eller tvinge fram feil. Første trigger skal utløse en kjedereaksjon i hele laget.",
+    coachNote:
+      "Førstepress alene er verdiløst. Se etter om resten av laget korter avstander, stenger innsiden og holder høy nok linje til å være kompakte.",
+    playerMessage:
+      "Når første press går, må alle andre flytte med. Vi viser motstander ut, forkorter rom og presser som lag.",
+    sections: [
+      {
+        title: "Nøkkelkrav i presset",
+        bullets: [
+          "Pressretning starter ofte med frontleddet og skal vise motstander utvendig.",
+          "Blokkhøyde velges ut fra kampplan og motstander, ikke vane.",
+          "Bakre ledd må stå høyt nok til å holde laget kompakt.",
+          "Første trigger skal aktivere neste spiller bak, og deretter neste igjen.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-midfield-defending",
+    category: "spillerbudskap",
+    title: "Forsvar i midtblokk",
+    summary: "Midtblokken skal beskytte dybden, holde ballen foran laget og gjøre banen liten rundt ballfører. Motstander skal styres ut av sentrum og inn i pressfeller.",
+    coachNote:
+      "Belønn laget for å nekte sentrale pasninger og vendinger, ikke bare for å vinne dueller. God midtblokk handler om romkontroll først.",
+    playerMessage:
+      "Stå smalt og kompakt. Hold ballen foran oss, press ballfører, og styr spillet dit vi vil ha det.",
+    sections: [
+      {
+        title: "Prinsipper uten ball",
+        bullets: [
+          "Se både motspiller og ball samtidig.",
+          "Gjør banen liten rundt ballen med høy tetthet på ballsiden.",
+          "Vis motstander utvendig og steng både framoverpasning og vending.",
+          "Bruk soneforsvar, kommunikasjon, duellstyrke og andreball-kontroll for å vinne ballen tilbake.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "theory-manc-box-defending",
+    category: "spillerbudskap",
+    title: "Forsvar rundt egen boks",
+    summary: "Når City forsvarer lavere, er prioriteten å stoppe gjennombruddspasninger bak, holde ballen foran laget og koordinere backfirer, 6-er og støtteledd tett rundt boksen.",
+    coachNote:
+      "Detaljene er avgjørende her: backenes høyde, stoppernes avstand, 6-erens dekning av T-sonen og hvor midtbanen fyller inn rundt bakre firer.",
+    playerMessage:
+      "Hold ballen foran oss, stopp pasningen bak, og flytt samlet rundt boksen. Når ballen går bredt, må vi beskytte både innlegg og cut-back.",
+    sections: [
+      {
+        title: "Backfirer og sentral beskyttelse",
+        bullets: [
+          "Forsvarsenhetens posisjon styres av hvor ballen er.",
+          "Den sentrale T-sonen må dekkes for å stenge ball bak forsvaret.",
+          "Backene skal være aggressive mot innlegg og samtidig passe på motsatt kant.",
+          "Stopper, back og keeper må dekke hverandre og markere spillere i boks kontinuerlig.",
+        ],
+      },
+      {
+        title: "Kompakthet og balanse",
+        bullets: [
+          "Midtbanespillere må fylle inn og beskytte bakre firer.",
+          "Laget må kontrollere skuddrommet foran boksen.",
+          "Spissene skal være nær nok til å bidra, men samtidig bevare angrepsbalanse ved gjenvinning.",
         ],
       },
     ],

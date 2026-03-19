@@ -114,10 +114,39 @@ describe("SessionTimeline sharing", () => {
     expect(screen.getByText("Kopiert til utklippstavle")).toBeInTheDocument();
   });
 
-  it("shows an error when clipboard is unavailable", async () => {
+  it("falls back to execCommand when clipboard is unavailable", async () => {
     Object.defineProperty(navigator, "clipboard", {
       configurable: true,
       value: undefined,
+    });
+
+    const execCommand = vi.fn().mockReturnValue(true);
+    Object.defineProperty(document, "execCommand", {
+      configurable: true,
+      value: execCommand,
+    });
+
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier kompakt tekst" }));
+
+    await waitFor(() => {
+      expect(execCommand).toHaveBeenCalledWith("copy");
+    });
+
+    expect(screen.getByText("Kopiert til utklippstavle")).toBeInTheDocument();
+  });
+
+  it("shows an error when no copy method is available", async () => {
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: undefined,
+    });
+
+    Object.defineProperty(document, "execCommand", {
+      configurable: true,
+      value: vi.fn().mockReturnValue(false),
     });
 
     render(<SessionTimeline />);
@@ -128,6 +157,16 @@ describe("SessionTimeline sharing", () => {
     await waitFor(() => {
       expect(screen.getByText("Kunne ikke dele")).toBeInTheDocument();
     });
+  });
+
+  it("shows a direct full session link", async () => {
+    render(<SessionTimeline />);
+
+    fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
+
+    const link = screen.getByRole("link", { name: "Åpne fullversjon" });
+    expect(link).toHaveAttribute("href");
+    expect(link.getAttribute("href")).toContain("/okt?s=");
   });
 
   it("copies a full session link", async () => {

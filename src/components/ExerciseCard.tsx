@@ -45,9 +45,11 @@ const SOURCE_CONFIG: Record<string, { label: string; className: string; linkText
   seeger:     { label: "Seeger",                  className: "bg-indigo-100 text-indigo-700",  linkText: "Se kilde",                        linkColor: "text-indigo-600 hover:text-indigo-700" },
   matkovich:  { label: "Matkovich",               className: "bg-teal-100 text-teal-700",      linkText: "Se kilde",                        linkColor: "text-teal-600 hover:text-teal-700" },
   worldclass: { label: "World Class",             className: "bg-sky-100 text-sky-700",        linkText: "Se kilde",                        linkColor: "text-sky-600 hover:text-sky-700" },
+  manc:       { label: "ManC",                    className: "bg-sky-100 text-sky-800",        linkText: "Se ManC-siden",                   linkColor: "text-sky-700 hover:text-sky-800" },
 };
 
 export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
+  const visibleExerciseName = exercise.displayName ?? exercise.name;
   const {
     toggleExercise,
     toggleFavorite,
@@ -185,8 +187,8 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={exercise.imageUrl}
-            alt={`Diagram for ${exercise.name}`}
-            className="block max-h-[220px] w-full object-contain"
+            alt={`Diagram for ${visibleExerciseName}`}
+            className="block w-full rounded-lg"
             loading="lazy"
             decoding="async"
           />
@@ -195,7 +197,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     }
 
     return null;
-  }, [showDetails, sanitizedSvg, exercise.id, exercise.imageUrl, exercise.name]);
+  }, [showDetails, sanitizedSvg, exercise.id, exercise.imageUrl, visibleExerciseName]);
 
   return (
     <label
@@ -218,7 +220,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
           <span className="inline-flex items-center justify-center min-w-[28px] h-6 px-1 rounded bg-zinc-100 text-xs font-medium text-zinc-500 shrink-0">
             {getExerciseCode(exercise)}
           </span>
-          <p className="font-medium text-zinc-900 flex-1">{exercise.name}</p>
+          <p className="font-medium text-zinc-900 flex-1">{visibleExerciseName}</p>
           {exercise.alwaysIncluded && (
             <span className="rounded-full bg-zinc-200 px-2 py-0.5 text-xs text-zinc-600">
               Fast
@@ -326,6 +328,17 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               </svg>
               {SOURCE_CONFIG.godfoten.linkText}
             </Link>
+          ) : exercise.source === "manc" ? (
+            <Link
+              href="/manc"
+              onClick={(event) => event.stopPropagation()}
+              className={`inline-flex items-center gap-1 text-xs hover:underline ${SOURCE_CONFIG.manc.linkColor}`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3 w-3">
+                <path d="M3.75 2A1.75 1.75 0 0 0 2 3.75v8.5C2 13.216 2.784 14 3.75 14h8.5A1.75 1.75 0 0 0 14 12.25v-8.5A1.75 1.75 0 0 0 12.25 2h-8.5ZM3.5 3.75c0-.138.112-.25.25-.25h8.5c.138 0 .25.112.25.25v8.5a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5Zm1.25 1.5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75Zm0 2.5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75Zm0 2.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1-.75-.75Z" />
+              </svg>
+              {SOURCE_CONFIG.manc.linkText}
+            </Link>
           ) : null}
           </div>
         )}
@@ -353,8 +366,14 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
                 )}
                 {exercise.sourceRef && (
                   <div className="print:hidden">
+                    {exercise.displayName && (
+                      <div className="mb-2">
+                        <p className="font-medium text-zinc-800">Full tittel</p>
+                        <p className="ml-4 text-zinc-600 break-words select-text">{exercise.name}</p>
+                      </div>
+                    )}
                     <p className="font-medium text-zinc-800">Kilde</p>
-                    <p className="ml-4 text-zinc-600">{exercise.sourceRef}</p>
+                    <p className="ml-4 text-zinc-600 break-words select-text">{exercise.sourceRef}</p>
                   </div>
                 )}
               </div>

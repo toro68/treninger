@@ -45,6 +45,49 @@ type ClipboardCapableNavigator = Navigator & {
   clipboard?: Pick<Clipboard, "writeText">;
 };
 
+const fallbackCopyText = (text: string) => {
+  if (typeof document === "undefined") return false;
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  textarea.style.pointerEvents = "none";
+  textarea.style.left = "-9999px";
+
+  document.body.appendChild(textarea);
+  textarea.focus();
+  textarea.select();
+
+  let copied = false;
+  try {
+    copied = document.execCommand("copy");
+  } finally {
+    document.body.removeChild(textarea);
+  }
+
+  return copied;
+};
+
+const copyTextToClipboard = async (text: string) => {
+  const nav =
+    typeof navigator !== "undefined"
+      ? (navigator as ClipboardCapableNavigator)
+      : undefined;
+
+  if (nav?.clipboard?.writeText) {
+    try {
+      await nav.clipboard.writeText(text);
+      return true;
+    } catch {
+      return fallbackCopyText(text);
+    }
+  }
+
+  return fallbackCopyText(text);
+};
+
 export const SessionTimeline = () => {
   const selectedExerciseIds = useSessionStore((state) => state.selectedExerciseIds);
   const plannedBlocks = useSessionStore((state) => state.plannedBlocks);
@@ -115,6 +158,22 @@ export const SessionTimeline = () => {
     : activeSavedSession
       ? "Oppdater lagret økt"
       : "Lagrede økter";
+
+  const fullSessionShareUrl = useMemo(() => {
+    if (typeof window === "undefined") return "";
+
+    return buildSharedSessionUrl({
+      origin: window.location.origin,
+      sessionTitle,
+      sessionComment,
+      playerCount,
+      stationCount,
+      coachNames,
+      selectedExerciseIds,
+      selectedTheoryIds,
+      plannedBlocks: sessionBlocks,
+    });
+  }, [sessionTitle, sessionComment, playerCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks]);
 
   useEffect(() => {
     if (!activeSavedSession) return;
@@ -471,31 +530,13 @@ export const SessionTimeline = () => {
   };
 
   const handleCopyShareLink = async () => {
-    if (typeof window === "undefined") {
+    if (!fullSessionShareUrl) {
       setShareStatus("error");
       return;
     }
 
-    const shareUrl = buildSharedSessionUrl({
-      origin: window.location.origin,
-      sessionTitle,
-      sessionComment,
-      playerCount,
-      stationCount,
-      coachNames,
-      selectedExerciseIds,
-      selectedTheoryIds,
-      plannedBlocks: sessionBlocks,
-    });
-
-    const nav =
-      typeof navigator !== "undefined"
-        ? (navigator as ClipboardCapableNavigator)
-        : undefined;
-
     try {
-      if (nav?.clipboard?.writeText) {
-        await nav.clipboard.writeText(shareUrl);
+      if (await copyTextToClipboard(fullSessionShareUrl)) {
         setShareStatus("copied");
       } else {
         setShareStatus("error");
@@ -513,14 +554,8 @@ export const SessionTimeline = () => {
     const summary = full ? buildFullSummary() : buildShortSummary();
     const commentSection = sessionComment.trim() ? `${sessionComment.trim()}\n\n` : "";
     const sharePayload = `${resolvedSessionTitle} (${totalMinutes} min)\n${commentSection}${summary}`;
-
-    const nav =
-      typeof navigator !== "undefined"
-        ? (navigator as ClipboardCapableNavigator)
-        : undefined;
     try {
-      if (nav?.clipboard?.writeText) {
-        await nav.clipboard.writeText(sharePayload);
+      if (await copyTextToClipboard(sharePayload)) {
         setShareStatus("copied");
       } else {
         setShareStatus("error");
@@ -656,6 +691,20 @@ export const SessionTimeline = () => {
                   </svg>
                   Kopier lenke til fullversjon
                 </button>
+                {fullSessionShareUrl ? (
+                  <a
+                    href={fullSessionShareUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setShowShareOptions(false)}
+                    className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
+                      <path d="M9.78 2.97a.75.75 0 0 1 0 1.06L6.81 7h4.44a.75.75 0 0 1 0 1.5H6.81l2.97 2.97a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" transform="matrix(-1 0 0 1 16 0)" />
+                    </svg>
+                    Åpne fullversjon
+                  </a>
+                ) : null}
                 <hr className="my-1 border-zinc-100" />
                 <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Eksporter</div>
                 <button
@@ -843,7 +892,7 @@ export const SessionTimeline = () => {
             <span className="text-xs text-amber-900">Vises i fullversjonen</span>
           </div>
 
-          <div className="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
+          <div className="mt-3 grid gap-3">
             <label className="flex flex-col gap-1.5 text-xs font-medium text-zinc-700">
               Økttittel
               <input
@@ -1235,7 +1284,7 @@ export const SessionTimeline = () => {
                                 ) : null}
                                 {(customizeMenuForBlockId === block.id || block.customTitle?.trim() || block.customComment?.trim()) ? (
                                   <div className="mt-3 rounded-xl border border-amber-200 bg-white p-3">
-                                    <div className="grid gap-3 sm:grid-cols-2">
+                                    <div className="grid gap-3">
                                       <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
                                         Egen tittel
                                         <input
@@ -1380,7 +1429,7 @@ export const SessionTimeline = () => {
               </span>
             </div>
 
-            <div className="mt-3 grid gap-2 sm:grid-cols-2">
+            <div className="mt-3 grid gap-2">
               {sessionTheoryItems.map((item) => {
                 const checked = selectedTheoryIds.has(item.id);
                 return (

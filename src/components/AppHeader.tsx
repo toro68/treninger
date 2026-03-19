@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { href: "/", label: "Trening" },
   { href: "/godfoten", label: "Godfoten" },
   { href: "/drillo", label: "Drillo" },
+  { href: "/manc", label: "ManC" },
   { href: "/nff", label: "NFF" },
   { href: "/kamp", label: "Kamp" },
   { href: "/opplaering", label: "Opplæring" },

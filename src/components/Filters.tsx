@@ -109,6 +109,12 @@ const sourceConfig: Record<string, { label: string; description: string; activeC
     description: "UEFA A-analyser",
     activeClass: "border-blue-600 bg-blue-50 text-blue-700",
     dotClass: "bg-blue-600"
+  },
+  manc: {
+    label: "ManC",
+    description: "Manchester City Academy",
+    activeClass: "border-sky-700 bg-sky-50 text-sky-800",
+    dotClass: "bg-sky-700"
   }
 };
 

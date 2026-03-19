@@ -185,9 +185,9 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
 
-      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
-        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
-          <div className="space-y-4 lg:space-y-6">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-10">
+        <div className="grid gap-6 xl:grid-cols-3 xl:gap-8">
+          <div className="space-y-4 xl:col-span-2 xl:space-y-6">
             <PlayerSetup />
             <section className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm sm:p-6">
               <div className="flex flex-col gap-3">
@@ -226,7 +226,7 @@ export default function Home() {
             </section>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-6 xl:col-span-1">
             <SessionTimeline />
             <EquipmentList />
           </div>
