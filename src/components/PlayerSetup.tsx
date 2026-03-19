@@ -11,20 +11,22 @@ export const PlayerSetup = () => {
   const removeCoachName = useSessionStore((state) => state.removeCoachName);
   const [coachInput, setCoachInput] = useState("");
   const outfieldPlayerCount = Math.max(1, playerCount - keeperCount);
+  const minOutfieldPlayerCount = Math.max(1, 4 - keeperCount);
+  const maxOutfieldPlayerCount = Math.max(minOutfieldPlayerCount, 40 - keeperCount);
 
   const handlePlayerChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = Number(event.target.value);
-    if (value >= 4 && value <= 40) {
-      setPlayerCount(value);
+    if (value >= minOutfieldPlayerCount && value <= maxOutfieldPlayerCount) {
+      setPlayerCount(value + keeperCount);
     }
   };
 
   const incrementPlayers = () => {
-    if (playerCount < 40) setPlayerCount(playerCount + 1);
+    if (outfieldPlayerCount < maxOutfieldPlayerCount) setPlayerCount(playerCount + 1);
   };
 
   const decrementPlayers = () => {
-    if (playerCount > 4) setPlayerCount(playerCount - 1);
+    if (outfieldPlayerCount > minOutfieldPlayerCount) setPlayerCount(playerCount - 1);
   };
 
   const handleKeeperChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -62,28 +64,28 @@ export const PlayerSetup = () => {
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
           <label className="flex flex-col gap-2">
-            <span className="text-sm text-zinc-600">Antall spillere totalt</span>
+            <span className="text-sm text-zinc-600">Antall utespillere</span>
             <div className="flex items-center gap-2">
               <button
                 type="button"
                 onClick={decrementPlayers}
-                disabled={playerCount <= 4}
+                disabled={outfieldPlayerCount <= minOutfieldPlayerCount}
                 className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 text-lg font-medium text-zinc-700 transition hover:bg-zinc-50 active:bg-zinc-100 disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 −
               </button>
               <input
                 type="number"
-                min={4}
-                max={40}
-                value={playerCount}
+                min={minOutfieldPlayerCount}
+                max={maxOutfieldPlayerCount}
+                value={outfieldPlayerCount}
                 onChange={handlePlayerChange}
                 className="w-16 rounded-xl border border-zinc-200 px-3 py-2 text-center text-lg font-semibold text-zinc-900 focus:border-black focus:outline-none"
               />
               <button
                 type="button"
                 onClick={incrementPlayers}
-                disabled={playerCount >= 40}
+                disabled={outfieldPlayerCount >= maxOutfieldPlayerCount}
                 className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 text-lg font-medium text-zinc-700 transition hover:bg-zinc-50 active:bg-zinc-100 disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 +
