@@ -23,7 +23,7 @@ export const SearchField = () => {
       </svg>
       <input
         type="search"
-        placeholder="Søk etter øvelse, tema eller utstyr"
+        placeholder="Søk etter øvelse, kode, tema eller utstyr"
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
         className="w-full bg-transparent text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none"

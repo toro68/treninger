@@ -2,6 +2,14 @@ import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
 import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituationalExercise } from "@/data/exercises";
 
+const normalizeSearchText = (value: string) => value.trim().toLowerCase();
+
+const compactSearchText = (value: string) =>
+  normalizeSearchText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
 export type PlanningSectionTarget = "auto" | "next-section" | `section-${number}`;
@@ -1688,14 +1696,15 @@ export const filterAndGroupExercises = ({
   const sectionPlayerCounts = planningSectionMode
     ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2)
     : undefined;
-  const normalizedSearch = searchQuery?.trim().toLowerCase();
+  const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
+  const compactSearch = searchQuery ? compactSearchText(searchQuery) : "";
 
   const grouped: Record<string, Exercise[]> = {};
 
   const matchesSearch = (exercise: Exercise) => {
     if (!normalizedSearch) return true;
     const exerciseCode = getExerciseCode(exercise).toLowerCase();
-    const haystack = [
+    const haystackParts = [
       exercise.name,
       exercise.description,
       exercise.theme,
@@ -1705,10 +1714,16 @@ export const filterAndGroupExercises = ({
       exercise.source,
       exerciseCode,
     ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-    return haystack.includes(normalizedSearch);
+      .filter(Boolean);
+    const haystack = haystackParts.join(" ").toLowerCase();
+    if (haystack.includes(normalizedSearch)) return true;
+    if (!compactSearch) return false;
+
+    const compactHaystack = haystackParts
+      .map((part) => compactSearchText(part))
+      .join("");
+
+    return compactHaystack.includes(compactSearch);
   };
 
   const matchesSource = (exercise: Exercise) => {
