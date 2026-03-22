@@ -959,6 +959,44 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     ],
   },
   {
+    id: "theory-jokers-why",
+    category: "læringsprinsipp",
+    title: "Hvorfor bruker vi jokere i øvelser?",
+    summary: "Jokere (nøytrale spillere) sikrer overtall for laget i ball, trener raske beslutninger og gjør øvelsene spillbare nok til at læringsmålene oppnås.",
+    coachNote:
+      "Jokeren er ikke bare en ekstra spiller. Plasser jokeren i en posisjon som speiler kampens utfordringer, for eksempel mellom ledd eller på kantene, slik at spillerne trener med realistiske pasningsalternativer.",
+    playerMessage:
+      "Jokeren gir deg alltid ett ekstra alternativ. Bruk det til å spille raskt og presist, ikke til å gjemme ballen.",
+    sections: [
+      {
+        title: "Hovedgrunner til å bruke jokere",
+        bullets: [
+          "Sikrer numerisk overtall for laget i ball (f.eks. 5v3 i en 3v3+2), slik at spillerne får flere pasningsalternativer og tvinges til å ta bedre valg.",
+          "Øker tempo og beslutningspress: jokere spiller ofte med maks 1–2 touch og må orientere seg, motta under press og spille videre umiddelbart.",
+          "Trener spesifikke roller: jokeren simulerer ofte en bestemt posisjon (kantspiller, sentral midtbane mellom ledd, tredjemann).",
+          "Skaper realistisk overgang: ved balltap bytter rollefordelingen umiddelbart, og laget som mister ballen må gå i counter-press mens jokerne spiller med det nye laget i ball.",
+          "Holder øvelsen spillbar: uten jokere kan det bli for vanskelig å holde ball i små rom, og øvelsen bryter sammen før læringsmålene oppnås.",
+        ],
+      },
+      {
+        title: "Guardiola / Juego de Posición",
+        paragraphs: [
+          "I Peps metodikk er nøytrale spillere helt sentralt. De representerer den ekstra fordelen et lag som holder ball alltid skal ha gjennom god posisjonering. Øvelsene gjenspeiler prinsippet om at godt posisjonsspill skaper innebygd overtall.",
+          "Progresjon: start med stort overtall (f.eks. 8v4 med 4 jokere på utsiden), og reduser gradvis overtallet (5v5+3, 6v6+2) etter hvert som spillerne mestrer prinsippene. Da øker presset på beslutninger og tempo.",
+        ],
+      },
+      {
+        title: "Praktiske tips",
+        bullets: [
+          "Jokere bør ha en tydelig farge (gul vest) og forstå rollen sin.",
+          "Begrens antall touch for jokere for å tvinge raskere spill.",
+          "Varier jokerplassering: på utsiden, inne i feltet, i endene, eller som flytende spiller.",
+          "Bruk jokerbytte som belønning/konsekvens: den som mister ballen blir joker, eller den som vinner ballen erstatter jokeren.",
+        ],
+      },
+    ],
+  },
+  {
     id: "theory-nff-soneforsvar-hvorfor",
     category: "spillerbudskap",
     title: "NFF: godt forsvar skaper angrep",

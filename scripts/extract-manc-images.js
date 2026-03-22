@@ -32,8 +32,8 @@ const PAGE_MAP_BY_ID = {
   'manc-mid-block-defending': [115],
   'manc-defending-own-box': [140],
   // New mappings (PDF page = sourceRef book page + 1)
-  'manc-3v2-finish-2-zone-3-team-ssg': [62],
-  'manc-continuous-2v2-pairs-wave-game': [63],
+  'manc-3v2-finish-2-zone-3-team-ssg': [61],
+  'manc-continuous-2v2-pairs-wave-game': [62],
   'manc-possession-transitions-4-goal-conditioned': [81],
   'manc-technical-attacking-combination-finishing-circuit': [83],
   'manc-midfield-combinations-crossing-6v4': [84],

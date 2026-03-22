@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#FFD700"/></marker>
+    <marker id="arrow-dash" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#333"/></marker>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="400" fill="#3a8c3a" rx="8"/>
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">6v2 Rektangel-Rondo (5×10 yards)</text>
+  <!-- Pitch rectangle -->
+  <rect x="150" y="55" width="200" height="310" fill="none" stroke="white" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Outside players (blue) - 2 on each short side, 1 on each long side -->
+  <!-- Top short side -->
+  <circle cx="210" cy="55" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="210" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">1</text>
+  <circle cx="290" cy="55" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="290" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">2</text>
+  <!-- Bottom short side -->
+  <circle cx="210" cy="365" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="210" y="370" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">3</text>
+  <circle cx="290" cy="365" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="290" y="370" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">4</text>
+  <!-- Left long side -->
+  <circle cx="150" cy="210" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="150" y="215" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">5</text>
+  <!-- Right long side -->
+  <circle cx="350" cy="210" r="14" fill="#2196F3" stroke="white" stroke-width="2"/>
+  <text x="350" y="215" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">6</text>
+  <!-- Inside defenders (yellow) -->
+  <circle cx="230" cy="180" r="14" fill="#FFC107" stroke="white" stroke-width="2"/>
+  <text x="230" y="185" text-anchor="middle" fill="black" font-family="Arial" font-size="11" font-weight="bold">D1</text>
+  <circle cx="270" cy="250" r="14" fill="#FFC107" stroke="white" stroke-width="2"/>
+  <text x="270" y="255" text-anchor="middle" fill="black" font-family="Arial" font-size="11" font-weight="bold">D2</text>
+  <!-- Pass arrows -->
+  <line x1="224" y1="55" x2="280" y2="55" stroke="#FFD700" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="290" y1="69" x2="350" y2="196" stroke="#FFD700" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6,3"/>
+  <line x1="350" y1="224" x2="300" y2="365" stroke="#FFD700" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6,3"/>
+  <!-- Movement arrows for defenders -->
+  <path d="M240,175 Q260,165 255,185" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-dash)"/>
+  <path d="M260,255 Q240,265 245,240" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow-dash)"/>
+  <!-- Legend -->
+  <rect x="20" y="50" width="110" height="100" fill="rgba(0,0,0,0.5)" rx="5"/>
+  <circle cx="40" cy="72" r="8" fill="#2196F3" stroke="white" stroke-width="1"/>
+  <text x="55" y="76" fill="white" font-family="Arial" font-size="10">Besittelse (6)</text>
+  <circle cx="40" cy="97" r="8" fill="#FFC107" stroke="white" stroke-width="1"/>
+  <text x="55" y="101" fill="white" font-family="Arial" font-size="10">Forsvarere (2)</text>
+  <line x1="32" y1="120" x2="60" y2="120" stroke="#FFD700" stroke-width="2"/>
+  <text x="65" y="124" fill="white" font-family="Arial" font-size="10">Pasning</text>
+  <text x="30" y="143" fill="white" font-family="Arial" font-size="9">Maks 1 touch</text>
+  <!-- Dimensions -->
+  <text x="250" y="392" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial" font-size="10">5 × 10 yards — sidespillere jobber for å skape vinkler</text>
+</svg>
