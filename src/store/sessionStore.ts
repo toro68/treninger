@@ -1736,7 +1736,9 @@ export const filterAndGroupExercises = ({
   stationCount,
   planningSectionMode,
   favoriteIds,
+  favoritesOnly,
   theme,
+  tags,
   sourceFilter,
   filterByPlayerCount,
   searchQuery,
@@ -1748,8 +1750,10 @@ export const filterAndGroupExercises = ({
   stationCount?: number;
   planningSectionMode?: PlanningSectionMode;
   favoriteIds?: Set<string>;
-  theme?: string;
-  sourceFilter?: ExerciseSource | "egen" | "tiim-situasjon" | null;
+  favoritesOnly?: boolean;
+  theme?: string | string[];
+  tags?: string[];
+  sourceFilter?: ExerciseSource | "egen" | "tiim-situasjon" | Array<ExerciseSource | "egen" | "tiim-situasjon"> | null;
   filterByPlayerCount?: boolean;
   searchQuery?: string;
   categories: Set<string>;
@@ -1764,6 +1768,13 @@ export const filterAndGroupExercises = ({
     : undefined;
   const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
   const compactSearch = searchQuery ? compactSearchText(searchQuery) : "";
+  const activeThemes = Array.isArray(theme) ? theme : theme ? [theme] : [];
+  const activeTags = tags ?? [];
+  const activeSourceFilters = Array.isArray(sourceFilter)
+    ? sourceFilter
+    : sourceFilter
+      ? [sourceFilter]
+      : [];
 
   const grouped: Record<string, Exercise[]> = {};
 
@@ -1774,10 +1785,12 @@ export const filterAndGroupExercises = ({
       exercise.name,
       exercise.description,
       exercise.theme,
+      exercise.tags?.join(" "),
       exercise.equipment?.join(" "),
       exercise.coachingPoints?.join(" "),
       exercise.variations?.join(" "),
       exercise.source,
+      exercise.sourceRef,
       exerciseCode,
     ]
       .filter((part): part is string => Boolean(part));
@@ -1793,15 +1806,17 @@ export const filterAndGroupExercises = ({
   };
 
   const matchesSource = (exercise: Exercise) => {
-    if (sourceFilter === null || sourceFilter === undefined) return true;
+    if (activeSourceFilters.length === 0) return true;
     const exerciseSource = exercise.source || "egen";
-    if (sourceFilter === "egen") {
+    return activeSourceFilters.some((filter) => {
+      if (filter === "egen") {
         return !exercise.source;
-    }
-    if (sourceFilter === "tiim-situasjon") {
-      return isTiimSituationalExercise(exercise);
-    }
-    return exerciseSource === sourceFilter;
+      }
+      if (filter === "tiim-situasjon") {
+        return isTiimSituationalExercise(exercise);
+      }
+      return exerciseSource === filter;
+    });
   };
 
   const matchesPlayerCount = (exercise: Exercise) => {
@@ -1815,11 +1830,24 @@ export const filterAndGroupExercises = ({
     );
   };
 
+  const matchesFavorites = (exercise: Exercise) => {
+    if (!favoritesOnly) return true;
+    return favoriteIds?.has(exercise.id) ?? false;
+  };
+
+  const matchesTags = (exercise: Exercise) => {
+    if (activeTags.length === 0) return true;
+    if (!exercise.tags || exercise.tags.length === 0) return false;
+    return activeTags.every((tag) => exercise.tags?.includes(tag));
+  };
+
   for (const exercise of exerciseLibrary) {
     const effectiveCategory =
       exercise.category === "aktivisering" ? "warmup" : exercise.category;
     if (!categories.has(effectiveCategory)) continue;
-    if (theme && exercise.theme !== theme) continue;
+    if (activeThemes.length > 0 && !activeThemes.includes(exercise.theme)) continue;
+    if (!matchesTags(exercise)) continue;
+    if (!matchesFavorites(exercise)) continue;
     if (!matchesSource(exercise)) continue;
     if (!matchesPlayerCount(exercise)) continue;
     if (!matchesSearch(exercise)) continue;

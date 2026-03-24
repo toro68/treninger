@@ -5,13 +5,13 @@ import type { Exercise } from "@/data/exercises";
 describe("page helpers", () => {
   describe("deriveSourceFilter", () => {
     it("should force sourceFilter to uefa when highlightExerciseId is set", () => {
-      expect(deriveSourceFilter("some-id", null)).toBe("uefa");
-      expect(deriveSourceFilter("some-id", "tiim")).toBe("uefa");
+      expect(deriveSourceFilter("some-id", [])).toEqual(["uefa"]);
+      expect(deriveSourceFilter("some-id", ["tiim"])) .toEqual(["uefa"]);
     });
 
     it("should keep sourceFilterState when highlightExerciseId is null", () => {
-      expect(deriveSourceFilter(null, null)).toBeNull();
-      expect(deriveSourceFilter(null, "tiim")).toBe("tiim");
+      expect(deriveSourceFilter(null, [])).toEqual([]);
+      expect(deriveSourceFilter(null, ["tiim"])) .toEqual(["tiim"]);
     });
   });
 

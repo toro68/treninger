@@ -1348,6 +1348,182 @@ describe("sessionStore", () => {
       ]);
     });
 
+    it("should match search queries against tags", () => {
+      const library: Exercise[] = [
+        {
+          id: "tag-match",
+          exerciseNumber: 1,
+          name: "Combination drill",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          tags: ["third-man-pattern", "academy-phase-play"],
+        },
+        {
+          id: "no-tag-match",
+          exerciseNumber: 2,
+          name: "Finishing drill",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "avslutning",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        searchQuery: "academy phase play",
+        categories: new Set<string>(["station"]),
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["tag-match"]);
+    });
+
+    it("should match search queries against source references", () => {
+      const library: Exercise[] = [
+        {
+          id: "ref-match",
+          exerciseNumber: 1,
+          name: "Pressing circuit",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pressing",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          source: "uefa",
+          sourceRef: "UEFA A, Module 3, page 42",
+        },
+        {
+          id: "no-ref-match",
+          exerciseNumber: 2,
+          name: "Build-up pattern",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "oppbygging",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          source: "uefa",
+          sourceRef: "UEFA B, Module 1, page 7",
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        searchQuery: "module 3 page 42",
+        categories: new Set<string>(["station"]),
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["ref-match"]);
+    });
+
+    it("should keep only favorites when favoritesOnly is enabled", () => {
+      const library: Exercise[] = [
+        {
+          id: "favorite-exercise",
+          exerciseNumber: 1,
+          name: "Favorite drill",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+        {
+          id: "regular-exercise",
+          exerciseNumber: 2,
+          name: "Regular drill",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "pasning",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        favoriteIds: new Set(["favorite-exercise"]),
+        favoritesOnly: true,
+        categories: new Set<string>(["station"]),
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["favorite-exercise"]);
+    });
+
+    it("should require all selected tags when tag filter is used", () => {
+      const library: Exercise[] = [
+        {
+          id: "full-tag-match",
+          exerciseNumber: 1,
+          name: "Combination play",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "oppbygging",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          tags: ["pep-sessions-vol2", "combination-play"],
+        },
+        {
+          id: "partial-tag-match",
+          exerciseNumber: 2,
+          name: "Pep rondo",
+          category: "station",
+          duration: 10,
+          playersMin: 6,
+          playersMax: 12,
+          theme: "rondo",
+          equipment: [],
+          description: "",
+          coachingPoints: [],
+          variations: [],
+          tags: ["pep-sessions-vol2"],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 12,
+        tags: ["pep-sessions-vol2", "combination-play"],
+        categories: new Set<string>(["station"]),
+      });
+
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["full-tag-match"]);
+    });
+
     it("should treat keeper count as separate from outfield count for standard exercises", () => {
       const library: Exercise[] = [
         {

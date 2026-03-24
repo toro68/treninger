@@ -30,7 +30,7 @@ type VisibleExerciseSection = {
 export const deriveSourceFilter = (
   highlightExerciseId: string | null,
   sourceFilterState: SourceFilter
-): SourceFilter => (highlightExerciseId ? "uefa" : sourceFilterState);
+): SourceFilter => (highlightExerciseId ? ["uefa"] : sourceFilterState);
 
 export const applyHighlightedExercise = ({
   highlightExerciseId,
@@ -104,7 +104,9 @@ export const deriveVisibleExerciseSections = (
 };
 
 export default function Home() {
-  const [themeFilter, setThemeFilter] = useState<ThemeFilter>("alle");
+  const [themeFilter, setThemeFilter] = useState<ThemeFilter>([]);
+  const [tagFilter, setTagFilter] = useState<string[]>([]);
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(true);
   const {
     highlightExerciseId,
@@ -133,9 +135,8 @@ export default function Home() {
   );
 
   // Derive sourceFilter from highlightExerciseId
-  const [sourceFilterState, setSourceFilter] = useState<SourceFilter>(null);
+  const [sourceFilterState, setSourceFilter] = useState<SourceFilter>([]);
   const sourceFilter = deriveSourceFilter(highlightExerciseId, sourceFilterState);
-  const activeTheme = themeFilter === "alle" ? undefined : themeFilter;
 
   useEffect(() => {
     applyHighlightedExercise({
@@ -161,7 +162,9 @@ export default function Home() {
       stationCount,
       planningSectionMode,
       favoriteIds,
-      theme: activeTheme,
+      favoritesOnly,
+      theme: themeFilter,
+      tags: tagFilter,
       sourceFilter,
       filterByPlayerCount,
       searchQuery,
@@ -174,7 +177,9 @@ export default function Home() {
     stationCount,
     planningSectionMode,
     favoriteIds,
-    activeTheme,
+    favoritesOnly,
+    themeFilter,
+    tagFilter,
     sourceFilter,
     filterByPlayerCount,
     searchQuery,
@@ -203,10 +208,14 @@ export default function Home() {
                   Biblioteket filtreres mot seksjonen du bygger akkurat nå: enten én øvelse for alle, eller 2–4 parallelle stasjoner med delt spillerantall.
                 </div>
                 <Filters
-                  activeTheme={themeFilter}
+                  activeThemes={themeFilter}
                   onThemeChange={setThemeFilter}
+                  activeTags={tagFilter}
+                  onTagChange={setTagFilter}
                   sourceFilter={sourceFilter}
                   onSourceFilterChange={setSourceFilter}
+                  favoritesOnly={favoritesOnly}
+                  onFavoritesOnlyChange={setFavoritesOnly}
                   filterByPlayerCount={filterByPlayerCount}
                   onFilterByPlayerCountChange={setFilterByPlayerCount}
                 />
