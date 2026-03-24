@@ -231,6 +231,17 @@ describe("exercises data", () => {
         expect(exercise.theme).toBe(exercise.theme.trim().toLowerCase());
       });
     });
+
+    it("should strip SoccerTutor credit lines from exercise descriptions", () => {
+      const exercise = allExercises.find(
+        (entry) => entry.id === "manc-3v2-finish-2-zone-3-team-ssg"
+      );
+
+      expect(exercise).toBeDefined();
+      expect(exercise?.description).not.toContain(
+        "Diagram laget med SoccerTutor.com Tactics Manager."
+      );
+    });
   });
 
   describe("normalizeTheme", () => {

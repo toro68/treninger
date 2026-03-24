@@ -805,6 +805,11 @@ export const exercises: ExerciseData[] = [
 const normalizeStringArray = (items: string[] | undefined): string[] =>
   (items ?? []).map((item) => item.trim()).filter(Boolean);
 
+const SOCCERTUTOR_TACTICS_MANAGER_CREDIT = /\s*Diagram laget med SoccerTutor\.com Tactics Manager\./g;
+
+const normalizeExerciseDescription = (description: string): string =>
+  description.replace(SOCCERTUTOR_TACTICS_MANAGER_CREDIT, "").trim();
+
 import { bangsboImageById } from './bangsbo-image-map';
 import { worldclassImageById } from './worldclass-image-map';
 
@@ -822,6 +827,7 @@ const inferBookImageUrl = (exercise: ExerciseData): string | undefined => {
 const normalizeExercise = (exercise: ExerciseData): Exercise => ({
   ...exercise,
   imageUrl: inferBookImageUrl(exercise),
+  description: normalizeExerciseDescription(exercise.description),
   theme: normalizeTheme(exercise.theme),
   category: normalizeCategory(exercise.category),
   equipment: normalizeStringArray(exercise.equipment),
