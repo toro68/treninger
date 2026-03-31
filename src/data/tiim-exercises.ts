@@ -1,4 +1,4 @@
-// Auto-generert fra tiim.no - 2026-03-16
+// Auto-generert fra tiim.no - 2026-03-31
 // Kilde: https://tiim.no/okter-og-ovelser
 
 import type { ExerciseData } from './exercises';
@@ -7,7 +7,73 @@ import { tiimImageById } from './tiim-image-map';
 const baseTiimExercises: ExerciseData[] = [
   {
     "id": "tiim-1",
+    "exerciseNumber": 1,
+    "name": "Rolletrening: Back (Alene med ballen #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en benk du kan spille ballen på og få den tilbake på siste tredjedel av banen. Plasser ut et minimål du kan slå cuptback-innlegg på og et syvermål du kan slå høye innlegg på.Spill ballen i benken og ta med ballen til cutbacksonen og slå et presist innlegg. Spill ballen i benken og slå et innlegg inn i syvermålet fra området mellom 16-meterstreken og sidelinjen. Spill ballen i benken og slå et tidlig innlegg fra utenfor 16-meteren.",
+    "coachingPoints": [
+      "Åpne opp kroppen i mottaket og legg ballen til rette på førsteberøringen. Før ballen i kamplik hastighet til de tre innleggsonene.Eksperimenter med kraft og skru i tilslagene dine."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-2",
     "exerciseNumber": 2,
+    "name": "Rolletrening: Spiss (Alene med ballen #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en benk på hver side og en benk bak. Legg ut tre kjegler rundt straffesparkmerket. Inne i målet setter du ut enten mannekenger som illustrerer keepere, eller småmål du skal treffe, eller henge opp noe i nettet som du skal prøve å treffe. Spill ballen i en av benkene, motta ballen og utfordre mot kjeglene. Gå til en av sidene, sikt og skyt kjapt.",
+    "coachingPoints": [
+      "Hurtig fotarbeid for å ta med ballen fremover med kontroll og fart. Gå ut til en av sidene og skyt innen to skritt slik at du øver på rytme og tempo i avslutningene. Se opp for å sikte før du ser ned på ballen for å treffe riktig på ballen så du får kraft og riktig retning bak skuddet ditt."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-3",
+    "exerciseNumber": 3,
+    "name": "Rolletrening: Spiss (Alene med ballen #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en rebounder/vegg mellom to skråstilte mål.Spill ballen i veggen/rebounderen slik at den kommer tilbake i en høy bue. Når ballen kommer tilbake, head ballen inn i mål så den treffer nettet uten å sprette.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og fremoverrettet kroppsstilling for å justere posisjon i forhold til ballen.Kom i stor fart inn imot ballen og finn riktig timing for når du skal heade ballen slik at du treffer ballen med panna.Varier mellom å heade stående/løpende og å hoppe opp før du header som om du har en motspiller i nærheten."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-4",
+    "exerciseNumber": 4,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -26,8 +92,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-4-ovelse-2"
   },
   {
-    "id": "tiim-2",
-    "exerciseNumber": 30,
+    "id": "tiim-5",
+    "exerciseNumber": 5,
     "name": "1 mot 1 - gjenvinningskamp",
     "category": "warmup",
     "duration": 12,
@@ -39,15 +105,19 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "8-16 spillere, halvparten med ball innenfor en firkant, avpass størrelse etter antall spillereSpillere uten ball finner en partner med ball, hvor de skal presse og forsøke å vinne ball fra.Hvis forsvarsspiller vinner ball, byttes rollene med samme to spillereNår trener blåser i fløyta, må alle finne ny partner og øvelsen fortsetter",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "ForsvarLøp mot spilleren som har ballen.Kom deg nær ballen og motstanderen.Stå i veien så spilleren ikke kommer seg fremover.Prøv å ta ballen når motstanderen mister kontroll på ballen."
+    ],
+    "variations": [
+      "BanestørrelseAntall spillereKonkurranse på tid"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1-mot-1-gjenvinningskamp"
   },
   {
-    "id": "tiim-3",
-    "exerciseNumber": 134,
+    "id": "tiim-6",
+    "exerciseNumber": 6,
     "name": "1 mot 1 – forsvarer i ulike posisjoner",
     "category": "station",
     "duration": 12,
@@ -59,17 +129,21 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "1 mot 1 øvelse på flere små baner.Trener/ekstra spiller server i gang øvelsen og 1A skal føre over linje. Spillerne rullerer fra angrep til forsvar.1F starter i ulike posisjoner, både på rett side og feil side.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Bestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [
+      "Utgangsposisjon 1F.Serv fra trener, med forskjellig kraft, vinkel og høyde.Antall spillere (eks. 2v2, 1v2, 2v1)."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/1-mot-1-forsvarer-i-ulike-posisjoner"
   },
   {
-    "id": "tiim-4",
-    "exerciseNumber": 125,
+    "id": "tiim-7",
+    "exerciseNumber": 7,
     "name": "1 mot 1 – scoring gjennom porter på sidene",
-    "category": "warmup",
+    "category": "station",
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
@@ -82,16 +156,41 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Velg pressretning (lede innover/utover).Beregn avstand og tidspunkt for press.Kombiner sidevendt kroppsstilling med lavt tyngdepunkt.Bruk armer til balanse og romfølelse uten å lage frispark.Tørre å vinne ball – snappe, takle eller bryte."
     ],
-    "variations": [],
+    "variations": [
+      "For alle aldersgrupper: Tilpass banestørrelse i forhold til utfordringer - lag både større og mindre.For barn mellom 8 og 12 år: Trener kan serve og dermed sette større krav til 1A sine valg og handlinger",
+      "Igangsetting med forskjellig kraft, vinkel og høyde.Hvis øvelsen blir brukt til å trene på å score mål, kan forsvarende lag/spillerde score på motsatt side når de vinner ballen, enten ved å føre over linje eller på småmål."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/1-mot-1-scoring-gjennom-porter-pa-sidene"
   },
   {
-    "id": "tiim-5",
-    "exerciseNumber": 126,
+    "id": "tiim-8",
+    "exerciseNumber": 8,
+    "name": "1 vs 1 med småmål",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Spillere fordeler seg på rekke bak hvert småmål. Trener har baller på langside og setter i gang spill ved å gi en pasning en av de som står først ved et av målene. Kampen er i gang. Kamp ferdig når ball går ut av banen eller det scores. Spillere fra kampen stiller seg bakerst i køen bak angrepsmålet. Nå kamp i gang når trener setter i gang.NB! Ikke for stort område. Flest mulig 1 mot 1 situasjoner.",
+    "coachingPoints": [
+      "Angriper:Se opp for å finne plass å gå med ballen.Hold ballen nær foten.Lat som du går til en side, før du forter deg å gå til den andre siden.Forsvarer:Løp mot spilleren som har ballen.Kom deg nær ballen og motstanderen.Stå i veien så spilleren ikke kommer seg fremover.Prøv å ta ballen når motstanderen mister kontroll på ballen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1-vs-1-med-smamal"
+  },
+  {
+    "id": "tiim-9",
+    "exerciseNumber": 9,
     "name": "1v1 - score/hindre mål",
-    "category": "warmup",
+    "category": "station",
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
@@ -104,37 +203,172 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Bestem om du skal drible rett inn i et ledig rom eller om du må utfordre direkte mot en forsvarsspiller for å trekke på deg press først.Utfør finten med store, troverdige bevegelser og tempo for å passere.Kombiner blikk opp før skudd med fokus på ball i tilslaget.Velg pressretning (lede innover/utover).Beregn avstand og tidspunkt for press.Kombiner sidevendt kroppsstilling med lavt tyngdepunkt.Bruk armer til balanse og romfølelse uten å lage frispark.Tørre å vinne ball – snappe, takle eller bryte"
     ],
-    "variations": [],
+    "variations": [
+      "BanestørrelseFlere baner og konkurranse på tid"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/1v1-score-hindre-mal"
   },
   {
-    "id": "tiim-6",
-    "exerciseNumber": 135,
-    "name": "2 mot 1 – mot ett mål",
+    "id": "tiim-10",
+    "exerciseNumber": 10,
+    "name": "1v1 – vende, drible, skyte på små mål",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Ball starter likt på begge sider. Rød spiller spiller til rød i midten som vender rund kjegle og scorer på motsatt side. Den som slår pasning blir forsvarer for angriper fra motsatt side. Den som var forsvarer blir angriper neste runde.",
+    "coachingPoints": [
+      "AngrepSe opp og vurder om det er rom foran deg eller om du må skape det.Bestem om du vil utfordre til høyre eller venstre.Plasser ballen litt foran eller på foten du vil bruke.Hold blikket opp så mye som mulig.Bruk hele kroppen til å finte (hofter, skuldre, blikk).Før ballen med foten som er lengst unna motstanderen.Akselerer forbi motstanderen etter at du har passert.ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-vende-drible-skyte-pa-sma-mal"
+  },
+  {
+    "id": "tiim-11",
+    "exerciseNumber": 11,
+    "name": "1v1 fra siden med kampmål og keeper",
     "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Trener setter i gang 1v1 mot to mål og keeper. Bytte ved mål, ball u av spill eller på tid.",
+    "coachingPoints": [
+      "Hold blikket opp så mye som mulig.Bruk hele kroppen til å finte (hofter, skuldre, blikk).Før ballen med foten som er lengst unna motstanderen."
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-fra-siden-med-kampmal-og-keeper"
+  },
+  {
+    "id": "tiim-12",
+    "exerciseNumber": 12,
+    "name": "1v1 mot feilvendt angriper",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Angriper (A) står midt i banen, vendt bort fra målene.Forsvarer (F) står rett bak angriperen.Server (S) spiller ballen inn til angriperen.Angriperen forsøker å vende opp og score i målet bak seg/føre over linjen bak seg.Forsvareren prøver å vinne ballen og angripe motsatt vei ved ballvinning.Spillet avsluttes ved scoring eller når ballen går ut av spill.",
+    "coachingPoints": [
+      "Posisjonere seg for å komme tett eller snappe ball og samtidig ha kontroll på rom foran målKontroll på overkropp og alltid en fot i bakken – korte ned stegene inn i pressStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra målTa rommet mellom ballfører og ball før man tar ballHold feilvendte spillere feilvendt – armlengdes avstand"
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-mot-feilvendt-angriper"
+  },
+  {
+    "id": "tiim-13",
+    "exerciseNumber": 13,
+    "name": "1v1 på fire små baner",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "1 mot 1 i fire små baner, hvor forsvarer skal hindre angriper å spille seg igjennom en firkant i midten av banen. Bytte på tid eller når forsvarer har vunnet ballen.",
+    "coachingPoints": [
+      "Kombiner sidevendt kroppsstilling med lavt tyngdepunkt.Bruk armer til balanse og romfølelse uten å lage frispark.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-pa-fire-sma-baner"
+  },
+  {
+    "id": "tiim-14",
+    "exerciseNumber": 14,
+    "name": "1v1 vende, drible, skyte med store mål og keeper",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Ball starter likt på begge sider. Rød spiller spiller til rød i midten som vender rund kjegle og scorer på motsatt side. Den som slår pasning blir forsvarer for angriper fra motsatt side. Den som var forsvarer blir angriper neste runde.",
+    "coachingPoints": [
+      "AngrepSe på mål og keeper for å finne plass å skyte.Velg skuddtype (innside for presisjon, vrist for kraft).Ta et kontrollert siste touch.Blikket på ballen i tilslaget.Treffpunkt på ballen: midt for rett skudd, under for å løfte, siden for skru.Følg gjennom med foten i retning av skuddet.Følg opp returer med nytt skudd eller pasning.ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-vende-drible-skyte-med-store-mal-og-keeper"
+  },
+  {
+    "id": "tiim-15",
+    "exerciseNumber": 15,
+    "name": "1v1-2v1-2v2 når forsvarer er bak",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "1v1",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Angriper (A) står midt i banen, vendt bort fra målene.Forsvarer (F) står rett bak angriperen.Server (S) spiller ballen inn til angriperen.Angriperen forsøker å vende opp og score i målet bak seg/føre over linjen bak seg.Forsvareren prøver å vinne ballen og angripe motsatt vei ved ballvinning.Spillet avsluttes ved scoring eller når ballen går ut av spill.Rask reaksjon, press bakfra (hold presset oppe), vinkling av angriper.",
+    "coachingPoints": [
+      "Riktig kroppsstilling og frekvens i beina i utgangsposisjoner og ved forflytningerBevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Korte tette touch for å utfordre, spille eller dra seg forbi. På jakt etter skuddmuligheter"
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/1v1-2v1-2v2-nar-forsvarer-er-bak"
+  },
+  {
+    "id": "tiim-16",
+    "exerciseNumber": 16,
+    "name": "2 mot 1 – mot ett mål",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 3,
     "playersMax": 10,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "En spiller server til 2 angripere som skal spille seg forbi en forelder og score.2 nye kommer inn med en gang det scores eller ballen går ut av spill.",
     "coachingPoints": [
-      "1A: Gå selv eller slå?",
-      "2A: Hvordan beveger jeg meg for å kunne få ball?"
+      "Prøv å føre ballen fremover og skyte når du har ballen (ikke bare sparke den oppover)Hvis vennen din har ballen, trekk unna så ballføreren får bedre plassHvis det andre laget har ballen, løp for å ta fra dem ballen"
     ],
-    "variations": [],
+    "variations": [
+      "Varier igangsetting ved bak angrepsspillerne eller fra keeper´n.Igangsetting med forskjellig kraft, vinkel og høyde.Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmål."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/2-mot-1-mot-ett-mal"
   },
   {
-    "id": "tiim-7",
-    "exerciseNumber": 159,
+    "id": "tiim-17",
+    "exerciseNumber": 17,
     "name": "2 mot 1 – Waves",
     "category": "station",
     "duration": 12,
@@ -147,14 +381,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "6-8 spillere, 15x20m bane, 2 små mål.To mot en mot ett mål. Angripere bytter ved avsluttet angrep. Forsvarer blir første angriper (1A) med ny 2A og 1F andre retning.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "1 mot 1/2 mot 2.Spill med store mål og keepere.Igangsetting med forskjellig kraft, vinkel og høyde."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/2-mot-1-waves"
   },
   {
-    "id": "tiim-8",
-    "exerciseNumber": 141,
+    "id": "tiim-18",
+    "exerciseNumber": 18,
     "name": "2 mot 1 i boks",
     "category": "game",
     "duration": 12,
@@ -167,34 +403,41 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "En relativt lang bane (rektangel). Minimum seks angrepsspillere som deler seg i par.1-2 forsvarsspillere.To angrepspillere skal forsøke å levere ballen til paret på motsatt side.En forsvarsspiller i midten som primært skal forsøke å stenge rom.Det nye paret kommer da inn i firkanten, mens det forrige stiller seg «bak i køen» på den siden de spilte pasning til.Trener setter i gang ny ball til motsatt par ved brudd eller ball ute av spill.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Droppe forsvarssone.Flere forsvarsspillere.Touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/to-mot-en-i-boks"
   },
   {
-    "id": "tiim-9",
-    "exerciseNumber": 173,
+    "id": "tiim-19",
+    "exerciseNumber": 19,
     "name": "2 mot 2 i boks",
     "category": "station",
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "forsvar",
+    "theme": "dribling",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "To angrepspillere innenfor rektangelet, skal forsøke å levere ballen til paret på motsatt side.To forsvarsspillere i midten som primært skal forsøke å stenge rom.Det nye paret kommer da inn i rektangelet, mens det forrige stiller seg «bak i køen».Hvis blått lag vinner ball, skal de føre kontrollert ut av rektangelet før rødt gjenvinner.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepVelg riktig vinkel og avstand til pasningslegger.Frigjør deg fra markering med fra",
+      "bevegelse eller tempoendring.Halvåpen kroppsstilling for å se både ball og neste trekk.Orienter deg for å vite om du er under press.Sjekk rommet på nytt mens ballen er på vei.Bruk kroppen til å skjerme ballen.Tilpass touchens lengde til situasjonen (kort ved press, lengre i åpent rom).Blikk opp umiddelbart for å spille, drible eller skyte.Fortsett å skjerme ballen om presset kommer.ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [
+      "Eventuelt starte med kun én forsvarsspiller.Flere spillere.Utfordre på banestørrelse."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/to-mot-to-i-boks"
   },
   {
-    "id": "tiim-10",
-    "exerciseNumber": 69,
+    "id": "tiim-20",
+    "exerciseNumber": 20,
     "name": "2 mot 2 med fire mål – trener som joker",
     "category": "station",
     "duration": 12,
@@ -207,14 +450,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Vi spiller to mot to med fire små mål (2 på hver kortside).Treneren spiller hele tiden på det angripende lag (joker).",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Varier banestørrelsen.Legg inn touchbegrensning.Joker kan ikke score."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/2-mot-2-med-fire-mal-trener-som-joker"
   },
   {
-    "id": "tiim-11",
-    "exerciseNumber": 80,
+    "id": "tiim-21",
+    "exerciseNumber": 21,
     "name": "2 mot 2 med tre mål",
     "category": "station",
     "duration": 12,
@@ -227,16 +472,40 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en firkant med ett mål i kortenden av banen, og en «port» i hvert hjørne av samme kortende. Sett også opp et mål i motsatt kortende.Forsvarende lag starter øvelsen med å spille opp til angripende lagAngripende lag kan så score ved enten å skyte i målet eller føre ball gjennom porteneVinner forsvarende lag ballen, kan de score i motsatt kortende",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere eller overtall/undertall"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2-mot-2-med-tre-mal"
   },
   {
-    "id": "tiim-12",
-    "exerciseNumber": 66,
+    "id": "tiim-22",
+    "exerciseNumber": 22,
+    "name": "2 vs 2 med joker",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Joker spiller kun på angrepslag. Kamper på tid: 2 min. Da bytter lag som har vært lengst på banenIgangsetting fra småmål, innspark. Progresjon: Introduserer kast",
+    "coachingPoints": [
+      "Angriper:Løp mot spilleren som har ballen.Kom deg nær ballen og motstanderen.Stå i veien så spilleren ikke kommer seg fremover.Prøv å ta ballen når motstanderen mister kontroll på ballen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/2-vs-2-med-joker"
+  },
+  {
+    "id": "tiim-23",
+    "exerciseNumber": 23,
     "name": "2v1 og 2v2 på lite og stort mål",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 3,
     "playersMax": 10,
@@ -247,16 +516,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Organiser to «baner», en med lite mål og en med stort. To porter markerer hvor stor bane starterØvelsen starter med 2v1 mot lite mål. Etter scoring eller ball ut av spill fortsetter samme to angripere mot to nye forsvarer mot stort mål og keeperVinner forsvarspiller ball, skal de forsøke å spille til trener (liten bane) eller føre ball gjennom portene på stor baneBytt posisjoner ved behov",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2v1-og-2v2-pa-lite-og-stort-mal"
   },
   {
-    "id": "tiim-13",
-    "exerciseNumber": 72,
+    "id": "tiim-24",
+    "exerciseNumber": 24,
     "name": "2v2 + keepere - Overgangsspill",
-    "category": "game",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
@@ -267,14 +538,38 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane, f.eks 16-meter feltet, med to store mål med keeper på ene siden.To angripere mot to forsvarer + keepere. Nye angriper og forsvarspar står klare på hver side, og starter når ballen er ute av spill for gruppen foranAngrepslaget skal forsøke å score på store mål. Hvis forsvarende lag vinner ball, kan de «score» ved å føre ball over linja på motsatt sideVed redning av keeper og ball fortsatt i spill, kan de sette i gang sine spillere for rask føring over linja",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere, overtall/undertall (eks. 3v2 + keepere)Offside"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2v2-keepere-overgangsspill"
   },
   {
-    "id": "tiim-14",
-    "exerciseNumber": 96,
+    "id": "tiim-25",
+    "exerciseNumber": 25,
+    "name": "2v2 fra siden med kampmål og keeper",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 4,
+    "playersMax": 12,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Trener setter i gang 2v2 mot to mål og keeper. Bytte ved mål, ball ut av spill eller på tid.",
+    "coachingPoints": [
+      "ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/2v2-fra-siden-med-kampmal-og-keeper"
+  },
+  {
+    "id": "tiim-26",
+    "exerciseNumber": 26,
     "name": "2v3 - angrep og forsvar i boksen",
     "category": "station",
     "duration": 12,
@@ -289,14 +584,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Læringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Jakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchBevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»"
     ],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2v3-angrep-og-forsvar-i-boksen"
   },
   {
-    "id": "tiim-15",
-    "exerciseNumber": 82,
+    "id": "tiim-27",
+    "exerciseNumber": 27,
     "name": "3 mot 2 i mot ett mål",
     "category": "game",
     "duration": 12,
@@ -309,34 +606,40 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 3 mot 2 + keeperTrener står med ballmagasin",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Varier banestørrelsen.Minske/øke antall spillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-2-i-mot-ett-mal"
   },
   {
-    "id": "tiim-16",
-    "exerciseNumber": 87,
+    "id": "tiim-28",
+    "exerciseNumber": 28,
     "name": "3 mot 2 mot ett mål (16m feltet)",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "forsvar",
+    "theme": "pressing",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill 3 mot 2 + keeperTrener står med ballmagasin, setter hurtig i gang nyttangrep etter avslutning/balltap.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Forsvar:Læringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressejobben til ballen er spilt . Raskt i rett posisjon når pressejobben er over Alltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget (forsvar):Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmål.Varier banestørrelsen.Minske/øke antall spillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-2-mot-ett-mal-16m-feltet"
   },
   {
-    "id": "tiim-17",
-    "exerciseNumber": 88,
+    "id": "tiim-29",
+    "exerciseNumber": 29,
     "name": "3 mot 3 + keeper i boks",
     "category": "game",
     "duration": 12,
@@ -348,15 +651,19 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "Spill 3 mot 3 inne i boksenTrener eller spiller setter i gang fra ballmagasinRødt lag skal score, blått skal forsvare seg primært (avklare), og spille kontrollert inn i småmål hvis de vinner ballenFri spillere i sidekorridor som kan brukes til å slå innlegg",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Forsvar1. Forsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Lagsmomenter:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett sideAngrepsberedskap på spillere foran ball – være klar for klareringer"
+    ],
+    "variations": [
+      "Variere antall spillere og type igangsetting."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-3-keeper-i-boks"
   },
   {
-    "id": "tiim-18",
-    "exerciseNumber": 89,
+    "id": "tiim-30",
+    "exerciseNumber": 30,
     "name": "3 mot 3 i ulike spillformer",
     "category": "game",
     "duration": 12,
@@ -368,17 +675,21 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "Spill 3 mot 3 i tre ulike spillformer:Mot store mål.Mot to småmål.Legge \"død\" på kortlinje.\n\nTa en pause underveis hvor dere kan gi instruksjoner, bytte om på lag, justere banestørrelse eller andre justeringer dere måtte ønske.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Prøv å føre ballen fremover og skyte når du har ballen (ikke bare sparke den oppover)Hvis vennen din har ballen, trekk unna så ballføreren får bedre plassHvis det andre laget har ballen, løp for å ta fra dem ballen"
+    ],
+    "variations": [
+      "Varier banestørrelsene.Overtall/joker"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-3-i-ulike-spillformer"
   },
   {
-    "id": "tiim-19",
-    "exerciseNumber": 94,
+    "id": "tiim-31",
+    "exerciseNumber": 31,
     "name": "3 mot 3 pluss joker",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
@@ -388,15 +699,19 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "Spill 3 mot 3 og joker med 2 mål (keepere)\n\nTa en pause underveis hvor dere kan gi instruksjoner, bytte om på lag, justere banestørrelse eller andre justeringer dere måtte ønske.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Prøv å føre ballen fremover og skyte når du har ballen (ikke bare sparke den oppover)Hvis vennen din har ballen, trekk unna så ballføreren får bedre plassHvis det andre laget har ballen, løp for å ta fra dem ballen"
+    ],
+    "variations": [
+      "Varier banestørrelsen.Minske/øke antall spillere."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-3-pluss-joker"
   },
   {
-    "id": "tiim-20",
-    "exerciseNumber": 97,
+    "id": "tiim-32",
+    "exerciseNumber": 32,
     "name": "3 mot 3 sonespill",
     "category": "game",
     "duration": 12,
@@ -409,14 +724,38 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Trener spiller opp rødt angrepslag. Tre spillere skal så forsøke å få en kontrollert avslutning på en av de tre små målene.Hvis forsvarslaget vinner ball, får de poeng om de greier å føre ballen kontrollert inn i den minste sonenEtter endt situasjon kommer det inn en ny forsvars og angrepstrio.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, type serv fra trener."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-mot-3-sonespill"
   },
   {
-    "id": "tiim-21",
-    "exerciseNumber": 119,
+    "id": "tiim-33",
+    "exerciseNumber": 33,
+    "name": "3 og 3, pasninger",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Tre spiller sammen om en ball. Spilleren i midten jobber med kroppsstilling, skaffe seg vinkel og orientere seg. Spille på riktig fot og spill ballen videre, samme fra motsatt side. Rullere på hvem som er i midten. Kan legge inn veggspill hver gang man spiller ballen over til motsatt side. Etter hvert kan den lengst unna løfte 1 eller 2 armer. Den i midten må gjøre valg ut fra hva den ser, om mulig når ballen er på vei. 1 arm = støttepasning, 2 armer = vend opp og spill motsatt.",
+    "coachingPoints": [
+      "Blikket opp før tilslag for å sikte.Treff midt på ballen for flat pasning, under for løft, siden for skru.Treff ballen med innsiden av foten for korte pasninger"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/3-og-3-pasninger"
+  },
+  {
+    "id": "tiim-34",
+    "exerciseNumber": 34,
     "name": "3-2-3 og 3-3-3 med to endesoner",
     "category": "station",
     "duration": 12,
@@ -431,54 +770,64 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Arbeidsfordeling 1., 2, og 3. F:Hvem presser? Hvem sikrer? Hvemdekker rom?«Rollebytte» når pasning slås.Smale nok: iunngå pasninger «mellom»"
     ],
-    "variations": [],
+    "variations": [
+      "Banestørrelse, antall spillere, touchbegrensninger.Blått lag kan eventuelt presse med én i hver endesone",
+      "Bytte etter tid eller balltap."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-2-3-og-3-3-3-to-endesoner"
   },
   {
-    "id": "tiim-22",
-    "exerciseNumber": 109,
+    "id": "tiim-35",
+    "exerciseNumber": 35,
     "name": "3-2-3 spill med to endesoner",
     "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "To endesoner med tre angrepsspillere.En midtre sone med to forsvarsspillere.Angripende lag (blått) skal spille ballen seg imellom i endesonen, for så å skape rom til å spille over i motsatt endesone.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Banestørrelse, antall spillere, touchbegrensninger.Blått lag kan eventuelt presse med én i hver endesone.Bytte etter tid eller balltap."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/3-2-3-spill-med-to-endesoner"
   },
   {
-    "id": "tiim-23",
-    "exerciseNumber": 128,
+    "id": "tiim-36",
+    "exerciseNumber": 36,
     "name": "3v2 i \"boksen\"",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Organiser flere lag med tre angripere og to forsvarere. Keeper i mål.Forsvarerne starter på hver side av mål, angriperne i avstand fra mål tilpasset alder og ferdighet. Bruk gjerne 16-meter feltetForsvarsspiller starter øvelsen ved å spille opp angrepslaget, som forsøker å komme til avslutning å score mål.Keeper og forsvarere skal forsøke å vinne ball, å kontrollere den ut av banenBytt roller ved behov",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere«Mål» for forsvarerne hvis de vinner ballNy ball fra kantene når første ball er i mål eller ute av spill"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-3v2-i-boksen"
   },
   {
-    "id": "tiim-24",
-    "exerciseNumber": 130,
+    "id": "tiim-37",
+    "exerciseNumber": 37,
     "name": "3v3 mot tre mål",
     "category": "station",
     "duration": 12,
@@ -491,14 +840,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Organiser en bane på ca.50x30m, med tre småmål i hver ende. Marker midtbanen med tre kjegler eller mannequinerDel inn i lag av tre, minimum to lag på hver side (12 spillere)Et lag starter med ball fra hver side. Når de når midten, møter de tre forsvarere fra motsatt side. Angripende lag på begge baner forsøker å spille seg forbi motstander, og score på ett av de tre småmåleneVinner forsvarende lag ball, kan de forsøke å score på småmål på motsatt side",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-3v3-mot-tre-mal"
   },
   {
-    "id": "tiim-25",
-    "exerciseNumber": 131,
+    "id": "tiim-38",
+    "exerciseNumber": 38,
     "name": "4 mot 4 – liten bane",
     "category": "station",
     "duration": 12,
@@ -511,16 +862,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Bane med to like store soner med mål (keeper) i hver endeTo lag som når de har ballen skal forsøke å skyte og score fra sin sone på målet i motsatt sone.Det laget som ikke har ball kan eventuelt sende opp en spiller som presser i motstanderes sone.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillereBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/4-mot-4-liten-bane"
   },
   {
-    "id": "tiim-26",
-    "exerciseNumber": 117,
+    "id": "tiim-39",
+    "exerciseNumber": 39,
     "name": "4 mot 4 med vegger",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
@@ -531,20 +884,22 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 4 mot 4 (3 mot 3 + keepere) med to mål.Bruk 4 stasjonere «vegger» som er på lag med det angripende laget.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Flytt på veggene.Legg inn en joker.Varier banestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/4-mot-4-med-vegger"
   },
   {
-    "id": "tiim-27",
-    "exerciseNumber": 132,
+    "id": "tiim-40",
+    "exerciseNumber": 40,
     "name": "4v1 - \"blokkere skudd\"",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -553,16 +908,18 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Kontroll på overkropp og alltid en fot i bakken – korte ned stegene inn i press.Opp i blokk, blokker med framsiden av kroppen."
     ],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/4v1-blokkere-skudd"
   },
   {
-    "id": "tiim-28",
-    "exerciseNumber": 133,
+    "id": "tiim-41",
+    "exerciseNumber": 41,
     "name": "4v4 - Skudd fra distanse, først på retur",
-    "category": "station",
+    "category": "game",
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
@@ -573,14 +930,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med to soner og mål med keeper i hver endeFordel spillerne (4v4) med en spiller i «angrepssonen» og tre i «forsvarssonen»Angripende lag spiller så 3v1 i forsvarssonen, og forsøker å avslutte fra distanse (sonen)Forsvarere forsøker å hindre og blokkere skuddAngriper (spiss) i angrepssonen går på retur hvis mulig, men kan også score på pasning fra forsvarssonen",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere i hver sone"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-skudd-fra-distanse-forst-pa-retur"
   },
   {
-    "id": "tiim-29",
-    "exerciseNumber": 118,
+    "id": "tiim-42",
+    "exerciseNumber": 42,
     "name": "4v4 med 2 jokere, tredjemannsspill",
     "category": "game",
     "duration": 12,
@@ -595,16 +954,41 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Scanne fra topp til bunn – Ballfører skal alltid scanne banen fra topp til bunn for å se om han kan finne alternativer høyt i banen.Rundt og gjennom – Ballfører skal alltid ha mulighet til å spille rundt motstanderen og gjennom leddet deres. Måten vi beveger oss og posisjonerer oss på må alltid sørge for å tilby dette.Ettertrykk – Når ballen spilles forbi ledd må 2A/3A være forberedt og komme seg i posisjoner hvor de kan motta ballen av han som legger igjen."
     ],
-    "variations": [],
+    "variations": [
+      "Her er noen kreative tilnærminger for å utvikle og bygge videre på øvelsenSpilleren som sparker ballen til jokeren kan ikke motta ballen direkte tilbake",
+      "Denne regelen fremprovoserer at lagkameratene må bevege seg slik at det blir ettertrykk og at de må se etter muligheter i situasjonene for å kunne spille ballen fremover i banen.For å gjøre overtallet mindre, og frispillingen bakfra vanskeligere, kan en innføre regel om at en bare har lov til å bruke endejokeren som er foran målene en skal score på.En kan innføre touchbegrensninger for å få spillerne til å måtte tenke kjappere.NB! Dette vil samtidig begrense spillerne i situasjoner hvor det vil være naturlig å drible motstander eller drive i rom."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/4v4-med-2-jokere-tredjemannsspill"
   },
   {
-    "id": "tiim-30",
-    "exerciseNumber": 119,
+    "id": "tiim-43",
+    "exerciseNumber": 43,
+    "name": "4v4, med 4 vegger og 4 småmål",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 8,
+    "playersMax": 20,
+    "theme": "hurtighet",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "4v4 med 4 vegger, slik at man alltid er et godt overtall. Forsvarer 1-2 mål på den ene siden og scorer på 1-2 mål på den andre siden, slik at det skjer med retning. To touch på veggene. Kan også plassere to vegger på langsidene og to på målsidene.",
+    "coachingPoints": [
+      "Være spillbar – ut av pasningsskyggeBevisst bruk av førsteberøringRiktig kroppsstilling og frekvens i beina ved håndtering av ball"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/4v4-med-4-vegger-og-4-smamal"
+  },
+  {
+    "id": "tiim-44",
+    "exerciseNumber": 44,
     "name": "5 mot 5 + vegger",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
@@ -618,16 +1002,40 @@ const baseTiimExercises: ExerciseData[] = [
       "Sidestilt kroppsstilling så man ser ball og motstandereHurtig i posisjon mellom eget mål og motstanderTa kontroll foran eget mål gjennom posisjonering innenfor stolpeneSpillere på feil side skal komme seg på rett sideOffervilje – først på ball«Ta duellen før duellen»",
       "gå i kropp for å ta bort timing og fart hos motspiller.Det må markeres og kontroll på farlige rom helt til situasjonen er avklart"
     ],
-    "variations": [],
+    "variations": [
+      "Spillere i korridor kan ta med seg ballen ut av korridoren og sette opp «45-graderssituasjoner».Antall spillere og formasjoner."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-vegger"
   },
   {
-    "id": "tiim-31",
-    "exerciseNumber": 120,
-    "name": "5 mot 5 med fire små mål",
+    "id": "tiim-45",
+    "exerciseNumber": 45,
+    "name": "5 mot 5 med 4 småmål",
     "category": "game",
+    "duration": 12,
+    "playersMin": 10,
+    "playersMax": 24,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Organiseres som helt vanlig spill med to lag, men man har to mål å score på og 2 mål å forsvare.",
+    "coachingPoints": [
+      "Være spillbar, ut av pasningsskyggeBevisst bruk av førsteberøringSmå touch når det er trangt, lengre touch i åpent romUtnytte rom fremover i banenFør ballen med foten som er lengst unna motstander"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/5-mot-5-med-4-smamal"
+  },
+  {
+    "id": "tiim-46",
+    "exerciseNumber": 46,
+    "name": "5 mot 5 med fire små mål",
+    "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
@@ -638,16 +1046,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 5 mot 5 med 4 små mål.Organiser i ledd.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseJoker"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-med-fire-sma-mal"
   },
   {
-    "id": "tiim-32",
-    "exerciseNumber": 121,
+    "id": "tiim-47",
+    "exerciseNumber": 47,
     "name": "5 mot 5 med fire små mål",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
@@ -658,56 +1068,67 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 5 mot 5 med 4 små målOrganiser i ledd",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/fem-mot-fem-med-fire-sma-mal"
   },
   {
-    "id": "tiim-33",
-    "exerciseNumber": 122,
+    "id": "tiim-48",
+    "exerciseNumber": 48,
     "name": "5 mot 5 med keeper - sonespill",
     "category": "game",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill 4 mot 4 med en frisone midt på banen.I frisonen er det ikke lov til å gå på ballfører.To faste spillere i hver sone. En av spillerne i forsvarssonen kan bli med over nå vi er i angrep!Spiller i angrepssone kan komme i frisonen for oppspill.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepMomenter 1. angriper:Angripe hurtig fremover. Søke å spille kontrollert inn i (1) bakrom eller (2) mellomrom sentralt (3) Rettvendt i sidekorridorBeholde oversikt med ball i beina og kunne ombestemme valgHurtige pasningsvalg eller føre ball i stor fart for å utnytte rom med korte hurtige touch og oversiktUtnytte ubalanse gjennom føring i fart, utfordre på, «ta kommandoen»Oversikt og ballkontroll i små rom/under press for å spille fremover eller vende spillOpprettholde eller forsterke ubalanse gjennom temposkifte når vi er i prioritert romNy aksjon umiddelbart for å gjøre seg spillbar på nytt og / eller skape romMomenter resten av laget:Oversikt med åpen kroppsvinkel over ledige rom, medspillere og motspillereAngripe hurtig fremover. Bevegelse inn i bakrom, mellomrom sentralt og trussel i sidekorridorTrue flere rom samtidig med bevegelse og posisjonSpillere bak ball – intiativ forbi ballfører eller i støtteposisjonBall sentralt – bredde i lagetBall bredt – motsatt kant og back inn i banen for balanse, spillbarhet og trusselBeredskap bak ball med organisert offensiv markeringForsvarMomenter 1F og vi andreKontroll på sentrale romKorte avstander mellom spillerneKom deg nær ballen og motstanderenHold blikket på ballen, ikke på finterPrøv å få kroppskontakt før du takler"
+    ],
+    "variations": [
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVarier med jokerAntall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-med-keeper-sonespill"
   },
   {
-    "id": "tiim-34",
-    "exerciseNumber": 123,
+    "id": "tiim-49",
+    "exerciseNumber": 49,
     "name": "5 mot 5 med vegger",
     "category": "game",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "pasning",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill 4 mot 4 med 4 vegger som er på lag med det angripende laget.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Flytt på veggeneLegg inn en jokerVarier banestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-med-vegger"
   },
   {
-    "id": "tiim-35",
-    "exerciseNumber": 124,
+    "id": "tiim-50",
+    "exerciseNumber": 50,
     "name": "5 mot 5 mot ett mål",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
@@ -718,56 +1139,69 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 4 mot 4 + keeper mot ett målOrganiser i to ledd, forsvar og angrep",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmålVarier banestørrelsen.Minske/øke antall spillere.Bruk av joker(e)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-mot-ett-mal"
   },
   {
-    "id": "tiim-36",
-    "exerciseNumber": 125,
+    "id": "tiim-51",
+    "exerciseNumber": 51,
     "name": "5 mot 5 mot to mål – liten bane",
     "category": "game",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "forsvar",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill 5 mot 5 mot 2 mål (keepere).Organiser i ledd.Få keeperen med som en del av laget, både i forsvar og angrep.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Banestørrelse.Joker.Antall spillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/5-mot-5-mot-to-mal"
   },
   {
-    "id": "tiim-37",
-    "exerciseNumber": 136,
+    "id": "tiim-52",
+    "exerciseNumber": 52,
     "name": "5 mot 5 mot to mål – større bane",
     "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "30 x 40 m eller en kvart baneSpill 5 mot 5 mot to mål (keepere)Organiser i leddFå keeperen med som en del av laget, både i forsvar og angrep.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "ForsvarMomenter 1. forsvarerAldri bli passert!Kontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retningerUtnytte tiden når ballen er fri slik at kommende ballfører kommer i tidsnødLede vekk",
+      "oppholde for å ha kontroll på rom mellom og bak ossUtnytte dårlige, lange og for mange touchAktiv bruke overkropp og armer for å forstyrre motstander – det er lov å lage frisparkPå plass i struktur/returløp når pressjobb er ferdigMomenter resten av laget:Vi posisjonerer oss i forhold til ballen og medspillere",
+      "sikring rundt førsteforsvarer hurtig på plassHurtig «korte og tette». Motstander skal nektes all form for ballkontroll mellom oss og inn bak ossLese romforhold og ballførers blikk og fot. Falle av og pumpe ut kombinert med at vi sideforskyverJustere lagets høyde samtidig som vi sideskyverOverspilte spillere hurtig inn i press eller full fart i returløpSidestillt kroppstilling i bakre leddVære på å jakt etter muligheter for F1, og reagere hurtig og samla på tydelig definerte pressesignaler som støttepasning, feilvendt spiller, ball til back etc"
+    ],
+    "variations": [
+      "Antall spillereBlir det for vanskelig å se igjen bildene knyttet til 1F rollen så kan vi lage banen litt mindre igjen."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/fem-mot-fem-mot-to-mal-storre-bane"
   },
   {
-    "id": "tiim-38",
-    "exerciseNumber": 126,
+    "id": "tiim-53",
+    "exerciseNumber": 53,
     "name": "5v5 - \"Break out game\"",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
@@ -778,14 +1212,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en sirkel inne i en større spillbane som vist på animasjon. Et småmål i hvert hjørne.3v3 inne i sirkelen, 2v2 utenfor. Spillet begynner i sirkelen.Når et lag har oppnådd et valgfritt antall pasninger innenfor eller ved hjelp fra medspillere utenfor sirkelen, kan angripende lag «bryte ut» og score på småmålene i 5v5.Vinner forsvarende lag ballen utenfor sirkelen, kan de også score på småmålene",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall pasninger før «break out»Antall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-5v5-break-out-game"
   },
   {
-    "id": "tiim-39",
-    "exerciseNumber": 127,
+    "id": "tiim-54",
+    "exerciseNumber": 54,
     "name": "6 mot 6 - scoring i endesoner",
     "category": "game",
     "duration": 12,
@@ -798,14 +1234,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 6 mot 6 med scoring i endesoneneGodkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVed scoring i en endesone snur man retningen på spilletVarier med jokerKeepere brukes i endesonen"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/6-mot-6-scoring-i-endesoner"
   },
   {
-    "id": "tiim-40",
-    "exerciseNumber": 128,
+    "id": "tiim-55",
+    "exerciseNumber": 55,
     "name": "6 mot 6 - scoring over linje",
     "category": "game",
     "duration": 12,
@@ -818,34 +1256,41 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 6 mot 6 med scoring i endesoneneGodkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVed scoring i en endesone snur man retningen på spilletVarier med jokerKeepere brukes i endesonen"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/6-mot-6-scoring-over-linje"
   },
   {
-    "id": "tiim-41",
-    "exerciseNumber": 129,
+    "id": "tiim-56",
+    "exerciseNumber": 56,
     "name": "6 mot 6 – pluss keepere – på kvart bane",
     "category": "game",
     "duration": 12,
     "playersMin": 12,
     "playersMax": 28,
-    "theme": "smålagsspill",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill 6 mot 6 på en kvart bane.Organiser Blått lag i 2-2-2.Organiser Rødt lag i 4-1-1.Her spiller lagdelene mot hverandre, men spillet er fritt.Alle dødballer tas som vanlig",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Antall spillereBanestørrelseOffside"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/6-mot-6-pa-kvart-bane"
   },
   {
-    "id": "tiim-42",
-    "exerciseNumber": 137,
+    "id": "tiim-57",
+    "exerciseNumber": 57,
     "name": "6v6 + 2 + keepere, overtall i boks",
     "category": "station",
     "duration": 12,
@@ -858,76 +1303,155 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med to store mål med keeper. Lag to endesoner, og en midtsoneHvert lag har tre spillere i hver endesone. To angrepsspillere i midtsonen, som alltid er med angrepslaget.Øvelsen starter fra keeper, hvor tre angripere skal forsøke å spille seg ut av egen sone, og opp til midtsonen. Klarer de det, kan en spiller fra midtsonen bli med i angrep i motsatt endesone hvor det blir overtall av utespillere (4v3 + keeper)",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereAntall «nøytrale» spillere som kan bli med i angrep"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-6v6-2-keepere-overtall-i-boks"
   },
   {
-    "id": "tiim-43",
-    "exerciseNumber": 138,
+    "id": "tiim-58",
+    "exerciseNumber": 58,
     "name": "7 mot 7 – hindre gjennombrudd",
     "category": "station",
     "duration": 12,
     "playersMin": 14,
     "playersMax": 30,
-    "theme": "gjennombrudd",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Ca. 30 x 40 m bane eller kvart baneSpill 7 mot 7 mot to mål (keepere)Organiser i leddFå keeperen med som en del av laget, både i forsvar og angrep.",
     "coachingPoints": [
-      "1. ForsvarerTett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressejobben til ballen er spilt . Raskt i rett posisjon når pressejobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett sideAngrepsberedskap på spillere foran ball – være klar for klareringer"
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
-    "variations": [],
+    "variations": [
+      "Antall spillereBlir det for vanskelig å se igjen bildene knyttet til1F rollen så kan vi lage banen litt mindre igjen."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/7-mot-7-hindre-gjennombrudd"
   },
   {
-    "id": "tiim-44",
-    "exerciseNumber": 139,
+    "id": "tiim-59",
+    "exerciseNumber": 59,
     "name": "7 mot 7 med forsvars og angrepssone",
     "category": "station",
     "duration": 12,
     "playersMin": 14,
     "playersMax": 30,
-    "theme": "forsvar",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Del banen i to soner.Hvert lag har 3 spillere i hver sone (pluss keeper)Det laget som er i angrep kan flytte opp en spiller bakfra og inn i angrepssonen",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "TouchbegrensningerBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/7-mot-7-med-forsvars-og-angrepssone"
   },
   {
-    "id": "tiim-45",
-    "exerciseNumber": 130,
+    "id": "tiim-60",
+    "exerciseNumber": 60,
     "name": "7 mot 7 på kvart bane",
     "category": "game",
     "duration": 12,
     "playersMin": 14,
     "playersMax": 30,
-    "theme": "smålagsspill",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Spill på kvart bane.Lagene stiller opp i K-4-2-formasjon, eventuelt K-4-1-1.Fritt spill. Alle dødballer tas som vanlig.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [
+      "Variere i antall spillere i fremste ledd: én, to eller tre.Spill ved bruk av offsideregelen."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/7-mot-7-pa-kvart-bane"
   },
   {
-    "id": "tiim-46",
-    "exerciseNumber": 140,
+    "id": "tiim-61",
+    "exerciseNumber": 61,
+    "name": "11 v 11 spilløvelse",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 22,
+    "playersMax": 30,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Ordinært spill med 11 mot 11 på full bane",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": true,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/11-v-11-spillovelse"
+  },
+  {
+    "id": "tiim-62",
+    "exerciseNumber": 62,
+    "name": "A1-A2 Situasjonsøvelse - 17",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "omstilling",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Keeper, bakre firer og sentral (rødt lag) skal bearbeide mot front trio (blått lag). Poeng for å få ball i småmål.Blått lag prøver å stenge rom. Ved gjenvinning skal det kontres mot det store målet. Rødt lag skal da gjenvinne.",
+    "coachingPoints": [
+      "Vinkler, kroppsstilling, blikk, 1. touchIkke press = FremoverHvor mange presser motstander med?Omstilling"
+    ],
+    "variations": [
+      "Flere spillere / færre spillere-Utfordre på banestørrelse Færre mål å score på for rødt lag."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-17"
+  },
+  {
+    "id": "tiim-63",
+    "exerciseNumber": 63,
+    "name": "A1-A2 Situasjonsøvelse - 18",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "teknikk",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "2vs2+ jokerLike mange spillereLagene spiller i hver sin retningTrener spiller inn ball til det ene lagetBallfører kan slå opp på joker, medspiller eller direkte i et av målene",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-18"
+  },
+  {
+    "id": "tiim-64",
+    "exerciseNumber": 64,
     "name": "A1-A2 Situasjonsøvelse - 19",
     "category": "station",
     "duration": 12,
@@ -940,14 +1464,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "3 mot 3 + joker, med småmål.Sett opp f.eks. midtbanespillere sammen på et lag mot angrepstrioen. Evt. Høyreside mot venstreside i laget.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "4 mot 4 + joker, evt. 5 mot 5 + joker.Ekstra mål.Før over linje."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19"
   },
   {
-    "id": "tiim-47",
-    "exerciseNumber": 141,
+    "id": "tiim-65",
+    "exerciseNumber": 65,
     "name": "A1-A2 Situasjonsøvelse - 20",
     "category": "station",
     "duration": 12,
@@ -960,14 +1486,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Tre angrepspillere innenfor firkanten, skal forsøke å levere ballen til paret på motsatt side.To forsvarsspillere i midten som primært skal forsøke å stenge rom.Den nye trioen kommer da inn i firkanten, mens det forrige stiller seg «bak i køen».Hvis blått lag vinner ball, skal de føre kontrollert ut av rektangelet før rødt gjenvinner.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Eventuelt starte med kun én forsvarsspiller.Flere spillere.Utfordre på banestørrelse."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-20"
   },
   {
-    "id": "tiim-48",
-    "exerciseNumber": 142,
+    "id": "tiim-66",
+    "exerciseNumber": 66,
     "name": "A1-A2 Situasjonsøvelse - 21",
     "category": "station",
     "duration": 12,
@@ -980,14 +1508,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Keeper, bakre ledd og sentral midtbane skal spille seg ut av et høyt press.Scoring ved føring over linje eller mål i sidekorridor. Rødt lag spiller medovertallsspiller.Blått lag presser høyt og skal gå for scoring ved ballerobring.Når ballen er ute av spill setter trener i gang ny ball tilrødt (variere), eventuelt starter man ved å ta innkast.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere formasjon hos blått lag (to spisser, tre spisser, en spiss).Rødt lag spille med 3 + keeper bak + 3 spillere foran.Justere antall spillere og banestørrelse.Vurdere antall mål (3 mål der hvor det er to), porter,endesone eller store mål."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-21"
   },
   {
-    "id": "tiim-49",
-    "exerciseNumber": 143,
+    "id": "tiim-67",
+    "exerciseNumber": 67,
     "name": "A1-A2 Situasjonsøvelse - 22",
     "category": "station",
     "duration": 12,
@@ -1000,14 +1530,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Blått A1 – spille seg inn i en av boksene og holde ball i laget der.Rødt arbeider med F1, høyt press + kontring – settes opp I formasjon med utg.pkt i det laget spiller i kamp.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Størrelse på bane, forskjellig formasjon i motspillet , antall spillere.Forskjellige angrepsstarter – fra innkast, igangsetting fra keeper, gjenvinningsball."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-22"
   },
   {
-    "id": "tiim-50",
-    "exerciseNumber": 144,
+    "id": "tiim-68",
+    "exerciseNumber": 68,
     "name": "A1-A2 Situasjonsøvelse - 23",
     "category": "station",
     "duration": 12,
@@ -1020,14 +1552,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "En stor sone (halv bane) bestående av rødt lag i K-4-2-formasjon. Og rødt lag i K-4-2-formasjon. Spillerne kan kun oppholde seg i denne sonen.En mindre sone på motsatt halvdel bestående av to midtstoppere og keeper + to spisser.rødt lag skal forsøke å spille opp på en av de to spissene i den mindre sonen.Hvis rødt klarer å spille opp på en av spissene, kan de komme i understøtte med en spiller fra den store sonen.Hvis blått lag vinner ballen, skal de forsøke å score.Når ballen er ute av spill, settes ny ball i gang til rødt lag fra trener ved ballmagasin.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere og formasjon."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-23"
   },
   {
-    "id": "tiim-51",
-    "exerciseNumber": 145,
+    "id": "tiim-69",
+    "exerciseNumber": 69,
     "name": "A1-A2 Situasjonsøvelse - 24",
     "category": "station",
     "duration": 12,
@@ -1040,34 +1574,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "11 vs 11.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.\n\nSituasjonsøvelse A1 – A2.Motspill: F1-F2.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Flere offensive spillere på siste tredjedel",
+      "Forsvarsfireren får mer å bryne seg på.Bli med over med backene."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-24"
   },
   {
-    "id": "tiim-52",
-    "exerciseNumber": 146,
-    "name": "A1-A2 Situasjonsøvelse - 25",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "forsvar",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Del inn banen i tre soner. Fordel spillerne i ulike soner.Ett lag skal angripe og forsøke å score på motsatt keeper. Angripende lag kan forlate sin soner.Forsvarende lag kan ikke forlate sin sone.Ved scoring, ball ut av spill eller redning, skal laget som har angrepet omstille, og kjappest mulig komme seg tilbake til sin sone.Så angriper det andre laget.Treneren står med ballmagasin og setter i gang til annethvert lag.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-25"
-  },
-  {
-    "id": "tiim-53",
-    "exerciseNumber": 147,
+    "id": "tiim-70",
+    "exerciseNumber": 70,
     "name": "A1-A2 Situasjonsøvelse - 26",
     "category": "station",
     "duration": 12,
@@ -1080,34 +1597,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag med like mange spillere.Lagene spiller hver sin retning.En keeper, eller midtstopper i hver endesone.Scoring ved å spille opp på keeper i motsatt endesone. Om man klarer dette, skal keeper slå langt over til motsatt keeper som begynner på nytt igjen.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere (fire–ti spillere på hvert lag).Bruk av joker.Touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-26"
   },
   {
-    "id": "tiim-54",
-    "exerciseNumber": 148,
-    "name": "A1-A2 Situasjonsøvelse - 27",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "pressing",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "11 vs 11 i ønsket formasjon.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/a1-a2-situasjonsovelse-27"
-  },
-  {
-    "id": "tiim-55",
-    "exerciseNumber": 131,
+    "id": "tiim-71",
+    "exerciseNumber": 71,
     "name": "A1-A2 Spill - 29",
     "category": "game",
     "duration": 12,
@@ -1120,14 +1619,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 11 mot 11.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Spill elleve mot elleve, hvor hvert lag har to spisser som kun bidrar offensivt."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-spill-nr-29"
   },
   {
-    "id": "tiim-56",
-    "exerciseNumber": 132,
+    "id": "tiim-72",
+    "exerciseNumber": 72,
     "name": "A1-A2 Spill - 30",
     "category": "game",
     "duration": 12,
@@ -1140,14 +1641,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Banestørrelse 70mx50m.Rødt (angripende) lag i ønsket formasjon.Blått (forsvarende) lag i ønsket formasjon.I 3 ledd alltid.Kantspillere på rødt legger seg lavere i banen i forsvar.Alt av dødballer tas som vanlig.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Det viktigste er at man organiserer frem mange forsøk på å trenge igjennom midtbaneleddet.Joker/evt",
+      "Ekstra rød spiller.10 mot 10 eller 11 mot 11.Føre over linje.Endesoner."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-spill-30"
   },
   {
-    "id": "tiim-57",
-    "exerciseNumber": 133,
+    "id": "tiim-73",
+    "exerciseNumber": 73,
     "name": "A1-A2 Spill - 31",
     "category": "game",
     "duration": 12,
@@ -1160,14 +1664,61 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill på halv bane.Lagene stiller opp i K-4-2-formasjon, eventuelt K-4-1-2.Fritt spill. Alle dødballer tas som vanlig.Bruk gjerne sentrale midtbanespillere i frontleddet.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere i antall spillere i fremste ledd: én to eller tre.Spill uten bruk av offsideregelen den ene veien.Bane bredde.Antall spillere.5 mot 5."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a1-a2-spill-31"
   },
   {
-    "id": "tiim-58",
-    "exerciseNumber": 134,
+    "id": "tiim-74",
+    "exerciseNumber": 74,
+    "name": "A1-A2 Spilløvelse - 25",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Del inn banen i tre soner. Fordel spillerne i ulike soner.Ett lag skal angripe og forsøke å score på motsatt keeper. Angripende lag kan forlate sin soner.Forsvarende lag kan ikke forlate sin sone.Ved scoring, ball ut av spill eller redning, skal laget som har angrepet omstille, og kjappest mulig komme seg tilbake til sin sone.Så angriper det andre laget.Treneren står med ballmagasin og setter i gang til annethvert lag.",
+    "coachingPoints": [],
+    "variations": [
+      "Antall spillere.Størrelse på bane og soner.Trekk og touchbegrensninger."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a1-a2-spillovelse-25"
+  },
+  {
+    "id": "tiim-75",
+    "exerciseNumber": 75,
+    "name": "A1-A2 Spilløvelse - 27",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "11 vs 11 i ønsket formasjon.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.",
+    "coachingPoints": [],
+    "variations": [
+      "Flere offensive spillere på siste tredjedel",
+      "Forsvarsfireren får mer å bryne seg på.Bli med over med backene.Midtbanespillere på motstanderlaget er passive.Begge midtbanespillerne blir med off."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a1-a2-spillovelse-27"
+  },
+  {
+    "id": "tiim-76",
+    "exerciseNumber": 76,
     "name": "A2 Spill - 50",
     "category": "game",
     "duration": 12,
@@ -1180,14 +1731,36 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "11 vs 11, spiller i ønsket formasjon.Laget uten ball spiler med to passive midtbanespillere/indreløpere.Blått vinner ballen, midtbanespillerne blir aktive. To midtbanespillere til rødt blir passiv.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Kun en passive midtbanespiller."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-spill-50"
   },
   {
-    "id": "tiim-59",
-    "exerciseNumber": 149,
+    "id": "tiim-77",
+    "exerciseNumber": 77,
+    "name": "A2-A3 Situasjonsøvelse - 33",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "omstilling",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "• Rødt lag i angrep spiller seg fri med pasninger i markert område. Pasning opp til 9’er, da alle blå (forsvarsspillere) i aksjon: forsinket 10’er og 6’er + begge kantene og 5’er+ keeper forsvarer seg mot overgangs angrep fra rødt lag (3 evt. 4/5 spillere).• Ved ball vinning forsvarende lag; forsøke å score i småmål på sidene.",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-33"
+  },
+  {
+    "id": "tiim-78",
+    "exerciseNumber": 78,
     "name": "A2-A3 Situasjonsøvelse - 34",
     "category": "station",
     "duration": 12,
@@ -1200,14 +1773,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag som angriper hver sin vei.I midten en større firkant hvor det spilles fire mot fire.I hver ende er det en keeper pluss en forsvarsspiller og angrepsspiller.Øvelsen starter ved at trener kaster / sparker ballen inn i firkanten. Det laget som vinner kampen om ballen kan etter fem trekk ta med seg ballen / spille opp på medspiller foran mål.En spiller kan bli med ut av firkanten for å sette opp overtall.Hvis forsvarende spiller eller keeper vinner ballen, skal de forsøke å spille opp på medspiller inne i firkanten.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere foran mål.Antall spillere inne i firkanten.Krav om antall touch og trekk."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-34"
   },
   {
-    "id": "tiim-60",
-    "exerciseNumber": 150,
+    "id": "tiim-79",
+    "exerciseNumber": 79,
     "name": "A2-A3 Situasjonsøvelse - 35",
     "category": "station",
     "duration": 12,
@@ -1220,14 +1795,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Bane 25 x 50.To forsvarssoner med to forsvarsspillere i hver.Mellom forsvarssonene (mellomrommet) oppholder det seg en fast angrepsspiller.Resterende angrepsspillere fordeler seg i grupper á 3 spillere og starter bak mål.En treergruppe starter, og målet er til slutt å score i motsatt mål. Spillerne må bevege seg raskt etter når ballen er spilt inn i mellomrommet.Angrepstart fra annethvert mål.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere og banestørrelse."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-35"
   },
   {
-    "id": "tiim-61",
-    "exerciseNumber": 151,
+    "id": "tiim-80",
+    "exerciseNumber": 80,
     "name": "A2-A3 Situasjonsøvelse - 36",
     "category": "station",
     "duration": 12,
@@ -1240,14 +1817,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Fra 8 mot 8 til 10 mot 10.Vanlig spill i stor sone.Må spille inn på bevegelse inn i gul sone for å score mål.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Kan benytte keeper og stort mål."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-36"
   },
   {
-    "id": "tiim-62",
-    "exerciseNumber": 152,
+    "id": "tiim-81",
+    "exerciseNumber": 81,
     "name": "A2-A3 Situasjonsøvelse - 37",
     "category": "station",
     "duration": 12,
@@ -1260,14 +1839,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag som spiller hver sin vei.En større firkant i midten hvor det spilles fire mot fire.To småmål i hver ende som beskyttes av en forsvarsspiller.Trener setter i gang i midten. Etter «kampen om ballen» skal det angripende lag forsøke å spille fri en spiller som kan ta med seg ball og utordre 1vs1 mot en av de to småmålene.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Bruke større mål og keeper(e)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-37"
   },
   {
-    "id": "tiim-63",
-    "exerciseNumber": 153,
+    "id": "tiim-82",
+    "exerciseNumber": 82,
     "name": "A2-A3 Situasjonsøvelse - 38",
     "category": "station",
     "duration": 12,
@@ -1280,14 +1861,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Midtsone hvor man spiller fire mot fire.To endesoner med keeper og mål.Man skal fra midtsone forsøke å komme seg kontrollert igjennom en av de to portene. Greier man dette kan man avslutte på mål.Forsvarende lag kan jakte med en spiller etter at angripende lag har ført igjennom en av portene.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Touch og trekk begrensninger.Jokere eventuelt."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-38"
   },
   {
-    "id": "tiim-64",
-    "exerciseNumber": 154,
+    "id": "tiim-83",
+    "exerciseNumber": 83,
     "name": "A2-A3 Situasjonsøvelse - 40",
     "category": "station",
     "duration": 12,
@@ -1300,34 +1883,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "3 vs 3 inne i firkanten. Trener kaster inn ball på duell eller spiller mer kontrollert til et av lagene.Det laget i midten som «eier ball» kan etter tre trekk spille opp egen spiss eller kantspiller i angresonen.Deretter en 3vs2+K situasjon.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Serv fra trener, antall spillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-40"
   },
   {
-    "id": "tiim-65",
-    "exerciseNumber": 155,
-    "name": "A2-A3 Situasjonsøvelse - 41",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "pressing",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "11 vs 11.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-41"
-  },
-  {
-    "id": "tiim-66",
-    "exerciseNumber": 156,
+    "id": "tiim-84",
+    "exerciseNumber": 84,
     "name": "A2-A3 Situasjonsøvelse - 42",
     "category": "station",
     "duration": 12,
@@ -1340,34 +1905,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Forsvarende lag i K-4-2-1. Angripende lag i 2-3-1.To sidesoner med en forsvarsspiller og en angrepsspiller.16 metersone med Keeper, to forsvarsspillere og en angriper.Spillere i sonene skal kun oppholde seg i sin sone. Angripende spillere utenfor sonene kan gå inn i en av sonene med ball.Hvis forsvarende lag vinner ballen, skal de forsøke å score i en av småmålene.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere utenfor sonene.Flere angrepsspillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-42"
   },
   {
-    "id": "tiim-67",
-    "exerciseNumber": 157,
-    "name": "A2-A3 Situasjonsøvelse - 43",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "innlegg",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Angrep mot forsvarsøvelse. Angrepslaget rødt i en 2-4-2 formasjon. Forsvarslaget blått i en K-4 – 1 formasjon.Angripende lag (rødt). starter med ball. Hvis forsvarende lag vinner ball, kan de score ved å føre ballen over linje eller treffe en av de små målene på sidene.I utgangspunktet fritt spill, men oppfordre til 2vs1, utfordre forsvarende back og mange innlegg fra sidekorridor.",
-    "coachingPoints": [],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-43"
-  },
-  {
-    "id": "tiim-68",
-    "exerciseNumber": 158,
+    "id": "tiim-85",
+    "exerciseNumber": 85,
     "name": "A2-A3 Situasjonsøvelse - 44",
     "category": "station",
     "duration": 12,
@@ -1380,14 +1927,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Blått lag i K-4-1. Rødt lag i 4-1.Blått lag skal forsøke å score på en av de tre småmålene.Hvis rødt vinner ballen, skal de score på det store målet.Striplet linje kan ikke passeres før ball er spilt.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Fjerne striplet linje."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-situasjonsovelse-44"
   },
   {
-    "id": "tiim-69",
-    "exerciseNumber": 136,
+    "id": "tiim-86",
+    "exerciseNumber": 86,
     "name": "A2-A3 Spill - 51",
     "category": "game",
     "duration": 12,
@@ -1400,14 +1949,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Blått lag organisert i 2-2-2.Rødt lag organisert i 4-1-1.Her spiller lagdelene mot hverandre, men spillet er fritt.Alle dødballer tas som vanlig.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Formasjon og antall spillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-spill-51"
   },
   {
-    "id": "tiim-70",
-    "exerciseNumber": 137,
+    "id": "tiim-87",
+    "exerciseNumber": 87,
     "name": "A2-A3 Spill - 52",
     "category": "game",
     "duration": 12,
@@ -1420,14 +1971,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill ti mot ti.Rødt lag i K-3-4-2-formasjonBlått lag i K-4-2-3-formasjon.Blått lag tar alle dødballer i form av kort målspark.Rødt lag tar alle dødballer i form av langt målspark.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Full banebredde.Ev. ni mot ni.Rødt lag i K-3-3-2.Blått lag i K-4-1-3."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-spill-52"
   },
   {
-    "id": "tiim-71",
-    "exerciseNumber": 138,
+    "id": "tiim-88",
+    "exerciseNumber": 88,
     "name": "A2-A3 Spill - 53",
     "category": "game",
     "duration": 12,
@@ -1440,14 +1993,62 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill fem mot fem opp til åtte mot åtte.Innleggssoner med to spillere i hver.Vanlig spill, hvor man i tillegg kan benytte «freda» spillere i innleggssonene. De har maks to touch.Når ballen er ute av spill, får man spillerne «på plass», før ny ball settes i gang.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Spillere i korridor kan ta med seg ballen ut av korridoren og sette opp «45-graderssituasjoner».Antall spillere og formasjoner."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a2-a3-spill-53"
   },
   {
-    "id": "tiim-72",
-    "exerciseNumber": 160,
+    "id": "tiim-89",
+    "exerciseNumber": 89,
+    "name": "A2-A3 Spilløvelse - 41",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "11 vs 11.Øvelsen starter med at angrepslaget har ballen på egen tredjedel. Enten etter igangsetting fra keeper, dødball, eller start fra trener.Keeper og bakre firer får så hjelp av to sentrale midtbanespillere. Dette betyr av totalt 7 spillere skal forsøke å spille seg fri fra presset til 4 motstandere.Ballen skal så spilles over til medspillere i motsatt sone. Forbi dødsonen i midten som voktes av midbanespillerne på forsvarslaget.På siste tredjedel blir det en 4vs 4 + K situasjon.",
+    "coachingPoints": [],
+    "variations": [
+      "Flere offensive spillere på siste tredjedel",
+      "Forsvarsfireren får mer å bryne seg på.Bli med over med backene."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a2-a3-spillovelse-41"
+  },
+  {
+    "id": "tiim-90",
+    "exerciseNumber": 90,
+    "name": "A2-A3 Spilløvelse - 43",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Angrep mot forsvarsøvelse. Angrepslaget rødt i en 2-4-2 formasjon. Forsvarslaget blått i en K-4 – 1 formasjon.Angripende lag (rødt). starter med ball. Hvis forsvarende lag vinner ball, kan de score ved å føre ballen over linje eller treffe en av de små målene på sidene.I utgangspunktet fritt spill, men oppfordre til 2vs1, utfordre forsvarende back og mange innlegg fra sidekorridor.",
+    "coachingPoints": [],
+    "variations": [
+      "Kan variere med flere forsvarsspillere og eventuelt færre angrepsspillere",
+      "Angrepene kan eventuelt starte fra trener etter langt utspill fra keeper."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/a2-a3-spillovelse-43"
+  },
+  {
+    "id": "tiim-91",
+    "exerciseNumber": 91,
     "name": "A3 Situasjonsøvelse - 45",
     "category": "station",
     "duration": 12,
@@ -1460,14 +2061,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "5 angrepsspillere vs 2 stoppere + keeper (bør være dobbelt sett).Sentral midtbanespiller starter med ball. Slår opp på feilvendt spiss, som legger igjen / eventuelt vinkler ut på kant.Kantspiller skal utfordre kjegla før han / hun slår innlegg.Deretter duell i boksen med to spisser og motsatt kant vs stoppere og keeper.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Flere motspillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a3-situasjonsovelse-45"
   },
   {
-    "id": "tiim-73",
-    "exerciseNumber": 161,
+    "id": "tiim-92",
+    "exerciseNumber": 92,
     "name": "A3 Situasjonsøvelse - 46",
     "category": "station",
     "duration": 12,
@@ -1480,14 +2083,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Trener eller spiller setter i gang fra ballmagasin.3 mot 3 eller lignende inne i boksen.Rødt lag skal score, blått skal forsvare seg primært, og spille kontrollert inn i mål hvis de vinner ballen.Fri spillere i sidekorridor som kan brukes til å slå innlegg.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere antall spillere og type igangsetting."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a3-situasjonsovelse-46"
   },
   {
-    "id": "tiim-74",
-    "exerciseNumber": 162,
+    "id": "tiim-93",
+    "exerciseNumber": 93,
     "name": "A3 Situasjonsøvelse - 47",
     "category": "station",
     "duration": 12,
@@ -1500,14 +2105,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Tre angrepsspillere i hver sidekorridor med ballmagasin.To backpar, to stopperpar, to spisspar + keeper.To av spillerne i sidekorridor, spiller seg imellom og setter opp overtall. Back på ballside presser. De kan slå innlegg eller ta med ballen inn i «16-meteren».To ganger på hver side før man bytter.To spisser og to stoppere + motsatt back beveger seg inn i «16-meteren».Etter avslutning eller klarering, skal det sprintes ut av «16-meteren».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall forsvars- og angrepsspillere",
+      "Duellintensitet."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a3-situasjonsovelse-47"
   },
   {
-    "id": "tiim-75",
-    "exerciseNumber": 163,
+    "id": "tiim-94",
+    "exerciseNumber": 94,
     "name": "A3 Situasjonsøvelse - 48",
     "category": "station",
     "duration": 12,
@@ -1520,14 +2128,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "2 stoppere + Keeper mot 3 angrepspillere. X 2.Stopperne starter bak mål. Slår opp til angrepsspillere og kommer etter.Om stopperne eller keeper vinner skal de forsøke å spille kontrollert forbi linje (evt inn i småmål).",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse, antall spillere, type igangsetting."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a3-situasjonsovelse-48"
   },
   {
-    "id": "tiim-76",
-    "exerciseNumber": 164,
+    "id": "tiim-95",
+    "exerciseNumber": 95,
     "name": "A3 Situasjonsøvelse - 49",
     "category": "station",
     "duration": 12,
@@ -1540,14 +2150,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasin og spiller ballen til ett av lagene med ulik kraft og høyde. Angrepslaget skal alltid være i overtall.Trener spiller ballen til ett av lagene, og roper f.eks. «tre rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å score.Trener kan også rope ut flere spillere underveis.Hvis forsvarende lag snapper ballen, kan de få lov til å uhindret kontre og forsøke å score.Situasjonen varer til ballen er ute av spill eller keeper redder. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, touchbegrensninger, banestørrelse."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/a3-situasjonsovelse-49"
   },
   {
-    "id": "tiim-77",
-    "exerciseNumber": 139,
+    "id": "tiim-96",
+    "exerciseNumber": 96,
     "name": "A3 Spill - 54",
     "category": "game",
     "duration": 12,
@@ -1566,10 +2178,10 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/a3-spill-54"
   },
   {
-    "id": "tiim-78",
-    "exerciseNumber": 165,
+    "id": "tiim-97",
+    "exerciseNumber": 97,
     "name": "Ada H - \"overtall i boksen\"",
-    "category": "station",
+    "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
@@ -1580,14 +2192,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med tre soner og mål med keeper i hver endeI midtsonen spilles det 3v3, i endesonene 1v1Ved å spille opp angrepsspiller(spiss) i endesone, kan angripende lag ta med maks to angrepsspillere inn (3v1) for å scoreForsvarere forsøker å hindre og blokkere skuddBytt roller ved behov",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere i hver soneTrener setter i gang tidlig ny ball for overganger med overtall i midtsonen"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-overtall-i-boksen"
   },
   {
-    "id": "tiim-79",
-    "exerciseNumber": 140,
+    "id": "tiim-98",
+    "exerciseNumber": 98,
     "name": "Angrep undertall 1v2",
     "category": "game",
     "duration": 12,
@@ -1602,14 +2216,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Få angrepsspiller til å utfordre motstander og benytte seg av dribleferdighetene han/hun har for å lure motstander.Få angrepsspiller til benytte seg av temposkifter/rytmeforandringer.Få motstander til å løfte blikket. Orientere seg med ball for å se hvilket rom som kan bli ledig.Angrepsspiller bør strebe etter å beskytte ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Du kan spille 1v3 eller 2v3.Du kan bruke mindre bane (kan få deg til å måtte beskytte ballen mer ved bruk av kroppen).Du kan plassere motstandere på forskjellige steder slik at presset kommer fra ulike steder."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/angrep-undertall-1v2"
   },
   {
-    "id": "tiim-80",
-    "exerciseNumber": 127,
+    "id": "tiim-99",
+    "exerciseNumber": 99,
     "name": "Arsenal - Flest skudd på mål",
     "category": "warmup",
     "duration": 12,
@@ -1622,14 +2238,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp flere små baner med to småmål i hver ende, og en firkant i midtenLegg ut baller i forskjellige posisjonerPå signal (og tid) starter en eller to spillere, hvor de skal skyte flest baller i nærmeste mål. Spillerne må innom midten før hvert skudd på mål",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Mål med keeperKonkurranse på tidBanestørrelse og avstand til målOppfordre til å bruke begge bein ved skudd"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-flest-skudd-pa-mal"
   },
   {
-    "id": "tiim-81",
-    "exerciseNumber": 166,
+    "id": "tiim-100",
+    "exerciseNumber": 100,
     "name": "Atletico Madrid - avslutninger mot to mål",
     "category": "station",
     "duration": 12,
@@ -1648,28 +2266,30 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/atletico-madrid-avslutninger-mot-to-mal"
   },
   {
-    "id": "tiim-82",
-    "exerciseNumber": 167,
+    "id": "tiim-101",
+    "exerciseNumber": 101,
     "name": "Avslutning fra avstand",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pressing",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "To like store soner med mål i hver endeTo lag som når de har ballen skal forsøke å skyte og score fra sin sone. På målet i motsatt sone.Det laget som ikke har ball kan eventuelt sende opp en spiller som presser i motstanderes sone.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Banestørrelse.Antall trekk før skudd."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/avslutning-fra-avstand"
   },
   {
-    "id": "tiim-83",
-    "exerciseNumber": 168,
+    "id": "tiim-102",
+    "exerciseNumber": 102,
     "name": "Avslutninger 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -1682,16 +2302,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spillere starter på hver sin side av treneren.Treneren spiller pasning ut i spillområdet.Spillerne kjemper om ballen og prøver å drible seg forbi hverandre og mot mål for å komme til avslutning.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Avstand til målIgangsetting med forskjellig kraft, vinkel og høyde."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/avslutninger-1-mot-1"
   },
   {
-    "id": "tiim-84",
-    "exerciseNumber": 142,
+    "id": "tiim-103",
+    "exerciseNumber": 103,
     "name": "Avslutninger mot to mål",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -1702,16 +2324,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasinTrener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Trener kan også rope ut flere spillere underveis.BanestørrelseIgangsetting med forskjellig kraft, vinkel og høyde."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/avslutninger-mot-to-mal"
   },
   {
-    "id": "tiim-85",
-    "exerciseNumber": 169,
+    "id": "tiim-104",
+    "exerciseNumber": 104,
     "name": "Avslutningskonkurranse",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -1722,36 +2346,40 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Tre og tre jobber sammen. Konkurranse internt. Gruppene teller mål.Øvelsen starter ved at spiller ved kjegle 1 fører forbi kjegla og skyter.Etter skudd, vender spiller opp, mottar pasning fra spiller på kjegle 2, legger i igjen, så skudd.De to spillerne som har skutt gjør seg så klare til å avslutte etter innlegg fra spiller ved kjegle 3.Spillerne som skal inn i boks, må ut av 16-meteren og vente med innløp til etter at spiller ved kjegle 3 har berørt ballen.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Avstander, vinkler og skuddfot"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/avslutningskonkurranse"
   },
   {
-    "id": "tiim-86",
-    "exerciseNumber": 170,
+    "id": "tiim-105",
+    "exerciseNumber": 105,
     "name": "Avslutningstrening",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "6 – 8 spillere fordeler seg som på tegningen. 4 – 6 spillere skal skyte, to skal være «vegger» og to er keepere.Man spiller opp på veggen på sin side, får gjenlegg og skyter.Skudd og aktivitet mot begge mål samtidig, rullere på plassene",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Kraft, vinkel, høyde på pasning.Trenere kan være vegger for de aller yngste."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/avslutningstrening"
   },
   {
-    "id": "tiim-87",
-    "exerciseNumber": 128,
+    "id": "tiim-106",
+    "exerciseNumber": 106,
     "name": "Barcelona 1v1 - skudd eller føring",
-    "category": "warmup",
+    "category": "station",
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
@@ -1764,14 +2392,17 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Utfør finten med store, troverdige bevegelser og tempo for å passere.Skjerm ballen med kroppen og bruk riktig fot for situasjonen.Velg raskt neste handling (pasning, skudd, videre føring).Velg skuddtype (bredside, vrist, volley, halvsprett).Treffpunkt på ballen: midt for rett skudd, under for å løfte, siden for skru."
     ],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere, 2v1 eller 2v2Mål med keeperBytte fra forsvarer til angriper hvis du vinner ball",
+      "Angriper som mister ball blir da forsvarer"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/barcelona-1v1-skudd-eller-foring"
   },
   {
-    "id": "tiim-88",
-    "exerciseNumber": 171,
+    "id": "tiim-107",
+    "exerciseNumber": 107,
     "name": "Bayer Leverkusen dribleøvelse",
     "category": "station",
     "duration": 12,
@@ -1784,14 +2415,39 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med ni forsvarssoner (se illustrasjon). Plasser en forsvarsspiller i hver sone, hvor de ikke har lov til å bevege seg utenfor.Angrepsspillerne starter med hver sin ball på en side, og skal forsøke å dribble seg igjennom forsvarssonene og over på motsatt side.Mister de ball til forsvarer, bytter de plass.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillereBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/bayer-leverkusen-dribleovelse"
   },
   {
-    "id": "tiim-89",
-    "exerciseNumber": 172,
+    "id": "tiim-108",
+    "exerciseNumber": 108,
+    "name": "Bearbeiding mot høyt press i relevante formasjoner",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett på en halv syverbane med syvermål på dødlinjen og småmål på midtlinjen. Bruk en formasjon du vanligvis bruker i syverfotball, men fjern spissen på det ene laget. På motsatt lag stiller du opp med spiss og midtbanespillere, men fjerner det bakre leddet og keeperen. Det ene laget skal presse for å vinne ballen og skyte ballen forbi keeperen og inn i syvermålet. Det andre laget skal forsøke å spille av det høye presset og sentre ballen i et av småmålene.",
+    "coachingPoints": [
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/bearbeiding-mot-hoyt-press-i-relevante-formasjoner"
+  },
+  {
+    "id": "tiim-109",
+    "exerciseNumber": 109,
     "name": "Borgen",
     "category": "station",
     "duration": 12,
@@ -1803,17 +2459,21 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "To og to spillere samarbeider om å spille pasninger gjennom småmål inn mot og inn i 5-meteren.I området innenfor 16-meteren og 5-meteren møter de motstand (en eller flere).Det avsluttes med scoringsforsøk mot keeper.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "ForsvarLøp mot spilleren som har ballen.Kom deg nær ballen og motstanderen.Stå i veien så spilleren ikke kommer seg fremover.Prøv å ta ballen når motstanderen mister kontroll på ballen."
+    ],
+    "variations": [
+      "Antall med -og motspillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/borgen"
   },
   {
-    "id": "tiim-90",
-    "exerciseNumber": 143,
+    "id": "tiim-110",
+    "exerciseNumber": 110,
     "name": "Caro - innlegg og avslutning i boks",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -1824,14 +2484,40 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Organiser en bane mot ett stort mål med keeper, og to småmål i motsatt ende. Størrelse på banen er avhengig av alder og ferdigheterLag friområder i hver korridor, hvor angriper kan få legge innlegg uten pressTrener starter øvelsen hvor tre angrepsspillere skal angripe i boks mot tre forsvarere og keeper. Angrepet skal gå via korridor/friområde og innlegg i boksenVinner forsvarende lag ballen, kan de forsøke å score på småmål eller sette ballen ut av spill",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillerePlassering og størrelse på korridor/friområde"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-caro-innlegg-og-avslutning-i-boks"
   },
   {
-    "id": "tiim-91",
-    "exerciseNumber": 144,
+    "id": "tiim-111",
+    "exerciseNumber": 111,
+    "name": "Champions League",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Spille tre mot tre. Kamper på fem minutter. Vinnere rykker opp eller står på toppen. Tapere rykker ned eller står på bunnen.",
+    "coachingPoints": [
+      "Prøv å føre ballen fremover og skyte når du har ballen (ikke bare sparke den oppover)Hvis vennen din har ballen, trekk unna så ballføreren får bedre plassHvis det andre laget har ballen, løp for å ta fra dem ballen"
+    ],
+    "variations": [
+      "Score mål på ulike måter:2 småmål4 småmålScore over linjaSkyte ned baller/kjegler"
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/champions-league"
+  },
+  {
+    "id": "tiim-112",
+    "exerciseNumber": 112,
     "name": "Dribling gjennom boksen",
     "category": "game",
     "duration": 12,
@@ -1844,14 +2530,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp firkanter med vilkårlig plasserte kjegler/koner som skal passeres, men ikke berøres.Minimum en spiller på hver side, to der hvor en starter med ballTo spillere med hver sin ball starter samtidig med å føre ball rundt kjeglene over til motsatt sideNår kommet igjennom, spill ball til ny spiller som fører motsatt vei. Gjenta når kommet i gjennom.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Antall og avstand mellom kjegler."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/dribling-gjennom-boksen"
   },
   {
-    "id": "tiim-92",
-    "exerciseNumber": 174,
+    "id": "tiim-113",
+    "exerciseNumber": 113,
     "name": "Dribling gjennom porter",
     "category": "station",
     "duration": 12,
@@ -1863,17 +2551,21 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "10-20 spillere, avlang bane med 6 kjeglemål/porter plassert med forskjellige vinkler inne i banen. 5-10 baller.Halvparten av spillerne utenfor banen (vegger), andre halvparten inne på banen hvor de fører ball gjennom portene, for så spille pasning til en ledig spiller utenfor. Ny port og pasningsmottaker hver gang.Hvor mange kan du klare på ett minutt?",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Bruk små, kontrollerte touch og ha ballen tett på foten din.Se opp av og til for å finne vei."
+    ],
+    "variations": [
+      "Varier med antall spillere ute/inne, bytte posisjon ute/inne etter pasning."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/dribling-gjennom-porter"
   },
   {
-    "id": "tiim-93",
-    "exerciseNumber": 129,
+    "id": "tiim-114",
+    "exerciseNumber": 114,
     "name": "Eden Hazard - 1 mot 1",
-    "category": "warmup",
+    "category": "station",
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
@@ -1886,14 +2578,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Tilpass touchlengde til tempo og press.Veksle fot og fotdel for å beskytte ballen.Utfør finten med store, troverdige bevegelser og tempo for å passere.Skjerm ballen med kroppen og bruk riktig fot for situasjonen."
     ],
-    "variations": [],
+    "variations": [
+      "Banestørrelse"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/eden-hazard-1-mot-1"
   },
   {
-    "id": "tiim-94",
-    "exerciseNumber": 145,
+    "id": "tiim-115",
+    "exerciseNumber": 115,
     "name": "Eggs Transition Game - 4v4 til 4v3",
     "category": "game",
     "duration": 12,
@@ -1911,14 +2605,20 @@ const baseTiimExercises: ExerciseData[] = [
       "Få kroppen vendt hurtig mot angrepsretning og sett fart!Finn 2 mot 1. Et tips kan være at ballfører setter fart fremover mot en motstander for å trekke på seg press. Når motstanderen er 1",
       "3 meter unna spiller han/hun ballen til den nærmeste medspilleren.Om spillerne er i en klynge må du få til å bruke bredden i banen og utnytte at det er 2 mål å score på.Ved å spille motsatt kan du skape 2 mot 1 situasjoner, og du kan spille fra trangt området til åpent området.Hvordan spillerne responderer når de scorer mål eller slipper inn mål? Å være god på omstilling fra angrep til forsvar er like viktig som fra forsvar til angrep. Vil du at spillerne skal stupe i press eller vil du at de skal falle?"
     ],
-    "variations": [],
+    "variations": [
+      "Her gjelder det å være kreativ",
+      "Det er mange muligheter i øvelsen",
+      "Du kan for eksempel bygge videre på øvelsen ved å justere antall spillere eller banestørrelse for å skape enda flere situasjoner eller større kompleksitet.Samtidig er øvelsen best når det er 3v3 eller 4v4 og en får utnyttet overtallet som oppstår til å kontre",
+      "Er det utfordrende med å få overtall kan du ha en joker på banen, som et hjelpemiddel.Treneren kan også serve baller og velge hvilke situasjoner som skal oppstå utifra posisjoner og utgangsposisjon for spillernes/lagenes balanse etter ballen forsvinner ut av spill",
+      "Dette krever enda større omstillingsdyktighet hos spillerne, og du kan skape flere 2v1 eller 1v1 situasjoner basert på hvilken posisjon du plasserer ballen som trener.Det går an å spilles på store mål - jo større mål en spiller med jo vanskeligere er det å forsvare og jo flere omstillinger/scoringer får en."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/eggs-transition-game-4v4-til-4v3"
   },
   {
-    "id": "tiim-95",
-    "exerciseNumber": 175,
+    "id": "tiim-116",
+    "exerciseNumber": 116,
     "name": "Everton 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -1931,14 +2631,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Lag en stor sirkel. 10-12 spillere.Sett sammen par inne i sirkelen hvor en er angriper og en forsvarer. Resten av spillerne utenfor sirkelenAngrepspillere i sirkelen kan motta ball fra spiller utenfor sirkelen, for så å forsøke å spille til ny spiller utenfor uten å miste ball til sin «oppasser».Bytte roller etter tid, eller bytt roller i midten når forsvarer vinner ball.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere i og utenfor sirkelBanestørrelse"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/everton-1-mot-1"
   },
   {
-    "id": "tiim-96",
-    "exerciseNumber": 176,
+    "id": "tiim-117",
+    "exerciseNumber": 117,
     "name": "F1-F2 Situasjonsøvelse - 57",
     "category": "station",
     "duration": 12,
@@ -1951,14 +2653,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Trener spiller opp rødt angrepslag. Tre spillere skal så forsøke å få en kontrollert avslutning på en av de tre småmålene.Hvis forsvarslaget vinner ball, får de poeng om de greier å føre ballen kontrollert inn i den minste sonen.Etter endt situasjon kommer det inn en ny forsvars og angrepstrio.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, type serv fra trener.Linkspiller i angrepssone."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-57"
   },
   {
-    "id": "tiim-97",
-    "exerciseNumber": 177,
+    "id": "tiim-118",
+    "exerciseNumber": 118,
     "name": "F1-F2 Situasjonsøvelse - 58",
     "category": "station",
     "duration": 12,
@@ -1977,8 +2681,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-58"
   },
   {
-    "id": "tiim-98",
-    "exerciseNumber": 178,
+    "id": "tiim-119",
+    "exerciseNumber": 119,
     "name": "F1-F2 Situasjonsøvelse - 59",
     "category": "station",
     "duration": 12,
@@ -1991,14 +2695,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To firkanter med fire angrepsspillere.En sone imellom hvor fire forsvarsspillere oppholder seg.Angripende lag skal spille ballen internt i firkanten, for etter hvert å spille ballen over til motsatt firkant.Blått lag (forsvarende lag), kan til enhver tid sende opp to spillere for å presse. De har ikke lov til å gå inn før ballen er inne i firkanten.Hvis forsvarende lag vinner ballen, må de kontre, og fortsøke å føre ballen kontrollert over en av linjene til laget som mistet ballen. Greier de det, bytter de plass med den firkanten som mistet ballen.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Firkantstørrelser, antall spillere, eventuelle touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-59"
   },
   {
-    "id": "tiim-99",
-    "exerciseNumber": 179,
+    "id": "tiim-120",
+    "exerciseNumber": 120,
     "name": "F1-F2 Situasjonsøvelse - 60",
     "category": "station",
     "duration": 12,
@@ -2011,14 +2717,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "10:6.Rødt stilles opp utfra lagets formasjon (eks 3-3 el 4-2).Ball ut av spill settes i gang til blått lag – for en A1 situasjon.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Større bane, mot 1 stort mål."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-60"
   },
   {
-    "id": "tiim-100",
-    "exerciseNumber": 70,
+    "id": "tiim-121",
+    "exerciseNumber": 121,
     "name": "F1-F2 Situasjonsøvelse - 61",
     "category": "station",
     "duration": 12,
@@ -2031,14 +2739,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "En stor sone (halv bane) bestående av et rødt lag i K-4-2-formasjon, og blått lag i 4-2-formasjon. Spillerne kan kun oppholde seg i denne sonen.En mindre sone på motsatt halvdel bestående av keeper, to midtstoppere og to spisser.Rødt lag skal forsøke å spille opp på en av de to spissene i den mindre sonen.Hvis rødt klarer å spille opp på en av spissene, kan de komme i understøtte med en spiller fra den store sonen.Om blått lag vinner ballen, skal de forsøke å score.Når ballen er ute av spill, setter trener i gang spillet med ny ball til rødt lag. Eventuelt kan rødt sette i gang via kast.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere og formasjon."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-61"
   },
   {
-    "id": "tiim-101",
-    "exerciseNumber": 71,
+    "id": "tiim-122",
+    "exerciseNumber": 122,
     "name": "F1-F2 Situasjonsøvelse - 62",
     "category": "station",
     "duration": 12,
@@ -2051,14 +2761,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Ett forsvarsslag (blått) bestående av fire midtbanespillere og to spisser.Ett angrepslag (rødt) bestående av fire bakspillere og to sentrale midtbanespillere.Øvelsen starter med at keeper i midtsirkelen spiller en pasning til rød spiller.Blått setter så presset, og skal forsøke å hindre rødt lag i å føre ballen over midtlinjen eller spille opp i hendene på keeper i midtsirkelen.Blått lag forsøker å score ved ballerobring.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Keeper kan variere mellom kontrollerte pasninger eller duellpasninger.Antall spillere og organisering."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-62"
   },
   {
-    "id": "tiim-102",
-    "exerciseNumber": 72,
+    "id": "tiim-123",
+    "exerciseNumber": 123,
     "name": "F1-F2 Situasjonsøvelse - 63",
     "category": "station",
     "duration": 12,
@@ -2071,14 +2783,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Rødt arbeider med F1, høyt press + kontring – settes opp i formasjon med utg.pkt i det laget spiller i kamp.Blått A1 – spille seg inn i en av boksene og holde ball I laget der.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Størrelse på bane, forskjellig formasjon i motspillet , antall spillere.Forskjellige angrepsstarter – fra innkast, igangsetting fra keeper, gjenvinningsball."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-63"
   },
   {
-    "id": "tiim-103",
-    "exerciseNumber": 73,
+    "id": "tiim-124",
+    "exerciseNumber": 124,
     "name": "F1-F2 Situasjonsøvelse - 65",
     "category": "station",
     "duration": 12,
@@ -2091,14 +2805,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag med like mange spillere.Scoring ved å føre ballen kontrollert over motstanders dødlinje.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere på hvert lag.Formasjon."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-65"
   },
   {
-    "id": "tiim-104",
-    "exerciseNumber": 74,
+    "id": "tiim-125",
+    "exerciseNumber": 125,
     "name": "F1-F2 Situasjonsøvelse - 66",
     "category": "station",
     "duration": 12,
@@ -2117,10 +2833,10 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-66"
   },
   {
-    "id": "tiim-105",
-    "exerciseNumber": 75,
-    "name": "F1-F2 Situasjonsøvelse - 67",
-    "category": "station",
+    "id": "tiim-126",
+    "exerciseNumber": 126,
+    "name": "F1-F2 Spilløvelse - 67",
+    "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -2134,13 +2850,33 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-67"
+    "sourceUrl": "https://tiim.no/ovelse/f1-f2-spillovelse-67"
   },
   {
-    "id": "tiim-106",
-    "exerciseNumber": 76,
-    "name": "F1-F2 Situasjonsøvelse - 69",
-    "category": "station",
+    "id": "tiim-127",
+    "exerciseNumber": 127,
+    "name": "F1-F2 Spilløvelse - 68",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 10,
+    "playersMax": 24,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "30 x 40 m eller en kvart baneSpill 5 mot 5 mot to mål + (keepere)Organiser i ledd",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/f1-f2-spillovelse-68"
+  },
+  {
+    "id": "tiim-128",
+    "exerciseNumber": 128,
+    "name": "F1-F2 Spilløvelse - 69",
+    "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -2151,16 +2887,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill fra «16-meter til 16-meter».To lag organisert i en K-4-4-formasjon.Når ballen er ute av spill, organiserer forsvarende lag opp i K-4-4 og lar motstanders keeper sette i gang.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Spissene er passive i forsvarsjobbingen."
+    ],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-69"
+    "sourceUrl": "https://tiim.no/ovelse/f1-f2-spillovelse-69"
   },
   {
-    "id": "tiim-107",
-    "exerciseNumber": 77,
-    "name": "F1-F2 Situasjonsøvelse - 70",
-    "category": "station",
+    "id": "tiim-129",
+    "exerciseNumber": 129,
+    "name": "F1-F2 Spilløvelse - 70",
+    "category": "game",
     "duration": 12,
     "playersMin": 20,
     "playersMax": 30,
@@ -2171,14 +2909,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 10 mot 10.Rødt lag i K-3-4-2-formasjon.Blått lag i K-4-2-3-formasjon.Blått lag tar alle dødballer i form av kort målspark.Rødt lag tar alle dødballer i form av langt målspark.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Full banebredde.Eventuelt ni mot ni, med rødt lag i K-3-3-2 og blått lag i K-4-1-3."
+    ],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/f1-f2-situasjonsovelse-70"
+    "sourceUrl": "https://tiim.no/ovelse/f1-f2-spillovelse-70"
   },
   {
-    "id": "tiim-108",
-    "exerciseNumber": 78,
+    "id": "tiim-130",
+    "exerciseNumber": 130,
     "name": "F2-F3 Situasjonsøvelse - 72",
     "category": "station",
     "duration": 12,
@@ -2191,14 +2931,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Angripende lag i K-2-3-3-formasjon.Forsvarende lag i K-4-4-formasjon.Forsvarende lags midtbaneledd har ikke anledning til å falle bak merket linje før ballen har passert.Rødt lag får poeng hvis de klarer å spille opp i mellomrom og utfordre rettvendt på bakre ledd, eller hvis de spiller seg inn kontrollert i bakrom.Når ballen er ute av spill, starter rødt lags keeper nytt angrep.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Formasjonsvariasjoner, mindre banebredde og touchbegrensninger hos rødt."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-72"
   },
   {
-    "id": "tiim-109",
-    "exerciseNumber": 79,
+    "id": "tiim-131",
+    "exerciseNumber": 131,
     "name": "F2-F3 Situasjonsøvelse - 73",
     "category": "station",
     "duration": 12,
@@ -2211,14 +2953,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Forsvarende lag i K-4-2-1. Angripende lag i 2-3-1.To sidesoner med en forsvarsspiller og en angrepsspiller.16 metersone med Keeper, to forsvarsspillere og en angriper.Spillere i sonene skal kun oppholde seg i sin sone. Angripende spillere utenfor sonene kan gå inn i en av sonene med ball.Hvis forsvarende lag vinner ballen, skal de forsøke å score i en av småmålene.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere utenfor sonene.Flere angrepsspillere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-73"
   },
   {
-    "id": "tiim-110",
-    "exerciseNumber": 81,
+    "id": "tiim-132",
+    "exerciseNumber": 132,
     "name": "F2-F3 Situasjonsøvelse - 74",
     "category": "station",
     "duration": 12,
@@ -2231,14 +2975,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Midtsone hvor man spiller fire mot fire.To endesoner med keeper og mål.Man skal fra midtsone forsøke å komme seg kontrollert igjennom en av de to portene. Greier man dette kan man avslutte på mål.Forsvarende lag kan jakte med en spiller etter at angripende lag har ført igjennom en av portene.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Touch og trekk begrensninger.Jokere eventuelt."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-74"
   },
   {
-    "id": "tiim-111",
-    "exerciseNumber": 82,
+    "id": "tiim-133",
+    "exerciseNumber": 133,
     "name": "F2-F3 Situasjonsøvelse - 75",
     "category": "station",
     "duration": 12,
@@ -2251,14 +2997,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "3 vs 3 inne i firkanten. Trener kaster inn ball på duell eller spiller mer kontrollert til et av lagene.Det laget i midten som «eier ball» kan etter tre trekk spille opp egen spiss eller kantspiller i angresonen.Deretter en 3vs2+K situasjon.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Serv fra trener eller fra keeper (kamp om ballen), antall spillere.Variere antall spillere som angriper og forsvarer."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-75"
   },
   {
-    "id": "tiim-112",
-    "exerciseNumber": 83,
+    "id": "tiim-134",
+    "exerciseNumber": 134,
     "name": "F2-F3 Situasjonsøvelse - 76",
     "category": "station",
     "duration": 12,
@@ -2271,14 +3019,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Rødt lag skal angripe mot mål. Liketall i begge soner.Øvelsen starter med en uavklart situasjon i midtsonen. Røde midtbanespillere skal forsøke å kontrollere ballen før de spiller inn til medspillere i neste sone.Om blå spillere vinner ballen i midtsonen får de scoring om de fører over midtlinja.Idet ballen spilles inn i sonen nærmest mål, opphører begrensningene for alle spillere.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, Igangsettingsonen kan like gjerne være i korridor",
+      "Start fra dødball osv."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-situasjonsovelse-76"
   },
   {
-    "id": "tiim-113",
-    "exerciseNumber": 63,
+    "id": "tiim-135",
+    "exerciseNumber": 135,
     "name": "F2-F3 Spill - 83",
     "category": "game",
     "duration": 12,
@@ -2291,14 +3042,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill 10 mot 10.Rødt lag i K-3-4-2-formasjon.Blått lag i K-4-2-3-formasjon.Blått lag tar alle dødballer i form av kort målspark.Rødt lag tar alle dødballer i form av langt målspark.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Full banebredde.Ev. ni mot ni.Rødt lag i K-3-3-2.Blått lag i K-4-1-3."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-spill-83"
   },
   {
-    "id": "tiim-114",
-    "exerciseNumber": 64,
+    "id": "tiim-136",
+    "exerciseNumber": 136,
     "name": "F2-F3 Spill - 84",
     "category": "game",
     "duration": 12,
@@ -2311,14 +3064,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Spill fem mot fem opp til åtte mot åtte.Innleggssoner med to spillere i hver.Vanlig spill, hvor man i tillegg kan benytte «freda» spillere i innleggssonene. De har maks to touch.Når ballen er ute av spill, får man spillerne «på plass», før ny ball settes i gang.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Spillere i korridor kan ta med seg ballen ut av korridoren og sette opp «45-graderssituasjoner».Antall spillere og formasjoner."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-spill-84"
   },
   {
-    "id": "tiim-115",
-    "exerciseNumber": 65,
+    "id": "tiim-137",
+    "exerciseNumber": 137,
     "name": "F2-F3 Spill - 85",
     "category": "game",
     "duration": 12,
@@ -2331,14 +3086,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Halv bane.To lag organisert i K-4-2-formasjon (offensive backer).Joker som benyttes av angrepslaget.Når ballen er ute av spill så lar man angripende lag sette i gang fra keeper.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Alltid fire spillere bak, men organisere lagene i K-4-3.To jokere.Ingen jokere."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f2-f3-spill-85"
   },
   {
-    "id": "tiim-116",
-    "exerciseNumber": 84,
+    "id": "tiim-138",
+    "exerciseNumber": 138,
     "name": "F3 Situasjonsøvelse - 77",
     "category": "station",
     "duration": 12,
@@ -2351,14 +3108,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Trener eller spiller setter i gang fra ballmagasin.4 mot 4 eller lignende inne i boksen.Rødt lag skal score, blått skal forsvare seg primært, og spille kontrollert inn i mål hvis de vinner ballen.Frie spillere i sidekorridor og utenfor 16 meter som kan brukes.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere antall spillere og type igangsetting."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-77"
   },
   {
-    "id": "tiim-117",
-    "exerciseNumber": 85,
+    "id": "tiim-139",
+    "exerciseNumber": 139,
     "name": "F3 Situasjonsøvelse - 78",
     "category": "station",
     "duration": 12,
@@ -2371,14 +3130,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Angrep mot forsvarsøvelse. Angrepslaget rødt i en 2-4-2 formasjon. Forsvarslaget blått i en K-4 – 1 formasjon.Angripende lag (rødt). starter med ball. Hvis forsvarende lag vinner ball, kan de score ved å føre ballen over midtlinje eller treffe en av de små målene på sidene. Småmål 3 meter bak midtlinje. Ballbank må flyttes. (Animinasjon)I utgangspunktet fritt spill, men oppfordre til 2vs1, utfordre forsvarende back og mange innlegg fra sidekorridor.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Kan variere med flere forsvarsspillere og eventuelt færre angrepsspillere.Angrepene kan eventuelt starte fra trener etter langt utspill fra keeper."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-78"
   },
   {
-    "id": "tiim-118",
-    "exerciseNumber": 86,
+    "id": "tiim-140",
+    "exerciseNumber": 140,
     "name": "F3 Situasjonsøvelse - 79",
     "category": "station",
     "duration": 12,
@@ -2391,14 +3152,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Blått lag i K-4-1. Rødt lag i 4-1.Blått lag skal forsøke å score på en av de tre småmålene.Hvis rødt vinner ballen, skal de score på det store målet.Striplet linje kan ikke passeres før ball er spilt.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Fjerne striplet linje."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-79"
   },
   {
-    "id": "tiim-119",
-    "exerciseNumber": 87,
+    "id": "tiim-141",
+    "exerciseNumber": 141,
     "name": "F3 Situasjonsøvelse - 80",
     "category": "station",
     "duration": 12,
@@ -2411,14 +3174,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "2 stoppere + Keeper mot 3 angrepspillere. X 2.Stopperne starter bak mål eller på 16 meterstreken. Slår opp til angrepsspillere og kommer etter. Om stopperne eller keeper vinner skal de forsøke å spille kontrolert forbi linje (evt inn i småmål).",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse, antall spillere, type igangsetting.Pasning fra keeper til stopper."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-80"
   },
   {
-    "id": "tiim-120",
-    "exerciseNumber": 88,
+    "id": "tiim-142",
+    "exerciseNumber": 142,
     "name": "F3 Situasjonsøvelse - 81",
     "category": "station",
     "duration": 12,
@@ -2431,20 +3196,22 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Trener eller spiller setter i gang fra ballmagasin.3 mot 3 eller lignende inne i boksen.Rødt lag skal score, blått skal forsvare seg primært, og spille kontrollert inn i mål hvis de vinner ballen.Fri spillere i sidekorridor som kan brukes til å slå innlegg.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere antall spillere og type igangsetting."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/f3-situasjonsovelse-81"
   },
   {
-    "id": "tiim-121",
-    "exerciseNumber": 67,
+    "id": "tiim-143",
+    "exerciseNumber": 143,
     "name": "F3 Spill - 86",
     "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "smålagsspill",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -2457,8 +3224,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/f3-spill-86"
   },
   {
-    "id": "tiim-122",
-    "exerciseNumber": 68,
+    "id": "tiim-144",
+    "exerciseNumber": 144,
     "name": "F3 Spill - 87",
     "category": "game",
     "duration": 12,
@@ -2477,10 +3244,10 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/f3-spill-87"
   },
   {
-    "id": "tiim-123",
-    "exerciseNumber": 89,
+    "id": "tiim-145",
+    "exerciseNumber": 145,
     "name": "Ferdighetssirkel",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -2491,14 +3258,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Lag en stor sirkel. Bruk gjerne midtsirkelen.Halvparten så mange baller som spillere.Like mange spillere utenfor sirkelen som innenfor.Spillere utenfor sirkelen skal spille til en ledig spiller inne i sirkelen.Spiller inne i sirkel skal spille til en ledig utenfor.Bytte roller etter hvert.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Touchbegrensninger/forskjellige teknikker (vendinger mm.).Antall baller/spillere.Passivt press fra trener."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ferdighetssirkel"
   },
   {
-    "id": "tiim-124",
-    "exerciseNumber": 90,
+    "id": "tiim-146",
+    "exerciseNumber": 146,
     "name": "Firkant – pasning over to linjer",
     "category": "station",
     "duration": 12,
@@ -2511,14 +3280,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Fire angrepsspillere med ansvar for hver sin side i firkanten.En – to forsvarsspillere inne i firkanten.Angrepsspillerne (rødt lag) skal holde ballen i «laget» gjennom å spille til hverandre. Hver pasning må passere to linjer i firkanten.Poeng når ballen passerer to parallelle linjer.Forsvarslag (blått lag) skal forsøke å vinne ball/stenge pasningsvinkler.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, firkantstørrelse, touchbegrensinger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/firkant-pasning-over-to-linjer"
   },
   {
-    "id": "tiim-125",
-    "exerciseNumber": 69,
+    "id": "tiim-147",
+    "exerciseNumber": 147,
     "name": "Forsvarspill 3v3",
     "category": "game",
     "duration": 12,
@@ -2539,8 +3310,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/forsvarspill-3v3"
   },
   {
-    "id": "tiim-126",
-    "exerciseNumber": 70,
+    "id": "tiim-148",
+    "exerciseNumber": 148,
     "name": "Four corners-kombinasjoner",
     "category": "game",
     "duration": 12,
@@ -2556,14 +3327,18 @@ const baseTiimExercises: ExerciseData[] = [
       "Har de offensive spillerne (2. og 3. angripere) posisjonert smart, eller løper de bare rundt og mot ballen?Har spilleren som mottar ballen (1. angriper) en klar plan på hva han/hun skal gjøre, eller \"tenker\" 1.angriper når han/hun har ballen.Spiller det angripende laget med en intensjon til å skape et gjennombrudd, eller har de ballen uten noe hensikt?Presser 1. forsvarer riktig i 1v1",
       "situasjoner?Sikrer 2. forsvar han/hun som presser med riktig avstand, og 3. forsvarer dekker nødvendige rom?"
     ],
-    "variations": [],
+    "variations": [
+      "Du kan ha kreative tilnærminger for å utvikle og bygge videre på øvelsen",
+      "Noen av Toni sine tips for å bygge videre er:For å gjøre angrepsspillet mer utfordrende:Innfør en regel som sier at to spillere kan ikke spille frem og tilbake til hverandre.Jokere har kun 1 berøring.For å gjøre forsvarsspillet mer utfordrende:Gjør banen større",
+      "Dette vil kreve at spillere må forflytte seg raskere og dekke større rom.Justering av antall ballberøringer/spillere vil gjøre det enklere/vanskeligere for forsvarende lag."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/four-corners-kombinasjoner"
   },
   {
-    "id": "tiim-127",
-    "exerciseNumber": 91,
+    "id": "tiim-149",
+    "exerciseNumber": 149,
     "name": "Frankrike-øvelsen",
     "category": "station",
     "duration": 12,
@@ -2576,14 +3351,110 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med tre soner og fire kjegle mål som vist på illustrasjon.Start spillet fire mot fire i midtsonen. Når angrepslaget klarer å spille seg gjennom ett av sine to kjeglemål, skal de via 1A(ballfører) forsøke å score på keeper i endesonen. En forsvarer kan følge med inn og forsøke å forhindre scoring.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillereBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/frankrike-ovelsen"
   },
   {
-    "id": "tiim-128",
-    "exerciseNumber": 71,
+    "id": "tiim-150",
+    "exerciseNumber": 150,
+    "name": "Funinho med jokere",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp to lag i 1-2-1 formasjon. I tillegg er to jokere med i spillet. Jokerne er til en hver tid på det angripende lag. Hvert lag kan angripe to småmål og forsvare to småmål.Hensikten med øvelsen er å score i motstanderens mål. Utfordringen er at alle jokere må ha vært innom ballen før det skjer.Øvelsen spilles med 3 forskjellige varianter i løpet av øvelsen:Alle jokerne er sentralt i banen.1 joker på hver kortside1 joker på hver langside.",
+    "coachingPoints": [
+      "Se først etter pasningsalternativer fremover i banen før du ser etter alternativer sideveis eller bakover.Tilpass kraft i pasningen og retning på pasningen etter situasjonenEtter at du har slått pasningen må du gjøre deg tilgjengelig for å motta ny pasning eller gå i press dersom dere mister ballen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/funinho-med-jokere"
+  },
+  {
+    "id": "tiim-151",
+    "exerciseNumber": 151,
+    "name": "Funinho med vegg på dødlinje",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Hvert lag kan angripe to småmål og forsvare to småmål. Hvert lag har en medspiller plassert på angripende dødlinje. Denne medspilleren kaller vi «vegg» og får kun lov til å bruke en berøring på å legge igjen til en medspiller.",
+    "coachingPoints": [
+      "Se først etter pasningsalternativer fremover i banen før du ser etter alternativer sideveis eller bakover.Tilpass kraft i pasningen og retning på pasningen etter situasjonenEtter at du har slått pasningen må du gjøre deg tilgjengelig for å motta ny pasning eller gå i press dersom dere mister ballen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/funinho-med-vegg-pa-dodlinje"
+  },
+  {
+    "id": "tiim-152",
+    "exerciseNumber": 152,
+    "name": "Føre på løpende rekke",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Man stiller opp to rekker mot hverandre. Fremste fører over til den fremste på den andre siden og løper over og stiller seg bakerst i motsatt rekke.",
+    "coachingPoints": [
+      "Prøv å få blikket opp",
+      "mot medspillerFøre med kontroll: mange berøringerFøre med fart: færre berøringerSnill pasning til medspiller"
+    ],
+    "variations": [
+      "Føre med ball tett på fotFøre med ulik fartFøre med mange berøringerFøre med få berøringerFøre på ulike måter: mellom beina, ytterside, innerside, ytterside – innerside, sikk – sakk etcKan organiseres som stafett"
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/fore-pa-lopende-rekke"
+  },
+  {
+    "id": "tiim-153",
+    "exerciseNumber": 153,
+    "name": "Føre på løpende rekke i \"sikk sakk\"",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Man stiller opp to rekker mot hverandre. Fremste fører sikk – sakk over til den fremste på den andre siden og løper over og stiller seg bakerst i motsatt rekke.Viktig at sikk sakk løypa varieres i øvelsen og på ulik økter: lengde, avstand, kjegler og i ytterkanter, kjegler.",
+    "coachingPoints": [
+      "Prøv å få blikket opp",
+      "mot medspillerFøre med kontroll: mange berøringerFøre med fart: færre berøringerSnill pasning til medspillerRolig inn – fart ut"
+    ],
+    "variations": [
+      "Legger inn avslutning på målKan organiseres som stafett"
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/fore-pa-lopende-rekke-i-sikk-sakk"
+  },
+  {
+    "id": "tiim-154",
+    "exerciseNumber": 154,
     "name": "Føring - passering",
     "category": "game",
     "duration": 12,
@@ -2602,14 +3473,40 @@ const baseTiimExercises: ExerciseData[] = [
       "Bruk små, kontrollerte touch og ha ballen tett på foten din.",
       "Se opp av og til for å finne vei.Etter føringen"
     ],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Stafett/konkurranse.Vende på midten, for så å føre tilbake der du startet."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/foring-passering"
   },
   {
-    "id": "tiim-129",
-    "exerciseNumber": 92,
+    "id": "tiim-155",
+    "exerciseNumber": 155,
+    "name": "Føring i sikk sakk med avslutning",
+    "category": "warmup",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "ballkontroll",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Man stiller opp to rekker mot hverandre. Spiller med ball først i rekka på hver side – starter samtidig. Sikk – sakk føring i løype til midten. Rundt kjegle. Så skudd på mål. Ny spiller starter. Henter ball.Viktig at sikk sakk løypa varieres i øvelsen og på ulik økter: lengde, avstand, kjegler og i ytterkanter, kjegler.",
+    "coachingPoints": [
+      "Bruk små, kontrollerte touch og ha ballen tett på foten din.Se opp av og til for å finne vei.Se opp og sikt før du sparker ballen.Se på ballen når du sparker.Bruk innsiden av foten og treff midt på ballen"
+    ],
+    "variations": [
+      "Sikk – sakk løypa varieres: lengde, avstand, kjegler og i ytterkanter, kjegler.Avstand skuddholdKan organiseres som stafett"
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/foring-i-sikk-sakk-med-avslutning"
+  },
+  {
+    "id": "tiim-156",
+    "exerciseNumber": 156,
     "name": "Føring i ulikt tempo og retning i firkant",
     "category": "station",
     "duration": 12,
@@ -2622,14 +3519,62 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Banestørrelse ut i fra antallAlle spillerne med en ball hver i firkantenFøre rundt med kontroll på egen ball.Oppsøk andre spillere i firkanten og prøv å finte når vi møtes",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Forsvarsspiller(e) som forsøker å vinne ball.Varier størrelsen på banen."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/foring-i-ulikt-tempo-og-retning-i-firkant"
   },
   {
-    "id": "tiim-130",
-    "exerciseNumber": 73,
+    "id": "tiim-157",
+    "exerciseNumber": 157,
+    "name": "Føringskrysset",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "teknikk",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Om man har nok, kan hver spiller ha en ball hver. Alternativt starter man med flere baller ved hver kjegle. Da bytter man ball med en ledig spiller når man kommer over til andre siden. Kan gjerne gjøres med mange spillere, slik at det blir mange å forholde seg til. Føre ballen rett frem til motsatt side, unngå å kræsje i andre ved å bruke ulike teknikker. High-five med så mange som mulig er også en variant. Til slutt legger man bort ballen og starter en fra hver kjegle og sprinter over til andre siden, løp der det er rom, slik at man holder oppe farta og ikke kræsjer.",
+    "coachingPoints": [
+      "Sjekk om det er åpent rom eller motstandere i nærhetenBruk små touch når det er trangt, lengre touch i åpent romHold blikket opp ofte"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/foringskrysset"
+  },
+  {
+    "id": "tiim-158",
+    "exerciseNumber": 158,
+    "name": "Gladiator",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "teknikk",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Alle spillerne har hver sin ball. Fører ball med forskjellige teknikker etter instruksjon fra trener. På signal skal du skjerme egen ball, og forsøke å sparke ut de andres.",
+    "coachingPoints": [
+      "Bruk små touch når det er trangt, lengre touch i åpent rom.Veksle mellom innside, utside og såle for å holde ballen unna motstandere.Hold blikket opp ofte."
+    ],
+    "variations": [
+      "Egne \"gladiatorer\" uten ball som på signal (og tid) har i oppgave å sparke ut flest mulig av de andres baller."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/gladiator"
+  },
+  {
+    "id": "tiim-159",
+    "exerciseNumber": 159,
     "name": "Hindre avslutninger mot to mål",
     "category": "game",
     "duration": 12,
@@ -2642,14 +3587,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasinTrener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Trener kan også rope ut flere spillere underveis.BanestørrelseIgangsetting med forskjellig kraft, vinkel og høyde."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/hindre-avslutninger-mot-to-mal"
   },
   {
-    "id": "tiim-131",
-    "exerciseNumber": 93,
+    "id": "tiim-160",
+    "exerciseNumber": 160,
     "name": "Hindre gjennombrudd i sone",
     "category": "station",
     "duration": 12,
@@ -2661,15 +3608,19 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "To lag á tre til fem spillere. Spillerne har hvert sitt område og skal holde seg i dette.Laget med ball skal spille ballen hurtig seg imellom og forsøke og skape rom slik at de etter hvert kan spille kontrollert over til medspiller i endesonen.Spiller i endesonen skal vende opp og skyte på maks to touch.Laget uten ball jobber samlet og kompakt og forsøker å stenge rom.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "ForsvarBevisst på rom rundt seg for å stenge av spillpunkterKroppskontroll og fart i beina– kontroll på overkroppen ved forflytninger for raskt å kunne justere seg i henhold til ballfører og spillet. Aktiv armbruk ved duellspill og kroppskontakt"
+    ],
+    "variations": [
+      "Antall spillere i de ulike sonene.Touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/hindre-gjennombrudd-i-sone"
   },
   {
-    "id": "tiim-132",
-    "exerciseNumber": 74,
+    "id": "tiim-161",
+    "exerciseNumber": 161,
     "name": "Hindre gjennombrudd mot dødlinja",
     "category": "game",
     "duration": 12,
@@ -2682,14 +3633,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasin.Trener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Trener kan også rope ut flere spillere underveis.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse, mål og keeper."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/hindre-gjennombrudd-mot-dodlinja"
   },
   {
-    "id": "tiim-133",
-    "exerciseNumber": 94,
+    "id": "tiim-162",
+    "exerciseNumber": 162,
     "name": "Innlegg - avslutning",
     "category": "station",
     "duration": 12,
@@ -2702,14 +3655,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "5 angrepspillere mot 2 forsvarere + keeper. (bør være dobbelt sett).Sentral midtbanespiller starter med ball. Slår opp på feilvendt spiss, som legger igjen / eventuelt vinkler ut på kant.Kantspiller skal utfordre kjegla før han / hun slår innlegg.Deretter duell i boksen med to spisser og motsatt kant vs stoppere og keeper.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere i forsvarBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/innlegg-avslutning"
   },
   {
-    "id": "tiim-134",
-    "exerciseNumber": 95,
+    "id": "tiim-163",
+    "exerciseNumber": 163,
     "name": "Italia – forsvarsdrill",
     "category": "station",
     "duration": 12,
@@ -2722,14 +3677,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane som vist på illustrasjon. To småmål på en side, og mål med keeper på motsatt.2 mot 2 etter pasning fra breddespillere i egen «sone» hvor blått lag forsøker å score på småmål i første runde. Så omstilling hvor rødt lag forsøker å score på keeper.Ruller på plassene",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/italia-forsvarsdrill"
   },
   {
-    "id": "tiim-135",
-    "exerciseNumber": 3,
+    "id": "tiim-164",
+    "exerciseNumber": 164,
     "name": "Katt og mus",
     "category": "warmup",
     "duration": 12,
@@ -2741,15 +3698,19 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "Musene (blå) skal føre ballen fra den ene siden til den andre med kontroll på egen ball.Kattene (gul) skal ved bruk av pasningen prøve å treffe musene sine baller.Blir man truffet som mus, blir man katt.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Bruk små, kontrollerte touch og ha ballen tett på foten din.Se opp av og til for å finne vei."
+    ],
+    "variations": [
+      "Varier avstander og banestørrelser.Pass på at spillerne spiller pasningen/skudd langs bakken, med forskjellige teknikker."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/katt-og-mus"
   },
   {
-    "id": "tiim-136",
-    "exerciseNumber": 4,
+    "id": "tiim-165",
+    "exerciseNumber": 165,
     "name": "Kontroll på egen ball – jakte motstanderens",
     "category": "warmup",
     "duration": 12,
@@ -2761,15 +3722,20 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "Alle spillerne med en ball hver innenfor et avgrenset område.Om å gjøre å sparke vekk motstandernes baller samtidig som man verner om sin egen.Får man ballen sin sparket ut må man løpe og hente den. Se variasjoner for hva vedkommende kan gjøre for å få komme inn igjen.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Bruk små touch når det er trangt, lengre touch i åpent rom.Veksle mellom innside, utside og såle for å holde ballen unna motstandere.Hold blikket opp ofte."
+    ],
+    "variations": [
+      "De som får ballen sin sparket ut fortsetter leiken i firkant ved siden av de andre",
+      "Blir ballen sparket vekk i den firkanten går de tilbake til den opprinnelige firkanten."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/kontroll-pa-egen-ball-jakte-motstanderens"
   },
   {
-    "id": "tiim-137",
-    "exerciseNumber": 5,
+    "id": "tiim-166",
+    "exerciseNumber": 166,
     "name": "Krabba",
     "category": "warmup",
     "duration": 12,
@@ -2782,16 +3748,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Alle spillerne har en ball hver i begge ender av et avgrenset område. Størrelse ut i fra antall.Start med 2 eller 3 krabber i midten (disse sitter).På trenerens signal fører alle spillerne ballen gjennom krabbeland.Mister man ballen blir man krabbe.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Varier størrelsen på området slik at romforholdene endrer seg."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/krabba"
   },
   {
-    "id": "tiim-138",
-    "exerciseNumber": 75,
+    "id": "tiim-167",
+    "exerciseNumber": 167,
     "name": "Liverpool - Overtallsspill",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
@@ -2802,16 +3770,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en sekskantet bane som vist på animasjonen, størrelse etter alder og ferdighet. Smalere kortender tvinger fram flere angrep i «boks».Spill 3v3, 4v4 eller 5v5Spiller som scorer bytter lag, slik at det skapes overtall/undertallBytt tilbake til liketall på tid, eller ved ny scoring",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-overtallsspill"
   },
   {
-    "id": "tiim-139",
-    "exerciseNumber": 76,
+    "id": "tiim-168",
+    "exerciseNumber": 168,
     "name": "Man U - 3v3 mot mål begge veier",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
@@ -2822,39 +3792,65 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med to store mål med keeper. Lag to endesoner (boks) hvor forsvarerne er, og en midtsone hvor angriperne starterOrganiser spillerne i fire lags grupper med tre spillere i hver. Fordel treerlagene i midtsone, endesoner og vegger som slår innlegg i boksNår et angrepslag har scoret på en side, eller ballen er ute av spill, fortsetter de på motsatt sideRullér lag regelmessig eller på tid",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereAntall angrep på tid"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-man-u-3v3-innlegg-fra-kant"
   },
   {
-    "id": "tiim-140",
-    "exerciseNumber": 77,
+    "id": "tiim-169",
+    "exerciseNumber": 169,
+    "name": "Medtak, dribling, vending, pasning",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "dribling",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "To og to spillere på hver stasjon. Flere stasjoner ved siden av hverandre. Man bruker 3 kjegler til å lage et kjeglemål som er en meter bredt og en tredje kjegle 4-6 meter fra kjeglemålet.Spiller A sentrer gjennom et kjeglemål til spiller B. Spiller B bruker et retningsbestemt medtak til å ta med ballen ut til en av sidene og forbi kjeglene, før hen fører ballen fremover. Spiller A legger et passivt press på ballføreren og tvinger spiller B til å gjøre en finte for å komme forbi. Når spiller B kommer frem til kjeglen med ball gjør hen en vending for å bli rettvendt mot spiller A som nå står bak kjeglemålet. Spillerne roterer slik at de annenhver gang starter med ballen og skal slå pasning, og annenhver gang starter uten ball bak kjeglemålet og er klar til medtak.",
+    "coachingPoints": [
+      "Mykt medtak ut til siden med innsiden av foten så du kan gå fremover på andre berøringen.Løft blikket så du finner riktig timing på på fintaUtfør finten med store, troverdige bevegelser og tempo for å passere.Bruk innsiden av foten når du sentrer og treff midt på ballen så den ikke humper, men flyter langs bakken."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/medtak-dribling-vending-pasning"
+  },
+  {
+    "id": "tiim-170",
+    "exerciseNumber": 170,
     "name": "Motangrep 4v4",
     "category": "game",
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "For å gjennomføre øvelsen trenger du fotballer, et stort mål, tre små mål og flate kjegler for å merke opp feltet øvelsen skal foregå innenfor. Feltet bør ha en størrelse på 35x30 meter.Fire spillere starter i angrep, med tre midtbanespillere og en spiss. De spiller mot en midtbanespiller, to i forsvar og en keeper på motsatt lag.Ballen starter hos midtbanespilleren til laget i angrep. De skal forsøke å score mål, men hvis laget i forsvar får tak i ballen har forsvarsspillerne mulighet til å score i ett av de tre små målene på motsatt side av banen.Spill avSe månedens øvelse i praksis.",
     "coachingPoints": [
-      "Følg med på bevegelsene til laget i angrep: Spillerne må åpne feltet når de har ballen. De må bruke midtbanespilleren som en støtte, og flytte ballen fra den ene siden av banen til den andre for å finne plass til å skyte på mål.Fokuser på overgangen angrep",
-      "forsvar når laget i angrep mister ballen.Få spillerne til å forstå at posisjonene i øvelsen er de samme som i en 1",
-      "formasjon i 7er",
-      "fotball."
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
-    "variations": [],
+    "variations": [
+      "Juster størrelsen på feltet: I et større felt vil det være lettere for angrepsspillerne å finne mellomrom for å spille ballen.Konkurranse mellom to lag: Sett timeren på seks minutter",
+      "Et lag starter i angrep og det andrelaget starter i forsvar",
+      "Når timeren går av bytter laget roller.Konkurranse mellom to lag: Hvert lag får ti sjanser."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/motangrep-4v4"
   },
   {
-    "id": "tiim-141",
-    "exerciseNumber": 78,
+    "id": "tiim-171",
+    "exerciseNumber": 171,
     "name": "Napoli – spill gjennom sone",
     "category": "game",
     "duration": 12,
@@ -2867,14 +3863,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To firkanter med fire angrepsspillere.En sone imellom hvor fire forsvarsspillere oppholder seg.Angripende lag skal spille ballen internt i firkanten, for etter hvert å spille ballen over til motsatt firkant.Blått lag (forsvarende lag), kan til enhver tid sende opp to spillere for å presse. De har ikke lov til å gå inn før ballen er inne i firkanten.Hvis forsvarende lag vinner ballen, må de kontre, og forsøke å føre ballen kontrollert over en av linjene til laget som mistet ballen. Greier de det, bytter de plass med den firkanten som mistet ballen.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Firkantstørrelser, antall spillere, eventuelle touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/napoli-spill-gjennom-sone"
   },
   {
-    "id": "tiim-142",
-    "exerciseNumber": 6,
+    "id": "tiim-172",
+    "exerciseNumber": 172,
     "name": "Nappe hale",
     "category": "warmup",
     "duration": 12,
@@ -2887,14 +3885,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Inne i en firkant har spillerne en ball hver. I tillegg har spillerne festet overtrekksvesten bak i bukselinningen (som en hale).Med kontroll over egen ball skal spillerne forsøke å nappe \"halen\" fra de andre spillerne.Den som har flest \"haler\" når treneren stopper øvelsen har vunnet.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, banestørrelse og tidsintervall."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/nappe-hale"
   },
   {
-    "id": "tiim-143",
-    "exerciseNumber": 97,
+    "id": "tiim-173",
+    "exerciseNumber": 173,
     "name": "Neymar – 1 mot 1",
     "category": "station",
     "duration": 12,
@@ -2907,14 +3907,41 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "1 mot 1 øvelse hvor angriper skal score enten ved å legge ballen død på en av kjeglene/cone på hver side av midtstrek (1 poeng), eller dribble forsvarspilleren og score på småmålet i andre enden av banenØvelsen starter ved at forsvarer spiller opp angriper",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Serv kommer fra en tredje spiller eller trenerBanestørrelse"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/neymar-1-mot-1"
   },
   {
-    "id": "tiim-144",
-    "exerciseNumber": 79,
+    "id": "tiim-174",
+    "exerciseNumber": 174,
+    "name": "Nord-Sør-Øst-Vest, med og uten ball",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "teknikk",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Nord – Sør – Øst – Vest uten ball-Spillere løper rundt i avgrenset område. På signal fra trener løper de i den retning de har fått tildelt (nord-sør-øst eller vest).Nord – Sør – Øst – Vest med ball- Alle spillerne har en ball hver innenfor et avgrenset område. Størrelse i forhold til antall.- Spillerne fører ballen rundt i firkanten og på trenerens signal fører spillerne ballen i den retning de skal.",
+    "coachingPoints": [
+      "Se opp om det er plass foran deg.Bruk små, kontrollerte touch og ha ballen tett på foten din.Se opp av og til for å finne vei."
+    ],
+    "variations": [
+      "- Føre med ulike føringsteknikker og eventuelt en bestemt fot spillerne skal benytte.- Kall ”retningen” med andre ord",
+      "Eks. fotballstadioner eller lignende.- Varier størrelsen på området slik at romforholdene endrer seg."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/nord-sor-ost-vest-med-og-uten-ball"
+  },
+  {
+    "id": "tiim-175",
+    "exerciseNumber": 175,
     "name": "NY: \"Beskytt ballen\"",
     "category": "game",
     "duration": 12,
@@ -2927,14 +3954,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp små kvadrater med 5 angripere, alle med hver sin ball. Lag så en mindre firkant de skal føre/drible ballen frem til1 forsvarer skal forsøke å vinne ball og hindre angriperne å føre ball til den minste firkantenNår angriper har klart å plassere sin ball i firkanten, blir de med og skaper overtall for de som fortsatt har ball i spillØvelsen er over når alle ballene er plassert i firkanten eller ute av spill",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereBytte fra forsvarer til angriper hvis du vinner ball",
+      "Angriper som mister ball blir da forsvarer"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-beskytt-ballen"
   },
   {
-    "id": "tiim-145",
-    "exerciseNumber": 7,
+    "id": "tiim-176",
+    "exerciseNumber": 176,
     "name": "NY: \"Braut´n\" - først til å score",
     "category": "warmup",
     "duration": 12,
@@ -2947,14 +3977,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp to «korridorer» hvor spillerne skal løpe om kapp, sett så opp et mål i hver enda av korridoren. Disse kan plasseres i forskjellig posisjon og avstand avhengig av ønsket vanskelighetsgradPå signal løper to spillere om kapp gjennom korridoreneNår spillerne når enden av korridorene, mottar de ball av to trenere eller spillereNår mottatt ball skal de score på sitt mål så raskt som mulig",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelsePlassering av mål, eventuelt mål med keepereLagkonkurranse/stafett"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-braut-n-forst-til-a-score"
   },
   {
-    "id": "tiim-146",
-    "exerciseNumber": 80,
+    "id": "tiim-177",
+    "exerciseNumber": 177,
     "name": "NY: 1 mot 1 i sirkel",
     "category": "game",
     "duration": 12,
@@ -2967,14 +3999,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp fire mål i en sirkel, del sirkelen i fire like deler og lag en ballstasjon i midten4 angrepsspillere i midten og en forsvarsspiller i hver del av sirkelenDe fire angrepsspillerne angriper hvert sitt mål, og fortsetter til alle ballene enten er i mål eller ute av spill (sirkelen).Bytt angreps- og forsvarsspillere på tid eller når det ikke er baller igjen",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall angrepsspillere, f.eks 2 mot 1 når det er få baller igjenKonkurranse på tid"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1-mot-1-i-sirkel"
   },
   {
-    "id": "tiim-147",
-    "exerciseNumber": 98,
+    "id": "tiim-178",
+    "exerciseNumber": 178,
     "name": "NY: 1 mot 1 med fire mål",
     "category": "station",
     "duration": 12,
@@ -2987,14 +4021,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "4 mål plasseres i en firkant, med en mindre firkant i midten. Størrelse justeres etter ferdigheter og alder.Forsvarsspiller spiller opp angriper, som raskest mulig fører ball inn i firkanten i midten, før det er lov til å score på de fire målene.Forsvarer så raskt som mulig opp i press, og forsøke å vinne ball/hindre mål1 poeng for å score i de to nærmeste målene, 2 poeng for de lengst unnaNår du har vært angriper, bytter du side til forsvarer",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseForsvarer kan score hvis hun/han vinner ball"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1-mot-1-med-fire-mal"
   },
   {
-    "id": "tiim-148",
-    "exerciseNumber": 81,
+    "id": "tiim-179",
+    "exerciseNumber": 179,
     "name": "NY: 1v1 - overgang angrep/forsvar",
     "category": "game",
     "duration": 12,
@@ -3007,14 +4043,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp baner for 1v1 (eks. 8 x 16m), med ett kjegle mål/port i hver kortende2-3 spillere i hver ende av banenTrener/ledig spiller setter i gang angriper fra vilkårlig ende, hvor spiller på motsatt ende blir forsvarer, og skal vinne ball/hindre motstander å passere (score mål)Når ball er ute av spill, enten ved scoring eller over side/endelinje, bytter angriper til forsvarer. Ny angriper starter fra motsatt side fra hvor øvelsen startetVinner forsvarer ball i åpent spill, kan det scores på motsatt side",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseFlere «mål» på kortende, med poeng for hvor en fører over"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1v1-overgang-angrep-forsvar"
   },
   {
-    "id": "tiim-149",
-    "exerciseNumber": 99,
+    "id": "tiim-180",
+    "exerciseNumber": 180,
     "name": "NY: 1v1 og 2v2 - Score mål-hindre mål",
     "category": "station",
     "duration": 12,
@@ -3027,14 +4065,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp to baner med mål i hver ende (små, eller store med keeper)Organiser spillerne dine i en 1v1 på den ene banen og 2v2 på den andre. I tillegg spillere som «vegger» med ballmagasinSett i gang øvelsen enten ved pasning fra en av veggene, eller ved at en angriper starter med ballPå tid, eller ved at det ikke er flere baller tilgjengelig, skal det scores flest mulig ganger. Hurtige overganger fra angrep til forsvar.Innlegg og pasning fra forskjellig avstand, vinkel og høyde til spillerne inne på banenRuller spillerne på posisjoner og baner",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereMål med keepere"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1v1-og-2v2-score-mal-hindre-mal"
   },
   {
-    "id": "tiim-150",
-    "exerciseNumber": 100,
+    "id": "tiim-181",
+    "exerciseNumber": 181,
     "name": "2v2 - Komme til avslutning, score mål",
     "category": "station",
     "duration": 12,
@@ -3047,14 +4087,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Lag en bane på ca 30-40x40-50m, bruk stort mål i ene enden med keeper, og to småmål i motsatt ende.Del inn spillerne i grupper på forsvarere og angriperePå signal starter to angripere og to forsvarere, angrepsspiller mottar ball fra trener/ledig spillerAngrepslag forsøker score på keeper i stort mål. Vinner forsvarende lag ballen, kan de forsøke å score på småmål eller sette ballen ut av spillBytt roller ved behov",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillere, overtall/undertall"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2v2-komme-til-avslutning-score-mal"
   },
   {
-    "id": "tiim-151",
-    "exerciseNumber": 101,
+    "id": "tiim-182",
+    "exerciseNumber": 182,
     "name": "NY: 3v1 - firkant med småmål",
     "category": "station",
     "duration": 12,
@@ -3067,14 +4109,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp to baner, med et småmål på ene enden av hver baneStart med fire angrepsspillere per firkant. På signal bytter en spiller fra hver side firkant, og blir forsvarsspiller (3v1).Vinner forsvarsspiller ball, skal de score på småmålBytt forsvarsspiller regelmessig",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall småmål per bane for flere scoringsmuligheter"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-3v1-firkant-med-smamal"
   },
   {
-    "id": "tiim-152",
-    "exerciseNumber": 8,
+    "id": "tiim-183",
+    "exerciseNumber": 183,
     "name": "Først til hjørnet",
     "category": "warmup",
     "duration": 12,
@@ -3087,14 +4131,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp flere baner med firkanter i hvert hjørne, og en i midten.4-8 angrepsspillere starter med ball i firkanten i midten, mens 2-4 forsvarsspillere forsvarer firkantene i hjørneneHver angrepsspiller skal forsøke å drible seg inn i hvert hjørne i tilfeldig rekkefølge. Mister de ball må de begynne på nytt, eller få ny oppgave utenfor banen (eks. i kombinasjon med annen øvelse)Bytt angreps- og forsvarsspillere ofte",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereKonkurranse på tid, hvem klarer først alle fire hjørner"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-forst-til-hjornet"
   },
   {
-    "id": "tiim-153",
-    "exerciseNumber": 102,
+    "id": "tiim-184",
+    "exerciseNumber": 184,
     "name": "NY: Scoringsduell",
     "category": "station",
     "duration": 12,
@@ -3107,34 +4153,38 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane med to mål med keeperPå signal starter to spillere med hver sin ball, hvor de skal føre ball gjennom en «triangel» og til høyre eller venstre før de kan skyte på mål.Når de har avsluttet med egen ball, spiller trener opp ny, hvor det blir 1 mot 1 og avslutning på valgfritt mål",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Trener bestemmer høyre eller venstre ut av triangelen for bruk av begge beinBanestørrelseLagskonkurranse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-scoringsduell"
   },
   {
-    "id": "tiim-154",
-    "exerciseNumber": 103,
+    "id": "tiim-185",
+    "exerciseNumber": 185,
     "name": "NY: Spille oss fremover i banen - 2v1, 2v2 og 2v3",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 3,
     "playersMax": 10,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "Sett opp baner med tre soner. Avpass størrelse til alder og ferdighetTo angrepsspillere skal spille seg gjennom sonene med hhv. 1, 2 og 3 forsvarsspillere, og over til motsatt kortsideVinner forsvarsspiller ball, kan de forsøke å spille til trener på siden",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall angreps- og forsvarspillere"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-spille-oss-fremover-i-banen-2v1-2v2-og-2v3"
   },
   {
-    "id": "tiim-155",
-    "exerciseNumber": 83,
+    "id": "tiim-186",
+    "exerciseNumber": 186,
     "name": "NY: Ødegård - Overblikk og overgang",
     "category": "game",
     "duration": 12,
@@ -3147,14 +4197,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en firkant/boks i midten i en større bane, med fire småmål plassert midt på hver side i den største banen. Banestørrelser tilpasset alder og ferdighetFem angripere plassert i den minste firkanten, fem forsvarere fordelt i de fire hjørnene i den størsteAngriperne starter øvelsen med å spille pasninger seg imellom i den minste firkanten. Etter et forhåndsbestemt antall pasninger eller på tid, kan en forsvarer komme inn i midten for å forsøke å vinne ball. Ny forsvarer kommer inn etter nye pasninger eller tid til alle er med, eller forsvarende lag har vunnet ballForsvarende lag kan score på ett av de fire småmålene hvis de vinner ball, laget i midten må da hurtig omstille seg for å forsvare småmåleneAngrepslaget «vinner» hvis de klarer å holde ballen i spill til alle forsvarsspillere er inne i firkanten, og klarer et bestemt antall pasninger eller på tid",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereAntall pasninger/tid"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-odegard-overblikk-og-overgang"
   },
   {
-    "id": "tiim-156",
-    "exerciseNumber": 84,
+    "id": "tiim-187",
+    "exerciseNumber": 187,
     "name": "Overgangspill med overtall 4v2 og 4v3 med keeper",
     "category": "game",
     "duration": 12,
@@ -3169,14 +4221,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "At ballfører tydelig utfordrer en forsvarsspiller for å skape overtall.Slippe ballen i riktig øyeblikk.Sørge for dybde (gjøre seg spillbare) slik at angripende lag ikke blir liggende på linje.Sørge for brede punkter å spille på. Ikke for bredt, men ikke for nært. Bredt nok til at du kan kraft og trussel nok til bakrom.Om laget mister ballen må de forsøke å gjenvinne ballen hurtig."
     ],
-    "variations": [],
+    "variations": [
+      "Det kan være flere variasjoner - du kan ha flere medspillere og motspillere:4v45v44v5Banestørrelse:Mindre bane for å presse tid og romEn lengre og smalere bane for å presse overgangsspillet mer fremover."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/overgangspill-med-overtall-4v2-og-4v3-med-keeper"
   },
   {
-    "id": "tiim-157",
-    "exerciseNumber": 85,
+    "id": "tiim-188",
+    "exerciseNumber": 188,
     "name": "Overtallsspill ved hjelp av en joker",
     "category": "game",
     "duration": 12,
@@ -3191,14 +4245,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Det kan være en rekke fokusområder, og derfor er det viktig å ha for mange til enhver tid. Herunder finner du noe du kan fokusere på:Husk at du alltid «jobber» med angripende lag til enhver tid.Ballfører – utsetter motstander for et valg. Er det ingen som går på, trenger man heller ikke å spille fra seg ballen. Så lenge du har ballen, er det du som bestemmer over den.2A/3A – hele tiden på jakt etter å finne ledige rom. Pass på at ikke alle oppsøker de samme rommene og at de gjør banen så stor som mulig når de har ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Noen tilnærminger for å utvikle og bygge videre på øvelsenJustere banestørrelse fra lite til større.Joker kan ikke scoreMan kan fjerne jokeren og kun ha keeper som en overtallsspillerTouchbegrensninger – kan være unaturlig i enkelte situasjoner."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/overtallsspill-ved-hjelp-av-en-joker"
   },
   {
-    "id": "tiim-158",
-    "exerciseNumber": 86,
+    "id": "tiim-189",
+    "exerciseNumber": 189,
     "name": "Pasningsøvelse - Vennlig hilsen",
     "category": "game",
     "duration": 12,
@@ -3211,14 +4267,80 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp et kvadrat på ca. 25x25 meter. 1/2 spiller(e) på hver kjegle, alltid 2 der hvor ballen starter.En spiller møter og får pasning. Spiller støttepasning og gjør en ny bevegelse for å skape vinkel for spill videre.Pasning i medløp på spiller i neste kjegle. Før man sprinter opp til kjeglen man spilte pasning til.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere pasningsretningTouchbegrensningerTo baller i gang samtidig ved 2 spillere på hvert hjørne"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/pasningsovelse-vennlig-hilsen"
   },
   {
-    "id": "tiim-159",
-    "exerciseNumber": 9,
+    "id": "tiim-190",
+    "exerciseNumber": 190,
+    "name": "Pasningsøvelse Barcelona",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp en firkant med en spiller i hvert hjørne, og en i midten. Øvelsen starter med at spiller ved ett hjørne spiller en pasning til spiller på samme side. Denne spilleren spiller en pasning til spiller i midten, som spiller tilbake (veggpasning). Denne spilleren fører/spiller over til andre siden. Denne spilleren gjentar som ved oppstart.",
+    "coachingPoints": [
+      "Vurder medspillerens bevegelse og rommet rundt.Kombiner blikk opp med presist tilslag.Tilpass kraft og retning etter situasjonen.Les spillet videre og posisjoner deg for neste trekk."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/pasningsovelse-barcelona"
+  },
+  {
+    "id": "tiim-191",
+    "exerciseNumber": 191,
+    "name": "Pasningsøvelse Y",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp 4 kjegler i en Y formasjon. To spillere ved \"startkjeglen\", 1-2 på de andre. Øvelsen starter ved at ballfører spiller en pasning til en halvvendt spiller som vender opp hhv, til høyre eller venstre, for så å spille videre til neste spiller. Denne spilleren tar med seg ballen ned til startkjeglen.",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/pasningsovelse-y"
+  },
+  {
+    "id": "tiim-192",
+    "exerciseNumber": 192,
+    "name": "Possession, 4v4, med 4 vegger og 4 småmål",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 8,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "4v4 med 4 vegger, slik at man alltid er et godt overtall. Forsvarer 1-2 mål på den ene siden og scorer på 1-2 mål på den andre siden, slik at det skjer med retning. To touch på veggene. Kan også plassere to vegger på langsidene og to på målsidene.",
+    "coachingPoints": [
+      "Plasser deg slik at medspiller kan nå deg med en pasning uten å møte på blokkeringer.Frigjør deg fra motspiller med små bevegelser.Gi tydelig signal med stemme eller hånd når du ønsker å motta ballen.Blikket opp før tilslag for å sikte.Treff midt på ballen for flat pasning, under for løft, siden for skru.Treff ballen med innsiden eller utsiden av foten for korte pasninger, vrist for lange pasninger i lufta."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/possession-4v4-med-4-vegger-og-4-smamal"
+  },
+  {
+    "id": "tiim-193",
+    "exerciseNumber": 193,
     "name": "Prepp‘n - 1",
     "category": "warmup",
     "duration": 12,
@@ -3234,14 +4356,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i beina».«Kroppskontroll»",
       "kontroll på overkroppen i utgangsstilling.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Fokus på forskjell i frekvens og kontroll høyre – venstre side?Fokus på forskjell i frekvens og kontroll når samtidig orientering?Tidvis utfordre tiden på arbeidsperiodene etter hvert som frekvens og kontroll blir bra."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-1"
   },
   {
-    "id": "tiim-160",
-    "exerciseNumber": 10,
+    "id": "tiim-194",
+    "exerciseNumber": 194,
     "name": "Prepp‘n - 2",
     "category": "warmup",
     "duration": 12,
@@ -3256,14 +4380,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina».«Kroppskontroll»: Kontroll på overkroppen i utgangsstilling og kontroll på overkroppen i forflytninger i alle retninger.Kort tid i bakken og «sprette ut» fra retningsforandringene."
     ],
-    "variations": [],
+    "variations": [
+      "Ulike bevegelses mønster relatert til spillsituasjonerUtfordre avstander på forflytninger.Tidvis utfordre tiden på arbeidsperiodene etter hvert som frekvens og kontroll blir bra."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-2"
   },
   {
-    "id": "tiim-161",
-    "exerciseNumber": 11,
+    "id": "tiim-195",
+    "exerciseNumber": 195,
     "name": "Prepp‘n - 3",
     "category": "warmup",
     "duration": 12,
@@ -3279,14 +4405,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i beina».«Kroppskontroll»",
       "kontroll på overkroppen i utgangsstillingkontroll på overkroppen i forflytninger i alle retninger.Kort tid i bakken og «sprette ut» fra retningsforandringene."
     ],
-    "variations": [],
+    "variations": [
+      "Ulike bevegelses mønster relatert til spillsituasjoner.Utfordre avstander på forflytninger.Utfordre med ulike visuelle og verbale triggere relatert til spillsituasjoner.Tidvis utfordre tiden på arbeidsperiodene etter hvert som frekvens og kontroll blir bra."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-3"
   },
   {
-    "id": "tiim-162",
-    "exerciseNumber": 12,
+    "id": "tiim-196",
+    "exerciseNumber": 196,
     "name": "Prepp‘n - 4",
     "category": "warmup",
     "duration": 12,
@@ -3302,14 +4430,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»",
       "kontroll på overkroppen i utgangsstilling og ved forflytninger.Lese spillet og reagere hurtig på ball og medspilleres forflytninger i henhold til spill prinsippene i sone forsvar– inn ut av ledd og komprimere.Kommunikasjon."
     ],
-    "variations": [],
+    "variations": [
+      "Endre utgangsformasjon i henhold til egne spill prinsipper.Varierer serven.Avstander.Trener kan tidvis slå ball gjennom leddet for å synligjøre manglende komprimering og stenging av rom."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-4"
   },
   {
-    "id": "tiim-163",
-    "exerciseNumber": 15,
+    "id": "tiim-197",
+    "exerciseNumber": 197,
     "name": "Prepp‘n - 5",
     "category": "rondo",
     "duration": 12,
@@ -3325,14 +4455,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»",
       "kontroll på overkroppen i utgangsstilling og ved forflytninger.Lese spillet og reagere hurtig på ball og medspilleres forflytninger. Hurtig omstilling.Kommunikasjon."
     ],
-    "variations": [],
+    "variations": [
+      "Varierer igangsetting.Avstander.Antall spillere.Regler for antall touch.Fokus på både 1F og 1A – 1A momenter i prepp øvelse nummer 14."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/preppern-ovelse-5"
   },
   {
-    "id": "tiim-164",
-    "exerciseNumber": 13,
+    "id": "tiim-198",
+    "exerciseNumber": 198,
     "name": "Prepp‘n - 6",
     "category": "warmup",
     "duration": 12,
@@ -3347,14 +4479,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»:kontroll på overkroppen i utgangsstilling.kontroll på overkroppen i forflytninger i alle retninger.Lese motstander og reagere hurtig på motstanders forflytninger."
     ],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Fokus på både 1F og 1A – 1A momenter i prepp øvelse nummer 15."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-6"
   },
   {
-    "id": "tiim-165",
-    "exerciseNumber": 14,
+    "id": "tiim-199",
+    "exerciseNumber": 199,
     "name": "Prepp‘n - 7",
     "category": "warmup",
     "duration": 12,
@@ -3369,14 +4503,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»:kontroll på overkroppen i utgangsstilling.kontroll på overkroppen i forflytninger i alle retninger.Lese motstander og reagere hurtig på motstanders forflytninger."
     ],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Trener setter i gang istedenfor spiller selv og varierer serven.Fokus på både 1F og 1A – 1A momenter i prepp øvelse nummer 16."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-7"
   },
   {
-    "id": "tiim-166",
-    "exerciseNumber": 15,
+    "id": "tiim-200",
+    "exerciseNumber": 200,
     "name": "Prepp‘n - 8",
     "category": "warmup",
     "duration": 12,
@@ -3391,14 +4527,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»:kontroll på overkroppen i utgangsstilling.kontroll på overkroppen i forflytninger i alle retninger.Lese motstander og reagere hurtig på motstanders forflytninger."
     ],
-    "variations": [],
+    "variations": [
+      "Trener setter i gang annenhver side og varierer serven.Banestørrelse.Fokus på både 1F og 1A – 1A momenter i prepp øvelse nummer 17."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-8"
   },
   {
-    "id": "tiim-167",
-    "exerciseNumber": 16,
+    "id": "tiim-201",
+    "exerciseNumber": 201,
     "name": "Prepp‘n - 9",
     "category": "warmup",
     "duration": 12,
@@ -3413,14 +4551,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i hodet» og «Fart i beina».«Kroppskontroll»:kontroll på overkroppen i utgangsstilling.kontroll på overkroppen i forflytninger i alle retninger.Lese motstander og reagere hurtig på motstanders forflytninger."
     ],
-    "variations": [],
+    "variations": [
+      "Trener setter i gang og varierer serven.Banestørrelse.Fokus på både 1F og 1A – 1A momenter i øvelse nr .18."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-9"
   },
   {
-    "id": "tiim-168",
-    "exerciseNumber": 17,
+    "id": "tiim-202",
+    "exerciseNumber": 202,
     "name": "Prepp‘n - 10",
     "category": "warmup",
     "duration": 12,
@@ -3436,14 +4576,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring». Kontrollere og beskytte ball.«Kroppskontroll»",
       "Kontroll på overkropp ved føring og retningsforandring.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Variasjon og regler for føring – for eksempel føre bare med høyre eller venstre – innside eller utside.Variasjon og regler for finter.Fokus på raske temposkifter.Avstander.Løyper."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-10"
   },
   {
-    "id": "tiim-169",
-    "exerciseNumber": 18,
+    "id": "tiim-203",
+    "exerciseNumber": 203,
     "name": "Prepp‘n - 11",
     "category": "warmup",
     "duration": 12,
@@ -3458,14 +4600,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring». Kontrollere og beskytte ball.«Kroppskontroll»: Kontroll på overkropp ved føring og retningsforandringOrientering."
     ],
-    "variations": [],
+    "variations": [
+      "Banestørrelse."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-11"
   },
   {
-    "id": "tiim-170",
-    "exerciseNumber": 19,
+    "id": "tiim-204",
+    "exerciseNumber": 204,
     "name": "Prepp‘n - 12",
     "category": "warmup",
     "duration": 12,
@@ -3483,14 +4627,16 @@ const baseTiimExercises: ExerciseData[] = [
       "medtak.«Kroppskontroll»:Kontroll på overkropp ved utgangsstilling og forflytninger før mottak av ball og håndtering av ball.Hurtig og presis håndtering av ball:Kort tid mellom touch 1 – 2",
       "pasning» «Drepe» – slå» «Drepe» – ta med – slå.Kvalitet i pasning."
     ],
-    "variations": [],
+    "variations": [
+      "Variasjon og regler for antall touch.Variasjon og regler for mottak, medtak og pasning – for eksempel bare med høyre eller venstre – innside eller utside.Avstander.Varianter av kombinasjonsspill."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-12"
   },
   {
-    "id": "tiim-171",
-    "exerciseNumber": 20,
+    "id": "tiim-205",
+    "exerciseNumber": 205,
     "name": "Prepp‘n - 13",
     "category": "warmup",
     "duration": 12,
@@ -3507,14 +4653,16 @@ const baseTiimExercises: ExerciseData[] = [
       "medtak.«Kroppskontroll»:Kontroll på overkropp ved vendinger, forflytninger og håndtering av ball.Kort tid mellom touch 1 – 2",
       "pasning» «Drepe» – slå» «Drepe» – ta med/ vende – slå. Kvalitet i pasning.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Variasjon og regler for antall touch.Variasjon og regler for mottak, medtak og pasning – for eksempel bare med høyre eller venstre – innside eller utside.Avstander."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-13"
   },
   {
-    "id": "tiim-172",
-    "exerciseNumber": 16,
+    "id": "tiim-206",
+    "exerciseNumber": 206,
     "name": "Prepp‘n - 14",
     "category": "rondo",
     "duration": 12,
@@ -3530,14 +4678,16 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i hodet», «Fart i beina» og «Fart i ballen».Hurtig og presis håndtering av ball. Vurdere antall touch. Kvalitet i pasning. Slå på riktig fot.Skape like forutsetninger ved mottak. Hurtig forflytning i forkant.«Kort avstand mellom beina» i mottak – medtak. Kroppskontroll",
       "Kontroll på overkroppen i utgangsstilling og forflytninger for å bli spillbar, før mottak av ball på håndtering av ball.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Varierer igangsetting.Avstander.Antall spillere.Regler for antall touch.Fokus på både 1A og 1F – 1F momenter i prepp øvelse nummer 5."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-14"
   },
   {
-    "id": "tiim-173",
-    "exerciseNumber": 21,
+    "id": "tiim-207",
+    "exerciseNumber": 207,
     "name": "Prepp‘n - 15",
     "category": "warmup",
     "duration": 12,
@@ -3552,14 +4702,17 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring». Kontrollere og beskytte ball.«Kroppskontroll»Kontroll på overkropp ved føring og retningsforandring.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Antall spillere.Tøffhet i press",
+      "Mulig å begynne med «skyggeforsvar».Fokus på både 1A og 1F – 1F momenter i prepp øvelse nummer 6."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-15"
   },
   {
-    "id": "tiim-174",
-    "exerciseNumber": 22,
+    "id": "tiim-208",
+    "exerciseNumber": 208,
     "name": "Prepp‘n - 16",
     "category": "warmup",
     "duration": 12,
@@ -3574,14 +4727,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring». Kontrollere og beskytte ball.«Kroppskontroll»Kontroll på overkropp ved føring og retningsforandring.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Mulig å starte med «skyggeforsvar».Banestørrelse.Trener setter i gang istedenfor spiller selv.Fokus på både 1A og 1F – 1F momenter i prepp øvelse nummer 7."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-16"
   },
   {
-    "id": "tiim-175",
-    "exerciseNumber": 23,
+    "id": "tiim-209",
+    "exerciseNumber": 209,
     "name": "Prepp‘n - 17",
     "category": "warmup",
     "duration": 12,
@@ -3596,14 +4751,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring». Kontrollere og beskytte ball.«Kroppskontroll»: Kontroll på overkropp ved føring og retningsforandringOrientering."
     ],
-    "variations": [],
+    "variations": [
+      "Trener setter i gang annenhver side og varierer serven.Banestørrelse.Fokus på både 1A og 1F – 1F momenter i prepp øvelse nummer 8."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-17"
   },
   {
-    "id": "tiim-176",
-    "exerciseNumber": 24,
+    "id": "tiim-210",
+    "exerciseNumber": 210,
     "name": "Prepp‘n - 18",
     "category": "warmup",
     "duration": 12,
@@ -3618,14 +4775,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "«Fart i beina» og «Fart i ballen».Frekvens i beina og mange touch ved føring».Kontrollere og beskytte ball.«Kroppskontroll»Kontroll på overkropp ved føring og retningsforandring.Orientering."
     ],
-    "variations": [],
+    "variations": [
+      "Trener setter i gang og varierer serven.Banestørrelse.Fokus på både 1A og 1F – 1F momenter i øvelse nr. 8."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/prepp-n-18"
   },
   {
-    "id": "tiim-177",
-    "exerciseNumber": 104,
+    "id": "tiim-211",
+    "exerciseNumber": 211,
     "name": "Presse – dekke rom",
     "category": "station",
     "duration": 12,
@@ -3638,14 +4797,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "To firkanter med fire angrepsspillere.En sone imellom hvor fire forsvarsspillere oppholder seg.Angripende lag skal spille ballen internt i firkanten, for etter hvert å spille ballen over til motsatt firkant.Blått lag (forsvarende lag), kan til enhver tid sende opp to spillere for å presse. De har ikke lov til å gå inn før ballen er inne i firkanten.Hvis forsvarende lag vinner ballen, bytter de plass med den firkanten som mistet ballen.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Firkantstørrelser, antall spillere, eventuelle touchbegrensninger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/presse-dekke-rom"
   },
   {
-    "id": "tiim-178",
-    "exerciseNumber": 25,
+    "id": "tiim-212",
+    "exerciseNumber": 212,
     "name": "Racerbilen",
     "category": "warmup",
     "duration": 12,
@@ -3658,14 +4819,38 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Alle spillerne med en ball hver innenfor et avgrenset område. Banestørrelse i forhold til antall.Her er alle spillerne en racerbil som skal kjøre i ulike gir, bestemt av treneren.Første gir er laveste fart og femte gir er høyeste fart.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Tvungen bruk av venstre, høyre, annenhver fot osv."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/racerbilen"
   },
   {
-    "id": "tiim-179",
-    "exerciseNumber": 26,
+    "id": "tiim-213",
+    "exerciseNumber": 213,
+    "name": "Rangers",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Angrepsspillerne er en i overtall ved at de har en fri mann plassert mellom målene. I denne aldersgruppa kan den ha to touch. Man kan score på begge mål. Dersom forsvarerne vinner ballen, kan de score i målene på motsatt side.",
+    "coachingPoints": [
+      "AngrepSe opp og vurder om det er rom foran deg eller om du må skape detVelg tempo og retning ut fra situasjonenHold blikket opp så mye som muligForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rangers"
+  },
+  {
+    "id": "tiim-214",
+    "exerciseNumber": 214,
     "name": "Rappeleiken",
     "category": "warmup",
     "duration": 12,
@@ -3678,14 +4863,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "10-12 baller i midten av en firkant på 15 x 15 meter.2-3 spillere på hver kjegle.En fra hvert lag løper til ballbanken og fører ballen hurtig tilbake før neste mann gjør det samme.Når det er tomt skal vi rappe baller fra de andre lagene. En spiller fra hvert lag i aksjon av gangen.Første gruppe til eksempelvis til å ha 4 baller på sin kjegle.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Banestørrelse.Konkurranse på tid."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/rappeleiken"
   },
   {
-    "id": "tiim-180",
-    "exerciseNumber": 27,
+    "id": "tiim-215",
+    "exerciseNumber": 215,
     "name": "Robin Hood",
     "category": "warmup",
     "duration": 12,
@@ -3697,16 +4884,20 @@ const baseTiimExercises: ExerciseData[] = [
       "baller"
     ],
     "description": "4 lag med 3-4 spillere på hvert lag. 1 ball pr lag.1 spiller fra hvert lag fører ballen inn i firkanten i midten før spillerne skal skyte ned baller som ligger oppå hattene. Spilleren holder på helt til han eller hun treffer.Ved treff så henter man ballen og gir til neste gutt/jente på laget som gjør akkurat det samme.Øvelsen varer helt til alle har skutt ned sine baller.",
-    "coachingPoints": [],
-    "variations": [],
+    "coachingPoints": [
+      "Se opp og sikt før du sparker ballen.Se på ballen når du sparker.Bruk innsiden av foten og treff midt på ballen."
+    ],
+    "variations": [
+      "Varier avstander."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/robin-hood"
   },
   {
-    "id": "tiim-181",
-    "exerciseNumber": 90,
-    "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, lav funksjonalitet",
+    "id": "tiim-216",
+    "exerciseNumber": 216,
+    "name": "Rolletrening: Back (Alene med ballen #2)",
     "category": "game",
     "duration": 12,
     "playersMin": 6,
@@ -3716,22 +4907,349 @@ const baseTiimExercises: ExerciseData[] = [
       "kjegler",
       "baller"
     ],
-    "description": "Man får pasning fra en trener / lagkamerat. Eventuelt via en vegg.Spilleren tar et aktivt førstetouch fremover i banen og slår deretter en pasning mot et simulert bakrom / mellomromFor å simulere spillpunkter i mellomrom kan man bruke faktiske spillere, små mål eller kjegler.For i simulere bakrom kan man bruke 11 er mål som ballen skal slås over, eller lage en linje som ballen skal over.Spilleren velger løsning selv, eller treneren kan gi beskjed rett før førstetouchen ved å rope ut «bakrom», «mellomrom sentralt», «mellomrom sidekorridor».",
+    "description": "Plasser to benker som symboliserer midtstopper og kantspiller, samt to syvermål som symboliserer midtspiss og motsatt kant. Spill ballen til en av dine «medspillere» og kom deg i posisjon til å motta ballen igjen, før du spiller ballen til en ny medspiller. Lev deg inn i situasjonen og se for deg hvilke pasningslinjer som åpnes og lukkes.Hold aktiviteten i gang med høy intensitet i ett minutt av gangen.",
     "coachingPoints": [
-      "Vi skal inn i prioriterte rom",
-      "Hurtig ballbehandling – få touch",
-      "Spill/driv framover – inn i prioriterte rom om mulig",
-      "Etter oppspill – i posisjon for gjenvinning"
+      "Hurtig fotarbeid og justering av kroppsvinkel for å motta ballen hensiktsmessig.Legg ballen hurtig til rette, bruk kort tid mellom hver ballberøring og eksperimenter med kraft og treffpunkt på ball i pasningene."
     ],
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a2-spill-driv-framover-lav-funksjonalitet"
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-alene-med-ballen-2"
   },
   {
-    "id": "tiim-182",
-    "exerciseNumber": 91,
-    "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, nøkkelsituasjon",
+    "id": "tiim-217",
+    "exerciseNumber": 217,
+    "name": "Rolletrening: Back (Partrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Kantspilleren starter med å spille ballen i en vegg og få den tilbake. Utgangsposisjonen til backen er på høyde med 16-meteren og på linje med benken. Når ballen går fra benken og ut til kantspilleren kan backen sideforskyve ut i bredden av banen.Kantspilleren skal utfordre og skyte ballen i målet som står på dødlinjen (sett et minimål eller heng noen vester i det store målet som kantspilleren skal treffe, slik at ikke hele målet er åpent), legge inn i syvermålet på bakre stolpe eller flatt ut til minimålet som står på 16-meterstreken. Hvis backen erobrer ball skal det spilles opp i ett av de åpne syvermålene ved midtbanestreken.",
+    "coachingPoints": [
+      "Hurtig fotarbeid og kontroll på overkropp for å raskt kunne endre retning. Led kantspilleren ut mot sidelinjen. Fokuser på å ikke bli passert fremfor å vinne ball. Sett inn i takling hvis kantspilleren får en dårlig ballberøring eller får ballen for langt foran seg."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-partrening-1"
+  },
+  {
+    "id": "tiim-218",
+    "exerciseNumber": 218,
+    "name": "Rolletrening: Back (Partrening #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Backen starter med ballen og spiller den i en benk som illustrerer midtstopperen. Når «midtstopperen» spiller tilbake til backen gir dette et signal til motspilleren om å gå i press. Motstanderen starter først ved gulkjegle, og på neste repetisjon fra blåkjegle, og på tredje repetisjon fra rød kjegle.Backen skal forsøke å håndtere presset og spille ballen inn i et av de åpne målene. Motstanderen skal erobre ball og spille ballen i målet på dødlinjen.",
+    "coachingPoints": [
+      "Spill ballen hardt i benken, hurtig fotarbeid og riktig kroppsstilling for å kunne motta ballen og spille den raskt videre, evt skjerme ballen hvis presset kommer fort. Bruk armer og kropp til å skjerme og skaffe deg nok plass til å spille ballen forbi presset og inn i et av målene."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-partrening-2"
+  },
+  {
+    "id": "tiim-219",
+    "exerciseNumber": 219,
+    "name": "Rolletrening: Back (Smågruppetrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Blått lag består av en back og en midtstopper som har en kvart elleverbane de skal forsvare + 16-meteren. Plasser et minimål eller heng opp noen vester i målet slik at det ikke står helt åpent. Utgangsposisjonen før hver repetisjon er på høyde med den blå kjeglen. Rødt lag stiller opp med en spiss, en kantspiller og to midtbanespillere som skal forsøke å score mål. Blått lag skal forsøke å hindre mål. Hvis blått lag erobrer ball skal de spille ballen inn i det åpne syvermålet som er plassert mot midtstreken.",
+    "coachingPoints": [
+      "Nekt motstander å spille inn mellom back og midtstopper. Klar deg alene 1v1 defensivt og led spillet utover. Ha kontroll på løpene rundt deg også når du er i press, slik at du kan posisjonere deg godt for å nekte de farligste pasningene samtidig som du presser ballfører."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-smagrupperening-1"
+  },
+  {
+    "id": "tiim-220",
+    "exerciseNumber": 220,
+    "name": "Rolletrening: Back (Smågruppetrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Blått lag består av en back, en midtstopper og en midtbanespiller som skal forsøke å spille seg ut og spille ballen inn i ett av småmålene. Rødt lag består av en spiss, en kantspiller og en midtbanespiller som skal forsøke å erobre ball og skyte ballen inn i det åpne ellevermålet. Varier på om man starter angrepet fra midtstopper eller fra back. Marker om banen slik at man spiller på en relevant del av elleverbanen for backen, men uten at banestørrelsen blir for stor.",
+    "coachingPoints": [
+      "Posisjonering slik at man enten blir et godt pasnings alternativ selv eller slik at man åpner opp en pasningslinje mellom to andre medspillere.Hold deg orientert på hvor det er ledige rom, medspillere og motspillere. Behandle ballen raskt og velg de pasnings alternativene med høyest sjans for å lykkes."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-back-smagruppetrening-2"
+  },
+  {
+    "id": "tiim-221",
+    "exerciseNumber": 221,
+    "name": "Rolletrening: Kant (Alene med ballen #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en benk du kan spille ballen på og få den tilbake på siste tredjedel av banen. Plasser ut et minimål inne i ellevermålet på dødlinjen og et syvermål du kan slå høye innlegg på. Heng opp to vester i nettet på målet, slik at du har noe helt spesifikt å sikte på når du slår innlegg. Plasser to kjegler på hjørnet av 16-meteren med en meter i mellom.Spill ballen i benken og ta med ballen fremover. Varier mellom å drible deg mellom kjeglene og gå på skudd, drible deg mot kjeglene for så å gå på utsiden og legge inn, gå mot kjeglene for så å vende hjem og slå et innoverskrudd innlegg på bakerste stolpe, og gå ned til cutbacksonen og slå et lavt innlegg ut i feltet.",
+    "coachingPoints": [
+      "Åpne opp kroppen i mottaket og legg ballen til rette på førsteberøringen. Før ballen i kamplik hastighet og utfør fintene med store utfall og hurtige retningsforandringer. Hold sprinttempo i hver repetisjon.Eksperimenter med kraft og skru i tilslagene dine. Vær nøyaktig i tilslaget slik at du treffer det du sikter på."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-222",
+    "exerciseNumber": 222,
+    "name": "Rolletrening: Kant (Alene med ballen #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en benk på hver side og en benk bak. Legg ut tre kjegler rundt straffesparkmerket. Inne i målet setter du ut enten mannekenger som illustrerer keepere, eller småmål du skal treffe, eller henge opp noe i nettet som du skal prøve å treffe. Spill ballen i en av benkene, motta ballen og utfordre mot kjeglene. Gå til en av sidene, sikt og skyt kjapt. Varier avstand til mål og flytt deg til de områdene du ofte kommer til skuddhold fra i kamp.",
+    "coachingPoints": [
+      "Hurtig fotarbeid for å ta med ballen fremover med kontroll og fart. Gå ut til en av sidene og skyt innen to skritt slik at du øver på rytme og tempo i avslutningene. Se opp for å sikte før du ser ned på ballen for å treffe riktig på ballen så du får kraft og riktig retning bak skuddet ditt."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-223",
+    "exerciseNumber": 223,
+    "name": "Rolletrening: Kant (Partrening #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to benker på skrå 30 meter fra mål. Spill ballen i benken og få den tilbake på en løpeball. Forsøk å vinne 1v1 duellen mot keeperen slik at du scorer mål. Keeperen må variere mellom å gå ut eller bli stående nært målet. Gjør alle repetisjoner i sprint.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og løft blikket for å finne ut av hvor du har keeperen. Sett fart mot keeper og vurder om det blir best å skyte tidlig, runde keeperen, chippe over keeperen eller sette ballen mellom beina på keeperen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-partrening-1"
+  },
+  {
+    "id": "tiim-224",
+    "exerciseNumber": 224,
+    "name": "Rolletrening: Kant (Partrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Kantspilleren starter med å spille ballen i en vegg og få den tilbake. Utgangsposisjonen til backen er på høyde med 16-meteren og på linje med benken. Når ballen går fra benken og ut til kantspilleren kan backen sideforskyve ut i bredden av banen.Kantspilleren skal utfordre og skyte ballen i målet som står på dødlinjen (sett et minimål eller heng noen vester i det store målet som kantspilleren skal treffe, slik at ikke hele målet er åpent), legge inn i syvermålet på bakre stolpe eller flatt ut til minimålet som står på 16-meterstreken. Hvis backen erobrer ball skal det spilles opp i ett av de åpne syvermålene ved midtbanestreken.Varier mellom å sette opp øvelsen nærme mål og lengre fra mål.",
+    "coachingPoints": [
+      "Hurtig fotarbeid og kontroll på overkropp for å raskt kunne endre retning. Gå mot den ene foten til forsvarsspilleren for å lede spilleren til en side, for så å hurtig gå til den andre siden. Skaff deg akkurat nok rom til å skyte tidlig, sentre eller legge inn."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-partrening-2"
+  },
+  {
+    "id": "tiim-225",
+    "exerciseNumber": 225,
+    "name": "Rolletrening: Kant (Smågruppetrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Blått lag består av en back og en midtstopper som har en kvart elleverbane de skal forsvare + 16-meteren. Plasser et minimål eller heng opp noen vester i målet slik at det ikke står helt åpent. Utgangsposisjonen for forsvarerne er på høyde med den blå kjeglen. Forsvarerne får ikke falle bak den blå kjeglen før ballen spilles inn bak dem. Rødt lag stiller opp med en spiss, en kantspiller og to midtbanespillere som skal forsøke å score mål. Blått lag skal forsøke å hindre mål. Hvis blått lag erobrer ball skal de spille ballen inn i det åpne syvermålet som er plassert mot midtstreken. Hvert angrep kan maks være ti sekunder.",
+    "coachingPoints": [
+      "Konstant jakt rom, enten mellom back og stopper eller på utsiden av back når du er andreangriper. Som førsteangriper må du vurdere om det er dribling+skudd, dribling+innlegg eller pasning+stikk som gir mest sjanse for scoring fra situasjon til situasjon."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-smagruppetrening-1"
+  },
+  {
+    "id": "tiim-226",
+    "exerciseNumber": 226,
+    "name": "Rolletrening: Kant (Smågruppetrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Forsvarslaget består av en keeper, en midtstopper og en back. Angrepslaget består av en kant, en spiss og en midtbane. Angrepslaget starter alltid med ballen og skal forsøke å score mål. Hvis forsvarslaget erobrer ball skal de kontre inn i et småmål. Forsvarslaget starter hvert angrep med en utgangsposisjon på høyde med den blå kjeglen og kan ikke falle bak den blå kjeglen før ballen spilles inn bak dem. Hvert angrep kan maks være ti sekunder.",
+    "coachingPoints": [
+      "Konstant jakt rom, enten mellom back og stopper eller på utsiden av back når du er andreangriper. Som førsteangriper må du vurdere om det er dribling+skudd, dribling+innlegg eller pasning+stikk som gir mest sjanse for scoring fra situasjon til situasjon."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-kant-smagruppetrening-2"
+  },
+  {
+    "id": "tiim-227",
+    "exerciseNumber": 227,
+    "name": "Rolletrening: Keeper (Alene med ballen #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Finn en vegg/garasjedør e.l. og kast ball mot den. Begynn med baller rett på for å øve enkle mottak i ulike høyder. Variere med kast noe skrått slik at du må forflytte deg før mottak. Ulike typer kast i ulike høyder. Fortsett så med ulike spark på samme måte, og varier avstanden til veggen. Ball fra bakken og fra hånd med ulike sparkteknikker. Utvid slik at du også må kaste deg for å redde ballen som kommer i retur fra veggen.",
+    "coachingPoints": [
+      "Fokuser på rett kast teknikk og spesielt mottaks teknikk på ulike typer baller. Progresjon ved å sparke ball mot veggen som gir ulike utfordringer på forflytning og mottak – og også fallteknikk. Ved å variere avstanden til veggen vil du få øvd på ulike kast/spark og på forflytning før mottak i tillegg til ulike mottaks teknikker og fallteknikk"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-228",
+    "exerciseNumber": 228,
+    "name": "Rolletrening: Keeper (Alene med ballen #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en rebounder/vegg mellom to skråstilte mål.Spill ballen i veggen/rebounderen slik at den kommer tilbake i en høy bue. Når ballen kommer tilbake, fang ballen og kast eller spark den inn i mål så den treffer nettet uten å sprette. Varier avstanden.",
+    "coachingPoints": [
+      "Presise kast/spark mot rebouderen/veggen og kjapt fotarbeid og for å justere posisjon i forhold til ballen og fange den.Finn riktig timing for opphoppet/mottaket, slik at du når ballen når du er på ditt høyeste i hoppet.Ulike typer kast eller spark direkte inn i ett av de store målene."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-229",
+    "exerciseNumber": 229,
+    "name": "Rolletrening: Keeper (Partrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "En keeper i mål og en skytter. Øvelsen starter med skudd rett på keeper i grep mellomhøyt. Keeper returnerer ball og får skudd nede på sin venstre side, returner ball og så opp igjen i ståendefor nytt skudd rett på nede. Til slutt skudd nede motsatt side.Variasjon med valgfritt skudd nede/oppe og til høyre eller venstre for keeper. Kan også variere høyde på baller til sidene.Annen variasjon med å legge inn at keeper ruller ball ut til skytter før første skudd for så å forflytte bakover til rett posisjon.",
+    "coachingPoints": [
+      "Fokuset her er riktig utgangsposisjon, avslappet og med ledige hender. Mottak enkelt skudd og så fallteknikk på lave baller ganske nært. Hurtig opp i utgangsposisjon og være skuddklar igjen. Arbeid med dette samt grep og fallteknikk."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-partrening-1"
+  },
+  {
+    "id": "tiim-230",
+    "exerciseNumber": 230,
+    "name": "Rolletrening: Keeper (Partrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "dribling",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to små mål inne i et stort mål. Start med at keeper står mellom små målene og triller ball til makkeren. Keeper forflytter seg fram i posisjon og forsøker å redde avslutningen fra makkeren som forsøker å score i ett av små målene ved å skyte(nært) eller drible forbi keeper. Avslutter kan velge fritt hva gjelder antall touch.",
+    "coachingPoints": [
+      "Hurtig fotarbeid ut i rett posisjon. Keeper må «lese» avslutter og være klar til å redde en direkte avslutning eller en dribling fra makkeren. Ha kontroll på overkropp når du blokker. Ikke åpne opp mellom beina. Myk og ledig i lav blokk uten å selge seg. Velge når forflytte og når gå i blokk. Valg om blokke eller fange ball."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-partrening-2"
+  },
+  {
+    "id": "tiim-231",
+    "exerciseNumber": 231,
+    "name": "Rolletrening: Keeper (Smågruppetrening #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Forsvarslaget stiller opp med en keeper og to midtstoppere. Angrepslaget stiller opp med to spisser og en kant. Angrepslaget starter alltid med ballen og skal forsøke å spille seg til et innlegg og score på innlegget. Kantspilleren oppholder seg til enhver tid ute bredt. Dersom angrepslaget mister ballen må de forsøke å gjenvinne den før motstanderen rekker å kontre inn i et småmål. Spill treminutters kamper med høy intensitet hvor man raskt setter i gang ny ball, før man tar pause. Marker opp sidelinje slik at banen blir ca 30 meter lang og ganske smal. Ruller på å ha kantspiller på høyre side og venstre side.",
+    "coachingPoints": [
+      "Posisjonering og forflytning i forhold til forsvarsspillere og angreps trusler. Jobbe med samhandlingen med stopperne og være skuddklar ved avslutnings muligheter. Kommunisere med stopperne og redde avslutninger."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-smagruppetrening-1"
+  },
+  {
+    "id": "tiim-232",
+    "exerciseNumber": 232,
+    "name": "Rolletrening: Keeper (Smågruppetrening #2)",
     "category": "game",
     "duration": 12,
     "playersMin": 6,
@@ -3741,42 +5259,129 @@ const baseTiimExercises: ExerciseData[] = [
       "kjegler",
       "baller"
     ],
-    "description": "Rolleøvelse midtstopper- A2: Spill/driv framover, nøkkelsituasjon",
-    "coachingPoints": [],
+    "description": "Forsvarslaget stiller opp med en keeper og to midtstoppere. Angrepslaget stiller opp med to spisser og en midtbane. Angrepslaget starter alltid med ballen og skal forsøke å spille seg til en scoringsmulighet. Dersom angrepslaget mister ballen må de forsøke å gjenvinne den før motstanderen rekker å kontre inn i et småmål. Spill treminutters kamper med høy intensitet hvor man raskt setter i gang ny ball, før man tar pause. Marker opp sidelinje slik banen blir ca 30 meter lang og relativt smal.",
+    "coachingPoints": [
+      "Posisjonering og forflytning i forhold til forsvarsspillere og angreps trusler. Jobbe med samhandlingen med stopperne og være skuddklar ved avslutnings muligheter. Kommunisere med stopperne og redde avslutninger."
+    ],
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a2-spill-driv-framover-nokkelsituasjon"
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-keeper-smagruppetrening-2"
   },
   {
-    "id": "tiim-183",
-    "exerciseNumber": 105,
-    "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, situasjonsøvelse",
-    "category": "station",
+    "id": "tiim-233",
+    "exerciseNumber": 233,
+    "name": "Rolletrening: Midtstopper (Alene med ballen #1)",
+    "category": "game",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "pasning",
     "equipment": [
       "kjegler",
       "baller"
     ],
-    "description": "Angripende lag i 2-3-3-formasjon. Forsvarende lag i 4-4 formasjon.Forsvarende lags midtbaneledd har ikke anledning til å falle bak merket linje.Rødt lag får poeng hvis de klarer å spille opp i mellomrom og utfordre rettvendt på bakre ledd, eller hvis de spiller seg inn kontrollert i bakrom.Når ballen er ute av spill, starter rødt lags keeper nytt angrepMan kan variere ved å justere banebredde og eventuelt bruk av færre spillere i forsvarende lag.",
+    "description": "Plasser to benker/vegger/reboundere med 10-20 meter avstand. Plasser ut småmål som kan simulere de pasningsalternativene man ofte har i kamp.Før ballen fremover og spill ballen i en benk. Ta ut dybde rett etter pasningen slik at du kan få ballen foran deg. Spill ballen inn i et av småmålene.",
     "coachingPoints": [
-      "Vi skal inn i prioriterte rom",
-      "Hurtig ballbehandling – få touch",
-      "Spill/driv framover – inn i prioriterte rom om mulig",
-      "Etter oppspill – i posisjon for gjenvinning"
+      "Kjapt fotarbeid og fremoverrettet kroppsstilling for å raskt legge ballen til rette for pasning.Snu hodet rett etter pasning og rett før mottak for å få kontroll på hvor du står i forhold til benkene og småmålene.Treff midt på ballen med innsiden av foten slik at ballen holder seg langs bakken hele tiden."
     ],
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a2-spill-driv-framover-situasjonsovelse"
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-alene-med-ballen-1"
   },
   {
-    "id": "tiim-184",
-    "exerciseNumber": 92,
-    "name": "Rolleøvelse midtstopper- A2: Spill/driv framover, spill",
+    "id": "tiim-234",
+    "exerciseNumber": 234,
+    "name": "Rolletrening: Midtstopper (Alene med ballen #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en rebounder/vegg mellom to skråstilte mål.Spill ballen i veggen/rebounderen slik at den kommer tilbake i en høy bue. Når ballen kommer tilbake, ta sats og head ballen inn i mål så den treffer nettet uten å sprette.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og fremoverrettet kroppsstilling for å justere posisjon i forhold til ballen.Finn riktig timing for opphoppet, slik at du når ballen når du er på ditt høyeste i hoppet.Se på ballen og head med hele overkroppen slik at du får nok kraft til å få ballen rett i nettet uten at den spretter."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-235",
+    "exerciseNumber": 235,
+    "name": "Rolletrening: Midtstopper (Partrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "gjennombrudd",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål inne i et stort mål på den ene dødlinjen og tre småmål på motsatt dødlinje. Midtstopperen skal forsvare småmålene som står inne i det store målet. Angrepsspilleren starter med ballen i hånda og kaster den høyt opp mot midtstopperen. Midtstopperen klarerer ballen fremover med et opphopp med heading. Derifra blir det en 1v1 langs bakken hvor angrepsspilleren skal forsøke å drible seg fri til å skyte ballen inn i småmålene bak midtstopperen. Midtstopperen skal hindre gjennombrudd og blokkere. Dersom midtstopperen erobrer ball skal den kontre inn i et av de tre småmålene på motsatt dødlinje.",
+    "coachingPoints": [
+      "Finn riktig timing i opphopp for klareringen og head ballen høyt og langt.Hurtig fotarbeid og ha kontroll på overkropp når man er inne i press langs bakken. Fokuser på å hindre gjennombrudd helt til angrepsspilleren får en såpass dårlig ballberøring at man kan takle."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-partrening-1"
+  },
+  {
+    "id": "tiim-236",
+    "exerciseNumber": 236,
+    "name": "Rolletrening: Midtstopper (Partrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "gjennombrudd",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål inne i et stort mål på den ene dødlinjen og to småmål og en benk/rebounder/vegg på motsatt dødlinje. Midtstopperen skal forsvare småmålene som står inne i det store målet, og starter alltid fra de blå kjeglene. Angrepsspilleren starter med ryggen mot mål og slår en støttepasning til benken. Når ballen går fra benken og tilbake til angrepsspilleren er det et signal for midtstopperen til å gå i press i ryggen til angrepsspilleren. Midtstopperen skal forsøke å holde angrepsspilleren feilvendt og ikke slippe til noen skudd. Dersom midtstopperen erobrer ball skal det kontres inn i småmålene ved siden av benken. Angrepsspilleren skal forsøke å score i småmålene som står inne i det store målet.",
+    "coachingPoints": [
+      "Gå i press når ballen er på vei fra benken til angrepsspilleren.Hurtig fotarbeid og ha kontroll på overkropp når man er inne i press langs bakken. Fokuser på å hindre gjennombrudd helt til angrepsspilleren får en såpass dårlig ballberøring at man kan takle."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-partrening-2"
+  },
+  {
+    "id": "tiim-237",
+    "exerciseNumber": 237,
+    "name": "Rolletrening: Midtstopper (Smågruppetrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "gjennombrudd",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål inne i et stort mål på den ene dødlinjen og et stort mål på motsatt side av banen. De to midtstopperne starter alltid på høyde med de blå kjeglene. Det røde laget skal spille opp på spissen sin og derfra forsøke å score i småmålene inne i det store målet. Midtstopperne skal så godt de klarer forsøke å hindre skudd på mål. Dersom midtstopperne erobrer ball skal de forsøke å løfte den inn i et åpent mål på den andre siden av banen.Hvert angrep kan maksimalt vare i ti sekunder, før man starter bakfra igjen.",
+    "coachingPoints": [
+      "Prioriter å ha kontroll sentralt i banen fremfor å bli dratt ut bredt i banen.Hurtig fotarbeid og ha kontroll på overkropp når man er inne i press langs bakken. Fokuser på å hindre gjennombrudd helt til angrepsspilleren får en såpass dårlig ballberøring at man kan takle."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-smagruppetrening-1"
+  },
+  {
+    "id": "tiim-238",
+    "exerciseNumber": 238,
+    "name": "Rolletrening: Midtstopper (Smågruppetrening #2)",
     "category": "game",
     "duration": 12,
     "playersMin": 6,
@@ -3786,125 +5391,396 @@ const baseTiimExercises: ExerciseData[] = [
       "kjegler",
       "baller"
     ],
-    "description": "Organisering:Banestørrelse «16 til 16».Rødt (angripende) lag 4-1-3-formasjon.Blått (forsvarende) lag i 3-4-1-formasjon.Kantspillere på rødt legger seg lavere i banen i forsvar.Alt av dødballer foretas i form av kort igangsetting fra keeper. Forsvarende lag skal tillate dette.Man kan gjøre flere formasjonsgrep – to spisser og to sentrale midtbanespillere istedenfor backer på rødt osv.Det viktigste er at man organiserer frem mange forsøk på å trenge igjennom midtbaneleddet.",
+    "description": "Plasser to småmål inne i et stort mål på den ene dødlinjen og et stort mål på motsatt side av banen. Spill med full bredde og husk å bruk offsideregelen. De to midtstopperne starter alltid på høyde med 16-meteren. Det røde laget skal spille opp på spissen sin og derfra forsøke å score i småmålene inne i det store målet. Midtstopperne skal så godt de klarer forsøke å hindre skudd på mål. Dersom midtstopperne erobrer ball skal de forsøke å løfte den inn i et åpent mål på den andre siden av banen.Hvert angrep kan maksimalt vare i ti sekunder, før man starter bakfra igjen.",
     "coachingPoints": [
-      "Vi skal inn i prioriterte rom",
-      "Hurtig ballbehandling – få touch",
-      "Spill/driv framover – inn i prioriterte rom om mulig",
-      "Etter oppspill – i posisjon for gjenvinning"
+      "Prioriter å ha kontroll sentralt i banen fremfor å bli dratt ut bredt i banen.Hurtig fotarbeid og ha kontroll på overkropp. Se både på ballfører og på innløpene i boks. Fokuser på å beskytte bakrom sentralt og blokkere skudd."
     ],
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a2-spill-driv-framover-spill"
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-midtstopper-smagruppetrening-2"
   },
   {
-    "id": "tiim-185",
-    "exerciseNumber": 106,
-    "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - lav kompleksitet",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "innlegg",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "2 – 8 spillere.Innlegg slås fra forskjelligeposisjoner og i forskjellig høyde. Forsvarer skal posisjonere seg, nå ballen raskest og høyest mulig, samt ha gode klareringer.Ved flere stasjoner roper trener hvor innlegget skal komme fra. Hurtigheten på dette tilpassesnivå på spillerne og hvor høy intensitet det ønskesEtter eventuell klarering kan man legge inn spurter opp til kjeglene, med rask«backpaddle» tilbake i posisjon før neste innlegg",
-    "coachingPoints": [
-      "Vi skal hindre avslutning",
-      "hindre mål",
-      "Som 1. forsvarer lede utover og bort fra målet",
-      "Ved innlegg",
-      "i posisjon foran mål for å beskytte farlige soner"
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a3-forsvare-egen-boks-lav-kompleksitet"
-  },
-  {
-    "id": "tiim-186",
-    "exerciseNumber": 107,
-    "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - nøkkelsituasjon",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
-    "theme": "innlegg",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "Rolleøvelse midtstopper- F3: Forsvare egen boks - nøkkelsituasjon",
-    "coachingPoints": [
-      "Vi skal hindre avslutning",
-      "hindre mål",
-      "Som 1. forsvarer lede utover og bort fra målet",
-      "Ved innlegg",
-      "i posisjon foran mål for å beskytte farlige soner"
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a3-forsvare-egen-boks-nokkelsituasjon"
-  },
-  {
-    "id": "tiim-187",
-    "exerciseNumber": 108,
-    "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - situasjonsøvelse",
-    "category": "station",
-    "duration": 12,
-    "playersMin": 3,
-    "playersMax": 10,
-    "theme": "innlegg",
-    "equipment": [
-      "kjegler",
-      "baller"
-    ],
-    "description": "B5 +1 defensivt mot overtall (angrep mot forsvar)Med 2 mot 1 på sidene blir det mange innlegg. Detbør poengteres at kantene skal slå ballen inn i boks. Ellers er det fritt spill.Det gis poeng om klareringene eller overgangene havner i de 2 små målene som er satt opp på midtbanen.Det kan gjøres vanskeligere for stopperne om flere motspillere får være med å angripe innenfor 16-meteren. Motspiller som er lengst unna ball må da nedprioriteres.",
-    "coachingPoints": [
-      "Vi skal hindre avslutning",
-      "hindre mål",
-      "Som 1. forsvarer lede utover og bort fra målet",
-      "Ved innlegg",
-      "i posisjon foran mål for å beskytte farlige soner"
-    ],
-    "variations": [],
-    "scalable": false,
-    "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a3-forsvare-egen-boks-situasjonsovelsee"
-  },
-  {
-    "id": "tiim-188",
-    "exerciseNumber": 93,
-    "name": "Rolleøvelse midtstopper- F3: Forsvare egen boks - spill",
+    "id": "tiim-239",
+    "exerciseNumber": 239,
+    "name": "Rolletrening: Offensiv midtbane (Alene med ballen #1)",
     "category": "game",
     "duration": 12,
-    "playersMin": 12,
-    "playersMax": 28,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser fire benker/vegger/reboundere slik at du kan stå i midten med 3-5 meter til hver benk.Spill ballen i en benk og vend 180 grader i mottaket. Spill ballen i en benk og vend 90 grader i mottaket.Hold aktiviteten i gang i ett minutt før du tar pause.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å vende 180 grader eller 90 grader med lengste fot.Snu hodet rett etter pasning og rett før mottak for å få kontroll på hvor du står i forhold til alle benkene.Bruk kort tid mellom hver ballberøring.Treff midt på ballen med innsiden av foten slik at ballen holder seg langs bakken hele tiden.Bruk både høyrefot og venstrefot til medtak og kortpasninger."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-240",
+    "exerciseNumber": 240,
+    "name": "Rolletrening: Offensiv midtbane (Alene med ballen #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser en benk på hver side og en benk bak. Legg ut tre kjegler rundt straffesparkmerket. Inne i målet setter du ut enten mannekenger som illustrerer keepere, eller småmål du skal treffe, eller henge opp noe i nettet som du skal prøve å treffe. Spill ballen i en av benkene, motta ballen og utfordre mot kjeglene. Gå til en av sidene, sikt og skyt kjapt. Varier avstand slik at du noen ganger setter opp øvelsen langt fra mål og andre ganger nærme mål.",
+    "coachingPoints": [
+      "Hurtig fotarbeid for å ta med ballen fremover med kontroll og fart. Gå ut til en av sidene og skyt innen to skritt slik at du øver på rytme og tempo i avslutningene. Se opp for å sikte før du ser ned på ballen for å treffe riktig på ballen så du får kraft og riktig retning bak skuddet ditt."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-241",
+    "exerciseNumber": 241,
+    "name": "Rolletrening: Offensiv midtbane (Partrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål skrått ovenfor hverandre, og sett en vegg/benk/rebounder foran slik at det danner en trekant med småmålene.En spiller starter med ballen litt foran veggen. Motspilleren starter uten ball mellom småmålene.Angrepsspilleren skal spille en støttepasning til veggen og få den tilbake. Forsvarsspilleren går i press i det øyeblikket angrepsspilleren slår støttepasningen. Forsvarsspilleren må variere på noen ganger presse mot høyre og åpne opp rom på venstre, og motsatt, og noen ganger bli stående så midtbanespilleren kan vende opp og utfordre.Angrepsspilleren vender opp i det ledige rommet / drar av presset og spiller ballen inn i et av målene.Hold høy intensitet på 4-6 repetisjoner før spillerne bytter roller.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å vende 180 grader.Snu hodet rett etter pasning og rett før mottak for å få kontroll på hvilke rom forsvarsspilleren stenger og åpner.Skjerm ballen samtidig som du vender av presset og bruk foten lengst fra forsvarer."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-partrening-1"
+  },
+  {
+    "id": "tiim-242",
+    "exerciseNumber": 242,
+    "name": "Rolletrening: Offensiv midtbane (Partrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål skrått ovenfor hverandre, og sett en kjegle foran slik at det danner en trekant med småmålene.En spiller starter med ballen mellom småmålene. Den andre spilleren starter uten ball bak kjeglen. Øvelsen starter ved at spilleren uten ball frigjør seg fra pasningsskyggen til kjeglen og ber om ball.Spilleren med ball slår en pasning opp til den andre spilleren og går direkte i press på spilleren i neste sekund. Spileren som mottar ballen venter på seg presset, drar av presset og spiller ballen inn i et av målene.Hold høy intensitet på 4-6 repetisjoner før spillerne bytter roller.",
+    "coachingPoints": [
+      "Få kjapt kontroll på ballen i mottaket. Vent på deg presset.Finn riktig tidspunkt for å dra deg ut til en av sidene.Bruk armene for å holde motstanderen unna og kontroller ballen med foten som er lengst unna forsvarsspilleren.Kort tid mellom hver ballberøring."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-partrening-2"
+  },
+  {
+    "id": "tiim-243",
+    "exerciseNumber": 243,
+    "name": "Rolletrening: Offensiv midtbane (Smågruppetrening #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "gjennombrudd",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp en bane med to mål på hver dødlinje som står langt fra hverandre. Spillerne deler seg i tre par. Det første paret fungerer som ballsentraler og «jokere» på hver sin dødlinje. Jokere er til en hver tid på laget til de som har ballen og fungerer som sekser og nier i denne øvelsen. Det andre paret stiller seg opp på motsatt side av banen og skal motta en pasning fra joker. Det tredje paret blir et forsvarslag. Forsvarslaget skal forsøke hindre gjennombrudd. Dersom de erobrer ball skal de kontre inn i småmålene på motsatt side. Angrepslaget skal forsøke å spille seg forbi forsvarslaget og spille ballen inn i småmålene. Jokere har maksimalt to berøringer og kan ikke forlate dødlinjen sin. Spill i 2-3 minutter før man bytter jokere.",
+    "coachingPoints": [
+      "Skap en god vinkel og kroppsstilling for å motta ballen fra sekseren.Let etter mulighet for å spille opp på møtespiss og vær klar til å gå på løp fremover for å få ballen tilbake fra spissen. Dersom det er stengt imellom må man spille seg rundt. Da må andreangriper posisjonere seg på utsiden av forsvarsparet hvor det er ledig plass. Dersom begge mulighetene er stengt må man beholde ballbesittelse og vente på en åpning eller dra av press på egenhånd."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-smagruppetrening-1"
+  },
+  {
+    "id": "tiim-244",
+    "exerciseNumber": 244,
+    "name": "Rolletrening: Offensiv midtbane (Smågruppetrening #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Forsvarslaget stiller opp med en keeper og to midtstoppere. Angrepslaget stiller opp med to spisser og en midtbane. Angrepslaget starter alltid med ballen og skal forsøke å spille seg til en scoringsmulighet. Dersom angrepslaget mister ballen må de forsøke å gjenvinne den før motstanderen rekker å kontre inn i et småmål. Spill treminutters kamper med høy intensitet hvor man raskt setter i gang ny ball, før man tar pause. Marker opp sidelinje slik banen blir ca 30 meter lang og relativt smal.",
+    "coachingPoints": [
+      "Finn riktig tidspunkt for å løsrive deg fra forsvarsspilleren med en bevegelse. Hold deg onside og jakt både mellomrom og bakrom. Skaff deg nok rom med ball til å skyte når du er i og rundt 16",
+      "meteren."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-offensiv-midtbane-smagruppetrening-2"
+  },
+  {
+    "id": "tiim-245",
+    "exerciseNumber": 245,
+    "name": "Rolletrening: Sentral midtbane (Alene med ballen #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser fire benker/vegger/reboundere slik at du kan stå i midten med 3-5 meter til hver benk.Spill ballen i en benk og vend 180 grader i mottaket. Spill ballen i en benk og vend 90 grader i mottaket.Hold aktiviteten i gang i ett minutt før du tar pause. Etter hvert kan du legge inn konkurranse mot deg selv om hvor mange pasninger du klarer på ett minutt.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å vende 180 grader eller 90 grader med lengste fot.Snu hodet rett etter pasning og rett før mottak for å få  kontroll på hvor du står i forhold til alle benkene.Bruk kort tid mellom hver ballberøring.Treff midt på ballen med innsiden av foten slik at ballen holder seg langs bakken hele tiden.Bruk både høyrefot og venstrefot til medtak og kortpasninger."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-alene-med-ballen-1"
+  },
+  {
+    "id": "tiim-246",
+    "exerciseNumber": 246,
+    "name": "Rolletrening: Sentral midtbane (Alene med ballen #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser tre benker rundt deg. Sett opp et syvermål skrått foran deg og langt unna deg som du skal prøve å løfte ballen inn i. Sett opp to feilvendte syvermål som hindre du må løfte ballen over. Sett også opp to småmål som du kan prøve å nå med lange baller langs bakkenSpill ballen i en benk og vri spillet enten høyt inn i syvermålet eller lavt og hardt inn i småmålet.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å legge ballen raskt til rette for langpasningen.Snu hodet rett etter kortpasningen inn i benken og rett før mottak for å få kontroll på hvor du står og hvor blinken din er.Bruk kort tid mellom hver ballberøring.Bruk både høyrefot og venstrefot til medtak og langpasninger.Eksperimenter med kraft, skru og høyde på pasningen"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-alene-med-ballen-2"
+  },
+  {
+    "id": "tiim-247",
+    "exerciseNumber": 247,
+    "name": "Rolletrening: Sentral midtbane (Partrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål skrått ovenfor hverandre, og sett en vegg/benk/rebounder foran slik at det danner en trekant med småmålene.En spiller starter med ballen litt foran veggen. Motspilleren starter uten ball mellom småmålene.Angrepsspilleren skal spille en støttepasning til veggen og få den tilbake. Forsvarsspilleren går i press i det øyeblikket angrepsspilleren slår støttepasningen. Forsvarsspilleren må variere på noen ganger presse mot høyre og åpne opp rom på venstre, og motsatt, og noen ganger bli stående så midtbanespilleren kan vende opp og utfordre.Angrepsspilleren vender opp i det ledige rommet / drar av presset og spiller ballen inn i et av målene.Hold høy intensitet på 4-6 repetisjoner før spillerne bytter roller.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å vende 180 grader.Snu hodet rett etter pasning og rett før mottak for å få kontroll på hvilke rom forsvarsspilleren stenger og åpner.Skjerm ballen samtidig som du vender av presset og bruk foten lengst fra forsvarer."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-partrening-1"
+  },
+  {
+    "id": "tiim-248",
+    "exerciseNumber": 248,
+    "name": "Rolletrening: Sentral midtbane (Partrening #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Spill ballen i en av benkene og legge den til rette for å kjapt spille den videre med en langpasning. Se på bevegelsene til medspilleren før du slår en presis langpasning der hvor medspilleren din kommer til å være om noen sekunder. Bytt sider og varier mellom å bruke høyre fot og venstre fot. Sørg for at avstandene er lange nok til å simulere en situasjon hvor du må vri spillet.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og kroppsstilling for å legge ballen raskt til rette for langpasningen.Snu hodet rett etter kortpasningen inn i benken og rett før mottak for å få kontroll på hvor du står og hvor medspilleren din er på vei.Bruk kort tid mellom hver ballberøring.Bruk både høyrefot og venstrefot til medtak og langpasninger.Eksperimenter med kraft, skru og høyde på pasningen. Målet er at medspilleren raskest mulig skal få kontroll på ballen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-partrening-2"
+  },
+  {
+    "id": "tiim-249",
+    "exerciseNumber": 249,
+    "name": "Rolletrening: Sentral midtbane (Smågruppetrening #1)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pasning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp en bane med to mål på hver dødlinje som står langt fra hverandre. Blått lag er tre spillere og skal score i målene på den ene dødlinjen. Rødt lag er tre spillere og skal score på målene på motsatt dødlinje.Hold høy intensitet i tre minutter før man tar en kort pause.",
+    "coachingPoints": [
+      "Se deg rundt både før du mottar ballen og rett etter at du har avlevert ballen for å ha kontroll på hvor det er ledige rom og ledige pasningslinjer.Beveg deg for å finne gode pasningslinjer offensivt, og tilsvarende for å avskjære pasningslinjer defensivt.Se etter løsninger fremover i banen før du vurderer alternativer bakover i banen.Beskytt ballen med armer og kropp for å ikke miste ball. Behandle ballen med foten som er lengst unna forsvarsspiller hvis du er presset."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-smagruppetrening-1"
+  },
+  {
+    "id": "tiim-250",
+    "exerciseNumber": 250,
+    "name": "Rolletrening: Sentral midtbane (Smågruppetrening #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "gjennombrudd",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett opp en bane med to mål på hver dødlinje som står langt fra hverandre. Spillerne deler seg i tre par. Det første paret fungerer som ballsentraler og «jokere» på hver sin dødlinje. Jokere er til en hver tid på laget til de som har ballen og fungerer som sekser og nier i denne øvelsen. Det andre paret stiller seg opp på motsatt side av banen og skal motta en pasning fra joker. Det tredje paret blir et forsvarslag. Forsvarslaget skal forsøke hindre gjennombrudd. Dersom de erobrer ball skal de kontre inn i småmålene på motsatt side. Angrepslaget skal forsøke å spille seg forbi forsvarslaget og spille ballen inn i småmålene. Jokere har maksimalt to berøringer og kan ikke forlate dødlinjen sin. Spill i 2-3 minutter før man bytter jokere.",
+    "coachingPoints": [
+      "Skap en god vinkel og kroppsstilling for å motta ballen fra sekseren.Let etter mulighet for å spille opp på møtespiss og vær klar til å gå på løp fremover for å få ballen tilbake fra spissen. Dersom det er stengt imellom må man spille seg rundt. Da må andreangriper posisjonere seg på utsiden av forsvars paret hvor det er ledig plass. Dersom begge mulighetene er stengt må man beholde ballbesittelse og vente på en åpning eller dra av press på egenhånd."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-sentral-midtbane-smagruppetrening-2"
+  },
+  {
+    "id": "tiim-251",
+    "exerciseNumber": 251,
+    "name": "Rolletrening: Spiss (Partrening #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 2,
+    "playersMax": 8,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to benker på skrå 30 meter fra mål. Spill ballen i benken og få den tilbake på en løpeball. Forsøk å vinne 1v1 duellen mot keeperen slik at du scorer mål.",
+    "coachingPoints": [
+      "Kjapt fotarbeid og løft blikket for å finne ut av hvor du har keeperen. Sett fart mot keeper og vurder om det blir best å skyte tidlig, runde keeperen, chippe over keeperen eller sette ballen mellom beina på keeperen."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-partrening-1"
+  },
+  {
+    "id": "tiim-252",
+    "exerciseNumber": 252,
+    "name": "Rolletrening: Spiss (Partrening #2)",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "avslutning",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Plasser to småmål i hjørnene av ellevermålet og heng noen vester oppe i krysset. Legg ut en kjegle utenfor 16-meteren som angir utgangsposisjonen din. Kantspilleren starter med å spille ballen i en benk og få den tilbake. Deretter må spissen hele tiden posisjonere seg i forhold til kantspilleren og vurdere om man skal holde scoringsrommet åpen eller om man skal løpe inn foran mål for å avslutte. Kantspilleren fører ball i kamptempo og vurderer selv når innlegget skal slås.",
+    "coachingPoints": [
+      "Hold scoringsrommet åpent så lenge som mulig. Les blikk og kropp fra kantspiller for å finne riktig timing på innløpet. Finn balanse i avslutningsøyeblikket og treff ballen rent. Skyt på førsteberøringen så ofte du kan, men ta en ekstra berøring hvis nødvendig."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-partrening-2"
+  },
+  {
+    "id": "tiim-253",
+    "exerciseNumber": 253,
+    "name": "Rolletrening: Spiss (Smågruppetrening #1)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
     "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
-    "description": "Spill fra 6v6 til 11v11 med innleggsoner.Banestørrelsensettes ut fra hvor intensiv man ønsker at økta skal være.Ballen kan ikke bli spilt inn i sonene før laget er innepå motstanders ½ del.Forsvarende lag får ikke løpe inn i sonene. Motsatt kant på angripende lag kan komme seg inn i scoringsposisjon.For å variere kan en tillate kantspiller å ta medseg ballen inn i banen. Da må stopperne vurdereOm de skal forlate motstander for å komme ut isikring som 2. forsvarer",
+    "description": "Forsvarslaget stiller opp med en keeper og to midtstoppere. Angrepslaget stiller opp med to spisser og en kant. Angrepslaget starter alltid med ballen og skal forsøke å spille seg til et innlegg og score på innlegget. Kantspilleren oppholder seg til enhver tid ute bredt. Dersom angrepslaget mister ballen må de forsøke å gjenvinne den før motstanderen rekker å kontre inn i et småmål. Spill treminutters kamper med høy intensitet hvor man raskt setter i gang ny ball, før man tar pause. Marker opp sidelinje slik at banen blir ca 30 meter lang og ganske smal. Ruller på å ha kantspiller på høyre side og venstre side.",
     "coachingPoints": [
-      "Vi skal hindre avslutning",
-      "hindre mål",
-      "Som 1. forsvarer lede utover og bort fra målet",
-      "Ved innlegg",
-      "i posisjon foran mål for å beskytte farlige soner"
+      "Hold scoringsrommet åpent så lenge som mulig. Forsøk å posisjoner deg på blindsiden av midtstopperne. Les blikk og kropp fra kantspiller for å finne riktig timing på innløpet. Finn balanse i avslutningsøyeblikket og treff ballen rent. Skyt på førsteberøringen så ofte du kan, men ta en ekstra berøring hvis nødvendig."
     ],
     "variations": [],
     "scalable": false,
     "source": "tiim",
-    "sourceUrl": "https://tiim.no/ovelse/rolleovelse-midtstopper-a3-forsvare-egen-boks-spill"
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-smagruppetrening-1"
   },
   {
-    "id": "tiim-189",
-    "exerciseNumber": 28,
+    "id": "tiim-254",
+    "exerciseNumber": 254,
+    "name": "Rolletrening: Spiss (Smågruppetrening #2)",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Forsvarslaget stiller opp med en keeper og to midtstoppere. Angrepslaget stiller opp med to spisser og en midtbane. Angrepslaget starter alltid med ballen og skal forsøke å spille seg til en scoringsmulighet. Dersom angrepslaget mister ballen må de forsøke å gjenvinne den før motstanderen rekker å kontre inn i et småmål. Spill treminutters kamper med høy intensitet hvor man raskt setter i gang ny ball, før man tar pause. Marker opp sidelinje slik banen blir ca 30 meter lang og relativt smal. Regel: midtbanespilleren får kun lov til å skyte fra inne i 16-meteren. Spissene får lov til å skyte fra hvor de vil.",
+    "coachingPoints": [
+      "Finn riktig tidspunkt for å løsrive deg fra forsvarsspilleren med en bevegelse. Hold deg onside og jakt både mellomrom og bakrom. Skaff deg nok rom med ball til å skyte når du er i og rundt 16",
+      "meteren."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rolletrening-spiss-smagruppetrening-2"
+  },
+  {
+    "id": "tiim-255",
+    "exerciseNumber": 255,
+    "name": "Rubens 3v2",
+    "category": "game",
+    "duration": 12,
+    "playersMin": 5,
+    "playersMax": 14,
+    "theme": "dribling",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Banen er B:10-15 x L:15-20 m med en midtlinje (2 soner). I sone 1 spilles det 2 angripere mot 1 forsvarer – i sone 2 spilles 1 angriper mot 1 forsvarer.Angripernes mål er å utnytte overtallet og føre ballen over i neste sone – og deretter score i ett av de 2 målene.Forsvarernes oppgave er å vinne ballen og score i målet til angripende lag.Angripende lag starter alltid med ballen.Etter hvert angrep starter 3 nye angripere og 2 nye forsvarere neste spill.",
+    "coachingPoints": [
+      "Les situasjonen: se ballførerens retning og lagets balanse. Er laget i ubalanse kan du prioritere å ikke bli driblet. Er laget i balanse kan du gå for å vinne ballen.Velg pressretning (lede innover/utover).Beregn avstand og tidspunkt for press.Kombiner sidevendt kroppsstilling med lavt tyngdepunkt.Bruk armer til balanse og romfølelse uten å lage frispark.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
+    ],
+    "variations": [
+      "Angripende lag kan spille ballen over i neste sone.Forsvarerne kan få en 3.spiller som starter ved angripende lags mål (forsinket forsvarer).Tidsbegrensede angrep og/eller kontringer."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/rubens-3v2"
+  },
+  {
+    "id": "tiim-256",
+    "exerciseNumber": 256,
     "name": "Rømmeleiken",
     "category": "warmup",
     "duration": 12,
@@ -3917,14 +5793,36 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "4 forsvarsspillere og 4-8 angrepsspillereSett opp fire «porter» i en firkant. Banestørrelse i forhold til antall angepsspillere.Hver port voktes av en forsvarer med ball. Angrepsspillerne, alle med en ball hver, skal forsøke å dribble seg gjennom portene og «rømme» ut av firkanten uten at forsvarer får tatt på de (merket). Hvis du blir «merket» må du inn i firkanten igjen.Bytt forsvarsspillere på tid eller når alle er kommet ut",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseStørrelse på porterAntall spillereKonkurranse på tid"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-rommeleiken"
   },
   {
-    "id": "tiim-190",
-    "exerciseNumber": 95,
+    "id": "tiim-257",
+    "exerciseNumber": 257,
+    "name": "Score eller hindre mål i relevante formasjoner",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "forsvar",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett du opp det ene laget med en keeper, et bakre ledd og et midte ledd som likner de tallkombinasjonene du bruker i kamp. På det andre laget setter du opp en formasjon med et midtre ledd og et frontledd som du bruker i kamp. Laget som stiller opp i en forsvarsformasjon skal spille ballen inn i småmål, mens laget i en angrepsformasjon skal score i et syvermål med en keeper.",
+    "coachingPoints": [],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/score-eller-hindre-mal-i-relevante-formasjoner"
+  },
+  {
+    "id": "tiim-258",
+    "exerciseNumber": 258,
     "name": "Score mål med overtall, 3v2 + keeper",
     "category": "game",
     "duration": 12,
@@ -3939,14 +5837,63 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Trenere bør ha tydelig fokus på å gi tilbakemeldinger på hensikten med øvelsen. I dette tilfellet angrepsdelen og disse momentene:At ballfører tydelig utfordrer en forsvarsspiller for å skape overtall.Slippe ballen i riktig øyeblikk, slik man får utnyttet overtallet.Sørge for dybde (gjøre seg spillbare) slik at angripende lag ikke blir liggende på linje.Om laget mister ballen må de forsøke å gjenvinne ballen hurtig."
     ],
-    "variations": [],
+    "variations": [
+      "Noen tilnærminger for å utvikle og bygge videre på øvelsen.I Flint Fotball har vi benyttet øvelsen med fokus på angripende lag, men det kan også benyttes til å fokusere på forsvaret",
+      "Å håndtere undertall med fokus på første og andre forsvarer/press og sikring",
+      "Øvelsen kan også utvides til flere spillere og evt bruk av kanter i frisone.Redaksjonen vil tipse om at angrepslaget kan starte på ulike måter, for eksempel:ved at det er en tydelig spiss og igangsettingen begynner ved at ballen spilles til han/hun.ved at forsvarslaget starter på ulike steder, for eksempel at 1 spiller står opp i en spiss og 1 spiller starter ved et av små-målene, eller at de starter på hver sin langside."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/score-mal-med-overtall-3v2-keeper"
   },
   {
-    "id": "tiim-191",
-    "exerciseNumber": 109,
+    "id": "tiim-259",
+    "exerciseNumber": 259,
+    "name": "Score/hindre mål i relevante formasjoner",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "innlegg",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Sett du opp det ene laget med en keeper, et bakre ledd og et midte ledd som likner de tallkombinasjonene du bruker i kamp. På det andre laget setter du opp en formasjon med et midtre ledd og et frontledd som du bruker i kamp. Laget som stiller opp i en forsvarsformasjon skal spille ballen inn i småmål, mens laget i en angrepsformasjon skal score i et syvermål med en keeper.",
+    "coachingPoints": [
+      "Forsvar:Læringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er over Alltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett sideAngrep:Læringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markering"
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/score-hindre-mal-i-relevante-formasjoner"
+  },
+  {
+    "id": "tiim-260",
+    "exerciseNumber": 260,
+    "name": "Scoringstrippel",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "pressing",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "3–4 parallelle baner med småmål.Spillerne jobber i par eller små grupper.Trener styrer tempoet og starter hver repetisjon.",
+    "coachingPoints": [
+      "Orienter deg tidlig for å se medspillere, motspillere og rom.Utfør vending med riktig fotdel i forhold til press og rom.Tilpass touchlengde til tempo og press.Veksle fot og fotdel for å beskytte ballen.Kombiner blikk opp før skudd med fokus på ball i tilslaget.Treffpunkt på ballen: midt for rett skudd, under for å løfte, siden for skru.Følg gjennom med foten i retning av skuddet."
+    ],
+    "variations": [],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/scoringstrippel"
+  },
+  {
+    "id": "tiim-261",
+    "exerciseNumber": 261,
     "name": "Skudd fra distanse",
     "category": "station",
     "duration": 12,
@@ -3959,14 +5906,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp bane med to soner, ca.dobbel 16-meter.Tre til fire spillere i hver sone, bearbeide for å kunne avslutte. Det skal avsluttes fra egen boks på motsatt mål - Distanseskudd.Forsvarende lag kan sende en spiller opp i «skyggepress».",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Variere antall spillere og type igangsetting."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/skudd-fra-distanse"
   },
   {
-    "id": "tiim-192",
-    "exerciseNumber": 96,
+    "id": "tiim-262",
+    "exerciseNumber": 262,
     "name": "Sonespill 6v6",
     "category": "game",
     "duration": 12,
@@ -3981,16 +5930,19 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Ballførers evne til å se raskt framover, og spille framover for å utnytte ubalanse hos motstander.Spillerne rundt ballførers evne til å gå på gode løp inn i bakrom for å true, gjerne med flere samtidige bevegelser.Spillerne må ha evnen til å vurdere om de skal ta vare på ball dersom motstander er i balanse, og for eksempel vende spillet for å skape ubalanse."
     ],
-    "variations": [],
+    "variations": [
+      "For å gjøre angrepsspillet mer utfordrende:Innfør en regel som sier at to spillere kan ikke spille frem og tilbake til hverandre.Jokere har kun 1 berøring.For å gjøre forsvarsspillet mer utfordrende:Gjør banen større",
+      "Dette vil kreve at spillere må forflytte seg raskere og dekke større rom.Justering av antall ballberøringer/spillere vil gjøre det enklere/vanskeligere for forsvarende lag."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/sonespill-6v6"
   },
   {
-    "id": "tiim-193",
-    "exerciseNumber": 110,
+    "id": "tiim-263",
+    "exerciseNumber": 263,
     "name": "Southampton driblesone",
-    "category": "station",
+    "category": "warmup",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -4001,14 +5953,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Lag en bane med to endesoner (angrepspillere) og en midtsone (forsvar). Tre spillere i hver sone.Angrepsspillerne fører hver sin ball rundt i sin endesone. På signal skal de så forsøke å dribble gjennom midtsonen til motsatt endesone. Forsvarere kan ikke bevege seg utenfor midtsonen.Klarer de å komme over til motsatt endesone fortsetter de å føre ball der til nytt signal kommer. Mister de ball til en forsvarer, bytter disse plass.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillereBanestørrelse"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/southampton-driblesone"
   },
   {
-    "id": "tiim-194",
-    "exerciseNumber": 29,
+    "id": "tiim-264",
+    "exerciseNumber": 264,
     "name": "Stiv heks",
     "category": "warmup",
     "duration": 12,
@@ -4021,14 +5975,17 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Alle spillerne har en ball hver og fører rundt i et avgrenset område. Størrelse i forhold til antall. Start med eksempelvis to spillere som har’n (disse har ikke ball).Blir du tatt blir du stiv som ei heks og blir befridd ved at noen slår en pasning mellom beina dine og tar den igjen på andre siden. Da fortsetter man å føre ballen rundt.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Halvparten har ball og man blir befridd ved at to stykker samarbeider for å befri en heks",
+      "Det må da slås pasning mellom beina på heksa og tas i mot av en annen spiller på andre siden."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/stiv-heks"
   },
   {
-    "id": "tiim-195",
-    "exerciseNumber": 111,
+    "id": "tiim-265",
+    "exerciseNumber": 265,
     "name": "Telenor Xtra - «Nord-Sør-Øst-Vest»",
     "category": "station",
     "duration": 12,
@@ -4044,14 +6001,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Bevegelse",
       "ville ha ballenNår laget har ball å komme seg ut i bredden. Forsvarspillerne står ofte i midten.Spille ball i lengderetning med tempoNår vinner ball, skal man raskt ut i ledige romUtnytte overtall med jokere/veggerKonkurranse og lagsamarbeid"
     ],
-    "variations": [],
+    "variations": [
+      "Bruke Joker også i midten for å ha overtall der ogsåJoker/vegg kan ta med ball inn i boksenJoker/vegg kan ikke ta med ball inn i boksen."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-nord-sor-ost-vest"
   },
   {
-    "id": "tiim-196",
-    "exerciseNumber": 112,
+    "id": "tiim-266",
+    "exerciseNumber": 266,
     "name": "Telenor Xtra - 1v1 fra siden",
     "category": "station",
     "duration": 12,
@@ -4066,14 +6025,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, scoreSpille sammen, i angrep og forsvar"
     ],
-    "variations": [],
+    "variations": [
+      "1v1, 2v2, 3v3, alternativ ulike tall.Differensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-fra-siden"
   },
   {
-    "id": "tiim-197",
-    "exerciseNumber": 113,
+    "id": "tiim-267",
+    "exerciseNumber": 267,
     "name": "Telenor Xtra - 1v1 fra siden (m/veiledning)",
     "category": "station",
     "duration": 12,
@@ -4088,14 +6049,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, scoreSpille sammen, i angrep og forsvar"
     ],
-    "variations": [],
+    "variations": [
+      "1v1, 2v2, 3v3, alternativ ulike tall.Differensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-fra-siden-m-veiledning"
   },
   {
-    "id": "tiim-198",
-    "exerciseNumber": 114,
+    "id": "tiim-268",
+    "exerciseNumber": 268,
     "name": "Telenor Xtra - 1v1, score på linja de kommer fra",
     "category": "station",
     "duration": 12,
@@ -4108,16 +6071,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Øvelsen fungerer med 6-12 spillere, optimalt 8-10 spillere.Trener kaster ut en ball og 2 stk løper ut for å vinne ball. Den som har ball scorer på det målet de vil på linjen de kommer fra.Sett i gang baller fortløpende, det går fint med både 2 og 3 par samtidig ute på banen.\n\nSe gjerne øvelsen med veiledning: Telenor Xtra - 1v1, score på linja de kommer fra (m/veiledning) | tiim",
     "coachingPoints": [
-      "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, score"
+      "AngrepBruk små touch når det er trangt, lengre touch i åpent rom.Veksle mellom innside, utside og såle for å holde ballen unna motstandere.Hold blikket opp ofte.ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
     ],
-    "variations": [],
+    "variations": [
+      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvertDifferensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-score-pa-linja-de-kommer-fra"
   },
   {
-    "id": "tiim-199",
-    "exerciseNumber": 115,
+    "id": "tiim-269",
+    "exerciseNumber": 269,
     "name": "Telenor Xtra - 1v1, score på linja de kommer fra (m/veiledning)",
     "category": "station",
     "duration": 12,
@@ -4130,16 +6095,18 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Øvelsen fungerer med 6-12 spillere, optimalt 8-10 spillere.Trener kaster ut en ball og 2 stk løper ut for å vinne ball. Den som har ball scorer på det målet de vil på linjen de kommer fra.Sett i gang baller fortløpende, det går fint med både 2 og 3 par samtidig ute på banen.",
     "coachingPoints": [
-      "Se rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, score"
+      "AngrepSe rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, scoreForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
     ],
-    "variations": [],
+    "variations": [
+      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvertDifferensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v1-score-pa-linja-de-kommer-fra-m-veiledning"
   },
   {
-    "id": "tiim-200",
-    "exerciseNumber": 116,
+    "id": "tiim-270",
+    "exerciseNumber": 270,
     "name": "Telenor Xtra - 3 er 1 for mye",
     "category": "station",
     "duration": 12,
@@ -4154,14 +6121,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Overblikkhvor er motstander og hvor er det ledig rom.Forsvar/angrepHurtighetUndermomenter:Korte steg for hurtig forflytningHele tiden se hvor motstander/ledig rom erAlltid i bevegelse"
     ],
-    "variations": [],
+    "variations": [
+      "2 som jager 2."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-3-er-1-for-mye"
   },
   {
-    "id": "tiim-201",
-    "exerciseNumber": 117,
+    "id": "tiim-271",
+    "exerciseNumber": 271,
     "name": "Telenor Xtra - 3 er 1 for mye (m/veiledning)",
     "category": "station",
     "duration": 12,
@@ -4176,14 +6145,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Overblikkhvor er motstander og hvor er det ledig rom.Forsvar/angrepHurtighetUndermomenter:Korte steg for hurtig forflytningHele tiden se hvor motstander/ledig rom erAlltid i bevegelse"
     ],
-    "variations": [],
+    "variations": [
+      "2 som jager 2."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-3-er-1-for-mye-m-veiledning"
   },
   {
-    "id": "tiim-202",
-    "exerciseNumber": 98,
+    "id": "tiim-272",
+    "exerciseNumber": 272,
     "name": "Telenor Xtra - 5v3 overtallsspill",
     "category": "game",
     "duration": 12,
@@ -4200,38 +6171,41 @@ const baseTiimExercises: ExerciseData[] = [
       "gjenvinn ved å ligge trangt rundt ballen før forsvarer rekker å spille ballen til sitt lag",
       "og bruke hele firkanten når man har ballen.Spill ballen med mening (i rom eller på rett fot).Alltid spør etter ballen når man er riktig posisjonert.Coache på pasningskvaliteten (hard, langs bakken, sikte og treffe).Bevegelse av spillere og ball til enhver tid.Gjenvinning av ball ved balltap.Pasningskvalitet: hard, langs bakken, presist.For forsvarsspillerne:Ha et sterkt press på ballfører hele tiden slik at de mister ballen.Alltid ha kontroll på begge motstanderne.Isoler ballfører mot en side.Bakerste spiller dirigerer spilleren i press.Press og isolering fra forsvarerne."
     ],
-    "variations": [],
+    "variations": [
+      "Forsvarerne kan score i små mål.Forsvarerne kan score i 5èr eller 7èr mål (spillerne på kortsidene fungerer som keeper når forsvarerne vinner ballen)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-5v3-overtallsspill"
   },
   {
-    "id": "tiim-203",
-    "exerciseNumber": 99,
+    "id": "tiim-273",
+    "exerciseNumber": 273,
     "name": "Telenor Xtra - 5v3 overtallsspill (m/veiledning)",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "innlegg",
     "equipment": [
       "kjegler",
       "baller"
     ],
     "description": "5 angripere mot 3 forsvarere.Banestørrelse: B12xL15 meter.Antall spillere: 8 per bane.Utstyr: 4 kjegler, 1-2 baller per bane.5 angripere skal forsøke å holde ballen i laget og spille seg fra den ene kortsiden over til den andre - uten at 3 forsvarere klarer å ta den. Da får angripende lag 1 poeng.Vinner forsvarende lag ballen, skal de forsøke å føre ballen over en av kortsidene. Klarer de det får de 1 poeng.Øvelsen utføres med fri touch - men man kan også kjøre den med 2 touch og 1 touch.1-3 min omganger – bytte av forsvarere mellom hver omgang.\n\nViktig med sterkt press fra forsvarerne.Bakerste spiller må dirigere presset.Bruk hele banen for å holde ballen i laget.",
     "coachingPoints": [
-      "For angrepsspillerne:Sikre at man alltid er i posisjon til å motta ballen.Posisjonere seg slik at hele banen er synlig.Spillere og ball skal være i bevegelse hele tiden.Når man mister ballen",
-      "gjenvinn ved å ligge trangt rundt ballen før forsvarer rekker å spille ballen til sitt lag",
-      "og bruke hele firkanten når man har ballen.Spill ballen med mening (i rom eller på rett fot).Alltid spør etter ballen når man er riktig posisjonert.Coache på pasningskvaliteten (hard, langs bakken, sikte og treffe).Bevegelse av spillere og ball til enhver tid.Gjenvinning av ball ved balltap.Pasningskvalitet: hard, langs bakken, presist.For forsvarsspillerne:Ha et sterkt press på ballfører hele tiden slik at de mister ballen.Alltid ha kontroll på begge motstanderne.Isoler ballfører mot en side.Bakerste spiller dirigerer spilleren i press.Press og isolering fra forsvarerne."
+      "AngrepLæringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Slå innlegg/ pasninger i rom som angripes (ofte forbi første forsvarsspiller i boks).Tidlige innlegg – slå på «ryggsiden» av førsteforsvarerJakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchSamtidige, truende og eksplosive bevegelser ,",
+      "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
-    "variations": [],
+    "variations": [
+      "Forsvarerne kan score i små mål.Forsvarerne kan score i 5èr eller 7èr mål (spillerne på kortsidene fungerer som keeper når forsvarerne vinner ballen)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-5v3-overtallsspill-m-veiledning"
   },
   {
-    "id": "tiim-204",
-    "exerciseNumber": 100,
+    "id": "tiim-274",
+    "exerciseNumber": 274,
     "name": "Telenor Xtra - 6v4 overtallsspill",
     "category": "game",
     "duration": 12,
@@ -4247,14 +6221,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Angripere:Alltid sikre at man er i posisjon til å kunne få ballen fra ballfører.Alltid posisjonere seg slik at man ser hele banen.Spillere og ball skal være i bevegelse hele tiden.Når man mister ballen",
       "gjenvinn ved å ligge trangt rundt ballen før forsvarer rekker å spille ballen til sitt lag.Bruk hele banen når laget har ballen.Spill ballen med mening (i rom eller på rett fot).Alltid spør etter ballen når man er riktig posisjonert.Coache på pasningskvaliteten (hard, langs bakken, sikte og treffe).Forsvarere:Ha et sterkt press på ballfører hele tiden slik at de mister ballen.Ha alltid kontroll på begge motstanderne.Isoler ballfører mot en side.Bakerste spiller dirigerer spilleren i press."
     ],
-    "variations": [],
+    "variations": [
+      "Forsvarerne kan score i små mål.Forsvarerne kan score i 5èr eller 7èr mål (spillerne på kortsidene fungerer som keeper når forsvarerne vinner ballen)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-6v4-overtallsspill"
   },
   {
-    "id": "tiim-205",
-    "exerciseNumber": 101,
+    "id": "tiim-275",
+    "exerciseNumber": 275,
     "name": "Telenor Xtra - 8v4 overtallsspill",
     "category": "game",
     "duration": 12,
@@ -4270,14 +6246,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Angripere:Alltid sikre at man er i posisjon til å kunne få ballen fra ballfører.Alltid posisjonere seg slik at man ser hele banen.Spillere og ball skal være i bevegelse hele tiden.Når man mister ballen",
       "gjenvinn ved å ligge trangt rundt ballen før forsvarer rekker å spille ballen til sitt lag.Bruk hele banen når laget har ballen.Spill ballen med mening (i rom eller på rett fot).Alltid spør etter ballen når man er riktig posisjonert.Coache på pasningskvaliteten (hard, langs bakken, sikte og treffe).Forsvarere:Ha et sterkt press på ballfører hele tiden slik at de mister ballen.Ha alltid kontroll på begge motstanderne.Isoler ballfører mot en side.Bakerste spiller dirigerer spilleren i press."
     ],
-    "variations": [],
+    "variations": [
+      "Forsvarerne kan score i små mål.Forsvarerne kan score i 5èr eller 7èr mål (spillerne på kortsidene fungerer som keeper når forsvarerne vinner ballen)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-8v4-overtallsspill"
   },
   {
-    "id": "tiim-206",
-    "exerciseNumber": 118,
+    "id": "tiim-276",
+    "exerciseNumber": 276,
     "name": "Telenor Xtra - Ajax sirkel",
     "category": "station",
     "duration": 12,
@@ -4294,14 +6272,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Føre ballen kontrollert i stor fart.Pasninger",
       "sikte og treffe også når du er slitenKonkurranse og lagsamarbeidUndermomenter:Løp så fort du kan.Ha kontroll på ballen hele tidenMÅ løpe gjennom alle måleneTreff med hard pasning langs bakken"
     ],
-    "variations": [],
+    "variations": [
+      "Gjør andre ting på hver runde - f.eks finte ved hvert mål, veggpass, stupe kråke etc"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-ajax-sirkel"
   },
   {
-    "id": "tiim-207",
-    "exerciseNumber": 102,
+    "id": "tiim-277",
+    "exerciseNumber": 277,
     "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+4v3 og K+4v4 (5v5)",
     "category": "game",
     "duration": 12,
@@ -4316,14 +6296,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Angripere:Spre laget for bredde og dybde i angrep.Spilleren i midten (3) er nøkkelspilleren som styrer spillet.Se opp før ballmottak og spill i den retningen man ser.Utfordre ledig rom med ball – enten ved å drible eller spille fremover.Alltid være forberedt på å miste ballen og omstille til forsvar.Forsvarere:Ligge smalt og kompakt – diriger hverandre.Presse ballfører raskt og aggressivt.Sikre hverandre defensivt på grunn av undertallet.Isolere angriperen ut mot sidene.Være bevisst på hvordan laget kan komme i angrep ved gjenvinning."
     ],
-    "variations": [],
+    "variations": [
+      "Justere banestørrelse for å øke eller redusere utfordringen.Øke eller redusere antall motspillere for å tilpasse vanskelighetsgrad.Innføre begrensninger (f.eks. maks 3 pasninger før skudd – maks 20 sekunder på å komme i angrep - 10 sekunder til å kontre)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-bearbeiding-spille-oss-fremover-k-4v3-og-k-4v4"
   },
   {
-    "id": "tiim-208",
-    "exerciseNumber": 103,
+    "id": "tiim-278",
+    "exerciseNumber": 278,
     "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+4v3 og K+4v4 (5v5) (m/veiledning)",
     "category": "game",
     "duration": 12,
@@ -4338,16 +6320,18 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Angripere:Spre laget for bredde og dybde i angrep.Spilleren i midten (3) er nøkkelspilleren som styrer spillet.Se opp før ballmottak og spill i den retningen man ser.Utfordre ledig rom med ball – enten ved å drible eller spille fremover.Alltid være forberedt på å miste ballen og omstille til forsvar.Forsvarere:Ligge smalt og kompakt – diriger hverandre.Presse ballfører raskt og aggressivt.Sikre hverandre defensivt på grunn av undertallet.Isolere angriperen ut mot sidene.Være bevisst på hvordan laget kan komme i angrep ved gjenvinning."
     ],
-    "variations": [],
+    "variations": [
+      "Justere banestørrelse for å øke eller redusere utfordringen.Øke eller redusere antall motspillere for å tilpasse vanskelighetsgrad.Innføre begrensninger (f.eks. maks 3 pasninger før skudd – maks 20 sekunder på å komme i angrep - 10 sekunder til å kontre)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-bearbeiding-spille-oss-fremover-k-4v3-og-k-4v4-5v5-m-veiledning"
   },
   {
-    "id": "tiim-209",
-    "exerciseNumber": 104,
+    "id": "tiim-279",
+    "exerciseNumber": 279,
     "name": "Telenor Xtra - Bearbeiding - Spille oss fremover, K+6v5 og K+6v6 (7v7)",
-    "category": "game",
+    "category": "station",
     "duration": 12,
     "playersMin": 11,
     "playersMax": 26,
@@ -4360,14 +6344,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Angripere:Spre laget og sørg for bredde (2 og 5) og dybde (K) når laget har ballen.Spilleren i midten (6) er nøkkelspilleren som styrer spillet.Alltid se den veien man skal FØR man mottar ballen – og spille den veien man ser.Slå eller gå – men alltid utfordre ledig rom med ballen.Vær forberedt på å miste ballen og bli forsvarer.Forsvarere:Ligg så smalt og kompakt som nødvendig – diriger hverandre.Alltid hardt press på ballfører (sprint inn, treff med kroppen).Viktig å sikre hverandre på grunn av undertallet.Isoler angriperen ut mot en av sidene – takle for å vinne ballen.Ha en plan for hvordan man kan gå i angrep når man vinner ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Justere banestørrelse for å øke eller redusere utfordringen.Øke eller redusere antall motspillere for å tilpasse vanskelighetsgrad.Innføre begrensninger (f.eks. maks 3 pasninger før skudd – maks 20 sekunder på å komme i angrep - 10 sekunder til å kontre)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-bearbeiding-spille-oss-fremover-k-6v5-og-k-6v6-7v7"
   },
   {
-    "id": "tiim-210",
-    "exerciseNumber": 120,
+    "id": "tiim-280",
+    "exerciseNumber": 280,
     "name": "Telenor Xtra - Dosisten",
     "category": "station",
     "duration": 12,
@@ -4388,8 +6374,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-dosisten"
   },
   {
-    "id": "tiim-211",
-    "exerciseNumber": 121,
+    "id": "tiim-281",
+    "exerciseNumber": 281,
     "name": "Telenor Xtra - Gladiator",
     "category": "station",
     "duration": 12,
@@ -4404,14 +6390,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Ballkontroll, føring og vendingSkjerme egen ballTempo og retningsforandringerOrientering og oversikt"
     ],
-    "variations": [],
+    "variations": [
+      "Egne \"gladiatorer\" uten ball som på signal (og tid) har i oppgave å sparke ut flest mulig av de andres baller."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-hindre-avslutning-hindre-mal-2-7v7"
   },
   {
-    "id": "tiim-212",
-    "exerciseNumber": 122,
+    "id": "tiim-282",
+    "exerciseNumber": 282,
     "name": "Telenor Xtra - Klubb og land, ball på fot på linja",
     "category": "station",
     "duration": 12,
@@ -4426,16 +6414,18 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "dribleOversiktRetningsforandringerReaksjonRepertoar"
     ],
-    "variations": [],
+    "variations": [
+      "Gi spillerne konkrete oppgaver mens de fører ballen i midten, for eksempel cruyff-vending, overstegsfinte, føring kun med høyre/venstre, utside/innside, annenhver fot, etc."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-klubb-og-land-ball-pa-fot-pa-linja"
   },
   {
-    "id": "tiim-213",
-    "exerciseNumber": 31,
+    "id": "tiim-283",
+    "exerciseNumber": 283,
     "name": "Telenor Xtra - Klubb og land, sikte på mål",
-    "category": "warmup",
+    "category": "station",
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
@@ -4452,14 +6442,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Bruk små touch når det er trangt, lengre touch i åpent rom.",
       "Veksle mellom innside, utside og såle for å holde ballen unna motstandere."
     ],
-    "variations": [],
+    "variations": [
+      "Gi spillerne konkrete oppgaver mens de fører ballen i midten, for eksempel cruyff-vending, overstegsfinte, føring kun med høyre/venstre, utside/innside, annenhver fot, etc."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-klubb-og-land-sikte-pa-mal"
   },
   {
-    "id": "tiim-214",
-    "exerciseNumber": 123,
+    "id": "tiim-284",
+    "exerciseNumber": 284,
     "name": "Telenor Xtra - Pyramide, 1v0 til 3v3",
     "category": "station",
     "duration": 12,
@@ -4480,8 +6472,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v0-til-3v3"
   },
   {
-    "id": "tiim-215",
-    "exerciseNumber": 124,
+    "id": "tiim-285",
+    "exerciseNumber": 285,
     "name": "Telenor Xtra - Pyramide, 1v0 til 3v3 (m/veiledning)",
     "category": "station",
     "duration": 12,
@@ -4502,8 +6494,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-pyramide-1v0-til-3v3-m-veiledning"
   },
   {
-    "id": "tiim-216",
-    "exerciseNumber": 105,
+    "id": "tiim-286",
+    "exerciseNumber": 286,
     "name": "Telenor Xtra - Siste 1/3-del, 4v3+k/4v4+k (score mål)",
     "category": "game",
     "duration": 12,
@@ -4518,14 +6510,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep:Utfordre motstandere og komme forbi dem.Utnytte bredde og dybde i angrepet.Forsvar:Vinne ballen gjennom aggressivt press.Sikre og støtte hverandre i undertallssituasjoner.Overgangsspill:Rask overgang fra forsvar til angrep, inkludert kontringsmuligheter.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre dere for å skape bredde og dybde.Midtbanespilleren (10ér) styrer spillet.Kantspillere (7 og 11) skal alltid utfordre mot mål først.Spill den veien du ser – slå eller gå i ledig rom.Vær forberedt på å miste ballen og gå direkte i forsvar.Forsvarere:Hold en smal formasjon – diriger hverandre.Beskytt målet ved innlegg og skudd.Høyt press på ballfører, isoler angripere til sidene.Vær klar for raske overganger til angrep."
     ],
-    "variations": [],
+    "variations": [
+      "Redusere antall forsvarere for å fokusere på spesifikke ferdigheter i angrep.Øke antall angripere for å trene på forsvar i undertall."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-4v3-k-4v4-k-score-mal"
   },
   {
-    "id": "tiim-217",
-    "exerciseNumber": 106,
+    "id": "tiim-287",
+    "exerciseNumber": 287,
     "name": "Telenor Xtra - Siste 1/3-del, 4v3+k/4v4+k (score mål) (m/veiledning)",
     "category": "game",
     "duration": 12,
@@ -4540,14 +6534,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep:Utfordre motstandere og komme forbi dem.Utnytte bredde og dybde i angrepet.Forsvar:Vinne ballen gjennom aggressivt press.Sikre og støtte hverandre i undertallssituasjoner.Overgangsspill:Rask overgang fra forsvar til angrep, inkludert kontringsmuligheter.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre dere for å skape bredde og dybde.Midtbanespilleren (10ér) styrer spillet.Kantspillere (7 og 11) skal alltid utfordre mot mål først.Spill den veien du ser – slå eller gå i ledig rom.Vær forberedt på å miste ballen og gå direkte i forsvar.Forsvarere:Hold en smal formasjon – diriger hverandre.Beskytt målet ved innlegg og skudd.Høyt press på ballfører, isoler angripere til sidene.Vær klar for raske overganger til angrep."
     ],
-    "variations": [],
+    "variations": [
+      "Redusere antall forsvarere for å fokusere på spesifikke ferdigheter i angrep.Øke antall angripere for å trene på forsvar i undertall."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-4v3-k-4v4-k-score-mal-m-veiledning"
   },
   {
-    "id": "tiim-218",
-    "exerciseNumber": 107,
+    "id": "tiim-288",
+    "exerciseNumber": 288,
     "name": "Telenor Xtra - Siste 1/3-del, 4v4+k (hindre mål)",
     "category": "game",
     "duration": 12,
@@ -4563,14 +6559,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Angrep:Utfordre motstander og komme forbi denne.Spre dere for å skape bredde og dybde.Bruk midtbanespilleren (6) som nøkkelspiller for å styre spillet.Se retningen før mottak av ball og spill i den retningen.Utfordre ledig rom med ball.Forsvar:Forsvare mål.Vinn ballen og kontre raskt.Ligg smalt og samarbeid i forsvarsarbeidet.Isoler angriperen ut mot sidene.Skap 2 mot 1",
       "situasjoner hvis mulig.Overgangsspill:Rask overgang fra forsvar til angrep, inkludert kontringsmuligheter.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre dere for å skape bredde og dybde.Midtbanespilleren (10ér) styrer spillet.Kantspillere (7 og 11) skal alltid utfordre mot mål først.Spill den veien du ser – slå eller gå i ledig rom.Vær forberedt på å miste ballen og gå direkte i forsvar.Forsvarere:Hold en smal formasjon – diriger hverandre.Beskytt målet ved innlegg og skudd.Høyt press på ballfører, isoler angripere til sidene.Vær klar for raske overganger til angrep."
     ],
-    "variations": [],
+    "variations": [
+      "Juster banestørrelse etter ferdighetsnivå.Begrens antall ballberøringer for økt tempo."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-4v4-k-hindre-mal"
   },
   {
-    "id": "tiim-219",
-    "exerciseNumber": 108,
+    "id": "tiim-289",
+    "exerciseNumber": 289,
     "name": "Telenor Xtra - Siste 1/3-del, 6v5+k/6v6+k (score mål)",
     "category": "game",
     "duration": 12,
@@ -4585,14 +6583,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep:Utfordre motstandere og komme forbi dem.Utnytte bredde og dybde i angrepet.Forsvar:Vinne ballen gjennom aggressivt press.Sikre og støtte hverandre i undertallssituasjoner.Overgangsspill:Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre dere og sørg for bredde (7 og 11), høyde (9) og dybde (2, 5 og 6).Kantspillerne (7 og 11) skal alltid søke å utfordre mot mål først!Balanse og dybde mellom sentral midt (6) og backer (2 og 5).Motsatte bevegelser for å frigjøre ledige spillere – spiss (9) som spillpunkt.\"Slå eller gå\" – alltid utfordre ledig rom med ball.Alltid forberedt på å miste ballen og umiddelbart bli forsvarer.Se den veien du skal spille – og spill den veien du ser.Forsvarere:Hold en smal formasjon – diriger hverandre.Beskytt målet ved innlegg og skudd.Alltid hardt press på ballfører! (Sprint inn, treff med kroppen).Sikre hverandre godt på grunn av undertallet.Isoler angriperen ut mot en av sidene – og hindre innlegg.Alltid tenk på muligheten for å kontre når du vinner ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Justering av banestørrelse og antall spillere for å tilpasse vanskelighetsgrad.Endre antall berøringer for angriperne.Gi forsvarerne mulighet til å spille på en nøytral spiller ved gjenvinning."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-6v5-k-6v6-k-score-mal"
   },
   {
-    "id": "tiim-220",
-    "exerciseNumber": 110,
+    "id": "tiim-290",
+    "exerciseNumber": 290,
     "name": "Telenor Xtra - Siste 1/3-del, 6v6+k (hindre mål)",
     "category": "game",
     "duration": 12,
@@ -4608,14 +6608,16 @@ const baseTiimExercises: ExerciseData[] = [
       "Forsvar:Ligg så smalt og trangt som nødvendig – diriger hverandre.Fokus på å forsvare målet, unngå å selge seg i egen boks.Isoler angriperen ut mot sidene og skap 2 mot 1",
       "situasjoner.Tenk offensivt etter ballgjenvinning – vurder muligheter for å angripe.Angrep:Spre laget og oppretthold bredde (7 og 11), høyde (9) og dybde (2 og 5).Spilleren i midten (6) styrer spillet.Se i angrepsretningen før ballmottak – spill der du ser.Utfordre ledige rom med ball, enten ved å slå pasninger eller gå selv.Vær forberedt på å miste ballen og bli forsvarer.Overgangsspill:Rask overgang fra forsvar til angrep, inkludert kontringsmuligheter."
     ],
-    "variations": [],
+    "variations": [
+      "Juster banestørrelse etter ferdighetsnivå.Begrens antall ballberøringer for økt tempo."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-siste-1-3-del-6v6-k-hindre-mal"
   },
   {
-    "id": "tiim-221",
-    "exerciseNumber": 111,
+    "id": "tiim-291",
+    "exerciseNumber": 291,
     "name": "Telenor Xtra - Utfordre når motstander er bak – 1v1 – 2v1 – 2v2",
     "category": "game",
     "duration": 12,
@@ -4630,14 +6632,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Teknisk: Mottak, vending, dribling, pasningsspill, ballkontroll.Taktisk: Gjenkjenne muligheter for vending, utnytte overtall (2v1), håndtere jevne situasjoner (2v2).Fysisk: Akselerasjon, balanse, stabilitet, hurtig retningsforandring.Mentalt: Rask omstilling, beslutningstaking under press.Angriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under vending.Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering.Forsvarer:Rask reaksjon på angriperens første touch.Press bakfra uten å lage frispark.Omstilling: Vinn ballen og angrep raskt."
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-bak-1v1-2v1-2v2"
   },
   {
-    "id": "tiim-222",
-    "exerciseNumber": 112,
+    "id": "tiim-292",
+    "exerciseNumber": 292,
     "name": "Telenor Xtra - Utfordre når motstander er bak – 2v2 - 2v3 - 3v3",
     "category": "game",
     "duration": 12,
@@ -4652,14 +6656,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Teknisk:Mottak og vending under pressDribling, pasningskvalitet og hurtige kombinasjonerTaktisk:Utnytte overtall (spesielt i 3v2)Riktig valg av når man skal drible eller spilleLese pasningslinjer, press og isolere motstandereFysisk:Intensiv øvelse med korte, raske løp og retningsforandringerBruk av kroppen for å skjerme ballMentalt:Rask beslutningstakingGod kommunikasjon og samspill i gruppaOmstillingsevne fra forsvar til angrepAngriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under vending.Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering.Forsvarer:Rask reaksjon på angriperens første touch.Press bakfra uten å lage frispark.Omstilling: Vinn ballen og angrep raskt."
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-bak-2v2-2v3-3v3"
   },
   {
-    "id": "tiim-223",
-    "exerciseNumber": 113,
+    "id": "tiim-293",
+    "exerciseNumber": 293,
     "name": "Telenor Xtra - Utfordre når motstander er foran – 1v1 – 2v1 – 2v2",
     "category": "game",
     "duration": 12,
@@ -4674,14 +6680,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Teknisk:Mottak, dribling, finter, pasningskvalitet og skudd under press.Taktisk:Beslutningstaking i valg mellom å utfordre selv eller spille til medspiller.Fysisk:Korte akselerasjoner, retningsforandringer og ballbeskyttelse.Mentalt:Rask vurdering av situasjoner, omstilling mellom angrep og forsvar.Angriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under føring/finter (Er forsvarer på høyre side av deg – før med venstre fot. Er forsvarer på venstre side av deg – før med høyre fot).Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering.Forsvarer:Rask reaksjon på angriperens første touch.Søk kroppskontakt så raskt som mulig uten å lage frispark.Omstilling: Vinn ballen og angrep raskt."
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-foran-1v1-2v1-2v2"
   },
   {
-    "id": "tiim-224",
-    "exerciseNumber": 114,
+    "id": "tiim-294",
+    "exerciseNumber": 294,
     "name": "Telenor Xtra - Utfordre når motstander er foran – 2v2 – 3v2 – 3v3",
     "category": "game",
     "duration": 12,
@@ -4698,14 +6706,16 @@ const baseTiimExercises: ExerciseData[] = [
       "situasjoner.Reaksjonsevne: Forbedre hurtigheten i avgjørelser og bevegelser ved raske situasjonsskifter.Stabilitet i dueller: Bli sterkere i kropp",
       "dueller under press.Mentale ferdigheter:Beslutningstaking under press: Trene på å ta raske og riktige valg i pressede situasjoner.Samarbeid og kommunikasjon: Forsterke samspill og tydelige beskjeder mellom spillere.Konsentrasjon: Holde fokus i både offensive og defensive overganger.Angriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under føring/finter (Er forsvarer på høyre side av deg – før med venstre fot. Er forsvarer på venstre side av deg – før med høyre fot).Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering av med – og motspillere.Forsvarer:Rask reaksjon på angriperens første touch.Søk kroppskontakt så raskt som mulig uten å lage frispark.Omstilling: Vinn ballen og angrep raskt.Kommunisere, sikre og dekke rom og spillere for hverandre"
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-foran-2v2-3v2-3v3"
   },
   {
-    "id": "tiim-225",
-    "exerciseNumber": 125,
+    "id": "tiim-295",
+    "exerciseNumber": 295,
     "name": "Telenor Xtra - Utfordre når motstander kommer inn fra siden – 1v1 – 2v1 – 2v2",
     "category": "station",
     "duration": 12,
@@ -4720,14 +6730,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Teknisk:Mottak og dribling med press fra siden, skjerming av ball, presise pasninger under press.Taktisk:Kjenne igjen situasjoner hvor man kan akselerere forbi forsvareren, og når man bør spille støtte eller kombinere med medspiller.Effektivt smålagsspill i 2v1 og 2v2.Fysisk:Akselerasjon og temposkift for å unngå en forsvarer som kommer skrått inn.Kroppsbeherskelse for å skjerme ballen.Mentalt:Rask beslutningstaking: Oppfatte forsvarerens innløp, vurdere om man skal drible, sentre eller skyte.Omstilling fra angrep til forsvar (og omvendt).Angriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under føring/finter (Er forsvarer på høyre side av deg – før med venstre fot. Er forsvarer på venstre side av deg – før med høyre fot).Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering av med – og motspillere.Forsvarer:Rask reaksjon på angriperens første touch.Søk kroppskontakt så raskt som mulig uten å lage frispark.Omstilling: Vinn ballen og angrep raskt.Kommunisere, sikre og dekke rom og spillere for hverandre"
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-kommer-inn-fra-siden-1v1-2v1-2v2"
   },
   {
-    "id": "tiim-226",
-    "exerciseNumber": 115,
+    "id": "tiim-296",
+    "exerciseNumber": 296,
     "name": "Telenor Xtra - Utfordre når motstander kommer inn fra siden – 2v2 – 3v2 – 3v3",
     "category": "game",
     "duration": 12,
@@ -4742,14 +6754,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Teknisk:Mottak og dribling med press fra siden, skjerming av ball, presise pasninger under press.Taktisk:Kjenne igjen situasjoner hvor man kan akselerere forbi forsvareren, og når man bør spille støtte eller kombinere med medspiller.Utnytte overtall (3v2) og håndtere like tall (2v2 og 3v3) når presset kommer fra skrå vinkel.Smålagsspill med fokus på timing, bevegelse og kommunikasjon.Fysisk:Akselerasjon og temposkift for å unngå en forsvarer som kommer skrått inn.Kroppsbeherskelse for å skjerme ballen.Mentalt:Rask beslutningstaking: Oppfatte forsvarerens innløp, vurdere om man skal drible, sentre eller skyte.Omstilling fra angrep til forsvar (og omvendt).Angriper:Første touch: Skap rom ved å ta ballen til siden/vekk fra forsvareren.Kroppsbruk: Beskytt ballen under føring/finter (Er forsvarer på høyre side av deg – før med venstre fot. Er forsvarer på venstre side av deg – før med høyre fot).Tempo og retningsforandring: Utnytt forsvarerens bevegelse.Blikk opp: Vurder rom og posisjonering av med – og motspillere.Forsvarer:Rask reaksjon på angriperens første touch.Søk kroppskontakt så raskt som mulig uten å lage frispark.Omstilling: Vinn ballen og angrep raskt.Kommunisere, sikre og dekke rom og spillere for hverandre"
     ],
-    "variations": [],
+    "variations": [
+      "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-kommer-inn-fra-siden-2v2-3v2-3v3"
   },
   {
-    "id": "tiim-227",
-    "exerciseNumber": 126,
+    "id": "tiim-297",
+    "exerciseNumber": 297,
     "name": "Telenor Xtra - Vinne ball - hindre motstander å spille fremover, 4v4+k",
     "category": "station",
     "duration": 12,
@@ -4764,14 +6778,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Overblikk:Se dit du skal før du mottar ballen.Opprett blikkontakt med ballfører.Mens ballen er på vei mot deg, se igjen dit du skal.Velg beste løsning og utfør valget.For angripere:Spre dere og skape bredde og dybde i angrepet.Spilleren i midten (6) er nøkkelspiller og skal styre spillet.Se dit du skal spille før du mottar ballen.Utfordre ledig rom med ball.Vær forberedt på å miste ballen og bli forsvarer umiddelbart.Forsvarere:Ligg så smalt og kompakt som nødvendig – diriger hverandre.Soneforsvar:Er ballen midt i banen – er vi midt i banen.Er på høyre side av banen – er vi på høyre side av banen.Er ballen på venstre side av banen – er vi på venstre side av banen.Alltid hardt press på ballfører (sprint inn, treff med kroppen).Viktig å sikre hverandre på grunn av undertallet.Isoler angriperen ut mot en av sidene – takle for å vinne ballen.Ha en plan for hvordan man kan gå i angrep når man vinner ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Justere banestørrelse for å øke eller redusere utfordringen.Øke eller redusere antall motspillere for å tilpasse vanskelighetsgrad.Innføre begrensninger (f.eks. maks 3 pasninger før skudd – maks 20 sekunder på å komme i angrep - 10 sekunder til å kontre)."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-vinne-ball-hindre-motstander-a-spille-fremover-4v4-k"
   },
   {
-    "id": "tiim-228",
-    "exerciseNumber": 116,
+    "id": "tiim-298",
+    "exerciseNumber": 298,
     "name": "Telenor Xtra - Vinne ball - hindre motstander å spille fremover, 6v6+k",
     "category": "game",
     "duration": 12,
@@ -4786,14 +6802,16 @@ const baseTiimExercises: ExerciseData[] = [
     "coachingPoints": [
       "Angrep: Utfordre motstander og komme forbi denne.Forsvar: Vinne ballen og kontre.Overgangsspill: Vinne ballen igjen og hindre kontring når forsvaret vinner ballen.Overblikk (generelt for alle spillere):Se dit du skal spille før du mottar ballen.Ha øyekontakt med ballfører.Når ballen er på vei mot deg, sjekk igjen retningen du vil spille.Velg beste løsning og utfør handlingen raskt.Angrepsspillere:Spre laget for bredde (7 og 11), høyde (9) og dybde (2 og 5).Spilleren i midten (6) er nøkkelspiller for å styre spillet.Spill i den retningen du ser.Ta initiativ – slå eller gå, men utfordre ledig rom.Vær alltid forberedt på balltap og rask omstilling til forsvar.Forsvarere:Hold laget kompakt og kommuniser.Soneforsvar:Er ballen midt i banen – er vi midt i banen.Er på høyre side av banen – er vi på høyre side av banen.Er ballen på venstre side av banen – er vi på venstre side av banen.Alltid hardt press på ballfører (sprint inn, treff med kroppen).Viktig å sikre hverandre på grunn av undertallet.Isoler angriperen ut mot en av sidene – takle for å vinne ballen.Ha en plan for hvordan man kan gå i angrep når man vinner ballen."
     ],
-    "variations": [],
+    "variations": [
+      "Endre banestørrelse for å justere tempoet.Innføre touchbegrensning for å tvinge raskere avgjørelser.La angriperne starte med en manns overtak for mer utfordring."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-vinne-ball-hindre-motstander-a-spille-fremover-6v6-k"
   },
   {
-    "id": "tiim-229",
-    "exerciseNumber": 127,
+    "id": "tiim-299",
+    "exerciseNumber": 299,
     "name": "Tre lags overgangsspill",
     "category": "station",
     "duration": 12,
@@ -4806,14 +6824,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp en bane, ca.40x30m, med to småmål på ene siden og et stort på den andre (helst med keeper). Banen deles inn i tre soner som vist på animasjonDel inn i tre lag av fireØvelsen starter med angrepslag i midtsonen, som angriper småmålene og et forsvarende lag i sonenScorer angrepslaget, får de ny ball i midtsonen, og angriper motsatt side og stort målVinner forsvarende lag, angriper de lag og mål på motsatt side",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "BanestørrelseAntall spillereKeeper i stort mål"
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-tre-lags-overgangsspill"
   },
   {
-    "id": "tiim-230",
-    "exerciseNumber": 129,
+    "id": "tiim-300",
+    "exerciseNumber": 300,
     "name": "Trekant – pasning over to linjer",
     "category": "station",
     "duration": 12,
@@ -4826,14 +6846,16 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Lag en trekant med tre angrepsspillere bak hver sin linje. Forsvarsspiller i midtenAngrepsspillerne skal spille seg imellom og ballen må følgelig krysse to linjer hver gang.Hvis spiller i midten bryter pasningen, bytter han / hun med den som misset.",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Antall spillere, trekantstørrelse, touchbegrensinger."
+    ],
     "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/trekant-pasning-over-to-linjer"
   },
   {
-    "id": "tiim-231",
-    "exerciseNumber": 32,
+    "id": "tiim-301",
+    "exerciseNumber": 301,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 1, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -4852,8 +6874,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-1"
   },
   {
-    "id": "tiim-232",
-    "exerciseNumber": 33,
+    "id": "tiim-302",
+    "exerciseNumber": 302,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 1, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -4872,8 +6894,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-1-ovelse-2"
   },
   {
-    "id": "tiim-233",
-    "exerciseNumber": 34,
+    "id": "tiim-303",
+    "exerciseNumber": 303,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -4892,8 +6914,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-2-ovelse-1"
   },
   {
-    "id": "tiim-234",
-    "exerciseNumber": 35,
+    "id": "tiim-304",
+    "exerciseNumber": 304,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -4912,8 +6934,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-2-ovelse-2"
   },
   {
-    "id": "tiim-235",
-    "exerciseNumber": 36,
+    "id": "tiim-305",
+    "exerciseNumber": 305,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 2, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -4932,8 +6954,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-2-ovelse-3"
   },
   {
-    "id": "tiim-236",
-    "exerciseNumber": 37,
+    "id": "tiim-306",
+    "exerciseNumber": 306,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -4952,8 +6974,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-3-ovelse-1"
   },
   {
-    "id": "tiim-237",
-    "exerciseNumber": 38,
+    "id": "tiim-307",
+    "exerciseNumber": 307,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -4972,8 +6994,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-3-ovelse-2"
   },
   {
-    "id": "tiim-238",
-    "exerciseNumber": 39,
+    "id": "tiim-308",
+    "exerciseNumber": 308,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 3, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -4992,8 +7014,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-3-ovelse-3"
   },
   {
-    "id": "tiim-239",
-    "exerciseNumber": 40,
+    "id": "tiim-309",
+    "exerciseNumber": 309,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 4, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5012,8 +7034,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-4-ovelse-1"
   },
   {
-    "id": "tiim-240",
-    "exerciseNumber": 41,
+    "id": "tiim-310",
+    "exerciseNumber": 310,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 4, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5032,8 +7054,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-4-ovelse-2"
   },
   {
-    "id": "tiim-241",
-    "exerciseNumber": 42,
+    "id": "tiim-311",
+    "exerciseNumber": 311,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5052,8 +7074,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-5-ovelse-1"
   },
   {
-    "id": "tiim-242",
-    "exerciseNumber": 43,
+    "id": "tiim-312",
+    "exerciseNumber": 312,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5072,8 +7094,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-5-ovelse-2"
   },
   {
-    "id": "tiim-243",
-    "exerciseNumber": 44,
+    "id": "tiim-313",
+    "exerciseNumber": 313,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 5, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5092,8 +7114,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-5-ovelse-3"
   },
   {
-    "id": "tiim-244",
-    "exerciseNumber": 45,
+    "id": "tiim-314",
+    "exerciseNumber": 314,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 6, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5112,8 +7134,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-6-ovelse-1"
   },
   {
-    "id": "tiim-245",
-    "exerciseNumber": 46,
+    "id": "tiim-315",
+    "exerciseNumber": 315,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 6, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5132,8 +7154,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-6-ovelse-2"
   },
   {
-    "id": "tiim-246",
-    "exerciseNumber": 47,
+    "id": "tiim-316",
+    "exerciseNumber": 316,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5152,8 +7174,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-7-ovelse-1"
   },
   {
-    "id": "tiim-247",
-    "exerciseNumber": 48,
+    "id": "tiim-317",
+    "exerciseNumber": 317,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5172,8 +7194,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-7-ovelse-2"
   },
   {
-    "id": "tiim-248",
-    "exerciseNumber": 49,
+    "id": "tiim-318",
+    "exerciseNumber": 318,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 7, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5192,8 +7214,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-7-ovelse-3"
   },
   {
-    "id": "tiim-249",
-    "exerciseNumber": 50,
+    "id": "tiim-319",
+    "exerciseNumber": 319,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 8, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5212,8 +7234,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-8-ovelse-1"
   },
   {
-    "id": "tiim-250",
-    "exerciseNumber": 51,
+    "id": "tiim-320",
+    "exerciseNumber": 320,
     "name": "UEFA PlayMakers - Innsiden ut 2, kapittel 8, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5232,8 +7254,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-innsiden-ut-2-kapittel-8-ovelse-2"
   },
   {
-    "id": "tiim-251",
-    "exerciseNumber": 52,
+    "id": "tiim-321",
+    "exerciseNumber": 321,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5252,8 +7274,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-1-ovelse-1"
   },
   {
-    "id": "tiim-252",
-    "exerciseNumber": 53,
+    "id": "tiim-322",
+    "exerciseNumber": 322,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5272,8 +7294,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-1-ovelse-2"
   },
   {
-    "id": "tiim-253",
-    "exerciseNumber": 54,
+    "id": "tiim-323",
+    "exerciseNumber": 323,
     "name": "UEFA PlayMakers – Encanto, kapittel 1, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5292,8 +7314,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-1-ovelse-3"
   },
   {
-    "id": "tiim-254",
-    "exerciseNumber": 55,
+    "id": "tiim-324",
+    "exerciseNumber": 324,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5312,8 +7334,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-2-ovelse-1"
   },
   {
-    "id": "tiim-255",
-    "exerciseNumber": 56,
+    "id": "tiim-325",
+    "exerciseNumber": 325,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5332,8 +7354,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-2-ovelse-2"
   },
   {
-    "id": "tiim-256",
-    "exerciseNumber": 57,
+    "id": "tiim-326",
+    "exerciseNumber": 326,
     "name": "UEFA PlayMakers – Encanto, kapittel 2, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5352,8 +7374,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-2-ovelse-3"
   },
   {
-    "id": "tiim-257",
-    "exerciseNumber": 58,
+    "id": "tiim-327",
+    "exerciseNumber": 327,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5372,8 +7394,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-3-ovelse-1"
   },
   {
-    "id": "tiim-258",
-    "exerciseNumber": 59,
+    "id": "tiim-328",
+    "exerciseNumber": 328,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5392,8 +7414,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-3-ovelse-2"
   },
   {
-    "id": "tiim-259",
-    "exerciseNumber": 60,
+    "id": "tiim-329",
+    "exerciseNumber": 329,
     "name": "UEFA PlayMakers – Encanto, kapittel 3, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5412,8 +7434,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-3-ovelse-3"
   },
   {
-    "id": "tiim-260",
-    "exerciseNumber": 61,
+    "id": "tiim-330",
+    "exerciseNumber": 330,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5432,8 +7454,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-4-ovelse-1"
   },
   {
-    "id": "tiim-261",
-    "exerciseNumber": 62,
+    "id": "tiim-331",
+    "exerciseNumber": 331,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5452,8 +7474,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-4-ovelse-2"
   },
   {
-    "id": "tiim-262",
-    "exerciseNumber": 63,
+    "id": "tiim-332",
+    "exerciseNumber": 332,
     "name": "UEFA PlayMakers – Encanto, kapittel 4, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5472,8 +7494,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-4-ovelse-3"
   },
   {
-    "id": "tiim-263",
-    "exerciseNumber": 64,
+    "id": "tiim-333",
+    "exerciseNumber": 333,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5492,8 +7514,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-5-ovelse-1"
   },
   {
-    "id": "tiim-264",
-    "exerciseNumber": 65,
+    "id": "tiim-334",
+    "exerciseNumber": 334,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5512,8 +7534,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-5-ovelse-2"
   },
   {
-    "id": "tiim-265",
-    "exerciseNumber": 66,
+    "id": "tiim-335",
+    "exerciseNumber": 335,
     "name": "UEFA PlayMakers – Encanto, kapittel 5, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5532,8 +7554,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-5-ovelse-3"
   },
   {
-    "id": "tiim-266",
-    "exerciseNumber": 67,
+    "id": "tiim-336",
+    "exerciseNumber": 336,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5552,8 +7574,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-6-ovelse-1"
   },
   {
-    "id": "tiim-267",
-    "exerciseNumber": 68,
+    "id": "tiim-337",
+    "exerciseNumber": 337,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5572,8 +7594,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-6-ovelse-2"
   },
   {
-    "id": "tiim-268",
-    "exerciseNumber": 69,
+    "id": "tiim-338",
+    "exerciseNumber": 338,
     "name": "UEFA PlayMakers – Encanto, kapittel 6, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5592,8 +7614,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-6-ovelse-3"
   },
   {
-    "id": "tiim-269",
-    "exerciseNumber": 70,
+    "id": "tiim-339",
+    "exerciseNumber": 339,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5612,8 +7634,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-7-ovelse-1"
   },
   {
-    "id": "tiim-270",
-    "exerciseNumber": 71,
+    "id": "tiim-340",
+    "exerciseNumber": 340,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5632,8 +7654,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-7-ovelse-2"
   },
   {
-    "id": "tiim-271",
-    "exerciseNumber": 72,
+    "id": "tiim-341",
+    "exerciseNumber": 341,
     "name": "UEFA PlayMakers – Encanto, kapittel 7, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5652,8 +7674,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-7-ovelse-3"
   },
   {
-    "id": "tiim-272",
-    "exerciseNumber": 73,
+    "id": "tiim-342",
+    "exerciseNumber": 342,
     "name": "UEFA PlayMakers – Encanto, kapittel 8, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5672,8 +7694,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-8-ovelse-1"
   },
   {
-    "id": "tiim-273",
-    "exerciseNumber": 74,
+    "id": "tiim-343",
+    "exerciseNumber": 343,
     "name": "UEFA PlayMakers – Encanto, kapittel 8, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5692,8 +7714,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-encanto-kapittel-8-ovelse-2"
   },
   {
-    "id": "tiim-274",
-    "exerciseNumber": 75,
+    "id": "tiim-344",
+    "exerciseNumber": 344,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5712,8 +7734,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-1-ovelse-1"
   },
   {
-    "id": "tiim-275",
-    "exerciseNumber": 76,
+    "id": "tiim-345",
+    "exerciseNumber": 345,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5732,8 +7754,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-1-ovelse-2"
   },
   {
-    "id": "tiim-276",
-    "exerciseNumber": 77,
+    "id": "tiim-346",
+    "exerciseNumber": 346,
     "name": "UEFA PlayMakers – Frost  2, kapittel 1, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5752,8 +7774,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-1-ovelse-3"
   },
   {
-    "id": "tiim-277",
-    "exerciseNumber": 78,
+    "id": "tiim-347",
+    "exerciseNumber": 347,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5772,8 +7794,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-2-ovelse-1"
   },
   {
-    "id": "tiim-278",
-    "exerciseNumber": 79,
+    "id": "tiim-348",
+    "exerciseNumber": 348,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5792,8 +7814,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-2-ovelse-2"
   },
   {
-    "id": "tiim-279",
-    "exerciseNumber": 80,
+    "id": "tiim-349",
+    "exerciseNumber": 349,
     "name": "UEFA PlayMakers – Frost  2, kapittel 2, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5812,8 +7834,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-2-ovelse-3"
   },
   {
-    "id": "tiim-280",
-    "exerciseNumber": 81,
+    "id": "tiim-350",
+    "exerciseNumber": 350,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5832,8 +7854,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-3-ovelse-1"
   },
   {
-    "id": "tiim-281",
-    "exerciseNumber": 82,
+    "id": "tiim-351",
+    "exerciseNumber": 351,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5852,8 +7874,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-3-ovelse-2"
   },
   {
-    "id": "tiim-282",
-    "exerciseNumber": 83,
+    "id": "tiim-352",
+    "exerciseNumber": 352,
     "name": "UEFA PlayMakers – Frost  2, kapittel 3, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5872,8 +7894,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-3-ovelse-3"
   },
   {
-    "id": "tiim-283",
-    "exerciseNumber": 84,
+    "id": "tiim-353",
+    "exerciseNumber": 353,
     "name": "UEFA PlayMakers – Frost  2, kapittel 4, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5892,8 +7914,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-4-ovelse-1"
   },
   {
-    "id": "tiim-284",
-    "exerciseNumber": 85,
+    "id": "tiim-354",
+    "exerciseNumber": 354,
     "name": "UEFA PlayMakers – Frost  2, kapittel 4, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5912,8 +7934,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-4-ovelse-2"
   },
   {
-    "id": "tiim-285",
-    "exerciseNumber": 86,
+    "id": "tiim-355",
+    "exerciseNumber": 355,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5932,8 +7954,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-5-ovelse-1"
   },
   {
-    "id": "tiim-286",
-    "exerciseNumber": 87,
+    "id": "tiim-356",
+    "exerciseNumber": 356,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -5952,8 +7974,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-5-ovelse-2"
   },
   {
-    "id": "tiim-287",
-    "exerciseNumber": 88,
+    "id": "tiim-357",
+    "exerciseNumber": 357,
     "name": "UEFA PlayMakers – Frost  2, kapittel 5, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -5972,8 +7994,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-5-ovelse-3"
   },
   {
-    "id": "tiim-288",
-    "exerciseNumber": 89,
+    "id": "tiim-358",
+    "exerciseNumber": 358,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -5992,8 +8014,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-6-ovelse-1"
   },
   {
-    "id": "tiim-289",
-    "exerciseNumber": 90,
+    "id": "tiim-359",
+    "exerciseNumber": 359,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6012,8 +8034,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-6-ovelse-2"
   },
   {
-    "id": "tiim-290",
-    "exerciseNumber": 91,
+    "id": "tiim-360",
+    "exerciseNumber": 360,
     "name": "UEFA PlayMakers – Frost  2, kapittel 6, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6032,8 +8054,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-6-ovelse-3"
   },
   {
-    "id": "tiim-291",
-    "exerciseNumber": 92,
+    "id": "tiim-361",
+    "exerciseNumber": 361,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6052,8 +8074,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-7-ovelse-1"
   },
   {
-    "id": "tiim-292",
-    "exerciseNumber": 93,
+    "id": "tiim-362",
+    "exerciseNumber": 362,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6072,8 +8094,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-7-ovelse-2"
   },
   {
-    "id": "tiim-293",
-    "exerciseNumber": 94,
+    "id": "tiim-363",
+    "exerciseNumber": 363,
     "name": "UEFA PlayMakers – Frost  2, kapittel 7, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6092,8 +8114,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-7-ovelse-3"
   },
   {
-    "id": "tiim-294",
-    "exerciseNumber": 95,
+    "id": "tiim-364",
+    "exerciseNumber": 364,
     "name": "UEFA PlayMakers – Frost  2, kapittel 8, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6112,8 +8134,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-8-ovelse-1"
   },
   {
-    "id": "tiim-295",
-    "exerciseNumber": 96,
+    "id": "tiim-365",
+    "exerciseNumber": 365,
     "name": "UEFA PlayMakers – Frost  2, kapittel 8, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6132,8 +8154,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-frost-2-kapittel-8-ovelse-2"
   },
   {
-    "id": "tiim-296",
-    "exerciseNumber": 97,
+    "id": "tiim-366",
+    "exerciseNumber": 366,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6152,8 +8174,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-1-ovelse-1"
   },
   {
-    "id": "tiim-297",
-    "exerciseNumber": 98,
+    "id": "tiim-367",
+    "exerciseNumber": 367,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6172,8 +8194,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-1-ovelse-2"
   },
   {
-    "id": "tiim-298",
-    "exerciseNumber": 99,
+    "id": "tiim-368",
+    "exerciseNumber": 368,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6192,8 +8214,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-1-ovelse-3"
   },
   {
-    "id": "tiim-299",
-    "exerciseNumber": 100,
+    "id": "tiim-369",
+    "exerciseNumber": 369,
     "name": "UEFA PlayMakers – Vaiana, kapittel 1, øvelse 4",
     "category": "warmup",
     "duration": 12,
@@ -6212,8 +8234,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-1-ovelse-4"
   },
   {
-    "id": "tiim-300",
-    "exerciseNumber": 101,
+    "id": "tiim-370",
+    "exerciseNumber": 370,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6232,8 +8254,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-2-ovelse-1"
   },
   {
-    "id": "tiim-301",
-    "exerciseNumber": 102,
+    "id": "tiim-371",
+    "exerciseNumber": 371,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6252,8 +8274,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-2-ovelse-2"
   },
   {
-    "id": "tiim-302",
-    "exerciseNumber": 103,
+    "id": "tiim-372",
+    "exerciseNumber": 372,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6272,8 +8294,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-2-ovelse-3"
   },
   {
-    "id": "tiim-303",
-    "exerciseNumber": 104,
+    "id": "tiim-373",
+    "exerciseNumber": 373,
     "name": "UEFA PlayMakers – Vaiana, kapittel 2, øvelse 4",
     "category": "warmup",
     "duration": 12,
@@ -6292,8 +8314,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-2-ovelse-4"
   },
   {
-    "id": "tiim-304",
-    "exerciseNumber": 105,
+    "id": "tiim-374",
+    "exerciseNumber": 374,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6312,8 +8334,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-3-ovelse-1"
   },
   {
-    "id": "tiim-305",
-    "exerciseNumber": 106,
+    "id": "tiim-375",
+    "exerciseNumber": 375,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6332,8 +8354,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-3-ovelse-2"
   },
   {
-    "id": "tiim-306",
-    "exerciseNumber": 107,
+    "id": "tiim-376",
+    "exerciseNumber": 376,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6352,8 +8374,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-3-ovelse-3"
   },
   {
-    "id": "tiim-307",
-    "exerciseNumber": 108,
+    "id": "tiim-377",
+    "exerciseNumber": 377,
     "name": "UEFA PlayMakers – Vaiana, kapittel 3, øvelse 4",
     "category": "warmup",
     "duration": 12,
@@ -6372,8 +8394,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-3-ovelse-4"
   },
   {
-    "id": "tiim-308",
-    "exerciseNumber": 109,
+    "id": "tiim-378",
+    "exerciseNumber": 378,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6392,8 +8414,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-4-ovelse-1"
   },
   {
-    "id": "tiim-309",
-    "exerciseNumber": 110,
+    "id": "tiim-379",
+    "exerciseNumber": 379,
     "name": "UEFA PlayMakers – Vaiana, kapittel 4, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6412,8 +8434,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-4-ovelse-3"
   },
   {
-    "id": "tiim-310",
-    "exerciseNumber": 111,
+    "id": "tiim-380",
+    "exerciseNumber": 380,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6432,8 +8454,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-5-ovelse-1"
   },
   {
-    "id": "tiim-311",
-    "exerciseNumber": 112,
+    "id": "tiim-381",
+    "exerciseNumber": 381,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6452,8 +8474,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-5-ovelse-2"
   },
   {
-    "id": "tiim-312",
-    "exerciseNumber": 113,
+    "id": "tiim-382",
+    "exerciseNumber": 382,
     "name": "UEFA PlayMakers – Vaiana, kapittel 5, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6472,8 +8494,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-5-ovelse-3"
   },
   {
-    "id": "tiim-313",
-    "exerciseNumber": 114,
+    "id": "tiim-383",
+    "exerciseNumber": 383,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6492,8 +8514,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-6-ovelse-1"
   },
   {
-    "id": "tiim-314",
-    "exerciseNumber": 115,
+    "id": "tiim-384",
+    "exerciseNumber": 384,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6512,8 +8534,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-6-ovelse-2"
   },
   {
-    "id": "tiim-315",
-    "exerciseNumber": 116,
+    "id": "tiim-385",
+    "exerciseNumber": 385,
     "name": "UEFA PlayMakers – Vaiana, kapittel 6, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6532,8 +8554,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-6-ovelse-3"
   },
   {
-    "id": "tiim-316",
-    "exerciseNumber": 117,
+    "id": "tiim-386",
+    "exerciseNumber": 386,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6552,8 +8574,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-7-ovelse-1"
   },
   {
-    "id": "tiim-317",
-    "exerciseNumber": 118,
+    "id": "tiim-387",
+    "exerciseNumber": 387,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6572,8 +8594,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-7-ovelse-2"
   },
   {
-    "id": "tiim-318",
-    "exerciseNumber": 119,
+    "id": "tiim-388",
+    "exerciseNumber": 388,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6592,8 +8614,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-7-ovelse-3"
   },
   {
-    "id": "tiim-319",
-    "exerciseNumber": 120,
+    "id": "tiim-389",
+    "exerciseNumber": 389,
     "name": "UEFA PlayMakers – Vaiana, kapittel 7, øvelse 4",
     "category": "warmup",
     "duration": 12,
@@ -6612,8 +8634,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-7-ovelse-4"
   },
   {
-    "id": "tiim-320",
-    "exerciseNumber": 121,
+    "id": "tiim-390",
+    "exerciseNumber": 390,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 1",
     "category": "warmup",
     "duration": 12,
@@ -6632,8 +8654,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-8-ovelse-1"
   },
   {
-    "id": "tiim-321",
-    "exerciseNumber": 122,
+    "id": "tiim-391",
+    "exerciseNumber": 391,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 2",
     "category": "warmup",
     "duration": 12,
@@ -6652,8 +8674,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-8-ovelse-2"
   },
   {
-    "id": "tiim-322",
-    "exerciseNumber": 123,
+    "id": "tiim-392",
+    "exerciseNumber": 392,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 3",
     "category": "warmup",
     "duration": 12,
@@ -6672,8 +8694,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-8-ovelse-3"
   },
   {
-    "id": "tiim-323",
-    "exerciseNumber": 124,
+    "id": "tiim-393",
+    "exerciseNumber": 393,
     "name": "UEFA PlayMakers – Vaiana, kapittel 8, øvelse 4",
     "category": "warmup",
     "duration": 12,
@@ -6692,8 +8714,8 @@ const baseTiimExercises: ExerciseData[] = [
     "sourceUrl": "https://tiim.no/ovelse/uefa-playmakers-vaiana-kapittel-8-ovelse-4"
   },
   {
-    "id": "tiim-324",
-    "exerciseNumber": 135,
+    "id": "tiim-394",
+    "exerciseNumber": 394,
     "name": "Valencia – 1 mot 1: hindre mål",
     "category": "station",
     "duration": 12,
@@ -6706,10 +8728,38 @@ const baseTiimExercises: ExerciseData[] = [
     ],
     "description": "Sett opp baner med porter og mål i som vist på illustrasjon, viktig at de er smalere mot mål.Angriper starter med å føre ball gjennom port på sin side, for så å avslutte på mål.Når angriper har avsluttet på mål, blir hun/han forsvarer, og skal hindre mål fra angriper på motsatt side",
     "coachingPoints": [],
-    "variations": [],
+    "variations": [
+      "Avstand til mål - banestørrelse"
+    ],
     "scalable": true,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/valencia-1-mot-1-hindre-mal"
+  },
+  {
+    "id": "tiim-395",
+    "exerciseNumber": 395,
+    "name": "Vendingsstafett",
+    "category": "station",
+    "duration": 12,
+    "playersMin": 6,
+    "playersMax": 20,
+    "theme": "teknikk",
+    "equipment": [
+      "kjegler",
+      "baller"
+    ],
+    "description": "Gå sammen to og to på en ball. Første spiller fører ballen opp til blå kjegle og gjør en vending og fører til rød kjegle. Ved rød kjegle gjør man en vending og fører tilbake til blå kjegle. Ved blå kjegle gjør man en vending før man sentrer til makkeren sin og stiller seg bakerst i køa. Medspilleren kan begynne å føre når makkeren har kommet seg helt bort til den nye ballføreren.",
+    "coachingPoints": [
+      "Bruk små, kontrollerte touch og ha ballen tett på foten din.Stopp ballen med innsiden, utsiden eller sålen av foten.Snu kroppen samme vei som ballen.Før ballen i den nye retningen"
+    ],
+    "variations": [
+      "Lag konkurranser",
+      "Varier hvilken vending barna skal ta",
+      "Vis selv eller få et av barna til å vise god utførelse av sålevending, utsidevending, etc."
+    ],
+    "scalable": false,
+    "source": "tiim",
+    "sourceUrl": "https://tiim.no/ovelse/vendingsstafett"
   }
 ];
 

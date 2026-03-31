@@ -214,7 +214,7 @@ async function scrapeExercise(page, url) {
         type: [...new Set(type)],
         alder: [...new Set(alder)],
         organisering: getSection('Organisering'),
-        variasjoner: getListItems('Variasjoner'),
+        variasjoner: getSection('Variasjoner'),
         laeringsmomenter: getSection('Læringsmomenter'),
         kommentar: getSection('Kommentar')
       };

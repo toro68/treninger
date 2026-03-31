@@ -162,12 +162,23 @@ function isScalable(name) {
 function parseVariations(variasjonerText) {
   if (!variasjonerText) return [];
   if (Array.isArray(variasjonerText)) return variasjonerText.filter(v => v && v.trim());
-  
-  // Split på bullet points eller linjeskift
-  return variasjonerText
-    .split(/[•\n]/)
+
+  // Fjern "Relaterte øvelser" hvis den kom med
+  const cleaned = variasjonerText.replace(/Relaterte øvelser[\s\S]*/i, '').trim();
+  if (!cleaned) return [];
+
+  // Split på bullet points, linjeskift, eller dobbelt punktum
+  const variations = cleaned
+    .split(/[•\n]|(?:\. (?=[A-ZÆØÅ]))/)
     .map(v => v.trim())
-    .filter(v => v.length > 3);
+    .filter(v => v.length > 10 && !v.toLowerCase().startsWith('variasjoner'));
+
+  // Hvis vi ikke fant noe med splitting, returner hele teksten som én variasjon
+  if (variations.length === 0 && cleaned.length > 10) {
+    return [cleaned];
+  }
+
+  return variations;
 }
 
 // Parse læringsmomenter til coaching points
