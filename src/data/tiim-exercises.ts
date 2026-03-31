@@ -1874,8 +1874,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Situasjonsøvelse - 40",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 18,
+    "playersMax": 22,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
