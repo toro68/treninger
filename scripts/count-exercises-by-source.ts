@@ -16,10 +16,10 @@ console.log('📊 Antall øvelser per kilde\n');
 
 // Tell antall per source
 const countsBySource = allExercises.reduce((acc, exercise) => {
-  const source = exercise.source;
+  const source = exercise.source || 'undefined';
   acc[source] = (acc[source] || 0) + 1;
   return acc;
-}, {} as Record<ExerciseSource, number>);
+}, {} as Record<ExerciseSource | 'undefined', number>);
 
 // Sorter etter antall (høyest først)
 const sortedSources = Object.entries(countsBySource)

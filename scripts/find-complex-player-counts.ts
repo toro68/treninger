@@ -16,7 +16,7 @@ console.log('🔍 Søker etter øvelser med komplekse spilleroppsett...\n');
 interface Issue {
   id: string;
   name: string;
-  source: string;
+  source: string | undefined;
   playersMin: number;
   playersMax: number;
   description: string;

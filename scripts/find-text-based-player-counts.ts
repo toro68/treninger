@@ -34,7 +34,7 @@ const textNumberPattern = new RegExp(
 const issues: Array<{
   id: string;
   name: string;
-  source: string;
+  source: string | undefined;
   match: string;
   playersMin: number;
   playersMax: number;
