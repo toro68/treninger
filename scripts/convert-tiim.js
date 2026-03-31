@@ -111,14 +111,43 @@ const inferCategory = (exercise, theme) => {
 // Estimer spillerantall fra navn
 function estimatePlayerCount(name, organisering) {
   const text = `${name} ${organisering}`.toLowerCase();
-  
+
+  // Norske tallord 1-11
+  const norwegianNumbers = {
+    'en': 1, 'ett': 1,
+    'to': 2,
+    'tre': 3,
+    'fire': 4,
+    'fem': 5,
+    'seks': 6,
+    'sju': 7, 'syv': 7,
+    'åtte': 8,
+    'ni': 9,
+    'ti': 10,
+    'elleve': 11,
+  };
+
+  // Sjekk først for tekstbaserte tallord (f.eks. "ti mot ti", "fire mot fire")
+  const numberWords = Object.keys(norwegianNumbers).join('|');
+  const textNumberPattern = new RegExp(`\\b(${numberWords})\\s+(mot|v|vs)\\s+(${numberWords})\\b`, 'i');
+  const textMatch = text.match(textNumberPattern);
+
+  if (textMatch) {
+    const num1 = norwegianNumbers[textMatch[1]];
+    const num2 = norwegianNumbers[textMatch[3]];
+    if (num1 && num2) {
+      const total = num1 + num2;
+      return { min: total, max: Math.min(30, total * 2) };
+    }
+  }
+
   // Sjekk for eksplisitte tall
   const patterns = [
     { regex: /(\d+)\s*mot\s*(\d+)/i, calc: (m) => ({ min: parseInt(m[1]) + parseInt(m[2]), max: (parseInt(m[1]) + parseInt(m[2])) * 2 }) },
     { regex: /(\d+)v(\d+)/i, calc: (m) => ({ min: parseInt(m[1]) + parseInt(m[2]), max: (parseInt(m[1]) + parseInt(m[2])) * 2 }) },
     { regex: /(\d+)\s*-\s*(\d+)\s*spillere/i, calc: (m) => ({ min: parseInt(m[1]), max: parseInt(m[2]) }) },
   ];
-  
+
   for (const { regex, calc } of patterns) {
     const match = text.match(regex);
     if (match) {

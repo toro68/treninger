@@ -13,6 +13,8 @@
     "audit:themes": "tsx scripts/audit-exercise-themes.ts",
     "audit:tiim": "tsx scripts/audit-tiim-quality.ts",
     "audit:players": "tsx scripts/audit-exercise-player-counts.ts",
+    "audit:text-numbers": "tsx scripts/find-text-based-player-counts.ts",
+    "count:sources": "tsx scripts/count-exercises-by-source.ts",
     "prod:sjekk": "npm run lint:safe && npm run build && npm run test",
     "lint:safe": "npm run lint -- --ignore-pattern scripts/**",
     "test": "vitest run"

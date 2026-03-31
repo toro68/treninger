@@ -373,7 +373,7 @@ const baseTiimExercises: ExerciseData[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 3,
-    "playersMax": 10,
+    "playersMax": 6,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -442,7 +442,7 @@ const baseTiimExercises: ExerciseData[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 4,
-    "playersMax": 12,
+    "playersMax": 8,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
@@ -991,7 +991,7 @@ const baseTiimExercises: ExerciseData[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 10,
-    "playersMax": 24,
+    "playersMax": 20,
     "theme": "pasning",
     "equipment": [
       "kjegler",
@@ -1764,8 +1764,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Situasjonsøvelse - 34",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 8,
+    "playersMax": 16,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -1830,8 +1830,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Situasjonsøvelse - 37",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 8,
+    "playersMax": 16,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -1852,8 +1852,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Situasjonsøvelse - 38",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 8,
+    "playersMax": 16,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -1962,8 +1962,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Spill - 52",
     "category": "game",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 20,
+    "playersMax": 30,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
@@ -1984,7 +1984,7 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Spill - 53",
     "category": "game",
     "duration": 12,
-    "playersMin": 6,
+    "playersMin": 10,
     "playersMax": 20,
     "theme": "avslutning",
     "equipment": [
@@ -2498,7 +2498,7 @@ const baseTiimExercises: ExerciseData[] = [
     "category": "station",
     "duration": 12,
     "playersMin": 6,
-    "playersMax": 20,
+    "playersMax": 12,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -2966,8 +2966,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "F2-F3 Situasjonsøvelse - 74",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 8,
+    "playersMax": 16,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
@@ -3055,7 +3055,7 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "F2-F3 Spill - 84",
     "category": "game",
     "duration": 12,
-    "playersMin": 6,
+    "playersMin": 10,
     "playersMax": 20,
     "theme": "forsvar",
     "equipment": [
@@ -3342,8 +3342,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "Frankrike-øvelsen",
     "category": "station",
     "duration": 12,
-    "playersMin": 6,
-    "playersMax": 20,
+    "playersMin": 8,
+    "playersMax": 16,
     "theme": "forsvar",
     "equipment": [
       "kjegler",
