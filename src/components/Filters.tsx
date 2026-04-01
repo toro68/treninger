@@ -8,6 +8,7 @@ import {
   getAvailableSources,
   getAvailableTags,
   getAvailableThemes,
+  getThemeResetCount,
   humanizeTag,
   humanizeTheme,
   MAX_VISIBLE_SOURCES,
@@ -78,6 +79,38 @@ export const Filters = ({
         sectionPlayerCounts,
         keeperCount,
         sourceFilter,
+        activeThemes,
+        activeTags,
+        favoritesOnly,
+        favoriteIds,
+        searchQuery,
+      }),
+    [
+      activeTags,
+      exerciseLibrary,
+      favoritesOnly,
+      favoriteIds,
+      filterByPlayerCount,
+      activeThemes,
+      keeperCount,
+      playerCount,
+      playersPerStation,
+      searchQuery,
+      sectionPlayerCounts,
+      sourceFilter,
+    ]
+  );
+
+  const totalThemeCount = useMemo(
+    () =>
+      getThemeResetCount({
+        exerciseLibrary,
+        filterByPlayerCount,
+        playerCount,
+        playersPerStation,
+        sectionPlayerCounts,
+        keeperCount,
+        sourceFilter,
         activeTags,
         favoritesOnly,
         favoriteIds,
@@ -96,11 +129,6 @@ export const Filters = ({
       sectionPlayerCounts,
       sourceFilter,
     ]
-  );
-
-  const totalThemeCount = useMemo(
-    () => availableThemes.reduce((sum, entry) => sum + entry.count, 0),
-    [availableThemes]
   );
 
   const favoriteCount = useMemo(

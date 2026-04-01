@@ -1480,7 +1480,7 @@ describe("sessionStore", () => {
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["favorite-exercise"]);
     });
 
-    it("should require all selected tags when tag filter is used", () => {
+    it("should match any selected tag when tag filter is used", () => {
       const library: Exercise[] = [
         {
           id: "full-tag-match",
@@ -1521,7 +1521,7 @@ describe("sessionStore", () => {
         categories: new Set<string>(["station"]),
       });
 
-      expect(grouped.station?.map((ex) => ex.id)).toEqual(["full-tag-match"]);
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["full-tag-match", "partial-tag-match"]);
     });
 
     it("should treat keeper count as separate from outfield count for standard exercises", () => {

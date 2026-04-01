@@ -1075,7 +1075,7 @@ export const filterAndGroupExercises = ({
   const matchesTags = (exercise: Exercise) => {
     if (activeTags.length === 0) return true;
     if (!exercise.tags || exercise.tags.length === 0) return false;
-    return activeTags.every((tag) => exercise.tags?.includes(tag));
+    return activeTags.some((tag) => exercise.tags?.includes(tag));
   };
 
   for (const exercise of exerciseLibrary) {

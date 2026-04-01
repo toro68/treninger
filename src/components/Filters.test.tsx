@@ -76,8 +76,8 @@ describe("Filters", () => {
               playersMin: 4,
               playersMax: 20,
             },
-            { id: "2", theme: "pasning", source: "egen", tags: ["pep-sessions-vol2", "combination-play"], playersMin: 4, playersMax: 20 },
-            { id: "3", theme: "pasning", source: "egen", tags: ["pep-sessions-vol2"], playersMin: 4, playersMax: 20 },
+            { id: "2", theme: "pasning", tags: ["pep-sessions-vol2", "combination-play"], playersMin: 4, playersMax: 20 },
+            { id: "3", theme: "pasning", tags: ["pep-sessions-vol2"], playersMin: 4, playersMax: 20 },
           ],
         })
     );
@@ -131,7 +131,7 @@ describe("Filters", () => {
 
   it("should add multiple theme filters without clearing existing ones", () => {
     const props = renderFilters({ activeThemes: ["rondo"] });
-    const passingButton = screen.getByText("Pasning (2)");
+    const passingButton = screen.getByText("Pasning (3)");
     fireEvent.click(passingButton);
     expect(props.onThemeChange).toHaveBeenCalledWith(["rondo", "pasning"]);
   });
@@ -224,7 +224,6 @@ describe("Filters", () => {
               id: "2",
               name: "Pasningssirkel",
               theme: "pasning",
-              source: "egen",
               tags: ["pep-sessions-vol2", "combination-play"],
               playersMin: 4,
               playersMax: 20,
@@ -242,12 +241,28 @@ describe("Filters", () => {
     expect(screen.getByText(/tiim.no \(1\)/i)).toBeInTheDocument();
   });
 
-  it("should make tag counts respect already active tags", () => {
+  it("should make theme counts reflect the next multi-select click", () => {
+    renderFilters({ activeThemes: ["rondo"] });
+
+    expect(screen.getByText("Alle (3)")).toBeInTheDocument();
+    expect(screen.getByText("Rondo (1)")).toBeInTheDocument();
+    expect(screen.getByText("Pasning (3)")).toBeInTheDocument();
+  });
+
+  it("should make source counts reflect the next multi-select click", () => {
+    renderFilters({ sourceFilter: ["tiim"] });
+
+    expect(screen.getByText(/tiim\.no \(1\)/i)).toBeInTheDocument();
+    expect(screen.getByText(/Egne \(3\)/i)).toBeInTheDocument();
+    expect(screen.queryByText(/DBU/i)).not.toBeInTheDocument();
+  });
+
+  it("should make tag counts reflect the next additive click", () => {
     renderFilters({ activeTags: ["pep-sessions-vol2"] });
 
     expect(screen.getByTitle("pep-sessions-vol2")).toHaveTextContent("(2)");
-    expect(screen.getByTitle("combination-play")).toHaveTextContent("(1)");
-    expect(screen.queryByTitle("tiim-source")).not.toBeInTheDocument();
+    expect(screen.queryByTitle("combination-play")).not.toBeInTheDocument();
+    expect(screen.getByTitle("tiim-source")).toHaveTextContent("(3)");
   });
 });
 
