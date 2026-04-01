@@ -11,6 +11,24 @@ vi.mock("@/store/sessionStore", () => ({
     planningSectionMode === "stations"
       ? Array.from({ length: stationCount }, () => Math.floor(playerCount / stationCount))
       : [playerCount],
+  matchesExercisePlayerCountFilter: () => true,
+  matchesExerciseSearchQuery: (
+    exercise: { name?: string; theme?: string; tags?: string[]; source?: string; sourceUrl?: string },
+    searchQuery?: string
+  ) => {
+    if (!searchQuery) return true;
+    const haystack = [
+      exercise.name,
+      exercise.theme,
+      exercise.tags?.join(" "),
+      exercise.source,
+      exercise.sourceUrl,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    return haystack.includes(searchQuery.trim().toLowerCase());
+  },
 }));
 
 const renderFilters = (overrides: Partial<ComponentProps<typeof Filters>> = {}) => {
@@ -141,6 +159,87 @@ describe("Filters", () => {
     const tagButton = screen.getByTitle("combination-play");
     fireEvent.click(tagButton);
     expect(props.onTagChange).toHaveBeenCalledWith(["combination-play"]);
+  });
+
+  it("should clear search query when resetting all filters", () => {
+    (useSessionStore as unknown as ReturnType<typeof vi.fn>).mockImplementation(
+      (selector: (state: Record<string, unknown>) => unknown) =>
+        selector({
+          searchQuery: "rondo",
+          setSearchQuery: mockSetSearchQuery,
+          playerCount: 16,
+          keeperCount: 0,
+          stationCount: 4,
+          planningSectionMode: "single",
+          favoriteIds: new Set(["2"]),
+          exerciseLibrary: [
+            {
+              id: "1",
+              name: "A1-A2 Situasjonsovelse - 19",
+              sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
+              tags: ["tiim-source"],
+              theme: "rondo",
+              source: "tiim",
+              playersMin: 4,
+              playersMax: 20,
+            },
+          ],
+        })
+    );
+
+    const props = renderFilters({ favoritesOnly: true, filterByPlayerCount: true, activeThemes: ["rondo"], activeTags: ["tiim-source"], sourceFilter: ["tiim"] });
+    fireEvent.click(screen.getByText("Nullstill alle"));
+
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith([]);
+    expect(props.onThemeChange).toHaveBeenCalledWith([]);
+    expect(props.onTagChange).toHaveBeenCalledWith([]);
+    expect(props.onFavoritesOnlyChange).toHaveBeenCalledWith(false);
+    expect(props.onFilterByPlayerCountChange).toHaveBeenCalledWith(false);
+    expect(mockSetSearchQuery).toHaveBeenCalledWith("");
+  });
+
+  it("should make theme and source counts respect the active search query", () => {
+    (useSessionStore as unknown as ReturnType<typeof vi.fn>).mockImplementation(
+      (selector: (state: Record<string, unknown>) => unknown) =>
+        selector({
+          searchQuery: "situasjon",
+          setSearchQuery: mockSetSearchQuery,
+          playerCount: 16,
+          keeperCount: 0,
+          stationCount: 4,
+          planningSectionMode: "single",
+          favoriteIds: new Set(["2"]),
+          exerciseLibrary: [
+            {
+              id: "1",
+              name: "A1-A2 Situasjonsovelse - 19",
+              sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
+              tags: ["tiim-source"],
+              theme: "rondo",
+              source: "tiim",
+              playersMin: 4,
+              playersMax: 20,
+            },
+            {
+              id: "2",
+              name: "Pasningssirkel",
+              theme: "pasning",
+              source: "egen",
+              tags: ["pep-sessions-vol2", "combination-play"],
+              playersMin: 4,
+              playersMax: 20,
+            },
+          ],
+        })
+    );
+
+    renderFilters();
+
+    expect(screen.getByText("Alle (1)")).toBeInTheDocument();
+    expect(screen.getByText("Rondo (1)")).toBeInTheDocument();
+    expect(screen.queryByText("Pasning (1)")).not.toBeInTheDocument();
+    expect(screen.queryByText(/Egne/)).not.toBeInTheDocument();
+    expect(screen.getByText(/tiim.no \(1\)/i)).toBeInTheDocument();
   });
 });
 

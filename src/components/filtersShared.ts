@@ -1,6 +1,6 @@
 import type { Exercise, ExerciseData, ExerciseSource } from "@/data/exercises";
 import { isTiimSituationalExercise } from "@/data/exercises";
-import { matchesExercisePlayerCountFilter } from "@/store/sessionStore";
+import { matchesExercisePlayerCountFilter, matchesExerciseSearchQuery } from "@/store/sessionStore";
 
 export type SourceFilterValue = ExerciseSource | "egen" | "tiim-situasjon";
 export type ThemeFilter = string[];
@@ -143,20 +143,6 @@ export const humanizeTag = (tag: string) =>
 
 export const humanizeTheme = (theme: string) => capitalize(theme);
 
-export const getSourceCounts = (exerciseLibrary: Exercise[]) => {
-  const counts: Record<string, number> = {};
-
-  exerciseLibrary.forEach((exercise) => {
-    const key = exercise.source || "egen";
-    counts[key] = (counts[key] ?? 0) + 1;
-    if (isTiimSituationalExercise(exercise)) {
-      counts["tiim-situasjon"] = (counts["tiim-situasjon"] ?? 0) + 1;
-    }
-  });
-
-  return counts;
-};
-
 const matchesSelectedSource = (
   exercise: Pick<ExerciseData, "source" | "sourceUrl" | "tags" | "name">,
   sourceFilter: SourceFilter
@@ -184,31 +170,121 @@ const matchesFavoriteSelection = (
   favoriteIds: Set<string>
 ) => !favoritesOnly || favoriteIds.has(exercise.id);
 
+type AvailableFacetOptions = {
+  exerciseLibrary: Exercise[];
+  filterByPlayerCount: boolean;
+  playerCount: number;
+  playersPerStation?: number;
+  sectionPlayerCounts: number[];
+  keeperCount: number;
+  sourceFilter: SourceFilter;
+  activeThemes: ThemeFilter;
+  activeTags: string[];
+  favoritesOnly: boolean;
+  favoriteIds: Set<string>;
+  searchQuery: string;
+};
+
+const matchesSelectedTags = (
+  exercise: Pick<ExerciseData, "tags">,
+  activeTags: string[]
+) => {
+  if (activeTags.length === 0) return true;
+  if (!exercise.tags || exercise.tags.length === 0) return false;
+  return activeTags.every((tag) => exercise.tags?.includes(tag));
+};
+
+const matchesFacetExercise = (
+  exercise: Exercise,
+  {
+    filterByPlayerCount,
+    playerCount,
+    playersPerStation,
+    sectionPlayerCounts,
+    keeperCount,
+    sourceFilter,
+    activeThemes,
+    activeTags,
+    favoritesOnly,
+    favoriteIds,
+    searchQuery,
+  }: AvailableFacetOptions,
+  ignore: {
+    source?: boolean;
+    themes?: boolean;
+    tags?: boolean;
+  } = {}
+) => {
+  if (
+    filterByPlayerCount &&
+    !matchesExercisePlayerCountFilter(
+      exercise,
+      playerCount,
+      playersPerStation,
+      sectionPlayerCounts,
+      keeperCount
+    )
+  ) {
+    return false;
+  }
+  if (!ignore.source && !matchesSelectedSource(exercise, sourceFilter)) return false;
+  if (!ignore.themes && !matchesSelectedTheme(exercise, activeThemes)) return false;
+  if (!ignore.tags && !matchesSelectedTags(exercise, activeTags)) return false;
+  if (!matchesFavoriteSelection(exercise, favoritesOnly, favoriteIds)) return false;
+  if (!matchesExerciseSearchQuery(exercise, searchQuery)) return false;
+  return true;
+};
+
 export const getAvailableThemes = ({
   exerciseLibrary,
   filterByPlayerCount,
   playerCount,
+  playersPerStation,
   sectionPlayerCounts,
   keeperCount,
   sourceFilter,
+  activeTags,
+  favoritesOnly,
+  favoriteIds,
+  searchQuery,
 }: {
   exerciseLibrary: Exercise[];
   filterByPlayerCount: boolean;
   playerCount: number;
+  playersPerStation?: number;
   sectionPlayerCounts: number[];
   keeperCount: number;
   sourceFilter: SourceFilter;
+  activeTags: string[];
+  favoritesOnly: boolean;
+  favoriteIds: Set<string>;
+  searchQuery: string;
 }) => {
   const themeCounts: Record<string, number> = {};
 
   exerciseLibrary.forEach((exercise) => {
     if (
-      filterByPlayerCount &&
-      !matchesExercisePlayerCountFilter(exercise, playerCount, undefined, sectionPlayerCounts, keeperCount)
+      !matchesFacetExercise(
+        exercise,
+        {
+          exerciseLibrary,
+          filterByPlayerCount,
+          playerCount,
+          playersPerStation,
+          sectionPlayerCounts,
+          keeperCount,
+          sourceFilter,
+          activeThemes: [],
+          activeTags,
+          favoritesOnly,
+          favoriteIds,
+          searchQuery,
+        },
+        { themes: true }
+      )
     ) {
       return;
     }
-    if (!matchesSelectedSource(exercise, sourceFilter)) return;
 
     themeCounts[exercise.theme] = (themeCounts[exercise.theme] ?? 0) + 1;
   });
@@ -226,35 +302,54 @@ export const getAvailableTags = ({
   exerciseLibrary,
   filterByPlayerCount,
   playerCount,
+  playersPerStation,
   sectionPlayerCounts,
   keeperCount,
   sourceFilter,
   activeThemes,
+  activeTags,
   favoritesOnly,
   favoriteIds,
+  searchQuery,
 }: {
   exerciseLibrary: Exercise[];
   filterByPlayerCount: boolean;
   playerCount: number;
+  playersPerStation?: number;
   sectionPlayerCounts: number[];
   keeperCount: number;
   sourceFilter: SourceFilter;
   activeThemes: ThemeFilter;
+  activeTags: string[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
+  searchQuery: string;
 }) => {
   const tagCounts: Record<string, number> = {};
 
   exerciseLibrary.forEach((exercise) => {
     if (
-      filterByPlayerCount &&
-      !matchesExercisePlayerCountFilter(exercise, playerCount, undefined, sectionPlayerCounts, keeperCount)
+      !matchesFacetExercise(
+        exercise,
+        {
+          exerciseLibrary,
+          filterByPlayerCount,
+          playerCount,
+          playersPerStation,
+          sectionPlayerCounts,
+          keeperCount,
+          sourceFilter,
+          activeThemes,
+          activeTags,
+          favoritesOnly,
+          favoriteIds,
+          searchQuery,
+        },
+        { tags: true }
+      )
     ) {
       return;
     }
-    if (!matchesSelectedSource(exercise, sourceFilter)) return;
-    if (!matchesSelectedTheme(exercise, activeThemes)) return;
-    if (!matchesFavoriteSelection(exercise, favoritesOnly, favoriteIds)) return;
 
     for (const tag of exercise.tags ?? []) {
       tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
@@ -267,13 +362,66 @@ export const getAvailableTags = ({
 };
 
 export const getAvailableSources = ({
-  sourceCounts,
+  exerciseLibrary,
+  filterByPlayerCount,
+  playerCount,
+  playersPerStation,
+  sectionPlayerCounts,
+  keeperCount,
   sourceFilter,
+  activeThemes,
+  activeTags,
+  favoritesOnly,
+  favoriteIds,
+  searchQuery,
 }: {
-  sourceCounts: Record<string, number>;
+  exerciseLibrary: Exercise[];
+  filterByPlayerCount: boolean;
+  playerCount: number;
+  playersPerStation?: number;
+  sectionPlayerCounts: number[];
+  keeperCount: number;
   sourceFilter: SourceFilter;
-}) =>
-  Object.entries(FILTER_SOURCE_CONFIG)
+  activeThemes: ThemeFilter;
+  activeTags: string[];
+  favoritesOnly: boolean;
+  favoriteIds: Set<string>;
+  searchQuery: string;
+}) => {
+  const sourceCounts: Record<string, number> = {};
+
+  exerciseLibrary.forEach((exercise) => {
+    if (
+      !matchesFacetExercise(
+        exercise,
+        {
+          exerciseLibrary,
+          filterByPlayerCount,
+          playerCount,
+          playersPerStation,
+          sectionPlayerCounts,
+          keeperCount,
+          sourceFilter,
+          activeThemes,
+          activeTags,
+          favoritesOnly,
+          favoriteIds,
+          searchQuery,
+        },
+        { source: true }
+      )
+    ) {
+      return;
+    }
+
+    const key = exercise.source || "egen";
+    sourceCounts[key] = (sourceCounts[key] ?? 0) + 1;
+    if (isTiimSituationalExercise(exercise)) {
+      sourceCounts["tiim-situasjon"] = (sourceCounts["tiim-situasjon"] ?? 0) + 1;
+    }
+  });
+
+  return Object.entries(FILTER_SOURCE_CONFIG)
     .map(([key, config]) => ({
       key,
       ...config,
@@ -286,11 +434,13 @@ export const getAvailableSources = ({
       if (a.count !== b.count) return b.count - a.count;
       return a.label.localeCompare(b.label, "nb");
     });
+};
 
 export const getActiveFilterSummary = ({
   sourceFilter,
   activeThemes,
   activeTags,
+  searchQuery,
   favoritesOnly,
   filterByPlayerCount,
   sectionFilterLabel,
@@ -298,6 +448,7 @@ export const getActiveFilterSummary = ({
   sourceFilter: SourceFilter;
   activeThemes: ThemeFilter;
   activeTags: string[];
+  searchQuery: string;
   favoritesOnly: boolean;
   filterByPlayerCount: boolean;
   sectionFilterLabel: string;
@@ -310,6 +461,10 @@ export const getActiveFilterSummary = ({
     ...themeLabels.map((label) => ({ key: `theme-${label}`, label })),
     ...tagLabels.map((label) => ({ key: `tag-${label}`, label })),
   ];
+
+  if (searchQuery.trim()) {
+    summary.push({ key: "search", label: `Søk: ${searchQuery.trim()}` });
+  }
 
   if (favoritesOnly) {
     summary.push({ key: "favorites", label: "Favoritter" });

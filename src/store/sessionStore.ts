@@ -51,6 +51,33 @@ const compactSearchText = (value: string) =>
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]/g, "");
 
+export const matchesExerciseSearchQuery = (exercise: Exercise, searchQuery?: string) => {
+  const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
+  if (!normalizedSearch) return true;
+
+  const compactSearch = compactSearchText(searchQuery ?? "");
+  const exerciseCode = getExerciseCode(exercise).toLowerCase();
+  const haystackParts = [
+    exercise.name,
+    exercise.description,
+    exercise.theme,
+    exercise.tags?.join(" "),
+    exercise.equipment?.join(" "),
+    exercise.coachingPoints?.join(" "),
+    exercise.variations?.join(" "),
+    exercise.source,
+    exercise.sourceRef,
+    exerciseCode,
+  ].filter((part): part is string => Boolean(part));
+
+  const haystack = haystackParts.join(" ").toLowerCase();
+  if (haystack.includes(normalizedSearch)) return true;
+  if (!compactSearch) return false;
+
+  const compactHaystack = haystackParts.map((part) => compactSearchText(part)).join("");
+  return compactHaystack.includes(compactSearch);
+};
+
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
 export type PlanningSectionTarget = "auto" | "next-section" | `section-${number}`;
@@ -247,7 +274,6 @@ const mergePlannedBlockMetadata = (
         assignedCoachNames: block.assignedCoachNames,
       };
     });
-
   base.forEach((block) => {
     if (!plannedMap.has(block.id)) {
       merged.push(block);
@@ -1006,8 +1032,6 @@ export const filterAndGroupExercises = ({
   const sectionPlayerCounts = planningSectionMode
     ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2, keeperCount)
     : undefined;
-  const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
-  const compactSearch = searchQuery ? compactSearchText(searchQuery) : "";
   const activeThemes = Array.isArray(theme) ? theme : theme ? [theme] : [];
   const activeTags = tags ?? [];
   const activeSourceFilters = Array.isArray(sourceFilter)
@@ -1017,33 +1041,6 @@ export const filterAndGroupExercises = ({
       : [];
 
   const grouped: Record<string, Exercise[]> = {};
-
-  const matchesSearch = (exercise: Exercise) => {
-    if (!normalizedSearch) return true;
-    const exerciseCode = getExerciseCode(exercise).toLowerCase();
-    const haystackParts = [
-      exercise.name,
-      exercise.description,
-      exercise.theme,
-      exercise.tags?.join(" "),
-      exercise.equipment?.join(" "),
-      exercise.coachingPoints?.join(" "),
-      exercise.variations?.join(" "),
-      exercise.source,
-      exercise.sourceRef,
-      exerciseCode,
-    ]
-      .filter((part): part is string => Boolean(part));
-    const haystack = haystackParts.join(" ").toLowerCase();
-    if (haystack.includes(normalizedSearch)) return true;
-    if (!compactSearch) return false;
-
-    const compactHaystack = haystackParts
-      .map((part) => compactSearchText(part))
-      .join("");
-
-    return compactHaystack.includes(compactSearch);
-  };
 
   const matchesSource = (exercise: Exercise) => {
     if (activeSourceFilters.length === 0) return true;
@@ -1090,7 +1087,7 @@ export const filterAndGroupExercises = ({
     if (!matchesFavorites(exercise)) continue;
     if (!matchesSource(exercise)) continue;
     if (!matchesPlayerCount(exercise)) continue;
-    if (!matchesSearch(exercise)) continue;
+    if (!matchesExerciseSearchQuery(exercise, searchQuery)) continue;
 
     (grouped[effectiveCategory] ??= []).push(exercise);
   }

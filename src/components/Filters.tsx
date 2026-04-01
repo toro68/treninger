@@ -8,7 +8,6 @@ import {
   getAvailableSources,
   getAvailableTags,
   getAvailableThemes,
-  getSourceCounts,
   humanizeTag,
   humanizeTheme,
   MAX_VISIBLE_SOURCES,
@@ -53,7 +52,10 @@ export const Filters = ({
   const planningSectionMode = useSessionStore((state) => state.planningSectionMode);
   const exerciseLibrary = useSessionStore((state) => state.exerciseLibrary);
   const favoriteIds = useSessionStore((state) => state.favoriteIds);
+  const searchQuery = useSessionStore((state) => state.searchQuery);
+  const setSearchQuery = useSessionStore((state) => state.setSearchQuery);
   const outfieldPlayerCount = Math.max(1, playerCount - keeperCount);
+  const playersPerStation = stationCount > 0 ? Math.floor(outfieldPlayerCount / stationCount) : outfieldPlayerCount;
   const hasThemeFilter = activeThemes.length > 0;
 
   const sectionPlayerCounts = useMemo(
@@ -66,19 +68,34 @@ export const Filters = ({
       ? `${sectionPlayerCounts[0]} utespillere i seksjonen`
       : `${sectionPlayerCounts.join(" + ")} utespillere i seksjonen`;
 
-  const sourceCounts = useMemo(() => getSourceCounts(exerciseLibrary), [exerciseLibrary]);
-
   const availableThemes = useMemo(
     () =>
       getAvailableThemes({
         exerciseLibrary,
         filterByPlayerCount,
         playerCount,
+        playersPerStation,
         sectionPlayerCounts,
         keeperCount,
         sourceFilter,
+        activeTags,
+        favoritesOnly,
+        favoriteIds,
+        searchQuery,
       }),
-    [exerciseLibrary, filterByPlayerCount, keeperCount, playerCount, sectionPlayerCounts, sourceFilter]
+    [
+      activeTags,
+      exerciseLibrary,
+      favoritesOnly,
+      favoriteIds,
+      filterByPlayerCount,
+      keeperCount,
+      playerCount,
+      playersPerStation,
+      searchQuery,
+      sectionPlayerCounts,
+      sourceFilter,
+    ]
   );
 
   const totalThemeCount = useMemo(
@@ -97,14 +114,18 @@ export const Filters = ({
         exerciseLibrary,
         filterByPlayerCount,
         playerCount,
+        playersPerStation,
         sectionPlayerCounts,
         keeperCount,
         sourceFilter,
         activeThemes,
+        activeTags,
         favoritesOnly,
         favoriteIds,
+        searchQuery,
       }),
     [
+      activeTags,
       activeThemes,
       exerciseLibrary,
       favoritesOnly,
@@ -112,14 +133,43 @@ export const Filters = ({
       filterByPlayerCount,
       keeperCount,
       playerCount,
+      playersPerStation,
+      searchQuery,
       sectionPlayerCounts,
       sourceFilter,
     ]
   );
 
   const availableSources = useMemo(
-    () => getAvailableSources({ sourceCounts, sourceFilter }),
-    [sourceCounts, sourceFilter]
+    () =>
+      getAvailableSources({
+        exerciseLibrary,
+        filterByPlayerCount,
+        playerCount,
+        playersPerStation,
+        sectionPlayerCounts,
+        keeperCount,
+        sourceFilter,
+        activeThemes,
+        activeTags,
+        favoritesOnly,
+        favoriteIds,
+        searchQuery,
+      }),
+    [
+      activeTags,
+      activeThemes,
+      exerciseLibrary,
+      favoritesOnly,
+      favoriteIds,
+      filterByPlayerCount,
+      keeperCount,
+      playerCount,
+      playersPerStation,
+      searchQuery,
+      sectionPlayerCounts,
+      sourceFilter,
+    ]
   );
 
   const visibleSources = showAllSources ? availableSources : availableSources.slice(0, MAX_VISIBLE_SOURCES);
@@ -132,11 +182,12 @@ export const Filters = ({
         sourceFilter,
         activeThemes,
         activeTags,
+        searchQuery,
         favoritesOnly,
         filterByPlayerCount,
         sectionFilterLabel,
       }),
-    [activeTags, activeThemes, favoritesOnly, filterByPlayerCount, sectionFilterLabel, sourceFilter]
+    [activeTags, activeThemes, favoritesOnly, filterByPlayerCount, searchQuery, sectionFilterLabel, sourceFilter]
   );
 
   const resetAllFilters = () => {
@@ -145,6 +196,7 @@ export const Filters = ({
     onTagChange([]);
     if (favoritesOnly) onFavoritesOnlyChange(false);
     if (filterByPlayerCount) onFilterByPlayerCountChange(false);
+    if (searchQuery) setSearchQuery("");
   };
 
   return (
