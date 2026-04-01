@@ -1,4 +1,4 @@
-// Auto-generert fra tiim.no - 2026-03-31
+// Auto-generert fra tiim.no - 2026-04-01
 // Kilde: https://tiim.no/okter-og-ovelser
 
 import type { ExerciseData } from './exercises';
@@ -109,7 +109,9 @@ const baseTiimExercises: ExerciseData[] = [
       "ForsvarLøp mot spilleren som har ballen.Kom deg nær ballen og motstanderen.Stå i veien så spilleren ikke kommer seg fremover.Prøv å ta ballen når motstanderen mister kontroll på ballen."
     ],
     "variations": [
-      "BanestørrelseAntall spillereKonkurranse på tid"
+      "Banestørrelse",
+      "Antall spillere",
+      "Konkurranse på tid"
     ],
     "scalable": true,
     "source": "tiim",
@@ -204,7 +206,8 @@ const baseTiimExercises: ExerciseData[] = [
       "Bestem om du skal drible rett inn i et ledig rom eller om du må utfordre direkte mot en forsvarsspiller for å trekke på deg press først.Utfør finten med store, troverdige bevegelser og tempo for å passere.Kombiner blikk opp før skudd med fokus på ball i tilslaget.Velg pressretning (lede innover/utover).Beregn avstand og tidspunkt for press.Kombiner sidevendt kroppsstilling med lavt tyngdepunkt.Bruk armer til balanse og romfølelse uten å lage frispark.Tørre å vinne ball – snappe, takle eller bryte"
     ],
     "variations": [
-      "BanestørrelseFlere baner og konkurranse på tid"
+      "Banestørrelse",
+      "Flere baner og konkurranse på tid"
     ],
     "scalable": true,
     "source": "tiim",
@@ -338,7 +341,7 @@ const baseTiimExercises: ExerciseData[] = [
       "Riktig kroppsstilling og frekvens i beina i utgangsposisjoner og ved forflytningerBevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Korte tette touch for å utfordre, spille eller dra seg forbi. På jakt etter skuddmuligheter"
     ],
     "variations": [],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/1v1-2v1-2v2-nar-forsvarer-er-bak"
   },
@@ -473,7 +476,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en firkant med ett mål i kortenden av banen, og en «port» i hvert hjørne av samme kortende. Sett også opp et mål i motsatt kortende.Forsvarende lag starter øvelsen med å spille opp til angripende lagAngripende lag kan så score ved enten å skyte i målet eller føre ball gjennom porteneVinner forsvarende lag ballen, kan de score i motsatt kortende",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere eller overtall/undertall"
+      "Banestørrelse",
+      "Antall spillere eller overtall/undertall"
     ],
     "scalable": true,
     "source": "tiim",
@@ -519,7 +523,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Banestørrelse"
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-2v1-og-2v2-pa-lite-og-stort-mal"
   },
@@ -539,7 +543,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane, f.eks 16-meter feltet, med to store mål med keeper på ene siden.To angripere mot to forsvarer + keepere. Nye angriper og forsvarspar står klare på hver side, og starter når ballen er ute av spill for gruppen foranAngrepslaget skal forsøke å score på store mål. Hvis forsvarende lag vinner ball, kan de «score» ved å føre ball over linja på motsatt sideVed redning av keeper og ball fortsatt i spill, kan de sette i gang sine spillere for rask føring over linja",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere, overtall/undertall (eks. 3v2 + keepere)Offside"
+      "Banestørrelse",
+      "Antall spillere, overtall/undertall (eks. 3v2 + keepere)Offside"
     ],
     "scalable": true,
     "source": "tiim",
@@ -585,7 +590,8 @@ const baseTiimExercises: ExerciseData[] = [
       "Læringsmomenter ballfører:Temposkifter – «gire ned» for å «eksplodere» og drible forbi.Jakte avslutningsmuligheter – med begge bein og hodetKort tid mellom nest siste touch og avslutning når ball i boksLæringsmomenter resten av laget:Flest mulig trusler innenfor stengene, Plassere seg i blindsiden til motstanderTålmodig – holde avslutningsrom åpent. Timing = lese ballførers blikk og touchBevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»"
     ],
     "variations": [
-      "BanestørrelseAntall spillere"
+      "Banestørrelse",
+      "Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -819,7 +825,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Organiser flere lag med tre angripere og to forsvarere. Keeper i mål.Forsvarerne starter på hver side av mål, angriperne i avstand fra mål tilpasset alder og ferdighet. Bruk gjerne 16-meter feltetForsvarsspiller starter øvelsen ved å spille opp angrepslaget, som forsøker å komme til avslutning å score mål.Keeper og forsvarere skal forsøke å vinne ball, å kontrollere den ut av banenBytt roller ved behov",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere«Mål» for forsvarerne hvis de vinner ballNy ball fra kantene når første ball er i mål eller ute av spill"
+      "Banestørrelse",
+      "Antall spillere«Mål» for forsvarerne hvis de vinner ball",
+      "Ny ball fra kantene når første ball er i mål eller ute av spill"
     ],
     "scalable": false,
     "source": "tiim",
@@ -841,7 +849,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Organiser en bane på ca.50x30m, med tre småmål i hver ende. Marker midtbanen med tre kjegler eller mannequinerDel inn i lag av tre, minimum to lag på hver side (12 spillere)Et lag starter med ball fra hver side. Når de når midten, møter de tre forsvarere fra motsatt side. Angripende lag på begge baner forsøker å spille seg forbi motstander, og score på ett av de tre småmåleneVinner forsvarende lag ball, kan de forsøke å score på småmål på motsatt side",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere"
+      "Banestørrelse",
+      "Antall spillere"
     ],
     "scalable": true,
     "source": "tiim",
@@ -863,7 +872,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Bane med to like store soner med mål (keeper) i hver endeTo lag som når de har ballen skal forsøke å skyte og score fra sin sone på målet i motsatt sone.Det laget som ikke har ball kan eventuelt sende opp en spiller som presser i motstanderes sone.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillereBanestørrelse"
+      "Antall spillere",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -909,7 +919,8 @@ const baseTiimExercises: ExerciseData[] = [
       "Kontroll på overkropp og alltid en fot i bakken – korte ned stegene inn i press.Opp i blokk, blokker med framsiden av kroppen."
     ],
     "variations": [
-      "BanestørrelseAntall spillere"
+      "Banestørrelse",
+      "Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -931,7 +942,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med to soner og mål med keeper i hver endeFordel spillerne (4v4) med en spiller i «angrepssonen» og tre i «forsvarssonen»Angripende lag spiller så 3v1 i forsvarssonen, og forsøker å avslutte fra distanse (sonen)Forsvarere forsøker å hindre og blokkere skuddAngriper (spiss) i angrepssonen går på retur hvis mulig, men kan også score på pasning fra forsvarssonen",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere i hver sone"
+      "Banestørrelse",
+      "Antall spillere i hver sone"
     ],
     "scalable": false,
     "source": "tiim",
@@ -955,7 +967,8 @@ const baseTiimExercises: ExerciseData[] = [
       "Scanne fra topp til bunn – Ballfører skal alltid scanne banen fra topp til bunn for å se om han kan finne alternativer høyt i banen.Rundt og gjennom – Ballfører skal alltid ha mulighet til å spille rundt motstanderen og gjennom leddet deres. Måten vi beveger oss og posisjonerer oss på må alltid sørge for å tilby dette.Ettertrykk – Når ballen spilles forbi ledd må 2A/3A være forberedt og komme seg i posisjoner hvor de kan motta ballen av han som legger igjen."
     ],
     "variations": [
-      "Her er noen kreative tilnærminger for å utvikle og bygge videre på øvelsenSpilleren som sparker ballen til jokeren kan ikke motta ballen direkte tilbake",
+      "Her er noen kreative tilnærminger for å utvikle og bygge videre på øvelsen",
+      "Spilleren som sparker ballen til jokeren kan ikke motta ballen direkte tilbake",
       "Denne regelen fremprovoserer at lagkameratene må bevege seg slik at det blir ettertrykk og at de må se etter muligheter i situasjonene for å kunne spille ballen fremover i banen.For å gjøre overtallet mindre, og frispillingen bakfra vanskeligere, kan en innføre regel om at en bare har lov til å bruke endejokeren som er foran målene en skal score på.En kan innføre touchbegrensninger for å få spillerne til å måtte tenke kjappere.NB! Dette vil samtidig begrense spillerne i situasjoner hvor det vil være naturlig å drible motstander eller drive i rom."
     ],
     "scalable": false,
@@ -1047,7 +1060,7 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spill 5 mot 5 med 4 små mål.Organiser i ledd.",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseJoker"
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1069,7 +1082,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spill 5 mot 5 med 4 små målOrganiser i ledd",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere"
+      "Banestørrelse",
+      "Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1093,7 +1107,9 @@ const baseTiimExercises: ExerciseData[] = [
       "AngrepMomenter 1. angriper:Angripe hurtig fremover. Søke å spille kontrollert inn i (1) bakrom eller (2) mellomrom sentralt (3) Rettvendt i sidekorridorBeholde oversikt med ball i beina og kunne ombestemme valgHurtige pasningsvalg eller føre ball i stor fart for å utnytte rom med korte hurtige touch og oversiktUtnytte ubalanse gjennom føring i fart, utfordre på, «ta kommandoen»Oversikt og ballkontroll i små rom/under press for å spille fremover eller vende spillOpprettholde eller forsterke ubalanse gjennom temposkifte når vi er i prioritert romNy aksjon umiddelbart for å gjøre seg spillbar på nytt og / eller skape romMomenter resten av laget:Oversikt med åpen kroppsvinkel over ledige rom, medspillere og motspillereAngripe hurtig fremover. Bevegelse inn i bakrom, mellomrom sentralt og trussel i sidekorridorTrue flere rom samtidig med bevegelse og posisjonSpillere bak ball – intiativ forbi ballfører eller i støtteposisjonBall sentralt – bredde i lagetBall bredt – motsatt kant og back inn i banen for balanse, spillbarhet og trusselBeredskap bak ball med organisert offensiv markeringForsvarMomenter 1F og vi andreKontroll på sentrale romKorte avstander mellom spillerneKom deg nær ballen og motstanderenHold blikket på ballen, ikke på finterPrøv å få kroppskontakt før du takler"
     ],
     "variations": [
-      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVarier med jokerAntall spillere"
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivå",
+      "Varier med joker",
+      "Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1118,7 +1134,9 @@ const baseTiimExercises: ExerciseData[] = [
       "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
     "variations": [
-      "Flytt på veggeneLegg inn en jokerVarier banestørrelse"
+      "Flytt på veggene",
+      "Legg inn en joker",
+      "Varier banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1140,7 +1158,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spill 4 mot 4 + keeper mot ett målOrganiser i to ledd, forsvar og angrep",
     "coachingPoints": [],
     "variations": [
-      "Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmålVarier banestørrelsen.Minske/øke antall spillere.Bruk av joker(e)."
+      "Når forsvarende lag/spiller vinner ballen, kan de score på motsatt side, enten ved å føre over linje eller på småmål",
+      "Varier banestørrelsen.Minske/øke antall spillere.Bruk av joker(e)."
     ],
     "scalable": false,
     "source": "tiim",
@@ -1191,7 +1210,8 @@ const baseTiimExercises: ExerciseData[] = [
       "sikring rundt førsteforsvarer hurtig på plassHurtig «korte og tette». Motstander skal nektes all form for ballkontroll mellom oss og inn bak ossLese romforhold og ballførers blikk og fot. Falle av og pumpe ut kombinert med at vi sideforskyverJustere lagets høyde samtidig som vi sideskyverOverspilte spillere hurtig inn i press eller full fart i returløpSidestillt kroppstilling i bakre leddVære på å jakt etter muligheter for F1, og reagere hurtig og samla på tydelig definerte pressesignaler som støttepasning, feilvendt spiller, ball til back etc"
     ],
     "variations": [
-      "Antall spillereBlir det for vanskelig å se igjen bildene knyttet til 1F rollen så kan vi lage banen litt mindre igjen."
+      "Antall spillere",
+      "Blir det for vanskelig å se igjen bildene knyttet til 1F rollen så kan vi lage banen litt mindre igjen."
     ],
     "scalable": false,
     "source": "tiim",
@@ -1213,7 +1233,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en sirkel inne i en større spillbane som vist på animasjon. Et småmål i hvert hjørne.3v3 inne i sirkelen, 2v2 utenfor. Spillet begynner i sirkelen.Når et lag har oppnådd et valgfritt antall pasninger innenfor eller ved hjelp fra medspillere utenfor sirkelen, kan angripende lag «bryte ut» og score på småmålene i 5v5.Vinner forsvarende lag ballen utenfor sirkelen, kan de også score på småmålene",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall pasninger før «break out»Antall spillere"
+      "Banestørrelse",
+      "Antall pasninger før «break out»Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1235,7 +1256,10 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spill 6 mot 6 med scoring i endesoneneGodkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen",
     "coachingPoints": [],
     "variations": [
-      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVed scoring i en endesone snur man retningen på spilletVarier med jokerKeepere brukes i endesonen"
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivå",
+      "Ved scoring i en endesone snur man retningen på spillet",
+      "Varier med joker",
+      "Keepere brukes i endesonen"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1257,7 +1281,10 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spill 6 mot 6 med scoring i endesoneneGodkjent scoring når angrepsspiller fører ballen med kontroll inn i endesonen",
     "coachingPoints": [],
     "variations": [
-      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivåVed scoring i en endesone snur man retningen på spilletVarier med jokerKeepere brukes i endesonen"
+      "Lage området større (lengere eller bredere) eller mindre ut fra ferdighetsnivå",
+      "Ved scoring i en endesone snur man retningen på spillet",
+      "Varier med joker",
+      "Keepere brukes i endesonen"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1282,7 +1309,8 @@ const baseTiimExercises: ExerciseData[] = [
       "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
     "variations": [
-      "Antall spillereBanestørrelseOffside"
+      "Antall spillere",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1304,7 +1332,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med to store mål med keeper. Lag to endesoner, og en midtsoneHvert lag har tre spillere i hver endesone. To angrepsspillere i midtsonen, som alltid er med angrepslaget.Øvelsen starter fra keeper, hvor tre angripere skal forsøke å spille seg ut av egen sone, og opp til midtsonen. Klarer de det, kan en spiller fra midtsonen bli med i angrep i motsatt endesone hvor det blir overtall av utespillere (4v3 + keeper)",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereAntall «nøytrale» spillere som kan bli med i angrep"
+      "Banestørrelse",
+      "Antall spillere",
+      "Antall «nøytrale» spillere som kan bli med i angrep"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1329,7 +1359,8 @@ const baseTiimExercises: ExerciseData[] = [
       "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
     "variations": [
-      "Antall spillereBlir det for vanskelig å se igjen bildene knyttet til1F rollen så kan vi lage banen litt mindre igjen."
+      "Antall spillere",
+      "Blir det for vanskelig å se igjen bildene knyttet til1F rollen så kan vi lage banen litt mindre igjen."
     ],
     "scalable": false,
     "source": "tiim",
@@ -1354,7 +1385,8 @@ const baseTiimExercises: ExerciseData[] = [
       "True ulike rom; 1. stolpe, bakre stolpe og «45»Bevegelser for å komme først på ballen: Sprint, stå i ro, « fra – imot», «imot – fra»Beredskap bak ball med offensiv markeringForsvarLæringsmomenter førsteforsvarer:Tett press (aggressiv og tålmodig) – se på ballenStresse ballfører; forsøke å vinne ball, oppholde og / eller lede vekk fra mål. Ta rommet mellom ballfører og ball før man tar ballStå i pressesjobben til ballen er spilt . Raskt i rett posisjon når pressesjobben er overAlltid en fot i bakken – korte ned stegene inn i pressKontroll på overkroppen i utgangsposisjoner for raskt å kunne gå i alle retninger.Læringsmomenter resten av laget:Stenge tilgang på bakrom gjennom å falle samla og sentrere med bakre ledd.Korte avstander bak presset – Sikring på 1. forsvarerGå i kropp på trusler inn i bakrom – vær først på ballen!Returløp – spillere på feil side må komme seg på rett side"
     ],
     "variations": [
-      "TouchbegrensningerBanestørrelse"
+      "Touchbegrensninger",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -1401,7 +1433,7 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Ordinært spill med 11 mot 11 på full bane",
     "coachingPoints": [],
     "variations": [],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/11-v-11-spillovelse"
   },
@@ -1874,8 +1906,8 @@ const baseTiimExercises: ExerciseData[] = [
     "name": "A2-A3 Situasjonsøvelse - 40",
     "category": "station",
     "duration": 12,
-    "playersMin": 18,
-    "playersMax": 22,
+    "playersMin": 6,
+    "playersMax": 20,
     "theme": "avslutning",
     "equipment": [
       "kjegler",
@@ -2193,7 +2225,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med tre soner og mål med keeper i hver endeI midtsonen spilles det 3v3, i endesonene 1v1Ved å spille opp angrepsspiller(spiss) i endesone, kan angripende lag ta med maks to angrepsspillere inn (3v1) for å scoreForsvarere forsøker å hindre og blokkere skuddBytt roller ved behov",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere i hver soneTrener setter i gang tidlig ny ball for overganger med overtall i midtsonen"
+      "Banestørrelse",
+      "Antall spillere i hver sone",
+      "Trener setter i gang tidlig ny ball for overganger med overtall i midtsonen"
     ],
     "scalable": false,
     "source": "tiim",
@@ -2239,7 +2273,10 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp flere små baner med to småmål i hver ende, og en firkant i midtenLegg ut baller i forskjellige posisjonerPå signal (og tid) starter en eller to spillere, hvor de skal skyte flest baller i nærmeste mål. Spillerne må innom midten før hvert skudd på mål",
     "coachingPoints": [],
     "variations": [
-      "Mål med keeperKonkurranse på tidBanestørrelse og avstand til målOppfordre til å bruke begge bein ved skudd"
+      "Mål med keeper",
+      "Konkurranse på tid",
+      "Banestørrelse og avstand til mål",
+      "Oppfordre til å bruke begge bein ved skudd"
     ],
     "scalable": false,
     "source": "tiim",
@@ -2303,7 +2340,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Spillere starter på hver sin side av treneren.Treneren spiller pasning ut i spillområdet.Spillerne kjemper om ballen og prøver å drible seg forbi hverandre og mot mål for å komme til avslutning.",
     "coachingPoints": [],
     "variations": [
-      "Avstand til målIgangsetting med forskjellig kraft, vinkel og høyde."
+      "Avstand til mål",
+      "Igangsetting med forskjellig kraft, vinkel og høyde."
     ],
     "scalable": true,
     "source": "tiim",
@@ -2325,7 +2363,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasinTrener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
     "variations": [
-      "Trener kan også rope ut flere spillere underveis.BanestørrelseIgangsetting med forskjellig kraft, vinkel og høyde."
+      "Trener kan også rope ut flere spillere underveis.Banestørrelse",
+      "Igangsetting med forskjellig kraft, vinkel og høyde."
     ],
     "scalable": false,
     "source": "tiim",
@@ -2393,7 +2432,9 @@ const baseTiimExercises: ExerciseData[] = [
       "Utfør finten med store, troverdige bevegelser og tempo for å passere.Skjerm ballen med kroppen og bruk riktig fot for situasjonen.Velg raskt neste handling (pasning, skudd, videre føring).Velg skuddtype (bredside, vrist, volley, halvsprett).Treffpunkt på ballen: midt for rett skudd, under for å løfte, siden for skru."
     ],
     "variations": [
-      "BanestørrelseAntall spillere, 2v1 eller 2v2Mål med keeperBytte fra forsvarer til angriper hvis du vinner ball",
+      "Banestørrelse",
+      "Antall spillere, 2v1 eller 2v2Mål med keeper",
+      "Bytte fra forsvarer til angriper hvis du vinner ball",
       "Angriper som mister ball blir da forsvarer"
     ],
     "scalable": true,
@@ -2416,7 +2457,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med ni forsvarssoner (se illustrasjon). Plasser en forsvarsspiller i hver sone, hvor de ikke har lov til å bevege seg utenfor.Angrepsspillerne starter med hver sin ball på en side, og skal forsøke å dribble seg igjennom forsvarssonene og over på motsatt side.Mister de ball til forsvarer, bytter de plass.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillereBanestørrelse"
+      "Antall spillere",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -2485,7 +2527,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Organiser en bane mot ett stort mål med keeper, og to småmål i motsatt ende. Størrelse på banen er avhengig av alder og ferdigheterLag friområder i hver korridor, hvor angriper kan få legge innlegg uten pressTrener starter øvelsen hvor tre angrepsspillere skal angripe i boks mot tre forsvarere og keeper. Angrepet skal gå via korridor/friområde og innlegg i boksenVinner forsvarende lag ballen, kan de forsøke å score på småmål eller sette ballen ut av spill",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillerePlassering og størrelse på korridor/friområde"
+      "Banestørrelse",
+      "Antall spillere",
+      "Plassering og størrelse på korridor/friområde"
     ],
     "scalable": false,
     "source": "tiim",
@@ -2509,7 +2553,9 @@ const baseTiimExercises: ExerciseData[] = [
       "Prøv å føre ballen fremover og skyte når du har ballen (ikke bare sparke den oppover)Hvis vennen din har ballen, trekk unna så ballføreren får bedre plassHvis det andre laget har ballen, løp for å ta fra dem ballen"
     ],
     "variations": [
-      "Score mål på ulike måter:2 småmål4 småmålScore over linjaSkyte ned baller/kjegler"
+      "Score mål på ulike måter:2 småmål4 småmål",
+      "Score over linja",
+      "Skyte ned baller/kjegler"
     ],
     "scalable": false,
     "source": "tiim",
@@ -2632,7 +2678,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Lag en stor sirkel. 10-12 spillere.Sett sammen par inne i sirkelen hvor en er angriper og en forsvarer. Resten av spillerne utenfor sirkelenAngrepspillere i sirkelen kan motta ball fra spiller utenfor sirkelen, for så å forsøke å spille til ny spiller utenfor uten å miste ball til sin «oppasser».Bytte roller etter tid, eller bytt roller i midten når forsvarer vinner ball.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillere i og utenfor sirkelBanestørrelse"
+      "Antall spillere i og utenfor sirkel",
+      "Banestørrelse"
     ],
     "scalable": true,
     "source": "tiim",
@@ -3352,7 +3399,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med tre soner og fire kjegle mål som vist på illustrasjon.Start spillet fire mot fire i midtsonen. Når angrepslaget klarer å spille seg gjennom ett av sine to kjeglemål, skal de via 1A(ballfører) forsøke å score på keeper i endesonen. En forsvarer kan følge med inn og forsøke å forhindre scoring.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillereBanestørrelse"
+      "Antall spillere",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3421,7 +3469,12 @@ const baseTiimExercises: ExerciseData[] = [
       "mot medspillerFøre med kontroll: mange berøringerFøre med fart: færre berøringerSnill pasning til medspiller"
     ],
     "variations": [
-      "Føre med ball tett på fotFøre med ulik fartFøre med mange berøringerFøre med få berøringerFøre på ulike måter: mellom beina, ytterside, innerside, ytterside – innerside, sikk – sakk etcKan organiseres som stafett"
+      "Føre med ball tett på fot",
+      "Føre med ulik fart",
+      "Føre med mange berøringer",
+      "Føre med få berøringer",
+      "Føre på ulike måter: mellom beina, ytterside, innerside, ytterside – innerside, sikk – sakk etc",
+      "Kan organiseres som stafett"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3446,7 +3499,8 @@ const baseTiimExercises: ExerciseData[] = [
       "mot medspillerFøre med kontroll: mange berøringerFøre med fart: færre berøringerSnill pasning til medspillerRolig inn – fart ut"
     ],
     "variations": [
-      "Legger inn avslutning på målKan organiseres som stafett"
+      "Legger inn avslutning på mål",
+      "Kan organiseres som stafett"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3498,7 +3552,8 @@ const baseTiimExercises: ExerciseData[] = [
       "Bruk små, kontrollerte touch og ha ballen tett på foten din.Se opp av og til for å finne vei.Se opp og sikt før du sparker ballen.Se på ballen når du sparker.Bruk innsiden av foten og treff midt på ballen"
     ],
     "variations": [
-      "Sikk – sakk løypa varieres: lengde, avstand, kjegler og i ytterkanter, kjegler.Avstand skuddholdKan organiseres som stafett"
+      "Sikk – sakk løypa varieres: lengde, avstand, kjegler og i ytterkanter, kjegler.Avstand skuddhold",
+      "Kan organiseres som stafett"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3588,7 +3643,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "To lag stiller seg opp bak hver sin dødlinje. 5–7 spillere på hvert lag.Trener står med ballmagasinTrener spiller ballen til et av lagene, og roper f.eks. «to rød, to blå». Det antall spillere som er ropt ut, spiller mot hverandre, og skal forsøke å spille seg kontrollert forbi motstanders dødlinje.Situasjonen varer til ballen er ute av spill. Da setter trener i gang ny ball og roper f.eks. «tre rød, to blå».",
     "coachingPoints": [],
     "variations": [
-      "Trener kan også rope ut flere spillere underveis.BanestørrelseIgangsetting med forskjellig kraft, vinkel og høyde."
+      "Trener kan også rope ut flere spillere underveis.Banestørrelse",
+      "Igangsetting med forskjellig kraft, vinkel og høyde."
     ],
     "scalable": false,
     "source": "tiim",
@@ -3656,7 +3712,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "5 angrepspillere mot 2 forsvarere + keeper. (bør være dobbelt sett).Sentral midtbanespiller starter med ball. Slår opp på feilvendt spiss, som legger igjen / eventuelt vinkler ut på kant.Kantspiller skal utfordre kjegla før han / hun slår innlegg.Deretter duell i boksen med to spisser og motsatt kant vs stoppere og keeper.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillere i forsvarBanestørrelse"
+      "Antall spillere i forsvar",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3771,7 +3828,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en sekskantet bane som vist på animasjonen, størrelse etter alder og ferdighet. Smalere kortender tvinger fram flere angrep i «boks».Spill 3v3, 4v4 eller 5v5Spiller som scorer bytter lag, slik at det skapes overtall/undertallBytt tilbake til liketall på tid, eller ved ny scoring",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere"
+      "Banestørrelse",
+      "Antall spillere"
     ],
     "scalable": false,
     "source": "tiim",
@@ -3793,7 +3851,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med to store mål med keeper. Lag to endesoner (boks) hvor forsvarerne er, og en midtsone hvor angriperne starterOrganiser spillerne i fire lags grupper med tre spillere i hver. Fordel treerlagene i midtsone, endesoner og vegger som slår innlegg i boksNår et angrepslag har scoret på en side, eller ballen er ute av spill, fortsetter de på motsatt sideRullér lag regelmessig eller på tid",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereAntall angrep på tid"
+      "Banestørrelse",
+      "Antall spillere",
+      "Antall angrep på tid"
     ],
     "scalable": true,
     "source": "tiim",
@@ -3908,7 +3968,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "1 mot 1 øvelse hvor angriper skal score enten ved å legge ballen død på en av kjeglene/cone på hver side av midtstrek (1 poeng), eller dribble forsvarspilleren og score på småmålet i andre enden av banenØvelsen starter ved at forsvarer spiller opp angriper",
     "coachingPoints": [],
     "variations": [
-      "Serv kommer fra en tredje spiller eller trenerBanestørrelse"
+      "Serv kommer fra en tredje spiller eller trener",
+      "Banestørrelse"
     ],
     "scalable": true,
     "source": "tiim",
@@ -3955,7 +4016,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp små kvadrater med 5 angripere, alle med hver sin ball. Lag så en mindre firkant de skal føre/drible ballen frem til1 forsvarer skal forsøke å vinne ball og hindre angriperne å føre ball til den minste firkantenNår angriper har klart å plassere sin ball i firkanten, blir de med og skaper overtall for de som fortsatt har ball i spillØvelsen er over når alle ballene er plassert i firkanten eller ute av spill",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereBytte fra forsvarer til angriper hvis du vinner ball",
+      "Banestørrelse",
+      "Antall spillere",
+      "Bytte fra forsvarer til angriper hvis du vinner ball",
       "Angriper som mister ball blir da forsvarer"
     ],
     "scalable": false,
@@ -3978,7 +4041,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp to «korridorer» hvor spillerne skal løpe om kapp, sett så opp et mål i hver enda av korridoren. Disse kan plasseres i forskjellig posisjon og avstand avhengig av ønsket vanskelighetsgradPå signal løper to spillere om kapp gjennom korridoreneNår spillerne når enden av korridorene, mottar de ball av to trenere eller spillereNår mottatt ball skal de score på sitt mål så raskt som mulig",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelsePlassering av mål, eventuelt mål med keepereLagkonkurranse/stafett"
+      "Banestørrelse",
+      "Plassering av mål, eventuelt mål med keepere",
+      "Lagkonkurranse/stafett"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4000,7 +4065,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp fire mål i en sirkel, del sirkelen i fire like deler og lag en ballstasjon i midten4 angrepsspillere i midten og en forsvarsspiller i hver del av sirkelenDe fire angrepsspillerne angriper hvert sitt mål, og fortsetter til alle ballene enten er i mål eller ute av spill (sirkelen).Bytt angreps- og forsvarsspillere på tid eller når det ikke er baller igjen",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall angrepsspillere, f.eks 2 mot 1 når det er få baller igjenKonkurranse på tid"
+      "Banestørrelse",
+      "Antall angrepsspillere, f.eks 2 mot 1 når det er få baller igjen",
+      "Konkurranse på tid"
     ],
     "scalable": true,
     "source": "tiim",
@@ -4022,7 +4089,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "4 mål plasseres i en firkant, med en mindre firkant i midten. Størrelse justeres etter ferdigheter og alder.Forsvarsspiller spiller opp angriper, som raskest mulig fører ball inn i firkanten i midten, før det er lov til å score på de fire målene.Forsvarer så raskt som mulig opp i press, og forsøke å vinne ball/hindre mål1 poeng for å score i de to nærmeste målene, 2 poeng for de lengst unnaNår du har vært angriper, bytter du side til forsvarer",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseForsvarer kan score hvis hun/han vinner ball"
+      "Banestørrelse",
+      "Forsvarer kan score hvis hun/han vinner ball"
     ],
     "scalable": true,
     "source": "tiim",
@@ -4044,7 +4112,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp baner for 1v1 (eks. 8 x 16m), med ett kjegle mål/port i hver kortende2-3 spillere i hver ende av banenTrener/ledig spiller setter i gang angriper fra vilkårlig ende, hvor spiller på motsatt ende blir forsvarer, og skal vinne ball/hindre motstander å passere (score mål)Når ball er ute av spill, enten ved scoring eller over side/endelinje, bytter angriper til forsvarer. Ny angriper starter fra motsatt side fra hvor øvelsen startetVinner forsvarer ball i åpent spill, kan det scores på motsatt side",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseFlere «mål» på kortende, med poeng for hvor en fører over"
+      "Banestørrelse",
+      "Flere «mål» på kortende, med poeng for hvor en fører over"
     ],
     "scalable": true,
     "source": "tiim",
@@ -4066,9 +4135,11 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp to baner med mål i hver ende (små, eller store med keeper)Organiser spillerne dine i en 1v1 på den ene banen og 2v2 på den andre. I tillegg spillere som «vegger» med ballmagasinSett i gang øvelsen enten ved pasning fra en av veggene, eller ved at en angriper starter med ballPå tid, eller ved at det ikke er flere baller tilgjengelig, skal det scores flest mulig ganger. Hurtige overganger fra angrep til forsvar.Innlegg og pasning fra forskjellig avstand, vinkel og høyde til spillerne inne på banenRuller spillerne på posisjoner og baner",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereMål med keepere"
+      "Banestørrelse",
+      "Antall spillere",
+      "Mål med keepere"
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-1v1-og-2v2-score-mal-hindre-mal"
   },
@@ -4088,7 +4159,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Lag en bane på ca 30-40x40-50m, bruk stort mål i ene enden med keeper, og to småmål i motsatt ende.Del inn spillerne i grupper på forsvarere og angriperePå signal starter to angripere og to forsvarere, angrepsspiller mottar ball fra trener/ledig spillerAngrepslag forsøker score på keeper i stort mål. Vinner forsvarende lag ballen, kan de forsøke å score på småmål eller sette ballen ut av spillBytt roller ved behov",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillere, overtall/undertall"
+      "Banestørrelse",
+      "Antall spillere, overtall/undertall"
     ],
     "scalable": true,
     "source": "tiim",
@@ -4110,7 +4182,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp to baner, med et småmål på ene enden av hver baneStart med fire angrepsspillere per firkant. På signal bytter en spiller fra hver side firkant, og blir forsvarsspiller (3v1).Vinner forsvarsspiller ball, skal de score på småmålBytt forsvarsspiller regelmessig",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall småmål per bane for flere scoringsmuligheter"
+      "Banestørrelse",
+      "Antall småmål per bane for flere scoringsmuligheter"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4132,7 +4205,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp flere baner med firkanter i hvert hjørne, og en i midten.4-8 angrepsspillere starter med ball i firkanten i midten, mens 2-4 forsvarsspillere forsvarer firkantene i hjørneneHver angrepsspiller skal forsøke å drible seg inn i hvert hjørne i tilfeldig rekkefølge. Mister de ball må de begynne på nytt, eller få ny oppgave utenfor banen (eks. i kombinasjon med annen øvelse)Bytt angreps- og forsvarsspillere ofte",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereKonkurranse på tid, hvem klarer først alle fire hjørner"
+      "Banestørrelse",
+      "Antall spillere",
+      "Konkurranse på tid, hvem klarer først alle fire hjørner"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4154,7 +4229,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane med to mål med keeperPå signal starter to spillere med hver sin ball, hvor de skal føre ball gjennom en «triangel» og til høyre eller venstre før de kan skyte på mål.Når de har avsluttet med egen ball, spiller trener opp ny, hvor det blir 1 mot 1 og avslutning på valgfritt mål",
     "coachingPoints": [],
     "variations": [
-      "Trener bestemmer høyre eller venstre ut av triangelen for bruk av begge beinBanestørrelseLagskonkurranse"
+      "Trener bestemmer høyre eller venstre ut av triangelen for bruk av begge bein",
+      "Banestørrelse",
+      "Lagskonkurranse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4176,9 +4253,10 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp baner med tre soner. Avpass størrelse til alder og ferdighetTo angrepsspillere skal spille seg gjennom sonene med hhv. 1, 2 og 3 forsvarsspillere, og over til motsatt kortsideVinner forsvarsspiller ball, kan de forsøke å spille til trener på siden",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall angreps- og forsvarspillere"
+      "Banestørrelse",
+      "Antall angreps- og forsvarspillere"
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/ny-spille-oss-fremover-i-banen-2v1-2v2-og-2v3"
   },
@@ -4198,7 +4276,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en firkant/boks i midten i en større bane, med fire småmål plassert midt på hver side i den største banen. Banestørrelser tilpasset alder og ferdighetFem angripere plassert i den minste firkanten, fem forsvarere fordelt i de fire hjørnene i den størsteAngriperne starter øvelsen med å spille pasninger seg imellom i den minste firkanten. Etter et forhåndsbestemt antall pasninger eller på tid, kan en forsvarer komme inn i midten for å forsøke å vinne ball. Ny forsvarer kommer inn etter nye pasninger eller tid til alle er med, eller forsvarende lag har vunnet ballForsvarende lag kan score på ett av de fire småmålene hvis de vinner ball, laget i midten må da hurtig omstille seg for å forsvare småmåleneAngrepslaget «vinner» hvis de klarer å holde ballen i spill til alle forsvarsspillere er inne i firkanten, og klarer et bestemt antall pasninger eller på tid",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereAntall pasninger/tid"
+      "Banestørrelse",
+      "Antall spillere",
+      "Antall pasninger/tid"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4222,7 +4302,8 @@ const baseTiimExercises: ExerciseData[] = [
       "At ballfører tydelig utfordrer en forsvarsspiller for å skape overtall.Slippe ballen i riktig øyeblikk.Sørge for dybde (gjøre seg spillbare) slik at angripende lag ikke blir liggende på linje.Sørge for brede punkter å spille på. Ikke for bredt, men ikke for nært. Bredt nok til at du kan kraft og trussel nok til bakrom.Om laget mister ballen må de forsøke å gjenvinne ballen hurtig."
     ],
     "variations": [
-      "Det kan være flere variasjoner - du kan ha flere medspillere og motspillere:4v45v44v5Banestørrelse:Mindre bane for å presse tid og romEn lengre og smalere bane for å presse overgangsspillet mer fremover."
+      "Det kan være flere variasjoner - du kan ha flere medspillere og motspillere:4v45v44v5Banestørrelse:Mindre bane for å presse tid og rom",
+      "En lengre og smalere bane for å presse overgangsspillet mer fremover."
     ],
     "scalable": false,
     "source": "tiim",
@@ -4246,7 +4327,10 @@ const baseTiimExercises: ExerciseData[] = [
       "Det kan være en rekke fokusområder, og derfor er det viktig å ha for mange til enhver tid. Herunder finner du noe du kan fokusere på:Husk at du alltid «jobber» med angripende lag til enhver tid.Ballfører – utsetter motstander for et valg. Er det ingen som går på, trenger man heller ikke å spille fra seg ballen. Så lenge du har ballen, er det du som bestemmer over den.2A/3A – hele tiden på jakt etter å finne ledige rom. Pass på at ikke alle oppsøker de samme rommene og at de gjør banen så stor som mulig når de har ballen."
     ],
     "variations": [
-      "Noen tilnærminger for å utvikle og bygge videre på øvelsenJustere banestørrelse fra lite til større.Joker kan ikke scoreMan kan fjerne jokeren og kun ha keeper som en overtallsspillerTouchbegrensninger – kan være unaturlig i enkelte situasjoner."
+      "Noen tilnærminger for å utvikle og bygge videre på øvelsen",
+      "Justere banestørrelse fra lite til større.Joker kan ikke score",
+      "Man kan fjerne jokeren og kun ha keeper som en overtallsspiller",
+      "Touchbegrensninger – kan være unaturlig i enkelte situasjoner."
     ],
     "scalable": false,
     "source": "tiim",
@@ -4268,7 +4352,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp et kvadrat på ca. 25x25 meter. 1/2 spiller(e) på hver kjegle, alltid 2 der hvor ballen starter.En spiller møter og får pasning. Spiller støttepasning og gjør en ny bevegelse for å skape vinkel for spill videre.Pasning i medløp på spiller i neste kjegle. Før man sprinter opp til kjeglen man spilte pasning til.",
     "coachingPoints": [],
     "variations": [
-      "Variere pasningsretningTouchbegrensningerTo baller i gang samtidig ved 2 spillere på hvert hjørne"
+      "Variere pasningsretning",
+      "Touchbegrensninger",
+      "To baller i gang samtidig ved 2 spillere på hvert hjørne"
     ],
     "scalable": false,
     "source": "tiim",
@@ -4381,7 +4467,8 @@ const baseTiimExercises: ExerciseData[] = [
       "«Fart i beina».«Kroppskontroll»: Kontroll på overkroppen i utgangsstilling og kontroll på overkroppen i forflytninger i alle retninger.Kort tid i bakken og «sprette ut» fra retningsforandringene."
     ],
     "variations": [
-      "Ulike bevegelses mønster relatert til spillsituasjonerUtfordre avstander på forflytninger.Tidvis utfordre tiden på arbeidsperiodene etter hvert som frekvens og kontroll blir bra."
+      "Ulike bevegelses mønster relatert til spillsituasjoner",
+      "Utfordre avstander på forflytninger.Tidvis utfordre tiden på arbeidsperiodene etter hvert som frekvens og kontroll blir bra."
     ],
     "scalable": false,
     "source": "tiim",
@@ -5794,7 +5881,10 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "4 forsvarsspillere og 4-8 angrepsspillereSett opp fire «porter» i en firkant. Banestørrelse i forhold til antall angepsspillere.Hver port voktes av en forsvarer med ball. Angrepsspillerne, alle med en ball hver, skal forsøke å dribble seg gjennom portene og «rømme» ut av firkanten uten at forsvarer får tatt på de (merket). Hvis du blir «merket» må du inn i firkanten igjen.Bytt forsvarsspillere på tid eller når alle er kommet ut",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseStørrelse på porterAntall spillereKonkurranse på tid"
+      "Banestørrelse",
+      "Størrelse på porter",
+      "Antall spillere",
+      "Konkurranse på tid"
     ],
     "scalable": false,
     "source": "tiim",
@@ -5954,7 +6044,8 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Lag en bane med to endesoner (angrepspillere) og en midtsone (forsvar). Tre spillere i hver sone.Angrepsspillerne fører hver sin ball rundt i sin endesone. På signal skal de så forsøke å dribble gjennom midtsonen til motsatt endesone. Forsvarere kan ikke bevege seg utenfor midtsonen.Klarer de å komme over til motsatt endesone fortsetter de å føre ball der til nytt signal kommer. Mister de ball til en forsvarer, bytter disse plass.",
     "coachingPoints": [],
     "variations": [
-      "Antall spillereBanestørrelse"
+      "Antall spillere",
+      "Banestørrelse"
     ],
     "scalable": false,
     "source": "tiim",
@@ -6002,7 +6093,9 @@ const baseTiimExercises: ExerciseData[] = [
       "ville ha ballenNår laget har ball å komme seg ut i bredden. Forsvarspillerne står ofte i midten.Spille ball i lengderetning med tempoNår vinner ball, skal man raskt ut i ledige romUtnytte overtall med jokere/veggerKonkurranse og lagsamarbeid"
     ],
     "variations": [
-      "Bruke Joker også i midten for å ha overtall der ogsåJoker/vegg kan ta med ball inn i boksenJoker/vegg kan ikke ta med ball inn i boksen."
+      "Bruke Joker også i midten for å ha overtall der også",
+      "Joker/vegg kan ta med ball inn i boksen",
+      "Joker/vegg kan ikke ta med ball inn i boksen."
     ],
     "scalable": false,
     "source": "tiim",
@@ -6074,7 +6167,8 @@ const baseTiimExercises: ExerciseData[] = [
       "AngrepBruk små touch når det er trangt, lengre touch i åpent rom.Veksle mellom innside, utside og såle for å holde ballen unna motstandere.Hold blikket opp ofte.ForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Tilnærm deg kontrollert og senk farten.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
     ],
     "variations": [
-      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvertDifferensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvert",
+      "Differensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
     ],
     "scalable": true,
     "source": "tiim",
@@ -6098,7 +6192,8 @@ const baseTiimExercises: ExerciseData[] = [
       "AngrepSe rundt deg etter muligheterKontroll på ballenVinne ballFøre, drible, scoreForsvarBestem om du vil presse innover eller utover.Start presset når du er nær nok til å påvirke.Stå sidevendt for å stenge den ene siden.Hold blikket på ballen, ikke på finter.Takle når ballen er litt for langt fra foten til ballføreren."
     ],
     "variations": [
-      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvertDifferensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
+      "2v2, 3v3, alternativt ulike tall.1 ball til hver av spillerne for å sikre at alle blir involvert",
+      "Differensier gjennom ulike tall.Styrt igangsetting til en spiller, eller 50/50 ball"
     ],
     "scalable": true,
     "source": "tiim",
@@ -6467,7 +6562,7 @@ const baseTiimExercises: ExerciseData[] = [
       "FøreDribleAvslutteSpille sammen medVinne ballOmstilling"
     ],
     "variations": [],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-1v0-til-3v3"
   },
@@ -6489,7 +6584,7 @@ const baseTiimExercises: ExerciseData[] = [
       "FøreDribleAvslutteSpille sammen medVinne ballOmstilling"
     ],
     "variations": [],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-pyramide-1v0-til-3v3-m-veiledning"
   },
@@ -6635,7 +6730,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-bak-1v1-2v1-2v2"
   },
@@ -6659,7 +6754,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-bak-2v2-2v3-3v3"
   },
@@ -6683,7 +6778,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-foran-1v1-2v1-2v2"
   },
@@ -6709,7 +6804,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-er-foran-2v2-3v2-3v3"
   },
@@ -6733,7 +6828,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-kommer-inn-fra-siden-1v1-2v1-2v2"
   },
@@ -6757,7 +6852,7 @@ const baseTiimExercises: ExerciseData[] = [
     "variations": [
       "Endre serverens posisjon for variasjon i pasningsvinkler.Tidsbegrensning for raskere beslutninger.Flere repetisjoner ved rotasjon mellom roller.Tilpass bane etter ferdighetsnivå."
     ],
-    "scalable": true,
+    "scalable": false,
     "source": "tiim",
     "sourceUrl": "https://tiim.no/ovelse/telenor-xtra-utfordre-nar-motstander-kommer-inn-fra-siden-2v2-3v2-3v3"
   },
@@ -6825,7 +6920,9 @@ const baseTiimExercises: ExerciseData[] = [
     "description": "Sett opp en bane, ca.40x30m, med to småmål på ene siden og et stort på den andre (helst med keeper). Banen deles inn i tre soner som vist på animasjonDel inn i tre lag av fireØvelsen starter med angrepslag i midtsonen, som angriper småmålene og et forsvarende lag i sonenScorer angrepslaget, får de ny ball i midtsonen, og angriper motsatt side og stort målVinner forsvarende lag, angriper de lag og mål på motsatt side",
     "coachingPoints": [],
     "variations": [
-      "BanestørrelseAntall spillereKeeper i stort mål"
+      "Banestørrelse",
+      "Antall spillere",
+      "Keeper i stort mål"
     ],
     "scalable": false,
     "source": "tiim",

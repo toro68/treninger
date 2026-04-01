@@ -183,8 +183,11 @@ function estimateDuration(name, type) {
 
 // Sjekk om øvelsen er skalerbar (1v1, 2v2, etc.)
 function isScalable(name) {
-  const patterns = [/1\s*v\s*1/i, /1\s*mot\s*1/i, /2\s*v\s*2/i, /2\s*mot\s*2/i, /3\s*v\s*3/i, /3\s*mot\s*3/i];
-  return patterns.some(p => p.test(name));
+  const matchups = [...name.matchAll(/\b(\d+)\s*(?:v|mot)\s*(\d+)\b/gi)];
+  if (matchups.length !== 1) return false;
+
+  const [, left, right] = matchups[0];
+  return left === right && ['1', '2', '3'].includes(left);
 }
 
 // Parse variasjoner fra tekst
@@ -193,12 +196,16 @@ function parseVariations(variasjonerText) {
   if (Array.isArray(variasjonerText)) return variasjonerText.filter(v => v && v.trim());
 
   // Fjern "Relaterte øvelser" hvis den kom med
-  const cleaned = variasjonerText.replace(/Relaterte øvelser[\s\S]*/i, '').trim();
+  const cleaned = variasjonerText
+    .replace(/Relaterte øvelser[\s\S]*/i, '')
+    .replace(/^Variasjoner[:\s-]*/i, '')
+    .replace(/([a-zæøå])([A-ZÆØÅ])/g, '$1\n$2')
+    .trim();
   if (!cleaned) return [];
 
-  // Split på bullet points, linjeskift, eller dobbelt punktum
+  // Split på bullet points, linjeskift, semikolon eller setningsskiller.
   const variations = cleaned
-    .split(/[•\n]|(?:\. (?=[A-ZÆØÅ]))/)
+    .split(/[•\n;]|(?:\.\s+(?=[A-ZÆØÅ]))/)
     .map(v => v.trim())
     .filter(v => v.length > 10 && !v.toLowerCase().startsWith('variasjoner'));
 
