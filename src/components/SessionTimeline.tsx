@@ -1,5 +1,5 @@
-import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
-import { Exercise, getExerciseCode } from "@/data/exercises";
+import { deriveSessionBlocks, recommendedDuration, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
+import { Exercise } from "@/data/exercises";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { buildSessionParts } from "@/utils/sessionParts";
@@ -25,6 +25,7 @@ import {
   updateSessionBlockAtIndex,
 } from "@/utils/sessionTimelineBlocks";
 import { SessionTimelineSavedSessionsPanel } from "./SessionTimelineSavedSessionsPanel";
+import { SessionTimelineBlockRow } from "./SessionTimelineBlockRow";
 import { SessionTimelineSectionPlanner } from "./SessionTimelineSectionPlanner";
 import { SessionTimelineShareMenu } from "./SessionTimelineShareMenu";
 import { SessionTimelineTheoryPanel } from "./SessionTimelineTheoryPanel";
@@ -700,314 +701,50 @@ export const SessionTimeline = () => {
                     ) : (
                       <div className="space-y-1.5">
                         {part.blocks.map(({ block, globalIndex }, blockIndex) => (
-                          <div
+                          <SessionTimelineBlockRow
                             key={block.id}
-                            role="group"
-                            draggable
-                            aria-label={`${block.exercise.name} blokk`}
-                            onDragStart={() => handleDragStart(globalIndex)}
+                            alternativeMenuForBlockId={alternativeMenuForBlockId}
+                            availableAlternatives={getAvailableAlternatives(block)}
+                            block={block}
+                            blockIndex={blockIndex}
+                            canMoveDown={globalIndex !== sessionBlocks.length - 1}
+                            canMoveUp={globalIndex !== 0}
+                            canToggleStationRoundStart={
+                              block.exercise.category === "station" &&
+                              globalIndex > 0 &&
+                              sessionBlocks[globalIndex - 1]?.exercise.category === "station"
+                            }
+                            categoryLabels={CATEGORY_LABELS}
+                            coachNames={coachNames}
+                            customizeMenuForBlockId={customizeMenuForBlockId}
+                            dragIndex={dragIndex}
+                            exerciseLibrary={exerciseLibrary}
+                            globalIndex={globalIndex}
+                            onAddAlternativeExercise={addAlternativeExercise}
                             onDragOver={handleDragOver}
-                            onDrop={() => handleDrop(globalIndex)}
-                            className={`rounded-lg border bg-zinc-50 px-3 py-2 transition ${
-                              dragIndex === globalIndex ? "border-black" : "border-zinc-100"
-                            }`}
-                          >
-                            <div className="flex items-center gap-2">
-                              <div className="flex flex-col gap-0.5 sm:hidden">
-                                <button
-                                  onClick={() => moveBlock(globalIndex, "up")}
-                                  disabled={globalIndex === 0}
-                                  className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                                >
-                                  ↑
-                                </button>
-                                <button
-                                  onClick={() => moveBlock(globalIndex, "down")}
-                                  disabled={globalIndex === sessionBlocks.length - 1}
-                                  className="rounded bg-zinc-200 px-1.5 py-0.5 text-xs disabled:opacity-30"
-                                >
-                                  ↓
-                                </button>
-                              </div>
-
-                              <div className="min-w-0 flex-1">
-                                {(() => {
-                                  const alternativeExercises = getAlternativeExercises(
-                                    block,
-                                    exerciseLibrary
-                                  );
-                                  const availableAlternatives = getAvailableAlternatives(block);
-
-                                  return (
-                                    <>
-                                {part.baseKey === "stasjoner" ? (
-                                  <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
-                                    {`Stasjon ${blockIndex + 1}`}
-                                  </p>
-                                ) : null}
-                                <p className="text-sm text-zinc-900 truncate">
-                                  <span className="inline-flex items-center justify-center min-w-[24px] h-5 px-1 rounded bg-zinc-200 text-[10px] font-medium text-zinc-600 mr-1.5">
-                                    {getExerciseCode(block.exercise)}
-                                  </span>
-                                  {block.customTitle?.trim() || block.exercise.name}
-                                </p>
-                                {block.customTitle?.trim() && block.customTitle.trim() !== block.exercise.name ? (
-                                  <p className="mt-1 text-xs text-zinc-500">Basert på: {block.exercise.name}</p>
-                                ) : null}
-                                {block.exercise.category === "fixed-warmup" ? (
-                                  <div className="mt-2 flex flex-wrap gap-1.5">
-                                    <span className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-2 py-1 text-[11px] font-medium text-emerald-900">
-                                      Spillerstyrt
-                                    </span>
-                                  </div>
-                                ) : null}
-                                {block.assignedCoachNames?.length ? (
-                                  <div className="mt-2 flex flex-wrap gap-1.5">
-                                    {block.assignedCoachNames.map((coachName) => (
-                                      <span
-                                        key={coachName}
-                                        className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-2 py-1 text-[11px] font-medium text-sky-900"
-                                      >
-                                        {coachName}
-                                      </span>
-                                    ))}
-                                  </div>
-                                ) : null}
-                                {block.customComment?.trim() ? (
-                                  <div className="mt-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-950">
-                                    <span className="font-semibold">Kommentar:</span> {block.customComment.trim()}
-                                  </div>
-                                ) : null}
-                                {alternativeExercises.length > 0 && (
-                                  <div className="mt-3 rounded-xl border border-amber-200 bg-amber-50/80 p-3">
-                                    <p className="text-[11px] font-semibold uppercase tracking-wide text-amber-900">
-                                      Alternativer til denne øvelsen
-                                    </p>
-                                    <div className="mt-2 space-y-2">
-                                      {alternativeExercises.map((exercise) => (
-                                        <div
-                                          key={exercise.id}
-                                          className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-amber-100 bg-white px-3 py-2 text-xs text-amber-950"
-                                        >
-                                          <div className="min-w-0">
-                                            <p className="font-medium text-zinc-900">
-                                              <span className="mr-1.5 inline-flex min-w-[24px] items-center justify-center rounded bg-amber-100 px-1 py-0.5 text-[10px] font-semibold text-amber-900">
-                                                {getExerciseCode(exercise)}
-                                              </span>
-                                              {exercise.name}
-                                            </p>
-                                            <p className="mt-1 text-[11px] text-zinc-500">
-                                              {CATEGORY_LABELS[exercise.category]} · {exercise.theme}
-                                            </p>
-                                          </div>
-                                          <button
-                                            type="button"
-                                            onClick={() => removeAlternativeExercise(globalIndex, exercise.id)}
-                                            className="rounded-full border border-amber-200 bg-white px-2 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
-                                            title="Fjern alternativ"
-                                          >
-                                            Fjern
-                                          </button>
-                                        </div>
-                                      ))}
-                                    </div>
-                                  </div>
-                                )}
-                                {!block.exercise.alwaysIncluded && (
-                                  <div className="mt-2 flex flex-wrap items-center gap-2">
-                                    {block.exercise.category === "station" &&
-                                    globalIndex > 0 &&
-                                    sessionBlocks[globalIndex - 1]?.exercise.category === "station" ? (
-                                      <button
-                                        type="button"
-                                        onClick={() => toggleStationRoundStart(globalIndex)}
-                                        className={`rounded-full border px-2.5 py-1 text-[11px] transition ${
-                                          block.stationRoundStart
-                                            ? "border-sky-300 bg-sky-50 text-sky-900"
-                                            : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400"
-                                        }`}
-                                      >
-                                        {block.stationRoundStart ? "Slå sammen med forrige runde" : "Ny stasjonsrunde"}
-                                      </button>
-                                    ) : null}
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        setAlternativeMenuForBlockId((current) =>
-                                          current === block.id ? null : block.id
-                                        )
-                                      }
-                                      className="rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-[11px] text-zinc-600 transition hover:border-zinc-400"
-                                    >
-                                      Legg til alternativ
-                                    </button>
-                                    {alternativeMenuForBlockId === block.id && (
-                                      <select
-                                        defaultValue=""
-                                        onChange={(event) => {
-                                          addAlternativeExercise(globalIndex, event.target.value);
-                                          event.currentTarget.value = "";
-                                        }}
-                                        className="max-w-full rounded-full border border-zinc-200 bg-white px-3 py-1 text-[11px] text-zinc-700 focus:border-black focus:outline-none"
-                                      >
-                                        <option value="">Velg alternativ fra hele biblioteket</option>
-                                        {Object.entries(
-                                          availableAlternatives.reduce<Record<string, Exercise[]>>((groups, exercise) => {
-                                            const label = CATEGORY_LABELS[exercise.category];
-                                            groups[label] ??= [];
-                                            groups[label].push(exercise);
-                                            return groups;
-                                          }, {})
-                                        ).map(([label, exercises]) => (
-                                          <optgroup key={label} label={label}>
-                                            {exercises.map((exercise) => (
-                                              <option key={exercise.id} value={exercise.id}>
-                                                {getExerciseCode(exercise)} {exercise.name}
-                                              </option>
-                                            ))}
-                                          </optgroup>
-                                        ))}
-                                      </select>
-                                    )}
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        setCustomizeMenuForBlockId((current) =>
-                                          current === block.id ? null : block.id
-                                        )
-                                      }
-                                      className="rounded-full border border-amber-200 bg-white px-2.5 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
-                                    >
-                                      {customizeMenuForBlockId === block.id ? "Skjul tekstfelt" : "Tilpass tekst"}
-                                    </button>
-                                  </div>
-                                )}
-                                {block.exercise.alwaysIncluded ? (
-                                  <div className="mt-2 flex flex-wrap items-center gap-2">
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        setCustomizeMenuForBlockId((current) =>
-                                          current === block.id ? null : block.id
-                                        )
-                                      }
-                                      className="rounded-full border border-amber-200 bg-white px-2.5 py-1 text-[11px] text-amber-900 transition hover:border-amber-400"
-                                    >
-                                      {customizeMenuForBlockId === block.id ? "Skjul tekstfelt" : "Tilpass tekst"}
-                                    </button>
-                                  </div>
-                                ) : null}
-                                {(customizeMenuForBlockId === block.id || block.customTitle?.trim() || block.customComment?.trim()) ? (
-                                  <div className="mt-3 rounded-xl border border-amber-200 bg-white p-3">
-                                    <div className="grid gap-3">
-                                      <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
-                                        Egen tittel
-                                        <input
-                                          type="text"
-                                          draggable={false}
-                                          onDragStart={preventNestedDrag}
-                                          onPointerDown={preventNestedDrag}
-                                          value={block.customTitle ?? ""}
-                                          onChange={(event) =>
-                                            handleBlockTextChange(globalIndex, "customTitle", event.target.value)
-                                          }
-                                          placeholder={block.exercise.name}
-                                          className="rounded-lg border border-zinc-200 px-3 py-2 text-sm font-normal normal-case tracking-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
-                                        />
-                                      </label>
-                                      <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500 sm:col-span-2">
-                                        Kommentar til blokka
-                                        <textarea
-                                          draggable={false}
-                                          onDragStart={preventNestedDrag}
-                                          onPointerDown={preventNestedDrag}
-                                          value={block.customComment ?? ""}
-                                          onChange={(event) =>
-                                            handleBlockTextChange(globalIndex, "customComment", event.target.value)
-                                          }
-                                          rows={3}
-                                          placeholder="Tilpasninger, fokus eller praktiske beskjeder for denne øvelsen"
-                                          className="resize-y rounded-lg border border-zinc-200 px-3 py-2 text-sm font-normal normal-case tracking-normal text-zinc-900 focus:border-amber-500 focus:outline-none"
-                                        />
-                                      </label>
-                                    </div>
-                                  </div>
-                                ) : null}
-                                {coachNames.length > 0 && block.exercise.category !== "fixed-warmup" ? (
-                                  <div className="mt-3 rounded-xl border border-zinc-200 bg-white/80 p-2.5">
-                                    <p className="text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
-                                      Ansvarlige trenere
-                                    </p>
-                                    <div className="mt-2 flex flex-wrap gap-2">
-                                      {coachNames.map((coachName) => {
-                                        const checked = block.assignedCoachNames?.includes(coachName) ?? false;
-                                        return (
-                                          <label
-                                            key={coachName}
-                                            className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-2.5 py-1.5 text-[11px] transition ${
-                                              checked
-                                                ? "border-sky-300 bg-sky-50 text-sky-900"
-                                                : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-300"
-                                            }`}
-                                          >
-                                            <input
-                                              type="checkbox"
-                                              draggable={false}
-                                              onDragStart={preventNestedDrag}
-                                              onPointerDown={preventNestedDrag}
-                                              checked={checked}
-                                              onChange={() => toggleCoachAssignment(globalIndex, coachName)}
-                                              className="h-3.5 w-3.5 rounded border-zinc-300 text-sky-600 focus:ring-sky-500"
-                                            />
-                                            <span>{coachName}</span>
-                                          </label>
-                                        );
-                                      })}
-                                    </div>
-                                  </div>
-                                ) : null}
-                                    </>
-                                  );
-                                })()}
-                              </div>
-
-                              <div className="flex items-center gap-1.5 shrink-0 self-start">
-                                <input
-                                  type="number"
-                                  draggable={false}
-                                  onDragStart={preventNestedDrag}
-                                  onPointerDown={preventNestedDrag}
-                                  min={1}
-                                  max={99}
-                                  value={recommendedDuration(block)}
-                                  onChange={(event) =>
-                                    handleDurationChange(globalIndex, Number(event.target.value))
-                                  }
-                                  className="w-12 rounded border border-zinc-200 px-1.5 py-1 text-center text-xs focus:border-black focus:outline-none"
-                                />
-                                <select
-                                  draggable={false}
-                                  onDragStart={preventNestedDrag}
-                                  onPointerDown={preventNestedDrag}
-                                  value={getUnit(block)}
-                                  onChange={(e) => handleUnitChange(globalIndex, e.target.value as DurationUnit)}
-                                  className="rounded border border-zinc-200 px-1 py-1 text-xs text-zinc-600 focus:border-black focus:outline-none bg-white cursor-pointer"
-                                >
-                                  <option value="min">min</option>
-                                  <option value="reps">reps</option>
-                                </select>
-                                {!block.exercise.alwaysIncluded && (
-                                  <button
-                                    onClick={() => removeBlock(globalIndex)}
-                                    className="rounded p-1 text-zinc-400 hover:bg-zinc-200 hover:text-zinc-600"
-                                    title="Fjern"
-                                  >
-                                    ×
-                                  </button>
-                                )}
-                              </div>
-                            </div>
-                          </div>
+                            onDragStart={handleDragStart}
+                            onDrop={handleDrop}
+                            onDurationChange={handleDurationChange}
+                            onMoveBlock={moveBlock}
+                            onPreventNestedDrag={preventNestedDrag}
+                            onRemoveAlternativeExercise={removeAlternativeExercise}
+                            onRemoveBlock={removeBlock}
+                            onTextChange={handleBlockTextChange}
+                            onToggleAlternativeMenu={(blockId) =>
+                              setAlternativeMenuForBlockId((current) =>
+                                current === blockId ? null : blockId
+                              )
+                            }
+                            onToggleCoachAssignment={toggleCoachAssignment}
+                            onToggleCustomizeMenu={(blockId) =>
+                              setCustomizeMenuForBlockId((current) =>
+                                current === blockId ? null : blockId
+                              )
+                            }
+                            onToggleStationRoundStart={toggleStationRoundStart}
+                            onUnitChange={handleUnitChange}
+                            partBaseKey={part.baseKey}
+                          />
                         ))}
                         {isIncompleteStationSection && part === parts[parts.length - 1] && part.baseKey === "stasjoner"
                           ? Array.from({ length: missingStations }, (_, index) => {
