@@ -49,7 +49,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 8,
     playersMax: 12,
-    theme: "possession",
+    theme: "oppbygging",
     equipment: ["kjegler", "baller", "vester"],
     description:
       "Området på 15 x 10 yards kan varieres etter spillernes alder og/eller nivå. Dette er et 3v3 (+2) ballbesittingsspill. Laget i ball (blå i diagrammet) har effektivt en 5v3-situasjon med 1 spiller på hver side + 1 i midten mot 3 forsvarere. Konsept: Ballbesittelse med hensikt - spill mellom og bak linjer. Spillerne holder posisjonen sin og forsøker å spille gjennom den midtre joker-spilleren. Regel: Ballen skal alltid være på bakken. Spilleren i ball skal alltid ha et kort, mellomlangt og langt pasningsalternativ. Laget i ball forsøker å flytte ballen fra den ene enden til den andre og beholde besittelsen. De 3 forsvarerne (røde) presser kollektivt og forsøker å vinne ballen. Klarer de det, bytter blå og rød rolle og spillet fortsetter.",
@@ -351,7 +351,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 16,
     playersMin: 12,
     playersMax: 16,
-    theme: "possession",
+    theme: "vendingsspill",
     equipment: ["kjegler", "baller", "vester", "4 soner"],
     description:
       "1 poeng (vending). 2-touch. 1 poeng for 6 pasninger. 1 poeng for vending. 6v6, 60 x 40. Øvelsesbeskrivelse: I et område på 60 x 40 yards markeres 4 soner som er 10 yards brede. Sonene deles i to, med 2 spillere fra hvert lag i de 4 sonene, som vist. Ballbesittingsspillet er 4 (+2) mot 4 (+2). Trenerne står sentralt på hver side med baller for å starte spillet og spille inn ny ball hvis spillet stopper opp. Laget i ballbesittelse (blå) får 1 poeng hver gang de spiller fra én hjørnesone til den andre, og når de fullfører 6 pasninger. Spillerne i hjørnesonene kan kun bruke 1 touch for å stusse ballen tilbake i spill. Forsvarende lag (rød) prøver å vinne ballen før 6 pasninger er spilt = 1 poeng. Blå spillere gjør en rask overgang for å vinne ballen tilbake så raskt som mulig.",
@@ -375,7 +375,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 16,
     playersMin: 10,
     playersMax: 14,
-    theme: "possession",
+    theme: "overgang",
     equipment: ["kjegler", "baller", "vester", "4 små mål"],
     description:
       "Fullfør 6 pasninger og score deretter i ett av de 4 målene. Mål! 5v5 (+1), 60 x 40. Øvelsesbeskrivelse: I et område på 60 x 40 yards spiller vi et 5v5 (+1) smålagsspill med 4 små mål. Treneren starter, og laget i ballbesittelse (blå) må først fullføre 6 pasninger og kan deretter prøve å score i hvilket som helst av de 4 målene. Hvis de røde vinner ballen, må de også fullføre 6 pasninger før de kan prøve å score i hvilket som helst av de 4 målene. Forsvarende lag må være klare i overgangene når ballen skifter lag.",

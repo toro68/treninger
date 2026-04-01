@@ -305,7 +305,7 @@ export const eggenExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "restitusjon",
+    theme: "possession",
     equipment: ["småmål", "baller"],
     description:
       "5v5 på små mål, moderat intensitet og fokus på å holde ballen i laget.",

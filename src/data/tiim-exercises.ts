@@ -125,7 +125,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -174,7 +174,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "pasning",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -196,7 +196,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "pressing",
     "equipment": [
       "kjegler",
       "baller"
@@ -243,7 +243,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -468,7 +468,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -513,7 +513,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 3,
     "playersMax": 10,
-    "theme": "forsvar",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -535,7 +535,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "omstilling",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -558,7 +558,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "pressing",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -580,7 +580,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "dribling",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -605,7 +605,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -627,7 +627,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "pressing",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -651,7 +651,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "innlegg",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -675,7 +675,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -699,7 +699,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -723,7 +723,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -792,7 +792,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -841,7 +841,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -887,7 +887,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1005,7 +1005,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1052,7 +1052,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "avslutning",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -1074,7 +1074,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "forsvar",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1097,7 +1097,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "ballkontroll",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1150,7 +1150,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1198,7 +1198,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "ballkontroll",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -1225,7 +1225,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "pasning",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1248,7 +1248,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 12,
     "playersMax": 28,
-    "theme": "forsvar",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -1273,7 +1273,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 12,
     "playersMax": 28,
-    "theme": "avslutning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -1348,7 +1348,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 14,
     "playersMax": 30,
-    "theme": "innlegg",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -1469,7 +1469,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "teknikk",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -1511,7 +1511,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -1778,7 +1778,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1798,7 +1798,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1820,7 +1820,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1864,7 +1864,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1886,7 +1886,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1930,7 +1930,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -1952,7 +1952,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2040,7 +2040,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pressing",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2063,7 +2063,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2086,7 +2086,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2108,7 +2108,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2130,7 +2130,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2153,7 +2153,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2175,7 +2175,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2197,7 +2197,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2332,7 +2332,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -2355,7 +2355,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "avslutning",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -2378,7 +2378,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -2422,7 +2422,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -2449,7 +2449,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "dribling",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -2519,7 +2519,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -2543,7 +2543,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 12,
-    "theme": "forsvar",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -2591,7 +2591,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "dribling",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -2670,7 +2670,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -2801,7 +2801,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "pressing",
     "equipment": [
       "kjegler",
       "baller"
@@ -3170,7 +3170,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -3192,7 +3192,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -3236,7 +3236,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "innlegg",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -3298,7 +3298,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3364,7 +3364,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "gjennombrudd",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -3458,7 +3458,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3488,7 +3488,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3589,7 +3589,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "teknikk",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3611,7 +3611,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "teknikk",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3704,7 +3704,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -3820,7 +3820,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "forsvar",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -3843,7 +3843,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 16,
-    "theme": "innlegg",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -3889,7 +3889,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -3916,7 +3916,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pressing",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -3983,7 +3983,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "teknikk",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -4008,7 +4008,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "dribling",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -4081,7 +4081,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -4104,7 +4104,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -4127,7 +4127,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "1v1",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -4151,7 +4151,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -4174,7 +4174,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 4,
     "playersMax": 12,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -4221,7 +4221,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 2,
     "playersMax": 8,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -4245,7 +4245,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 3,
     "playersMax": 10,
-    "theme": "ballkontroll",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -4268,7 +4268,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -4368,7 +4368,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -4390,7 +4390,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -4629,7 +4629,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pressing",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -4729,7 +4729,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 5,
     "playersMax": 10,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5495,7 +5495,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5539,7 +5539,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5628,7 +5628,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5672,7 +5672,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5782,7 +5782,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "avslutning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -5898,7 +5898,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -5918,7 +5918,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 5,
     "playersMax": 14,
-    "theme": "forsvar",
+    "theme": "avslutning",
     "equipment": [
       "kjegler",
       "baller"
@@ -5944,7 +5944,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "innlegg",
+    "theme": "forsvar",
     "equipment": [
       "kjegler",
       "baller"
@@ -5967,7 +5967,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pressing",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6036,7 +6036,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "dribling",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6255,7 +6255,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 8,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6306,7 +6306,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 10,
     "playersMax": 24,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6331,7 +6331,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 12,
     "playersMax": 28,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6356,7 +6356,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "pasning",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"
@@ -6430,7 +6430,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 11,
     "playersMax": 26,
-    "theme": "omstilling",
+    "theme": "smålagsspill",
     "equipment": [
       "kjegler",
       "baller"
@@ -6912,7 +6912,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "omstilling",
+    "theme": "oppbygging",
     "equipment": [
       "kjegler",
       "baller"
@@ -8840,7 +8840,7 @@ const baseTiimExercises: ExerciseData[] = [
     "duration": 12,
     "playersMin": 6,
     "playersMax": 20,
-    "theme": "teknikk",
+    "theme": "ballkontroll",
     "equipment": [
       "kjegler",
       "baller"

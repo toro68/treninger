@@ -3,13 +3,20 @@ import type { ExerciseData } from "../src/data/exercises";
 
 import { exercises } from "../src/data/exercises";
 import { tiimExercises } from "../src/data/tiim-exercises";
+import { eggenExercises } from "../src/data/eggen-exercises";
 import { dbuExercises } from "../src/data/dbu-exercises";
+import { dibernardoExercises } from "../src/data/dibernardo-exercises";
 import { rondoExercises } from "../src/data/rondo-exercises";
 import { hyballaExercises } from "../src/data/hyballa-exercises";
 import { bangsboExercises } from "../src/data/bangsbo-exercises";
 import { duggerExercises } from "../src/data/dugger-exercises";
-import { smallsidedExercises } from "../src/data/smallsided-exercises";
+import { matkovichExercises } from "../src/data/matkovich-exercises";
+import { youthExercises } from "../src/data/101youth-exercises";
+import { worldclassExercises } from "../src/data/worldclass-exercises";
+import { seegerExercises } from "../src/data/seeger";
 import { uefaExercises } from "../src/data/uefa-exercises";
+import { mancExercises } from "../src/data/manc-exercises";
+import { mancAttackingPositionalExercises } from "../src/data/manc-attacking-positional-exercises";
 
 type CountMap = Record<string, number>;
 
@@ -35,13 +42,20 @@ const main = () => {
   const sources: Array<{ name: string; exercises: ExerciseData[] }> = [
     { name: "egen", exercises },
     { name: "tiim", exercises: tiimExercises },
+    { name: "eggen", exercises: eggenExercises },
     { name: "dbu", exercises: dbuExercises },
+    { name: "dibernardo", exercises: dibernardoExercises },
     { name: "rondo", exercises: rondoExercises },
     { name: "hyballa", exercises: hyballaExercises },
     { name: "bangsbo", exercises: bangsboExercises },
     { name: "dugger", exercises: duggerExercises },
-    { name: "smallsided", exercises: smallsidedExercises },
+    { name: "matkovich", exercises: matkovichExercises },
+    { name: "101youth", exercises: youthExercises },
+    { name: "worldclass", exercises: worldclassExercises },
+    { name: "seeger", exercises: seegerExercises },
     { name: "uefa", exercises: uefaExercises },
+    { name: "manc", exercises: mancExercises },
+    { name: "manc-attacking-positional", exercises: mancAttackingPositionalExercises },
   ];
 
   const rawCounts: CountMap = {};

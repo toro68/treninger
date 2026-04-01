@@ -144,7 +144,7 @@ export const exercises: ExerciseData[] = [
     duration: 5,
     playersMin: 1,
     playersMax: 40,
-    theme: "oppvarming",
+    theme: "koordinasjon",
     equipment: [],
     description: "",
     coachingPoints: [],
@@ -785,7 +785,7 @@ export const exercises: ExerciseData[] = [
     duration: 10,
     playersMin: 8,
     playersMax: 30,
-    theme: "evaluering",
+    theme: "utvikling",
     equipment: [],
     description:
       "Kombinerer evaluering med lagbyggende elementer. Spillere roser hverandres innsats og deler læring.",

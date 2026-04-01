@@ -26,6 +26,7 @@ const exactThemeMapping = new Map([
   ['presse - lede - styre', 'pressing'],
   ['spille oss fremover i banen', 'oppbygging'],
   ['spille med og mot', 'smålagsspill'],
+  ['smålagspill', 'smålagsspill'],
   ['sjef over ballen', 'ballkontroll'],
   ['fotballek', 'lek'],
 ]);
@@ -47,10 +48,88 @@ const buildSearchText = (exercise) =>
 const hasTema = (temaList, expected) =>
   (temaList || []).some((tema) => normalizeText(tema) === expected);
 
+const getTemaVariants = (tema) => {
+  const normalizedTema = normalizeText(tema);
+  const variants = new Set([normalizedTema]);
+  const parentheticalMatches = normalizedTema.matchAll(/\(([^)]+)\)/g);
+
+  for (const match of parentheticalMatches) {
+    if (match[1]) {
+      variants.add(match[1].trim());
+    }
+  }
+
+  const withoutParentheses = normalizedTema.replace(/\s*\([^)]*\)/g, '').trim();
+  if (withoutParentheses) {
+    variants.add(withoutParentheses);
+  }
+
+  return [...variants];
+};
+
+const inferThemeFromTema = (temaList, normalizedName) => {
+  const matchedThemes = new Set();
+
+  for (const tema of temaList || []) {
+    for (const variant of getTemaVariants(tema)) {
+      const mapped = exactThemeMapping.get(variant);
+      if (mapped) {
+        matchedThemes.add(mapped);
+      }
+    }
+  }
+
+  if (matchedThemes.size === 0) {
+    return null;
+  }
+
+  const specificThemePriority = [
+    'lek',
+    'rondo',
+    'oppbygging',
+    'pressing',
+    'ballkontroll',
+  ];
+
+  for (const theme of specificThemePriority) {
+    if (matchedThemes.has(theme)) {
+      return theme;
+    }
+  }
+
+  if (matchedThemes.has('avslutning') && matchedThemes.has('forsvar')) {
+    if (hasPattern(normalizedName, /\bscore|scorings|avslut|mål\b/)) {
+      return 'avslutning';
+    }
+
+    if (hasPattern(normalizedName, /\bforsvar|vinne ball|hindre|press|gjenvinning\b/)) {
+      return 'forsvar';
+    }
+
+    return null;
+  }
+
+  if (matchedThemes.has('avslutning')) {
+    return 'avslutning';
+  }
+
+  if (matchedThemes.has('forsvar')) {
+    return 'forsvar';
+  }
+
+  if (matchedThemes.has('smålagsspill')) {
+    return 'smålagsspill';
+  }
+
+  return null;
+};
+
 const inferThemeFromRules = (exercise) => {
   const normalizedName = normalizeText(exercise.name);
-  const normalizedTema = (exercise.tema || []).map((tema) => normalizeText(tema));
   const text = buildSearchText(exercise);
+  const temaMatch = inferThemeFromTema(exercise.tema, normalizedName);
+
+  if (temaMatch) return temaMatch;
 
   if (hasPattern(text, /dosisten|fotballek|playmakers/)) return 'lek';
   if (hasPattern(text, /\brondo\b/)) return 'rondo';
@@ -62,17 +141,19 @@ const inferThemeFromRules = (exercise) => {
   if (hasPattern(text, /ferdighetssirkel/)) return 'pasning';
   if (hasPattern(text, /prepp.?n - 3|frekvens|retningsforandring|speiling/)) return 'hurtighet';
   if (hasPattern(text, /\bdribling|drible|driblesone\b/)) return 'dribling';
-  if (hasPattern(text, /\bføring\b|sjef over ballen|ballkontroll/)) return 'ballkontroll';
+  if (
+    hasPattern(text, /situasjonsøvelse/) &&
+    hasPattern(text, /\bjoker\b/) &&
+    hasPattern(text, /\bmål/) &&
+    hasPattern(text, /lagene spiller i hver sin retning|score/) 
+  ) return 'smålagsspill';
+  if (hasPattern(text, /\bvending|vende|skjerme egen ball\b/)) return 'ballkontroll';
+  if (hasPattern(text, /\bføring\b|\bføre\b|\bfører\b|sjef over ballen|ballkontroll/)) return 'ballkontroll';
   if (hasPattern(text, /\bpasning|tredjemann|vegg(er)?\b/)) return 'pasning';
   if (hasPattern(text, /\bpress|presse - lede - styre|lede\b/)) return 'pressing';
   if (hasPattern(text, /\bforsvar|hindre mål|vinne ball|stoppe|stenge rom|beskytte målet\b/)) return 'forsvar';
   if (hasPattern(text, /\bavslut|skudd|scoring|score mål|mål\b/)) return 'avslutning';
   if (hasPattern(text, /\bspill\b|sonespill|game|smålag/)) return 'smålagsspill';
-
-  for (const tema of normalizedTema) {
-    const mapped = exactThemeMapping.get(tema);
-    if (mapped) return mapped;
-  }
 
   if (hasPattern(text, /fotballek|playmakers/)) return 'lek';
   if (hasPattern(text, /spille oss fremover|oppbygg/)) return 'oppbygging';
