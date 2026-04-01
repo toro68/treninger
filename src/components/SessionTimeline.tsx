@@ -5,31 +5,18 @@ import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessio
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { buildSessionParts } from "@/utils/sessionParts";
+import {
+  buildFullSessionSummary,
+  buildSessionShareText,
+  buildShortSessionSummary,
+  copyTextToClipboard,
+  getAlternativeExercises,
+  hasSessionCommentSuggestion,
+  SESSION_COMMENT_SUGGESTION,
+  toggleSessionCommentSuggestion,
+  toPrintableParts,
+} from "@/utils/sessionTimelineShare";
 import { useState, useEffect, useMemo } from "react";
-
-const SESSION_COMMENT_SUGGESTION = "Forslag til øvelser, men som vanlig er det fritt fram å endre på ting og velge andre øvelser på stasjonene.";
-
-const hasSessionCommentSuggestion = (comment: string) =>
-  comment.includes(SESSION_COMMENT_SUGGESTION);
-
-const toggleSessionCommentSuggestion = (comment: string, enabled: boolean) => {
-  const normalizedComment = comment.trim();
-
-  if (enabled) {
-    if (hasSessionCommentSuggestion(normalizedComment)) return comment;
-    return normalizedComment
-      ? `${normalizedComment}\n\n${SESSION_COMMENT_SUGGESTION}`
-      : SESSION_COMMENT_SUGGESTION;
-  }
-
-  if (!hasSessionCommentSuggestion(normalizedComment)) return comment;
-
-  return normalizedComment
-    .replace(`\n\n${SESSION_COMMENT_SUGGESTION}`, "")
-    .replace(`${SESSION_COMMENT_SUGGESTION}\n\n`, "")
-    .replace(SESSION_COMMENT_SUGGESTION, "")
-    .trim();
-};
 
 const CATEGORY_LABELS: Record<Exercise["category"], string> = {
   "fixed-warmup": "Skadefri",
@@ -39,53 +26,6 @@ const CATEGORY_LABELS: Record<Exercise["category"], string> = {
   station: "Stasjon",
   game: "Spill",
   cooldown: "Avslutning",
-};
-
-type ClipboardCapableNavigator = Navigator & {
-  clipboard?: Pick<Clipboard, "writeText">;
-};
-
-const fallbackCopyText = (text: string) => {
-  if (typeof document === "undefined") return false;
-
-  const textarea = document.createElement("textarea");
-  textarea.value = text;
-  textarea.setAttribute("readonly", "");
-  textarea.style.position = "fixed";
-  textarea.style.opacity = "0";
-  textarea.style.pointerEvents = "none";
-  textarea.style.left = "-9999px";
-
-  document.body.appendChild(textarea);
-  textarea.focus();
-  textarea.select();
-
-  let copied = false;
-  try {
-    copied = document.execCommand("copy");
-  } finally {
-    document.body.removeChild(textarea);
-  }
-
-  return copied;
-};
-
-const copyTextToClipboard = async (text: string) => {
-  const nav =
-    typeof navigator !== "undefined"
-      ? (navigator as ClipboardCapableNavigator)
-      : undefined;
-
-  if (nav?.clipboard?.writeText) {
-    try {
-      await nav.clipboard.writeText(text);
-      return true;
-    } catch {
-      return fallbackCopyText(text);
-    }
-  }
-
-  return fallbackCopyText(text);
 };
 
 export const SessionTimeline = () => {
@@ -246,11 +186,6 @@ export const SessionTimeline = () => {
       ? `${displayedPlayerCounts[0]} spillere sammen`
       : displayedPlayerCounts.join(" + ");
   const showIncompleteStationSection = isIncompleteStationSection && !isPlanningNextSection;
-
-  const getAlternativeExercises = (block: SessionBlock): Exercise[] =>
-    (block.alternativeExerciseIds ?? [])
-      .map((id) => exerciseLibrary.find((exercise) => exercise.id === id))
-      .filter((exercise): exercise is Exercise => !!exercise);
 
   const updateBlockAtIndex = (
     index: number,
@@ -448,98 +383,10 @@ export const SessionTimeline = () => {
     }
   };
 
-  const resolvedSessionTitle = sessionTitle.trim() || "Treningsøkt";
   const playerSummary =
     keeperCount > 0
       ? `${playerCount} spillere (${outfieldPlayerCount} utespillere + ${keeperCount} keepere)`
       : `${playerCount} spillere`;
-
-  const buildShortSummary = () => {
-    return parts
-      .map((part) => {
-        const header = `${part.title}${part.subtitle ? ` (${part.subtitle})` : ""}`;
-        const sectionComment = part.sectionComment?.trim()
-          ? `\nKommentar til seksjon: ${part.sectionComment.trim()}`
-          : "";
-        const blockLines = part.blocks.map(({ block, globalIndex }) => {
-          const title = block.customTitle?.trim() || block.exercise.name;
-          const comment = block.customComment?.trim();
-          const alternatives = getAlternativeExercises(block);
-          const alternativeText =
-            alternatives.length > 0
-              ? ` (alt: ${alternatives.map((exercise) => exercise.name).join(" / ")})`
-              : "";
-          const coachText =
-            block.assignedCoachNames && block.assignedCoachNames.length > 0
-              ? ` [ansvar: ${block.assignedCoachNames.join(", ")}]`
-              : "";
-          const commentText = comment ? `\n   Kommentar: ${comment}` : "";
-          return `${globalIndex + 1}. [${getExerciseCode(block.exercise)}] ${title} – ${recommendedDuration(block)} ${getUnit(block)}${alternativeText}${coachText}${commentText}`;
-        });
-
-        return `${header}${sectionComment}\n${blockLines.join("\n")}`;
-      })
-      .join("\n\n");
-  };
-
-  const buildFullSummary = () => {
-    let result = "";
-
-    parts.forEach((part) => {
-      if (part.blocks.length === 0) return;
-
-      result += `\n${part.title.toUpperCase()}\n`;
-      result += "─".repeat(20) + "\n";
-      if (part.sectionComment?.trim()) {
-        result += `Kommentar til seksjon: ${part.sectionComment.trim()}\n`;
-      }
-
-      part.blocks.forEach(({ block }, blockIndex) => {
-        const duration = recommendedDuration(block);
-        const unit = getUnit(block);
-        const title = block.customTitle?.trim() || block.exercise.name;
-        const comment = block.customComment?.trim();
-        const alternatives = getAlternativeExercises(block);
-        const stationLabel = part.baseKey === "stasjoner" ? `Stasjon ${blockIndex + 1}: ` : "";
-        result += `\n${stationLabel}[${getExerciseCode(block.exercise)}] ${title} (${duration} ${unit})\n`;
-        if (title !== block.exercise.name) {
-          result += `Basert på: ${block.exercise.name}\n`;
-        }
-        if (block.assignedCoachNames?.length) {
-          result += `Ansvar: ${block.assignedCoachNames.join(", ")}\n`;
-        }
-        if (block.exercise.description.trim()) {
-          result += `${block.exercise.description}\n`;
-        }
-        if (comment) {
-          result += `\nKommentar:\n${comment}\n`;
-        }
-
-        if (block.exercise.coachingPoints.length > 0) {
-          result += "\nCoaching:\n";
-          block.exercise.coachingPoints.forEach((point) => {
-            result += `• ${point}\n`;
-          });
-        }
-
-        if (block.exercise.variations.length > 0) {
-          result += "\nVariasjoner:\n";
-          block.exercise.variations.forEach((variation) => {
-            result += `• ${variation}\n`;
-          });
-        }
-
-        if (alternatives.length > 0) {
-          result += "\nAlternative øvelser:\n";
-          alternatives.forEach((exercise) => {
-            result += `• [${getExerciseCode(exercise)}] ${exercise.name}\n`;
-          });
-        }
-      });
-    });
-
-    return result;
-  };
 
   const handleCopyShareLink = async () => {
     if (!fullSessionShareUrl) {
@@ -563,9 +410,16 @@ export const SessionTimeline = () => {
   };
 
   const handleCopy = async (full: boolean) => {
-    const summary = full ? buildFullSummary() : buildShortSummary();
-    const commentSection = sessionComment.trim() ? `${sessionComment.trim()}\n\n` : "";
-    const sharePayload = `${resolvedSessionTitle} (${totalMinutes} min • ${playerSummary})\n${commentSection}${summary}`;
+    const summary = full
+      ? buildFullSessionSummary({ parts, exerciseLibrary })
+      : buildShortSessionSummary({ parts, exerciseLibrary });
+    const sharePayload = buildSessionShareText({
+      sessionTitle,
+      sessionComment,
+      totalMinutes,
+      playerSummary,
+      summary,
+    });
     try {
       if (await copyTextToClipboard(sharePayload)) {
         setShareStatus("copied");
@@ -583,13 +437,7 @@ export const SessionTimeline = () => {
 
   const handlePrint = () => {
     setShowShareOptions(false);
-    const printableParts: PrintablePart[] = parts.map((part) => ({
-      title: part.title,
-      subtitle: part.subtitle,
-      sectionComment: part.sectionComment,
-      baseKey: part.baseKey,
-      blocks: part.blocks.map(({ block }) => block),
-    }));
+    const printableParts: PrintablePart[] = toPrintableParts(parts);
 
     try {
       openPrintWindowForSession({
@@ -1133,7 +981,10 @@ export const SessionTimeline = () => {
 
                               <div className="min-w-0 flex-1">
                                 {(() => {
-                                  const alternativeExercises = getAlternativeExercises(block);
+                                  const alternativeExercises = getAlternativeExercises(
+                                    block,
+                                    exerciseLibrary
+                                  );
                                   const availableAlternatives = getAvailableAlternatives(block);
 
                                   return (

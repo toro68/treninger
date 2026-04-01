@@ -1,6 +1,14 @@
 import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
 import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituationalExercise } from "@/data/exercises";
+import {
+  buildTimelineSections,
+  getExplicitSectionNumber,
+  getStationSectionInfoByNumber,
+  getTrailingStationSectionInfo,
+  normalizeStationSectionMetadata,
+  retuneTrailingStationSectionCount,
+} from "./sessionSections";
 
 const normalizeSearchText = (value: string) => value.trim().toLowerCase();
 
@@ -270,67 +278,6 @@ const normalizeOptionalText = (value: unknown) => {
   return normalized ? normalized : undefined;
 };
 
-const normalizeStationSectionCount = (count: unknown) =>
-  typeof count === "number" ? Math.max(2, Math.min(4, count)) : undefined;
-
-const getExplicitSectionNumber = (target: PlanningSectionTarget) => {
-  if (!target.startsWith("section-")) return null;
-  const sectionNumber = Number(target.slice("section-".length));
-  return Number.isInteger(sectionNumber) && sectionNumber > 0 ? sectionNumber : null;
-};
-
-const normalizeStationSectionMetadata = (
-  blocks: SessionBlock[] | null
-): SessionBlock[] | null => {
-  if (!blocks || blocks.length === 0) return blocks;
-
-  let currentRequiredCount: number | undefined;
-  let currentSectionLength = 0;
-  let previousWasStation = false;
-
-  return blocks.map<SessionBlock>((block, index) => {
-    const isStationBlock =
-      block.planningMode === "station" ||
-      (block.planningMode === undefined && block.exercise.category === "station");
-
-    if (!isStationBlock) {
-      previousWasStation = false;
-      currentRequiredCount = undefined;
-      currentSectionLength = 0;
-
-      return {
-        ...block,
-        sectionStationCount: undefined,
-        stationRoundStart: undefined,
-      };
-    }
-
-    const requestedCount = normalizeStationSectionCount(block.sectionStationCount);
-    const shouldStartNewSection =
-      !previousWasStation ||
-      block.stationRoundStart === true ||
-      (currentRequiredCount !== undefined && currentSectionLength >= currentRequiredCount) ||
-      (requestedCount !== undefined &&
-        currentRequiredCount !== undefined &&
-        requestedCount !== currentRequiredCount);
-
-    if (shouldStartNewSection) {
-      currentRequiredCount = requestedCount ?? currentRequiredCount ?? 2;
-      currentSectionLength = 0;
-    }
-
-    currentSectionLength += 1;
-    previousWasStation = true;
-
-    return {
-      ...block,
-      planningMode: "station",
-      sectionStationCount: currentRequiredCount,
-      stationRoundStart: shouldStartNewSection && index > 0 ? true : undefined,
-    };
-  });
-};
-
 const defaultCoachNames = () => normalizeCoachNames(DEFAULT_COACH_NAMES);
 
 const normalizeKeeperCount = (playerCount: number, keeperCount: number) =>
@@ -369,61 +316,6 @@ export const getSectionPlayerCounts = (
     ...Array.from({ length: normalizedStationCount - remainder }, () => baseCount),
     ...Array.from({ length: remainder }, () => baseCount + 1),
   ];
-};
-
-const getTrailingStationSectionInfo = (blocks: SessionBlock[]) => {
-  let count = 0;
-  let requiredCount: number | undefined;
-
-  for (let index = blocks.length - 1; index >= 0; index -= 1) {
-    const block = blocks[index];
-    if (block.planningMode !== "station" && !(block.planningMode === undefined && block.exercise.category === "station")) {
-      break;
-    }
-
-    count += 1;
-    if (requiredCount === undefined && typeof block.sectionStationCount === "number") {
-      requiredCount = Math.max(2, Math.min(4, block.sectionStationCount));
-    }
-    if (block.stationRoundStart) {
-      break;
-    }
-  }
-
-  if (count === 0) return null;
-
-  return {
-    count,
-    requiredCount: requiredCount ?? count,
-  };
-};
-
-const retuneTrailingStationSectionCount = (
-  blocks: SessionBlock[] | null,
-  stationCount: number
-) => {
-  if (!blocks || blocks.length === 0) return blocks;
-
-  const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
-  const trailingSection = getTrailingStationSectionInfo(blocks);
-
-  if (!trailingSection || trailingSection.count >= trailingSection.requiredCount) {
-    return blocks;
-  }
-
-  const startIndex = blocks.length - trailingSection.count;
-
-  return normalizeStationSectionMetadata(
-    blocks.map((block, index) => {
-      if (index < startIndex) return block;
-
-      return {
-        ...block,
-        planningMode: "station",
-        sectionStationCount: normalizedStationCount,
-      };
-    })
-  );
 };
 
 export const getActivePlanningSection = ({
@@ -565,81 +457,6 @@ const appendBlockForPlanningSection = ({
     },
   ];
 };
-
-const buildTimelineSections = (sessionBlocks: SessionBlock[]) => {
-  const sections: SessionBlock[][] = [];
-
-  sessionBlocks.forEach((block) => {
-    const isStationBlock =
-      block.planningMode === "station" ||
-      (block.planningMode === undefined && block.exercise.category === "station");
-    const previousSection = sections.at(-1);
-    const previousBlock = previousSection?.at(-1);
-    const previousWasStation =
-      previousBlock?.planningMode === "station" ||
-      (previousBlock?.planningMode === undefined && previousBlock?.exercise.category === "station");
-
-    if (
-      !previousSection ||
-      !isStationBlock ||
-      !previousWasStation ||
-      block.stationRoundStart
-    ) {
-      sections.push([block]);
-      return;
-    }
-
-    previousSection.push(block);
-  });
-
-  return sections;
-};
-
-type StationSectionInfo = {
-  sectionNumber: number;
-  startIndex: number;
-  endIndex: number;
-  selectedCount: number;
-  requiredCount: number;
-  isComplete: boolean;
-};
-
-const getStationSectionInfos = (sessionBlocks: SessionBlock[]): StationSectionInfo[] => {
-  const sections = buildTimelineSections(sessionBlocks);
-  const stationSections: StationSectionInfo[] = [];
-  let startIndex = 0;
-
-  sections.forEach((sectionBlocks, index) => {
-    const endIndex = startIndex + sectionBlocks.length - 1;
-    const firstBlock = sectionBlocks[0];
-    const isStationSection =
-      firstBlock?.planningMode === "station" ||
-      (firstBlock?.planningMode === undefined && firstBlock?.exercise.category === "station");
-
-    if (isStationSection && firstBlock) {
-      const requiredCount =
-        normalizeStationSectionCount(firstBlock.sectionStationCount) ?? sectionBlocks.length;
-
-      stationSections.push({
-        sectionNumber: index + 1,
-        startIndex,
-        endIndex,
-        selectedCount: sectionBlocks.length,
-        requiredCount,
-        isComplete: sectionBlocks.length >= requiredCount,
-      });
-    }
-
-    startIndex = endIndex + 1;
-  });
-
-  return stationSections;
-};
-
-const getStationSectionInfoByNumber = (
-  sessionBlocks: SessionBlock[],
-  sectionNumber: number
-) => getStationSectionInfos(sessionBlocks).find((section) => section.sectionNumber === sectionNumber) ?? null;
 
 const safeJsonParse = (value: string): unknown => {
   try {
