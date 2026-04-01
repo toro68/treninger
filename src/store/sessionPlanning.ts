@@ -1,7 +1,7 @@
 import type { Exercise } from "@/data/exercises";
 import { getExplicitSectionNumber, getStationSectionInfoByNumber, getTrailingStationSectionInfo, normalizeStationSectionMetadata, buildTimelineSections } from "./sessionSections";
+import { getOutfieldPlayerCount, getSectionPlayerCounts } from "./sessionPlayerCounts";
 import type { PlanningSectionMode, PlanningSectionTarget, SessionBlock } from "./sessionStore";
-import { getOutfieldPlayerCount, getSectionPlayerCounts } from "./sessionStore";
 
 export type ActivePlanningSection = {
   sectionNumber: number;
