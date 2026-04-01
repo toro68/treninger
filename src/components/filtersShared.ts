@@ -20,11 +20,12 @@ type SourceConfigEntry = {
 type FilterSummaryEntry = {
   key: string;
   label: string;
+  kind: "source" | "theme" | "tag" | "search" | "favorites" | "playerCount";
+  value?: string;
 };
 
 export const MAX_VISIBLE_SOURCES = 8;
 export const MAX_VISIBLE_THEMES = 10;
-export const MAX_VISIBLE_TAGS = 8;
 
 export const FILTER_SOURCE_CONFIG = {
   egen: {
@@ -353,71 +354,6 @@ export const getThemeResetCount = ({
     searchQuery,
   });
 
-export const getAvailableTags = ({
-  exerciseLibrary,
-  filterByPlayerCount,
-  playerCount,
-  playersPerStation,
-  sectionPlayerCounts,
-  keeperCount,
-  sourceFilter,
-  activeThemes,
-  activeTags,
-  favoritesOnly,
-  favoriteIds,
-  searchQuery,
-}: {
-  exerciseLibrary: Exercise[];
-  filterByPlayerCount: boolean;
-  playerCount: number;
-  playersPerStation?: number;
-  sectionPlayerCounts: number[];
-  keeperCount: number;
-  sourceFilter: SourceFilter;
-  activeThemes: ThemeFilter;
-  activeTags: string[];
-  favoritesOnly: boolean;
-  favoriteIds: Set<string>;
-  searchQuery: string;
-}) => {
-  const facetOptions = {
-    exerciseLibrary,
-    filterByPlayerCount,
-    playerCount,
-    playersPerStation,
-    sectionPlayerCounts,
-    keeperCount,
-    sourceFilter,
-    activeThemes,
-    activeTags,
-    favoritesOnly,
-    favoriteIds,
-    searchQuery,
-  };
-  const visibleTags = collectFacetValues({
-    exerciseLibrary,
-    options: facetOptions,
-    ignore: { tags: true },
-    getValues: (exercise) => exercise.tags ?? [],
-  });
-
-  return getNextClickFacetEntries({
-    values: visibleTags,
-    activeValues: activeTags,
-    buildOptions: (selectedTags) => ({
-      ...facetOptions,
-      activeTags: selectedTags,
-    }),
-  })
-    .sort((a, b) => {
-      const activeA = a.isActive;
-      const activeB = b.isActive;
-      if (activeA !== activeB) return activeA ? -1 : 1;
-      return b.count - a.count || a.value.localeCompare(b.value, "nb");
-    })
-    .map(({ value, count }) => ({ tag: value, count }));
-};
-
 export const getAvailableSources = ({
   exerciseLibrary,
   filterByPlayerCount,
@@ -505,24 +441,37 @@ export const getActiveFilterSummary = ({
   filterByPlayerCount: boolean;
   sectionFilterLabel: string;
 }): FilterSummaryEntry[] => {
-  const sourceLabels = sourceFilter.map((value) => FILTER_SOURCE_CONFIG[value]?.label ?? value);
-  const themeLabels = activeThemes.map(humanizeTheme);
-  const tagLabels = activeTags.map(humanizeTag);
-  const summary = [
-    ...sourceLabels.map((label) => ({ key: `source-${label}`, label })),
-    ...themeLabels.map((label) => ({ key: `theme-${label}`, label })),
-    ...tagLabels.map((label) => ({ key: `tag-${label}`, label })),
+  const summary: FilterSummaryEntry[] = [
+    ...sourceFilter.map((value) => ({
+      key: `source-${value}`,
+      label: FILTER_SOURCE_CONFIG[value]?.label ?? value,
+      kind: "source" as const,
+      value,
+    })),
+    ...activeThemes.map((value) => ({
+      key: `theme-${value}`,
+      label: humanizeTheme(value),
+      kind: "theme" as const,
+      value,
+    })),
+    ...activeTags.map((value) => ({
+      key: `tag-${value}`,
+      label: humanizeTag(value),
+      kind: "tag" as const,
+      value,
+    })),
   ];
 
   if (searchQuery.trim()) {
-    summary.push({ key: "search", label: `Søk: ${searchQuery.trim()}` });
+    summary.push({ key: "search", label: `Søk: ${searchQuery.trim()}`, kind: "search" });
   }
 
   if (favoritesOnly) {
-    summary.push({ key: "favorites", label: "Favoritter" });
+    summary.push({ key: "favorites", label: "Favoritter", kind: "favorites" });
   }
+
   if (filterByPlayerCount) {
-    summary.push({ key: "players", label: sectionFilterLabel });
+    summary.push({ key: "players", label: sectionFilterLabel, kind: "playerCount" });
   }
 
   return summary;

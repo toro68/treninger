@@ -6,13 +6,10 @@ import { getSectionPlayerCounts, useSessionStore } from "@/store/sessionStore";
 import {
   getActiveFilterSummary,
   getAvailableSources,
-  getAvailableTags,
   getAvailableThemes,
   getThemeResetCount,
-  humanizeTag,
   humanizeTheme,
   MAX_VISIBLE_SOURCES,
-  MAX_VISIBLE_TAGS,
   MAX_VISIBLE_THEMES,
 } from "./filtersShared";
 import type { SourceFilter, SourceFilterValue, ThemeFilter } from "./filtersShared";
@@ -46,7 +43,6 @@ export const Filters = ({
 }: FiltersProps) => {
   const [showAllSources, setShowAllSources] = useState(false);
   const [showAllThemes, setShowAllThemes] = useState(false);
-  const [showAllTags, setShowAllTags] = useState(false);
   const playerCount = useSessionStore((state) => state.playerCount);
   const keeperCount = useSessionStore((state) => state.keeperCount);
   const stationCount = useSessionStore((state) => state.stationCount);
@@ -136,38 +132,6 @@ export const Filters = ({
     [exerciseLibrary, favoriteIds]
   );
 
-  const availableTags = useMemo(
-    () =>
-      getAvailableTags({
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        activeThemes,
-        activeTags,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      }),
-    [
-      activeTags,
-      activeThemes,
-      exerciseLibrary,
-      favoritesOnly,
-      favoriteIds,
-      filterByPlayerCount,
-      keeperCount,
-      playerCount,
-      playersPerStation,
-      searchQuery,
-      sectionPlayerCounts,
-      sourceFilter,
-    ]
-  );
-
   const availableSources = useMemo(
     () =>
       getAvailableSources({
@@ -202,7 +166,6 @@ export const Filters = ({
 
   const visibleSources = showAllSources ? availableSources : availableSources.slice(0, MAX_VISIBLE_SOURCES);
   const visibleThemes = showAllThemes ? availableThemes : availableThemes.slice(0, MAX_VISIBLE_THEMES);
-  const visibleTags = showAllTags ? availableTags : availableTags.slice(0, MAX_VISIBLE_TAGS);
 
   const activeFilterSummary = useMemo(
     () =>
@@ -227,6 +190,29 @@ export const Filters = ({
     if (searchQuery) setSearchQuery("");
   };
 
+  const removeActiveFilter = (entry: (typeof activeFilterSummary)[number]) => {
+    switch (entry.kind) {
+      case "source":
+        onSourceFilterChange(sourceFilter.filter((value) => value !== entry.value));
+        return;
+      case "theme":
+        onThemeChange(activeThemes.filter((value) => value !== entry.value));
+        return;
+      case "tag":
+        onTagChange(activeTags.filter((value) => value !== entry.value));
+        return;
+      case "search":
+        setSearchQuery("");
+        return;
+      case "favorites":
+        onFavoritesOnlyChange(false);
+        return;
+      case "playerCount":
+        onFilterByPlayerCountChange(false);
+        return;
+    }
+  };
+
   return (
     <div className="space-y-3">
       <SearchField />
@@ -244,13 +230,16 @@ export const Filters = ({
             </button>
           </div>
           <div className="mt-2 flex flex-wrap gap-1.5">
-            {activeFilterSummary.map(({ key, label }) => (
-              <span
-                key={key}
-                className="rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-xs font-medium text-zinc-700"
+            {activeFilterSummary.map((entry) => (
+              <button
+                key={entry.key}
+                type="button"
+                onClick={() => removeActiveFilter(entry)}
+                className="rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-xs font-medium text-zinc-700 transition hover:border-zinc-300 hover:bg-zinc-100"
+                aria-label={`Fjern filter ${entry.label}`}
               >
-                {label}
-              </span>
+                {entry.label}
+              </button>
             ))}
           </div>
         </div>
@@ -391,57 +380,6 @@ export const Filters = ({
         </div>
       </div>
 
-      {availableTags.length > 0 && (
-        <div className="space-y-2">
-          <div className="flex items-center justify-between gap-3">
-            <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Tagger</p>
-            <div className="flex items-center gap-3">
-              {availableTags.length > MAX_VISIBLE_TAGS && (
-                <button
-                  type="button"
-                  onClick={() => setShowAllTags((prev) => !prev)}
-                  className="text-xs text-zinc-500 underline-offset-2 hover:underline"
-                >
-                  {showAllTags ? "Vis færre" : `Vis alle (${availableTags.length})`}
-                </button>
-              )}
-              {activeTags.length > 0 && (
-                <button
-                  type="button"
-                  onClick={() => onTagChange([])}
-                  className="text-xs text-zinc-500 underline-offset-2 hover:underline"
-                >
-                  Nullstill tagger
-                </button>
-              )}
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-1.5 sm:gap-2">
-            {visibleTags.map(({ tag, count }) => {
-              const isActive = activeTags.includes(tag);
-              return (
-                <button
-                  key={tag}
-                  type="button"
-                  onClick={() =>
-                    onTagChange(
-                      isActive ? activeTags.filter((value) => value !== tag) : [...activeTags, tag]
-                    )
-                  }
-                  className={`rounded-full border px-3 py-1.5 text-xs font-medium transition active:scale-95 sm:text-sm ${
-                    isActive
-                      ? "border-emerald-600 bg-emerald-50 text-emerald-800 shadow-sm"
-                      : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-400 hover:bg-zinc-50"
-                  }`}
-                  title={tag}
-                >
-                  {`${humanizeTag(tag)} (${count})`}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      )}
     </div>
   );
 };

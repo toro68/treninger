@@ -70,14 +70,14 @@ describe("Filters", () => {
               id: "1",
               name: "A1-A2 Situasjonsøvelse - 19",
               sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
-              tags: ["tiim-source"],
+              tags: ["omstilling"],
               theme: "rondo",
               source: "tiim",
               playersMin: 4,
               playersMax: 20,
             },
-            { id: "2", theme: "pasning", tags: ["pep-sessions-vol2", "combination-play"], playersMin: 4, playersMax: 20 },
-            { id: "3", theme: "pasning", tags: ["pep-sessions-vol2"], playersMin: 4, playersMax: 20 },
+            { id: "2", theme: "pasning", tags: ["kombinasjonsspill", "høyt-press"], playersMin: 4, playersMax: 20 },
+            { id: "3", theme: "pasning", tags: ["kombinasjonsspill"], playersMin: 4, playersMax: 20 },
           ],
         })
     );
@@ -148,17 +148,10 @@ describe("Filters", () => {
     expect(props.onFavoritesOnlyChange).toHaveBeenCalledWith(true);
   });
 
-  it("should render available tag filters", () => {
+  it("should not render the tag section", () => {
     renderFilters();
-    expect(screen.getByTitle("pep-sessions-vol2")).toBeInTheDocument();
-    expect(screen.getByTitle("combination-play")).toBeInTheDocument();
-  });
-
-  it("should call onTagChange when clicking a tag filter", () => {
-    const props = renderFilters();
-    const tagButton = screen.getByTitle("combination-play");
-    fireEvent.click(tagButton);
-    expect(props.onTagChange).toHaveBeenCalledWith(["combination-play"]);
+    expect(screen.queryByText("Tagger")).not.toBeInTheDocument();
+    expect(screen.queryByText("Bibliotek/serie")).not.toBeInTheDocument();
   });
 
   it("should clear search query when resetting all filters", () => {
@@ -177,7 +170,7 @@ describe("Filters", () => {
               id: "1",
               name: "A1-A2 Situasjonsovelse - 19",
               sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
-              tags: ["tiim-source"],
+              tags: ["omstilling"],
               theme: "rondo",
               source: "tiim",
               playersMin: 4,
@@ -187,7 +180,7 @@ describe("Filters", () => {
         })
     );
 
-    const props = renderFilters({ favoritesOnly: true, filterByPlayerCount: true, activeThemes: ["rondo"], activeTags: ["tiim-source"], sourceFilter: ["tiim"] });
+    const props = renderFilters({ favoritesOnly: true, filterByPlayerCount: true, activeThemes: ["rondo"], activeTags: ["omstilling"], sourceFilter: ["tiim"] });
     fireEvent.click(screen.getByText("Nullstill alle"));
 
     expect(props.onSourceFilterChange).toHaveBeenCalledWith([]);
@@ -196,6 +189,55 @@ describe("Filters", () => {
     expect(props.onFavoritesOnlyChange).toHaveBeenCalledWith(false);
     expect(props.onFilterByPlayerCountChange).toHaveBeenCalledWith(false);
     expect(mockSetSearchQuery).toHaveBeenCalledWith("");
+  });
+
+  it("should remove an active source chip from the summary", () => {
+    const props = renderFilters({ sourceFilter: ["tiim", "egen"] });
+
+    fireEvent.click(screen.getByLabelText("Fjern filter tiim.no"));
+
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["egen"]);
+  });
+
+  it("should clear the active search chip from the summary", () => {
+    (useSessionStore as unknown as ReturnType<typeof vi.fn>).mockImplementation(
+      (selector: (state: Record<string, unknown>) => unknown) =>
+        selector({
+          searchQuery: "situasjon",
+          setSearchQuery: mockSetSearchQuery,
+          playerCount: 16,
+          keeperCount: 0,
+          stationCount: 4,
+          planningSectionMode: "single",
+          favoriteIds: new Set(["2"]),
+          exerciseLibrary: [
+            {
+              id: "1",
+              name: "A1-A2 Situasjonsovelse - 19",
+              sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
+              tags: ["omstilling"],
+              theme: "rondo",
+              source: "tiim",
+              playersMin: 4,
+              playersMax: 20,
+            },
+          ],
+        })
+    );
+
+    renderFilters();
+
+    fireEvent.click(screen.getByLabelText("Fjern filter Søk: situasjon"));
+
+    expect(mockSetSearchQuery).toHaveBeenCalledWith("");
+  });
+
+  it("should still let legacy active tag filters be removed from the summary", () => {
+    const props = renderFilters({ activeTags: ["kombinasjonsspill"] });
+
+    fireEvent.click(screen.getByLabelText("Fjern filter Kombinasjonsspill"));
+
+    expect(props.onTagChange).toHaveBeenCalledWith([]);
   });
 
   it("should make theme and source counts respect the active search query", () => {
@@ -214,7 +256,7 @@ describe("Filters", () => {
               id: "1",
               name: "A1-A2 Situasjonsovelse - 19",
               sourceUrl: "https://tiim.no/ovelse/a1-a2-situasjonsovelse-19",
-              tags: ["tiim-source"],
+              tags: ["omstilling"],
               theme: "rondo",
               source: "tiim",
               playersMin: 4,
@@ -224,7 +266,7 @@ describe("Filters", () => {
               id: "2",
               name: "Pasningssirkel",
               theme: "pasning",
-              tags: ["pep-sessions-vol2", "combination-play"],
+              tags: ["kombinasjonsspill", "høyt-press"],
               playersMin: 4,
               playersMax: 20,
             },
@@ -257,13 +299,6 @@ describe("Filters", () => {
     expect(screen.queryByText(/DBU/i)).not.toBeInTheDocument();
   });
 
-  it("should make tag counts reflect the next additive click", () => {
-    renderFilters({ activeTags: ["pep-sessions-vol2"] });
-
-    expect(screen.getByTitle("pep-sessions-vol2")).toHaveTextContent("(2)");
-    expect(screen.queryByTitle("combination-play")).not.toBeInTheDocument();
-    expect(screen.getByTitle("tiim-source")).toHaveTextContent("(3)");
-  });
 });
 
 describe("Filter types", () => {
