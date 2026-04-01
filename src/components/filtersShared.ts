@@ -199,6 +199,44 @@ const countFacetMatches = (
     0
   );
 
+type MultiSelectFacetEntry<Value extends string> = {
+  value: Value;
+  count: number;
+  isActive: boolean;
+};
+
+const getNextClickFacetEntries = <Value extends string>({
+  values,
+  activeValues,
+  buildOptions,
+}: {
+  values: Iterable<Value>;
+  activeValues: Value[];
+  buildOptions: (selectedValues: Value[]) => AvailableFacetOptions;
+}): MultiSelectFacetEntry<Value>[] => {
+  const activeValueSet = new Set(activeValues);
+  const visibleValues = new Set(activeValues);
+  for (const value of values) {
+    visibleValues.add(value);
+  }
+
+  const currentCount = activeValues.length
+    ? countFacetMatches(buildOptions(activeValues).exerciseLibrary, buildOptions(activeValues))
+    : 0;
+
+  return Array.from(visibleValues)
+    .map((value) => {
+      const selectedValues = activeValueSet.has(value) ? activeValues : [...activeValues, value];
+
+      return {
+        value,
+        count: countFacetMatches(buildOptions(selectedValues).exerciseLibrary, buildOptions(selectedValues)),
+        isActive: activeValueSet.has(value),
+      };
+    })
+    .filter((entry) => entry.isActive || entry.count > currentCount);
+};
+
 const matchesSelectedTags = (
   exercise: Pick<ExerciseData, "tags">,
   activeTags: string[]
@@ -276,26 +314,29 @@ export const getAvailableThemes = ({
   favoriteIds: Set<string>;
   searchQuery: string;
 }) => {
-  const themeCounts: Record<string, number> = {};
-  const visibleThemes = new Set(activeThemes);
+  const facetOptions = {
+    exerciseLibrary,
+    filterByPlayerCount,
+    playerCount,
+    playersPerStation,
+    sectionPlayerCounts,
+    keeperCount,
+    sourceFilter,
+    activeThemes,
+    activeTags,
+    favoritesOnly,
+    favoriteIds,
+    searchQuery,
+  };
+  const visibleThemes = new Set<string>();
 
   exerciseLibrary.forEach((exercise) => {
     if (
       matchesFacetExercise(
         exercise,
         {
-          exerciseLibrary,
-          filterByPlayerCount,
-          playerCount,
-          playersPerStation,
-          sectionPlayerCounts,
-          keeperCount,
-          sourceFilter,
+          ...facetOptions,
           activeThemes: [],
-          activeTags,
-          favoritesOnly,
-          favoriteIds,
-          searchQuery,
         },
         { themes: true }
       )
@@ -304,34 +345,23 @@ export const getAvailableThemes = ({
     }
   });
 
-  for (const theme of visibleThemes) {
-    const candidateThemes = activeThemes.includes(theme) ? activeThemes : [...activeThemes, theme];
-    themeCounts[theme] = countFacetMatches(exerciseLibrary, {
-      exerciseLibrary,
-      filterByPlayerCount,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount,
-      sourceFilter,
-      activeThemes: candidateThemes,
-      activeTags,
-      favoritesOnly,
-      favoriteIds,
-      searchQuery,
-    });
-  }
-
-  return Object.entries(themeCounts)
-    .sort(([themeA], [themeB]) => {
-      const activeA = activeThemes.includes(themeA);
-      const activeB = activeThemes.includes(themeB);
+  return getNextClickFacetEntries({
+    values: visibleThemes,
+    activeValues: activeThemes,
+    buildOptions: (selectedThemes) => ({
+      ...facetOptions,
+      activeThemes: selectedThemes,
+    }),
+  })
+    .sort((a, b) => {
+      const activeA = a.isActive;
+      const activeB = b.isActive;
       if (activeA !== activeB) return activeA ? -1 : 1;
-      if (themeA === "rondo") return -1;
-      if (themeB === "rondo") return 1;
-      return themeA.localeCompare(themeB, "nb");
+      if (a.value === "rondo") return -1;
+      if (b.value === "rondo") return 1;
+      return a.value.localeCompare(b.value, "nb");
     })
-    .map(([theme, count]) => ({ theme, count }));
+    .map(({ value, count }) => ({ theme: value, count }));
 };
 
 export const getThemeResetCount = ({
@@ -359,24 +389,20 @@ export const getThemeResetCount = ({
   favoriteIds: Set<string>;
   searchQuery: string;
 }) =>
-  countFacetMatches(
+  countFacetMatches(exerciseLibrary, {
     exerciseLibrary,
-    {
-      exerciseLibrary,
-      filterByPlayerCount,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount,
-      sourceFilter,
-      activeThemes: [],
-      activeTags,
-      favoritesOnly,
-      favoriteIds,
-      searchQuery,
-    },
-    { themes: true }
-  );
+    filterByPlayerCount,
+    playerCount,
+    playersPerStation,
+    sectionPlayerCounts,
+    keeperCount,
+    sourceFilter,
+    activeThemes: [],
+    activeTags,
+    favoritesOnly,
+    favoriteIds,
+    searchQuery,
+  });
 
 export const getAvailableTags = ({
   exerciseLibrary,
@@ -405,43 +431,28 @@ export const getAvailableTags = ({
   favoriteIds: Set<string>;
   searchQuery: string;
 }) => {
-  const tagCounts: Record<string, number> = {};
-  const activeTagSet = new Set(activeTags);
-  const visibleTags = new Set(activeTags);
-  const currentTagCount = activeTags.length
-    ? countFacetMatches(exerciseLibrary, {
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        activeThemes,
-        activeTags,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      })
-    : 0;
+  const facetOptions = {
+    exerciseLibrary,
+    filterByPlayerCount,
+    playerCount,
+    playersPerStation,
+    sectionPlayerCounts,
+    keeperCount,
+    sourceFilter,
+    activeThemes,
+    activeTags,
+    favoritesOnly,
+    favoriteIds,
+    searchQuery,
+  };
+  const visibleTags = new Set<string>();
 
   exerciseLibrary.forEach((exercise) => {
     if (
       !matchesFacetExercise(
         exercise,
         {
-          exerciseLibrary,
-          filterByPlayerCount,
-          playerCount,
-          playersPerStation,
-          sectionPlayerCounts,
-          keeperCount,
-          sourceFilter,
-          activeThemes,
-          activeTags,
-          favoritesOnly,
-          favoriteIds,
-          searchQuery,
+          ...facetOptions,
         },
         { tags: true }
       )
@@ -454,34 +465,21 @@ export const getAvailableTags = ({
     }
   });
 
-  for (const tag of visibleTags) {
-    const candidateTags = activeTagSet.has(tag) ? activeTags : [...activeTags, tag];
-    tagCounts[tag] = countFacetMatches(exerciseLibrary, {
-      exerciseLibrary,
-      filterByPlayerCount,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount,
-      sourceFilter,
-      activeThemes,
-      activeTags: candidateTags,
-      favoritesOnly,
-      favoriteIds,
-      searchQuery,
-    });
-  }
-
-  return Object.entries(tagCounts)
-    .map(([tag, count]) => ({ tag, count, isActive: activeTagSet.has(tag) }))
-    .filter((entry) => (entry.isActive ? true : entry.count > currentTagCount))
+  return getNextClickFacetEntries({
+    values: visibleTags,
+    activeValues: activeTags,
+    buildOptions: (selectedTags) => ({
+      ...facetOptions,
+      activeTags: selectedTags,
+    }),
+  })
     .sort((a, b) => {
       const activeA = a.isActive;
       const activeB = b.isActive;
       if (activeA !== activeB) return activeA ? -1 : 1;
-      return b.count - a.count || a.tag.localeCompare(b.tag, "nb");
+      return b.count - a.count || a.value.localeCompare(b.value, "nb");
     })
-    .map(({ tag, count }) => ({ tag, count }));
+    .map(({ value, count }) => ({ tag: value, count }));
 };
 
 export const getAvailableSources = ({
@@ -511,50 +509,35 @@ export const getAvailableSources = ({
   favoriteIds: Set<string>;
   searchQuery: string;
 }) => {
-  const sourceCounts: Record<string, number> = {};
-  const currentSourceCount = sourceFilter.length
-    ? countFacetMatches(exerciseLibrary, {
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        activeThemes,
-        activeTags,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      })
-    : 0;
+  const facetOptions = {
+    exerciseLibrary,
+    filterByPlayerCount,
+    playerCount,
+    playersPerStation,
+    sectionPlayerCounts,
+    keeperCount,
+    sourceFilter,
+    activeThemes,
+    activeTags,
+    favoritesOnly,
+    favoriteIds,
+    searchQuery,
+  };
 
-  for (const key of Object.keys(FILTER_SOURCE_CONFIG) as SourceFilterValue[]) {
-    const candidateSourceFilter = sourceFilter.includes(key) ? sourceFilter : [...sourceFilter, key];
-    sourceCounts[key] = countFacetMatches(exerciseLibrary, {
-      exerciseLibrary,
-      filterByPlayerCount,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount,
-      sourceFilter: candidateSourceFilter,
-      activeThemes,
-      activeTags,
-      favoritesOnly,
-      favoriteIds,
-      searchQuery,
-    });
-  }
-
-  return Object.entries(FILTER_SOURCE_CONFIG)
-    .map(([key, config]) => ({
-      key,
-      ...config,
-      count: sourceCounts[key] ?? 0,
-      isActive: sourceFilter.includes(key as SourceFilterValue),
+  return getNextClickFacetEntries({
+    values: Object.keys(FILTER_SOURCE_CONFIG) as SourceFilterValue[],
+    activeValues: sourceFilter,
+    buildOptions: (selectedSources) => ({
+      ...facetOptions,
+      sourceFilter: selectedSources,
+    }),
+  })
+    .map(({ value, count, isActive }) => ({
+      key: value,
+      ...FILTER_SOURCE_CONFIG[value],
+      count,
+      isActive,
     }))
-    .filter((entry) => (entry.isActive ? true : entry.count > currentSourceCount))
     .sort((a, b) => {
       if (a.isActive !== b.isActive) return a.isActive ? -1 : 1;
       if (a.count !== b.count) return b.count - a.count;
