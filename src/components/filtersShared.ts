@@ -326,6 +326,7 @@ export const getAvailableTags = ({
   searchQuery: string;
 }) => {
   const tagCounts: Record<string, number> = {};
+  const activeTagSet = new Set(activeTags);
 
   exerciseLibrary.forEach((exercise) => {
     if (
@@ -352,12 +353,25 @@ export const getAvailableTags = ({
     }
 
     for (const tag of exercise.tags ?? []) {
+      const candidateTags = activeTagSet.has(tag) ? activeTags : [...activeTags, tag];
+      if (!matchesSelectedTags(exercise, candidateTags)) {
+        continue;
+      }
       tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
     }
   });
 
+  for (const tag of activeTags) {
+    tagCounts[tag] = tagCounts[tag] ?? 0;
+  }
+
   return Object.entries(tagCounts)
-    .sort(([tagA, countA], [tagB, countB]) => countB - countA || tagA.localeCompare(tagB, "nb"))
+    .sort(([tagA, countA], [tagB, countB]) => {
+      const activeA = activeTagSet.has(tagA);
+      const activeB = activeTagSet.has(tagB);
+      if (activeA !== activeB) return activeA ? -1 : 1;
+      return countB - countA || tagA.localeCompare(tagB, "nb");
+    })
     .map(([tag, count]) => ({ tag, count }));
 };
 

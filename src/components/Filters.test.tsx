@@ -241,6 +241,14 @@ describe("Filters", () => {
     expect(screen.queryByText(/Egne/)).not.toBeInTheDocument();
     expect(screen.getByText(/tiim.no \(1\)/i)).toBeInTheDocument();
   });
+
+  it("should make tag counts respect already active tags", () => {
+    renderFilters({ activeTags: ["pep-sessions-vol2"] });
+
+    expect(screen.getByTitle("pep-sessions-vol2")).toHaveTextContent("(2)");
+    expect(screen.getByTitle("combination-play")).toHaveTextContent("(1)");
+    expect(screen.queryByTitle("tiim-source")).not.toBeInTheDocument();
+  });
 });
 
 describe("Filter types", () => {
