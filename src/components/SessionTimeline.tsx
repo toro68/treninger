@@ -1,7 +1,5 @@
-import Image from "next/image";
 import { deriveSessionBlocks, recommendedDuration, getUnit, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
 import { Exercise, getExerciseCode } from "@/data/exercises";
-import { getSessionTheoryCategoryLabel, sessionTheoryItems } from "@/data/sessionTheory";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
 import { buildSessionParts } from "@/utils/sessionParts";
@@ -16,6 +14,20 @@ import {
   toggleSessionCommentSuggestion,
   toPrintableParts,
 } from "@/utils/sessionTimelineShare";
+import {
+  addAlternativeExerciseToBlock,
+  applySectionCommentToBlocks,
+  removeAlternativeExerciseFromBlock,
+  removeSessionBlockAtIndex,
+  reorderSessionBlocks,
+  toggleCoachAssignmentForBlock,
+  toggleStationRoundStartForBlock,
+  updateSessionBlockAtIndex,
+} from "@/utils/sessionTimelineBlocks";
+import { SessionTimelineSavedSessionsPanel } from "./SessionTimelineSavedSessionsPanel";
+import { SessionTimelineSectionPlanner } from "./SessionTimelineSectionPlanner";
+import { SessionTimelineShareMenu } from "./SessionTimelineShareMenu";
+import { SessionTimelineTheoryPanel } from "./SessionTimelineTheoryPanel";
 import { useState, useEffect, useMemo } from "react";
 
 const CATEGORY_LABELS: Record<Exercise["category"], string> = {
@@ -191,9 +203,7 @@ export const SessionTimeline = () => {
     index: number,
     updater: (block: SessionBlock) => SessionBlock
   ) => {
-    const updated = sessionBlocks.map((block, idx) =>
-      idx === index ? updater(block) : block
-    );
+    const updated = updateSessionBlockAtIndex(sessionBlocks, index, updater);
     setPlannedBlocks(updated);
   };
 
@@ -261,83 +271,25 @@ export const SessionTimeline = () => {
     const part = parts.find((entry) => entry.key === partKey);
     if (!part) return;
 
-    const blockIndexes = new Set(part.blocks.map(({ globalIndex }) => globalIndex));
-    const normalizedValue = value.trim() ? value : undefined;
-
-    setPlannedBlocks(
-      sessionBlocks.map((block, index) =>
-        blockIndexes.has(index)
-          ? {
-              ...block,
-              sectionComment: normalizedValue,
-            }
-          : block
-      )
-    );
+    setPlannedBlocks(applySectionCommentToBlocks(sessionBlocks, part, value));
   };
 
   const toggleCoachAssignment = (index: number, coachName: string) => {
-    updateBlockAtIndex(index, (block) => {
-      const nextCoachNames = new Set(block.assignedCoachNames ?? []);
-      if (nextCoachNames.has(coachName)) {
-        nextCoachNames.delete(coachName);
-      } else {
-        nextCoachNames.add(coachName);
-      }
-
-      const assignedCoachNames = [...nextCoachNames];
-      return {
-        ...block,
-        assignedCoachNames: assignedCoachNames.length > 0 ? assignedCoachNames : undefined,
-      };
-    });
+    setPlannedBlocks(toggleCoachAssignmentForBlock(sessionBlocks, index, coachName));
   };
 
   const toggleStationRoundStart = (index: number) => {
-    const block = sessionBlocks[index];
-    const isStationBlock =
-      block?.planningMode === "station" ||
-      (block?.planningMode === undefined && block?.exercise.category === "station");
-    if (!block || !isStationBlock) return;
-
-    const previousBlock = sessionBlocks[index - 1];
-    const previousIsStationBlock =
-      previousBlock?.planningMode === "station" ||
-      (previousBlock?.planningMode === undefined && previousBlock?.exercise.category === "station");
-    if (!previousBlock || !previousIsStationBlock) return;
-
-    updateBlockAtIndex(index, (currentBlock) => ({
-      ...currentBlock,
-      stationRoundStart: currentBlock.stationRoundStart ? undefined : true,
-    }));
+    setPlannedBlocks(toggleStationRoundStartForBlock(sessionBlocks, index));
   };
 
   const addAlternativeExercise = (index: number, alternativeExerciseId: string) => {
-    if (!alternativeExerciseId) return;
-    const updated = sessionBlocks.map((block, idx) => {
-      if (idx !== index) return block;
-      const nextIds = new Set(block.alternativeExerciseIds ?? []);
-      nextIds.add(alternativeExerciseId);
-      return {
-        ...block,
-        alternativeExerciseIds: [...nextIds],
-      };
-    });
+    const updated = addAlternativeExerciseToBlock(sessionBlocks, index, alternativeExerciseId);
     setPlannedBlocks(updated);
     setAlternativeMenuForBlockId(null);
   };
 
   const removeAlternativeExercise = (index: number, alternativeExerciseId: string) => {
-    const updated = sessionBlocks.map((block, idx) => {
-      if (idx !== index) return block;
-      const nextIds = (block.alternativeExerciseIds ?? []).filter(
-        (id) => id !== alternativeExerciseId
-      );
-      return {
-        ...block,
-        alternativeExerciseIds: nextIds.length > 0 ? nextIds : undefined,
-      };
-    });
+    const updated = removeAlternativeExerciseFromBlock(sessionBlocks, index, alternativeExerciseId);
     setPlannedBlocks(updated);
   };
 
@@ -350,9 +302,7 @@ export const SessionTimeline = () => {
   };
   const handleDrop = (index: number) => {
     if (dragIndex === null || dragIndex === index) return;
-    const updated = [...sessionBlocks];
-    const [moved] = updated.splice(dragIndex, 1);
-    updated.splice(index, 0, moved);
+    const updated = reorderSessionBlocks(sessionBlocks, dragIndex, index);
     setPlannedBlocks(updated);
     setDragIndex(null);
   };
@@ -360,9 +310,7 @@ export const SessionTimeline = () => {
   const moveBlock = (index: number, direction: "up" | "down") => {
     const newIndex = direction === "up" ? index - 1 : index + 1;
     if (newIndex < 0 || newIndex >= sessionBlocks.length) return;
-    const updated = [...sessionBlocks];
-    const [moved] = updated.splice(index, 1);
-    updated.splice(newIndex, 0, moved);
+    const updated = reorderSessionBlocks(sessionBlocks, index, newIndex);
     setPlannedBlocks(updated);
   };
 
@@ -370,7 +318,7 @@ export const SessionTimeline = () => {
 
   const removeBlock = (index: number) => {
     const removed = sessionBlocks[index];
-    const updated = sessionBlocks.filter((_, idx) => idx !== index);
+    const updated = removeSessionBlockAtIndex(sessionBlocks, index);
     setPlannedBlocks(updated);
     setAlternativeMenuForBlockId((current) =>
       current === removed?.id ? null : current
@@ -521,65 +469,15 @@ export const SessionTimeline = () => {
           >
             {savedSessionsButtonLabel}
           </button>
-          <div className="relative">
-            <button
-              onClick={() => setShowShareOptions(!showShareOptions)}
-              className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
-            >
-              Del økt
-            </button>
-            {showShareOptions && (
-              <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-zinc-200 rounded-lg shadow-lg py-1 min-w-[160px]">
-                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Kompakt i planlegger</div>
-                <button
-                  onClick={() => handleCopy(false)}
-                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
-                    <path d="M5.5 3.5A1.5 1.5 0 0 1 7 2h2.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V9.5A1.5 1.5 0 0 1 12 11V8.621a3 3 0 0 0-.879-2.121L9 4.379A3 3 0 0 0 6.879 3.5H5.5Z" />
-                    <path d="M4 5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 4 14h5a1.5 1.5 0 0 0 1.5-1.5V8.621a1.5 1.5 0 0 0-.44-1.06L7.94 5.439A1.5 1.5 0 0 0 6.878 5H4Z" />
-                  </svg>
-                  Kopier kompakt tekst
-                </button>
-                <hr className="my-1 border-zinc-100" />
-                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Fullversjon</div>
-                <button
-                  onClick={handleCopyShareLink}
-                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
-                    <path fillRule="evenodd" d="M7.25 3A2.25 2.25 0 0 0 5 5.25v1.5a.75.75 0 0 0 1.5 0v-1.5A.75.75 0 0 1 7.25 4.5h3.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 0 0 1.5h1.5A2.25 2.25 0 0 0 13 8.75v-3.5A2.25 2.25 0 0 0 10.75 3h-3.5ZM3 7.25A2.25 2.25 0 0 1 5.25 5h3.5A2.25 2.25 0 0 1 11 7.25v3.5A2.25 2.25 0 0 1 8.75 13h-3.5A2.25 2.25 0 0 1 3 10.75v-3.5Zm2.25-.75a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h3.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-3.5Z" clipRule="evenodd" />
-                  </svg>
-                  Kopier lenke til fullversjon
-                </button>
-                {fullSessionShareUrl ? (
-                  <a
-                    href={fullSessionShareUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setShowShareOptions(false)}
-                    className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
-                      <path d="M9.78 2.97a.75.75 0 0 1 0 1.06L6.81 7h4.44a.75.75 0 0 1 0 1.5H6.81l2.97 2.97a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" transform="matrix(-1 0 0 1 16 0)" />
-                    </svg>
-                    Åpne fullversjon
-                  </a>
-                ) : null}
-                <hr className="my-1 border-zinc-100" />
-                <div className="px-3 py-1.5 text-[10px] font-medium text-zinc-400 uppercase tracking-wide">Eksporter</div>
-                <button
-                  onClick={handlePrint}
-                  className="w-full px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50 flex items-center gap-2"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
-                    <path fillRule="evenodd" d="M4 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v.5h.5A1.5 1.5 0 0 1 14 6v4a1.5 1.5 0 0 1-1.5 1.5H12v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1h-.5A1.5 1.5 0 0 1 2 10V6a1.5 1.5 0 0 1 1.5-1.5H4V4Zm1.5 6v2.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5V10h-5Zm5-5.5V4a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0-.5.5v.5h5Z" clipRule="evenodd" />
-                  </svg>
-                  Skriv ut / PDF
-                </button>
-              </div>
-            )}
-          </div>
+          <SessionTimelineShareMenu
+            fullSessionShareUrl={fullSessionShareUrl}
+            showShareOptions={showShareOptions}
+            onToggle={() => setShowShareOptions(!showShareOptions)}
+            onClose={() => setShowShareOptions(false)}
+            onCopyCompact={() => handleCopy(false)}
+            onCopyLink={handleCopyShareLink}
+            onPrint={handlePrint}
+          />
           <button
             onClick={() => resetPlan()}
             className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
@@ -631,115 +529,27 @@ export const SessionTimeline = () => {
         </div>
       </div>
 
-      <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <h3 className="text-sm font-semibold text-zinc-900">Seksjon {displayedSectionNumber}</h3>
-            <p className="text-xs text-zinc-600">
-              Velg om denne delen av økta skal være én felles øvelse eller {" "}
-              {"2–4"} parallelle stasjoner. Biblioteket til venstre filtreres mot {activeSectionSplitLabel}.
-            </p>
-          </div>
-          <span className="text-xs font-medium text-sky-800">
-            {planningSectionMode === "stations"
-              ? `${displayedSelectedCount}/${displayedRequiredCount} stasjoner valgt`
-              : "1 øvelse for alle"}
-          </span>
-        </div>
-        {stationParts.length > 0 ? (
-          <div className="mt-3 flex flex-wrap gap-2">
-            {stationParts.map((part) => {
-              const partTarget = `section-${part.orderNumber}` as const;
-              const isSelected =
-                planningSectionTarget === partTarget ||
-                (planningSectionTarget === "auto" && displayedSectionNumber === part.orderNumber && !isPlanningNextSection);
-
-              return (
-                <button
-                  key={part.key}
-                  type="button"
-                  onClick={() => setPlanningSectionTarget(partTarget)}
-                  className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
-                    isSelected
-                      ? "border-amber-700 bg-amber-700 text-white"
-                      : "border-amber-200 bg-white text-amber-900 hover:border-amber-400"
-                  }`}
-                >
-                  {`Rediger seksjon ${part.orderNumber}`}
-                </button>
-              );
-            })}
-            <button
-              type="button"
-              onClick={() => setPlanningSectionTarget("next-section")}
-              className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
-                isPlanningNextSection
-                  ? "border-sky-700 bg-sky-700 text-white"
-                  : "border-sky-200 bg-white text-sky-900 hover:border-sky-400"
-              }`}
-            >
-              {`Planlegg seksjon ${parts.length + 1}`}
-            </button>
-          </div>
-        ) : null}
-        <div className="mt-3 flex flex-wrap gap-2">
-          {([
-            { mode: "single", label: "1 øvelse" },
-            { mode: "stations", label: "2 stasjoner", count: 2 },
-            { mode: "stations", label: "3 stasjoner", count: 3 },
-            { mode: "stations", label: "4 stasjoner", count: 4 },
-          ] as Array<{ mode: PlanningSectionMode; label: string; count?: number }>).map((option) => {
-            const isActive =
-              option.mode === planningSectionMode &&
-              (option.mode !== "stations" || option.count === stationCount);
-            return (
-              <button
-                key={option.label}
-                type="button"
-                onClick={() => {
-                  setPlanningSectionMode(option.mode);
-                  if (option.count) {
-                    setStationCount(option.count);
-                  }
-                }}
-                className={`rounded-full border px-3 py-1.5 text-xs font-medium transition ${
-                  isActive
-                    ? "border-sky-700 bg-sky-700 text-white"
-                    : "border-sky-200 bg-white text-sky-900 hover:border-sky-400"
-                }`}
-              >
-                {option.label}
-              </button>
-            );
-          })}
-        </div>
-        {planningSectionMode === "stations" ? (
-          <p className="mt-2 text-xs text-sky-900">Fordeling i denne seksjonen: {displayedPlayerCounts.join(" + ")} spillere.</p>
-        ) : null}
-        {showIncompleteStationSection ? (
-          <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-3 py-3 text-xs text-amber-950">
-            <p className="font-semibold">Seksjonen er ikke ferdig ennå.</p>
-            <p className="mt-1">
-              Du har valgt {activeSection.selectedCount} av {activeSection.requiredCount} stasjoner. Neste valg blir stasjon {activeSection.selectedCount + 1}, og det mangler {missingStations} stasjon{missingStations === 1 ? "" : "er"} før neste seksjon starter.
-            </p>
-          </div>
-        ) : null}
-        {isPlanningNextSection ? (
-          <div className="mt-3 rounded-2xl border border-sky-200 bg-white/80 px-3 py-3 text-xs text-sky-950">
-            <p className="font-semibold">Du planlegger neste seksjon eksplisitt.</p>
-            <p className="mt-1">
-              Endringer i antall stasjoner gjelder seksjon {displayedSectionNumber}. Forrige uferdige seksjon blir ikke endret før du velger å redigere den eksplisitt.
-            </p>
-          </div>
-        ) : explicitSectionTarget ? (
-          <div className="mt-3 rounded-2xl border border-amber-200 bg-white/80 px-3 py-3 text-xs text-amber-950">
-            <p className="font-semibold">Du redigerer en valgt seksjon eksplisitt.</p>
-            <p className="mt-1">
-              Endringer i antall stasjoner og nye valg fra biblioteket går til seksjon {displayedSectionNumber} til du velger en annen seksjon.
-            </p>
-          </div>
-        ) : null}
-      </div>
+      <SessionTimelineSectionPlanner
+        activeSection={activeSection}
+        activeSectionSplitLabel={activeSectionSplitLabel}
+        displayedPlayerCounts={displayedPlayerCounts}
+        displayedRequiredCount={displayedRequiredCount}
+        displayedSectionNumber={displayedSectionNumber}
+        displayedSelectedCount={displayedSelectedCount}
+        explicitSectionTarget={explicitSectionTarget}
+        isIncompleteStationSection={isIncompleteStationSection}
+        isPlanningNextSection={isPlanningNextSection}
+        missingStations={missingStations}
+        partsLength={parts.length}
+        planningSectionMode={planningSectionMode}
+        planningSectionTarget={planningSectionTarget}
+        setPlanningSectionMode={setPlanningSectionMode}
+        setPlanningSectionTarget={setPlanningSectionTarget}
+        setStationCount={setStationCount}
+        showIncompleteStationSection={showIncompleteStationSection}
+        stationCount={stationCount}
+        stationParts={stationParts}
+      />
 
       {hasContent ? (
         <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/70 p-4">
@@ -793,77 +603,18 @@ export const SessionTimeline = () => {
         </div>
       ) : null}
 
-      {showSavedSessions && (
-        <div className="mt-4 rounded-xl border border-zinc-200 bg-zinc-50/70 p-3">
-          {activeSavedSession ? (
-            <div className="mb-3 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs text-emerald-900">
-              Redigerer lagret økt: <span className="font-semibold">{activeSavedSession.name}</span>. Endringer kan oppdateres direkte.
-            </div>
-          ) : null}
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-            <input
-              type="text"
-              value={sessionName}
-              onChange={(event) => setSessionName(event.target.value)}
-              placeholder="Navn på økten"
-              className="flex-1 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900"
-            />
-            <button
-              type="button"
-              onClick={handleSaveSession}
-              className="rounded-full border border-zinc-900 bg-zinc-900 px-4 py-2 text-xs font-medium text-white transition hover:bg-zinc-700"
-            >
-              {activeSavedSession ? "Oppdater lagret økt" : "Lagre økt"}
-            </button>
-          </div>
-          <p className="mt-2 text-xs text-zinc-500">
-            Nåværende økt ligger allerede lagret lokalt i nettleseren. Her kan du lagre navngitte økter, oppdatere den du jobber med, og hente dem fram igjen.
-          </p>
-
-          <div className="mt-3 space-y-2 border-t border-zinc-200 pt-3">
-            {savedSessions.length === 0 ? (
-              <p className="text-xs text-zinc-500">Ingen navngitte økter lagret ennå.</p>
-            ) : (
-              savedSessions.map((savedSession) => (
-                <div
-                  key={savedSession.id}
-                  className={`flex flex-col gap-2 rounded-lg border bg-white p-3 sm:flex-row sm:items-center sm:justify-between ${
-                    savedSession.id === activeSavedSessionId ? "border-emerald-300 ring-1 ring-emerald-200" : "border-zinc-200"
-                  }`}
-                >
-                  <div>
-                    <p className="text-sm font-medium text-zinc-900">{savedSession.name}</p>
-                    <p className="text-xs text-zinc-500">
-                      {savedSession.playerCount} spillere · seksjonsvalg opptil {savedSession.stationCount} stasjoner · lagret {new Date(savedSession.updatedAt).toLocaleString("nb-NO")}
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    {savedSession.id === activeSavedSessionId ? (
-                      <span className="rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-medium text-emerald-800">
-                        Aktiv
-                      </span>
-                    ) : null}
-                    <button
-                      type="button"
-                      onClick={() => handleLoadSession(savedSession.id)}
-                      className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-700 transition hover:border-zinc-400"
-                    >
-                      Last inn
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleDeleteSession(savedSession.id)}
-                      className="rounded-full border border-red-200 px-3 py-1 text-xs text-red-600 transition hover:border-red-400 hover:bg-red-50"
-                    >
-                      Slett
-                    </button>
-                  </div>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
-      )}
+      {showSavedSessions ? (
+        <SessionTimelineSavedSessionsPanel
+          activeSavedSession={activeSavedSession}
+          activeSavedSessionId={activeSavedSessionId}
+          savedSessions={savedSessions}
+          sessionName={sessionName}
+          onSessionNameChange={setSessionName}
+          onSaveSession={handleSaveSession}
+          onLoadSession={handleLoadSession}
+          onDeleteSession={handleDeleteSession}
+        />
+      ) : null}
 
       {!hasContent ? (
         <div className="mt-6 flex flex-col items-center justify-center py-8 text-center">
@@ -1280,92 +1031,10 @@ export const SessionTimeline = () => {
             );
           })}
 
-          <div className="rounded-xl border border-sky-100 bg-sky-50/60 p-4">
-            <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 className="text-sm font-semibold text-zinc-800">Teori nederst i fullversjonen</h3>
-                <p className="text-xs text-zinc-500">
-                  Huk av korte teoribiter du vil ha med som trenernotat og spillerbudskap.
-                </p>
-              </div>
-              <span className="text-xs text-sky-700">
-                {selectedTheoryIds.size} valgt
-              </span>
-            </div>
-
-            <div className="mt-3 grid gap-2">
-              {sessionTheoryItems.map((item) => {
-                const checked = selectedTheoryIds.has(item.id);
-                return (
-                  <article
-                    key={item.id}
-                    className={`rounded-xl border px-3 py-2 transition ${
-                      checked
-                        ? "border-sky-300 bg-white shadow-sm"
-                        : "border-sky-100 bg-white/70 hover:border-sky-200"
-                    }`}
-                  >
-                    <label className="flex cursor-pointer items-start gap-3">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() => toggleTheory(item.id)}
-                        className="mt-0.5 h-4 w-4 rounded border-sky-300 text-sky-600 focus:ring-sky-500"
-                      />
-                      <span className="min-w-0 flex-1">
-                        <span className="block text-xs font-semibold uppercase tracking-wide text-sky-700">
-                          {getSessionTheoryCategoryLabel(item.category)}
-                        </span>
-                        <span className="mt-0.5 block text-sm font-medium text-zinc-900">{item.title}</span>
-                        <span className="mt-1 block text-xs leading-5 text-zinc-600">{item.summary}</span>
-                      </span>
-                    </label>
-
-                    {item.imageUrl ? (
-                      <div className="mt-3 overflow-hidden rounded-lg border border-sky-100 bg-sky-50">
-                        <Image
-                          src={item.imageUrl}
-                          alt={item.title}
-                          width={960}
-                          height={640}
-                          className="h-auto w-full object-cover"
-                        />
-                      </div>
-                    ) : null}
-
-                    {item.sections?.length ? (
-                      <details className="mt-3 rounded-lg bg-sky-50/70 px-3 py-2 text-sm text-zinc-700">
-                        <summary className="cursor-pointer list-none font-medium text-sky-800 marker:hidden">
-                          Vis detaljer
-                        </summary>
-                        <div className="mt-3 space-y-3">
-                          {item.sections.map((section) => (
-                            <section key={section.title} className="space-y-2">
-                              <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                {section.title}
-                              </h4>
-                              {section.paragraphs?.map((paragraph) => (
-                                <p key={paragraph} className="text-xs leading-5 text-zinc-700">
-                                  {paragraph}
-                                </p>
-                              ))}
-                              {section.bullets?.length ? (
-                                <ul className="space-y-1 text-xs leading-5 text-zinc-700">
-                                  {section.bullets.map((bullet) => (
-                                    <li key={bullet}>• {bullet}</li>
-                                  ))}
-                                </ul>
-                              ) : null}
-                            </section>
-                          ))}
-                        </div>
-                      </details>
-                    ) : null}
-                  </article>
-                );
-              })}
-            </div>
-          </div>
+          <SessionTimelineTheoryPanel
+            selectedTheoryIds={selectedTheoryIds}
+            onToggleTheory={toggleTheory}
+          />
         </div>
       )}
     </section>
