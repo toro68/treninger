@@ -120,7 +120,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 14,
     playersMin: 8,
     playersMax: 14,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["kjegler", "baller", "vester", "mål", "2 keepere"],
     description:
       "3v2-overtall. CITY METHODOLOGY: Skap overtall med kombinasjoner. Angrip rommet bak forsvarere. RCM. Back 2 og 3 holder seg bak. LB. RB. 30 x 15. Øvelsesbeskrivelse: I et område på 30 x 15 yards har vi 2 lag med 5 spillere, men vi spiller 5v2 (+MV). Vi starter fra keeper, som spiller til venstre back (LB) eller høyre back (RB). Merk: Spillerne kan bruke flere ulike mønstre som kan hentes fra andre øvelser i boka. I dette eksempelet spiller backen i ball (RB) til spiss (F), som legger av ballen til en av de 2 sentrale midtbanespillerne (LCM eller RCM). Fra dette punktet får de blå et 3v2-overtall for å prøve å avslutte angrepet. Begge blå backer holder seg bak og er ikke involvert i avslutningen. Roter forsvarerne for hvile. Bytt lagroller etter et satt tidsintervall. Progresjon: Legg til 1 rød forsvarer, og blått lag skaper 4v3-overtall med 1 back (LB eller RB) som blir med i angrepet.",
@@ -834,7 +834,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 8,
     playersMax: 12,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["kjegler", "baller", "vester", "mål", "keeper"],
     description:
       "Kampnære posisjonsspesifikke angrepsovertall i en funksjonell øvelse med kanaler. CITY METHODOLOGY: Bredde-/kantspillere gjør innvendige diagonale løp, angrip rommet bak forsvarere, følg inn på returer. Øvelsesbeskrivelse: Bruk en halv bane og marker 3 kanaler som vist. Øvelsen starter annenhver gang fra en av backene. I dette eksempelet er aktive spillere høyre back (RB), høyre ving (RW), venstre sentral midtbane (LCM) og spiss (F) mot 2 røde forsvarere (4v2). Angripende lag må spille innenfor 2 kanaler og forsøke å skape angrepsovertall for å score, med sentral midtbane (LCM i diagrammet) som gjør et penetrerende løp i bakrom. Sekvensen i eksempelet starter med veggspill mellom RB og RW, etterfulgt av pasning inn til spiss (F). Derfra beveger RW seg raskt inn i banen for å motta avlegget fra F, og spiller så en gjennombruddspasning på LM sitt fremoverspurtsløp for avslutning. Avslutningen skal være på tvers av mål slik at spiss (F) kan score på retur dersom keeper redder. Så snart første fase er ferdig, starter venstre back en ny fase med spill kun i venstre og sentrale kanal, med LB, LW, RCM og F involvert.",
@@ -961,7 +961,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 8,
     playersMax: 14,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["kjegler", "baller", "vester", "mål", "mannekenger"],
     description:
       "Side-diamantmønster når fremoverpasning er blokkert og back spiller inn på spiss (venstre side). CITY METHODOLOGY: Besett riktige rom til riktige tider og bryt ledd. Øvelsesbeskrivelse: Spillerne øver på ulike spillmønstre satt av treneren. Det finnes mange eksempler i boka. Denne varianten viser side-diamantkombinasjonen (midtstopper, back, sentral midtbane og ving på én side) når midtstopperen er blokkert fra å spille fremover. 1-3. Hvis rommet foran midtstopper (CB) er stengt (som vist ved at rød spiller i diagrammet flytter seg over for å presse), viser diagrammet en god kombinasjon. 4. Venstre back (LB) skal være på linje med ballfører (CB) for å motta neste pasning. 5-6. Vingen (LW) holder seg høy og bred, åpner kanalen for backen (LB) til å spille inn på spiss (F), som legger av til møtende sentral midtbane (LM). 7. LCM tar et touch for å åpne opp alle alternativ på begge sider av banen i stedet for å spille på første touch. 8-9. I dette eksempelet gjør den andre sentrale midtbanespilleren (RCM) et penetrerende løp i bakrom bak forsvarslinjen mellom de to røde stopper-mannekengene. LCM spiller en godt timet diagonalpasning inn i boksen slik at RCM kan motta og score.",
@@ -980,7 +980,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 15,
     playersMin: 8,
     playersMax: 14,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["kjegler", "baller", "vester", "mål", "mannekenger"],
     description:
       "Side-diamantmønster når fremoverpasning er blokkert og back spiller inn på spiss (høyre side). Øvelsesbeskrivelse: Dette er en variasjon av eksempelet på forrige side, der side-diamantkombinasjonen nå spilles på høyre side av banen. 1-6. Pasninger og bevegelser er de samme som i eksempelet på forrige side, men speilvendt på høyresiden. 7. I dette eksempelet gjør sentral midtbane (RCM) et penetrerende løp for å motta mellom stopper- og back-mannekeng. RCM spiller en godt timet diagonalpasning inn i halvt rom på LCM sitt fremoverløp. 8-9. LCM tar med ballen inn i boksen og skyter på tvers av keeper for å prøve å score.",
@@ -1156,7 +1156,7 @@ const baseMancExercises: ExerciseData[] = [
     duration: 14,
     playersMin: 7,
     playersMax: 12,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["kjegler", "baller", "vester", "mål", "keeper", "mannekenger"],
     description:
       "Ving kommer inn og legger av til sentral midtbane som spiller spiss opp for åpning og avslutning. Øvelsesbeskrivelse: 1-2. Keeper spiller kort til en stopper (CB), som steger frem med ballen. 3. CB spiller til vingen (RW), som kommer av linjen i riktig vinkel for å motta. 4. RW legger av til møtende sentral midtbane (RCM), som først må være posisjonert på innsiden av mannekengen (forsvarer) slik at pasningskanalen er åpen. RCM starter fremoverbevegelsen så snart CB spiller inn på RW og har brutt leddet. 5. RCM må ta første touch fremover for å åpne alle alternativer på begge sider av banen i stedet for å spille på første touch. 6-8. RCM spiller på bevegelsen til spiss (F), som først må holde seg høy og sentral for å motta pasningen og søke å utnytte rommet på utsiden av mannekengen. Han åpner opp, tar et touch inn i boksen og avslutter på tvers av mål i lengste hjørne. Sekvensen gjentas deretter på venstre side av banen med LCM og LW, der F åpner opp mot høyresiden for å motta.",

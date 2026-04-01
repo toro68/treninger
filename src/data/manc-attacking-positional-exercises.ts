@@ -36,7 +36,7 @@ const baseMancAttackingPositionalExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 20,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["baller", "vester", "mål", "mannekenger"],
     description:
       "1. Høyre stopper (5) spiller på tvers til venstre stopper (14). 2. Venstre offensiv midtbane (47) trekker inn for å skape pasningsvinkel og mottar fra venstre stopper (14). 3. Venstre offensiv midtbane (47) legger av til fremadstormende venstre back (11) i halvt rom. 4. Venstre back (11) driver fremover med ball. 5. Venstre back (11) spiller på tvers til høyre offensiv midtbane (17). 6. Offensiv midtbane (17) spiller i bakrom til spiss (7), som gjør et buet løp bort fra rød forsvarer. Venstre ving og venstre offensiv midtbane gjør også løp i bakrom. 7. Spiss (7) mottar. 8. Spiss (7) avslutter på mål.",
@@ -57,7 +57,7 @@ const baseMancAttackingPositionalExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 20,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["baller", "vester", "mål", "mannekenger"],
     description:
       "1. Høyre stopper (5) spiller til høyre back (3) i halvt rom. 2. Høyre back (3) spiller til venstre offensiv midtbane (47), som har flyttet seg inn sentralt. 3. Offensiv midtbane (47) legger av til defensiv midtbane (16), som gjør et buet løp fremover. 4. Defensiv midtbane (16) spiller sistepasning til spiss (7), som gjør buet bevegelse bort fra rød forsvarer. Venstre ving og venstre offensiv midtbane gjør også løp i bakrom. 5. Spiss (7) mottar. 6. Spiss (7) avslutter på mål.",
@@ -78,7 +78,7 @@ const baseMancAttackingPositionalExercises: ExerciseData[] = [
     duration: 12,
     playersMin: 10,
     playersMax: 20,
-    theme: "oppbygging",
+    theme: "avslutning",
     equipment: ["baller", "vester", "mål", "mannekenger"],
     description:
       "1. Høyre stopper (5) spiller på tvers til venstre stopper (14). Venstre offensiv midtbane (47) beveger seg tilbake og inn for å gi pasningsalternativ. 2. Venstre stopper (14) spiller langt i foten til spiss (7). Defensiv midtbane (16) flytter frem. 3. Spiss (7) spiller en godt timet pasning på høyre offensiv midtbane (17), som gjør et buet tredjemannsløp fra dyp posisjon. 4. Offensiv midtbane (17) mottar. 5. Offensiv midtbane (17) avslutter på mål.",
