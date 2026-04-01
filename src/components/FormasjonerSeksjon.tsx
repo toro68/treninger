@@ -209,41 +209,54 @@ export const FormasjonerSeksjon = () => {
                 {/* Roller */}
                 {aktivFane === "roller" && (
                   <div className="space-y-4">
-                    {valgtFormasjon.spillerprofiler?.map((profil, idx) => (
-                      <div
-                        key={idx}
-                        className="p-3 bg-zinc-50 rounded-lg space-y-2"
-                      >
-                        <h4 className="text-sm font-semibold text-zinc-800">
-                          {profil.rolle}
-                        </h4>
-                        <p className="text-sm text-zinc-600">
-                          {profil.profil}
-                        </p>
-                      </div>
-                    ))}
+                    {valgtFormasjon.spillerprofiler?.length ? (
+                      valgtFormasjon.spillerprofiler.map((profil, idx) => (
+                        <div
+                          key={idx}
+                          className="p-3 bg-zinc-50 rounded-lg space-y-2"
+                        >
+                          <h4 className="text-sm font-semibold text-zinc-800">
+                            {profil.rolle}
+                          </h4>
+                          <p className="text-sm text-zinc-600">
+                            {profil.profil}
+                          </p>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-500">
+                        Ingen rolleanbefalinger registrert ennå for {valgtFormasjon.navn}.
+                      </p>
+                    )}
                   </div>
                 )}
 
                 {/* Taktiske prinsipper */}
                 {aktivFane === "prinsipper" && (
                   <div className="space-y-4">
-                    {valgtFormasjon.taktiskePrinsipper.map(
-                      (prinsippGruppe, idx) => (
-                        <div
-                          key={idx}
-                          className="p-3 bg-zinc-50 rounded-lg space-y-2"
-                        >
-                          <h4 className="text-sm font-semibold text-zinc-800">
-                            {prinsippGruppe.tittel}
-                          </h4>
-                          <ul className="list-disc list-inside text-sm text-zinc-600 space-y-1 pl-2">
-                            {prinsippGruppe.detaljer.map((detalj, dIdx) => (
-                              <li key={dIdx}>{detalj}</li>
-                            ))}
-                          </ul>
-                        </div>
+                    {valgtFormasjon.taktiskePrinsipper.length > 0 ? (
+                      valgtFormasjon.taktiskePrinsipper.map(
+                        (prinsippGruppe, idx) => (
+                          <div
+                            key={idx}
+                            className="p-3 bg-zinc-50 rounded-lg space-y-2"
+                          >
+                            <h4 className="text-sm font-semibold text-zinc-800">
+                              {prinsippGruppe.tittel}
+                            </h4>
+                            <ul className="list-disc list-inside text-sm text-zinc-600 space-y-1 pl-2">
+                              {prinsippGruppe.detaljer.map((detalj, dIdx) => (
+                                <li key={dIdx}>{detalj}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )
                       )
+                    ) : (
+                      <p className="rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-500">
+                        Ingen taktiske prinsipper registrert ennå for {valgtFormasjon.navn}. Se analyser-fanen for
+                        relaterte UEFA-funn.
+                      </p>
                     )}
                   </div>
                 )}

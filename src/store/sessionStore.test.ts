@@ -546,6 +546,34 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().selectedExerciseIds.size).toBe(0);
     });
 
+    it("should refresh planned blocks when updating an overridden exercise", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+      expect(exercise).toBeDefined();
+
+      useSessionStore.setState({
+        plannedBlocks: [
+          {
+            id: exercise!.id,
+            exercise: exercise!,
+            customComment: "Behold kommentaren.",
+            assignedCoachNames: ["Tor Inge"],
+          },
+        ],
+      });
+
+      useSessionStore.getState().updateExercise(exercise!.id, {
+        ...exercise!,
+        name: "Oppdatert spilløvelse",
+      });
+
+      const updatedBlock = useSessionStore.getState().plannedBlocks?.[0];
+      expect(updatedBlock?.exercise.name).toBe("Oppdatert spilløvelse");
+      expect(updatedBlock?.customComment).toBe("Behold kommentaren.");
+      expect(updatedBlock?.assignedCoachNames).toEqual(["Tor Inge"]);
+    });
+
     it("should add a custom exercise directly to the session plan", () => {
       const { addExerciseToPlan } = useSessionStore.getState();
 
@@ -571,6 +599,44 @@ describe("sessionStore", () => {
       expect(added).toBeDefined();
       expect(state.selectedExerciseIds.has(added!.id)).toBe(true);
       expect(state.plannedBlocks?.some((block) => block.exercise.id === added!.id)).toBe(true);
+    });
+
+    it("should refresh planned blocks when updating a custom exercise", () => {
+      useSessionStore.getState().addExerciseToPlan({
+        id: "custom-test",
+        exerciseNumber: 0,
+        name: "Egen øvelse i plan",
+        category: "station",
+        duration: 14,
+        playersMin: 6,
+        playersMax: 12,
+        theme: "pasning",
+        equipment: ["baller", "kjegler"],
+        description: "Legges rett inn i aktiv plan.",
+        coachingPoints: ["Få opp tempo"],
+        variations: ["To touch"],
+        source: "egen",
+      });
+
+      const customExercise = useSessionStore.getState().customExercises.find((exercise) => exercise.id === "custom-test");
+      expect(customExercise).toBeDefined();
+
+      useSessionStore.setState((state) => ({
+        plannedBlocks: state.plannedBlocks?.map((block) =>
+          block.exercise.id === customExercise!.id
+            ? { ...block, customTitle: "Egen variant" }
+            : block
+        ) ?? null,
+      }));
+
+      useSessionStore.getState().updateExercise(customExercise!.id, {
+        ...customExercise!,
+        name: "Oppdatert egen øvelse",
+      });
+
+      const updatedBlock = useSessionStore.getState().plannedBlocks?.find((block) => block.exercise.id === customExercise!.id);
+      expect(updatedBlock?.exercise.name).toBe("Oppdatert egen øvelse");
+      expect(updatedBlock?.customTitle).toBe("Egen variant");
     });
 
     it("should append an existing exercise directly to the session plan", () => {
@@ -680,6 +746,53 @@ describe("sessionStore", () => {
       expect(useSessionStore.getState().plannedBlocks?.[0].assignedCoachNames).toEqual(["Ekstra trener"]);
     });
 
+    it("should restore station planning mode when loading a saved station session", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter((item) => item.category === "game");
+
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+        nextSectionStationCount: 2,
+        selectedExerciseIds: new Set([exercises[0]!.id, exercises[1]!.id]),
+        plannedBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+          {
+            id: exercises[1]!.id,
+            exercise: exercises[1]!,
+            planningMode: "station",
+            sectionStationCount: 2,
+          },
+        ],
+      });
+
+      const saveResult = useSessionStore.getState().saveCurrentSession("Stasjonsøkt");
+
+      expect(saveResult.ok).toBe(true);
+
+      useSessionStore.setState({
+        planningSectionMode: "single",
+        stationCount: 4,
+        nextSectionStationCount: 4,
+        selectedExerciseIds: new Set(),
+        plannedBlocks: null,
+      });
+
+      const savedId = useSessionStore.getState().savedSessions[0].id;
+      const loaded = useSessionStore.getState().loadSavedSession(savedId);
+
+      expect(loaded).toBe(true);
+      expect(useSessionStore.getState().planningSectionMode).toBe("stations");
+      expect(useSessionStore.getState().plannedBlocks?.every((block) => block.planningMode === "station")).toBe(true);
+    });
+
     it("should delete a saved session", () => {
       const state = useSessionStore.getState();
       const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
@@ -777,6 +890,162 @@ describe("sessionStore", () => {
       expect(savedSessions[0].name).toBe("Gammel lagret økt");
       expect(savedSessions[0].selectedExerciseIds).toEqual([exercise!.id]);
       expect(savedSessions[0].plannedBlocks?.[0].id).toBe(exercise!.id);
+    });
+
+    it("should derive station mode and filter stale ids when rehydrating the active session", async () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter((item) => item.category === "game");
+
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      window.localStorage.setItem(
+        "treninger-session",
+        JSON.stringify({
+          state: {
+            playerCount: 16,
+            keeperCount: 1,
+            stationCount: 2,
+            nextSectionStationCount: 2,
+            planningSectionMode: "single",
+            coachNames: ["Tor Inge"],
+            selectedExerciseIds: ["ghost-exercise"],
+            selectedTheoryIds: ["ghost-theory", "theory-scan-before-ball"],
+            favoriteIds: ["ghost-exercise", exercises[0]!.id],
+            plannedBlocks: [
+              {
+                id: exercises[0]!.id,
+                planningMode: "station",
+                sectionStationCount: 2,
+              },
+              {
+                id: exercises[1]!.id,
+                planningMode: "station",
+                sectionStationCount: 2,
+              },
+            ],
+            savedSessions: [],
+            searchQuery: "",
+            customExercises: [],
+            exerciseOverrides: {},
+          },
+        })
+      );
+
+      await useSessionStore.persist.rehydrate();
+
+      expect(useSessionStore.getState().planningSectionMode).toBe("stations");
+      expect([...useSessionStore.getState().selectedExerciseIds]).toEqual([
+        exercises[0]!.id,
+        exercises[1]!.id,
+      ]);
+      expect([...useSessionStore.getState().selectedTheoryIds]).toEqual([
+        "theory-scan-before-ball",
+      ]);
+      expect([...useSessionStore.getState().favoriteIds]).toEqual([exercises[0]!.id]);
+    });
+
+    it("should sanitize persisted custom exercises and overrides before rebuilding the library", async () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+      expect(exercise).toBeDefined();
+
+      window.localStorage.setItem(
+        "treninger-session",
+        JSON.stringify({
+          state: {
+            playerCount: 16,
+            stationCount: 4,
+            selectedExerciseIds: ["custom-sanitized"],
+            favoriteIds: [],
+            plannedBlocks: [{ id: "custom-sanitized" }],
+            savedSessions: [],
+            searchQuery: "",
+            customExercises: [
+              {
+                id: exercise!.id,
+                exerciseNumber: 900,
+                name: "Skal filtreres bort",
+                category: "station",
+                duration: 12,
+                playersMin: 6,
+                playersMax: 10,
+                theme: "pasning",
+                equipment: [],
+                description: "",
+                coachingPoints: [],
+                variations: [],
+                source: "egen",
+              },
+              {
+                id: "custom-sanitized",
+                exerciseNumber: 901,
+                name: "  Sanert øvelse  ",
+                category: "station",
+                duration: 12,
+                playersMin: 6,
+                playersMax: 10,
+                theme: "pasning",
+                equipment: [" baller ", ""],
+                description: "  Egen beskrivelse  ",
+                coachingPoints: ["  Vend opp tidlig  "],
+                variations: ["  To touch  "],
+                source: "egen",
+              },
+              {
+                id: "custom-bad",
+                exerciseNumber: 902,
+                category: "station",
+                duration: 12,
+                playersMin: 6,
+                playersMax: 10,
+                theme: "pasning",
+                equipment: [],
+                description: "",
+                coachingPoints: [],
+                variations: [],
+              },
+            ],
+            exerciseOverrides: {
+              [exercise!.id]: {
+                name: 123,
+                description: "  Ny beskrivelse  ",
+                playersMin: 14,
+                playersMax: 10,
+                equipment: [" baller ", ""],
+              },
+              ghost: {
+                name: "Skal bort",
+              },
+            },
+          },
+        })
+      );
+
+      await useSessionStore.persist.rehydrate();
+
+      const customExercise = useSessionStore.getState().customExercises.find(
+        (item) => item.id === "custom-sanitized"
+      );
+      const overriddenExercise = useSessionStore.getState().exerciseLibrary.find(
+        (item) => item.id === exercise!.id
+      );
+
+      expect(customExercise).toBeDefined();
+      expect(customExercise?.name).toBe("Sanert øvelse");
+      expect(customExercise?.description).toBe("Egen beskrivelse");
+      expect(customExercise?.equipment).toEqual(["baller"]);
+      expect(customExercise?.coachingPoints).toEqual(["Vend opp tidlig"]);
+      expect(customExercise?.variations).toEqual(["To touch"]);
+      expect(useSessionStore.getState().customExercises.some((item) => item.id === exercise!.id)).toBe(false);
+      expect(useSessionStore.getState().customExercises.some((item) => item.id === "custom-bad")).toBe(false);
+      expect(useSessionStore.getState().exerciseOverrides.ghost).toBeUndefined();
+      expect(overriddenExercise?.name).toBe(exercise!.name);
+      expect(overriddenExercise?.description).toBe("Ny beskrivelse");
+      expect(overriddenExercise?.playersMin).toBe(10);
+      expect(overriddenExercise?.playersMax).toBe(14);
+      expect(overriddenExercise?.equipment).toEqual(["baller"]);
+      expect(useSessionStore.getState().plannedBlocks?.[0].exercise.id).toBe("custom-sanitized");
     });
 
     it("should normalize stale station metadata when loading a saved session", () => {
@@ -995,9 +1264,9 @@ describe("sessionStore", () => {
     it("should show all exercises when filterByPlayerCount is disabled", () => {
       const library: Exercise[] = [
         {
-          id: "small-group",
+          id: "later-alpha",
           exerciseNumber: 1,
-          name: "Small group exercise",
+          name: "Zeta group exercise",
           category: "station",
           duration: 10,
           playersMin: 4,
@@ -1009,9 +1278,9 @@ describe("sessionStore", () => {
           variations: [],
         },
         {
-          id: "large-group",
+          id: "earlier-alpha",
           exerciseNumber: 2,
-          name: "Large group exercise",
+          name: "Alpha group exercise",
           category: "station",
           duration: 10,
           playersMin: 10,
@@ -1031,13 +1300,13 @@ describe("sessionStore", () => {
         exerciseLibrary: library,
         playerCount: 16,
         stationCount: 4,
+        planningSectionMode: "stations",
         categories,
         filterByPlayerCount: false,
       });
 
       expect(grouped.station?.length).toBe(2);
-      expect(grouped.station?.some((ex) => ex.id === "small-group")).toBe(true);
-      expect(grouped.station?.some((ex) => ex.id === "large-group")).toBe(true);
+      expect(grouped.station?.map((ex) => ex.id)).toEqual(["earlier-alpha", "later-alpha"]);
     });
 
     it("should exclude scalable odd-group exercises when player count filter is enabled", () => {

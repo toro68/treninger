@@ -1,4 +1,5 @@
-import type { Exercise } from "@/data/exercises";
+import { allExercises, isExerciseTheme, type Exercise, type ExerciseSource } from "@/data/exercises";
+import { sessionTheoryItems } from "@/data/sessionTheory";
 
 import { normalizeKeeperCount } from "./sessionPlayerCounts";
 import { normalizeStationSectionMetadata } from "./sessionSections";
@@ -58,6 +59,242 @@ export const safeJsonParse = (value: string): unknown => {
 
 export const isRecord = (value: unknown): value is Record<string, unknown> =>
   !!value && typeof value === "object" && !Array.isArray(value);
+
+const BUILTIN_EXERCISE_IDS = new Set(allExercises.map((exercise) => exercise.id));
+const SESSION_THEORY_IDS = new Set(sessionTheoryItems.map((item) => item.id));
+const EXERCISE_CATEGORIES = new Set<Exercise["category"]>([
+  "fixed-warmup",
+  "warmup",
+  "aktivisering",
+  "rondo",
+  "station",
+  "game",
+  "cooldown",
+]);
+const EXERCISE_SOURCES = new Set<ExerciseSource>([
+  "egen",
+  "tiim",
+  "eggen",
+  "godfoten",
+  "dbu",
+  "rondo",
+  "hyballa",
+  "bangsbo",
+  "dugger",
+  "drillo",
+  "prickett",
+  "101youth",
+  "seeger",
+  "matkovich",
+  "worldclass",
+  "uefa",
+  "manc",
+]);
+
+const normalizeStringArray = (value: unknown) => {
+  if (!Array.isArray(value)) return [];
+
+  return value.flatMap((item) => {
+    if (typeof item !== "string") return [];
+    const normalized = item.trim();
+    return normalized ? [normalized] : [];
+  });
+};
+
+const normalizeTrimmedText = (value: unknown) =>
+  typeof value === "string" ? value.trim() : undefined;
+
+const normalizeFiniteNumber = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : undefined;
+
+const normalizeInteger = (value: unknown, minimum = 0) => {
+  const number = normalizeFiniteNumber(value);
+  return number === undefined ? undefined : Math.max(minimum, Math.floor(number));
+};
+
+const normalizeBoolean = (value: unknown) =>
+  typeof value === "boolean" ? value : undefined;
+
+const isExerciseCategory = (value: unknown): value is Exercise["category"] =>
+  typeof value === "string" && EXERCISE_CATEGORIES.has(value as Exercise["category"]);
+
+const isExerciseSource = (value: unknown): value is ExerciseSource =>
+  typeof value === "string" && EXERCISE_SOURCES.has(value as ExerciseSource);
+
+const sanitizePersistedExercise = (value: unknown): Exercise | null => {
+  if (!isRecord(value)) return null;
+
+  const id = normalizeOptionalText(value.id);
+  const name = normalizeOptionalText(value.name);
+  const theme = normalizeOptionalText(value.theme);
+  const exerciseNumber = normalizeInteger(value.exerciseNumber, 0);
+  const duration = normalizeInteger(value.duration, 0);
+  const playersMin = normalizeInteger(value.playersMin, 1);
+  const playersMaxValue = normalizeInteger(value.playersMax, 1);
+
+  if (
+    !id ||
+    !name ||
+    !isExerciseCategory(value.category) ||
+    !theme ||
+    !isExerciseTheme(theme) ||
+    exerciseNumber === undefined ||
+    duration === undefined ||
+    playersMin === undefined ||
+    playersMaxValue === undefined
+  ) {
+    return null;
+  }
+
+  if (value.source !== undefined && !isExerciseSource(value.source)) {
+    return null;
+  }
+
+  return {
+    id,
+    exerciseNumber,
+    name,
+    displayName: normalizeOptionalText(value.displayName),
+    tags: normalizeStringArray(value.tags),
+    category: value.category,
+    duration,
+    playersMin,
+    playersMax: Math.max(playersMin, playersMaxValue),
+    theme,
+    equipment: normalizeStringArray(value.equipment),
+    description: normalizeTrimmedText(value.description) ?? "",
+    coachingPoints: normalizeStringArray(value.coachingPoints),
+    variations: normalizeStringArray(value.variations),
+    alwaysIncluded: normalizeBoolean(value.alwaysIncluded),
+    scalable: normalizeBoolean(value.scalable),
+    imageUrl: normalizeOptionalText(value.imageUrl),
+    svgDiagram: normalizeOptionalText(value.svgDiagram),
+    source: value.source,
+    sourceUrl: normalizeOptionalText(value.sourceUrl),
+    sourceRef: normalizeOptionalText(value.sourceRef),
+  };
+};
+
+const sanitizePersistedExerciseOverride = (
+  value: unknown,
+  baseExercise: Exercise
+): Partial<Exercise> => {
+  if (!isRecord(value)) return {};
+
+  const override: Partial<Exercise> = {};
+  const name = normalizeOptionalText(value.name);
+  const displayName = normalizeOptionalText(value.displayName);
+  const theme = normalizeOptionalText(value.theme);
+  const exerciseNumber = normalizeInteger(value.exerciseNumber, 0);
+  const duration = normalizeInteger(value.duration, 0);
+  const playersMin = normalizeInteger(value.playersMin, 1);
+  const playersMax = normalizeInteger(value.playersMax, 1);
+  const alwaysIncluded = normalizeBoolean(value.alwaysIncluded);
+  const scalable = normalizeBoolean(value.scalable);
+  const imageUrl = normalizeOptionalText(value.imageUrl);
+  const svgDiagram = normalizeOptionalText(value.svgDiagram);
+  const sourceUrl = normalizeOptionalText(value.sourceUrl);
+  const sourceRef = normalizeOptionalText(value.sourceRef);
+
+  if (name) override.name = name;
+  if (displayName !== undefined) override.displayName = displayName;
+  if (Array.isArray(value.tags)) override.tags = normalizeStringArray(value.tags);
+  if (isExerciseCategory(value.category)) override.category = value.category;
+  if (exerciseNumber !== undefined) override.exerciseNumber = exerciseNumber;
+  if (duration !== undefined) override.duration = duration;
+  if (playersMin !== undefined) {
+    override.playersMin = Math.min(playersMin, playersMax ?? baseExercise.playersMax);
+  }
+  if (playersMax !== undefined) {
+    override.playersMax = Math.max(playersMax, playersMin ?? baseExercise.playersMin);
+  }
+  if (theme && isExerciseTheme(theme)) override.theme = theme;
+  if (Array.isArray(value.equipment)) override.equipment = normalizeStringArray(value.equipment);
+  if (typeof value.description === "string") override.description = value.description.trim();
+  if (Array.isArray(value.coachingPoints)) {
+    override.coachingPoints = normalizeStringArray(value.coachingPoints);
+  }
+  if (Array.isArray(value.variations)) override.variations = normalizeStringArray(value.variations);
+  if (alwaysIncluded !== undefined) override.alwaysIncluded = alwaysIncluded;
+  if (scalable !== undefined) override.scalable = scalable;
+  if (imageUrl !== undefined) override.imageUrl = imageUrl;
+  if (svgDiagram !== undefined) override.svgDiagram = svgDiagram;
+  if (value.source !== undefined && isExerciseSource(value.source)) override.source = value.source;
+  if (sourceUrl !== undefined) override.sourceUrl = sourceUrl;
+  if (sourceRef !== undefined) override.sourceRef = sourceRef;
+
+  return override;
+};
+
+export const sanitizePersistedCustomExercises = (value: unknown): Exercise[] => {
+  if (!Array.isArray(value)) return [];
+
+  const seenIds = new Set<string>();
+  const sanitized: Exercise[] = [];
+
+  value.forEach((entry) => {
+    const exercise = sanitizePersistedExercise(entry);
+    if (!exercise) return;
+    if (BUILTIN_EXERCISE_IDS.has(exercise.id) || seenIds.has(exercise.id)) return;
+    seenIds.add(exercise.id);
+    sanitized.push(exercise);
+  });
+
+  return sanitized;
+};
+
+export const sanitizePersistedExerciseOverrides = (value: unknown): Record<string, Partial<Exercise>> => {
+  if (!isRecord(value)) return {};
+
+  const sanitized: Record<string, Partial<Exercise>> = {};
+
+  Object.entries(value).forEach(([id, overrideValue]) => {
+    if (!BUILTIN_EXERCISE_IDS.has(id)) return;
+
+    const baseExercise = allExercises.find((exercise) => exercise.id === id);
+    if (!baseExercise) return;
+
+    const override = sanitizePersistedExerciseOverride(overrideValue, baseExercise);
+    if (Object.keys(override).length === 0) return;
+    sanitized[id] = override;
+  });
+
+  return sanitized;
+};
+
+export const sanitizeExerciseIds = (
+  ids: Iterable<string> | undefined,
+  exerciseLibrary: Exercise[]
+) => {
+  const allowedIds = new Set(exerciseLibrary.map((exercise) => exercise.id));
+  const sanitized: string[] = [];
+  const seenIds = new Set<string>();
+
+  for (const value of ids ?? []) {
+    if (typeof value !== "string") continue;
+    const id = value.trim();
+    if (!id || !allowedIds.has(id) || seenIds.has(id)) continue;
+    seenIds.add(id);
+    sanitized.push(id);
+  }
+
+  return sanitized;
+};
+
+export const sanitizeTheoryIds = (ids?: Iterable<string>) => {
+  const sanitized: string[] = [];
+  const seenIds = new Set<string>();
+
+  for (const value of ids ?? []) {
+    if (typeof value !== "string") continue;
+    const id = value.trim();
+    if (!id || !SESSION_THEORY_IDS.has(id) || seenIds.has(id)) continue;
+    seenIds.add(id);
+    sanitized.push(id);
+  }
+
+  return sanitized;
+};
 
 const ensureDurationUnit = (unit?: unknown): DurationUnit | undefined => {
   if (unit === "min" || unit === "reps") return unit;
@@ -299,13 +536,10 @@ export const hydrateSavedSessions = (
           : []
       );
       const plannedBlocks = hydratePlannedBlocks(entry.plannedBlocks, exerciseLibrary, coachNames);
-      const selectedExerciseIdsFromEntry = Array.isArray(entry.selectedExerciseIds)
-        ? entry.selectedExerciseIds.filter(
-            (exerciseId): exerciseId is string =>
-              typeof exerciseId === "string" &&
-              exerciseLibrary.some((exercise) => exercise.id === exerciseId)
-          )
-        : [];
+      const selectedExerciseIdsFromEntry = sanitizeExerciseIds(
+        Array.isArray(entry.selectedExerciseIds) ? entry.selectedExerciseIds : undefined,
+        exerciseLibrary
+      );
       const selectedExerciseIds = Array.from(
         new Set(
           selectedExerciseIdsFromEntry.length > 0
@@ -313,11 +547,9 @@ export const hydrateSavedSessions = (
             : (plannedBlocks?.map((block) => block.id) ?? [])
         )
       );
-      const selectedTheoryIds = Array.isArray(entry.selectedTheoryIds)
-        ? entry.selectedTheoryIds.filter(
-            (theoryId): theoryId is string => typeof theoryId === "string"
-          )
-        : [];
+      const selectedTheoryIds = sanitizeTheoryIds(
+        Array.isArray(entry.selectedTheoryIds) ? entry.selectedTheoryIds : undefined
+      );
 
       return [{
         id,

@@ -89,6 +89,9 @@ export const TeamOrganization = () => {
                 <p className="text-xs text-zinc-700">
                   {NFF_ZONAL_DEFENSE_LEADING.curveRun.description}
                 </p>
+                <p className="mt-2 text-xs text-zinc-500 italic">
+                  {NFF_ZONAL_DEFENSE_LEADING.curveRun.example}
+                </p>
               </div>
 
               <div className="rounded-lg border border-zinc-100 bg-zinc-50 p-3">

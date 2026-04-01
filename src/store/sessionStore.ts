@@ -5,6 +5,7 @@ import {
   buildTimelineSections,
   getExplicitSectionNumber,
   getStationSectionInfoByNumber,
+  isStationPlanningBlock,
   getTrailingStationSectionInfo,
   normalizeStationSectionMetadata,
   retuneTrailingStationSectionCount,
@@ -31,6 +32,10 @@ import {
   normalizeCoachNames,
   normalizeOptionalText,
   safeJsonParse,
+  sanitizeExerciseIds,
+  sanitizePersistedCustomExercises,
+  sanitizePersistedExerciseOverrides,
+  sanitizeTheoryIds,
   serializePlannedBlocks,
   serializeSet,
   toSavedSession,
@@ -200,6 +205,12 @@ export const deriveSessionBlocks = ({
   const base = buildTimeline({ selectedExerciseIds, exerciseLibrary });
   return mergePlannedBlockMetadata(base, plannedBlocks);
 };
+
+const refreshPlannedBlocks = (
+  plannedBlocks: SessionBlock[] | null,
+  exerciseLibrary: Exercise[],
+  coachNames: string[]
+) => hydratePlannedBlocks(plannedBlocks, exerciseLibrary, coachNames);
 
 const sortExercises = (exercises: Exercise[]) =>
   [...exercises].sort((a, b) => a.name.localeCompare(b.name, "nb"));
@@ -580,9 +591,11 @@ export const useSessionStore = create<SessionState>()(
 
           if (isCustom) {
             const nextCustom = sortExercises(updateList(state.customExercises));
+            const nextExerciseLibrary = buildExerciseLibrary(nextCustom, state.exerciseOverrides);
             return {
               customExercises: nextCustom,
-              exerciseLibrary: buildExerciseLibrary(nextCustom, state.exerciseOverrides),
+              exerciseLibrary: nextExerciseLibrary,
+              plannedBlocks: refreshPlannedBlocks(state.plannedBlocks, nextExerciseLibrary, state.coachNames),
             };
           }
 
@@ -591,9 +604,12 @@ export const useSessionStore = create<SessionState>()(
             [id]: updated,
           };
 
+          const nextExerciseLibrary = buildExerciseLibrary(state.customExercises, nextOverrides);
+
           return {
             exerciseOverrides: nextOverrides,
-            exerciseLibrary: buildExerciseLibrary(state.customExercises, nextOverrides),
+            exerciseLibrary: nextExerciseLibrary,
+            plannedBlocks: refreshPlannedBlocks(state.plannedBlocks, nextExerciseLibrary, state.coachNames),
           };
         }),
       plannedBlocks: null,
@@ -680,9 +696,7 @@ export const useSessionStore = create<SessionState>()(
         if (!saved) return false;
 
         const selectedExerciseIds = new Set(
-          saved.selectedExerciseIds.filter((exerciseId) =>
-            state.exerciseLibrary.some((exercise) => exercise.id === exerciseId)
-          )
+          sanitizeExerciseIds(saved.selectedExerciseIds, state.exerciseLibrary)
         );
         const coachNames = mergeCoachNames(
           defaultCoachNames(),
@@ -690,6 +704,9 @@ export const useSessionStore = create<SessionState>()(
           saved.plannedBlocks?.flatMap((block) => block.assignedCoachNames ?? [])
         );
         const plannedBlocks = hydratePlannedBlocks(saved.plannedBlocks, state.exerciseLibrary, coachNames);
+        const planningSectionMode = plannedBlocks?.some((block) => isStationPlanningBlock(block))
+          ? "stations"
+          : "single";
 
         set({
           sessionTitle: saved.sessionTitle ?? "",
@@ -698,11 +715,11 @@ export const useSessionStore = create<SessionState>()(
           keeperCount: normalizeKeeperCount(saved.playerCount, saved.keeperCount ?? 0),
           stationCount: saved.stationCount,
           nextSectionStationCount: saved.stationCount,
-          planningSectionMode: "single",
+          planningSectionMode,
           planningSectionTarget: "auto",
           coachNames,
           selectedExerciseIds,
-          selectedTheoryIds: new Set(saved.selectedTheoryIds),
+          selectedTheoryIds: new Set(sanitizeTheoryIds(saved.selectedTheoryIds)),
           plannedBlocks,
           activeSavedSessionId: saved.id,
           searchQuery: "",
@@ -749,15 +766,8 @@ export const useSessionStore = create<SessionState>()(
           const version = typeof parsed.version === "number" ? parsed.version : undefined;
 
           const parsedState = isRecord(parsed.state) ? parsed.state : {};
-          const persistedCustom = Array.isArray(parsedState.customExercises)
-            ? (parsedState.customExercises as Exercise[])
-            : [];
-
-          const persistedOverridesRaw = parsedState.exerciseOverrides;
-          const persistedOverrides: Record<string, Partial<Exercise>> =
-            persistedOverridesRaw && isRecord(persistedOverridesRaw)
-              ? (persistedOverridesRaw as Record<string, Partial<Exercise>>)
-              : {};
+          const persistedCustom = sanitizePersistedCustomExercises(parsedState.customExercises);
+          const persistedOverrides = sanitizePersistedExerciseOverrides(parsedState.exerciseOverrides);
           const exerciseLibrary = buildExerciseLibrary(persistedCustom, persistedOverrides);
           const coachNames = mergeCoachNames(
             defaultCoachNames(),
@@ -783,8 +793,11 @@ export const useSessionStore = create<SessionState>()(
             typeof parsedState.nextSectionStationCount === "number"
               ? Math.max(2, Math.min(4, parsedState.nextSectionStationCount))
               : stationCount;
-          const planningSectionMode =
+          const persistedPlanningSectionMode =
             parsedState.planningSectionMode === "stations" ? "stations" : "single";
+          const planningSectionMode = hydratedPlannedBlocks?.some((block) => isStationPlanningBlock(block))
+            ? "stations"
+            : persistedPlanningSectionMode;
           const sessionTitle =
             typeof parsedState.sessionTitle === "string" ? parsedState.sessionTitle : "";
           const sessionComment =
@@ -793,20 +806,31 @@ export const useSessionStore = create<SessionState>()(
           const searchQuery =
             typeof parsedState.searchQuery === "string" ? parsedState.searchQuery : "";
 
-          const selectedExerciseIds = hydrateSet(
+          const selectedExerciseIdsFromState = sanitizeExerciseIds(
             Array.isArray(parsedState.selectedExerciseIds)
               ? (parsedState.selectedExerciseIds as string[])
-              : undefined
+              : undefined,
+            exerciseLibrary
+          );
+          const selectedExerciseIds = hydrateSet(
+            selectedExerciseIdsFromState.length > 0
+              ? selectedExerciseIdsFromState
+              : hydratedPlannedBlocks?.map((block) => block.id)
           );
           const selectedTheoryIds = hydrateSet(
-            Array.isArray(parsedState.selectedTheoryIds)
-              ? (parsedState.selectedTheoryIds as string[])
-              : undefined
+            sanitizeTheoryIds(
+              Array.isArray(parsedState.selectedTheoryIds)
+                ? (parsedState.selectedTheoryIds as string[])
+                : undefined
+            )
           );
           const favoriteIds = hydrateSet(
-            Array.isArray(parsedState.favoriteIds)
-              ? (parsedState.favoriteIds as string[])
-              : undefined
+            sanitizeExerciseIds(
+              Array.isArray(parsedState.favoriteIds)
+                ? (parsedState.favoriteIds as string[])
+                : undefined,
+              exerciseLibrary
+            )
           );
           const savedSessions = hydrateSavedSessions(parsedState.savedSessions, exerciseLibrary);
           const activeSavedSessionId =
@@ -1043,10 +1067,12 @@ export const filterAndGroupExercises = ({
       const bFav = favoriteIds?.has(b.id) ? 0 : 1;
       if (aFav !== bFav) return aFav - bFav;
 
-      // 2. Sorter etter hvor godt øvelsen passer
-      const aScore = getWorstExerciseFitScore(a, playerCount, sectionPlayerCounts, keeperCount);
-      const bScore = getWorstExerciseFitScore(b, playerCount, sectionPlayerCounts, keeperCount);
-      if (aScore !== bScore) return aScore - bScore;
+      if (filterByPlayerCount) {
+        // 2. Sorter etter hvor godt øvelsen passer
+        const aScore = getWorstExerciseFitScore(a, playerCount, sectionPlayerCounts, keeperCount);
+        const bScore = getWorstExerciseFitScore(b, playerCount, sectionPlayerCounts, keeperCount);
+        if (aScore !== bScore) return aScore - bScore;
+      }
 
       // 3. Alfabetisk
       return a.name.localeCompare(b.name, "nb");

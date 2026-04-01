@@ -16,29 +16,35 @@ describe("page helpers", () => {
   });
 
   describe("applyHighlightedExercise", () => {
-    it("should set search query to matched exercise name and clear highlight", () => {
+    it("should set search query, lock the source filter to uefa, and clear highlight", () => {
       const setSearchQuery = vi.fn();
       const setHighlightExercise = vi.fn();
+      const setSourceFilter = vi.fn();
       applyHighlightedExercise({
         highlightExerciseId: "id-1",
         exerciseLibrary: [{ id: "id-1", name: "UEFA drill" }],
         setSearchQuery,
         setHighlightExercise,
+        setSourceFilter,
       });
       expect(setSearchQuery).toHaveBeenCalledWith("UEFA drill");
+      expect(setSourceFilter).toHaveBeenCalledWith(["uefa"]);
       expect(setHighlightExercise).toHaveBeenCalledWith(null);
     });
 
-    it("should still clear highlight even when exercise is not found", () => {
+    it("should still lock the source filter and clear highlight even when exercise is not found", () => {
       const setSearchQuery = vi.fn();
       const setHighlightExercise = vi.fn();
+      const setSourceFilter = vi.fn();
       applyHighlightedExercise({
         highlightExerciseId: "missing",
         exerciseLibrary: [{ id: "id-1", name: "UEFA drill" }],
         setSearchQuery,
         setHighlightExercise,
+        setSourceFilter,
       });
       expect(setSearchQuery).not.toHaveBeenCalled();
+      expect(setSourceFilter).toHaveBeenCalledWith(["uefa"]);
       expect(setHighlightExercise).toHaveBeenCalledWith(null);
     });
   });

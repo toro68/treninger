@@ -17,6 +17,14 @@ const resolveAlternativeExercises = (
     .map((id) => exerciseLibrary.find((exercise) => exercise.id === id))
     .filter((exercise): exercise is Exercise => !!exercise);
 
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
 const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) => {
   if (part.blocks.length === 0) {
     return "";
@@ -29,24 +37,24 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
       const code = getExerciseCode(block.exercise);
       const title = block.customTitle?.trim() || block.exercise.name;
       const comment = block.customComment?.trim();
-      const equipment = block.exercise.equipment.join(", ");
+      const equipment = block.exercise.equipment.map(escapeHtml).join(", ");
       const alternativeExercises = resolveAlternativeExercises(block, exerciseLibrary);
       const assignedCoaches = (block.assignedCoachNames ?? [])
-        .map((coachName) => `<span class="coach-tag">${coachName}</span>`)
+        .map((coachName) => `<span class="coach-tag">${escapeHtml(coachName)}</span>`)
         .join("");
 
       const coachingPoints = block.exercise.coachingPoints
-        .map((point) => `<li>${point}</li>`)
+        .map((point) => `<li>${escapeHtml(point)}</li>`)
         .join("");
 
       const variations = block.exercise.variations
-        .map((variation) => `<li>${variation}</li>`)
+        .map((variation) => `<li>${escapeHtml(variation)}</li>`)
         .join("");
 
       const alternatives = alternativeExercises
         .map(
           (exercise) =>
-            `<li><span class="code">${getExerciseCode(exercise)}</span> ${exercise.name}</li>`
+            `<li><span class="code">${getExerciseCode(exercise)}</span> ${escapeHtml(exercise.name)}</li>`
         )
         .join("");
 
@@ -59,18 +67,18 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
         <div class="exercise">
           <div class="exercise-name">
             <span class="code">${code}</span>
-            ${title}
+            ${escapeHtml(title)}
           </div>
           ${stationLabel}
-          ${title !== block.exercise.name ? `<div class="exercise-origin">Basert på: ${block.exercise.name}</div>` : ""}
+          ${title !== block.exercise.name ? `<div class="exercise-origin">Basert på: ${escapeHtml(block.exercise.name)}</div>` : ""}
           ${assignedCoaches ? `<div class="coach-list">${assignedCoaches}</div>` : ""}
           <div class="exercise-meta">
-            ${duration} ${unit} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${block.exercise.theme}${
+            ${duration} ${escapeHtml(unit)} • ${block.exercise.playersMin}-${block.exercise.playersMax} spillere • ${escapeHtml(block.exercise.theme)}${
               equipment ? ` • ${equipment}` : ""
             }
           </div>
-          <div class="exercise-desc">${block.exercise.description}</div>
-          ${comment ? `<div class="exercise-comment"><span class="coaching-title">Kommentar:</span> ${comment}</div>` : ""}
+          <div class="exercise-desc">${escapeHtml(block.exercise.description)}</div>
+          ${comment ? `<div class="exercise-comment"><span class="coaching-title">Kommentar:</span> ${escapeHtml(comment)}</div>` : ""}
           ${
             coachingPoints
               ? `
@@ -109,10 +117,10 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
   return `
     <div class="section">
       <div class="section-title">
-        <span>${part.title}</span>
-        ${part.subtitle ? `<small>${part.subtitle}</small>` : ""}
+        <span>${escapeHtml(part.title)}</span>
+        ${part.subtitle ? `<small>${escapeHtml(part.subtitle)}</small>` : ""}
       </div>
-      ${part.sectionComment ? `<div class="section-comment">${part.sectionComment}</div>` : ""}
+      ${part.sectionComment ? `<div class="section-comment">${escapeHtml(part.sectionComment)}</div>` : ""}
       ${exercisesMarkup}
     </div>
   `;
@@ -174,13 +182,13 @@ export const buildPrintDocument = ({
     <html lang="no">
       <head>
         <meta charSet="utf-8" />
-        <title>${title}</title>
+        <title>${escapeHtml(title)}</title>
         <style>${baseStyles}</style>
       </head>
       <body>
-        <h1>${title}</h1>
-        <div class="meta">${totalMinutes} minutter • ${playerSummary}</div>
-        ${comment ? `<div class="meta">${comment}</div>` : ""}
+        <h1>${escapeHtml(title)}</h1>
+        <div class="meta">${escapeHtml(`${totalMinutes} minutter • ${playerSummary}`)}</div>
+        ${comment ? `<div class="meta">${escapeHtml(comment)}</div>` : ""}
         ${sections}
       </body>
     </html>

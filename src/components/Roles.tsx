@@ -96,21 +96,37 @@ const exerciseById = new Map(uefaExercises.map((exercise) => [exercise.id, exerc
 
 const uniqueStrings = (values: string[]) => Array.from(new Set(values));
 
-const matchesPointRole = (roles: Rolle[], pointRole?: Rolle) => !pointRole || roles.includes(pointRole);
+const matchesPointRole = (roles: Rolle[], pointRole?: Rolle) => !!pointRole && roles.includes(pointRole);
+
+const getGenericFocus = (analyses: UEFAAnalyse[]) =>
+  uniqueStrings(
+    analyses.flatMap((analysis) =>
+      analysis.fokuspunkter
+        .filter((point) => !point.rolle)
+        .map((point) => point.tekst),
+    ),
+  );
 
 const getAnalysesForRoles = (roles: Rolle[]) =>
   uefaAnalyses
     .filter((analysis) => analysis.roller.some((role) => roles.includes(role)))
     .sort((left, right) => left.kode.localeCompare(right.kode));
 
-const getMatchFocus = (analyses: UEFAAnalyse[], roles: Rolle[]) =>
-  uniqueStrings(
+const getMatchFocus = (analyses: UEFAAnalyse[], roles: Rolle[]) => {
+  const roleSpecificFocus = uniqueStrings(
     analyses.flatMap((analysis) =>
       analysis.fokuspunkter
         .filter((point) => matchesPointRole(roles, point.rolle))
         .map((point) => point.tekst),
     ),
-  ).slice(0, 4);
+  );
+
+  if (roleSpecificFocus.length > 0) {
+    return roleSpecificFocus.slice(0, 4);
+  }
+
+  return getGenericFocus(analyses).slice(0, 4);
+};
 
 const getLearningCues = (analyses: UEFAAnalyse[]) =>
   uniqueStrings(

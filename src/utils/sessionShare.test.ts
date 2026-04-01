@@ -71,11 +71,107 @@ describe("sessionShare", () => {
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(["theory-scan-before-ball"]),
       plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+      exerciseLibrary: allExercises,
     });
 
     expect(url.startsWith("https://example.com/okt?s=")).toBe(true);
     const decoded = decodeSharedSessionToken(new URL(url).searchParams.get("s"));
     expect(decoded?.coachNames).toEqual(["Tor Inge", "Rune"]);
     expect(decoded?.keeperCount).toBe(2);
+  });
+
+  it("round-trips custom exercises and alternatives in a shared token", () => {
+    const customExercise = {
+      id: "custom-share-main",
+      exerciseNumber: 901,
+      name: "Egen delt øvelse",
+      category: "station" as const,
+      duration: 12,
+      playersMin: 6,
+      playersMax: 10,
+      theme: "pasning" as const,
+      equipment: ["baller", "kjegler"],
+      description: "Custom øvelse som må følge med i lenken.",
+      coachingPoints: ["Vend opp tidlig"],
+      variations: ["To touch"],
+      source: "egen" as const,
+    };
+    const alternativeCustomExercise = {
+      id: "custom-share-alt",
+      exerciseNumber: 902,
+      name: "Alternativ egen øvelse",
+      category: "station" as const,
+      duration: 10,
+      playersMin: 6,
+      playersMax: 10,
+      theme: "pasning" as const,
+      equipment: ["baller"],
+      description: "Alternativ som ikke ligger i selve planen.",
+      coachingPoints: ["Se neste pasning tidlig"],
+      variations: [],
+      source: "egen" as const,
+    };
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Økt med egendefinert øvelse",
+      sessionComment: "Test av custom deling",
+      playerCount: 10,
+      keeperCount: 1,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([customExercise.id]),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        {
+          id: customExercise.id,
+          exercise: customExercise,
+          alternativeExerciseIds: [alternativeCustomExercise.id],
+        },
+      ],
+      exerciseLibrary: [...allExercises, customExercise, alternativeCustomExercise],
+    });
+
+    const decoded = decodeSharedSessionToken(token);
+
+    expect(decoded).not.toBeNull();
+    expect(decoded?.selectedExerciseIds.has(customExercise.id)).toBe(true);
+    expect(decoded?.exerciseLibrary.some((exercise) => exercise.id === customExercise.id)).toBe(true);
+    expect(decoded?.exerciseLibrary.some((exercise) => exercise.id === alternativeCustomExercise.id)).toBe(true);
+    expect(decoded?.sessionBlocks.find((block) => block.id === customExercise.id)?.exercise.name).toBe("Egen delt øvelse");
+    expect(decoded?.sessionBlocks.find((block) => block.id === customExercise.id)?.alternativeExerciseIds).toEqual([
+      alternativeCustomExercise.id,
+    ]);
+  });
+
+  it("normalizes shared theory ids and block coach names", () => {
+    const exercise = allExercises.find((item) => item.category === "game");
+
+    expect(exercise).toBeDefined();
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Økt med treneransvar",
+      sessionComment: "Test av normalisering",
+      playerCount: 10,
+      keeperCount: 1,
+      stationCount: 2,
+      coachNames: [],
+      selectedExerciseIds: new Set([exercise!.id]),
+      selectedTheoryIds: new Set(["ghost-theory", "theory-scan-before-ball", ""]),
+      plannedBlocks: [
+        {
+          id: exercise!.id,
+          exercise: exercise!,
+          assignedCoachNames: ["  Tor Inge  ", "", "Tor Inge", "Rune"],
+        },
+      ],
+      exerciseLibrary: allExercises,
+    });
+
+    const decoded = decodeSharedSessionToken(token);
+
+    expect(decoded).not.toBeNull();
+    expect([...decoded!.selectedTheoryIds]).toEqual(["theory-scan-before-ball"]);
+    expect(decoded!.coachNames).toEqual(["Tor Inge", "Rune"]);
+    expect(decoded!.sessionBlocks[0]?.assignedCoachNames).toEqual(["Tor Inge", "Rune"]);
   });
 });

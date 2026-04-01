@@ -33,6 +33,7 @@ describe("SharedSessionPage", () => {
       sessionTitle: "Delt økt",
       sessionComment: "Test",
       playerCount: 12,
+      keeperCount: 0,
       stationCount: 2,
       coachNames: ["Tor Inge"],
       selectedExerciseIds: new Set([exercise!.id]),
@@ -48,6 +49,7 @@ describe("SharedSessionPage", () => {
           sectionComment: "Begge banehalvdeler brukes.",
         },
       ],
+      exerciseLibrary: allExercises,
     });
 
     mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
@@ -56,5 +58,53 @@ describe("SharedSessionPage", () => {
 
     expect(screen.getByText(/Kommentar til seksjon:/)).toBeInTheDocument();
     expect(screen.getByText(/Begge banehalvdeler brukes\./)).toBeInTheDocument();
+  });
+
+  it("shows custom alternative exercises from the shared library", () => {
+    const exercise = allExercises.find((item) => item.category === "game");
+
+    expect(exercise).toBeDefined();
+
+    const alternativeCustomExercise = {
+      id: "custom-full-alt",
+      exerciseNumber: 950,
+      name: "Alternativ delt spesialøvelse",
+      category: "station" as const,
+      duration: 11,
+      playersMin: 6,
+      playersMax: 10,
+      theme: "pasning" as const,
+      equipment: ["baller"],
+      description: "Vises bare hvis shared library brukes i fullversjonen.",
+      coachingPoints: [],
+      variations: [],
+      source: "egen" as const,
+    };
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt økt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([exercise!.id]),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        {
+          id: exercise!.id,
+          exercise: exercise!,
+          alternativeExerciseIds: [alternativeCustomExercise.id],
+        },
+      ],
+      exerciseLibrary: [...allExercises, alternativeCustomExercise],
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    expect(screen.getByText(/Alternativer til denne øvelsen/i)).toBeInTheDocument();
+    expect(screen.getByText(/Alternativ delt spesialøvelse/)).toBeInTheDocument();
   });
 });

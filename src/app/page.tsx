@@ -37,14 +37,17 @@ export const applyHighlightedExercise = ({
   exerciseLibrary,
   setSearchQuery,
   setHighlightExercise,
+  setSourceFilter,
 }: {
   highlightExerciseId: string | null;
   exerciseLibrary: { id: string; name: string }[];
   setSearchQuery: (query: string) => void;
   setHighlightExercise: (id: string | null) => void;
+  setSourceFilter: (sourceFilter: SourceFilter) => void;
 }) => {
   if (!highlightExerciseId) return;
   const match = exerciseLibrary.find((exercise) => exercise.id === highlightExerciseId);
+  setSourceFilter(["uefa"]);
   if (match) {
     setSearchQuery(match.name);
   }
@@ -144,8 +147,9 @@ export default function Home() {
       exerciseLibrary,
       setSearchQuery,
       setHighlightExercise,
+      setSourceFilter,
     });
-  }, [exerciseLibrary, highlightExerciseId, setHighlightExercise, setSearchQuery]);
+  }, [exerciseLibrary, highlightExerciseId, setHighlightExercise, setSearchQuery, setSourceFilter]);
 
   const groupedExercises = useMemo(() => {
     const categories = new Set<string>([

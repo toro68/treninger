@@ -127,8 +127,9 @@ export const SessionTimeline = () => {
       selectedExerciseIds,
       selectedTheoryIds,
       plannedBlocks: sessionBlocks,
+      exerciseLibrary,
     });
-  }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks]);
+  }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks, exerciseLibrary]);
 
   useEffect(() => {
     if (!activeSavedSession) return;

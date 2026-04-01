@@ -157,7 +157,7 @@ function SharedSessionPageContent() {
                     const blockTitle = block.customTitle?.trim() || block.exercise.name;
                     const blockComment = block.customComment?.trim();
                     const alternativeExercises = (block.alternativeExerciseIds ?? [])
-                      .map((id) => sharedSession.sessionBlocks.find((candidate) => candidate.exercise.id === id)?.exercise)
+                      .map((id) => sharedSession.exerciseLibrary.find((candidate) => candidate.id === id))
                       .filter((exercise) => !!exercise);
 
                     return (
