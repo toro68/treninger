@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
-import { allExercises, Exercise, ExerciseSource, getExerciseCode, isTiimSituationalExercise } from "@/data/exercises";
+import { allExercises, Exercise, ExerciseSource } from "@/data/exercises";
 import {
   buildTimelineSections,
   getExplicitSectionNumber,
@@ -17,6 +17,7 @@ import {
   matchesExercisePlayerCountFilter,
   normalizeKeeperCount,
 } from "./sessionPlayerCounts";
+import { matchesExerciseFilters } from "./exerciseFilters";
 import { appendBlockForPlanningSection, getActivePlanningSection } from "./sessionPlanning";
 import {
   DEFAULT_COACH_NAMES,
@@ -42,41 +43,7 @@ export {
   getSectionPlayerCounts,
   matchesExercisePlayerCountFilter,
 } from "./sessionPlayerCounts";
-
-const normalizeSearchText = (value: string) => value.trim().toLowerCase();
-
-const compactSearchText = (value: string) =>
-  normalizeSearchText(value)
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]/g, "");
-
-export const matchesExerciseSearchQuery = (exercise: Exercise, searchQuery?: string) => {
-  const normalizedSearch = searchQuery ? normalizeSearchText(searchQuery) : "";
-  if (!normalizedSearch) return true;
-
-  const compactSearch = compactSearchText(searchQuery ?? "");
-  const exerciseCode = getExerciseCode(exercise).toLowerCase();
-  const haystackParts = [
-    exercise.name,
-    exercise.description,
-    exercise.theme,
-    exercise.tags?.join(" "),
-    exercise.equipment?.join(" "),
-    exercise.coachingPoints?.join(" "),
-    exercise.variations?.join(" "),
-    exercise.source,
-    exercise.sourceRef,
-    exerciseCode,
-  ].filter((part): part is string => Boolean(part));
-
-  const haystack = haystackParts.join(" ").toLowerCase();
-  if (haystack.includes(normalizedSearch)) return true;
-  if (!compactSearch) return false;
-
-  const compactHaystack = haystackParts.map((part) => compactSearchText(part)).join("");
-  return compactHaystack.includes(compactSearch);
-};
+export { matchesExerciseSearchQuery } from "./exerciseFilters";
 
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
@@ -1042,52 +1009,27 @@ export const filterAndGroupExercises = ({
 
   const grouped: Record<string, Exercise[]> = {};
 
-  const matchesSource = (exercise: Exercise) => {
-    if (activeSourceFilters.length === 0) return true;
-    const exerciseSource = exercise.source || "egen";
-    return activeSourceFilters.some((filter) => {
-      if (filter === "egen") {
-        return !exercise.source;
-      }
-      if (filter === "tiim-situasjon") {
-        return isTiimSituationalExercise(exercise);
-      }
-      return exerciseSource === filter;
-    });
-  };
-
-  const matchesPlayerCount = (exercise: Exercise) => {
-    if (!filterByPlayerCount) return true;
-    return matchesExercisePlayerCountFilter(
-      exercise,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount
-    );
-  };
-
-  const matchesFavorites = (exercise: Exercise) => {
-    if (!favoritesOnly) return true;
-    return favoriteIds?.has(exercise.id) ?? false;
-  };
-
-  const matchesTags = (exercise: Exercise) => {
-    if (activeTags.length === 0) return true;
-    if (!exercise.tags || exercise.tags.length === 0) return false;
-    return activeTags.some((tag) => exercise.tags?.includes(tag));
-  };
-
   for (const exercise of exerciseLibrary) {
     const effectiveCategory =
       exercise.category === "aktivisering" ? "warmup" : exercise.category;
     if (!categories.has(effectiveCategory)) continue;
-    if (activeThemes.length > 0 && !activeThemes.includes(exercise.theme)) continue;
-    if (!matchesTags(exercise)) continue;
-    if (!matchesFavorites(exercise)) continue;
-    if (!matchesSource(exercise)) continue;
-    if (!matchesPlayerCount(exercise)) continue;
-    if (!matchesExerciseSearchQuery(exercise, searchQuery)) continue;
+    if (
+      !matchesExerciseFilters(exercise, {
+        filterByPlayerCount: Boolean(filterByPlayerCount),
+        playerCount,
+        playersPerStation,
+        sectionPlayerCounts,
+        keeperCount,
+        sourceFilter: activeSourceFilters,
+        activeThemes,
+        activeTags,
+        favoritesOnly: Boolean(favoritesOnly),
+        favoriteIds: favoriteIds ?? new Set<string>(),
+        searchQuery: searchQuery ?? "",
+      })
+    ) {
+      continue;
+    }
 
     (grouped[effectiveCategory] ??= []).push(exercise);
   }

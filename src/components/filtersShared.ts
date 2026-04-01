@@ -1,8 +1,11 @@
-import type { Exercise, ExerciseData, ExerciseSource } from "@/data/exercises";
-import { isTiimSituationalExercise } from "@/data/exercises";
-import { matchesExercisePlayerCountFilter, matchesExerciseSearchQuery } from "@/store/sessionStore";
+import type { Exercise } from "@/data/exercises";
+import {
+  type ExerciseFilterMatchOptions,
+  type ExerciseFilterSource,
+  matchesExerciseFilters,
+} from "@/store/exerciseFilters";
 
-export type SourceFilterValue = ExerciseSource | "egen" | "tiim-situasjon";
+export type SourceFilterValue = ExerciseFilterSource;
 export type ThemeFilter = string[];
 export type SourceFilter = SourceFilterValue[];
 
@@ -143,46 +146,8 @@ export const humanizeTag = (tag: string) =>
 
 export const humanizeTheme = (theme: string) => capitalize(theme);
 
-const matchesSelectedSource = (
-  exercise: Pick<ExerciseData, "source" | "sourceUrl" | "tags" | "name">,
-  sourceFilter: SourceFilter
-) => {
-  if (sourceFilter.length === 0) return true;
-
-  const exerciseSource = exercise.source || "egen";
-  return sourceFilter.some((filter) => {
-    if (filter === "egen") {
-      return !exercise.source;
-    }
-    if (filter === "tiim-situasjon") {
-      return isTiimSituationalExercise(exercise);
-    }
-    return exerciseSource === filter;
-  });
-};
-
-const matchesSelectedTheme = (exercise: Pick<ExerciseData, "theme">, activeThemes: ThemeFilter) =>
-  activeThemes.length === 0 || activeThemes.includes(exercise.theme);
-
-const matchesFavoriteSelection = (
-  exercise: Pick<ExerciseData, "id">,
-  favoritesOnly: boolean,
-  favoriteIds: Set<string>
-) => !favoritesOnly || favoriteIds.has(exercise.id);
-
-type AvailableFacetOptions = {
+type AvailableFacetOptions = Omit<ExerciseFilterMatchOptions, "ignore"> & {
   exerciseLibrary: Exercise[];
-  filterByPlayerCount: boolean;
-  playerCount: number;
-  playersPerStation?: number;
-  sectionPlayerCounts: number[];
-  keeperCount: number;
-  sourceFilter: SourceFilter;
-  activeThemes: ThemeFilter;
-  activeTags: string[];
-  favoritesOnly: boolean;
-  favoriteIds: Set<string>;
-  searchQuery: string;
 };
 
 const countFacetMatches = (
@@ -237,55 +202,15 @@ const getNextClickFacetEntries = <Value extends string>({
     .filter((entry) => entry.isActive || entry.count > currentCount);
 };
 
-const matchesSelectedTags = (
-  exercise: Pick<ExerciseData, "tags">,
-  activeTags: string[]
-) => {
-  if (activeTags.length === 0) return true;
-  if (!exercise.tags || exercise.tags.length === 0) return false;
-  return activeTags.some((tag) => exercise.tags?.includes(tag));
-};
-
 const matchesFacetExercise = (
   exercise: Exercise,
-  {
-    filterByPlayerCount,
-    playerCount,
-    playersPerStation,
-    sectionPlayerCounts,
-    keeperCount,
-    sourceFilter,
-    activeThemes,
-    activeTags,
-    favoritesOnly,
-    favoriteIds,
-    searchQuery,
-  }: AvailableFacetOptions,
+  options: AvailableFacetOptions,
   ignore: {
     source?: boolean;
     themes?: boolean;
     tags?: boolean;
   } = {}
-) => {
-  if (
-    filterByPlayerCount &&
-    !matchesExercisePlayerCountFilter(
-      exercise,
-      playerCount,
-      playersPerStation,
-      sectionPlayerCounts,
-      keeperCount
-    )
-  ) {
-    return false;
-  }
-  if (!ignore.source && !matchesSelectedSource(exercise, sourceFilter)) return false;
-  if (!ignore.themes && !matchesSelectedTheme(exercise, activeThemes)) return false;
-  if (!ignore.tags && !matchesSelectedTags(exercise, activeTags)) return false;
-  if (!matchesFavoriteSelection(exercise, favoritesOnly, favoriteIds)) return false;
-  if (!matchesExerciseSearchQuery(exercise, searchQuery)) return false;
-  return true;
-};
+) => matchesExerciseFilters(exercise, { ...options, ignore });
 
 export const getAvailableThemes = ({
   exerciseLibrary,
