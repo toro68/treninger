@@ -2,6 +2,7 @@ import type { Exercise } from "@/data/exercises";
 import {
   type ExerciseFilterMatchOptions,
   type ExerciseFilterSource,
+  getExerciseFilterSources,
   matchesExerciseFilters,
 } from "@/store/exerciseFilters";
 
@@ -212,6 +213,36 @@ const matchesFacetExercise = (
   } = {}
 ) => matchesExerciseFilters(exercise, { ...options, ignore });
 
+const collectFacetValues = <Value extends string>({
+  exerciseLibrary,
+  options,
+  ignore,
+  getValues,
+}: {
+  exerciseLibrary: Exercise[];
+  options: AvailableFacetOptions;
+  ignore?: {
+    source?: boolean;
+    themes?: boolean;
+    tags?: boolean;
+  };
+  getValues: (exercise: Exercise) => Iterable<Value>;
+}) => {
+  const visibleValues = new Set<Value>();
+
+  exerciseLibrary.forEach((exercise) => {
+    if (!matchesFacetExercise(exercise, options, ignore)) {
+      return;
+    }
+
+    for (const value of getValues(exercise)) {
+      visibleValues.add(value);
+    }
+  });
+
+  return visibleValues;
+};
+
 export const getAvailableThemes = ({
   exerciseLibrary,
   filterByPlayerCount,
@@ -254,20 +285,13 @@ export const getAvailableThemes = ({
     searchQuery,
   };
   const visibleThemes = new Set<string>();
-
-  exerciseLibrary.forEach((exercise) => {
-    if (
-      matchesFacetExercise(
-        exercise,
-        {
-          ...facetOptions,
-          activeThemes: [],
-        },
-        { themes: true }
-      )
-    ) {
-      visibleThemes.add(exercise.theme);
-    }
+  collectFacetValues({
+    exerciseLibrary,
+    options: facetOptions,
+    ignore: { themes: true },
+    getValues: (exercise) => [exercise.theme],
+  }).forEach((theme) => {
+    visibleThemes.add(theme);
   });
 
   return getNextClickFacetEntries({
@@ -370,24 +394,11 @@ export const getAvailableTags = ({
     favoriteIds,
     searchQuery,
   };
-  const visibleTags = new Set<string>();
-
-  exerciseLibrary.forEach((exercise) => {
-    if (
-      !matchesFacetExercise(
-        exercise,
-        {
-          ...facetOptions,
-        },
-        { tags: true }
-      )
-    ) {
-      return;
-    }
-
-    for (const tag of exercise.tags ?? []) {
-      visibleTags.add(tag);
-    }
+  const visibleTags = collectFacetValues({
+    exerciseLibrary,
+    options: facetOptions,
+    ignore: { tags: true },
+    getValues: (exercise) => exercise.tags ?? [],
   });
 
   return getNextClickFacetEntries({
@@ -449,8 +460,15 @@ export const getAvailableSources = ({
     searchQuery,
   };
 
+  const visibleSources = collectFacetValues({
+    exerciseLibrary,
+    options: facetOptions,
+    ignore: { source: true },
+    getValues: (exercise) => getExerciseFilterSources(exercise),
+  });
+
   return getNextClickFacetEntries({
-    values: Object.keys(FILTER_SOURCE_CONFIG) as SourceFilterValue[],
+    values: visibleSources,
     activeValues: sourceFilter,
     buildOptions: (selectedSources) => ({
       ...facetOptions,
