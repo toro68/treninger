@@ -98,11 +98,14 @@ export const SessionTimeline = () => {
     });
 
     if (!useSessionStore.persist.hasHydrated()) {
-      void useSessionStore.persist.rehydrate().catch(() => {
-        if (!cancelled) {
-          setHydrated(true);
-        }
-      });
+      const rehydrateResult = useSessionStore.persist.rehydrate();
+      if (rehydrateResult && typeof rehydrateResult.then === "function") {
+        void rehydrateResult.catch(() => {
+          if (!cancelled) {
+            setHydrated(true);
+          }
+        });
+      }
 
       hydrationTimeout = window.setTimeout(() => {
         if (!cancelled && !useSessionStore.persist.hasHydrated()) {
