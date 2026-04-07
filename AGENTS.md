@@ -1,55 +1,69 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
+## Formål
 
-- `src/app` hosts the Next.js App Router entrypoint (`layout.tsx`, `page.tsx`) plus global styles in `globals.css`.
-- UI building blocks live in `src/components`; keep each component self-contained with colocated hooks or utility files only when they are not reused elsewhere.
-- Shared state resides in `src/store` (Zustand), static exercise data in `src/data`, and reusable client hooks in `src/hooks`.
-- Public assets (images, icons, fonts) belong in `public/`; avoid importing from `src` to prevent leaking build-only code to the client.
+Denne repoen er en Next.js 16 App Router-app for planlegging av fotballtreninger. Bevar norsk språk, fotballterminologi og etablerte treningsbegreper med mindre oppgaven eksplisitt krever noe annet.
 
-## Diagrammer (SVG) & banemål
+## Arbeidsregler
 
-- Banedimensjoner og standardmål (meter) ligger i `docs/PITCH_DIMENSIONS.md`.
-- Når du endrer banemaler/linjer, hold deg til `LANDSCAPE_PITCH_M` i `src/components/diagram/landscapePitchGeometry.ts` for konsistente proporsjoner.
+- Gjør den minste endringen som faktisk løser oppgaven.
+- Unngå refaktorering utenfor scope.
+- Ikke gi nytt navn til persistede felt, øvelses-ID-er, kategorier eller temaer uten eksplisitt behov.
+- Bevar bakoverkompatibilitet for localStorage-data. Dette er en hard regel.
+- Gjenbruk eksisterende typer, helpers og store-logikk før du introduserer nye abstraksjoner.
+- Hold domenelogikk ute av UI-komponenter når det er praktisk.
+- Bevar norsk UI-tekst og eksisterende fotballfaglig terminologi.
 
-## Build, Test, and Development Commands
+## Kommandoer
 
-- `npm run dev`: launches the Next.js dev server with hot reload on `http://localhost:3000`.
-- `npm run build`: creates the production bundle; run before opening PRs that adjust config or routing.
-- `npm run start`: serves the production build locally for smoke tests.
-- `npm run lint`: executes ESLint with the Next.js shareable config; required for all submissions.
+- Kjør kommandoer fra repo-roten, altså mappen over `treninger/`.
+- Rotkommandoer delegerer inn i appen via `npm --prefix treninger ...`.
+- `npm run dev` starter utviklingsserver på port `4000`.
+- `npm run lint:safe` er foretrukket lint-kommando når `scripts/` ikke er relevant.
+- `npm test` kjører Vitest.
+- `npm run prod:sjekk` er standard full verifikasjon før levering.
 
-## Coding Style & Naming Conventions
+## Struktur
 
-- TypeScript, React 19, and Next.js 16 are mandatory; keep files in `.tsx` unless plain utilities.
-- Use 2-space indentation, single quotes in JSON/TS config where supported, and double quotes in JSX/TSX string props for consistency with the existing codebase.
-- Component files use `PascalCase` (e.g., `ExerciseManager.tsx`); hooks use the `useFoo` prefix; Zustand stores end with `Store.ts`.
-- Prefer Tailwind CSS utility classes inside JSX; do not reintroduce CSS Modules unless scoped styles are required.
-- Run `npm run lint` after significant changes; fix warnings rather than suppressing them.
-- **Emojier:** Ikke bruk emojier i overskrifter, tab-labels eller navigasjonselementer. Bruk heller enkle, funksjonelle symboler:
-  - `✓` / `✗` — riktig/galt (f.eks. "✓ Oppmuntre til å prøve", "✗ Kritisér ikke balltap")
-  - `→` / `←` — retning, fører til (f.eks. "Høyt → Lavt press")
-  - `↑` / `↓` — opp/ned, øk/reduser (f.eks. "↑ Push-out", "↓ Fall tilbake")
-  - `+` / `−` — vis/skjul, ekspander/kollaps
-  - `•` — listepunkt
-  - `»` — fortsetter, les mer
-  - `×` — lukk, fjern
+- Appkode ligger i `treninger/src/`.
+- Delt Zustand-state ligger hovedsakelig i `treninger/src/store/sessionStore.ts`.
+- Øvelsesdata og aggregasjon ligger i `treninger/src/data/`.
+- Dokumentasjon for kategorier og banemål ligger i `treninger/docs/`.
 
-## Testing Guidelines
+## Domenegrenser
 
-- Automated tests are currently absent; add Playwright UI tests or React Testing Library component tests when extending critical flows.
-- Name test files `*.test.tsx` next to the unit under test and avoid snapshot-only assertions.
-- Always include at least one manual verification note in the PR (e.g., "Verified session builder drag/drop in Chrome").
+- Ikke bland `category` og `theme`.
+- `station` er en kategori i øktstruktur, ikke et treningstema.
+- Ikke endre øvelseskoder eller generering av dem uten eksplisitt krav.
+- Behandle importerte øvelsesdatasett som strukturert innhold, ikke som kandidater for tilfeldig omformattering.
 
-## Commit & Pull Request Guidelines
+## Høyrisikoområder
 
-- Follow the existing history: one-line, capitalized summaries in the imperative mood (e.g., `Oppdaterer øvelsesfilter`).
-- Keep commits scoped to a single concern; split UI, data, and tooling changes when practical.
-- PRs must describe the motivation, list notable changes, reference related issues, and attach screenshots or screen recordings for UI updates.
-- Ensure lint/build pass locally before requesting review and mention any follow-up tasks explicitly.
+- `treninger/src/store/sessionStore.ts`
+- filtrering, hydrering og serialisering
+- player count-logikk
+- station-seksjoner og rotasjon
+- timeline-rekkefølge
+- custom exercises, overrides og saved sessions
+- aggregering i `treninger/src/data/exercises.ts`
 
-## Configuration & Data Safety
+Ved endringer her: hold diffen liten, verifiser bakoverkompatibilitet og legg til eller oppdater tester når logikken endres.
 
-- Store environment-specific values in `.env.local` (never commit secrets). Document any required keys in README updates.
-- Exercise data is user-facing; validate copy changes with coaching staff before deployment.
-- When adding dependencies, prefer lightweight, tree-shakeable packages to keep the Next.js bundle performant.
+## Test og verifikasjon
+
+- Repoen har Vitest og Testing Library; ikke anta at tester mangler.
+- Endrer du filtrering, hydrering, timeline eller annen store-logikk, skal det normalt følges av relevante tester.
+- Før du er ferdig, kjør `npm run prod:sjekk` når endringen påvirker appkode eller oppførsel.
+
+## Referanser før endring
+
+- Les `treninger/docs/EXERCISE_CATEGORIES.md` ved endringer i kategorisering.
+- Les `treninger/docs/PITCH_DIMENSIONS.md` ved endringer i baner, SVG eller diagrammer.
+- Ved endringer i banemaler eller linjer, hold deg til `LANDSCAPE_PITCH_M` i `treninger/src/components/diagram/landscapePitchGeometry.ts`.
+- Les `treninger/src/store/sessionStore.ts` først ved endringer i persistens, hydrering eller planlogikk.
+
+## UI og stil
+
+- Følg eksisterende Next.js-, React- og Tailwind-mønstre i repoen.
+- Ikke innfør engelsk UI-tekst i norske flater.
+- Ikke bruk emojier i overskrifter, tabs eller navigasjon.
