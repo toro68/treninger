@@ -1,12 +1,13 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import {
   uefaFormations,
   type UEFAFormation,
 } from "@/data/uefaFormations";
 import { uefaAnalyses } from "@/data/uefaAnalyses";
 import { SvgDownloadButton } from "@/components/SvgDownloadButton";
+import { sanitizeSvgMarkup } from "@/utils/sanitizeSvg";
 
 // ============================================
 // ANALYSE-KORT MED EKSPANSJON
@@ -61,6 +62,10 @@ export const FormasjonerSeksjon = () => {
   >("oversikt");
 
   const formationSvgRef = useRef<HTMLDivElement | null>(null);
+  const sanitizedFormationSvg = useMemo(
+    () => (valgtFormasjon?.svgDiagram ? sanitizeSvgMarkup(valgtFormasjon.svgDiagram) : ""),
+    [valgtFormasjon]
+  );
 
   // Hent relaterte analyser for valgt formasjon
   const getRelaterteAnalyser = (formasjon: UEFAFormation) => {
@@ -158,7 +163,7 @@ export const FormasjonerSeksjon = () => {
                   <div className="space-y-4">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div className="md:col-span-1">
-                        {valgtFormasjon.svgDiagram && (
+                        {sanitizedFormationSvg && (
                           <div className="space-y-2">
                             <div className="flex justify-end">
                               <SvgDownloadButton
@@ -169,7 +174,7 @@ export const FormasjonerSeksjon = () => {
                             <div
                               ref={formationSvgRef}
                               className="w-full h-auto p-4 border rounded-lg bg-green-50"
-                              dangerouslySetInnerHTML={{ __html: valgtFormasjon.svgDiagram }}
+                              dangerouslySetInnerHTML={{ __html: sanitizedFormationSvg }}
                             />
                           </div>
                         )}

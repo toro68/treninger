@@ -72,19 +72,50 @@ export const SessionTimeline = () => {
   const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
   const deleteSavedSession = useSessionStore((state) => state.deleteSavedSession);
 
-  const [hydrated, setHydrated] = useState(false);
+  const [hydrated, setHydrated] = useState(() => useSessionStore.persist.hasHydrated());
 
   useEffect(() => {
-    setHydrated(useSessionStore.persist.hasHydrated());
+    let cancelled = false;
+    let hydrationTimeout: number | null = null;
+
+    const syncHydrationState = () => {
+      if (!cancelled) {
+        setHydrated(useSessionStore.persist.hasHydrated());
+      }
+    };
+
+    syncHydrationState();
 
     const unsubscribeHydrate = useSessionStore.persist.onHydrate(() => {
-      setHydrated(false);
+      if (!cancelled) {
+        setHydrated(false);
+      }
     });
     const unsubscribeFinishHydration = useSessionStore.persist.onFinishHydration(() => {
-      setHydrated(true);
+      if (!cancelled) {
+        setHydrated(true);
+      }
     });
 
+    if (!useSessionStore.persist.hasHydrated()) {
+      void useSessionStore.persist.rehydrate().catch(() => {
+        if (!cancelled) {
+          setHydrated(true);
+        }
+      });
+
+      hydrationTimeout = window.setTimeout(() => {
+        if (!cancelled && !useSessionStore.persist.hasHydrated()) {
+          setHydrated(true);
+        }
+      }, 400);
+    }
+
     return () => {
+      cancelled = true;
+      if (hydrationTimeout !== null) {
+        window.clearTimeout(hydrationTimeout);
+      }
       unsubscribeHydrate();
       unsubscribeFinishHydration();
     };
