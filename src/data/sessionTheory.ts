@@ -751,6 +751,56 @@ export const sessionTheoryItems: SessionTheoryItem[] = [
     ],
   },
   {
+    id: "theory-uefa-finishing-fast-and-simple",
+    category: "spillerbudskap",
+    title: "UEFA: avslutt fort og enkelt",
+    summary: "I boksen vinner du tid med forberedelse. 1-2 touch er hovedregelen, ikke ekstra kontrolltouch.",
+    coachNote:
+      "Dette bygger på Rushfeldt og Stian Lund: spilleren må se mål før mottak og bestemme løsning før ballen kommer.",
+    playerMessage:
+      "I boksen: bestem før mottak og avslutt fort. Hvis 1-touch er mulig, tar vi ikke et ekstra touch.",
+  },
+  {
+    id: "theory-uefa-finishing-blindside-and-11m",
+    category: "spillerbudskap",
+    title: "UEFA: blindside og 11-meter",
+    summary: "Store sjanser kommer når avslutteren holder seg skjult lengst mulig og angriper riktig sone sent.",
+    coachNote:
+      "Jakt soner og timing, ikke bare avslutninger. Repeter løp til 11-meteren, første stolpe, bakre og returrom.",
+    playerMessage:
+      "Vær på blindsiden lengst mulig og rykk på ball. Kom deg inn i 16-meteren, helst rundt 11-meteren, før du avslutter.",
+  },
+  {
+    id: "theory-uefa-finishing-retur-habit",
+    category: "spillerbudskap",
+    title: "UEFA: retur er din jobb",
+    summary: "Avslutningen er ikke over når skuddet går. Gode avsluttere eier neste ball også.",
+    coachNote:
+      "Returløp må være en fast vane i økta. Belønn spillere som følger skudd, innlegg og blokkeringer med ny aksjon.",
+    playerMessage:
+      "Når skuddet går, er jobben ikke ferdig. Følg avslutningen, angrip returen og vær klar for neste touch.",
+  },
+  {
+    id: "theory-manc-finishing-overload-and-timing",
+    category: "spillerbudskap",
+    title: "ManC: skap avslutning fra overtall og timing",
+    summary: "City-budskapet er å skape riktig bilde før avslutningen: kombinasjon, overtall, så gjennombrudd.",
+    coachNote:
+      "Se etter om laget skaper fordel før siste aksjon. Ikke la avslutteren bli stående alene uten timing i løp og sistepasning.",
+    playerMessage:
+      "Skap overtall før vi avslutter. Kombiner raskt, angrip riktig rom og slipp ballen i riktig øyeblikk.",
+  },
+  {
+    id: "theory-manc-finishing-fill-box-and-returrom",
+    category: "spillerbudskap",
+    title: "ManC: fyll boks og returrom",
+    summary: "Når ballen går bredt eller bak forsvar, må boksen fylles med ulike roller samtidig.",
+    coachNote:
+      "Krev tydelig rollefordeling i siste tredel: én møter, én går bak, og noen må eie returrommet.",
+    playerMessage:
+      "Når vi kommer bredt, må vi fylle boks og returrom med fart. Én møter, én går bak, og én er klar på neste ball.",
+  },
+  {
     id: "theory-manc-press-from-front",
     category: "trenerfokus",
     title: "Pressing from the front",

@@ -4,10 +4,12 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { uefaAnalyses, type Fokuspunkt, type UEFAAnalyse } from "@/data/uefaAnalyses";
 import { getUEFAExerciseByCode, getUEFADisplayCode } from "@/data/uefa-exercises";
+import { getSessionTheoryItem, type SessionTheoryItem } from "@/data/sessionTheory";
 import { useSessionStore } from "@/store/sessionStore";
 import { GlossaryTooltip } from "@/components/GlossaryTooltip";
 import { ScoringZonesDiagram } from "@/components/ScoringZonesDiagram";
 import { SelmerZonesTemplateDiagram } from "@/components/SelmerZonesTemplateDiagram";
+import { SelectableTheoryMessageCard } from "@/components/SelectableTheoryMessageCard";
 
 const GENERELLE_FOKUSPUNKTER: Fokuspunkt[] = [
   {
@@ -95,6 +97,22 @@ const getRelatedAnalyses = (analysis: UEFAAnalyse, analyses: UEFAAnalyse[]) =>
     .slice(0, 4)
     .map((entry) => entry.analysis);
 
+const UEFA_PLAYER_MESSAGE_THEORY_IDS: Partial<Record<UEFAAnalyse["kode"], string[]>> = {
+  A07: [
+    "theory-uefa-finishing-fast-and-simple",
+    "theory-uefa-finishing-blindside-and-11m",
+    "theory-uefa-finishing-retur-habit",
+  ],
+  A20: [
+    "theory-uefa-finishing-fast-and-simple",
+    "theory-uefa-finishing-retur-habit",
+  ],
+  A21: [
+    "theory-uefa-finishing-fast-and-simple",
+    "theory-uefa-finishing-retur-habit",
+  ],
+};
+
 // ============================================
 // KOMPONENT
 // ============================================
@@ -139,6 +157,13 @@ export const UEFASeksjon = () => {
     () => (valgtAnalyse ? getRelatedAnalyses(valgtAnalyse, sortedAnalyses) : []),
     [sortedAnalyses, valgtAnalyse]
   );
+  const selectedPlayerMessageItems = useMemo(() => {
+    if (!valgtAnalyse) return [];
+
+    return (UEFA_PLAYER_MESSAGE_THEORY_IDS[valgtAnalyse.kode] ?? [])
+      .map((id) => getSessionTheoryItem(id))
+      .filter((item): item is SessionTheoryItem => item !== undefined);
+  }, [valgtAnalyse]);
 
   const handleVelgAnalyse = (analyse: UEFAAnalyse) => {
     setValgtAnalyse(analyse);
@@ -3075,6 +3100,31 @@ export const UEFASeksjon = () => {
                                 fotball.no (PDF)
                               </a>
                             </p>
+                          </div>
+                        </div>
+                      )}
+
+                      {selectedPlayerMessageItems.length > 0 && (
+                        <div className="space-y-3 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
+                          <div>
+                            <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">
+                              Spillerbudskap
+                            </p>
+                            <p className="mt-1 text-sm text-zinc-600">
+                              Huk av de korte avslutningsbudskapene du vil ta med videre til økta.
+                            </p>
+                          </div>
+                          <div className="grid gap-3 md:grid-cols-2">
+                            {selectedPlayerMessageItems.map((item) => (
+                              <SelectableTheoryMessageCard
+                                key={item.id}
+                                theoryId={item.id}
+                                title={item.title}
+                                summary={item.summary}
+                                playerMessage={item.playerMessage}
+                                sourceLabel={valgtAnalyse.kode}
+                              />
+                            ))}
                           </div>
                         </div>
                       )}

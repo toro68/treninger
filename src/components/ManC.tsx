@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { SelectableTheoryMessageCard } from "@/components/SelectableTheoryMessageCard";
 import { sessionTheoryItems } from "@/data/sessionTheory";
 
 const mancSectionGroups = [
@@ -25,6 +26,15 @@ const mancSectionGroups = [
       "theory-manc-build-up-phase-1",
       "theory-manc-build-up-phase-2",
       "theory-manc-build-up-phase-3",
+    ],
+  },
+  {
+    id: "avslutning",
+    label: "Avslutning",
+    description: "Korte spillerbudskap for hvordan City vil skape og avslutte angrep i siste tredel.",
+    sectionIds: [
+      "theory-manc-finishing-overload-and-timing",
+      "theory-manc-finishing-fill-box-and-returrom",
     ],
   },
   {
@@ -115,6 +125,17 @@ export const ManC = () => {
                       <article className="rounded-2xl border border-sky-200 bg-sky-50 p-4">
                         <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Spillerbudskap</p>
                         <p className="mt-2 text-sm leading-6 text-zinc-700">{item.playerMessage}</p>
+                        {item.category === "spillerbudskap" ? (
+                          <div className="mt-3">
+                            <SelectableTheoryMessageCard
+                              theoryId={item.id}
+                              title={item.title}
+                              summary={item.summary}
+                              sourceLabel="Velg til økta"
+                              showPlayerMessage={false}
+                            />
+                          </div>
+                        ) : null}
                       </article>
                     ) : null}
                   </div>
