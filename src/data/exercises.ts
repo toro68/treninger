@@ -563,6 +563,31 @@ export const exercises: ExerciseData[] = [
     sourceRef: "Effektiv fotball - Drillo, frispark fra midtsone figur 41",
   },
   {
+    id: "egne-innlegg-begge-sider-forste-andre-stolpe",
+    exerciseNumber: 98,
+    name: "Innlegg fra begge sider med løp på første og andre stolpe",
+    category: "station",
+    duration: 12,
+    playersMin: 8,
+    playersMax: 16,
+    theme: "innlegg",
+    equipment: ["baller", "mål", "vester", "kjegler"],
+    description:
+      "Innleggstrening fra begge sider annenhver gang. To angripere går i boksen for å angripe første og andre stolpe, mens én forsvarer jobber inne i boksen og forsøker å bryte eller klarere. Roter roller jevnlig slik at flere får slå innlegg, forsvare og avslutte.",
+    coachingPoints: [
+      "Angrip første og andre stolpe med fart og tydelig rollefordeling",
+      "Start løpene sent nok til å møte innlegget, ikke stå og vente i boksen",
+      "Innleggslegger må løfte blikket tidlig og variere kvaliteten etter løpene som kommer",
+      "Forsvareren må prioritere ballbane, kroppskontakt og klarering bort fra farlig rom",
+    ],
+    variations: [
+      "Legg inn aktiv returspiller utenfor boksen som angriper andreball",
+      "Bytt mellom tidlige innlegg og innlegg nær dødlinja",
+      "Øk til 3 angripere mot 2 forsvarere når gruppa blir større",
+    ],
+    source: "egen",
+  },
+  {
     id: "styrke-generic",
     exerciseNumber: 32,
     name: "Styrke",
