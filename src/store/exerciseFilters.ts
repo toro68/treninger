@@ -45,10 +45,14 @@ export const matchesExerciseSearchQuery = (exercise: Exercise, searchQuery?: str
   return compactHaystack.includes(compactSearch);
 };
 
+const normalizeExerciseFilterSource = (
+  source?: ExerciseData["source"]
+): ExerciseFilterSource => (source === "egen" || source === "staal" || source === undefined ? "staal" : source);
+
 export const getExerciseFilterSources = (
   exercise: Pick<ExerciseData, "source" | "sourceUrl" | "tags" | "name">
 ): ExerciseFilterSource[] => {
-  const sources: ExerciseFilterSource[] = [exercise.source || "egen"];
+  const sources: ExerciseFilterSource[] = [normalizeExerciseFilterSource(exercise.source)];
 
   if (isTiimSituationalExercise(exercise)) {
     sources.push("tiim-situasjon");
@@ -64,7 +68,9 @@ export const matchesSourceFilter = (
   if (sourceFilter.length === 0) return true;
 
   const exerciseSources = getExerciseFilterSources(exercise);
-  return sourceFilter.some((filter) => exerciseSources.includes(filter));
+  return sourceFilter
+    .map((filter) => (filter === "egen" ? "staal" : filter))
+    .some((filter) => exerciseSources.includes(filter));
 };
 
 export const matchesThemeFilter = (exercise: Pick<ExerciseData, "theme">, activeThemes: string[]) =>

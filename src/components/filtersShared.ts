@@ -28,9 +28,15 @@ export const MAX_VISIBLE_SOURCES = 8;
 export const MAX_VISIBLE_THEMES = 10;
 
 export const FILTER_SOURCE_CONFIG = {
+  staal: {
+    label: "STAAL",
+    description: "Våre egne øvelser",
+    activeClass: "border-zinc-800 bg-zinc-100 text-zinc-900",
+    dotClass: "bg-zinc-700",
+  },
   egen: {
     label: "Egne",
-    description: "Våre egne øvelser",
+    description: "Legacy-kilde for egne øvelser",
     activeClass: "border-zinc-600 bg-zinc-100 text-zinc-800",
     dotClass: "bg-zinc-600",
   },

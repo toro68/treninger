@@ -130,7 +130,7 @@ export const CustomExerciseCreator = ({
       coachingPoints: splitLines(form.coachingPoints),
       variations: splitLines(form.variations),
       scalable: form.scalable,
-      source: "egen",
+      source: "staal",
       sourceRef: sourceRef || undefined,
     };
 

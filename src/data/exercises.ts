@@ -1,6 +1,6 @@
 // category = plassering/struktur i økta, ikke faglig øvelsestype.
 export type ExerciseCategory = "fixed-warmup" | "warmup" | "aktivisering" | "rondo" | "station" | "game" | "cooldown";
-export type ExerciseSource = "egen" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "drillo" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa" | "manc";
+export type ExerciseSource = "egen" | "staal" | "tiim" | "eggen" | "godfoten" | "dbu" | "rondo" | "hyballa" | "bangsbo" | "dugger" | "drillo" | "prickett" | "101youth" | "seeger" | "matkovich" | "worldclass" | "uefa" | "manc";
 
 export const EXERCISE_THEMES = [
   "1v1",
@@ -109,7 +109,7 @@ type ExerciseFields<TTheme extends string> = {
   scalable?: boolean; // true = kan kjøres i parallell med mange grupper (f.eks. 1v1, 2v2)
   imageUrl?: string; // URL til bilde/diagram av øvelsen
   svgDiagram?: string; // Inline SVG markup for diagram (import/paste)
-  source?: ExerciseSource; // Kilde: egen eller tiim
+  source?: ExerciseSource; // Kilde: STAAL/egen, tiim eller ekstern bok/app
   sourceUrl?: string; // Lenke til original øvelse
   sourceRef?: string; // Referanse til bok/side (vises ikke i utskrift)
 };
@@ -150,6 +150,7 @@ export const exercises: ExerciseData[] = [
     coachingPoints: [],
     variations: [],
     alwaysIncluded: true,
+    source: "staal",
   },
   {
     id: "rondo-5v2",
@@ -167,6 +168,7 @@ export const exercises: ExerciseData[] = [
       "Kommuniser bytte av press",
     ],
     variations: ["Begrens antall touch", "Legg inn ekstra press-spiller"],
+    source: "staal",
   },
   {
     id: "damelaget",
@@ -194,7 +196,7 @@ export const exercises: ExerciseData[] = [
       "Pep Guardiola-variant (Bayern München, Doha 2016): 15×45 yards (endesoner 15×10, midtsone 15×25). 3 lag à 6 spillere + 1 joker. 6(+1)v2 i endesonen – fullføre 6–8 pasninger, deretter luftpasning til motsatt lag. 2 fra midtlaget presser i endesonen, resten i midtsonen kan avskjære luftpasningen. Ved balltap: laget som mister bytter med midtlaget. Kontinuerlige overganger med høy intensitet – 2 nye pressere sprinter inn umiddelbart, de andre 4 flytter til midtsonen. Kilde: SoccerTutor, Pep Guardiola Vol. 2, s. 106–107.",
     ],
     imageUrl: "/book-illustrations/pep-vol2-p106-107-three-team-possession-transition.webp",
-    source: "egen",
+    source: "staal",
   },
   {
     id: "lanaa-rondo-2v2v2-3v3v3",
@@ -221,7 +223,7 @@ export const exercises: ExerciseData[] = [
       "Spill med én fast joker eller roter jokerrollen ved hvert brudd",
       "Gjør firkanten mindre for hardere press eller større for mer tid i ball",
     ],
-    source: "egen",
+    source: "staal",
   },
   {
     id: "guus-hiddink-movement-and-combination-play",
@@ -248,7 +250,7 @@ export const exercises: ExerciseData[] = [
       "Avslutt sekvensen med gjennombruddspasning eller innlegg",
     ],
     imageUrl: "/book-illustrations/mine_egne/guus_hiddinck.png",
-    source: "egen",
+    source: "staal",
     sourceUrl: "https://youtu.be/KF-o9wi9ZZo?si=MD3XouKTIpLW7tne",
   },
   {
@@ -265,6 +267,7 @@ export const exercises: ExerciseData[] = [
       "Spillerne skyter på tverrliggeren fra en avtalt avstand. Poeng for treff. Kan spilles individuelt eller i lag.",
     coachingPoints: ["Sikting og teknikk", "Riktig skuddkraft"],
     variations: ["Varierende avstander", "Begge fot", "Frimerke (treffe bestemt del)"],
+    source: "staal",
   },
   {
     id: "straffekonkurranse",
@@ -280,6 +283,7 @@ export const exercises: ExerciseData[] = [
       "Klassisk straffekonkurranse. Kan kjøres som turnering eller lag mot lag. Tren på å prestere under press.",
     coachingPoints: ["Bestem deg tidlig", "Hold roen", "Fokus på teknikk, ikke kraft"],
     variations: ["Sudden death", "Keeper-konkurranse parallelt", "Tidsbegrensning per straffe"],
+    source: "staal",
   },
   {
     id: "nettsus",
@@ -295,6 +299,7 @@ export const exercises: ExerciseData[] = [
       "Skyt ballen slik at den treffer innsiden av nettet og 'susser' langs nettveggen. Poeng for beste sus/lyd.",
     coachingPoints: ["Plassering i hjørnet", "Riktig kraft og vinkel"],
     variations: ["Kun svak fot", "Fra ulike vinkler", "Med motstand fra keeper"],
+    source: "staal",
   },
   {
     id: "divisjon-2v2",
@@ -320,7 +325,7 @@ export const exercises: ExerciseData[] = [
       "Dobbel opprykk/nedrykk for ekstra spenning",
       "Tidsbegrensning med nedtelling for å øke intensiteten",
     ],
-    source: "egen",
+    source: "staal",
     scalable: true,
   },
   {
@@ -347,7 +352,7 @@ export const exercises: ExerciseData[] = [
       "Begrens antall touch på backer eller sentrale midtbanespillere",
       "La scoring for oppspillslaget kun telle i småmål, ikke ved føring over linjen",
     ],
-    source: "egen",
+    source: "staal",
   },
   {
     id: "offensiv-corner-forste-bakre",
@@ -372,7 +377,7 @@ export const exercises: ExerciseData[] = [
       "Legg inn kort corner før serven kommer",
       "Bytt mellom blokkering og rene løp",
     ],
-    source: "egen",
+    source: "staal",
     sourceRef: "Intern dødballpakke - offensiv corner",
   },
   {
@@ -398,7 +403,7 @@ export const exercises: ExerciseData[] = [
       "Legg inn motstander som kontrer på klarering",
       "Varier avstanden og vinkelen på frisparket",
     ],
-    source: "egen",
+    source: "staal",
     sourceRef: "Intern dødballpakke - offensivt frispark",
   },
   {
@@ -424,7 +429,7 @@ export const exercises: ExerciseData[] = [
       "Poeng kun hvis avslutning kommer innen tre sekunder etter andreball",
       "Spill med overtall eller likt antall i returrommet",
     ],
-    source: "egen",
+    source: "staal",
     sourceRef: "Intern dødballpakke - andreball",
   },
   {
@@ -585,7 +590,7 @@ export const exercises: ExerciseData[] = [
       "Bytt mellom tidlige innlegg og innlegg nær dødlinja",
       "Øk til 3 angripere mot 2 forsvarere når gruppa blir større",
     ],
-    source: "egen",
+    source: "staal",
   },
   {
     id: "styrke-generic",
@@ -600,6 +605,7 @@ export const exercises: ExerciseData[] = [
     description: "Husk høyttaler.",
     coachingPoints: [],
     variations: [],
+    source: "staal",
   },
   {
     id: "cup-4-lag-2-baner",
@@ -623,7 +629,7 @@ export const exercises: ExerciseData[] = [
       "Spill semifinaler og finale med avsluttende finalekamp",
       "La kampene vare 3–5 minutter for høyt tempo og mange repetisjoner",
     ],
-    source: "egen",
+    source: "staal",
   },
   {
     id: "cup-4-lag-vanlig-spill",
@@ -647,7 +653,7 @@ export const exercises: ExerciseData[] = [
       "Kjør alle-mot-alle med tabell hvis dere vil ha flere kamper",
       "La taperlag ha korte oppgaver mellom kampene før de går inn igjen",
     ],
-    source: "egen",
+    source: "staal",
   },
   {
     id: "skudd-generic",
@@ -663,6 +669,7 @@ export const exercises: ExerciseData[] = [
       "Velg selv. F.eks. tredjemannsløp, volley, frispark, 2v1, innlegg til 2 angripere/1 forsvarer (eller 3v2), avslutning etter veggspill, avslutning etter innlegg fra kant, avslutning etter cutback og returløp/andreballer.",
     coachingPoints: [],
     variations: [],
+    source: "staal",
   },
   {
     id: "planken",
@@ -686,6 +693,7 @@ export const exercises: ExerciseData[] = [
       "Plank med veksling av bein",
       "Lag konkurranse på hvem holder lengst",
     ],
+    source: "staal",
   },
   {
     id: "armheving",
@@ -709,6 +717,7 @@ export const exercises: ExerciseData[] = [
       "Diamant-armheving for triceps",
       "Lag pyramide: 5-10-15-10-5 reps",
     ],
+    source: "staal",
   },
   {
     id: "burpees",
@@ -732,6 +741,7 @@ export const exercises: ExerciseData[] = [
       "Med klapp over hodet i hoppet",
       "30 sek arbeid, 30 sek pause x 4 runder",
     ],
+    source: "staal",
   },
   {
     id: "knebøy",
@@ -755,6 +765,7 @@ export const exercises: ExerciseData[] = [
       "Hoppende knebøy (jump squats)",
       "Bulgarsk knebøy med bak fot løftet",
     ],
+    source: "staal",
   },
   {
     id: "utfall",
@@ -778,6 +789,7 @@ export const exercises: ExerciseData[] = [
       "Hoppende utfall",
       "Sidelengs utfall for hoftemobilitet",
     ],
+    source: "staal",
   },
   {
     id: "ab-workout",
@@ -801,6 +813,7 @@ export const exercises: ExerciseData[] = [
       "Legg til Russian twist",
       "Partner holder føttene for sit-ups",
     ],
+    source: "staal",
   },
   {
     id: "evaluering-teambuilding",
@@ -824,6 +837,7 @@ export const exercises: ExerciseData[] = [
       "Hvem viste best holdning i dag?",
       "Hvilke lagverdier så vi i praksis?",
     ],
+    source: "staal",
   },
 ];
 

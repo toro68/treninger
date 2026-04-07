@@ -73,6 +73,7 @@ const EXERCISE_CATEGORIES = new Set<Exercise["category"]>([
 ]);
 const EXERCISE_SOURCES = new Set<ExerciseSource>([
   "egen",
+  "staal",
   "tiim",
   "eggen",
   "godfoten",

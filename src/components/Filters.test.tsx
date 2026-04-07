@@ -76,8 +76,8 @@ describe("Filters", () => {
               playersMin: 4,
               playersMax: 20,
             },
-            { id: "2", theme: "pasning", tags: ["kombinasjonsspill", "høyt-press"], playersMin: 4, playersMax: 20 },
-            { id: "3", theme: "pasning", tags: ["kombinasjonsspill"], playersMin: 4, playersMax: 20 },
+            { id: "2", theme: "pasning", tags: ["kombinasjonsspill", "høyt-press"], playersMin: 4, playersMax: 20, source: "staal" },
+            { id: "3", theme: "pasning", tags: ["kombinasjonsspill"], playersMin: 4, playersMax: 20, source: "staal" },
           ],
         })
     );
@@ -104,15 +104,15 @@ describe("Filters", () => {
 
   it("should render source filter buttons", () => {
     renderFilters();
-    expect(screen.getByText(/Egne/)).toBeInTheDocument();
+    expect(screen.getByText(/STAAL/)).toBeInTheDocument();
     expect(screen.getByText(/Tiim situasjon/)).toBeInTheDocument();
   });
 
   it("should call onSourceFilterChange when clicking a source", () => {
     const props = renderFilters();
-    const egneButton = screen.getByText(/Egne/);
-    fireEvent.click(egneButton);
-    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["egen"]);
+    const staalButton = screen.getByText(/STAAL/);
+    fireEvent.click(staalButton);
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["staal"]);
   });
 
   it("should call onSourceFilterChange when clicking the Tiim situasjon chip", () => {
@@ -123,10 +123,10 @@ describe("Filters", () => {
   });
 
   it("should add multiple source filters without replacing the first", () => {
-    const props = renderFilters({ sourceFilter: ["egen"] });
+    const props = renderFilters({ sourceFilter: ["staal"] });
     const situasjonButton = screen.getByText(/Tiim situasjon/);
     fireEvent.click(situasjonButton);
-    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["egen", "tiim-situasjon"]);
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["staal", "tiim-situasjon"]);
   });
 
   it("should add multiple theme filters without clearing existing ones", () => {
@@ -192,11 +192,11 @@ describe("Filters", () => {
   });
 
   it("should remove an active source chip from the summary", () => {
-    const props = renderFilters({ sourceFilter: ["tiim", "egen"] });
+    const props = renderFilters({ sourceFilter: ["tiim", "staal"] });
 
     fireEvent.click(screen.getByLabelText("Fjern filter tiim.no"));
 
-    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["egen"]);
+    expect(props.onSourceFilterChange).toHaveBeenCalledWith(["staal"]);
   });
 
   it("should clear the active search chip from the summary", () => {
@@ -279,7 +279,7 @@ describe("Filters", () => {
     expect(screen.getByText("Alle (1)")).toBeInTheDocument();
     expect(screen.getByText("Rondo (1)")).toBeInTheDocument();
     expect(screen.queryByText("Pasning (1)")).not.toBeInTheDocument();
-    expect(screen.queryByText(/Egne/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/STAAL/)).not.toBeInTheDocument();
     expect(screen.getByText(/tiim.no \(1\)/i)).toBeInTheDocument();
   });
 
@@ -295,7 +295,7 @@ describe("Filters", () => {
     renderFilters({ sourceFilter: ["tiim"] });
 
     expect(screen.getByText(/tiim\.no \(1\)/i)).toBeInTheDocument();
-    expect(screen.getByText(/Egne \(3\)/i)).toBeInTheDocument();
+    expect(screen.getByText(/STAAL \(3\)/i)).toBeInTheDocument();
     expect(screen.queryByText(/DBU/i)).not.toBeInTheDocument();
   });
 
@@ -308,7 +308,7 @@ describe("Filter types", () => {
   });
 
   it("should accept valid SourceFilter values", () => {
-    const sources: SourceFilter = ["egen", "tiim", "tiim-situasjon", "dbu", "drillo", "uefa"];
+    const sources: SourceFilter = ["staal", "tiim", "tiim-situasjon", "dbu", "drillo", "uefa"];
     expect(Array.isArray(sources)).toBe(true);
   });
 });
