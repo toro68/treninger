@@ -13,6 +13,13 @@ export type SessionTheoryItem = {
   }[];
 };
 
+export type PlayerMessageTheme =
+  | "grunnspill"
+  | "roller-og-formasjon"
+  | "forsvar-og-gjenvinning"
+  | "avslutning-og-boks"
+  | "dodbalsituasjoner";
+
 export const sessionTheoryItems: SessionTheoryItem[] = [
   {
     id: "theory-scan-before-ball",
@@ -1105,4 +1112,86 @@ export const getSessionTheoryCategoryLabel = (
   if (category === "trenerfokus") return "Trenerfokus";
   if (category === "spillerbudskap") return "Spillerbudskap";
   return "Læringsprinsipp";
+};
+
+const PLAYER_MESSAGE_THEME_IDS: Record<PlayerMessageTheme, Set<string>> = {
+  grunnspill: new Set([
+    "theory-scan-before-ball",
+    "theory-width-depth-balance",
+    "theory-build-from-goal-structure-and-tasks",
+    "theory-attack-depth-halfspace-width",
+    "theory-roseborg-attack-postulates",
+    "theory-drillo-gjennombrudd-forst",
+    "theory-drillo-dybde-bredde-bevegelse",
+    "theory-manc-ball-does-the-work",
+    "theory-manc-position-between-behind",
+    "theory-manc-overloads-with-purpose",
+    "theory-manc-build-up-phase-1",
+    "theory-manc-build-up-phase-2",
+    "theory-manc-build-up-phase-3",
+    "theory-nff-fra-nier-til-ellever",
+    "theory-nff-felles-sprak-og-spillide",
+  ]),
+  "roller-og-formasjon": new Set([
+    "theory-433-front-three",
+    "theory-433-midfield",
+    "theory-fullbacks-433",
+    "theory-451-defensive-shape",
+    "theory-4231-anchor-steps-up",
+    "theory-4231-ten-role",
+    "theory-352-wingbacks",
+    "theory-352-front-two",
+  ]),
+  "forsvar-og-gjenvinning": new Set([
+    "theory-press-after-loss",
+    "theory-roseborg-defense-postulates",
+    "theory-roseborg-regain-priorities",
+    "theory-drillo-soneforsvar",
+    "theory-drillo-forste-og-andreball",
+    "theory-manc-ready-attack-ready-defend",
+    "theory-manc-midfield-defending",
+    "theory-manc-box-defending",
+    "theory-jokers-why",
+    "theory-nff-pa-rett-side",
+  ]),
+  "avslutning-og-boks": new Set([
+    "theory-uefa-finishing-fast-and-simple",
+    "theory-uefa-finishing-blindside-and-11m",
+    "theory-uefa-finishing-retur-habit",
+    "theory-manc-finishing-overload-and-timing",
+    "theory-manc-finishing-fill-box-and-returrom",
+  ]),
+  dodbalsituasjoner: new Set([
+    "theory-offensiv-corner-roller",
+    "theory-defensiv-corner-prinsipper",
+  ]),
+};
+
+export const getPlayerMessageTheme = (item: SessionTheoryItem): PlayerMessageTheme => {
+  if (item.category !== "spillerbudskap") {
+    return "grunnspill";
+  }
+
+  for (const [theme, ids] of Object.entries(PLAYER_MESSAGE_THEME_IDS) as [PlayerMessageTheme, Set<string>][]) {
+    if (ids.has(item.id)) {
+      return theme;
+    }
+  }
+
+  return "grunnspill";
+};
+
+export const getPlayerMessageThemeLabel = (theme: PlayerMessageTheme) => {
+  switch (theme) {
+    case "grunnspill":
+      return "Grunnspill og angrep";
+    case "roller-og-formasjon":
+      return "Roller og formasjon";
+    case "forsvar-og-gjenvinning":
+      return "Forsvar og gjenvinning";
+    case "avslutning-og-boks":
+      return "Avslutning og boks";
+    case "dodbalsituasjoner":
+      return "Dødball";
+  }
 };

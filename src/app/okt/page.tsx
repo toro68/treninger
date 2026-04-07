@@ -6,7 +6,12 @@ import { Suspense, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 
 import { getExerciseCode } from "@/data/exercises";
-import { getSessionTheoryItem } from "@/data/sessionTheory";
+import {
+  getPlayerMessageTheme,
+  getPlayerMessageThemeLabel,
+  getSessionTheoryItem,
+  type PlayerMessageTheme,
+} from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
 import { getOutfieldPlayerCount, getUnit, recommendedDuration } from "@/store/sessionStore";
@@ -71,6 +76,24 @@ function SharedSessionPageContent() {
         items: selectedTheoryItems.filter((item) => item.category === "læringsprinsipp"),
       },
     ].filter((group) => group.items.length > 0);
+  }, [selectedTheoryItems]);
+
+  const groupedPlayerMessages = useMemo(() => {
+    const playerItems = selectedTheoryItems.filter((item) => item.category === "spillerbudskap");
+
+    return ([
+      "grunnspill",
+      "roller-og-formasjon",
+      "forsvar-og-gjenvinning",
+      "avslutning-og-boks",
+      "dodbalsituasjoner",
+    ] as PlayerMessageTheme[])
+      .map((theme) => ({
+        theme,
+        label: getPlayerMessageThemeLabel(theme),
+        items: playerItems.filter((item) => getPlayerMessageTheme(item) === theme),
+      }))
+      .filter((group) => group.items.length > 0);
   }, [selectedTheoryItems]);
 
   const sessionTitle = sharedSession?.sessionTitle?.trim() || "Treningsøkt";
@@ -280,52 +303,76 @@ function SharedSessionPageContent() {
                         <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">
                           {group.title}
                         </p>
+                        <p className="mt-2 text-sm leading-6 text-zinc-600">
+                          Spillerbudskapene er gruppert etter tema. Trenernotat er kuttet her for å holde delen ren og spillervendt.
+                        </p>
                         <div className="mt-4 space-y-3 border-t border-sky-100 pt-4">
-                          {group.items.map((item) => (
-                            <article key={item.id} className="rounded-2xl bg-sky-50/70 p-4">
-                              <h4 className="text-sm font-semibold text-zinc-900">{item.title}</h4>
-                              <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
-                              {item.imageUrl ? (
-                                <div className="mt-3 overflow-hidden rounded-2xl border border-sky-100 bg-white">
-                                  <Image
-                                    src={item.imageUrl}
-                                    alt={item.title}
-                                    width={960}
-                                    height={640}
-                                    className="h-auto w-full object-cover"
-                                  />
-                                </div>
-                              ) : null}
-                              {item.playerMessage ? (
-                                <p className="mt-3 text-sm leading-6 text-zinc-700">
-                                  <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}
+                          {groupedPlayerMessages.map((themeGroup) => (
+                            <details
+                              key={themeGroup.theme}
+                              className="rounded-2xl border border-sky-100 bg-sky-50/40 p-4"
+                              open={themeGroup.theme === "grunnspill" || themeGroup.theme === "avslutning-og-boks"}
+                            >
+                              <summary className="cursor-pointer list-none">
+                                <h3 className="text-sm font-semibold text-zinc-900">{themeGroup.label}</h3>
+                                <p className="mt-1 text-sm text-zinc-600">
+                                  {themeGroup.items.length} valgt
                                 </p>
-                              ) : null}
-                              {item.coachNote ? (
-                                <p className="mt-2 text-sm leading-6 text-zinc-700">
-                                  <span className="font-semibold text-zinc-900">Til trener:</span> {item.coachNote}
-                                </p>
-                              ) : null}
-                              {item.sections?.map((section) => (
-                                <section key={section.title} className="mt-3 space-y-2 rounded-2xl bg-white p-4">
-                                  <h5 className="text-xs font-semibold uppercase tracking-wide text-sky-800">
-                                    {section.title}
-                                  </h5>
-                                  {section.paragraphs?.map((paragraph) => (
-                                    <p key={paragraph} className="text-sm leading-6 text-zinc-700">
-                                      {paragraph}
-                                    </p>
-                                  ))}
-                                  {section.bullets?.length ? (
-                                    <ul className="space-y-1 text-sm leading-6 text-zinc-700">
-                                      {section.bullets.map((bullet) => (
-                                        <li key={bullet}>• {bullet}</li>
-                                      ))}
-                                    </ul>
-                                  ) : null}
-                                </section>
-                              ))}
-                            </article>
+                              </summary>
+
+                              <div className="mt-3 space-y-3 border-t border-sky-100 pt-3">
+                                {themeGroup.items.map((item) => (
+                                  <article key={item.id} className="rounded-2xl bg-white p-4">
+                                    <h4 className="text-sm font-semibold text-zinc-900">{item.title}</h4>
+                                    <p className="mt-2 text-sm leading-6 text-zinc-700">{item.summary}</p>
+                                    {item.imageUrl ? (
+                                      <div className="mt-3 overflow-hidden rounded-2xl border border-sky-100 bg-sky-50">
+                                        <Image
+                                          src={item.imageUrl}
+                                          alt={item.title}
+                                          width={960}
+                                          height={640}
+                                          className="h-auto w-full object-cover"
+                                        />
+                                      </div>
+                                    ) : null}
+                                    {item.playerMessage ? (
+                                      <p className="mt-3 text-sm leading-6 text-zinc-700">
+                                        <span className="font-semibold text-zinc-900">Til spillerne:</span> {item.playerMessage}
+                                      </p>
+                                    ) : null}
+                                    {item.sections?.length ? (
+                                      <details className="mt-3 rounded-2xl bg-sky-50/70 p-4">
+                                        <summary className="cursor-pointer list-none text-xs font-semibold uppercase tracking-wide text-sky-800">
+                                          Vis detaljer
+                                        </summary>
+                                        <div className="mt-3 space-y-3">
+                                          {item.sections.map((section) => (
+                                            <section key={section.title} className="space-y-2 rounded-2xl bg-white p-4">
+                                              <h5 className="text-xs font-semibold uppercase tracking-wide text-sky-800">
+                                                {section.title}
+                                              </h5>
+                                              {section.paragraphs?.map((paragraph) => (
+                                                <p key={paragraph} className="text-sm leading-6 text-zinc-700">
+                                                  {paragraph}
+                                                </p>
+                                              ))}
+                                              {section.bullets?.length ? (
+                                                <ul className="space-y-1 text-sm leading-6 text-zinc-700">
+                                                  {section.bullets.map((bullet) => (
+                                                    <li key={bullet}>• {bullet}</li>
+                                                  ))}
+                                                </ul>
+                                              ) : null}
+                                            </section>
+                                          ))}
+                                        </div>
+                                      </details>
+                                    ) : null}
+                                  </article>
+                                ))}
+                              </div>
+                            </details>
                           ))}
                         </div>
                       </div>
