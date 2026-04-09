@@ -1,6 +1,5 @@
 import { allExercises, Exercise, isExerciseTheme, type ExerciseSource } from "@/data/exercises";
 import { sessionTheoryItems } from "@/data/sessionTheory";
-import { getOutfieldPlayerCount } from "@/store/sessionStore";
 import type { DurationUnit, SessionBlock } from "@/store/sessionStore";
 
 const EXERCISE_CATEGORIES = new Set<Exercise["category"]>([
@@ -158,6 +157,24 @@ const normalizeOptionalBoolean = (value: unknown) =>
 const normalizeOptionalNumber = (value: unknown) =>
   typeof value === "number" && Number.isFinite(value) ? value : undefined;
 
+const normalizeSharedPlayerCount = (value: unknown) => {
+  const count = normalizeOptionalNumber(value);
+  if (count === undefined) return undefined;
+  return Math.max(1, Math.floor(count));
+};
+
+const normalizeSharedStationCount = (value: unknown) => {
+  const count = normalizeOptionalNumber(value);
+  if (count === undefined) return undefined;
+  return Math.max(2, Math.min(4, Math.floor(count)));
+};
+
+const normalizeSharedImageUrl = (value: unknown) => {
+  if (typeof value !== "string") return undefined;
+  const normalized = value.trim();
+  return normalized.startsWith("/") ? normalized : undefined;
+};
+
 const isExerciseCategory = (value: unknown): value is Exercise["category"] =>
   typeof value === "string" && EXERCISE_CATEGORIES.has(value as Exercise["category"]);
 
@@ -174,8 +191,8 @@ const hydrateSharedExercise = (value: unknown): Exercise | null => {
   const themeValue = normalizeOptionalText(candidate.theme);
   const exerciseNumber = normalizeOptionalNumber(candidate.exerciseNumber);
   const duration = normalizeOptionalNumber(candidate.duration);
-  const playersMin = normalizeOptionalNumber(candidate.playersMin);
-  const playersMax = normalizeOptionalNumber(candidate.playersMax);
+  const playersMin = normalizeSharedPlayerCount(candidate.playersMin);
+  const playersMax = normalizeSharedPlayerCount(candidate.playersMax);
 
   if (!id || !name || !isExerciseCategory(category) || !themeValue || !isExerciseTheme(themeValue)) {
     return null;
@@ -201,8 +218,8 @@ const hydrateSharedExercise = (value: unknown): Exercise | null => {
     name,
     category,
     duration: Math.max(0, Math.floor(duration)),
-    playersMin: Math.max(0, Math.floor(playersMin)),
-    playersMax: Math.max(0, Math.floor(playersMax)),
+    playersMin: playersMin,
+    playersMax: Math.max(playersMin, playersMax),
     theme: themeValue,
     equipment: normalizeStringArray(candidate.equipment),
     description: normalizeOptionalText(candidate.description) ?? "",
@@ -212,7 +229,7 @@ const hydrateSharedExercise = (value: unknown): Exercise | null => {
     displayName: normalizeOptionalText(candidate.displayName),
     alwaysIncluded: normalizeOptionalBoolean(candidate.alwaysIncluded),
     scalable: normalizeOptionalBoolean(candidate.scalable),
-    imageUrl: normalizeOptionalText(candidate.imageUrl),
+    imageUrl: normalizeSharedImageUrl(candidate.imageUrl),
     svgDiagram: normalizeOptionalText(candidate.svgDiagram),
     source,
     sourceUrl: normalizeOptionalText(candidate.sourceUrl),
@@ -528,12 +545,14 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
   try {
     const parsed = JSON.parse(decodeBase64Url(token)) as Partial<SharedSessionPayload>;
     if (parsed.version !== 1 && parsed.version !== 2 && parsed.version !== 3) return null;
-    if (typeof parsed.playerCount !== "number" || typeof parsed.stationCount !== "number") {
+    const playerCount = normalizeSharedPlayerCount(parsed.playerCount);
+    const stationCount = normalizeSharedStationCount(parsed.stationCount);
+    if (playerCount === undefined || stationCount === undefined) {
       return null;
     }
     const keeperCount =
       typeof parsed.keeperCount === "number"
-        ? Math.max(0, Math.min(parsed.playerCount - 1, Math.floor(parsed.keeperCount)))
+        ? Math.max(0, Math.min(playerCount - 1, Math.floor(parsed.keeperCount)))
         : 0;
 
     const sharedExercises =
@@ -571,9 +590,9 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
     return {
       sessionTitle: normalizeOptionalText(parsed.sessionTitle),
       sessionComment: normalizeOptionalText(parsed.sessionComment),
-      playerCount: parsed.playerCount,
+      playerCount,
       keeperCount,
-      stationCount: parsed.stationCount,
+      stationCount,
       coachNames,
       selectedExerciseIds,
       selectedTheoryIds,

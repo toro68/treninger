@@ -1,4 +1,4 @@
-import { deriveSessionBlocks, recommendedDuration, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts, type PlanningSectionMode } from "@/store/sessionStore";
+import { deriveSessionBlocks, recommendedDuration, useSessionStore, SessionBlock, DurationUnit, getExerciseFitScore, getActivePlanningSection, getOutfieldPlayerCount, getSectionPlayerCounts } from "@/store/sessionStore";
 import { Exercise } from "@/data/exercises";
 import { openPrintWindowForSession, PrintablePart } from "@/utils/sessionPrint";
 import { buildSharedSessionUrl } from "@/utils/sessionShare";
@@ -8,7 +8,6 @@ import {
   buildSessionShareText,
   buildShortSessionSummary,
   copyTextToClipboard,
-  getAlternativeExercises,
   hasSessionCommentSuggestion,
   SESSION_COMMENT_SUGGESTION,
   toggleSessionCommentSuggestion,
@@ -76,7 +75,6 @@ export const SessionTimeline = () => {
 
   useEffect(() => {
     let cancelled = false;
-    let hydrationTimeout: number | null = null;
 
     const syncHydrationState = () => {
       if (!cancelled) {
@@ -106,19 +104,10 @@ export const SessionTimeline = () => {
           }
         });
       }
-
-      hydrationTimeout = window.setTimeout(() => {
-        if (!cancelled && !useSessionStore.persist.hasHydrated()) {
-          setHydrated(true);
-        }
-      }, 400);
     }
 
     return () => {
       cancelled = true;
-      if (hydrationTimeout !== null) {
-        window.clearTimeout(hydrationTimeout);
-      }
       unsubscribeHydrate();
       unsubscribeFinishHydration();
     };
@@ -132,15 +121,14 @@ export const SessionTimeline = () => {
   >("idle");
   const [showShareOptions, setShowShareOptions] = useState(false);
   const [showCooldown, setShowCooldown] = useState(true);
-  const [showSavedSessions, setShowSavedSessions] = useState(false);
-  const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
-  const [sessionName, setSessionName] = useState("");
-  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
-
   const activeSavedSession = useMemo(
     () => savedSessions.find((session) => session.id === activeSavedSessionId) ?? null,
     [savedSessions, activeSavedSessionId]
   );
+  const [showSavedSessions, setShowSavedSessions] = useState(() => !!activeSavedSessionId);
+  const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
+  const [sessionName, setSessionName] = useState(() => activeSavedSession?.name ?? "");
+  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
   const savedSessionsButtonLabel = showSavedSessions
     ? "Skjul lagrede"
     : activeSavedSession
@@ -164,16 +152,6 @@ export const SessionTimeline = () => {
       exerciseLibrary,
     });
   }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks, exerciseLibrary]);
-
-  useEffect(() => {
-    if (!activeSavedSession) return;
-    setSessionName(activeSavedSession.name);
-  }, [activeSavedSession]);
-
-  useEffect(() => {
-    if (!activeSavedSession) return;
-    setShowSavedSessions(true);
-  }, [activeSavedSession]);
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
   const outfieldPlayerCount = useMemo(
@@ -211,7 +189,6 @@ export const SessionTimeline = () => {
       }),
     [sessionBlocks, playerCount, keeperCount, planningSectionMode, stationCount, planningSectionTarget]
   );
-  const nextSectionNumber = parts.length + 1;
   const isIncompleteStationSection =
     planningSectionMode === "stations" &&
     activeSection.selectedCount > 0 &&
@@ -462,12 +439,23 @@ export const SessionTimeline = () => {
       if (loadedSession) {
         setSessionName(loadedSession.name);
       }
+      setShowSavedSessions(true);
     }
     setSaveStatus(ok ? "loaded" : "error");
     setTimeout(() => setSaveStatus("idle"), 2500);
   };
 
   const handleDeleteSession = (id: string) => {
+    if (typeof window !== "undefined") {
+      const sessionToDelete = savedSessions.find((session) => session.id === id);
+      const confirmed = window.confirm(
+        sessionToDelete
+          ? `Slette lagret økt "${sessionToDelete.name}"?`
+          : "Slette lagret økt?"
+      );
+      if (!confirmed) return;
+    }
+
     deleteSavedSession(id);
     setSaveStatus("deleted");
     setTimeout(() => setSaveStatus("idle"), 2500);

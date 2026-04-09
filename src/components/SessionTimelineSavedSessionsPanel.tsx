@@ -28,7 +28,11 @@ export const SessionTimelineSavedSessionsPanel = ({
       </div>
     ) : null}
     <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+      <label className="sr-only" htmlFor="saved-session-name">
+        Navn på økten
+      </label>
       <input
+        id="saved-session-name"
         type="text"
         value={sessionName}
         onChange={(event) => onSessionNameChange(event.target.value)}

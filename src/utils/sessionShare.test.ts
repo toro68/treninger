@@ -174,4 +174,64 @@ describe("sessionShare", () => {
     expect(decoded!.coachNames).toEqual(["Tor Inge", "Rune"]);
     expect(decoded!.sessionBlocks[0]?.assignedCoachNames).toEqual(["Tor Inge", "Rune"]);
   });
+
+  it("normalizes shared player and station counts from the token", () => {
+    const exercise = allExercises.find((item) => item.category === "game");
+
+    expect(exercise).toBeDefined();
+
+    const payload = {
+      version: 3,
+      playerCount: 0,
+      keeperCount: 99,
+      stationCount: 9,
+      selectedExerciseIds: [exercise!.id],
+      selectedTheoryIds: [],
+      plannedBlocks: [{ id: exercise!.id }],
+    };
+
+    const token = Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
+    const decoded = decodeSharedSessionToken(token);
+
+    expect(decoded).not.toBeNull();
+    expect(decoded?.playerCount).toBe(1);
+    expect(decoded?.keeperCount).toBe(0);
+    expect(decoded?.stationCount).toBe(4);
+  });
+
+  it("drops external image URLs from shared custom exercises", () => {
+    const payload = {
+      version: 3,
+      playerCount: 10,
+      keeperCount: 1,
+      stationCount: 2,
+      selectedExerciseIds: ["custom-share-image"],
+      selectedTheoryIds: [],
+      plannedBlocks: [{ id: "custom-share-image" }],
+      sharedExercises: [
+        {
+          id: "custom-share-image",
+          exerciseNumber: 903,
+          name: "Custom med bilde",
+          category: "station",
+          duration: 12,
+          playersMin: 6,
+          playersMax: 10,
+          theme: "pasning",
+          equipment: [],
+          description: "Beskrivelse",
+          coachingPoints: [],
+          variations: [],
+          imageUrl: "https://tracker.example.invalid/pixel.png",
+          source: "egen",
+        },
+      ],
+    };
+
+    const token = Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
+    const decoded = decodeSharedSessionToken(token);
+
+    expect(decoded).not.toBeNull();
+    expect(decoded?.sessionBlocks[0]?.exercise.imageUrl).toBeUndefined();
+  });
 });

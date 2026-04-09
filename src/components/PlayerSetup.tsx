@@ -172,7 +172,11 @@ export const PlayerSetup = () => {
         </div>
 
         <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+          <label className="sr-only" htmlFor="coach-name-input">
+            Legg til trenernavn
+          </label>
           <input
+            id="coach-name-input"
             type="text"
             value={coachInput}
             onChange={(event) => setCoachInput(event.target.value)}
