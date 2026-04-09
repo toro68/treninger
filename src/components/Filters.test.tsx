@@ -35,8 +35,6 @@ const renderFilters = (overrides: Partial<ComponentProps<typeof Filters>> = {}) 
   const props = {
     activeThemes: [] as ThemeFilter,
     onThemeChange: vi.fn(),
-    activeTags: [] as string[],
-    onTagChange: vi.fn(),
     sourceFilter: [] as SourceFilter,
     onSourceFilterChange: vi.fn(),
     favoritesOnly: false,
@@ -180,12 +178,11 @@ describe("Filters", () => {
         })
     );
 
-    const props = renderFilters({ favoritesOnly: true, filterByPlayerCount: true, activeThemes: ["rondo"], activeTags: ["omstilling"], sourceFilter: ["tiim"] });
+    const props = renderFilters({ favoritesOnly: true, filterByPlayerCount: true, activeThemes: ["rondo"], sourceFilter: ["tiim"] });
     fireEvent.click(screen.getByText("Nullstill alle"));
 
     expect(props.onSourceFilterChange).toHaveBeenCalledWith([]);
     expect(props.onThemeChange).toHaveBeenCalledWith([]);
-    expect(props.onTagChange).toHaveBeenCalledWith([]);
     expect(props.onFavoritesOnlyChange).toHaveBeenCalledWith(false);
     expect(props.onFilterByPlayerCountChange).toHaveBeenCalledWith(false);
     expect(mockSetSearchQuery).toHaveBeenCalledWith("");
@@ -230,14 +227,6 @@ describe("Filters", () => {
     fireEvent.click(screen.getByLabelText("Fjern filter Søk: situasjon"));
 
     expect(mockSetSearchQuery).toHaveBeenCalledWith("");
-  });
-
-  it("should still let legacy active tag filters be removed from the summary", () => {
-    const props = renderFilters({ activeTags: ["kombinasjonsspill"] });
-
-    fireEvent.click(screen.getByLabelText("Fjern filter Kombinasjonsspill"));
-
-    expect(props.onTagChange).toHaveBeenCalledWith([]);
   });
 
   it("should make theme and source counts respect the active search query", () => {

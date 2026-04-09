@@ -19,8 +19,6 @@ export type { SourceFilter, SourceFilterValue, ThemeFilter } from "./filtersShar
 type FiltersProps = {
   activeThemes: ThemeFilter;
   onThemeChange: (value: ThemeFilter) => void;
-  activeTags: string[];
-  onTagChange: (value: string[]) => void;
   sourceFilter: SourceFilter;
   onSourceFilterChange: (value: SourceFilter) => void;
   favoritesOnly: boolean;
@@ -32,8 +30,6 @@ type FiltersProps = {
 export const Filters = ({
   activeThemes,
   onThemeChange,
-  activeTags,
-  onTagChange,
   sourceFilter,
   onSourceFilterChange,
   favoritesOnly,
@@ -76,13 +72,11 @@ export const Filters = ({
         keeperCount,
         sourceFilter,
         activeThemes,
-        activeTags,
         favoritesOnly,
         favoriteIds,
         searchQuery,
       }),
     [
-      activeTags,
       exerciseLibrary,
       favoritesOnly,
       favoriteIds,
@@ -107,13 +101,11 @@ export const Filters = ({
         sectionPlayerCounts,
         keeperCount,
         sourceFilter,
-        activeTags,
         favoritesOnly,
         favoriteIds,
         searchQuery,
       }),
     [
-      activeTags,
       exerciseLibrary,
       favoritesOnly,
       favoriteIds,
@@ -143,13 +135,11 @@ export const Filters = ({
         keeperCount,
         sourceFilter,
         activeThemes,
-        activeTags,
         favoritesOnly,
         favoriteIds,
         searchQuery,
       }),
     [
-      activeTags,
       activeThemes,
       exerciseLibrary,
       favoritesOnly,
@@ -172,19 +162,17 @@ export const Filters = ({
       getActiveFilterSummary({
         sourceFilter,
         activeThemes,
-        activeTags,
         searchQuery,
         favoritesOnly,
         filterByPlayerCount,
         sectionFilterLabel,
       }),
-    [activeTags, activeThemes, favoritesOnly, filterByPlayerCount, searchQuery, sectionFilterLabel, sourceFilter]
+    [activeThemes, favoritesOnly, filterByPlayerCount, searchQuery, sectionFilterLabel, sourceFilter]
   );
 
   const resetAllFilters = () => {
     onSourceFilterChange([]);
     onThemeChange([]);
-    onTagChange([]);
     if (favoritesOnly) onFavoritesOnlyChange(false);
     if (filterByPlayerCount) onFilterByPlayerCountChange(false);
     if (searchQuery) setSearchQuery("");
@@ -197,9 +185,6 @@ export const Filters = ({
         return;
       case "theme":
         onThemeChange(activeThemes.filter((value) => value !== entry.value));
-        return;
-      case "tag":
-        onTagChange(activeTags.filter((value) => value !== entry.value));
         return;
       case "search":
         setSearchQuery("");

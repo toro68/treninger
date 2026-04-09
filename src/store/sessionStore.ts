@@ -18,7 +18,7 @@ import {
   matchesExercisePlayerCountFilter,
   normalizeKeeperCount,
 } from "./sessionPlayerCounts";
-import { matchesExerciseFilters } from "./exerciseFilters";
+import { type ExerciseFilterSource, matchesExerciseFilters } from "./exerciseFilters";
 import { appendBlockForPlanningSection, getActivePlanningSection } from "./sessionPlanning";
 import {
   DEFAULT_COACH_NAMES,
@@ -995,7 +995,6 @@ export const filterAndGroupExercises = ({
   favoriteIds,
   favoritesOnly,
   theme,
-  tags,
   sourceFilter,
   filterByPlayerCount,
   searchQuery,
@@ -1009,8 +1008,7 @@ export const filterAndGroupExercises = ({
   favoriteIds?: Set<string>;
   favoritesOnly?: boolean;
   theme?: string | string[];
-  tags?: string[];
-  sourceFilter?: ExerciseSource | "egen" | "tiim-situasjon" | Array<ExerciseSource | "egen" | "tiim-situasjon"> | null;
+  sourceFilter?: ExerciseFilterSource | ExerciseFilterSource[] | null;
   filterByPlayerCount?: boolean;
   searchQuery?: string;
   categories: Set<string>;
@@ -1024,7 +1022,6 @@ export const filterAndGroupExercises = ({
     ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2, keeperCount)
     : undefined;
   const activeThemes = Array.isArray(theme) ? theme : theme ? [theme] : [];
-  const activeTags = tags ?? [];
   const activeSourceFilters = Array.isArray(sourceFilter)
     ? sourceFilter
     : sourceFilter
@@ -1046,7 +1043,6 @@ export const filterAndGroupExercises = ({
         keeperCount,
         sourceFilter: activeSourceFilters,
         activeThemes,
-        activeTags,
         favoritesOnly: Boolean(favoritesOnly),
         favoriteIds: favoriteIds ?? new Set<string>(),
         searchQuery: searchQuery ?? "",

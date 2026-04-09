@@ -108,7 +108,6 @@ export const deriveVisibleExerciseSections = (
 
 export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>([]);
-  const [tagFilter, setTagFilter] = useState<string[]>([]);
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(true);
   const {
@@ -168,7 +167,6 @@ export default function Home() {
       favoriteIds,
       favoritesOnly,
       theme: themeFilter,
-      tags: tagFilter,
       sourceFilter,
       filterByPlayerCount,
       searchQuery,
@@ -183,7 +181,6 @@ export default function Home() {
     favoriteIds,
     favoritesOnly,
     themeFilter,
-    tagFilter,
     sourceFilter,
     filterByPlayerCount,
     searchQuery,
@@ -214,8 +211,6 @@ export default function Home() {
                 <Filters
                   activeThemes={themeFilter}
                   onThemeChange={setThemeFilter}
-                  activeTags={tagFilter}
-                  onTagChange={setTagFilter}
                   sourceFilter={sourceFilter}
                   onSourceFilterChange={setSourceFilter}
                   favoritesOnly={favoritesOnly}

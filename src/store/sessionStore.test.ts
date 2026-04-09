@@ -1749,50 +1749,6 @@ describe("sessionStore", () => {
       expect(grouped.station?.map((ex) => ex.id)).toEqual(["favorite-exercise"]);
     });
 
-    it("should match any selected tag when tag filter is used", () => {
-      const library: Exercise[] = [
-        {
-          id: "full-tag-match",
-          exerciseNumber: 1,
-          name: "Combination play",
-          category: "station",
-          duration: 10,
-          playersMin: 6,
-          playersMax: 12,
-          theme: "oppbygging",
-          equipment: [],
-          description: "",
-          coachingPoints: [],
-          variations: [],
-          tags: ["pep-sessions-vol2", "combination-play"],
-        },
-        {
-          id: "partial-tag-match",
-          exerciseNumber: 2,
-          name: "Pep rondo",
-          category: "station",
-          duration: 10,
-          playersMin: 6,
-          playersMax: 12,
-          theme: "rondo",
-          equipment: [],
-          description: "",
-          coachingPoints: [],
-          variations: [],
-          tags: ["pep-sessions-vol2"],
-        },
-      ];
-
-      const grouped = filterAndGroupExercises({
-        exerciseLibrary: library,
-        playerCount: 12,
-        tags: ["pep-sessions-vol2", "combination-play"],
-        categories: new Set<string>(["station"]),
-      });
-
-      expect(grouped.station?.map((ex) => ex.id)).toEqual(["full-tag-match", "partial-tag-match"]);
-    });
-
     it("should treat keeper count as separate from outfield count for standard exercises", () => {
       const library: Exercise[] = [
         {

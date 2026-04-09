@@ -8,7 +8,7 @@ import {
 
 import { matchesExercisePlayerCountFilter } from "./sessionPlayerCounts";
 
-export type ExerciseFilterSource = ExerciseSource | "egen" | "tiim-situasjon";
+export type ExerciseFilterSource = Exclude<ExerciseSource, "egen"> | "tiim-situasjon";
 
 const normalizeSearchText = (value: string) => value.trim().toLowerCase();
 
@@ -26,6 +26,7 @@ export const matchesExerciseSearchQuery = (exercise: Exercise, searchQuery?: str
   const exerciseCode = getExerciseCode(exercise).toLowerCase();
   const haystackParts = [
     exercise.name,
+    exercise.displayName,
     exercise.description,
     exercise.theme,
     exercise.tags?.join(" "),
@@ -68,19 +69,11 @@ export const matchesSourceFilter = (
   if (sourceFilter.length === 0) return true;
 
   const exerciseSources = getExerciseFilterSources(exercise);
-  return sourceFilter
-    .map((filter) => (filter === "egen" ? "staal" : filter))
-    .some((filter) => exerciseSources.includes(filter));
+  return sourceFilter.some((filter) => exerciseSources.includes(filter));
 };
 
 export const matchesThemeFilter = (exercise: Pick<ExerciseData, "theme">, activeThemes: string[]) =>
   activeThemes.length === 0 || activeThemes.includes(exercise.theme);
-
-export const matchesTagFilter = (exercise: Pick<ExerciseData, "tags">, activeTags: string[]) => {
-  if (activeTags.length === 0) return true;
-  if (!exercise.tags || exercise.tags.length === 0) return false;
-  return activeTags.some((tag) => exercise.tags?.includes(tag));
-};
 
 export const matchesFavoriteFilter = (
   exercise: Pick<ExerciseData, "id">,
@@ -96,14 +89,12 @@ export type ExerciseFilterMatchOptions = {
   keeperCount: number;
   sourceFilter: ExerciseFilterSource[];
   activeThemes: string[];
-  activeTags: string[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
   searchQuery: string;
   ignore?: {
     source?: boolean;
     themes?: boolean;
-    tags?: boolean;
   };
 };
 
@@ -117,7 +108,6 @@ export const matchesExerciseFilters = (
     keeperCount,
     sourceFilter,
     activeThemes,
-    activeTags,
     favoritesOnly,
     favoriteIds,
     searchQuery,
@@ -138,7 +128,6 @@ export const matchesExerciseFilters = (
   }
   if (!ignore.source && !matchesSourceFilter(exercise, sourceFilter)) return false;
   if (!ignore.themes && !matchesThemeFilter(exercise, activeThemes)) return false;
-  if (!ignore.tags && !matchesTagFilter(exercise, activeTags)) return false;
   if (!matchesFavoriteFilter(exercise, favoritesOnly, favoriteIds)) return false;
   if (!matchesExerciseSearchQuery(exercise, searchQuery)) return false;
   return true;

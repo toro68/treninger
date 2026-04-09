@@ -20,7 +20,7 @@ type SourceConfigEntry = {
 type FilterSummaryEntry = {
   key: string;
   label: string;
-  kind: "source" | "theme" | "tag" | "search" | "favorites" | "playerCount";
+  kind: "source" | "theme" | "search" | "favorites" | "playerCount";
   value?: string;
 };
 
@@ -33,12 +33,6 @@ export const FILTER_SOURCE_CONFIG = {
     description: "Våre egne øvelser",
     activeClass: "border-zinc-800 bg-zinc-100 text-zinc-900",
     dotClass: "bg-zinc-700",
-  },
-  egen: {
-    label: "Egne",
-    description: "Legacy-kilde for egne øvelser",
-    activeClass: "border-zinc-600 bg-zinc-100 text-zinc-800",
-    dotClass: "bg-zinc-600",
   },
   tiim: {
     label: "tiim.no",
@@ -146,12 +140,6 @@ export const FILTER_SOURCE_CONFIG = {
 
 const capitalize = (value: string) => value.charAt(0).toUpperCase() + value.slice(1);
 
-export const humanizeTag = (tag: string) =>
-  tag
-    .split("-")
-    .map((segment) => (segment.length <= 3 || /^\d+$/.test(segment) ? segment.toUpperCase() : capitalize(segment)))
-    .join(" ");
-
 export const humanizeTheme = (theme: string) => capitalize(theme);
 
 type AvailableFacetOptions = Omit<ExerciseFilterMatchOptions, "ignore"> & {
@@ -164,7 +152,6 @@ const countFacetMatches = (
   ignore: {
     source?: boolean;
     themes?: boolean;
-    tags?: boolean;
   } = {}
 ) =>
   exerciseLibrary.reduce(
@@ -216,7 +203,6 @@ const matchesFacetExercise = (
   ignore: {
     source?: boolean;
     themes?: boolean;
-    tags?: boolean;
   } = {}
 ) => matchesExerciseFilters(exercise, { ...options, ignore });
 
@@ -231,7 +217,6 @@ const collectFacetValues = <Value extends string>({
   ignore?: {
     source?: boolean;
     themes?: boolean;
-    tags?: boolean;
   };
   getValues: (exercise: Exercise) => Iterable<Value>;
 }) => {
@@ -259,7 +244,6 @@ export const getAvailableThemes = ({
   keeperCount,
   sourceFilter,
   activeThemes,
-  activeTags,
   favoritesOnly,
   favoriteIds,
   searchQuery,
@@ -272,7 +256,6 @@ export const getAvailableThemes = ({
   keeperCount: number;
   sourceFilter: SourceFilter;
   activeThemes: ThemeFilter;
-  activeTags: string[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
   searchQuery: string;
@@ -286,7 +269,6 @@ export const getAvailableThemes = ({
     keeperCount,
     sourceFilter,
     activeThemes,
-    activeTags,
     favoritesOnly,
     favoriteIds,
     searchQuery,
@@ -328,7 +310,6 @@ export const getThemeResetCount = ({
   sectionPlayerCounts,
   keeperCount,
   sourceFilter,
-  activeTags,
   favoritesOnly,
   favoriteIds,
   searchQuery,
@@ -340,7 +321,6 @@ export const getThemeResetCount = ({
   sectionPlayerCounts: number[];
   keeperCount: number;
   sourceFilter: SourceFilter;
-  activeTags: string[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
   searchQuery: string;
@@ -354,7 +334,6 @@ export const getThemeResetCount = ({
     keeperCount,
     sourceFilter,
     activeThemes: [],
-    activeTags,
     favoritesOnly,
     favoriteIds,
     searchQuery,
@@ -369,7 +348,6 @@ export const getAvailableSources = ({
   keeperCount,
   sourceFilter,
   activeThemes,
-  activeTags,
   favoritesOnly,
   favoriteIds,
   searchQuery,
@@ -382,7 +360,6 @@ export const getAvailableSources = ({
   keeperCount: number;
   sourceFilter: SourceFilter;
   activeThemes: ThemeFilter;
-  activeTags: string[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
   searchQuery: string;
@@ -396,7 +373,6 @@ export const getAvailableSources = ({
     keeperCount,
     sourceFilter,
     activeThemes,
-    activeTags,
     favoritesOnly,
     favoriteIds,
     searchQuery,
@@ -433,7 +409,6 @@ export const getAvailableSources = ({
 export const getActiveFilterSummary = ({
   sourceFilter,
   activeThemes,
-  activeTags,
   searchQuery,
   favoritesOnly,
   filterByPlayerCount,
@@ -441,7 +416,6 @@ export const getActiveFilterSummary = ({
 }: {
   sourceFilter: SourceFilter;
   activeThemes: ThemeFilter;
-  activeTags: string[];
   searchQuery: string;
   favoritesOnly: boolean;
   filterByPlayerCount: boolean;
@@ -458,12 +432,6 @@ export const getActiveFilterSummary = ({
       key: `theme-${value}`,
       label: humanizeTheme(value),
       kind: "theme" as const,
-      value,
-    })),
-    ...activeTags.map((value) => ({
-      key: `tag-${value}`,
-      label: humanizeTag(value),
-      kind: "tag" as const,
       value,
     })),
   ];
