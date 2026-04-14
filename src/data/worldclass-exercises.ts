@@ -14,7 +14,6 @@ const baseWorldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-112",
     exerciseNumber: 112,
-    name: "Throw - Head - Catch",
     tags: ["worldclass-50-smallsided-games"],
     category: "warmup",
     duration: 12,
@@ -55,7 +54,6 @@ const baseWorldclassExercises: ExerciseData[] = [
 
   // Passing and possession
   {
-    id: "smallsided-114",
     exerciseNumber: 114,
     name: "5v2",
     category: "rondo",
@@ -72,7 +70,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-115",
-    exerciseNumber: 115,
+    exerciseNumber: 999,
     name: "Cones as Goals",
     category: "game",
     duration: 12,
@@ -93,7 +91,7 @@ const baseWorldclassExercises: ExerciseData[] = [
     id: "smallsided-116",
     exerciseNumber: 116,
     name: "6v3",
-    category: "game",
+    category: "rondo",
     duration: 15,
     playersMin: 9,
     playersMax: 9,
@@ -292,7 +290,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-135",
-    exerciseNumber: 135,
+    exerciseNumber: 1001,
     name: "3v3+3",
     category: "game",
     duration: 10,
@@ -319,7 +317,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   // Goalscoring
   {
     id: "smallsided-136",
-    exerciseNumber: 136,
+    exerciseNumber: 1002,
     name: "5 v 5 +2",
     category: "game",
     duration: 15,
@@ -344,7 +342,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-137",
-    exerciseNumber: 137,
+    exerciseNumber: 1003,
     name: "Small-Sided Game Progression",
     category: "game",
     duration: 15,
@@ -472,7 +470,7 @@ const baseWorldclassExercises: ExerciseData[] = [
 
   {
     id: "smallsided-144",
-    exerciseNumber: 144,
+    exerciseNumber: 1004,
     name: "Flank Handball",
     category: "game",
     duration: 12,
@@ -547,7 +545,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-147",
-    exerciseNumber: 147,
+    exerciseNumber: 1005,
     name: "Flank Zones",
     category: "game",
     duration: 15,
@@ -574,7 +572,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   // 7+4v7+4 and larger games
   {
     id: "smallsided-148",
-    exerciseNumber: 148,
+    exerciseNumber: 1006,
     name: "7+4v7+4",
     category: "game",
     duration: 15,

@@ -254,7 +254,7 @@ const baseSeegerExercises: Exercise[] = [
   // ===== SEEGER - SPILLEBANER =====
   {
     id: "smallsided-49",
-    exerciseNumber: 49,
+    exerciseNumber: 1026,
     name: "Vertikal bane i midten",
     category: "game",
     duration: 12,

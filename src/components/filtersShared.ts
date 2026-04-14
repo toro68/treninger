@@ -1,4 +1,4 @@
-import type { Exercise } from "@/data/exercises";
+import type { Exercise, ExerciseTheme } from "@/data/exercises";
 import {
   type ExerciseFilterMatchOptions,
   type ExerciseFilterSource,
@@ -7,7 +7,7 @@ import {
 } from "@/store/exerciseFilters";
 
 export type SourceFilterValue = ExerciseFilterSource;
-export type ThemeFilter = string[];
+export type ThemeFilter = ExerciseTheme[];
 export type SourceFilter = SourceFilterValue[];
 
 type SourceConfigEntry = {
@@ -283,6 +283,7 @@ export const getAvailableThemes = ({
     visibleThemes.add(theme);
   });
 
+  // Counts reflect the result set after the next click in this multi-select facet.
   return getNextClickFacetEntries({
     values: visibleThemes,
     activeValues: activeThemes,
@@ -385,6 +386,7 @@ export const getAvailableSources = ({
     getValues: (exercise) => getExerciseFilterSources(exercise),
   });
 
+  // Counts reflect the result set after the next click in this multi-select facet.
   return getNextClickFacetEntries({
     values: visibleSources,
     activeValues: sourceFilter,

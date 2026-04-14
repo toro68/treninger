@@ -140,7 +140,7 @@ export const eggenExercises: ExerciseData[] = [
   },
   {
     id: "t1-skuddaktivitet",
-    exerciseNumber: 26,
+    exerciseNumber: 796,
     name: "T1 Skuddaktivitet",
     category: "station",
     duration: 15,
@@ -176,7 +176,7 @@ export const eggenExercises: ExerciseData[] = [
   },
   {
     id: "t9a-cavanagh-press",
-    exerciseNumber: 28,
+    exerciseNumber: 797,
     name: "T9a Cavanagh-press",
     category: "station",
     duration: 14,
@@ -245,7 +245,7 @@ export const eggenExercises: ExerciseData[] = [
   },
   {
     id: "s2-angrepsavslutning",
-    exerciseNumber: 29,
+    exerciseNumber: 1016,
     name: "S2 Angrepsavslutning",
     category: "game",
     duration: 45,
@@ -263,7 +263,7 @@ export const eggenExercises: ExerciseData[] = [
   },
   {
     id: "s4-spill-treingskamp",
-    exerciseNumber: 30,
+    exerciseNumber: 1021,
     name: "S4 Spill mot to mål",
     category: "game",
     duration: 40,
@@ -299,13 +299,13 @@ export const eggenExercises: ExerciseData[] = [
   },
   {
     id: "s15-five-a-side",
-    exerciseNumber: 32,
+    exerciseNumber: 1022,
     name: "S15 Five-a-side",
     category: "game",
     duration: 15,
     playersMin: 10,
     playersMax: 14,
-    theme: "possession",
+    theme: "smålagsspill",
     equipment: ["småmål", "baller"],
     description:
       "5v5 på små mål, moderat intensitet og fokus på å holde ballen i laget.",

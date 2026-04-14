@@ -157,7 +157,7 @@ const baseHyballaExercises: ExerciseData[] = [
   },
   {
     id: "hyballa-triangle-4",
-    exerciseNumber: 248,
+    exerciseNumber: 1008,
     name: "8v4 med Ett-Touch og Trekantpasninger",
     tags: ["hyballa-german-passing-2015"],
     category: "game",
@@ -233,7 +233,7 @@ const baseHyballaExercises: ExerciseData[] = [
   },
   {
     id: "hyballa-switch-3",
-    exerciseNumber: 254,
+    exerciseNumber: 1009,
     name: "7v7 med Obligatoriske Sideskifter",
     tags: ["hyballa-german-passing-2015"],
     category: "game",
@@ -285,7 +285,7 @@ const baseHyballaExercises: ExerciseData[] = [
   // === WALL PASS (VEGGPASNING) ØVELSER ===
   {
     id: "hyballa-wall-1",
-    exerciseNumber: 12,
+    exerciseNumber: 1000,
     name: "5v5 + 4 med Veggspill og Avslutning",
     tags: ["hyballa-german-passing-2015"],
     category: "game",
@@ -438,7 +438,7 @@ const baseHyballaExercises: ExerciseData[] = [
   },
   {
     id: "hyballa-onetouch-3",
-    exerciseNumber: 18,
+    exerciseNumber: 1007,
     name: "9v9 med Ett-Touch Soner",
     tags: ["hyballa-german-passing-2015"],
     category: "game",

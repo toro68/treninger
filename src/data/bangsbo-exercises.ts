@@ -222,12 +222,11 @@ const baseBangsboExercises: ExerciseData[] = [
     source: "bangsbo",
     sourceRef: "Bangsbo/Peitersen Forsvar – Spilløvelse 1 (Figur 94) (txt:4181)"
   },
-
   // === KAPITTEL 5: FORSVARSSPILL I ULIKE SONER ===
   // === SPILLØVELSER (STØRRE FORMAT) ===
   {
     id: "bangsbo-spill-2",
-    exerciseNumber: 274,
+    exerciseNumber: 1010,
     name: "8v8 pressfordeling mellom sentral og ytre sone",
     category: "game",
     duration: 30,
@@ -283,7 +282,7 @@ const baseBangsboExercises: ExerciseData[] = [
   // === FLERE ØVELSER FRA KAPITTEL 1: DEKNING OG MARKERING ===
   {
     id: "bangsbo-dekning-1",
-    exerciseNumber: 31,
+    exerciseNumber: 798,
     name: "Dekning med Posisjonering",
     category: "station",
     duration: 12,
@@ -417,7 +416,7 @@ const baseBangsboExercises: ExerciseData[] = [
   },
   {
     id: "bangsbo-stil-2",
-    exerciseNumber: 41,
+    exerciseNumber: 1023,
     name: "9v9 med ulik banehalvdel og rask reorganisering",
     category: "game",
     duration: 20,
@@ -445,7 +444,7 @@ const baseBangsboExercises: ExerciseData[] = [
   // === KAPITTEL 5: TAKTISK TRENING ===
   {
     id: "bangsbo-taktisk-1",
-    exerciseNumber: 42,
+    exerciseNumber: 1024,
     name: "8v8 pressing og linjesamarbeid",
     category: "game",
     duration: 20,

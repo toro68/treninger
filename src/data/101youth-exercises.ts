@@ -14,7 +14,7 @@ const baseYouthExercises: ExerciseData[] = [
   // ===== 101 YOUTH FOOTBALL (kap. Small-Sided Games) =====
   {
     id: "smallsided-20",
-    exerciseNumber: 277,
+    exerciseNumber: 1011,
     name: "Bingo",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",
@@ -144,7 +144,7 @@ const baseYouthExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-25",
-    exerciseNumber: 287,
+    exerciseNumber: 1013,
     name: "Directional Play",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",
@@ -170,7 +170,7 @@ const baseYouthExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-26",
-    exerciseNumber: 288,
+    exerciseNumber: 1014,
     name: "Through The Gates",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",
@@ -196,7 +196,7 @@ const baseYouthExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-27",
-    exerciseNumber: 286,
+    exerciseNumber: 1012,
     name: "Four Corners",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",
@@ -222,7 +222,7 @@ const baseYouthExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-28",
-    exerciseNumber: 289,
+    exerciseNumber: 1015,
     name: "Target Ball",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",
@@ -248,7 +248,7 @@ const baseYouthExercises: ExerciseData[] = [
   },
   {
     id: "smallsided-29",
-    exerciseNumber: 292,
+    exerciseNumber: 1018,
     name: "Gate Crasher",
     tags: ["101-youth-football-coaching-2013"],
     category: "game",

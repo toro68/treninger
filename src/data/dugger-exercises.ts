@@ -245,7 +245,7 @@ const baseDuggerExercises: ExerciseData[] = [
   },
   {
     id: "dugger-man-mark-deadball",
-    exerciseNumber: 10,
+    exerciseNumber: 795,
     name: "Manndekning ved Dødball",
     tags: ["dugger-defense-2021"],
     category: "station",
@@ -644,7 +644,7 @@ const baseDuggerExercises: ExerciseData[] = [
   },
   {
     id: "dugger-keeper-reactions",
-    exerciseNumber: 209,
+    exerciseNumber: 724,
     name: "Keeper Reaksjoner",
     tags: ["dugger-defense-2021"],
     category: "warmup",
@@ -750,7 +750,7 @@ const baseDuggerExercises: ExerciseData[] = [
   },
   {
     id: "dugger-play-out-2",
-    exerciseNumber: 291,
+    exerciseNumber: 1017,
     name: "Spille Ut Bakfra (2)",
     tags: ["dugger-defense-2021"],
     category: "game",
@@ -778,7 +778,7 @@ const baseDuggerExercises: ExerciseData[] = [
   // === SPILLØVELSER ===
   {
     id: "dugger-3v2-game",
-    exerciseNumber: 294,
+    exerciseNumber: 1019,
     name: "3v2 Rotasjonsspill",
     tags: ["dugger-defense-2021"],
     category: "game",
@@ -806,7 +806,7 @@ const baseDuggerExercises: ExerciseData[] = [
   // === HØYT PRESS OG FRONTPRESS ===
   {
     id: "dugger-high-press",
-    exerciseNumber: 298,
+    exerciseNumber: 1020,
     name: "Høyt Press",
     tags: ["dugger-defense-2021"],
     category: "game",
@@ -1186,7 +1186,7 @@ const baseDuggerExercises: ExerciseData[] = [
   // === MORSOMT FORSVARSSPILL ===
   {
     id: "dugger-fun-defense",
-    exerciseNumber: 45,
+    exerciseNumber: 1025,
     name: "Morsomt Forsvarsspill",
     tags: ["dugger-defense-2021"],
     category: "game",

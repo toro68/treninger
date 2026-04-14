@@ -95,7 +95,7 @@ type ExerciseFields<TTheme extends string> = {
   exerciseNumber: number; // Unikt nummer innen kategorien
   name: string;
   displayName?: string; // Kortere visningsnavn i UI når full tittel er lang
-  tags?: string[]; // Tagger for filtrering og gruppering
+  tags?: string[]; // Metadata for søk, kilde-/serieklassifisering og spesialaggregering. Ikke eget hovedfilter i UI.
   category: ExerciseCategory; // Øktdel/struktur: oppvarming, stasjon, spill osv.
   duration: number; // minutes
   playersMin: number;
@@ -382,7 +382,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "offensivt-frispark-returrom",
-    exerciseNumber: 91,
+    exerciseNumber: 800,
     name: "Offensivt frispark med returrom",
     category: "station",
     duration: 15,
@@ -408,7 +408,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "andreball-etter-serve",
-    exerciseNumber: 92,
+    exerciseNumber: 801,
     name: "Andreball etter serve",
     category: "station",
     duration: 12,
@@ -434,7 +434,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "drillo-langpasning-direkte-bakrom",
-    exerciseNumber: 93,
+    exerciseNumber: 802,
     name: "Drillo: langpasning direkte i bakrom",
     category: "station",
     duration: 14,
@@ -461,7 +461,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "drillo-stuss-flikk-ni-er",
-    exerciseNumber: 94,
+    exerciseNumber: 803,
     name: "Drillo: stuss/flikk via 9-er",
     category: "station",
     duration: 14,
@@ -488,7 +488,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "drillo-flo-oppspill",
-    exerciseNumber: 95,
+    exerciseNumber: 804,
     name: "Drillo: Flo-oppspill fra sidekorridor",
     category: "station",
     duration: 15,
@@ -615,7 +615,7 @@ export const exercises: ExerciseData[] = [
     duration: 20,
     playersMin: 8,
     playersMax: 24,
-    theme: "spill",
+    theme: "smålagsspill",
     equipment: ["baller", "mål", "vester", "kjegler"],
     description:
       "Cupspill med 4 lag fordelt på 2 baner. Spill korte kamper samtidig, og la vinnere og tapere møtes videre etter oppsettet dere ønsker.",
@@ -639,7 +639,7 @@ export const exercises: ExerciseData[] = [
     duration: 20,
     playersMin: 8,
     playersMax: 24,
-    theme: "spill",
+    theme: "smålagsspill",
     equipment: ["baller", "mål", "vester", "kjegler"],
     description:
       "Cupspill med 4 lag og vanlige regler. Korte kamper der vinnerne går videre og neste oppgjør settes raskt i gang.",

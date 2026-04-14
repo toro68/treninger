@@ -1903,7 +1903,7 @@ describe("sessionStore", () => {
       expect(cupExercise).toBeDefined();
       expect(cupExercise?.name).toBe("Cup - 4 lag. Vanlig spill.");
       expect(cupExercise?.category).toBe("game");
-      expect(cupExercise?.theme).toBe("spill");
+      expect(cupExercise?.theme).toBe("smålagsspill");
       expect(cupExercise?.description).toContain("Cupspill");
       expect(cupExercise?.variations).toContain("Spill semifinaler og finale");
     });
@@ -1916,7 +1916,7 @@ describe("sessionStore", () => {
       expect(cupExercise).toBeDefined();
       expect(cupExercise?.name).toBe("Cup med 4 lag. 2 baner.");
       expect(cupExercise?.category).toBe("game");
-      expect(cupExercise?.theme).toBe("spill");
+      expect(cupExercise?.theme).toBe("smålagsspill");
       expect(cupExercise?.description).toContain("2 baner");
       expect(cupExercise?.variations).toContain(
         "Vinnere møtes på bane 1 og tapere møtes på bane 2 i neste runde"

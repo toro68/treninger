@@ -292,7 +292,7 @@ describe("Filters", () => {
 
 describe("Filter types", () => {
   it("should accept valid ThemeFilter values", () => {
-    const themes: ThemeFilter = ["pasning", "press", "teknikk"];
+    const themes: ThemeFilter = ["pasning", "pressing", "teknikk"];
     expect(Array.isArray(themes)).toBe(true);
   });
 
