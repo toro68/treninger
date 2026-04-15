@@ -300,7 +300,7 @@ export const getAvailableThemes = ({
       if (b.value === "rondo") return 1;
       return a.value.localeCompare(b.value, "nb");
     })
-    .map(({ value, count }) => ({ theme: value, count }));
+    .map(({ value, count }) => ({ theme: value as ExerciseTheme, count }));
 };
 
 export const getThemeResetCount = ({

@@ -14,6 +14,7 @@ const baseWorldclassExercises: ExerciseData[] = [
   {
     id: "smallsided-112",
     exerciseNumber: 112,
+    name: "Throw - Head - Catch",
     tags: ["worldclass-50-smallsided-games"],
     category: "warmup",
     duration: 12,
@@ -54,6 +55,7 @@ const baseWorldclassExercises: ExerciseData[] = [
 
   // Passing and possession
   {
+    id: "smallsided-114",
     exerciseNumber: 114,
     name: "5v2",
     category: "rondo",
