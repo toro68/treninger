@@ -140,21 +140,34 @@ export const FILTER_SOURCE_CONFIG = {
 
 const capitalize = (value: string) => value.charAt(0).toUpperCase() + value.slice(1);
 
-export const humanizeTheme = (theme: string) => capitalize(theme);
+export const humanizeTheme = (theme: ExerciseTheme) => capitalize(theme);
 
 type AvailableFacetOptions = Omit<ExerciseFilterMatchOptions, "ignore"> & {
   exerciseLibrary: Exercise[];
 };
 
+export type FacetFilterParams = {
+  exerciseLibrary: Exercise[];
+  filterByPlayerCount: boolean;
+  playerCount: number;
+  playersPerStation?: number;
+  sectionPlayerCounts: number[];
+  keeperCount: number;
+  sourceFilter: SourceFilter;
+  activeThemes: ThemeFilter;
+  favoritesOnly: boolean;
+  favoriteIds: Set<string>;
+  searchQuery: string;
+};
+
 const countFacetMatches = (
-  exerciseLibrary: Exercise[],
   options: AvailableFacetOptions,
   ignore: {
     source?: boolean;
     themes?: boolean;
   } = {}
 ) =>
-  exerciseLibrary.reduce(
+  options.exerciseLibrary.reduce(
     (count, exercise) => count + (matchesFacetExercise(exercise, options, ignore) ? 1 : 0),
     0
   );
@@ -181,16 +194,18 @@ const getNextClickFacetEntries = <Value extends string>({
   }
 
   const currentCount = activeValues.length
-    ? countFacetMatches(buildOptions(activeValues).exerciseLibrary, buildOptions(activeValues))
+    ? countFacetMatches(buildOptions(activeValues))
     : 0;
 
   return Array.from(visibleValues)
     .map((value) => {
-      const selectedValues = activeValueSet.has(value) ? activeValues : [...activeValues, value];
+      const selectedValues = activeValueSet.has(value)
+        ? activeValues.filter((v) => v !== value)
+        : [...activeValues, value];
 
       return {
         value,
-        count: countFacetMatches(buildOptions(selectedValues).exerciseLibrary, buildOptions(selectedValues)),
+        count: countFacetMatches(buildOptions(selectedValues)),
         isActive: activeValueSet.has(value),
       };
     })
@@ -235,45 +250,10 @@ const collectFacetValues = <Value extends string>({
   return visibleValues;
 };
 
-export const getAvailableThemes = ({
-  exerciseLibrary,
-  filterByPlayerCount,
-  playerCount,
-  playersPerStation,
-  sectionPlayerCounts,
-  keeperCount,
-  sourceFilter,
-  activeThemes,
-  favoritesOnly,
-  favoriteIds,
-  searchQuery,
-}: {
-  exerciseLibrary: Exercise[];
-  filterByPlayerCount: boolean;
-  playerCount: number;
-  playersPerStation?: number;
-  sectionPlayerCounts: number[];
-  keeperCount: number;
-  sourceFilter: SourceFilter;
-  activeThemes: ThemeFilter;
-  favoritesOnly: boolean;
-  favoriteIds: Set<string>;
-  searchQuery: string;
-}) => {
-  const facetOptions = {
-    exerciseLibrary,
-    filterByPlayerCount,
-    playerCount,
-    playersPerStation,
-    sectionPlayerCounts,
-    keeperCount,
-    sourceFilter,
-    activeThemes,
-    favoritesOnly,
-    favoriteIds,
-    searchQuery,
-  };
-  const visibleThemes = new Set<string>();
+export const getAvailableThemes = (params: FacetFilterParams) => {
+  const { exerciseLibrary, activeThemes } = params;
+  const facetOptions = { ...params };
+  const visibleThemes = new Set<ExerciseTheme>();
   collectFacetValues({
     exerciseLibrary,
     options: facetOptions,
@@ -300,84 +280,18 @@ export const getAvailableThemes = ({
       if (b.value === "rondo") return 1;
       return a.value.localeCompare(b.value, "nb");
     })
-    .map(({ value, count }) => ({ theme: value as ExerciseTheme, count }));
+    .map(({ value, count }) => ({ theme: value, count }));
 };
 
-export const getThemeResetCount = ({
-  exerciseLibrary,
-  filterByPlayerCount,
-  playerCount,
-  playersPerStation,
-  sectionPlayerCounts,
-  keeperCount,
-  sourceFilter,
-  favoritesOnly,
-  favoriteIds,
-  searchQuery,
-}: {
-  exerciseLibrary: Exercise[];
-  filterByPlayerCount: boolean;
-  playerCount: number;
-  playersPerStation?: number;
-  sectionPlayerCounts: number[];
-  keeperCount: number;
-  sourceFilter: SourceFilter;
-  favoritesOnly: boolean;
-  favoriteIds: Set<string>;
-  searchQuery: string;
-}) =>
-  countFacetMatches(exerciseLibrary, {
-    exerciseLibrary,
-    filterByPlayerCount,
-    playerCount,
-    playersPerStation,
-    sectionPlayerCounts,
-    keeperCount,
-    sourceFilter,
+export const getThemeResetCount = (params: Omit<FacetFilterParams, "activeThemes">) =>
+  countFacetMatches({
+    ...params,
     activeThemes: [],
-    favoritesOnly,
-    favoriteIds,
-    searchQuery,
   });
 
-export const getAvailableSources = ({
-  exerciseLibrary,
-  filterByPlayerCount,
-  playerCount,
-  playersPerStation,
-  sectionPlayerCounts,
-  keeperCount,
-  sourceFilter,
-  activeThemes,
-  favoritesOnly,
-  favoriteIds,
-  searchQuery,
-}: {
-  exerciseLibrary: Exercise[];
-  filterByPlayerCount: boolean;
-  playerCount: number;
-  playersPerStation?: number;
-  sectionPlayerCounts: number[];
-  keeperCount: number;
-  sourceFilter: SourceFilter;
-  activeThemes: ThemeFilter;
-  favoritesOnly: boolean;
-  favoriteIds: Set<string>;
-  searchQuery: string;
-}) => {
-  const facetOptions = {
-    exerciseLibrary,
-    filterByPlayerCount,
-    playerCount,
-    playersPerStation,
-    sectionPlayerCounts,
-    keeperCount,
-    sourceFilter,
-    activeThemes,
-    favoritesOnly,
-    favoriteIds,
-    searchQuery,
-  };
+export const getAvailableSources = (params: FacetFilterParams) => {
+  const { exerciseLibrary, sourceFilter } = params;
+  const facetOptions = { ...params };
 
   const visibleSources = collectFacetValues({
     exerciseLibrary,

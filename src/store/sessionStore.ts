@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
-import { allExercises, Exercise, ExerciseSource } from "@/data/exercises";
+import { allExercises, Exercise, ExerciseSource, type ExerciseTheme } from "@/data/exercises";
 import {
   buildTimelineSections,
   getExplicitSectionNumber,
@@ -1007,7 +1007,7 @@ export const filterAndGroupExercises = ({
   planningSectionMode?: PlanningSectionMode;
   favoriteIds?: Set<string>;
   favoritesOnly?: boolean;
-  theme?: string | string[];
+  theme?: ExerciseTheme | ExerciseTheme[];
   sourceFilter?: ExerciseFilterSource | ExerciseFilterSource[] | null;
   filterByPlayerCount?: boolean;
   searchQuery?: string;

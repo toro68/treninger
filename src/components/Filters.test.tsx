@@ -276,14 +276,14 @@ describe("Filters", () => {
     renderFilters({ activeThemes: ["rondo"] });
 
     expect(screen.getByText("Alle (3)")).toBeInTheDocument();
-    expect(screen.getByText("Rondo (1)")).toBeInTheDocument();
+    expect(screen.getByText("Rondo (3)")).toBeInTheDocument();
     expect(screen.getByText("Pasning (3)")).toBeInTheDocument();
   });
 
   it("should make source counts reflect the next multi-select click", () => {
     renderFilters({ sourceFilter: ["tiim"] });
 
-    expect(screen.getByText(/tiim\.no \(1\)/i)).toBeInTheDocument();
+    expect(screen.getByText(/tiim\.no \(3\)/i)).toBeInTheDocument();
     expect(screen.getByText(/STAAL \(3\)/i)).toBeInTheDocument();
     expect(screen.queryByText(/DBU/i)).not.toBeInTheDocument();
   });

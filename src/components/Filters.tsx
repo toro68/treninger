@@ -4,6 +4,7 @@ import { SearchField } from "@/components/SearchField";
 import { getSectionPlayerCounts, useSessionStore } from "@/store/sessionStore";
 
 import {
+  type FacetFilterParams,
   getActiveFilterSummary,
   getAvailableSources,
   getAvailableThemes,
@@ -61,62 +62,43 @@ export const Filters = ({
       ? `${sectionPlayerCounts[0]} utespillere i seksjonen`
       : `${sectionPlayerCounts.join(" + ")} utespillere i seksjonen`;
 
-  const availableThemes = useMemo(
-    () =>
-      getAvailableThemes({
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        activeThemes,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      }),
-    [
+  const facetParams: FacetFilterParams = useMemo(
+    () => ({
       exerciseLibrary,
-      favoritesOnly,
-      favoriteIds,
       filterByPlayerCount,
-      activeThemes,
-      keeperCount,
       playerCount,
       playersPerStation,
-      searchQuery,
       sectionPlayerCounts,
+      keeperCount,
       sourceFilter,
+      activeThemes,
+      favoritesOnly,
+      favoriteIds,
+      searchQuery,
+    }),
+    [
+      exerciseLibrary,
+      filterByPlayerCount,
+      playerCount,
+      playersPerStation,
+      sectionPlayerCounts,
+      keeperCount,
+      sourceFilter,
+      activeThemes,
+      favoritesOnly,
+      favoriteIds,
+      searchQuery,
     ]
   );
 
+  const availableThemes = useMemo(
+    () => getAvailableThemes(facetParams),
+    [facetParams]
+  );
+
   const totalThemeCount = useMemo(
-    () =>
-      getThemeResetCount({
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      }),
-    [
-      exerciseLibrary,
-      favoritesOnly,
-      favoriteIds,
-      filterByPlayerCount,
-      keeperCount,
-      playerCount,
-      playersPerStation,
-      searchQuery,
-      sectionPlayerCounts,
-      sourceFilter,
-    ]
+    () => getThemeResetCount(facetParams),
+    [facetParams]
   );
 
   const favoriteCount = useMemo(
@@ -125,33 +107,8 @@ export const Filters = ({
   );
 
   const availableSources = useMemo(
-    () =>
-      getAvailableSources({
-        exerciseLibrary,
-        filterByPlayerCount,
-        playerCount,
-        playersPerStation,
-        sectionPlayerCounts,
-        keeperCount,
-        sourceFilter,
-        activeThemes,
-        favoritesOnly,
-        favoriteIds,
-        searchQuery,
-      }),
-    [
-      activeThemes,
-      exerciseLibrary,
-      favoritesOnly,
-      favoriteIds,
-      filterByPlayerCount,
-      keeperCount,
-      playerCount,
-      playersPerStation,
-      searchQuery,
-      sectionPlayerCounts,
-      sourceFilter,
-    ]
+    () => getAvailableSources(facetParams),
+    [facetParams]
   );
 
   const visibleSources = showAllSources ? availableSources : availableSources.slice(0, MAX_VISIBLE_SOURCES);

@@ -2,6 +2,7 @@ import {
   type Exercise,
   type ExerciseData,
   type ExerciseSource,
+  type ExerciseTheme,
   getExerciseCode,
   isTiimSituationalExercise,
 } from "@/data/exercises";
@@ -16,6 +17,8 @@ const compactSearchText = (value: string) =>
   normalizeSearchText(value)
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/æ/g, "ae")
+    .replace(/ø/g, "o")
     .replace(/[^a-z0-9]/g, "");
 
 export const matchesExerciseSearchQuery = (exercise: Exercise, searchQuery?: string) => {
@@ -72,7 +75,7 @@ export const matchesSourceFilter = (
   return sourceFilter.some((filter) => exerciseSources.includes(filter));
 };
 
-export const matchesThemeFilter = (exercise: Pick<ExerciseData, "theme">, activeThemes: string[]) =>
+export const matchesThemeFilter = (exercise: Pick<Exercise, "theme">, activeThemes: ExerciseTheme[]) =>
   activeThemes.length === 0 || activeThemes.includes(exercise.theme);
 
 export const matchesFavoriteFilter = (
@@ -88,7 +91,7 @@ export type ExerciseFilterMatchOptions = {
   sectionPlayerCounts?: number[];
   keeperCount: number;
   sourceFilter: ExerciseFilterSource[];
-  activeThemes: string[];
+  activeThemes: ExerciseTheme[];
   favoritesOnly: boolean;
   favoriteIds: Set<string>;
   searchQuery: string;
