@@ -162,11 +162,11 @@ export const Filters = ({
       {activeFilterSummary.length > 0 && (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 px-3 py-3">
           <div className="flex items-center justify-between gap-3">
-            <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Aktive filtre</p>
+            <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">Aktive filtre</p>
             <button
               type="button"
               onClick={resetAllFilters}
-              className="text-xs text-zinc-500 underline-offset-2 hover:underline"
+              className="text-xs text-zinc-600 underline-offset-2 hover:underline"
             >
               Nullstill alle
             </button>
@@ -189,12 +189,12 @@ export const Filters = ({
 
       <div className="space-y-2">
         <div className="flex items-center justify-between gap-3">
-          <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Kilder</p>
+          <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">Kilder</p>
           {availableSources.length > MAX_VISIBLE_SOURCES && (
             <button
               type="button"
               onClick={() => setShowAllSources((prev) => !prev)}
-              className="text-xs text-zinc-500 underline-offset-2 hover:underline"
+              className="text-xs text-zinc-600 underline-offset-2 hover:underline"
             >
               {showAllSources ? "Vis færre" : `Vis alle (${availableSources.length})`}
             </button>
@@ -215,8 +215,8 @@ export const Filters = ({
                       : [...sourceFilter, key as SourceFilterValue]
                   )
                 }
-                className={`flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:text-sm ${
-                  isActive ? activeClass : "border-zinc-200 bg-white text-zinc-500 hover:border-zinc-400"
+                className={`flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:py-1.5 sm:text-sm ${
+                  isActive ? activeClass : "border-zinc-300 bg-white text-zinc-700 hover:border-zinc-400"
                 }`}
               >
                 <span className={`inline-block h-2 w-2 rounded-full ${isActive ? dotClass : "bg-zinc-300"}`} />
@@ -228,7 +228,7 @@ export const Filters = ({
             <button
               type="button"
               onClick={() => onSourceFilterChange([])}
-              className="ml-1 rounded-full border border-zinc-300 bg-zinc-100 px-3 py-1.5 text-xs font-medium text-zinc-600 transition hover:bg-zinc-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
+              className="ml-1 text-xs text-zinc-500 underline-offset-2 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
             >
               Nullstill kilder
             </button>
@@ -241,10 +241,10 @@ export const Filters = ({
           type="button"
           aria-pressed={favoritesOnly}
           onClick={() => onFavoritesOnlyChange(!favoritesOnly)}
-          className={`flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:text-sm ${
+          className={`flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:py-1.5 sm:text-sm ${
             favoritesOnly
               ? "border-amber-500 bg-amber-50 text-amber-800 shadow-sm"
-              : "border-zinc-200 bg-white text-zinc-500 hover:border-zinc-400"
+              : "border-zinc-300 bg-white text-zinc-700 hover:border-zinc-400"
           }`}
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
@@ -256,10 +256,10 @@ export const Filters = ({
           type="button"
           aria-pressed={filterByPlayerCount}
           onClick={() => onFilterByPlayerCountChange(!filterByPlayerCount)}
-          className={`flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:text-sm ${
+          className={`flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-medium transition active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 sm:py-1.5 sm:text-sm ${
             filterByPlayerCount
               ? "border-black bg-black text-white shadow-sm"
-              : "border-zinc-200 bg-white text-zinc-500 hover:border-zinc-400"
+              : "border-zinc-300 bg-white text-zinc-700 hover:border-zinc-400"
           }`}
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
@@ -268,7 +268,7 @@ export const Filters = ({
           Filtrer på spillertall
         </button>
         {filterByPlayerCount && (
-          <span className="text-xs text-zinc-500">
+          <span className="text-xs text-zinc-600">
             {planningSectionMode === "stations"
               ? `(${outfieldPlayerCount} utespillere fordeles som ${sectionPlayerCounts.join(" + ")}${keeperCount > 0 ? `, + ${keeperCount} keepere` : ""})`
               : `(${outfieldPlayerCount} utespillere i én felles øvelse${keeperCount > 0 ? `, + ${keeperCount} keepere` : ""})`}
@@ -278,12 +278,12 @@ export const Filters = ({
 
       <div className="space-y-2">
         <div className="flex items-center justify-between gap-3">
-          <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Tema</p>
+          <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">Tema</p>
           {availableThemes.length > MAX_VISIBLE_THEMES && (
             <button
               type="button"
               onClick={() => setShowAllThemes((prev) => !prev)}
-              className="text-xs text-zinc-500 underline-offset-2 hover:underline"
+              className="text-xs text-zinc-600 underline-offset-2 hover:underline"
             >
               {showAllThemes ? "Vis færre" : `Vis alle (${availableThemes.length})`}
             </button>

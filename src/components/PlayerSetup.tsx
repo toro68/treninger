@@ -80,6 +80,7 @@ export const PlayerSetup = () => {
                 max={maxOutfieldPlayerCount}
                 value={outfieldPlayerCount}
                 onChange={handlePlayerChange}
+                onWheel={(event) => event.currentTarget.blur()}
                 className="min-w-0 flex-1 rounded-xl border border-zinc-200 px-3 py-2 text-center text-lg font-semibold text-zinc-900 focus:border-black focus:outline-none"
               />
               <button
@@ -111,6 +112,7 @@ export const PlayerSetup = () => {
                 max={Math.max(0, playerCount - 1)}
                 value={keeperCount}
                 onChange={handleKeeperChange}
+                onWheel={(event) => event.currentTarget.blur()}
                 className="min-w-0 flex-1 rounded-xl border border-zinc-200 px-3 py-2 text-center text-lg font-semibold text-zinc-900 focus:border-black focus:outline-none"
               />
               <button
@@ -129,12 +131,6 @@ export const PlayerSetup = () => {
       <div className="mt-4 rounded-xl border border-emerald-100 bg-emerald-50 px-4 py-3">
         <p className="text-sm text-emerald-900">
           {playerCount} totalt = {outfieldPlayerCount} utespillere + {keeperCount} keeper{keeperCount === 1 ? "" : "e"}.
-        </p>
-      </div>
-
-      <div className="mt-4 rounded-xl bg-sky-50 border border-sky-100 px-4 py-3">
-        <p className="text-sm text-sky-800">
-          Velg hvordan spillerne deles opp for hver seksjon inne i øktplanen: én øvelse for alle, eller 2–4 stasjoner.
         </p>
       </div>
 
@@ -187,7 +183,8 @@ export const PlayerSetup = () => {
           <button
             type="button"
             onClick={handleCoachSubmit}
-            className="rounded-xl border border-zinc-900 bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700"
+            disabled={!coachInput.trim()}
+            className="rounded-xl border border-zinc-900 bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:cursor-not-allowed disabled:border-zinc-300 disabled:bg-zinc-300"
           >
             Legg til
           </button>

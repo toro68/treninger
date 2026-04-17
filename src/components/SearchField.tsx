@@ -45,7 +45,7 @@ export const SearchField = () => {
         ref={inputRef}
         type="search"
         aria-label="Søk i øvelsesbiblioteket (trykk / for å fokusere)"
-        placeholder="Søk etter øvelse, kode, tema, utstyr, tagg eller kilde"
+        placeholder="Søk øvelser, koder, tema…"
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
         onKeyDown={(event) => {

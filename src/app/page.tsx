@@ -196,14 +196,12 @@ export default function Home() {
     themeFilter.length > 0 ||
     sourceFilter.length > 0 ||
     favoritesOnly ||
-    filterByPlayerCount ||
     searchQuery.length > 0;
 
   const resetAllFilters = () => {
     setThemeFilter([]);
     setSourceFilter([]);
     setFavoritesOnly(false);
-    setFilterByPlayerCount(false);
     setSearchQuery("");
   };
 
@@ -211,7 +209,7 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
 
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-10">
+      <main id="main" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-10">
         <div className="grid gap-6 xl:grid-cols-3 xl:gap-8">
           <div className="space-y-4 xl:col-span-2 xl:space-y-6">
             <PlayerSetup />
@@ -254,7 +252,7 @@ export default function Home() {
                       <button
                         type="button"
                         onClick={resetAllFilters}
-                        className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-zinc-300 bg-white px-4 py-1.5 text-xs font-medium text-zinc-700 transition hover:border-zinc-400 hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
+                        className="mt-3 text-xs text-zinc-600 underline-offset-2 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
                       >
                         Nullstill alle filtre
                       </button>
@@ -265,7 +263,7 @@ export default function Home() {
             </section>
           </div>
 
-          <div className="space-y-6 xl:col-span-1">
+          <div className="space-y-6 xl:col-span-1 xl:sticky xl:top-28 xl:self-start">
             <SessionTimeline />
             <EquipmentList />
           </div>
@@ -322,7 +320,7 @@ export default function Home() {
           </div>
           )}
         </section>
-      </div>
+      </main>
     </div>
   );
 }

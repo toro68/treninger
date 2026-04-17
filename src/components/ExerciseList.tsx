@@ -1,5 +1,5 @@
 import { ExerciseCard } from "./ExerciseCard";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Exercise, ExerciseCategory } from "@/data/exercises";
 
 interface ExerciseListProps {
@@ -15,6 +15,13 @@ export const ExerciseList = ({
 }: ExerciseListProps) => {
   const [open, setOpen] = useState(true);
   const [visibleCount, setVisibleCount] = useState(24);
+  const exerciseCount = exercises.length;
+
+  useEffect(() => {
+    if (exerciseCount < visibleCount) {
+      setVisibleCount(Math.max(24, Math.min(exerciseCount, 24)));
+    }
+  }, [exerciseCount, visibleCount]);
   const sectionAccent = useMemo(() => {
     const styles: Record<NonNullable<ExerciseListProps["category"]> | "default", string> = {
       warmup: "border-amber-200/70 bg-gradient-to-r from-amber-50 to-orange-50 text-amber-950 shadow-sm",
@@ -28,7 +35,6 @@ export const ExerciseList = ({
     };
     return styles[category ?? "default"];
   }, [category]);
-  const exerciseCount = exercises.length;
   const exercisesToRender = open ? exercises.slice(0, visibleCount) : [];
 
   return (
@@ -47,7 +53,7 @@ export const ExerciseList = ({
       >
         <div className="flex flex-col gap-0.5">
           <span>{title}</span>
-          <span className="text-xs font-normal text-zinc-500/80">
+          <span className="text-xs font-normal text-zinc-600">
             {exerciseCount > 0 ? `${exerciseCount} øvelse${exerciseCount === 1 ? "" : "r"}` : "Ingen øvelser"}
           </span>
         </div>
@@ -71,7 +77,7 @@ export const ExerciseList = ({
             </button>
           )}
           {exercises.length === 0 && (
-            <p className="text-sm text-zinc-500">
+            <p className="text-sm text-zinc-600">
               Ingen øvelser i denne kategorien.
             </p>
           )}

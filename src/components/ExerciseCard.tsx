@@ -208,20 +208,34 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
     return null;
   }, [showDetails, sanitizedSvg, exercise.id, exercise.imageUrl, visibleExerciseName]);
 
+  const handleCardClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (disabled) return;
+    const target = event.target as HTMLElement;
+    if (target.closest("button, a, input, label")) return;
+    toggleExercise(exercise.id);
+  };
+
+  const checkboxId = `exercise-toggle-${exercise.id}`;
+
   return (
-    <label
+    <div
+      role="group"
+      aria-labelledby={`${checkboxId}-label`}
+      onClick={handleCardClick}
       style={{ contentVisibility: "auto", containIntrinsicSize: "260px" }}
-      className={`group flex cursor-pointer items-start gap-3 rounded-xl border p-3 sm:p-4 transition-all duration-200 hover:shadow-md ${
+      className={`group flex items-start gap-3 rounded-xl border p-3 sm:p-4 transition-all duration-200 hover:shadow-md ${
         selected
           ? "border-black bg-zinc-50 ring-1 ring-black/5"
           : "border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50/50"
-      } ${disabled ? "cursor-not-allowed bg-zinc-100 opacity-75" : ""}`}
+      } ${disabled ? "cursor-not-allowed bg-zinc-100 opacity-75" : "cursor-pointer"}`}
     >
       <input
+        id={checkboxId}
         type="checkbox"
         checked={selected}
         disabled={disabled}
         onChange={() => toggleExercise(exercise.id)}
+        aria-labelledby={`${checkboxId}-label`}
         className="mt-0.5 h-5 w-5 accent-black"
       />
       <div className="flex-1 min-w-0">
@@ -229,7 +243,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
           <span className="inline-flex items-center justify-center min-w-[28px] h-6 px-1 rounded bg-zinc-100 text-xs font-medium text-zinc-500 shrink-0">
             {getExerciseCode(exercise)}
           </span>
-          <p className="font-medium text-zinc-900 flex-1">{visibleExerciseName}</p>
+          <p id={`${checkboxId}-label`} className="font-medium text-zinc-900 flex-1">{visibleExerciseName}</p>
           {exercise.alwaysIncluded && (
             <span className="rounded-full bg-zinc-200 px-2 py-0.5 text-xs text-zinc-600">
               Fast
@@ -244,7 +258,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
             aria-pressed={isFavorite}
             aria-label={isFavorite ? `Fjern ${visibleExerciseName} fra favoritter` : `Legg ${visibleExerciseName} til favoritter`}
             className={`p-1 rounded-full transition hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 ${
-              isFavorite ? "text-amber-500" : "text-zinc-300 hover:text-amber-400"
+              isFavorite ? "text-amber-500" : "text-zinc-400 hover:text-amber-400"
             }`}
             title={isFavorite ? "Fjern fra favoritter" : "Legg til favoritter"}
           >
@@ -392,7 +406,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               </div>
             )}
       </div>
-    </label>
+    </div>
   );
 });
 
