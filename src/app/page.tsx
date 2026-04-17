@@ -110,6 +110,7 @@ export default function Home() {
   const [themeFilter, setThemeFilter] = useState<ThemeFilter>([]);
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [filterByPlayerCount, setFilterByPlayerCount] = useState(true);
+  const [showDiagrams, setShowDiagrams] = useState(false);
   const {
     highlightExerciseId,
     setHighlightExercise,
@@ -191,6 +192,21 @@ export default function Home() {
     [groupedExercises]
   );
 
+  const hasActiveFilters =
+    themeFilter.length > 0 ||
+    sourceFilter.length > 0 ||
+    favoritesOnly ||
+    filterByPlayerCount ||
+    searchQuery.length > 0;
+
+  const resetAllFilters = () => {
+    setThemeFilter([]);
+    setSourceFilter([]);
+    setFavoritesOnly(false);
+    setFilterByPlayerCount(false);
+    setSearchQuery("");
+  };
+
   return (
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
@@ -230,8 +246,19 @@ export default function Home() {
                     />
                   ))
                 ) : (
-                  <div className="rounded-2xl border border-dashed border-zinc-200 bg-zinc-50 px-4 py-8 text-center text-sm text-zinc-500">
-                    Ingen øvelser matcher filtrene for denne seksjonen.
+                  <div className="rounded-2xl border border-dashed border-zinc-200 bg-zinc-50 px-4 py-8 text-center">
+                    <p className="text-sm text-zinc-600">
+                      Ingen øvelser matcher filtrene for denne seksjonen.
+                    </p>
+                    {hasActiveFilters && (
+                      <button
+                        type="button"
+                        onClick={resetAllFilters}
+                        className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-zinc-300 bg-white px-4 py-1.5 text-xs font-medium text-zinc-700 transition hover:border-zinc-400 hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
+                      >
+                        Nullstill alle filtre
+                      </button>
+                    )}
                   </div>
                 )}
               </div>
@@ -245,10 +272,19 @@ export default function Home() {
         </div>
 
         <section className="mt-6 rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6 shadow-sm">
-          <div className="flex items-center justify-between">
+          <button
+            type="button"
+            aria-expanded={showDiagrams}
+            onClick={() => setShowDiagrams((prev) => !prev)}
+            className="flex w-full items-center justify-between rounded-xl text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1"
+          >
             <h2 className="text-lg font-semibold text-zinc-900">Diagrammer</h2>
-            <span className="text-xs text-zinc-500">Maler</span>
-          </div>
+            <span className="flex items-center gap-2 text-xs text-zinc-500">
+              <span>Maler</span>
+              <span className="text-lg leading-none text-zinc-700">{showDiagrams ? "−" : "+"}</span>
+            </span>
+          </button>
+          {showDiagrams && (
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             <SvgTemplateCard title="Innleggssoner (A–F)" fileName="innleggssoner-a-f.svg">
               <ScoringZonesDiagram className="max-h-[260px]" />
@@ -284,6 +320,7 @@ export default function Home() {
               <GreenSquareTemplateDiagram className="max-h-[260px]" />
             </SvgTemplateCard>
           </div>
+          )}
         </section>
       </div>
     </div>

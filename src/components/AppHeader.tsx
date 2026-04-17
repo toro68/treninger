@@ -42,9 +42,8 @@ export const AppHeader = () => {
               <Link
                 key={href}
                 href={href}
-                prefetch={false}
                 aria-current={isActive ? "page" : undefined}
-                className={`shrink-0 rounded-t-lg border-b-2 px-4 py-2 text-sm font-medium transition ${
+                className={`shrink-0 rounded-t-lg border-b-2 px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 ${
                   isActive
                     ? "border-black text-zinc-900"
                     : "border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700"

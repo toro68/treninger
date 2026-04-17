@@ -1,8 +1,7 @@
 import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
-import { allExercises, Exercise, ExerciseSource, type ExerciseTheme } from "@/data/exercises";
+import { allExercises, Exercise, type ExerciseTheme } from "@/data/exercises";
 import {
-  buildTimelineSections,
   getExplicitSectionNumber,
   getStationSectionInfoByNumber,
   isStationPlanningBlock,
@@ -11,17 +10,14 @@ import {
   retuneTrailingStationSectionCount,
 } from "./sessionSections";
 import {
-  getExerciseFitScore,
   getOutfieldPlayerCount,
   getSectionPlayerCounts,
   getWorstExerciseFitScore,
-  matchesExercisePlayerCountFilter,
   normalizeKeeperCount,
 } from "./sessionPlayerCounts";
-import { type ExerciseFilterSource, matchesExerciseFilters } from "./exerciseFilters";
-import { appendBlockForPlanningSection, getActivePlanningSection } from "./sessionPlanning";
+import { type ExerciseFilterSource, matchesExerciseFilters, toFilterArray } from "./exerciseFilters";
+import { appendBlockForPlanningSection } from "./sessionPlanning";
 import {
-  DEFAULT_COACH_NAMES,
   defaultCoachNames,
   hydratePlannedBlocks,
   hydrateSavedSessions,
@@ -29,7 +25,6 @@ import {
   isQuotaExceededError,
   isRecord,
   mergeCoachNames,
-  normalizeCoachNames,
   normalizeOptionalText,
   safeJsonParse,
   sanitizeExerciseIds,
@@ -1021,12 +1016,8 @@ export const filterAndGroupExercises = ({
   const sectionPlayerCounts = planningSectionMode
     ? getSectionPlayerCounts(playerCount, planningSectionMode, stationCount ?? 2, keeperCount)
     : undefined;
-  const activeThemes = Array.isArray(theme) ? theme : theme ? [theme] : [];
-  const activeSourceFilters = Array.isArray(sourceFilter)
-    ? sourceFilter
-    : sourceFilter
-      ? [sourceFilter]
-      : [];
+  const activeThemes = toFilterArray(theme);
+  const activeSourceFilters = toFilterArray(sourceFilter);
 
   const grouped: Record<string, Exercise[]> = {};
 

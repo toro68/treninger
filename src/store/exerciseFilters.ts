@@ -11,6 +11,9 @@ import { matchesExercisePlayerCountFilter } from "./sessionPlayerCounts";
 
 export type ExerciseFilterSource = Exclude<ExerciseSource, "egen"> | "tiim-situasjon";
 
+export const toFilterArray = <T>(value: T | T[] | null | undefined): T[] =>
+  Array.isArray(value) ? value : value != null ? [value] : [];
+
 const normalizeSearchText = (value: string) => value.trim().toLowerCase();
 
 const compactSearchText = (value: string) =>
@@ -96,8 +99,11 @@ export type ExerciseFilterMatchOptions = {
   favoriteIds: Set<string>;
   searchQuery: string;
   ignore?: {
+    playerCount?: boolean;
     source?: boolean;
     themes?: boolean;
+    favorites?: boolean;
+    search?: boolean;
   };
 };
 
@@ -118,6 +124,7 @@ export const matchesExerciseFilters = (
   }: ExerciseFilterMatchOptions
 ) => {
   if (
+    !ignore.playerCount &&
     filterByPlayerCount &&
     !matchesExercisePlayerCountFilter(
       exercise,
@@ -131,7 +138,7 @@ export const matchesExerciseFilters = (
   }
   if (!ignore.source && !matchesSourceFilter(exercise, sourceFilter)) return false;
   if (!ignore.themes && !matchesThemeFilter(exercise, activeThemes)) return false;
-  if (!matchesFavoriteFilter(exercise, favoritesOnly, favoriteIds)) return false;
-  if (!matchesExerciseSearchQuery(exercise, searchQuery)) return false;
+  if (!ignore.favorites && !matchesFavoriteFilter(exercise, favoritesOnly, favoriteIds)) return false;
+  if (!ignore.search && !matchesExerciseSearchQuery(exercise, searchQuery)) return false;
   return true;
 };

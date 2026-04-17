@@ -8,7 +8,7 @@ describe("SearchField", () => {
     render(<SearchField />);
 
     expect(
-      screen.getByRole("searchbox", { name: "Søk i øvelsesbiblioteket" })
+      screen.getByRole("searchbox", { name: /Søk i øvelsesbiblioteket/ })
     ).toBeInTheDocument();
   });
 });

@@ -127,6 +127,11 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
       ? `Legg til som stasjon ${displayedSelectedCount + 1} av ${displayedRequiredCount}`
       : `Legg til som øvelse for ${getOutfieldPlayerCount(playerCount, keeperCount)} utespillere`;
 
+  const addButtonShortLabel =
+    planningSectionMode === "stations"
+      ? `Legg til (S${displayedSelectedCount + 1}/${displayedRequiredCount})`
+      : "Legg til i øktplan";
+
   const sanitizedSvg = useMemo(() => {
     if (!showDetails) return null;
     if (!exercise.svgDiagram) return null;
@@ -236,7 +241,9 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
               event.preventDefault();
               toggleFavorite(exercise.id);
             }}
-            className={`p-1 rounded-full transition hover:scale-110 ${
+            aria-pressed={isFavorite}
+            aria-label={isFavorite ? `Fjern ${visibleExerciseName} fra favoritter` : `Legg ${visibleExerciseName} til favoritter`}
+            className={`p-1 rounded-full transition hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 ${
               isFavorite ? "text-amber-500" : "text-zinc-300 hover:text-amber-400"
             }`}
             title={isFavorite ? "Fjern fra favoritter" : "Legg til favoritter"}
@@ -282,13 +289,15 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
                 appendExerciseToPlan(exercise);
               }}
               disabled={selected}
-              className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${
+              aria-label={selected ? "Lagt til i øktplan" : addButtonLabel}
+              title={selected ? "Lagt til i øktplan" : addButtonLabel}
+              className={`rounded-full px-3 py-1.5 text-xs font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20 focus-visible:ring-offset-1 ${
                 selected
                   ? "border border-emerald-200 bg-emerald-50 text-emerald-800"
                   : "border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-700"
               }`}
             >
-              {selected ? "Lagt til i øktplan" : addButtonLabel}
+              {selected ? "Lagt til i øktplan" : addButtonShortLabel}
             </button>
           )}
           {hasExtraInfo && (

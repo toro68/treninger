@@ -6,6 +6,7 @@ import {
   matchesFavoriteFilter,
   matchesExerciseFilters,
   getExerciseFilterSources,
+  toFilterArray,
 } from "./exerciseFilters";
 import type { Exercise } from "@/data/exercises";
 
@@ -246,5 +247,82 @@ describe("matchesExerciseFilters", () => {
         searchQuery: "høyt",
       })
     ).toBe(false);
+  });
+
+  it("should skip player count filter when ignore.playerCount is true", () => {
+    const exercise = makeExercise({ playersMin: 20, playersMax: 30 });
+    expect(
+      matchesExerciseFilters(exercise, {
+        ...defaultFilterOptions,
+        filterByPlayerCount: true,
+        playerCount: 8,
+        ignore: { playerCount: true },
+      })
+    ).toBe(true);
+  });
+
+  it("should skip favorite filter when ignore.favorites is true", () => {
+    const exercise = makeExercise({ id: "ex-1" });
+    expect(
+      matchesExerciseFilters(exercise, {
+        ...defaultFilterOptions,
+        favoritesOnly: true,
+        favoriteIds: new Set(["ex-2"]),
+        ignore: { favorites: true },
+      })
+    ).toBe(true);
+  });
+
+  it("should skip search filter when ignore.search is true", () => {
+    const exercise = makeExercise({ name: "Rondo 4v2" });
+    expect(
+      matchesExerciseFilters(exercise, {
+        ...defaultFilterOptions,
+        searchQuery: "pressing",
+        ignore: { search: true },
+      })
+    ).toBe(true);
+  });
+});
+
+describe("toFilterArray", () => {
+  it("should return empty array for null/undefined", () => {
+    expect(toFilterArray(null)).toEqual([]);
+    expect(toFilterArray(undefined)).toEqual([]);
+  });
+
+  it("should wrap single value in array", () => {
+    expect(toFilterArray("dbu")).toEqual(["dbu"]);
+  });
+
+  it("should pass arrays through unchanged", () => {
+    expect(toFilterArray(["dbu", "tiim"])).toEqual(["dbu", "tiim"]);
+    expect(toFilterArray<string>([])).toEqual([]);
+  });
+});
+
+describe("matchesExerciseSearchQuery field coverage", () => {
+  // Guard: sikrer at alle relevante string-felter er inkludert i søk.
+  // Hvis et nytt felt legges til, oppdater matchesExerciseSearchQuery OG denne testen.
+  const SEARCHABLE_FIELDS: Array<{
+    field: keyof Exercise;
+    build: (token: string) => Partial<Exercise>;
+  }> = [
+    { field: "name", build: (t) => ({ name: `Base ${t}` }) },
+    { field: "displayName", build: (t) => ({ displayName: `Base ${t}` }) },
+    { field: "description", build: (t) => ({ description: `Tekst ${t}` }) },
+    { field: "theme", build: (t) => ({ theme: t as Exercise["theme"] }) },
+    { field: "tags", build: (t) => ({ tags: [t] }) },
+    { field: "equipment", build: (t) => ({ equipment: [t] }) },
+    { field: "coachingPoints", build: (t) => ({ coachingPoints: [t] }) },
+    { field: "variations", build: (t) => ({ variations: [t] }) },
+    { field: "source", build: (t) => ({ source: t as Exercise["source"] }) },
+    { field: "sourceRef", build: (t) => ({ sourceRef: t }) },
+  ];
+
+  it.each(SEARCHABLE_FIELDS)("should match on $field", ({ field, build }) => {
+    const token = `unik${String(field)}token`;
+    const exercise = makeExercise(build(token));
+    expect(matchesExerciseSearchQuery(exercise, token)).toBe(true);
   });
 });
