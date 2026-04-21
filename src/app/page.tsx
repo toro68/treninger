@@ -263,7 +263,7 @@ export default function Home() {
             </section>
           </div>
 
-          <div className="space-y-6 xl:col-span-1 xl:sticky xl:top-28 xl:self-start">
+          <div className="space-y-6 xl:col-span-1 xl:sticky xl:top-28 xl:self-start xl:max-h-[calc(100vh-8rem)] xl:overflow-y-auto xl:pr-1">
             <SessionTimeline />
             <EquipmentList />
           </div>
