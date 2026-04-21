@@ -81,9 +81,7 @@ export const SessionTimelineBlockRow = ({
   return (
     <div
       role="group"
-      draggable
       aria-label={`${block.exercise.name} blokk`}
-      onDragStart={() => onDragStart(globalIndex)}
       onDragOver={onDragOver}
       onDrop={() => onDrop(globalIndex)}
       className={`rounded-lg border bg-zinc-50 px-3 py-2 transition ${
@@ -325,6 +323,16 @@ export const SessionTimelineBlockRow = ({
         </div>
 
         <div className="shrink-0 self-start flex items-center gap-1.5">
+          <button
+            type="button"
+            draggable
+            onDragStart={() => onDragStart(globalIndex)}
+            className="cursor-grab rounded border border-zinc-200 bg-white px-2 py-1 text-xs text-zinc-500 transition hover:border-zinc-400 active:cursor-grabbing"
+            title="Dra for å flytte øvelsen"
+            aria-label={`Dra ${block.exercise.name}`}
+          >
+            ::
+          </button>
           <input
             type="number"
             draggable={false}

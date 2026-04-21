@@ -414,6 +414,20 @@ describe("SessionTimeline sharing", () => {
     expect(commentField).toHaveAttribute("draggable", "false");
   });
 
+  it("uses a dedicated drag handle so the block itself stays scrollable", async () => {
+    render(<SessionTimeline />);
+
+    const mainExerciseName = useSessionStore.getState().plannedBlocks?.[0]?.exercise.name;
+    expect(mainExerciseName).toBeDefined();
+
+    const mainBlock = await screen.findByRole("group", {
+      name: `${mainExerciseName} blokk`,
+    });
+
+    expect(mainBlock).not.toHaveAttribute("draggable");
+    expect(within(mainBlock).getByRole("button", { name: `Dra ${mainExerciseName}` })).toHaveAttribute("draggable", "true");
+  });
+
   it("includes coach assignments in the shared full session link", async () => {
     const writeText = vi.fn().mockResolvedValue(undefined);
 
