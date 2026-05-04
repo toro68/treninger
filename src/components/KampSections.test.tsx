@@ -39,5 +39,8 @@ describe("kampseksjoner", () => {
     expect(
       screen.getByText(/Ønsker du ikke pasning på yttersiden\/kanten\?/i)
     ).toBeInTheDocument();
+    expect(screen.getByText("Kompakthet")).toBeInTheDocument();
+    expect(screen.getByText(/Kort og smalt for å krympe motstanderens tid og rom/i)).toBeInTheDocument();
+    expect(screen.getByText("Keeperens rolle")).toBeInTheDocument();
   });
 });

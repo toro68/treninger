@@ -63,8 +63,8 @@ export const PlayerSetup = () => {
       
       <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-4">
         <div>
-          <label className="flex flex-col gap-2">
-            <span className="text-sm text-zinc-600">Antall utespillere</span>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="outfield-player-count" className="text-sm text-zinc-600">Antall utespillere</label>
             <div className="flex items-center gap-2">
               <button
                 type="button"
@@ -75,6 +75,7 @@ export const PlayerSetup = () => {
                 −
               </button>
               <input
+                id="outfield-player-count"
                 type="number"
                 min={minOutfieldPlayerCount}
                 max={maxOutfieldPlayerCount}
@@ -92,11 +93,11 @@ export const PlayerSetup = () => {
                 +
               </button>
             </div>
-          </label>
+          </div>
         </div>
         <div>
-          <label className="flex flex-col gap-2">
-            <span className="text-sm text-zinc-600">Antall keepere</span>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="keeper-count" className="text-sm text-zinc-600">Antall keepere</label>
             <div className="flex items-center gap-2">
               <button
                 type="button"
@@ -107,6 +108,7 @@ export const PlayerSetup = () => {
                 −
               </button>
               <input
+                id="keeper-count"
                 type="number"
                 min={0}
                 max={Math.max(0, playerCount - 1)}
@@ -124,7 +126,7 @@ export const PlayerSetup = () => {
                 +
               </button>
             </div>
-          </label>
+          </div>
         </div>
       </div>
 

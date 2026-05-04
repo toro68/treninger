@@ -17,6 +17,7 @@ import {
 } from "./sessionPlayerCounts";
 import { type ExerciseFilterSource, matchesExerciseFilters, toFilterArray } from "./exerciseFilters";
 import { appendBlockForPlanningSection } from "./sessionPlanning";
+import { createPrefixedId } from "@/utils/createId";
 import {
   defaultCoachNames,
   hydratePlannedBlocks,
@@ -26,6 +27,8 @@ import {
   isRecord,
   mergeCoachNames,
   normalizeOptionalText,
+  normalizePersistedPlayerCount,
+  normalizePersistedStationCount,
   safeJsonParse,
   sanitizeExerciseIds,
   sanitizePersistedCustomExercises,
@@ -44,6 +47,11 @@ export {
   matchesExercisePlayerCountFilter,
 } from "./sessionPlayerCounts";
 export { matchesExerciseSearchQuery } from "./exerciseFilters";
+
+const getBrowserLocalStorage = () => {
+  if (typeof window === "undefined") return null;
+  return window.localStorage;
+};
 
 export type DurationUnit = "min" | "reps";
 export type PlanningSectionMode = "single" | "stations";
@@ -661,7 +669,7 @@ export const useSessionStore = create<SessionState>()(
         );
 
         const savedSession = toSavedSession({
-          id: existing?.id ?? `saved-${Date.now()}`,
+          id: existing?.id ?? createPrefixedId("saved"),
           name: trimmedName,
           sessionTitle: state.sessionTitle,
           sessionComment: state.sessionComment,
@@ -753,7 +761,9 @@ export const useSessionStore = create<SessionState>()(
       }),
       storage: {
         getItem: (name): PersistedSessionStorageValue | null => {
-          const str = localStorage.getItem(name);
+          const storage = getBrowserLocalStorage();
+          if (!storage) return null;
+          const str = storage.getItem(name);
           if (!str) return null;
           const parsed = safeJsonParse(str);
           if (!isRecord(parsed)) return null;
@@ -776,18 +786,16 @@ export const useSessionStore = create<SessionState>()(
             coachNames
           );
 
-          const playerCount =
-            typeof parsedState.playerCount === "number" ? parsedState.playerCount : 12;
+          const playerCount = normalizePersistedPlayerCount(parsedState.playerCount);
           const keeperCount =
             typeof parsedState.keeperCount === "number"
               ? normalizeKeeperCount(playerCount, parsedState.keeperCount)
               : 0;
-          const stationCount =
-            typeof parsedState.stationCount === "number" ? parsedState.stationCount : 2;
-          const nextSectionStationCount =
-            typeof parsedState.nextSectionStationCount === "number"
-              ? Math.max(2, Math.min(4, parsedState.nextSectionStationCount))
-              : stationCount;
+          const stationCount = normalizePersistedStationCount(parsedState.stationCount);
+          const nextSectionStationCount = normalizePersistedStationCount(
+            parsedState.nextSectionStationCount,
+            stationCount
+          );
           const persistedPlanningSectionMode =
             parsedState.planningSectionMode === "stations" ? "stations" : "single";
           const planningSectionMode = hydratedPlannedBlocks?.some((block) => isStationPlanningBlock(block))
@@ -882,7 +890,7 @@ export const useSessionStore = create<SessionState>()(
             ...(typeof value.version === "number" ? { version: value.version } : {}),
           };
           try {
-            localStorage.setItem(name, JSON.stringify(toStore));
+            getBrowserLocalStorage()?.setItem(name, JSON.stringify(toStore));
           } catch (error) {
             if (isQuotaExceededError(error)) {
               console.warn(
@@ -894,7 +902,7 @@ export const useSessionStore = create<SessionState>()(
             }
           }
         },
-        removeItem: (name) => localStorage.removeItem(name),
+        removeItem: (name) => getBrowserLocalStorage()?.removeItem(name),
       } satisfies PersistStorage<PersistedSessionState>,
     }
   )

@@ -450,6 +450,25 @@ describe("sessionStore", () => {
       expect(activeSection.requiredCount).toBe(3);
       expect(activeSection.playerCounts).toEqual([5, 5, 6]);
     });
+
+    it("should treat a legacy one-block station section without metadata as incomplete", () => {
+      const state = useSessionStore.getState();
+      const exercise = state.exerciseLibrary.find((item) => item.category === "station");
+
+      expect(exercise).toBeDefined();
+
+      const activeSection = getActivePlanningSection({
+        sessionBlocks: [{ id: exercise!.id, exercise: exercise!, planningMode: "station" }],
+        playerCount: 16,
+        planningSectionMode: "stations",
+        stationCount: 3,
+      });
+
+      expect(activeSection.sectionNumber).toBe(1);
+      expect(activeSection.selectedCount).toBe(1);
+      expect(activeSection.requiredCount).toBe(2);
+      expect(activeSection.isComplete).toBe(false);
+    });
   });
 
   describe("toggleFavorite", () => {
@@ -654,6 +673,28 @@ describe("sessionStore", () => {
   });
 
   describe("savedSessions", () => {
+    it("should generate saved session ids with crypto when available", () => {
+      vi.stubGlobal("crypto", { randomUUID: () => "saved-uuid" });
+      try {
+        const state = useSessionStore.getState();
+        const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
+
+        expect(exercise).toBeDefined();
+
+        useSessionStore.setState({
+          selectedExerciseIds: new Set([exercise!.id]),
+          plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
+        });
+
+        const result = useSessionStore.getState().saveCurrentSession("ID-test");
+
+        expect(result.ok).toBe(true);
+        expect(result.id).toBe("saved-saved-uuid");
+      } finally {
+        vi.unstubAllGlobals();
+      }
+    });
+
     it("should save the current session with a name", () => {
       const state = useSessionStore.getState();
       const exercise = state.exerciseLibrary.find((item) => item.category !== "fixed-warmup");
@@ -944,9 +985,37 @@ describe("sessionStore", () => {
       expect([...useSessionStore.getState().favoriteIds]).toEqual([exercises[0]!.id]);
     });
 
+    it("should clamp persisted player and station counts when rehydrating", async () => {
+      window.localStorage.setItem(
+        "treninger-session",
+        JSON.stringify({
+          state: {
+            playerCount: 12.8,
+            keeperCount: 99,
+            stationCount: 7.9,
+            nextSectionStationCount: 1.2,
+            selectedExerciseIds: [],
+            favoriteIds: [],
+            plannedBlocks: null,
+            savedSessions: [],
+            searchQuery: "",
+            customExercises: [],
+            exerciseOverrides: {},
+          },
+        })
+      );
+
+      await useSessionStore.persist.rehydrate();
+
+      expect(useSessionStore.getState().playerCount).toBe(12);
+      expect(useSessionStore.getState().keeperCount).toBe(11);
+      expect(useSessionStore.getState().stationCount).toBe(4);
+      expect(useSessionStore.getState().nextSectionStationCount).toBe(2);
+    });
+
     it("should sanitize persisted custom exercises and overrides before rebuilding the library", async () => {
       const state = useSessionStore.getState();
-      const exercise = state.exerciseLibrary.find((item) => item.category === "game");
+      const exercise = state.exerciseLibrary.find((item) => item.category === "game" && !item.imageUrl);
 
       expect(exercise).toBeDefined();
 
@@ -990,6 +1059,7 @@ describe("sessionStore", () => {
                 description: "  Egen beskrivelse  ",
                 coachingPoints: ["  Vend opp tidlig  "],
                 variations: ["  To touch  "],
+                imageUrl: " https://tracker.example.invalid/pixel.png ",
                 source: "egen",
               },
               {
@@ -1013,6 +1083,7 @@ describe("sessionStore", () => {
                 playersMin: 14,
                 playersMax: 10,
                 equipment: [" baller ", ""],
+                imageUrl: "//tracker.example.invalid/pixel.png",
               },
               ghost: {
                 name: "Skal bort",
@@ -1037,6 +1108,7 @@ describe("sessionStore", () => {
       expect(customExercise?.equipment).toEqual(["baller"]);
       expect(customExercise?.coachingPoints).toEqual(["Vend opp tidlig"]);
       expect(customExercise?.variations).toEqual(["To touch"]);
+      expect(customExercise?.imageUrl).toBeUndefined();
       expect(useSessionStore.getState().customExercises.some((item) => item.id === exercise!.id)).toBe(false);
       expect(useSessionStore.getState().customExercises.some((item) => item.id === "custom-bad")).toBe(false);
       expect(useSessionStore.getState().exerciseOverrides.ghost).toBeUndefined();
@@ -1045,6 +1117,7 @@ describe("sessionStore", () => {
       expect(overriddenExercise?.playersMin).toBe(10);
       expect(overriddenExercise?.playersMax).toBe(14);
       expect(overriddenExercise?.equipment).toEqual(["baller"]);
+      expect(overriddenExercise?.imageUrl).toBeUndefined();
       expect(useSessionStore.getState().plannedBlocks?.[0].exercise.id).toBe("custom-sanitized");
     });
 
@@ -1805,6 +1878,35 @@ describe("sessionStore", () => {
       });
 
       expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-with-keepers"]);
+    });
+
+    it("should use total player count for exercises that mention Norwegian keeper terms", () => {
+      const library: Exercise[] = [
+        {
+          id: "game-with-malvakter",
+          exerciseNumber: 1,
+          name: "6v6 med målvakter",
+          category: "game",
+          duration: 15,
+          playersMin: 14,
+          playersMax: 14,
+          theme: "spill",
+          equipment: ["2 MV"],
+          description: "Spill mot store mål med målvakt i begge ender.",
+          coachingPoints: [],
+          variations: [],
+        },
+      ];
+
+      const grouped = filterAndGroupExercises({
+        exerciseLibrary: library,
+        playerCount: 14,
+        keeperCount: 2,
+        categories: new Set<string>(["game"]),
+        filterByPlayerCount: true,
+      });
+
+      expect(grouped.game?.map((ex) => ex.id)).toEqual(["game-with-malvakter"]);
     });
 
     it("should support 21 players split into 7 + 7 + 7", () => {

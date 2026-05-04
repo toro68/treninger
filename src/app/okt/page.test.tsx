@@ -6,7 +6,10 @@ import { allExercises } from "@/data/exercises";
 import SharedSessionPage from "./page";
 
 vi.mock("next/image", () => ({
-  default: (props: React.ImgHTMLAttributes<HTMLImageElement>) => <img {...props} />,
+  default: (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img alt={props.alt ?? ""} {...props} />;
+  },
 }));
 
 const mockedUseSearchParams = vi.fn();

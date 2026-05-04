@@ -53,7 +53,6 @@ export const SessionTimelineShareMenu = ({
       <button
         type="button"
         aria-expanded={showShareOptions}
-        aria-haspopup="menu"
         aria-controls={showShareOptions ? menuId : undefined}
         onClick={onToggle}
         className="rounded-full border border-zinc-200 px-3 py-1 text-xs text-zinc-600 transition hover:border-zinc-400 active:bg-zinc-100"
@@ -63,14 +62,13 @@ export const SessionTimelineShareMenu = ({
       {showShareOptions && (
       <div
         id={menuId}
-        role="menu"
+        role="group"
         aria-label="Del økt"
         className="absolute right-0 top-full mt-1 z-20 min-w-[160px] rounded-lg border border-zinc-200 bg-white py-1 shadow-lg"
       >
         <div className="px-3 py-1.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400">Kompakt i planlegger</div>
         <button
           type="button"
-          role="menuitem"
           onClick={onCopyCompact}
           className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
         >
@@ -84,7 +82,6 @@ export const SessionTimelineShareMenu = ({
         <div className="px-3 py-1.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400">Fullversjon</div>
         <button
           type="button"
-          role="menuitem"
           onClick={onCopyLink}
           className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
         >
@@ -98,7 +95,6 @@ export const SessionTimelineShareMenu = ({
             href={fullSessionShareUrl}
             target="_blank"
             rel="noopener noreferrer"
-            role="menuitem"
             onClick={onClose}
             className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
           >
@@ -112,7 +108,6 @@ export const SessionTimelineShareMenu = ({
         <div className="px-3 py-1.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400">Eksporter</div>
         <button
           type="button"
-          role="menuitem"
           onClick={onPrint}
           className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs text-zinc-700 hover:bg-zinc-50"
         >

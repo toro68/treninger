@@ -11,11 +11,11 @@ export default function OpplaeringPage() {
       <AppHeader />
 
       {/* Main content */}
-      <main className="mx-auto max-w-3xl px-4 py-6 space-y-6">
+      <main id="main" className="mx-auto max-w-3xl px-4 py-6 space-y-6">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-zinc-900 mb-2">
+          <h1 className="text-2xl font-bold text-zinc-900 mb-2">
             Metodisk progresjon
-          </h2>
+          </h1>
           <p className="text-zinc-600 max-w-xl mx-auto">
             Lær spillmodellen steg for steg. Hvert tema bygger på det forrige - 
             start med grunnleggende forståelse før du går videre.

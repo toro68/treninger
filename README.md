@@ -9,15 +9,14 @@ npm install
 npm run dev
 ```
 
-Åpne <http://localhost:3000> for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
+Åpne <http://localhost:4000> for treningssiden. `/kamp` viser kampforberedelser og taktikk, `/ordliste` beskriver begreper.
 
 ### Kjør kommandoer
 
 Før du åpner PR eller deler bygget, kjør alltid:
 
 ```bash
-npm run lint   # ESLint med Next.js-config
-npm run build  # Prod-bundle for verifisering
+npm run prod:sjekk  # lint uten scripts, prod-build og Vitest
 ```
 
 ## Nøkkelfunksjoner
@@ -35,6 +34,9 @@ npm run build  # Prod-bundle for verifisering
 | `npm run build` | Prod-bundle |
 | `npm run start` | Server prod-bundle |
 | `npm run lint` | ESLint med Next.js config |
+| `npm run lint:safe` | ESLint uten ignored-file støy fra scripts |
+| `npm test` | Vitest |
+| `npm run prod:sjekk` | Full verifisering før deling |
 
 ## Struktur
 
@@ -54,7 +56,7 @@ src/
 
 ## Videre arbeid
 
-- Legg til tester for filterlogikk og highlight-flow.
+- Hold tester for filtrering, hydrering og deling oppdatert når store-logikk endres.
 - Dokumenter prosess for å importere nye datakilder (`src/data/*`).
 
 ### Prod-sjekk

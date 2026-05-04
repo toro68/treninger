@@ -71,14 +71,44 @@ export const SessionTimeline = () => {
   const loadSavedSession = useSessionStore((state) => state.loadSavedSession);
   const deleteSavedSession = useSessionStore((state) => state.deleteSavedSession);
 
-  const [hydrated, setHydrated] = useState(() => useSessionStore.persist.hasHydrated());
+  const [hydrated, setHydrated] = useState(false);
+
+  const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [alternativeMenuForBlockId, setAlternativeMenuForBlockId] = useState<string | null>(null);
+  const [customizeMenuForBlockId, setCustomizeMenuForBlockId] = useState<string | null>(null);
+  const [shareStatus, setShareStatus] = useState<
+    "idle" | "copied" | "shared" | "error"
+  >("idle");
+  const [showShareOptions, setShowShareOptions] = useState(false);
+  const [showCooldown, setShowCooldown] = useState(true);
+  const activeSavedSession = useMemo(
+    () => savedSessions.find((session) => session.id === activeSavedSessionId) ?? null,
+    [savedSessions, activeSavedSessionId]
+  );
+  const [showSavedSessions, setShowSavedSessions] = useState(() => !!activeSavedSessionId);
+  const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
+  const [sessionName, setSessionName] = useState(() => activeSavedSession?.name ?? "");
+  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
 
   useEffect(() => {
     let cancelled = false;
 
+    const syncHydratedSavedSession = () => {
+      const hydratedState = useSessionStore.getState();
+      const hydratedSavedSession = hydratedState.savedSessions.find(
+        (session) => session.id === hydratedState.activeSavedSessionId
+      );
+      if (hydratedSavedSession) {
+        setShowSavedSessions(true);
+        setSessionName((currentName) => currentName || hydratedSavedSession.name);
+      }
+    };
+
     const syncHydrationState = () => {
       if (!cancelled) {
-        setHydrated(useSessionStore.persist.hasHydrated());
+        const hasHydrated = useSessionStore.persist.hasHydrated();
+        if (hasHydrated) syncHydratedSavedSession();
+        setHydrated(hasHydrated);
       }
     };
 
@@ -91,6 +121,7 @@ export const SessionTimeline = () => {
     });
     const unsubscribeFinishHydration = useSessionStore.persist.onFinishHydration(() => {
       if (!cancelled) {
+        syncHydratedSavedSession();
         setHydrated(true);
       }
     });
@@ -113,22 +144,6 @@ export const SessionTimeline = () => {
     };
   }, []);
 
-  const [dragIndex, setDragIndex] = useState<number | null>(null);
-  const [alternativeMenuForBlockId, setAlternativeMenuForBlockId] = useState<string | null>(null);
-  const [customizeMenuForBlockId, setCustomizeMenuForBlockId] = useState<string | null>(null);
-  const [shareStatus, setShareStatus] = useState<
-    "idle" | "copied" | "shared" | "error"
-  >("idle");
-  const [showShareOptions, setShowShareOptions] = useState(false);
-  const [showCooldown, setShowCooldown] = useState(true);
-  const activeSavedSession = useMemo(
-    () => savedSessions.find((session) => session.id === activeSavedSessionId) ?? null,
-    [savedSessions, activeSavedSessionId]
-  );
-  const [showSavedSessions, setShowSavedSessions] = useState(() => !!activeSavedSessionId);
-  const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
-  const [sessionName, setSessionName] = useState(() => activeSavedSession?.name ?? "");
-  const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
   const savedSessionsButtonLabel = showSavedSessions
     ? "Skjul lagrede"
     : activeSavedSession

@@ -44,7 +44,7 @@ export default function OrdlistePage() {
   return (
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
-      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
+      <main id="main" className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-zinc-900">Fotballordliste</h1>
         </div>
@@ -103,7 +103,7 @@ export default function OrdlistePage() {
         <div className="mt-12 border-t border-zinc-200 pt-8 text-center">
           <p className="text-sm text-zinc-500">Mangler du et ord? Spør treneren på neste økt!</p>
         </div>
-      </div>
+      </main>
     </div>
   );
 }

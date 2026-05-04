@@ -172,7 +172,7 @@ const normalizeSharedStationCount = (value: unknown) => {
 const normalizeSharedImageUrl = (value: unknown) => {
   if (typeof value !== "string") return undefined;
   const normalized = value.trim();
-  return normalized.startsWith("/") ? normalized : undefined;
+  return normalized.startsWith("/") && !normalized.startsWith("//") ? normalized : undefined;
 };
 
 const isExerciseCategory = (value: unknown): value is Exercise["category"] =>
@@ -562,14 +562,12 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
 
     const exerciseLibrary = buildSharedExerciseLibrary(sharedExercises);
 
-    const selectedExerciseIds = new Set(
-      Array.isArray(parsed.selectedExerciseIds)
-        ? parsed.selectedExerciseIds.filter(
-            (id): id is string =>
-              typeof id === "string" && exerciseLibrary.some((exercise) => exercise.id === id)
-          )
-        : []
-    );
+    const selectedExerciseIdsFromPayload = Array.isArray(parsed.selectedExerciseIds)
+      ? parsed.selectedExerciseIds.filter(
+          (id): id is string =>
+            typeof id === "string" && exerciseLibrary.some((exercise) => exercise.id === id)
+        )
+      : [];
     const selectedTheoryIds = new Set(
       normalizeTheoryIds(
         Array.isArray(parsed.selectedTheoryIds)
@@ -581,6 +579,11 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
     const plannedBlocks = hydratePlannedBlocks(
       Array.isArray(parsed.plannedBlocks) ? (parsed.plannedBlocks as SharedBlock[]) : null
       , exerciseLibrary
+    );
+    const selectedExerciseIds = new Set(
+      selectedExerciseIdsFromPayload.length > 0
+        ? selectedExerciseIdsFromPayload
+        : plannedBlocks?.map((block) => block.id) ?? []
     );
     const coachNames = normalizeCoachNames([
       ...(Array.isArray(parsed.coachNames) ? parsed.coachNames : []),

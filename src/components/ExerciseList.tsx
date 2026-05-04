@@ -1,5 +1,5 @@
 import { ExerciseCard } from "./ExerciseCard";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Exercise, ExerciseCategory } from "@/data/exercises";
 
 interface ExerciseListProps {
@@ -17,11 +17,6 @@ export const ExerciseList = ({
   const [visibleCount, setVisibleCount] = useState(24);
   const exerciseCount = exercises.length;
 
-  useEffect(() => {
-    if (exerciseCount < visibleCount) {
-      setVisibleCount(Math.max(24, Math.min(exerciseCount, 24)));
-    }
-  }, [exerciseCount, visibleCount]);
   const sectionAccent = useMemo(() => {
     const styles: Record<NonNullable<ExerciseListProps["category"]> | "default", string> = {
       warmup: "border-amber-200/70 bg-gradient-to-r from-amber-50 to-orange-50 text-amber-950 shadow-sm",

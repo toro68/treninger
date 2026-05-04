@@ -96,7 +96,7 @@ export const getTrailingStationSectionInfo = (blocks: SessionBlock[]) => {
 
   return {
     count,
-    requiredCount: requiredCount ?? count,
+    requiredCount: requiredCount ?? Math.max(2, Math.min(4, count)),
   };
 };
 

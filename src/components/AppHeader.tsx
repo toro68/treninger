@@ -31,7 +31,7 @@ export const AppHeader = () => {
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 text-sm font-semibold text-zinc-600">
             TP
           </span>
-          <h1 className="text-lg font-bold text-zinc-900">Treningsplanlegger</h1>
+          <div className="text-lg font-bold text-zinc-900">Treningsplanlegger</div>
         </div>
         <span className="self-start rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-600 sm:self-auto">
           Staal J15-J16

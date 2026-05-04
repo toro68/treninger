@@ -43,7 +43,6 @@ export const SessionTimelineSectionPlanner = ({
   displayedSectionNumber,
   displayedSelectedCount,
   explicitSectionTarget,
-  isIncompleteStationSection,
   isPlanningNextSection,
   missingStations,
   partsLength,

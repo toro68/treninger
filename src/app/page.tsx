@@ -210,6 +210,7 @@ export default function Home() {
       <AppHeader />
 
       <main id="main" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-10">
+        <h1 className="sr-only">Treningsplanlegger</h1>
         <div className="grid gap-6 xl:grid-cols-3 xl:gap-8">
           <div className="space-y-4 xl:col-span-2 xl:space-y-6">
             <PlayerSetup />

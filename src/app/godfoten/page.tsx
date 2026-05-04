@@ -13,9 +13,9 @@ export default function GodfotenPage() {
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
 
-      <div className="mx-auto max-w-5xl space-y-8 px-4 py-6 sm:px-6 sm:py-10">
+      <main id="main" className="mx-auto max-w-5xl space-y-8 px-4 py-6 sm:px-6 sm:py-10">
         <Godfoten />
-      </div>
+      </main>
     </div>
   );
 }

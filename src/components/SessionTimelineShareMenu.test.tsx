@@ -29,14 +29,15 @@ const renderMenu = () => {
 };
 
 describe("SessionTimelineShareMenu", () => {
-  it("announces expanded state and menu semantics", () => {
+  it("announces expanded state and share options without menu semantics", () => {
     renderMenu();
 
-    expect(screen.getByRole("button", { name: "Del økt" })).toHaveAttribute(
-      "aria-expanded",
-      "true"
-    );
-    expect(screen.getByRole("menu", { name: "Del økt" })).toBeInTheDocument();
+    const toggle = screen.getByRole("button", { name: "Del økt" });
+
+    expect(toggle).toHaveAttribute("aria-expanded", "true");
+    expect(toggle).not.toHaveAttribute("aria-haspopup");
+    expect(screen.getByRole("group", { name: "Del økt" })).toBeInTheDocument();
+    expect(screen.queryByRole("menu")).not.toBeInTheDocument();
   });
 
   it("closes when the user presses escape", () => {

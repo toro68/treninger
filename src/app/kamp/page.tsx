@@ -13,10 +13,10 @@ export default function KampPage() {
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
 
-      <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-10">
+      <main id="main" className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-10">
         <div className="space-y-6">
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-zinc-900">Kampforberedelse</h2>
+            <h1 className="text-2xl font-bold text-zinc-900">Kampforberedelse</h1>
             <p className="mt-2 text-sm text-zinc-500">Alt du trenger før, under og etter kamp</p>
           </div>
           
@@ -27,7 +27,7 @@ export default function KampPage() {
           <TeamOrganization />
           <CornerOrganization />
         </div>
-      </div>
+      </main>
     </div>
   );
 }

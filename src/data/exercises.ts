@@ -329,6 +329,33 @@ export const exercises: ExerciseData[] = [
     scalable: true,
   },
   {
+    id: "2v2-midtsirkel-med-vegger",
+    exerciseNumber: 941,
+    name: "2v2 i midtsirkel med vegger",
+    tags: ["midtsirkelen", "midtsirkel", "vegger", "slå og gå", "prepp'n 6"],
+    category: "game",
+    duration: 12,
+    playersMin: 6,
+    playersMax: 12,
+    theme: "pasning",
+    equipment: ["baller", "vester"],
+    description:
+      "2 mot 2 inne i midtsirkelen med 4 veggspillere rundt som alltid spiller med laget i ballbesittelse. Øvelsen gir mange repetisjoner i bevegelse etter pasning, støttevinkler og kombinasjonsspill på liten flate.",
+    coachingPoints: [
+      "Bevegelse etter pasning - slå og gå med en gang",
+      "Skap ny vinkel før du får ballen tilbake",
+      "Bruk veggene for å vende spill og skape overtall rundt ballfører",
+      "Spill med få touch og høy intensitet i midtsirkelen",
+    ],
+    variations: [
+      "Begrens veggspillere til ett touch",
+      "Tell poeng når laget kombinerer via begge vegger på samme angrep",
+      "Bytt veggspillere ofte for høyere involvering",
+    ],
+    source: "staal",
+    scalable: true,
+  },
+  {
     id: "utspill-fra-mal-k8-mot-6-7",
     exerciseNumber: 40,
     name: "Utspill fra mål",
@@ -569,7 +596,7 @@ export const exercises: ExerciseData[] = [
   },
   {
     id: "stafett-samle",
-    exerciseNumber: 99,
+    exerciseNumber: 997,
     name: "Stafett",
     category: "aktivisering",
     duration: 10,

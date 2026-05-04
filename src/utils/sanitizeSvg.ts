@@ -11,6 +11,7 @@ const BLOCKED_TAGS = new Set([
 ]);
 
 const URL_ATTRS = new Set(["href", "xlink:href", "src"]);
+const SAFE_DATA_IMAGE_PATTERN = /^data:image\/(?:png|jpe?g|gif|webp);base64,/i;
 
 const hasUnsafeUrlFunction = (value: string) => {
   const normalized = value.replace(/\s+/g, "");
@@ -22,16 +23,11 @@ const isSafeUrl = (value: string) => {
 
   if (!normalized) return false;
   if (normalized.startsWith("#")) return true;
-  if (normalized.startsWith("/")) return true;
+  if (normalized.startsWith("/") && !normalized.startsWith("//")) return true;
   if (normalized.startsWith("./") || normalized.startsWith("../")) return true;
-  if (/^data:image\//i.test(normalized)) return true;
+  if (SAFE_DATA_IMAGE_PATTERN.test(normalized)) return true;
 
-  try {
-    const parsed = new URL(normalized, "https://example.invalid");
-    return parsed.protocol === "http:" || parsed.protocol === "https:";
-  } catch {
-    return false;
-  }
+  return false;
 };
 
 const fallbackSanitizeSvg = (svg: string) =>
@@ -43,6 +39,8 @@ const fallbackSanitizeSvg = (svg: string) =>
     .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
     .replace(/\sstyle\s*=\s*"[^"]*"/gi, "")
     .replace(/\sstyle\s*=\s*'[^']*'/gi, "")
+    .replace(/\s(?:href|xlink:href|src)\s*=\s*"(?:https?:|data:image\/svg\+xml|data:text\/html)[^"]*"/gi, "")
+    .replace(/\s(?:href|xlink:href|src)\s*=\s*'(?:https?:|data:image\/svg\+xml|data:text\/html)[^']*'/gi, "")
     .replace(/javascript:/gi, "");
 
 const sanitizeSvgElement = (element: Element) => {

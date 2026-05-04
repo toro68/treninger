@@ -6,6 +6,7 @@ import {
   type ExerciseCategory,
   type ExerciseTheme,
 } from "@/data/exercises";
+import { createIdSegment } from "@/utils/createId";
 
 type CustomExerciseCreatorProps = {
   onSubmitExercise: (exercise: Exercise) => void;
@@ -117,7 +118,7 @@ export const CustomExerciseCreator = ({
     }
 
     const exercise: Exercise = {
-      id: `custom-${Date.now()}-${slugify(name)}`,
+      id: `custom-${createIdSegment()}-${slugify(name)}`,
       exerciseNumber: 0,
       name,
       category: form.category,

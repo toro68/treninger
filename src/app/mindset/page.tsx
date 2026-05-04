@@ -18,9 +18,9 @@ export default async function MindsetPage() {
     <div className="min-h-screen bg-zinc-50">
       <AppHeader />
 
-      <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-10 space-y-8">
+      <main id="main" className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-10 space-y-8">
         <div className="space-y-2">
-          <h2 className="text-2xl font-bold text-zinc-900">Mindset og mentaltrening</h2>
+          <h1 className="text-2xl font-bold text-zinc-900">Mindset og mentaltrening</h1>
           <p className="text-sm text-zinc-500">
             Praktiske verktøy for trenere kombinert med fullversjonen av mindset-notatene
           </p>
@@ -37,7 +37,7 @@ export default async function MindsetPage() {
             {content}
           </pre>
         </article>
-      </div>
+      </main>
     </div>
   );
 }

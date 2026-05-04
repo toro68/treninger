@@ -153,6 +153,55 @@ describe("SessionTimeline sharing", () => {
     }
   });
 
+  it("syncs saved-session controls when persistence finishes hydration", async () => {
+    const persistApi = useSessionStore.persist;
+    let finishHydrationCallback: (() => void) | undefined;
+    const hasHydratedSpy = vi.spyOn(persistApi, "hasHydrated").mockReturnValue(false);
+    const onHydrateSpy = vi.spyOn(persistApi, "onHydrate").mockImplementation(() => () => {});
+    const onFinishHydrationSpy = vi.spyOn(persistApi, "onFinishHydration").mockImplementation((callback) => {
+      finishHydrationCallback = callback;
+      return () => {};
+    });
+    const rehydrateSpy = vi.spyOn(persistApi, "rehydrate").mockImplementation(() => undefined);
+
+    try {
+      render(<SessionTimeline />);
+
+      expect(screen.getByText("Laster...")).toBeInTheDocument();
+
+      act(() => {
+        useSessionStore.setState({
+          savedSessions: [
+            {
+              id: "saved-hydrated",
+              name: "Hydrert økt",
+              createdAt: "2026-03-17T10:00:00.000Z",
+              updatedAt: "2026-03-17T10:05:00.000Z",
+              playerCount: 12,
+              stationCount: 3,
+              coachNames: ["Tor Inge"],
+              selectedExerciseIds: [],
+              selectedTheoryIds: [],
+              plannedBlocks: null,
+            },
+          ],
+          activeSavedSessionId: "saved-hydrated",
+        });
+        hasHydratedSpy.mockReturnValue(true);
+        finishHydrationCallback?.();
+      });
+
+      expect(await screen.findByRole("button", { name: "Skjul lagrede" })).toBeInTheDocument();
+      expect(screen.getByDisplayValue("Hydrert økt")).toBeInTheDocument();
+      expect(screen.getByText(/Redigerer lagret økt:/)).toBeInTheDocument();
+    } finally {
+      hasHydratedSpy.mockRestore();
+      onHydrateSpy.mockRestore();
+      onFinishHydrationSpy.mockRestore();
+      rehydrateSpy.mockRestore();
+    }
+  });
+
   it("copies the short session summary to the clipboard", async () => {
     const writeText = vi.fn().mockResolvedValue(undefined);
 
@@ -164,7 +213,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier kompakt tekst" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier kompakt tekst" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);
@@ -191,7 +240,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier kompakt tekst" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier kompakt tekst" }));
 
     await waitFor(() => {
       expect(execCommand).toHaveBeenCalledWith("copy");
@@ -214,7 +263,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier kompakt tekst" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier kompakt tekst" }));
 
     await waitFor(() => {
       expect(screen.getByText("Kunne ikke dele")).toBeInTheDocument();
@@ -226,7 +275,7 @@ describe("SessionTimeline sharing", () => {
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
 
-    const link = screen.getByRole("menuitem", { name: "Åpne fullversjon" });
+    const link = screen.getByRole("link", { name: "Åpne fullversjon" });
     expect(link).toHaveAttribute("href");
     expect(link.getAttribute("href")).toContain("/okt?s=");
   });
@@ -242,7 +291,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier lenke til fullversjon" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);
@@ -264,7 +313,7 @@ describe("SessionTimeline sharing", () => {
 
     fireEvent.click(await screen.findByLabelText(/Se før du får ballen/i));
     fireEvent.click(screen.getByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier lenke til fullversjon" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);
@@ -288,7 +337,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier lenke til fullversjon" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);
@@ -332,7 +381,7 @@ describe("SessionTimeline sharing", () => {
     });
 
     fireEvent.click(screen.getByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier lenke til fullversjon" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);
@@ -447,7 +496,7 @@ describe("SessionTimeline sharing", () => {
     render(<SessionTimeline />);
 
     fireEvent.click(await screen.findByRole("button", { name: "Del økt" }));
-    fireEvent.click(screen.getByRole("menuitem", { name: "Kopier lenke til fullversjon" }));
+    fireEvent.click(screen.getByRole("button", { name: "Kopier lenke til fullversjon" }));
 
     await waitFor(() => {
       expect(writeText).toHaveBeenCalledTimes(1);

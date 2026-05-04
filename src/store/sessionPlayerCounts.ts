@@ -8,7 +8,7 @@ export const normalizeKeeperCount = (playerCount: number, keeperCount: number) =
 export const getOutfieldPlayerCount = (playerCount: number, keeperCount = 0) =>
   Math.max(1, playerCount - normalizeKeeperCount(playerCount, keeperCount));
 
-const keeperPattern = /\b(?:gk|goalkeeper|goalkeepers|keeper|keepers|keepere)\b/i;
+const keeperPattern = /(?:\b(?:gk|goalkeepers?|keepers?|keepere|mv)\b|målvakt(?:er)?|portner(?:e)?)/i;
 
 const exerciseUsesTotalPlayerCount = (exercise: Exercise) =>
   exercise.theme === "keeper" ||

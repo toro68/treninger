@@ -83,10 +83,10 @@ const main = () => {
           exercise: ex,
         });
       }
-      if (ex.playersMax % ex.playersMin !== 0) {
+      if (ex.playersMax === ex.playersMin) {
         issues.push({
           severity: "WARN",
-          message: "scalable=true, men playersMax går ikke opp i playersMin (ujevne grupper)",
+          message: "scalable=true, men playersMin og playersMax er like (ingen skaleringsspenn)",
           exercise: ex,
         });
       }

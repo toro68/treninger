@@ -113,6 +113,19 @@ const normalizeInteger = (value: unknown, minimum = 0) => {
   return number === undefined ? undefined : Math.max(minimum, Math.floor(number));
 };
 
+export const normalizePersistedPlayerCount = (value: unknown, fallback = 12) =>
+  normalizeInteger(value, 1) ?? fallback;
+
+export const normalizePersistedStationCount = (value: unknown, fallback = 2) => {
+  const count = normalizeInteger(value, 2);
+  return count === undefined ? fallback : Math.min(4, count);
+};
+
+const normalizeLocalImageUrl = (value: unknown) => {
+  const normalized = normalizeOptionalText(value);
+  return normalized?.startsWith("/") && !normalized.startsWith("//") ? normalized : undefined;
+};
+
 const normalizeBoolean = (value: unknown) =>
   typeof value === "boolean" ? value : undefined;
 
@@ -168,7 +181,7 @@ const sanitizePersistedExercise = (value: unknown): Exercise | null => {
     variations: normalizeStringArray(value.variations),
     alwaysIncluded: normalizeBoolean(value.alwaysIncluded),
     scalable: normalizeBoolean(value.scalable),
-    imageUrl: normalizeOptionalText(value.imageUrl),
+    imageUrl: normalizeLocalImageUrl(value.imageUrl),
     svgDiagram: normalizeOptionalText(value.svgDiagram),
     source: value.source,
     sourceUrl: normalizeOptionalText(value.sourceUrl),
@@ -192,7 +205,7 @@ const sanitizePersistedExerciseOverride = (
   const playersMax = normalizeInteger(value.playersMax, 1);
   const alwaysIncluded = normalizeBoolean(value.alwaysIncluded);
   const scalable = normalizeBoolean(value.scalable);
-  const imageUrl = normalizeOptionalText(value.imageUrl);
+  const imageUrl = normalizeLocalImageUrl(value.imageUrl);
   const svgDiagram = normalizeOptionalText(value.svgDiagram);
   const sourceUrl = normalizeOptionalText(value.sourceUrl);
   const sourceRef = normalizeOptionalText(value.sourceRef);
@@ -551,6 +564,8 @@ export const hydrateSavedSessions = (
       const selectedTheoryIds = sanitizeTheoryIds(
         Array.isArray(entry.selectedTheoryIds) ? entry.selectedTheoryIds : undefined
       );
+      const playerCount = normalizePersistedPlayerCount(entry.playerCount);
+      const stationCount = normalizePersistedStationCount(entry.stationCount, 3);
 
       return [{
         id,
@@ -559,15 +574,12 @@ export const hydrateSavedSessions = (
         sessionComment: normalizeOptionalText(entry.sessionComment),
         createdAt: typeof entry.createdAt === "string" ? entry.createdAt : new Date().toISOString(),
         updatedAt: typeof entry.updatedAt === "string" ? entry.updatedAt : new Date().toISOString(),
-        playerCount: typeof entry.playerCount === "number" ? entry.playerCount : 12,
+        playerCount,
         keeperCount:
           typeof entry.keeperCount === "number"
-            ? normalizeKeeperCount(
-                typeof entry.playerCount === "number" ? entry.playerCount : 12,
-                entry.keeperCount
-              )
+            ? normalizeKeeperCount(playerCount, entry.keeperCount)
             : 0,
-        stationCount: typeof entry.stationCount === "number" ? entry.stationCount : 3,
+        stationCount,
         coachNames,
         selectedExerciseIds,
         selectedTheoryIds,

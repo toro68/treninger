@@ -17,7 +17,7 @@
     "audit:complex-players": "tsx scripts/find-complex-player-counts.ts",
     "count:sources": "tsx scripts/count-exercises-by-source.ts",
     "prod:sjekk": "npm run lint:safe && npm run build && npm run test",
-    "lint:safe": "npm run lint -- --ignore-pattern scripts/**",
+    "lint:safe": "eslint --no-warn-ignored",
     "test": "vitest run"
   },
   "dependencies": {
@@ -44,5 +44,8 @@
     "tsx": "^4.21.0",
     "typescript": "^5",
     "vitest": "^4.0.14"
+  },
+  "overrides": {
+    "postcss": "8.5.14"
   }
 }
