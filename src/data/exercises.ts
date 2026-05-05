@@ -329,6 +329,33 @@ export const exercises: ExerciseData[] = [
     scalable: true,
   },
   {
+    id: "o510-4v4-midtsirkelspill-med-rotasjon",
+    exerciseNumber: 510,
+    name: "4v4 Midtsirkelspill med rotasjon",
+    tags: ["O510", "midtsirkelen", "midtsirkel", "vegger", "rotasjon", "staal"],
+    category: "game",
+    duration: 10,
+    playersMin: 10,
+    playersMax: 18,
+    theme: "pasning",
+    equipment: ["baller", "mål", "vester"],
+    description:
+      "Bruk midtsirkelen som bane med mål på hver side. Spill 4v4 inne i sirkelen, med 1 keeper og 3 utespillere på hvert lag. Resten av spillerne fordeles som vegger utenfor sirkelen på de to lagene. Ballen må innom en vegg før laget kan score.",
+    coachingPoints: [
+      "Finn vegg tidlig før avslutning",
+      "Skap ny støttevinkel etter pasning",
+      "Roter spillere ofte mellom inne- og veggroller",
+      "Hold høyt tempo og korte avstander i midtsirkelen",
+    ],
+    variations: [
+      "Veggspillere spiller på ett touch",
+      "Krev at begge lagets vegger brukes før scoring",
+      "Spill uten keepere med småmål hvis keeperne ikke er tilgjengelige",
+    ],
+    source: "staal",
+    scalable: true,
+  },
+  {
     id: "2v2-midtsirkel-med-vegger",
     exerciseNumber: 941,
     name: "2v2 i midtsirkel med vegger",
