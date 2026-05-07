@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
 import { createSharedSessionToken } from "@/utils/sessionShare";
@@ -109,5 +109,65 @@ describe("SharedSessionPage", () => {
 
     expect(screen.getByText(/Alternativer til denne øvelsen/i)).toBeInTheDocument();
     expect(screen.getByText(/Alternativ delt spesialøvelse/)).toBeInTheDocument();
+  });
+
+  it("keeps coaching and variations collapsed in the full session view", () => {
+    const exercise = {
+      id: "custom-full-details",
+      exerciseNumber: 951,
+      name: "Fullvisning med lukkede detaljer",
+      category: "game" as const,
+      duration: 15,
+      playersMin: 8,
+      playersMax: 12,
+      theme: "spill" as const,
+      equipment: ["baller"],
+      description: "Testøvelse i delt økt.",
+      coachingPoints: ["Hold laget kompakt"],
+      variations: ["Spill med maks to touch"],
+      source: "egen" as const,
+    };
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt økt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([exercise.id]),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        {
+          id: exercise.id,
+          exercise,
+        },
+      ],
+      exerciseLibrary: [...allExercises, exercise],
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const coachingSummary = screen.getByText("Coaching");
+    const variationsSummary = screen.getByText("Variasjoner");
+    const coachingSection = coachingSummary.closest("details");
+    const variationsSection = variationsSummary.closest("details");
+    const coachingPoint = screen.getByText("• Hold laget kompakt");
+    const variation = screen.getByText("• Spill med maks to touch");
+
+    expect(coachingSection).not.toHaveAttribute("open");
+    expect(variationsSection).not.toHaveAttribute("open");
+    expect(coachingPoint).not.toBeVisible();
+    expect(variation).not.toBeVisible();
+
+    fireEvent.click(coachingSummary);
+    fireEvent.click(variationsSummary);
+
+    expect(coachingSection).toHaveAttribute("open");
+    expect(variationsSection).toHaveAttribute("open");
+    expect(coachingPoint).toBeVisible();
+    expect(variation).toBeVisible();
   });
 });

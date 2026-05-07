@@ -248,25 +248,29 @@ function SharedSessionPageContent() {
                         ) : null}
 
                         {block.exercise.coachingPoints.length > 0 ? (
-                          <div className="mt-4">
-                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching</h4>
+                          <details className="mt-4 rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3">
+                            <summary className="cursor-pointer select-none text-xs font-semibold uppercase tracking-wide text-zinc-500 marker:text-zinc-400">
+                              Coaching
+                            </summary>
                             <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                               {block.exercise.coachingPoints.map((point) => (
                                 <li key={point}>• {point}</li>
                               ))}
                             </ul>
-                          </div>
+                          </details>
                         ) : null}
 
                         {block.exercise.variations.length > 0 ? (
-                          <div className="mt-4">
-                            <h4 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Variasjoner</h4>
+                          <details className="mt-4 rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3">
+                            <summary className="cursor-pointer select-none text-xs font-semibold uppercase tracking-wide text-zinc-500 marker:text-zinc-400">
+                              Variasjoner
+                            </summary>
                             <ul className="mt-2 space-y-1 text-sm text-zinc-700">
                               {block.exercise.variations.map((variation) => (
                                 <li key={variation}>• {variation}</li>
                               ))}
                             </ul>
-                          </div>
+                          </details>
                         ) : null}
 
                         {alternativeExercises.length > 0 ? (
