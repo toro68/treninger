@@ -211,7 +211,7 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
   const handleCardClick = (event: React.MouseEvent<HTMLDivElement>) => {
     if (disabled) return;
     const target = event.target as HTMLElement;
-    if (target.closest("button, a, input, label")) return;
+    if (target.closest("button, a, input, label, summary, details")) return;
     toggleExercise(exercise.id);
   };
 
@@ -372,24 +372,28 @@ export const ExerciseCard = memo(({ exercise }: ExerciseCardProps) => {
             {showDetails && (
               <div className="mt-2 rounded-xl bg-zinc-100 p-3 text-xs text-zinc-600">
                 {exercise.coachingPoints.length > 0 && (
-                  <div className="mb-2">
-                    <p className="font-medium text-zinc-800">Coaching</p>
-                    <ul className="ml-4 list-disc space-y-1">
+                  <details className="mb-2 rounded-lg border border-zinc-200 bg-white/70 px-3 py-2">
+                    <summary className="cursor-pointer select-none font-medium text-zinc-800 marker:text-zinc-500">
+                      Coaching
+                    </summary>
+                    <ul className="ml-4 mt-2 list-disc space-y-1">
                       {exercise.coachingPoints.map((point) => (
                         <li key={point}>{point}</li>
                       ))}
                     </ul>
-                  </div>
+                  </details>
                 )}
                 {exercise.variations.length > 0 && (
-                  <div className="mb-2">
-                    <p className="font-medium text-zinc-800">Varianter</p>
-                    <ul className="ml-4 list-disc space-y-1">
+                  <details className="mb-2 rounded-lg border border-zinc-200 bg-white/70 px-3 py-2">
+                    <summary className="cursor-pointer select-none font-medium text-zinc-800 marker:text-zinc-500">
+                      Variasjoner
+                    </summary>
+                    <ul className="ml-4 mt-2 list-disc space-y-1">
                       {exercise.variations.map((variation) => (
                         <li key={variation}>{variation}</li>
                       ))}
                     </ul>
-                  </div>
+                  </details>
                 )}
                 {exercise.sourceRef && (
                   <div className="print:hidden">

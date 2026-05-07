@@ -2,6 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it } from "vitest";
 
 import { ExerciseCard } from "./ExerciseCard";
+import type { Exercise } from "@/data/exercises";
 import { useSessionStore } from "@/store/sessionStore";
 import { buildSessionParts } from "@/utils/sessionParts";
 
@@ -118,5 +119,47 @@ describe("ExerciseCard", () => {
     expect(parts[2]?.blocks[0]?.block.id).toBe(exercises[1]!.id);
     expect(parts[2]?.blocks[0]?.block.stationRoundStart).toBe(true);
     expect(nextState.planningSectionTarget).toBe("auto");
+  });
+
+  it("keeps coaching and variations collapsed in the expanded details view", () => {
+    const exercise: Exercise = {
+      id: "test-expanded-details",
+      exerciseNumber: 99,
+      name: "Testøvelse med fullversjon",
+      category: "game",
+      duration: 15,
+      playersMin: 8,
+      playersMax: 12,
+      theme: "spill",
+      equipment: ["Kjegler"],
+      description: "Kort beskrivelse",
+      coachingPoints: ["Hold laget kompakt"],
+      variations: ["Spill med maks to touch"],
+    };
+
+    render(<ExerciseCard exercise={exercise} />);
+
+    fireEvent.click(screen.getByRole("button", { name: "Mer info" }));
+
+    const coachingSummary = screen.getByText("Coaching");
+    const variationsSummary = screen.getByText("Variasjoner");
+    const coachingSection = coachingSummary.closest("details");
+    const variationsSection = variationsSummary.closest("details");
+    const coachingPoint = screen.getByText("Hold laget kompakt");
+    const variation = screen.getByText("Spill med maks to touch");
+
+    expect(coachingSection).not.toHaveAttribute("open");
+    expect(variationsSection).not.toHaveAttribute("open");
+    expect(coachingPoint).not.toBeVisible();
+    expect(variation).not.toBeVisible();
+
+    fireEvent.click(coachingSummary);
+    fireEvent.click(variationsSummary);
+
+    expect(coachingSection).toHaveAttribute("open");
+    expect(variationsSection).toHaveAttribute("open");
+    expect(coachingPoint).toBeVisible();
+    expect(variation).toBeVisible();
+    expect(screen.getByRole("checkbox", { name: "Testøvelse med fullversjon" })).not.toBeChecked();
   });
 });
