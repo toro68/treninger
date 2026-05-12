@@ -28,8 +28,22 @@ export const getActivePlanningSection = ({
 }): ActivePlanningSection => {
   const completedSections = buildTimelineSections(sessionBlocks).length;
   const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
+  const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
 
   if (planningSectionMode === "single") {
+    if (
+      explicitSectionNumber !== null &&
+      explicitSectionNumber >= 1 &&
+      explicitSectionNumber <= completedSections
+    ) {
+      return {
+        sectionNumber: explicitSectionNumber,
+        playerCounts: [outfieldPlayerCount],
+        selectedCount: 1,
+        requiredCount: 1,
+        isComplete: true,
+      };
+    }
     return {
       sectionNumber: completedSections + 1,
       playerCounts: [outfieldPlayerCount],
@@ -40,7 +54,6 @@ export const getActivePlanningSection = ({
   }
 
   const configuredCount = Math.max(2, Math.min(4, stationCount));
-  const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
 
   if (planningSectionTarget === "next-section") {
     return {

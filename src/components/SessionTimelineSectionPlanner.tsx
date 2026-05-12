@@ -21,7 +21,7 @@ type SessionTimelineSectionPlannerProps = {
   setStationCount: (count: number) => void;
   showIncompleteStationSection: boolean;
   stationCount: number;
-  stationParts: SessionPart[];
+  editableParts: SessionPart[];
 };
 
 const SECTION_MODE_OPTIONS: Array<{
@@ -53,7 +53,7 @@ export const SessionTimelineSectionPlanner = ({
   setStationCount,
   showIncompleteStationSection,
   stationCount,
-  stationParts,
+  editableParts,
 }: SessionTimelineSectionPlannerProps) => (
   <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -70,9 +70,9 @@ export const SessionTimelineSectionPlanner = ({
           : "1 øvelse for alle"}
       </span>
     </div>
-    {stationParts.length > 0 ? (
+    {editableParts.length > 0 ? (
       <div className="mt-3 flex flex-wrap gap-2">
-        {stationParts.map((part) => {
+        {editableParts.map((part) => {
           const partTarget = `section-${part.orderNumber}` as const;
           const isSelected =
             planningSectionTarget === partTarget ||

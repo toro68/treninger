@@ -183,8 +183,8 @@ export const SessionTimeline = () => {
     });
     return map;
   }, [parts]);
-  const stationParts = useMemo(
-    () => parts.filter((part) => part.baseKey === "stasjoner"),
+  const editableParts = useMemo(
+    () => parts.filter((part) => part.baseKey === "stasjoner" || part.baseKey === "ovelse"),
     [parts]
   );
 
@@ -587,7 +587,7 @@ export const SessionTimeline = () => {
         setStationCount={setStationCount}
         showIncompleteStationSection={showIncompleteStationSection}
         stationCount={stationCount}
-        stationParts={stationParts}
+        editableParts={editableParts}
       />
 
       {hasContent ? (
