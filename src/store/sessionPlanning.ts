@@ -30,6 +30,16 @@ export const getActivePlanningSection = ({
   const outfieldPlayerCount = getOutfieldPlayerCount(playerCount, keeperCount);
   const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
 
+  if (planningSectionMode === "reserve") {
+    return {
+      sectionNumber: completedSections + 1,
+      playerCounts: [outfieldPlayerCount],
+      selectedCount: 0,
+      requiredCount: 1,
+      isComplete: false,
+    };
+  }
+
   if (planningSectionMode === "single") {
     if (
       explicitSectionNumber !== null &&
@@ -112,26 +122,46 @@ export const appendBlockForPlanningSection = ({
   stationCount: number;
   planningSectionTarget: PlanningSectionTarget;
 }): SessionBlock[] => {
-  if (planningSectionMode === "single") {
+  if (planningSectionMode === "reserve") {
     return [
       ...blocks,
       {
         id: exercise.id,
         exercise,
-        planningMode: "single",
+        planningMode: "reserve",
         sectionStationCount: undefined,
       },
     ];
   }
 
+  if (planningSectionMode === "single") {
+    const reserveStartIndex = blocks.findIndex(
+      (block) => block.planningMode === "reserve"
+    );
+    const insertionIndex = reserveStartIndex === -1 ? blocks.length : reserveStartIndex;
+    const updatedBlocks = [...blocks];
+    updatedBlocks.splice(insertionIndex, 0, {
+      id: exercise.id,
+      exercise,
+      planningMode: "single",
+      sectionStationCount: undefined,
+    });
+    return updatedBlocks;
+  }
+
   const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
   const explicitSectionNumber = getExplicitSectionNumber(planningSectionTarget);
+  const reserveStartIndex = blocks.findIndex(
+    (block) => block.planningMode === "reserve"
+  );
+  const planningBlocks = reserveStartIndex === -1 ? blocks : blocks.slice(0, reserveStartIndex);
+  const reserveBlocks = reserveStartIndex === -1 ? [] : blocks.slice(reserveStartIndex);
 
   if (explicitSectionNumber !== null) {
-    const explicitSection = getStationSectionInfoByNumber(blocks, explicitSectionNumber);
+    const explicitSection = getStationSectionInfoByNumber(planningBlocks, explicitSectionNumber);
 
     if (explicitSection && explicitSection.selectedCount < explicitSection.requiredCount) {
-      const updatedBlocks = [...blocks];
+      const updatedBlocks = [...planningBlocks];
       updatedBlocks.splice(explicitSection.endIndex + 1, 0, {
         id: exercise.id,
         exercise,
@@ -139,20 +169,21 @@ export const appendBlockForPlanningSection = ({
         sectionStationCount: explicitSection.requiredCount,
       });
 
-      return normalizeStationSectionMetadata(updatedBlocks) ?? updatedBlocks;
+      const normalized = normalizeStationSectionMetadata(updatedBlocks) ?? updatedBlocks;
+      return [...normalized, ...reserveBlocks];
     }
   }
 
-  const trailingStationSection = getTrailingStationSectionInfo(blocks);
+  const trailingStationSection = getTrailingStationSectionInfo(planningBlocks);
   const trailingCount = trailingStationSection?.count ?? 0;
   const trailingRequiredCount = trailingStationSection?.requiredCount ?? normalizedStationCount;
   const shouldStartNewStationRound =
     planningSectionTarget === "next-section" ||
     trailingCount === 0 || trailingCount >= trailingRequiredCount;
-  const previousBlock = blocks.at(-1);
+  const previousBlock = planningBlocks.at(-1);
 
   return [
-    ...blocks,
+    ...planningBlocks,
     {
       id: exercise.id,
       exercise,
@@ -161,5 +192,6 @@ export const appendBlockForPlanningSection = ({
       stationRoundStart:
         shouldStartNewStationRound && previousBlock ? true : undefined,
     },
+    ...reserveBlocks,
   ];
 };

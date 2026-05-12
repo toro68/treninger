@@ -54,13 +54,13 @@ const getBrowserLocalStorage = () => {
 };
 
 export type DurationUnit = "min" | "reps";
-export type PlanningSectionMode = "single" | "stations";
+export type PlanningSectionMode = "single" | "stations" | "reserve";
 export type PlanningSectionTarget = "auto" | "next-section" | `section-${number}`;
 
 export type SessionBlock = {
   id: string;
   exercise: Exercise;
-  planningMode?: "single" | "station";
+  planningMode?: "single" | "station" | "reserve";
   sectionStationCount?: number;
   sectionComment?: string;
   stationRoundStart?: boolean;
@@ -74,7 +74,7 @@ export type SessionBlock = {
 
 type SerializedBlock = {
   id: string;
-  planningMode?: "single" | "station";
+  planningMode?: "single" | "station" | "reserve";
   sectionStationCount?: number;
   sectionComment?: string;
   stationRoundStart?: boolean;
@@ -374,7 +374,12 @@ export const useSessionStore = create<SessionState>()(
               ) ?? state.plannedBlocks,
           };
         }),
-      setPlanningSectionMode: (mode) => set({ planningSectionMode: mode }),
+      setPlanningSectionMode: (mode) =>
+        set((state) => ({
+          planningSectionMode: mode,
+          planningSectionTarget:
+            state.planningSectionMode === mode ? state.planningSectionTarget : "auto",
+        })),
       setPlanningSectionTarget: (target) =>
         set((state) => {
           const explicitSectionNumber = getExplicitSectionNumber(target);

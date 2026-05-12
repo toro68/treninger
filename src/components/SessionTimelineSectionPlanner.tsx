@@ -33,6 +33,7 @@ const SECTION_MODE_OPTIONS: Array<{
   { mode: "stations", label: "2 stasjoner", count: 2 },
   { mode: "stations", label: "3 stasjoner", count: 3 },
   { mode: "stations", label: "4 stasjoner", count: 4 },
+  { mode: "reserve", label: "Reserve" },
 ];
 
 export const SessionTimelineSectionPlanner = ({
@@ -58,19 +59,24 @@ export const SessionTimelineSectionPlanner = ({
   <div className="mt-4 rounded-2xl border border-sky-200 bg-sky-50/70 p-4">
     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
       <div>
-        <h3 className="text-sm font-semibold text-zinc-900">Seksjon {displayedSectionNumber}</h3>
+        <h3 className="text-sm font-semibold text-zinc-900">
+          {planningSectionMode === "reserve" ? "Reserveøvelser" : `Seksjon ${displayedSectionNumber}`}
+        </h3>
         <p className="text-xs text-zinc-600">
-          Velg om denne delen av økta skal være én felles øvelse eller {" "}
-          {"2–4"} parallelle stasjoner. Biblioteket til venstre filtreres mot {activeSectionSplitLabel}.
+          {planningSectionMode === "reserve"
+            ? "Legg til øvelser som kan brukes hvis det blir tid eller spilltallet endrer seg. Reserveøvelser teller ikke i totaltiden."
+            : `Velg om denne delen av økta skal være én felles øvelse eller 2–4 parallelle stasjoner. Biblioteket til venstre filtreres mot ${activeSectionSplitLabel}.`}
         </p>
       </div>
       <span className="text-xs font-medium text-sky-800">
         {planningSectionMode === "stations"
           ? `${displayedSelectedCount}/${displayedRequiredCount} stasjoner valgt`
-          : "1 øvelse for alle"}
+          : planningSectionMode === "reserve"
+            ? "Hvis tid eller annet spilltall"
+            : "1 øvelse for alle"}
       </span>
     </div>
-    {editableParts.length > 0 ? (
+    {planningSectionMode !== "reserve" && editableParts.length > 0 ? (
       <div className="mt-3 flex flex-wrap gap-2">
         {editableParts.map((part) => {
           const partTarget = `section-${part.orderNumber}` as const;

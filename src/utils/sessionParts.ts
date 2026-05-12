@@ -16,6 +16,10 @@ export type SessionPart = {
 };
 
 const getPartBaseKey = (block: SessionBlock) => {
+  if (block.planningMode === "reserve") {
+    return "reserve";
+  }
+
   if (block.planningMode === "station") {
     return "stasjoner";
   }
@@ -50,7 +54,10 @@ export const buildSessionParts = (
       previousBaseKey === "stasjoner";
 
     const shouldStartNewPart =
-      !previousPart || previousPart.baseKey !== baseKey || startsNewStationRound || baseKey === "ovelse";
+      !previousPart ||
+      previousPart.baseKey !== baseKey ||
+      startsNewStationRound ||
+      baseKey === "ovelse";
 
     if (shouldStartNewPart) {
       const orderNumber = parts.length + 1;
@@ -93,6 +100,12 @@ export const buildSessionParts = (
             : `${playerCounts.join(" + ")} spillere`;
         part.subtitle = `${stationCount} stasjon${stationCount > 1 ? "er" : ""} · ${splitLabel}`;
       }
+      return;
+    }
+
+    if (part.baseKey === "reserve") {
+      part.title = "Reserve";
+      part.subtitle = "Hvis tid eller annet spilltall";
       return;
     }
 

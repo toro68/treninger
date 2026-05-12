@@ -142,4 +142,27 @@ describe("sessionParts", () => {
 
     expect(parts[0].sectionComment).toBe("Vektlegg gjenvinning de første 5 sekundene.");
   });
+
+  it("groups reserve blocks into a dedicated reserve section", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("game-1", "Hovedøvelse", "game", undefined, {
+        planningMode: "single",
+      }),
+      createBlock("game-2", "Reserve A", "game", undefined, {
+        planningMode: "reserve",
+      }),
+      createBlock("game-3", "Reserve B", "game", undefined, {
+        planningMode: "reserve",
+      }),
+    ];
+
+    const parts = buildSessionParts(blocks, 14);
+
+    expect(parts.map((part) => part.title)).toEqual(["1. Øvelse", "Reserve"]);
+    expect(parts.at(-1)?.subtitle).toBe("Hvis tid eller annet spilltall");
+    expect(parts.at(-1)?.blocks.map((entry) => entry.block.id)).toEqual([
+      "game-2",
+      "game-3",
+    ]);
+  });
 });

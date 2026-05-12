@@ -36,7 +36,7 @@ const SESSION_THEORY_IDS = new Set(sessionTheoryItems.map((item) => item.id));
 
 type SharedBlock = {
   id: string;
-  planningMode?: "single" | "station";
+  planningMode?: "single" | "station" | "reserve";
   sectionStationCount?: number;
   sectionComment?: string;
   stationRoundStart?: boolean;
@@ -367,7 +367,9 @@ const hydratePlannedBlocks = (
       id: exercise.id,
       exercise,
       planningMode:
-        entry.planningMode === "single" || entry.planningMode === "station"
+        entry.planningMode === "single" ||
+        entry.planningMode === "station" ||
+        entry.planningMode === "reserve"
           ? entry.planningMode
           : undefined,
       sectionStationCount:

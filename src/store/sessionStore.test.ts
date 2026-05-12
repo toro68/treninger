@@ -361,6 +361,77 @@ describe("sessionStore", () => {
       expect(parts[2]?.blocks[0]?.block.sectionStationCount).toBe(3);
       expect(nextState.planningSectionTarget).toBe("auto");
     });
+
+    it("should append exercises to a reserve section when reserve mode is active", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "single",
+        selectedExerciseIds: new Set([fixedWarmup!.id, exercises[0]!.id]),
+        plannedBlocks: [
+          { id: fixedWarmup!.id, exercise: fixedWarmup! },
+          { id: exercises[0]!.id, exercise: exercises[0]!, planningMode: "single" },
+        ],
+      });
+
+      useSessionStore.getState().setPlanningSectionMode("reserve");
+      useSessionStore.getState().toggleExercise(exercises[1]!.id);
+
+      const blocks = useSessionStore.getState().plannedBlocks ?? [];
+      expect(blocks.at(-1)?.id).toBe(exercises[1]!.id);
+      expect(blocks.at(-1)?.planningMode).toBe("reserve");
+
+      const parts = buildSessionParts(blocks, useSessionStore.getState().playerCount);
+      expect(parts.map((part) => part.title)).toEqual([
+        "1. Skadefri",
+        "2. Øvelse",
+        "Reserve",
+      ]);
+    });
+
+    it("should keep reserve blocks at the end when adding new single exercises", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      useSessionStore.setState({
+        planningSectionMode: "single",
+        selectedExerciseIds: new Set([fixedWarmup!.id, exercises[0]!.id]),
+        plannedBlocks: [
+          { id: fixedWarmup!.id, exercise: fixedWarmup! },
+          { id: exercises[0]!.id, exercise: exercises[0]!, planningMode: "reserve" },
+        ],
+      });
+
+      useSessionStore.getState().toggleExercise(exercises[1]!.id);
+
+      const blocks = useSessionStore.getState().plannedBlocks ?? [];
+      const reserveIndex = blocks.findIndex(
+        (block) => block.planningMode === "reserve"
+      );
+      const newBlockIndex = blocks.findIndex(
+        (block) => block.id === exercises[1]!.id
+      );
+
+      expect(newBlockIndex).toBeGreaterThanOrEqual(0);
+      expect(newBlockIndex).toBeLessThan(reserveIndex);
+    });
   });
 
   describe("getActivePlanningSection", () => {

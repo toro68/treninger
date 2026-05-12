@@ -189,7 +189,8 @@ export const SessionTimeline = () => {
   );
 
   const totalMinutes = sessionBlocks.reduce(
-    (acc, block) => acc + recommendedDuration(block),
+    (acc, block) =>
+      block.planningMode === "reserve" ? acc : acc + recommendedDuration(block),
     0
   );
   const activeSection = useMemo(
@@ -670,9 +671,17 @@ export const SessionTimeline = () => {
           {parts.map((part) => {
             const isCollapsible = part.key === "avslutning";
             const isVisible = !isCollapsible || showCooldown;
+            const isReserve = part.baseKey === "reserve";
 
             return (
-              <div key={part.key}>
+              <div
+                key={part.key}
+                className={
+                  isReserve
+                    ? "rounded-2xl border border-dashed border-zinc-300 bg-zinc-50/60 p-3"
+                    : undefined
+                }
+              >
                 {isCollapsible ? (
                   <button
                     onClick={() => setShowCooldown(!showCooldown)}

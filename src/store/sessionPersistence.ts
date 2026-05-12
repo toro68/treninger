@@ -447,7 +447,9 @@ export const hydratePlannedBlocks = (
         id: exercise.id,
         exercise,
         planningMode:
-          entry.planningMode === "single" || entry.planningMode === "station"
+          entry.planningMode === "single" ||
+          entry.planningMode === "station" ||
+          entry.planningMode === "reserve"
             ? entry.planningMode
             : undefined,
         sectionStationCount:
@@ -487,7 +489,9 @@ export const hydratePlannedBlocks = (
       id: exercise.id,
       exercise,
       planningMode:
-        entry.planningMode === "single" || entry.planningMode === "station"
+        entry.planningMode === "single" ||
+        entry.planningMode === "station" ||
+        entry.planningMode === "reserve"
           ? entry.planningMode
           : undefined,
       sectionStationCount:
