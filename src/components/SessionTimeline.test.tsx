@@ -155,7 +155,8 @@ describe("SessionTimeline sharing", () => {
 
   it("syncs saved-session controls when persistence finishes hydration", async () => {
     const persistApi = useSessionStore.persist;
-    let finishHydrationCallback: (() => void) | undefined;
+    type FinishHydrationListener = Parameters<typeof persistApi.onFinishHydration>[0];
+    let finishHydrationCallback: FinishHydrationListener | undefined;
     const hasHydratedSpy = vi.spyOn(persistApi, "hasHydrated").mockReturnValue(false);
     const onHydrateSpy = vi.spyOn(persistApi, "onHydrate").mockImplementation(() => () => {});
     const onFinishHydrationSpy = vi.spyOn(persistApi, "onFinishHydration").mockImplementation((callback) => {
@@ -188,7 +189,7 @@ describe("SessionTimeline sharing", () => {
           activeSavedSessionId: "saved-hydrated",
         });
         hasHydratedSpy.mockReturnValue(true);
-        finishHydrationCallback?.();
+        finishHydrationCallback?.(useSessionStore.getState());
       });
 
       expect(await screen.findByRole("button", { name: "Skjul lagrede" })).toBeInTheDocument();

@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect, beforeEach, vi } from "vitest";
 import { filterAndGroupExercises, getActivePlanningSection, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
 import type { Exercise } from "@/data/exercises";
 import { buildSessionParts } from "@/utils/sessionParts";
