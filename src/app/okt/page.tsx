@@ -47,6 +47,35 @@ function SharedSessionPageContent() {
       .filter((item) => !!item);
   }, [sharedSession]);
 
+  const favoriteExercises = useMemo(() => {
+    if (!sharedSession) return [];
+
+    const seen = new Set<string>();
+    return sharedSession.exerciseLibrary
+      .filter((exercise) => sharedSession.favoriteExerciseIds.has(exercise.id))
+      .filter((exercise) => {
+        if (seen.has(exercise.id)) return false;
+        seen.add(exercise.id);
+        return true;
+      })
+      .sort((a, b) => a.name.localeCompare(b.name, "nb"));
+  }, [sharedSession]);
+
+  const favoriteExerciseIdsInSession = useMemo(() => {
+    if (!sharedSession) return new Set<string>();
+    return new Set(sharedSession.sessionBlocks.map((block) => block.exercise.id));
+  }, [sharedSession]);
+
+  const favoriteExercisesInSession = useMemo(
+    () => favoriteExercises.filter((exercise) => favoriteExerciseIdsInSession.has(exercise.id)),
+    [favoriteExercises, favoriteExerciseIdsInSession]
+  );
+
+  const favoriteAlternativeExercises = useMemo(
+    () => favoriteExercises.filter((exercise) => !favoriteExerciseIdsInSession.has(exercise.id)),
+    [favoriteExercises, favoriteExerciseIdsInSession]
+  );
+
   const coachNames = sharedSession?.coachNames ?? [];
   const coachSummaryLabel = coachNames.length === 1 ? "Trener på økta" : "Trenere på økta";
   const playerSummary = sharedSession
@@ -159,6 +188,45 @@ function SharedSessionPageContent() {
                 ))}
               </div>
             </div>
+          ) : null}
+
+          {favoriteExercises.length > 0 ? (
+            <details className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/60 px-4 py-3">
+              <summary className="cursor-pointer select-none text-sm font-semibold text-amber-950 marker:text-amber-700">
+                {`Favoritter og alternativer (${favoriteExercises.length})`}
+              </summary>
+              <div className="mt-3 space-y-4 text-sm text-zinc-700">
+                {favoriteAlternativeExercises.length > 0 ? (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-amber-900">Tilgjengelige alternativer</p>
+                    <ul className="mt-2 space-y-2">
+                      {favoriteAlternativeExercises.map((exercise) => (
+                        <li key={exercise.id} className="rounded-xl border border-amber-100 bg-white px-3 py-2">
+                          <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
+                          <span className="ml-2 text-xs text-zinc-500">
+                            {exercise.category} · {exercise.theme} · {exercise.playersMin}-{exercise.playersMax} spillere · {exercise.duration} min
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {favoriteExercisesInSession.length > 0 ? (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-amber-900">Allerede i denne økta</p>
+                    <ul className="mt-2 space-y-2">
+                      {favoriteExercisesInSession.map((exercise) => (
+                        <li key={exercise.id} className="rounded-xl border border-amber-100 bg-white px-3 py-2">
+                          <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
+                          <span className="ml-2 text-xs text-zinc-500">{exercise.category} · {exercise.theme}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
+            </details>
           ) : null}
 
           <div className="mt-6 space-y-6">

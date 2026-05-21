@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
 import { createSharedSessionToken } from "@/utils/sessionShare";
@@ -169,5 +169,53 @@ describe("SharedSessionPage", () => {
     expect(variationsSection).toHaveAttribute("open");
     expect(coachingPoint).toBeVisible();
     expect(variation).toBeVisible();
+  });
+
+  it("shows favorite alternatives in the full session view", () => {
+    const favoriteExercise = allExercises.find((item) => item.category === "game");
+    const alternativeFavoriteExercise = allExercises.find(
+      (item) => item.category === "station" && item.id !== favoriteExercise?.id
+    );
+
+    expect(favoriteExercise).toBeDefined();
+    expect(alternativeFavoriteExercise).toBeDefined();
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt økt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([favoriteExercise!.id]),
+      selectedTheoryIds: new Set(),
+      favoriteExerciseIds: new Set([favoriteExercise!.id, alternativeFavoriteExercise!.id]),
+      plannedBlocks: [
+        {
+          id: favoriteExercise!.id,
+          exercise: favoriteExercise!,
+        },
+      ],
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const favoritesSummary = screen.getByText(`Favoritter og alternativer (2)`);
+    const favoritesSection = favoritesSummary.closest("details");
+    const alternativeName = within(favoritesSection!).getByText(
+      new RegExp(alternativeFavoriteExercise!.name)
+    );
+
+    expect(favoritesSection).not.toHaveAttribute("open");
+    expect(alternativeName).not.toBeVisible();
+
+    fireEvent.click(favoritesSummary);
+
+    expect(favoritesSection).toHaveAttribute("open");
+    expect(screen.getByText("Tilgjengelige alternativer")).toBeInTheDocument();
+    expect(alternativeName).toBeVisible();
   });
 });

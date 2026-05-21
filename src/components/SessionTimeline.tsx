@@ -40,6 +40,16 @@ const CATEGORY_LABELS: Record<Exercise["category"], string> = {
   cooldown: "Avslutning",
 };
 
+const EXERCISE_CATEGORY_ORDER: Exercise["category"][] = [
+  "fixed-warmup",
+  "warmup",
+  "aktivisering",
+  "rondo",
+  "station",
+  "game",
+  "cooldown",
+];
+
 export const SessionTimeline = () => {
   const selectedExerciseIds = useSessionStore((state) => state.selectedExerciseIds);
   const plannedBlocks = useSessionStore((state) => state.plannedBlocks);
@@ -56,6 +66,7 @@ export const SessionTimeline = () => {
   const sessionTitle = useSessionStore((state) => state.sessionTitle);
   const sessionComment = useSessionStore((state) => state.sessionComment);
   const selectedTheoryIds = useSessionStore((state) => state.selectedTheoryIds);
+  const favoriteIds = useSessionStore((state) => state.favoriteIds);
   const planningSectionTarget = useSessionStore((state) => state.planningSectionTarget);
   const setSessionTitle = useSessionStore((state) => state.setSessionTitle);
   const setSessionComment = useSessionStore((state) => state.setSessionComment);
@@ -89,6 +100,7 @@ export const SessionTimeline = () => {
   const [sectionCommentEditorForPartKey, setSectionCommentEditorForPartKey] = useState<string | null>(null);
   const [sessionName, setSessionName] = useState(() => activeSavedSession?.name ?? "");
   const [saveStatus, setSaveStatus] = useState<"idle" | "saved" | "loaded" | "deleted" | "error">("idle");
+  const [showFavorites, setShowFavorites] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -163,10 +175,11 @@ export const SessionTimeline = () => {
       coachNames,
       selectedExerciseIds,
       selectedTheoryIds,
+      favoriteExerciseIds: favoriteIds,
       plannedBlocks: sessionBlocks,
       exerciseLibrary,
     });
-  }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, sessionBlocks, exerciseLibrary]);
+  }, [sessionTitle, sessionComment, playerCount, keeperCount, stationCount, coachNames, selectedExerciseIds, selectedTheoryIds, favoriteIds, sessionBlocks, exerciseLibrary]);
 
   // Grupper blokker i faste deler (matcher kategoriene som vises i UI)
   const outfieldPlayerCount = useMemo(
@@ -344,6 +357,20 @@ export const SessionTimeline = () => {
   };
 
   const toggleExercise = useSessionStore((state) => state.toggleExercise);
+  const toggleFavorite = useSessionStore((state) => state.toggleFavorite);
+
+  const favoriteExercises = useMemo(() => {
+    const categoryOrder = new Map(EXERCISE_CATEGORY_ORDER.map((category, index) => [category, index]));
+
+    return exerciseLibrary
+      .filter((exercise) => favoriteIds.has(exercise.id))
+      .sort((a, b) => {
+        const aOrder = categoryOrder.get(a.category) ?? Number.MAX_SAFE_INTEGER;
+        const bOrder = categoryOrder.get(b.category) ?? Number.MAX_SAFE_INTEGER;
+        if (aOrder !== bOrder) return aOrder - bOrder;
+        return a.name.localeCompare(b.name, "nb");
+      });
+  }, [exerciseLibrary, favoriteIds]);
 
   const removeBlock = (index: number) => {
     const removed = sessionBlocks[index];
@@ -654,6 +681,76 @@ export const SessionTimeline = () => {
           onLoadSession={handleLoadSession}
           onDeleteSession={handleDeleteSession}
         />
+      ) : null}
+
+      {favoriteExercises.length > 0 ? (
+        <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/70 p-3">
+          <button
+            onClick={() => setShowFavorites(!showFavorites)}
+            className={`flex items-center gap-3 w-full rounded-xl border px-3 py-2 text-left transition ${
+              showFavorites
+                ? "border-amber-200 bg-amber-50"
+                : "border-amber-100 bg-white"
+            }`}
+            aria-expanded={showFavorites}
+          >
+            <div>
+              <h3 className="text-sm font-semibold text-zinc-800">Favoritter</h3>
+              <span className="text-xs text-zinc-500">{favoriteExercises.length} i biblioteket</span>
+            </div>
+            <span className={`ml-auto text-sm font-semibold transition ${showFavorites ? "text-zinc-600" : "text-zinc-400"}`}>
+              {showFavorites ? "Skjul" : "Vis"}
+            </span>
+          </button>
+
+          {showFavorites ? (
+            <div className="mt-2 space-y-2">
+              {favoriteExercises.map((exercise) => {
+                const isSelected = selectedExerciseIds.has(exercise.id);
+
+                return (
+                  <article
+                    key={exercise.id}
+                    className="rounded-xl border border-amber-100 bg-white px-3 py-2"
+                  >
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                      <div>
+                        <p className="text-sm font-medium text-zinc-900">{exercise.name}</p>
+                        <p className="text-xs text-zinc-500">
+                          {CATEGORY_LABELS[exercise.category]} · {exercise.playersMin}-{exercise.playersMax} spillere · {exercise.duration} min
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (!isSelected) toggleExercise(exercise.id);
+                          }}
+                          className={`rounded-full border px-3 py-1 text-xs transition ${
+                            isSelected
+                              ? "border-emerald-200 bg-emerald-50 text-emerald-700"
+                              : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
+                          }`}
+                          disabled={isSelected}
+                        >
+                          {isSelected ? "Lagt til i økt" : "Legg til i økt"}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => toggleFavorite(exercise.id)}
+                          className="rounded-full border border-amber-200 bg-white px-3 py-1 text-xs text-amber-900 transition hover:border-amber-400"
+                          aria-label={`Fjern ${exercise.name} fra favoritter`}
+                        >
+                          Fjern favoritt
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
       ) : null}
 
       {!hasContent ? (

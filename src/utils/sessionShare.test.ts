@@ -19,6 +19,7 @@ describe("sessionShare", () => {
       coachNames: ["Tor Inge", "John Arne", "Tor Inge"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(["theory-scan-before-ball"]),
+      favoriteExerciseIds: new Set([exercise!.id]),
       plannedBlocks: [
         {
           id: fixedWarmup!.id,
@@ -47,6 +48,7 @@ describe("sessionShare", () => {
     expect(decoded?.coachNames).toEqual(["Tor Inge", "John Arne"]);
     expect(decoded?.selectedExerciseIds.has(exercise!.id)).toBe(true);
     expect(decoded?.selectedTheoryIds.has("theory-scan-before-ball")).toBe(true);
+    expect(decoded?.favoriteExerciseIds.has(exercise!.id)).toBe(true);
     const sharedBlock = decoded?.sessionBlocks.find((block) => block.id === exercise!.id);
     expect(sharedBlock?.id).toBe(exercise!.id);
     expect(sharedBlock?.sectionComment).toBe("Felles beskjed til hele seksjonen.");
@@ -70,6 +72,7 @@ describe("sessionShare", () => {
       coachNames: ["Tor Inge", "Rune"],
       selectedExerciseIds: new Set([exercise!.id]),
       selectedTheoryIds: new Set(["theory-scan-before-ball"]),
+      favoriteExerciseIds: new Set([exercise!.id]),
       plannedBlocks: [{ id: exercise!.id, exercise: exercise! }],
       exerciseLibrary: allExercises,
     });
@@ -78,6 +81,7 @@ describe("sessionShare", () => {
     const decoded = decodeSharedSessionToken(new URL(url).searchParams.get("s"));
     expect(decoded?.coachNames).toEqual(["Tor Inge", "Rune"]);
     expect(decoded?.keeperCount).toBe(2);
+    expect(decoded?.favoriteExerciseIds.has(exercise!.id)).toBe(true);
   });
 
   it("round-trips custom exercises and alternatives in a shared token", () => {

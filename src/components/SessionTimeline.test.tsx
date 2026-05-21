@@ -124,6 +124,40 @@ describe("SessionTimeline sharing", () => {
     expect(within(coachSummary!).getByText("Dawid")).toBeInTheDocument();
   });
 
+  it("shows an expandable favorites library with quick actions", async () => {
+    const state = useSessionStore.getState();
+    const favoriteExercise = state.exerciseLibrary.find((item) => item.category === "game");
+
+    expect(favoriteExercise).toBeDefined();
+
+    useSessionStore.setState({
+      selectedExerciseIds: new Set(),
+      plannedBlocks: null,
+      favoriteIds: new Set([favoriteExercise!.id]),
+    });
+
+    render(<SessionTimeline />);
+
+    const favoritesToggle = await screen.findByRole("button", { name: /Favoritter/i });
+    expect(favoritesToggle).toHaveAttribute("aria-expanded", "false");
+
+    fireEvent.click(favoritesToggle);
+
+    expect(favoritesToggle).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByText(favoriteExercise!.name)).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Legg til i økt" }));
+    expect(useSessionStore.getState().selectedExerciseIds.has(favoriteExercise!.id)).toBe(true);
+
+    fireEvent.click(
+      screen.getByRole("button", {
+        name: `Fjern ${favoriteExercise!.name} fra favoritter`,
+      })
+    );
+
+    expect(useSessionStore.getState().favoriteIds.has(favoriteExercise!.id)).toBe(false);
+  });
+
   it("waits for persistence hydration instead of revealing the default plan on a timer", () => {
     vi.useFakeTimers();
 

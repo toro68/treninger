@@ -71,6 +71,7 @@ type SharedSessionPayloadV2 = {
   coachNames?: string[];
   selectedExerciseIds: string[];
   selectedTheoryIds: string[];
+  favoriteExerciseIds?: string[];
   plannedBlocks: SharedBlock[] | null;
 };
 
@@ -84,6 +85,7 @@ type SharedSessionPayloadV3 = {
   coachNames?: string[];
   selectedExerciseIds: string[];
   selectedTheoryIds: string[];
+  favoriteExerciseIds?: string[];
   plannedBlocks: SharedBlock[] | null;
   sharedExercises?: Exercise[];
 };
@@ -99,6 +101,7 @@ export type SharedSessionData = {
   coachNames: string[];
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
+  favoriteExerciseIds: Set<string>;
   exerciseLibrary: Exercise[];
   sessionBlocks: SessionBlock[];
 };
@@ -469,6 +472,7 @@ export const createSharedSessionToken = ({
   coachNames,
   selectedExerciseIds,
   selectedTheoryIds,
+  favoriteExerciseIds,
   plannedBlocks,
   exerciseLibrary,
 }: {
@@ -480,9 +484,16 @@ export const createSharedSessionToken = ({
   coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
+  favoriteExerciseIds?: Set<string>;
   plannedBlocks: SessionBlock[] | null;
   exerciseLibrary?: Exercise[];
 }) => {
+  const favoriteIdSource = new Set((exerciseLibrary ?? allExercises).map((exercise) => exercise.id));
+  const normalizedFavoriteExerciseIds =
+    favoriteExerciseIds && favoriteExerciseIds.size > 0
+      ? [...favoriteExerciseIds].filter((id) => favoriteIdSource.has(id))
+      : [];
+
   const payload: SharedSessionPayloadV3 = {
     version: 3,
     sessionTitle: normalizeOptionalText(sessionTitle),
@@ -493,6 +504,10 @@ export const createSharedSessionToken = ({
     coachNames: normalizeCoachNames(coachNames),
     selectedExerciseIds: [...selectedExerciseIds],
     selectedTheoryIds: normalizeTheoryIds(selectedTheoryIds),
+    favoriteExerciseIds:
+      normalizedFavoriteExerciseIds.length > 0
+        ? normalizedFavoriteExerciseIds
+        : undefined,
     plannedBlocks: serializePlannedBlocks(plannedBlocks),
     sharedExercises: collectSharedExercises({ selectedExerciseIds, plannedBlocks, exerciseLibrary }),
   };
@@ -510,6 +525,7 @@ export const buildSharedSessionUrl = ({
   coachNames,
   selectedExerciseIds,
   selectedTheoryIds,
+  favoriteExerciseIds,
   plannedBlocks,
   exerciseLibrary,
 }: {
@@ -522,6 +538,7 @@ export const buildSharedSessionUrl = ({
   coachNames: Iterable<string>;
   selectedExerciseIds: Set<string>;
   selectedTheoryIds: Set<string>;
+  favoriteExerciseIds?: Set<string>;
   plannedBlocks: SessionBlock[] | null;
   exerciseLibrary?: Exercise[];
 }) => {
@@ -534,6 +551,7 @@ export const buildSharedSessionUrl = ({
     coachNames,
     selectedExerciseIds,
     selectedTheoryIds,
+    favoriteExerciseIds,
     plannedBlocks,
     exerciseLibrary,
   });
@@ -577,6 +595,16 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
           : undefined
       )
     );
+    const favoriteExerciseIdsFromPayload =
+      "favoriteExerciseIds" in parsed && Array.isArray(parsed.favoriteExerciseIds)
+        ? parsed.favoriteExerciseIds
+        : [];
+    const favoriteExerciseIds = new Set(
+      favoriteExerciseIdsFromPayload.filter(
+        (id): id is string =>
+          typeof id === "string" && exerciseLibrary.some((exercise) => exercise.id === id)
+      )
+    );
 
     const plannedBlocks = hydratePlannedBlocks(
       Array.isArray(parsed.plannedBlocks) ? (parsed.plannedBlocks as SharedBlock[]) : null
@@ -601,6 +629,7 @@ export const decodeSharedSessionToken = (token: string | null): SharedSessionDat
       coachNames,
       selectedExerciseIds,
       selectedTheoryIds,
+      favoriteExerciseIds,
       exerciseLibrary,
       sessionBlocks: mergeWithPlannedOrder(selectedExerciseIds, plannedBlocks, exerciseLibrary),
     };
