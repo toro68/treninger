@@ -40,6 +40,30 @@ function SharedSessionPageContent() {
     [sharedSession]
   );
 
+  const shortOverview = useMemo(() => {
+    return parts.map((part) => {
+      const duration = part.blocks.reduce(
+        (sum, { block }) => sum + recommendedDuration(block),
+        0
+      );
+
+      let label: string;
+      if (part.baseKey === "skadefri") {
+        label = "Skadefri";
+      } else if (part.baseKey === "stasjoner") {
+        const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
+        label = `Stasjoner (${stationCount})`;
+      } else if (part.baseKey === "reserve") {
+        label = "Reserve";
+      } else {
+        const block = part.blocks[0]?.block;
+        label = block?.customTitle?.trim() || block?.exercise.name || "Øvelse";
+      }
+
+      return { key: part.key, duration, label };
+    });
+  }, [parts]);
+
   const selectedTheoryItems = useMemo(() => {
     if (!sharedSession) return [];
     return [...sharedSession.selectedTheoryIds]
@@ -155,6 +179,23 @@ function SharedSessionPageContent() {
       <AppHeader />
       <main id="main" className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
         <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm sm:p-8">
+          {shortOverview.length > 0 ? (
+            <section className="mb-4 rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
+              <ul className="mt-2 flex flex-wrap gap-2 text-xs text-sky-950">
+                {shortOverview.map((item) => (
+                  <li
+                    key={item.key}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1"
+                  >
+                    <span className="font-medium">{item.label}</span>
+                    <span className="text-sky-700">{item.duration}m</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
           <div className="flex flex-col gap-4 border-b border-zinc-200 pb-6 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">Fullversjon</p>
@@ -201,11 +242,33 @@ function SharedSessionPageContent() {
                     <p className="text-xs font-semibold uppercase tracking-wide text-amber-900">Tilgjengelige alternativer</p>
                     <ul className="mt-2 space-y-2">
                       {favoriteAlternativeExercises.map((exercise) => (
-                        <li key={exercise.id} className="rounded-xl border border-amber-100 bg-white px-3 py-2">
-                          <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
-                          <span className="ml-2 text-xs text-zinc-500">
-                            {exercise.category} · {exercise.theme} · {exercise.playersMin}-{exercise.playersMax} spillere · {exercise.duration} min
-                          </span>
+                        <li key={exercise.id}>
+                          <details className="group rounded-xl border border-amber-100 bg-white px-3 py-2">
+                            <summary className="flex cursor-pointer select-none items-baseline gap-2 list-none marker:hidden">
+                              <span aria-hidden className="text-amber-700 transition group-open:rotate-90">▸</span>
+                              <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
+                              <span className="text-xs text-zinc-500">
+                                {exercise.category} · {exercise.theme} · {exercise.playersMin}-{exercise.playersMax} spillere · {exercise.duration} min
+                              </span>
+                            </summary>
+                            <div className="mt-3 space-y-3 border-t border-amber-100 pt-3">
+                              {exercise.description.trim() ? (
+                                <p className="text-sm leading-6 text-zinc-700">{exercise.description}</p>
+                              ) : null}
+                              {exercise.imageUrl ? (
+                                <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-3">
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img
+                                    src={exercise.imageUrl}
+                                    alt={`Diagram for ${exercise.name}`}
+                                    className="block max-h-[280px] w-full object-contain"
+                                    loading="lazy"
+                                    decoding="async"
+                                  />
+                                </div>
+                              ) : null}
+                            </div>
+                          </details>
                         </li>
                       ))}
                     </ul>
@@ -217,9 +280,31 @@ function SharedSessionPageContent() {
                     <p className="text-xs font-semibold uppercase tracking-wide text-amber-900">Allerede i denne økta</p>
                     <ul className="mt-2 space-y-2">
                       {favoriteExercisesInSession.map((exercise) => (
-                        <li key={exercise.id} className="rounded-xl border border-amber-100 bg-white px-3 py-2">
-                          <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
-                          <span className="ml-2 text-xs text-zinc-500">{exercise.category} · {exercise.theme}</span>
+                        <li key={exercise.id}>
+                          <details className="group rounded-xl border border-amber-100 bg-white px-3 py-2">
+                            <summary className="flex cursor-pointer select-none items-baseline gap-2 list-none marker:hidden">
+                              <span aria-hidden className="text-amber-700 transition group-open:rotate-90">▸</span>
+                              <span className="font-medium text-zinc-900">[{getExerciseCode(exercise)}] {exercise.name}</span>
+                              <span className="text-xs text-zinc-500">{exercise.category} · {exercise.theme}</span>
+                            </summary>
+                            <div className="mt-3 space-y-3 border-t border-amber-100 pt-3">
+                              {exercise.description.trim() ? (
+                                <p className="text-sm leading-6 text-zinc-700">{exercise.description}</p>
+                              ) : null}
+                              {exercise.imageUrl ? (
+                                <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-3">
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img
+                                    src={exercise.imageUrl}
+                                    alt={`Diagram for ${exercise.name}`}
+                                    className="block max-h-[280px] w-full object-contain"
+                                    loading="lazy"
+                                    decoding="async"
+                                  />
+                                </div>
+                              ) : null}
+                            </div>
+                          </details>
                         </li>
                       ))}
                     </ul>
