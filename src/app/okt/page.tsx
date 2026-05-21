@@ -14,7 +14,7 @@ import {
 } from "@/data/sessionTheory";
 import { AppHeader } from "@/components/AppHeader";
 import { decodeSharedSessionToken } from "@/utils/sessionShare";
-import { getOutfieldPlayerCount, getUnit, recommendedDuration } from "@/store/sessionStore";
+import { getOutfieldPlayerCount, getUnit, recommendedDuration, type SessionBlock } from "@/store/sessionStore";
 import { buildSessionParts, getStationPlanSummary } from "@/utils/sessionParts";
 
 function SharedSessionPageContent() {
@@ -41,6 +41,9 @@ function SharedSessionPageContent() {
   );
 
   const shortOverview = useMemo(() => {
+    const blockLabel = (block: SessionBlock) =>
+      block.customTitle?.trim() || block.exercise.name;
+
     return parts.map((part) => {
       const duration = part.blocks.reduce(
         (sum, { block }) => sum + recommendedDuration(block),
@@ -48,19 +51,21 @@ function SharedSessionPageContent() {
       );
 
       let label: string;
+      let stationLabels: string[] | undefined;
       if (part.baseKey === "skadefri") {
         label = "Skadefri";
       } else if (part.baseKey === "stasjoner") {
         const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
         label = `Stasjoner (${stationCount})`;
+        stationLabels = part.blocks.map(({ block }) => blockLabel(block));
       } else if (part.baseKey === "reserve") {
         label = "Reserve";
       } else {
         const block = part.blocks[0]?.block;
-        label = block?.customTitle?.trim() || block?.exercise.name || "Øvelse";
+        label = block ? blockLabel(block) : "Øvelse";
       }
 
-      return { key: part.key, duration, label };
+      return { key: part.key, duration, label, stationLabels };
     });
   }, [parts]);
 
@@ -182,14 +187,16 @@ function SharedSessionPageContent() {
           {shortOverview.length > 0 ? (
             <section className="mb-4 rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
-              <ul className="mt-2 flex flex-wrap gap-2 text-xs text-sky-950">
+              <ul className="mt-2 space-y-1.5 text-xs text-sky-950">
                 {shortOverview.map((item) => (
-                  <li
-                    key={item.key}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1"
-                  >
-                    <span className="font-medium">{item.label}</span>
-                    <span className="text-sky-700">{item.duration}m</span>
+                  <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">
+                    <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
+                      <span className="font-medium">{item.label}</span>
+                      <span className="text-sky-700">{item.duration}m</span>
+                    </span>
+                    {item.stationLabels && item.stationLabels.length > 0 ? (
+                      <span className="text-sky-900">{item.stationLabels.join(" · ")}</span>
+                    ) : null}
                   </li>
                 ))}
               </ul>
