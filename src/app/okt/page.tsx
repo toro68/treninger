@@ -255,6 +255,32 @@ function SharedSessionPageContent() {
                               {exercise.description.trim() ? (
                                 <p className="text-sm leading-6 text-zinc-700">{exercise.description}</p>
                               ) : null}
+                              {exercise.coachingPoints.length > 0 ? (
+                                <div>
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching</p>
+                                  <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+                                    {exercise.coachingPoints.map((point) => (
+                                      <li key={point}>• {point}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ) : null}
+                              {exercise.variations.length > 0 ? (
+                                <div>
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Variasjoner</p>
+                                  <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+                                    {exercise.variations.map((variation) => (
+                                      <li key={variation}>• {variation}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ) : null}
+                              {exercise.equipment.length > 0 ? (
+                                <p className="text-xs text-zinc-600">
+                                  <span className="font-semibold text-zinc-700">Utstyr:</span>{" "}
+                                  {exercise.equipment.join(", ")}
+                                </p>
+                              ) : null}
                               {exercise.imageUrl ? (
                                 <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-3">
                                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -290,6 +316,32 @@ function SharedSessionPageContent() {
                             <div className="mt-3 space-y-3 border-t border-amber-100 pt-3">
                               {exercise.description.trim() ? (
                                 <p className="text-sm leading-6 text-zinc-700">{exercise.description}</p>
+                              ) : null}
+                              {exercise.coachingPoints.length > 0 ? (
+                                <div>
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Coaching</p>
+                                  <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+                                    {exercise.coachingPoints.map((point) => (
+                                      <li key={point}>• {point}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ) : null}
+                              {exercise.variations.length > 0 ? (
+                                <div>
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Variasjoner</p>
+                                  <ul className="mt-1 space-y-1 text-sm text-zinc-700">
+                                    {exercise.variations.map((variation) => (
+                                      <li key={variation}>• {variation}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ) : null}
+                              {exercise.equipment.length > 0 ? (
+                                <p className="text-xs text-zinc-600">
+                                  <span className="font-semibold text-zinc-700">Utstyr:</span>{" "}
+                                  {exercise.equipment.join(", ")}
+                                </p>
                               ) : null}
                               {exercise.imageUrl ? (
                                 <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 p-3">

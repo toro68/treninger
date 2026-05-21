@@ -218,4 +218,47 @@ describe("SharedSessionPage", () => {
     expect(screen.getByText("Tilgjengelige alternativer")).toBeInTheDocument();
     expect(alternativeName).toBeVisible();
   });
+
+  it("reveals extra favorite details only after opening the favorite exercise", () => {
+    const alternativeFavoriteExercise = allExercises.find((item) =>
+      item.coachingPoints.length > 0 && item.variations.length > 0 && item.equipment.length > 0
+    );
+
+    expect(alternativeFavoriteExercise).toBeDefined();
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt økt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set(),
+      selectedTheoryIds: new Set(),
+      favoriteExerciseIds: new Set([alternativeFavoriteExercise!.id]),
+      plannedBlocks: [],
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const favoritesSummary = screen.getByText("Favoritter og alternativer (1)");
+    fireEvent.click(favoritesSummary);
+
+    const exerciseSummary = screen.getByText(new RegExp(`\\[.*\\] ${alternativeFavoriteExercise!.name}`));
+    const favoriteItemDetails = exerciseSummary.closest("details");
+    const equipmentLabel = screen.getByText("Utstyr:");
+
+    expect(favoriteItemDetails).not.toHaveAttribute("open");
+    expect(equipmentLabel).not.toBeVisible();
+
+    fireEvent.click(exerciseSummary);
+
+    expect(favoriteItemDetails).toHaveAttribute("open");
+    expect(screen.getByText("Coaching")).toBeInTheDocument();
+    expect(screen.getByText("Variasjoner")).toBeInTheDocument();
+    expect(equipmentLabel).toBeVisible();
+  });
 });
