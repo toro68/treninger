@@ -705,6 +705,32 @@ export const exercises: ExerciseData[] = [
     source: "staal",
   },
   {
+    id: "langpasning-tvers-av-banen-2-og-2",
+    exerciseNumber: 99,
+    name: "Langpasning på tvers av banen (2 og 2)",
+    category: "station",
+    duration: 10,
+    playersMin: 2,
+    playersMax: 20,
+    theme: "pasning",
+    equipment: ["baller", "kjegler"],
+    description:
+      "To og to spillere jobber på tvers av banen med én ball per par. Spillerne står med god avstand og slår lange pasninger til hverandre med kontrollert mottak før neste pasning.",
+    coachingPoints: [
+      "Treffpunkt og kroppsvinkel: stå sidestilt og treff ballen rent for stabil lengde",
+      "Førstetouch fram i rom slik at neste pasning kan slås i flyt",
+      "Skann før mottak og orienter kroppen mot neste handling",
+      "Bytt mellom høyre og venstre fot for lik kvalitet begge veier",
+    ],
+    variations: [
+      "Maks to touch per mottak",
+      "Annenhver pasning i luft og langs bakken",
+      "Sett tidsmål: antall presise langpasninger på 60 sekunder",
+    ],
+    scalable: true,
+    source: "staal",
+  },
+  {
     id: "styrke-generic",
     exerciseNumber: 32,
     name: "Styrke",
