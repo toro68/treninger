@@ -90,14 +90,62 @@ describe("SharedSessionPage", () => {
     const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
 
     expect(shortOverview).not.toBeNull();
-    expect(within(shortOverview!).getByText("Kjøres samtidig")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjoner (3 samtidig)")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjoner · samtidig")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjonsrunde (3 samtidig)")).toBeInTheDocument();
     expect(within(shortOverview!).getByText(/ikke kjør dem etter hverandre/)).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 1:")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 2:")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 3:")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("S1")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("S2")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("S3")).toBeInTheDocument();
     expect(within(shortOverview!).getByText(/Lånå - rondo 2v2v2/)).toBeInTheDocument();
     expect(within(shortOverview!).queryByText("Øvelse")).not.toBeInTheDocument();
+  });
+
+  it("turns a flat legacy middle block into a clear simultaneous station round", () => {
+    const fixedWarmup = allExercises.find(
+      (item) => item.category === "fixed-warmup" && item.alwaysIncluded
+    );
+    const exerciseNames = [
+      "Lånå - rondo 2v2v2 / 3v3v3",
+      "Rask 2v2",
+      "2v2 i midtsirkel med vegger",
+      "Langpasning på tvers av banen (2 og 2)",
+      "Skudd",
+      "Spill: 2 lag, 1 bane",
+    ];
+    const exercises = exerciseNames.map((name) => allExercises.find((item) => item.name === name));
+
+    expect(fixedWarmup).toBeDefined();
+    exercises.forEach((exercise) => expect(exercise).toBeDefined());
+    const plannedExercises = [fixedWarmup!, ...exercises.map((exercise) => exercise!)];
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt stasjonsøkt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 3,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set(plannedExercises.map((exercise) => exercise.id)),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: plannedExercises.map((exercise) => ({
+        id: exercise.id,
+        exercise,
+      })),
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
+
+    expect(shortOverview).not.toBeNull();
+    expect(within(shortOverview!).getByText("Stasjonsrunde (5 samtidige øvelser)")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("20m totalt")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("S1")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("S5")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Spill: 2 lag, 1 bane")).toBeInTheDocument();
   });
 
   it("shows section comments in the full session view", () => {
