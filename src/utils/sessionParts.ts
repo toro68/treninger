@@ -24,6 +24,10 @@ const getPartBaseKey = (block: SessionBlock) => {
     return "stasjoner";
   }
 
+  if (block.planningMode !== "single" && typeof block.sectionStationCount === "number") {
+    return "stasjoner";
+  }
+
   const category = block.exercise.category;
 
   if (category === "fixed-warmup") {

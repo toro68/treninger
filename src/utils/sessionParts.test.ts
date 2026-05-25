@@ -131,6 +131,28 @@ describe("sessionParts", () => {
     expect(parts[1].subtitle).toBe("3 stasjoner · 7 spillere per stasjon");
   });
 
+  it("uses station count metadata even if old shared blocks are missing planning mode", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("rondo-1", "Rondo som stasjon", "rondo", undefined, {
+        sectionStationCount: 3,
+      }),
+      createBlock("game-1", "2v2 som stasjon", "game", undefined, {
+        sectionStationCount: 3,
+      }),
+      createBlock("station-1", "Pasning som stasjon", "station", undefined, {
+        sectionStationCount: 3,
+      }),
+      createBlock("game-2", "Felles spill", "game"),
+    ];
+
+    const parts = buildSessionParts(blocks, 15);
+
+    expect(parts.map((part) => part.title)).toEqual(["1. Stasjoner", "2. Øvelse"]);
+    expect(parts[0].blocks.map((entry) => entry.block.id)).toEqual(["rondo-1", "game-1", "station-1"]);
+    expect(parts[0].subtitle).toBe("3 stasjoner · 5 spillere per stasjon");
+    expect(parts[1].blocks.map((entry) => entry.block.id)).toEqual(["game-2"]);
+  });
+
   it("collects a section comment for the built session part", () => {
     const blocks: SessionBlock[] = [
       createBlock("game-1", "Spill 1", "game", undefined, {

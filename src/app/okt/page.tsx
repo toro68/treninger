@@ -56,7 +56,7 @@ function SharedSessionPageContent() {
         label = "Skadefri";
       } else if (part.baseKey === "stasjoner") {
         const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
-        label = `Stasjoner (${stationCount})`;
+        label = `Stasjoner (${stationCount} samtidig)`;
         stationLabels = part.blocks.map(({ block }) => blockLabel(block));
       } else if (part.baseKey === "reserve") {
         label = "Reserve";
@@ -189,15 +189,38 @@ function SharedSessionPageContent() {
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
               <ul className="mt-2 space-y-1.5 text-xs text-sky-950">
                 {shortOverview.map((item) => (
-                  <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
-                      <span className="font-medium">{item.label}</span>
-                      <span className="text-sky-700">{item.duration}m</span>
-                    </span>
-                    {item.stationLabels && item.stationLabels.length > 0 ? (
-                      <span className="text-sky-900">{item.stationLabels.join(" · ")}</span>
-                    ) : null}
-                  </li>
+                  item.stationLabels && item.stationLabels.length > 0 ? (
+                    <li key={item.key} className="rounded-2xl border border-sky-300 bg-white p-3 shadow-sm">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="inline-flex items-center rounded-full bg-sky-900 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
+                            Kjøres samtidig
+                          </span>
+                          <span className="font-semibold text-sky-950">{item.label}</span>
+                        </div>
+                        <span className="rounded-full border border-sky-200 bg-sky-50 px-2.5 py-1 font-medium text-sky-800">
+                          {item.duration}m totalt
+                        </span>
+                      </div>
+                      <p className="mt-2 text-xs leading-5 text-sky-900">
+                        Dette er samtidige øvelser: del spillerne på stasjonene under, ikke kjør dem etter hverandre.
+                      </p>
+                      <ol className="mt-2 grid gap-1.5 sm:grid-cols-2">
+                        {item.stationLabels.map((stationLabel, stationIndex) => (
+                          <li key={`${item.key}-${stationLabel}`} className="rounded-xl border border-sky-100 bg-sky-50 px-3 py-2 text-xs text-sky-950">
+                            <span className="font-semibold">{`Stasjon ${stationIndex + 1}:`}</span> {stationLabel}
+                          </li>
+                        ))}
+                      </ol>
+                    </li>
+                  ) : (
+                    <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
+                        <span className="font-medium">{item.label}</span>
+                        <span className="text-sky-700">{item.duration}m</span>
+                      </span>
+                    </li>
+                  )
                 ))}
               </ul>
             </section>

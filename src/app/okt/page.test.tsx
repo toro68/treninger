@@ -57,6 +57,49 @@ describe("SharedSessionPage", () => {
     expect(screen.getAllByText("Kjøres samtidig med de andre stasjonene")).toHaveLength(2);
   });
 
+  it("groups old shared station blocks in the short overview when station count metadata exists", () => {
+    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3");
+    const gameExercise = allExercises.find((item) => item.name === "2v2 i midtsirkel med vegger");
+    const stationExercise = allExercises.find((item) => item.name === "Langpasning på tvers av banen (2 og 2)");
+
+    expect(rondoExercise).toBeDefined();
+    expect(gameExercise).toBeDefined();
+    expect(stationExercise).toBeDefined();
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt stasjonsøkt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 3,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([rondoExercise!.id, gameExercise!.id, stationExercise!.id]),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [rondoExercise!, gameExercise!, stationExercise!].map((exercise) => ({
+        id: exercise.id,
+        exercise,
+        sectionStationCount: 3,
+      })),
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
+
+    expect(shortOverview).not.toBeNull();
+    expect(within(shortOverview!).getByText("Kjøres samtidig")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjoner (3 samtidig)")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText(/ikke kjør dem etter hverandre/)).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjon 1:")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjon 2:")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjon 3:")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText(/Lånå - rondo 2v2v2/)).toBeInTheDocument();
+    expect(within(shortOverview!).queryByText("Øvelse")).not.toBeInTheDocument();
+  });
+
   it("shows section comments in the full session view", () => {
     const fixedWarmup = allExercises.find(
       (item) => item.category === "fixed-warmup" && item.alwaysIncluded
