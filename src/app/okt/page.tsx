@@ -44,12 +44,11 @@ function SharedSessionPageContent() {
     const blockLabel = (block: SessionBlock) =>
       block.customTitle?.trim() || block.exercise.name;
 
-    const items = parts.map((part) => {
+    return parts.map((part) => {
       const duration = part.blocks.reduce(
         (sum, { block }) => sum + recommendedDuration(block),
         0
       );
-      const firstBlock = part.blocks[0]?.block;
 
       let label: string;
       let stationLabels: string[] | undefined;
@@ -57,49 +56,18 @@ function SharedSessionPageContent() {
         label = "Skadefri";
       } else if (part.baseKey === "stasjoner") {
         const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
-        label = `Stasjonsrunde (${stationCount} samtidig)`;
+        label = `Stasjoner (${stationCount} samtidig)`;
         stationLabels = part.blocks.map(({ block }) => blockLabel(block));
       } else if (part.baseKey === "reserve") {
         label = "Reserve";
       } else {
-        label = firstBlock ? blockLabel(firstBlock) : "Øvelse";
+        const block = part.blocks[0]?.block;
+        label = block ? blockLabel(block) : "Øvelse";
       }
 
-      return { key: part.key, duration, label, part, stationLabels };
+      return { key: part.key, duration, label, stationLabels };
     });
-
-    if (!sharedSession || sharedSession.stationCount < 2) return items;
-
-    const isFinalGame = (item: typeof items[number]) => {
-      const block = item.part.blocks[0]?.block;
-      if (!block || item.part.baseKey !== "ovelse" || block.exercise.category !== "game") return false;
-      const name = blockLabel(block).toLocaleLowerCase("nb-NO");
-      return block.exercise.theme === "spill" || block.exercise.theme === "smålagsspill" || name.startsWith("spill") || name.startsWith("cup");
-    };
-    const firstCandidateIndex = items.findIndex((item) => item.part.baseKey !== "skadefri");
-    const finalGameIndex = items.findLastIndex(isFinalGame);
-    const stationStartIndex = firstCandidateIndex === -1 ? 0 : firstCandidateIndex;
-    const stationEndIndex = finalGameIndex > stationStartIndex ? finalGameIndex : items.length;
-    const stationCandidateItems = items.slice(stationStartIndex, stationEndIndex).filter(
-      (item) => item.part.baseKey !== "skadefri" && item.part.baseKey !== "reserve" && item.part.blocks.length > 0
-    );
-    const hasFlatCandidate = stationCandidateItems.some((item) => item.part.baseKey === "ovelse");
-    const inferredStationLabels = stationCandidateItems.flatMap((item) => item.stationLabels ?? [item.label]);
-
-    if (!hasFlatCandidate || inferredStationLabels.length < Math.max(2, sharedSession.stationCount)) return items;
-
-    return [
-      ...items.slice(0, stationStartIndex),
-      {
-        key: `inferred-stations-${stationStartIndex}`,
-        duration: Math.max(...stationCandidateItems.map((item) => item.duration)),
-        label: `Stasjonsrunde (${inferredStationLabels.length} samtidige øvelser)`,
-        part: stationCandidateItems[0]!.part,
-        stationLabels: inferredStationLabels,
-      },
-      ...items.slice(stationEndIndex),
-    ];
-  }, [parts, sharedSession]);
+  }, [parts]);
 
   const selectedTheoryItems = useMemo(() => {
     if (!sharedSession) return [];
@@ -219,16 +187,16 @@ function SharedSessionPageContent() {
           {shortOverview.length > 0 ? (
             <section className="mb-4 rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
-              <ul className="mt-3 space-y-3 text-xs text-sky-950">
+              <ul className="mt-2 space-y-1.5 text-xs text-sky-950">
                 {shortOverview.map((item) => (
                   item.stationLabels && item.stationLabels.length > 0 ? (
-                    <li key={item.key} className="rounded-2xl border-2 border-sky-700 bg-white p-4 shadow-sm">
+                    <li key={item.key} className="rounded-2xl border border-sky-300 bg-white p-3 shadow-sm">
                       <div className="flex flex-wrap items-center justify-between gap-2">
                         <div className="flex flex-wrap items-center gap-2">
                           <span className="inline-flex items-center rounded-full bg-sky-900 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
-                            Stasjoner · samtidig
+                            Kjøres samtidig
                           </span>
-                          <span className="text-sm font-semibold text-sky-950">{item.label}</span>
+                          <span className="font-semibold text-sky-950">{item.label}</span>
                         </div>
                         <span className="rounded-full border border-sky-200 bg-sky-50 px-2.5 py-1 font-medium text-sky-800">
                           {item.duration}m totalt
@@ -237,20 +205,20 @@ function SharedSessionPageContent() {
                       <p className="mt-2 text-xs leading-5 text-sky-900">
                         Dette er samtidige øvelser: del spillerne på stasjonene under, ikke kjør dem etter hverandre.
                       </p>
-                      <ol className="mt-3 grid gap-2 sm:grid-cols-2">
+                      <ol className="mt-2 grid gap-1.5 sm:grid-cols-2">
                         {item.stationLabels.map((stationLabel, stationIndex) => (
-                          <li key={`${item.key}-${stationLabel}`} className="grid grid-cols-[auto_1fr] gap-2 rounded-xl border border-sky-200 bg-sky-50 px-3 py-2 text-xs text-sky-950">
-                            <span className="rounded bg-sky-900 px-1.5 py-0.5 text-[10px] font-semibold text-white">{`S${stationIndex + 1}`}</span>
-                            <span>{stationLabel}</span>
+                          <li key={`${item.key}-${stationLabel}`} className="rounded-xl border border-sky-100 bg-sky-50 px-3 py-2 text-xs text-sky-950">
+                            <span className="font-semibold">{`Stasjon ${stationIndex + 1}:`}</span> {stationLabel}
                           </li>
                         ))}
                       </ol>
                     </li>
                   ) : (
-                    <li key={item.key} className="grid grid-cols-[auto_1fr_auto] items-center gap-3 rounded-xl border border-sky-100 bg-white px-3 py-2">
-                      <span className="h-2 w-2 rounded-full bg-sky-500" aria-hidden />
-                      <span className="min-w-0 truncate font-medium text-sky-950">{item.label}</span>
-                      <span className="font-medium text-sky-700">{item.duration}m</span>
+                    <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
+                        <span className="font-medium">{item.label}</span>
+                        <span className="text-sky-700">{item.duration}m</span>
+                      </span>
                     </li>
                   )
                 ))}
