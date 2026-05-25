@@ -102,7 +102,7 @@ export const buildSessionParts = (
           new Set(playerCounts).size === 1
             ? `${playerCounts[0]} spillere per stasjon`
             : `${playerCounts.join(" + ")} spillere`;
-        part.subtitle = `${stationCount} stasjon${stationCount > 1 ? "er" : ""} · ${splitLabel}`;
+        part.subtitle = `${stationCount} samtidige stasjon${stationCount > 1 ? "er" : ""} · ${splitLabel}`;
       }
       return;
     }

@@ -82,8 +82,8 @@ describe("sessionParts", () => {
     const parts = buildSessionParts(blocks, 15);
 
     expect(getStationPlanSummary(parts)).toBe("2 + 3 stasjoner");
-    expect(parts[0].subtitle).toBe("2 stasjoner · 7 + 8 spillere");
-    expect(parts[1].subtitle).toBe("3 stasjoner · 5 spillere per stasjon");
+    expect(parts[0].subtitle).toBe("2 samtidige stasjoner · 7 + 8 spillere");
+    expect(parts[1].subtitle).toBe("3 samtidige stasjoner · 5 spillere per stasjon");
   });
 
   it("uses the intended station count while a station section is still being filled", () => {
@@ -96,7 +96,7 @@ describe("sessionParts", () => {
 
     const parts = buildSessionParts(blocks, 21);
 
-    expect(parts[0].subtitle).toBe("4 stasjoner · 5 + 5 + 5 + 6 spillere");
+    expect(parts[0].subtitle).toBe("4 samtidige stasjoner · 5 + 5 + 5 + 6 spillere");
     expect(getStationPlanSummary(parts)).toBe("4 stasjoner");
   });
 
@@ -127,8 +127,8 @@ describe("sessionParts", () => {
     const parts = buildSessionParts(blocks, 21);
 
     expect(parts.map((part) => part.title)).toEqual(["1. Stasjoner", "2. Stasjoner"]);
-    expect(parts[0].subtitle).toBe("2 stasjoner · 10 + 11 spillere");
-    expect(parts[1].subtitle).toBe("3 stasjoner · 7 spillere per stasjon");
+    expect(parts[0].subtitle).toBe("2 samtidige stasjoner · 10 + 11 spillere");
+    expect(parts[1].subtitle).toBe("3 samtidige stasjoner · 7 spillere per stasjon");
   });
 
   it("uses station count metadata even if old shared blocks are missing planning mode", () => {
@@ -149,7 +149,7 @@ describe("sessionParts", () => {
 
     expect(parts.map((part) => part.title)).toEqual(["1. Stasjoner", "2. Øvelse"]);
     expect(parts[0].blocks.map((entry) => entry.block.id)).toEqual(["rondo-1", "game-1", "station-1"]);
-    expect(parts[0].subtitle).toBe("3 stasjoner · 5 spillere per stasjon");
+    expect(parts[0].subtitle).toBe("3 samtidige stasjoner · 5 spillere per stasjon");
     expect(parts[1].blocks.map((entry) => entry.block.id)).toEqual(["game-2"]);
   });
 

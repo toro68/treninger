@@ -311,7 +311,7 @@ describe("sessionStore", () => {
       expect(parts[2]?.blocks.map((entry) => entry.block.id)).toEqual([
         exercises[2]!.id,
       ]);
-      expect(parts[2]?.subtitle).toBe("3 stasjoner · 5 + 5 + 6 spillere");
+      expect(parts[2]?.subtitle).toBe("3 samtidige stasjoner · 5 + 5 + 6 spillere");
     });
 
     it("should start a new section when the planner target is set to next section", () => {

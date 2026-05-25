@@ -84,8 +84,12 @@ export const SessionTimelineBlockRow = ({
       aria-label={`${block.exercise.name} blokk`}
       onDragOver={onDragOver}
       onDrop={() => onDrop(globalIndex)}
-      className={`rounded-lg border bg-zinc-50 px-3 py-2 transition ${
-        dragIndex === globalIndex ? "border-black" : "border-zinc-100"
+      className={`rounded-lg border px-3 py-2 transition ${
+        dragIndex === globalIndex
+          ? "border-black bg-zinc-50"
+          : partBaseKey === "stasjoner"
+            ? "border-sky-200 bg-sky-50/40"
+            : "border-zinc-100 bg-zinc-50"
       }`}
     >
       <div className="flex items-center gap-2">
@@ -108,9 +112,9 @@ export const SessionTimelineBlockRow = ({
 
         <div className="min-w-0 flex-1">
           {partBaseKey === "stasjoner" ? (
-            <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
-              {`Stasjon ${blockIndex + 1}`}
-            </p>
+            <span className="mb-1.5 inline-flex items-center rounded-full border border-sky-300 bg-sky-100 px-2 py-0.5 text-[11px] font-semibold text-sky-800">
+              Stasjon {blockIndex + 1}
+            </span>
           ) : null}
           <p className="truncate text-sm text-zinc-900">
             <span className="mr-1.5 inline-flex h-5 min-w-[24px] items-center justify-center rounded bg-zinc-200 px-1 text-[10px] font-medium text-zinc-600">

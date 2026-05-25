@@ -60,16 +60,18 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
 
       const stationLabel =
         part.baseKey === "stasjoner"
-          ? `<div class="station-label">Stasjon ${index + 1}</div>`
+          ? `<span class="station-badge">Stasjon ${index + 1}</span>`
           : "";
 
+      const isStation = part.baseKey === "stasjoner";
+
       return `
-        <div class="exercise">
+        <div class="exercise${isStation ? " exercise-station" : ""}">
+          ${stationLabel}
           <div class="exercise-name">
             <span class="code">${code}</span>
             ${escapeHtml(title)}
           </div>
-          ${stationLabel}
           ${title !== block.exercise.name ? `<div class="exercise-origin">Basert på: ${escapeHtml(block.exercise.name)}</div>` : ""}
           ${assignedCoaches ? `<div class="coach-list">${assignedCoaches}</div>` : ""}
           <div class="exercise-meta">
@@ -114,9 +116,11 @@ const buildSectionMarkup = (part: PrintablePart, exerciseLibrary: Exercise[]) =>
     })
     .join("");
 
+  const isStationSection = part.baseKey === "stasjoner";
+
   return `
     <div class="section">
-      <div class="section-title">
+      <div class="section-title${isStationSection ? " section-title-stations" : ""}">
         <span>${escapeHtml(part.title)}</span>
         ${part.subtitle ? `<small>${escapeHtml(part.subtitle)}</small>` : ""}
       </div>
@@ -133,11 +137,14 @@ const baseStyles = `
   .section { margin-bottom: 32px; }
   .section-title { font-size: 16px; font-weight: 600; color: #111827; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; display: flex; justify-content: space-between; align-items: baseline; }
   .section-title small { font-size: 12px; color: #6b7280; font-weight: 500; text-transform: uppercase; letter-spacing: 0.02em; }
+  .section-title-stations { border-bottom-color: #7dd3fc; }
+  .section-title-stations small { color: #0369a1; }
   .section-comment { margin: 0 0 12px; padding: 10px 12px; border: 1px solid #fcd34d; border-radius: 12px; background: #fffbeb; color: #78350f; font-size: 12px; line-height: 1.45; }
   .exercise { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
   .exercise-name { font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
   .exercise-name .code { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 2px 8px; font-size: 11px; text-transform: uppercase; border-radius: 999px; background: #e5e7eb; color: #374151; }
-  .station-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #6b7280; margin-bottom: 8px; }
+  .station-badge { display: inline-flex; align-items: center; margin-bottom: 8px; padding: 2px 10px; border-radius: 999px; border: 1px solid #bae6fd; background: #e0f2fe; color: #0369a1; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .exercise-station { border-left: 3px solid #7dd3fc; background: #f0f9ff; }
   .exercise-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
   .exercise-origin { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
   .coach-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
