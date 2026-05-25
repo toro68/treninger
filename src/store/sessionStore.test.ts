@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from "vitest";
-import { filterAndGroupExercises, getActivePlanningSection, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
+import { deriveSessionBlocks, filterAndGroupExercises, getActivePlanningSection, getUnit, recommendedDuration, useSessionStore } from "./sessionStore";
 import type { Exercise } from "@/data/exercises";
 import { buildSessionParts } from "@/utils/sessionParts";
 
@@ -273,6 +273,43 @@ describe("sessionStore", () => {
         exercises[1]!.id,
       ]);
       expect(parts.at(-1)?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
+    });
+
+    it("should preserve legacy station count metadata without planning mode", () => {
+      const state = useSessionStore.getState();
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+      const selectedExerciseIds = new Set([exercises[0]!.id, exercises[1]!.id]);
+      const sessionBlocks = deriveSessionBlocks({
+        selectedExerciseIds,
+        exerciseLibrary: state.exerciseLibrary,
+        plannedBlocks: [
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            sectionStationCount: 2,
+          },
+          {
+            id: exercises[1]!.id,
+            exercise: exercises[1]!,
+            sectionStationCount: 2,
+          },
+        ],
+      });
+      const parts = buildSessionParts(sessionBlocks, state.playerCount);
+      const stationPart = parts.find((part) => part.baseKey === "stasjoner");
+
+      expect(stationPart?.title).toBe("1. Stasjoner");
+      expect(stationPart?.blocks.map((entry) => entry.block.id)).toEqual([
+        exercises[0]!.id,
+        exercises[1]!.id,
+      ]);
+      expect(stationPart?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
+      expect(stationPart?.subtitle).toBe("2 samtidige stasjoner · 8 spillere per stasjon");
     });
 
     it("should start a new station section after completing a smaller one even if stationCount changes", () => {

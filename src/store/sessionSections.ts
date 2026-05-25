@@ -12,7 +12,8 @@ export type StationSectionInfo = {
 export const isStationPlanningBlock = (block?: SessionBlock | null) =>
   !!block &&
   (block.planningMode === "station" ||
-    (block.planningMode === undefined && block.exercise.category === "station"));
+    (block.planningMode === undefined &&
+      (typeof block.sectionStationCount === "number" || block.exercise.category === "station")));
 
 const normalizeStationSectionCount = (count: unknown) =>
   typeof count === "number" ? Math.max(2, Math.min(4, count)) : undefined;
