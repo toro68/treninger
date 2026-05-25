@@ -23,6 +23,40 @@ vi.mock("next/navigation", async () => {
 });
 
 describe("SharedSessionPage", () => {
+  it("marks station sections as simultaneous in the full session view", () => {
+    const stationExercises = allExercises.filter((item) => item.category === "station");
+
+    expect(stationExercises.length).toBeGreaterThanOrEqual(2);
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt stasjonsøkt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set(stationExercises.slice(0, 2).map((exercise) => exercise.id)),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: stationExercises.slice(0, 2).map((exercise) => ({
+        id: exercise.id,
+        exercise,
+        planningMode: "station" as const,
+        sectionStationCount: 2,
+      })),
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    expect(screen.getByText("Samtidig")).toBeInTheDocument();
+    expect(screen.getByText(/Disse stasjonene kjøres samtidig/)).toBeInTheDocument();
+    expect(screen.getByText("Stasjon 1")).toBeInTheDocument();
+    expect(screen.getByText("Stasjon 2")).toBeInTheDocument();
+    expect(screen.getAllByText("Kjøres samtidig med de andre stasjonene")).toHaveLength(2);
+  });
+
   it("shows section comments in the full session view", () => {
     const fixedWarmup = allExercises.find(
       (item) => item.category === "fixed-warmup" && item.alwaysIncluded

@@ -374,11 +374,37 @@ function SharedSessionPageContent() {
           ) : null}
 
           <div className="mt-6 space-y-6">
-            {parts.map((part) => (
-              <section key={part.key} className="rounded-2xl border border-zinc-200 bg-zinc-50/50 p-4 sm:p-5">
-                <div className="flex flex-col gap-1 border-b border-zinc-200 pb-3 sm:flex-row sm:items-baseline sm:justify-between">
-                  <h2 className="text-base font-semibold text-zinc-900">{part.title}</h2>
-                  {part.subtitle ? <p className="text-xs text-zinc-500">{part.subtitle}</p> : null}
+            {parts.map((part) => {
+              const isStationPart = part.baseKey === "stasjoner";
+
+              return (
+              <section
+                key={part.key}
+                className={`rounded-2xl border p-4 sm:p-5 ${
+                  isStationPart
+                    ? "border-sky-200 bg-sky-50/60"
+                    : "border-zinc-200 bg-zinc-50/50"
+                }`}
+              >
+                <div className={`flex flex-col gap-2 border-b pb-3 sm:flex-row sm:items-start sm:justify-between ${
+                  isStationPart ? "border-sky-200" : "border-zinc-200"
+                }`}>
+                  <div>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h2 className="text-base font-semibold text-zinc-900">{part.title}</h2>
+                      {isStationPart ? (
+                        <span className="inline-flex items-center rounded-full border border-sky-200 bg-white px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-sky-800">
+                          Samtidig
+                        </span>
+                      ) : null}
+                    </div>
+                    {isStationPart ? (
+                      <p className="mt-1 text-sm leading-6 text-sky-950">
+                        Disse stasjonene kjøres samtidig. Del spillerne på gruppene under og roter samlet etter tiden.
+                      </p>
+                    ) : null}
+                  </div>
+                  {part.subtitle ? <p className={`text-xs ${isStationPart ? "text-sky-800" : "text-zinc-500"}`}>{part.subtitle}</p> : null}
                 </div>
 
                 {part.sectionComment?.trim() ? (
@@ -396,7 +422,20 @@ function SharedSessionPageContent() {
                       .filter((exercise) => !!exercise);
 
                     return (
-                      <article key={block.id} className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-5">
+                      <article
+                        key={block.id}
+                        className={`rounded-2xl border bg-white p-4 sm:p-5 ${
+                          isStationPart ? "border-sky-200 shadow-sm" : "border-zinc-200"
+                        }`}
+                      >
+                        {isStationPart ? (
+                          <div className="mb-3 flex flex-wrap items-center justify-between gap-2 border-b border-sky-100 pb-3">
+                            <p className="inline-flex items-center rounded-full bg-sky-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                              {`Stasjon ${blockIndex + 1}`}
+                            </p>
+                            <p className="text-xs font-medium text-sky-800">Kjøres samtidig med de andre stasjonene</p>
+                          </div>
+                        ) : null}
                         <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                           <div>
                             <h3 className="text-base font-semibold text-zinc-900">
@@ -405,11 +444,6 @@ function SharedSessionPageContent() {
                               </span>
                               {blockTitle}
                             </h3>
-                            {part.baseKey === "stasjoner" ? (
-                              <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                                {`Stasjon ${blockIndex + 1}`}
-                              </p>
-                            ) : null}
                             {blockTitle !== block.exercise.name ? (
                               <p className="mt-2 text-xs text-zinc-500">Basert på: {block.exercise.name}</p>
                             ) : null}
@@ -503,7 +537,8 @@ function SharedSessionPageContent() {
                   })}
                 </div>
               </section>
-            ))}
+              );
+            })}
 
             {selectedTheoryItems.length > 0 ? (
               <section className="rounded-2xl border border-sky-200 bg-sky-50/70 p-4 sm:p-5">
