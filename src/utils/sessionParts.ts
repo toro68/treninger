@@ -28,14 +28,8 @@ const getPartBaseKey = (block: SessionBlock) => {
     return "stasjoner";
   }
 
-  const category = block.exercise.category;
-
-  if (category === "fixed-warmup") {
+  if (block.exercise.category === "fixed-warmup") {
     return "skadefri";
-  }
-
-  if (block.planningMode !== "single" && category === "station") {
-    return "stasjoner";
   }
 
   return "ovelse";

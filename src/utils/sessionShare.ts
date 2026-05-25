@@ -349,6 +349,17 @@ const serializePlannedBlocks = (blocks: SessionBlock[] | null): SharedBlock[] | 
   });
 };
 
+const promoteLegacyStationBlock = (entry: SharedBlock): SharedBlock => {
+  if (entry.planningMode) return entry;
+
+  const hasStationSignal =
+    typeof entry.sectionStationCount === "number" ||
+    entry.stationRoundStart === true;
+  if (!hasStationSignal) return entry;
+
+  return { ...entry, planningMode: "station" };
+};
+
 const hydratePlannedBlocks = (
   blocks: SharedBlock[] | null,
   exerciseLibrary: Exercise[]
@@ -357,7 +368,7 @@ const hydratePlannedBlocks = (
 
   const hydrated: SessionBlock[] = [];
 
-  blocks.forEach((entry) => {
+  blocks.map(promoteLegacyStationBlock).forEach((entry) => {
     const exercise = exerciseLibrary.find((item) => item.id === entry.id);
     if (!exercise) return;
 

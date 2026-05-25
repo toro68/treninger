@@ -44,20 +44,25 @@ function SharedSessionPageContent() {
     const blockLabel = (block: SessionBlock) =>
       block.customTitle?.trim() || block.exercise.name;
 
-    return parts.map((part) => {
+    return parts.flatMap((part) => {
       const duration = part.blocks.reduce(
         (sum, { block }) => sum + recommendedDuration(block),
         0
       );
 
       let label: string;
-      let stationLabels: string[] | undefined;
       if (part.baseKey === "skadefri") {
         label = "Skadefri";
       } else if (part.baseKey === "stasjoner") {
-        const stationCount = part.blocks[0]?.block.sectionStationCount ?? part.blocks.length;
-        label = `Stasjoner (${stationCount} samtidig)`;
-        stationLabels = part.blocks.map(({ block }) => blockLabel(block));
+        return [
+          { key: `${part.key}-heading`, label: "Stasjoner:", kind: "heading" as const },
+          ...part.blocks.map(({ block, globalIndex }) => ({
+            key: `${part.key}-${globalIndex}`,
+            duration: recommendedDuration(block),
+            label: blockLabel(block),
+            kind: "exercise" as const,
+          })),
+        ];
       } else if (part.baseKey === "reserve") {
         label = "Reserve";
       } else {
@@ -65,7 +70,7 @@ function SharedSessionPageContent() {
         label = block ? blockLabel(block) : "Øvelse";
       }
 
-      return { key: part.key, duration, label, stationLabels };
+      return [{ key: part.key, duration, label, kind: "exercise" as const }];
     });
   }, [parts]);
 
@@ -189,29 +194,9 @@ function SharedSessionPageContent() {
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
               <ul className="mt-2 space-y-1.5 text-xs text-sky-950">
                 {shortOverview.map((item) => (
-                  item.stationLabels && item.stationLabels.length > 0 ? (
-                    <li key={item.key} className="rounded-2xl border border-sky-300 bg-white p-3 shadow-sm">
-                      <div className="flex flex-wrap items-center justify-between gap-2">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span className="inline-flex items-center rounded-full bg-sky-900 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
-                            Kjøres samtidig
-                          </span>
-                          <span className="font-semibold text-sky-950">{item.label}</span>
-                        </div>
-                        <span className="rounded-full border border-sky-200 bg-sky-50 px-2.5 py-1 font-medium text-sky-800">
-                          {item.duration}m totalt
-                        </span>
-                      </div>
-                      <p className="mt-2 text-xs leading-5 text-sky-900">
-                        Dette er samtidige øvelser: del spillerne på stasjonene under, ikke kjør dem etter hverandre.
-                      </p>
-                      <ol className="mt-2 grid gap-1.5 sm:grid-cols-2">
-                        {item.stationLabels.map((stationLabel, stationIndex) => (
-                          <li key={`${item.key}-${stationLabel}`} className="rounded-xl border border-sky-100 bg-sky-50 px-3 py-2 text-xs text-sky-950">
-                            <span className="font-semibold">{`Stasjon ${stationIndex + 1}:`}</span> {stationLabel}
-                          </li>
-                        ))}
-                      </ol>
+                  item.kind === "heading" ? (
+                    <li key={item.key} className="pt-1 text-[11px] font-semibold uppercase tracking-wide text-sky-800">
+                      {item.label}
                     </li>
                   ) : (
                     <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">

@@ -296,4 +296,110 @@ describe("sessionShare", () => {
     expect(decoded?.selectedExerciseIds.has(exercise!.id)).toBe(true);
     expect(decoded?.sessionBlocks.some((block) => block.id === exercise!.id)).toBe(true);
   });
+
+  it("preserves station planning metadata across encode and decode", () => {
+    const stations = allExercises.filter((item) => item.category === "station").slice(0, 4);
+
+    expect(stations.length).toBeGreaterThanOrEqual(4);
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Stasjonsøkt",
+      sessionComment: "",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: [],
+      selectedExerciseIds: new Set(stations.map((exercise) => exercise.id)),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        { id: stations[0].id, exercise: stations[0], planningMode: "station", sectionStationCount: 2 },
+        { id: stations[1].id, exercise: stations[1], planningMode: "station", sectionStationCount: 2 },
+        { id: stations[2].id, exercise: stations[2], planningMode: "station", sectionStationCount: 2, stationRoundStart: true },
+        { id: stations[3].id, exercise: stations[3], planningMode: "station", sectionStationCount: 2 },
+      ],
+      exerciseLibrary: allExercises,
+    });
+
+    const decoded = decodeSharedSessionToken(token);
+    const stationBlocks = (decoded?.sessionBlocks ?? []).filter((block) =>
+      stations.some((station) => station.id === block.id)
+    );
+
+    expect(stationBlocks).toHaveLength(4);
+    expect(stationBlocks.map((block) => block.planningMode)).toEqual([
+      "station",
+      "station",
+      "station",
+      "station",
+    ]);
+    expect(stationBlocks.map((block) => block.sectionStationCount)).toEqual([2, 2, 2, 2]);
+    expect(stationBlocks[2]?.stationRoundStart).toBe(true);
+    expect(stationBlocks[0]?.stationRoundStart).toBeUndefined();
+    expect(stationBlocks[1]?.stationRoundStart).toBeUndefined();
+    expect(stationBlocks[3]?.stationRoundStart).toBeUndefined();
+  });
+
+  it("promotes legacy shared blocks with station signals but missing planningMode", () => {
+    const stations = allExercises.filter((item) => item.category === "station").slice(0, 2);
+
+    expect(stations.length).toBeGreaterThanOrEqual(2);
+
+    const payload = {
+      version: 3,
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      selectedExerciseIds: stations.map((exercise) => exercise.id),
+      selectedTheoryIds: [],
+      plannedBlocks: [
+        { id: stations[0].id, sectionStationCount: 2 },
+        { id: stations[1].id, sectionStationCount: 2 },
+      ],
+    };
+
+    const token = Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
+    const decoded = decodeSharedSessionToken(token);
+    const stationBlocks = (decoded?.sessionBlocks ?? []).filter((block) =>
+      stations.some((station) => station.id === block.id)
+    );
+
+    expect(decoded).not.toBeNull();
+    expect(stationBlocks.map((block) => block.planningMode)).toEqual([
+      "station",
+      "station",
+    ]);
+    expect(stationBlocks.map((block) => block.sectionStationCount)).toEqual([2, 2]);
+  });
+
+  it("does not promote shared blocks that lack any station signal", () => {
+    const exercises = allExercises.filter((item) => item.category === "station").slice(0, 2);
+
+    expect(exercises.length).toBeGreaterThanOrEqual(2);
+
+    const payload = {
+      version: 3,
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      selectedExerciseIds: exercises.map((exercise) => exercise.id),
+      selectedTheoryIds: [],
+      plannedBlocks: exercises.map((exercise) => ({ id: exercise.id })),
+    };
+
+    const token = Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
+    const decoded = decodeSharedSessionToken(token);
+    const stationBlocks = (decoded?.sessionBlocks ?? []).filter((block) =>
+      exercises.some((exercise) => exercise.id === block.id)
+    );
+
+    expect(decoded).not.toBeNull();
+    expect(stationBlocks.map((block) => block.planningMode)).toEqual([
+      undefined,
+      undefined,
+    ]);
+    expect(stationBlocks.map((block) => block.sectionStationCount)).toEqual([
+      undefined,
+      undefined,
+    ]);
+  });
 });

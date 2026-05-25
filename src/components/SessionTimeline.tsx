@@ -23,6 +23,7 @@ import {
   toggleStationRoundStartForBlock,
   updateSessionBlockAtIndex,
 } from "@/utils/sessionTimelineBlocks";
+import { isStationPlanningBlock } from "@/store/sessionSections";
 import { SessionTimelineSavedSessionsPanel } from "./SessionTimelineSavedSessionsPanel";
 import { SessionTimelineBlockRow } from "./SessionTimelineBlockRow";
 import { SessionTimelineSectionPlanner } from "./SessionTimelineSectionPlanner";
@@ -854,9 +855,9 @@ export const SessionTimeline = () => {
                             canMoveDown={globalIndex !== sessionBlocks.length - 1}
                             canMoveUp={globalIndex !== 0}
                             canToggleStationRoundStart={
-                              block.exercise.category === "station" &&
+                              isStationPlanningBlock(block) &&
                               globalIndex > 0 &&
-                              sessionBlocks[globalIndex - 1]?.exercise.category === "station"
+                              isStationPlanningBlock(sessionBlocks[globalIndex - 1])
                             }
                             categoryLabels={CATEGORY_LABELS}
                             coachNames={coachNames}

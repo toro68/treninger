@@ -33,11 +33,26 @@ describe("sessionParts", () => {
   it("builds numbered session blocks with separate station rounds", () => {
     const blocks: SessionBlock[] = [
       createBlock("fixed-1", "Skadefri", "fixed-warmup"),
-      createBlock("station-1", "Stasjon 1", "station"),
-      createBlock("station-2", "Stasjon 2", "station"),
-      createBlock("station-3", "Stasjon 3", "station", true),
-      createBlock("station-4", "Stasjon 4", "station"),
-      createBlock("station-5", "Stasjon 5", "station"),
+      createBlock("station-1", "Stasjon 1", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-2", "Stasjon 2", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-3", "Stasjon 3", "station", true, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
+      createBlock("station-4", "Stasjon 4", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
+      createBlock("station-5", "Stasjon 5", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
     ];
 
     const parts = buildSessionParts(blocks, 15);
@@ -48,7 +63,7 @@ describe("sessionParts", () => {
     expect(parts[0].subtitle).toBe("Spillerne styrer selv");
   });
 
-  it("treats non-station blocks as single shared exercises", () => {
+  it("treats exercises without station planning metadata as single shared exercises", () => {
     const blocks: SessionBlock[] = [
       createBlock("fixed-1", "Skadefri", "fixed-warmup"),
       createBlock("warmup-1", "Kort-kort-lang", "warmup"),
@@ -62,21 +77,39 @@ describe("sessionParts", () => {
     expect(parts.map((part) => part.title)).toEqual([
       "1. Skadefri",
       "2. Øvelse",
-      "3. Stasjoner",
+      "3. Øvelse",
       "4. Øvelse",
+      "5. Øvelse",
     ]);
     expect(parts[1].subtitle).toBe("Samme for alle");
     expect(parts[1].blocks).toHaveLength(1);
+    expect(parts[2].blocks).toHaveLength(1);
     expect(parts[3].blocks).toHaveLength(1);
+    expect(parts[4].blocks).toHaveLength(1);
   });
 
   it("summarizes multiple station rounds", () => {
     const blocks: SessionBlock[] = [
-      createBlock("station-1", "Stasjon 1", "station"),
-      createBlock("station-2", "Stasjon 2", "station"),
-      createBlock("station-3", "Stasjon 3", "station", true),
-      createBlock("station-4", "Stasjon 4", "station"),
-      createBlock("station-5", "Stasjon 5", "station"),
+      createBlock("station-1", "Stasjon 1", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-2", "Stasjon 2", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-3", "Stasjon 3", "station", true, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
+      createBlock("station-4", "Stasjon 4", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
+      createBlock("station-5", "Stasjon 5", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 3,
+      }),
     ];
 
     const parts = buildSessionParts(blocks, 15);
@@ -163,6 +196,56 @@ describe("sessionParts", () => {
     const parts = buildSessionParts(blocks, 14);
 
     expect(parts[0].sectionComment).toBe("Vektlegg gjenvinning de første 5 sekundene.");
+  });
+
+  it("does not group station-category blocks without planning metadata as stations", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("station-1", "Pasningssirkel", "station"),
+      createBlock("station-2", "Lang/kort", "station"),
+    ];
+
+    const parts = buildSessionParts(blocks, 12);
+
+    expect(parts.map((part) => part.baseKey)).toEqual(["ovelse", "ovelse"]);
+    expect(parts.every((part) => part.subtitle === "Samme for alle")).toBe(true);
+  });
+
+  it("produces exactly one stasjoner part per station round", () => {
+    const blocks: SessionBlock[] = [
+      createBlock("warmup-1", "Skadefri", "fixed-warmup"),
+      createBlock("station-1", "Stasjon 1", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-2", "Stasjon 2", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-3", "Stasjon 3", "station", true, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("station-4", "Stasjon 4", "station", undefined, {
+        planningMode: "station",
+        sectionStationCount: 2,
+      }),
+      createBlock("game-1", "Avsluttende spill", "game", undefined, {
+        planningMode: "single",
+      }),
+    ];
+
+    const parts = buildSessionParts(blocks, 12);
+    const stationParts = parts.filter((part) => part.baseKey === "stasjoner");
+
+    expect(stationParts).toHaveLength(2);
+    expect(stationParts[0].blocks.map((entry) => entry.block.id)).toEqual([
+      "station-1",
+      "station-2",
+    ]);
+    expect(stationParts[1].blocks.map((entry) => entry.block.id)).toEqual([
+      "station-3",
+      "station-4",
+    ]);
   });
 
   it("groups reserve blocks into a dedicated reserve section", () => {

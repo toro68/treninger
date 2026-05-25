@@ -50,7 +50,10 @@ describe("SharedSessionPage", () => {
 
     render(<SharedSessionPage />);
 
-    expect(screen.getByText("Samtidig")).toBeInTheDocument();
+    const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
+
+    expect(shortOverview).not.toBeNull();
+    expect(within(shortOverview!).getByText("Stasjoner:")).toBeInTheDocument();
     expect(screen.getByText(/Disse stasjonene kjøres samtidig/)).toBeInTheDocument();
     expect(screen.getByText("Stasjon 1")).toBeInTheDocument();
     expect(screen.getByText("Stasjon 2")).toBeInTheDocument();
@@ -90,14 +93,126 @@ describe("SharedSessionPage", () => {
     const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
 
     expect(shortOverview).not.toBeNull();
-    expect(within(shortOverview!).getByText("Kjøres samtidig")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjoner (3 samtidig)")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText(/ikke kjør dem etter hverandre/)).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 1:")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 2:")).toBeInTheDocument();
-    expect(within(shortOverview!).getByText("Stasjon 3:")).toBeInTheDocument();
+    expect(within(shortOverview!).getByText("Stasjoner:")).toBeInTheDocument();
+    expect(within(shortOverview!).queryByText(/Stasjoner \(/)).not.toBeInTheDocument();
+    expect(within(shortOverview!).queryByText(/ikke kjør dem etter hverandre/)).not.toBeInTheDocument();
+    expect(within(shortOverview!).queryByText("S1")).not.toBeInTheDocument();
     expect(within(shortOverview!).getByText(/Lånå - rondo 2v2v2/)).toBeInTheDocument();
     expect(within(shortOverview!).queryByText("Øvelse")).not.toBeInTheDocument();
+  });
+
+  it("shows each station round as a small heading in the short overview", () => {
+    const skadefri = allExercises.find((item) => item.category === "fixed-warmup");
+    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3");
+    const firstStation = allExercises.find((item) => item.name === "Rask 2v2");
+    const secondStation = allExercises.find((item) => item.name === "2v2 i midtsirkel med vegger");
+    const thirdStation = allExercises.find((item) => item.name === "Langpasning på tvers av banen (2 og 2)");
+    const fourthStation = allExercises.find((item) => item.name === "Skudd");
+    const gameExercise = allExercises.find((item) => item.name === "Spill: 2 lag, 1 bane");
+
+    expect(skadefri).toBeDefined();
+    expect(rondoExercise).toBeDefined();
+    expect(firstStation).toBeDefined();
+    expect(secondStation).toBeDefined();
+    expect(thirdStation).toBeDefined();
+    expect(fourthStation).toBeDefined();
+    expect(gameExercise).toBeDefined();
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt stasjonsøkt",
+      sessionComment: "Test",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: ["Tor Inge"],
+      selectedExerciseIds: new Set([
+        skadefri!.id,
+        rondoExercise!.id,
+        firstStation!.id,
+        secondStation!.id,
+        thirdStation!.id,
+        fourthStation!.id,
+        gameExercise!.id,
+      ]),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        { id: skadefri!.id, exercise: skadefri!, customDuration: 5 },
+        { id: rondoExercise!.id, exercise: rondoExercise!, planningMode: "single" as const, customDuration: 15 },
+        {
+          id: firstStation!.id,
+          exercise: firstStation!,
+          planningMode: "station" as const,
+          sectionStationCount: 2,
+          customDuration: 12,
+        },
+        {
+          id: secondStation!.id,
+          exercise: secondStation!,
+          planningMode: "station" as const,
+          sectionStationCount: 2,
+          customDuration: 12,
+        },
+        {
+          id: thirdStation!.id,
+          exercise: thirdStation!,
+          planningMode: "station" as const,
+          sectionStationCount: 2,
+          stationRoundStart: true,
+          customDuration: 10,
+        },
+        {
+          id: fourthStation!.id,
+          exercise: fourthStation!,
+          planningMode: "station" as const,
+          sectionStationCount: 2,
+          customDuration: 10,
+        },
+        { id: gameExercise!.id, exercise: gameExercise!, planningMode: "single" as const, customDuration: 25 },
+      ],
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
+
+    expect(shortOverview).not.toBeNull();
+    expect(within(shortOverview!).getAllByText("Stasjoner:")).toHaveLength(2);
+    expect(shortOverview!.textContent).toContain("Skadefri5mLånå - rondo 2v2v2 / 3v3v315mStasjoner:Rask 2v212m2v2 i midtsirkel med vegger12mStasjoner:Langpasning på tvers av banen (2 og 2)10mSkudd10mSpill: 2 lag, 1 bane25m");
+  });
+
+  it("does not group station-category exercises without planning metadata as stations", () => {
+    const stationExercises = allExercises.filter((item) => item.category === "station").slice(0, 2);
+
+    expect(stationExercises.length).toBeGreaterThanOrEqual(2);
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Delt økt",
+      sessionComment: "",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: [],
+      selectedExerciseIds: new Set(stationExercises.map((exercise) => exercise.id)),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: stationExercises.map((exercise) => ({
+        id: exercise.id,
+        exercise,
+        planningMode: "single" as const,
+      })),
+      exerciseLibrary: allExercises,
+    });
+
+    mockedUseSearchParams.mockReturnValue(new URLSearchParams({ s: token }));
+
+    render(<SharedSessionPage />);
+
+    const shortOverview = screen.getByText("Kortversjon · stikkord").closest("section");
+
+    expect(shortOverview).not.toBeNull();
+    expect(within(shortOverview!).queryByText("Stasjoner:")).not.toBeInTheDocument();
   });
 
   it("shows section comments in the full session view", () => {
