@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { persist, type PersistStorage, type StorageValue } from "zustand/middleware";
 import { allExercises, Exercise, type ExerciseTheme } from "@/data/exercises";
 import {
+  buildTimelineSections,
   getExplicitSectionNumber,
   getStationSectionInfoByNumber,
   isStationPlanningBlock,
@@ -962,14 +963,30 @@ const retuneStationSectionCount = (
 ) => {
   if (!blocks || blocks.length === 0) return blocks;
 
-  const section = getStationSectionInfoByNumber(blocks, sectionNumber);
-  if (!section) return blocks;
+  const stationSection = getStationSectionInfoByNumber(blocks, sectionNumber);
+  let sectionRange = stationSection
+    ? { startIndex: stationSection.startIndex, endIndex: stationSection.endIndex }
+    : null;
+
+  if (!sectionRange) {
+    const sections = buildTimelineSections(blocks);
+    const sectionBlocks = sections[sectionNumber - 1];
+    if (!sectionBlocks) return blocks;
+
+    const startIndex = sections
+      .slice(0, sectionNumber - 1)
+      .reduce((sum, section) => sum + section.length, 0);
+    sectionRange = {
+      startIndex,
+      endIndex: startIndex + sectionBlocks.length - 1,
+    };
+  }
 
   const normalizedStationCount = Math.max(2, Math.min(4, stationCount));
 
   return normalizeStationSectionMetadata(
     blocks.map((block, index) => {
-      if (index < section.startIndex || index > section.endIndex) return block;
+      if (index < sectionRange.startIndex || index > sectionRange.endIndex) return block;
 
       return {
         ...block,

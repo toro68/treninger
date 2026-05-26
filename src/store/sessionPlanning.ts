@@ -172,6 +172,37 @@ export const appendBlockForPlanningSection = ({
       const normalized = normalizeStationSectionMetadata(updatedBlocks) ?? updatedBlocks;
       return [...normalized, ...reserveBlocks];
     }
+
+    if (!explicitSection) {
+      const sections = buildTimelineSections(planningBlocks);
+      const sectionBlocks = sections[explicitSectionNumber - 1];
+
+      if (sectionBlocks && sectionBlocks.length < normalizedStationCount) {
+        const startIndex = sections
+          .slice(0, explicitSectionNumber - 1)
+          .reduce((sum, section) => sum + section.length, 0);
+        const endIndex = startIndex + sectionBlocks.length - 1;
+        const updatedBlocks = planningBlocks.map((block, index) => {
+          if (index < startIndex || index > endIndex) return block;
+
+          return {
+            ...block,
+            planningMode: "station" as const,
+            sectionStationCount: normalizedStationCount,
+          };
+        });
+
+        updatedBlocks.splice(endIndex + 1, 0, {
+          id: exercise.id,
+          exercise,
+          planningMode: "station",
+          sectionStationCount: normalizedStationCount,
+        });
+
+        const normalized = normalizeStationSectionMetadata(updatedBlocks) ?? updatedBlocks;
+        return [...normalized, ...reserveBlocks];
+      }
+    }
   }
 
   const trailingStationSection = getTrailingStationSectionInfo(planningBlocks);

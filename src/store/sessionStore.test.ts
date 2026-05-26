@@ -228,6 +228,60 @@ describe("sessionStore", () => {
       expect(blocks[1]?.sectionStationCount).toBe(4);
       expect(blocks[2]?.sectionStationCount).toBe(3);
     });
+
+    it("should convert an explicitly selected ordinary section to a station section", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(3);
+
+      useSessionStore.setState({
+        planningSectionMode: "stations",
+        stationCount: 2,
+        planningSectionTarget: "section-3",
+        plannedBlocks: [
+          {
+            id: fixedWarmup!.id,
+            exercise: fixedWarmup!,
+          },
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "single",
+          },
+          {
+            id: exercises[1]!.id,
+            exercise: exercises[1]!,
+            planningMode: "single",
+          },
+          {
+            id: exercises[2]!.id,
+            exercise: exercises[2]!,
+            planningMode: "single",
+          },
+        ],
+      });
+
+      useSessionStore.getState().setStationCount(2);
+
+      const blocks = useSessionStore.getState().plannedBlocks ?? [];
+      const parts = buildSessionParts(blocks, 12);
+
+      expect(blocks[2]?.planningMode).toBe("station");
+      expect(blocks[2]?.sectionStationCount).toBe(2);
+      expect(parts.map((part) => part.baseKey)).toEqual([
+        "skadefri",
+        "ovelse",
+        "stasjoner",
+        "ovelse",
+      ]);
+    });
   });
 
   describe("toggleExercise", () => {
@@ -273,6 +327,60 @@ describe("sessionStore", () => {
         exercises[1]!.id,
       ]);
       expect(parts.at(-1)?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
+    });
+
+    it("should append toggled exercises to an explicitly selected ordinary section as stations", () => {
+      const state = useSessionStore.getState();
+      const fixedWarmup = state.exerciseLibrary.find(
+        (exercise) => exercise.category === "fixed-warmup" && exercise.alwaysIncluded
+      );
+      const exercises = state.exerciseLibrary.filter(
+        (exercise) => exercise.category === "game"
+      );
+
+      expect(fixedWarmup).toBeDefined();
+      expect(exercises.length).toBeGreaterThanOrEqual(3);
+
+      useSessionStore.setState({
+        selectedExerciseIds: new Set([fixedWarmup!.id, exercises[0]!.id, exercises[2]!.id]),
+        planningSectionMode: "stations",
+        stationCount: 2,
+        planningSectionTarget: "section-3",
+        plannedBlocks: [
+          {
+            id: fixedWarmup!.id,
+            exercise: fixedWarmup!,
+          },
+          {
+            id: exercises[0]!.id,
+            exercise: exercises[0]!,
+            planningMode: "single",
+          },
+          {
+            id: exercises[2]!.id,
+            exercise: exercises[2]!,
+            planningMode: "single",
+          },
+        ],
+      });
+
+      useSessionStore.getState().toggleExercise(exercises[1]!.id);
+
+      const nextState = useSessionStore.getState();
+      const sessionBlocks = nextState.plannedBlocks ?? [];
+      const parts = buildSessionParts(sessionBlocks, nextState.playerCount);
+
+      expect(parts.map((part) => part.baseKey)).toEqual([
+        "skadefri",
+        "ovelse",
+        "stasjoner",
+      ]);
+      expect(parts[2]?.blocks.map((entry) => entry.block.id)).toEqual([
+        exercises[2]!.id,
+        exercises[1]!.id,
+      ]);
+      expect(parts[2]?.blocks.every((entry) => entry.block.planningMode === "station")).toBe(true);
+      expect(parts[2]?.blocks.every((entry) => entry.block.sectionStationCount === 2)).toBe(true);
     });
 
     it("should preserve legacy station count metadata without planning mode", () => {
