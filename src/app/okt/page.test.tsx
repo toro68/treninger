@@ -61,7 +61,7 @@ describe("SharedSessionPage", () => {
   });
 
   it("groups old shared station blocks in the short overview when station count metadata exists", () => {
-    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3");
+    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v5");
     const gameExercise = allExercises.find((item) => item.name === "2v2 i midtsirkel med vegger");
     const stationExercise = allExercises.find((item) => item.name === "Langpasning på tvers av banen (2 og 2)");
 
@@ -103,7 +103,7 @@ describe("SharedSessionPage", () => {
 
   it("shows each station round as a small heading in the short overview", () => {
     const skadefri = allExercises.find((item) => item.category === "fixed-warmup");
-    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3");
+    const rondoExercise = allExercises.find((item) => item.name === "Lånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v5");
     const firstStation = allExercises.find((item) => item.name === "Rask 2v2");
     const secondStation = allExercises.find((item) => item.name === "2v2 i midtsirkel med vegger");
     const thirdStation = allExercises.find((item) => item.name === "Langpasning på tvers av banen (2 og 2)");
@@ -180,7 +180,7 @@ describe("SharedSessionPage", () => {
 
     expect(shortOverview).not.toBeNull();
     expect(within(shortOverview!).getAllByText("Stasjoner:")).toHaveLength(2);
-    expect(shortOverview!.textContent).toContain("Skadefri5mLånå - rondo 2v2v2 / 3v3v315mStasjoner:Rask 2v212m2v2 i midtsirkel med vegger12mStasjoner:Langpasning på tvers av banen (2 og 2)10mSkudd10mSpill: 2 lag, 1 bane25m");
+    expect(shortOverview!.textContent).toContain("Skadefri5mLånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v515mStasjoner:Rask 2v212m2v2 i midtsirkel med vegger12mStasjoner:Langpasning på tvers av banen (2 og 2)10mSkudd10mSpill: 2 lag, 1 bane25m");
   });
 
   it("does not group station-category exercises without planning metadata as stations", () => {

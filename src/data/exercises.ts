@@ -201,7 +201,7 @@ export const exercises: ExerciseData[] = [
   {
     id: "lanaa-rondo-2v2v2-3v3v3",
     exerciseNumber: 4,
-    name: "Lånå - rondo 2v2v2 / 3v3v3",
+    name: "Lånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v5",
     category: "rondo",
     duration: 12,
     playersMin: 6,
