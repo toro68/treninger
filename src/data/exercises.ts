@@ -733,6 +733,33 @@ export const exercises: ExerciseData[] = [
     source: "staal",
   },
   {
+    id: "kort-kort-lang",
+    exerciseNumber: 100,
+    name: "Kort-kort-lang",
+    category: "station",
+    duration: 12,
+    playersMin: 6,
+    playersMax: 16,
+    theme: "pasning",
+    equipment: ["baller", "kjegler"],
+    description:
+      "Pasningsøvelse i grupper på tre eller fire der laget jobber i rytmen kort-kort-lang. To korte pasninger setter opp en lengre pasning til neste spiller eller gruppe, før mønsteret gjentas med ny retning.",
+    coachingPoints: [
+      "Skap tydelig rytme i mønsteret: kort, kort, lang med riktig tempo",
+      "Orienter før mottak slik at neste pasning kan tas med få touch",
+      "Treff ballen rent på langpasningen med riktig vekt og retning",
+      "Følg pasningen og roter posisjoner for kontinuerlig flyt",
+    ],
+    variations: [
+      "Begrens de to korte pasningene til ett touch",
+      "Bytt mellom høyre og venstre fot i hver sekvens",
+      "Legg inn passiv eller aktiv presspiller på den lange pasningen",
+      "Avslutt sekvensen med medtak framover før ny kort-kort-lang",
+    ],
+    scalable: true,
+    source: "staal",
+  },
+  {
     id: "styrke-generic",
     exerciseNumber: 32,
     name: "Styrke",
