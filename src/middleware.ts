@@ -6,7 +6,7 @@ export function middleware(request: NextRequest) {
   if (authHeader) {
     const [scheme, encoded] = authHeader.split(" ");
     if (scheme === "Basic" && encoded) {
-      const decoded = Buffer.from(encoded, "base64").toString("utf-8");
+      const decoded = atob(encoded);
       const [user, pass] = decoded.split(":");
       if (
         user === process.env.AUTH_USER &&
