@@ -44,7 +44,11 @@ function SharedSessionPageContent() {
     const blockLabel = (block: SessionBlock) =>
       block.customTitle?.trim() || block.exercise.name;
 
-    return parts.flatMap((part) => {
+    type OverviewItem =
+      | { key: string; kind: "exercise"; duration: number; label: string }
+      | { key: string; kind: "stationGroup"; heading: string; items: { key: string; duration: number; label: string }[] };
+
+    return parts.flatMap((part): OverviewItem[] => {
       const duration = part.blocks.reduce(
         (sum, { block }) => sum + recommendedDuration(block),
         0
