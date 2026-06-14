@@ -339,6 +339,41 @@ describe("sessionShare", () => {
     expect(stationBlocks[3]?.stationRoundStart).toBeUndefined();
   });
 
+  it("normalizes station section boundaries for shared planned blocks", () => {
+    const stations = allExercises.filter((item) => item.category === "station").slice(0, 3);
+
+    expect(stations.length).toBeGreaterThanOrEqual(3);
+
+    const token = createSharedSessionToken({
+      sessionTitle: "Stasjonsnormalisering",
+      sessionComment: "",
+      playerCount: 12,
+      keeperCount: 0,
+      stationCount: 2,
+      coachNames: [],
+      selectedExerciseIds: new Set(stations.map((exercise) => exercise.id)),
+      selectedTheoryIds: new Set(),
+      plannedBlocks: [
+        { id: stations[0].id, exercise: stations[0], planningMode: "station", sectionStationCount: 2 },
+        { id: stations[1].id, exercise: stations[1], planningMode: "station", sectionStationCount: 2 },
+        { id: stations[2].id, exercise: stations[2], planningMode: "station", sectionStationCount: 2 },
+      ],
+      exerciseLibrary: allExercises,
+    });
+
+    const decoded = decodeSharedSessionToken(token);
+    const stationBlocks = (decoded?.sessionBlocks ?? []).filter((block) =>
+      stations.some((station) => station.id === block.id)
+    );
+
+    expect(decoded).not.toBeNull();
+    expect(stationBlocks).toHaveLength(3);
+    expect(stationBlocks.map((block) => block.sectionStationCount)).toEqual([2, 2, 2]);
+    expect(stationBlocks[0]?.stationRoundStart).toBeUndefined();
+    expect(stationBlocks[1]?.stationRoundStart).toBeUndefined();
+    expect(stationBlocks[2]?.stationRoundStart).toBe(true);
+  });
+
   it("promotes legacy shared blocks with station signals but missing planningMode", () => {
     const stations = allExercises.filter((item) => item.category === "station").slice(0, 2);
 

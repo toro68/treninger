@@ -55,13 +55,16 @@ function SharedSessionPageContent() {
         label = "Skadefri";
       } else if (part.baseKey === "stasjoner") {
         return [
-          { key: `${part.key}-heading`, label: "Stasjoner:", kind: "heading" as const },
-          ...part.blocks.map(({ block, globalIndex }) => ({
-            key: `${part.key}-${globalIndex}`,
-            duration: recommendedDuration(block),
-            label: blockLabel(block),
-            kind: "exercise" as const,
-          })),
+          {
+            key: `${part.key}-group`,
+            kind: "stationGroup" as const,
+            heading: "Stasjoner:",
+            items: part.blocks.map(({ block, globalIndex }) => ({
+              key: `${part.key}-${globalIndex}`,
+              duration: recommendedDuration(block),
+              label: blockLabel(block),
+            })),
+          },
         ];
       } else if (part.baseKey === "reserve") {
         label = "Reserve";
@@ -193,20 +196,41 @@ function SharedSessionPageContent() {
             <section className="mb-4 rounded-2xl border border-sky-200 bg-sky-50 px-4 py-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-800">Kortversjon · stikkord</p>
               <ul className="mt-2 space-y-1.5 text-xs text-sky-950">
-                {shortOverview.map((item) => (
-                  item.kind === "heading" ? (
-                    <li key={item.key} className="pt-1 text-[11px] font-semibold uppercase tracking-wide text-sky-800">
-                      {item.label}
-                    </li>
-                  ) : (
+                {shortOverview.map((item) => {
+                  if (item.kind === "stationGroup") {
+                    return (
+                      <li key={item.key}>
+                        <div className="rounded-xl border-2 border-dashed border-sky-400 bg-white/70 px-3 py-2">
+                          <p className="text-[11px] font-semibold uppercase tracking-wide text-sky-800">
+                            {item.heading}
+                            <span className="ml-1 font-normal normal-case tracking-normal text-sky-700">
+                              kjøres samtidig · roter
+                            </span>
+                          </p>
+                          <ul className="mt-1.5 space-y-1.5">
+                            {item.items.map((stationItem) => (
+                              <li key={stationItem.key} className="flex flex-wrap items-baseline gap-x-2">
+                                <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
+                                  <span className="font-medium">{stationItem.label}</span>
+                                  <span className="text-sky-700">{stationItem.duration}m</span>
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </li>
+                    );
+                  }
+
+                  return (
                     <li key={item.key} className="flex flex-wrap items-baseline gap-x-2">
                       <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-white px-2.5 py-1">
                         <span className="font-medium">{item.label}</span>
                         <span className="text-sky-700">{item.duration}m</span>
                       </span>
                     </li>
-                  )
-                ))}
+                  );
+                })}
               </ul>
             </section>
           ) : null}

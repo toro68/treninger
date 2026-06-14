@@ -1,5 +1,6 @@
 import { allExercises, Exercise, isExerciseTheme, type ExerciseSource } from "@/data/exercises";
 import { sessionTheoryItems } from "@/data/sessionTheory";
+import { normalizeStationSectionMetadata } from "@/store/sessionSections";
 import type { DurationUnit, SessionBlock } from "@/store/sessionStore";
 
 const EXERCISE_CATEGORIES = new Set<Exercise["category"]>([
@@ -471,7 +472,7 @@ const mergeWithPlannedOrder = (
     }
   });
 
-  return merged;
+  return normalizeStationSectionMetadata(merged) ?? merged;
 };
 
 export const createSharedSessionToken = ({

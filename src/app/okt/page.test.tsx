@@ -180,7 +180,7 @@ describe("SharedSessionPage", () => {
 
     expect(shortOverview).not.toBeNull();
     expect(within(shortOverview!).getAllByText("Stasjoner:")).toHaveLength(2);
-    expect(shortOverview!.textContent).toContain("Skadefri5mLånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v515mStasjoner:Rask 2v212m2v2 i midtsirkel med vegger12mStasjoner:Langpasning på tvers av banen (2 og 2)10mSkudd10mSpill: 2 lag, 1 bane25m");
+    expect(shortOverview!.textContent).toContain("Skadefri5mLånå - rondo 2v2v2 / 3v3v3 / 4v4v4 / 5v5v515mStasjoner:kjøres samtidig · roterRask 2v212m2v2 i midtsirkel med vegger12mStasjoner:kjøres samtidig · roterLangpasning på tvers av banen (2 og 2)10mSkudd10mSpill: 2 lag, 1 bane25m");
   });
 
   it("does not group station-category exercises without planning metadata as stations", () => {
