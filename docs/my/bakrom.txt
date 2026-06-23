@@ -1,0 +1,45 @@
+Kjerneprinsipper for å angripe bakrommet
+1. Konstant trussel — minst én spiss skal alltid true bakrom
+
+A09-bjarte-lunde-aarsheim-overgang.txt:358-362: «Minst en av spissene (helst begge) skal alltid true bakrom.» Timing/relasjon mellom pasningslegger og løper er avgjørende. Møter en spiss, skal kant overta bakromstrusselen. Fordel: lav risiko og god balanse om forsøket mislykkes.
+Med to spisser: én truer bak midtstopper/back, den andre truer mellom midtstopperne eller med bueløp (A09 L1294-1296).
+2. Samtidige bevegelser — møt og strekk
+
+Juventus-analysen (A01-even-odegard-352.txt:1465-1500): én spiss møter (drar med stopper), den andre/indreløper starter i bakrom — pasning på én berøring fra sentral midtbane (Pirlo). 34 av 87 mål (39 %) kom etter gjennombrudd i bakrom, oftest spiss eller indreløper.
+Møtende bevegelse utløser gjennomløp fra tredjemann — klassisk tredjemannsspill.
+3. Hvem løper, og hvorfra pasningen slås, betyr mye
+
+RBK-analysen (A18-hiep-tran-angrep-etablert.txt:1140-1150): gjennombrudd i bakrom mellom motstanders midtstopper og back via relasjonen indreløper–ving–back (direkte på ving, over-/underlapp på back, eller indreløper på løp). Oftest indreløper som går, pasningen slås fra bakre ledd («fra framrom», over to pressledd).
+Barcelona derimot (A18 L1780-1790): truer bakrom konstant, men slår bare bakromspasningen høyt i banen — ellers velges «sikker» pasning. Trusselen brukes mest til å skyve motstanderen lav og skape rom i mellomrom.
+4. Bakrom i overgangsspillet — første pasning rett i bakrom
+
+A09-bjarte-lunde-aarsheim-overgang.txt:300-305: Står motstander høyt med bakre firer, skal 1. pasningen etter brudd gå direkte i bakrom mens spissene allerede er på vei. «Angripe bakrom så ofte og så tidlig som mulig» mot lag som slipper mye folk frem.
+A01-even-odegard-352.txt:845-848: 11 mål etter gjennombrudd i bakrom, 8 av dem etter overgang — lag mangler bakromskontroll og blir løpt fra.
+5. Bakrom vs. mellomrom — bruk trusselen til å åpne det andre rommet
+
+A09-bjarte-lunde-aarsheim-overgang.txt:369-378 og A22-dag-riisnas-sideback.txt:828: «Ta det motstanderen gir bort. Noen ganger er det bakrom, noen ganger er det mellomrom.» Har forsvaret falt pga. bakromstrussel → angrip mellomrommet, og motsatt.
+6. Effektivitet — bakrom er den mest scoringsfarlige gjennombruddsformen
+
+EM-analysen (A06-oyvind-iversen-sentral-midt.txt:11440): av 15 assists fra sentrale midtbanespillere i EURO 2012 kom 7 etter gjennomspill i bakrom — flest av alle kategorier. Mønsteret: romtrussel i forkant, så gjennombruddspasning rettvendt.
+Kort oppsummert for trening: tren på (1) timing mellom pasningslegger og løper, (2) møt-og-strekk-bevegelser med tredjemann, (3) løp i kanalen mellom stopper og back, og (4) beslutningen bakrom vs. mellomrom basert på om forsvaret står høyt eller har falt. 
+
+58 treff i øvelsesdatabasen. Her er de mest relevante for temaet «angripe bakrommet», gruppert som en mulig øktoppbygging:
+
+Anbefalte øvelser
+Del 1 – Mønster/teknikk (stasjon)
+
+manc-app-02-att-mid-layoff-def-mid-pass-behind-forward – Avlegg fra 10-er til 6-er, bakromspasning til spiss (s. 119): møt-og-strekk + tredjemann, akkurat mønsteret fra Juventus/RBK-analysene
+manc-runs-from-deep-crossing-finishing-functional – Dype bakromsløp med innlegg og avslutning (s. 106): timing av løp mellom stopper og back, maks 2 touch
+drillo-langpasning-direkte-bakrom – Langpasning direkte i bakrom: 1. pasning etter brudd, som i A09 (overgangsspill)
+Del 2 – Spill med retning og gjennombruddsbelønning
+
+hyballa-killer-1 – Gjennombruddspasning i 4v3
+hyballa-killer-2 – 8v6 med gjennombruddssoner
+manc-break-line-directional-4v4-end-zone-possession – Bryt ledd i 4v4 endesonespill: ekstra poeng for penetrerende pasning
+dbu-spill-paa-3-mann – Spill på 3. mann (tredjemannsløp i bakrom)
+Del 3 – Kampnært
+
+manc-functional-training-10v8 – Side-diamant 10v8: motta mellom ledd → avlegg → gjennombruddspasning på spissens bakromsløp
+uefa-a10-01 – Assist fase 1: Gk+7v7+Gk med låste linjer
+dbu-klassisk-kontra – Klassisk kontraangrep (bakrom i overgang, jf. A09)
+Rød tråd fra UEFA-oppgavene: alle øvelsene trener enten timing pasningslegger–løper, møt-og-strekk med tredjemann, eller beslutningen bakrom vs. mellomrom. 
