@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   // Delte øktplaner skal være offentlig tilgjengelig uten innlogging.
   // Resten av appen (å sette opp treninger mm.) krever fortsatt pålogging.
   if (request.nextUrl.pathname === "/okt") {
