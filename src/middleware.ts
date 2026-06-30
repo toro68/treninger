@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export function middleware(request: NextRequest) {
+  // Delte øktplaner skal være offentlig tilgjengelig uten innlogging.
+  // Resten av appen (å sette opp treninger mm.) krever fortsatt pålogging.
+  if (request.nextUrl.pathname === "/okt") {
+    return NextResponse.next();
+  }
+
   const authHeader = request.headers.get("authorization");
 
   if (authHeader) {
